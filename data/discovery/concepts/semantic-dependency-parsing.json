@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "semantic-dependency-parsing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yzhangcs/parser",
+      "status": "candidate-context",
+      "text": ":rocket: State-of-the-art parsers for natural language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yzhangcs/parser",
+      "status": "candidate-context",
+      "text": "[![build](https://img.shields.io/github/actions/workflow/status/yzhangcs/parser/build.yml?branch=main&style=flat-square)](https://github.com/yzhangcs/parser/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yzhangcs/parser",
+      "status": "candidate",
+      "text": "[![build](https://img.shields.io/github/actions/workflow/status/yzhangcs/parser/build.yml?branch=main&style=flat-square)](https://github.com/yzhangcs/parser/actions)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "semantic-dependency-parsing",
+  "concept_id": "semantic-dependency-parsing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "yzhangcs/parser"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "semantic-dependency-parsing",
+      "sense_id": "semantic-dependency-parsing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

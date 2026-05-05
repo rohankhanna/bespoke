@@ -911,6 +911,66 @@
       "source_repo": "RustCrypto/nacl-compat",
       "status": "candidate-context",
       "text": "Security Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octopus-network/ibc-proto-rs",
+      "status": "candidate-context",
+      "text": "Rust crate for interacting with Cosmos and IBC structs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octopus-network/ibc-proto-rs",
+      "status": "candidate-context",
+      "text": "Security Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octopus-network/ibc-rs",
+      "status": "candidate-context",
+      "text": "Rust implementation of the Inter-Blockchain Communication (IBC) protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octopus-network/ibc-rs",
+      "status": "candidate-context",
+      "text": "Security Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChorusOne/ibc-rs",
+      "status": "candidate-context",
+      "text": "IBC modules and relayer - Formal specifications and Rust implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChorusOne/ibc-rs",
+      "status": "candidate-context",
+      "text": "Security Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iqlusioninc/abscissa",
+      "status": "candidate-context",
+      "text": "Application microframework with command-line option parsing, configuration, error handling, logging, and shell interactions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iqlusioninc/abscissa",
+      "status": "candidate-context",
+      "text": "Security Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/weaver",
+      "status": "candidate-context",
+      "text": "OTel Weaver lets you easily develop, validate, document, and deploy semantic conventions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/weaver",
+      "status": "candidate-context",
+      "text": "Security Audit"
     }
   ],
   "candidate_glosses": [
@@ -1361,6 +1421,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "RustCrypto/nacl-compat",
+      "status": "candidate",
+      "text": "Security Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octopus-network/ibc-proto-rs",
+      "status": "candidate",
+      "text": "Security Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octopus-network/ibc-rs",
+      "status": "candidate",
+      "text": "Security Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChorusOne/ibc-rs",
+      "status": "candidate",
+      "text": "Security Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iqlusioninc/abscissa",
+      "status": "candidate",
+      "text": "Security Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/weaver",
       "status": "candidate",
       "text": "Security Audit"
     }
@@ -2360,11 +2450,77 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "FeeiCN/Cobra"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "shekohex/allo-isolate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/security_audit.yml",
+      "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "GitoxideLabs/cargo-smart-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/audit.yaml",
+      "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/audit.yaml",
+      "source_repo": "octopus-network/ibc-proto-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/audit.yaml",
+      "source_repo": "octopus-network/ibc-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "FeeiCN/Cobra"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/audit.yaml",
+      "source_repo": "ChorusOne/ibc-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/security-audit.yml",
+      "source_repo": "iqlusioninc/abscissa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "open-telemetry/weaver"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

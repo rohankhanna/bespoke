@@ -1,0 +1,310 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "browser-actions/setup-chrome@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Vinyzu/Botright",
+      "target": "vinyzu/chrome-fingerprints",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Vinyzu/Botright",
+      "target": "kaliiiiiiiiii/undetected-playwright-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Vinyzu/Botright",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Vinyzu/Botright",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Vinyzu/Botright",
+      "target": "browser-actions/setup-chrome@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Vinyzu/Botright",
+      "target": "reCognizer CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vinyzu/Botright",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vinyzu/Botright",
+      "target": "bots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vinyzu/Botright",
+      "target": "botting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vinyzu/Botright",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vinyzu/Botright",
+      "target": "captcha",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vinyzu/Botright",
+      "target": "captcha-solver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vinyzu/Botright",
+      "target": "captcha-solving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vinyzu/Botright",
+      "target": "chrome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vinyzu/Botright",
+      "target": "chromium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vinyzu/Botright",
+      "target": "playwright",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vinyzu/Botright",
+      "target": "stealth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vinyzu/Botright",
+      "target": "undectectable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vinyzu/Botright",
+      "target": "undetected",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:46:48.244219+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9890
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 672
+    },
+    {
+      "path": "requirements.txt",
+      "size": 462
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1685
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Botright, the most advance undetected, fingerprint-changing, captcha-solving, open-source automation framework. Build on Playwright, its as easy to use as it is to extend your code. Solving your Captchas for free with AI.",
+    "fork": false,
+    "full_name": "Vinyzu/Botright",
+    "html_url": "https://github.com/Vinyzu/Botright",
+    "language": "Python",
+    "pushed_at": "2026-03-29T11:12:17Z",
+    "stargazers_count": 978,
+    "topics": [
+      "ai",
+      "automation",
+      "bots",
+      "botting",
+      "browser",
+      "captcha",
+      "captcha-solver",
+      "captcha-solving",
+      "chrome",
+      "chromium",
+      "playwright",
+      "stealth",
+      "undectectable",
+      "undetected"
+    ],
+    "updated_at": "2026-05-05T14:18:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaliiiiiiiiii/undetected-playwright-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vinyzu/chrome-fingerprints",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "reCognizer CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "reCognizer CI"
+    },
+    {
+      "context_snippet": "![Tests & Linting](https://github.com/Vinyzu/botright/actions/workflows/ci.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "![Tests & Linting](https://github.com/Vinyzu/botright/actions/workflows/ci.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bots"
+    },
+    {
+      "context_snippet": "![Tests & Linting](https://github.com/Vinyzu/botright/actions/workflows/ci.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "botting"
+    },
+    {
+      "context_snippet": "![Tests & Linting](https://github.com/Vinyzu/botright/actions/workflows/ci.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "![Tests & Linting](https://github.com/Vinyzu/botright/actions/workflows/ci.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "captcha"
+    },
+    {
+      "context_snippet": "![Tests & Linting](https://github.com/Vinyzu/botright/actions/workflows/ci.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "captcha-solver"
+    },
+    {
+      "context_snippet": "![Tests & Linting](https://github.com/Vinyzu/botright/actions/workflows/ci.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "captcha-solving"
+    },
+    {
+      "context_snippet": "![Tests & Linting](https://github.com/Vinyzu/botright/actions/workflows/ci.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome"
+    },
+    {
+      "context_snippet": "![Tests & Linting](https://github.com/Vinyzu/botright/actions/workflows/ci.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromium"
+    },
+    {
+      "context_snippet": "![Tests & Linting](https://github.com/Vinyzu/botright/actions/workflows/ci.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "playwright"
+    },
+    {
+      "context_snippet": "![Tests & Linting](https://github.com/Vinyzu/botright/actions/workflows/ci.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stealth"
+    },
+    {
+      "context_snippet": "![Tests & Linting](https://github.com/Vinyzu/botright/actions/workflows/ci.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "undectectable"
+    },
+    {
+      "context_snippet": "![Tests & Linting](https://github.com/Vinyzu/botright/actions/workflows/ci.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "undetected"
+    }
+  ]
+}

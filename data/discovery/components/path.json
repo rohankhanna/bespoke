@@ -1,7 +1,7 @@
 {
   "component": "path",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -82,6 +82,11 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "effofxprime/Cosmregistry-API"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sony/nnabla-browser"
     }
   ]
 }

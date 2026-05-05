@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T16:04:48.395118+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 181
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Character classes for traindet",
+    "fork": false,
+    "full_name": "hsivonen/detector_char_classes",
+    "html_url": "https://github.com/hsivonen/detector_char_classes",
+    "language": "Rust",
+    "pushed_at": "2021-06-15T13:07:13Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2020-04-29T08:21:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

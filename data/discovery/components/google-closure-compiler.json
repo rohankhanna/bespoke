@@ -1,7 +1,7 @@
 {
   "component": "google-closure-compiler",
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -57,6 +57,11 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "wamp-proto/wamp-xbr"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4"
     }
   ]
 }

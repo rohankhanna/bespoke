@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "rust-next"
+    "rust-next",
+    "Rust Next"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -127,6 +128,18 @@
       "source_repo": "rust-cli/config-rs",
       "status": "candidate-context",
       "text": "rust-next"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/weaver",
+      "status": "candidate-context",
+      "text": "OTel Weaver lets you easily develop, validate, document, and deploy semantic conventions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/weaver",
+      "status": "candidate-context",
+      "text": "Rust Next"
     }
   ],
   "candidate_glosses": [
@@ -189,9 +202,51 @@
       "source_repo": "rust-cli/config-rs",
       "status": "candidate",
       "text": "rust-next"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/weaver",
+      "status": "candidate",
+      "text": "Rust Next"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12022,
+      "status": "candidate",
+      "text": "scale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11842,
+      "status": "candidate",
+      "text": "lie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10999,
+      "status": "candidate",
+      "text": "aecium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10999,
+      "status": "candidate",
+      "text": "canker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10999,
+      "status": "candidate",
+      "text": "corrosion"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "rust-next",
   "concept_id": "rust-next",
@@ -406,11 +461,29 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": ".github/workflows/rust-next.yml",
       "source_repo": "rust-cli/config-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/rust-next.yml",
+      "source_repo": "GitoxideLabs/cargo-smart-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/rust-next.yml",
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/rust-next.yml",
+      "source_repo": "open-telemetry/weaver"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

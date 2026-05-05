@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T17:05:49.944929+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9887
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simple configuration and extra tools for NVIM + LSP + Idris2",
+    "fork": false,
+    "full_name": "idris-community/idris2-nvim",
+    "html_url": "https://github.com/idris-community/idris2-nvim",
+    "language": "Lua",
+    "pushed_at": "2026-04-05T18:33:03Z",
+    "stargazers_count": 58,
+    "topics": [],
+    "updated_at": "2026-04-16T13:02:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

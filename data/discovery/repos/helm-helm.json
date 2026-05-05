@@ -347,7 +347,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T03:57:28.058167+00:00",
+  "fetched_at": "2026-05-05T16:08:29.904555+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -375,7 +375,7 @@
     },
     {
       "path": ".github/workflows/release.yml",
-      "size": 4286
+      "size": 4325
     },
     {
       "path": ".github/workflows/scorecards.yml",
@@ -395,8 +395,8 @@
     "full_name": "helm/helm",
     "html_url": "https://github.com/helm/helm",
     "language": "Go",
-    "pushed_at": "2026-05-02T12:30:56Z",
-    "stargazers_count": 29773,
+    "pushed_at": "2026-05-04T23:46:58Z",
+    "stargazers_count": 29778,
     "topics": [
       "chart",
       "charts",
@@ -404,7 +404,7 @@
       "helm",
       "kubernetes"
     ],
-    "updated_at": "2026-05-02T16:17:16Z"
+    "updated_at": "2026-05-05T02:00:20Z"
   },
   "repo_links": [],
   "terms": [

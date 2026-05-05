@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Create contours from non-gridded data with meandering triangles."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This library computes contour polygons by applying [meandering triangles](https://blog.bruce-hill.com/meandering-triangles) to an array of points with arbitrary 2D coordinates (_x_, _y_) holding numeric values _z_. To compute contours on gridded coordinates, see [d3-contour](htt\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This library computes contour polygons by applying [meandering triangles](https://blog.bruce-hill.com/meandering-triangles) to an array of points with arbitrary 2D coordinates (_x_, _y_) holding numeric values _z_. To compute contours on gridded coordinates, see [d3-contour](htt\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "d3-module",
+      "sense_id": "d3-module#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "d3-module",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "d3-module",
+  "observation_id": "f8d868ff6077d0f8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "d3-module",
+  "source_context_snippet": "This library computes contour polygons by applying [meandering triangles](https://blog.bruce-hill.com/meandering-triangles) to an array of points with arbitrary 2D coordinates (_x_, _y_) holding numeric values _z_. To compute contours on gridded coordinates, see [d3-contour](htt\u2026",
+  "source_file": null,
+  "source_repo": "Fil/d3-tricontour",
+  "source_repo_description": "Create contours from non-gridded data with meandering triangles."
+}

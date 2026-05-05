@@ -8131,6 +8131,42 @@
       "source_repo": "triton-inference-server/model_navigator",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DerrickXuNu/OpenCOOD",
+      "status": "candidate-context",
+      "text": "[ICRA 2022] An opensource framework for cooperative detection. Official implementation for OPV2V."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DerrickXuNu/OpenCOOD",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clovaai/rexnet",
+      "status": "candidate-context",
+      "text": "Official Pytorch implementation of ReXNet (Rank eXpansion Network) with pretrained models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/rexnet",
+      "status": "candidate-context",
+      "text": "**Dongyoon Han, Sangdoo Yun, Byeongho Heo, and YoungJoon Yoo** | [Paper](https://arxiv.org/abs/2007.00992) | [Pretrained Models](#pretrained)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/transfer-learning-conv-ai",
+      "status": "candidate-context",
+      "text": "\ud83e\udd84 State-of-the-Art Conversational AI with Transfer Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/transfer-learning-conv-ai",
+      "status": "candidate-context",
+      "text": "The present repo contains the code accompanying the blog post [\ud83e\udd84 How to build a State-of-the-Art Conversational AI with Transfer Learning](https://medium.com/@Thomwolf/how-to-build-a-state-of-the-art-conversational-ai-with-transfer-learning-2d818ac26313)."
     }
   ],
   "candidate_glosses": [
@@ -12201,6 +12237,24 @@
       "source_repo": "triton-inference-server/model_navigator",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DerrickXuNu/OpenCOOD",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/rexnet",
+      "status": "candidate",
+      "text": "**Dongyoon Han, Sangdoo Yun, Byeongho Heo, and YoungJoon Yoo** | [Paper](https://arxiv.org/abs/2007.00992) | [Pretrained Models](#pretrained)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/transfer-learning-conv-ai",
+      "status": "candidate",
+      "text": "The present repo contains the code accompanying the blog post [\ud83e\udd84 How to build a State-of-the-Art Conversational AI with Transfer Learning](https://medium.com/@Thomwolf/how-to-build-a-state-of-the-art-conversational-ai-with-transfer-learning-2d818ac26313)."
     }
   ],
   "candidate_related_terms": [],
@@ -20272,11 +20326,317 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/OpenCOOD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "baal-org/baal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/GraNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/rexnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "meetps/pytorch-semseg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "lukashermann/hulc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/generative-evaluation-prdc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/vector-quantize-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "axelspringer/DeepPhonemizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/transfer-learning-conv-ai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "AssemblyAI-Community/MinImagen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "iver56/torch-audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-pycharm-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

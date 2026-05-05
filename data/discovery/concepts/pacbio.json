@@ -103,6 +103,18 @@
       "source_repo": "PacificBiosciences/IsoSeq",
       "status": "candidate-context",
       "text": "<h1 align=\"center\"><img width=\"300px\" src=\"doc/img/isoseq.png\"/></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PacificBiosciences/ccs",
+      "status": "candidate-context",
+      "text": "CCS: Generate Highly Accurate Single-Molecule Consensus Reads (HiFi Reads)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PacificBiosciences/ccs",
+      "status": "candidate-context",
+      "text": "<a href=\"https://ccs.how/\">"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "PacificBiosciences/IsoSeq",
       "status": "candidate",
       "text": "<h1 align=\"center\"><img width=\"300px\" src=\"doc/img/isoseq.png\"/></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PacificBiosciences/ccs",
+      "status": "candidate",
+      "text": "<a href=\"https://ccs.how/\">"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,17 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "PacificBiosciences/IsoSeq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "PacificBiosciences/ccs"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

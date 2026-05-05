@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Create Archive"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulse-browser/firefox-qr-generator",
+      "status": "candidate-context",
+      "text": "A firefox-qr-generator extension available for creating a qr-code on the current website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulse-browser/firefox-qr-generator",
+      "status": "candidate-context",
+      "text": "Create Archive"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulse-browser/firefox-qr-generator",
+      "status": "candidate",
+      "text": "Create Archive"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 49273,
+      "status": "candidate",
+      "text": "tar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13184,
+      "status": "candidate",
+      "text": "jar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13184,
+      "status": "candidate",
+      "text": "jarred"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13184,
+      "status": "candidate",
+      "text": "jsr"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12064,
+      "status": "candidate",
+      "text": "archived"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create Archive",
+  "concept_id": "create-archive",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pulse-browser/firefox-qr-generator"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create Archive",
+      "sense_id": "create-archive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rust By Example \u4e2d\u6587\u7248(\u5305\u542b\u5728\u7ebf\u4ee3\u7801\u7f16\u8f91\u5668)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Build Status](https://github.com/rust-lang-cn/rust-by-example-cn/workflows/CI/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/rust-lang-cn/rust-by-example-cn/workflows/CI/badge.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39765110,
+      "status": "candidate",
+      "text": "rusty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39736344,
+      "status": "candidate",
+      "text": "colored"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39731681,
+      "status": "candidate",
+      "text": "eat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39730257,
+      "status": "candidate",
+      "text": "corrode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39728489,
+      "status": "candidate",
+      "text": "chromatic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rust",
+      "sense_id": "rust#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 66041,
+      "status": "candidate",
+      "text": "chromatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10036,
+      "status": "candidate",
+      "text": "corrode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5037,
+      "status": "candidate",
+      "text": "rusty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3051,
+      "status": "candidate",
+      "text": "eat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1014,
+      "status": "candidate",
+      "text": "rust fungus"
+    }
+  ],
+  "concept_id": "rust",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rust",
+  "observation_id": "5fc8a7d2edd18e28",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "rust",
+  "source_context_snippet": "![Build Status](https://github.com/rust-lang-cn/rust-by-example-cn/workflows/CI/badge.svg)",
+  "source_file": null,
+  "source_repo": "rust-lang-cn/rust-by-example-cn",
+  "source_repo_description": "Rust By Example \u4e2d\u6587\u7248(\u5305\u542b\u5728\u7ebf\u4ee3\u7801\u7f16\u8f91\u5668)"
+}

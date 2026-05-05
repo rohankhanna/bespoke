@@ -715,6 +715,18 @@
       "source_repo": "TigerResearch/TigerBot",
       "status": "candidate-context",
       "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Vinyzu/chrome-fingerprints",
+      "status": "candidate-context",
+      "text": "A Collection of 10.000 collected Windows Chrome Fingerprints. Usable with an easy-to-use API, available as a compressed (lzma) or full-size Json (view Releases). Its just 1.4mb in size in compressed form, and fast in read times."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vinyzu/chrome-fingerprints",
+      "status": "candidate-context",
+      "text": "![Tests & Linting](https://github.com/Vinyzu/chrome-fingerprints/actions/workflows/tests.yml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -1071,6 +1083,12 @@
       "source_repo": "TigerResearch/TigerBot",
       "status": "candidate",
       "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vinyzu/chrome-fingerprints",
+      "status": "candidate",
+      "text": "![Tests & Linting](https://github.com/Vinyzu/chrome-fingerprints/actions/workflows/tests.yml/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -1644,11 +1662,29 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "dat-ecosystem-archive/datBase"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Vinyzu/chrome-fingerprints"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

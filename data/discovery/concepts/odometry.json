@@ -79,6 +79,42 @@
       "source_repo": "url-kaist/outlier-robust-radar-odometry",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=materials/orora_title_video.gif alt=\"animated\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ntnu-arl/lidar_degeneracy_datasets",
+      "status": "candidate-context",
+      "text": "LiDAR degeneracy dataset for LiDAR-radar-inertial fusion methods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ntnu-arl/lidar_degeneracy_datasets",
+      "status": "candidate-context",
+      "text": "Dataset associated with submission for handling LiDAR-degenerative environments through LiDAR-radar-inertial fusion with factor graphs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MAPIRlab/rf2o_laser_odometry",
+      "status": "candidate-context",
+      "text": "Estimation of 2D odometry based on planar laser scans. Useful for mobile robots with innacurate base odometry. For full description of the algorithm, please refer to: Planar Odometry from a Radial Laser Scanner. A Range Flow-based Approach. ICRA 2016 Available at: http://mapir.isa.uma.es/mapirwebsite/index.php/mapir-downloads/papers/217"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MAPIRlab/rf2o_laser_odometry",
+      "status": "candidate-context",
+      "text": "Estimation of 2D odometry based on planar laser scans. rf2o is a fast and precise method to estimate the planar motion of a lidar from consecutive range scans. Useful for mobile robots with inaccurate wheel odometry."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry",
+      "status": "candidate-context",
+      "text": "[IEEE ICRA'23] A new lightweight LiDAR-inertial odometry algorithm with a novel coarse-to-fine approach in constructing continuous-time trajectories for precise motion correction."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry",
+      "status": "candidate-context",
+      "text": "DLIO is a new lightweight LiDAR-inertial odometry algorithm with a novel coarse-to-fine approach in constructing continuous-time trajectories for precise motion correction. It features several algorithmic improvements over its predecessor, [DLO](https://github.com/vectr-ucla/dir\u2026"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +153,24 @@
       "source_repo": "url-kaist/outlier-robust-radar-odometry",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=materials/orora_title_video.gif alt=\"animated\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ntnu-arl/lidar_degeneracy_datasets",
+      "status": "candidate",
+      "text": "Dataset associated with submission for handling LiDAR-degenerative environments through LiDAR-radar-inertial fusion with factor graphs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MAPIRlab/rf2o_laser_odometry",
+      "status": "candidate",
+      "text": "Estimation of 2D odometry based on planar laser scans. rf2o is a fast and precise method to estimate the planar motion of a lidar from consecutive range scans. Useful for mobile robots with inaccurate wheel odometry."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry",
+      "status": "candidate",
+      "text": "DLIO is a new lightweight LiDAR-inertial odometry algorithm with a novel coarse-to-fine approach in constructing continuous-time trajectories for precise motion correction. It features several algorithmic improvements over its predecessor, [DLO](https://github.com/vectr-ucla/dir\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -280,11 +334,35 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ntnu-arl/lidar_degeneracy_datasets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "MAPIRlab/rf2o_laser_odometry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1366,6 +1366,30 @@
       "source_repo": "4kills/go-libdeflate",
       "status": "candidate-context",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libcpr/cpr",
+      "status": "candidate-context",
+      "text": "C++ Requests: Curl for People, a spiritual port of Python Requests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libcpr/cpr",
+      "status": "candidate-context",
+      "text": "[![Documentation](https://img.shields.io/badge/docs-online-informational?style=flat&link=https://docs.libcpr.dev/)](https://docs.libcpr.dev/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Boddlnagg/midir",
+      "status": "candidate-context",
+      "text": "Cross-platform realtime MIDI processing in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Boddlnagg/midir",
+      "status": "candidate-context",
+      "text": "Cross-platform, realtime MIDI processing in Rust."
     }
   ],
   "candidate_glosses": [
@@ -2046,6 +2070,18 @@
       "source_repo": "4kills/go-libdeflate",
       "status": "candidate",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libcpr/cpr",
+      "status": "candidate",
+      "text": "[![Documentation](https://img.shields.io/badge/docs-online-informational?style=flat&link=https://docs.libcpr.dev/)](https://docs.libcpr.dev/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Boddlnagg/midir",
+      "status": "candidate",
+      "text": "Cross-platform, realtime MIDI processing in Rust."
     }
   ],
   "candidate_related_terms": [
@@ -3028,11 +3064,41 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "AltF02/mouse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "libcpr/cpr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "AltF02/mouse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Boddlnagg/midir"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

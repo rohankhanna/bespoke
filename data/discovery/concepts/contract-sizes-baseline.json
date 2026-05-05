@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Contract Sizes Baseline"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "near/near-sdk-rs",
+      "status": "candidate-context",
+      "text": "Rust library for writing NEAR smart contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-sdk-rs",
+      "status": "candidate-context",
+      "text": "Contract Sizes Baseline"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-sdk-rs",
+      "status": "candidate",
+      "text": "Contract Sizes Baseline"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19654,
+      "status": "candidate",
+      "text": "shorts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19559,
+      "status": "candidate",
+      "text": "deal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19436,
+      "status": "candidate",
+      "text": "girdle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19436,
+      "status": "candidate",
+      "text": "minor mode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19436,
+      "status": "candidate",
+      "text": "radical"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Contract Sizes Baseline",
+  "concept_id": "contract-sizes-baseline",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/sizes_baseline.yml",
+      "source_repo": "near/near-sdk-rs"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Contract Sizes Baseline",
+      "sense_id": "contract-sizes-baseline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

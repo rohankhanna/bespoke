@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official ROS drivers for Ouster sensors (OS0, OS1, OS2, OSDome)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037517,
+      "status": "candidate",
+      "text": "ousting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037660,
+      "status": "candidate",
+      "text": "eviction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037596,
+      "status": "candidate",
+      "text": "expulsion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037377,
+      "status": "candidate",
+      "text": "dismiss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037253,
+      "status": "candidate",
+      "text": "dismissal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ouster",
+      "sense_id": "ouster#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2019,
+      "status": "candidate",
+      "text": "ousting"
+    }
+  ],
+  "concept_id": "ouster",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ouster",
+  "observation_id": "9f50f88f31287f8d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "ouster",
+  "source_context_snippet": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |",
+  "source_file": null,
+  "source_repo": "ouster-lidar/ouster-ros",
+  "source_repo_description": "Official ROS drivers for Ouster sensors (OS0, OS1, OS2, OSDome)"
+}

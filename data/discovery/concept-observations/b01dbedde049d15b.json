@@ -84,7 +84,7 @@
   "normalized_form": "example-for-alert-with-commit-comment",
   "observation_id": "b01dbedde049d15b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Example for alert with commit comment",
   "source_context_snippet": "Example for alert with commit comment",
   "source_file": ".github/workflows/commit-comment.yml",

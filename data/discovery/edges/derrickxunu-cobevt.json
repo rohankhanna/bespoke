@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "target": "google-research/maxim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "target": "google-research/maxvit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "target": "autonomous-vehicles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "target": "bev-perception",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "target": "collaborative-perception",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "target": "multi-agent-perception",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "target": "nuscenes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "target": "segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "target": "semantic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "DerrickXuNu/CoBEVT"
+}

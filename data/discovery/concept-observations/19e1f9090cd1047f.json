@@ -84,7 +84,7 @@
   "normalized_form": "lock-closed-issues",
   "observation_id": "19e1f9090cd1047f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Lock Closed Issues",
   "source_context_snippet": "Lock Closed Issues",
   "source_file": ".github/workflows/lock-closed-issues.yml",

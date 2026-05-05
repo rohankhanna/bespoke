@@ -1,0 +1,359 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alex313031/thorium-legacy",
+      "target": "alex313031/thorium-win7",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alex313031/thorium-legacy",
+      "target": "alex313031/chromiumos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alex313031/thorium-legacy",
+      "target": "bromite/bromite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alex313031/thorium-legacy",
+      "target": "eloston/ungoogled-chromium",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium-legacy",
+      "target": "chromium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium-legacy",
+      "target": "supermium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium-legacy",
+      "target": "thorium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium-legacy",
+      "target": "thorium-browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium-legacy",
+      "target": "web-browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium-legacy",
+      "target": "windows-7",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium-legacy",
+      "target": "windows-7-faster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium-legacy",
+      "target": "windows-7-sp1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium-legacy",
+      "target": "windows-8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium-legacy",
+      "target": "windows-8-1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium-legacy",
+      "target": "windows-server-2012",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium-legacy",
+      "target": "windows-vista",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium-legacy",
+      "target": "windows-xp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium-legacy",
+      "target": "windows-xp-compatible",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium-legacy",
+      "target": "windows-xp-sp3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium-legacy",
+      "target": "windows7",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium-legacy",
+      "target": "windows7-8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium-legacy",
+      "target": "windows8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium-legacy",
+      "target": "windows8-1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium-legacy",
+      "target": "windowsxp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:04:26.471521+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8921
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repo for Windows XP/Vista & 7/8/8.1 Thorium Builds",
+    "fork": false,
+    "full_name": "Alex313031/thorium-legacy",
+    "html_url": "https://github.com/Alex313031/thorium-legacy",
+    "language": "C++",
+    "pushed_at": "2024-11-13T02:54:54Z",
+    "stargazers_count": 338,
+    "topics": [
+      "chromium",
+      "supermium",
+      "thorium",
+      "thorium-browser",
+      "web-browser",
+      "windows-7",
+      "windows-7-faster",
+      "windows-7-sp1",
+      "windows-8",
+      "windows-8-1",
+      "windows-server-2012",
+      "windows-vista",
+      "windows-xp",
+      "windows-xp-compatible",
+      "windows-xp-sp3",
+      "windows7",
+      "windows7-8",
+      "windows8",
+      "windows8-1",
+      "windowsxp"
+    ],
+    "updated_at": "2026-05-04T18:07:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alex313031/chromiumos",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alex313031/thorium-win7",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bromite/bromite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eloston/ungoogled-chromium",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-win7?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-win7?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromium"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-win7?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-win7?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "supermium"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-win7?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-win7?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thorium"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-win7?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-win7?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thorium-browser"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-win7?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-win7?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-browser"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-win7?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-win7?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-7"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-win7?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-win7?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-7-faster"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-win7?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-win7?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-7-sp1"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-win7?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-win7?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-8"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-win7?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-win7?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-8-1"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-win7?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-win7?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-server-2012"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-win7?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-win7?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-vista"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-win7?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-win7?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-xp"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-win7?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-win7?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-xp-compatible"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-win7?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-win7?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-xp-sp3"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-win7?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-win7?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows7"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-win7?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-win7?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows7-8"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-win7?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-win7?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows8"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-win7?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-win7?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows8-1"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-win7?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-win7?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windowsxp"
+    }
+  ]
+}

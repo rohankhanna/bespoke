@@ -57,6 +57,18 @@
       "source_repo": "pulumi/examples",
       "status": "candidate-context",
       "text": "Test examples"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "near/near-sdk-rs",
+      "status": "candidate-context",
+      "text": "Rust library for writing NEAR smart contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-sdk-rs",
+      "status": "candidate-context",
+      "text": "Test Examples"
     }
   ],
   "candidate_glosses": [
@@ -83,6 +95,12 @@
       "source_repo": "pulumi/examples",
       "status": "candidate",
       "text": "Test examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-sdk-rs",
+      "status": "candidate",
+      "text": "Test Examples"
     }
   ],
   "candidate_related_terms": [
@@ -150,11 +168,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/test-examples.yml",
       "source_repo": "pulumi/examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/test_examples.yml",
+      "source_repo": "near/near-sdk-rs"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

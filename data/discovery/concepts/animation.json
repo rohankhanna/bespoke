@@ -295,6 +295,18 @@
       "source_repo": "bokub/chalk-animation",
       "status": "candidate-context",
       "text": "[![Build Status](https://flat.badgen.net/github/checks/bokub/chalk-animation?label=tests)](https://github.com/bokub/chalk-animation/actions/workflows/run.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Zulko/moviepy",
+      "status": "candidate-context",
+      "text": "Video editing with Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zulko/moviepy",
+      "status": "candidate-context",
+      "text": "[![MoviePy page on the Python Package Index](https://badge.fury.io/py/moviepy.svg)](https://pypi.org/project/moviepy/) [![Discuss MoviePy on Gitter](https://img.shields.io/gitter/room/movie-py/gitter?color=46BC99&logo=gitter)](Gitter_) [![Build status on gh-actions](https://img.\u2026"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +453,12 @@
       "source_repo": "bokub/chalk-animation",
       "status": "candidate",
       "text": "[![Build Status](https://flat.badgen.net/github/checks/bokub/chalk-animation?label=tests)](https://github.com/bokub/chalk-animation/actions/workflows/run.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zulko/moviepy",
+      "status": "candidate",
+      "text": "[![MoviePy page on the Python Package Index](https://badge.fury.io/py/moviepy.svg)](https://pypi.org/project/moviepy/) [![Discuss MoviePy on Gitter](https://img.shields.io/gitter/room/movie-py/gitter?color=46BC99&logo=gitter)](Gitter_) [![Build status on gh-actions](https://img.\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -664,11 +682,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "bokub/chalk-animation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Zulko/moviepy"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

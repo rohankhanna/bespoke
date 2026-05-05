@@ -84,7 +84,7 @@
   "normalized_form": "benchmark-on-self-hosted-runners",
   "observation_id": "4dce2684b09321f1",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Benchmark on self-hosted runners",
   "source_context_snippet": "Benchmark on self-hosted runners",
   "source_file": ".github/workflows/benchmark-self-hosted.yml",

@@ -245,7 +245,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T12:56:22.352786+00:00",
+  "fetched_at": "2026-05-05T12:39:30.494557+00:00",
   "fetched_files": [
     {
       "path": "package.json",
@@ -282,9 +282,9 @@
     "html_url": "https://github.com/clj-commons/rewrite-clj",
     "language": "Clojure",
     "pushed_at": "2026-04-20T21:15:36Z",
-    "stargazers_count": 652,
+    "stargazers_count": 653,
     "topics": [],
-    "updated_at": "2026-05-01T13:24:00Z"
+    "updated_at": "2026-05-04T21:11:17Z"
   },
   "repo_links": [],
   "terms": [

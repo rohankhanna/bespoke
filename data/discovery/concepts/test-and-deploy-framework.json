@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Test and Deploy Framework"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gumob/PunycodeSwift",
+      "status": "candidate-context",
+      "text": "PunycodeSwift is a pure Swift library to allows you to encode and decode punycoded strings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gumob/PunycodeSwift",
+      "status": "candidate-context",
+      "text": "Test and Deploy Framework"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gumob/TLDExtractSwift",
+      "status": "candidate-context",
+      "text": "A pure Swift library to allows you to get the public suffix of a domain name"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gumob/TLDExtractSwift",
+      "status": "candidate-context",
+      "text": "Test and Deploy Framework"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gumob/PunycodeSwift",
+      "status": "candidate",
+      "text": "Test and Deploy Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gumob/TLDExtractSwift",
+      "status": "candidate",
+      "text": "Test and Deploy Framework"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24474,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24474,
+      "status": "candidate",
+      "text": "pulling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24474,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24360,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24098,
+      "status": "candidate",
+      "text": "implementation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test and Deploy Framework",
+  "concept_id": "test-and-deploy-framework",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "gumob/PunycodeSwift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "gumob/TLDExtractSwift"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test and Deploy Framework",
+      "sense_id": "test-and-deploy-framework#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

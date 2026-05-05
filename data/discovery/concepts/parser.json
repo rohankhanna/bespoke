@@ -1015,6 +1015,30 @@
       "source_repo": "mirage/emile",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/dinosaure/emile.svg?branch=master)](https://travis-ci.org/dinosure/emile)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "P4sca1/cron-schedule",
+      "status": "candidate-context",
+      "text": "A zero-dependency cron parser and scheduler for Node.js, Deno, Bun and the browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "P4sca1/cron-schedule",
+      "status": "candidate-context",
+      "text": "A zero-dependency cron parser and scheduler for Node.js, Deno and the browser. Published on [NPM](https://www.npmjs.com) and [JSR](https://jsr.io)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tlaplus-community/tree-sitter-tlaplus",
+      "status": "candidate-context",
+      "text": "A tree-sitter grammar for TLA\u207a and PlusCal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus-community/tree-sitter-tlaplus",
+      "status": "candidate-context",
+      "text": "[![Build & Test](https://github.com/tlaplus-community/tree-sitter-tlaplus/actions/workflows/ci.yml/badge.svg)](https://github.com/tlaplus-community/tree-sitter-tlaplus/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -1521,6 +1545,18 @@
       "source_repo": "mirage/emile",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/dinosaure/emile.svg?branch=master)](https://travis-ci.org/dinosure/emile)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "P4sca1/cron-schedule",
+      "status": "candidate",
+      "text": "A zero-dependency cron parser and scheduler for Node.js, Deno and the browser. Published on [NPM](https://www.npmjs.com) and [JSR](https://jsr.io)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus-community/tree-sitter-tlaplus",
+      "status": "candidate",
+      "text": "[![Build & Test](https://github.com/tlaplus-community/tree-sitter-tlaplus/actions/workflows/ci.yml/badge.svg)](https://github.com/tlaplus-community/tree-sitter-tlaplus/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -2170,11 +2206,29 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "mirage/emile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "P4sca1/cron-schedule"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "tlaplus-community/tree-sitter-tlaplus"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

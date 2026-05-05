@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "krdlab/setup-haxe@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haxeui/haxeui-flixel",
+      "target": "haxeui/haxeui-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haxeui/haxeui-flixel",
+      "target": "haxeui/component-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haxeui/haxeui-flixel",
+      "target": "haxeui/haxeui-guides",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "haxeui/haxeui-flixel",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "haxeui/haxeui-flixel",
+      "target": "krdlab/setup-haxe@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "haxeui/haxeui-flixel",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haxeui/haxeui-flixel",
+      "target": "flixel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haxeui/haxeui-flixel",
+      "target": "haxe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haxeui/haxeui-flixel",
+      "target": "haxeui-backend",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T15:03:47.499746+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1836
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1559
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Flixel backend of the HaxeUI framework",
+    "fork": false,
+    "full_name": "haxeui/haxeui-flixel",
+    "html_url": "https://github.com/haxeui/haxeui-flixel",
+    "language": "Haxe",
+    "pushed_at": "2025-06-27T06:40:41Z",
+    "stargazers_count": 55,
+    "topics": [
+      "flixel",
+      "gui",
+      "haxe",
+      "haxeui-backend"
+    ],
+    "updated_at": "2026-02-16T01:01:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haxeui/component-examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haxeui/haxeui-core",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haxeui/haxeui-guides",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "![build status](https://github.com/haxeui/haxeui-flixel/actions/workflows/build.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flixel"
+    },
+    {
+      "context_snippet": "![build status](https://github.com/haxeui/haxeui-flixel/actions/workflows/build.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haxe"
+    },
+    {
+      "context_snippet": "![build status](https://github.com/haxeui/haxeui-flixel/actions/workflows/build.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haxeui-backend"
+    }
+  ]
+}

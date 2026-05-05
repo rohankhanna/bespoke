@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hsivonen/any_all_workaround",
+      "target": "rust-lang/portable-simd",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:55:57.655876+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 793
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 456
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Workaround for bad LLVM codegen for boolean reductions on 32-bit ARM",
+    "fork": false,
+    "full_name": "hsivonen/any_all_workaround",
+    "html_url": "https://github.com/hsivonen/any_all_workaround",
+    "language": "Rust",
+    "pushed_at": "2024-04-23T07:55:01Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-04-09T19:10:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang/portable-simd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

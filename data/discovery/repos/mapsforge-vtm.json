@@ -1,0 +1,178 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapsforge/vtm",
+      "target": "mapsforge/mapsforge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapsforge/vtm",
+      "target": "schedul-xor/nextzen2oscimv4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapsforge/vtm",
+      "target": "osmdroid/osmdroid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapsforge/vtm",
+      "target": "cscheid/tessellate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "mapsforge/vtm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "mapsforge/vtm",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "mapsforge/vtm",
+      "target": "Android CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapsforge/vtm",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapsforge/vtm",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapsforge/vtm",
+      "target": "openstreetmap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapsforge/vtm",
+      "target": "vector",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:47:38.423340+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4115
+    },
+    {
+      "path": ".github/workflows/android.yml",
+      "size": 476
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OpenGL vector map library - running on Android, iOS, Desktop and browser.",
+    "fork": true,
+    "full_name": "mapsforge/vtm",
+    "html_url": "https://github.com/mapsforge/vtm",
+    "language": "Java",
+    "pushed_at": "2026-05-05T07:00:16Z",
+    "stargazers_count": 299,
+    "topics": [
+      "java",
+      "map",
+      "opengl",
+      "openstreetmap",
+      "vector"
+    ],
+    "updated_at": "2026-05-05T06:59:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cscheid/tessellate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mapsforge/mapsforge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "osmdroid/osmdroid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "schedul-xor/nextzen2oscimv4",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Android CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "term": "Android CI"
+    },
+    {
+      "context_snippet": "[![](https://jitpack.io/v/mapsforge/vtm.svg)](https://jitpack.io/#mapsforge/vtm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![](https://jitpack.io/v/mapsforge/vtm.svg)](https://jitpack.io/#mapsforge/vtm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "[![](https://jitpack.io/v/mapsforge/vtm.svg)](https://jitpack.io/#mapsforge/vtm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openstreetmap"
+    },
+    {
+      "context_snippet": "[![](https://jitpack.io/v/mapsforge/vtm.svg)](https://jitpack.io/#mapsforge/vtm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector"
+    }
+  ]
+}

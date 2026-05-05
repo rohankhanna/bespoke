@@ -31,6 +31,18 @@
       "source_repo": "dusty-nv/jetson-containers",
       "status": "candidate-context",
       "text": "[![a header for a software project about building containers for AI and machine learning](https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/header_blueprint_rainbow.jpg)](https://www.jetson-ai-lab.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ouster-lidar/ouster-ros",
+      "status": "candidate-context",
+      "text": "Official ROS drivers for Ouster sensors (OS0, OS1, OS2, OSDome)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ouster-lidar/ouster-ros",
+      "status": "candidate-context",
+      "text": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "dusty-nv/jetson-containers",
       "status": "candidate",
       "text": "[![a header for a software project about building containers for AI and machine learning](https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/header_blueprint_rainbow.jpg)](https://www.jetson-ai-lab.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ouster-lidar/ouster-ros",
+      "status": "candidate",
+      "text": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "dusty-nv/jetson-containers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ouster-lidar/ouster-ros"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

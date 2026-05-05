@@ -398,7 +398,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T08:13:10.692573+00:00",
+  "fetched_at": "2026-05-05T17:08:47.600041+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -451,7 +451,7 @@
     "html_url": "https://github.com/ultrajson/ultrajson",
     "language": "C++",
     "pushed_at": "2026-05-05T06:42:44Z",
-    "stargazers_count": 4482,
+    "stargazers_count": 4483,
     "topics": [
       "c",
       "decoder",
@@ -461,7 +461,7 @@
       "ujson",
       "ultrajson"
     ],
-    "updated_at": "2026-05-05T06:42:46Z"
+    "updated_at": "2026-05-05T12:59:54Z"
   },
   "repo_links": [],
   "terms": [

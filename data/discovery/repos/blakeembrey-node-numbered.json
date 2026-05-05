@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "istanbul",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "blakeembrey/node-numbered",
+      "target": "istanbul",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "blakeembrey/node-numbered",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blakeembrey/node-numbered",
+      "target": "number-to-words",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blakeembrey/node-numbered",
+      "target": "words-to-numbers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T15:59:33.824055+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 704
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Stringify any number into words, and parse number strings back to a number",
+    "fork": false,
+    "full_name": "blakeembrey/node-numbered",
+    "html_url": "https://github.com/blakeembrey/node-numbered",
+    "language": "JavaScript",
+    "pushed_at": "2023-12-12T06:58:15Z",
+    "stargazers_count": 24,
+    "topics": [
+      "number-to-words",
+      "words-to-numbers"
+    ],
+    "updated_at": "2024-09-20T17:52:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "numbered \u2014 Stringify any number into words, and parse number strings back to a number",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "number-to-words"
+    },
+    {
+      "context_snippet": "numbered \u2014 Stringify any number into words, and parse number strings back to a number",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "words-to-numbers"
+    }
+  ]
+}

@@ -1,0 +1,577 @@
+{
+  "components": [
+    {
+      "component": "@babel/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/preset-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@semantic-release/github",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-plugin-external-helpers",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cross-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-airbnb-base",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gzip-size-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jasmine-core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "karma",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "karma-jasmine",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "karma-sauce-launcher",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mockdate",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "moment",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "moment-timezone",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ncp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pre-commit",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-babel",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-terser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "size-limit",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "@babel/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "@babel/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "@babel/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "@babel/preset-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "@semantic-release/github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "babel-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "babel-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "babel-plugin-external-helpers",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "cross-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "eslint-config-airbnb-base",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "eslint-plugin-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "gzip-size-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "jasmine-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "karma",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "karma-jasmine",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "karma-sauce-launcher",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "mockdate",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "moment",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "moment-timezone",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "ncp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "pre-commit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "rollup-plugin-babel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "rollup-plugin-terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "size-limit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamkun/dayjs",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "iamkun/dayjs",
+      "target": "Lint & Unit Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "iamkun/dayjs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "iamkun/dayjs",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "iamkun/dayjs",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "iamkun/dayjs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "iamkun/dayjs",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "iamkun/dayjs",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamkun/dayjs",
+      "target": "date",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamkun/dayjs",
+      "target": "date-formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamkun/dayjs",
+      "target": "datetime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamkun/dayjs",
+      "target": "dayjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamkun/dayjs",
+      "target": "moment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamkun/dayjs",
+      "target": "time",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:58:14.363124+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7641
+    },
+    {
+      "path": "package.json",
+      "size": 2646
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "size": 178
+    },
+    {
+      "path": ".github/workflows/lint-test.yml",
+      "size": 725
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1051
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "\u23f0 Day.js 2kB immutable date-time library alternative to Moment.js with the same modern API",
+    "fork": false,
+    "full_name": "iamkun/dayjs",
+    "html_url": "https://github.com/iamkun/dayjs",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-17T21:46:01Z",
+    "stargazers_count": 48628,
+    "topics": [
+      "date",
+      "date-formatting",
+      "datetime",
+      "dayjs",
+      "moment",
+      "time"
+    ],
+    "updated_at": "2026-05-05T07:18:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Lint & Unit Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "term": "Lint & Unit Test"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./docs/zh-cn/README.zh-CN.md) | [\u65e5\u672c\u8a9e](./docs/ja/README-ja.md) | [Portugu\u00eas Brasileiro](./docs/pt-br/README-pt-br.md) | [\ud55c\uad6d\uc5b4](./docs/ko/README-ko.md) | [Espa\u00f1ol (Espa\u00f1a)](./docs/es-es/README-es-es.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](./docs/ru/README-ru.md) | [T\u00fcrk\u00e7e](./docs/tr/READM\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "date"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./docs/zh-cn/README.zh-CN.md) | [\u65e5\u672c\u8a9e](./docs/ja/README-ja.md) | [Portugu\u00eas Brasileiro](./docs/pt-br/README-pt-br.md) | [\ud55c\uad6d\uc5b4](./docs/ko/README-ko.md) | [Espa\u00f1ol (Espa\u00f1a)](./docs/es-es/README-es-es.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](./docs/ru/README-ru.md) | [T\u00fcrk\u00e7e](./docs/tr/READM\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "date-formatting"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./docs/zh-cn/README.zh-CN.md) | [\u65e5\u672c\u8a9e](./docs/ja/README-ja.md) | [Portugu\u00eas Brasileiro](./docs/pt-br/README-pt-br.md) | [\ud55c\uad6d\uc5b4](./docs/ko/README-ko.md) | [Espa\u00f1ol (Espa\u00f1a)](./docs/es-es/README-es-es.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](./docs/ru/README-ru.md) | [T\u00fcrk\u00e7e](./docs/tr/READM\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datetime"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./docs/zh-cn/README.zh-CN.md) | [\u65e5\u672c\u8a9e](./docs/ja/README-ja.md) | [Portugu\u00eas Brasileiro](./docs/pt-br/README-pt-br.md) | [\ud55c\uad6d\uc5b4](./docs/ko/README-ko.md) | [Espa\u00f1ol (Espa\u00f1a)](./docs/es-es/README-es-es.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](./docs/ru/README-ru.md) | [T\u00fcrk\u00e7e](./docs/tr/READM\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dayjs"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./docs/zh-cn/README.zh-CN.md) | [\u65e5\u672c\u8a9e](./docs/ja/README-ja.md) | [Portugu\u00eas Brasileiro](./docs/pt-br/README-pt-br.md) | [\ud55c\uad6d\uc5b4](./docs/ko/README-ko.md) | [Espa\u00f1ol (Espa\u00f1a)](./docs/es-es/README-es-es.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](./docs/ru/README-ru.md) | [T\u00fcrk\u00e7e](./docs/tr/READM\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "moment"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./docs/zh-cn/README.zh-CN.md) | [\u65e5\u672c\u8a9e](./docs/ja/README-ja.md) | [Portugu\u00eas Brasileiro](./docs/pt-br/README-pt-br.md) | [\ud55c\uad6d\uc5b4](./docs/ko/README-ko.md) | [Espa\u00f1ol (Espa\u00f1a)](./docs/es-es/README-es-es.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](./docs/ru/README-ru.md) | [T\u00fcrk\u00e7e](./docs/tr/READM\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time"
+    }
+  ]
+}

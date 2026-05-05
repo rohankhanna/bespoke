@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "rust-analyzer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "azdavis/ungrammar-tools",
+      "status": "candidate-context",
+      "text": "Tools for ungrammar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azdavis/ungrammar-tools",
+      "status": "candidate-context",
+      "text": "Tools for [ungrammar][1]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Iron-E/vim-ungrammar",
+      "status": "candidate-context",
+      "text": "Ungrammar syntax files for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Iron-E/vim-ungrammar",
+      "status": "candidate-context",
+      "text": "`Vim-ungrammar` is a plugin for Neovim and Vim for the [Ungrammar][ungrammar] filetype which provides:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azdavis/ungrammar-tools",
+      "status": "candidate",
+      "text": "Tools for [ungrammar][1]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Iron-E/vim-ungrammar",
+      "status": "candidate",
+      "text": "`Vim-ungrammar` is a plugin for Neovim and Vim for the [Ungrammar][ungrammar] filetype which provides:"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "rust-analyzer",
+  "concept_id": "rust-analyzer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "azdavis/ungrammar-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Iron-E/vim-ungrammar"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rust-analyzer",
+      "sense_id": "rust-analyzer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

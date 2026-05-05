@@ -199,6 +199,18 @@
       "source_repo": "bow-swift/nef-plugin",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cpisciotta/xcbeautify",
+      "status": "candidate-context",
+      "text": "An xcodebuild formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpisciotta/xcbeautify",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fcpisciotta%2Fxcbeautify%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/cpisciotta/xcbeautify)"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "bow-swift/nef-plugin",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpisciotta/xcbeautify",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fcpisciotta%2Fxcbeautify%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/cpisciotta/xcbeautify)"
     }
   ],
   "candidate_related_terms": [],
@@ -526,11 +544,23 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "cpisciotta/xcbeautify"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

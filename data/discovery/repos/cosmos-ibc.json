@@ -38,21 +38,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "cosmos/ibc",
-      "target": "confio/ts-relayer",
+      "target": "strangelove-ventures/async-icq",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "cosmos/ibc",
-      "target": "cosmos/interchain-security",
+      "target": "ibcswap/ibcswap",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "cosmos/ibc",
-      "target": "bianjieai/nft-transfer",
+      "target": "octopus-network/ibc-spec-cn",
       "target_type": "repository"
     },
     {
@@ -119,7 +119,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T18:29:59.503678+00:00",
+  "fetched_at": "2026-05-05T15:58:12.376228+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -160,22 +160,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bianjieai/nft-transfer",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "confio/ts-relayer",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "cosmos/ibc-rs",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "cosmos/interchain-security",
+      "full_name": "ibcswap/ibcswap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "octopus-network/ibc-spec-cn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "strangelove-ventures/async-icq",
       "source_file": "README.md"
     }
   ],

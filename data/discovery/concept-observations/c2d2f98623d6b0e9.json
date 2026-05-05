@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A zero-dependency cron parser and scheduler for Node.js, Deno, Bun and the browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A zero-dependency cron parser and scheduler for Node.js, Deno and the browser. Published on [NPM](https://www.npmjs.com) and [JSR](https://jsr.io)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A zero-dependency cron parser and scheduler for Node.js, Deno and the browser. Published on [NPM](https://www.npmjs.com) and [JSR](https://jsr.io)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "schedule-tasks",
+      "sense_id": "schedule-tasks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "schedule-tasks",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "schedule-tasks",
+  "observation_id": "c2d2f98623d6b0e9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "schedule-tasks",
+  "source_context_snippet": "A zero-dependency cron parser and scheduler for Node.js, Deno and the browser. Published on [NPM](https://www.npmjs.com) and [JSR](https://jsr.io)",
+  "source_file": null,
+  "source_repo": "P4sca1/cron-schedule",
+  "source_repo_description": "A zero-dependency cron parser and scheduler for Node.js, Deno, Bun and the browser."
+}

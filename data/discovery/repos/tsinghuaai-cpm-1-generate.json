@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TsinghuaAI/CPM-1-Generate",
+      "target": "qhduan/cpm-lm-tf2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TsinghuaAI/CPM-1-Generate",
+      "target": "tsinghuaai/cpm-1-distill",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:55:32.800235+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3495
+    },
+    {
+      "path": "requirements.txt",
+      "size": 121
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Chinese Pre-Trained Language Models (CPM-LM) Version-I",
+    "fork": false,
+    "full_name": "TsinghuaAI/CPM-1-Generate",
+    "html_url": "https://github.com/TsinghuaAI/CPM-1-Generate",
+    "language": "Python",
+    "pushed_at": "2023-03-18T14:59:44Z",
+    "stargazers_count": 1580,
+    "topics": [],
+    "updated_at": "2026-05-03T06:50:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qhduan/cpm-lm-tf2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tsinghuaai/cpm-1-distill",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

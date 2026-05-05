@@ -235,6 +235,12 @@
       "source_repo": "FeTS-AI/Front-End",
       "status": "candidate-context",
       "text": "Docker Image CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexhumphreys/idris2-dockerfile",
+      "status": "candidate-context",
+      "text": "Docker Image CI"
     }
   ],
   "candidate_glosses": [
@@ -349,6 +355,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "FeTS-AI/Front-End",
+      "status": "candidate",
+      "text": "Docker Image CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexhumphreys/idris2-dockerfile",
       "status": "candidate",
       "text": "Docker Image CI"
     }
@@ -514,11 +526,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/docker-image.yml",
       "source_repo": "FeTS-AI/Front-End"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "alexhumphreys/idris2-dockerfile"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Efficient and parallel algorithms for point cloud registration [C++, Python]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "gendoc"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "gendoc"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "gendoc",
+      "sense_id": "gendoc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gendoc",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gendoc",
+  "observation_id": "e32096fc4fbc0ee9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "gendoc",
+  "source_context_snippet": "gendoc",
+  "source_file": ".github/workflows/gendoc.yml",
+  "source_repo": "koide3/small_gicp",
+  "source_repo_description": "Efficient and parallel algorithms for point cloud registration [C++, Python]"
+}

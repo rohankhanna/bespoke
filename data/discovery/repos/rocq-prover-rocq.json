@@ -1,0 +1,161 @@
+{
+  "components": [
+    {
+      "component": "eps1lon/actions-label-merge-conflict@b8bf8341285ec9a4567d4318ba474fee998a6919",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-conflicts.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-github.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-github.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-conflicts.yml",
+      "source_repo": "rocq-prover/rocq",
+      "target": "eps1lon/actions-label-merge-conflict@b8bf8341285ec9a4567d4318ba474fee998a6919",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-conflicts.yml",
+      "source_repo": "rocq-prover/rocq",
+      "target": "Check conflicts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-github.yml",
+      "source_repo": "rocq-prover/rocq",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-github.yml",
+      "source_repo": "rocq-prover/rocq",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-github.yml",
+      "source_repo": "rocq-prover/rocq",
+      "target": "Github CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "rocq-prover/rocq",
+      "target": "Stale PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rocq-prover/rocq",
+      "target": "dependent-types",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rocq-prover/rocq",
+      "target": "proof-assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rocq-prover/rocq",
+      "target": "theorem-proving",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T15:59:23.454079+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4633
+    },
+    {
+      "path": ".github/workflows/check-conflicts.yml",
+      "size": 472
+    },
+    {
+      "path": ".github/workflows/ci-github.yml",
+      "size": 1849
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 464
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Rocq Prover is an interactive theorem prover, or proof assistant. It provides a formal language to write mathematical definitions, executable algorithms and theorems together with an environment for semi-interactive development of machine-checked proofs.",
+    "fork": false,
+    "full_name": "rocq-prover/rocq",
+    "html_url": "https://github.com/rocq-prover/rocq",
+    "language": "OCaml",
+    "pushed_at": "2026-05-05T15:53:19Z",
+    "stargazers_count": 5442,
+    "topics": [
+      "coq",
+      "dependent-types",
+      "proof-assistant",
+      "theorem-proving"
+    ],
+    "updated_at": "2026-05-05T15:53:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Check conflicts\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-conflicts.yml",
+      "term": "Check conflicts"
+    },
+    {
+      "context_snippet": "Github CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-github.yml",
+      "term": "Github CI"
+    },
+    {
+      "context_snippet": "Stale PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Stale PRs"
+    },
+    {
+      "context_snippet": "[![GitLab CI][gitlab-badge]][gitlab-link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dependent-types"
+    },
+    {
+      "context_snippet": "[![GitLab CI][gitlab-badge]][gitlab-link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proof-assistant"
+    },
+    {
+      "context_snippet": "[![GitLab CI][gitlab-badge]][gitlab-link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theorem-proving"
+    }
+  ]
+}

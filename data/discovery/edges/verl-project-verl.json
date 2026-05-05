@@ -11,6 +11,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
+      "target": "tiger-ai-lab/verl-tool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verl-project/verl",
       "target": "ragen-ai/vagen",
       "target_type": "repository"
     },
@@ -19,13 +26,6 @@
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
       "target": "nus-trail/noisyrollout",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "verl-project/verl",
-      "target": "tencentyouturesearch/spear",
       "target_type": "repository"
     },
     {
@@ -274,6 +274,6 @@
       "target_type": "component"
     }
   ],
-  "generated_at": "2026-05-05T06:54:34.093705+00:00",
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
   "source_repo": "verl-project/verl"
 }

@@ -227,6 +227,18 @@
       "source_repo": "bitwizeshift/string_view-standalone",
       "status": "candidate-context",
       "text": "\"Code Scanning\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "status": "candidate-context",
+      "text": "Library of backported modern C++ types to work with C++11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "status": "candidate-context",
+      "text": "\"Code Scanning\""
     }
   ],
   "candidate_glosses": [
@@ -335,6 +347,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "bitwizeshift/string_view-standalone",
+      "status": "candidate",
+      "text": "\"Code Scanning\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwizeshift/BackportCpp",
       "status": "candidate",
       "text": "\"Code Scanning\""
     }
@@ -488,11 +506,17 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/analysis.yml",
       "source_repo": "bitwizeshift/string_view-standalone"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "bitwizeshift/BackportCpp"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

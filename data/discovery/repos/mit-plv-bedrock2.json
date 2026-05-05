@@ -1,0 +1,212 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine.yml"
+    },
+    {
+      "component": "jirutka/setup-alpine@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debian.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-plv/bedrock2",
+      "target": "mit-plv/bedrock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-plv/bedrock2",
+      "target": "mit-plv/coqutil",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-plv/bedrock2",
+      "target": "b-lang-org/bsc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-plv/bedrock2",
+      "target": "coq/coq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "mit-plv/bedrock2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "mit-plv/bedrock2",
+      "target": "jirutka/setup-alpine@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "mit-plv/bedrock2",
+      "target": "CI (Alpine)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml",
+      "source_repo": "mit-plv/bedrock2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml",
+      "source_repo": "mit-plv/bedrock2",
+      "target": "coq-community/docker-coq-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-docker.yml",
+      "source_repo": "mit-plv/bedrock2",
+      "target": "CI (Coq, docker, dev)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debian.yml",
+      "source_repo": "mit-plv/bedrock2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/debian.yml",
+      "source_repo": "mit-plv/bedrock2",
+      "target": "CI (Coq, Debian)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-automerge.yml",
+      "source_repo": "mit-plv/bedrock2",
+      "target": "Dependabot Automerge",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:50:07.512476+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8381
+    },
+    {
+      "path": ".github/workflows/alpine.yml",
+      "size": 1116
+    },
+    {
+      "path": ".github/workflows/coq-docker.yml",
+      "size": 1153
+    },
+    {
+      "path": ".github/workflows/debian.yml",
+      "size": 2165
+    },
+    {
+      "path": ".github/workflows/dependabot-automerge.yml",
+      "size": 450
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A work-in-progress language and compiler for verified low-level programming",
+    "fork": false,
+    "full_name": "mit-plv/bedrock2",
+    "html_url": "https://github.com/mit-plv/bedrock2",
+    "language": "Rocq Prover",
+    "pushed_at": "2026-05-05T06:51:08Z",
+    "stargazers_count": 331,
+    "topics": [],
+    "updated_at": "2026-05-05T11:32:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "b-lang-org/bsc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coq/coq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-plv/bedrock",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-plv/coqutil",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI (Alpine)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alpine.yml",
+      "term": "CI (Alpine)"
+    },
+    {
+      "context_snippet": "CI (Coq, docker, dev)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-docker.yml",
+      "term": "CI (Coq, docker, dev)"
+    },
+    {
+      "context_snippet": "CI (Coq, Debian)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/debian.yml",
+      "term": "CI (Coq, Debian)"
+    },
+    {
+      "context_snippet": "Dependabot Automerge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-automerge.yml",
+      "term": "Dependabot Automerge"
+    }
+  ]
+}

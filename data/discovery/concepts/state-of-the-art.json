@@ -43,6 +43,18 @@
       "source_repo": "gmberton/CosPlace",
       "status": "candidate-context",
       "text": "This is the official pyTorch implementation of the CVPR 2022 paper \"Rethinking Visual Geo-localization for Large-Scale Applications\"."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yzhangcs/parser",
+      "status": "candidate-context",
+      "text": ":rocket: State-of-the-art parsers for natural language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yzhangcs/parser",
+      "status": "candidate-context",
+      "text": "[![build](https://img.shields.io/github/actions/workflow/status/yzhangcs/parser/build.yml?branch=main&style=flat-square)](https://github.com/yzhangcs/parser/actions)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "gmberton/CosPlace",
       "status": "candidate",
       "text": "This is the official pyTorch implementation of the CVPR 2022 paper \"Rethinking Visual Geo-localization for Large-Scale Applications\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yzhangcs/parser",
+      "status": "candidate",
+      "text": "[![build](https://img.shields.io/github/actions/workflow/status/yzhangcs/parser/build.yml?branch=main&style=flat-square)](https://github.com/yzhangcs/parser/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -132,11 +150,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "gmberton/CosPlace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "yzhangcs/parser"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

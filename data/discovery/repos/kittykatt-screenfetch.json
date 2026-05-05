@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KittyKatt/screenFetch",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KittyKatt/screenFetch",
+      "target": "desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KittyKatt/screenFetch",
+      "target": "information-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KittyKatt/screenFetch",
+      "target": "shell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:04:21.004912+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fetches system/theme information in terminal for Linux desktop screenshots.",
+    "fork": false,
+    "full_name": "KittyKatt/screenFetch",
+    "html_url": "https://github.com/KittyKatt/screenFetch",
+    "language": "Shell",
+    "pushed_at": "2026-03-02T03:08:18Z",
+    "stargazers_count": 4052,
+    "topics": [
+      "bash",
+      "desktop",
+      "information-retrieval",
+      "shell"
+    ],
+    "updated_at": "2026-04-30T07:57:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Fetches system/theme information in terminal for Linux desktop screenshots.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "Fetches system/theme information in terminal for Linux desktop screenshots.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop"
+    },
+    {
+      "context_snippet": "Fetches system/theme information in terminal for Linux desktop screenshots.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-retrieval"
+    },
+    {
+      "context_snippet": "Fetches system/theme information in terminal for Linux desktop screenshots.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    }
+  ]
+}

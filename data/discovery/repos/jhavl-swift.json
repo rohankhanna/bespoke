@@ -1,0 +1,146 @@
+{
+  "components": [
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v2.11.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jhavl/swift",
+      "target": "qcr/qcr.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "jhavl/swift",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "jhavl/swift",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "jhavl/swift",
+      "target": "pypa/cibuildwheel@v2.11.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "jhavl/swift",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "jhavl/swift",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "jhavl/swift",
+      "target": "pypa/gh-action-pypi-publish@v1.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "jhavl/swift",
+      "target": "Build all Wheels",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T17:09:27.080342+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5289
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3128
+    },
+    {
+      "path": ".github/workflows/cibuildwheel.yml",
+      "size": 1447
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "jhavl/swift",
+    "html_url": "https://github.com/jhavl/swift",
+    "language": "JavaScript",
+    "pushed_at": "2024-06-25T00:31:37Z",
+    "stargazers_count": 113,
+    "topics": [],
+    "updated_at": "2026-04-18T23:34:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qcr/qcr.github.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build all Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "term": "Build all Wheels"
+    }
+  ]
+}

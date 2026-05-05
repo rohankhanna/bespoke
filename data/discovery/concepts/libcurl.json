@@ -19,6 +19,18 @@
       "source_repo": "curl/curl",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libcpr/cpr",
+      "status": "candidate-context",
+      "text": "C++ Requests: Curl for People, a spiritual port of Python Requests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libcpr/cpr",
+      "status": "candidate-context",
+      "text": "[![Documentation](https://img.shields.io/badge/docs-online-informational?style=flat&link=https://docs.libcpr.dev/)](https://docs.libcpr.dev/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "curl/curl",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libcpr/cpr",
+      "status": "candidate",
+      "text": "[![Documentation](https://img.shields.io/badge/docs-online-informational?style=flat&link=https://docs.libcpr.dev/)](https://docs.libcpr.dev/)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "curl/curl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "libcpr/cpr"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

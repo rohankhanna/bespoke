@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T16:04:20.473894+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4658
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Stub Repo for chromiumos issues",
+    "fork": false,
+    "full_name": "arnoldthebat/chromiumos",
+    "html_url": "https://github.com/arnoldthebat/chromiumos",
+    "language": "Shell",
+    "pushed_at": "2024-08-19T17:49:03Z",
+    "stargazers_count": 281,
+    "topics": [],
+    "updated_at": "2026-04-16T20:19:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kimi Code CLI is your next CLI agent."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "PR Title Checker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "PR Title Checker"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13501,
+      "status": "candidate",
+      "text": "praseodymium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12887,
+      "status": "candidate",
+      "text": "ben"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12866,
+      "status": "candidate",
+      "text": "cello"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12866,
+      "status": "candidate",
+      "text": "clinometer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12866,
+      "status": "candidate",
+      "text": "fica"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Title Checker",
+      "sense_id": "pr-title-checker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pr-title-checker",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pr-title-checker",
+  "observation_id": "dfea9dd8cd47acaa",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "PR Title Checker",
+  "source_context_snippet": "PR Title Checker",
+  "source_file": ".github/workflows/pr-title-checker.yml",
+  "source_repo": "MoonshotAI/kimi-cli",
+  "source_repo_description": "Kimi Code CLI is your next CLI agent."
+}

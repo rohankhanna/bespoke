@@ -1,7 +1,7 @@
 {
   "component": "msys2/setup-msys2@v2",
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -827,6 +827,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/windows-msys2.yml",
       "source_repo": "coin-or/CppAD"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/package_pypi.yml",
+      "source_repo": "cvc5/cvc5"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Boddlnagg/midir"
     }
   ]
 }

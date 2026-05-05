@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T15:03:48.705033+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21397
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "A translation/localization framework written in Haxe",
+    "fork": false,
+    "full_name": "larsiusprime/firetongue",
+    "html_url": "https://github.com/larsiusprime/firetongue",
+    "language": "Haxe",
+    "pushed_at": "2024-01-11T20:58:15Z",
+    "stargazers_count": 151,
+    "topics": [],
+    "updated_at": "2026-03-14T07:00:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

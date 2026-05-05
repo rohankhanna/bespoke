@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "time-travel"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/vuex",
+      "status": "candidate-context",
+      "text": "\ud83d\uddc3\ufe0f Centralized State Management for Vue.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vuex",
+      "status": "candidate-context",
+      "text": "[![npm](https://img.shields.io/npm/v/vuex.svg)](https://npmjs.com/package/vuex)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vuex",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/vuex.svg)](https://npmjs.com/package/vuex)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19993679,
+      "status": "candidate",
+      "text": "time warp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19993678,
+      "status": "candidate",
+      "text": "time jump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19993677,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19993676,
+      "status": "candidate",
+      "text": "warp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19993675,
+      "status": "candidate",
+      "text": "travell"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "time-travel",
+  "concept_id": "time-travel",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "vuejs/vuex"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "time-travel",
+      "sense_id": "time-travel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

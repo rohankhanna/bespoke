@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -21,6 +21,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "ory/kratos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "koide3/fast_gicp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "koide3/ndt_omp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "koide3/small_gicp"
     }
   ],
   "term": "registration"

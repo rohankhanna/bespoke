@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "hustzxd/EfficientPyTorch",
+      "target": "hustzxd/pytorch-gradual-warmup-lr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T15:02:06.131934+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 589
+    },
+    {
+      "path": "requirements.txt",
+      "size": 304
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "clean",
+    "description": "A PyTorch Framework for Efficient Pruning and Quantization for specialized accelerators.",
+    "fork": true,
+    "full_name": "hustzxd/EfficientPyTorch",
+    "html_url": "https://github.com/hustzxd/EfficientPyTorch",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2021-12-05T05:53:36Z",
+    "stargazers_count": 37,
+    "topics": [],
+    "updated_at": "2025-07-15T13:42:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hustzxd/pytorch-gradual-warmup-lr",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

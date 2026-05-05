@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arangrhie/merfin",
+      "target": "tbenavi1/genomescope2.0",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arangrhie/merfin",
+      "target": "marbl/merqury",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:51:54.417057+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15986
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1092
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Evaluate variant calls and its combination with k-mer multiplicity",
+    "fork": false,
+    "full_name": "arangrhie/merfin",
+    "html_url": "https://github.com/arangrhie/merfin",
+    "language": "C",
+    "pushed_at": "2022-12-02T23:40:22Z",
+    "stargazers_count": 68,
+    "topics": [],
+    "updated_at": "2026-03-25T15:19:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marbl/merqury",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tbenavi1/genomescope2.0",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

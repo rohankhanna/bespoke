@@ -1,0 +1,479 @@
+{
+  "components": [
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v2.11.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_future.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_future.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_future.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_future.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_future.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "petercorke/spatialmath-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "petercorke/robotics-toolbox-matlab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "jhavl/swift",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "jhavl/dkt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "pypa/cibuildwheel@v2.11.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "pypa/gh-action-pypi-publish@v1.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "Build all Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_future.yml",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_future.yml",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_future.yml",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "Test - Future",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "dynamics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "hessian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "jacobian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "kinematics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "motion-planning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "robot-manipulator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "robotics-control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "robotics-simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "robotics-toolbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "target": "trajectory-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:53:33.162313+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15361
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4357
+    },
+    {
+      "path": ".github/workflows/cibuildwheel.yml",
+      "size": 1447
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 3066
+    },
+    {
+      "path": ".github/workflows/test_future.yml",
+      "size": 1787
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Robotics Toolbox for Python",
+    "fork": false,
+    "full_name": "petercorke/robotics-toolbox-python",
+    "html_url": "https://github.com/petercorke/robotics-toolbox-python",
+    "language": "Python",
+    "pushed_at": "2024-09-03T22:16:41Z",
+    "stargazers_count": 3074,
+    "topics": [
+      "dynamics",
+      "hessian",
+      "jacobian",
+      "kinematics",
+      "motion-planning",
+      "python",
+      "robot-manipulator",
+      "robotics",
+      "robotics-control",
+      "robotics-simulation",
+      "robotics-toolbox",
+      "trajectory-generation"
+    ],
+    "updated_at": "2026-05-05T06:22:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jhavl/dkt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jhavl/swift",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "petercorke/robotics-toolbox-matlab",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "petercorke/spatialmath-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build all Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "term": "Build all Wheels"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Test - Future",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_future.yml",
+      "term": "Test - Future"
+    },
+    {
+      "context_snippet": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamics"
+    },
+    {
+      "context_snippet": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hessian"
+    },
+    {
+      "context_snippet": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jacobian"
+    },
+    {
+      "context_snippet": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kinematics"
+    },
+    {
+      "context_snippet": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-planning"
+    },
+    {
+      "context_snippet": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robot-manipulator"
+    },
+    {
+      "context_snippet": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics-control"
+    },
+    {
+      "context_snippet": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics-simulation"
+    },
+    {
+      "context_snippet": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics-toolbox"
+    },
+    {
+      "context_snippet": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trajectory-generation"
+    }
+  ]
+}

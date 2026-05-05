@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TencentYoutuResearch/SPEAR",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T13:58:13.640037+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16665
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An RL Recipe for Building Agentic LLMs via Self-Imitation on Long-Horizon Agentic Tasks",
+    "fork": false,
+    "full_name": "TencentYoutuResearch/SPEAR",
+    "html_url": "https://github.com/TencentYoutuResearch/SPEAR",
+    "language": "Python",
+    "pushed_at": "2026-01-30T11:23:30Z",
+    "stargazers_count": 37,
+    "topics": [],
+    "updated_at": "2026-05-04T12:48:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

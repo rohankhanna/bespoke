@@ -2021,6 +2021,30 @@
       "source_repo": "ai-dynamo/aiperf",
       "status": "candidate-context",
       "text": "\"Pre-commit\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nobleo/rviz_satellite",
+      "status": "candidate-context",
+      "text": "Display internet satellite imagery in RViz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nobleo/rviz_satellite",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "box2ai-robotics/robosuite-joycon",
+      "status": "candidate-context",
+      "text": "robosuite-joycon: A Modular Simulation Framework and Benchmark for Robot Learning add joycon controller"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box2ai-robotics/robosuite-joycon",
+      "status": "candidate-context",
+      "text": "pre-commit"
     }
   ],
   "candidate_glosses": [
@@ -3043,6 +3067,18 @@
       "source_repo": "ai-dynamo/aiperf",
       "status": "candidate",
       "text": "\"Pre-commit\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nobleo/rviz_satellite",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box2ai-robotics/robosuite-joycon",
+      "status": "candidate",
+      "text": "pre-commit"
     }
   ],
   "candidate_related_terms": [],
@@ -4928,11 +4964,71 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/run_pre_commit.yaml",
       "source_repo": "marin-community/levanter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "nobleo/rviz_satellite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "arcee-ai/mergekit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "adamchainz/blacken-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "pymc-devs/pymc-resources"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/run_pre_commit.yaml",
+      "source_repo": "marin-community/haliax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/run_pre_commit.yaml",
+      "source_repo": "marin-community/levanter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "box2ai-robotics/robosuite-joycon"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

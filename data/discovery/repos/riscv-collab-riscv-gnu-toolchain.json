@@ -1,17 +1,17 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-reusable.yaml"
     },
     {
-      "component": "actions/cache@v4",
+      "component": "actions/cache@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-reusable.yaml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-reusable.yaml"
     },
@@ -21,27 +21,37 @@
       "source_file": ".github/workflows/build-reusable.yaml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/cache/restore@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-reusable.yaml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/cache/save@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-reusable.yaml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-reusable.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-reusable.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly-release.yaml"
     },
     {
-      "component": "actions/download-artifact@v4",
+      "component": "actions/download-artifact@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly-release.yaml"
     },
     {
-      "component": "softprops/action-gh-release@v2",
+      "component": "softprops/action-gh-release@v3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly-release.yaml"
     }
@@ -58,14 +68,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-reusable.yaml",
       "source_repo": "riscv-collab/riscv-gnu-toolchain",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-reusable.yaml",
       "source_repo": "riscv-collab/riscv-gnu-toolchain",
-      "target": "actions/cache@v4",
+      "target": "actions/cache@v5",
       "target_type": "component"
     },
     {
@@ -79,7 +89,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-reusable.yaml",
       "source_repo": "riscv-collab/riscv-gnu-toolchain",
-      "target": "actions/upload-artifact@v4",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-reusable.yaml",
+      "source_repo": "riscv-collab/riscv-gnu-toolchain",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-reusable.yaml",
+      "source_repo": "riscv-collab/riscv-gnu-toolchain",
+      "target": "actions/upload-artifact@v6",
       "target_type": "component"
     },
     {
@@ -100,21 +124,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly-release.yaml",
       "source_repo": "riscv-collab/riscv-gnu-toolchain",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly-release.yaml",
       "source_repo": "riscv-collab/riscv-gnu-toolchain",
-      "target": "actions/download-artifact@v4",
+      "target": "actions/download-artifact@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly-release.yaml",
       "source_repo": "riscv-collab/riscv-gnu-toolchain",
-      "target": "softprops/action-gh-release@v2",
+      "target": "softprops/action-gh-release@v3",
       "target_type": "component"
     },
     {
@@ -125,7 +149,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T00:43:41.156328+00:00",
+  "fetched_at": "2026-05-05T16:01:14.379671+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -133,7 +157,7 @@
     },
     {
       "path": ".github/workflows/build-reusable.yaml",
-      "size": 9182
+      "size": 10687
     },
     {
       "path": ".github/workflows/build.yaml",
@@ -153,10 +177,10 @@
     "full_name": "riscv-collab/riscv-gnu-toolchain",
     "html_url": "https://github.com/riscv-collab/riscv-gnu-toolchain",
     "language": "C",
-    "pushed_at": "2026-05-04T09:10:38Z",
+    "pushed_at": "2026-05-05T10:50:34Z",
     "stargazers_count": 4471,
     "topics": [],
-    "updated_at": "2026-05-04T13:09:17Z"
+    "updated_at": "2026-05-05T10:50:40Z"
   },
   "repo_links": [
     {

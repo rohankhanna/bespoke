@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Label Pull Requests \ud83c\udff7\ufe0f"
+    "Label Pull Requests \ud83c\udff7\ufe0f",
+    "Label Pull Requests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,42 @@
       "source_repo": "JamesIves/github-pages-deploy-action",
       "status": "candidate-context",
       "text": "Label Pull Requests \ud83c\udff7\ufe0f"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "This repository contains the OpenTelemetry Astronomy Shop, a microservice-based distributed system intended to illustrate the implementation of OpenTelemetry in a near real-world environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Label Pull Requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aliyun-sls/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "This repository contains the OpenTelemetry Astronomy Shop, a microservice-based distributed system intended to illustrate the implementation of OpenTelemetry in a near real-world environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliyun-sls/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Label Pull Requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/doris-opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Apache doris"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/doris-opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Label Pull Requests"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +64,24 @@
       "source_repo": "JamesIves/github-pages-deploy-action",
       "status": "candidate",
       "text": "Label Pull Requests \ud83c\udff7\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-demo",
+      "status": "candidate",
+      "text": "Label Pull Requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliyun-sls/opentelemetry-demo",
+      "status": "candidate",
+      "text": "Label Pull Requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/doris-opentelemetry-demo",
+      "status": "candidate",
+      "text": "Label Pull Requests"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +131,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/label.yml",
       "source_repo": "JamesIves/github-pages-deploy-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/label-pr.yml",
+      "source_repo": "open-telemetry/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/label-pr.yml",
+      "source_repo": "aliyun-sls/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/label-pr.yml",
+      "source_repo": "apache/doris-opentelemetry-demo"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

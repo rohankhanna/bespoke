@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "win64"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RainerKuemmerle/g2o",
+      "status": "candidate-context",
+      "text": "g2o: A General Framework for Graph Optimization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RainerKuemmerle/g2o",
+      "status": "candidate-context",
+      "text": "win64"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RainerKuemmerle/g2o",
+      "status": "candidate",
+      "text": "win64"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19838689,
+      "status": "candidate",
+      "text": "win32"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19838688,
+      "status": "candidate",
+      "text": "x86 64"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19838687,
+      "status": "candidate",
+      "text": "x86-64"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19838686,
+      "status": "candidate",
+      "text": "amd64"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19838685,
+      "status": "candidate",
+      "text": "quadword"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "win64",
+  "concept_id": "win64",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "RainerKuemmerle/g2o"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "win64",
+      "sense_id": "win64#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

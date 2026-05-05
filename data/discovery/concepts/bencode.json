@@ -19,6 +19,18 @@
       "source_repo": "nrepl/bencode",
       "status": "candidate-context",
       "text": "[![CircleCI](https://circleci.com/gh/nrepl/bencode/tree/master.svg?style=svg)](https://circleci.com/gh/nrepl/bencode/tree/master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jzelinskie/faq",
+      "status": "candidate-context",
+      "text": "Format Agnostic jQ -- process various formats with libjq"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jzelinskie/faq",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/jzelinskie/faq?style=flat-square)](https://goreportcard.com/report/github.com/jzelinskie/faq)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "nrepl/bencode",
       "status": "candidate",
       "text": "[![CircleCI](https://circleci.com/gh/nrepl/bencode/tree/master.svg?style=svg)](https://circleci.com/gh/nrepl/bencode/tree/master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jzelinskie/faq",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/jzelinskie/faq?style=flat-square)](https://goreportcard.com/report/github.com/jzelinskie/faq)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "nrepl/bencode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "jzelinskie/faq"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

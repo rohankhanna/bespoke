@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChorusOne/quantum-tunnel",
+      "target": "iqlusioninc/abscissa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChorusOne/quantum-tunnel",
+      "target": "chorusone/tendermint-light-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChorusOne/quantum-tunnel",
+      "target": "chorusone/substrate-light-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "ChorusOne/quantum-tunnel",
+      "target": "chorusone/tendermint_light_client",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:49:40.157157+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4694
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1675
+    },
+    {
+      "path": "Dockerfile",
+      "size": 321
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Quantum Tunnel: A Rust Cosmos <-> Substrate Relayer",
+    "fork": false,
+    "full_name": "ChorusOne/quantum-tunnel",
+    "html_url": "https://github.com/ChorusOne/quantum-tunnel",
+    "language": "Rust",
+    "pushed_at": "2022-02-07T09:48:32Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2025-03-16T16:04:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chorusone/substrate-light-client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chorusone/tendermint-light-client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iqlusioninc/abscissa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chorusone/tendermint_light_client",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

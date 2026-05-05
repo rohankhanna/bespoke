@@ -735,6 +735,102 @@
       "source_repo": "OSGeo/PROJ-data",
       "status": "candidate-context",
       "text": "checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang-ru/rust-by-example",
+      "status": "candidate-context",
+      "text": "Rust by example"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang-ru/rust-by-example",
+      "status": "candidate-context",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CosmWasm/cw-plus",
+      "status": "candidate-context",
+      "text": "Production Quality contracts under open source licenses"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CosmWasm/cw-plus",
+      "status": "candidate-context",
+      "text": "checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CosmWasm/cw-storage-plus",
+      "status": "candidate-context",
+      "text": "Storage abstractions for CosmWasm smart contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CosmWasm/cw-storage-plus",
+      "status": "candidate-context",
+      "text": "checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "This repository contains the OpenTelemetry Astronomy Shop, a microservice-based distributed system intended to illustrate the implementation of OpenTelemetry in a near real-world environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CosmWasm/cw-minus",
+      "status": "candidate-context",
+      "text": "Utilities for CosmWasm smart contracts development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CosmWasm/cw-minus",
+      "status": "candidate-context",
+      "text": "checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aliyun-sls/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "This repository contains the OpenTelemetry Astronomy Shop, a microservice-based distributed system intended to illustrate the implementation of OpenTelemetry in a near real-world environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliyun-sls/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/doris-opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Apache doris"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/doris-opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aspecto-io/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Community Demo Application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspecto-io/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Checks"
     }
   ],
   "candidate_glosses": [
@@ -1103,6 +1199,54 @@
       "source_repo": "OSGeo/PROJ-data",
       "status": "candidate",
       "text": "checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang-ru/rust-by-example",
+      "status": "candidate",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CosmWasm/cw-plus",
+      "status": "candidate",
+      "text": "checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CosmWasm/cw-storage-plus",
+      "status": "candidate",
+      "text": "checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-demo",
+      "status": "candidate",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CosmWasm/cw-minus",
+      "status": "candidate",
+      "text": "checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliyun-sls/opentelemetry-demo",
+      "status": "candidate",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/doris-opentelemetry-demo",
+      "status": "candidate",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspecto-io/opentelemetry-demo",
+      "status": "candidate",
+      "text": "Checks"
     }
   ],
   "candidate_related_terms": [
@@ -1877,11 +2021,83 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "OSGeo/PROJ-data"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "rust-lang-ru/rust-by-example"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "lumen-oss/rocks-config.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "lumen-oss/rocks-treesitter.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "CosmWasm/cw-plus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "CosmWasm/cw-storage-plus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "open-telemetry/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "TrigenSoftware/simple-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "CosmWasm/cw-minus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "aliyun-sls/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "apache/doris-opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "aspecto-io/opentelemetry-demo"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

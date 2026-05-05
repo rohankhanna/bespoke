@@ -19,6 +19,18 @@
       "source_repo": "k2-fsa/sherpa-onnx",
       "status": "candidate-context",
       "text": "|Speech recognition| [Speech synthesis][tts-url] | [Source separation][ss-url] |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alex313031/Thorium-Android",
+      "status": "candidate-context",
+      "text": "Thorium builds for Android (arm64 and arm32)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/Thorium-Android",
+      "status": "candidate-context",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-android?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-android?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/gi\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "k2-fsa/sherpa-onnx",
       "status": "candidate",
       "text": "|Speech recognition| [Speech synthesis][tts-url] | [Source separation][ss-url] |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/Thorium-Android",
+      "status": "candidate",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-android?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-android?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/gi\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "k2-fsa/sherpa-onnx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-Android"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

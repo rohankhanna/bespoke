@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T16:04:42.563848+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2051
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 782
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "High-level PortMidi bindings and wrappers for Rust",
+    "fork": false,
+    "full_name": "musitdev/portmidi-rs",
+    "html_url": "https://github.com/musitdev/portmidi-rs",
+    "language": "Rust",
+    "pushed_at": "2023-07-13T09:54:24Z",
+    "stargazers_count": 79,
+    "topics": [],
+    "updated_at": "2025-11-10T18:54:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

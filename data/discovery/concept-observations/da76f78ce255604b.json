@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "IBC modules and relayer - Formal specifications and Rust implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ShellCheck Scripts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ShellCheck Scripts"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "scenarios"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "scripting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "dialog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "nagari"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "screenplay"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ShellCheck Scripts",
+      "sense_id": "shellcheck-scripts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "shellcheck-scripts",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "shellcheck-scripts",
+  "observation_id": "da76f78ce255604b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "ShellCheck Scripts",
+  "source_context_snippet": "ShellCheck Scripts",
+  "source_file": ".github/workflows/scripts.yaml",
+  "source_repo": "ChorusOne/ibc-rs",
+  "source_repo_description": "IBC modules and relayer - Formal specifications and Rust implementation"
+}

@@ -250,6 +250,102 @@
       "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright-python",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alex313031/ThoriumOS",
+      "status": "candidate-context",
+      "text": "ChromiumOS fork with Thorium Browser, x264/x265 codecs, Widevine, Kernel 5.15, Linux firmware/modules support, Nouveau, Intel microcode, and extra packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/ThoriumOS",
+      "status": "candidate-context",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/chromiumos?label=Latest Image%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/commit-activity/w/alex313031/chromiumos?color=blueviolet&label=Commit%20Activity%3A) &nbsp;![Subreddit sub\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alex313031/Thorium-Android",
+      "status": "candidate-context",
+      "text": "Thorium builds for Android (arm64 and arm32)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/Thorium-Android",
+      "status": "candidate-context",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-android?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-android?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/gi\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alex313031/thorium-legacy",
+      "status": "candidate-context",
+      "text": "Repo for Windows XP/Vista & 7/8/8.1 Thorium Builds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/thorium-legacy",
+      "status": "candidate-context",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-win7?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-win7?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/c\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alex313031/Thorium-MacOS",
+      "status": "candidate-context",
+      "text": "Thorium builds for MacOS (arm64 and x64)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/Thorium-MacOS",
+      "status": "candidate-context",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-macos?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-macos?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Vinyzu/Botright",
+      "status": "candidate-context",
+      "text": "Botright, the most advance undetected, fingerprint-changing, captcha-solving, open-source automation framework. Build on Playwright, its as easy to use as it is to extend your code. Solving your Captchas for free with AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vinyzu/Botright",
+      "status": "candidate-context",
+      "text": "![Tests & Linting](https://github.com/Vinyzu/botright/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "myfreeer/chrome-pak-customizer",
+      "status": "candidate-context",
+      "text": "a simple command-line tool to pack and unpack pak files in chrome or chromium-based browser  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "myfreeer/chrome-pak-customizer",
+      "status": "candidate-context",
+      "text": "a simple batch tool to customize pak files in chrome or chromium-based browser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bromite/bromite",
+      "status": "candidate-context",
+      "text": "Bromite is a Chromium fork with ad blocking and privacy enhancements; take back your browser!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bromite/bromite",
+      "status": "candidate-context",
+      "text": "[![Stand With Ukraine](./banner2-direct.svg)](https://stand-with-ukraine.pp.ua/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "status": "candidate-context",
+      "text": "Google Chromium, sans integration with Google"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "status": "candidate-context",
+      "text": "*A lightweight approach to removing Google web service dependency*"
     }
   ],
   "candidate_glosses": [
@@ -372,6 +468,54 @@
       "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright-python",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/ThoriumOS",
+      "status": "candidate",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/chromiumos?label=Latest Image%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/commit-activity/w/alex313031/chromiumos?color=blueviolet&label=Commit%20Activity%3A) &nbsp;![Subreddit sub\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/Thorium-Android",
+      "status": "candidate",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-android?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-android?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/gi\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/thorium-legacy",
+      "status": "candidate",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-win7?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-win7?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/c\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/Thorium-MacOS",
+      "status": "candidate",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-macos?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-macos?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vinyzu/Botright",
+      "status": "candidate",
+      "text": "![Tests & Linting](https://github.com/Vinyzu/botright/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "myfreeer/chrome-pak-customizer",
+      "status": "candidate",
+      "text": "a simple batch tool to customize pak files in chrome or chromium-based browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bromite/bromite",
+      "status": "candidate",
+      "text": "[![Stand With Ukraine](./banner2-direct.svg)](https://stand-with-ukraine.pp.ua/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "status": "candidate",
+      "text": "*A lightweight approach to removing Google web service dependency*"
     }
   ],
   "candidate_related_terms": [
@@ -716,11 +860,71 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "browserslist/map-to-chrome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/ThoriumOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium-legacy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-MacOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Vinyzu/Botright"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "myfreeer/chrome-pak-customizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "bromite/bromite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "browserslist/map-to-chrome"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

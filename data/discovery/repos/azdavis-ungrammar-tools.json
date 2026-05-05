@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "azdavis/ungrammar-tools",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "azdavis/ungrammar-tools",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "azdavis/ungrammar-tools",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "azdavis/ungrammar-tools",
+      "target": "rust-analyzer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "azdavis/ungrammar-tools",
+      "target": "syntax-highlighting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "azdavis/ungrammar-tools",
+      "target": "vscode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T13:46:15.881403+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 387
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 513
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tools for ungrammar",
+    "fork": false,
+    "full_name": "azdavis/ungrammar-tools",
+    "html_url": "https://github.com/azdavis/ungrammar-tools",
+    "language": "Shell",
+    "pushed_at": "2026-01-06T12:29:22Z",
+    "stargazers_count": 4,
+    "topics": [
+      "rust",
+      "rust-analyzer",
+      "syntax-highlighting",
+      "vscode"
+    ],
+    "updated_at": "2026-01-06T12:29:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tools for [ungrammar][1].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "Tools for [ungrammar][1].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-analyzer"
+    },
+    {
+      "context_snippet": "Tools for [ungrammar][1].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntax-highlighting"
+    },
+    {
+      "context_snippet": "Tools for [ungrammar][1].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode"
+    }
+  ]
+}

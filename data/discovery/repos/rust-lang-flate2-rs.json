@@ -53,20 +53,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rust-lang/flate2-rs",
-      "target": "rust-lang/libz-sys",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "rust-lang/flate2-rs",
-      "target": "rust-lang/libz-sys",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cifuzz.yml",
       "source_repo": "rust-lang/flate2-rs",
@@ -137,7 +123,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T05:38:15.659115+00:00",
+  "fetched_at": "2026-05-05T13:50:11.071433+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -165,28 +151,17 @@
     "full_name": "rust-lang/flate2-rs",
     "html_url": "https://github.com/rust-lang/flate2-rs",
     "language": "Rust",
-    "pushed_at": "2026-03-15T03:29:45Z",
-    "stargazers_count": 1093,
+    "pushed_at": "2026-05-03T08:46:41Z",
+    "stargazers_count": 1100,
     "topics": [
       "deflate",
       "gzip",
       "zlib",
       "zlib-ng"
     ],
-    "updated_at": "2026-04-19T21:45:51Z"
+    "updated_at": "2026-05-03T10:52:26Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rust-lang/libz-sys",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rust-lang/libz-sys",
-      "source_file": "Cargo.toml"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "CIFuzz",

@@ -4967,6 +4967,42 @@
       "source_repo": "4kills/go-libdeflate",
       "status": "candidate-context",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazy-max/diun",
+      "status": "candidate-context",
+      "text": "Receive notifications when an image is updated on a Docker registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/diun",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://crazymax.dev/diun/\" target=\"_blank\"><img height=\"128\" src=\"https://raw.githubusercontent.com/crazy-max/diun/master/.res/diun.png\"></a></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IGLOU-EU/go-wildcard",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Fast and light wildcard pattern matching."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IGLOU-EU/go-wildcard",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/IGLOU-EU/go-wildcard/v2)](https://goreportcard.com/report/github.com/IGLOU-EU/go-wildcard/v2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TheZoraiz/ascii-image-converter",
+      "status": "candidate-context",
+      "text": "A cross-platform command-line tool to convert images into ascii art and print them on the console. Now supports braille art!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TheZoraiz/ascii-image-converter",
+      "status": "candidate-context",
+      "text": "[![release-version](https://img.shields.io/github/v/release/TheZoraiz/ascii-image-converter?label=Latest%20Version)](https://github.com/TheZoraiz/ascii-image-converter/releases/latest)"
     }
   ],
   "candidate_glosses": [
@@ -7459,6 +7495,24 @@
       "source_repo": "4kills/go-libdeflate",
       "status": "candidate",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/diun",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://crazymax.dev/diun/\" target=\"_blank\"><img height=\"128\" src=\"https://raw.githubusercontent.com/crazy-max/diun/master/.res/diun.png\"></a></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IGLOU-EU/go-wildcard",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/IGLOU-EU/go-wildcard/v2)](https://goreportcard.com/report/github.com/IGLOU-EU/go-wildcard/v2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TheZoraiz/ascii-image-converter",
+      "status": "candidate",
+      "text": "[![release-version](https://img.shields.io/github/v/release/TheZoraiz/ascii-image-converter?label=Latest%20Version)](https://github.com/TheZoraiz/ascii-image-converter/releases/latest)"
     }
   ],
   "candidate_related_terms": [],
@@ -11042,11 +11096,107 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "googleapis/google-cloud-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "rainbend/frp-notify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "nutsdb/nutsdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "trknhr/2048-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "stephenlacy/daz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "crazy-max/diun"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "IGLOU-EU/go-wildcard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "TheZoraiz/ascii-image-converter"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

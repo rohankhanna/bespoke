@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bromite is a Chromium fork with ad blocking and privacy enhancements; take back your browser!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Stand With Ukraine](./banner2-direct.svg)](https://stand-with-ukraine.pp.ua/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Stand With Ukraine](./banner2-direct.svg)](https://stand-with-ukraine.pp.ua/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023786,
+      "status": "candidate",
+      "text": "adblocker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023785,
+      "status": "candidate",
+      "text": "soft-block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023784,
+      "status": "candidate",
+      "text": "hard-block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023783,
+      "status": "candidate",
+      "text": "permablock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023782,
+      "status": "candidate",
+      "text": "banner blindness"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "adblocking",
+      "sense_id": "adblocking#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "adblocking",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "adblocking",
+  "observation_id": "ec2155958ab18c00",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "adblocking",
+  "source_context_snippet": "[![Stand With Ukraine](./banner2-direct.svg)](https://stand-with-ukraine.pp.ua/)",
+  "source_file": null,
+  "source_repo": "bromite/bromite",
+  "source_repo_description": "Bromite is a Chromium fork with ad blocking and privacy enhancements; take back your browser!"
+}

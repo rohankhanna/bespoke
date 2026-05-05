@@ -1,7 +1,7 @@
 {
   "component": "actions/cache/save@v4",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -727,6 +727,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/haskell-ci.yml",
       "source_repo": "haskell/parsec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sizes_baseline.yml",
+      "source_repo": "near/near-sdk-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-reusable.yaml",
+      "source_repo": "riscv-collab/riscv-gnu-toolchain"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dora-rs/dora"
     }
   ]
 }

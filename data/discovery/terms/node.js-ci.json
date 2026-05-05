@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:50:06.115508+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -621,6 +621,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "geotiffjs/geotiff.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "typicode/mistcss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "d3/d3-contour"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "Fil/d3-tricontour"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "gnosis/gp-v2-contracts"
     }
   ],
   "term": "Node.js CI"

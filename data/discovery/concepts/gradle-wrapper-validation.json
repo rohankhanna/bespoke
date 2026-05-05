@@ -19,12 +19,84 @@
       "source_repo": "open-telemetry/opentelemetry-kotlin",
       "status": "candidate-context",
       "text": "Gradle wrapper validation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "This repository contains the OpenTelemetry Astronomy Shop, a microservice-based distributed system intended to illustrate the implementation of OpenTelemetry in a near real-world environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Gradle wrapper validation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aliyun-sls/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "This repository contains the OpenTelemetry Astronomy Shop, a microservice-based distributed system intended to illustrate the implementation of OpenTelemetry in a near real-world environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliyun-sls/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Gradle wrapper validation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/doris-opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Apache doris"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/doris-opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Gradle wrapper validation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aspecto-io/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Community Demo Application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspecto-io/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Gradle wrapper validation"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "status": "candidate",
+      "text": "Gradle wrapper validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-demo",
+      "status": "candidate",
+      "text": "Gradle wrapper validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliyun-sls/opentelemetry-demo",
+      "status": "candidate",
+      "text": "Gradle wrapper validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/doris-opentelemetry-demo",
+      "status": "candidate",
+      "text": "Gradle wrapper validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspecto-io/opentelemetry-demo",
       "status": "candidate",
       "text": "Gradle wrapper validation"
     }
@@ -76,11 +148,35 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/gradle-wrapper-validation.yml",
       "source_repo": "open-telemetry/opentelemetry-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "open-telemetry/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "aliyun-sls/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "apache/doris-opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "aspecto-io/opentelemetry-demo"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

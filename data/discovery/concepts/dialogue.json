@@ -55,6 +55,18 @@
       "source_repo": "thu-coai/CDial-GPT",
       "status": "candidate-context",
       "text": "* \u672c\u9879\u76ee\u63d0\u4f9b\u4e86\u4e00\u4e2a\u5927\u89c4\u6a21\u4e2d\u6587\u5bf9\u8bdd\u6570\u636e\u96c6\uff0c\u5e76\u63d0\u4f9b\u4e86\u5728\u6b64\u6570\u636e\u96c6\u4e0a\u7684\u4e2d\u6587\u5bf9\u8bdd\u9884\u8bad\u7ec3\u6a21\u578b\uff08\u4e2d\u6587GPT\u6a21\u578b\uff09\uff0c\u66f4\u591a\u4fe1\u606f\u53ef\u53c2\u8003\u6211\u4eec\u7684[\u8bba\u6587](https://arxiv.org/abs/2008.03946)\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "undreamai/LLMUnity",
+      "status": "candidate-context",
+      "text": "Create characters in Unity with LLMs!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "undreamai/LLMUnity",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "thu-coai/CDial-GPT",
       "status": "candidate",
       "text": "* \u672c\u9879\u76ee\u63d0\u4f9b\u4e86\u4e00\u4e2a\u5927\u89c4\u6a21\u4e2d\u6587\u5bf9\u8bdd\u6570\u636e\u96c6\uff0c\u5e76\u63d0\u4f9b\u4e86\u5728\u6b64\u6570\u636e\u96c6\u4e0a\u7684\u4e2d\u6587\u5bf9\u8bdd\u9884\u8bad\u7ec3\u6a21\u578b\uff08\u4e2d\u6587GPT\u6a21\u578b\uff09\uff0c\u66f4\u591a\u4fe1\u606f\u53ef\u53c2\u8003\u6211\u4eec\u7684[\u8bba\u6587](https://arxiv.org/abs/2008.03946)\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "undreamai/LLMUnity",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -163,11 +181,17 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "thu-coai/CDial-GPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "undreamai/LLMUnity"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

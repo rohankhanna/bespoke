@@ -280,7 +280,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-04T13:02:59.250481+00:00",
+  "fetched_at": "2026-05-05T12:46:50.575595+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -325,9 +325,9 @@
     "html_url": "https://github.com/GitoxideLabs/cargo-smart-release",
     "language": "Rust",
     "pushed_at": "2026-05-01T23:24:57Z",
-    "stargazers_count": 118,
+    "stargazers_count": 119,
     "topics": [],
-    "updated_at": "2026-05-01T23:24:59Z"
+    "updated_at": "2026-05-04T20:12:28Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T14:53:58.565807+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 344
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "An HTML5 parsing library in pure C99",
+    "fork": false,
+    "full_name": "google/gumbo-parser",
+    "html_url": "https://github.com/google/gumbo-parser",
+    "language": "HTML",
+    "pushed_at": "2026-01-21T17:17:17Z",
+    "stargazers_count": 5189,
+    "topics": [],
+    "updated_at": "2026-05-04T15:13:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

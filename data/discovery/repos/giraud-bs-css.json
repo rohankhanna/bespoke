@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "giraud/bs-css",
-      "target": "robinweser/fela",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "giraud/bs-css",
       "target": "sentiaanalytics/bs-css",
       "target_type": "repository"
     },
@@ -23,7 +16,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-05T08:03:34.348314+00:00",
+  "fetched_at": "2026-05-05T14:57:39.540827+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -52,11 +45,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "poeschko/bs-glamor",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "robinweser/fela",
       "source_file": "README.md"
     },
     {

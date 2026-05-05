@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T13:49:51.136282+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 832
+    },
+    {
+      "path": "requirements.txt",
+      "size": 16
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "13.0",
+    "description": "Specifications for PacBio\u00ae native file formats",
+    "fork": false,
+    "full_name": "PacificBiosciences/PacBioFileFormats",
+    "html_url": "https://github.com/PacificBiosciences/PacBioFileFormats",
+    "language": "Python",
+    "pushed_at": "2024-11-19T09:25:07Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2025-08-07T09:16:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

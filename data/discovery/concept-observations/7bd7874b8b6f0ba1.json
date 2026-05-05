@@ -84,7 +84,7 @@
   "normalized_form": "sync-release-branch",
   "observation_id": "7bd7874b8b6f0ba1",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Sync Release Branch",
   "source_context_snippet": "Sync Release Branch",
   "source_file": ".github/workflows/sync.yml",

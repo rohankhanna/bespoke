@@ -391,6 +391,18 @@
       "source_repo": "mmark-md/mmark",
       "status": "candidate-context",
       "text": "[![License BSD3](https://img.shields.io/badge/license-BSD3-brightgreen.svg)](http://opensource.org/licenses/BSD-3-Clause)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mmark-md/mmark-cli",
+      "status": "candidate-context",
+      "text": "Command line interface to the MMark markdown processor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmark-md/mmark-cli",
+      "status": "candidate-context",
+      "text": "[![License BSD3](https://img.shields.io/badge/license-BSD3-brightgreen.svg)](http://opensource.org/licenses/BSD-3-Clause)"
     }
   ],
   "candidate_glosses": [
@@ -589,6 +601,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mmark-md/mmark",
+      "status": "candidate",
+      "text": "[![License BSD3](https://img.shields.io/badge/license-BSD3-brightgreen.svg)](http://opensource.org/licenses/BSD-3-Clause)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmark-md/mmark-cli",
       "status": "candidate",
       "text": "[![License BSD3](https://img.shields.io/badge/license-BSD3-brightgreen.svg)](http://opensource.org/licenses/BSD-3-Clause)"
     }
@@ -892,11 +910,23 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "protolude/protolude"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "protolude/protolude"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "mmark-md/mmark-cli"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

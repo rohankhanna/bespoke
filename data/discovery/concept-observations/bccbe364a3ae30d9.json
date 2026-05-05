@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ChromiumOS fork with Thorium Browser, x264/x265 codecs, Widevine, Kernel 5.15, Linux firmware/modules support, Nouveau, Intel microcode, and extra packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/chromiumos?label=Latest Image%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/commit-activity/w/alex313031/chromiumos?color=blueviolet&label=Commit%20Activity%3A) &nbsp;![Subreddit sub\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/chromiumos?label=Latest Image%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/commit-activity/w/alex313031/chromiumos?color=blueviolet&label=Commit%20Activity%3A) &nbsp;![Subreddit sub\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "thoriumos",
+      "sense_id": "thoriumos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "thoriumos",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "thoriumos",
+  "observation_id": "bccbe364a3ae30d9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "thoriumos",
+  "source_context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/chromiumos?label=Latest Image%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/commit-activity/w/alex313031/chromiumos?color=blueviolet&label=Commit%20Activity%3A) &nbsp;![Subreddit sub\u2026",
+  "source_file": null,
+  "source_repo": "Alex313031/ThoriumOS",
+  "source_repo_description": "ChromiumOS fork with Thorium Browser, x264/x265 codecs, Widevine, Kernel 5.15, Linux firmware/modules support, Nouveau, Intel microcode, and extra packages."
+}

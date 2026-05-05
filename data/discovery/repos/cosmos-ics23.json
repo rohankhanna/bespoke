@@ -1,0 +1,421 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "SonarSource/sonarcloud-github-action@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-pr.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v5.5.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto-register.yml"
+    },
+    {
+      "component": "bufbuild/buf-setup-action@v1.49.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto-register.yml"
+    },
+    {
+      "component": "bufbuild/buf-push-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto-register.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto.yml"
+    },
+    {
+      "component": "bufbuild/buf-setup-action@v1.49.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto.yml"
+    },
+    {
+      "component": "bufbuild/buf-lint-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto.yml"
+    },
+    {
+      "component": "bufbuild/buf-setup-action@v1.49.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto.yml"
+    },
+    {
+      "component": "bufbuild/buf-breaking-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-hack",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-llvm-cov",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "taiki-e/install-action@nextest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cosmos/ics23",
+      "target": "cosmos/iavl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cosmos/ics23",
+      "target": "penumbra-zone/jmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cosmos/ics23",
+      "target": "turbofish-org/merk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cosmos/ics23",
+      "target": "confio/proofs-ethereum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "cosmos/ics23",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "cosmos/ics23",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "cosmos/ics23",
+      "target": "golangci/golangci-lint-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "cosmos/ics23",
+      "target": "SonarSource/sonarcloud-github-action@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-pr.yml",
+      "source_repo": "cosmos/ics23",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-pr.yml",
+      "source_repo": "cosmos/ics23",
+      "target": "amannn/action-semantic-pull-request@v5.5.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto-register.yml",
+      "source_repo": "cosmos/ics23",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto-register.yml",
+      "source_repo": "cosmos/ics23",
+      "target": "bufbuild/buf-setup-action@v1.49.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto-register.yml",
+      "source_repo": "cosmos/ics23",
+      "target": "bufbuild/buf-push-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/proto-register.yml",
+      "source_repo": "cosmos/ics23",
+      "target": "Buf-Push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto.yml",
+      "source_repo": "cosmos/ics23",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto.yml",
+      "source_repo": "cosmos/ics23",
+      "target": "bufbuild/buf-setup-action@v1.49.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto.yml",
+      "source_repo": "cosmos/ics23",
+      "target": "bufbuild/buf-lint-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto.yml",
+      "source_repo": "cosmos/ics23",
+      "target": "bufbuild/buf-breaking-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/proto.yml",
+      "source_repo": "cosmos/ics23",
+      "target": "Protobuf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cosmos/ics23",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cosmos/ics23",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cosmos/ics23",
+      "target": "taiki-e/install-action@cargo-hack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cosmos/ics23",
+      "target": "taiki-e/install-action@cargo-llvm-cov",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cosmos/ics23",
+      "target": "taiki-e/install-action@nextest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cosmos/ics23",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cosmos/ics23",
+      "target": "Rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T15:58:50.478648+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8579
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 1510
+    },
+    {
+      "path": ".github/workflows/lint-pr.yml",
+      "size": 515
+    },
+    {
+      "path": ".github/workflows/proto-register.yml",
+      "size": 517
+    },
+    {
+      "path": ".github/workflows/proto.yml",
+      "size": 768
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 2876
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Building generic merkle proof format for IBC",
+    "fork": false,
+    "full_name": "cosmos/ics23",
+    "html_url": "https://github.com/cosmos/ics23",
+    "language": "Rust",
+    "pushed_at": "2026-04-13T09:02:39Z",
+    "stargazers_count": 129,
+    "topics": [],
+    "updated_at": "2026-05-01T16:49:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "confio/proofs-ethereum",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cosmos/iavl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "penumbra-zone/jmt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "turbofish-org/merk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Buf-Push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/proto-register.yml",
+      "term": "Buf-Push"
+    },
+    {
+      "context_snippet": "Protobuf",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/proto.yml",
+      "term": "Protobuf"
+    },
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    }
+  ]
+}

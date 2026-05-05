@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -286,6 +286,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/deploy-docs.yml",
       "source_repo": "saadeghi/daisyui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "less/less-docs"
     }
   ],
   "term": "Deploy Docs"

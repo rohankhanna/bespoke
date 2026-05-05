@@ -1,0 +1,261 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "target": "petercorke/spatial-math",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "target": "petercorke/toolbox-common-matlab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "target": "geez0x1/compliantjointtoolbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "target": "modi1987/kst-kuka-sunrise-toolbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "target": "arm-robot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "target": "dynamics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "target": "jacobian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "target": "kalman-filter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "target": "kinematics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "target": "matlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "target": "matlab-toolbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "target": "mobile-robots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "target": "motion-planning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "target": "rigid-body-dynamics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "target": "slam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "target": "trajectory-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T17:13:43.599675+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9745
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Robotics Toolbox for MATLAB",
+    "fork": false,
+    "full_name": "petercorke/robotics-toolbox-matlab",
+    "html_url": "https://github.com/petercorke/robotics-toolbox-matlab",
+    "language": "MATLAB",
+    "pushed_at": "2023-01-01T21:23:11Z",
+    "stargazers_count": 1521,
+    "topics": [
+      "arm-robot",
+      "dynamics",
+      "jacobian",
+      "kalman-filter",
+      "kinematics",
+      "matlab",
+      "matlab-toolbox",
+      "mobile-robots",
+      "motion-planning",
+      "rigid-body-dynamics",
+      "robotics",
+      "slam",
+      "trajectory-generation"
+    ],
+    "updated_at": "2026-05-04T19:30:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "geez0x1/compliantjointtoolbox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "modi1987/kst-kuka-sunrise-toolbox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "petercorke/spatial-math",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "petercorke/toolbox-common-matlab",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/petercorke/robotics-toolbox-matlab.svg?branch=master)](https://travis-ci.com/petercorke/robotics-toolbox-matlab)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arm-robot"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/petercorke/robotics-toolbox-matlab.svg?branch=master)](https://travis-ci.com/petercorke/robotics-toolbox-matlab)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamics"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/petercorke/robotics-toolbox-matlab.svg?branch=master)](https://travis-ci.com/petercorke/robotics-toolbox-matlab)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jacobian"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/petercorke/robotics-toolbox-matlab.svg?branch=master)](https://travis-ci.com/petercorke/robotics-toolbox-matlab)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kalman-filter"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/petercorke/robotics-toolbox-matlab.svg?branch=master)](https://travis-ci.com/petercorke/robotics-toolbox-matlab)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kinematics"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/petercorke/robotics-toolbox-matlab.svg?branch=master)](https://travis-ci.com/petercorke/robotics-toolbox-matlab)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matlab"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/petercorke/robotics-toolbox-matlab.svg?branch=master)](https://travis-ci.com/petercorke/robotics-toolbox-matlab)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matlab-toolbox"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/petercorke/robotics-toolbox-matlab.svg?branch=master)](https://travis-ci.com/petercorke/robotics-toolbox-matlab)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile-robots"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/petercorke/robotics-toolbox-matlab.svg?branch=master)](https://travis-ci.com/petercorke/robotics-toolbox-matlab)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-planning"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/petercorke/robotics-toolbox-matlab.svg?branch=master)](https://travis-ci.com/petercorke/robotics-toolbox-matlab)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rigid-body-dynamics"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/petercorke/robotics-toolbox-matlab.svg?branch=master)](https://travis-ci.com/petercorke/robotics-toolbox-matlab)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/petercorke/robotics-toolbox-matlab.svg?branch=master)](https://travis-ci.com/petercorke/robotics-toolbox-matlab)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slam"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/petercorke/robotics-toolbox-matlab.svg?branch=master)](https://travis-ci.com/petercorke/robotics-toolbox-matlab)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trajectory-generation"
+    }
+  ]
+}

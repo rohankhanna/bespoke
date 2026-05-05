@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A pure javascript HDF5 reader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "jsfive is a library for reading (not writing) HDF5 files using pure javascript, such as in the browser. It is based on the [pyfive](https://github.com/jjhelmus/pyfive) pure-python implementation of an HDF5 reader."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "jsfive is a library for reading (not writing) HDF5 files using pure javascript, such as in the browser. It is based on the [pyfive](https://github.com/jjhelmus/pyfive) pure-python implementation of an HDF5 reader."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hdf5",
+      "sense_id": "hdf5#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hdf5",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hdf5",
+  "observation_id": "5c3c0399015f5475",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "hdf5",
+  "source_context_snippet": "jsfive is a library for reading (not writing) HDF5 files using pure javascript, such as in the browser. It is based on the [pyfive](https://github.com/jjhelmus/pyfive) pure-python implementation of an HDF5 reader.",
+  "source_file": null,
+  "source_repo": "usnistgov/jsfive",
+  "source_repo_description": "A pure javascript HDF5 reader"
+}

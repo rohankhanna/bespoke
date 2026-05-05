@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Create contours from non-gridded data with meandering triangles."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This library computes contour polygons by applying [meandering triangles](https://blog.bruce-hill.com/meandering-triangles) to an array of points with arbitrary 2D coordinates (_x_, _y_) holding numeric values _z_. To compute contours on gridded coordinates, see [d3-contour](htt\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This library computes contour polygons by applying [meandering triangles](https://blog.bruce-hill.com/meandering-triangles) to an array of points with arbitrary 2D coordinates (_x_, _y_) holding numeric values _z_. To compute contours on gridded coordinates, see [d3-contour](htt\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31365,
+      "status": "candidate",
+      "text": "staal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31365,
+      "status": "candidate",
+      "text": "triangulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31364,
+      "status": "candidate",
+      "text": "fauve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31363,
+      "status": "candidate",
+      "text": "raoul dufy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31362,
+      "status": "candidate",
+      "text": "matisse"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "delaunay",
+      "sense_id": "delaunay#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "delaunay",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "delaunay",
+  "observation_id": "12037de2ea1c66c1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "delaunay",
+  "source_context_snippet": "This library computes contour polygons by applying [meandering triangles](https://blog.bruce-hill.com/meandering-triangles) to an array of points with arbitrary 2D coordinates (_x_, _y_) holding numeric values _z_. To compute contours on gridded coordinates, see [d3-contour](htt\u2026",
+  "source_file": null,
+  "source_repo": "Fil/d3-tricontour",
+  "source_repo_description": "Create contours from non-gridded data with meandering triangles."
+}

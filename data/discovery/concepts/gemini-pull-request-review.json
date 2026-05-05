@@ -31,6 +31,18 @@
       "source_repo": "google/draco",
       "status": "candidate-context",
       "text": "'\ud83e\uddd0 Gemini Pull Request Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davidmigloz/langchain_dart",
+      "status": "candidate-context",
+      "text": "Build LLM-powered Dart/Flutter applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidmigloz/langchain_dart",
+      "status": "candidate-context",
+      "text": "'\ud83e\uddd0 Gemini Pull Request Review'"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "google/draco",
+      "status": "candidate",
+      "text": "'\ud83e\uddd0 Gemini Pull Request Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidmigloz/langchain_dart",
       "status": "candidate",
       "text": "'\ud83e\uddd0 Gemini Pull Request Review'"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/gemini-pr-review.yml",
       "source_repo": "google/draco"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/gemini-pr-review.yml",
+      "source_repo": "davidmigloz/langchain_dart"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

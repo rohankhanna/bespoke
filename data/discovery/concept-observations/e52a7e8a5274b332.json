@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python type wrappers for Chrome DevTools Protocol (CDP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Periodic Code Cleanliness Review\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Periodic Code Cleanliness Review\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33409,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32977,
+      "status": "candidate",
+      "text": "police"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32094,
+      "status": "candidate",
+      "text": "polish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31525,
+      "status": "candidate",
+      "text": "fuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31525,
+      "status": "candidate",
+      "text": "fusing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Periodic Code Cleanliness Review",
+      "sense_id": "periodic-code-cleanliness-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "periodic-code-cleanliness-review",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "periodic-code-cleanliness-review",
+  "observation_id": "e52a7e8a5274b332",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "Periodic Code Cleanliness Review",
+  "source_context_snippet": "\"Periodic Code Cleanliness Review\"",
+  "source_file": ".github/workflows/auto-copilot-code-cleanliness-review.yml",
+  "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+  "source_repo_description": "Python type wrappers for Chrome DevTools Protocol (CDP)"
+}

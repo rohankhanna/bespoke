@@ -1,7 +1,7 @@
 {
   "component": "ludeeus/action-shellcheck@master",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -82,6 +82,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/shellcheck.yml",
       "source_repo": "actions/jekyll-build-pages"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scripts.yaml",
+      "source_repo": "ChorusOne/ibc-rs"
     }
   ]
 }

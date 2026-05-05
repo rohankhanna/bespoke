@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "shingarov/MachineArithmetic",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "shingarov/MachineArithmetic",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:50:27.061028+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2475
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4604
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "pure-z3",
+    "description": "A mathematical foundation for Smalltalk-25",
+    "fork": false,
+    "full_name": "shingarov/MachineArithmetic",
+    "html_url": "https://github.com/shingarov/MachineArithmetic",
+    "language": "Smalltalk",
+    "pushed_at": "2026-04-23T17:44:07Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2026-04-22T16:54:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Test"
+    }
+  ]
+}

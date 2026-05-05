@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rust-lang/flate2-rs",
-      "target": "rust-lang/libz-sys",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "rust-lang/flate2-rs",
-      "target": "rust-lang/libz-sys",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cifuzz.yml",
       "source_repo": "rust-lang/flate2-rs",
@@ -85,6 +71,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
   "source_repo": "rust-lang/flate2-rs"
 }

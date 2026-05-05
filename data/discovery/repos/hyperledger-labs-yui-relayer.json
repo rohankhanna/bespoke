@@ -1,0 +1,236 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hyperledger-labs/yui-relayer",
+      "target": "hyperledger-labs/yui-fabric-ibc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hyperledger-labs/yui-relayer",
+      "target": "hyperledger-labs/yui-corda-ibc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hyperledger-labs/yui-relayer",
+      "target": "datachainlab/yui-relayer-build",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hyperledger-labs/yui-relayer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hyperledger-labs/yui-relayer",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hyperledger-labs/yui-relayer",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hyperledger-labs/yui-relayer",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyperledger-labs/yui-relayer",
+      "target": "corda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyperledger-labs/yui-relayer",
+      "target": "cosmos-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyperledger-labs/yui-relayer",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyperledger-labs/yui-relayer",
+      "target": "hyperledger-fabric",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyperledger-labs/yui-relayer",
+      "target": "tendermint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:49:43.180368+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8584
+    },
+    {
+      "path": "go.mod",
+      "size": 10625
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 4350
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "IBC Relayer implementations for heterogeneous blockchains",
+    "fork": false,
+    "full_name": "hyperledger-labs/yui-relayer",
+    "html_url": "https://github.com/hyperledger-labs/yui-relayer",
+    "language": "Go",
+    "pushed_at": "2026-03-12T14:58:48Z",
+    "stargazers_count": 53,
+    "topics": [
+      "corda",
+      "cosmos-sdk",
+      "ethereum",
+      "hyperledger-fabric",
+      "ibc",
+      "tendermint"
+    ],
+    "updated_at": "2026-04-14T06:08:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datachainlab/yui-relayer-build",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hyperledger-labs/yui-corda-ibc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hyperledger-labs/yui-fabric-ibc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "![Test](https://github.com/hyperledger-labs/yui-relayer/workflows/Test/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "corda"
+    },
+    {
+      "context_snippet": "![Test](https://github.com/hyperledger-labs/yui-relayer/workflows/Test/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cosmos-sdk"
+    },
+    {
+      "context_snippet": "![Test](https://github.com/hyperledger-labs/yui-relayer/workflows/Test/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "![Test](https://github.com/hyperledger-labs/yui-relayer/workflows/Test/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperledger-fabric"
+    },
+    {
+      "context_snippet": "![Test](https://github.com/hyperledger-labs/yui-relayer/workflows/Test/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tendermint"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "softprops/action-gh-release@v1",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1337,6 +1337,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/source-release.yml",
       "source_repo": "CloudCompare/CloudCompare"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dapphub/dapptools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-psl.yml",
+      "source_repo": "ameshkov/swift-psl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "ayazhafiz/xorf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "jzelinskie/faq"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bamboo/idris2-lsp-vscode"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v8",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1332,6 +1332,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/sign.yml",
       "source_repo": "BrowserWorks/waterfox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue_labeler.yml",
+      "source_repo": "astroyat/lerobot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs_upload.yml",
+      "source_repo": "cvc5/cvc5"
     }
   ]
 }

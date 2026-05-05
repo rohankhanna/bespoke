@@ -55,6 +55,18 @@
       "source_repo": "georust/polyline",
       "status": "candidate-context",
       "text": "[![polyline](https://avatars1.githubusercontent.com/u/10320338?v=4&s=50)](https://github.com/georust)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lace/polliwog",
+      "status": "candidate-context",
+      "text": "2D and 3D computational geometry library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/polliwog",
+      "status": "candidate-context",
+      "text": "[![version](https://img.shields.io/pypi/v/polliwog?style=flat-square)][pypi]"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "georust/polyline",
       "status": "candidate",
       "text": "[![polyline](https://avatars1.githubusercontent.com/u/10320338?v=4&s=50)](https://github.com/georust)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/polliwog",
+      "status": "candidate",
+      "text": "[![version](https://img.shields.io/pypi/v/polliwog?style=flat-square)][pypi]"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "georust/polyline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "lace/polliwog"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

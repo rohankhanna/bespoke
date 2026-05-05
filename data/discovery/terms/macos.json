@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -1146,6 +1146,36 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/build-macos.yml",
       "source_repo": "bitwizeshift/string_view-standalone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-MacOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "gumob/PunycodeSwift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "bitwizeshift/BackportCpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "gumob/TLDExtractSwift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/macosx-sdks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "koide3/small_gicp"
     }
   ],
   "term": "macos"

@@ -1,7 +1,7 @@
 {
   "component": "actions/attest-build-provenance@96278af6caaf10aea03fd8d33a09a777ca52d62f",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

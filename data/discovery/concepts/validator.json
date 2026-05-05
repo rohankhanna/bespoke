@@ -223,6 +223,18 @@
       "source_repo": "ftonato/nope-validator",
       "status": "candidate-context",
       "text": "[![Version](https://img.shields.io/npm/v/nope-validator.svg)](https://npm.im/nope-validator)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Airfooox/cron-validate",
+      "status": "candidate-context",
+      "text": "A cron-expression validator for TypeScript/JavaScript projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Airfooox/cron-validate",
+      "status": "candidate-context",
+      "text": "[![typescript](https://camo.githubusercontent.com/56e4a1d9c38168bd7b1520246d6ee084ab9abbbb/68747470733a2f2f62616467656e2e6e65742f62616467652f69636f6e2f547970655363726970743f69636f6e3d74797065736372697074266c6162656c266c6162656c436f6c6f723d626c756526636f6c6f723d353535353535)](htt\u2026"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +345,12 @@
       "source_repo": "ftonato/nope-validator",
       "status": "candidate",
       "text": "[![Version](https://img.shields.io/npm/v/nope-validator.svg)](https://npm.im/nope-validator)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Airfooox/cron-validate",
+      "status": "candidate",
+      "text": "[![typescript](https://camo.githubusercontent.com/56e4a1d9c38168bd7b1520246d6ee084ab9abbbb/68747470733a2f2f62616467656e2e6e65742f62616467652f69636f6e2f547970655363726970743f69636f6e3d74797065736372697074266c6162656c266c6162656c436f6c6f723d626c756526636f6c6f723d353535353535)](htt\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -808,11 +826,35 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "ajv-validator/ajv-keywords"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Airfooox/cron-validate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ajv-validator/ajv-i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ajv-validator/ajv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ajv-validator/ajv-keywords"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

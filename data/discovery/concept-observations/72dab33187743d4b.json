@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of GICP-based fast point cloud registration algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "We released [small_gicp](https://github.com/koide3/small_gicp) that is twice as fast as fast_gicp and with minimum dependencies and clean interfaces."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "We released [small_gicp](https://github.com/koide3/small_gicp) that is twice as fast as fast_gicp and with minimum dependencies and clean interfaces."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scan-matching",
+      "sense_id": "scan-matching#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "scan-matching",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scan-matching",
+  "observation_id": "72dab33187743d4b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "scan-matching",
+  "source_context_snippet": "We released [small_gicp](https://github.com/koide3/small_gicp) that is twice as fast as fast_gicp and with minimum dependencies and clean interfaces.",
+  "source_file": null,
+  "source_repo": "koide3/fast_gicp",
+  "source_repo_description": "A collection of GICP-based fast point cloud registration algorithms"
+}

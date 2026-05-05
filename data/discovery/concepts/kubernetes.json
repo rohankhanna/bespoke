@@ -2686,6 +2686,66 @@
       "source_repo": "jetstack/kube-lego",
       "status": "candidate-context",
       "text": "> :warning:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/charts",
+      "status": "candidate-context",
+      "text": "\u26a0\ufe0f(OBSOLETE) Curated applications for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/charts",
+      "status": "candidate-context",
+      "text": "|![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Warning.svg/156px-Warning.svg.png) | This project is no longer supported."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/ingress-gce",
+      "status": "candidate-context",
+      "text": "Ingress controller for Google Cloud"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/ingress-gce",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/kubernetes/ingress-gce.svg)](https://github.com/kubernetes/ingress-gce/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/ingress-nginx",
+      "status": "candidate-context",
+      "text": "Ingress NGINX Controller for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/ingress-nginx",
+      "status": "candidate-context",
+      "text": "[What You Need to Know about Ingress NGINX Retirement](https://www.kubernetes.io/blog/2025/11/11/ingress-nginx-retirement/):"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazy-max/diun",
+      "status": "candidate-context",
+      "text": "Receive notifications when an image is updated on a Docker registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/diun",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://crazymax.dev/diun/\" target=\"_blank\"><img height=\"128\" src=\"https://raw.githubusercontent.com/crazy-max/diun/master/.res/diun.png\"></a></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudnativeapp/charts",
+      "status": "candidate-context",
+      "text": "Localized Helm charts from Helm Hub to China"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudnativeapp/charts",
+      "status": "candidate-context",
+      "text": "```"
     }
   ],
   "candidate_glosses": [
@@ -4026,6 +4086,36 @@
       "source_repo": "jetstack/kube-lego",
       "status": "candidate",
       "text": "> :warning:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/charts",
+      "status": "candidate",
+      "text": "|![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Warning.svg/156px-Warning.svg.png) | This project is no longer supported."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/ingress-gce",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/kubernetes/ingress-gce.svg)](https://github.com/kubernetes/ingress-gce/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/ingress-nginx",
+      "status": "candidate",
+      "text": "[What You Need to Know about Ingress NGINX Retirement](https://www.kubernetes.io/blog/2025/11/11/ingress-nginx-retirement/):"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/diun",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://crazymax.dev/diun/\" target=\"_blank\"><img height=\"128\" src=\"https://raw.githubusercontent.com/crazy-max/diun/master/.res/diun.png\"></a></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudnativeapp/charts",
+      "status": "candidate",
+      "text": "```"
     }
   ],
   "candidate_related_terms": [
@@ -6337,11 +6427,101 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "apollographql/supergraph-demo-k8s-graph-ops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "cert-manager/cert-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "helm/charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes/ingress-gce"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes/ingress-nginx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "okd-project/okd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "bitnami/kube-libsonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "vmware-archive/kubecfg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "hexops-graveyard/dockerfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "crazy-max/diun"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "cloudnativeapp/charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "helm/helm"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

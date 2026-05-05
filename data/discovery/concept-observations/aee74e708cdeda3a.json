@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "If your image was a pizza and the CFG the temperature of your oven: this is a thermostat that ensures it is always cooked like you want. Also adds a 30% speed increase. For ComfyUI / StableDiffusion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "If you liked other functionnalities, I've re-created most in [this](https://github.com/Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI) repository."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "If you liked other functionnalities, I've re-created most in [this](https://github.com/Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI) repository."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006982,
+      "status": "candidate",
+      "text": "comfortable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006915,
+      "status": "candidate",
+      "text": "easy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002701,
+      "status": "candidate",
+      "text": "soothing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39980070,
+      "status": "candidate",
+      "text": "cosy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39979420,
+      "status": "candidate",
+      "text": "cozy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "comfy",
+      "sense_id": "comfy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26045,
+      "status": "candidate",
+      "text": "easy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25035,
+      "status": "candidate",
+      "text": "comfortable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24039,
+      "status": "candidate",
+      "text": "snug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22033,
+      "status": "candidate",
+      "text": "homely"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20030,
+      "status": "candidate",
+      "text": "soothing"
+    }
+  ],
+  "concept_id": "comfy",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "comfy",
+  "observation_id": "aee74e708cdeda3a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "comfy",
+  "source_context_snippet": "If you liked other functionnalities, I've re-created most in [this](https://github.com/Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI) repository.",
+  "source_file": null,
+  "source_repo": "Extraltodeus/ComfyUI-AutomaticCFG",
+  "source_repo_description": "If your image was a pizza and the CFG the temperature of your oven: this is a thermostat that ensures it is always cooked like you want. Also adds a 30% speed increase. For ComfyUI / StableDiffusion"
+}

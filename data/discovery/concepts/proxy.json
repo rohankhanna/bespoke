@@ -573,6 +573,18 @@
       "source_repo": "nginx-le/nginx-le",
       "status": "candidate-context",
       "text": "Simple nginx image (alpine based) with integrated [Let's Encrypt](https://letsencrypt.org) support."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haveachin/infrared",
+      "status": "candidate-context",
+      "text": "An ultra lightweight minecraft reverse proxy and idle placeholder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haveachin/infrared",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -857,6 +869,12 @@
       "source_repo": "nginx-le/nginx-le",
       "status": "candidate",
       "text": "Simple nginx image (alpine based) with integrated [Let's Encrypt](https://letsencrypt.org) support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haveachin/infrared",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1239,11 +1257,29 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "nginx-le/nginx-le"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "haveachin/infrared"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "DaoCloud/crproxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "nginx-le/nginx-le"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

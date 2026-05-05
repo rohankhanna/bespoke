@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T14:54:28.822672+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10747
+    },
+    {
+      "path": "requirements.txt",
+      "size": 170
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyTorch implementation of a 1.3B text-to-image generation model trained on 14 million image-text pairs",
+    "fork": false,
+    "full_name": "kakaobrain/mindall-e",
+    "html_url": "https://github.com/kakaobrain/mindall-e",
+    "language": "Python",
+    "pushed_at": "2022-08-09T23:01:46Z",
+    "stargazers_count": 632,
+    "topics": [],
+    "updated_at": "2026-05-04T04:56:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

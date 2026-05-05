@@ -103,6 +103,18 @@
       "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
       "status": "candidate-context",
       "text": "![Logo](docs/logo@2x.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang-ja/rust-by-example-ja",
+      "status": "candidate-context",
+      "text": "rust-by-example\u306e\u548c\u8a33\u30ea\u30dd\u30b8\u30c8\u30ea"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang-ja/rust-by-example-ja",
+      "status": "candidate-context",
+      "text": "[Rust by Example](https://github.com/rust-lang/rust-by-example)\u306e\u548c\u8a33\u30ea\u30dd\u30b8\u30c8\u30ea [![CircleCI](https://circleci.com/gh/rust-lang-ja/rust-by-example-ja.svg?style=svg)](https://circleci.com/gh/rust-lang-ja/rust-by-example-ja)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
       "status": "candidate",
       "text": "![Logo](docs/logo@2x.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang-ja/rust-by-example-ja",
+      "status": "candidate",
+      "text": "[Rust by Example](https://github.com/rust-lang/rust-by-example)\u306e\u548c\u8a33\u30ea\u30dd\u30b8\u30c8\u30ea [![CircleCI](https://circleci.com/gh/rust-lang-ja/rust-by-example-ja.svg?style=svg)](https://circleci.com/gh/rust-lang-ja/rust-by-example-ja)"
     }
   ],
   "candidate_related_terms": [
@@ -294,11 +312,23 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang-ja/rust-by-example-ja"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

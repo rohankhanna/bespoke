@@ -400,6 +400,30 @@
       "source_repo": "ultrafunkamsterdam/undetected-chromedriver",
       "status": "candidate-context",
       "text": "https://github.com/ultrafunkamsterdam/undetected-chromedriver"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Vinyzu/Botright",
+      "status": "candidate-context",
+      "text": "Botright, the most advance undetected, fingerprint-changing, captcha-solving, open-source automation framework. Build on Playwright, its as easy to use as it is to extend your code. Solving your Captchas for free with AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vinyzu/Botright",
+      "status": "candidate-context",
+      "text": "![Tests & Linting](https://github.com/Vinyzu/botright/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "myfreeer/chrome-pak-customizer",
+      "status": "candidate-context",
+      "text": "a simple command-line tool to pack and unpack pak files in chrome or chromium-based browser  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "myfreeer/chrome-pak-customizer",
+      "status": "candidate-context",
+      "text": "a simple batch tool to customize pak files in chrome or chromium-based browser"
     }
   ],
   "candidate_glosses": [
@@ -600,6 +624,18 @@
       "source_repo": "ultrafunkamsterdam/undetected-chromedriver",
       "status": "candidate",
       "text": "https://github.com/ultrafunkamsterdam/undetected-chromedriver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vinyzu/Botright",
+      "status": "candidate",
+      "text": "![Tests & Linting](https://github.com/Vinyzu/botright/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "myfreeer/chrome-pak-customizer",
+      "status": "candidate",
+      "text": "a simple batch tool to customize pak files in chrome or chromium-based browser"
     }
   ],
   "candidate_related_terms": [
@@ -1113,11 +1149,47 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "browserslist/map-to-chrome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "clj-commons/etaoin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-devtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Vinyzu/Botright"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "myfreeer/chrome-pak-customizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "browserslist/map-to-chrome"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

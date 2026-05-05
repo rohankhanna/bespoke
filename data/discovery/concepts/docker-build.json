@@ -202,6 +202,36 @@
       "source_repo": "mozilla/pontoon",
       "status": "candidate-context",
       "text": "Docker Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "usdot-fhwa-stol/cdasim",
+      "status": "candidate-context",
+      "text": "CDASim is an open-source simulation system supporting the development and testing of Cooperative Driving Automation applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/cdasim",
+      "status": "candidate-context",
+      "text": "Docker build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "status": "candidate-context",
+      "text": "CARMA Platform is built on robot operating system (ROS) and utilizes open source software (OSS) that enables Cooperative Driving Automation (CDA) features to allow Automated Driving Systems to interact and cooperate with infrastructure and other vehicles through communication. Doxygen Source Code Documentation :"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "status": "candidate-context",
+      "text": "Docker build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stefan-hoeck/idris2-pack",
+      "status": "candidate-context",
+      "text": "Docker Build"
     }
   ],
   "candidate_glosses": [
@@ -298,6 +328,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mozilla/pontoon",
+      "status": "candidate",
+      "text": "Docker Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/cdasim",
+      "status": "candidate",
+      "text": "Docker build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "status": "candidate",
+      "text": "Docker build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stefan-hoeck/idris2-pack",
       "status": "candidate",
       "text": "Docker Build"
     }
@@ -529,11 +577,35 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/docker-build.yaml",
       "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "usdot-fhwa-stol/cdasim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "usdot-fhwa-stol/carma-platform"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "stefan-hoeck/idris2-pack"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

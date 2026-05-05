@@ -1,0 +1,12 @@
+{
+  "component": "buildjet/cache-delete@v1",
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/delete-buildjet-cache.yml",
+      "source_repo": "dora-rs/dora"
+    }
+  ]
+}

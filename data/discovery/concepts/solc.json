@@ -19,6 +19,42 @@
       "source_repo": "foundry-rs/forge-std",
       "status": "candidate-context",
       "text": "Forge Standard Library is a collection of helpful contracts and libraries for use with [Forge and Foundry](https://github.com/foundry-rs/foundry). It leverages Forge's cheatcodes to make writing tests easier and faster, while improving the UX of cheatcodes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dapphub/dapptools",
+      "status": "candidate-context",
+      "text": "Dapp, Seth, Hevm, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dapphub/dapptools",
+      "status": "candidate-context",
+      "text": "Hello!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "foundry-rs/compilers",
+      "status": "candidate-context",
+      "text": "Utilities for working with native solc and compiling projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/compilers",
+      "status": "candidate-context",
+      "text": "Archived as a standalone repository. Maintenance and publishing continue from [`foundry-core`](https://github.com/foundry-rs/foundry-core) under the same [`foundry-compilers`](https://crates.io/crates/foundry-compilers) crate name."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paradigmxyz/solar",
+      "status": "candidate-context",
+      "text": "Blazingly fast, modular and contributor friendly Solidity compiler, written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paradigmxyz/solar",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/solar-compiler.svg)](https://crates.io/crates/solar-compiler)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "foundry-rs/forge-std",
       "status": "candidate",
       "text": "Forge Standard Library is a collection of helpful contracts and libraries for use with [Forge and Foundry](https://github.com/foundry-rs/foundry). It leverages Forge's cheatcodes to make writing tests easier and faster, while improving the UX of cheatcodes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dapphub/dapptools",
+      "status": "candidate",
+      "text": "Hello!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/compilers",
+      "status": "candidate",
+      "text": "Archived as a standalone repository. Maintenance and publishing continue from [`foundry-core`](https://github.com/foundry-rs/foundry-core) under the same [`foundry-compilers`](https://crates.io/crates/foundry-compilers) crate name."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paradigmxyz/solar",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/solar-compiler.svg)](https://crates.io/crates/solar-compiler)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "foundry-rs/forge-std"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "dapphub/dapptools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "foundry-rs/compilers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "foundry-rs/forge-std"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "paradigmxyz/solar"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

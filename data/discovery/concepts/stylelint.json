@@ -153,6 +153,18 @@
       "source_repo": "stylelint/stylelint-config-standard",
       "status": "candidate-context",
       "text": "[![NPM version](https://img.shields.io/npm/v/stylelint-config-standard.svg)](https://www.npmjs.org/package/stylelint-config-standard) [![Build Status](https://github.com/stylelint/stylelint-config-standard/workflows/CI/badge.svg)](https://github.com/stylelint/stylelint-config-st\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stylelint/stylelint-config-recommended",
+      "status": "candidate-context",
+      "text": "The recommended shareable config for Stylelint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stylelint/stylelint-config-recommended",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/stylelint-config-recommended.svg)](https://www.npmjs.org/package/stylelint-config-recommended) [![Build Status](https://github.com/stylelint/stylelint-config-recommended/workflows/CI/badge.svg)](https://github.com/stylelint/stylelint-\u2026"
     }
   ],
   "candidate_glosses": [
@@ -227,6 +239,12 @@
       "source_repo": "stylelint/stylelint-config-standard",
       "status": "candidate",
       "text": "[![NPM version](https://img.shields.io/npm/v/stylelint-config-standard.svg)](https://www.npmjs.org/package/stylelint-config-standard) [![Build Status](https://github.com/stylelint/stylelint-config-standard/workflows/CI/badge.svg)](https://github.com/stylelint/stylelint-config-st\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stylelint/stylelint-config-recommended",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/stylelint-config-recommended.svg)](https://www.npmjs.org/package/stylelint-config-recommended) [![Build Status](https://github.com/stylelint/stylelint-config-recommended/workflows/CI/badge.svg)](https://github.com/stylelint/stylelint-\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -438,11 +456,23 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "stylelint/stylelint-config-recommended"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "lint-staged/lint-staged"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

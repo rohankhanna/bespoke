@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Trio driver for Chrome DevTools Protocol (CDP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Oz Auto-Fixer & Reviewer"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Oz Auto-Fixer & Reviewer"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10491,
+      "status": "candidate",
+      "text": "ounce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10426,
+      "status": "candidate",
+      "text": "history"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10426,
+      "status": "candidate",
+      "text": "kilo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10426,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10205,
+      "status": "candidate",
+      "text": "centimeter"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Oz Auto-Fixer & Reviewer",
+      "sense_id": "oz-auto-fixer-reviewer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "oz-auto-fixer-reviewer",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "oz-auto-fixer-reviewer",
+  "observation_id": "03bfcade607ce28b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "Oz Auto-Fixer & Reviewer",
+  "source_context_snippet": "Oz Auto-Fixer & Reviewer",
+  "source_file": ".github/workflows/oz-pr-review.yml",
+  "source_repo": "HyperionGray/trio-chrome-devtools-protocol",
+  "source_repo_description": "Trio driver for Chrome DevTools Protocol (CDP)"
+}

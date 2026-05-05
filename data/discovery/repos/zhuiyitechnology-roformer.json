@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZhuiyiTechnology/roformer",
+      "target": "junnyu/roformer_pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:54:31.400916+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4097
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rotary Transformer",
+    "fork": false,
+    "full_name": "ZhuiyiTechnology/roformer",
+    "html_url": "https://github.com/ZhuiyiTechnology/roformer",
+    "language": "Python",
+    "pushed_at": "2022-03-21T08:32:22Z",
+    "stargazers_count": 1108,
+    "topics": [],
+    "updated_at": "2026-05-04T09:29:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "junnyu/roformer_pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

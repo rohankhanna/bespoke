@@ -979,6 +979,126 @@
       "source_repo": "cleanunicorn/ethereum-smartcontract-template",
       "status": "candidate-context",
       "text": "This development quick start template is heavily inspired by [Georgios's template](https://github.com/gakonst/dapptools-template). Over time it was migrated to use [foundry](https://github.com/gakonst/foundry) since dapptools was deprecated."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dapphub/dapptools",
+      "status": "candidate-context",
+      "text": "Dapp, Seth, Hevm, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dapphub/dapptools",
+      "status": "candidate-context",
+      "text": "Hello!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "foundry-rs/compilers",
+      "status": "candidate-context",
+      "text": "Utilities for working with native solc and compiling projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/compilers",
+      "status": "candidate-context",
+      "text": "Archived as a standalone repository. Maintenance and publishing continue from [`foundry-core`](https://github.com/foundry-rs/foundry-core) under the same [`foundry-compilers`](https://crates.io/crates/foundry-compilers) crate name."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "foundry-rs/foundry-toolchain",
+      "status": "candidate-context",
+      "text": "GitHub action to install Foundry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry-toolchain",
+      "status": "candidate-context",
+      "text": "This GitHub Action installs [Foundry](https://github.com/foundry-rs/foundry), the blazing fast, portable and modular"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyperledger-labs/yui-relayer",
+      "status": "candidate-context",
+      "text": "IBC Relayer implementations for heterogeneous blockchains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-labs/yui-relayer",
+      "status": "candidate-context",
+      "text": "![Test](https://github.com/hyperledger-labs/yui-relayer/workflows/Test/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cleanunicorn/mockprovider",
+      "status": "candidate-context",
+      "text": "Solidity mocking provider for testing "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleanunicorn/mockprovider",
+      "status": "candidate-context",
+      "text": "A library for mocking Solidity contracts."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paradigmxyz/solar",
+      "status": "candidate-context",
+      "text": "Blazingly fast, modular and contributor friendly Solidity compiler, written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paradigmxyz/solar",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/solar-compiler.svg)](https://crates.io/crates/solar-compiler)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celestiaorg/protobuf3-solidity",
+      "status": "candidate-context",
+      "text": "Protobuf3 plugin for Solidity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celestiaorg/protobuf3-solidity",
+      "status": "candidate-context",
+      "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/lazyledger/protobuf3-solidity)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datachainlab/yui-relayer-build",
+      "status": "candidate-context",
+      "text": "IBC Relayer for heterogeneous blockchains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/yui-relayer-build",
+      "status": "candidate-context",
+      "text": "This repository provides a table of [IBC](https://github.com/cosmos/ibc) module combinations supported by [yui-relayer](https://github.com/hyperledger-labs/yui-relayer) and their E2E tests. The E2E tests are performed for each version of the yui-relayer."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datachainlab/ethereum-ibc-rs",
+      "status": "candidate-context",
+      "text": "Ethereum Light Client for IBC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/ethereum-ibc-rs",
+      "status": "candidate-context",
+      "text": "[![test](https://github.com/datachainlab/ethereum-ibc-rs/actions/workflows/test.yml/badge.svg)](https://github.com/datachainlab/ethereum-ibc-rs/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dapphub/dappsys",
+      "status": "candidate-context",
+      "text": "Composable building blocks for Ethereum contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dapphub/dappsys",
+      "status": "candidate-context",
+      "text": "Dappsys"
     }
   ],
   "candidate_glosses": [
@@ -1467,6 +1587,66 @@
       "source_repo": "cleanunicorn/ethereum-smartcontract-template",
       "status": "candidate",
       "text": "This development quick start template is heavily inspired by [Georgios's template](https://github.com/gakonst/dapptools-template). Over time it was migrated to use [foundry](https://github.com/gakonst/foundry) since dapptools was deprecated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dapphub/dapptools",
+      "status": "candidate",
+      "text": "Hello!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/compilers",
+      "status": "candidate",
+      "text": "Archived as a standalone repository. Maintenance and publishing continue from [`foundry-core`](https://github.com/foundry-rs/foundry-core) under the same [`foundry-compilers`](https://crates.io/crates/foundry-compilers) crate name."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry-toolchain",
+      "status": "candidate",
+      "text": "This GitHub Action installs [Foundry](https://github.com/foundry-rs/foundry), the blazing fast, portable and modular"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-labs/yui-relayer",
+      "status": "candidate",
+      "text": "![Test](https://github.com/hyperledger-labs/yui-relayer/workflows/Test/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleanunicorn/mockprovider",
+      "status": "candidate",
+      "text": "A library for mocking Solidity contracts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paradigmxyz/solar",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/solar-compiler.svg)](https://crates.io/crates/solar-compiler)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celestiaorg/protobuf3-solidity",
+      "status": "candidate",
+      "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/lazyledger/protobuf3-solidity)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/yui-relayer-build",
+      "status": "candidate",
+      "text": "This repository provides a table of [IBC](https://github.com/cosmos/ibc) module combinations supported by [yui-relayer](https://github.com/hyperledger-labs/yui-relayer) and their E2E tests. The E2E tests are performed for each version of the yui-relayer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/ethereum-ibc-rs",
+      "status": "candidate",
+      "text": "[![test](https://github.com/datachainlab/ethereum-ibc-rs/actions/workflows/test.yml/badge.svg)](https://github.com/datachainlab/ethereum-ibc-rs/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dapphub/dappsys",
+      "status": "candidate",
+      "text": "Dappsys"
     }
   ],
   "candidate_related_terms": [
@@ -3520,11 +3700,167 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "Consensys/ethereum-dissectors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "dapphub/dapptools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "foundry-rs/compilers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "foundry-rs/foundry-toolchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "safe-fndn/safe-smart-account"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "hyperledger-labs/yui-relayer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "foundry-rs/forge-std"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "cleanunicorn/mockprovider"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "crytic/pyevmasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/eth-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/TypeChain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Uniswap/v3-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "wevm/abitype"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Uniswap/v3-periphery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "web3/web3.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Consensys/ethereum-dissectors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "paradigmxyz/solar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "celestiaorg/protobuf3-solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "datachainlab/yui-relayer-build"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "datachainlab/ethereum-ibc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "dapphub/dappsys"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "NomicFoundation/hardhat"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

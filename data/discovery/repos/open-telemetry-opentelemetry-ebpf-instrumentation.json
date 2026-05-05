@@ -1,0 +1,397 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_gh_actions_security.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_gh_actions_security.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-check.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-check.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily_test_analysis.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily_test_analysis.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yml"
+    },
+    {
+      "component": "fossas/fossa-action@ff70fe9fe17cbd2040648f1c45e8ec4e4884dcf3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generator-image.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generator-image.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generator-image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generator-image.yml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generator-image.yml"
+    },
+    {
+      "component": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generator-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generator-image.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr_publish_testing_images.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr_publish_testing_images.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr_publish_testing_images.yml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr_publish_testing_images.yml"
+    },
+    {
+      "component": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr_publish_testing_images.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "target": "open-telemetry/weaver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_gh_actions_security.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_gh_actions_security.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "target": "Clang Format Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-check.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy-check.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "target": "Clang Tidy Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily_test_analysis.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily_test_analysis.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily_test_analysis.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "target": "Daily Test Analysis Report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "target": "fossas/fossa-action@ff70fe9fe17cbd2040648f1c45e8ec4e4884dcf3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "target": "FOSSA scanning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generator-image.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generator-image.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "target": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generator-image.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generator-image.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generator-image.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generator-image.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "target": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generator-image.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "target": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generator-image.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "target": "Publish OBI Docker Generator Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr_publish_testing_images.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr_publish_testing_images.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr_publish_testing_images.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr_publish_testing_images.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr_publish_testing_images.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "target": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ghcr_publish_testing_images.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "target": "Publish integration testing images",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T13:44:35.629788+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9303
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3152
+    },
+    {
+      "path": "go.mod",
+      "size": 12824
+    },
+    {
+      "path": ".github/workflows/check_gh_actions_security.yml",
+      "size": 1071
+    },
+    {
+      "path": ".github/workflows/clang-format-check.yml",
+      "size": 1504
+    },
+    {
+      "path": ".github/workflows/clang-tidy-check.yml",
+      "size": 1195
+    },
+    {
+      "path": ".github/workflows/daily_test_analysis.yml",
+      "size": 1361
+    },
+    {
+      "path": ".github/workflows/fossa.yml",
+      "size": 534
+    },
+    {
+      "path": ".github/workflows/generator-image.yml",
+      "size": 4232
+    },
+    {
+      "path": ".github/workflows/ghcr_publish_testing_images.yml",
+      "size": 6271
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "open-telemetry/opentelemetry-ebpf-instrumentation",
+    "html_url": "https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation",
+    "language": "C",
+    "pushed_at": "2026-05-05T13:16:14Z",
+    "stargazers_count": 453,
+    "topics": [],
+    "updated_at": "2026-05-05T13:07:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-telemetry/weaver",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Clang Format Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "term": "Clang Format Check"
+    },
+    {
+      "context_snippet": "Clang Tidy Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy-check.yml",
+      "term": "Clang Tidy Check"
+    },
+    {
+      "context_snippet": "\"Daily Test Analysis Report\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily_test_analysis.yml",
+      "term": "Daily Test Analysis Report"
+    },
+    {
+      "context_snippet": "FOSSA scanning",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fossa.yml",
+      "term": "FOSSA scanning"
+    },
+    {
+      "context_snippet": "Publish OBI Docker Generator Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generator-image.yml",
+      "term": "Publish OBI Docker Generator Image"
+    },
+    {
+      "context_snippet": "Publish integration testing images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ghcr_publish_testing_images.yml",
+      "term": "Publish integration testing images"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/TrImLy",
+      "target": "chromium-os",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/TrImLy",
+      "target": "chromiumos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/TrImLy",
+      "target": "filesystem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/TrImLy",
+      "target": "fstrim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/TrImLy",
+      "target": "script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/TrImLy",
+      "target": "scripts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/TrImLy",
+      "target": "utils",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:04:18.889844+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2526
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "fstrim automator and defrag script for ChomiumOS ",
+    "fork": false,
+    "full_name": "Alex313031/TrImLy",
+    "html_url": "https://github.com/Alex313031/TrImLy",
+    "language": "Shell",
+    "pushed_at": "2023-07-08T01:32:15Z",
+    "stargazers_count": 40,
+    "topics": [
+      "chromium-os",
+      "chromiumos",
+      "filesystem",
+      "fstrim",
+      "script",
+      "scripts",
+      "utils"
+    ],
+    "updated_at": "2026-05-04T09:27:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Alex313031/TrImLy/main/trimly.svg\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromium-os"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Alex313031/TrImLy/main/trimly.svg\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromiumos"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Alex313031/TrImLy/main/trimly.svg\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filesystem"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Alex313031/TrImLy/main/trimly.svg\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fstrim"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Alex313031/TrImLy/main/trimly.svg\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "script"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Alex313031/TrImLy/main/trimly.svg\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scripts"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Alex313031/TrImLy/main/trimly.svg\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "utils"
+    }
+  ]
+}

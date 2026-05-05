@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -71,6 +71,31 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/fossa.yml",
       "source_repo": "open-telemetry/opentelemetry-helm-charts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "aliyun-sls/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "apache/doris-opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/weaver"
     }
   ],
   "term": "FOSSA scanning"

@@ -48,7 +48,7 @@
   "normalized_form": "pre-commit-autoupdate",
   "observation_id": "6ba04bb0fd9931a6",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T00:36:37.683079+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Pre-commit autoupdate",
   "source_context_snippet": "Pre-commit autoupdate",
   "source_file": ".github/workflows/pre-commit-autoupdate.yml",

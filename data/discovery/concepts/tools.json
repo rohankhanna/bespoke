@@ -379,6 +379,18 @@
       "source_repo": "gazebosim/gz-common",
       "status": "candidate-context",
       "text": "**Maintainer:** nate AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dapphub/dapptools",
+      "status": "candidate-context",
+      "text": "Dapp, Seth, Hevm, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dapphub/dapptools",
+      "status": "candidate-context",
+      "text": "Hello!"
     }
   ],
   "candidate_glosses": [
@@ -567,6 +579,12 @@
       "source_repo": "gazebosim/gz-common",
       "status": "candidate",
       "text": "**Maintainer:** nate AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dapphub/dapptools",
+      "status": "candidate",
+      "text": "Hello!"
     }
   ],
   "candidate_related_terms": [
@@ -1054,11 +1072,35 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "dapphub/dapptools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

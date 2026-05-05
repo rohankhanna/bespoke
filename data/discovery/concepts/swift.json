@@ -1402,6 +1402,42 @@
       "source_repo": "srgtuszy/llama-cpp-swift",
       "status": "candidate-context",
       "text": "Build Library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ameshkov/swift-psl",
+      "status": "candidate-context",
+      "text": "High performance Swift library for working with public suffix list"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ameshkov/swift-psl",
+      "status": "candidate-context",
+      "text": "High performance Swift library for working with [public suffix list][publicsuffixlist]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cpisciotta/xcbeautify",
+      "status": "candidate-context",
+      "text": "An xcodebuild formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpisciotta/xcbeautify",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fcpisciotta%2Fxcbeautify%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/cpisciotta/xcbeautify)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dashlane/SwiftDomainParser",
+      "status": "candidate-context",
+      "text": "A Full Swift Lightweight Framework that uses the Public Suffix list to Parse URLs "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dashlane/SwiftDomainParser",
+      "status": "candidate-context",
+      "text": "A Full Swift Lightweight Framework that uses the Public Suffix list to Parse URLs"
     }
   ],
   "candidate_glosses": [
@@ -2112,6 +2148,24 @@
       "source_repo": "srgtuszy/llama-cpp-swift",
       "status": "candidate",
       "text": "Build Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ameshkov/swift-psl",
+      "status": "candidate",
+      "text": "High performance Swift library for working with [public suffix list][publicsuffixlist]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpisciotta/xcbeautify",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fcpisciotta%2Fxcbeautify%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/cpisciotta/xcbeautify)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dashlane/SwiftDomainParser",
+      "status": "candidate",
+      "text": "A Full Swift Lightweight Framework that uses the Public Suffix list to Parse URLs"
     }
   ],
   "candidate_related_terms": [
@@ -3505,11 +3559,71 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ameshkov/swift-psl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "ggerganov/whisper.spm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/bow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "cpisciotta/xcbeautify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Dashlane/SwiftDomainParser"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Tutorial on Manipulator Differential Kinematics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A Tutorial on Manipulator Differential Kinematics"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A Tutorial on Manipulator Differential Kinematics"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017085,
+      "status": "candidate",
+      "text": "handling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009910,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024940,
+      "status": "candidate",
+      "text": "exploitation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024438,
+      "status": "candidate",
+      "text": "falsification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023070,
+      "status": "candidate",
+      "text": "fraud"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "manipulation",
+      "sense_id": "manipulation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27060,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9041,
+      "status": "candidate",
+      "text": "handling"
+    }
+  ],
+  "concept_id": "manipulation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "manipulation",
+  "observation_id": "b166f79d2b9d5450",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "manipulation",
+  "source_context_snippet": "A Tutorial on Manipulator Differential Kinematics",
+  "source_file": null,
+  "source_repo": "jhavl/dkt",
+  "source_repo_description": "A Tutorial on Manipulator Differential Kinematics"
+}

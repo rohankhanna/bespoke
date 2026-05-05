@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Google Chromium, sans integration with Google"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "New version check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "New version check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36998,
+      "status": "candidate",
+      "text": "revision"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35885,
+      "status": "candidate",
+      "text": "remake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35885,
+      "status": "candidate",
+      "text": "remaking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35711,
+      "status": "candidate",
+      "text": "revise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35485,
+      "status": "candidate",
+      "text": "reissue"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "New version check",
+      "sense_id": "new-version-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "new-version-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "new-version-check",
+  "observation_id": "7fe1c868bd88c1a7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "New version check",
+  "source_context_snippet": "New version check",
+  "source_file": ".github/workflows/new_version_check.yml",
+  "source_repo": "ungoogled-software/ungoogled-chromium",
+  "source_repo_description": "Google Chromium, sans integration with Google"
+}

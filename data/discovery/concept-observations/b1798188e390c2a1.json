@@ -84,7 +84,7 @@
   "normalized_form": "issue-close-require",
   "observation_id": "b1798188e390c2a1",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Issue Close Require",
   "source_context_snippet": "Issue Close Require",
   "source_file": ".github/workflows/issue-close-require.yml",

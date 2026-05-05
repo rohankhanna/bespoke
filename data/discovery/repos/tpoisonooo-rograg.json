@@ -1,0 +1,154 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tpoisonooo/ROGRAG",
+      "target": "open-sciencelab/seedbench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tpoisonooo/ROGRAG",
+      "target": "open-sciencelab/graphgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tpoisonooo/ROGRAG",
+      "target": "internlm/huixiangdou",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tpoisonooo/ROGRAG",
+      "target": "moonshotai/kimi-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tpoisonooo/ROGRAG",
+      "target": "knowledge-base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tpoisonooo/ROGRAG",
+      "target": "knowledge-graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tpoisonooo/ROGRAG",
+      "target": "knownledge-augmented-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tpoisonooo/ROGRAG",
+      "target": "precision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tpoisonooo/ROGRAG",
+      "target": "retrieval-augmented-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T13:57:46.654648+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5464
+    },
+    {
+      "path": "requirements.txt",
+      "size": 659
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ACL2025 demo track] ROGRAG: A Robustly Optimized GraphRAG Framework",
+    "fork": false,
+    "full_name": "tpoisonooo/ROGRAG",
+    "html_url": "https://github.com/tpoisonooo/ROGRAG",
+    "language": "Python",
+    "pushed_at": "2025-12-12T03:46:36Z",
+    "stargazers_count": 197,
+    "topics": [
+      "knowledge-base",
+      "knowledge-graph",
+      "knownledge-augmented-generation",
+      "llm",
+      "precision",
+      "retrieval-augmented-generation"
+    ],
+    "updated_at": "2026-05-05T08:26:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "internlm/huixiangdou",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "moonshotai/kimi-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-sciencelab/graphgen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-sciencelab/seedbench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "English | [Simplified Chinese](./README_zh_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-base"
+    },
+    {
+      "context_snippet": "English | [Simplified Chinese](./README_zh_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-graph"
+    },
+    {
+      "context_snippet": "English | [Simplified Chinese](./README_zh_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knownledge-augmented-generation"
+    },
+    {
+      "context_snippet": "English | [Simplified Chinese](./README_zh_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "precision"
+    },
+    {
+      "context_snippet": "English | [Simplified Chinese](./README_zh_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retrieval-augmented-generation"
+    }
+  ]
+}

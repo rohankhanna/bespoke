@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "IBC implementation in Hyperledger Fabric"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Test](https://github.com/hyperledger-labs/yui-fabric-ibc/workflows/Test/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Test](https://github.com/hyperledger-labs/yui-fabric-ibc/workflows/Test/badge.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29830315,
+      "status": "candidate",
+      "text": "interop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29786368,
+      "status": "candidate",
+      "text": "interworking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29783896,
+      "status": "candidate",
+      "text": "interaction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29782930,
+      "status": "candidate",
+      "text": "compatibility"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29781299,
+      "status": "candidate",
+      "text": "synergy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "interoperability",
+      "sense_id": "interoperability#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "interoperability",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "interoperability",
+  "observation_id": "162ededade7c3116",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "interoperability",
+  "source_context_snippet": "![Test](https://github.com/hyperledger-labs/yui-fabric-ibc/workflows/Test/badge.svg)",
+  "source_file": null,
+  "source_repo": "hyperledger-labs/yui-fabric-ibc",
+  "source_repo_description": "IBC implementation in Hyperledger Fabric"
+}

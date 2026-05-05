@@ -19,6 +19,54 @@
       "source_repo": "pulse-browser/browser",
       "status": "candidate-context",
       "text": "This project will never make it past alpha, nor will it receive any bug fixes or new features that do not directly affect me (@trickypr). I am putting my energy towards [a project using a different approach](https://github.com/pulse-browser/experiment). For a rough guide to my r\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dothq/melon",
+      "status": "candidate-context",
+      "text": "\ud83c\udf49 Build Firefox-based browsers with ease [wip]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dothq/melon",
+      "status": "candidate-context",
+      "text": "This project is no longer used or maintained by Dot HQ. The [Pulse Browser](https://pulsebrowser.app/) developers [maintain and support a fork](https://github.com/pulse-browser/gluon)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulse-browser/experiment",
+      "status": "candidate-context",
+      "text": "Another Gecko browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulse-browser/experiment",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dothq/browser-desktop",
+      "status": "candidate-context",
+      "text": "Dot Browser for Windows, macOS and Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dothq/browser-desktop",
+      "status": "candidate-context",
+      "text": "The Dot Browser for Desktop source code, available on Windows, macOS and Linux."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulse-browser/gluon",
+      "status": "candidate-context",
+      "text": "Build firefox forks with ease"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulse-browser/gluon",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +75,30 @@
       "source_repo": "pulse-browser/browser",
       "status": "candidate",
       "text": "This project will never make it past alpha, nor will it receive any bug fixes or new features that do not directly affect me (@trickypr). I am putting my energy towards [a project using a different approach](https://github.com/pulse-browser/experiment). For a rough guide to my r\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dothq/melon",
+      "status": "candidate",
+      "text": "This project is no longer used or maintained by Dot HQ. The [Pulse Browser](https://pulsebrowser.app/) developers [maintain and support a fork](https://github.com/pulse-browser/gluon)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulse-browser/experiment",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dothq/browser-desktop",
+      "status": "candidate",
+      "text": "The Dot Browser for Desktop source code, available on Windows, macOS and Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulse-browser/gluon",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +112,35 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "pulse-browser/browser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "dothq/melon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "pulse-browser/experiment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "dothq/browser-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "pulse-browser/gluon"
     }
   ],
   "first_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

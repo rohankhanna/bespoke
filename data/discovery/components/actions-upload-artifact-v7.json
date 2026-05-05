@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@v7",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -4427,6 +4427,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/windows-release.yml",
       "source_repo": "PataphysicalSociety/soupault"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/joss-draft-pdf.yml",
+      "source_repo": "NCAS-CMS/pyfive"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-deb.yml",
+      "source_repo": "libcpr/cpr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-nuget.yml",
+      "source_repo": "libcpr/cpr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "voxpupuli/json-schema"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-publish.yml",
+      "source_repo": "usnistgov/h5wasm"
     }
   ]
 }

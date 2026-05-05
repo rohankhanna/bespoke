@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -9977,6 +9977,111 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cost-tracker-smoke.yml",
       "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/playwright.yml",
+      "source_repo": "will62794/spectacle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nma_build.yml",
+      "source_repo": "f3liz-casa/noraneko"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/package.yml",
+      "source_repo": "f3liz-casa/noraneko"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "usnistgov/jsfive"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml",
+      "source_repo": "usnistgov/jsfive"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "less/less-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cargo-near-v-release.yml",
+      "source_repo": "near/cargo-near"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "agenda/agenda"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate-changesets.yml",
+      "source_repo": "agenda/agenda"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "supermacro/neverthrow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "supermacro/neverthrow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-tauri.yml",
+      "source_repo": "viperproject/smt-scope"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/canary.yml",
+      "source_repo": "tlaplus-community/tree-sitter-tlaplus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tlaplus-community/tree-sitter-tlaplus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tlaplus-community/tree-sitter-tlaplus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-docs.yml",
+      "source_repo": "MoonshotAI/kimi-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-kimi-cli.yml",
+      "source_repo": "MoonshotAI/kimi-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-pages.yml",
+      "source_repo": "MoonshotAI/kimi-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-kimi-cli.yml",
+      "source_repo": "MoonshotAI/kimi-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bamboo/idris2-lsp-vscode"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bamboo/idris2-lsp-vscode"
     }
   ]
 }

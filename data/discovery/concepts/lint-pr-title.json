@@ -284,6 +284,18 @@
       "source_repo": "launchdarkly/rust-server-sdk",
       "status": "candidate-context",
       "text": "Lint PR title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kelektiv/node-cron",
+      "status": "candidate-context",
+      "text": "Cron for NodeJS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kelektiv/node-cron",
+      "status": "candidate-context",
+      "text": "'Lint PR title'"
     }
   ],
   "candidate_glosses": [
@@ -424,6 +436,12 @@
       "source_repo": "launchdarkly/rust-server-sdk",
       "status": "candidate",
       "text": "Lint PR title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kelektiv/node-cron",
+      "status": "candidate",
+      "text": "'Lint PR title'"
     }
   ],
   "candidate_related_terms": [
@@ -605,11 +623,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/lint-pr-title.yml",
       "source_repo": "launchdarkly/rust-server-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/lint_pr_title.yml",
+      "source_repo": "kelektiv/node-cron"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

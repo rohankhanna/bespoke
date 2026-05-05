@@ -11,21 +11,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-deep-research-model",
+      "target": "danielrosehill/claude-development-agents",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-decision-evaluation-framework-plugin",
+      "target": "danielrosehill/claude-digital-evidence-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-declutter-genie-plugin",
+      "target": "danielrosehill/claude-digital-printing-plugin",
       "target_type": "repository"
     },
     {
@@ -64,7 +64,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T00:48:41.294962+00:00",
+  "fetched_at": "2026-05-05T16:05:37.250876+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -85,13 +85,13 @@
     "html_url": "https://github.com/danielrosehill/Claude-Code-Projects-Index",
     "language": "Astro",
     "pushed_at": "2026-05-04T08:07:33Z",
-    "stargazers_count": 451,
+    "stargazers_count": 455,
     "topics": [
       "claude-code",
       "claude-code-cli",
       "index-repos"
     ],
-    "updated_at": "2026-05-04T15:18:29Z"
+    "updated_at": "2026-05-05T14:16:41Z"
   },
   "repo_links": [
     {
@@ -101,17 +101,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-decision-evaluation-framework-plugin",
+      "full_name": "danielrosehill/claude-development-agents",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-declutter-genie-plugin",
+      "full_name": "danielrosehill/claude-digital-evidence-plugin",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-deep-research-model",
+      "full_name": "danielrosehill/claude-digital-printing-plugin",
       "source_file": "README.md"
     }
   ],

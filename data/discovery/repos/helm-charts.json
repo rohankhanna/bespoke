@@ -1,0 +1,97 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "helm/charts",
+      "target": "kubernetes/helm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "helm/charts",
+      "target": "cloudnativeapp/charts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/charts",
+      "target": "charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/charts",
+      "target": "helm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/charts",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T13:44:13.694939+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10045
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "\u26a0\ufe0f(OBSOLETE) Curated applications for Kubernetes",
+    "fork": false,
+    "full_name": "helm/charts",
+    "html_url": "https://github.com/helm/charts",
+    "language": "Go",
+    "pushed_at": "2022-02-20T14:09:39Z",
+    "stargazers_count": 15421,
+    "topics": [
+      "charts",
+      "helm",
+      "kubernetes"
+    ],
+    "updated_at": "2026-04-28T16:58:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudnativeapp/charts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes/helm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "|![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Warning.svg/156px-Warning.svg.png) | This project is no longer supported.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "charts"
+    },
+    {
+      "context_snippet": "|![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Warning.svg/156px-Warning.svg.png) | This project is no longer supported.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "helm"
+    },
+    {
+      "context_snippet": "|![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Warning.svg/156px-Warning.svg.png) | This project is no longer supported.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/ThoriumOS",
+      "target": "chromium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/ThoriumOS",
+      "target": "chromium-browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/ThoriumOS",
+      "target": "chromium-os",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/ThoriumOS",
+      "target": "chromiumos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/ThoriumOS",
+      "target": "chromiumos-overlay",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/ThoriumOS",
+      "target": "operating-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/ThoriumOS",
+      "target": "operating-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/ThoriumOS",
+      "target": "thoriumos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/ThoriumOS",
+      "target": "web-platform",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:04:24.480171+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8784
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ChromiumOS fork with Thorium Browser, x264/x265 codecs, Widevine, Kernel 5.15, Linux firmware/modules support, Nouveau, Intel microcode, and extra packages.",
+    "fork": false,
+    "full_name": "Alex313031/ThoriumOS",
+    "html_url": "https://github.com/Alex313031/ThoriumOS",
+    "language": "Shell",
+    "pushed_at": "2024-08-29T03:48:11Z",
+    "stargazers_count": 521,
+    "topics": [
+      "chromium",
+      "chromium-browser",
+      "chromium-os",
+      "chromiumos",
+      "chromiumos-overlay",
+      "operating-system",
+      "operating-systems",
+      "thoriumos",
+      "web-platform"
+    ],
+    "updated_at": "2026-05-04T09:27:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/chromiumos?label=Latest Image%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/commit-activity/w/alex313031/chromiumos?color=blueviolet&label=Commit%20Activity%3A) &nbsp;![Subreddit sub\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromium"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/chromiumos?label=Latest Image%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/commit-activity/w/alex313031/chromiumos?color=blueviolet&label=Commit%20Activity%3A) &nbsp;![Subreddit sub\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromium-browser"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/chromiumos?label=Latest Image%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/commit-activity/w/alex313031/chromiumos?color=blueviolet&label=Commit%20Activity%3A) &nbsp;![Subreddit sub\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromium-os"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/chromiumos?label=Latest Image%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/commit-activity/w/alex313031/chromiumos?color=blueviolet&label=Commit%20Activity%3A) &nbsp;![Subreddit sub\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromiumos"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/chromiumos?label=Latest Image%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/commit-activity/w/alex313031/chromiumos?color=blueviolet&label=Commit%20Activity%3A) &nbsp;![Subreddit sub\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromiumos-overlay"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/chromiumos?label=Latest Image%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/commit-activity/w/alex313031/chromiumos?color=blueviolet&label=Commit%20Activity%3A) &nbsp;![Subreddit sub\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "operating-system"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/chromiumos?label=Latest Image%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/commit-activity/w/alex313031/chromiumos?color=blueviolet&label=Commit%20Activity%3A) &nbsp;![Subreddit sub\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "operating-systems"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/chromiumos?label=Latest Image%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/commit-activity/w/alex313031/chromiumos?color=blueviolet&label=Commit%20Activity%3A) &nbsp;![Subreddit sub\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thoriumos"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/chromiumos?label=Latest Image%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/commit-activity/w/alex313031/chromiumos?color=blueviolet&label=Commit%20Activity%3A) &nbsp;![Subreddit sub\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-platform"
+    }
+  ]
+}

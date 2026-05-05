@@ -121,6 +121,30 @@
       "source_repo": "will62794/tlaplus_animation",
       "status": "candidate-context",
       "text": "This is a TLA+ module for creating visualizations of TLC execution traces that can be run inside a web browser. To create an animation, you can start with an existing TLA+ specification and define a \"view\" expression, which is a TLA+ state expression that produces a set of graph\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "will62794/spectacle",
+      "status": "candidate-context",
+      "text": "Interactive playground for exploring and sharing TLA+ specifications in the browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "will62794/spectacle",
+      "status": "candidate-context",
+      "text": "<!-- # TLA<sup>+</sup> Web Explorer -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tlaplus-community/tree-sitter-tlaplus",
+      "status": "candidate-context",
+      "text": "A tree-sitter grammar for TLA\u207a and PlusCal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus-community/tree-sitter-tlaplus",
+      "status": "candidate-context",
+      "text": "[![Build & Test](https://github.com/tlaplus-community/tree-sitter-tlaplus/actions/workflows/ci.yml/badge.svg)](https://github.com/tlaplus-community/tree-sitter-tlaplus/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -183,6 +207,18 @@
       "source_repo": "will62794/tlaplus_animation",
       "status": "candidate",
       "text": "This is a TLA+ module for creating visualizations of TLC execution traces that can be run inside a web browser. To create an animation, you can start with an existing TLA+ specification and define a \"view\" expression, which is a TLA+ state expression that produces a set of graph\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "will62794/spectacle",
+      "status": "candidate",
+      "text": "<!-- # TLA<sup>+</sup> Web Explorer -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus-community/tree-sitter-tlaplus",
+      "status": "candidate",
+      "text": "[![Build & Test](https://github.com/tlaplus-community/tree-sitter-tlaplus/actions/workflows/ci.yml/badge.svg)](https://github.com/tlaplus-community/tree-sitter-tlaplus/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -274,11 +310,35 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "will62794/tlaplus_animation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "apalache-mc/apalache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "apalache-mc/apalache-tests"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "will62794/spectacle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "tlaplus-community/tree-sitter-tlaplus"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-dotnet@baa11fbfe1d6520db94683bd5c7a3818018e4309",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

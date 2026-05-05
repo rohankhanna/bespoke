@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -1351,6 +1351,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "lawrence-laz/neotest-zig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Iron-E/vim-ungrammar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "MisanthropicBit/neotest-busted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Iron-E/nvim-highlite"
     }
   ],
   "term": "neovim"

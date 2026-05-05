@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ICRA 2022] An opensource framework for cooperative detection. Official implementation for OPV2V."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10012476,
+      "status": "candidate",
+      "text": "analogy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9938454,
+      "status": "candidate",
+      "text": "pretending"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9935551,
+      "status": "candidate",
+      "text": "model"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9931111,
+      "status": "candidate",
+      "text": "pretense"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9929982,
+      "status": "candidate",
+      "text": "feigning"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "simulations",
+      "sense_id": "simulations#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "simulations",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "simulations",
+  "observation_id": "971feecbc362915b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "simulations",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "DerrickXuNu/OpenCOOD",
+  "source_repo_description": "[ICRA 2022] An opensource framework for cooperative detection. Official implementation for OPV2V."
+}

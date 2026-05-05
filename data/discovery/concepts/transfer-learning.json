@@ -211,6 +211,30 @@
       "source_repo": "BrikerMan/Kashgari",
       "status": "candidate-context",
       "text": "<!-- prettier-ignore-start -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clovaai/rexnet",
+      "status": "candidate-context",
+      "text": "Official Pytorch implementation of ReXNet (Rank eXpansion Network) with pretrained models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/rexnet",
+      "status": "candidate-context",
+      "text": "**Dongyoon Han, Sangdoo Yun, Byeongho Heo, and YoungJoon Yoo** | [Paper](https://arxiv.org/abs/2007.00992) | [Pretrained Models](#pretrained)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/transfer-learning-conv-ai",
+      "status": "candidate-context",
+      "text": "\ud83e\udd84 State-of-the-Art Conversational AI with Transfer Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/transfer-learning-conv-ai",
+      "status": "candidate-context",
+      "text": "The present repo contains the code accompanying the blog post [\ud83e\udd84 How to build a State-of-the-Art Conversational AI with Transfer Learning](https://medium.com/@Thomwolf/how-to-build-a-state-of-the-art-conversational-ai-with-transfer-learning-2d818ac26313)."
     }
   ],
   "candidate_glosses": [
@@ -315,6 +339,18 @@
       "source_repo": "BrikerMan/Kashgari",
       "status": "candidate",
       "text": "<!-- prettier-ignore-start -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/rexnet",
+      "status": "candidate",
+      "text": "**Dongyoon Han, Sangdoo Yun, Byeongho Heo, and YoungJoon Yoo** | [Paper](https://arxiv.org/abs/2007.00992) | [Pretrained Models](#pretrained)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/transfer-learning-conv-ai",
+      "status": "candidate",
+      "text": "The present repo contains the code accompanying the blog post [\ud83e\udd84 How to build a State-of-the-Art Conversational AI with Transfer Learning](https://medium.com/@Thomwolf/how-to-build-a-state-of-the-art-conversational-ai-with-transfer-learning-2d818ac26313)."
     }
   ],
   "candidate_related_terms": [],
@@ -502,11 +538,29 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/rexnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/transfer-learning-conv-ai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

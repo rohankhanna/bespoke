@@ -1,27 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "seancorfield/honeysql",
-      "target": "lread/test-doc-blocks",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "seancorfield/honeysql",
-      "target": "seancorfield/next-jdbc",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "seancorfield/honeysql",
-      "target": "exoscale/seql",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-and-release.yml",
       "source_repo": "seancorfield/honeysql",
@@ -127,6 +106,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
   "source_repo": "seancorfield/honeysql"
 }

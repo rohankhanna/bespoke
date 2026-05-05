@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":rainbow: Fantasy Land -compliant Either type"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"https://github.com/fantasyland/fantasy-land\"><img alt=\"Fantasy Land\" src=\"https://raw.githubusercontent.com/fantasyland/fantasy-land/master/logo.png\" width=\"75\" height=\"75\" align=\"left\"></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/fantasyland/fantasy-land\"><img alt=\"Fantasy Land\" src=\"https://raw.githubusercontent.com/fantasyland/fantasy-land/master/logo.png\" width=\"75\" height=\"75\" align=\"left\"></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050990,
+      "status": "candidate",
+      "text": "asylum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050989,
+      "status": "candidate",
+      "text": "refuge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988859,
+      "status": "candidate",
+      "text": "bema"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39964034,
+      "status": "candidate",
+      "text": "chancel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050481,
+      "status": "candidate",
+      "text": "shelter"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sanctuary",
+      "sense_id": "sanctuary#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31037,
+      "status": "candidate",
+      "text": "refuge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15047,
+      "status": "candidate",
+      "text": "asylum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10027,
+      "status": "candidate",
+      "text": "bema"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "chancel"
+    }
+  ],
+  "concept_id": "sanctuary",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sanctuary",
+  "observation_id": "86d7ddd7d72a9836",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "sanctuary",
+  "source_context_snippet": "<a href=\"https://github.com/fantasyland/fantasy-land\"><img alt=\"Fantasy Land\" src=\"https://raw.githubusercontent.com/fantasyland/fantasy-land/master/logo.png\" width=\"75\" height=\"75\" align=\"left\"></a>",
+  "source_file": null,
+  "source_repo": "sanctuary-js/sanctuary-either",
+  "source_repo_description": ":rainbow: Fantasy Land -compliant Either type"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "LeRobot-JoyCon:  Making AI for Robotics more accessible and Portable with JoyCon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Secret Leaks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Secret Leaks"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16890,
+      "status": "candidate",
+      "text": "leak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16890,
+      "status": "candidate",
+      "text": "leaky"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16890,
+      "status": "candidate",
+      "text": "slip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16075,
+      "status": "candidate",
+      "text": "slipped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16075,
+      "status": "candidate",
+      "text": "slipping"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Secret Leaks",
+      "sense_id": "secret-leaks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "secret-leaks",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "secret-leaks",
+  "observation_id": "8e3b790489887151",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "Secret Leaks",
+  "source_context_snippet": "Secret Leaks",
+  "source_file": ".github/workflows/trufflehog.yml",
+  "source_repo": "box2ai-robotics/lerobot-joycon",
+  "source_repo_description": "LeRobot-JoyCon:  Making AI for Robotics more accessible and Portable with JoyCon"
+}

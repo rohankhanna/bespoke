@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Slamtec/rplidar_sdk",
+      "target": "slamtec/rplidar_ros",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T17:09:21.837440+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9069
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Open source SDK for Slamtec RPLIDAR series products",
+    "fork": false,
+    "full_name": "Slamtec/rplidar_sdk",
+    "html_url": "https://github.com/Slamtec/rplidar_sdk",
+    "language": "C++",
+    "pushed_at": "2026-03-17T04:22:50Z",
+    "stargazers_count": 548,
+    "topics": [],
+    "updated_at": "2026-04-27T09:11:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "slamtec/rplidar_ros",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

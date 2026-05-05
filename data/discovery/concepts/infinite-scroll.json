@@ -19,6 +19,18 @@
       "source_repo": "inokawa/virtua",
       "status": "candidate-context",
       "text": "![npm](https://img.shields.io/npm/v/virtua) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/virtua) ![npm](https://img.shields.io/npm/dw/virtua) [![Best of JS](https://img.shields.io/endpoint?url=https://bestofjs-serverless.now.sh/api/project-badge?fullName=inokawa\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clauderic/react-infinite-calendar",
+      "status": "candidate-context",
+      "text": "\u2728 Infinite scrolling date-picker built with React, with localization, range selection, themes, keyboard support, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clauderic/react-infinite-calendar",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "inokawa/virtua",
       "status": "candidate",
       "text": "![npm](https://img.shields.io/npm/v/virtua) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/virtua) ![npm](https://img.shields.io/npm/dw/virtua) [![Best of JS](https://img.shields.io/endpoint?url=https://bestofjs-serverless.now.sh/api/project-badge?fullName=inokawa\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clauderic/react-infinite-calendar",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "inokawa/virtua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "clauderic/react-infinite-calendar"
     }
   ],
   "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

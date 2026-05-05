@@ -84,7 +84,7 @@
   "normalized_form": "f3liz-bot-per-file-patches",
   "observation_id": "a2d97c69f65cf2ff",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T00:36:37.683079+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "F3liz Bot Per File Patches",
   "source_context_snippet": "F3liz Bot Per File Patches",
   "source_file": ".github/workflows/autodiff-per-file-pr.yml",

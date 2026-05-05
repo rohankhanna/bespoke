@@ -58,6 +58,18 @@
       "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
       "status": "candidate-context",
       "text": "scripts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alex313031/TrImLy",
+      "status": "candidate-context",
+      "text": "fstrim automator and defrag script for ChomiumOS "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/TrImLy",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/Alex313031/TrImLy/main/trimly.svg\" width=\"128\">"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +96,12 @@
       "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
       "status": "candidate",
       "text": "scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/TrImLy",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/Alex313031/TrImLy/main/trimly.svg\" width=\"128\">"
     }
   ],
   "candidate_related_terms": [
@@ -151,11 +169,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/ci-scripts.yaml",
       "source_repo": "GoogleCloudPlatform/nodejs-docs-samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/TrImLy"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

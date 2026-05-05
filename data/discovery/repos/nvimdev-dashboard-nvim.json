@@ -98,7 +98,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T21:05:13.290834+00:00",
+  "fetched_at": "2026-05-05T15:52:53.726182+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -119,7 +119,7 @@
     "html_url": "https://github.com/nvimdev/dashboard-nvim",
     "language": "Lua",
     "pushed_at": "2026-04-17T02:06:43Z",
-    "stargazers_count": 2814,
+    "stargazers_count": 2813,
     "topics": [
       "dashboard",
       "neovim",
@@ -128,7 +128,7 @@
       "vim-plugin",
       "vim-startify"
     ],
-    "updated_at": "2026-05-02T07:17:40Z"
+    "updated_at": "2026-05-05T10:56:26Z"
   },
   "repo_links": [
     {

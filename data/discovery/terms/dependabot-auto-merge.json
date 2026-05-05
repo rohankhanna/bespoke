@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -291,6 +291,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/auto-merge.yml",
       "source_repo": "bonigarcia/webdrivermanager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "aio-libs/aiorwlock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependabot_automerge.yml",
+      "source_repo": "Shopify/rbi-central"
     }
   ],
   "term": "Dependabot Auto Merge"

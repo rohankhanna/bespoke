@@ -11,20 +11,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "geotiffjs/geotiff.js",
-      "target": "santilland/plotty",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "geotiffjs/geotiff.js",
-      "target": "matafokka/geotiff-geokeys-to-proj4",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "geotiffjs/geotiff.js",
       "target": "xlhomme/geotiffparser.js",
       "target_type": "repository"
     },
@@ -470,6 +456,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-05T06:54:34.093705+00:00",
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
   "source_repo": "geotiffjs/geotiff.js"
 }

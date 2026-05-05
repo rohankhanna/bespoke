@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "2D and 3D computational geometry library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![version](https://img.shields.io/pypi/v/polliwog?style=flat-square)][pypi]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![version](https://img.shields.io/pypi/v/polliwog?style=flat-square)][pypi]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "polygonal-chain",
+      "sense_id": "polygonal-chain#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "polygonal-chain",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "polygonal-chain",
+  "observation_id": "6778b6164c663d1f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "polygonal-chain",
+  "source_context_snippet": "[![version](https://img.shields.io/pypi/v/polliwog?style=flat-square)][pypi]",
+  "source_file": null,
+  "source_repo": "lace/polliwog",
+  "source_repo_description": "2D and 3D computational geometry library"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Maintained fork of AssimpNet that adds better interop with modern C#"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![alt text](https://raw.githubusercontent.com/Saalvage/AssimpNetter/master/logo.png \"AssimpNet Logo\")"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![alt text](https://raw.githubusercontent.com/Saalvage/AssimpNetter/master/logo.png \"AssimpNet Logo\")"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "asset-pipeline",
+      "sense_id": "asset-pipeline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "asset-pipeline",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "asset-pipeline",
+  "observation_id": "d83cda647858eb7f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "asset-pipeline",
+  "source_context_snippet": "![alt text](https://raw.githubusercontent.com/Saalvage/AssimpNetter/master/logo.png \"AssimpNet Logo\")",
+  "source_file": null,
+  "source_repo": "Saalvage/AssimpNetter",
+  "source_repo_description": "Maintained fork of AssimpNet that adds better interop with modern C#"
+}

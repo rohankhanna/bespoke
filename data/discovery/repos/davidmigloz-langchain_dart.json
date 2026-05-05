@@ -1,0 +1,533 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-cli.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-cli.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-cli.yml"
+    },
+    {
+      "component": "google-github-actions/run-gemini-cli@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-cli.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml"
+    },
+    {
+      "component": "google-github-actions/run-gemini-cli@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml"
+    },
+    {
+      "component": "google-github-actions/run-gemini-cli@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml"
+    },
+    {
+      "component": "google-github-actions/run-gemini-cli@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "bluefireteam/melos-action@705015c3d2bc4ab94201ac24accb2bbe070cf533",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "nick-invision/retry@ad984534de44a9489a53aefd81eb77f87c70dc60",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "hwchase17/langchain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "tmc/langchaingo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "andreibondarev/langchainrb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-cli.yml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-cli.yml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-cli.yml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "google-github-actions/run-gemini-cli@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-cli.yml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "\ud83d\udcac Gemini CLI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "google-github-actions/run-gemini-cli@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "\ud83c\udff7\ufe0f Gemini Automated Issue Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "google-github-actions/run-gemini-cli@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "\ud83d\udccb Gemini Scheduled Issue Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "google-github-actions/run-gemini-cli@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-pr-review.yml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "\ud83e\uddd0 Gemini Pull Request Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "bluefireteam/melos-action@705015c3d2bc4ab94201ac24accb2bbe070cf533",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "nick-invision/retry@ad984534de44a9489a53aefd81eb77f87c70dc60",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "dart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "davidmigloz/langchain_dart",
+      "target": "llms",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T17:08:15.427145+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31547
+    },
+    {
+      "path": ".github/workflows/docs.yaml",
+      "size": 1167
+    },
+    {
+      "path": ".github/workflows/gemini-cli.yml",
+      "size": 16329
+    },
+    {
+      "path": ".github/workflows/gemini-issue-automated-triage.yml",
+      "size": 5033
+    },
+    {
+      "path": ".github/workflows/gemini-issue-scheduled-triage.yml",
+      "size": 4575
+    },
+    {
+      "path": ".github/workflows/gemini-pr-review.yml",
+      "size": 24070
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 1900
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Build LLM-powered Dart/Flutter applications.",
+    "fork": false,
+    "full_name": "davidmigloz/langchain_dart",
+    "html_url": "https://github.com/davidmigloz/langchain_dart",
+    "language": "Dart",
+    "pushed_at": "2026-04-20T00:14:00Z",
+    "stargazers_count": 676,
+    "topics": [
+      "ai",
+      "dart",
+      "flutter",
+      "generative-ai",
+      "llms",
+      "nlp"
+    ],
+    "updated_at": "2026-04-20T20:17:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andreibondarev/langchainrb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hwchase17/langchain",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmc/langchaingo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "'\ud83d\udcac Gemini CLI'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-cli.yml",
+      "term": "\ud83d\udcac Gemini CLI"
+    },
+    {
+      "context_snippet": "'\ud83c\udff7\ufe0f Gemini Automated Issue Triage'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml",
+      "term": "\ud83c\udff7\ufe0f Gemini Automated Issue Triage"
+    },
+    {
+      "context_snippet": "'\ud83d\udccb Gemini Scheduled Issue Triage'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml",
+      "term": "\ud83d\udccb Gemini Scheduled Issue Triage"
+    },
+    {
+      "context_snippet": "'\ud83e\uddd0 Gemini Pull Request Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-pr-review.yml",
+      "term": "\ud83e\uddd0 Gemini Pull Request Review"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "[![tests](https://img.shields.io/github/actions/workflow/status/davidmigloz/langchain_dart/test.yaml?logo=github&label=tests)](https://github.com/davidmigloz/langchain_dart/actions/workflows/test.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dart"
+    },
+    {
+      "context_snippet": "[![tests](https://img.shields.io/github/actions/workflow/status/davidmigloz/langchain_dart/test.yaml?logo=github&label=tests)](https://github.com/davidmigloz/langchain_dart/actions/workflows/test.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter"
+    },
+    {
+      "context_snippet": "[![tests](https://img.shields.io/github/actions/workflow/status/davidmigloz/langchain_dart/test.yaml?logo=github&label=tests)](https://github.com/davidmigloz/langchain_dart/actions/workflows/test.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "context_snippet": "[![tests](https://img.shields.io/github/actions/workflow/status/davidmigloz/langchain_dart/test.yaml?logo=github&label=tests)](https://github.com/davidmigloz/langchain_dart/actions/workflows/test.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    }
+  ]
+}

@@ -154,11 +154,17 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": ".github/workflows/backup-eclipse-releases-to-gcp.yml",
       "source_repo": "spring-projects/spring-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/backup-eclipse-releases-to-gcp.yml",
+      "source_repo": "spring-projects/spring-tools"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

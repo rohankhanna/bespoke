@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto Assign Copilot to PRs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "status": "candidate-context",
+      "text": "Python type wrappers for Chrome DevTools Protocol (CDP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "status": "candidate-context",
+      "text": "Auto Assign Copilot to PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "status": "candidate",
+      "text": "Auto Assign Copilot to PRs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21528,
+      "status": "candidate",
+      "text": "car"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21528,
+      "status": "candidate",
+      "text": "motor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21528,
+      "status": "candidate",
+      "text": "sedan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21456,
+      "status": "candidate",
+      "text": "chair car"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21456,
+      "status": "candidate",
+      "text": "connection"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto Assign Copilot to PRs",
+  "concept_id": "auto-assign-copilot-to-prs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/auto-assign-pr.yml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Assign Copilot to PRs",
+      "sense_id": "auto-assign-copilot-to-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

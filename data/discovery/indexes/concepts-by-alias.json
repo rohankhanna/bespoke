@@ -215,6 +215,9 @@
   "3d-point-clouds": [
     "3d-point-clouds"
   ],
+  "3d-points": [
+    "3d-points"
+  ],
   "3d-pose": [
     "3d-pose"
   ],
@@ -292,6 +295,9 @@
   ],
   "3d-vector": [
     "3d-vector"
+  ],
+  "3d-vectors": [
+    "3d-vectors"
   ],
   "3d-viewer": [
     "3d-viewer"
@@ -667,6 +673,9 @@
   ],
   "accuracy": [
     "accuracy"
+  ],
+  "accuracy test": [
+    "accuracy-test"
   ],
   "accuracy-score": [
     "accuracy-score"
@@ -1165,6 +1174,9 @@
   ],
   "add to apm project": [
     "add-to-apm-project"
+  ],
+  "add to devtools project": [
+    "add-to-devtools-project"
   ],
   "add to ecosystem wg project": [
     "add-to-ecosystem-wg-project"
@@ -3385,6 +3397,9 @@
   "antialiasing": [
     "antialiasing"
   ],
+  "antibot": [
+    "antibot"
+  ],
   "anticensorship": [
     "anticensorship"
   ],
@@ -3820,6 +3835,9 @@
   ],
   "app-config": [
     "app-config"
+  ],
+  "app-deploy": [
+    "app-deploy"
   ],
   "app-design-center-ci": [
     "app-design-center-ci"
@@ -4439,6 +4457,9 @@
   "arm-neon": [
     "arm-neon"
   ],
+  "arm-robot": [
+    "arm-robot"
+  ],
   "arm-sve cross-compilation build": [
     "arm-sve-cross-compilation-build"
   ],
@@ -4652,6 +4673,12 @@
   ],
   "ascii-graphics": [
     "ascii-graphics"
+  ],
+  "ascii-image": [
+    "ascii-image"
+  ],
+  "ascii-image-converter": [
+    "ascii-image-converter"
   ],
   "ascii-safe": [
     "ascii-safe"
@@ -5283,6 +5310,9 @@
   "audio-synthesis": [
     "audio-synthesis"
   ],
+  "audio-to-video": [
+    "audio-to-video"
+  ],
   "audio-transcription": [
     "audio-transcription"
   ],
@@ -5465,6 +5495,9 @@
   ],
   "auto assign author": [
     "auto-assign-author"
+  ],
+  "auto assign copilot to prs": [
+    "auto-assign-copilot-to-prs"
   ],
   "auto assign issue": [
     "auto-assign-issue"
@@ -6138,6 +6171,9 @@
   "autogen": [
     "autogen"
   ],
+  "autogen-docs": [
+    "autogen-docs"
+  ],
   "autogen-ecosystem": [
     "autogen-ecosystem"
   ],
@@ -6252,6 +6288,9 @@
   "automated-tests": [
     "automated-tests"
   ],
+  "automated-vehicles": [
+    "automated-vehicles"
+  ],
   "automatic": [
     "automatic"
   ],
@@ -6318,6 +6357,9 @@
   "automatic-api": [
     "automatic-api"
   ],
+  "automatic-calibration-algorithm": [
+    "automatic-calibration-algorithm"
+  ],
   "automatic-caption": [
     "automatic-caption"
   ],
@@ -6365,6 +6407,9 @@
   ],
   "automation \ud83c\udf9b\ufe0f": [
     "automation"
+  ],
+  "automation-detection": [
+    "automation-detection"
   ],
   "automation-framework": [
     "automation-framework"
@@ -6419,6 +6464,9 @@
   ],
   "autonomous-quadcoptor": [
     "autonomous-quadcoptor"
+  ],
+  "autonomous-robots": [
+    "autonomous-robots"
   ],
   "autonomous-transactions": [
     "autonomous-transactions"
@@ -6830,6 +6878,9 @@
   ],
   "axial-convolutions": [
     "axial-convolutions"
+  ],
+  "axiom": [
+    "axiom"
   ],
   "axios": [
     "axios"
@@ -7473,6 +7524,9 @@
   "bart": [
     "bart"
   ],
+  "barycentric": [
+    "barycentric"
+  ],
   "base": [
     "base"
   ],
@@ -7487,6 +7541,9 @@
   ],
   "base image release build - renovate": [
     "base-image-release-build---renovate"
+  ],
+  "base test": [
+    "base-test"
   ],
   "base test workflow": [
     "base-test-workflow"
@@ -7616,6 +7673,9 @@
   ],
   "basic e2e test": [
     "basic-e2e-test"
+  ],
+  "basic tests": [
+    "basic-tests"
   ],
   "basic validation": [
     "basic-validation"
@@ -9434,6 +9494,9 @@
   "bors": [
     "bors"
   ],
+  "borsh": [
+    "borsh"
+  ],
   "bosh": [
     "bosh"
   ],
@@ -9541,6 +9604,9 @@
   "boto": [
     "boto"
   ],
+  "botright": [
+    "botright"
+  ],
   "bots": [
     "bots"
   ],
@@ -9640,6 +9706,15 @@
   "braces": [
     "braces"
   ],
+  "braille": [
+    "braille"
+  ],
+  "braille-art": [
+    "braille-art"
+  ],
+  "braille-patterns": [
+    "braille-patterns"
+  ],
   "braintree": [
     "braintree"
   ],
@@ -9733,6 +9808,9 @@
   "breakpoint": [
     "breakpoint"
   ],
+  "breast-cancer": [
+    "breast-cancer"
+  ],
   "breeze linux build": [
     "breeze-linux-build"
   ],
@@ -9804,6 +9882,9 @@
   ],
   "broken-links": [
     "broken-links"
+  ],
+  "bromite": [
+    "bromite"
   ],
   "brook plugin release build": [
     "brook-plugin-release-build"
@@ -10068,6 +10149,9 @@
   ],
   "build & publish images": [
     "build-publish-images"
+  ],
+  "build & publish to npm": [
+    "build-publish-to-npm"
   ],
   "build & push": [
     "build-push"
@@ -10345,6 +10429,9 @@
   "build all rapids repositories": [
     "build-all-rapids-repositories"
   ],
+  "build all wheels": [
+    "build-all-wheels"
+  ],
   "build all wheels for repository": [
     "build-all-wheels-for-repository"
   ],
@@ -10452,6 +10539,9 @@
   ],
   "build and deploy snapshot": [
     "build-and-deploy-snapshot"
+  ],
+  "build and deploy source docs": [
+    "build-and-deploy-source-docs"
   ],
   "build and deploy sphinx docs": [
     "build-and-deploy-sphinx-docs"
@@ -10987,6 +11077,9 @@
   "build and test linux wheel": [
     "build-and-test-linux-wheel"
   ],
+  "build and test macos": [
+    "build-and-test-macos"
+  ],
   "build and test macos wheel": [
     "build-and-test-macos-wheel"
   ],
@@ -11055,6 +11148,9 @@
   ],
   "build and test triton": [
     "build-and-test-triton"
+  ],
+  "build and test ubuntu": [
+    "build-and-test-ubuntu"
   ],
   "build and test wasm example": [
     "build-and-test-wasm-example"
@@ -11502,6 +11598,9 @@
   ],
   "build deb package": [
     "build-deb-package"
+  ],
+  "build debian package": [
+    "build-debian-package"
   ],
   "build debian packages": [
     "build-debian-packages"
@@ -13723,6 +13822,9 @@
   "buildandtest": [
     "buildandtest"
   ],
+  "buildandtestlaunch": [
+    "buildandtestlaunch"
+  ],
   "buildbot-numtide": [
     "buildbot-numtide"
   ],
@@ -13836,6 +13938,9 @@
   ],
   "built-with-rust": [
     "built-with-rust"
+  ],
+  "bulgarian": [
+    "bulgarian"
   ],
   "bulk branch": [
     "bulk-branch"
@@ -14534,6 +14639,9 @@
   "calibration": [
     "calibration"
   ],
+  "calibration-toolbox": [
+    "calibration-toolbox"
+  ],
   "calibre": [
     "calibre"
   ],
@@ -14696,6 +14804,9 @@
   "cancer": [
     "cancer"
   ],
+  "cancer-net": [
+    "cancer-net"
+  ],
   "candle": [
     "candle"
   ],
@@ -14758,6 +14869,12 @@
   ],
   "captcha-image": [
     "captcha-image"
+  ],
+  "captcha-solver": [
+    "captcha-solver"
+  ],
+  "captcha-solving": [
+    "captcha-solving"
   ],
   "caption": [
     "caption"
@@ -14887,6 +15004,9 @@
   ],
   "cargo publish dry run": [
     "cargo-publish-dry-run"
+  ],
+  "cargo release": [
+    "cargo-release"
   ],
   "cargo shear": [
     "cargo-shear"
@@ -15134,6 +15254,12 @@
   "cd # continuous deployment": [
     "cd-continuous-deployment"
   ],
+  "cd (github)": [
+    "cd-github"
+  ],
+  "cd (tauri)": [
+    "cd-tauri"
+  ],
   "cd-aipu3.3": [
     "cd-aipu3.3"
   ],
@@ -15217,6 +15343,9 @@
   ],
   "celestia": [
     "celestia"
+  ],
+  "cells": [
+    "cells"
   ],
   "cellular": [
     "cellular"
@@ -16034,6 +16163,9 @@
   "check compatibility": [
     "check-compatibility"
   ],
+  "check conflicts": [
+    "check-conflicts"
+  ],
   "check consensus spec values": [
     "check-consensus-spec-values"
   ],
@@ -16174,6 +16306,9 @@
   ],
   "check f* friends": [
     "check-f-friends"
+  ],
+  "check features matrix compiles": [
+    "check-features-matrix-compiles"
   ],
   "check file changes": [
     "check-file-changes"
@@ -16792,6 +16927,9 @@
   ],
   "check server files": [
     "check-server-files"
+  ],
+  "check set-up & build": [
+    "check-set-up-build"
   ],
   "check shebangs and filemodes": [
     "check-shebangs-and-filemodes"
@@ -17441,6 +17579,9 @@
   "chrome-headless": [
     "chrome-headless"
   ],
+  "chrome-pak-customizer": [
+    "chrome-pak-customizer"
+  ],
   "chrome-trace-format": [
     "chrome-trace-format"
   ],
@@ -17464,6 +17605,15 @@
   ],
   "chromium-browser": [
     "chromium-browser"
+  ],
+  "chromium-os": [
+    "chromium-os"
+  ],
+  "chromiumos": [
+    "chromiumos"
+  ],
+  "chromiumos-overlay": [
+    "chromiumos-overlay"
   ],
   "chromosome-conformation-capture": [
     "chromosome-conformation-capture"
@@ -17494,6 +17644,9 @@
   ],
   "ci (3rd-party)": [
     "ci-3rd-party"
+  ],
+  "ci (alpine)": [
+    "ci-alpine"
   ],
   "ci (android)": [
     "ci-android"
@@ -17540,14 +17693,32 @@
   "ci (db)": [
     "ci-db"
   ],
+  "ci (docs)": [
+    "ci-docs"
+  ],
   "ci (freebsd)": [
     "ci-freebsd"
   ],
   "ci (indexing)": [
     "ci-indexing"
   ],
+  "ci (kimi-cli)": [
+    "ci-kimi-cli"
+  ],
+  "ci (kimi-sdk)": [
+    "ci-kimi-sdk"
+  ],
+  "ci (kosong)": [
+    "ci-kosong"
+  ],
+  "ci (latest z3)": [
+    "ci-latest-z3"
+  ],
   "ci (linux)": [
     "ci-linux"
+  ],
+  "ci (local)": [
+    "ci-local"
   ],
   "ci (mac)": [
     "ci-mac"
@@ -17582,6 +17753,9 @@
   "ci (push)": [
     "ci-push"
   ],
+  "ci (pykaos)": [
+    "ci-pykaos"
+  ],
   "ci (results)": [
     "ci-results"
   ],
@@ -17605,6 +17779,9 @@
   ],
   "ci (upgrade)": [
     "ci-upgrade"
+  ],
+  "ci (verifiers)": [
+    "ci-verifiers"
   ],
   "ci (via spack, experimental)": [
     "ci-via-spack-experimental"
@@ -18536,6 +18713,9 @@
   "ci: oss assets validation": [
     "ci-oss-assets-validation"
   ],
+  "ci: run tests": [
+    "ci-run-tests"
+  ],
   "ci: synchronize labels": [
     "ci-synchronize-labels"
   ],
@@ -18845,6 +19025,9 @@
   "clang tidy": [
     "clang-tidy"
   ],
+  "clang tidy check": [
+    "clang-tidy-check"
+  ],
   "clang tidy diff": [
     "clang-tidy-diff"
   ],
@@ -18859,6 +19042,9 @@
   ],
   "clang-format check": [
     "clang-format-check"
+  ],
+  "clang-format lint": [
+    "clang-format-lint"
   ],
   "clang-format-check": [
     "clang-format-check"
@@ -20438,6 +20624,9 @@
   "cmake-toolchain": [
     "cmake-toolchain"
   ],
+  "cmake-version": [
+    "cmake-version"
+  ],
   "cmake-win64": [
     "cmake-win64"
   ],
@@ -20687,6 +20876,9 @@
   "code formatting": [
     "code-formatting"
   ],
+  "code formatting and linting": [
+    "code-formatting-and-linting"
+  ],
   "code formatting check": [
     "code-formatting-check"
   ],
@@ -20695,6 +20887,9 @@
   ],
   "code freeze bypass status": [
     "code-freeze-bypass-status"
+  ],
+  "code functionality and documentation review": [
+    "code-functionality-and-documentation-review"
   ],
   "code generation": [
     "code-generation"
@@ -20746,6 +20941,9 @@
   ],
   "code scanning - action": [
     "code-scanning---action"
+  ],
+  "code scanning with codeql": [
+    "code-scanning-with-codeql"
   ],
   "code simplifier": [
     "code-simplifier"
@@ -22004,6 +22202,9 @@
   "compare chromium versions": [
     "compare-chromium-versions"
   ],
+  "compare contract sizes": [
+    "compare-contract-sizes"
+  ],
   "compare templates against images": [
     "compare-templates-against-images"
   ],
@@ -22847,6 +23048,9 @@
   "constexpr": [
     "constexpr"
   ],
+  "constituency-parsing": [
+    "constituency-parsing"
+  ],
   "constrained-generation": [
     "constrained-generation"
   ],
@@ -23198,8 +23402,14 @@
   "contourmap": [
     "contourmap"
   ],
+  "contours": [
+    "contours"
+  ],
   "contract": [
     "contract"
+  ],
+  "contract sizes baseline": [
+    "contract-sizes-baseline"
   ],
   "contract-testing": [
     "contract-testing"
@@ -23444,6 +23654,9 @@
   "converter": [
     "converter"
   ],
+  "converts-images": [
+    "converts-images"
+  ],
   "convex": [
     "convex"
   ],
@@ -23549,6 +23762,9 @@
   "coordinate-descent": [
     "coordinate-descent"
   ],
+  "coordinate-systems": [
+    "coordinate-systems"
+  ],
   "coordination": [
     "coordination"
   ],
@@ -23632,6 +23848,12 @@
   ],
   "corba": [
     "corba"
+  ],
+  "corda": [
+    "corda"
+  ],
+  "corda-ibc test": [
+    "corda-ibc-test"
   ],
   "cordova": [
     "cordova"
@@ -23797,6 +24019,9 @@
   ],
   "cosmos-hub": [
     "cosmos-hub"
+  ],
+  "cosmos-ibc": [
+    "cosmos-ibc"
   ],
   "cosmos-sdk": [
     "cosmos-sdk"
@@ -24034,6 +24259,9 @@
   ],
   "cplusplus-11": [
     "cplusplus-11"
+  ],
+  "cplusplus-14": [
+    "cplusplus-14"
   ],
   "cplusplus-17": [
     "cplusplus-17"
@@ -24326,6 +24554,9 @@
   "create and upload the library jar": [
     "create-and-upload-the-library-jar"
   ],
+  "create archive": [
+    "create-archive"
+  ],
   "create automatic release": [
     "create-automatic-release"
   ],
@@ -24436,6 +24667,9 @@
   ],
   "create monthly release issue": [
     "create-monthly-release-issue"
+  ],
+  "create new empty release": [
+    "create-new-empty-release"
   ],
   "create new release": [
     "create-new-release"
@@ -24742,6 +24976,9 @@
   ],
   "cron-renovate": [
     "cron-renovate"
+  ],
+  "cron-schedule": [
+    "cron-schedule"
   ],
   "cron-style": [
     "cron-style"
@@ -25610,6 +25847,12 @@
   "cwl-workflow": [
     "cwl-workflow"
   ],
+  "cwmetricstreamexporter - docker": [
+    "cwmetricstreamexporter---docker"
+  ],
+  "cwmetricstreamexporter - go": [
+    "cwmetricstreamexporter---go"
+  ],
   "cxl-mem": [
     "cxl-mem"
   ],
@@ -25711,6 +25954,9 @@
   ],
   "d2-tensorrt-bench": [
     "d2-tensorrt-bench"
+  ],
+  "d3-module": [
+    "d3-module"
   ],
   "d3d11": [
     "d3d11"
@@ -25856,11 +26102,17 @@
   "daily test": [
     "daily-test"
   ],
+  "daily test analysis report": [
+    "daily-test-analysis-report"
+  ],
   "daily testing": [
     "daily-testing"
   ],
   "daily testing build": [
     "daily-testing-build"
+  ],
+  "daily update of version": [
+    "daily-update-of-version"
   ],
   "daily-generate-updates": [
     "daily-generate-updates"
@@ -25945,6 +26197,12 @@
   ],
   "dapps-development": [
     "dapps-development"
+  ],
+  "dappsys": [
+    "dappsys"
+  ],
+  "dapptools": [
+    "dapptools"
   ],
   "dapr-export": [
     "dapr-export"
@@ -26603,6 +26861,9 @@
   "date": [
     "date"
   ],
+  "date-formatting": [
+    "date-formatting"
+  ],
   "date-picker": [
     "date-picker"
   ],
@@ -26611,6 +26872,9 @@
   ],
   "date-time": [
     "date-time"
+  ],
+  "datepicker": [
+    "datepicker"
   ],
   "datetime": [
     "datetime"
@@ -26641,6 +26905,9 @@
   ],
   "dawn": [
     "dawn"
+  ],
+  "dayjs": [
+    "dayjs"
   ],
   "dayton": [
     "dayton"
@@ -27797,6 +28064,9 @@
   "deploy code to release branch \ud83d\ude80": [
     "deploy-code-to-release-branch"
   ],
+  "deploy conan": [
+    "deploy-conan"
+  ],
   "deploy config inspector to github pages": [
     "deploy-config-inspector-to-github-pages"
   ],
@@ -27899,6 +28169,9 @@
   "deploy doxygen": [
     "deploy-doxygen"
   ],
+  "deploy doxygen (latest)": [
+    "deploy-doxygen-latest"
+  ],
   "deploy doxygen results to github pages": [
     "deploy-doxygen-results-to-github-pages"
   ],
@@ -27949,6 +28222,12 @@
   ],
   "deploy github pages": [
     "deploy-github-pages"
+  ],
+  "deploy gpv2 contracts": [
+    "deploy-gpv2-contracts"
+  ],
+  "deploy guide": [
+    "deploy-guide"
   ],
   "deploy helm charts to github pages": [
     "deploy-helm-charts-to-github-pages"
@@ -29189,6 +29468,9 @@
   "diffusion-transformer": [
     "diffusion-transformer"
   ],
+  "diffusion-transformers": [
+    "diffusion-transformers"
+  ],
   "dify": [
     "dify"
   ],
@@ -30095,6 +30377,9 @@
   "docker hub - release": [
     "docker-hub---release"
   ],
+  "docker hub build": [
+    "docker-hub-build"
+  ],
   "docker image": [
     "docker-image"
   ],
@@ -30299,6 +30584,9 @@
   "docker-container": [
     "docker-container"
   ],
+  "docker-coq": [
+    "docker-coq"
+  ],
   "docker-deployment": [
     "docker-deployment"
   ],
@@ -30491,6 +30779,9 @@
   "docs": [
     "docs"
   ],
+  "docs (github pages)": [
+    "docs-github-pages"
+  ],
   "docs - check documentation": [
     "docs---check-documentation"
   ],
@@ -30520,6 +30811,9 @@
   ],
   "docs build ci": [
     "docs-build-ci"
+  ],
+  "docs build test": [
+    "docs-build-test"
   ],
   "docs check": [
     "docs-check"
@@ -30734,6 +31028,9 @@
   "documentation check for magick++": [
     "documentation-check-for-magick"
   ],
+  "documentation cleanup": [
+    "documentation-cleanup"
+  ],
   "documentation consistency check": [
     "documentation-consistency-check"
   ],
@@ -30931,6 +31228,9 @@
   ],
   "dora": [
     "dora"
+  ],
+  "dora bot": [
+    "dora-bot"
   ],
   "dora-metrics": [
     "dora-metrics"
@@ -31667,6 +31967,9 @@
   "e-mail": [
     "e-mail"
   ],
+  "e-matching": [
+    "e-matching"
+  ],
   "e2e": [
     "e2e"
   ],
@@ -31768,6 +32071,9 @@
   ],
   "e2e test for pull request": [
     "e2e-test-for-pull-request"
+  ],
+  "e2e test report": [
+    "e2e-test-report"
   ],
   "e2e test suite": [
     "e2e-test-suite"
@@ -33030,6 +33336,9 @@
   "end to end test": [
     "end-to-end-test"
   ],
+  "end to end testing": [
+    "end-to-end-testing"
+  ],
   "end to end tests": [
     "end-to-end-tests"
   ],
@@ -33706,6 +34015,9 @@
   "essl": [
     "essl"
   ],
+  "estimate": [
+    "estimate"
+  ],
   "estimation": [
     "estimation"
   ],
@@ -33786,6 +34098,9 @@
   ],
   "etl-pipeline": [
     "etl-pipeline"
+  ],
+  "etld": [
+    "etld"
   ],
   "euclid": [
     "euclid"
@@ -34520,6 +34835,9 @@
   "faas": [
     "faas"
   ],
+  "fabric": [
+    "fabric"
+  ],
   "face": [
     "face"
   ],
@@ -34858,6 +35176,9 @@
   ],
   "fastdeploy": [
     "fastdeploy"
+  ],
+  "fastdeploy linux gpu build task": [
+    "fastdeploy-linux-gpu-build-task"
   ],
   "fastembed": [
     "fastembed"
@@ -35601,6 +35922,12 @@
   ],
   "fingerprintjs": [
     "fingerprintjs"
+  ],
+  "fingerprints": [
+    "fingerprints"
+  ],
+  "fingerprints-generator": [
+    "fingerprints-generator"
   ],
   "finite-element-methods": [
     "finite-element-methods"
@@ -36932,6 +37259,9 @@
   "french-touch": [
     "french-touch"
   ],
+  "frequency": [
+    "frequency"
+  ],
   "frequency-table": [
     "frequency-table"
   ],
@@ -37061,6 +37391,9 @@
   ],
   "fstar": [
     "fstar"
+  ],
+  "fstrim": [
+    "fstrim"
   ],
   "ftpscan": [
     "ftpscan"
@@ -37686,6 +38019,9 @@
   "gecko": [
     "gecko"
   ],
+  "gecko-based": [
+    "gecko-based"
+  ],
   "geckodriver": [
     "geckodriver"
   ],
@@ -37703,6 +38039,9 @@
   ],
   "gem freshness report": [
     "gem-freshness-report"
+  ],
+  "gem release": [
+    "gem-release"
   ],
   "gem-pooling": [
     "gem-pooling"
@@ -37829,6 +38168,9 @@
   ],
   "gender-classification": [
     "gender-classification"
+  ],
+  "gendoc": [
+    "gendoc"
   ],
   "gene-expression": [
     "gene-expression"
@@ -38388,6 +38730,9 @@
   "gentx": [
     "gentx"
   ],
+  "geo-keys": [
+    "geo-keys"
+  ],
   "geo-localization": [
     "geo-localization"
   ],
@@ -38432,6 +38777,9 @@
   ],
   "geojson": [
     "geojson"
+  ],
+  "geokeys": [
+    "geokeys"
   ],
   "geolocalization": [
     "geolocalization"
@@ -38504,6 +38852,15 @@
   ],
   "geotiff": [
     "geotiff"
+  ],
+  "geotiff-geo-keys": [
+    "geotiff-geo-keys"
+  ],
+  "geotiff-geokeys": [
+    "geotiff-geokeys"
+  ],
+  "geotiff-keys": [
+    "geotiff-keys"
   ],
   "german": [
     "german"
@@ -38753,6 +39110,9 @@
   ],
   "gicentre": [
     "gicentre"
+  ],
+  "gicp": [
+    "gicp"
   ],
   "gif pr commenter": [
     "gif-pr-commenter"
@@ -39564,6 +39924,9 @@
   "go - build and run tests": [
     "go---build-and-run-tests"
   ],
+  "go and node.js tests": [
+    "go-and-node.js-tests"
+  ],
   "go back to development": [
     "go-back-to-development"
   ],
@@ -39984,6 +40347,9 @@
   "google-chrome-extension": [
     "google-chrome-extension"
   ],
+  "google-chromium": [
+    "google-chromium"
+  ],
   "google-cloud": [
     "google-cloud"
   ],
@@ -40181,6 +40547,9 @@
   ],
   "gost94": [
     "gost94"
+  ],
+  "gosu": [
+    "gosu"
   ],
   "gosu-image": [
     "gosu-image"
@@ -40752,6 +41121,9 @@
   "graph-of-thoughts": [
     "graph-of-thoughts"
   ],
+  "graph-optimization": [
+    "graph-optimization"
+  ],
   "graph-representation-learning": [
     "graph-representation-learning"
   ],
@@ -41054,6 +41426,9 @@
   ],
   "grouned": [
     "grouned"
+  ],
+  "group-chat": [
+    "group-chat"
   ],
   "group-detr": [
     "group-detr"
@@ -41721,6 +42096,9 @@
   "hashnode": [
     "hashnode"
   ],
+  "hashset": [
+    "hashset"
+  ],
   "hashtable": [
     "hashtable"
   ],
@@ -41792,6 +42170,9 @@
   ],
   "haxelib": [
     "haxelib"
+  ],
+  "haxeui-backend": [
+    "haxeui-backend"
   ],
   "haystack": [
     "haystack"
@@ -43194,8 +43575,14 @@
   "hyperedge": [
     "hyperedge"
   ],
+  "hyperledger": [
+    "hyperledger"
+  ],
   "hyperledger-besu": [
     "hyperledger-besu"
+  ],
+  "hyperledger-fabric": [
+    "hyperledger-fabric"
   ],
   "hyperlinks": [
     "hyperlinks"
@@ -43634,6 +44021,12 @@
   ],
   "idomatic-css": [
     "idomatic-css"
+  ],
+  "idris": [
+    "idris"
+  ],
+  "idris2": [
+    "idris2"
   ],
   "idris2 and external libs": [
     "idris2-and-external-libs"
@@ -44084,6 +44477,9 @@
   ],
   "image-to-3d": [
     "image-to-3d"
+  ],
+  "image-to-ascii": [
+    "image-to-ascii"
   ],
   "image-to-image": [
     "image-to-image"
@@ -44550,6 +44946,9 @@
   "infiniband": [
     "infiniband"
   ],
+  "infinite": [
+    "infinite"
+  ],
   "infinite-batch-size": [
     "infinite-batch-size"
   ],
@@ -44724,6 +45123,9 @@
   "inotify": [
     "inotify"
   ],
+  "inox": [
+    "inox"
+  ],
   "inpaint": [
     "inpaint"
   ],
@@ -44805,6 +45207,9 @@
   "install dependencies, run lint & build": [
     "install-dependencies-run-lint-build"
   ],
+  "install from conda-forge": [
+    "install-from-conda-forge"
+  ],
   "install node.js": [
     "install-node.js"
   ],
@@ -44870,6 +45275,9 @@
   ],
   "instant-ngp": [
     "instant-ngp"
+  ],
+  "instantiation": [
+    "instantiation"
   ],
   "instantly": [
     "instantly"
@@ -45072,6 +45480,9 @@
   "integrationtest": [
     "integrationtest"
   ],
+  "integrity-protection": [
+    "integrity-protection"
+  ],
   "intel": [
     "intel"
   ],
@@ -45095,6 +45506,9 @@
   ],
   "intel-optimized-llamacpp": [
     "intel-optimized-llamacpp"
+  ],
+  "intel-sgx": [
+    "intel-sgx"
   ],
   "intel-sse-intrinsics": [
     "intel-sse-intrinsics"
@@ -45308,6 +45722,9 @@
   ],
   "interspeech2021": [
     "interspeech2021"
+  ],
+  "interval": [
+    "interval"
   ],
   "intl": [
     "intl"
@@ -45584,6 +46001,9 @@
   ],
   "iresnet": [
     "iresnet"
+  ],
+  "iridium": [
+    "iridium"
   ],
   "iris external validation test": [
     "iris-external-validation-test"
@@ -45879,6 +46299,9 @@
   "issue month statistics": [
     "issue-month-statistics"
   ],
+  "issue notification dispatcher": [
+    "issue-notification-dispatcher"
+  ],
   "issue open check": [
     "issue-open-check"
   ],
@@ -46007,6 +46430,9 @@
   ],
   "issues bot": [
     "issues-bot"
+  ],
+  "issues notify": [
+    "issues-notify"
   ],
   "issues summary": [
     "issues-summary"
@@ -46674,6 +47100,9 @@
   "job-lint-project": [
     "job-lint-project"
   ],
+  "job-processor": [
+    "job-processor"
+  ],
   "job-queue": [
     "job-queue"
   ],
@@ -46733,6 +47162,9 @@
   ],
   "josm-presets": [
     "josm-presets"
+  ],
+  "joss draft pdf": [
+    "joss-draft-pdf"
   ],
   "journal": [
     "journal"
@@ -47820,6 +48252,9 @@
   "knownfolders": [
     "knownfolders"
   ],
+  "knownledge-augmented-generation": [
+    "knownledge-augmented-generation"
+  ],
   "ko-publish-aggregator-and-operator": [
     "ko-publish-aggregator-and-operator"
   ],
@@ -48393,6 +48828,9 @@
   "label pull request": [
     "label-pull-request"
   ],
+  "label pull requests": [
+    "label-pull-requests"
+  ],
   "label pull requests \ud83c\udff7\ufe0f": [
     "label-pull-requests"
   ],
@@ -48843,6 +49281,9 @@
   "large-scale-dataset": [
     "large-scale-dataset"
   ],
+  "large-scale-distributed": [
+    "large-scale-distributed"
+  ],
   "large-scale-mapping": [
     "large-scale-mapping"
   ],
@@ -48863,6 +49304,9 @@
   ],
   "lasagne": [
     "lasagne"
+  ],
+  "laser": [
+    "laser"
   ],
   "lasso": [
     "lasso"
@@ -49035,6 +49479,9 @@
   "lazy-loading": [
     "lazy-loading"
   ],
+  "lazyledger": [
+    "lazyledger"
+  ],
   "lazyllm": [
     "lazyllm"
   ],
@@ -49161,6 +49608,9 @@
   ],
   "ledger": [
     "ledger"
+  ],
+  "ledger-wallet": [
+    "ledger-wallet"
   ],
   "leela-chess-zero": [
     "leela-chess-zero"
@@ -49894,6 +50344,9 @@
   "linear-algebra-subprograms": [
     "linear-algebra-subprograms"
   ],
+  "linear-algorithms": [
+    "linear-algorithms"
+  ],
   "linear-attention": [
     "linear-attention"
   ],
@@ -50004,6 +50457,9 @@
   ],
   "lint & typescript check": [
     "lint-typescript-check"
+  ],
+  "lint & unit test": [
+    "lint-unit-test"
   ],
   "lint (reusable)": [
     "lint-reusable"
@@ -51083,6 +51539,9 @@
   "load-tests": [
     "load-tests"
   ],
+  "loadbalancer": [
+    "loadbalancer"
+  ],
   "loadbalancing": [
     "loadbalancing"
   ],
@@ -51893,6 +52352,9 @@
   "lvlm": [
     "lvlm"
   ],
+  "lxmert": [
+    "lxmert"
+  ],
   "lychee link checker": [
     "lychee-link-checker"
   ],
@@ -52091,6 +52553,9 @@
   "machinelearning-python": [
     "machinelearning-python"
   ],
+  "macintosh": [
+    "macintosh"
+  ],
   "macos": [
     "macos"
   ],
@@ -52172,6 +52637,12 @@
   "macos-bazel-builds": [
     "macos-bazel-builds"
   ],
+  "macos-big-sur": [
+    "macos-big-sur"
+  ],
+  "macos-catalina": [
+    "macos-catalina"
+  ],
   "macos-ci": [
     "macos-ci"
   ],
@@ -52180,6 +52651,9 @@
   ],
   "macos-commands": [
     "macos-commands"
+  ],
+  "macos-high-sierra": [
+    "macos-high-sierra"
   ],
   "macos-ios-armv7": [
     "macos-ios-armv7"
@@ -52193,6 +52667,12 @@
   "macos-menu": [
     "macos-menu"
   ],
+  "macos-mojave": [
+    "macos-mojave"
+  ],
+  "macos-monterey": [
+    "macos-monterey"
+  ],
   "macos-p7zip-ci": [
     "macos-p7zip-ci"
   ],
@@ -52205,14 +52685,26 @@
   "macos-security": [
     "macos-security"
   ],
+  "macos-sequoia": [
+    "macos-sequoia"
+  ],
   "macos-setup": [
     "macos-setup"
+  ],
+  "macos-sonoma": [
+    "macos-sonoma"
   ],
   "macos-spm": [
     "macos-spm"
   ],
+  "macos-tahoe": [
+    "macos-tahoe"
+  ],
   "macos-unit-tests": [
     "macos-unit-tests"
+  ],
+  "macos-ventura": [
+    "macos-ventura"
   ],
   "macos-wheel-builder": [
     "macos-wheel-builder"
@@ -52225,6 +52717,9 @@
   ],
   "macosx-scripts": [
     "macosx-scripts"
+  ],
+  "macosx-sdk": [
+    "macosx-sdk"
   ],
   "macports": [
     "macports"
@@ -52814,6 +53309,9 @@
   "manually build website": [
     "manually-build-website"
   ],
+  "manually delete buildjet cache": [
+    "manually-delete-buildjet-cache"
+  ],
   "manually run all workflows": [
     "manually-run-all-workflows"
   ],
@@ -52955,6 +53453,9 @@
   ],
   "markdown-parser": [
     "markdown-parser"
+  ],
+  "markdown-parsing": [
+    "markdown-parsing"
   ],
   "markdown-processor": [
     "markdown-processor"
@@ -53246,6 +53747,9 @@
   ],
   "matlab-formatter": [
     "matlab-formatter"
+  ],
+  "matlab-toolbox": [
+    "matlab-toolbox"
   ],
   "matplotlib": [
     "matplotlib"
@@ -54486,11 +54990,17 @@
   "minecraft-map-making": [
     "minecraft-map-making"
   ],
+  "minecraft-proxy": [
+    "minecraft-proxy"
+  ],
   "minecraft-resourcepack": [
     "minecraft-resourcepack"
   ],
   "minecraft-server": [
     "minecraft-server"
+  ],
+  "minecraft-server-proxy": [
+    "minecraft-server-proxy"
   ],
   "mineru": [
     "mineru"
@@ -55125,6 +55635,9 @@
   "mobile-manipulation": [
     "mobile-manipulation"
   ],
+  "mobile-robots": [
+    "mobile-robots"
+  ],
   "mobile-tts": [
     "mobile-tts"
   ],
@@ -55223,6 +55736,9 @@
   ],
   "modcholesky ci": [
     "modcholesky-ci"
+  ],
+  "modded": [
+    "modded"
   ],
   "modding": [
     "modding"
@@ -55469,6 +55985,9 @@
   ],
   "moltenvk": [
     "moltenvk"
+  ],
+  "moment": [
+    "moment"
   ],
   "moment-retrieval": [
     "moment-retrieval"
@@ -56086,6 +56605,9 @@
   "multi-agent-framework": [
     "multi-agent-framework"
   ],
+  "multi-agent-perception": [
+    "multi-agent-perception"
+  ],
   "multi-agent-reinforcement-learning": [
     "multi-agent-reinforcement-learning"
   ],
@@ -56398,6 +56920,9 @@
   "multilingual-translation": [
     "multilingual-translation"
   ],
+  "multimarkdown": [
+    "multimarkdown"
+  ],
   "multimatch": [
     "multimatch"
   ],
@@ -56580,6 +57105,9 @@
   ],
   "multithreading-library": [
     "multithreading-library"
+  ],
+  "multitrack": [
+    "multitrack"
   ],
   "multivariate-statistics": [
     "multivariate-statistics"
@@ -56947,6 +57475,9 @@
   "native-image": [
     "native-image"
   ],
+  "native-instruments": [
+    "native-instruments"
+  ],
   "native-library": [
     "native-library"
   ],
@@ -57115,6 +57646,9 @@
   "ndjson": [
     "ndjson"
   ],
+  "ndt-algorithm": [
+    "ndt-algorithm"
+  ],
   "near": [
     "en-preposition-near",
     "near"
@@ -57127,6 +57661,9 @@
   ],
   "nearest-neighbours-classifier": [
     "nearest-neighbours-classifier"
+  ],
+  "nearprotocol": [
+    "nearprotocol"
   ],
   "nebula": [
     "nebula"
@@ -57649,6 +58186,9 @@
   ],
   "new release": [
     "new-release"
+  ],
+  "new version check": [
+    "new-version-check"
   ],
   "new-bugs-announce notifier": [
     "new-bugs-announce-notifier"
@@ -58686,6 +59226,9 @@
   "nonlinear-least-squares": [
     "nonlinear-least-squares"
   ],
+  "nonlinear-optimization": [
+    "nonlinear-optimization"
+  ],
   "nonlinear-optimization-algorithms": [
     "nonlinear-optimization-algorithms"
   ],
@@ -58852,6 +59395,9 @@
   ],
   "notify failure": [
     "notify-failure"
+  ],
+  "notify if build fails": [
+    "notify-if-build-fails"
   ],
   "notify intent": [
     "notify-intent"
@@ -59130,6 +59676,9 @@
   "number-expression": [
     "number-expression"
   ],
+  "number-to-words": [
+    "number-to-words"
+  ],
   "numbers": [
     "numbers"
   ],
@@ -59330,6 +59879,9 @@
   ],
   "nvim-plugin": [
     "nvim-plugin"
+  ],
+  "nvim-plugins": [
+    "nvim-plugins"
   ],
   "nvim-theme": [
     "nvim-theme"
@@ -59960,6 +60512,9 @@
   ],
   "on develop pr merge": [
     "on-develop-pr-merge"
+  ],
+  "on label": [
+    "on-label"
   ],
   "on linux": [
     "on-linux"
@@ -60783,8 +61338,26 @@
   "opentelemetry-collector": [
     "opentelemetry-collector"
   ],
+  "opentelemetry-dotnet": [
+    "opentelemetry-dotnet"
+  ],
+  "opentelemetry-erlang": [
+    "opentelemetry-erlang"
+  ],
   "opentelemetry-exporter": [
     "opentelemetry-exporter"
+  ],
+  "opentelemetry-go": [
+    "opentelemetry-go"
+  ],
+  "opentelemetry-java-agent": [
+    "opentelemetry-java-agent"
+  ],
+  "opentelemetry-javascript": [
+    "opentelemetry-javascript"
+  ],
+  "opentelemetry-python": [
+    "opentelemetry-python"
   ],
   "opentelemetry-rust": [
     "opentelemetry-rust"
@@ -61269,6 +61842,9 @@
   "osx-cpu-temp": [
     "osx-cpu-temp"
   ],
+  "osxcross": [
+    "osxcross"
+  ],
   "ot2od032119": [
     "ot2od032119"
   ],
@@ -61313,6 +61889,9 @@
   ],
   "ouster": [
     "ouster"
+  ],
+  "ouster-ros": [
+    "ouster-ros"
   ],
   "ouster-slam": [
     "ouster-slam"
@@ -62082,6 +62661,9 @@
   "parsetree updated": [
     "parsetree-updated"
   ],
+  "parseurl": [
+    "parseurl"
+  ],
   "parsing": [
     "parsing"
   ],
@@ -62586,6 +63168,9 @@
   "performance benchmarks comparison": [
     "performance-benchmarks-comparison"
   ],
+  "performance ci": [
+    "performance-ci"
+  ],
   "performance comparison": [
     "performance-comparison"
   ],
@@ -62687,6 +63272,9 @@
   ],
   "periodic code checks": [
     "periodic-code-checks"
+  ],
+  "periodic code cleanliness review": [
+    "periodic-code-cleanliness-review"
   ],
   "periodic test": [
     "periodic-test"
@@ -63420,6 +64008,9 @@
   "plan9": [
     "plan9"
   ],
+  "plane-geometry": [
+    "plane-geometry"
+  ],
   "planner": [
     "planner"
   ],
@@ -63846,6 +64437,9 @@
   "point-cloud-registration": [
     "point-cloud-registration"
   ],
+  "point-cloud-regstration": [
+    "point-cloud-regstration"
+  ],
   "point-cloud-segmentation": [
     "point-cloud-segmentation"
   ],
@@ -63953,6 +64547,9 @@
   ],
   "polygon-clipping": [
     "polygon-clipping"
+  ],
+  "polygonal-chain": [
+    "polygonal-chain"
   ],
   "polyline": [
     "polyline"
@@ -66039,8 +66636,14 @@
   "proj ci": [
     "proj-ci"
   ],
+  "proj4": [
+    "proj4"
+  ],
   "proj4-library": [
     "proj4-library"
+  ],
+  "proj4js": [
+    "proj4js"
   ],
   "project": [
     "project"
@@ -66375,6 +66978,9 @@
   "protobuf-schema": [
     "protobuf-schema"
   ],
+  "protobuf3": [
+    "protobuf3"
+  ],
   "protobufs": [
     "protobufs"
   ],
@@ -66588,8 +67194,14 @@
   "public-opinion-analysis": [
     "public-opinion-analysis"
   ],
+  "public-suffix-list": [
+    "public-suffix-list"
+  ],
   "publication": [
     "publication"
+  ],
+  "publicsuffixlist": [
+    "publicsuffixlist"
   ],
   "publish": [
     "publish"
@@ -66996,6 +67608,9 @@
   "publish immutable action version": [
     "publish-immutable-action-version"
   ],
+  "publish integration testing images": [
+    "publish-integration-testing-images"
+  ],
   "publish io": [
     "publish-io"
   ],
@@ -67151,6 +67766,9 @@
   ],
   "publish nxls": [
     "publish-nxls"
+  ],
+  "publish obi docker generator image": [
+    "publish-obi-docker-generator-image"
   ],
   "publish oci image to ghcr.io": [
     "publish-oci-image-to-ghcr.io"
@@ -68004,6 +68622,9 @@
   "pundit-matchers": [
     "pundit-matchers"
   ],
+  "punycode": [
+    "punycode"
+  ],
   "puppeteer": [
     "puppeteer"
   ],
@@ -68181,6 +68802,9 @@
   "pusher": [
     "pusher"
   ],
+  "pushover": [
+    "pushover"
+  ],
   "pushpull": [
     "pushpull"
   ],
@@ -68301,6 +68925,9 @@
   "pyexcavator": [
     "pyexcavator"
   ],
+  "pyfive test": [
+    "pyfive-test"
+  ],
   "pyflakes": [
     "pyflakes"
   ],
@@ -68376,6 +69003,9 @@
   "pypi": [
     "pypi"
   ],
+  "pypi build and deploy \ud83d\udc0d\ud83d\udce6": [
+    "pypi-build-and-deploy"
+  ],
   "pypi build and release": [
     "pypi-build-and-release"
   ],
@@ -68387,6 +69017,9 @@
   ],
   "pypi nightly build": [
     "pypi-nightly-build"
+  ],
+  "pypi packaging": [
+    "pypi-packaging"
   ],
   "pypi publish": [
     "pypi-publish"
@@ -68939,6 +69572,9 @@
   ],
   "quant": [
     "quant"
+  ],
+  "quantifiers": [
+    "quantifiers"
   ],
   "quantitative-finance": [
     "quantitative-finance"
@@ -70221,6 +70857,9 @@
   "recognize-anything": [
     "recognize-anything"
   ],
+  "recognizer ci": [
+    "recognizer-ci"
+  ],
   "recognizers": [
     "recognizers"
   ],
@@ -70737,6 +71376,9 @@
   "reimplementation": [
     "reimplementation"
   ],
+  "reinforcement": [
+    "reinforcement"
+  ],
   "reinforcement-finetuning": [
     "reinforcement-finetuning"
   ],
@@ -70829,6 +71471,9 @@
   ],
   "release (beta)": [
     "release-beta"
+  ],
+  "release (kimi-cli)": [
+    "release-kimi-cli"
   ],
   "release (linux, macos, windows)": [
     "release-linux-macos-windows"
@@ -71763,6 +72408,9 @@
   "release yq": [
     "release-yq"
   ],
+  "release z3-src (prepare)": [
+    "release-z3-src-prepare"
+  ],
   "release, please!": [
     "release-please"
   ],
@@ -72053,6 +72701,9 @@
   ],
   "remix": [
     "remix"
+  ],
+  "remix-run": [
+    "remix-run"
   ],
   "remote": [
     "remote"
@@ -73176,6 +73827,9 @@
   "rewrk": [
     "rewrk"
   ],
+  "rexnet": [
+    "rexnet"
+  ],
   "rfbnet": [
     "rfbnet"
   ],
@@ -73551,6 +74205,9 @@
   "robot-manipulation": [
     "robot-manipulation"
   ],
+  "robot-manipulator": [
+    "robot-manipulator"
+  ],
   "robot-model": [
     "robot-model"
   ],
@@ -73580,6 +74237,9 @@
   ],
   "robotics-simulation": [
     "robotics-simulation"
+  ],
+  "robotics-toolbox": [
+    "robotics-toolbox"
   ],
   "roboto": [
     "roboto"
@@ -73619,6 +74279,9 @@
   ],
   "rocket-ships": [
     "rocket-ships"
+  ],
+  "rocketchat": [
+    "rocketchat"
   ],
   "rocketmq": [
     "rocketmq"
@@ -73755,6 +74418,18 @@
   "ros-containers": [
     "ros-containers"
   ],
+  "ros-drivers": [
+    "ros-drivers"
+  ],
+  "ros-industrial": [
+    "ros-industrial"
+  ],
+  "ros-melodic": [
+    "ros-melodic"
+  ],
+  "ros-noetic": [
+    "ros-noetic"
+  ],
   "ros2": [
     "ros2"
   ],
@@ -73766,6 +74441,15 @@
   ],
   "ros2-humble": [
     "ros2-humble"
+  ],
+  "ros2-iron": [
+    "ros2-iron"
+  ],
+  "ros2-jazzy": [
+    "ros2-jazzy"
+  ],
+  "ros2-rolling": [
+    "ros2-rolling"
   ],
   "rose-pine": [
     "rose-pine"
@@ -74769,6 +75453,9 @@
   "run unit tests on macos": [
     "run-unit-tests-on-macos"
   ],
+  "run unity tests": [
+    "run-unity-tests"
+  ],
   "run upstream argo-rollouts e2e tests": [
     "run-upstream-argo-rollouts-e2e-tests"
   ],
@@ -74816,6 +75503,9 @@
   ],
   "runic formatting": [
     "runic-formatting"
+  ],
+  "runner": [
+    "runner"
   ],
   "runner ci": [
     "runner-ci"
@@ -74910,6 +75600,9 @@
   "rust musl": [
     "rust-musl"
   ],
+  "rust next": [
+    "rust-next"
+  ],
   "rust plugin": [
     "rust-plugin"
   ],
@@ -74931,11 +75624,20 @@
   "rust version compatibility check": [
     "rust-version-compatibility-check"
   ],
+  "rust-analyzer": [
+    "rust-analyzer"
+  ],
   "rust-application": [
     "rust-application"
   ],
   "rust-bindings": [
     "rust-bindings"
+  ],
+  "rust-br": [
+    "rust-br"
+  ],
+  "rust-by-example": [
+    "rust-by-example"
   ],
   "rust-ci": [
     "rust-ci"
@@ -74972,6 +75674,9 @@
   ],
   "rust-next": [
     "rust-next"
+  ],
+  "rust-pt": [
+    "rust-pt"
   ],
   "rust-release": [
     "rust-release"
@@ -75038,6 +75743,9 @@
   ],
   "rwkv": [
     "rwkv"
+  ],
+  "rwlock": [
+    "rwlock"
   ],
   "rxjava": [
     "rxjava"
@@ -75570,6 +76278,9 @@
   "scan vulnerabilities": [
     "scan-vulnerabilities"
   ],
+  "scan-matching": [
+    "scan-matching"
+  ],
   "scancode": [
     "scancode"
   ],
@@ -75650,6 +76361,9 @@
   ],
   "schedule": [
     "schedule"
+  ],
+  "schedule-tasks": [
+    "schedule-tasks"
   ],
   "scheduled": [
     "scheduled"
@@ -76593,6 +77307,9 @@
   "semantic-correspondence": [
     "semantic-correspondence"
   ],
+  "semantic-dependency-parsing": [
+    "semantic-dependency-parsing"
+  ],
   "semantic-engine": [
     "semantic-engine"
   ],
@@ -76668,6 +77385,9 @@
   "semanticsegmentation": [
     "semanticsegmentation"
   ],
+  "semconv": [
+    "semconv"
+  ],
   "semeval-2022": [
     "semeval-2022"
   ],
@@ -76691,6 +77411,9 @@
   ],
   "semi-supervised-learning": [
     "semi-supervised-learning"
+  ],
+  "semiring": [
+    "semiring"
   ],
   "semistandard": [
     "semistandard"
@@ -77091,11 +77814,20 @@
   "set-membership": [
     "set-membership"
   ],
+  "setgid": [
+    "setgid"
+  ],
+  "setgroups": [
+    "setgroups"
+  ],
   "setting-default-labels": [
     "setting-default-labels"
   ],
   "settings": [
     "settings"
+  ],
+  "setuid": [
+    "setuid"
   ],
   "setup": [
     "setup"
@@ -77345,6 +78077,9 @@
   "shellcheck": [
     "shellcheck"
   ],
+  "shellcheck scripts": [
+    "shellcheck-scripts"
+  ],
   "shellcode": [
     "shellcode"
   ],
@@ -77428,6 +78163,9 @@
   ],
   "shortcut": [
     "shortcut"
+  ],
+  "shortcuts": [
+    "shortcuts"
   ],
   "shortest-path": [
     "shortest-path"
@@ -78393,6 +79131,9 @@
   "smplx": [
     "smplx"
   ],
+  "smt-solver": [
+    "smt-solver"
+  ],
   "smtp": [
     "smtp"
   ],
@@ -78739,6 +79480,9 @@
   "solidity": [
     "solidity"
   ],
+  "solidity-testing": [
+    "solidity-testing"
+  ],
   "solidjs": [
     "solidjs"
   ],
@@ -79030,6 +79774,9 @@
   ],
   "spammy guardian": [
     "spammy-guardian"
+  ],
+  "span": [
+    "span"
   ],
   "spanner": [
     "spanner"
@@ -79817,17 +80564,26 @@
   "sqlite-extension": [
     "sqlite-extension"
   ],
+  "sqlite-orm": [
+    "sqlite-orm"
+  ],
   "sqlite-virtual-table": [
     "sqlite-virtual-table"
   ],
   "sqlite3": [
     "sqlite3"
   ],
+  "sqlite3-database": [
+    "sqlite3-database"
+  ],
   "sqlite3-driver": [
     "sqlite3-driver"
   ],
   "sqlite3-extension": [
     "sqlite3-extension"
+  ],
+  "sqliteorm": [
+    "sqliteorm"
   ],
   "sqljs": [
     "sqljs"
@@ -80222,6 +80978,9 @@
   "standard-readme": [
     "standard-readme"
   ],
+  "standard-template-library": [
+    "standard-template-library"
+  ],
   "standard-version": [
     "standard-version"
   ],
@@ -80371,6 +81130,9 @@
   ],
   "state": [
     "state"
+  ],
+  "state-driven": [
+    "state-driven"
   ],
   "state-estimation": [
     "state-estimation"
@@ -80569,6 +81331,9 @@
   ],
   "steam": [
     "steam"
+  ],
+  "steep": [
+    "steep"
   ],
   "steerable-filters": [
     "steerable-filters"
@@ -80996,6 +81761,9 @@
   "structured-output": [
     "structured-output"
   ],
+  "structured-prediction": [
+    "structured-prediction"
+  ],
   "structures": [
     "structures"
   ],
@@ -81290,6 +82058,9 @@
   "substrate": [
     "substrate"
   ],
+  "substrate-pallet": [
+    "substrate-pallet"
+  ],
   "substring": [
     "substring"
   ],
@@ -81418,6 +82189,9 @@
   ],
   "superjson": [
     "superjson"
+  ],
+  "supermium": [
+    "supermium"
   ],
   "supernova": [
     "supernova"
@@ -81752,6 +82526,9 @@
   "swift-5": [
     "swift-5"
   ],
+  "swift-argument-parser": [
+    "swift-argument-parser"
+  ],
   "swift-assertions": [
     "swift-assertions"
   ],
@@ -81928,6 +82705,9 @@
   ],
   "symbols": [
     "symbols"
+  ],
+  "symbols counting": [
+    "symbols-counting"
   ],
   "symfony": [
     "symfony"
@@ -83072,6 +83852,9 @@
   "template-language": [
     "template-language"
   ],
+  "template-metaprogramming": [
+    "template-metaprogramming"
+  ],
   "template-mining": [
     "template-mining"
   ],
@@ -83432,6 +84215,9 @@
   "test - action": [
     "test---action"
   ],
+  "test - future": [
+    "test---future"
+  ],
   "test - lint - scan": [
     "test---lint---scan"
   ],
@@ -83497,6 +84283,9 @@
   ],
   "test and clippy common crates": [
     "test-and-clippy-common-crates"
+  ],
+  "test and deploy framework": [
+    "test-and-deploy-framework"
   ],
   "test and deploy installer": [
     "test-and-deploy-installer"
@@ -83645,6 +84434,12 @@
   "test ci": [
     "test-ci"
   ],
+  "test clang format": [
+    "test-clang-format"
+  ],
+  "test clang tidy": [
+    "test-clang-tidy"
+  ],
   "test claudecode integration": [
     "test-claudecode-integration"
   ],
@@ -83693,6 +84488,9 @@
   "test content": [
     "test-content"
   ],
+  "test core": [
+    "test-core"
+  ],
   "test corpus generation": [
     "test-corpus-generation"
   ],
@@ -83704,6 +84502,9 @@
   ],
   "test cpp versions": [
     "test-cpp-versions"
+  ],
+  "test cppcheck": [
+    "test-cppcheck"
   ],
   "test crdb": [
     "test-crdb"
@@ -83797,6 +84598,9 @@
   ],
   "test docker release build": [
     "test-docker-release-build"
+  ],
+  "test dockerfiles": [
+    "test-dockerfiles"
   ],
   "test docs": [
     "test-docs"
@@ -83962,6 +84766,9 @@
   ],
   "test hurl sqlite": [
     "test-hurl-sqlite"
+  ],
+  "test image generation": [
+    "test-image-generation"
   ],
   "test import": [
     "test-import"
@@ -84179,6 +84986,9 @@
   "test package": [
     "test-package"
   ],
+  "test package consumers": [
+    "test-package-consumers"
+  ],
   "test package installation": [
     "test-package-installation"
   ],
@@ -84370,6 +85180,9 @@
   ],
   "test setup": [
     "test-setup"
+  ],
+  "test small examples": [
+    "test-small-examples"
   ],
   "test sphinx extensions": [
     "test-sphinx-extensions"
@@ -84862,6 +85675,9 @@
   ],
   "tests & coverage": [
     "tests-coverage"
+  ],
+  "tests & linting": [
+    "tests-linting"
   ],
   "tests (against typescript@latest in node.js v22)": [
     "tests-against-typescript-latest-in-node.js-v22"
@@ -85798,6 +86614,9 @@
   "time-tracker": [
     "time-tracker"
   ],
+  "time-travel": [
+    "time-travel"
+  ],
   "time-zone": [
     "time-zone"
   ],
@@ -85914,6 +86733,9 @@
   ],
   "tla+ pr validation": [
     "tla-pr-validation"
+  ],
+  "tla+ specs": [
+    "tla-specs"
   ],
   "tla-specification": [
     "tla-specification"
@@ -86118,6 +86940,9 @@
   ],
   "tool-use": [
     "tool-use"
+  ],
+  "toolbelt": [
+    "toolbelt"
   ],
   "toolbox": [
     "toolbox"
@@ -86485,6 +87310,9 @@
   "trajectory-evaluation": [
     "trajectory-evaluation"
   ],
+  "trajectory-generation": [
+    "trajectory-generation"
+  ],
   "trajectory-prediction": [
     "trajectory-prediction"
   ],
@@ -86547,6 +87375,9 @@
   ],
   "transformation": [
     "transformation"
+  ],
+  "transformations": [
+    "transformations"
   ],
   "transformer": [
     "transformer"
@@ -88042,6 +88873,12 @@
   "uncertainty-quantification": [
     "uncertainty-quantification"
   ],
+  "undectectable": [
+    "undectectable"
+  ],
+  "undeploy staging": [
+    "undeploy-staging"
+  ],
   "under": [
     "en-preposition-under"
   ],
@@ -88059,6 +88896,9 @@
   ],
   "undetected": [
     "undetected"
+  ],
+  "undetected-chromedriver": [
+    "undetected-chromedriver"
   ],
   "undi": [
     "undi"
@@ -88089,6 +88929,9 @@
   ],
   "unfreeze releases": [
     "unfreeze-releases"
+  ],
+  "ungrammar": [
+    "ungrammar"
   ],
   "uni-app": [
     "uni-app"
@@ -88360,6 +89203,9 @@
   "unity-registry": [
     "unity-registry"
   ],
+  "unity2d": [
+    "unity2d"
+  ],
   "unity3d": [
     "unity3d"
   ],
@@ -88443,6 +89289,9 @@
   ],
   "unpack": [
     "unpack"
+  ],
+  "unpacker": [
+    "unpacker"
   ],
   "unpaired": [
     "unpaired"
@@ -88666,6 +89515,9 @@
   ],
   "update cargo.lock": [
     "update-cargo.lock"
+  ],
+  "update cargo.lock & fix clippy warnings": [
+    "update-cargo.lock-fix-clippy-warnings"
   ],
   "update cdn ip ranges": [
     "update-cdn-ip-ranges"
@@ -89189,6 +90041,9 @@
   "update providers": [
     "update-providers"
   ],
+  "update public suffix list": [
+    "update-public-suffix-list"
+  ],
   "update pymilvus in milvus": [
     "update-pymilvus-in-milvus"
   ],
@@ -89357,6 +90212,9 @@
   "update test images": [
     "update-test-images"
   ],
+  "update tested branch": [
+    "update-tested-branch"
+  ],
   "update testenvs manifests": [
     "update-testenvs-manifests"
   ],
@@ -89413,6 +90271,9 @@
   ],
   "update version file and create tag": [
     "update-version-file-and-create-tag"
+  ],
+  "update version on tag": [
+    "update-version-on-tag"
   ],
   "update version string in `rocks.nvim` code": [
     "update-version-string-in-rocks.nvim-code"
@@ -89647,6 +90508,9 @@
   ],
   "upload debug bridge": [
     "upload-debug-bridge"
+  ],
+  "upload docs": [
+    "upload-docs"
   ],
   "upload flash attention 3 wheels": [
     "upload-flash-attention-3-wheels"
@@ -90497,6 +91361,9 @@
   "variables": [
     "variables"
   ],
+  "variant": [
+    "variant"
+  ],
   "variant-calling": [
     "variant-calling"
   ],
@@ -90556,6 +91423,9 @@
   ],
   "vcpkg": [
     "vcpkg"
+  ],
+  "vcstool": [
+    "vcstool"
   ],
   "vdom": [
     "vdom"
@@ -91007,6 +91877,9 @@
   "vggsound": [
     "vggsound"
   ],
+  "vgicp": [
+    "vgicp"
+  ],
   "vhdl": [
     "vhdl"
   ],
@@ -91148,6 +92021,9 @@
   "video-loader": [
     "video-loader"
   ],
+  "video-manipulation": [
+    "video-manipulation"
+  ],
   "video-matting": [
     "video-matting"
   ],
@@ -91229,6 +92105,9 @@
   "video-synthesis": [
     "video-synthesis"
   ],
+  "video-synthesizer": [
+    "video-synthesizer"
+  ],
   "video-text": [
     "video-text"
   ],
@@ -91279,6 +92158,9 @@
   ],
   "vidir-ls": [
     "vidir-ls"
+  ],
+  "vietnamese": [
+    "vietnamese"
   ],
   "view": [
     "view"
@@ -91808,6 +92690,9 @@
   "visual-transformer": [
     "visual-transformer"
   ],
+  "visualbert": [
+    "visualbert"
+  ],
   "visualglm": [
     "visualglm"
   ],
@@ -92323,6 +93208,9 @@
   ],
   "vue-json-viewer": [
     "vue-json-viewer"
+  ],
+  "vue-nex": [
+    "vue-nex"
   ],
   "vue-next": [
     "vue-next"
@@ -92872,6 +93760,9 @@
   ],
   "weather-radars": [
     "weather-radars"
+  ],
+  "weaver docker generator": [
+    "weaver-docker-generator"
   ],
   "weaviate": [
     "weaviate"
@@ -93530,6 +94421,12 @@
   "wgpu.cr ci": [
     "wgpu.cr-ci"
   ],
+  "wgs-84": [
+    "wgs-84"
+  ],
+  "wgs84": [
+    "wgs84"
+  ],
   "wgsl": [
     "wgsl"
   ],
@@ -93819,6 +94716,9 @@
   "win32": [
     "win32"
   ],
+  "win64": [
+    "win64"
+  ],
   "winappsdk": [
     "winappsdk"
   ],
@@ -93972,6 +94872,21 @@
   "windows-11": [
     "windows-11"
   ],
+  "windows-7": [
+    "windows-7"
+  ],
+  "windows-7-faster": [
+    "windows-7-faster"
+  ],
+  "windows-7-sp1": [
+    "windows-7-sp1"
+  ],
+  "windows-8": [
+    "windows-8"
+  ],
+  "windows-8-1": [
+    "windows-8-1"
+  ],
   "windows-app": [
     "windows-app"
   ],
@@ -94023,6 +94938,9 @@
   "windows-release": [
     "windows-release"
   ],
+  "windows-server-2012": [
+    "windows-server-2012"
+  ],
   "windows-service": [
     "windows-service"
   ],
@@ -94047,6 +94965,9 @@
   "windows-virtual-machines": [
     "windows-virtual-machines"
   ],
+  "windows-vista": [
+    "windows-vista"
+  ],
   "windows-vm": [
     "windows-vm"
   ],
@@ -94056,17 +94977,41 @@
   "windows-x64": [
     "windows-x64"
   ],
+  "windows-xp": [
+    "windows-xp"
+  ],
+  "windows-xp-compatible": [
+    "windows-xp-compatible"
+  ],
+  "windows-xp-sp3": [
+    "windows-xp-sp3"
+  ],
   "windows10": [
     "windows10"
   ],
   "windows11": [
     "windows11"
   ],
+  "windows7": [
+    "windows7"
+  ],
+  "windows7-8": [
+    "windows7-8"
+  ],
+  "windows8": [
+    "windows8"
+  ],
+  "windows8-1": [
+    "windows8-1"
+  ],
   "windowsappsdk": [
     "windowsappsdk"
   ],
   "windowscontainers": [
     "windowscontainers"
+  ],
+  "windowsxp": [
+    "windowsxp"
   ],
   "windsurf": [
     "windsurf"
@@ -94229,6 +95174,9 @@
   ],
   "wordpress-theme": [
     "wordpress-theme"
+  ],
+  "words-to-numbers": [
+    "words-to-numbers"
   ],
   "wordwrap": [
     "wordwrap"
@@ -94617,6 +95565,9 @@
   "xcodeproject": [
     "xcodeproject"
   ],
+  "xcpretty": [
+    "xcpretty"
+  ],
   "xcresult": [
     "xcresult"
   ],
@@ -94968,6 +95919,9 @@
   "yarp": [
     "yarp"
   ],
+  "yasu": [
+    "yasu"
+  ],
   "ycombinator": [
     "ycombinator"
   ],
@@ -95208,6 +96162,9 @@
   ],
   "zero-copy": [
     "zero-copy"
+  ],
+  "zero-dependency": [
+    "zero-dependency"
   ],
   "zero-knowledge": [
     "zero-knowledge"

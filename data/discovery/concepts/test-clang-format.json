@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Clang Format"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libcpr/cpr",
+      "status": "candidate-context",
+      "text": "C++ Requests: Curl for People, a spiritual port of Python Requests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libcpr/cpr",
+      "status": "candidate-context",
+      "text": "\"Test Clang Format\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libcpr/cpr",
+      "status": "candidate",
+      "text": "\"Test Clang Format\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27921,
+      "status": "candidate",
+      "text": "essay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26321,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21791,
+      "status": "candidate",
+      "text": "rhythm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21386,
+      "status": "candidate",
+      "text": "dummy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14498,
+      "status": "candidate",
+      "text": "clash"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Clang Format",
+  "concept_id": "test-clang-format",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "libcpr/cpr"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Clang Format",
+      "sense_id": "test-clang-format#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

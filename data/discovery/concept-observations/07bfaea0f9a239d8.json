@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "DORA (Dataflow-Oriented Robotic Architecture) is middleware designed to streamline and simplify the creation of AI-based robotic applications. It offers low latency, composable, and distributed dataflow capabilities. Applications are modeled as directed graphs, also referred to as pipelines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update Cargo.lock & Fix clippy warnings"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update Cargo.lock & Fix clippy warnings"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20070,
+      "status": "candidate",
+      "text": "revise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048,
+      "status": "candidate",
+      "text": "revive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025,
+      "status": "candidate",
+      "text": "reset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20002,
+      "status": "candidate",
+      "text": "paragraph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19726,
+      "status": "candidate",
+      "text": "about-face"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Cargo.lock & Fix clippy warnings",
+      "sense_id": "update-cargo.lock-fix-clippy-warnings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-cargo.lock-fix-clippy-warnings",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-cargo.lock-fix-clippy-warnings",
+  "observation_id": "07bfaea0f9a239d8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "Update Cargo.lock & Fix clippy warnings",
+  "source_context_snippet": "Update Cargo.lock & Fix clippy warnings",
+  "source_file": ".github/workflows/cargo-update.yml",
+  "source_repo": "dora-rs/dora",
+  "source_repo_description": "DORA (Dataflow-Oriented Robotic Architecture) is middleware designed to streamline and simplify the creation of AI-based robotic applications. It offers low latency, composable, and distributed dataflow capabilities. Applications are modeled as directed graphs, also referred to as pipelines."
+}

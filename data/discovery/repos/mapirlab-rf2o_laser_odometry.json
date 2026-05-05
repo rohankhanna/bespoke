@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MAPIRlab/rf2o_laser_odometry",
+      "target": "laser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MAPIRlab/rf2o_laser_odometry",
+      "target": "odometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MAPIRlab/rf2o_laser_odometry",
+      "target": "robotics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:53:24.372612+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1059
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "ros2",
+    "description": "Estimation of 2D odometry based on planar laser scans. Useful for mobile robots with innacurate base odometry. For full description of the algorithm, please refer to: Planar Odometry from a Radial Laser Scanner. A Range Flow-based Approach. ICRA 2016 Available at: http://mapir.isa.uma.es/mapirwebsite/index.php/mapir-downloads/papers/217",
+    "fork": false,
+    "full_name": "MAPIRlab/rf2o_laser_odometry",
+    "html_url": "https://github.com/MAPIRlab/rf2o_laser_odometry",
+    "language": "C++",
+    "pushed_at": "2024-01-31T08:02:18Z",
+    "stargazers_count": 465,
+    "topics": [
+      "laser",
+      "odometry",
+      "robotics"
+    ],
+    "updated_at": "2026-04-22T04:22:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Estimation of 2D odometry based on planar laser scans. rf2o is a fast and precise method to estimate the planar motion of a lidar from consecutive range scans. Useful for mobile robots with inaccurate wheel odometry.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "laser"
+    },
+    {
+      "context_snippet": "Estimation of 2D odometry based on planar laser scans. rf2o is a fast and precise method to estimate the planar motion of a lidar from consecutive range scans. Useful for mobile robots with inaccurate wheel odometry.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "odometry"
+    },
+    {
+      "context_snippet": "Estimation of 2D odometry based on planar laser scans. rf2o is a fast and precise method to estimate the planar motion of a lidar from consecutive range scans. Useful for mobile robots with inaccurate wheel odometry.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    }
+  ]
+}

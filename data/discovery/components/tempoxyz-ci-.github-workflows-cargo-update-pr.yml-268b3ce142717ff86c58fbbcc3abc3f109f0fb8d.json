@@ -1,12 +1,17 @@
 {
   "component": "tempoxyz/ci/.github/workflows/cargo-update-pr.yml@268b3ce142717ff86c58fbbcc3abc3f109f0fb8d",
   "first_seen_at": "2026-05-05T00:36:37.683079+00:00",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dependencies.yml",
       "source_repo": "gakonst/foundry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "paradigmxyz/solar"
     }
   ]
 }

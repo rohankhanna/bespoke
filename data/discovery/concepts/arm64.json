@@ -213,6 +213,30 @@
       "source_repo": "pbatard/Mosby",
       "status": "candidate-context",
       "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/pbatard/Mosby/Linux.yml?style=flat-square&label=Linux/EDK2%20Build)](https://github.com/pbatard/Mosby/actions/workflows/Linux.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alex313031/Thorium-Android",
+      "status": "candidate-context",
+      "text": "Thorium builds for Android (arm64 and arm32)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/Thorium-Android",
+      "status": "candidate-context",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-android?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-android?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/gi\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alex313031/Thorium-MacOS",
+      "status": "candidate-context",
+      "text": "Thorium builds for MacOS (arm64 and x64)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/Thorium-MacOS",
+      "status": "candidate-context",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-macos?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-macos?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github\u2026"
     }
   ],
   "candidate_glosses": [
@@ -317,6 +341,18 @@
       "source_repo": "pbatard/Mosby",
       "status": "candidate",
       "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/pbatard/Mosby/Linux.yml?style=flat-square&label=Linux/EDK2%20Build)](https://github.com/pbatard/Mosby/actions/workflows/Linux.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/Thorium-Android",
+      "status": "candidate",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-android?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-android?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/gi\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/Thorium-MacOS",
+      "status": "candidate",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-macos?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-macos?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -660,11 +696,35 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "hiszpanski/osx-arm-linux-toolchains"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-MacOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "hiszpanski/osx-arm-linux-toolchains"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/arm64.yml",
+      "source_repo": "moby/moby"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

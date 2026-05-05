@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tpruvot/ccminer",
+      "target": "peters/curl-for-windows",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:54:05.767333+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1593
+    },
+    {
+      "path": "README.txt",
+      "size": 30759
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "windows",
+    "description": "CUDA Open Source miner project, for most nvidia cards",
+    "fork": true,
+    "full_name": "tpruvot/ccminer",
+    "html_url": "https://github.com/tpruvot/ccminer",
+    "language": "C",
+    "pushed_at": "2024-03-09T17:37:53Z",
+    "stargazers_count": 1657,
+    "topics": [],
+    "updated_at": "2026-04-25T15:23:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "peters/curl-for-windows",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

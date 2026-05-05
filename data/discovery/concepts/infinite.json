@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "infinite"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clauderic/react-infinite-calendar",
+      "status": "candidate-context",
+      "text": "\u2728 Infinite scrolling date-picker built with React, with localization, range selection, themes, keyboard support, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clauderic/react-infinite-calendar",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clauderic/react-infinite-calendar",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39856426,
+      "status": "candidate",
+      "text": "endless"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39856346,
+      "status": "candidate",
+      "text": "inexhaustible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39856332,
+      "status": "candidate",
+      "text": "limitless"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39855973,
+      "status": "candidate",
+      "text": "boundless"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39855953,
+      "status": "candidate",
+      "text": "unlimited"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 68041,
+      "status": "candidate",
+      "text": "myriad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16031,
+      "status": "candidate",
+      "text": "boundless"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16031,
+      "status": "candidate",
+      "text": "sempiternal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14034,
+      "status": "candidate",
+      "text": "unbounded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14033,
+      "status": "candidate",
+      "text": "innumerable"
+    }
+  ],
+  "canonical_name": "infinite",
+  "concept_id": "infinite",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "clauderic/react-infinite-calendar"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "infinite",
+      "sense_id": "infinite#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

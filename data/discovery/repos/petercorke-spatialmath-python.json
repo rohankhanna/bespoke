@@ -1,0 +1,227 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "petercorke/spatialmath-python",
+      "target": "bdaiinstitute/spatialmath-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "petercorke/spatialmath-python",
+      "target": "petercorke/spatial-math",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "petercorke/spatialmath-python",
+      "target": "petercorke/spatialmath-matlab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "petercorke/spatialmath-python",
+      "target": "petercorke/rvc3-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "petercorke/spatialmath-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "petercorke/spatialmath-python",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "petercorke/spatialmath-python",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "petercorke/spatialmath-python",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "petercorke/spatialmath-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "petercorke/spatialmath-python",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yml",
+      "source_repo": "petercorke/spatialmath-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yml",
+      "source_repo": "petercorke/spatialmath-python",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yml",
+      "source_repo": "petercorke/spatialmath-python",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sphinx.yml",
+      "source_repo": "petercorke/spatialmath-python",
+      "target": "Sphinx",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T17:48:04.479802+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16198
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2523
+    },
+    {
+      "path": ".github/workflows/master.yml",
+      "size": 2005
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1053
+    },
+    {
+      "path": ".github/workflows/sphinx.yml",
+      "size": 1412
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Create,  manipulate and convert representations of position and orientation in 2D or 3D using Python",
+    "fork": true,
+    "full_name": "petercorke/spatialmath-python",
+    "html_url": "https://github.com/petercorke/spatialmath-python",
+    "language": "Python",
+    "pushed_at": "2026-04-30T13:04:54Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-04-30T06:33:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bdaiinstitute/spatialmath-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "petercorke/rvc3-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "petercorke/spatial-math",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "petercorke/spatialmath-matlab",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "Sphinx",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sphinx.yml",
+      "term": "Sphinx"
+    }
+  ]
+}

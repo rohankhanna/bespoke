@@ -2446,6 +2446,30 @@
       "source_repo": "Kaliiiiiiiiii-Vinyzu/CDP-Patches",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "status": "candidate-context",
+      "text": "Library of backported modern C++ types to work with C++11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "status": "candidate-context",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "koide3/small_gicp",
+      "status": "candidate-context",
+      "text": "Efficient and parallel algorithms for point cloud registration [C++, Python]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koide3/small_gicp",
+      "status": "candidate-context",
+      "text": "windows"
     }
   ],
   "candidate_glosses": [
@@ -3684,6 +3708,18 @@
       "source_repo": "Kaliiiiiiiiii-Vinyzu/CDP-Patches",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "status": "candidate",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koide3/small_gicp",
+      "status": "candidate",
+      "text": "windows"
     }
   ],
   "candidate_related_terms": [
@@ -5863,11 +5899,77 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/windows.yml",
       "source_repo": "red-data-tools/pycall.rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "bitwizeshift/BackportCpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "red-data-tools/pycall.rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "koide3/small_gicp"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

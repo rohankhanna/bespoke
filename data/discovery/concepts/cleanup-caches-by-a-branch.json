@@ -68,6 +68,18 @@
       "source_repo": "calcom/cal.diy",
       "status": "candidate-context",
       "text": "cleanup caches by a branch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datachainlab/lcp",
+      "status": "candidate-context",
+      "text": "A proxy middleware for light client verification executed in TEE."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/lcp",
+      "status": "candidate-context",
+      "text": "cleanup caches by a branch"
     }
   ],
   "candidate_glosses": [
@@ -98,6 +110,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "calcom/cal.diy",
+      "status": "candidate",
+      "text": "cleanup caches by a branch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/lcp",
       "status": "candidate",
       "text": "cleanup caches by a branch"
     }
@@ -233,11 +251,23 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": ".github/workflows/cleanup.yaml",
       "source_repo": "weaviate/weaviate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/cleanup.yaml",
+      "source_repo": "weaviate/weaviate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/cache-cleanup.yml",
+      "source_repo": "datachainlab/lcp"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

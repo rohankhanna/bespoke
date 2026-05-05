@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "catai9/Cancer-Net-BCa",
+      "target": "jamesrenhoulee/cancernet-sca",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catai9/Cancer-Net-BCa",
+      "target": "breast-cancer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catai9/Cancer-Net-BCa",
+      "target": "cancer-net",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "catai9/Cancer-Net-BCa"
+}

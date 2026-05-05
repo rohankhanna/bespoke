@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -71,6 +71,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/wheel.yaml",
       "source_repo": "zarr-developers/numcodecs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "miquelmassot/g2o-python"
     }
   ],
   "term": "wheels"

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This repository contains the OpenTelemetry Astronomy Shop, a microservice-based distributed system intended to illustrate the implementation of OpenTelemetry in a near real-world environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Gradle wrapper validation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Gradle wrapper validation"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10685,
+      "status": "candidate",
+      "text": "covering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10559,
+      "status": "candidate",
+      "text": "augment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10559,
+      "status": "candidate",
+      "text": "augmented"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10559,
+      "status": "candidate",
+      "text": "bin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10559,
+      "status": "candidate",
+      "text": "bins"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Gradle wrapper validation",
+      "sense_id": "gradle-wrapper-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gradle-wrapper-validation",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gradle-wrapper-validation",
+  "observation_id": "6fb915f5adeb43f1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "Gradle wrapper validation",
+  "source_context_snippet": "Gradle wrapper validation",
+  "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+  "source_repo": "open-telemetry/opentelemetry-demo",
+  "source_repo_description": "This repository contains the OpenTelemetry Astronomy Shop, a microservice-based distributed system intended to illustrate the implementation of OpenTelemetry in a near real-world environment."
+}

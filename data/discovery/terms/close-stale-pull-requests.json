@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -41,6 +41,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "tendermint/spec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "aspecto-io/opentelemetry-demo"
     }
   ],
   "term": "Close stale pull requests"

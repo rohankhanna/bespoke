@@ -1,12 +1,17 @@
 {
   "component": "crazy-max/.github/.github/workflows/zizmor.yml@bbd31df64ee0f097a02f12495f541f9236f18c46",
   "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/zizmor.yml",
       "source_repo": "crazy-max/xgo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "crazy-max/docker-osxcross"
     }
   ]
 }

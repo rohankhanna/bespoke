@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "trajectory-generation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "status": "candidate-context",
+      "text": "Robotics Toolbox for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "status": "candidate-context",
+      "text": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "status": "candidate-context",
+      "text": "Robotics Toolbox for MATLAB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/petercorke/robotics-toolbox-matlab.svg?branch=master)](https://travis-ci.com/petercorke/robotics-toolbox-matlab)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "status": "candidate",
+      "text": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/petercorke/robotics-toolbox-matlab.svg?branch=master)](https://travis-ci.com/petercorke/robotics-toolbox-matlab)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "trajectory-generation",
+  "concept_id": "trajectory-generation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-matlab"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "trajectory-generation",
+      "sense_id": "trajectory-generation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -55,6 +55,54 @@
       "source_repo": "sanctuary-js/sanctuary-type-identifiers",
       "status": "candidate-context",
       "text": "A type is a set of values. Boolean, for example, is the type comprising"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sanctuary-js/sanctuary-descending",
+      "status": "candidate-context",
+      "text": ":rainbow: Fantasy Land -compliant Descending type"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanctuary-js/sanctuary-descending",
+      "status": "candidate-context",
+      "text": "<a href=\"https://github.com/fantasyland/fantasy-land\"><img alt=\"Fantasy Land\" src=\"https://raw.githubusercontent.com/fantasyland/fantasy-land/master/logo.png\" width=\"75\" height=\"75\" align=\"left\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sanctuary-js/sanctuary-either",
+      "status": "candidate-context",
+      "text": ":rainbow: Fantasy Land -compliant Either type"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanctuary-js/sanctuary-either",
+      "status": "candidate-context",
+      "text": "<a href=\"https://github.com/fantasyland/fantasy-land\"><img alt=\"Fantasy Land\" src=\"https://raw.githubusercontent.com/fantasyland/fantasy-land/master/logo.png\" width=\"75\" height=\"75\" align=\"left\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sanctuary-js/sanctuary-maybe",
+      "status": "candidate-context",
+      "text": ":rainbow: Fantasy Land -compliant Maybe type"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanctuary-js/sanctuary-maybe",
+      "status": "candidate-context",
+      "text": "<a href=\"https://github.com/fantasyland/fantasy-land\"><img alt=\"Fantasy Land\" src=\"https://raw.githubusercontent.com/fantasyland/fantasy-land/master/logo.png\" width=\"75\" height=\"75\" align=\"left\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sanctuary-js/sanctuary-pair",
+      "status": "candidate-context",
+      "text": ":rainbow: Fantasy Land -compliant Pair type"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanctuary-js/sanctuary-pair",
+      "status": "candidate-context",
+      "text": "<a href=\"https://github.com/fantasyland/fantasy-land\"><img alt=\"Fantasy Land\" src=\"https://raw.githubusercontent.com/fantasyland/fantasy-land/master/logo.png\" width=\"75\" height=\"75\" align=\"left\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +129,30 @@
       "source_repo": "sanctuary-js/sanctuary-type-identifiers",
       "status": "candidate",
       "text": "A type is a set of values. Boolean, for example, is the type comprising"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanctuary-js/sanctuary-descending",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/fantasyland/fantasy-land\"><img alt=\"Fantasy Land\" src=\"https://raw.githubusercontent.com/fantasyland/fantasy-land/master/logo.png\" width=\"75\" height=\"75\" align=\"left\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanctuary-js/sanctuary-either",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/fantasyland/fantasy-land\"><img alt=\"Fantasy Land\" src=\"https://raw.githubusercontent.com/fantasyland/fantasy-land/master/logo.png\" width=\"75\" height=\"75\" align=\"left\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanctuary-js/sanctuary-maybe",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/fantasyland/fantasy-land\"><img alt=\"Fantasy Land\" src=\"https://raw.githubusercontent.com/fantasyland/fantasy-land/master/logo.png\" width=\"75\" height=\"75\" align=\"left\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanctuary-js/sanctuary-pair",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/fantasyland/fantasy-land\"><img alt=\"Fantasy Land\" src=\"https://raw.githubusercontent.com/fantasyland/fantasy-land/master/logo.png\" width=\"75\" height=\"75\" align=\"left\"></a>"
     }
   ],
   "candidate_related_terms": [
@@ -177,11 +249,35 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "sanctuary-js/sanctuary-type-identifiers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "sanctuary-js/sanctuary-descending"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "sanctuary-js/sanctuary-either"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "sanctuary-js/sanctuary-maybe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "sanctuary-js/sanctuary-pair"
     }
   ],
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

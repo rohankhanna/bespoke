@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "fstrim automator and defrag script for ChomiumOS "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"https://raw.githubusercontent.com/Alex313031/TrImLy/main/trimly.svg\" width=\"128\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/Alex313031/TrImLy/main/trimly.svg\" width=\"128\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19979529,
+      "status": "candidate",
+      "text": "handwriting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19979079,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19970191,
+      "status": "candidate",
+      "text": "playscript"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19739347,
+      "status": "candidate",
+      "text": "hand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9985855,
+      "status": "candidate",
+      "text": "alphabets"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scripts",
+      "sense_id": "scripts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "scripts",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scripts",
+  "observation_id": "3c31a1dccad29637",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "scripts",
+  "source_context_snippet": "<img src=\"https://raw.githubusercontent.com/Alex313031/TrImLy/main/trimly.svg\" width=\"128\">",
+  "source_file": null,
+  "source_repo": "Alex313031/TrImLy",
+  "source_repo_description": "fstrim automator and defrag script for ChomiumOS "
+}

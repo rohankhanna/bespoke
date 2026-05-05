@@ -1,0 +1,197 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "target": "google-research/maxim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "target": "google-research/maxvit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "target": "autonomous-vehicles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "target": "bev-perception",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "target": "collaborative-perception",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "target": "multi-agent-perception",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "target": "nuscenes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "target": "segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "target": "semantic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:54:43.450929+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6038
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CoRL2022] CoBEVT: Cooperative Bird's Eye View Semantic Segmentation with Sparse Transformers",
+    "fork": false,
+    "full_name": "DerrickXuNu/CoBEVT",
+    "html_url": "https://github.com/DerrickXuNu/CoBEVT",
+    "language": "Python",
+    "pushed_at": "2024-08-18T01:06:04Z",
+    "stargazers_count": 255,
+    "topics": [
+      "autonomous-driving",
+      "autonomous-vehicles",
+      "bev-perception",
+      "collaborative-perception",
+      "computer-vision",
+      "multi-agent-perception",
+      "nuscenes",
+      "segmentation",
+      "semantic",
+      "semantic-segmentation",
+      "v2v",
+      "v2x"
+    ],
+    "updated_at": "2026-04-20T07:01:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/maxim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/maxvit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2207.02202.pdf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2207.02202.pdf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-vehicles"
+    },
+    {
+      "context_snippet": "[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2207.02202.pdf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bev-perception"
+    },
+    {
+      "context_snippet": "[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2207.02202.pdf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "collaborative-perception"
+    },
+    {
+      "context_snippet": "[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2207.02202.pdf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2207.02202.pdf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent-perception"
+    },
+    {
+      "context_snippet": "[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2207.02202.pdf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nuscenes"
+    },
+    {
+      "context_snippet": "[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2207.02202.pdf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    },
+    {
+      "context_snippet": "[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2207.02202.pdf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic"
+    },
+    {
+      "context_snippet": "[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2207.02202.pdf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    }
+  ]
+}

@@ -1,0 +1,444 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bootstrap.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bootstrap.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v18",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "Bogdanp/setup-racket@v1.11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4.4.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-sphinx.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-super-linter.yml"
+    },
+    {
+      "component": "github/super-linter@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-super-linter.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bootstrap.yml",
+      "source_repo": "edwinb/Idris2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-bootstrap.yml",
+      "source_repo": "edwinb/Idris2",
+      "target": "Bootstrap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml",
+      "source_repo": "edwinb/Idris2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml",
+      "source_repo": "edwinb/Idris2",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml",
+      "source_repo": "edwinb/Idris2",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml",
+      "source_repo": "edwinb/Idris2",
+      "target": "cachix/install-nix-action@v18",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml",
+      "source_repo": "edwinb/Idris2",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml",
+      "source_repo": "edwinb/Idris2",
+      "target": "Bogdanp/setup-racket@v1.11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml",
+      "source_repo": "edwinb/Idris2",
+      "target": "JamesIves/github-pages-deploy-action@v4.4.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml",
+      "source_repo": "edwinb/Idris2",
+      "target": "Idris2 and External Libs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml",
+      "source_repo": "edwinb/Idris2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-lint.yml",
+      "source_repo": "edwinb/Idris2",
+      "target": "Lint the sources",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-sphinx.yml",
+      "source_repo": "edwinb/Idris2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-sphinx.yml",
+      "source_repo": "edwinb/Idris2",
+      "target": "Sphinx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-super-linter.yml",
+      "source_repo": "edwinb/Idris2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-super-linter.yml",
+      "source_repo": "edwinb/Idris2",
+      "target": "github/super-linter@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-super-linter.yml",
+      "source_repo": "edwinb/Idris2",
+      "target": "Lint Code Base",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T17:05:45.449371+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1981
+    },
+    {
+      "path": ".github/workflows/ci-bootstrap.yml",
+      "size": 1978
+    },
+    {
+      "path": ".github/workflows/ci-idris2-and-libs.yml",
+      "size": 27895
+    },
+    {
+      "path": ".github/workflows/ci-lint.yml",
+      "size": 322
+    },
+    {
+      "path": ".github/workflows/ci-sphinx.yml",
+      "size": 416
+    },
+    {
+      "path": ".github/workflows/ci-super-linter.yml",
+      "size": 1579
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A purely functional programming language with first class types",
+    "fork": true,
+    "full_name": "edwinb/Idris2",
+    "html_url": "https://github.com/edwinb/Idris2",
+    "language": "Idris",
+    "pushed_at": "2025-03-16T20:09:16Z",
+    "stargazers_count": 61,
+    "topics": [],
+    "updated_at": "2025-08-05T23:45:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Bootstrap",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-bootstrap.yml",
+      "term": "Bootstrap"
+    },
+    {
+      "context_snippet": "Idris2 and External Libs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml",
+      "term": "Idris2 and External Libs"
+    },
+    {
+      "context_snippet": "Lint the sources",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-lint.yml",
+      "term": "Lint the sources"
+    },
+    {
+      "context_snippet": "Sphinx",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-sphinx.yml",
+      "term": "Sphinx"
+    },
+    {
+      "context_snippet": "Lint Code Base",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-super-linter.yml",
+      "term": "Lint Code Base"
+    }
+  ]
+}

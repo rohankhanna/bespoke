@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "component": "stream",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@koa/cors",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "koa",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yklykl530/koa-sse",
+      "target": "stream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yklykl530/koa-sse",
+      "target": "@koa/cors",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yklykl530/koa-sse",
+      "target": "koa",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-05T15:59:47.941222+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2556
+    },
+    {
+      "path": "package.json",
+      "size": 744
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "koa sse\uff08server side event\uff09 middleware ",
+    "fork": false,
+    "full_name": "yklykl530/koa-sse",
+    "html_url": "https://github.com/yklykl530/koa-sse",
+    "language": "JavaScript",
+    "pushed_at": "2023-12-11T21:47:04Z",
+    "stargazers_count": 39,
+    "topics": [],
+    "updated_at": "2025-09-28T02:17:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

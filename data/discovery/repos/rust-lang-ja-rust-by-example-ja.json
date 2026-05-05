@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-lang-ja/rust-by-example-ja",
+      "target": "document",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-lang-ja/rust-by-example-ja",
+      "target": "japanese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-lang-ja/rust-by-example-ja",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T15:54:57.676259+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 861
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "rust-by-example\u306e\u548c\u8a33\u30ea\u30dd\u30b8\u30c8\u30ea",
+    "fork": false,
+    "full_name": "rust-lang-ja/rust-by-example-ja",
+    "html_url": "https://github.com/rust-lang-ja/rust-by-example-ja",
+    "language": "Rust",
+    "pushed_at": "2024-07-26T02:01:46Z",
+    "stargazers_count": 163,
+    "topics": [
+      "document",
+      "japanese",
+      "rust"
+    ],
+    "updated_at": "2025-10-09T02:24:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[Rust by Example](https://github.com/rust-lang/rust-by-example)\u306e\u548c\u8a33\u30ea\u30dd\u30b8\u30c8\u30ea [![CircleCI](https://circleci.com/gh/rust-lang-ja/rust-by-example-ja.svg?style=svg)](https://circleci.com/gh/rust-lang-ja/rust-by-example-ja)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "document"
+    },
+    {
+      "context_snippet": "[Rust by Example](https://github.com/rust-lang/rust-by-example)\u306e\u548c\u8a33\u30ea\u30dd\u30b8\u30c8\u30ea [![CircleCI](https://circleci.com/gh/rust-lang-ja/rust-by-example-ja.svg?style=svg)](https://circleci.com/gh/rust-lang-ja/rust-by-example-ja)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "japanese"
+    },
+    {
+      "context_snippet": "[Rust by Example](https://github.com/rust-lang/rust-by-example)\u306e\u548c\u8a33\u30ea\u30dd\u30b8\u30c8\u30ea [![CircleCI](https://circleci.com/gh/rust-lang-ja/rust-by-example-ja.svg?style=svg)](https://circleci.com/gh/rust-lang-ja/rust-by-example-ja)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

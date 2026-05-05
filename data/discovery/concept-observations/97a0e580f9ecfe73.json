@@ -84,7 +84,7 @@
   "normalized_form": "documentation-build",
   "observation_id": "97a0e580f9ecfe73",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Documentation Build",
   "source_context_snippet": "Documentation Build",
   "source_file": ".github/workflows/docs-build.yml",

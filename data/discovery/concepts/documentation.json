@@ -2464,6 +2464,66 @@
       "source_repo": "cucumber/cucumber-js-examples",
       "status": "candidate-context",
       "text": "There are so many ways you can use [Cucumber-JS](https://github.com/cucumber/cucumber-js)!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/ingress-nginx",
+      "status": "candidate-context",
+      "text": "Ingress NGINX Controller for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/ingress-nginx",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dkubb/equalizer",
+      "status": "candidate-context",
+      "text": "Define equality, equivalency and hash methods automatically"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dkubb/equalizer",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astroyat/lerobot",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 LeRobot: Making AI for Robotics more accessible with end-to-end learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astroyat/lerobot",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/portable-simd",
+      "status": "candidate-context",
+      "text": "The testing ground for the future of portable SIMD in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/portable-simd",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/weaver",
+      "status": "candidate-context",
+      "text": "OTel Weaver lets you easily develop, validate, document, and deploy semantic conventions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/weaver",
+      "status": "candidate-context",
+      "text": "<p align=\"left\">"
     }
   ],
   "candidate_glosses": [
@@ -3726,6 +3786,36 @@
       "source_repo": "cucumber/cucumber-js-examples",
       "status": "candidate",
       "text": "There are so many ways you can use [Cucumber-JS](https://github.com/cucumber/cucumber-js)!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/ingress-nginx",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dkubb/equalizer",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astroyat/lerobot",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/portable-simd",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/weaver",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
     }
   ],
   "candidate_related_terms": [
@@ -6066,11 +6156,119 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/Documentation.yml",
       "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "atom/flight-manual.atom.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "kubernetes/ingress-nginx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/yard.yml",
+      "source_repo": "dkubb/equalizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/ROCm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "insodoc/insomnia-documenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "geotiffjs/geotiff.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "astroyat/lerobot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "rust-lang/portable-simd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "open-telemetry/weaver"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

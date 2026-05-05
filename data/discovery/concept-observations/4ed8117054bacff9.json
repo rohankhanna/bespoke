@@ -84,7 +84,7 @@
   "normalized_form": "review-checklist",
   "observation_id": "4ed8117054bacff9",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T00:36:37.683079+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Review Checklist",
   "source_context_snippet": "Review Checklist",
   "source_file": ".github/workflows/review-checklist.yml",

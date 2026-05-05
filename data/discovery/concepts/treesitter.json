@@ -79,6 +79,18 @@
       "source_repo": "RRethy/nvim-treesitter-textsubjects",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Iron-E/nvim-highlite",
+      "status": "candidate-context",
+      "text": "A colorscheme generator that is \"lite\" on logic for the developer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Iron-E/nvim-highlite",
+      "status": "candidate-context",
+      "text": "* Use any of the built-in colorschemes using `:colorscheme`."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "RRethy/nvim-treesitter-textsubjects",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Iron-E/nvim-highlite",
+      "status": "candidate",
+      "text": "* Use any of the built-in colorschemes using `:colorscheme`."
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,23 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "lumen-oss/rocks-treesitter.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-treesitter.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Iron-E/nvim-highlite"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

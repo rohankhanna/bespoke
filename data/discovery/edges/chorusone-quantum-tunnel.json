@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChorusOne/quantum-tunnel",
+      "target": "iqlusioninc/abscissa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChorusOne/quantum-tunnel",
+      "target": "chorusone/tendermint-light-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChorusOne/quantum-tunnel",
+      "target": "chorusone/substrate-light-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "ChorusOne/quantum-tunnel",
+      "target": "chorusone/tendermint_light_client",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "ChorusOne/quantum-tunnel"
+}

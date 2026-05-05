@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rocq-community/docker-coq",
+      "target": "coq-community/docker-coq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rocq-community/docker-coq",
+      "target": "coq-community/docker-coq-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rocq-community/docker-coq",
+      "target": "coq-community/docker-base",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rocq-community/docker-coq",
+      "target": "docker-coq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rocq-community/docker-coq",
+      "target": "docker-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rocq-community/docker-coq",
+      "target": "dockerfile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rocq-community/docker-coq",
+      "target": "opam",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T15:59:16.895482+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3378
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Docker images of the Coq proof assistant (see also: https://github.com/coq-community/docker-coq-action) [maintainer=@Justme0606]",
+    "fork": false,
+    "full_name": "rocq-community/docker-coq",
+    "html_url": "https://github.com/rocq-community/docker-coq",
+    "language": "Shell",
+    "pushed_at": "2025-05-13T16:51:54Z",
+    "stargazers_count": 40,
+    "topics": [
+      "ci",
+      "coq",
+      "docker-coq",
+      "docker-image",
+      "dockerfile",
+      "opam"
+    ],
+    "updated_at": "2026-02-20T16:29:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coq-community/docker-base",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coq-community/docker-coq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coq-community/docker-coq-action",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![tags](https://img.shields.io/badge/tags%20on-docker%20hub-blue.svg)](https://hub.docker.com/r/coqorg/coq#supported-tags \"Supported tags on Docker Hub\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-coq"
+    },
+    {
+      "context_snippet": "[![tags](https://img.shields.io/badge/tags%20on-docker%20hub-blue.svg)](https://hub.docker.com/r/coqorg/coq#supported-tags \"Supported tags on Docker Hub\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-image"
+    },
+    {
+      "context_snippet": "[![tags](https://img.shields.io/badge/tags%20on-docker%20hub-blue.svg)](https://hub.docker.com/r/coqorg/coq#supported-tags \"Supported tags on Docker Hub\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dockerfile"
+    },
+    {
+      "context_snippet": "[![tags](https://img.shields.io/badge/tags%20on-docker%20hub-blue.svg)](https://hub.docker.com/r/coqorg/coq#supported-tags \"Supported tags on Docker Hub\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opam"
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "components": [
+    {
+      "component": "@vueuse/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vue/compiler-sfc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "css-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "file-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mini-css-extract-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "url-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-dev-server",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vueuse/vueuse-vue3-example",
+      "target": "vuejs/vue-next",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "vueuse/vueuse-vue3-example",
+      "target": "@vueuse/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "vueuse/vueuse-vue3-example",
+      "target": "vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vueuse/vueuse-vue3-example",
+      "target": "@vue/compiler-sfc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vueuse/vueuse-vue3-example",
+      "target": "css-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vueuse/vueuse-vue3-example",
+      "target": "file-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vueuse/vueuse-vue3-example",
+      "target": "mini-css-extract-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vueuse/vueuse-vue3-example",
+      "target": "url-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vueuse/vueuse-vue3-example",
+      "target": "vue-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vueuse/vueuse-vue3-example",
+      "target": "webpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vueuse/vueuse-vue3-example",
+      "target": "webpack-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vueuse/vueuse-vue3-example",
+      "target": "webpack-dev-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vueuse/vueuse-vue3-example",
+      "target": "vue-nex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vueuse/vueuse-vue3-example",
+      "target": "vue-use",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vueuse/vueuse-vue3-example",
+      "target": "vuejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vueuse/vueuse-vue3-example",
+      "target": "vuejs3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vueuse/vueuse-vue3-example",
+      "target": "vueuse",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:58:29.469557+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 609
+    },
+    {
+      "path": "package.json",
+      "size": 494
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "VueUse and Vue3 working example",
+    "fork": false,
+    "full_name": "vueuse/vueuse-vue3-example",
+    "html_url": "https://github.com/vueuse/vueuse-vue3-example",
+    "language": "JavaScript",
+    "pushed_at": "2022-04-29T16:20:10Z",
+    "stargazers_count": 16,
+    "topics": [
+      "vue-nex",
+      "vue-use",
+      "vuejs",
+      "vuejs3",
+      "vueuse"
+    ],
+    "updated_at": "2024-07-31T03:28:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vuejs/vue-next",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align='center'>VueUse Vue3 Example</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vue-nex"
+    },
+    {
+      "context_snippet": "<h1 align='center'>VueUse Vue3 Example</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vue-use"
+    },
+    {
+      "context_snippet": "<h1 align='center'>VueUse Vue3 Example</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vuejs"
+    },
+    {
+      "context_snippet": "<h1 align='center'>VueUse Vue3 Example</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vuejs3"
+    },
+    {
+      "context_snippet": "<h1 align='center'>VueUse Vue3 Example</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vueuse"
+    }
+  ]
+}

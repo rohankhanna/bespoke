@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T16:04:43.918475+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5369
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 703
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mirror of Rust's allocator api for use on stable rust",
+    "fork": false,
+    "full_name": "zakarumych/allocator-api2",
+    "html_url": "https://github.com/zakarumych/allocator-api2",
+    "language": "Rust",
+    "pushed_at": "2025-12-11T12:25:19Z",
+    "stargazers_count": 80,
+    "topics": [],
+    "updated_at": "2026-02-17T00:37:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

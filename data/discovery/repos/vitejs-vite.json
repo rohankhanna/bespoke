@@ -171,7 +171,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320",
+      "component": "pnpm/action-setup@903f9c1a6ebcba6cf41d87230be49611ac97822e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -191,7 +191,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320",
+      "component": "pnpm/action-setup@903f9c1a6ebcba6cf41d87230be49611ac97822e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -206,7 +206,7 @@
       "source_file": ".github/workflows/copilot-setup-steps.yml"
     },
     {
-      "component": "pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320",
+      "component": "pnpm/action-setup@903f9c1a6ebcba6cf41d87230be49611ac97822e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/copilot-setup-steps.yml"
     },
@@ -301,7 +301,7 @@
       "source_file": ".github/workflows/preview-release.yml"
     },
     {
-      "component": "pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320",
+      "component": "pnpm/action-setup@903f9c1a6ebcba6cf41d87230be49611ac97822e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/preview-release.yml"
     },
@@ -547,7 +547,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "vitejs/vite",
-      "target": "pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320",
+      "target": "pnpm/action-setup@903f9c1a6ebcba6cf41d87230be49611ac97822e",
       "target_type": "component"
     },
     {
@@ -575,7 +575,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "vitejs/vite",
-      "target": "pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320",
+      "target": "pnpm/action-setup@903f9c1a6ebcba6cf41d87230be49611ac97822e",
       "target_type": "component"
     },
     {
@@ -687,7 +687,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/preview-release.yml",
       "source_repo": "vitejs/vite",
-      "target": "pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320",
+      "target": "pnpm/action-setup@903f9c1a6ebcba6cf41d87230be49611ac97822e",
       "target_type": "component"
     },
     {
@@ -733,7 +733,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T11:27:01.199886+00:00",
+  "fetched_at": "2026-05-05T14:58:22.829315+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -785,8 +785,8 @@
     "full_name": "vitejs/vite",
     "html_url": "https://github.com/vitejs/vite",
     "language": "TypeScript",
-    "pushed_at": "2026-04-21T09:05:48Z",
-    "stargazers_count": 80039,
+    "pushed_at": "2026-05-05T14:41:42Z",
+    "stargazers_count": 80401,
     "topics": [
       "build-tool",
       "dev-server",
@@ -794,7 +794,7 @@
       "hmr",
       "vite"
     ],
-    "updated_at": "2026-04-21T10:07:07Z"
+    "updated_at": "2026-05-05T13:37:25Z"
   },
   "repo_links": [],
   "terms": [

@@ -571,6 +571,42 @@
       "source_repo": "PointCloudLibrary/pcl",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"pcl.png\" height=\"100\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "koide3/fast_gicp",
+      "status": "candidate-context",
+      "text": "A collection of GICP-based fast point cloud registration algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koide3/fast_gicp",
+      "status": "candidate-context",
+      "text": "We released [small_gicp](https://github.com/koide3/small_gicp) that is twice as fast as fast_gicp and with minimum dependencies and clean interfaces."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "koide3/ndt_omp",
+      "status": "candidate-context",
+      "text": "Multi-threaded and SSE friendly NDT algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koide3/ndt_omp",
+      "status": "candidate-context",
+      "text": "This package provides an OpenMP-boosted Normal Distributions Transform (and GICP) algorithm derived from pcl. The NDT algorithm is modified to be SSE-friendly and multi-threaded. It can run up to 10 times faster than its original version in pcl."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ouster-lidar/ouster-ros",
+      "status": "candidate-context",
+      "text": "Official ROS drivers for Ouster sensors (OS0, OS1, OS2, OSDome)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ouster-lidar/ouster-ros",
+      "status": "candidate-context",
+      "text": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |"
     }
   ],
   "candidate_glosses": [
@@ -855,6 +891,24 @@
       "source_repo": "PointCloudLibrary/pcl",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"pcl.png\" height=\"100\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koide3/fast_gicp",
+      "status": "candidate",
+      "text": "We released [small_gicp](https://github.com/koide3/small_gicp) that is twice as fast as fast_gicp and with minimum dependencies and clean interfaces."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koide3/ndt_omp",
+      "status": "candidate",
+      "text": "This package provides an OpenMP-boosted Normal Distributions Transform (and GICP) algorithm derived from pcl. The NDT algorithm is modified to be SSE-friendly and multi-threaded. It can run up to 10 times faster than its original version in pcl."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ouster-lidar/ouster-ros",
+      "status": "candidate",
+      "text": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |"
     }
   ],
   "candidate_related_terms": [],
@@ -1294,11 +1348,47 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "CloudCompare/CloudCompare"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "koide3/fast_gicp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "koide3/ndt_omp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ouster-lidar/ouster-ros"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

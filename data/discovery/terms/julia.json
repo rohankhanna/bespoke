@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -621,6 +621,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "storopoli/Bayesian-Statistics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaInterop/Clang.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "jump-dev/NLopt.jl"
     }
   ],
   "term": "julia"

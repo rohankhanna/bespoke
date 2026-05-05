@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Dev-Tools-Plugin",
+      "target": "danielrosehill/claude-hopper",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:05:36.496011+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3658
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Claude Code plugin: dev tools workflow \u2014 scaffold-repo, audit-code, retrofit-claude, code-review, templatize, handover, with repo-scaffold/retrofitting/code-review/templatization/session-continuity variants.",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Dev-Tools-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Dev-Tools-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-30T11:06:14Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-30T11:06:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-hopper",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

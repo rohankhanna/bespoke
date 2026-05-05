@@ -1,7 +1,7 @@
 {
   "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -447,6 +447,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cifuzz.yml",
       "source_repo": "alembic/alembic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "Saalvage/assimp"
     }
   ]
 }

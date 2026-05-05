@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Google Chromium, sans integration with Google"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*A lightweight approach to removing Google web service dependency*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*A lightweight approach to removing Google web service dependency*"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006296,
+      "status": "candidate",
+      "text": "transparentness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006248,
+      "status": "candidate",
+      "text": "transparence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39941432,
+      "status": "candidate",
+      "text": "foil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006731,
+      "status": "candidate",
+      "text": "transparently"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30005658,
+      "status": "candidate",
+      "text": "transparent"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "transparency",
+      "sense_id": "transparency#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19060,
+      "status": "candidate",
+      "text": "foil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1019,
+      "status": "candidate",
+      "text": "transparence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15,
+      "status": "candidate",
+      "text": "transparentness"
+    }
+  ],
+  "concept_id": "transparency",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "transparency",
+  "observation_id": "be3e4141ba3b2c36",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "transparency",
+  "source_context_snippet": "*A lightweight approach to removing Google web service dependency*",
+  "source_file": null,
+  "source_repo": "ungoogled-software/ungoogled-chromium",
+  "source_repo_description": "Google Chromium, sans integration with Google"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Compare Contract Sizes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "near/near-sdk-rs",
+      "status": "candidate-context",
+      "text": "Rust library for writing NEAR smart contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-sdk-rs",
+      "status": "candidate-context",
+      "text": "Compare Contract Sizes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-sdk-rs",
+      "status": "candidate",
+      "text": "Compare Contract Sizes"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18685,
+      "status": "candidate",
+      "text": "proportion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18685,
+      "status": "candidate",
+      "text": "size"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18525,
+      "status": "candidate",
+      "text": "dimension"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18525,
+      "status": "candidate",
+      "text": "length"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18525,
+      "status": "candidate",
+      "text": "odds"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Compare Contract Sizes",
+  "concept_id": "compare-contract-sizes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/compare_sizes.yml",
+      "source_repo": "near/near-sdk-rs"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Compare Contract Sizes",
+      "sense_id": "compare-contract-sizes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

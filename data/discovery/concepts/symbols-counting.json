@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Symbols counting"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang-ru/rust-by-example",
+      "status": "candidate-context",
+      "text": "Rust by example"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang-ru/rust-by-example",
+      "status": "candidate-context",
+      "text": "Symbols counting"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang-ru/rust-by-example",
+      "status": "candidate",
+      "text": "Symbols counting"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11645,
+      "status": "candidate",
+      "text": "digit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11545,
+      "status": "candidate",
+      "text": "number"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11520,
+      "status": "candidate",
+      "text": "numeral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10595,
+      "status": "candidate",
+      "text": "arms"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10595,
+      "status": "candidate",
+      "text": "clef"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Symbols counting",
+  "concept_id": "symbols-counting",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/symbols-counting.yml",
+      "source_repo": "rust-lang-ru/rust-by-example"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Symbols counting",
+      "sense_id": "symbols-counting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

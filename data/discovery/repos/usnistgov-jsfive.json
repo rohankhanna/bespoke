@@ -1,0 +1,205 @@
+{
+  "components": [
+    {
+      "component": "pako",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esbuild",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "johnwbyrd/update-release@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usnistgov/jsfive",
+      "target": "jjhelmus/pyfive",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usnistgov/jsfive",
+      "target": "usnistgov/h5wasm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "usnistgov/jsfive",
+      "target": "pako",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "usnistgov/jsfive",
+      "target": "esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "usnistgov/jsfive",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "usnistgov/jsfive",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "usnistgov/jsfive",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "usnistgov/jsfive",
+      "target": "johnwbyrd/update-release@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "usnistgov/jsfive",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml",
+      "source_repo": "usnistgov/jsfive",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml",
+      "source_repo": "usnistgov/jsfive",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_build.yml",
+      "source_repo": "usnistgov/jsfive",
+      "target": "Test Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "usnistgov/jsfive",
+      "target": "hdf5",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T13:50:26.693458+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3433
+    },
+    {
+      "path": "package.json",
+      "size": 1321
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1408
+    },
+    {
+      "path": ".github/workflows/test_build.yml",
+      "size": 709
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A pure javascript HDF5 reader",
+    "fork": false,
+    "full_name": "usnistgov/jsfive",
+    "html_url": "https://github.com/usnistgov/jsfive",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-01T19:45:33Z",
+    "stargazers_count": 117,
+    "topics": [
+      "hdf5",
+      "javascript"
+    ],
+    "updated_at": "2026-02-09T10:04:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jjhelmus/pyfive",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "usnistgov/h5wasm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "Test Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_build.yml",
+      "term": "Test Build"
+    },
+    {
+      "context_snippet": "jsfive is a library for reading (not writing) HDF5 files using pure javascript, such as in the browser. It is based on the [pyfive](https://github.com/jjhelmus/pyfive) pure-python implementation of an HDF5 reader.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hdf5"
+    }
+  ]
+}

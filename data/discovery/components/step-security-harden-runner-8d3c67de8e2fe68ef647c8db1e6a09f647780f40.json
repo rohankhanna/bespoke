@@ -1,7 +1,7 @@
 {
   "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -822,6 +822,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/disk-export.yaml",
       "source_repo": "open-policy-agent/gatekeeper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "kelektiv/node-cron"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint_pr_title.yml",
+      "source_repo": "kelektiv/node-cron"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kelektiv/node-cron"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "kelektiv/node-cron"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kelektiv/node-cron"
     }
   ]
 }

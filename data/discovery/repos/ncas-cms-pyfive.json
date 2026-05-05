@@ -1,0 +1,240 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy-on-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy-on-pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy-on-pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy-on-pypi.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install-from-conda.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/joss-draft-pdf.yml"
+    },
+    {
+      "component": "openjournals/openjournals-draft-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/joss-draft-pdf.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/joss-draft-pdf.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "NCAS-CMS/pyfive",
+      "target": "jjhelmus/pyfive",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy-on-pypi.yml",
+      "source_repo": "NCAS-CMS/pyfive",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy-on-pypi.yml",
+      "source_repo": "NCAS-CMS/pyfive",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy-on-pypi.yml",
+      "source_repo": "NCAS-CMS/pyfive",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-deploy-on-pypi.yml",
+      "source_repo": "NCAS-CMS/pyfive",
+      "target": "PyPi Build and Deploy \ud83d\udc0d\ud83d\udce6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install-from-conda.yml",
+      "source_repo": "NCAS-CMS/pyfive",
+      "target": "conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install-from-conda.yml",
+      "source_repo": "NCAS-CMS/pyfive",
+      "target": "Install from conda-forge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/joss-draft-pdf.yml",
+      "source_repo": "NCAS-CMS/pyfive",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/joss-draft-pdf.yml",
+      "source_repo": "NCAS-CMS/pyfive",
+      "target": "openjournals/openjournals-draft-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/joss-draft-pdf.yml",
+      "source_repo": "NCAS-CMS/pyfive",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/joss-draft-pdf.yml",
+      "source_repo": "NCAS-CMS/pyfive",
+      "target": "JOSS Draft PDF",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "NCAS-CMS/pyfive",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "NCAS-CMS/pyfive",
+      "target": "conda-incubator/setup-miniconda@v3.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "NCAS-CMS/pyfive",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "NCAS-CMS/pyfive",
+      "target": "Pyfive Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:52:26.135899+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3174
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3865
+    },
+    {
+      "path": ".github/workflows/build-and-deploy-on-pypi.yml",
+      "size": 1292
+    },
+    {
+      "path": ".github/workflows/install-from-conda.yml",
+      "size": 1323
+    },
+    {
+      "path": ".github/workflows/joss-draft-pdf.yml",
+      "size": 1067
+    },
+    {
+      "path": ".github/workflows/pytest.yml",
+      "size": 2395
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A pure Python HDF5 file reader",
+    "fork": false,
+    "full_name": "NCAS-CMS/pyfive",
+    "html_url": "https://github.com/NCAS-CMS/pyfive",
+    "language": "Python",
+    "pushed_at": "2026-05-01T12:09:03Z",
+    "stargazers_count": 101,
+    "topics": [],
+    "updated_at": "2026-05-01T11:30:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jjhelmus/pyfive",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PyPi Build and Deploy \ud83d\udc0d\ud83d\udce6",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-deploy-on-pypi.yml",
+      "term": "PyPi Build and Deploy \ud83d\udc0d\ud83d\udce6"
+    },
+    {
+      "context_snippet": "Install from conda-forge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install-from-conda.yml",
+      "term": "Install from conda-forge"
+    },
+    {
+      "context_snippet": "JOSS Draft PDF",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/joss-draft-pdf.yml",
+      "term": "JOSS Draft PDF"
+    },
+    {
+      "context_snippet": "Pyfive Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "term": "Pyfive Test"
+    }
+  ]
+}

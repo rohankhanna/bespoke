@@ -55,6 +55,18 @@
       "source_repo": "HOL-Theorem-Prover/HOL",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/HOL-Theorem-Prover/HOL/actions/workflows/docker-ci.yml/badge.svg)](https://github.com/HOL-Theorem-Prover/HOL/actions/workflows/docker-ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rocq-prover/rocq",
+      "status": "candidate-context",
+      "text": "The Rocq Prover is an interactive theorem prover, or proof assistant. It provides a formal language to write mathematical definitions, executable algorithms and theorems together with an environment for semi-interactive development of machine-checked proofs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rocq-prover/rocq",
+      "status": "candidate-context",
+      "text": "[![GitLab CI][gitlab-badge]][gitlab-link]"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "HOL-Theorem-Prover/HOL",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/HOL-Theorem-Prover/HOL/actions/workflows/docker-ci.yml/badge.svg)](https://github.com/HOL-Theorem-Prover/HOL/actions/workflows/docker-ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rocq-prover/rocq",
+      "status": "candidate",
+      "text": "[![GitLab CI][gitlab-badge]][gitlab-link]"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "HOL-Theorem-Prover/HOL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "rocq-prover/rocq"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

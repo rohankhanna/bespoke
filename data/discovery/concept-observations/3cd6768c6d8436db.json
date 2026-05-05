@@ -84,7 +84,7 @@
   "normalized_form": "chrome-frontend-tests",
   "observation_id": "3cd6768c6d8436db",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Chrome frontend tests",
   "source_context_snippet": "Chrome frontend tests",
   "source_file": ".github/workflows/FrontendTest.yml",

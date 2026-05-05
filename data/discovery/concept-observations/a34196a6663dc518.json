@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MacOSX cross toolchain as Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Latest version](https://img.shields.io/github/v/tag/crazy-max/docker-osxcross?label=version&style=flat-square)](https://hub.docker.com/r/crazymax/osxcross/tags?page=1&ordering=last_updated)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Latest version](https://img.shields.io/github/v/tag/crazy-max/docker-osxcross?label=version&style=flat-square)](https://hub.docker.com/r/crazymax/osxcross/tags?page=1&ordering=last_updated)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39922971,
+      "status": "candidate",
+      "text": "dockhand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39922409,
+      "status": "candidate",
+      "text": "stevedore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39922329,
+      "status": "candidate",
+      "text": "longshoreman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39919632,
+      "status": "candidate",
+      "text": "lumper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39772796,
+      "status": "candidate",
+      "text": "loader"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "docker",
+      "sense_id": "docker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5044,
+      "status": "candidate",
+      "text": "stevedore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1025,
+      "status": "candidate",
+      "text": "lumper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1017,
+      "status": "candidate",
+      "text": "dockhand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33,
+      "status": "candidate",
+      "text": "longshoreman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "dock-walloper"
+    }
+  ],
+  "concept_id": "docker",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "docker",
+  "observation_id": "a34196a6663dc518",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "docker",
+  "source_context_snippet": "[![Latest version](https://img.shields.io/github/v/tag/crazy-max/docker-osxcross?label=version&style=flat-square)](https://hub.docker.com/r/crazymax/osxcross/tags?page=1&ordering=last_updated)",
+  "source_file": null,
+  "source_repo": "crazy-max/docker-osxcross",
+  "source_repo_description": "MacOSX cross toolchain as Docker image"
+}

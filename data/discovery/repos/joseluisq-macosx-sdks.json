@@ -1,0 +1,227 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joseluisq/macosx-sdks",
+      "target": "joseluisq/rust-linux-darwin-builder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/macosx-sdks",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/macosx-sdks",
+      "target": "macos-big-sur",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/macosx-sdks",
+      "target": "macos-catalina",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/macosx-sdks",
+      "target": "macos-high-sierra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/macosx-sdks",
+      "target": "macos-mojave",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/macosx-sdks",
+      "target": "macos-monterey",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/macosx-sdks",
+      "target": "macos-sequoia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/macosx-sdks",
+      "target": "macos-sonoma",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/macosx-sdks",
+      "target": "macos-tahoe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/macosx-sdks",
+      "target": "macos-ventura",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/macosx-sdks",
+      "target": "macosx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/macosx-sdks",
+      "target": "macosx-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/macosx-sdks",
+      "target": "osxcross",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:05:19.090612+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4176
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Some Mac OS X SDKs for development purposes with osxcross.",
+    "fork": false,
+    "full_name": "joseluisq/macosx-sdks",
+    "html_url": "https://github.com/joseluisq/macosx-sdks",
+    "language": null,
+    "pushed_at": "2025-11-19T22:18:19Z",
+    "stargazers_count": 213,
+    "topics": [
+      "mac",
+      "macos",
+      "macos-big-sur",
+      "macos-catalina",
+      "macos-high-sierra",
+      "macos-mojave",
+      "macos-monterey",
+      "macos-sequoia",
+      "macos-sonoma",
+      "macos-tahoe",
+      "macos-ventura",
+      "macosx",
+      "macosx-sdk",
+      "osxcross",
+      "sdk"
+    ],
+    "updated_at": "2026-04-28T00:13:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joseluisq/rust-linux-darwin-builder",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Some Mac OS X SDKs for development purposes with [osxcross](https://github.com/tpoechtrager/osxcross) (a macOS Cross toolchain for Linux and BSDs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "> Some Mac OS X SDKs for development purposes with [osxcross](https://github.com/tpoechtrager/osxcross) (a macOS Cross toolchain for Linux and BSDs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos-big-sur"
+    },
+    {
+      "context_snippet": "> Some Mac OS X SDKs for development purposes with [osxcross](https://github.com/tpoechtrager/osxcross) (a macOS Cross toolchain for Linux and BSDs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos-catalina"
+    },
+    {
+      "context_snippet": "> Some Mac OS X SDKs for development purposes with [osxcross](https://github.com/tpoechtrager/osxcross) (a macOS Cross toolchain for Linux and BSDs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos-high-sierra"
+    },
+    {
+      "context_snippet": "> Some Mac OS X SDKs for development purposes with [osxcross](https://github.com/tpoechtrager/osxcross) (a macOS Cross toolchain for Linux and BSDs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos-mojave"
+    },
+    {
+      "context_snippet": "> Some Mac OS X SDKs for development purposes with [osxcross](https://github.com/tpoechtrager/osxcross) (a macOS Cross toolchain for Linux and BSDs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos-monterey"
+    },
+    {
+      "context_snippet": "> Some Mac OS X SDKs for development purposes with [osxcross](https://github.com/tpoechtrager/osxcross) (a macOS Cross toolchain for Linux and BSDs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos-sequoia"
+    },
+    {
+      "context_snippet": "> Some Mac OS X SDKs for development purposes with [osxcross](https://github.com/tpoechtrager/osxcross) (a macOS Cross toolchain for Linux and BSDs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos-sonoma"
+    },
+    {
+      "context_snippet": "> Some Mac OS X SDKs for development purposes with [osxcross](https://github.com/tpoechtrager/osxcross) (a macOS Cross toolchain for Linux and BSDs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos-tahoe"
+    },
+    {
+      "context_snippet": "> Some Mac OS X SDKs for development purposes with [osxcross](https://github.com/tpoechtrager/osxcross) (a macOS Cross toolchain for Linux and BSDs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos-ventura"
+    },
+    {
+      "context_snippet": "> Some Mac OS X SDKs for development purposes with [osxcross](https://github.com/tpoechtrager/osxcross) (a macOS Cross toolchain for Linux and BSDs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macosx"
+    },
+    {
+      "context_snippet": "> Some Mac OS X SDKs for development purposes with [osxcross](https://github.com/tpoechtrager/osxcross) (a macOS Cross toolchain for Linux and BSDs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macosx-sdk"
+    },
+    {
+      "context_snippet": "> Some Mac OS X SDKs for development purposes with [osxcross](https://github.com/tpoechtrager/osxcross) (a macOS Cross toolchain for Linux and BSDs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "osxcross"
+    }
+  ]
+}

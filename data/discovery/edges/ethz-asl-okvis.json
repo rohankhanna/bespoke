@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethz-asl/okvis",
+      "target": "ethz-asl/libvisensor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethz-asl/okvis",
+      "target": "ethz-asl/kalibr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethz-asl/okvis",
+      "target": "ethz-asl/programming_guidelines",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "ethz-asl/okvis"
+}

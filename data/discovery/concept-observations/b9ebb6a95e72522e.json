@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official ROS drivers for Ouster sensors (OS0, OS1, OS2, OSDome)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ros-melodic",
+      "sense_id": "ros-melodic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ros-melodic",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ros-melodic",
+  "observation_id": "b9ebb6a95e72522e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "ros-melodic",
+  "source_context_snippet": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |",
+  "source_file": null,
+  "source_repo": "ouster-lidar/ouster-ros",
+  "source_repo_description": "Official ROS drivers for Ouster sensors (OS0, OS1, OS2, OSDome)"
+}

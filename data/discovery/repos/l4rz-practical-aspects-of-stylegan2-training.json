@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "l4rz/practical-aspects-of-stylegan2-training",
+      "target": "tzutalin/labelimg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "l4rz/practical-aspects-of-stylegan2-training",
+      "target": "datitran/raccoon_dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "l4rz/practical-aspects-of-stylegan2-training",
+      "target": "aodiwei/tensorflow-object-detection-api-for-face-detcetion",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:54:18.334792+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19087
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "I have trained StyleGAN2 from scratch with a dataset of female portraits at 1024px resolution. ",
+    "fork": false,
+    "full_name": "l4rz/practical-aspects-of-stylegan2-training",
+    "html_url": "https://github.com/l4rz/practical-aspects-of-stylegan2-training",
+    "language": null,
+    "pushed_at": "2021-08-07T15:18:21Z",
+    "stargazers_count": 217,
+    "topics": [],
+    "updated_at": "2025-12-21T23:27:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aodiwei/tensorflow-object-detection-api-for-face-detcetion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datitran/raccoon_dataset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tzutalin/labelimg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

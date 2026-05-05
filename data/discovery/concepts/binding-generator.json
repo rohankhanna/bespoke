@@ -31,6 +31,18 @@
       "source_repo": "rust-windowing/gl-rs",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/rust-windowing/gl-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/rust-windowing/gl-rs/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaInterop/Clang.jl",
+      "status": "candidate-context",
+      "text": "C binding generator and Julia interface to libclang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaInterop/Clang.jl",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/JuliaInterop/Clang.jl/actions/workflows/ci.yml/badge.svg)](https://github.com/JuliaInterop/Clang.jl/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "rust-windowing/gl-rs",
       "status": "candidate",
       "text": "[![CI](https://github.com/rust-windowing/gl-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/rust-windowing/gl-rs/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaInterop/Clang.jl",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/JuliaInterop/Clang.jl/actions/workflows/ci.yml/badge.svg)](https://github.com/JuliaInterop/Clang.jl/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +112,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "rust-windowing/gl-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "JuliaInterop/Clang.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

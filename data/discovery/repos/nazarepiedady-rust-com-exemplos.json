@@ -1,0 +1,164 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rbe.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rbe.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nazarepiedady/rust-com-exemplos",
+      "target": "rust-lang-cn/rust-by-example-cn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nazarepiedady/rust-com-exemplos",
+      "target": "rust-lang-ja/rust-by-example-ja",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nazarepiedady/rust-com-exemplos",
+      "target": "rurust/rust-by-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nazarepiedady/rust-com-exemplos",
+      "target": "eyescrypto-insights/rust-by-example-vn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rbe.yml",
+      "source_repo": "nazarepiedady/rust-com-exemplos",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rbe.yml",
+      "source_repo": "nazarepiedady/rust-com-exemplos",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nazarepiedady/rust-com-exemplos",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nazarepiedady/rust-com-exemplos",
+      "target": "rust-br",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nazarepiedady/rust-com-exemplos",
+      "target": "rust-lang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nazarepiedady/rust-com-exemplos",
+      "target": "rust-pt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:44:59.666455+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1944
+    },
+    {
+      "path": ".github/workflows/rbe.yml",
+      "size": 1182
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Estude Rust com Exemplos (editor de c\u00f3digo em tempo real).",
+    "fork": false,
+    "full_name": "nazarepiedady/rust-com-exemplos",
+    "html_url": "https://github.com/nazarepiedady/rust-com-exemplos",
+    "language": null,
+    "pushed_at": "2023-10-27T05:17:30Z",
+    "stargazers_count": 8,
+    "topics": [
+      "rust",
+      "rust-br",
+      "rust-lang",
+      "rust-pt"
+    ],
+    "updated_at": "2025-07-30T05:39:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eyescrypto-insights/rust-by-example-vn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rurust/rust-by-example",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang-cn/rust-by-example-cn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang-ja/rust-by-example-ja",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Estado da Constru\u00e7\u00e3o][travis-badge]][travis-repo]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![Estado da Constru\u00e7\u00e3o][travis-badge]][travis-repo]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-br"
+    },
+    {
+      "context_snippet": "[![Estado da Constru\u00e7\u00e3o][travis-badge]][travis-repo]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-lang"
+    },
+    {
+      "context_snippet": "[![Estado da Constru\u00e7\u00e3o][travis-badge]][travis-repo]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-pt"
+    }
+  ]
+}

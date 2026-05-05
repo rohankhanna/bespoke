@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and Test macOS"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "B-Lang-org/bsc",
+      "status": "candidate-context",
+      "text": "Bluespec Compiler (BSC)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "B-Lang-org/bsc",
+      "status": "candidate-context",
+      "text": "Build and Test macOS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "B-Lang-org/bsc",
+      "status": "candidate",
+      "text": "Build and Test macOS"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18490,
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10418,
+      "status": "candidate",
+      "text": "android"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9684,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9684,
+      "status": "candidate",
+      "text": "kludge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9684,
+      "status": "candidate",
+      "text": "pose"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and Test macOS",
+  "concept_id": "build-and-test-macos",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build-and-test-macos.yml",
+      "source_repo": "B-Lang-org/bsc"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Test macOS",
+      "sense_id": "build-and-test-macos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

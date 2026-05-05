@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/compact_enc_det",
+      "target": "sonicdoe/ced",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/compact_enc_det",
+      "target": "cloudaper/compact_enc_det",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:04:47.281835+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1350
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "compact_enc_det - Compact Encoding Detection",
+    "fork": false,
+    "full_name": "google/compact_enc_det",
+    "html_url": "https://github.com/google/compact_enc_det",
+    "language": "C",
+    "pushed_at": "2024-02-12T21:23:15Z",
+    "stargazers_count": 246,
+    "topics": [],
+    "updated_at": "2026-05-01T13:50:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudaper/compact_enc_det",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sonicdoe/ced",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

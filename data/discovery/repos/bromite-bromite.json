@@ -1,0 +1,191 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bromite/bromite",
+      "target": "gcarq/inox-patchset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bromite/bromite",
+      "target": "eloston/ungoogled-chromium",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bromite/bromite",
+      "target": "bromite/filters",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bromite/bromite",
+      "target": "ungoogled-software/ungoogled-chromium-android",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bromite/bromite",
+      "target": "adblock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bromite/bromite",
+      "target": "adblocking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bromite/bromite",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bromite/bromite",
+      "target": "bromite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bromite/bromite",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bromite/bromite",
+      "target": "chromium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bromite/bromite",
+      "target": "privacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bromite/bromite",
+      "target": "security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:04:30.844337+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13923
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bromite is a Chromium fork with ad blocking and privacy enhancements; take back your browser!",
+    "fork": false,
+    "full_name": "bromite/bromite",
+    "html_url": "https://github.com/bromite/bromite",
+    "language": null,
+    "pushed_at": "2024-01-24T16:48:54Z",
+    "stargazers_count": 6247,
+    "topics": [
+      "adblock",
+      "adblocking",
+      "android",
+      "bromite",
+      "browser",
+      "chromium",
+      "privacy",
+      "security"
+    ],
+    "updated_at": "2026-05-04T09:26:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bromite/filters",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eloston/ungoogled-chromium",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gcarq/inox-patchset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ungoogled-software/ungoogled-chromium-android",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Stand With Ukraine](./banner2-direct.svg)](https://stand-with-ukraine.pp.ua/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adblock"
+    },
+    {
+      "context_snippet": "[![Stand With Ukraine](./banner2-direct.svg)](https://stand-with-ukraine.pp.ua/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adblocking"
+    },
+    {
+      "context_snippet": "[![Stand With Ukraine](./banner2-direct.svg)](https://stand-with-ukraine.pp.ua/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "[![Stand With Ukraine](./banner2-direct.svg)](https://stand-with-ukraine.pp.ua/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bromite"
+    },
+    {
+      "context_snippet": "[![Stand With Ukraine](./banner2-direct.svg)](https://stand-with-ukraine.pp.ua/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "[![Stand With Ukraine](./banner2-direct.svg)](https://stand-with-ukraine.pp.ua/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromium"
+    },
+    {
+      "context_snippet": "[![Stand With Ukraine](./banner2-direct.svg)](https://stand-with-ukraine.pp.ua/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privacy"
+    },
+    {
+      "context_snippet": "[![Stand With Ukraine](./banner2-direct.svg)](https://stand-with-ukraine.pp.ua/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    }
+  ]
+}

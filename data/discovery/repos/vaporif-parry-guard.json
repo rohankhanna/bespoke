@@ -384,7 +384,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T08:21:26.702920+00:00",
+  "fetched_at": "2026-05-05T15:49:44.737566+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -424,7 +424,7 @@
     "full_name": "vaporif/parry-guard",
     "html_url": "https://github.com/vaporif/parry-guard",
     "language": "Rust",
-    "pushed_at": "2026-05-01T18:03:29Z",
+    "pushed_at": "2026-05-05T14:25:23Z",
     "stargazers_count": 37,
     "topics": [
       "claude-code",

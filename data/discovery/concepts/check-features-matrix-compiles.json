@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check features matrix compiles"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "viperproject/smt-scope",
+      "status": "candidate-context",
+      "text": "SMTscope automatically analyses and visualises SMT solver execution traces."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "viperproject/smt-scope",
+      "status": "candidate-context",
+      "text": "Check features matrix compiles"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "viperproject/smt-scope",
+      "status": "candidate",
+      "text": "Check features matrix compiles"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31987,
+      "status": "candidate",
+      "text": "checklist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31322,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28094,
+      "status": "candidate",
+      "text": "sets"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23059,
+      "status": "candidate",
+      "text": "accountant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21798,
+      "status": "candidate",
+      "text": "printer"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check features matrix compiles",
+  "concept_id": "check-features-matrix-compiles",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/all-features.yml",
+      "source_repo": "viperproject/smt-scope"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check features matrix compiles",
+      "sense_id": "check-features-matrix-compiles#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

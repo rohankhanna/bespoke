@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Application microframework with command-line option parsing, configuration, error handling, logging, and shell interactions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "tokio"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "tokio"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035250,
+      "status": "candidate",
+      "text": "yeddo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032965,
+      "status": "candidate",
+      "text": "yedo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29931865,
+      "status": "candidate",
+      "text": "edo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29927272,
+      "status": "candidate",
+      "text": "tokyo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20035266,
+      "status": "candidate",
+      "text": "capital of japan"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "tokio",
+      "sense_id": "tokio#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "capital of japan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "japanese capital"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "edo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "tokyo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "yeddo"
+    }
+  ],
+  "concept_id": "tokio",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tokio",
+  "observation_id": "684e24d686b28790",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "tokio",
+  "source_context_snippet": "tokio",
+  "source_file": ".github/workflows/tokio.yml",
+  "source_repo": "iqlusioninc/abscissa",
+  "source_repo_description": "Application microframework with command-line option parsing, configuration, error handling, logging, and shell interactions"
+}

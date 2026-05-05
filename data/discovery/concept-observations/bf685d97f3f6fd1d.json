@@ -84,7 +84,7 @@
   "normalized_form": "publish-docs",
   "observation_id": "bf685d97f3f6fd1d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T00:36:37.683079+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Publish Docs",
   "source_context_snippet": "Publish Docs",
   "source_file": ".github/workflows/publish-docs.yml",

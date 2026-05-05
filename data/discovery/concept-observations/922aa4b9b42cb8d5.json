@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Protobuf3 plugin for Solidity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Go and Node.js Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Go and Node.js Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14037,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14037,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14037,
+      "status": "candidate",
+      "text": "examine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14037,
+      "status": "candidate",
+      "text": "experience"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14037,
+      "status": "candidate",
+      "text": "review"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Go and Node.js Tests",
+      "sense_id": "go-and-node.js-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "go-and-node.js-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "go-and-node.js-tests",
+  "observation_id": "922aa4b9b42cb8d5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "Go and Node.js Tests",
+  "source_context_snippet": "Go and Node.js Tests",
+  "source_file": ".github/workflows/test.yml",
+  "source_repo": "celestiaorg/protobuf3-solidity",
+  "source_repo_description": "Protobuf3 plugin for Solidity"
+}

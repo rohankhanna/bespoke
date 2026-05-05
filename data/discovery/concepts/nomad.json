@@ -43,6 +43,18 @@
       "source_repo": "istio/istio",
       "status": "candidate-context",
       "text": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1395/badge)](https://bestpractices.coreinfrastructure.org/projects/1395)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazy-max/diun",
+      "status": "candidate-context",
+      "text": "Receive notifications when an image is updated on a Docker registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/diun",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://crazymax.dev/diun/\" target=\"_blank\"><img height=\"128\" src=\"https://raw.githubusercontent.com/crazy-max/diun/master/.res/diun.png\"></a></p>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "istio/istio",
       "status": "candidate",
       "text": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1395/badge)](https://bestpractices.coreinfrastructure.org/projects/1395)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/diun",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://crazymax.dev/diun/\" target=\"_blank\"><img height=\"128\" src=\"https://raw.githubusercontent.com/crazy-max/diun/master/.res/diun.png\"></a></p>"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "istio/istio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "crazy-max/diun"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

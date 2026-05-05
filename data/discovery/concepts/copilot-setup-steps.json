@@ -812,6 +812,18 @@
       "source_repo": "microsoft/vscode-cmake-tools",
       "status": "candidate-context",
       "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f3liz-casa/noraneko",
+      "status": "candidate-context",
+      "text": "An artifact based testbed browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f3liz-casa/noraneko",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
     }
   ],
   "candidate_glosses": [
@@ -1214,6 +1226,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/vscode-cmake-tools",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f3liz-casa/noraneko",
       "status": "candidate",
       "text": "\"Copilot Setup Steps\""
     }
@@ -1799,11 +1817,41 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "vuejs/language-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "f3liz-casa/noraneko"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/aspnetcore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "vuejs/language-tools"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

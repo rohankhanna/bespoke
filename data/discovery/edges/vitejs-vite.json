@@ -235,7 +235,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "vitejs/vite",
-      "target": "pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320",
+      "target": "pnpm/action-setup@903f9c1a6ebcba6cf41d87230be49611ac97822e",
       "target_type": "component"
     },
     {
@@ -263,7 +263,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "vitejs/vite",
-      "target": "pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320",
+      "target": "pnpm/action-setup@903f9c1a6ebcba6cf41d87230be49611ac97822e",
       "target_type": "component"
     },
     {
@@ -375,7 +375,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/preview-release.yml",
       "source_repo": "vitejs/vite",
-      "target": "pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320",
+      "target": "pnpm/action-setup@903f9c1a6ebcba6cf41d87230be49611ac97822e",
       "target_type": "component"
     },
     {
@@ -421,6 +421,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
   "source_repo": "vitejs/vite"
 }

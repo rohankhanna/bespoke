@@ -139,6 +139,18 @@
       "source_repo": "nginx-le/nginx-le",
       "status": "candidate-context",
       "text": "Simple nginx image (alpine based) with integrated [Let's Encrypt](https://letsencrypt.org) support."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/ingress-nginx",
+      "status": "candidate-context",
+      "text": "Ingress NGINX Controller for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/ingress-nginx",
+      "status": "candidate-context",
+      "text": "[What You Need to Know about Ingress NGINX Retirement](https://www.kubernetes.io/blog/2025/11/11/ingress-nginx-retirement/):"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "nginx-le/nginx-le",
       "status": "candidate",
       "text": "Simple nginx image (alpine based) with integrated [Let's Encrypt](https://letsencrypt.org) support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/ingress-nginx",
+      "status": "candidate",
+      "text": "[What You Need to Know about Ingress NGINX Retirement](https://www.kubernetes.io/blog/2025/11/11/ingress-nginx-retirement/):"
     }
   ],
   "candidate_related_terms": [
@@ -328,11 +346,23 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "nginx-le/nginx-le"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes/ingress-nginx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "nginx-le/nginx-le"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

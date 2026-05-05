@@ -19,6 +19,18 @@
       "source_repo": "hku-mars/FAST-LIVO2",
       "status": "candidate-context",
       "text": "- \ud83d\udd13 **2025-01-23**: Code released!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry",
+      "status": "candidate-context",
+      "text": "[IEEE ICRA'23] A new lightweight LiDAR-inertial odometry algorithm with a novel coarse-to-fine approach in constructing continuous-time trajectories for precise motion correction."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry",
+      "status": "candidate-context",
+      "text": "DLIO is a new lightweight LiDAR-inertial odometry algorithm with a novel coarse-to-fine approach in constructing continuous-time trajectories for precise motion correction. It features several algorithmic improvements over its predecessor, [DLO](https://github.com/vectr-ucla/dir\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "hku-mars/FAST-LIVO2",
       "status": "candidate",
       "text": "- \ud83d\udd13 **2025-01-23**: Code released!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry",
+      "status": "candidate",
+      "text": "DLIO is a new lightweight LiDAR-inertial odometry algorithm with a novel coarse-to-fine approach in constructing continuous-time trajectories for precise motion correction. It features several algorithmic improvements over its predecessor, [DLO](https://github.com/vectr-ucla/dir\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "hku-mars/FAST-LIVO2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry"
     }
   ],
   "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

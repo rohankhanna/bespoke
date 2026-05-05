@@ -1,0 +1,235 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "cirruslabs/swiftlint-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-psl.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-psl.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-psl.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ameshkov/swift-psl",
+      "target": "gumob/punycodeswift",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ameshkov/swift-psl",
+      "target": "dashlane/swiftdomainparser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ameshkov/swift-psl",
+      "target": "gumob/tldextractswift",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ameshkov/swift-psl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ameshkov/swift-psl",
+      "target": "cirruslabs/swiftlint-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ameshkov/swift-psl",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ameshkov/swift-psl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ameshkov/swift-psl",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-psl.yml",
+      "source_repo": "ameshkov/swift-psl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-psl.yml",
+      "source_repo": "ameshkov/swift-psl",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-psl.yml",
+      "source_repo": "ameshkov/swift-psl",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-psl.yml",
+      "source_repo": "ameshkov/swift-psl",
+      "target": "Update Public Suffix List",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ameshkov/swift-psl",
+      "target": "etld",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ameshkov/swift-psl",
+      "target": "publicsuffixlist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ameshkov/swift-psl",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:56:13.039244+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4404
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 373
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 170
+    },
+    {
+      "path": ".github/workflows/update-psl.yml",
+      "size": 4560
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "High performance Swift library for working with public suffix list",
+    "fork": false,
+    "full_name": "ameshkov/swift-psl",
+    "html_url": "https://github.com/ameshkov/swift-psl",
+    "language": "Swift",
+    "pushed_at": "2026-05-02T14:41:20Z",
+    "stargazers_count": 16,
+    "topics": [
+      "etld",
+      "psl",
+      "publicsuffixlist",
+      "swift",
+      "tld"
+    ],
+    "updated_at": "2026-05-02T14:41:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dashlane/swiftdomainparser",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gumob/punycodeswift",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gumob/tldextractswift",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Update Public Suffix List",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-psl.yml",
+      "term": "Update Public Suffix List"
+    },
+    {
+      "context_snippet": "High performance Swift library for working with [public suffix list][publicsuffixlist]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "etld"
+    },
+    {
+      "context_snippet": "High performance Swift library for working with [public suffix list][publicsuffixlist]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "publicsuffixlist"
+    },
+    {
+      "context_snippet": "High performance Swift library for working with [public suffix list][publicsuffixlist]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    }
+  ]
+}

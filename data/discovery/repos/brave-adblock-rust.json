@@ -1,0 +1,205 @@
+{
+  "components": [
+    {
+      "component": "cargo-cp-artifact",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@a0b538fa0b742a6aa35d6e2c169b4bd06d225a98",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/perf-ci.yml"
+    },
+    {
+      "component": "benchmark-action/github-action-benchmark@a7bc2366eda11037936ea57d811a43b3418d3073",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/perf-ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanity.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@a0b538fa0b742a6aa35d6e2c169b4bd06d225a98",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanity.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semver-checks.yml"
+    },
+    {
+      "component": "obi1kenobi/cargo-semver-checks-action@5b298c9520f7096a4683c0bd981a7ac5a7e249ae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semver-checks.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "brave/adblock-rust",
+      "target": "cargo-cp-artifact",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "brave/adblock-rust",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "brave/adblock-rust",
+      "target": "actions-rust-lang/setup-rust-toolchain@a0b538fa0b742a6aa35d6e2c169b4bd06d225a98",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/perf-ci.yml",
+      "source_repo": "brave/adblock-rust",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/perf-ci.yml",
+      "source_repo": "brave/adblock-rust",
+      "target": "benchmark-action/github-action-benchmark@a7bc2366eda11037936ea57d811a43b3418d3073",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/perf-ci.yml",
+      "source_repo": "brave/adblock-rust",
+      "target": "Performance CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanity.yml",
+      "source_repo": "brave/adblock-rust",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanity.yml",
+      "source_repo": "brave/adblock-rust",
+      "target": "actions-rust-lang/setup-rust-toolchain@a0b538fa0b742a6aa35d6e2c169b4bd06d225a98",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sanity.yml",
+      "source_repo": "brave/adblock-rust",
+      "target": "Sanity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semver-checks.yml",
+      "source_repo": "brave/adblock-rust",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semver-checks.yml",
+      "source_repo": "brave/adblock-rust",
+      "target": "obi1kenobi/cargo-semver-checks-action@5b298c9520f7096a4683c0bd981a7ac5a7e249ae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semver-checks.yml",
+      "source_repo": "brave/adblock-rust",
+      "target": "Semver Checks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:56:19.683329+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3526
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2594
+    },
+    {
+      "path": "package.json",
+      "size": 1131
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2002
+    },
+    {
+      "path": ".github/workflows/fuzz-all.sh",
+      "size": 667
+    },
+    {
+      "path": ".github/workflows/perf-ci.yml",
+      "size": 1341
+    },
+    {
+      "path": ".github/workflows/sanity.yml",
+      "size": 1863
+    },
+    {
+      "path": ".github/workflows/semver-checks.yml",
+      "size": 417
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Brave's Rust-based adblock engine",
+    "fork": false,
+    "full_name": "brave/adblock-rust",
+    "html_url": "https://github.com/brave/adblock-rust",
+    "language": "Rust",
+    "pushed_at": "2026-05-04T16:44:29Z",
+    "stargazers_count": 2502,
+    "topics": [],
+    "updated_at": "2026-05-05T08:46:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Performance CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/perf-ci.yml",
+      "term": "Performance CI"
+    },
+    {
+      "context_snippet": "Sanity",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sanity.yml",
+      "term": "Sanity"
+    },
+    {
+      "context_snippet": "Semver Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semver-checks.yml",
+      "term": "Semver Checks"
+    }
+  ]
+}

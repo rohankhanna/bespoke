@@ -1,0 +1,681 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@v1.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-conan.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-conan.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-doxygen.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-doxygen.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-build.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "github/codeql-action/init@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "github/codeql-action/analyze@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "Code Scanning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ubuntu.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "Ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "coverallsapp/github-action@v1.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "Code Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-conan.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-conan.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-conan.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "Deploy Conan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-doxygen.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-doxygen.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-doxygen.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "Deploy Doxygen (Latest)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-build.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-build.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-build.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scan-build.yml",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "Scan Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "backport",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "best-practices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "c-plus-plus-11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "c-plus-plus-14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "cpp11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "cpp14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "cpp17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "cpp20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "header-only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "modern-cpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "no-dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "optional",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "span",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "standard-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "standard-template-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "string-view",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "template-metaprogramming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwizeshift/BackportCpp",
+      "target": "variant",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:00:45.821626+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16406
+    },
+    {
+      "path": ".github/workflows/analysis.yml",
+      "size": 1515
+    },
+    {
+      "path": ".github/workflows/build-macos.yml",
+      "size": 3637
+    },
+    {
+      "path": ".github/workflows/build-ubuntu.yml",
+      "size": 5874
+    },
+    {
+      "path": ".github/workflows/build-windows.yml",
+      "size": 4965
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 3670
+    },
+    {
+      "path": ".github/workflows/deploy-conan.yml",
+      "size": 1163
+    },
+    {
+      "path": ".github/workflows/deploy-doxygen.yml",
+      "size": 2128
+    },
+    {
+      "path": ".github/workflows/scan-build.yml",
+      "size": 1729
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Library of backported modern C++ types to work with C++11",
+    "fork": false,
+    "full_name": "bitwizeshift/BackportCpp",
+    "html_url": "https://github.com/bitwizeshift/BackportCpp",
+    "language": "C++",
+    "pushed_at": "2025-05-06T17:50:09Z",
+    "stargazers_count": 93,
+    "topics": [
+      "any",
+      "backport",
+      "best-practices",
+      "c-plus-plus-11",
+      "c-plus-plus-14",
+      "cpp11",
+      "cpp14",
+      "cpp17",
+      "cpp20",
+      "header-only",
+      "modern-cpp",
+      "no-dependencies",
+      "optional",
+      "span",
+      "standard-library",
+      "standard-template-library",
+      "stl",
+      "string-view",
+      "template-metaprogramming",
+      "variant"
+    ],
+    "updated_at": "2026-04-26T04:22:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Code Scanning\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analysis.yml",
+      "term": "Code Scanning"
+    },
+    {
+      "context_snippet": "macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yml",
+      "term": "macOS"
+    },
+    {
+      "context_snippet": "Ubuntu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ubuntu.yml",
+      "term": "Ubuntu"
+    },
+    {
+      "context_snippet": "Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "term": "Windows"
+    },
+    {
+      "context_snippet": "\"Code Coverage\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Code Coverage"
+    },
+    {
+      "context_snippet": "Deploy Conan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-conan.yml",
+      "term": "Deploy Conan"
+    },
+    {
+      "context_snippet": "Deploy Doxygen (Latest)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-doxygen.yml",
+      "term": "Deploy Doxygen (Latest)"
+    },
+    {
+      "context_snippet": "\"Scan Build\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scan-build.yml",
+      "term": "Scan Build"
+    },
+    {
+      "context_snippet": "![Backport C++](doc/images/backport-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "backport"
+    },
+    {
+      "context_snippet": "![Backport C++](doc/images/backport-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "best-practices"
+    },
+    {
+      "context_snippet": "![Backport C++](doc/images/backport-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus-11"
+    },
+    {
+      "context_snippet": "![Backport C++](doc/images/backport-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus-14"
+    },
+    {
+      "context_snippet": "![Backport C++](doc/images/backport-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp11"
+    },
+    {
+      "context_snippet": "![Backport C++](doc/images/backport-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp14"
+    },
+    {
+      "context_snippet": "![Backport C++](doc/images/backport-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp17"
+    },
+    {
+      "context_snippet": "![Backport C++](doc/images/backport-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp20"
+    },
+    {
+      "context_snippet": "![Backport C++](doc/images/backport-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "header-only"
+    },
+    {
+      "context_snippet": "![Backport C++](doc/images/backport-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modern-cpp"
+    },
+    {
+      "context_snippet": "![Backport C++](doc/images/backport-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "no-dependencies"
+    },
+    {
+      "context_snippet": "![Backport C++](doc/images/backport-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optional"
+    },
+    {
+      "context_snippet": "![Backport C++](doc/images/backport-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "span"
+    },
+    {
+      "context_snippet": "![Backport C++](doc/images/backport-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standard-library"
+    },
+    {
+      "context_snippet": "![Backport C++](doc/images/backport-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standard-template-library"
+    },
+    {
+      "context_snippet": "![Backport C++](doc/images/backport-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "string-view"
+    },
+    {
+      "context_snippet": "![Backport C++](doc/images/backport-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template-metaprogramming"
+    },
+    {
+      "context_snippet": "![Backport C++](doc/images/backport-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "variant"
+    }
+  ]
+}

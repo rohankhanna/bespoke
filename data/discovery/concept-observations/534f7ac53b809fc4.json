@@ -48,7 +48,7 @@
   "normalized_form": "text-to-image",
   "observation_id": "534f7ac53b809fc4",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "text-to-image",
   "source_context_snippet": "torch deepspeed tqdm lmdb filelock sentencepiece mpi4py tensorboardX==1.8",
   "source_file": null,

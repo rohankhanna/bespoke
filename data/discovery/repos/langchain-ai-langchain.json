@@ -66,17 +66,17 @@
       "source_file": ".github/workflows/_release.yml"
     },
     {
-      "component": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/_release.yml"
-    },
-    {
       "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_release.yml"
     },
     {
       "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_release.yml"
     },
@@ -422,11 +422,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T00:49:26.382033+00:00",
+  "fetched_at": "2026-05-05T16:06:18.300492+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 5768
+      "size": 6046
     },
     {
       "path": ".github/workflows/_compile_integration_test.yml",
@@ -442,7 +442,7 @@
     },
     {
       "path": ".github/workflows/_release.yml",
-      "size": 29917
+      "size": 29918
     },
     {
       "path": ".github/workflows/_test.yml",
@@ -474,8 +474,8 @@
     "full_name": "langchain-ai/langchain",
     "html_url": "https://github.com/langchain-ai/langchain",
     "language": "Python",
-    "pushed_at": "2026-05-04T10:14:29Z",
-    "stargazers_count": 135774,
+    "pushed_at": "2026-05-05T15:58:19Z",
+    "stargazers_count": 135842,
     "topics": [
       "agents",
       "ai",
@@ -498,7 +498,7 @@
       "rag",
       "typescript"
     ],
-    "updated_at": "2026-05-05T00:45:31Z"
+    "updated_at": "2026-05-05T15:58:24Z"
   },
   "repo_links": [],
   "terms": [

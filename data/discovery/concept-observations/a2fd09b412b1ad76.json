@@ -120,7 +120,7 @@
   "normalized_form": "release",
   "observation_id": "a2fd09b412b1ad76",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "release",
   "source_context_snippet": "release",
   "source_file": ".github/workflows/release.yml",

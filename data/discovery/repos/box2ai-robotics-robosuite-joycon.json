@@ -1,0 +1,275 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yaml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-pypi.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-pypi.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-pypi.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-pypi.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-pypi.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "box2ai-robotics/robosuite-joycon",
+      "target": "deepmind/mujoco",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "box2ai-robotics/robosuite-joycon",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "box2ai-robotics/robosuite-joycon",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "box2ai-robotics/robosuite-joycon",
+      "target": "pre-commit/action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "box2ai-robotics/robosuite-joycon",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yaml",
+      "source_repo": "box2ai-robotics/robosuite-joycon",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yaml",
+      "source_repo": "box2ai-robotics/robosuite-joycon",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yaml",
+      "source_repo": "box2ai-robotics/robosuite-joycon",
+      "target": "run-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yaml",
+      "source_repo": "box2ai-robotics/robosuite-joycon",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yaml",
+      "source_repo": "box2ai-robotics/robosuite-joycon",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yaml",
+      "source_repo": "box2ai-robotics/robosuite-joycon",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-docs.yaml",
+      "source_repo": "box2ai-robotics/robosuite-joycon",
+      "target": "Update Docs and Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-pypi.yaml",
+      "source_repo": "box2ai-robotics/robosuite-joycon",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-pypi.yaml",
+      "source_repo": "box2ai-robotics/robosuite-joycon",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-pypi.yaml",
+      "source_repo": "box2ai-robotics/robosuite-joycon",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-pypi.yaml",
+      "source_repo": "box2ai-robotics/robosuite-joycon",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-pypi.yaml",
+      "source_repo": "box2ai-robotics/robosuite-joycon",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-pypi.yaml",
+      "source_repo": "box2ai-robotics/robosuite-joycon",
+      "target": "Publish to PyPI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T17:09:23.586878+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6788
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 338
+    },
+    {
+      "path": "requirements.txt",
+      "size": 5
+    },
+    {
+      "path": ".github/workflows/pre-commit.yaml",
+      "size": 232
+    },
+    {
+      "path": ".github/workflows/run-tests.yaml",
+      "size": 1940
+    },
+    {
+      "path": ".github/workflows/update-docs.yaml",
+      "size": 1664
+    },
+    {
+      "path": ".github/workflows/update-pypi.yaml",
+      "size": 1309
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "robosuite-joycon: A Modular Simulation Framework and Benchmark for Robot Learning add joycon controller",
+    "fork": true,
+    "full_name": "box2ai-robotics/robosuite-joycon",
+    "html_url": "https://github.com/box2ai-robotics/robosuite-joycon",
+    "language": "Python",
+    "pushed_at": "2025-03-23T08:42:42Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-04-29T04:20:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/mujoco",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "run-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yaml",
+      "term": "run-tests"
+    },
+    {
+      "context_snippet": "Update Docs and Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-docs.yaml",
+      "term": "Update Docs and Deploy"
+    },
+    {
+      "context_snippet": "Publish to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-pypi.yaml",
+      "term": "Publish to PyPI"
+    }
+  ]
+}

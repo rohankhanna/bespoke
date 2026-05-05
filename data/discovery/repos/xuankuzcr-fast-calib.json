@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T13:52:46.815394+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2136
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Handy Extrinsic Calibration Tool for LiDAR-camera Systems (e.g., FAST-LIVO2).",
+    "fork": true,
+    "full_name": "xuankuzcr/FAST-Calib",
+    "html_url": "https://github.com/xuankuzcr/FAST-Calib",
+    "language": null,
+    "pushed_at": "2025-04-20T10:56:06Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-04-06T18:01:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dkubb/adamantium",
+      "target": "dkubb/axiom",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:03:38.290728+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3605
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Create immutable objects",
+    "fork": false,
+    "full_name": "dkubb/adamantium",
+    "html_url": "https://github.com/dkubb/adamantium",
+    "language": "Ruby",
+    "pushed_at": "2026-03-19T20:10:12Z",
+    "stargazers_count": 368,
+    "topics": [],
+    "updated_at": "2026-04-07T13:47:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dkubb/axiom",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

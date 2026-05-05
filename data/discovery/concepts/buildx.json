@@ -55,6 +55,18 @@
       "source_repo": "docker/bake-action",
       "status": "candidate-context",
       "text": "[![GitHub release](https://img.shields.io/github/release/docker/bake-action.svg?style=flat-square)](https://github.com/docker/bake-action/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "status": "candidate-context",
+      "text": "Cross compilation helper for GoReleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "status": "candidate-context",
+      "text": "[![goreleaser-xx](.github/goreleaser-xx.png)](https://github.com/crazy-max/goreleaser-xx)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "docker/bake-action",
       "status": "candidate",
       "text": "[![GitHub release](https://img.shields.io/github/release/docker/bake-action.svg?style=flat-square)](https://github.com/docker/bake-action/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "status": "candidate",
+      "text": "[![goreleaser-xx](.github/goreleaser-xx.png)](https://github.com/crazy-max/goreleaser-xx)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "docker/bake-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "crazy-max/goreleaser-xx"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

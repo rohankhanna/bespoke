@@ -103,6 +103,18 @@
       "source_repo": "datvodinh/rag-chatbot",
       "status": "candidate-context",
       "text": "![alt text](assets/demo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/transfer-learning-conv-ai",
+      "status": "candidate-context",
+      "text": "\ud83e\udd84 State-of-the-Art Conversational AI with Transfer Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/transfer-learning-conv-ai",
+      "status": "candidate-context",
+      "text": "The present repo contains the code accompanying the blog post [\ud83e\udd84 How to build a State-of-the-Art Conversational AI with Transfer Learning](https://medium.com/@Thomwolf/how-to-build-a-state-of-the-art-conversational-ai-with-transfer-learning-2d818ac26313)."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "datvodinh/rag-chatbot",
       "status": "candidate",
       "text": "![alt text](assets/demo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/transfer-learning-conv-ai",
+      "status": "candidate",
+      "text": "The present repo contains the code accompanying the blog post [\ud83e\udd84 How to build a State-of-the-Art Conversational AI with Transfer Learning](https://medium.com/@Thomwolf/how-to-build-a-state-of-the-art-conversational-ai-with-transfer-learning-2d818ac26313)."
     }
   ],
   "candidate_related_terms": [
@@ -244,11 +262,17 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "datvodinh/rag-chatbot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/transfer-learning-conv-ai"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

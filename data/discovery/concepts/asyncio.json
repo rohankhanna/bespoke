@@ -307,6 +307,18 @@
       "source_repo": "HMaker/python-cdp",
       "status": "candidate-context",
       "text": "Python CDP Generator (shortened to PyCDP) is a library that provides"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aio-libs/aiorwlock",
+      "status": "candidate-context",
+      "text": "Read/Write Lock - synchronization primitive for asyncio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/aiorwlock",
+      "status": "candidate-context",
+      "text": "aiorwlock"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +471,12 @@
       "source_repo": "HMaker/python-cdp",
       "status": "candidate",
       "text": "Python CDP Generator (shortened to PyCDP) is a library that provides"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/aiorwlock",
+      "status": "candidate",
+      "text": "aiorwlock"
     }
   ],
   "candidate_related_terms": [],
@@ -802,11 +820,29 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "HMaker/python-cdp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "aio-libs/aiorwlock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

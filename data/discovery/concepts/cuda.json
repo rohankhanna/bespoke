@@ -1435,6 +1435,18 @@
       "source_repo": "inducer/pycuda",
       "status": "candidate-context",
       "text": "PyCUDA: Pythonic Access to CUDA, with Arrays and Algorithms"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "koide3/fast_gicp",
+      "status": "candidate-context",
+      "text": "A collection of GICP-based fast point cloud registration algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koide3/fast_gicp",
+      "status": "candidate-context",
+      "text": "We released [small_gicp](https://github.com/koide3/small_gicp) that is twice as fast as fast_gicp and with minimum dependencies and clean interfaces."
     }
   ],
   "candidate_glosses": [
@@ -2151,6 +2163,12 @@
       "source_repo": "inducer/pycuda",
       "status": "candidate",
       "text": "PyCUDA: Pythonic Access to CUDA, with Arrays and Algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koide3/fast_gicp",
+      "status": "candidate",
+      "text": "We released [small_gicp](https://github.com/koide3/small_gicp) that is twice as fast as fast_gicp and with minimum dependencies and clean interfaces."
     }
   ],
   "candidate_related_terms": [
@@ -3472,11 +3490,53 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "ROCm/hipBLAS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-Genomics-Research/GenomeWorks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "koide3/fast_gicp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SparseTransformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/hipBLAS"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

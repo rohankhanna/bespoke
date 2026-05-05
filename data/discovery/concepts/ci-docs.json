@@ -2,7 +2,8 @@
   "aliases": [
     "CI Docs",
     "CI-docs",
-    "CI docs"
+    "CI docs",
+    "CI (docs)"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -81,6 +82,18 @@
       "source_repo": "conda/conda-build",
       "status": "candidate-context",
       "text": "CI docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "status": "candidate-context",
+      "text": "Kimi Code CLI is your next CLI agent."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "status": "candidate-context",
+      "text": "CI (docs)"
     }
   ],
   "candidate_glosses": [
@@ -119,6 +132,12 @@
       "source_repo": "conda/conda-build",
       "status": "candidate",
       "text": "CI docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "status": "candidate",
+      "text": "CI (docs)"
     }
   ],
   "candidate_related_terms": [
@@ -156,6 +175,41 @@
       "score": 10457,
       "status": "candidate",
       "text": "madame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "fucus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "pasticcio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "thousand"
     }
   ],
   "candidate_synonyms": [],
@@ -198,11 +252,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "conda/conda-build"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/ci-docs.yml",
+      "source_repo": "MoonshotAI/kimi-cli"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "gaurav-nelson/github-action-markdown-link-check@1.0.13",
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/action.yml",
       "source_repo": "tendermint/spec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml",
+      "source_repo": "octopus-network/ibc-rs"
     }
   ]
 }

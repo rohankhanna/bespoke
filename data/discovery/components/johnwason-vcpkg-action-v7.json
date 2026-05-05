@@ -1,12 +1,17 @@
 {
   "component": "johnwason/vcpkg-action@v7",
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-legacy.yml",
       "source_repo": "stijnvdb88/Snap.Net"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "prove-rs/z3.rs"
     }
   ]
 }

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A colorscheme generator that is \"lite\" on logic for the developer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "* Use any of the built-in colorschemes using `:colorscheme`."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "* Use any of the built-in colorschemes using `:colorscheme`."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nvim",
+      "sense_id": "nvim#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nvim",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nvim",
+  "observation_id": "07a0919bd2372ed6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "nvim",
+  "source_context_snippet": "* Use any of the built-in colorschemes using `:colorscheme`.",
+  "source_file": null,
+  "source_repo": "Iron-E/nvim-highlite",
+  "source_repo_description": "A colorscheme generator that is \"lite\" on logic for the developer."
+}

@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pulse-browser/firefox-qr-generator",
+      "target": "davidshimjs/qrcodejs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pulse-browser/firefox-qr-generator",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pulse-browser/firefox-qr-generator",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pulse-browser/firefox-qr-generator",
+      "target": "Create Archive",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:56:09.937114+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 401
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 620
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A firefox-qr-generator extension available for creating a qr-code on the current website.",
+    "fork": false,
+    "full_name": "pulse-browser/firefox-qr-generator",
+    "html_url": "https://github.com/pulse-browser/firefox-qr-generator",
+    "language": "JavaScript",
+    "pushed_at": "2022-11-23T09:21:47Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-01-03T17:41:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davidshimjs/qrcodejs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create Archive",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Create Archive"
+    }
+  ]
+}

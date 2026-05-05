@@ -1,0 +1,258 @@
+{
+  "components": [
+    {
+      "component": "copyfiles",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-plugin-solidity",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "solhint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "solhint-plugin-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "onbjerg/foundry-toolchain@v1.0.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cleanunicorn/mockprovider",
+      "target": "copyfiles",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cleanunicorn/mockprovider",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cleanunicorn/mockprovider",
+      "target": "prettier-plugin-solidity",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cleanunicorn/mockprovider",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cleanunicorn/mockprovider",
+      "target": "solhint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cleanunicorn/mockprovider",
+      "target": "solhint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cleanunicorn/mockprovider",
+      "target": "onbjerg/foundry-toolchain@v1.0.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cleanunicorn/mockprovider",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cleanunicorn/mockprovider",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cleanunicorn/mockprovider",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanunicorn/mockprovider",
+      "target": "dapptools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanunicorn/mockprovider",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanunicorn/mockprovider",
+      "target": "forge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanunicorn/mockprovider",
+      "target": "foundry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanunicorn/mockprovider",
+      "target": "solidity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanunicorn/mockprovider",
+      "target": "test-driven-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanunicorn/mockprovider",
+      "target": "testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:49:53.419928+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5804
+    },
+    {
+      "path": "package.json",
+      "size": 753
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 699
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Solidity mocking provider for testing ",
+    "fork": false,
+    "full_name": "cleanunicorn/mockprovider",
+    "html_url": "https://github.com/cleanunicorn/mockprovider",
+    "language": "Solidity",
+    "pushed_at": "2022-08-04T13:14:29Z",
+    "stargazers_count": 62,
+    "topics": [
+      "dapptools",
+      "ethereum",
+      "forge",
+      "foundry",
+      "solidity",
+      "test-driven-development",
+      "testing"
+    ],
+    "updated_at": "2025-08-12T05:11:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "A library for mocking Solidity contracts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dapptools"
+    },
+    {
+      "context_snippet": "A library for mocking Solidity contracts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "A library for mocking Solidity contracts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "forge"
+    },
+    {
+      "context_snippet": "A library for mocking Solidity contracts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foundry"
+    },
+    {
+      "context_snippet": "A library for mocking Solidity contracts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "solidity"
+    },
+    {
+      "context_snippet": "A library for mocking Solidity contracts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test-driven-development"
+    },
+    {
+      "context_snippet": "A library for mocking Solidity contracts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    }
+  ]
+}

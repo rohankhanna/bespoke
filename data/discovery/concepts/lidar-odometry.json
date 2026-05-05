@@ -55,6 +55,18 @@
       "source_repo": "TixiaoShan/imaging_lidar_place_recognition",
       "status": "candidate-context",
       "text": "A place recognition package using high-resolution imaging lidar. For best performance, a lidar equipped with more than 64 uniformly distributed channels is strongly recommended, i.e., [Ouster OS1-128 lidar](https://ouster.com/products/os1-lidar-sensor/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry",
+      "status": "candidate-context",
+      "text": "[IEEE ICRA'23] A new lightweight LiDAR-inertial odometry algorithm with a novel coarse-to-fine approach in constructing continuous-time trajectories for precise motion correction."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry",
+      "status": "candidate-context",
+      "text": "DLIO is a new lightweight LiDAR-inertial odometry algorithm with a novel coarse-to-fine approach in constructing continuous-time trajectories for precise motion correction. It features several algorithmic improvements over its predecessor, [DLO](https://github.com/vectr-ucla/dir\u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "TixiaoShan/imaging_lidar_place_recognition",
       "status": "candidate",
       "text": "A place recognition package using high-resolution imaging lidar. For best performance, a lidar equipped with more than 64 uniformly distributed channels is strongly recommended, i.e., [Ouster OS1-128 lidar](https://ouster.com/products/os1-lidar-sensor/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry",
+      "status": "candidate",
+      "text": "DLIO is a new lightweight LiDAR-inertial odometry algorithm with a novel coarse-to-fine approach in constructing continuous-time trajectories for precise motion correction. It features several algorithmic improvements over its predecessor, [DLO](https://github.com/vectr-ucla/dir\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "TixiaoShan/imaging_lidar_place_recognition"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry"
     }
   ],
   "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

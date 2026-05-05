@@ -2080,6 +2080,30 @@
       "source_repo": "square/retrofit",
       "status": "candidate-context",
       "text": "Retrofit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alex313031/Thorium-Android",
+      "status": "candidate-context",
+      "text": "Thorium builds for Android (arm64 and arm32)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/Thorium-Android",
+      "status": "candidate-context",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-android?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-android?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/gi\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bromite/bromite",
+      "status": "candidate-context",
+      "text": "Bromite is a Chromium fork with ad blocking and privacy enhancements; take back your browser!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bromite/bromite",
+      "status": "candidate-context",
+      "text": "[![Stand With Ukraine](./banner2-direct.svg)](https://stand-with-ukraine.pp.ua/)"
     }
   ],
   "candidate_glosses": [
@@ -3138,6 +3162,18 @@
       "source_repo": "square/retrofit",
       "status": "candidate",
       "text": "Retrofit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/Thorium-Android",
+      "status": "candidate",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-android?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-android?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/gi\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bromite/bromite",
+      "status": "candidate",
+      "text": "[![Stand With Ukraine](./banner2-direct.svg)](https://stand-with-ukraine.pp.ua/)"
     }
   ],
   "candidate_related_terms": [
@@ -4792,11 +4828,59 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "snapcast/snapdroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/android-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "nitaliano/react-native-mapbox-gl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "bromite/bromite"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

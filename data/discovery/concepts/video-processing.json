@@ -139,6 +139,18 @@
       "source_repo": "Breakthrough/PySceneDetect",
       "status": "candidate-context",
       "text": "![PySceneDetect](https://raw.githubusercontent.com/Breakthrough/PySceneDetect/main/website/pages/img/pyscenedetect_logo_small.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Zulko/moviepy",
+      "status": "candidate-context",
+      "text": "Video editing with Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zulko/moviepy",
+      "status": "candidate-context",
+      "text": "[![MoviePy page on the Python Package Index](https://badge.fury.io/py/moviepy.svg)](https://pypi.org/project/moviepy/) [![Discuss MoviePy on Gitter](https://img.shields.io/gitter/room/movie-py/gitter?color=46BC99&logo=gitter)](Gitter_) [![Build status on gh-actions](https://img.\u2026"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "Breakthrough/PySceneDetect",
       "status": "candidate",
       "text": "![PySceneDetect](https://raw.githubusercontent.com/Breakthrough/PySceneDetect/main/website/pages/img/pyscenedetect_logo_small.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zulko/moviepy",
+      "status": "candidate",
+      "text": "[![MoviePy page on the Python Package Index](https://badge.fury.io/py/moviepy.svg)](https://pypi.org/project/moviepy/) [![Discuss MoviePy on Gitter](https://img.shields.io/gitter/room/movie-py/gitter?color=46BC99&logo=gitter)](Gitter_) [![Build status on gh-actions](https://img.\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -364,11 +382,23 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Zulko/moviepy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

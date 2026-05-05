@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Base Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/FastDeploy",
+      "status": "candidate-context",
+      "text": "High-performance Inference and Deployment Toolkit for LLMs and VLMs based on PaddlePaddle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/FastDeploy",
+      "status": "candidate-context",
+      "text": "Base Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/FastDeploy",
+      "status": "candidate",
+      "text": "Base Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28071,
+      "status": "candidate",
+      "text": "litmus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28007,
+      "status": "candidate",
+      "text": "shroff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27976,
+      "status": "candidate",
+      "text": "spaceport"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11671,
+      "status": "candidate",
+      "text": "ban"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11671,
+      "status": "candidate",
+      "text": "check"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Base Test",
+  "concept_id": "base-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/_base_test.yml",
+      "source_repo": "PaddlePaddle/FastDeploy"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Base Test",
+      "sense_id": "base-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

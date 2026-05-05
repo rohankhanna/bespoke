@@ -11,28 +11,28 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "foundry-rs/forge-std",
-      "target": "foundry-rs/foundry-toolchain@8789b3e21e6c11b2697f5eb56eddae542f746c10",
+      "target": "foundry-rs/foundry-toolchain@c7450ba673e133f5ee30098b3b54f444d3a2ca2d",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "foundry-rs/forge-std",
-      "target": "crate-ci/typos@cf5f1c29a8ac336af8568821ec41919923b05a83",
+      "target": "crate-ci/typos@7c572958218557a3272c2d6719629443b5cc26fd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "foundry-rs/forge-std",
-      "target": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "foundry-rs/forge-std",
-      "target": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
       "target_type": "component"
     },
     {
@@ -99,6 +99,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
   "source_repo": "foundry-rs/forge-std"
 }

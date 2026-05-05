@@ -152,6 +152,30 @@
       "source_repo": "simonpoole/OpeningHoursFragment",
       "status": "candidate-context",
       "text": "Android CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapsforge/vtm",
+      "status": "candidate-context",
+      "text": "OpenGL vector map library - running on Android, iOS, Desktop and browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapsforge/vtm",
+      "status": "candidate-context",
+      "text": "Android CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapsforge/mapsforge",
+      "status": "candidate-context",
+      "text": "Vector map library and writer - running on Android and Desktop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapsforge/mapsforge",
+      "status": "candidate-context",
+      "text": "Android CI"
     }
   ],
   "candidate_glosses": [
@@ -224,6 +248,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "simonpoole/OpeningHoursFragment",
+      "status": "candidate",
+      "text": "Android CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapsforge/vtm",
+      "status": "candidate",
+      "text": "Android CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapsforge/mapsforge",
       "status": "candidate",
       "text": "Android CI"
     }
@@ -419,11 +455,29 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/android.yml",
       "source_repo": "KhronosGroup/KTX-Software"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "mapsforge/vtm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "KhronosGroup/KTX-Software"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "mapsforge/mapsforge"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

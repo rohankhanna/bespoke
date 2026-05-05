@@ -22,13 +22,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "InternScience/GraphGen",
-      "target": "tpoisonooo/rograg",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "InternScience/GraphGen",
@@ -225,6 +218,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-05T06:54:34.093705+00:00",
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
   "source_repo": "InternScience/GraphGen"
 }

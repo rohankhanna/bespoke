@@ -1,7 +1,7 @@
 {
   "component": "pre-commit/action@v3.0.1",
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -662,6 +662,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pre-commit.yml",
       "source_repo": "ai-dynamo/aiperf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/static-analysis.yml",
+      "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "nobleo/rviz_satellite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "astroyat/lerobot"
     }
   ]
 }

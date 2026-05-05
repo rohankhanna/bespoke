@@ -84,7 +84,7 @@
   "normalized_form": "static-site-ci",
   "observation_id": "e75ca62eac1d0fd5",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Static Site CI",
   "source_context_snippet": "Static Site CI",
   "source_file": ".github/workflows/site.yml",

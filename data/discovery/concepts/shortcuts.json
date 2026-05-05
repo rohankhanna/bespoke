@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "shortcuts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lace/vg",
+      "status": "candidate-context",
+      "text": "Vector-geometry toolbelt for 3D points and vectors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/vg",
+      "status": "candidate-context",
+      "text": "vg"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/vg",
+      "status": "candidate",
+      "text": "vg"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10010760,
+      "status": "candidate",
+      "text": "crosscut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9999510,
+      "status": "candidate",
+      "text": "cutoff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25002,
+      "status": "candidate",
+      "text": "abbreviations"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25002,
+      "status": "candidate",
+      "text": "accesses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25002,
+      "status": "candidate",
+      "text": "combinations"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "shortcuts",
+  "concept_id": "shortcuts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "lace/vg"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "shortcuts",
+      "sense_id": "shortcuts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

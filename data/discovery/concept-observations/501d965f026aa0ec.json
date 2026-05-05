@@ -48,7 +48,7 @@
   "normalized_form": "prompt-injection-llm-security",
   "observation_id": "501d965f026aa0ec",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "prompt-injection-llm-security",
   "source_context_snippet": "[![ci](https://github.com/vaporif/parry-guard/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/vaporif/parry-guard/actions/workflows/ci.yml)",
   "source_file": null,

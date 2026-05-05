@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Clang Tidy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libcpr/cpr",
+      "status": "candidate-context",
+      "text": "C++ Requests: Curl for People, a spiritual port of Python Requests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libcpr/cpr",
+      "status": "candidate-context",
+      "text": "\"Test Clang Tidy\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libcpr/cpr",
+      "status": "candidate",
+      "text": "\"Test Clang Tidy\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14197,
+      "status": "candidate",
+      "text": "clash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13464,
+      "status": "candidate",
+      "text": "bang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13464,
+      "status": "candidate",
+      "text": "ding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13464,
+      "status": "candidate",
+      "text": "rhythm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13098,
+      "status": "candidate",
+      "text": "dummy"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Clang Tidy",
+  "concept_id": "test-clang-tidy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "libcpr/cpr"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Clang Tidy",
+      "sense_id": "test-clang-tidy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

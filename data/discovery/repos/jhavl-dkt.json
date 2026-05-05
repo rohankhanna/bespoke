@@ -1,0 +1,166 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhavl/dkt",
+      "target": "hessian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhavl/dkt",
+      "target": "inverse-kinematics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhavl/dkt",
+      "target": "jacobian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhavl/dkt",
+      "target": "kinematics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhavl/dkt",
+      "target": "manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhavl/dkt",
+      "target": "robot-manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhavl/dkt",
+      "target": "robot-manipulator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhavl/dkt",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhavl/dkt",
+      "target": "robotics-control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhavl/dkt",
+      "target": "robotics-simulation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T17:09:24.713074+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Tutorial on Manipulator Differential Kinematics",
+    "fork": false,
+    "full_name": "jhavl/dkt",
+    "html_url": "https://github.com/jhavl/dkt",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-07-27T21:05:31Z",
+    "stargazers_count": 556,
+    "topics": [
+      "hessian",
+      "inverse-kinematics",
+      "jacobian",
+      "kinematics",
+      "manipulation",
+      "python",
+      "robot-manipulation",
+      "robot-manipulator",
+      "robotics",
+      "robotics-control",
+      "robotics-simulation"
+    ],
+    "updated_at": "2026-04-24T09:26:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A Tutorial on Manipulator Differential Kinematics",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hessian"
+    },
+    {
+      "context_snippet": "A Tutorial on Manipulator Differential Kinematics",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inverse-kinematics"
+    },
+    {
+      "context_snippet": "A Tutorial on Manipulator Differential Kinematics",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jacobian"
+    },
+    {
+      "context_snippet": "A Tutorial on Manipulator Differential Kinematics",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kinematics"
+    },
+    {
+      "context_snippet": "A Tutorial on Manipulator Differential Kinematics",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manipulation"
+    },
+    {
+      "context_snippet": "A Tutorial on Manipulator Differential Kinematics",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robot-manipulation"
+    },
+    {
+      "context_snippet": "A Tutorial on Manipulator Differential Kinematics",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robot-manipulator"
+    },
+    {
+      "context_snippet": "A Tutorial on Manipulator Differential Kinematics",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "A Tutorial on Manipulator Differential Kinematics",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics-control"
+    },
+    {
+      "context_snippet": "A Tutorial on Manipulator Differential Kinematics",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics-simulation"
+    }
+  ]
+}

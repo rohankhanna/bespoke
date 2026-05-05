@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Utilities for working with native solc and compiling projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Archived as a standalone repository. Maintenance and publishing continue from [`foundry-core`](https://github.com/foundry-rs/foundry-core) under the same [`foundry-compilers`](https://crates.io/crates/foundry-compilers) crate name."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Archived as a standalone repository. Maintenance and publishing continue from [`foundry-core`](https://github.com/foundry-rs/foundry-core) under the same [`foundry-compilers`](https://crates.io/crates/foundry-compilers) crate name."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "solc",
+      "sense_id": "solc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "solc",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "solc",
+  "observation_id": "14ce3bb7055d423e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "solc",
+  "source_context_snippet": "Archived as a standalone repository. Maintenance and publishing continue from [`foundry-core`](https://github.com/foundry-rs/foundry-core) under the same [`foundry-compilers`](https://crates.io/crates/foundry-compilers) crate name.",
+  "source_file": null,
+  "source_repo": "foundry-rs/compilers",
+  "source_repo_description": "Utilities for working with native solc and compiling projects."
+}

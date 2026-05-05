@@ -106,6 +106,18 @@
       "source_repo": "redisson/redisson",
       "status": "candidate-context",
       "text": "[Quick start](https://redisson.org/docs/getting-started/) | [Documentation](https://redisson.org/docs/) | [Changelog](https://github.com/redisson/redisson/blob/master/CHANGELOG.md) | [Code examples](https://github.com/redisson/redisson-examples) | [JavaDocs](https://www.javadoc.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aio-libs/aiorwlock",
+      "status": "candidate-context",
+      "text": "Read/Write Lock - synchronization primitive for asyncio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/aiorwlock",
+      "status": "candidate-context",
+      "text": "aiorwlock"
     }
   ],
   "candidate_glosses": [
@@ -156,6 +168,12 @@
       "source_repo": "redisson/redisson",
       "status": "candidate",
       "text": "[Quick start](https://redisson.org/docs/getting-started/) | [Documentation](https://redisson.org/docs/) | [Changelog](https://github.com/redisson/redisson/blob/master/CHANGELOG.md) | [Code examples](https://github.com/redisson/redisson-examples) | [JavaDocs](https://www.javadoc.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/aiorwlock",
+      "status": "candidate",
+      "text": "aiorwlock"
     }
   ],
   "candidate_related_terms": [
@@ -283,11 +301,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "redisson/redisson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "aio-libs/aiorwlock"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

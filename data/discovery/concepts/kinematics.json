@@ -67,6 +67,42 @@
       "source_repo": "stack-of-tasks/pinocchio",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "status": "candidate-context",
+      "text": "Robotics Toolbox for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "status": "candidate-context",
+      "text": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhavl/dkt",
+      "status": "candidate-context",
+      "text": "A Tutorial on Manipulator Differential Kinematics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhavl/dkt",
+      "status": "candidate-context",
+      "text": "A Tutorial on Manipulator Differential Kinematics"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "status": "candidate-context",
+      "text": "Robotics Toolbox for MATLAB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/petercorke/robotics-toolbox-matlab.svg?branch=master)](https://travis-ci.com/petercorke/robotics-toolbox-matlab)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "stack-of-tasks/pinocchio",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "status": "candidate",
+      "text": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhavl/dkt",
+      "status": "candidate",
+      "text": "A Tutorial on Manipulator Differential Kinematics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/petercorke/robotics-toolbox-matlab.svg?branch=master)](https://travis-ci.com/petercorke/robotics-toolbox-matlab)"
     }
   ],
   "candidate_related_terms": [
@@ -214,11 +268,35 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "gbionics/jaxsim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "jhavl/dkt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-matlab"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

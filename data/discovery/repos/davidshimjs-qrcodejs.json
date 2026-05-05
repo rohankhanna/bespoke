@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T16:05:00.910013+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1096
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cross-browser QRCode generator for javascript",
+    "fork": false,
+    "full_name": "davidshimjs/qrcodejs",
+    "html_url": "https://github.com/davidshimjs/qrcodejs",
+    "language": "JavaScript",
+    "pushed_at": "2024-05-01T10:44:40Z",
+    "stargazers_count": 14275,
+    "topics": [],
+    "updated_at": "2026-05-05T12:38:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

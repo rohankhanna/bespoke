@@ -1693,6 +1693,30 @@
       "source_repo": "kevinhwang91/nvim-ufo",
       "status": "candidate-context",
       "text": "The goal of nvim-ufo is to make Neovim's fold look modern and keep high performance."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MisanthropicBit/neotest-busted",
+      "status": "candidate-context",
+      "text": "Neotest adapter for running busted tests using neovim as a lua interpreter "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MisanthropicBit/neotest-busted",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Iron-E/nvim-highlite",
+      "status": "candidate-context",
+      "text": "A colorscheme generator that is \"lite\" on logic for the developer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Iron-E/nvim-highlite",
+      "status": "candidate-context",
+      "text": "* Use any of the built-in colorschemes using `:colorscheme`."
     }
   ],
   "candidate_glosses": [
@@ -2541,6 +2565,18 @@
       "source_repo": "kevinhwang91/nvim-ufo",
       "status": "candidate",
       "text": "The goal of nvim-ufo is to make Neovim's fold look modern and keep high performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MisanthropicBit/neotest-busted",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Iron-E/nvim-highlite",
+      "status": "candidate",
+      "text": "* Use any of the built-in colorschemes using `:colorscheme`."
     }
   ],
   "candidate_related_terms": [],
@@ -4210,11 +4246,83 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/dashboard-nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/lspsaga.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "famiu/feline.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.deps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-config.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "MisanthropicBit/neotest-busted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Iron-E/nvim-highlite"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

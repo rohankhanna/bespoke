@@ -1327,6 +1327,18 @@
       "source_repo": "mmark-md/flycheck-mmark",
       "status": "candidate-context",
       "text": "[![License GPL 3](https://img.shields.io/badge/license-GPL_3-green.svg)](http://www.gnu.org/licenses/gpl-3.0.txt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fletcher/MultiMarkdown-6",
+      "status": "candidate-context",
+      "text": "This project is now deprecated.  Please use MultiMarkdown-7 instead!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fletcher/MultiMarkdown-6",
+      "status": "candidate-context",
+      "text": "| | |"
     }
   ],
   "candidate_glosses": [
@@ -1989,6 +2001,12 @@
       "source_repo": "mmark-md/flycheck-mmark",
       "status": "candidate",
       "text": "[![License GPL 3](https://img.shields.io/badge/license-GPL_3-green.svg)](http://www.gnu.org/licenses/gpl-3.0.txt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fletcher/MultiMarkdown-6",
+      "status": "candidate",
+      "text": "| | |"
     }
   ],
   "candidate_related_terms": [
@@ -3028,11 +3046,47 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "mixmark-io/turndown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "fletcher/MultiMarkdown-6"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "mixmark-io/turndown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "preservim/vim-markdown"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -103,6 +103,18 @@
       "source_repo": "python-telegram-bot/python-telegram-bot",
       "status": "candidate-context",
       "text": ".. image:: https://raw.githubusercontent.com/python-telegram-bot/logos/master/logo-text/png/ptb-logo-text_768.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazy-max/diun",
+      "status": "candidate-context",
+      "text": "Receive notifications when an image is updated on a Docker registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/diun",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://crazymax.dev/diun/\" target=\"_blank\"><img height=\"128\" src=\"https://raw.githubusercontent.com/crazy-max/diun/master/.res/diun.png\"></a></p>"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "python-telegram-bot/python-telegram-bot",
       "status": "candidate",
       "text": ".. image:: https://raw.githubusercontent.com/python-telegram-bot/logos/master/logo-text/png/ptb-logo-text_768.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/diun",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://crazymax.dev/diun/\" target=\"_blank\"><img height=\"128\" src=\"https://raw.githubusercontent.com/crazy-max/diun/master/.res/diun.png\"></a></p>"
     }
   ],
   "candidate_related_terms": [
@@ -336,11 +354,23 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "Borodutch/telegram-bot-starter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Borodutch/telegram-bot-starter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "crazy-max/diun"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

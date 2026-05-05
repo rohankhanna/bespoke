@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Receive notifications when an image is updated on a Docker registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\"><a href=\"https://crazymax.dev/diun/\" target=\"_blank\"><img height=\"128\" src=\"https://raw.githubusercontent.com/crazy-max/diun/master/.res/diun.png\"></a></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://crazymax.dev/diun/\" target=\"_blank\"><img height=\"128\" src=\"https://raw.githubusercontent.com/crazy-max/diun/master/.res/diun.png\"></a></p>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rocketchat",
+      "sense_id": "rocketchat#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rocketchat",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rocketchat",
+  "observation_id": "349035f8f617e5c2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "rocketchat",
+  "source_context_snippet": "<p align=\"center\"><a href=\"https://crazymax.dev/diun/\" target=\"_blank\"><img height=\"128\" src=\"https://raw.githubusercontent.com/crazy-max/diun/master/.res/diun.png\"></a></p>",
+  "source_file": null,
+  "source_repo": "crazy-max/diun",
+  "source_repo_description": "Receive notifications when an image is updated on a Docker registry"
+}

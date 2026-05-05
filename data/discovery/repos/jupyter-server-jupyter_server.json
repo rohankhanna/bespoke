@@ -156,6 +156,11 @@
       "source_file": ".github/workflows/publish-release.yml"
     },
     {
+      "component": "zulip/github-actions-zulip/send-message@08b6fbd07f5834e5b930a85bc7740e9fd44ab2e7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml"
+    },
+    {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-tests.yml"
@@ -453,6 +458,13 @@
       "target_type": "component"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "jupyter-server/jupyter_server",
+      "target": "zulip/github-actions-zulip/send-message@08b6fbd07f5834e5b930a85bc7740e9fd44ab2e7",
+      "target_type": "component"
+    },
+    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/publish-release.yml",
       "source_repo": "jupyter-server/jupyter_server",
@@ -537,7 +549,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T00:45:33.404316+00:00",
+  "fetched_at": "2026-05-05T16:02:58.316818+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -569,7 +581,7 @@
     },
     {
       "path": ".github/workflows/publish-release.yml",
-      "size": 1798
+      "size": 2487
     },
     {
       "path": ".github/workflows/python-tests.yml",
@@ -585,13 +597,13 @@
     "full_name": "jupyter-server/jupyter_server",
     "html_url": "https://github.com/jupyter-server/jupyter_server",
     "language": "Python",
-    "pushed_at": "2026-05-04T19:11:49Z",
+    "pushed_at": "2026-05-05T13:55:39Z",
     "stargazers_count": 558,
     "topics": [
       "jupyter",
       "server"
     ],
-    "updated_at": "2026-05-04T13:39:19Z"
+    "updated_at": "2026-05-05T13:55:58Z"
   },
   "repo_links": [],
   "terms": [

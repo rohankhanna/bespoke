@@ -1039,6 +1039,18 @@
       "source_repo": "Cysharp/RuntimeUnitTestToolkit",
       "status": "candidate-context",
       "text": "RuntimeUnitTestToolkit(v2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "undreamai/LlamaLib",
+      "status": "candidate-context",
+      "text": "Cross-Platform High-Level LLM Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "undreamai/LlamaLib",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1557,6 +1569,12 @@
       "source_repo": "Cysharp/RuntimeUnitTestToolkit",
       "status": "candidate",
       "text": "RuntimeUnitTestToolkit(v2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "undreamai/LlamaLib",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -2158,11 +2176,23 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "Cysharp/RuntimeUnitTestToolkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "undreamai/LlamaLib"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

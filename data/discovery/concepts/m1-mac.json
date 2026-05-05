@@ -19,6 +19,18 @@
       "source_repo": "narugit/smctemp",
       "status": "candidate-context",
       "text": "Print CPU and GPU temperatures on macOS."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alex313031/Thorium-MacOS",
+      "status": "candidate-context",
+      "text": "Thorium builds for MacOS (arm64 and x64)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/Thorium-MacOS",
+      "status": "candidate-context",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-macos?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-macos?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "narugit/smctemp",
       "status": "candidate",
       "text": "Print CPU and GPU temperatures on macOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/Thorium-MacOS",
+      "status": "candidate",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-macos?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-macos?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "narugit/smctemp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-MacOS"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

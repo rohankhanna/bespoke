@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/clang-tidy.yml",
       "source_repo": "aws/aws-sdk-cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy-check.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation"
     }
   ],
   "term": "clang-tidy-check"

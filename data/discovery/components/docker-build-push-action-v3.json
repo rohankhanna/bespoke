@@ -1,7 +1,7 @@
 {
   "component": "docker/build-push-action@v3",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -327,6 +327,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker.yaml",
       "source_repo": "OwO-Network/DeepLX"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cw-metric-stream-exporter-docker.yml",
+      "source_repo": "aws-observability/observability-best-practices"
     }
   ]
 }

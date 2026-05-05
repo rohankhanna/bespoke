@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rust By Example \u4e2d\u6587\u7248(\u5305\u542b\u5728\u7ebf\u4ee3\u7801\u7f16\u8f91\u5668)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Build Status](https://github.com/rust-lang-cn/rust-by-example-cn/workflows/CI/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/rust-lang-cn/rust-by-example-cn/workflows/CI/badge.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rust-by-example",
+      "sense_id": "rust-by-example#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rust-by-example",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rust-by-example",
+  "observation_id": "c043e655968043c6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "rust-by-example",
+  "source_context_snippet": "![Build Status](https://github.com/rust-lang-cn/rust-by-example-cn/workflows/CI/badge.svg)",
+  "source_file": null,
+  "source_repo": "rust-lang-cn/rust-by-example-cn",
+  "source_repo_description": "Rust By Example \u4e2d\u6587\u7248(\u5305\u542b\u5728\u7ebf\u4ee3\u7801\u7f16\u8f91\u5668)"
+}

@@ -1,0 +1,200 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-Android",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-Android",
+      "target": "arm32",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-Android",
+      "target": "arm64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-Android",
+      "target": "chromium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-Android",
+      "target": "content-shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-Android",
+      "target": "jpeg-xl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-Android",
+      "target": "jpegxl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-Android",
+      "target": "libjxl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-Android",
+      "target": "neon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-Android",
+      "target": "thorium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-Android",
+      "target": "thorium-browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-Android",
+      "target": "web-browser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:55:43.665061+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1076
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Thorium builds for Android (arm64 and arm32).",
+    "fork": false,
+    "full_name": "Alex313031/Thorium-Android",
+    "html_url": "https://github.com/Alex313031/Thorium-Android",
+    "language": null,
+    "pushed_at": "2026-02-25T15:32:41Z",
+    "stargazers_count": 732,
+    "topics": [
+      "android",
+      "arm",
+      "arm32",
+      "arm64",
+      "chromium",
+      "content-shell",
+      "jpeg-xl",
+      "jpegxl",
+      "jxl",
+      "libjxl",
+      "neon",
+      "thorium",
+      "thorium-browser",
+      "web-browser"
+    ],
+    "updated_at": "2026-05-05T03:41:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-android?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-android?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/gi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-android?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-android?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/gi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arm32"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-android?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-android?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/gi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arm64"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-android?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-android?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/gi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromium"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-android?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-android?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/gi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "content-shell"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-android?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-android?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/gi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jpeg-xl"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-android?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-android?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/gi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jpegxl"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-android?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-android?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/gi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libjxl"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-android?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-android?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/gi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neon"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-android?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-android?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/gi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thorium"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-android?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-android?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/gi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thorium-browser"
+    },
+    {
+      "context_snippet": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-android?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-android?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/gi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-browser"
+    }
+  ]
+}

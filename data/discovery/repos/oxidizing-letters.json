@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oxidizing/letters",
+      "target": "ocsigen/lwt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oxidizing/letters",
+      "target": "mirage/colombe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oxidizing/letters",
+      "target": "dinosaure/facteur",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "oxidizing/letters",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "oxidizing/letters",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "oxidizing/letters",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:57:23.404135+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9486
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1446
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Letters is an OCaml library for creating and sending emails over SMTP using LWT",
+    "fork": false,
+    "full_name": "oxidizing/letters",
+    "html_url": "https://github.com/oxidizing/letters",
+    "language": "OCaml",
+    "pushed_at": "2025-01-14T18:17:42Z",
+    "stargazers_count": 56,
+    "topics": [],
+    "updated_at": "2026-04-18T15:23:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dinosaure/facteur",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mirage/colombe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ocsigen/lwt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

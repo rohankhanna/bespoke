@@ -391,6 +391,18 @@
       "source_repo": "whatwg/fs",
       "status": "candidate-context",
       "text": "This repository hosts the [File System Standard](https://fs.spec.whatwg.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alex313031/TrImLy",
+      "status": "candidate-context",
+      "text": "fstrim automator and defrag script for ChomiumOS "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/TrImLy",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/Alex313031/TrImLy/main/trimly.svg\" width=\"128\">"
     }
   ],
   "candidate_glosses": [
@@ -585,6 +597,12 @@
       "source_repo": "whatwg/fs",
       "status": "candidate",
       "text": "This repository hosts the [File System Standard](https://fs.spec.whatwg.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/TrImLy",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/Alex313031/TrImLy/main/trimly.svg\" width=\"128\">"
     }
   ],
   "candidate_related_terms": [
@@ -922,11 +940,35 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "littlefs-project/ramrsbd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "littlefs-project/littlefs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "littlefs-project/ramrsbd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "littlefs-project/ramcrc32bd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/TrImLy"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

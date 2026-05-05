@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "standard-template-library"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "status": "candidate-context",
+      "text": "Library of backported modern C++ types to work with C++11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "status": "candidate-context",
+      "text": "![Backport C++](doc/images/backport-logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "status": "candidate",
+      "text": "![Backport C++](doc/images/backport-logo.png)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "standard-template-library",
+  "concept_id": "standard-template-library",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "bitwizeshift/BackportCpp"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "standard-template-library",
+      "sense_id": "standard-template-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

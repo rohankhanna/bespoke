@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JettHu/ComfyUI-TCD",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JettHu/ComfyUI-TCD",
+      "target": "jabir-zheng/tcd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JettHu/ComfyUI-TCD",
+      "target": "tencentqqgylab/comfyui-ella",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JettHu/ComfyUI-TCD",
+      "target": "comfyui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JettHu/ComfyUI-TCD",
+      "target": "comfyui-nodes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JettHu/ComfyUI-TCD",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JettHu/ComfyUI-TCD",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T15:02:17.330691+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4301
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1327
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ComfyUI TCD implementation",
+    "fork": false,
+    "full_name": "JettHu/ComfyUI-TCD",
+    "html_url": "https://github.com/JettHu/ComfyUI-TCD",
+    "language": "Python",
+    "pushed_at": "2026-01-06T02:24:08Z",
+    "stargazers_count": 141,
+    "topics": [
+      "comfyui",
+      "comfyui-nodes",
+      "diffusion",
+      "stable-diffusion",
+      "tcd"
+    ],
+    "updated_at": "2026-04-28T11:48:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jabir-zheng/tcd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencentqqgylab/comfyui-ella",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui-nodes"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    }
+  ]
+}

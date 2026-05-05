@@ -4,21 +4,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-deep-research-model",
+      "target": "danielrosehill/claude-development-agents",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-decision-evaluation-framework-plugin",
+      "target": "danielrosehill/claude-digital-evidence-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-declutter-genie-plugin",
+      "target": "danielrosehill/claude-digital-printing-plugin",
       "target_type": "repository"
     },
     {
@@ -57,6 +57,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-05T00:36:37.683079+00:00",
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
   "source_repo": "danielrosehill/Claude-Code-Projects-Index"
 }

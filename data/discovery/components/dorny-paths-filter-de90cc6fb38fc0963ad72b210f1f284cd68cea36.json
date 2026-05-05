@@ -1,7 +1,7 @@
 {
   "component": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -167,6 +167,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "left-curve/left-curve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "kubernetes/ingress-nginx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "kubernetes/ingress-nginx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/images.yaml",
+      "source_repo": "kubernetes/ingress-nginx"
     }
   ]
 }

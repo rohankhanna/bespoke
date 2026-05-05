@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cw-metric-stream-exporter-docker.yml",
+      "source_repo": "aws-observability/observability-best-practices",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cw-metric-stream-exporter-docker.yml",
+      "source_repo": "aws-observability/observability-best-practices",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cw-metric-stream-exporter-docker.yml",
+      "source_repo": "aws-observability/observability-best-practices",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cw-metric-stream-exporter-docker.yml",
+      "source_repo": "aws-observability/observability-best-practices",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cw-metric-stream-exporter-docker.yml",
+      "source_repo": "aws-observability/observability-best-practices",
+      "target": "docker/build-push-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cw-metric-stream-exporter-docker.yml",
+      "source_repo": "aws-observability/observability-best-practices",
+      "target": "CWMetricStreamExporter - Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cw-metric-stream-exporter-go.yaml",
+      "source_repo": "aws-observability/observability-best-practices",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cw-metric-stream-exporter-go.yaml",
+      "source_repo": "aws-observability/observability-best-practices",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cw-metric-stream-exporter-go.yaml",
+      "source_repo": "aws-observability/observability-best-practices",
+      "target": "CWMetricStreamExporter - Go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-ci.yaml",
+      "source_repo": "aws-observability/observability-best-practices",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-ci.yaml",
+      "source_repo": "aws-observability/observability-best-practices",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-ci.yaml",
+      "source_repo": "aws-observability/observability-best-practices",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yaml",
+      "source_repo": "aws-observability/observability-best-practices",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yaml",
+      "source_repo": "aws-observability/observability-best-practices",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "aws-observability/observability-best-practices"
+}

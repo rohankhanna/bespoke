@@ -5,32 +5,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "marbl/CHM13",
-      "target": "marbl/chm13-issues",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "marbl/CHM13",
-      "target": "genome-in-a-bottle/giab_data_indexes",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "marbl/CHM13",
-      "target": "jessicastorer88/repeatmasker_library_chm13",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "marbl/CHM13",
-      "target": "josephlalli/phasing_t2t",
+      "target": "marbl/t2t-browser",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-05T06:55:59.242607+00:00",
+  "fetched_at": "2026-05-05T13:49:46.239234+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -54,22 +33,7 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "genome-in-a-bottle/giab_data_indexes",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jessicastorer88/repeatmasker_library_chm13",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "josephlalli/phasing_t2t",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "marbl/chm13-issues",
+      "full_name": "marbl/t2t-browser",
       "source_file": "README.md"
     }
   ],

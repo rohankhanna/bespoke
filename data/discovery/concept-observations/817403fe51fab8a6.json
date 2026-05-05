@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Build LLM-powered Dart/Flutter applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'\ud83c\udff7\ufe0f Gemini Automated Issue Triage'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'\ud83c\udff7\ufe0f Gemini Automated Issue Triage'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33828,
+      "status": "candidate",
+      "text": "icon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33806,
+      "status": "candidate",
+      "text": "play"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33256,
+      "status": "candidate",
+      "text": "split"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33256,
+      "status": "candidate",
+      "text": "splits"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33256,
+      "status": "candidate",
+      "text": "splitting"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83c\udff7\ufe0f Gemini Automated Issue Triage",
+      "sense_id": "gemini-automated-issue-triage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gemini-automated-issue-triage",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gemini-automated-issue-triage",
+  "observation_id": "817403fe51fab8a6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "\ud83c\udff7\ufe0f Gemini Automated Issue Triage",
+  "source_context_snippet": "'\ud83c\udff7\ufe0f Gemini Automated Issue Triage'",
+  "source_file": ".github/workflows/gemini-issue-automated-triage.yml",
+  "source_repo": "davidmigloz/langchain_dart",
+  "source_repo_description": "Build LLM-powered Dart/Flutter applications."
+}

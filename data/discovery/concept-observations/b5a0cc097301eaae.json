@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Repo model for an iterative deep research model with voice pipeline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Claude Code](https://img.shields.io/badge/Claude-Code-8A2BE2?logo=anthropic&logoColor=white)](https://claude.ai/claude-code)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Claude Code](https://img.shields.io/badge/Claude-Code-8A2BE2?logo=anthropic&logoColor=white)](https://claude.ai/claude-code)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deep-research",
+      "sense_id": "deep-research#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deep-research",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deep-research",
+  "observation_id": "b5a0cc097301eaae",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "deep-research",
+  "source_context_snippet": "[![Claude Code](https://img.shields.io/badge/Claude-Code-8A2BE2?logo=anthropic&logoColor=white)](https://claude.ai/claude-code)",
+  "source_file": null,
+  "source_repo": "danielrosehill/Claude-Deep-Research-Model",
+  "source_repo_description": "Repo model for an iterative deep research model with voice pipeline"
+}

@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Docker Hub build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "usdot-fhwa-stol/cdasim",
+      "status": "candidate-context",
+      "text": "CDASim is an open-source simulation system supporting the development and testing of Cooperative Driving Automation applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/cdasim",
+      "status": "candidate-context",
+      "text": "Docker Hub build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "status": "candidate-context",
+      "text": "CARMA Platform is built on robot operating system (ROS) and utilizes open source software (OSS) that enables Cooperative Driving Automation (CDA) features to allow Automated Driving Systems to interact and cooperate with infrastructure and other vehicles through communication. Doxygen Source Code Documentation :"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "status": "candidate-context",
+      "text": "Docker Hub build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/cdasim",
+      "status": "candidate",
+      "text": "Docker Hub build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "status": "candidate",
+      "text": "Docker Hub build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22309,
+      "status": "candidate",
+      "text": "cargo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22309,
+      "status": "candidate",
+      "text": "dock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22309,
+      "status": "candidate",
+      "text": "knot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22309,
+      "status": "candidate",
+      "text": "lade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22309,
+      "status": "candidate",
+      "text": "load"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Docker Hub build",
+  "concept_id": "docker-hub-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "source_repo": "usdot-fhwa-stol/cdasim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "source_repo": "usdot-fhwa-stol/carma-platform"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker Hub build",
+      "sense_id": "docker-hub-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

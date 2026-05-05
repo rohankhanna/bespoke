@@ -19,12 +19,30 @@
       "source_repo": "huggingface/lerobot",
       "status": "candidate-context",
       "text": "Documentation PR Upload"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astroyat/lerobot",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 LeRobot: Making AI for Robotics more accessible with end-to-end learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astroyat/lerobot",
+      "status": "candidate-context",
+      "text": "Documentation PR Upload"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "huggingface/lerobot",
+      "status": "candidate",
+      "text": "Documentation PR Upload"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astroyat/lerobot",
       "status": "candidate",
       "text": "Documentation PR Upload"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/documentation-upload-pr.yml",
       "source_repo": "huggingface/lerobot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/documentation-upload-pr.yml",
+      "source_repo": "astroyat/lerobot"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

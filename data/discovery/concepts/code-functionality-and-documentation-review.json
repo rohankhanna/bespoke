@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Code Functionality and Documentation Review"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "status": "candidate-context",
+      "text": "Python type wrappers for Chrome DevTools Protocol (CDP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "status": "candidate-context",
+      "text": "\"Code Functionality and Documentation Review\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "status": "candidate",
+      "text": "\"Code Functionality and Documentation Review\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31823,
+      "status": "candidate",
+      "text": "instrumentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31823,
+      "status": "candidate",
+      "text": "startup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31742,
+      "status": "candidate",
+      "text": "competence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31742,
+      "status": "candidate",
+      "text": "execution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31742,
+      "status": "candidate",
+      "text": "recitation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Code Functionality and Documentation Review",
+  "concept_id": "code-functionality-and-documentation-review",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/auto-copilot-functionality-docs-review.yml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Code Functionality and Documentation Review",
+      "sense_id": "code-functionality-and-documentation-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

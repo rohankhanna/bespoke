@@ -316,7 +316,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T07:56:32.478234+00:00",
+  "fetched_at": "2026-05-05T17:07:53.923708+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -368,8 +368,8 @@
     "full_name": "langflow-ai/langflow",
     "html_url": "https://github.com/langflow-ai/langflow",
     "language": "Python",
-    "pushed_at": "2026-05-05T06:03:32Z",
-    "stargazers_count": 147691,
+    "pushed_at": "2026-05-05T17:06:52Z",
+    "stargazers_count": 147714,
     "topics": [
       "agents",
       "chatgpt",
@@ -378,7 +378,7 @@
       "multiagent",
       "react-flow"
     ],
-    "updated_at": "2026-05-05T07:47:09Z"
+    "updated_at": "2026-05-05T16:42:56Z"
   },
   "repo_links": [],
   "terms": [

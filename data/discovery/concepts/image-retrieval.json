@@ -283,6 +283,18 @@
       "source_repo": "layumi/Image-Text-Embedding",
       "status": "candidate-context",
       "text": "[[Paper]](https://arxiv.org/abs/1711.05535) [[Slide]](http://zdzheng.xyz/files/ZhedongZheng_CA_Talk_DualPath.pdf) :arrow_left: **I recommend to check this slide first.** :arrow_left:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternLM/HuixiangDou",
+      "status": "candidate-context",
+      "text": "HuixiangDou: Overcoming Group Chat Scenarios with LLM-based Technical Assistance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/HuixiangDou",
+      "status": "candidate-context",
+      "text": "[HuixiangDou2](https://github.com/tpoisonooo/HuixiangDou2)(ACL25) is a GraphRAG solution whose effectiveness has been demonstrated in the plant-science domain and that contributed to the [**cover paper in Cell**](https://www.cell.com/molecular-plant/issue?pii=S1674-2052(24)X0008\u2026"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +435,12 @@
       "source_repo": "layumi/Image-Text-Embedding",
       "status": "candidate",
       "text": "[[Paper]](https://arxiv.org/abs/1711.05535) [[Slide]](http://zdzheng.xyz/files/ZhedongZheng_CA_Talk_DualPath.pdf) :arrow_left: **I recommend to check this slide first.** :arrow_left:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/HuixiangDou",
+      "status": "candidate",
+      "text": "[HuixiangDou2](https://github.com/tpoisonooo/HuixiangDou2)(ACL25) is a GraphRAG solution whose effectiveness has been demonstrated in the plant-science domain and that contributed to the [**cover paper in Cell**](https://www.cell.com/molecular-plant/issue?pii=S1674-2052(24)X0008\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -568,11 +586,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "layumi/Image-Text-Embedding"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "InternLM/HuixiangDou"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

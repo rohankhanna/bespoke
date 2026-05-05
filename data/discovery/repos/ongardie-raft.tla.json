@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ongardie/raft.tla",
+      "target": "ongardie/dissertation",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:50:39.146935+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 641
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TLA+ specification for the Raft consensus algorithm",
+    "fork": false,
+    "full_name": "ongardie/raft.tla",
+    "html_url": "https://github.com/ongardie/raft.tla",
+    "language": "TLA",
+    "pushed_at": "2025-02-18T22:45:19Z",
+    "stargazers_count": 513,
+    "topics": [],
+    "updated_at": "2026-05-05T08:32:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ongardie/dissertation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

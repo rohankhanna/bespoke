@@ -1,0 +1,298 @@
+{
+  "components": [
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jump-dev/NLopt.jl",
+      "target": "jump-dev/jump.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jump-dev/NLopt.jl",
+      "target": "juliadiff/forwarddiff.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "jump-dev/NLopt.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "jump-dev/NLopt.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jump-dev/NLopt.jl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jump-dev/NLopt.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jump-dev/NLopt.jl",
+      "target": "julia-actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jump-dev/NLopt.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jump-dev/NLopt.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jump-dev/NLopt.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jump-dev/NLopt.jl",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_check.yml",
+      "source_repo": "jump-dev/NLopt.jl",
+      "target": "julia-actions/setup-julia@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_check.yml",
+      "source_repo": "jump-dev/NLopt.jl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format_check.yml",
+      "source_repo": "jump-dev/NLopt.jl",
+      "target": "format-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jump-dev/NLopt.jl",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jump-dev/NLopt.jl",
+      "target": "math",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jump-dev/NLopt.jl",
+      "target": "nonlinear-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jump-dev/NLopt.jl",
+      "target": "nonlinear-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jump-dev/NLopt.jl",
+      "target": "numerical-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jump-dev/NLopt.jl",
+      "target": "optimization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:54:09.389455+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24634
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 317
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1234
+    },
+    {
+      "path": ".github/workflows/format_check.yml",
+      "size": 756
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Julia interface to the NLopt nonlinear-optimization library",
+    "fork": false,
+    "full_name": "jump-dev/NLopt.jl",
+    "html_url": "https://github.com/jump-dev/NLopt.jl",
+    "language": "Julia",
+    "pushed_at": "2026-05-05T08:06:18Z",
+    "stargazers_count": 280,
+    "topics": [
+      "julia",
+      "math",
+      "nonlinear-optimization",
+      "nonlinear-programming",
+      "numerical-optimization",
+      "optimization"
+    ],
+    "updated_at": "2026-01-24T14:17:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliadiff/forwarddiff.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jump-dev/jump.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "format-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format_check.yml",
+      "term": "format-check"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/jump-dev/NLopt.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jump-dev/NLopt.jl/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/jump-dev/NLopt.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jump-dev/NLopt.jl/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "math"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/jump-dev/NLopt.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jump-dev/NLopt.jl/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nonlinear-optimization"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/jump-dev/NLopt.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jump-dev/NLopt.jl/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nonlinear-programming"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/jump-dev/NLopt.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jump-dev/NLopt.jl/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numerical-optimization"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/jump-dev/NLopt.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jump-dev/NLopt.jl/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization"
+    }
+  ]
+}

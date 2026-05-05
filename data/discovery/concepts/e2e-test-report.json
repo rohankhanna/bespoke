@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "E2E Test Report"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/ingress-nginx",
+      "status": "candidate-context",
+      "text": "Ingress NGINX Controller for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/ingress-nginx",
+      "status": "candidate-context",
+      "text": "'E2E Test Report'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/ingress-nginx",
+      "status": "candidate",
+      "text": "'E2E Test Report'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48838,
+      "status": "candidate",
+      "text": "minutes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48038,
+      "status": "candidate",
+      "text": "minute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48038,
+      "status": "candidate",
+      "text": "notice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48038,
+      "status": "candidate",
+      "text": "protocol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48038,
+      "status": "candidate",
+      "text": "record"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "E2E Test Report",
+  "concept_id": "e2e-test-report",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/junit-reports.yaml",
+      "source_repo": "kubernetes/ingress-nginx"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "E2E Test Report",
+      "sense_id": "e2e-test-report#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

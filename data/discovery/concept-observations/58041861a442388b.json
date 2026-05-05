@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A proxy middleware for light client verification executed in TEE."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "cleanup caches by a branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "cleanup caches by a branch"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26044,
+      "status": "candidate",
+      "text": "bucket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26044,
+      "status": "candidate",
+      "text": "deacon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26044,
+      "status": "candidate",
+      "text": "flesh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26044,
+      "status": "candidate",
+      "text": "gunt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26044,
+      "status": "candidate",
+      "text": "hunt"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "cleanup caches by a branch",
+      "sense_id": "cleanup-caches-by-a-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cleanup-caches-by-a-branch",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cleanup-caches-by-a-branch",
+  "observation_id": "58041861a442388b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "cleanup caches by a branch",
+  "source_context_snippet": "cleanup caches by a branch",
+  "source_file": ".github/workflows/cache-cleanup.yml",
+  "source_repo": "datachainlab/lcp",
+  "source_repo_description": "A proxy middleware for light client verification executed in TEE."
+}

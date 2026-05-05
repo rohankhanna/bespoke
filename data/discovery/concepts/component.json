@@ -139,6 +139,18 @@
       "source_repo": "MudBlazor/MudBlazor",
       "status": "candidate-context",
       "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/mudblazor/mudblazor/build-test-mudblazor.yml?branch=dev&logo=github&style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clauderic/react-infinite-calendar",
+      "status": "candidate-context",
+      "text": "\u2728 Infinite scrolling date-picker built with React, with localization, range selection, themes, keyboard support, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clauderic/react-infinite-calendar",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "MudBlazor/MudBlazor",
       "status": "candidate",
       "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/mudblazor/mudblazor/build-test-mudblazor.yml?branch=dev&logo=github&style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clauderic/react-infinite-calendar",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -400,11 +418,23 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "TanStack/react-charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "clauderic/react-infinite-calendar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/react-charts"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

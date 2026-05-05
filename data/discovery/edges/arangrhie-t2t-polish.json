@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arangrhie/T2T-Polish",
+      "target": "kishwarshafin/t2t_polishing_scripts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arangrhie/T2T-Polish",
+      "target": "ablab/veritymap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arangrhie/T2T-Polish",
+      "target": "isovic/racon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arangrhie/T2T-Polish",
+      "target": "arangrhie/merfin",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "arangrhie/T2T-Polish"
+}

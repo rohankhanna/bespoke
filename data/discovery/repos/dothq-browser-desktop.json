@@ -1,0 +1,277 @@
+{
+  "components": [
+    {
+      "component": "esbuild",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "glob",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/configure-pages@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dothq/browser-desktop",
+      "target": "dothq/gecko-dev",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dothq/browser-desktop",
+      "target": "dothq/browser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dothq/browser-desktop",
+      "target": "esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dothq/browser-desktop",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dothq/browser-desktop",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dothq/browser-desktop",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "dothq/browser-desktop",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "dothq/browser-desktop",
+      "target": "actions/configure-pages@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "dothq/browser-desktop",
+      "target": "actions/upload-pages-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "dothq/browser-desktop",
+      "target": "actions/deploy-pages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "dothq/browser-desktop",
+      "target": "Build and deploy source docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dothq/browser-desktop",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dothq/browser-desktop",
+      "target": "Test build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dothq/browser-desktop",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dothq/browser-desktop",
+      "target": "firefox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dothq/browser-desktop",
+      "target": "firefox-based",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dothq/browser-desktop",
+      "target": "gecko",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dothq/browser-desktop",
+      "target": "privacy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:04:55.795065+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1691
+    },
+    {
+      "path": "package.json",
+      "size": 505
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1236
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1742
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "nightly",
+    "description": "Dot Browser for Windows, macOS and Linux",
+    "fork": false,
+    "full_name": "dothq/browser-desktop",
+    "html_url": "https://github.com/dothq/browser-desktop",
+    "language": "JavaScript",
+    "pushed_at": "2024-04-19T21:12:49Z",
+    "stargazers_count": 388,
+    "topics": [
+      "browser",
+      "firefox",
+      "firefox-based",
+      "gecko",
+      "privacy"
+    ],
+    "updated_at": "2026-04-03T22:50:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dothq/browser",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dothq/gecko-dev",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and deploy source docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Build and deploy source docs"
+    },
+    {
+      "context_snippet": "Test build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test build"
+    },
+    {
+      "context_snippet": "The Dot Browser for Desktop source code, available on Windows, macOS and Linux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "The Dot Browser for Desktop source code, available on Windows, macOS and Linux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firefox"
+    },
+    {
+      "context_snippet": "The Dot Browser for Desktop source code, available on Windows, macOS and Linux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firefox-based"
+    },
+    {
+      "context_snippet": "The Dot Browser for Desktop source code, available on Windows, macOS and Linux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gecko"
+    },
+    {
+      "context_snippet": "The Dot Browser for Desktop source code, available on Windows, macOS and Linux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privacy"
+    }
+  ]
+}

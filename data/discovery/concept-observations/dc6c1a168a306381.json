@@ -84,7 +84,7 @@
   "normalized_form": "check-security-alerts",
   "observation_id": "dc6c1a168a306381",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Check security alerts",
   "source_context_snippet": "Check security alerts",
   "source_file": ".github/workflows/check-security-alerts.yml",

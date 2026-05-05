@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T02:41:24.975901+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -1716,6 +1716,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "BrowserWorks/waterfox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "usnistgov/jsfive"
     }
   ],
   "term": "publish"

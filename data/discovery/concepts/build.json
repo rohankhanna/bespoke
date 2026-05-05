@@ -11479,6 +11479,228 @@
       "source_repo": "Cysharp/MagicOnion",
       "status": "candidate-context",
       "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dapphub/dapptools",
+      "status": "candidate-context",
+      "text": "Dapp, Seth, Hevm, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dapphub/dapptools",
+      "status": "candidate-context",
+      "text": "\"Build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/docker-rust-nightly",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dapphub/ds-test",
+      "status": "candidate-context",
+      "text": "Assertions, equality checks and other test helpers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dapphub/ds-test",
+      "status": "candidate-context",
+      "text": "\"Build\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazy-max/docker-osxcross",
+      "status": "candidate-context",
+      "text": "MacOSX cross toolchain as Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/docker-osxcross",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "status": "candidate-context",
+      "text": "Cross compilation helper for GoReleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "koide3/fast_gicp",
+      "status": "candidate-context",
+      "text": "A collection of GICP-based fast point cloud registration algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koide3/fast_gicp",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevengj/nlopt",
+      "status": "candidate-context",
+      "text": "library for nonlinear optimization, wrapping many algorithms for global and local, constrained or unconstrained, optimization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevengj/nlopt",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yzhangcs/parser",
+      "status": "candidate-context",
+      "text": ":rocket: State-of-the-art parsers for natural language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yzhangcs/parser",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "React9k/react-timeline-9000",
+      "status": "candidate-context",
+      "text": "React Timeline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "React9k/react-timeline-9000",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haxeui/haxeui-flixel",
+      "status": "candidate-context",
+      "text": "The Flixel backend of the HaxeUI framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haxeui/haxeui-flixel",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dapp-org/dappsys-v2",
+      "status": "candidate-context",
+      "text": "\"Build\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazy-max/diun",
+      "status": "candidate-context",
+      "text": "Receive notifications when an image is updated on a Docker registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/diun",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jzelinskie/faq",
+      "status": "candidate-context",
+      "text": "Format Agnostic jQ -- process various formats with libjq"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jzelinskie/faq",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazy-max/yasu",
+      "status": "candidate-context",
+      "text": "Yet Another Switch User"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/yasu",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "didip/tollbooth",
+      "status": "candidate-context",
+      "text": "Simple middleware to rate-limit HTTP requests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "didip/tollbooth",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "koide3/ndt_omp",
+      "status": "candidate-context",
+      "text": "Multi-threaded and SSE friendly NDT algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koide3/ndt_omp",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YuePanEdward/MULLS",
+      "status": "candidate-context",
+      "text": "\ud83e\udd14 MULLS: Versatile LiDAR SLAM via Multi-metric Linear Least Square [ICRA '21]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YuePanEdward/MULLS",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ankane/nlopt-ruby",
+      "status": "candidate-context",
+      "text": "Nonlinear optimization for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/nlopt-ruby",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stefan-hoeck/idris2-pack",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "petercorke/spatialmath-python",
+      "status": "candidate-context",
+      "text": "Create,  manipulate and convert representations of position and orientation in 2D or 3D using Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/spatialmath-python",
+      "status": "candidate-context",
+      "text": "build"
     }
   ],
   "candidate_glosses": [
@@ -17331,6 +17553,126 @@
       "source_repo": "Cysharp/MagicOnion",
       "status": "candidate",
       "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dapphub/dapptools",
+      "status": "candidate",
+      "text": "\"Build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/docker-rust-nightly",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dapphub/ds-test",
+      "status": "candidate",
+      "text": "\"Build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/docker-osxcross",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koide3/fast_gicp",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevengj/nlopt",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yzhangcs/parser",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "React9k/react-timeline-9000",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haxeui/haxeui-flixel",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dapp-org/dappsys-v2",
+      "status": "candidate",
+      "text": "\"Build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/diun",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jzelinskie/faq",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/yasu",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "didip/tollbooth",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koide3/ndt_omp",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YuePanEdward/MULLS",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/nlopt-ruby",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stefan-hoeck/idris2-pack",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/spatialmath-python",
+      "status": "candidate",
+      "text": "build"
     }
   ],
   "candidate_related_terms": [
@@ -27621,11 +27963,437 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/release.binaries.yml",
       "source_repo": "datalevin/datalevin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "babashka/babashka-sql-pods"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "powturbo/Turbo-Base64"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "databrickslabs/ucx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dapphub/dapptools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cometbft/tendermint-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rust-lang/docker-rust-nightly"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dapphub/ds-test"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apalache-mc/apalache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "web3/web3.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build-reusable.yaml",
+      "source_repo": "riscv-collab/riscv-gnu-toolchain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "riscv-collab/riscv-gnu-toolchain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "rainbend/frp-notify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "crazy-max/docker-osxcross"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "crazy-max/goreleaser-xx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "LuaLS/vscode-lua"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/casbin-Casbin.NET"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "redis/redis-om-spring"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ajv-validator/ajv-i18n"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ajv-validator/ajv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ajv-validator/ajv-keywords"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CloudCompare/CloudCompare"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "koide3/fast_gicp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stevengj/nlopt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build-pypi.yaml",
+      "source_repo": "PoseLib/PoseLib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/go-cross-build.yml",
+      "source_repo": "DaoCloud/crproxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "Farama-Foundation/Minigrid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ipld/explore.ipld.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Venly/web3-react-venly"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mongodb/winkerberos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ideditor/id-area-keys"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kurrent-io/es-gencert-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kurrent-io/EventStoreDB-Client-Dotnet-Legacy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "falcoframework/Falco.Markup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "yzhangcs/parser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "React9k/react-timeline-9000"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "haxeui/haxeui-flixel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "asdf-community/asdf-pdm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "WICG/attribution-reporting-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "luau-lang/luau"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/release.binaries.yml",
+      "source_repo": "datalevin/datalevin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cargo-generate/cargo-generate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dapp-org/dappsys-v2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "crazy-max/diun"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "jzelinskie/faq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "crazy-max/yasu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "didip/tollbooth"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "koide3/ndt_omp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "YuePanEdward/MULLS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/nlopt-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/ci-lib.yml",
+      "source_repo": "stefan-hoeck/idris2-pack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "petercorke/spatialmath-python"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

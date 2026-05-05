@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "State-Driven Styling in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test & Lint"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test & Lint"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13628,
+      "status": "candidate",
+      "text": "screen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13279,
+      "status": "candidate",
+      "text": "tent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13279,
+      "status": "candidate",
+      "text": "tentatively"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12748,
+      "status": "candidate",
+      "text": "flue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12748,
+      "status": "candidate",
+      "text": "fluff"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test & Lint",
+      "sense_id": "test-lint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-lint",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-lint",
+  "observation_id": "6792679e0d2f07c9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "Test & Lint",
+  "source_context_snippet": "Test & Lint",
+  "source_file": ".github/workflows/push.yml",
+  "source_repo": "robinweser/fela",
+  "source_repo_description": "State-Driven Styling in JavaScript"
+}

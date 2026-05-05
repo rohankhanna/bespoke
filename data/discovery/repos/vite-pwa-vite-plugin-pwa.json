@@ -529,7 +529,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T08:04:02.331895+00:00",
+  "fetched_at": "2026-05-05T14:58:05.260651+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -537,7 +537,7 @@
     },
     {
       "path": "package.json",
-      "size": 4832
+      "size": 4842
     },
     {
       "path": ".github/workflows/cr-comment.yml",
@@ -561,8 +561,8 @@
     "full_name": "vite-pwa/vite-plugin-pwa",
     "html_url": "https://github.com/vite-pwa/vite-plugin-pwa",
     "language": "TypeScript",
-    "pushed_at": "2026-03-04T14:24:14Z",
-    "stargazers_count": 4144,
+    "pushed_at": "2026-05-05T13:46:19Z",
+    "stargazers_count": 4145,
     "topics": [
       "preact",
       "pwa",
@@ -574,7 +574,7 @@
       "vue",
       "workbox"
     ],
-    "updated_at": "2026-05-03T09:44:21Z"
+    "updated_at": "2026-05-05T13:57:02Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "beltransen/velo2cam_calibration",
+      "target": "beltransen/velo2cam_gazebo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beltransen/velo2cam_calibration",
+      "target": "automatic-calibration-algorithm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T13:52:45.994609+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2455
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Automatic Extrinsic Calibration Method for LiDAR and Camera Sensor Setups. ROS Package.",
+    "fork": false,
+    "full_name": "beltransen/velo2cam_calibration",
+    "html_url": "https://github.com/beltransen/velo2cam_calibration",
+    "language": "C++",
+    "pushed_at": "2022-06-20T22:22:42Z",
+    "stargazers_count": 859,
+    "topics": [
+      "automatic-calibration-algorithm"
+    ],
+    "updated_at": "2026-05-05T00:06:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "beltransen/velo2cam_gazebo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The *velo2cam_calibration* software implements a state-of-the-art automatic calibration algorithm for pair of sensors composed of LiDAR and camera devices in any possible combination, as described in this paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automatic-calibration-algorithm"
+    }
+  ]
+}

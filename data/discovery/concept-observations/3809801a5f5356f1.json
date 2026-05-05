@@ -120,7 +120,7 @@
   "normalized_form": "continuous",
   "observation_id": "3809801a5f5356f1",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "continuous",
   "source_context_snippet": "continuous",
   "source_file": ".github/workflows/continuous.yaml",

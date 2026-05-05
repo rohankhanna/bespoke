@@ -2938,6 +2938,42 @@
       "source_repo": "gstreamer-java/gst1-java-core",
       "status": "candidate-context",
       "text": "GStreamer 1.x Java Core (gst1-java-core)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haveachin/infrared",
+      "status": "candidate-context",
+      "text": "An ultra lightweight minecraft reverse proxy and idle placeholder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haveachin/infrared",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapsforge/vtm",
+      "status": "candidate-context",
+      "text": "OpenGL vector map library - running on Android, iOS, Desktop and browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapsforge/vtm",
+      "status": "candidate-context",
+      "text": "[![](https://jitpack.io/v/mapsforge/vtm.svg)](https://jitpack.io/#mapsforge/vtm)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapsforge/mapsforge",
+      "status": "candidate-context",
+      "text": "Vector map library and writer - running on Android and Desktop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapsforge/mapsforge",
+      "status": "candidate-context",
+      "text": "[![](https://jitpack.io/v/mapsforge/mapsforge.svg)](https://jitpack.io/#mapsforge/mapsforge)"
     }
   ],
   "candidate_glosses": [
@@ -4404,6 +4440,24 @@
       "source_repo": "gstreamer-java/gst1-java-core",
       "status": "candidate",
       "text": "GStreamer 1.x Java Core (gst1-java-core)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haveachin/infrared",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapsforge/vtm",
+      "status": "candidate",
+      "text": "[![](https://jitpack.io/v/mapsforge/vtm.svg)](https://jitpack.io/#mapsforge/vtm)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapsforge/mapsforge",
+      "status": "candidate",
+      "text": "[![](https://jitpack.io/v/mapsforge/mapsforge.svg)](https://jitpack.io/#mapsforge/mapsforge)"
     }
   ],
   "candidate_related_terms": [
@@ -7029,11 +7083,95 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "helidon-io/helidon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-spring"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "haveachin/infrared"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "mapsforge/vtm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "helidon-io/helidon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "mapsforge/mapsforge"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

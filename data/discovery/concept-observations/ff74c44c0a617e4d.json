@@ -84,7 +84,7 @@
   "normalized_form": "bump-megatron-tag-template",
   "observation_id": "ff74c44c0a617e4d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "~Bump Megatron Tag template",
   "source_context_snippet": "~Bump Megatron Tag template",
   "source_file": ".github/workflows/_bump_mcore_tag.yml",

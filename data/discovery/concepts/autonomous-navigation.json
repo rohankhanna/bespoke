@@ -19,6 +19,18 @@
       "source_repo": "HKUST-Aerial-Robotics/Fast-Planner",
       "status": "candidate-context",
       "text": "**Fast-Planner** is developed aiming to enable quadrotor fast flight in complex unknown environments. It contains a rich set of carefully designed planning algorithms. It also provides a foundational code framework and algorithms that support several popular open-source drone pr\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HKUST-Aerial-Robotics/FUEL",
+      "status": "candidate-context",
+      "text": "An Efficient Framework for Fast UAV Exploration "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUST-Aerial-Robotics/FUEL",
+      "status": "candidate-context",
+      "text": "__News:__"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "HKUST-Aerial-Robotics/Fast-Planner",
       "status": "candidate",
       "text": "**Fast-Planner** is developed aiming to enable quadrotor fast flight in complex unknown environments. It contains a rich set of carefully designed planning algorithms. It also provides a foundational code framework and algorithms that support several popular open-source drone pr\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUST-Aerial-Robotics/FUEL",
+      "status": "candidate",
+      "text": "__News:__"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "HKUST-Aerial-Robotics/Fast-Planner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "HKUST-Aerial-Robotics/FUEL"
     }
   ],
   "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

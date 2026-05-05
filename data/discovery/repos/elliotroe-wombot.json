@@ -1,0 +1,129 @@
+{
+  "components": [
+    {
+      "component": "fs-extra",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mkdirp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "printf",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sharp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@discordjs/rest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "discord-api-types",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "discord.js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yargs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ElliotRoe/wombot",
+      "target": "fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ElliotRoe/wombot",
+      "target": "mkdirp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ElliotRoe/wombot",
+      "target": "printf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ElliotRoe/wombot",
+      "target": "sharp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ElliotRoe/wombot",
+      "target": "@discordjs/rest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ElliotRoe/wombot",
+      "target": "discord-api-types",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ElliotRoe/wombot",
+      "target": "discord.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ElliotRoe/wombot",
+      "target": "yargs",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:54:12.856491+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2319
+    },
+    {
+      "path": "package.json",
+      "size": 812
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unofficial API and discord bot for wombo.art",
+    "fork": true,
+    "full_name": "ElliotRoe/wombot",
+    "html_url": "https://github.com/ElliotRoe/wombot",
+    "language": "JavaScript",
+    "pushed_at": "2021-12-18T15:32:58Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2023-09-20T13:06:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

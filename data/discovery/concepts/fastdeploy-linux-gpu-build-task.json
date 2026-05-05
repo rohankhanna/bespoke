@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "FastDeploy Linux GPU Build Task"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/FastDeploy",
+      "status": "candidate-context",
+      "text": "High-performance Inference and Deployment Toolkit for LLMs and VLMs based on PaddlePaddle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/FastDeploy",
+      "status": "candidate-context",
+      "text": "FastDeploy Linux GPU Build Task"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/FastDeploy",
+      "status": "candidate",
+      "text": "FastDeploy Linux GPU Build Task"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21973,
+      "status": "candidate",
+      "text": "crossover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21071,
+      "status": "candidate",
+      "text": "copula"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21071,
+      "status": "candidate",
+      "text": "copulative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21071,
+      "status": "candidate",
+      "text": "minix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21071,
+      "status": "candidate",
+      "text": "netbsd"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "FastDeploy Linux GPU Build Task",
+  "concept_id": "fastdeploy-linux-gpu-build-task",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/_build_linux.yml",
+      "source_repo": "PaddlePaddle/FastDeploy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/_build_linux_cu129.yml",
+      "source_repo": "PaddlePaddle/FastDeploy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/_build_linux_cu130.yml",
+      "source_repo": "PaddlePaddle/FastDeploy"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "FastDeploy Linux GPU Build Task",
+      "sense_id": "fastdeploy-linux-gpu-build-task#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

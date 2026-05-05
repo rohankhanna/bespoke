@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "dayjs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iamkun/dayjs",
+      "status": "candidate-context",
+      "text": "\u23f0 Day.js 2kB immutable date-time library alternative to Moment.js with the same modern API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamkun/dayjs",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./docs/zh-cn/README.zh-CN.md) | [\u65e5\u672c\u8a9e](./docs/ja/README-ja.md) | [Portugu\u00eas Brasileiro](./docs/pt-br/README-pt-br.md) | [\ud55c\uad6d\uc5b4](./docs/ko/README-ko.md) | [Espa\u00f1ol (Espa\u00f1a)](./docs/es-es/README-es-es.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](./docs/ru/README-ru.md) | [T\u00fcrk\u00e7e](./docs/tr/READM\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamkun/dayjs",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./docs/zh-cn/README.zh-CN.md) | [\u65e5\u672c\u8a9e](./docs/ja/README-ja.md) | [Portugu\u00eas Brasileiro](./docs/pt-br/README-pt-br.md) | [\ud55c\uad6d\uc5b4](./docs/ko/README-ko.md) | [Espa\u00f1ol (Espa\u00f1a)](./docs/es-es/README-es-es.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](./docs/ru/README-ru.md) | [T\u00fcrk\u00e7e](./docs/tr/READM\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "dayjs",
+  "concept_id": "dayjs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "iamkun/dayjs"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dayjs",
+      "sense_id": "dayjs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

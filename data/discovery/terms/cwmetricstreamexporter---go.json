@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cw-metric-stream-exporter-go.yaml",
+      "source_repo": "aws-observability/observability-best-practices"
+    }
+  ],
+  "term": "CWMetricStreamExporter - Go"
+}

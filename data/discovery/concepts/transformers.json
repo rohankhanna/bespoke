@@ -1351,6 +1351,42 @@
       "source_repo": "lucidrains/performer-pytorch",
       "status": "candidate-context",
       "text": "<img src=\"./favor+.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hila-chefer/Transformer-MM-Explainability",
+      "status": "candidate-context",
+      "text": "[ICCV 2021- Oral] Official PyTorch implementation for Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers, a novel method to visualize any Transformer-based network. Including examples for DETR, VQA."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hila-chefer/Transformer-MM-Explainability",
+      "status": "candidate-context",
+      "text": "[ICCV 2021- Oral] PyTorch Implementation of `Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers <https://arxiv.org/abs/2103.15679>`_"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yzhangcs/parser",
+      "status": "candidate-context",
+      "text": ":rocket: State-of-the-art parsers for natural language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yzhangcs/parser",
+      "status": "candidate-context",
+      "text": "[![build](https://img.shields.io/github/actions/workflow/status/yzhangcs/parser/build.yml?branch=main&style=flat-square)](https://github.com/yzhangcs/parser/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NoakLiu/FastCache-xDiT",
+      "status": "candidate-context",
+      "text": "FastCache: Fast Caching for Diffusion Transformer Through Learnable Linear Approximation [Efficient ML Model]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NoakLiu/FastCache-xDiT",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -2025,6 +2061,24 @@
       "source_repo": "lucidrains/performer-pytorch",
       "status": "candidate",
       "text": "<img src=\"./favor+.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hila-chefer/Transformer-MM-Explainability",
+      "status": "candidate",
+      "text": "[ICCV 2021- Oral] PyTorch Implementation of `Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers <https://arxiv.org/abs/2103.15679>`_"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yzhangcs/parser",
+      "status": "candidate",
+      "text": "[![build](https://img.shields.io/github/actions/workflow/status/yzhangcs/parser/build.yml?branch=main&style=flat-square)](https://github.com/yzhangcs/parser/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NoakLiu/FastCache-xDiT",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -3652,11 +3706,95 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "intel/ipex-llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "EleutherAI/gpt-neo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio-transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "hila-chefer/Transformer-MM-Explainability"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/maestro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "iflytek/cino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogView"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "yzhangcs/parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "NoakLiu/FastCache-xDiT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "intel/ipex-llm"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

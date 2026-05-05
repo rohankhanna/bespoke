@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -86,6 +86,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "astroyat/lerobot-ros"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ntnu-arl/lidar_degeneracy_datasets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ouster-lidar/ouster-ros"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry"
     }
   ],
   "term": "lidar"

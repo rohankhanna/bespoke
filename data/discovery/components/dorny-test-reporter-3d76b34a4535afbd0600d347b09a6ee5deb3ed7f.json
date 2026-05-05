@@ -1,12 +1,17 @@
 {
   "component": "dorny/test-reporter@3d76b34a4535afbd0600d347b09a6ee5deb3ed7f",
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/platform-integration-tests.yml",
       "source_repo": "hivemq/helm-charts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/junit-reports.yaml",
+      "source_repo": "kubernetes/ingress-nginx"
     }
   ]
 }

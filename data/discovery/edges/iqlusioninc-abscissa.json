@@ -1,0 +1,181 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iqlusioninc/abscissa",
+      "target": "iqlusioninc/tmkms",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iqlusioninc/abscissa",
+      "target": "iqlusioninc/canister",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iqlusioninc/abscissa",
+      "target": "iqlusioninc/cosmon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iqlusioninc/abscissa",
+      "target": "iqlusioninc/synchronicity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli.yml",
+      "source_repo": "iqlusioninc/abscissa",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli.yml",
+      "source_repo": "iqlusioninc/abscissa",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli.yml",
+      "source_repo": "iqlusioninc/abscissa",
+      "target": "cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core.yml",
+      "source_repo": "iqlusioninc/abscissa",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core.yml",
+      "source_repo": "iqlusioninc/abscissa",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/core.yml",
+      "source_repo": "iqlusioninc/abscissa",
+      "target": "core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/derive.yml",
+      "source_repo": "iqlusioninc/abscissa",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/derive.yml",
+      "source_repo": "iqlusioninc/abscissa",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/derive.yml",
+      "source_repo": "iqlusioninc/abscissa",
+      "target": "derive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-audit.yml",
+      "source_repo": "iqlusioninc/abscissa",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-audit.yml",
+      "source_repo": "iqlusioninc/abscissa",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-audit.yml",
+      "source_repo": "iqlusioninc/abscissa",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-audit.yml",
+      "source_repo": "iqlusioninc/abscissa",
+      "target": "actions-rs/audit-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security-audit.yml",
+      "source_repo": "iqlusioninc/abscissa",
+      "target": "Security Audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tokio.yml",
+      "source_repo": "iqlusioninc/abscissa",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tokio.yml",
+      "source_repo": "iqlusioninc/abscissa",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tokio.yml",
+      "source_repo": "iqlusioninc/abscissa",
+      "target": "tokio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "iqlusioninc/abscissa",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "iqlusioninc/abscissa",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "iqlusioninc/abscissa",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "iqlusioninc/abscissa",
+      "target": "Workspace",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "iqlusioninc/abscissa"
+}

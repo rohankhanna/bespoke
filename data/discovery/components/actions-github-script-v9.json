@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v9",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -657,6 +657,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/issue-for-sre-handoff.yml",
       "source_repo": "letsencrypt/boulder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_automerge.yml",
+      "source_repo": "Shopify/rbi-central"
     }
   ]
 }

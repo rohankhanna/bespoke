@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Interactive playground for exploring and sharing TLA+ specifications in the browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- # TLA<sup>+</sup> Web Explorer -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- # TLA<sup>+</sup> Web Explorer -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035215,
+      "status": "candidate",
+      "text": "confirmation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033877,
+      "status": "candidate",
+      "text": "substantiation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39822205,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035670,
+      "status": "candidate",
+      "text": "verify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035480,
+      "status": "candidate",
+      "text": "validation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "verification",
+      "sense_id": "verification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25080,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8058,
+      "status": "candidate",
+      "text": "confirmation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7022,
+      "status": "candidate",
+      "text": "substantiation"
+    }
+  ],
+  "concept_id": "verification",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "verification",
+  "observation_id": "78685f93b58f67cb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "verification",
+  "source_context_snippet": "<!-- # TLA<sup>+</sup> Web Explorer -->",
+  "source_file": null,
+  "source_repo": "will62794/spectacle",
+  "source_repo_description": "Interactive playground for exploring and sharing TLA+ specifications in the browser."
+}

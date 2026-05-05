@@ -82,6 +82,18 @@
       "source_repo": "tarides/dune-release",
       "status": "candidate-context",
       "text": "[![Build Status](https://img.shields.io/endpoint?url=https%3A%2F%2Focaml.ci.dev%2Fbadge%2Ftarides%2Fdune-release%2Fmain&logo=ocaml)](https://ocaml.ci.dev/github/tarides/dune-release)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rocq-community/docker-coq",
+      "status": "candidate-context",
+      "text": "Docker images of the Coq proof assistant (see also: https://github.com/coq-community/docker-coq-action) [maintainer=@Justme0606]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rocq-community/docker-coq",
+      "status": "candidate-context",
+      "text": "[![tags](https://img.shields.io/badge/tags%20on-docker%20hub-blue.svg)](https://hub.docker.com/r/coqorg/coq#supported-tags \"Supported tags on Docker Hub\")"
     }
   ],
   "candidate_glosses": [
@@ -120,6 +132,12 @@
       "source_repo": "tarides/dune-release",
       "status": "candidate",
       "text": "[![Build Status](https://img.shields.io/endpoint?url=https%3A%2F%2Focaml.ci.dev%2Fbadge%2Ftarides%2Fdune-release%2Fmain&logo=ocaml)](https://ocaml.ci.dev/github/tarides/dune-release)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rocq-community/docker-coq",
+      "status": "candidate",
+      "text": "[![tags](https://img.shields.io/badge/tags%20on-docker%20hub-blue.svg)](https://hub.docker.com/r/coqorg/coq#supported-tags \"Supported tags on Docker Hub\")"
     }
   ],
   "candidate_related_terms": [],
@@ -169,11 +187,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "tarides/dune-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "rocq-community/docker-coq"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

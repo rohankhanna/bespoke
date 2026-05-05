@@ -8758,6 +8758,246 @@
       "source_repo": "prataprc/xorfilter",
       "status": "candidate-context",
       "text": "[![Rustdoc](https://img.shields.io/badge/rustdoc-hosted-blue.svg)](https://docs.rs/xorfilter-rs)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nebula-labs/rust-by-example-vn",
+      "status": "candidate-context",
+      "text": "Phi\u00ean b\u1ea3n d\u1ecbch sang ti\u1ebfng Vi\u1ec7t c\u1ee7a https://doc.rust-lang.org/stable/rust-by-example/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nebula-labs/rust-by-example-vn",
+      "status": "candidate-context",
+      "text": "Phi\u00ean b\u1ea3n ti\u1ebfng Vi\u1ec7t c\u1ee7a https://doc.rust-lang.org/stable/rust-by-example - H\u1ecdc l\u1eadp tr\u00ecnh Rust th\u00f4ng qua c\u00e1c v\u00ed d\u1ee5 (C\u00f3 Live code editor)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kberov/rust-by-example-bg",
+      "status": "candidate-context",
+      "text": "\u201eRust \u0432 \u043f\u0440\u0438\u043c\u0435\u0440\u0438\u201c \u041c\u043e\u0436\u0435\u0442\u0435 \u0441\u0432\u043e\u0431\u043e\u0434\u043d\u043e \u0434\u0430 \u0447\u0435\u0442\u0435\u0442\u0435 \u043a\u043d\u0438\u0433\u0430\u0442\u0430 \u0432 \u0442\u0435\u043a\u0443\u0449\u043e\u0442\u043e \u045d \u0441\u044a\u0441\u0442\u043e\u044f\u043d\u0438\u0435 \u043d\u0430 \u0430\u0434\u0440\u0435\u0441\u0430 \u043f\u043e-\u0434\u043e\u043b\u0443. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kberov/rust-by-example-bg",
+      "status": "candidate-context",
+      "text": "[![Build Status][travis-badge]][travis-repo]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nazarepiedady/rust-com-exemplos",
+      "status": "candidate-context",
+      "text": "Estude Rust com Exemplos (editor de c\u00f3digo em tempo real)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nazarepiedady/rust-com-exemplos",
+      "status": "candidate-context",
+      "text": "[![Estado da Constru\u00e7\u00e3o][travis-badge]][travis-repo]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "near/near-sdk-rs",
+      "status": "candidate-context",
+      "text": "Rust library for writing NEAR smart contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-sdk-rs",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octopus-network/ibc-proto-rs",
+      "status": "candidate-context",
+      "text": "Rust crate for interacting with Cosmos and IBC structs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octopus-network/ibc-proto-rs",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octopus-network/ibc-rs",
+      "status": "candidate-context",
+      "text": "Rust implementation of the Inter-Blockchain Communication (IBC) protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octopus-network/ibc-rs",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "larry0x/cw-plus-plus",
+      "status": "candidate-context",
+      "text": "A collection of CosmWasm utilities and helper functions that I use "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "larry0x/cw-plus-plus",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prove-rs/z3.rs",
+      "status": "candidate-context",
+      "text": "Rust bindings for the Z3 solver."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prove-rs/z3.rs",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prove-rs/z3.rs",
+      "status": "candidate-context",
+      "text": "[![Rust](https://github.com/prove-rs/z3.rs/actions/workflows/rust.yml/badge.svg)](https://github.com/prove-rs/z3.rs/actions/workflows/rust.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ayazhafiz/xorf",
+      "status": "candidate-context",
+      "text": "Xor filters - efficient probabilistic hashsets. Faster and smaller than bloom and cuckoo filters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ayazhafiz/xorf",
+      "status": "candidate-context",
+      "text": "[![Xorf docs](https://docs.rs/xorf/badge.svg)](https://docs.rs/xorf)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "azdavis/ungrammar-tools",
+      "status": "candidate-context",
+      "text": "Tools for ungrammar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azdavis/ungrammar-tools",
+      "status": "candidate-context",
+      "text": "Tools for [ungrammar][1]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Iron-E/vim-ungrammar",
+      "status": "candidate-context",
+      "text": "Ungrammar syntax files for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Iron-E/vim-ungrammar",
+      "status": "candidate-context",
+      "text": "`Vim-ungrammar` is a plugin for Neovim and Vim for the [Ungrammar][ungrammar] filetype which provides:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dora-rs/dora",
+      "status": "candidate-context",
+      "text": "DORA (Dataflow-Oriented Robotic Architecture) is middleware designed to streamline and simplify the creation of AI-based robotic applications. It offers low latency, composable, and distributed dataflow capabilities. Applications are modeled as directed graphs, also referred to as pipelines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dora-rs/dora",
+      "status": "candidate-context",
+      "text": "[English](README.md) | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang-cn/rust-by-example-cn",
+      "status": "candidate-context",
+      "text": "Rust By Example \u4e2d\u6587\u7248(\u5305\u542b\u5728\u7ebf\u4ee3\u7801\u7f16\u8f91\u5668)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang-cn/rust-by-example-cn",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/rust-lang-cn/rust-by-example-cn/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang-ja/rust-by-example-ja",
+      "status": "candidate-context",
+      "text": "rust-by-example\u306e\u548c\u8a33\u30ea\u30dd\u30b8\u30c8\u30ea"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang-ja/rust-by-example-ja",
+      "status": "candidate-context",
+      "text": "[Rust by Example](https://github.com/rust-lang/rust-by-example)\u306e\u548c\u8a33\u30ea\u30dd\u30b8\u30c8\u30ea [![CircleCI](https://circleci.com/gh/rust-lang-ja/rust-by-example-ja.svg?style=svg)](https://circleci.com/gh/rust-lang-ja/rust-by-example-ja)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "near/cargo-near",
+      "status": "candidate-context",
+      "text": "Cargo extension for building Rust smart contracts on NEAR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/cargo-near",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD014 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "near/borsh-rs",
+      "status": "candidate-context",
+      "text": "Rust implementation of Binary Object Representation Serializer for Hashing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/borsh-rs",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/borsh-rs",
+      "status": "candidate-context",
+      "text": "[Borsh]: https://borsh.io"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChorusOne/ibc-rs",
+      "status": "candidate-context",
+      "text": "IBC modules and relayer - Formal specifications and Rust implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChorusOne/ibc-rs",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/ics23",
+      "status": "candidate-context",
+      "text": "Building generic merkle proof format for IBC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/ics23",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Boddlnagg/midir",
+      "status": "candidate-context",
+      "text": "Cross-platform realtime MIDI processing in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Boddlnagg/midir",
+      "status": "candidate-context",
+      "text": "Cross-platform, realtime MIDI processing in Rust."
     }
   ],
   "candidate_glosses": [
@@ -13266,6 +13506,132 @@
       "source_repo": "prataprc/xorfilter",
       "status": "candidate",
       "text": "[![Rustdoc](https://img.shields.io/badge/rustdoc-hosted-blue.svg)](https://docs.rs/xorfilter-rs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nebula-labs/rust-by-example-vn",
+      "status": "candidate",
+      "text": "Phi\u00ean b\u1ea3n ti\u1ebfng Vi\u1ec7t c\u1ee7a https://doc.rust-lang.org/stable/rust-by-example - H\u1ecdc l\u1eadp tr\u00ecnh Rust th\u00f4ng qua c\u00e1c v\u00ed d\u1ee5 (C\u00f3 Live code editor)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kberov/rust-by-example-bg",
+      "status": "candidate",
+      "text": "[![Build Status][travis-badge]][travis-repo]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nazarepiedady/rust-com-exemplos",
+      "status": "candidate",
+      "text": "[![Estado da Constru\u00e7\u00e3o][travis-badge]][travis-repo]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-sdk-rs",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octopus-network/ibc-proto-rs",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octopus-network/ibc-rs",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "larry0x/cw-plus-plus",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prove-rs/z3.rs",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prove-rs/z3.rs",
+      "status": "candidate",
+      "text": "[![Rust](https://github.com/prove-rs/z3.rs/actions/workflows/rust.yml/badge.svg)](https://github.com/prove-rs/z3.rs/actions/workflows/rust.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ayazhafiz/xorf",
+      "status": "candidate",
+      "text": "[![Xorf docs](https://docs.rs/xorf/badge.svg)](https://docs.rs/xorf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azdavis/ungrammar-tools",
+      "status": "candidate",
+      "text": "Tools for [ungrammar][1]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Iron-E/vim-ungrammar",
+      "status": "candidate",
+      "text": "`Vim-ungrammar` is a plugin for Neovim and Vim for the [Ungrammar][ungrammar] filetype which provides:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dora-rs/dora",
+      "status": "candidate",
+      "text": "[English](README.md) | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang-cn/rust-by-example-cn",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/rust-lang-cn/rust-by-example-cn/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang-ja/rust-by-example-ja",
+      "status": "candidate",
+      "text": "[Rust by Example](https://github.com/rust-lang/rust-by-example)\u306e\u548c\u8a33\u30ea\u30dd\u30b8\u30c8\u30ea [![CircleCI](https://circleci.com/gh/rust-lang-ja/rust-by-example-ja.svg?style=svg)](https://circleci.com/gh/rust-lang-ja/rust-by-example-ja)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/cargo-near",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD014 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/borsh-rs",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/borsh-rs",
+      "status": "candidate",
+      "text": "[Borsh]: https://borsh.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChorusOne/ibc-rs",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/ics23",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Boddlnagg/midir",
+      "status": "candidate",
+      "text": "Cross-platform, realtime MIDI processing in Rust."
     }
   ],
   "candidate_related_terms": [
@@ -22165,11 +22531,455 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "DioxusLabs/sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/rust-std-hermit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/hermit-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "nebula-labs/rust-by-example-vn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "kberov/rust-by-example-bg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "nazarepiedady/rust-com-exemplos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cometbft/tendermint-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "cometbft/tendermint-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "near/near-sdk-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "octopus-network/ibc-proto-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "octopus-network/ibc-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "larry0x/cw-plus-plus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "prove-rs/z3.rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "prove-rs/z3.rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/std"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Layr-Labs/bn254-bls-keystore-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dirs-dev/dirs-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/vscode-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "rust-rse/reed-solomon-erasure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "psmux/Tmux-Plugin-Panel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "prataprc/xorfilter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ayazhafiz/xorf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "databendlabs/databend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "apache/horaedb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "azdavis/ungrammar-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Iron-E/vim-ungrammar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "bionic-gpt/bionic-gpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "dora-rs/dora"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "AltF02/mouse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "AltF02/mouse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdnative"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "imgui-rs/imgui-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "unknownue/vulkan-tutorial-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ash-rs/ash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang-cn/rust-by-example-cn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang-ja/rust-by-example-ja"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "cargo-generate/cargo-generate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "near/cargo-near"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "near/borsh-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "near/borsh-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "ChorusOne/ibc-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cosmos/ics23"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Boddlnagg/midir"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,196 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_jruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_jruby.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_legacy.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_legacy.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_truffleruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_truffleruby.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "trailblazer/trailblazer-cells",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "trailblazer/trailblazer-cells",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_jruby.yml",
+      "source_repo": "trailblazer/trailblazer-cells",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_jruby.yml",
+      "source_repo": "trailblazer/trailblazer-cells",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_jruby.yml",
+      "source_repo": "trailblazer/trailblazer-cells",
+      "target": "CI JRuby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_legacy.yml",
+      "source_repo": "trailblazer/trailblazer-cells",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_legacy.yml",
+      "source_repo": "trailblazer/trailblazer-cells",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_legacy.yml",
+      "source_repo": "trailblazer/trailblazer-cells",
+      "target": "CI with EOL ruby versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_truffleruby.yml",
+      "source_repo": "trailblazer/trailblazer-cells",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_truffleruby.yml",
+      "source_repo": "trailblazer/trailblazer-cells",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_truffleruby.yml",
+      "source_repo": "trailblazer/trailblazer-cells",
+      "target": "CI TruffleRuby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trailblazer/trailblazer-cells",
+      "target": "cells",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:59:22.008999+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3861
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 484
+    },
+    {
+      "path": ".github/workflows/ci_jruby.yml",
+      "size": 483
+    },
+    {
+      "path": ".github/workflows/ci_legacy.yml",
+      "size": 491
+    },
+    {
+      "path": ".github/workflows/ci_truffleruby.yml",
+      "size": 501
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Trailblazer's file structure for Cells.",
+    "fork": false,
+    "full_name": "trailblazer/trailblazer-cells",
+    "html_url": "https://github.com/trailblazer/trailblazer-cells",
+    "language": "Ruby",
+    "pushed_at": "2023-01-25T15:09:53Z",
+    "stargazers_count": 27,
+    "topics": [
+      "cells"
+    ],
+    "updated_at": "2025-07-08T10:12:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI JRuby",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_jruby.yml",
+      "term": "CI JRuby"
+    },
+    {
+      "context_snippet": "CI with EOL ruby versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_legacy.yml",
+      "term": "CI with EOL ruby versions"
+    },
+    {
+      "context_snippet": "CI TruffleRuby",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_truffleruby.yml",
+      "term": "CI TruffleRuby"
+    },
+    {
+      "context_snippet": "_Trailblazer's file layout for Cells._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cells"
+    }
+  ]
+}

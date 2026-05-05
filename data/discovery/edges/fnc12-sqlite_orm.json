@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fnc12/sqlite_orm",
+      "target": "srombauts/sqlitecpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fnc12/sqlite_orm",
+      "target": "paulftw/hiberlite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-lint.yaml",
+      "source_repo": "fnc12/sqlite_orm",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-lint.yaml",
+      "source_repo": "fnc12/sqlite_orm",
+      "target": "d-griet/clang-format-lint-action@99a106be2f3f1a92d9783ea7c744fde62d8ce1fa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format-lint.yaml",
+      "source_repo": "fnc12/sqlite_orm",
+      "target": "clang-format lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fnc12/sqlite_orm",
+      "target": "cplusplus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fnc12/sqlite_orm",
+      "target": "cplusplus-14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fnc12/sqlite_orm",
+      "target": "crud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fnc12/sqlite_orm",
+      "target": "modern-cpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fnc12/sqlite_orm",
+      "target": "sqlite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fnc12/sqlite_orm",
+      "target": "sqlite-orm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fnc12/sqlite_orm",
+      "target": "sqlite3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fnc12/sqlite_orm",
+      "target": "sqlite3-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fnc12/sqlite_orm",
+      "target": "sqliteorm",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "fnc12/sqlite_orm"
+}

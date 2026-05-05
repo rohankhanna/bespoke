@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T12:49:46.957930+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 137
+    },
+    {
+      "path": "go.mod",
+      "size": 12939
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "datachainlab/ethereum-ibc-relay-prover",
+    "html_url": "https://github.com/datachainlab/ethereum-ibc-relay-prover",
+    "language": "Go",
+    "pushed_at": "2026-03-02T06:34:02Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-03-02T06:34:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

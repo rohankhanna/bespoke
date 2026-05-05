@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T15:58:00.317728+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1239
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Information on all public CosmWasm testnets",
+    "fork": false,
+    "full_name": "CosmWasm/testnets",
+    "html_url": "https://github.com/CosmWasm/testnets",
+    "language": "TypeScript",
+    "pushed_at": "2024-08-12T08:56:03Z",
+    "stargazers_count": 34,
+    "topics": [],
+    "updated_at": "2025-10-24T11:51:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

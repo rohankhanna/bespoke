@@ -151,6 +151,18 @@
       "source_repo": "mistic100/tinygradient",
       "status": "candidate-context",
       "text": "[![npm version](https://img.shields.io/npm/v/tinygradient.svg?style=flat-square)](https://www.npmjs.com/package/tinygradient)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Iron-E/nvim-highlite",
+      "status": "candidate-context",
+      "text": "A colorscheme generator that is \"lite\" on logic for the developer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Iron-E/nvim-highlite",
+      "status": "candidate-context",
+      "text": "* Use any of the built-in colorschemes using `:colorscheme`."
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "mistic100/tinygradient",
       "status": "candidate",
       "text": "[![npm version](https://img.shields.io/npm/v/tinygradient.svg?style=flat-square)](https://www.npmjs.com/package/tinygradient)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Iron-E/nvim-highlite",
+      "status": "candidate",
+      "text": "* Use any of the built-in colorschemes using `:colorscheme`."
     }
   ],
   "candidate_related_terms": [
@@ -474,11 +492,29 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "Biscuit-Theme/biscuit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-glyph-palette"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Biscuit-Theme/biscuit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Iron-E/nvim-highlite"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

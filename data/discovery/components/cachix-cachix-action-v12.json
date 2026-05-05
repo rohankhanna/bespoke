@@ -1,7 +1,7 @@
 {
   "component": "cachix/cachix-action@v12",
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -67,6 +67,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docgen.yaml",
       "source_repo": "lumen-oss/rtp.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dapphub/dapptools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dapphub/dapptools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dapphub/ds-test"
     }
   ]
 }

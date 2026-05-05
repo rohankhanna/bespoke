@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\uddc3\ufe0f Centralized State Management for Vue.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![npm](https://img.shields.io/npm/v/vuex.svg)](https://npmjs.com/package/vuex)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/vuex.svg)](https://npmjs.com/package/vuex)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19993679,
+      "status": "candidate",
+      "text": "time warp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19993678,
+      "status": "candidate",
+      "text": "time jump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19993677,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19993676,
+      "status": "candidate",
+      "text": "warp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19993675,
+      "status": "candidate",
+      "text": "travell"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "time-travel",
+      "sense_id": "time-travel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "time-travel",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "time-travel",
+  "observation_id": "cf317d285b15849f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "time-travel",
+  "source_context_snippet": "[![npm](https://img.shields.io/npm/v/vuex.svg)](https://npmjs.com/package/vuex)",
+  "source_file": null,
+  "source_repo": "vuejs/vuex",
+  "source_repo_description": "\ud83d\uddc3\ufe0f Centralized State Management for Vue.js."
+}

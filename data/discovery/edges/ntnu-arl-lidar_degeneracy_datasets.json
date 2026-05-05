@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ntnu-arl/lidar_degeneracy_datasets",
+      "target": "ntnu-arl/ouster-ros",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ntnu-arl/lidar_degeneracy_datasets",
+      "target": "inertial-navigation-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ntnu-arl/lidar_degeneracy_datasets",
+      "target": "lidar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ntnu-arl/lidar_degeneracy_datasets",
+      "target": "lidar-degeneracy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ntnu-arl/lidar_degeneracy_datasets",
+      "target": "odometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ntnu-arl/lidar_degeneracy_datasets",
+      "target": "radar",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "ntnu-arl/lidar_degeneracy_datasets"
+}

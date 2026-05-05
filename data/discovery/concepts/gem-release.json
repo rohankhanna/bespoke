@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Gem Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "voxpupuli/json-schema",
+      "status": "candidate-context",
+      "text": "Ruby JSON Schema Validator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voxpupuli/json-schema",
+      "status": "candidate-context",
+      "text": "Gem Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voxpupuli/json-schema",
+      "status": "candidate",
+      "text": "Gem Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11721,
+      "status": "candidate",
+      "text": "setting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11667,
+      "status": "candidate",
+      "text": "spread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10694,
+      "status": "candidate",
+      "text": "agate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10694,
+      "status": "candidate",
+      "text": "amethyst"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10694,
+      "status": "candidate",
+      "text": "asteria"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Gem Release",
+  "concept_id": "gem-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "voxpupuli/json-schema"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Gem Release",
+      "sense_id": "gem-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

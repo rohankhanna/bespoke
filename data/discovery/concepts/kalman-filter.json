@@ -19,6 +19,18 @@
       "source_repo": "gisbi-kim/FAST_LIO_SLAM",
       "status": "candidate-context",
       "text": "- ``Aug 2021``: The Livox-lidar tests and corresponding launch files will be uploaded soon. Currenty only Ouster lidar tutorial videos had been made."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "status": "candidate-context",
+      "text": "Robotics Toolbox for MATLAB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/petercorke/robotics-toolbox-matlab.svg?branch=master)](https://travis-ci.com/petercorke/robotics-toolbox-matlab)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "gisbi-kim/FAST_LIO_SLAM",
       "status": "candidate",
       "text": "- ``Aug 2021``: The Livox-lidar tests and corresponding launch files will be uploaded soon. Currenty only Ouster lidar tutorial videos had been made."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/petercorke/robotics-toolbox-matlab.svg?branch=master)](https://travis-ci.com/petercorke/robotics-toolbox-matlab)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "gisbi-kim/FAST_LIO_SLAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-matlab"
     }
   ],
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

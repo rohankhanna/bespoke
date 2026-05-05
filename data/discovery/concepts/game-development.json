@@ -487,6 +487,30 @@
       "source_repo": "panda3d/panda3d",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/panda3d/panda3d/workflows/Continuous%20Integration/badge.svg?branch=master)](https://github.com/panda3d/panda3d/actions?query=branch%3Amaster+workflow%3A%22Continuous+Integration%22)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Saalvage/AssimpNetter",
+      "status": "candidate-context",
+      "text": "Maintained fork of AssimpNet that adds better interop with modern C#"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Saalvage/AssimpNetter",
+      "status": "candidate-context",
+      "text": "![alt text](https://raw.githubusercontent.com/Saalvage/AssimpNetter/master/logo.png \"AssimpNet Logo\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "undreamai/LLMUnity",
+      "status": "candidate-context",
+      "text": "Create characters in Unity with LLMs!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "undreamai/LLMUnity",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -729,6 +753,18 @@
       "source_repo": "panda3d/panda3d",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/panda3d/panda3d/workflows/Continuous%20Integration/badge.svg?branch=master)](https://github.com/panda3d/panda3d/actions?query=branch%3Amaster+workflow%3A%22Continuous+Integration%22)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Saalvage/AssimpNetter",
+      "status": "candidate",
+      "text": "![alt text](https://raw.githubusercontent.com/Saalvage/AssimpNetter/master/logo.png \"AssimpNet Logo\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "undreamai/LLMUnity",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1360,11 +1396,65 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "GDevelopApp/GDevelop-extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Saalvage/AssimpNetter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdnative"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "TrenchBroom/TrenchBroom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "undreamai/LLMUnity"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

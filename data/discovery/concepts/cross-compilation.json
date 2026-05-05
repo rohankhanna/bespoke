@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "cross-compilation"
+    "cross-compilation",
+    "Cross-compilation"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -55,6 +58,18 @@
       "source_repo": "japaric/xargo",
       "status": "candidate-context",
       "text": "[![crates.io](https://img.shields.io/crates/v/xargo.svg)](https://crates.io/crates/xargo)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvc5/cvc5",
+      "status": "candidate-context",
+      "text": "cvc5 is an open-source automatic theorem prover for Satisfiability Modulo Theories (SMT) problems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvc5/cvc5",
+      "status": "candidate-context",
+      "text": "Cross-compilation"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +96,12 @@
       "source_repo": "japaric/xargo",
       "status": "candidate",
       "text": "[![crates.io](https://img.shields.io/crates/v/xargo.svg)](https://crates.io/crates/xargo)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvc5/cvc5",
+      "status": "candidate",
+      "text": "Cross-compilation"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +139,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "cross-rs/cross"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/cross_compilation.yml",
+      "source_repo": "cvc5/cvc5"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

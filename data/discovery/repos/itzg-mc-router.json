@@ -1,0 +1,219 @@
+{
+  "components": [
+    {
+      "component": "itzg/github-workflows/.github/workflows/issues-notify-discord.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-notify.yml"
+    },
+    {
+      "component": "itzg/github-workflows/.github/workflows/go-with-releaser-image.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "itzg/github-workflows/.github/workflows/go-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "itzg/mc-router",
+      "target": "itzg/docker-minecraft-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "itzg/mc-router",
+      "target": "seedloaf/mc-router-discovery",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "itzg/mc-router",
+      "target": "jlschuler99/svc-router",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-notify.yml",
+      "source_repo": "itzg/mc-router",
+      "target": "itzg/github-workflows/.github/workflows/issues-notify-discord.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-notify.yml",
+      "source_repo": "itzg/mc-router",
+      "target": "Issues notify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "itzg/mc-router",
+      "target": "itzg/github-workflows/.github/workflows/go-with-releaser-image.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "itzg/mc-router",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "itzg/mc-router",
+      "target": "itzg/github-workflows/.github/workflows/go-test.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "itzg/mc-router",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itzg/mc-router",
+      "target": "docker-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itzg/mc-router",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itzg/mc-router",
+      "target": "minecraft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itzg/mc-router",
+      "target": "minecraft-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:52:15.125316+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 35305
+    },
+    {
+      "path": "Dockerfile",
+      "size": 496
+    },
+    {
+      "path": "go.mod",
+      "size": 5062
+    },
+    {
+      "path": ".github/workflows/issues-notify.yml",
+      "size": 274
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 409
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 397
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Routes Minecraft client connections to backend servers based upon the requested server address",
+    "fork": false,
+    "full_name": "itzg/mc-router",
+    "html_url": "https://github.com/itzg/mc-router",
+    "language": "Go",
+    "pushed_at": "2026-05-05T03:20:36Z",
+    "stargazers_count": 846,
+    "topics": [
+      "docker-image",
+      "hacktoberfest",
+      "minecraft",
+      "minecraft-server"
+    ],
+    "updated_at": "2026-05-04T10:00:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "itzg/docker-minecraft-server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jlschuler99/svc-router",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seedloaf/mc-router-discovery",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Issues notify",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-notify.yml",
+      "term": "Issues notify"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "[![GitHub issues](https://img.shields.io/github/issues/itzg/mc-router.svg)](https://github.com/itzg/mc-router/issues)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-image"
+    },
+    {
+      "context_snippet": "[![GitHub issues](https://img.shields.io/github/issues/itzg/mc-router.svg)](https://github.com/itzg/mc-router/issues)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![GitHub issues](https://img.shields.io/github/issues/itzg/mc-router.svg)](https://github.com/itzg/mc-router/issues)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minecraft"
+    },
+    {
+      "context_snippet": "[![GitHub issues](https://img.shields.io/github/issues/itzg/mc-router.svg)](https://github.com/itzg/mc-router/issues)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minecraft-server"
+    }
+  ]
+}

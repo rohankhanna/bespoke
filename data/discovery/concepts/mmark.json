@@ -31,6 +31,18 @@
       "source_repo": "mmark-md/flycheck-mmark",
       "status": "candidate-context",
       "text": "[![License GPL 3](https://img.shields.io/badge/license-GPL_3-green.svg)](http://www.gnu.org/licenses/gpl-3.0.txt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mmark-md/mmark-cli",
+      "status": "candidate-context",
+      "text": "Command line interface to the MMark markdown processor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmark-md/mmark-cli",
+      "status": "candidate-context",
+      "text": "[![License BSD3](https://img.shields.io/badge/license-BSD3-brightgreen.svg)](http://opensource.org/licenses/BSD-3-Clause)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "mmark-md/flycheck-mmark",
       "status": "candidate",
       "text": "[![License GPL 3](https://img.shields.io/badge/license-GPL_3-green.svg)](http://www.gnu.org/licenses/gpl-3.0.txt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmark-md/mmark-cli",
+      "status": "candidate",
+      "text": "[![License BSD3](https://img.shields.io/badge/license-BSD3-brightgreen.svg)](http://opensource.org/licenses/BSD-3-Clause)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "mmark-md/flycheck-mmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "mmark-md/mmark-cli"
     }
   ],
   "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

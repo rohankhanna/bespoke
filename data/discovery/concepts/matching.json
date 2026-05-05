@@ -127,6 +127,18 @@
       "source_repo": "NTMC-Community/MatchZoo-py",
       "status": "candidate-context",
       "text": "<div align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "koide3/ndt_omp",
+      "status": "candidate-context",
+      "text": "Multi-threaded and SSE friendly NDT algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koide3/ndt_omp",
+      "status": "candidate-context",
+      "text": "This package provides an OpenMP-boosted Normal Distributions Transform (and GICP) algorithm derived from pcl. The NDT algorithm is modified to be SSE-friendly and multi-threaded. It can run up to 10 times faster than its original version in pcl."
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "NTMC-Community/MatchZoo-py",
       "status": "candidate",
       "text": "<div align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koide3/ndt_omp",
+      "status": "candidate",
+      "text": "This package provides an OpenMP-boosted Normal Distributions Transform (and GICP) algorithm derived from pcl. The NDT algorithm is modified to be SSE-friendly and multi-threaded. It can run up to 10 times faster than its original version in pcl."
     }
   ],
   "candidate_related_terms": [
@@ -508,11 +526,29 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "koide3/ndt_omp"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

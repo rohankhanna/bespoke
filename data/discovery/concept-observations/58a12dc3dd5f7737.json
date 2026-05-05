@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u23f0 Day.js 2kB immutable date-time library alternative to Moment.js with the same modern API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./docs/zh-cn/README.zh-CN.md) | [\u65e5\u672c\u8a9e](./docs/ja/README-ja.md) | [Portugu\u00eas Brasileiro](./docs/pt-br/README-pt-br.md) | [\ud55c\uad6d\uc5b4](./docs/ko/README-ko.md) | [Espa\u00f1ol (Espa\u00f1a)](./docs/es-es/README-es-es.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](./docs/ru/README-ru.md) | [T\u00fcrk\u00e7e](./docs/tr/READM\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./docs/zh-cn/README.zh-CN.md) | [\u65e5\u672c\u8a9e](./docs/ja/README-ja.md) | [Portugu\u00eas Brasileiro](./docs/pt-br/README-pt-br.md) | [\ud55c\uad6d\uc5b4](./docs/ko/README-ko.md) | [Espa\u00f1ol (Espa\u00f1a)](./docs/es-es/README-es-es.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](./docs/ru/README-ru.md) | [T\u00fcrk\u00e7e](./docs/tr/READM\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029753,
+      "status": "candidate",
+      "text": "instant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023851,
+      "status": "candidate",
+      "text": "here and now"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022041,
+      "status": "candidate",
+      "text": "second"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020272,
+      "status": "candidate",
+      "text": "consequence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39979576,
+      "status": "candidate",
+      "text": "import"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "moment",
+      "sense_id": "moment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37039,
+      "status": "candidate",
+      "text": "consequence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22099,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17061,
+      "status": "candidate",
+      "text": "minute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14039,
+      "status": "candidate",
+      "text": "instant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10055,
+      "status": "candidate",
+      "text": "import"
+    }
+  ],
+  "concept_id": "moment",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "moment",
+  "observation_id": "58a12dc3dd5f7737",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "moment",
+  "source_context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./docs/zh-cn/README.zh-CN.md) | [\u65e5\u672c\u8a9e](./docs/ja/README-ja.md) | [Portugu\u00eas Brasileiro](./docs/pt-br/README-pt-br.md) | [\ud55c\uad6d\uc5b4](./docs/ko/README-ko.md) | [Espa\u00f1ol (Espa\u00f1a)](./docs/es-es/README-es-es.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](./docs/ru/README-ru.md) | [T\u00fcrk\u00e7e](./docs/tr/READM\u2026",
+  "source_file": null,
+  "source_repo": "iamkun/dayjs",
+  "source_repo_description": "\u23f0 Day.js 2kB immutable date-time library alternative to Moment.js with the same modern API"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "cells"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trailblazer/trailblazer-cells",
+      "status": "candidate-context",
+      "text": "Trailblazer's file structure for Cells."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trailblazer/trailblazer-cells",
+      "status": "candidate-context",
+      "text": "_Trailblazer's file layout for Cells._"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trailblazer/trailblazer-cells",
+      "status": "candidate",
+      "text": "_Trailblazer's file layout for Cells._"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9983556,
+      "status": "candidate",
+      "text": "prison cell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9982198,
+      "status": "candidate",
+      "text": "jail cell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9942477,
+      "status": "candidate",
+      "text": "cadre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9915779,
+      "status": "candidate",
+      "text": "cubicle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51527,
+      "status": "candidate",
+      "text": "electric cell"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "cells",
+  "concept_id": "cells",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "trailblazer/trailblazer-cells"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cells",
+      "sense_id": "cells#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

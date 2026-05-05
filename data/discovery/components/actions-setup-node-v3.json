@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v3",
   "first_seen_at": "2026-04-18T04:38:51.315908+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -3517,6 +3517,66 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/doc-site.yml",
       "source_repo": "ant-design/ant-design-mobile"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "typicode/mistcss"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pulse-browser/experiment"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ameshkov/safari-blocker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "azdavis/ungrammar-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "React9k/react-timeline-9000"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "iamkun/dayjs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "iamkun/dayjs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "breejs/ts-worker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pulse-browser/gluon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-ci.yaml",
+      "source_repo": "aws-observability/observability-best-practices"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yaml",
+      "source_repo": "aws-observability/observability-best-practices"
     }
   ]
 }

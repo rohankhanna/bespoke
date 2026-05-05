@@ -84,7 +84,7 @@
   "normalized_form": "delete-doc-comment-trigger",
   "observation_id": "f2ed54141a631b2f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Delete doc comment trigger",
   "source_context_snippet": "Delete doc comment trigger",
   "source_file": ".github/workflows/delete_doc_comment_trigger.yml",

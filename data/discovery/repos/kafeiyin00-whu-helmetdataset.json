@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kafeiyin00/WHU-HelmetDataset",
+      "target": "livox-sdk/lio-livox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kafeiyin00/WHU-HelmetDataset",
+      "target": "hku-mars/loam_livox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kafeiyin00/WHU-HelmetDataset",
+      "target": "yuepanedward/mulls",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T13:52:29.396367+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7253
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[IEEE TGRS'23] WHU-Helmet: A helmet-based multi-sensor SLAM dataset for the evaluation of real-time 3D mapping in large-scale GNSS-denied environments",
+    "fork": false,
+    "full_name": "kafeiyin00/WHU-HelmetDataset",
+    "html_url": "https://github.com/kafeiyin00/WHU-HelmetDataset",
+    "language": "C++",
+    "pushed_at": "2025-04-07T02:15:44Z",
+    "stargazers_count": 221,
+    "topics": [],
+    "updated_at": "2026-04-23T14:17:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hku-mars/loam_livox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "livox-sdk/lio-livox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuepanedward/mulls",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

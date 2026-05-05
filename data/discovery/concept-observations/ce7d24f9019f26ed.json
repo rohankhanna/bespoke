@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "2D and 3D computational geometry library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![version](https://img.shields.io/pypi/v/polliwog?style=flat-square)][pypi]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![version](https://img.shields.io/pypi/v/polliwog?style=flat-square)][pypi]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19970386,
+      "status": "candidate",
+      "text": "centrobaric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19970385,
+      "status": "candidate",
+      "text": "centrobarical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19970384,
+      "status": "candidate",
+      "text": "centroidal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19970383,
+      "status": "candidate",
+      "text": "metacentric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19970382,
+      "status": "candidate",
+      "text": "centrosomal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "barycentric",
+      "sense_id": "barycentric#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "barycentric",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "barycentric",
+  "observation_id": "ce7d24f9019f26ed",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "barycentric",
+  "source_context_snippet": "[![version](https://img.shields.io/pypi/v/polliwog?style=flat-square)][pypi]",
+  "source_file": null,
+  "source_repo": "lace/polliwog",
+  "source_repo_description": "2D and 3D computational geometry library"
+}

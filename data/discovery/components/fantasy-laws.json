@@ -1,7 +1,7 @@
 {
   "component": "fantasy-laws",
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -12,6 +12,26 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "sanctuary-js/sanctuary-type-classes"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-descending"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-either"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-maybe"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-pair"
     }
   ]
 }

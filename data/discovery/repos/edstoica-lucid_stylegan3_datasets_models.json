@@ -5,25 +5,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "edstoica/lucid_stylegan3_datasets_models",
-      "target": "pdillis/stylegan3-fun",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "edstoica/lucid_stylegan3_datasets_models",
-      "target": "edstoica/stylegan3",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "edstoica/lucid_stylegan3_datasets_models",
       "target": "edstoica/lucid_stylegan3_models",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-05T07:59:40.547533+00:00",
+  "fetched_at": "2026-05-05T14:54:13.972878+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -48,16 +34,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "edstoica/lucid_stylegan3_models",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "edstoica/stylegan3",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pdillis/stylegan3-fun",
       "source_file": "README.md"
     }
   ],

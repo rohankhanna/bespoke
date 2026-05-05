@@ -36,12 +36,12 @@
       "source_file": ".github/workflows/issue-close.yml"
     },
     {
-      "component": "egor-tensin/setup-gcc@v1",
+      "component": "egor-tensin/setup-gcc@v2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linux.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linux.yml"
     },
@@ -61,12 +61,12 @@
       "source_file": ".github/workflows/osx.yml"
     },
     {
-      "component": "actions/checkout@v3",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/static-analysis.yml"
     },
     {
-      "component": "pre-commit/action@v3.0.0",
+      "component": "pre-commit/action@v3.0.1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/static-analysis.yml"
     },
@@ -166,14 +166,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linux.yml",
       "source_repo": "xtensor-stack/xtensor",
-      "target": "egor-tensin/setup-gcc@v1",
+      "target": "egor-tensin/setup-gcc@v2",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linux.yml",
       "source_repo": "xtensor-stack/xtensor",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
@@ -215,21 +215,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/static-analysis.yml",
       "source_repo": "xtensor-stack/xtensor",
-      "target": "actions/checkout@v3",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/static-analysis.yml",
-      "source_repo": "xtensor-stack/xtensor",
-      "target": "pre-commit/action@v3.0.0",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/static-analysis.yml",
-      "source_repo": "xtensor-stack/xtensor",
       "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-analysis.yml",
+      "source_repo": "xtensor-stack/xtensor",
+      "target": "pre-commit/action@v3.0.1",
       "target_type": "component"
     },
     {
@@ -296,7 +289,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T06:57:34.655358+00:00",
+  "fetched_at": "2026-05-05T16:53:04.235944+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -316,7 +309,7 @@
     },
     {
       "path": ".github/workflows/linux.yml",
-      "size": 3912
+      "size": 4825
     },
     {
       "path": ".github/workflows/osx.yml",
@@ -340,7 +333,7 @@
     "full_name": "xtensor-stack/xtensor",
     "html_url": "https://github.com/xtensor-stack/xtensor",
     "language": "C++",
-    "pushed_at": "2026-05-03T22:41:02Z",
+    "pushed_at": "2026-05-05T11:58:03Z",
     "stargazers_count": 3731,
     "topics": [
       "c-plus-plus-14",
@@ -348,7 +341,7 @@
       "numpy",
       "tensors"
     ],
-    "updated_at": "2026-05-04T15:15:39Z"
+    "updated_at": "2026-05-05T11:57:41Z"
   },
   "repo_links": [],
   "terms": [

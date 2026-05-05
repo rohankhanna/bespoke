@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PyPi Build and Deploy \ud83d\udc0d\ud83d\udce6"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NCAS-CMS/pyfive",
+      "status": "candidate-context",
+      "text": "A pure Python HDF5 file reader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NCAS-CMS/pyfive",
+      "status": "candidate-context",
+      "text": "PyPi Build and Deploy \ud83d\udc0d\ud83d\udce6"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NCAS-CMS/pyfive",
+      "status": "candidate",
+      "text": "PyPi Build and Deploy \ud83d\udc0d\ud83d\udce6"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13501,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13501,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12380,
+      "status": "candidate",
+      "text": "array"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12380,
+      "status": "candidate",
+      "text": "implemented"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12380,
+      "status": "candidate",
+      "text": "marshal"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PyPi Build and Deploy \ud83d\udc0d\ud83d\udce6",
+  "concept_id": "pypi-build-and-deploy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build-and-deploy-on-pypi.yml",
+      "source_repo": "NCAS-CMS/pyfive"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PyPi Build and Deploy \ud83d\udc0d\ud83d\udce6",
+      "sense_id": "pypi-build-and-deploy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

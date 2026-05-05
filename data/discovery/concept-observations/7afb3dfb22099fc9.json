@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An ultra lightweight minecraft reverse proxy and idle placeholder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024491,
+      "status": "candidate",
+      "text": "deputy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023674,
+      "status": "candidate",
+      "text": "procurator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010769,
+      "status": "candidate",
+      "text": "subordinate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39929963,
+      "status": "candidate",
+      "text": "low-level"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024775,
+      "status": "candidate",
+      "text": "acting"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "proxy",
+      "sense_id": "proxy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11042,
+      "status": "candidate",
+      "text": "deputy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7033,
+      "status": "candidate",
+      "text": "procurator"
+    }
+  ],
+  "concept_id": "proxy",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "proxy",
+  "observation_id": "7afb3dfb22099fc9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "proxy",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "haveachin/infrared",
+  "source_repo_description": "An ultra lightweight minecraft reverse proxy and idle placeholder"
+}

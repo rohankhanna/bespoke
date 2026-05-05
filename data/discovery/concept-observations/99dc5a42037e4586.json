@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Efficient and parallel algorithms for point cloud registration [C++, Python]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "license"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "license"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039801,
+      "status": "candidate",
+      "text": "certify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039727,
+      "status": "candidate",
+      "text": "permission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035181,
+      "status": "candidate",
+      "text": "permit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992877,
+      "status": "candidate",
+      "text": "licence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045801,
+      "status": "candidate",
+      "text": "licensure"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "license",
+      "sense_id": "license#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13049,
+      "status": "candidate",
+      "text": "permit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12038,
+      "status": "candidate",
+      "text": "certify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6040,
+      "status": "candidate",
+      "text": "permission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33,
+      "status": "candidate",
+      "text": "licence"
+    }
+  ],
+  "concept_id": "license",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "license",
+  "observation_id": "99dc5a42037e4586",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "license",
+  "source_context_snippet": "license",
+  "source_file": ".github/workflows/license.yml",
+  "source_repo": "koide3/small_gicp",
+  "source_repo_description": "Efficient and parallel algorithms for point cloud registration [C++, Python]"
+}

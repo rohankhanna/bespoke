@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hsivonen/testdet",
+      "target": "hsivonen/compact_enc_det",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:04:49.354930+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 615
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 652
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A test program for chardetng",
+    "fork": false,
+    "full_name": "hsivonen/testdet",
+    "html_url": "https://github.com/hsivonen/testdet",
+    "language": "Rust",
+    "pushed_at": "2021-06-15T13:05:54Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2021-06-15T13:05:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hsivonen/compact_enc_det",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

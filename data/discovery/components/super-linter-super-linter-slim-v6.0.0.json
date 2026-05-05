@@ -1,0 +1,12 @@
+{
+  "component": "super-linter/super-linter/slim@v6.0.0",
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-super-linter.yml",
+      "source_repo": "stefan-hoeck/idris2-pack"
+    }
+  ]
+}

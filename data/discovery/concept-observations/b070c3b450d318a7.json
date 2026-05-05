@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "museval - source separation evaluation tools for python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Latest docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Latest docs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11434,
+      "status": "candidate",
+      "text": "dernier cri"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11313,
+      "status": "candidate",
+      "text": "abb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11313,
+      "status": "candidate",
+      "text": "acts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11313,
+      "status": "candidate",
+      "text": "ade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11313,
+      "status": "candidate",
+      "text": "albert schweitzer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Latest docs",
+      "sense_id": "latest-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "latest-docs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "latest-docs",
+  "observation_id": "b070c3b450d318a7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "Latest docs",
+  "source_context_snippet": "Latest docs",
+  "source_file": ".github/workflows/test_docs.yml",
+  "source_repo": "sigsep/sigsep-mus-eval",
+  "source_repo_description": "museval - source separation evaluation tools for python"
+}

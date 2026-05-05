@@ -1,0 +1,248 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lace/polliwog",
+      "target": "bodylabs/blmath",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lace/polliwog",
+      "target": "metabolize/blmath",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lace/polliwog",
+      "target": "lace/vg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/polliwog",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/polliwog",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/polliwog",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/polliwog",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/polliwog",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/polliwog",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/polliwog",
+      "target": "barycentric",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/polliwog",
+      "target": "computational-geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/polliwog",
+      "target": "geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/polliwog",
+      "target": "plane-geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/polliwog",
+      "target": "polygonal-chain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/polliwog",
+      "target": "polyline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/polliwog",
+      "target": "transformations",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T15:48:10.861302+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2972
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1826
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 989
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "2D and 3D computational geometry library",
+    "fork": false,
+    "full_name": "lace/polliwog",
+    "html_url": "https://github.com/lace/polliwog",
+    "language": "Python",
+    "pushed_at": "2026-04-10T03:29:42Z",
+    "stargazers_count": 34,
+    "topics": [
+      "3d",
+      "barycentric",
+      "computational-geometry",
+      "geometry",
+      "plane-geometry",
+      "polygonal-chain",
+      "polyline",
+      "transformations"
+    ],
+    "updated_at": "2026-04-24T06:26:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bodylabs/blmath",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lace/vg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "metabolize/blmath",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/polliwog?style=flat-square)][pypi]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "barycentric"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/polliwog?style=flat-square)][pypi]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computational-geometry"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/polliwog?style=flat-square)][pypi]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geometry"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/polliwog?style=flat-square)][pypi]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plane-geometry"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/polliwog?style=flat-square)][pypi]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polygonal-chain"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/polliwog?style=flat-square)][pypi]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polyline"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/polliwog?style=flat-square)][pypi]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformations"
+    }
+  ]
+}

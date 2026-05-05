@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bpiyush/CLIP-grounding",
+      "target": "bcv-uniandes/png",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:55:48.127943+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5769
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2143
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Evaluating CLIP's cross-modal grounding using explainability methods.",
+    "fork": false,
+    "full_name": "bpiyush/CLIP-grounding",
+    "html_url": "https://github.com/bpiyush/CLIP-grounding",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-09-07T13:59:58Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-10-20T13:17:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bcv-uniandes/png",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

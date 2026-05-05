@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2764\ufe0f SQLite ORM light header only library for modern C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30005844,
+      "status": "candidate",
+      "text": "filth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29984338,
+      "status": "candidate",
+      "text": "darn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29984322,
+      "status": "candidate",
+      "text": "dang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29969315,
+      "status": "candidate",
+      "text": "damn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29931947,
+      "status": "candidate",
+      "text": "dammit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "crud",
+      "sense_id": "crud#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "crud",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "crud",
+  "observation_id": "1695093b08cd1c92",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "crud",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "fnc12/sqlite_orm",
+  "source_repo_description": "\u2764\ufe0f SQLite ORM light header only library for modern C++"
+}

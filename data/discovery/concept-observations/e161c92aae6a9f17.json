@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Utilities for working with native solc and compiling projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Archived as a standalone repository. Maintenance and publishing continue from [`foundry-core`](https://github.com/foundry-rs/foundry-core) under the same [`foundry-compilers`](https://crates.io/crates/foundry-compilers) crate name."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Archived as a standalone repository. Maintenance and publishing continue from [`foundry-core`](https://github.com/foundry-rs/foundry-core) under the same [`foundry-compilers`](https://crates.io/crates/foundry-compilers) crate name."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39859561,
+      "status": "candidate",
+      "text": "metalworks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29863284,
+      "status": "candidate",
+      "text": "smelting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29863036,
+      "status": "candidate",
+      "text": "refinery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29862179,
+      "status": "candidate",
+      "text": "smelter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29861872,
+      "status": "candidate",
+      "text": "die-cast"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "foundry",
+      "sense_id": "foundry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2012,
+      "status": "candidate",
+      "text": "metalworks"
+    }
+  ],
+  "concept_id": "foundry",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "foundry",
+  "observation_id": "e161c92aae6a9f17",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "foundry",
+  "source_context_snippet": "Archived as a standalone repository. Maintenance and publishing continue from [`foundry-core`](https://github.com/foundry-rs/foundry-core) under the same [`foundry-compilers`](https://crates.io/crates/foundry-compilers) crate name.",
+  "source_file": null,
+  "source_repo": "foundry-rs/compilers",
+  "source_repo_description": "Utilities for working with native solc and compiling projects."
+}

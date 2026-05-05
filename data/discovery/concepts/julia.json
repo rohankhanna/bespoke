@@ -1489,6 +1489,30 @@
       "source_repo": "storopoli/Bayesian-Statistics",
       "status": "candidate-context",
       "text": "[![CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-sa/4.0/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaInterop/Clang.jl",
+      "status": "candidate-context",
+      "text": "C binding generator and Julia interface to libclang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaInterop/Clang.jl",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/JuliaInterop/Clang.jl/actions/workflows/ci.yml/badge.svg)](https://github.com/JuliaInterop/Clang.jl/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jump-dev/NLopt.jl",
+      "status": "candidate-context",
+      "text": "A Julia interface to the NLopt nonlinear-optimization library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/NLopt.jl",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/jump-dev/NLopt.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jump-dev/NLopt.jl/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_glosses": [
@@ -2235,6 +2259,18 @@
       "source_repo": "storopoli/Bayesian-Statistics",
       "status": "candidate",
       "text": "[![CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-sa/4.0/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaInterop/Clang.jl",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/JuliaInterop/Clang.jl/actions/workflows/ci.yml/badge.svg)](https://github.com/JuliaInterop/Clang.jl/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/NLopt.jl",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/jump-dev/NLopt.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jump-dev/NLopt.jl/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_related_terms": [
@@ -3514,11 +3550,71 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "JTAmos/Temporal.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "JuliaInterop/NBInclude.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLang/SoftGlobalScope.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "JuliaInterop/Clang.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "JTAmos/Indicators.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "jump-dev/NLopt.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

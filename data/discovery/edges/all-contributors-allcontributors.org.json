@@ -193,14 +193,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/sync-translations.yml",
       "source_repo": "all-contributors/allcontributors.org",
-      "target": "/actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/sync-translations.yml",
       "source_repo": "all-contributors/allcontributors.org",
-      "target": "crowdin/github-action@5587c43",
+      "target": "crowdin/github-action@5587c43063e52090026857d386174d2599ad323b",
       "target_type": "component"
     },
     {
@@ -260,6 +260,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-05T06:54:34.093705+00:00",
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
   "source_repo": "all-contributors/allcontributors.org"
 }

@@ -103,6 +103,18 @@
       "source_repo": "broadinstitute/cromwell",
       "status": "candidate-context",
       "text": "[![codecov](https://codecov.io/gh/broadinstitute/cromwell/branch/develop/graph/badge.svg)](https://codecov.io/gh/broadinstitute/cromwell)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternLM/HuixiangDou",
+      "status": "candidate-context",
+      "text": "HuixiangDou: Overcoming Group Chat Scenarios with LLM-based Technical Assistance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/HuixiangDou",
+      "status": "candidate-context",
+      "text": "[HuixiangDou2](https://github.com/tpoisonooo/HuixiangDou2)(ACL25) is a GraphRAG solution whose effectiveness has been demonstrated in the plant-science domain and that contributed to the [**cover paper in Cell**](https://www.cell.com/molecular-plant/issue?pii=S1674-2052(24)X0008\u2026"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "broadinstitute/cromwell",
       "status": "candidate",
       "text": "[![codecov](https://codecov.io/gh/broadinstitute/cromwell/branch/develop/graph/badge.svg)](https://codecov.io/gh/broadinstitute/cromwell)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/HuixiangDou",
+      "status": "candidate",
+      "text": "[HuixiangDou2](https://github.com/tpoisonooo/HuixiangDou2)(ACL25) is a GraphRAG solution whose effectiveness has been demonstrated in the plant-science domain and that contributed to the [**cover paper in Cell**](https://www.cell.com/molecular-plant/issue?pii=S1674-2052(24)X0008\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -436,11 +454,29 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "InternLM/HuixiangDou"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

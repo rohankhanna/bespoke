@@ -1,7 +1,7 @@
 {
   "component": "peaceiris/actions-gh-pages@v3",
   "first_seen_at": "2026-04-18T09:45:12.634395+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -927,6 +927,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "HaxeFlixel/haxeflixel.com"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/guide.yml",
+      "source_repo": "ChorusOne/ibc-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-github.yml",
+      "source_repo": "viperproject/smt-scope"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "rust-lang/portable-simd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-ci.yaml",
+      "source_repo": "aws-observability/observability-best-practices"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "undreamai/LlamaLib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "undreamai/LLMUnity"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml",
+      "source_repo": "usdot-fhwa-stol/carma-platform"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yaml",
+      "source_repo": "box2ai-robotics/robosuite-joycon"
     }
   ]
 }

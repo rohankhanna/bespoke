@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "estimate"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fugro-oss/g2o",
+      "status": "candidate-context",
+      "text": "A .Net wrapper for the G2O (graph-based optimization) library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fugro-oss/g2o",
+      "status": "candidate-context",
+      "text": "A .Net wrapper for the G2O (graph-based optimization) library"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fugro-oss/g2o",
+      "status": "candidate",
+      "text": "A .Net wrapper for the G2O (graph-based optimization) library"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39966352,
+      "status": "candidate",
+      "text": "estimation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39963651,
+      "status": "candidate",
+      "text": "reckon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39962930,
+      "status": "candidate",
+      "text": "appraisal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39962345,
+      "status": "candidate",
+      "text": "approximation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39960989,
+      "status": "candidate",
+      "text": "count on"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39052,
+      "status": "candidate",
+      "text": "idea"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24036,
+      "status": "candidate",
+      "text": "reckon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23063,
+      "status": "candidate",
+      "text": "figure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19065,
+      "status": "candidate",
+      "text": "gauge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16057,
+      "status": "candidate",
+      "text": "appraisal"
+    }
+  ],
+  "canonical_name": "estimate",
+  "concept_id": "estimate",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "fugro-oss/g2o"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "estimate",
+      "sense_id": "estimate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

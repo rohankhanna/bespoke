@@ -170,6 +170,60 @@
       "source_repo": "open-telemetry/opentelemetry-helm-charts",
       "status": "candidate-context",
       "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "This repository contains the OpenTelemetry Astronomy Shop, a microservice-based distributed system intended to illustrate the implementation of OpenTelemetry in a near real-world environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "status": "candidate-context",
+      "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aliyun-sls/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "This repository contains the OpenTelemetry Astronomy Shop, a microservice-based distributed system intended to illustrate the implementation of OpenTelemetry in a near real-world environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliyun-sls/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/doris-opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Apache doris"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/doris-opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/weaver",
+      "status": "candidate-context",
+      "text": "OTel Weaver lets you easily develop, validate, document, and deploy semantic conventions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/weaver",
+      "status": "candidate-context",
+      "text": "FOSSA scanning"
     }
   ],
   "candidate_glosses": [
@@ -254,6 +308,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "open-telemetry/opentelemetry-helm-charts",
+      "status": "candidate",
+      "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-demo",
+      "status": "candidate",
+      "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "status": "candidate",
+      "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliyun-sls/opentelemetry-demo",
+      "status": "candidate",
+      "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/doris-opentelemetry-demo",
+      "status": "candidate",
+      "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/weaver",
       "status": "candidate",
       "text": "FOSSA scanning"
     }
@@ -383,11 +467,41 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": ".github/workflows/fossa.yml",
       "source_repo": "open-telemetry/opentelemetry-helm-charts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "aliyun-sls/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "apache/doris-opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/weaver"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

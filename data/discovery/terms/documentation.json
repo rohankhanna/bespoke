@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -1056,6 +1056,31 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "cucumber/cucumber-js-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "kubernetes/ingress-nginx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/yard.yml",
+      "source_repo": "dkubb/equalizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "astroyat/lerobot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "rust-lang/portable-simd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-telemetry/weaver"
     }
   ],
   "term": "documentation"

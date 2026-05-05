@@ -19,6 +19,18 @@
       "source_repo": "cometbft/tendermint-rs",
       "status": "candidate-context",
       "text": "[![Crate][crate-image]][crate-link]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datachainlab/ethereum-ibc-rs",
+      "status": "candidate-context",
+      "text": "Ethereum Light Client for IBC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/ethereum-ibc-rs",
+      "status": "candidate-context",
+      "text": "[![test](https://github.com/datachainlab/ethereum-ibc-rs/actions/workflows/test.yml/badge.svg)](https://github.com/datachainlab/ethereum-ibc-rs/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "cometbft/tendermint-rs",
       "status": "candidate",
       "text": "[![Crate][crate-image]][crate-link]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/ethereum-ibc-rs",
+      "status": "candidate",
+      "text": "[![test](https://github.com/datachainlab/ethereum-ibc-rs/actions/workflows/test.yml/badge.svg)](https://github.com/datachainlab/ethereum-ibc-rs/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,23 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "cometbft/tendermint-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "cometbft/tendermint-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "datachainlab/ethereum-ibc-rs"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

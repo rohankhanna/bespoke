@@ -1,7 +1,7 @@
 {
   "component": "pypa/gh-action-pypi-publish@release/v1",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2697,6 +2697,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "sony/nnabla-rl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy-on-pypi.yml",
+      "source_repo": "NCAS-CMS/pyfive"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Zulko/moviepy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tlaplus-community/tree-sitter-tlaplus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "InternLM/HuixiangDou"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-kimi-cli.yml",
+      "source_repo": "MoonshotAI/kimi-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-pypi.yaml",
+      "source_repo": "box2ai-robotics/robosuite-joycon"
     }
   ]
 }

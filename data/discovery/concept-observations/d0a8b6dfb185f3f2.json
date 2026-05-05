@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A cross-platform command-line tool to convert images into ascii art and print them on the console. Now supports braille art!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![release-version](https://img.shields.io/github/v/release/TheZoraiz/ascii-image-converter?label=Latest%20Version)](https://github.com/TheZoraiz/ascii-image-converter/releases/latest)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![release-version](https://img.shields.io/github/v/release/TheZoraiz/ascii-image-converter?label=Latest%20Version)](https://github.com/TheZoraiz/ascii-image-converter/releases/latest)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035784,
+      "status": "candidate",
+      "text": "flick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034213,
+      "status": "candidate",
+      "text": "crack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033627,
+      "status": "candidate",
+      "text": "click"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031250,
+      "status": "candidate",
+      "text": "rupture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028520,
+      "status": "candidate",
+      "text": "snarl"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "snap",
+      "sense_id": "snap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 81037,
+      "status": "candidate",
+      "text": "snarl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43070,
+      "status": "candidate",
+      "text": "crack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23046,
+      "status": "candidate",
+      "text": "rupture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17047,
+      "status": "candidate",
+      "text": "flick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16045,
+      "status": "candidate",
+      "text": "snatch"
+    }
+  ],
+  "concept_id": "snap",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "snap",
+  "observation_id": "d0a8b6dfb185f3f2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "snap",
+  "source_context_snippet": "[![release-version](https://img.shields.io/github/v/release/TheZoraiz/ascii-image-converter?label=Latest%20Version)](https://github.com/TheZoraiz/ascii-image-converter/releases/latest)",
+  "source_file": null,
+  "source_repo": "TheZoraiz/ascii-image-converter",
+  "source_repo_description": "A cross-platform command-line tool to convert images into ascii art and print them on the console. Now supports braille art!"
+}

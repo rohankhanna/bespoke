@@ -31,6 +31,18 @@
       "source_repo": "hermit-os/hermit-rs",
       "status": "candidate-context",
       "text": "<img width=\"256\" align=\"right\" src=\"https://github.com/hermit-os/.github/blob/main/logo/hermit-logo.svg\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alex313031/ThoriumOS",
+      "status": "candidate-context",
+      "text": "ChromiumOS fork with Thorium Browser, x264/x265 codecs, Widevine, Kernel 5.15, Linux firmware/modules support, Nouveau, Intel microcode, and extra packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/ThoriumOS",
+      "status": "candidate-context",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/chromiumos?label=Latest Image%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/commit-activity/w/alex313031/chromiumos?color=blueviolet&label=Commit%20Activity%3A) &nbsp;![Subreddit sub\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "hermit-os/hermit-rs",
       "status": "candidate",
       "text": "<img width=\"256\" align=\"right\" src=\"https://github.com/hermit-os/.github/blob/main/logo/hermit-logo.svg\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/ThoriumOS",
+      "status": "candidate",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/chromiumos?label=Latest Image%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/commit-activity/w/alex313031/chromiumos?color=blueviolet&label=Commit%20Activity%3A) &nbsp;![Subreddit sub\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -142,11 +160,23 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "hermit-os/hermit-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/hermit-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/ThoriumOS"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -84,7 +84,7 @@
   "normalized_form": "rust-release",
   "observation_id": "8571a40df5e5eef2",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Rust Release",
   "source_context_snippet": "Rust Release",
   "source_file": ".github/workflows/rust-release.yml",

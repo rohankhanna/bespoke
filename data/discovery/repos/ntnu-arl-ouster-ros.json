@@ -1,0 +1,63 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "ntnu-arl/ouster-ros",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "ntnu-arl/ouster-ros",
+      "target": "ouster-ros",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:54:01.401207+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11248
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1915
+    },
+    {
+      "path": ".github/workflows/docker-image.yml",
+      "size": 627
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official ROS drivers for Ouster sensors",
+    "fork": true,
+    "full_name": "ntnu-arl/ouster-ros",
+    "html_url": "https://github.com/ntnu-arl/ouster-ros",
+    "language": "C++",
+    "pushed_at": "2025-10-13T16:17:17Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-09-04T09:26:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "ouster-ros",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "term": "ouster-ros"
+    }
+  ]
+}

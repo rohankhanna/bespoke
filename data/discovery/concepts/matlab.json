@@ -154,6 +154,18 @@
       "source_repo": "Accla/d4m",
       "status": "candidate-context",
       "text": "NOTE: This is the Accumulo 1.6.0+ version."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "status": "candidate-context",
+      "text": "Robotics Toolbox for MATLAB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/petercorke/robotics-toolbox-matlab.svg?branch=master)](https://travis-ci.com/petercorke/robotics-toolbox-matlab)"
     }
   ],
   "candidate_glosses": [
@@ -228,6 +240,12 @@
       "source_repo": "Accla/d4m",
       "status": "candidate",
       "text": "NOTE: This is the Accumulo 1.6.0+ version."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/robotics-toolbox-matlab",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/petercorke/robotics-toolbox-matlab.svg?branch=master)](https://travis-ci.com/petercorke/robotics-toolbox-matlab)"
     }
   ],
   "candidate_related_terms": [
@@ -355,11 +373,23 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "layumi/Pedestrian_Alignment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "layumi/Pedestrian_Alignment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-matlab"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Docs Build Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "less/less-docs",
+      "status": "candidate-context",
+      "text": "Documentation for Less."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "less/less-docs",
+      "status": "candidate-context",
+      "text": "Docs Build Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "less/less-docs",
+      "status": "candidate",
+      "text": "Docs Build Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22505,
+      "status": "candidate",
+      "text": "plexor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22499,
+      "status": "candidate",
+      "text": "compile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22499,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22491,
+      "status": "candidate",
+      "text": "accountancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22491,
+      "status": "candidate",
+      "text": "accounting"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Docs Build Test",
+  "concept_id": "docs-build-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "less/less-docs"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docs Build Test",
+      "sense_id": "docs-build-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

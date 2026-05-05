@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "fabric"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyperledger-labs/yui-fabric-ibc",
+      "status": "candidate-context",
+      "text": "IBC implementation in Hyperledger Fabric"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-labs/yui-fabric-ibc",
+      "status": "candidate-context",
+      "text": "![Test](https://github.com/hyperledger-labs/yui-fabric-ibc/workflows/Test/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-labs/yui-fabric-ibc",
+      "status": "candidate",
+      "text": "![Test](https://github.com/hyperledger-labs/yui-fabric-ibc/workflows/Test/badge.svg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39793462,
+      "status": "candidate",
+      "text": "framework"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39744760,
+      "status": "candidate",
+      "text": "textile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39743588,
+      "status": "candidate",
+      "text": "cloth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39726126,
+      "status": "candidate",
+      "text": "material"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29794764,
+      "status": "candidate",
+      "text": "edifice"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36039,
+      "status": "candidate",
+      "text": "framework"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13056,
+      "status": "candidate",
+      "text": "material"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10047,
+      "status": "candidate",
+      "text": "cloth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4039,
+      "status": "candidate",
+      "text": "textile"
+    }
+  ],
+  "canonical_name": "fabric",
+  "concept_id": "fabric",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "hyperledger-labs/yui-fabric-ibc"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fabric",
+      "sense_id": "fabric#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

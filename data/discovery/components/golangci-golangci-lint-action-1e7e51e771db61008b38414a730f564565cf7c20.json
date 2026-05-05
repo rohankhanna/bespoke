@@ -1,7 +1,7 @@
 {
   "component": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -522,6 +522,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/linting.yml",
       "source_repo": "gofrs/flock"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "kubernetes/ingress-nginx"
     }
   ]
 }

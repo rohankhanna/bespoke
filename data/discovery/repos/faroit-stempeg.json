@@ -1,0 +1,129 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_unittests.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_unittests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "faroit/stempeg",
+      "target": "gpac/gpac",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_unittests.yml",
+      "source_repo": "faroit/stempeg",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_unittests.yml",
+      "source_repo": "faroit/stempeg",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "faroit/stempeg",
+      "target": "ffmpeg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "faroit/stempeg",
+      "target": "multitrack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "faroit/stempeg",
+      "target": "native-instruments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "faroit/stempeg",
+      "target": "stems",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:54:04.763417+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7998
+    },
+    {
+      "path": ".github/workflows/test_unittests.yml",
+      "size": 1288
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python I/O for STEM audio files",
+    "fork": false,
+    "full_name": "faroit/stempeg",
+    "html_url": "https://github.com/faroit/stempeg",
+    "language": "Python",
+    "pushed_at": "2025-10-31T10:22:12Z",
+    "stargazers_count": 107,
+    "topics": [
+      "ffmpeg",
+      "multitrack",
+      "native-instruments",
+      "python",
+      "stems"
+    ],
+    "updated_at": "2026-05-02T04:56:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gpac/gpac",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://github.com/faroit/stempeg/workflows/CI/badge.svg)](https://github.com/faroit/stempeg/actions?query=workflow%3ACI+branch%3Amaster+event%3Apush)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ffmpeg"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/faroit/stempeg/workflows/CI/badge.svg)](https://github.com/faroit/stempeg/actions?query=workflow%3ACI+branch%3Amaster+event%3Apush)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multitrack"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/faroit/stempeg/workflows/CI/badge.svg)](https://github.com/faroit/stempeg/actions?query=workflow%3ACI+branch%3Amaster+event%3Apush)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "native-instruments"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/faroit/stempeg/workflows/CI/badge.svg)](https://github.com/faroit/stempeg/actions?query=workflow%3ACI+branch%3Amaster+event%3Apush)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stems"
+    }
+  ]
+}

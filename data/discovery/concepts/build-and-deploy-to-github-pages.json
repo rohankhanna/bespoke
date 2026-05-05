@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Build and Deploy to GitHub Pages"
+    "Build and Deploy to GitHub Pages",
+    "Build and deploy to GitHub Pages"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -55,6 +56,18 @@
       "source_repo": "tc39/proposal-call-this",
       "status": "candidate-context",
       "text": "Build and Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matafokka/geotiff-3d-dem-viewer",
+      "status": "candidate-context",
+      "text": "View DEMs in GeoTIFF format in 3D"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matafokka/geotiff-3d-dem-viewer",
+      "status": "candidate-context",
+      "text": "Build and deploy to GitHub Pages"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +94,12 @@
       "source_repo": "tc39/proposal-call-this",
       "status": "candidate",
       "text": "Build and Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matafokka/geotiff-3d-dem-viewer",
+      "status": "candidate",
+      "text": "Build and deploy to GitHub Pages"
     }
   ],
   "candidate_related_terms": [
@@ -190,11 +209,23 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "tc39/proposal-call-this"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tc39/proposal-call-this"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "matafokka/geotiff-3d-dem-viewer"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

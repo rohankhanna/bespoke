@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Manually Delete BuildJet Cache"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dora-rs/dora",
+      "status": "candidate-context",
+      "text": "DORA (Dataflow-Oriented Robotic Architecture) is middleware designed to streamline and simplify the creation of AI-based robotic applications. It offers low latency, composable, and distributed dataflow capabilities. Applications are modeled as directed graphs, also referred to as pipelines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dora-rs/dora",
+      "status": "candidate-context",
+      "text": "Manually Delete BuildJet Cache"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dora-rs/dora",
+      "status": "candidate",
+      "text": "Manually Delete BuildJet Cache"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17822,
+      "status": "candidate",
+      "text": "clap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17822,
+      "status": "candidate",
+      "text": "handing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17731,
+      "status": "candidate",
+      "text": "book out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17731,
+      "status": "candidate",
+      "text": "crip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17731,
+      "status": "candidate",
+      "text": "handbrake"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Manually Delete BuildJet Cache",
+  "concept_id": "manually-delete-buildjet-cache",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/delete-buildjet-cache.yml",
+      "source_repo": "dora-rs/dora"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Manually Delete BuildJet Cache",
+      "sense_id": "manually-delete-buildjet-cache#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

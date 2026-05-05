@@ -19,6 +19,18 @@
       "source_repo": "valyala/fasttemplate",
       "status": "candidate-context",
       "text": "fasttemplate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haveachin/infrared",
+      "status": "candidate-context",
+      "text": "An ultra lightweight minecraft reverse proxy and idle placeholder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haveachin/infrared",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "valyala/fasttemplate",
       "status": "candidate",
       "text": "fasttemplate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haveachin/infrared",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "valyala/fasttemplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "haveachin/infrared"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

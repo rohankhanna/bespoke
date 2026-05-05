@@ -1,0 +1,248 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "ouster-lidar/ouster-ros",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "ouster-lidar/ouster-ros",
+      "target": "ouster-ros",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ouster-lidar/ouster-ros",
+      "target": "lidar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ouster-lidar/ouster-ros",
+      "target": "ouster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ouster-lidar/ouster-ros",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ouster-lidar/ouster-ros",
+      "target": "pointcloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ouster-lidar/ouster-ros",
+      "target": "ros-drivers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ouster-lidar/ouster-ros",
+      "target": "ros-melodic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ouster-lidar/ouster-ros",
+      "target": "ros-noetic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ouster-lidar/ouster-ros",
+      "target": "ros2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ouster-lidar/ouster-ros",
+      "target": "ros2-foxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ouster-lidar/ouster-ros",
+      "target": "ros2-humble",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ouster-lidar/ouster-ros",
+      "target": "ros2-iron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ouster-lidar/ouster-ros",
+      "target": "ros2-jazzy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ouster-lidar/ouster-ros",
+      "target": "ros2-rolling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:53:45.799214+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11248
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1915
+    },
+    {
+      "path": ".github/workflows/docker-image.yml",
+      "size": 627
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official ROS drivers for Ouster sensors (OS0, OS1, OS2, OSDome)",
+    "fork": false,
+    "full_name": "ouster-lidar/ouster-ros",
+    "html_url": "https://github.com/ouster-lidar/ouster-ros",
+    "language": "C++",
+    "pushed_at": "2026-05-05T16:33:45Z",
+    "stargazers_count": 198,
+    "topics": [
+      "lidar",
+      "ouster",
+      "pcl",
+      "point-cloud",
+      "pointcloud",
+      "ros",
+      "ros-drivers",
+      "ros-melodic",
+      "ros-noetic",
+      "ros2",
+      "ros2-foxy",
+      "ros2-humble",
+      "ros2-iron",
+      "ros2-jazzy",
+      "ros2-rolling"
+    ],
+    "updated_at": "2026-04-29T08:33:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "ouster-ros",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "term": "ouster-ros"
+    },
+    {
+      "context_snippet": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar"
+    },
+    {
+      "context_snippet": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ouster"
+    },
+    {
+      "context_snippet": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pointcloud"
+    },
+    {
+      "context_snippet": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros-drivers"
+    },
+    {
+      "context_snippet": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros-melodic"
+    },
+    {
+      "context_snippet": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros-noetic"
+    },
+    {
+      "context_snippet": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros2"
+    },
+    {
+      "context_snippet": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros2-foxy"
+    },
+    {
+      "context_snippet": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros2-humble"
+    },
+    {
+      "context_snippet": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros2-iron"
+    },
+    {
+      "context_snippet": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros2-jazzy"
+    },
+    {
+      "context_snippet": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros2-rolling"
+    }
+  ]
+}

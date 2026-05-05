@@ -84,7 +84,7 @@
   "normalized_form": "commented-pull-request",
   "observation_id": "e45c46796d17bc28",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Commented Pull Request",
   "source_context_snippet": "Commented Pull Request",
   "source_file": ".github/workflows/issue_comment.yml",

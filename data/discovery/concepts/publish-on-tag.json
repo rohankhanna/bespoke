@@ -116,6 +116,18 @@
       "source_repo": "mathiasbynens/punycode.js",
       "status": "candidate-context",
       "text": "publish-on-tag"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChromeDevTools/devtools-protocol",
+      "status": "candidate-context",
+      "text": "Chrome DevTools Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChromeDevTools/devtools-protocol",
+      "status": "candidate-context",
+      "text": "Publish on Tag"
     }
   ],
   "candidate_glosses": [
@@ -172,6 +184,12 @@
       "source_repo": "mathiasbynens/punycode.js",
       "status": "candidate",
       "text": "publish-on-tag"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChromeDevTools/devtools-protocol",
+      "status": "candidate",
+      "text": "Publish on Tag"
     }
   ],
   "candidate_related_terms": [
@@ -275,11 +293,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/publish-on-tag.yml",
       "source_repo": "mathiasbynens/punycode.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/publish-on-tag.yml",
+      "source_repo": "ChromeDevTools/devtools-protocol"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

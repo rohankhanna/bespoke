@@ -84,7 +84,7 @@
   "normalized_form": "community-pr-issue-check",
   "observation_id": "6f5785e683541df2",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Community PR Issue Check",
   "source_context_snippet": "\"Community PR Issue Check\"",
   "source_file": ".github/workflows/community-pr-issue-check.lock.yml",

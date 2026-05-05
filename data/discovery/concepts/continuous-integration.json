@@ -2711,6 +2711,54 @@
       "source_repo": "panda3d/panda3d",
       "status": "candidate-context",
       "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ayazhafiz/xorf",
+      "status": "candidate-context",
+      "text": "Xor filters - efficient probabilistic hashsets. Faster and smaller than bloom and cuckoo filters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ayazhafiz/xorf",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eyre-rs/stable-eyre",
+      "status": "candidate-context",
+      "text": "A custom context for eyre that supports backtraces on stable"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eyre-rs/stable-eyre",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rdb/panda3d-thirdparty",
+      "status": "candidate-context",
+      "text": "Scripts to build the thirdparty packages for Panda3D"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rdb/panda3d-thirdparty",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Saalvage/AssimpNetter",
+      "status": "candidate-context",
+      "text": "Maintained fork of AssimpNet that adds better interop with modern C#"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Saalvage/AssimpNetter",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
     }
   ],
   "candidate_glosses": [
@@ -4073,6 +4121,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "panda3d/panda3d",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ayazhafiz/xorf",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eyre-rs/stable-eyre",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rdb/panda3d-thirdparty",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Saalvage/AssimpNetter",
       "status": "candidate",
       "text": "Continuous Integration"
     }
@@ -6422,11 +6494,89 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "docker-archive-public/docker.compose-ecs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "actions/container-toolkit-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jawah/charset_normalizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ayazhafiz/xorf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "eyre-rs/stable-eyre"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "libbitcoin/libbitcoin-system"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rdb/panda3d-thirdparty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "insodoc/insomnia-documenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Saalvage/AssimpNetter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/integrate.yml",
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive-public/docker.compose-ecs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "emacs-eldev/eldev"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

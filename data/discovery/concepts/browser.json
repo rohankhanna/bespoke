@@ -922,6 +922,102 @@
       "source_repo": "ultrafunkamsterdam/undetected-chromedriver",
       "status": "candidate-context",
       "text": "https://github.com/ultrafunkamsterdam/undetected-chromedriver"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dothq/melon",
+      "status": "candidate-context",
+      "text": "\ud83c\udf49 Build Firefox-based browsers with ease [wip]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dothq/melon",
+      "status": "candidate-context",
+      "text": "This project is no longer used or maintained by Dot HQ. The [Pulse Browser](https://pulsebrowser.app/) developers [maintain and support a fork](https://github.com/pulse-browser/gluon)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulse-browser/experiment",
+      "status": "candidate-context",
+      "text": "Another Gecko browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulse-browser/experiment",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Vinyzu/Botright",
+      "status": "candidate-context",
+      "text": "Botright, the most advance undetected, fingerprint-changing, captcha-solving, open-source automation framework. Build on Playwright, its as easy to use as it is to extend your code. Solving your Captchas for free with AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vinyzu/Botright",
+      "status": "candidate-context",
+      "text": "![Tests & Linting](https://github.com/Vinyzu/botright/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bromite/bromite",
+      "status": "candidate-context",
+      "text": "Bromite is a Chromium fork with ad blocking and privacy enhancements; take back your browser!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bromite/bromite",
+      "status": "candidate-context",
+      "text": "[![Stand With Ukraine](./banner2-direct.svg)](https://stand-with-ukraine.pp.ua/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dothq/browser-desktop",
+      "status": "candidate-context",
+      "text": "Dot Browser for Windows, macOS and Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dothq/browser-desktop",
+      "status": "candidate-context",
+      "text": "The Dot Browser for Desktop source code, available on Windows, macOS and Linux."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulse-browser/gluon",
+      "status": "candidate-context",
+      "text": "Build firefox forks with ease"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulse-browser/gluon",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "usnistgov/h5wasm",
+      "status": "candidate-context",
+      "text": "A WebAssembly HDF5 reader/writer library "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usnistgov/h5wasm",
+      "status": "candidate-context",
+      "text": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19255851.svg)](https://doi.org/10.5281/zenodo.14624863)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Vinyzu/chrome-fingerprints",
+      "status": "candidate-context",
+      "text": "A Collection of 10.000 collected Windows Chrome Fingerprints. Usable with an easy-to-use API, available as a compressed (lzma) or full-size Json (view Releases). Its just 1.4mb in size in compressed form, and fast in read times."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vinyzu/chrome-fingerprints",
+      "status": "candidate-context",
+      "text": "![Tests & Linting](https://github.com/Vinyzu/chrome-fingerprints/actions/workflows/tests.yml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -1380,6 +1476,54 @@
       "source_repo": "ultrafunkamsterdam/undetected-chromedriver",
       "status": "candidate",
       "text": "https://github.com/ultrafunkamsterdam/undetected-chromedriver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dothq/melon",
+      "status": "candidate",
+      "text": "This project is no longer used or maintained by Dot HQ. The [Pulse Browser](https://pulsebrowser.app/) developers [maintain and support a fork](https://github.com/pulse-browser/gluon)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulse-browser/experiment",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vinyzu/Botright",
+      "status": "candidate",
+      "text": "![Tests & Linting](https://github.com/Vinyzu/botright/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bromite/bromite",
+      "status": "candidate",
+      "text": "[![Stand With Ukraine](./banner2-direct.svg)](https://stand-with-ukraine.pp.ua/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dothq/browser-desktop",
+      "status": "candidate",
+      "text": "The Dot Browser for Desktop source code, available on Windows, macOS and Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulse-browser/gluon",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usnistgov/h5wasm",
+      "status": "candidate",
+      "text": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19255851.svg)](https://doi.org/10.5281/zenodo.14624863)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vinyzu/chrome-fingerprints",
+      "status": "candidate",
+      "text": "![Tests & Linting](https://github.com/Vinyzu/chrome-fingerprints/actions/workflows/tests.yml/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -2511,11 +2655,107 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "browserify/browserify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "dothq/melon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "pulse-browser/experiment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Level/level-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Level/levelup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Vinyzu/Botright"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "mixmark-io/turndown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "bromite/bromite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "dothq/browser-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "pulse-browser/gluon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "usnistgov/h5wasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Vinyzu/chrome-fingerprints"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

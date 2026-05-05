@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Pretrained-Language-Model",
+      "target": "knowledge-distillation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Pretrained-Language-Model",
+      "target": "large-scale-distributed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Pretrained-Language-Model",
+      "target": "model-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Pretrained-Language-Model",
+      "target": "pretrained-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Pretrained-Language-Model",
+      "target": "quantization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:55:24.752813+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3958
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pretrained language model and its related optimization techniques developed by Huawei Noah's Ark Lab.",
+    "fork": false,
+    "full_name": "huawei-noah/Pretrained-Language-Model",
+    "html_url": "https://github.com/huawei-noah/Pretrained-Language-Model",
+    "language": "Python",
+    "pushed_at": "2024-01-22T01:11:22Z",
+    "stargazers_count": 3163,
+    "topics": [
+      "knowledge-distillation",
+      "large-scale-distributed",
+      "model-compression",
+      "pretrained-models",
+      "quantization"
+    ],
+    "updated_at": "2026-05-03T07:57:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository provides the latest pretrained language models and its related optimization techniques developed by Huawei Noah's Ark Lab.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-distillation"
+    },
+    {
+      "context_snippet": "This repository provides the latest pretrained language models and its related optimization techniques developed by Huawei Noah's Ark Lab.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-scale-distributed"
+    },
+    {
+      "context_snippet": "This repository provides the latest pretrained language models and its related optimization techniques developed by Huawei Noah's Ark Lab.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-compression"
+    },
+    {
+      "context_snippet": "This repository provides the latest pretrained language models and its related optimization techniques developed by Huawei Noah's Ark Lab.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-models"
+    },
+    {
+      "context_snippet": "This repository provides the latest pretrained language models and its related optimization techniques developed by Huawei Noah's Ark Lab.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization"
+    }
+  ]
+}

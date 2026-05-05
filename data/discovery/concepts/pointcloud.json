@@ -163,6 +163,30 @@
       "source_repo": "PointCloudLibrary/pcl",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"pcl.png\" height=\"100\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "koide3/small_gicp",
+      "status": "candidate-context",
+      "text": "Efficient and parallel algorithms for point cloud registration [C++, Python]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koide3/small_gicp",
+      "status": "candidate-context",
+      "text": "**small_gicp** is a header-only C++ library providing efficient and parallelized algorithms for fine point cloud registration (ICP, Point-to-Plane ICP, GICP, VGICP, etc.). It is a refined and optimized version of its predecessor, [fast_gicp](https://github.com/SMRT-AIST/fast_gic\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ouster-lidar/ouster-ros",
+      "status": "candidate-context",
+      "text": "Official ROS drivers for Ouster sensors (OS0, OS1, OS2, OSDome)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ouster-lidar/ouster-ros",
+      "status": "candidate-context",
+      "text": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +267,18 @@
       "source_repo": "PointCloudLibrary/pcl",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"pcl.png\" height=\"100\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koide3/small_gicp",
+      "status": "candidate",
+      "text": "**small_gicp** is a header-only C++ library providing efficient and parallelized algorithms for fine point cloud registration (ICP, Point-to-Plane ICP, GICP, VGICP, etc.). It is a refined and optimized version of its predecessor, [fast_gicp](https://github.com/SMRT-AIST/fast_gic\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ouster-lidar/ouster-ros",
+      "status": "candidate",
+      "text": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |"
     }
   ],
   "candidate_related_terms": [
@@ -442,11 +478,29 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "PointCloudLibrary/pcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "koide3/small_gicp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ouster-lidar/ouster-ros"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

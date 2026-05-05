@@ -1,7 +1,7 @@
 {
   "component": "actions/deploy-pages@v4",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1617,6 +1617,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/documentation.yml",
       "source_repo": "helix-toolkit/helix-toolkit-nex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "gumob/PunycodeSwift"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/guide.yml",
+      "source_repo": "dora-rs/dora"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "agenda/agenda"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "gumob/TLDExtractSwift"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/github_pages.yml",
+      "source_repo": "usdot-fhwa-stol/carma-platform"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-pages.yml",
+      "source_repo": "MoonshotAI/kimi-cli"
     }
   ]
 }

@@ -358,6 +358,30 @@
       "source_repo": "open-telemetry/opentelemetry-dotnet-instrumentation",
       "status": "candidate-context",
       "text": "demo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "status": "candidate-context",
+      "text": "Cross compilation helper for GoReleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "status": "candidate-context",
+      "text": "demo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "This repository contains the OpenTelemetry Astronomy Shop, a microservice-based distributed system intended to illustrate the implementation of OpenTelemetry in a near real-world environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable-next-line -->"
     }
   ],
   "candidate_glosses": [
@@ -534,6 +558,18 @@
       "source_repo": "open-telemetry/opentelemetry-dotnet-instrumentation",
       "status": "candidate",
       "text": "demo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "status": "candidate",
+      "text": "demo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-demo",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable-next-line -->"
     }
   ],
   "candidate_related_terms": [
@@ -1087,11 +1123,41 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": ".github/workflows/demo.yml",
       "source_repo": "open-telemetry/opentelemetry-dotnet-instrumentation"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/demo.yml",
+      "source_repo": "crazy-max/goreleaser-xx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-multiplayer-space-invaders"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-quiz-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-demo"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

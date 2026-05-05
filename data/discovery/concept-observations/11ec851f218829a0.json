@@ -48,7 +48,7 @@
   "normalized_form": "autofix.ci",
   "observation_id": "11ec851f218829a0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "autofix.ci",
   "source_context_snippet": "autofix.ci",
   "source_file": ".github/workflows/autofix.yml",

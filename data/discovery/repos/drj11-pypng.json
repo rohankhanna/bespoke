@@ -1,0 +1,34 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T13:53:38.148390+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12774
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 206
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Pure Python library for PNG image encoding/decoding",
+    "fork": false,
+    "full_name": "drj11/pypng",
+    "html_url": "https://github.com/drj11/pypng",
+    "language": "Python",
+    "pushed_at": "2023-04-12T09:57:08Z",
+    "stargazers_count": 450,
+    "topics": [
+      "png",
+      "python"
+    ],
+    "updated_at": "2026-03-28T15:55:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

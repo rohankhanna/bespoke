@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rbe.yml"
+    },
+    {
+      "component": "appleboy/ssh-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rbe.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-lang-cn/rust-by-example-cn",
+      "target": "rust-lang-cn/rust-translation-guide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-lang-cn/rust-by-example-cn",
+      "target": "songbird0/fr_rbe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-lang-cn/rust-by-example-cn",
+      "target": "rust-lang-ja/rust-by-example-ja",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-lang-cn/rust-by-example-cn",
+      "target": "rurust/rust-by-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rbe.yml",
+      "source_repo": "rust-lang-cn/rust-by-example-cn",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rbe.yml",
+      "source_repo": "rust-lang-cn/rust-by-example-cn",
+      "target": "appleboy/ssh-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-lang-cn/rust-by-example-cn",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-lang-cn/rust-by-example-cn",
+      "target": "rust-by-example",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T15:54:56.755719+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2691
+    },
+    {
+      "path": ".github/workflows/rbe.yml",
+      "size": 1285
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust By Example \u4e2d\u6587\u7248(\u5305\u542b\u5728\u7ebf\u4ee3\u7801\u7f16\u8f91\u5668)",
+    "fork": false,
+    "full_name": "rust-lang-cn/rust-by-example-cn",
+    "html_url": "https://github.com/rust-lang-cn/rust-by-example-cn",
+    "language": "JavaScript",
+    "pushed_at": "2024-09-26T06:13:01Z",
+    "stargazers_count": 1973,
+    "topics": [
+      "rust",
+      "rust-by-example"
+    ],
+    "updated_at": "2026-04-29T07:20:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rurust/rust-by-example",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang-cn/rust-translation-guide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang-ja/rust-by-example-ja",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "songbird0/fr_rbe",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Build Status](https://github.com/rust-lang-cn/rust-by-example-cn/workflows/CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/rust-lang-cn/rust-by-example-cn/workflows/CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-by-example"
+    }
+  ]
+}

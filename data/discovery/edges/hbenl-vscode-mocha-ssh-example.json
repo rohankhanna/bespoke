@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hbenl/vscode-mocha-ssh-example",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hbenl/vscode-mocha-ssh-example",
+      "target": "mocha-explorer-launcher-scripts",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "hbenl/vscode-mocha-ssh-example"
+}

@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CosmWasm/cw-template",
+      "target": "ashleygwilliams/cargo-generate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Basic.yml",
+      "source_repo": "CosmWasm/cw-template",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Basic.yml",
+      "source_repo": "CosmWasm/cw-template",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Basic.yml",
+      "source_repo": "CosmWasm/cw-template",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Basic.yml",
+      "source_repo": "CosmWasm/cw-template",
+      "target": "Basic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "CosmWasm/cw-template",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "CosmWasm/cw-template",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "CosmWasm/cw-template",
+      "target": "bruceadams/get-release@v1.2.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "CosmWasm/cw-template",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "CosmWasm/cw-template",
+      "target": "release wasm",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "CosmWasm/cw-template"
+}

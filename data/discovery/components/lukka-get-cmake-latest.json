@@ -1,7 +1,7 @@
 {
   "component": "lukka/get-cmake@latest",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -247,6 +247,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "asl/BandageNG"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml",
+      "source_repo": "Saalvage/assimp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "Saalvage/assimp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/inno_setup",
+      "source_repo": "Saalvage/assimp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sanitizer.yml",
+      "source_repo": "Saalvage/assimp"
     }
   ]
 }

@@ -19,6 +19,18 @@
       "source_repo": "RobotecAI/ros2-for-unity",
       "status": "candidate-context",
       "text": "Ros2 For Unity"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ouster-lidar/ouster-ros",
+      "status": "candidate-context",
+      "text": "Official ROS drivers for Ouster sensors (OS0, OS1, OS2, OSDome)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ouster-lidar/ouster-ros",
+      "status": "candidate-context",
+      "text": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "RobotecAI/ros2-for-unity",
       "status": "candidate",
       "text": "Ros2 For Unity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ouster-lidar/ouster-ros",
+      "status": "candidate",
+      "text": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "RobotecAI/ros2-for-unity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ouster-lidar/ouster-ros"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

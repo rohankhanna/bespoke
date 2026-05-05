@@ -3766,6 +3766,66 @@
       "source_repo": "crazy-max/goxx",
       "status": "candidate-context",
       "text": "[![GitHub release](https://img.shields.io/github/release/crazy-max/goxx.svg?style=flat-square)](https://github.com/crazy-max/goxx/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazy-max/docker-osxcross",
+      "status": "candidate-context",
+      "text": "MacOSX cross toolchain as Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/docker-osxcross",
+      "status": "candidate-context",
+      "text": "[![Latest version](https://img.shields.io/github/v/tag/crazy-max/docker-osxcross?label=version&style=flat-square)](https://hub.docker.com/r/crazymax/osxcross/tags?page=1&ordering=last_updated)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "status": "candidate-context",
+      "text": "Cross compilation helper for GoReleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "status": "candidate-context",
+      "text": "[![goreleaser-xx](.github/goreleaser-xx.png)](https://github.com/crazy-max/goreleaser-xx)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haveachin/infrared",
+      "status": "candidate-context",
+      "text": "An ultra lightweight minecraft reverse proxy and idle placeholder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haveachin/infrared",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dgellow/idris-docker-image",
+      "status": "candidate-context",
+      "text": "Dockerfile and images for idris and idris2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgellow/idris-docker-image",
+      "status": "candidate-context",
+      "text": "![](https://img.shields.io/badge/image-dgellow%2Fidris-blue)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazy-max/diun",
+      "status": "candidate-context",
+      "text": "Receive notifications when an image is updated on a Docker registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/diun",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://crazymax.dev/diun/\" target=\"_blank\"><img height=\"128\" src=\"https://raw.githubusercontent.com/crazy-max/diun/master/.res/diun.png\"></a></p>"
     }
   ],
   "candidate_glosses": [
@@ -5664,6 +5724,36 @@
       "source_repo": "crazy-max/goxx",
       "status": "candidate",
       "text": "[![GitHub release](https://img.shields.io/github/release/crazy-max/goxx.svg?style=flat-square)](https://github.com/crazy-max/goxx/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/docker-osxcross",
+      "status": "candidate",
+      "text": "[![Latest version](https://img.shields.io/github/v/tag/crazy-max/docker-osxcross?label=version&style=flat-square)](https://hub.docker.com/r/crazymax/osxcross/tags?page=1&ordering=last_updated)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "status": "candidate",
+      "text": "[![goreleaser-xx](.github/goreleaser-xx.png)](https://github.com/crazy-max/goreleaser-xx)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haveachin/infrared",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgellow/idris-docker-image",
+      "status": "candidate",
+      "text": "![](https://img.shields.io/badge/image-dgellow%2Fidris-blue)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/diun",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://crazymax.dev/diun/\" target=\"_blank\"><img height=\"128\" src=\"https://raw.githubusercontent.com/crazy-max/diun/master/.res/diun.png\"></a></p>"
     }
   ],
   "candidate_related_terms": [
@@ -9601,11 +9691,155 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "geocompx/docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "crazy-max/docker-osxcross"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "crazy-max/goreleaser-xx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "notaryproject/notary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "haveachin/infrared"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "scverse/rapids-singlecell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "dgellow/idris-docker-image"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "bjartnes/hikke"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/ghcr-build.yml",
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coaidev/blob-service"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "nginx-le/nginx-le"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "crazy-max/diun"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

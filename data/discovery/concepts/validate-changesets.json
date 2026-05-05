@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Validate changesets"
+    "Validate changesets",
+    "Validate Changesets"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -67,6 +68,18 @@
       "source_repo": "appsignal/appsignal-ruby",
       "status": "candidate-context",
       "text": "Validate changesets"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agenda/agenda",
+      "status": "candidate-context",
+      "text": "Lightweight job scheduling for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agenda/agenda",
+      "status": "candidate-context",
+      "text": "Validate Changesets"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +112,12 @@
       "source_repo": "appsignal/appsignal-ruby",
       "status": "candidate",
       "text": "Validate changesets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agenda/agenda",
+      "status": "candidate",
+      "text": "Validate Changesets"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +191,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/validate_changesets.yml",
       "source_repo": "appsignal/appsignal-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/validate-changesets.yml",
+      "source_repo": "agenda/agenda"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

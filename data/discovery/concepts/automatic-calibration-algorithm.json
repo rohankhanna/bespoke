@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "automatic-calibration-algorithm"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beltransen/velo2cam_calibration",
+      "status": "candidate-context",
+      "text": "Automatic Extrinsic Calibration Method for LiDAR and Camera Sensor Setups. ROS Package."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beltransen/velo2cam_calibration",
+      "status": "candidate-context",
+      "text": "The *velo2cam_calibration* software implements a state-of-the-art automatic calibration algorithm for pair of sensors composed of LiDAR and camera devices in any possible combination, as described in this paper:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beltransen/velo2cam_calibration",
+      "status": "candidate",
+      "text": "The *velo2cam_calibration* software implements a state-of-the-art automatic calibration algorithm for pair of sensors composed of LiDAR and camera devices in any possible combination, as described in this paper:"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "automatic-calibration-algorithm",
+  "concept_id": "automatic-calibration-algorithm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "beltransen/velo2cam_calibration"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "automatic-calibration-algorithm",
+      "sense_id": "automatic-calibration-algorithm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

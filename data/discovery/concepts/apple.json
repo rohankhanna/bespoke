@@ -79,6 +79,18 @@
       "source_repo": "drduh/macOS-Security-and-Privacy-Guide",
       "status": "candidate-context",
       "text": "This guide is a collection of techniques for improving the security and privacy of [Apple silicon](https://support.apple.com/116943) Mac computers running a [currently supported](https://support.apple.com/HT201222) version of macOS. **Using Macs with Intel CPUs leaves you open t\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alex313031/Thorium-MacOS",
+      "status": "candidate-context",
+      "text": "Thorium builds for MacOS (arm64 and x64)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/Thorium-MacOS",
+      "status": "candidate-context",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-macos?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-macos?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github\u2026"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "drduh/macOS-Security-and-Privacy-Guide",
       "status": "candidate",
       "text": "This guide is a collection of techniques for improving the security and privacy of [Apple silicon](https://support.apple.com/116943) Mac computers running a [currently supported](https://support.apple.com/HT201222) version of macOS. **Using Macs with Intel CPUs leaves you open t\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/Thorium-MacOS",
+      "status": "candidate",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-macos?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-macos?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -211,11 +229,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "drduh/macOS-Security-and-Privacy-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-MacOS"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

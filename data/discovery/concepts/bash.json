@@ -829,6 +829,18 @@
       "source_repo": "acmesh-official/acme.sh",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KittyKatt/screenFetch",
+      "status": "candidate-context",
+      "text": "Fetches system/theme information in terminal for Linux desktop screenshots."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KittyKatt/screenFetch",
+      "status": "candidate-context",
+      "text": "Fetches system/theme information in terminal for Linux desktop screenshots."
     }
   ],
   "candidate_glosses": [
@@ -1239,6 +1251,12 @@
       "source_repo": "acmesh-official/acme.sh",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KittyKatt/screenFetch",
+      "status": "candidate",
+      "text": "Fetches system/theme information in terminal for Linux desktop screenshots."
     }
   ],
   "candidate_related_terms": [
@@ -2176,11 +2194,41 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "KittyKatt/screenFetch"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

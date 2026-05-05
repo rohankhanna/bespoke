@@ -1,0 +1,111 @@
+{
+  "aliases": [
+    "Build all Wheels"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "status": "candidate-context",
+      "text": "Robotics Toolbox for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "status": "candidate-context",
+      "text": "Build all Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhavl/swift",
+      "status": "candidate-context",
+      "text": "Build all Wheels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/robotics-toolbox-python",
+      "status": "candidate",
+      "text": "Build all Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhavl/swift",
+      "status": "candidate",
+      "text": "Build all Wheels"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34884,
+      "status": "candidate",
+      "text": "wheel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27049,
+      "status": "candidate",
+      "text": "four-wheel drive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26482,
+      "status": "candidate",
+      "text": "rollerblading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26482,
+      "status": "candidate",
+      "text": "three-point landing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build all Wheels",
+  "concept_id": "build-all-wheels",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "petercorke/robotics-toolbox-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "jhavl/swift"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build all Wheels",
+      "sense_id": "build-all-wheels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

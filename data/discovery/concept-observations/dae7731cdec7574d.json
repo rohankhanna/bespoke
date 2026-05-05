@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "High-performance Inference and Deployment Toolkit for LLMs and VLMs based on PaddlePaddle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Accuracy Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Accuracy Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48350,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28750,
+      "status": "candidate",
+      "text": "gauge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28750,
+      "status": "candidate",
+      "text": "verified"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28750,
+      "status": "candidate",
+      "text": "verify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28750,
+      "status": "candidate",
+      "text": "verifying"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Accuracy Test",
+      "sense_id": "accuracy-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "accuracy-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "accuracy-test",
+  "observation_id": "dae7731cdec7574d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "Accuracy Test",
+  "source_context_snippet": "Accuracy Test",
+  "source_file": ".github/workflows/_accuracy_test.yml",
+  "source_repo": "PaddlePaddle/FastDeploy",
+  "source_repo_description": "High-performance Inference and Deployment Toolkit for LLMs and VLMs based on PaddlePaddle"
+}

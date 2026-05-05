@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PacificBiosciences/ccs",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PacificBiosciences/ccs",
+      "target": "consensus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PacificBiosciences/ccs",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PacificBiosciences/ccs",
+      "target": "pacbio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PacificBiosciences/ccs",
+      "target": "variant-calling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T13:49:51.848119+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 258
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "CCS: Generate Highly Accurate Single-Molecule Consensus Reads (HiFi Reads)",
+    "fork": false,
+    "full_name": "PacificBiosciences/ccs",
+    "html_url": "https://github.com/PacificBiosciences/ccs",
+    "language": null,
+    "pushed_at": "2024-03-18T13:41:43Z",
+    "stargazers_count": 126,
+    "topics": [
+      "bioinformatics",
+      "ccs",
+      "consensus",
+      "machine-learning",
+      "pacbio",
+      "variant-calling"
+    ],
+    "updated_at": "2026-01-16T20:23:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"https://ccs.how/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "<a href=\"https://ccs.how/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "consensus"
+    },
+    {
+      "context_snippet": "<a href=\"https://ccs.how/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<a href=\"https://ccs.how/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pacbio"
+    },
+    {
+      "context_snippet": "<a href=\"https://ccs.how/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "variant-calling"
+    }
+  ]
+}

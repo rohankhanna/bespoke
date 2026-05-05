@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/reassessed-imagenet",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T13:55:08.178899+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4540
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Labels and other data for the paper \"Are we done with ImageNet?\"",
+    "fork": false,
+    "full_name": "google-research/reassessed-imagenet",
+    "html_url": "https://github.com/google-research/reassessed-imagenet",
+    "language": null,
+    "pushed_at": "2021-12-08T16:45:46Z",
+    "stargazers_count": 201,
+    "topics": [],
+    "updated_at": "2026-04-19T15:41:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

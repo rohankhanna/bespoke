@@ -718,6 +718,18 @@
       "source_repo": "open-telemetry/opentelemetry-go-instrumentation",
       "status": "candidate-context",
       "text": "changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "undreamai/LLMUnity",
+      "status": "candidate-context",
+      "text": "Create characters in Unity with LLMs!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "undreamai/LLMUnity",
+      "status": "candidate-context",
+      "text": "Changelog"
     }
   ],
   "candidate_glosses": [
@@ -1074,6 +1086,12 @@
       "source_repo": "open-telemetry/opentelemetry-go-instrumentation",
       "status": "candidate",
       "text": "changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "undreamai/LLMUnity",
+      "status": "candidate",
+      "text": "Changelog"
     }
   ],
   "candidate_related_terms": [
@@ -1795,11 +1813,41 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/changelog.yml",
       "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "undreamai/LLMUnity"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/update_tooltips.yaml",
+      "source_repo": "undreamai/LLMUnity"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

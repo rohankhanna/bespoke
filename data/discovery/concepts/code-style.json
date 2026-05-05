@@ -191,6 +191,18 @@
       "source_repo": "xojs/xo",
       "status": "candidate-context",
       "text": "xo \u2014 JavaScript/TypeScript linter (ESLint wrapper) with great defaults"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cpisciotta/xcbeautify",
+      "status": "candidate-context",
+      "text": "An xcodebuild formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpisciotta/xcbeautify",
+      "status": "candidate-context",
+      "text": "\"Code Style\""
     }
   ],
   "candidate_glosses": [
@@ -283,6 +295,12 @@
       "source_repo": "xojs/xo",
       "status": "candidate",
       "text": "xo \u2014 JavaScript/TypeScript linter (ESLint wrapper) with great defaults"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpisciotta/xcbeautify",
+      "status": "candidate",
+      "text": "\"Code Style\""
     }
   ],
   "candidate_related_terms": [
@@ -464,11 +482,29 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/style.yml",
       "source_repo": "robotology-legacy/gym-ignition"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "robotology-legacy/gym-ignition"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "xojs/xo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "cpisciotta/xcbeautify"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

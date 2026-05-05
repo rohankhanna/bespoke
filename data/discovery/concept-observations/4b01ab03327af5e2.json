@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Stringify any number into words, and parse number strings back to a number"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "numbered \u2014 Stringify any number into words, and parse number strings back to a number"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "numbered \u2014 Stringify any number into words, and parse number strings back to a number"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "words-to-numbers",
+      "sense_id": "words-to-numbers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "words-to-numbers",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "words-to-numbers",
+  "observation_id": "4b01ab03327af5e2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "words-to-numbers",
+  "source_context_snippet": "numbered \u2014 Stringify any number into words, and parse number strings back to a number",
+  "source_file": null,
+  "source_repo": "blakeembrey/node-numbered",
+  "source_repo_description": "Stringify any number into words, and parse number strings back to a number"
+}

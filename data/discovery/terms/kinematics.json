@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -26,6 +26,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "stack-of-tasks/pinocchio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhavl/dkt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-matlab"
     }
   ],
   "term": "kinematics"

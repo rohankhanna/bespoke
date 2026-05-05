@@ -1,7 +1,7 @@
 {
   "component": "github/gh-aw-actions/setup@239aec45b78c8799417efdd5bc6d8cc036629ec1",
   "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/api-coherence-checker.lock.yml",
       "source_repo": "Z3Prover/z3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml",
+      "source_repo": "dotnet/aspnetcore"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml",
+      "source_repo": "dotnet/aspnetcore"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml",
+      "source_repo": "dotnet/aspnetcore"
     }
   ]
 }

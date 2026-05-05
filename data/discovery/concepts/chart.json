@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "chart"
+    "chart",
+    "Chart"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -223,6 +226,18 @@
       "source_repo": "jzillmann/jmh-visualizer",
       "status": "candidate-context",
       "text": "Visually explore your [JMH](http://openjdk.java.net/projects/code-tools/jmh/) Benchmarks! Online version at http://jmh.morethan.io!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/ingress-nginx",
+      "status": "candidate-context",
+      "text": "Ingress NGINX Controller for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/ingress-nginx",
+      "status": "candidate-context",
+      "text": "Chart"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +348,12 @@
       "source_repo": "jzillmann/jmh-visualizer",
       "status": "candidate",
       "text": "Visually explore your [JMH](http://openjdk.java.net/projects/code-tools/jmh/) Benchmarks! Online version at http://jmh.morethan.io!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/ingress-nginx",
+      "status": "candidate",
+      "text": "Chart"
     }
   ],
   "candidate_related_terms": [
@@ -550,11 +571,29 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "TanStack/react-charts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/chart.yaml",
+      "source_repo": "kubernetes/ingress-nginx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/react-charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "helm/helm"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

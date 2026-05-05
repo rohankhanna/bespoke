@@ -115,6 +115,18 @@
       "source_repo": "weaveworks/weave-gitops",
       "status": "candidate-context",
       "text": "![Test status](https://github.com/weaveworks/weave-gitops/actions/workflows/pr.yaml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudnativeapp/charts",
+      "status": "candidate-context",
+      "text": "Localized Helm charts from Helm Hub to China"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudnativeapp/charts",
+      "status": "candidate-context",
+      "text": "```"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "weaveworks/weave-gitops",
       "status": "candidate",
       "text": "![Test status](https://github.com/weaveworks/weave-gitops/actions/workflows/pr.yaml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudnativeapp/charts",
+      "status": "candidate",
+      "text": "```"
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +250,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "weaveworks/weave-gitops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "cloudnativeapp/charts"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

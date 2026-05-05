@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fetches system/theme information in terminal for Linux desktop screenshots."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Fetches system/theme information in terminal for Linux desktop screenshots."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Fetches system/theme information in terminal for Linux desktop screenshots."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39950273,
+      "status": "candidate",
+      "text": "whap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39950124,
+      "status": "candidate",
+      "text": "smash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39950042,
+      "status": "candidate",
+      "text": "knock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39949946,
+      "status": "candidate",
+      "text": "bang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39949855,
+      "status": "candidate",
+      "text": "bop"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bash",
+      "sense_id": "bash#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36052,
+      "status": "candidate",
+      "text": "bang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19036,
+      "status": "candidate",
+      "text": "brawl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17047,
+      "status": "candidate",
+      "text": "smash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13046,
+      "status": "candidate",
+      "text": "knock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12038,
+      "status": "candidate",
+      "text": "bonk"
+    }
+  ],
+  "concept_id": "bash",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bash",
+  "observation_id": "3a8a8335e8729ff6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "bash",
+  "source_context_snippet": "Fetches system/theme information in terminal for Linux desktop screenshots.",
+  "source_file": null,
+  "source_repo": "KittyKatt/screenFetch",
+  "source_repo_description": "Fetches system/theme information in terminal for Linux desktop screenshots."
+}

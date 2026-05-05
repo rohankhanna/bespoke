@@ -673,6 +673,18 @@
       "source_repo": "Polytonic/Glitter",
       "status": "candidate-context",
       "text": "Dead Simple OpenGL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Saalvage/AssimpNetter",
+      "status": "candidate-context",
+      "text": "Maintained fork of AssimpNet that adds better interop with modern C#"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Saalvage/AssimpNetter",
+      "status": "candidate-context",
+      "text": "![alt text](https://raw.githubusercontent.com/Saalvage/AssimpNetter/master/logo.png \"AssimpNet Logo\")"
     }
   ],
   "candidate_glosses": [
@@ -1011,6 +1023,12 @@
       "source_repo": "Polytonic/Glitter",
       "status": "candidate",
       "text": "Dead Simple OpenGL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Saalvage/AssimpNetter",
+      "status": "candidate",
+      "text": "![alt text](https://raw.githubusercontent.com/Saalvage/AssimpNetter/master/logo.png \"AssimpNet Logo\")"
     }
   ],
   "candidate_related_terms": [
@@ -1616,11 +1634,41 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "Deep-Symmetry/wayang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "taichi-dev/difftaichi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Saalvage/AssimpNetter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/wayang"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

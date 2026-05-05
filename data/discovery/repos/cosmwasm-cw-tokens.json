@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T15:57:59.752847+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4487
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 636
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Examples of cw20 usage, extracted from cw-plus, maintained by the community",
+    "fork": false,
+    "full_name": "CosmWasm/cw-tokens",
+    "html_url": "https://github.com/CosmWasm/cw-tokens",
+    "language": "Rust",
+    "pushed_at": "2024-01-26T20:54:28Z",
+    "stargazers_count": 91,
+    "topics": [],
+    "updated_at": "2026-03-25T08:24:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

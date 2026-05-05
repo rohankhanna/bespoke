@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -5807,6 +5807,66 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "HaxeFlixel/haxeflixel.com"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "CosmWasm/cw-plus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hyperledger-labs/yui-relayer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ayazhafiz/xorf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/industrial_ci_action.yml",
+      "source_repo": "nobleo/rviz_satellite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "idris-community/idris2-lsp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/inno_setup",
+      "source_repo": "Saalvage/assimp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "oxidizing/letters"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "MisanthropicBit/neotest-busted"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "supermacro/neverthrow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-docs.yml",
+      "source_repo": "MoonshotAI/kimi-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-pages.yml",
+      "source_repo": "MoonshotAI/kimi-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml",
+      "source_repo": "edwinb/Idris2"
     }
   ]
 }

@@ -1,0 +1,208 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "koide3/ndt_omp",
+      "target": "dfki-ric/pclomp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "koide3/ndt_omp",
+      "target": "tier4/ndt_omp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "koide3/ndt_omp",
+      "target": "smrt-aist/fast_gicp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "koide3/ndt_omp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "koide3/ndt_omp",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "koide3/ndt_omp",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "koide3/ndt_omp",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koide3/ndt_omp",
+      "target": "matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koide3/ndt_omp",
+      "target": "multithreading",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koide3/ndt_omp",
+      "target": "ndt-algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koide3/ndt_omp",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koide3/ndt_omp",
+      "target": "registration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koide3/ndt_omp",
+      "target": "scan-matching",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:53:36.577829+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1969
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 796
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Multi-threaded and SSE friendly NDT algorithm",
+    "fork": false,
+    "full_name": "koide3/ndt_omp",
+    "html_url": "https://github.com/koide3/ndt_omp",
+    "language": "C++",
+    "pushed_at": "2024-08-31T13:05:27Z",
+    "stargazers_count": 836,
+    "topics": [
+      "matching",
+      "multithreading",
+      "ndt",
+      "ndt-algorithm",
+      "pcl",
+      "point-cloud",
+      "registration",
+      "ros",
+      "scan-matching"
+    ],
+    "updated_at": "2026-04-28T06:49:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dfki-ric/pclomp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "smrt-aist/fast_gicp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tier4/ndt_omp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "This package provides an OpenMP-boosted Normal Distributions Transform (and GICP) algorithm derived from pcl. The NDT algorithm is modified to be SSE-friendly and multi-threaded. It can run up to 10 times faster than its original version in pcl.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matching"
+    },
+    {
+      "context_snippet": "This package provides an OpenMP-boosted Normal Distributions Transform (and GICP) algorithm derived from pcl. The NDT algorithm is modified to be SSE-friendly and multi-threaded. It can run up to 10 times faster than its original version in pcl.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multithreading"
+    },
+    {
+      "context_snippet": "This package provides an OpenMP-boosted Normal Distributions Transform (and GICP) algorithm derived from pcl. The NDT algorithm is modified to be SSE-friendly and multi-threaded. It can run up to 10 times faster than its original version in pcl.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ndt-algorithm"
+    },
+    {
+      "context_snippet": "This package provides an OpenMP-boosted Normal Distributions Transform (and GICP) algorithm derived from pcl. The NDT algorithm is modified to be SSE-friendly and multi-threaded. It can run up to 10 times faster than its original version in pcl.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "This package provides an OpenMP-boosted Normal Distributions Transform (and GICP) algorithm derived from pcl. The NDT algorithm is modified to be SSE-friendly and multi-threaded. It can run up to 10 times faster than its original version in pcl.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "registration"
+    },
+    {
+      "context_snippet": "This package provides an OpenMP-boosted Normal Distributions Transform (and GICP) algorithm derived from pcl. The NDT algorithm is modified to be SSE-friendly and multi-threaded. It can run up to 10 times faster than its original version in pcl.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scan-matching"
+    }
+  ]
+}

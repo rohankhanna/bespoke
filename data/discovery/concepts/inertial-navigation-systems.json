@@ -19,6 +19,18 @@
       "source_repo": "JokerJohn/MS-Dataset",
       "status": "candidate-context",
       "text": "Large scale LiDAR-IMU dataset"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ntnu-arl/lidar_degeneracy_datasets",
+      "status": "candidate-context",
+      "text": "LiDAR degeneracy dataset for LiDAR-radar-inertial fusion methods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ntnu-arl/lidar_degeneracy_datasets",
+      "status": "candidate-context",
+      "text": "Dataset associated with submission for handling LiDAR-degenerative environments through LiDAR-radar-inertial fusion with factor graphs."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "JokerJohn/MS-Dataset",
       "status": "candidate",
       "text": "Large scale LiDAR-IMU dataset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ntnu-arl/lidar_degeneracy_datasets",
+      "status": "candidate",
+      "text": "Dataset associated with submission for handling LiDAR-degenerative environments through LiDAR-radar-inertial fusion with factor graphs."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "JokerJohn/MS-Dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ntnu-arl/lidar_degeneracy_datasets"
     }
   ],
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

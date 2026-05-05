@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-conflicts.yml",
+      "source_repo": "rocq-prover/rocq",
+      "target": "eps1lon/actions-label-merge-conflict@b8bf8341285ec9a4567d4318ba474fee998a6919",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-conflicts.yml",
+      "source_repo": "rocq-prover/rocq",
+      "target": "Check conflicts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-github.yml",
+      "source_repo": "rocq-prover/rocq",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-github.yml",
+      "source_repo": "rocq-prover/rocq",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-github.yml",
+      "source_repo": "rocq-prover/rocq",
+      "target": "Github CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "rocq-prover/rocq",
+      "target": "Stale PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rocq-prover/rocq",
+      "target": "dependent-types",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rocq-prover/rocq",
+      "target": "proof-assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rocq-prover/rocq",
+      "target": "theorem-proving",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "rocq-prover/rocq"
+}

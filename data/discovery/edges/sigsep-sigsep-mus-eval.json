@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sigsep/sigsep-mus-eval",
+      "target": "sigsep/sigsep-mus-2018",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "sigsep/sigsep-mus-eval",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "sigsep/sigsep-mus-eval",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "sigsep/sigsep-mus-eval",
+      "target": "actions/upload-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "sigsep/sigsep-mus-eval",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "sigsep/sigsep-mus-eval",
+      "target": "Latest docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_unittests.yml",
+      "source_repo": "sigsep/sigsep-mus-eval",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_unittests.yml",
+      "source_repo": "sigsep/sigsep-mus-eval",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "sigsep/sigsep-mus-eval"
+}

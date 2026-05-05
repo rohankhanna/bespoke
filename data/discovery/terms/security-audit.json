@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -406,6 +406,31 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/security-audit.yml",
       "source_repo": "RustCrypto/nacl-compat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/audit.yaml",
+      "source_repo": "octopus-network/ibc-proto-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/audit.yaml",
+      "source_repo": "octopus-network/ibc-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/audit.yaml",
+      "source_repo": "ChorusOne/ibc-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/security-audit.yml",
+      "source_repo": "iqlusioninc/abscissa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "open-telemetry/weaver"
     }
   ],
   "term": "Security Audit"

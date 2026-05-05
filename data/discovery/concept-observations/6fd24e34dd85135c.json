@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u201eRust \u0432 \u043f\u0440\u0438\u043c\u0435\u0440\u0438\u201c \u041c\u043e\u0436\u0435\u0442\u0435 \u0441\u0432\u043e\u0431\u043e\u0434\u043d\u043e \u0434\u0430 \u0447\u0435\u0442\u0435\u0442\u0435 \u043a\u043d\u0438\u0433\u0430\u0442\u0430 \u0432 \u0442\u0435\u043a\u0443\u0449\u043e\u0442\u043e \u045d \u0441\u044a\u0441\u0442\u043e\u044f\u043d\u0438\u0435 \u043d\u0430 \u0430\u0434\u0440\u0435\u0441\u0430 \u043f\u043e-\u0434\u043e\u043b\u0443. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status][travis-badge]][travis-repo]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status][travis-badge]][travis-repo]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040131,
+      "status": "candidate",
+      "text": "version"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030901,
+      "status": "candidate",
+      "text": "transformation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018165,
+      "status": "candidate",
+      "text": "rendering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39958286,
+      "status": "candidate",
+      "text": "displacement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046056,
+      "status": "candidate",
+      "text": "interlingual rendition"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "translation",
+      "sense_id": "translation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36059,
+      "status": "candidate",
+      "text": "transformation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17043,
+      "status": "candidate",
+      "text": "rendering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11048,
+      "status": "candidate",
+      "text": "version"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7058,
+      "status": "candidate",
+      "text": "displacement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2009,
+      "status": "candidate",
+      "text": "interlingual rendition"
+    }
+  ],
+  "concept_id": "translation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "translation",
+  "observation_id": "6fd24e34dd85135c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "translation",
+  "source_context_snippet": "[![Build Status][travis-badge]][travis-repo]",
+  "source_file": null,
+  "source_repo": "kberov/rust-by-example-bg",
+  "source_repo_description": "\u201eRust \u0432 \u043f\u0440\u0438\u043c\u0435\u0440\u0438\u201c \u041c\u043e\u0436\u0435\u0442\u0435 \u0441\u0432\u043e\u0431\u043e\u0434\u043d\u043e \u0434\u0430 \u0447\u0435\u0442\u0435\u0442\u0435 \u043a\u043d\u0438\u0433\u0430\u0442\u0430 \u0432 \u0442\u0435\u043a\u0443\u0449\u043e\u0442\u043e \u045d \u0441\u044a\u0441\u0442\u043e\u044f\u043d\u0438\u0435 \u043d\u0430 \u0430\u0434\u0440\u0435\u0441\u0430 \u043f\u043e-\u0434\u043e\u043b\u0443. "
+}

@@ -115,6 +115,42 @@
       "source_repo": "bow-swift/nef-editor-client",
       "status": "candidate-context",
       "text": "Welcome to the client-side code of [nef Playgrounds for iPad](https://apps.apple.com/us/app/nef-playgrounds/id1511012848)!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gumob/PunycodeSwift",
+      "status": "candidate-context",
+      "text": "PunycodeSwift is a pure Swift library to allows you to encode and decode punycoded strings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gumob/PunycodeSwift",
+      "status": "candidate-context",
+      "text": "[![Swift Package Manager compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)](https://github.com/gumob/PunycodeSwift)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cpisciotta/xcbeautify",
+      "status": "candidate-context",
+      "text": "An xcodebuild formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpisciotta/xcbeautify",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fcpisciotta%2Fxcbeautify%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/cpisciotta/xcbeautify)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gumob/TLDExtractSwift",
+      "status": "candidate-context",
+      "text": "A pure Swift library to allows you to get the public suffix of a domain name"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gumob/TLDExtractSwift",
+      "status": "candidate-context",
+      "text": "[![Swift Package Manager compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)](https://github.com/gumob/TLDExtractSwift)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +207,24 @@
       "source_repo": "bow-swift/nef-editor-client",
       "status": "candidate",
       "text": "Welcome to the client-side code of [nef Playgrounds for iPad](https://apps.apple.com/us/app/nef-playgrounds/id1511012848)!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gumob/PunycodeSwift",
+      "status": "candidate",
+      "text": "[![Swift Package Manager compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)](https://github.com/gumob/PunycodeSwift)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpisciotta/xcbeautify",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fcpisciotta%2Fxcbeautify%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/cpisciotta/xcbeautify)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gumob/TLDExtractSwift",
+      "status": "candidate",
+      "text": "[![Swift Package Manager compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)](https://github.com/gumob/TLDExtractSwift)"
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +286,29 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "bow-swift/nef-editor-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "gumob/PunycodeSwift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "cpisciotta/xcbeautify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "gumob/TLDExtractSwift"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

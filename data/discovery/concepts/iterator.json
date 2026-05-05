@@ -31,6 +31,18 @@
       "source_repo": "jonschlinkert/kind-of",
       "status": "candidate-context",
       "text": "> Get the native type of a value."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "P4sca1/cron-schedule",
+      "status": "candidate-context",
+      "text": "A zero-dependency cron parser and scheduler for Node.js, Deno, Bun and the browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "P4sca1/cron-schedule",
+      "status": "candidate-context",
+      "text": "A zero-dependency cron parser and scheduler for Node.js, Deno and the browser. Published on [NPM](https://www.npmjs.com) and [JSR](https://jsr.io)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "jonschlinkert/kind-of",
       "status": "candidate",
       "text": "> Get the native type of a value."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "P4sca1/cron-schedule",
+      "status": "candidate",
+      "text": "A zero-dependency cron parser and scheduler for Node.js, Deno and the browser. Published on [NPM](https://www.npmjs.com) and [JSR](https://jsr.io)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "jonschlinkert/kind-of"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "P4sca1/cron-schedule"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -34,6 +34,18 @@
       "source_repo": "CyberHoward/cw-plus-plus",
       "status": "candidate-context",
       "text": "CosmWasm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "larry0x/cw-plus-plus",
+      "status": "candidate-context",
+      "text": "A collection of CosmWasm utilities and helper functions that I use "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "larry0x/cw-plus-plus",
+      "status": "candidate-context",
+      "text": "CosmWasm"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "CyberHoward/cw-plus-plus",
+      "status": "candidate",
+      "text": "CosmWasm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "larry0x/cw-plus-plus",
       "status": "candidate",
       "text": "CosmWasm"
     }
@@ -67,11 +85,17 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": ".github/workflows/wasm.yaml",
       "source_repo": "CyberHoward/cw-plus-plus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/wasm.yaml",
+      "source_repo": "larry0x/cw-plus-plus"
     }
   ],
   "first_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

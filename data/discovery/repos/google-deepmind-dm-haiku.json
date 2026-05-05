@@ -176,7 +176,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T07:04:57.459739+00:00",
+  "fetched_at": "2026-05-05T16:57:15.812527+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -212,7 +212,7 @@
     "full_name": "google-deepmind/dm-haiku",
     "html_url": "https://github.com/google-deepmind/dm-haiku",
     "language": "Python",
-    "pushed_at": "2026-04-30T12:28:33Z",
+    "pushed_at": "2026-05-05T15:17:28Z",
     "stargazers_count": 3228,
     "topics": [
       "deep-learning",

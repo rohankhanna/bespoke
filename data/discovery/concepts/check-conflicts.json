@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check conflicts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rocq-prover/rocq",
+      "status": "candidate-context",
+      "text": "The Rocq Prover is an interactive theorem prover, or proof assistant. It provides a formal language to write mathematical definitions, executable algorithms and theorems together with an environment for semi-interactive development of machine-checked proofs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rocq-prover/rocq",
+      "status": "candidate-context",
+      "text": "\"Check conflicts\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rocq-prover/rocq",
+      "status": "candidate",
+      "text": "\"Check conflicts\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12164,
+      "status": "candidate",
+      "text": "against"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12164,
+      "status": "candidate",
+      "text": "trouble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12164,
+      "status": "candidate",
+      "text": "troubled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12164,
+      "status": "candidate",
+      "text": "troubling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11448,
+      "status": "candidate",
+      "text": "war"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check conflicts",
+  "concept_id": "check-conflicts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/check-conflicts.yml",
+      "source_repo": "rocq-prover/rocq"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check conflicts",
+      "sense_id": "check-conflicts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

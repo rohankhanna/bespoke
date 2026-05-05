@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MAPIRlab/rf2o_laser_odometry",
+      "target": "laser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MAPIRlab/rf2o_laser_odometry",
+      "target": "odometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MAPIRlab/rf2o_laser_odometry",
+      "target": "robotics",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "MAPIRlab/rf2o_laser_odometry"
+}

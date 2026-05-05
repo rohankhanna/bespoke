@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "cvc5 is an open-source automatic theorem prover for Satisfiability Modulo Theories (SMT) problems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "documentation cleanup"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "documentation cleanup"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10673,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10639,
+      "status": "candidate",
+      "text": "clean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10639,
+      "status": "candidate",
+      "text": "cleansing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10639,
+      "status": "candidate",
+      "text": "clearance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10639,
+      "status": "candidate",
+      "text": "rake"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "documentation cleanup",
+      "sense_id": "documentation-cleanup#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "documentation-cleanup",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "documentation-cleanup",
+  "observation_id": "e8990b2d5a9b196c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "documentation cleanup",
+  "source_context_snippet": "documentation cleanup",
+  "source_file": ".github/workflows/docs_cleanup.yml",
+  "source_repo": "cvc5/cvc5",
+  "source_repo_description": "cvc5 is an open-source automatic theorem prover for Satisfiability Modulo Theories (SMT) problems."
+}

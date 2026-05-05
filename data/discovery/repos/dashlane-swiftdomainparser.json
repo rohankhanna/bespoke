@@ -1,0 +1,82 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dashlane/SwiftDomainParser",
+      "target": "parse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dashlane/SwiftDomainParser",
+      "target": "parseurl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dashlane/SwiftDomainParser",
+      "target": "public-suffix-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dashlane/SwiftDomainParser",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:05:04.742999+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Full Swift Lightweight Framework that uses the Public Suffix list to Parse URLs ",
+    "fork": false,
+    "full_name": "Dashlane/SwiftDomainParser",
+    "html_url": "https://github.com/Dashlane/SwiftDomainParser",
+    "language": "Swift",
+    "pushed_at": "2025-06-02T13:09:44Z",
+    "stargazers_count": 74,
+    "topics": [
+      "parse",
+      "parseurl",
+      "psl",
+      "public-suffix-list",
+      "swift"
+    ],
+    "updated_at": "2026-04-17T22:58:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A Full Swift Lightweight Framework that uses the Public Suffix list to Parse URLs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parse"
+    },
+    {
+      "context_snippet": "A Full Swift Lightweight Framework that uses the Public Suffix list to Parse URLs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parseurl"
+    },
+    {
+      "context_snippet": "A Full Swift Lightweight Framework that uses the Public Suffix list to Parse URLs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "public-suffix-list"
+    },
+    {
+      "context_snippet": "A Full Swift Lightweight Framework that uses the Public Suffix list to Parse URLs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    }
+  ]
+}

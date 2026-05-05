@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and Test Ubuntu"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "B-Lang-org/bsc",
+      "status": "candidate-context",
+      "text": "Bluespec Compiler (BSC)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "B-Lang-org/bsc",
+      "status": "candidate-context",
+      "text": "Build and Test Ubuntu"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "B-Lang-org/bsc",
+      "status": "candidate",
+      "text": "Build and Test Ubuntu"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15418,
+      "status": "candidate",
+      "text": "kubuntu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15418,
+      "status": "candidate",
+      "text": "xubuntu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10418,
+      "status": "candidate",
+      "text": "individualism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004,
+      "status": "candidate",
+      "text": "reconstructor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004,
+      "status": "candidate",
+      "text": "zulu"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and Test Ubuntu",
+  "concept_id": "build-and-test-ubuntu",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build-and-test-ubuntu.yml",
+      "source_repo": "B-Lang-org/bsc"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Test Ubuntu",
+      "sense_id": "build-and-test-ubuntu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

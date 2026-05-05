@@ -1,0 +1,155 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clovaai/rexnet",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/rexnet",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/rexnet",
+      "target": "image-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/rexnet",
+      "target": "imagenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/rexnet",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/rexnet",
+      "target": "pretrained-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/rexnet",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/rexnet",
+      "target": "rexnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/rexnet",
+      "target": "transfer-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T13:55:06.436458+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9890
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official Pytorch implementation of ReXNet (Rank eXpansion Network) with pretrained models",
+    "fork": false,
+    "full_name": "clovaai/rexnet",
+    "html_url": "https://github.com/clovaai/rexnet",
+    "language": "Python",
+    "pushed_at": "2022-01-30T17:24:47Z",
+    "stargazers_count": 449,
+    "topics": [
+      "deep-learning",
+      "image-classification",
+      "imagenet",
+      "object-detection",
+      "pretrained-model",
+      "pytorch",
+      "rexnet",
+      "transfer-learning"
+    ],
+    "updated_at": "2026-04-27T11:25:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Dongyoon Han, Sangdoo Yun, Byeongho Heo, and YoungJoon Yoo** | [Paper](https://arxiv.org/abs/2007.00992) | [Pretrained Models](#pretrained)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "**Dongyoon Han, Sangdoo Yun, Byeongho Heo, and YoungJoon Yoo** | [Paper](https://arxiv.org/abs/2007.00992) | [Pretrained Models](#pretrained)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-classification"
+    },
+    {
+      "context_snippet": "**Dongyoon Han, Sangdoo Yun, Byeongho Heo, and YoungJoon Yoo** | [Paper](https://arxiv.org/abs/2007.00992) | [Pretrained Models](#pretrained)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagenet"
+    },
+    {
+      "context_snippet": "**Dongyoon Han, Sangdoo Yun, Byeongho Heo, and YoungJoon Yoo** | [Paper](https://arxiv.org/abs/2007.00992) | [Pretrained Models](#pretrained)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "**Dongyoon Han, Sangdoo Yun, Byeongho Heo, and YoungJoon Yoo** | [Paper](https://arxiv.org/abs/2007.00992) | [Pretrained Models](#pretrained)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-model"
+    },
+    {
+      "context_snippet": "**Dongyoon Han, Sangdoo Yun, Byeongho Heo, and YoungJoon Yoo** | [Paper](https://arxiv.org/abs/2007.00992) | [Pretrained Models](#pretrained)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "**Dongyoon Han, Sangdoo Yun, Byeongho Heo, and YoungJoon Yoo** | [Paper](https://arxiv.org/abs/2007.00992) | [Pretrained Models](#pretrained)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rexnet"
+    },
+    {
+      "context_snippet": "**Dongyoon Han, Sangdoo Yun, Byeongho Heo, and YoungJoon Yoo** | [Paper](https://arxiv.org/abs/2007.00992) | [Pretrained Models](#pretrained)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transfer-learning"
+    }
+  ]
+}

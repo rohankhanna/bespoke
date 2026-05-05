@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Node.js package to connect to the IOV app on Ledger devices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![npm version](https://img.shields.io/npm/v/@iov/ledger-iovns.svg)](https://www.npmjs.com/package/@iov/ledger-iovns)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/@iov/ledger-iovns.svg)](https://www.npmjs.com/package/@iov/ledger-iovns)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "typescript-library",
+      "sense_id": "typescript-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "typescript-library",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "typescript-library",
+  "observation_id": "0f63fdb12931a855",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "typescript-library",
+  "source_context_snippet": "[![npm version](https://img.shields.io/npm/v/@iov/ledger-iovns.svg)](https://www.npmjs.com/package/@iov/ledger-iovns)",
+  "source_file": null,
+  "source_repo": "iov-one/iov-ledger-iovns",
+  "source_repo_description": "A Node.js package to connect to the IOV app on Ledger devices."
+}

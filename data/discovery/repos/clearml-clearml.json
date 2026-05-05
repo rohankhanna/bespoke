@@ -156,7 +156,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T08:14:04.001883+00:00",
+  "fetched_at": "2026-05-05T15:05:34.336960+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -164,7 +164,7 @@
     },
     {
       "path": "requirements.txt",
-      "size": 394
+      "size": 612
     },
     {
       "path": ".github/workflows/codeql-analysis.yml",
@@ -184,7 +184,7 @@
     "full_name": "clearml/clearml",
     "html_url": "https://github.com/clearml/clearml",
     "language": "Python",
-    "pushed_at": "2026-05-01T12:20:16Z",
+    "pushed_at": "2026-05-05T14:04:12Z",
     "stargazers_count": 6657,
     "topics": [
       "ai",
@@ -204,7 +204,7 @@
       "version",
       "version-control"
     ],
-    "updated_at": "2026-05-04T07:53:03Z"
+    "updated_at": "2026-05-05T14:04:18Z"
   },
   "repo_links": [],
   "terms": [

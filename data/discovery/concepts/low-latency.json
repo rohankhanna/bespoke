@@ -43,6 +43,18 @@
       "source_repo": "hazelcast/hazelcast",
       "status": "candidate-context",
       "text": "[![Slack](https://img.shields.io/badge/slack-chat-green.svg)](https://slack.hazelcast.com/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dora-rs/dora",
+      "status": "candidate-context",
+      "text": "DORA (Dataflow-Oriented Robotic Architecture) is middleware designed to streamline and simplify the creation of AI-based robotic applications. It offers low latency, composable, and distributed dataflow capabilities. Applications are modeled as directed graphs, also referred to as pipelines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dora-rs/dora",
+      "status": "candidate-context",
+      "text": "[English](README.md) | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "hazelcast/hazelcast",
       "status": "candidate",
       "text": "[![Slack](https://img.shields.io/badge/slack-chat-green.svg)](https://slack.hazelcast.com/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dora-rs/dora",
+      "status": "candidate",
+      "text": "[English](README.md) | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +112,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "hazelcast/hazelcast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "dora-rs/dora"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -107,6 +107,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/performance.yml",
       "source_repo": "conda/conda-libmamba-solver"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/install-from-conda.yml",
+      "source_repo": "NCAS-CMS/pyfive"
     }
   ]
 }

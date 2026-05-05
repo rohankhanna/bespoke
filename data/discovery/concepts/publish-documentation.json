@@ -266,6 +266,12 @@
       "source_repo": "Bastacyclop/rust_box2d",
       "status": "candidate-context",
       "text": "Publish Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dapp-org/dappsys-v2",
+      "status": "candidate-context",
+      "text": "Publish Documentation"
     }
   ],
   "candidate_glosses": [
@@ -398,6 +404,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Bastacyclop/rust_box2d",
+      "status": "candidate",
+      "text": "Publish Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dapp-org/dappsys-v2",
       "status": "candidate",
       "text": "Publish Documentation"
     }
@@ -893,11 +905,35 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/docs-update.yml",
+      "source_repo": "pydantic/pydantic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "dapp-org/dappsys-v2"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_unittests.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_unittests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sigsep/sigsep-mus-eval",
+      "target": "sigsep/sigsep-mus-2018",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "sigsep/sigsep-mus-eval",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "sigsep/sigsep-mus-eval",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "sigsep/sigsep-mus-eval",
+      "target": "actions/upload-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "sigsep/sigsep-mus-eval",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "sigsep/sigsep-mus-eval",
+      "target": "Latest docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_unittests.yml",
+      "source_repo": "sigsep/sigsep-mus-eval",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_unittests.yml",
+      "source_repo": "sigsep/sigsep-mus-eval",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:54:08.002512+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8824
+    },
+    {
+      "path": "Dockerfile",
+      "size": 375
+    },
+    {
+      "path": ".github/workflows/test_docs.yml",
+      "size": 2282
+    },
+    {
+      "path": ".github/workflows/test_unittests.yml",
+      "size": 1127
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "museval - source separation evaluation tools for python",
+    "fork": false,
+    "full_name": "sigsep/sigsep-mus-eval",
+    "html_url": "https://github.com/sigsep/sigsep-mus-eval",
+    "language": "Python",
+    "pushed_at": "2025-05-28T09:21:52Z",
+    "stargazers_count": 235,
+    "topics": [],
+    "updated_at": "2026-05-02T04:59:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sigsep/sigsep-mus-2018",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Latest docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_docs.yml",
+      "term": "Latest docs"
+    }
+  ]
+}

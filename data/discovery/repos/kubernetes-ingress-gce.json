@@ -1,0 +1,91 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/ingress-gce",
+      "target": "google",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/ingress-gce",
+      "target": "ingress",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/ingress-gce",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/ingress-gce",
+      "target": "loadbalancer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T13:44:15.003643+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2219
+    },
+    {
+      "path": "go.mod",
+      "size": 12851
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ingress controller for Google Cloud",
+    "fork": false,
+    "full_name": "kubernetes/ingress-gce",
+    "html_url": "https://github.com/kubernetes/ingress-gce",
+    "language": "Go",
+    "pushed_at": "2026-04-24T12:09:58Z",
+    "stargazers_count": 1300,
+    "topics": [
+      "google",
+      "ingress",
+      "k8s",
+      "kubernetes",
+      "loadbalancer"
+    ],
+    "updated_at": "2026-05-04T15:16:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![GitHub release](https://img.shields.io/github/release/kubernetes/ingress-gce.svg)](https://github.com/kubernetes/ingress-gce/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google"
+    },
+    {
+      "context_snippet": "[![GitHub release](https://img.shields.io/github/release/kubernetes/ingress-gce.svg)](https://github.com/kubernetes/ingress-gce/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ingress"
+    },
+    {
+      "context_snippet": "[![GitHub release](https://img.shields.io/github/release/kubernetes/ingress-gce.svg)](https://github.com/kubernetes/ingress-gce/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![GitHub release](https://img.shields.io/github/release/kubernetes/ingress-gce.svg)](https://github.com/kubernetes/ingress-gce/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "loadbalancer"
+    }
+  ]
+}

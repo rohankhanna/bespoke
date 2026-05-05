@@ -442,6 +442,18 @@
       "source_repo": "scopedb/percas",
       "status": "candidate-context",
       "text": "Percas is a distributed persistent cache service optimized for high performance NVMe SSD. It aims to provide the capability to scale-out without pain and with stable performance."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NoakLiu/FastCache-xDiT",
+      "status": "candidate-context",
+      "text": "FastCache: Fast Caching for Diffusion Transformer Through Learnable Linear Approximation [Efficient ML Model]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NoakLiu/FastCache-xDiT",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -660,6 +672,12 @@
       "source_repo": "scopedb/percas",
       "status": "candidate",
       "text": "Percas is a distributed persistent cache service optimized for high performance NVMe SSD. It aims to provide the capability to scale-out without pain and with stable performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NoakLiu/FastCache-xDiT",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1081,11 +1099,29 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "NoakLiu/FastCache-xDiT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/cache.yml",
+      "source_repo": "NomicFoundation/hardhat"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -151,6 +151,18 @@
       "source_repo": "picturepan2/spectre",
       "status": "candidate-context",
       "text": "<a href=\"https://picturepan2.github.io/spectre\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haveachin/infrared",
+      "status": "candidate-context",
+      "text": "An ultra lightweight minecraft reverse proxy and idle placeholder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haveachin/infrared",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "picturepan2/spectre",
       "status": "candidate",
       "text": "<a href=\"https://picturepan2.github.io/spectre\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haveachin/infrared",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -429,11 +447,23 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "beve-org/beve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "beve-org/beve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "haveachin/infrared"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

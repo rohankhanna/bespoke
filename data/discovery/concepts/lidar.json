@@ -211,6 +211,42 @@
       "source_repo": "astroyat/lerobot-ros",
       "status": "candidate-context",
       "text": "ROS 2 bridge for [LeRobot](https://github.com/huggingface/lerobot) \u2014 enabling seamless control of [LeRobot\u2019s mobile base, arm, and sensors](https://github.com/astroyat/lerobot-ros/blob/main/media/lidar.jpg) within the ROS 2 ecosystem."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ntnu-arl/lidar_degeneracy_datasets",
+      "status": "candidate-context",
+      "text": "LiDAR degeneracy dataset for LiDAR-radar-inertial fusion methods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ntnu-arl/lidar_degeneracy_datasets",
+      "status": "candidate-context",
+      "text": "Dataset associated with submission for handling LiDAR-degenerative environments through LiDAR-radar-inertial fusion with factor graphs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ouster-lidar/ouster-ros",
+      "status": "candidate-context",
+      "text": "Official ROS drivers for Ouster sensors (OS0, OS1, OS2, OSDome)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ouster-lidar/ouster-ros",
+      "status": "candidate-context",
+      "text": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry",
+      "status": "candidate-context",
+      "text": "[IEEE ICRA'23] A new lightweight LiDAR-inertial odometry algorithm with a novel coarse-to-fine approach in constructing continuous-time trajectories for precise motion correction."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry",
+      "status": "candidate-context",
+      "text": "DLIO is a new lightweight LiDAR-inertial odometry algorithm with a novel coarse-to-fine approach in constructing continuous-time trajectories for precise motion correction. It features several algorithmic improvements over its predecessor, [DLO](https://github.com/vectr-ucla/dir\u2026"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +351,24 @@
       "source_repo": "astroyat/lerobot-ros",
       "status": "candidate",
       "text": "ROS 2 bridge for [LeRobot](https://github.com/huggingface/lerobot) \u2014 enabling seamless control of [LeRobot\u2019s mobile base, arm, and sensors](https://github.com/astroyat/lerobot-ros/blob/main/media/lidar.jpg) within the ROS 2 ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ntnu-arl/lidar_degeneracy_datasets",
+      "status": "candidate",
+      "text": "Dataset associated with submission for handling LiDAR-degenerative environments through LiDAR-radar-inertial fusion with factor graphs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ouster-lidar/ouster-ros",
+      "status": "candidate",
+      "text": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry",
+      "status": "candidate",
+      "text": "DLIO is a new lightweight LiDAR-inertial odometry algorithm with a novel coarse-to-fine approach in constructing continuous-time trajectories for precise motion correction. It features several algorithmic improvements over its predecessor, [DLO](https://github.com/vectr-ucla/dir\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -490,11 +544,35 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "astroyat/lerobot-ros"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ntnu-arl/lidar_degeneracy_datasets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "TiagoCortinhal/SalsaNext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ouster-lidar/ouster-ros"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

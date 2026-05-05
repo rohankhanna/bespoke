@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "hyperledger"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datachainlab/yui-relayer-build",
+      "status": "candidate-context",
+      "text": "IBC Relayer for heterogeneous blockchains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/yui-relayer-build",
+      "status": "candidate-context",
+      "text": "This repository provides a table of [IBC](https://github.com/cosmos/ibc) module combinations supported by [yui-relayer](https://github.com/hyperledger-labs/yui-relayer) and their E2E tests. The E2E tests are performed for each version of the yui-relayer."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyperledger-labs/yui-fabric-ibc",
+      "status": "candidate-context",
+      "text": "IBC implementation in Hyperledger Fabric"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-labs/yui-fabric-ibc",
+      "status": "candidate-context",
+      "text": "![Test](https://github.com/hyperledger-labs/yui-fabric-ibc/workflows/Test/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/yui-relayer-build",
+      "status": "candidate",
+      "text": "This repository provides a table of [IBC](https://github.com/cosmos/ibc) module combinations supported by [yui-relayer](https://github.com/hyperledger-labs/yui-relayer) and their E2E tests. The E2E tests are performed for each version of the yui-relayer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-labs/yui-fabric-ibc",
+      "status": "candidate",
+      "text": "![Test](https://github.com/hyperledger-labs/yui-fabric-ibc/workflows/Test/badge.svg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "distributed ledger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "blockchain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "oracle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "hyperweb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "ethereum"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "hyperledger",
+  "concept_id": "hyperledger",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "datachainlab/yui-relayer-build"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "hyperledger-labs/yui-fabric-ibc"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hyperledger",
+      "sense_id": "hyperledger#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

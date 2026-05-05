@@ -31,6 +31,18 @@
       "source_repo": "srdtrk/ibc-rs",
       "status": "candidate-context",
       "text": "CosmWasm Compilation Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octopus-network/ibc-rs",
+      "status": "candidate-context",
+      "text": "Rust implementation of the Inter-Blockchain Communication (IBC) protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octopus-network/ibc-rs",
+      "status": "candidate-context",
+      "text": "CosmWasm Compilation Check"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "srdtrk/ibc-rs",
+      "status": "candidate",
+      "text": "CosmWasm Compilation Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octopus-network/ibc-rs",
       "status": "candidate",
       "text": "CosmWasm Compilation Check"
     }
@@ -118,11 +136,23 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": ".github/workflows/cw-check.yaml",
       "source_repo": "srdtrk/ibc-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/cw-check.yaml",
+      "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/cw-check.yaml",
+      "source_repo": "octopus-network/ibc-rs"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

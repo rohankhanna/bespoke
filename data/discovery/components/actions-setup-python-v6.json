@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v6",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -6247,6 +6247,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/mypy.yml",
       "source_repo": "panda3d/panda3d"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aio-libs/aiorwlock"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy-on-pypi.yml",
+      "source_repo": "NCAS-CMS/pyfive"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "nobleo/rviz_satellite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stevengj/nlopt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "astroyat/lerobot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-nuget.yml",
+      "source_repo": "libcpr/cpr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "libcpr/cpr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CheckPRTemplate.yml",
+      "source_repo": "PaddlePaddle/FastDeploy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Codestyle-Check.yml",
+      "source_repo": "PaddlePaddle/FastDeploy"
     }
   ]
 }

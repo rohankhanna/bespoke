@@ -331,6 +331,18 @@
       "source_repo": "nonstd-lite/string-view-lite",
       "status": "candidate-context",
       "text": "[![Language](https://img.shields.io/badge/C%2B%2B-98/11/14/17-blue.svg)](https://en.wikipedia.org/wiki/C%2B%2B#Standardization) [![License](https://img.shields.io/badge/license-BSL-blue.svg)](https://opensource.org/licenses/BSL-1.0) [![Build Status](https://github.com/martinmoen\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "status": "candidate-context",
+      "text": "Library of backported modern C++ types to work with C++11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "status": "candidate-context",
+      "text": "![Backport C++](doc/images/backport-logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -495,6 +507,12 @@
       "source_repo": "nonstd-lite/string-view-lite",
       "status": "candidate",
       "text": "[![Language](https://img.shields.io/badge/C%2B%2B-98/11/14/17-blue.svg)](https://en.wikipedia.org/wiki/C%2B%2B#Standardization) [![License](https://img.shields.io/badge/license-BSL-blue.svg)](https://opensource.org/licenses/BSL-1.0) [![Build Status](https://github.com/martinmoen\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "status": "candidate",
+      "text": "![Backport C++](doc/images/backport-logo.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -748,11 +766,23 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "bitwizeshift/BackportCpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "nonstd-lite/string-view-lite"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

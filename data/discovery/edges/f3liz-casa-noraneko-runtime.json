@@ -11,21 +11,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "f3liz-casa/noraneko-runtime",
-      "target": "hsivonen/any_all_workaround",
+      "target": "servo/unicode-bidi",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "f3liz-casa/noraneko-runtime",
-      "target": "hsivonen/chardetng",
+      "target": "hsivonen/chardetng_c",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "f3liz-casa/noraneko-runtime",
-      "target": "glandium/allocator-api2",
+      "target": "mozilla/midir",
       "target_type": "repository"
     },
     {
@@ -316,6 +316,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-05T00:36:37.683079+00:00",
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
   "source_repo": "f3liz-casa/noraneko-runtime"
 }

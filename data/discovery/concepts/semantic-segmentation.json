@@ -763,6 +763,18 @@
       "source_repo": "cheerss/CrossFormer",
       "status": "candidate-context",
       "text": "This repository is the code for our papers:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "status": "candidate-context",
+      "text": "[CoRL2022] CoBEVT: Cooperative Bird's Eye View Semantic Segmentation with Sparse Transformers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "status": "candidate-context",
+      "text": "[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2207.02202.pdf)"
     }
   ],
   "candidate_glosses": [
@@ -1143,6 +1155,12 @@
       "source_repo": "cheerss/CrossFormer",
       "status": "candidate",
       "text": "This repository is the code for our papers:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "status": "candidate",
+      "text": "[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2207.02202.pdf)"
     }
   ],
   "candidate_related_terms": [],
@@ -2158,11 +2176,65 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/MaskDINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "khanrc/tcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LargeKernel3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "meetps/pytorch-semseg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "TiagoCortinhal/SalsaNext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/CoBEVT"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

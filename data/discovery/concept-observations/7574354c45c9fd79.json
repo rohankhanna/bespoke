@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A version of verl to support diverse tool use"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049331,
+      "status": "candidate",
+      "text": "reinforcer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045650,
+      "status": "candidate",
+      "text": "reenforcement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044380,
+      "status": "candidate",
+      "text": "strengthener"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040594,
+      "status": "candidate",
+      "text": "support"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040115,
+      "status": "candidate",
+      "text": "reward"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reinforcement",
+      "sense_id": "reinforcement#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 51065,
+      "status": "candidate",
+      "text": "support"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12045,
+      "status": "candidate",
+      "text": "reward"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2012,
+      "status": "candidate",
+      "text": "reenforcement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1019,
+      "status": "candidate",
+      "text": "reinforcer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19,
+      "status": "candidate",
+      "text": "strengthener"
+    }
+  ],
+  "concept_id": "reinforcement",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reinforcement",
+  "observation_id": "7574354c45c9fd79",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "reinforcement",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "TIGER-AI-Lab/verl-tool",
+  "source_repo_description": "A version of verl to support diverse tool use"
+}

@@ -1,0 +1,200 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "hila-chefer/Transformer-MM-Explainability",
+      "target": "airsplay/lxmert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "hila-chefer/Transformer-MM-Explainability",
+      "target": "bpiyush/clip-grounding",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hila-chefer/Transformer-MM-Explainability",
+      "target": "clip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hila-chefer/Transformer-MM-Explainability",
+      "target": "detr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hila-chefer/Transformer-MM-Explainability",
+      "target": "explainability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hila-chefer/Transformer-MM-Explainability",
+      "target": "explainable-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hila-chefer/Transformer-MM-Explainability",
+      "target": "interpretability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hila-chefer/Transformer-MM-Explainability",
+      "target": "lxmert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hila-chefer/Transformer-MM-Explainability",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hila-chefer/Transformer-MM-Explainability",
+      "target": "transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hila-chefer/Transformer-MM-Explainability",
+      "target": "visualbert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hila-chefer/Transformer-MM-Explainability",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T13:55:00.867458+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 6750
+    },
+    {
+      "path": "requirements.txt",
+      "size": 265
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV 2021- Oral] Official PyTorch implementation for Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers, a novel method to visualize any Transformer-based network. Including examples for DETR, VQA.",
+    "fork": false,
+    "full_name": "hila-chefer/Transformer-MM-Explainability",
+    "html_url": "https://github.com/hila-chefer/Transformer-MM-Explainability",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-08-24T17:45:14Z",
+    "stargazers_count": 906,
+    "topics": [
+      "clip",
+      "detr",
+      "explainability",
+      "explainable-ai",
+      "interpretability",
+      "lxmert",
+      "transformer",
+      "transformers",
+      "visualbert",
+      "visualization",
+      "vqa"
+    ],
+    "updated_at": "2026-04-05T03:25:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "airsplay/lxmert",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bpiyush/clip-grounding",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[ICCV 2021- Oral] PyTorch Implementation of `Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers <https://arxiv.org/abs/2103.15679>`_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clip"
+    },
+    {
+      "context_snippet": "[ICCV 2021- Oral] PyTorch Implementation of `Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers <https://arxiv.org/abs/2103.15679>`_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detr"
+    },
+    {
+      "context_snippet": "[ICCV 2021- Oral] PyTorch Implementation of `Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers <https://arxiv.org/abs/2103.15679>`_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "explainability"
+    },
+    {
+      "context_snippet": "[ICCV 2021- Oral] PyTorch Implementation of `Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers <https://arxiv.org/abs/2103.15679>`_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "explainable-ai"
+    },
+    {
+      "context_snippet": "[ICCV 2021- Oral] PyTorch Implementation of `Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers <https://arxiv.org/abs/2103.15679>`_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interpretability"
+    },
+    {
+      "context_snippet": "[ICCV 2021- Oral] PyTorch Implementation of `Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers <https://arxiv.org/abs/2103.15679>`_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lxmert"
+    },
+    {
+      "context_snippet": "[ICCV 2021- Oral] PyTorch Implementation of `Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers <https://arxiv.org/abs/2103.15679>`_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "[ICCV 2021- Oral] PyTorch Implementation of `Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers <https://arxiv.org/abs/2103.15679>`_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    },
+    {
+      "context_snippet": "[ICCV 2021- Oral] PyTorch Implementation of `Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers <https://arxiv.org/abs/2103.15679>`_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualbert"
+    },
+    {
+      "context_snippet": "[ICCV 2021- Oral] PyTorch Implementation of `Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers <https://arxiv.org/abs/2103.15679>`_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Trio driver for Chrome DevTools Protocol (CDP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Swarm Mode - Continuous Progress"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Swarm Mode - Continuous Progress"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43647,
+      "status": "candidate",
+      "text": "mount"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33607,
+      "status": "candidate",
+      "text": "climb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33377,
+      "status": "candidate",
+      "text": "passage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33249,
+      "status": "candidate",
+      "text": "dynamism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32892,
+      "status": "candidate",
+      "text": "time"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Swarm Mode - Continuous Progress",
+      "sense_id": "swarm-mode---continuous-progress#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "swarm-mode---continuous-progress",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "swarm-mode---continuous-progress",
+  "observation_id": "e5c0f67a27ff9134",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "Swarm Mode - Continuous Progress",
+  "source_context_snippet": "Swarm Mode - Continuous Progress",
+  "source_file": ".github/workflows/swarm-mode.yml",
+  "source_repo": "HyperionGray/trio-chrome-devtools-protocol",
+  "source_repo_description": "Trio driver for Chrome DevTools Protocol (CDP)"
+}

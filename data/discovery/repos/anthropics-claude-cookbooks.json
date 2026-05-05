@@ -359,7 +359,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T00:54:30.418514+00:00",
+  "fetched_at": "2026-05-05T16:49:23.714864+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -367,7 +367,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 2090
+      "size": 2122
     },
     {
       "path": ".github/workflows/claude-link-review.yml",
@@ -411,10 +411,10 @@
     "full_name": "anthropics/claude-cookbooks",
     "html_url": "https://github.com/anthropics/claude-cookbooks",
     "language": "Jupyter Notebook",
-    "pushed_at": "2026-05-04T21:17:03Z",
-    "stargazers_count": 42159,
+    "pushed_at": "2026-05-05T05:03:57Z",
+    "stargazers_count": 42203,
     "topics": [],
-    "updated_at": "2026-05-05T00:22:53Z"
+    "updated_at": "2026-05-05T15:59:18Z"
   },
   "repo_links": [
     {

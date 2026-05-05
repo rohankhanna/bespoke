@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Receive notifications when an image is updated on a Docker registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\"><a href=\"https://crazymax.dev/diun/\" target=\"_blank\"><img height=\"128\" src=\"https://raw.githubusercontent.com/crazy-max/diun/master/.res/diun.png\"></a></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://crazymax.dev/diun/\" target=\"_blank\"><img height=\"128\" src=\"https://raw.githubusercontent.com/crazy-max/diun/master/.res/diun.png\"></a></p>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032385,
+      "status": "candidate",
+      "text": "slow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031233,
+      "status": "candidate",
+      "text": "slack off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030892,
+      "status": "candidate",
+      "text": "slow up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030783,
+      "status": "candidate",
+      "text": "slow down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030407,
+      "status": "candidate",
+      "text": "slacken"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "slack",
+      "sense_id": "slack#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28047,
+      "status": "candidate",
+      "text": "flaccid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27049,
+      "status": "candidate",
+      "text": "weak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23041,
+      "status": "candidate",
+      "text": "slake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17054,
+      "status": "candidate",
+      "text": "loose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16052,
+      "status": "candidate",
+      "text": "slump"
+    }
+  ],
+  "concept_id": "slack",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "slack",
+  "observation_id": "8d997dfd17081645",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "slack",
+  "source_context_snippet": "<p align=\"center\"><a href=\"https://crazymax.dev/diun/\" target=\"_blank\"><img height=\"128\" src=\"https://raw.githubusercontent.com/crazy-max/diun/master/.res/diun.png\"></a></p>",
+  "source_file": null,
+  "source_repo": "crazy-max/diun",
+  "source_repo_description": "Receive notifications when an image is updated on a Docker registry"
+}

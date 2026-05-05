@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenSparseLLMs/Skip-DiT",
+      "target": "tencent/hunyuandit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T15:02:21.736705+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8656
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u2708\ufe0f [ICCV 2025] Towards Stabilized and Efficient Diffusion Transformers through Long-Skip-Connections with Spectral Constraints",
+    "fork": false,
+    "full_name": "OpenSparseLLMs/Skip-DiT",
+    "html_url": "https://github.com/OpenSparseLLMs/Skip-DiT",
+    "language": "Python",
+    "pushed_at": "2025-07-10T10:34:55Z",
+    "stargazers_count": 79,
+    "topics": [],
+    "updated_at": "2026-01-26T14:28:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/hunyuandit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

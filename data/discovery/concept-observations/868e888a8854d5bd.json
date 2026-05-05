@@ -84,7 +84,7 @@
   "normalized_form": "conventional-commit-validation",
   "observation_id": "868e888a8854d5bd",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T12:47:39.186442+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Conventional Commit Validation",
   "source_context_snippet": "Conventional Commit Validation",
   "source_file": ".github/workflows/semantic-commits.yaml",

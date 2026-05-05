@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Coq library for tactics, basic definitions, sets, maps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update tested branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update tested branch"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20324,
+      "status": "candidate",
+      "text": "eta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20324,
+      "status": "candidate",
+      "text": "etd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20324,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20324,
+      "status": "candidate",
+      "text": "maintenance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20142,
+      "status": "candidate",
+      "text": "proving ground"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update tested branch",
+      "sense_id": "update-tested-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-tested-branch",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-tested-branch",
+  "observation_id": "c6d5fe23d1b291e4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "Update tested branch",
+  "source_context_snippet": "Update tested branch",
+  "source_file": ".github/workflows/update-tested.yml",
+  "source_repo": "mit-plv/coqutil",
+  "source_repo_description": "Coq library for tactics, basic definitions, sets, maps"
+}

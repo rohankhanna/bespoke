@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Google Chromium, sans integration with Google"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*A lightweight approach to removing Google web service dependency*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*A lightweight approach to removing Google web service dependency*"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "google-chromium",
+      "sense_id": "google-chromium#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "google-chromium",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "google-chromium",
+  "observation_id": "a467b7c156837ffe",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "google-chromium",
+  "source_context_snippet": "*A lightweight approach to removing Google web service dependency*",
+  "source_file": null,
+  "source_repo": "ungoogled-software/ungoogled-chromium",
+  "source_repo_description": "Google Chromium, sans integration with Google"
+}

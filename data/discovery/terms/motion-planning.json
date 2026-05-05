@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -26,6 +26,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "HKUST-Aerial-Robotics/Fast-Planner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUST-Aerial-Robotics/FUEL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/robotics-toolbox-matlab"
     }
   ],
   "term": "motion-planning"

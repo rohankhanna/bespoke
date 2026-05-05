@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Daily Test Analysis Report"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "status": "candidate-context",
+      "text": "\"Daily Test Analysis Report\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "status": "candidate",
+      "text": "\"Daily Test Analysis Report\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43776,
+      "status": "candidate",
+      "text": "minutes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43002,
+      "status": "candidate",
+      "text": "record"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33881,
+      "status": "candidate",
+      "text": "assay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33583,
+      "status": "candidate",
+      "text": "news"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32950,
+      "status": "candidate",
+      "text": "notice"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Daily Test Analysis Report",
+  "concept_id": "daily-test-analysis-report",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/daily_test_analysis.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Daily Test Analysis Report",
+      "sense_id": "daily-test-analysis-report#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

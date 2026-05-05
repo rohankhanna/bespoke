@@ -31,6 +31,18 @@
       "source_repo": "unocss/unocss",
       "status": "candidate-context",
       "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robinweser/fela",
+      "status": "candidate-context",
+      "text": "State-Driven Styling in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robinweser/fela",
+      "status": "candidate-context",
+      "text": "<h1><img alt=\"Fela\" src=\"website/public/logo.png\" width=\"203\"/></h1>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "unocss/unocss",
       "status": "candidate",
       "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robinweser/fela",
+      "status": "candidate",
+      "text": "<h1><img alt=\"Fela\" src=\"website/public/logo.png\" width=\"203\"/></h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +136,23 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "unocss/unocss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "robinweser/fela"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "unocss/unocss"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

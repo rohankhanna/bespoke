@@ -1,0 +1,122 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "rust-lang-ru/simpleinfra/gitocalize-bug-checker@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/symbols-counting.yml"
+    },
+    {
+      "component": "rust-lang-ru/simpleinfra/syms-counter@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/symbols-counting.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "rust-lang-ru/rust-by-example",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "rust-lang-ru/rust-by-example",
+      "target": "rust-lang-ru/simpleinfra/gitocalize-bug-checker@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "rust-lang-ru/rust-by-example",
+      "target": "Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/symbols-counting.yml",
+      "source_repo": "rust-lang-ru/rust-by-example",
+      "target": "actions/checkout@v2.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/symbols-counting.yml",
+      "source_repo": "rust-lang-ru/rust-by-example",
+      "target": "rust-lang-ru/simpleinfra/syms-counter@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/symbols-counting.yml",
+      "source_repo": "rust-lang-ru/rust-by-example",
+      "target": "Symbols counting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T15:54:55.408964+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2239
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 695
+    },
+    {
+      "path": ".github/workflows/symbols-counting.yml",
+      "size": 469
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust by example",
+    "fork": false,
+    "full_name": "rust-lang-ru/rust-by-example",
+    "html_url": "https://github.com/rust-lang-ru/rust-by-example",
+    "language": "Handlebars",
+    "pushed_at": "2026-04-20T01:00:06Z",
+    "stargazers_count": 75,
+    "topics": [],
+    "updated_at": "2026-04-20T01:00:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Checks"
+    },
+    {
+      "context_snippet": "Symbols counting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/symbols-counting.yml",
+      "term": "Symbols counting"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T16:05:35.871540+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3204
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Claude Code plugin: Linux desktop management workflow \u2014 check system, install packages, apply config, troubleshoot hardware, review logs, update system.",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Desktop-Manager-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Desktop-Manager-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-30T11:06:06Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-30T11:06:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

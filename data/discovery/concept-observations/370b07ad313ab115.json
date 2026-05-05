@@ -84,7 +84,7 @@
   "normalized_form": "semantic",
   "observation_id": "370b07ad313ab115",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T00:36:37.683079+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Semantic",
   "source_context_snippet": "Semantic",
   "source_file": ".github/workflows/semantic.yml",

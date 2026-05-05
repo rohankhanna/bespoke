@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "CI: Run tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "usdot-fhwa-stol/cdasim",
+      "status": "candidate-context",
+      "text": "CDASim is an open-source simulation system supporting the development and testing of Cooperative Driving Automation applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/cdasim",
+      "status": "candidate-context",
+      "text": "\"CI: Run tests\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "status": "candidate-context",
+      "text": "CARMA Platform is built on robot operating system (ROS) and utilizes open source software (OSS) that enables Cooperative Driving Automation (CDA) features to allow Automated Driving Systems to interact and cooperate with infrastructure and other vehicles through communication. Doxygen Source Code Documentation :"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "status": "candidate-context",
+      "text": "\"CI: Run tests\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/cdasim",
+      "status": "candidate",
+      "text": "\"CI: Run tests\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "status": "candidate",
+      "text": "\"CI: Run tests\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28809,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28809,
+      "status": "candidate",
+      "text": "tested"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28748,
+      "status": "candidate",
+      "text": "testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12409,
+      "status": "candidate",
+      "text": "experiment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12409,
+      "status": "candidate",
+      "text": "pilot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI: Run tests",
+  "concept_id": "ci-run-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "usdot-fhwa-stol/cdasim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/Ci.yml",
+      "source_repo": "usdot-fhwa-stol/carma-platform"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI: Run tests",
+      "sense_id": "ci-run-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

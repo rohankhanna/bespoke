@@ -253,6 +253,18 @@
       "source_repo": "ruvnet/ruflo",
       "status": "candidate-context",
       "text": "\ud83c\udf0a The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DerrickXuNu/OpenCOOD",
+      "status": "candidate-context",
+      "text": "[ICRA 2022] An opensource framework for cooperative detection. Official implementation for OPV2V."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DerrickXuNu/OpenCOOD",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -375,6 +387,12 @@
       "source_repo": "cognizant-ai-lab/neuro-san",
       "status": "candidate",
       "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/cognizant-ai-lab/neuro-san)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DerrickXuNu/OpenCOOD",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -772,11 +790,29 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "echo-yiyiyi/cube"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/OpenCOOD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

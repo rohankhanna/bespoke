@@ -191,14 +191,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "tangledgroup/llama-cpp-wasm",
+      "target": "undreamai/llamalib",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "srgtuszy/llama-cpp-swift",
+      "target": "undreamai/llmunity",
       "target_type": "repository"
     },
     {
@@ -433,7 +433,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T00:55:46.511077+00:00",
+  "fetched_at": "2026-05-05T16:50:24.208357+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -485,12 +485,12 @@
     "full_name": "ggml-org/llama.cpp",
     "html_url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
-    "pushed_at": "2026-05-04T21:50:14Z",
-    "stargazers_count": 108267,
+    "pushed_at": "2026-05-05T16:43:04Z",
+    "stargazers_count": 108400,
     "topics": [
       "ggml"
     ],
-    "updated_at": "2026-05-05T00:45:14Z"
+    "updated_at": "2026-05-05T16:43:11Z"
   },
   "repo_links": [
     {
@@ -505,12 +505,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "srgtuszy/llama-cpp-swift",
+      "full_name": "undreamai/llamalib",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "tangledgroup/llama-cpp-wasm",
+      "full_name": "undreamai/llmunity",
       "source_file": "README.md"
     }
   ],

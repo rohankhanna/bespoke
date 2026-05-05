@@ -9217,6 +9217,150 @@
       "source_repo": "PataphysicalSociety/soupault",
       "status": "candidate-context",
       "text": "soupault"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aio-libs/aiorwlock",
+      "status": "candidate-context",
+      "text": "Read/Write Lock - synchronization primitive for asyncio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/aiorwlock",
+      "status": "candidate-context",
+      "text": "aiorwlock"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dothq/melon",
+      "status": "candidate-context",
+      "text": "\ud83c\udf49 Build Firefox-based browsers with ease [wip]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dothq/melon",
+      "status": "candidate-context",
+      "text": "This project is no longer used or maintained by Dot HQ. The [Pulse Browser](https://pulsebrowser.app/) developers [maintain and support a fork](https://github.com/pulse-browser/gluon)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PointCloudLibrary/PointCloudLibrary.github.io",
+      "status": "candidate-context",
+      "text": "Point Cloud Library's website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PointCloudLibrary/PointCloudLibrary.github.io",
+      "status": "candidate-context",
+      "text": "Temporary experimentation ground"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Zulko/moviepy",
+      "status": "candidate-context",
+      "text": "Video editing with Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zulko/moviepy",
+      "status": "candidate-context",
+      "text": "[![MoviePy page on the Python Package Index](https://badge.fury.io/py/moviepy.svg)](https://pypi.org/project/moviepy/) [![Discuss MoviePy on Gitter](https://img.shields.io/gitter/room/movie-py/gitter?color=46BC99&logo=gitter)](Gitter_) [![Build status on gh-actions](https://img.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libcpr/cpr",
+      "status": "candidate-context",
+      "text": "C++ Requests: Curl for People, a spiritual port of Python Requests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libcpr/cpr",
+      "status": "candidate-context",
+      "text": "[![Documentation](https://img.shields.io/badge/docs-online-informational?style=flat&link=https://docs.libcpr.dev/)](https://docs.libcpr.dev/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "voxpupuli/json-schema",
+      "status": "candidate-context",
+      "text": "Ruby JSON Schema Validator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voxpupuli/json-schema",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/github/license/voxpupuli/json-schema.svg)](https://github.com/voxpupuli/json-schema/blob/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "near/cargo-near",
+      "status": "candidate-context",
+      "text": "Cargo extension for building Rust smart contracts on NEAR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/cargo-near",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD014 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gnosis/gp-v2-contracts",
+      "status": "candidate-context",
+      "text": "Smart contracts for the Gnosis Protocol v2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gnosis/gp-v2-contracts",
+      "status": "candidate-context",
+      "text": "**:warning: The team that worked on this project has spun out of Gnosis and continues development on a forked repo (01-04-2022) which is available here <https://github.com/cowprotocol/contracts>**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kelektiv/node-cron",
+      "status": "candidate-context",
+      "text": "Cron for NodeJS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kelektiv/node-cron",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "P4sca1/cron-schedule",
+      "status": "candidate-context",
+      "text": "A zero-dependency cron parser and scheduler for Node.js, Deno, Bun and the browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "P4sca1/cron-schedule",
+      "status": "candidate-context",
+      "text": "A zero-dependency cron parser and scheduler for Node.js, Deno and the browser. Published on [NPM](https://www.npmjs.com) and [JSR](https://jsr.io)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulse-browser/gluon",
+      "status": "candidate-context",
+      "text": "Build firefox forks with ease"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulse-browser/gluon",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "itzg/mc-router",
+      "status": "candidate-context",
+      "text": "Routes Minecraft client connections to backend servers based upon the requested server address"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itzg/mc-router",
+      "status": "candidate-context",
+      "text": "[![GitHub issues](https://img.shields.io/github/issues/itzg/mc-router.svg)](https://github.com/itzg/mc-router/issues)"
     }
   ],
   "candidate_glosses": [
@@ -13851,6 +13995,78 @@
       "source_repo": "PataphysicalSociety/soupault",
       "status": "candidate",
       "text": "soupault"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/aiorwlock",
+      "status": "candidate",
+      "text": "aiorwlock"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dothq/melon",
+      "status": "candidate",
+      "text": "This project is no longer used or maintained by Dot HQ. The [Pulse Browser](https://pulsebrowser.app/) developers [maintain and support a fork](https://github.com/pulse-browser/gluon)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PointCloudLibrary/PointCloudLibrary.github.io",
+      "status": "candidate",
+      "text": "Temporary experimentation ground"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zulko/moviepy",
+      "status": "candidate",
+      "text": "[![MoviePy page on the Python Package Index](https://badge.fury.io/py/moviepy.svg)](https://pypi.org/project/moviepy/) [![Discuss MoviePy on Gitter](https://img.shields.io/gitter/room/movie-py/gitter?color=46BC99&logo=gitter)](Gitter_) [![Build status on gh-actions](https://img.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libcpr/cpr",
+      "status": "candidate",
+      "text": "[![Documentation](https://img.shields.io/badge/docs-online-informational?style=flat&link=https://docs.libcpr.dev/)](https://docs.libcpr.dev/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voxpupuli/json-schema",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/github/license/voxpupuli/json-schema.svg)](https://github.com/voxpupuli/json-schema/blob/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/cargo-near",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD014 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gnosis/gp-v2-contracts",
+      "status": "candidate",
+      "text": "**:warning: The team that worked on this project has spun out of Gnosis and continues development on a forked repo (01-04-2022) which is available here <https://github.com/cowprotocol/contracts>**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kelektiv/node-cron",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "P4sca1/cron-schedule",
+      "status": "candidate",
+      "text": "A zero-dependency cron parser and scheduler for Node.js, Deno and the browser. Published on [NPM](https://www.npmjs.com) and [JSR](https://jsr.io)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulse-browser/gluon",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itzg/mc-router",
+      "status": "candidate",
+      "text": "[![GitHub issues](https://img.shields.io/github/issues/itzg/mc-router.svg)](https://github.com/itzg/mc-router/issues)"
     }
   ],
   "candidate_related_terms": [],
@@ -22246,11 +22462,347 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "aio-libs/aiorwlock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "dothq/melon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "cert-manager/cert-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "scala-interop/slinc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "PointCloudLibrary/PointCloudLibrary.github.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Zulko/moviepy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "intelligent-machine-learning/dlrover"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "GDevelopApp/GDevelop-extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "digitalocean/openapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "tox-dev/filelock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/bow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "libcpr/cpr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/aspnetcore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "fluent-vue/fluent-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "http-party/http-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ember-cli/broccoli-babel-transpiler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "voxpupuli/json-schema"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/reactivesearch-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "near/cargo-near"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "gnosis/gp-v2-contracts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "kelektiv/node-cron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "P4sca1/cron-schedule"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "pulse-browser/gluon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "itzg/mc-router"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "vim-php/phpctags"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

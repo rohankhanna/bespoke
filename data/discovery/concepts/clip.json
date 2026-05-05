@@ -235,6 +235,18 @@
       "source_repo": "Taited/clip-score",
       "status": "candidate-context",
       "text": "[![PyPI](https://img.shields.io/pypi/v/clip-score.svg)](https://pypi.org/project/clip-score/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hila-chefer/Transformer-MM-Explainability",
+      "status": "candidate-context",
+      "text": "[ICCV 2021- Oral] Official PyTorch implementation for Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers, a novel method to visualize any Transformer-based network. Including examples for DETR, VQA."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hila-chefer/Transformer-MM-Explainability",
+      "status": "candidate-context",
+      "text": "[ICCV 2021- Oral] PyTorch Implementation of `Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers <https://arxiv.org/abs/2103.15679>`_"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +363,12 @@
       "source_repo": "Taited/clip-score",
       "status": "candidate",
       "text": "[![PyPI](https://img.shields.io/pypi/v/clip-score.svg)](https://pypi.org/project/clip-score/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hila-chefer/Transformer-MM-Explainability",
+      "status": "candidate",
+      "text": "[ICCV 2021- Oral] PyTorch Implementation of `Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers <https://arxiv.org/abs/2103.15679>`_"
     }
   ],
   "candidate_related_terms": [
@@ -580,11 +598,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "hila-chefer/Transformer-MM-Explainability"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

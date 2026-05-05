@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "laser"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MAPIRlab/rf2o_laser_odometry",
+      "status": "candidate-context",
+      "text": "Estimation of 2D odometry based on planar laser scans. Useful for mobile robots with innacurate base odometry. For full description of the algorithm, please refer to: Planar Odometry from a Radial Laser Scanner. A Range Flow-based Approach. ICRA 2016 Available at: http://mapir.isa.uma.es/mapirwebsite/index.php/mapir-downloads/papers/217"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MAPIRlab/rf2o_laser_odometry",
+      "status": "candidate-context",
+      "text": "Estimation of 2D odometry based on planar laser scans. rf2o is a fast and precise method to estimate the planar motion of a lidar from consecutive range scans. Useful for mobile robots with inaccurate wheel odometry."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MAPIRlab/rf2o_laser_odometry",
+      "status": "candidate",
+      "text": "Estimation of 2D odometry based on planar laser scans. rf2o is a fast and precise method to estimate the planar motion of a lidar from consecutive range scans. Useful for mobile robots with inaccurate wheel odometry."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29962620,
+      "status": "candidate",
+      "text": "optical maser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29962619,
+      "status": "candidate",
+      "text": "yag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29955887,
+      "status": "candidate",
+      "text": "blaster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29894422,
+      "status": "candidate",
+      "text": "compact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29817891,
+      "status": "candidate",
+      "text": "passively"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "optical maser"
+    }
+  ],
+  "canonical_name": "laser",
+  "concept_id": "laser",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "MAPIRlab/rf2o_laser_odometry"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "laser",
+      "sense_id": "laser#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

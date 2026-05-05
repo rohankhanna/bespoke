@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-qemu-action@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1367,6 +1367,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/images.yaml",
       "source_repo": "danny-avila/rag_api"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tlaplus-community/tree-sitter-tlaplus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "crazy-max/yasu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/component-build-images.yml",
+      "source_repo": "aliyun-sls/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/component-build-images.yml",
+      "source_repo": "apache/doris-opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cespare/xxhash"
     }
   ]
 }

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Publish on crates.io"
+    "Publish on crates.io",
+    "Publish on Crates.io"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "rust-lang/rust-bindgen",
       "status": "candidate-context",
       "text": "Publish on crates.io"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "viperproject/smt-scope",
+      "status": "candidate-context",
+      "text": "SMTscope automatically analyses and visualises SMT solver execution traces."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "viperproject/smt-scope",
+      "status": "candidate-context",
+      "text": "Publish on Crates.io"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "rust-lang/rust-bindgen",
       "status": "candidate",
       "text": "Publish on crates.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "viperproject/smt-scope",
+      "status": "candidate",
+      "text": "Publish on Crates.io"
     }
   ],
   "candidate_related_terms": [
@@ -82,11 +101,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "rust-lang/rust-bindgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/crates-io.yml",
+      "source_repo": "viperproject/smt-scope"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

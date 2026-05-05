@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Format Agnostic jQ -- process various formats with libjq"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/jzelinskie/faq?style=flat-square)](https://goreportcard.com/report/github.com/jzelinskie/faq)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/jzelinskie/faq?style=flat-square)](https://goreportcard.com/report/github.com/jzelinskie/faq)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19762505,
+      "status": "candidate",
+      "text": "extensible markup language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19762504,
+      "status": "candidate",
+      "text": "markup language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19762503,
+      "status": "candidate",
+      "text": "ruby"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19762502,
+      "status": "candidate",
+      "text": "polyglot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19762501,
+      "status": "candidate",
+      "text": "query language"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "yaml",
+      "sense_id": "yaml#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "yaml",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "yaml",
+  "observation_id": "d1f245184d041895",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "yaml",
+  "source_context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/jzelinskie/faq?style=flat-square)](https://goreportcard.com/report/github.com/jzelinskie/faq)",
+  "source_file": null,
+  "source_repo": "jzelinskie/faq",
+  "source_repo_description": "Format Agnostic jQ -- process various formats with libjq"
+}

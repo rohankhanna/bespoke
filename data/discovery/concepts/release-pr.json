@@ -73,6 +73,18 @@
       "source_repo": "stylelint/stylelint-config-standard",
       "status": "candidate-context",
       "text": "Release PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stylelint/stylelint-config-recommended",
+      "status": "candidate-context",
+      "text": "The recommended shareable config for Stylelint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stylelint/stylelint-config-recommended",
+      "status": "candidate-context",
+      "text": "Release PR"
     }
   ],
   "candidate_glosses": [
@@ -109,6 +121,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "stylelint/stylelint-config-standard",
+      "status": "candidate",
+      "text": "Release PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stylelint/stylelint-config-recommended",
       "status": "candidate",
       "text": "Release PR"
     }
@@ -208,11 +226,23 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/release-pr.yml",
       "source_repo": "stylelint/stylelint-config-standard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "stylelint/stylelint-config-recommended"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "cargo-generate/cargo-generate"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

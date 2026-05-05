@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "documentation cleanup"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvc5/cvc5",
+      "status": "candidate-context",
+      "text": "cvc5 is an open-source automatic theorem prover for Satisfiability Modulo Theories (SMT) problems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvc5/cvc5",
+      "status": "candidate-context",
+      "text": "documentation cleanup"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvc5/cvc5",
+      "status": "candidate",
+      "text": "documentation cleanup"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10673,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10639,
+      "status": "candidate",
+      "text": "clean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10639,
+      "status": "candidate",
+      "text": "cleansing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10639,
+      "status": "candidate",
+      "text": "clearance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10639,
+      "status": "candidate",
+      "text": "rake"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "documentation cleanup",
+  "concept_id": "documentation-cleanup",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/docs_cleanup.yml",
+      "source_repo": "cvc5/cvc5"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "documentation cleanup",
+      "sense_id": "documentation-cleanup#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

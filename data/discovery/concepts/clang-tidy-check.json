@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "clang-tidy-check"
+    "clang-tidy-check",
+    "Clang Tidy Check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,12 @@
       "source_repo": "aws/aws-sdk-cpp",
       "status": "candidate-context",
       "text": "clang-tidy-check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "status": "candidate-context",
+      "text": "Clang Tidy Check"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +34,51 @@
       "source_repo": "aws/aws-sdk-cpp",
       "status": "candidate",
       "text": "clang-tidy-check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "status": "candidate",
+      "text": "Clang Tidy Check"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22302,
+      "status": "candidate",
+      "text": "rhythm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21675,
+      "status": "candidate",
+      "text": "stack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21485,
+      "status": "candidate",
+      "text": "clap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21485,
+      "status": "candidate",
+      "text": "dummy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21463,
+      "status": "candidate",
+      "text": "checking"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "clang-tidy-check",
   "concept_id": "clang-tidy-check",
@@ -40,11 +89,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/clang-tidy.yml",
       "source_repo": "aws/aws-sdk-cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/clang-tidy-check.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

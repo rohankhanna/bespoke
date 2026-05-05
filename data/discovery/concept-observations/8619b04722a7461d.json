@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Robotics Toolbox for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build all Wheels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build all Wheels"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34884,
+      "status": "candidate",
+      "text": "wheel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27049,
+      "status": "candidate",
+      "text": "four-wheel drive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26482,
+      "status": "candidate",
+      "text": "rollerblading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26482,
+      "status": "candidate",
+      "text": "three-point landing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build all Wheels",
+      "sense_id": "build-all-wheels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-all-wheels",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-all-wheels",
+  "observation_id": "8619b04722a7461d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "Build all Wheels",
+  "source_context_snippet": "Build all Wheels",
+  "source_file": ".github/workflows/cibuildwheel.yml",
+  "source_repo": "petercorke/robotics-toolbox-python",
+  "source_repo_description": "Robotics Toolbox for Python"
+}

@@ -265,14 +265,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
-      "target": "datvodinh/rag-chatbot",
+      "target": "augustdev/enchanted",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
-      "target": "augustdev/enchanted",
+      "target": "davidmigloz/langchain_dart",
       "target_type": "repository"
     },
     {
@@ -549,7 +549,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T07:57:25.105003+00:00",
+  "fetched_at": "2026-05-05T17:08:08.853634+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -557,7 +557,7 @@
     },
     {
       "path": "Dockerfile",
-      "size": 10001
+      "size": 10261
     },
     {
       "path": "go.mod",
@@ -569,7 +569,7 @@
     },
     {
       "path": ".github/workflows/release.yaml",
-      "size": 25875
+      "size": 26075
     },
     {
       "path": ".github/workflows/test-install.yaml",
@@ -589,8 +589,8 @@
     "full_name": "ollama/ollama",
     "html_url": "https://github.com/ollama/ollama",
     "language": "Go",
-    "pushed_at": "2026-05-05T04:49:11Z",
-    "stargazers_count": 170724,
+    "pushed_at": "2026-05-05T16:28:23Z",
+    "stargazers_count": 170758,
     "topics": [
       "deepseek",
       "gemma",
@@ -608,7 +608,7 @@
       "ollama",
       "qwen"
     ],
-    "updated_at": "2026-05-05T07:50:48Z"
+    "updated_at": "2026-05-05T16:42:40Z"
   },
   "repo_links": [
     {
@@ -628,7 +628,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "datvodinh/rag-chatbot",
+      "full_name": "davidmigloz/langchain_dart",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MacOSX cross toolchain as Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Latest version](https://img.shields.io/github/v/tag/crazy-max/docker-osxcross?label=version&style=flat-square)](https://hub.docker.com/r/crazymax/osxcross/tags?page=1&ordering=last_updated)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Latest version](https://img.shields.io/github/v/tag/crazy-max/docker-osxcross?label=version&style=flat-square)](https://hub.docker.com/r/crazymax/osxcross/tags?page=1&ordering=last_updated)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "macosx-sdk",
+      "sense_id": "macosx-sdk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "macosx-sdk",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "macosx-sdk",
+  "observation_id": "71357e37a4172245",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "macosx-sdk",
+  "source_context_snippet": "[![Latest version](https://img.shields.io/github/v/tag/crazy-max/docker-osxcross?label=version&style=flat-square)](https://hub.docker.com/r/crazymax/osxcross/tags?page=1&ordering=last_updated)",
+  "source_file": null,
+  "source_repo": "crazy-max/docker-osxcross",
+  "source_repo_description": "MacOSX cross toolchain as Docker image"
+}

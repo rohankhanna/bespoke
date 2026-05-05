@@ -43,13 +43,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "vueuse/vueuse-vite-starter",
-      "target": "vueuse/vueuse-vue3-example",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "vueuse/vueuse-vite-starter",
       "target": "antfu/vitesse",
       "target_type": "repository"
     },
@@ -131,7 +124,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T08:04:16.096873+00:00",
+  "fetched_at": "2026-05-05T14:58:28.111788+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -172,11 +165,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "vuejs/vite",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vueuse/vueuse-vue3-example",
       "source_file": "README.md"
     }
   ],

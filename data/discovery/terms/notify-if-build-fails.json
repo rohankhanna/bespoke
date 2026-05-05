@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/notify-on-fail.yml",
+      "source_repo": "stefan-hoeck/idris2-pack"
+    }
+  ],
+  "term": "Notify if build fails"
+}

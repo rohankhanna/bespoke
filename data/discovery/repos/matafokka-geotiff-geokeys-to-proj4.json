@@ -1,0 +1,388 @@
+{
+  "components": [
+    {
+      "component": "@otris/jsdoc-tsd",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "core-js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esbuild",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "google-closure-compiler",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ink-docstrap",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsdoc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nanoid",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pg",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "target": "matafokka/geotiff-3d-dem-viewer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "target": "derhuerst/epsg-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "target": "geotiff/geokeys-to-proj4js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "target": "@otris/jsdoc-tsd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "target": "core-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "target": "esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "target": "google-closure-compiler",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "target": "ink-docstrap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "target": "jsdoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "target": "nanoid",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "target": "pg",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "target": "Deploy to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "target": "Node.js Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "target": "geo-keys",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "target": "geokeys",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "target": "geotiff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "target": "geotiff-geo-keys",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "target": "geotiff-geokeys",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "target": "geotiff-keys",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "target": "proj",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "target": "proj4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "target": "proj4js",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:47:52.622593+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14809
+    },
+    {
+      "path": "package.json",
+      "size": 1756
+    },
+    {
+      "path": ".github/workflows/gh-pages.yml",
+      "size": 599
+    },
+    {
+      "path": ".github/workflows/npm-publish.yml",
+      "size": 627
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A library that converts GeoTIFFs geokeys to Proj4 string",
+    "fork": false,
+    "full_name": "matafokka/geotiff-geokeys-to-proj4",
+    "html_url": "https://github.com/matafokka/geotiff-geokeys-to-proj4",
+    "language": "JavaScript",
+    "pushed_at": "2024-04-13T07:54:32Z",
+    "stargazers_count": 31,
+    "topics": [
+      "geo-keys",
+      "geokeys",
+      "geotiff",
+      "geotiff-geo-keys",
+      "geotiff-geokeys",
+      "geotiff-keys",
+      "proj",
+      "proj4",
+      "proj4js"
+    ],
+    "updated_at": "2025-12-23T06:06:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "derhuerst/epsg-index",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "geotiff/geokeys-to-proj4js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "matafokka/geotiff-3d-dem-viewer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "term": "Deploy to GitHub Pages"
+    },
+    {
+      "context_snippet": "Node.js Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "term": "Node.js Package"
+    },
+    {
+      "context_snippet": "This library converts GeoTIFF's geokeys to Proj4 string, so you can [consume](#why-do-i-need-it) your images.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geo-keys"
+    },
+    {
+      "context_snippet": "This library converts GeoTIFF's geokeys to Proj4 string, so you can [consume](#why-do-i-need-it) your images.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geokeys"
+    },
+    {
+      "context_snippet": "This library converts GeoTIFF's geokeys to Proj4 string, so you can [consume](#why-do-i-need-it) your images.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geotiff"
+    },
+    {
+      "context_snippet": "This library converts GeoTIFF's geokeys to Proj4 string, so you can [consume](#why-do-i-need-it) your images.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geotiff-geo-keys"
+    },
+    {
+      "context_snippet": "This library converts GeoTIFF's geokeys to Proj4 string, so you can [consume](#why-do-i-need-it) your images.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geotiff-geokeys"
+    },
+    {
+      "context_snippet": "This library converts GeoTIFF's geokeys to Proj4 string, so you can [consume](#why-do-i-need-it) your images.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geotiff-keys"
+    },
+    {
+      "context_snippet": "This library converts GeoTIFF's geokeys to Proj4 string, so you can [consume](#why-do-i-need-it) your images.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proj"
+    },
+    {
+      "context_snippet": "This library converts GeoTIFF's geokeys to Proj4 string, so you can [consume](#why-do-i-need-it) your images.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proj4"
+    },
+    {
+      "context_snippet": "This library converts GeoTIFF's geokeys to Proj4 string, so you can [consume](#why-do-i-need-it) your images.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proj4js"
+    }
+  ]
+}

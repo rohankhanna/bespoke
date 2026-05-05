@@ -57,6 +57,18 @@
       "source_repo": "Cysharp/UniTask",
       "status": "candidate-context",
       "text": "UniTask"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agenda/agenda",
+      "status": "candidate-context",
+      "text": "Lightweight job scheduling for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agenda/agenda",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -83,6 +95,12 @@
       "source_repo": "Cysharp/UniTask",
       "status": "candidate",
       "text": "UniTask"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agenda/agenda",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -186,11 +204,17 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "Cysharp/UniTask"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "agenda/agenda"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

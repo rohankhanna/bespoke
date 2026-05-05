@@ -1,0 +1,394 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/bake-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demo.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demo.yml"
+    },
+    {
+      "component": "docker/bake-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demo.yml"
+    },
+    {
+      "component": "docker/bake-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demo.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-github-labeler@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "target": "crazy-max/yasu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "target": "docker/bake-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "target": "codeql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demo.yml",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demo.yml",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demo.yml",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "target": "docker/bake-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/demo.yml",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "target": "demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "target": "crazy-max/ghaction-github-labeler@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "target": "labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crazy-max/goreleaser-xx",
+      "target": "bake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crazy-max/goreleaser-xx",
+      "target": "build-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crazy-max/goreleaser-xx",
+      "target": "buildx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crazy-max/goreleaser-xx",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crazy-max/goreleaser-xx",
+      "target": "goreleaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crazy-max/goreleaser-xx",
+      "target": "multi-platform",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:56:25.509418+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18519
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1718
+    },
+    {
+      "path": "go.mod",
+      "size": 722
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2663
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 757
+    },
+    {
+      "path": ".github/workflows/demo.yml",
+      "size": 1503
+    },
+    {
+      "path": ".github/workflows/labels.yml",
+      "size": 342
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Cross compilation helper for GoReleaser",
+    "fork": false,
+    "full_name": "crazy-max/goreleaser-xx",
+    "html_url": "https://github.com/crazy-max/goreleaser-xx",
+    "language": "Go",
+    "pushed_at": "2023-05-05T16:15:30Z",
+    "stargazers_count": 34,
+    "topics": [
+      "bake",
+      "build-tool",
+      "buildx",
+      "docker",
+      "goreleaser",
+      "multi-platform"
+    ],
+    "updated_at": "2025-12-10T17:14:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crazy-max/yasu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "codeql",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "codeql"
+    },
+    {
+      "context_snippet": "demo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/demo.yml",
+      "term": "demo"
+    },
+    {
+      "context_snippet": "labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labels.yml",
+      "term": "labels"
+    },
+    {
+      "context_snippet": "[![goreleaser-xx](.github/goreleaser-xx.png)](https://github.com/crazy-max/goreleaser-xx)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bake"
+    },
+    {
+      "context_snippet": "[![goreleaser-xx](.github/goreleaser-xx.png)](https://github.com/crazy-max/goreleaser-xx)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-tool"
+    },
+    {
+      "context_snippet": "[![goreleaser-xx](.github/goreleaser-xx.png)](https://github.com/crazy-max/goreleaser-xx)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "buildx"
+    },
+    {
+      "context_snippet": "[![goreleaser-xx](.github/goreleaser-xx.png)](https://github.com/crazy-max/goreleaser-xx)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[![goreleaser-xx](.github/goreleaser-xx.png)](https://github.com/crazy-max/goreleaser-xx)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "goreleaser"
+    },
+    {
+      "context_snippet": "[![goreleaser-xx](.github/goreleaser-xx.png)](https://github.com/crazy-max/goreleaser-xx)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-platform"
+    }
+  ]
+}

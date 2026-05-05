@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Dora Bot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dora-rs/dora",
+      "status": "candidate-context",
+      "text": "DORA (Dataflow-Oriented Robotic Architecture) is middleware designed to streamline and simplify the creation of AI-based robotic applications. It offers low latency, composable, and distributed dataflow capabilities. Applications are modeled as directed graphs, also referred to as pipelines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dora-rs/dora",
+      "status": "candidate-context",
+      "text": "\"Dora Bot\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dora-rs/dora",
+      "status": "candidate",
+      "text": "\"Dora Bot\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11189,
+      "status": "candidate",
+      "text": "turin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11036,
+      "status": "candidate",
+      "text": "dundee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11036,
+      "status": "candidate",
+      "text": "magnolia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11036,
+      "status": "candidate",
+      "text": "spar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11036,
+      "status": "candidate",
+      "text": "sparring"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Dora Bot",
+  "concept_id": "dora-bot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/dora-bot-assign.yml",
+      "source_repo": "dora-rs/dora"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dora Bot",
+      "sense_id": "dora-bot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "myfreeer/chrome-pak-customizer",
+      "target": "myfreeer/win-startup-headers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "myfreeer/chrome-pak-customizer",
+      "target": "batch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "myfreeer/chrome-pak-customizer",
+      "target": "chrome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "myfreeer/chrome-pak-customizer",
+      "target": "chrome-pak-customizer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "myfreeer/chrome-pak-customizer",
+      "target": "chromium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "myfreeer/chrome-pak-customizer",
+      "target": "packer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "myfreeer/chrome-pak-customizer",
+      "target": "unpacker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:04:22.617150+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2340
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "a simple command-line tool to pack and unpack pak files in chrome or chromium-based browser  ",
+    "fork": false,
+    "full_name": "myfreeer/chrome-pak-customizer",
+    "html_url": "https://github.com/myfreeer/chrome-pak-customizer",
+    "language": "C",
+    "pushed_at": "2026-04-06T08:23:32Z",
+    "stargazers_count": 265,
+    "topics": [
+      "batch",
+      "c",
+      "chrome",
+      "chrome-pak-customizer",
+      "chromium",
+      "packer",
+      "pak",
+      "unpacker"
+    ],
+    "updated_at": "2026-05-04T09:26:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "myfreeer/win-startup-headers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "a simple batch tool to customize pak files in chrome or chromium-based browser",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "batch"
+    },
+    {
+      "context_snippet": "a simple batch tool to customize pak files in chrome or chromium-based browser",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome"
+    },
+    {
+      "context_snippet": "a simple batch tool to customize pak files in chrome or chromium-based browser",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome-pak-customizer"
+    },
+    {
+      "context_snippet": "a simple batch tool to customize pak files in chrome or chromium-based browser",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromium"
+    },
+    {
+      "context_snippet": "a simple batch tool to customize pak files in chrome or chromium-based browser",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packer"
+    },
+    {
+      "context_snippet": "a simple batch tool to customize pak files in chrome or chromium-based browser",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unpacker"
+    }
+  ]
+}

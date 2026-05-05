@@ -238,6 +238,18 @@
       "source_repo": "alibaba/ice",
       "status": "candidate-context",
       "text": "Version"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "undreamai/LLMUnity",
+      "status": "candidate-context",
+      "text": "Create characters in Unity with LLMs!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "undreamai/LLMUnity",
+      "status": "candidate-context",
+      "text": "Version"
     }
   ],
   "candidate_glosses": [
@@ -352,6 +364,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "alibaba/ice",
+      "status": "candidate",
+      "text": "Version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "undreamai/LLMUnity",
       "status": "candidate",
       "text": "Version"
     }
@@ -943,11 +961,41 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/version.yml",
+      "source_repo": "stx-labs/connect"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/version.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/version.yml",
+      "source_repo": "undreamai/LLMUnity"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

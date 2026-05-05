@@ -451,6 +451,18 @@
       "source_repo": "azdavis/language-util",
       "status": "candidate-context",
       "text": "Various utility crates that might be useful when implementing a programming language in Rust."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paradigmxyz/solar",
+      "status": "candidate-context",
+      "text": "Blazingly fast, modular and contributor friendly Solidity compiler, written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paradigmxyz/solar",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/solar-compiler.svg)](https://crates.io/crates/solar-compiler)"
     }
   ],
   "candidate_glosses": [
@@ -675,6 +687,12 @@
       "source_repo": "azdavis/language-util",
       "status": "candidate",
       "text": "Various utility crates that might be useful when implementing a programming language in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paradigmxyz/solar",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/solar-compiler.svg)](https://crates.io/crates/solar-compiler)"
     }
   ],
   "candidate_related_terms": [],
@@ -1096,11 +1114,29 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "luau-lang/luau"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "paradigmxyz/solar"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

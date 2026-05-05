@@ -31,6 +31,18 @@
       "source_repo": "MCG-NJU/SparseBEV",
       "status": "candidate-context",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sparsebev-high-performance-sparse-3d-object/3d-object-detection-on-nuscenes-camera-only)](https://paperswithcode.com/sota/3d-object-detection-on-nuscenes-camera-only?p=sparsebev-high-performance-spa\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "status": "candidate-context",
+      "text": "[CoRL2022] CoBEVT: Cooperative Bird's Eye View Semantic Segmentation with Sparse Transformers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "status": "candidate-context",
+      "text": "[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2207.02202.pdf)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "MCG-NJU/SparseBEV",
       "status": "candidate",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sparsebev-high-performance-sparse-3d-object/3d-object-detection-on-nuscenes-camera-only)](https://paperswithcode.com/sota/3d-object-detection-on-nuscenes-camera-only?p=sparsebev-high-performance-spa\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "status": "candidate",
+      "text": "[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2207.02202.pdf)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "MCG-NJU/SparseBEV"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/CoBEVT"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

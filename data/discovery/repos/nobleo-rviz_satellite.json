@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/industrial_ci_action.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/industrial_ci_action.yml"
+    },
+    {
+      "component": "ros-industrial/industrial_ci@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/industrial_ci_action.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/industrial_ci_action.yml",
+      "source_repo": "nobleo/rviz_satellite",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/industrial_ci_action.yml",
+      "source_repo": "nobleo/rviz_satellite",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/industrial_ci_action.yml",
+      "source_repo": "nobleo/rviz_satellite",
+      "target": "ros-industrial/industrial_ci@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/industrial_ci_action.yml",
+      "source_repo": "nobleo/rviz_satellite",
+      "target": "ros-industrial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "nobleo/rviz_satellite",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "nobleo/rviz_satellite",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "nobleo/rviz_satellite",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "nobleo/rviz_satellite",
+      "target": "pre-commit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T13:52:19.679968+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4796
+    },
+    {
+      "path": ".github/workflows/industrial_ci_action.yml",
+      "size": 1186
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 264
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Display internet satellite imagery in RViz",
+    "fork": false,
+    "full_name": "nobleo/rviz_satellite",
+    "html_url": "https://github.com/nobleo/rviz_satellite",
+    "language": "C++",
+    "pushed_at": "2025-12-18T12:37:39Z",
+    "stargazers_count": 659,
+    "topics": [],
+    "updated_at": "2026-04-28T09:50:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "ros-industrial",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/industrial_ci_action.yml",
+      "term": "ros-industrial"
+    },
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "pre-commit"
+    }
+  ]
+}

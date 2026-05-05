@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "schedul-xor/nextzen2oscimv4",
+      "target": "omniscale/imposm3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "schedul-xor/nextzen2oscimv4",
+      "target": "go-spatial/tegola",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "schedul-xor/nextzen2oscimv4",
+      "target": "go-spatial/tegola-osm",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "schedul-xor/nextzen2oscimv4"
+}

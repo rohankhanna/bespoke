@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HMaker/HMaker.github.io",
+      "target": "chromedriver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HMaker/HMaker.github.io",
+      "target": "selenium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HMaker/HMaker.github.io",
+      "target": "selenium-python",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HMaker/HMaker.github.io",
+      "target": "selenium-webdriver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HMaker/HMaker.github.io",
+      "target": "undetected-chromedriver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HMaker/HMaker.github.io",
+      "target": "webdriver",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T17:04:41.760632+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 248
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "HMaker/HMaker.github.io",
+    "html_url": "https://github.com/HMaker/HMaker.github.io",
+    "language": "JavaScript",
+    "pushed_at": "2024-02-14T00:03:54Z",
+    "stargazers_count": 64,
+    "topics": [
+      "chromedriver",
+      "selenium",
+      "selenium-python",
+      "selenium-webdriver",
+      "undetected-chromedriver",
+      "webdriver"
+    ],
+    "updated_at": "2026-02-28T09:05:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repo includes some experiments I want to host on github pages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromedriver"
+    },
+    {
+      "context_snippet": "This repo includes some experiments I want to host on github pages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "selenium"
+    },
+    {
+      "context_snippet": "This repo includes some experiments I want to host on github pages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "selenium-python"
+    },
+    {
+      "context_snippet": "This repo includes some experiments I want to host on github pages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "selenium-webdriver"
+    },
+    {
+      "context_snippet": "This repo includes some experiments I want to host on github pages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "undetected-chromedriver"
+    },
+    {
+      "context_snippet": "This repo includes some experiments I want to host on github pages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webdriver"
+    }
+  ]
+}

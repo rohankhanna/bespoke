@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "mapsforge/mapsforge",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "mapsforge/mapsforge",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "mapsforge/mapsforge",
+      "target": "Android CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapsforge/mapsforge",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapsforge/mapsforge",
+      "target": "openstreetmap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapsforge/mapsforge",
+      "target": "vector",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T17:04:59.190200+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3028
+    },
+    {
+      "path": ".github/workflows/android.yml",
+      "size": 476
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vector map library and writer - running on Android and Desktop.",
+    "fork": false,
+    "full_name": "mapsforge/mapsforge",
+    "html_url": "https://github.com/mapsforge/mapsforge",
+    "language": "Java",
+    "pushed_at": "2026-05-05T07:01:32Z",
+    "stargazers_count": 1371,
+    "topics": [
+      "java",
+      "map",
+      "openstreetmap",
+      "vector"
+    ],
+    "updated_at": "2026-05-05T06:49:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Android CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "term": "Android CI"
+    },
+    {
+      "context_snippet": "[![](https://jitpack.io/v/mapsforge/mapsforge.svg)](https://jitpack.io/#mapsforge/mapsforge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![](https://jitpack.io/v/mapsforge/mapsforge.svg)](https://jitpack.io/#mapsforge/mapsforge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openstreetmap"
+    },
+    {
+      "context_snippet": "[![](https://jitpack.io/v/mapsforge/mapsforge.svg)](https://jitpack.io/#mapsforge/mapsforge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector"
+    }
+  ]
+}

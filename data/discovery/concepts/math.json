@@ -319,6 +319,18 @@
       "source_repo": "SUSYUSTC/MathTranslate",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jump-dev/NLopt.jl",
+      "status": "candidate-context",
+      "text": "A Julia interface to the NLopt nonlinear-optimization library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/NLopt.jl",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/jump-dev/NLopt.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jump-dev/NLopt.jl/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +489,12 @@
       "source_repo": "SUSYUSTC/MathTranslate",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/NLopt.jl",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/jump-dev/NLopt.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jump-dev/NLopt.jl/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_related_terms": [
@@ -787,11 +805,29 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/Search-o1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "jump-dev/NLopt.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

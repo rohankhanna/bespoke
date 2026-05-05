@@ -1,0 +1,164 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rbe.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rbe.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kberov/rust-by-example-bg",
+      "target": "rust-lang-cn/rust-by-example-cn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kberov/rust-by-example-bg",
+      "target": "rurust/rust-by-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kberov/rust-by-example-bg",
+      "target": "eyescrypto-insights/rust-by-example-vn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kberov/rust-by-example-bg",
+      "target": "nazarepiedady/rust-com-exemplos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rbe.yml",
+      "source_repo": "kberov/rust-by-example-bg",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rbe.yml",
+      "source_repo": "kberov/rust-by-example-bg",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kberov/rust-by-example-bg",
+      "target": "book",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kberov/rust-by-example-bg",
+      "target": "bulgarian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kberov/rust-by-example-bg",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kberov/rust-by-example-bg",
+      "target": "translation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:44:58.073997+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3649
+    },
+    {
+      "path": ".github/workflows/rbe.yml",
+      "size": 1178
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u201eRust \u0432 \u043f\u0440\u0438\u043c\u0435\u0440\u0438\u201c \u041c\u043e\u0436\u0435\u0442\u0435 \u0441\u0432\u043e\u0431\u043e\u0434\u043d\u043e \u0434\u0430 \u0447\u0435\u0442\u0435\u0442\u0435 \u043a\u043d\u0438\u0433\u0430\u0442\u0430 \u0432 \u0442\u0435\u043a\u0443\u0449\u043e\u0442\u043e \u045d \u0441\u044a\u0441\u0442\u043e\u044f\u043d\u0438\u0435 \u043d\u0430 \u0430\u0434\u0440\u0435\u0441\u0430 \u043f\u043e-\u0434\u043e\u043b\u0443. ",
+    "fork": false,
+    "full_name": "kberov/rust-by-example-bg",
+    "html_url": "https://github.com/kberov/rust-by-example-bg",
+    "language": null,
+    "pushed_at": "2023-11-08T17:41:05Z",
+    "stargazers_count": 16,
+    "topics": [
+      "book",
+      "bulgarian",
+      "rust",
+      "translation"
+    ],
+    "updated_at": "2026-01-21T09:38:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eyescrypto-insights/rust-by-example-vn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nazarepiedady/rust-com-exemplos",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rurust/rust-by-example",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang-cn/rust-by-example-cn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status][travis-badge]][travis-repo]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "book"
+    },
+    {
+      "context_snippet": "[![Build Status][travis-badge]][travis-repo]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bulgarian"
+    },
+    {
+      "context_snippet": "[![Build Status][travis-badge]][travis-repo]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![Build Status][travis-badge]][travis-repo]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "translation"
+    }
+  ]
+}

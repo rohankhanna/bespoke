@@ -84,7 +84,7 @@
   "normalized_form": "add-community-label",
   "observation_id": "dffef4e3484640ef",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Add Community Label",
   "source_context_snippet": "Add Community Label",
   "source_file": ".github/workflows/community-label.yml",

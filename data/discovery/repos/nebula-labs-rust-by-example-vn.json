@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nebula-labs/rust-by-example-vn",
+      "target": "document",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nebula-labs/rust-by-example-vn",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nebula-labs/rust-by-example-vn",
+      "target": "vietnamese",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T15:54:54.043789+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1377
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Phi\u00ean b\u1ea3n d\u1ecbch sang ti\u1ebfng Vi\u1ec7t c\u1ee7a https://doc.rust-lang.org/stable/rust-by-example/",
+    "fork": false,
+    "full_name": "nebula-labs/rust-by-example-vn",
+    "html_url": "https://github.com/nebula-labs/rust-by-example-vn",
+    "language": null,
+    "pushed_at": "2023-05-08T08:29:58Z",
+    "stargazers_count": 91,
+    "topics": [
+      "document",
+      "rust",
+      "vietnamese"
+    ],
+    "updated_at": "2026-03-18T18:18:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Phi\u00ean b\u1ea3n ti\u1ebfng Vi\u1ec7t c\u1ee7a https://doc.rust-lang.org/stable/rust-by-example - H\u1ecdc l\u1eadp tr\u00ecnh Rust th\u00f4ng qua c\u00e1c v\u00ed d\u1ee5 (C\u00f3 Live code editor)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "document"
+    },
+    {
+      "context_snippet": "Phi\u00ean b\u1ea3n ti\u1ebfng Vi\u1ec7t c\u1ee7a https://doc.rust-lang.org/stable/rust-by-example - H\u1ecdc l\u1eadp tr\u00ecnh Rust th\u00f4ng qua c\u00e1c v\u00ed d\u1ee5 (C\u00f3 Live code editor)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "Phi\u00ean b\u1ea3n ti\u1ebfng Vi\u1ec7t c\u1ee7a https://doc.rust-lang.org/stable/rust-by-example - H\u1ecdc l\u1eadp tr\u00ecnh Rust th\u00f4ng qua c\u00e1c v\u00ed d\u1ee5 (C\u00f3 Live code editor)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vietnamese"
+    }
+  ]
+}

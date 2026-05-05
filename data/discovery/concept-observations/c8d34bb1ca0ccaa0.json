@@ -84,7 +84,7 @@
   "normalized_form": "codeql-advanced",
   "observation_id": "c8d34bb1ca0ccaa0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "CodeQL Advanced",
   "source_context_snippet": "\"CodeQL Advanced\"",
   "source_file": ".github/workflows/codeql.yml",

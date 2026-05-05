@@ -55,6 +55,30 @@
       "source_repo": "apple/swift-nio-ssl",
       "status": "candidate-context",
       "text": "SwiftNIO SSL is a Swift package that contains an implementation of TLS based on BoringSSL. This package allows users of [SwiftNIO](https://github.com/apple/swift-nio) to write protocol clients and servers that use TLS to secure data in flight."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gumob/PunycodeSwift",
+      "status": "candidate-context",
+      "text": "PunycodeSwift is a pure Swift library to allows you to encode and decode punycoded strings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gumob/PunycodeSwift",
+      "status": "candidate-context",
+      "text": "[![Swift Package Manager compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)](https://github.com/gumob/PunycodeSwift)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gumob/TLDExtractSwift",
+      "status": "candidate-context",
+      "text": "A pure Swift library to allows you to get the public suffix of a domain name"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gumob/TLDExtractSwift",
+      "status": "candidate-context",
+      "text": "[![Swift Package Manager compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)](https://github.com/gumob/TLDExtractSwift)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "apple/swift-nio-ssl",
       "status": "candidate",
       "text": "SwiftNIO SSL is a Swift package that contains an implementation of TLS based on BoringSSL. This package allows users of [SwiftNIO](https://github.com/apple/swift-nio) to write protocol clients and servers that use TLS to secure data in flight."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gumob/PunycodeSwift",
+      "status": "candidate",
+      "text": "[![Swift Package Manager compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)](https://github.com/gumob/PunycodeSwift)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gumob/TLDExtractSwift",
+      "status": "candidate",
+      "text": "[![Swift Package Manager compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)](https://github.com/gumob/TLDExtractSwift)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "apple/swift-nio-ssl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "gumob/PunycodeSwift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "gumob/TLDExtractSwift"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

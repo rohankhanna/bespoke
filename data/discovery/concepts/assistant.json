@@ -79,6 +79,18 @@
       "source_repo": "microsoft/botframework-solutions",
       "status": "candidate-context",
       "text": "![Bot Framework Solutions](/docs/assets/images/bot_framework_solutions_header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternLM/HuixiangDou",
+      "status": "candidate-context",
+      "text": "HuixiangDou: Overcoming Group Chat Scenarios with LLM-based Technical Assistance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/HuixiangDou",
+      "status": "candidate-context",
+      "text": "[HuixiangDou2](https://github.com/tpoisonooo/HuixiangDou2)(ACL25) is a GraphRAG solution whose effectiveness has been demonstrated in the plant-science domain and that contributed to the [**cover paper in Cell**](https://www.cell.com/molecular-plant/issue?pii=S1674-2052(24)X0008\u2026"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "microsoft/botframework-solutions",
       "status": "candidate",
       "text": "![Bot Framework Solutions](/docs/assets/images/bot_framework_solutions_header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/HuixiangDou",
+      "status": "candidate",
+      "text": "[HuixiangDou2](https://github.com/tpoisonooo/HuixiangDou2)(ACL25) is a GraphRAG solution whose effectiveness has been demonstrated in the plant-science domain and that contributed to the [**cover paper in Cell**](https://www.cell.com/molecular-plant/issue?pii=S1674-2052(24)X0008\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -298,11 +316,23 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "chatboxai/chatbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "chatboxai/chatbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "InternLM/HuixiangDou"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

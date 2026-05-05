@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha-explorer-launcher-scripts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hbenl/vscode-mocha-docker-example",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hbenl/vscode-mocha-docker-example",
+      "target": "mocha-explorer-launcher-scripts",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:46:18.758786+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 879
+    },
+    {
+      "path": "package.json",
+      "size": 481
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An example project for running mocha tests in a docker container using the Mocha Test Explorer for VS Code",
+    "fork": false,
+    "full_name": "hbenl/vscode-mocha-docker-example",
+    "html_url": "https://github.com/hbenl/vscode-mocha-docker-example",
+    "language": "JavaScript",
+    "pushed_at": "2024-06-17T18:38:34Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2022-01-02T16:56:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

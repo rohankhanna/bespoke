@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "upload-docs"
+    "upload-docs",
+    "Upload Docs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "Hiroshiba/voicevox_engine",
       "status": "candidate-context",
       "text": "upload-docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvc5/cvc5",
+      "status": "candidate-context",
+      "text": "cvc5 is an open-source automatic theorem prover for Satisfiability Modulo Theories (SMT) problems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvc5/cvc5",
+      "status": "candidate-context",
+      "text": "Upload Docs"
     }
   ],
   "candidate_glosses": [
@@ -45,9 +58,51 @@
       "source_repo": "Hiroshiba/voicevox_engine",
       "status": "candidate",
       "text": "upload-docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvc5/cvc5",
+      "status": "candidate",
+      "text": "Upload Docs"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10458,
+      "status": "candidate",
+      "text": "clip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10456,
+      "status": "candidate",
+      "text": "advance against documents"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10456,
+      "status": "candidate",
+      "text": "archived"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10456,
+      "status": "candidate",
+      "text": "beepers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10456,
+      "status": "candidate",
+      "text": "browse"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "upload-docs",
   "concept_id": "upload-docs",
@@ -64,11 +119,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/build-docs.yml",
       "source_repo": "Hiroshiba/voicevox_engine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/docs_upload.yml",
+      "source_repo": "cvc5/cvc5"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "public-suffix-list"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dashlane/SwiftDomainParser",
+      "status": "candidate-context",
+      "text": "A Full Swift Lightweight Framework that uses the Public Suffix list to Parse URLs "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dashlane/SwiftDomainParser",
+      "status": "candidate-context",
+      "text": "A Full Swift Lightweight Framework that uses the Public Suffix list to Parse URLs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dashlane/SwiftDomainParser",
+      "status": "candidate",
+      "text": "A Full Swift Lightweight Framework that uses the Public Suffix list to Parse URLs"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "public-suffix-list",
+  "concept_id": "public-suffix-list",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Dashlane/SwiftDomainParser"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "public-suffix-list",
+      "sense_id": "public-suffix-list#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

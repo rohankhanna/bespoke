@@ -175,6 +175,18 @@
       "source_repo": "mapillary/mapillary-js",
       "status": "candidate-context",
       "text": "[![GitHub workflow](https://github.com/mapillary/mapillary-js/workflows/Build/badge.svg)](https://github.com/mapillary/mapillary-js/actions?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lace/polliwog",
+      "status": "candidate-context",
+      "text": "2D and 3D computational geometry library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/polliwog",
+      "status": "candidate-context",
+      "text": "[![version](https://img.shields.io/pypi/v/polliwog?style=flat-square)][pypi]"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "mapillary/mapillary-js",
       "status": "candidate",
       "text": "[![GitHub workflow](https://github.com/mapillary/mapillary-js/workflows/Build/badge.svg)](https://github.com/mapillary/mapillary-js/actions?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/polliwog",
+      "status": "candidate",
+      "text": "[![version](https://img.shields.io/pypi/v/polliwog?style=flat-square)][pypi]"
     }
   ],
   "candidate_related_terms": [],
@@ -352,11 +370,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "mapillary/mapillary-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "lace/polliwog"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Some Mac OS X SDKs for development purposes with osxcross."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Some Mac OS X SDKs for development purposes with [osxcross](https://github.com/tpoechtrager/osxcross) (a macOS Cross toolchain for Linux and BSDs)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Some Mac OS X SDKs for development purposes with [osxcross](https://github.com/tpoechtrager/osxcross) (a macOS Cross toolchain for Linux and BSDs)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "osxcross",
+      "sense_id": "osxcross#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "osxcross",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "osxcross",
+  "observation_id": "a8e7f687b81b256e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "osxcross",
+  "source_context_snippet": "> Some Mac OS X SDKs for development purposes with [osxcross](https://github.com/tpoechtrager/osxcross) (a macOS Cross toolchain for Linux and BSDs).",
+  "source_file": null,
+  "source_repo": "joseluisq/macosx-sdks",
+  "source_repo_description": "Some Mac OS X SDKs for development purposes with osxcross."
+}

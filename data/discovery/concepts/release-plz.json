@@ -362,6 +362,42 @@
       "source_repo": "eyre-rs/eyre",
       "status": "candidate-context",
       "text": "Release-plz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "near/near-sdk-rs",
+      "status": "candidate-context",
+      "text": "Rust library for writing NEAR smart contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-sdk-rs",
+      "status": "candidate-context",
+      "text": "Release-plz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prove-rs/z3.rs",
+      "status": "candidate-context",
+      "text": "Rust bindings for the Z3 solver."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prove-rs/z3.rs",
+      "status": "candidate-context",
+      "text": "Release-plz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "near/cargo-near",
+      "status": "candidate-context",
+      "text": "Cargo extension for building Rust smart contracts on NEAR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/cargo-near",
+      "status": "candidate-context",
+      "text": "Release-plz"
     }
   ],
   "candidate_glosses": [
@@ -542,6 +578,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "eyre-rs/eyre",
+      "status": "candidate",
+      "text": "Release-plz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-sdk-rs",
+      "status": "candidate",
+      "text": "Release-plz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prove-rs/z3.rs",
+      "status": "candidate",
+      "text": "Release-plz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/cargo-near",
       "status": "candidate",
       "text": "Release-plz"
     }
@@ -844,11 +898,29 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": ".github/workflows/release-plz.yml",
       "source_repo": "eyre-rs/eyre"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "near/near-sdk-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "prove-rs/z3.rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "near/cargo-near"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

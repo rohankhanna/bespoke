@@ -451,6 +451,18 @@
       "source_repo": "arran4/lemmy_notify",
       "status": "candidate-context",
       "text": "**Lemmy Notify** is a desktop application that sits in your system tray and monitors your Lemmy account for new posts and private messages. It acts as a lightweight indicator, allowing you to stay updated without constantly checking your browser."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KittyKatt/screenFetch",
+      "status": "candidate-context",
+      "text": "Fetches system/theme information in terminal for Linux desktop screenshots."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KittyKatt/screenFetch",
+      "status": "candidate-context",
+      "text": "Fetches system/theme information in terminal for Linux desktop screenshots."
     }
   ],
   "candidate_glosses": [
@@ -675,6 +687,12 @@
       "source_repo": "arran4/lemmy_notify",
       "status": "candidate",
       "text": "**Lemmy Notify** is a desktop application that sits in your system tray and monitors your Lemmy account for new posts and private messages. It acts as a lightweight indicator, allowing you to stay updated without constantly checking your browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KittyKatt/screenFetch",
+      "status": "candidate",
+      "text": "Fetches system/theme information in terminal for Linux desktop screenshots."
     }
   ],
   "candidate_related_terms": [
@@ -1387,11 +1405,41 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "nwjs/nw.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "KittyKatt/screenFetch"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

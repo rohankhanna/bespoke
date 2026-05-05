@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Phi\u00ean b\u1ea3n d\u1ecbch sang ti\u1ebfng Vi\u1ec7t c\u1ee7a https://doc.rust-lang.org/stable/rust-by-example/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Phi\u00ean b\u1ea3n ti\u1ebfng Vi\u1ec7t c\u1ee7a https://doc.rust-lang.org/stable/rust-by-example - H\u1ecdc l\u1eadp tr\u00ecnh Rust th\u00f4ng qua c\u00e1c v\u00ed d\u1ee5 (C\u00f3 Live code editor)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Phi\u00ean b\u1ea3n ti\u1ebfng Vi\u1ec7t c\u1ee7a https://doc.rust-lang.org/stable/rust-by-example - H\u1ecdc l\u1eadp tr\u00ecnh Rust th\u00f4ng qua c\u00e1c v\u00ed d\u1ee5 (C\u00f3 Live code editor)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049543,
+      "status": "candidate",
+      "text": "annamite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049517,
+      "status": "candidate",
+      "text": "annamese"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049616,
+      "status": "candidate",
+      "text": "viet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049612,
+      "status": "candidate",
+      "text": "nam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048779,
+      "status": "candidate",
+      "text": "yue"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vietnamese",
+      "sense_id": "vietnamese#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "annamese"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "annamite"
+    }
+  ],
+  "concept_id": "vietnamese",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vietnamese",
+  "observation_id": "c92619a54ef27929",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "vietnamese",
+  "source_context_snippet": "Phi\u00ean b\u1ea3n ti\u1ebfng Vi\u1ec7t c\u1ee7a https://doc.rust-lang.org/stable/rust-by-example - H\u1ecdc l\u1eadp tr\u00ecnh Rust th\u00f4ng qua c\u00e1c v\u00ed d\u1ee5 (C\u00f3 Live code editor)",
+  "source_file": null,
+  "source_repo": "nebula-labs/rust-by-example-vn",
+  "source_repo_description": "Phi\u00ean b\u1ea3n d\u1ecbch sang ti\u1ebfng Vi\u1ec7t c\u1ee7a https://doc.rust-lang.org/stable/rust-by-example/"
+}

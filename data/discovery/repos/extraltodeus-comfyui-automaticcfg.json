@@ -1,0 +1,199 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Extraltodeus/ComfyUI-AutomaticCFG",
+      "target": "extraltodeus/skimmed_cfg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Extraltodeus/ComfyUI-AutomaticCFG",
+      "target": "extraltodeus/pre_cfg_comfy_nodes_for_comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Extraltodeus/ComfyUI-AutomaticCFG",
+      "target": "ericbeyer/guidance_interval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Extraltodeus/ComfyUI-AutomaticCFG",
+      "target": "extraltodeus/shared_models_galleries",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Extraltodeus/ComfyUI-AutomaticCFG",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Extraltodeus/ComfyUI-AutomaticCFG",
+      "target": "Comfy-Org/publish-node-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Extraltodeus/ComfyUI-AutomaticCFG",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Extraltodeus/ComfyUI-AutomaticCFG",
+      "target": "comfy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Extraltodeus/ComfyUI-AutomaticCFG",
+      "target": "comfyui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Extraltodeus/ComfyUI-AutomaticCFG",
+      "target": "comfyui-nodes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Extraltodeus/ComfyUI-AutomaticCFG",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Extraltodeus/ComfyUI-AutomaticCFG",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T15:02:14.690296+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11512
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 754
+    },
+    {
+      "path": "requirements.txt",
+      "size": 8
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 565
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "If your image was a pizza and the CFG the temperature of your oven: this is a thermostat that ensures it is always cooked like you want. Also adds a 30% speed increase. For ComfyUI / StableDiffusion",
+    "fork": false,
+    "full_name": "Extraltodeus/ComfyUI-AutomaticCFG",
+    "html_url": "https://github.com/Extraltodeus/ComfyUI-AutomaticCFG",
+    "language": "Python",
+    "pushed_at": "2024-09-10T17:44:50Z",
+    "stargazers_count": 428,
+    "topics": [
+      "comfy",
+      "comfyui",
+      "comfyui-nodes",
+      "generative-ai",
+      "stable-diffusion"
+    ],
+    "updated_at": "2026-04-28T11:49:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ericbeyer/guidance_interval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "extraltodeus/pre_cfg_comfy_nodes_for_comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "extraltodeus/shared_models_galleries",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "extraltodeus/skimmed_cfg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    },
+    {
+      "context_snippet": "If you liked other functionnalities, I've re-created most in [this](https://github.com/Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfy"
+    },
+    {
+      "context_snippet": "If you liked other functionnalities, I've re-created most in [this](https://github.com/Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui"
+    },
+    {
+      "context_snippet": "If you liked other functionnalities, I've re-created most in [this](https://github.com/Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui-nodes"
+    },
+    {
+      "context_snippet": "If you liked other functionnalities, I've re-created most in [this](https://github.com/Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "context_snippet": "If you liked other functionnalities, I've re-created most in [this](https://github.com/Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    }
+  ]
+}

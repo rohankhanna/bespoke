@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Livox-SDK/LIO-Livox",
+      "target": "cuitaixiang/loam_noted",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Livox-SDK/LIO-Livox",
+      "target": "hyye/lio-mapping",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Livox-SDK/LIO-Livox",
+      "target": "kit-isas/lili-om",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Livox-SDK/LIO-Livox",
+      "target": "kumarrobotics/msckf_vio",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:53:58.618149+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8824
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Robust LiDAR-Inertial Odometry for Livox LiDAR",
+    "fork": false,
+    "full_name": "Livox-SDK/LIO-Livox",
+    "html_url": "https://github.com/Livox-SDK/LIO-Livox",
+    "language": "C++",
+    "pushed_at": "2024-05-23T19:04:13Z",
+    "stargazers_count": 797,
+    "topics": [],
+    "updated_at": "2026-05-01T12:07:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cuitaixiang/loam_noted",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hyye/lio-mapping",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kit-isas/lili-om",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kumarrobotics/msckf_vio",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

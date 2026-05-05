@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A WebAssembly HDF5 reader/writer library "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19255851.svg)](https://doi.org/10.5281/zenodo.14624863)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19255851.svg)](https://doi.org/10.5281/zenodo.14624863)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021831,
+      "status": "candidate",
+      "text": "history"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021830,
+      "status": "candidate",
+      "text": "olds"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021829,
+      "status": "candidate",
+      "text": "thing of the past"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021828,
+      "status": "candidate",
+      "text": "obsoletism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021827,
+      "status": "candidate",
+      "text": "quondamship"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wasm",
+      "sense_id": "wasm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "wasm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wasm",
+  "observation_id": "b43a18a4478d81d0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "wasm",
+  "source_context_snippet": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19255851.svg)](https://doi.org/10.5281/zenodo.14624863)",
+  "source_file": null,
+  "source_repo": "usnistgov/h5wasm",
+  "source_repo_description": "A WebAssembly HDF5 reader/writer library "
+}

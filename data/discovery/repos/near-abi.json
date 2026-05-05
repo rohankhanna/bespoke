@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/add-to-project@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-devtools.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "near/abi",
+      "target": "near/cargo-near",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "near/abi",
+      "target": "near/near-abi-client-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "near/abi",
+      "target": "near/near-abi-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "near/abi",
+      "target": "near/near-abi-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-devtools.yml",
+      "source_repo": "near/abi",
+      "target": "actions/add-to-project@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-devtools.yml",
+      "source_repo": "near/abi",
+      "target": "Add to DevTools Project",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T15:58:15.719660+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2964
+    },
+    {
+      "path": ".github/workflows/add-to-devtools.yml",
+      "size": 473
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "NEAR contract schema and tooling",
+    "fork": false,
+    "full_name": "near/abi",
+    "html_url": "https://github.com/near/abi",
+    "language": null,
+    "pushed_at": "2025-03-27T23:40:50Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2026-03-07T21:45:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "near/cargo-near",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "near/near-abi-client-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "near/near-abi-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "near/near-abi-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Add to DevTools Project'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-devtools.yml",
+      "term": "Add to DevTools Project"
+    }
+  ]
+}

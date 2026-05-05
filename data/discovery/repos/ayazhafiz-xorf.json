@@ -1,0 +1,306 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1.0.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1.0.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1.0.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1.0.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "ayazhafiz/xorf",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "ayazhafiz/xorf",
+      "target": "actions-rs/toolchain@v1.0.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "ayazhafiz/xorf",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "ayazhafiz/xorf",
+      "target": "actions-rs/cargo@v1.0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "ayazhafiz/xorf",
+      "target": "Continuous Deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ayazhafiz/xorf",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ayazhafiz/xorf",
+      "target": "actions-rs/toolchain@v1.0.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ayazhafiz/xorf",
+      "target": "actions-rs/cargo@v1.0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ayazhafiz/xorf",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ayazhafiz/xorf",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ayazhafiz/xorf",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ayazhafiz/xorf",
+      "target": "bloom-filter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ayazhafiz/xorf",
+      "target": "data-structures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ayazhafiz/xorf",
+      "target": "hashset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ayazhafiz/xorf",
+      "target": "probability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ayazhafiz/xorf",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ayazhafiz/xorf",
+      "target": "xor-filter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T13:44:40.905242+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5030
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1899
+    },
+    {
+      "path": ".github/workflows/cd.yml",
+      "size": 744
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3127
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Xor filters - efficient probabilistic hashsets. Faster and smaller than bloom and cuckoo filters.",
+    "fork": false,
+    "full_name": "ayazhafiz/xorf",
+    "html_url": "https://github.com/ayazhafiz/xorf",
+    "language": "Rust",
+    "pushed_at": "2026-02-09T00:03:04Z",
+    "stargazers_count": 164,
+    "topics": [
+      "bloom-filter",
+      "data-structures",
+      "hashset",
+      "probability",
+      "rust",
+      "xor-filter"
+    ],
+    "updated_at": "2026-04-29T14:55:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Continuous Deployment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.yml",
+      "term": "Continuous Deployment"
+    },
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "[![Xorf docs](https://docs.rs/xorf/badge.svg)](https://docs.rs/xorf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bloom-filter"
+    },
+    {
+      "context_snippet": "[![Xorf docs](https://docs.rs/xorf/badge.svg)](https://docs.rs/xorf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-structures"
+    },
+    {
+      "context_snippet": "[![Xorf docs](https://docs.rs/xorf/badge.svg)](https://docs.rs/xorf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hashset"
+    },
+    {
+      "context_snippet": "[![Xorf docs](https://docs.rs/xorf/badge.svg)](https://docs.rs/xorf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "probability"
+    },
+    {
+      "context_snippet": "[![Xorf docs](https://docs.rs/xorf/badge.svg)](https://docs.rs/xorf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![Xorf docs](https://docs.rs/xorf/badge.svg)](https://docs.rs/xorf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xor-filter"
+    }
+  ]
+}

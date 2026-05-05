@@ -43,6 +43,30 @@
       "source_repo": "amsul/pickadate.js",
       "status": "candidate-context",
       "text": "The mobile-friendly, responsive, and lightweight jQuery date & time input picker."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "React9k/react-timeline-9000",
+      "status": "candidate-context",
+      "text": "React Timeline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "React9k/react-timeline-9000",
+      "status": "candidate-context",
+      "text": "A performance focused timeline component in react"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clauderic/react-infinite-calendar",
+      "status": "candidate-context",
+      "text": "\u2728 Infinite scrolling date-picker built with React, with localization, range selection, themes, keyboard support, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clauderic/react-infinite-calendar",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "amsul/pickadate.js",
       "status": "candidate",
       "text": "The mobile-friendly, responsive, and lightweight jQuery date & time input picker."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "React9k/react-timeline-9000",
+      "status": "candidate",
+      "text": "A performance focused timeline component in react"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clauderic/react-infinite-calendar",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +160,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "amsul/pickadate.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "React9k/react-timeline-9000"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "clauderic/react-infinite-calendar"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

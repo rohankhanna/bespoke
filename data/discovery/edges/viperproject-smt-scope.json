@@ -1,0 +1,265 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "viperproject/smt-scope",
+      "target": "viperproject/axiom-profiler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-features.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/all-features.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "Check features matrix compiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crates-io.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crates-io.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "katyo/publish-crates@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/crates-io.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "Publish on Crates.io",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-github.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-github.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "jetli/trunk-action@v0.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-github.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "jetli/wasm-bindgen-action@v0.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-github.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-github.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "CD (github)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-tauri.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "viperproject/create-nightly-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-tauri.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-tauri.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-tauri.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "jetli/trunk-action@v0.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-tauri.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "jetli/wasm-bindgen-action@v0.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-tauri.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "tauri-apps/tauri-action@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-tauri.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "CD (tauri)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/md-check.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-latest-z3.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-latest-z3.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "actions/upload-artifact@v4.4.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-latest-z3.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "CI (latest z3)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-local.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-local.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "pavpanchekha/setup-z3@1.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-local.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "pavpanchekha/setup-z3@v1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-local.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "actions/upload-artifact@v4.4.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-local.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "CI (local)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-verifiers.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-verifiers.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "pavpanchekha/setup-z3@1.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-verifiers.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "pavpanchekha/setup-z3@v1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-verifiers.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "actions/upload-artifact@v4.4.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-verifiers.yml",
+      "source_repo": "viperproject/smt-scope",
+      "target": "CI (verifiers)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "viperproject/smt-scope",
+      "target": "axiom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "viperproject/smt-scope",
+      "target": "e-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "viperproject/smt-scope",
+      "target": "instantiation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "viperproject/smt-scope",
+      "target": "profiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "viperproject/smt-scope",
+      "target": "quantifiers",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "viperproject/smt-scope"
+}

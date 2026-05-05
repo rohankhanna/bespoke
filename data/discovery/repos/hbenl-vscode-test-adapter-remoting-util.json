@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "split",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tslib",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vscode-test-adapter-api",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/split",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hbenl/vscode-test-adapter-remoting-util",
+      "target": "hbenl/vscode-test-adapter-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hbenl/vscode-test-adapter-remoting-util",
+      "target": "split",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hbenl/vscode-test-adapter-remoting-util",
+      "target": "tslib",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hbenl/vscode-test-adapter-remoting-util",
+      "target": "vscode-test-adapter-api",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hbenl/vscode-test-adapter-remoting-util",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hbenl/vscode-test-adapter-remoting-util",
+      "target": "@types/split",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hbenl/vscode-test-adapter-remoting-util",
+      "target": "typescript",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:46:20.199405+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7252
+    },
+    {
+      "path": "package.json",
+      "size": 895
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A collection of utility functions that help with running tests remotely with the VS Code Test Explorer",
+    "fork": false,
+    "full_name": "hbenl/vscode-test-adapter-remoting-util",
+    "html_url": "https://github.com/hbenl/vscode-test-adapter-remoting-util",
+    "language": "TypeScript",
+    "pushed_at": "2021-05-24T17:05:39Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2021-05-24T17:05:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hbenl/vscode-test-adapter-api",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

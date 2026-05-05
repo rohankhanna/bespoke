@@ -1,0 +1,291 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Iron-E/nvim-highlite",
+      "target": "ayu-theme/ayu-vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Iron-E/nvim-highlite",
+      "target": "bfrg/vim-cpp-modern",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Iron-E/nvim-highlite",
+      "target": "arzg/vim-sh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Iron-E/nvim-highlite",
+      "target": "amadeus/vim-xml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Iron-E/nvim-highlite",
+      "target": "colors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Iron-E/nvim-highlite",
+      "target": "colorscheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Iron-E/nvim-highlite",
+      "target": "luajit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Iron-E/nvim-highlite",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Iron-E/nvim-highlite",
+      "target": "neovim-colorscheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Iron-E/nvim-highlite",
+      "target": "neovim-lua-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Iron-E/nvim-highlite",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Iron-E/nvim-highlite",
+      "target": "neovim-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Iron-E/nvim-highlite",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Iron-E/nvim-highlite",
+      "target": "nvim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Iron-E/nvim-highlite",
+      "target": "nvim-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Iron-E/nvim-highlite",
+      "target": "nvim-treesitter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Iron-E/nvim-highlite",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Iron-E/nvim-highlite",
+      "target": "template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Iron-E/nvim-highlite",
+      "target": "treesitter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:48:52.042489+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23825
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master-v4",
+    "description": "A colorscheme generator that is \"lite\" on logic for the developer.",
+    "fork": false,
+    "full_name": "Iron-E/nvim-highlite",
+    "html_url": "https://github.com/Iron-E/nvim-highlite",
+    "language": "Lua",
+    "pushed_at": "2026-04-30T23:35:24Z",
+    "stargazers_count": 250,
+    "topics": [
+      "colors",
+      "colorscheme",
+      "diy",
+      "lua",
+      "luajit",
+      "neovim",
+      "neovim-colorscheme",
+      "neovim-lua-plugin",
+      "neovim-plugin",
+      "neovim-theme",
+      "nvim",
+      "nvim-plugin",
+      "nvim-plugins",
+      "nvim-treesitter",
+      "plugin",
+      "template",
+      "treesitter"
+    ],
+    "updated_at": "2026-04-30T23:35:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amadeus/vim-xml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arzg/vim-sh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ayu-theme/ayu-vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bfrg/vim-cpp-modern",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "* Use any of the built-in colorschemes using `:colorscheme`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colors"
+    },
+    {
+      "context_snippet": "* Use any of the built-in colorschemes using `:colorscheme`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colorscheme"
+    },
+    {
+      "context_snippet": "* Use any of the built-in colorschemes using `:colorscheme`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "luajit"
+    },
+    {
+      "context_snippet": "* Use any of the built-in colorschemes using `:colorscheme`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "* Use any of the built-in colorschemes using `:colorscheme`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-colorscheme"
+    },
+    {
+      "context_snippet": "* Use any of the built-in colorschemes using `:colorscheme`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-lua-plugin"
+    },
+    {
+      "context_snippet": "* Use any of the built-in colorschemes using `:colorscheme`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "* Use any of the built-in colorschemes using `:colorscheme`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-theme"
+    },
+    {
+      "context_snippet": "* Use any of the built-in colorschemes using `:colorscheme`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "* Use any of the built-in colorschemes using `:colorscheme`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-plugin"
+    },
+    {
+      "context_snippet": "* Use any of the built-in colorschemes using `:colorscheme`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-plugins"
+    },
+    {
+      "context_snippet": "* Use any of the built-in colorschemes using `:colorscheme`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-treesitter"
+    },
+    {
+      "context_snippet": "* Use any of the built-in colorschemes using `:colorscheme`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "* Use any of the built-in colorschemes using `:colorscheme`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    },
+    {
+      "context_snippet": "* Use any of the built-in colorschemes using `:colorscheme`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "treesitter"
+    }
+  ]
+}

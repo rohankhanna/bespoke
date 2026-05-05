@@ -58,6 +58,18 @@
       "source_repo": "raimon49/requirements.txt.vim",
       "status": "candidate-context",
       "text": "VimScript"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Iron-E/vim-ungrammar",
+      "status": "candidate-context",
+      "text": "Ungrammar syntax files for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Iron-E/vim-ungrammar",
+      "status": "candidate-context",
+      "text": "`Vim-ungrammar` is a plugin for Neovim and Vim for the [Ungrammar][ungrammar] filetype which provides:"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +96,12 @@
       "source_repo": "raimon49/requirements.txt.vim",
       "status": "candidate",
       "text": "VimScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Iron-E/vim-ungrammar",
+      "status": "candidate",
+      "text": "`Vim-ungrammar` is a plugin for Neovim and Vim for the [Ungrammar][ungrammar] filetype which provides:"
     }
   ],
   "candidate_related_terms": [],
@@ -115,11 +133,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/ruby.yml",
       "source_repo": "raimon49/requirements.txt.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Iron-E/vim-ungrammar"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

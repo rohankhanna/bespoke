@@ -84,7 +84,7 @@
   "normalized_form": "build-container-template",
   "observation_id": "1d16ccac4ae1adeb",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "~Build container template",
   "source_context_snippet": "~Build container template",
   "source_file": ".github/workflows/_build_container.yml",

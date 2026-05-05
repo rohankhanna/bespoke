@@ -451,6 +451,18 @@
       "source_repo": "Xiuyu-Li/q-diffusion",
       "status": "candidate-context",
       "text": "**[NEW!]** Q-Diffusion is featured by NVIDIA [TensorRT](https://developer.nvidia.com/blog/tensorrt-accelerates-stable-diffusion-nearly-2x-faster-with-8-bit-post-training-quantization/)! Check out the official [example](https://github.com/NVIDIA/TensorRT/tree/release/9.3/demo/Dif\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huawei-noah/Pretrained-Language-Model",
+      "status": "candidate-context",
+      "text": "Pretrained language model and its related optimization techniques developed by Huawei Noah's Ark Lab."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/Pretrained-Language-Model",
+      "status": "candidate-context",
+      "text": "This repository provides the latest pretrained language models and its related optimization techniques developed by Huawei Noah's Ark Lab."
     }
   ],
   "candidate_glosses": [
@@ -675,6 +687,12 @@
       "source_repo": "Xiuyu-Li/q-diffusion",
       "status": "candidate",
       "text": "**[NEW!]** Q-Diffusion is featured by NVIDIA [TensorRT](https://developer.nvidia.com/blog/tensorrt-accelerates-stable-diffusion-nearly-2x-faster-with-8-bit-post-training-quantization/)! Check out the official [example](https://github.com/NVIDIA/TensorRT/tree/release/9.3/demo/Dif\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/Pretrained-Language-Model",
+      "status": "candidate",
+      "text": "This repository provides the latest pretrained language models and its related optimization techniques developed by Huawei Noah's Ark Lab."
     }
   ],
   "candidate_related_terms": [
@@ -1572,11 +1590,53 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-quanto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "huawei-noah/Pretrained-Language-Model"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

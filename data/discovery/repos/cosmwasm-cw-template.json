@@ -1,0 +1,200 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Basic.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Basic.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Basic.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Basic.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Basic.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Basic.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Basic.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Basic.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Basic.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml"
+    },
+    {
+      "component": "bruceadams/get-release@v1.2.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CosmWasm/cw-template",
+      "target": "ashleygwilliams/cargo-generate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Basic.yml",
+      "source_repo": "CosmWasm/cw-template",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Basic.yml",
+      "source_repo": "CosmWasm/cw-template",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Basic.yml",
+      "source_repo": "CosmWasm/cw-template",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Basic.yml",
+      "source_repo": "CosmWasm/cw-template",
+      "target": "Basic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "CosmWasm/cw-template",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "CosmWasm/cw-template",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "CosmWasm/cw-template",
+      "target": "bruceadams/get-release@v1.2.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "CosmWasm/cw-template",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "CosmWasm/cw-template",
+      "target": "release wasm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:49:12.128792+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3275
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1293
+    },
+    {
+      "path": ".github/workflows/Basic.yml",
+      "size": 1699
+    },
+    {
+      "path": ".github/workflows/Release.yml",
+      "size": 883
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Quickstart template to get started writing your own cosmwasm contracts",
+    "fork": false,
+    "full_name": "CosmWasm/cw-template",
+    "html_url": "https://github.com/CosmWasm/cw-template",
+    "language": "Rust",
+    "pushed_at": "2025-01-16T15:30:01Z",
+    "stargazers_count": 299,
+    "topics": [],
+    "updated_at": "2026-04-16T14:31:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashleygwilliams/cargo-generate",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Basic",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Basic.yml",
+      "term": "Basic"
+    },
+    {
+      "context_snippet": "release wasm",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release.yml",
+      "term": "release wasm"
+    }
+  ]
+}

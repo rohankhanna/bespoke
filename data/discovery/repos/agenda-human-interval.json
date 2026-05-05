@@ -1,0 +1,167 @@
+{
+  "components": [
+    {
+      "component": "numbered",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ava",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "xo",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agenda/human-interval",
+      "target": "blakeembrey/node-numbered",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agenda/human-interval",
+      "target": "agenda/agenda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "agenda/human-interval",
+      "target": "numbered",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "agenda/human-interval",
+      "target": "ava",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "agenda/human-interval",
+      "target": "xo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agenda/human-interval",
+      "target": "date",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agenda/human-interval",
+      "target": "interval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agenda/human-interval",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agenda/human-interval",
+      "target": "parse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agenda/human-interval",
+      "target": "time",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:50:13.294822+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1647
+    },
+    {
+      "path": "package.json",
+      "size": 943
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Human readable time distances for javascript",
+    "fork": false,
+    "full_name": "agenda/human-interval",
+    "html_url": "https://github.com/agenda/human-interval",
+    "language": "JavaScript",
+    "pushed_at": "2024-01-24T20:01:45Z",
+    "stargazers_count": 467,
+    "topics": [
+      "date",
+      "interval",
+      "javascript",
+      "nodejs",
+      "parse",
+      "time"
+    ],
+    "updated_at": "2026-04-01T15:51:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agenda/agenda",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blakeembrey/node-numbered",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Human-readable interval parser for Javascript.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "date"
+    },
+    {
+      "context_snippet": "Human-readable interval parser for Javascript.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interval"
+    },
+    {
+      "context_snippet": "Human-readable interval parser for Javascript.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "Human-readable interval parser for Javascript.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parse"
+    },
+    {
+      "context_snippet": "Human-readable interval parser for Javascript.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time"
+    }
+  ]
+}

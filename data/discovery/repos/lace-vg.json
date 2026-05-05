@@ -1,0 +1,275 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lace/vg",
+      "target": "metabolize/lace",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lace/vg",
+      "target": "bodylabs/blmath",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lace/vg",
+      "target": "metabolize/blmath",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/vg",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/vg",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/vg",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/vg",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/vg",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/vg",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/vg",
+      "target": "3d-points",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/vg",
+      "target": "3d-vectors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/vg",
+      "target": "geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/vg",
+      "target": "linear-algebra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/vg",
+      "target": "numpy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/vg",
+      "target": "shortcuts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/vg",
+      "target": "toolbelt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/vg",
+      "target": "vector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/vg",
+      "target": "vectors",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T15:48:13.272017+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3056
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1438
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 989
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Vector-geometry toolbelt for 3D points and vectors",
+    "fork": false,
+    "full_name": "lace/vg",
+    "html_url": "https://github.com/lace/vg",
+    "language": "Python",
+    "pushed_at": "2023-03-01T13:57:31Z",
+    "stargazers_count": 124,
+    "topics": [
+      "3d-points",
+      "3d-vectors",
+      "geometry",
+      "linear-algebra",
+      "numpy",
+      "shortcuts",
+      "toolbelt",
+      "vector",
+      "vectors"
+    ],
+    "updated_at": "2026-03-11T00:41:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bodylabs/blmath",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "metabolize/blmath",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "metabolize/lace",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "vg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-points"
+    },
+    {
+      "context_snippet": "vg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-vectors"
+    },
+    {
+      "context_snippet": "vg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geometry"
+    },
+    {
+      "context_snippet": "vg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linear-algebra"
+    },
+    {
+      "context_snippet": "vg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numpy"
+    },
+    {
+      "context_snippet": "vg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shortcuts"
+    },
+    {
+      "context_snippet": "vg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toolbelt"
+    },
+    {
+      "context_snippet": "vg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector"
+    },
+    {
+      "context_snippet": "vg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vectors"
+    }
+  ]
+}

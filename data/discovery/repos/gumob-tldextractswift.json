@@ -1,0 +1,356 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "mtgto/swift-format-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gumob/TLDExtractSwift",
+      "target": "apple/swift",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gumob/TLDExtractSwift",
+      "target": "gumob/punycode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "gumob/TLDExtractSwift",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "gumob/TLDExtractSwift",
+      "target": "mtgto/swift-format-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "gumob/TLDExtractSwift",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "gumob/TLDExtractSwift",
+      "target": "Test and Deploy Framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "gumob/TLDExtractSwift",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "gumob/TLDExtractSwift",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "gumob/TLDExtractSwift",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "gumob/TLDExtractSwift",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "gumob/TLDExtractSwift",
+      "target": "Deploy Github Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gumob/TLDExtractSwift",
+      "target": "carthage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gumob/TLDExtractSwift",
+      "target": "idna",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gumob/TLDExtractSwift",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gumob/TLDExtractSwift",
+      "target": "punycode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gumob/TLDExtractSwift",
+      "target": "swift-package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gumob/TLDExtractSwift",
+      "target": "swift5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gumob/TLDExtractSwift",
+      "target": "tvos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gumob/TLDExtractSwift",
+      "target": "visionos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gumob/TLDExtractSwift",
+      "target": "watchos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:05:06.818619+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8361
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 16367
+    },
+    {
+      "path": ".github/workflows/static.yml",
+      "size": 1244
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A pure Swift library to allows you to get the public suffix of a domain name",
+    "fork": false,
+    "full_name": "gumob/TLDExtractSwift",
+    "html_url": "https://github.com/gumob/TLDExtractSwift",
+    "language": "Swift",
+    "pushed_at": "2025-06-22T13:26:53Z",
+    "stargazers_count": 38,
+    "topics": [
+      "carthage",
+      "idna",
+      "ios",
+      "macos",
+      "punycode",
+      "swift-package-manager",
+      "swift5",
+      "tvos",
+      "visionos",
+      "watchos"
+    ],
+    "updated_at": "2026-02-14T17:56:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/swift",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gumob/punycode",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test and Deploy Framework",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Test and Deploy Framework"
+    },
+    {
+      "context_snippet": "Deploy Github Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static.yml",
+      "term": "Deploy Github Pages"
+    },
+    {
+      "context_snippet": "[![Swift Package Manager compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)](https://github.com/gumob/TLDExtractSwift)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "carthage"
+    },
+    {
+      "context_snippet": "[![Swift Package Manager compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)](https://github.com/gumob/TLDExtractSwift)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "idna"
+    },
+    {
+      "context_snippet": "[![Swift Package Manager compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)](https://github.com/gumob/TLDExtractSwift)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "[![Swift Package Manager compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)](https://github.com/gumob/TLDExtractSwift)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "punycode"
+    },
+    {
+      "context_snippet": "[![Swift Package Manager compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)](https://github.com/gumob/TLDExtractSwift)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift-package-manager"
+    },
+    {
+      "context_snippet": "[![Swift Package Manager compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)](https://github.com/gumob/TLDExtractSwift)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift5"
+    },
+    {
+      "context_snippet": "[![Swift Package Manager compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)](https://github.com/gumob/TLDExtractSwift)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tvos"
+    },
+    {
+      "context_snippet": "[![Swift Package Manager compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)](https://github.com/gumob/TLDExtractSwift)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visionos"
+    },
+    {
+      "context_snippet": "[![Swift Package Manager compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)](https://github.com/gumob/TLDExtractSwift)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "watchos"
+    }
+  ]
+}

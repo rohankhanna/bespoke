@@ -8,13 +8,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jaredpalmer/the-platform",
-      "target": "jaredpalmer/react-fns",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "jaredpalmer/the-platform",
@@ -281,6 +274,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
   "source_repo": "jaredpalmer/the-platform"
 }

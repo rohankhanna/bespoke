@@ -48,7 +48,7 @@
   "normalized_form": "grpc",
   "observation_id": "61e1feba857fd6e4",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "grpc",
   "source_context_snippet": "[![GitHub CI](https://github.com/elixir-grpc/grpc/actions/workflows/ci.yml/badge.svg)](https://github.com/elixir-grpc/grpc/actions/workflows/ci.yml)",
   "source_file": null,

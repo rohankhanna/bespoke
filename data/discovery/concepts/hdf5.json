@@ -19,6 +19,30 @@
       "source_repo": "xtensor-stack/xtensor-io",
       "status": "candidate-context",
       "text": "[![Azure Pipelines](https://dev.azure.com/xtensor-stack/xtensor-stack/_apis/build/status/xtensor-stack.xtensor-io?branchName=master)](https://dev.azure.com/xtensor-stack/xtensor-stack/_build/latest?definitionId=8&branchName=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "usnistgov/jsfive",
+      "status": "candidate-context",
+      "text": "A pure javascript HDF5 reader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usnistgov/jsfive",
+      "status": "candidate-context",
+      "text": "jsfive is a library for reading (not writing) HDF5 files using pure javascript, such as in the browser. It is based on the [pyfive](https://github.com/jjhelmus/pyfive) pure-python implementation of an HDF5 reader."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "usnistgov/h5wasm",
+      "status": "candidate-context",
+      "text": "A WebAssembly HDF5 reader/writer library "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usnistgov/h5wasm",
+      "status": "candidate-context",
+      "text": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19255851.svg)](https://doi.org/10.5281/zenodo.14624863)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "xtensor-stack/xtensor-io",
       "status": "candidate",
       "text": "[![Azure Pipelines](https://dev.azure.com/xtensor-stack/xtensor-stack/_apis/build/status/xtensor-stack.xtensor-io?branchName=master)](https://dev.azure.com/xtensor-stack/xtensor-stack/_build/latest?definitionId=8&branchName=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usnistgov/jsfive",
+      "status": "candidate",
+      "text": "jsfive is a library for reading (not writing) HDF5 files using pure javascript, such as in the browser. It is based on the [pyfive](https://github.com/jjhelmus/pyfive) pure-python implementation of an HDF5 reader."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usnistgov/h5wasm",
+      "status": "candidate",
+      "text": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19255851.svg)](https://doi.org/10.5281/zenodo.14624863)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "xtensor-stack/xtensor-io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "usnistgov/jsfive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "usnistgov/h5wasm"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

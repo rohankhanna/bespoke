@@ -1,0 +1,37 @@
+{
+  "component": "upptime/uptime-monitor@v1.41.2",
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/graphs.yml",
+      "source_repo": "upptime/upptime"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/response-time.yml",
+      "source_repo": "upptime/upptime"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/setup.yml",
+      "source_repo": "upptime/upptime"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/site.yml",
+      "source_repo": "upptime/upptime"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/summary.yml",
+      "source_repo": "upptime/upptime"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/uptime.yml",
+      "source_repo": "upptime/upptime"
+    }
+  ]
+}

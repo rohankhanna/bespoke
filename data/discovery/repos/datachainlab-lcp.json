@@ -1,0 +1,239 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-cleanup.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "datachainlab/rust-cache@allow_registry_src_caching",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "datachainlab/rust-cache@allow_registry_src_caching",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datachainlab/lcp",
+      "target": "datachainlab/besu-qbft-elc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datachainlab/lcp",
+      "target": "datachainlab/lcp-solidity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datachainlab/lcp",
+      "target": "datachainlab/lcp-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datachainlab/lcp",
+      "target": "datachainlab/cosmos-bsc-ibc-lcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-cleanup.yml",
+      "source_repo": "datachainlab/lcp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache-cleanup.yml",
+      "source_repo": "datachainlab/lcp",
+      "target": "cleanup caches by a branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "datachainlab/lcp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "datachainlab/lcp",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "datachainlab/lcp",
+      "target": "datachainlab/rust-cache@allow_registry_src_caching",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "datachainlab/lcp",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datachainlab/lcp",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datachainlab/lcp",
+      "target": "cosmos-ibc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datachainlab/lcp",
+      "target": "intel-sgx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datachainlab/lcp",
+      "target": "interoperability",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T15:59:01.231566+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2587
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 714
+    },
+    {
+      "path": ".github/workflows/cache-cleanup.yml",
+      "size": 917
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1346
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A proxy middleware for light client verification executed in TEE.",
+    "fork": false,
+    "full_name": "datachainlab/lcp",
+    "html_url": "https://github.com/datachainlab/lcp",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T05:03:01Z",
+    "stargazers_count": 58,
+    "topics": [
+      "blockchain",
+      "cosmos-ibc",
+      "ibc",
+      "intel-sgx",
+      "interoperability",
+      "tee"
+    ],
+    "updated_at": "2026-04-25T01:24:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datachainlab/besu-qbft-elc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datachainlab/cosmos-bsc-ibc-lcp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datachainlab/lcp-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datachainlab/lcp-solidity",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "cleanup caches by a branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache-cleanup.yml",
+      "term": "cleanup caches by a branch"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cosmos-ibc"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intel-sgx"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interoperability"
+    }
+  ]
+}

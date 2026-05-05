@@ -48,7 +48,7 @@
   "normalized_form": "rstats",
   "observation_id": "654aa1efd99a6c52",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "rstats",
   "source_context_snippet": "[![R-CMD-check](https://github.com/appelmar/gdalcubes_R/actions/workflows/R-CMD-check.yml/badge.svg)](https://github.com/appelmar/gdalcubes_R/actions/workflows/R-CMD-check.yml)",
   "source_file": null,

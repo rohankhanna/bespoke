@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "schedul-xor/nextzen2oscimv4",
+      "target": "omniscale/imposm3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "schedul-xor/nextzen2oscimv4",
+      "target": "go-spatial/tegola",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "schedul-xor/nextzen2oscimv4",
+      "target": "go-spatial/tegola-osm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T17:05:03.199133+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8327
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "schedul-xor/nextzen2oscimv4",
+    "html_url": "https://github.com/schedul-xor/nextzen2oscimv4",
+    "language": "Python",
+    "pushed_at": "2022-11-01T09:30:08Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-25T17:21:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-spatial/tegola",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-spatial/tegola-osm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "omniscale/imposm3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Robotics-STAR-Lab/RACER",
+      "target": "tpruvot/ccminer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Robotics-STAR-Lab/RACER",
+      "target": "sysu-star/racer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:54:04.764432+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7156
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rapid Exploration with Multiple Unmanned Aerial Vehicles (UAV)",
+    "fork": false,
+    "full_name": "Robotics-STAR-Lab/RACER",
+    "html_url": "https://github.com/Robotics-STAR-Lab/RACER",
+    "language": "C++",
+    "pushed_at": "2024-11-19T06:07:39Z",
+    "stargazers_count": 746,
+    "topics": [],
+    "updated_at": "2026-05-05T07:52:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sysu-star/racer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tpruvot/ccminer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

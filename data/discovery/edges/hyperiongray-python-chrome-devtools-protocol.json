@@ -1,0 +1,195 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-pr.yml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "target": "actions/github-script@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-pr.yml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "target": "Auto Assign Copilot to PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-issues.yml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "target": "actions/stale@v10.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-complete-cicd-review.yml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-complete-cicd-review.yml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "target": "actions/upload-artifact@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-complete-cicd-review.yml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "target": "actions/setup-node@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-complete-cicd-review.yml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "target": "actions/setup-python@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-complete-cicd-review.yml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "target": "actions/setup-go@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-complete-cicd-review.yml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "target": "actions/download-artifact@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-complete-cicd-review.yml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "target": "actions/github-script@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-copilot-code-cleanliness-review.yml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-copilot-code-cleanliness-review.yml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "target": "actions/github-script@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-copilot-code-cleanliness-review.yml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "target": "Periodic Code Cleanliness Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-copilot-functionality-docs-review.yml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-copilot-functionality-docs-review.yml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "target": "actions/setup-node@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-copilot-functionality-docs-review.yml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "target": "actions/setup-python@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-copilot-functionality-docs-review.yml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "target": "actions/setup-go@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-copilot-functionality-docs-review.yml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "target": "actions/github-script@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-copilot-functionality-docs-review.yml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "target": "Code Functionality and Documentation Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-copilot-org-playwright-loop.yaml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-copilot-org-playwright-loop.yaml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "target": "actions/setup-python@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-copilot-org-playwright-loop.yaml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "target": "peter-evans/create-pull-request@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-copilot-org-playwright-loop.yaml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "target": "pascalgn/automerge-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-copilot-org-playwright-loopv2.yaml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-copilot-org-playwright-loopv2.yaml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "target": "actions/setup-python@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-copilot-org-playwright-loopv2.yaml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "target": "peter-evans/create-pull-request@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-copilot-org-playwright-loopv2.yaml",
+      "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+      "target": "pascalgn/automerge-action@main",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "HyperionGray/python-chrome-devtools-protocol"
+}

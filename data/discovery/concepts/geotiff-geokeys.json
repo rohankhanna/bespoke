@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "geotiff-geokeys"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "status": "candidate-context",
+      "text": "A library that converts GeoTIFFs geokeys to Proj4 string"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "status": "candidate-context",
+      "text": "This library converts GeoTIFF's geokeys to Proj4 string, so you can [consume](#why-do-i-need-it) your images."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "status": "candidate",
+      "text": "This library converts GeoTIFF's geokeys to Proj4 string, so you can [consume](#why-do-i-need-it) your images."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "geotiff-geokeys",
+  "concept_id": "geotiff-geokeys",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "geotiff-geokeys",
+      "sense_id": "geotiff-geokeys#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "CLI"
+    "CLI",
+    "cli"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -73,6 +74,18 @@
       "source_repo": "informalsystems/atomkraft",
       "status": "candidate-context",
       "text": "CLI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iqlusioninc/abscissa",
+      "status": "candidate-context",
+      "text": "Application microframework with command-line option parsing, configuration, error handling, logging, and shell interactions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iqlusioninc/abscissa",
+      "status": "candidate-context",
+      "text": "cli"
     }
   ],
   "candidate_glosses": [
@@ -111,6 +124,12 @@
       "source_repo": "informalsystems/atomkraft",
       "status": "candidate",
       "text": "CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iqlusioninc/abscissa",
+      "status": "candidate",
+      "text": "cli"
     }
   ],
   "candidate_related_terms": [
@@ -198,11 +217,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/cli.yml",
       "source_repo": "informalsystems/atomkraft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/cli.yml",
+      "source_repo": "iqlusioninc/abscissa"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

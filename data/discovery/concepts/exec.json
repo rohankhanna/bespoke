@@ -127,6 +127,18 @@
       "source_repo": "ehmicky/get-node-cli",
       "status": "candidate-context",
       "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/get-node-cli)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazy-max/yasu",
+      "status": "candidate-context",
+      "text": "Yet Another Switch User"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/yasu",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/crazy-max/yasu.svg?style=flat-square)](https://github.com/crazy-max/yasu/releases/latest)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "ehmicky/get-node-cli",
       "status": "candidate",
       "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/get-node-cli)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/yasu",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/crazy-max/yasu.svg?style=flat-square)](https://github.com/crazy-max/yasu/releases/latest)"
     }
   ],
   "candidate_related_terms": [
@@ -292,11 +310,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "ehmicky/get-node-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "crazy-max/yasu"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

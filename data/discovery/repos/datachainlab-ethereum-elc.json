@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datachainlab/ethereum-elc",
+      "target": "datachainlab/ethereum-ibc-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datachainlab/ethereum-elc",
+      "target": "datachainlab/lcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datachainlab/ethereum-elc",
+      "target": "datachainlab/ethereum-ibc-relay-prover",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "datachainlab/ethereum-elc",
+      "target": "datachainlab/ethereum-ibc-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "datachainlab/ethereum-elc",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "datachainlab/ethereum-elc",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "datachainlab/ethereum-elc",
+      "target": "test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:49:46.127287+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 665
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1115
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 311
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "datachainlab/ethereum-elc",
+    "html_url": "https://github.com/datachainlab/ethereum-elc",
+    "language": "Rust",
+    "pushed_at": "2025-05-20T13:02:50Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-12-24T06:42:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datachainlab/ethereum-ibc-relay-prover",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datachainlab/ethereum-ibc-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datachainlab/lcp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datachainlab/ethereum-ibc-rs",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    }
+  ]
+}

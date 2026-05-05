@@ -1,0 +1,145 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "songweige/TATS",
+      "target": "weixiong-ur/mdgan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "songweige/TATS",
+      "target": "audio-to-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "songweige/TATS",
+      "target": "long-video-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "songweige/TATS",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "songweige/TATS",
+      "target": "text-to-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "songweige/TATS",
+      "target": "video-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "songweige/TATS",
+      "target": "video-manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "songweige/TATS",
+      "target": "video-synthesizer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:54:27.113895+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10640
+    },
+    {
+      "path": "requirements.txt",
+      "size": 73
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official PyTorch implementation of TATS: A Long Video Generation Framework with Time-Agnostic VQGAN and Time-Sensitive Transformer (ECCV 2022)",
+    "fork": false,
+    "full_name": "songweige/TATS",
+    "html_url": "https://github.com/songweige/TATS",
+    "language": "Python",
+    "pushed_at": "2024-05-01T21:32:51Z",
+    "stargazers_count": 287,
+    "topics": [
+      "audio-to-video",
+      "long-video-generation",
+      "pytorch",
+      "text-to-video",
+      "video-generation",
+      "video-manipulation",
+      "video-synthesizer"
+    ],
+    "updated_at": "2026-03-04T17:44:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weixiong-ur/mdgan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Project Website](https://songweige.github.io/projects/tats) | [Video](https://youtu.be/WZj7vW2mTJo) | [Paper](https://arxiv.org/abs/2204.03638)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-to-video"
+    },
+    {
+      "context_snippet": "[Project Website](https://songweige.github.io/projects/tats) | [Video](https://youtu.be/WZj7vW2mTJo) | [Paper](https://arxiv.org/abs/2204.03638)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-video-generation"
+    },
+    {
+      "context_snippet": "[Project Website](https://songweige.github.io/projects/tats) | [Video](https://youtu.be/WZj7vW2mTJo) | [Paper](https://arxiv.org/abs/2204.03638)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[Project Website](https://songweige.github.io/projects/tats) | [Video](https://youtu.be/WZj7vW2mTJo) | [Paper](https://arxiv.org/abs/2204.03638)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-video"
+    },
+    {
+      "context_snippet": "[Project Website](https://songweige.github.io/projects/tats) | [Video](https://youtu.be/WZj7vW2mTJo) | [Paper](https://arxiv.org/abs/2204.03638)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    },
+    {
+      "context_snippet": "[Project Website](https://songweige.github.io/projects/tats) | [Video](https://youtu.be/WZj7vW2mTJo) | [Paper](https://arxiv.org/abs/2204.03638)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-manipulation"
+    },
+    {
+      "context_snippet": "[Project Website](https://songweige.github.io/projects/tats) | [Video](https://youtu.be/WZj7vW2mTJo) | [Paper](https://arxiv.org/abs/2204.03638)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-synthesizer"
+    }
+  ]
+}

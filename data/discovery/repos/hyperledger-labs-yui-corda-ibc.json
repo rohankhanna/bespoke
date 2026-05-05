@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "arduino/setup-protoc@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hyperledger-labs/yui-corda-ibc",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hyperledger-labs/yui-corda-ibc",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hyperledger-labs/yui-corda-ibc",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hyperledger-labs/yui-corda-ibc",
+      "target": "arduino/setup-protoc@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hyperledger-labs/yui-corda-ibc",
+      "target": "Corda-IBC Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyperledger-labs/yui-corda-ibc",
+      "target": "corda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyperledger-labs/yui-corda-ibc",
+      "target": "cosmos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyperledger-labs/yui-corda-ibc",
+      "target": "kotlin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T15:58:53.887488+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 866
+    },
+    {
+      "path": "go.mod",
+      "size": 6261
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1231
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "IBC implementation in Corda",
+    "fork": false,
+    "full_name": "hyperledger-labs/yui-corda-ibc",
+    "html_url": "https://github.com/hyperledger-labs/yui-corda-ibc",
+    "language": "Kotlin",
+    "pushed_at": "2023-02-25T07:44:58Z",
+    "stargazers_count": 20,
+    "topics": [
+      "corda",
+      "cosmos",
+      "ibc",
+      "kotlin"
+    ],
+    "updated_at": "2026-02-09T07:43:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Corda-IBC Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Corda-IBC Test"
+    },
+    {
+      "context_snippet": "Corda-IBC is an implementation of IBC modules that runs as a CorDapp on Corda platform.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "corda"
+    },
+    {
+      "context_snippet": "Corda-IBC is an implementation of IBC modules that runs as a CorDapp on Corda platform.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cosmos"
+    },
+    {
+      "context_snippet": "Corda-IBC is an implementation of IBC modules that runs as a CorDapp on Corda platform.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    }
+  ]
+}

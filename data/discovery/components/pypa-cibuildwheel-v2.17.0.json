@@ -1,12 +1,17 @@
 {
   "component": "pypa/cibuildwheel@v2.17.0",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/wheels.yml",
       "source_repo": "li-plus/chatglm.cpp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "miquelmassot/g2o-python"
     }
   ]
 }

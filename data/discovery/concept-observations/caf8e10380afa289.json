@@ -84,7 +84,7 @@
   "normalized_form": "bump-inference-defaults",
   "observation_id": "caf8e10380afa289",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Bump inference defaults",
   "source_context_snippet": "Bump inference defaults",
   "source_file": ".github/workflows/bump-inference-defaults.yml",

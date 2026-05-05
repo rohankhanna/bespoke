@@ -19,6 +19,18 @@
       "source_repo": "Kong/kubernetes-ingress-controller",
       "status": "candidate-context",
       "text": "[![kong-logo]][kong-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/ingress-nginx",
+      "status": "candidate-context",
+      "text": "Ingress NGINX Controller for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/ingress-nginx",
+      "status": "candidate-context",
+      "text": "[What You Need to Know about Ingress NGINX Retirement](https://www.kubernetes.io/blog/2025/11/11/ingress-nginx-retirement/):"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Kong/kubernetes-ingress-controller",
       "status": "candidate",
       "text": "[![kong-logo]][kong-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/ingress-nginx",
+      "status": "candidate",
+      "text": "[What You Need to Know about Ingress NGINX Retirement](https://www.kubernetes.io/blog/2025/11/11/ingress-nginx-retirement/):"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "Kong/kubernetes-ingress-controller"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes/ingress-nginx"
     }
   ],
   "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

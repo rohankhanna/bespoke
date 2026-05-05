@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Build Library"
+    "Build Library",
+    "Build library"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "srgtuszy/llama-cpp-swift",
       "status": "candidate-context",
       "text": "Build Library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "undreamai/LlamaLib",
+      "status": "candidate-context",
+      "text": "Cross-Platform High-Level LLM Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "undreamai/LlamaLib",
+      "status": "candidate-context",
+      "text": "Build library"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "srgtuszy/llama-cpp-swift",
       "status": "candidate",
       "text": "Build Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "undreamai/LlamaLib",
+      "status": "candidate",
+      "text": "Build library"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": ".github/workflows/build_library.yml",
       "source_repo": "srgtuszy/llama-cpp-swift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build_library.yaml",
+      "source_repo": "undreamai/LlamaLib"
     }
   ],
   "first_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

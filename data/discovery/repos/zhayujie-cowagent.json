@@ -271,11 +271,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T08:08:35.507548+00:00",
+  "fetched_at": "2026-05-05T15:01:46.699329+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 27610
+      "size": 27493
     },
     {
       "path": "Dockerfile",
@@ -287,7 +287,7 @@
     },
     {
       "path": "requirements.txt",
-      "size": 377
+      "size": 369
     },
     {
       "path": ".github/workflows/deploy-image-arm.yml",
@@ -307,8 +307,8 @@
     "full_name": "zhayujie/CowAgent",
     "html_url": "https://github.com/zhayujie/CowAgent",
     "language": "Python",
-    "pushed_at": "2026-05-05T06:53:43Z",
-    "stargazers_count": 44012,
+    "pushed_at": "2026-05-05T11:36:34Z",
+    "stargazers_count": 44021,
     "topics": [
       "ai",
       "ai-agent",
@@ -331,7 +331,7 @@
       "wechat",
       "weixin"
     ],
-    "updated_at": "2026-05-05T08:05:35Z"
+    "updated_at": "2026-05-05T14:21:35Z"
   },
   "repo_links": [
     {

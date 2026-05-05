@@ -1,0 +1,92 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "octopus-network/substrate-ibc",
+      "target": "cosmos/ics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "octopus-network/substrate-ibc",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "octopus-network/substrate-ibc",
+      "target": "Check Set-Up & Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "octopus-network/substrate-ibc",
+      "target": "substrate-pallet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:49:23.091564+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1570
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 104
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "size": 1633
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An IBC implementation on Substrate",
+    "fork": false,
+    "full_name": "octopus-network/substrate-ibc",
+    "html_url": "https://github.com/octopus-network/substrate-ibc",
+    "language": "Rust",
+    "pushed_at": "2024-03-06T07:01:05Z",
+    "stargazers_count": 92,
+    "topics": [
+      "ibc",
+      "substrate-pallet"
+    ],
+    "updated_at": "2025-08-14T07:29:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cosmos/ics",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check Set-Up & Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "term": "Check Set-Up & Build"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/pallet-ibc.svg)](https://crates.io/crates/pallet-ibc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "substrate-pallet"
+    }
+  ]
+}

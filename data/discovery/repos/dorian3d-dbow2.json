@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T13:52:12.575826+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4307
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Enhanced hierarchical bag-of-word library for C++",
+    "fork": false,
+    "full_name": "dorian3d/DBoW2",
+    "html_url": "https://github.com/dorian3d/DBoW2",
+    "language": "C++",
+    "pushed_at": "2021-11-24T11:28:16Z",
+    "stargazers_count": 943,
+    "topics": [],
+    "updated_at": "2026-04-25T20:35:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

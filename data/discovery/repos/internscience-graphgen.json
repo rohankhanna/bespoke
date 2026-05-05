@@ -79,13 +79,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "InternScience/GraphGen",
-      "target": "tpoisonooo/rograg",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "InternScience/GraphGen",
@@ -282,7 +275,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T07:05:23.826467+00:00",
+  "fetched_at": "2026-05-05T16:57:30.342677+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -370,11 +363,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "open-sciencelab/seedbench",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tpoisonooo/rograg",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "SMTscope automatically analyses and visualises SMT solver execution traces."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![SMTScope](smt-scope-gui/assets/html/logo_side_small.png \"SMTScope\")"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![SMTScope](smt-scope-gui/assets/html/logo_side_small.png \"SMTScope\")"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29957246,
+      "status": "candidate",
+      "text": "initiation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29954206,
+      "status": "candidate",
+      "text": "induction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19966206,
+      "status": "candidate",
+      "text": "creation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19966205,
+      "status": "candidate",
+      "text": "origination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19966204,
+      "status": "candidate",
+      "text": "identification"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "instantiation",
+      "sense_id": "instantiation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "instantiation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "instantiation",
+  "observation_id": "ccc3ad1fef65d5e6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "instantiation",
+  "source_context_snippet": "![SMTScope](smt-scope-gui/assets/html/logo_side_small.png \"SMTScope\")",
+  "source_file": null,
+  "source_repo": "viperproject/smt-scope",
+  "source_repo_description": "SMTscope automatically analyses and visualises SMT solver execution traces."
+}

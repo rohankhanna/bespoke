@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T15:46:45.209251+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 112
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "contains config files needed to run the jenkins task that builds the shavar lists",
+    "fork": false,
+    "full_name": "mozilla-services/shavar-list-creation-config",
+    "html_url": "https://github.com/mozilla-services/shavar-list-creation-config",
+    "language": null,
+    "pushed_at": "2025-03-05T22:09:01Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-03-30T18:01:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

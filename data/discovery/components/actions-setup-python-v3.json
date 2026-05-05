@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v3",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1227,6 +1227,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/workflow.yml",
       "source_repo": "ultrafunkamsterdam/undetected-chromedriver"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "NoakLiu/FastCache-xDiT"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "box2ai-robotics/robosuite-joycon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yaml",
+      "source_repo": "box2ai-robotics/robosuite-joycon"
     }
   ]
 }

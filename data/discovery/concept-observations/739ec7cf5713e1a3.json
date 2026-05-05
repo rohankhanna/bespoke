@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Quickstart template to get started writing your own cosmwasm contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Basic"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Basic"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042025,
+      "status": "candidate",
+      "text": "essential"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041507,
+      "status": "candidate",
+      "text": "first"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041386,
+      "status": "candidate",
+      "text": "primary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039655,
+      "status": "candidate",
+      "text": "elementary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039394,
+      "status": "candidate",
+      "text": "fundamental"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Basic",
+      "sense_id": "basic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 60042,
+      "status": "candidate",
+      "text": "essential"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 58114,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 52043,
+      "status": "candidate",
+      "text": "fundamental"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46076,
+      "status": "candidate",
+      "text": "standard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42061,
+      "status": "candidate",
+      "text": "radical"
+    }
+  ],
+  "concept_id": "basic",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "basic",
+  "observation_id": "739ec7cf5713e1a3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "Basic",
+  "source_context_snippet": "Basic",
+  "source_file": ".github/workflows/Basic.yml",
+  "source_repo": "CosmWasm/cw-template",
+  "source_repo_description": "Quickstart template to get started writing your own cosmwasm contracts"
+}

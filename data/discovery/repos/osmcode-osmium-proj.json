@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T17:05:03.722260+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 706
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for using PROJ 6 and above with Osmium",
+    "fork": false,
+    "full_name": "osmcode/osmium-proj",
+    "html_url": "https://github.com/osmcode/osmium-proj",
+    "language": "C++",
+    "pushed_at": "2021-11-22T16:08:32Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2021-11-22T16:08:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

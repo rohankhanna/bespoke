@@ -116,12 +116,12 @@
       "source_file": ".github/workflows/lint.yml"
     },
     {
-      "component": "/actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/sync-translations.yml"
     },
     {
-      "component": "crowdin/github-action@5587c43",
+      "component": "crowdin/github-action@5587c43063e52090026857d386174d2599ad323b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/sync-translations.yml"
     }
@@ -320,14 +320,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/sync-translations.yml",
       "source_repo": "all-contributors/allcontributors.org",
-      "target": "/actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/sync-translations.yml",
       "source_repo": "all-contributors/allcontributors.org",
-      "target": "crowdin/github-action@5587c43",
+      "target": "crowdin/github-action@5587c43063e52090026857d386174d2599ad323b",
       "target_type": "component"
     },
     {
@@ -387,7 +387,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T08:04:30.675465+00:00",
+  "fetched_at": "2026-05-05T16:02:23.860340+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -407,7 +407,7 @@
     },
     {
       "path": ".github/workflows/sync-translations.yml",
-      "size": 660
+      "size": 692
     }
   ],
   "related_repositories": [],
@@ -419,7 +419,7 @@
     "full_name": "all-contributors/allcontributors.org",
     "html_url": "https://github.com/all-contributors/allcontributors.org",
     "language": "MDX",
-    "pushed_at": "2026-05-01T06:22:31Z",
+    "pushed_at": "2026-05-05T08:45:47Z",
     "stargazers_count": 8037,
     "topics": [
       "acknowledgements",
@@ -430,7 +430,7 @@
       "opensource-management",
       "recognition"
     ],
-    "updated_at": "2026-05-03T17:09:37Z"
+    "updated_at": "2026-05-05T08:44:21Z"
   },
   "repo_links": [
     {

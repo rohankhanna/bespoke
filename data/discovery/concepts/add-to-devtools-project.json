@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Add to DevTools Project"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "near/near-sdk-rs",
+      "status": "candidate-context",
+      "text": "Rust library for writing NEAR smart contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-sdk-rs",
+      "status": "candidate-context",
+      "text": "'Add to DevTools Project'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "near/abi",
+      "status": "candidate-context",
+      "text": "NEAR contract schema and tooling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/abi",
+      "status": "candidate-context",
+      "text": "'Add to DevTools Project'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-sdk-rs",
+      "status": "candidate",
+      "text": "'Add to DevTools Project'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/abi",
+      "status": "candidate",
+      "text": "'Add to DevTools Project'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11636,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11636,
+      "status": "candidate",
+      "text": "era"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11636,
+      "status": "candidate",
+      "text": "flange"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11636,
+      "status": "candidate",
+      "text": "flanging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11636,
+      "status": "candidate",
+      "text": "friends"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Add to DevTools Project",
+  "concept_id": "add-to-devtools-project",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/add-to-devtools.yml",
+      "source_repo": "near/near-sdk-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/add-to-devtools.yml",
+      "source_repo": "near/abi"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add to DevTools Project",
+      "sense_id": "add-to-devtools-project#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

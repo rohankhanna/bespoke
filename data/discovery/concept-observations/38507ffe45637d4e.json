@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "SMTscope automatically analyses and visualises SMT solver execution traces."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![SMTScope](smt-scope-gui/assets/html/logo_side_small.png \"SMTScope\")"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![SMTScope](smt-scope-gui/assets/html/logo_side_small.png \"SMTScope\")"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035580,
+      "status": "candidate",
+      "text": "maxim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039377,
+      "status": "candidate",
+      "text": "postulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035475,
+      "status": "candidate",
+      "text": "premise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032806,
+      "status": "candidate",
+      "text": "principle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30025363,
+      "status": "candidate",
+      "text": "truism"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "axiom",
+      "sense_id": "axiom#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "maxim"
+    }
+  ],
+  "concept_id": "axiom",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "axiom",
+  "observation_id": "38507ffe45637d4e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "axiom",
+  "source_context_snippet": "![SMTScope](smt-scope-gui/assets/html/logo_side_small.png \"SMTScope\")",
+  "source_file": null,
+  "source_repo": "viperproject/smt-scope",
+  "source_repo_description": "SMTscope automatically analyses and visualises SMT solver execution traces."
+}

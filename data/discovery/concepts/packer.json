@@ -55,6 +55,18 @@
       "source_repo": "lavabit/robox",
       "status": "candidate-context",
       "text": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "myfreeer/chrome-pak-customizer",
+      "status": "candidate-context",
+      "text": "a simple command-line tool to pack and unpack pak files in chrome or chromium-based browser  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "myfreeer/chrome-pak-customizer",
+      "status": "candidate-context",
+      "text": "a simple batch tool to customize pak files in chrome or chromium-based browser"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "lavabit/robox",
       "status": "candidate",
       "text": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "myfreeer/chrome-pak-customizer",
+      "status": "candidate",
+      "text": "a simple batch tool to customize pak files in chrome or chromium-based browser"
     }
   ],
   "candidate_related_terms": [
@@ -163,11 +181,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "lavabit/robox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "myfreeer/chrome-pak-customizer"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -6,7 +6,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "foundry-rs/foundry-toolchain@8789b3e21e6c11b2697f5eb56eddae542f746c10",
+      "component": "foundry-rs/foundry-toolchain@c7450ba673e133f5ee30098b3b54f444d3a2ca2d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -16,7 +16,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "foundry-rs/foundry-toolchain@8789b3e21e6c11b2697f5eb56eddae542f746c10",
+      "component": "foundry-rs/foundry-toolchain@c7450ba673e133f5ee30098b3b54f444d3a2ca2d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -26,7 +26,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "foundry-rs/foundry-toolchain@8789b3e21e6c11b2697f5eb56eddae542f746c10",
+      "component": "foundry-rs/foundry-toolchain@c7450ba673e133f5ee30098b3b54f444d3a2ca2d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -36,7 +36,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "crate-ci/typos@cf5f1c29a8ac336af8568821ec41919923b05a83",
+      "component": "crate-ci/typos@7c572958218557a3272c2d6719629443b5cc26fd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -46,12 +46,12 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -78,28 +78,28 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "foundry-rs/forge-std",
-      "target": "foundry-rs/foundry-toolchain@8789b3e21e6c11b2697f5eb56eddae542f746c10",
+      "target": "foundry-rs/foundry-toolchain@c7450ba673e133f5ee30098b3b54f444d3a2ca2d",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "foundry-rs/forge-std",
-      "target": "crate-ci/typos@cf5f1c29a8ac336af8568821ec41919923b05a83",
+      "target": "crate-ci/typos@7c572958218557a3272c2d6719629443b5cc26fd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "foundry-rs/forge-std",
-      "target": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "foundry-rs/forge-std",
-      "target": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
       "target_type": "component"
     },
     {
@@ -166,7 +166,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T20:40:04.787268+00:00",
+  "fetched_at": "2026-05-05T15:59:12.304483+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -178,7 +178,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 4833
+      "size": 4886
     },
     {
       "path": ".github/workflows/sync.yml",
@@ -194,8 +194,8 @@
     "full_name": "foundry-rs/forge-std",
     "html_url": "https://github.com/foundry-rs/forge-std",
     "language": "Solidity",
-    "pushed_at": "2026-04-23T09:26:59Z",
-    "stargazers_count": 1030,
+    "pushed_at": "2026-05-05T11:19:46Z",
+    "stargazers_count": 1036,
     "topics": [
       "cheatcodes",
       "ethereum",
@@ -206,7 +206,7 @@
       "solidity",
       "std"
     ],
-    "updated_at": "2026-04-23T09:18:37Z"
+    "updated_at": "2026-05-05T12:34:10Z"
   },
   "repo_links": [],
   "terms": [

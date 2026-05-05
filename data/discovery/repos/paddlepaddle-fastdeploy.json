@@ -1,0 +1,306 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CheckPRTemplate.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CheckPRTemplate.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Codestyle-Check.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Codestyle-Check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CheckPRTemplate.yml",
+      "source_repo": "PaddlePaddle/FastDeploy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CheckPRTemplate.yml",
+      "source_repo": "PaddlePaddle/FastDeploy",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CheckPRTemplate.yml",
+      "source_repo": "PaddlePaddle/FastDeploy",
+      "target": "Check PR Template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Codestyle-Check.yml",
+      "source_repo": "PaddlePaddle/FastDeploy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Codestyle-Check.yml",
+      "source_repo": "PaddlePaddle/FastDeploy",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Codestyle-Check.yml",
+      "source_repo": "PaddlePaddle/FastDeploy",
+      "target": "Codestyle-Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_accuracy_test.yml",
+      "source_repo": "PaddlePaddle/FastDeploy",
+      "target": "Accuracy Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_base_test.yml",
+      "source_repo": "PaddlePaddle/FastDeploy",
+      "target": "Base Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build_linux.yml",
+      "source_repo": "PaddlePaddle/FastDeploy",
+      "target": "FastDeploy Linux GPU Build Task",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build_linux_cu129.yml",
+      "source_repo": "PaddlePaddle/FastDeploy",
+      "target": "FastDeploy Linux GPU Build Task",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build_linux_cu130.yml",
+      "source_repo": "PaddlePaddle/FastDeploy",
+      "target": "FastDeploy Linux GPU Build Task",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/FastDeploy",
+      "target": "ernie",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/FastDeploy",
+      "target": "ernie-45",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/FastDeploy",
+      "target": "ernie-45-vl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/FastDeploy",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/FastDeploy",
+      "target": "llm-serving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/FastDeploy",
+      "target": "serving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/FastDeploy",
+      "target": "vllm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:55:19.770790+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4740
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1416
+    },
+    {
+      "path": "requirements.txt",
+      "size": 922
+    },
+    {
+      "path": ".github/workflows/CheckPRTemplate.yml",
+      "size": 1406
+    },
+    {
+      "path": ".github/workflows/Codestyle-Check.yml",
+      "size": 1185
+    },
+    {
+      "path": ".github/workflows/_accuracy_test.yml",
+      "size": 9386
+    },
+    {
+      "path": ".github/workflows/_base_test.yml",
+      "size": 13633
+    },
+    {
+      "path": ".github/workflows/_build_linux.yml",
+      "size": 10412
+    },
+    {
+      "path": ".github/workflows/_build_linux_cu129.yml",
+      "size": 10152
+    },
+    {
+      "path": ".github/workflows/_build_linux_cu130.yml",
+      "size": 10164
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "High-performance Inference and Deployment Toolkit for LLMs and VLMs based on PaddlePaddle",
+    "fork": false,
+    "full_name": "PaddlePaddle/FastDeploy",
+    "html_url": "https://github.com/PaddlePaddle/FastDeploy",
+    "language": "Python",
+    "pushed_at": "2026-05-04T16:32:15Z",
+    "stargazers_count": 3680,
+    "topics": [
+      "ernie",
+      "ernie-45",
+      "ernie-45-vl",
+      "inference",
+      "llm",
+      "llm-serving",
+      "openai",
+      "serving",
+      "vllm"
+    ],
+    "updated_at": "2026-05-05T09:59:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check PR Template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CheckPRTemplate.yml",
+      "term": "Check PR Template"
+    },
+    {
+      "context_snippet": "Codestyle-Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Codestyle-Check.yml",
+      "term": "Codestyle-Check"
+    },
+    {
+      "context_snippet": "Accuracy Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_accuracy_test.yml",
+      "term": "Accuracy Test"
+    },
+    {
+      "context_snippet": "Base Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_base_test.yml",
+      "term": "Base Test"
+    },
+    {
+      "context_snippet": "FastDeploy Linux GPU Build Task",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build_linux.yml",
+      "term": "FastDeploy Linux GPU Build Task"
+    },
+    {
+      "context_snippet": "FastDeploy Linux GPU Build Task",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build_linux_cu129.yml",
+      "term": "FastDeploy Linux GPU Build Task"
+    },
+    {
+      "context_snippet": "FastDeploy Linux GPU Build Task",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build_linux_cu130.yml",
+      "term": "FastDeploy Linux GPU Build Task"
+    },
+    {
+      "context_snippet": "[English](README_EN.md) | \u7b80\u4f53\u4e2d\u6587",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ernie"
+    },
+    {
+      "context_snippet": "[English](README_EN.md) | \u7b80\u4f53\u4e2d\u6587",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ernie-45"
+    },
+    {
+      "context_snippet": "[English](README_EN.md) | \u7b80\u4f53\u4e2d\u6587",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ernie-45-vl"
+    },
+    {
+      "context_snippet": "[English](README_EN.md) | \u7b80\u4f53\u4e2d\u6587",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "[English](README_EN.md) | \u7b80\u4f53\u4e2d\u6587",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-serving"
+    },
+    {
+      "context_snippet": "[English](README_EN.md) | \u7b80\u4f53\u4e2d\u6587",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serving"
+    },
+    {
+      "context_snippet": "[English](README_EN.md) | \u7b80\u4f53\u4e2d\u6587",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vllm"
+    }
+  ]
+}

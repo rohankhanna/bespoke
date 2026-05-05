@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenStreetMap-Tools for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Espresso"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Espresso"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050100,
+      "status": "candidate",
+      "text": "coffee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20046138,
+      "status": "candidate",
+      "text": "cafe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20045228,
+      "status": "candidate",
+      "text": "coffeehouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20044387,
+      "status": "candidate",
+      "text": "caf\u00e9"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19894299,
+      "status": "candidate",
+      "text": "express"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Espresso",
+      "sense_id": "espresso#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "espresso",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "espresso",
+  "observation_id": "2ff18aa9074f5e5c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "Espresso",
+  "source_context_snippet": "Espresso",
+  "source_file": ".github/workflows/Espresso.yml",
+  "source_repo": "osmdroid/osmdroid",
+  "source_repo_description": "OpenStreetMap-Tools for Android"
+}

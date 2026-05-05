@@ -211,6 +211,42 @@
       "source_repo": "kosmtik/kosmtik",
       "status": "candidate-context",
       "text": "[![Join the chat at https://gitter.im/kosmtik/kosmtik](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kosmtik/kosmtik?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapsforge/vtm",
+      "status": "candidate-context",
+      "text": "OpenGL vector map library - running on Android, iOS, Desktop and browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapsforge/vtm",
+      "status": "candidate-context",
+      "text": "[![](https://jitpack.io/v/mapsforge/vtm.svg)](https://jitpack.io/#mapsforge/vtm)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "osmcode/osm-gis-export",
+      "status": "candidate-context",
+      "text": "Export OSM data to GIS formats like Shapefiles, Spatialite or PostGIS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmcode/osm-gis-export",
+      "status": "candidate-context",
+      "text": "This is some older code, not really maintained, but could be useful, so we"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapsforge/mapsforge",
+      "status": "candidate-context",
+      "text": "Vector map library and writer - running on Android and Desktop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapsforge/mapsforge",
+      "status": "candidate-context",
+      "text": "[![](https://jitpack.io/v/mapsforge/mapsforge.svg)](https://jitpack.io/#mapsforge/mapsforge)"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +351,24 @@
       "source_repo": "kosmtik/kosmtik",
       "status": "candidate",
       "text": "[![Join the chat at https://gitter.im/kosmtik/kosmtik](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kosmtik/kosmtik?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapsforge/vtm",
+      "status": "candidate",
+      "text": "[![](https://jitpack.io/v/mapsforge/vtm.svg)](https://jitpack.io/#mapsforge/vtm)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmcode/osm-gis-export",
+      "status": "candidate",
+      "text": "This is some older code, not really maintained, but could be useful, so we"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapsforge/mapsforge",
+      "status": "candidate",
+      "text": "[![](https://jitpack.io/v/mapsforge/mapsforge.svg)](https://jitpack.io/#mapsforge/mapsforge)"
     }
   ],
   "candidate_related_terms": [
@@ -466,11 +520,29 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "kosmtik/kosmtik"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "mapsforge/vtm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "osmcode/osm-gis-export"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "mapsforge/mapsforge"
     }
   ],
   "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

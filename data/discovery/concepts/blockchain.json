@@ -850,6 +850,54 @@
       "source_repo": "iov-one/iov-core",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.com/iov-one/iov-core.svg?token=evC2AgcwxuvHjXeBP3jq&branch=master)](https://travis-ci.com/iov-one/iov-core)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "near/near-sdk-rs",
+      "status": "candidate-context",
+      "text": "Rust library for writing NEAR smart contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-sdk-rs",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datachainlab/yui-relayer-build",
+      "status": "candidate-context",
+      "text": "IBC Relayer for heterogeneous blockchains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/yui-relayer-build",
+      "status": "candidate-context",
+      "text": "This repository provides a table of [IBC](https://github.com/cosmos/ibc) module combinations supported by [yui-relayer](https://github.com/hyperledger-labs/yui-relayer) and their E2E tests. The E2E tests are performed for each version of the yui-relayer."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyperledger-labs/yui-fabric-ibc",
+      "status": "candidate-context",
+      "text": "IBC implementation in Hyperledger Fabric"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-labs/yui-fabric-ibc",
+      "status": "candidate-context",
+      "text": "![Test](https://github.com/hyperledger-labs/yui-fabric-ibc/workflows/Test/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datachainlab/lcp",
+      "status": "candidate-context",
+      "text": "A proxy middleware for light client verification executed in TEE."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/lcp",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1272,6 +1320,30 @@
       "source_repo": "iov-one/iov-core",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.com/iov-one/iov-core.svg?token=evC2AgcwxuvHjXeBP3jq&branch=master)](https://travis-ci.com/iov-one/iov-core)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-sdk-rs",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/yui-relayer-build",
+      "status": "candidate",
+      "text": "This repository provides a table of [IBC](https://github.com/cosmos/ibc) module combinations supported by [yui-relayer](https://github.com/hyperledger-labs/yui-relayer) and their E2E tests. The E2E tests are performed for each version of the yui-relayer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-labs/yui-fabric-ibc",
+      "status": "candidate",
+      "text": "![Test](https://github.com/hyperledger-labs/yui-fabric-ibc/workflows/Test/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/lcp",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -2431,11 +2503,89 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "stx-labs/connect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "near/near-sdk-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/TypeChain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "lightning/bolts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "stx-labs/connect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "cosmos/ibc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "datachainlab/yui-relayer-build"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "hyperledger-labs/yui-fabric-ibc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "datachainlab/lcp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "NomicFoundation/hardhat"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

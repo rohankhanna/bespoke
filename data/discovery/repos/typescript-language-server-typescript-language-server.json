@@ -1,6 +1,11 @@
 {
   "components": [
     {
+      "component": "@eslint/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "@rollup/plugin-commonjs",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -82,6 +87,11 @@
     },
     {
       "component": "fs-extra",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "globals",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -181,7 +191,7 @@
       "source_file": "package.json"
     },
     {
-      "component": "actions/checkout@v5",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -191,12 +201,12 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "googleapis/release-please-action@v4",
+      "component": "googleapis/release-please-action@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml"
     },
     {
-      "component": "actions/checkout@v5",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml"
     },
@@ -206,12 +216,12 @@
       "source_file": ".github/workflows/release.yaml"
     },
     {
-      "component": "ytanikin/PRConventionalCommits@1.1.0",
+      "component": "ytanikin/PRConventionalCommits@1.3.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/semantic-commits.yaml"
     },
     {
-      "component": "actions/checkout@v5",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/size-limit.yaml"
     },
@@ -227,6 +237,13 @@
     }
   ],
   "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "typescript-language-server/typescript-language-server",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
     {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
@@ -344,6 +361,13 @@
       "source_file": "package.json",
       "source_repo": "typescript-language-server/typescript-language-server",
       "target": "fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "typescript-language-server/typescript-language-server",
+      "target": "globals",
       "target_type": "component"
     },
     {
@@ -483,7 +507,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "typescript-language-server/typescript-language-server",
-      "target": "actions/checkout@v5",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
@@ -497,14 +521,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "typescript-language-server/typescript-language-server",
-      "target": "googleapis/release-please-action@v4",
+      "target": "googleapis/release-please-action@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "typescript-language-server/typescript-language-server",
-      "target": "actions/checkout@v5",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
@@ -525,7 +549,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/semantic-commits.yaml",
       "source_repo": "typescript-language-server/typescript-language-server",
-      "target": "ytanikin/PRConventionalCommits@1.1.0",
+      "target": "ytanikin/PRConventionalCommits@1.3.0",
       "target_type": "component"
     },
     {
@@ -539,7 +563,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/size-limit.yaml",
       "source_repo": "typescript-language-server/typescript-language-server",
-      "target": "actions/checkout@v5",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
@@ -585,7 +609,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T13:01:04.006682+00:00",
+  "fetched_at": "2026-05-05T15:54:36.661868+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -593,11 +617,11 @@
     },
     {
       "path": "package.json",
-      "size": 2742
+      "size": 2799
     },
     {
       "path": ".github/workflows/ci.yaml",
-      "size": 895
+      "size": 822
     },
     {
       "path": ".github/workflows/release.yaml",
@@ -621,8 +645,8 @@
     "full_name": "typescript-language-server/typescript-language-server",
     "html_url": "https://github.com/typescript-language-server/typescript-language-server",
     "language": "TypeScript",
-    "pushed_at": "2026-04-29T09:52:58Z",
-    "stargazers_count": 2464,
+    "pushed_at": "2026-05-04T22:21:31Z",
+    "stargazers_count": 2467,
     "topics": [
       "hacktoberfest",
       "language-server",
@@ -630,7 +654,7 @@
       "lsp",
       "typescript"
     ],
-    "updated_at": "2026-05-03T13:00:49Z"
+    "updated_at": "2026-05-05T15:36:02Z"
   },
   "repo_links": [],
   "terms": [

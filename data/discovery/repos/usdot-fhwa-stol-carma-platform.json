@@ -1,0 +1,444 @@
+{
+  "components": [
+    {
+      "component": "usdot-fhwa-stol/actions/docker-org-and-tag@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Ci.yml"
+    },
+    {
+      "component": "usdot-fhwa-stol/actions/sonar-scanner@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Ci.yml"
+    },
+    {
+      "component": "usdot-fhwa-stol/actions/.github/workflows/docker.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "usdot-fhwa-stol/actions/.github/workflows/dockerhub.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml"
+    },
+    {
+      "component": "mattnotmitt/doxygen-action@v1.9.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_pages.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_pages.yml"
+    },
+    {
+      "component": "usdot-fhwa-stol/actions/.github/workflows/issue-notification.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-notification.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "usdot-fhwa-stol/carma-config",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "usdot-fhwa-stol/avt_vimba_camera",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "usdot-fhwa-stol/carma-delphi-srr2-driver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "usdot-fhwa-stol/carma-cloud",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Ci.yml",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "usdot-fhwa-stol/actions/docker-org-and-tag@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Ci.yml",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "actions/checkout@v3.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Ci.yml",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "usdot-fhwa-stol/actions/sonar-scanner@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Ci.yml",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "CI: Run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "usdot-fhwa-stol/actions/.github/workflows/docker.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "Docker build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "usdot-fhwa-stol/actions/.github/workflows/dockerhub.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "Docker Hub build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "mattnotmitt/doxygen-action@v1.9.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doxygen.yml",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "Doxygen Action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_pages.yml",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_pages.yml",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "actions/configure-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_pages.yml",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_pages.yml",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_pages.yml",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github_pages.yml",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "Deploy to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-notification.yml",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "usdot-fhwa-stol/actions/.github/workflows/issue-notification.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-notification.yml",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "Issue Notification Dispatcher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "automated-vehicles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "autonomous-vehicles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "cooperative-driving-automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "target": "self-driving",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:54:53.698728+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16547
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3100
+    },
+    {
+      "path": ".github/workflows/Ci.yml",
+      "size": 3920
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 469
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 252
+    },
+    {
+      "path": ".github/workflows/dockerhub.yml",
+      "size": 538
+    },
+    {
+      "path": ".github/workflows/doxygen.yml",
+      "size": 2395
+    },
+    {
+      "path": ".github/workflows/github_pages.yml",
+      "size": 1179
+    },
+    {
+      "path": ".github/workflows/issue-notification.yml",
+      "size": 198
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "CARMA Platform is built on robot operating system (ROS) and utilizes open source software (OSS) that enables Cooperative Driving Automation (CDA) features to allow Automated Driving Systems to interact and cooperate with infrastructure and other vehicles through communication. Doxygen Source Code Documentation :",
+    "fork": false,
+    "full_name": "usdot-fhwa-stol/carma-platform",
+    "html_url": "https://github.com/usdot-fhwa-stol/carma-platform",
+    "language": "C++",
+    "pushed_at": "2026-04-17T13:14:20Z",
+    "stargazers_count": 431,
+    "topics": [
+      "automated-vehicles",
+      "autonomous-driving",
+      "autonomous-vehicles",
+      "cooperative-driving-automation",
+      "cpp",
+      "open-source",
+      "ros",
+      "self-driving"
+    ],
+    "updated_at": "2026-04-30T16:34:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "usdot-fhwa-stol/avt_vimba_camera",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "usdot-fhwa-stol/carma-cloud",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "usdot-fhwa-stol/carma-config",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "usdot-fhwa-stol/carma-delphi-srr2-driver",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CI: Run tests\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Ci.yml",
+      "term": "CI: Run tests"
+    },
+    {
+      "context_snippet": "Docker build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Docker build"
+    },
+    {
+      "context_snippet": "Docker Hub build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "term": "Docker Hub build"
+    },
+    {
+      "context_snippet": "Doxygen Action",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doxygen.yml",
+      "term": "Doxygen Action"
+    },
+    {
+      "context_snippet": "Deploy to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github_pages.yml",
+      "term": "Deploy to GitHub Pages"
+    },
+    {
+      "context_snippet": "Issue Notification Dispatcher",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-notification.yml",
+      "term": "Issue Notification Dispatcher"
+    },
+    {
+      "context_snippet": "| DockerHub Image Build | Unit Tests Workflow | Sonar Code Quality |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automated-vehicles"
+    },
+    {
+      "context_snippet": "| DockerHub Image Build | Unit Tests Workflow | Sonar Code Quality |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "| DockerHub Image Build | Unit Tests Workflow | Sonar Code Quality |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-vehicles"
+    },
+    {
+      "context_snippet": "| DockerHub Image Build | Unit Tests Workflow | Sonar Code Quality |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cooperative-driving-automation"
+    },
+    {
+      "context_snippet": "| DockerHub Image Build | Unit Tests Workflow | Sonar Code Quality |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "| DockerHub Image Build | Unit Tests Workflow | Sonar Code Quality |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-driving"
+    }
+  ]
+}

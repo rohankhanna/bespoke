@@ -1,0 +1,292 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_version_check.yml"
+    },
+    {
+      "component": "dblock/create-a-github-issue@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_version_check.yml"
+    },
+    {
+      "component": "dblock/create-a-github-issue@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_version_check.yml"
+    },
+    {
+      "component": "dblock/create-a-github-issue@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_version_check.yml"
+    },
+    {
+      "component": "dblock/create-a-github-issue@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_version_check.yml"
+    },
+    {
+      "component": "actions/create-release@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-on-tag.yml"
+    },
+    {
+      "component": "actions/stale@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "target": "gcarq/inox-patchset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "target": "pf4public/gentoo-overlay",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "target": "ungoogled-software/contrib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "target": "leo-lb/ungoogled-chromium",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_version_check.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_version_check.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "target": "dblock/create-a-github-issue@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new_version_check.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "target": "New version check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-on-tag.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "target": "actions/create-release@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-on-tag.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "target": "Create new empty release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "target": "actions/stale@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "target": "chromium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "target": "control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "target": "google-chromium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "target": "inox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "target": "iridium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "target": "privacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "target": "transparency",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:04:35.074928+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12219
+    },
+    {
+      "path": ".github/workflows/new_version_check.yml",
+      "size": 4692
+    },
+    {
+      "path": ".github/workflows/release-on-tag.yml",
+      "size": 455
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 857
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Google Chromium, sans integration with Google",
+    "fork": false,
+    "full_name": "ungoogled-software/ungoogled-chromium",
+    "html_url": "https://github.com/ungoogled-software/ungoogled-chromium",
+    "language": "Python",
+    "pushed_at": "2026-04-30T11:41:26Z",
+    "stargazers_count": 26461,
+    "topics": [
+      "chromium",
+      "control",
+      "google-chromium",
+      "inox",
+      "iridium",
+      "privacy",
+      "transparency"
+    ],
+    "updated_at": "2026-05-05T15:28:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gcarq/inox-patchset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leo-lb/ungoogled-chromium",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pf4public/gentoo-overlay",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ungoogled-software/contrib",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "New version check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new_version_check.yml",
+      "term": "New version check"
+    },
+    {
+      "context_snippet": "Create new empty release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-on-tag.yml",
+      "term": "Create new empty release"
+    },
+    {
+      "context_snippet": "'Close stale issues and PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "*A lightweight approach to removing Google web service dependency*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromium"
+    },
+    {
+      "context_snippet": "*A lightweight approach to removing Google web service dependency*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "control"
+    },
+    {
+      "context_snippet": "*A lightweight approach to removing Google web service dependency*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-chromium"
+    },
+    {
+      "context_snippet": "*A lightweight approach to removing Google web service dependency*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inox"
+    },
+    {
+      "context_snippet": "*A lightweight approach to removing Google web service dependency*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iridium"
+    },
+    {
+      "context_snippet": "*A lightweight approach to removing Google web service dependency*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privacy"
+    },
+    {
+      "context_snippet": "*A lightweight approach to removing Google web service dependency*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transparency"
+    }
+  ]
+}

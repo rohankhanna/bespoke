@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T16:48:57.140235+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1941
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Improved Lua 5.3 syntax and indentation support for Vim",
+    "fork": false,
+    "full_name": "tbastos/vim-lua",
+    "html_url": "https://github.com/tbastos/vim-lua",
+    "language": "Vim script",
+    "pushed_at": "2022-03-09T19:53:43Z",
+    "stargazers_count": 121,
+    "topics": [],
+    "updated_at": "2025-01-19T19:06:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

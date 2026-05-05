@@ -84,7 +84,7 @@
   "normalized_form": "nef-compilation",
   "observation_id": "4038e61c169cad91",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "nef Compilation",
   "source_context_snippet": "nef Compilation",
   "source_file": ".github/workflows/nef-compile.yml",

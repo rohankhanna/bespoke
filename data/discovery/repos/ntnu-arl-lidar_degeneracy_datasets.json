@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ntnu-arl/lidar_degeneracy_datasets",
+      "target": "ntnu-arl/ouster-ros",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ntnu-arl/lidar_degeneracy_datasets",
+      "target": "inertial-navigation-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ntnu-arl/lidar_degeneracy_datasets",
+      "target": "lidar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ntnu-arl/lidar_degeneracy_datasets",
+      "target": "lidar-degeneracy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ntnu-arl/lidar_degeneracy_datasets",
+      "target": "odometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ntnu-arl/lidar_degeneracy_datasets",
+      "target": "radar",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T13:52:30.361798+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4113
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LiDAR degeneracy dataset for LiDAR-radar-inertial fusion methods.",
+    "fork": false,
+    "full_name": "ntnu-arl/lidar_degeneracy_datasets",
+    "html_url": "https://github.com/ntnu-arl/lidar_degeneracy_datasets",
+    "language": null,
+    "pushed_at": "2026-02-03T12:49:37Z",
+    "stargazers_count": 196,
+    "topics": [
+      "imu",
+      "inertial-navigation-systems",
+      "lidar",
+      "lidar-degeneracy",
+      "odometry",
+      "radar"
+    ],
+    "updated_at": "2026-04-23T12:35:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ntnu-arl/ouster-ros",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Dataset associated with submission for handling LiDAR-degenerative environments through LiDAR-radar-inertial fusion with factor graphs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inertial-navigation-systems"
+    },
+    {
+      "context_snippet": "Dataset associated with submission for handling LiDAR-degenerative environments through LiDAR-radar-inertial fusion with factor graphs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar"
+    },
+    {
+      "context_snippet": "Dataset associated with submission for handling LiDAR-degenerative environments through LiDAR-radar-inertial fusion with factor graphs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-degeneracy"
+    },
+    {
+      "context_snippet": "Dataset associated with submission for handling LiDAR-degenerative environments through LiDAR-radar-inertial fusion with factor graphs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "odometry"
+    },
+    {
+      "context_snippet": "Dataset associated with submission for handling LiDAR-degenerative environments through LiDAR-radar-inertial fusion with factor graphs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "radar"
+    }
+  ]
+}

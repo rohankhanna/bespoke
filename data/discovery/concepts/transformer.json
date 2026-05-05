@@ -1429,6 +1429,18 @@
       "source_repo": "lucidrains/linear-attention-transformer",
       "status": "candidate-context",
       "text": "<img src=\"./linear-attention.png\" width=\"700px\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hila-chefer/Transformer-MM-Explainability",
+      "status": "candidate-context",
+      "text": "[ICCV 2021- Oral] Official PyTorch implementation for Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers, a novel method to visualize any Transformer-based network. Including examples for DETR, VQA."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hila-chefer/Transformer-MM-Explainability",
+      "status": "candidate-context",
+      "text": "[ICCV 2021- Oral] PyTorch Implementation of `Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers <https://arxiv.org/abs/2103.15679>`_"
     }
   ],
   "candidate_glosses": [
@@ -2145,6 +2157,12 @@
       "source_repo": "lucidrains/linear-attention-transformer",
       "status": "candidate",
       "text": "<img src=\"./linear-attention.png\" width=\"700px\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hila-chefer/Transformer-MM-Explainability",
+      "status": "candidate",
+      "text": "[ICCV 2021- Oral] PyTorch Implementation of `Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers <https://arxiv.org/abs/2103.15679>`_"
     }
   ],
   "candidate_related_terms": [
@@ -3706,11 +3724,71 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "LiyuanLucasLiu/Transformer-Clinic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DAB-DETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SparseTransformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SphereFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "megvii-research/MOTR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "hila-chefer/Transformer-MM-Explainability"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "axelspringer/DeepPhonemizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "LiyuanLucasLiu/Transformer-Clinic"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

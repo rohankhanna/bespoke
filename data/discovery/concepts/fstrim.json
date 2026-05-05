@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "fstrim"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alex313031/TrImLy",
+      "status": "candidate-context",
+      "text": "fstrim automator and defrag script for ChomiumOS "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/TrImLy",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/Alex313031/TrImLy/main/trimly.svg\" width=\"128\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/TrImLy",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/Alex313031/TrImLy/main/trimly.svg\" width=\"128\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "fstrim",
+  "concept_id": "fstrim",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/TrImLy"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fstrim",
+      "sense_id": "fstrim#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

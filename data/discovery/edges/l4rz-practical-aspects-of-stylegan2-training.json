@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "l4rz/practical-aspects-of-stylegan2-training",
+      "target": "tzutalin/labelimg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "l4rz/practical-aspects-of-stylegan2-training",
+      "target": "datitran/raccoon_dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "l4rz/practical-aspects-of-stylegan2-training",
+      "target": "aodiwei/tensorflow-object-detection-api-for-face-detcetion",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "l4rz/practical-aspects-of-stylegan2-training"
+}

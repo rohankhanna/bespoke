@@ -1780,6 +1780,30 @@
       "source_repo": "danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin",
       "status": "candidate-context",
       "text": "Create static and interactive data visualisations for reports, repos, and data storytelling \u2014 prioritising a curated inventory of open-source tools."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Claude-Deep-Research-Model",
+      "status": "candidate-context",
+      "text": "Repo model for an iterative deep research model with voice pipeline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Deep-Research-Model",
+      "status": "candidate-context",
+      "text": "[![Claude Code](https://img.shields.io/badge/Claude-Code-8A2BE2?logo=anthropic&logoColor=white)](https://claude.ai/claude-code)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dora-rs/dora",
+      "status": "candidate-context",
+      "text": "DORA (Dataflow-Oriented Robotic Architecture) is middleware designed to streamline and simplify the creation of AI-based robotic applications. It offers low latency, composable, and distributed dataflow capabilities. Applications are modeled as directed graphs, also referred to as pipelines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dora-rs/dora",
+      "status": "candidate-context",
+      "text": "Claude Code"
     }
   ],
   "candidate_glosses": [
@@ -2664,6 +2688,18 @@
       "source_repo": "danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin",
       "status": "candidate",
       "text": "Create static and interactive data visualisations for reports, repos, and data storytelling \u2014 prioritising a curated inventory of open-source tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Deep-Research-Model",
+      "status": "candidate",
+      "text": "[![Claude Code](https://img.shields.io/badge/Claude-Code-8A2BE2?logo=anthropic&logoColor=white)](https://claude.ai/claude-code)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dora-rs/dora",
+      "status": "candidate",
+      "text": "Claude Code"
     }
   ],
   "candidate_related_terms": [
@@ -5077,11 +5113,95 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Deep-Research-Model"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/claude-code.yml",
+      "source_repo": "dora-rs/dora"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "vibrantlabsai/ragas"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "flagos-ai/FlagScale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "xojs/xo"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

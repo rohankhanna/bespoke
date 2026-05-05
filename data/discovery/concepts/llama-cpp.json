@@ -127,6 +127,30 @@
       "source_repo": "SciSharp/LLamaSharp",
       "status": "candidate-context",
       "text": "![logo](Assets/LLamaSharpLogo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "undreamai/LlamaLib",
+      "status": "candidate-context",
+      "text": "Cross-Platform High-Level LLM Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "undreamai/LlamaLib",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "undreamai/LLMUnity",
+      "status": "candidate-context",
+      "text": "Create characters in Unity with LLMs!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "undreamai/LLMUnity",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "SciSharp/LLamaSharp",
       "status": "candidate",
       "text": "![logo](Assets/LLamaSharpLogo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "undreamai/LlamaLib",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "undreamai/LLMUnity",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -298,11 +334,29 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "undreamai/LlamaLib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "undreamai/LLMUnity"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

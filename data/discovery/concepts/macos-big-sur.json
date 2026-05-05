@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "macos-big-sur"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joseluisq/macosx-sdks",
+      "status": "candidate-context",
+      "text": "Some Mac OS X SDKs for development purposes with osxcross."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/macosx-sdks",
+      "status": "candidate-context",
+      "text": "> Some Mac OS X SDKs for development purposes with [osxcross](https://github.com/tpoechtrager/osxcross) (a macOS Cross toolchain for Linux and BSDs)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/macosx-sdks",
+      "status": "candidate",
+      "text": "> Some Mac OS X SDKs for development purposes with [osxcross](https://github.com/tpoechtrager/osxcross) (a macOS Cross toolchain for Linux and BSDs)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "macos-big-sur",
+  "concept_id": "macos-big-sur",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "joseluisq/macosx-sdks"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "macos-big-sur",
+      "sense_id": "macos-big-sur#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

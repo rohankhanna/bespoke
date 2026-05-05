@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish OBI Docker Generator Image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish OBI Docker Generator Image"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20694,
+      "status": "candidate",
+      "text": "satin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18096,
+      "status": "candidate",
+      "text": "black"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17667,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17621,
+      "status": "candidate",
+      "text": "compound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17616,
+      "status": "candidate",
+      "text": "disperse"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish OBI Docker Generator Image",
+      "sense_id": "publish-obi-docker-generator-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-obi-docker-generator-image",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-obi-docker-generator-image",
+  "observation_id": "f8920589c637adf6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "Publish OBI Docker Generator Image",
+  "source_context_snippet": "Publish OBI Docker Generator Image",
+  "source_file": ".github/workflows/generator-image.yml",
+  "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+  "source_repo_description": null
+}

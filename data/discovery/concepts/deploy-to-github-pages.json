@@ -441,6 +441,30 @@
       "source_repo": "d3/d3-geo-polygon",
       "status": "candidate-context",
       "text": "\ud83c\udf89 Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "status": "candidate-context",
+      "text": "A library that converts GeoTIFFs geokeys to Proj4 string"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "status": "candidate-context",
+      "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "status": "candidate-context",
+      "text": "CARMA Platform is built on robot operating system (ROS) and utilizes open source software (OSS) that enables Cooperative Driving Automation (CDA) features to allow Automated Driving Systems to interact and cooperate with infrastructure and other vehicles through communication. Doxygen Source Code Documentation :"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "status": "candidate-context",
+      "text": "Deploy to GitHub Pages"
     }
   ],
   "candidate_glosses": [
@@ -665,6 +689,18 @@
       "source_repo": "d3/d3-geo-polygon",
       "status": "candidate",
       "text": "\ud83c\udf89 Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "status": "candidate",
+      "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/carma-platform",
+      "status": "candidate",
+      "text": "Deploy to GitHub Pages"
     }
   ],
   "candidate_related_terms": [
@@ -1110,11 +1146,35 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "beam-community/elixir-companies"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/website-deploy.yml",
+      "source_repo": "meta-pytorch/captum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "beam-community/elixir-companies"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/github_pages.yml",
+      "source_repo": "usdot-fhwa-stol/carma-platform"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

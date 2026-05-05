@@ -120,7 +120,7 @@
   "normalized_form": "ruff",
   "observation_id": "873b498aca4eae99",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Ruff",
   "source_context_snippet": "Ruff",
   "source_file": ".github/workflows/ruff-format.yml",

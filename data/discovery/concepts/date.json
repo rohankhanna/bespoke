@@ -103,6 +103,42 @@
       "source_repo": "js-joda/js-joda",
       "status": "candidate-context",
       "text": "[![npm version](https://badge.fury.io/js/%40js-joda%2Fcore.svg)](https://badge.fury.io/js/%40js-joda%2Fcore)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agenda/human-interval",
+      "status": "candidate-context",
+      "text": "Human readable time distances for javascript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agenda/human-interval",
+      "status": "candidate-context",
+      "text": "Human-readable interval parser for Javascript."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clauderic/react-infinite-calendar",
+      "status": "candidate-context",
+      "text": "\u2728 Infinite scrolling date-picker built with React, with localization, range selection, themes, keyboard support, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clauderic/react-infinite-calendar",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iamkun/dayjs",
+      "status": "candidate-context",
+      "text": "\u23f0 Day.js 2kB immutable date-time library alternative to Moment.js with the same modern API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamkun/dayjs",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./docs/zh-cn/README.zh-CN.md) | [\u65e5\u672c\u8a9e](./docs/ja/README-ja.md) | [Portugu\u00eas Brasileiro](./docs/pt-br/README-pt-br.md) | [\ud55c\uad6d\uc5b4](./docs/ko/README-ko.md) | [Espa\u00f1ol (Espa\u00f1a)](./docs/es-es/README-es-es.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](./docs/ru/README-ru.md) | [T\u00fcrk\u00e7e](./docs/tr/READM\u2026"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +189,24 @@
       "source_repo": "js-joda/js-joda",
       "status": "candidate",
       "text": "[![npm version](https://badge.fury.io/js/%40js-joda%2Fcore.svg)](https://badge.fury.io/js/%40js-joda%2Fcore)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agenda/human-interval",
+      "status": "candidate",
+      "text": "Human-readable interval parser for Javascript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clauderic/react-infinite-calendar",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamkun/dayjs",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./docs/zh-cn/README.zh-CN.md) | [\u65e5\u672c\u8a9e](./docs/ja/README-ja.md) | [Portugu\u00eas Brasileiro](./docs/pt-br/README-pt-br.md) | [\ud55c\uad6d\uc5b4](./docs/ko/README-ko.md) | [Espa\u00f1ol (Espa\u00f1a)](./docs/es-es/README-es-es.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](./docs/ru/README-ru.md) | [T\u00fcrk\u00e7e](./docs/tr/READM\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -280,11 +334,29 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "js-joda/js-joda"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "agenda/human-interval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "clauderic/react-infinite-calendar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "iamkun/dayjs"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

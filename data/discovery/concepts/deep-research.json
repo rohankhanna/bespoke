@@ -79,6 +79,18 @@
       "source_repo": "imfangs/langgraph4j-deep-researcher",
       "status": "candidate-context",
       "text": "A deep research assistant based on the Langgraph4j framework with iterative deep research capabilities."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Claude-Deep-Research-Model",
+      "status": "candidate-context",
+      "text": "Repo model for an iterative deep research model with voice pipeline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Deep-Research-Model",
+      "status": "candidate-context",
+      "text": "[![Claude Code](https://img.shields.io/badge/Claude-Code-8A2BE2?logo=anthropic&logoColor=white)](https://claude.ai/claude-code)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "imfangs/langgraph4j-deep-researcher",
       "status": "candidate",
       "text": "A deep research assistant based on the Langgraph4j framework with iterative deep research capabilities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Deep-Research-Model",
+      "status": "candidate",
+      "text": "[![Claude Code](https://img.shields.io/badge/Claude-Code-8A2BE2?logo=anthropic&logoColor=white)](https://claude.ai/claude-code)"
     }
   ],
   "candidate_related_terms": [],
@@ -346,11 +364,29 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "Alibaba-NLP/DeepResearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Deep-Research-Model"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/ms-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Alibaba-NLP/DeepResearch"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rdb/panda3d-thirdparty",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rdb/panda3d-thirdparty",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rdb/panda3d-thirdparty",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T13:53:46.143075+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1450
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 5012
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Scripts to build the thirdparty packages for Panda3D",
+    "fork": false,
+    "full_name": "rdb/panda3d-thirdparty",
+    "html_url": "https://github.com/rdb/panda3d-thirdparty",
+    "language": "Python",
+    "pushed_at": "2026-02-26T21:25:19Z",
+    "stargazers_count": 42,
+    "topics": [],
+    "updated_at": "2026-02-26T21:25:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous Integration"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TheRobotStudio/SO-ARM100",
+      "target": "vector-wangel/xlerobot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TheRobotStudio/SO-ARM100",
+      "target": "kotakku/ft_scservo_debug_qt",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:53:36.769554+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25852
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Standard Open Arm 100",
+    "fork": false,
+    "full_name": "TheRobotStudio/SO-ARM100",
+    "html_url": "https://github.com/TheRobotStudio/SO-ARM100",
+    "language": null,
+    "pushed_at": "2026-02-26T14:29:08Z",
+    "stargazers_count": 6196,
+    "topics": [],
+    "updated_at": "2026-05-05T13:08:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kotakku/ft_scservo_debug_qt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vector-wangel/xlerobot",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

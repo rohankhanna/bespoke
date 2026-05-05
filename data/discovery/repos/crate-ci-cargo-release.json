@@ -465,7 +465,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T00:39:10.915147+00:00",
+  "fetched_at": "2026-05-05T15:56:25.359247+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -517,14 +517,14 @@
     "full_name": "crate-ci/cargo-release",
     "html_url": "https://github.com/crate-ci/cargo-release",
     "language": "Rust",
-    "pushed_at": "2026-05-02T00:34:05Z",
-    "stargazers_count": 1552,
+    "pushed_at": "2026-05-05T09:18:49Z",
+    "stargazers_count": 1554,
     "topics": [
       "cargo",
       "cargo-subcommand",
       "rust"
     ],
-    "updated_at": "2026-05-02T00:34:11Z"
+    "updated_at": "2026-05-05T10:37:52Z"
   },
   "repo_links": [
     {

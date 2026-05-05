@@ -84,7 +84,7 @@
   "normalized_form": "ecosystem-ci-trigger",
   "observation_id": "fa9ea5866d116b62",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "ecosystem-ci trigger",
   "source_context_snippet": "ecosystem-ci trigger",
   "source_file": ".github/workflows/ecosystem-ci-trigger.yml",

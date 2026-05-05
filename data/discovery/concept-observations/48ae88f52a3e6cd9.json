@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Dapp, Seth, Hevm, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Hello!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Hello!"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18468009,
+      "status": "candidate",
+      "text": "duffield"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18468008,
+      "status": "candidate",
+      "text": "derwent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18468007,
+      "status": "candidate",
+      "text": "hays"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18468006,
+      "status": "candidate",
+      "text": "abee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18468005,
+      "status": "candidate",
+      "text": "dunmore"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dapp",
+      "sense_id": "dapp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dapp",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dapp",
+  "observation_id": "48ae88f52a3e6cd9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "dapp",
+  "source_context_snippet": "Hello!",
+  "source_file": null,
+  "source_repo": "dapphub/dapptools",
+  "source_repo_description": "Dapp, Seth, Hevm, and more"
+}

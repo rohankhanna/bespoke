@@ -67,6 +67,18 @@
       "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright-python",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Vinyzu/Botright",
+      "status": "candidate-context",
+      "text": "Botright, the most advance undetected, fingerprint-changing, captcha-solving, open-source automation framework. Build on Playwright, its as easy to use as it is to extend your code. Solving your Captchas for free with AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vinyzu/Botright",
+      "status": "candidate-context",
+      "text": "![Tests & Linting](https://github.com/Vinyzu/botright/actions/workflows/ci.yml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright-python",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vinyzu/Botright",
+      "status": "candidate",
+      "text": "![Tests & Linting](https://github.com/Vinyzu/botright/actions/workflows/ci.yml/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Vinyzu/Botright"
     }
   ],
   "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

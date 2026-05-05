@@ -226,6 +226,18 @@
       "source_repo": "gakonst/foundry",
       "status": "candidate-context",
       "text": "dependencies"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paradigmxyz/solar",
+      "status": "candidate-context",
+      "text": "Blazingly fast, modular and contributor friendly Solidity compiler, written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paradigmxyz/solar",
+      "status": "candidate-context",
+      "text": "Dependencies"
     }
   ],
   "candidate_glosses": [
@@ -336,6 +348,12 @@
       "source_repo": "gakonst/foundry",
       "status": "candidate",
       "text": "dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paradigmxyz/solar",
+      "status": "candidate",
+      "text": "Dependencies"
     }
   ],
   "candidate_related_terms": [
@@ -733,11 +751,29 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/dependencies.yml",
       "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "paradigmxyz/solar"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

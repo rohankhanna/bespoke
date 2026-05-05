@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arangrhie/T2T-Polish",
+      "target": "kishwarshafin/t2t_polishing_scripts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arangrhie/T2T-Polish",
+      "target": "ablab/veritymap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arangrhie/T2T-Polish",
+      "target": "isovic/racon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arangrhie/T2T-Polish",
+      "target": "arangrhie/merfin",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T13:49:50.454018+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2456
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Evaluation and polishing workflows for T2T genome assemblies",
+    "fork": false,
+    "full_name": "arangrhie/T2T-Polish",
+    "html_url": "https://github.com/arangrhie/T2T-Polish",
+    "language": "Shell",
+    "pushed_at": "2026-04-17T00:15:03Z",
+    "stargazers_count": 152,
+    "topics": [],
+    "updated_at": "2026-04-30T06:43:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ablab/veritymap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arangrhie/merfin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "isovic/racon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kishwarshafin/t2t_polishing_scripts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

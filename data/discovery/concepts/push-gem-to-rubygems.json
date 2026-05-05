@@ -55,6 +55,30 @@
       "source_repo": "mbj/unparser",
       "status": "candidate-context",
       "text": "Push gem to RubyGems"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dkubb/equalizer",
+      "status": "candidate-context",
+      "text": "Define equality, equivalency and hash methods automatically"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dkubb/equalizer",
+      "status": "candidate-context",
+      "text": "Push gem to RubyGems"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dkubb/memoizable",
+      "status": "candidate-context",
+      "text": "Memoize method return values"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dkubb/memoizable",
+      "status": "candidate-context",
+      "text": "Push gem to RubyGems"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +103,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mbj/unparser",
+      "status": "candidate",
+      "text": "Push gem to RubyGems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dkubb/equalizer",
+      "status": "candidate",
+      "text": "Push gem to RubyGems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dkubb/memoizable",
       "status": "candidate",
       "text": "Push gem to RubyGems"
     }
@@ -148,11 +184,23 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/gem_push.yml",
       "source_repo": "mbj/unparser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "dkubb/equalizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "dkubb/memoizable"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

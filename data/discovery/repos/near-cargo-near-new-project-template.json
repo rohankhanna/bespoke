@@ -1,0 +1,197 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-production.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-staging.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/undeploy-staging.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "near/cargo-near-new-project-template",
+      "target": "near/near-devcontainers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "near/cargo-near-new-project-template",
+      "target": "njelich/cargo-near-new-project-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "near/cargo-near-new-project-template",
+      "target": "near/neps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-production.yml",
+      "source_repo": "near/cargo-near-new-project-template",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-production.yml",
+      "source_repo": "near/cargo-near-new-project-template",
+      "target": "Deploy to production",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-staging.yml",
+      "source_repo": "near/cargo-near-new-project-template",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-staging.yml",
+      "source_repo": "near/cargo-near-new-project-template",
+      "target": "Deploy to staging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "near/cargo-near-new-project-template",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "near/cargo-near-new-project-template",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/undeploy-staging.yml",
+      "source_repo": "near/cargo-near-new-project-template",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/undeploy-staging.yml",
+      "source_repo": "near/cargo-near-new-project-template",
+      "target": "Undeploy staging",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T15:58:21.870347+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2540
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2155
+    },
+    {
+      "path": ".github/workflows/deploy-production.yml",
+      "size": 864
+    },
+    {
+      "path": ".github/workflows/deploy-staging.yml",
+      "size": 2779
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 926
+    },
+    {
+      "path": ".github/workflows/undeploy-staging.yml",
+      "size": 1280
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "scaffold project, which is part of `cargo-near` as `cargo near new` command",
+    "fork": false,
+    "full_name": "near/cargo-near-new-project-template",
+    "html_url": "https://github.com/near/cargo-near-new-project-template",
+    "language": "Rust",
+    "pushed_at": "2026-04-29T05:11:37Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-03-11T19:33:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "near/near-devcontainers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "njelich/cargo-near-new-project-template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "near/neps",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy to production",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-production.yml",
+      "term": "Deploy to production"
+    },
+    {
+      "context_snippet": "Deploy to staging",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-staging.yml",
+      "term": "Deploy to staging"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Undeploy staging",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/undeploy-staging.yml",
+      "term": "Undeploy staging"
+    }
+  ]
+}

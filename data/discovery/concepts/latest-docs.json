@@ -31,6 +31,18 @@
       "source_repo": "sigsep/sigsep-mus-db",
       "status": "candidate-context",
       "text": "Latest docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigsep/sigsep-mus-eval",
+      "status": "candidate-context",
+      "text": "museval - source separation evaluation tools for python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigsep/sigsep-mus-eval",
+      "status": "candidate-context",
+      "text": "Latest docs"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "sigsep/sigsep-mus-db",
+      "status": "candidate",
+      "text": "Latest docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigsep/sigsep-mus-eval",
       "status": "candidate",
       "text": "Latest docs"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/test_docs.yml",
       "source_repo": "sigsep/sigsep-mus-db"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "sigsep/sigsep-mus-eval"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

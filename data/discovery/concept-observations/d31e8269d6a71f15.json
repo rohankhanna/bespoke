@@ -84,7 +84,7 @@
   "normalized_form": "benchmarking",
   "observation_id": "d31e8269d6a71f15",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "benchmarking",
   "source_context_snippet": "Library for easy and nice (micro) benchmarking in Elixir. Benchee allows you to compare the performance of different pieces of code at a glance. It is also versatile and extensible, relying only on functions. There are also a bunch of [plugins](#plugins) to draw pretty graphs an\u2026",
   "source_file": null,

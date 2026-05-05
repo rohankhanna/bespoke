@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v5",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -8432,6 +8432,121 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/run-integration-tests.yml",
       "source_repo": "ai-dynamo/aiperf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Zulko/moviepy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "box2ai-robotics/lerobot-joycon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_future.yml",
+      "source_repo": "petercorke/robotics-toolbox-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dora-rs/dora"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/canary.yml",
+      "source_repo": "tlaplus-community/tree-sitter-tlaplus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tlaplus-community/tree-sitter-tlaplus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tlaplus-community/tree-sitter-tlaplus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "aliyun-sls/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "apache/doris-opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "miquelmassot/g2o-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "miquelmassot/g2o-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "koide3/small_gicp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "koide3/small_gicp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/github_pages.yml",
+      "source_repo": "usdot-fhwa-stol/carma-platform"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-kimi-cli.yml",
+      "source_repo": "MoonshotAI/kimi-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-kimi-sdk.yml",
+      "source_repo": "MoonshotAI/kimi-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-kosong.yml",
+      "source_repo": "MoonshotAI/kimi-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-pykaos.yml",
+      "source_repo": "MoonshotAI/kimi-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-kimi-cli.yml",
+      "source_repo": "MoonshotAI/kimi-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-pypi.yaml",
+      "source_repo": "box2ai-robotics/robosuite-joycon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "petercorke/spatialmath-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "petercorke/spatialmath-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yml",
+      "source_repo": "petercorke/spatialmath-python"
     }
   ]
 }

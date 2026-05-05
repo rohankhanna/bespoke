@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T13:53:03.375647+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5972
+    },
+    {
+      "path": "requirements.txt",
+      "size": 176
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open Source project to help predict Pulmonary Fibrosis from CT scans and clinical data. ",
+    "fork": false,
+    "full_name": "darwinai/FibrosisNet",
+    "html_url": "https://github.com/darwinai/FibrosisNet",
+    "language": "Python",
+    "pushed_at": "2021-05-26T19:36:12Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2026-04-10T01:28:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,202 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Vinyzu/chrome-fingerprints",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Vinyzu/chrome-fingerprints",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Vinyzu/chrome-fingerprints",
+      "target": "Tests & Linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vinyzu/chrome-fingerprints",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vinyzu/chrome-fingerprints",
+      "target": "botright",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vinyzu/chrome-fingerprints",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vinyzu/chrome-fingerprints",
+      "target": "data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vinyzu/chrome-fingerprints",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vinyzu/chrome-fingerprints",
+      "target": "fingerprinting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vinyzu/chrome-fingerprints",
+      "target": "fingerprints",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vinyzu/chrome-fingerprints",
+      "target": "fingerprints-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vinyzu/chrome-fingerprints",
+      "target": "playwright",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T17:04:50.380739+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2706
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 514
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 594
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Collection of 10.000 collected Windows Chrome Fingerprints. Usable with an easy-to-use API, available as a compressed (lzma) or full-size Json (view Releases). Its just 1.4mb in size in compressed form, and fast in read times.",
+    "fork": false,
+    "full_name": "Vinyzu/chrome-fingerprints",
+    "html_url": "https://github.com/Vinyzu/chrome-fingerprints",
+    "language": "Python",
+    "pushed_at": "2024-12-22T21:37:25Z",
+    "stargazers_count": 274,
+    "topics": [
+      "automation",
+      "botright",
+      "browser",
+      "data",
+      "dataset",
+      "fingerprinting",
+      "fingerprints",
+      "fingerprints-generator",
+      "playwright"
+    ],
+    "updated_at": "2026-05-02T17:51:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests & Linting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests & Linting"
+    },
+    {
+      "context_snippet": "![Tests & Linting](https://github.com/Vinyzu/chrome-fingerprints/actions/workflows/tests.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "![Tests & Linting](https://github.com/Vinyzu/chrome-fingerprints/actions/workflows/tests.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "botright"
+    },
+    {
+      "context_snippet": "![Tests & Linting](https://github.com/Vinyzu/chrome-fingerprints/actions/workflows/tests.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "![Tests & Linting](https://github.com/Vinyzu/chrome-fingerprints/actions/workflows/tests.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data"
+    },
+    {
+      "context_snippet": "![Tests & Linting](https://github.com/Vinyzu/chrome-fingerprints/actions/workflows/tests.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "![Tests & Linting](https://github.com/Vinyzu/chrome-fingerprints/actions/workflows/tests.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fingerprinting"
+    },
+    {
+      "context_snippet": "![Tests & Linting](https://github.com/Vinyzu/chrome-fingerprints/actions/workflows/tests.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fingerprints"
+    },
+    {
+      "context_snippet": "![Tests & Linting](https://github.com/Vinyzu/chrome-fingerprints/actions/workflows/tests.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fingerprints-generator"
+    },
+    {
+      "context_snippet": "![Tests & Linting](https://github.com/Vinyzu/chrome-fingerprints/actions/workflows/tests.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "playwright"
+    }
+  ]
+}

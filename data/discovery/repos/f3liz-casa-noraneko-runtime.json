@@ -273,21 +273,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "f3liz-casa/noraneko-runtime",
-      "target": "hsivonen/any_all_workaround",
+      "target": "servo/unicode-bidi",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "f3liz-casa/noraneko-runtime",
-      "target": "hsivonen/chardetng",
+      "target": "hsivonen/chardetng_c",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "f3liz-casa/noraneko-runtime",
-      "target": "glandium/allocator-api2",
+      "target": "mozilla/midir",
       "target_type": "repository"
     },
     {
@@ -578,7 +578,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T00:47:33.800274+00:00",
+  "fetched_at": "2026-05-05T16:04:52.810747+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -643,17 +643,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "glandium/allocator-api2",
+      "full_name": "hsivonen/chardetng_c",
       "source_file": "Cargo.toml"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "hsivonen/any_all_workaround",
+      "full_name": "mozilla/midir",
       "source_file": "Cargo.toml"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "hsivonen/chardetng",
+      "full_name": "servo/unicode-bidi",
       "source_file": "Cargo.toml"
     }
   ],

@@ -103,6 +103,30 @@
       "source_repo": "abhiTronix/vidgear",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "koide3/fast_gicp",
+      "status": "candidate-context",
+      "text": "A collection of GICP-based fast point cloud registration algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koide3/fast_gicp",
+      "status": "candidate-context",
+      "text": "We released [small_gicp](https://github.com/koide3/small_gicp) that is twice as fast as fast_gicp and with minimum dependencies and clean interfaces."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "koide3/ndt_omp",
+      "status": "candidate-context",
+      "text": "Multi-threaded and SSE friendly NDT algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koide3/ndt_omp",
+      "status": "candidate-context",
+      "text": "This package provides an OpenMP-boosted Normal Distributions Transform (and GICP) algorithm derived from pcl. The NDT algorithm is modified to be SSE-friendly and multi-threaded. It can run up to 10 times faster than its original version in pcl."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "abhiTronix/vidgear",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koide3/fast_gicp",
+      "status": "candidate",
+      "text": "We released [small_gicp](https://github.com/koide3/small_gicp) that is twice as fast as fast_gicp and with minimum dependencies and clean interfaces."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koide3/ndt_omp",
+      "status": "candidate",
+      "text": "This package provides an OpenMP-boosted Normal Distributions Transform (and GICP) algorithm derived from pcl. The NDT algorithm is modified to be SSE-friendly and multi-threaded. It can run up to 10 times faster than its original version in pcl."
     }
   ],
   "candidate_related_terms": [
@@ -346,11 +382,29 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/ForkUnion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/ForkUnion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "koide3/fast_gicp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "koide3/ndt_omp"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

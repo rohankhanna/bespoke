@@ -1,0 +1,398 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.15",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml"
+    },
+    {
+      "component": "SimenB/github-actions-cpu-cores@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml"
+    },
+    {
+      "component": "SimenB/github-actions-cpu-cores@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml"
+    },
+    {
+      "component": "SimenB/github-actions-cpu-cores@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.15",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml"
+    },
+    {
+      "component": "SimenB/github-actions-cpu-cores@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml"
+    },
+    {
+      "component": "SimenB/github-actions-cpu-cores@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml"
+    },
+    {
+      "component": "SimenB/github-actions-cpu-cores@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "undreamai/LlamaLib",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "undreamai/LlamaLib",
+      "target": "undreamai/llmunity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml",
+      "source_repo": "undreamai/LlamaLib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml",
+      "source_repo": "undreamai/LlamaLib",
+      "target": "Jimver/cuda-toolkit@v0.2.15",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml",
+      "source_repo": "undreamai/LlamaLib",
+      "target": "SimenB/github-actions-cpu-cores@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml",
+      "source_repo": "undreamai/LlamaLib",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml",
+      "source_repo": "undreamai/LlamaLib",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml",
+      "source_repo": "undreamai/LlamaLib",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_library.yaml",
+      "source_repo": "undreamai/LlamaLib",
+      "target": "Build library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "undreamai/LlamaLib",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "undreamai/LlamaLib",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "undreamai/LlamaLib",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "undreamai/LlamaLib",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "undreamai/LlamaLib",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "undreamai/LlamaLib",
+      "target": "ggml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "undreamai/LlamaLib",
+      "target": "gguf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "undreamai/LlamaLib",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "undreamai/LlamaLib",
+      "target": "llama-cpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "undreamai/LlamaLib",
+      "target": "llm-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "undreamai/LlamaLib",
+      "target": "local-llm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:50:34.611103+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8139
+    },
+    {
+      "path": ".github/workflows/build_library.yaml",
+      "size": 26470
+    },
+    {
+      "path": ".github/workflows/documentation.yml",
+      "size": 659
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Cross-Platform High-Level LLM Library",
+    "fork": false,
+    "full_name": "undreamai/LlamaLib",
+    "html_url": "https://github.com/undreamai/LlamaLib",
+    "language": "C++",
+    "pushed_at": "2026-03-08T21:18:45Z",
+    "stargazers_count": 57,
+    "topics": [
+      "ai",
+      "ai-agent",
+      "chatbot",
+      "cpp",
+      "csharp",
+      "ggml",
+      "gguf",
+      "llama",
+      "llama-cpp",
+      "llm",
+      "llm-inference",
+      "local-llm",
+      "nlp"
+    ],
+    "updated_at": "2026-05-01T00:28:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "undreamai/llmunity",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build library",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_library.yaml",
+      "term": "Build library"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ggml"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gguf"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama-cpp"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-inference"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "local-llm"
+    }
+  ]
+}

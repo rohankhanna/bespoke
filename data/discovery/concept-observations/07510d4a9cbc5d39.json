@@ -84,7 +84,7 @@
   "normalized_form": "cancel-stale-runs",
   "observation_id": "07510d4a9cbc5d39",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Cancel stale runs",
   "source_context_snippet": "Cancel stale runs",
   "source_file": ".github/workflows/cancel.yml",

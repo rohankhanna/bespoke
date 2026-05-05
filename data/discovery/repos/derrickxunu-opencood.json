@@ -1,0 +1,195 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DerrickXuNu/OpenCOOD",
+      "target": "derrickxunu/cobevt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DerrickXuNu/OpenCOOD",
+      "target": "derrickxunu/mpda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DerrickXuNu/OpenCOOD",
+      "target": "derrickxunu/model_anostic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DerrickXuNu/OpenCOOD",
+      "target": "jinlong17/v2vlc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/OpenCOOD",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/OpenCOOD",
+      "target": "collaborative-perception",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/OpenCOOD",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/OpenCOOD",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/OpenCOOD",
+      "target": "multi-agent-perception",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/OpenCOOD",
+      "target": "multi-agent-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/OpenCOOD",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/OpenCOOD",
+      "target": "simulations",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T13:53:32.915427+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20721
+    },
+    {
+      "path": "requirements.txt",
+      "size": 178
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICRA 2022] An opensource framework for cooperative detection. Official implementation for OPV2V.",
+    "fork": false,
+    "full_name": "DerrickXuNu/OpenCOOD",
+    "html_url": "https://github.com/DerrickXuNu/OpenCOOD",
+    "language": "Python",
+    "pushed_at": "2024-08-17T05:45:28Z",
+    "stargazers_count": 807,
+    "topics": [
+      "autonomous-driving",
+      "collaborative-perception",
+      "computer-vision",
+      "deep-learning",
+      "multi-agent-perception",
+      "multi-agent-systems",
+      "pytorch",
+      "simulations"
+    ],
+    "updated_at": "2026-05-05T00:09:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "derrickxunu/cobevt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "derrickxunu/model_anostic",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "derrickxunu/mpda",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jinlong17/v2vlc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "collaborative-perception"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent-perception"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent-systems"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulations"
+    }
+  ]
+}

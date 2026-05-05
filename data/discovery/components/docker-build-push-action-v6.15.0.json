@@ -1,0 +1,17 @@
+{
+  "component": "docker/build-push-action@v6.15.0",
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/component-build-images.yml",
+      "source_repo": "aliyun-sls/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/component-build-images.yml",
+      "source_repo": "apache/doris-opentelemetry-demo"
+    }
+  ]
+}

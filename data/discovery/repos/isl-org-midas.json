@@ -30,7 +30,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T01:46:53.107674+00:00",
+  "fetched_at": "2026-05-05T15:02:09.584137+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -51,13 +51,13 @@
     "html_url": "https://github.com/isl-org/MiDaS",
     "language": "Python",
     "pushed_at": "2024-08-23T10:21:06Z",
-    "stargazers_count": 5378,
+    "stargazers_count": 5381,
     "topics": [
       "deeplearning",
       "monocular-depth-estimation",
       "single-image-depth-prediction"
     ],
-    "updated_at": "2026-05-03T21:25:32Z"
+    "updated_at": "2026-05-05T14:32:24Z"
   },
   "repo_links": [
     {

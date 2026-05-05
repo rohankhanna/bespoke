@@ -637,6 +637,18 @@
       "source_repo": "zihangJiang/TokenLabeling",
       "status": "candidate-context",
       "text": "This is a Pytorch implementation of our paper."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "status": "candidate-context",
+      "text": "[CoRL2022] CoBEVT: Cooperative Bird's Eye View Semantic Segmentation with Sparse Transformers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "status": "candidate-context",
+      "text": "[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2207.02202.pdf)"
     }
   ],
   "candidate_glosses": [
@@ -957,6 +969,12 @@
       "source_repo": "zihangJiang/TokenLabeling",
       "status": "candidate",
       "text": "This is a Pytorch implementation of our paper."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DerrickXuNu/CoBEVT",
+      "status": "candidate",
+      "text": "[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2207.02202.pdf)"
     }
   ],
   "candidate_related_terms": [
@@ -1798,11 +1816,53 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "JIA-Lab-research/LISA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/PFENet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "khanrc/tcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "MrGiovanni/UNetPlusPlus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LISA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "DerrickXuNu/CoBEVT"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

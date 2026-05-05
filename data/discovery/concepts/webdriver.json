@@ -235,6 +235,12 @@
       "source_repo": "ultrafunkamsterdam/undetected-chromedriver",
       "status": "candidate-context",
       "text": "https://github.com/ultrafunkamsterdam/undetected-chromedriver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HMaker/HMaker.github.io",
+      "status": "candidate-context",
+      "text": "This repo includes some experiments I want to host on github pages."
     }
   ],
   "candidate_glosses": [
@@ -351,6 +357,12 @@
       "source_repo": "ultrafunkamsterdam/undetected-chromedriver",
       "status": "candidate",
       "text": "https://github.com/ultrafunkamsterdam/undetected-chromedriver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HMaker/HMaker.github.io",
+      "status": "candidate",
+      "text": "This repo includes some experiments I want to host on github pages."
     }
   ],
   "candidate_related_terms": [],
@@ -478,11 +490,29 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "ultrafunkamsterdam/undetected-chromedriver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "clj-commons/etaoin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ttlns/Selenium-Driverless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "HMaker/HMaker.github.io"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,149 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fletcher/MultiMarkdown-6",
+      "target": "fletcher/multimarkdown-4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fletcher/MultiMarkdown-6",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fletcher/MultiMarkdown-6",
+      "target": "Makefile CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fletcher/MultiMarkdown-6",
+      "target": "html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fletcher/MultiMarkdown-6",
+      "target": "latex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fletcher/MultiMarkdown-6",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fletcher/MultiMarkdown-6",
+      "target": "markdown-parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fletcher/MultiMarkdown-6",
+      "target": "multimarkdown",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:50:11.104947+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13293
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 899
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "This project is now deprecated.  Please use MultiMarkdown-7 instead!",
+    "fork": false,
+    "full_name": "fletcher/MultiMarkdown-6",
+    "html_url": "https://github.com/fletcher/MultiMarkdown-6",
+    "language": "C",
+    "pushed_at": "2025-10-30T11:45:22Z",
+    "stargazers_count": 680,
+    "topics": [
+      "html",
+      "latex",
+      "markdown",
+      "markdown-parsing",
+      "mmd",
+      "multimarkdown"
+    ],
+    "updated_at": "2026-04-25T15:23:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fletcher/multimarkdown-4",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Makefile CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Makefile CI"
+    },
+    {
+      "context_snippet": "| | |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html"
+    },
+    {
+      "context_snippet": "| | |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "latex"
+    },
+    {
+      "context_snippet": "| | |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "| | |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown-parsing"
+    },
+    {
+      "context_snippet": "| | |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimarkdown"
+    }
+  ]
+}

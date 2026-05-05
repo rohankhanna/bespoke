@@ -84,7 +84,7 @@
   "normalized_form": "pr-autoassignment",
   "observation_id": "fc922a8dbc9ba282",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "PR autoassignment",
   "source_context_snippet": "PR autoassignment",
   "source_file": ".github/workflows/autoassign-prs.yml",

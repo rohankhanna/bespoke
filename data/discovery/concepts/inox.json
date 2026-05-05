@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "inox"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "status": "candidate-context",
+      "text": "Google Chromium, sans integration with Google"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "status": "candidate-context",
+      "text": "*A lightweight approach to removing Google web service dependency*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "status": "candidate",
+      "text": "*A lightweight approach to removing Google web service dependency*"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020001,
+      "status": "candidate",
+      "text": "stainless steel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020000,
+      "status": "candidate",
+      "text": "stainless"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019999,
+      "status": "candidate",
+      "text": "iron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019998,
+      "status": "candidate",
+      "text": "argentan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019997,
+      "status": "candidate",
+      "text": "silver steel"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "inox",
+  "concept_id": "inox",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "inox",
+      "sense_id": "inox#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datachainlab/yui-relayer-build",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datachainlab/yui-relayer-build",
+      "target": "cosmos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datachainlab/yui-relayer-build",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datachainlab/yui-relayer-build",
+      "target": "hyperledger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datachainlab/yui-relayer-build",
+      "target": "tendermint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T15:58:52.262382+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13591
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "IBC Relayer for heterogeneous blockchains",
+    "fork": false,
+    "full_name": "datachainlab/yui-relayer-build",
+    "html_url": "https://github.com/datachainlab/yui-relayer-build",
+    "language": null,
+    "pushed_at": "2026-03-30T07:44:01Z",
+    "stargazers_count": 8,
+    "topics": [
+      "blockchain",
+      "cosmos",
+      "ethereum",
+      "hyperledger",
+      "ibc",
+      "tendermint"
+    ],
+    "updated_at": "2024-05-09T01:16:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository provides a table of [IBC](https://github.com/cosmos/ibc) module combinations supported by [yui-relayer](https://github.com/hyperledger-labs/yui-relayer) and their E2E tests. The E2E tests are performed for each version of the yui-relayer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "This repository provides a table of [IBC](https://github.com/cosmos/ibc) module combinations supported by [yui-relayer](https://github.com/hyperledger-labs/yui-relayer) and their E2E tests. The E2E tests are performed for each version of the yui-relayer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cosmos"
+    },
+    {
+      "context_snippet": "This repository provides a table of [IBC](https://github.com/cosmos/ibc) module combinations supported by [yui-relayer](https://github.com/hyperledger-labs/yui-relayer) and their E2E tests. The E2E tests are performed for each version of the yui-relayer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "This repository provides a table of [IBC](https://github.com/cosmos/ibc) module combinations supported by [yui-relayer](https://github.com/hyperledger-labs/yui-relayer) and their E2E tests. The E2E tests are performed for each version of the yui-relayer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperledger"
+    },
+    {
+      "context_snippet": "This repository provides a table of [IBC](https://github.com/cosmos/ibc) module combinations supported by [yui-relayer](https://github.com/hyperledger-labs/yui-relayer) and their E2E tests. The E2E tests are performed for each version of the yui-relayer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tendermint"
+    }
+  ]
+}

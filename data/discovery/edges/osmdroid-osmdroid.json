@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "osmdroid/osmdroid",
+      "target": "mkergall/osmbonuspack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "osmdroid/osmdroid",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "osmdroid/osmdroid",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "osmdroid/osmdroid",
+      "target": "malinskiy/action-android/install-sdk@release/0.1.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Espresso.yml",
+      "source_repo": "osmdroid/osmdroid",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Espresso.yml",
+      "source_repo": "osmdroid/osmdroid",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Espresso.yml",
+      "source_repo": "osmdroid/osmdroid",
+      "target": "malinskiy/action-android/install-sdk@release/0.1.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Espresso.yml",
+      "source_repo": "osmdroid/osmdroid",
+      "target": "malinskiy/action-android/emulator-run-cmd@release/0.1.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Espresso.yml",
+      "source_repo": "osmdroid/osmdroid",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Espresso.yml",
+      "source_repo": "osmdroid/osmdroid",
+      "target": "Espresso",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-gradle-wrapper.yml",
+      "source_repo": "osmdroid/osmdroid",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-gradle-wrapper.yml",
+      "source_repo": "osmdroid/osmdroid",
+      "target": "gradle-update/update-gradle-wrapper-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-gradle-wrapper.yml",
+      "source_repo": "osmdroid/osmdroid",
+      "target": "Update Gradle Wrapper",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "osmdroid/osmdroid"
+}

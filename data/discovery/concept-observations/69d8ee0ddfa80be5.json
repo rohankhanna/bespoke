@@ -84,7 +84,7 @@
   "normalized_form": "build-and-coverage",
   "observation_id": "69d8ee0ddfa80be5",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T00:36:37.683079+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Build and Coverage",
   "source_context_snippet": "Build and Coverage",
   "source_file": ".github/workflows/go.yml",

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T12:40:23.498047+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 538
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Create fancy, chrome-look-alike settings for your Chrome or Safari extension in minutes!",
+    "fork": false,
+    "full_name": "frankkohlhepp/fancy-settings",
+    "html_url": "https://github.com/frankkohlhepp/fancy-settings",
+    "language": "JavaScript",
+    "pushed_at": "2026-02-01T19:28:50Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-02-01T19:28:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

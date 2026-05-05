@@ -5,6 +5,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "xlite-dev/Awesome-DiT-Inference",
+      "target": "prathebaselva/fora",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xlite-dev/Awesome-DiT-Inference",
       "target": "liewfeng/teacache",
       "target_type": "repository"
     },
@@ -12,14 +19,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "xlite-dev/Awesome-DiT-Inference",
-      "target": "opensparsellms/skip-dit",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "xlite-dev/Awesome-DiT-Inference",
-      "target": "noakliu/fastcache-xdit",
+      "target": "roblox/smoothcache",
       "target_type": "repository"
     },
     {
@@ -100,7 +100,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T08:09:22.335139+00:00",
+  "fetched_at": "2026-05-05T15:02:26.816583+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -147,12 +147,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "noakliu/fastcache-xdit",
+      "full_name": "prathebaselva/fora",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "opensparsellms/skip-dit",
+      "full_name": "roblox/smoothcache",
       "source_file": "README.md"
     }
   ],

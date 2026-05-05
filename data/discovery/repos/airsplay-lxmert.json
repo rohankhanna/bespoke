@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "airsplay/lxmert",
+      "target": "lil-lab/nlvr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "airsplay/lxmert",
+      "target": "yukezhu/visual7w-toolkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "airsplay/lxmert",
+      "target": "hengyuan-hu/bottom-up-attention-vqa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "airsplay/lxmert",
+      "target": "huggingface/pytorch-transformers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:55:47.227808+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 35778
+    },
+    {
+      "path": "requirements.txt",
+      "size": 240
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch code for EMNLP 2019 paper \"LXMERT: Learning Cross-Modality Encoder Representations from Transformers\".",
+    "fork": false,
+    "full_name": "airsplay/lxmert",
+    "html_url": "https://github.com/airsplay/lxmert",
+    "language": "Python",
+    "pushed_at": "2022-10-22T00:05:56Z",
+    "stargazers_count": 967,
+    "topics": [],
+    "updated_at": "2026-04-13T14:46:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hengyuan-hu/bottom-up-attention-vqa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/pytorch-transformers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lil-lab/nlvr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yukezhu/visual7w-toolkit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,337 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TheZoraiz/ascii-image-converter",
+      "target": "fogleman/gg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TheZoraiz/ascii-image-converter",
+      "target": "disintegration/imaging",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TheZoraiz/ascii-image-converter",
+      "target": "gookit/color",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TheZoraiz/ascii-image-converter",
+      "target": "makeworld-the-better-one/dither",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TheZoraiz/ascii-image-converter",
+      "target": "ascii",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TheZoraiz/ascii-image-converter",
+      "target": "ascii-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TheZoraiz/ascii-image-converter",
+      "target": "ascii-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TheZoraiz/ascii-image-converter",
+      "target": "ascii-image-converter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TheZoraiz/ascii-image-converter",
+      "target": "braille",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TheZoraiz/ascii-image-converter",
+      "target": "braille-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TheZoraiz/ascii-image-converter",
+      "target": "braille-patterns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TheZoraiz/ascii-image-converter",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TheZoraiz/ascii-image-converter",
+      "target": "command-line-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TheZoraiz/ascii-image-converter",
+      "target": "converts-images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TheZoraiz/ascii-image-converter",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TheZoraiz/ascii-image-converter",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TheZoraiz/ascii-image-converter",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TheZoraiz/ascii-image-converter",
+      "target": "image-to-ascii",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TheZoraiz/ascii-image-converter",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TheZoraiz/ascii-image-converter",
+      "target": "snap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TheZoraiz/ascii-image-converter",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TheZoraiz/ascii-image-converter",
+      "target": "terminal-app",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:53:50.133185+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15793
+    },
+    {
+      "path": "go.mod",
+      "size": 1329
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A cross-platform command-line tool to convert images into ascii art and print them on the console. Now supports braille art!",
+    "fork": false,
+    "full_name": "TheZoraiz/ascii-image-converter",
+    "html_url": "https://github.com/TheZoraiz/ascii-image-converter",
+    "language": "Go",
+    "pushed_at": "2024-04-14T19:34:21Z",
+    "stargazers_count": 3306,
+    "topics": [
+      "ascii",
+      "ascii-art",
+      "ascii-image",
+      "ascii-image-converter",
+      "braille",
+      "braille-art",
+      "braille-patterns",
+      "cli",
+      "command-line",
+      "command-line-tool",
+      "converts-images",
+      "cross-platform",
+      "gif",
+      "golang",
+      "image-processing",
+      "image-to-ascii",
+      "linux",
+      "snap",
+      "terminal",
+      "terminal-app"
+    ],
+    "updated_at": "2026-05-05T14:40:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "disintegration/imaging",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fogleman/gg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gookit/color",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "makeworld-the-better-one/dither",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![release-version](https://img.shields.io/github/v/release/TheZoraiz/ascii-image-converter?label=Latest%20Version)](https://github.com/TheZoraiz/ascii-image-converter/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ascii"
+    },
+    {
+      "context_snippet": "[![release-version](https://img.shields.io/github/v/release/TheZoraiz/ascii-image-converter?label=Latest%20Version)](https://github.com/TheZoraiz/ascii-image-converter/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ascii-art"
+    },
+    {
+      "context_snippet": "[![release-version](https://img.shields.io/github/v/release/TheZoraiz/ascii-image-converter?label=Latest%20Version)](https://github.com/TheZoraiz/ascii-image-converter/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ascii-image"
+    },
+    {
+      "context_snippet": "[![release-version](https://img.shields.io/github/v/release/TheZoraiz/ascii-image-converter?label=Latest%20Version)](https://github.com/TheZoraiz/ascii-image-converter/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ascii-image-converter"
+    },
+    {
+      "context_snippet": "[![release-version](https://img.shields.io/github/v/release/TheZoraiz/ascii-image-converter?label=Latest%20Version)](https://github.com/TheZoraiz/ascii-image-converter/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "braille"
+    },
+    {
+      "context_snippet": "[![release-version](https://img.shields.io/github/v/release/TheZoraiz/ascii-image-converter?label=Latest%20Version)](https://github.com/TheZoraiz/ascii-image-converter/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "braille-art"
+    },
+    {
+      "context_snippet": "[![release-version](https://img.shields.io/github/v/release/TheZoraiz/ascii-image-converter?label=Latest%20Version)](https://github.com/TheZoraiz/ascii-image-converter/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "braille-patterns"
+    },
+    {
+      "context_snippet": "[![release-version](https://img.shields.io/github/v/release/TheZoraiz/ascii-image-converter?label=Latest%20Version)](https://github.com/TheZoraiz/ascii-image-converter/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "[![release-version](https://img.shields.io/github/v/release/TheZoraiz/ascii-image-converter?label=Latest%20Version)](https://github.com/TheZoraiz/ascii-image-converter/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-tool"
+    },
+    {
+      "context_snippet": "[![release-version](https://img.shields.io/github/v/release/TheZoraiz/ascii-image-converter?label=Latest%20Version)](https://github.com/TheZoraiz/ascii-image-converter/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "converts-images"
+    },
+    {
+      "context_snippet": "[![release-version](https://img.shields.io/github/v/release/TheZoraiz/ascii-image-converter?label=Latest%20Version)](https://github.com/TheZoraiz/ascii-image-converter/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "[![release-version](https://img.shields.io/github/v/release/TheZoraiz/ascii-image-converter?label=Latest%20Version)](https://github.com/TheZoraiz/ascii-image-converter/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![release-version](https://img.shields.io/github/v/release/TheZoraiz/ascii-image-converter?label=Latest%20Version)](https://github.com/TheZoraiz/ascii-image-converter/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "[![release-version](https://img.shields.io/github/v/release/TheZoraiz/ascii-image-converter?label=Latest%20Version)](https://github.com/TheZoraiz/ascii-image-converter/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-ascii"
+    },
+    {
+      "context_snippet": "[![release-version](https://img.shields.io/github/v/release/TheZoraiz/ascii-image-converter?label=Latest%20Version)](https://github.com/TheZoraiz/ascii-image-converter/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "[![release-version](https://img.shields.io/github/v/release/TheZoraiz/ascii-image-converter?label=Latest%20Version)](https://github.com/TheZoraiz/ascii-image-converter/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snap"
+    },
+    {
+      "context_snippet": "[![release-version](https://img.shields.io/github/v/release/TheZoraiz/ascii-image-converter?label=Latest%20Version)](https://github.com/TheZoraiz/ascii-image-converter/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "[![release-version](https://img.shields.io/github/v/release/TheZoraiz/ascii-image-converter?label=Latest%20Version)](https://github.com/TheZoraiz/ascii-image-converter/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-app"
+    }
+  ]
+}

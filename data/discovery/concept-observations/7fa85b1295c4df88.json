@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Vector map library and writer - running on Android and Desktop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Android CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Android CI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4439,
+      "status": "candidate",
+      "text": "bot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4439,
+      "status": "candidate",
+      "text": "email"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4439,
+      "status": "candidate",
+      "text": "emotion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4439,
+      "status": "candidate",
+      "text": "humanoid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4439,
+      "status": "candidate",
+      "text": "robot"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Android CI",
+      "sense_id": "android-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "android-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "android-ci",
+  "observation_id": "7fa85b1295c4df88",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "Android CI",
+  "source_context_snippet": "Android CI",
+  "source_file": ".github/workflows/android.yml",
+  "source_repo": "mapsforge/mapsforge",
+  "source_repo_description": "Vector map library and writer - running on Android and Desktop."
+}

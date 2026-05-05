@@ -1,0 +1,111 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stefan-hoeck/idris2-pack",
+      "target": "eayus/sirdi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stefan-hoeck/idris2-pack",
+      "target": "idris-community/inigo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stefan-hoeck/idris2-pack",
+      "target": "idris-community/katla",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stefan-hoeck/idris2-pack",
+      "target": "ohad/collie",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lib.yml",
+      "source_repo": "stefan-hoeck/idris2-pack",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lib.yml",
+      "source_repo": "stefan-hoeck/idris2-pack",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-lib.yml",
+      "source_repo": "stefan-hoeck/idris2-pack",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-super-linter.yml",
+      "source_repo": "stefan-hoeck/idris2-pack",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-super-linter.yml",
+      "source_repo": "stefan-hoeck/idris2-pack",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-super-linter.yml",
+      "source_repo": "stefan-hoeck/idris2-pack",
+      "target": "super-linter/super-linter/slim@v6.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-super-linter.yml",
+      "source_repo": "stefan-hoeck/idris2-pack",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "stefan-hoeck/idris2-pack",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "stefan-hoeck/idris2-pack",
+      "target": "Docker Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-on-fail.yml",
+      "source_repo": "stefan-hoeck/idris2-pack",
+      "target": "dawidd6/action-send-mail@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify-on-fail.yml",
+      "source_repo": "stefan-hoeck/idris2-pack",
+      "target": "Notify if build fails",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "stefan-hoeck/idris2-pack"
+}

@@ -542,6 +542,18 @@
       "source_repo": "letsencrypt/boulder",
       "status": "candidate-context",
       "text": "\"Code Scanning - Action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jquery/jquery-color",
+      "status": "candidate-context",
+      "text": "jQuery plugin for color manipulation and animation support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jquery/jquery-color",
+      "status": "candidate-context",
+      "text": "\"Code scanning - action\""
     }
   ],
   "candidate_glosses": [
@@ -820,6 +832,12 @@
       "source_repo": "letsencrypt/boulder",
       "status": "candidate",
       "text": "\"Code Scanning - Action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jquery/jquery-color",
+      "status": "candidate",
+      "text": "\"Code scanning - action\""
     }
   ],
   "candidate_related_terms": [
@@ -1367,11 +1385,29 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "jquery/jquery-color"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "nvm-sh/nvm"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

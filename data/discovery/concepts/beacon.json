@@ -19,6 +19,18 @@
       "source_repo": "CrossC2/CrossC2Kit",
       "status": "candidate-context",
       "text": "[README](README.md) | [\u4e2d\u6587\u6587\u6863](README_zh.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datachainlab/ethereum-ibc-rs",
+      "status": "candidate-context",
+      "text": "Ethereum Light Client for IBC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/ethereum-ibc-rs",
+      "status": "candidate-context",
+      "text": "[![test](https://github.com/datachainlab/ethereum-ibc-rs/actions/workflows/test.yml/badge.svg)](https://github.com/datachainlab/ethereum-ibc-rs/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "CrossC2/CrossC2Kit",
       "status": "candidate",
       "text": "[README](README.md) | [\u4e2d\u6587\u6587\u6863](README_zh.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/ethereum-ibc-rs",
+      "status": "candidate",
+      "text": "[![test](https://github.com/datachainlab/ethereum-ibc-rs/actions/workflows/test.yml/badge.svg)](https://github.com/datachainlab/ethereum-ibc-rs/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "CrossC2/CrossC2Kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "datachainlab/ethereum-ibc-rs"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

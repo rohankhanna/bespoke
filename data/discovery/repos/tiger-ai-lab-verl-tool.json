@@ -1,0 +1,117 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TIGER-AI-Lab/verl-tool",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TIGER-AI-Lab/verl-tool",
+      "target": "ragen-ai/ragen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TIGER-AI-Lab/verl-tool",
+      "target": "lupantech/agentflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "TIGER-AI-Lab/verl-tool",
+      "target": "cogito233/mini_webarena",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TIGER-AI-Lab/verl-tool",
+      "target": "learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TIGER-AI-Lab/verl-tool",
+      "target": "reinforcement",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:58:04.495488+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7792
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1464
+    },
+    {
+      "path": "requirements.txt",
+      "size": 4561
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A version of verl to support diverse tool use",
+    "fork": false,
+    "full_name": "TIGER-AI-Lab/verl-tool",
+    "html_url": "https://github.com/TIGER-AI-Lab/verl-tool",
+    "language": "Python",
+    "pushed_at": "2026-03-02T03:51:00Z",
+    "stargazers_count": 969,
+    "topics": [
+      "agent",
+      "learning",
+      "llm",
+      "reinforcement"
+    ],
+    "updated_at": "2026-05-05T16:17:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lupantech/agentflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ragen-ai/ragen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cogito233/mini_webarena",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement"
+    }
+  ]
+}

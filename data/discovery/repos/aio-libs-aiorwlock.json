@@ -1,0 +1,230 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "abatilo/actions-poetry@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "abatilo/actions-poetry@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "abatilo/actions-poetry@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dependabot/fetch-metadata@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aio-libs/aiorwlock",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aio-libs/aiorwlock",
+      "target": "abatilo/actions-poetry@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aio-libs/aiorwlock",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aio-libs/aiorwlock",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "aio-libs/aiorwlock",
+      "target": "dependabot/fetch-metadata@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "aio-libs/aiorwlock",
+      "target": "Dependabot auto-merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aio-libs/aiorwlock",
+      "target": "asyncio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aio-libs/aiorwlock",
+      "target": "concurrency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aio-libs/aiorwlock",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aio-libs/aiorwlock",
+      "target": "lock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aio-libs/aiorwlock",
+      "target": "mypy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aio-libs/aiorwlock",
+      "target": "rwlock",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:50:36.658093+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 2892
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1429
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2224
+    },
+    {
+      "path": ".github/workflows/dependabot-auto-merge.yml",
+      "size": 608
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Read/Write Lock - synchronization primitive for asyncio",
+    "fork": false,
+    "full_name": "aio-libs/aiorwlock",
+    "html_url": "https://github.com/aio-libs/aiorwlock",
+    "language": "Python",
+    "pushed_at": "2026-05-01T12:14:36Z",
+    "stargazers_count": 173,
+    "topics": [
+      "asyncio",
+      "concurrency",
+      "hacktoberfest",
+      "lock",
+      "mypy",
+      "rwlock"
+    ],
+    "updated_at": "2026-05-01T12:14:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Dependabot auto-merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "term": "Dependabot auto-merge"
+    },
+    {
+      "context_snippet": "aiorwlock",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asyncio"
+    },
+    {
+      "context_snippet": "aiorwlock",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "concurrency"
+    },
+    {
+      "context_snippet": "aiorwlock",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "aiorwlock",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lock"
+    },
+    {
+      "context_snippet": "aiorwlock",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mypy"
+    },
+    {
+      "context_snippet": "aiorwlock",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rwlock"
+    }
+  ]
+}

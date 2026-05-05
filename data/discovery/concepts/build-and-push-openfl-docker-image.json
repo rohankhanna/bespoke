@@ -94,11 +94,17 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/openfl-docker-build.yml",
       "source_repo": "securefederatedai/openfederatedlearning"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/openfl-docker-build.yml",
+      "source_repo": "securefederatedai/openfederatedlearning"
     }
   ],
   "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

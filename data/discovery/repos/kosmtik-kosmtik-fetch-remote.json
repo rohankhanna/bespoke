@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "component": "unzipper",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kosmtik/kosmtik-fetch-remote",
+      "target": "unzipper",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:46:23.676512+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 380
+    },
+    {
+      "path": "package.json",
+      "size": 520
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Kosmtik plugin to fetch remote layer data",
+    "fork": false,
+    "full_name": "kosmtik/kosmtik-fetch-remote",
+    "html_url": "https://github.com/kosmtik/kosmtik-fetch-remote",
+    "language": "JavaScript",
+    "pushed_at": "2021-06-16T20:57:33Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2021-06-16T20:57:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

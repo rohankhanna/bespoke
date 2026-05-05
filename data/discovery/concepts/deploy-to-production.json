@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Deploy to Production"
+    "Deploy to Production",
+    "Deploy to production"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "fastapi/full-stack-fastapi-template",
       "status": "candidate-context",
       "text": "Deploy to Production"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "near/cargo-near-new-project-template",
+      "status": "candidate-context",
+      "text": "scaffold project, which is part of `cargo-near` as `cargo near new` command"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/cargo-near-new-project-template",
+      "status": "candidate-context",
+      "text": "Deploy to production"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "fastapi/full-stack-fastapi-template",
       "status": "candidate",
       "text": "Deploy to Production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/cargo-near-new-project-template",
+      "status": "candidate",
+      "text": "Deploy to production"
     }
   ],
   "candidate_related_terms": [
@@ -154,11 +173,23 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": ".github/workflows/deploy-production.yml",
       "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/deploy-production.yml",
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/deploy-production.yml",
+      "source_repo": "near/cargo-near-new-project-template"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

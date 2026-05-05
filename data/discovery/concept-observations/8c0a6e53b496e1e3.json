@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ungrammar syntax files for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "`Vim-ungrammar` is a plugin for Neovim and Vim for the [Ungrammar][ungrammar] filetype which provides:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "`Vim-ungrammar` is a plugin for Neovim and Vim for the [Ungrammar][ungrammar] filetype which provides:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9890098,
+      "status": "candidate",
+      "text": "articulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9889221,
+      "status": "candidate",
+      "text": "well-spoken"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9888883,
+      "status": "candidate",
+      "text": "eloquent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9881531,
+      "status": "candidate",
+      "text": "grammatical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "well-written"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ungrammar",
+      "sense_id": "ungrammar#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ungrammar",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ungrammar",
+  "observation_id": "8c0a6e53b496e1e3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "ungrammar",
+  "source_context_snippet": "`Vim-ungrammar` is a plugin for Neovim and Vim for the [Ungrammar][ungrammar] filetype which provides:",
+  "source_file": null,
+  "source_repo": "Iron-E/vim-ungrammar",
+  "source_repo_description": "Ungrammar syntax files for Vim"
+}

@@ -1,7 +1,7 @@
 {
   "component": "taiki-e/install-action@74e87cbfa15a59692b158178d8905a61bf6fca95",
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

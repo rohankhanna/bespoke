@@ -259,6 +259,18 @@
       "source_repo": "breejs/bree",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aio-libs/aiorwlock",
+      "status": "candidate-context",
+      "text": "Read/Write Lock - synchronization primitive for asyncio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/aiorwlock",
+      "status": "candidate-context",
+      "text": "aiorwlock"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +399,12 @@
       "source_repo": "breejs/bree",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/aiorwlock",
+      "status": "candidate",
+      "text": "aiorwlock"
     }
   ],
   "candidate_related_terms": [
@@ -718,11 +736,29 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "breejs/bree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/ForkUnion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/SmashTable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "aio-libs/aiorwlock"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ros-industrial"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nobleo/rviz_satellite",
+      "status": "candidate-context",
+      "text": "Display internet satellite imagery in RViz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nobleo/rviz_satellite",
+      "status": "candidate-context",
+      "text": "ros-industrial"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nobleo/rviz_satellite",
+      "status": "candidate",
+      "text": "ros-industrial"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ros-industrial",
+  "concept_id": "ros-industrial",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/industrial_ci_action.yml",
+      "source_repo": "nobleo/rviz_satellite"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ros-industrial",
+      "sense_id": "ros-industrial#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

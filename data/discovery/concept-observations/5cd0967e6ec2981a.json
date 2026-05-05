@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Library of backported modern C++ types to work with C++11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Backport C++](doc/images/backport-logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Backport C++](doc/images/backport-logo.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995650,
+      "status": "candidate",
+      "text": "variance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995628,
+      "status": "candidate",
+      "text": "variation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995423,
+      "status": "candidate",
+      "text": "variate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988666,
+      "status": "candidate",
+      "text": "version"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987646,
+      "status": "candidate",
+      "text": "form"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "variant",
+      "sense_id": "variant#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 60045,
+      "status": "candidate",
+      "text": "discrepancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41083,
+      "status": "candidate",
+      "text": "strain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29082,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23040,
+      "status": "candidate",
+      "text": "different"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11080,
+      "status": "candidate",
+      "text": "variance"
+    }
+  ],
+  "concept_id": "variant",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "variant",
+  "observation_id": "5cd0967e6ec2981a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "variant",
+  "source_context_snippet": "![Backport C++](doc/images/backport-logo.png)",
+  "source_file": null,
+  "source_repo": "bitwizeshift/BackportCpp",
+  "source_repo_description": "Library of backported modern C++ types to work with C++11"
+}

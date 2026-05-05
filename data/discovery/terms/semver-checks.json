@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/semver-checks.yml",
       "source_repo": "hoodie/notify-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/semver-checks.yml",
+      "source_repo": "brave/adblock-rust"
     }
   ],
   "term": "Semver Checks"

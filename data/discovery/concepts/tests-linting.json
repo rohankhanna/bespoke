@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Tests: linting"
+    "Tests: linting",
+    "Tests & Linting"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "nvm-sh/nvm",
       "status": "candidate-context",
       "text": "'Tests: linting'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Vinyzu/chrome-fingerprints",
+      "status": "candidate-context",
+      "text": "A Collection of 10.000 collected Windows Chrome Fingerprints. Usable with an easy-to-use API, available as a compressed (lzma) or full-size Json (view Releases). Its just 1.4mb in size in compressed form, and fast in read times."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vinyzu/chrome-fingerprints",
+      "status": "candidate-context",
+      "text": "Tests & Linting"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "nvm-sh/nvm",
       "status": "candidate",
       "text": "'Tests: linting'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vinyzu/chrome-fingerprints",
+      "status": "candidate",
+      "text": "Tests & Linting"
     }
   ],
   "candidate_related_terms": [
@@ -64,6 +83,41 @@
       "score": null,
       "status": "candidate",
       "text": "caddis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "bits"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "brush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "navel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "screen"
     }
   ],
   "candidate_synonyms": [],
@@ -190,11 +244,23 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Vinyzu/chrome-fingerprints"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

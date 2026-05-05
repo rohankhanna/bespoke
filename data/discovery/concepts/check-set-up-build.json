@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Set-Up & Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octopus-network/substrate-ibc",
+      "status": "candidate-context",
+      "text": "An IBC implementation on Substrate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octopus-network/substrate-ibc",
+      "status": "candidate-context",
+      "text": "Check Set-Up & Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octopus-network/substrate-ibc",
+      "status": "candidate",
+      "text": "Check Set-Up & Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18572,
+      "status": "candidate",
+      "text": "architecture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18572,
+      "status": "candidate",
+      "text": "establish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18572,
+      "status": "candidate",
+      "text": "establishment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18572,
+      "status": "candidate",
+      "text": "fashioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18572,
+      "status": "candidate",
+      "text": "mount"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Set-Up & Build",
+  "concept_id": "check-set-up-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "octopus-network/substrate-ibc"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Set-Up & Build",
+      "sense_id": "check-set-up-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

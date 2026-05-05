@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -31,6 +31,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "url-kaist/outlier-robust-radar-odometry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ntnu-arl/lidar_degeneracy_datasets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "MAPIRlab/rf2o_laser_odometry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry"
     }
   ],
   "term": "odometry"

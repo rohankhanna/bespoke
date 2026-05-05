@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "DORA (Dataflow-Oriented Robotic Architecture) is middleware designed to streamline and simplify the creation of AI-based robotic applications. It offers low latency, composable, and distributed dataflow capabilities. Applications are modeled as directed graphs, also referred to as pipelines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Manually Delete BuildJet Cache"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Manually Delete BuildJet Cache"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17822,
+      "status": "candidate",
+      "text": "clap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17822,
+      "status": "candidate",
+      "text": "handing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17731,
+      "status": "candidate",
+      "text": "book out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17731,
+      "status": "candidate",
+      "text": "crip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17731,
+      "status": "candidate",
+      "text": "handbrake"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Manually Delete BuildJet Cache",
+      "sense_id": "manually-delete-buildjet-cache#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "manually-delete-buildjet-cache",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "manually-delete-buildjet-cache",
+  "observation_id": "f2d35e80101b699b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "Manually Delete BuildJet Cache",
+  "source_context_snippet": "Manually Delete BuildJet Cache",
+  "source_file": ".github/workflows/delete-buildjet-cache.yml",
+  "source_repo": "dora-rs/dora",
+  "source_repo_description": "DORA (Dataflow-Oriented Robotic Architecture) is middleware designed to streamline and simplify the creation of AI-based robotic applications. It offers low latency, composable, and distributed dataflow capabilities. Applications are modeled as directed graphs, also referred to as pipelines."
+}

@@ -178,6 +178,42 @@
       "source_repo": "RameenAbdal/StyleFlow",
       "status": "candidate-context",
       "text": "![Python 3.7](https://img.shields.io/badge/Python-3.7-green.svg?style=plastic)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dkubb/equalizer",
+      "status": "candidate-context",
+      "text": "Define equality, equivalency and hash methods automatically"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dkubb/equalizer",
+      "status": "candidate-context",
+      "text": "Quality"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astroyat/lerobot",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 LeRobot: Making AI for Robotics more accessible with end-to-end learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astroyat/lerobot",
+      "status": "candidate-context",
+      "text": "Quality"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "box2ai-robotics/lerobot-joycon",
+      "status": "candidate-context",
+      "text": "LeRobot-JoyCon:  Making AI for Robotics more accessible and Portable with JoyCon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box2ai-robotics/lerobot-joycon",
+      "status": "candidate-context",
+      "text": "Quality"
     }
   ],
   "candidate_glosses": [
@@ -264,6 +300,24 @@
       "source_repo": "RameenAbdal/StyleFlow",
       "status": "candidate",
       "text": "![Python 3.7](https://img.shields.io/badge/Python-3.7-green.svg?style=plastic)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dkubb/equalizer",
+      "status": "candidate",
+      "text": "Quality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astroyat/lerobot",
+      "status": "candidate",
+      "text": "Quality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box2ai-robotics/lerobot-joycon",
+      "status": "candidate",
+      "text": "Quality"
     }
   ],
   "candidate_related_terms": [
@@ -499,11 +553,35 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/quality.yml",
       "source_repo": "huggingface/sentence-transformers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "huggingface/sentence-transformers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "dkubb/equalizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "astroyat/lerobot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "box2ai-robotics/lerobot-joycon"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

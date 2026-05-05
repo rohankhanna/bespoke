@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "a simple command-line tool to pack and unpack pak files in chrome or chromium-based browser  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "a simple batch tool to customize pak files in chrome or chromium-based browser"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "a simple batch tool to customize pak files in chrome or chromium-based browser"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chrome-pak-customizer",
+      "sense_id": "chrome-pak-customizer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chrome-pak-customizer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chrome-pak-customizer",
+  "observation_id": "e9a54fc91f8e9bd6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "chrome-pak-customizer",
+  "source_context_snippet": "a simple batch tool to customize pak files in chrome or chromium-based browser",
+  "source_file": null,
+  "source_repo": "myfreeer/chrome-pak-customizer",
+  "source_repo_description": "a simple command-line tool to pack and unpack pak files in chrome or chromium-based browser  "
+}

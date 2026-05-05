@@ -79,6 +79,18 @@
       "source_repo": "CosmWasm/wasmd",
       "status": "candidate-context",
       "text": "[![CircleCI](https://circleci.com/gh/CosmWasm/wasmd/tree/main.svg?style=shield)](https://circleci.com/gh/CosmWasm/wasmd/tree/main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyperledger-labs/yui-relayer",
+      "status": "candidate-context",
+      "text": "IBC Relayer implementations for heterogeneous blockchains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-labs/yui-relayer",
+      "status": "candidate-context",
+      "text": "![Test](https://github.com/hyperledger-labs/yui-relayer/workflows/Test/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "CosmWasm/wasmd",
       "status": "candidate",
       "text": "[![CircleCI](https://circleci.com/gh/CosmWasm/wasmd/tree/main.svg?style=shield)](https://circleci.com/gh/CosmWasm/wasmd/tree/main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-labs/yui-relayer",
+      "status": "candidate",
+      "text": "![Test](https://github.com/hyperledger-labs/yui-relayer/workflows/Test/badge.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "CosmWasm/wasmd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "hyperledger-labs/yui-relayer"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

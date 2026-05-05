@@ -1411,6 +1411,18 @@
       "source_repo": "rdeits/MeshCat.jl",
       "status": "candidate-context",
       "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaInterop/Clang.jl",
+      "status": "candidate-context",
+      "text": "C binding generator and Julia interface to libclang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaInterop/Clang.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
     }
   ],
   "candidate_glosses": [
@@ -2125,6 +2137,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "rdeits/MeshCat.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaInterop/Clang.jl",
       "status": "candidate",
       "text": "CompatHelper"
     }
@@ -3238,11 +3256,59 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/CompatHelper.yml",
       "source_repo": "JuliaGraphics/Cairo.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaStrings/LibTeXPrintf.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaGizmos/Blink.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaGraphics/Cairo.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaInterop/Clang.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -3976,6 +3976,61 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "lace/lacecore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "crazy-max/goreleaser-xx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "yzhangcs/parser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "React9k/react-timeline-9000"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/polliwog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/vg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "agenda/agenda"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "kelektiv/node-cron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "P4sca1/cron-schedule"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "pulse-browser/gluon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "crazy-max/diun"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "crazy-max/yasu"
     }
   ],
   "term": "CodeQL"

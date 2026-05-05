@@ -1,0 +1,328 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "agentclientprotocol/agent-client-protocol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "moonshotai/zsh-kimi-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docs.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docs.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docs.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-docs.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "CI (docs)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-kimi-cli.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-kimi-cli.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-kimi-cli.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "astral-sh/setup-uv@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-kimi-cli.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-kimi-cli.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-kimi-cli.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "DeterminateSystems/nix-installer-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-kimi-cli.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "CI (kimi-cli)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-kimi-sdk.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-kimi-sdk.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-kimi-sdk.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "astral-sh/setup-uv@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-kimi-sdk.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-kimi-sdk.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "CI (kimi-sdk)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-kosong.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-kosong.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-kosong.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "astral-sh/setup-uv@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-kosong.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-kosong.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "CI (kosong)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pykaos.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pykaos.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pykaos.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "astral-sh/setup-uv@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-pykaos.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "CI (pykaos)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-pages.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-pages.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-pages.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-pages.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-pages.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-pages.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-pages.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "Docs (GitHub Pages)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title-checker.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "thehanimo/pr-title-checker@v1.4.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title-checker.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "PR Title Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-kimi-cli.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-kimi-cli.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-kimi-cli.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-kimi-cli.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "astral-sh/setup-uv@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-kimi-cli.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-kimi-cli.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-kimi-cli.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-kimi-cli.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-kimi-cli.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-kimi-cli.yml",
+      "source_repo": "MoonshotAI/kimi-cli",
+      "target": "Release (kimi-cli)",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "MoonshotAI/kimi-cli"
+}

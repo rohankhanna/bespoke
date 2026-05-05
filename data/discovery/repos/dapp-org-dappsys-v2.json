@@ -1,0 +1,144 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@4.1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dapp-org/dappsys-v2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dapp-org/dappsys-v2",
+      "target": "cachix/install-nix-action@v12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dapp-org/dappsys-v2",
+      "target": "cachix/cachix-action@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dapp-org/dappsys-v2",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "dapp-org/dappsys-v2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "dapp-org/dappsys-v2",
+      "target": "cachix/install-nix-action@v12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "dapp-org/dappsys-v2",
+      "target": "cachix/cachix-action@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "dapp-org/dappsys-v2",
+      "target": "JamesIves/github-pages-deploy-action@4.1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "dapp-org/dappsys-v2",
+      "target": "Publish Documentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T15:59:02.962896+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 559
+    },
+    {
+      "path": ".github/workflows/publish-docs.yml",
+      "size": 671
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "dapp-org/dappsys-v2",
+    "html_url": "https://github.com/dapp-org/dappsys-v2",
+    "language": "Solidity",
+    "pushed_at": "2022-03-03T08:54:38Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2025-08-27T13:20:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Build\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Publish Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "term": "Publish Documentation"
+    }
+  ]
+}

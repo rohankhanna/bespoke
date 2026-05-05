@@ -247,6 +247,18 @@
       "source_repo": "RRethy/nvim-treesitter-textsubjects",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tlaplus-community/tree-sitter-tlaplus",
+      "status": "candidate-context",
+      "text": "A tree-sitter grammar for TLA\u207a and PlusCal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus-community/tree-sitter-tlaplus",
+      "status": "candidate-context",
+      "text": "[![Build & Test](https://github.com/tlaplus-community/tree-sitter-tlaplus/actions/workflows/ci.yml/badge.svg)](https://github.com/tlaplus-community/tree-sitter-tlaplus/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -375,6 +387,12 @@
       "source_repo": "RRethy/nvim-treesitter-textsubjects",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus-community/tree-sitter-tlaplus",
+      "status": "candidate",
+      "text": "[![Build & Test](https://github.com/tlaplus-community/tree-sitter-tlaplus/actions/workflows/ci.yml/badge.svg)](https://github.com/tlaplus-community/tree-sitter-tlaplus/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -676,11 +694,35 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "lumen-oss/luarocks-build-treesitter-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-treesitter.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-build-treesitter-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "tlaplus-community/tree-sitter-tlaplus"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

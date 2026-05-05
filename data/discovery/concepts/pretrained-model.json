@@ -19,6 +19,18 @@
       "source_repo": "modelscope/FunASR",
       "status": "candidate-context",
       "text": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clovaai/rexnet",
+      "status": "candidate-context",
+      "text": "Official Pytorch implementation of ReXNet (Rank eXpansion Network) with pretrained models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/rexnet",
+      "status": "candidate-context",
+      "text": "**Dongyoon Han, Sangdoo Yun, Byeongho Heo, and YoungJoon Yoo** | [Paper](https://arxiv.org/abs/2007.00992) | [Pretrained Models](#pretrained)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "modelscope/FunASR",
       "status": "candidate",
       "text": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/rexnet",
+      "status": "candidate",
+      "text": "**Dongyoon Han, Sangdoo Yun, Byeongho Heo, and YoungJoon Yoo** | [Paper](https://arxiv.org/abs/2007.00992) | [Pretrained Models](#pretrained)"
     }
   ],
   "candidate_related_terms": [],
@@ -100,11 +118,23 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/rexnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

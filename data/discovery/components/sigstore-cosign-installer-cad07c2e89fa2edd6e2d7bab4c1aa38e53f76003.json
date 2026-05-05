@@ -1,7 +1,7 @@
 {
   "component": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -302,6 +302,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-images-base-v1.17.yaml",
       "source_repo": "cilium/cilium"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generator-image.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation"
     }
   ]
 }

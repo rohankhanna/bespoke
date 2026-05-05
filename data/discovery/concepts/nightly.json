@@ -488,6 +488,30 @@
       "source_repo": "ai-dynamo/aiperf",
       "status": "candidate-context",
       "text": "Nightly"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astroyat/lerobot",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 LeRobot: Making AI for Robotics more accessible with end-to-end learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astroyat/lerobot",
+      "status": "candidate-context",
+      "text": "Nightly"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "box2ai-robotics/lerobot-joycon",
+      "status": "candidate-context",
+      "text": "LeRobot-JoyCon:  Making AI for Robotics more accessible and Portable with JoyCon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box2ai-robotics/lerobot-joycon",
+      "status": "candidate-context",
+      "text": "Nightly"
     }
   ],
   "candidate_glosses": [
@@ -728,6 +752,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ai-dynamo/aiperf",
+      "status": "candidate",
+      "text": "Nightly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astroyat/lerobot",
+      "status": "candidate",
+      "text": "Nightly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box2ai-robotics/lerobot-joycon",
       "status": "candidate",
       "text": "Nightly"
     }
@@ -1112,11 +1148,29 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "ai-dynamo/aiperf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "databrickslabs/ucx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "astroyat/lerobot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/nightly-tests.yml",
+      "source_repo": "box2ai-robotics/lerobot-joycon"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

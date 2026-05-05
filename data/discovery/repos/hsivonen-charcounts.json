@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hsivonen/charcounts",
+      "target": "hsivonen/traindet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:04:47.902690+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 250
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Intermediate data dump for generating the tables for chardetng",
+    "fork": false,
+    "full_name": "hsivonen/charcounts",
+    "html_url": "https://github.com/hsivonen/charcounts",
+    "language": null,
+    "pushed_at": "2021-06-15T13:06:45Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2020-04-30T07:39:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hsivonen/traindet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

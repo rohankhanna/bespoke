@@ -1,0 +1,62 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IGLOU-EU/go-wildcard",
+      "target": "minio/pkg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IGLOU-EU/go-wildcard",
+      "target": "golang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:52:12.884224+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3096
+    },
+    {
+      "path": "go.mod",
+      "size": 51
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\ude80 Fast and light wildcard pattern matching.",
+    "fork": false,
+    "full_name": "IGLOU-EU/go-wildcard",
+    "html_url": "https://github.com/IGLOU-EU/go-wildcard",
+    "language": "Go",
+    "pushed_at": "2025-02-11T12:51:58Z",
+    "stargazers_count": 101,
+    "topics": [
+      "go",
+      "golang"
+    ],
+    "updated_at": "2026-04-20T09:23:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "minio/pkg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/IGLOU-EU/go-wildcard/v2)](https://goreportcard.com/report/github.com/IGLOU-EU/go-wildcard/v2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    }
+  ]
+}

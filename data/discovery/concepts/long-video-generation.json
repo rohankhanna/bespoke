@@ -55,6 +55,18 @@
       "source_repo": "thu-ml/DiT-Extrapolation",
       "status": "candidate-context",
       "text": "This repository provides the official implementation of [RIFLEx](https://arxiv.org/abs/2502.15894) **(ICML 2025)**, [UltraViCo](https://arxiv.org/abs/2511.20123) **(ICLR 2026)** and [UltraImage](https://arxiv.org/abs/2512.04504) , which achieve diffusion-transformer extrapolatio\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "songweige/TATS",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of TATS: A Long Video Generation Framework with Time-Agnostic VQGAN and Time-Sensitive Transformer (ECCV 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "songweige/TATS",
+      "status": "candidate-context",
+      "text": "[Project Website](https://songweige.github.io/projects/tats) | [Video](https://youtu.be/WZj7vW2mTJo) | [Paper](https://arxiv.org/abs/2204.03638)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "thu-ml/DiT-Extrapolation",
       "status": "candidate",
       "text": "This repository provides the official implementation of [RIFLEx](https://arxiv.org/abs/2502.15894) **(ICML 2025)**, [UltraViCo](https://arxiv.org/abs/2511.20123) **(ICLR 2026)** and [UltraImage](https://arxiv.org/abs/2512.04504) , which achieve diffusion-transformer extrapolatio\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "songweige/TATS",
+      "status": "candidate",
+      "text": "[Project Website](https://songweige.github.io/projects/tats) | [Video](https://youtu.be/WZj7vW2mTJo) | [Paper](https://arxiv.org/abs/2204.03638)"
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +184,23 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "thu-ml/DiT-Extrapolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/DiT-Extrapolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "songweige/TATS"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

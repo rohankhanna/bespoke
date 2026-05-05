@@ -799,6 +799,30 @@
       "source_repo": "glumpy/glumpy",
       "status": "candidate-context",
       "text": ".. image:: https://raw.githubusercontent.com/rougier/glumpy/master/doc/_static/glumpy-teaser.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "will62794/spectacle",
+      "status": "candidate-context",
+      "text": "Interactive playground for exploring and sharing TLA+ specifications in the browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "will62794/spectacle",
+      "status": "candidate-context",
+      "text": "<!-- # TLA<sup>+</sup> Web Explorer -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hila-chefer/Transformer-MM-Explainability",
+      "status": "candidate-context",
+      "text": "[ICCV 2021- Oral] Official PyTorch implementation for Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers, a novel method to visualize any Transformer-based network. Including examples for DETR, VQA."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hila-chefer/Transformer-MM-Explainability",
+      "status": "candidate-context",
+      "text": "[ICCV 2021- Oral] PyTorch Implementation of `Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers <https://arxiv.org/abs/2103.15679>`_"
     }
   ],
   "candidate_glosses": [
@@ -1197,6 +1221,18 @@
       "source_repo": "glumpy/glumpy",
       "status": "candidate",
       "text": ".. image:: https://raw.githubusercontent.com/rougier/glumpy/master/doc/_static/glumpy-teaser.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "will62794/spectacle",
+      "status": "candidate",
+      "text": "<!-- # TLA<sup>+</sup> Web Explorer -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hila-chefer/Transformer-MM-Explainability",
+      "status": "candidate",
+      "text": "[ICCV 2021- Oral] PyTorch Implementation of `Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers <https://arxiv.org/abs/2103.15679>`_"
     }
   ],
   "candidate_related_terms": [
@@ -1867,11 +1903,41 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "will62794/spectacle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "hila-chefer/Transformer-MM-Explainability"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPluto/Pluto.jl"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

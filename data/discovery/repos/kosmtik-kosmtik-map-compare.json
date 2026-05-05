@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T14:46:26.124124+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 736
+    },
+    {
+      "path": "package.json",
+      "size": 636
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Add a map to compare side-by-side with your work in Kosmtik",
+    "fork": false,
+    "full_name": "kosmtik/kosmtik-map-compare",
+    "html_url": "https://github.com/kosmtik/kosmtik-map-compare",
+    "language": "JavaScript",
+    "pushed_at": "2023-10-23T10:21:06Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2023-10-23T10:21:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

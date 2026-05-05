@@ -1,7 +1,7 @@
 {
   "component": "softprops/action-gh-release@v2",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1897,6 +1897,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "OSGeo/PROJ-data"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "CosmWasm/cw-plus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_alpha.yml",
+      "source_repo": "f3liz-casa/noraneko"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "RainerKuemmerle/g2o"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml",
+      "source_repo": "Saalvage/assimp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "Saalvage/assimp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "MisanthropicBit/neotest-busted"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "crazy-max/yasu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yaml",
+      "source_repo": "undreamai/LlamaLib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-kimi-cli.yml",
+      "source_repo": "MoonshotAI/kimi-cli"
     }
   ]
 }

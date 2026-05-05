@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -221,6 +221,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "KupynOrest/head_detector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Extraltodeus/ComfyUI-AutomaticCFG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "undreamai/LLMUnity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "davidmigloz/langchain_dart"
     }
   ],
   "term": "generative-ai"

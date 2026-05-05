@@ -120,7 +120,7 @@
   "normalized_form": "vet",
   "observation_id": "cf629555a07ba03c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "vet",
   "source_context_snippet": "vet",
   "source_file": ".github/workflows/vet.yml",

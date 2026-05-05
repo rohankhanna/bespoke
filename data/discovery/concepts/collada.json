@@ -19,6 +19,18 @@
       "source_repo": "assimp/assimp",
       "status": "candidate-context",
       "text": "FROM gcc:1.5.1.0 RUN apt-get update \\ apt-get install --no-install-recommends -y ninja-build cmake zlib1g-dev WORKDIR /app COPY . . RUN mkdir build && cd build && \\ cmake -G 'Ninja' \\ -DCMAKE_BUILD_TYPE=Release \\ -DASSIMP_BUILD_ASSIMP_TOOLS=ON \\ .. && \\ ninja -j4 && ninja instal\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Saalvage/AssimpNetter",
+      "status": "candidate-context",
+      "text": "Maintained fork of AssimpNet that adds better interop with modern C#"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Saalvage/AssimpNetter",
+      "status": "candidate-context",
+      "text": "![alt text](https://raw.githubusercontent.com/Saalvage/AssimpNetter/master/logo.png \"AssimpNet Logo\")"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "assimp/assimp",
       "status": "candidate",
       "text": "FROM gcc:1.5.1.0 RUN apt-get update \\ apt-get install --no-install-recommends -y ninja-build cmake zlib1g-dev WORKDIR /app COPY . . RUN mkdir build && cd build && \\ cmake -G 'Ninja' \\ -DCMAKE_BUILD_TYPE=Release \\ -DASSIMP_BUILD_ASSIMP_TOOLS=ON \\ .. && \\ ninja -j4 && ninja instal\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Saalvage/AssimpNetter",
+      "status": "candidate",
+      "text": "![alt text](https://raw.githubusercontent.com/Saalvage/AssimpNetter/master/logo.png \"AssimpNet Logo\")"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "assimp/assimp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Saalvage/AssimpNetter"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

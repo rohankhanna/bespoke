@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OTel Weaver lets you easily develop, validate, document, and deploy semantic conventions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"left\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39951227,
+      "status": "candidate",
+      "text": "insurance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39951172,
+      "status": "candidate",
+      "text": "insurance policy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29969137,
+      "status": "candidate",
+      "text": "policymaking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968330,
+      "status": "candidate",
+      "text": "legislation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968322,
+      "status": "candidate",
+      "text": "regulation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "policy",
+      "sense_id": "policy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 64,
+      "status": "candidate",
+      "text": "insurance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31,
+      "status": "candidate",
+      "text": "insurance policy"
+    }
+  ],
+  "concept_id": "policy",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "policy",
+  "observation_id": "43c77ed2b99708f3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "policy",
+  "source_context_snippet": "<p align=\"left\">",
+  "source_file": null,
+  "source_repo": "open-telemetry/weaver",
+  "source_repo_description": "OTel Weaver lets you easily develop, validate, document, and deploy semantic conventions"
+}

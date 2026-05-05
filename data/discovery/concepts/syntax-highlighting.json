@@ -223,6 +223,30 @@
       "source_repo": "shikijs/shiki",
       "status": "candidate-context",
       "text": "<img src=\"https://raw.githubusercontent.com/shikijs/shiki/main/docs/public/logo.svg\" width=\"150\" alt=\"Shiki Logo\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "azdavis/ungrammar-tools",
+      "status": "candidate-context",
+      "text": "Tools for ungrammar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azdavis/ungrammar-tools",
+      "status": "candidate-context",
+      "text": "Tools for [ungrammar][1]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Iron-E/vim-ungrammar",
+      "status": "candidate-context",
+      "text": "Ungrammar syntax files for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Iron-E/vim-ungrammar",
+      "status": "candidate-context",
+      "text": "`Vim-ungrammar` is a plugin for Neovim and Vim for the [Ungrammar][ungrammar] filetype which provides:"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +357,18 @@
       "source_repo": "shikijs/shiki",
       "status": "candidate",
       "text": "<img src=\"https://raw.githubusercontent.com/shikijs/shiki/main/docs/public/logo.svg\" width=\"150\" alt=\"Shiki Logo\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azdavis/ungrammar-tools",
+      "status": "candidate",
+      "text": "Tools for [ungrammar][1]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Iron-E/vim-ungrammar",
+      "status": "candidate",
+      "text": "`Vim-ungrammar` is a plugin for Neovim and Vim for the [Ungrammar][ungrammar] filetype which provides:"
     }
   ],
   "candidate_related_terms": [],
@@ -568,11 +604,35 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "github-linguist/linguist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "github-linguist/linguist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "azdavis/ungrammar-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Iron-E/vim-ungrammar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "preservim/vim-markdown"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

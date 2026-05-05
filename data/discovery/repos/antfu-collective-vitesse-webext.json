@@ -191,14 +191,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "antfu-collective/vitesse-webext",
-      "target": "mozilla/webextension-polyfill",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "antfu-collective/vitesse-webext",
-      "target": "mysticatea/npm-run-all",
+      "target": "serversideup/webext-bridge",
       "target_type": "repository"
     },
     {
@@ -496,7 +489,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T08:04:23.858836+00:00",
+  "fetched_at": "2026-05-05T14:58:31.359223+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -538,12 +531,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mozilla/webextension-polyfill",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mysticatea/npm-run-all",
+      "full_name": "serversideup/webext-bridge",
       "source_file": "README.md"
     }
   ],

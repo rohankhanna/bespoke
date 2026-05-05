@@ -82,6 +82,18 @@
       "source_repo": "4d49/scene-library",
       "status": "candidate-context",
       "text": "A simple and fast add-on for managing 2D and 3D scenes as assets. Organize, search, and open scenes with ease."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Saalvage/AssimpNetter",
+      "status": "candidate-context",
+      "text": "Maintained fork of AssimpNet that adds better interop with modern C#"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Saalvage/AssimpNetter",
+      "status": "candidate-context",
+      "text": "![alt text](https://raw.githubusercontent.com/Saalvage/AssimpNetter/master/logo.png \"AssimpNet Logo\")"
     }
   ],
   "candidate_glosses": [
@@ -120,6 +132,12 @@
       "source_repo": "4d49/scene-library",
       "status": "candidate",
       "text": "A simple and fast add-on for managing 2D and 3D scenes as assets. Organize, search, and open scenes with ease."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Saalvage/AssimpNetter",
+      "status": "candidate",
+      "text": "![alt text](https://raw.githubusercontent.com/Saalvage/AssimpNetter/master/logo.png \"AssimpNet Logo\")"
     }
   ],
   "candidate_related_terms": [
@@ -205,11 +223,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "4d49/scene-library"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Saalvage/AssimpNetter"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

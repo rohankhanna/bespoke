@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Slamtec/sllidar_ros2",
+      "target": "slamtec/rplidar_sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Slamtec/sllidar_ros2",
+      "target": "robopeak/rplidar_ros",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:53:25.855112+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4193
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Slamtec/sllidar_ros2",
+    "html_url": "https://github.com/Slamtec/sllidar_ros2",
+    "language": "C++",
+    "pushed_at": "2024-07-12T04:41:37Z",
+    "stargazers_count": 206,
+    "topics": [],
+    "updated_at": "2026-04-27T17:25:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robopeak/rplidar_ros",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "slamtec/rplidar_sdk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

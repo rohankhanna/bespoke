@@ -99,7 +99,7 @@
   "normalized_form": "safari",
   "observation_id": "3acb207eaf0ace82",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "safari",
   "source_context_snippet": "FROM clojure:temurin-21-tools-deps-bullseye-slim RUN apt-get -yqq update && \\ apt-get -yqq upgrade && \\ apt-get -yqq install sudo && \\ apt-get -yqq install procps && \\ apt-get -yqq install libnss3 && \\ apt-get -yqq install bzip2 && \\ apt-get -yqq install imagemagick && \\ apt-get\u2026",
   "source_file": null,

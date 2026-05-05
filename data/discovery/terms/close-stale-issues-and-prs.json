@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -536,6 +536,21 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/stale.yaml",
       "source_repo": "triton-inference-server/model_navigator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "cpisciotta/xcbeautify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "miquelmassot/g2o-python"
     }
   ],
   "term": "Close stale issues and PRs"

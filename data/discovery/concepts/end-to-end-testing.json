@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "end-to-end-testing"
+    "end-to-end-testing",
+    "End to End testing"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -43,6 +46,18 @@
       "source_repo": "DevExpress/testcafe",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChorusOne/ibc-rs",
+      "status": "candidate-context",
+      "text": "IBC modules and relayer - Formal specifications and Rust implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChorusOne/ibc-rs",
+      "status": "candidate-context",
+      "text": "End to End testing"
     }
   ],
   "candidate_glosses": [
@@ -63,9 +78,51 @@
       "source_repo": "DevExpress/testcafe",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChorusOne/ibc-rs",
+      "status": "candidate",
+      "text": "End to End testing"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12763,
+      "status": "candidate",
+      "text": "button"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12763,
+      "status": "candidate",
+      "text": "comp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12763,
+      "status": "candidate",
+      "text": "lead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12763,
+      "status": "candidate",
+      "text": "pilot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12763,
+      "status": "candidate",
+      "text": "piloting"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "end-to-end-testing",
   "concept_id": "end-to-end-testing",
@@ -88,11 +145,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "DevExpress/testcafe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "ChorusOne/ibc-rs"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

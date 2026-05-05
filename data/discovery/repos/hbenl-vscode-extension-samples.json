@@ -1,0 +1,92 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commands.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-label.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commands.yml",
+      "source_repo": "hbenl/vscode-extension-samples",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commands.yml",
+      "source_repo": "hbenl/vscode-extension-samples",
+      "target": "Commands",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-label.yml",
+      "source_repo": "hbenl/vscode-extension-samples",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-label.yml",
+      "source_repo": "hbenl/vscode-extension-samples",
+      "target": "On Label",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:46:17.604427+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15674
+    },
+    {
+      "path": "package.json",
+      "size": 430
+    },
+    {
+      "path": ".github/workflows/commands.yml",
+      "size": 656
+    },
+    {
+      "path": ".github/workflows/on-label.yml",
+      "size": 653
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Sample code illustrating the VS Code extension API.",
+    "fork": true,
+    "full_name": "hbenl/vscode-extension-samples",
+    "html_url": "https://github.com/hbenl/vscode-extension-samples",
+    "language": "TypeScript",
+    "pushed_at": "2022-02-26T13:38:34Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2022-01-01T14:56:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Commands",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commands.yml",
+      "term": "Commands"
+    },
+    {
+      "context_snippet": "On Label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-label.yml",
+      "term": "On Label"
+    }
+  ]
+}

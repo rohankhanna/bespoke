@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Xor filters - efficient probabilistic hashsets. Faster and smaller than bloom and cuckoo filters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Xorf docs](https://docs.rs/xorf/badge.svg)](https://docs.rs/xorf)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Xorf docs](https://docs.rs/xorf/badge.svg)](https://docs.rs/xorf)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001517,
+      "status": "candidate",
+      "text": "chance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30007826,
+      "status": "candidate",
+      "text": "likelihood"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30007815,
+      "status": "candidate",
+      "text": "likely"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30007648,
+      "status": "candidate",
+      "text": "probable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30007511,
+      "status": "candidate",
+      "text": "eventuality"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "probability",
+      "sense_id": "probability#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23055,
+      "status": "candidate",
+      "text": "chance"
+    }
+  ],
+  "concept_id": "probability",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "probability",
+  "observation_id": "8e0dd41b20864718",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "probability",
+  "source_context_snippet": "[![Xorf docs](https://docs.rs/xorf/badge.svg)](https://docs.rs/xorf)",
+  "source_file": null,
+  "source_repo": "ayazhafiz/xorf",
+  "source_repo_description": "Xor filters - efficient probabilistic hashsets. Faster and smaller than bloom and cuckoo filters."
+}

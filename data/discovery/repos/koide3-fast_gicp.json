@@ -1,0 +1,216 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "koide3/fast_gicp",
+      "target": "smrt-aist/fast_gicp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "koide3/fast_gicp",
+      "target": "nvlabs/nvbio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "koide3/fast_gicp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "koide3/fast_gicp",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "koide3/fast_gicp",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "koide3/fast_gicp",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koide3/fast_gicp",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koide3/fast_gicp",
+      "target": "gicp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koide3/fast_gicp",
+      "target": "multithreading",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koide3/fast_gicp",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koide3/fast_gicp",
+      "target": "registration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koide3/fast_gicp",
+      "target": "scan-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koide3/fast_gicp",
+      "target": "vgicp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:53:43.701044+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6246
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 798
+    },
+    {
+      "path": ".github/workflows/issue_response.yml",
+      "size": 652
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A collection of GICP-based fast point cloud registration algorithms",
+    "fork": false,
+    "full_name": "koide3/fast_gicp",
+    "html_url": "https://github.com/koide3/fast_gicp",
+    "language": "C++",
+    "pushed_at": "2025-04-24T01:46:48Z",
+    "stargazers_count": 1633,
+    "topics": [
+      "cpp",
+      "cuda",
+      "gicp",
+      "gpu",
+      "icp",
+      "multithreading",
+      "pcl",
+      "point-cloud",
+      "python",
+      "registration",
+      "scan-matching",
+      "vgicp"
+    ],
+    "updated_at": "2026-04-30T02:54:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/nvbio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "smrt-aist/fast_gicp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "We released [small_gicp](https://github.com/koide3/small_gicp) that is twice as fast as fast_gicp and with minimum dependencies and clean interfaces.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "We released [small_gicp](https://github.com/koide3/small_gicp) that is twice as fast as fast_gicp and with minimum dependencies and clean interfaces.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gicp"
+    },
+    {
+      "context_snippet": "We released [small_gicp](https://github.com/koide3/small_gicp) that is twice as fast as fast_gicp and with minimum dependencies and clean interfaces.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multithreading"
+    },
+    {
+      "context_snippet": "We released [small_gicp](https://github.com/koide3/small_gicp) that is twice as fast as fast_gicp and with minimum dependencies and clean interfaces.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "We released [small_gicp](https://github.com/koide3/small_gicp) that is twice as fast as fast_gicp and with minimum dependencies and clean interfaces.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "registration"
+    },
+    {
+      "context_snippet": "We released [small_gicp](https://github.com/koide3/small_gicp) that is twice as fast as fast_gicp and with minimum dependencies and clean interfaces.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scan-matching"
+    },
+    {
+      "context_snippet": "We released [small_gicp](https://github.com/koide3/small_gicp) that is twice as fast as fast_gicp and with minimum dependencies and clean interfaces.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vgicp"
+    }
+  ]
+}

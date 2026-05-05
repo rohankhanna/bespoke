@@ -1,0 +1,124 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUST-Aerial-Robotics/FUEL",
+      "target": "sysu-star/racer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUST-Aerial-Robotics/FUEL",
+      "target": "stevengj/nlopt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUST-Aerial-Robotics/FUEL",
+      "target": "tpruvot/ccminer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUST-Aerial-Robotics/FUEL",
+      "target": "aerial-robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUST-Aerial-Robotics/FUEL",
+      "target": "autonomous-navigation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUST-Aerial-Robotics/FUEL",
+      "target": "autonomous-robots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUST-Aerial-Robotics/FUEL",
+      "target": "motion-planning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T13:52:37.228930+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8051
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An Efficient Framework for Fast UAV Exploration ",
+    "fork": false,
+    "full_name": "HKUST-Aerial-Robotics/FUEL",
+    "html_url": "https://github.com/HKUST-Aerial-Robotics/FUEL",
+    "language": "C++",
+    "pushed_at": "2024-11-19T06:06:55Z",
+    "stargazers_count": 1394,
+    "topics": [
+      "aerial-robotics",
+      "autonomous-navigation",
+      "autonomous-robots",
+      "motion-planning",
+      "uav"
+    ],
+    "updated_at": "2026-05-05T12:30:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stevengj/nlopt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sysu-star/racer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tpruvot/ccminer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "__News:__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aerial-robotics"
+    },
+    {
+      "context_snippet": "__News:__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-navigation"
+    },
+    {
+      "context_snippet": "__News:__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-robots"
+    },
+    {
+      "context_snippet": "__News:__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-planning"
+    }
+  ]
+}

@@ -11,14 +11,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-reusable.yaml",
       "source_repo": "riscv-collab/riscv-gnu-toolchain",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-reusable.yaml",
       "source_repo": "riscv-collab/riscv-gnu-toolchain",
-      "target": "actions/cache@v4",
+      "target": "actions/cache@v5",
       "target_type": "component"
     },
     {
@@ -32,7 +32,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-reusable.yaml",
       "source_repo": "riscv-collab/riscv-gnu-toolchain",
-      "target": "actions/upload-artifact@v4",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-reusable.yaml",
+      "source_repo": "riscv-collab/riscv-gnu-toolchain",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-reusable.yaml",
+      "source_repo": "riscv-collab/riscv-gnu-toolchain",
+      "target": "actions/upload-artifact@v6",
       "target_type": "component"
     },
     {
@@ -53,21 +67,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly-release.yaml",
       "source_repo": "riscv-collab/riscv-gnu-toolchain",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly-release.yaml",
       "source_repo": "riscv-collab/riscv-gnu-toolchain",
-      "target": "actions/download-artifact@v4",
+      "target": "actions/download-artifact@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly-release.yaml",
       "source_repo": "riscv-collab/riscv-gnu-toolchain",
-      "target": "softprops/action-gh-release@v2",
+      "target": "softprops/action-gh-release@v3",
       "target_type": "component"
     },
     {
@@ -78,6 +92,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-05T00:36:37.683079+00:00",
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
   "source_repo": "riscv-collab/riscv-gnu-toolchain"
 }

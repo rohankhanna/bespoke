@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Small Examples"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "near/near-sdk-rs",
+      "status": "candidate-context",
+      "text": "Rust library for writing NEAR smart contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-sdk-rs",
+      "status": "candidate-context",
+      "text": "Test Small Examples"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-sdk-rs",
+      "status": "candidate",
+      "text": "Test Small Examples"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36138,
+      "status": "candidate",
+      "text": "degustation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31468,
+      "status": "candidate",
+      "text": "omnivore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27349,
+      "status": "candidate",
+      "text": "patch test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27349,
+      "status": "candidate",
+      "text": "skin test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27138,
+      "status": "candidate",
+      "text": "tasting"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Small Examples",
+  "concept_id": "test-small-examples",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/test_examples_small.yml",
+      "source_repo": "near/near-sdk-rs"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Small Examples",
+      "sense_id": "test-small-examples#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

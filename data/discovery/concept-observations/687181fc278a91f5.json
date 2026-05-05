@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Botright, the most advance undetected, fingerprint-changing, captcha-solving, open-source automation framework. Build on Playwright, its as easy to use as it is to extend your code. Solving your Captchas for free with AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Tests & Linting](https://github.com/Vinyzu/botright/actions/workflows/ci.yml/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Tests & Linting](https://github.com/Vinyzu/botright/actions/workflows/ci.yml/badge.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39937010,
+      "status": "candidate",
+      "text": "undiscovered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39936910,
+      "status": "candidate",
+      "text": "unnoticed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39936882,
+      "status": "candidate",
+      "text": "unobserved"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39936857,
+      "status": "candidate",
+      "text": "unseen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29936981,
+      "status": "candidate",
+      "text": "inconspicuous"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "undetected",
+      "sense_id": "undetected#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16021,
+      "status": "candidate",
+      "text": "unnoticed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10035,
+      "status": "candidate",
+      "text": "unseen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3020,
+      "status": "candidate",
+      "text": "undiscovered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2022,
+      "status": "candidate",
+      "text": "unobserved"
+    }
+  ],
+  "concept_id": "undetected",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "undetected",
+  "observation_id": "687181fc278a91f5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "undetected",
+  "source_context_snippet": "![Tests & Linting](https://github.com/Vinyzu/botright/actions/workflows/ci.yml/badge.svg)",
+  "source_file": null,
+  "source_repo": "Vinyzu/Botright",
+  "source_repo_description": "Botright, the most advance undetected, fingerprint-changing, captcha-solving, open-source automation framework. Build on Playwright, its as easy to use as it is to extend your code. Solving your Captchas for free with AI."
+}

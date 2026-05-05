@@ -1,0 +1,116 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lace/lace",
+      "target": "lace/entente",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lace/lace",
+      "target": "lace/hobart",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lace/lace",
+      "target": "lace/meshlab-pickedpoints",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lace/lace",
+      "target": "lace/blmath",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/lace",
+      "target": "geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/lace",
+      "target": "mesh",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T15:48:08.664946+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3216
+    },
+    {
+      "path": "Dockerfile",
+      "size": 420
+    },
+    {
+      "path": "requirements.txt",
+      "size": 239
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "DEPRECATED: Polygonal mesh library developed at Body Labs",
+    "fork": false,
+    "full_name": "lace/lace",
+    "html_url": "https://github.com/lace/lace",
+    "language": "Python",
+    "pushed_at": "2023-02-03T18:46:40Z",
+    "stargazers_count": 3,
+    "topics": [
+      "3d",
+      "geometry",
+      "mesh"
+    ],
+    "updated_at": "2023-02-04T09:08:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lace/blmath",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lace/entente",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lace/hobart",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lace/meshlab-pickedpoints",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "lace",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geometry"
+    },
+    {
+      "context_snippet": "lace",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesh"
+    }
+  ]
+}

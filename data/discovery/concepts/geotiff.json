@@ -19,6 +19,18 @@
       "source_repo": "geotiffjs/geotiff.js",
       "status": "candidate-context",
       "text": "[![Node.js CI](https://github.com/geotiffjs/geotiff.js/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/geotiffjs/geotiff.js/actions/workflows/ci.yml) [![npm version](https://badge.fury.io/js/geotiff.svg)](https://badge.fury.io/js/geotiff) [![Gitter chat](ht\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "status": "candidate-context",
+      "text": "A library that converts GeoTIFFs geokeys to Proj4 string"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "status": "candidate-context",
+      "text": "This library converts GeoTIFF's geokeys to Proj4 string, so you can [consume](#why-do-i-need-it) your images."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "geotiffjs/geotiff.js",
       "status": "candidate",
       "text": "[![Node.js CI](https://github.com/geotiffjs/geotiff.js/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/geotiffjs/geotiff.js/actions/workflows/ci.yml) [![npm version](https://badge.fury.io/js/geotiff.svg)](https://badge.fury.io/js/geotiff) [![Gitter chat](ht\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "status": "candidate",
+      "text": "This library converts GeoTIFF's geokeys to Proj4 string, so you can [consume](#why-do-i-need-it) your images."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,23 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "geotiffjs/geotiff.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "geotiffjs/geotiff.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4"
     }
   ],
   "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

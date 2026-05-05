@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -11,6 +11,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "black7375/Firefox-UI-Fix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "dothq/melon"
     }
   ],
   "term": "userchrome"

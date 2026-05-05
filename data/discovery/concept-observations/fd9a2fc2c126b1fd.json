@@ -84,7 +84,7 @@
   "normalized_form": "concurrency",
   "observation_id": "fd9a2fc2c126b1fd",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "concurrency",
   "source_context_snippet": "Fork Union is arguably the lowest-latency OpenMP-style NUMA-aware minimalistic scoped thread-pool designed for 'Fork-Join' parallelism in C++, C, and Rust, avoiding \u00d7 [mutexes & system calls](#locks-and-mutexes), \u00d7 [dynamic memory allocations](#memory-allocations), \u00d7 [CAS-primit\u2026",
   "source_file": null,

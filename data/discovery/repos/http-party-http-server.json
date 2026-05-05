@@ -123,13 +123,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "http-party/http-server",
-      "target": "http-party/node-http-proxy",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "http-party/http-server",
@@ -375,7 +368,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T18:39:17.301743+00:00",
+  "fetched_at": "2026-05-05T14:58:52.562063+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -412,7 +405,7 @@
     "html_url": "https://github.com/http-party/http-server",
     "language": "JavaScript",
     "pushed_at": "2026-04-15T11:09:09Z",
-    "stargazers_count": 14178,
+    "stargazers_count": 14179,
     "topics": [
       "command-line",
       "hacktoberfest",
@@ -423,15 +416,9 @@
       "static",
       "static-server"
     ],
-    "updated_at": "2026-05-02T09:59:09Z"
+    "updated_at": "2026-05-05T02:03:05Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "http-party/node-http-proxy",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Node.js CI",

@@ -19,12 +19,30 @@
       "source_repo": "TeamHG-Memex/tensorboard_logger",
       "status": "candidate-context",
       "text": "Swarm Mode - Continuous Progress"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HyperionGray/trio-chrome-devtools-protocol",
+      "status": "candidate-context",
+      "text": "Trio driver for Chrome DevTools Protocol (CDP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HyperionGray/trio-chrome-devtools-protocol",
+      "status": "candidate-context",
+      "text": "Swarm Mode - Continuous Progress"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "TeamHG-Memex/tensorboard_logger",
+      "status": "candidate",
+      "text": "Swarm Mode - Continuous Progress"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HyperionGray/trio-chrome-devtools-protocol",
       "status": "candidate",
       "text": "Swarm Mode - Continuous Progress"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/swarm-mode.yml",
       "source_repo": "TeamHG-Memex/tensorboard_logger"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/swarm-mode.yml",
+      "source_repo": "HyperionGray/trio-chrome-devtools-protocol"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

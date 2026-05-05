@@ -84,7 +84,7 @@
   "normalized_form": "update-browser-testing-dependencies-selenium-playwright",
   "observation_id": "dead075bf074ca3c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Update Browser-Testing Dependencies (Selenium & Playwright)",
   "source_context_snippet": "\"Update Browser-Testing Dependencies (Selenium & Playwright)\"",
   "source_file": ".github/workflows/browsertesting-deps-update.lock.yml",

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hsivonen/chardetng",
+      "target": "google/compact_enc_det",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hsivonen/chardetng",
+      "target": "hsivonen/detector_char_classes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hsivonen/chardetng",
+      "target": "hsivonen/charcounts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hsivonen/chardetng",
+      "target": "hsivonen/testdet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:55:59.462004+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12703
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1041
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A character encoding detector for legacy Web content.",
+    "fork": false,
+    "full_name": "hsivonen/chardetng",
+    "html_url": "https://github.com/hsivonen/chardetng",
+    "language": "Rust",
+    "pushed_at": "2026-03-30T12:24:30Z",
+    "stargazers_count": 118,
+    "topics": [],
+    "updated_at": "2026-05-02T20:58:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/compact_enc_det",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hsivonen/charcounts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hsivonen/detector_char_classes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hsivonen/testdet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

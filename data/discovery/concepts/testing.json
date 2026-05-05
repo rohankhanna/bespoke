@@ -1943,6 +1943,30 @@
       "source_repo": "americanexpress/jest-json-schema",
       "status": "candidate-context",
       "text": "[![npm version](https://badge.fury.io/js/jest-json-schema.svg)](https://badge.fury.io/js/jest-json-schema)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cleanunicorn/mockprovider",
+      "status": "candidate-context",
+      "text": "Solidity mocking provider for testing "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleanunicorn/mockprovider",
+      "status": "candidate-context",
+      "text": "A library for mocking Solidity contracts."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MisanthropicBit/neotest-busted",
+      "status": "candidate-context",
+      "text": "Neotest adapter for running busted tests using neovim as a lua interpreter "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MisanthropicBit/neotest-busted",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -2911,6 +2935,18 @@
       "source_repo": "americanexpress/jest-json-schema",
       "status": "candidate",
       "text": "[![npm version](https://badge.fury.io/js/jest-json-schema.svg)](https://badge.fury.io/js/jest-json-schema)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleanunicorn/mockprovider",
+      "status": "candidate",
+      "text": "A library for mocking Solidity contracts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MisanthropicBit/neotest-busted",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -4635,11 +4671,83 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "DioxusLabs/sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "PraneshASP/vscode-foundry-test-runner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "cleanunicorn/mockprovider"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ttlns/Selenium-Driverless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/enzyme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/react-shallow-renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "MisanthropicBit/neotest-busted"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

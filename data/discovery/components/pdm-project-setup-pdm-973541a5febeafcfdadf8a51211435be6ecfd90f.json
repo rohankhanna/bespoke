@@ -1,7 +1,7 @@
 {
   "component": "pdm-project/setup-pdm@973541a5febeafcfdadf8a51211435be6ecfd90f",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

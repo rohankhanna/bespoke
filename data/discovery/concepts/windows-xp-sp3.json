@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "windows-xp-sp3"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alex313031/thorium-legacy",
+      "status": "candidate-context",
+      "text": "Repo for Windows XP/Vista & 7/8/8.1 Thorium Builds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/thorium-legacy",
+      "status": "candidate-context",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-win7?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-win7?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/c\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/thorium-legacy",
+      "status": "candidate",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-win7?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-win7?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/c\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "windows-xp-sp3",
+  "concept_id": "windows-xp-sp3",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium-legacy"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "windows-xp-sp3",
+      "sense_id": "windows-xp-sp3#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,165 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "NuGet/setup-nuget@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "fugro-oss/g2o",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "fugro-oss/g2o",
+      "target": "actions/setup-dotnet@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "fugro-oss/g2o",
+      "target": "NuGet/setup-nuget@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "fugro-oss/g2o",
+      "target": "microsoft/setup-msbuild@v1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "fugro-oss/g2o",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "fugro-oss/g2o",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fugro-oss/g2o",
+      "target": "estimate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fugro-oss/g2o",
+      "target": "graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fugro-oss/g2o",
+      "target": "measurements",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fugro-oss/g2o",
+      "target": "optimization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:53:29.794943+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3066
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1227
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A .Net wrapper for the G2O (graph-based optimization) library",
+    "fork": false,
+    "full_name": "fugro-oss/g2o",
+    "html_url": "https://github.com/fugro-oss/g2o",
+    "language": "C++",
+    "pushed_at": "2023-10-17T07:25:13Z",
+    "stargazers_count": 14,
+    "topics": [
+      "estimate",
+      "g2o",
+      "graph",
+      "measurements",
+      "optimization"
+    ],
+    "updated_at": "2025-05-03T08:17:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Build and Test"
+    },
+    {
+      "context_snippet": "A .Net wrapper for the G2O (graph-based optimization) library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "estimate"
+    },
+    {
+      "context_snippet": "A .Net wrapper for the G2O (graph-based optimization) library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph"
+    },
+    {
+      "context_snippet": "A .Net wrapper for the G2O (graph-based optimization) library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "measurements"
+    },
+    {
+      "context_snippet": "A .Net wrapper for the G2O (graph-based optimization) library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization"
+    }
+  ]
+}

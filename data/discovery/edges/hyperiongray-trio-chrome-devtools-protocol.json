@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "HyperionGray/trio-chrome-devtools-protocol",
+      "target": "hyperiongray/python-chrome-devtools-protocol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-issues.yml",
+      "source_repo": "HyperionGray/trio-chrome-devtools-protocol",
+      "target": "actions/stale@v10.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oz-pr-review.yml",
+      "source_repo": "HyperionGray/trio-chrome-devtools-protocol",
+      "target": "actions/checkout@v4.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oz-pr-review.yml",
+      "source_repo": "HyperionGray/trio-chrome-devtools-protocol",
+      "target": "warpdotdev/oz-agent-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/oz-pr-review.yml",
+      "source_repo": "HyperionGray/trio-chrome-devtools-protocol",
+      "target": "Oz Auto-Fixer & Reviewer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swarm-mode.yml",
+      "source_repo": "HyperionGray/trio-chrome-devtools-protocol",
+      "target": "actions/checkout@v4.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swarm-mode.yml",
+      "source_repo": "HyperionGray/trio-chrome-devtools-protocol",
+      "target": "actions/github-script@v7.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swarm-mode.yml",
+      "source_repo": "HyperionGray/trio-chrome-devtools-protocol",
+      "target": "Swarm Mode - Continuous Progress",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "HyperionGray/trio-chrome-devtools-protocol"
+}

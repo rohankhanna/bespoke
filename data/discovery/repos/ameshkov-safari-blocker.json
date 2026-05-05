@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "irgaly/setup-mint@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ameshkov/safari-blocker",
+      "target": "cpisciotta/xcbeautify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ameshkov/safari-blocker",
+      "target": "maxim-lobanov/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ameshkov/safari-blocker",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ameshkov/safari-blocker",
+      "target": "pnpm/action-setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ameshkov/safari-blocker",
+      "target": "irgaly/setup-mint@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ameshkov/safari-blocker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:56:11.215672+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3604
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1536
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple app for iOS/macOS to test Safari content blocking",
+    "fork": false,
+    "full_name": "ameshkov/safari-blocker",
+    "html_url": "https://github.com/ameshkov/safari-blocker",
+    "language": "JavaScript",
+    "pushed_at": "2026-01-14T14:13:08Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-04-06T13:50:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cpisciotta/xcbeautify",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

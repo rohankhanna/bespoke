@@ -4,6 +4,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "typescript-language-server/typescript-language-server",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "typescript-language-server/typescript-language-server",
       "target": "@rollup/plugin-commonjs",
       "target_type": "component"
     },
@@ -117,6 +124,13 @@
       "source_file": "package.json",
       "source_repo": "typescript-language-server/typescript-language-server",
       "target": "fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "typescript-language-server/typescript-language-server",
+      "target": "globals",
       "target_type": "component"
     },
     {
@@ -256,7 +270,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "typescript-language-server/typescript-language-server",
-      "target": "actions/checkout@v5",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
@@ -270,14 +284,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "typescript-language-server/typescript-language-server",
-      "target": "googleapis/release-please-action@v4",
+      "target": "googleapis/release-please-action@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "typescript-language-server/typescript-language-server",
-      "target": "actions/checkout@v5",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
@@ -298,7 +312,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/semantic-commits.yaml",
       "source_repo": "typescript-language-server/typescript-language-server",
-      "target": "ytanikin/PRConventionalCommits@1.1.0",
+      "target": "ytanikin/PRConventionalCommits@1.3.0",
       "target_type": "component"
     },
     {
@@ -312,7 +326,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/size-limit.yaml",
       "source_repo": "typescript-language-server/typescript-language-server",
-      "target": "actions/checkout@v5",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
@@ -358,6 +372,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-04T12:47:39.186442+00:00",
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
   "source_repo": "typescript-language-server/typescript-language-server"
 }

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T16:54:45.539840+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 201
+    },
+    {
+      "path": "requirements.txt",
+      "size": 56
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICRA2023] The official implementation of paper \"Model-agnostic Multi-agent Perception\"",
+    "fork": false,
+    "full_name": "DerrickXuNu/model_anostic",
+    "html_url": "https://github.com/DerrickXuNu/model_anostic",
+    "language": "Python",
+    "pushed_at": "2023-11-23T00:46:12Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2025-09-09T13:11:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "punycode"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gumob/PunycodeSwift",
+      "status": "candidate-context",
+      "text": "PunycodeSwift is a pure Swift library to allows you to encode and decode punycoded strings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gumob/PunycodeSwift",
+      "status": "candidate-context",
+      "text": "[![Swift Package Manager compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)](https://github.com/gumob/PunycodeSwift)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gumob/TLDExtractSwift",
+      "status": "candidate-context",
+      "text": "A pure Swift library to allows you to get the public suffix of a domain name"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gumob/TLDExtractSwift",
+      "status": "candidate-context",
+      "text": "[![Swift Package Manager compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)](https://github.com/gumob/TLDExtractSwift)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gumob/PunycodeSwift",
+      "status": "candidate",
+      "text": "[![Swift Package Manager compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)](https://github.com/gumob/PunycodeSwift)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gumob/TLDExtractSwift",
+      "status": "candidate",
+      "text": "[![Swift Package Manager compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)](https://github.com/gumob/TLDExtractSwift)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19878377,
+      "status": "candidate",
+      "text": "codepage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19878376,
+      "status": "candidate",
+      "text": "code page"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19878375,
+      "status": "candidate",
+      "text": "bytecode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19878374,
+      "status": "candidate",
+      "text": "type punning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19878373,
+      "status": "candidate",
+      "text": "unicode"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "punycode",
+  "concept_id": "punycode",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "gumob/PunycodeSwift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "gumob/TLDExtractSwift"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "punycode",
+      "sense_id": "punycode#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

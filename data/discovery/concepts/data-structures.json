@@ -199,6 +199,18 @@
       "source_repo": "nelson-lang/nelson",
       "status": "candidate-context",
       "text": "![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=nelson-lang.nelson)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ayazhafiz/xorf",
+      "status": "candidate-context",
+      "text": "Xor filters - efficient probabilistic hashsets. Faster and smaller than bloom and cuckoo filters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ayazhafiz/xorf",
+      "status": "candidate-context",
+      "text": "[![Xorf docs](https://docs.rs/xorf/badge.svg)](https://docs.rs/xorf)"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "nelson-lang/nelson",
       "status": "candidate",
       "text": "![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=nelson-lang.nelson)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ayazhafiz/xorf",
+      "status": "candidate",
+      "text": "[![Xorf docs](https://docs.rs/xorf/badge.svg)](https://docs.rs/xorf)"
     }
   ],
   "candidate_related_terms": [],
@@ -538,11 +556,35 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "nutsdb/nutsdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ayazhafiz/xorf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "JTAmos/Temporal.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

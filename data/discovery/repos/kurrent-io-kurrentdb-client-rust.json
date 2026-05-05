@@ -258,7 +258,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T07:20:12.660975+00:00",
+  "fetched_at": "2026-05-05T17:06:21.920385+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -310,7 +310,7 @@
     "full_name": "kurrent-io/KurrentDB-Client-Rust",
     "html_url": "https://github.com/kurrent-io/KurrentDB-Client-Rust",
     "language": "Rust",
-    "pushed_at": "2026-05-05T07:18:16Z",
+    "pushed_at": "2026-05-05T07:44:50Z",
     "stargazers_count": 62,
     "topics": [
       "cqrs",
@@ -321,7 +321,7 @@
       "rust",
       "rust-lang"
     ],
-    "updated_at": "2026-05-05T07:18:18Z"
+    "updated_at": "2026-05-05T07:42:24Z"
   },
   "repo_links": [
     {

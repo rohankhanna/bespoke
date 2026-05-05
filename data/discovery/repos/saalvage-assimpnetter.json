@@ -1,0 +1,216 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Saalvage/AssimpNetter",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Saalvage/AssimpNetter",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Saalvage/AssimpNetter",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Saalvage/AssimpNetter",
+      "target": "asset-pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Saalvage/AssimpNetter",
+      "target": "assets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Saalvage/AssimpNetter",
+      "target": "assimp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Saalvage/AssimpNetter",
+      "target": "collada",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Saalvage/AssimpNetter",
+      "target": "game-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Saalvage/AssimpNetter",
+      "target": "gltf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Saalvage/AssimpNetter",
+      "target": "gltf2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Saalvage/AssimpNetter",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Saalvage/AssimpNetter",
+      "target": "mesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Saalvage/AssimpNetter",
+      "target": "model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:55:04.047520+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4123
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1188
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Maintained fork of AssimpNet that adds better interop with modern C#",
+    "fork": false,
+    "full_name": "Saalvage/AssimpNetter",
+    "html_url": "https://github.com/Saalvage/AssimpNetter",
+    "language": "C#",
+    "pushed_at": "2026-03-19T16:43:24Z",
+    "stargazers_count": 67,
+    "topics": [
+      "3d",
+      "3ds",
+      "asset-pipeline",
+      "assets",
+      "assimp",
+      "collada",
+      "fbx",
+      "game-development",
+      "gltf",
+      "gltf2",
+      "graphics",
+      "mesh",
+      "model",
+      "obj"
+    ],
+    "updated_at": "2026-05-04T16:37:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "![alt text](https://raw.githubusercontent.com/Saalvage/AssimpNetter/master/logo.png \"AssimpNet Logo\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asset-pipeline"
+    },
+    {
+      "context_snippet": "![alt text](https://raw.githubusercontent.com/Saalvage/AssimpNetter/master/logo.png \"AssimpNet Logo\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assets"
+    },
+    {
+      "context_snippet": "![alt text](https://raw.githubusercontent.com/Saalvage/AssimpNetter/master/logo.png \"AssimpNet Logo\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assimp"
+    },
+    {
+      "context_snippet": "![alt text](https://raw.githubusercontent.com/Saalvage/AssimpNetter/master/logo.png \"AssimpNet Logo\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "collada"
+    },
+    {
+      "context_snippet": "![alt text](https://raw.githubusercontent.com/Saalvage/AssimpNetter/master/logo.png \"AssimpNet Logo\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-development"
+    },
+    {
+      "context_snippet": "![alt text](https://raw.githubusercontent.com/Saalvage/AssimpNetter/master/logo.png \"AssimpNet Logo\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gltf"
+    },
+    {
+      "context_snippet": "![alt text](https://raw.githubusercontent.com/Saalvage/AssimpNetter/master/logo.png \"AssimpNet Logo\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gltf2"
+    },
+    {
+      "context_snippet": "![alt text](https://raw.githubusercontent.com/Saalvage/AssimpNetter/master/logo.png \"AssimpNet Logo\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "![alt text](https://raw.githubusercontent.com/Saalvage/AssimpNetter/master/logo.png \"AssimpNet Logo\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesh"
+    },
+    {
+      "context_snippet": "![alt text](https://raw.githubusercontent.com/Saalvage/AssimpNetter/master/logo.png \"AssimpNet Logo\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "didip/tollbooth",
+      "target": "didip/errstack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "didip/tollbooth",
+      "target": "didip/stopwatch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "didip/tollbooth",
+      "target": "didip/laborunion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "didip/tollbooth",
+      "target": "didip/gomet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "didip/tollbooth",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "didip/tollbooth",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "didip/tollbooth",
+      "target": "golangci/golangci-lint-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "didip/tollbooth",
+      "target": "build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:52:11.450483+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8354
+    },
+    {
+      "path": "go.mod",
+      "size": 100
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 522
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple middleware to rate-limit HTTP requests.",
+    "fork": false,
+    "full_name": "didip/tollbooth",
+    "html_url": "https://github.com/didip/tollbooth",
+    "language": "Go",
+    "pushed_at": "2025-01-12T17:38:14Z",
+    "stargazers_count": 2859,
+    "topics": [],
+    "updated_at": "2026-05-03T03:29:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "didip/errstack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "didip/gomet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "didip/laborunion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "didip/stopwatch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "build"
+    }
+  ]
+}

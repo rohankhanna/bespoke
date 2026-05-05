@@ -1,0 +1,12 @@
+{
+  "component": "foundry-rs/foundry-toolchain@c7450ba673e133f5ee30098b3b54f444d3a2ca2d",
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "foundry-rs/forge-std"
+    }
+  ]
+}

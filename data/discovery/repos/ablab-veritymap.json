@@ -1,0 +1,76 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ablab/VerityMap",
+      "target": "ablab/tandemquast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ablab/VerityMap",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ablab/VerityMap",
+      "target": "BuildAndTestLaunch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:51:53.101640+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4289
+    },
+    {
+      "path": "requirements.txt",
+      "size": 43
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 958
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "ablab/VerityMap",
+    "html_url": "https://github.com/ablab/VerityMap",
+    "language": "C++",
+    "pushed_at": "2023-02-22T06:23:20Z",
+    "stargazers_count": 39,
+    "topics": [],
+    "updated_at": "2025-11-26T12:28:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ablab/tandemquast",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "BuildAndTestLaunch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "BuildAndTestLaunch"
+    }
+  ]
+}

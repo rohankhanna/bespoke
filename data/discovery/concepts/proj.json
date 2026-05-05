@@ -43,6 +43,18 @@
       "source_repo": "JuliaGeo/Proj.jl",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/JuliaGeo/Proj.jl/workflows/CI/badge.svg)](https://github.com/JuliaGeo/Proj.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "status": "candidate-context",
+      "text": "A library that converts GeoTIFFs geokeys to Proj4 string"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "status": "candidate-context",
+      "text": "This library converts GeoTIFF's geokeys to Proj4 string, so you can [consume](#why-do-i-need-it) your images."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "JuliaGeo/Proj.jl",
       "status": "candidate",
       "text": "[![CI](https://github.com/JuliaGeo/Proj.jl/workflows/CI/badge.svg)](https://github.com/JuliaGeo/Proj.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4",
+      "status": "candidate",
+      "text": "This library converts GeoTIFF's geokeys to Proj4 string, so you can [consume](#why-do-i-need-it) your images."
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "JuliaGeo/Proj.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "matafokka/geotiff-geokeys-to-proj4"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

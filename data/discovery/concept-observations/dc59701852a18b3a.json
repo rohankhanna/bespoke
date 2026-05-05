@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Trailblazer's file structure for Cells."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "_Trailblazer's file layout for Cells._"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "_Trailblazer's file layout for Cells._"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9983556,
+      "status": "candidate",
+      "text": "prison cell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9982198,
+      "status": "candidate",
+      "text": "jail cell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9942477,
+      "status": "candidate",
+      "text": "cadre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9915779,
+      "status": "candidate",
+      "text": "cubicle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51527,
+      "status": "candidate",
+      "text": "electric cell"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cells",
+      "sense_id": "cells#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cells",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cells",
+  "observation_id": "dc59701852a18b3a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "cells",
+  "source_context_snippet": "_Trailblazer's file layout for Cells._",
+  "source_file": null,
+  "source_repo": "trailblazer/trailblazer-cells",
+  "source_repo_description": "Trailblazer's file structure for Cells."
+}

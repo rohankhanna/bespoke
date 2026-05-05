@@ -1,0 +1,153 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-images.yml",
+      "source_repo": "box2ai-robotics/lerobot-joycon",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-images.yml",
+      "source_repo": "box2ai-robotics/lerobot-joycon",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-images.yml",
+      "source_repo": "box2ai-robotics/lerobot-joycon",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-images.yml",
+      "source_repo": "box2ai-robotics/lerobot-joycon",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docker-images.yml",
+      "source_repo": "box2ai-robotics/lerobot-joycon",
+      "target": "Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-tests.yml",
+      "source_repo": "box2ai-robotics/lerobot-joycon",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-tests.yml",
+      "source_repo": "box2ai-robotics/lerobot-joycon",
+      "target": "Nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "box2ai-robotics/lerobot-joycon",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "box2ai-robotics/lerobot-joycon",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "box2ai-robotics/lerobot-joycon",
+      "target": "Quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docker-build.yml",
+      "source_repo": "box2ai-robotics/lerobot-joycon",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docker-build.yml",
+      "source_repo": "box2ai-robotics/lerobot-joycon",
+      "target": "tj-actions/changed-files@v44",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docker-build.yml",
+      "source_repo": "box2ai-robotics/lerobot-joycon",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docker-build.yml",
+      "source_repo": "box2ai-robotics/lerobot-joycon",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-docker-build.yml",
+      "source_repo": "box2ai-robotics/lerobot-joycon",
+      "target": "Test Dockerfiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "box2ai-robotics/lerobot-joycon",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "box2ai-robotics/lerobot-joycon",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "box2ai-robotics/lerobot-joycon",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "source_repo": "box2ai-robotics/lerobot-joycon",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "source_repo": "box2ai-robotics/lerobot-joycon",
+      "target": "trufflesecurity/trufflehog@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "source_repo": "box2ai-robotics/lerobot-joycon",
+      "target": "Secret Leaks",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "box2ai-robotics/lerobot-joycon"
+}

@@ -67,6 +67,30 @@
       "source_repo": "danijar/dreamerv3",
       "status": "candidate-context",
       "text": "A reimplementation of [DreamerV3][paper], a scalable and general reinforcement"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haveachin/infrared",
+      "status": "candidate-context",
+      "text": "An ultra lightweight minecraft reverse proxy and idle placeholder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haveachin/infrared",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "itzg/mc-router",
+      "status": "candidate-context",
+      "text": "Routes Minecraft client connections to backend servers based upon the requested server address"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itzg/mc-router",
+      "status": "candidate-context",
+      "text": "[![GitHub issues](https://img.shields.io/github/issues/itzg/mc-router.svg)](https://github.com/itzg/mc-router/issues)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "danijar/dreamerv3",
       "status": "candidate",
       "text": "A reimplementation of [DreamerV3][paper], a scalable and general reinforcement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haveachin/infrared",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itzg/mc-router",
+      "status": "candidate",
+      "text": "[![GitHub issues](https://img.shields.io/github/issues/itzg/mc-router.svg)](https://github.com/itzg/mc-router/issues)"
     }
   ],
   "candidate_related_terms": [
@@ -250,11 +286,29 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "haveachin/infrared"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "itzg/mc-router"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

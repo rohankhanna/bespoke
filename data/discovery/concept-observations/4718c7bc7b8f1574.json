@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ethereum Light Client for IBC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![test](https://github.com/datachainlab/ethereum-ibc-rs/actions/workflows/test.yml/badge.svg)](https://github.com/datachainlab/ethereum-ibc-rs/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![test](https://github.com/datachainlab/ethereum-ibc-rs/actions/workflows/test.yml/badge.svg)](https://github.com/datachainlab/ethereum-ibc-rs/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991471,
+      "status": "candidate",
+      "text": "radio beacon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39975847,
+      "status": "candidate",
+      "text": "pharos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39969483,
+      "status": "candidate",
+      "text": "lighthouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30004427,
+      "status": "candidate",
+      "text": "beacon fire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30004427,
+      "status": "candidate",
+      "text": "beacon light"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "beacon",
+      "sense_id": "beacon#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5040,
+      "status": "candidate",
+      "text": "lighthouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2011,
+      "status": "candidate",
+      "text": "beacon light"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1010,
+      "status": "candidate",
+      "text": "beacon fire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21,
+      "status": "candidate",
+      "text": "radio beacon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "pharos"
+    }
+  ],
+  "concept_id": "beacon",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "beacon",
+  "observation_id": "4718c7bc7b8f1574",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "beacon",
+  "source_context_snippet": "[![test](https://github.com/datachainlab/ethereum-ibc-rs/actions/workflows/test.yml/badge.svg)](https://github.com/datachainlab/ethereum-ibc-rs/actions/workflows/test.yml)",
+  "source_file": null,
+  "source_repo": "datachainlab/ethereum-ibc-rs",
+  "source_repo_description": "Ethereum Light Client for IBC"
+}

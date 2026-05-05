@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Receive notifications when an image is updated on a Docker registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\"><a href=\"https://crazymax.dev/diun/\" target=\"_blank\"><img height=\"128\" src=\"https://raw.githubusercontent.com/crazy-max/diun/master/.res/diun.png\"></a></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://crazymax.dev/diun/\" target=\"_blank\"><img height=\"128\" src=\"https://raw.githubusercontent.com/crazy-max/diun/master/.res/diun.png\"></a></p>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39910705,
+      "status": "candidate",
+      "text": "picket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39899133,
+      "status": "candidate",
+      "text": "ticker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39898211,
+      "status": "candidate",
+      "text": "sentry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39895315,
+      "status": "candidate",
+      "text": "lookout man"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39893709,
+      "status": "candidate",
+      "text": "lookout"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "watch",
+      "sense_id": "watch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 108039,
+      "status": "candidate",
+      "text": "ascertain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43035,
+      "status": "candidate",
+      "text": "observe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31033,
+      "status": "candidate",
+      "text": "sentry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28057,
+      "status": "candidate",
+      "text": "see"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27048,
+      "status": "candidate",
+      "text": "view"
+    }
+  ],
+  "concept_id": "watch",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "watch",
+  "observation_id": "0e9574ba178cc374",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "watch",
+  "source_context_snippet": "<p align=\"center\"><a href=\"https://crazymax.dev/diun/\" target=\"_blank\"><img height=\"128\" src=\"https://raw.githubusercontent.com/crazy-max/diun/master/.res/diun.png\"></a></p>",
+  "source_file": null,
+  "source_repo": "crazy-max/diun",
+  "source_repo_description": "Receive notifications when an image is updated on a Docker registry"
+}

@@ -1,0 +1,138 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/transfer-learning-conv-ai",
+      "target": "chatbots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/transfer-learning-conv-ai",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/transfer-learning-conv-ai",
+      "target": "dialog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/transfer-learning-conv-ai",
+      "target": "gpt-2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/transfer-learning-conv-ai",
+      "target": "neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/transfer-learning-conv-ai",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/transfer-learning-conv-ai",
+      "target": "transfer-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:55:28.182088+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9546
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1077
+    },
+    {
+      "path": "requirements.txt",
+      "size": 96
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83e\udd84 State-of-the-Art Conversational AI with Transfer Learning",
+    "fork": false,
+    "full_name": "huggingface/transfer-learning-conv-ai",
+    "html_url": "https://github.com/huggingface/transfer-learning-conv-ai",
+    "language": "Python",
+    "pushed_at": "2023-06-12T21:27:49Z",
+    "stargazers_count": 1759,
+    "topics": [
+      "chatbots",
+      "deep-learning",
+      "dialog",
+      "gpt",
+      "gpt-2",
+      "neural-networks",
+      "nlp",
+      "pytorch",
+      "transfer-learning"
+    ],
+    "updated_at": "2026-04-23T11:53:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The present repo contains the code accompanying the blog post [\ud83e\udd84 How to build a State-of-the-Art Conversational AI with Transfer Learning](https://medium.com/@Thomwolf/how-to-build-a-state-of-the-art-conversational-ai-with-transfer-learning-2d818ac26313).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbots"
+    },
+    {
+      "context_snippet": "The present repo contains the code accompanying the blog post [\ud83e\udd84 How to build a State-of-the-Art Conversational AI with Transfer Learning](https://medium.com/@Thomwolf/how-to-build-a-state-of-the-art-conversational-ai-with-transfer-learning-2d818ac26313).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "The present repo contains the code accompanying the blog post [\ud83e\udd84 How to build a State-of-the-Art Conversational AI with Transfer Learning](https://medium.com/@Thomwolf/how-to-build-a-state-of-the-art-conversational-ai-with-transfer-learning-2d818ac26313).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dialog"
+    },
+    {
+      "context_snippet": "The present repo contains the code accompanying the blog post [\ud83e\udd84 How to build a State-of-the-Art Conversational AI with Transfer Learning](https://medium.com/@Thomwolf/how-to-build-a-state-of-the-art-conversational-ai-with-transfer-learning-2d818ac26313).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-2"
+    },
+    {
+      "context_snippet": "The present repo contains the code accompanying the blog post [\ud83e\udd84 How to build a State-of-the-Art Conversational AI with Transfer Learning](https://medium.com/@Thomwolf/how-to-build-a-state-of-the-art-conversational-ai-with-transfer-learning-2d818ac26313).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-networks"
+    },
+    {
+      "context_snippet": "The present repo contains the code accompanying the blog post [\ud83e\udd84 How to build a State-of-the-Art Conversational AI with Transfer Learning](https://medium.com/@Thomwolf/how-to-build-a-state-of-the-art-conversational-ai-with-transfer-learning-2d818ac26313).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "The present repo contains the code accompanying the blog post [\ud83e\udd84 How to build a State-of-the-Art Conversational AI with Transfer Learning](https://medium.com/@Thomwolf/how-to-build-a-state-of-the-art-conversational-ai-with-transfer-learning-2d818ac26313).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transfer-learning"
+    }
+  ]
+}

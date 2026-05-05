@@ -187,6 +187,54 @@
       "source_repo": "lace/lacecore",
       "status": "candidate-context",
       "text": "[![version](https://img.shields.io/pypi/v/lacecore?style=flat-square)][pypi]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "utiasASRL/lgmath",
+      "status": "candidate-context",
+      "text": "Lie group math library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "utiasASRL/lgmath",
+      "status": "candidate-context",
+      "text": "lgmath is a C++ library for handling geometry in state estimation problems in robotics."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lace/lace",
+      "status": "candidate-context",
+      "text": "DEPRECATED: Polygonal mesh library developed at Body Labs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/lace",
+      "status": "candidate-context",
+      "text": "lace"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lace/polliwog",
+      "status": "candidate-context",
+      "text": "2D and 3D computational geometry library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/polliwog",
+      "status": "candidate-context",
+      "text": "[![version](https://img.shields.io/pypi/v/polliwog?style=flat-square)][pypi]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lace/vg",
+      "status": "candidate-context",
+      "text": "Vector-geometry toolbelt for 3D points and vectors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/vg",
+      "status": "candidate-context",
+      "text": "vg"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +327,30 @@
       "source_repo": "lace/lacecore",
       "status": "candidate",
       "text": "[![version](https://img.shields.io/pypi/v/lacecore?style=flat-square)][pypi]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "utiasASRL/lgmath",
+      "status": "candidate",
+      "text": "lgmath is a C++ library for handling geometry in state estimation problems in robotics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/lace",
+      "status": "candidate",
+      "text": "lace"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/polliwog",
+      "status": "candidate",
+      "text": "[![version](https://img.shields.io/pypi/v/polliwog?style=flat-square)][pypi]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/vg",
+      "status": "candidate",
+      "text": "vg"
     }
   ],
   "candidate_related_terms": [
@@ -418,11 +490,35 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "lace/lacecore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "utiasASRL/lgmath"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "lace/lace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "lace/polliwog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "lace/vg"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

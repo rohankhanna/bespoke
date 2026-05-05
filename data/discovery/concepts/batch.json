@@ -67,6 +67,18 @@
       "source_repo": "Taited/clip-score",
       "status": "candidate-context",
       "text": "[![PyPI](https://img.shields.io/pypi/v/clip-score.svg)](https://pypi.org/project/clip-score/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "myfreeer/chrome-pak-customizer",
+      "status": "candidate-context",
+      "text": "a simple command-line tool to pack and unpack pak files in chrome or chromium-based browser  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "myfreeer/chrome-pak-customizer",
+      "status": "candidate-context",
+      "text": "a simple batch tool to customize pak files in chrome or chromium-based browser"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "Taited/clip-score",
       "status": "candidate",
       "text": "[![PyPI](https://img.shields.io/pypi/v/clip-score.svg)](https://pypi.org/project/clip-score/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "myfreeer/chrome-pak-customizer",
+      "status": "candidate",
+      "text": "a simple batch tool to customize pak files in chrome or chromium-based browser"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +226,17 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "Taited/clip-score"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "myfreeer/chrome-pak-customizer"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

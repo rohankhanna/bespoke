@@ -43,6 +43,18 @@
       "source_repo": "haosulab/ManiSkill",
       "status": "candidate-context",
       "text": "![teaser](figures/teaser.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhavl/dkt",
+      "status": "candidate-context",
+      "text": "A Tutorial on Manipulator Differential Kinematics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhavl/dkt",
+      "status": "candidate-context",
+      "text": "A Tutorial on Manipulator Differential Kinematics"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "haosulab/ManiSkill",
       "status": "candidate",
       "text": "![teaser](figures/teaser.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhavl/dkt",
+      "status": "candidate",
+      "text": "A Tutorial on Manipulator Differential Kinematics"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "haosulab/ManiSkill"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "jhavl/dkt"
     }
   ],
   "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

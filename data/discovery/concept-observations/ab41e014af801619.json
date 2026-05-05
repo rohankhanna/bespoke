@@ -84,7 +84,7 @@
   "normalized_form": "issue-template-check",
   "observation_id": "ab41e014af801619",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Issue Template Check",
   "source_context_snippet": "Issue Template Check",
   "source_file": ".github/workflows/issue-template-check.yml",

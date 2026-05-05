@@ -1,0 +1,447 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting_linting.yml"
+    },
+    {
+      "component": "psf/black@24.4.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting_linting.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting_linting.yml"
+    },
+    {
+      "component": "actions/setup-python@v5.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting_linting.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting_linting.yml"
+    },
+    {
+      "component": "actions/setup-python@v5.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting_linting.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_suite.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_suite.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_suite.yml"
+    },
+    {
+      "component": "actions/setup-python@v5.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_suite.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_suite.yml"
+    },
+    {
+      "component": "actions/setup-python@v5.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_suite.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-version.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "Zulko/moviepy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "Zulko/moviepy",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "Zulko/moviepy",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "Zulko/moviepy",
+      "target": "Build and Deploy Sphinx Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Zulko/moviepy",
+      "target": "actions/checkout@v4.1.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Zulko/moviepy",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Zulko/moviepy",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Zulko/moviepy",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Zulko/moviepy",
+      "target": "Code scanning with CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting_linting.yml",
+      "source_repo": "Zulko/moviepy",
+      "target": "actions/checkout@v4.1.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting_linting.yml",
+      "source_repo": "Zulko/moviepy",
+      "target": "psf/black@24.4.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting_linting.yml",
+      "source_repo": "Zulko/moviepy",
+      "target": "actions/setup-python@v5.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatting_linting.yml",
+      "source_repo": "Zulko/moviepy",
+      "target": "Code formatting and linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Zulko/moviepy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Zulko/moviepy",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Zulko/moviepy",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Zulko/moviepy",
+      "target": "Publish to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_suite.yml",
+      "source_repo": "Zulko/moviepy",
+      "target": "actions/checkout@v4.1.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_suite.yml",
+      "source_repo": "Zulko/moviepy",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_suite.yml",
+      "source_repo": "Zulko/moviepy",
+      "target": "actions/setup-python@v5.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_suite.yml",
+      "source_repo": "Zulko/moviepy",
+      "target": "Run Test Suite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-version.yml",
+      "source_repo": "Zulko/moviepy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-version.yml",
+      "source_repo": "Zulko/moviepy",
+      "target": "Update Version on Tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zulko/moviepy",
+      "target": "animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zulko/moviepy",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zulko/moviepy",
+      "target": "video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zulko/moviepy",
+      "target": "video-editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zulko/moviepy",
+      "target": "video-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T13:53:39.964869+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4931
+    },
+    {
+      "path": "Dockerfile",
+      "size": 509
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1822
+    },
+    {
+      "path": ".github/workflows/build-docs.yml",
+      "size": 1659
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 1968
+    },
+    {
+      "path": ".github/workflows/formatting_linting.yml",
+      "size": 1927
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 644
+    },
+    {
+      "path": ".github/workflows/test_suite.yml",
+      "size": 3556
+    },
+    {
+      "path": ".github/workflows/update-version.yml",
+      "size": 1458
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Video editing with Python",
+    "fork": false,
+    "full_name": "Zulko/moviepy",
+    "html_url": "https://github.com/Zulko/moviepy",
+    "language": "Python",
+    "pushed_at": "2026-03-07T02:47:15Z",
+    "stargazers_count": 14588,
+    "topics": [
+      "animation",
+      "gif",
+      "hacktoberfest",
+      "python",
+      "video",
+      "video-editing",
+      "video-processing"
+    ],
+    "updated_at": "2026-05-05T13:08:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Deploy Sphinx Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "term": "Build and Deploy Sphinx Documentation"
+    },
+    {
+      "context_snippet": "Code scanning with CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "Code scanning with CodeQL"
+    },
+    {
+      "context_snippet": "Code formatting and linting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatting_linting.yml",
+      "term": "Code formatting and linting"
+    },
+    {
+      "context_snippet": "Publish to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to PyPI"
+    },
+    {
+      "context_snippet": "Run Test Suite",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_suite.yml",
+      "term": "Run Test Suite"
+    },
+    {
+      "context_snippet": "Update Version on Tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-version.yml",
+      "term": "Update Version on Tag"
+    },
+    {
+      "context_snippet": "[![MoviePy page on the Python Package Index](https://badge.fury.io/py/moviepy.svg)](https://pypi.org/project/moviepy/) [![Discuss MoviePy on Gitter](https://img.shields.io/gitter/room/movie-py/gitter?color=46BC99&logo=gitter)](Gitter_) [![Build status on gh-actions](https://img.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animation"
+    },
+    {
+      "context_snippet": "[![MoviePy page on the Python Package Index](https://badge.fury.io/py/moviepy.svg)](https://pypi.org/project/moviepy/) [![Discuss MoviePy on Gitter](https://img.shields.io/gitter/room/movie-py/gitter?color=46BC99&logo=gitter)](Gitter_) [![Build status on gh-actions](https://img.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![MoviePy page on the Python Package Index](https://badge.fury.io/py/moviepy.svg)](https://pypi.org/project/moviepy/) [![Discuss MoviePy on Gitter](https://img.shields.io/gitter/room/movie-py/gitter?color=46BC99&logo=gitter)](Gitter_) [![Build status on gh-actions](https://img.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    },
+    {
+      "context_snippet": "[![MoviePy page on the Python Package Index](https://badge.fury.io/py/moviepy.svg)](https://pypi.org/project/moviepy/) [![Discuss MoviePy on Gitter](https://img.shields.io/gitter/room/movie-py/gitter?color=46BC99&logo=gitter)](Gitter_) [![Build status on gh-actions](https://img.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-editing"
+    },
+    {
+      "context_snippet": "[![MoviePy page on the Python Package Index](https://badge.fury.io/py/moviepy.svg)](https://pypi.org/project/moviepy/) [![Discuss MoviePy on Gitter](https://img.shields.io/gitter/room/movie-py/gitter?color=46BC99&logo=gitter)](Gitter_) [![Build status on gh-actions](https://img.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-processing"
+    }
+  ]
+}

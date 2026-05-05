@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T16:55:48.721474+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2141
+    },
+    {
+      "path": "requirements.txt",
+      "size": 50
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Baseline for ERASER benchmark ",
+    "fork": false,
+    "full_name": "successar/Eraser-Benchmark-Baseline-Models",
+    "html_url": "https://github.com/successar/Eraser-Benchmark-Baseline-Models",
+    "language": "Python",
+    "pushed_at": "2022-12-18T21:06:09Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-03-16T13:04:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

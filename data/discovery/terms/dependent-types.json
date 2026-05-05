@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -11,6 +11,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "idris-lang/Idris2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "rocq-prover/rocq"
     }
   ],
   "term": "dependent-types"

@@ -67,6 +67,30 @@
       "source_repo": "pulse-browser/browser",
       "status": "candidate-context",
       "text": "This project will never make it past alpha, nor will it receive any bug fixes or new features that do not directly affect me (@trickypr). I am putting my energy towards [a project using a different approach](https://github.com/pulse-browser/experiment). For a rough guide to my r\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alex313031/Thorium-Android",
+      "status": "candidate-context",
+      "text": "Thorium builds for Android (arm64 and arm32)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/Thorium-Android",
+      "status": "candidate-context",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-android?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-android?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/gi\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alex313031/thorium-legacy",
+      "status": "candidate-context",
+      "text": "Repo for Windows XP/Vista & 7/8/8.1 Thorium Builds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/thorium-legacy",
+      "status": "candidate-context",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-win7?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-win7?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/c\u2026"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "pulse-browser/browser",
       "status": "candidate",
       "text": "This project will never make it past alpha, nor will it receive any bug fixes or new features that do not directly affect me (@trickypr). I am putting my energy towards [a project using a different approach](https://github.com/pulse-browser/experiment). For a rough guide to my r\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/Thorium-Android",
+      "status": "candidate",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-android?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-android?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/gi\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/thorium-legacy",
+      "status": "candidate",
+      "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-win7?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-win7?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/c\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +172,23 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "pulse-browser/browser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium-legacy"
     }
   ],
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

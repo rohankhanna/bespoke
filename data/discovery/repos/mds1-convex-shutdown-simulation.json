@@ -1,0 +1,169 @@
+{
+  "components": [
+    {
+      "component": "@nomiclabs/hardhat-ethers",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@nomiclabs/hardhat-waffle",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chalk",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ethereum-waffle",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ethers",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ganache",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hardhat",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "micro-ftch",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mds1/convex-shutdown-simulation",
+      "target": "@nomiclabs/hardhat-ethers",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mds1/convex-shutdown-simulation",
+      "target": "@nomiclabs/hardhat-waffle",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mds1/convex-shutdown-simulation",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mds1/convex-shutdown-simulation",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mds1/convex-shutdown-simulation",
+      "target": "ethereum-waffle",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mds1/convex-shutdown-simulation",
+      "target": "ethers",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mds1/convex-shutdown-simulation",
+      "target": "ganache",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mds1/convex-shutdown-simulation",
+      "target": "hardhat",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mds1/convex-shutdown-simulation",
+      "target": "micro-ftch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mds1/convex-shutdown-simulation",
+      "target": "ts-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mds1/convex-shutdown-simulation",
+      "target": "typescript",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:46:16.326374+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4040
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3067
+    },
+    {
+      "path": "package.json",
+      "size": 572
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simulates a call to Convex Finance's system shutdown method, which uses about 16M gas",
+    "fork": false,
+    "full_name": "mds1/convex-shutdown-simulation",
+    "html_url": "https://github.com/mds1/convex-shutdown-simulation",
+    "language": "TypeScript",
+    "pushed_at": "2022-12-02T22:05:10Z",
+    "stargazers_count": 59,
+    "topics": [],
+    "updated_at": "2026-01-20T07:45:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

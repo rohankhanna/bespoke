@@ -43,6 +43,30 @@
       "source_repo": "JuliaPy/PythonCall.jl",
       "status": "candidate-context",
       "text": "<h1><img src=\"docs/src/assets/logo.png\" alt=\"PythonCall.jl logo\" style=\"width: 100px;\"><br>PythonCall &amp;&nbsp;JuliaCall</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyperledger-labs/yui-fabric-ibc",
+      "status": "candidate-context",
+      "text": "IBC implementation in Hyperledger Fabric"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-labs/yui-fabric-ibc",
+      "status": "candidate-context",
+      "text": "![Test](https://github.com/hyperledger-labs/yui-fabric-ibc/workflows/Test/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datachainlab/lcp",
+      "status": "candidate-context",
+      "text": "A proxy middleware for light client verification executed in TEE."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/lcp",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "JuliaPy/PythonCall.jl",
       "status": "candidate",
       "text": "<h1><img src=\"docs/src/assets/logo.png\" alt=\"PythonCall.jl logo\" style=\"width: 100px;\"><br>PythonCall &amp;&nbsp;JuliaCall</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-labs/yui-fabric-ibc",
+      "status": "candidate",
+      "text": "![Test](https://github.com/hyperledger-labs/yui-fabric-ibc/workflows/Test/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/lcp",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +184,23 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "JuliaPy/PyCall.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "hyperledger-labs/yui-fabric-ibc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "datachainlab/lcp"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

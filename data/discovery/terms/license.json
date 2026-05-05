@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -31,6 +31,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "MY1L/icense"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/license.yml",
+      "source_repo": "koide3/small_gicp"
     }
   ],
   "term": "License"

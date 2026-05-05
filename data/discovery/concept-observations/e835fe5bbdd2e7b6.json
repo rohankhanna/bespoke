@@ -84,7 +84,7 @@
   "normalized_form": "pr-security-lint",
   "observation_id": "e835fe5bbdd2e7b6",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T00:36:37.683079+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "PR Security Lint",
   "source_context_snippet": "PR Security Lint",
   "source_file": ".github/workflows/pr-security-lint.yaml",

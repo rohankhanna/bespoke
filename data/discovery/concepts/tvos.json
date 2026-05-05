@@ -91,6 +91,30 @@
       "source_repo": "leetal/ios-cmake",
       "status": "candidate-context",
       "text": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gumob/PunycodeSwift",
+      "status": "candidate-context",
+      "text": "PunycodeSwift is a pure Swift library to allows you to encode and decode punycoded strings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gumob/PunycodeSwift",
+      "status": "candidate-context",
+      "text": "[![Swift Package Manager compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)](https://github.com/gumob/PunycodeSwift)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gumob/TLDExtractSwift",
+      "status": "candidate-context",
+      "text": "A pure Swift library to allows you to get the public suffix of a domain name"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gumob/TLDExtractSwift",
+      "status": "candidate-context",
+      "text": "[![Swift Package Manager compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)](https://github.com/gumob/TLDExtractSwift)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "leetal/ios-cmake",
       "status": "candidate",
       "text": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gumob/PunycodeSwift",
+      "status": "candidate",
+      "text": "[![Swift Package Manager compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)](https://github.com/gumob/PunycodeSwift)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gumob/TLDExtractSwift",
+      "status": "candidate",
+      "text": "[![Swift Package Manager compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)](https://github.com/gumob/TLDExtractSwift)"
     }
   ],
   "candidate_related_terms": [
@@ -346,11 +382,29 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "gumob/PunycodeSwift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "gumob/TLDExtractSwift"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

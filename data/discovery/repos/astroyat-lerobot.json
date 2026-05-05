@@ -1,0 +1,423 @@
+{
+  "components": [
+    {
+      "component": "huggingface/doc-builder/.github/workflows/upload_pr_documentation.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation-upload-pr.yml"
+    },
+    {
+      "component": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "huggingface/doc-builder/.github/workflows/build_pr_documentation.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast_tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full_tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full_tests.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full_tests.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full_tests.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full_tests.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_labeler.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/labeler@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_labeler.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation-upload-pr.yml",
+      "source_repo": "astroyat/lerobot",
+      "target": "huggingface/doc-builder/.github/workflows/upload_pr_documentation.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation-upload-pr.yml",
+      "source_repo": "astroyat/lerobot",
+      "target": "Documentation PR Upload",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "astroyat/lerobot",
+      "target": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "astroyat/lerobot",
+      "target": "huggingface/doc-builder/.github/workflows/build_pr_documentation.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "astroyat/lerobot",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast_tests.yml",
+      "source_repo": "astroyat/lerobot",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast_tests.yml",
+      "source_repo": "astroyat/lerobot",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fast_tests.yml",
+      "source_repo": "astroyat/lerobot",
+      "target": "Fast Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full_tests.yml",
+      "source_repo": "astroyat/lerobot",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full_tests.yml",
+      "source_repo": "astroyat/lerobot",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full_tests.yml",
+      "source_repo": "astroyat/lerobot",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full_tests.yml",
+      "source_repo": "astroyat/lerobot",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full_tests.yml",
+      "source_repo": "astroyat/lerobot",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/full_tests.yml",
+      "source_repo": "astroyat/lerobot",
+      "target": "Full Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_labeler.yml",
+      "source_repo": "astroyat/lerobot",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_labeler.yml",
+      "source_repo": "astroyat/lerobot",
+      "target": "Issue Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "astroyat/lerobot",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "astroyat/lerobot",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "astroyat/lerobot",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "astroyat/lerobot",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "astroyat/lerobot",
+      "target": "Nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_labeler.yml",
+      "source_repo": "astroyat/lerobot",
+      "target": "actions/labeler@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_labeler.yml",
+      "source_repo": "astroyat/lerobot",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "astroyat/lerobot",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "astroyat/lerobot",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "astroyat/lerobot",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "astroyat/lerobot",
+      "target": "Quality",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:53:22.145466+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9634
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 13929
+    },
+    {
+      "path": ".github/workflows/documentation-upload-pr.yml",
+      "size": 1587
+    },
+    {
+      "path": ".github/workflows/documentation.yml",
+      "size": 2956
+    },
+    {
+      "path": ".github/workflows/fast_tests.yml",
+      "size": 3149
+    },
+    {
+      "path": ".github/workflows/full_tests.yml",
+      "size": 8825
+    },
+    {
+      "path": ".github/workflows/issue_labeler.yml",
+      "size": 4244
+    },
+    {
+      "path": ".github/workflows/nightly.yml",
+      "size": 7539
+    },
+    {
+      "path": ".github/workflows/pr_labeler.yml",
+      "size": 1356
+    },
+    {
+      "path": ".github/workflows/quality.yml",
+      "size": 1851
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\udd17 LeRobot: Making AI for Robotics more accessible with end-to-end learning",
+    "fork": true,
+    "full_name": "astroyat/lerobot",
+    "html_url": "https://github.com/astroyat/lerobot",
+    "language": "Python",
+    "pushed_at": "2026-03-28T02:55:29Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-03-28T02:55:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Documentation PR Upload",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation-upload-pr.yml",
+      "term": "Documentation PR Upload"
+    },
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "Fast Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fast_tests.yml",
+      "term": "Fast Tests"
+    },
+    {
+      "context_snippet": "Full Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/full_tests.yml",
+      "term": "Full Tests"
+    },
+    {
+      "context_snippet": "Issue Labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_labeler.yml",
+      "term": "Issue Labeler"
+    },
+    {
+      "context_snippet": "Nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "term": "Nightly"
+    },
+    {
+      "context_snippet": "Pull Request Labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_labeler.yml",
+      "term": "Pull Request Labeler"
+    },
+    {
+      "context_snippet": "Quality",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quality.yml",
+      "term": "Quality"
+    }
+  ]
+}

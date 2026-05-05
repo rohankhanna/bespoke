@@ -1,0 +1,196 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "browser-actions/setup-chrome@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "nttld/setup-ndk@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Boddlnagg/midir",
+      "target": "thestk/rtmidi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Boddlnagg/midir",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Boddlnagg/midir",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Boddlnagg/midir",
+      "target": "browser-actions/setup-chrome@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Boddlnagg/midir",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Boddlnagg/midir",
+      "target": "nttld/setup-ndk@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Boddlnagg/midir",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Boddlnagg/midir",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Boddlnagg/midir",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Boddlnagg/midir",
+      "target": "midi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Boddlnagg/midir",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Boddlnagg/midir",
+      "target": "rust-bindings",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:04:40.132818+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1601
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2276
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 9831
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cross-platform realtime MIDI processing in Rust.",
+    "fork": false,
+    "full_name": "Boddlnagg/midir",
+    "html_url": "https://github.com/Boddlnagg/midir",
+    "language": "Rust",
+    "pushed_at": "2026-04-18T12:07:36Z",
+    "stargazers_count": 800,
+    "topics": [
+      "audio",
+      "cross-platform",
+      "library",
+      "midi",
+      "rust",
+      "rust-bindings"
+    ],
+    "updated_at": "2026-05-04T20:11:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thestk/rtmidi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Cross-platform, realtime MIDI processing in Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "Cross-platform, realtime MIDI processing in Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "Cross-platform, realtime MIDI processing in Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "Cross-platform, realtime MIDI processing in Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi"
+    },
+    {
+      "context_snippet": "Cross-platform, realtime MIDI processing in Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "Cross-platform, realtime MIDI processing in Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-bindings"
+    }
+  ]
+}

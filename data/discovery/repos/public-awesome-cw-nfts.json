@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "public-awesome/cw-nfts",
+      "target": "cosmwasm/cw-nfts",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T15:57:59.132386+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10504
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1756
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Examples and helpers to build NFT contracts on CosmWasm",
+    "fork": false,
+    "full_name": "public-awesome/cw-nfts",
+    "html_url": "https://github.com/public-awesome/cw-nfts",
+    "language": "Rust",
+    "pushed_at": "2026-04-01T16:03:02Z",
+    "stargazers_count": 201,
+    "topics": [],
+    "updated_at": "2026-05-02T22:40:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cosmwasm/cw-nfts",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

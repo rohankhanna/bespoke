@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jayded/eraserbenchmark",
+      "target": "successar/eraser-benchmark-baseline-models",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T13:55:03.220889+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2797
+    },
+    {
+      "path": "requirements.txt",
+      "size": 193
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A benchmark for understanding and evaluating rationales: http://www.eraserbenchmark.com/",
+    "fork": false,
+    "full_name": "jayded/eraserbenchmark",
+    "html_url": "https://github.com/jayded/eraserbenchmark",
+    "language": "Python",
+    "pushed_at": "2022-11-11T12:05:01Z",
+    "stargazers_count": 100,
+    "topics": [],
+    "updated_at": "2026-03-16T13:03:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "successar/eraser-benchmark-baseline-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

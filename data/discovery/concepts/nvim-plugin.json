@@ -427,6 +427,18 @@
       "source_repo": "MeanderingProgrammer/render-markdown.nvim",
       "status": "candidate-context",
       "text": "Plugin to improve viewing Markdown files in Neovim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Iron-E/nvim-highlite",
+      "status": "candidate-context",
+      "text": "A colorscheme generator that is \"lite\" on logic for the developer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Iron-E/nvim-highlite",
+      "status": "candidate-context",
+      "text": "* Use any of the built-in colorschemes using `:colorscheme`."
     }
   ],
   "candidate_glosses": [
@@ -645,6 +657,12 @@
       "source_repo": "MeanderingProgrammer/render-markdown.nvim",
       "status": "candidate",
       "text": "Plugin to improve viewing Markdown files in Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Iron-E/nvim-highlite",
+      "status": "candidate",
+      "text": "* Use any of the built-in colorschemes using `:colorscheme`."
     }
   ],
   "candidate_related_terms": [],
@@ -1060,11 +1078,29 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Iron-E/nvim-highlite"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

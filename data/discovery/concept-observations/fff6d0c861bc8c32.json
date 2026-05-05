@@ -84,7 +84,7 @@
   "normalized_form": "compressed-size",
   "observation_id": "fff6d0c861bc8c32",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Compressed Size",
   "source_context_snippet": "Compressed Size",
   "source_file": ".github/workflows/size.yml",

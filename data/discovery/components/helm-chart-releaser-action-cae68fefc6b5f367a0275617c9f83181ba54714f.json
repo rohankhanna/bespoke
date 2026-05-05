@@ -1,7 +1,7 @@
 {
   "component": "helm/chart-releaser-action@cae68fefc6b5f367a0275617c9f83181ba54714f",
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/helm-chart-release.yml",
       "source_repo": "kubernetes-sigs/sig-storage-local-static-provisioner"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/chart.yaml",
+      "source_repo": "kubernetes/ingress-nginx"
     }
   ]
 }

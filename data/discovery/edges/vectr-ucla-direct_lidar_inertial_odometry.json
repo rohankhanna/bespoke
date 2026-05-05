@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry",
+      "target": "vectr-ucla/direct_lidar_odometry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry",
+      "target": "livox-sdk/livox_ros_driver2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry",
+      "target": "smrt-aist/fast_gicp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry",
+      "target": "3d-mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry",
+      "target": "lidar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry",
+      "target": "lidar-inertial-odometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry",
+      "target": "lidar-odometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry",
+      "target": "lidar-slam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry",
+      "target": "localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry",
+      "target": "mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry",
+      "target": "odometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_inertial_odometry",
+      "target": "slam",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "vectr-ucla/direct_lidar_inertial_odometry"
+}

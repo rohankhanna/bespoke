@@ -118,6 +118,18 @@
       "source_repo": "nelson-lang/nelson-minimalist-core",
       "status": "candidate-context",
       "text": "[![GitHub license](https://img.shields.io/badge/license-LGPL3.0-blue.svg)](https://github.com/nelson-lang/nelson-minimalist-core/blob/master/lgpl-3.0.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iqlusioninc/abscissa",
+      "status": "candidate-context",
+      "text": "Application microframework with command-line option parsing, configuration, error handling, logging, and shell interactions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iqlusioninc/abscissa",
+      "status": "candidate-context",
+      "text": "core"
     }
   ],
   "candidate_glosses": [
@@ -180,6 +192,12 @@
       "source_repo": "nelson-lang/nelson-minimalist-core",
       "status": "candidate",
       "text": "[![GitHub license](https://img.shields.io/badge/license-LGPL3.0-blue.svg)](https://github.com/nelson-lang/nelson-minimalist-core/blob/master/lgpl-3.0.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iqlusioninc/abscissa",
+      "status": "candidate",
+      "text": "core"
     }
   ],
   "candidate_related_terms": [
@@ -415,11 +433,23 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "Uniswap/v3-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Uniswap/v3-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/core.yml",
+      "source_repo": "iqlusioninc/abscissa"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -178,6 +178,18 @@
       "source_repo": "zarr-developers/numcodecs",
       "status": "candidate-context",
       "text": "Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "miquelmassot/g2o-python",
+      "status": "candidate-context",
+      "text": "Wrapper for g2o python bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miquelmassot/g2o-python",
+      "status": "candidate-context",
+      "text": "Wheels"
     }
   ],
   "candidate_glosses": [
@@ -262,6 +274,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "zarr-developers/numcodecs",
+      "status": "candidate",
+      "text": "Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miquelmassot/g2o-python",
       "status": "candidate",
       "text": "Wheels"
     }
@@ -529,11 +547,29 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": ".github/workflows/wheels.yml",
       "source_repo": "absadiki/pywhispercpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "TA-Lib/ta-lib-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "absadiki/pywhispercpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "miquelmassot/g2o-python"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

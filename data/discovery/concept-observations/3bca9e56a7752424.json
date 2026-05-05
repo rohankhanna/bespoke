@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Dot Browser for Windows, macOS and Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build and deploy source docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build and deploy source docs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36608,
+      "status": "candidate",
+      "text": "source book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36596,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33191,
+      "status": "candidate",
+      "text": "gpo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32852,
+      "status": "candidate",
+      "text": "compile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32667,
+      "status": "candidate",
+      "text": "news"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and deploy source docs",
+      "sense_id": "build-and-deploy-source-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-deploy-source-docs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-deploy-source-docs",
+  "observation_id": "3bca9e56a7752424",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "Build and deploy source docs",
+  "source_context_snippet": "Build and deploy source docs",
+  "source_file": ".github/workflows/docs.yml",
+  "source_repo": "dothq/browser-desktop",
+  "source_repo_description": "Dot Browser for Windows, macOS and Linux"
+}

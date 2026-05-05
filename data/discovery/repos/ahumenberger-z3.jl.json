@@ -1,0 +1,72 @@
+{
+  "components": [
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ahumenberger/Z3.jl",
+      "target": "juliainterop/clang.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "ahumenberger/Z3.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "ahumenberger/Z3.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:50:23.086979+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 571
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 317
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Julia interface to Z3",
+    "fork": false,
+    "full_name": "ahumenberger/Z3.jl",
+    "html_url": "https://github.com/ahumenberger/Z3.jl",
+    "language": "Julia",
+    "pushed_at": "2025-11-22T05:44:26Z",
+    "stargazers_count": 72,
+    "topics": [],
+    "updated_at": "2026-03-11T01:33:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliainterop/clang.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    }
+  ]
+}

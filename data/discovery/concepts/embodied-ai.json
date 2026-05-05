@@ -127,6 +127,18 @@
       "source_repo": "RoboTwin-Platform/RMBench",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">RMBench: Memory-Dependent Manipulation Benchmark</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dora-rs/dora",
+      "status": "candidate-context",
+      "text": "DORA (Dataflow-Oriented Robotic Architecture) is middleware designed to streamline and simplify the creation of AI-based robotic applications. It offers low latency, composable, and distributed dataflow capabilities. Applications are modeled as directed graphs, also referred to as pipelines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dora-rs/dora",
+      "status": "candidate-context",
+      "text": "[English](README.md) | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "RoboTwin-Platform/RMBench",
       "status": "candidate",
       "text": "<h1 align=\"center\">RMBench: Memory-Dependent Manipulation Benchmark</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dora-rs/dora",
+      "status": "candidate",
+      "text": "[English](README.md) | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -472,11 +490,35 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "FlagOpen/RoboBrain2.5"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "InternRobotics/Aether"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "dora-rs/dora"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "FlagOpen/RoboBrain2.5"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

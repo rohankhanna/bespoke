@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-plv/coqutil",
+      "target": "mit-plv/bbv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "mit-plv/coqutil",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "mit-plv/coqutil",
+      "target": "jirutka/setup-alpine@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "mit-plv/coqutil",
+      "target": "CI (Alpine)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml",
+      "source_repo": "mit-plv/coqutil",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml",
+      "source_repo": "mit-plv/coqutil",
+      "target": "coq-community/docker-coq-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-docker.yml",
+      "source_repo": "mit-plv/coqutil",
+      "target": "CI (Coq, docker, dev)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debian.yml",
+      "source_repo": "mit-plv/coqutil",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/debian.yml",
+      "source_repo": "mit-plv/coqutil",
+      "target": "CI (Coq, Debian)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-tested.yml",
+      "source_repo": "mit-plv/coqutil",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-tested.yml",
+      "source_repo": "mit-plv/coqutil",
+      "target": "samuelgruetter/check-ci-success@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-tested.yml",
+      "source_repo": "mit-plv/coqutil",
+      "target": "Update tested branch",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "mit-plv/coqutil"
+}

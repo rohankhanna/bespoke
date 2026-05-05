@@ -442,6 +442,30 @@
       "source_repo": "ory/k8s",
       "status": "candidate-context",
       "text": "![CI](https://github.com/ory/k8s/actions/workflows/ci.yaml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/charts",
+      "status": "candidate-context",
+      "text": "\u26a0\ufe0f(OBSOLETE) Curated applications for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/charts",
+      "status": "candidate-context",
+      "text": "|![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Warning.svg/156px-Warning.svg.png) | This project is no longer supported."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudnativeapp/charts",
+      "status": "candidate-context",
+      "text": "Localized Helm charts from Helm Hub to China"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudnativeapp/charts",
+      "status": "candidate-context",
+      "text": "```"
     }
   ],
   "candidate_glosses": [
@@ -660,6 +684,18 @@
       "source_repo": "ory/k8s",
       "status": "candidate",
       "text": "![CI](https://github.com/ory/k8s/actions/workflows/ci.yaml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/charts",
+      "status": "candidate",
+      "text": "|![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Warning.svg/156px-Warning.svg.png) | This project is no longer supported."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudnativeapp/charts",
+      "status": "candidate",
+      "text": "```"
     }
   ],
   "candidate_related_terms": [
@@ -943,11 +979,29 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "ory/k8s"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "helm/charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "cloudnativeapp/charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "helm/helm"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

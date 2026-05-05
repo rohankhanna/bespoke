@@ -19,6 +19,18 @@
       "source_repo": "google/trillian-examples",
       "status": "candidate-context",
       "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/google/trillian-examples/badge)](https://securityscorecards.dev/viewer/?uri=github.com/google/trillian-examples)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "status": "candidate-context",
+      "text": "Google Chromium, sans integration with Google"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "status": "candidate-context",
+      "text": "*A lightweight approach to removing Google web service dependency*"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "google/trillian-examples",
       "status": "candidate",
       "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/google/trillian-examples/badge)](https://securityscorecards.dev/viewer/?uri=github.com/google/trillian-examples)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "status": "candidate",
+      "text": "*A lightweight approach to removing Google web service dependency*"
     }
   ],
   "candidate_related_terms": [
@@ -104,11 +122,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "google/trillian-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

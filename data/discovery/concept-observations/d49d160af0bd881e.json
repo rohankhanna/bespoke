@@ -84,7 +84,7 @@
   "normalized_form": "build-backend-container-images",
   "observation_id": "d49d160af0bd881e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "build backend container images",
   "source_context_snippet": "'build backend container images'",
   "source_file": ".github/workflows/backend.yml",

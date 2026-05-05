@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fetches system/theme information in terminal for Linux desktop screenshots."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Fetches system/theme information in terminal for Linux desktop screenshots."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Fetches system/theme information in terminal for Linux desktop screenshots."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39878204,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30002985,
+      "status": "candidate",
+      "text": "screen background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30002984,
+      "status": "candidate",
+      "text": "documentary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30002484,
+      "status": "candidate",
+      "text": "bureau"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001194,
+      "status": "candidate",
+      "text": "screen"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "desktop",
+      "sense_id": "desktop#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15054,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8,
+      "status": "candidate",
+      "text": "screen background"
+    }
+  ],
+  "concept_id": "desktop",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "desktop",
+  "observation_id": "b3670b00dca80ac3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "desktop",
+  "source_context_snippet": "Fetches system/theme information in terminal for Linux desktop screenshots.",
+  "source_file": null,
+  "source_repo": "KittyKatt/screenFetch",
+  "source_repo_description": "Fetches system/theme information in terminal for Linux desktop screenshots."
+}

@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "catai9/Cancer-Net-BCa",
+      "target": "jamesrenhoulee/cancernet-sca",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catai9/Cancer-Net-BCa",
+      "target": "breast-cancer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catai9/Cancer-Net-BCa",
+      "target": "cancer-net",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T13:53:01.438670+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7432
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Cancer-Net Open Source Initiative (Breast Cancer)",
+    "fork": false,
+    "full_name": "catai9/Cancer-Net-BCa",
+    "html_url": "https://github.com/catai9/Cancer-Net-BCa",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-04-13T03:09:15Z",
+    "stargazers_count": 8,
+    "topics": [
+      "breast-cancer",
+      "cancer-net"
+    ],
+    "updated_at": "2026-01-27T06:58:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jamesrenhoulee/cancernet-sca",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "breast-cancer"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cancer-net"
+    }
+  ]
+}

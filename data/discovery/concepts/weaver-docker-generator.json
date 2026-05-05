@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Weaver Docker Generator"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/weaver",
+      "status": "candidate-context",
+      "text": "OTel Weaver lets you easily develop, validate, document, and deploy semantic conventions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/weaver",
+      "status": "candidate-context",
+      "text": "Weaver Docker Generator"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/weaver",
+      "status": "candidate",
+      "text": "Weaver Docker Generator"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19241,
+      "status": "candidate",
+      "text": "boat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17524,
+      "status": "candidate",
+      "text": "bricklayer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10844,
+      "status": "candidate",
+      "text": "load"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10809,
+      "status": "candidate",
+      "text": "cargo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10809,
+      "status": "candidate",
+      "text": "elf"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Weaver Docker Generator",
+  "concept_id": "weaver-docker-generator",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "open-telemetry/weaver"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Weaver Docker Generator",
+      "sense_id": "weaver-docker-generator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

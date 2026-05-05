@@ -293,20 +293,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "geotiffjs/geotiff.js",
-      "target": "santilland/plotty",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "geotiffjs/geotiff.js",
-      "target": "matafokka/geotiff-geokeys-to-proj4",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "geotiffjs/geotiff.js",
       "target": "xlhomme/geotiffparser.js",
       "target_type": "repository"
     },
@@ -752,7 +738,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T07:18:27.558510+00:00",
+  "fetched_at": "2026-05-05T17:05:06.806977+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -801,16 +787,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "constantinius/geotiff.js",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "matafokka/geotiff-geokeys-to-proj4",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "santilland/plotty",
       "source_file": "README.md"
     },
     {

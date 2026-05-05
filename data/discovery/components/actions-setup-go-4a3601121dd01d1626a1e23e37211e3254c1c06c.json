@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2197,6 +2197,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "open-telemetry/opentelemetry-go-instrumentation"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/daily_test_analysis.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation"
     }
   ]
 }

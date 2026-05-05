@@ -84,7 +84,7 @@
   "normalized_form": "compile-sync-docs",
   "observation_id": "139ecd65319db54c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Compile + Sync Docs",
   "source_context_snippet": "Compile + Sync Docs",
   "source_file": ".github/workflows/update-docs.yml",

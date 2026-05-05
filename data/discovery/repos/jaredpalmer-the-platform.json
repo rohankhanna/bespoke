@@ -175,13 +175,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jaredpalmer/the-platform",
-      "target": "jaredpalmer/react-fns",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "jaredpalmer/the-platform",
@@ -448,7 +441,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T11:39:26.434161+00:00",
+  "fetched_at": "2026-05-05T14:58:12.312488+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -469,7 +462,7 @@
     "html_url": "https://github.com/jaredpalmer/the-platform",
     "language": "TypeScript",
     "pushed_at": "2022-12-09T09:39:17Z",
-    "stargazers_count": 4385,
+    "stargazers_count": 4384,
     "topics": [
       "hooks",
       "react",
@@ -477,17 +470,12 @@
       "react-suspense",
       "suspense"
     ],
-    "updated_at": "2026-05-01T06:36:22Z"
+    "updated_at": "2026-05-04T20:38:57Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "akiran/json2mq",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jaredpalmer/react-fns",
       "source_file": "README.md"
     }
   ],

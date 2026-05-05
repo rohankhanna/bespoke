@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Publish OBI Docker Generator Image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "status": "candidate-context",
+      "text": "Publish OBI Docker Generator Image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "status": "candidate",
+      "text": "Publish OBI Docker Generator Image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20694,
+      "status": "candidate",
+      "text": "satin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18096,
+      "status": "candidate",
+      "text": "black"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17667,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17621,
+      "status": "candidate",
+      "text": "compound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17616,
+      "status": "candidate",
+      "text": "disperse"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish OBI Docker Generator Image",
+  "concept_id": "publish-obi-docker-generator-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/generator-image.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish OBI Docker Generator Image",
+      "sense_id": "publish-obi-docker-generator-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

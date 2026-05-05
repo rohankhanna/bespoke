@@ -331,6 +331,30 @@
       "source_repo": "JettHu/ComfyUI_TGate",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Extraltodeus/ComfyUI-AutomaticCFG",
+      "status": "candidate-context",
+      "text": "If your image was a pizza and the CFG the temperature of your oven: this is a thermostat that ensures it is always cooked like you want. Also adds a 30% speed increase. For ComfyUI / StableDiffusion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Extraltodeus/ComfyUI-AutomaticCFG",
+      "status": "candidate-context",
+      "text": "If you liked other functionnalities, I've re-created most in [this](https://github.com/Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI) repository."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JettHu/ComfyUI-TCD",
+      "status": "candidate-context",
+      "text": "ComfyUI TCD implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JettHu/ComfyUI-TCD",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -493,6 +517,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JettHu/ComfyUI_TGate",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Extraltodeus/ComfyUI-AutomaticCFG",
+      "status": "candidate",
+      "text": "If you liked other functionnalities, I've re-created most in [this](https://github.com/Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI) repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JettHu/ComfyUI-TCD",
       "status": "candidate",
       "text": "<p align=\"center\">"
     }
@@ -1000,11 +1036,41 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Extraltodeus/ComfyUI-AutomaticCFG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "JettHu/ComfyUI-TCD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

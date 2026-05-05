@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -21,6 +21,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "japaric/xargo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cross_compilation.yml",
+      "source_repo": "cvc5/cvc5"
     }
   ],
   "term": "cross-compilation"

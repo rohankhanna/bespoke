@@ -31,6 +31,18 @@
       "source_repo": "SciML/ModelingToolkit.jl",
       "status": "candidate-context",
       "text": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jump-dev/NLopt.jl",
+      "status": "candidate-context",
+      "text": "A Julia interface to the NLopt nonlinear-optimization library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/NLopt.jl",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/jump-dev/NLopt.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jump-dev/NLopt.jl/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "SciML/ModelingToolkit.jl",
       "status": "candidate",
       "text": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/NLopt.jl",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/jump-dev/NLopt.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jump-dev/NLopt.jl/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "SciML/ModelingToolkit.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "jump-dev/NLopt.jl"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

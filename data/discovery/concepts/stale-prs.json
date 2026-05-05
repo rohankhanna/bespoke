@@ -31,6 +31,18 @@
       "source_repo": "alibaba/spring-ai-alibaba",
       "status": "candidate-context",
       "text": "Stale PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rocq-prover/rocq",
+      "status": "candidate-context",
+      "text": "The Rocq Prover is an interactive theorem prover, or proof assistant. It provides a formal language to write mathematical definitions, executable algorithms and theorems together with an environment for semi-interactive development of machine-checked proofs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rocq-prover/rocq",
+      "status": "candidate-context",
+      "text": "Stale PRs"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "alibaba/spring-ai-alibaba",
+      "status": "candidate",
+      "text": "Stale PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rocq-prover/rocq",
       "status": "candidate",
       "text": "Stale PRs"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/remove-stale-pr.yml",
       "source_repo": "alibaba/spring-ai-alibaba"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "rocq-prover/rocq"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -51,6 +51,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "alerque/fluent-lua"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "MisanthropicBit/neotest-busted"
     }
   ],
   "term": "luarocks"

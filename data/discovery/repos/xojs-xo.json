@@ -555,7 +555,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T07:15:33.816673+00:00",
+  "fetched_at": "2026-05-05T15:59:45.372746+00:00",
   "fetched_files": [
     {
       "path": "package.json",
@@ -584,7 +584,7 @@
     "html_url": "https://github.com/xojs/xo",
     "language": "TypeScript",
     "pushed_at": "2026-04-02T14:08:37Z",
-    "stargazers_count": 7969,
+    "stargazers_count": 7972,
     "topics": [
       "best-practices",
       "code-style",
@@ -598,7 +598,7 @@
       "unicorns",
       "xo"
     ],
-    "updated_at": "2026-05-04T03:21:41Z"
+    "updated_at": "2026-05-05T03:22:43Z"
   },
   "repo_links": [],
   "terms": [

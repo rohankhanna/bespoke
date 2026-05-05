@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T16:54:16.912496+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3088
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Repository including Gazebo models, plugins and worlds to test calibration algorithms for Lidar-camera setups.",
+    "fork": false,
+    "full_name": "beltransen/velo2cam_gazebo",
+    "html_url": "https://github.com/beltransen/velo2cam_gazebo",
+    "language": "C++",
+    "pushed_at": "2022-03-16T09:30:02Z",
+    "stargazers_count": 155,
+    "topics": [],
+    "updated_at": "2026-04-28T07:16:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

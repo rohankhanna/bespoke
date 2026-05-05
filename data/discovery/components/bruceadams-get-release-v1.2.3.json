@@ -1,12 +1,17 @@
 {
   "component": "bruceadams/get-release@v1.2.3",
   "first_seen_at": "2026-05-04T12:47:39.186442+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/Release.yml",
       "source_repo": "srdtrk/cw-ibc-lite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "CosmWasm/cw-template"
     }
   ]
 }

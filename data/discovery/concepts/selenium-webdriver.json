@@ -55,6 +55,12 @@
       "source_repo": "bonigarcia/webdrivermanager",
       "status": "candidate-context",
       "text": "[![Maven Central](https://img.shields.io/maven-central/v/io.github.bonigarcia/webdrivermanager.svg)](https://search.maven.org/search?q=g:io.github.bonigarcia%20a:webdrivermanager)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HMaker/HMaker.github.io",
+      "status": "candidate-context",
+      "text": "This repo includes some experiments I want to host on github pages."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +87,12 @@
       "source_repo": "bonigarcia/webdrivermanager",
       "status": "candidate",
       "text": "[![Maven Central](https://img.shields.io/maven-central/v/io.github.bonigarcia/webdrivermanager.svg)](https://search.maven.org/search?q=g:io.github.bonigarcia%20a:webdrivermanager)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HMaker/HMaker.github.io",
+      "status": "candidate",
+      "text": "This repo includes some experiments I want to host on github pages."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +124,17 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "bonigarcia/webdrivermanager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "HMaker/HMaker.github.io"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

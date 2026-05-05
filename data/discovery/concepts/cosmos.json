@@ -127,6 +127,54 @@
       "source_repo": "srdtrk/cw-ibc-lite",
       "status": "candidate-context",
       "text": "This workspace contains the CosmWasm IBC Lite implementation. IBC lite is a work in progress trimmed down specification of the IBC protocol. It is designed to be simpler to implement and be as secure as the full IBC protocol. Learn more about IBC lite in the [IBC Lite Spec](http\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datachainlab/yui-relayer-build",
+      "status": "candidate-context",
+      "text": "IBC Relayer for heterogeneous blockchains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/yui-relayer-build",
+      "status": "candidate-context",
+      "text": "This repository provides a table of [IBC](https://github.com/cosmos/ibc) module combinations supported by [yui-relayer](https://github.com/hyperledger-labs/yui-relayer) and their E2E tests. The E2E tests are performed for each version of the yui-relayer."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyperledger-labs/yui-corda-ibc",
+      "status": "candidate-context",
+      "text": "IBC implementation in Corda"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-labs/yui-corda-ibc",
+      "status": "candidate-context",
+      "text": "Corda-IBC is an implementation of IBC modules that runs as a CorDapp on Corda platform."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyperledger-labs/yui-fabric-ibc",
+      "status": "candidate-context",
+      "text": "IBC implementation in Hyperledger Fabric"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-labs/yui-fabric-ibc",
+      "status": "candidate-context",
+      "text": "![Test](https://github.com/hyperledger-labs/yui-fabric-ibc/workflows/Test/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datachainlab/ethereum-ibc-rs",
+      "status": "candidate-context",
+      "text": "Ethereum Light Client for IBC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/ethereum-ibc-rs",
+      "status": "candidate-context",
+      "text": "[![test](https://github.com/datachainlab/ethereum-ibc-rs/actions/workflows/test.yml/badge.svg)](https://github.com/datachainlab/ethereum-ibc-rs/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +237,30 @@
       "source_repo": "srdtrk/cw-ibc-lite",
       "status": "candidate",
       "text": "This workspace contains the CosmWasm IBC Lite implementation. IBC lite is a work in progress trimmed down specification of the IBC protocol. It is designed to be simpler to implement and be as secure as the full IBC protocol. Learn more about IBC lite in the [IBC Lite Spec](http\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/yui-relayer-build",
+      "status": "candidate",
+      "text": "This repository provides a table of [IBC](https://github.com/cosmos/ibc) module combinations supported by [yui-relayer](https://github.com/hyperledger-labs/yui-relayer) and their E2E tests. The E2E tests are performed for each version of the yui-relayer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-labs/yui-corda-ibc",
+      "status": "candidate",
+      "text": "Corda-IBC is an implementation of IBC modules that runs as a CorDapp on Corda platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-labs/yui-fabric-ibc",
+      "status": "candidate",
+      "text": "![Test](https://github.com/hyperledger-labs/yui-fabric-ibc/workflows/Test/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/ethereum-ibc-rs",
+      "status": "candidate",
+      "text": "[![test](https://github.com/datachainlab/ethereum-ibc-rs/actions/workflows/test.yml/badge.svg)](https://github.com/datachainlab/ethereum-ibc-rs/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -346,11 +418,47 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "cosmos/ibc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "datachainlab/yui-relayer-build"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "hyperledger-labs/yui-corda-ibc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "hyperledger-labs/yui-fabric-ibc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "datachainlab/ethereum-ibc-rs"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

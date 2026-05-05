@@ -1,0 +1,12 @@
+{
+  "component": "crazy-max/ghaction-github-status@f0ef9e1cf727f9f76f8485f8c525fa03afc4ec02",
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "crazy-max/diun"
+    }
+  ]
+}

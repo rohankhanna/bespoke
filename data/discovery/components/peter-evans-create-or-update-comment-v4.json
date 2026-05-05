@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-or-update-comment@v4",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -142,6 +142,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/nextjs_bundle_analysis.yml",
       "source_repo": "LibreChat-AI/librechat.ai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compare_sizes.yml",
+      "source_repo": "near/near-sdk-rs"
     }
   ]
 }

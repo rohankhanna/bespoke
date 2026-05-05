@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -582,6 +582,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "crazy-max/goxx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "kubernetes/ingress-nginx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/images.yaml",
+      "source_repo": "kubernetes/ingress-nginx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/component-build-images.yml",
+      "source_repo": "open-telemetry/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generator-image.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ghcr_publish_testing_images.yml",
+      "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "crazy-max/diun"
     }
   ]
 }

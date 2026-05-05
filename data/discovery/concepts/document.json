@@ -118,6 +118,30 @@
       "source_repo": "diwand/YapiIdeaUploadPlugin",
       "status": "candidate-context",
       "text": "\u51cf\u5c11yapi \u5f55\u5165\u65f6\u95f4\uff0c\u901a\u8fc7\u5de5\u5177\u53cd\u5411\u89c4\u8303\u4ee3\u7801\u6ce8\u91ca\uff0c\u548c\u4ee3\u7801\u6574\u6d01"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nebula-labs/rust-by-example-vn",
+      "status": "candidate-context",
+      "text": "Phi\u00ean b\u1ea3n d\u1ecbch sang ti\u1ebfng Vi\u1ec7t c\u1ee7a https://doc.rust-lang.org/stable/rust-by-example/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nebula-labs/rust-by-example-vn",
+      "status": "candidate-context",
+      "text": "Phi\u00ean b\u1ea3n ti\u1ebfng Vi\u1ec7t c\u1ee7a https://doc.rust-lang.org/stable/rust-by-example - H\u1ecdc l\u1eadp tr\u00ecnh Rust th\u00f4ng qua c\u00e1c v\u00ed d\u1ee5 (C\u00f3 Live code editor)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang-ja/rust-by-example-ja",
+      "status": "candidate-context",
+      "text": "rust-by-example\u306e\u548c\u8a33\u30ea\u30dd\u30b8\u30c8\u30ea"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang-ja/rust-by-example-ja",
+      "status": "candidate-context",
+      "text": "[Rust by Example](https://github.com/rust-lang/rust-by-example)\u306e\u548c\u8a33\u30ea\u30dd\u30b8\u30c8\u30ea [![CircleCI](https://circleci.com/gh/rust-lang-ja/rust-by-example-ja.svg?style=svg)](https://circleci.com/gh/rust-lang-ja/rust-by-example-ja)"
     }
   ],
   "candidate_glosses": [
@@ -174,6 +198,18 @@
       "source_repo": "diwand/YapiIdeaUploadPlugin",
       "status": "candidate",
       "text": "\u51cf\u5c11yapi \u5f55\u5165\u65f6\u95f4\uff0c\u901a\u8fc7\u5de5\u5177\u53cd\u5411\u89c4\u8303\u4ee3\u7801\u6ce8\u91ca\uff0c\u548c\u4ee3\u7801\u6574\u6d01"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nebula-labs/rust-by-example-vn",
+      "status": "candidate",
+      "text": "Phi\u00ean b\u1ea3n ti\u1ebfng Vi\u1ec7t c\u1ee7a https://doc.rust-lang.org/stable/rust-by-example - H\u1ecdc l\u1eadp tr\u00ecnh Rust th\u00f4ng qua c\u00e1c v\u00ed d\u1ee5 (C\u00f3 Live code editor)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang-ja/rust-by-example-ja",
+      "status": "candidate",
+      "text": "[Rust by Example](https://github.com/rust-lang/rust-by-example)\u306e\u548c\u8a33\u30ea\u30dd\u30b8\u30c8\u30ea [![CircleCI](https://circleci.com/gh/rust-lang-ja/rust-by-example-ja.svg?style=svg)](https://circleci.com/gh/rust-lang-ja/rust-by-example-ja)"
     }
   ],
   "candidate_related_terms": [
@@ -335,11 +371,29 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "nebula-labs/rust-by-example-vn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang-ja/rust-by-example-ja"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

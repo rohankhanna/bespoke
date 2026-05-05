@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache doris"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Label Pull Requests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Label Pull Requests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26240,
+      "status": "candidate",
+      "text": "peel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26240,
+      "status": "candidate",
+      "text": "peeling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18124,
+      "status": "candidate",
+      "text": "brand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18124,
+      "status": "candidate",
+      "text": "branded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18124,
+      "status": "candidate",
+      "text": "branding"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Label Pull Requests",
+      "sense_id": "label-pull-requests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "label-pull-requests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "label-pull-requests",
+  "observation_id": "788f0014d0aa6158",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "Label Pull Requests",
+  "source_context_snippet": "Label Pull Requests",
+  "source_file": ".github/workflows/label-pr.yml",
+  "source_repo": "apache/doris-opentelemetry-demo",
+  "source_repo_description": "Apache doris"
+}

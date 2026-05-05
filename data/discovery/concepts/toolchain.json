@@ -118,6 +118,18 @@
       "source_repo": "ugexe/zef",
       "status": "candidate-context",
       "text": "Raku Module Management"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazy-max/docker-osxcross",
+      "status": "candidate-context",
+      "text": "MacOSX cross toolchain as Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/docker-osxcross",
+      "status": "candidate-context",
+      "text": "[![Latest version](https://img.shields.io/github/v/tag/crazy-max/docker-osxcross?label=version&style=flat-square)](https://hub.docker.com/r/crazymax/osxcross/tags?page=1&ordering=last_updated)"
     }
   ],
   "candidate_glosses": [
@@ -174,6 +186,12 @@
       "source_repo": "ugexe/zef",
       "status": "candidate",
       "text": "Raku Module Management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/docker-osxcross",
+      "status": "candidate",
+      "text": "[![Latest version](https://img.shields.io/github/v/tag/crazy-max/docker-osxcross?label=version&style=flat-square)](https://hub.docker.com/r/crazymax/osxcross/tags?page=1&ordering=last_updated)"
     }
   ],
   "candidate_related_terms": [
@@ -295,11 +313,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "ugexe/zef"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "crazy-max/docker-osxcross"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

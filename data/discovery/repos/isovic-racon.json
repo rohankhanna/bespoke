@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "isovic/racon",
+      "target": "clara-parabricks/genomeworks",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:51:54.847823+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7286
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ultrafast consensus module for raw de novo genome assembly of long uncorrected reads. http://genome.cshlp.org/content/early/2017/01/18/gr.214270.116 Note: This was the original repository which will no longer be officially maintained. Please use the new official repository here:",
+    "fork": false,
+    "full_name": "isovic/racon",
+    "html_url": "https://github.com/isovic/racon",
+    "language": "C++",
+    "pushed_at": "2024-05-09T20:22:05Z",
+    "stargazers_count": 297,
+    "topics": [],
+    "updated_at": "2026-03-20T10:48:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clara-parabricks/genomeworks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

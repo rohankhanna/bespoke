@@ -1,7 +1,7 @@
 {
   "component": "conda-incubator/setup-miniconda@v2",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -222,6 +222,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "deeptools/pyBigWig"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_unittests.yml",
+      "source_repo": "faroit/stempeg"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_unittests.yml",
+      "source_repo": "sigsep/sigsep-mus-eval"
     }
   ]
 }

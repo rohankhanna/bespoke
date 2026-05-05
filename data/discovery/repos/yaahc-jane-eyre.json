@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T13:44:50.643347+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 794
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 447
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A tracing aware eyre variant that captures SpanTraces and Backtraces and supports rich context for errors with warnings, suggestions, and notes",
+    "fork": false,
+    "full_name": "yaahc/jane-eyre",
+    "html_url": "https://github.com/yaahc/jane-eyre",
+    "language": "Rust",
+    "pushed_at": "2023-02-24T21:58:54Z",
+    "stargazers_count": 28,
+    "topics": [],
+    "updated_at": "2025-04-30T12:08:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python type wrappers for Chrome DevTools Protocol (CDP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Code Functionality and Documentation Review\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Code Functionality and Documentation Review\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31823,
+      "status": "candidate",
+      "text": "instrumentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31823,
+      "status": "candidate",
+      "text": "startup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31742,
+      "status": "candidate",
+      "text": "competence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31742,
+      "status": "candidate",
+      "text": "execution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31742,
+      "status": "candidate",
+      "text": "recitation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Code Functionality and Documentation Review",
+      "sense_id": "code-functionality-and-documentation-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "code-functionality-and-documentation-review",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "code-functionality-and-documentation-review",
+  "observation_id": "e4cfc0425eef2740",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "Code Functionality and Documentation Review",
+  "source_context_snippet": "\"Code Functionality and Documentation Review\"",
+  "source_file": ".github/workflows/auto-copilot-functionality-docs-review.yml",
+  "source_repo": "HyperionGray/python-chrome-devtools-protocol",
+  "source_repo_description": "Python type wrappers for Chrome DevTools Protocol (CDP)"
+}

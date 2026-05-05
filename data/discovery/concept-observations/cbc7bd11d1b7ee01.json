@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Clang Tidy Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Clang Tidy Check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22302,
+      "status": "candidate",
+      "text": "rhythm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21675,
+      "status": "candidate",
+      "text": "stack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21485,
+      "status": "candidate",
+      "text": "clap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21485,
+      "status": "candidate",
+      "text": "dummy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21463,
+      "status": "candidate",
+      "text": "checking"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Clang Tidy Check",
+      "sense_id": "clang-tidy-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "clang-tidy-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clang-tidy-check",
+  "observation_id": "cbc7bd11d1b7ee01",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "Clang Tidy Check",
+  "source_context_snippet": "Clang Tidy Check",
+  "source_file": ".github/workflows/clang-tidy-check.yml",
+  "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
+  "source_repo_description": null
+}

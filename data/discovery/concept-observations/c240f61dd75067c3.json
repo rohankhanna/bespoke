@@ -84,7 +84,7 @@
   "normalized_form": "label-actions",
   "observation_id": "c240f61dd75067c3",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Label Actions",
   "source_context_snippet": "'Label Actions'",
   "source_file": ".github/workflows/handle-labels.yml",

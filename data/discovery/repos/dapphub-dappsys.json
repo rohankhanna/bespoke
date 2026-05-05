@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dapphub/dappsys",
+      "target": "dappsys",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dapphub/dappsys",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dapphub/dappsys",
+      "target": "solidity",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T15:59:03.804164+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 496
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Composable building blocks for Ethereum contracts",
+    "fork": false,
+    "full_name": "dapphub/dappsys",
+    "html_url": "https://github.com/dapphub/dappsys",
+    "language": "Nix",
+    "pushed_at": "2022-03-12T13:23:41Z",
+    "stargazers_count": 569,
+    "topics": [
+      "dappsys",
+      "ethereum",
+      "solidity"
+    ],
+    "updated_at": "2026-05-05T12:33:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Dappsys",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dappsys"
+    },
+    {
+      "context_snippet": "Dappsys",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "Dappsys",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "solidity"
+    }
+  ]
+}

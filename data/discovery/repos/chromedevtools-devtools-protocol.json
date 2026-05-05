@@ -1,0 +1,133 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-on-tag.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-on-tag.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-on-tag.yml",
+      "source_repo": "ChromeDevTools/devtools-protocol",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-on-tag.yml",
+      "source_repo": "ChromeDevTools/devtools-protocol",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-on-tag.yml",
+      "source_repo": "ChromeDevTools/devtools-protocol",
+      "target": "Publish on Tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "ChromeDevTools/devtools-protocol",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "ChromeDevTools/devtools-protocol",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "ChromeDevTools/devtools-protocol",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "ChromeDevTools/devtools-protocol",
+      "target": "Daily update of version",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:47:13.135708+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1326
+    },
+    {
+      "path": "package.json",
+      "size": 428
+    },
+    {
+      "path": ".github/workflows/publish-on-tag.yml",
+      "size": 485
+    },
+    {
+      "path": ".github/workflows/update.yml",
+      "size": 1317
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Chrome DevTools Protocol",
+    "fork": false,
+    "full_name": "ChromeDevTools/devtools-protocol",
+    "html_url": "https://github.com/ChromeDevTools/devtools-protocol",
+    "language": "TypeScript",
+    "pushed_at": "2026-05-03T00:02:42Z",
+    "stargazers_count": 1479,
+    "topics": [],
+    "updated_at": "2026-05-03T13:51:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish on Tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-on-tag.yml",
+      "term": "Publish on Tag"
+    },
+    {
+      "context_snippet": "Daily update of version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "term": "Daily update of version"
+    }
+  ]
+}

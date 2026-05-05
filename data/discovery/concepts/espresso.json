@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "espresso"
+    "espresso",
+    "Espresso"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "airbnb/okreplay",
       "status": "candidate-context",
       "text": "Build/Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "osmdroid/osmdroid",
+      "status": "candidate-context",
+      "text": "OpenStreetMap-Tools for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmdroid/osmdroid",
+      "status": "candidate-context",
+      "text": "Espresso"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "airbnb/okreplay",
       "status": "candidate",
       "text": "Build/Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmdroid/osmdroid",
+      "status": "candidate",
+      "text": "Espresso"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +97,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "airbnb/okreplay"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/Espresso.yml",
+      "source_repo": "osmdroid/osmdroid"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

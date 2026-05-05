@@ -598,6 +598,30 @@
       "source_repo": "Cysharp/UniTask",
       "status": "candidate-context",
       "text": "build-docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dothq/melon",
+      "status": "candidate-context",
+      "text": "\ud83c\udf49 Build Firefox-based browsers with ease [wip]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dothq/melon",
+      "status": "candidate-context",
+      "text": "Build docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulse-browser/gluon",
+      "status": "candidate-context",
+      "text": "Build firefox forks with ease"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulse-browser/gluon",
+      "status": "candidate-context",
+      "text": "Build docs"
     }
   ],
   "candidate_glosses": [
@@ -900,6 +924,18 @@
       "source_repo": "Cysharp/UniTask",
       "status": "candidate",
       "text": "build-docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dothq/melon",
+      "status": "candidate",
+      "text": "Build docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulse-browser/gluon",
+      "status": "candidate",
+      "text": "Build docs"
     }
   ],
   "candidate_related_terms": [
@@ -1699,11 +1735,47 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/build-docs.yml",
       "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "dothq/melon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "source_repo": "meta-pytorch/torchtune"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "pulse-browser/gluon"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,91 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdamSpannbauer/python_video_stab",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdamSpannbauer/python_video_stab",
+      "target": "opencv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdamSpannbauer/python_video_stab",
+      "target": "video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdamSpannbauer/python_video_stab",
+      "target": "video-stabilization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:55:16.505712+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15456
+    },
+    {
+      "path": "requirements.txt",
+      "size": 62
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Python package to stabilize videos using OpenCV",
+    "fork": false,
+    "full_name": "AdamSpannbauer/python_video_stab",
+    "html_url": "https://github.com/AdamSpannbauer/python_video_stab",
+    "language": "Python",
+    "pushed_at": "2023-07-19T22:27:44Z",
+    "stargazers_count": 775,
+    "topics": [
+      "computer-vision",
+      "opencv",
+      "python",
+      "video",
+      "video-stabilization"
+    ],
+    "updated_at": "2026-05-01T15:25:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<!-- noop -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<!-- noop -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencv"
+    },
+    {
+      "context_snippet": "<!-- noop -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    },
+    {
+      "context_snippet": "<!-- noop -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-stabilization"
+    }
+  ]
+}

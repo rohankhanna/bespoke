@@ -19,6 +19,18 @@
       "source_repo": "connectrpc/examples-es",
       "status": "candidate-context",
       "text": "examples-es"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typicode/mistcss",
+      "status": "candidate-context",
+      "text": "Create visual components for React without JavaScript or TypeScript.  Leverage native HTML and CSS. It's an alternative to CSS-in-JS and CSS modules."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typicode/mistcss",
+      "status": "candidate-context",
+      "text": "> Simplicity is the ultimate sophistication"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "connectrpc/examples-es",
       "status": "candidate",
       "text": "examples-es"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typicode/mistcss",
+      "status": "candidate",
+      "text": "> Simplicity is the ultimate sophistication"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "connectrpc/examples-es"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "typicode/mistcss"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Smart contracts for the Gnosis Protocol v2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**:warning: The team that worked on this project has spun out of Gnosis and continues development on a forked repo (01-04-2022) which is available here <https://github.com/cowprotocol/contracts>**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**:warning: The team that worked on this project has spun out of Gnosis and continues development on a forked repo (01-04-2022) which is available here <https://github.com/cowprotocol/contracts>**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hacktoberfest",
+      "sense_id": "hacktoberfest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hacktoberfest",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hacktoberfest",
+  "observation_id": "44f1f1d9654f7589",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "hacktoberfest",
+  "source_context_snippet": "**:warning: The team that worked on this project has spun out of Gnosis and continues development on a forked repo (01-04-2022) which is available here <https://github.com/cowprotocol/contracts>**",
+  "source_file": null,
+  "source_repo": "gnosis/gp-v2-contracts",
+  "source_repo_description": "Smart contracts for the Gnosis Protocol v2"
+}

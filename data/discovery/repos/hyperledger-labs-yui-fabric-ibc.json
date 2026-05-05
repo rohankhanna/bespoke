@@ -1,0 +1,174 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hyperledger-labs/yui-fabric-ibc",
+      "target": "datachainlab/public-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hyperledger-labs/yui-fabric-ibc",
+      "target": "actions/setup-go@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hyperledger-labs/yui-fabric-ibc",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hyperledger-labs/yui-fabric-ibc",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyperledger-labs/yui-fabric-ibc",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyperledger-labs/yui-fabric-ibc",
+      "target": "cosmos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyperledger-labs/yui-fabric-ibc",
+      "target": "fabric",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyperledger-labs/yui-fabric-ibc",
+      "target": "hyperledger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyperledger-labs/yui-fabric-ibc",
+      "target": "hyperledger-fabric",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyperledger-labs/yui-fabric-ibc",
+      "target": "interoperability",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T15:58:55.801729+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 698
+    },
+    {
+      "path": "go.mod",
+      "size": 9618
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 423
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "IBC implementation in Hyperledger Fabric",
+    "fork": false,
+    "full_name": "hyperledger-labs/yui-fabric-ibc",
+    "html_url": "https://github.com/hyperledger-labs/yui-fabric-ibc",
+    "language": "Go",
+    "pushed_at": "2023-05-11T20:41:35Z",
+    "stargazers_count": 37,
+    "topics": [
+      "blockchain",
+      "cosmos",
+      "fabric",
+      "hyperledger",
+      "hyperledger-fabric",
+      "ibc",
+      "interoperability"
+    ],
+    "updated_at": "2026-03-24T22:28:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datachainlab/public-docs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "![Test](https://github.com/hyperledger-labs/yui-fabric-ibc/workflows/Test/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "![Test](https://github.com/hyperledger-labs/yui-fabric-ibc/workflows/Test/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cosmos"
+    },
+    {
+      "context_snippet": "![Test](https://github.com/hyperledger-labs/yui-fabric-ibc/workflows/Test/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fabric"
+    },
+    {
+      "context_snippet": "![Test](https://github.com/hyperledger-labs/yui-fabric-ibc/workflows/Test/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperledger"
+    },
+    {
+      "context_snippet": "![Test](https://github.com/hyperledger-labs/yui-fabric-ibc/workflows/Test/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperledger-fabric"
+    },
+    {
+      "context_snippet": "![Test](https://github.com/hyperledger-labs/yui-fabric-ibc/workflows/Test/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interoperability"
+    }
+  ]
+}

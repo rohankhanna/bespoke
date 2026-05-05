@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T14:55:23.135528+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2988
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official PaddlePaddle implementation of Paint Transformer",
+    "fork": false,
+    "full_name": "wzmsltw/PaintTransformer",
+    "html_url": "https://github.com/wzmsltw/PaintTransformer",
+    "language": "Python",
+    "pushed_at": "2021-08-25T02:40:50Z",
+    "stargazers_count": 325,
+    "topics": [],
+    "updated_at": "2026-05-03T02:09:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

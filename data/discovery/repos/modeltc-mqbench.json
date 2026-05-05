@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T15:02:06.877285+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2242
+    },
+    {
+      "path": "requirements.txt",
+      "size": 69
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Model Quantization Benchmark",
+    "fork": false,
+    "full_name": "ModelTC/MQBench",
+    "html_url": "https://github.com/ModelTC/MQBench",
+    "language": "Python",
+    "pushed_at": "2025-04-20T15:29:16Z",
+    "stargazers_count": 866,
+    "topics": [],
+    "updated_at": "2026-05-01T18:16:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

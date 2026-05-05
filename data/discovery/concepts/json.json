@@ -1555,6 +1555,18 @@
       "source_repo": "americanexpress/jest-json-schema",
       "status": "candidate-context",
       "text": "[![npm version](https://badge.fury.io/js/jest-json-schema.svg)](https://badge.fury.io/js/jest-json-schema)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jzelinskie/faq",
+      "status": "candidate-context",
+      "text": "Format Agnostic jQ -- process various formats with libjq"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jzelinskie/faq",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/jzelinskie/faq?style=flat-square)](https://goreportcard.com/report/github.com/jzelinskie/faq)"
     }
   ],
   "candidate_glosses": [
@@ -2331,6 +2343,12 @@
       "source_repo": "americanexpress/jest-json-schema",
       "status": "candidate",
       "text": "[![npm version](https://badge.fury.io/js/jest-json-schema.svg)](https://badge.fury.io/js/jest-json-schema)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jzelinskie/faq",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/jzelinskie/faq?style=flat-square)](https://goreportcard.com/report/github.com/jzelinskie/faq)"
     }
   ],
   "candidate_related_terms": [
@@ -3657,11 +3675,53 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/quotes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "jzelinskie/faq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "ultrajson/ultrajson"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

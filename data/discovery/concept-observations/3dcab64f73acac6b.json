@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Neotest adapter for running busted tests using neovim as a lua interpreter "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39734618,
+      "status": "candidate",
+      "text": "broken"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39730826,
+      "status": "candidate",
+      "text": "ruptured"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39726794,
+      "status": "candidate",
+      "text": "burst"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39725424,
+      "status": "candidate",
+      "text": "damaged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29807519,
+      "status": "candidate",
+      "text": "fart"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "busted",
+      "sense_id": "busted#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25055,
+      "status": "candidate",
+      "text": "burst"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12050,
+      "status": "candidate",
+      "text": "broken"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8026,
+      "status": "candidate",
+      "text": "damaged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3023,
+      "status": "candidate",
+      "text": "ruptured"
+    }
+  ],
+  "concept_id": "busted",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "busted",
+  "observation_id": "3dcab64f73acac6b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "busted",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "MisanthropicBit/neotest-busted",
+  "source_repo_description": "Neotest adapter for running busted tests using neovim as a lua interpreter "
+}

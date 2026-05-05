@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Solidity mocking provider for testing "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A library for mocking Solidity contracts."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A library for mocking Solidity contracts."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dapptools",
+      "sense_id": "dapptools#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dapptools",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dapptools",
+  "observation_id": "8c8c50b7936f288d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "dapptools",
+  "source_context_snippet": "A library for mocking Solidity contracts.",
+  "source_file": null,
+  "source_repo": "cleanunicorn/mockprovider",
+  "source_repo_description": "Solidity mocking provider for testing "
+}

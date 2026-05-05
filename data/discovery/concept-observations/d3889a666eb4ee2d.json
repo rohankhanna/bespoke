@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "High-performance Inference and Deployment Toolkit for LLMs and VLMs based on PaddlePaddle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Base Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Base Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28071,
+      "status": "candidate",
+      "text": "litmus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28007,
+      "status": "candidate",
+      "text": "shroff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27976,
+      "status": "candidate",
+      "text": "spaceport"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11671,
+      "status": "candidate",
+      "text": "ban"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11671,
+      "status": "candidate",
+      "text": "check"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Base Test",
+      "sense_id": "base-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "base-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "base-test",
+  "observation_id": "d3889a666eb4ee2d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "Base Test",
+  "source_context_snippet": "Base Test",
+  "source_file": ".github/workflows/_base_test.yml",
+  "source_repo": "PaddlePaddle/FastDeploy",
+  "source_repo_description": "High-performance Inference and Deployment Toolkit for LLMs and VLMs based on PaddlePaddle"
+}

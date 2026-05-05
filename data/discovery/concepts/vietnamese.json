@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "vietnamese"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nebula-labs/rust-by-example-vn",
+      "status": "candidate-context",
+      "text": "Phi\u00ean b\u1ea3n d\u1ecbch sang ti\u1ebfng Vi\u1ec7t c\u1ee7a https://doc.rust-lang.org/stable/rust-by-example/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nebula-labs/rust-by-example-vn",
+      "status": "candidate-context",
+      "text": "Phi\u00ean b\u1ea3n ti\u1ebfng Vi\u1ec7t c\u1ee7a https://doc.rust-lang.org/stable/rust-by-example - H\u1ecdc l\u1eadp tr\u00ecnh Rust th\u00f4ng qua c\u00e1c v\u00ed d\u1ee5 (C\u00f3 Live code editor)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nebula-labs/rust-by-example-vn",
+      "status": "candidate",
+      "text": "Phi\u00ean b\u1ea3n ti\u1ebfng Vi\u1ec7t c\u1ee7a https://doc.rust-lang.org/stable/rust-by-example - H\u1ecdc l\u1eadp tr\u00ecnh Rust th\u00f4ng qua c\u00e1c v\u00ed d\u1ee5 (C\u00f3 Live code editor)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049543,
+      "status": "candidate",
+      "text": "annamite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049517,
+      "status": "candidate",
+      "text": "annamese"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049616,
+      "status": "candidate",
+      "text": "viet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049612,
+      "status": "candidate",
+      "text": "nam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048779,
+      "status": "candidate",
+      "text": "yue"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "annamese"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "annamite"
+    }
+  ],
+  "canonical_name": "vietnamese",
+  "concept_id": "vietnamese",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "nebula-labs/rust-by-example-vn"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vietnamese",
+      "sense_id": "vietnamese#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T15:49:55.820911+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1286
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "UNMAINTAINED Unofficial Java bindings for GStreamer 0.10 (not 1.x)",
+    "fork": false,
+    "full_name": "gstreamer-java/gstreamer-java",
+    "html_url": "https://github.com/gstreamer-java/gstreamer-java",
+    "language": "Java",
+    "pushed_at": "2023-09-06T13:15:10Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2023-09-06T14:50:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

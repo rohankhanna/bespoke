@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commands.yml",
+      "source_repo": "hbenl/vscode-extension-samples",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commands.yml",
+      "source_repo": "hbenl/vscode-extension-samples",
+      "target": "Commands",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-label.yml",
+      "source_repo": "hbenl/vscode-extension-samples",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-label.yml",
+      "source_repo": "hbenl/vscode-extension-samples",
+      "target": "On Label",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "hbenl/vscode-extension-samples"
+}

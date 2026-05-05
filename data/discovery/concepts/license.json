@@ -82,6 +82,18 @@
       "source_repo": "MY1L/icense",
       "status": "candidate-context",
       "text": "<img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "koide3/small_gicp",
+      "status": "candidate-context",
+      "text": "Efficient and parallel algorithms for point cloud registration [C++, Python]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koide3/small_gicp",
+      "status": "candidate-context",
+      "text": "license"
     }
   ],
   "candidate_glosses": [
@@ -120,6 +132,12 @@
       "source_repo": "MY1L/icense",
       "status": "candidate",
       "text": "<img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koide3/small_gicp",
+      "status": "candidate",
+      "text": "license"
     }
   ],
   "candidate_related_terms": [
@@ -228,11 +246,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "MY1L/icense"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/license.yml",
+      "source_repo": "koide3/small_gicp"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

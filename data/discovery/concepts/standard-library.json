@@ -55,6 +55,18 @@
       "source_repo": "XantreDev/preact-signals",
       "status": "candidate-context",
       "text": "Goal of the project to provide comprehensive tooling for using [`preact/signals`](https://github.com/preactjs/signals)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "status": "candidate-context",
+      "text": "Library of backported modern C++ types to work with C++11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "status": "candidate-context",
+      "text": "![Backport C++](doc/images/backport-logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "XantreDev/preact-signals",
       "status": "candidate",
       "text": "Goal of the project to provide comprehensive tooling for using [`preact/signals`](https://github.com/preactjs/signals)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwizeshift/BackportCpp",
+      "status": "candidate",
+      "text": "![Backport C++](doc/images/backport-logo.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -202,11 +220,23 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "arkworks-rs/std"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/std"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "bitwizeshift/BackportCpp"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

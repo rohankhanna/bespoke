@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUST-Aerial-Robotics/FUEL",
+      "target": "sysu-star/racer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUST-Aerial-Robotics/FUEL",
+      "target": "stevengj/nlopt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUST-Aerial-Robotics/FUEL",
+      "target": "tpruvot/ccminer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUST-Aerial-Robotics/FUEL",
+      "target": "aerial-robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUST-Aerial-Robotics/FUEL",
+      "target": "autonomous-navigation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUST-Aerial-Robotics/FUEL",
+      "target": "autonomous-robots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUST-Aerial-Robotics/FUEL",
+      "target": "motion-planning",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "HKUST-Aerial-Robotics/FUEL"
+}

@@ -211,20 +211,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "informalsystems/ibc-rs",
-      "target": "octopus-network/substrate-ibc",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "informalsystems/ibc-rs",
-      "target": "octopus-network/near-ibc",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "informalsystems/ibc-rs",
       "target": "cosmos/ibc-rs",
       "target_type": "repository"
     },
@@ -481,7 +467,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T00:41:21.053467+00:00",
+  "fetched_at": "2026-05-05T15:58:08.069723+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -544,16 +530,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "cosmos/ibc-rs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "octopus-network/near-ibc",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "octopus-network/substrate-ibc",
       "source_file": "README.md"
     },
     {

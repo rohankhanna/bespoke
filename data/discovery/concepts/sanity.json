@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "sanity"
+    "sanity",
+    "Sanity"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -67,6 +68,18 @@
       "source_repo": "operator-framework/operator-registry",
       "status": "candidate-context",
       "text": "sanity"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brave/adblock-rust",
+      "status": "candidate-context",
+      "text": "Brave's Rust-based adblock engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brave/adblock-rust",
+      "status": "candidate-context",
+      "text": "Sanity"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +112,12 @@
       "source_repo": "operator-framework/operator-registry",
       "status": "candidate",
       "text": "sanity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brave/adblock-rust",
+      "status": "candidate",
+      "text": "Sanity"
     }
   ],
   "candidate_related_terms": [
@@ -180,11 +199,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/sanity.yaml",
       "source_repo": "operator-framework/operator-registry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/sanity.yml",
+      "source_repo": "brave/adblock-rust"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

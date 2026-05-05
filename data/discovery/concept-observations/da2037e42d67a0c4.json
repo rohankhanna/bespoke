@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "DORA (Dataflow-Oriented Robotic Architecture) is middleware designed to streamline and simplify the creation of AI-based robotic applications. It offers low latency, composable, and distributed dataflow capabilities. Applications are modeled as directed graphs, also referred to as pipelines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[English](README.md) | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[English](README.md) | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29885181,
+      "status": "candidate",
+      "text": "robot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19976100,
+      "status": "candidate",
+      "text": "bots"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19976100,
+      "status": "candidate",
+      "text": "robots"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19976099,
+      "status": "candidate",
+      "text": "robotology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19976098,
+      "status": "candidate",
+      "text": "three laws of robotics"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "robotics",
+      "sense_id": "robotics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "robotics",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "robotics",
+  "observation_id": "da2037e42d67a0c4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "robotics",
+  "source_context_snippet": "[English](README.md) | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)",
+  "source_file": null,
+  "source_repo": "dora-rs/dora",
+  "source_repo_description": "DORA (Dataflow-Oriented Robotic Architecture) is middleware designed to streamline and simplify the creation of AI-based robotic applications. It offers low latency, composable, and distributed dataflow capabilities. Applications are modeled as directed graphs, also referred to as pipelines."
+}

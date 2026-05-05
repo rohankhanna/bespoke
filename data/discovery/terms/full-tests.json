@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -21,6 +21,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/full-test.yml",
       "source_repo": "alibaba/TinyNeuralNetwork"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/full_tests.yml",
+      "source_repo": "astroyat/lerobot"
     }
   ],
   "term": "Full Tests"

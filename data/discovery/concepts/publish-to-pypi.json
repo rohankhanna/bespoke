@@ -917,6 +917,30 @@
       "source_repo": "wkentaro/gdown",
       "status": "candidate-context",
       "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Zulko/moviepy",
+      "status": "candidate-context",
+      "text": "Video editing with Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zulko/moviepy",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "box2ai-robotics/robosuite-joycon",
+      "status": "candidate-context",
+      "text": "robosuite-joycon: A Modular Simulation Framework and Benchmark for Robot Learning add joycon controller"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box2ai-robotics/robosuite-joycon",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
     }
   ],
   "candidate_glosses": [
@@ -1379,6 +1403,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "wkentaro/gdown",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zulko/moviepy",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box2ai-robotics/robosuite-joycon",
       "status": "candidate",
       "text": "Publish to PyPI"
     }
@@ -2672,11 +2708,71 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/publish-to-pypi.yml",
       "source_repo": "nomadkaraoke/python-audio-separator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "cookiecutter/cookiecutter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "meta-llama/prompt-ops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Zulko/moviepy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "TencentCloudADP/youtu-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/publish_package.yml",
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "Comfy-Org/ComfyUI-Manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/update-pypi.yaml",
+      "source_repo": "box2ai-robotics/robosuite-joycon"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

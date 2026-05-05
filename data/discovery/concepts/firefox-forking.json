@@ -19,6 +19,30 @@
       "source_repo": "Alex313031/Mercury",
       "status": "candidate-context",
       "text": "<img src=\"https://raw.githubusercontent.com/Alex313031/Mercury/main/logos/Mercury_256.png\" width=\"128\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dothq/melon",
+      "status": "candidate-context",
+      "text": "\ud83c\udf49 Build Firefox-based browsers with ease [wip]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dothq/melon",
+      "status": "candidate-context",
+      "text": "This project is no longer used or maintained by Dot HQ. The [Pulse Browser](https://pulsebrowser.app/) developers [maintain and support a fork](https://github.com/pulse-browser/gluon)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulse-browser/gluon",
+      "status": "candidate-context",
+      "text": "Build firefox forks with ease"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulse-browser/gluon",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "Alex313031/Mercury",
       "status": "candidate",
       "text": "<img src=\"https://raw.githubusercontent.com/Alex313031/Mercury/main/logos/Mercury_256.png\" width=\"128\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dothq/melon",
+      "status": "candidate",
+      "text": "This project is no longer used or maintained by Dot HQ. The [Pulse Browser](https://pulsebrowser.app/) developers [maintain and support a fork](https://github.com/pulse-browser/gluon)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulse-browser/gluon",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "Alex313031/Mercury"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "dothq/melon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "pulse-browser/gluon"
     }
   ],
   "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

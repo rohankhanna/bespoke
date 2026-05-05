@@ -84,7 +84,7 @@
   "normalized_form": "stable-release-tags",
   "observation_id": "199b369f615128a2",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T00:36:37.683079+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Stable Release (tags)",
   "source_context_snippet": "Stable Release (tags)",
   "source_file": ".github/workflows/npm-publish.yml",

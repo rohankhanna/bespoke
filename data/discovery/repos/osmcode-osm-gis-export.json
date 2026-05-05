@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "osmcode/osm-gis-export",
+      "target": "osmcode/osmium-proj",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "osmcode/osm-gis-export",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "osmcode/osm-gis-export",
+      "target": "openstreetmap",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:47:40.286272+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2474
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3518
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Export OSM data to GIS formats like Shapefiles, Spatialite or PostGIS.",
+    "fork": false,
+    "full_name": "osmcode/osm-gis-export",
+    "html_url": "https://github.com/osmcode/osm-gis-export",
+    "language": "C++",
+    "pushed_at": "2026-01-18T13:51:30Z",
+    "stargazers_count": 24,
+    "topics": [
+      "openstreetmap"
+    ],
+    "updated_at": "2026-01-27T18:34:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "osmcode/osmium-proj",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is some older code, not really maintained, but could be useful, so we",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openstreetmap"
+    }
+  ]
+}

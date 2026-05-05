@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PointCloudLibrary/PointCloudLibrary.github.io",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T13:52:31.996874+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 63
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Point Cloud Library's website",
+    "fork": false,
+    "full_name": "PointCloudLibrary/PointCloudLibrary.github.io",
+    "html_url": "https://github.com/PointCloudLibrary/PointCloudLibrary.github.io",
+    "language": "HTML",
+    "pushed_at": "2024-10-30T15:07:51Z",
+    "stargazers_count": 16,
+    "topics": [
+      "hacktoberfest"
+    ],
+    "updated_at": "2024-10-30T15:08:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Temporary experimentation ground",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

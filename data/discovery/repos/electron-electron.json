@@ -281,7 +281,7 @@
       "source_file": ".github/workflows/audit-branch-ci.yml"
     },
     {
-      "component": "slackapi/slack-github-action@03ea5433c137af7c0495bc0cad1af10403fc800c",
+      "component": "slackapi/slack-github-action@45a88b9581bfab2566dc881e2cd66d334e621e2c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/audit-branch-ci.yml"
     },
@@ -775,7 +775,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/audit-branch-ci.yml",
       "source_repo": "electron/electron",
-      "target": "slackapi/slack-github-action@03ea5433c137af7c0495bc0cad1af10403fc800c",
+      "target": "slackapi/slack-github-action@45a88b9581bfab2566dc881e2cd66d334e621e2c",
       "target_type": "component"
     },
     {
@@ -940,7 +940,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T00:55:22.211633+00:00",
+  "fetched_at": "2026-05-05T16:50:05.548302+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -948,7 +948,7 @@
     },
     {
       "path": "package.json",
-      "size": 6068
+      "size": 6106
     },
     {
       "path": ".github/workflows/apply-patches.yml",
@@ -992,7 +992,7 @@
     "full_name": "electron/electron",
     "html_url": "https://github.com/electron/electron",
     "language": "C++",
-    "pushed_at": "2026-05-05T00:18:16Z",
+    "pushed_at": "2026-05-05T16:32:44Z",
     "stargazers_count": 121136,
     "topics": [
       "c-plus-plus",
@@ -1005,7 +1005,7 @@
       "v8",
       "works-with-codespaces"
     ],
-    "updated_at": "2026-05-05T00:43:32Z"
+    "updated_at": "2026-05-05T16:37:41Z"
   },
   "repo_links": [],
   "terms": [

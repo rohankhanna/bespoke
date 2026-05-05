@@ -7,7 +7,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -705,6 +707,18 @@
       "source_repo": "JohannesKaufmann/html-to-markdown",
       "status": "candidate-context",
       "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "status": "candidate-context",
+      "text": "Cross compilation helper for GoReleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "status": "candidate-context",
+      "text": "[![goreleaser-xx](.github/goreleaser-xx.png)](https://github.com/crazy-max/goreleaser-xx)"
     }
   ],
   "candidate_glosses": [
@@ -1049,6 +1063,12 @@
       "source_repo": "JohannesKaufmann/html-to-markdown",
       "status": "candidate",
       "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/goreleaser-xx",
+      "status": "candidate",
+      "text": "[![goreleaser-xx](.github/goreleaser-xx.png)](https://github.com/crazy-max/goreleaser-xx)"
     }
   ],
   "candidate_related_terms": [],
@@ -1440,11 +1460,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "JohannesKaufmann/html-to-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "crazy-max/goreleaser-xx"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

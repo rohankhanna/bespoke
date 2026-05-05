@@ -1,0 +1,63 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "utiasASRL/lgmath",
+      "target": "geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "utiasASRL/lgmath",
+      "target": "robotics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T13:52:49.273733+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3530
+    },
+    {
+      "path": "Dockerfile",
+      "size": 192
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lie group math library.",
+    "fork": false,
+    "full_name": "utiasASRL/lgmath",
+    "html_url": "https://github.com/utiasASRL/lgmath",
+    "language": "C++",
+    "pushed_at": "2026-02-10T21:11:04Z",
+    "stargazers_count": 42,
+    "topics": [
+      "cpp",
+      "geometry",
+      "robotics"
+    ],
+    "updated_at": "2026-03-25T00:41:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "lgmath is a C++ library for handling geometry in state estimation problems in robotics.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geometry"
+    },
+    {
+      "context_snippet": "lgmath is a C++ library for handling geometry in state estimation problems in robotics.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    }
+  ]
+}

@@ -19,6 +19,18 @@
       "source_repo": "streamich/memfs",
       "status": "candidate-context",
       "text": "[![][npm-badge]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fnc12/sqlite_orm",
+      "status": "candidate-context",
+      "text": "\u2764\ufe0f SQLite ORM light header only library for modern C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fnc12/sqlite_orm",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "streamich/memfs",
       "status": "candidate",
       "text": "[![][npm-badge]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fnc12/sqlite_orm",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -82,11 +100,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "streamich/memfs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "fnc12/sqlite_orm"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

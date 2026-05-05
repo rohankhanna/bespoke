@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pretrained language model and its related optimization techniques developed by Huawei Noah's Ark Lab."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository provides the latest pretrained language models and its related optimization techniques developed by Huawei Noah's Ark Lab."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository provides the latest pretrained language models and its related optimization techniques developed by Huawei Noah's Ark Lab."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "model-compression",
+      "sense_id": "model-compression#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "model-compression",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "model-compression",
+  "observation_id": "2f7b6edd151392f9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "model-compression",
+  "source_context_snippet": "This repository provides the latest pretrained language models and its related optimization techniques developed by Huawei Noah's Ark Lab.",
+  "source_file": null,
+  "source_repo": "huawei-noah/Pretrained-Language-Model",
+  "source_repo_description": "Pretrained language model and its related optimization techniques developed by Huawei Noah's Ark Lab."
+}

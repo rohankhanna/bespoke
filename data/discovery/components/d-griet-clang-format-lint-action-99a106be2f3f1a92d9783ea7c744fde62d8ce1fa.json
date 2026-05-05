@@ -1,0 +1,12 @@
+{
+  "component": "d-griet/clang-format-lint-action@99a106be2f3f1a92d9783ea7c744fde62d8ce1fa",
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-lint.yaml",
+      "source_repo": "fnc12/sqlite_orm"
+    }
+  ]
+}

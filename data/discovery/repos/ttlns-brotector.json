@@ -1,0 +1,200 @@
+{
+  "components": [
+    {
+      "component": "@ulixee/hero-playground",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "puppeteer",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "puppeteer-extra",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "puppeteer-extra-plugin-stealth",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "static-server",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ttlns/brotector",
+      "target": "kaliiiiiiiiii/selenium-driverless",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ttlns/brotector",
+      "target": "meik2333/pyppeteer_stealth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ttlns/brotector",
+      "target": "kaliiiiiiiiii/undetected-playwright-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ttlns/brotector",
+      "target": "kaliiiiiiiiii/brotector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ttlns/brotector",
+      "target": "@ulixee/hero-playground",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ttlns/brotector",
+      "target": "puppeteer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ttlns/brotector",
+      "target": "puppeteer-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ttlns/brotector",
+      "target": "puppeteer-extra-plugin-stealth",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ttlns/brotector",
+      "target": "static-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ttlns/brotector",
+      "target": "antibot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ttlns/brotector",
+      "target": "automation-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ttlns/brotector",
+      "target": "bot-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ttlns/brotector",
+      "target": "integrity-protection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T17:04:43.471361+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4977
+    },
+    {
+      "path": "package.json",
+      "size": 238
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An advanced antibot for webdrivers",
+    "fork": false,
+    "full_name": "ttlns/brotector",
+    "html_url": "https://github.com/ttlns/brotector",
+    "language": "JavaScript",
+    "pushed_at": "2024-12-03T14:33:39Z",
+    "stargazers_count": 278,
+    "topics": [
+      "antibot",
+      "automation-detection",
+      "bot-detection",
+      "integrity-protection"
+    ],
+    "updated_at": "2026-04-21T00:01:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaliiiiiiiiii/brotector",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaliiiiiiiiii/selenium-driverless",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaliiiiiiiiii/undetected-playwright-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meik2333/pyppeteer_stealth",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Detects or even **crashes** (\u274c) webdrivers such as:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "antibot"
+    },
+    {
+      "context_snippet": "Detects or even **crashes** (\u274c) webdrivers such as:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation-detection"
+    },
+    {
+      "context_snippet": "Detects or even **crashes** (\u274c) webdrivers such as:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bot-detection"
+    },
+    {
+      "context_snippet": "Detects or even **crashes** (\u274c) webdrivers such as:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "integrity-protection"
+    }
+  ]
+}

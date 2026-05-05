@@ -67,6 +67,30 @@
       "source_repo": "informalsystems/basecoin-rs",
       "status": "candidate-context",
       "text": "At a high level, basecoin implements the application logic that sits between the Tendermint consensus layer and ibc-rs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyperledger-labs/yui-relayer",
+      "status": "candidate-context",
+      "text": "IBC Relayer implementations for heterogeneous blockchains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-labs/yui-relayer",
+      "status": "candidate-context",
+      "text": "![Test](https://github.com/hyperledger-labs/yui-relayer/workflows/Test/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datachainlab/yui-relayer-build",
+      "status": "candidate-context",
+      "text": "IBC Relayer for heterogeneous blockchains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/yui-relayer-build",
+      "status": "candidate-context",
+      "text": "This repository provides a table of [IBC](https://github.com/cosmos/ibc) module combinations supported by [yui-relayer](https://github.com/hyperledger-labs/yui-relayer) and their E2E tests. The E2E tests are performed for each version of the yui-relayer."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "informalsystems/basecoin-rs",
       "status": "candidate",
       "text": "At a high level, basecoin implements the application logic that sits between the Tendermint consensus layer and ibc-rs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-labs/yui-relayer",
+      "status": "candidate",
+      "text": "![Test](https://github.com/hyperledger-labs/yui-relayer/workflows/Test/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/yui-relayer-build",
+      "status": "candidate",
+      "text": "This repository provides a table of [IBC](https://github.com/cosmos/ibc) module combinations supported by [yui-relayer](https://github.com/hyperledger-labs/yui-relayer) and their E2E tests. The E2E tests are performed for each version of the yui-relayer."
     }
   ],
   "candidate_related_terms": [],
@@ -178,11 +214,35 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "cometbft/tendermint-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "hyperledger-labs/yui-relayer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "datachainlab/yui-relayer-build"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

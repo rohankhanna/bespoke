@@ -19,12 +19,30 @@
       "source_repo": "srdtrk/cw-ibc-lite",
       "status": "candidate-context",
       "text": "release wasm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CosmWasm/cw-template",
+      "status": "candidate-context",
+      "text": "Quickstart template to get started writing your own cosmwasm contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CosmWasm/cw-template",
+      "status": "candidate-context",
+      "text": "release wasm"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "srdtrk/cw-ibc-lite",
+      "status": "candidate",
+      "text": "release wasm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CosmWasm/cw-template",
       "status": "candidate",
       "text": "release wasm"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": ".github/workflows/Release.yml",
       "source_repo": "srdtrk/cw-ibc-lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "CosmWasm/cw-template"
     }
   ],
   "first_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

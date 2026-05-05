@@ -79,6 +79,18 @@
       "source_repo": "crazy-max/goxx",
       "status": "candidate-context",
       "text": "[![GitHub release](https://img.shields.io/github/release/crazy-max/goxx.svg?style=flat-square)](https://github.com/crazy-max/goxx/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazy-max/docker-osxcross",
+      "status": "candidate-context",
+      "text": "MacOSX cross toolchain as Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/docker-osxcross",
+      "status": "candidate-context",
+      "text": "[![Latest version](https://img.shields.io/github/v/tag/crazy-max/docker-osxcross?label=version&style=flat-square)](https://hub.docker.com/r/crazymax/osxcross/tags?page=1&ordering=last_updated)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "crazy-max/goxx",
       "status": "candidate",
       "text": "[![GitHub release](https://img.shields.io/github/release/crazy-max/goxx.svg?style=flat-square)](https://github.com/crazy-max/goxx/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/docker-osxcross",
+      "status": "candidate",
+      "text": "[![Latest version](https://img.shields.io/github/v/tag/crazy-max/docker-osxcross?label=version&style=flat-square)](https://hub.docker.com/r/crazymax/osxcross/tags?page=1&ordering=last_updated)"
     }
   ],
   "candidate_related_terms": [
@@ -286,11 +304,23 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "hiszpanski/osx-arm-linux-toolchains"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "crazy-max/docker-osxcross"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "hiszpanski/osx-arm-linux-toolchains"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T13:49:47.332520+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5773
+    },
+    {
+      "path": "requirements.txt",
+      "size": 39
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "FamDB file format library and utilities",
+    "fork": false,
+    "full_name": "Dfam-consortium/FamDB",
+    "html_url": "https://github.com/Dfam-consortium/FamDB",
+    "language": "Python",
+    "pushed_at": "2025-08-27T21:36:49Z",
+    "stargazers_count": 41,
+    "topics": [],
+    "updated_at": "2026-04-23T11:53:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

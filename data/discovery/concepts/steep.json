@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "Steep"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dkubb/memoizable",
+      "status": "candidate-context",
+      "text": "Memoize method return values"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dkubb/memoizable",
+      "status": "candidate-context",
+      "text": "Steep"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dkubb/memoizable",
+      "status": "candidate",
+      "text": "Steep"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39928876,
+      "status": "candidate",
+      "text": "immerse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39926317,
+      "status": "candidate",
+      "text": "plunge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39912122,
+      "status": "candidate",
+      "text": "absorb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39911745,
+      "status": "candidate",
+      "text": "sharp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39902450,
+      "status": "candidate",
+      "text": "engulf"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 61064,
+      "status": "candidate",
+      "text": "sharp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41055,
+      "status": "candidate",
+      "text": "heavy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34032,
+      "status": "candidate",
+      "text": "exorbitant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31059,
+      "status": "candidate",
+      "text": "high"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25050,
+      "status": "candidate",
+      "text": "bold"
+    }
+  ],
+  "canonical_name": "Steep",
+  "concept_id": "steep",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/steep.yml",
+      "source_repo": "dkubb/memoizable"
+    }
+  ],
+  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Steep",
+      "sense_id": "steep#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

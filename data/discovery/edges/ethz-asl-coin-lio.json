@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethz-asl/COIN-LIO",
+      "target": "ouster-lidar/ouster-ros",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethz-asl/COIN-LIO",
+      "target": "vectr-ucla/direct_lidar_inertial_odometry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethz-asl/COIN-LIO",
+      "target": "thezoraiz/ascii-image-converter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test_20.yml",
+      "source_repo": "ethz-asl/COIN-LIO",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test_20.yml",
+      "source_repo": "ethz-asl/COIN-LIO",
+      "target": "actions/cache@v1.1.0",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "source_repo": "ethz-asl/COIN-LIO"
+}

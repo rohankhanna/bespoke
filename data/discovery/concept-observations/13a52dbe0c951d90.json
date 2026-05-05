@@ -84,7 +84,7 @@
   "normalized_form": "build-and-publish-the-protocol-analysis",
   "observation_id": "13a52dbe0c951d90",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "Build and publish the protocol analysis",
   "source_context_snippet": "Build and publish the protocol analysis",
   "source_file": ".github/workflows/analysis.yml",

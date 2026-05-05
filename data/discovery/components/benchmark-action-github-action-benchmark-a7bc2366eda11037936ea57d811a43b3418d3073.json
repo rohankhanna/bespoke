@@ -1,7 +1,7 @@
 {
   "component": "benchmark-action/github-action-benchmark@a7bc2366eda11037936ea57d811a43b3418d3073",
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "syrupy-project/syrupy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/perf-ci.yml",
+      "source_repo": "brave/adblock-rust"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "component": "bluefireteam/melos-action@705015c3d2bc4ab94201ac24accb2bbe070cf533",
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/macos.yaml",
       "source_repo": "firebase/flutterfire"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "davidmigloz/langchain_dart"
     }
   ]
 }

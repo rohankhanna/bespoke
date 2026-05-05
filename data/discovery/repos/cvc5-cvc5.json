@@ -1,0 +1,300 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-version.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-version.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross_compilation.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_upload.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_pypi.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_pypi.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_pypi.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v3.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_pypi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_analysis.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cvc5/cvc5",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cvc5/cvc5",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cvc5/cvc5",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-version.yml",
+      "source_repo": "cvc5/cvc5",
+      "target": "jwlawson/actions-setup-cmake@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-version.yml",
+      "source_repo": "cvc5/cvc5",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-version.yml",
+      "source_repo": "cvc5/cvc5",
+      "target": "cmake-version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross_compilation.yml",
+      "source_repo": "cvc5/cvc5",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross_compilation.yml",
+      "source_repo": "cvc5/cvc5",
+      "target": "Cross-compilation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs_cleanup.yml",
+      "source_repo": "cvc5/cvc5",
+      "target": "documentation cleanup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_upload.yml",
+      "source_repo": "cvc5/cvc5",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs_upload.yml",
+      "source_repo": "cvc5/cvc5",
+      "target": "Upload Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_pypi.yml",
+      "source_repo": "cvc5/cvc5",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_pypi.yml",
+      "source_repo": "cvc5/cvc5",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_pypi.yml",
+      "source_repo": "cvc5/cvc5",
+      "target": "pypa/cibuildwheel@v3.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_pypi.yml",
+      "source_repo": "cvc5/cvc5",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package_pypi.yml",
+      "source_repo": "cvc5/cvc5",
+      "target": "PyPi packaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_analysis.yml",
+      "source_repo": "cvc5/cvc5",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static_analysis.yml",
+      "source_repo": "cvc5/cvc5",
+      "target": "Static Analysis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T15:55:49.574739+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3569
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 20929
+    },
+    {
+      "path": ".github/workflows/cmake-version.yml",
+      "size": 1766
+    },
+    {
+      "path": ".github/workflows/cross_compilation.yml",
+      "size": 1402
+    },
+    {
+      "path": ".github/workflows/docs_cleanup.yml",
+      "size": 2392
+    },
+    {
+      "path": ".github/workflows/docs_upload.yml",
+      "size": 5455
+    },
+    {
+      "path": ".github/workflows/package_pypi.yml",
+      "size": 7155
+    },
+    {
+      "path": ".github/workflows/static_analysis.yml",
+      "size": 917
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "cvc5 is an open-source automatic theorem prover for Satisfiability Modulo Theories (SMT) problems.",
+    "fork": false,
+    "full_name": "cvc5/cvc5",
+    "html_url": "https://github.com/cvc5/cvc5",
+    "language": "SMT",
+    "pushed_at": "2026-05-04T23:10:48Z",
+    "stargazers_count": 1299,
+    "topics": [],
+    "updated_at": "2026-05-05T09:18:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "cmake-version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-version.yml",
+      "term": "cmake-version"
+    },
+    {
+      "context_snippet": "Cross-compilation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross_compilation.yml",
+      "term": "Cross-compilation"
+    },
+    {
+      "context_snippet": "documentation cleanup",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs_cleanup.yml",
+      "term": "documentation cleanup"
+    },
+    {
+      "context_snippet": "Upload Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs_upload.yml",
+      "term": "Upload Docs"
+    },
+    {
+      "context_snippet": "PyPi packaging",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package_pypi.yml",
+      "term": "PyPi packaging"
+    },
+    {
+      "context_snippet": "Static Analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static_analysis.yml",
+      "term": "Static Analysis"
+    }
+  ]
+}

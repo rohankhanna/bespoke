@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Library of backported modern C++ types to work with C++11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Deploy Conan"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Deploy Conan"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10368,
+      "status": "candidate",
+      "text": "burke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10368,
+      "status": "candidate",
+      "text": "foster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4484,
+      "status": "candidate",
+      "text": "array"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4484,
+      "status": "candidate",
+      "text": "arrayed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4484,
+      "status": "candidate",
+      "text": "capacity"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Conan",
+      "sense_id": "deploy-conan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deploy-conan",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deploy-conan",
+  "observation_id": "73d67ed68a52ffa6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_text": "Deploy Conan",
+  "source_context_snippet": "Deploy Conan",
+  "source_file": ".github/workflows/deploy-conan.yml",
+  "source_repo": "bitwizeshift/BackportCpp",
+  "source_repo_description": "Library of backported modern C++ types to work with C++11"
+}

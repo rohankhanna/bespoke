@@ -331,6 +331,18 @@
       "source_repo": "kuzudb/kuzu",
       "status": "candidate-context",
       "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fugro-oss/g2o",
+      "status": "candidate-context",
+      "text": "A .Net wrapper for the G2O (graph-based optimization) library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fugro-oss/g2o",
+      "status": "candidate-context",
+      "text": "A .Net wrapper for the G2O (graph-based optimization) library"
     }
   ],
   "candidate_glosses": [
@@ -495,6 +507,12 @@
       "source_repo": "kuzudb/kuzu",
       "status": "candidate",
       "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fugro-oss/g2o",
+      "status": "candidate",
+      "text": "A .Net wrapper for the G2O (graph-based optimization) library"
     }
   ],
   "candidate_related_terms": [
@@ -786,11 +804,23 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "bencheeorg/benchee_html"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "bencheeorg/benchee_html"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": null,
+      "source_repo": "fugro-oss/g2o"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

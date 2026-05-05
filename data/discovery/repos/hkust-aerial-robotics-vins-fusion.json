@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T13:52:17.495209+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10321
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An optimization-based multi-sensor state estimator",
+    "fork": false,
+    "full_name": "HKUST-Aerial-Robotics/VINS-Fusion",
+    "html_url": "https://github.com/HKUST-Aerial-Robotics/VINS-Fusion",
+    "language": "C++",
+    "pushed_at": "2024-05-23T09:17:03Z",
+    "stargazers_count": 4498,
+    "topics": [],
+    "updated_at": "2026-05-05T04:59:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

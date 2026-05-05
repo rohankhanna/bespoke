@@ -1459,6 +1459,54 @@
       "source_repo": "geotiffjs/geotiff.js",
       "status": "candidate-context",
       "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typicode/mistcss",
+      "status": "candidate-context",
+      "text": "Create visual components for React without JavaScript or TypeScript.  Leverage native HTML and CSS. It's an alternative to CSS-in-JS and CSS modules."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typicode/mistcss",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d3/d3-contour",
+      "status": "candidate-context",
+      "text": "Compute contour polygons using marching squares."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d3/d3-contour",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Fil/d3-tricontour",
+      "status": "candidate-context",
+      "text": "Create contours from non-gridded data with meandering triangles."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Fil/d3-tricontour",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gnosis/gp-v2-contracts",
+      "status": "candidate-context",
+      "text": "Smart contracts for the Gnosis Protocol v2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gnosis/gp-v2-contracts",
+      "status": "candidate-context",
+      "text": "Node.js CI"
     }
   ],
   "candidate_glosses": [
@@ -2185,6 +2233,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "geotiffjs/geotiff.js",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typicode/mistcss",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d3/d3-contour",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Fil/d3-tricontour",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gnosis/gp-v2-contracts",
       "status": "candidate",
       "text": "Node.js CI"
     }
@@ -3538,11 +3610,83 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/node.js.yml",
       "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "typicode/mistcss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "vipermind/flake-idgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/node_build.yml",
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "DefinitelyTyped/dts-critic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "d3/d3-contour"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "Fil/d3-tricontour"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "geotiffjs/geotiff.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "http-party/http-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "gnosis/gp-v2-contracts"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],

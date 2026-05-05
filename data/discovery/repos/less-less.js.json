@@ -78,20 +78,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "less/less.js",
-      "target": "necolas/issue-guidelines",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "less/less.js",
-      "target": "less/less-docs",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "less/less.js",
@@ -225,7 +211,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T07:17:21.694306+00:00",
+  "fetched_at": "2026-05-05T14:46:27.695734+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -258,26 +244,15 @@
     "html_url": "https://github.com/less/less.js",
     "language": "JavaScript",
     "pushed_at": "2026-03-24T22:41:03Z",
-    "stargazers_count": 17031,
+    "stargazers_count": 17030,
     "topics": [
       "css",
       "language",
       "stylesheet-language"
     ],
-    "updated_at": "2026-05-01T12:43:29Z"
+    "updated_at": "2026-05-05T13:59:48Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "less/less-docs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "necolas/issue-guidelines",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Create Release PR",

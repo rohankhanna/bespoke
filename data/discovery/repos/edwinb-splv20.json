@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T14:48:43.960049+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 450
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SPLV20 course notes",
+    "fork": false,
+    "full_name": "edwinb/SPLV20",
+    "html_url": "https://github.com/edwinb/SPLV20",
+    "language": "Idris",
+    "pushed_at": "2022-11-19T03:38:52Z",
+    "stargazers_count": 115,
+    "topics": [],
+    "updated_at": "2026-02-10T17:00:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

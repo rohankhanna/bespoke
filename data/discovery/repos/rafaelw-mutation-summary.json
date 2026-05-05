@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rafaelw/mutation-summary",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rafaelw/mutation-summary",
+      "target": "mocha",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-05T12:40:25.754285+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5269
+    },
+    {
+      "path": "package.json",
+      "size": 510
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A JavaScript library that makes observing changes to the DOM easy",
+    "fork": false,
+    "full_name": "rafaelw/mutation-summary",
+    "html_url": "https://github.com/rafaelw/mutation-summary",
+    "language": "JavaScript",
+    "pushed_at": "2022-09-03T17:30:21Z",
+    "stargazers_count": 708,
+    "topics": [],
+    "updated_at": "2025-11-26T03:30:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

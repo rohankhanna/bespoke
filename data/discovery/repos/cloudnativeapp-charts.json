@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudnativeapp/charts",
+      "target": "app-deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudnativeapp/charts",
+      "target": "cloudnative",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudnativeapp/charts",
+      "target": "helm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudnativeapp/charts",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T16:08:27.403344+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 359
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Localized Helm charts from Helm Hub to China",
+    "fork": false,
+    "full_name": "cloudnativeapp/charts",
+    "html_url": "https://github.com/cloudnativeapp/charts",
+    "language": "Mustache",
+    "pushed_at": "2023-05-29T12:10:37Z",
+    "stargazers_count": 416,
+    "topics": [
+      "app-deploy",
+      "cloudnative",
+      "helm",
+      "kubernetes"
+    ],
+    "updated_at": "2026-02-28T11:36:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "app-deploy"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudnative"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "helm"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    }
+  ]
+}

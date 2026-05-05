@@ -84,7 +84,7 @@
   "normalized_form": "license-check",
   "observation_id": "f5d06241c8e390e2",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T12:38:52.093380+00:00",
   "observed_text": "License check",
   "source_context_snippet": "License check",
   "source_file": ".github/workflows/licensecheck.yml",

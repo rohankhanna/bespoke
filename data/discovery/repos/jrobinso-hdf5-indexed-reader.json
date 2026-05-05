@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsfive",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-fetch",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sinon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jrobinso/hdf5-indexed-reader",
+      "target": "usnistgov/jsfive",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jrobinso/hdf5-indexed-reader",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jrobinso/hdf5-indexed-reader",
+      "target": "jsfive",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jrobinso/hdf5-indexed-reader",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jrobinso/hdf5-indexed-reader",
+      "target": "node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jrobinso/hdf5-indexed-reader",
+      "target": "node-fetch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jrobinso/hdf5-indexed-reader",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jrobinso/hdf5-indexed-reader",
+      "target": "sinon",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-05T13:50:24.818868+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3713
+    },
+    {
+      "path": "package.json",
+      "size": 1044
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "jrobinso/hdf5-indexed-reader",
+    "html_url": "https://github.com/jrobinso/hdf5-indexed-reader",
+    "language": "JavaScript",
+    "pushed_at": "2025-05-13T03:43:23Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2025-11-11T11:21:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "usnistgov/jsfive",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

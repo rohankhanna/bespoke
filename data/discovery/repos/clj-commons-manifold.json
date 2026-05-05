@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T20:46:30.759478+00:00",
+  "fetched_at": "2026-05-05T12:39:52.377975+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -61,7 +61,7 @@
     "html_url": "https://github.com/clj-commons/manifold",
     "language": "Clojure",
     "pushed_at": "2026-03-16T13:27:37Z",
-    "stargazers_count": 1047,
+    "stargazers_count": 1048,
     "topics": [
       "async",
       "clojure",
@@ -69,7 +69,7 @@
       "stream",
       "stream-processing"
     ],
-    "updated_at": "2026-04-20T18:23:02Z"
+    "updated_at": "2026-05-04T15:31:54Z"
   },
   "repo_links": [
     {

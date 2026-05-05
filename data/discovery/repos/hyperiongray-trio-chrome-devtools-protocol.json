@@ -1,0 +1,183 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v10.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-issues.yml"
+    },
+    {
+      "component": "actions/checkout@v4.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oz-pr-review.yml"
+    },
+    {
+      "component": "warpdotdev/oz-agent-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oz-pr-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oz-pr-review.yml"
+    },
+    {
+      "component": "warpdotdev/oz-agent-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oz-pr-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oz-pr-review.yml"
+    },
+    {
+      "component": "warpdotdev/oz-agent-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oz-pr-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oz-pr-review.yml"
+    },
+    {
+      "component": "warpdotdev/oz-agent-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oz-pr-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swarm-mode.yml"
+    },
+    {
+      "component": "actions/github-script@v7.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swarm-mode.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "HyperionGray/trio-chrome-devtools-protocol",
+      "target": "hyperiongray/python-chrome-devtools-protocol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-issues.yml",
+      "source_repo": "HyperionGray/trio-chrome-devtools-protocol",
+      "target": "actions/stale@v10.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oz-pr-review.yml",
+      "source_repo": "HyperionGray/trio-chrome-devtools-protocol",
+      "target": "actions/checkout@v4.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oz-pr-review.yml",
+      "source_repo": "HyperionGray/trio-chrome-devtools-protocol",
+      "target": "warpdotdev/oz-agent-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/oz-pr-review.yml",
+      "source_repo": "HyperionGray/trio-chrome-devtools-protocol",
+      "target": "Oz Auto-Fixer & Reviewer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swarm-mode.yml",
+      "source_repo": "HyperionGray/trio-chrome-devtools-protocol",
+      "target": "actions/checkout@v4.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swarm-mode.yml",
+      "source_repo": "HyperionGray/trio-chrome-devtools-protocol",
+      "target": "actions/github-script@v7.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swarm-mode.yml",
+      "source_repo": "HyperionGray/trio-chrome-devtools-protocol",
+      "target": "Swarm Mode - Continuous Progress",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T14:47:18.454089+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3253
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 895
+    },
+    {
+      "path": ".github/workflows/.bish-index",
+      "size": 12
+    },
+    {
+      "path": ".github/workflows/.bish.sqlite",
+      "size": 45056
+    },
+    {
+      "path": ".github/workflows/auto-close-issues.yml",
+      "size": 682
+    },
+    {
+      "path": ".github/workflows/oz-pr-review.yml",
+      "size": 8334
+    },
+    {
+      "path": ".github/workflows/swarm-mode.yml",
+      "size": 4106
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Trio driver for Chrome DevTools Protocol (CDP)",
+    "fork": false,
+    "full_name": "HyperionGray/trio-chrome-devtools-protocol",
+    "html_url": "https://github.com/HyperionGray/trio-chrome-devtools-protocol",
+    "language": "Python",
+    "pushed_at": "2026-04-08T19:19:27Z",
+    "stargazers_count": 72,
+    "topics": [],
+    "updated_at": "2026-04-08T19:20:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hyperiongray/python-chrome-devtools-protocol",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Oz Auto-Fixer & Reviewer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/oz-pr-review.yml",
+      "term": "Oz Auto-Fixer & Reviewer"
+    },
+    {
+      "context_snippet": "Swarm Mode - Continuous Progress",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swarm-mode.yml",
+      "term": "Swarm Mode - Continuous Progress"
+    }
+  ]
+}

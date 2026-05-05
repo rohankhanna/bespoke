@@ -1763,6 +1763,18 @@
       "source_repo": "AaronC81/sord",
       "status": "candidate-context",
       "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "box2ai-robotics/robosuite-joycon",
+      "status": "candidate-context",
+      "text": "robosuite-joycon: A Modular Simulation Framework and Benchmark for Robot Learning add joycon controller"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box2ai-robotics/robosuite-joycon",
+      "status": "candidate-context",
+      "text": "run-tests"
     }
   ],
   "candidate_glosses": [
@@ -2665,6 +2677,12 @@
       "source_repo": "AaronC81/sord",
       "status": "candidate",
       "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box2ai-robotics/robosuite-joycon",
+      "status": "candidate",
+      "text": "run-tests"
     }
   ],
   "candidate_related_terms": [
@@ -4412,11 +4430,77 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "appbaseio/reactivesearch-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "google/vim-maktaba"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "github-linguist/linguist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "funstory-ai/BabelDOC"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "apisyouwonthate/style-guide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/github-action-run-tests.yml",
+      "source_repo": "jxddk/prettier-plugin-nginx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "nodists/nodist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "marin-community/haliax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "appbaseio/reactivesearch-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T12:38:52.093380+00:00",
+      "source_file": ".github/workflows/run-tests.yaml",
+      "source_repo": "box2ai-robotics/robosuite-joycon"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "lexical_providers": [
     "datamuse"
   ],
