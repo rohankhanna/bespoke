@@ -838,6 +838,18 @@
       "source_repo": "PaulRBerg/foundry-template",
       "status": "candidate-context",
       "text": "[gitpod]: https://gitpod.io/#https://github.com/PaulRBerg/foundry-template"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iov-one/iov-core",
+      "status": "candidate-context",
+      "text": "Client library for secure key management and multi-blockchain communication"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iov-one/iov-core",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/iov-one/iov-core.svg?token=evC2AgcwxuvHjXeBP3jq&branch=master)](https://travis-ci.com/iov-one/iov-core)"
     }
   ],
   "candidate_glosses": [
@@ -1254,6 +1266,12 @@
       "source_repo": "PaulRBerg/foundry-template",
       "status": "candidate",
       "text": "[gitpod]: https://gitpod.io/#https://github.com/PaulRBerg/foundry-template"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iov-one/iov-core",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/iov-one/iov-core.svg?token=evC2AgcwxuvHjXeBP3jq&branch=master)](https://travis-ci.com/iov-one/iov-core)"
     }
   ],
   "candidate_related_terms": [
@@ -2365,11 +2383,59 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "stx-labs/connect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "iov-one/iov-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/TypeChain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "lightning/bolts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "stx-labs/connect"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

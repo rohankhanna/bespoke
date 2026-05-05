@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The builds for noraneko"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "F3liz Bot Per File Patches"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "F3liz Bot Per File Patches"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27977,
+      "status": "candidate",
+      "text": "cover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27977,
+      "status": "candidate",
+      "text": "land"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27762,
+      "status": "candidate",
+      "text": "eyes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27722,
+      "status": "candidate",
+      "text": "slip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27679,
+      "status": "candidate",
+      "text": "can"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "F3liz Bot Per File Patches",
+      "sense_id": "f3liz-bot-per-file-patches#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "f3liz-bot-per-file-patches",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "f3liz-bot-per-file-patches",
+  "observation_id": "a2d97c69f65cf2ff",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T00:36:37.683079+00:00",
+  "observed_text": "F3liz Bot Per File Patches",
+  "source_context_snippet": "F3liz Bot Per File Patches",
+  "source_file": ".github/workflows/autodiff-per-file-pr.yml",
+  "source_repo": "f3liz-casa/noraneko-runtime",
+  "source_repo_description": "The builds for noraneko"
+}

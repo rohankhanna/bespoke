@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "boulder"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "letsencrypt/boulder",
+      "status": "candidate-context",
+      "text": "An ACME-based certificate authority, written in Go. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "letsencrypt/boulder",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/letsencrypt/boulder/actions/workflows/boulder-ci.yml/badge.svg?branch=main)](https://github.com/letsencrypt/boulder/actions/workflows/boulder-ci.yml?query=branch%3Amain)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "letsencrypt/boulder",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/letsencrypt/boulder/actions/workflows/boulder-ci.yml/badge.svg?branch=main)](https://github.com/letsencrypt/boulder/actions/workflows/boulder-ci.yml?query=branch%3Amain)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047644,
+      "status": "candidate",
+      "text": "bowlder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047643,
+      "status": "candidate",
+      "text": "stone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044625,
+      "status": "candidate",
+      "text": "rock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043612,
+      "status": "candidate",
+      "text": "cave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041186,
+      "status": "candidate",
+      "text": "cliff"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18,
+      "status": "candidate",
+      "text": "bowlder"
+    }
+  ],
+  "canonical_name": "boulder",
+  "concept_id": "boulder",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "letsencrypt/boulder"
+    }
+  ],
+  "first_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "boulder",
+      "sense_id": "boulder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

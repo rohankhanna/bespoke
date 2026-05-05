@@ -201,6 +201,18 @@
       "source_repo": "refraction-networking/utls",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/refraction-networking/utls/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/refraction-networking/utls/actions/workflows/go.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iov-one/iov-core",
+      "status": "candidate-context",
+      "text": "Client library for secure key management and multi-blockchain communication"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iov-one/iov-core",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/iov-one/iov-core.svg?token=evC2AgcwxuvHjXeBP3jq&branch=master)](https://travis-ci.com/iov-one/iov-core)"
     }
   ],
   "candidate_glosses": [
@@ -305,6 +317,12 @@
       "source_repo": "refraction-networking/utls",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/refraction-networking/utls/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/refraction-networking/utls/actions/workflows/go.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iov-one/iov-core",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/iov-one/iov-core.svg?token=evC2AgcwxuvHjXeBP3jq&branch=master)](https://travis-ci.com/iov-one/iov-core)"
     }
   ],
   "candidate_related_terms": [
@@ -468,11 +486,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "refraction-networking/utls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "iov-one/iov-core"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

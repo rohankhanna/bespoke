@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CI skip"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zcash/zcash",
+      "status": "candidate-context",
+      "text": "Zcash - Internet Money"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zcash/zcash",
+      "status": "candidate-context",
+      "text": "CI skip"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zcash/zcash",
+      "status": "candidate",
+      "text": "CI skip"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12604,
+      "status": "candidate",
+      "text": "chemist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12604,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12604,
+      "status": "candidate",
+      "text": "irene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12604,
+      "status": "candidate",
+      "text": "marie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12604,
+      "status": "candidate",
+      "text": "pole"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI skip",
+  "concept_id": "ci-skip",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/ci-skip.yml",
+      "source_repo": "zcash/zcash"
+    }
+  ],
+  "first_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI skip",
+      "sense_id": "ci-skip#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2057,6 +2057,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/.build.yml",
       "source_repo": "crazy-max/xgo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/a3-python.lock.yml",
+      "source_repo": "Z3Prover/z3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/academic-citation-tracker.lock.yml",
+      "source_repo": "Z3Prover/z3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/api-coherence-checker.lock.yml",
+      "source_repo": "Z3Prover/z3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-nuget-packages.yml",
+      "source_repo": "open-telemetry/opentelemetry-dotnet-instrumentation"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "open-telemetry/opentelemetry-dotnet-instrumentation"
     }
   ]
 }

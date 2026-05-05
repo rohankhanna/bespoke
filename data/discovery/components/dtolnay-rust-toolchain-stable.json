@@ -1,7 +1,7 @@
 {
   "component": "dtolnay/rust-toolchain@stable",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -4042,6 +4042,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "azdavis/sml-libs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/contracts.yml",
+      "source_repo": "CosmWasm/cosmwasm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/packages.yml",
+      "source_repo": "CosmWasm/cosmwasm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/audits.yml",
+      "source_repo": "zcash/zcash"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "zcash/zcash"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "eyre-rs/eyre"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "azdavis/c0ls"
     }
   ]
 }

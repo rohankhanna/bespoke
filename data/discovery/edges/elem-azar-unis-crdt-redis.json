@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elem-azar-unis/CRDT-Redis",
+      "target": "crdt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elem-azar-unis/CRDT-Redis",
+      "target": "crdt-implementations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elem-azar-unis/CRDT-Redis",
+      "target": "redis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elem-azar-unis/CRDT-Redis",
+      "target": "redis-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elem-azar-unis/CRDT-Redis",
+      "target": "redis-test",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T00:36:37.683079+00:00",
+  "source_repo": "elem-azar-unis/CRDT-Redis"
+}

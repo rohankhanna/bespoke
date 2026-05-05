@@ -80,13 +80,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lumen-oss/luarocks-build-treesitter-parser",
-      "target": "tree-sitter/tree-sitter-lang",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/luarocks.yml",
       "source_repo": "lumen-oss/luarocks-build-treesitter-parser",
@@ -213,7 +206,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T10:21:14.358875+00:00",
+  "fetched_at": "2026-05-05T00:38:10.033983+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -257,11 +250,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "nvim-neorocks/nurr",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tree-sitter/tree-sitter-lang",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A relay module for Hyperledger Besu's QBFT and IBFT 2.0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository provides a [yui-relayer](https://github.com/hyperledger-labs/yui-relayer) prover module for [the light client of Hyperledger Besu's QBFT and IBFT 2.0 consensus algorithms](https://github.com/hyperledger-labs/yui-ibc-solidity/blob/main/contracts/clients/qbft/QBFTC\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository provides a [yui-relayer](https://github.com/hyperledger-labs/yui-relayer) prover module for [the light client of Hyperledger Besu's QBFT and IBFT 2.0 consensus algorithms](https://github.com/hyperledger-labs/yui-ibc-solidity/blob/main/contracts/clients/qbft/QBFTC\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029893,
+      "status": "candidate",
+      "text": "relator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029892,
+      "status": "candidate",
+      "text": "reliver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029891,
+      "status": "candidate",
+      "text": "reconnector"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029890,
+      "status": "candidate",
+      "text": "relighter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029889,
+      "status": "candidate",
+      "text": "relater"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "relayer",
+      "sense_id": "relayer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "relayer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "relayer",
+  "observation_id": "c606753da225a1f4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T00:36:37.683079+00:00",
+  "observed_text": "relayer",
+  "source_context_snippet": "This repository provides a [yui-relayer](https://github.com/hyperledger-labs/yui-relayer) prover module for [the light client of Hyperledger Besu's QBFT and IBFT 2.0 consensus algorithms](https://github.com/hyperledger-labs/yui-ibc-solidity/blob/main/contracts/clients/qbft/QBFTC\u2026",
+  "source_file": null,
+  "source_repo": "datachainlab/besu-ibc-relay-prover",
+  "source_repo_description": "A relay module for Hyperledger Besu's QBFT and IBFT 2.0"
+}

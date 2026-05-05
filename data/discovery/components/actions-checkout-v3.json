@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -19602,6 +19602,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/auto-publish.yml",
       "source_repo": "privacycg/requestStorageAccessFor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "refcell/femplate"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "breejs/bree"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AdguardTeam/FiltersCompiler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "AdguardTeam/FiltersCompiler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/addons.yml",
+      "source_repo": "pulse-browser/browser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/alpha.yml",
+      "source_repo": "pulse-browser/browser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Xuanwo/serde-bridge"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "azdavis/c0ls"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yml",
+      "source_repo": "srgtuszy/llama-cpp-swift"
     }
   ]
 }

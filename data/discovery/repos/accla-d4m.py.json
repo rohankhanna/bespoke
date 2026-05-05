@@ -1,0 +1,46 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Accla/D4M.py",
+      "target": "accumulo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T00:46:53.878319+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9487
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A D4M module for Python. D4M was developed in MATLAB by Dr Jeremy Kepner",
+    "fork": false,
+    "full_name": "Accla/D4M.py",
+    "html_url": "https://github.com/Accla/D4M.py",
+    "language": "Java",
+    "pushed_at": "2026-01-08T15:33:37Z",
+    "stargazers_count": 29,
+    "topics": [
+      "accumulo",
+      "d4m",
+      "python"
+    ],
+    "updated_at": "2026-04-30T05:22:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "D4M.py is a module for Python that allows unstructured data to be represented as triples in sparse matrics (Associative Arrays) and can be manipulated using standard linear algebraic operations.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "accumulo"
+    }
+  ]
+}

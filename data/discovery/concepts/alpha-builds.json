@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Alpha builds"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulse-browser/browser",
+      "status": "candidate-context",
+      "text": "Pulse Browser: An experimental firefox fork"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulse-browser/browser",
+      "status": "candidate-context",
+      "text": "Alpha builds"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulse-browser/browser",
+      "status": "candidate",
+      "text": "Alpha builds"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "aleph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "eta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "first"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "gamma"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Alpha builds",
+  "concept_id": "alpha-builds",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/alpha.yml",
+      "source_repo": "pulse-browser/browser"
+    }
+  ],
+  "first_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Alpha builds",
+      "sense_id": "alpha-builds#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

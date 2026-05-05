@@ -55,6 +55,18 @@
       "source_repo": "AshleyScirra/via.js",
       "status": "candidate-context",
       "text": "Via.js lets you write JavaScript code that runs in a different context. The two main uses for this are:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "breejs/bree",
+      "status": "candidate-context",
+      "text": "Bree is a Node.js and JavaScript job task scheduler with worker threads, cron, Date, and human syntax. Built for @ladjs, @forwardemail, @spamscanner, @cabinjs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "breejs/bree",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "AshleyScirra/via.js",
       "status": "candidate",
       "text": "Via.js lets you write JavaScript code that runs in a different context. The two main uses for this are:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "breejs/bree",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "AshleyScirra/via.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "breejs/bree"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

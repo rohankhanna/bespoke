@@ -2663,6 +2663,42 @@
       "source_repo": "open-telemetry/opentelemetry-operator",
       "status": "candidate-context",
       "text": "\"Continuous Integration\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Michael-F-Bryan/mdbook-linkcheck",
+      "status": "candidate-context",
+      "text": "A backend for `mdbook` which will check your links for you."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Michael-F-Bryan/mdbook-linkcheck",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cleanunicorn/ethereum-smartcontract-template",
+      "status": "candidate-context",
+      "text": "Ethereum Smart Contract starting template"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleanunicorn/ethereum-smartcontract-template",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eyre-rs/eyre",
+      "status": "candidate-context",
+      "text": " A trait object based error handling type for easy idiomatic error handling and reporting in Rust applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eyre-rs/eyre",
+      "status": "candidate-context",
+      "text": "Continuous integration"
     }
   ],
   "candidate_glosses": [
@@ -4003,6 +4039,24 @@
       "source_repo": "open-telemetry/opentelemetry-operator",
       "status": "candidate",
       "text": "\"Continuous Integration\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Michael-F-Bryan/mdbook-linkcheck",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleanunicorn/ethereum-smartcontract-template",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eyre-rs/eyre",
+      "status": "candidate",
+      "text": "Continuous integration"
     }
   ],
   "candidate_related_terms": [
@@ -6284,11 +6338,47 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "emacs-eldev/eldev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Michael-F-Bryan/mdbook-linkcheck"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cleanunicorn/ethereum-smartcontract-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jawah/charset_normalizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "eyre-rs/eyre"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "libbitcoin/libbitcoin-system"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "vercel/modelfusion"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

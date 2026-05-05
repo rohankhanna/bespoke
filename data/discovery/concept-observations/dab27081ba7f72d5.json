@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CUID generator for OCaml. :id: :camel: :1234: :gear:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Coverage Report Workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Coverage Report Workflow"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22880,
+      "status": "candidate",
+      "text": "reporting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22857,
+      "status": "candidate",
+      "text": "covering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22663,
+      "status": "candidate",
+      "text": "computerize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22663,
+      "status": "candidate",
+      "text": "contextualization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22663,
+      "status": "candidate",
+      "text": "encryption"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Coverage Report Workflow",
+      "sense_id": "coverage-report-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "coverage-report-workflow",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "coverage-report-workflow",
+  "observation_id": "dab27081ba7f72d5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T00:36:37.683079+00:00",
+  "observed_text": "Coverage Report Workflow",
+  "source_context_snippet": "Coverage Report Workflow",
+  "source_file": ".github/workflows/coverage-report.yml",
+  "source_repo": "marcoonroad/ocaml-cuid",
+  "source_repo_description": "CUID generator for OCaml. :id: :camel: :1234: :gear:"
+}

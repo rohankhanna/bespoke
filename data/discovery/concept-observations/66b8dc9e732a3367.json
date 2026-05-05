@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Foundry Benchmarks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Foundry Benchmarks"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10498,
+      "status": "candidate",
+      "text": "core"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10498,
+      "status": "candidate",
+      "text": "cupola"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10498,
+      "status": "candidate",
+      "text": "essen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10498,
+      "status": "candidate",
+      "text": "ore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10498,
+      "status": "candidate",
+      "text": "pattern"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Foundry Benchmarks",
+      "sense_id": "foundry-benchmarks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "foundry-benchmarks",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "foundry-benchmarks",
+  "observation_id": "66b8dc9e732a3367",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T00:36:37.683079+00:00",
+  "observed_text": "Foundry Benchmarks",
+  "source_context_snippet": "Foundry Benchmarks",
+  "source_file": ".github/workflows/benchmarks.yml",
+  "source_repo": "gakonst/foundry",
+  "source_repo_description": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust."
+}

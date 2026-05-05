@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenWrt/LEDE feeds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "OpenWrt/LEDE feeds"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "OpenWrt/LEDE feeds"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030092,
+      "status": "candidate",
+      "text": "lintard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030091,
+      "status": "candidate",
+      "text": "lewdster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030090,
+      "status": "candidate",
+      "text": "lidderon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030089,
+      "status": "candidate",
+      "text": "lardhead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030088,
+      "status": "candidate",
+      "text": "leg man"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lede",
+      "sense_id": "lede#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lede",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lede",
+  "observation_id": "5fb9c9cd3e808f3d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T00:36:37.683079+00:00",
+  "observed_text": "lede",
+  "source_context_snippet": "OpenWrt/LEDE feeds",
+  "source_file": null,
+  "source_repo": "shadowsocks/openwrt-feeds",
+  "source_repo_description": "OpenWrt/LEDE feeds"
+}

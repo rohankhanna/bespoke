@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -3816,6 +3816,31 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/rust.yml",
       "source_repo": "datafuse-extras/tantivy-jieba"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "CosmWasm/cosmwasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "refcell/femplate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "CyberHoward/cw-plus-plus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "srdtrk/ibc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "prataprc/xorfilter"
     }
   ],
   "term": "Rust"

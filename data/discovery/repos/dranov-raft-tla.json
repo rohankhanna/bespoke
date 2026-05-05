@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dranov/raft-tla",
+      "target": "ongardie/raft.tla",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dranov/raft-tla",
+      "target": "dricketts/raft.tla",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T00:42:21.834305+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2828
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "dranov/raft-tla",
+    "html_url": "https://github.com/dranov/raft-tla",
+    "language": "TLA",
+    "pushed_at": "2021-10-25T08:02:22Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2025-03-18T12:29:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dricketts/raft.tla",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ongardie/raft.tla",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

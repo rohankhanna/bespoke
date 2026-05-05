@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Boulder CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "letsencrypt/boulder",
+      "status": "candidate-context",
+      "text": "An ACME-based certificate authority, written in Go. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "letsencrypt/boulder",
+      "status": "candidate-context",
+      "text": "Boulder CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "letsencrypt/boulder",
+      "status": "candidate",
+      "text": "Boulder CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10684,
+      "status": "candidate",
+      "text": "pierre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10684,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4872,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4748,
+      "status": "candidate",
+      "text": "fucus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4748,
+      "status": "candidate",
+      "text": "ion"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Boulder CI",
+  "concept_id": "boulder-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/boulder-ci.yml",
+      "source_repo": "letsencrypt/boulder"
+    }
+  ],
+  "first_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Boulder CI",
+      "sense_id": "boulder-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

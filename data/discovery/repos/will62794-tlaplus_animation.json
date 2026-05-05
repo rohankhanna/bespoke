@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "will62794/tlaplus_animation",
+      "target": "will62794/tla-web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "will62794/tlaplus_animation",
+      "target": "tlaplus",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T00:42:24.007213+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4667
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A TLA+ module for animating TLC traces.",
+    "fork": false,
+    "full_name": "will62794/tlaplus_animation",
+    "html_url": "https://github.com/will62794/tlaplus_animation",
+    "language": "TLA",
+    "pushed_at": "2024-12-09T19:26:13Z",
+    "stargazers_count": 48,
+    "topics": [
+      "tlaplus"
+    ],
+    "updated_at": "2026-04-23T17:50:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "will62794/tla-web",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is a TLA+ module for creating visualizations of TLC execution traces that can be run inside a web browser. To create an animation, you can start with an existing TLA+ specification and define a \"view\" expression, which is a TLA+ state expression that produces a set of graph\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tlaplus"
+    }
+  ]
+}

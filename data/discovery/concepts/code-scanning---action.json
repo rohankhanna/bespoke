@@ -518,6 +518,30 @@
       "source_repo": "chrislusf/seaweedfs",
       "status": "candidate-context",
       "text": "\"Code Scanning - Action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CosmWasm/wasmd",
+      "status": "candidate-context",
+      "text": "Basic Cosmos SDK application with WebAssembly smart contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CosmWasm/wasmd",
+      "status": "candidate-context",
+      "text": "\"Code Scanning - Action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "letsencrypt/boulder",
+      "status": "candidate-context",
+      "text": "An ACME-based certificate authority, written in Go. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "letsencrypt/boulder",
+      "status": "candidate-context",
+      "text": "\"Code Scanning - Action\""
     }
   ],
   "candidate_glosses": [
@@ -782,6 +806,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "chrislusf/seaweedfs",
+      "status": "candidate",
+      "text": "\"Code Scanning - Action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CosmWasm/wasmd",
+      "status": "candidate",
+      "text": "\"Code Scanning - Action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "letsencrypt/boulder",
       "status": "candidate",
       "text": "\"Code Scanning - Action\""
     }
@@ -1307,11 +1343,23 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/codeql-analizer.yml",
+      "source_repo": "CosmWasm/wasmd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "letsencrypt/boulder"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

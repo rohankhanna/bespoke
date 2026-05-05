@@ -1,0 +1,98 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-analyzer/ungrammar",
+      "target": "iron-e/vim-ungrammar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-analyzer/ungrammar",
+      "target": "drtychai/ungrammar.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-analyzer/ungrammar",
+      "target": "azdavis/ungrammar-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "rust-analyzer/ungrammar",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "rust-analyzer/ungrammar",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-05T00:53:58.741678+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 635
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 315
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 624
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "rust-analyzer/ungrammar",
+    "html_url": "https://github.com/rust-analyzer/ungrammar",
+    "language": "Rust",
+    "pushed_at": "2025-11-08T12:34:26Z",
+    "stargazers_count": 324,
+    "topics": [],
+    "updated_at": "2025-12-31T00:39:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azdavis/ungrammar-tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drtychai/ungrammar.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iron-e/vim-ungrammar",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

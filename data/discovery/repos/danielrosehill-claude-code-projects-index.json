@@ -11,7 +11,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-debugging-plugin",
+      "target": "danielrosehill/claude-deep-research-model",
       "target_type": "repository"
     },
     {
@@ -64,7 +64,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T18:46:06.234828+00:00",
+  "fetched_at": "2026-05-05T00:48:41.294962+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -101,17 +101,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-debugging-plugin",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "danielrosehill/claude-decision-evaluation-framework-plugin",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
       "full_name": "danielrosehill/claude-declutter-genie-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-deep-research-model",
       "source_file": "README.md"
     }
   ],

@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "databendlabs/databend",
-      "target": "eyre-rs/eyre",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "databendlabs/databend",
-      "target": "youngsofun/rust-csv",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bindings.python.yml",
       "source_repo": "databendlabs/databend",
@@ -288,6 +274,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-04T18:39:47.264597+00:00",
+  "generated_at": "2026-05-05T00:36:37.683079+00:00",
   "source_repo": "databendlabs/databend"
 }

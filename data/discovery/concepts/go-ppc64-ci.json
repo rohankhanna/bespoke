@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "Go-PPC64-CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FastFilter/xorfilter",
+      "status": "candidate-context",
+      "text": "Go library implementing binary fuse and xor filters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FastFilter/xorfilter",
+      "status": "candidate-context",
+      "text": "Go-PPC64-CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FastFilter/xorfilter",
+      "status": "candidate",
+      "text": "Go-PPC64-CI"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Go-PPC64-CI",
+  "concept_id": "go-ppc64-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/bigendian.yml",
+      "source_repo": "FastFilter/xorfilter"
+    }
+  ],
+  "first_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Go-PPC64-CI",
+      "sense_id": "go-ppc64-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A tool that compiles & validates filters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Filters compiler package is a tool for compiling ad blocking filters into a supported format."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Filters compiler package is a tool for compiling ad blocking filters into a supported format."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "filter-list",
+      "sense_id": "filter-list#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "filter-list",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "filter-list",
+  "observation_id": "25d4b4b4ce23074b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T00:36:37.683079+00:00",
+  "observed_text": "filter-list",
+  "source_context_snippet": "Filters compiler package is a tool for compiling ad blocking filters into a supported format.",
+  "source_file": null,
+  "source_repo": "AdguardTeam/FiltersCompiler",
+  "source_repo_description": "A tool that compiles & validates filters"
+}

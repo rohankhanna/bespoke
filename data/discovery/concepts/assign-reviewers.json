@@ -31,6 +31,18 @@
       "source_repo": "zed-industries/zed",
       "status": "candidate-context",
       "text": "Assign Reviewers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-dotnet-instrumentation",
+      "status": "candidate-context",
+      "text": "OpenTelemetry .NET Automatic Instrumentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-dotnet-instrumentation",
+      "status": "candidate-context",
+      "text": "'Assign Reviewers'"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "zed-industries/zed",
       "status": "candidate",
       "text": "Assign Reviewers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-dotnet-instrumentation",
+      "status": "candidate",
+      "text": "'Assign Reviewers'"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/assign-reviewers.yml",
       "source_repo": "zed-industries/zed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/assign-reviewers.yml",
+      "source_repo": "open-telemetry/opentelemetry-dotnet-instrumentation"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

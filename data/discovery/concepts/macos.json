@@ -2609,6 +2609,18 @@
       "source_repo": "ptsochantaris/trailer-ql",
       "status": "candidate-context",
       "text": "<img src=\"https://ptsochantaris.github.io/trailer/TrailerQLLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "srgtuszy/llama-cpp-swift",
+      "status": "candidate-context",
+      "text": "Swift bindings for llama-cpp library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "srgtuszy/llama-cpp-swift",
+      "status": "candidate-context",
+      "text": "Build Library"
     }
   ],
   "candidate_glosses": [
@@ -3937,6 +3949,12 @@
       "source_repo": "ptsochantaris/trailer-ql",
       "status": "candidate",
       "text": "<img src=\"https://ptsochantaris.github.io/trailer/TrailerQLLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "srgtuszy/llama-cpp-swift",
+      "status": "candidate",
+      "text": "Build Library"
     }
   ],
   "candidate_related_terms": [
@@ -6092,11 +6110,23 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "OutlineFoundation/outline-apps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "srgtuszy/llama-cpp-swift"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

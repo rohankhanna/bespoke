@@ -1,0 +1,97 @@
+{
+  "components": [
+    {
+      "component": "cheerio",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-fetch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "azdavis/sml-libs-scraper",
+      "target": "cheerio",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "azdavis/sml-libs-scraper",
+      "target": "node-fetch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "azdavis/sml-libs-scraper",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "azdavis/sml-libs-scraper",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "azdavis/sml-libs-scraper",
+      "target": "standard-ml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T00:53:59.296870+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 473
+    },
+    {
+      "path": "package.json",
+      "size": 377
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Scraper for online SML libraries",
+    "fork": false,
+    "full_name": "azdavis/sml-libs-scraper",
+    "html_url": "https://github.com/azdavis/sml-libs-scraper",
+    "language": "TypeScript",
+    "pushed_at": "2023-05-31T22:51:11Z",
+    "stargazers_count": 4,
+    "topics": [
+      "standard-ml"
+    ],
+    "updated_at": "2023-01-24T22:31:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Parsing the online",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standard-ml"
+    }
+  ]
+}

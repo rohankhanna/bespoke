@@ -885,6 +885,18 @@
       "source_repo": "vuejs/vetur",
       "status": "candidate-context",
       "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "azdavis/c0ls",
+      "status": "candidate-context",
+      "text": "A language server for C0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azdavis/c0ls",
+      "status": "candidate-context",
+      "text": "[workspace] members = [\"crates/*\", \"xtask\"] resolver = \"2\" [profile.release] codegen-units = 1 lto = \"fat\" strip = \"symbols\""
     }
   ],
   "candidate_glosses": [
@@ -1331,6 +1343,12 @@
       "source_repo": "vuejs/vetur",
       "status": "candidate",
       "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azdavis/c0ls",
+      "status": "candidate",
+      "text": "[workspace] members = [\"crates/*\", \"xtask\"] resolver = \"2\" [profile.release] codegen-units = 1 lto = \"fat\" strip = \"symbols\""
     }
   ],
   "candidate_related_terms": [],
@@ -2076,11 +2094,35 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "miguelsolorio/vscode-fluent-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "michaellzc/vscode-hadolint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "azdavis/c0ls"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

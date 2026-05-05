@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elem-azar-unis/CRDT-Redis",
+      "target": "crdt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elem-azar-unis/CRDT-Redis",
+      "target": "crdt-implementations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elem-azar-unis/CRDT-Redis",
+      "target": "redis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elem-azar-unis/CRDT-Redis",
+      "target": "redis-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elem-azar-unis/CRDT-Redis",
+      "target": "redis-test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T00:42:22.280825+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5747
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CRDTs implemented in Redis",
+    "fork": false,
+    "full_name": "elem-azar-unis/CRDT-Redis",
+    "html_url": "https://github.com/elem-azar-unis/CRDT-Redis",
+    "language": "C",
+    "pushed_at": "2023-03-14T07:03:32Z",
+    "stargazers_count": 55,
+    "topics": [
+      "crdt",
+      "crdt-implementations",
+      "redis",
+      "redis-server",
+      "redis-test"
+    ],
+    "updated_at": "2026-02-11T07:53:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Several Conflict-Free Replicated Data Types (CRDTs) implemented based on Redis(6.0.5).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crdt"
+    },
+    {
+      "context_snippet": "Several Conflict-Free Replicated Data Types (CRDTs) implemented based on Redis(6.0.5).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crdt-implementations"
+    },
+    {
+      "context_snippet": "Several Conflict-Free Replicated Data Types (CRDTs) implemented based on Redis(6.0.5).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redis"
+    },
+    {
+      "context_snippet": "Several Conflict-Free Replicated Data Types (CRDTs) implemented based on Redis(6.0.5).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redis-server"
+    },
+    {
+      "context_snippet": "Several Conflict-Free Replicated Data Types (CRDTs) implemented based on Redis(6.0.5).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redis-test"
+    }
+  ]
+}

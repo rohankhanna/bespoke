@@ -1,0 +1,12 @@
+{
+  "component": "crate-ci/typos@bb4666ad77b539a6b4ce4eda7ebb6de553704021",
+  "first_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gakonst/foundry"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T00:52:34.858996+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2791
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1035
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A CSV parser for Rust, with Serde support.",
+    "fork": true,
+    "full_name": "youngsofun/rust-csv",
+    "html_url": "https://github.com/youngsofun/rust-csv",
+    "language": null,
+    "pushed_at": "2026-01-27T10:06:46Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-08-01T18:22:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

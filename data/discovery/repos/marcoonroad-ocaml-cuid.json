@@ -1,0 +1,240 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-report.yml"
+    },
+    {
+      "component": "avsm/setup-ocaml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-report.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-report.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-report.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-ci.yml"
+    },
+    {
+      "component": "avsm/setup-ocaml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-ci.yml"
+    },
+    {
+      "component": "avsm/setup-ocaml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml"
+    },
+    {
+      "component": "avsm/setup-ocaml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-report.yml",
+      "source_repo": "marcoonroad/ocaml-cuid",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-report.yml",
+      "source_repo": "marcoonroad/ocaml-cuid",
+      "target": "avsm/setup-ocaml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-report.yml",
+      "source_repo": "marcoonroad/ocaml-cuid",
+      "target": "coverallsapp/github-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage-report.yml",
+      "source_repo": "marcoonroad/ocaml-cuid",
+      "target": "Coverage Report Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "marcoonroad/ocaml-cuid",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "marcoonroad/ocaml-cuid",
+      "target": "avsm/setup-ocaml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "marcoonroad/ocaml-cuid",
+      "target": "MacOS CI Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-ci.yml",
+      "source_repo": "marcoonroad/ocaml-cuid",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-ci.yml",
+      "source_repo": "marcoonroad/ocaml-cuid",
+      "target": "avsm/setup-ocaml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-ci.yml",
+      "source_repo": "marcoonroad/ocaml-cuid",
+      "target": "Ubuntu CI Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml",
+      "source_repo": "marcoonroad/ocaml-cuid",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml",
+      "source_repo": "marcoonroad/ocaml-cuid",
+      "target": "avsm/setup-ocaml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-ci.yml",
+      "source_repo": "marcoonroad/ocaml-cuid",
+      "target": "Windows CI Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marcoonroad/ocaml-cuid",
+      "target": "cuid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marcoonroad/ocaml-cuid",
+      "target": "ocaml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T00:53:32.764712+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2804
+    },
+    {
+      "path": ".github/workflows/coverage-report.yml",
+      "size": 2174
+    },
+    {
+      "path": ".github/workflows/macos-ci.yml",
+      "size": 1067
+    },
+    {
+      "path": ".github/workflows/ubuntu-ci.yml",
+      "size": 1069
+    },
+    {
+      "path": ".github/workflows/windows-ci.yml",
+      "size": 1118
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "stable",
+    "description": "CUID generator for OCaml. :id: :camel: :1234: :gear:",
+    "fork": false,
+    "full_name": "marcoonroad/ocaml-cuid",
+    "html_url": "https://github.com/marcoonroad/ocaml-cuid",
+    "language": "OCaml",
+    "pushed_at": "2022-05-07T20:47:05Z",
+    "stargazers_count": 19,
+    "topics": [
+      "cuid",
+      "ocaml"
+    ],
+    "updated_at": "2026-03-10T18:06:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Coverage Report Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage-report.yml",
+      "term": "Coverage Report Workflow"
+    },
+    {
+      "context_snippet": "MacOS CI Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "term": "MacOS CI Workflow"
+    },
+    {
+      "context_snippet": "Ubuntu CI Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-ci.yml",
+      "term": "Ubuntu CI Workflow"
+    },
+    {
+      "context_snippet": "Windows CI Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-ci.yml",
+      "term": "Windows CI Workflow"
+    },
+    {
+      "context_snippet": "CUID generator for OCaml.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuid"
+    },
+    {
+      "context_snippet": "CUID generator for OCaml.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocaml"
+    }
+  ]
+}

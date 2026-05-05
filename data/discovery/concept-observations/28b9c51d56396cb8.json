@@ -84,7 +84,7 @@
   "normalized_form": "auto-release",
   "observation_id": "28b9c51d56396cb8",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T00:36:37.683079+00:00",
   "observed_text": "Auto Release",
   "source_context_snippet": "Auto Release",
   "source_file": ".github/workflows/release.yml",

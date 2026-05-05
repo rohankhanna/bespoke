@@ -1,0 +1,320 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alex313031/thorium",
+      "target": "alex313031/thorium-mac",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alex313031/thorium",
+      "target": "alex313031/thorium-android",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alex313031/thorium",
+      "target": "alex313031/thorium-legacy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alex313031/thorium",
+      "target": "alex313031/chromiumos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium",
+      "target": "avx-instructions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium",
+      "target": "chrome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium",
+      "target": "chrome-devtools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium",
+      "target": "chromedriver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium",
+      "target": "chromium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium",
+      "target": "chromium-browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium",
+      "target": "content-shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium",
+      "target": "jpeg-xl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium",
+      "target": "jpegxl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium",
+      "target": "libjxl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium",
+      "target": "thorium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium",
+      "target": "thorium-browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium",
+      "target": "thoriumos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium",
+      "target": "web-browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium",
+      "target": "web-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium",
+      "target": "webbrowser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T00:47:20.143224+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11177
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Chromium fork named after radioactive element No. 90. Source code and Linux releases. Windows/MacOS/ARM builds served in different repos, links are towards the top of the README.md.",
+    "fork": false,
+    "full_name": "Alex313031/thorium",
+    "html_url": "https://github.com/Alex313031/thorium",
+    "language": "C++",
+    "pushed_at": "2026-03-14T04:02:03Z",
+    "stargazers_count": 7077,
+    "topics": [
+      "aes",
+      "avx",
+      "avx-instructions",
+      "chrome",
+      "chrome-devtools",
+      "chromedriver",
+      "chromium",
+      "chromium-browser",
+      "content-shell",
+      "jpeg-xl",
+      "jpegxl",
+      "jxl",
+      "libjxl",
+      "linux",
+      "thorium",
+      "thorium-browser",
+      "thoriumos",
+      "web-browser",
+      "web-platform",
+      "webbrowser"
+    ],
+    "updated_at": "2026-05-04T19:23:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alex313031/chromiumos",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alex313031/thorium-android",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alex313031/thorium-legacy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alex313031/thorium-mac",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium?label=Version%3A)](https://github.com/Alex313031/thorium/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avx-instructions"
+    },
+    {
+      "context_snippet": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium?label=Version%3A)](https://github.com/Alex313031/thorium/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome"
+    },
+    {
+      "context_snippet": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium?label=Version%3A)](https://github.com/Alex313031/thorium/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome-devtools"
+    },
+    {
+      "context_snippet": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium?label=Version%3A)](https://github.com/Alex313031/thorium/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromedriver"
+    },
+    {
+      "context_snippet": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium?label=Version%3A)](https://github.com/Alex313031/thorium/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromium"
+    },
+    {
+      "context_snippet": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium?label=Version%3A)](https://github.com/Alex313031/thorium/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromium-browser"
+    },
+    {
+      "context_snippet": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium?label=Version%3A)](https://github.com/Alex313031/thorium/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "content-shell"
+    },
+    {
+      "context_snippet": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium?label=Version%3A)](https://github.com/Alex313031/thorium/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jpeg-xl"
+    },
+    {
+      "context_snippet": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium?label=Version%3A)](https://github.com/Alex313031/thorium/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jpegxl"
+    },
+    {
+      "context_snippet": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium?label=Version%3A)](https://github.com/Alex313031/thorium/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libjxl"
+    },
+    {
+      "context_snippet": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium?label=Version%3A)](https://github.com/Alex313031/thorium/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium?label=Version%3A)](https://github.com/Alex313031/thorium/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thorium"
+    },
+    {
+      "context_snippet": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium?label=Version%3A)](https://github.com/Alex313031/thorium/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thorium-browser"
+    },
+    {
+      "context_snippet": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium?label=Version%3A)](https://github.com/Alex313031/thorium/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thoriumos"
+    },
+    {
+      "context_snippet": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium?label=Version%3A)](https://github.com/Alex313031/thorium/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-browser"
+    },
+    {
+      "context_snippet": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium?label=Version%3A)](https://github.com/Alex313031/thorium/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-platform"
+    },
+    {
+      "context_snippet": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium?label=Version%3A)](https://github.com/Alex313031/thorium/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webbrowser"
+    }
+  ]
+}

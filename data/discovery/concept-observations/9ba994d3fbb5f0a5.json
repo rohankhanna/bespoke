@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "near smart contract implement ibc protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is an implementation of the IBC protocol (IBC/TAO) in the NEAR protocol, which includes additional applications such as ICS-20, written by Octopus Network."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is an implementation of the IBC protocol (IBC/TAO) in the NEAR protocol, which includes additional applications such as ICS-20, written by Octopus Network."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "smart-contracts",
+      "sense_id": "smart-contracts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "smart-contracts",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "smart-contracts",
+  "observation_id": "9ba994d3fbb5f0a5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T00:36:37.683079+00:00",
+  "observed_text": "smart-contracts",
+  "source_context_snippet": "This is an implementation of the IBC protocol (IBC/TAO) in the NEAR protocol, which includes additional applications such as ICS-20, written by Octopus Network.",
+  "source_file": null,
+  "source_repo": "octopus-network/near-ibc",
+  "source_repo_description": "near smart contract implement ibc protocol"
+}

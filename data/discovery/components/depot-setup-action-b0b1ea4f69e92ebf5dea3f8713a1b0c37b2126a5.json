@@ -1,0 +1,12 @@
+{
+  "component": "depot/setup-action@b0b1ea4f69e92ebf5dea3f8713a1b0c37b2126a5",
+  "first_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "gakonst/foundry"
+    }
+  ]
+}

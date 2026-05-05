@@ -48,7 +48,7 @@
   "normalized_form": "config-management",
   "observation_id": "02765cb663206a3a",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T00:36:37.683079+00:00",
   "observed_text": "config-management",
   "source_context_snippet": "> Layered configuration system for Rust applications (with strong support for [12-factor] applications).",
   "source_file": null,

@@ -56,6 +56,18 @@
       "source_repo": "go-openapi/swag",
       "status": "candidate-context",
       "text": "Release on tag"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CosmWasm/wasmd",
+      "status": "candidate-context",
+      "text": "Basic Cosmos SDK application with WebAssembly smart contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CosmWasm/wasmd",
+      "status": "candidate-context",
+      "text": "Release on Tag"
     }
   ],
   "candidate_glosses": [
@@ -82,6 +94,12 @@
       "source_repo": "go-openapi/swag",
       "status": "candidate",
       "text": "Release on tag"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CosmWasm/wasmd",
+      "status": "candidate",
+      "text": "Release on Tag"
     }
   ],
   "candidate_related_terms": [
@@ -149,11 +167,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/tag-release.yml",
       "source_repo": "go-openapi/swag"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "CosmWasm/wasmd"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

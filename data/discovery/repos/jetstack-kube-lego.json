@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jetstack/kube-lego",
+      "target": "jetstack/cert-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jetstack/kube-lego",
+      "target": "kubernetes/charts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jetstack/kube-lego",
+      "target": "kubernetes/ingress-nginx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jetstack/kube-lego",
+      "target": "kubernetes/ingress-gce",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jetstack/kube-lego",
+      "target": "ingress",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jetstack/kube-lego",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jetstack/kube-lego",
+      "target": "letsencrypt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T00:52:00.731093+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9113
+    },
+    {
+      "path": "Dockerfile",
+      "size": 527
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "DEPRECATED: Automatically request certificates for Kubernetes Ingress resources from Let's Encrypt",
+    "fork": false,
+    "full_name": "jetstack/kube-lego",
+    "html_url": "https://github.com/jetstack/kube-lego",
+    "language": "Go",
+    "pushed_at": "2021-08-26T15:02:41Z",
+    "stargazers_count": 2154,
+    "topics": [
+      "ingress",
+      "kubernetes",
+      "letsencrypt"
+    ],
+    "updated_at": "2026-04-17T13:58:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jetstack/cert-manager",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes/charts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes/ingress-gce",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes/ingress-nginx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> :warning:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ingress"
+    },
+    {
+      "context_snippet": "> :warning:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "> :warning:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "letsencrypt"
+    }
+  ]
+}

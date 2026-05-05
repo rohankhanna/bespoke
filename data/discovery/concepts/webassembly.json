@@ -619,6 +619,30 @@
       "source_repo": "jupyterlite/xeus",
       "status": "candidate-context",
       "text": "[![Github Actions Status](https://github.com/jupyterlite/xeus/workflows/Build/badge.svg)](https://github.com/jupyterlite/xeus/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CosmWasm/cosmwasm",
+      "status": "candidate-context",
+      "text": "WebAssembly Smart Contracts for the Cosmos SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CosmWasm/cosmwasm",
+      "status": "candidate-context",
+      "text": "[![component][component-badge]][component-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CosmWasm/wasmd",
+      "status": "candidate-context",
+      "text": "Basic Cosmos SDK application with WebAssembly smart contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CosmWasm/wasmd",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/CosmWasm/wasmd/tree/main.svg?style=shield)](https://circleci.com/gh/CosmWasm/wasmd/tree/main)"
     }
   ],
   "candidate_glosses": [
@@ -927,6 +951,18 @@
       "source_repo": "jupyterlite/xeus",
       "status": "candidate",
       "text": "[![Github Actions Status](https://github.com/jupyterlite/xeus/workflows/Build/badge.svg)](https://github.com/jupyterlite/xeus/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CosmWasm/cosmwasm",
+      "status": "candidate",
+      "text": "[![component][component-badge]][component-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CosmWasm/wasmd",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/CosmWasm/wasmd/tree/main.svg?style=shield)](https://circleci.com/gh/CosmWasm/wasmd/tree/main)"
     }
   ],
   "candidate_related_terms": [],
@@ -1306,11 +1342,29 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "JetBrains/compose-multiplatform"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "zig-wasm/wasmer-zig-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "CosmWasm/cosmwasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "CosmWasm/wasmd"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

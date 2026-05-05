@@ -1,0 +1,321 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "coq/coq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "mit-plv/bedrock2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "ammaraskar/gcc-problem-matcher@0.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/c.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "Test Generated C",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-alpine.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-alpine.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "jirutka/setup-alpine@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-alpine.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-alpine.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-alpine.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "CI (Coq, Alpine)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-archlinux.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-archlinux.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-archlinux.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-archlinux.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "CI (Coq, Arch Linux)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-debian.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-debian.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-debian.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-debian.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "CI (Coq, Debian)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "coq-community/docker-coq-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "acifani/setup-tinygo@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "JamesIves/github-pages-deploy-action@v4.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-docker.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "CI (Coq, docker, dev)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-macos.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-macos.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-macos.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-macos.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-macos.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "CI (Coq, MacOS)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-opam-package.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-opam-package.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "CI (Coq, opam)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-timing-diff.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-timing-diff.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "coq-community/docker-coq-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-timing-diff.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "CI (Coq, timing-diff, docker, dev)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-windows.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-windows.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-windows.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-windows.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-windows.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-windows.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-windows.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "CI (Coq, Windows)",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T00:36:37.683079+00:00",
+  "source_repo": "mit-plv/fiat-crypto"
+}

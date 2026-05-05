@@ -19,6 +19,18 @@
       "source_repo": "benjaminr/chrome-devtools-mcp",
       "status": "candidate-context",
       "text": "A Model Context Protocol (MCP) server that provides Chrome DevTools Protocol integration through MCP. This allows you to debug web applications by connecting to Chrome's developer tools."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alex313031/thorium",
+      "status": "candidate-context",
+      "text": "Chromium fork named after radioactive element No. 90. Source code and Linux releases. Windows/MacOS/ARM builds served in different repos, links are towards the top of the README.md."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/thorium",
+      "status": "candidate-context",
+      "text": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium?label=Version%3A)](https://github.com/Alex313031/thorium/releases)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "benjaminr/chrome-devtools-mcp",
       "status": "candidate",
       "text": "A Model Context Protocol (MCP) server that provides Chrome DevTools Protocol integration through MCP. This allows you to debug web applications by connecting to Chrome's developer tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/thorium",
+      "status": "candidate",
+      "text": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium?label=Version%3A)](https://github.com/Alex313031/thorium/releases)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "benjaminr/chrome-devtools-mcp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

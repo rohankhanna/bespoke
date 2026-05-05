@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Merged to main (or hotfix)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "letsencrypt/boulder",
+      "status": "candidate-context",
+      "text": "An ACME-based certificate authority, written in Go. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "letsencrypt/boulder",
+      "status": "candidate-context",
+      "text": "Merged to main (or hotfix)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "letsencrypt/boulder",
+      "status": "candidate",
+      "text": "Merged to main (or hotfix)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13737,
+      "status": "candidate",
+      "text": "amalgamate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13737,
+      "status": "candidate",
+      "text": "blend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13737,
+      "status": "candidate",
+      "text": "combined"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13737,
+      "status": "candidate",
+      "text": "incorporate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13737,
+      "status": "candidate",
+      "text": "lithuania"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Merged to main (or hotfix)",
+  "concept_id": "merged-to-main-or-hotfix",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/merged-to-main-or-release-branch.yml",
+      "source_repo": "letsencrypt/boulder"
+    }
+  ],
+  "first_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Merged to main (or hotfix)",
+      "sense_id": "merged-to-main-or-hotfix#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

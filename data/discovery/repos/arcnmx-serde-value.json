@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T00:52:23.234437+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 778
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 404
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Serialization value trees",
+    "fork": false,
+    "full_name": "arcnmx/serde-value",
+    "html_url": "https://github.com/arcnmx/serde-value",
+    "language": "Rust",
+    "pushed_at": "2024-07-31T20:10:21Z",
+    "stargazers_count": 49,
+    "topics": [],
+    "updated_at": "2026-04-03T12:05:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

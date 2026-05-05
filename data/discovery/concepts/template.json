@@ -679,6 +679,30 @@
       "source_repo": "PaulRBerg/foundry-template",
       "status": "candidate-context",
       "text": "[gitpod]: https://gitpod.io/#https://github.com/PaulRBerg/foundry-template"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "refcell/femplate",
+      "status": "candidate-context",
+      "text": "Robust, Feature-Rich Solidity Template Repository for Foundry Projects with Scripting, Testing, and Utility Bash Scripts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "refcell/femplate",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"150\" height=\"150\" top=\"100\" src=\"./public/readme.jpg\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cleanunicorn/ethereum-smartcontract-template",
+      "status": "candidate-context",
+      "text": "Ethereum Smart Contract starting template"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleanunicorn/ethereum-smartcontract-template",
+      "status": "candidate-context",
+      "text": "This development quick start template is heavily inspired by [Georgios's template](https://github.com/gakonst/dapptools-template). Over time it was migrated to use [foundry](https://github.com/gakonst/foundry) since dapptools was deprecated."
     }
   ],
   "candidate_glosses": [
@@ -1017,6 +1041,18 @@
       "source_repo": "PaulRBerg/foundry-template",
       "status": "candidate",
       "text": "[gitpod]: https://gitpod.io/#https://github.com/PaulRBerg/foundry-template"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "refcell/femplate",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"150\" height=\"150\" top=\"100\" src=\"./public/readme.jpg\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleanunicorn/ethereum-smartcontract-template",
+      "status": "candidate",
+      "text": "This development quick start template is heavily inspired by [Georgios's template](https://github.com/gakonst/dapptools-template). Over time it was migrated to use [foundry](https://github.com/gakonst/foundry) since dapptools was deprecated."
     }
   ],
   "candidate_related_terms": [
@@ -1657,11 +1693,23 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "code-forge-io/open-source-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "refcell/femplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "cleanunicorn/ethereum-smartcontract-template"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "@hyperledger-labs/yui-ibc-solidity",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@openzeppelin/contracts-upgradeable",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datachainlab/ethereum-ibc-relay-chain",
+      "target": "hyperledger-labs/yui-relayer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "datachainlab/ethereum-ibc-relay-chain",
+      "target": "@hyperledger-labs/yui-ibc-solidity",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "datachainlab/ethereum-ibc-relay-chain",
+      "target": "@openzeppelin/contracts-upgradeable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "datachainlab/ethereum-ibc-relay-chain",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "datachainlab/ethereum-ibc-relay-chain",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "datachainlab/ethereum-ibc-relay-chain",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T00:41:31.481529+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 284
+    },
+    {
+      "path": "go.mod",
+      "size": 12713
+    },
+    {
+      "path": "package.json",
+      "size": 319
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 236
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "datachainlab/ethereum-ibc-relay-chain",
+    "html_url": "https://github.com/datachainlab/ethereum-ibc-relay-chain",
+    "language": "Go",
+    "pushed_at": "2026-03-16T03:27:19Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-04-08T14:10:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hyperledger-labs/yui-relayer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

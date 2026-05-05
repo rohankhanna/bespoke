@@ -259,6 +259,18 @@
       "source_repo": "PaulRBerg/foundry-template",
       "status": "candidate-context",
       "text": "[gitpod]: https://gitpod.io/#https://github.com/PaulRBerg/foundry-template"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "refcell/femplate",
+      "status": "candidate-context",
+      "text": "Robust, Feature-Rich Solidity Template Repository for Foundry Projects with Scripting, Testing, and Utility Bash Scripts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "refcell/femplate",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"150\" height=\"150\" top=\"100\" src=\"./public/readme.jpg\">"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +399,12 @@
       "source_repo": "PaulRBerg/foundry-template",
       "status": "candidate",
       "text": "[gitpod]: https://gitpod.io/#https://github.com/PaulRBerg/foundry-template"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "refcell/femplate",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"150\" height=\"150\" top=\"100\" src=\"./public/readme.jpg\">"
     }
   ],
   "candidate_related_terms": [
@@ -1098,11 +1116,53 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "dethcrypto/TypeChain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "PraneshASP/vscode-foundry-test-runner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "safe-fndn/safe-smart-account"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "refcell/femplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "alloy-rs/svm-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/eth-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/TypeChain"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

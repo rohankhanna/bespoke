@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v6",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -6227,6 +6227,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/label_community_pr.yml",
       "source_repo": "triton-inference-server/TensorRT-LLM"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coq-windows.yml",
+      "source_repo": "mit-plv/fiat-crypto"
     }
   ]
 }

@@ -168,20 +168,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "databendlabs/databend",
-      "target": "eyre-rs/eyre",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "databendlabs/databend",
-      "target": "youngsofun/rust-csv",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bindings.python.yml",
       "source_repo": "databendlabs/databend",
@@ -455,7 +441,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T18:49:59.823358+00:00",
+  "fetched_at": "2026-05-05T00:52:40.607986+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -527,18 +513,7 @@
     ],
     "updated_at": "2026-05-04T15:40:22Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "eyre-rs/eyre",
-      "source_file": "Cargo.toml"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "youngsofun/rust-csv",
-      "source_file": "Cargo.toml"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Build Tool",

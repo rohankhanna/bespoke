@@ -1,0 +1,94 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Dynamic Distributed Dimensional Data Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "NOTE: This is the Accumulo 1.6.0+ version."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "NOTE: This is the Accumulo 1.6.0+ version."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29686579,
+      "status": "candidate",
+      "text": "musical octave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29686578,
+      "status": "candidate",
+      "text": "eighth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29618465,
+      "status": "candidate",
+      "text": "octavian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28363548,
+      "status": "candidate",
+      "text": "octavius"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "octave",
+      "sense_id": "octave#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "musical octave"
+    }
+  ],
+  "concept_id": "octave",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "octave",
+  "observation_id": "ae2bbd36d6a2854a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T00:36:37.683079+00:00",
+  "observed_text": "octave",
+  "source_context_snippet": "NOTE: This is the Accumulo 1.6.0+ version.",
+  "source_file": null,
+  "source_repo": "Accla/d4m",
+  "source_repo_description": "Dynamic Distributed Dimensional Data Model"
+}

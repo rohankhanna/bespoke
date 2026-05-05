@@ -367,6 +367,18 @@
       "source_repo": "scopedb/percas",
       "status": "candidate-context",
       "text": "Percas is a distributed persistent cache service optimized for high performance NVMe SSD. It aims to provide the capability to scale-out without pain and with stable performance."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prataprc/xorfilter",
+      "status": "candidate-context",
+      "text": "Rust library implementing xor-filters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prataprc/xorfilter",
+      "status": "candidate-context",
+      "text": "[![Rustdoc](https://img.shields.io/badge/rustdoc-hosted-blue.svg)](https://docs.rs/xorfilter-rs)"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +561,12 @@
       "source_repo": "scopedb/percas",
       "status": "candidate",
       "text": "Percas is a distributed persistent cache service optimized for high performance NVMe SSD. It aims to provide the capability to scale-out without pain and with stable performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prataprc/xorfilter",
+      "status": "candidate",
+      "text": "[![Rustdoc](https://img.shields.io/badge/rustdoc-hosted-blue.svg)](https://docs.rs/xorfilter-rs)"
     }
   ],
   "candidate_related_terms": [],
@@ -922,11 +940,23 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "hermit-os/hermit-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "shekohex/allo-isolate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "prataprc/xorfilter"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datachainlab/besu-ibc-relay-prover",
+      "target": "hyperledger-labs/yui-relayer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "datachainlab/besu-ibc-relay-prover",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "datachainlab/besu-ibc-relay-prover",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "datachainlab/besu-ibc-relay-prover",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "datachainlab/besu-ibc-relay-prover",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datachainlab/besu-ibc-relay-prover",
+      "target": "hyperledger-besu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datachainlab/besu-ibc-relay-prover",
+      "target": "relayer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T00:41:27.554358+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 402
+    },
+    {
+      "path": "go.mod",
+      "size": 11549
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1032
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A relay module for Hyperledger Besu's QBFT and IBFT 2.0",
+    "fork": false,
+    "full_name": "datachainlab/besu-ibc-relay-prover",
+    "html_url": "https://github.com/datachainlab/besu-ibc-relay-prover",
+    "language": "Go",
+    "pushed_at": "2025-08-04T00:12:06Z",
+    "stargazers_count": 2,
+    "topics": [
+      "hyperledger-besu",
+      "ibc",
+      "relayer"
+    ],
+    "updated_at": "2025-03-21T06:37:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hyperledger-labs/yui-relayer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "This repository provides a [yui-relayer](https://github.com/hyperledger-labs/yui-relayer) prover module for [the light client of Hyperledger Besu's QBFT and IBFT 2.0 consensus algorithms](https://github.com/hyperledger-labs/yui-ibc-solidity/blob/main/contracts/clients/qbft/QBFTC\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperledger-besu"
+    },
+    {
+      "context_snippet": "This repository provides a [yui-relayer](https://github.com/hyperledger-labs/yui-relayer) prover module for [the light client of Hyperledger Besu's QBFT and IBFT 2.0 consensus algorithms](https://github.com/hyperledger-labs/yui-ibc-solidity/blob/main/contracts/clients/qbft/QBFTC\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "relayer"
+    }
+  ]
+}

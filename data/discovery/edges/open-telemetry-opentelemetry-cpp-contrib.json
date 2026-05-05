@@ -1,0 +1,167 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boost_log.yml",
+      "source_repo": "open-telemetry/opentelemetry-cpp-contrib",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fluentd.yml",
+      "source_repo": "open-telemetry/opentelemetry-cpp-contrib",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fluentd.yml",
+      "source_repo": "open-telemetry/opentelemetry-cpp-contrib",
+      "target": "Fluentd exporter CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/opentelemetry-cpp-contrib",
+      "target": "actions/checkout@0c366fd6a839edf440554fa01a7085ccba70ac98",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/opentelemetry-cpp-contrib",
+      "target": "fossas/fossa-action@ff70fe9fe17cbd2040648f1c45e8ec4e4884dcf3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/opentelemetry-cpp-contrib",
+      "target": "FOSSA scanning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/geneva_metrics.yml",
+      "source_repo": "open-telemetry/opentelemetry-cpp-contrib",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/geneva_metrics.yml",
+      "source_repo": "open-telemetry/opentelemetry-cpp-contrib",
+      "target": "Geneva Metrics CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/geneva_trace.yml",
+      "source_repo": "open-telemetry/opentelemetry-cpp-contrib",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/geneva_trace.yml",
+      "source_repo": "open-telemetry/opentelemetry-cpp-contrib",
+      "target": "Geneva Trace Nuget Generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/glog.yml",
+      "source_repo": "open-telemetry/opentelemetry-cpp-contrib",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/glog.yml",
+      "source_repo": "open-telemetry/opentelemetry-cpp-contrib",
+      "target": "glog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/httpd.yml",
+      "source_repo": "open-telemetry/opentelemetry-cpp-contrib",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/httpd.yml",
+      "source_repo": "open-telemetry/opentelemetry-cpp-contrib",
+      "target": "actions/upload-artifact@v7.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/httpd.yml",
+      "source_repo": "open-telemetry/opentelemetry-cpp-contrib",
+      "target": "httpd instrumentation CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/log4cxx.yml",
+      "source_repo": "open-telemetry/opentelemetry-cpp-contrib",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/log4cxx.yml",
+      "source_repo": "open-telemetry/opentelemetry-cpp-contrib",
+      "target": "log4cxx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nginx.yml",
+      "source_repo": "open-telemetry/opentelemetry-cpp-contrib",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nginx.yml",
+      "source_repo": "open-telemetry/opentelemetry-cpp-contrib",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nginx.yml",
+      "source_repo": "open-telemetry/opentelemetry-cpp-contrib",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nginx.yml",
+      "source_repo": "open-telemetry/opentelemetry-cpp-contrib",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nginx.yml",
+      "source_repo": "open-telemetry/opentelemetry-cpp-contrib",
+      "target": "actions/upload-artifact@v7.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nginx.yml",
+      "source_repo": "open-telemetry/opentelemetry-cpp-contrib",
+      "target": "nginx instrumentation CI",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T00:36:37.683079+00:00",
+  "source_repo": "open-telemetry/opentelemetry-cpp-contrib"
+}

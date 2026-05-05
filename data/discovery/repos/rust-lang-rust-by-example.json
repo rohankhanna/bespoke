@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rbe.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rbe.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-lang/rust-by-example",
+      "target": "kberov/rust-by-example-bg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-lang/rust-by-example",
+      "target": "rurust/rust-by-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-lang/rust-by-example",
+      "target": "eyescrypto-insights/rust-by-example-vn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-lang/rust-by-example",
+      "target": "nazarepiedady/rust-com-exemplos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rbe.yml",
+      "source_repo": "rust-lang/rust-by-example",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rbe.yml",
+      "source_repo": "rust-lang/rust-by-example",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-05T00:37:26.507585+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2717
+    },
+    {
+      "path": ".github/workflows/rbe.yml",
+      "size": 2170
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Learn Rust with examples (Live code editor included)",
+    "fork": false,
+    "full_name": "rust-lang/rust-by-example",
+    "html_url": "https://github.com/rust-lang/rust-by-example",
+    "language": "Handlebars",
+    "pushed_at": "2026-04-19T11:40:29Z",
+    "stargazers_count": 7953,
+    "topics": [],
+    "updated_at": "2026-05-04T17:12:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eyescrypto-insights/rust-by-example-vn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kberov/rust-by-example-bg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nazarepiedady/rust-com-exemplos",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rurust/rust-by-example",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

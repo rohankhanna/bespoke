@@ -84,7 +84,7 @@
   "normalized_form": "nightly-benchmarks-against-last-release-amd64",
   "observation_id": "2ac326d72d3cadb1",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T12:47:39.186442+00:00",
+  "observed_at": "2026-05-05T00:36:37.683079+00:00",
   "observed_text": "Nightly Benchmarks against last release (AMD64)",
   "source_context_snippet": "Nightly Benchmarks against last release (AMD64)",
   "source_file": ".github/workflows/benchmark-releases.yaml",

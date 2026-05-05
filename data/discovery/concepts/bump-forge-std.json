@@ -19,12 +19,30 @@
       "source_repo": "foundry-rs/foundry",
       "status": "candidate-context",
       "text": "bump-forge-std"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gakonst/foundry",
+      "status": "candidate-context",
+      "text": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gakonst/foundry",
+      "status": "candidate-context",
+      "text": "bump-forge-std"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "foundry-rs/foundry",
+      "status": "candidate",
+      "text": "bump-forge-std"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gakonst/foundry",
       "status": "candidate",
       "text": "bump-forge-std"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/bump-forge-std.yml",
       "source_repo": "foundry-rs/foundry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/bump-forge-std.yml",
+      "source_repo": "gakonst/foundry"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

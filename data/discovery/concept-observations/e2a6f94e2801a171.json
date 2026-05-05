@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Geneva Trace Nuget Generation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Geneva Trace Nuget Generation"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18113,
+      "status": "candidate",
+      "text": "english setter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18113,
+      "status": "candidate",
+      "text": "thoroughbred"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18073,
+      "status": "candidate",
+      "text": "marks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18033,
+      "status": "candidate",
+      "text": "bonnet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18033,
+      "status": "candidate",
+      "text": "bot"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Geneva Trace Nuget Generation",
+      "sense_id": "geneva-trace-nuget-generation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "geneva-trace-nuget-generation",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "geneva-trace-nuget-generation",
+  "observation_id": "e2a6f94e2801a171",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T00:36:37.683079+00:00",
+  "observed_text": "Geneva Trace Nuget Generation",
+  "source_context_snippet": "Geneva Trace Nuget Generation",
+  "source_file": ".github/workflows/geneva_trace.yml",
+  "source_repo": "open-telemetry/opentelemetry-cpp-contrib",
+  "source_repo_description": null
+}

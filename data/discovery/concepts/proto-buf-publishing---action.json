@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Proto Buf Publishing - Action"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CosmWasm/wasmd",
+      "status": "candidate-context",
+      "text": "Basic Cosmos SDK application with WebAssembly smart contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CosmWasm/wasmd",
+      "status": "candidate-context",
+      "text": "Proto Buf Publishing - Action"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CosmWasm/wasmd",
+      "status": "candidate",
+      "text": "Proto Buf Publishing - Action"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22800,
+      "status": "candidate",
+      "text": "linkage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21791,
+      "status": "candidate",
+      "text": "depth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21791,
+      "status": "candidate",
+      "text": "umlaut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21770,
+      "status": "candidate",
+      "text": "black"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21770,
+      "status": "candidate",
+      "text": "click"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Proto Buf Publishing - Action",
+  "concept_id": "proto-buf-publishing---action",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/proto-buf-publisher.yml",
+      "source_repo": "CosmWasm/wasmd"
+    }
+  ],
+  "first_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Proto Buf Publishing - Action",
+      "sense_id": "proto-buf-publishing---action#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

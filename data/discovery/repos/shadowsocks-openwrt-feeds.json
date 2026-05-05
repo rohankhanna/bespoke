@@ -1,0 +1,67 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shadowsocks/openwrt-feeds",
+      "target": "feeds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shadowsocks/openwrt-feeds",
+      "target": "lede",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shadowsocks/openwrt-feeds",
+      "target": "openwrt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T00:48:07.079394+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OpenWrt/LEDE feeds",
+    "fork": false,
+    "full_name": "shadowsocks/openwrt-feeds",
+    "html_url": "https://github.com/shadowsocks/openwrt-feeds",
+    "language": "Makefile",
+    "pushed_at": "2022-06-02T13:09:31Z",
+    "stargazers_count": 53,
+    "topics": [
+      "feeds",
+      "lede",
+      "openwrt"
+    ],
+    "updated_at": "2025-10-04T17:38:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "OpenWrt/LEDE feeds",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feeds"
+    },
+    {
+      "context_snippet": "OpenWrt/LEDE feeds",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lede"
+    },
+    {
+      "context_snippet": "OpenWrt/LEDE feeds",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openwrt"
+    }
+  ]
+}

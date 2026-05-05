@@ -144,7 +144,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T18:50:42.282591+00:00",
+  "fetched_at": "2026-05-05T00:53:24.467908+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -173,12 +173,12 @@
     "html_url": "https://github.com/cookiecutter/cookiecutter",
     "language": "Python",
     "pushed_at": "2026-04-01T17:46:44Z",
-    "stargazers_count": 24853,
+    "stargazers_count": 24854,
     "topics": [
       "cookiecutter",
       "python"
     ],
-    "updated_at": "2026-05-04T14:42:23Z"
+    "updated_at": "2026-05-05T00:46:55Z"
   },
   "repo_links": [],
   "terms": [

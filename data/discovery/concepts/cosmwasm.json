@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "cosmwasm"
+    "cosmwasm",
+    "CosmWasm"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "srdtrk/cw-ibc-lite",
       "status": "candidate-context",
       "text": "This workspace contains the CosmWasm IBC Lite implementation. IBC lite is a work in progress trimmed down specification of the IBC protocol. It is designed to be simpler to implement and be as secure as the full IBC protocol. Learn more about IBC lite in the [IBC Lite Spec](http\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CyberHoward/cw-plus-plus",
+      "status": "candidate-context",
+      "text": "A collection of CosmWasm utilities and helper functions that I use "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CyberHoward/cw-plus-plus",
+      "status": "candidate-context",
+      "text": "CosmWasm"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "srdtrk/cw-ibc-lite",
       "status": "candidate",
       "text": "This workspace contains the CosmWasm IBC Lite implementation. IBC lite is a work in progress trimmed down specification of the IBC protocol. It is designed to be simpler to implement and be as secure as the full IBC protocol. Learn more about IBC lite in the [IBC Lite Spec](http\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CyberHoward/cw-plus-plus",
+      "status": "candidate",
+      "text": "CosmWasm"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +61,17 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "srdtrk/cw-ibc-lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/wasm.yaml",
+      "source_repo": "CyberHoward/cw-plus-plus"
     }
   ],
   "first_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

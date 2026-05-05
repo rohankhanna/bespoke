@@ -1,0 +1,1086 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c.yml"
+    },
+    {
+      "component": "ammaraskar/gcc-problem-matcher@0.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-alpine.yml"
+    },
+    {
+      "component": "jirutka/setup-alpine@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-alpine.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-alpine.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-alpine.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-alpine.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-alpine.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-alpine.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-alpine.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-alpine.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-alpine.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-alpine.yml"
+    },
+    {
+      "component": "jirutka/setup-alpine@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-alpine.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-alpine.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-alpine.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-archlinux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-archlinux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-archlinux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-archlinux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-archlinux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-archlinux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-archlinux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-archlinux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-archlinux.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-archlinux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-archlinux.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-archlinux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-debian.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-debian.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-debian.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-debian.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-debian.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-debian.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-debian.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-debian.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-debian.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-debian.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-debian.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-debian.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-debian.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-debian.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "acifani/setup-tinygo@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4.8.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-macos.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-macos.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-macos.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-macos.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-macos.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-macos.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-opam-package.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-timing-diff.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-timing-diff.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-timing-diff.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-timing-diff.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-timing-diff.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-timing-diff.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-windows.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-windows.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-windows.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-windows.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-windows.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "coq/coq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "mit-plv/bedrock2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "ammaraskar/gcc-problem-matcher@0.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/c.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "Test Generated C",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-alpine.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-alpine.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "jirutka/setup-alpine@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-alpine.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-alpine.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-alpine.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "CI (Coq, Alpine)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-archlinux.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-archlinux.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-archlinux.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-archlinux.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "CI (Coq, Arch Linux)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-debian.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-debian.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-debian.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-debian.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "CI (Coq, Debian)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "coq-community/docker-coq-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "acifani/setup-tinygo@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-docker.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "JamesIves/github-pages-deploy-action@v4.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-docker.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "CI (Coq, docker, dev)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-macos.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-macos.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-macos.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-macos.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-macos.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "CI (Coq, MacOS)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-opam-package.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-opam-package.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "CI (Coq, opam)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-timing-diff.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-timing-diff.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "coq-community/docker-coq-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-timing-diff.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "CI (Coq, timing-diff, docker, dev)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-windows.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-windows.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-windows.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-windows.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-windows.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-windows.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-windows.yml",
+      "source_repo": "mit-plv/fiat-crypto",
+      "target": "CI (Coq, Windows)",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T00:41:46.386397+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 42108
+    },
+    {
+      "path": ".github/workflows/c.yml",
+      "size": 1560
+    },
+    {
+      "path": ".github/workflows/coq-alpine.yml",
+      "size": 7376
+    },
+    {
+      "path": ".github/workflows/coq-archlinux.yml",
+      "size": 6889
+    },
+    {
+      "path": ".github/workflows/coq-debian.yml",
+      "size": 8918
+    },
+    {
+      "path": ".github/workflows/coq-docker.yml",
+      "size": 27538
+    },
+    {
+      "path": ".github/workflows/coq-macos.yml",
+      "size": 8636
+    },
+    {
+      "path": ".github/workflows/coq-opam-package.yml",
+      "size": 5761
+    },
+    {
+      "path": ".github/workflows/coq-timing-diff.yml",
+      "size": 7791
+    },
+    {
+      "path": ".github/workflows/coq-windows.yml",
+      "size": 7923
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cryptographic Primitive Code Generation by Fiat",
+    "fork": false,
+    "full_name": "mit-plv/fiat-crypto",
+    "html_url": "https://github.com/mit-plv/fiat-crypto",
+    "language": "Rocq Prover",
+    "pushed_at": "2026-04-29T22:53:22Z",
+    "stargazers_count": 824,
+    "topics": [],
+    "updated_at": "2026-05-03T21:21:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coq/coq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-plv/bedrock2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test Generated C",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/c.yml",
+      "term": "Test Generated C"
+    },
+    {
+      "context_snippet": "CI (Coq, Alpine)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-alpine.yml",
+      "term": "CI (Coq, Alpine)"
+    },
+    {
+      "context_snippet": "CI (Coq, Arch Linux)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-archlinux.yml",
+      "term": "CI (Coq, Arch Linux)"
+    },
+    {
+      "context_snippet": "CI (Coq, Debian)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-debian.yml",
+      "term": "CI (Coq, Debian)"
+    },
+    {
+      "context_snippet": "CI (Coq, docker, dev)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-docker.yml",
+      "term": "CI (Coq, docker, dev)"
+    },
+    {
+      "context_snippet": "CI (Coq, MacOS)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-macos.yml",
+      "term": "CI (Coq, MacOS)"
+    },
+    {
+      "context_snippet": "CI (Coq, opam)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-opam-package.yml",
+      "term": "CI (Coq, opam)"
+    },
+    {
+      "context_snippet": "CI (Coq, timing-diff, docker, dev)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-timing-diff.yml",
+      "term": "CI (Coq, timing-diff, docker, dev)"
+    },
+    {
+      "context_snippet": "CI (Coq, Windows)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-windows.yml",
+      "term": "CI (Coq, Windows)"
+    }
+  ]
+}

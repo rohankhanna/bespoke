@@ -1,0 +1,58 @@
+{
+  "components": [
+    {
+      "component": "express",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tangledgroup/llama-cpp-wasm",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tangledgroup/llama-cpp-wasm",
+      "target": "express",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-05T00:56:00.092944+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3051
+    },
+    {
+      "path": "package.json",
+      "size": 722
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "WebAssembly (Wasm) Build and Bindings for llama.cpp",
+    "fork": false,
+    "full_name": "tangledgroup/llama-cpp-wasm",
+    "html_url": "https://github.com/tangledgroup/llama-cpp-wasm",
+    "language": "JavaScript",
+    "pushed_at": "2024-07-23T13:43:47Z",
+    "stargazers_count": 290,
+    "topics": [],
+    "updated_at": "2026-04-27T21:43:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

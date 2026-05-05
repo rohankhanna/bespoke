@@ -48,7 +48,7 @@
   "normalized_form": "compathelper",
   "observation_id": "4c75ee915c387128",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T00:36:37.683079+00:00",
   "observed_text": "CompatHelper",
   "source_context_snippet": "CompatHelper",
   "source_file": ".github/workflows/CompatHelper.yml",

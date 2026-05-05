@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Basic Cosmos SDK application with WebAssembly smart contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Proto Buf Publishing - Action"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Proto Buf Publishing - Action"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22800,
+      "status": "candidate",
+      "text": "linkage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21791,
+      "status": "candidate",
+      "text": "depth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21791,
+      "status": "candidate",
+      "text": "umlaut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21770,
+      "status": "candidate",
+      "text": "black"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21770,
+      "status": "candidate",
+      "text": "click"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Proto Buf Publishing - Action",
+      "sense_id": "proto-buf-publishing---action#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "proto-buf-publishing---action",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "proto-buf-publishing---action",
+  "observation_id": "a79e5cfa55f7cf2b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T00:36:37.683079+00:00",
+  "observed_text": "Proto Buf Publishing - Action",
+  "source_context_snippet": "Proto Buf Publishing - Action",
+  "source_file": ".github/workflows/proto-buf-publisher.yml",
+  "source_repo": "CosmWasm/wasmd",
+  "source_repo_description": "Basic Cosmos SDK application with WebAssembly smart contracts"
+}

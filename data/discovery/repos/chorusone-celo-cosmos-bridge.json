@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChorusOne/celo-cosmos-bridge",
+      "target": "chorusone/cosmos-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChorusOne/celo-cosmos-bridge",
+      "target": "chorusone/quantum-tunnel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChorusOne/celo-cosmos-bridge",
+      "target": "chorusone/tendermint-sol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChorusOne/celo-cosmos-bridge",
+      "target": "chorusone/celo-light-client",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T00:41:26.535532+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3215
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "IBC Celo-Cosmos bridge",
+    "fork": false,
+    "full_name": "ChorusOne/celo-cosmos-bridge",
+    "html_url": "https://github.com/ChorusOne/celo-cosmos-bridge",
+    "language": "Makefile",
+    "pushed_at": "2021-12-20T05:48:28Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2024-09-04T13:27:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chorusone/celo-light-client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chorusone/cosmos-sdk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chorusone/quantum-tunnel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chorusone/tendermint-sol",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

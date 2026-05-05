@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T00:42:06.506778+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5206
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "It's happening!",
+    "fork": false,
+    "full_name": "cosmos/mainnet",
+    "html_url": "https://github.com/cosmos/mainnet",
+    "language": "Go",
+    "pushed_at": "2024-08-08T15:42:01Z",
+    "stargazers_count": 127,
+    "topics": [],
+    "updated_at": "2026-04-13T11:41:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

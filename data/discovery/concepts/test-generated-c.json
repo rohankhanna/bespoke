@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Generated C"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-plv/fiat-crypto",
+      "status": "candidate-context",
+      "text": "Cryptographic Primitive Code Generation by Fiat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-plv/fiat-crypto",
+      "status": "candidate-context",
+      "text": "Test Generated C"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-plv/fiat-crypto",
+      "status": "candidate",
+      "text": "Test Generated C"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11874,
+      "status": "candidate",
+      "text": "negative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11874,
+      "status": "candidate",
+      "text": "ring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11874,
+      "status": "candidate",
+      "text": "rings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11626,
+      "status": "candidate",
+      "text": "cone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11565,
+      "status": "candidate",
+      "text": "secondary"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Generated C",
+  "concept_id": "test-generated-c",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/c.yml",
+      "source_repo": "mit-plv/fiat-crypto"
+    }
+  ],
+  "first_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Generated C",
+      "sense_id": "test-generated-c#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

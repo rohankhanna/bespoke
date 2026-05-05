@@ -127,6 +127,18 @@
       "source_repo": "jonidelv/generator-create-redux-app",
       "status": "candidate-context",
       "text": "[![NPM](https://nodei.co/npm/generator-create-redux-app.png?downloads=true)](https://nodei.co/npm/generator-create-redux-app/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "refcell/femplate",
+      "status": "candidate-context",
+      "text": "Robust, Feature-Rich Solidity Template Repository for Foundry Projects with Scripting, Testing, and Utility Bash Scripts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "refcell/femplate",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"150\" height=\"150\" top=\"100\" src=\"./public/readme.jpg\">"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "jonidelv/generator-create-redux-app",
       "status": "candidate",
       "text": "[![NPM](https://nodei.co/npm/generator-create-redux-app.png?downloads=true)](https://nodei.co/npm/generator-create-redux-app/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "refcell/femplate",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"150\" height=\"150\" top=\"100\" src=\"./public/readme.jpg\">"
     }
   ],
   "candidate_related_terms": [
@@ -328,11 +346,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "jonidelv/generator-create-redux-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "refcell/femplate"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

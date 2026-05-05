@@ -91,6 +91,18 @@
       "source_repo": "panmari/cuckoofilter",
       "status": "candidate-context",
       "text": "[![GitHub go.mod Go version of a Go module](https://img.shields.io/github/go-mod/go-version/panmari/cuckoofilter.svg)](https://github.com/panmari/cuckoofilter)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prataprc/xorfilter",
+      "status": "candidate-context",
+      "text": "Rust library implementing xor-filters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prataprc/xorfilter",
+      "status": "candidate-context",
+      "text": "[![Rustdoc](https://img.shields.io/badge/rustdoc-hosted-blue.svg)](https://docs.rs/xorfilter-rs)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "panmari/cuckoofilter",
       "status": "candidate",
       "text": "[![GitHub go.mod Go version of a Go module](https://img.shields.io/github/go-mod/go-version/panmari/cuckoofilter.svg)](https://github.com/panmari/cuckoofilter)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prataprc/xorfilter",
+      "status": "candidate",
+      "text": "[![Rustdoc](https://img.shields.io/badge/rustdoc-hosted-blue.svg)](https://docs.rs/xorfilter-rs)"
     }
   ],
   "candidate_related_terms": [],
@@ -202,11 +220,17 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "BirolLab/LINKS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "prataprc/xorfilter"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A D4M module for Python. D4M was developed in MATLAB by Dr Jeremy Kepner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "D4M.py is a module for Python that allows unstructured data to be represented as triples in sparse matrics (Associative Arrays) and can be manipulated using standard linear algebraic operations."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "D4M.py is a module for Python that allows unstructured data to be represented as triples in sparse matrics (Associative Arrays) and can be manipulated using standard linear algebraic operations."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "accumulo",
+      "sense_id": "accumulo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "accumulo",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "accumulo",
+  "observation_id": "8d431c0813806e01",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T00:36:37.683079+00:00",
+  "observed_text": "accumulo",
+  "source_context_snippet": "D4M.py is a module for Python that allows unstructured data to be represented as triples in sparse matrics (Associative Arrays) and can be manipulated using standard linear algebraic operations.",
+  "source_file": null,
+  "source_repo": "Accla/D4M.py",
+  "source_repo_description": "A D4M module for Python. D4M was developed in MATLAB by Dr Jeremy Kepner"
+}

@@ -45,6 +45,18 @@
       "source_repo": "symfony/contracts",
       "status": "candidate-context",
       "text": "Symfony Contracts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CosmWasm/cosmwasm",
+      "status": "candidate-context",
+      "text": "WebAssembly Smart Contracts for the Cosmos SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CosmWasm/cosmwasm",
+      "status": "candidate-context",
+      "text": "contracts"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +77,12 @@
       "source_repo": "symfony/contracts",
       "status": "candidate",
       "text": "Symfony Contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CosmWasm/cosmwasm",
+      "status": "candidate",
+      "text": "contracts"
     }
   ],
   "candidate_related_terms": [
@@ -126,11 +144,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "symfony/contracts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/contracts.yml",
+      "source_repo": "CosmWasm/cosmwasm"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

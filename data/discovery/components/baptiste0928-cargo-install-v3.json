@@ -1,7 +1,7 @@
 {
   "component": "baptiste0928/cargo-install@v3",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -187,6 +187,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/code-quality.yaml",
       "source_repo": "informalsystems/sovereign-ibc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cw-check.yaml",
+      "source_repo": "srdtrk/ibc-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "srdtrk/ibc-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "srdtrk/ibc-rs"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2192,6 +2192,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/continuous-integration.yaml",
       "source_repo": "open-telemetry/opentelemetry-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "open-telemetry/opentelemetry-go-instrumentation"
     }
   ]
 }

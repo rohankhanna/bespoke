@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T00:53:59.921141+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2573
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Repository and Wiki for enriching the Standard ML Basis Library",
+    "fork": false,
+    "full_name": "SMLFamily/BasisLibrary",
+    "html_url": "https://github.com/SMLFamily/BasisLibrary",
+    "language": "Standard ML",
+    "pushed_at": "2021-11-30T10:41:20Z",
+    "stargazers_count": 64,
+    "topics": [],
+    "updated_at": "2025-08-12T08:26:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

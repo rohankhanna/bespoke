@@ -2758,6 +2758,30 @@
       "source_repo": "OutlineFoundation/outline-apps",
       "status": "candidate-context",
       "text": "[![Reddit](https://badgen.net/badge/Reddit/r%2Foutlinevpn/orange)](https://www.reddit.com/r/outlinevpn/) [![Mattermost](https://badgen.net/badge/Mattermost/Outline%20Community/blue)](https://community.internetfreedomfestival.org/community/channels/outline-community) [![Code Styl\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alex313031/thorium",
+      "status": "candidate-context",
+      "text": "Chromium fork named after radioactive element No. 90. Source code and Linux releases. Windows/MacOS/ARM builds served in different repos, links are towards the top of the README.md."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/thorium",
+      "status": "candidate-context",
+      "text": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium?label=Version%3A)](https://github.com/Alex313031/thorium/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "srgtuszy/llama-cpp-swift",
+      "status": "candidate-context",
+      "text": "Swift bindings for llama-cpp library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "srgtuszy/llama-cpp-swift",
+      "status": "candidate-context",
+      "text": "Build Library"
     }
   ],
   "candidate_glosses": [
@@ -4152,6 +4176,18 @@
       "source_repo": "OutlineFoundation/outline-apps",
       "status": "candidate",
       "text": "[![Reddit](https://badgen.net/badge/Reddit/r%2Foutlinevpn/orange)](https://www.reddit.com/r/outlinevpn/) [![Mattermost](https://badgen.net/badge/Mattermost/Outline%20Community/blue)](https://community.internetfreedomfestival.org/community/channels/outline-community) [![Code Styl\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/thorium",
+      "status": "candidate",
+      "text": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium?label=Version%3A)](https://github.com/Alex313031/thorium/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "srgtuszy/llama-cpp-swift",
+      "status": "candidate",
+      "text": "Build Library"
     }
   ],
   "candidate_related_terms": [
@@ -6625,11 +6661,47 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "Biscuit-Theme/biscuit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "OutlineFoundation/outline-apps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "srgtuszy/llama-cpp-swift"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

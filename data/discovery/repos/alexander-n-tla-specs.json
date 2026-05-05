@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alexander-N/tla-specs",
+      "target": "aio-libs/aiorwlock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alexander-N/tla-specs",
+      "target": "tlaplus",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T00:42:20.382344+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1440
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Alexander-N/tla-specs",
+    "html_url": "https://github.com/Alexander-N/tla-specs",
+    "language": "TLA",
+    "pushed_at": "2021-11-07T11:59:27Z",
+    "stargazers_count": 6,
+    "topics": [
+      "tla",
+      "tlaplus"
+    ],
+    "updated_at": "2026-04-29T09:33:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aio-libs/aiorwlock",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Exploring applications of [TLA+](https://en.wikipedia.org/wiki/TLA%2B).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tlaplus"
+    }
+  ]
+}

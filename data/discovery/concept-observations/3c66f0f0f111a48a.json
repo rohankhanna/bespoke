@@ -48,7 +48,7 @@
   "normalized_form": "range-expansion",
   "observation_id": "3c66f0f0f111a48a",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T00:36:37.683079+00:00",
   "observed_text": "range-expansion",
   "source_context_snippet": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.",
   "source_file": null,

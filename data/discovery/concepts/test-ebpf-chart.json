@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test eBPF Chart"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-helm-charts",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Helm Charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-helm-charts",
+      "status": "candidate-context",
+      "text": "Test eBPF Chart"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-helm-charts",
+      "status": "candidate",
+      "text": "Test eBPF Chart"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28191,
+      "status": "candidate",
+      "text": "ekg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28141,
+      "status": "candidate",
+      "text": "snellen test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28129,
+      "status": "candidate",
+      "text": "eye chart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11791,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11791,
+      "status": "candidate",
+      "text": "keying"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test eBPF Chart",
+  "concept_id": "test-ebpf-chart",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/ebpf-test.yaml",
+      "source_repo": "open-telemetry/opentelemetry-helm-charts"
+    }
+  ],
+  "first_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test eBPF Chart",
+      "sense_id": "test-ebpf-chart#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -91,6 +91,18 @@
       "source_repo": "chromedp/chromedp",
       "status": "candidate-context",
       "text": "Package `chromedp` is a faster, simpler way to drive browsers supporting the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alex313031/thorium",
+      "status": "candidate-context",
+      "text": "Chromium fork named after radioactive element No. 90. Source code and Linux releases. Windows/MacOS/ARM builds served in different repos, links are towards the top of the README.md."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/thorium",
+      "status": "candidate-context",
+      "text": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium?label=Version%3A)](https://github.com/Alex313031/thorium/releases)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "chromedp/chromedp",
       "status": "candidate",
       "text": "Package `chromedp` is a faster, simpler way to drive browsers supporting the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/thorium",
+      "status": "candidate",
+      "text": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium?label=Version%3A)](https://github.com/Alex313031/thorium/releases)"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "chromedp/chromedp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -406,6 +406,18 @@
       "source_repo": "JuliaSparse/SparseArrays.jl",
       "status": "candidate-context",
       "text": "Backport"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulse-browser/browser",
+      "status": "candidate-context",
+      "text": "Pulse Browser: An experimental firefox fork"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulse-browser/browser",
+      "status": "candidate-context",
+      "text": "Backport"
     }
   ],
   "candidate_glosses": [
@@ -604,6 +616,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaSparse/SparseArrays.jl",
+      "status": "candidate",
+      "text": "Backport"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulse-browser/browser",
       "status": "candidate",
       "text": "Backport"
     }
@@ -865,11 +883,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/backport.yml",
       "source_repo": "JuliaSparse/SparseArrays.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/alpha_backport.yml",
+      "source_repo": "pulse-browser/browser"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

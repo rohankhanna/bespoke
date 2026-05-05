@@ -585,7 +585,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T13:06:28.228213+00:00",
+  "fetched_at": "2026-05-05T00:42:39.591268+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -622,13 +622,13 @@
     "html_url": "https://github.com/ConsenSys-archive/ganache",
     "language": "TypeScript",
     "pushed_at": "2024-01-29T22:09:03Z",
-    "stargazers_count": 2634,
+    "stargazers_count": 2633,
     "topics": [
       "blockchain",
       "ethereum",
       "ganache"
     ],
-    "updated_at": "2026-04-20T15:17:42Z"
+    "updated_at": "2026-05-04T15:15:57Z"
   },
   "repo_links": [
     {

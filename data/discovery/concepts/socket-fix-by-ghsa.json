@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Socket Fix by GHSA"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brave/brave-core",
+      "status": "candidate-context",
+      "text": "Core engine for the Brave browser for mobile and desktop. For issues https://github.com/brave/brave-browser/issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brave/brave-core",
+      "status": "candidate-context",
+      "text": "Socket Fix by GHSA"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brave/brave-core",
+      "status": "candidate",
+      "text": "Socket Fix by GHSA"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28290,
+      "status": "candidate",
+      "text": "house"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11890,
+      "status": "candidate",
+      "text": "brace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11890,
+      "status": "candidate",
+      "text": "braces"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11890,
+      "status": "candidate",
+      "text": "eye"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11890,
+      "status": "candidate",
+      "text": "eyes"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Socket Fix by GHSA",
+  "concept_id": "socket-fix-by-ghsa",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/socket-fix.yml",
+      "source_repo": "brave/brave-core"
+    }
+  ],
+  "first_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Socket Fix by GHSA",
+      "sense_id": "socket-fix-by-ghsa#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

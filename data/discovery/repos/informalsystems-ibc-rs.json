@@ -211,7 +211,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "informalsystems/ibc-rs",
-      "target": "informalsystems/sovereign-ibc",
+      "target": "octopus-network/substrate-ibc",
       "target_type": "repository"
     },
     {
@@ -230,9 +230,9 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Cargo.toml",
       "source_repo": "informalsystems/ibc-rs",
-      "target": "informalsystems/cosmwasm-ibc",
+      "target": "cosmos/ibc-rs",
       "target_type": "repository"
     },
     {
@@ -481,7 +481,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T13:05:11.784125+00:00",
+  "fetched_at": "2026-05-05T00:41:21.053467+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -548,18 +548,18 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "informalsystems/cosmwasm-ibc",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "informalsystems/sovereign-ibc",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "octopus-network/near-ibc",
       "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "octopus-network/substrate-ibc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cosmos/ibc-rs",
+      "source_file": "Cargo.toml"
     }
   ],
   "terms": [

@@ -1,0 +1,417 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boulder-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boulder-ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boulder-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boulder-ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boulder-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-iana-registries.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cps-review.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cps-review.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cps-review.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cps-review.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-for-sre-handoff.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merged-to-main-or-release-branch.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/try-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "letsencrypt/boulder",
+      "target": "ietf-wg-acme/acme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boulder-ci.yml",
+      "source_repo": "letsencrypt/boulder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boulder-ci.yml",
+      "source_repo": "letsencrypt/boulder",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/boulder-ci.yml",
+      "source_repo": "letsencrypt/boulder",
+      "target": "Boulder CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-iana-registries.yml",
+      "source_repo": "letsencrypt/boulder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "letsencrypt/boulder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "letsencrypt/boulder",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "letsencrypt/boulder",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "letsencrypt/boulder",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "letsencrypt/boulder",
+      "target": "Code Scanning - Action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cps-review.yml",
+      "source_repo": "letsencrypt/boulder",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cps-review.yml",
+      "source_repo": "letsencrypt/boulder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cps-review.yml",
+      "source_repo": "letsencrypt/boulder",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-for-sre-handoff.yml",
+      "source_repo": "letsencrypt/boulder",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merged-to-main-or-release-branch.yml",
+      "source_repo": "letsencrypt/boulder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merged-to-main-or-release-branch.yml",
+      "source_repo": "letsencrypt/boulder",
+      "target": "Merged to main (or hotfix)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "letsencrypt/boulder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "letsencrypt/boulder",
+      "target": "Build release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/try-release.yml",
+      "source_repo": "letsencrypt/boulder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/try-release.yml",
+      "source_repo": "letsencrypt/boulder",
+      "target": "Try release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "letsencrypt/boulder",
+      "target": "acme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "letsencrypt/boulder",
+      "target": "boulder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "letsencrypt/boulder",
+      "target": "certificate-authority",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "letsencrypt/boulder",
+      "target": "lets-encrypt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "letsencrypt/boulder",
+      "target": "rfc8555",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T00:47:12.451931+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11473
+    },
+    {
+      "path": "go.mod",
+      "size": 4626
+    },
+    {
+      "path": ".github/workflows/boulder-ci.yml",
+      "size": 5932
+    },
+    {
+      "path": ".github/workflows/check-iana-registries.yml",
+      "size": 1860
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 704
+    },
+    {
+      "path": ".github/workflows/cps-review.yml",
+      "size": 2771
+    },
+    {
+      "path": ".github/workflows/issue-for-sre-handoff.yml",
+      "size": 1884
+    },
+    {
+      "path": ".github/workflows/merged-to-main-or-release-branch.yml",
+      "size": 534
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3288
+    },
+    {
+      "path": ".github/workflows/try-release.yml",
+      "size": 1565
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An ACME-based certificate authority, written in Go. ",
+    "fork": false,
+    "full_name": "letsencrypt/boulder",
+    "html_url": "https://github.com/letsencrypt/boulder",
+    "language": "Go",
+    "pushed_at": "2026-05-05T00:00:42Z",
+    "stargazers_count": 5701,
+    "topics": [
+      "acme",
+      "boulder",
+      "ca",
+      "certificate-authority",
+      "go",
+      "lets-encrypt",
+      "pki",
+      "rfc8555",
+      "tls"
+    ],
+    "updated_at": "2026-05-05T00:00:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ietf-wg-acme/acme",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Boulder CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/boulder-ci.yml",
+      "term": "Boulder CI"
+    },
+    {
+      "context_snippet": "\"Code Scanning - Action\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "Code Scanning - Action"
+    },
+    {
+      "context_snippet": "Merged to main (or hotfix)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merged-to-main-or-release-branch.yml",
+      "term": "Merged to main (or hotfix)"
+    },
+    {
+      "context_snippet": "Build release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Build release"
+    },
+    {
+      "context_snippet": "Try release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/try-release.yml",
+      "term": "Try release"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/letsencrypt/boulder/actions/workflows/boulder-ci.yml/badge.svg?branch=main)](https://github.com/letsencrypt/boulder/actions/workflows/boulder-ci.yml?query=branch%3Amain)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "acme"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/letsencrypt/boulder/actions/workflows/boulder-ci.yml/badge.svg?branch=main)](https://github.com/letsencrypt/boulder/actions/workflows/boulder-ci.yml?query=branch%3Amain)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "boulder"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/letsencrypt/boulder/actions/workflows/boulder-ci.yml/badge.svg?branch=main)](https://github.com/letsencrypt/boulder/actions/workflows/boulder-ci.yml?query=branch%3Amain)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "certificate-authority"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/letsencrypt/boulder/actions/workflows/boulder-ci.yml/badge.svg?branch=main)](https://github.com/letsencrypt/boulder/actions/workflows/boulder-ci.yml?query=branch%3Amain)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lets-encrypt"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/letsencrypt/boulder/actions/workflows/boulder-ci.yml/badge.svg?branch=main)](https://github.com/letsencrypt/boulder/actions/workflows/boulder-ci.yml?query=branch%3Amain)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc8555"
+    }
+  ]
+}

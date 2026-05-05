@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Assign author"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brave/brave-core",
+      "status": "candidate-context",
+      "text": "Core engine for the Brave browser for mobile and desktop. For issues https://github.com/brave/brave-browser/issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brave/brave-core",
+      "status": "candidate-context",
+      "text": "Assign author"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brave/brave-core",
+      "status": "candidate",
+      "text": "Assign author"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11832,
+      "status": "candidate",
+      "text": "ascribe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11832,
+      "status": "candidate",
+      "text": "cause"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11832,
+      "status": "candidate",
+      "text": "father"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11832,
+      "status": "candidate",
+      "text": "impute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11832,
+      "status": "candidate",
+      "text": "imputed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Assign author",
+  "concept_id": "assign-author",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/assign-author.yml",
+      "source_repo": "brave/brave-core"
+    }
+  ],
+  "first_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Assign author",
+      "sense_id": "assign-author#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

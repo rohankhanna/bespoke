@@ -1531,6 +1531,18 @@
       "source_repo": "ptsochantaris/trailer-json",
       "status": "candidate-context",
       "text": "<img src=\"https://ptsochantaris.github.io/trailer/TrailerJsonLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typicode/json-server",
+      "status": "candidate-context",
+      "text": "Get a full fake REST API with zero coding in less than 30 seconds (seriously)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typicode/json-server",
+      "status": "candidate-context",
+      "text": "[![Node.js CI](https://github.com/typicode/json-server/actions/workflows/node.js.yml/badge.svg)](https://github.com/typicode/json-server/actions/workflows/node.js.yml)"
     }
   ],
   "candidate_glosses": [
@@ -2295,6 +2307,12 @@
       "source_repo": "ptsochantaris/trailer-json",
       "status": "candidate",
       "text": "<img src=\"https://ptsochantaris.github.io/trailer/TrailerJsonLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typicode/json-server",
+      "status": "candidate",
+      "text": "[![Node.js CI](https://github.com/typicode/json-server/actions/workflows/node.js.yml/badge.svg)](https://github.com/typicode/json-server/actions/workflows/node.js.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -3579,11 +3597,29 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "typicode/json-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "rust-cli/config-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

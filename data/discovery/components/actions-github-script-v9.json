@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v9",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -647,6 +647,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/post.yml",
       "source_repo": "ansible/vscode-ansible"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cps-review.yml",
+      "source_repo": "letsencrypt/boulder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-for-sre-handoff.yml",
+      "source_repo": "letsencrypt/boulder"
     }
   ]
 }

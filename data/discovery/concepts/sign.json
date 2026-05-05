@@ -1,7 +1,8 @@
 {
   "aliases": [
     "sign",
-    "Sign"
+    "Sign",
+    "\u270d Sign"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -46,6 +47,18 @@
       "source_repo": "v2fly/v2ray-core",
       "status": "candidate-context",
       "text": "Sign"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BrowserWorks/waterfox",
+      "status": "candidate-context",
+      "text": "The official Waterfox \ud83d\udca7 source code repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrowserWorks/waterfox",
+      "status": "candidate-context",
+      "text": "\u270d Sign"
     }
   ],
   "candidate_glosses": [
@@ -66,6 +79,12 @@
       "source_repo": "v2fly/v2ray-core",
       "status": "candidate",
       "text": "Sign"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrowserWorks/waterfox",
+      "status": "candidate",
+      "text": "\u270d Sign"
     }
   ],
   "candidate_related_terms": [
@@ -103,6 +122,41 @@
       "score": 39994877,
       "status": "candidate",
       "text": "gestural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "accept"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "accepting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "ampersand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "approved"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "augury"
     }
   ],
   "candidate_synonyms": [
@@ -163,11 +217,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/sign.yml",
       "source_repo": "v2fly/v2ray-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/sign.yml",
+      "source_repo": "BrowserWorks/waterfox"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

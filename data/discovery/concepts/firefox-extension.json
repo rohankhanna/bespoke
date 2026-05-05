@@ -115,6 +115,18 @@
       "source_repo": "stsquad/emacs_chrome",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/stsquad/emacs_chrome/actions/workflows/test.yml/badge.svg)](https://github.com/stsquad/emacs_chrome/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "numirias/paxmod",
+      "status": "candidate-context",
+      "text": "\ud83d\udd4a\ufe0f Firefox add-on for multi-row tabs and site-dependent tab colors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numirias/paxmod",
+      "status": "candidate-context",
+      "text": "Paxmod is a Firefox add-on for **multiple tab rows** and **dynamic, site-dependent tab colors**."
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "stsquad/emacs_chrome",
       "status": "candidate",
       "text": "[![CI](https://github.com/stsquad/emacs_chrome/actions/workflows/test.yml/badge.svg)](https://github.com/stsquad/emacs_chrome/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numirias/paxmod",
+      "status": "candidate",
+      "text": "Paxmod is a Firefox add-on for **multiple tab rows** and **dynamic, site-dependent tab colors**."
     }
   ],
   "candidate_related_terms": [],
@@ -316,11 +334,17 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "stsquad/emacs_chrome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "numirias/paxmod"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

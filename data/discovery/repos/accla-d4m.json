@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Accla/d4m",
+      "target": "accumulo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Accla/d4m",
+      "target": "matlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Accla/d4m",
+      "target": "octave",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Accla/d4m",
+      "target": "postgresql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Accla/d4m",
+      "target": "scidb",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T00:46:51.761338+00:00",
+  "fetched_files": [
+    {
+      "path": "README.txt",
+      "size": 8296
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Dynamic Distributed Dimensional Data Model",
+    "fork": false,
+    "full_name": "Accla/d4m",
+    "html_url": "https://github.com/Accla/d4m",
+    "language": "MATLAB",
+    "pushed_at": "2026-04-30T12:35:25Z",
+    "stargazers_count": 44,
+    "topics": [
+      "accumulo",
+      "matlab",
+      "octave",
+      "postgresql",
+      "scidb"
+    ],
+    "updated_at": "2026-04-29T17:58:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "NOTE: This is the Accumulo 1.6.0+ version.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "accumulo"
+    },
+    {
+      "context_snippet": "NOTE: This is the Accumulo 1.6.0+ version.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matlab"
+    },
+    {
+      "context_snippet": "NOTE: This is the Accumulo 1.6.0+ version.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "octave"
+    },
+    {
+      "context_snippet": "NOTE: This is the Accumulo 1.6.0+ version.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql"
+    },
+    {
+      "context_snippet": "NOTE: This is the Accumulo 1.6.0+ version.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scidb"
+    }
+  ]
+}

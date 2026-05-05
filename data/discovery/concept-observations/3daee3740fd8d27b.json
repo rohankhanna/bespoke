@@ -1,0 +1,52 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Exploring applications of [TLA+](https://en.wikipedia.org/wiki/TLA%2B)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Exploring applications of [TLA+](https://en.wikipedia.org/wiki/TLA%2B)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tlaplus",
+      "sense_id": "tlaplus#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tlaplus",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tlaplus",
+  "observation_id": "3daee3740fd8d27b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T00:36:37.683079+00:00",
+  "observed_text": "tlaplus",
+  "source_context_snippet": "Exploring applications of [TLA+](https://en.wikipedia.org/wiki/TLA%2B).",
+  "source_file": null,
+  "source_repo": "Alexander-N/tla-specs",
+  "source_repo_description": null
+}

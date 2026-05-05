@@ -55,6 +55,30 @@
       "source_repo": "Floorp-Projects/Floorp",
       "status": "candidate-context",
       "text": "A browser built for keeping the Open, Private and Sustainable Web alive. Based on Mozilla Firefox."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BrowserWorks/waterfox",
+      "status": "candidate-context",
+      "text": "The official Waterfox \ud83d\udca7 source code repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrowserWorks/waterfox",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">A privacy-focused, performance-oriented browser based on Firefox.</p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulse-browser/browser",
+      "status": "candidate-context",
+      "text": "Pulse Browser: An experimental firefox fork"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulse-browser/browser",
+      "status": "candidate-context",
+      "text": "This project will never make it past alpha, nor will it receive any bug fixes or new features that do not directly affect me (@trickypr). I am putting my energy towards [a project using a different approach](https://github.com/pulse-browser/experiment). For a rough guide to my r\u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "Floorp-Projects/Floorp",
       "status": "candidate",
       "text": "A browser built for keeping the Open, Private and Sustainable Web alive. Based on Mozilla Firefox."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrowserWorks/waterfox",
+      "status": "candidate",
+      "text": "<p align=\"center\">A privacy-focused, performance-oriented browser based on Firefox.</p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulse-browser/browser",
+      "status": "candidate",
+      "text": "This project will never make it past alpha, nor will it receive any bug fixes or new features that do not directly affect me (@trickypr). I am putting my energy towards [a project using a different approach](https://github.com/pulse-browser/experiment). For a rough guide to my r\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -226,11 +262,23 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "BrowserWorks/waterfox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "pulse-browser/browser"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

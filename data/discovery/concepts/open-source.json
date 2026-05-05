@@ -1225,6 +1225,54 @@
       "source_repo": "AdguardTeam/Scriptlets",
       "status": "candidate-context",
       "text": "AdGuard's Scriptlets and Redirect resources library which provides extended capabilities for content blocking."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/FiltersCompiler",
+      "status": "candidate-context",
+      "text": "A tool that compiles & validates filters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/FiltersCompiler",
+      "status": "candidate-context",
+      "text": "Filters compiler package is a tool for compiling ad blocking filters into a supported format."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/AdguardForiOS",
+      "status": "candidate-context",
+      "text": "The most advanced ad blocker for iOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/AdguardForiOS",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/AdGuardMiniForMac",
+      "status": "candidate-context",
+      "text": "AdGuard Mini for macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/AdGuardMiniForMac",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/SafariConverterLib",
+      "status": "candidate-context",
+      "text": "Swift library that converts AdGuard rules to Safari content blocking rules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/SafariConverterLib",
+      "status": "candidate-context",
+      "text": "This is a library that provides a compatibility layer between"
     }
   ],
   "candidate_glosses": [
@@ -1821,6 +1869,30 @@
       "source_repo": "AdguardTeam/Scriptlets",
       "status": "candidate",
       "text": "AdGuard's Scriptlets and Redirect resources library which provides extended capabilities for content blocking."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/FiltersCompiler",
+      "status": "candidate",
+      "text": "Filters compiler package is a tool for compiling ad blocking filters into a supported format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/AdguardForiOS",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/AdGuardMiniForMac",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/SafariConverterLib",
+      "status": "candidate",
+      "text": "This is a library that provides a compatibility layer between"
     }
   ],
   "candidate_related_terms": [
@@ -3262,11 +3334,47 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "code-forge-io/open-source-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "AdguardTeam/FiltersCompiler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdguardForiOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdGuardMiniForMac"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "AdguardTeam/SafariConverterLib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

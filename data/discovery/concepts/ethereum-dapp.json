@@ -19,6 +19,18 @@
       "source_repo": "wamp-proto/wamp-xbr",
       "status": "candidate-context",
       "text": "[![PyPI](https://img.shields.io/pypi/v/xbr.svg)](https://pypi.python.org/pypi/xbr)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cleanunicorn/ethereum-smartcontract-template",
+      "status": "candidate-context",
+      "text": "Ethereum Smart Contract starting template"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleanunicorn/ethereum-smartcontract-template",
+      "status": "candidate-context",
+      "text": "This development quick start template is heavily inspired by [Georgios's template](https://github.com/gakonst/dapptools-template). Over time it was migrated to use [foundry](https://github.com/gakonst/foundry) since dapptools was deprecated."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "wamp-proto/wamp-xbr",
       "status": "candidate",
       "text": "[![PyPI](https://img.shields.io/pypi/v/xbr.svg)](https://pypi.python.org/pypi/xbr)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleanunicorn/ethereum-smartcontract-template",
+      "status": "candidate",
+      "text": "This development quick start template is heavily inspired by [Georgios's template](https://github.com/gakonst/dapptools-template). Over time it was migrated to use [foundry](https://github.com/gakonst/foundry) since dapptools was deprecated."
     }
   ],
   "candidate_related_terms": [],
@@ -100,11 +118,23 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "wamp-proto/wamp-xbr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "cleanunicorn/ethereum-smartcontract-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "wamp-proto/wamp-xbr"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

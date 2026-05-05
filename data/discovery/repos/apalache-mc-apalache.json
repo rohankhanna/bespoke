@@ -226,28 +226,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apalache-mc/apalache",
-      "target": "z3prover/z3",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "apalache-mc/apalache",
-      "target": "tlaplus/examples",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "apalache-mc/apalache",
       "target": "informalsystems/tendermint-rs",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "apalache-mc/apalache",
-      "target": "konnov/apalache-examples",
       "target_type": "repository"
     },
     {
@@ -517,7 +496,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T13:05:57.169603+00:00",
+  "fetched_at": "2026-05-05T00:42:14.479729+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -578,21 +557,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "informalsystems/tendermint-rs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "konnov/apalache-examples",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tlaplus/examples",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "z3prover/z3",
       "source_file": "README.md"
     }
   ],

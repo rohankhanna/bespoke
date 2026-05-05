@@ -67,6 +67,18 @@
       "source_repo": "crazy-max/xgo",
       "status": "candidate-context",
       "text": "[![GitHub release](https://img.shields.io/github/release/crazy-max/xgo.svg?style=flat-square)](https://github.com/crazy-max/xgo/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazy-max/goxx",
+      "status": "candidate-context",
+      "text": "Go CGO cross-compiler Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/goxx",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/crazy-max/goxx.svg?style=flat-square)](https://github.com/crazy-max/goxx/releases/latest)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "crazy-max/xgo",
       "status": "candidate",
       "text": "[![GitHub release](https://img.shields.io/github/release/crazy-max/xgo.svg?style=flat-square)](https://github.com/crazy-max/xgo/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/goxx",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/crazy-max/goxx.svg?style=flat-square)](https://github.com/crazy-max/goxx/releases/latest)"
     }
   ],
   "candidate_related_terms": [
@@ -256,11 +274,17 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "hiszpanski/osx-arm-linux-toolchains"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "crazy-max/goxx"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

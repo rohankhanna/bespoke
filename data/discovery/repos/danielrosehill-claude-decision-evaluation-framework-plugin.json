@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T00:48:42.229513+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4299
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Apply 20+ classical decision-making frameworks to any major decision \u2014 parallel multi-lens analysis, cross-framework synthesis, and Typst PDF export.",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Decision-Evaluation-Framework-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Decision-Evaluation-Framework-Plugin",
+    "language": "Typst",
+    "pushed_at": "2026-04-28T11:51:10Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-28T11:51:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

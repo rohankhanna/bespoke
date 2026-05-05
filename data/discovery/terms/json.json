@@ -1,16 +1,11 @@
 {
-  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "first_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "DandelionSprout/adfilt"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "debajyotibasak/MyTimes"
+      "source_repo": "typicode/json-server"
     },
     {
       "discovered_via": "repo-topic",
@@ -21,36 +16,6 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "fastapi/full-stack-fastapi-template"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "dwyl/quotes"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "ptsochantaris/trailer-json"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "fastapi/fastapi"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "ultrajson/ultrajson"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "flightcontrolhq/superjson"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "unum-cloud/UStore"
     }
   ],
   "term": "json"

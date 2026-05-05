@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Academic Citation & Research Trend Tracker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Z3Prover/z3",
+      "status": "candidate-context",
+      "text": "The Z3 Theorem Prover"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Z3Prover/z3",
+      "status": "candidate-context",
+      "text": "\"Academic Citation & Research Trend Tracker\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Z3Prover/z3",
+      "status": "candidate",
+      "text": "\"Academic Citation & Research Trend Tracker\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42503,
+      "status": "candidate",
+      "text": "scholarship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39662,
+      "status": "candidate",
+      "text": "innovation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39662,
+      "status": "candidate",
+      "text": "load"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39662,
+      "status": "candidate",
+      "text": "notice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39662,
+      "status": "candidate",
+      "text": "upgrade"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Academic Citation & Research Trend Tracker",
+  "concept_id": "academic-citation-research-trend-tracker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/academic-citation-tracker.lock.yml",
+      "source_repo": "Z3Prover/z3"
+    }
+  ],
+  "first_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Academic Citation & Research Trend Tracker",
+      "sense_id": "academic-citation-research-trend-tracker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

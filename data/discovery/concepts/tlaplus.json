@@ -91,6 +91,36 @@
       "source_repo": "tlaplus/CommunityModules",
       "status": "candidate-context",
       "text": "Community Repository"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "konnov/apalache-examples",
+      "status": "candidate-context",
+      "text": "Examples of efficiently using Apalache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "konnov/apalache-examples",
+      "status": "candidate-context",
+      "text": "Examples of efficiently using Apalache for model checking TLA<sup>+</sup> and"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alexander-N/tla-specs",
+      "status": "candidate-context",
+      "text": "Exploring applications of [TLA+](https://en.wikipedia.org/wiki/TLA%2B)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "will62794/tlaplus_animation",
+      "status": "candidate-context",
+      "text": "A TLA+ module for animating TLC traces."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "will62794/tlaplus_animation",
+      "status": "candidate-context",
+      "text": "This is a TLA+ module for creating visualizations of TLC execution traces that can be run inside a web browser. To create an animation, you can start with an existing TLA+ specification and define a \"view\" expression, which is a TLA+ state expression that produces a set of graph\u2026"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +165,24 @@
       "source_repo": "tlaplus/CommunityModules",
       "status": "candidate",
       "text": "Community Repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "konnov/apalache-examples",
+      "status": "candidate",
+      "text": "Examples of efficiently using Apalache for model checking TLA<sup>+</sup> and"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alexander-N/tla-specs",
+      "status": "candidate",
+      "text": "Exploring applications of [TLA+](https://en.wikipedia.org/wiki/TLA%2B)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "will62794/tlaplus_animation",
+      "status": "candidate",
+      "text": "This is a TLA+ module for creating visualizations of TLC execution traces that can be run inside a web browser. To create an animation, you can start with an existing TLA+ specification and define a \"view\" expression, which is a TLA+ state expression that produces a set of graph\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -196,11 +244,41 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "tlaplus/CommunityModules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "konnov/apalache-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "apalache-mc/apalache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "apalache-mc/apalache-tests"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "Alexander-N/tla-specs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "will62794/tlaplus_animation"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

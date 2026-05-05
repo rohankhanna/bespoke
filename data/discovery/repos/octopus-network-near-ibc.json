@@ -1,0 +1,112 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "octopus-network/near-ibc",
+      "target": "cosmos/ibc-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "octopus-network/near-ibc",
+      "target": "near/near-sdk-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "octopus-network/near-ibc",
+      "target": "octopus-network/ibc-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "octopus-network/near-ibc",
+      "target": "octopus-network/ibc-proto-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "octopus-network/near-ibc",
+      "target": "near",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "octopus-network/near-ibc",
+      "target": "smart-contracts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T00:41:24.903705+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10544
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1247
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "near smart contract implement ibc protocol",
+    "fork": false,
+    "full_name": "octopus-network/near-ibc",
+    "html_url": "https://github.com/octopus-network/near-ibc",
+    "language": "Rust",
+    "pushed_at": "2024-07-25T12:15:37Z",
+    "stargazers_count": 14,
+    "topics": [
+      "ibc",
+      "near",
+      "smart-contracts"
+    ],
+    "updated_at": "2024-08-01T14:26:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cosmos/ibc-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "near/near-sdk-rs",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "octopus-network/ibc-proto-rs",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "octopus-network/ibc-rs",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is an implementation of the IBC protocol (IBC/TAO) in the NEAR protocol, which includes additional applications such as ICS-20, written by Octopus Network.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "near"
+    },
+    {
+      "context_snippet": "This is an implementation of the IBC protocol (IBC/TAO) in the NEAR protocol, which includes additional applications such as ICS-20, written by Octopus Network.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smart-contracts"
+    }
+  ]
+}

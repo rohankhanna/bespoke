@@ -523,6 +523,18 @@
       "source_repo": "redisson/redisson",
       "status": "candidate-context",
       "text": "[Quick start](https://redisson.org/docs/getting-started/) | [Documentation](https://redisson.org/docs/) | [Changelog](https://github.com/redisson/redisson/blob/master/CHANGELOG.md) | [Code examples](https://github.com/redisson/redisson-examples) | [JavaDocs](https://www.javadoc.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elem-azar-unis/CRDT-Redis",
+      "status": "candidate-context",
+      "text": "CRDTs implemented in Redis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elem-azar-unis/CRDT-Redis",
+      "status": "candidate-context",
+      "text": "Several Conflict-Free Replicated Data Types (CRDTs) implemented based on Redis(6.0.5)."
     }
   ],
   "candidate_glosses": [
@@ -783,6 +795,12 @@
       "source_repo": "redisson/redisson",
       "status": "candidate",
       "text": "[Quick start](https://redisson.org/docs/getting-started/) | [Documentation](https://redisson.org/docs/) | [Changelog](https://github.com/redisson/redisson/blob/master/CHANGELOG.md) | [Code examples](https://github.com/redisson/redisson-examples) | [JavaDocs](https://www.javadoc.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elem-azar-unis/CRDT-Redis",
+      "status": "candidate",
+      "text": "Several Conflict-Free Replicated Data Types (CRDTs) implemented based on Redis(6.0.5)."
     }
   ],
   "candidate_related_terms": [
@@ -1708,11 +1726,53 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "elem-azar-unis/CRDT-Redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-spring"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

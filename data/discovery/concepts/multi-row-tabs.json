@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "multi-row-tabs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "numirias/paxmod",
+      "status": "candidate-context",
+      "text": "\ud83d\udd4a\ufe0f Firefox add-on for multi-row tabs and site-dependent tab colors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numirias/paxmod",
+      "status": "candidate-context",
+      "text": "Paxmod is a Firefox add-on for **multiple tab rows** and **dynamic, site-dependent tab colors**."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numirias/paxmod",
+      "status": "candidate",
+      "text": "Paxmod is a Firefox add-on for **multiple tab rows** and **dynamic, site-dependent tab colors**."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "multi-row-tabs",
+  "concept_id": "multi-row-tabs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "numirias/paxmod"
+    }
+  ],
+  "first_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multi-row-tabs",
+      "sense_id": "multi-row-tabs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

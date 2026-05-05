@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Opentelemetry Kube Stack Charts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-helm-charts",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Helm Charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-helm-charts",
+      "status": "candidate-context",
+      "text": "Test Opentelemetry Kube Stack Charts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-helm-charts",
+      "status": "candidate",
+      "text": "Test Opentelemetry Kube Stack Charts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18992,
+      "status": "candidate",
+      "text": "float"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18992,
+      "status": "candidate",
+      "text": "lead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18918,
+      "status": "candidate",
+      "text": "cards"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18868,
+      "status": "candidate",
+      "text": "abeyance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18868,
+      "status": "candidate",
+      "text": "baseline"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Opentelemetry Kube Stack Charts",
+  "concept_id": "test-opentelemetry-kube-stack-charts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/kube-stack-test.yaml",
+      "source_repo": "open-telemetry/opentelemetry-helm-charts"
+    }
+  ],
+  "first_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Opentelemetry Kube Stack Charts",
+      "sense_id": "test-opentelemetry-kube-stack-charts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

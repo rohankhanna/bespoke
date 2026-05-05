@@ -4,7 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "informalsystems/ibc-rs",
-      "target": "informalsystems/sovereign-ibc",
+      "target": "octopus-network/substrate-ibc",
       "target_type": "repository"
     },
     {
@@ -23,9 +23,9 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Cargo.toml",
       "source_repo": "informalsystems/ibc-rs",
-      "target": "informalsystems/cosmwasm-ibc",
+      "target": "cosmos/ibc-rs",
       "target_type": "repository"
     },
     {
@@ -274,6 +274,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-04T12:47:39.186442+00:00",
+  "generated_at": "2026-05-05T00:36:37.683079+00:00",
   "source_repo": "informalsystems/ibc-rs"
 }

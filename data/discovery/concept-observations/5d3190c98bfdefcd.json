@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The builds for noraneko"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Daily Build (bsys6)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Daily Build (bsys6)"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11641,
+      "status": "candidate",
+      "text": "food"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10606,
+      "status": "candidate",
+      "text": "bed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10606,
+      "status": "candidate",
+      "text": "bread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10606,
+      "status": "candidate",
+      "text": "breviary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10606,
+      "status": "candidate",
+      "text": "call"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Daily Build (bsys6)",
+      "sense_id": "daily-build-bsys6#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "daily-build-bsys6",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "daily-build-bsys6",
+  "observation_id": "5d3190c98bfdefcd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T00:36:37.683079+00:00",
+  "observed_text": "Daily Build (bsys6)",
+  "source_context_snippet": "Daily Build (bsys6)",
+  "source_file": ".github/workflows/bsys6-daily-build.yml",
+  "source_repo": "f3liz-casa/noraneko-runtime",
+  "source_repo_description": "The builds for noraneko"
+}

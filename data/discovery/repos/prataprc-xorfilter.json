@@ -1,0 +1,277 @@
+{
+  "components": [
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1.0.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml"
+    },
+    {
+      "component": "actions-rs/clippy-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "prataprc/xorfilter",
+      "target": "bnclabs/xorfilter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "prataprc/xorfilter",
+      "target": "fastfilter/xorfilter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "prataprc/xorfilter",
+      "target": "bnclabs/xorfilter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml",
+      "source_repo": "prataprc/xorfilter",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml",
+      "source_repo": "prataprc/xorfilter",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml",
+      "source_repo": "prataprc/xorfilter",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml",
+      "source_repo": "prataprc/xorfilter",
+      "target": "actions-rs/toolchain@v1.0.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml",
+      "source_repo": "prataprc/xorfilter",
+      "target": "actions-rs/clippy-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/simple-build-test.yml",
+      "source_repo": "prataprc/xorfilter",
+      "target": "unittest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prataprc/xorfilter",
+      "target": "bitmap-index",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prataprc/xorfilter",
+      "target": "bloom-filter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prataprc/xorfilter",
+      "target": "fuse-filter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prataprc/xorfilter",
+      "target": "probablistic-data-structures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prataprc/xorfilter",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prataprc/xorfilter",
+      "target": "rust-lang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prataprc/xorfilter",
+      "target": "xor-filter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T00:52:26.390286+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3222
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1316
+    },
+    {
+      "path": ".github/workflows/simple-build-test.yml",
+      "size": 2117
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust library implementing xor-filters",
+    "fork": false,
+    "full_name": "prataprc/xorfilter",
+    "html_url": "https://github.com/prataprc/xorfilter",
+    "language": "Rust",
+    "pushed_at": "2023-06-06T09:21:16Z",
+    "stargazers_count": 146,
+    "topics": [
+      "bitmap-index",
+      "bloom-filter",
+      "fuse-filter",
+      "probablistic-data-structures",
+      "rust",
+      "rust-lang",
+      "xor-filter"
+    ],
+    "updated_at": "2026-02-19T05:04:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bnclabs/xorfilter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fastfilter/xorfilter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bnclabs/xorfilter",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "unittest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/simple-build-test.yml",
+      "term": "unittest"
+    },
+    {
+      "context_snippet": "[![Rustdoc](https://img.shields.io/badge/rustdoc-hosted-blue.svg)](https://docs.rs/xorfilter-rs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitmap-index"
+    },
+    {
+      "context_snippet": "[![Rustdoc](https://img.shields.io/badge/rustdoc-hosted-blue.svg)](https://docs.rs/xorfilter-rs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bloom-filter"
+    },
+    {
+      "context_snippet": "[![Rustdoc](https://img.shields.io/badge/rustdoc-hosted-blue.svg)](https://docs.rs/xorfilter-rs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuse-filter"
+    },
+    {
+      "context_snippet": "[![Rustdoc](https://img.shields.io/badge/rustdoc-hosted-blue.svg)](https://docs.rs/xorfilter-rs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "probablistic-data-structures"
+    },
+    {
+      "context_snippet": "[![Rustdoc](https://img.shields.io/badge/rustdoc-hosted-blue.svg)](https://docs.rs/xorfilter-rs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![Rustdoc](https://img.shields.io/badge/rustdoc-hosted-blue.svg)](https://docs.rs/xorfilter-rs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-lang"
+    },
+    {
+      "context_snippet": "[![Rustdoc](https://img.shields.io/badge/rustdoc-hosted-blue.svg)](https://docs.rs/xorfilter-rs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xor-filter"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "z0al/dependent-issues@v1",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pr_dependencies.yml",
       "source_repo": "adapter-hub/adapter-transformers-legacy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependant-issues.yml",
+      "source_repo": "pulse-browser/browser"
     }
   ]
 }

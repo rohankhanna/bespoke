@@ -887,6 +887,30 @@
       "source_repo": "vueform/vueform",
       "status": "candidate-context",
       "text": "Security Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "srdtrk/ibc-rs",
+      "status": "candidate-context",
+      "text": "Rust implementation of the Inter-Blockchain Communication (IBC) protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "srdtrk/ibc-rs",
+      "status": "candidate-context",
+      "text": "Security Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RustCrypto/nacl-compat",
+      "status": "candidate-context",
+      "text": "Pure Rust compatibility layer for NaCl-family libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/nacl-compat",
+      "status": "candidate-context",
+      "text": "Security Audit"
     }
   ],
   "candidate_glosses": [
@@ -1325,6 +1349,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "vueform/vueform",
+      "status": "candidate",
+      "text": "Security Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "srdtrk/ibc-rs",
+      "status": "candidate",
+      "text": "Security Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/nacl-compat",
       "status": "candidate",
       "text": "Security Audit"
     }
@@ -2276,11 +2312,53 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "FeeiCN/Cobra"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "shekohex/allo-isolate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/security_audit.yml",
+      "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/audit.yaml",
+      "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/audit.yaml",
+      "source_repo": "srdtrk/ibc-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/security-audit.yml",
+      "source_repo": "RustCrypto/nacl-compat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "rust-cli/config-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "rust-nvml/nvml-wrapper"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

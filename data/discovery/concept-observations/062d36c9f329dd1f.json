@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Core engine for the Brave browser for mobile and desktop. For issues https://github.com/brave/brave-browser/issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Rerun Compare Chromium versions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Rerun Compare Chromium versions"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30933,
+      "status": "candidate",
+      "text": "drum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30933,
+      "status": "candidate",
+      "text": "frum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21363,
+      "status": "candidate",
+      "text": "polyglot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21210,
+      "status": "candidate",
+      "text": "apple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21184,
+      "status": "candidate",
+      "text": "derail"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rerun Compare Chromium versions",
+      "sense_id": "rerun-compare-chromium-versions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rerun-compare-chromium-versions",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rerun-compare-chromium-versions",
+  "observation_id": "062d36c9f329dd1f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T00:36:37.683079+00:00",
+  "observed_text": "Rerun Compare Chromium versions",
+  "source_context_snippet": "Rerun Compare Chromium versions",
+  "source_file": ".github/workflows/rerun-compare-chromium-versions.yml",
+  "source_repo": "brave/brave-core",
+  "source_repo_description": "Core engine for the Brave browser for mobile and desktop. For issues https://github.com/brave/brave-browser/issues"
+}

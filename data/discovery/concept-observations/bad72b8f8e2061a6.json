@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Core engine for the Brave browser for mobile and desktop. For issues https://github.com/brave/brave-browser/issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Set PR Milestone"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Set PR Milestone"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31824,
+      "status": "candidate",
+      "text": "misset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28424,
+      "status": "candidate",
+      "text": "plot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28304,
+      "status": "candidate",
+      "text": "plotted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28304,
+      "status": "candidate",
+      "text": "plotting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28064,
+      "status": "candidate",
+      "text": "ink"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Set PR Milestone",
+      "sense_id": "set-pr-milestone#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "set-pr-milestone",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "set-pr-milestone",
+  "observation_id": "bad72b8f8e2061a6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T00:36:37.683079+00:00",
+  "observed_text": "Set PR Milestone",
+  "source_context_snippet": "Set PR Milestone",
+  "source_file": ".github/workflows/set-milestone-from-base-branch.yml",
+  "source_repo": "brave/brave-core",
+  "source_repo_description": "Core engine for the Brave browser for mobile and desktop. For issues https://github.com/brave/brave-browser/issues"
+}

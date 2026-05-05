@@ -1,0 +1,138 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_library.yml",
+      "source_repo": "srgtuszy/llama-cpp-swift",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_library.yml",
+      "source_repo": "srgtuszy/llama-cpp-swift",
+      "target": "Build Library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "srgtuszy/llama-cpp-swift",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "srgtuszy/llama-cpp-swift",
+      "target": "llama2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "srgtuszy/llama-cpp-swift",
+      "target": "llama3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "srgtuszy/llama-cpp-swift",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "srgtuszy/llama-cpp-swift",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T00:55:58.391869+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/build_library.yml",
+      "size": 1208
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Swift bindings for llama-cpp library",
+    "fork": false,
+    "full_name": "srgtuszy/llama-cpp-swift",
+    "html_url": "https://github.com/srgtuszy/llama-cpp-swift",
+    "language": "Swift",
+    "pushed_at": "2024-12-10T12:08:36Z",
+    "stargazers_count": 69,
+    "topics": [
+      "ios",
+      "linux",
+      "llama2",
+      "llama3",
+      "llm",
+      "macos",
+      "swift"
+    ],
+    "updated_at": "2026-04-20T21:05:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Library",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_library.yml",
+      "term": "Build Library"
+    },
+    {
+      "context_snippet": "Build Library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "Build Library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama2"
+    },
+    {
+      "context_snippet": "Build Library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama3"
+    },
+    {
+      "context_snippet": "Build Library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "Build Library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    }
+  ]
+}

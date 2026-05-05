@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "konnov/apalache-examples",
+      "target": "apalache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "konnov/apalache-examples",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "konnov/apalache-examples",
+      "target": "modelchecking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "konnov/apalache-examples",
+      "target": "tlaplus",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T00:42:06.959945+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2484
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Examples of efficiently using Apalache",
+    "fork": false,
+    "full_name": "konnov/apalache-examples",
+    "html_url": "https://github.com/konnov/apalache-examples",
+    "language": "TLA",
+    "pushed_at": "2026-04-09T07:44:09Z",
+    "stargazers_count": 5,
+    "topics": [
+      "apalache",
+      "examples",
+      "modelchecking",
+      "tla",
+      "tlaplus"
+    ],
+    "updated_at": "2026-04-09T07:44:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Examples of efficiently using Apalache for model checking TLA<sup>+</sup> and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apalache"
+    },
+    {
+      "context_snippet": "Examples of efficiently using Apalache for model checking TLA<sup>+</sup> and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "examples"
+    },
+    {
+      "context_snippet": "Examples of efficiently using Apalache for model checking TLA<sup>+</sup> and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modelchecking"
+    },
+    {
+      "context_snippet": "Examples of efficiently using Apalache for model checking TLA<sup>+</sup> and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tlaplus"
+    }
+  ]
+}

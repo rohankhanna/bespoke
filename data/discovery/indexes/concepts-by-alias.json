@@ -590,6 +590,9 @@
   "academic": [
     "academic"
   ],
+  "academic citation & research trend tracker": [
+    "academic-citation-research-trend-tracker"
+  ],
   "academic-papers": [
     "academic-papers"
   ],
@@ -1220,6 +1223,9 @@
   "addon": [
     "addon"
   ],
+  "addon updates": [
+    "addon-updates"
+  ],
   "addons": [
     "addons"
   ],
@@ -1249,6 +1255,9 @@
   ],
   "adguard-home": [
     "adguard-home"
+  ],
+  "adguard-mini": [
+    "adguard-mini"
   ],
   "adidas": [
     "adidas"
@@ -1661,6 +1670,9 @@
   ],
   "agentic ci: repository triage": [
     "agentic-ci-repository-triage"
+  ],
+  "agentic maintenance": [
+    "agentic-maintenance"
   ],
   "agentic triage": [
     "agentic-triage"
@@ -2601,6 +2613,9 @@
   "alpaca-2": [
     "alpaca-2"
   ],
+  "alpha builds": [
+    "alpha-builds"
+  ],
   "alpha releases": [
     "alpha-releases"
   ],
@@ -3514,6 +3529,9 @@
   ],
   "api changes check": [
     "api-changes-check"
+  ],
+  "api coherence checker": [
+    "api-coherence-checker"
   ],
   "api compatibility": [
     "api-compatibility"
@@ -4788,6 +4806,9 @@
   "assign": [
     "assign"
   ],
+  "assign author": [
+    "assign-author"
+  ],
   "assign command": [
     "assign-command"
   ],
@@ -4805,6 +4826,9 @@
   ],
   "assign issue to dri responsible": [
     "assign-issue-to-dri-responsible"
+  ],
+  "assign labels": [
+    "assign-labels"
   ],
   "assign milestone": [
     "assign-milestone"
@@ -8231,6 +8255,9 @@
   "beta": [
     "beta"
   ],
+  "beta builds": [
+    "beta-builds"
+  ],
   "beta lints": [
     "beta-lints"
   ],
@@ -8752,6 +8779,9 @@
   ],
   "bitmap-fonts": [
     "bitmap-fonts"
+  ],
+  "bitmap-index": [
+    "bitmap-index"
   ],
   "bitnami": [
     "bitnami"
@@ -9505,6 +9535,12 @@
   "bottomsheet": [
     "bottomsheet"
   ],
+  "boulder": [
+    "boulder"
+  ],
+  "boulder ci": [
+    "boulder-ci"
+  ],
   "boundaryml": [
     "boundaryml"
   ],
@@ -10089,6 +10125,9 @@
   ],
   "build (arm)": [
     "build-arm"
+  ],
+  "build (bsys6)": [
+    "build-bsys6"
   ],
   "build (ci)": [
     "build-ci"
@@ -12004,6 +12043,9 @@
   "build libraries": [
     "build-libraries"
   ],
+  "build library": [
+    "build-library"
+  ],
   "build library artifacts": [
     "build-library-artifacts"
   ],
@@ -12226,6 +12268,9 @@
   "build nuget package": [
     "build-nuget-package"
   ],
+  "build nuget packages": [
+    "build-nuget-packages"
+  ],
   "build nvidia docker images": [
     "build-nvidia-docker-images"
   ],
@@ -12292,6 +12337,9 @@
   "build on pr target": [
     "build-on-pr-target"
   ],
+  "build on runners": [
+    "build-on-runners"
+  ],
   "build on schedule": [
     "build-on-schedule"
   ],
@@ -12300,6 +12348,9 @@
   ],
   "build on windows": [
     "build-on-windows"
+  ],
+  "build on windows runner": [
+    "build-on-windows-runner"
   ],
   "build on windows: mesa lavapipe": [
     "build-on-windows-mesa-lavapipe"
@@ -14587,6 +14638,9 @@
   ],
   "cancel-workflow": [
     "cancel-workflow"
+  ],
+  "cancelable": [
+    "cancelable"
   ],
   "cancer": [
     "cancer"
@@ -17390,6 +17444,30 @@
   "ci (cmake)": [
     "ci-cmake"
   ],
+  "ci (coq, alpine)": [
+    "ci-coq-alpine"
+  ],
+  "ci (coq, arch linux)": [
+    "ci-coq-arch-linux"
+  ],
+  "ci (coq, debian)": [
+    "ci-coq-debian"
+  ],
+  "ci (coq, docker, dev)": [
+    "ci-coq-docker-dev"
+  ],
+  "ci (coq, macos)": [
+    "ci-coq-macos"
+  ],
+  "ci (coq, opam)": [
+    "ci-coq-opam"
+  ],
+  "ci (coq, timing-diff, docker, dev)": [
+    "ci-coq-timing-diff-docker-dev"
+  ],
+  "ci (coq, windows)": [
+    "ci-coq-windows"
+  ],
   "ci (db)": [
     "ci-db"
   ],
@@ -17674,6 +17752,9 @@
   ],
   "ci and release": [
     "ci-and-release"
+  ],
+  "ci and tests": [
+    "ci-and-tests"
   ],
   "ci android emulator tests": [
     "ci-android-emulator-tests"
@@ -18034,6 +18115,9 @@
   ],
   "ci self-hosted": [
     "ci-self-hosted"
+  ],
+  "ci skip": [
+    "ci-skip"
   ],
   "ci smoke checks": [
     "ci-smoke-checks"
@@ -21833,6 +21917,9 @@
   "compare build output": [
     "compare-build-output"
   ],
+  "compare chromium versions": [
+    "compare-chromium-versions"
+  ],
   "compare templates against images": [
     "compare-templates-against-images"
   ],
@@ -22823,6 +22910,9 @@
   "content-addressed": [
     "content-addressed"
   ],
+  "content-blocker": [
+    "content-blocker"
+  ],
   "content-creation": [
     "content-creation"
   ],
@@ -22840,6 +22930,9 @@
   ],
   "content-services": [
     "content-services"
+  ],
+  "content-shell": [
+    "content-shell"
   ],
   "content-strategy": [
     "content-strategy"
@@ -23734,6 +23827,9 @@
   ],
   "coverage report - dev": [
     "coverage-report---dev"
+  ],
+  "coverage report workflow": [
+    "coverage-report-workflow"
   ],
   "coverage tests": [
     "coverage-tests"
@@ -25564,6 +25660,9 @@
   ],
   "daily build & test": [
     "daily-build-test"
+  ],
+  "daily build (bsys6)": [
+    "daily-build-bsys6"
   ],
   "daily build and test dev": [
     "daily-build-and-test-dev"
@@ -34259,6 +34358,9 @@
   "f32c": [
     "f32c"
   ],
+  "f3liz bot per file patches": [
+    "f3liz-bot-per-file-patches"
+  ],
   "f4pga": [
     "f4pga"
   ],
@@ -34843,6 +34945,9 @@
   ],
   "feedback-vertex-set": [
     "feedback-vertex-set"
+  ],
+  "feeds": [
+    "feeds"
   ],
   "feishu": [
     "feishu"
@@ -35467,6 +35572,9 @@
   "firefox-addons": [
     "firefox-addons"
   ],
+  "firefox-based": [
+    "firefox-based"
+  ],
   "firefox-css": [
     "firefox-css"
   ],
@@ -35982,6 +36090,9 @@
   ],
   "fluentd": [
     "fluentd"
+  ],
+  "fluentd exporter ci": [
+    "fluentd-exporter-ci"
   ],
   "fluentribbon": [
     "fluentribbon"
@@ -36953,6 +37064,9 @@
   ],
   "fuse-filesystem": [
     "fuse-filesystem"
+  ],
+  "fuse-filter": [
+    "fuse-filter"
   ],
   "fused-kernel": [
     "fused-kernel"
@@ -38042,6 +38156,12 @@
   ],
   "genetic-programming": [
     "genetic-programming"
+  ],
+  "geneva metrics ci": [
+    "geneva-metrics-ci"
+  ],
+  "geneva trace nuget generation": [
+    "geneva-trace-nuget-generation"
   ],
   "genie": [
     "genie"
@@ -39147,6 +39267,9 @@
   "globstar": [
     "globstar"
   ],
+  "glog": [
+    "glog"
+  ],
   "glossary": [
     "glossary"
   ],
@@ -39443,6 +39566,9 @@
   ],
   "go-package": [
     "go-package"
+  ],
+  "go-ppc64-ci": [
+    "go-ppc64-ci"
   ],
   "go-redis": [
     "go-redis"
@@ -42578,6 +42704,9 @@
   ],
   "httpclient": [
     "httpclient"
+  ],
+  "httpd instrumentation ci": [
+    "httpd-instrumentation-ci"
   ],
   "httpie": [
     "httpie"
@@ -46434,6 +46563,9 @@
   "jpeg-xl": [
     "jpeg-xl"
   ],
+  "jpegxl": [
+    "jpegxl"
+  ],
   "jquery": [
     "jquery"
   ],
@@ -49093,6 +49225,9 @@
   "libimobiledevice": [
     "libimobiledevice"
   ],
+  "libjxl": [
+    "libjxl"
+  ],
   "liblinear": [
     "liblinear"
   ],
@@ -49615,6 +49750,9 @@
   "links": [
     "links"
   ],
+  "links (fail fast)": [
+    "links-fail-fast"
+  ],
   "linkspector": [
     "linkspector"
   ],
@@ -49716,6 +49854,9 @@
   ],
   "lint build": [
     "lint-build"
+  ],
+  "lint charts": [
+    "lint-charts"
   ],
   "lint check": [
     "lint-check"
@@ -50993,6 +51134,9 @@
   "log-structured": [
     "log-structured"
   ],
+  "log4cxx": [
+    "log4cxx"
+  ],
   "log4j": [
     "log4j"
   ],
@@ -51754,6 +51898,9 @@
   ],
   "macos ci (build from source dependencies)": [
     "macos-ci-build-from-source-dependencies"
+  ],
+  "macos ci workflow": [
+    "macos-ci-workflow"
   ],
   "macos cmake": [
     "macos-cmake"
@@ -53541,6 +53688,9 @@
   "mergeable": [
     "mergeable"
   ],
+  "merged to main (or hotfix)": [
+    "merged-to-main-or-hotfix"
+  ],
   "mergefs": [
     "mergefs"
   ],
@@ -54969,6 +55119,9 @@
   "model-zoo": [
     "model-zoo"
   ],
+  "modelchecking": [
+    "modelchecking"
+  ],
   "modelcontextprotocol": [
     "modelcontextprotocol"
   ],
@@ -55855,6 +56008,9 @@
   "multi-room-audio": [
     "multi-room-audio"
   ],
+  "multi-row-tabs": [
+    "multi-row-tabs"
+  ],
   "multi-scale": [
     "multi-scale"
   ],
@@ -56714,7 +56870,8 @@
     "ndjson"
   ],
   "near": [
-    "en-preposition-near"
+    "en-preposition-near",
+    "near"
   ],
   "nearest-neighbor-search": [
     "nearest-neighbor-search"
@@ -57367,6 +57524,9 @@
   ],
   "nginx": [
     "nginx"
+  ],
+  "nginx instrumentation ci": [
+    "nginx-instrumentation-ci"
   ],
   "ngram": [
     "ngram"
@@ -65306,6 +65466,9 @@
   "probability": [
     "probability"
   ],
+  "probablistic-data-structures": [
+    "probablistic-data-structures"
+  ],
   "probat": [
     "probat"
   ],
@@ -65389,6 +65552,9 @@
   ],
   "process-viewer": [
     "process-viewer"
+  ],
+  "processes": [
+    "processes"
   ],
   "processhacker": [
     "processhacker"
@@ -65840,6 +66006,9 @@
   "prop": [
     "prop"
   ],
+  "propagate labels": [
+    "propagate-labels"
+  ],
   "propcheck": [
     "propcheck"
   ],
@@ -65903,6 +66072,9 @@
   "proto": [
     "proto"
   ],
+  "proto buf publishing - action": [
+    "proto-buf-publishing---action"
+  ],
   "proto check": [
     "proto-check"
   ],
@@ -65914,6 +66086,9 @@
   ],
   "protobuf janitor": [
     "protobuf-janitor"
+  ],
+  "protobuf linting": [
+    "protobuf-linting"
   ],
   "protobuf-elixir": [
     "protobuf-elixir"
@@ -69896,11 +70071,17 @@
   "redis-queue": [
     "redis-queue"
   ],
+  "redis-server": [
+    "redis-server"
+  ],
   "redis-stack": [
     "redis-stack"
   ],
   "redis-streams": [
     "redis-streams"
+  ],
+  "redis-test": [
+    "redis-test"
   ],
   "redissearch": [
     "redissearch"
@@ -70336,6 +70517,9 @@
   ],
   "relaybaton plugin release build": [
     "relaybaton-plugin-release-build"
+  ],
+  "relayer": [
+    "relayer"
   ],
   "releasability check": [
     "releasability-check"
@@ -72086,6 +72270,9 @@
   "rerun build": [
     "rerun-build"
   ],
+  "rerun compare chromium versions": [
+    "rerun-compare-chromium-versions"
+  ],
   "rerun failed workflow": [
     "rerun-failed-workflow"
   ],
@@ -72409,6 +72596,9 @@
   ],
   "retinanet": [
     "retinanet"
+  ],
+  "retries": [
+    "retries"
   ],
   "retrieval": [
     "retrieval"
@@ -74777,6 +74967,9 @@
   "sandbox-onboarding-timeline-check": [
     "sandbox-onboarding-timeline-check"
   ],
+  "sandboxed": [
+    "sandboxed"
+  ],
   "sandboxing": [
     "sandboxing"
   ],
@@ -75275,6 +75468,9 @@
   "sci-interpreter": [
     "sci-interpreter"
   ],
+  "scidb": [
+    "scidb"
+  ],
   "science": [
     "science"
   ],
@@ -75571,6 +75767,9 @@
   ],
   "sdk-node": [
     "sdk-node"
+  ],
+  "sdkversioncheck": [
+    "sdkversioncheck"
   ],
   "sdl-image": [
     "sdl-image"
@@ -76579,6 +76778,9 @@
   ],
   "set pr labels": [
     "set-pr-labels"
+  ],
+  "set pr milestone": [
+    "set-pr-milestone"
   ],
   "set version tag": [
     "set-version-tag"
@@ -78089,6 +78291,9 @@
   ],
   "socket": [
     "socket"
+  ],
+  "socket fix by ghsa": [
+    "socket-fix-by-ghsa"
   ],
   "socket-io": [
     "socket-io"
@@ -81436,6 +81641,9 @@
   "sync amd-staging to public repository": [
     "sync-amd-staging-to-public-repository"
   ],
+  "sync and rebase pr from fork": [
+    "sync-and-rebase-pr-from-fork"
+  ],
   "sync approved prs to internal codebase": [
     "sync-approved-prs-to-internal-codebase"
   ],
@@ -81912,6 +82120,9 @@
   ],
   "tab-management": [
     "tab-management"
+  ],
+  "tab-mix-plus": [
+    "tab-mix-plus"
   ],
   "tab-separated": [
     "tab-separated"
@@ -83125,6 +83336,9 @@
   "test codebase": [
     "test-codebase"
   ],
+  "test collector chart": [
+    "test-collector-chart"
+  ],
   "test commands": [
     "test-commands"
   ],
@@ -83175,6 +83389,9 @@
   ],
   "test demo": [
     "test-demo"
+  ],
+  "test demo chart": [
+    "test-demo-chart"
   ],
   "test demos": [
     "test-demos"
@@ -83272,6 +83489,9 @@
   "test e2e": [
     "test-e2e"
   ],
+  "test ebpf chart": [
+    "test-ebpf-chart"
+  ],
   "test ecosystem plugins": [
     "test-ecosystem-plugins"
   ],
@@ -83314,6 +83534,9 @@
   "test file permissions through cache pipeline": [
     "test-file-permissions-through-cache-pipeline"
   ],
+  "test filterscompiler": [
+    "test-filterscompiler"
+  ],
   "test fixtures": [
     "test-fixtures"
   ],
@@ -83340,6 +83563,9 @@
   ],
   "test fzf on macos": [
     "test-fzf-on-macos"
+  ],
+  "test generated c": [
+    "test-generated-c"
   ],
   "test generation code": [
     "test-generation-code"
@@ -83598,6 +83824,12 @@
   ],
   "test on windows": [
     "test-on-windows"
+  ],
+  "test opentelemetry kube stack charts": [
+    "test-opentelemetry-kube-stack-charts"
+  ],
+  "test operator charts": [
+    "test-operator-charts"
   ],
   "test optunahub web build": [
     "test-optunahub-web-build"
@@ -84981,6 +85213,15 @@
   ],
   "thompson-sampling": [
     "thompson-sampling"
+  ],
+  "thorium": [
+    "thorium"
+  ],
+  "thorium-browser": [
+    "thorium-browser"
+  ],
+  "thoriumos": [
+    "thoriumos"
   ],
   "thorsten-voice": [
     "thorsten-voice"
@@ -86463,6 +86704,9 @@
   "try": [
     "try"
   ],
+  "try release": [
+    "try-release"
+  ],
   "try to build project": [
     "try-to-build-project"
   ],
@@ -87149,6 +87393,9 @@
   ],
   "ubuntu ci (easy install dependencies)": [
     "ubuntu-ci-easy-install-dependencies"
+  ],
+  "ubuntu ci workflow": [
+    "ubuntu-ci-workflow"
   ],
   "ubuntu cuda": [
     "ubuntu-cuda"
@@ -92107,6 +92354,9 @@
   "waterdrop": [
     "waterdrop"
   ],
+  "waterfox": [
+    "waterfox"
+  ],
   "watermark": [
     "watermark"
   ],
@@ -93266,6 +93516,9 @@
   "windows ci (msvc)": [
     "windows-ci-msvc"
   ],
+  "windows ci workflow": [
+    "windows-ci-workflow"
+  ],
   "windows clang ci": [
     "windows-clang-ci"
   ],
@@ -94139,6 +94392,9 @@
   "xontrib": [
     "xontrib"
   ],
+  "xor-filter": [
+    "xor-filter"
+  ],
   "xpath": [
     "xpath"
   ],
@@ -94520,6 +94776,9 @@
   ],
   "zcash-node": [
     "zcash-node"
+  ],
+  "zcashd book": [
+    "zcashd-book"
   ],
   "zebra": [
     "zebra"
@@ -94953,6 +95212,9 @@
   "\u2705 checks": [
     "checks"
   ],
+  "\u270d sign": [
+    "sign"
+  ],
   "\u2754\ufe0f check dist folder": [
     "check-dist-folder"
   ],
@@ -95007,6 +95269,9 @@
   "\ud83c\udfab pr \u203a scan": [
     "pr-scan"
   ],
+  "\ud83c\udfad stage": [
+    "stage"
+  ],
   "\ud83c\udfc1 build windows": [
     "build-windows"
   ],
@@ -95015,6 +95280,9 @@
   ],
   "\ud83c\udfd4\ufe0f display coverage data": [
     "display-coverage-data"
+  ],
+  "\ud83c\udfd7 build": [
+    "build"
   ],
   "\ud83c\udfd7\ufe0f build": [
     "build"
@@ -95271,6 +95539,9 @@
   "\ud83d\ude80 deploy to pypi": [
     "deploy-to-pypi"
   ],
+  "\ud83d\ude80 deployment": [
+    "deployment"
+  ],
   "\ud83d\ude80 go e2e tests": [
     "go-e2e-tests"
   ],
@@ -95282,6 +95553,12 @@
   ],
   "\ud83d\ude80 pr": [
     "pr"
+  ],
+  "\ud83d\ude80 production": [
+    "production"
+  ],
+  "\ud83d\ude80 publish": [
+    "publish"
   ],
   "\ud83d\ude80 publish image & helm": [
     "publish-image-helm"

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "scidb"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Accla/d4m",
+      "status": "candidate-context",
+      "text": "Dynamic Distributed Dimensional Data Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Accla/d4m",
+      "status": "candidate-context",
+      "text": "NOTE: This is the Accumulo 1.6.0+ version."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Accla/d4m",
+      "status": "candidate",
+      "text": "NOTE: This is the Accumulo 1.6.0+ version."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "scidb",
+  "concept_id": "scidb",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "Accla/d4m"
+    }
+  ],
+  "first_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scidb",
+      "sense_id": "scidb#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

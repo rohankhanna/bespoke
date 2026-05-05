@@ -139,6 +139,18 @@
       "source_repo": "v2fly/fhs-install-v2ray",
       "status": "candidate-context",
       "text": "> \u6b32\u67e5\u9605\u4ee5\u7b80\u4f53\u4e2d\u6587\u64b0\u5199\u7684\u4ecb\u7ecd\uff0c\u8bf7\u8bbf\u95ee\uff1a[README.zh-Hans-CN.md](README.zh-Hans-CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "refcell/femplate",
+      "status": "candidate-context",
+      "text": "Robust, Feature-Rich Solidity Template Repository for Foundry Projects with Scripting, Testing, and Utility Bash Scripts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "refcell/femplate",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"150\" height=\"150\" top=\"100\" src=\"./public/readme.jpg\">"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "v2fly/fhs-install-v2ray",
       "status": "candidate",
       "text": "> \u6b32\u67e5\u9605\u4ee5\u7b80\u4f53\u4e2d\u6587\u64b0\u5199\u7684\u4ecb\u7ecd\uff0c\u8bf7\u8bbf\u95ee\uff1a[README.zh-Hans-CN.md](README.zh-Hans-CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "refcell/femplate",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"150\" height=\"150\" top=\"100\" src=\"./public/readme.jpg\">"
     }
   ],
   "candidate_related_terms": [
@@ -345,11 +363,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "v2fly/fhs-install-v2ray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "refcell/femplate"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

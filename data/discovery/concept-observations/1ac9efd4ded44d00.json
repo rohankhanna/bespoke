@@ -84,7 +84,7 @@
   "normalized_form": "build-tycho",
   "observation_id": "1ac9efd4ded44d00",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T12:47:39.186442+00:00",
+  "observed_at": "2026-05-05T00:36:37.683079+00:00",
   "observed_text": "Build Tycho",
   "source_context_snippet": "Build Tycho",
   "source_file": ".github/workflows/maven.yml",

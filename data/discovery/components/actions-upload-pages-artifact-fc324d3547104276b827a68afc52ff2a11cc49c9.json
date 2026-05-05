@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9",
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

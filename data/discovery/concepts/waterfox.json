@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "waterfox"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BrowserWorks/waterfox",
+      "status": "candidate-context",
+      "text": "The official Waterfox \ud83d\udca7 source code repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrowserWorks/waterfox",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">A privacy-focused, performance-oriented browser based on Firefox.</p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrowserWorks/waterfox",
+      "status": "candidate",
+      "text": "<p align=\"center\">A privacy-focused, performance-oriented browser based on Firefox.</p>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "waterfox",
+  "concept_id": "waterfox",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "BrowserWorks/waterfox"
+    }
+  ],
+  "first_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "waterfox",
+      "sense_id": "waterfox#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T00:46:54.447027+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28306
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Graphulo: Accumulo library of matrix math primitives and graph algorithms",
+    "fork": false,
+    "full_name": "Accla/graphulo",
+    "html_url": "https://github.com/Accla/graphulo",
+    "language": "Java",
+    "pushed_at": "2026-04-30T19:15:30Z",
+    "stargazers_count": 82,
+    "topics": [],
+    "updated_at": "2026-04-30T19:15:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

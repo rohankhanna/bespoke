@@ -1,12 +1,17 @@
 {
   "component": "gaurav-nelson/github-action-markdown-link-check@1.0.16",
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/markdown-link-check.yaml",
       "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yaml",
+      "source_repo": "srdtrk/ibc-rs"
     }
   ]
 }

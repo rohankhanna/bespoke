@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@5e57cd118135c172c3672efd75eb46360885c0ef",
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -147,6 +147,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-warp-builder-images.yml",
       "source_repo": "NVIDIA/warp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "gakonst/foundry"
     }
   ]
 }

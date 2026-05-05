@@ -239,6 +239,18 @@
       "source_repo": "Cysharp/UniTask",
       "status": "candidate-context",
       "text": "build-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "letsencrypt/boulder",
+      "status": "candidate-context",
+      "text": "An ACME-based certificate authority, written in Go. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "letsencrypt/boulder",
+      "status": "candidate-context",
+      "text": "Build release"
     }
   ],
   "candidate_glosses": [
@@ -355,6 +367,12 @@
       "source_repo": "Cysharp/UniTask",
       "status": "candidate",
       "text": "build-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "letsencrypt/boulder",
+      "status": "candidate",
+      "text": "Build release"
     }
   ],
   "candidate_related_terms": [
@@ -512,11 +530,17 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": ".github/workflows/build-release.yaml",
       "source_repo": "Cysharp/UniTask"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "letsencrypt/boulder"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -304,6 +304,18 @@
       "source_repo": "crazy-max/xgo",
       "status": "candidate-context",
       "text": "labels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazy-max/goxx",
+      "status": "candidate-context",
+      "text": "Go CGO cross-compiler Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/goxx",
+      "status": "candidate-context",
+      "text": "labels"
     }
   ],
   "candidate_glosses": [
@@ -478,6 +490,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "crazy-max/xgo",
+      "status": "candidate",
+      "text": "labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/goxx",
       "status": "candidate",
       "text": "labels"
     }
@@ -979,11 +997,23 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "crazy-max/goxx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "fastapi/full-stack-fastapi-template"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

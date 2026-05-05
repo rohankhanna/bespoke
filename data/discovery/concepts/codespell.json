@@ -572,6 +572,18 @@
       "source_repo": "informalsystems/hermes",
       "status": "candidate-context",
       "text": "Codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-go-instrumentation",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Auto Instrumentation using eBPF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-go-instrumentation",
+      "status": "candidate-context",
+      "text": "codespell"
     }
   ],
   "candidate_glosses": [
@@ -856,6 +868,12 @@
       "source_repo": "informalsystems/hermes",
       "status": "candidate",
       "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-go-instrumentation",
+      "status": "candidate",
+      "text": "codespell"
     }
   ],
   "candidate_related_terms": [],
@@ -1181,11 +1199,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/codespell.yml",
       "source_repo": "informalsystems/hermes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/codespell.yaml",
+      "source_repo": "open-telemetry/opentelemetry-go-instrumentation"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

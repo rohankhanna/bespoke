@@ -295,6 +295,18 @@
       "source_repo": "SciSharp/LLamaSharp",
       "status": "candidate-context",
       "text": "![logo](Assets/LLamaSharpLogo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "srgtuszy/llama-cpp-swift",
+      "status": "candidate-context",
+      "text": "Swift bindings for llama-cpp library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "srgtuszy/llama-cpp-swift",
+      "status": "candidate-context",
+      "text": "Build Library"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +453,12 @@
       "source_repo": "SciSharp/LLamaSharp",
       "status": "candidate",
       "text": "![logo](Assets/LLamaSharpLogo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "srgtuszy/llama-cpp-swift",
+      "status": "candidate",
+      "text": "Build Library"
     }
   ],
   "candidate_related_terms": [],
@@ -844,11 +862,23 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "srgtuszy/llama-cpp-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

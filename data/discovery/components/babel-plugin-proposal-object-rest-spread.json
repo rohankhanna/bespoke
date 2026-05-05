@@ -1,7 +1,7 @@
 {
   "component": "@babel/plugin-proposal-object-rest-spread",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

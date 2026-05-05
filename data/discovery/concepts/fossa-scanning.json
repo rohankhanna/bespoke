@@ -140,6 +140,36 @@
       "source_repo": "rancher/local-path-provisioner",
       "status": "candidate-context",
       "text": "FOSSA Scanning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-cpp-contrib",
+      "status": "candidate-context",
+      "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-go-instrumentation",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Auto Instrumentation using eBPF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-go-instrumentation",
+      "status": "candidate-context",
+      "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-helm-charts",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Helm Charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-helm-charts",
+      "status": "candidate-context",
+      "text": "FOSSA scanning"
     }
   ],
   "candidate_glosses": [
@@ -208,6 +238,24 @@
       "source_repo": "rancher/local-path-provisioner",
       "status": "candidate",
       "text": "FOSSA Scanning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-cpp-contrib",
+      "status": "candidate",
+      "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-go-instrumentation",
+      "status": "candidate",
+      "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-helm-charts",
+      "status": "candidate",
+      "text": "FOSSA scanning"
     }
   ],
   "candidate_related_terms": [
@@ -317,11 +365,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/fossa.yml",
       "source_repo": "rancher/local-path-provisioner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/opentelemetry-cpp-contrib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/opentelemetry-go-instrumentation"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/opentelemetry-helm-charts"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

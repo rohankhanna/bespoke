@@ -84,7 +84,7 @@
   "normalized_form": "publish-to-github-pages",
   "observation_id": "e3c2b6c33df1f831",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T12:47:39.186442+00:00",
+  "observed_at": "2026-05-05T00:36:37.683079+00:00",
   "observed_text": "Publish to GitHub Pages",
   "source_context_snippet": "Publish to GitHub Pages",
   "source_file": ".github/workflows/publish.yml",

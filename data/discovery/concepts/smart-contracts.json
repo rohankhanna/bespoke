@@ -163,6 +163,42 @@
       "source_repo": "PaulRBerg/foundry-template",
       "status": "candidate-context",
       "text": "[gitpod]: https://gitpod.io/#https://github.com/PaulRBerg/foundry-template"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CosmWasm/cosmwasm",
+      "status": "candidate-context",
+      "text": "WebAssembly Smart Contracts for the Cosmos SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CosmWasm/cosmwasm",
+      "status": "candidate-context",
+      "text": "[![component][component-badge]][component-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CosmWasm/wasmd",
+      "status": "candidate-context",
+      "text": "Basic Cosmos SDK application with WebAssembly smart contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CosmWasm/wasmd",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/CosmWasm/wasmd/tree/main.svg?style=shield)](https://circleci.com/gh/CosmWasm/wasmd/tree/main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octopus-network/near-ibc",
+      "status": "candidate-context",
+      "text": "near smart contract implement ibc protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octopus-network/near-ibc",
+      "status": "candidate-context",
+      "text": "This is an implementation of the IBC protocol (IBC/TAO) in the NEAR protocol, which includes additional applications such as ICS-20, written by Octopus Network."
     }
   ],
   "candidate_glosses": [
@@ -243,6 +279,24 @@
       "source_repo": "PaulRBerg/foundry-template",
       "status": "candidate",
       "text": "[gitpod]: https://gitpod.io/#https://github.com/PaulRBerg/foundry-template"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CosmWasm/cosmwasm",
+      "status": "candidate",
+      "text": "[![component][component-badge]][component-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CosmWasm/wasmd",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/CosmWasm/wasmd/tree/main.svg?style=shield)](https://circleci.com/gh/CosmWasm/wasmd/tree/main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octopus-network/near-ibc",
+      "status": "candidate",
+      "text": "This is an implementation of the IBC protocol (IBC/TAO) in the NEAR protocol, which includes additional applications such as ICS-20, written by Octopus Network."
     }
   ],
   "candidate_related_terms": [],
@@ -502,11 +556,41 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "Uniswap/v3-periphery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "CosmWasm/cosmwasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "CosmWasm/wasmd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "octopus-network/near-ibc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "Uniswap/v3-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T00:36:37.683079+00:00",
+      "source_file": null,
+      "source_repo": "Uniswap/v3-periphery"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

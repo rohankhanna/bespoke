@@ -571,7 +571,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T13:02:52.745695+00:00",
+  "fetched_at": "2026-05-05T00:39:03.981680+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -607,7 +607,7 @@
     "full_name": "conventional-changelog/conventional-changelog",
     "html_url": "https://github.com/conventional-changelog/conventional-changelog",
     "language": "TypeScript",
-    "pushed_at": "2026-05-01T17:07:34Z",
+    "pushed_at": "2026-05-04T21:57:13Z",
     "stargazers_count": 8435,
     "topics": [
       "changelog",
