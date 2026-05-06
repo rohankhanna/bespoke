@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shenyi-Z/DuCa",
+      "target": "xuyang-liu16/awesome-generation-acceleration",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-06T07:11:29.771332+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5779
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "(ToCa-v2) A New version of ToCa\uff0cwith faster speed and better acceleration!",
+    "fork": false,
+    "full_name": "Shenyi-Z/DuCa",
+    "html_url": "https://github.com/Shenyi-Z/DuCa",
+    "language": "Python",
+    "pushed_at": "2025-03-13T04:01:09Z",
+    "stargazers_count": 42,
+    "topics": [],
+    "updated_at": "2026-05-06T04:30:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xuyang-liu16/awesome-generation-acceleration",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

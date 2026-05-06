@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/hobart-svg",
+      "target": "cross-section",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/hobart-svg",
+      "target": "mesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/hobart-svg",
+      "target": "polygons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/hobart-svg",
+      "target": "polylines",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-06T07:04:23.568635+00:00",
+  "source_repo": "lace/hobart-svg"
+}

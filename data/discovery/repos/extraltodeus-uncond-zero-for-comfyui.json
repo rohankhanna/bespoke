@@ -1,0 +1,160 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Extraltodeus/Uncond-Zero-for-ComfyUI",
+      "target": "extraltodeus/stable-diffusion-temperature-settings",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Extraltodeus/Uncond-Zero-for-ComfyUI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Extraltodeus/Uncond-Zero-for-ComfyUI",
+      "target": "Comfy-Org/publish-node-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Extraltodeus/Uncond-Zero-for-ComfyUI",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Extraltodeus/Uncond-Zero-for-ComfyUI",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Extraltodeus/Uncond-Zero-for-ComfyUI",
+      "target": "comfyui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Extraltodeus/Uncond-Zero-for-ComfyUI",
+      "target": "comfyui-nodes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Extraltodeus/Uncond-Zero-for-ComfyUI",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Extraltodeus/Uncond-Zero-for-ComfyUI",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T07:11:20.410026+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7813
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 399
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 581
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Allows to sample without generating any uncond with Stable Diffusion!",
+    "fork": false,
+    "full_name": "Extraltodeus/Uncond-Zero-for-ComfyUI",
+    "html_url": "https://github.com/Extraltodeus/Uncond-Zero-for-ComfyUI",
+    "language": "Python",
+    "pushed_at": "2024-07-10T00:27:36Z",
+    "stargazers_count": 51,
+    "topics": [
+      "ai",
+      "artificial-intelligence",
+      "comfyui",
+      "comfyui-nodes",
+      "generative-ai",
+      "stable-diffusion"
+    ],
+    "updated_at": "2025-11-27T08:46:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "extraltodeus/stable-diffusion-temperature-settings",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    },
+    {
+      "context_snippet": "Allows to sample without generating any negative prediction with Stable Diffusion!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "Allows to sample without generating any negative prediction with Stable Diffusion!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui"
+    },
+    {
+      "context_snippet": "Allows to sample without generating any negative prediction with Stable Diffusion!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui-nodes"
+    },
+    {
+      "context_snippet": "Allows to sample without generating any negative prediction with Stable Diffusion!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "context_snippet": "Allows to sample without generating any negative prediction with Stable Diffusion!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    }
+  ]
+}

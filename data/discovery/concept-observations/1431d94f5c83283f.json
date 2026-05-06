@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A fast, powerful type checker designed for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050759,
+      "status": "candidate",
+      "text": "sherbert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050739,
+      "status": "candidate",
+      "text": "sherbet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050347,
+      "status": "candidate",
+      "text": "popsicle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050762,
+      "status": "candidate",
+      "text": "scherbet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050761,
+      "status": "candidate",
+      "text": "spoom"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sorbet",
+      "sense_id": "sorbet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3040,
+      "status": "candidate",
+      "text": "sherbet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19,
+      "status": "candidate",
+      "text": "sherbert"
+    }
+  ],
+  "concept_id": "sorbet",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sorbet",
+  "observation_id": "1431d94f5c83283f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-06T07:04:23.568635+00:00",
+  "observed_text": "sorbet",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "sorbet/sorbet",
+  "source_repo_description": "A fast, powerful type checker designed for Ruby"
+}

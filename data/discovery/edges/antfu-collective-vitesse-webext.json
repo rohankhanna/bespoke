@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "antfu-collective/vitesse-webext",
-      "target": "serversideup/webext-bridge",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "antfu-collective/vitesse-webext",
       "target": "antfu/vitesse-webext",
       "target_type": "repository"
     },
@@ -302,6 +295,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-05T18:38:09.351693+00:00",
+  "generated_at": "2026-05-06T07:04:23.568635+00:00",
   "source_repo": "antfu-collective/vitesse-webext"
 }

@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dinosaure/blaze",
+      "target": "dinosaure/ocaml-dkim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dinosaure/blaze",
+      "target": "dinosaure/uspf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dinosaure/blaze",
+      "target": "mirage/conan",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-06T07:04:23.568635+00:00",
+  "source_repo": "dinosaure/blaze"
+}

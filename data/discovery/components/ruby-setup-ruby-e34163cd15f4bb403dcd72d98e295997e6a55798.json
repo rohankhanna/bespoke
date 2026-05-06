@@ -1,0 +1,12 @@
+{
+  "component": "ruby/setup-ruby@e34163cd15f4bb403dcd72d98e295997e6a55798",
+  "first_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Shopify/measured"
+    }
+  ]
+}

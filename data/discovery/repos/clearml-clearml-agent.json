@@ -2,6 +2,13 @@
   "components": [],
   "edges": [
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clearml/clearml-agent",
+      "target": "clearml/clearml-agent-bootstrap",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "clearml/clearml-agent",
@@ -86,11 +93,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T18:51:11.414818+00:00",
+  "fetched_at": "2026-05-06T07:16:26.084714+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 16901
+      "size": 19711
     },
     {
       "path": "requirements.txt",
@@ -110,7 +117,7 @@
     "full_name": "clearml/clearml-agent",
     "html_url": "https://github.com/clearml/clearml-agent",
     "language": "Python",
-    "pushed_at": "2026-04-30T16:05:35Z",
+    "pushed_at": "2026-05-06T07:00:54Z",
     "stargazers_count": 295,
     "topics": [
       "clearml-agent",
@@ -128,9 +135,15 @@
       "trains",
       "trains-agent"
     ],
-    "updated_at": "2026-05-03T14:31:50Z"
+    "updated_at": "2026-05-06T07:00:59Z"
   },
-  "repo_links": [],
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clearml/clearml-agent-bootstrap",
+      "source_file": "README.md"
+    }
+  ],
   "terms": [
     {
       "context_snippet": "<div align=\"center\">",

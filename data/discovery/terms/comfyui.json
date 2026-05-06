@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -161,6 +161,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "TencentQQGYLab/ComfyUI-ELLA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Extraltodeus/Uncond-Zero-for-ComfyUI"
     }
   ],
   "term": "comfyui"

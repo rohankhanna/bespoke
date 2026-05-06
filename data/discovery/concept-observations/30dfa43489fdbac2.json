@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Allows to sample without generating any uncond with Stable Diffusion!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Allows to sample without generating any negative prediction with Stable Diffusion!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Allows to sample without generating any negative prediction with Stable Diffusion!"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "artificial-intelligence",
+      "sense_id": "artificial-intelligence#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "artificial-intelligence",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "artificial-intelligence",
+  "observation_id": "30dfa43489fdbac2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-06T07:04:23.568635+00:00",
+  "observed_text": "artificial-intelligence",
+  "source_context_snippet": "Allows to sample without generating any negative prediction with Stable Diffusion!",
+  "source_file": null,
+  "source_repo": "Extraltodeus/Uncond-Zero-for-ComfyUI",
+  "source_repo_description": "Allows to sample without generating any uncond with Stable Diffusion!"
+}

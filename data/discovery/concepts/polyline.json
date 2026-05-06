@@ -67,6 +67,30 @@
       "source_repo": "lace/polliwog",
       "status": "candidate-context",
       "text": "[![version](https://img.shields.io/pypi/v/polliwog?style=flat-square)][pypi]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lace/hyla",
+      "status": "candidate-context",
+      "text": "Immutable 2D and 3D computational geometry in TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/hyla",
+      "status": "candidate-context",
+      "text": "[![version](https://img.shields.io/npm/v/hyla?style=flat-square)][npm]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lace/tri-again",
+      "status": "candidate-context",
+      "text": "Simple scenegraph for quickly debugging 3D meshes, polylines, and points"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/tri-again",
+      "status": "candidate-context",
+      "text": "[![version](https://img.shields.io/pypi/v/tri-again?style=flat-square)][pypi]"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "lace/polliwog",
       "status": "candidate",
       "text": "[![version](https://img.shields.io/pypi/v/polliwog?style=flat-square)][pypi]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/hyla",
+      "status": "candidate",
+      "text": "[![version](https://img.shields.io/npm/v/hyla?style=flat-square)][npm]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/tri-again",
+      "status": "candidate",
+      "text": "[![version](https://img.shields.io/pypi/v/tri-again?style=flat-square)][pypi]"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +208,23 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "lace/polliwog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": null,
+      "source_repo": "lace/hyla"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": null,
+      "source_repo": "lace/tri-again"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

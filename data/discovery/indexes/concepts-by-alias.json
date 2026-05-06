@@ -47,6 +47,9 @@
   "2d-games": [
     "2d-games"
   ],
+  "2d-geometry": [
+    "2d-geometry"
+  ],
   "2d-graphics": [
     "2d-graphics"
   ],
@@ -145,6 +148,9 @@
   ],
   "3d-genome-browser": [
     "3d-genome-browser"
+  ],
+  "3d-geometry": [
+    "3d-geometry"
   ],
   "3d-globe": [
     "3d-globe"
@@ -10141,6 +10147,9 @@
   "bucklescript-tea": [
     "bucklescript-tea"
   ],
+  "budgeting": [
+    "budgeting"
+  ],
   "buf": [
     "buf"
   ],
@@ -14215,6 +14224,9 @@
   "bump version and release": [
     "bump-version-and-release"
   ],
+  "bump version and start release job": [
+    "bump-version-and-start-release-job"
+  ],
   "bump version for release": [
     "bump-version-for-release"
   ],
@@ -14443,6 +14455,9 @@
   ],
   "bytecode": [
     "bytecode"
+  ],
+  "bytecode size report": [
+    "bytecode-size-report"
   ],
   "bytecode-viewer": [
     "bytecode-viewer"
@@ -20329,6 +20344,9 @@
   ],
   "closember": [
     "closember"
+  ],
+  "closest": [
+    "closest"
   ],
   "closing issues for inactivity": [
     "closing-issues-for-inactivity"
@@ -27293,6 +27311,9 @@
   "debugging": [
     "debugging"
   ],
+  "debugging-3d-meshes": [
+    "debugging-3d-meshes"
+  ],
   "debugging-tool": [
     "debugging-tool"
   ],
@@ -28288,6 +28309,9 @@
   ],
   "deploy docker": [
     "deploy-docker"
+  ],
+  "deploy docker image to ghcr": [
+    "deploy-docker-image-to-ghcr"
   ],
   "deploy docs": [
     "deploy-docs"
@@ -30640,6 +30664,12 @@
   ],
   "docker publish & test": [
     "docker-publish-test"
+  ],
+  "docker publish (edge image)": [
+    "docker-publish-edge-image"
+  ],
+  "docker publish (release)": [
+    "docker-publish-release"
   ],
   "docker publish ci": [
     "docker-publish-ci"
@@ -33949,6 +33979,9 @@
   "equivalence-tests-manual": [
     "equivalence-tests-manual"
   ],
+  "era compiler tester": [
+    "era-compiler-tester"
+  ],
   "eraser": [
     "eraser"
   ],
@@ -36081,6 +36114,9 @@
   ],
   "financial-inclusion": [
     "financial-inclusion"
+  ],
+  "financial-independence": [
+    "financial-independence"
   ],
   "financial-markets": [
     "financial-markets"
@@ -50305,6 +50341,9 @@
   "libsodium": [
     "libsodium"
   ],
+  "libspatialindex": [
+    "libspatialindex"
+  ],
   "libspng": [
     "libspng"
   ],
@@ -58007,6 +58046,9 @@
     "en-preposition-near",
     "near"
   ],
+  "nearest": [
+    "nearest"
+  ],
   "nearest-neighbor-search": [
     "nearest-neighbor-search"
   ],
@@ -64935,6 +64977,9 @@
   "polygonal-meshes": [
     "polygonal-meshes"
   ],
+  "polygons": [
+    "polygons"
+  ],
   "polyline": [
     "polyline"
   ],
@@ -64943,6 +64988,9 @@
   ],
   "polyline-encoder": [
     "polyline-encoder"
+  ],
+  "polylines": [
+    "polylines"
   ],
   "polynomial-commitments": [
     "polynomial-commitments"
@@ -75135,6 +75183,9 @@
   "rtos": [
     "rtos"
   ],
+  "rtree": [
+    "rtree"
+  ],
   "rtsp": [
     "rtsp"
   ],
@@ -76808,6 +76859,9 @@
   ],
   "scene-understanding": [
     "scene-understanding"
+  ],
+  "scenegraph": [
+    "scenegraph"
   ],
   "schedule": [
     "schedule"
@@ -79070,6 +79124,12 @@
   ],
   "site deployment": [
     "site-deployment"
+  ],
+  "site deployment - preview \ud83d\udc68\u200d\ud83d\udd2c": [
+    "site-deployment---preview"
+  ],
+  "site deployment - production \ud83d\ude80": [
+    "site-deployment---production"
   ],
   "site-generator": [
     "site-generator"
@@ -90784,6 +90844,9 @@
   ],
   "update vendor": [
     "update-vendor"
+  ],
+  "update version": [
+    "update-version"
   ],
   "update version file and create tag": [
     "update-version-file-and-create-tag"

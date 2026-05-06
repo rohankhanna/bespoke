@@ -1222,11 +1222,23 @@
       "observed_at": "2026-05-06T00:36:03.937537+00:00",
       "source_file": null,
       "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LongLoRA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

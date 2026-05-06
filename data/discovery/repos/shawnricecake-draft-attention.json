@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shawnricecake/draft-attention",
+      "target": "tencent/hunyuancustom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shawnricecake/draft-attention",
+      "target": "tencent/hunyuanvideo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-06T07:11:28.779118+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6411
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for Draft Attention",
+    "fork": false,
+    "full_name": "shawnricecake/draft-attention",
+    "html_url": "https://github.com/shawnricecake/draft-attention",
+    "language": "Python",
+    "pushed_at": "2025-05-22T04:22:26Z",
+    "stargazers_count": 103,
+    "topics": [],
+    "updated_at": "2026-04-26T18:43:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/hunyuancustom",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/hunyuanvideo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

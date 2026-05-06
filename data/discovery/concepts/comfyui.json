@@ -391,6 +391,18 @@
       "source_repo": "TencentQQGYLab/ComfyUI-ELLA",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Extraltodeus/Uncond-Zero-for-ComfyUI",
+      "status": "candidate-context",
+      "text": "Allows to sample without generating any uncond with Stable Diffusion!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Extraltodeus/Uncond-Zero-for-ComfyUI",
+      "status": "candidate-context",
+      "text": "Allows to sample without generating any negative prediction with Stable Diffusion!"
     }
   ],
   "candidate_glosses": [
@@ -585,6 +597,12 @@
       "source_repo": "TencentQQGYLab/ComfyUI-ELLA",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Extraltodeus/Uncond-Zero-for-ComfyUI",
+      "status": "candidate",
+      "text": "Allows to sample without generating any negative prediction with Stable Diffusion!"
     }
   ],
   "candidate_related_terms": [],
@@ -1162,11 +1180,35 @@
       "observed_at": "2026-05-06T00:36:03.937537+00:00",
       "source_file": null,
       "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": null,
+      "source_repo": "Extraltodeus/Uncond-Zero-for-ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -440,7 +440,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T18:46:28.859414+00:00",
+  "fetched_at": "2026-05-06T07:10:26.318015+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -492,8 +492,8 @@
     "full_name": "web-platform-tests/wpt",
     "html_url": "https://github.com/web-platform-tests/wpt",
     "language": "HTML",
-    "pushed_at": "2026-05-05T18:13:15Z",
-    "stargazers_count": 5916,
+    "pushed_at": "2026-05-06T07:00:10Z",
+    "stargazers_count": 5917,
     "topics": [
       "blink",
       "browser",
@@ -515,7 +515,7 @@
       "webkit",
       "whatwg"
     ],
-    "updated_at": "2026-05-05T17:35:33Z"
+    "updated_at": "2026-05-06T06:56:46Z"
   },
   "repo_links": [],
   "terms": [

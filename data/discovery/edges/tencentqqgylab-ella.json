@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TencentQQGYLab/ELLA",
+      "target": "kijai/comfyui-ella-wrapper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TencentQQGYLab/ELLA",
+      "target": "j-min/dsg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TencentQQGYLab/ELLA",
+      "target": "ella-diffusion/ella",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-06T07:04:23.568635+00:00",
+  "source_repo": "TencentQQGYLab/ELLA"
+}

@@ -672,11 +672,23 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": ".github/workflows/format_check.yml",
       "source_repo": "jump-dev/JuMP.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": ".github/workflows/check-format.yml",
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "codymikol/neotest-kotlin"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

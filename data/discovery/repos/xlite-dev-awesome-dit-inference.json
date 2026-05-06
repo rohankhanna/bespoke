@@ -12,7 +12,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "xlite-dev/Awesome-DiT-Inference",
-      "target": "shenyi-z/duca",
+      "target": "shenyi-z/toca",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xlite-dev/Awesome-DiT-Inference",
+      "target": "shenyi-z/taylorseer",
       "target_type": "repository"
     },
     {
@@ -20,13 +27,6 @@
       "source_file": "README.md",
       "source_repo": "xlite-dev/Awesome-DiT-Inference",
       "target": "mit-han-lab/nunchaku",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "xlite-dev/Awesome-DiT-Inference",
-      "target": "shawnricecake/draft-attention",
       "target_type": "repository"
     },
     {
@@ -100,7 +100,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T18:47:26.913362+00:00",
+  "fetched_at": "2026-05-06T07:11:35.438433+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -117,7 +117,7 @@
     "html_url": "https://github.com/xlite-dev/Awesome-DiT-Inference",
     "language": "Python",
     "pushed_at": "2026-03-19T03:00:14Z",
-    "stargazers_count": 545,
+    "stargazers_count": 546,
     "topics": [
       "cogvideox",
       "deepcache",
@@ -132,7 +132,7 @@
       "stable-diffusion",
       "wan"
     ],
-    "updated_at": "2026-05-01T08:08:19Z"
+    "updated_at": "2026-05-05T18:51:04Z"
   },
   "repo_links": [
     {
@@ -147,12 +147,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "shawnricecake/draft-attention",
+      "full_name": "shenyi-z/taylorseer",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "shenyi-z/duca",
+      "full_name": "shenyi-z/toca",
       "source_file": "README.md"
     }
   ],

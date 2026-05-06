@@ -80,7 +80,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T19:04:29.271306+00:00",
+  "fetched_at": "2026-05-06T07:32:35.140863+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -105,9 +105,9 @@
     "html_url": "https://github.com/hermit-os/hermit-gcc",
     "language": "Dockerfile",
     "pushed_at": "2026-03-02T10:18:54Z",
-    "stargazers_count": 4,
+    "stargazers_count": 3,
     "topics": [],
-    "updated_at": "2026-03-02T10:15:27Z"
+    "updated_at": "2026-05-06T02:13:30Z"
   },
   "repo_links": [],
   "terms": [

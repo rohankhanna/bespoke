@@ -465,6 +465,30 @@
       "source_repo": "ocsigen/lwt",
       "status": "candidate-context",
       "text": "[![version][version]][releases] [![GitHub Actions status][github-actions-img]][github-actions]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hcarty/mwt",
+      "status": "candidate-context",
+      "text": "Medium weight threads - preemptive thread pools for Lwt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hcarty/mwt",
+      "status": "candidate-context",
+      "text": "![CI checks](https://github.com/hcarty/mwt/workflows/CI%20checks/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inhabitedtype/faraday",
+      "status": "candidate-context",
+      "text": "Serialization library built for speed and memory efficiency"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inhabitedtype/faraday",
+      "status": "candidate-context",
+      "text": "Faraday is a library for writing fast and memory-efficient serializers. Its"
     }
   ],
   "candidate_glosses": [
@@ -695,6 +719,18 @@
       "source_repo": "ocsigen/lwt",
       "status": "candidate",
       "text": "[![version][version]][releases] [![GitHub Actions status][github-actions-img]][github-actions]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hcarty/mwt",
+      "status": "candidate",
+      "text": "![CI checks](https://github.com/hcarty/mwt/workflows/CI%20checks/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inhabitedtype/faraday",
+      "status": "candidate",
+      "text": "Faraday is a library for writing fast and memory-efficient serializers. Its"
     }
   ],
   "candidate_related_terms": [
@@ -1428,11 +1464,23 @@
       "observed_at": "2026-05-06T00:36:03.937537+00:00",
       "source_file": null,
       "source_repo": "rescript-lang/reanalyze"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": null,
+      "source_repo": "hcarty/mwt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": null,
+      "source_repo": "inhabitedtype/faraday"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

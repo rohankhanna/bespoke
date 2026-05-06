@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "scenegraph"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lace/tri-again",
+      "status": "candidate-context",
+      "text": "Simple scenegraph for quickly debugging 3D meshes, polylines, and points"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/tri-again",
+      "status": "candidate-context",
+      "text": "[![version](https://img.shields.io/pypi/v/tri-again?style=flat-square)][pypi]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/tri-again",
+      "status": "candidate",
+      "text": "[![version](https://img.shields.io/pypi/v/tri-again?style=flat-square)][pypi]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022499,
+      "status": "candidate",
+      "text": "sprite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022498,
+      "status": "candidate",
+      "text": "scanout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022497,
+      "status": "candidate",
+      "text": "computer graphics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022496,
+      "status": "candidate",
+      "text": "graphics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022495,
+      "status": "candidate",
+      "text": "screen"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "scenegraph",
+  "concept_id": "scenegraph",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": null,
+      "source_repo": "lace/tri-again"
+    }
+  ],
+  "first_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scenegraph",
+      "sense_id": "scenegraph#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

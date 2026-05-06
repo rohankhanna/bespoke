@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bump Version and Start Release Job"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "runtimeverification/evm-semantics",
+      "status": "candidate-context",
+      "text": "K Semantics of the Ethereum Virtual Machine (EVM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "runtimeverification/evm-semantics",
+      "status": "candidate-context",
+      "text": "'Bump Version and Start Release Job'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "runtimeverification/evm-semantics",
+      "status": "candidate",
+      "text": "'Bump Version and Start Release Job'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 54761,
+      "status": "candidate",
+      "text": "free"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 54761,
+      "status": "candidate",
+      "text": "freeing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 54446,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43630,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40568,
+      "status": "candidate",
+      "text": "kick"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bump Version and Start Release Job",
+  "concept_id": "bump-version-and-start-release-job",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": ".github/workflows/master-push.yml",
+      "source_repo": "runtimeverification/evm-semantics"
+    }
+  ],
+  "first_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump Version and Start Release Job",
+      "sense_id": "bump-version-and-start-release-job#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

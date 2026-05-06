@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-06T07:11:22.907316+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13598
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A few experimental nodes about the conditioning and the next closest tokens. For ComfyUI.",
+    "fork": false,
+    "full_name": "Extraltodeus/Conditioning-token-experiments-for-ComfyUI",
+    "html_url": "https://github.com/Extraltodeus/Conditioning-token-experiments-for-ComfyUI",
+    "language": "Python",
+    "pushed_at": "2024-03-10T01:04:02Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2026-02-22T18:40:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

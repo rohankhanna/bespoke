@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-06T07:05:05.211722+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1707
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Logging infrastructure for OCaml",
+    "fork": false,
+    "full_name": "dbuenzli/logs",
+    "html_url": "https://github.com/dbuenzli/logs",
+    "language": "OCaml",
+    "pushed_at": "2026-03-10T20:18:42Z",
+    "stargazers_count": 92,
+    "topics": [],
+    "updated_at": "2026-03-13T07:25:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

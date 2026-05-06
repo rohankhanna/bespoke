@@ -1,7 +1,7 @@
 {
   "component": "avsm/setup-ocaml@v1",
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/windows-ci.yml",
       "source_repo": "marcoonroad/ocaml-cuid"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "hcarty/mwt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "inhabitedtype/faraday"
     }
   ]
 }

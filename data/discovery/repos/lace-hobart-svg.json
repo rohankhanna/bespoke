@@ -1,0 +1,91 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/hobart-svg",
+      "target": "cross-section",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/hobart-svg",
+      "target": "mesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/hobart-svg",
+      "target": "polygons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/hobart-svg",
+      "target": "polylines",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T07:22:51.695290+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2606
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1122
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Render polygons, polylines, and mesh cross sections to SVG",
+    "fork": false,
+    "full_name": "lace/hobart-svg",
+    "html_url": "https://github.com/lace/hobart-svg",
+    "language": "Python",
+    "pushed_at": "2023-09-01T08:54:13Z",
+    "stargazers_count": 4,
+    "topics": [
+      "cross-section",
+      "mesh",
+      "polygons",
+      "polylines",
+      "svg"
+    ],
+    "updated_at": "2023-07-07T12:20:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/hobart-svg?style=flat-square)][pypi]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-section"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/hobart-svg?style=flat-square)][pypi]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesh"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/hobart-svg?style=flat-square)][pypi]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polygons"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/hobart-svg?style=flat-square)][pypi]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polylines"
+    }
+  ]
+}

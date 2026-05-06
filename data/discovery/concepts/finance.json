@@ -139,6 +139,18 @@
       "source_repo": "joshuaulrich/quantmod",
       "status": "candidate-context",
       "text": "[quantmod](http://www.quantmod.com) is an [R](https://www.r-project.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serversideup/financial-freedom",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25\ud83d\udd25\ud83d\udd25 An open source alternative to Mint, YNAB, and more. Stay on budget and build wealth without sacrificing your privacy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serversideup/financial-freedom",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "joshuaulrich/quantmod",
       "status": "candidate",
       "text": "[quantmod](http://www.quantmod.com) is an [R](https://www.r-project.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serversideup/financial-freedom",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -394,11 +412,17 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "TA-Lib/ta-lib-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": null,
+      "source_repo": "serversideup/financial-freedom"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

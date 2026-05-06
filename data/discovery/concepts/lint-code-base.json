@@ -253,6 +253,18 @@
       "source_repo": "edwinb/Idris2",
       "status": "candidate-context",
       "text": "Lint Code Base"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-lua/nvim-lua-plugin-template",
+      "status": "candidate-context",
+      "text": "A starter template for a Neovim plugin written in Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-lua/nvim-lua-plugin-template",
+      "status": "candidate-context",
+      "text": "Lint Code Base"
     }
   ],
   "candidate_glosses": [
@@ -379,6 +391,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "edwinb/Idris2",
+      "status": "candidate",
+      "text": "Lint Code Base"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-lua/nvim-lua-plugin-template",
       "status": "candidate",
       "text": "Lint Code Base"
     }
@@ -796,11 +814,23 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": ".github/workflows/linter.yml",
       "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": ".github/workflows/super-linter.yml",
+      "source_repo": "pytorch/gloo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "nvim-lua/nvim-lua-plugin-template"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

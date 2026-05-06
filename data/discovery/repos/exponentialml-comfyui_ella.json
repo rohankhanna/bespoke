@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ExponentialML/ComfyUI_ELLA",
+      "target": "tencentqqgylab/ella",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-06T07:11:25.259831+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2921
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "ComfyUI Implementaion of ELLA: Equip Diffusion Models with LLM for Enhanced Semantic Alignment",
+    "fork": false,
+    "full_name": "ExponentialML/ComfyUI_ELLA",
+    "html_url": "https://github.com/ExponentialML/ComfyUI_ELLA",
+    "language": "Python",
+    "pushed_at": "2024-04-27T19:12:14Z",
+    "stargazers_count": 162,
+    "topics": [],
+    "updated_at": "2026-03-10T03:03:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencentqqgylab/ella",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

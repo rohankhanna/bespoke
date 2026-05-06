@@ -559,6 +559,18 @@
       "source_repo": "Extraltodeus/Skimmed_CFG",
       "status": "candidate-context",
       "text": "A powerful anti-burn allowing much higher CFG scales for latent diffusion models (for ComfyUI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Extraltodeus/Uncond-Zero-for-ComfyUI",
+      "status": "candidate-context",
+      "text": "Allows to sample without generating any uncond with Stable Diffusion!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Extraltodeus/Uncond-Zero-for-ComfyUI",
+      "status": "candidate-context",
+      "text": "Allows to sample without generating any negative prediction with Stable Diffusion!"
     }
   ],
   "candidate_glosses": [
@@ -837,6 +849,12 @@
       "source_repo": "Extraltodeus/Skimmed_CFG",
       "status": "candidate",
       "text": "A powerful anti-burn allowing much higher CFG scales for latent diffusion models (for ComfyUI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Extraltodeus/Uncond-Zero-for-ComfyUI",
+      "status": "candidate",
+      "text": "Allows to sample without generating any negative prediction with Stable Diffusion!"
     }
   ],
   "candidate_related_terms": [],
@@ -1702,11 +1720,23 @@
       "observed_at": "2026-05-06T00:36:03.937537+00:00",
       "source_file": null,
       "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": null,
+      "source_repo": "Extraltodeus/Uncond-Zero-for-ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -598,6 +598,18 @@
       "source_repo": "sorbet/sorbet-typed",
       "status": "candidate-context",
       "text": "![Ruby](https://github.com/sorbet/sorbet-typed/workflows/Ruby/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sorbet/sorbet",
+      "status": "candidate-context",
+      "text": "A fast, powerful type checker designed for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sorbet/sorbet",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -894,6 +906,12 @@
       "source_repo": "sorbet/sorbet-typed",
       "status": "candidate",
       "text": "![Ruby](https://github.com/sorbet/sorbet-typed/workflows/Ruby/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sorbet/sorbet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1405,11 +1423,17 @@
       "observed_at": "2026-05-06T00:36:03.937537+00:00",
       "source_file": null,
       "source_repo": "dwyl/phoenix-ecto-encryption-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": null,
+      "source_repo": "sorbet/sorbet"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

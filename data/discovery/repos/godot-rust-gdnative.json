@@ -232,7 +232,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T18:50:55.919121+00:00",
+  "fetched_at": "2026-05-06T07:16:04.394117+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -269,14 +269,14 @@
     "html_url": "https://github.com/godot-rust/gdnative",
     "language": "Rust",
     "pushed_at": "2025-12-31T11:42:26Z",
-    "stargazers_count": 3633,
+    "stargazers_count": 3632,
     "topics": [
       "game-development",
       "gamedev",
       "godot",
       "rust"
     ],
-    "updated_at": "2026-04-30T14:49:20Z"
+    "updated_at": "2026-05-05T20:45:54Z"
   },
   "repo_links": [
     {

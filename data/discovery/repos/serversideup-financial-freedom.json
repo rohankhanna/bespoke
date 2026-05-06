@@ -1,0 +1,631 @@
+{
+  "components": [
+    {
+      "component": "@headlessui/vue",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@heroicons/vue",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vueuse/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chart.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "moment",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "momentum-modal",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "papaparse",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue-chartjs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "zxcvbn",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@inertiajs/vue3",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@tailwindcss/forms",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitejs/plugin-basic-ssl",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitejs/plugin-vue",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "autoprefixer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "axios",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "laravel-vite-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tailwindcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action_app-publish-edge.yml"
+    },
+    {
+      "component": "peter-evans/dockerhub-description@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action_app-publish-edge.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-task_update-sponsors.yml"
+    },
+    {
+      "component": "JamesIves/github-sponsors-readme-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-task_update-sponsors.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-task_update-sponsors.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/service_deploy-static-site.yml"
+    },
+    {
+      "component": "cloudflare/pages-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/service_deploy-static-site.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/service_docker-build-and-publish.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/service_docker-build-and-publish.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/service_docker-build-and-publish.yml"
+    },
+    {
+      "component": "serversideup/github-action-docker-build@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/service_docker-build-and-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/service_install-and-build-node.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/service_install-and-build-node.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/service_install-and-build-node.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/service_install-and-build-node.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/service_install-and-build-node.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/service_install-and-build-node.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "maybe-finance/maybe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "@headlessui/vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "@heroicons/vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "@vueuse/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "chart.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "moment",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "momentum-modal",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "papaparse",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "vue-chartjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "zxcvbn",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "@inertiajs/vue3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "@tailwindcss/forms",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "@vitejs/plugin-basic-ssl",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "@vitejs/plugin-vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "autoprefixer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "laravel-vite-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "tailwindcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action_app-publish-edge.yml",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action_app-publish-edge.yml",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "peter-evans/dockerhub-description@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/action_app-publish-edge.yml",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "Docker Publish (Edge Image)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/action_app-publish-release.yml",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "Docker Publish (Release)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/action_marketing-site-preview.yml",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "Site Deployment - Preview \ud83d\udc68\u200d\ud83d\udd2c",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/action_marketing-site-publish.yml",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "Site Deployment - Production \ud83d\ude80",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-task_update-sponsors.yml",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-task_update-sponsors.yml",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "JamesIves/github-sponsors-readme-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-task_update-sponsors.yml",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scheduled-task_update-sponsors.yml",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "Generate Sponsors README",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/service_deploy-static-site.yml",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/service_deploy-static-site.yml",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "cloudflare/pages-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/service_docker-build-and-publish.yml",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/service_docker-build-and-publish.yml",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/service_docker-build-and-publish.yml",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "serversideup/github-action-docker-build@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/service_install-and-build-node.yml",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/service_install-and-build-node.yml",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/service_install-and-build-node.yml",
+      "source_repo": "serversideup/financial-freedom",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serversideup/financial-freedom",
+      "target": "budgeting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serversideup/financial-freedom",
+      "target": "finance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serversideup/financial-freedom",
+      "target": "financial-independence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serversideup/financial-freedom",
+      "target": "laravel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serversideup/financial-freedom",
+      "target": "vuejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T07:06:03.335981+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10500
+    },
+    {
+      "path": "package.json",
+      "size": 866
+    },
+    {
+      "path": ".github/workflows/action_app-publish-edge.yml",
+      "size": 968
+    },
+    {
+      "path": ".github/workflows/action_app-publish-release.yml",
+      "size": 355
+    },
+    {
+      "path": ".github/workflows/action_marketing-site-preview.yml",
+      "size": 308
+    },
+    {
+      "path": ".github/workflows/action_marketing-site-publish.yml",
+      "size": 291
+    },
+    {
+      "path": ".github/workflows/scheduled-task_update-sponsors.yml",
+      "size": 1026
+    },
+    {
+      "path": ".github/workflows/service_deploy-static-site.yml",
+      "size": 1213
+    },
+    {
+      "path": ".github/workflows/service_docker-build-and-publish.yml",
+      "size": 1890
+    },
+    {
+      "path": ".github/workflows/service_install-and-build-node.yml",
+      "size": 1937
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udd25\ud83d\udd25\ud83d\udd25 An open source alternative to Mint, YNAB, and more. Stay on budget and build wealth without sacrificing your privacy.",
+    "fork": false,
+    "full_name": "serversideup/financial-freedom",
+    "html_url": "https://github.com/serversideup/financial-freedom",
+    "language": "Vue",
+    "pushed_at": "2026-04-08T15:22:34Z",
+    "stargazers_count": 2855,
+    "topics": [
+      "budgeting",
+      "finance",
+      "financial-independence",
+      "laravel",
+      "vuejs"
+    ],
+    "updated_at": "2026-05-06T04:46:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maybe-finance/maybe",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docker Publish (Edge Image)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/action_app-publish-edge.yml",
+      "term": "Docker Publish (Edge Image)"
+    },
+    {
+      "context_snippet": "Docker Publish (Release)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/action_app-publish-release.yml",
+      "term": "Docker Publish (Release)"
+    },
+    {
+      "context_snippet": "Site Deployment - Preview \ud83d\udc68\u200d\ud83d\udd2c",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/action_marketing-site-preview.yml",
+      "term": "Site Deployment - Preview \ud83d\udc68\u200d\ud83d\udd2c"
+    },
+    {
+      "context_snippet": "Site Deployment - Production \ud83d\ude80",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/action_marketing-site-publish.yml",
+      "term": "Site Deployment - Production \ud83d\ude80"
+    },
+    {
+      "context_snippet": "Generate Sponsors README",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scheduled-task_update-sponsors.yml",
+      "term": "Generate Sponsors README"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "budgeting"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "finance"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "financial-independence"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "laravel"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vuejs"
+    }
+  ]
+}

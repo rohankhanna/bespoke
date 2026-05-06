@@ -31,6 +31,18 @@
       "source_repo": "cleanunicorn/ethereum-smartcontract-template",
       "status": "candidate-context",
       "text": "This development quick start template is heavily inspired by [Georgios's template](https://github.com/gakonst/dapptools-template). Over time it was migrated to use [foundry](https://github.com/gakonst/foundry) since dapptools was deprecated."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vyperlang/vyper",
+      "status": "candidate-context",
+      "text": "Pythonic Smart Contract Language for the EVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vyperlang/vyper",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/vyperlang/vyper/master/docs/logo.svg?sanitize=true\" alt=\"\" width=\"110\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "cleanunicorn/ethereum-smartcontract-template",
       "status": "candidate",
       "text": "This development quick start template is heavily inspired by [Georgios's template](https://github.com/gakonst/dapptools-template). Over time it was migrated to use [foundry](https://github.com/gakonst/foundry) since dapptools was deprecated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vyperlang/vyper",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/vyperlang/vyper/master/docs/logo.svg?sanitize=true\" alt=\"\" width=\"110\">"
     }
   ],
   "candidate_related_terms": [],
@@ -142,11 +160,17 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "wamp-proto/wamp-xbr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": null,
+      "source_repo": "vyperlang/vyper"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

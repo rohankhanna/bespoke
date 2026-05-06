@@ -1,0 +1,271 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-report.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-report.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/proximity",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/proximity",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/proximity",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/proximity",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/proximity",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/proximity",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-report.yml",
+      "source_repo": "lace/proximity",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-report.yml",
+      "source_repo": "lace/proximity",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage-report.yml",
+      "source_repo": "lace/proximity",
+      "target": "Generate coverage report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "lace/proximity",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "lace/proximity",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/proximity",
+      "target": "closest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/proximity",
+      "target": "libspatialindex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/proximity",
+      "target": "mesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/proximity",
+      "target": "nearest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/proximity",
+      "target": "rtree",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T07:22:41.394324+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1388
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2164
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 989
+    },
+    {
+      "path": ".github/workflows/coverage-report.yml",
+      "size": 614
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 3071
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mesh proximity queries based on libspatialindex and rtree, extracted from Trimesh",
+    "fork": false,
+    "full_name": "lace/proximity",
+    "html_url": "https://github.com/lace/proximity",
+    "language": "Python",
+    "pushed_at": "2026-04-14T02:27:27Z",
+    "stargazers_count": 1,
+    "topics": [
+      "closest",
+      "libspatialindex",
+      "mesh",
+      "nearest",
+      "rtree"
+    ],
+    "updated_at": "2026-02-27T21:27:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Generate coverage report",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage-report.yml",
+      "term": "Generate coverage report"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/proximity?style=flat-square)][pypi]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "closest"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/proximity?style=flat-square)][pypi]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libspatialindex"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/proximity?style=flat-square)][pypi]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesh"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/proximity?style=flat-square)][pypi]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nearest"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/proximity?style=flat-square)][pypi]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rtree"
+    }
+  ]
+}

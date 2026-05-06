@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udd25\ud83d\udd25\ud83d\udd25 An open source alternative to Mint, YNAB, and more. Stay on budget and build wealth without sacrificing your privacy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "financial-independence",
+      "sense_id": "financial-independence#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "financial-independence",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "financial-independence",
+  "observation_id": "b970dbfe2b35de84",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-06T07:04:23.568635+00:00",
+  "observed_text": "financial-independence",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "serversideup/financial-freedom",
+  "source_repo_description": "\ud83d\udd25\ud83d\udd25\ud83d\udd25 An open source alternative to Mint, YNAB, and more. Stay on budget and build wealth without sacrificing your privacy."
+}

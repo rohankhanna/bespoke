@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy docker image to ghcr"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vyperlang/vyper",
+      "status": "candidate-context",
+      "text": "Pythonic Smart Contract Language for the EVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vyperlang/vyper",
+      "status": "candidate-context",
+      "text": "Deploy docker image to ghcr"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vyperlang/vyper",
+      "status": "candidate",
+      "text": "Deploy docker image to ghcr"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15684,
+      "status": "candidate",
+      "text": "boat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13820,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13820,
+      "status": "candidate",
+      "text": "pulling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13820,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13820,
+      "status": "candidate",
+      "text": "set"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy docker image to ghcr",
+  "concept_id": "deploy-docker-image-to-ghcr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": ".github/workflows/ghcr.yml",
+      "source_repo": "vyperlang/vyper"
+    }
+  ],
+  "first_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy docker image to ghcr",
+      "sense_id": "deploy-docker-image-to-ghcr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

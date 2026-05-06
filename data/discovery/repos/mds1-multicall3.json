@@ -23,20 +23,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "mds1/multicall3",
-      "target": "runtimeverification/verified-smart-contracts",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "mds1/multicall3",
-      "target": "mds1/multicall3-frontend",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "mds1/multicall3",
       "target": "makerdao/multicall",
       "target_type": "repository"
     },
@@ -62,7 +48,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T19:08:15.266496+00:00",
+  "fetched_at": "2026-05-06T07:36:45.073956+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -96,16 +82,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "mds1/multicall",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mds1/multicall3-frontend",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "runtimeverification/verified-smart-contracts",
       "source_file": "README.md"
     }
   ],

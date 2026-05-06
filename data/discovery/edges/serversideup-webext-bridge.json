@@ -2,13 +2,6 @@
   "edges": [
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "serversideup/webext-bridge",
-      "target": "serversideup/financial-freedom",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "package.json",
       "source_repo": "serversideup/webext-bridge",
       "target": "zikaari/webext-bridge",
@@ -169,6 +162,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-05T18:38:09.351693+00:00",
+  "generated_at": "2026-05-06T07:04:23.568635+00:00",
   "source_repo": "serversideup/webext-bridge"
 }

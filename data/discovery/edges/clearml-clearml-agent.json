@@ -1,6 +1,13 @@
 {
   "edges": [
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clearml/clearml-agent",
+      "target": "clearml/clearml-agent-bootstrap",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "clearml/clearml-agent",
@@ -85,6 +92,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-05T18:38:09.351693+00:00",
+  "generated_at": "2026-05-06T07:04:23.568635+00:00",
   "source_repo": "clearml/clearml-agent"
 }

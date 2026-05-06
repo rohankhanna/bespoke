@@ -1,7 +1,7 @@
 {
   "component": "vue",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -827,6 +827,11 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "vueuse/vueuse-vue3-example"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "serversideup/financial-freedom"
     }
   ]
 }

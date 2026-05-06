@@ -175,6 +175,30 @@
       "source_repo": "lace/hobart",
       "status": "candidate-context",
       "text": "[![version](https://img.shields.io/pypi/v/hobart?style=flat-square)][pypi]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lace/proximity",
+      "status": "candidate-context",
+      "text": "Mesh proximity queries based on libspatialindex and rtree, extracted from Trimesh"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/proximity",
+      "status": "candidate-context",
+      "text": "[![version](https://img.shields.io/pypi/v/proximity?style=flat-square)][pypi]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lace/hobart-svg",
+      "status": "candidate-context",
+      "text": "Render polygons, polylines, and mesh cross sections to SVG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/hobart-svg",
+      "status": "candidate-context",
+      "text": "[![version](https://img.shields.io/pypi/v/hobart-svg?style=flat-square)][pypi]"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "lace/hobart",
       "status": "candidate",
       "text": "[![version](https://img.shields.io/pypi/v/hobart?style=flat-square)][pypi]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/proximity",
+      "status": "candidate",
+      "text": "[![version](https://img.shields.io/pypi/v/proximity?style=flat-square)][pypi]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/hobart-svg",
+      "status": "candidate",
+      "text": "[![version](https://img.shields.io/pypi/v/hobart-svg?style=flat-square)][pypi]"
     }
   ],
   "candidate_related_terms": [
@@ -424,11 +460,29 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "lace/hobart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": null,
+      "source_repo": "lace/proximity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": null,
+      "source_repo": "lace/lacecore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": null,
+      "source_repo": "lace/hobart-svg"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

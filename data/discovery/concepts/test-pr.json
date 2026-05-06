@@ -57,6 +57,18 @@
       "source_repo": "lumen-oss/nurr",
       "status": "candidate-context",
       "text": "test pr"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "runtimeverification/evm-semantics",
+      "status": "candidate-context",
+      "text": "K Semantics of the Ethereum Virtual Machine (EVM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "runtimeverification/evm-semantics",
+      "status": "candidate-context",
+      "text": "'Test PR'"
     }
   ],
   "candidate_glosses": [
@@ -83,6 +95,12 @@
       "source_repo": "lumen-oss/nurr",
       "status": "candidate",
       "text": "test pr"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "runtimeverification/evm-semantics",
+      "status": "candidate",
+      "text": "'Test PR'"
     }
   ],
   "candidate_related_terms": [
@@ -263,11 +281,17 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "lumen-oss/nurr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": ".github/workflows/test-pr.yml",
+      "source_repo": "runtimeverification/evm-semantics"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

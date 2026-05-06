@@ -11,7 +11,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "xlite-dev/Awesome-DiT-Inference",
-      "target": "shenyi-z/duca",
+      "target": "shenyi-z/toca",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xlite-dev/Awesome-DiT-Inference",
+      "target": "shenyi-z/taylorseer",
       "target_type": "repository"
     },
     {
@@ -19,13 +26,6 @@
       "source_file": "README.md",
       "source_repo": "xlite-dev/Awesome-DiT-Inference",
       "target": "mit-han-lab/nunchaku",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "xlite-dev/Awesome-DiT-Inference",
-      "target": "shawnricecake/draft-attention",
       "target_type": "repository"
     },
     {
@@ -99,6 +99,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-05T18:38:09.351693+00:00",
+  "generated_at": "2026-05-06T07:04:23.568635+00:00",
   "source_repo": "xlite-dev/Awesome-DiT-Inference"
 }

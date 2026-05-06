@@ -702,6 +702,18 @@
       "source_repo": "Shopify/rbi-central",
       "status": "candidate-context",
       "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shopify/measured",
+      "status": "candidate-context",
+      "text": "Encapsulate measurements and their units in Ruby and Ruby on Rails."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/measured",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
     }
   ],
   "candidate_glosses": [
@@ -1044,6 +1056,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Shopify/rbi-central",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/measured",
       "status": "candidate",
       "text": "Dependabot auto-merge"
     }
@@ -1437,11 +1455,17 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/dependabot_automerge.yml",
       "source_repo": "Shopify/rbi-central"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": ".github/workflows/dependabot_auto_merge.yml",
+      "source_repo": "Shopify/measured"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

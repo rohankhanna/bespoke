@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Site Deployment - Production \ud83d\ude80"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serversideup/financial-freedom",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25\ud83d\udd25\ud83d\udd25 An open source alternative to Mint, YNAB, and more. Stay on budget and build wealth without sacrificing your privacy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serversideup/financial-freedom",
+      "status": "candidate-context",
+      "text": "Site Deployment - Production \ud83d\ude80"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serversideup/financial-freedom",
+      "status": "candidate",
+      "text": "Site Deployment - Production \ud83d\ude80"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34526,
+      "status": "candidate",
+      "text": "plan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26103,
+      "status": "candidate",
+      "text": "bakehouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26039,
+      "status": "candidate",
+      "text": "atelier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20533,
+      "status": "candidate",
+      "text": "stock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20462,
+      "status": "candidate",
+      "text": "stocks"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Site Deployment - Production \ud83d\ude80",
+  "concept_id": "site-deployment---production",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": ".github/workflows/action_marketing-site-publish.yml",
+      "source_repo": "serversideup/financial-freedom"
+    }
+  ],
+  "first_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Site Deployment - Production \ud83d\ude80",
+      "sense_id": "site-deployment---production#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

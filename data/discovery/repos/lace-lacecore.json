@@ -66,27 +66,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lace/lacecore",
-      "target": "lace/lace",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lace/lacecore",
-      "target": "lace/polliwog",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lace/lacecore",
-      "target": "lace/vg",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lace/lacecore",
       "target": "metabolize/lace",
       "target_type": "repository"
     },
@@ -175,7 +154,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T08:19:37.797025+00:00",
+  "fetched_at": "2026-05-06T07:22:48.924766+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -217,21 +196,6 @@
     "updated_at": "2026-03-18T13:55:52Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lace/lace",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lace/polliwog",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lace/vg",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "metabolize/lace",

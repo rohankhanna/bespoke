@@ -58,6 +58,18 @@
       "source_repo": "Shopify/tapioca",
       "status": "candidate-context",
       "text": "> :warning: **Note**: This software is currently under active development. The API and interface should be considered unstable until a v1.0.0 release."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sorbet/sorbet",
+      "status": "candidate-context",
+      "text": "A fast, powerful type checker designed for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sorbet/sorbet",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +96,12 @@
       "source_repo": "Shopify/tapioca",
       "status": "candidate",
       "text": "> :warning: **Note**: This software is currently under active development. The API and interface should be considered unstable until a v1.0.0 release."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sorbet/sorbet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -166,11 +184,17 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "Shopify/tapioca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": null,
+      "source_repo": "sorbet/sorbet"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

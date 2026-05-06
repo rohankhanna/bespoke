@@ -420,11 +420,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T18:47:49.110408+00:00",
+  "fetched_at": "2026-05-06T07:12:06.068361+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 10128
+      "size": 10137
     },
     {
       "path": ".github/workflows/arm.yml",
@@ -472,8 +472,8 @@
     "full_name": "harfbuzz/harfbuzz",
     "html_url": "https://github.com/harfbuzz/harfbuzz",
     "language": "C++",
-    "pushed_at": "2026-05-05T16:10:48Z",
-    "stargazers_count": 5611,
+    "pushed_at": "2026-05-06T04:34:40Z",
+    "stargazers_count": 5612,
     "topics": [
       "aat",
       "c",
@@ -487,7 +487,7 @@
       "unicode",
       "variable-fonts"
     ],
-    "updated_at": "2026-05-05T18:14:55Z"
+    "updated_at": "2026-05-06T04:34:44Z"
   },
   "repo_links": [],
   "terms": [

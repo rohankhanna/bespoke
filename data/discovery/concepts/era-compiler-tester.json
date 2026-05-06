@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Era compiler tester"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vyperlang/vyper",
+      "status": "candidate-context",
+      "text": "Pythonic Smart Contract Language for the EVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vyperlang/vyper",
+      "status": "candidate-context",
+      "text": "Era compiler tester"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vyperlang/vyper",
+      "status": "candidate",
+      "text": "Era compiler tester"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17813,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17498,
+      "status": "candidate",
+      "text": "assembler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10085,
+      "status": "candidate",
+      "text": "diderot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9922,
+      "status": "candidate",
+      "text": "cia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9870,
+      "status": "candidate",
+      "text": "final"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Era compiler tester",
+  "concept_id": "era-compiler-tester",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": ".github/workflows/era-tester.yml",
+      "source_repo": "vyperlang/vyper"
+    }
+  ],
+  "first_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Era compiler tester",
+      "sense_id": "era-compiler-tester#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

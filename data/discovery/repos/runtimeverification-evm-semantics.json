@@ -1,0 +1,358 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master-push.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "workflow/nix-shell-action@v3.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v1.24.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "workflow/nix-shell-action@v3.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v1.24.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v1.24.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v1.24.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-version.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-version.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31.5.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-version.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-version.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "runtimeverification/evm-semantics",
+      "target": "ethereum/yellowpaper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "runtimeverification/evm-semantics",
+      "target": "pirapira/eth-isabelle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "runtimeverification/evm-semantics",
+      "target": "runtimeverification/k",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "runtimeverification/evm-semantics",
+      "target": "kframework/k-editor-support",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master-push.yml",
+      "source_repo": "runtimeverification/evm-semantics",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master-push.yml",
+      "source_repo": "runtimeverification/evm-semantics",
+      "target": "Bump Version and Start Release Job",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "runtimeverification/evm-semantics",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "runtimeverification/evm-semantics",
+      "target": "workflow/nix-shell-action@v3.0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "runtimeverification/evm-semantics",
+      "target": "slackapi/slack-github-action@v1.24.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "runtimeverification/evm-semantics",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml",
+      "source_repo": "runtimeverification/evm-semantics",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml",
+      "source_repo": "runtimeverification/evm-semantics",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml",
+      "source_repo": "runtimeverification/evm-semantics",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-pr.yml",
+      "source_repo": "runtimeverification/evm-semantics",
+      "target": "Test PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-version.yml",
+      "source_repo": "runtimeverification/evm-semantics",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-version.yml",
+      "source_repo": "runtimeverification/evm-semantics",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-version.yml",
+      "source_repo": "runtimeverification/evm-semantics",
+      "target": "cachix/install-nix-action@v31.5.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-version.yml",
+      "source_repo": "runtimeverification/evm-semantics",
+      "target": "cachix/cachix-action@v12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-version.yml",
+      "source_repo": "runtimeverification/evm-semantics",
+      "target": "Update Version",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T07:36:57.540198+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14183
+    },
+    {
+      "path": ".github/workflows/Dockerfile",
+      "size": 1348
+    },
+    {
+      "path": ".github/workflows/master-push.yml",
+      "size": 1504
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 7804
+    },
+    {
+      "path": ".github/workflows/test-pr.yml",
+      "size": 6565
+    },
+    {
+      "path": ".github/workflows/update-version.yml",
+      "size": 4367
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "K Semantics of the Ethereum Virtual Machine (EVM)",
+    "fork": false,
+    "full_name": "runtimeverification/evm-semantics",
+    "html_url": "https://github.com/runtimeverification/evm-semantics",
+    "language": "KCL",
+    "pushed_at": "2026-04-28T12:15:14Z",
+    "stargazers_count": 582,
+    "topics": [],
+    "updated_at": "2026-05-02T23:42:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum/yellowpaper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kframework/k-editor-support",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pirapira/eth-isabelle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "runtimeverification/k",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Bump Version and Start Release Job'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master-push.yml",
+      "term": "Bump Version and Start Release Job"
+    },
+    {
+      "context_snippet": "'Release'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "'Test PR'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-pr.yml",
+      "term": "Test PR"
+    },
+    {
+      "context_snippet": "'Update Version'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-version.yml",
+      "term": "Update Version"
+    }
+  ]
+}

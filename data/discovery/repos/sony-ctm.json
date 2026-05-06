@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sony/ctm",
+      "target": "kim-dongjun/ctm-cifar10",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sony/ctm",
+      "target": "chiehhsinjesselai/ctm-notebook",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-06T07:11:24.231857+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4502
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "sony/ctm",
+    "html_url": "https://github.com/sony/ctm",
+    "language": "Python",
+    "pushed_at": "2026-03-03T06:08:27Z",
+    "stargazers_count": 320,
+    "topics": [],
+    "updated_at": "2026-03-26T17:14:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chiehhsinjesselai/ctm-notebook",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kim-dongjun/ctm-cifar10",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

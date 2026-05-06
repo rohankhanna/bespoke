@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A simple Python package to manipulate units of measure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ounce"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ounce"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029320,
+      "status": "candidate",
+      "text": "unit of measurement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9991722,
+      "status": "candidate",
+      "text": "social unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9965219,
+      "status": "candidate",
+      "text": "system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9938568,
+      "status": "candidate",
+      "text": "whole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9901744,
+      "status": "candidate",
+      "text": "building block"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "units",
+      "sense_id": "units#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "units",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "units",
+  "observation_id": "b1d530afe336ff80",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-06T07:04:23.568635+00:00",
+  "observed_text": "units",
+  "source_context_snippet": "ounce",
+  "source_file": null,
+  "source_repo": "lace/ounce",
+  "source_repo_description": "A simple Python package to manipulate units of measure"
+}

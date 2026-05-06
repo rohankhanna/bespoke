@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Site Deployment - Preview \ud83d\udc68\u200d\ud83d\udd2c"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serversideup/financial-freedom",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25\ud83d\udd25\ud83d\udd25 An open source alternative to Mint, YNAB, and more. Stay on budget and build wealth without sacrificing your privacy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serversideup/financial-freedom",
+      "status": "candidate-context",
+      "text": "Site Deployment - Preview \ud83d\udc68\u200d\ud83d\udd2c"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serversideup/financial-freedom",
+      "status": "candidate",
+      "text": "Site Deployment - Preview \ud83d\udc68\u200d\ud83d\udd2c"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23841,
+      "status": "candidate",
+      "text": "anemoscope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23841,
+      "status": "candidate",
+      "text": "anticipate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23841,
+      "status": "candidate",
+      "text": "come"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23841,
+      "status": "candidate",
+      "text": "distortion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23841,
+      "status": "candidate",
+      "text": "model"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Site Deployment - Preview \ud83d\udc68\u200d\ud83d\udd2c",
+  "concept_id": "site-deployment---preview",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T07:04:23.568635+00:00",
+      "source_file": ".github/workflows/action_marketing-site-preview.yml",
+      "source_repo": "serversideup/financial-freedom"
+    }
+  ],
+  "first_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Site Deployment - Preview \ud83d\udc68\u200d\ud83d\udd2c",
+      "sense_id": "site-deployment---preview#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

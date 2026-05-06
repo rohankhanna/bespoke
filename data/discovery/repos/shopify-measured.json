@@ -1,0 +1,194 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@50fbc622fc4ef5163becd7fab6573eac35f8462e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@e34163cd15f4bb403dcd72d98e295997e6a55798",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Shopify/shopify-cla-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    },
+    {
+      "component": "dependabot/fetch-metadata@c9c4182bf1b97f5224aee3906fd373f6b61b4526",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_auto_merge.yml"
+    },
+    {
+      "component": "actions/github-script@d7906e4ad0b1822421a7e6a35d5ca353c962f410",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_auto_merge.yml"
+    },
+    {
+      "component": "ruby/action-slack@b6882ea6ef8f556f9f9af9ec1220d3f1ced74acf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_auto_merge.yml"
+    },
+    {
+      "component": "actions/github-script@d7906e4ad0b1822421a7e6a35d5ca353c962f410",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_auto_merge.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shopify/measured",
+      "target": "shopify/measured-rails",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shopify/measured",
+      "target": "olbrich/ruby-units",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shopify/measured",
+      "target": "shopify/quantified",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shopify/measured",
+      "target": "joshwlewis/unitwise",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Shopify/measured",
+      "target": "actions/checkout@50fbc622fc4ef5163becd7fab6573eac35f8462e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Shopify/measured",
+      "target": "ruby/setup-ruby@e34163cd15f4bb403dcd72d98e295997e6a55798",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Shopify/measured",
+      "target": "Shopify/shopify-cla-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Shopify/measured",
+      "target": "Contributor License Agreement (CLA)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_auto_merge.yml",
+      "source_repo": "Shopify/measured",
+      "target": "dependabot/fetch-metadata@c9c4182bf1b97f5224aee3906fd373f6b61b4526",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_auto_merge.yml",
+      "source_repo": "Shopify/measured",
+      "target": "actions/github-script@d7906e4ad0b1822421a7e6a35d5ca353c962f410",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_auto_merge.yml",
+      "source_repo": "Shopify/measured",
+      "target": "ruby/action-slack@b6882ea6ef8f556f9f9af9ec1220d3f1ced74acf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot_auto_merge.yml",
+      "source_repo": "Shopify/measured",
+      "target": "Dependabot auto-merge",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T07:07:19.846756+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13475
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 883
+    },
+    {
+      "path": ".github/workflows/cla.yml",
+      "size": 619
+    },
+    {
+      "path": ".github/workflows/dependabot_auto_merge.yml",
+      "size": 4172
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Encapsulate measurements and their units in Ruby and Ruby on Rails.",
+    "fork": false,
+    "full_name": "Shopify/measured",
+    "html_url": "https://github.com/Shopify/measured",
+    "language": "Ruby",
+    "pushed_at": "2026-03-27T20:07:18Z",
+    "stargazers_count": 383,
+    "topics": [],
+    "updated_at": "2026-04-22T19:27:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joshwlewis/unitwise",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "olbrich/ruby-units",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shopify/measured-rails",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shopify/quantified",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Contributor License Agreement (CLA)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "term": "Contributor License Agreement (CLA)"
+    },
+    {
+      "context_snippet": "Dependabot auto-merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot_auto_merge.yml",
+      "term": "Dependabot auto-merge"
+    }
+  ]
+}

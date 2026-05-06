@@ -1,0 +1,169 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/tri-again",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/tri-again",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/tri-again",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/tri-again",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/tri-again",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/tri-again",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/tri-again",
+      "target": "collada",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/tri-again",
+      "target": "debugging-3d-meshes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/tri-again",
+      "target": "polyline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/tri-again",
+      "target": "scenegraph",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T07:22:45.272681+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1399
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1506
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 989
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simple scenegraph for quickly debugging 3D meshes, polylines, and points",
+    "fork": false,
+    "full_name": "lace/tri-again",
+    "html_url": "https://github.com/lace/tri-again",
+    "language": "Python",
+    "pushed_at": "2022-12-14T16:14:31Z",
+    "stargazers_count": 0,
+    "topics": [
+      "collada",
+      "dae",
+      "debugging-3d-meshes",
+      "polyline",
+      "scenegraph"
+    ],
+    "updated_at": "2021-11-24T15:51:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/tri-again?style=flat-square)][pypi]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "collada"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/tri-again?style=flat-square)][pypi]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugging-3d-meshes"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/tri-again?style=flat-square)][pypi]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polyline"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/tri-again?style=flat-square)][pypi]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scenegraph"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-06T07:13:36.169424+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "haxeui/haxeui-android",
+    "html_url": "https://github.com/haxeui/haxeui-android",
+    "language": "Haxe",
+    "pushed_at": "2024-08-27T07:33:47Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2024-11-30T15:03:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Mesh proximity queries based on libspatialindex and rtree, extracted from Trimesh"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![version](https://img.shields.io/pypi/v/proximity?style=flat-square)][pypi]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![version](https://img.shields.io/pypi/v/proximity?style=flat-square)][pypi]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rtree",
+      "sense_id": "rtree#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rtree",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rtree",
+  "observation_id": "1a7189b313eb474f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-06T07:04:23.568635+00:00",
+  "observed_text": "rtree",
+  "source_context_snippet": "[![version](https://img.shields.io/pypi/v/proximity?style=flat-square)][pypi]",
+  "source_file": null,
+  "source_repo": "lace/proximity",
+  "source_repo_description": "Mesh proximity queries based on libspatialindex and rtree, extracted from Trimesh"
+}

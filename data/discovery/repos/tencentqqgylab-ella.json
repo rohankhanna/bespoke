@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TencentQQGYLab/ELLA",
+      "target": "kijai/comfyui-ella-wrapper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TencentQQGYLab/ELLA",
+      "target": "j-min/dsg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TencentQQGYLab/ELLA",
+      "target": "ella-diffusion/ella",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-06T07:11:27.099274+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13854
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ELLA: Equip Diffusion Models with LLM for Enhanced Semantic Alignment",
+    "fork": false,
+    "full_name": "TencentQQGYLab/ELLA",
+    "html_url": "https://github.com/TencentQQGYLab/ELLA",
+    "language": "Python",
+    "pushed_at": "2024-07-17T10:02:15Z",
+    "stargazers_count": 1284,
+    "topics": [],
+    "updated_at": "2026-04-22T14:19:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ella-diffusion/ella",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "j-min/dsg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kijai/comfyui-ella-wrapper",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

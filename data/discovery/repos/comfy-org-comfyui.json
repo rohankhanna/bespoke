@@ -16,6 +16,16 @@
       "source_file": ".github/workflows/check-line-endings.yml"
     },
     {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openapi-lint.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openapi-lint.yml"
+    },
+    {
       "component": "comfy-org/comfy-action@main",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pullrequest-ci-run.yml"
@@ -24,26 +34,6 @@
       "component": "actions/github-script@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pullrequest-ci-run.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ruff.yml"
-    },
-    {
-      "component": "actions/setup-python@v2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ruff.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ruff.yml"
-    },
-    {
-      "component": "actions/setup-python@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ruff.yml"
     }
   ],
   "edges": [
@@ -105,6 +95,27 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openapi-lint.yml",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openapi-lint.yml",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/openapi-lint.yml",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "OpenAPI Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pullrequest-ci-run.yml",
       "source_repo": "Comfy-Org/ComfyUI",
       "target": "comfy-org/comfy-action@main",
@@ -139,27 +150,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ruff.yml",
-      "source_repo": "Comfy-Org/ComfyUI",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ruff.yml",
-      "source_repo": "Comfy-Org/ComfyUI",
-      "target": "actions/setup-python@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ruff.yml",
-      "source_repo": "Comfy-Org/ComfyUI",
-      "target": "actions/setup-python@v4",
-      "target_type": "component"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "Comfy-Org/ComfyUI",
@@ -188,7 +178,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T18:50:45.223116+00:00",
+  "fetched_at": "2026-05-06T07:15:48.332970+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -215,6 +205,10 @@
       "size": 1235
     },
     {
+      "path": ".github/workflows/openapi-lint.yml",
+      "size": 639
+    },
+    {
       "path": ".github/workflows/pullrequest-ci-run.yml",
       "size": 1937
     },
@@ -225,10 +219,6 @@
     {
       "path": ".github/workflows/release-webhook.yml",
       "size": 6601
-    },
-    {
-      "path": ".github/workflows/ruff.yml",
-      "size": 973
     }
   ],
   "related_repositories": [],
@@ -240,8 +230,8 @@
     "full_name": "Comfy-Org/ComfyUI",
     "html_url": "https://github.com/Comfy-Org/ComfyUI",
     "language": "Python",
-    "pushed_at": "2026-05-05T18:33:16Z",
-    "stargazers_count": 111460,
+    "pushed_at": "2026-05-06T05:22:48Z",
+    "stargazers_count": 111535,
     "topics": [
       "ai",
       "comfy",
@@ -250,7 +240,7 @@
       "pytorch",
       "stable-diffusion"
     ],
-    "updated_at": "2026-05-05T18:45:20Z"
+    "updated_at": "2026-05-06T07:14:35Z"
   },
   "repo_links": [
     {
@@ -282,6 +272,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/check-line-endings.yml",
       "term": "Check for Windows Line Endings"
+    },
+    {
+      "context_snippet": "OpenAPI Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/openapi-lint.yml",
+      "term": "OpenAPI Lint"
     },
     {
       "context_snippet": "Pull Request CI Workflow Runs",
