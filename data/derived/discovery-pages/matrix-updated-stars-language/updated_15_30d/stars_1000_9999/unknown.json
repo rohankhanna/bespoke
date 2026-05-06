@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 26,
-    "concepts": 60,
-    "observations": 60,
-    "repos": 19,
-    "terms": 60
+    "concepts": 63,
+    "observations": 63,
+    "repos": 20,
+    "terms": 63
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "0xNyk/awesome-hermes-agent",
     "alchaincyf/zhangxuefeng-skill",
@@ -32,6 +32,7 @@
     "rust-embedded/wg",
     "shuaibiyy/awesome-tf",
     "skills-directory/skill-codex",
-    "tmstack/awesome-persona-skills"
+    "tmstack/awesome-persona-skills",
+    "web-padawan/awesome-lit"
   ]
 }

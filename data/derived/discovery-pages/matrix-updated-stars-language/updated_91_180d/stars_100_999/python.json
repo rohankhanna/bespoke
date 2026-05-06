@@ -3,8 +3,8 @@
     "components": 340,
     "concepts": 698,
     "observations": 699,
-    "repos": 184,
-    "terms": 691
+    "repos": 183,
+    "terms": 689
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "0k/shyaml",
     "23andMe/Yamale",
@@ -32,7 +32,6 @@
     "AmenRa/retriv",
     "AnonymouX47/term-image",
     "apache/rocketmq-client-python",
-    "apple/ToolSandbox",
     "argosopentech/argos-train",
     "arsenetar/send2trash",
     "ashvardanian/less_slow.py",

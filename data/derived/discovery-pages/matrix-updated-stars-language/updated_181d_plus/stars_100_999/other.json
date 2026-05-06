@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2066,
-    "concepts": 2805,
-    "observations": 2812,
-    "repos": 893,
-    "terms": 2792
+    "components": 2072,
+    "concepts": 2811,
+    "observations": 2818,
+    "repos": 895,
+    "terms": 2797
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -419,6 +419,7 @@
     "imageworks/OpenColorIO-Configs",
     "impallari/Font-Testing-Page",
     "inhabitedtype/angstrom",
+    "inhabitedtype/faraday",
     "inside/vim-search-pulse",
     "instantX-research/CSGO",
     "InteractiveComputerGraphics/cuNSearch",
@@ -653,6 +654,7 @@
     "NVIDIA-Genomics-Research/rapids-single-cell-examples",
     "nvim-lua/completion-nvim",
     "nvim-lua/lsp-status.nvim",
+    "nvim-lua/nvim-lua-plugin-template",
     "nvim-neotest/neotest-go",
     "nvim-neotest/nvim-nio",
     "nvim-telescope/telescope-cheat.nvim",

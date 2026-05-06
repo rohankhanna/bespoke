@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 942,
-    "concepts": 863,
-    "observations": 863,
-    "repos": 99,
-    "terms": 855
+    "components": 906,
+    "concepts": 865,
+    "observations": 865,
+    "repos": 97,
+    "terms": 857
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/openexr",
     "AcademySoftwareFoundation/OpenImageIO",
@@ -20,13 +20,11 @@
     "AdaptiveCpp/AdaptiveCpp",
     "ai-dynamo/nixl",
     "apache/age",
-    "appium/WebDriverAgent",
     "arkime/arkime",
     "ashvardanian/NumKong",
     "async-profiler/async-profiler",
     "autowarefoundation/autoware_universe",
     "aws/aws-sdk-cpp",
-    "bitcoin-core/secp256k1",
     "brave/brave-core",
     "BYVoid/OpenCC",
     "cdcseacave/openMVS",
@@ -56,11 +54,11 @@
     "haproxy/haproxy",
     "heiher/hev-socks5-tunnel",
     "htop-dev/htop",
-    "ikawrakow/ik_llama.cpp",
     "intel/pcm",
     "iree-org/iree",
     "ispc/ispc",
     "jd-opensource/xllm",
+    "KhronosGroup/KTX-Software",
     "KhronosGroup/Vulkan-Hpp",
     "kokkos/kokkos",
     "KratosMultiphysics/Kratos",

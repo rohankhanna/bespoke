@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 150,
-    "concepts": 175,
-    "observations": 175,
+    "components": 144,
+    "concepts": 166,
+    "observations": 166,
     "repos": 23,
-    "terms": 175
+    "terms": 166
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
-    "apache/rocketmq-clients",
     "apache/spark-kubernetes-operator",
     "Apicurio/apicurio-registry",
     "aws-powertools/powertools-lambda-java",
@@ -28,6 +27,7 @@
     "heroku/webapp-runner",
     "ihmcrobotics/ihmc-open-robotics-software",
     "kirill-grouchnikov/radiance",
+    "mapsforge/vtm",
     "MarcusWolschon/osmeditor4android",
     "microsoft/LangChain4j-for-Beginners",
     "operator-framework/java-operator-sdk",

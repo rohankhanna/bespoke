@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 914,
-    "concepts": 665,
-    "observations": 668,
-    "repos": 160,
-    "terms": 658
+    "components": 933,
+    "concepts": 670,
+    "observations": 673,
+    "repos": 163,
+    "terms": 663
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "actboy168/json.lua",
@@ -60,6 +60,7 @@
     "clojure/tools.build",
     "cloudstudio/ollama-laravel",
     "cognitect/transit-clj",
+    "coredns/helm",
     "cpp-pm/hunter",
     "creativescala/doodle",
     "crivotz/nv-ide",
@@ -135,6 +136,7 @@
     "nebula-plugins/nebula-release-plugin",
     "nvim-mini/mini.diff",
     "nvim-neotest/neotest-jest",
+    "ocaml-community/lambda-term",
     "ocaml-community/utop",
     "ocurrent/ocurrent",
     "onionpancakes/chassis",
@@ -157,6 +159,7 @@
     "seancorfield/deps-new",
     "seancorfield/next-jdbc",
     "semver/semver.org",
+    "Shopify/measured",
     "SlRvb/Obsidian--ITS-Theme",
     "sol/hpack",
     "stefan-hoeck/idris2-pack",

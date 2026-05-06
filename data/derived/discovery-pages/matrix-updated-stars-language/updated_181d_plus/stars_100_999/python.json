@@ -3,8 +3,8 @@
     "components": 1092,
     "concepts": 5079,
     "observations": 5082,
-    "repos": 1734,
-    "terms": 4922
+    "repos": 1737,
+    "terms": 4920
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -171,6 +171,7 @@
     "appl-team/appl",
     "apple/ARKitScenes",
     "apple/ml-cross-entropy",
+    "apple/ToolSandbox",
     "aquaskyline/Clairvoyante",
     "aras62/PIE",
     "aras62/PIEPredict",
@@ -535,6 +536,7 @@
     "exiawsh/StreamPETR",
     "explosion/spacy-lookups-data",
     "ExponentialML/AnimateDiff-MotionDirector",
+    "ExponentialML/ComfyUI_ELLA",
     "ExponentialML/Text-To-Video-Finetuning",
     "ExponentialML/Video-BLIP2-Preprocessor",
     "Extraltodeus/ComfyUI-AutomaticCFG",
@@ -1440,6 +1442,7 @@
     "sergeytulyakov/mocogan",
     "sgsdxzy/YuE-exllamav2",
     "Shark-NLP/OpenICL",
+    "shawnricecake/draft-attention",
     "shawwn/openai-server",
     "ShenhanQian/VHAP",
     "shepnerd/inpainting_gmcnn",

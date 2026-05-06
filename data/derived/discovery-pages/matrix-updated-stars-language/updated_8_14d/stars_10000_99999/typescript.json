@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2535,
-    "concepts": 478,
-    "observations": 482,
-    "repos": 44,
-    "terms": 477
+    "components": 2575,
+    "concepts": 496,
+    "observations": 500,
+    "repos": 45,
+    "terms": 495
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "adonisjs/core",
@@ -21,6 +21,7 @@
     "bitwarden/clients",
     "bluesky-social/social-app",
     "bokeh/bokeh",
+    "bytedance/UI-TARS-desktop",
     "ChromeDevTools/chrome-devtools-mcp",
     "cline/cline",
     "coder/code-server",

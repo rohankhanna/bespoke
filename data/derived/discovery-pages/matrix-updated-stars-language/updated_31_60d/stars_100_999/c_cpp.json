@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 226,
-    "concepts": 346,
-    "observations": 347,
-    "repos": 70,
-    "terms": 343
+    "components": 239,
+    "concepts": 357,
+    "observations": 358,
+    "repos": 71,
+    "terms": 353
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "afbjorklund/lima-gui",
     "AmusementClub/vs-mlrt",
@@ -39,6 +39,8 @@
     "g-truc/gli",
     "gbionics/idyntree",
     "haosulab/SAPIEN",
+    "haxenme/nme",
+    "heal-research/operon",
     "intel/gmmlib",
     "intel/opencl-clang",
     "JokerJohn/Cloud_Map_Evaluation",
@@ -78,7 +80,6 @@
     "uxlfoundation/oneMath",
     "vcflib/vcflib",
     "vectr-ucla/direct_lidar_inertial_odometry",
-    "veorq/SipHash",
     "VeriSilicon/TIM-VX",
     "webgpu-native/webgpu-headers",
     "websockets/bufferutil",

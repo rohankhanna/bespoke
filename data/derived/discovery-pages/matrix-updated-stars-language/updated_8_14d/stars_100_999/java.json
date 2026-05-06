@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 233,
-    "concepts": 260,
-    "observations": 260,
-    "repos": 33,
-    "terms": 258
+    "components": 241,
+    "concepts": 274,
+    "observations": 274,
+    "repos": 34,
+    "terms": 272
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
     "apache/commons-jexl",
     "apache/datasketches-java",
     "apache/ignite-3",
+    "apache/rocketmq-clients",
     "beehive-lab/GPULlama3.java",
     "bndtools/bnd",
     "connectbot/sshlib",

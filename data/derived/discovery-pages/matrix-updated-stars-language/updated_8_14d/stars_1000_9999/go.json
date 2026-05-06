@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 852,
-    "concepts": 776,
-    "observations": 783,
-    "repos": 84,
-    "terms": 775
+    "components": 859,
+    "concepts": 785,
+    "observations": 792,
+    "repos": 85,
+    "terms": 782
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "actions/actions-runner-controller",
     "AdguardTeam/dnsproxy",
@@ -20,7 +20,6 @@
     "anacrolix/torrent",
     "apache/apisix-ingress-controller",
     "apache/dubbo-admin",
-    "apache/dubbo-go",
     "apache/incubator-seata-go",
     "aquasecurity/trivy-operator",
     "argoproj/argo-events",
@@ -31,12 +30,14 @@
     "bluesky-social/indigo",
     "bnb-chain/bsc",
     "bradfitz/gomemcache",
+    "buger/jsonparser",
     "bytedance/sonic",
     "C2SP/wycheproof",
     "chainguard-dev/apko",
     "charmbracelet/huh",
     "ClickHouse/clickhouse-go",
     "cloudflare/circl",
+    "cloudwego/hertz",
     "cloudwego/kitex",
     "connectrpc/connect-go",
     "Consensys/gnark",

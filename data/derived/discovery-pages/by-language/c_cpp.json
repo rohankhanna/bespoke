@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 9055,
-    "concepts": 10769,
-    "observations": 10795,
-    "repos": 2224,
-    "terms": 10673
+    "components": 9066,
+    "concepts": 10773,
+    "observations": 10799,
+    "repos": 2226,
+    "terms": 10680
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "0xPolygonHermez/pil2-proofman-js",
@@ -937,6 +937,7 @@
     "hapostgres/pg_auto_failover",
     "haproxy/haproxy",
     "harfbuzz/harfbuzz",
+    "haxenme/nme",
     "hayguen/greenffts",
     "hayguen/pffft",
     "hayguen/pocketfft",
@@ -1955,6 +1956,7 @@
     "sophgo/LLM-TPU",
     "sophgo/tpu-mlir",
     "soramimi/guitar",
+    "sorbet/sorbet",
     "sp-nitech/SPTK",
     "spacemeshos/app-spacemesh",
     "sparkle-project/Sparkle",

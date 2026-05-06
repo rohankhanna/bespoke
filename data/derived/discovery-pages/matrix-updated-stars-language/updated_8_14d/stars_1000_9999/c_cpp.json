@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 720,
+    "components": 761,
     "concepts": 862,
     "observations": 863,
-    "repos": 97,
+    "repos": 99,
     "terms": 858
   },
   "facet_version": 1,
@@ -12,14 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/OpenColorIO",
     "AcademySoftwareFoundation/OpenShadingLanguage",
     "alanxz/rabbitmq-c",
     "aphrodite-engine/aphrodite-engine",
+    "appium/WebDriverAgent",
     "axboe/liburing",
     "bdwgc/bdwgc",
+    "bitcoin-core/secp256k1",
     "Blynk-Technologies/blynk-library",
     "boostorg/beast",
     "CedricGuillemet/ImGuizmo",
@@ -47,8 +49,8 @@
     "grizzlypeak3d/DJV",
     "halide/Halide",
     "herumi/xbyak",
+    "ikawrakow/ik_llama.cpp",
     "intel/compute-runtime",
-    "jarro2783/cxxopts",
     "jeremycw/httpserver.h",
     "KhronosGroup/glslang",
     "KhronosGroup/SPIRV-Tools",

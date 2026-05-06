@@ -1,21 +1,23 @@
 {
   "counts": {
-    "components": 1181,
-    "concepts": 517,
-    "observations": 522,
-    "repos": 44,
-    "terms": 520
+    "components": 1275,
+    "concepts": 586,
+    "observations": 591,
+    "repos": 48,
+    "terms": 587
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "argotorg/solidity",
     "axolotl-ai-cloud/axolotl",
     "datalab-to/marker",
+    "deepspeedai/DeepSpeed",
+    "DioxusLabs/dioxus",
     "dotnet/aspnetcore",
     "dotnet/AspNetCore.Docs",
     "etcd-io/etcd",
@@ -23,6 +25,7 @@
     "fastapi/full-stack-fastapi-template",
     "gastownhall/beads",
     "ggml-org/ggml",
+    "google-ai-edge/mediapipe",
     "google-deepmind/mujoco",
     "googleapis/google-api-nodejs-client",
     "grpc/grpc-java",
@@ -52,6 +55,7 @@
     "swiftlang/swift",
     "triton-lang/triton",
     "upptime/upptime",
+    "vbenjs/vue-vben-admin",
     "verl-project/verl",
     "vitejs/vite",
     "vuejs/core",

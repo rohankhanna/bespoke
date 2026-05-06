@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-06T05:39:22.250037+00:00`
+Generated at: `2026-05-06T07:43:15.885019+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 12
-- components: 74
-- concepts: 12
-- observations: 12
+- repos: 4
+- terms: 17
+- components: 130
+- concepts: 17
+- observations: 17
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [embroider-build/ember-auto-import](https://github.com/embroider-build/ember-auto-import) | 359 | 2026-05-06T04:20:05Z | TypeScript | Infrastructure/tooling | 3 | 17 | 3 | 3 |
+| [skilld-dev/skilld](https://github.com/skilld-dev/skilld) | 268 | 2026-05-06T04:02:40Z | TypeScript | Infrastructure/tooling | 2 | 39 | 2 | 2 |
 | [mightyiam/eslint-config-love](https://github.com/mightyiam/eslint-config-love) | 817 | 2026-05-05T17:54:59Z | TypeScript | Infrastructure/tooling | 4 | 40 | 4 | 4 |
 | [a2aproject/a2a-js](https://github.com/a2aproject/a2a-js) | 533 | 2026-05-05T14:51:59Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
 
@@ -35,3 +37,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [mightyiam/eslint-config-love](https://github.com/mightyiam/eslint-config-love) | 817 | 2026-05-05T17:54:59Z | TypeScript | Infrastructure/tooling | 4 | 40 | 4 | 4 |
 | [a2aproject/a2a-js](https://github.com/a2aproject/a2a-js) | 533 | 2026-05-05T14:51:59Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
+| [embroider-build/ember-auto-import](https://github.com/embroider-build/ember-auto-import) | 359 | 2026-05-06T04:20:05Z | TypeScript | Infrastructure/tooling | 3 | 17 | 3 | 3 |
+| [skilld-dev/skilld](https://github.com/skilld-dev/skilld) | 268 | 2026-05-06T04:02:40Z | TypeScript | Infrastructure/tooling | 2 | 39 | 2 | 2 |

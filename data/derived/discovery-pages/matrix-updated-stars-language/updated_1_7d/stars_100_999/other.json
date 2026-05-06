@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1246,
-    "concepts": 885,
-    "observations": 885,
-    "repos": 144,
-    "terms": 880
+    "components": 1237,
+    "concepts": 888,
+    "observations": 888,
+    "repos": 143,
+    "terms": 883
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "90-008/nix-cargo-integration",
     "actions/python-versions",
@@ -115,6 +115,7 @@
     "microsoft/binskim",
     "microsoft/Oryx",
     "microsoft/vstest",
+    "mit-plv/bedrock2",
     "mit-plv/fiat-crypto",
     "mmark-md/mmark",
     "MobileNativeFoundation/rules_xcodeproj",
@@ -142,7 +143,6 @@
     "ROCm/rocMLIR",
     "ropensci/software-review",
     "rust-lang/blog.rust-lang.org",
-    "saem/vscode-nim",
     "sbt/sbt-jmh",
     "scalameta/nvim-metals",
     "ScoopInstaller/Java",
@@ -156,7 +156,6 @@
     "test-unit/test-unit",
     "TuringLang/docs",
     "weaviate/recipes",
-    "yegappan/lsp",
     "zephyr-data-specs/GMNS"
   ]
 }

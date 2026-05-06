@@ -3,7 +3,7 @@
     "components": 358,
     "concepts": 534,
     "observations": 538,
-    "repos": 117,
+    "repos": 118,
     "terms": 535
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/aswf-docker",
     "ACEnglish/truvari",
@@ -119,6 +119,7 @@
     "swc-17/SparseDrive",
     "terraform-aws-modules/terraform-aws-notify-slack",
     "TexasInstruments/edgeai-tidl-tools",
+    "Thinklab-SJTU/Bench2Drive-VL",
     "thu-ml/DiT-Extrapolation",
     "TorchDR/TorchDR",
     "Vinyzu/Botright",

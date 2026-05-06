@@ -3,14 +3,14 @@
     "components": 1535,
     "concepts": 2826,
     "observations": 2830,
-    "repos": 1577,
+    "repos": 1578,
     "terms": 2831
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "unknown"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nn0/terminal-mac-cheatsheet",
@@ -792,6 +792,7 @@
     "hashintel/awesome-hash",
     "haskell/cabal-proposals",
     "haskell/ghcup-www",
+    "haxelime/lime",
     "hchiam/learning",
     "hchiam/learning-csp",
     "hchiam/learning-gh",

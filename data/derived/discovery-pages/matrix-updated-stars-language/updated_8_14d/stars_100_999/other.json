@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1596,
-    "concepts": 1082,
-    "observations": 1083,
-    "repos": 172,
-    "terms": 1077
+    "components": 1602,
+    "concepts": 1071,
+    "observations": 1072,
+    "repos": 173,
+    "terms": 1066
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "abap2UI5/abap2UI5",
     "AdaCore/libadalang",
@@ -120,7 +120,6 @@
     "lite-xl/lite-xl-plugins",
     "lumen-oss/lz.n",
     "marella/material-symbols",
-    "MasterJ93/ATProtoKit",
     "mbj/unparser",
     "melange-re/melange",
     "metosin/schema-tools",
@@ -163,6 +162,8 @@
     "ruby/gem_rbs_collection",
     "ruby/json",
     "ruby/typeprof",
+    "runtimeverification/evm-semantics",
+    "saem/vscode-nim",
     "sbt/sbt-ci-release",
     "sbt/sbt-pgp",
     "SciML/LabelledArrays.jl",
@@ -184,7 +185,7 @@
     "vim/colorschemes",
     "w3c/aria",
     "WebAssembly/meetings",
-    "WebAssembly/threads",
+    "yegappan/lsp",
     "zcash/zips"
   ]
 }

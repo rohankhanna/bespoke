@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 78,
-    "concepts": 49,
-    "observations": 49,
+    "components": 87,
+    "concepts": 50,
+    "observations": 50,
     "repos": 6,
-    "terms": 49
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
+    "clj-commons/rewrite-clj",
     "cowprotocol/contracts",
     "jump-dev/NLopt.jl",
     "kurrent-io/KurrentDB-Client-Dotnet",
-    "mit-plv/bedrock2",
     "ROCm/hipBLASLt",
     "Shopify/tapioca"
   ]

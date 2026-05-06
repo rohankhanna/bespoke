@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 184,
-    "concepts": 114,
-    "observations": 115,
-    "repos": 22,
-    "terms": 113
+    "components": 148,
+    "concepts": 98,
+    "observations": 99,
+    "repos": 19,
+    "terms": 97
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "AccessKit/accesskit-c",
     "apollographql/federation-rs",
     "asny/three-d-asset",
-    "bnb-chain/reth",
-    "bnb-chain/reth-bsc",
     "boozook/mdbook-svgbob",
     "bourumir-wyngs/serde-yaml-bw",
     "fallow-rs/oxc-coverage-instrument",
@@ -32,7 +30,6 @@
     "mdn/rari",
     "openvm-org/stark-backend",
     "Ralith/lahar",
-    "succinctlabs/sp1-cluster",
     "tofay/rustls-openssl",
     "tyrypyrking/egui-ash",
     "unrs/unrs-resolver"

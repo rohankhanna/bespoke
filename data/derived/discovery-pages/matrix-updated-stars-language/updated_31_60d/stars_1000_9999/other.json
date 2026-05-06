@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 537,
-    "concepts": 666,
-    "observations": 671,
-    "repos": 115,
-    "terms": 666
+    "concepts": 669,
+    "observations": 674,
+    "repos": 116,
+    "terms": 669
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
+    "airblade/vim-gitgutter",
     "akermu/emacs-libvterm",
     "alexreisner/geocoder",
     "ankane/ahoy_email",

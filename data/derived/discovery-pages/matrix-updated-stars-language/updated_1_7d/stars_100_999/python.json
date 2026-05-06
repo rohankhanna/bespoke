@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 607,
-    "concepts": 538,
-    "observations": 540,
-    "repos": 86,
-    "terms": 536
+    "concepts": 526,
+    "observations": 528,
+    "repos": 85,
+    "terms": 524
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "aboutcode-org/scancode.io",
@@ -35,7 +35,6 @@
     "bazelbuild/continuous-integration",
     "Blosc/python-blosc2",
     "castorini/rank_llm",
-    "clearml/clearml-agent",
     "cognizant-ai-lab/neuro-san",
     "cognizant-ai-lab/neuro-san-studio",
     "Comfy-Org/comfy-cli",

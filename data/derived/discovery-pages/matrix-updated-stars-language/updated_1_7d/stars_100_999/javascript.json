@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 873,
-    "concepts": 159,
-    "observations": 160,
-    "repos": 30,
-    "terms": 157
+    "components": 776,
+    "concepts": 150,
+    "observations": 151,
+    "repos": 27,
+    "terms": 148
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "AdguardTeam/HostlistsRegistry",
-    "AdguardTeam/Scriptlets",
     "all-contributors/app",
     "americanexpress/jest-json-schema",
     "auth0/node-jwks-rsa",
-    "avoidwork/tiny-lru",
     "commitizen/cz-conventional-changelog",
     "conventional-changelog/releaser-tools",
     "electerm/electerm-web",
@@ -28,7 +26,6 @@
     "facebook/Rapid",
     "firebase/snippets-web",
     "fontello/svg2ttf",
-    "hudochenkov/postcss-sorting",
     "Kilian/electron-to-chromium",
     "lo-th/phy",
     "mdn/fred",

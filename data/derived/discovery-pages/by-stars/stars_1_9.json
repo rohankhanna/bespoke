@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11374,
-    "concepts": 4933,
-    "observations": 4942,
-    "repos": 2202,
-    "terms": 4955
+    "components": 11406,
+    "concepts": 4953,
+    "observations": 4962,
+    "repos": 2206,
+    "terms": 4975
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0cc4m/hf_bleeding_edge",
@@ -1413,8 +1413,12 @@
     "lace/blmath",
     "lace/entente",
     "lace/hobart",
+    "lace/hobart-svg",
+    "lace/hyla",
     "lace/lace",
     "lace/meshlab-pickedpoints",
+    "lace/ounce",
+    "lace/proximity",
     "lahma/test262-harness-dotnet",
     "lakim/spring-commands-standard",
     "langchain-ai/.github",

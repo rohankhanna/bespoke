@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 859,
-    "concepts": 694,
-    "observations": 695,
-    "repos": 65,
-    "terms": 690
+    "components": 862,
+    "concepts": 705,
+    "observations": 706,
+    "repos": 66,
+    "terms": 701
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "agentskills/agentskills",
@@ -49,6 +49,7 @@
     "LibreTranslate/LibreTranslate",
     "locustio/locust",
     "matplotlib/matplotlib",
+    "microsoft/agent-lightning",
     "nodejs/node-gyp",
     "numba/numba",
     "numpy/numpy",

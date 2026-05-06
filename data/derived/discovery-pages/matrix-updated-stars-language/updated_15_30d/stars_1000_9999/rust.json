@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 879,
-    "concepts": 593,
-    "observations": 595,
+    "components": 878,
+    "concepts": 597,
+    "observations": 599,
     "repos": 94,
-    "terms": 607
+    "terms": 611
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "abraxas-365/langchain-rust",
@@ -22,6 +22,7 @@
     "aome510/spotify-player",
     "asny/three-d",
     "asomers/mockall",
+    "bitcoindevkit/bdk",
     "blacknon/hwatch",
     "bluealloy/revm",
     "BoundaryML/baml",
@@ -31,7 +32,6 @@
     "Canop/bacon",
     "cberner/fuser",
     "cedar-policy/cedar",
-    "chronotope/chrono",
     "crate-ci/typos",
     "crossterm-rs/crossterm",
     "dalek-cryptography/curve25519-dalek",

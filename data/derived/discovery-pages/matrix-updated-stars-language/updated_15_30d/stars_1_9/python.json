@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 151,
-    "concepts": 77,
-    "observations": 77,
-    "repos": 43,
-    "terms": 95
+    "components": 158,
+    "concepts": 84,
+    "observations": 84,
+    "repos": 44,
+    "terms": 102
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "adaumann/speckit-preset-fiction-book-writing",
     "agenmod/distill-protocol-skill",
@@ -44,6 +44,7 @@
     "jupyter-xeus/xeus-python-shell",
     "justinchuby/lintrunner-adapters",
     "kelp/webdown",
+    "lace/proximity",
     "lxgw/LxgwWenKai-shared",
     "Mbed-TLS/mbedtls-framework",
     "momentique/source-code-security-audit-reviewer",

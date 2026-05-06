@@ -4,7 +4,7 @@
     "concepts": 161,
     "observations": 165,
     "repos": 40,
-    "terms": 160
+    "terms": 161
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "ashvardanian/StringWars",
     "athre0z/color-backtrace",

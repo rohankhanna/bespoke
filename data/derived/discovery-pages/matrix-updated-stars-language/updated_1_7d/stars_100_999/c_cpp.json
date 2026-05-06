@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 454,
-    "concepts": 477,
-    "observations": 478,
-    "repos": 76,
-    "terms": 475
+    "components": 447,
+    "concepts": 475,
+    "observations": 476,
+    "repos": 74,
+    "terms": 473
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "antgroup/vsag",
     "apache/iceberg-cpp",
@@ -41,7 +41,6 @@
     "heiher/hev-socks5-tproxy",
     "HybridRobotics/motion_tracking_controller",
     "intel/intel-graphics-compiler",
-    "intel/llm-scaler",
     "intel/ScalableVectorSearch",
     "istio/proxy",
     "j20001970/GDMP",
@@ -62,7 +61,6 @@
     "NGSolve/netgen",
     "nianticlabs/spz",
     "nix-community/nix-unit",
-    "NVIDIA/pyxis",
     "ofiwg/libfabric",
     "open-telemetry/opentelemetry-dotnet-instrumentation",
     "openSUSE/libsolv",

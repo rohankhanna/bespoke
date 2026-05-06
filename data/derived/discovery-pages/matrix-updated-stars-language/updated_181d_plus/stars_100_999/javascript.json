@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4566,
+    "components": 4596,
     "concepts": 1045,
     "observations": 1045,
-    "repos": 362,
-    "terms": 1031
+    "repos": 363,
+    "terms": 1032
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "14nrv/buefy-shop",
     "2createStudio/postcss-sprites",
@@ -321,6 +321,7 @@
     "sindresorhus/find-cache-directory",
     "sindresorhus/junk",
     "sindresorhus/strip-json-comments",
+    "sky-ecosystem/multicall.js",
     "smartscenes/sstk",
     "songquanpeng/gin-template",
     "sql-js/react-sqljs-demo",

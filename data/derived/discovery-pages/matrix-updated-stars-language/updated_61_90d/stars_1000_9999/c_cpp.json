@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 180,
-    "concepts": 171,
-    "observations": 172,
-    "repos": 41,
-    "terms": 167
+    "components": 179,
+    "concepts": 168,
+    "observations": 169,
+    "repos": 40,
+    "terms": 164
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -48,7 +48,6 @@
     "PixarAnimationStudios/OpenSubdiv",
     "pramsey/pgsql-http",
     "RobertBeckebans/RBDOOM-3-BFG",
-    "sammycage/lunasvg",
     "svenstaro/rofi-calc",
     "tzapu/WiFiManager",
     "UB-Mannheim/tesseract",

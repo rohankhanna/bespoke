@@ -3,7 +3,7 @@
     "components": 324,
     "concepts": 337,
     "observations": 339,
-    "repos": 94,
+    "repos": 95,
     "terms": 335
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -49,6 +49,7 @@
     "crazy-max/yasu",
     "curiosity-ai/hnsw-sharp",
     "DamageLabs/paper_trail_manager",
+    "dbuenzli/logs",
     "dharrigan/startrek",
     "dominique-unruh/scala-isabelle",
     "donderom/llm4s",

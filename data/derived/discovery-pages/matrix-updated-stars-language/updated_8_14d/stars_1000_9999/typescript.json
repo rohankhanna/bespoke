@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3550,
-    "concepts": 600,
-    "observations": 603,
+    "components": 3722,
+    "concepts": 592,
+    "observations": 595,
     "repos": 71,
-    "terms": 598
+    "terms": 590
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "actions/cache",
     "actions/setup-java",
@@ -24,6 +24,7 @@
     "antfu-collective/vite-plugin-inspect",
     "ardatan/graphql-tools",
     "artifacthub/hub",
+    "artsy/eigen",
     "Azure/azure-sdk-for-js",
     "benchmark-action/github-action-benchmark",
     "bluesky-social/atproto",
@@ -38,7 +39,6 @@
     "Comfy-Org/ComfyUI_frontend",
     "denoland/std",
     "docker/build-push-action",
-    "docker/login-action",
     "docker/setup-buildx-action",
     "electron/fiddle",
     "electron/forge",
@@ -63,6 +63,7 @@
     "netlify/cli",
     "nodejs/corepack",
     "octokit/core.js",
+    "openai/openai-agents-js",
     "ory/polis",
     "peter-evans/create-pull-request",
     "pulumi/examples",
@@ -81,7 +82,6 @@
     "ts-safeql/safeql",
     "Urigo/graphql-cli",
     "VoltAgent/voltagent",
-    "vuejs/eslint-plugin-vue",
     "vuejs/router",
     "yarnpkg/berry",
     "zsviczian/obsidian-excalidraw-plugin"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 45,
-    "concepts": 40,
-    "observations": 41,
-    "repos": 5,
-    "terms": 40
+    "components": 90,
+    "concepts": 59,
+    "observations": 60,
+    "repos": 6,
+    "terms": 59
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "dotnet/aspnetcore",
     "dotnet/AspNetCore.Docs",
     "swiftlang/swift",
     "triton-lang/triton",
-    "upptime/upptime"
+    "upptime/upptime",
+    "vbenjs/vue-vben-admin"
   ]
 }

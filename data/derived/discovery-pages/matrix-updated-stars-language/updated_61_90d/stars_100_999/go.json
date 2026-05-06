@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 107,
-    "concepts": 135,
-    "observations": 136,
-    "repos": 19,
-    "terms": 135
+    "components": 97,
+    "concepts": 118,
+    "observations": 119,
+    "repos": 18,
+    "terms": 118
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "alexkohler/prealloc",
     "anacrolix/dht",
@@ -30,7 +30,6 @@
     "maykonlsf/semver-cli",
     "MicahParks/keyfunc",
     "multiformats/go-multiaddr",
-    "oceanbase/ob-operator",
     "omniscale/imposm3",
     "slinso/goTemplateBenchmark"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 628,
-    "concepts": 501,
-    "observations": 504,
-    "repos": 82,
-    "terms": 511
+    "components": 634,
+    "concepts": 502,
+    "observations": 505,
+    "repos": 83,
+    "terms": 512
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "AdguardTeam/AdGuardDNS",
@@ -20,6 +20,7 @@
     "AliyunContainerService/terway",
     "andybalholm/brotli",
     "apache/dubbo-go-pixiu",
+    "apache/dubbo-go-samples",
     "apache/dubbo-kubernetes",
     "appleboy/go-fcm",
     "argoproj-labs/argo-rollouts-manager",

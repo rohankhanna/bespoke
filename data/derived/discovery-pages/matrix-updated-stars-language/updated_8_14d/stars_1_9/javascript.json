@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 675,
-    "concepts": 297,
-    "observations": 297,
-    "repos": 26,
-    "terms": 296
+    "components": 684,
+    "concepts": 300,
+    "observations": 300,
+    "repos": 27,
+    "terms": 299
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "angular/dev-infra-private-ng-dev-builds",
     "boa-dev/data",
@@ -21,6 +21,7 @@
     "eea/bise-frontend",
     "eea/eea-website-frontend",
     "eea/fise-frontend",
+    "fontsource/download-stat-aggregator",
     "j9t/compressorjs-next",
     "j9t/image-guard",
     "j9t/minifier-benchmarks",

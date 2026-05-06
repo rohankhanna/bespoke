@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3665,
-    "concepts": 779,
-    "observations": 780,
+    "components": 3695,
+    "concepts": 796,
+    "observations": 797,
     "repos": 111,
-    "terms": 891
+    "terms": 908
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -42,6 +42,7 @@
     "Comfy-Org/desktop",
     "devcontainers/cli",
     "ding113/claude-code-hub",
+    "docker/login-action",
     "docker/metadata-action",
     "dyoshikawa/rulesync",
     "eemeli/yaml",
@@ -86,7 +87,6 @@
     "lukeautry/tsoa",
     "matt1398/claude-devtools",
     "maxritter/pilot-shell",
-    "microsoft/node-pty",
     "microsoft/playwright-cli",
     "microsoft/vscode-eslint",
     "microsoft/vscode-languageserver-node",
@@ -111,7 +111,6 @@
     "privatenumber/esbuild-loader",
     "react-hook-form/resolvers",
     "redhat-developer/vscode-java",
-    "remotion-dev/github-unwrapped",
     "sirmalloc/ccstatusline",
     "solidjs/solid-start",
     "statoscope/statoscope",
@@ -122,6 +121,7 @@
     "thx/resvg-js",
     "TooTallNate/proxy-agents",
     "vega/vega-lite",
+    "vuejs/eslint-plugin-vue",
     "webgpu/webgpu-samples",
     "wighawag/hardhat-deploy",
     "withastro/starlight"

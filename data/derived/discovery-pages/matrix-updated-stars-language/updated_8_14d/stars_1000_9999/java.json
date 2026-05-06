@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 233,
-    "concepts": 298,
-    "observations": 299,
-    "repos": 30,
-    "terms": 296
+    "components": 241,
+    "concepts": 310,
+    "observations": 311,
+    "repos": 31,
+    "terms": 308
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "apache/camel",
@@ -43,6 +43,7 @@
     "oshi/oshi",
     "rabbitmq/rabbitmq-tutorials",
     "raphw/byte-buddy",
+    "reactor/reactor-core",
     "swagger-api/swagger-core"
   ]
 }

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10055,
-    "concepts": 3345,
-    "observations": 3360,
-    "repos": 395,
-    "terms": 3376
+    "components": 10108,
+    "concepts": 3388,
+    "observations": 3403,
+    "repos": 400,
+    "terms": 3418
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
     "1panel-dev/maxkb",
@@ -33,6 +33,7 @@
     "Alamofire/Alamofire",
     "alchaincyf/nuwa-skill",
     "alexandresanlim/Badges4-README.md-Profile",
+    "alibaba/druid",
     "alibaba/MNN",
     "alibaba/nacos",
     "alibaba/spring-cloud-alibaba",
@@ -138,6 +139,7 @@
     "facebookresearch/sam2",
     "facebookresearch/xformers",
     "fingerprintjs/fingerprintjs",
+    "fish-shell/fish-shell",
     "fishaudio/fish-speech",
     "fission-ai/openspec",
     "fmtlib/fmt",
@@ -276,6 +278,7 @@
     "nothings/stb",
     "nvidia/nemoclaw",
     "NVIDIA/TensorRT",
+    "nvim-telescope/telescope.nvim",
     "oh-my-fish/oh-my-fish",
     "onyx-dot-app/onyx",
     "openai/codex",
@@ -320,6 +323,7 @@
     "qubvel-org/segmentation_models.pytorch",
     "qwenlm/qwen-code",
     "qwibitai/nanoclaw",
+    "rails/rails",
     "ranger/ranger",
     "ray-project/ray",
     "reactjs/react.dev",
@@ -358,6 +362,7 @@
     "stanfordnlp/dspy",
     "stretchr/testify",
     "svg/svgo",
+    "syncthing/syncthing",
     "taichi-dev/taichi",
     "tanweai/pua",
     "tc39/proposals",

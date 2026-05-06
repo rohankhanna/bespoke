@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 736,
-    "concepts": 385,
-    "observations": 388,
-    "repos": 83,
-    "terms": 383
+    "components": 713,
+    "concepts": 363,
+    "observations": 366,
+    "repos": 81,
+    "terms": 361
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "AarshBatra/biteSizedAQ",
     "abarisani/abarisani.github.io",
@@ -20,6 +20,7 @@
     "alphagov/govuk_publishing_components",
     "alphagov/rubocop-govuk",
     "ameshkov/swift-psl",
+    "angellist/boba",
     "angular/angular-devkit-build-angular-builds",
     "apollographql/apollo-ios-dev",
     "arkime/arkimeweb",
@@ -62,13 +63,11 @@
     "JuliaCon/www.juliacon.org",
     "JuliaGeo/GeometryOps.jl",
     "JuliaSparse/SparseArrays.jl",
-    "karafka/karafka-web",
     "kddnewton/sorbet-eraser",
     "Kong/developer.konghq.com",
     "lakekeeper/lakekeeper-charts",
     "LedgerHQ/ledger-app-builder",
     "liuliu/s4nnc",
-    "localstack/localstack-cli",
     "lumen-oss/nurr",
     "melpa/package-build",
     "mesh-iit/ergocub-software",
@@ -82,7 +81,6 @@
     "php/doc-fr",
     "php/phd",
     "pipecat-ai/docs",
-    "pivotal/credhub-release",
     "processing/processing-website",
     "r-lib/pkgload",
     "reviewdog/action-actionlint",

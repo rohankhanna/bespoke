@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 164,
-    "concepts": 304,
-    "observations": 304,
-    "repos": 60,
-    "terms": 296
+    "components": 169,
+    "concepts": 320,
+    "observations": 320,
+    "repos": 61,
+    "terms": 312
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -54,6 +54,7 @@
     "mozillazg/pinyin-data",
     "novnc/websockify",
     "nunchaku-ai/ComfyUI-nunchaku",
+    "nunchaku-ai/nunchaku",
     "open-webui/mcpo",
     "PaddlePaddle/PaddleSeg",
     "palantir/python-language-server",

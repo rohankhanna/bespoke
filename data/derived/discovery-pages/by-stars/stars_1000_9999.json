@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 53452,
-    "concepts": 34336,
-    "observations": 34443,
-    "repos": 5834,
-    "terms": 34244
+    "components": 53502,
+    "concepts": 34361,
+    "observations": 34468,
+    "repos": 5838,
+    "terms": 34273
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -4841,6 +4841,7 @@
     "serde-rs/json",
     "serverless-operations/serverless-step-functions",
     "serverless/serverless-python-requirements",
+    "serversideup/financial-freedom",
     "ServiceNow/BrowserGym",
     "servo/html5ever",
     "servo/ipc-channel",
@@ -4959,6 +4960,7 @@
     "SonyResearch/micro_diffusion",
     "soot-oss/soot",
     "soramimi/guitar",
+    "sorbet/sorbet",
     "sorintlab/stolon",
     "sovrasov/flops-counter.pytorch",
     "spacejam/sled",
@@ -5199,6 +5201,7 @@
     "TencentARC/SEED-Voken",
     "TencentARC/T2I-Adapter",
     "TencentCloudADP/youtu-agent",
+    "TencentQQGYLab/ELLA",
     "tendermint/tendermint",
     "tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation",
     "tensorchord/envd",
@@ -5593,6 +5596,7 @@
     "vulcand/vulcand",
     "vulkano-rs/vulkano",
     "vwxyzjn/cleanrl",
+    "vyperlang/vyper",
     "w3c/csswg-drafts",
     "wa-lang/wa",
     "walles/moor",

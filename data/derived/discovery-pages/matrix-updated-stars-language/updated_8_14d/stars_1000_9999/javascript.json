@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1421,
-    "concepts": 283,
-    "observations": 283,
-    "repos": 40,
-    "terms": 279
+    "components": 1539,
+    "concepts": 302,
+    "observations": 302,
+    "repos": 43,
+    "terms": 296
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "amannn/action-semantic-pull-request",
     "americanexpress/jest-image-snapshot",
@@ -37,10 +37,13 @@
     "json-schema-org/json-schema-spec",
     "keepassxreboot/keepassxc-browser",
     "krausest/js-framework-benchmark",
+    "leezng/vue-json-pretty",
     "ljharb/qs",
     "mapbox/geobuf",
+    "mapbox/pixelmatch",
     "minio/minio-js",
     "mozilla/rhino",
+    "mozilla/web-ext",
     "newrelic/node-newrelic",
     "NickColley/jest-axe",
     "nodegit/nodegit",

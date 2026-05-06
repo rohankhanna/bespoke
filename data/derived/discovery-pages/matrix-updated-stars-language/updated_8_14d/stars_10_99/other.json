@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 677,
-    "concepts": 407,
-    "observations": 407,
-    "repos": 95,
-    "terms": 405
+    "components": 705,
+    "concepts": 428,
+    "observations": 428,
+    "repos": 98,
+    "terms": 426
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "3rd/config",
     "abap2UI5/samples",
@@ -65,9 +65,12 @@
     "JuliaGeo/Proj.jl",
     "JuliaMath/FixedPointNumbers.jl",
     "JustusAdam/language-haskell",
+    "karafka/karafka-web",
     "leandrocp/req_embed",
+    "localstack/localstack-cli",
     "meta-pytorch/executorch-examples",
     "mirage/colombe",
+    "mmllr/neotest-swift-testing",
     "nodenv/homebrew-nodenv",
     "NVIDIA/DALI_extra",
     "ocaml-tracing/ocaml-opentelemetry",

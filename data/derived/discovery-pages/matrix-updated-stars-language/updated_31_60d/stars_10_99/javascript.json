@@ -3,7 +3,7 @@
     "components": 379,
     "concepts": 111,
     "observations": 111,
-    "repos": 40,
+    "repos": 39,
     "terms": 111
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
     "a5huynh/vscode-ron",
@@ -48,7 +48,6 @@
     "nodejs/email",
     "npm/json-parse-even-better-errors",
     "nrwl/nx-ai-agents-config",
-    "OpenHands/openhands-chrome-extension",
     "Rob--W/proxy-from-env",
     "ruby/setup-ruby-pkgs",
     "storybook-community/addon-queryparams",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2565,
-    "concepts": 447,
-    "observations": 447,
-    "repos": 92,
-    "terms": 500
+    "components": 2592,
+    "concepts": 459,
+    "observations": 459,
+    "repos": 93,
+    "terms": 512
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "AbianS/docker-db-manager",
@@ -37,6 +37,7 @@
     "daeh/zotero-citation-tally",
     "decentralized-identity/did-jwt",
     "devcontainers/ci",
+    "docker/setup-qemu-action",
     "elizaos/elizaos.github.io",
     "elm-tooling/elm-language-client-vscode",
     "elm-tooling/elm-language-server",

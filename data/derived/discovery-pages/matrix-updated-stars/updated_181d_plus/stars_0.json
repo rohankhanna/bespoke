@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1067,
-    "concepts": 448,
-    "observations": 450,
-    "repos": 371,
-    "terms": 448
+    "components": 1072,
+    "concepts": 453,
+    "observations": 455,
+    "repos": 373,
+    "terms": 453
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "2KAbhishek/exercism-fetcher",
@@ -202,6 +202,7 @@
     "glandium/rust-objc",
     "gokyeongryeol/diffusers",
     "hashberg-io/multiformats-config",
+    "haxelime/lime",
     "hbenl/vscode-mocha-ssh-example",
     "hchiam/vite-project-example-minimal",
     "Heap-Hop/if-watch",
@@ -260,6 +261,7 @@
     "koreader/koreader-artwork",
     "krallin/probminhash",
     "KSXGitHub/parallel-disk-usage-0.20.0-benchmarks",
+    "lace/tri-again",
     "larshp/uccp",
     "LDLINGLINGLING/sglang",
     "LDLINGLINGLING/vllm",

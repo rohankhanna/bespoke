@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3219,
-    "concepts": 2513,
-    "observations": 2518,
+    "components": 3229,
+    "concepts": 2530,
+    "observations": 2535,
     "repos": 631,
-    "terms": 2506
+    "terms": 2520
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "0k/shyaml",
     "10up/action-wordpress-plugin-asset-update",
@@ -66,7 +66,6 @@
     "apollographql/supergraph-demo-fed2",
     "appelmar/gdalcubes",
     "AppImageCommunity/awesome-appimage",
-    "apple/ToolSandbox",
     "appwrite/playground-for-flutter",
     "Ar-Ray-code/YOLOX-ROS",
     "archlinux/archlinux-repro",
@@ -450,6 +449,7 @@
     "NVlabs/PS3",
     "Obsidian-TTRPG-Community/fantasy-statblocks",
     "ocaml-wasm/wasm_of_ocaml",
+    "oceanbase/ob-operator",
     "oh-my-fish/packages-main",
     "omnidan/redux-ignore",
     "omnidan/redux-recycle",

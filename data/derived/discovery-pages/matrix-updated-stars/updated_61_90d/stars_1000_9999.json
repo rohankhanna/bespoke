@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1918,
-    "concepts": 1306,
-    "observations": 1308,
+    "components": 1922,
+    "concepts": 1319,
+    "observations": 1321,
     "repos": 261,
-    "terms": 1296
+    "terms": 1310
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2ndalpha/gasmask",
@@ -175,6 +175,7 @@
     "nat/openplayground",
     "novnc/websockify",
     "nunchaku-ai/ComfyUI-nunchaku",
+    "nunchaku-ai/nunchaku",
     "nutsdb/nutsdb",
     "obsidian-community/obsidian-kanban",
     "obsidian-community/obsidian-style-settings",
@@ -222,7 +223,6 @@
     "SafeAILab/EAGLE",
     "sagiegurari/cargo-make",
     "salesforce/BLIP",
-    "sammycage/lunasvg",
     "sbt/sbt-native-packager",
     "sharkdp/diskus",
     "shibing624/text2vec",

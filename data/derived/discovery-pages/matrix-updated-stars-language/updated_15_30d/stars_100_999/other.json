@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1682,
-    "concepts": 1421,
-    "observations": 1424,
-    "repos": 268,
-    "terms": 1447
+    "components": 1670,
+    "concepts": 1429,
+    "observations": 1432,
+    "repos": 267,
+    "terms": 1455
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "a2aproject/a2a-dotnet",
@@ -84,7 +84,6 @@
     "cjohansen/dataspex",
     "ClickHouse/clickhouse-docs",
     "clj-commons/hickory",
-    "clj-commons/rewrite-clj",
     "clojure-emacs/cider-nrepl",
     "cncf/foundation",
     "CocoaPods/Molinillo",
@@ -92,7 +91,6 @@
     "CommunityToolkit/Windows",
     "connectrpc/connect-kotlin",
     "connectrpc/connect-swift",
-    "coredns/helm",
     "creativenull/efmls-configs-nvim",
     "cshum/vipsgen",
     "Cysharp/RuntimeUnitTestToolkit",
@@ -186,6 +184,7 @@
     "lunarmodules/luacheck",
     "mapillary/mapillary_sls",
     "martinthomson/i-d-template",
+    "MasterJ93/ATProtoKit",
     "matthewjberger/scoop-nerd-fonts",
     "microsoft/AZD-for-beginners",
     "microsoft/DirectX-Specs",
@@ -211,7 +210,6 @@
     "nvim-mini/mini.icons",
     "nvim-mini/mini.pick",
     "objectbox/objectbox-swift",
-    "ocaml-community/lambda-term",
     "ocaml/ocaml-re",
     "ocsigen/lwt",
     "oneclick/rubyinstaller2",
@@ -278,6 +276,7 @@
     "vladimir-kotikov/clink-completions",
     "w3c/web-performance",
     "w3c/webdriver-bidi",
+    "WebAssembly/threads",
     "WebKitForWindows/WebKitRequirements",
     "wighawag/template-ethereum-contracts",
     "wuphilipp/gello_mechanical",

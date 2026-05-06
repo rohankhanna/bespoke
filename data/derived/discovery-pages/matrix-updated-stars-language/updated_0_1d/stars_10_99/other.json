@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 14,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 2,
-    "terms": 22
+    "components": 16,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 4,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
+    "dinosaure/blaze",
     "karafka/example-apps",
-    "lumen-oss/luarocks-tag-release"
+    "lumen-oss/luarocks-tag-release",
+    "pivotal/credhub-release"
   ]
 }

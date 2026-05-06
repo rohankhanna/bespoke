@@ -3,7 +3,7 @@
     "components": 1071,
     "concepts": 1081,
     "observations": 1084,
-    "repos": 228,
+    "repos": 227,
     "terms": 1090
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "aaronwong1999/hermesclaw",
     "abey79/vpype",
@@ -222,7 +222,6 @@
     "TextArena/TextArena",
     "TextArena/UnstableBaselines",
     "thinking-machines-lab/tinker",
-    "Thinklab-SJTU/Bench2Drive-VL",
     "TIGER-AI-Lab/VLM2Vec",
     "trailofbits/dropkit",
     "triton-inference-server/tutorials",

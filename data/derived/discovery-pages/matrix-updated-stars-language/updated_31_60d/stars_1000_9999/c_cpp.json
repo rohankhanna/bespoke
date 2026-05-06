@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 210,
-    "concepts": 313,
-    "observations": 313,
-    "repos": 57,
-    "terms": 309
+    "components": 220,
+    "concepts": 332,
+    "observations": 333,
+    "repos": 59,
+    "terms": 328
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "alembic/alembic",
     "Alex313031/thorium",
@@ -27,8 +27,10 @@
     "CVCUDA/CV-CUDA",
     "duckdb/pg_duckdb",
     "ebiggers/libdeflate",
+    "espeak-ng/espeak-ng",
     "felt/tippecanoe",
     "go-gl/gl",
+    "go-gl/glfw",
     "google/double-conversion",
     "gperftools/gperftools",
     "h2o/picohttpparser",

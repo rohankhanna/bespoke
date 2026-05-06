@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 369,
-    "concepts": 305,
-    "observations": 308,
-    "repos": 50,
-    "terms": 305
+    "components": 363,
+    "concepts": 304,
+    "observations": 307,
+    "repos": 49,
+    "terms": 304
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "2dust/AndroidLibXrayLite",
     "a2aproject/a2a-go",
     "AdguardTeam/urlfilter",
     "ai-dynamo/grove",
     "alibaba/loongsuite-go-agent",
-    "apache/dubbo-go-samples",
     "apache/pulsar-client-go",
     "aws-cloudformation/rain",
     "bazel-contrib/rules_img",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1439,
-    "concepts": 1258,
-    "observations": 1259,
+    "components": 1441,
+    "concepts": 1283,
+    "observations": 1284,
     "repos": 170,
-    "terms": 1244
+    "terms": 1269
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "a2aproject/a2a-samples",
     "aaubry/YamlDotNet",
@@ -39,7 +39,6 @@
     "boostorg/boost",
     "box-project/box",
     "brainlid/langchain",
-    "BuddiesOfBudgie/budgie-desktop",
     "cashapp/turbine",
     "CesiumGS/3d-tiles",
     "chromebrew/chromebrew",
@@ -96,6 +95,7 @@
     "HazyResearch/ThunderKittens",
     "hooke007/mpv_PlayKit",
     "jeremyevans/sequel",
+    "JetBrains/intellij-platform-plugin-template",
     "JLLeitschuh/ktlint-gradle",
     "jmhobbs/cultofthepartyparrot.com",
     "john-rocky/CoreML-Models",
@@ -105,6 +105,7 @@
     "JuliaLang/PackageCompiler.jl",
     "JuliaPy/PythonCall.jl",
     "k2-fsa/k2",
+    "karafka/karafka",
     "knative/docs",
     "Kotlin/KEEP",
     "kubernetes-monitoring/kubernetes-mixin",
@@ -151,7 +152,6 @@
     "prontolabs/pronto",
     "purcell/emacs.d",
     "purcell/exec-path-from-shell",
-    "puremourning/vimspector",
     "quil/quil",
     "r-lib/devtools",
     "r-spatial/sf",

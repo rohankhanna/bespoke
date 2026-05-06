@@ -1,24 +1,25 @@
 {
   "counts": {
-    "components": 64,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 7,
-    "terms": 51
+    "components": 49,
+    "concepts": 48,
+    "observations": 48,
+    "repos": 8,
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "alloy-rs/evm",
-    "apache/doris-opentelemetry-demo",
+    "dinosaure/blaze",
     "gpac/testsuite",
     "karafka/example-apps",
     "kurrent-io/KurrentDB-Client-Rust",
     "lumen-oss/luarocks-tag-release",
+    "pivotal/credhub-release",
     "vaporif/parry-guard"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 474,
-    "concepts": 453,
-    "observations": 453,
-    "repos": 83,
-    "terms": 450
+    "components": 481,
+    "concepts": 455,
+    "observations": 455,
+    "repos": 85,
+    "terms": 452
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/openfx",
     "acts-project/acts",
@@ -54,6 +54,7 @@
     "google/riegeli",
     "GraphBLAS/LAGraph",
     "iamaisim/ProjectAirSim",
+    "intel/llm-scaler",
     "jcmvbkbc/gcc-xtensa",
     "JokerJohn/DCReg",
     "jrouwe/JoltPhysics.js",
@@ -73,6 +74,7 @@
     "mysql/mysql-workbench",
     "NetHack-LE/nle",
     "nss-dev/nss",
+    "NVIDIA/pyxis",
     "oneapi-src/level-zero",
     "openSUSE/catatonit",
     "openvinotoolkit/model_server",

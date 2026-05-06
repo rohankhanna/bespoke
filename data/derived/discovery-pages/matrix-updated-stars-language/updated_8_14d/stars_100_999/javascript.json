@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1168,
-    "concepts": 286,
-    "observations": 291,
-    "repos": 50,
-    "terms": 283
+    "components": 1189,
+    "concepts": 279,
+    "observations": 284,
+    "repos": 51,
+    "terms": 277
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "adamlui/ai-web-extensions",
+    "AdguardTeam/Scriptlets",
     "apache/incubator-seata-website",
     "aredridel/node-bin-gen",
     "auth0/node-jws",
+    "avoidwork/tiny-lru",
     "aws/aws-cdk-rfcs",
     "Brooooooklyn/snappy",
     "browserslist/caniuse-lite",
@@ -26,13 +28,13 @@
     "chrisgoringe/cg-image-filter",
     "csstools/cssdb",
     "CVEProject/cve-services",
-    "DavidAnson/markdownlint-cli2",
     "dequelabs/axe-core-npm",
     "dydxprotocol/v4-clients",
     "emberjs/ember-qunit",
     "evenchange4/graphql.macro",
     "GDevelopApp/GDevelop-examples",
     "GordonChen19/Prompt-Relay",
+    "hudochenkov/postcss-sorting",
     "hyparam/icebird",
     "i18next/i18next-fs-backend",
     "i18next/i18next-http-backend",
@@ -49,7 +51,6 @@
     "matzkoh/prettier-plugin-packagejson",
     "mdn/data",
     "mdn/mdn-http-observatory",
-    "neostandard/neostandard",
     "OffchainLabs/arbitrum-docs",
     "plone/volto",
     "poolifier/poolifier",

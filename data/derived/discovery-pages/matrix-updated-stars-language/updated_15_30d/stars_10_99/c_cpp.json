@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 190,
-    "concepts": 148,
-    "observations": 148,
-    "repos": 40,
-    "terms": 149
+    "components": 189,
+    "concepts": 143,
+    "observations": 143,
+    "repos": 39,
+    "terms": 144
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
     "ada-url/ada-python",
@@ -49,7 +49,6 @@
     "ROCm/roctracer",
     "theimpossibleastronaut/rmw",
     "triton-inference-server/openvino_backend",
-    "uael/sv",
     "walbourn/directxtextest",
     "walbourn/directxtktest",
     "yoshoku/numo-narray-alt",

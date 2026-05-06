@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1539,
-    "concepts": 1342,
-    "observations": 1356,
-    "repos": 155,
-    "terms": 1337
+    "components": 1538,
+    "concepts": 1305,
+    "observations": 1319,
+    "repos": 154,
+    "terms": 1302
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-baseline",
     "abapGit/abapGit",
@@ -86,7 +86,6 @@
     "helix-toolkit/helix-toolkit",
     "intel/llvm",
     "JetBrains/intellij-platform-gradle-plugin",
-    "JetBrains/intellij-platform-plugin-template",
     "JetBrains/intellij-sdk-docs",
     "JetBrains/resharper-unity",
     "jrsoftware/issrc",
@@ -95,7 +94,6 @@
     "JuliaSymbolics/Symbolics.jl",
     "just-the-docs/just-the-docs",
     "justinmk/vim-dirvish",
-    "karafka/karafka",
     "KhronosGroup/SPIRV-Cross",
     "klauspost/reedsolomon",
     "Kotlin/kotlinx.serialization",
@@ -157,6 +155,7 @@
     "TakWolf/fusion-pixel-font",
     "TechnitiumSoftware/DnsServer",
     "tlaplus/Examples",
+    "TryGhost/node-sqlite3",
     "tuist/XcodeProj",
     "uBlockOrigin/uAssets",
     "undreamai/LLMUnity",

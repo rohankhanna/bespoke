@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1284,
-    "concepts": 1345,
-    "observations": 1349,
-    "repos": 135,
-    "terms": 1335
+    "components": 1270,
+    "concepts": 1319,
+    "observations": 1323,
+    "repos": 131,
+    "terms": 1309
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "ag2ai/ag2",
@@ -21,15 +21,12 @@
     "aigc-apps/VideoX-Fun",
     "aimhubio/aim",
     "allenai/OLMo-core",
-    "amazon-far/holosoma",
     "amd/gaia",
-    "AndyTheFactory/newspaper4k",
     "Arize-ai/phoenix",
     "astral-sh/python-build-standalone",
     "astronomer/dag-factory",
     "aws/aws-sam-cli",
     "aws/aws-sdk-pandas",
-    "aws/serverless-application-model",
     "benfred/implicit",
     "blackjax-devs/blackjax",
     "Blaizzy/mlx-vlm",
@@ -80,7 +77,6 @@
     "meta-pytorch/data",
     "meta-pytorch/torchrec",
     "microsoft/agent-framework",
-    "microsoft/Olive",
     "MicrosoftDocs/visualstudio-docs",
     "mikedh/trimesh",
     "mikel-brostrom/boxmot",
@@ -111,7 +107,6 @@
     "Project-MONAI/MONAI",
     "pycontribs/jira",
     "PyCQA/isort",
-    "pydata/xarray",
     "pymupdf/PyMuPDF",
     "pypa/hatch",
     "pypi/warehouse",
@@ -123,6 +118,7 @@
     "pytorch/rl",
     "pytorch/tensordict",
     "readthedocs/readthedocs.org",
+    "redis/redis-om-python",
     "RLinf/RLinf",
     "roboflow/inference",
     "roboflow/maestro",
@@ -141,12 +137,12 @@
     "UKGovernmentBEIS/inspect_ai",
     "uxlfoundation/scikit-learn-intelex",
     "Vector-Wangel/XLeRobot",
-    "vipshop/cache-dit",
     "viser-project/viser",
     "vladmandic/sdnext",
     "vllm-project/vllm-omni",
     "vmware/photon",
     "VOICEVOX/voicevox_engine",
+    "vyperlang/vyper",
     "xorbitsai/inference",
     "zarr-developers/zarr-python"
   ]

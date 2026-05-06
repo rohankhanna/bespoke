@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 481,
-    "concepts": 535,
-    "observations": 537,
-    "repos": 54,
-    "terms": 530
+    "components": 491,
+    "concepts": 556,
+    "observations": 559,
+    "repos": 55,
+    "terms": 551
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "abpframework/abp",
     "AlDanial/cloc",
@@ -22,6 +22,8 @@
     "aws/amazon-sagemaker-examples",
     "Azure/azure-quickstart-templates",
     "bitcoin/bips",
+    "Blinue/Magpie",
+    "coil-kt/coil",
     "cython/cython",
     "datawhalechina/self-llm",
     "deepset-ai/haystack",
@@ -50,10 +52,8 @@
     "microsoft/fluentui-system-icons",
     "NickeManarin/ScreenToGif",
     "NixOS/nixpkgs",
-    "nvim-telescope/telescope.nvim",
     "openai/openai-cookbook",
     "PowerShell/PowerShell",
-    "rails/rails",
     "saadeghi/daisyui",
     "ScoopInstaller/Scoop",
     "shap/shap",
@@ -67,6 +67,7 @@
     "topjohnwu/Magisk",
     "vim-airline/vim-airline",
     "vim/vim",
-    "winsw/winsw"
+    "winsw/winsw",
+    "xmake-io/xmake"
   ]
 }

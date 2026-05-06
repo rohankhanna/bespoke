@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 730,
-    "concepts": 753,
-    "observations": 759,
-    "repos": 107,
-    "terms": 747
+    "components": 728,
+    "concepts": 741,
+    "observations": 746,
+    "repos": 106,
+    "terms": 735
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "Ableton/link",
     "ada-url/ada",
@@ -38,12 +38,10 @@
     "DLTcollab/sse2neon",
     "ElementsProject/lightning",
     "ericniebler/range-v3",
-    "espeak-ng/espeak-ng",
     "eth-brownie/brownie",
     "fastfloat/fast_float",
     "flatpak/flatpak",
     "fontforge/fontforge",
-    "go-gl/glfw",
     "google/boringssl",
     "google/draco",
     "google/gemma.cpp",
@@ -56,6 +54,7 @@
     "infiniflow/infinity",
     "inikep/lzbench",
     "intel/isa-l",
+    "jarro2783/cxxopts",
     "jbeder/yaml-cpp",
     "jolibrain/deepdetect",
     "KhronosGroup/MoltenVK",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 436,
-    "concepts": 314,
-    "observations": 314,
-    "repos": 255,
-    "terms": 317
+    "components": 441,
+    "concepts": 322,
+    "observations": 322,
+    "repos": 257,
+    "terms": 325
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -172,8 +172,10 @@
     "koute/rwkv_tokenizer",
     "kushaldas/cpython",
     "lace/blmath",
+    "lace/hobart-svg",
     "lace/lace",
     "lace/meshlab-pickedpoints",
+    "lace/ounce",
     "lawrence-cj/ComfyUI_ExtraModels",
     "layumi/dgcnn",
     "layumi/oxford-paris-attack",

@@ -3,8 +3,8 @@
     "components": 829,
     "concepts": 3545,
     "observations": 3547,
-    "repos": 903,
-    "terms": 3482
+    "repos": 904,
+    "terms": 3483
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -788,6 +788,7 @@
     "tczhangzhi/pytorch-distributed",
     "Tencent-Hunyuan/HunyuanCustom",
     "TencentARC/T2I-Adapter",
+    "TencentQQGYLab/ELLA",
     "tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation",
     "tensorflow/addons",
     "tensorflow/benchmarks",

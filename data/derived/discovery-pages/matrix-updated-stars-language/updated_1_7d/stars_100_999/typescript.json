@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2848,
-    "concepts": 577,
-    "observations": 579,
-    "repos": 80,
-    "terms": 576
+    "components": 2752,
+    "concepts": 552,
+    "observations": 554,
+    "repos": 75,
+    "terms": 551
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "AgnosticUI/agnosticui",
     "ansible/vscode-ansible",
@@ -34,7 +34,6 @@
     "electron/packager",
     "embroider-build/embroider",
     "engine262/engine262",
-    "flathub-infra/website",
     "fluent-vue/fluent-vue",
     "folke/esbuild-runner",
     "foundry-rs/foundry-toolchain",
@@ -51,9 +50,7 @@
     "jbaubree/vite-plugin-sitemap",
     "kkomelin/isomorphic-dompurify",
     "LemmyNet/lemmy-js-client",
-    "microsoft/ai-chat-protocol",
     "microsoft/cognitive-services-speech-sdk-js",
-    "milvus-io/milvus-sdk-node",
     "mmkal/expect-type",
     "mswjs/interceptors",
     "nene/sql-parser-cst",
@@ -73,7 +70,6 @@
     "salesforcecli/cli",
     "sapphiredev/utilities",
     "SkepticMystic/breadcrumbs",
-    "skilld-dev/skilld",
     "smithy-lang/smithy-typescript",
     "stx-labs/stacks.js",
     "sumup-oss/circuit-ui",
@@ -81,7 +77,6 @@
     "TanStack/devtools",
     "TanStack/pacer",
     "TanStack/store",
-    "tinylibs/tinyexec",
     "tlaplus/vscode-tlaplus",
     "un-ts/prettier",
     "un-ts/synckit",

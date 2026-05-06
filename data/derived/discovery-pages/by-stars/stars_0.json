@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2680,
-    "concepts": 1057,
-    "observations": 1061,
-    "repos": 769,
-    "terms": 1088
+    "components": 2685,
+    "concepts": 1062,
+    "observations": 1066,
+    "repos": 771,
+    "terms": 1093
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "0xBigBoss/ghostty-web",
@@ -437,6 +437,7 @@
     "haoxiangsnr/IntelNeuromorphicDNSChallenge",
     "hashberg-io/multiformats-config",
     "hauntsaninja/mypy",
+    "haxelime/lime",
     "hbenl/vscode-mocha-ssh-example",
     "hchiam/vite-project-example-minimal",
     "Heap-Hop/if-watch",
@@ -545,6 +546,7 @@
     "kyverno/.github",
     "l12203685/digital-immortality",
     "lace/lacecore",
+    "lace/tri-again",
     "lakekeeper/iceberg-rust",
     "lakekeeper/lakekeeper-operator",
     "lakekeeper/nats.rs",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1994,
-    "concepts": 885,
-    "observations": 885,
+    "components": 1980,
+    "concepts": 886,
+    "observations": 886,
     "repos": 258,
-    "terms": 913
+    "terms": 914
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "0xPolygonHermez/pil2-proofman-js",
@@ -182,6 +182,7 @@
     "konnov/apalache-examples",
     "konsoletyper/teavm-site",
     "ksylvan/fabric",
+    "lace/proximity",
     "lahma/test262-harness-dotnet",
     "Layr-Labs/hokulea",
     "leeyeel/gltfOverview-Chinese",
@@ -200,7 +201,6 @@
     "netdur/hugind",
     "neuroverseos/neuroverseos-governance",
     "nodejs/web-team",
-    "octokit/openapi-webhooks",
     "onicai/IConfucius",
     "openssh/openssh-portable-selfhosted",
     "penpoen/llm-sugarscape",

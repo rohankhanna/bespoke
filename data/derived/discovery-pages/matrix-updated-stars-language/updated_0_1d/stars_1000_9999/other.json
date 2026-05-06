@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 205,
+    "components": 193,
     "concepts": 176,
     "observations": 177,
-    "repos": 16,
+    "repos": 15,
     "terms": 176
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "agenda/agenda",
     "all-contributors/allcontributors.org",
@@ -28,7 +28,6 @@
     "rocq-prover/rocq",
     "swiftlang/llvm-project",
     "swiftlang/swift-syntax",
-    "TryGhost/node-sqlite3",
     "web-platform-tests/wpt"
   ]
 }

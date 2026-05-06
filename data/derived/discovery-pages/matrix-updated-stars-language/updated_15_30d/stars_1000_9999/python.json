@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1245,
-    "concepts": 1555,
-    "observations": 1556,
-    "repos": 220,
-    "terms": 1563
+    "components": 1273,
+    "concepts": 1574,
+    "observations": 1575,
+    "repos": 224,
+    "terms": 1581
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "2U1/Qwen-VL-Series-Finetune",
@@ -141,6 +141,7 @@
     "mbailey/voicemode",
     "meta-pytorch/attention-gym",
     "meta-pytorch/tnt",
+    "mherrmann/helium",
     "MichaelGrupp/evo",
     "microsoft/debugpy",
     "microsoft/LMOps",
@@ -153,6 +154,7 @@
     "mjansson/rpmalloc",
     "mkdocs/catalog",
     "ml-explore/mlx-examples",
+    "ml-explore/mlx-lm",
     "mlcommons/training",
     "mll-lab-nu/RAGEN",
     "modelscope/modelscope",
@@ -171,6 +173,7 @@
     "open-compass/VLMEvalKit",
     "open-telemetry/community",
     "open-thought/reasoning-gym",
+    "opendatalab/labelU",
     "OpenRLHF/OpenRLHF",
     "patrick-kidger/diffrax",
     "pchalasani/claude-code-tools",
@@ -205,6 +208,7 @@
     "RUC-NLPIR/FlashRAG",
     "sanderland/katrain",
     "scrapy-plugins/scrapy-playwright",
+    "shapely/shapely",
     "shenweichen/DeepCTR-Torch",
     "shenweichen/DeepMatch",
     "SirVer/ultisnips",

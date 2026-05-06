@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1909,
-    "concepts": 1736,
-    "observations": 1742,
-    "repos": 754,
-    "terms": 1730
+    "components": 1911,
+    "concepts": 1739,
+    "observations": 1745,
+    "repos": 756,
+    "terms": 1733
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x7432/asm-ru",
@@ -377,7 +377,9 @@
     "HaxeFlixel/flixel-templates",
     "HaxeFlixel/flixel-tools",
     "haxeui/component-examples",
+    "haxeui/haxeui-android",
     "haxeui/haxeui-flixel",
+    "hcarty/mwt",
     "HelloWorld886/xmake-visualstudio",
     "Helsinki-NLP/OPUS-CAT",
     "henryw374/time-literals",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 38899,
+    "components": 38926,
     "concepts": 8623,
     "observations": 8649,
     "repos": 2050,
-    "terms": 8614
+    "terms": 8615
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "javascript"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "0xPolygon/pilcom",
     "0xPolygonHermez/pil2-compiler",
@@ -285,7 +285,6 @@
     "be5invis/Sarasa-Gothic",
     "Beaglefoot/tree-sitter-awk",
     "beaucarnes/fcc-project-tutorials",
-    "bebraw/grunt-umd",
     "bebraw/libumd",
     "beginor/clean-code-javascript",
     "behnamazimi/inquirer-checkbox-plus-plus",
@@ -1743,6 +1742,7 @@
     "sindresorhus/np",
     "sindresorhus/strip-json-comments",
     "sindresorhus/trash-cli",
+    "sky-ecosystem/multicall.js",
     "slap-editor/slap",
     "smartscenes/sstk",
     "smooth-code/smooth-ui",

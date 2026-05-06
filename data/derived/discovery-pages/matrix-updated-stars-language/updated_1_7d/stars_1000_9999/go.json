@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 662,
-    "concepts": 704,
-    "observations": 706,
-    "repos": 67,
-    "terms": 701
+    "components": 646,
+    "concepts": 690,
+    "observations": 692,
+    "repos": 65,
+    "terms": 689
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "akvorado/akvorado",
     "anthropics/anthropic-sdk-go",
@@ -25,9 +25,7 @@
     "bazel-contrib/rules_go",
     "beclab/Olares",
     "btcsuite/btcwallet",
-    "buger/jsonparser",
     "cloudflare/pint",
-    "cloudwego/hertz",
     "cockroachdb/pebble",
     "cosmos/cosmos-sdk",
     "crazy-max/diun",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 411,
-    "concepts": 345,
-    "observations": 346,
+    "components": 468,
+    "concepts": 348,
+    "observations": 349,
     "repos": 30,
-    "terms": 341
+    "terms": 345
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
@@ -22,7 +22,6 @@
     "clap-rs/clap",
     "ClementTsang/bottom",
     "dani-garcia/vaultwarden",
-    "fish-shell/fish-shell",
     "FuelLabs/fuel-core",
     "FuelLabs/sway",
     "gfx-rs/wgpu",
@@ -41,6 +40,7 @@
     "servo/servo",
     "Spotifyd/spotifyd",
     "starship/starship",
+    "swc-project/swc",
     "tree-sitter/tree-sitter",
     "typst/typst",
     "web-infra-dev/rspack"

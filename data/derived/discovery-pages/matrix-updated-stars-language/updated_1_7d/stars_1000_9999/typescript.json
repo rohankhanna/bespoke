@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5011,
-    "concepts": 951,
-    "observations": 953,
-    "repos": 109,
-    "terms": 946
+    "components": 4746,
+    "concepts": 931,
+    "observations": 933,
+    "repos": 107,
+    "terms": 926
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "acacode/swagger-typescript-api",
     "AdguardTeam/AdguardBrowserExtension",
@@ -23,7 +23,6 @@
     "apify/fingerprint-suite",
     "apollographql/apollo-client-devtools",
     "argdown/argdown",
-    "artsy/eigen",
     "aws-powertools/powertools-lambda-typescript",
     "aws/aws-sdk-js-v3",
     "aws/jsii",
@@ -80,7 +79,6 @@
     "ngxson/wllama",
     "nodejs/llhttp",
     "nrwl/nx-console",
-    "openai/openai-agents-js",
     "openlit/openlit",
     "OutlineFoundation/outline-apps",
     "posit-dev/positron",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 318,
-    "concepts": 205,
-    "observations": 205,
-    "repos": 45,
-    "terms": 205
+    "components": 354,
+    "concepts": 221,
+    "observations": 221,
+    "repos": 48,
+    "terms": 221
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "ai-dynamo/modelexpress",
     "amazon-ion/ion-cli",
@@ -25,6 +25,8 @@
     "astral-sh/pubgrub",
     "bitcoindevkit/bdk_wallet",
     "bitcoindevkit/rust-electrum-client",
+    "bnb-chain/reth",
+    "bnb-chain/reth-bsc",
     "boundless-xyz/kailua",
     "celo-org/celo-threshold-bls-rs",
     "datachainlab/lcp",
@@ -56,6 +58,7 @@
     "rust-osdev/ovmf-prebuilt",
     "Sovereign-Labs/rollup-starter",
     "succinctlabs/network",
+    "succinctlabs/sp1-cluster",
     "Systemcluster/kitoken",
     "typst/typst-assets",
     "urschrei/rdp"

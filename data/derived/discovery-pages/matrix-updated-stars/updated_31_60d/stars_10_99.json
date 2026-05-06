@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2032,
-    "concepts": 1194,
-    "observations": 1197,
-    "repos": 346,
-    "terms": 1192
+    "components": 2033,
+    "concepts": 1199,
+    "observations": 1202,
+    "repos": 347,
+    "terms": 1197
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -144,6 +144,7 @@
     "databrickslabs/pylint-plugin",
     "datachainlab/ethereum-ibc-relay-chain",
     "datafusion-contrib/datafusion-orc",
+    "dbuenzli/logs",
     "dcampbell24/mdbook-djot",
     "DeanoC/tiny_imageformat",
     "depado/bfchroma",
@@ -296,7 +297,6 @@
     "OpenCIDN/ocimirror",
     "opencontainers/.github",
     "opencontainers/tob",
-    "OpenHands/openhands-chrome-extension",
     "operator-framework/community",
     "optuna/optunahub",
     "padreati/rapaio",
@@ -350,6 +350,7 @@
     "Triang-jyed-driung/Rapid-Sampling",
     "Turbo87/flat-projection-rs",
     "typst/typst-flake",
+    "uael/sv",
     "undreamai/LlamaLib",
     "Vaishnav-Sabari-Girish/Hayasen",
     "VeriSilicon/tflite-vx-delegate",

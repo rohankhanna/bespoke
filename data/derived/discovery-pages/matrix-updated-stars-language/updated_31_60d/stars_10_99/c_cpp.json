@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 125,
-    "concepts": 131,
-    "observations": 131,
-    "repos": 29,
-    "terms": 130
+    "components": 126,
+    "concepts": 136,
+    "observations": 136,
+    "repos": 30,
+    "terms": 135
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "ada-url/goada",
     "AFD-Illinois/ebhlight",
@@ -41,6 +41,7 @@
     "onicai/llama_cpp_canister",
     "RekGRpth/pg_task",
     "ssiu/flash-attention-turing",
+    "uael/sv",
     "undreamai/LlamaLib",
     "VeriSilicon/tflite-vx-delegate"
   ]

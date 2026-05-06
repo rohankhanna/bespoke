@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1663,
-    "concepts": 335,
-    "observations": 336,
-    "repos": 45,
-    "terms": 357
+    "components": 1726,
+    "concepts": 346,
+    "observations": 347,
+    "repos": 47,
+    "terms": 368
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "aleclarson/vite-tsconfig-paths",
@@ -44,6 +44,7 @@
     "markdoc/markdoc",
     "mattpocock/ts-reset",
     "microsoft/genaiscript",
+    "microsoft/node-pty",
     "microsoft/tsdoc",
     "Myriad-Dreamin/typst.ts",
     "nanbingxyz/5ire",
@@ -51,6 +52,7 @@
     "pillarjs/path-to-regexp",
     "react-native-webview/react-native-webview",
     "REditorSupport/vscode-R",
+    "remotion-dev/github-unwrapped",
     "sql-formatter-org/sql-formatter",
     "standard-schema/standard-schema",
     "stephenh/ts-proto",

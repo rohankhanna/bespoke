@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 59788,
-    "concepts": 10192,
-    "observations": 10227,
-    "repos": 1811,
-    "terms": 10497
+    "components": 59808,
+    "concepts": 10197,
+    "observations": 10232,
+    "repos": 1812,
+    "terms": 10503
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "0h7z/vscode-julia-format",
@@ -975,6 +975,7 @@
     "labring/fastgpt-plugin",
     "labring/laf",
     "labring/sealos",
+    "lace/hyla",
     "lambdalisue/vim-gin",
     "langchain-ai/deepagentsjs",
     "langchain-ai/langchainjs",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 14450,
-    "concepts": 12768,
-    "observations": 12792,
-    "repos": 4256,
-    "terms": 12549
+    "components": 14486,
+    "concepts": 12774,
+    "observations": 12798,
+    "repos": 4262,
+    "terms": 12555
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -383,6 +383,7 @@
     "apple/ARKitScenes",
     "apple/ccs-pykerberos",
     "apple/ml-cross-entropy",
+    "apple/ToolSandbox",
     "applied-science/js-interop",
     "approvals/ApprovalTests.Net",
     "aquasecurity/tfsec-pr-commenter-action",
@@ -1409,6 +1410,7 @@
     "explosion/spacy-lookups-data",
     "exponentially/extreme",
     "ExponentialML/AnimateDiff-MotionDirector",
+    "ExponentialML/ComfyUI_ELLA",
     "ExponentialML/Text-To-Video-Finetuning",
     "ExponentialML/Video-BLIP2-Preprocessor",
     "Extraltodeus/ComfyUI-AutomaticCFG",
@@ -2019,6 +2021,7 @@
     "informalsystems/ibc-rs",
     "infusion/udf_infusion",
     "inhabitedtype/angstrom",
+    "inhabitedtype/faraday",
     "inherd/coco",
     "inikep/lizard",
     "INK-USC/CrossFit",
@@ -3065,6 +3068,7 @@
     "NVIDIA/trt-llm-as-openai-windows",
     "nvim-lua/completion-nvim",
     "nvim-lua/lsp-status.nvim",
+    "nvim-lua/nvim-lua-plugin-template",
     "nvim-neotest/neotest-go",
     "nvim-neotest/nvim-nio",
     "nvim-telescope/telescope-cheat.nvim",
@@ -3581,6 +3585,7 @@
     "Shadowsocks-NET/shadowsocks-specs",
     "shadowsocks/badvpn",
     "Shark-NLP/OpenICL",
+    "shawnricecake/draft-attention",
     "shawwn/openai-server",
     "ShelbyJenkins/llm_client",
     "ShenhanQian/VHAP",
@@ -3624,6 +3629,7 @@
     "sisl/MADRL",
     "skaji/remote-pbcopy-iterm2",
     "sky-ecosystem/multicall",
+    "sky-ecosystem/multicall.js",
     "skystrife/cpptoml",
     "SkyTNT/anime-segmentation",
     "skywind3000/gutentags_plus",

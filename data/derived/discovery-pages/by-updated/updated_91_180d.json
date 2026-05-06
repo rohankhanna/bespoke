@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 9450,
-    "concepts": 6279,
-    "observations": 6304,
-    "repos": 1740,
-    "terms": 6257
+    "components": 9461,
+    "concepts": 6299,
+    "observations": 6324,
+    "repos": 1741,
+    "terms": 6277
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0b01/tigris-and-euphrates",
@@ -172,7 +172,6 @@
     "appelmar/gdalcubes",
     "AppImageCommunity/awesome-appimage",
     "apple/ml-hypersim",
-    "apple/ToolSandbox",
     "appscodelabs/liche",
     "appwrite/playground-for-flutter",
     "aqlaboratory/openfold",
@@ -1240,6 +1239,7 @@
     "obsidianmd/obsidian-sample-plugin",
     "ocaml-opam/opam-rt",
     "ocaml-wasm/wasm_of_ocaml",
+    "oceanbase/ob-operator",
     "ochorocho/franken-typo3",
     "offline-ai/ai-shell",
     "offu/WeRoBot",
@@ -1451,6 +1451,7 @@
     "salesforcecli/status",
     "saltstack/libnacl",
     "SAML-Toolkits/python3-saml",
+    "sammycage/lunasvg",
     "Samsung/netcoredbg",
     "SarahWeiii/pamo",
     "sarlinpe/pybind11-stubgen",

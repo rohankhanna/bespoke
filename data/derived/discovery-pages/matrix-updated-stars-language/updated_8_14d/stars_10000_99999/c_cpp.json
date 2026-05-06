@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 319,
-    "concepts": 536,
-    "observations": 539,
-    "repos": 48,
-    "terms": 533
+    "components": 344,
+    "concepts": 551,
+    "observations": 554,
+    "repos": 50,
+    "terms": 548
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "Alexays/Waybar",
@@ -39,6 +39,7 @@
     "google/filament",
     "google/sentencepiece",
     "grpc/grpc",
+    "iovisor/bcc",
     "isl-org/Open3D",
     "k2-fsa/sherpa-onnx",
     "libuv/libuv",
@@ -61,6 +62,7 @@
     "systemd/systemd",
     "taskflow/taskflow",
     "Tencent/ncnn",
-    "uNetworking/uWebSockets"
+    "uNetworking/uWebSockets",
+    "yhirose/cpp-httplib"
   ]
 }

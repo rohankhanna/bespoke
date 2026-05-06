@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5055,
-    "concepts": 1714,
-    "observations": 1716,
-    "repos": 1246,
-    "terms": 1712
+    "components": 5080,
+    "concepts": 1727,
+    "observations": 1729,
+    "repos": 1249,
+    "terms": 1725
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -805,8 +805,11 @@
     "L-Trump/logseq-publish-docker",
     "l3d00m/mmm-librespotjava",
     "lace/blmath",
+    "lace/hobart-svg",
+    "lace/hyla",
     "lace/lace",
     "lace/meshlab-pickedpoints",
+    "lace/ounce",
     "lakim/spring-commands-standard",
     "lanthale/LibHeifFX",
     "lapce/psp-types",

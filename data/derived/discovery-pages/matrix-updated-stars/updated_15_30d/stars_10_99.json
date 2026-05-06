@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4452,
-    "concepts": 2002,
-    "observations": 2013,
-    "repos": 558,
-    "terms": 2073
+    "components": 4451,
+    "concepts": 1997,
+    "observations": 2008,
+    "repos": 557,
+    "terms": 2068
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x676e67/wreq-util",
@@ -535,7 +535,6 @@
     "TrigenSoftware/simple-release-action",
     "triton-inference-server/openvino_backend",
     "typeshed-internal/stub_uploader",
-    "uael/sv",
     "urschrei/pypolyline",
     "usbarmory/armory-boot",
     "usbarmory/armory-drive",

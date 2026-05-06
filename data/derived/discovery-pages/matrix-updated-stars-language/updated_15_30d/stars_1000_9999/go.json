@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1043,
-    "concepts": 1024,
-    "observations": 1026,
+    "components": 1047,
+    "concepts": 1025,
+    "observations": 1027,
     "repos": 132,
-    "terms": 1028
+    "terms": 1029
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
     "alecthomas/chroma",
     "alexellis/arkade",
     "alibaba/higress",
+    "apache/dubbo-go",
     "appleboy/gorush",
     "apptainer/apptainer",
     "ariga/atlas",
@@ -46,7 +47,6 @@
     "charmbracelet/log",
     "cloudfoundry/cli",
     "cloudnativelabs/kube-router",
-    "cloudwego/netpoll",
     "cncf/toc",
     "containernetworking/plugins",
     "containers/buildah",

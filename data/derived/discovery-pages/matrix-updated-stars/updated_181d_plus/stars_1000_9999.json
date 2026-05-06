@@ -3,15 +3,15 @@
     "components": 9664,
     "concepts": 8321,
     "observations": 8330,
-    "repos": 2187,
-    "terms": 8204
+    "repos": 2188,
+    "terms": 8205
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -1912,6 +1912,7 @@
     "Tencent-Hunyuan/HunyuanCustom",
     "Tencent/TNN",
     "TencentARC/T2I-Adapter",
+    "TencentQQGYLab/ELLA",
     "tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation",
     "tensorflow/addons",
     "tensorflow/benchmarks",

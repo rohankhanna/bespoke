@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 44,
-    "concepts": 60,
-    "observations": 60,
+    "components": 45,
+    "concepts": 61,
+    "observations": 61,
     "repos": 4,
-    "terms": 60
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "Comfy-Org/ComfyUI",
     "huggingface/transformers",

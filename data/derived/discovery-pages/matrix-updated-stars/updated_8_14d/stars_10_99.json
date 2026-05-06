@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3435,
-    "concepts": 1644,
-    "observations": 1648,
-    "repos": 362,
-    "terms": 1632
+    "components": 3506,
+    "concepts": 1686,
+    "observations": 1690,
+    "repos": 369,
+    "terms": 1674
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T05:39:22.250037+00:00",
+  "generated_at": "2026-05-06T07:43:15.885019+00:00",
   "repo_ids": [
     "3rd/config",
     "52-entertainment/vite-plugin-oxlint",
@@ -82,6 +82,8 @@
     "bitcoindevkit/rust-electrum-client",
     "bitnami/vulndb",
     "bnb-chain/node-deploy",
+    "bnb-chain/reth",
+    "bnb-chain/reth-bsc",
     "boostorg/config",
     "bootmortis/sing-geosite",
     "boundless-xyz/kailua",
@@ -215,6 +217,7 @@
     "jupyterlab/frontends-team-compass",
     "JustusAdam/language-haskell",
     "jxpress/lightning-hydra-template-vertex-ai",
+    "karafka/karafka-web",
     "Kastalien-Research/thoughtbox",
     "kendryte/canmv_k230",
     "kubernetes-sigs/apiserver-runtime",
@@ -228,6 +231,7 @@
     "libbitcoin/libbitcoin-network",
     "llamastack/llama-stack-client-typescript",
     "llnl/camp",
+    "localstack/localstack-cli",
     "locize/i18next-locize-backend",
     "locize/locize",
     "locize/locizify",
@@ -245,6 +249,7 @@
     "milvus-io/milvus-proto",
     "milvus-io/milvus-sdk-cpp",
     "mirage/colombe",
+    "mmllr/neotest-swift-testing",
     "ModelCloud/Evalution",
     "mongodb/winkerberos",
     "mpizenberg/elm-test-rs",
@@ -335,6 +340,7 @@
     "sigstore/community",
     "sigstore/helm-sigstore",
     "sigstore/k8s-manifest-sigstore",
+    "sigstore/sigstore-conformance",
     "Sovereign-Labs/rollup-starter",
     "spiffe/java-spiffe",
     "spring-projects/spring-ai-integration-tests",
@@ -344,6 +350,7 @@
     "status-im/nim-ssz-serialization",
     "sublimelsp/LSP-ruff",
     "succinctlabs/network",
+    "succinctlabs/sp1-cluster",
     "supabase/scoop-bucket",
     "swagger-api/apidom",
     "symgraph/BinAssistMCP",
