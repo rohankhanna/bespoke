@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -61,6 +61,31 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "lightstep/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "cometbft/cometbft-db"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "tendermint/tm-db"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "getsentry/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "GoogleCloudPlatform/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "GuanceCloud/opentelemetry-demo"
     }
   ],
   "term": "Close stale pull requests"

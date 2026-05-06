@@ -391,6 +391,18 @@
       "source_repo": "JuliaGeo/LibGEOS.jl",
       "status": "candidate-context",
       "text": "LibGEOS.jl"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yeesian/ArchGDAL.jl",
+      "status": "candidate-context",
+      "text": "A high level API for GDAL - Geospatial Data Abstraction Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeesian/ArchGDAL.jl",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/yeesian/ArchGDAL.jl/workflows/CI/badge.svg)](https://github.com/yeesian/ArchGDAL.jl/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_glosses": [
@@ -585,6 +597,12 @@
       "source_repo": "JuliaGeo/LibGEOS.jl",
       "status": "candidate",
       "text": "LibGEOS.jl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeesian/ArchGDAL.jl",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/yeesian/ArchGDAL.jl/workflows/CI/badge.svg)](https://github.com/yeesian/ArchGDAL.jl/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_related_terms": [
@@ -880,11 +898,23 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "databendlabs/databend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "yeesian/ArchGDAL.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "databendlabs/databend"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

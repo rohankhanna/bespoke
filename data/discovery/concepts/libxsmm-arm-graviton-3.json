@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "LIBXSMM Arm Graviton 3"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libxsmm/libxsmm",
+      "status": "candidate-context",
+      "text": "Library for specialized dense and sparse matrix operations, and deep learning primitives."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libxsmm/libxsmm",
+      "status": "candidate-context",
+      "text": "LIBXSMM Arm Graviton 3"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libxsmm/libxsmm",
+      "status": "candidate",
+      "text": "LIBXSMM Arm Graviton 3"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "anode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "boson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "continuum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "cube"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "dipole"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "LIBXSMM Arm Graviton 3",
+  "concept_id": "libxsmm-arm-graviton-3",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/libxsmm-arm-graviton3.yml",
+      "source_repo": "libxsmm/libxsmm"
+    }
+  ],
+  "first_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "LIBXSMM Arm Graviton 3",
+      "sense_id": "libxsmm-arm-graviton-3#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

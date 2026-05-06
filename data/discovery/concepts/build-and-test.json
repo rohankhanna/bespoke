@@ -1634,6 +1634,30 @@
       "source_repo": "fugro-oss/g2o",
       "status": "candidate-context",
       "text": "Build and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quicksilver-zone/quicksilver",
+      "status": "candidate-context",
+      "text": "Quicksilver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quicksilver-zone/quicksilver",
+      "status": "candidate-context",
+      "text": "build and test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KamilSJaron/smudgeplot",
+      "status": "candidate-context",
+      "text": "Inference of ploidy and heterozygosity structure using whole genome sequencing data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KamilSJaron/smudgeplot",
+      "status": "candidate-context",
+      "text": "Build and Test"
     }
   ],
   "candidate_glosses": [
@@ -2462,6 +2486,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "fugro-oss/g2o",
+      "status": "candidate",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quicksilver-zone/quicksilver",
+      "status": "candidate",
+      "text": "build and test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KamilSJaron/smudgeplot",
       "status": "candidate",
       "text": "Build and Test"
     }
@@ -3629,11 +3665,29 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": ".github/workflows/build_and_test.yml",
       "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/buildtest.yaml",
+      "source_repo": "quicksilver-zone/quicksilver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "KamilSJaron/smudgeplot"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

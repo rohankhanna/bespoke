@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1127,6 +1127,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "Shopify/erb_lint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "instana/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "influxdata/arrow-datafusion"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "influxdata/arrow-datafusion"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "influxdata/arrow-datafusion"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "influxdata/arrow-datafusion"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs_pr.yaml",
+      "source_repo": "influxdata/arrow-datafusion"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/extended.yml",
+      "source_repo": "influxdata/arrow-datafusion"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "influxdata/arrow-datafusion"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/large_files.yml",
+      "source_repo": "influxdata/arrow-datafusion"
     }
   ]
 }

@@ -238,6 +238,18 @@
       "source_repo": "paradigmxyz/solar",
       "status": "candidate-context",
       "text": "Dependencies"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "influxdata/arrow-datafusion",
+      "status": "candidate-context",
+      "text": "Apache Arrow DataFusion SQL Query Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "influxdata/arrow-datafusion",
+      "status": "candidate-context",
+      "text": "Dependencies"
     }
   ],
   "candidate_glosses": [
@@ -352,6 +364,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "paradigmxyz/solar",
+      "status": "candidate",
+      "text": "Dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "influxdata/arrow-datafusion",
       "status": "candidate",
       "text": "Dependencies"
     }
@@ -787,11 +805,17 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": null,
       "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "influxdata/arrow-datafusion"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

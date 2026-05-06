@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "IBC applications and middleware for Cosmos SDK chains."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "polytone audit dependencies"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "polytone audit dependencies"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22388,
+      "status": "candidate",
+      "text": "unison"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9883,
+      "status": "candidate",
+      "text": "franc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9883,
+      "status": "candidate",
+      "text": "imperialism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9883,
+      "status": "candidate",
+      "text": "peseta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9883,
+      "status": "candidate",
+      "text": "pound"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "polytone audit dependencies",
+      "sense_id": "polytone-audit-dependencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "polytone-audit-dependencies",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "polytone-audit-dependencies",
+  "observation_id": "fc63efb3d44d6490",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-06T12:51:12.481137+00:00",
+  "observed_text": "polytone audit dependencies",
+  "source_context_snippet": "polytone audit dependencies",
+  "source_file": ".github/workflows/polytone_audit_dependencies.yml",
+  "source_repo": "cosmos/ibc-apps",
+  "source_repo_description": "IBC applications and middleware for Cosmos SDK chains."
+}

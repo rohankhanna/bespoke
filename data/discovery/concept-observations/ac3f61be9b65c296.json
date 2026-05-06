@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of open source Rust crates from iqlusion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "bip32"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "bip32"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "bip32",
+      "sense_id": "bip32#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bip32",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bip32",
+  "observation_id": "ac3f61be9b65c296",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-06T12:51:12.481137+00:00",
+  "observed_text": "bip32",
+  "source_context_snippet": "bip32",
+  "source_file": ".github/workflows/bip32.yml",
+  "source_repo": "iqlusioninc/crates",
+  "source_repo_description": "A collection of open source Rust crates from iqlusion"
+}

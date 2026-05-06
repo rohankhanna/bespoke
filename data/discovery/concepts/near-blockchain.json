@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "near-blockchain"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexfilatov/borsh",
+      "status": "candidate-context",
+      "text": "Elixir implementation of the BORSH binary serializer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexfilatov/borsh",
+      "status": "candidate-context",
+      "text": "BORSH, binary serializer for security-critical projects."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexfilatov/borsh",
+      "status": "candidate",
+      "text": "BORSH, binary serializer for security-critical projects."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "near-blockchain",
+  "concept_id": "near-blockchain",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "alexfilatov/borsh"
+    }
+  ],
+  "first_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "near-blockchain",
+      "sense_id": "near-blockchain#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

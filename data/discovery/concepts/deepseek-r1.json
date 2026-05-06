@@ -151,6 +151,18 @@
       "source_repo": "ai4colonoscopy/Colon-X",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nrl-ai/llama-assistant",
+      "status": "candidate-context",
+      "text": "AI-powered assistant to help you with your daily tasks, powered by Llama 3, DeepSeek R1, and many more models on HuggingFace."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrl-ai/llama-assistant",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "ai4colonoscopy/Colon-X",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrl-ai/llama-assistant",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -472,11 +490,17 @@
       "observed_at": "2026-05-06T00:36:03.937537+00:00",
       "source_file": null,
       "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "nrl-ai/llama-assistant"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

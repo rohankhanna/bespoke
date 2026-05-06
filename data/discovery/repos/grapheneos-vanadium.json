@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GrapheneOS/Vanadium",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GrapheneOS/Vanadium",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GrapheneOS/Vanadium",
+      "target": "chromium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GrapheneOS/Vanadium",
+      "target": "grapheneos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GrapheneOS/Vanadium",
+      "target": "privacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GrapheneOS/Vanadium",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GrapheneOS/Vanadium",
+      "target": "webview",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T13:04:00.123472+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 923
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Privacy and security enhanced releases of Chromium for GrapheneOS. Vanadium provides the WebView and standard user-facing browser on GrapheneOS. It depends on hardening in other GrapheneOS repositories and doesn't include patches not relevant to the build targets used on GrapheneOS.",
+    "fork": false,
+    "full_name": "GrapheneOS/Vanadium",
+    "html_url": "https://github.com/GrapheneOS/Vanadium",
+    "language": "Shell",
+    "pushed_at": "2026-04-30T04:00:03Z",
+    "stargazers_count": 1768,
+    "topics": [
+      "android",
+      "browser",
+      "chromium",
+      "grapheneos",
+      "privacy",
+      "security",
+      "webview"
+    ],
+    "updated_at": "2026-05-05T23:10:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Vanadium is a privacy and security hardened variant of Chromium providing the WebView (used by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "Vanadium is a privacy and security hardened variant of Chromium providing the WebView (used by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "Vanadium is a privacy and security hardened variant of Chromium providing the WebView (used by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromium"
+    },
+    {
+      "context_snippet": "Vanadium is a privacy and security hardened variant of Chromium providing the WebView (used by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grapheneos"
+    },
+    {
+      "context_snippet": "Vanadium is a privacy and security hardened variant of Chromium providing the WebView (used by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privacy"
+    },
+    {
+      "context_snippet": "Vanadium is a privacy and security hardened variant of Chromium providing the WebView (used by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "Vanadium is a privacy and security hardened variant of Chromium providing the WebView (used by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webview"
+    }
+  ]
+}

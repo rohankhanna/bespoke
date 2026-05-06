@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "transpose"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libxsmm/libxsmm",
+      "status": "candidate-context",
+      "text": "Library for specialized dense and sparse matrix operations, and deep learning primitives."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libxsmm/libxsmm",
+      "status": "candidate-context",
+      "text": "[![BSD 3-Clause License](https://img.shields.io/badge/license-BSD3-blue.svg \"BSD 3-Clause License\")](LICENSE.md) [![GCC Build Status](https://badge.buildkite.com/2e962d4cfc7ddb10a6cd6c27b0d8033edf179a799e156cb363.svg?branch=main \"GCC Build Status\")](https://github.com/libxsmm/li\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libxsmm/libxsmm",
+      "status": "candidate",
+      "text": "[![BSD 3-Clause License](https://img.shields.io/badge/license-BSD3-blue.svg \"BSD 3-Clause License\")](LICENSE.md) [![GCC Build Status](https://badge.buildkite.com/2e962d4cfc7ddb10a6cd6c27b0d8033edf179a799e156cb363.svg?branch=main \"GCC Build Status\")](https://github.com/libxsmm/li\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037859,
+      "status": "candidate",
+      "text": "interchange"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037026,
+      "status": "candidate",
+      "text": "permute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029993,
+      "status": "candidate",
+      "text": "transfer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028540,
+      "status": "candidate",
+      "text": "counterchange"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009555,
+      "status": "candidate",
+      "text": "commute"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21073,
+      "status": "candidate",
+      "text": "transfer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15042,
+      "status": "candidate",
+      "text": "interchange"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14041,
+      "status": "candidate",
+      "text": "commute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41,
+      "status": "candidate",
+      "text": "transplant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24,
+      "status": "candidate",
+      "text": "counterchange"
+    }
+  ],
+  "canonical_name": "transpose",
+  "concept_id": "transpose",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "libxsmm/libxsmm"
+    }
+  ],
+  "first_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "transpose",
+      "sense_id": "transpose#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

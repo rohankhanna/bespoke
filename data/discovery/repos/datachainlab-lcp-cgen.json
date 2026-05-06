@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "datachainlab/lcp-cgen",
+      "target": "marshallpierce/rust-base64",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-06T12:56:17.718308+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 46
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2355
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "datachainlab/lcp-cgen",
+    "html_url": "https://github.com/datachainlab/lcp-cgen",
+    "language": "Rust",
+    "pushed_at": "2024-06-18T11:16:40Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-06-18T11:16:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marshallpierce/rust-base64",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

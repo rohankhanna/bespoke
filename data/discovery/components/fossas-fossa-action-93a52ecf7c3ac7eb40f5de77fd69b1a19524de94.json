@@ -1,7 +1,7 @@
 {
   "component": "fossas/fossa-action@93a52ecf7c3ac7eb40f5de77fd69b1a19524de94",
   "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/fossa.yml",
       "source_repo": "apache/doris-opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "ClickHouse/opentelemetry-demo"
     }
   ]
 }

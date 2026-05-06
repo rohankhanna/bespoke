@@ -1159,6 +1159,18 @@
       "source_repo": "undreamai/LLMUnity",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nrl-ai/llama-assistant",
+      "status": "candidate-context",
+      "text": "AI-powered assistant to help you with your daily tasks, powered by Llama 3, DeepSeek R1, and many more models on HuggingFace."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrl-ai/llama-assistant",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1735,6 +1747,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "undreamai/LLMUnity",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrl-ai/llama-assistant",
       "status": "candidate",
       "text": "<p align=\"center\">"
     }
@@ -3490,11 +3508,29 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": null,
       "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "nrl-ai/llama-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

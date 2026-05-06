@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rocq-community/docker-rocq",
+      "target": "coq-community/docker-coq-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rocq-community/docker-rocq",
+      "target": "coq-community/docker-rocq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rocq-community/docker-rocq",
+      "target": "coq-community/docker-base",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rocq-community/docker-rocq",
+      "target": "coq-community/docker-coq",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-06T12:56:33.555029+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3445
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Docker images of the Rocq Prover (see also: https://github.com/rocq-community/docker-coq-action) [maintainer=@Justme0606]",
+    "fork": false,
+    "full_name": "rocq-community/docker-rocq",
+    "html_url": "https://github.com/rocq-community/docker-rocq",
+    "language": "Dockerfile",
+    "pushed_at": "2026-04-03T15:27:30Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-05-02T17:04:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coq-community/docker-base",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coq-community/docker-coq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coq-community/docker-coq-action",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coq-community/docker-rocq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

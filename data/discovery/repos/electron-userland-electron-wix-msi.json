@@ -376,7 +376,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T20:10:54.071194+00:00",
+  "fetched_at": "2026-05-06T13:13:54.332860+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -397,7 +397,7 @@
     "html_url": "https://github.com/electron-userland/electron-wix-msi",
     "language": "TypeScript",
     "pushed_at": "2025-10-29T22:10:39Z",
-    "stargazers_count": 331,
+    "stargazers_count": 330,
     "topics": [
       "electron",
       "electronjs",
@@ -406,7 +406,7 @@
       "wix",
       "wix-toolset"
     ],
-    "updated_at": "2026-03-16T10:13:32Z"
+    "updated_at": "2026-05-06T12:58:42Z"
   },
   "repo_links": [
     {

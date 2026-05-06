@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "datachainlab/lcp-cgen",
+      "target": "marshallpierce/rust-base64",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-06T12:51:12.481137+00:00",
+  "source_repo": "datachainlab/lcp-cgen"
+}

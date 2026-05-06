@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/GDAL_jll.jl",
+      "target": "juliabinarywrappers/arrow_jll.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/GDAL_jll.jl",
+      "target": "juliabinarywrappers/blosc_jll.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/GDAL_jll.jl",
+      "target": "juliabinarywrappers/geos_jll.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/GDAL_jll.jl",
+      "target": "juliabinarywrappers/hdf4_jll.jl",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-06T12:51:12.481137+00:00",
+  "source_repo": "JuliaBinaryWrappers/GDAL_jll.jl"
+}

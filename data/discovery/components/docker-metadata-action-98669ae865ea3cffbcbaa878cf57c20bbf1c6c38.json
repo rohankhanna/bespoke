@@ -1,7 +1,7 @@
 {
   "component": "docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38",
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

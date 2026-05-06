@@ -43,6 +43,18 @@
       "source_repo": "ibis-project/ibis",
       "status": "candidate-context",
       "text": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "influxdata/datafusion-udf-wasm",
+      "status": "candidate-context",
+      "text": "DataFusion UDFs (User Defined Functions) via WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "influxdata/datafusion-udf-wasm",
+      "status": "candidate-context",
+      "text": "This section discusses the different types of _User Defined Functions_ (UDFs) that are currently available in [Apache DataFusion]."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "ibis-project/ibis",
       "status": "candidate",
       "text": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "influxdata/datafusion-udf-wasm",
+      "status": "candidate",
+      "text": "This section discusses the different types of _User Defined Functions_ (UDFs) that are currently available in [Apache DataFusion]."
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +112,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "apache/datafusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "influxdata/datafusion-udf-wasm"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

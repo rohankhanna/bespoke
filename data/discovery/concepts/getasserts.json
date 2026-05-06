@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "GetAsserts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLLVM/LLVM.jl",
+      "status": "candidate-context",
+      "text": "Julia wrapper for the LLVM C API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLLVM/LLVM.jl",
+      "status": "candidate-context",
+      "text": "GetAsserts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLLVM/LLVM.jl",
+      "status": "candidate",
+      "text": "GetAsserts"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "GetAsserts",
+  "concept_id": "getasserts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/GetAsserts.yml",
+      "source_repo": "JuliaLLVM/LLVM.jl"
+    }
+  ],
+  "first_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "GetAsserts",
+      "sense_id": "getasserts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

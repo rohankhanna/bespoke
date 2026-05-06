@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "level0"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CHIP-SPV/chipStar",
+      "status": "candidate-context",
+      "text": "chipStar is a tool for compiling and running HIP/CUDA on SPIR-V via OpenCL or Level Zero APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CHIP-SPV/chipStar",
+      "status": "candidate-context",
+      "text": "![Unit Tests Intel GPUs](https://github.com/CHIP-SPV/chipStar/workflows/Unit%20Tests%20Intel%20GPUs/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CHIP-SPV/chipStar",
+      "status": "candidate",
+      "text": "![Unit Tests Intel GPUs](https://github.com/CHIP-SPV/chipStar/workflows/Unit%20Tests%20Intel%20GPUs/badge.svg)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "level0",
+  "concept_id": "level0",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "CHIP-SPV/chipStar"
+    }
+  ],
+  "first_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "level0",
+      "sense_id": "level0#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

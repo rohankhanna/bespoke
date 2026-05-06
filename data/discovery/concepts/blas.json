@@ -199,6 +199,18 @@
       "source_repo": "eigenteam/eigen-git-mirror",
       "status": "candidate-context",
       "text": "**Eigen's official git repository have been moved to https://gitlab.com/libeigen/eigen**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libxsmm/libxsmm",
+      "status": "candidate-context",
+      "text": "Library for specialized dense and sparse matrix operations, and deep learning primitives."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libxsmm/libxsmm",
+      "status": "candidate-context",
+      "text": "[![BSD 3-Clause License](https://img.shields.io/badge/license-BSD3-blue.svg \"BSD 3-Clause License\")](LICENSE.md) [![GCC Build Status](https://badge.buildkite.com/2e962d4cfc7ddb10a6cd6c27b0d8033edf179a799e156cb363.svg?branch=main \"GCC Build Status\")](https://github.com/libxsmm/li\u2026"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "eigenteam/eigen-git-mirror",
       "status": "candidate",
       "text": "**Eigen's official git repository have been moved to https://gitlab.com/libeigen/eigen**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libxsmm/libxsmm",
+      "status": "candidate",
+      "text": "[![BSD 3-Clause License](https://img.shields.io/badge/license-BSD3-blue.svg \"BSD 3-Clause License\")](LICENSE.md) [![GCC Build Status](https://badge.buildkite.com/2e962d4cfc7ddb10a6cd6c27b0d8033edf179a799e156cb363.svg?branch=main \"GCC Build Status\")](https://github.com/libxsmm/li\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -694,11 +712,17 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "libxsmm/libxsmm"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -31,6 +31,18 @@
       "source_repo": "itzg/docker-minecraft-server",
       "status": "candidate-context",
       "text": "Issues notify"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "itzg/docker-minecraft-bedrock-server",
+      "status": "candidate-context",
+      "text": "Containerized Minecraft Bedrock Dedicated Server with selectable version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itzg/docker-minecraft-bedrock-server",
+      "status": "candidate-context",
+      "text": "Issues notify"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "itzg/docker-minecraft-server",
+      "status": "candidate",
+      "text": "Issues notify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itzg/docker-minecraft-bedrock-server",
       "status": "candidate",
       "text": "Issues notify"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": ".github/workflows/issue-label.yml",
       "source_repo": "itzg/docker-minecraft-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/issues-notify.yml",
+      "source_repo": "itzg/docker-minecraft-bedrock-server"
     }
   ],
   "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

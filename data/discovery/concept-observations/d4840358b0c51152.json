@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "IBC applications and middleware for Cosmos SDK chains."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ibc-hooks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ibc-hooks"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ibc-hooks",
+      "sense_id": "ibc-hooks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ibc-hooks",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ibc-hooks",
+  "observation_id": "d4840358b0c51152",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-06T12:51:12.481137+00:00",
+  "observed_text": "ibc-hooks",
+  "source_context_snippet": "ibc-hooks",
+  "source_file": ".github/workflows/ibc-hooks.yml",
+  "source_repo": "cosmos/ibc-apps",
+  "source_repo_description": "IBC applications and middleware for Cosmos SDK chains."
+}

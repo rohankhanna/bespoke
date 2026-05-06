@@ -11,14 +11,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ungoogled-software/ungoogled-chromium",
-      "target": "pf4public/gentoo-overlay",
+      "target": "ungoogled-software/ungoogled-chromium-archlinux",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ungoogled-software/ungoogled-chromium",
-      "target": "ungoogled-software/contrib",
+      "target": "ungoogled-software/ungoogled-chromium-debian",
       "target_type": "repository"
     },
     {
@@ -127,6 +127,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-05T18:38:09.351693+00:00",
+  "generated_at": "2026-05-06T12:51:12.481137+00:00",
   "source_repo": "ungoogled-software/ungoogled-chromium"
 }

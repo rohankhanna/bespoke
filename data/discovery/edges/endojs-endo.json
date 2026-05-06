@@ -347,7 +347,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ocapn-guile-interop.yml",
       "source_repo": "endojs/endo",
-      "target": "PromyLOPh/guix-install-action@40615e98e5c16a451aec10fe01c214ed07cbaa77",
+      "target": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ocapn-guile-interop.yml",
+      "source_repo": "endojs/endo",
+      "target": "nick-fields/retry@ce71cc2ab81d554ebbe88c79ab5975992d79ba08",
       "target_type": "component"
     },
     {
@@ -519,6 +526,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-05T18:38:09.351693+00:00",
+  "generated_at": "2026-05-06T12:51:12.481137+00:00",
   "source_repo": "endojs/endo"
 }

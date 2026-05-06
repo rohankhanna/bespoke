@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +21,18 @@
       "source_repo": "spacemeshos/smcli",
       "status": "candidate-context",
       "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iqlusioninc/crates",
+      "status": "candidate-context",
+      "text": "A collection of open source Rust crates from iqlusion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iqlusioninc/crates",
+      "status": "candidate-context",
+      "text": "bip32"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +41,12 @@
       "source_repo": "spacemeshos/smcli",
       "status": "candidate",
       "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iqlusioninc/crates",
+      "status": "candidate",
+      "text": "bip32"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +60,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "spacemeshos/smcli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/bip32.yml",
+      "source_repo": "iqlusioninc/crates"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

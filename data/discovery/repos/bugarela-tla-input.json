@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bugarela/tla-input",
+      "target": "ratish-punnoose/tla-mode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bugarela/tla-input",
+      "target": "carlthuringer/tla-mode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bugarela/tla-input",
+      "target": "mrc/tla-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bugarela/tla-input",
+      "target": "davidbrcz/tla-ts-mode",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-06T12:57:36.525034+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2105
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TLA+ Unicode input for Emacs",
+    "fork": false,
+    "full_name": "bugarela/tla-input",
+    "html_url": "https://github.com/bugarela/tla-input",
+    "language": "Emacs Lisp",
+    "pushed_at": "2025-04-16T16:26:57Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-04-16T16:27:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carlthuringer/tla-mode",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davidbrcz/tla-ts-mode",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mrc/tla-tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ratish-punnoose/tla-mode",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1823,6 +1823,18 @@
       "source_repo": "nvim-lua/nvim-lua-plugin-template",
       "status": "candidate-context",
       "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "near/near-cli-rs",
+      "status": "candidate-context",
+      "text": "near CLI is your human-friendly companion that helps to interact with NEAR Protocol from command line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-cli-rs",
+      "status": "candidate-context",
+      "text": "Run Tests"
     }
   ],
   "candidate_glosses": [
@@ -2755,6 +2767,12 @@
       "source_repo": "nvim-lua/nvim-lua-plugin-template",
       "status": "candidate",
       "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-cli-rs",
+      "status": "candidate",
+      "text": "Run Tests"
     }
   ],
   "candidate_related_terms": [
@@ -4688,11 +4706,17 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "nvim-lua/nvim-lua-plugin-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "near/near-cli-rs"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

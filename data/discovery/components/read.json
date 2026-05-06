@@ -1,7 +1,7 @@
 {
   "component": "read",
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -492,6 +492,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/TagBot.yml",
       "source_repo": "JuliaGeo/GDAL.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Benchmark.yml",
+      "source_repo": "JuliaGPU/CUDA.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGPU/CUDA.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaLLVM/LLVM.jl"
     }
   ]
 }

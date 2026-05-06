@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AI-powered assistant to help you with your daily tasks, powered by Llama 3, DeepSeek R1, and many more models on HuggingFace."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27500066,
+      "status": "candidate",
+      "text": "irwin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27499803,
+      "status": "candidate",
+      "text": "robert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27499341,
+      "status": "candidate",
+      "text": "erwin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27495023,
+      "status": "candidate",
+      "text": "irving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27492388,
+      "status": "candidate",
+      "text": "hales"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "owen",
+      "sense_id": "owen#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "owen",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "owen",
+  "observation_id": "f9d987b2908a4451",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-06T12:51:12.481137+00:00",
+  "observed_text": "owen",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "nrl-ai/llama-assistant",
+  "source_repo_description": "AI-powered assistant to help you with your daily tasks, powered by Llama 3, DeepSeek R1, and many more models on HuggingFace."
+}

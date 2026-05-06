@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "octol/vim-cpp-enhanced-highlight",
+      "target": "gmarik/vundle.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "octol/vim-cpp-enhanced-highlight",
+      "target": "vim-jp/vim-cpp",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-06T12:51:12.481137+00:00",
+  "source_repo": "octol/vim-cpp-enhanced-highlight"
+}

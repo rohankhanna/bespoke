@@ -270,27 +270,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "f3liz-casa/noraneko-runtime",
-      "target": "servo/unicode-bidi",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "f3liz-casa/noraneko-runtime",
-      "target": "hsivonen/chardetng_c",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "f3liz-casa/noraneko-runtime",
-      "target": "mozilla/midir",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "f3liz-casa/noraneko-runtime",
@@ -578,7 +557,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T16:04:52.810747+00:00",
+  "fetched_at": "2026-05-06T13:04:18.220455+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -640,21 +619,6 @@
       "edge_type": "explicit-github-link",
       "full_name": "nyanrus/noraneko",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "hsivonen/chardetng_c",
-      "source_file": "Cargo.toml"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mozilla/midir",
-      "source_file": "Cargo.toml"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "servo/unicode-bidi",
-      "source_file": "Cargo.toml"
     }
   ],
   "terms": [

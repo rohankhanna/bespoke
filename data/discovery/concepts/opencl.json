@@ -247,6 +247,18 @@
       "source_repo": "ddemidov/amgcl",
       "status": "candidate-context",
       "text": "[![Documentation Status](https://readthedocs.org/projects/amgcl/badge/?version=latest)](http://amgcl.readthedocs.io/en/latest/?badge=latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CHIP-SPV/chipStar",
+      "status": "candidate-context",
+      "text": "chipStar is a tool for compiling and running HIP/CUDA on SPIR-V via OpenCL or Level Zero APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CHIP-SPV/chipStar",
+      "status": "candidate-context",
+      "text": "![Unit Tests Intel GPUs](https://github.com/CHIP-SPV/chipStar/workflows/Unit%20Tests%20Intel%20GPUs/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +381,12 @@
       "source_repo": "ddemidov/amgcl",
       "status": "candidate",
       "text": "[![Documentation Status](https://readthedocs.org/projects/amgcl/badge/?version=latest)](http://amgcl.readthedocs.io/en/latest/?badge=latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CHIP-SPV/chipStar",
+      "status": "candidate",
+      "text": "![Unit Tests Intel GPUs](https://github.com/CHIP-SPV/chipStar/workflows/Unit%20Tests%20Intel%20GPUs/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -742,11 +760,23 @@
       "observed_at": "2026-05-06T00:36:03.937537+00:00",
       "source_file": null,
       "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "CHIP-SPV/chipStar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

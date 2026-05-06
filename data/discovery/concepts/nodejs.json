@@ -4459,6 +4459,18 @@
       "source_repo": "sonicdoe/ced",
       "status": "candidate-context",
       "text": "> Detect the character encoding using Google\u2019s [compact_enc_det](https://github.com/google/compact_enc_det) library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inversify/InversifyJS",
+      "status": "candidate-context",
+      "text": "Powerful and lightweight inversion of control container. Moved to https://github.com/inversify/monorepo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inversify/InversifyJS",
+      "status": "candidate-context",
+      "text": "> [!NOTE]"
     }
   ],
   "candidate_glosses": [
@@ -6687,6 +6699,12 @@
       "source_repo": "sonicdoe/ced",
       "status": "candidate",
       "text": "> Detect the character encoding using Google\u2019s [compact_enc_det](https://github.com/google/compact_enc_det) library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inversify/InversifyJS",
+      "status": "candidate",
+      "text": "> [!NOTE]"
     }
   ],
   "candidate_related_terms": [],
@@ -11206,11 +11224,77 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": null,
       "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "inversify/InversifyJS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/braces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "vipermind/flake-idgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "statsd/statsd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,157 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustc-pull.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustc-pull.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustc-pull.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustc-pull.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustc-pull.yml"
+    },
+    {
+      "component": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustc-pull.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-lang/josh-sync",
+      "target": "josh-project/josh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustc-pull.yml",
+      "source_repo": "rust-lang/josh-sync",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustc-pull.yml",
+      "source_repo": "rust-lang/josh-sync",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustc-pull.yml",
+      "source_repo": "rust-lang/josh-sync",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustc-pull.yml",
+      "source_repo": "rust-lang/josh-sync",
+      "target": "actions/create-github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustc-pull.yml",
+      "source_repo": "rust-lang/josh-sync",
+      "target": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rustc-pull.yml",
+      "source_repo": "rust-lang/josh-sync",
+      "target": "Josh Subtree Sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rust-lang/josh-sync",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rust-lang/josh-sync",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-06T13:04:11.224190+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5064
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 380
+    },
+    {
+      "path": ".github/workflows/rustc-pull.yml",
+      "size": 6420
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 358
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Utilities for synchronizing Josh subtrees to the Rust compiler repo",
+    "fork": false,
+    "full_name": "rust-lang/josh-sync",
+    "html_url": "https://github.com/rust-lang/josh-sync",
+    "language": "Rust",
+    "pushed_at": "2026-04-10T15:35:43Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-04-17T22:00:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "josh-project/josh",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Josh Subtree Sync'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rustc-pull.yml",
+      "term": "Josh Subtree Sync"
+    }
+  ]
+}

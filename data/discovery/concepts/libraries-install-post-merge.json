@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Libraries Install (post-merge)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CHIP-SPV/chipStar",
+      "status": "candidate-context",
+      "text": "chipStar is a tool for compiling and running HIP/CUDA on SPIR-V via OpenCL or Level Zero APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CHIP-SPV/chipStar",
+      "status": "candidate-context",
+      "text": "Libraries Install (post-merge)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CHIP-SPV/chipStar",
+      "status": "candidate",
+      "text": "Libraries Install (post-merge)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10752,
+      "status": "candidate",
+      "text": "library"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10752,
+      "status": "candidate",
+      "text": "trucked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10752,
+      "status": "candidate",
+      "text": "trucks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10701,
+      "status": "candidate",
+      "text": "lend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10701,
+      "status": "candidate",
+      "text": "quiet"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Libraries Install (post-merge)",
+  "concept_id": "libraries-install-post-merge",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/libraries-install.yml",
+      "source_repo": "CHIP-SPV/chipStar"
+    }
+  ],
+  "first_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Libraries Install (post-merge)",
+      "sense_id": "libraries-install-post-merge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

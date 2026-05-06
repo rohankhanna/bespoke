@@ -48,14 +48,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ungoogled-software/ungoogled-chromium",
-      "target": "pf4public/gentoo-overlay",
+      "target": "ungoogled-software/ungoogled-chromium-archlinux",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ungoogled-software/ungoogled-chromium",
-      "target": "ungoogled-software/contrib",
+      "target": "ungoogled-software/ungoogled-chromium-debian",
       "target_type": "repository"
     },
     {
@@ -164,7 +164,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T19:59:59.750598+00:00",
+  "fetched_at": "2026-05-06T13:03:57.484887+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -193,7 +193,7 @@
     "html_url": "https://github.com/ungoogled-software/ungoogled-chromium",
     "language": "Python",
     "pushed_at": "2026-04-30T11:41:26Z",
-    "stargazers_count": 26461,
+    "stargazers_count": 26470,
     "topics": [
       "chromium",
       "control",
@@ -203,7 +203,7 @@
       "privacy",
       "transparency"
     ],
-    "updated_at": "2026-05-05T18:45:10Z"
+    "updated_at": "2026-05-06T12:43:32Z"
   },
   "repo_links": [
     {
@@ -218,12 +218,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "pf4public/gentoo-overlay",
+      "full_name": "ungoogled-software/ungoogled-chromium-archlinux",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ungoogled-software/contrib",
+      "full_name": "ungoogled-software/ungoogled-chromium-debian",
       "source_file": "README.md"
     }
   ],

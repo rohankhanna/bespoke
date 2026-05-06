@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Networking-And-Infrastructure-Index",
+      "target": "danielrosehill/claude-lan-manager-0126",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Networking-And-Infrastructure-Index",
+      "target": "danielrosehill/backup_internet_israel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Networking-And-Infrastructure-Index",
+      "target": "danielrosehill/amd-ai-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Networking-And-Infrastructure-Index",
+      "target": "danielrosehill/kokoro-fastapi",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-06T12:51:12.481137+00:00",
+  "source_repo": "danielrosehill/Networking-And-Infrastructure-Index"
+}

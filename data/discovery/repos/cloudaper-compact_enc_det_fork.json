@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-06T13:04:15.127126+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1350
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "compact_enc_det - Compact Encoding Detection",
+    "fork": true,
+    "full_name": "cloudaper/compact_enc_det_fork",
+    "html_url": "https://github.com/cloudaper/compact_enc_det_fork",
+    "language": "C",
+    "pushed_at": "2025-12-26T10:05:11Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-12-20T11:09:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

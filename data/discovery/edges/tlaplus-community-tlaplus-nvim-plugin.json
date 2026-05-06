@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tlaplus-community/tlaplus-nvim-plugin",
+      "target": "tlaplus/rfcs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tlaplus-community/tlaplus-nvim-plugin",
+      "target": "florentc/vim-tla",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tlaplus-community/tlaplus-nvim-plugin",
+      "target": "susliko/tla.nvim",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-06T12:51:12.481137+00:00",
+  "source_repo": "tlaplus-community/tlaplus-nvim-plugin"
+}

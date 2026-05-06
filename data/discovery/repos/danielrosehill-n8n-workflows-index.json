@@ -1,0 +1,94 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/N8N-Workflows-Index",
+      "target": "danielrosehill/github-master-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/N8N-Workflows-Index",
+      "target": "danielrosehill/parenting-questions-ai-agent-workflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/N8N-Workflows-Index",
+      "target": "danielrosehill/n8n-workflow-sanitiser-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/N8N-Workflows-Index",
+      "target": "danielrosehill/oref-gpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/N8N-Workflows-Index",
+      "target": "n8n-workflows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T13:05:18.260869+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2873
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Index of N8N workflows that I have shared on Github",
+    "fork": false,
+    "full_name": "danielrosehill/N8N-Workflows-Index",
+    "html_url": "https://github.com/danielrosehill/N8N-Workflows-Index",
+    "language": "Python",
+    "pushed_at": "2025-12-25T17:16:48Z",
+    "stargazers_count": 0,
+    "topics": [
+      "n8n",
+      "n8n-workflows"
+    ],
+    "updated_at": "2025-12-25T17:16:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/github-master-index",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/n8n-workflow-sanitiser-agent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/oref-gpt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/parenting-questions-ai-agent-workflow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Github-Master-Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "n8n-workflows"
+    }
+  ]
+}

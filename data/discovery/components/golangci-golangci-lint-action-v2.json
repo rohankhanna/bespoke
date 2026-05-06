@@ -1,7 +1,7 @@
 {
   "component": "golangci/golangci-lint-action@v2",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -102,6 +102,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/linter.yml",
       "source_repo": "p4gefau1t/trojan-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/async-icq.yml",
+      "source_repo": "cosmos/ibc-apps"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ibc-hooks.yml",
+      "source_repo": "cosmos/ibc-apps"
     }
   ]
 }

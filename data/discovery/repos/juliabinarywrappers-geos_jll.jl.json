@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-06T12:57:16.191722+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2867
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "JuliaBinaryWrappers/GEOS_jll.jl",
+    "html_url": "https://github.com/JuliaBinaryWrappers/GEOS_jll.jl",
+    "language": "Julia",
+    "pushed_at": "2025-11-04T00:47:25Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-11-04T00:47:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

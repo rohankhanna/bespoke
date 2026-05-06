@@ -31,6 +31,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "lunte",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "prettier",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -105,6 +110,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "mafintosh/streamx",
+      "target": "lunte",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mafintosh/streamx",
       "target": "prettier",
       "target_type": "component"
     },
@@ -137,7 +149,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T19:56:29.662632+00:00",
+  "fetched_at": "2026-05-06T13:00:24.523624+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -145,7 +157,7 @@
     },
     {
       "path": "package.json",
-      "size": 912
+      "size": 1074
     },
     {
       "path": ".github/workflows/test.yml",
@@ -161,10 +173,10 @@
     "full_name": "mafintosh/streamx",
     "html_url": "https://github.com/mafintosh/streamx",
     "language": "JavaScript",
-    "pushed_at": "2026-03-28T11:37:39Z",
+    "pushed_at": "2026-05-06T08:00:52Z",
     "stargazers_count": 239,
     "topics": [],
-    "updated_at": "2026-04-08T11:36:43Z"
+    "updated_at": "2026-05-06T08:00:55Z"
   },
   "repo_links": [
     {

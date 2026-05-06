@@ -2140,6 +2140,18 @@
       "source_repo": "xbdcc/GrabRedEnvelope",
       "status": "candidate-context",
       "text": "[![Gitter](https://badges.gitter.im/xbdcc/GrabRedEnvelope.svg)](https://gitter.im/xbdcc/GrabRedEnvelope?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GrapheneOS/Vanadium",
+      "status": "candidate-context",
+      "text": "Privacy and security enhanced releases of Chromium for GrapheneOS. Vanadium provides the WebView and standard user-facing browser on GrapheneOS. It depends on hardening in other GrapheneOS repositories and doesn't include patches not relevant to the build targets used on GrapheneOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GrapheneOS/Vanadium",
+      "status": "candidate-context",
+      "text": "Vanadium is a privacy and security hardened variant of Chromium providing the WebView (used by"
     }
   ],
   "candidate_glosses": [
@@ -3228,6 +3240,12 @@
       "source_repo": "xbdcc/GrabRedEnvelope",
       "status": "candidate",
       "text": "[![Gitter](https://badges.gitter.im/xbdcc/GrabRedEnvelope.svg)](https://gitter.im/xbdcc/GrabRedEnvelope?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GrapheneOS/Vanadium",
+      "status": "candidate",
+      "text": "Vanadium is a privacy and security hardened variant of Chromium providing the WebView (used by"
     }
   ],
   "candidate_related_terms": [
@@ -5002,11 +5020,29 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": null,
       "source_repo": "snapcast/snapdroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "GrapheneOS/Vanadium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/android-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

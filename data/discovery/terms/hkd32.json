@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/hkd32.yml",
+      "source_repo": "iqlusioninc/crates"
+    }
+  ],
+  "term": "hkd32"
+}

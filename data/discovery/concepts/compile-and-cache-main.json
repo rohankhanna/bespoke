@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Compile and Cache Main"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CHIP-SPV/chipStar",
+      "status": "candidate-context",
+      "text": "chipStar is a tool for compiling and running HIP/CUDA on SPIR-V via OpenCL or Level Zero APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CHIP-SPV/chipStar",
+      "status": "candidate-context",
+      "text": "Compile and Cache Main"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CHIP-SPV/chipStar",
+      "status": "candidate",
+      "text": "Compile and Cache Main"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24614,
+      "status": "candidate",
+      "text": "stock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24562,
+      "status": "candidate",
+      "text": "store"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24551,
+      "status": "candidate",
+      "text": "hoard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24551,
+      "status": "candidate",
+      "text": "secrete"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24551,
+      "status": "candidate",
+      "text": "treasure"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Compile and Cache Main",
+  "concept_id": "compile-and-cache-main",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/compile-and-cache-main.yml",
+      "source_repo": "CHIP-SPV/chipStar"
+    }
+  ],
+  "first_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Compile and Cache Main",
+      "sense_id": "compile-and-cache-main#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

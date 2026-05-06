@@ -31,11 +31,6 @@
       "source_file": "package.json"
     },
     {
-      "component": "@preact/preset-vite",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "@preact/signals",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -61,17 +56,7 @@
       "source_file": "package.json"
     },
     {
-      "component": "@types/chai",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "@types/chrome",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "@types/mocha",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -101,16 +86,6 @@
       "source_file": "package.json"
     },
     {
-      "component": "@typescript-eslint/eslint-plugin",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "@typescript-eslint/parser",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "archiver",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -136,11 +111,6 @@
       "source_file": "package.json"
     },
     {
-      "component": "chai",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "cross-env",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -151,27 +121,12 @@
       "source_file": "package.json"
     },
     {
-      "component": "eslint",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "eslint-plugin-react",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "fs-extra",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
     {
       "component": "husky",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "ignore-styles",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -196,22 +151,22 @@
       "source_file": "package.json"
     },
     {
-      "component": "mocha",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "mri",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
     {
-      "component": "preact",
+      "component": "oxfmt",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
     {
-      "component": "prettier",
+      "component": "oxlint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "preact",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -226,17 +181,17 @@
       "source_file": "package.json"
     },
     {
-      "component": "ts-node",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "typescript",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
     {
       "component": "vite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -330,13 +285,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "preactjs/preact-devtools",
-      "target": "@preact/preset-vite",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "preactjs/preact-devtools",
       "target": "@preact/signals",
       "target_type": "component"
     },
@@ -372,21 +320,7 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "preactjs/preact-devtools",
-      "target": "@types/chai",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "preactjs/preact-devtools",
       "target": "@types/chrome",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "preactjs/preact-devtools",
-      "target": "@types/mocha",
       "target_type": "component"
     },
     {
@@ -428,20 +362,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "preactjs/preact-devtools",
-      "target": "@typescript-eslint/eslint-plugin",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "preactjs/preact-devtools",
-      "target": "@typescript-eslint/parser",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "preactjs/preact-devtools",
       "target": "archiver",
       "target_type": "component"
     },
@@ -477,13 +397,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "preactjs/preact-devtools",
-      "target": "chai",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "preactjs/preact-devtools",
       "target": "cross-env",
       "target_type": "component"
     },
@@ -498,20 +411,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "preactjs/preact-devtools",
-      "target": "eslint",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "preactjs/preact-devtools",
-      "target": "eslint-plugin-react",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "preactjs/preact-devtools",
       "target": "fs-extra",
       "target_type": "component"
     },
@@ -520,13 +419,6 @@
       "source_file": "package.json",
       "source_repo": "preactjs/preact-devtools",
       "target": "husky",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "preactjs/preact-devtools",
-      "target": "ignore-styles",
       "target_type": "component"
     },
     {
@@ -561,13 +453,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "preactjs/preact-devtools",
-      "target": "mocha",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "preactjs/preact-devtools",
       "target": "mri",
       "target_type": "component"
     },
@@ -575,14 +460,21 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "preactjs/preact-devtools",
-      "target": "preact",
+      "target": "oxfmt",
       "target_type": "component"
     },
     {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "preactjs/preact-devtools",
-      "target": "prettier",
+      "target": "oxlint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "preactjs/preact-devtools",
+      "target": "preact",
       "target_type": "component"
     },
     {
@@ -603,13 +495,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "preactjs/preact-devtools",
-      "target": "ts-node",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "preactjs/preact-devtools",
       "target": "typescript",
       "target_type": "component"
     },
@@ -618,6 +503,13 @@
       "source_file": "package.json",
       "source_repo": "preactjs/preact-devtools",
       "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "preactjs/preact-devtools",
+      "target": "vitest",
       "target_type": "component"
     },
     {
@@ -719,7 +611,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T19:57:15.228143+00:00",
+  "fetched_at": "2026-05-06T13:01:12.315996+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -727,7 +619,7 @@
     },
     {
       "path": "package.json",
-      "size": 5553
+      "size": 3774
     },
     {
       "path": ".github/workflows/docs.yml",
@@ -747,7 +639,7 @@
     "full_name": "preactjs/preact-devtools",
     "html_url": "https://github.com/preactjs/preact-devtools",
     "language": "TypeScript",
-    "pushed_at": "2025-07-28T08:11:03Z",
+    "pushed_at": "2026-05-06T12:59:48Z",
     "stargazers_count": 341,
     "topics": [
       "chrome",
@@ -756,7 +648,7 @@
       "preact",
       "preact-devtools"
     ],
-    "updated_at": "2026-04-29T12:42:47Z"
+    "updated_at": "2026-05-06T12:56:04Z"
   },
   "repo_links": [
     {

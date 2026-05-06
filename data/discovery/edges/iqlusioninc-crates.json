@@ -1,0 +1,188 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bip32.yml",
+      "source_repo": "iqlusioninc/crates",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bip32.yml",
+      "source_repo": "iqlusioninc/crates",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bip32.yml",
+      "source_repo": "iqlusioninc/crates",
+      "target": "bip32",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/canonical-path.yml",
+      "source_repo": "iqlusioninc/crates",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/canonical-path.yml",
+      "source_repo": "iqlusioninc/crates",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/canonical-path.yml",
+      "source_repo": "iqlusioninc/crates",
+      "target": "canonical-path",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hkd32.yml",
+      "source_repo": "iqlusioninc/crates",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hkd32.yml",
+      "source_repo": "iqlusioninc/crates",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hkd32.yml",
+      "source_repo": "iqlusioninc/crates",
+      "target": "hkd32",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iqhttp.yml",
+      "source_repo": "iqlusioninc/crates",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iqhttp.yml",
+      "source_repo": "iqlusioninc/crates",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/iqhttp.yml",
+      "source_repo": "iqlusioninc/crates",
+      "target": "iqhttp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/secrecy.yml",
+      "source_repo": "iqlusioninc/crates",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/secrecy.yml",
+      "source_repo": "iqlusioninc/crates",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/secrecy.yml",
+      "source_repo": "iqlusioninc/crates",
+      "target": "secrecy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security_audit.yml",
+      "source_repo": "iqlusioninc/crates",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security_audit.yml",
+      "source_repo": "iqlusioninc/crates",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security_audit.yml",
+      "source_repo": "iqlusioninc/crates",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security_audit.yml",
+      "source_repo": "iqlusioninc/crates",
+      "target": "actions-rs/audit-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security_audit.yml",
+      "source_repo": "iqlusioninc/crates",
+      "target": "Security Audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/signatory.yml",
+      "source_repo": "iqlusioninc/crates",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/signatory.yml",
+      "source_repo": "iqlusioninc/crates",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/signatory.yml",
+      "source_repo": "iqlusioninc/crates",
+      "target": "signatory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/subtle-encoding.yml",
+      "source_repo": "iqlusioninc/crates",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/subtle-encoding.yml",
+      "source_repo": "iqlusioninc/crates",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/subtle-encoding.yml",
+      "source_repo": "iqlusioninc/crates",
+      "target": "subtle-encoding",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-06T12:51:12.481137+00:00",
+  "source_repo": "iqlusioninc/crates"
+}

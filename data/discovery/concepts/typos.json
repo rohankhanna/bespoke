@@ -148,6 +148,18 @@
       "source_repo": "JuliaLang/www.julialang.org",
       "status": "candidate-context",
       "text": "typos"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/ibc-apps",
+      "status": "candidate-context",
+      "text": "IBC applications and middleware for Cosmos SDK chains."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/ibc-apps",
+      "status": "candidate-context",
+      "text": "typos"
     }
   ],
   "candidate_glosses": [
@@ -226,6 +238,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaLang/www.julialang.org",
+      "status": "candidate",
+      "text": "typos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/ibc-apps",
       "status": "candidate",
       "text": "typos"
     }
@@ -349,11 +367,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/typos.yml",
       "source_repo": "JuliaLang/www.julialang.org"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/mispell.yml",
+      "source_repo": "cosmos/ibc-apps"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

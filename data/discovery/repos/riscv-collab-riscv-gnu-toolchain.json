@@ -149,7 +149,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T19:55:09.618338+00:00",
+  "fetched_at": "2026-05-06T12:59:15.231474+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -177,7 +177,7 @@
     "full_name": "riscv-collab/riscv-gnu-toolchain",
     "html_url": "https://github.com/riscv-collab/riscv-gnu-toolchain",
     "language": "C",
-    "pushed_at": "2026-05-05T10:50:34Z",
+    "pushed_at": "2026-05-06T03:53:27Z",
     "stargazers_count": 4471,
     "topics": [],
     "updated_at": "2026-05-05T10:50:40Z"

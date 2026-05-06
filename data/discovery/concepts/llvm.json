@@ -202,6 +202,30 @@
       "source_repo": "root-project/cling",
       "status": "candidate-context",
       "text": "Cling - The Interactive C++ Interpreter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CHIP-SPV/chipStar",
+      "status": "candidate-context",
+      "text": "chipStar is a tool for compiling and running HIP/CUDA on SPIR-V via OpenCL or Level Zero APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CHIP-SPV/chipStar",
+      "status": "candidate-context",
+      "text": "![Unit Tests Intel GPUs](https://github.com/CHIP-SPV/chipStar/workflows/Unit%20Tests%20Intel%20GPUs/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLLVM/LLVM.jl",
+      "status": "candidate-context",
+      "text": "Julia wrapper for the LLVM C API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLLVM/LLVM.jl",
+      "status": "candidate-context",
+      "text": "*A Julia wrapper for the LLVM C API.*"
     }
   ],
   "candidate_glosses": [
@@ -300,6 +324,18 @@
       "source_repo": "root-project/cling",
       "status": "candidate",
       "text": "Cling - The Interactive C++ Interpreter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CHIP-SPV/chipStar",
+      "status": "candidate",
+      "text": "![Unit Tests Intel GPUs](https://github.com/CHIP-SPV/chipStar/workflows/Unit%20Tests%20Intel%20GPUs/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLLVM/LLVM.jl",
+      "status": "candidate",
+      "text": "*A Julia wrapper for the LLVM C API.*"
     }
   ],
   "candidate_related_terms": [
@@ -558,11 +594,23 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": null,
       "source_repo": "swiftlang/swift-llbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "CHIP-SPV/chipStar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLLVM/LLVM.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

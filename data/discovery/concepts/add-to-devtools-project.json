@@ -31,6 +31,30 @@
       "source_repo": "near/abi",
       "status": "candidate-context",
       "text": "'Add to DevTools Project'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "near/near-workspaces-rs",
+      "status": "candidate-context",
+      "text": "Write tests once, run them both on NEAR TestNet and a controlled NEAR Sandbox local environment via Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-workspaces-rs",
+      "status": "candidate-context",
+      "text": "'Add to DevTools Project'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "near/near-cli-rs",
+      "status": "candidate-context",
+      "text": "near CLI is your human-friendly companion that helps to interact with NEAR Protocol from command line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-cli-rs",
+      "status": "candidate-context",
+      "text": "'Add to DevTools Project'"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "near/abi",
+      "status": "candidate",
+      "text": "'Add to DevTools Project'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-workspaces-rs",
+      "status": "candidate",
+      "text": "'Add to DevTools Project'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-cli-rs",
       "status": "candidate",
       "text": "'Add to DevTools Project'"
     }
@@ -100,11 +136,23 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/add-to-devtools.yml",
       "source_repo": "near/abi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/add-to-devtools.yml",
+      "source_repo": "near/near-workspaces-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/add-to-devtools.yml",
+      "source_repo": "near/near-cli-rs"
     }
   ],
   "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

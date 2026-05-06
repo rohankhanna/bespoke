@@ -178,6 +178,18 @@
       "source_repo": "stdlib-js/array-buffer",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexfilatov/borsh",
+      "status": "candidate-context",
+      "text": "Elixir implementation of the BORSH binary serializer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexfilatov/borsh",
+      "status": "candidate-context",
+      "text": "BORSH, binary serializer for security-critical projects."
     }
   ],
   "candidate_glosses": [
@@ -264,6 +276,12 @@
       "source_repo": "stdlib-js/array-buffer",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexfilatov/borsh",
+      "status": "candidate",
+      "text": "BORSH, binary serializer for security-critical projects."
     }
   ],
   "candidate_related_terms": [
@@ -431,11 +449,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "stdlib-js/array-buffer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "alexfilatov/borsh"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

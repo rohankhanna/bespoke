@@ -19,6 +19,18 @@
       "source_repo": "octopus-network/near-ibc",
       "status": "candidate-context",
       "text": "This is an implementation of the IBC protocol (IBC/TAO) in the NEAR protocol, which includes additional applications such as ICS-20, written by Octopus Network."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dao-xyz/borsh-ts",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0ffast TypeScript implementation of Borsh serialization format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dao-xyz/borsh-ts",
+      "status": "candidate-context",
+      "text": "[![Project license](https://img.shields.io/badge/license-Apache2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "octopus-network/near-ibc",
       "status": "candidate",
       "text": "This is an implementation of the IBC protocol (IBC/TAO) in the NEAR protocol, which includes additional applications such as ICS-20, written by Octopus Network."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dao-xyz/borsh-ts",
+      "status": "candidate",
+      "text": "[![Project license](https://img.shields.io/badge/license-Apache2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "octopus-network/near-ibc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "dao-xyz/borsh-ts"
     }
   ],
   "first_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

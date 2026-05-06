@@ -439,6 +439,30 @@
       "source_repo": "inhabitedtype/faraday",
       "status": "candidate-context",
       "text": "Faraday is a library for writing fast and memory-efficient serializers. Its"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexfilatov/borsh",
+      "status": "candidate-context",
+      "text": "Elixir implementation of the BORSH binary serializer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexfilatov/borsh",
+      "status": "candidate-context",
+      "text": "BORSH, binary serializer for security-critical projects."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "etodanik/borsh-cpp20",
+      "status": "candidate-context",
+      "text": "A C++20 implementation of the Borsh binary serializer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "etodanik/borsh-cpp20",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -657,6 +681,18 @@
       "source_repo": "inhabitedtype/faraday",
       "status": "candidate",
       "text": "Faraday is a library for writing fast and memory-efficient serializers. Its"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexfilatov/borsh",
+      "status": "candidate",
+      "text": "BORSH, binary serializer for security-critical projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "etodanik/borsh-cpp20",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1080,11 +1116,23 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": null,
       "source_repo": "inhabitedtype/faraday"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "alexfilatov/borsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "etodanik/borsh-cpp20"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

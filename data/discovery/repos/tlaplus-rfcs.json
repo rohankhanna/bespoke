@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-06T12:57:38.614001+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1385
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RFCs for changes to the TLA+ specification language",
+    "fork": false,
+    "full_name": "tlaplus/rfcs",
+    "html_url": "https://github.com/tlaplus/rfcs",
+    "language": "TLA",
+    "pushed_at": "2025-03-19T19:00:07Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2025-10-04T22:48:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

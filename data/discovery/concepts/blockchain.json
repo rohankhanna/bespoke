@@ -922,6 +922,18 @@
       "source_repo": "cosmos/iavl",
       "status": "candidate-context",
       "text": "[![version](https://img.shields.io/github/tag/cosmos/iavl.svg)](https://github.com/cosmos/iavl/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "near/near-cli-rs",
+      "status": "candidate-context",
+      "text": "near CLI is your human-friendly companion that helps to interact with NEAR Protocol from command line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-cli-rs",
+      "status": "candidate-context",
+      "text": "near CLI is your **human-friendly** companion that helps to interact with [NEAR Protocol](https://near.org) from command line."
     }
   ],
   "candidate_glosses": [
@@ -1380,6 +1392,12 @@
       "source_repo": "cosmos/iavl",
       "status": "candidate",
       "text": "[![version](https://img.shields.io/github/tag/cosmos/iavl.svg)](https://github.com/cosmos/iavl/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-cli-rs",
+      "status": "candidate",
+      "text": "near CLI is your **human-friendly** companion that helps to interact with [NEAR Protocol](https://near.org) from command line."
     }
   ],
   "candidate_related_terms": [
@@ -2677,11 +2695,59 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "stx-labs/connect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "near/near-cli-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/TypeChain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "lightning/bolts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "stx-labs/connect"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

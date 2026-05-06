@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v7",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2382,6 +2382,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/bytecode-size.yml",
       "source_repo": "vyperlang/vyper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "runtimeverification/k"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/label-pr.yml",
+      "source_repo": "GoogleCloudPlatform/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/label-pr.yml",
+      "source_repo": "ClickHouse/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/label-pr.yml",
+      "source_repo": "grafana/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/label-pr.yml",
+      "source_repo": "kloudfuse/opentelemetry-demo"
     }
   ]
 }

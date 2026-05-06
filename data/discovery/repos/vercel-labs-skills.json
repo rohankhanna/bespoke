@@ -262,15 +262,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T16:02:11.669226+00:00",
+  "fetched_at": "2026-05-06T13:00:33.686623+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 20118
+      "size": 24222
     },
     {
       "path": "package.json",
-      "size": 2697
+      "size": 2717
     },
     {
       "path": ".github/workflows/agents.yml",
@@ -294,10 +294,10 @@
     "full_name": "vercel-labs/skills",
     "html_url": "https://github.com/vercel-labs/skills",
     "language": "TypeScript",
-    "pushed_at": "2026-04-28T16:44:49Z",
-    "stargazers_count": 16936,
+    "pushed_at": "2026-05-05T21:18:07Z",
+    "stargazers_count": 17059,
     "topics": [],
-    "updated_at": "2026-05-05T15:55:50Z"
+    "updated_at": "2026-05-06T12:56:23Z"
   },
   "repo_links": [
     {

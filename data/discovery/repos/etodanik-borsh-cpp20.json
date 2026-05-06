@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "etodanik/borsh-cpp20",
+      "target": "israelidanny/borsh-cpp20",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "etodanik/borsh-cpp20",
+      "target": "binary-serialization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "etodanik/borsh-cpp20",
+      "target": "borsh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "etodanik/borsh-cpp20",
+      "target": "cpp20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "etodanik/borsh-cpp20",
+      "target": "serialization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T12:55:44.543918+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1424
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A C++20 implementation of the Borsh binary serializer",
+    "fork": false,
+    "full_name": "etodanik/borsh-cpp20",
+    "html_url": "https://github.com/etodanik/borsh-cpp20",
+    "language": "C++",
+    "pushed_at": "2024-09-05T22:45:21Z",
+    "stargazers_count": 3,
+    "topics": [
+      "binary-serialization",
+      "borsh",
+      "cpp20",
+      "serialization"
+    ],
+    "updated_at": "2025-09-05T14:50:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "israelidanny/borsh-cpp20",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binary-serialization"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "borsh"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp20"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serialization"
+    }
+  ]
+}

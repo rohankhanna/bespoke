@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Julia wrapper for the LLVM C API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*A Julia wrapper for the LLVM C API.*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*A Julia wrapper for the LLVM C API.*"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19361135,
+      "status": "candidate",
+      "text": "julie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19346417,
+      "status": "candidate",
+      "text": "jules"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19323882,
+      "status": "candidate",
+      "text": "kelly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18645031,
+      "status": "candidate",
+      "text": "julian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18616782,
+      "status": "candidate",
+      "text": "mrs"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "julia",
+      "sense_id": "julia#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "julia",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "julia",
+  "observation_id": "455b13b47c668469",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-06T12:51:12.481137+00:00",
+  "observed_text": "julia",
+  "source_context_snippet": "*A Julia wrapper for the LLVM C API.*",
+  "source_file": null,
+  "source_repo": "JuliaLLVM/LLVM.jl",
+  "source_repo_description": "Julia wrapper for the LLVM C API"
+}

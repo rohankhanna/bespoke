@@ -9397,6 +9397,66 @@
       "source_repo": "itzg/docker-minecraft-server",
       "status": "candidate-context",
       "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/minecraft-server.svg?logo=docker)](https://hub.docker.com/r/itzg/minecraft-server/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "near/near-cli-rs",
+      "status": "candidate-context",
+      "text": "near CLI is your human-friendly companion that helps to interact with NEAR Protocol from command line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-cli-rs",
+      "status": "candidate-context",
+      "text": "near CLI is your **human-friendly** companion that helps to interact with [NEAR Protocol](https://near.org) from command line."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGPU/CUDA.jl",
+      "status": "candidate-context",
+      "text": "CUDA programming in Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/CUDA.jl",
+      "status": "candidate-context",
+      "text": "*CUDA programming in Julia*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLLVM/LLVM.jl",
+      "status": "candidate-context",
+      "text": "Julia wrapper for the LLVM C API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLLVM/LLVM.jl",
+      "status": "candidate-context",
+      "text": "*A Julia wrapper for the LLVM C API.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allegro/bigcache",
+      "status": "candidate-context",
+      "text": "Efficient cache for gigabytes of data written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allegro/bigcache",
+      "status": "candidate-context",
+      "text": "Fast, concurrent, evicting in-memory cache written to keep big number of entries without impact on performance."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "itzg/docker-minecraft-bedrock-server",
+      "status": "candidate-context",
+      "text": "Containerized Minecraft Bedrock Dedicated Server with selectable version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itzg/docker-minecraft-bedrock-server",
+      "status": "candidate-context",
+      "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/minecraft-bedrock-server.svg)](https://hub.docker.com/r/itzg/minecraft-bedrock-server/)"
     }
   ],
   "candidate_glosses": [
@@ -14121,6 +14181,36 @@
       "source_repo": "itzg/docker-minecraft-server",
       "status": "candidate",
       "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/minecraft-server.svg?logo=docker)](https://hub.docker.com/r/itzg/minecraft-server/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-cli-rs",
+      "status": "candidate",
+      "text": "near CLI is your **human-friendly** companion that helps to interact with [NEAR Protocol](https://near.org) from command line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/CUDA.jl",
+      "status": "candidate",
+      "text": "*CUDA programming in Julia*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLLVM/LLVM.jl",
+      "status": "candidate",
+      "text": "*A Julia wrapper for the LLVM C API.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allegro/bigcache",
+      "status": "candidate",
+      "text": "Fast, concurrent, evicting in-memory cache written to keep big number of entries without impact on performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itzg/docker-minecraft-bedrock-server",
+      "status": "candidate",
+      "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/minecraft-bedrock-server.svg)](https://hub.docker.com/r/itzg/minecraft-bedrock-server/)"
     }
   ],
   "candidate_related_terms": [],
@@ -23212,11 +23302,119 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": null,
       "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "near/near-cli-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGPU/CUDA.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLLVM/LLVM.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "scala-interop/slinc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "allegro/bigcache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "itzg/docker-minecraft-bedrock-server"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

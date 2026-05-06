@@ -1007,6 +1007,18 @@
       "source_repo": "usnistgov/h5wasm",
       "status": "candidate-context",
       "text": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19255851.svg)](https://doi.org/10.5281/zenodo.14624863)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "influxdata/datafusion-udf-wasm",
+      "status": "candidate-context",
+      "text": "DataFusion UDFs (User Defined Functions) via WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "influxdata/datafusion-udf-wasm",
+      "status": "candidate-context",
+      "text": "This section discusses the different types of _User Defined Functions_ (UDFs) that are currently available in [Apache DataFusion]."
     }
   ],
   "candidate_glosses": [
@@ -1513,6 +1525,12 @@
       "source_repo": "usnistgov/h5wasm",
       "status": "candidate",
       "text": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19255851.svg)](https://doi.org/10.5281/zenodo.14624863)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "influxdata/datafusion-udf-wasm",
+      "status": "candidate",
+      "text": "This section discusses the different types of _User Defined Functions_ (UDFs) that are currently available in [Apache DataFusion]."
     }
   ],
   "candidate_related_terms": [
@@ -2498,11 +2516,35 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": null,
       "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "zig-wasm/wasmer-zig-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "dart-archive/wasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "influxdata/datafusion-udf-wasm"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

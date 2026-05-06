@@ -1,0 +1,160 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-production.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-staging.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/undeploy-staging.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-production.yml",
+      "source_repo": "Canvinus/cargo-near-new-example",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-production.yml",
+      "source_repo": "Canvinus/cargo-near-new-example",
+      "target": "Deploy to production",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-staging.yml",
+      "source_repo": "Canvinus/cargo-near-new-example",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-staging.yml",
+      "source_repo": "Canvinus/cargo-near-new-example",
+      "target": "Deploy to staging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Canvinus/cargo-near-new-example",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Canvinus/cargo-near-new-example",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/undeploy-staging.yml",
+      "source_repo": "Canvinus/cargo-near-new-example",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/undeploy-staging.yml",
+      "source_repo": "Canvinus/cargo-near-new-example",
+      "target": "Undeploy staging",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T12:55:32.252227+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1033
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1922
+    },
+    {
+      "path": ".github/workflows/deploy-production.yml",
+      "size": 970
+    },
+    {
+      "path": ".github/workflows/deploy-staging.yml",
+      "size": 2747
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 737
+    },
+    {
+      "path": ".github/workflows/undeploy-staging.yml",
+      "size": 1067
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "Canvinus/cargo-near-new-example",
+    "html_url": "https://github.com/Canvinus/cargo-near-new-example",
+    "language": "Rust",
+    "pushed_at": "2024-09-26T13:23:37Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-09-26T13:23:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy to production",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-production.yml",
+      "term": "Deploy to production"
+    },
+    {
+      "context_snippet": "Deploy to staging",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-staging.yml",
+      "term": "Deploy to staging"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Undeploy staging",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/undeploy-staging.yml",
+      "term": "Undeploy staging"
+    }
+  ]
+}

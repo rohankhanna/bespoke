@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u26a1\ufe0ffast TypeScript implementation of Borsh serialization format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check, Tests, Lints"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check, Tests, Lints"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10432,
+      "status": "candidate",
+      "text": "smooth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10310,
+      "status": "candidate",
+      "text": "clean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10310,
+      "status": "candidate",
+      "text": "lines"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10310,
+      "status": "candidate",
+      "text": "pristine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048,
+      "status": "candidate",
+      "text": "assay"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check, Tests, Lints",
+      "sense_id": "check-tests-lints#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-tests-lints",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-tests-lints",
+  "observation_id": "b886bb463b63f1d8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-06T12:51:12.481137+00:00",
+  "observed_text": "Check, Tests, Lints",
+  "source_context_snippet": "Check, Tests, Lints",
+  "source_file": ".github/workflows/ci.yml",
+  "source_repo": "dao-xyz/borsh-ts",
+  "source_repo_description": "\u26a1\ufe0ffast TypeScript implementation of Borsh serialization format"
+}

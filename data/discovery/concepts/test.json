@@ -11855,6 +11855,54 @@
       "source_repo": "makew0rld/dither",
       "status": "candidate-context",
       "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Canvinus/cargo-near-new-example",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cometbft/cometbft-db",
+      "status": "candidate-context",
+      "text": "Database wrapper for CometBFT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cometbft/cometbft-db",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/cosmos-db",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tendermint/tm-db",
+      "status": "candidate-context",
+      "text": "Common database interface for various database backends for Tendermint Core and Cosmos SDK "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tendermint/tm-db",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLLVM/LLVM.jl",
+      "status": "candidate-context",
+      "text": "Julia wrapper for the LLVM C API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLLVM/LLVM.jl",
+      "status": "candidate-context",
+      "text": "Test"
     }
   ],
   "candidate_glosses": [
@@ -17861,6 +17909,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "makew0rld/dither",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Canvinus/cargo-near-new-example",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cometbft/cometbft-db",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/cosmos-db",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tendermint/tm-db",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLLVM/LLVM.jl",
       "status": "candidate",
       "text": "Test"
     }
@@ -28531,11 +28609,101 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "EmmyLuaLs/emmylua-analyzer-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "erigontech/mdbx-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cometbft/tendermint-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Canvinus/cargo-near-new-example"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cometbft/cometbft-db"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cosmos/cosmos-db"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tendermint/tm-db"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "JuliaLLVM/LLVM.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "littlefs-project/littlefs-fuse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "littlefs-project/ramcrc32bd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "littlefs-project/ramrsbd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Jamorim-esss/pytest-rich"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/packager"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

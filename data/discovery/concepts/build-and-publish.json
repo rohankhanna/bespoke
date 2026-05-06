@@ -230,6 +230,54 @@
       "source_repo": "itzg/docker-minecraft-server",
       "status": "candidate-context",
       "text": "Build and Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsentry/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Community Demo Application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "\"Build and Publish\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Community Demo Application the Grafana way"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "\"Build and Publish\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GuanceCloud/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "This repository contains the OpenTelemetry Astronomy Shop, a microservice-based distributed system intended to illustrate the implementation of OpenTelemetry in a near real-world environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GuanceCloud/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "\"Build and Publish\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kloudfuse/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "This repository contains the OpenTelemetry Astronomy Shop, a microservice-based distributed system intended to illustrate the implementation of OpenTelemetry in a near real-world environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kloudfuse/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "\"Build and Publish\""
     }
   ],
   "candidate_glosses": [
@@ -346,6 +394,30 @@
       "source_repo": "itzg/docker-minecraft-server",
       "status": "candidate",
       "text": "Build and Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/opentelemetry-demo",
+      "status": "candidate",
+      "text": "\"Build and Publish\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/opentelemetry-demo",
+      "status": "candidate",
+      "text": "\"Build and Publish\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GuanceCloud/opentelemetry-demo",
+      "status": "candidate",
+      "text": "\"Build and Publish\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kloudfuse/opentelemetry-demo",
+      "status": "candidate",
+      "text": "\"Build and Publish\""
     }
   ],
   "candidate_related_terms": [
@@ -521,11 +593,35 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "itzg/docker-minecraft-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "getsentry/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grafana/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GuanceCloud/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kloudfuse/opentelemetry-demo"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Update llama cpp nightly"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "utilityai/llama-cpp-rs",
+      "status": "candidate-context",
+      "text": "Update llama cpp nightly"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "utilityai/llama-cpp-rs",
+      "status": "candidate",
+      "text": "Update llama cpp nightly"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17695,
+      "status": "candidate",
+      "text": "scheduled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10666,
+      "status": "candidate",
+      "text": "eta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10531,
+      "status": "candidate",
+      "text": "afterthought"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10531,
+      "status": "candidate",
+      "text": "aquaculture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10531,
+      "status": "candidate",
+      "text": "ball"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update llama cpp nightly",
+  "concept_id": "update-llama-cpp-nightly",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/update-llama-cpp.yml",
+      "source_repo": "utilityai/llama-cpp-rs"
+    }
+  ],
+  "first_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update llama cpp nightly",
+      "sense_id": "update-llama-cpp-nightly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

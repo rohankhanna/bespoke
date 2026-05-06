@@ -1,12 +1,17 @@
 {
   "component": "docker/build-push-action@v6.5.0",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-test-ubuntu-git.yml",
       "source_repo": "actions/checkout"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/component-build-images.yml",
+      "source_repo": "GoogleCloudPlatform/opentelemetry-demo"
     }
   ]
 }

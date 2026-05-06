@@ -1,0 +1,560 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-resolved-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-unit-tests-arm.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-unit-tests-intel.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-unit-tests-intel.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-unit-tests-intel.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-unit-tests-intel.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-unit-tests-intel.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-unit-tests-intel.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-unit-tests-intel.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-unit-tests-intel.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-format.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-and-cache-main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libraries-install.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libraries-presubmit.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libraries-presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-arm64-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-arm64-ci.yml"
+    },
+    {
+      "component": "fkirc/skip-duplicate-actions@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "chip-spv/h4i-mklshim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "chip-spv/h4i-hipblas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "chip-spv/h4i-hipfft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "chip-spv/h4i-hipsolver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-resolved-tests.yml",
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-for-resolved-tests.yml",
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "check-for-resolved-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-unit-tests-arm.yml",
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-unit-tests-intel.yml",
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-unit-tests-intel.yml",
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "Unit Tests Intel GPUs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-format.yml",
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy-format.yml",
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "cpp-linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-and-cache-main.yml",
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile-and-cache-main.yml",
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "Compile and Cache Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libraries-install.yml",
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/libraries-install.yml",
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "Libraries Install (post-merge)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libraries-presubmit.yml",
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libraries-presubmit.yml",
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/libraries-presubmit.yml",
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "Libraries Presubmit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-arm64-ci.yml",
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-arm64-ci.yml",
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-arm64-ci.yml",
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "macOS ARM64 CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "fkirc/skip-duplicate-actions@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "pocl-cpu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "level0",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "llvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "opencl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CHIP-SPV/chipStar",
+      "target": "spir-v",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T12:56:49.823103+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18147
+    },
+    {
+      "path": ".github/workflows/check-for-resolved-tests.yml",
+      "size": 589
+    },
+    {
+      "path": ".github/workflows/check-unit-tests-arm.yml",
+      "size": 687
+    },
+    {
+      "path": ".github/workflows/check-unit-tests-intel.yml",
+      "size": 3615
+    },
+    {
+      "path": ".github/workflows/clang-tidy-format.yml",
+      "size": 1732
+    },
+    {
+      "path": ".github/workflows/compile-and-cache-main.yml",
+      "size": 910
+    },
+    {
+      "path": ".github/workflows/libraries-install.yml",
+      "size": 1913
+    },
+    {
+      "path": ".github/workflows/libraries-presubmit.yml",
+      "size": 3965
+    },
+    {
+      "path": ".github/workflows/macos-arm64-ci.yml",
+      "size": 5201
+    },
+    {
+      "path": ".github/workflows/presubmit.yml",
+      "size": 13495
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "chipStar is a tool for compiling and running HIP/CUDA on SPIR-V via OpenCL or Level Zero APIs.",
+    "fork": false,
+    "full_name": "CHIP-SPV/chipStar",
+    "html_url": "https://github.com/CHIP-SPV/chipStar",
+    "language": "LLVM",
+    "pushed_at": "2026-05-04T17:02:31Z",
+    "stargazers_count": 329,
+    "topics": [
+      "cuda",
+      "hip",
+      "hpc",
+      "level0",
+      "llvm",
+      "opencl",
+      "spir-v"
+    ],
+    "updated_at": "2026-05-06T09:56:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chip-spv/h4i-hipblas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chip-spv/h4i-hipfft",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chip-spv/h4i-hipsolver",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chip-spv/h4i-mklshim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "check-for-resolved-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-for-resolved-tests.yml",
+      "term": "check-for-resolved-tests"
+    },
+    {
+      "context_snippet": "Unit Tests Intel GPUs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-unit-tests-intel.yml",
+      "term": "Unit Tests Intel GPUs"
+    },
+    {
+      "context_snippet": "cpp-linter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy-format.yml",
+      "term": "cpp-linter"
+    },
+    {
+      "context_snippet": "Compile and Cache Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile-and-cache-main.yml",
+      "term": "Compile and Cache Main"
+    },
+    {
+      "context_snippet": "Libraries Install (post-merge)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/libraries-install.yml",
+      "term": "Libraries Install (post-merge)"
+    },
+    {
+      "context_snippet": "Libraries Presubmit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/libraries-presubmit.yml",
+      "term": "Libraries Presubmit"
+    },
+    {
+      "context_snippet": "macOS ARM64 CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-arm64-ci.yml",
+      "term": "macOS ARM64 CI"
+    },
+    {
+      "context_snippet": "pocl-cpu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit.yml",
+      "term": "pocl-cpu"
+    },
+    {
+      "context_snippet": "![Unit Tests Intel GPUs](https://github.com/CHIP-SPV/chipStar/workflows/Unit%20Tests%20Intel%20GPUs/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "![Unit Tests Intel GPUs](https://github.com/CHIP-SPV/chipStar/workflows/Unit%20Tests%20Intel%20GPUs/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "level0"
+    },
+    {
+      "context_snippet": "![Unit Tests Intel GPUs](https://github.com/CHIP-SPV/chipStar/workflows/Unit%20Tests%20Intel%20GPUs/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llvm"
+    },
+    {
+      "context_snippet": "![Unit Tests Intel GPUs](https://github.com/CHIP-SPV/chipStar/workflows/Unit%20Tests%20Intel%20GPUs/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencl"
+    },
+    {
+      "context_snippet": "![Unit Tests Intel GPUs](https://github.com/CHIP-SPV/chipStar/workflows/Unit%20Tests%20Intel%20GPUs/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spir-v"
+    }
+  ]
+}

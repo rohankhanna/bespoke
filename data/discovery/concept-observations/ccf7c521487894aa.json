@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "IBC applications and middleware for Cosmos SDK chains."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "polytone artifact compiler"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "polytone artifact compiler"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9314,
+      "status": "candidate",
+      "text": "compilation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9280,
+      "status": "candidate",
+      "text": "lexicographer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9280,
+      "status": "candidate",
+      "text": "lexicologist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9258,
+      "status": "candidate",
+      "text": "collator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9254,
+      "status": "candidate",
+      "text": "unison"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "polytone artifact compiler",
+      "sense_id": "polytone-artifact-compiler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "polytone-artifact-compiler",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "polytone-artifact-compiler",
+  "observation_id": "ccf7c521487894aa",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-06T12:51:12.481137+00:00",
+  "observed_text": "polytone artifact compiler",
+  "source_context_snippet": "polytone artifact compiler",
+  "source_file": ".github/workflows/polytone_release.yaml",
+  "source_repo": "cosmos/ibc-apps",
+  "source_repo_description": "IBC applications and middleware for Cosmos SDK chains."
+}

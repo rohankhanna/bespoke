@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "release-management"
+    "release-management",
+    "Release Management"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "kubernetes/sig-release",
       "status": "candidate-context",
       "text": "The [charter] defines the scope and governance of the Release Special Interest Group."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allegro/bigcache",
+      "status": "candidate-context",
+      "text": "Efficient cache for gigabytes of data written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allegro/bigcache",
+      "status": "candidate-context",
+      "text": "Release Management"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +42,51 @@
       "source_repo": "kubernetes/sig-release",
       "status": "candidate",
       "text": "The [charter] defines the scope and governance of the Release Special Interest Group."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allegro/bigcache",
+      "status": "candidate",
+      "text": "Release Management"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36639,
+      "status": "candidate",
+      "text": "application-release automation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36638,
+      "status": "candidate",
+      "text": "build automation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36637,
+      "status": "candidate",
+      "text": "software build"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36636,
+      "status": "candidate",
+      "text": "configuration management"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36635,
+      "status": "candidate",
+      "text": "software development"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "release-management",
   "concept_id": "release-management",
@@ -40,11 +97,17 @@
       "observed_at": "2026-04-18T18:48:44.679047+00:00",
       "source_file": null,
       "source_repo": "kubernetes/sig-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/release-management.yml",
+      "source_repo": "allegro/bigcache"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

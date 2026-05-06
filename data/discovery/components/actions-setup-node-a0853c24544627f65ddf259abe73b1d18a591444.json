@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -137,6 +137,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/generate-embeddings.yml",
       "source_repo": "nrwl/nx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "influxdata/arrow-datafusion"
     }
   ]
 }

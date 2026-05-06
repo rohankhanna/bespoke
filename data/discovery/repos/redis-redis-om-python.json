@@ -379,7 +379,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T20:07:47.479035+00:00",
+  "fetched_at": "2026-05-06T13:11:04.269402+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -427,15 +427,15 @@
     "full_name": "redis/redis-om-python",
     "html_url": "https://github.com/redis/redis-om-python",
     "language": "Python",
-    "pushed_at": "2026-05-05T06:53:54Z",
-    "stargazers_count": 1308,
+    "pushed_at": "2026-05-06T07:07:00Z",
+    "stargazers_count": 1309,
     "topics": [
       "asyncio",
       "pydantic",
       "python",
       "redis"
     ],
-    "updated_at": "2026-05-02T09:21:24Z"
+    "updated_at": "2026-05-05T23:02:47Z"
   },
   "repo_links": [
     {

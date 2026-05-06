@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "kmer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KamilSJaron/smudgeplot",
+      "status": "candidate-context",
+      "text": "Inference of ploidy and heterozygosity structure using whole genome sequencing data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KamilSJaron/smudgeplot",
+      "status": "candidate-context",
+      "text": "<font size =\"4\">**_Version: 0.5.4 Skylight_**</font>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KamilSJaron/smudgeplot",
+      "status": "candidate",
+      "text": "<font size =\"4\">**_Version: 0.5.4 Skylight_**</font>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018531,
+      "status": "candidate",
+      "text": "minimotif"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018530,
+      "status": "candidate",
+      "text": "supermotif"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018529,
+      "status": "candidate",
+      "text": "mixmer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018528,
+      "status": "candidate",
+      "text": "triloop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018527,
+      "status": "candidate",
+      "text": "protospacer"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "kmer",
+  "concept_id": "kmer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "KamilSJaron/smudgeplot"
+    }
+  ],
+  "first_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kmer",
+      "sense_id": "kmer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

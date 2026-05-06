@@ -631,6 +631,18 @@
       "source_repo": "PacificBiosciences/ccs",
       "status": "candidate-context",
       "text": "<a href=\"https://ccs.how/\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KamilSJaron/smudgeplot",
+      "status": "candidate-context",
+      "text": "Inference of ploidy and heterozygosity structure using whole genome sequencing data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KamilSJaron/smudgeplot",
+      "status": "candidate-context",
+      "text": "<font size =\"4\">**_Version: 0.5.4 Skylight_**</font>"
     }
   ],
   "candidate_glosses": [
@@ -945,6 +957,12 @@
       "source_repo": "PacificBiosciences/ccs",
       "status": "candidate",
       "text": "<a href=\"https://ccs.how/\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KamilSJaron/smudgeplot",
+      "status": "candidate",
+      "text": "<font size =\"4\">**_Version: 0.5.4 Skylight_**</font>"
     }
   ],
   "candidate_related_terms": [
@@ -1534,11 +1552,23 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": null,
       "source_repo": "unum-bio/USearchMolecules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "KamilSJaron/smudgeplot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "aidenlab/juicer"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

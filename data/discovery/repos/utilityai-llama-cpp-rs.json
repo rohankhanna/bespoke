@@ -1,0 +1,223 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama-cpp-rs-check.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama-cpp-rs-check.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama-cpp-rs-check.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama-cpp-rs-check.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama-cpp-rs-check.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama-cpp-rs-check.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama-cpp-rs-check.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama-cpp-rs-check.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama-cpp-rs-check.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama-cpp-rs-check.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-upon-release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-llama-cpp.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-toml-version.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama-cpp-rs-check.yml",
+      "source_repo": "utilityai/llama-cpp-rs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama-cpp-rs-check.yml",
+      "source_repo": "utilityai/llama-cpp-rs",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama-cpp-rs-check.yml",
+      "source_repo": "utilityai/llama-cpp-rs",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama-cpp-rs-check.yml",
+      "source_repo": "utilityai/llama-cpp-rs",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama-cpp-rs-check.yml",
+      "source_repo": "utilityai/llama-cpp-rs",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llama-cpp-rs-check.yml",
+      "source_repo": "utilityai/llama-cpp-rs",
+      "target": "Llama Cpp Rs Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-upon-release.yml",
+      "source_repo": "utilityai/llama-cpp-rs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-upon-release.yml",
+      "source_repo": "utilityai/llama-cpp-rs",
+      "target": "Publish to Crates.io",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-llama-cpp.yml",
+      "source_repo": "utilityai/llama-cpp-rs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-llama-cpp.yml",
+      "source_repo": "utilityai/llama-cpp-rs",
+      "target": "Update llama cpp nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-toml-version.yaml",
+      "source_repo": "utilityai/llama-cpp-rs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-toml-version.yaml",
+      "source_repo": "utilityai/llama-cpp-rs",
+      "target": "Update version in TOML files",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T13:14:43.709951+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8848
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 699
+    },
+    {
+      "path": ".github/workflows/llama-cpp-rs-check.yml",
+      "size": 2530
+    },
+    {
+      "path": ".github/workflows/publish-upon-release.yml",
+      "size": 959
+    },
+    {
+      "path": ".github/workflows/update-llama-cpp.yml",
+      "size": 1574
+    },
+    {
+      "path": ".github/workflows/update-toml-version.yaml",
+      "size": 2619
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "utilityai/llama-cpp-rs",
+    "html_url": "https://github.com/utilityai/llama-cpp-rs",
+    "language": "Rust",
+    "pushed_at": "2026-05-06T00:58:56Z",
+    "stargazers_count": 557,
+    "topics": [],
+    "updated_at": "2026-05-06T10:08:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Llama Cpp Rs Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llama-cpp-rs-check.yml",
+      "term": "Llama Cpp Rs Check"
+    },
+    {
+      "context_snippet": "Publish to Crates.io",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-upon-release.yml",
+      "term": "Publish to Crates.io"
+    },
+    {
+      "context_snippet": "Update llama cpp nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-llama-cpp.yml",
+      "term": "Update llama cpp nightly"
+    },
+    {
+      "context_snippet": "Update version in TOML files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-toml-version.yaml",
+      "term": "Update version in TOML files"
+    }
+  ]
+}

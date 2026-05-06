@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "indentline"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Yggdroot/indentLine",
+      "status": "candidate-context",
+      "text": "A vim plugin to display the indention levels with thin vertical lines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Yggdroot/indentLine",
+      "status": "candidate-context",
+      "text": "indentLine"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Yggdroot/indentLine",
+      "status": "candidate",
+      "text": "indentLine"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "indentline",
+  "concept_id": "indentline",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "Yggdroot/indentLine"
+    }
+  ],
+  "first_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "indentline",
+      "sense_id": "indentline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

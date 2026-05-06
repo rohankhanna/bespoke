@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Networking-Projects-Index",
+      "target": "danielrosehill/claude-lan-manager-0126",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Networking-Projects-Index",
+      "target": "danielrosehill/lan-manager-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Networking-Projects-Index",
+      "target": "danielrosehill/my-network-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Networking-Projects-Index",
+      "target": "danielrosehill/mcp-network-cups",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-06T13:05:29.736524+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9593
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Index of repositories for networking, infrastructure, homelab, and server management",
+    "fork": false,
+    "full_name": "danielrosehill/Networking-Projects-Index",
+    "html_url": "https://github.com/danielrosehill/Networking-Projects-Index",
+    "language": null,
+    "pushed_at": "2026-03-27T17:09:45Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-27T17:09:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-lan-manager-0126",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/lan-manager-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/mcp-network-cups",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/my-network-mcp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "All configurations needed to run the OpenTelemetry Demo with Causely"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This project provides all the configurations needed to deploy the [OpenTelemetry Demo](https://opentelemetry.io/docs/demo/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This project provides all the configurations needed to deploy the [OpenTelemetry Demo](https://opentelemetry.io/docs/demo/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "causely",
+      "sense_id": "causely#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "causely",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "causely",
+  "observation_id": "c6953a010692c01a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-06T12:51:12.481137+00:00",
+  "observed_text": "causely",
+  "source_context_snippet": "This project provides all the configurations needed to deploy the [OpenTelemetry Demo](https://opentelemetry.io/docs/demo/)",
+  "source_file": null,
+  "source_repo": "causely-oss/otel-demo",
+  "source_repo_description": "All configurations needed to run the OpenTelemetry Demo with Causely"
+}

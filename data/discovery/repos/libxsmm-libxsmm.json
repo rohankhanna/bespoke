@@ -1,0 +1,435 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libxsmm-arm-graviton3.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libxsmm-arm-graviton3.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libxsmm-arm-graviton3.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libxsmm-arm-graviton3.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libxsmm-arm-graviton3.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libxsmm-arm-graviton3.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libxsmm-arm-graviton3.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libxsmm-arm-graviton3.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libxsmm-arm-graviton3.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libxsmm/libxsmm",
+      "target": "libxsmm/libxsmm-dnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libxsmm/libxsmm",
+      "target": "chelini/libxsmm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libxsmm/libxsmm",
+      "target": "cp2k/dbcsr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libxsmm/libxsmm",
+      "target": "3343/edge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "libxsmm/libxsmm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "libxsmm/libxsmm",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "libxsmm/libxsmm",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "libxsmm/libxsmm",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "libxsmm/libxsmm",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libxsmm-arm-graviton3.yml",
+      "source_repo": "libxsmm/libxsmm",
+      "target": "aws-actions/configure-aws-credentials@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libxsmm-arm-graviton3.yml",
+      "source_repo": "libxsmm/libxsmm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/libxsmm-arm-graviton3.yml",
+      "source_repo": "libxsmm/libxsmm",
+      "target": "LIBXSMM Arm Graviton 3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libxsmm/libxsmm",
+      "target": "avx2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libxsmm/libxsmm",
+      "target": "avx512",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libxsmm/libxsmm",
+      "target": "bfloat16",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libxsmm/libxsmm",
+      "target": "blas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libxsmm/libxsmm",
+      "target": "convolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libxsmm/libxsmm",
+      "target": "fortran",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libxsmm/libxsmm",
+      "target": "intel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libxsmm/libxsmm",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libxsmm/libxsmm",
+      "target": "matrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libxsmm/libxsmm",
+      "target": "matrix-multiplication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libxsmm/libxsmm",
+      "target": "simd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libxsmm/libxsmm",
+      "target": "sparse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libxsmm/libxsmm",
+      "target": "tensor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libxsmm/libxsmm",
+      "target": "transpose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libxsmm/libxsmm",
+      "target": "vector",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T12:56:58.239231+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 44929
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2785
+    },
+    {
+      "path": ".github/workflows/libxsmm-arm-graviton3.yml",
+      "size": 2385
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Library for specialized dense and sparse matrix operations, and deep learning primitives.",
+    "fork": false,
+    "full_name": "libxsmm/libxsmm",
+    "html_url": "https://github.com/libxsmm/libxsmm",
+    "language": "C",
+    "pushed_at": "2026-03-18T18:05:21Z",
+    "stargazers_count": 952,
+    "topics": [
+      "amx",
+      "avx",
+      "avx2",
+      "avx512",
+      "bfloat16",
+      "blas",
+      "convolution",
+      "fortran",
+      "intel",
+      "jit",
+      "machine-learning",
+      "matrix",
+      "matrix-multiplication",
+      "simd",
+      "sparse",
+      "sse",
+      "tensor",
+      "transpose",
+      "vector"
+    ],
+    "updated_at": "2026-05-02T06:49:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "3343/edge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chelini/libxsmm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cp2k/dbcsr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libxsmm/libxsmm-dnn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "LIBXSMM Arm Graviton 3",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/libxsmm-arm-graviton3.yml",
+      "term": "LIBXSMM Arm Graviton 3"
+    },
+    {
+      "context_snippet": "[![BSD 3-Clause License](https://img.shields.io/badge/license-BSD3-blue.svg \"BSD 3-Clause License\")](LICENSE.md) [![GCC Build Status](https://badge.buildkite.com/2e962d4cfc7ddb10a6cd6c27b0d8033edf179a799e156cb363.svg?branch=main \"GCC Build Status\")](https://github.com/libxsmm/li\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avx2"
+    },
+    {
+      "context_snippet": "[![BSD 3-Clause License](https://img.shields.io/badge/license-BSD3-blue.svg \"BSD 3-Clause License\")](LICENSE.md) [![GCC Build Status](https://badge.buildkite.com/2e962d4cfc7ddb10a6cd6c27b0d8033edf179a799e156cb363.svg?branch=main \"GCC Build Status\")](https://github.com/libxsmm/li\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avx512"
+    },
+    {
+      "context_snippet": "[![BSD 3-Clause License](https://img.shields.io/badge/license-BSD3-blue.svg \"BSD 3-Clause License\")](LICENSE.md) [![GCC Build Status](https://badge.buildkite.com/2e962d4cfc7ddb10a6cd6c27b0d8033edf179a799e156cb363.svg?branch=main \"GCC Build Status\")](https://github.com/libxsmm/li\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bfloat16"
+    },
+    {
+      "context_snippet": "[![BSD 3-Clause License](https://img.shields.io/badge/license-BSD3-blue.svg \"BSD 3-Clause License\")](LICENSE.md) [![GCC Build Status](https://badge.buildkite.com/2e962d4cfc7ddb10a6cd6c27b0d8033edf179a799e156cb363.svg?branch=main \"GCC Build Status\")](https://github.com/libxsmm/li\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blas"
+    },
+    {
+      "context_snippet": "[![BSD 3-Clause License](https://img.shields.io/badge/license-BSD3-blue.svg \"BSD 3-Clause License\")](LICENSE.md) [![GCC Build Status](https://badge.buildkite.com/2e962d4cfc7ddb10a6cd6c27b0d8033edf179a799e156cb363.svg?branch=main \"GCC Build Status\")](https://github.com/libxsmm/li\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convolution"
+    },
+    {
+      "context_snippet": "[![BSD 3-Clause License](https://img.shields.io/badge/license-BSD3-blue.svg \"BSD 3-Clause License\")](LICENSE.md) [![GCC Build Status](https://badge.buildkite.com/2e962d4cfc7ddb10a6cd6c27b0d8033edf179a799e156cb363.svg?branch=main \"GCC Build Status\")](https://github.com/libxsmm/li\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fortran"
+    },
+    {
+      "context_snippet": "[![BSD 3-Clause License](https://img.shields.io/badge/license-BSD3-blue.svg \"BSD 3-Clause License\")](LICENSE.md) [![GCC Build Status](https://badge.buildkite.com/2e962d4cfc7ddb10a6cd6c27b0d8033edf179a799e156cb363.svg?branch=main \"GCC Build Status\")](https://github.com/libxsmm/li\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intel"
+    },
+    {
+      "context_snippet": "[![BSD 3-Clause License](https://img.shields.io/badge/license-BSD3-blue.svg \"BSD 3-Clause License\")](LICENSE.md) [![GCC Build Status](https://badge.buildkite.com/2e962d4cfc7ddb10a6cd6c27b0d8033edf179a799e156cb363.svg?branch=main \"GCC Build Status\")](https://github.com/libxsmm/li\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![BSD 3-Clause License](https://img.shields.io/badge/license-BSD3-blue.svg \"BSD 3-Clause License\")](LICENSE.md) [![GCC Build Status](https://badge.buildkite.com/2e962d4cfc7ddb10a6cd6c27b0d8033edf179a799e156cb363.svg?branch=main \"GCC Build Status\")](https://github.com/libxsmm/li\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matrix"
+    },
+    {
+      "context_snippet": "[![BSD 3-Clause License](https://img.shields.io/badge/license-BSD3-blue.svg \"BSD 3-Clause License\")](LICENSE.md) [![GCC Build Status](https://badge.buildkite.com/2e962d4cfc7ddb10a6cd6c27b0d8033edf179a799e156cb363.svg?branch=main \"GCC Build Status\")](https://github.com/libxsmm/li\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matrix-multiplication"
+    },
+    {
+      "context_snippet": "[![BSD 3-Clause License](https://img.shields.io/badge/license-BSD3-blue.svg \"BSD 3-Clause License\")](LICENSE.md) [![GCC Build Status](https://badge.buildkite.com/2e962d4cfc7ddb10a6cd6c27b0d8033edf179a799e156cb363.svg?branch=main \"GCC Build Status\")](https://github.com/libxsmm/li\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    },
+    {
+      "context_snippet": "[![BSD 3-Clause License](https://img.shields.io/badge/license-BSD3-blue.svg \"BSD 3-Clause License\")](LICENSE.md) [![GCC Build Status](https://badge.buildkite.com/2e962d4cfc7ddb10a6cd6c27b0d8033edf179a799e156cb363.svg?branch=main \"GCC Build Status\")](https://github.com/libxsmm/li\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse"
+    },
+    {
+      "context_snippet": "[![BSD 3-Clause License](https://img.shields.io/badge/license-BSD3-blue.svg \"BSD 3-Clause License\")](LICENSE.md) [![GCC Build Status](https://badge.buildkite.com/2e962d4cfc7ddb10a6cd6c27b0d8033edf179a799e156cb363.svg?branch=main \"GCC Build Status\")](https://github.com/libxsmm/li\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensor"
+    },
+    {
+      "context_snippet": "[![BSD 3-Clause License](https://img.shields.io/badge/license-BSD3-blue.svg \"BSD 3-Clause License\")](LICENSE.md) [![GCC Build Status](https://badge.buildkite.com/2e962d4cfc7ddb10a6cd6c27b0d8033edf179a799e156cb363.svg?branch=main \"GCC Build Status\")](https://github.com/libxsmm/li\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transpose"
+    },
+    {
+      "context_snippet": "[![BSD 3-Clause License](https://img.shields.io/badge/license-BSD3-blue.svg \"BSD 3-Clause License\")](LICENSE.md) [![GCC Build Status](https://badge.buildkite.com/2e962d4cfc7ddb10a6cd6c27b0d8033edf179a799e156cb363.svg?branch=main \"GCC Build Status\")](https://github.com/libxsmm/li\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector"
+    }
+  ]
+}

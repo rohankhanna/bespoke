@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-06T13:16:35.987989+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 358
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Run benchmarks with RDF data",
+    "fork": false,
+    "full_name": "dgraph-io/dgraph-benchmarks",
+    "html_url": "https://github.com/dgraph-io/dgraph-benchmarks",
+    "language": "Go",
+    "pushed_at": "2026-05-06T08:57:09Z",
+    "stargazers_count": 102,
+    "topics": [],
+    "updated_at": "2026-02-16T12:39:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

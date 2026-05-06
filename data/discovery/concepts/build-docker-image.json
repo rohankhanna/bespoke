@@ -352,6 +352,24 @@
       "source_repo": "bdovaz/UnityNuGet",
       "status": "candidate-context",
       "text": "Build docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cometbft/cometbft-db",
+      "status": "candidate-context",
+      "text": "Database wrapper for CometBFT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cometbft/cometbft-db",
+      "status": "candidate-context",
+      "text": "Build Docker Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/cosmos-db",
+      "status": "candidate-context",
+      "text": "build docker image"
     }
   ],
   "candidate_glosses": [
@@ -528,6 +546,18 @@
       "source_repo": "bdovaz/UnityNuGet",
       "status": "candidate",
       "text": "Build docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cometbft/cometbft-db",
+      "status": "candidate",
+      "text": "Build Docker Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/cosmos-db",
+      "status": "candidate",
+      "text": "build docker image"
     }
   ],
   "candidate_related_terms": [
@@ -1033,11 +1063,23 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": ".github/workflows/build-docker.yml",
       "source_repo": "geocompx/docker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "cometbft/cometbft-db"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "cosmos/cosmos-db"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

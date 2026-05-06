@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-06T13:04:02.959403+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 447
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rebuild SDK and NDK from source.",
+    "fork": false,
+    "full_name": "wchen342/android-rebuilds",
+    "html_url": "https://github.com/wchen342/android-rebuilds",
+    "language": "Shell",
+    "pushed_at": "2022-02-07T16:48:47Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2025-05-06T17:36:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

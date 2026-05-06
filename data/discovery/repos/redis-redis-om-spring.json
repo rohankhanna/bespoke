@@ -375,7 +375,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T20:08:06.445880+00:00",
+  "fetched_at": "2026-05-06T13:11:23.264616+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -408,13 +408,13 @@
     "html_url": "https://github.com/redis/redis-om-spring",
     "language": "Java",
     "pushed_at": "2026-04-10T21:58:36Z",
-    "stargazers_count": 651,
+    "stargazers_count": 652,
     "topics": [
       "java",
       "redis",
       "spring"
     ],
-    "updated_at": "2026-04-24T09:06:54Z"
+    "updated_at": "2026-05-06T12:52:07Z"
   },
   "repo_links": [],
   "terms": [

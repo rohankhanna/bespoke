@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-06T13:05:12.665600+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3293
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Claude Code plugin: meta-tooling workflow \u2014 context-break evaluation, CLAUDE.md chunking, MCP command generation, primitive selection, and claude-code feedback filing, with context-management/mcp-integration/feedback-filing/primitive-selection variants.",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Rudder",
+    "html_url": "https://github.com/danielrosehill/Claude-Rudder",
+    "language": "Shell",
+    "pushed_at": "2026-05-04T16:58:25Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-05-04T16:58:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

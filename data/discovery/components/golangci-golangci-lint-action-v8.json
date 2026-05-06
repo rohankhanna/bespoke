@@ -1,7 +1,7 @@
 {
   "component": "golangci/golangci-lint-action@v8",
   "first_seen_at": "2026-04-18T09:23:05.253565+00:00",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -202,6 +202,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/linter.yml",
       "source_repo": "xjasonlyu/tun2socks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci.yml",
+      "source_repo": "quicksilver-zone/quicksilver"
     }
   ]
 }

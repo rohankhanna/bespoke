@@ -1,0 +1,349 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "ingenuity-build/interchain-queries",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "defund-labs/interquery",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "evmos/evmos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "osmosis-labs/osmosis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/async-icq.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/async-icq.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "golangci/golangci-lint-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/async-icq.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/async-icq.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/async-icq.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/async-icq.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/async-icq.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/async-icq.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/async-icq.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "async-icq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ibc-hooks.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ibc-hooks.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "golangci/golangci-lint-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ibc-hooks.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ibc-hooks.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ibc-hooks.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "ibc-hooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-linter.yaml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-linter.yaml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "gaurav-nelson/github-action-markdown-link-check@1.0.15",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mispell.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mispell.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "typos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packet-forward-middleware.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packet-forward-middleware.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "golangci/golangci-lint-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packet-forward-middleware.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packet-forward-middleware.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packet-forward-middleware.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packet-forward-middleware.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packet-forward-middleware.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packet-forward-middleware.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/packet-forward-middleware.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "packet-forward-middleware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/polytone.yaml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/polytone.yaml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/polytone.yaml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions-rs/clippy-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/polytone.yaml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/polytone.yaml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/polytone.yaml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/polytone.yaml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/polytone.yaml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "polytone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/polytone_audit_dependencies.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/polytone_audit_dependencies.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions-rs/audit-check@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/polytone_audit_dependencies.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "polytone audit dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/polytone_release.yaml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/polytone_release.yaml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/polytone_release.yaml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/polytone_release.yaml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/polytone_release.yaml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "polytone artifact compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "actions/labeler@v4.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "cosmos/ibc-apps",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-06T12:51:12.481137+00:00",
+  "source_repo": "cosmos/ibc-apps"
+}

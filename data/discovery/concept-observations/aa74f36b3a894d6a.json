@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Library for specialized dense and sparse matrix operations, and deep learning primitives."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![BSD 3-Clause License](https://img.shields.io/badge/license-BSD3-blue.svg \"BSD 3-Clause License\")](LICENSE.md) [![GCC Build Status](https://badge.buildkite.com/2e962d4cfc7ddb10a6cd6c27b0d8033edf179a799e156cb363.svg?branch=main \"GCC Build Status\")](https://github.com/libxsmm/li\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![BSD 3-Clause License](https://img.shields.io/badge/license-BSD3-blue.svg \"BSD 3-Clause License\")](LICENSE.md) [![GCC Build Status](https://badge.buildkite.com/2e962d4cfc7ddb10a6cd6c27b0d8033edf179a799e156cb363.svg?branch=main \"GCC Build Status\")](https://github.com/libxsmm/li\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29775558,
+      "status": "candidate",
+      "text": "muscle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29689398,
+      "status": "candidate",
+      "text": "trifocal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29626455,
+      "status": "candidate",
+      "text": "tensioner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29467543,
+      "status": "candidate",
+      "text": "traceless"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29383023,
+      "status": "candidate",
+      "text": "adjuster"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tensor",
+      "sense_id": "tensor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tensor",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tensor",
+  "observation_id": "aa74f36b3a894d6a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-06T12:51:12.481137+00:00",
+  "observed_text": "tensor",
+  "source_context_snippet": "[![BSD 3-Clause License](https://img.shields.io/badge/license-BSD3-blue.svg \"BSD 3-Clause License\")](LICENSE.md) [![GCC Build Status](https://badge.buildkite.com/2e962d4cfc7ddb10a6cd6c27b0d8033edf179a799e156cb363.svg?branch=main \"GCC Build Status\")](https://github.com/libxsmm/li\u2026",
+  "source_file": null,
+  "source_repo": "libxsmm/libxsmm",
+  "source_repo_description": "Library for specialized dense and sparse matrix operations, and deep learning primitives."
+}

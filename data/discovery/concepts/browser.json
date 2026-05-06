@@ -1030,6 +1030,18 @@
       "source_repo": "dothq/browser",
       "status": "candidate-context",
       "text": "The browser that fights for your privacy."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GrapheneOS/Vanadium",
+      "status": "candidate-context",
+      "text": "Privacy and security enhanced releases of Chromium for GrapheneOS. Vanadium provides the WebView and standard user-facing browser on GrapheneOS. It depends on hardening in other GrapheneOS repositories and doesn't include patches not relevant to the build targets used on GrapheneOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GrapheneOS/Vanadium",
+      "status": "candidate-context",
+      "text": "Vanadium is a privacy and security hardened variant of Chromium providing the WebView (used by"
     }
   ],
   "candidate_glosses": [
@@ -1542,6 +1554,12 @@
       "source_repo": "dothq/browser",
       "status": "candidate",
       "text": "The browser that fights for your privacy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GrapheneOS/Vanadium",
+      "status": "candidate",
+      "text": "Vanadium is a privacy and security hardened variant of Chromium providing the WebView (used by"
     }
   ],
   "candidate_related_terms": [
@@ -2835,11 +2853,41 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": null,
       "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "browserify/browserify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "GrapheneOS/Vanadium"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

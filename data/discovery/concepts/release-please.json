@@ -1040,6 +1040,18 @@
       "source_repo": "rust-bio/rust-htslib",
       "status": "candidate-context",
       "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dao-xyz/borsh-ts",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0ffast TypeScript implementation of Borsh serialization format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dao-xyz/borsh-ts",
+      "status": "candidate-context",
+      "text": "Release Please"
     }
   ],
   "candidate_glosses": [
@@ -1570,6 +1582,12 @@
       "source_repo": "rust-bio/rust-htslib",
       "status": "candidate",
       "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dao-xyz/borsh-ts",
+      "status": "candidate",
+      "text": "Release Please"
     }
   ],
   "candidate_related_terms": [
@@ -3315,11 +3333,17 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": ".github/workflows/release-please.yml",
       "source_repo": "codymikol/neotest-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "dao-xyz/borsh-ts"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

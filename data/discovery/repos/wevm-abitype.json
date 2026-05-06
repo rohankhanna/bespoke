@@ -481,7 +481,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T19:54:50.739444+00:00",
+  "fetched_at": "2026-05-06T12:58:56.496467+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -526,7 +526,7 @@
     "html_url": "https://github.com/wevm/abitype",
     "language": "TypeScript",
     "pushed_at": "2026-05-03T19:33:47Z",
-    "stargazers_count": 543,
+    "stargazers_count": 544,
     "topics": [
       "abi",
       "ethereum",
@@ -536,7 +536,7 @@
       "typescript",
       "web3"
     ],
-    "updated_at": "2026-04-30T15:18:40Z"
+    "updated_at": "2026-05-06T06:04:10Z"
   },
   "repo_links": [],
   "terms": [

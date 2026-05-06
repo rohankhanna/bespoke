@@ -1,0 +1,217 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@7ea35f098a7369cd23488403f58be9c491a6c55f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "taiki-e/install-action@7ea35f098a7369cd23488403f58be9c491a6c55f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "actions/attest@59d89421af93a897026c735860bf21b6eb4f7b26",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "influxdata/datafusion-udf-wasm",
+      "target": "kylebarron/arrow-wasm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "influxdata/datafusion-udf-wasm",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "influxdata/datafusion-udf-wasm",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "influxdata/datafusion-udf-wasm",
+      "target": "taiki-e/install-action@7ea35f098a7369cd23488403f58be9c491a6c55f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "influxdata/datafusion-udf-wasm",
+      "target": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "influxdata/datafusion-udf-wasm",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml",
+      "source_repo": "influxdata/datafusion-udf-wasm",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml",
+      "source_repo": "influxdata/datafusion-udf-wasm",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml",
+      "source_repo": "influxdata/datafusion-udf-wasm",
+      "target": "taiki-e/install-action@7ea35f098a7369cd23488403f58be9c491a6c55f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml",
+      "source_repo": "influxdata/datafusion-udf-wasm",
+      "target": "actions/attest@59d89421af93a897026c735860bf21b6eb4f7b26",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml",
+      "source_repo": "influxdata/datafusion-udf-wasm",
+      "target": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prebuild.yml",
+      "source_repo": "influxdata/datafusion-udf-wasm",
+      "target": "Prebuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "influxdata/datafusion-udf-wasm",
+      "target": "datafusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "influxdata/datafusion-udf-wasm",
+      "target": "wasm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T13:16:41.926984+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7338
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 4164
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2494
+    },
+    {
+      "path": ".github/workflows/prebuild.yml",
+      "size": 7722
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DataFusion UDFs (User Defined Functions) via WebAssembly",
+    "fork": false,
+    "full_name": "influxdata/datafusion-udf-wasm",
+    "html_url": "https://github.com/influxdata/datafusion-udf-wasm",
+    "language": "Rust",
+    "pushed_at": "2026-05-06T09:29:19Z",
+    "stargazers_count": 15,
+    "topics": [
+      "datafusion",
+      "wasm"
+    ],
+    "updated_at": "2026-05-06T09:29:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kylebarron/arrow-wasm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Prebuild",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prebuild.yml",
+      "term": "Prebuild"
+    },
+    {
+      "context_snippet": "This section discusses the different types of _User Defined Functions_ (UDFs) that are currently available in [Apache DataFusion].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datafusion"
+    },
+    {
+      "context_snippet": "This section discusses the different types of _User Defined Functions_ (UDFs) that are currently available in [Apache DataFusion].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    }
+  ]
+}

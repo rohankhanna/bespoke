@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "DataFusion UDFs (User Defined Functions) via WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This section discusses the different types of _User Defined Functions_ (UDFs) that are currently available in [Apache DataFusion]."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This section discusses the different types of _User Defined Functions_ (UDFs) that are currently available in [Apache DataFusion]."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "datafusion",
+      "sense_id": "datafusion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "datafusion",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "datafusion",
+  "observation_id": "4c3e1416d0c4a39f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-06T12:51:12.481137+00:00",
+  "observed_text": "datafusion",
+  "source_context_snippet": "This section discusses the different types of _User Defined Functions_ (UDFs) that are currently available in [Apache DataFusion].",
+  "source_file": null,
+  "source_repo": "influxdata/datafusion-udf-wasm",
+  "source_repo_description": "DataFusion UDFs (User Defined Functions) via WebAssembly"
+}

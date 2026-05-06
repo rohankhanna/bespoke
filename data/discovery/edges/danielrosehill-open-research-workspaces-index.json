@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Open-Research-Workspaces-Index",
+      "target": "danielrosehill/claude-adhd-research-workspace",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Open-Research-Workspaces-Index",
+      "target": "danielrosehill/github-repo-org-question",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Open-Research-Workspaces-Index",
+      "target": "danielrosehill/live-typing-ux-research",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Open-Research-Workspaces-Index",
+      "target": "danielrosehill/local-claude-plugin-install-research",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Open-Research-Workspaces-Index",
+      "target": "ai-research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Open-Research-Workspaces-Index",
+      "target": "reserach",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Open-Research-Workspaces-Index",
+      "target": "stack-research",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-06T12:51:12.481137+00:00",
+  "source_repo": "danielrosehill/Open-Research-Workspaces-Index"
+}

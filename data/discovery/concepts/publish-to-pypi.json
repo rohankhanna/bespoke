@@ -953,6 +953,30 @@
       "source_repo": "vyperlang/vyper",
       "status": "candidate-context",
       "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nrl-ai/llama-assistant",
+      "status": "candidate-context",
+      "text": "AI-powered assistant to help you with your daily tasks, powered by Llama 3, DeepSeek R1, and many more models on HuggingFace."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrl-ai/llama-assistant",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KamilSJaron/smudgeplot",
+      "status": "candidate-context",
+      "text": "Inference of ploidy and heterozygosity structure using whole genome sequencing data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KamilSJaron/smudgeplot",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
     }
   ],
   "candidate_glosses": [
@@ -1433,6 +1457,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "vyperlang/vyper",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrl-ai/llama-assistant",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KamilSJaron/smudgeplot",
       "status": "candidate",
       "text": "Publish to PyPI"
     }
@@ -2864,11 +2900,35 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": ".github/workflows/release-pypi.yml",
       "source_repo": "vyperlang/vyper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "cookiecutter/cookiecutter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "nrl-ai/llama-assistant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "meta-llama/prompt-ops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "KamilSJaron/smudgeplot"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

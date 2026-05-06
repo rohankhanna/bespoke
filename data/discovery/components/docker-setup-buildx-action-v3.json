@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-buildx-action@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2457,6 +2457,56 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/on_release_publish.yml",
       "source_repo": "go-spatial/tegola"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/async-icq.yml",
+      "source_repo": "cosmos/ibc-apps"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/packet-forward-middleware.yml",
+      "source_repo": "cosmos/ibc-apps"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "cometbft/cometbft-db"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "cometbft/cometbft-db"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cometbft/cometbft-db"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/component-build-images.yml",
+      "source_repo": "GoogleCloudPlatform/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/component-build-images.yml",
+      "source_repo": "ClickHouse/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "grafana/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/component-build-images.yml",
+      "source_repo": "instana/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/component-build-images.yml",
+      "source_repo": "kloudfuse/opentelemetry-demo"
     }
   ]
 }

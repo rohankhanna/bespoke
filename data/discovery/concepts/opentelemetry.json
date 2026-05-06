@@ -475,6 +475,18 @@
       "source_repo": "open-telemetry/weaver",
       "status": "candidate-context",
       "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "causely-oss/otel-demo",
+      "status": "candidate-context",
+      "text": "All configurations needed to run the OpenTelemetry Demo with Causely"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "causely-oss/otel-demo",
+      "status": "candidate-context",
+      "text": "This project provides all the configurations needed to deploy the [OpenTelemetry Demo](https://opentelemetry.io/docs/demo/)"
     }
   ],
   "candidate_glosses": [
@@ -711,6 +723,12 @@
       "source_repo": "open-telemetry/weaver",
       "status": "candidate",
       "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "causely-oss/otel-demo",
+      "status": "candidate",
+      "text": "This project provides all the configurations needed to deploy the [OpenTelemetry Demo](https://opentelemetry.io/docs/demo/)"
     }
   ],
   "candidate_related_terms": [],
@@ -1186,11 +1204,23 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": null,
       "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "causely-oss/otel-demo"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

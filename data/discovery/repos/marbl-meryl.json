@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-06T13:16:21.269276+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1533
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A genomic k-mer counter (and sequence utility) with nice features.",
+    "fork": false,
+    "full_name": "marbl/meryl",
+    "html_url": "https://github.com/marbl/meryl",
+    "language": "C",
+    "pushed_at": "2025-07-04T18:57:48Z",
+    "stargazers_count": 166,
+    "topics": [],
+    "updated_at": "2026-04-30T07:06:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "signatory"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iqlusioninc/crates",
+      "status": "candidate-context",
+      "text": "A collection of open source Rust crates from iqlusion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iqlusioninc/crates",
+      "status": "candidate-context",
+      "text": "signatory"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iqlusioninc/crates",
+      "status": "candidate",
+      "text": "signatory"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987745,
+      "status": "candidate",
+      "text": "signer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29987779,
+      "status": "candidate",
+      "text": "signed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29987699,
+      "status": "candidate",
+      "text": "undersigned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29987628,
+      "status": "candidate",
+      "text": "subscribing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29987174,
+      "status": "candidate",
+      "text": "subscribe"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1025,
+      "status": "candidate",
+      "text": "signer"
+    }
+  ],
+  "canonical_name": "signatory",
+  "concept_id": "signatory",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/signatory.yml",
+      "source_repo": "iqlusioninc/crates"
+    }
+  ],
+  "first_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "signatory",
+      "sense_id": "signatory#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

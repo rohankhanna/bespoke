@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bump version and make master job"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "runtimeverification/k",
+      "status": "candidate-context",
+      "text": "K Framework Tools 7.0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "runtimeverification/k",
+      "status": "candidate-context",
+      "text": "'Bump version and make master job'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "runtimeverification/k",
+      "status": "candidate",
+      "text": "'Bump version and make master job'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 62126,
+      "status": "candidate",
+      "text": "hit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 59753,
+      "status": "candidate",
+      "text": "mastering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 59105,
+      "status": "candidate",
+      "text": "draft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 58544,
+      "status": "candidate",
+      "text": "cover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 58198,
+      "status": "candidate",
+      "text": "banked"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bump version and make master job",
+  "concept_id": "bump-version-and-make-master-job",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/develop.yml",
+      "source_repo": "runtimeverification/k"
+    }
+  ],
+  "first_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump version and make master job",
+      "sense_id": "bump-version-and-make-master-job#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

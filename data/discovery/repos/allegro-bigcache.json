@@ -1,0 +1,200 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@e7fa5ac41e1cf5b7d48e45e42232ce7ada589601",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "toolmantim/release-drafter@v6.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-management.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "allegro/bigcache",
+      "target": "allegro/bigcache-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "allegro/bigcache",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "allegro/bigcache",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "allegro/bigcache",
+      "target": "golangci/golangci-lint-action@e7fa5ac41e1cf5b7d48e45e42232ce7ada589601",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "allegro/bigcache",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-management.yml",
+      "source_repo": "allegro/bigcache",
+      "target": "toolmantim/release-drafter@v6.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-management.yml",
+      "source_repo": "allegro/bigcache",
+      "target": "Release Management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "allegro/bigcache",
+      "target": "cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "allegro/bigcache",
+      "target": "caching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "allegro/bigcache",
+      "target": "golang-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "allegro/bigcache",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "allegro/bigcache",
+      "target": "performance",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T13:16:44.037772+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8628
+    },
+    {
+      "path": "go.mod",
+      "size": 47
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1244
+    },
+    {
+      "path": ".github/workflows/release-management.yml",
+      "size": 393
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Efficient cache for gigabytes of data written in Go.",
+    "fork": false,
+    "full_name": "allegro/bigcache",
+    "html_url": "https://github.com/allegro/bigcache",
+    "language": "Go",
+    "pushed_at": "2026-04-24T08:45:32Z",
+    "stargazers_count": 8125,
+    "topics": [
+      "cache",
+      "caching",
+      "golang-library",
+      "hacktoberfest",
+      "performance"
+    ],
+    "updated_at": "2026-05-05T03:27:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allegro/bigcache-bench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "Release Management",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-management.yml",
+      "term": "Release Management"
+    },
+    {
+      "context_snippet": "Fast, concurrent, evicting in-memory cache written to keep big number of entries without impact on performance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cache"
+    },
+    {
+      "context_snippet": "Fast, concurrent, evicting in-memory cache written to keep big number of entries without impact on performance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caching"
+    },
+    {
+      "context_snippet": "Fast, concurrent, evicting in-memory cache written to keep big number of entries without impact on performance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang-library"
+    },
+    {
+      "context_snippet": "Fast, concurrent, evicting in-memory cache written to keep big number of entries without impact on performance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Fast, concurrent, evicting in-memory cache written to keep big number of entries without impact on performance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    }
+  ]
+}

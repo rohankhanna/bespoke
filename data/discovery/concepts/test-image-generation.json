@@ -73,6 +73,48 @@
       "source_repo": "newrelic/opentelemetry-demo",
       "status": "candidate-context",
       "text": "Test image generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Test image generation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "This repository contains the OpenTelemetry Astronomy Shop, a microservice-based distributed system designed to demonstrate how to instrument applications using ClickStack. It showcases end-to-end observability in a near real-world environment, highlighting how ClickStack can be used to collect, store, and visualize telemetry data across service"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Test image generation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "instana/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Community Demo Application with Instana"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "instana/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Test image generation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kloudfuse/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "This repository contains the OpenTelemetry Astronomy Shop, a microservice-based distributed system intended to illustrate the implementation of OpenTelemetry in a near real-world environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kloudfuse/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Test image generation"
     }
   ],
   "candidate_glosses": [
@@ -109,6 +151,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "newrelic/opentelemetry-demo",
+      "status": "candidate",
+      "text": "Test image generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/opentelemetry-demo",
+      "status": "candidate",
+      "text": "Test image generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/opentelemetry-demo",
+      "status": "candidate",
+      "text": "Test image generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "instana/opentelemetry-demo",
+      "status": "candidate",
+      "text": "Test image generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kloudfuse/opentelemetry-demo",
       "status": "candidate",
       "text": "Test image generation"
     }
@@ -196,11 +262,35 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": ".github/workflows/build-images.yml",
       "source_repo": "newrelic/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "GoogleCloudPlatform/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "ClickHouse/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "instana/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "kloudfuse/opentelemetry-demo"
     }
   ],
   "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

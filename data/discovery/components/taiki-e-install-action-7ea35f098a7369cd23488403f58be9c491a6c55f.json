@@ -1,0 +1,17 @@
+{
+  "component": "taiki-e/install-action@7ea35f098a7369cd23488403f58be9c491a6c55f",
+  "first_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "influxdata/datafusion-udf-wasm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml",
+      "source_repo": "influxdata/datafusion-udf-wasm"
+    }
+  ]
+}

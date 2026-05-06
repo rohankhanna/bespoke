@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-06T12:56:36.174285+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10217
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RISC-V Core; superscalar, out-of-order, multi-core capable; based on RISCY-OOO from MIT",
+    "fork": false,
+    "full_name": "bluespec/Toooba",
+    "html_url": "https://github.com/bluespec/Toooba",
+    "language": "Verilog",
+    "pushed_at": "2026-04-04T12:08:12Z",
+    "stargazers_count": 186,
+    "topics": [],
+    "updated_at": "2026-04-23T14:12:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

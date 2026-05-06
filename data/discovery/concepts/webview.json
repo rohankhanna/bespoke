@@ -19,6 +19,18 @@
       "source_repo": "tauri-apps/tauri",
       "status": "candidate-context",
       "text": "<img src=\".github/splash.png\" alt=\"Tauri\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GrapheneOS/Vanadium",
+      "status": "candidate-context",
+      "text": "Privacy and security enhanced releases of Chromium for GrapheneOS. Vanadium provides the WebView and standard user-facing browser on GrapheneOS. It depends on hardening in other GrapheneOS repositories and doesn't include patches not relevant to the build targets used on GrapheneOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GrapheneOS/Vanadium",
+      "status": "candidate-context",
+      "text": "Vanadium is a privacy and security hardened variant of Chromium providing the WebView (used by"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "tauri-apps/tauri",
       "status": "candidate",
       "text": "<img src=\".github/splash.png\" alt=\"Tauri\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GrapheneOS/Vanadium",
+      "status": "candidate",
+      "text": "Vanadium is a privacy and security hardened variant of Chromium providing the WebView (used by"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "tauri-apps/tauri"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "GrapheneOS/Vanadium"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

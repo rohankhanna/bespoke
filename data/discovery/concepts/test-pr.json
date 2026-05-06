@@ -69,6 +69,18 @@
       "source_repo": "runtimeverification/evm-semantics",
       "status": "candidate-context",
       "text": "'Test PR'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "runtimeverification/k",
+      "status": "candidate-context",
+      "text": "K Framework Tools 7.0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "runtimeverification/k",
+      "status": "candidate-context",
+      "text": "'Test PR'"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "runtimeverification/evm-semantics",
+      "status": "candidate",
+      "text": "'Test PR'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "runtimeverification/k",
       "status": "candidate",
       "text": "'Test PR'"
     }
@@ -287,11 +305,23 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": ".github/workflows/test-pr.yml",
       "source_repo": "runtimeverification/evm-semantics"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/master-pr.yml",
+      "source_repo": "runtimeverification/k"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/test-pr.yml",
+      "source_repo": "runtimeverification/k"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

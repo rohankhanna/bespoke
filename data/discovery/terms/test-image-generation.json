@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -36,6 +36,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/build-images.yml",
       "source_repo": "newrelic/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "GoogleCloudPlatform/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "ClickHouse/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "instana/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "kloudfuse/opentelemetry-demo"
     }
   ],
   "term": "Test image generation"

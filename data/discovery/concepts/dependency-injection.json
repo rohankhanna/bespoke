@@ -67,6 +67,18 @@
       "source_repo": "unitycontainer/unity",
       "status": "candidate-context",
       "text": "The Unity Container (Unity) is a full featured, extensible dependency injection container. It facilitates building loosely coupled applications and provides developers with the following advantages:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inversify/InversifyJS",
+      "status": "candidate-context",
+      "text": "Powerful and lightweight inversion of control container. Moved to https://github.com/inversify/monorepo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inversify/InversifyJS",
+      "status": "candidate-context",
+      "text": "> [!NOTE]"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "unitycontainer/unity",
       "status": "candidate",
       "text": "The Unity Container (Unity) is a full featured, extensible dependency injection container. It facilitates building loosely coupled applications and provides developers with the following advantages:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inversify/InversifyJS",
+      "status": "candidate",
+      "text": "> [!NOTE]"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "unitycontainer/unity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "inversify/InversifyJS"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

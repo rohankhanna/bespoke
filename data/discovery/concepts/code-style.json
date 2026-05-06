@@ -203,6 +203,18 @@
       "source_repo": "cpisciotta/xcbeautify",
       "status": "candidate-context",
       "text": "\"Code Style\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "near/near-cli-rs",
+      "status": "candidate-context",
+      "text": "near CLI is your human-friendly companion that helps to interact with NEAR Protocol from command line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-cli-rs",
+      "status": "candidate-context",
+      "text": "Code Style"
     }
   ],
   "candidate_glosses": [
@@ -301,6 +313,12 @@
       "source_repo": "cpisciotta/xcbeautify",
       "status": "candidate",
       "text": "\"Code Style\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-cli-rs",
+      "status": "candidate",
+      "text": "Code Style"
     }
   ],
   "candidate_related_terms": [
@@ -512,11 +530,17 @@
       "observed_at": "2026-05-06T00:36:03.937537+00:00",
       "source_file": ".github/workflows/style.yml",
       "source_repo": "robotology-legacy/gym-ignition"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/code_style.yml",
+      "source_repo": "near/near-cli-rs"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

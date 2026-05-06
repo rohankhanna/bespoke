@@ -31,6 +31,18 @@
       "source_repo": "hyperledger-solang/solang",
       "status": "candidate-context",
       "text": "<img src=\"https://raw.githubusercontent.com/hyperledger/solang/main/docs/hl_solang_horizontal-color.svg\" alt=\"Solang Logo\" width=\"75%\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dao-xyz/borsh-ts",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0ffast TypeScript implementation of Borsh serialization format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dao-xyz/borsh-ts",
+      "status": "candidate-context",
+      "text": "[![Project license](https://img.shields.io/badge/license-Apache2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "hyperledger-solang/solang",
       "status": "candidate",
       "text": "<img src=\"https://raw.githubusercontent.com/hyperledger/solang/main/docs/hl_solang_horizontal-color.svg\" alt=\"Solang Logo\" width=\"75%\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dao-xyz/borsh-ts",
+      "status": "candidate",
+      "text": "[![Project license](https://img.shields.io/badge/license-Apache2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "hyperledger-solang/solang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "dao-xyz/borsh-ts"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

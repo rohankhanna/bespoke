@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "causely-oss/otel-demo",
+      "target": "causely",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "causely-oss/otel-demo",
+      "target": "demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "causely-oss/otel-demo",
+      "target": "helm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "causely-oss/otel-demo",
+      "target": "opentelemetry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "causely-oss/otel-demo",
+      "target": "otel",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T13:10:03.237560+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3022
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "All configurations needed to run the OpenTelemetry Demo with Causely",
+    "fork": false,
+    "full_name": "causely-oss/otel-demo",
+    "html_url": "https://github.com/causely-oss/otel-demo",
+    "language": "Shell",
+    "pushed_at": "2026-04-20T03:39:46Z",
+    "stargazers_count": 1,
+    "topics": [
+      "causely",
+      "demo",
+      "helm",
+      "opentelemetry",
+      "otel"
+    ],
+    "updated_at": "2026-04-20T03:38:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This project provides all the configurations needed to deploy the [OpenTelemetry Demo](https://opentelemetry.io/docs/demo/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "causely"
+    },
+    {
+      "context_snippet": "This project provides all the configurations needed to deploy the [OpenTelemetry Demo](https://opentelemetry.io/docs/demo/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "demo"
+    },
+    {
+      "context_snippet": "This project provides all the configurations needed to deploy the [OpenTelemetry Demo](https://opentelemetry.io/docs/demo/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "helm"
+    },
+    {
+      "context_snippet": "This project provides all the configurations needed to deploy the [OpenTelemetry Demo](https://opentelemetry.io/docs/demo/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentelemetry"
+    },
+    {
+      "context_snippet": "This project provides all the configurations needed to deploy the [OpenTelemetry Demo](https://opentelemetry.io/docs/demo/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "otel"
+    }
+  ]
+}

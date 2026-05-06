@@ -2711,6 +2711,30 @@
       "source_repo": "huspacy/huspacy",
       "status": "candidate-context",
       "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/packed_simd",
+      "status": "candidate-context",
+      "text": "Portable Packed SIMD Vectors for Rust standard library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/packed_simd",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "influxdata/arrow-datafusion",
+      "status": "candidate-context",
+      "text": "Apache Arrow DataFusion SQL Query Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "influxdata/arrow-datafusion",
+      "status": "candidate-context",
+      "text": "Docs"
     }
   ],
   "candidate_glosses": [
@@ -4067,6 +4091,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "huspacy/huspacy",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/packed_simd",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "influxdata/arrow-datafusion",
       "status": "candidate",
       "text": "Docs"
     }
@@ -6852,11 +6888,47 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": null,
       "source_repo": "adamchainz/blacken-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/panvimdoc.yaml",
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "rust-lang/packed_simd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-casbin.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "absadiki/pywhispercpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/docs_pr.yaml",
+      "source_repo": "influxdata/arrow-datafusion"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],

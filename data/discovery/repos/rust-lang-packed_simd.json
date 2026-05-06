@@ -1,0 +1,143 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-ci-script.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-ci-script.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-ci-script.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-ci-script.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-lang/packed_simd",
+      "target": "rust-lang-nursery/packed_simd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "rust-lang/packed_simd",
+      "target": "benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "rust-lang/packed_simd",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-ci-script.yml",
+      "source_repo": "rust-lang/packed_simd",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-ci-script.yml",
+      "source_repo": "rust-lang/packed_simd",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-ci-script.yml",
+      "source_repo": "rust-lang/packed_simd",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-ci-script.yml",
+      "source_repo": "rust-lang/packed_simd",
+      "target": "run-ci-script",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T13:04:13.730422+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6793
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1409
+    },
+    {
+      "path": ".github/workflows/benchmarks.yml",
+      "size": 746
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 6123
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 191
+    },
+    {
+      "path": ".github/workflows/run-ci-script.yml",
+      "size": 2367
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Portable Packed SIMD Vectors for Rust standard library",
+    "fork": false,
+    "full_name": "rust-lang/packed_simd",
+    "html_url": "https://github.com/rust-lang/packed_simd",
+    "language": "Rust",
+    "pushed_at": "2024-05-05T03:29:37Z",
+    "stargazers_count": 641,
+    "topics": [],
+    "updated_at": "2026-04-07T14:02:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang-nursery/packed_simd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "term": "benchmarks"
+    },
+    {
+      "context_snippet": "docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "docs"
+    },
+    {
+      "context_snippet": "run-ci-script",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-ci-script.yml",
+      "term": "run-ci-script"
+    }
+  ]
+}

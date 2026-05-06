@@ -1,0 +1,12 @@
+{
+  "component": "golangci/golangci-lint-action@e7fa5ac41e1cf5b7d48e45e42232ce7ada589601",
+  "first_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "allegro/bigcache"
+    }
+  ]
+}

@@ -626,7 +626,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T20:09:31.661540+00:00",
+  "fetched_at": "2026-05-06T13:12:41.010931+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -655,13 +655,13 @@
     "html_url": "https://github.com/ajv-validator/ajv",
     "language": "TypeScript",
     "pushed_at": "2026-04-24T13:46:23Z",
-    "stargazers_count": 14697,
+    "stargazers_count": 14698,
     "topics": [
       "ajv",
       "json-schema",
       "validator"
     ],
-    "updated_at": "2026-05-05T10:40:06Z"
+    "updated_at": "2026-05-06T12:13:35Z"
   },
   "repo_links": [
     {

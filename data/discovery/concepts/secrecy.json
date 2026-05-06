@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "secrecy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iqlusioninc/crates",
+      "status": "candidate-context",
+      "text": "A collection of open source Rust crates from iqlusion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iqlusioninc/crates",
+      "status": "candidate-context",
+      "text": "secrecy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iqlusioninc/crates",
+      "status": "candidate",
+      "text": "secrecy"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027296,
+      "status": "candidate",
+      "text": "secretiveness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026727,
+      "status": "candidate",
+      "text": "concealment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025499,
+      "status": "candidate",
+      "text": "privateness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024624,
+      "status": "candidate",
+      "text": "privacy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011628,
+      "status": "candidate",
+      "text": "silence"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13049,
+      "status": "candidate",
+      "text": "silence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12034,
+      "status": "candidate",
+      "text": "concealment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6056,
+      "status": "candidate",
+      "text": "privacy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1022,
+      "status": "candidate",
+      "text": "secretiveness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20,
+      "status": "candidate",
+      "text": "privateness"
+    }
+  ],
+  "canonical_name": "secrecy",
+  "concept_id": "secrecy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/secrecy.yml",
+      "source_repo": "iqlusioninc/crates"
+    }
+  ],
+  "first_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "secrecy",
+      "sense_id": "secrecy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

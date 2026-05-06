@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u26a1\ufe0ffast TypeScript implementation of Borsh serialization format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Project license](https://img.shields.io/badge/license-Apache2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Project license](https://img.shields.io/badge/license-Apache2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042541,
+      "status": "candidate",
+      "text": "nearby"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042523,
+      "status": "candidate",
+      "text": "nigh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042173,
+      "status": "candidate",
+      "text": "about"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042129,
+      "status": "candidate",
+      "text": "well-nigh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042114,
+      "status": "candidate",
+      "text": "almost"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "near",
+      "sense_id": "near#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 55063,
+      "status": "candidate",
+      "text": "good"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45062,
+      "status": "candidate",
+      "text": "close"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37049,
+      "status": "candidate",
+      "text": "warm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34047,
+      "status": "candidate",
+      "text": "approach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33069,
+      "status": "candidate",
+      "text": "hot"
+    }
+  ],
+  "concept_id": "near",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "near",
+  "observation_id": "064174a2437cac56",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-06T12:51:12.481137+00:00",
+  "observed_text": "near",
+  "source_context_snippet": "[![Project license](https://img.shields.io/badge/license-Apache2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+  "source_file": null,
+  "source_repo": "dao-xyz/borsh-ts",
+  "source_repo_description": "\u26a1\ufe0ffast TypeScript implementation of Borsh serialization format"
+}

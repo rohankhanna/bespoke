@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Josh Subtree Sync"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/josh-sync",
+      "status": "candidate-context",
+      "text": "Utilities for synchronizing Josh subtrees to the Rust compiler repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/josh-sync",
+      "status": "candidate-context",
+      "text": "'Josh Subtree Sync'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/josh-sync",
+      "status": "candidate",
+      "text": "'Josh Subtree Sync'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18358,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14169,
+      "status": "candidate",
+      "text": "castling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14068,
+      "status": "candidate",
+      "text": "honey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14068,
+      "status": "candidate",
+      "text": "soldier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14037,
+      "status": "candidate",
+      "text": "state"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Josh Subtree Sync",
+  "concept_id": "josh-subtree-sync",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": ".github/workflows/rustc-pull.yml",
+      "source_repo": "rust-lang/josh-sync"
+    }
+  ],
+  "first_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Josh Subtree Sync",
+      "sense_id": "josh-subtree-sync#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

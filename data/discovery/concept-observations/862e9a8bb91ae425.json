@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Utilities for synchronizing Josh subtrees to the Rust compiler repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'Josh Subtree Sync'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'Josh Subtree Sync'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18358,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14169,
+      "status": "candidate",
+      "text": "castling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14068,
+      "status": "candidate",
+      "text": "honey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14068,
+      "status": "candidate",
+      "text": "soldier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14037,
+      "status": "candidate",
+      "text": "state"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Josh Subtree Sync",
+      "sense_id": "josh-subtree-sync#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "josh-subtree-sync",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "josh-subtree-sync",
+  "observation_id": "862e9a8bb91ae425",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-06T12:51:12.481137+00:00",
+  "observed_text": "Josh Subtree Sync",
+  "source_context_snippet": "'Josh Subtree Sync'",
+  "source_file": ".github/workflows/rustc-pull.yml",
+  "source_repo": "rust-lang/josh-sync",
+  "source_repo_description": "Utilities for synchronizing Josh subtrees to the Rust compiler repo"
+}

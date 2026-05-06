@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-06T12:55:43.662342+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5392
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Ruby library for the Borsh binary serialization format.",
+    "fork": false,
+    "full_name": "dryruby/borsh.rb",
+    "html_url": "https://github.com/dryruby/borsh.rb",
+    "language": "Ruby",
+    "pushed_at": "2025-05-12T21:28:40Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-05-12T21:28:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -326,7 +326,17 @@
       "source_file": ".github/workflows/ocapn-guile-interop.yml"
     },
     {
-      "component": "PromyLOPh/guix-install-action@40615e98e5c16a451aec10fe01c214ed07cbaa77",
+      "component": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ocapn-guile-interop.yml"
+    },
+    {
+      "component": "nick-fields/retry@ce71cc2ab81d554ebbe88c79ab5975992d79ba08",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ocapn-guile-interop.yml"
+    },
+    {
+      "component": "nick-fields/retry@ce71cc2ab81d554ebbe88c79ab5975992d79ba08",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ocapn-guile-interop.yml"
     },
@@ -729,7 +739,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ocapn-guile-interop.yml",
       "source_repo": "endojs/endo",
-      "target": "PromyLOPh/guix-install-action@40615e98e5c16a451aec10fe01c214ed07cbaa77",
+      "target": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ocapn-guile-interop.yml",
+      "source_repo": "endojs/endo",
+      "target": "nick-fields/retry@ce71cc2ab81d554ebbe88c79ab5975992d79ba08",
       "target_type": "component"
     },
     {
@@ -901,7 +918,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T20:04:42.628067+00:00",
+  "fetched_at": "2026-05-06T13:08:02.413777+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -929,7 +946,7 @@
     },
     {
       "path": ".github/workflows/ocapn-guile-interop.yml",
-      "size": 8368
+      "size": 16905
     },
     {
       "path": ".github/workflows/release.yml",
@@ -953,7 +970,7 @@
     "full_name": "endojs/endo",
     "html_url": "https://github.com/endojs/endo",
     "language": "JavaScript",
-    "pushed_at": "2026-05-05T20:02:35Z",
+    "pushed_at": "2026-05-06T11:17:18Z",
     "stargazers_count": 1011,
     "topics": [
       "capabilities",
@@ -968,7 +985,7 @@
       "security",
       "supply-chain"
     ],
-    "updated_at": "2026-05-05T18:59:02Z"
+    "updated_at": "2026-05-06T03:37:28Z"
   },
   "repo_links": [
     {

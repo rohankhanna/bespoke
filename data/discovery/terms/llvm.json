@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -81,6 +81,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "root-project/cling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "CHIP-SPV/chipStar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaLLVM/LLVM.jl"
     }
   ],
   "term": "llvm"

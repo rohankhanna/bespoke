@@ -1,0 +1,260 @@
+{
+  "components": [
+    {
+      "component": "zenengeo/github-auto-release-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/login-action@v3.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "itzg/github-workflows/.github/workflows/issues-notify-discord.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-notify.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "itzg/docker-minecraft-bedrock-server",
+      "target": "edward3h/minecraft-webhook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "itzg/docker-minecraft-bedrock-server",
+      "target": "macchie/minecraft-bedrock-server-bridge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "itzg/docker-minecraft-bedrock-server",
+      "target": "joanroig/admincraft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "itzg/docker-minecraft-bedrock-server",
+      "target": "mugh/minecraft-bedrock-server-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release.yml",
+      "source_repo": "itzg/docker-minecraft-bedrock-server",
+      "target": "zenengeo/github-auto-release-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release.yml",
+      "source_repo": "itzg/docker-minecraft-bedrock-server",
+      "target": "Auto release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "itzg/docker-minecraft-bedrock-server",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "itzg/docker-minecraft-bedrock-server",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "itzg/docker-minecraft-bedrock-server",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "itzg/docker-minecraft-bedrock-server",
+      "target": "docker/login-action@v3.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "itzg/docker-minecraft-bedrock-server",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "itzg/docker-minecraft-bedrock-server",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-notify.yml",
+      "source_repo": "itzg/docker-minecraft-bedrock-server",
+      "target": "itzg/github-workflows/.github/workflows/issues-notify-discord.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-notify.yml",
+      "source_repo": "itzg/docker-minecraft-bedrock-server",
+      "target": "Issues notify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itzg/docker-minecraft-bedrock-server",
+      "target": "docker-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itzg/docker-minecraft-bedrock-server",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itzg/docker-minecraft-bedrock-server",
+      "target": "minecraft",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T13:16:50.682272+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21609
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3397
+    },
+    {
+      "path": ".github/workflows/auto-release.yml",
+      "size": 313
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2685
+    },
+    {
+      "path": ".github/workflows/issues-notify.yml",
+      "size": 281
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Containerized Minecraft Bedrock Dedicated Server with selectable version",
+    "fork": false,
+    "full_name": "itzg/docker-minecraft-bedrock-server",
+    "html_url": "https://github.com/itzg/docker-minecraft-bedrock-server",
+    "language": "Shell",
+    "pushed_at": "2026-05-04T16:50:36Z",
+    "stargazers_count": 1771,
+    "topics": [
+      "docker-image",
+      "hacktoberfest",
+      "minecraft"
+    ],
+    "updated_at": "2026-05-05T22:21:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edward3h/minecraft-webhook",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joanroig/admincraft",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "macchie/minecraft-bedrock-server-bridge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mugh/minecraft-bedrock-server-manager",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release.yml",
+      "term": "Auto release"
+    },
+    {
+      "context_snippet": "Issues notify",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-notify.yml",
+      "term": "Issues notify"
+    },
+    {
+      "context_snippet": "[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/minecraft-bedrock-server.svg)](https://hub.docker.com/r/itzg/minecraft-bedrock-server/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-image"
+    },
+    {
+      "context_snippet": "[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/minecraft-bedrock-server.svg)](https://hub.docker.com/r/itzg/minecraft-bedrock-server/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/minecraft-bedrock-server.svg)](https://hub.docker.com/r/itzg/minecraft-bedrock-server/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minecraft"
+    }
+  ]
+}

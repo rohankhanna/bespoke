@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CreeperHost/Log4jPatcher",
+      "target": "cve-2021-44228",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CreeperHost/Log4jPatcher",
+      "target": "log4j",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CreeperHost/Log4jPatcher",
+      "target": "log4j2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CreeperHost/Log4jPatcher",
+      "target": "log4shell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T13:16:52.387795+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 930
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A mitigation for CVE-2021-44228 (log4shell) that works by patching the vulnerability at runtime. (Works with any vulnerable java software, tested with java 6 and newer)",
+    "fork": false,
+    "full_name": "CreeperHost/Log4jPatcher",
+    "html_url": "https://github.com/CreeperHost/Log4jPatcher",
+    "language": "Java",
+    "pushed_at": "2022-11-10T11:16:17Z",
+    "stargazers_count": 49,
+    "topics": [
+      "cve-2021-44228",
+      "log4j",
+      "log4j2",
+      "log4shell"
+    ],
+    "updated_at": "2025-11-30T20:56:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A Java Agent based mitigation for Log4j2 JNDI exploits.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cve-2021-44228"
+    },
+    {
+      "context_snippet": "A Java Agent based mitigation for Log4j2 JNDI exploits.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "log4j"
+    },
+    {
+      "context_snippet": "A Java Agent based mitigation for Log4j2 JNDI exploits.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "log4j2"
+    },
+    {
+      "context_snippet": "A Java Agent based mitigation for Log4j2 JNDI exploits.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "log4shell"
+    }
+  ]
+}

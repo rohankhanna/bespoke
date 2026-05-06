@@ -382,6 +382,18 @@
       "source_repo": "open-telemetry/opentelemetry-demo",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable-next-line -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "causely-oss/otel-demo",
+      "status": "candidate-context",
+      "text": "All configurations needed to run the OpenTelemetry Demo with Causely"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "causely-oss/otel-demo",
+      "status": "candidate-context",
+      "text": "This project provides all the configurations needed to deploy the [OpenTelemetry Demo](https://opentelemetry.io/docs/demo/)"
     }
   ],
   "candidate_glosses": [
@@ -570,6 +582,12 @@
       "source_repo": "open-telemetry/opentelemetry-demo",
       "status": "candidate",
       "text": "<!-- markdownlint-disable-next-line -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "causely-oss/otel-demo",
+      "status": "candidate",
+      "text": "This project provides all the configurations needed to deploy the [OpenTelemetry Demo](https://opentelemetry.io/docs/demo/)"
     }
   ],
   "candidate_related_terms": [
@@ -1171,11 +1189,35 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "ably-labs/realtime-quiz-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-multiplayer-space-invaders"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-quiz-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T12:51:12.481137+00:00",
+      "source_file": null,
+      "source_repo": "causely-oss/otel-demo"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "lexical_providers": [
     "datamuse"
   ],
