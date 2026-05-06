@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lil-lab/nlvr",
+      "target": "clic-lab/nlvr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lil-lab/nlvr",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lil-lab/nlvr",
+      "target": "corpus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lil-lab/nlvr",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lil-lab/nlvr",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-06T00:36:03.937537+00:00",
+  "source_repo": "lil-lab/nlvr"
+}

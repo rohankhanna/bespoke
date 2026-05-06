@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lonePatient/NeZha_Chinese_PyTorch",
+      "target": "lonepatient/torchblocks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lonePatient/NeZha_Chinese_PyTorch",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lonePatient/NeZha_Chinese_PyTorch",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lonePatient/NeZha_Chinese_PyTorch",
+      "target": "nezha",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lonePatient/NeZha_Chinese_PyTorch",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T01:06:16.656205+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1281
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "NEZHA: Neural Contextualized Representation for Chinese Language Understanding",
+    "fork": false,
+    "full_name": "lonePatient/NeZha_Chinese_PyTorch",
+    "html_url": "https://github.com/lonePatient/NeZha_Chinese_PyTorch",
+    "language": "Python",
+    "pushed_at": "2021-08-13T15:05:32Z",
+    "stargazers_count": 259,
+    "topics": [
+      "chinese",
+      "language-model",
+      "nezha",
+      "pytorch"
+    ],
+    "updated_at": "2026-03-04T07:15:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lonepatient/torchblocks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "pytorch\u7248NEZHA\uff0c\u9002\u914dtransformers",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    },
+    {
+      "context_snippet": "pytorch\u7248NEZHA\uff0c\u9002\u914dtransformers",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "pytorch\u7248NEZHA\uff0c\u9002\u914dtransformers",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nezha"
+    },
+    {
+      "context_snippet": "pytorch\u7248NEZHA\uff0c\u9002\u914dtransformers",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

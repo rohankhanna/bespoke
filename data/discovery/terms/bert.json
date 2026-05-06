@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -231,6 +231,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "hila-chefer/Transformer-Explainability"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "lonePatient/TorchBlocks"
     }
   ],
   "term": "bert"

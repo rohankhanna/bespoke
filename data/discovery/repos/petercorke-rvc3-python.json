@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "petercorke/RVC3-python",
+      "target": "petercorke/machinevision-toolbox-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "petercorke/RVC3-python",
+      "target": "petercorke/bdsim",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-06T01:05:21.486823+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14880
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2894
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code examples for Robotics, Vision & Control 3rd edition in Python",
+    "fork": false,
+    "full_name": "petercorke/RVC3-python",
+    "html_url": "https://github.com/petercorke/RVC3-python",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-12-16T06:27:04Z",
+    "stargazers_count": 628,
+    "topics": [],
+    "updated_at": "2026-05-06T00:34:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "petercorke/bdsim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "petercorke/machinevision-toolbox-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

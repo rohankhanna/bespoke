@@ -79,6 +79,18 @@
       "source_repo": "invictus717/MetaTransformer",
       "status": "candidate-context",
       "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gpac/testsuite",
+      "status": "candidate-context",
+      "text": "GPAC test suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpac/testsuite",
+      "status": "candidate-context",
+      "text": "This is the documentation for creating a new test in GPAC test suite."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "invictus717/MetaTransformer",
       "status": "candidate",
       "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpac/testsuite",
+      "status": "candidate",
+      "text": "This is the documentation for creating a new test in GPAC test suite."
     }
   ],
   "candidate_related_terms": [
@@ -204,11 +222,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "invictus717/MetaTransformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "gpac/testsuite"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

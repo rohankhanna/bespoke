@@ -67,6 +67,13 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "langflow-ai/langflow",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "langflow-ai/langflow",
       "target": "actions/download-artifact@v4",
       "target_type": "component"
     },
@@ -204,6 +211,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "generated_at": "2026-05-06T00:36:03.937537+00:00",
   "source_repo": "langflow-ai/langflow"
 }

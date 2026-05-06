@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_conan.yml",
+      "source_repo": "conan-io/cmake-conan",
+      "target": "actions/checkout@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_conan.yml",
+      "source_repo": "conan-io/cmake-conan",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_conan.yml",
+      "source_repo": "conan-io/cmake-conan",
+      "target": "actions/setup-python@v5.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_conan.yml",
+      "source_repo": "conan-io/cmake-conan",
+      "target": "lukka/get-cmake@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "conan-io/cmake-conan",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "conan-io/cmake-conan",
+      "target": "cmake-wrapper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "conan-io/cmake-conan",
+      "target": "conan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "conan-io/cmake-conan",
+      "target": "package-manager",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-06T00:36:03.937537+00:00",
+  "source_repo": "conan-io/cmake-conan"
+}

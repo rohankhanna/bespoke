@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ohad/collie",
+      "target": "gallais/agdargs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-ubuntu.yml",
+      "source_repo": "ohad/collie",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-ubuntu.yml",
+      "source_repo": "ohad/collie",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-ubuntu.yml",
+      "source_repo": "ohad/collie",
+      "target": "JamesIves/github-pages-deploy-action@4.1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-ubuntu.yml",
+      "source_repo": "ohad/collie",
+      "target": "Ubuntu",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-06T00:36:03.937537+00:00",
+  "source_repo": "ohad/collie"
+}

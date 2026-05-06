@@ -481,6 +481,18 @@
       "source_repo": "danny-avila/rag_api",
       "status": "candidate-context",
       "text": "\ufeff# ID-based RAG FastAPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tmc/langchaingo",
+      "status": "candidate-context",
+      "text": "LangChain for Go, the easiest way to write LLM-based programs in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tmc/langchaingo",
+      "status": "candidate-context",
+      "text": "> \ud83c\udf89 **Join our new official Discord community!** Connect with other LangChain Go developers, get help and contribute: [Join Discord](https://discord.gg/t9UbBQs2rG)"
     }
   ],
   "candidate_glosses": [
@@ -717,6 +729,12 @@
       "source_repo": "danny-avila/rag_api",
       "status": "candidate",
       "text": "\ufeff# ID-based RAG FastAPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tmc/langchaingo",
+      "status": "candidate",
+      "text": "> \ud83c\udf89 **Join our new official Discord community!** Connect with other LangChain Go developers, get help and contribute: [Join Discord](https://discord.gg/t9UbBQs2rG)"
     }
   ],
   "candidate_related_terms": [],
@@ -1546,11 +1564,29 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "tmc/langchaingo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

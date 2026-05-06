@@ -48,7 +48,7 @@
   "normalized_form": "mandatory-conformance",
   "observation_id": "1e5d5b04ea5ea044",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-06T00:36:03.937537+00:00",
   "observed_text": "mandatory-conformance",
   "source_context_snippet": "mandatory-conformance",
   "source_file": ".github/workflows/mandatory-conformance.yaml",

@@ -859,6 +859,18 @@
       "source_repo": "ugexe/zef",
       "status": "candidate-context",
       "text": "Raku Module Management"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conan-io/cmake-conan",
+      "status": "candidate-context",
+      "text": "CMake wrapper for conan C and C++ package manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conan-io/cmake-conan",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/conan-io/cmake-conan/actions/workflows/cmake_conan.yml/badge.svg?branch=develop2)"
     }
   ],
   "candidate_glosses": [
@@ -1287,6 +1299,12 @@
       "source_repo": "ugexe/zef",
       "status": "candidate",
       "text": "Raku Module Management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conan-io/cmake-conan",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/conan-io/cmake-conan/actions/workflows/cmake_conan.yml/badge.svg?branch=develop2)"
     }
   ],
   "candidate_related_terms": [],
@@ -1906,11 +1924,17 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "conan-io/cmake-conan"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "NEZHA: Neural Contextualized Representation for Chinese Language Understanding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "pytorch\u7248NEZHA\uff0c\u9002\u914dtransformers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "pytorch\u7248NEZHA\uff0c\u9002\u914dtransformers"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "taiyi zhenren"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "shiji niangniang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "bai suzhen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "chiyou"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "caishen"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nezha",
+      "sense_id": "nezha#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nezha",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nezha",
+  "observation_id": "7871bd96541672c5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-06T00:36:03.937537+00:00",
+  "observed_text": "nezha",
+  "source_context_snippet": "pytorch\u7248NEZHA\uff0c\u9002\u914dtransformers",
+  "source_file": null,
+  "source_repo": "lonePatient/NeZha_Chinese_PyTorch",
+  "source_repo_description": "NEZHA: Neural Contextualized Representation for Chinese Language Understanding"
+}

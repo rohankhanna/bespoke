@@ -1217,11 +1217,17 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": ".github/workflows/actions.yml",
       "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "google-deepmind/dm-haiku"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

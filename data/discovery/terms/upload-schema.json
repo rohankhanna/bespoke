@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish-schema.yml",
+      "source_repo": "agentclientprotocol/agent-client-protocol"
+    }
+  ],
+  "term": "Upload Schema"
+}

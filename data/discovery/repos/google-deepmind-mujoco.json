@@ -223,7 +223,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T08:23:59.204024+00:00",
+  "fetched_at": "2026-05-06T01:05:02.752910+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -259,14 +259,14 @@
     "full_name": "google-deepmind/mujoco",
     "html_url": "https://github.com/google-deepmind/mujoco",
     "language": "C++",
-    "pushed_at": "2026-05-02T20:27:36Z",
-    "stargazers_count": 13338,
+    "pushed_at": "2026-05-05T19:36:36Z",
+    "stargazers_count": 13350,
     "topics": [
       "mujoco",
       "physics",
       "robotics"
     ],
-    "updated_at": "2026-05-04T08:22:42Z"
+    "updated_at": "2026-05-05T20:28:36Z"
   },
   "repo_links": [],
   "terms": [

@@ -79,6 +79,30 @@
       "source_repo": "BrikerMan/Kashgari",
       "status": "candidate-context",
       "text": "<!-- prettier-ignore-start -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lonePatient/TorchBlocks",
+      "status": "candidate-context",
+      "text": "A PyTorch-based toolkit for natural language processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lonePatient/TorchBlocks",
+      "status": "candidate-context",
+      "text": "(Work in Progress!!)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huspacy/huspacy",
+      "status": "candidate-context",
+      "text": "HuSpaCy: industrial-strength Hungarian natural language processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huspacy/huspacy",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" markdown>"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "BrikerMan/Kashgari",
       "status": "candidate",
       "text": "<!-- prettier-ignore-start -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lonePatient/TorchBlocks",
+      "status": "candidate",
+      "text": "(Work in Progress!!)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huspacy/huspacy",
+      "status": "candidate",
+      "text": "<div align=\"center\" markdown>"
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +202,23 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "BrikerMan/Kashgari"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "lonePatient/TorchBlocks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "huspacy/huspacy"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

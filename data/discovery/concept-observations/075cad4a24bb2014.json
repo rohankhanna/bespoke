@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "NEZHA: Neural Contextualized Representation for Chinese Language Understanding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "pytorch\u7248NEZHA\uff0c\u9002\u914dtransformers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "pytorch\u7248NEZHA\uff0c\u9002\u914dtransformers"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022350,
+      "status": "candidate",
+      "text": "taiwanese"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021077,
+      "status": "candidate",
+      "text": "formosan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026072,
+      "status": "candidate",
+      "text": "renminbi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024341,
+      "status": "candidate",
+      "text": "cantonese"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023750,
+      "status": "candidate",
+      "text": "mandarin"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chinese",
+      "sense_id": "chinese#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "formosan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "taiwanese"
+    }
+  ],
+  "concept_id": "chinese",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chinese",
+  "observation_id": "075cad4a24bb2014",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-06T00:36:03.937537+00:00",
+  "observed_text": "chinese",
+  "source_context_snippet": "pytorch\u7248NEZHA\uff0c\u9002\u914dtransformers",
+  "source_file": null,
+  "source_repo": "lonePatient/NeZha_Chinese_PyTorch",
+  "source_repo_description": "NEZHA: Neural Contextualized Representation for Chinese Language Understanding"
+}

@@ -6360,11 +6360,47 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": ".github/workflows/documentation.yml",
       "source_repo": "jump-dev/JuMP.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/ROCm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "insodoc/insomnia-documenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "geotiffjs/geotiff.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

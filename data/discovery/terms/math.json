@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -141,6 +141,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "lace/blmath"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/spatialmath-matlab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "rai-opensource/spatialmath-python"
     }
   ],
   "term": "math"

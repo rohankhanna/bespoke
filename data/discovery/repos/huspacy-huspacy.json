@@ -1,0 +1,563 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "Gr1N/setup-poetry@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "rbialon/flake8-annotations@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "Gr1N/setup-poetry@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "Gr1N/setup-poetry@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "Gr1N/setup-poetry@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "release-flow/keep-a-changelog-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_models.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_models.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_models.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_models.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "huspacy/huspacy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "huspacy/huspacy",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "huspacy/huspacy",
+      "target": "Gr1N/setup-poetry@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "huspacy/huspacy",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "huspacy/huspacy",
+      "target": "rbialon/flake8-annotations@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "huspacy/huspacy",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "huspacy/huspacy",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "huspacy/huspacy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "huspacy/huspacy",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "huspacy/huspacy",
+      "target": "Gr1N/setup-poetry@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "huspacy/huspacy",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "huspacy/huspacy",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "huspacy/huspacy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "huspacy/huspacy",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "huspacy/huspacy",
+      "target": "Gr1N/setup-poetry@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "huspacy/huspacy",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "huspacy/huspacy",
+      "target": "release-flow/keep-a-changelog-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "huspacy/huspacy",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_models.yml",
+      "source_repo": "huspacy/huspacy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_models.yml",
+      "source_repo": "huspacy/huspacy",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_models.yml",
+      "source_repo": "huspacy/huspacy",
+      "target": "Models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huspacy/huspacy",
+      "target": "dependency-parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huspacy/huspacy",
+      "target": "hungarian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huspacy/huspacy",
+      "target": "hunlp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huspacy/huspacy",
+      "target": "huspacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huspacy/huspacy",
+      "target": "information-extraction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huspacy/huspacy",
+      "target": "lemmatization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huspacy/huspacy",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huspacy/huspacy",
+      "target": "morphological-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huspacy/huspacy",
+      "target": "named-entity-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huspacy/huspacy",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huspacy/huspacy",
+      "target": "pos-tagger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huspacy/huspacy",
+      "target": "spacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huspacy/huspacy",
+      "target": "spacy-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huspacy/huspacy",
+      "target": "spacy-pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huspacy/huspacy",
+      "target": "text-mining",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huspacy/huspacy",
+      "target": "universal-dependencies",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T01:07:18.469451+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10875
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1854
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2018
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 2464
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2277
+    },
+    {
+      "path": ".github/workflows/test_models.yml",
+      "size": 1525
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "HuSpaCy: industrial-strength Hungarian natural language processing",
+    "fork": false,
+    "full_name": "huspacy/huspacy",
+    "html_url": "https://github.com/huspacy/huspacy",
+    "language": "Python",
+    "pushed_at": "2025-11-19T18:19:37Z",
+    "stargazers_count": 182,
+    "topics": [
+      "dependency-parsing",
+      "hungarian",
+      "hunlp",
+      "huspacy",
+      "information-extraction",
+      "lemmatization",
+      "machine-learning",
+      "morphological-analysis",
+      "named-entity-recognition",
+      "natural-language-processing",
+      "ner",
+      "nlp",
+      "pos-tagger",
+      "python",
+      "spacy",
+      "spacy-models",
+      "spacy-pipeline",
+      "text-mining",
+      "universal-dependencies"
+    ],
+    "updated_at": "2026-04-05T17:26:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "Models",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_models.yml",
+      "term": "Models"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dependency-parsing"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hungarian"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hunlp"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huspacy"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-extraction"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lemmatization"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "morphological-analysis"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "named-entity-recognition"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pos-tagger"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spacy"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spacy-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spacy-pipeline"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-mining"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "universal-dependencies"
+    }
+  ]
+}

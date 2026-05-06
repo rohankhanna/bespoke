@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "netease-youdao/BCEmbedding",
+      "target": "netease-youdao/qanything",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "netease-youdao/BCEmbedding",
+      "target": "shibing624/chatpdf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "netease-youdao/BCEmbedding",
+      "target": "foldl/chatllm.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "netease-youdao/BCEmbedding",
+      "target": "mindspore-lab/mindnlp",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-06T00:36:03.937537+00:00",
+  "source_repo": "netease-youdao/BCEmbedding"
+}

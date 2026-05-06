@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-06T01:05:24.495661+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2875
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LeKiwi - Low-Cost Mobile Manipulator",
+    "fork": false,
+    "full_name": "SIGRobotics-UIUC/LeKiwi",
+    "html_url": "https://github.com/SIGRobotics-UIUC/LeKiwi",
+    "language": null,
+    "pushed_at": "2025-07-15T19:07:27Z",
+    "stargazers_count": 1263,
+    "topics": [],
+    "updated_at": "2026-05-04T10:56:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

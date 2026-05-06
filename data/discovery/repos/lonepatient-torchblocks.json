@@ -1,0 +1,193 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lonePatient/TorchBlocks",
+      "target": "advertising",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lonePatient/TorchBlocks",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lonePatient/TorchBlocks",
+      "target": "multilabel-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lonePatient/TorchBlocks",
+      "target": "named-entity-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lonePatient/TorchBlocks",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lonePatient/TorchBlocks",
+      "target": "relation-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lonePatient/TorchBlocks",
+      "target": "siamese-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lonePatient/TorchBlocks",
+      "target": "text-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lonePatient/TorchBlocks",
+      "target": "text-similarity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lonePatient/TorchBlocks",
+      "target": "transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lonePatient/TorchBlocks",
+      "target": "triplet-loss",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T01:06:18.601938+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2339
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 440
+    },
+    {
+      "path": "requirements.txt",
+      "size": 138
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A PyTorch-based toolkit for natural language processing",
+    "fork": false,
+    "full_name": "lonePatient/TorchBlocks",
+    "html_url": "https://github.com/lonePatient/TorchBlocks",
+    "language": "Python",
+    "pushed_at": "2023-03-10T02:28:39Z",
+    "stargazers_count": 160,
+    "topics": [
+      "advertising",
+      "bert",
+      "multilabel-classification",
+      "named-entity-recognition",
+      "nlp",
+      "pytorch",
+      "relation-classification",
+      "siamese-network",
+      "text-classification",
+      "text-similarity",
+      "transformers",
+      "triplet-loss"
+    ],
+    "updated_at": "2025-12-07T06:55:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "(Work in Progress!!)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "advertising"
+    },
+    {
+      "context_snippet": "(Work in Progress!!)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "(Work in Progress!!)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multilabel-classification"
+    },
+    {
+      "context_snippet": "(Work in Progress!!)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "named-entity-recognition"
+    },
+    {
+      "context_snippet": "(Work in Progress!!)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "(Work in Progress!!)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "relation-classification"
+    },
+    {
+      "context_snippet": "(Work in Progress!!)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "siamese-network"
+    },
+    {
+      "context_snippet": "(Work in Progress!!)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-classification"
+    },
+    {
+      "context_snippet": "(Work in Progress!!)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-similarity"
+    },
+    {
+      "context_snippet": "(Work in Progress!!)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    },
+    {
+      "context_snippet": "(Work in Progress!!)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "triplet-loss"
+    }
+  ]
+}

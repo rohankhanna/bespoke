@@ -43,6 +43,30 @@
       "source_repo": "jphall663/GWU_data_mining",
       "status": "candidate-context",
       "text": "**DNSC 6279 (\"Data Mining\")** provides exposure to various data preprocessing, statistics, and machine learning techniques that can be used both to discover relationships in large data sets and to build predictive models. Techniques covered will include basic and analytical data\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deanmalmgren/textract",
+      "status": "candidate-context",
+      "text": "extract text from any document. no muss. no fuss."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deanmalmgren/textract",
+      "status": "candidate-context",
+      "text": ".. NOTES FOR CREATING A RELEASE:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huspacy/huspacy",
+      "status": "candidate-context",
+      "text": "HuSpaCy: industrial-strength Hungarian natural language processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huspacy/huspacy",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" markdown>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "jphall663/GWU_data_mining",
       "status": "candidate",
       "text": "**DNSC 6279 (\"Data Mining\")** provides exposure to various data preprocessing, statistics, and machine learning techniques that can be used both to discover relationships in large data sets and to build predictive models. Techniques covered will include basic and analytical data\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deanmalmgren/textract",
+      "status": "candidate",
+      "text": ".. NOTES FOR CREATING A RELEASE:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huspacy/huspacy",
+      "status": "candidate",
+      "text": "<div align=\"center\" markdown>"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "jphall663/GWU_data_mining"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "deanmalmgren/textract"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "huspacy/huspacy"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

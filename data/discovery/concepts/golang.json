@@ -5027,6 +5027,30 @@
       "source_repo": "VictoriaMetrics/fastcache",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/VictoriaMetrics/fastcache/workflows/main/badge.svg)](https://github.com/VictoriaMetrics/fastcache/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-spatial/tegola",
+      "status": "candidate-context",
+      "text": "Tegola is a Mapbox Vector Tile server written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-spatial/tegola",
+      "status": "candidate-context",
+      "text": "![On push](https://github.com/go-spatial/tegola/workflows/On%20push/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tmc/langchaingo",
+      "status": "candidate-context",
+      "text": "LangChain for Go, the easiest way to write LLM-based programs in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tmc/langchaingo",
+      "status": "candidate-context",
+      "text": "> \ud83c\udf89 **Join our new official Discord community!** Connect with other LangChain Go developers, get help and contribute: [Join Discord](https://discord.gg/t9UbBQs2rG)"
     }
   ],
   "candidate_glosses": [
@@ -7549,6 +7573,18 @@
       "source_repo": "VictoriaMetrics/fastcache",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/VictoriaMetrics/fastcache/workflows/main/badge.svg)](https://github.com/VictoriaMetrics/fastcache/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-spatial/tegola",
+      "status": "candidate",
+      "text": "![On push](https://github.com/go-spatial/tegola/workflows/On%20push/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tmc/langchaingo",
+      "status": "candidate",
+      "text": "> \ud83c\udf89 **Join our new official Discord community!** Connect with other LangChain Go developers, get help and contribute: [Join Discord](https://discord.gg/t9UbBQs2rG)"
     }
   ],
   "candidate_related_terms": [],
@@ -11300,11 +11336,47 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "VictoriaMetrics/fastcache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "stephenlacy/daz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "go-spatial/tegola"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "tmc/langchaingo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-go"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

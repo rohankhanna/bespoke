@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Upload Schema"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentclientprotocol/agent-client-protocol",
+      "status": "candidate-context",
+      "text": " A protocol for connecting any editor to any agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentclientprotocol/agent-client-protocol",
+      "status": "candidate-context",
+      "text": "Upload Schema"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentclientprotocol/agent-client-protocol",
+      "status": "candidate",
+      "text": "Upload Schema"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10542,
+      "status": "candidate",
+      "text": "scan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10494,
+      "status": "candidate",
+      "text": "outline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10468,
+      "status": "candidate",
+      "text": "clip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10468,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10468,
+      "status": "candidate",
+      "text": "photo"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Upload Schema",
+  "concept_id": "upload-schema",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/publish-schema.yml",
+      "source_repo": "agentclientprotocol/agent-client-protocol"
+    }
+  ],
+  "first_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Upload Schema",
+      "sense_id": "upload-schema#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

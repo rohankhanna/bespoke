@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-06T01:05:25.255656+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1044
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Play with open source, low-cost AI robots with ease \ud83e\udd16",
+    "fork": false,
+    "full_name": "timqian/bambot",
+    "html_url": "https://github.com/timqian/bambot",
+    "language": "TypeScript",
+    "pushed_at": "2025-07-14T09:49:10Z",
+    "stargazers_count": 939,
+    "topics": [],
+    "updated_at": "2026-05-04T03:02:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -671,6 +671,9 @@
   "accessibility-alt-text-bot": [
     "accessibility-alt-text-bot"
   ],
+  "accessibilityservice": [
+    "accessibilityservice"
+  ],
   "accessible": [
     "accessible"
   ],
@@ -1391,6 +1394,9 @@
   "adversarial-training": [
     "adversarial-training"
   ],
+  "advertising": [
+    "advertising"
+  ],
   "advice": [
     "advice"
   ],
@@ -1751,6 +1757,9 @@
   ],
   "agentic-search": [
     "agentic-search"
+  ],
+  "agentic-systems": [
+    "agentic-systems"
   ],
   "agentic-workflow": [
     "agentic-workflow"
@@ -3108,6 +3117,9 @@
   "android-ui": [
     "android-ui"
   ],
+  "androidstudio": [
+    "androidstudio"
+  ],
   "androidx": [
     "androidx"
   ],
@@ -3853,6 +3865,9 @@
   ],
   "app vue3 - e2e tests": [
     "app-vue3---e2e-tests"
+  ],
+  "app-android": [
+    "app-android"
   ],
   "app-bar": [
     "app-bar"
@@ -6119,6 +6134,9 @@
   ],
   "autoblack": [
     "autoblack"
+  ],
+  "autoclick": [
+    "autoclick"
   ],
   "autoclose": [
     "autoclose"
@@ -9673,6 +9691,9 @@
   "bottom-sheet": [
     "bottom-sheet"
   ],
+  "bottom-up-attention": [
+    "bottom-up-attention"
+  ],
   "bottomsheet": [
     "bottomsheet"
   ],
@@ -12375,6 +12396,9 @@
   ],
   "build manual": [
     "build-manual"
+  ],
+  "build manylinux": [
+    "build-manylinux"
   ],
   "build manylinux opencv image": [
     "build-manylinux-opencv-image"
@@ -20728,6 +20752,9 @@
   ],
   "cmake-win64": [
     "cmake-win64"
+  ],
+  "cmake-wrapper": [
+    "cmake-wrapper"
   ],
   "cmake4vim": [
     "cmake4vim"
@@ -29684,6 +29711,9 @@
   "dims": [
     "dims"
   ],
+  "dingding": [
+    "dingding"
+  ],
   "dingtalk": [
     "dingtalk"
   ],
@@ -34287,6 +34317,9 @@
   ],
   "euclidean-geometry": [
     "euclidean-geometry"
+  ],
+  "euler-angles": [
+    "euler-angles"
   ],
   "euroc": [
     "euroc"
@@ -43731,6 +43764,12 @@
   "humble": [
     "humble"
   ],
+  "hungarian": [
+    "hungarian"
+  ],
+  "hunlp": [
+    "hunlp"
+  ],
   "hunspell": [
     "hunspell"
   ],
@@ -43742,6 +43781,9 @@
   ],
   "husky": [
     "husky"
+  ],
+  "huspacy": [
+    "huspacy"
   ],
   "hwcpipe": [
     "hwcpipe"
@@ -44933,6 +44975,9 @@
   ],
   "importance-sampling": [
     "importance-sampling"
+  ],
+  "imposm": [
+    "imposm"
   ],
   "improved-wasserstein": [
     "improved-wasserstein"
@@ -51725,6 +51770,9 @@
   "llms-benchmarking": [
     "llms-benchmarking"
   ],
+  "llms-reasoning": [
+    "llms-reasoning"
+  ],
   "llnl": [
     "llnl"
   ],
@@ -53603,6 +53651,9 @@
   ],
   "mapbox-gl": [
     "mapbox-gl"
+  ],
+  "mapbox-vector-tile": [
+    "mapbox-vector-tile"
   ],
   "mapillary": [
     "mapillary"
@@ -56506,6 +56557,9 @@
   "morphological": [
     "morphological"
   ],
+  "morphological-analysis": [
+    "morphological-analysis"
+  ],
   "mosaic gpu b200 presubmit": [
     "mosaic-gpu-b200-presubmit"
   ],
@@ -57198,6 +57252,9 @@
   ],
   "multihead-attention": [
     "multihead-attention"
+  ],
+  "multilabel-classification": [
+    "multilabel-classification"
   ],
   "multilingual": [
     "multilingual"
@@ -58598,6 +58655,9 @@
   ],
   "nexus-repository-manager": [
     "nexus-repository-manager"
+  ],
+  "nezha": [
+    "nezha"
   ],
   "nfnets": [
     "nfnets"
@@ -60851,6 +60911,9 @@
   ],
   "on release": [
     "on-release"
+  ],
+  "on release publish": [
+    "on-release-publish"
   ],
   "on windows": [
     "on-windows"
@@ -65024,6 +65087,9 @@
   ],
   "portscan": [
     "portscan"
+  ],
+  "pos-tagger": [
+    "pos-tagger"
   ],
   "pos-tagging": [
     "pos-tagging"
@@ -69795,6 +69861,9 @@
   "qiandao": [
     "qiandao"
   ],
+  "qiang-hong-bao": [
+    "qiang-hong-bao"
+  ],
   "qlog": [
     "qlog"
   ],
@@ -71307,6 +71376,9 @@
   "reddit-api": [
     "reddit-api"
   ],
+  "redenvelope": [
+    "redenvelope"
+  ],
   "redgate": [
     "redgate"
   ],
@@ -71750,6 +71822,9 @@
   ],
   "rekordbox": [
     "rekordbox"
+  ],
+  "relation-classification": [
+    "relation-classification"
   ],
   "relation-tuples": [
     "relation-tuples"
@@ -74706,6 +74781,9 @@
   "roll pytorch": [
     "roll-pytorch"
   ],
+  "roll-pitch-yaw-angles": [
+    "roll-pitch-yaw-angles"
+  ],
   "rollback": [
     "rollback"
   ],
@@ -74843,6 +74921,9 @@
   ],
   "rotation": [
     "rotation"
+  ],
+  "rotation-matrix": [
+    "rotation-matrix"
   ],
   "rotations": [
     "rotations"
@@ -80147,6 +80228,9 @@
   "spacy-models": [
     "spacy-models"
   ],
+  "spacy-pipeline": [
+    "spacy-pipeline"
+  ],
   "spam & self-promotion check": [
     "spam-self-promotion-check"
   ],
@@ -83258,6 +83342,9 @@
   "sync playwright versions": [
     "sync-playwright-versions"
   ],
+  "sync registry docs": [
+    "sync-registry-docs"
+  ],
   "sync registry to supabase": [
     "sync-registry-to-supabase"
   ],
@@ -84676,6 +84763,9 @@
   ],
   "test and clippy common crates": [
     "test-and-clippy-common-crates"
+  ],
+  "test and deploy": [
+    "test-and-deploy"
   ],
   "test and deploy framework": [
     "test-and-deploy-framework"
@@ -87333,6 +87423,9 @@
   ],
   "tool": [
     "tool"
+  ],
+  "tool-augmented": [
+    "tool-augmented"
   ],
   "tool-calling": [
     "tool-calling"
@@ -91003,6 +91096,9 @@
   ],
   "upload repl artefacts": [
     "upload-repl-artefacts"
+  ],
+  "upload schema": [
+    "upload-schema"
   ],
   "upload self-contained binaries": [
     "upload-self-contained-binaries"
@@ -94762,6 +94858,9 @@
   ],
   "wego": [
     "wego"
+  ],
+  "wei-xin": [
+    "wei-xin"
   ],
   "weighted-search": [
     "weighted-search"

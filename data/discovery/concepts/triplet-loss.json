@@ -31,6 +31,18 @@
       "source_repo": "soubhiksanyal/now_evaluation",
       "status": "candidate-context",
       "text": "The original README continues below:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lonePatient/TorchBlocks",
+      "status": "candidate-context",
+      "text": "A PyTorch-based toolkit for natural language processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lonePatient/TorchBlocks",
+      "status": "candidate-context",
+      "text": "(Work in Progress!!)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "soubhiksanyal/now_evaluation",
       "status": "candidate",
       "text": "The original README continues below:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lonePatient/TorchBlocks",
+      "status": "candidate",
+      "text": "(Work in Progress!!)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "soubhiksanyal/now_evaluation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "lonePatient/TorchBlocks"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

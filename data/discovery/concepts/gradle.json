@@ -289,6 +289,18 @@
       "source_repo": "melix/jmh-gradle-plugin",
       "status": "candidate-context",
       "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xbdcc/GrabRedEnvelope",
+      "status": "candidate-context",
+      "text": " \u5fae\u4fe1\u62a2\u7ea2\u5305Android APP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xbdcc/GrabRedEnvelope",
+      "status": "candidate-context",
+      "text": "[![Gitter](https://badges.gitter.im/xbdcc/GrabRedEnvelope.svg)](https://gitter.im/xbdcc/GrabRedEnvelope?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)"
     }
   ],
   "candidate_glosses": [
@@ -435,6 +447,12 @@
       "source_repo": "melix/jmh-gradle-plugin",
       "status": "candidate",
       "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xbdcc/GrabRedEnvelope",
+      "status": "candidate",
+      "text": "[![Gitter](https://badges.gitter.im/xbdcc/GrabRedEnvelope.svg)](https://gitter.im/xbdcc/GrabRedEnvelope?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)"
     }
   ],
   "candidate_related_terms": [
@@ -688,11 +706,23 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "smithy-lang/smithy-gradle-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "xbdcc/GrabRedEnvelope"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "smithy-lang/smithy-gradle-plugin"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

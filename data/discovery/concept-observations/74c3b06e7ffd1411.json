@@ -48,7 +48,7 @@
   "normalized_form": "rwkv",
   "observation_id": "74c3b06e7ffd1411",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-06T00:36:03.937537+00:00",
   "observed_text": "rwkv",
   "source_context_snippet": "This is a port of [BlinkDL/RWKV-LM](https://github.com/BlinkDL/RWKV-LM) to [ggerganov/ggml](https://github.com/ggerganov/ggml).",
   "source_file": null,

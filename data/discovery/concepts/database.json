@@ -1531,6 +1531,18 @@
       "source_repo": "influxdata/influxdb",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "omniscale/imposm3",
+      "status": "candidate-context",
+      "text": "Imposm imports OpenStreetMap data into PostGIS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "omniscale/imposm3",
+      "status": "candidate-context",
+      "text": "Imposm"
     }
   ],
   "candidate_glosses": [
@@ -2295,6 +2307,12 @@
       "source_repo": "influxdata/influxdb",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "omniscale/imposm3",
+      "status": "candidate",
+      "text": "Imposm"
     }
   ],
   "candidate_related_terms": [
@@ -3718,11 +3736,29 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "influxdata/influxdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-ecto-encryption-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "omniscale/imposm3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

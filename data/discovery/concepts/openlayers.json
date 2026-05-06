@@ -19,6 +19,18 @@
       "source_repo": "pa7/heatmap.js",
       "status": "candidate-context",
       "text": "Dynamic Heatmaps for the Web."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-spatial/tegola",
+      "status": "candidate-context",
+      "text": "Tegola is a Mapbox Vector Tile server written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-spatial/tegola",
+      "status": "candidate-context",
+      "text": "![On push](https://github.com/go-spatial/tegola/workflows/On%20push/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "pa7/heatmap.js",
       "status": "candidate",
       "text": "Dynamic Heatmaps for the Web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-spatial/tegola",
+      "status": "candidate",
+      "text": "![On push](https://github.com/go-spatial/tegola/workflows/On%20push/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "pa7/heatmap.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "go-spatial/tegola"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

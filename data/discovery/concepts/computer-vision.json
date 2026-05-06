@@ -3169,6 +3169,18 @@
       "source_repo": "google-research/maxvit",
       "status": "candidate-context",
       "text": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lil-lab/nlvr",
+      "status": "candidate-context",
+      "text": "Cornell NLVR and NLVR2 are natural language grounding datasets. Each example shows a visual input and a sentence describing it, and is annotated with the truth-value of the sentence."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lil-lab/nlvr",
+      "status": "candidate-context",
+      "text": "This repository contains data for [NLVR](https://github.com/clic-lab/nlvr/tree/master/nlvr) (Suhr et al. 2017) and [NLVR2](https://github.com/clic-lab/nlvr/tree/master/nlvr2) (Suhr and Zhou et al. 2018)."
     }
   ],
   "candidate_glosses": [
@@ -4755,6 +4767,12 @@
       "source_repo": "google-research/maxvit",
       "status": "candidate",
       "text": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lil-lab/nlvr",
+      "status": "candidate",
+      "text": "This repository contains data for [NLVR](https://github.com/clic-lab/nlvr/tree/master/nlvr) (Suhr et al. 2017) and [NLVR2](https://github.com/clic-lab/nlvr/tree/master/nlvr2) (Suhr and Zhou et al. 2018)."
     }
   ],
   "candidate_related_terms": [],
@@ -7852,11 +7870,59 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "KlingAIResearch/ReCamMaster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "lil-lab/nlvr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "astra-vision/LMSCNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "fla-org/flash-bidirectional-linear-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "lukashermann/hulc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/clustering-plugin"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

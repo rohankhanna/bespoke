@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": " \u5fae\u4fe1\u62a2\u7ea2\u5305Android APP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Gitter](https://badges.gitter.im/xbdcc/GrabRedEnvelope.svg)](https://gitter.im/xbdcc/GrabRedEnvelope?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Gitter](https://badges.gitter.im/xbdcc/GrabRedEnvelope.svg)](https://gitter.im/xbdcc/GrabRedEnvelope?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "accessibilityservice",
+      "sense_id": "accessibilityservice#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "accessibilityservice",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "accessibilityservice",
+  "observation_id": "5def10a30a5ff287",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-06T00:36:03.937537+00:00",
+  "observed_text": "accessibilityservice",
+  "source_context_snippet": "[![Gitter](https://badges.gitter.im/xbdcc/GrabRedEnvelope.svg)](https://gitter.im/xbdcc/GrabRedEnvelope?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)",
+  "source_file": null,
+  "source_repo": "xbdcc/GrabRedEnvelope",
+  "source_repo_description": " \u5fae\u4fe1\u62a2\u7ea2\u5305Android APP"
+}

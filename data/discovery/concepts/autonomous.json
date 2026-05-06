@@ -43,6 +43,18 @@
       "source_repo": "flow-project/flow",
       "status": "candidate-context",
       "text": "<img src=\"docs/img/square_logo.png\" align=\"right\" width=\"25%\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dora-rs/dora-drives",
+      "status": "candidate-context",
+      "text": "A step-by-step tutorial that allows beginners to write their own autonomous vehicle program from scratch using a simple starter kit. Dora-drives makes learning autonomous vehicle systems faster and easier."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dora-rs/dora-drives",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "flow-project/flow",
       "status": "candidate",
       "text": "<img src=\"docs/img/square_logo.png\" align=\"right\" width=\"25%\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dora-rs/dora-drives",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "flow-project/flow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "dora-rs/dora-drives"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

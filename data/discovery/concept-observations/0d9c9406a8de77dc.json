@@ -48,7 +48,7 @@
   "normalized_form": "large-language-models",
   "observation_id": "0d9c9406a8de77dc",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-06T00:36:03.937537+00:00",
   "observed_text": "large-language-models",
   "source_context_snippet": "<h1 align=\"center\"> \ud83d\udea8 AutoGPTQ is unmaintained - we suggest using <a href=\"https://github.com/ModelCloud/GPTQModel\">GPTQModel</a> for bug fixes and new models support \ud83d\udea8",
   "source_file": null,

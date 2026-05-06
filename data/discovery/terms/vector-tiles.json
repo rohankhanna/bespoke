@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -16,6 +16,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "mapbox/tippecanoe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-spatial/tegola"
     }
   ],
   "term": "vector-tiles"

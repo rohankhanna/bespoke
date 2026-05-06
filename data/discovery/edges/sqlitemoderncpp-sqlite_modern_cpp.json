@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SqliteModernCpp/sqlite_modern_cpp",
+      "target": "aminroosta/sqlite_modern_cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SqliteModernCpp/sqlite_modern_cpp",
+      "target": "cpp14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SqliteModernCpp/sqlite_modern_cpp",
+      "target": "sqlite-orm",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-06T00:36:03.937537+00:00",
+  "source_repo": "SqliteModernCpp/sqlite_modern_cpp"
+}

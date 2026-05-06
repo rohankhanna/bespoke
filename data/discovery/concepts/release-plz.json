@@ -410,6 +410,18 @@
       "source_repo": "near/near-abi-client-rs",
       "status": "candidate-context",
       "text": "Release-plz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentclientprotocol/agent-client-protocol",
+      "status": "candidate-context",
+      "text": " A protocol for connecting any editor to any agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentclientprotocol/agent-client-protocol",
+      "status": "candidate-context",
+      "text": "Release-plz"
     }
   ],
   "candidate_glosses": [
@@ -614,6 +626,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "near/near-abi-client-rs",
+      "status": "candidate",
+      "text": "Release-plz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentclientprotocol/agent-client-protocol",
       "status": "candidate",
       "text": "Release-plz"
     }
@@ -940,11 +958,17 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": ".github/workflows/release-plz.yml",
       "source_repo": "near/near-abi-client-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "agentclientprotocol/agent-client-protocol"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

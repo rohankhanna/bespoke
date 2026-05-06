@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AgentFlow: In-the-Flow Agentic System Optimization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a name=\"readme-top\"></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a name=\"readme-top\"></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multi-agent-systems",
+      "sense_id": "multi-agent-systems#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "multi-agent-systems",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "multi-agent-systems",
+  "observation_id": "505146f2d450d6c9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-06T00:36:03.937537+00:00",
+  "observed_text": "multi-agent-systems",
+  "source_context_snippet": "<a name=\"readme-top\"></a>",
+  "source_file": null,
+  "source_repo": "lupantech/AgentFlow",
+  "source_repo_description": "AgentFlow: In-the-Flow Agentic System Optimization"
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
   "first_seen_at": "2026-04-18T04:44:33.621188+00:00",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -367,6 +367,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/gemini-pr-review.yml",
       "source_repo": "davidmigloz/langchain_dart"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "agentclientprotocol/agent-client-protocol"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync-registry.yml",
+      "source_repo": "agentclientprotocol/agent-client-protocol"
     }
   ]
 }

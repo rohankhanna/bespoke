@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An efficient PyTorch implementation of the winning entry of the 2017 VQA Challenge."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "An efficient PyTorch implementation of the winning entry of the [2017 VQA Challenge](http://www.visualqa.org/challenge.html)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "An efficient PyTorch implementation of the winning entry of the [2017 VQA Challenge](http://www.visualqa.org/challenge.html)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "pytorch lightning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "tensorflow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "apache mxnet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "keras"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "gensim"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pytorch",
+      "sense_id": "pytorch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pytorch",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pytorch",
+  "observation_id": "2d943ba2738bc2c9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-06T00:36:03.937537+00:00",
+  "observed_text": "pytorch",
+  "source_context_snippet": "An efficient PyTorch implementation of the winning entry of the [2017 VQA Challenge](http://www.visualqa.org/challenge.html).",
+  "source_file": null,
+  "source_repo": "hengyuan-hu/bottom-up-attention-vqa",
+  "source_repo_description": "An efficient PyTorch implementation of the winning entry of the 2017 VQA Challenge."
+}

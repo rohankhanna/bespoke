@@ -1,0 +1,111 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Android-CI.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Android-CI.yml"
+    },
+    {
+      "component": "malinskiy/action-android/install-sdk@release/0.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Android-CI.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml"
+    },
+    {
+      "component": "gradle/wrapper-validation-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Android-CI.yml",
+      "source_repo": "MKergall/osmbonuspack",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Android-CI.yml",
+      "source_repo": "MKergall/osmbonuspack",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Android-CI.yml",
+      "source_repo": "MKergall/osmbonuspack",
+      "target": "malinskiy/action-android/install-sdk@release/0.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "MKergall/osmbonuspack",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "MKergall/osmbonuspack",
+      "target": "gradle/wrapper-validation-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "MKergall/osmbonuspack",
+      "target": "Validate Gradle Wrapper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T00:57:02.477866+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4802
+    },
+    {
+      "path": ".github/workflows/Android-CI.yml",
+      "size": 658
+    },
+    {
+      "path": ".github/workflows/gradle-wrapper-validation.yml",
+      "size": 285
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A third-party library of (very) useful additional objects for osmdroid",
+    "fork": false,
+    "full_name": "MKergall/osmbonuspack",
+    "html_url": "https://github.com/MKergall/osmbonuspack",
+    "language": "Java",
+    "pushed_at": "2022-10-16T16:20:27Z",
+    "stargazers_count": 626,
+    "topics": [],
+    "updated_at": "2026-04-28T01:27:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Validate Gradle Wrapper\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "term": "Validate Gradle Wrapper"
+    }
+  ]
+}

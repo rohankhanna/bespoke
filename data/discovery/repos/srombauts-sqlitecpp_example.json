@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "SRombauts/SQLiteCpp_Example",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "SRombauts/SQLiteCpp_Example",
+      "target": "build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T01:05:57.463104+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2260
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 342
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++ Example project using SQLiteCpp as a Git submodule / CMake subdirectory",
+    "fork": false,
+    "full_name": "SRombauts/SQLiteCpp_Example",
+    "html_url": "https://github.com/SRombauts/SQLiteCpp_Example",
+    "language": "C++",
+    "pushed_at": "2022-09-30T07:12:17Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2026-03-13T03:26:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "build"
+    }
+  ]
+}

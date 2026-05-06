@@ -188,6 +188,18 @@
       "source_repo": "gakonst/foundry",
       "status": "candidate-context",
       "text": "nix"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eayus/sirdi",
+      "status": "candidate-context",
+      "text": "Package manager for Idris"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eayus/sirdi",
+      "status": "candidate-context",
+      "text": "\"nix\""
     }
   ],
   "candidate_glosses": [
@@ -280,6 +292,12 @@
       "source_repo": "gakonst/foundry",
       "status": "candidate",
       "text": "nix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eayus/sirdi",
+      "status": "candidate",
+      "text": "\"nix\""
     }
   ],
   "candidate_related_terms": [
@@ -557,11 +575,17 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": ".github/workflows/nix.yml",
       "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/ci-nix.yml",
+      "source_repo": "eayus/sirdi"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

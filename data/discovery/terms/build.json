@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -5116,6 +5116,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "tier4/ndt_omp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "omniscale/imposm3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "rai-opensource/spatialmath-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "SRombauts/SQLiteCpp_Example"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "huspacy/huspacy"
     }
   ],
   "term": "Build"

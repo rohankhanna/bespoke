@@ -19,14 +19,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tpoisonooo/ROGRAG",
-      "target": "internlm/huixiangdou",
+      "target": "tpoisonooo/huixiangdou2",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tpoisonooo/ROGRAG",
-      "target": "moonshotai/kimi-cli",
+      "target": "openspg/kag",
       "target_type": "repository"
     },
     {
@@ -65,7 +65,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T13:57:46.654648+00:00",
+  "fetched_at": "2026-05-06T00:41:59.468281+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -100,22 +100,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "internlm/huixiangdou",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "moonshotai/kimi-cli",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "open-sciencelab/graphgen",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
       "full_name": "open-sciencelab/seedbench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openspg/kag",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tpoisonooo/huixiangdou2",
       "source_file": "README.md"
     }
   ],

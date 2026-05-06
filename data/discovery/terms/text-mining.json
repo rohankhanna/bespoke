@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -16,6 +16,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "jphall663/GWU_data_mining"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "deanmalmgren/textract"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "huspacy/huspacy"
     }
   ],
   "term": "text-mining"

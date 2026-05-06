@@ -43,6 +43,18 @@
       "source_repo": "rgeo/activerecord-postgis-adapter",
       "status": "candidate-context",
       "text": "[![Gem Version](https://badge.fury.io/rb/activerecord-postgis-adapter.svg)](https://badge.fury.io/rb/activerecord-postgis-adapter)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-spatial/tegola",
+      "status": "candidate-context",
+      "text": "Tegola is a Mapbox Vector Tile server written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-spatial/tegola",
+      "status": "candidate-context",
+      "text": "![On push](https://github.com/go-spatial/tegola/workflows/On%20push/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "rgeo/activerecord-postgis-adapter",
       "status": "candidate",
       "text": "[![Gem Version](https://badge.fury.io/rb/activerecord-postgis-adapter.svg)](https://badge.fury.io/rb/activerecord-postgis-adapter)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-spatial/tegola",
+      "status": "candidate",
+      "text": "![On push](https://github.com/go-spatial/tegola/workflows/On%20push/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -117,11 +135,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "rgeo/activerecord-postgis-adapter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "go-spatial/tegola"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

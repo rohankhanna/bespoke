@@ -48,7 +48,7 @@
   "normalized_form": "ipld-format",
   "observation_id": "1314eea53abc998d",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-06T00:36:03.937537+00:00",
   "observed_text": "ipld-format",
   "source_context_snippet": "\u26d4\ufe0f DEPRECATED: This module is no longer maintained. It can be used with [multiformats](https://github.com/multiformats/js-multiformats) by wrapping it with [ipld-format-to-blockcodec](https://github.com/ipld/js-ipld-format-to-blockcodec) <!-- omit in toc -->",
   "source_file": null,

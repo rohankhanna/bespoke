@@ -412,6 +412,36 @@
       "source_repo": "idris-community/idris2-lsp",
       "status": "candidate-context",
       "text": "Ubuntu"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "idris-community/inigo",
+      "status": "candidate-context",
+      "text": "Inigo: A Package Manager for Idris2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "idris-community/inigo",
+      "status": "candidate-context",
+      "text": "Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "idris-community/katla",
+      "status": "candidate-context",
+      "text": "Ubuntu"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ohad/collie",
+      "status": "candidate-context",
+      "text": "Command line interface library in Idris"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohad/collie",
+      "status": "candidate-context",
+      "text": "Ubuntu"
     }
   ],
   "candidate_glosses": [
@@ -628,6 +658,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "idris-community/idris2-lsp",
+      "status": "candidate",
+      "text": "Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "idris-community/inigo",
+      "status": "candidate",
+      "text": "Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "idris-community/katla",
+      "status": "candidate",
+      "text": "Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohad/collie",
       "status": "candidate",
       "text": "Ubuntu"
     }
@@ -979,11 +1027,29 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": ".github/workflows/ubuntu.yml",
       "source_repo": "isl-org/open3d-cmake-external-project"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "idris-community/inigo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/ci-ubuntu.yml",
+      "source_repo": "idris-community/katla"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/ci-ubuntu.yml",
+      "source_repo": "ohad/collie"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -11725,6 +11725,54 @@
       "source_repo": "tier4/ndt_omp",
       "status": "candidate-context",
       "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "omniscale/imposm3",
+      "status": "candidate-context",
+      "text": "Imposm imports OpenStreetMap data into PostGIS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "omniscale/imposm3",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rai-opensource/spatialmath-python",
+      "status": "candidate-context",
+      "text": "Create,  manipulate and convert representations of position and orientation in 2D or 3D using Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rai-opensource/spatialmath-python",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SRombauts/SQLiteCpp_Example",
+      "status": "candidate-context",
+      "text": "C++ Example project using SQLiteCpp as a Git submodule / CMake subdirectory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SRombauts/SQLiteCpp_Example",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huspacy/huspacy",
+      "status": "candidate-context",
+      "text": "HuSpaCy: industrial-strength Hungarian natural language processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huspacy/huspacy",
+      "status": "candidate-context",
+      "text": "Build"
     }
   ],
   "candidate_glosses": [
@@ -17707,6 +17755,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "tier4/ndt_omp",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "omniscale/imposm3",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rai-opensource/spatialmath-python",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SRombauts/SQLiteCpp_Example",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huspacy/huspacy",
       "status": "candidate",
       "text": "Build"
     }
@@ -28653,11 +28725,125 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "tier4/ndt_omp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/build-pypi.yaml",
+      "source_repo": "PoseLib/PoseLib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/go-cross-build.yml",
+      "source_repo": "DaoCloud/crproxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "Farama-Foundation/Minigrid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ipld/explore.ipld.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Venly/web3-react-venly"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mongodb/winkerberos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ideditor/id-area-keys"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "omniscale/imposm3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kurrent-io/es-gencert-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kurrent-io/EventStoreDB-Client-Dotnet-Legacy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "falcoframework/Falco.Markup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google-deepmind/mujoco"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "rai-opensource/spatialmath-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "SRombauts/SQLiteCpp_Example"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "huspacy/huspacy"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

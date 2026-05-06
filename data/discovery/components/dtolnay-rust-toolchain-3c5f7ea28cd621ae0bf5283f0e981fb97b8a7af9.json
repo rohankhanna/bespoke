@@ -1,7 +1,7 @@
 {
   "component": "dtolnay/rust-toolchain@3c5f7ea28cd621ae0bf5283f0e981fb97b8a7af9",
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -117,6 +117,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/git-xet-release.yml",
       "source_repo": "huggingface/xet-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "agentclientprotocol/agent-client-protocol"
     }
   ]
 }

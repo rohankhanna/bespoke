@@ -408,7 +408,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T17:01:29.567883+00:00",
+  "fetched_at": "2026-05-06T00:49:50.252016+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -461,7 +461,7 @@
     "html_url": "https://github.com/apache/datafusion-ballista-python",
     "language": "Shell",
     "pushed_at": "2024-02-10T15:40:40Z",
-    "stargazers_count": 43,
+    "stargazers_count": 42,
     "topics": [
       "arrow",
       "big-data",
@@ -473,7 +473,7 @@
       "rust",
       "sql"
     ],
-    "updated_at": "2026-04-07T14:05:22Z"
+    "updated_at": "2026-05-05T21:53:48Z"
   },
   "repo_links": [
     {

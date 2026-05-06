@@ -229,6 +229,18 @@
       "source_repo": "streetcomplete/StreetComplete",
       "status": "candidate-context",
       "text": "\"Validate Gradle Wrapper\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MKergall/osmbonuspack",
+      "status": "candidate-context",
+      "text": "A third-party library of (very) useful additional objects for osmdroid"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MKergall/osmbonuspack",
+      "status": "candidate-context",
+      "text": "\"Validate Gradle Wrapper\""
     }
   ],
   "candidate_glosses": [
@@ -343,6 +355,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "streetcomplete/StreetComplete",
+      "status": "candidate",
+      "text": "\"Validate Gradle Wrapper\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MKergall/osmbonuspack",
       "status": "candidate",
       "text": "\"Validate Gradle Wrapper\""
     }
@@ -610,11 +628,17 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": ".github/workflows/gradle-wrapper-validation.yml",
       "source_repo": "grpc/grpc-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "MKergall/osmbonuspack"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

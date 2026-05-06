@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "nezha"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lonePatient/NeZha_Chinese_PyTorch",
+      "status": "candidate-context",
+      "text": "NEZHA: Neural Contextualized Representation for Chinese Language Understanding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lonePatient/NeZha_Chinese_PyTorch",
+      "status": "candidate-context",
+      "text": "pytorch\u7248NEZHA\uff0c\u9002\u914dtransformers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lonePatient/NeZha_Chinese_PyTorch",
+      "status": "candidate",
+      "text": "pytorch\u7248NEZHA\uff0c\u9002\u914dtransformers"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "taiyi zhenren"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "shiji niangniang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "bai suzhen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "chiyou"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "caishen"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "nezha",
+  "concept_id": "nezha",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "lonePatient/NeZha_Chinese_PyTorch"
+    }
+  ],
+  "first_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nezha",
+      "sense_id": "nezha#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

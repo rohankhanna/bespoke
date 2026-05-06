@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-06T00:43:03.367588+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 589
+    },
+    {
+      "path": "requirements.txt",
+      "size": 159
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "cogito233/mini_webarena",
+    "html_url": "https://github.com/cogito233/mini_webarena",
+    "language": "Python",
+    "pushed_at": "2025-09-12T04:47:26Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-09-12T04:47:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

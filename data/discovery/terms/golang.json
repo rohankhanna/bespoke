@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -2116,6 +2116,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "VictoriaMetrics/fastcache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-spatial/tegola"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "tmc/langchaingo"
     }
   ],
   "term": "golang"

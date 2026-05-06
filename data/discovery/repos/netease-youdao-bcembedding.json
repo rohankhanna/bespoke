@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "netease-youdao/BCEmbedding",
+      "target": "netease-youdao/qanything",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "netease-youdao/BCEmbedding",
+      "target": "shibing624/chatpdf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "netease-youdao/BCEmbedding",
+      "target": "foldl/chatllm.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "netease-youdao/BCEmbedding",
+      "target": "mindspore-lab/mindnlp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-06T00:41:56.697917+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31972
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Netease Youdao's open-source embedding and reranker models for RAG products.",
+    "fork": false,
+    "full_name": "netease-youdao/BCEmbedding",
+    "html_url": "https://github.com/netease-youdao/BCEmbedding",
+    "language": "Python",
+    "pushed_at": "2025-09-09T02:59:44Z",
+    "stargazers_count": 1878,
+    "topics": [],
+    "updated_at": "2026-04-29T09:52:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "foldl/chatllm.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mindspore-lab/mindnlp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "netease-youdao/qanything",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shibing624/chatpdf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -151,6 +151,18 @@
       "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
       "status": "candidate-context",
       "text": "\u4e2d\u82f1\u6587NLP\u6570\u636e\u96c6\u3002\u53ef\u4ee5\u70b9\u51fb[\u641c\u7d22](https://www.cluebenchmarks.com/dataSet_search.html)\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lonePatient/TorchBlocks",
+      "status": "candidate-context",
+      "text": "A PyTorch-based toolkit for natural language processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lonePatient/TorchBlocks",
+      "status": "candidate-context",
+      "text": "(Work in Progress!!)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
       "status": "candidate",
       "text": "\u4e2d\u82f1\u6587NLP\u6570\u636e\u96c6\u3002\u53ef\u4ee5\u70b9\u51fb[\u641c\u7d22](https://www.cluebenchmarks.com/dataSet_search.html)\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lonePatient/TorchBlocks",
+      "status": "candidate",
+      "text": "(Work in Progress!!)"
     }
   ],
   "candidate_related_terms": [],
@@ -322,11 +340,23 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "nasa-petal/PeTaL-labeller"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "nasa-petal/PeTaL-labeller"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "lonePatient/TorchBlocks"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

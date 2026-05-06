@@ -268,14 +268,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "tiger-ai-lab/verl-tool",
+      "target": "ragen-ai/vagen",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "ragen-ai/vagen",
+      "target": "uscnlp-lime/verl",
       "target_type": "repository"
     },
     {
@@ -531,7 +531,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-05T16:57:59.563452+00:00",
+  "fetched_at": "2026-05-06T00:42:56.865253+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -583,10 +583,10 @@
     "full_name": "verl-project/verl",
     "html_url": "https://github.com/verl-project/verl",
     "language": "Python",
-    "pushed_at": "2026-04-30T21:49:59Z",
-    "stargazers_count": 21088,
+    "pushed_at": "2026-05-05T17:16:27Z",
+    "stargazers_count": 21092,
     "topics": [],
-    "updated_at": "2026-05-05T15:52:44Z"
+    "updated_at": "2026-05-05T23:18:34Z"
   },
   "repo_links": [
     {
@@ -606,7 +606,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "tiger-ai-lab/verl-tool",
+      "full_name": "uscnlp-lime/verl",
       "source_file": "README.md"
     }
   ],

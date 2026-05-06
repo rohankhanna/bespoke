@@ -85,6 +85,18 @@
       "source_repo": "InternLM/HuixiangDou",
       "status": "candidate-context",
       "text": "[HuixiangDou2](https://github.com/tpoisonooo/HuixiangDou2)(ACL25) is a GraphRAG solution whose effectiveness has been demonstrated in the plant-science domain and that contributed to the [**cover paper in Cell**](https://www.cell.com/molecular-plant/issue?pii=S1674-2052(24)X0008\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xbdcc/GrabRedEnvelope",
+      "status": "candidate-context",
+      "text": " \u5fae\u4fe1\u62a2\u7ea2\u5305Android APP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xbdcc/GrabRedEnvelope",
+      "status": "candidate-context",
+      "text": "[![Gitter](https://badges.gitter.im/xbdcc/GrabRedEnvelope.svg)](https://gitter.im/xbdcc/GrabRedEnvelope?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)"
     }
   ],
   "candidate_glosses": [
@@ -123,6 +135,12 @@
       "source_repo": "InternLM/HuixiangDou",
       "status": "candidate",
       "text": "[HuixiangDou2](https://github.com/tpoisonooo/HuixiangDou2)(ACL25) is a GraphRAG solution whose effectiveness has been demonstrated in the plant-science domain and that contributed to the [**cover paper in Cell**](https://www.cell.com/molecular-plant/issue?pii=S1674-2052(24)X0008\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xbdcc/GrabRedEnvelope",
+      "status": "candidate",
+      "text": "[![Gitter](https://badges.gitter.im/xbdcc/GrabRedEnvelope.svg)](https://gitter.im/xbdcc/GrabRedEnvelope?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)"
     }
   ],
   "candidate_related_terms": [
@@ -328,11 +346,17 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "xbdcc/GrabRedEnvelope"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

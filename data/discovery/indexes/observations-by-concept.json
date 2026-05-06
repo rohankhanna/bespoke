@@ -983,6 +983,9 @@
   "accessibility-bot": [
     "09caeaeda61d8050"
   ],
+  "accessibilityservice": [
+    "5def10a30a5ff287"
+  ],
   "accessible": [
     "922a03ff23ad3a4c"
   ],
@@ -1988,6 +1991,9 @@
   "adversarial-training": [
     "caa490e0544efa51"
   ],
+  "advertising": [
+    "dd2dee5c8470b31b"
+  ],
   "advice": [
     "5ee644ecef1bcb47",
     "8e70681a2ce614da"
@@ -2389,6 +2395,7 @@
     "70a83d3f46f39e79",
     "71c05e1a92b2a3c6",
     "760f964c9c9c3615",
+    "7cdbc579ef576126",
     "8720af3d7ca3b269",
     "8bac825ae9676e21",
     "955a533ce73004ba",
@@ -2461,6 +2468,9 @@
   ],
   "agentic-search": [
     "96941f0285086f1a"
+  ],
+  "agentic-systems": [
+    "d6912dff3c17b70e"
   ],
   "agentic-triage": [
     "2c6c75474f95f1f5",
@@ -4070,6 +4080,7 @@
   "android": [
     "0379ae8d97261618",
     "041128612dd7234d",
+    "0503d1b40127e77f",
     "09abe136f37f143e",
     "0bf708b5b30a61b4",
     "0cce9884206c8044",
@@ -4398,6 +4409,9 @@
   "android-x64-build": [
     "8e4139b82b399244"
   ],
+  "androidstudio": [
+    "9cc6063e35fb3d8b"
+  ],
   "androidx": [
     "0ee4aec8dd7becdf"
   ],
@@ -4531,6 +4545,8 @@
   ],
   "animation": [
     "01fe1bd71c61003a",
+    "0bb8ab07a21961f7",
+    "11403a85f82eb6f8",
     "1394a39a75074cf8",
     "13d21ca5cdaaed06",
     "16b99e3d4b0a8f4a",
@@ -5454,6 +5470,9 @@
   ],
   "apostrophe": [
     "cf9f142d7d9aea96"
+  ],
+  "app-android": [
+    "c5ea677e1a825567"
   ],
   "app-bar": [
     "fcc32743d4b33583"
@@ -8924,6 +8943,9 @@
   "autoblack": [
     "36d45d76807dba73"
   ],
+  "autoclick": [
+    "825c4cd869fe55d5"
+  ],
   "autoclose": [
     "6ee6e22207c84288"
   ],
@@ -9577,6 +9599,7 @@
     "f415325535808081"
   ],
   "autonomous": [
+    "243c45a6296b6b35",
     "4b486f890765255c",
     "db07202776a087ba",
     "e0c49e64fb96ef0b"
@@ -12801,6 +12824,7 @@
     "d77104d0a285f5c6",
     "e4bc6538f04e7dff",
     "e65a25b7941c0174",
+    "e88a8799c3dbbc85",
     "e9708a88662499cf",
     "ed4c5a65ced38eba",
     "edc2ba7a13c3d8f0",
@@ -14771,6 +14795,9 @@
   "bottom-sheet": [
     "f7cc714fda12ecc8"
   ],
+  "bottom-up-attention": [
+    "cd099a5037f66a0c"
+  ],
   "bottomsheet": [
     "446c87e218ed60d4"
   ],
@@ -15492,6 +15519,7 @@
     "055795ae3071a1b1",
     "056b062aefc0b6f2",
     "058140af8722902a",
+    "05a22cf491f20405",
     "05a9d1d2ef953241",
     "05aaa2a21324c635",
     "05b8c0fa7fe66b43",
@@ -16085,6 +16113,7 @@
     "9880c2a0900d2edf",
     "98cf47770eb7f8f3",
     "992b927cca41ad21",
+    "99620d71bd870b16",
     "99b7ae5fd982f372",
     "99bc4be98e6382b0",
     "99fb47935781d957",
@@ -16341,6 +16370,7 @@
     "de298d58d5874661",
     "de3d75d3aa224f32",
     "decd3cb895e68f53",
+    "df99fe03550e94cb",
     "dfa2fca376b6f1c3",
     "e06861e9af8f5d86",
     "e06bae249dc57649",
@@ -16472,6 +16502,7 @@
     "fd2eaa3d3387ff11",
     "fd3666ad4d2490d6",
     "fd578bcf79fcb0e2",
+    "fd835730f988bde1",
     "fdd82f38466b247c",
     "fe4b1a520419c643",
     "fe50aa36e063291a",
@@ -18879,7 +18910,8 @@
     "73f959d9ac19a8db"
   ],
   "build-examples": [
-    "a2a42852c1a0f87d"
+    "a2a42852c1a0f87d",
+    "d713829e68d86ece"
   ],
   "build-examples-with-platformio": [
     "df7e948dcc16f920"
@@ -19554,6 +19586,9 @@
     "055e950bbc8e8b37",
     "47fc6c7db4841d7c",
     "c31540f22b1bc4ef"
+  ],
+  "build-manylinux": [
+    "a6b59548f76bdaa5"
   ],
   "build-manylinux-opencv-image": [
     "80605c4617ab6400"
@@ -26479,6 +26514,7 @@
     "039d0421035449f2",
     "056f7ae9e1f24b8e",
     "07413181aa7de9b3",
+    "075cad4a24bb2014",
     "0c12761b41661b42",
     "121cde268e76f641",
     "14128be0995bbfc6",
@@ -27822,6 +27858,7 @@
     "566e3b484bf44ec2",
     "59b800bb21792444",
     "6ead6cca834b6afe",
+    "84d055bead053b4c",
     "a8205902fd31456f",
     "b8a3485558456386",
     "d7d9804a0c8c65dd",
@@ -31833,6 +31870,7 @@
     "d237be5a057c4c52",
     "d3e55501403333a1",
     "da2a99b9bf4bdde6",
+    "de70d7582201b834",
     "e291040fed30a97a",
     "ebb48e51a69996ad",
     "ec255209f816ebf7",
@@ -31991,6 +32029,9 @@
     "8344f2b6b73ff9ae",
     "a02efff7f7807369",
     "ab40b6d9ca759dff"
+  ],
+  "cmake-wrapper": [
+    "202bde11311edbbc"
   ],
   "cmake4vim": [
     "91352cc4a13845e3",
@@ -36501,6 +36542,7 @@
     "1a31fc8de0a624b6",
     "1a9482613bbd3c46",
     "1bf987715bd9ff43",
+    "1c48f2c111f3aa8b",
     "1cb8ae97f60c0fd7",
     "1d2743ded13a9909",
     "2014ee5ebd552e98",
@@ -36751,7 +36793,8 @@
     "76a4f060988f8ba2"
   ],
   "conan": [
-    "44ac80372e32f5a0"
+    "44ac80372e32f5a0",
+    "46c5fedb8416fcad"
   ],
   "conan-center": [
     "274e6c62d3fa8eb2"
@@ -39054,6 +39097,7 @@
     "b4fac86fb51812c1"
   ],
   "corpus": [
+    "1727fd174561a011",
     "43d6cc327e0c6166",
     "571b43cac23c4b92",
     "5aebbb5b321c0afd",
@@ -39723,6 +39767,7 @@
     "5c77a8efcd7b7e4b",
     "9a87edaf078c6767",
     "af5695158330ea3e",
+    "d5d7ff1360830f27",
     "e43a11e72172072d",
     "e8d5520eeda7b2d1",
     "ed891fa8bcda9295",
@@ -43339,6 +43384,7 @@
     "122cc5f434b9dd7b",
     "2286b7a708356e2b",
     "4e0c94a199a7d5a9",
+    "57ccab072b9832bc",
     "692e1a7b9e7fc743",
     "96c57896572211e7",
     "e498439f2864e67b",
@@ -43716,6 +43762,7 @@
     "82977fd1399eaf98",
     "841a56b35bc5f6d3",
     "84ca6b8b1ee2022a",
+    "8586c52868fcf5b6",
     "87b73c5d671dbdef",
     "8807222b0c385050",
     "88f1405531d8c035",
@@ -44070,6 +44117,7 @@
     "6d7b94b35e6cbd4e"
   ],
   "datasets": [
+    "13c9c79d9c023684",
     "1ad8abc51b1c0e93",
     "1bc193ff58eb9e98",
     "231efaca1305d1d3",
@@ -46653,7 +46701,8 @@
   ],
   "dependency-parsing": [
     "2adcc11be06418b7",
-    "552b756435a9f533"
+    "552b756435a9f533",
+    "8ebd2880513cec56"
   ],
   "dependency-review": [
     "030fcf58c5593893",
@@ -47829,6 +47878,7 @@
     "a3b8ea6da8b86f4f",
     "add944665a507a00",
     "b266efa1aab71cd8",
+    "b7a45be41b99f6bd",
     "b9541dc96ab9f821",
     "c48aa3d66dbdeee1",
     "c6313a06d0a270f6",
@@ -49536,6 +49586,9 @@
     "0a10af37648edf7f",
     "468914dd7fdf2c68",
     "e3a84a6171f4997d"
+  ],
+  "dingding": [
+    "e172f37790e4971d"
   ],
   "dingtalk": [
     "14bad3e00f1ef89b",
@@ -51892,6 +51945,7 @@
     "ecdf57fb6517b485",
     "ed5075113ba3dcae",
     "ee2daa82b58c8009",
+    "eea00e526fd6ae51",
     "f1d59e159d0a37da",
     "f4dc82340134342d",
     "f4df78b30c186c0f",
@@ -53351,7 +53405,8 @@
     "a5b9ff30f3d582a1"
   ],
   "driving": [
-    "b94f929d94b3936a"
+    "b94f929d94b3936a",
+    "dfeed809849d6158"
   ],
   "droid-deploy-truss": [
     "c6b186577499baf7"
@@ -57170,6 +57225,10 @@
   ],
   "euclidean-geometry": [
     "035a1992f9d1817d"
+  ],
+  "euler-angles": [
+    "cb892fbbe293fd58",
+    "d085a62fa383ea39"
   ],
   "euroc": [
     "2147ab5d15ef6cf4"
@@ -66954,6 +67013,7 @@
     "4904095e9c0622c6",
     "4a05658e16bc4366",
     "4a2a03e4961a0861",
+    "4ac84cd737da181a",
     "4ae2fd035686d691",
     "4badd279d28efb7e",
     "4c31cc2d867cbbd5",
@@ -67163,6 +67223,7 @@
     "cfa8c1864715d119",
     "cff29d50ecca38de",
     "d08ff15058258901",
+    "d09c2268f219edb0",
     "d1277de8db86d83a",
     "d24e1b2bc6bcb490",
     "d45df28a03d4edca",
@@ -67961,7 +68022,8 @@
     "efa5072e4b8174d2"
   ],
   "gpac": [
-    "627d225b270127b6"
+    "627d225b270127b6",
+    "8e52a4ca8749cb6d"
   ],
   "gpen": [
     "273f3085c2e820c8"
@@ -68498,6 +68560,7 @@
     "0e92efe80f6b7a5e",
     "0f587db19f0f1a30",
     "14882f6b9216325a",
+    "17275f9aa01a06b7",
     "37c0c63ef6d78904",
     "3e8aedc1ec3d5adf",
     "3eede2670d03d12b",
@@ -68974,6 +69037,7 @@
     "4e3845080326689a",
     "5162a60df97efec8",
     "588306329f2669f3",
+    "5b822c86e01d83ef",
     "5e1bf118af1cc5b1",
     "62a046df4db32c83",
     "67679647ba135d7e",
@@ -69014,6 +69078,7 @@
     "ebb3be3f96b6fa73",
     "edbc25b9c9dbbb7c",
     "f882d8490e696e86",
+    "fb1e48be1b8f9158",
     "fec5f43dec3979b3"
   ],
   "graphics-3d": [
@@ -73510,6 +73575,12 @@
   "humble": [
     "73b7ca0c8257907a"
   ],
+  "hungarian": [
+    "76a3bcfb1c6d8d3f"
+  ],
+  "hunlp": [
+    "c81479af5c51b2b5"
+  ],
   "hunspell": [
     "3eefdd2ee386420d"
   ],
@@ -73527,6 +73598,9 @@
   ],
   "husky": [
     "a6cf2a9e32eb77f4"
+  ],
+  "huspacy": [
+    "5e931bdee00dc7f2"
   ],
   "hwcpipe": [
     "182eebb6513160c3"
@@ -75552,6 +75626,9 @@
   "importance-sampling": [
     "469ec4a892bf0972"
   ],
+  "imposm": [
+    "f48ee2368e5b1f48"
+  ],
   "improved-wasserstein": [
     "73a6d8e5bfe3366d"
   ],
@@ -75988,7 +76065,8 @@
     "deb77748b4a49a48"
   ],
   "information-extraction": [
-    "678c6d10089c9660"
+    "678c6d10089c9660",
+    "db5b63074f985d18"
   ],
   "information-multi-distillation": [
     "cfb0629dba7661af"
@@ -78675,6 +78753,7 @@
     "9d924dcf4d8b7c49",
     "9da48c5f6f5ec665",
     "9e88ced6028902f2",
+    "9f3f937047ac3d8e",
     "9fef25cfa004f226",
     "a016ade3fe2b33e2",
     "a03b68d5c4db801e",
@@ -81607,6 +81686,7 @@
     "50c0d758d99206e1",
     "54739eecb9fc261f",
     "575f6c1edb3f5190",
+    "627986927098c3c3",
     "64a1264354cb119a",
     "68651725322b3629",
     "69ee58b56137e682",
@@ -82841,6 +82921,7 @@
     "19acd36b3748e5ab",
     "1cde569a7476475f",
     "1d7f9b4b49ace499",
+    "1e12f43276fdeec0",
     "285faf63c340059e",
     "2e9efe2febe6020f",
     "2f244d7cc0711110",
@@ -83090,6 +83171,7 @@
     "d81070e1a14d67f0",
     "e41355d90e499b54",
     "e984e995e2a0a2e6",
+    "f2349b20f9aac0cf",
     "fa228f192d6a13ab",
     "fb7c332d6ede3b44",
     "fcddd387ef69368e"
@@ -84009,7 +84091,8 @@
     "997d3949cabe8813"
   ],
   "lemmatization": [
-    "5a568a4db0481ee1"
+    "5a568a4db0481ee1",
+    "ee8bf4ee1841a93b"
   ],
   "lemmy": [
     "1b0e88d3083b7d62",
@@ -87946,6 +88029,7 @@
     "004a587ee5ede871",
     "0051ab1e1ffdfec4",
     "06390aa50a622dff",
+    "06f0c3b1daaa1015",
     "09b97f7ee57e3de5",
     "0d0baa666ff5a8c2",
     "187da4059b72f54b",
@@ -88014,6 +88098,9 @@
   ],
   "llms-benchmarking": [
     "d67b659c6f05aefd"
+  ],
+  "llms-reasoning": [
+    "0a9ad42ec0e07b6c"
   ],
   "llnl": [
     "a7bd88fbbdf26db4"
@@ -89608,6 +89695,7 @@
     "1320836202365d2b",
     "13b9d10860aed800",
     "149198016f329279",
+    "15b9a1d37f12d483",
     "1667b3dfb79ac335",
     "166a3d18f2710951",
     "17bd98c16083cd88",
@@ -89809,6 +89897,7 @@
     "88b4cbdfaf083fbf",
     "88ddf7d02ad8e5ab",
     "88e6fb79db05c815",
+    "88ed3add0cc07223",
     "892d03a869ee8ffd",
     "89cfa2c7f6596200",
     "89d497ff257fa078",
@@ -91424,6 +91513,9 @@
     "3665390a723cdd0c",
     "c0a135ea27bdb8a7"
   ],
+  "mapbox-vector-tile": [
+    "62d5bed5c698f6a1"
+  ],
   "mapillary": [
     "b6b4de1a07924718"
   ],
@@ -92116,9 +92208,11 @@
   "math": [
     "04da0aad10185239",
     "0712fd1f0ea7d398",
+    "19baa15c621549d8",
     "1d773a44f5386e60",
     "2da36b965a4b33ba",
     "2f7c9afacbd46e1b",
+    "5baf85e600f9c7fe",
     "5f7f9a3220c69d40",
     "5fcd7855ae0927db",
     "69ec83624581d9bc",
@@ -92251,6 +92345,7 @@
     "fdc1f660f5d90f89"
   ],
   "matlab-toolbox": [
+    "a8c4fe23432cd0e5",
     "e73a6512278c657c"
   ],
   "matplotlib": [
@@ -95492,6 +95587,7 @@
     "83ea741e78729d26",
     "89957e3f4c8c350d",
     "afe3c9830090b882",
+    "cf0bae8c2874371e",
     "d59b92e6c17a1a35",
     "df5b881bd143e98a"
   ],
@@ -95999,6 +96095,9 @@
   ],
   "morphological": [
     "25aa2b7731a0dbd8"
+  ],
+  "morphological-analysis": [
+    "8d44ea033e8c0bd8"
   ],
   "mosaic-gpu-b200-presubmit": [
     "ffeafaab0c2b7d18"
@@ -96578,6 +96677,7 @@
     "3edec05b1f3ed4d2",
     "4533b80e14c0e505",
     "47661cec90596364",
+    "505146f2d450d6c9",
     "5f50a856916beed4",
     "62e9322f26c2269f",
     "702c5f6709112e7e",
@@ -97033,6 +97133,9 @@
   "multihead-attention": [
     "fb8bd4b3a88d6e0a"
   ],
+  "multilabel-classification": [
+    "a3074d2fc69b002d"
+  ],
   "multilingual": [
     "0308e0bd5cf7f59d",
     "36bea79f4183cc72",
@@ -97071,6 +97174,7 @@
     "27d0d4296e5580e5",
     "3659e5e2bfa8e438",
     "4d2ff30a8369623c",
+    "725e274f1a23c74d",
     "871bc676b78c0bd6",
     "ccf40f0e7717db26",
     "fc95d97a880082a6"
@@ -97741,7 +97845,9 @@
     "940b9f7f0a0f9b74",
     "a9d2cccdb5e91e08",
     "b4ae168866211398",
-    "be83648b780547b7"
+    "be83648b780547b7",
+    "f8b695d80dfe9a25",
+    "fc7f8b79ce7a8d84"
   ],
   "named-icons": [
     "58aa7475cffcc104"
@@ -97999,12 +98105,15 @@
     "03b282f2fd682d71",
     "06f598e413217ae4",
     "09d38774b10a36e8",
+    "0c015fd57a5c8b0a",
     "0c7251218b06bdb6",
+    "14b7e58d162603a7",
     "1b6359249db263fd",
     "1b983f24d7b0695a",
     "1f69f57876b78e73",
     "1fc62a9e5dd0d6f0",
     "207aa924c84bc49f",
+    "20b154ab9087ff7d",
     "22172741ff76c9bf",
     "235e7abd52ccb8d7",
     "2466cc515b7baa59",
@@ -99779,6 +99888,9 @@
   "nexus-repository-manager": [
     "aeb4976a3d5fc203"
   ],
+  "nezha": [
+    "7871bd96541672c5"
+  ],
   "nfnets": [
     "97341def20b1b12d"
   ],
@@ -100319,6 +100431,7 @@
     "149bee77ef36b05f",
     "1d66d469ef50fabd",
     "4582df19ae0018f9",
+    "4685e4c783ad0d0f",
     "47d0012fafbf73be",
     "a9dbdd117c66996e",
     "b6920bdcf31188b5",
@@ -104167,6 +104280,7 @@
     "ce1a35e734bad950"
   ],
   "on-push": [
+    "241b024fb412aad6",
     "54d155b7ef27b733",
     "ae97a5dd4e08c250",
     "cb327315abf32c04",
@@ -104179,6 +104293,9 @@
   "on-release": [
     "1c173f263223c116",
     "f2926c13f0ed9fdf"
+  ],
+  "on-release-publish": [
+    "bbe65a12a0e2bb66"
   ],
   "on-windows": [
     "2b1291bdb1d4366b"
@@ -104682,6 +104799,7 @@
     "40810f0009cabe4c",
     "412f76022d22446a",
     "427417a598f29ec7",
+    "44a1e4f8cfd148d9",
     "46e90dfc9ec56f33",
     "49270630a2cb6bdd",
     "4aae3be9e59e0cac",
@@ -105351,7 +105469,8 @@
     "cac1b92e0ac16f33"
   ],
   "openlayers": [
-    "0526956eff581e72"
+    "0526956eff581e72",
+    "cf3940a3383b74cb"
   ],
   "openldap": [
     "04a68a6a94be8bdb"
@@ -106825,6 +106944,7 @@
     "43b75faf8fd939c8",
     "45091794180d01e2",
     "4785b290e3329085",
+    "4def14ac46a5ef80",
     "4e73df342b4fdfea",
     "4f75da3955d63de8",
     "55cb0a15b4566a0b",
@@ -110779,6 +110899,9 @@
     "93a2db6cea4c5129",
     "ed64eaec8928cb81"
   ],
+  "pos-tagger": [
+    "b76d9daa4707aed5"
+  ],
   "pos-tagging": [
     "4d637fdb1d059cc2"
   ],
@@ -111155,7 +111278,8 @@
   "postgis": [
     "98163102abc1b260",
     "bfce562808ab2c86",
-    "e08fe79578d68ccd"
+    "e08fe79578d68ccd",
+    "f2fe000c7d1070a2"
   ],
   "postgraphql": [
     "ecc7dabb031a49bc"
@@ -118811,6 +118935,7 @@
     "2cb08a2cb492814d",
     "2ccb979b3dda8fff",
     "2d6a490c50e9c12a",
+    "2d943ba2738bc2c9",
     "2eb4e739ca562ee9",
     "2f394a1e2fdd14f0",
     "2f6d942ca7ce95dd",
@@ -119081,6 +119206,7 @@
     "99744fa1cfe89b22",
     "9977148dac954377",
     "998ba3f6c87ef42c",
+    "99ee3eea69fdaf9e",
     "9a45fd6493ece34f",
     "9b3304b32e9b4e3a",
     "9b89ddceb2bdc5ef",
@@ -119159,6 +119285,7 @@
     "b7af96f81339818f",
     "b7b6e14fd6da8ab2",
     "b7da6b6f282b59e0",
+    "b7fc08916c4d03e7",
     "b8753b88851a1ea2",
     "b8aa4ba220638d4c",
     "b96de7a7a4a78c69",
@@ -119491,6 +119618,9 @@
     "6675058c4e7f2c33",
     "fd9fcf15608009ee"
   ],
+  "qiang-hong-bao": [
+    "1c8a24036c8755e9"
+  ],
   "qlog": [
     "6182dfce4354644d",
     "b0e359edbc34200c"
@@ -119787,7 +119917,9 @@
     "64a7dd74b0d083aa"
   ],
   "quaternion": [
+    "295116ce667d567b",
     "43aad6a858ea3885",
+    "a7d4e115cd97eeb5",
     "c30b5bdb55d13c0a",
     "cdee63830509cb2c"
   ],
@@ -122097,6 +122229,9 @@
   "reddit-api": [
     "406ce04482a51f09"
   ],
+  "redenvelope": [
+    "8ae06777d6a8935c"
+  ],
   "redgate": [
     "4861f5620914073f",
     "9d01da4d81e59cb1"
@@ -122736,6 +122871,7 @@
     "08df9649c9c402c4",
     "0958441041a59ed6",
     "0c0ff842a90f1175",
+    "0e6fcd284b9b3b6a",
     "1381395f82f1e15a",
     "13a09ea061a06cfa",
     "141f66d40c8d1007",
@@ -122861,6 +122997,9 @@
   ],
   "rekordbox": [
     "779df435ff42edec"
+  ],
+  "relation-classification": [
+    "830e03f9d7b68070"
   ],
   "relation-tuples": [
     "9a6398e8249509f9"
@@ -125590,6 +125729,7 @@
     "a78e7d070ee01969",
     "b72071686732a8d7",
     "c6a1727c89dcdb07",
+    "c6ad1b6a0ada4d59",
     "c8e1ab3ef61d78bc",
     "caa8fb95b9957f67",
     "d4fea2da81331a25",
@@ -128274,6 +128414,8 @@
     "5bb0f54148e178ea",
     "66c3fd2028f37a22",
     "791e45f0a1112762",
+    "e603e9d2a9400d43",
+    "e6a067a9fdb10e5e",
     "eeecf71c27ea0899"
   ],
   "robot-arm": [
@@ -128431,6 +128573,7 @@
     "edc9fe3e4f136e23",
     "f2846191010cf010",
     "f77308a707933513",
+    "fa5aa4feab6b45ea",
     "fa70ebf9155ec330",
     "fb970f1377f19a68",
     "fd538e8265f2e552",
@@ -128621,6 +128764,10 @@
   "roles": [
     "dc3899ab1f4ab887"
   ],
+  "roll-pitch-yaw-angles": [
+    "92f84606ff031fda",
+    "f503221fe93789f7"
+  ],
   "roll-pytorch": [
     "bf768ff79b7971a3"
   ],
@@ -128806,6 +128953,9 @@
   ],
   "rotation": [
     "97c4dafadb7f0153"
+  ],
+  "rotation-matrix": [
+    "bf02e57a75c10cf8"
   ],
   "rotations": [
     "037ea983341cbb4e"
@@ -136123,7 +136273,8 @@
     "16af89f0600da1dc"
   ],
   "siamese-network": [
-    "300b193f7b310d9b"
+    "300b193f7b310d9b",
+    "ed442056179ed8a7"
   ],
   "side-navigation": [
     "3ed4dd2500102d3b"
@@ -138296,6 +138447,7 @@
     "c2872b1c6c03a89c"
   ],
   "spacy": [
+    "27866ce7c0a6bdcf",
     "747146c38ae24242",
     "80db1741c8a9003b",
     "8558ceb5782072cf",
@@ -138303,7 +138455,11 @@
     "fde1b61a0fa76ac5"
   ],
   "spacy-models": [
-    "5b82476f0a90902d"
+    "5b82476f0a90902d",
+    "bdc30b6a229c7512"
+  ],
+  "spacy-pipeline": [
+    "d9137f0463e3654d"
   ],
   "spam-issue-detection": [
     "a14a9434b5f86bc2"
@@ -139154,6 +139310,7 @@
     "4d498d4b18a8a926",
     "548bb2a9d8783a38",
     "6318ffe6e2dc8bcd",
+    "71150c7d335510da",
     "7ec9e4ab3b4dde31",
     "8204da189156a4ae",
     "833b4b218498ca59",
@@ -139637,6 +139794,7 @@
     "f66917f3cda68bd8"
   ],
   "sqlite-orm": [
+    "96c4f6539adc0719",
     "f09349231a185d91"
   ],
   "sqlite-virtual-table": [
@@ -143502,6 +143660,9 @@
   "sync-playwright-versions": [
     "d3ea1ee7fedc8899"
   ],
+  "sync-registry-docs": [
+    "7abe43e457ab14f6"
+  ],
   "sync-registry-to-supabase": [
     "d66acbe0643fbfc8",
     "e57999877045248d"
@@ -146994,7 +147155,8 @@
     "10a0372300d31bcc"
   ],
   "test-and-deploy": [
-    "0470a4e25f81d495"
+    "0470a4e25f81d495",
+    "c14e7ff4a7fdb36e"
   ],
   "test-and-deploy-framework": [
     "6d6bd67323e71b71",
@@ -148606,6 +148768,7 @@
     "38a616df942a6e3f",
     "38dac8c2e88151d6",
     "3a78ae2460745121",
+    "3add07dba8fc2bdb",
     "3ae8e446f563079f",
     "3d40c2019a55a2f7",
     "3e4de8f8b9fb565a",
@@ -149680,6 +149843,7 @@
   ],
   "text-classification": [
     "10b104b023421b91",
+    "17bdba5bfb588ba5",
     "2792bbeb9d3ade8f",
     "27a78a9139335f9a",
     "3939310130346ea9",
@@ -149798,8 +149962,10 @@
     "c74cfc7234dbf01b"
   ],
   "text-mining": [
+    "131cf79ca26d15dd",
     "841c17dee84238b2",
     "b5a4c00b983e5b39",
+    "c02c8055633d77fc",
     "e89bfa8042a06c2d"
   ],
   "text-normalization": [
@@ -149874,6 +150040,7 @@
   "text-similarity": [
     "4e2a2d839e7d38db",
     "66261b3d377dd14c",
+    "c1b6d8619fa536f7",
     "e56c92fdd8da1611"
   ],
   "text-simplification": [
@@ -151253,6 +151420,9 @@
     "f92c9a0ad92a7a26",
     "ff6f2231348c450e"
   ],
+  "tool-augmented": [
+    "8862b25870802a6e"
+  ],
   "tool-calling": [
     "c96309c298a8e3fd"
   ],
@@ -151941,6 +152111,8 @@
     "18460ebfa4304f49",
     "53fae5c92d2968ea",
     "7c2c7f8c50bd9a07",
+    "8bc116974b66d179",
+    "9c4a85ceab6b5d9f",
     "d8eb167932729599"
   ],
   "transformation": [
@@ -152163,6 +152335,7 @@
     "6c9be1e7eaa2a7b4",
     "6cfe2bd43378650e",
     "7116b55705da9ffa",
+    "71f3cf9731e6ea31",
     "72949c14db3de528",
     "741b8558be6035e9",
     "7462e4c8e334316c",
@@ -152729,6 +152902,7 @@
     "f5fc42d77945475c"
   ],
   "triplet-loss": [
+    "0131a2a4cdcc394d",
     "2b57898ca5d12ceb",
     "f165c7c985f81eca"
   ],
@@ -153955,11 +154129,14 @@
     "a993c3b24413d73a",
     "addbeaa3862004e9",
     "b9091f3377469719",
+    "ba010a0b80729a69",
     "c1000e093e45efca",
     "c603f97ba26652cd",
     "d78965a74ecbe9bd",
     "df44498163b24a79",
     "e684cd00e69aabae",
+    "ec6e4b9999b88674",
+    "f745271275aaf1e4",
     "f8c057ddbbeb857c",
     "fba07257e8a1c48b",
     "fd476705a10edc9d"
@@ -154976,6 +155153,7 @@
     "2eeca272565e5025"
   ],
   "universal-dependencies": [
+    "8ff0999083e85845",
     "981369d810e83414"
   ],
   "universal-image-generation": [
@@ -156632,6 +156810,9 @@
   "upload-repl-artefacts": [
     "09edbdc97ea62ad4"
   ],
+  "upload-schema": [
+    "9d130f5068b439b3"
+  ],
   "upload-self-contained-binaries": [
     "d79c5c6201e44251"
   ],
@@ -157393,6 +157574,7 @@
     "1fc02fbee7039486",
     "2129924cbf8810a5",
     "213f3991fef3e850",
+    "3a4685e732d47e31",
     "48689c3247398928",
     "5f095a2fe16ea1d4",
     "8035b638c23c9289",
@@ -158020,6 +158202,7 @@
   ],
   "vector-tiles": [
     "052e897647d0fa18",
+    "136a33c471442236",
     "28c4a4e59f76df11",
     "87759fca05e8acc9"
   ],
@@ -163035,7 +163218,8 @@
     "5750eb9e50c895ae",
     "59c4134b67718f40",
     "7aca12508d588428",
-    "dcad404636423eff"
+    "dcad404636423eff",
+    "f095573db477398c"
   ],
   "wechat-framework": [
     "c09a1dc20a12ffcd"
@@ -163134,6 +163318,9 @@
   ],
   "wego": [
     "99b446cc6f3170d3"
+  ],
+  "wei-xin": [
+    "788595ed7073795c"
   ],
   "weighted-search": [
     "42b1a1480e9e3071"

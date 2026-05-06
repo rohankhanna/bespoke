@@ -84,7 +84,7 @@
   "normalized_form": "build-wheel-template",
   "observation_id": "ed46557584a66fc7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-06T00:36:03.937537+00:00",
   "observed_text": "~Build wheel template",
   "source_context_snippet": "~Build wheel template",
   "source_file": ".github/workflows/_build.yml",

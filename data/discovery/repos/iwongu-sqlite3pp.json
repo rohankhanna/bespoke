@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-06T01:05:54.189703+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5446
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SQLite3++ - C++ wrapper of SQLite3 API",
+    "fork": false,
+    "full_name": "iwongu/sqlite3pp",
+    "html_url": "https://github.com/iwongu/sqlite3pp",
+    "language": "C++",
+    "pushed_at": "2026-02-08T19:41:41Z",
+    "stargazers_count": 635,
+    "topics": [],
+    "updated_at": "2026-04-23T08:39:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

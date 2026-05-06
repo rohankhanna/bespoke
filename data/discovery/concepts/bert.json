@@ -559,6 +559,18 @@
       "source_repo": "hila-chefer/Transformer-Explainability",
       "status": "candidate-context",
       "text": "Faster, more general, and can be applied to *any* type of attention!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lonePatient/TorchBlocks",
+      "status": "candidate-context",
+      "text": "A PyTorch-based toolkit for natural language processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lonePatient/TorchBlocks",
+      "status": "candidate-context",
+      "text": "(Work in Progress!!)"
     }
   ],
   "candidate_glosses": [
@@ -837,6 +849,12 @@
       "source_repo": "hila-chefer/Transformer-Explainability",
       "status": "candidate",
       "text": "Faster, more general, and can be applied to *any* type of attention!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lonePatient/TorchBlocks",
+      "status": "candidate",
+      "text": "(Work in Progress!!)"
     }
   ],
   "candidate_related_terms": [
@@ -1360,11 +1378,17 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "HumanSignal/label-studio-transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "lonePatient/TorchBlocks"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -465,6 +465,18 @@
       "source_repo": "usdot-fhwa-stol/carma-platform",
       "status": "candidate-context",
       "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tmc/langchaingo",
+      "status": "candidate-context",
+      "text": "LangChain for Go, the easiest way to write LLM-based programs in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tmc/langchaingo",
+      "status": "candidate-context",
+      "text": "Deploy to GitHub Pages"
     }
   ],
   "candidate_glosses": [
@@ -699,6 +711,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "usdot-fhwa-stol/carma-platform",
+      "status": "candidate",
+      "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tmc/langchaingo",
       "status": "candidate",
       "text": "Deploy to GitHub Pages"
     }
@@ -1170,11 +1188,29 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/github_pages.yml",
       "source_repo": "usdot-fhwa-stol/carma-platform"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/website-deploy.yml",
+      "source_repo": "meta-pytorch/captum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "beam-community/elixir-companies"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/publish-docs.yaml",
+      "source_repo": "tmc/langchaingo"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

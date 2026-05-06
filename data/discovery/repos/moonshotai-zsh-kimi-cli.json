@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-06T00:42:15.005635+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1140
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "MoonshotAI/zsh-kimi-cli",
+    "html_url": "https://github.com/MoonshotAI/zsh-kimi-cli",
+    "language": "Shell",
+    "pushed_at": "2025-10-27T17:06:52Z",
+    "stargazers_count": 67,
+    "topics": [],
+    "updated_at": "2026-05-01T07:16:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

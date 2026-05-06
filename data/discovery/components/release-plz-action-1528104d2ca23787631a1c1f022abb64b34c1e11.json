@@ -1,7 +1,7 @@
 {
   "component": "release-plz/action@1528104d2ca23787631a1c1f022abb64b34c1e11",
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release-plz.yml",
       "source_repo": "zip-rs/zip2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "agentclientprotocol/agent-client-protocol"
     }
   ]
 }

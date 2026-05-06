@@ -19,6 +19,18 @@
       "source_repo": "fnc12/sqlite_orm",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SqliteModernCpp/sqlite_modern_cpp",
+      "status": "candidate-context",
+      "text": "The C++14 wrapper around sqlite library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SqliteModernCpp/sqlite_modern_cpp",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://drone.io/github.com/aminroosta/sqlite_modern_cpp/status.png)](https://drone.io/github.com/aminroosta/sqlite_modern_cpp/latest)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "fnc12/sqlite_orm",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SqliteModernCpp/sqlite_modern_cpp",
+      "status": "candidate",
+      "text": "[![Build Status](https://drone.io/github.com/aminroosta/sqlite_modern_cpp/status.png)](https://drone.io/github.com/aminroosta/sqlite_modern_cpp/latest)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "fnc12/sqlite_orm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "SqliteModernCpp/sqlite_modern_cpp"
     }
   ],
   "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

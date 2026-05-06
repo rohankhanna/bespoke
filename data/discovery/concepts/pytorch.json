@@ -7639,6 +7639,42 @@
       "source_repo": "JunnYu/RoFormer_pytorch",
       "status": "candidate-context",
       "text": "RoFormer\u6a21\u578b\u548cRoFormer-V2\u6a21\u578b"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hengyuan-hu/bottom-up-attention-vqa",
+      "status": "candidate-context",
+      "text": "An efficient PyTorch implementation of the winning entry of the 2017 VQA Challenge."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hengyuan-hu/bottom-up-attention-vqa",
+      "status": "candidate-context",
+      "text": "An efficient PyTorch implementation of the winning entry of the [2017 VQA Challenge](http://www.visualqa.org/challenge.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lonePatient/NeZha_Chinese_PyTorch",
+      "status": "candidate-context",
+      "text": "NEZHA: Neural Contextualized Representation for Chinese Language Understanding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lonePatient/NeZha_Chinese_PyTorch",
+      "status": "candidate-context",
+      "text": "pytorch\u7248NEZHA\uff0c\u9002\u914dtransformers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lonePatient/TorchBlocks",
+      "status": "candidate-context",
+      "text": "A PyTorch-based toolkit for natural language processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lonePatient/TorchBlocks",
+      "status": "candidate-context",
+      "text": "(Work in Progress!!)"
     }
   ],
   "candidate_glosses": [
@@ -11457,6 +11493,24 @@
       "source_repo": "JunnYu/RoFormer_pytorch",
       "status": "candidate",
       "text": "RoFormer\u6a21\u578b\u548cRoFormer-V2\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hengyuan-hu/bottom-up-attention-vqa",
+      "status": "candidate",
+      "text": "An efficient PyTorch implementation of the winning entry of the [2017 VQA Challenge](http://www.visualqa.org/challenge.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lonePatient/NeZha_Chinese_PyTorch",
+      "status": "candidate",
+      "text": "pytorch\u7248NEZHA\uff0c\u9002\u914dtransformers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lonePatient/TorchBlocks",
+      "status": "candidate",
+      "text": "(Work in Progress!!)"
     }
   ],
   "candidate_related_terms": [
@@ -19834,11 +19888,143 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "megvii-research/MOTR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "hengyuan-hu/bottom-up-attention-vqa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "meetps/pytorch-semseg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "lukashermann/hulc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "lcswillems/rl-starter-files"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "iflytek/cino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogView"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/vector-quantize-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "lonePatient/NeZha_Chinese_PyTorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "lonePatient/TorchBlocks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "axelspringer/DeepPhonemizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

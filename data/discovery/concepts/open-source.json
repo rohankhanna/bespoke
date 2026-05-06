@@ -1297,6 +1297,18 @@
       "source_repo": "usdot-fhwa-stol/carma-platform",
       "status": "candidate-context",
       "text": "| DockerHub Image Build | Unit Tests Workflow | Sonar Code Quality |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qcr/qcr.github.io",
+      "status": "candidate-context",
+      "text": "Landing page for everything open source produced by the QUT Centre for Robotics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qcr/qcr.github.io",
+      "status": "candidate-context",
+      "text": "[![QUT Centre for Robotics Open Source](https://github.com/qcr/qcr.github.io/raw/master/misc/badge.svg)](https://qcr.github.io)"
     }
   ],
   "candidate_glosses": [
@@ -1929,6 +1941,12 @@
       "source_repo": "usdot-fhwa-stol/carma-platform",
       "status": "candidate",
       "text": "| DockerHub Image Build | Unit Tests Workflow | Sonar Code Quality |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qcr/qcr.github.io",
+      "status": "candidate",
+      "text": "[![QUT Centre for Robotics Open Source](https://github.com/qcr/qcr.github.io/raw/master/misc/badge.svg)](https://qcr.github.io)"
     }
   ],
   "candidate_related_terms": [
@@ -3568,11 +3586,29 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "GDevelopApp/GDevelop-extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "qcr/qcr.github.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5Scontrol-manual"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

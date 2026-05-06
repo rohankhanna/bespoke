@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "cmake-wrapper"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conan-io/cmake-conan",
+      "status": "candidate-context",
+      "text": "CMake wrapper for conan C and C++ package manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conan-io/cmake-conan",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/conan-io/cmake-conan/actions/workflows/cmake_conan.yml/badge.svg?branch=develop2)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conan-io/cmake-conan",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/conan-io/cmake-conan/actions/workflows/cmake_conan.yml/badge.svg?branch=develop2)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "cmake-wrapper",
+  "concept_id": "cmake-wrapper",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "conan-io/cmake-conan"
+    }
+  ],
+  "first_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cmake-wrapper",
+      "sense_id": "cmake-wrapper#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

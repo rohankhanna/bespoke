@@ -91,6 +91,18 @@
       "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
       "status": "candidate-context",
       "text": "\u4e2d\u82f1\u6587NLP\u6570\u636e\u96c6\u3002\u53ef\u4ee5\u70b9\u51fb[\u641c\u7d22](https://www.cluebenchmarks.com/dataSet_search.html)\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lil-lab/nlvr",
+      "status": "candidate-context",
+      "text": "Cornell NLVR and NLVR2 are natural language grounding datasets. Each example shows a visual input and a sentence describing it, and is annotated with the truth-value of the sentence."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lil-lab/nlvr",
+      "status": "candidate-context",
+      "text": "This repository contains data for [NLVR](https://github.com/clic-lab/nlvr/tree/master/nlvr) (Suhr et al. 2017) and [NLVR2](https://github.com/clic-lab/nlvr/tree/master/nlvr2) (Suhr and Zhou et al. 2018)."
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
       "status": "candidate",
       "text": "\u4e2d\u82f1\u6587NLP\u6570\u636e\u96c6\u3002\u53ef\u4ee5\u70b9\u51fb[\u641c\u7d22](https://www.cluebenchmarks.com/dataSet_search.html)\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lil-lab/nlvr",
+      "status": "candidate",
+      "text": "This repository contains data for [NLVR](https://github.com/clic-lab/nlvr/tree/master/nlvr) (Suhr et al. 2017) and [NLVR2](https://github.com/clic-lab/nlvr/tree/master/nlvr2) (Suhr and Zhou et al. 2018)."
     }
   ],
   "candidate_related_terms": [
@@ -235,11 +253,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "CLUEbenchmark/CLUEDatasetSearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "lil-lab/nlvr"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

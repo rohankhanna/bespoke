@@ -2699,6 +2699,18 @@
       "source_repo": "davidmigloz/langchain_dart",
       "status": "candidate-context",
       "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huspacy/huspacy",
+      "status": "candidate-context",
+      "text": "HuSpaCy: industrial-strength Hungarian natural language processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huspacy/huspacy",
+      "status": "candidate-context",
+      "text": "Docs"
     }
   ],
   "candidate_glosses": [
@@ -4049,6 +4061,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "davidmigloz/langchain_dart",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huspacy/huspacy",
       "status": "candidate",
       "text": "Docs"
     }
@@ -6786,11 +6804,41 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": ".github/workflows/docs.yaml",
       "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "funstory-ai/BabelDOC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5Scontrol-manual"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "huspacy/huspacy"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

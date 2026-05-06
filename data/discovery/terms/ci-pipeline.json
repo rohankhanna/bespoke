@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -46,6 +46,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "terser/terser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci_pipeline.yml",
+      "source_repo": "deanmalmgren/textract"
     }
   ],
   "term": "CI Pipeline"

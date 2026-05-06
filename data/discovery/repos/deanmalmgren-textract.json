@@ -1,0 +1,178 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "deanmalmgren/textract",
+      "target": "charliermarsh/ruff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yml",
+      "source_repo": "deanmalmgren/textract",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yml",
+      "source_repo": "deanmalmgren/textract",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yml",
+      "source_repo": "deanmalmgren/textract",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yml",
+      "source_repo": "deanmalmgren/textract",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yml",
+      "source_repo": "deanmalmgren/textract",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_pipeline.yml",
+      "source_repo": "deanmalmgren/textract",
+      "target": "CI Pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deanmalmgren/textract",
+      "target": "data-mining",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deanmalmgren/textract",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deanmalmgren/textract",
+      "target": "text-mining",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T00:42:07.957339+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1647
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2022
+    },
+    {
+      "path": ".github/workflows/ci_pipeline.yml",
+      "size": 2432
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "extract text from any document. no muss. no fuss.",
+    "fork": false,
+    "full_name": "deanmalmgren/textract",
+    "html_url": "https://github.com/deanmalmgren/textract",
+    "language": "HTML",
+    "pushed_at": "2026-05-04T05:08:35Z",
+    "stargazers_count": 4550,
+    "topics": [
+      "data-mining",
+      "natural-language-processing",
+      "python",
+      "text-mining"
+    ],
+    "updated_at": "2026-05-03T20:35:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charliermarsh/ruff",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI Pipeline",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_pipeline.yml",
+      "term": "CI Pipeline"
+    },
+    {
+      "context_snippet": ".. NOTES FOR CREATING A RELEASE:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-mining"
+    },
+    {
+      "context_snippet": ".. NOTES FOR CREATING A RELEASE:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": ".. NOTES FOR CREATING A RELEASE:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-mining"
+    }
+  ]
+}

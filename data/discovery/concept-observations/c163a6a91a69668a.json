@@ -84,7 +84,7 @@
   "normalized_form": "build-non-gpl-ffmpeg-from-source",
   "observation_id": "c163a6a91a69668a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-06T00:36:03.937537+00:00",
   "observed_text": "Build non-GPL FFmpeg from source",
   "source_context_snippet": "Build non-GPL FFmpeg from source",
   "source_file": ".github/workflows/build_ffmpeg.yaml",

@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "advertising"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lonePatient/TorchBlocks",
+      "status": "candidate-context",
+      "text": "A PyTorch-based toolkit for natural language processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lonePatient/TorchBlocks",
+      "status": "candidate-context",
+      "text": "(Work in Progress!!)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lonePatient/TorchBlocks",
+      "status": "candidate",
+      "text": "(Work in Progress!!)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046270,
+      "status": "candidate",
+      "text": "advertisement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045142,
+      "status": "candidate",
+      "text": "advert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046477,
+      "status": "candidate",
+      "text": "advertizing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046477,
+      "status": "candidate",
+      "text": "publicizing"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17035,
+      "status": "candidate",
+      "text": "advert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2041,
+      "status": "candidate",
+      "text": "advertisement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1015,
+      "status": "candidate",
+      "text": "publicizing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "advertizing"
+    }
+  ],
+  "canonical_name": "advertising",
+  "concept_id": "advertising",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "lonePatient/TorchBlocks"
+    }
+  ],
+  "first_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "advertising",
+      "sense_id": "advertising#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

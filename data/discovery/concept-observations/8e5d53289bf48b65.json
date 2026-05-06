@@ -84,7 +84,7 @@
   "normalized_form": "publish-any-commit",
   "observation_id": "8e5d53289bf48b65",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-06T00:36:03.937537+00:00",
   "observed_text": "Publish Any Commit",
   "source_context_snippet": "Publish Any Commit",
   "source_file": ".github/workflows/pkg-pr-new.yml",

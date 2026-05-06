@@ -118,6 +118,18 @@
       "source_repo": "terser/terser",
       "status": "candidate-context",
       "text": "CI pipeline"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deanmalmgren/textract",
+      "status": "candidate-context",
+      "text": "extract text from any document. no muss. no fuss."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deanmalmgren/textract",
+      "status": "candidate-context",
+      "text": "CI Pipeline"
     }
   ],
   "candidate_glosses": [
@@ -174,6 +186,12 @@
       "source_repo": "terser/terser",
       "status": "candidate",
       "text": "CI pipeline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deanmalmgren/textract",
+      "status": "candidate",
+      "text": "CI Pipeline"
     }
   ],
   "candidate_related_terms": [
@@ -271,11 +289,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "terser/terser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/ci_pipeline.yml",
+      "source_repo": "deanmalmgren/textract"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

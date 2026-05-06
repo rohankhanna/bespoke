@@ -84,7 +84,7 @@
   "normalized_form": "claude-code-terminal-bench-task-review",
   "observation_id": "091fc9c3955bb107",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-06T00:36:03.937537+00:00",
   "observed_text": "Claude Code Terminal-Bench Task Review",
   "source_context_snippet": "Claude Code Terminal-Bench Task Review",
   "source_file": ".github/workflows/claude-code-task-review.yml",

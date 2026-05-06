@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Modi1987/KST-Kuka-Sunrise-Toolbox",
+      "target": "modi1987/iiwapy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Modi1987/KST-Kuka-Sunrise-Toolbox",
+      "target": "modi1987/simulink-iiwa-interface",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Modi1987/KST-Kuka-Sunrise-Toolbox",
+      "target": "modi1987/iiwacontorltoolbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Modi1987/KST-Kuka-Sunrise-Toolbox",
+      "target": "modi1987/kst-advanced-examples",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-06T00:36:03.937537+00:00",
+  "source_repo": "Modi1987/KST-Kuka-Sunrise-Toolbox"
+}

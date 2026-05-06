@@ -1,0 +1,110 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "omniscale/imposm3",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "omniscale/imposm3",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "omniscale/imposm3",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "omniscale/imposm3",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "omniscale/imposm3",
+      "target": "imposm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T00:57:11.614798+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7590
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2731
+    },
+    {
+      "path": "go.mod",
+      "size": 474
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1314
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Imposm imports OpenStreetMap data into PostGIS",
+    "fork": false,
+    "full_name": "omniscale/imposm3",
+    "html_url": "https://github.com/omniscale/imposm3",
+    "language": "Go",
+    "pushed_at": "2026-02-25T08:49:11Z",
+    "stargazers_count": 772,
+    "topics": [
+      "database",
+      "geo",
+      "go",
+      "imposm"
+    ],
+    "updated_at": "2026-04-28T08:11:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Imposm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "Imposm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imposm"
+    }
+  ]
+}

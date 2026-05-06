@@ -1,0 +1,86 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kornia/dora-nodes-hub",
+      "target": "kornia/kornia-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "kornia/dora-nodes-hub",
+      "target": "kornia/kornia-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kornia/dora-nodes-hub",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kornia/dora-nodes-hub",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-06T01:05:32.961532+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1023
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 495
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 749
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\udd16 Repository of Kornia maintained dora-rs nodes",
+    "fork": false,
+    "full_name": "kornia/dora-nodes-hub",
+    "html_url": "https://github.com/kornia/dora-nodes-hub",
+    "language": "Rust",
+    "pushed_at": "2025-07-02T23:07:35Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-09-01T15:23:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kornia/kornia-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kornia/kornia-rs",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

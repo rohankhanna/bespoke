@@ -91,6 +91,30 @@
       "source_repo": "InternLM/HuixiangDou",
       "status": "candidate-context",
       "text": "[HuixiangDou2](https://github.com/tpoisonooo/HuixiangDou2)(ACL25) is a GraphRAG solution whose effectiveness has been demonstrated in the plant-science domain and that contributed to the [**cover paper in Cell**](https://www.cell.com/molecular-plant/issue?pii=S1674-2052(24)X0008\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "petercorke/spatialmath-matlab",
+      "status": "candidate-context",
+      "text": "Create,  manipulate and convert representations of position and orientation in 2D or 3D using Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/spatialmath-matlab",
+      "status": "candidate-context",
+      "text": "[![View Spatial Math Toolbox on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/70373-spatial-math-toolbox)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rai-opensource/spatialmath-python",
+      "status": "candidate-context",
+      "text": "Create,  manipulate and convert representations of position and orientation in 2D or 3D using Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rai-opensource/spatialmath-python",
+      "status": "candidate-context",
+      "text": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "InternLM/HuixiangDou",
       "status": "candidate",
       "text": "[HuixiangDou2](https://github.com/tpoisonooo/HuixiangDou2)(ACL25) is a GraphRAG solution whose effectiveness has been demonstrated in the plant-science domain and that contributed to the [**cover paper in Cell**](https://www.cell.com/molecular-plant/issue?pii=S1674-2052(24)X0008\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/spatialmath-matlab",
+      "status": "candidate",
+      "text": "[![View Spatial Math Toolbox on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/70373-spatial-math-toolbox)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rai-opensource/spatialmath-python",
+      "status": "candidate",
+      "text": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)"
     }
   ],
   "candidate_related_terms": [
@@ -289,11 +325,29 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "InternLM/HuixiangDou"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/idyntree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "petercorke/spatialmath-matlab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "rai-opensource/spatialmath-python"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

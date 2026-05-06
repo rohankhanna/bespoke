@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dora-rs/dora-benchmark",
+      "target": "ros2-rust/ros2_rust",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-06T01:05:26.456308+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10039
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Benchmarking tool to evaluate dora-rs speed of communication witihin different scenarios  \u26a1\ud83d\ude80\ud83d\udca8\ud83c\udfc3 ",
+    "fork": false,
+    "full_name": "dora-rs/dora-benchmark",
+    "html_url": "https://github.com/dora-rs/dora-benchmark",
+    "language": "Python",
+    "pushed_at": "2026-04-14T15:18:59Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-05-03T08:09:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ros2-rust/ros2_rust",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

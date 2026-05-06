@@ -84,7 +84,7 @@
   "normalized_form": "multimodal",
   "observation_id": "f6a84abad9bb39b3",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-06T00:36:03.937537+00:00",
   "observed_text": "multimodal",
   "source_context_snippet": "This repository contains a script for training [Qwen2-VL](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct), [Qwen2.5-VL](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct)",
   "source_file": null,

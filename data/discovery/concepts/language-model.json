@@ -727,6 +727,18 @@
       "source_repo": "JunnYu/RoFormer_pytorch",
       "status": "candidate-context",
       "text": "RoFormer\u6a21\u578b\u548cRoFormer-V2\u6a21\u578b"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lonePatient/NeZha_Chinese_PyTorch",
+      "status": "candidate-context",
+      "text": "NEZHA: Neural Contextualized Representation for Chinese Language Understanding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lonePatient/NeZha_Chinese_PyTorch",
+      "status": "candidate-context",
+      "text": "pytorch\u7248NEZHA\uff0c\u9002\u914dtransformers"
     }
   ],
   "candidate_glosses": [
@@ -1089,6 +1101,12 @@
       "source_repo": "JunnYu/RoFormer_pytorch",
       "status": "candidate",
       "text": "RoFormer\u6a21\u578b\u548cRoFormer-V2\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lonePatient/NeZha_Chinese_PyTorch",
+      "status": "candidate",
+      "text": "pytorch\u7248NEZHA\uff0c\u9002\u914dtransformers"
     }
   ],
   "candidate_related_terms": [],
@@ -2140,11 +2158,53 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "EleutherAI/gpt-neo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/PhiCookBook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/pal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "lonePatient/NeZha_Chinese_PyTorch"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

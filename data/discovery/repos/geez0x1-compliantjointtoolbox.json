@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-06T01:05:07.631338+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3323
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Compliant Joint Toolbox (CJT) for MATLAB and Simulink",
+    "fork": false,
+    "full_name": "geez0x1/CompliantJointToolbox",
+    "html_url": "https://github.com/geez0x1/CompliantJointToolbox",
+    "language": "MATLAB",
+    "pushed_at": "2022-04-21T14:14:05Z",
+    "stargazers_count": 47,
+    "topics": [],
+    "updated_at": "2026-04-17T12:26:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

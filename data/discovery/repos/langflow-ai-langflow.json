@@ -51,6 +51,16 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
       "component": "actions/download-artifact@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
@@ -173,6 +183,13 @@
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "langflow-ai/langflow",
       "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "actions/setup-node@v6",
       "target_type": "component"
     },
     {
@@ -316,7 +333,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T17:07:53.923708+00:00",
+  "fetched_at": "2026-05-06T01:02:09.596994+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -340,7 +357,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 19767
+      "size": 20582
     },
     {
       "path": ".github/workflows/codeql.yml",
@@ -368,8 +385,8 @@
     "full_name": "langflow-ai/langflow",
     "html_url": "https://github.com/langflow-ai/langflow",
     "language": "Python",
-    "pushed_at": "2026-05-05T17:06:52Z",
-    "stargazers_count": 147714,
+    "pushed_at": "2026-05-06T00:47:45Z",
+    "stargazers_count": 147730,
     "topics": [
       "agents",
       "chatgpt",
@@ -378,7 +395,7 @@
       "multiagent",
       "react-flow"
     ],
-    "updated_at": "2026-05-05T16:42:56Z"
+    "updated_at": "2026-05-06T00:48:10Z"
   },
   "repo_links": [],
   "terms": [

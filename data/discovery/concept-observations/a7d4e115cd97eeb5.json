@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Create,  manipulate and convert representations of position and orientation in 2D or 3D using Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![View Spatial Math Toolbox on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/70373-spatial-math-toolbox)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![View Spatial Math Toolbox on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/70373-spatial-math-toolbox)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036975,
+      "status": "candidate",
+      "text": "quaternity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036955,
+      "status": "candidate",
+      "text": "quatern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036911,
+      "status": "candidate",
+      "text": "tetrad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036719,
+      "status": "candidate",
+      "text": "four"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036363,
+      "status": "candidate",
+      "text": "quaternary"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "quaternion",
+      "sense_id": "quaternion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16038,
+      "status": "candidate",
+      "text": "tetrad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9039,
+      "status": "candidate",
+      "text": "quartet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5013,
+      "status": "candidate",
+      "text": "quatern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3050,
+      "status": "candidate",
+      "text": "four"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3028,
+      "status": "candidate",
+      "text": "foursome"
+    }
+  ],
+  "concept_id": "quaternion",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "quaternion",
+  "observation_id": "a7d4e115cd97eeb5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-06T00:36:03.937537+00:00",
+  "observed_text": "quaternion",
+  "source_context_snippet": "[![View Spatial Math Toolbox on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/70373-spatial-math-toolbox)",
+  "source_file": null,
+  "source_repo": "petercorke/spatialmath-matlab",
+  "source_repo_description": "Create,  manipulate and convert representations of position and orientation in 2D or 3D using Python"
+}

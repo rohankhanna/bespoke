@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "test-and-deploy"
+    "test-and-deploy",
+    "Test and Deploy"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "curiousdannii/parchment",
       "status": "candidate-context",
       "text": "test-and-deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tamuhey/tokenizations",
+      "status": "candidate-context",
+      "text": "Robust and Fast tokenizations alignment library for Rust and Python https://tamuhey.github.io/tokenizations/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tamuhey/tokenizations",
+      "status": "candidate-context",
+      "text": "Test and Deploy"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "curiousdannii/parchment",
       "status": "candidate",
       "text": "test-and-deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tamuhey/tokenizations",
+      "status": "candidate",
+      "text": "Test and Deploy"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15831,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14952,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14952,
+      "status": "candidate",
+      "text": "pulling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14952,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14952,
+      "status": "candidate",
+      "text": "set"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "test-and-deploy",
   "concept_id": "test-and-deploy",
@@ -40,11 +95,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/test-and-deploy.yml",
       "source_repo": "curiousdannii/parchment"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "tamuhey/tokenizations"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

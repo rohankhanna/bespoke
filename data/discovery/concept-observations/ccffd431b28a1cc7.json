@@ -84,7 +84,7 @@
   "normalized_form": "sync-docs-to-public-docs",
   "observation_id": "ccffd431b28a1cc7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-06T00:36:03.937537+00:00",
   "observed_text": "Sync Docs to Public Docs",
   "source_context_snippet": "Sync Docs to Public Docs",
   "source_file": ".github/workflows/sync-docs.yml",

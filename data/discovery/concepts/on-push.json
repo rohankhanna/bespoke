@@ -1,7 +1,8 @@
 {
   "aliases": [
     "on-push",
-    "On Push"
+    "On Push",
+    "On push"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -50,6 +51,18 @@
       "source_repo": "2ndalpha/gasmask",
       "status": "candidate-context",
       "text": "\"on-push\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-spatial/tegola",
+      "status": "candidate-context",
+      "text": "Tegola is a Mapbox Vector Tile server written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-spatial/tegola",
+      "status": "candidate-context",
+      "text": "On push"
     }
   ],
   "candidate_glosses": [
@@ -76,6 +89,12 @@
       "source_repo": "2ndalpha/gasmask",
       "status": "candidate",
       "text": "\"on-push\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-spatial/tegola",
+      "status": "candidate",
+      "text": "On push"
     }
   ],
   "candidate_related_terms": [
@@ -143,11 +162,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/push.yml",
       "source_repo": "2ndalpha/gasmask"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/on_pr_push.yml",
+      "source_repo": "go-spatial/tegola"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

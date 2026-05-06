@@ -1,0 +1,349 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pr_push.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pr_push.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pr_push.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pr_push.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_release_publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_release_publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_release_publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_release_publish.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_release_publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_release_publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_release_publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_release_publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_release_publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_release_publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_release_publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_release_publish.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_release_publish.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_release_publish.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_release_publish.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_release_publish.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_release_publish.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_release_publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_release_publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-spatial/tegola",
+      "target": "mapbox/tilejson-spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-spatial/tegola",
+      "target": "go-spatial/fresco",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pr_push.yml",
+      "source_repo": "go-spatial/tegola",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pr_push.yml",
+      "source_repo": "go-spatial/tegola",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_pr_push.yml",
+      "source_repo": "go-spatial/tegola",
+      "target": "On push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_release_publish.yml",
+      "source_repo": "go-spatial/tegola",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_release_publish.yml",
+      "source_repo": "go-spatial/tegola",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_release_publish.yml",
+      "source_repo": "go-spatial/tegola",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_release_publish.yml",
+      "source_repo": "go-spatial/tegola",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_release_publish.yml",
+      "source_repo": "go-spatial/tegola",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_release_publish.yml",
+      "source_repo": "go-spatial/tegola",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_release_publish.yml",
+      "source_repo": "go-spatial/tegola",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_release_publish.yml",
+      "source_repo": "go-spatial/tegola",
+      "target": "On release publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-spatial/tegola",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-spatial/tegola",
+      "target": "mapbox-vector-tile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-spatial/tegola",
+      "target": "openlayers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-spatial/tegola",
+      "target": "postgis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-spatial/tegola",
+      "target": "vector-tiles",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T00:57:05.578507+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11897
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2279
+    },
+    {
+      "path": "go.mod",
+      "size": 3330
+    },
+    {
+      "path": ".github/workflows/on_pr_push.yml",
+      "size": 2542
+    },
+    {
+      "path": ".github/workflows/on_release_publish.yml",
+      "size": 9570
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tegola is a Mapbox Vector Tile server written in Go",
+    "fork": false,
+    "full_name": "go-spatial/tegola",
+    "html_url": "https://github.com/go-spatial/tegola",
+    "language": "Go",
+    "pushed_at": "2026-04-27T20:01:29Z",
+    "stargazers_count": 1486,
+    "topics": [
+      "gis",
+      "golang",
+      "mapbox-vector-tile",
+      "mvt",
+      "openlayers",
+      "postgis",
+      "vector-tiles",
+      "wkb"
+    ],
+    "updated_at": "2026-04-27T20:40:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-spatial/fresco",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mapbox/tilejson-spec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "On push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_pr_push.yml",
+      "term": "On push"
+    },
+    {
+      "context_snippet": "On release publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_release_publish.yml",
+      "term": "On release publish"
+    },
+    {
+      "context_snippet": "![On push](https://github.com/go-spatial/tegola/workflows/On%20push/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "![On push](https://github.com/go-spatial/tegola/workflows/On%20push/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mapbox-vector-tile"
+    },
+    {
+      "context_snippet": "![On push](https://github.com/go-spatial/tegola/workflows/On%20push/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openlayers"
+    },
+    {
+      "context_snippet": "![On push](https://github.com/go-spatial/tegola/workflows/On%20push/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgis"
+    },
+    {
+      "context_snippet": "![On push](https://github.com/go-spatial/tegola/workflows/On%20push/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-tiles"
+    }
+  ]
+}

@@ -709,6 +709,30 @@
       "source_repo": "fogleman/gg",
       "status": "candidate-context",
       "text": "`gg` is a library for rendering 2D graphics in pure Go."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "petercorke/spatialmath-matlab",
+      "status": "candidate-context",
+      "text": "Create,  manipulate and convert representations of position and orientation in 2D or 3D using Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/spatialmath-matlab",
+      "status": "candidate-context",
+      "text": "[![View Spatial Math Toolbox on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/70373-spatial-math-toolbox)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rai-opensource/spatialmath-python",
+      "status": "candidate-context",
+      "text": "Create,  manipulate and convert representations of position and orientation in 2D or 3D using Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rai-opensource/spatialmath-python",
+      "status": "candidate-context",
+      "text": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)"
     }
   ],
   "candidate_glosses": [
@@ -1065,6 +1089,18 @@
       "source_repo": "fogleman/gg",
       "status": "candidate",
       "text": "`gg` is a library for rendering 2D graphics in pure Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/spatialmath-matlab",
+      "status": "candidate",
+      "text": "[![View Spatial Math Toolbox on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/70373-spatial-math-toolbox)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rai-opensource/spatialmath-python",
+      "status": "candidate",
+      "text": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)"
     }
   ],
   "candidate_related_terms": [
@@ -1724,11 +1760,35 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "fogleman/gg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "taichi-dev/difftaichi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "petercorke/spatialmath-matlab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "rai-opensource/spatialmath-python"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-06T01:06:23.145612+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1853
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u57fa\u4e8eGated Attention Unit\u7684Transformer\u6a21\u578b\uff08\u5c1d\u9c9c\u7248\uff09",
+    "fork": false,
+    "full_name": "ZhuiyiTechnology/GAU-alpha",
+    "html_url": "https://github.com/ZhuiyiTechnology/GAU-alpha",
+    "language": "Python",
+    "pushed_at": "2023-02-24T07:43:09Z",
+    "stargazers_count": 97,
+    "topics": [],
+    "updated_at": "2026-03-05T07:29:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

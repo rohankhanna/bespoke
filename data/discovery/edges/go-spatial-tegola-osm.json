@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-spatial/tegola-osm",
+      "target": "terranodo/tegola",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-spatial/tegola-osm",
+      "target": "omniscale/imposm3",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-06T00:36:03.937537+00:00",
+  "source_repo": "go-spatial/tegola-osm"
+}

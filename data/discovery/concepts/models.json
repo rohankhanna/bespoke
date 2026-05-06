@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "models"
+    "models",
+    "Models"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -127,6 +130,18 @@
       "source_repo": "pytorch/text",
       "status": "candidate-context",
       "text": ".. image:: docs/source/_static/img/torchtext_logo.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huspacy/huspacy",
+      "status": "candidate-context",
+      "text": "HuSpaCy: industrial-strength Hungarian natural language processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huspacy/huspacy",
+      "status": "candidate-context",
+      "text": "Models"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +204,12 @@
       "source_repo": "pytorch/text",
       "status": "candidate",
       "text": ".. image:: docs/source/_static/img/torchtext_logo.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huspacy/huspacy",
+      "status": "candidate",
+      "text": "Models"
     }
   ],
   "candidate_related_terms": [
@@ -400,11 +421,17 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/test_models.yml",
+      "source_repo": "huspacy/huspacy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

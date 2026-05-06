@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Modi1987/KST-Kuka-Sunrise-Toolbox",
+      "target": "modi1987/iiwapy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Modi1987/KST-Kuka-Sunrise-Toolbox",
+      "target": "modi1987/simulink-iiwa-interface",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Modi1987/KST-Kuka-Sunrise-Toolbox",
+      "target": "modi1987/iiwacontorltoolbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Modi1987/KST-Kuka-Sunrise-Toolbox",
+      "target": "modi1987/kst-advanced-examples",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-06T01:05:09.881424+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5102
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A ToolBox for controlling KUKA iiwa robot from matlab:",
+    "fork": false,
+    "full_name": "Modi1987/KST-Kuka-Sunrise-Toolbox",
+    "html_url": "https://github.com/Modi1987/KST-Kuka-Sunrise-Toolbox",
+    "language": "MATLAB",
+    "pushed_at": "2024-12-21T15:55:16Z",
+    "stargazers_count": 186,
+    "topics": [],
+    "updated_at": "2026-04-10T12:35:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "modi1987/iiwacontorltoolbox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "modi1987/iiwapy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "modi1987/kst-advanced-examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "modi1987/simulink-iiwa-interface",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -79,7 +79,7 @@
   "normalized_form": "link-check",
   "observation_id": "55865fc21bb1ad5a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-06T00:36:03.937537+00:00",
   "observed_text": "Link check",
   "source_context_snippet": "'Link check'",
   "source_file": ".github/workflows/link-check.yml.disabled",

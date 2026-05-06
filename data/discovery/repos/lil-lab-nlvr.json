@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lil-lab/nlvr",
+      "target": "clic-lab/nlvr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lil-lab/nlvr",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lil-lab/nlvr",
+      "target": "corpus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lil-lab/nlvr",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lil-lab/nlvr",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T00:37:54.169826+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1407
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cornell NLVR and NLVR2 are natural language grounding datasets. Each example shows a visual input and a sentence describing it, and is annotated with the truth-value of the sentence.",
+    "fork": false,
+    "full_name": "lil-lab/nlvr",
+    "html_url": "https://github.com/lil-lab/nlvr",
+    "language": "HTML",
+    "pushed_at": "2022-08-18T18:59:09Z",
+    "stargazers_count": 268,
+    "topics": [
+      "computer-vision",
+      "corpus",
+      "machine-learning",
+      "natural-language-processing"
+    ],
+    "updated_at": "2026-04-25T18:32:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clic-lab/nlvr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains data for [NLVR](https://github.com/clic-lab/nlvr/tree/master/nlvr) (Suhr et al. 2017) and [NLVR2](https://github.com/clic-lab/nlvr/tree/master/nlvr2) (Suhr and Zhou et al. 2018).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This repository contains data for [NLVR](https://github.com/clic-lab/nlvr/tree/master/nlvr) (Suhr et al. 2017) and [NLVR2](https://github.com/clic-lab/nlvr/tree/master/nlvr2) (Suhr and Zhou et al. 2018).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "corpus"
+    },
+    {
+      "context_snippet": "This repository contains data for [NLVR](https://github.com/clic-lab/nlvr/tree/master/nlvr) (Suhr et al. 2017) and [NLVR2](https://github.com/clic-lab/nlvr/tree/master/nlvr2) (Suhr and Zhou et al. 2018).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "This repository contains data for [NLVR](https://github.com/clic-lab/nlvr/tree/master/nlvr) (Suhr et al. 2017) and [NLVR2](https://github.com/clic-lab/nlvr/tree/master/nlvr2) (Suhr and Zhou et al. 2018).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    }
+  ]
+}

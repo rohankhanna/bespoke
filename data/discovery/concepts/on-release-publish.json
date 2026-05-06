@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "On release publish"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-spatial/tegola",
+      "status": "candidate-context",
+      "text": "Tegola is a Mapbox Vector Tile server written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-spatial/tegola",
+      "status": "candidate-context",
+      "text": "On release publish"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-spatial/tegola",
+      "status": "candidate",
+      "text": "On release publish"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28248,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11917,
+      "status": "candidate",
+      "text": "bring out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11917,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11917,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11917,
+      "status": "candidate",
+      "text": "issue"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "On release publish",
+  "concept_id": "on-release-publish",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": ".github/workflows/on_release_publish.yml",
+      "source_repo": "go-spatial/tegola"
+    }
+  ],
+  "first_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "On release publish",
+      "sense_id": "on-release-publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

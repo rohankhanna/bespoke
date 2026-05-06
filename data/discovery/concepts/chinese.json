@@ -523,6 +523,18 @@
       "source_repo": "fastnlp/CPT",
       "status": "candidate-context",
       "text": "This repository contains code and checkpoints for **CPT**."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lonePatient/NeZha_Chinese_PyTorch",
+      "status": "candidate-context",
+      "text": "NEZHA: Neural Contextualized Representation for Chinese Language Understanding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lonePatient/NeZha_Chinese_PyTorch",
+      "status": "candidate-context",
+      "text": "pytorch\u7248NEZHA\uff0c\u9002\u914dtransformers"
     }
   ],
   "candidate_glosses": [
@@ -783,6 +795,12 @@
       "source_repo": "fastnlp/CPT",
       "status": "candidate",
       "text": "This repository contains code and checkpoints for **CPT**."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lonePatient/NeZha_Chinese_PyTorch",
+      "status": "candidate",
+      "text": "pytorch\u7248NEZHA\uff0c\u9002\u914dtransformers"
     }
   ],
   "candidate_related_terms": [
@@ -1153,11 +1171,23 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "fastnlp/CPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "lonePatient/NeZha_Chinese_PyTorch"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

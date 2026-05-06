@@ -79,7 +79,7 @@
   "normalized_form": "cross-ci-workflow",
   "observation_id": "3be577e6ea08103a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-06T00:36:03.937537+00:00",
   "observed_text": "Cross CI workflow",
   "source_context_snippet": "Cross CI workflow",
   "source_file": ".github/workflows/cross-ci.yaml",

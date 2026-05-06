@@ -1,0 +1,171 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "petercorke/spatialmath-matlab",
+      "target": "petercorke/spatial-math",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/spatialmath-matlab",
+      "target": "animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/spatialmath-matlab",
+      "target": "euler-angles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/spatialmath-matlab",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/spatialmath-matlab",
+      "target": "math",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/spatialmath-matlab",
+      "target": "matlab-toolbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/spatialmath-matlab",
+      "target": "quaternion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/spatialmath-matlab",
+      "target": "robot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/spatialmath-matlab",
+      "target": "roll-pitch-yaw-angles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/spatialmath-matlab",
+      "target": "transform",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T01:05:22.576806+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4970
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Create,  manipulate and convert representations of position and orientation in 2D or 3D using Python",
+    "fork": false,
+    "full_name": "petercorke/spatialmath-matlab",
+    "html_url": "https://github.com/petercorke/spatialmath-matlab",
+    "language": "MATLAB",
+    "pushed_at": "2024-02-27T21:05:58Z",
+    "stargazers_count": 220,
+    "topics": [
+      "2d",
+      "3d",
+      "animation",
+      "euler-angles",
+      "graphics",
+      "math",
+      "matlab-toolbox",
+      "quaternion",
+      "robot",
+      "roll-pitch-yaw-angles",
+      "transform"
+    ],
+    "updated_at": "2026-04-16T02:36:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "petercorke/spatial-math",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![View Spatial Math Toolbox on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/70373-spatial-math-toolbox)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animation"
+    },
+    {
+      "context_snippet": "[![View Spatial Math Toolbox on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/70373-spatial-math-toolbox)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "euler-angles"
+    },
+    {
+      "context_snippet": "[![View Spatial Math Toolbox on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/70373-spatial-math-toolbox)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "[![View Spatial Math Toolbox on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/70373-spatial-math-toolbox)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "math"
+    },
+    {
+      "context_snippet": "[![View Spatial Math Toolbox on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/70373-spatial-math-toolbox)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matlab-toolbox"
+    },
+    {
+      "context_snippet": "[![View Spatial Math Toolbox on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/70373-spatial-math-toolbox)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quaternion"
+    },
+    {
+      "context_snippet": "[![View Spatial Math Toolbox on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/70373-spatial-math-toolbox)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robot"
+    },
+    {
+      "context_snippet": "[![View Spatial Math Toolbox on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/70373-spatial-math-toolbox)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "roll-pitch-yaw-angles"
+    },
+    {
+      "context_snippet": "[![View Spatial Math Toolbox on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/70373-spatial-math-toolbox)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transform"
+    }
+  ]
+}

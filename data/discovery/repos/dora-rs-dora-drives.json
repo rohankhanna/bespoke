@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "dora-rs/dora-drives",
+      "target": "haixuantao/yolov5_strongsort_package",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "dora-rs/dora-drives",
+      "target": "haixuantao/imfnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "dora-rs/dora-drives",
+      "target": "haixuantao/yolov7",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "dora-rs/dora-drives",
+      "target": "haixuantao/frenet_optimal_trajectory_planner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dora-rs/dora-drives",
+      "target": "autonomous",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dora-rs/dora-drives",
+      "target": "driving",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T01:05:30.567703+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2141
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1678
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A step-by-step tutorial that allows beginners to write their own autonomous vehicle program from scratch using a simple starter kit. Dora-drives makes learning autonomous vehicle systems faster and easier.",
+    "fork": false,
+    "full_name": "dora-rs/dora-drives",
+    "html_url": "https://github.com/dora-rs/dora-drives",
+    "language": "Python",
+    "pushed_at": "2024-06-21T18:04:53Z",
+    "stargazers_count": 74,
+    "topics": [
+      "autonomous",
+      "driving"
+    ],
+    "updated_at": "2026-04-11T16:58:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haixuantao/frenet_optimal_trajectory_planner",
+      "source_file": "requirements.txt"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haixuantao/imfnet",
+      "source_file": "requirements.txt"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haixuantao/yolov5_strongsort_package",
+      "source_file": "requirements.txt"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haixuantao/yolov7",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "driving"
+    }
+  ]
+}

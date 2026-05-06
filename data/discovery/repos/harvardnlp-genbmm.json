@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-06T01:07:15.377566+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1851
+    },
+    {
+      "path": "requirements.txt",
+      "size": 6
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CUDA kernels for generalized matrix-multiplication in PyTorch",
+    "fork": false,
+    "full_name": "harvardnlp/genbmm",
+    "html_url": "https://github.com/harvardnlp/genbmm",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2021-10-11T22:37:32Z",
+    "stargazers_count": 86,
+    "topics": [],
+    "updated_at": "2026-03-23T22:58:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

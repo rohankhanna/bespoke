@@ -84,7 +84,7 @@
   "normalized_form": "delete-doc-comment",
   "observation_id": "42815d0fc391b6bd",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-06T00:36:03.937537+00:00",
   "observed_text": "Delete doc comment",
   "source_context_snippet": "Delete doc comment",
   "source_file": ".github/workflows/delete_doc_comment.yml",

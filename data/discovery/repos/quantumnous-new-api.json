@@ -551,7 +551,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T17:07:42.464710+00:00",
+  "fetched_at": "2026-05-06T01:01:44.554273+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -604,7 +604,7 @@
     "html_url": "https://github.com/QuantumNous/new-api",
     "language": "Go",
     "pushed_at": "2026-05-05T15:11:01Z",
-    "stargazers_count": 30737,
+    "stargazers_count": 30759,
     "topics": [
       "ai-gateway",
       "claude",
@@ -614,7 +614,7 @@
       "openai",
       "rerank"
     ],
-    "updated_at": "2026-05-05T16:58:13Z"
+    "updated_at": "2026-05-06T01:01:22Z"
   },
   "repo_links": [
     {

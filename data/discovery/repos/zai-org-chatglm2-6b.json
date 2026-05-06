@@ -51,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T17:08:54.704160+00:00",
+  "fetched_at": "2026-05-06T01:03:55.044699+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -72,14 +72,14 @@
     "html_url": "https://github.com/zai-org/ChatGLM2-6B",
     "language": "Python",
     "pushed_at": "2024-06-27T04:05:08Z",
-    "stargazers_count": 15602,
+    "stargazers_count": 15601,
     "topics": [
       "chatglm",
       "chatglm-6b",
       "large-language-models",
       "llm"
     ],
-    "updated_at": "2026-05-05T09:58:02Z"
+    "updated_at": "2026-05-05T22:45:26Z"
   },
   "repo_links": [
     {

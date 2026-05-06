@@ -84,7 +84,7 @@
   "normalized_form": "pr-tests",
   "observation_id": "6c0f5418b16f31f7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_at": "2026-05-06T00:36:03.937537+00:00",
   "observed_text": "PR Tests",
   "source_context_snippet": "PR Tests",
   "source_file": ".github/workflows/pr-test.yaml",

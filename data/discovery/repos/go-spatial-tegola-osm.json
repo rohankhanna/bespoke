@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-spatial/tegola-osm",
+      "target": "terranodo/tegola",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-spatial/tegola-osm",
+      "target": "omniscale/imposm3",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-06T00:57:09.758453+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17777
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Various scripts for importing and running a mirror of OSM with tegola ",
+    "fork": false,
+    "full_name": "go-spatial/tegola-osm",
+    "html_url": "https://github.com/go-spatial/tegola-osm",
+    "language": "Shell",
+    "pushed_at": "2023-08-30T17:46:50Z",
+    "stargazers_count": 78,
+    "topics": [],
+    "updated_at": "2025-11-08T20:52:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "omniscale/imposm3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "terranodo/tegola",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

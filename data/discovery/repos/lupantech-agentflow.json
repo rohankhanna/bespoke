@@ -1,0 +1,145 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lupantech/AgentFlow",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lupantech/AgentFlow",
+      "target": "agentic-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lupantech/AgentFlow",
+      "target": "agentic-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lupantech/AgentFlow",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lupantech/AgentFlow",
+      "target": "llms-reasoning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lupantech/AgentFlow",
+      "target": "multi-agent-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lupantech/AgentFlow",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lupantech/AgentFlow",
+      "target": "tool-augmented",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T00:43:00.582426+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17088
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1126
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AgentFlow: In-the-Flow Agentic System Optimization",
+    "fork": false,
+    "full_name": "lupantech/AgentFlow",
+    "html_url": "https://github.com/lupantech/AgentFlow",
+    "language": "Python",
+    "pushed_at": "2026-02-08T14:00:53Z",
+    "stargazers_count": 1803,
+    "topics": [
+      "agentic-ai",
+      "agentic-systems",
+      "llms",
+      "llms-reasoning",
+      "multi-agent-systems",
+      "reinforcement-learning",
+      "tool-augmented"
+    ],
+    "updated_at": "2026-05-05T15:42:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-ai"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-systems"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms-reasoning"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent-systems"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tool-augmented"
+    }
+  ]
+}

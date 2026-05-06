@@ -19,6 +19,18 @@
       "source_repo": "gpac/gpac",
       "status": "candidate-context",
       "text": "[![Build Status](https://tests.gpac.io/testres/badge/build/ubuntu64)](https://buildbot.gpac.io/#/grid?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gpac/testsuite",
+      "status": "candidate-context",
+      "text": "GPAC test suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpac/testsuite",
+      "status": "candidate-context",
+      "text": "This is the documentation for creating a new test in GPAC test suite."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "gpac/gpac",
       "status": "candidate",
       "text": "[![Build Status](https://tests.gpac.io/testres/badge/build/ubuntu64)](https://buildbot.gpac.io/#/grid?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpac/testsuite",
+      "status": "candidate",
+      "text": "This is the documentation for creating a new test in GPAC test suite."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "gpac/gpac"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "gpac/testsuite"
     }
   ],
   "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],

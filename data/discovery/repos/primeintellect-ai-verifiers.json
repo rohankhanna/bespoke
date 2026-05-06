@@ -18,21 +18,6 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-renderers.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-renderers.yml"
-    },
-    {
-      "component": "astral-sh/setup-uv@v7",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-renderers.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish-verifiers-rl.yml"
     },
     {
@@ -163,6 +148,13 @@
   ],
   "edges": [
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "PrimeIntellect-ai/verifiers",
+      "target": "primeintellect-ai/renderers",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish-envs.yml",
       "source_repo": "PrimeIntellect-ai/verifiers",
@@ -181,27 +173,6 @@
       "source_file": ".github/workflows/publish-envs.yml",
       "source_repo": "PrimeIntellect-ai/verifiers",
       "target": "Publish Envs",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-renderers.yml",
-      "source_repo": "PrimeIntellect-ai/verifiers",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-renderers.yml",
-      "source_repo": "PrimeIntellect-ai/verifiers",
-      "target": "astral-sh/setup-uv@v7",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/publish-renderers.yml",
-      "source_repo": "PrimeIntellect-ai/verifiers",
-      "target": "Publish renderers",
       "target_type": "term"
     },
     {
@@ -345,7 +316,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T16:59:19.793395+00:00",
+  "fetched_at": "2026-05-06T00:45:41.486279+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -353,7 +324,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 5955
+      "size": 6213
     },
     {
       "path": ".github/workflows/README.md",
@@ -362,10 +333,6 @@
     {
       "path": ".github/workflows/publish-envs.yml",
       "size": 2496
-    },
-    {
-      "path": ".github/workflows/publish-renderers.yml",
-      "size": 2184
     },
     {
       "path": ".github/workflows/publish-verifiers-rl.yml",
@@ -397,24 +364,24 @@
     "full_name": "PrimeIntellect-ai/verifiers",
     "html_url": "https://github.com/PrimeIntellect-ai/verifiers",
     "language": "Python",
-    "pushed_at": "2026-05-05T16:22:00Z",
+    "pushed_at": "2026-05-05T22:17:01Z",
     "stargazers_count": 4072,
     "topics": [],
-    "updated_at": "2026-05-05T15:37:59Z"
+    "updated_at": "2026-05-05T22:17:01Z"
   },
-  "repo_links": [],
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "primeintellect-ai/renderers",
+      "source_file": "pyproject.toml"
+    }
+  ],
   "terms": [
     {
       "context_snippet": "Publish Envs",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/publish-envs.yml",
       "term": "Publish Envs"
-    },
-    {
-      "context_snippet": "Publish renderers",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/publish-renderers.yml",
-      "term": "Publish renderers"
     },
     {
       "context_snippet": "Publish verifiers-rl",

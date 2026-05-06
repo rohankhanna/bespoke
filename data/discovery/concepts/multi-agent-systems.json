@@ -265,6 +265,18 @@
       "source_repo": "DerrickXuNu/OpenCOOD",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lupantech/AgentFlow",
+      "status": "candidate-context",
+      "text": "AgentFlow: In-the-Flow Agentic System Optimization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lupantech/AgentFlow",
+      "status": "candidate-context",
+      "text": "<a name=\"readme-top\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -393,6 +405,12 @@
       "source_repo": "DerrickXuNu/OpenCOOD",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lupantech/AgentFlow",
+      "status": "candidate",
+      "text": "<a name=\"readme-top\"></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -820,11 +838,17 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "echo-yiyiyi/cube"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T00:36:03.937537+00:00",
+      "source_file": null,
+      "source_repo": "lupantech/AgentFlow"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "lexical_providers": [
     "datamuse"
   ],
