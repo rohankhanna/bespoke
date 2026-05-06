@@ -2152,6 +2152,30 @@
       "source_repo": "GrapheneOS/Vanadium",
       "status": "candidate-context",
       "text": "Vanadium is a privacy and security hardened variant of Chromium providing the WebView (used by"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xbdcc/CCommand",
+      "status": "candidate-context",
+      "text": "Adb\u548c\u5404\u79cdandroid\u76f8\u5173\u5f00\u53d1\u5b9e\u7528\u547d\u4ee4\u6536\u96c6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xbdcc/CCommand",
+      "status": "candidate-context",
+      "text": "Adb\u5404\u79cd\u5b9e\u7528\u547d\u4ee4\u6536\u96c6"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xbdcc/CUtils",
+      "status": "candidate-context",
+      "text": "an android tool library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xbdcc/CUtils",
+      "status": "candidate-context",
+      "text": "[![api](https://img.shields.io/badge/API-19+-brightgreen.svg)](https://android-arsenal.com/api?level=19)"
     }
   ],
   "candidate_glosses": [
@@ -3246,6 +3270,18 @@
       "source_repo": "GrapheneOS/Vanadium",
       "status": "candidate",
       "text": "Vanadium is a privacy and security hardened variant of Chromium providing the WebView (used by"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xbdcc/CCommand",
+      "status": "candidate",
+      "text": "Adb\u5404\u79cd\u5b9e\u7528\u547d\u4ee4\u6536\u96c6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xbdcc/CUtils",
+      "status": "candidate",
+      "text": "[![api](https://img.shields.io/badge/API-19+-brightgreen.svg)](https://android-arsenal.com/api?level=19)"
     }
   ],
   "candidate_related_terms": [
@@ -5038,11 +5074,29 @@
       "observed_at": "2026-05-06T12:51:12.481137+00:00",
       "source_file": ".github/workflows/android-ci.yml",
       "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "xbdcc/CCommand"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "xbdcc/CUtils"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "nitaliano/react-native-mapbox-gl"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

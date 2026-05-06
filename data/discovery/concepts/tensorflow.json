@@ -1561,6 +1561,30 @@
       "source_repo": "a-lucic/focus",
       "status": "candidate-context",
       "text": "This repository is the official implementation of the [AAAI 2022 paper \"FOCUS: Flexible Optimizable Counterfactual Explanations for Tree Ensembles\"](https://arxiv.org/abs/1911.12199)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/hit-gan",
+      "status": "candidate-context",
+      "text": "Tensorflow implementation for \"Improved Transformer for High-Resolution GANs\" (NeurIPS 2021)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/hit-gan",
+      "status": "candidate-context",
+      "text": "HiT-GAN presents a Transformer-based generator that is trained based on Generative Adversarial Networks (GANs). It achieves state-of-the-art performance for high-resolution image synthesis. Please check our NeurIPS 2021 paper \"[Improved Transformer for High-Resolution GANs](http\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sayakpaul/maxim-tf",
+      "status": "candidate-context",
+      "text": "Implementation of MAXIM in TensorFlow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/maxim-tf",
+      "status": "candidate-context",
+      "text": "[![HugginFace badge](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Spaces-yellow.svg)](https://huggingface.co/spaces/sayakpaul/maxim-spaces)"
     }
   ],
   "candidate_glosses": [
@@ -2343,6 +2367,18 @@
       "source_repo": "a-lucic/focus",
       "status": "candidate",
       "text": "This repository is the official implementation of the [AAAI 2022 paper \"FOCUS: Flexible Optimizable Counterfactual Explanations for Tree Ensembles\"](https://arxiv.org/abs/1911.12199)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/hit-gan",
+      "status": "candidate",
+      "text": "HiT-GAN presents a Transformer-based generator that is trained based on Generative Adversarial Networks (GANs). It achieves state-of-the-art performance for high-resolution image synthesis. Please check our NeurIPS 2021 paper \"[Improved Transformer for High-Resolution GANs](http\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/maxim-tf",
+      "status": "candidate",
+      "text": "[![HugginFace badge](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Spaces-yellow.svg)](https://huggingface.co/spaces/sayakpaul/maxim-spaces)"
     }
   ],
   "candidate_related_terms": [
@@ -4144,11 +4180,53 @@
       "observed_at": "2026-05-06T12:51:12.481137+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "google-research/hit-gan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "sayakpaul/maxim-tf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "malaysia-ai/malaya"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

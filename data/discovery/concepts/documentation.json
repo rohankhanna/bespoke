@@ -2548,6 +2548,18 @@
       "source_repo": "jump-dev/JuMP.jl",
       "status": "candidate-context",
       "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDiff/DiffRules.jl",
+      "status": "candidate-context",
+      "text": "A simple shared suite of common derivative definitions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDiff/DiffRules.jl",
+      "status": "candidate-context",
+      "text": "Documentation"
     }
   ],
   "candidate_glosses": [
@@ -3850,6 +3862,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jump-dev/JuMP.jl",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDiff/DiffRules.jl",
       "status": "candidate",
       "text": "Documentation"
     }
@@ -6438,11 +6456,53 @@
       "observed_at": "2026-05-06T12:51:12.481137+00:00",
       "source_file": ".github/workflows/documentation.yml",
       "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "JuliaDiff/DiffRules.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/ROCm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "insodoc/insomnia-documenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "geotiffjs/geotiff.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

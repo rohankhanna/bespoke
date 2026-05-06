@@ -91,6 +91,18 @@
       "source_repo": "heshengtao/comfyui_LLM_party",
       "status": "candidate-context",
       "text": "![\u56fe\u7247](img/\u5c01\u9762.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shibing624/ChatPDF",
+      "status": "candidate-context",
+      "text": "RAG for Local LLM, chat with PDF/doc/txt files, ChatPDF. \u7eaf\u539f\u751f\u5b9e\u73b0RAG\u529f\u80fd\uff0c\u57fa\u4e8e\u672c\u5730LLM\u3001embedding\u6a21\u578b\u3001reranker\u6a21\u578b\u5b9e\u73b0\uff0c\u652f\u6301GraphRAG\uff0c\u65e0\u987b\u5b89\u88c5\u4efb\u4f55\u7b2c\u4e09\u65b9agent\u5e93\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shibing624/ChatPDF",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">ChatPDF</h1>"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "heshengtao/comfyui_LLM_party",
       "status": "candidate",
       "text": "![\u56fe\u7247](img/\u5c01\u9762.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shibing624/ChatPDF",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">ChatPDF</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "heshengtao/comfyui_LLM_party"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "shibing624/ChatPDF"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

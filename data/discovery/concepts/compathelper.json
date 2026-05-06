@@ -1513,6 +1513,18 @@
       "source_repo": "JuliaLLVM/LLVM.jl",
       "status": "candidate-context",
       "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDiff/DiffRules.jl",
+      "status": "candidate-context",
+      "text": "A simple shared suite of common derivative definitions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDiff/DiffRules.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
     }
   ],
   "candidate_glosses": [
@@ -2281,6 +2293,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaLLVM/LLVM.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDiff/DiffRules.jl",
       "status": "candidate",
       "text": "CompatHelper"
     }
@@ -3574,11 +3592,17 @@
       "observed_at": "2026-05-06T12:51:12.481137+00:00",
       "source_file": ".github/workflows/CompatHelper.yml",
       "source_repo": "JuliaGizmos/Blink.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaDiff/DiffRules.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

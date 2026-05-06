@@ -1,0 +1,301 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-macos.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "vapier/coverity-scan-action@2068473c7bdf8c2fb984a6a40ae76ee7facd7a85",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-macos.yml",
+      "source_repo": "apache/tomcat",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-macos.yml",
+      "source_repo": "apache/tomcat",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-macos.yml",
+      "source_repo": "apache/tomcat",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-macos.yml",
+      "source_repo": "apache/tomcat",
+      "target": "Smoke Test - MacOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/tomcat",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/tomcat",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/tomcat",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/tomcat",
+      "target": "Smoke Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "apache/tomcat",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "apache/tomcat",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "apache/tomcat",
+      "target": "vapier/coverity-scan-action@2068473c7bdf8c2fb984a6a40ae76ee7facd7a85",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "apache/tomcat",
+      "target": "Coverity Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "apache/tomcat",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "apache/tomcat",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "apache/tomcat",
+      "target": "Validate code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/tomcat",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/tomcat",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/tomcat",
+      "target": "javaee",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/tomcat",
+      "target": "network-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/tomcat",
+      "target": "tomcat",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T18:46:40.189059+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3223
+    },
+    {
+      "path": ".github/workflows/ci-macos.yml",
+      "size": 5389
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2010
+    },
+    {
+      "path": ".github/workflows/coverity.yml",
+      "size": 1323
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "size": 1267
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Apache Tomcat",
+    "fork": false,
+    "full_name": "apache/tomcat",
+    "html_url": "https://github.com/apache/tomcat",
+    "language": "Java",
+    "pushed_at": "2026-05-06T13:24:43Z",
+    "stargazers_count": 8163,
+    "topics": [
+      "http",
+      "java",
+      "javaee",
+      "network-server",
+      "tomcat"
+    ],
+    "updated_at": "2026-05-06T09:45:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Smoke Test - MacOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-macos.yml",
+      "term": "Smoke Test - MacOS"
+    },
+    {
+      "context_snippet": "Smoke Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Smoke Test"
+    },
+    {
+      "context_snippet": "Coverity Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "term": "Coverity Scan"
+    },
+    {
+      "context_snippet": "Validate code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yml",
+      "term": "Validate code"
+    },
+    {
+      "context_snippet": "The Apache Tomcat\u00ae software is an open source implementation of the Jakarta",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "The Apache Tomcat\u00ae software is an open source implementation of the Jakarta",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "The Apache Tomcat\u00ae software is an open source implementation of the Jakarta",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "javaee"
+    },
+    {
+      "context_snippet": "The Apache Tomcat\u00ae software is an open source implementation of the Jakarta",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "network-server"
+    },
+    {
+      "context_snippet": "The Apache Tomcat\u00ae software is an open source implementation of the Jakarta",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tomcat"
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yaml"
+    },
+    {
+      "component": "lvyufeng/action-kaggle-gpu-test@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc_rst_check.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc_rst_check.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_wheel_releases.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_wheel_releases.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_wheel_releases.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_wheel_releases.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yaml",
+      "source_repo": "mindspore-lab/mindnlp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yaml",
+      "source_repo": "mindspore-lab/mindnlp",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yaml",
+      "source_repo": "mindspore-lab/mindnlp",
+      "target": "lvyufeng/action-kaggle-gpu-test@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_pipeline.yaml",
+      "source_repo": "mindspore-lab/mindnlp",
+      "target": "CI Pipe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc_rst_check.yaml",
+      "source_repo": "mindspore-lab/mindnlp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc_rst_check.yaml",
+      "source_repo": "mindspore-lab/mindnlp",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc_rst_check.yaml",
+      "source_repo": "mindspore-lab/mindnlp",
+      "target": "Check rst lint for documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_wheel_releases.yml",
+      "source_repo": "mindspore-lab/mindnlp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_wheel_releases.yml",
+      "source_repo": "mindspore-lab/mindnlp",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_wheel_releases.yml",
+      "source_repo": "mindspore-lab/mindnlp",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_wheel_releases.yml",
+      "source_repo": "mindspore-lab/mindnlp",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make_wheel_releases.yml",
+      "source_repo": "mindspore-lab/mindnlp",
+      "target": "Make Wheel and Releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mindspore-lab/mindnlp",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mindspore-lab/mindnlp",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mindspore-lab/mindnlp",
+      "target": "huggingface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mindspore-lab/mindnlp",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mindspore-lab/mindnlp",
+      "target": "mindspore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mindspore-lab/mindnlp",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mindspore-lab/mindnlp",
+      "target": "nlp-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T18:53:15.579827+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8223
+    },
+    {
+      "path": ".github/workflows/ci_pipeline.yaml",
+      "size": 6421
+    },
+    {
+      "path": ".github/workflows/doc_rst_check.yaml",
+      "size": 534
+    },
+    {
+      "path": ".github/workflows/make_wheel_releases.yml",
+      "size": 809
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MindSpore +  \ud83e\udd17Huggingface: Run any Transformers/Diffusers model on MindSpore with seamless compatibility and acceleration.",
+    "fork": false,
+    "full_name": "mindspore-lab/mindnlp",
+    "html_url": "https://github.com/mindspore-lab/mindnlp",
+    "language": "Python",
+    "pushed_at": "2026-03-08T08:54:02Z",
+    "stargazers_count": 918,
+    "topics": [
+      "deep-learning",
+      "diffusion-models",
+      "huggingface",
+      "large-language-models",
+      "llm",
+      "mindspore",
+      "natural-language-processing",
+      "nlp",
+      "nlp-library",
+      "python",
+      "vlm"
+    ],
+    "updated_at": "2026-04-29T08:17:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI Pipe",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_pipeline.yaml",
+      "term": "CI Pipe"
+    },
+    {
+      "context_snippet": "Check rst lint for documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc_rst_check.yaml",
+      "term": "Check rst lint for documentation"
+    },
+    {
+      "context_snippet": "Make Wheel and Releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make_wheel_releases.yml",
+      "term": "Make Wheel and Releases"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huggingface"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mindspore"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nlp-library"
+    }
+  ]
+}

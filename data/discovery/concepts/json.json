@@ -1567,6 +1567,18 @@
       "source_repo": "jzelinskie/faq",
       "status": "candidate-context",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/jzelinskie/faq?style=flat-square)](https://goreportcard.com/report/github.com/jzelinskie/faq)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/tilejson-spec",
+      "status": "candidate-context",
+      "text": "JSON format for describing map tilesets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/tilejson-spec",
+      "status": "candidate-context",
+      "text": "TileJSON is an open standard for representing map metadata. Current version: [3.0.0](/3.0.0)"
     }
   ],
   "candidate_glosses": [
@@ -2349,6 +2361,12 @@
       "source_repo": "jzelinskie/faq",
       "status": "candidate",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/jzelinskie/faq?style=flat-square)](https://goreportcard.com/report/github.com/jzelinskie/faq)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/tilejson-spec",
+      "status": "candidate",
+      "text": "TileJSON is an open standard for representing map metadata. Current version: [3.0.0](/3.0.0)"
     }
   ],
   "candidate_related_terms": [
@@ -3771,11 +3789,23 @@
       "observed_at": "2026-05-06T12:51:12.481137+00:00",
       "source_file": null,
       "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/quotes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/tilejson-spec"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

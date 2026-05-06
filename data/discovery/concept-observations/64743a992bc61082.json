@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Adb\u548c\u5404\u79cdandroid\u76f8\u5173\u5f00\u53d1\u5b9e\u7528\u547d\u4ee4\u6536\u96c6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Adb\u5404\u79cd\u5b9e\u7528\u547d\u4ee4\u6536\u96c6"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Adb\u5404\u79cd\u5b9e\u7528\u547d\u4ee4\u6536\u96c6"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043744,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043659,
+      "status": "candidate",
+      "text": "bidding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043116,
+      "status": "candidate",
+      "text": "mastery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042581,
+      "status": "candidate",
+      "text": "dominate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040917,
+      "status": "candidate",
+      "text": "instruction"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "command",
+      "sense_id": "command#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48079,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46037,
+      "status": "candidate",
+      "text": "compel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26034,
+      "status": "candidate",
+      "text": "overlook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18034,
+      "status": "candidate",
+      "text": "require"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18032,
+      "status": "candidate",
+      "text": "dominate"
+    }
+  ],
+  "concept_id": "command",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "command",
+  "observation_id": "64743a992bc61082",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-06T18:41:14.951242+00:00",
+  "observed_text": "command",
+  "source_context_snippet": "Adb\u5404\u79cd\u5b9e\u7528\u547d\u4ee4\u6536\u96c6",
+  "source_file": null,
+  "source_repo": "xbdcc/CCommand",
+  "source_repo_description": "Adb\u548c\u5404\u79cdandroid\u76f8\u5173\u5f00\u53d1\u5b9e\u7528\u547d\u4ee4\u6536\u96c6"
+}

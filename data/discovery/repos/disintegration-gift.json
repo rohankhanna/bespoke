@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "disintegration/gift",
+      "target": "filters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "disintegration/gift",
+      "target": "image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "disintegration/gift",
+      "target": "image-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T18:44:50.637372+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9890
+    },
+    {
+      "path": "go.mod",
+      "size": 38
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go Image Filtering Toolkit",
+    "fork": false,
+    "full_name": "disintegration/gift",
+    "html_url": "https://github.com/disintegration/gift",
+    "language": "Go",
+    "pushed_at": "2023-09-20T07:18:58Z",
+    "stargazers_count": 1796,
+    "topics": [
+      "filters",
+      "go",
+      "image",
+      "image-processing"
+    ],
+    "updated_at": "2026-04-27T18:36:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/disintegration/gift?status.svg)](https://godoc.org/github.com/disintegration/gift)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filters"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/disintegration/gift?status.svg)](https://godoc.org/github.com/disintegration/gift)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/disintegration/gift?status.svg)](https://godoc.org/github.com/disintegration/gift)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    }
+  ]
+}

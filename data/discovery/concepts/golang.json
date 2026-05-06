@@ -5051,6 +5051,42 @@
       "source_repo": "tmc/langchaingo",
       "status": "candidate-context",
       "text": "> \ud83c\udf89 **Join our new official Discord community!** Connect with other LangChain Go developers, get help and contribute: [Join Discord](https://discord.gg/t9UbBQs2rG)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "box-cli-maker/box-cli-maker",
+      "status": "candidate-context",
+      "text": "Render highly customizable boxes in the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box-cli-maker/box-cli-maker",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flipped-aurora/gin-vue-admin",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80Vite+Vue3+Gin\u62e5\u6709AI\u8f85\u52a9\u7684\u57fa\u7840\u5f00\u53d1\u5e73\u53f0\uff0c\u4f01\u4e1a\u7ea7\u4e1a\u52a1AI+\u5f00\u53d1\u89e3\u51b3\u65b9\u6848\uff0c\u5185\u7f6emcp\u8f85\u52a9\u670d\u52a1\uff0c\u5185\u7f6eskills\u7ba1\u7406\uff0c\u652f\u6301TS\u548cJS\u6df7\u7528\u3002\u5b83\u96c6\u6210\u4e86JWT\u9274\u6743\u3001\u6743\u9650\u7ba1\u7406\u3001\u52a8\u6001\u8def\u7531\u3001\u663e\u9690\u53ef\u63a7\u7ec4\u4ef6\u3001\u5206\u9875\u5c01\u88c5\u3001\u591a\u70b9\u767b\u5f55\u62e6\u622a\u3001\u8d44\u6e90\u6743\u9650\u3001\u4e0a\u4f20\u4e0b\u8f7d\u3001\u4ee3\u7801\u751f\u6210\u5668\u3001\u8868\u5355\u751f\u6210\u5668\u548c\u53ef\u914d\u7f6e\u7684\u5bfc\u5165\u5bfc\u51fa\u7b49\u5f00\u53d1\u5fc5\u5907\u529f\u80fd\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flipped-aurora/gin-vue-admin",
+      "status": "candidate-context",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gookit/cache",
+      "status": "candidate-context",
+      "text": "\ud83d\uddc3  Generic cache use and cache manage. Provide a unified usage API by packaging various commonly used drivers. Support File, Memory, Redis, Memcached and more. Go \u901a\u7528\u7684\u7f13\u5b58\u4f7f\u7528\u5e93\uff0c\u901a\u8fc7\u5305\u88c5\u5404\u79cd\u5e38\u7528\u7684\u9a71\u52a8\uff0c\u6765\u63d0\u4f9b\u7edf\u4e00\u7684\u4f7f\u7528API\uff0c\u4fbf\u4e8e\u4f7f\u7528\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/cache",
+      "status": "candidate-context",
+      "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/cache?style=flat-square)"
     }
   ],
   "candidate_glosses": [
@@ -7585,6 +7621,24 @@
       "source_repo": "tmc/langchaingo",
       "status": "candidate",
       "text": "> \ud83c\udf89 **Join our new official Discord community!** Connect with other LangChain Go developers, get help and contribute: [Join Discord](https://discord.gg/t9UbBQs2rG)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box-cli-maker/box-cli-maker",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flipped-aurora/gin-vue-admin",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/cache",
+      "status": "candidate",
+      "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/cache?style=flat-square)"
     }
   ],
   "candidate_related_terms": [],
@@ -11426,11 +11480,53 @@
       "observed_at": "2026-05-06T12:51:12.481137+00:00",
       "source_file": null,
       "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "box-cli-maker/box-cli-maker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "flipped-aurora/gin-vue-admin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "gookit/cache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "stephenlacy/daz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "go-spatial/tegola"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

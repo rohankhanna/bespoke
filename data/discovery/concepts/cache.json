@@ -490,6 +490,18 @@
       "source_repo": "allegro/bigcache",
       "status": "candidate-context",
       "text": "Fast, concurrent, evicting in-memory cache written to keep big number of entries without impact on performance."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gookit/cache",
+      "status": "candidate-context",
+      "text": "\ud83d\uddc3  Generic cache use and cache manage. Provide a unified usage API by packaging various commonly used drivers. Support File, Memory, Redis, Memcached and more. Go \u901a\u7528\u7684\u7f13\u5b58\u4f7f\u7528\u5e93\uff0c\u901a\u8fc7\u5305\u88c5\u5404\u79cd\u5e38\u7528\u7684\u9a71\u52a8\uff0c\u6765\u63d0\u4f9b\u7edf\u4e00\u7684\u4f7f\u7528API\uff0c\u4fbf\u4e8e\u4f7f\u7528\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/cache",
+      "status": "candidate-context",
+      "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/cache?style=flat-square)"
     }
   ],
   "candidate_glosses": [
@@ -732,6 +744,12 @@
       "source_repo": "allegro/bigcache",
       "status": "candidate",
       "text": "Fast, concurrent, evicting in-memory cache written to keep big number of entries without impact on performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/cache",
+      "status": "candidate",
+      "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/cache?style=flat-square)"
     }
   ],
   "candidate_related_terms": [
@@ -1201,11 +1219,17 @@
       "observed_at": "2026-05-06T12:51:12.481137+00:00",
       "source_file": null,
       "source_repo": "allegro/bigcache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "gookit/cache"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

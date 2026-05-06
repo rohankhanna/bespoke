@@ -76,11 +76,17 @@
       "observed_at": "2026-05-06T00:36:03.937537+00:00",
       "source_file": ".github/workflows/on_release_publish.yml",
       "source_repo": "go-spatial/tegola"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": ".github/workflows/on_release_publish.yml",
+      "source_repo": "go-spatial/tegola"
     }
   ],
   "first_seen_at": "2026-05-06T00:36:03.937537+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

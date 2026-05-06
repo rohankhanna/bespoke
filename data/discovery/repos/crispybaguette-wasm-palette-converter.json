@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-06T18:45:18.692917+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 167
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go+Wasm image palette converter",
+    "fork": false,
+    "full_name": "CrispyBaguette/wasm-palette-converter",
+    "html_url": "https://github.com/CrispyBaguette/wasm-palette-converter",
+    "language": "JavaScript",
+    "pushed_at": "2024-12-23T00:10:36Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2025-11-03T14:59:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

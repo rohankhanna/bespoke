@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "gradle-nexus/publish-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "agentclientprotocol/kotlin-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publishMavenCentral.yml",
+      "source_repo": "agentclientprotocol/kotlin-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pullRequest.yml",
+      "source_repo": "agentclientprotocol/kotlin-sdk"
     }
   ]
 }

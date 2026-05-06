@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Agent Client Protocol Kotlin SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish Library to Space"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish Library to Space"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34562,
+      "status": "candidate",
+      "text": "stacks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27112,
+      "status": "candidate",
+      "text": "carrel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26312,
+      "status": "candidate",
+      "text": "set of bookshelves"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20614,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19401,
+      "status": "candidate",
+      "text": "give"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Library to Space",
+      "sense_id": "publish-library-to-space#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-library-to-space",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-library-to-space",
+  "observation_id": "d8cd34f40278960d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-06T18:41:14.951242+00:00",
+  "observed_text": "Publish Library to Space",
+  "source_context_snippet": "Publish Library to Space",
+  "source_file": ".github/workflows/publish.yml",
+  "source_repo": "agentclientprotocol/kotlin-sdk",
+  "source_repo_description": "Agent Client Protocol Kotlin SDK"
+}

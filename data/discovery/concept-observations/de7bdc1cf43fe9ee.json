@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "RAG for Local LLM, chat with PDF/doc/txt files, ChatPDF. \u7eaf\u539f\u751f\u5b9e\u73b0RAG\u529f\u80fd\uff0c\u57fa\u4e8e\u672c\u5730LLM\u3001embedding\u6a21\u578b\u3001reranker\u6a21\u578b\u5b9e\u73b0\uff0c\u652f\u6301GraphRAG\uff0c\u65e0\u987b\u5b89\u88c5\u4efb\u4f55\u7b2c\u4e09\u65b9agent\u5e93\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">ChatPDF</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">ChatPDF</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chatdoc",
+      "sense_id": "chatdoc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chatdoc",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chatdoc",
+  "observation_id": "de7bdc1cf43fe9ee",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-06T18:41:14.951242+00:00",
+  "observed_text": "chatdoc",
+  "source_context_snippet": "<h1 align=\"center\">ChatPDF</h1>",
+  "source_file": null,
+  "source_repo": "shibing624/ChatPDF",
+  "source_repo_description": "RAG for Local LLM, chat with PDF/doc/txt files, ChatPDF. \u7eaf\u539f\u751f\u5b9e\u73b0RAG\u529f\u80fd\uff0c\u57fa\u4e8e\u672c\u5730LLM\u3001embedding\u6a21\u578b\u3001reranker\u6a21\u578b\u5b9e\u73b0\uff0c\u652f\u6301GraphRAG\uff0c\u65e0\u987b\u5b89\u88c5\u4efb\u4f55\u7b2c\u4e09\u65b9agent\u5e93\u3002"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\uddc3  Generic cache use and cache manage. Provide a unified usage API by packaging various commonly used drivers. Support File, Memory, Redis, Memcached and more. Go \u901a\u7528\u7684\u7f13\u5b58\u4f7f\u7528\u5e93\uff0c\u901a\u8fc7\u5305\u88c5\u5404\u79cd\u5e38\u7528\u7684\u9a71\u52a8\uff0c\u6765\u63d0\u4f9b\u7edf\u4e00\u7684\u4f7f\u7528API\uff0c\u4fbf\u4e8e\u4f7f\u7528\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Tag-release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Tag-release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tag-release",
+      "sense_id": "tag-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tag-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tag-release",
+  "observation_id": "ba3b7a234fae9079",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-06T18:41:14.951242+00:00",
+  "observed_text": "Tag-release",
+  "source_context_snippet": "Tag-release",
+  "source_file": ".github/workflows/release.yml",
+  "source_repo": "gookit/cache",
+  "source_repo_description": "\ud83d\uddc3  Generic cache use and cache manage. Provide a unified usage API by packaging various commonly used drivers. Support File, Memory, Redis, Memcached and more. Go \u901a\u7528\u7684\u7f13\u5b58\u4f7f\u7528\u5e93\uff0c\u901a\u8fc7\u5305\u88c5\u5404\u79cd\u5e38\u7528\u7684\u9a71\u52a8\uff0c\u6765\u63d0\u4f9b\u7edf\u4e00\u7684\u4f7f\u7528API\uff0c\u4fbf\u4e8e\u4f7f\u7528\u3002"
+}

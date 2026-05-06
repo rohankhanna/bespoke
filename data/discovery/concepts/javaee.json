@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "javaee"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/tomcat",
+      "status": "candidate-context",
+      "text": "Apache Tomcat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/tomcat",
+      "status": "candidate-context",
+      "text": "The Apache Tomcat\u00ae software is an open source implementation of the Jakarta"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/tomcat",
+      "status": "candidate",
+      "text": "The Apache Tomcat\u00ae software is an open source implementation of the Jakarta"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020431,
+      "status": "candidate",
+      "text": "j2ee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020430,
+      "status": "candidate",
+      "text": "j2se"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020429,
+      "status": "candidate",
+      "text": "win7"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020428,
+      "status": "candidate",
+      "text": "winxp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020427,
+      "status": "candidate",
+      "text": "double e"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "javaee",
+  "concept_id": "javaee",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "apache/tomcat"
+    }
+  ],
+  "first_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "javaee",
+      "sense_id": "javaee#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

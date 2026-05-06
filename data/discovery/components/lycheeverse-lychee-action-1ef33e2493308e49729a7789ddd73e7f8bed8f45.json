@@ -1,0 +1,12 @@
+{
+  "component": "lycheeverse/lychee-action@1ef33e2493308e49729a7789ddd73e7f8bed8f45",
+  "first_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "agentclientprotocol/python-sdk"
+    }
+  ]
+}

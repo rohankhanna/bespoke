@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blank.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blank.yml",
+      "source_repo": "alexhumphreys/idrall",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blank.yml",
+      "source_repo": "alexhumphreys/idrall",
+      "target": "Ubuntu",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T19:11:05.634053+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9031
+    },
+    {
+      "path": ".github/workflows/blank.yml",
+      "size": 886
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Dhall bindings for Idris",
+    "fork": false,
+    "full_name": "alexhumphreys/idrall",
+    "html_url": "https://github.com/alexhumphreys/idrall",
+    "language": "Idris",
+    "pushed_at": "2025-08-14T13:15:06Z",
+    "stargazers_count": 41,
+    "topics": [],
+    "updated_at": "2025-08-14T13:15:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Ubuntu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blank.yml",
+      "term": "Ubuntu"
+    }
+  ]
+}

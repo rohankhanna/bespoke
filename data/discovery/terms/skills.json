@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -111,6 +111,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "microsoft/botframework-components"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "flipped-aurora/gin-vue-admin"
     }
   ],
   "term": "skills"

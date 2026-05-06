@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapbox/tilejson-spec",
+      "target": "mapbox/tilestream",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapbox/tilejson-spec",
+      "target": "mapbox/node-tilejson",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapbox/tilejson-spec",
+      "target": "kartena/leaflet-tilejson",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapbox/tilejson-spec",
+      "target": "jingsam/tilejson-spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/tilejson-spec",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/tilejson-spec",
+      "target": "mapbox-gl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/tilejson-spec",
+      "target": "specification",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T19:09:39.156609+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1229
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "JSON format for describing map tilesets.",
+    "fork": false,
+    "full_name": "mapbox/tilejson-spec",
+    "html_url": "https://github.com/mapbox/tilejson-spec",
+    "language": null,
+    "pushed_at": "2026-01-14T18:33:44Z",
+    "stargazers_count": 291,
+    "topics": [
+      "json",
+      "mapbox-gl",
+      "specification"
+    ],
+    "updated_at": "2026-03-27T23:35:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jingsam/tilejson-spec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kartena/leaflet-tilejson",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mapbox/node-tilejson",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mapbox/tilestream",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "TileJSON is an open standard for representing map metadata. Current version: [3.0.0](/3.0.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "TileJSON is an open standard for representing map metadata. Current version: [3.0.0](/3.0.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mapbox-gl"
+    },
+    {
+      "context_snippet": "TileJSON is an open standard for representing map metadata. Current version: [3.0.0](/3.0.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "specification"
+    }
+  ]
+}

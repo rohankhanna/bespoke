@@ -24,9 +24,9 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "requirements.txt",
       "source_repo": "tpoisonooo/ROGRAG",
-      "target": "openspg/kag",
+      "target": "tpoisonooo/textract",
       "target_type": "repository"
     },
     {
@@ -65,7 +65,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-06T00:41:59.468281+00:00",
+  "fetched_at": "2026-05-06T18:53:29.943530+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -86,7 +86,7 @@
     "html_url": "https://github.com/tpoisonooo/ROGRAG",
     "language": "Python",
     "pushed_at": "2025-12-12T03:46:36Z",
-    "stargazers_count": 197,
+    "stargazers_count": 198,
     "topics": [
       "knowledge-base",
       "knowledge-graph",
@@ -95,7 +95,7 @@
       "precision",
       "retrieval-augmented-generation"
     ],
-    "updated_at": "2026-05-05T08:26:26Z"
+    "updated_at": "2026-05-06T03:10:23Z"
   },
   "repo_links": [
     {
@@ -110,13 +110,13 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "openspg/kag",
+      "full_name": "tpoisonooo/huixiangdou2",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "tpoisonooo/huixiangdou2",
-      "source_file": "README.md"
+      "full_name": "tpoisonooo/textract",
+      "source_file": "requirements.txt"
     }
   ],
   "terms": [

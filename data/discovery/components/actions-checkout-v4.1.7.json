@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v4.1.7",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -107,6 +107,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-publish.yaml",
       "source_repo": "seaweedfs/seaweedfs-cosi-driver"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "HDFGroup/hdf5_plugins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-fix.yml",
+      "source_repo": "HDFGroup/hdf5_plugins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/daily-build.yml",
+      "source_repo": "HDFGroup/hdf5_plugins"
     }
   ]
 }

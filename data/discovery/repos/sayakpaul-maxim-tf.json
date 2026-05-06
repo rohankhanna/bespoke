@@ -1,0 +1,201 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sayakpaul/maxim-tf",
+      "target": "data-apis/array-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sayakpaul/maxim-tf",
+      "target": "all-mlp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sayakpaul/maxim-tf",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sayakpaul/maxim-tf",
+      "target": "conv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sayakpaul/maxim-tf",
+      "target": "deblurring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sayakpaul/maxim-tf",
+      "target": "dehazing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sayakpaul/maxim-tf",
+      "target": "denoising",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sayakpaul/maxim-tf",
+      "target": "deraining",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sayakpaul/maxim-tf",
+      "target": "enhancement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sayakpaul/maxim-tf",
+      "target": "gmlp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sayakpaul/maxim-tf",
+      "target": "keras",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sayakpaul/maxim-tf",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T18:46:29.403268+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9767
+    },
+    {
+      "path": "requirements.txt",
+      "size": 48
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of MAXIM in TensorFlow.",
+    "fork": false,
+    "full_name": "sayakpaul/maxim-tf",
+    "html_url": "https://github.com/sayakpaul/maxim-tf",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-04-08T08:18:32Z",
+    "stargazers_count": 140,
+    "topics": [
+      "all-mlp",
+      "computer-vision",
+      "conv",
+      "deblurring",
+      "dehazing",
+      "denoising",
+      "deraining",
+      "enhancement",
+      "gmlp",
+      "keras",
+      "tensorflow"
+    ],
+    "updated_at": "2026-01-29T13:11:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "data-apis/array-api",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![HugginFace badge](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Spaces-yellow.svg)](https://huggingface.co/spaces/sayakpaul/maxim-spaces)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "all-mlp"
+    },
+    {
+      "context_snippet": "[![HugginFace badge](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Spaces-yellow.svg)](https://huggingface.co/spaces/sayakpaul/maxim-spaces)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[![HugginFace badge](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Spaces-yellow.svg)](https://huggingface.co/spaces/sayakpaul/maxim-spaces)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conv"
+    },
+    {
+      "context_snippet": "[![HugginFace badge](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Spaces-yellow.svg)](https://huggingface.co/spaces/sayakpaul/maxim-spaces)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deblurring"
+    },
+    {
+      "context_snippet": "[![HugginFace badge](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Spaces-yellow.svg)](https://huggingface.co/spaces/sayakpaul/maxim-spaces)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dehazing"
+    },
+    {
+      "context_snippet": "[![HugginFace badge](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Spaces-yellow.svg)](https://huggingface.co/spaces/sayakpaul/maxim-spaces)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "denoising"
+    },
+    {
+      "context_snippet": "[![HugginFace badge](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Spaces-yellow.svg)](https://huggingface.co/spaces/sayakpaul/maxim-spaces)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deraining"
+    },
+    {
+      "context_snippet": "[![HugginFace badge](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Spaces-yellow.svg)](https://huggingface.co/spaces/sayakpaul/maxim-spaces)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "enhancement"
+    },
+    {
+      "context_snippet": "[![HugginFace badge](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Spaces-yellow.svg)](https://huggingface.co/spaces/sayakpaul/maxim-spaces)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gmlp"
+    },
+    {
+      "context_snippet": "[![HugginFace badge](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Spaces-yellow.svg)](https://huggingface.co/spaces/sayakpaul/maxim-spaces)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keras"
+    },
+    {
+      "context_snippet": "[![HugginFace badge](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Spaces-yellow.svg)](https://huggingface.co/spaces/sayakpaul/maxim-spaces)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

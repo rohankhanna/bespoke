@@ -604,6 +604,18 @@
       "source_repo": "cursorless-dev/cursorless",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Welcome to Cursorless!</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swr1bm86/vscode-idris",
+      "status": "candidate-context",
+      "text": "Idris for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swr1bm86/vscode-idris",
+      "status": "candidate-context",
+      "text": "[![Version](https://vsmarketplacebadge.apphb.com/version/zjhmale.Idris.svg)](https://marketplace.visualstudio.com/items?itemName=zjhmale.Idris)"
     }
   ],
   "candidate_glosses": [
@@ -906,6 +918,12 @@
       "source_repo": "cursorless-dev/cursorless",
       "status": "candidate",
       "text": "<h1 align=\"center\">Welcome to Cursorless!</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swr1bm86/vscode-idris",
+      "status": "candidate",
+      "text": "[![Version](https://vsmarketplacebadge.apphb.com/version/zjhmale.Idris.svg)](https://marketplace.visualstudio.com/items?itemName=zjhmale.Idris)"
     }
   ],
   "candidate_related_terms": [],
@@ -1735,11 +1753,17 @@
       "observed_at": "2026-05-06T12:51:12.481137+00:00",
       "source_file": null,
       "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "swr1bm86/vscode-idris"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

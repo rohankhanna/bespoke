@@ -43,6 +43,30 @@
       "source_repo": "google-research/maxim",
       "status": "candidate-context",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-hide-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-hide-trained-on-gopro?p=maxim-multi-axis-mlp-for-image-processing)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sayakpaul/maxim-tf",
+      "status": "candidate-context",
+      "text": "Implementation of MAXIM in TensorFlow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/maxim-tf",
+      "status": "candidate-context",
+      "text": "[![HugginFace badge](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Spaces-yellow.svg)](https://huggingface.co/spaces/sayakpaul/maxim-spaces)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vztu/maxim-pytorch",
+      "status": "candidate-context",
+      "text": "[CVPR 2022 Oral] PyTorch re-implementation for \"MAXIM: Multi-Axis MLP for Image Processing\", with *training code*. Official Jax repo: https://github.com/google-research/maxim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vztu/maxim-pytorch",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-hide-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-hide-trained-on-gopro?p=maxim-multi-axis-mlp-for-image-processing)"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +85,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "google-research/maxim",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-hide-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-hide-trained-on-gopro?p=maxim-multi-axis-mlp-for-image-processing)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/maxim-tf",
+      "status": "candidate",
+      "text": "[![HugginFace badge](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Spaces-yellow.svg)](https://huggingface.co/spaces/sayakpaul/maxim-spaces)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vztu/maxim-pytorch",
       "status": "candidate",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-hide-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-hide-trained-on-gopro?p=maxim-multi-axis-mlp-for-image-processing)"
     }
@@ -124,11 +160,23 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "google-research/maxim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "sayakpaul/maxim-tf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "vztu/maxim-pytorch"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1807,6 +1807,18 @@
       "source_repo": "gookit/color",
       "status": "candidate-context",
       "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/color?style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "box-cli-maker/box-cli-maker",
+      "status": "candidate-context",
+      "text": "Render highly customizable boxes in the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box-cli-maker/box-cli-maker",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -2709,6 +2721,12 @@
       "source_repo": "gookit/color",
       "status": "candidate",
       "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/color?style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box-cli-maker/box-cli-maker",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -4738,11 +4756,23 @@
       "observed_at": "2026-05-06T12:51:12.481137+00:00",
       "source_file": null,
       "source_repo": "psmux/Tmux-Plugin-Panel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "box-cli-maker/box-cli-maker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "lainq/img"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

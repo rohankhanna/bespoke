@@ -84,7 +84,7 @@
   "normalized_form": "on-push",
   "observation_id": "241b024fb412aad6",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-06T00:36:03.937537+00:00",
+  "observed_at": "2026-05-06T18:41:14.951242+00:00",
   "observed_text": "On push",
   "source_context_snippet": "On push",
   "source_file": ".github/workflows/on_pr_push.yml",

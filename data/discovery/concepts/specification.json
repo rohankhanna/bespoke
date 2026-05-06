@@ -307,6 +307,18 @@
       "source_repo": "sanctuary-js/sanctuary-type-identifiers",
       "status": "candidate-context",
       "text": "A type is a set of values. Boolean, for example, is the type comprising"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/tilejson-spec",
+      "status": "candidate-context",
+      "text": "JSON format for describing map tilesets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/tilejson-spec",
+      "status": "candidate-context",
+      "text": "TileJSON is an open standard for representing map metadata. Current version: [3.0.0](/3.0.0)"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +471,12 @@
       "source_repo": "sanctuary-js/sanctuary-type-identifiers",
       "status": "candidate",
       "text": "A type is a set of values. Boolean, for example, is the type comprising"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/tilejson-spec",
+      "status": "candidate",
+      "text": "TileJSON is an open standard for representing map metadata. Current version: [3.0.0](/3.0.0)"
     }
   ],
   "candidate_related_terms": [
@@ -673,11 +691,17 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "sanctuary-js/sanctuary-type-identifiers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/tilejson-spec"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -316,15 +316,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-06T00:45:41.486279+00:00",
+  "fetched_at": "2026-05-06T18:57:41.426733+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 8704
+      "size": 10686
     },
     {
       "path": "pyproject.toml",
-      "size": 6213
+      "size": 6327
     },
     {
       "path": ".github/workflows/README.md",
@@ -352,7 +352,7 @@
     },
     {
       "path": ".github/workflows/test.yml",
-      "size": 2146
+      "size": 2780
     }
   ],
   "related_repositories": [],
@@ -364,10 +364,10 @@
     "full_name": "PrimeIntellect-ai/verifiers",
     "html_url": "https://github.com/PrimeIntellect-ai/verifiers",
     "language": "Python",
-    "pushed_at": "2026-05-05T22:17:01Z",
-    "stargazers_count": 4072,
+    "pushed_at": "2026-05-06T18:40:47Z",
+    "stargazers_count": 4075,
     "topics": [],
-    "updated_at": "2026-05-05T22:17:01Z"
+    "updated_at": "2026-05-06T17:48:27Z"
   },
   "repo_links": [
     {

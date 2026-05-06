@@ -547,6 +547,18 @@
       "source_repo": "google-research/maxvit",
       "status": "candidate-context",
       "text": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/hit-gan",
+      "status": "candidate-context",
+      "text": "Tensorflow implementation for \"Improved Transformer for High-Resolution GANs\" (NeurIPS 2021)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/hit-gan",
+      "status": "candidate-context",
+      "text": "HiT-GAN presents a Transformer-based generator that is trained based on Generative Adversarial Networks (GANs). It achieves state-of-the-art performance for high-resolution image synthesis. Please check our NeurIPS 2021 paper \"[Improved Transformer for High-Resolution GANs](http\u2026"
     }
   ],
   "candidate_glosses": [
@@ -819,6 +831,12 @@
       "source_repo": "google-research/maxvit",
       "status": "candidate",
       "text": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/hit-gan",
+      "status": "candidate",
+      "text": "HiT-GAN presents a Transformer-based generator that is trained based on Generative Adversarial Networks (GANs). It achieves state-of-the-art performance for high-resolution image synthesis. Please check our NeurIPS 2021 paper \"[Improved Transformer for High-Resolution GANs](http\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -1132,11 +1150,17 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "google-research/maxvit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "google-research/hit-gan"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

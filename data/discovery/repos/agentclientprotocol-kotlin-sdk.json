@@ -1,0 +1,176 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@a8f75513eafdebd8141bd1cd4e30fcd194af8dfa",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publishMavenCentral.yml"
+    },
+    {
+      "component": "actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publishMavenCentral.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@a8f75513eafdebd8141bd1cd4e30fcd194af8dfa",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publishMavenCentral.yml"
+    },
+    {
+      "component": "actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pullRequest.yml"
+    },
+    {
+      "component": "actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pullRequest.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@a8f75513eafdebd8141bd1cd4e30fcd194af8dfa",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pullRequest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "agentclientprotocol/kotlin-sdk",
+      "target": "actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "agentclientprotocol/kotlin-sdk",
+      "target": "actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "agentclientprotocol/kotlin-sdk",
+      "target": "gradle/gradle-build-action@a8f75513eafdebd8141bd1cd4e30fcd194af8dfa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "agentclientprotocol/kotlin-sdk",
+      "target": "Publish Library to Space",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publishMavenCentral.yml",
+      "source_repo": "agentclientprotocol/kotlin-sdk",
+      "target": "actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publishMavenCentral.yml",
+      "source_repo": "agentclientprotocol/kotlin-sdk",
+      "target": "actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publishMavenCentral.yml",
+      "source_repo": "agentclientprotocol/kotlin-sdk",
+      "target": "gradle/gradle-build-action@a8f75513eafdebd8141bd1cd4e30fcd194af8dfa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publishMavenCentral.yml",
+      "source_repo": "agentclientprotocol/kotlin-sdk",
+      "target": "Publish to Maven Central",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pullRequest.yml",
+      "source_repo": "agentclientprotocol/kotlin-sdk",
+      "target": "actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pullRequest.yml",
+      "source_repo": "agentclientprotocol/kotlin-sdk",
+      "target": "actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pullRequest.yml",
+      "source_repo": "agentclientprotocol/kotlin-sdk",
+      "target": "gradle/gradle-build-action@a8f75513eafdebd8141bd1cd4e30fcd194af8dfa",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-06T18:54:09.247089+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15574
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 941
+    },
+    {
+      "path": ".github/workflows/publishMavenCentral.yml",
+      "size": 1061
+    },
+    {
+      "path": ".github/workflows/pullRequest.yml",
+      "size": 638
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Agent Client Protocol Kotlin SDK",
+    "fork": false,
+    "full_name": "agentclientprotocol/kotlin-sdk",
+    "html_url": "https://github.com/agentclientprotocol/kotlin-sdk",
+    "language": "Kotlin",
+    "pushed_at": "2026-04-29T16:49:02Z",
+    "stargazers_count": 76,
+    "topics": [],
+    "updated_at": "2026-05-01T07:43:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish Library to Space",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish Library to Space"
+    },
+    {
+      "context_snippet": "Publish to Maven Central",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publishMavenCentral.yml",
+      "term": "Publish to Maven Central"
+    }
+  ]
+}

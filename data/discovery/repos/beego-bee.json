@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "beego/bee",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "beego/bee",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beego/bee",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beego/bee",
+      "target": "beego",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beego/bee",
+      "target": "beego-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beego/bee",
+      "target": "swagger",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T18:44:52.972053+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20364
+    },
+    {
+      "path": "go.mod",
+      "size": 2582
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 363
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Bee is a tool for helping develop with beego app framework.",
+    "fork": false,
+    "full_name": "beego/bee",
+    "html_url": "https://github.com/beego/bee",
+    "language": "Go",
+    "pushed_at": "2024-12-21T08:08:13Z",
+    "stargazers_count": 1465,
+    "topics": [
+      "automation",
+      "beego",
+      "beego-application",
+      "go",
+      "swagger"
+    ],
+    "updated_at": "2026-04-22T20:51:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "bee",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "bee",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "beego"
+    },
+    {
+      "context_snippet": "bee",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "beego-application"
+    },
+    {
+      "context_snippet": "bee",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swagger"
+    }
+  ]
+}

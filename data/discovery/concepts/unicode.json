@@ -391,6 +391,18 @@
       "source_repo": "NightFurySL2001/CJK-character-count",
       "status": "candidate-context",
       "text": "![Banner of CJK-character-count](resource/banner.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "box-cli-maker/box-cli-maker",
+      "status": "candidate-context",
+      "text": "Render highly customizable boxes in the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box-cli-maker/box-cli-maker",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -585,6 +597,12 @@
       "source_repo": "NightFurySL2001/CJK-character-count",
       "status": "candidate",
       "text": "![Banner of CJK-character-count](resource/banner.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box-cli-maker/box-cli-maker",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1168,11 +1186,23 @@
       "observed_at": "2026-05-06T12:51:12.481137+00:00",
       "source_file": null,
       "source_repo": "jawah/charset_normalizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "box-cli-maker/box-cli-maker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "nushu-script/Nyushu"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

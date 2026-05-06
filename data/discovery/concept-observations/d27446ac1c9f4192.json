@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Implementation of MAXIM in TensorFlow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![HugginFace badge](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Spaces-yellow.svg)](https://huggingface.co/spaces/sayakpaul/maxim-spaces)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![HugginFace badge](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Spaces-yellow.svg)](https://huggingface.co/spaces/sayakpaul/maxim-spaces)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25001,
+      "status": "candidate",
+      "text": "unwatering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "abstraction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "dewatering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "dehydration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "washout"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deraining",
+      "sense_id": "deraining#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deraining",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deraining",
+  "observation_id": "d27446ac1c9f4192",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-06T18:41:14.951242+00:00",
+  "observed_text": "deraining",
+  "source_context_snippet": "[![HugginFace badge](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Spaces-yellow.svg)](https://huggingface.co/spaces/sayakpaul/maxim-spaces)",
+  "source_file": null,
+  "source_repo": "sayakpaul/maxim-tf",
+  "source_repo_description": "Implementation of MAXIM in TensorFlow."
+}

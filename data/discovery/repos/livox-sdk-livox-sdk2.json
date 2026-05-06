@@ -1,0 +1,46 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Livox-SDK/Livox-SDK2",
+      "target": "mid-360",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T18:45:21.752385+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10671
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Drivers for receiving LiDAR data and controlling lidar, support Lidar HAP and Mid-360.",
+    "fork": false,
+    "full_name": "Livox-SDK/Livox-SDK2",
+    "html_url": "https://github.com/Livox-SDK/Livox-SDK2",
+    "language": "C++",
+    "pushed_at": "2026-04-15T03:02:57Z",
+    "stargazers_count": 440,
+    "topics": [
+      "hap",
+      "mid-360",
+      "sdk"
+    ],
+    "updated_at": "2026-05-06T02:22:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Livox SDK2 is a software development kit designed for all Livox lidars such as HAP and Mid-360. It is developed based on C/C++ following Livox SDK2 Communication Protocol, and provides easy-to-use C style APIs. With the Livox SDK2, users can quickly connect to the Livox Lidars a\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mid-360"
+    }
+  ]
+}

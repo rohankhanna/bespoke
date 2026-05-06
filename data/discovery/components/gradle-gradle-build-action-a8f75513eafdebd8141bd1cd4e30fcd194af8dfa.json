@@ -1,7 +1,7 @@
 {
   "component": "gradle/gradle-build-action@a8f75513eafdebd8141bd1cd4e30fcd194af8dfa",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "qdrant/java-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "agentclientprotocol/kotlin-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publishMavenCentral.yml",
+      "source_repo": "agentclientprotocol/kotlin-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pullRequest.yml",
+      "source_repo": "agentclientprotocol/kotlin-sdk"
     }
   ]
 }

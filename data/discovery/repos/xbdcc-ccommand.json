@@ -1,0 +1,75 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xbdcc/CCommand",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xbdcc/CCommand",
+      "target": "command",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xbdcc/CCommand",
+      "target": "java",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T18:53:33.121989+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10209
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Adb\u548c\u5404\u79cdandroid\u76f8\u5173\u5f00\u53d1\u5b9e\u7528\u547d\u4ee4\u6536\u96c6",
+    "fork": false,
+    "full_name": "xbdcc/CCommand",
+    "html_url": "https://github.com/xbdcc/CCommand",
+    "language": "Shell",
+    "pushed_at": "2026-03-30T06:05:15Z",
+    "stargazers_count": 126,
+    "topics": [
+      "adb",
+      "android",
+      "command",
+      "git",
+      "java",
+      "jks"
+    ],
+    "updated_at": "2026-04-24T15:09:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Adb\u5404\u79cd\u5b9e\u7528\u547d\u4ee4\u6536\u96c6",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "Adb\u5404\u79cd\u5b9e\u7528\u547d\u4ee4\u6536\u96c6",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command"
+    },
+    {
+      "context_snippet": "Adb\u5404\u79cd\u5b9e\u7528\u547d\u4ee4\u6536\u96c6",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "all-mlp"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sayakpaul/maxim-tf",
+      "status": "candidate-context",
+      "text": "Implementation of MAXIM in TensorFlow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/maxim-tf",
+      "status": "candidate-context",
+      "text": "[![HugginFace badge](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Spaces-yellow.svg)](https://huggingface.co/spaces/sayakpaul/maxim-spaces)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/maxim-tf",
+      "status": "candidate",
+      "text": "[![HugginFace badge](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Spaces-yellow.svg)](https://huggingface.co/spaces/sayakpaul/maxim-spaces)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "all-mlp",
+  "concept_id": "all-mlp",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "sayakpaul/maxim-tf"
+    }
+  ],
+  "first_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "all-mlp",
+      "sense_id": "all-mlp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -84,7 +84,7 @@
   "normalized_form": "on-release-publish",
   "observation_id": "bbe65a12a0e2bb66",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-06T00:36:03.937537+00:00",
+  "observed_at": "2026-05-06T18:41:14.951242+00:00",
   "observed_text": "On release publish",
   "source_context_snippet": "On release publish",
   "source_file": ".github/workflows/on_release_publish.yml",

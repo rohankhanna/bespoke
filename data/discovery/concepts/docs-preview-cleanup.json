@@ -68,6 +68,18 @@
       "source_repo": "elastic/cloud-on-k8s",
       "status": "candidate-context",
       "text": "docs-preview-cleanup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDiff/DiffRules.jl",
+      "status": "candidate-context",
+      "text": "A simple shared suite of common derivative definitions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDiff/DiffRules.jl",
+      "status": "candidate-context",
+      "text": "Docs Preview Cleanup"
     }
   ],
   "candidate_glosses": [
@@ -100,6 +112,12 @@
       "source_repo": "elastic/cloud-on-k8s",
       "status": "candidate",
       "text": "docs-preview-cleanup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDiff/DiffRules.jl",
+      "status": "candidate",
+      "text": "Docs Preview Cleanup"
     }
   ],
   "candidate_related_terms": [
@@ -173,11 +191,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/docs-preview-cleanup.yml",
       "source_repo": "elastic/cloud-on-k8s"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": ".github/workflows/DocsPreviewCleanup.yml",
+      "source_repo": "JuliaDiff/DiffRules.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

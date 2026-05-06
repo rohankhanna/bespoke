@@ -55,6 +55,24 @@
       "source_repo": "usdot-fhwa-stol/carma-config",
       "status": "candidate-context",
       "text": "Issue Notification Dispatcher"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "usdot-fhwa-stol/carma-ssc-interface-wrapper",
+      "status": "candidate-context",
+      "text": "Autoware Speed and Steering Control node wrapper for usage with the CARMA Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/carma-ssc-interface-wrapper",
+      "status": "candidate-context",
+      "text": "Issue Notification Dispatcher"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/cdasim-config",
+      "status": "candidate-context",
+      "text": "Issue Notification Dispatcher"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +97,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "usdot-fhwa-stol/carma-config",
+      "status": "candidate",
+      "text": "Issue Notification Dispatcher"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/carma-ssc-interface-wrapper",
+      "status": "candidate",
+      "text": "Issue Notification Dispatcher"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/cdasim-config",
       "status": "candidate",
       "text": "Issue Notification Dispatcher"
     }
@@ -148,11 +178,23 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": ".github/workflows/issue-notification.yml",
       "source_repo": "usdot-fhwa-stol/carma-config"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": ".github/workflows/issue-notification.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ssc-interface-wrapper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": ".github/workflows/issue-notification.yml",
+      "source_repo": "usdot-fhwa-stol/cdasim-config"
     }
   ],
   "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

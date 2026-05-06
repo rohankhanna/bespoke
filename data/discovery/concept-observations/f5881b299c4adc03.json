@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "hdf5 plugins check compression releases"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "hdf5 plugins check compression releases"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32550,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31656,
+      "status": "candidate",
+      "text": "slip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31610,
+      "status": "candidate",
+      "text": "slipped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31610,
+      "status": "candidate",
+      "text": "slipping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31610,
+      "status": "candidate",
+      "text": "slips"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "hdf5 plugins check compression releases",
+      "sense_id": "hdf5-plugins-check-compression-releases#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hdf5-plugins-check-compression-releases",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hdf5-plugins-check-compression-releases",
+  "observation_id": "f5881b299c4adc03",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-06T18:41:14.951242+00:00",
+  "observed_text": "hdf5 plugins check compression releases",
+  "source_context_snippet": "hdf5 plugins check compression releases",
+  "source_file": ".github/workflows/check-releases.yml",
+  "source_repo": "HDFGroup/hdf5_plugins",
+  "source_repo_description": null
+}

@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-humble.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ssc-interface-wrapper",
+      "target": "usdot-fhwa-stol/actions/.github/workflows/docker.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-humble.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ssc-interface-wrapper",
+      "target": "Docker Humble build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-noetic.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ssc-interface-wrapper",
+      "target": "usdot-fhwa-stol/actions/.github/workflows/docker.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-noetic.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ssc-interface-wrapper",
+      "target": "Docker Noetic build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub-humble.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ssc-interface-wrapper",
+      "target": "usdot-fhwa-stol/actions/.github/workflows/dockerhub.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockerhub-humble.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ssc-interface-wrapper",
+      "target": "Docker Hub Humble build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub-noetic.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ssc-interface-wrapper",
+      "target": "usdot-fhwa-stol/actions/.github/workflows/dockerhub.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockerhub-noetic.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ssc-interface-wrapper",
+      "target": "Docker Hub Noetic build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-notification.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ssc-interface-wrapper",
+      "target": "usdot-fhwa-stol/actions/.github/workflows/issue-notification.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-notification.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ssc-interface-wrapper",
+      "target": "Issue Notification Dispatcher",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-06T18:41:14.951242+00:00",
+  "source_repo": "usdot-fhwa-stol/carma-ssc-interface-wrapper"
+}

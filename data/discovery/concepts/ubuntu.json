@@ -442,6 +442,18 @@
       "source_repo": "ohad/collie",
       "status": "candidate-context",
       "text": "Ubuntu"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexhumphreys/idrall",
+      "status": "candidate-context",
+      "text": "Dhall bindings for Idris"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexhumphreys/idrall",
+      "status": "candidate-context",
+      "text": "Ubuntu"
     }
   ],
   "candidate_glosses": [
@@ -676,6 +688,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ohad/collie",
+      "status": "candidate",
+      "text": "Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexhumphreys/idrall",
       "status": "candidate",
       "text": "Ubuntu"
     }
@@ -1045,11 +1063,23 @@
       "observed_at": "2026-05-06T00:36:03.937537+00:00",
       "source_file": ".github/workflows/ci-ubuntu.yml",
       "source_repo": "ohad/collie"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "isl-org/open3d-cmake-external-project"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": ".github/workflows/blank.yml",
+      "source_repo": "alexhumphreys/idrall"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

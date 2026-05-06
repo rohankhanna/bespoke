@@ -295,7 +295,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-06T00:47:28.322167+00:00",
+  "fetched_at": "2026-05-06T18:59:38.539284+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -340,12 +340,12 @@
     "html_url": "https://github.com/Farama-Foundation/Minigrid",
     "language": "Python",
     "pushed_at": "2026-04-25T09:37:13Z",
-    "stargazers_count": 2442,
+    "stargazers_count": 2446,
     "topics": [
       "gridworld-environment",
       "gym"
     ],
-    "updated_at": "2026-05-05T03:37:53Z"
+    "updated_at": "2026-05-06T12:32:02Z"
   },
   "repo_links": [
     {

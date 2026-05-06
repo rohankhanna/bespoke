@@ -268,6 +268,12 @@
       "source_repo": "usdot-fhwa-stol/carma-config",
       "status": "candidate-context",
       "text": "Docker build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/cdasim-config",
+      "status": "candidate-context",
+      "text": "Docker build"
     }
   ],
   "candidate_glosses": [
@@ -400,6 +406,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "usdot-fhwa-stol/carma-config",
+      "status": "candidate",
+      "text": "Docker build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/cdasim-config",
       "status": "candidate",
       "text": "Docker build"
     }
@@ -679,11 +691,17 @@
       "observed_at": "2026-05-06T00:36:03.937537+00:00",
       "source_file": ".github/workflows/docker-build.yaml",
       "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "usdot-fhwa-stol/cdasim-config"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

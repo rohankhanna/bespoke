@@ -271,6 +271,20 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "xtensor-stack/xtensor",
+      "target": "c-plus-plus-17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor",
+      "target": "c-plus-plus-20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor",
       "target": "multidimensional-arrays",
       "target_type": "term"
     },
@@ -287,9 +301,16 @@
       "source_repo": "xtensor-stack/xtensor",
       "target": "tensors",
       "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor",
+      "target": "xsimd-library",
+      "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T20:15:11.334261+00:00",
+  "fetched_at": "2026-05-06T18:43:24.500208+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -333,15 +354,18 @@
     "full_name": "xtensor-stack/xtensor",
     "html_url": "https://github.com/xtensor-stack/xtensor",
     "language": "C++",
-    "pushed_at": "2026-05-05T11:58:03Z",
-    "stargazers_count": 3731,
+    "pushed_at": "2026-05-06T13:12:47Z",
+    "stargazers_count": 3730,
     "topics": [
       "c-plus-plus-14",
+      "c-plus-plus-17",
+      "c-plus-plus-20",
       "multidimensional-arrays",
       "numpy",
-      "tensors"
+      "tensors",
+      "xsimd-library"
     ],
-    "updated_at": "2026-05-05T11:57:41Z"
+    "updated_at": "2026-05-06T13:48:04Z"
   },
   "repo_links": [],
   "terms": [
@@ -397,6 +421,18 @@
       "context_snippet": "[![GHA Linux](https://github.com/xtensor-stack/xtensor/actions/workflows/linux.yml/badge.svg)](https://github.com/xtensor-stack/xtensor/actions/workflows/linux.yml)",
       "edge_type": "repo-topic",
       "source_file": null,
+      "term": "c-plus-plus-17"
+    },
+    {
+      "context_snippet": "[![GHA Linux](https://github.com/xtensor-stack/xtensor/actions/workflows/linux.yml/badge.svg)](https://github.com/xtensor-stack/xtensor/actions/workflows/linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus-20"
+    },
+    {
+      "context_snippet": "[![GHA Linux](https://github.com/xtensor-stack/xtensor/actions/workflows/linux.yml/badge.svg)](https://github.com/xtensor-stack/xtensor/actions/workflows/linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
       "term": "multidimensional-arrays"
     },
     {
@@ -410,6 +446,12 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "tensors"
+    },
+    {
+      "context_snippet": "[![GHA Linux](https://github.com/xtensor-stack/xtensor/actions/workflows/linux.yml/badge.svg)](https://github.com/xtensor-stack/xtensor/actions/workflows/linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xsimd-library"
     }
   ]
 }

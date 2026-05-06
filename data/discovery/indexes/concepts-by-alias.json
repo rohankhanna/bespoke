@@ -2613,6 +2613,9 @@
   "all-in-one-image-restoration": [
     "all-in-one-image-restoration"
   ],
+  "all-mlp": [
+    "all-mlp"
+  ],
   "all; .png on git lfs": [
     "all-.png-on-git-lfs"
   ],
@@ -8007,6 +8010,12 @@
   "bedrock-agents": [
     "bedrock-agents"
   ],
+  "beego": [
+    "beego"
+  ],
+  "beego-application": [
+    "beego-application"
+  ],
   "beekeeper": [
     "beekeeper"
   ],
@@ -12577,6 +12586,9 @@
   "build on linux": [
     "build-on-linux"
   ],
+  "build on linux using cross-compiler": [
+    "build-on-linux-using-cross-compiler"
+  ],
   "build on macos": [
     "build-on-macos"
   ],
@@ -14377,6 +14389,9 @@
   "bundling": [
     "bundling"
   ],
+  "buntdb": [
+    "buntdb"
+  ],
   "bunyan": [
     "bunyan"
   ],
@@ -14647,6 +14662,9 @@
   ],
   "cache zigs": [
     "cache-zigs"
+  ],
+  "cache-manager": [
+    "cache-manager"
   ],
   "cache-seeder": [
     "cache-seeder"
@@ -15977,6 +15995,9 @@
   "chatchat": [
     "chatchat"
   ],
+  "chatdoc": [
+    "chatdoc"
+  ],
   "chatdocs": [
     "chatdocs"
   ],
@@ -17030,6 +17051,9 @@
   "check risc-v image in docker manifest": [
     "check-risc-v-image-in-docker-manifest"
   ],
+  "check rst lint for documentation": [
+    "check-rst-lint-for-documentation"
+  ],
   "check ruby-bench": [
     "check-ruby-bench"
   ],
@@ -17407,6 +17431,9 @@
   ],
   "checkpointing": [
     "checkpointing"
+  ],
+  "checkpoints": [
+    "checkpoints"
   ],
   "checkpoints auto update": [
     "checkpoints-auto-update"
@@ -18452,6 +18479,9 @@
   "ci performance analysis": [
     "ci-performance-analysis"
   ],
+  "ci pipe": [
+    "ci-pipe"
+  ],
   "ci pipeline": [
     "ci-pipeline"
   ],
@@ -19196,6 +19226,9 @@
   "clang-format check": [
     "clang-format-check"
   ],
+  "clang-format commit changes": [
+    "clang-format-commit-changes"
+  ],
   "clang-format lint": [
     "clang-format-lint"
   ],
@@ -19528,6 +19561,9 @@
   ],
   "clause": [
     "clause"
+  ],
+  "claw": [
+    "claw"
   ],
   "clawd": [
     "clawd"
@@ -23738,6 +23774,9 @@
   "controlzex": [
     "controlzex"
   ],
+  "conv": [
+    "conv"
+  ],
   "convenience": [
     "convenience"
   ],
@@ -25885,6 +25924,9 @@
   ],
   "custom-derive": [
     "custom-derive"
+  ],
+  "custom-driver": [
+    "custom-driver"
   ],
   "custom-fonts": [
     "custom-fonts"
@@ -30614,6 +30656,15 @@
   "docker hub build": [
     "docker-hub-build"
   ],
+  "docker hub humble build": [
+    "docker-hub-humble-build"
+  ],
+  "docker hub noetic build": [
+    "docker-hub-noetic-build"
+  ],
+  "docker humble build": [
+    "docker-humble-build"
+  ],
   "docker image": [
     "docker-image"
   ],
@@ -30682,6 +30733,9 @@
   ],
   "docker nightly build": [
     "docker-nightly-build"
+  ],
+  "docker noetic build": [
+    "docker-noetic-build"
   ],
   "docker official image build test": [
     "docker-official-image-build-test"
@@ -35905,6 +35959,9 @@
   "file tests": [
     "file-tests"
   ],
+  "file-cache": [
+    "file-cache"
+  ],
   "file-dialog": [
     "file-dialog"
   ],
@@ -39453,11 +39510,17 @@
   "gigpo": [
     "gigpo"
   ],
+  "gin-admin": [
+    "gin-admin"
+  ],
   "gin-gonic": [
     "gin-gonic"
   ],
   "gin-middleware": [
     "gin-middleware"
+  ],
+  "gin-vue-admin": [
+    "gin-vue-admin"
   ],
   "gina": [
     "gina"
@@ -40182,6 +40245,9 @@
   "gmc image build": [
     "gmc-image-build"
   ],
+  "gmlp": [
+    "gmlp"
+  ],
   "gnark": [
     "gnark"
   ],
@@ -40367,6 +40433,9 @@
   ],
   "go vulnerability checker": [
     "go-vulnerability-checker"
+  ],
+  "go-admin": [
+    "go-admin"
   ],
   "go-apidiff": [
     "go-apidiff"
@@ -42533,6 +42602,21 @@
   ],
   "hdf5": [
     "hdf5"
+  ],
+  "hdf5 dev ctest script runs": [
+    "hdf5-dev-ctest-script-runs"
+  ],
+  "hdf5 plugins bintest runs": [
+    "hdf5-plugins-bintest-runs"
+  ],
+  "hdf5 plugins check compression releases": [
+    "hdf5-plugins-check-compression-releases"
+  ],
+  "hdf5 plugins ctest runs": [
+    "hdf5-plugins-ctest-runs"
+  ],
+  "hdf5 plugins daily build": [
+    "hdf5-plugins-daily-build"
   ],
   "hdfs": [
     "hdfs"
@@ -47090,6 +47174,9 @@
   ],
   "java8": [
     "java8"
+  ],
+  "javaee": [
+    "javaee"
   ],
   "javascipt": [
     "javascipt"
@@ -52052,6 +52139,9 @@
   "local-llm": [
     "local-llm"
   ],
+  "local-rag": [
+    "local-rag"
+  ],
   "local-server": [
     "local-server"
   ],
@@ -53435,6 +53525,9 @@
   "make version": [
     "make-version"
   ],
+  "make wheel and releases": [
+    "make-wheel-and-releases"
+  ],
   "make windows plugin": [
     "make-windows-plugin"
   ],
@@ -54678,6 +54771,9 @@
   "memcache": [
     "memcache"
   ],
+  "memcached-cache": [
+    "memcached-cache"
+  ],
   "memcached-clients": [
     "memcached-clients"
   ],
@@ -54731,6 +54827,9 @@
   ],
   "memory-allocator": [
     "memory-allocator"
+  ],
+  "memory-cache": [
+    "memory-cache"
   ],
   "memory-database": [
     "memory-database"
@@ -57156,6 +57255,9 @@
   ],
   "multi-gpu": [
     "multi-gpu"
+  ],
+  "multi-hop-question-answering": [
+    "multi-hop-question-answering"
   ],
   "multi-kernel": [
     "multi-kernel"
@@ -68235,6 +68337,9 @@
   "publish library": [
     "publish-library"
   ],
+  "publish library to space": [
+    "publish-library-to-space"
+  ],
   "publish liger kernel nightly": [
     "publish-liger-kernel-nightly"
   ],
@@ -71573,6 +71678,9 @@
   ],
   "redis": [
     "redis"
+  ],
+  "redis-cache": [
+    "redis-cache"
   ],
   "redis-cell ci": [
     "redis-cell-ci"
@@ -79754,6 +79862,9 @@
   ],
   "smoke test (windows)": [
     "smoke-test-windows"
+  ],
+  "smoke test - macos": [
+    "smoke-test---macos"
   ],
   "smoke test - nightly swift toolchain": [
     "smoke-test---nightly-swift-toolchain"
@@ -88603,6 +88714,9 @@
   "trusted-types": [
     "trusted-types"
   ],
+  "trustfulness": [
+    "trustfulness"
+  ],
   "truststore": [
     "truststore"
   ],
@@ -91802,6 +91916,9 @@
   "validate client generation": [
     "validate-client-generation"
   ],
+  "validate code": [
+    "validate-code"
+  ],
   "validate commit messages": [
     "validate-commit-messages"
   ],
@@ -92644,6 +92761,9 @@
   ],
   "vibe-coding": [
     "vibe-coding"
+  ],
+  "vibecoding": [
+    "vibecoding"
   ],
   "vicon": [
     "vicon"
@@ -96536,6 +96656,9 @@
   ],
   "xrv ci tests": [
     "xrv-ci-tests"
+  ],
+  "xsimd-library": [
+    "xsimd-library"
   ],
   "xss-filter": [
     "xss-filter"

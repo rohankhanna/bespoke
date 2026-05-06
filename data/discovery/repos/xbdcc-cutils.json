@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xbdcc/CUtils",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xbdcc/CUtils",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xbdcc/CUtils",
+      "target": "utils",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T18:53:34.815401+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2264
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "an android tool library.",
+    "fork": false,
+    "full_name": "xbdcc/CUtils",
+    "html_url": "https://github.com/xbdcc/CUtils",
+    "language": "Kotlin",
+    "pushed_at": "2023-01-21T05:18:24Z",
+    "stargazers_count": 20,
+    "topics": [
+      "android",
+      "kotlin",
+      "utils"
+    ],
+    "updated_at": "2026-01-23T02:40:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![api](https://img.shields.io/badge/API-19+-brightgreen.svg)](https://android-arsenal.com/api?level=19)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "[![api](https://img.shields.io/badge/API-19+-brightgreen.svg)](https://android-arsenal.com/api?level=19)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "context_snippet": "[![api](https://img.shields.io/badge/API-19+-brightgreen.svg)](https://android-arsenal.com/api?level=19)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "utils"
+    }
+  ]
+}

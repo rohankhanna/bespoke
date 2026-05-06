@@ -1423,6 +1423,18 @@
       "source_repo": "libcpr/cpr",
       "status": "candidate-context",
       "text": "[![Documentation](https://img.shields.io/badge/docs-online-informational?style=flat&link=https://docs.libcpr.dev/)](https://docs.libcpr.dev/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/tomcat",
+      "status": "candidate-context",
+      "text": "Apache Tomcat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/tomcat",
+      "status": "candidate-context",
+      "text": "The Apache Tomcat\u00ae software is an open source implementation of the Jakarta"
     }
   ],
   "candidate_glosses": [
@@ -2133,6 +2145,12 @@
       "source_repo": "libcpr/cpr",
       "status": "candidate",
       "text": "[![Documentation](https://img.shields.io/badge/docs-online-informational?style=flat&link=https://docs.libcpr.dev/)](https://docs.libcpr.dev/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/tomcat",
+      "status": "candidate",
+      "text": "The Apache Tomcat\u00ae software is an open source implementation of the Jakarta"
     }
   ],
   "candidate_related_terms": [
@@ -3378,11 +3396,35 @@
       "observed_at": "2026-05-06T12:51:12.481137+00:00",
       "source_file": null,
       "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "apache/tomcat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "vercel/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "ueberauth/oauth2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

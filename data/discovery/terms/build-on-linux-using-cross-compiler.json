@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-linux-cross.yml",
+      "source_repo": "foldl/chatllm.cpp"
+    }
+  ],
+  "term": "Build on Linux using cross-compiler"
+}

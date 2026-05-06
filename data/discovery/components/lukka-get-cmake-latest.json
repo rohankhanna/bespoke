@@ -1,7 +1,7 @@
 {
   "component": "lukka/get-cmake@latest",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -282,6 +282,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cmake_conan.yml",
       "source_repo": "conan-io/cmake-conan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml",
+      "source_repo": "HDFGroup/hdf5_plugins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml",
+      "source_repo": "HDFGroup/hdf5_plugins"
     }
   ]
 }

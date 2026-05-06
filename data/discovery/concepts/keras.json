@@ -307,6 +307,18 @@
       "source_repo": "keras-team/keras-contrib",
       "status": "candidate-context",
       "text": "Keras-contrib is deprecated. Use [TensorFlow Addons](https://github.com/tensorflow/addons)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sayakpaul/maxim-tf",
+      "status": "candidate-context",
+      "text": "Implementation of MAXIM in TensorFlow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/maxim-tf",
+      "status": "candidate-context",
+      "text": "[![HugginFace badge](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Spaces-yellow.svg)](https://huggingface.co/spaces/sayakpaul/maxim-spaces)"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +471,12 @@
       "source_repo": "keras-team/keras-contrib",
       "status": "candidate",
       "text": "Keras-contrib is deprecated. Use [TensorFlow Addons](https://github.com/tensorflow/addons)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/maxim-tf",
+      "status": "candidate",
+      "text": "[![HugginFace badge](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Spaces-yellow.svg)](https://huggingface.co/spaces/sayakpaul/maxim-spaces)"
     }
   ],
   "candidate_related_terms": [
@@ -712,11 +730,17 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": null,
       "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "sayakpaul/maxim-tf"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

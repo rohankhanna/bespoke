@@ -1893,6 +1893,7 @@
   ],
   "admin": [
     "11feb35275f580ab",
+    "2977b878c820e409",
     "2b49978cf161a187",
     "49a919ed584206e0",
     "82cfdc597bed6ef4",
@@ -2213,6 +2214,7 @@
     "b0f7ce9948e895ee"
   ],
   "agent-client-protocol": [
+    "345cf9465c13b632",
     "944e3c7c54b7c29b"
   ],
   "agent-collaboration": [
@@ -3575,6 +3577,9 @@
   "all-in-one-image-restoration": [
     "7bc9a61552574000"
   ],
+  "all-mlp": [
+    "7a9e2374a71511e3"
+  ],
   "all-tests": [
     "1aae324afc97d246"
   ],
@@ -4223,6 +4228,7 @@
     "c40a8ef50178a282",
     "c5553d0e8920dd42",
     "c70df00156df42e4",
+    "ca64119f86517311",
     "cadf0beb44a81399",
     "cbb6478c6774738a",
     "cc30629d8c0dee83",
@@ -4267,6 +4273,7 @@
     "f710217e0785fbc1",
     "f794c091150af3e6",
     "f8a295053fcd290a",
+    "f93fb615f425c0c1",
     "f9d34046d1fdaf1a",
     "fd29b3aa084096e2",
     "fed23bdfc3246817"
@@ -5971,6 +5978,7 @@
   "architecture": [
     "03a1755652bf8565",
     "085bd31308d198b9",
+    "08bea27551bb6e80",
     "3af8eb367c5067c1",
     "5c8387a804d6e275",
     "6644cb1c6c2ebb1d",
@@ -9517,6 +9525,7 @@
     "c7eaf7f8ab8d26a3",
     "c836e87545c8fd18",
     "c9fd2129c066e3b8",
+    "cdc5c7bd36efccd3",
     "d43884909d7425ce",
     "d4a268dac35a382a",
     "dd82807676141925",
@@ -12114,6 +12123,12 @@
   ],
   "bedrock-agents": [
     "836fda1f741f6aac"
+  ],
+  "beego": [
+    "fa4be1592d9cb7fc"
+  ],
+  "beego-application": [
+    "91a87469b1b99a1b"
   ],
   "beekeeper": [
     "34b02d20f0af9b82"
@@ -19830,6 +19845,9 @@
     "4647562fdd5d0a0e",
     "8bab8c5fa234fe0f"
   ],
+  "build-on-linux-using-cross-compiler": [
+    "0e8cc34495f39c2b"
+  ],
   "build-on-macos": [
     "5c4ebc2c48ad397e",
     "8ef0120d343125f6"
@@ -21954,6 +21972,9 @@
     "bd6b3afe3ad47da3",
     "c1036f6c836aba5e"
   ],
+  "buntdb": [
+    "9894fc916ca618fb"
+  ],
   "bunyan": [
     "2aaa9a0ea237ec9d",
     "a161f9545d9ca1a1"
@@ -22295,10 +22316,12 @@
   ],
   "c-plus-plus-17": [
     "6dba24fed0345a90",
+    "9b55b360f69392a0",
     "b0171fe533cd6156"
   ],
   "c-plus-plus-20": [
     "1493e608395da6ad",
+    "1ef863f8cc18870a",
     "2eac79303acfd899"
   ],
   "c-preprocessor": [
@@ -22406,6 +22429,7 @@
     "cecfac54b0012ae5",
     "d0a58ad29f142135",
     "d5571234e0aaecfc",
+    "d9e661fb750d20b8",
     "e8ead789790ba7fc",
     "f2b6c0af12b64586",
     "f7c0c34b6441e363",
@@ -22431,6 +22455,9 @@
   ],
   "cache-integration-tests": [
     "a72331b3260b5ff1"
+  ],
+  "cache-manager": [
+    "9a3be71eb8d09994"
   ],
   "cache-one": [
     "f269bbeacbb1b179"
@@ -23280,6 +23307,7 @@
     "af3837b17d59dbd1",
     "db85f8f5c3dc2a88",
     "e285c8ac5cb76929",
+    "eab3fa58b63c0f26",
     "f1f170e8944643ab"
   ],
   "casbin-rs": [
@@ -24432,6 +24460,9 @@
   "chatchat": [
     "410f22a4f6db5e89"
   ],
+  "chatdoc": [
+    "de7bdc1cf43fe9ee"
+  ],
   "chatdocs": [
     "e06322473ea4f32f"
   ],
@@ -24649,6 +24680,7 @@
     "3ca114a3d2de9ec9"
   ],
   "chatpdf": [
+    "0770437f40203c2c",
     "7b138ff431d5f046"
   ],
   "chatqna": [
@@ -25990,6 +26022,9 @@
   "check-risc-v-image-in-docker-manifest": [
     "414acf90750d0bcb"
   ],
+  "check-rst-lint-for-documentation": [
+    "1b43faec58841627"
+  ],
   "check-ruby-bench": [
     "f7d6a85ac26ac7c1"
   ],
@@ -26332,6 +26367,9 @@
   ],
   "checkpointing": [
     "c86cee52d9110ac6"
+  ],
+  "checkpoints": [
+    "79741d98c633b2bc"
   ],
   "checkpoints-auto-update": [
     "72dbc5b265fec0d1"
@@ -27288,6 +27326,7 @@
   ],
   "ci-build": [
     "09db9f440bcead54",
+    "0ea6315663050d53",
     "1d2ec851758819ee",
     "21437b1013d56e4a",
     "3f137947c52d8e3d",
@@ -27939,6 +27978,9 @@
   ],
   "ci-performance-analysis": [
     "edeb5089d868c195"
+  ],
+  "ci-pipe": [
+    "61dbf23fad7d67b2"
   ],
   "ci-pipeline": [
     "530da98a0d1100e1",
@@ -28843,11 +28885,15 @@
     "63eb40f3ce820f63",
     "71b1b549e63363db",
     "7ca41a9bd94432cd",
+    "7fcf9380dbd41b1a",
     "7ff59c9e22a8c426",
     "bb4682a1cc11c18e",
     "c1fcee70e8903517",
     "c54b4dc0690eda82",
     "cbf3e9d90110b6d4"
+  ],
+  "clang-format-commit-changes": [
+    "a187521c63a98a4c"
   ],
   "clang-format-lint": [
     "490b9c3b7f4b5f50",
@@ -29560,6 +29606,9 @@
   "clause": [
     "a362395533531832",
     "ea722698f7e062f1"
+  ],
+  "claw": [
+    "38de285d87ca10d4"
   ],
   "clawd": [
     "a21fa5bd0f1e8cc7"
@@ -33732,6 +33781,7 @@
     "a199732d59c27589",
     "a1bd2c21b59329ee",
     "a1d0c8dc15556f92",
+    "a255ce57442fc428",
     "a28e654b92aa99b6",
     "a2b0e758eeb4fc93",
     "a2ecdbcd956e4a31",
@@ -34655,6 +34705,7 @@
     "9d7c08e576b026e1",
     "b16a9aec6db40892",
     "c3340f4cd9abd353",
+    "ca491f67f213a157",
     "cac0edf2f3593053",
     "de2a0c49b9d3ea65",
     "eb0d39b6e2931c1a",
@@ -34930,6 +34981,7 @@
   ],
   "command": [
     "43447c8f5796fdc3",
+    "64743a992bc61082",
     "bfe40ccb462d5a82"
   ],
   "command-cobra": [
@@ -35742,6 +35794,7 @@
     "4b4e0c87528b33ca",
     "4c75ee915c387128",
     "4cdc27d6ec0191af",
+    "4f5a510ee001b972",
     "4f6ad93b4db5f15f",
     "5153d412180633a4",
     "547f0430ee824883",
@@ -36778,6 +36831,7 @@
     "9a3bfeab08b4b9f1",
     "9a6925e86bdad196",
     "9aca2aebee5cbbc2",
+    "9c88ee6534afdd12",
     "9c8b2c4e9216cd80",
     "9d55ab498560b9af",
     "9f400abf2a573c1b",
@@ -36815,6 +36869,7 @@
     "bcb1584dbf07e229",
     "bd62a6931aa812cc",
     "be335ed23bc3f423",
+    "bfc5551da027217e",
     "c080749f0fd133e8",
     "c26429298e87d29e",
     "c28f1a9ec5f80fb8",
@@ -38558,6 +38613,9 @@
   "controlzex": [
     "93241d145d397bfe"
   ],
+  "conv": [
+    "13a49759c810adc9"
+  ],
   "convenience": [
     "086df5c9580cff0c",
     "c0b47c34225a5f49",
@@ -39654,6 +39712,7 @@
   "coverity-scan": [
     "1a3cd44271660633",
     "42f1455460f49437",
+    "55d56e72a1cffe72",
     "600f9cfc213cd580",
     "709bbb80940ed1a6",
     "752131f2e43aece4",
@@ -42222,6 +42281,9 @@
   "custom-derive": [
     "139ccda2d3632c51"
   ],
+  "custom-driver": [
+    "4efbc60826263498"
+  ],
   "custom-fonts": [
     "711e34d4a575f940"
   ],
@@ -44177,6 +44239,7 @@
     "65367c18f8a3962b",
     "66324a3172f83ca8",
     "6c6da45ab5340c4f",
+    "6c9067629b6c04ab",
     "6dc4db9c83f549bc",
     "6f7d9b55f300daa9",
     "701b194481dae133",
@@ -44693,8 +44756,10 @@
   "deblurring": [
     "0a1ff11d9d7db7cd",
     "15011a288cec8115",
+    "4823931bafd65d54",
     "ad0fc16b853b2697",
     "bf8fc8ea469cc8d9",
+    "c27710e077303df1",
     "ec71c5060223bc6f"
   ],
   "debouncing": [
@@ -45687,6 +45752,7 @@
     "f506d97f23ea8ddf",
     "f522971896894789",
     "f60c605388aaeb17",
+    "f6c7ffd9fd6531d5",
     "f6ef72f5c9b428b0",
     "f71ab06670d16adc",
     "f768a0809332a65f",
@@ -46188,8 +46254,10 @@
     "8bed35124dcd0df2"
   ],
   "dehazing": [
+    "0f1ea2269ed5aced",
     "b80a07a5cd31079b",
     "bd991f17c5dbc896",
+    "c7189388fac24d80",
     "cce738a7cd9a21c7"
   ],
   "dehazing-network": [
@@ -46450,6 +46518,7 @@
     "2334e95ed3c2789f",
     "2687e1520e572bea",
     "3135abd38d156423",
+    "3ea847bed04a26d5",
     "437dea1f499de31e",
     "51921a63f932e12a",
     "60b3aa7935acfdb6",
@@ -46457,6 +46526,7 @@
     "823ae4d7e3b7c18d",
     "9913ed618eab3722",
     "bcf21b3ec517f170",
+    "cdc624903619a9a3",
     "df5eb754b73947e7"
   ],
   "denoising-algorithms": [
@@ -47609,6 +47679,7 @@
   ],
   "deploy-mdbook-site-to-pages": [
     "40570c6e77247362",
+    "5197678425b3c822",
     "a4bc183f00e09eb4",
     "efe9ef20531b605c"
   ],
@@ -48339,8 +48410,10 @@
     "faacb8825505d756"
   ],
   "deraining": [
+    "084b703afd979470",
     "1e29b6d3dd4e1561",
-    "4bdae172a0097393"
+    "4bdae172a0097393",
+    "d27446ac1c9f4192"
   ],
   "derivatives": [
     "019b8560d4c934d3",
@@ -49605,6 +49678,7 @@
     "c88edc1d84e9ef6f",
     "cd7e8c7784b9ff21",
     "d0d075110d7b9a2e",
+    "d1cb573b7c14964c",
     "d2aa7748f1ff2d50",
     "d2f6e75e8fa6b39d",
     "d435a78a1463b080",
@@ -51183,6 +51257,7 @@
     "e6ed91cb57eb9ea2"
   ],
   "docker-build": [
+    "14989bb5cace699c",
     "19bc14fcefd3df1b",
     "23724b7ff262666e",
     "29910a2bfca3a469",
@@ -51448,11 +51523,21 @@
     "1fd7c66c3d09a1c4",
     "4d216ec128aa4335",
     "5000c136485184b9",
+    "641f661f534e8ae1",
     "b70ac34526af0ed7",
     "f23cfc6820e0e2c1"
   ],
+  "docker-hub-humble-build": [
+    "e4ef0251b584a645"
+  ],
+  "docker-hub-noetic-build": [
+    "0d1e53497ab84663"
+  ],
   "docker-hub-push": [
     "3c1fe337cf1390e3"
+  ],
+  "docker-humble-build": [
+    "50458caca188e95d"
   ],
   "docker-image": [
     "00b6ad36467277a6",
@@ -51625,6 +51710,9 @@
   ],
   "docker-node": [
     "05d9fade42bc6536"
+  ],
+  "docker-noetic-build": [
+    "b980b9e954b4473c"
   ],
   "docker-official-image-build-test": [
     "e2b83af3ccb3d66c"
@@ -52226,6 +52314,7 @@
   "docs-preview-cleanup": [
     "1e76ff40365e2142",
     "34d4613c5a28cd60",
+    "525c80dd917cfdb9",
     "792a8cfd295d865c",
     "82f4ae586fdd1a19",
     "e096eef164dbaf39"
@@ -52608,6 +52697,7 @@
     "f01c2bef497669a0",
     "f0e22c8997203d7f",
     "f0f9c4e207329dd2",
+    "f0feac207646f87d",
     "f1af63584b4d5dd5",
     "f46dbeead262c79d",
     "f5b78009da05adb9",
@@ -55292,7 +55382,8 @@
     "5dfde93ea293fc50",
     "8603a3c551f1772d",
     "a1c3acb5c0ff8c70",
-    "b86cdcfd3817f907"
+    "b86cdcfd3817f907",
+    "ffb09563d3ff42aa"
   ],
   "element-web": [
     "c8c752bb3d2b17f6"
@@ -56410,6 +56501,8 @@
     "b588e92e67c43004"
   ],
   "enhancement": [
+    "5c9174b8a5517ab7",
+    "75752199506c0f73",
     "8e3840350b163aac"
   ],
   "enhancement-closer-no-milestone": [
@@ -59631,6 +59724,9 @@
     "cf91bd1378731c39",
     "e9fae3a6f46b42a1"
   ],
+  "file-cache": [
+    "75f46f3722e4d2ba"
+  ],
   "file-dialog": [
     "3441d82b25a5a5ef"
   ],
@@ -59942,6 +60038,7 @@
   ],
   "filters": [
     "4078c4d1df64067a",
+    "6356201d45672513",
     "cfa5a2f018464d9f"
   ],
   "filters-metadata": [
@@ -64532,6 +64629,7 @@
     "cb346b5466d6584a",
     "cee594a2b082bb2d",
     "de1c898662258f1d",
+    "e6c9e2b56e898d1f",
     "ea76ce5ebf40cb56",
     "f6761234d3dc63c0"
   ],
@@ -65423,12 +65521,18 @@
   "gigpo": [
     "a2470932177e737d"
   ],
+  "gin-admin": [
+    "aaf1cc33fd6326dc"
+  ],
   "gin-gonic": [
     "b29cecd4786658af",
     "d2d87dd2b38ff379"
   ],
   "gin-middleware": [
     "8274d0e829e30dfd"
+  ],
+  "gin-vue-admin": [
+    "0d794146812e32f5"
   ],
   "gina": [
     "e7fc5170f21b170b"
@@ -66655,6 +66759,9 @@
   "gmc-image-build": [
     "375f33ac7062f135"
   ],
+  "gmlp": [
+    "46d80e16612887c8"
+  ],
   "gnark": [
     "341956b7ca0970c9"
   ],
@@ -66714,6 +66821,9 @@
   ],
   "go---build-and-run-tests": [
     "a14c6f45478406d9"
+  ],
+  "go-admin": [
+    "363d0d4a8b53d2c0"
   ],
   "go-and-node.js-tests": [
     "922aa4b9b42cb8d5"
@@ -67131,6 +67241,7 @@
     "267f1e29eb5de96a",
     "2781f0b98eb8ce24",
     "27a7dcf404dcaaa9",
+    "27f2036b4534c55a",
     "2824f02959b0abc4",
     "283e2d7628444772",
     "28456d5e3221520f",
@@ -67362,6 +67473,7 @@
     "b37d890b78ef261e",
     "b380ed2cb36a0dd3",
     "b391eb4ad65eb2ab",
+    "b57389231785f64a",
     "b5c12259da92f347",
     "b62b58515d80f657",
     "b639d9c7fe3544f3",
@@ -67369,6 +67481,7 @@
     "b80bdc8e74761454",
     "b93eb10d29131705",
     "ba3269e1c71142ca",
+    "baef210ac2d032ab",
     "bb0f8ffd3d2491ca",
     "bbcd8d32def09dc8",
     "bca21631894dcb71",
@@ -68109,7 +68222,8 @@
   ],
   "gorm": [
     "9ec33704ab2b5fe1",
-    "d567ea0687450c10"
+    "d567ea0687450c10",
+    "e3516f16e8dd8ac4"
   ],
   "gorod": [
     "7c204b37e2da5218"
@@ -69488,7 +69602,8 @@
     "7ed5ada06d609105",
     "a5477927a8825cd0",
     "b7bbb73eb6f72ae3",
-    "ea365ee1adc00be3"
+    "ea365ee1adc00be3",
+    "fd3833c0ae18fe93"
   ],
   "graphs": [
     "1d1ed6d99d0cec99",
@@ -71624,6 +71739,21 @@
     "6f294811d084da98",
     "bc01e2e71efaf295"
   ],
+  "hdf5-dev-ctest-script-runs": [
+    "172a0d5482e08d4f"
+  ],
+  "hdf5-plugins-bintest-runs": [
+    "bdebbce875896fc5"
+  ],
+  "hdf5-plugins-check-compression-releases": [
+    "f5881b299c4adc03"
+  ],
+  "hdf5-plugins-ctest-runs": [
+    "eeab61b3bf37d674"
+  ],
+  "hdf5-plugins-daily-build": [
+    "66c68400b44519c5"
+  ],
   "hdfs": [
     "2fa607d1b30ce61c",
     "3b26697cfdc89f5b",
@@ -73248,6 +73378,7 @@
     "c3b3cae2de23671c",
     "c7acba3916017220",
     "cb53b2248178f705",
+    "cb6d5509c7c459a7",
     "cc26888dc1abcb79",
     "d3d855449eff25f0",
     "d6756e79afcfde9a",
@@ -73506,6 +73637,7 @@
     "d7c0f62c583177a4"
   ],
   "huggingface": [
+    "03558f5240e12607",
     "11b5b417bade7e68",
     "151b654233b120ff",
     "1a4d060b8e1c7eb0",
@@ -74042,6 +74174,7 @@
     "7be572a722c3f787",
     "7df8d98e411784a9",
     "83e35c155e49cd7a",
+    "8516c2318c44a1d4",
     "8a790fe4edd6e598",
     "8c27724e50da9b0d",
     "8f7bd1a7d80e9f14",
@@ -74554,7 +74687,8 @@
     "ba9b8ff866870ba4"
   ],
   "idris": [
-    "88d884ee01f4323e"
+    "88d884ee01f4323e",
+    "daa91bca0159f2cc"
   ],
   "idris2": [
     "5f0dfb0e2b63fb63"
@@ -74745,6 +74879,7 @@
     "2c0f6f317418f8b4",
     "380fc09e666c431c",
     "411841930c5759df",
+    "44f12a558ef2668d",
     "4adf69570f4c077e",
     "52646db6d374f858",
     "542cd4a5f830c456",
@@ -74756,6 +74891,7 @@
     "716abd37b67d7f34",
     "77ba8a815eb23b2b",
     "791771444480f9cd",
+    "7ea5eeaec8129f8b",
     "91ef4bbce4d82ff1",
     "a1f81c61073bd9fe",
     "aa867b5190b6756f",
@@ -75008,6 +75144,7 @@
     "29b0e827ba1fb421",
     "3138bfc2f2204ec2",
     "4adc937a78d0f92e",
+    "4e3dec1a3ceec57d",
     "7f9afc6c0790fe9a",
     "9612e005d6ba8a5f",
     "af01a4f9ce3a65b1",
@@ -75249,12 +75386,14 @@
     "d63083c60e1ca4c4",
     "d7dc1bbaba516b4e",
     "d858fc1a166970d7",
+    "db8a02dac18c2d7d",
     "dbf71747f350b86a",
     "e2f59b85cedbff07",
     "e4ee1a3b005622cd",
     "e7443b2f7d99150c",
     "e7a6e53c22dc27d4",
     "f1daab6cd432e9e0",
+    "f3d127170a4a99f1",
     "f865fb8c7f2373c5",
     "f91fae10bc80faa6",
     "f978c2d3ef2e7045",
@@ -75325,6 +75464,7 @@
     "8b76f8e8b3636627",
     "8c097d5cd60ef5d6",
     "8ea630d832f810d3",
+    "9ab8896b721cf5a9",
     "a0548ff2e4a3a076",
     "a8bbdee832462727",
     "b2cec16328904a5a",
@@ -77137,6 +77277,7 @@
     "379010428f3e7286",
     "4acbc6b0062f277c",
     "69435132c081b755",
+    "6d822ea39afaf259",
     "a6f36777ef7063fa",
     "b5d37f815001b6b1",
     "ba325da784eab58d",
@@ -78429,6 +78570,8 @@
     "035dd51b1203d6d3"
   ],
   "issue-notification-dispatcher": [
+    "05462128af96064f",
+    "232fe00346eb9be5",
     "240a5a2c9e1d65eb",
     "7021a18af71e347f",
     "86400fcca607d6e1",
@@ -78958,6 +79101,7 @@
     "92d5646aa032c099",
     "93307781a4c8c039",
     "93b26d1d487d76c4",
+    "94a2c7575b2a7e28",
     "9516812b9989eb00",
     "956901aaaf08a2a2",
     "95aa8d0bed58e36e",
@@ -79009,6 +79153,7 @@
     "be27a6f1d98a48e0",
     "be86a22b88528812",
     "beeee8e765e82078",
+    "bfb131f57b5e697c",
     "c1b773b2ec72e933",
     "c3fa7c1733bc9173",
     "c628b6b32221b257",
@@ -79285,6 +79430,9 @@
   "java8": [
     "a6272f35f562865a",
     "f5e4160deb7702f3"
+  ],
+  "javaee": [
+    "559801dc66c62241"
   ],
   "javascipt": [
     "09c1e92c3e83b056",
@@ -80172,6 +80320,7 @@
     "f038519166e8234a",
     "f2983315077fa765",
     "f8b6dbb10de4f7fb",
+    "f8d67e97979257a5",
     "f9371cbb29e479b8",
     "f98b55069e278e90",
     "fbada050f7627de8",
@@ -81252,6 +81401,7 @@
     "ca881d67837860d7",
     "cb7412953e5947f3",
     "cdc3d354153c3b9d",
+    "e06364fd8f2287df",
     "eb262ee331aa2904",
     "eb6d8a0a1cfa016c",
     "f6906d99f434ff62",
@@ -81719,6 +81869,7 @@
     "85744cd075092718",
     "99abbd0c9e13742d",
     "9d8ea65892abfa1e",
+    "b1265928ec7e65f1",
     "c1cabff722b8d304",
     "ccacb717cf3935ac",
     "d7f9b9268a3f28e7",
@@ -81897,6 +82048,7 @@
     "086150c753e762c2",
     "091eb8c40ad21cd3",
     "1040b185f47b8b09",
+    "13e0b28ceacdb89d",
     "1481d7285e56af4d",
     "1797dee5f738e919",
     "1aa3790dcf1ac480",
@@ -83655,6 +83807,7 @@
   "large-language-model": [
     "0e2185a8399259bd",
     "16594aa1a999224a",
+    "18997d2f6ead9c82",
     "51d5ac6e3f562bdb",
     "73c28d1db8619771",
     "a0468d944e21dcea",
@@ -83715,6 +83868,7 @@
     "52ffeb5c0d3a8930",
     "56ea0f065ca6121a",
     "571b452f6fa685f1",
+    "57d4ce5d44f59414",
     "57f24dbe78ab1e5b",
     "58286bad2070a229",
     "591bfa19488797aa",
@@ -85135,6 +85289,7 @@
     "cd8478455ec230a9"
   ],
   "lidar": [
+    "1af021c37ec1dfd1",
     "1b666885e30063ef",
     "2159db8c260a9d9d",
     "2bce386e0e680e2f",
@@ -86516,6 +86671,7 @@
     "936578fea31288f7",
     "93963c6dc22ec6ed",
     "9a72284779fcc07e",
+    "a13860d67104f95f",
     "a25384877986c3dc",
     "a48dfbacd11b4a14",
     "a5124892270b8c40",
@@ -88145,6 +88301,7 @@
     "8bb907f3045986ee",
     "8f30c4f65ccb5a9d",
     "8f5b7e1b55f81677",
+    "96cb8d44893df51a",
     "97eb8c23aec0d9be",
     "a1b6e83d4da8502c",
     "aadaa3c89864d05b",
@@ -88521,7 +88678,8 @@
     "8154b06d6451bf74",
     "95e5229ab1c3ef4d",
     "ac5d86bb30f74334",
-    "b43e02816a310cfe"
+    "b43e02816a310cfe",
+    "cc6bf22ca2ef3735"
   ],
   "loam-velodyne": [
     "0e69c4d96c2fff74",
@@ -88604,6 +88762,9 @@
     "3c28f5d5e7ae1315",
     "3ee7f8bc9d10f428",
     "dba0340f9dcd6532"
+  ],
+  "local-rag": [
+    "dc9a948044a47b9f"
   ],
   "local-server": [
     "5cf2c9fba90665c7",
@@ -89026,6 +89187,7 @@
   ],
   "logical-reasoning": [
     "05684884af0939a2",
+    "506099c19f991c42",
     "9f3854709582c82c"
   ],
   "logical-replication": [
@@ -89373,6 +89535,7 @@
     "6b83a2f465e75015",
     "6ea05e16472217e4",
     "7cc9feaf60e23071",
+    "8e9518892df13d98",
     "a177e1aa1de3e531",
     "aa996238c86dd407",
     "afcbe9be77ec21b6",
@@ -91155,6 +91318,7 @@
     "e4a462d72821e940",
     "e5a1838fef3cf715",
     "e8e0c65b8ce6f07d",
+    "e93ce4db2e6d66b5",
     "e95a4e66da13681c",
     "ead929c77e7238dd",
     "ebfa853f78fad203",
@@ -91357,6 +91521,9 @@
   ],
   "make-version": [
     "512f41eeaec7240e"
+  ],
+  "make-wheel-and-releases": [
+    "a0a13a5b9b48d26d"
   ],
   "make-windows-plugin": [
     "b51fb79b55ed7d2d"
@@ -91797,7 +91964,8 @@
     "00ffcda3bc1c713b",
     "19ebe8d4baf32ad3",
     "3665390a723cdd0c",
-    "c0a135ea27bdb8a7"
+    "c0a135ea27bdb8a7",
+    "d5a9b945f021be00"
   ],
   "mapbox-vector-tile": [
     "62d5bed5c698f6a1"
@@ -93317,6 +93485,9 @@
     "346e8e8f20cfe9dd",
     "d6d41978a19ca968"
   ],
+  "memcached-cache": [
+    "0646d25e893581a0"
+  ],
   "memcached-clients": [
     "0d811e79cf6e0390"
   ],
@@ -93395,6 +93566,9 @@
   ],
   "memory-bindwidth-exportor-image-build": [
     "09732b9a6c466b56"
+  ],
+  "memory-cache": [
+    "dc7325660e44cde2"
   ],
   "memory-database": [
     "2408f74499815439"
@@ -94290,6 +94464,7 @@
     "78c1a1c4d41540da"
   ],
   "mid-360": [
+    "59ee3c257ad3874f",
     "f77f74dc09d776c7"
   ],
   "mid-40": [
@@ -94501,6 +94676,7 @@
     "f52b4e402088ce08"
   ],
   "mindspore": [
+    "190bea97d2c1d070",
     "7de05bdc0d64a4aa"
   ],
   "minecraft": [
@@ -97060,6 +97236,9 @@
     "31fa1072779beaa9",
     "a561873c53328188"
   ],
+  "multi-hop-question-answering": [
+    "6374cce04de1998b"
+  ],
   "multi-kernel": [
     "2219a4b61b9fd96c"
   ],
@@ -98405,6 +98584,7 @@
     "03b282f2fd682d71",
     "06f598e413217ae4",
     "09d38774b10a36e8",
+    "0b4f37024161d7e4",
     "0c015fd57a5c8b0a",
     "0c7251218b06bdb6",
     "14b7e58d162603a7",
@@ -99618,6 +99798,7 @@
     "f1d142fe30db4e87"
   ],
   "network-server": [
+    "08c0e803d783e20c",
     "44343aa2ef8448a7",
     "a210fbe5625781f3",
     "df6a39e59c57ab77",
@@ -100887,6 +101068,7 @@
   ],
   "nlp-library": [
     "25786e48352ec4c5",
+    "5f454ddc51d02d9c",
     "7a46bcf8ddbad172",
     "8e885c8bf06b2c30",
     "977a02b24b80563d",
@@ -115471,6 +115653,7 @@
     "251d2b37ec63e534",
     "25a58b58a2d48282",
     "26cf357f258e7ab5",
+    "277f9c85938dddac",
     "2885d6278c8e6f71",
     "2a33ead6b3672fb8",
     "2aba1e5465100e49",
@@ -116421,6 +116604,9 @@
   "publish-library": [
     "a9db879f5eb38019"
   ],
+  "publish-library-to-space": [
+    "d8cd34f40278960d"
+  ],
   "publish-librechat-data-provider-to-npm": [
     "644678ac2ebeaee1"
   ],
@@ -116947,6 +117133,7 @@
     "25b25924d0ea8bba"
   ],
   "publish-snapshot": [
+    "2d4b95173390d502",
     "85bc992885e2713a",
     "dafc90b2160b465d",
     "f8756ce3cb819709"
@@ -117231,6 +117418,7 @@
     "05e281f3ce87529a",
     "1fe0c7ac420d8a3b",
     "3ad13b448192b052",
+    "8829918d47f326ef",
     "914e5e729007ffef"
   ],
   "publish-to-maven-manual": [
@@ -117825,6 +118013,7 @@
     "6339b79e884f61b8",
     "653269a25bfeef06",
     "6945018b61ed78de",
+    "6b04aa24e2a3aadb",
     "6efdc6f83981e855",
     "72d60f3f885f8c43",
     "74e00f511170e3e3",
@@ -122643,6 +122832,7 @@
     "7af385396702e5ec",
     "8485dfe54d595e7c",
     "881e975791a1a273",
+    "93c8811e715e18bc",
     "a66faa783ae18314",
     "a99be62039ffa4e2",
     "b89468c9fb9bc1ae",
@@ -122657,6 +122847,9 @@
     "f68f5465d06ad38b",
     "fb6e2e343dfc5831",
     "fbd16f478c7e4781"
+  ],
+  "redis-cache": [
+    "b8fca2233af07484"
   ],
   "redis-cell-ci": [
     "7ab091452aa4bce9"
@@ -124817,6 +125010,7 @@
     "ef4aaccc71f9d54d",
     "ef6ae2995f32d283",
     "ef6c08438dd50865",
+    "ef6f7c255f357348",
     "ef8577251acffdab",
     "efdf0f15daf38147",
     "efe5284ef15c77ac",
@@ -125676,6 +125870,7 @@
   ],
   "release-main": [
     "a0b10203a8dab0c4",
+    "d518cc11faa96ae2",
     "fe7f1289c51ce200"
   ],
   "release-make-release-candidate": [
@@ -126076,6 +126271,7 @@
     "c4ac963b17f496dc"
   ],
   "release-plz": [
+    "0ee8188ea4b7cd3c",
     "1d405675aa034df4",
     "1e3f24b9c4faa396",
     "2072c9b976d4176d",
@@ -127799,6 +127995,7 @@
     "7c314d73f18a5685",
     "88188f87a1c2fb83",
     "9643f493dc8d3840",
+    "bbc0f7372a8e2359",
     "c2aa9e5989465c47",
     "e895fb89f26f8184",
     "f98b7708bc201a9b",
@@ -127878,6 +128075,7 @@
     "fd48995f722703cc"
   ],
   "retouching": [
+    "081b5fc8a6b79d8a",
     "2a915d2984665ec1"
   ],
   "retries": [
@@ -134465,6 +134663,7 @@
     "5f608d981b6e7a9e",
     "607b73ac4efba34a",
     "610cd01ae9d5a749",
+    "6c0883a6b953aaea",
     "6caf69ae5a09d631",
     "74e327fe54322350",
     "753e769bffa50067",
@@ -137381,6 +137580,7 @@
     "2f06f6ff43d79cd8",
     "3b60b6bab2751a3f",
     "406bc371dde5486d",
+    "489552e90e4489fc",
     "4e3e055d75071087",
     "5008cc28ce75ce45",
     "54b3efef1249e3ef",
@@ -137558,6 +137758,7 @@
     "b0288a98700bef6f",
     "bfc6e41646d5ddba",
     "ce044a6dcb9dc5e2",
+    "d8e67abbee85043c",
     "dd15e4275dc581d4",
     "e0f79b746e5e8c0f",
     "e2cea043a943d17f",
@@ -137893,6 +138094,7 @@
     "11ca64d52b5edb14",
     "121945ca3d66daaa",
     "150e88e54ad8df0c",
+    "4bf14f19c12a6d59",
     "52b04d83d0250a05",
     "570b0bafd6e109d1",
     "6c6a50384e8e87dc",
@@ -137900,6 +138102,9 @@
     "8e212d3a3b74f9f9",
     "a92ec00a04d99831",
     "ac91080df5a3b654"
+  ],
+  "smoke-test---macos": [
+    "8eb06a54b4c9f2f6"
   ],
   "smoke-test---nightly-swift-toolchain": [
     "944ae2799c40df6e"
@@ -139270,6 +139475,7 @@
     "9b22f0835e8e3af2",
     "9d41f9cd73595843",
     "9dee6e711db9e454",
+    "a5d70886fedc1bc6",
     "b2f1b8d3c4da44c5",
     "c17c2166c203c6ad",
     "cbaea0f441dcace1",
@@ -142296,6 +142502,7 @@
   ],
   "style": [
     "10a637140e8b599c",
+    "1cc0f5b0e278c766",
     "2d4d54b53d2c671d",
     "3d6367f9caab7eb0",
     "47d08ee1e6d8df78",
@@ -143282,6 +143489,7 @@
     "87320d13df7b5781",
     "8ca1d2439cea5f0e",
     "8cbf131083ae4498",
+    "8df0d9ff5d988ce8",
     "9696ed9ebf8c8d03",
     "99345fa9d3d5bcae",
     "99f8a9ae659097ff",
@@ -144734,6 +144942,7 @@
     "2c800aa7e878e8a2",
     "48b3dde8bf9c6580",
     "78a8ab08da8eca09",
+    "ba3b7a234fae9079",
     "ef52f51db2c54d85"
   ],
   "tag-release-and-update-changelog": [
@@ -144825,6 +145034,7 @@
     "3db799925af3c761",
     "4004ce76c63437b8",
     "42a2aa333d8881d8",
+    "430ef84cb89f9a81",
     "45f42a3a45aaab80",
     "471e07993a3d955e",
     "485a07a43a4548e5",
@@ -145840,6 +146050,7 @@
     "2d0b28d966a33bcc",
     "316c00ddf192ec36",
     "387cc38c7bb06d29",
+    "3c35c208a0854239",
     "3c3dac783bfa4c7e",
     "3d145d745dd867e8",
     "3d2f15bb2b7b36d9",
@@ -145933,6 +146144,7 @@
     "dbd2a0d41f353231",
     "dc49f1103733f9c8",
     "e1458a405f27e49d",
+    "e1a1db5db29fa233",
     "e7839f37408c7359",
     "e8c5b749da3b2f11",
     "e9c68b76584f0c9e",
@@ -146101,6 +146313,7 @@
     "1a78506267fa21fe",
     "1b86b0aed550922e",
     "1bd342c38525a4e5",
+    "1bddde02f85e9762",
     "1c59ba33b9f84a8c",
     "1cc5f65d24b0bb22",
     "1cdf553cb6a9468d",
@@ -146922,6 +147135,7 @@
     "6772187f20a5897c",
     "67ac5569d28d98ed",
     "67d0def7b5e221af",
+    "68e5660b118568cc",
     "69165a6a3fc46d11",
     "6a20bc304dd2de0e",
     "6a3268e3a0c84b92",
@@ -151805,7 +152019,8 @@
   ],
   "tomcat": [
     "3681dce0d7ec8271",
-    "bd24cba053b343c9"
+    "bd24cba053b343c9",
+    "da12b2a72e3ac3d5"
   ],
   "toml": [
     "08ff1acc2f5f8860",
@@ -152678,6 +152893,7 @@
     "df3fcbeda3361b82",
     "e036ed51c4ac6c9c",
     "e0ca40deb60d5d4f",
+    "e69b7bd523e537e8",
     "e6c7925a6a3b1cb9",
     "e99f4e66da53ddda",
     "e9eaac24348c8778",
@@ -153519,6 +153735,9 @@
   ],
   "trusted-types": [
     "9e4ee267100f4a60"
+  ],
+  "trustfulness": [
+    "db4415bac89af535"
   ],
   "truststore": [
     "30b7f2f2f1efc58d"
@@ -154568,6 +154787,7 @@
     "3b7f583e612c3cff",
     "49834fcfd1546a43",
     "50d65bd52b370f46",
+    "59bf50b42d01ecd4",
     "6cd9f3859a002f37",
     "7297980cf64ba82e",
     "7931ed49089e447d",
@@ -155103,6 +155323,7 @@
     "9932201bb2f645cc",
     "a1a1d2e0444ec9b3",
     "a8a20fff9bd87b8c",
+    "bcc3373115a955db",
     "d256cf9e731b83ad",
     "d2fd670eb381c97d",
     "d5d253be36d141fc",
@@ -155395,6 +155616,7 @@
     "75c07fce10fd5734",
     "772beea9721396c8",
     "78e515e5ff31964d",
+    "7c5878cc97ef38c1",
     "7d4c4a48f8c6a1af",
     "7e2c275810234624",
     "8027382444d69648",
@@ -157708,6 +157930,7 @@
     "f28a1d22f0627fcc"
   ],
   "utils": [
+    "0af4c3f83cea3c77",
     "0dbb504b42d267cf",
     "121576eecdf1a045",
     "1ce4be25b7993230",
@@ -157982,6 +158205,9 @@
   ],
   "validate-client-generation": [
     "ca49a3b021cdad87"
+  ],
+  "validate-code": [
+    "9ff662d23b10180e"
   ],
   "validate-codecov-config": [
     "6fc86342a5fe12b7"
@@ -159274,6 +159500,9 @@
     "d8d293c87b7054a0",
     "e812b73f9b3dbfa9"
   ],
+  "vibecoding": [
+    "05f5ab687753f5a8"
+  ],
   "vicon": [
     "51bccc6297017874"
   ],
@@ -160520,6 +160749,7 @@
     "999e852bfe92716c",
     "9a2b63d0d5c00be9",
     "9ad2d43cefc435b6",
+    "a460360df67c043b",
     "af66ca46bd9953e1",
     "b1d39f8ba93d69fe",
     "c4147adab286ae05",
@@ -161537,6 +161767,7 @@
     "23196e046a8d84ab",
     "375177821b65a33d",
     "38464d5e25e588f1",
+    "3f2c66b578398285",
     "53bc0d713897ebe1",
     "553df13642f8e1fe",
     "58c2c7e8e6d0f011",
@@ -161674,6 +161905,7 @@
   ],
   "vue-admin": [
     "3424228c0101fb3e",
+    "791495a0a8f3250e",
     "d022d7ed1602191c"
   ],
   "vue-cli": [
@@ -161827,6 +162059,7 @@
     "c84cb4e69b0c062b",
     "d19c18317444cc4a",
     "d5d42c13ee75cda2",
+    "e938b1f9ac877837",
     "f11d9b4e8f703a4c",
     "fae26e961fc5bd6c"
   ],
@@ -165806,6 +166039,9 @@
   ],
   "xrv-ci-tests": [
     "06f33ce22f72a7ce"
+  ],
+  "xsimd-library": [
+    "2975c74ff250c2b4"
   ],
   "xss-filter": [
     "1f3df6c790b80c2c"

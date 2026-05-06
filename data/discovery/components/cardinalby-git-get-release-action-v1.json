@@ -1,0 +1,12 @@
+{
+  "component": "cardinalby/git-get-release-action@v1",
+  "first_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-releases.yml",
+      "source_repo": "HDFGroup/hdf5_plugins"
+    }
+  ]
+}

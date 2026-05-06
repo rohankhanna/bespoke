@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -81,6 +81,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "tpoisonooo/ROGRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenSPG/KAG"
     }
   ],
   "term": "knowledge-graph"

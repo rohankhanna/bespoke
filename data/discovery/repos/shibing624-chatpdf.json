@@ -1,0 +1,106 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shibing624/ChatPDF",
+      "target": "shibing624/medicalgpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shibing624/ChatPDF",
+      "target": "chatdoc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shibing624/ChatPDF",
+      "target": "chatpdf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shibing624/ChatPDF",
+      "target": "graphrag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shibing624/ChatPDF",
+      "target": "local-rag",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T18:53:21.928854+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3860
+    },
+    {
+      "path": "requirements.txt",
+      "size": 182
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RAG for Local LLM, chat with PDF/doc/txt files, ChatPDF. \u7eaf\u539f\u751f\u5b9e\u73b0RAG\u529f\u80fd\uff0c\u57fa\u4e8e\u672c\u5730LLM\u3001embedding\u6a21\u578b\u3001reranker\u6a21\u578b\u5b9e\u73b0\uff0c\u652f\u6301GraphRAG\uff0c\u65e0\u987b\u5b89\u88c5\u4efb\u4f55\u7b2c\u4e09\u65b9agent\u5e93\u3002",
+    "fork": false,
+    "full_name": "shibing624/ChatPDF",
+    "html_url": "https://github.com/shibing624/ChatPDF",
+    "language": "Python",
+    "pushed_at": "2025-04-02T13:30:13Z",
+    "stargazers_count": 851,
+    "topics": [
+      "chatdoc",
+      "chatpdf",
+      "graphrag",
+      "llm",
+      "local-rag",
+      "pdf",
+      "rag"
+    ],
+    "updated_at": "2026-05-06T12:29:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shibing624/medicalgpt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">ChatPDF</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatdoc"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">ChatPDF</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatpdf"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">ChatPDF</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphrag"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">ChatPDF</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "local-rag"
+    }
+  ]
+}

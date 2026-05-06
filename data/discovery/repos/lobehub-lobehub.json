@@ -181,6 +181,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "@lobechat/agent-mock",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "@lobechat/agent-runtime",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
@@ -312,6 +317,11 @@
     },
     {
       "component": "@lobechat/builtin-tool-remote-device",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@lobechat/builtin-tool-self-iteration",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
     },
@@ -2190,6 +2200,13 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
+      "target": "@lobechat/agent-mock",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobehub",
       "target": "@lobechat/agent-runtime",
       "target_type": "component"
     },
@@ -2373,6 +2390,13 @@
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
       "target": "@lobechat/builtin-tool-remote-device",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobehub",
+      "target": "@lobechat/builtin-tool-self-iteration",
       "target_type": "component"
     },
     {
@@ -4721,7 +4745,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T17:07:11.192017+00:00",
+  "fetched_at": "2026-05-06T19:13:46.863391+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -4733,7 +4757,7 @@
     },
     {
       "path": "package.json",
-      "size": 22657
+      "size": 22761
     },
     {
       "path": ".github/workflows/auto-i18n.yml",
@@ -4773,8 +4797,8 @@
     "full_name": "lobehub/lobehub",
     "html_url": "https://github.com/lobehub/lobehub",
     "language": "TypeScript",
-    "pushed_at": "2026-05-05T17:05:15Z",
-    "stargazers_count": 76059,
+    "pushed_at": "2026-05-06T18:34:42Z",
+    "stargazers_count": 76125,
     "topics": [
       "agent",
       "agent-collaboration",
@@ -4789,7 +4813,7 @@
       "mcp",
       "openai"
     ],
-    "updated_at": "2026-05-05T16:58:14Z"
+    "updated_at": "2026-05-06T18:44:34Z"
   },
   "repo_links": [
     {

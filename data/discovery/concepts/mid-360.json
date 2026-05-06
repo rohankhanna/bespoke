@@ -19,6 +19,18 @@
       "source_repo": "Livox-SDK/livox_ros_driver2",
       "status": "candidate-context",
       "text": "Livox ROS Driver 2 is the 2nd-generation driver package used to connect LiDAR products produced by Livox, applicable for ROS (noetic recommended) and ROS2 (foxy or humble recommended)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Livox-SDK/Livox-SDK2",
+      "status": "candidate-context",
+      "text": "Drivers for receiving LiDAR data and controlling lidar, support Lidar HAP and Mid-360."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Livox-SDK/Livox-SDK2",
+      "status": "candidate-context",
+      "text": "Livox SDK2 is a software development kit designed for all Livox lidars such as HAP and Mid-360. It is developed based on C/C++ following Livox SDK2 Communication Protocol, and provides easy-to-use C style APIs. With the Livox SDK2, users can quickly connect to the Livox Lidars a\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Livox-SDK/livox_ros_driver2",
       "status": "candidate",
       "text": "Livox ROS Driver 2 is the 2nd-generation driver package used to connect LiDAR products produced by Livox, applicable for ROS (noetic recommended) and ROS2 (foxy or humble recommended)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Livox-SDK/Livox-SDK2",
+      "status": "candidate",
+      "text": "Livox SDK2 is a software development kit designed for all Livox lidars such as HAP and Mid-360. It is developed based on C/C++ following Livox SDK2 Communication Protocol, and provides easy-to-use C style APIs. With the Livox SDK2, users can quickly connect to the Livox Lidars a\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "Livox-SDK/livox_ros_driver2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "Livox-SDK/Livox-SDK2"
     }
   ],
   "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

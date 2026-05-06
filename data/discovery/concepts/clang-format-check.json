@@ -221,6 +221,12 @@
       "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
       "status": "candidate-context",
       "text": "Clang Format Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "status": "candidate-context",
+      "text": "clang-format Check"
     }
   ],
   "candidate_glosses": [
@@ -331,6 +337,12 @@
       "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation",
       "status": "candidate",
       "text": "Clang Format Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "status": "candidate",
+      "text": "clang-format Check"
     }
   ],
   "candidate_related_terms": [
@@ -517,11 +529,17 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/clang-format-check.yml",
       "source_repo": "open-telemetry/opentelemetry-ebpf-instrumentation"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "HDFGroup/hdf5_plugins"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

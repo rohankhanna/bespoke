@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/hit-gan",
+      "target": "generative-adversarial-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/hit-gan",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/hit-gan",
+      "target": "vision-transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-06T18:46:27.118224+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6287
+    },
+    {
+      "path": "requirements.txt",
+      "size": 89
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Tensorflow implementation for \"Improved Transformer for High-Resolution GANs\" (NeurIPS 2021).",
+    "fork": false,
+    "full_name": "google-research/hit-gan",
+    "html_url": "https://github.com/google-research/hit-gan",
+    "language": "Python",
+    "pushed_at": "2024-07-30T21:38:41Z",
+    "stargazers_count": 93,
+    "topics": [
+      "generative-adversarial-network",
+      "tensorflow",
+      "vision-transformer"
+    ],
+    "updated_at": "2026-04-19T15:34:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "HiT-GAN presents a Transformer-based generator that is trained based on Generative Adversarial Networks (GANs). It achieves state-of-the-art performance for high-resolution image synthesis. Please check our NeurIPS 2021 paper \"[Improved Transformer for High-Resolution GANs](http\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-network"
+    },
+    {
+      "context_snippet": "HiT-GAN presents a Transformer-based generator that is trained based on Generative Adversarial Networks (GANs). It achieves state-of-the-art performance for high-resolution image synthesis. Please check our NeurIPS 2021 paper \"[Improved Transformer for High-Resolution GANs](http\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "HiT-GAN presents a Transformer-based generator that is trained based on Generative Adversarial Networks (GANs). It achieves state-of-the-art performance for high-resolution image synthesis. Please check our NeurIPS 2021 paper \"[Improved Transformer for High-Resolution GANs](http\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer"
+    }
+  ]
+}

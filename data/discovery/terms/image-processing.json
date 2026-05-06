@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -306,6 +306,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "google-research/maxvit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "disintegration/gift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "vztu/maxim-pytorch"
     }
   ],
   "term": "image-processing"

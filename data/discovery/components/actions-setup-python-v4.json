@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -4777,6 +4777,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "GuanceCloud/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_pipeline.yaml",
+      "source_repo": "mindspore-lab/mindnlp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doc_rst_check.yaml",
+      "source_repo": "mindspore-lab/mindnlp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/make_wheel_releases.yml",
+      "source_repo": "mindspore-lab/mindnlp"
     }
   ]
 }

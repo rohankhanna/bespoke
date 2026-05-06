@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "local-rag"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shibing624/ChatPDF",
+      "status": "candidate-context",
+      "text": "RAG for Local LLM, chat with PDF/doc/txt files, ChatPDF. \u7eaf\u539f\u751f\u5b9e\u73b0RAG\u529f\u80fd\uff0c\u57fa\u4e8e\u672c\u5730LLM\u3001embedding\u6a21\u578b\u3001reranker\u6a21\u578b\u5b9e\u73b0\uff0c\u652f\u6301GraphRAG\uff0c\u65e0\u987b\u5b89\u88c5\u4efb\u4f55\u7b2c\u4e09\u65b9agent\u5e93\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shibing624/ChatPDF",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">ChatPDF</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shibing624/ChatPDF",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">ChatPDF</h1>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "local-rag",
+  "concept_id": "local-rag",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "shibing624/ChatPDF"
+    }
+  ],
+  "first_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "local-rag",
+      "sense_id": "local-rag#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

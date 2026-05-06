@@ -118,20 +118,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "go-spatial/tegola",
-      "target": "mapbox/tilejson-spec",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "go-spatial/tegola",
-      "target": "go-spatial/fresco",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/on_pr_push.yml",
       "source_repo": "go-spatial/tegola",
@@ -244,7 +230,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-06T00:57:05.578507+00:00",
+  "fetched_at": "2026-05-06T19:09:42.140722+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -290,18 +276,7 @@
     ],
     "updated_at": "2026-04-27T20:40:29Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "go-spatial/fresco",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mapbox/tilejson-spec",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "On push",

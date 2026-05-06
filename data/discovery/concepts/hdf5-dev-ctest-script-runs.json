@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "hdf5 dev ctest script runs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "status": "candidate-context",
+      "text": "hdf5 dev ctest script runs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "status": "candidate",
+      "text": "hdf5 dev ctest script runs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22480,
+      "status": "candidate",
+      "text": "design"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22480,
+      "status": "candidate",
+      "text": "designed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22480,
+      "status": "candidate",
+      "text": "rhythm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22420,
+      "status": "candidate",
+      "text": "acts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22420,
+      "status": "candidate",
+      "text": "arc"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "hdf5 dev ctest script runs",
+  "concept_id": "hdf5-dev-ctest-script-runs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": ".github/workflows/cmake-script.yml",
+      "source_repo": "HDFGroup/hdf5_plugins"
+    }
+  ],
+  "first_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "hdf5 dev ctest script runs",
+      "sense_id": "hdf5-dev-ctest-script-runs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

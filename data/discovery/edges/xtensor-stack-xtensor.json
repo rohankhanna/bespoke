@@ -179,6 +179,20 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "xtensor-stack/xtensor",
+      "target": "c-plus-plus-17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor",
+      "target": "c-plus-plus-20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor",
       "target": "multidimensional-arrays",
       "target_type": "term"
     },
@@ -195,8 +209,15 @@
       "source_repo": "xtensor-stack/xtensor",
       "target": "tensors",
       "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor",
+      "target": "xsimd-library",
+      "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-05T18:38:09.351693+00:00",
+  "generated_at": "2026-05-06T18:41:14.951242+00:00",
   "source_repo": "xtensor-stack/xtensor"
 }

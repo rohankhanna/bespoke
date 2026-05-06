@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Docker Humble build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "usdot-fhwa-stol/carma-ssc-interface-wrapper",
+      "status": "candidate-context",
+      "text": "Autoware Speed and Steering Control node wrapper for usage with the CARMA Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/carma-ssc-interface-wrapper",
+      "status": "candidate-context",
+      "text": "Docker Humble build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/carma-ssc-interface-wrapper",
+      "status": "candidate",
+      "text": "Docker Humble build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22300,
+      "status": "candidate",
+      "text": "elf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22300,
+      "status": "candidate",
+      "text": "knot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22300,
+      "status": "candidate",
+      "text": "load"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22300,
+      "status": "candidate",
+      "text": "lumo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22300,
+      "status": "candidate",
+      "text": "lumps"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Docker Humble build",
+  "concept_id": "docker-humble-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": ".github/workflows/docker-humble.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ssc-interface-wrapper"
+    }
+  ],
+  "first_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker Humble build",
+      "sense_id": "docker-humble-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

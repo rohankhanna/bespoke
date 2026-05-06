@@ -298,6 +298,12 @@
       "source_repo": "CEED/libCEED",
       "status": "candidate-context",
       "text": "Style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrimeIntellect-ai/renderers",
+      "status": "candidate-context",
+      "text": "Style"
     }
   ],
   "candidate_glosses": [
@@ -448,6 +454,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "CEED/libCEED",
+      "status": "candidate",
+      "text": "Style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrimeIntellect-ai/renderers",
       "status": "candidate",
       "text": "Style"
     }
@@ -985,11 +997,23 @@
       "observed_at": "2026-05-06T12:51:12.481137+00:00",
       "source_file": null,
       "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "PrimeIntellect-ai/renderers"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

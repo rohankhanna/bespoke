@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-06T18:53:20.624092+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 41753
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1167
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "qanything-v2",
+    "description": "Question and Answer based on Anything.",
+    "fork": false,
+    "full_name": "netease-youdao/QAnything",
+    "html_url": "https://github.com/netease-youdao/QAnything",
+    "language": "Python",
+    "pushed_at": "2025-03-24T13:24:36Z",
+    "stargazers_count": 13964,
+    "topics": [],
+    "updated_at": "2026-05-06T09:35:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

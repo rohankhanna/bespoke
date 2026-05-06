@@ -1,0 +1,862 @@
+{
+  "components": [
+    {
+      "component": "cardinalby/git-get-release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-releases.yml"
+    },
+    {
+      "component": "cardinalby/git-get-release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-releases.yml"
+    },
+    {
+      "component": "cardinalby/git-get-release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-releases.yml"
+    },
+    {
+      "component": "cardinalby/git-get-release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-releases.yml"
+    },
+    {
+      "component": "cardinalby/git-get-release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-releases.yml"
+    },
+    {
+      "component": "cardinalby/git-get-release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-releases.yml"
+    },
+    {
+      "component": "cardinalby/git-get-release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-releases.yml"
+    },
+    {
+      "component": "cardinalby/git-get-release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-releases.yml"
+    },
+    {
+      "component": "cardinalby/git-get-release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-releases.yml"
+    },
+    {
+      "component": "cardinalby/git-get-release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-releases.yml"
+    },
+    {
+      "component": "cardinalby/git-get-release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-releases.yml"
+    },
+    {
+      "component": "jsdaniell/create-json@v1.2.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-releases.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-releases.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-check.yml"
+    },
+    {
+      "component": "DoozyX/clang-format-lint-action@v0.20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-check.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-fix.yml"
+    },
+    {
+      "component": "DoozyX/clang-format-lint-action@v0.20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-fix.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@a94899bca583c204427a224a7af87c02f9b325d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-fix.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1.13.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-bintest.yml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-bintest.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-bintest.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-bintest.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-bintest.yml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-bintest.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-bintest.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-bintest.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-bintest.yml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-bintest.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-bintest.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-bintest.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-bintest.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1.13.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml"
+    },
+    {
+      "component": "jsdaniell/create-json@v1.2.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml"
+    },
+    {
+      "component": "azure/trusted-signing-action@v0.5.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1.13.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "DamianReeves/write-file-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "DamianReeves/write-file-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "DamianReeves/write-file-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "fortran-lang/setup-fortran@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "DamianReeves/write-file-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "fortran-lang/setup-fortran@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "DamianReeves/write-file-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-build.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-build.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-build.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-fetchcontent-mac.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-fetchcontent-mac.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-fetchcontent-mac.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-fetchcontent-mac.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-fetchcontent-mac.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-fetchcontent-ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-fetchcontent-ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-fetchcontent-ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-fetchcontent-ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-fetchcontent-ubuntu.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-releases.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "cardinalby/git-get-release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-releases.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "jsdaniell/create-json@v1.2.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-releases.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-releases.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "hdf5 plugins check compression releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "actions/checkout@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "DoozyX/clang-format-lint-action@v0.20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "clang-format Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-fix.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "actions/checkout@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-fix.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "DoozyX/clang-format-lint-action@v0.20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-fix.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "EndBug/add-and-commit@a94899bca583c204427a224a7af87c02f9b325d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format-fix.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "clang-format Commit Changes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-bintest.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "ilammy/msvc-dev-cmd@v1.13.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-bintest.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "jwlawson/actions-setup-cmake@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-bintest.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "dsaltares/fetch-gh-release-asset@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-bintest.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-bintest.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "hdf5 plugins bintest runs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "ilammy/msvc-dev-cmd@v1.13.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "lukka/get-cmake@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "dsaltares/fetch-gh-release-asset@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "jsdaniell/create-json@v1.2.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "azure/trusted-signing-action@v0.5.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-ctest.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "hdf5 plugins ctest runs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "ilammy/msvc-dev-cmd@v1.13.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "lukka/get-cmake@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "dsaltares/fetch-gh-release-asset@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "DamianReeves/write-file-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "fortran-lang/setup-fortran@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-script.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "hdf5 dev ctest script runs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-build.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "actions/checkout@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-build.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "dsaltares/fetch-gh-release-asset@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily-build.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "hdf5 plugins daily build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-fetchcontent-mac.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-fetchcontent-ubuntu.yml",
+      "source_repo": "HDFGroup/hdf5_plugins",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-06T18:42:05.500583+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2428
+    },
+    {
+      "path": ".github/workflows/check-releases.yml",
+      "size": 5534
+    },
+    {
+      "path": ".github/workflows/clang-format-check.yml",
+      "size": 548
+    },
+    {
+      "path": ".github/workflows/clang-format-fix.yml",
+      "size": 1259
+    },
+    {
+      "path": ".github/workflows/cmake-bintest.yml",
+      "size": 13139
+    },
+    {
+      "path": ".github/workflows/cmake-ctest.yml",
+      "size": 27357
+    },
+    {
+      "path": ".github/workflows/cmake-script.yml",
+      "size": 29525
+    },
+    {
+      "path": ".github/workflows/daily-build.yml",
+      "size": 5324
+    },
+    {
+      "path": ".github/workflows/main-fetchcontent-mac.yml",
+      "size": 9568
+    },
+    {
+      "path": ".github/workflows/main-fetchcontent-ubuntu.yml",
+      "size": 9403
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "HDFGroup/hdf5_plugins",
+    "html_url": "https://github.com/HDFGroup/hdf5_plugins",
+    "language": "CMake",
+    "pushed_at": "2026-05-06T18:29:54Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2026-05-06T16:38:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "hdf5 plugins check compression releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-releases.yml",
+      "term": "hdf5 plugins check compression releases"
+    },
+    {
+      "context_snippet": "clang-format Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "term": "clang-format Check"
+    },
+    {
+      "context_snippet": "clang-format Commit Changes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format-fix.yml",
+      "term": "clang-format Commit Changes"
+    },
+    {
+      "context_snippet": "hdf5 plugins bintest runs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-bintest.yml",
+      "term": "hdf5 plugins bintest runs"
+    },
+    {
+      "context_snippet": "hdf5 plugins ctest runs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-ctest.yml",
+      "term": "hdf5 plugins ctest runs"
+    },
+    {
+      "context_snippet": "hdf5 dev ctest script runs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-script.yml",
+      "term": "hdf5 dev ctest script runs"
+    },
+    {
+      "context_snippet": "hdf5 plugins daily build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily-build.yml",
+      "term": "hdf5 plugins daily build"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -742,6 +742,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish-docker.yml",
       "source_repo": "open-telemetry/weaver"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/on-release-main.yml",
+      "source_repo": "agentclientprotocol/python-sdk"
     }
   ]
 }

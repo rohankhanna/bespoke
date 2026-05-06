@@ -1191,6 +1191,18 @@
       "source_repo": "datitran/raccoon_dataset",
       "status": "candidate-context",
       "text": "This is a dataset that I collected to train my own Raccoon detector with [TensorFlow's Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection). Images are from Google and Pixabay. In total, there are 200 images (160 are used for training\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "limenlp/verl",
+      "status": "candidate-context",
+      "text": "AdaRFT: Efficient Reinforcement Finetuning via Adaptive Curriculum Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "limenlp/verl",
+      "status": "candidate-context",
+      "text": "dataset"
     }
   ],
   "candidate_glosses": [
@@ -1787,6 +1799,12 @@
       "source_repo": "datitran/raccoon_dataset",
       "status": "candidate",
       "text": "This is a dataset that I collected to train my own Raccoon detector with [TensorFlow's Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection). Images are from Google and Pixabay. In total, there are 200 images (160 are used for training\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "limenlp/verl",
+      "status": "candidate",
+      "text": "dataset"
     }
   ],
   "candidate_related_terms": [
@@ -2526,11 +2544,17 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": null,
       "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": ".github/workflows/dataset.yml",
+      "source_repo": "limenlp/verl"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

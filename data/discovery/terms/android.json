@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -916,6 +916,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "GrapheneOS/Vanadium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "xbdcc/CCommand"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "xbdcc/CUtils"
     }
   ],
   "term": "Android"

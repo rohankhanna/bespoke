@@ -211,6 +211,18 @@
       "source_repo": "Alex313031/TrImLy",
       "status": "candidate-context",
       "text": "<img src=\"https://raw.githubusercontent.com/Alex313031/TrImLy/main/trimly.svg\" width=\"128\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xbdcc/CUtils",
+      "status": "candidate-context",
+      "text": "an android tool library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xbdcc/CUtils",
+      "status": "candidate-context",
+      "text": "[![api](https://img.shields.io/badge/API-19+-brightgreen.svg)](https://android-arsenal.com/api?level=19)"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "Alex313031/TrImLy",
       "status": "candidate",
       "text": "<img src=\"https://raw.githubusercontent.com/Alex313031/TrImLy/main/trimly.svg\" width=\"128\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xbdcc/CUtils",
+      "status": "candidate",
+      "text": "[![api](https://img.shields.io/badge/API-19+-brightgreen.svg)](https://android-arsenal.com/api?level=19)"
     }
   ],
   "candidate_related_terms": [
@@ -460,11 +478,17 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "Alex313031/TrImLy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "xbdcc/CUtils"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

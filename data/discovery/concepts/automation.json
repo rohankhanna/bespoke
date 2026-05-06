@@ -1091,6 +1091,18 @@
       "source_repo": "Vinyzu/chrome-fingerprints",
       "status": "candidate-context",
       "text": "![Tests & Linting](https://github.com/Vinyzu/chrome-fingerprints/actions/workflows/tests.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beego/bee",
+      "status": "candidate-context",
+      "text": "Bee is a tool for helping develop with beego app framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beego/bee",
+      "status": "candidate-context",
+      "text": "bee"
     }
   ],
   "candidate_glosses": [
@@ -1627,6 +1639,12 @@
       "source_repo": "Vinyzu/chrome-fingerprints",
       "status": "candidate",
       "text": "![Tests & Linting](https://github.com/Vinyzu/chrome-fingerprints/actions/workflows/tests.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beego/bee",
+      "status": "candidate",
+      "text": "bee"
     }
   ],
   "candidate_related_terms": [
@@ -2706,11 +2724,29 @@
       "observed_at": "2026-05-06T12:51:12.481137+00:00",
       "source_file": null,
       "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "beego/bee"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "ttlns/Selenium-Driverless"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-06T18:46:38.333024+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "kinetic",
+    "description": "ROS Driver for AVT cameras using VIMBA SDK",
+    "fork": false,
+    "full_name": "srv/avt_vimba_camera",
+    "html_url": "https://github.com/srv/avt_vimba_camera",
+    "language": "C++",
+    "pushed_at": "2023-02-07T16:03:07Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2025-11-03T10:42:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

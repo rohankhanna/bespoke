@@ -19,6 +19,18 @@
       "source_repo": "Piebald-AI/gemini-cli-desktop",
       "status": "candidate-context",
       "text": "<div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentclientprotocol/python-sdk",
+      "status": "candidate-context",
+      "text": "Python SDK for ACP clients and agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentclientprotocol/python-sdk",
+      "status": "candidate-context",
+      "text": "<a href=\"https://agentclientprotocol.com/\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Piebald-AI/gemini-cli-desktop",
       "status": "candidate",
       "text": "<div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentclientprotocol/python-sdk",
+      "status": "candidate",
+      "text": "<a href=\"https://agentclientprotocol.com/\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "Piebald-AI/gemini-cli-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "agentclientprotocol/python-sdk"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

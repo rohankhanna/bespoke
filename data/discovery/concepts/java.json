@@ -2998,6 +2998,30 @@
       "source_repo": "xbdcc/GrabRedEnvelope",
       "status": "candidate-context",
       "text": "[![Gitter](https://badges.gitter.im/xbdcc/GrabRedEnvelope.svg)](https://gitter.im/xbdcc/GrabRedEnvelope?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/tomcat",
+      "status": "candidate-context",
+      "text": "Apache Tomcat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/tomcat",
+      "status": "candidate-context",
+      "text": "The Apache Tomcat\u00ae software is an open source implementation of the Jakarta"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xbdcc/CCommand",
+      "status": "candidate-context",
+      "text": "Adb\u548c\u5404\u79cdandroid\u76f8\u5173\u5f00\u53d1\u5b9e\u7528\u547d\u4ee4\u6536\u96c6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xbdcc/CCommand",
+      "status": "candidate-context",
+      "text": "Adb\u5404\u79cd\u5b9e\u7528\u547d\u4ee4\u6536\u96c6"
     }
   ],
   "candidate_glosses": [
@@ -4494,6 +4518,18 @@
       "source_repo": "xbdcc/GrabRedEnvelope",
       "status": "candidate",
       "text": "[![Gitter](https://badges.gitter.im/xbdcc/GrabRedEnvelope.svg)](https://gitter.im/xbdcc/GrabRedEnvelope?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/tomcat",
+      "status": "candidate",
+      "text": "The Apache Tomcat\u00ae software is an open source implementation of the Jakarta"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xbdcc/CCommand",
+      "status": "candidate",
+      "text": "Adb\u5404\u79cd\u5b9e\u7528\u547d\u4ee4\u6536\u96c6"
     }
   ],
   "candidate_related_terms": [
@@ -7347,11 +7383,23 @@
       "observed_at": "2026-05-06T12:51:12.481137+00:00",
       "source_file": null,
       "source_repo": "redis/redis-om-spring"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "apache/tomcat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "xbdcc/CCommand"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

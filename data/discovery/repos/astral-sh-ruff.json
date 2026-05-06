@@ -136,7 +136,7 @@
       "source_file": ".github/workflows/build-binaries.yml"
     },
     {
-      "component": "uraimo/run-on-arch-action@d94c13912ea685de38fccc1109385b83fd79427d",
+      "component": "uraimo/run-on-arch-action@f9b26e3a1a408d5fd530d20c17b9f3f4428ff8d9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-binaries.yml"
     },
@@ -191,7 +191,7 @@
       "source_file": ".github/workflows/build-binaries.yml"
     },
     {
-      "component": "uraimo/run-on-arch-action@d94c13912ea685de38fccc1109385b83fd79427d",
+      "component": "uraimo/run-on-arch-action@f9b26e3a1a408d5fd530d20c17b9f3f4428ff8d9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-binaries.yml"
     },
@@ -366,12 +366,12 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "component": "taiki-e/install-action@1329c298aa20c3257846c9b2e0e55967df3e3c37",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "component": "taiki-e/install-action@1329c298aa20c3257846c9b2e0e55967df3e3c37",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -396,7 +396,7 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "component": "taiki-e/install-action@1329c298aa20c3257846c9b2e0e55967df3e3c37",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -416,7 +416,7 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "component": "taiki-e/install-action@1329c298aa20c3257846c9b2e0e55967df3e3c37",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -731,12 +731,12 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "component": "taiki-e/install-action@1329c298aa20c3257846c9b2e0e55967df3e3c37",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "CodSpeedHQ/action@db35df748deb45fdef0960669f57d627c1956c30",
+      "component": "CodSpeedHQ/action@c381be0bfd20e844fb45594f6aa182ffcd94545c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -751,7 +751,7 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "component": "taiki-e/install-action@1329c298aa20c3257846c9b2e0e55967df3e3c37",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -771,7 +771,7 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "component": "taiki-e/install-action@1329c298aa20c3257846c9b2e0e55967df3e3c37",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -781,7 +781,7 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "CodSpeedHQ/action@db35df748deb45fdef0960669f57d627c1956c30",
+      "component": "CodSpeedHQ/action@c381be0bfd20e844fb45594f6aa182ffcd94545c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -801,7 +801,7 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "component": "taiki-e/install-action@1329c298aa20c3257846c9b2e0e55967df3e3c37",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -821,7 +821,7 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "component": "taiki-e/install-action@1329c298aa20c3257846c9b2e0e55967df3e3c37",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -831,7 +831,7 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "CodSpeedHQ/action@db35df748deb45fdef0960669f57d627c1956c30",
+      "component": "CodSpeedHQ/action@c381be0bfd20e844fb45594f6aa182ffcd94545c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -898,7 +898,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "astral-sh/ruff",
-      "target": "godotengine/godot",
+      "target": "great-expectations/great_expectations",
       "target_type": "repository"
     },
     {
@@ -947,7 +947,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-binaries.yml",
       "source_repo": "astral-sh/ruff",
-      "target": "uraimo/run-on-arch-action@d94c13912ea685de38fccc1109385b83fd79427d",
+      "target": "uraimo/run-on-arch-action@f9b26e3a1a408d5fd530d20c17b9f3f4428ff8d9",
       "target_type": "component"
     },
     {
@@ -1073,7 +1073,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "target": "taiki-e/install-action@1329c298aa20c3257846c9b2e0e55967df3e3c37",
       "target_type": "component"
     },
     {
@@ -1150,7 +1150,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "CodSpeedHQ/action@db35df748deb45fdef0960669f57d627c1956c30",
+      "target": "CodSpeedHQ/action@c381be0bfd20e844fb45594f6aa182ffcd94545c",
       "target_type": "component"
     },
     {
@@ -1315,7 +1315,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T12:56:53.396278+00:00",
+  "fetched_at": "2026-05-06T18:53:57.068468+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1347,11 +1347,11 @@
     },
     {
       "path": ".github/workflows/ci.yaml",
-      "size": 49619
+      "size": 50065
     },
     {
       "path": ".github/workflows/daily_fuzz.yaml",
-      "size": 2743
+      "size": 2744
     },
     {
       "path": ".github/workflows/memory_report.yaml",
@@ -1367,8 +1367,8 @@
     "full_name": "astral-sh/ruff",
     "html_url": "https://github.com/astral-sh/ruff",
     "language": "Rust",
-    "pushed_at": "2026-05-01T12:48:59Z",
-    "stargazers_count": 47323,
+    "pushed_at": "2026-05-06T18:10:34Z",
+    "stargazers_count": 47401,
     "topics": [
       "linter",
       "pep8",
@@ -1382,7 +1382,7 @@
       "style-guide",
       "styleguide"
     ],
-    "updated_at": "2026-05-01T12:42:45Z"
+    "updated_at": "2026-05-06T17:36:52Z"
   },
   "repo_links": [
     {
@@ -1402,7 +1402,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "godotengine/godot",
+      "full_name": "great-expectations/great_expectations",
       "source_file": "README.md"
     }
   ],

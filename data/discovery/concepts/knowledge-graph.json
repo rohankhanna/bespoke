@@ -187,6 +187,18 @@
       "source_repo": "tpoisonooo/ROGRAG",
       "status": "candidate-context",
       "text": "English | [Simplified Chinese](./README_zh_cn.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenSPG/KAG",
+      "status": "candidate-context",
+      "text": "KAG is a logical form-guided reasoning and retrieval framework based on OpenSPG engine and LLMs.  It is used to build logical reasoning and factual Q&A solutions for professional domain knowledge bases. It can effectively overcome the shortcomings of the traditional RAG vector similarity calculation model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenSPG/KAG",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "tpoisonooo/ROGRAG",
       "status": "candidate",
       "text": "English | [Simplified Chinese](./README_zh_cn.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenSPG/KAG",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -436,11 +454,29 @@
       "observed_at": "2026-05-06T00:36:03.937537+00:00",
       "source_file": null,
       "source_repo": "tpoisonooo/ROGRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "InternScience/GraphGen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "OpenSPG/KAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "tpoisonooo/ROGRAG"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

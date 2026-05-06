@@ -271,6 +271,18 @@
       "source_repo": "libLAS/libLAS",
       "status": "candidate-context",
       "text": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HKUST-Aerial-Robotics/A-LOAM",
+      "status": "candidate-context",
+      "text": "Advanced implementation of LOAM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUST-Aerial-Robotics/A-LOAM",
+      "status": "candidate-context",
+      "text": "A-LOAM is an Advanced implementation of LOAM (J. Zhang and S. Singh. LOAM: Lidar Odometry and Mapping in Real-time), which uses Eigen and Ceres Solver to simplify code structure. This code is modified from LOAM and [LOAM_NOTED](https://github.com/cuitaixiang/LOAM_NOTED). This co\u2026"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +417,12 @@
       "source_repo": "libLAS/libLAS",
       "status": "candidate",
       "text": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUST-Aerial-Robotics/A-LOAM",
+      "status": "candidate",
+      "text": "A-LOAM is an Advanced implementation of LOAM (J. Zhang and S. Singh. LOAM: Lidar Odometry and Mapping in Real-time), which uses Eigen and Ceres Solver to simplify code structure. This code is modified from LOAM and [LOAM_NOTED](https://github.com/cuitaixiang/LOAM_NOTED). This co\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -622,11 +640,23 @@
       "observed_at": "2026-05-06T00:36:03.937537+00:00",
       "source_file": null,
       "source_repo": "TiagoCortinhal/SalsaNext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "HKUST-Aerial-Robotics/A-LOAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "TiagoCortinhal/SalsaNext"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

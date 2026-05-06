@@ -55,6 +55,18 @@
       "source_repo": "Wykks/ngx-mapbox-gl",
       "status": "candidate-context",
       "text": "[![npm version](https://img.shields.io/npm/v/ngx-mapbox-gl.svg?style=flat)](https://www.npmjs.com/package/ngx-mapbox-gl)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/tilejson-spec",
+      "status": "candidate-context",
+      "text": "JSON format for describing map tilesets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/tilejson-spec",
+      "status": "candidate-context",
+      "text": "TileJSON is an open standard for representing map metadata. Current version: [3.0.0](/3.0.0)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "Wykks/ngx-mapbox-gl",
       "status": "candidate",
       "text": "[![npm version](https://img.shields.io/npm/v/ngx-mapbox-gl.svg?style=flat)](https://www.npmjs.com/package/ngx-mapbox-gl)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/tilejson-spec",
+      "status": "candidate",
+      "text": "TileJSON is an open standard for representing map metadata. Current version: [3.0.0](/3.0.0)"
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +184,23 @@
       "observed_at": "2026-05-06T00:36:03.937537+00:00",
       "source_file": null,
       "source_repo": "nitaliano/react-native-mapbox-gl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "nitaliano/react-native-mapbox-gl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/tilejson-spec"
     }
   ],
   "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "lexical_providers": [
     "datamuse"
   ],

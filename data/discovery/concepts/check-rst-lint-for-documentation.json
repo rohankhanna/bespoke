@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check rst lint for documentation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mindspore-lab/mindnlp",
+      "status": "candidate-context",
+      "text": "MindSpore +  \ud83e\udd17Huggingface: Run any Transformers/Diffusers model on MindSpore with seamless compatibility and acceleration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mindspore-lab/mindnlp",
+      "status": "candidate-context",
+      "text": "Check rst lint for documentation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mindspore-lab/mindnlp",
+      "status": "candidate",
+      "text": "Check rst lint for documentation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19070,
+      "status": "candidate",
+      "text": "fiberscope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17957,
+      "status": "candidate",
+      "text": "abutment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17957,
+      "status": "candidate",
+      "text": "level"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17380,
+      "status": "candidate",
+      "text": "black"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17380,
+      "status": "candidate",
+      "text": "crank"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check rst lint for documentation",
+  "concept_id": "check-rst-lint-for-documentation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-06T18:41:14.951242+00:00",
+      "source_file": ".github/workflows/doc_rst_check.yaml",
+      "source_repo": "mindspore-lab/mindnlp"
+    }
+  ],
+  "first_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check rst lint for documentation",
+      "sense_id": "check-rst-lint-for-documentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}
