@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 98,
-    "concepts": 79,
-    "observations": 79,
-    "repos": 18,
-    "terms": 76
+    "components": 104,
+    "concepts": 75,
+    "observations": 75,
+    "repos": 17,
+    "terms": 72
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,24 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
-    "apache/arrow-java",
     "apache/ignite-extensions",
     "apache/netbeans-mavenutils-nbm-maven-plugin",
     "BerkleyTechnologyServices/restdocs-spec",
-    "bsorrentino/java-async-generator",
     "bufbuild/protovalidate-java",
-    "cedar-policy/cedar-java",
     "eclipse-shellwax/shellwax",
     "filip26/ld-cli",
     "googleapis/discovery-artifact-manager",
+    "googleapis/java-bigtable",
     "googleapis/java-cloud-bom",
     "GoogleCloudPlatform/opentelemetry-operations-java",
     "hivemq/helm-charts",
     "jpmml/jpmml-h2o",
     "jpmml/jpmml-r",
-    "kirill-grouchnikov/ephemeral",
     "mukel/gemma4.java",
+    "opensim-org/opensim-gui",
+    "spiffe/java-spiffe",
     "yawkat/lz4-java"
   ]
 }

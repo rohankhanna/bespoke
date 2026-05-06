@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 233,
-    "concepts": 161,
-    "observations": 161,
-    "repos": 31,
-    "terms": 159
+    "components": 197,
+    "concepts": 114,
+    "observations": 115,
+    "repos": 30,
+    "terms": 113
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
-    "abhinav/goldmark-frontmatter",
-    "abhinav/tmux-fastcopy",
     "apache/datasketches-go",
     "aquasecurity/trivy-java-db",
     "aspect-build/aspect-gazelle",
@@ -24,14 +22,14 @@
     "aws/aws-network-policy-agent",
     "bootmortis/sing-geosite",
     "cloudfoundry/bpm-release",
+    "cloudfoundry/cf-acceptance-tests",
     "cloudfoundry/cf-smoke-tests",
     "containers/container-libs",
     "danielgtaylor/mexpr",
     "danielgtaylor/shorthand",
     "datachainlab/cosmos-ethereum-ibc-lcp",
-    "davidkarlsen/flyway-operator",
-    "defilantech/LLMKube",
-    "dlclark/regexp2cg",
+    "DevExpGbb/gh-devlake",
+    "dianlight/gollama.cpp",
     "ebitengine/debugui",
     "ipfs/ipfs-check",
     "ipshipyard/p2p-forge",
@@ -40,10 +38,11 @@
     "kubernetes-sigs/verify-conformance",
     "muhlba91/external-dns-provider-adguard",
     "openshift/ci-tools",
+    "openshift/kubernetes",
+    "oracle/karpenter-provider-oci",
     "sigstore/helm-sigstore",
     "sigstore/k8s-manifest-sigstore",
-    "sigstore/rekor-tiles",
-    "terraform-linters/tflint-ruleset-google",
-    "transparency-dev/witness"
+    "transparency-dev/witness",
+    "usbarmory/tamago-example"
   ]
 }

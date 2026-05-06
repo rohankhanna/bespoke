@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 424,
-    "concepts": 528,
-    "observations": 528,
-    "repos": 45,
-    "terms": 524
+    "components": 342,
+    "concepts": 438,
+    "observations": 438,
+    "repos": 37,
+    "terms": 436
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "alibaba/spring-ai-alibaba",
     "apache/beam",
@@ -22,16 +22,12 @@
     "apache/ignite",
     "apache/parquet-java",
     "apache/phoenix",
-    "apache/seatunnel",
     "aws/aws-sdk-java-v2",
     "checkstyle/checkstyle",
-    "ClickHouse/clickhouse-java",
     "cloudfoundry/uaa",
     "confluentinc/schema-registry",
     "dlew/joda-time-android",
     "dropwizard/dropwizard",
-    "FasterXML/jackson-core",
-    "FasterXML/jackson-databind",
     "firebase/firebase-android-sdk",
     "google/conscrypt",
     "googleapis/google-cloud-java",
@@ -39,13 +35,10 @@
     "iterate-ch/cyberduck",
     "JetBrains/JetBrainsRuntime",
     "jline/jline3",
-    "JodaOrg/joda-time",
-    "junit-team/junit-examples",
     "junit-team/junit-framework",
     "karatelabs/karate",
     "konsoletyper/teavm",
     "langgraph4j/langgraph4j",
-    "lightbend/config",
     "micronaut-projects/micronaut-core",
     "moyangzhan/langchain4j-aideepin",
     "reactor/BlockHound",
@@ -54,7 +47,6 @@
     "SonarSource/sonar-java",
     "spring-projects/spring-ai",
     "sqlancer/sqlancer",
-    "swagger-api/swagger-core",
     "testng-team/testng",
     "tlaplus/tlaplus",
     "unicode-org/cldr",

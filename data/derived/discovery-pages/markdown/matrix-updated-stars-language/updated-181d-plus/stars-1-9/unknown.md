@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Unknown
 
-Generated at: `2026-05-05T08:29:41.606128+00:00`
+Generated at: `2026-05-06T05:39:22.250037+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 168
-- terms: 142
-- components: 89
-- concepts: 143
-- observations: 143
+- repos: 174
+- terms: 151
+- components: 120
+- concepts: 152
+- observations: 152
 
 ## Static behavior
 
@@ -27,6 +27,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [Tencent/tencent.github.io](https://github.com/Tencent/tencent.github.io) | 3 | 2025-11-05T07:34:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Deep-Research-Model](https://github.com/danielrosehill/Claude-Deep-Research-Model) | 7 | 2025-11-02T01:08:45Z | Unknown | Model/data | 2 | 0 | 2 | 2 |
 | [danielrosehill/claude-agent-picker-pattern](https://github.com/danielrosehill/Claude-Agent-Picker-Pattern) | 4 | 2025-10-31T15:22:40Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [IST-DASLab/nanochat-qat](https://github.com/IST-DASLab/nanochat-qat) | 1 | 2025-10-31T11:26:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [nornagon/crossterm](https://github.com/nornagon/crossterm) | 1 | 2025-10-29T23:22:01Z | Unknown | CLI | 1 | 2 | 1 | 1 |
@@ -50,6 +51,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [TianxingChen/RoboTwin](https://github.com/TianxingChen/RoboTwin) | 7 | 2025-06-21T02:45:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [simonpoole/osm-area-tags](https://github.com/simonpoole/osm-area-tags) | 3 | 2025-06-14T20:44:26Z | Unknown | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [prisma/presskit](https://github.com/prisma/presskit) | 6 | 2025-06-12T13:27:23Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [Extraltodeus/shared_models_galleries](https://github.com/Extraltodeus/shared_models_galleries) | 3 | 2025-06-08T22:14:03Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [web-platform-tests/wpt-notes](https://github.com/web-platform-tests/wpt-notes) | 3 | 2025-06-03T15:35:29Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ga4gh/large-scale-genomics-wiki](https://github.com/ga4gh/large-scale-genomics-wiki) | 9 | 2025-06-02T16:25:15Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [jcmorrow/seoul256-ghostty](https://github.com/jcmorrow/seoul256-ghostty) | 6 | 2025-05-27T15:48:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -71,6 +73,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Deep-Spark/FlashMLA](https://github.com/Deep-Spark/FlashMLA) | 6 | 2025-02-26T12:40:54Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [pandas-dev/.github](https://github.com/pandas-dev/.github) | 3 | 2025-02-22T18:45:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [zailoxtt/ru-grok-jailbreak](https://github.com/ZailoxTT/ru-grok-jailbreak) | 1 | 2025-02-20T14:22:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [viperproject/axiom-profiler-2](https://github.com/viperproject/axiom-profiler-2) | 2 | 2025-02-14T00:06:34Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [zczhang-sjtu/UGVQ](https://github.com/zczhang-sjtu/UGVQ) | 1 | 2025-02-10T14:09:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Interview-Workflow-V2](https://github.com/danielrosehill/AI-Interview-Workflow-V2) | 1 | 2025-02-09T17:09:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Awesome-Linux-IDEs](https://github.com/danielrosehill/Awesome-Linux-IDEs) | 7 | 2025-02-07T17:24:52Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -98,6 +101,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ibis-project/governance](https://github.com/ibis-project/governance) | 5 | 2024-09-19T14:47:46Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [justinchuby/lintrunner-action](https://github.com/justinchuby/lintrunner-action) | 1 | 2024-09-18T14:18:07Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [ray-x/files](https://github.com/ray-x/files) | 3 | 2024-09-18T03:01:28Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [dothq/gecko-dev](https://github.com/dothq/gecko-dev) | 2 | 2024-08-20T13:51:12Z | Unknown | Infrastructure/tooling | 3 | 29 | 3 | 3 |
 | [UBC-NLP/Cheetah](https://github.com/UBC-NLP/Cheetah) | 4 | 2024-08-12T19:56:18Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [webtorrent/.github](https://github.com/webtorrent/.github) | 1 | 2024-08-12T12:12:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [sokra/triomphe](https://github.com/sokra/triomphe) | 1 | 2024-08-07T07:29:37Z | Unknown | Infrastructure/tooling | 2 | 3 | 2 | 2 |
@@ -129,6 +133,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ipld/team-mgmt](https://github.com/ipld/team-mgmt) | 6 | 2023-12-09T04:26:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ron-rs/sublime-ron](https://github.com/ron-rs/sublime-ron) | 8 | 2023-11-05T04:15:24Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [BUTSpeechFIT/CALLHOME_sublists](https://github.com/BUTSpeechFIT/CALLHOME_sublists) | 6 | 2023-10-27T08:17:41Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [nazarepiedady/rust-com-exemplos](https://github.com/nazarepiedady/rust-com-exemplos) | 8 | 2023-10-27T05:17:30Z | Unknown | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [spring-projects/.github](https://github.com/spring-projects/.github) | 8 | 2023-09-12T04:00:09Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [autowarefoundation/autoware-projects](https://github.com/autowarefoundation/autoware-projects) | 8 | 2023-09-11T23:51:38Z | Unknown | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [ChenMnZ/AutoGPTQ-bugfix](https://github.com/ChenMnZ/AutoGPTQ-bugfix) | 2 | 2023-09-08T01:16:29Z | Unknown | Infrastructure/tooling | 2 | 4 | 2 | 2 |
@@ -181,6 +186,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alexcrichton/git2-rs](https://github.com/alexcrichton/git2-rs) | 5 | 2022-03-10T17:03:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [vorburger/Log4j_CVE-2021-44228](https://github.com/vorburger/Log4j_CVE-2021-44228) | 3 | 2022-02-16T21:58:54Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [sudo-suhas/lint-staged-django-react-demo](https://github.com/sudo-suhas/lint-staged-django-react-demo) | 2 | 2022-02-11T12:44:35Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
+| [chorusone/ics23](https://github.com/ChorusOne/ics23) | 1 | 2022-01-31T14:31:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ojdkbuild/contrib_jdk8u-aarch32-ci](https://github.com/ojdkbuild/contrib_jdk8u-aarch32-ci) | 1 | 2022-01-28T16:04:39Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [patmyron/cfn-lint-online](https://github.com/PatMyron/cfn-lint-online) | 8 | 2021-12-31T06:18:00Z | Unknown | Unknown | 6 | 0 | 6 | 6 |
 | [webpack/v4.webpack.js.org](https://github.com/webpack/v4.webpack.js.org) | 4 | 2021-11-07T00:27:03Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
@@ -211,12 +217,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [niuiic/awesome-neovim-plugins](https://github.com/niuiic/awesome-neovim-plugins) | 8 | 2025-04-24T11:36:23Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [hpcaitech/Open-Sora-Demo](https://github.com/hpcaitech/Open-Sora-Demo) | 8 | 2025-03-19T10:32:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ron-rs/sublime-ron](https://github.com/ron-rs/sublime-ron) | 8 | 2023-11-05T04:15:24Z | Unknown | Library | 0 | 0 | 0 | 0 |
+| [nazarepiedady/rust-com-exemplos](https://github.com/nazarepiedady/rust-com-exemplos) | 8 | 2023-10-27T05:17:30Z | Unknown | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [spring-projects/.github](https://github.com/spring-projects/.github) | 8 | 2023-09-12T04:00:09Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [autowarefoundation/autoware-projects](https://github.com/autowarefoundation/autoware-projects) | 8 | 2023-09-11T23:51:38Z | Unknown | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [surrealdb/license](https://github.com/surrealdb/license) | 8 | 2023-08-08T16:17:37Z | Unknown | Library | 2 | 0 | 2 | 2 |
 | [OpenBMB/General-Model-License](https://github.com/OpenBMB/General-Model-License) | 8 | 2023-05-27T02:03:23Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [patmyron/cfn-lint-online](https://github.com/PatMyron/cfn-lint-online) | 8 | 2021-12-31T06:18:00Z | Unknown | Unknown | 6 | 0 | 6 | 6 |
 | [sagiegurari/cargo-make-tasks](https://github.com/sagiegurari/cargo-make-tasks) | 8 | 2021-09-21T16:50:13Z | Unknown | Infrastructure/tooling | 0 | 3 | 0 | 0 |
+| [danielrosehill/Claude-Deep-Research-Model](https://github.com/danielrosehill/Claude-Deep-Research-Model) | 7 | 2025-11-02T01:08:45Z | Unknown | Model/data | 2 | 0 | 2 | 2 |
 | [arnetheduck/nph-action](https://github.com/arnetheduck/nph-action) | 7 | 2025-09-15T07:47:33Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [TianxingChen/RoboTwin](https://github.com/TianxingChen/RoboTwin) | 7 | 2025-06-21T02:45:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [caltechlibrary/codemeta2cff](https://github.com/caltechlibrary/codemeta2cff) | 7 | 2025-04-25T23:36:58Z | Unknown | Infrastructure/tooling | 3 | 6 | 3 | 3 |
@@ -277,6 +285,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [notaryproject/.github](https://github.com/notaryproject/.github) | 3 | 2025-07-10T07:19:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [jcmorrow/seoul256-zed](https://github.com/jcmorrow/seoul256-zed) | 3 | 2025-07-02T15:46:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [simonpoole/osm-area-tags](https://github.com/simonpoole/osm-area-tags) | 3 | 2025-06-14T20:44:26Z | Unknown | Infrastructure/tooling | 2 | 1 | 2 | 2 |
+| [Extraltodeus/shared_models_galleries](https://github.com/Extraltodeus/shared_models_galleries) | 3 | 2025-06-08T22:14:03Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [web-platform-tests/wpt-notes](https://github.com/web-platform-tests/wpt-notes) | 3 | 2025-06-03T15:35:29Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [abcjjy/godot-sqlcipher](https://github.com/abcjjy/godot-sqlcipher) | 3 | 2025-04-23T11:40:18Z | Unknown | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [dotnet/android-api-docs](https://github.com/dotnet/android-api-docs) | 3 | 2025-04-23T05:15:10Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
@@ -299,6 +308,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [travis-infrastructure/packer-build](https://github.com/travis-infrastructure/packer-build) | 2 | 2025-10-15T13:56:32Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
 | [podman-desktop/community](https://github.com/podman-desktop/community) | 2 | 2025-06-27T14:40:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [layr-labs/avs-vibe-developer-guide](https://github.com/Layr-Labs/avs-vibe-developer-guide) | 2 | 2025-04-22T19:19:06Z | Unknown | Library | 0 | 0 | 0 | 0 |
+| [viperproject/axiom-profiler-2](https://github.com/viperproject/axiom-profiler-2) | 2 | 2025-02-14T00:06:34Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [DataCompression/corpus-collection](https://github.com/DataCompression/corpus-collection) | 2 | 2025-02-05T08:48:24Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [0xnu/rewsury](https://github.com/0xnu/rewsury) | 2 | 2025-01-24T16:39:17Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [zdenop/jbig2enc-samples](https://github.com/zdenop/jbig2enc-samples) | 2 | 2024-12-20T18:34:50Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -306,6 +316,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jessicaStorer88/RepeatMasker_library_CHM13](https://github.com/jessicaStorer88/RepeatMasker_library_CHM13) | 2 | 2024-11-19T16:52:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [getlantern/lantern-forum-ukraine](https://github.com/getlantern/lantern-forum-ukraine) | 2 | 2024-11-01T19:49:49Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [sp1-patches/ed25519-consensus](https://github.com/sp1-patches/ed25519-consensus) | 2 | 2024-10-28T23:33:47Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [dothq/gecko-dev](https://github.com/dothq/gecko-dev) | 2 | 2024-08-20T13:51:12Z | Unknown | Infrastructure/tooling | 3 | 29 | 3 | 3 |
 | [suzuki-shunsuke/versioning-policy](https://github.com/suzuki-shunsuke/versioning-policy) | 2 | 2024-07-23T21:28:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [dotnet-foundation/.github](https://github.com/dotnet-foundation/.github) | 2 | 2024-04-03T20:22:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [israel-laguan/israel-laguan](https://github.com/Israel-Laguan/Israel-Laguan) | 2 | 2024-02-09T15:04:21Z | Unknown | Unknown | 1 | 0 | 2 | 2 |
@@ -362,6 +373,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gnunicorn/cargo-unleash](https://github.com/gnunicorn/cargo-unleash) | 1 | 2022-05-13T12:44:10Z | Unknown | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [obahareth/base16-builder-ruby](https://github.com/obahareth/base16-builder-ruby) | 1 | 2022-04-28T22:12:36Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [scottemmons/decision-transformer](https://github.com/scottemmons/decision-transformer) | 1 | 2022-04-24T23:12:49Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
+| [chorusone/ics23](https://github.com/ChorusOne/ics23) | 1 | 2022-01-31T14:31:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ojdkbuild/contrib_jdk8u-aarch32-ci](https://github.com/ojdkbuild/contrib_jdk8u-aarch32-ci) | 1 | 2022-01-28T16:04:39Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [jiweimaster/lfs](https://github.com/JiweiMaster/lfs) | 1 | 2021-11-03T03:14:41Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [blockstream/rust-electrum-client](https://github.com/Blockstream/rust-electrum-client) | 1 | 2021-08-20T12:36:44Z | Unknown | CLI | 0 | 0 | 0 | 0 |

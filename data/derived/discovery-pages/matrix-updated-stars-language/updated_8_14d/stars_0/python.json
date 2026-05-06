@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 21,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 7,
-    "terms": 12
+    "components": 7,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 5,
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
-    "conda-forge/conda-forge-feedstock-ops",
     "danielrosehill/Claude-AI-Video-Producer-Plugin",
     "danielrosehill/Hypothesis-Council",
-    "hauntsaninja/mypy",
     "hmellor/vllm",
     "NightWatcher314/dockgecli",
     "NightWatcher314/npmctl"

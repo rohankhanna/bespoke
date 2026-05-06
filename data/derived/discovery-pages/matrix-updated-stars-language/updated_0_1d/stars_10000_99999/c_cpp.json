@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 60,
-    "observations": 60,
-    "repos": 5,
-    "terms": 60
+    "components": 33,
+    "concepts": 29,
+    "observations": 29,
+    "repos": 4,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "argotorg/solidity",
-    "google-ai-edge/mediapipe",
-    "mozilla-ai/llamafile",
-    "protocolbuffers/protobuf",
-    "Z3Prover/z3"
+    "ggml-org/ggml",
+    "google-deepmind/mujoco",
+    "jqlang/jq"
   ]
 }

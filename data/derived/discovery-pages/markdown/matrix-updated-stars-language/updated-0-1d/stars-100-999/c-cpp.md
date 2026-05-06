@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-05T08:29:41.606128+00:00`
+Generated at: `2026-05-06T05:39:22.250037+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 5
-- terms: 21
-- components: 17
-- concepts: 21
-- observations: 21
+- terms: 44
+- components: 14
+- concepts: 44
+- observations: 44
 
 ## Static behavior
 
@@ -26,18 +26,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ROCm/hipBLAS](https://github.com/ROCm/hipBLAS) | 152 | 2026-05-04T22:32:13Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
-| [open-telemetry/opentelemetry-dotnet-instrumentation](https://github.com/open-telemetry/opentelemetry-dotnet-instrumentation) | 453 | 2026-05-04T20:58:32Z | C/C++ | Infrastructure/tooling | 8 | 11 | 8 | 8 |
-| [confluentinc/librdkafka](https://github.com/confluentinc/librdkafka) | 971 | 2026-05-04T20:13:51Z | C/C++ | Library | 8 | 0 | 8 | 8 |
-| [triton-inference-server/pytorch_backend](https://github.com/triton-inference-server/pytorch_backend) | 177 | 2026-05-04T19:01:20Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [triton-inference-server/core](https://github.com/triton-inference-server/core) | 170 | 2026-05-04T09:14:55Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [ouster-lidar/ouster-ros](https://github.com/ouster-lidar/ouster-ros) | 198 | 2026-05-05T16:33:45Z | C/C++ | Infrastructure/tooling | 14 | 1 | 14 | 14 |
+| [ipsilon/evmone](https://github.com/ipsilon/evmone) | 974 | 2026-05-05T16:18:09Z | C/C++ | Infrastructure/tooling | 5 | 0 | 5 | 5 |
+| [CEED/libCEED](https://github.com/CEED/libCEED) | 253 | 2026-05-05T14:51:09Z | C/C++ | Infrastructure/tooling | 11 | 3 | 11 | 11 |
+| [open-telemetry/opentelemetry-ebpf-instrumentation](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation) | 453 | 2026-05-05T13:16:14Z | C/C++ | Infrastructure/tooling | 6 | 10 | 6 | 6 |
+| [confluentinc/librdkafka](https://github.com/confluentinc/librdkafka) | 972 | 2026-05-05T09:55:10Z | C/C++ | Library | 8 | 0 | 8 | 8 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [confluentinc/librdkafka](https://github.com/confluentinc/librdkafka) | 971 | 2026-05-04T20:13:51Z | C/C++ | Library | 8 | 0 | 8 | 8 |
-| [open-telemetry/opentelemetry-dotnet-instrumentation](https://github.com/open-telemetry/opentelemetry-dotnet-instrumentation) | 453 | 2026-05-04T20:58:32Z | C/C++ | Infrastructure/tooling | 8 | 11 | 8 | 8 |
-| [triton-inference-server/pytorch_backend](https://github.com/triton-inference-server/pytorch_backend) | 177 | 2026-05-04T19:01:20Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [triton-inference-server/core](https://github.com/triton-inference-server/core) | 170 | 2026-05-04T09:14:55Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [ROCm/hipBLAS](https://github.com/ROCm/hipBLAS) | 152 | 2026-05-04T22:32:13Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
+| [ipsilon/evmone](https://github.com/ipsilon/evmone) | 974 | 2026-05-05T16:18:09Z | C/C++ | Infrastructure/tooling | 5 | 0 | 5 | 5 |
+| [confluentinc/librdkafka](https://github.com/confluentinc/librdkafka) | 972 | 2026-05-05T09:55:10Z | C/C++ | Library | 8 | 0 | 8 | 8 |
+| [open-telemetry/opentelemetry-ebpf-instrumentation](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation) | 453 | 2026-05-05T13:16:14Z | C/C++ | Infrastructure/tooling | 6 | 10 | 6 | 6 |
+| [CEED/libCEED](https://github.com/CEED/libCEED) | 253 | 2026-05-05T14:51:09Z | C/C++ | Infrastructure/tooling | 11 | 3 | 11 | 11 |
+| [ouster-lidar/ouster-ros](https://github.com/ouster-lidar/ouster-ros) | 198 | 2026-05-05T16:33:45Z | C/C++ | Infrastructure/tooling | 14 | 1 | 14 | 14 |

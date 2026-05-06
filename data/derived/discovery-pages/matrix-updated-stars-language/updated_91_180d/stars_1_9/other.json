@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 167,
-    "concepts": 72,
-    "observations": 72,
-    "repos": 47,
-    "terms": 74
+    "components": 175,
+    "concepts": 67,
+    "observations": 67,
+    "repos": 49,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "abap2UI5-addons/table-maintenance",
     "AdaCore/AdaSAT",
@@ -23,8 +23,8 @@
     "anotherlusitano/SpectrumPlus",
     "atrodo/WebGPU-Direct",
     "Blosc/PyData-Global-2025-Tutorial",
-    "clojurephant/clojurephant-tooling",
     "cooper1637/SageAttention",
+    "datachainlab/lcp-solidity",
     "elixir-makeup/makeup_erlang",
     "erwin-kok/multiformat",
     "evoskuil/visual-studio-template",
@@ -48,6 +48,7 @@
     "LucasGinard/AireLibre-iOS",
     "lumen-oss/luarocks-build-treesitter-parser",
     "Melandel/workflow",
+    "mirage/coin",
     "mmark-md/flycheck-mmark",
     "nelson-lang/module_skeleton",
     "nelson-lang/module_skeleton_basic",
@@ -60,6 +61,7 @@
     "simdjson/simdjson-data",
     "slunsford/coffee-analytics",
     "testng-team/testng-team.github.io",
-    "typstyle-rs/typstyle-action"
+    "typstyle-rs/typstyle-action",
+    "XR-Robotics/XRoboToolkit-Orin-Video-Sender"
   ]
 }

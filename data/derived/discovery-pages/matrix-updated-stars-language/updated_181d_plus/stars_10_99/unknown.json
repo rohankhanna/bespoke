@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 194,
-    "concepts": 307,
-    "observations": 307,
-    "repos": 263,
-    "terms": 307
+    "components": 197,
+    "concepts": 315,
+    "observations": 315,
+    "repos": 271,
+    "terms": 315
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "0nutation/SLMTokBench",
     "0nutation/SpeechAgents",
@@ -157,8 +157,10 @@
     "jenkinsci/winsw-maven-packaging",
     "jeremyckahn/awesome-trystero",
     "JetBrains/.github",
+    "jinlong17/V2VLC",
     "JokerJohn/MS-Dataset",
     "jupyter-server/team-compass",
+    "kberov/rust-by-example-bg",
     "KDJDEV/imagehash-reverse-image-search-tutorial",
     "keeeeenw/MicroLlava",
     "KohakuBlueleaf/LoCon",
@@ -189,6 +191,7 @@
     "MohitShridhar/RLBench",
     "Mountchicken/CodeCookbook",
     "mozilla-mobile/shared-docs",
+    "mozilla-services/shavar-list-creation-config",
     "mse-group/Slides",
     "multiformats/unsigned-varint",
     "MY1L/CoQuBeLi",
@@ -197,6 +200,8 @@
     "MY1L/QuQi",
     "MY1L/vert",
     "nanotee/vimdoc-notes",
+    "near/abi",
+    "nebula-labs/rust-by-example-vn",
     "neoterm/neoterm",
     "ngoyal2707/Megatron-LM",
     "NiteshMethani/PlotQA",
@@ -207,6 +212,7 @@
     "nvm-sh/logos",
     "o3de/sig-simulation",
     "octokit/auth-oauth-user-client.js",
+    "octopus-network/ibc-spec-cn",
     "OffchainLabs/arbitrum",
     "ojdkbuild/contrib_jdk8u-ci",
     "OloOcki/tum-facade",
@@ -257,6 +263,7 @@
     "twitter/.github",
     "TWKB/Specification",
     "ubmit/seoul256-kitty",
+    "ungoogled-software/contrib",
     "unitycontainer/abstractions",
     "unum-cloud/UDisk",
     "v7labs/covid-19-xray-dataset",
@@ -274,6 +281,7 @@
     "wking/signed-off-by",
     "wooorm/linter-remark",
     "xavysp/UDED",
+    "xuankuzcr/FAST-Calib",
     "YosysHQ/prjtrellis-db",
     "yzyydev/agentic-coding-structure",
     "zlib-ng/patches"

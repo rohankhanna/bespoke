@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 559,
-    "concepts": 403,
-    "observations": 403,
+    "components": 549,
+    "concepts": 391,
+    "observations": 391,
     "repos": 31,
-    "terms": 398
+    "terms": 386
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "alacritty/alacritty",
     "astral-sh/ruff",
@@ -24,8 +24,7 @@
     "getzola/zola",
     "GitoxideLabs/gitoxide",
     "google/comprehensive-rust",
-    "helix-editor/helix",
-    "iced-rs/iced",
+    "influxdata/influxdb",
     "jj-vcs/jj",
     "juspay/hyperswitch",
     "LemmyNet/lemmy",
@@ -35,6 +34,7 @@
     "qdrant/qdrant",
     "quickwit-oss/quickwit",
     "rolldown/rolldown",
+    "rust-lang/mdBook",
     "RustPython/RustPython",
     "shadowsocks/shadowsocks-rust",
     "surrealdb/surrealdb",

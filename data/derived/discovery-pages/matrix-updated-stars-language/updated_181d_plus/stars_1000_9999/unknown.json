@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 29,
-    "concepts": 244,
-    "observations": 244,
-    "repos": 104,
-    "terms": 235
+    "components": 30,
+    "concepts": 261,
+    "observations": 261,
+    "repos": 107,
+    "terms": 252
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "0nn0/terminal-mac-cheatsheet",
     "0xAX/erlang-bookmarks",
@@ -34,6 +34,7 @@
     "baidu/bfe-book",
     "bincode-org/bincode",
     "bnb-chain/whitepaper",
+    "bromite/bromite",
     "callbag/callbag",
     "carlosperate/awesome-pyproject",
     "chenking2020/FindTheChatGPTer",
@@ -43,6 +44,7 @@
     "daochenzha/data-centric-AI",
     "deepseek-ai/DeepSeek-V2",
     "dk-liang/Awesome-Visual-Transformer",
+    "dothq/browser",
     "dotnet/announcements",
     "dotnet/standard",
     "dwyl/Javascript-the-Good-Parts-notes",
@@ -100,6 +102,7 @@
     "semver/semver",
     "shenweichen/AlgoNotes",
     "showlab/Awesome-GUI-Agent",
+    "SIGRobotics-UIUC/LeKiwi",
     "sindresorhus/guides",
     "sporto/awesome-elm",
     "styfle/awesome-online-ide",

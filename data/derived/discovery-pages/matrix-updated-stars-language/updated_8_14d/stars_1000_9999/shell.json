@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 78,
-    "concepts": 108,
-    "observations": 108,
-    "repos": 18,
-    "terms": 104
+    "components": 61,
+    "concepts": 98,
+    "observations": 98,
+    "repos": 16,
+    "terms": 97
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
-    "anthropics/claude-agent-sdk-typescript",
     "aquasecurity/trivy-action",
     "aurutils/aurutils",
     "bioconda/bioconda-recipes",
-    "conda-forge/miniforge",
+    "confluentinc/demo-scene",
     "devcontainers/images",
     "docker-library/docs",
     "docker-library/official-images",
-    "docker-library/postgres",
     "dtcooper/raspotify",
+    "fluxcd/flux2-kustomize-helm-example",
     "google/adk-docs",
-    "pacstall/pacstall",
     "pypa/manylinux",
     "rocker-org/rocker",
     "rvm/rvm",

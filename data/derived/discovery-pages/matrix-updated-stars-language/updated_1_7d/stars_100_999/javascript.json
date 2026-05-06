@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 957,
-    "concepts": 182,
-    "observations": 183,
-    "repos": 33,
-    "terms": 180
+    "components": 873,
+    "concepts": 159,
+    "observations": 160,
+    "repos": 30,
+    "terms": 157
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
+    "AdguardTeam/HostlistsRegistry",
     "AdguardTeam/Scriptlets",
     "all-contributors/app",
     "americanexpress/jest-json-schema",
@@ -28,20 +29,16 @@
     "firebase/snippets-web",
     "fontello/svg2ttf",
     "hudochenkov/postcss-sorting",
-    "hyparam/icebird",
-    "keithamus/sort-package-json",
     "Kilian/electron-to-chromium",
     "lo-th/phy",
-    "mdn/data",
     "mdn/fred",
-    "mdn/mdn-http-observatory",
     "mozilla/addons-linter",
     "octokit/graphql-schema",
     "oss-serverless/serverless",
-    "prisma/ecosystem-tests",
     "ruby/setup-ruby",
     "rvagg/github-webhook-handler",
     "sveltejs/dts-buddy",
+    "usnistgov/h5wasm",
     "validator/grunt-html",
     "vllm-project/recipes",
     "w3c/webref",

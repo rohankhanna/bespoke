@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 314,
-    "concepts": 542,
-    "observations": 543,
-    "repos": 126,
-    "terms": 537
+    "components": 325,
+    "concepts": 574,
+    "observations": 575,
+    "repos": 129,
+    "terms": 566
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "AILab-CVC/VideoCrafter",
     "alexmojaki/snoop",
@@ -40,6 +40,7 @@
     "crossbario/autobahn-testsuite",
     "cvg/Hierarchical-Localization",
     "deepseek-ai/DeepSeek-V3.2-Exp",
+    "DLYuanGod/TinyGPT-V",
     "docker/docker-py",
     "ekalinin/nodeenv",
     "emilianavt/OpenSeeFace",
@@ -69,6 +70,7 @@
     "Instagram/LibCST",
     "intel/ipex-llm",
     "IntelLabs/fastRAG",
+    "InternLM/HuixiangDou",
     "iver56/torch-audiomentations",
     "jazzband/django-configurations",
     "jessevig/bertviz",
@@ -93,6 +95,7 @@
     "nv-tlabs/ASE",
     "NVIDIA/ChatRTX",
     "NVIDIA/RULER",
+    "obsei/obsei",
     "offu/WeRoBot",
     "ollama/ollama-python",
     "open-mmlab/mmcv",

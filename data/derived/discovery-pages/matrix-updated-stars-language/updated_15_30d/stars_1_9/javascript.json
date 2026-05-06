@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 608,
-    "concepts": 366,
-    "observations": 366,
-    "repos": 42,
-    "terms": 368
+    "components": 646,
+    "concepts": 413,
+    "observations": 413,
+    "repos": 46,
+    "terms": 414
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "agent-sh/agent-core",
     "agent-sh/audit-project",
@@ -35,18 +35,22 @@
     "f3liz-casa/noraneko-runtime",
     "gauravrathod674/custom-chatbot",
     "gr2m/octokit-oauth-app-begin-example",
+    "h5wasm/h5wasm-plugins",
     "hchiam/code-inspiration",
     "hchiam/learning-js",
     "ibm-telemetry/telemetry-config-schema",
     "ipfs-shipyard/js-mock-ipfs-pinning-service",
     "ipld/js-bitcoin",
     "istanbuljs/schema",
+    "j9t/htaccess-punk",
     "kellyselden/boilerplate-update",
     "poolifier/tatami-ng",
+    "recap-utr/arg-services",
     "seunghunbae-3svs/solo-cto-agent",
     "stdlib-js/array-complex128",
     "stdlib-js/complex-cmplx",
     "stdlib-js/complex-float32-reviver",
+    "stdlib-js/complex-float64-reviver",
     "stdlib-js/ndarray-array",
     "stdlib-js/ndarray-dtypes",
     "stdlib-js/ndarray-index-modes",

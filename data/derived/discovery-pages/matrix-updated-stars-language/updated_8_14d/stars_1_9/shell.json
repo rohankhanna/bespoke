@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 23,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 8,
-    "terms": 14
+    "components": 9,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 6,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "conda-forge/fenics-dolfinx-feedstock",
     "conda-forge/nlohmann_json-feedstock",
     "conda-forge/pgvector-feedstock",
     "danielrosehill/Claude-Data-Wrangler-plugin",
     "gazebo-tooling/release-tools",
-    "kubernetes-sigs/provider-ibmcloud-test-infra",
-    "reviewdog/action-composite-template",
-    "status-im/nimbus-build-system"
+    "kubernetes-sigs/provider-ibmcloud-test-infra"
   ]
 }

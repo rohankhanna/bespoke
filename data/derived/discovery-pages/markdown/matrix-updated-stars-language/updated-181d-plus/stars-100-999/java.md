@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Java
 
-Generated at: `2026-05-05T08:29:41.606128+00:00`
+Generated at: `2026-05-06T05:39:22.250037+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 63
-- terms: 157
-- components: 75
-- concepts: 157
-- observations: 157
+- repos: 65
+- terms: 165
+- components: 83
+- concepts: 165
+- observations: 165
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [clojurephant/clojurephant](https://github.com/clojurephant/clojurephant) | 196 | 2025-11-06T23:10:06Z | Java | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [gstreamer-java/gst1-java-core](https://github.com/gstreamer-java/gst1-java-core) | 216 | 2025-11-05T17:02:45Z | Java | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [netplex/json-smart-v2](https://github.com/netplex/json-smart-v2) | 166 | 2025-11-01T00:01:33Z | Java | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [relaxng/jing-trang](https://github.com/relaxng/jing-trang) | 255 | 2025-10-19T09:25:49Z | Java | Unknown | 0 | 0 | 0 | 0 |
@@ -82,6 +83,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alibaba/aliyun-spring-boot](https://github.com/alibaba/aliyun-spring-boot) | 461 | 2023-03-08T06:58:57Z | Java | Service/API | 8 | 0 | 8 | 8 |
 | [arekinath/PivApplet](https://github.com/arekinath/PivApplet) | 132 | 2023-01-30T11:10:21Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [carrot2/elasticsearch-carrot2](https://github.com/carrot2/elasticsearch-carrot2) | 294 | 2023-01-02T11:22:19Z | Java | Unknown | 0 | 0 | 0 | 0 |
+| [MKergall/osmbonuspack](https://github.com/MKergall/osmbonuspack) | 626 | 2022-10-16T16:20:27Z | Java | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [spring-attic/head-first-reactive-with-spring-and-reactor](https://github.com/spring-attic/head-first-reactive-with-spring-and-reactor) | 155 | 2022-03-01T19:43:25Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [spring-attic/reactive-streams-commons](https://github.com/spring-attic/reactive-streams-commons) | 361 | 2022-02-24T23:57:10Z | Java | Unknown | 2 | 0 | 2 | 2 |
 | [googleapis/gapic-generator](https://github.com/googleapis/gapic-generator) | 322 | 2022-01-31T22:48:04Z | Java | CLI | 0 | 0 | 0 | 0 |
@@ -101,6 +103,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [magro/memcached-session-manager](https://github.com/magro/memcached-session-manager) | 756 | 2023-12-17T15:47:24Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [iTXTech/mirai-console-loader](https://github.com/iTXTech/mirai-console-loader) | 745 | 2023-12-24T05:39:40Z | Java | Unknown | 1 | 0 | 1 | 1 |
 | [f4b6a3/uuid-creator](https://github.com/f4b6a3/uuid-creator) | 666 | 2025-04-13T04:55:15Z | Java | Infrastructure/tooling | 11 | 6 | 11 | 11 |
+| [MKergall/osmbonuspack](https://github.com/MKergall/osmbonuspack) | 626 | 2022-10-16T16:20:27Z | Java | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [abarisain/dmix](https://github.com/abarisain/dmix) | 604 | 2021-12-09T07:27:26Z | Java | CLI | 0 | 0 | 0 | 0 |
 | [google/graphicsfuzz](https://github.com/google/graphicsfuzz) | 598 | 2024-10-03T17:01:12Z | Java | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [arthurblake/log4jdbc](https://github.com/arthurblake/log4jdbc) | 533 | 2025-04-21T20:05:10Z | Java | Unknown | 0 | 0 | 0 | 0 |
@@ -136,6 +139,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gstreamer-java/gst1-java-core](https://github.com/gstreamer-java/gst1-java-core) | 216 | 2025-11-05T17:02:45Z | Java | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [citiususc/calendula](https://github.com/citiususc/calendula) | 206 | 2023-06-13T15:38:38Z | Java | Unknown | 6 | 0 | 6 | 6 |
 | [ymnk/jzlib](https://github.com/ymnk/jzlib) | 206 | 2023-05-25T18:04:44Z | Java | Unknown | 0 | 0 | 0 | 0 |
+| [clojurephant/clojurephant](https://github.com/clojurephant/clojurephant) | 196 | 2025-11-06T23:10:06Z | Java | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [brettwooldridge/HikariCP-benchmark](https://github.com/brettwooldridge/HikariCP-benchmark) | 193 | 2024-02-22T07:00:56Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [tushartushar/DesigniteJava](https://github.com/tushartushar/DesigniteJava) | 191 | 2025-03-21T21:41:00Z | Java | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [microsoft/botbuilder-java](https://github.com/microsoft/botbuilder-java) | 189 | 2023-11-22T16:25:40Z | Java | Infrastructure/tooling | 5 | 3 | 5 | 5 |

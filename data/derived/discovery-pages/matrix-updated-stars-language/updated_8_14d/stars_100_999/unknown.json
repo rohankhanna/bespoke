@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 51,
-    "concepts": 70,
-    "observations": 71,
-    "repos": 23,
-    "terms": 70
+    "components": 30,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 16,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,30 +12,23 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "abhisheknaiidu/abhisheknaiidu",
     "adoptium/temurin21-binaries",
     "antonbabenko/awesome-terraform-compliance",
-    "apappascs/mcp-servers-hub",
     "bitrise-io/bitrise-steplib",
     "chromedp/cdproto",
     "cisagov/vulnrichment",
-    "CVEProject/automation-working-group",
     "eryajf/awesome-stars-eryajf",
-    "ghimiresunil/Top-AI-Tools",
     "google/agents-cli",
-    "googlefonts/RobotoMono",
-    "ipfs-examples/helia-examples",
     "kitknox/rootshell",
-    "kubernetes-sigs/krew-index",
     "LemmyNet/lemmy-docs",
     "LuaLS/LLS-Addons",
     "luau-lang/rfcs",
-    "mason-org/mason-registry",
+    "mdn/mdn-community",
     "NuGet/docs.microsoft.com-nuget",
-    "ocaml/opam-repository",
-    "smithy-lang/awesome-smithy",
-    "tinted-theming/home"
+    "openjs-foundation/cross-project-council",
+    "smithy-lang/awesome-smithy"
   ]
 }

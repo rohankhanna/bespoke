@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 3,
-    "terms": 30
+    "components": 35,
+    "concepts": 34,
+    "observations": 34,
+    "repos": 4,
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "eclipse-jdtls/eclipse.jdt.ls",
     "eclipse-openvsx/openvsx",
-    "helidon-io/helidon"
+    "helidon-io/helidon",
+    "mapsforge/mapsforge"
   ]
 }

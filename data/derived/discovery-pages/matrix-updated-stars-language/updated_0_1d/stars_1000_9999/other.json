@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 152,
-    "concepts": 194,
-    "observations": 196,
-    "repos": 18,
-    "terms": 191
+    "components": 205,
+    "concepts": 176,
+    "observations": 177,
+    "repos": 16,
+    "terms": 176
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,23 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
-    "babashka/babashka",
-    "badmojr/1Hosts",
+    "agenda/agenda",
+    "all-contributors/allcontributors.org",
+    "beam-community/elixir-companies",
     "clj-kondo/clj-kondo",
-    "DandelionSprout/adfilt",
     "datalevin/datalevin",
     "dotnet/Silk.NET",
-    "easylist/easylist",
     "firebase/flutterfire",
-    "googleapis/google-api-php-client",
-    "lightning/bolts",
+    "foundry-rs/forge-std",
+    "jump-dev/JuMP.jl",
+    "kurrent-io/KurrentDB",
     "microsoft/aspire",
-    "opnsense/plugins",
-    "psmux/psmux",
-    "standardrb/standard",
+    "rocq-prover/rocq",
     "swiftlang/llvm-project",
     "swiftlang/swift-syntax",
-    "uBlockOrigin/uAssets",
+    "TryGhost/node-sqlite3",
     "web-platform-tests/wpt"
   ]
 }

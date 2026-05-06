@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 331,
-    "concepts": 669,
-    "observations": 670,
-    "repos": 182,
-    "terms": 662
+    "components": 340,
+    "concepts": 698,
+    "observations": 699,
+    "repos": 184,
+    "terms": 691
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "0k/shyaml",
     "23andMe/Yamale",
@@ -30,7 +30,6 @@
     "AMAP-ML/Tree-GRPO",
     "amazon-far/TWIST2",
     "AmenRa/retriv",
-    "amzn/xfer",
     "AnonymouX47/term-image",
     "apache/rocketmq-client-python",
     "apple/ToolSandbox",
@@ -67,6 +66,7 @@
     "CSfufu/Revisual-R1",
     "DengPingFan/PraNet",
     "eps696/stylegan2ada",
+    "Extraltodeus/Skimmed_CFG",
     "f-dangel/backpack",
     "fabio-sim/LightGlue-ONNX",
     "feifeibear/long-context-attention",
@@ -87,6 +87,7 @@
     "hluaguo/learn-faster-kit",
     "httplib2/httplib2",
     "huggingface/flux-fast",
+    "huspacy/huspacy",
     "hustvl/DiffusionDriveV2",
     "hzwer/Practical-RIFE",
     "IAAR-Shanghai/xFinder",
@@ -94,6 +95,7 @@
     "InternRobotics/VLAC",
     "InternScience/SciReason",
     "InternScience/StructEqTable-Deploy",
+    "JettHu/ComfyUI-TCD",
     "JettHu/ComfyUI_TGate",
     "jimmyyhwu/tidybot2",
     "joblib/threadpoolctl",
@@ -105,7 +107,6 @@
     "lebrice/SimpleParsing",
     "liruilong940607/prope",
     "lldacing/ComfyUI_Patches_ll",
-    "lldacing/ComfyUI_PuLID_Flux_ll",
     "luost26/diffusion-point-cloud",
     "lzyhha/VisualCloze",
     "machow/quartodoc",
@@ -168,6 +169,7 @@
     "superclaude-org/supergemini_framework",
     "theupdateframework/specification",
     "thorstenMueller/Thorsten-Voice",
+    "tpoisonooo/ROGRAG",
     "triton-inference-server/model_navigator",
     "Tsinghua-MARS-Lab/CVT-Occ",
     "TsinghuaDatabaseGroup/DB-GPT",

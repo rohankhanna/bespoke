@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars · C/C++
 
-Generated at: `2026-05-05T08:29:41.606128+00:00`
+Generated at: `2026-05-06T05:39:22.250037+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
-- terms: 3
-- components: 5
-- concepts: 3
-- observations: 3
+- repos: 2
+- terms: 11
+- components: 9
+- concepts: 11
+- observations: 11
 
 ## Static behavior
 
@@ -26,10 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [8144225309/superscalar-cln](https://github.com/8144225309/superscalar-cln) | 0 | 2026-04-21T15:01:50Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [arnaud-lb/php-rdkafka](https://github.com/arnaud-lb/php-rdkafka) | 0 | 2026-04-20T15:41:29Z | C/C++ | CLI | 3 | 5 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [8144225309/superscalar-cln](https://github.com/8144225309/superscalar-cln) | 0 | 2026-04-21T15:01:50Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [arnaud-lb/php-rdkafka](https://github.com/arnaud-lb/php-rdkafka) | 0 | 2026-04-20T15:41:29Z | C/C++ | CLI | 3 | 5 | 3 | 3 |

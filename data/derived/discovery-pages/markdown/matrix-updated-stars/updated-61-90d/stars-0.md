@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars
 
-Generated at: `2026-05-05T08:29:41.606128+00:00`
+Generated at: `2026-05-06T05:39:22.250037+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 32
-- terms: 69
-- components: 127
-- concepts: 70
-- observations: 70
+- repos: 31
+- terms: 68
+- components: 123
+- concepts: 69
+- observations: 69
 
 ## Static behavior
 
@@ -56,7 +56,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DiligentGraphics/glfw](https://github.com/DiligentGraphics/glfw) | 0 | 2026-02-07T16:52:59Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [artsy/react-native-launch-arguments](https://github.com/artsy/react-native-launch-arguments) | 0 | 2026-02-06T17:36:56Z | Java | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [JuliaBinaryWrappers/Glib_jll.jl](https://github.com/JuliaBinaryWrappers/Glib_jll.jl) | 0 | 2026-02-06T15:02:36Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [grafana/cadvisor](https://github.com/grafana/cadvisor) | 0 | 2026-02-04T20:01:14Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -93,4 +92,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DiligentGraphics/glfw](https://github.com/DiligentGraphics/glfw) | 0 | 2026-02-07T16:52:59Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [artsy/react-native-launch-arguments](https://github.com/artsy/react-native-launch-arguments) | 0 | 2026-02-06T17:36:56Z | Java | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [JuliaBinaryWrappers/Glib_jll.jl](https://github.com/JuliaBinaryWrappers/Glib_jll.jl) | 0 | 2026-02-06T15:02:36Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [grafana/cadvisor](https://github.com/grafana/cadvisor) | 0 | 2026-02-04T20:01:14Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |

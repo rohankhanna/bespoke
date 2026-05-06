@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Java
 
-Generated at: `2026-05-05T08:29:41.606128+00:00`
+Generated at: `2026-05-06T05:39:22.250037+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 64
+- repos: 66
 - terms: 160
 - components: 103
 - concepts: 160
@@ -65,6 +65,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JodaOrg/joda-time-jsptags](https://github.com/JodaOrg/joda-time-jsptags) | 20 | 2023-12-21T09:43:17Z | Java | Unknown | 3 | 0 | 3 | 3 |
 | [rahsheen/react-native-template-redux-typescript](https://github.com/rahsheen/react-native-template-redux-typescript) | 84 | 2023-12-15T11:38:46Z | Java | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [dgileadi/dg.jdt.ls.decompiler](https://github.com/dgileadi/dg.jdt.ls.decompiler) | 14 | 2023-11-28T07:52:40Z | Java | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [gstreamer-java/gstreamer-java](https://github.com/gstreamer-java/gstreamer-java) | 21 | 2023-09-06T13:15:10Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [eclipse-archived/dartboard](https://github.com/eclipse-archived/dartboard) | 55 | 2023-09-04T09:15:49Z | Java | CLI | 4 | 0 | 4 | 4 |
 | [redis-developer/redis-om-spring-skeleton-app](https://github.com/redis-developer/redis-om-spring-skeleton-app) | 12 | 2023-07-27T15:07:20Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [akarnokd/RxJavaJdk9Interop](https://github.com/akarnokd/RxJavaJdk9Interop) | 22 | 2023-06-12T14:13:41Z | Java | Infrastructure/tooling | 2 | 5 | 2 | 2 |
@@ -75,6 +76,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fillumina/id-encryptor](https://github.com/fillumina/id-encryptor) | 10 | 2023-02-06T09:40:00Z | Java | Unknown | 3 | 0 | 3 | 3 |
 | [aidenlab/HiCTools](https://github.com/aidenlab/HiCTools) | 10 | 2023-01-18T02:18:25Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [angelozerr/ec4e](https://github.com/angelozerr/ec4e) | 10 | 2022-09-15T15:59:53Z | Java | CLI | 2 | 0 | 2 | 2 |
+| [gstreamer-java/gst1-java-examples](https://github.com/gstreamer-java/gst1-java-examples) | 60 | 2022-09-05T17:22:40Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [Deep-Symmetry/wayang](https://github.com/Deep-Symmetry/wayang) | 39 | 2022-08-25T16:51:05Z | Java | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [marbl/MHAP](https://github.com/marbl/MHAP) | 99 | 2022-06-27T07:23:12Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [luben/ZstdAndroidExample](https://github.com/luben/ZstdAndroidExample) | 16 | 2022-06-21T14:22:11Z | Java | Unknown | 0 | 0 | 0 | 0 |
@@ -109,6 +111,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [editorconfig/editorconfig-core-java](https://github.com/editorconfig/editorconfig-core-java) | 67 | 2025-04-21T07:18:10Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [glaforge/gemini-workshop-for-java-developers](https://github.com/glaforge/gemini-workshop-for-java-developers) | 66 | 2025-05-28T09:44:37Z | Java | Framework | 0 | 0 | 0 | 0 |
 | [DerekCook/CoreMidi4J](https://github.com/DerekCook/CoreMidi4J) | 60 | 2025-10-28T07:34:09Z | Java | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [gstreamer-java/gst1-java-examples](https://github.com/gstreamer-java/gst1-java-examples) | 60 | 2022-09-05T17:22:40Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [eclipse-archived/dartboard](https://github.com/eclipse-archived/dartboard) | 55 | 2023-09-04T09:15:49Z | Java | CLI | 4 | 0 | 4 | 4 |
 | [debajyotibasak/MyTimes](https://github.com/debajyotibasak/MyTimes) | 55 | 2021-05-31T09:57:40Z | Java | Service/API | 7 | 0 | 8 | 8 |
 | [metaloom/qdrant-java-client](https://github.com/metaloom/qdrant-java-client) | 52 | 2024-02-26T10:19:58Z | Java | CLI | 1 | 5 | 1 | 1 |
@@ -136,6 +139,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apache/pulsar-adapters](https://github.com/apache/pulsar-adapters) | 24 | 2024-12-20T09:54:42Z | Java | Infrastructure/tooling | 12 | 5 | 12 | 12 |
 | [akarnokd/RxJavaJdk9Interop](https://github.com/akarnokd/RxJavaJdk9Interop) | 22 | 2023-06-12T14:13:41Z | Java | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [imfangs/langgraph4j-deep-researcher](https://github.com/imfangs/langgraph4j-deep-researcher) | 21 | 2025-09-15T01:40:13Z | Java | Framework | 3 | 0 | 3 | 3 |
+| [gstreamer-java/gstreamer-java](https://github.com/gstreamer-java/gstreamer-java) | 21 | 2023-09-06T13:15:10Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [JodaOrg/joda-time-jsptags](https://github.com/JodaOrg/joda-time-jsptags) | 20 | 2023-12-21T09:43:17Z | Java | Unknown | 3 | 0 | 3 | 3 |
 | [aidenlab/JuicerTools](https://github.com/aidenlab/JuicerTools) | 20 | 2022-01-01T05:00:23Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [U-Alberta/wned](https://github.com/U-Alberta/wned) | 19 | 2022-02-26T01:08:11Z | Java | Unknown | 3 | 0 | 3 | 3 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4005,
-    "concepts": 774,
-    "observations": 775,
-    "repos": 228,
-    "terms": 768
+    "components": 4035,
+    "concepts": 794,
+    "observations": 795,
+    "repos": 232,
+    "terms": 788
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "28mm/blast-radius",
     "afc163/fanyi",
     "aheckmann/gm",
+    "aksakalli/gtop",
     "alex-seville/blanket",
     "Alex313031/Mercury",
     "alexpinel/Dot",
@@ -45,6 +46,7 @@
     "bwiernik/zotero-shortdoi",
     "caolan/nodeunit",
     "chancejs/chancejs",
+    "clauderic/react-infinite-calendar",
     "clean-css/clean-css",
     "coreybutler/node-windows",
     "creationix/js-git",
@@ -148,6 +150,7 @@
     "mapbox/geojson-vt",
     "marionebl/svg-term-cli",
     "mathiasbynens/punycode.js",
+    "matthewmueller/date",
     "mermaidjs/mermaid.cli",
     "mfncooper/mockery",
     "micromark/micromark",
@@ -193,8 +196,10 @@
     "relayjs/relay-examples",
     "Rich-Harris/degit",
     "Rich-Harris/shimport",
+    "robinweser/fela",
     "rowanmanning/joblint",
     "rsmbl/Resemble.js",
+    "rust-lang-cn/rust-by-example-cn",
     "saharmor/dalle-playground",
     "sapegin/grunt-webfont",
     "scijs/ndarray",
@@ -239,7 +244,6 @@
     "wenda-LLM/wenda",
     "wendux/fly",
     "yaronn/wopr",
-    "Yomguithereal/react-blessed",
     "YuzuJS/setImmediate",
     "zalmoxisus/remote-redux-devtools"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 330,
-    "concepts": 269,
-    "observations": 270,
-    "repos": 105,
-    "terms": 268
+    "components": 340,
+    "concepts": 268,
+    "observations": 269,
+    "repos": 109,
+    "terms": 267
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "2KAbhishek/tdo.nvim",
@@ -24,6 +24,7 @@
     "adelarsq/neovcs.vim",
     "adobe-type-tools/aots",
     "ahrvoje/numerics",
+    "ahumenberger/Z3.jl",
     "aki-0929/PaddleOCRJson.NET",
     "apache/datasketches-python",
     "apache/rocketmq-apis",
@@ -45,6 +46,7 @@
     "djjolicoeur/datamaps",
     "donny741/ruby-lsp-factory_bot",
     "drowzy/protobuf_generate",
+    "dspinellis/bibtools",
     "dwyl/elixir-auth-microsoft",
     "emacsorphanage/dart-mode",
     "ethpandaops/optimism-package",
@@ -52,7 +54,6 @@
     "falcoframework/Falco.Htmx",
     "falcoframework/Falco.OpenApi",
     "FFTAI/Wiki-GRx-Gym",
-    "FluxML/DataAugmentation.jl",
     "formigarafa/zxcvbn-rb",
     "friemen/diffit",
     "geocompx/docker",
@@ -67,6 +68,7 @@
     "JezerM/oil-lsp-diagnostics.nvim",
     "jgpc42/lein-jmh",
     "Jorenar/minPlug",
+    "jruby/maven-tools",
     "JuliaGraphics/ColorTypes.jl",
     "JuliaGtk/Gtk4Makie.jl",
     "JuliaLogging/ProgressLogging.jl",
@@ -88,6 +90,7 @@
     "nikitabobko/brew-install-path",
     "niner/Inline-Perl5",
     "NorfairKing/feedback",
+    "ochorocho/franken-typo3",
     "opencontainers/oci-conformance",
     "openxrlab/xrtailor",
     "OutlierDetectionJL/OutlierDetection.jl",
@@ -105,6 +108,7 @@
     "SciML/SciMLTutorialsOutput",
     "status-im/nim-json-serialization",
     "status-im/nim-nat-traversal",
+    "status-im/nim-serialization",
     "status-im/nim-toml-serialization",
     "tc39/proposal-smart-unit-preferences",
     "terrierteam/pyterrier_doc2query",

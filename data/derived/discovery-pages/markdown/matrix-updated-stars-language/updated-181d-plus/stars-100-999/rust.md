@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-05-05T08:29:41.606128+00:00`
+Generated at: `2026-05-06T05:39:22.250037+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 165
-- terms: 550
-- components: 669
-- concepts: 557
-- observations: 563
+- repos: 168
+- terms: 555
+- components: 680
+- concepts: 562
+- observations: 568
 
 ## Static behavior
 
@@ -75,12 +75,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mitsuhiko/systemfd](https://github.com/mitsuhiko/systemfd) | 633 | 2025-01-22T07:23:13Z | Rust | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [Twinklebear/tobj](https://github.com/Twinklebear/tobj) | 266 | 2025-01-20T22:02:13Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [mitsuhiko/listenfd](https://github.com/mitsuhiko/listenfd) | 234 | 2025-01-20T09:45:39Z | Rust | Infrastructure/tooling | 3 | 5 | 3 | 3 |
+| [CosmWasm/cw-template](https://github.com/CosmWasm/cw-template) | 299 | 2025-01-16T15:30:01Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [infinyon/node-bindgen](https://github.com/infinyon/node-bindgen) | 589 | 2025-01-13T13:14:53Z | Rust | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [dirs-dev/directories-rs](https://github.com/dirs-dev/directories-rs) | 834 | 2025-01-12T19:35:58Z | Rust | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [dirs-dev/dirs-rs](https://github.com/dirs-dev/dirs-rs) | 737 | 2025-01-12T19:35:17Z | Rust | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [andrewmilson/sandstorm](https://github.com/andrewmilson/sandstorm) | 161 | 2025-01-11T22:15:36Z | Rust | Unknown | 6 | 0 | 6 | 6 |
 | [alacritty/vtebench](https://github.com/alacritty/vtebench) | 392 | 2025-01-09T07:23:53Z | Rust | CLI | 3 | 0 | 3 | 3 |
 | [monero-rs/monero-rs](https://github.com/monero-rs/monero-rs) | 167 | 2024-12-30T10:25:34Z | Rust | Infrastructure/tooling | 7 | 7 | 7 | 7 |
+| [turbofish-org/merk](https://github.com/turbofish-org/merk) | 243 | 2024-12-18T17:48:38Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [xzfc/cached-nix-shell](https://github.com/xzfc/cached-nix-shell) | 230 | 2024-11-24T23:00:19Z | Rust | Infrastructure/tooling | 2 | 4 | 3 | 3 |
 | [andrewmilson/ministark](https://github.com/andrewmilson/ministark) | 377 | 2024-11-19T16:34:57Z | Rust | Infrastructure/tooling | 17 | 6 | 17 | 17 |
 | [asg017/sqlite-rembed](https://github.com/asg017/sqlite-rembed) | 154 | 2024-11-04T06:50:46Z | Rust | Infrastructure/tooling | 3 | 7 | 3 | 3 |
@@ -97,6 +99,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [BurntSushi/cargo-benchcmp](https://github.com/BurntSushi/cargo-benchcmp) | 367 | 2024-08-29T16:45:27Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [Michael-F-Bryan/mdbook-linkcheck](https://github.com/Michael-F-Bryan/mdbook-linkcheck) | 169 | 2024-08-15T13:00:47Z | Rust | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [clog-tool/clog-cli](https://github.com/clog-tool/clog-cli) | 915 | 2024-08-15T12:54:21Z | Rust | Infrastructure/tooling | 4 | 10 | 4 | 4 |
+| [rust-lang-ja/rust-by-example-ja](https://github.com/rust-lang-ja/rust-by-example-ja) | 163 | 2024-07-26T02:01:46Z | Rust | Unknown | 3 | 0 | 3 | 3 |
 | [dotenv-rs/dotenv](https://github.com/dotenv-rs/dotenv) | 624 | 2024-07-16T17:50:46Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [apache/dubbo-rust](https://github.com/apache/dubbo-rust) | 290 | 2024-07-15T10:20:21Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [heim-rs/heim](https://github.com/heim-rs/heim) | 923 | 2024-07-14T05:21:56Z | Rust | Infrastructure/tooling | 19 | 8 | 19 | 19 |
@@ -275,6 +278,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ddimaria/rust-actix-example](https://github.com/ddimaria/rust-actix-example) | 305 | 2023-12-31T08:16:38Z | Rust | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [krivahtoo/silicon.nvim](https://github.com/krivahtoo/silicon.nvim) | 303 | 2025-09-15T07:54:29Z | Rust | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [njsmith/posy](https://github.com/njsmith/posy) | 300 | 2024-03-01T04:38:11Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
+| [CosmWasm/cw-template](https://github.com/CosmWasm/cw-template) | 299 | 2025-01-16T15:30:01Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [programatik29/rust-web-benchmarks](https://github.com/programatik29/rust-web-benchmarks) | 296 | 2024-01-01T18:14:58Z | Rust | Framework | 4 | 0 | 4 | 4 |
 | [apache/dubbo-rust](https://github.com/apache/dubbo-rust) | 290 | 2024-07-15T10:20:21Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [aldanor/fast-float-rust](https://github.com/aldanor/fast-float-rust) | 289 | 2022-12-02T03:55:32Z | Rust | Infrastructure/tooling | 4 | 4 | 4 | 4 |
@@ -293,6 +297,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [astrale-sharp/typstfmt](https://github.com/astrale-sharp/typstfmt) | 248 | 2024-06-08T08:38:55Z | Rust | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [ShelbyJenkins/llm_client](https://github.com/ShelbyJenkins/llm_client) | 247 | 2025-08-06T05:52:47Z | Rust | Unknown | 3 | 0 | 3 | 3 |
 | [edgenai/llama_cpp-rs](https://github.com/edgenai/llama_cpp-rs) | 246 | 2024-06-05T16:11:00Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [turbofish-org/merk](https://github.com/turbofish-org/merk) | 243 | 2024-12-18T17:48:38Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [davidpdrsn/juniper-from-schema](https://github.com/davidpdrsn/juniper-from-schema) | 241 | 2021-08-25T07:47:02Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [dcchut/async-recursion](https://github.com/dcchut/async-recursion) | 239 | 2025-09-19T01:56:07Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [mitsuhiko/listenfd](https://github.com/mitsuhiko/listenfd) | 234 | 2025-01-20T09:45:39Z | Rust | Infrastructure/tooling | 3 | 5 | 3 | 3 |
@@ -320,6 +325,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [RazrFalcon/fontdb](https://github.com/RazrFalcon/fontdb) | 168 | 2024-10-09T11:40:51Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [monero-rs/monero-rs](https://github.com/monero-rs/monero-rs) | 167 | 2024-12-30T10:25:34Z | Rust | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [frankfralick/dripgrep](https://github.com/frankfralick/dripgrep) | 167 | 2024-03-12T00:06:23Z | Rust | CLI | 0 | 0 | 0 | 0 |
+| [rust-lang-ja/rust-by-example-ja](https://github.com/rust-lang-ja/rust-by-example-ja) | 163 | 2024-07-26T02:01:46Z | Rust | Unknown | 3 | 0 | 3 | 3 |
 | [rust-embedded/critical-section](https://github.com/rust-embedded/critical-section) | 162 | 2025-07-29T18:49:03Z | Rust | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [EspressoSystems/HotShot](https://github.com/EspressoSystems/HotShot) | 162 | 2025-02-27T15:42:47Z | Rust | Infrastructure/tooling | 8 | 15 | 8 | 8 |
 | [andrewmilson/sandstorm](https://github.com/andrewmilson/sandstorm) | 161 | 2025-01-11T22:15:36Z | Rust | Unknown | 6 | 0 | 6 | 6 |

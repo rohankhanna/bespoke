@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 229,
-    "concepts": 106,
-    "observations": 107,
-    "repos": 75,
-    "terms": 109
+    "components": 270,
+    "concepts": 115,
+    "observations": 117,
+    "repos": 80,
+    "terms": 118
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "9romise/eslint-config",
     "adammes/voyanode",
@@ -23,6 +23,7 @@
     "beurdouche/nss-gk-api",
     "bookcars/bookcars.github.io",
     "cachix/crossterm",
+    "caprica/generator-vlcj",
     "cwfitzgerald/libtest-mimic",
     "danielrosehill/adb-keep-awake",
     "danielrosehill/AI-Browser-Tools",
@@ -45,6 +46,7 @@
     "danielrosehill/Jewish-Related-Index",
     "danielrosehill/Linux-Desktop-Tools-Index",
     "danielrosehill/Patches-Repos-Index",
+    "datachainlab/cosmos-bsc-ibc-lcp",
     "DataDog/opa",
     "datafuse-extras/dtparse",
     "drmingdrmer/display-more",
@@ -54,9 +56,11 @@
     "hermit-os/safe-mmio",
     "hermit-os/tokio",
     "iambriccardo/gcp-bigquery-client",
+    "iandees/scrapy-camoufox",
     "JuliaBinaryWrappers/Cairo_jll.jl",
     "JuliaBinaryWrappers/FreeType2_jll.jl",
     "JuliaBinaryWrappers/GettextRuntime_jll.jl",
+    "kayabaNerve/monero-oxide",
     "kdubbo/api",
     "kdubbo/client-go",
     "lakekeeper/nats.rs",
@@ -80,6 +84,7 @@
     "Patrick-ring-motive/sval-rhino-gs",
     "PetervanLunteren/EcoAssist-metadata",
     "prisma/cuid-rust",
+    "Saalvage/assimp",
     "saharmor/saharmor.github.io",
     "Sovereign-Labs/reltester",
     "stable-haskell/stack",

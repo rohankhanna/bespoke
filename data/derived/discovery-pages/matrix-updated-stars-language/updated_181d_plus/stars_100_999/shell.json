@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 65,
-    "concepts": 184,
-    "observations": 186,
-    "repos": 82,
-    "terms": 176
+    "components": 66,
+    "concepts": 198,
+    "observations": 200,
+    "repos": 86,
+    "terms": 188
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "10up/actions-wordpress",
     "27medkamal/tmux-session-wizard",
     "acmesh-official/get.acme.sh",
     "aidenlab/juicer",
+    "Alex313031/ThoriumOS",
     "antfu/dotfiles",
     "AppImageCommunity/pkg2appimage",
+    "arnoldthebat/chromiumos",
     "asdf-vm/asdf-plugin-template",
     "Asterisk4Magisk/Xray4Magisk",
     "Azure-Samples/container-apps-store-api-microservice",
@@ -72,6 +74,7 @@
     "lxgw/advanced-cjk-font-magisk-module-template",
     "lxgw/simple-cjk-font-magisk-module-template",
     "Magisk-Modules-Repo/v2ray",
+    "marbl/merqury",
     "mattmc3/zsh_unplugged",
     "mpv-player/mpv-build",
     "nightrome/cocostuff",
@@ -92,6 +95,7 @@
     "tmux-plugins/tmux-sessionist",
     "tremby/imgur.sh",
     "twain47/Open-SVG-Map-Icons",
+    "ungoogled-software/ungoogled-chromium-android",
     "v2fly/docker",
     "vmware-archive/tgik",
     "vmware-labs/webassembly-language-runtimes",

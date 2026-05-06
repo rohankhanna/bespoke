@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1776,
-    "concepts": 337,
-    "observations": 338,
-    "repos": 33,
-    "terms": 334
+    "components": 1728,
+    "concepts": 333,
+    "observations": 334,
+    "repos": 32,
+    "terms": 333
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
-    "ajaxorg/ace",
     "ampproject/amphtml",
     "badges/shields",
     "be5invis/Iosevka",
@@ -26,21 +25,21 @@
     "electron/minimal-repro",
     "expressjs/express",
     "fastify/fastify",
-    "handlebars-lang/handlebars.js",
     "huggingface/transformers.js",
     "jashkenas/backbone",
-    "jquery/jquery",
+    "krisk/Fuse",
     "lodash/lodash",
     "lovell/sharp",
+    "MagicMirrorOrg/MagicMirror",
     "microsoft/monaco-editor",
-    "nock/nock",
+    "moment/luxon",
     "nodemailer/nodemailer",
-    "prettier/prettier",
-    "PrismJS/prism",
+    "novnc/noVNC",
     "protobufjs/protobuf.js",
     "remy/nodemon",
     "rollup/rollup",
     "serverless/serverless",
+    "SillyTavern/SillyTavern",
     "simple-icons/simple-icons",
     "swagger-api/swagger-ui",
     "validatorjs/validator.js",

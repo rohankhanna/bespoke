@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 669,
-    "concepts": 557,
-    "observations": 563,
-    "repos": 165,
-    "terms": 550
+    "components": 680,
+    "concepts": 562,
+    "observations": 568,
+    "repos": 168,
+    "terms": 555
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "0xProject/OpenZKP",
     "10XGenomics/vartrix",
@@ -58,6 +58,7 @@
     "chyh1990/yaml-rust",
     "clog-tool/clog-cli",
     "comit-network/xmr-btc-swap",
+    "CosmWasm/cw-template",
     "cowprotocol/ethcontract-rs",
     "CurrySoftware/rust-stemmers",
     "dalek-cryptography/x25519-dalek",
@@ -150,6 +151,7 @@
     "rust-embedded/critical-section",
     "rust-ethereum/ethabi",
     "rust-lang-deprecated/rustc-serialize",
+    "rust-lang-ja/rust-by-example-ja",
     "rust-lang/rust-semverver",
     "rust-lang/style-team",
     "rust-rse/reed-solomon-erasure",
@@ -170,6 +172,7 @@
     "target/lorri",
     "tazz4843/whisper-rs",
     "tokio-rs/async-backtrace",
+    "turbofish-org/merk",
     "Twinklebear/tobj",
     "unknownue/vulkan-tutorial-rust",
     "valida-xyz/valida",

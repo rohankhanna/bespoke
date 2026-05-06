@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 332,
-    "concepts": 372,
-    "observations": 374,
-    "repos": 82,
-    "terms": 370
+    "components": 337,
+    "concepts": 365,
+    "observations": 367,
+    "repos": 83,
+    "terms": 365
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "Alexander-Miller/treemacs",
     "ankane/dexter",
@@ -45,7 +45,9 @@
     "GEOSwift/GEOSwift",
     "gf3/dotfiles",
     "globalize/globalize",
+    "google/gumbo-parser",
     "gradle/kotlin-dsl-samples",
+    "greggh/claude-code.nvim",
     "grpc/grpc-kotlin",
     "guard/guard",
     "guard/listen",
@@ -53,7 +55,6 @@
     "haskell/stylish-haskell",
     "hecomi/uLipSync",
     "hoshsadiq/adblock-nocoin-list",
-    "huggingface/swift-coreml-diffusers",
     "IDEA-Research/Grounded-SAM-2",
     "jashkenas/docco",
     "jekip/naive-ui-admin",
@@ -63,6 +64,7 @@
     "kevinhwang91/nvim-ufo",
     "kikito/inspect.lua",
     "lmbelo/python4delphi",
+    "mds1/multicall3",
     "microsoft/BotBuilder-Samples",
     "microsoft/mssql-docker",
     "microsoft/Security-101",
@@ -86,7 +88,6 @@
     "sindresorhus/Gifski",
     "SmiteshP/nvim-navic",
     "symfony/cache-contracts",
-    "taoensso/timbre",
     "Tencent-Hunyuan/HunyuanDiT",
     "thu-ml/SageAttention",
     "tpope/vim-dadbod",

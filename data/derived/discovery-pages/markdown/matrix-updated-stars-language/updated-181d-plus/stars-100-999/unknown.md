@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-05-05T08:29:41.606128+00:00`
+Generated at: `2026-05-06T05:39:22.250037+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 223
-- terms: 382
-- components: 116
-- concepts: 382
-- observations: 383
+- repos: 229
+- terms: 387
+- components: 118
+- concepts: 387
+- observations: 388
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [dotnet/brand](https://github.com/dotnet/brand) | 302 | 2025-11-06T23:25:55Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [GoogleChrome/ip-protection](https://github.com/GoogleChrome/ip-protection) | 379 | 2025-11-03T15:01:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [WeikaiTan/Toronto-3D](https://github.com/WeikaiTan/Toronto-3D) | 291 | 2025-10-30T19:22:34Z | Unknown | Model/data | 7 | 0 | 7 | 7 |
 | [proxy-wasm/spec](https://github.com/proxy-wasm/spec) | 597 | 2025-10-30T12:58:24Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -100,6 +101,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rvm/ubuntu_rvm](https://github.com/rvm/ubuntu_rvm) | 730 | 2024-12-07T01:12:09Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [aialt/awesome-mobile-agents](https://github.com/aialt/awesome-mobile-agents) | 156 | 2024-11-29T12:11:06Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [pi0/config-dir](https://github.com/pi0/config-dir) | 745 | 2024-11-26T20:59:39Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [rust-lang/project-portable-simd](https://github.com/rust-lang/project-portable-simd) | 102 | 2024-11-26T14:03:41Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [pypa/packaging-problems](https://github.com/pypa/packaging-problems) | 179 | 2024-11-13T23:17:40Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [MicrosoftDocs/microsoft-style-guide](https://github.com/MicrosoftDocs/microsoft-style-guide) | 186 | 2024-11-13T15:13:53Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [openlanguagedata/flores](https://github.com/openlanguagedata/flores) | 112 | 2024-11-12T09:45:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -145,6 +147,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [BBuf/how-to-learn-deep-learning-framework](https://github.com/BBuf/how-to-learn-deep-learning-framework) | 498 | 2024-03-22T23:41:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [AILab-CVC/TaleCrafter](https://github.com/AILab-CVC/TaleCrafter) | 269 | 2024-03-22T11:53:35Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [react-native-community/RNNewArchitectureLibraries](https://github.com/react-native-community/RNNewArchitectureLibraries) | 348 | 2024-03-20T10:48:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [PacificBiosciences/ccs](https://github.com/PacificBiosciences/ccs) | 126 | 2024-03-18T13:41:43Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 | [akoksal/LongForm](https://github.com/akoksal/LongForm) | 215 | 2024-03-05T11:35:12Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [imfing/ava_downloader](https://github.com/imfing/ava_downloader) | 447 | 2024-02-14T21:07:34Z | Unknown | Model/data | 3 | 0 | 3 | 3 |
 | [ContinuumIO/anaconda-issues](https://github.com/ContinuumIO/anaconda-issues) | 660 | 2024-02-09T07:43:20Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
@@ -222,6 +225,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [googlefonts/gf-docs](https://github.com/googlefonts/gf-docs) | 101 | 2022-07-07T13:12:17Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [JafferWilson/Process-Data-of-CNN-DailyMail](https://github.com/JafferWilson/Process-Data-of-CNN-DailyMail) | 382 | 2022-06-25T05:33:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [FasterXML/jackson-docs](https://github.com/FasterXML/jackson-docs) | 759 | 2022-06-22T02:48:47Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
+| [necolas/issue-guidelines](https://github.com/necolas/issue-guidelines) | 425 | 2022-06-01T12:20:55Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [aws/mit-0](https://github.com/aws/mit-0) | 308 | 2022-05-16T16:11:09Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [hiszpanski/osx-arm-linux-toolchains](https://github.com/hiszpanski/osx-arm-linux-toolchains) | 127 | 2022-05-16T06:08:25Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [acmi-lab/cmu-10717-the-art-of-the-paper](https://github.com/acmi-lab/cmu-10717-the-art-of-the-paper) | 288 | 2022-04-21T16:06:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -232,6 +236,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [QingyongHu/VISO](https://github.com/QingyongHu/VISO) | 166 | 2021-12-22T06:47:19Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [agl/ed25519](https://github.com/agl/ed25519) | 188 | 2021-12-17T21:18:54Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [nicolas-chaulet/torch-points3d](https://github.com/nicolas-chaulet/torch-points3d) | 266 | 2021-12-10T20:17:18Z | Unknown | Infrastructure/tooling | 3 | 12 | 3 | 3 |
+| [google-research/reassessed-imagenet](https://github.com/google-research/reassessed-imagenet) | 201 | 2021-12-08T16:45:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [cooelf/PaperWritingTips](https://github.com/cooelf/PaperWritingTips) | 139 | 2021-11-04T06:04:19Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [NVlabs/stylegan3-detector](https://github.com/NVlabs/stylegan3-detector) | 137 | 2021-10-26T21:39:55Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [opencontainers/artwork](https://github.com/opencontainers/artwork) | 189 | 2021-10-20T18:40:18Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
@@ -244,6 +249,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [facebookresearch/XNLI](https://github.com/facebookresearch/XNLI) | 466 | 2021-08-30T21:16:02Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [BAAI-WuDao/Model](https://github.com/BAAI-WuDao/Model) | 132 | 2021-08-25T01:05:30Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [defunctzombie/package-browser-field-spec](https://github.com/defunctzombie/package-browser-field-spec) | 443 | 2021-08-22T18:22:45Z | Unknown | Library | 0 | 0 | 0 | 0 |
+| [l4rz/practical-aspects-of-stylegan2-training](https://github.com/l4rz/practical-aspects-of-stylegan2-training) | 217 | 2021-08-07T15:18:21Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [helm/hub](https://github.com/helm/hub) | 252 | 2021-07-01T20:07:44Z | Unknown | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [aws/aws-proton-public-roadmap](https://github.com/aws/aws-proton-public-roadmap) | 196 | 2021-06-21T19:49:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [HzFu/COVID19_imaging_AI_paper_list](https://github.com/HzFu/COVID19_imaging_AI_paper_list) | 327 | 2021-05-27T19:35:47Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
@@ -319,6 +325,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [yarnpkg/rfcs](https://github.com/yarnpkg/rfcs) | 431 | 2024-01-06T17:52:20Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [DS4SD/DocLayNet](https://github.com/DS4SD/DocLayNet) | 431 | 2023-02-01T06:44:02Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [mannaandpoem/OpenManus](https://github.com/mannaandpoem/OpenManus) | 427 | 2025-06-21T07:39:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [necolas/issue-guidelines](https://github.com/necolas/issue-guidelines) | 425 | 2022-06-01T12:20:55Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [crev-dev/crev](https://github.com/crev-dev/crev) | 425 | 2022-01-18T03:04:46Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [google-research-datasets/conceptual-12m](https://github.com/google-research-datasets/conceptual-12m) | 421 | 2025-07-14T06:27:09Z | Unknown | Model/data | 3 | 0 | 3 | 3 |
 | [microsoft/containerregistry](https://github.com/microsoft/containerregistry) | 411 | 2025-04-01T14:15:22Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -356,6 +363,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aws/mit-0](https://github.com/aws/mit-0) | 308 | 2022-05-16T16:11:09Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [aws/apprunner-roadmap](https://github.com/aws/apprunner-roadmap) | 303 | 2024-08-06T22:50:55Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [Instrument/instrument-sans](https://github.com/Instrument/instrument-sans) | 303 | 2023-06-14T13:12:10Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [dotnet/brand](https://github.com/dotnet/brand) | 302 | 2025-11-06T23:25:55Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [ChatGPTNextWeb/NextChat-Awesome-Plugins](https://github.com/ChatGPTNextWeb/NextChat-Awesome-Plugins) | 299 | 2025-04-11T07:22:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [open-compass/MMBench](https://github.com/open-compass/MMBench) | 298 | 2025-05-22T12:18:09Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [ipfs/roadmap](https://github.com/ipfs/roadmap) | 298 | 2025-05-01T08:39:08Z | Unknown | Infrastructure/tooling | 2 | 2 | 2 | 2 |
@@ -393,6 +401,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [antirez/RESP3](https://github.com/antirez/RESP3) | 229 | 2022-10-25T07:32:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [agnostic-apollo/Android-Docs](https://github.com/agnostic-apollo/Android-Docs) | 227 | 2023-12-31T23:06:00Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [doc-analysis/XFUND](https://github.com/doc-analysis/XFUND) | 219 | 2022-07-15T08:02:40Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [l4rz/practical-aspects-of-stylegan2-training](https://github.com/l4rz/practical-aspects-of-stylegan2-training) | 217 | 2021-08-07T15:18:21Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [akoksal/LongForm](https://github.com/akoksal/LongForm) | 215 | 2024-03-05T11:35:12Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [microsoft/vstest-docs](https://github.com/microsoft/vstest-docs) | 215 | 2022-12-05T15:16:29Z | Unknown | Docs/knowledge | 6 | 0 | 6 | 6 |
 | [mikewest/privacy-budget](https://github.com/mikewest/privacy-budget) | 209 | 2024-01-29T06:23:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -400,6 +409,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Kim2091/chaiNNer-Templates](https://github.com/Kim2091/chaiNNer-Templates) | 206 | 2025-03-14T05:44:50Z | Unknown | Template/starter | 4 | 0 | 4 | 4 |
 | [project-miracl/miracl](https://github.com/project-miracl/miracl) | 205 | 2024-07-31T21:17:17Z | Unknown | Model/data | 4 | 0 | 4 | 4 |
 | [JizhiziLi/matting-survey](https://github.com/JizhiziLi/matting-survey) | 201 | 2023-05-16T06:08:35Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
+| [google-research/reassessed-imagenet](https://github.com/google-research/reassessed-imagenet) | 201 | 2021-12-08T16:45:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [jingsam/vector-tile-spec](https://github.com/jingsam/vector-tile-spec) | 198 | 2025-05-05T12:50:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Adamdad/Awesome-ComposableAI](https://github.com/Adamdad/Awesome-ComposableAI) | 197 | 2023-11-24T04:51:12Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [aws/aws-proton-public-roadmap](https://github.com/aws/aws-proton-public-roadmap) | 196 | 2021-06-21T19:49:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -450,6 +460,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jakubfoglar/raveo](https://github.com/jakubfoglar/raveo) | 128 | 2024-10-15T16:23:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [alvations/sacremoses](https://github.com/alvations/sacremoses) | 128 | 2023-04-27T22:52:29Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [hiszpanski/osx-arm-linux-toolchains](https://github.com/hiszpanski/osx-arm-linux-toolchains) | 127 | 2022-05-16T06:08:25Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
+| [PacificBiosciences/ccs](https://github.com/PacificBiosciences/ccs) | 126 | 2024-03-18T13:41:43Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 | [logux/logux](https://github.com/logux/logux) | 126 | 2023-08-04T22:22:36Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [google/.github](https://github.com/google/.github) | 125 | 2025-03-15T06:20:32Z | Unknown | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [babel/notes](https://github.com/babel/notes) | 123 | 2022-10-18T15:21:13Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
@@ -473,6 +484,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AbhishekMaira10/AbhishekMaira10](https://github.com/AbhishekMaira10/AbhishekMaira10) | 107 | 2021-10-13T06:28:08Z | Unknown | Unknown | 6 | 0 | 6 | 6 |
 | [IceClear/SeedVR](https://github.com/IceClear/SeedVR) | 106 | 2025-06-18T17:29:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [privacycg/storage-partitioning](https://github.com/privacycg/storage-partitioning) | 104 | 2023-05-24T03:26:08Z | Unknown | CLI | 0 | 0 | 0 | 0 |
+| [rust-lang/project-portable-simd](https://github.com/rust-lang/project-portable-simd) | 102 | 2024-11-26T14:03:41Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [ZHKKKe/PPM](https://github.com/ZHKKKe/PPM) | 102 | 2023-02-01T08:23:56Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [googlefonts/gf-docs](https://github.com/googlefonts/gf-docs) | 101 | 2022-07-07T13:12:17Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [mundimark/awesome-markdown-alternatives](https://github.com/mundimark/awesome-markdown-alternatives) | 100 | 2024-04-21T15:17:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

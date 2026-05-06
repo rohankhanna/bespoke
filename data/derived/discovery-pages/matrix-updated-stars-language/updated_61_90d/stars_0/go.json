@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 2,
-    "terms": 2
+    "components": 2,
+    "concepts": 1,
+    "observations": 1,
+    "repos": 1,
+    "terms": 1
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
-    "DataDog/go-cmp",
-    "grafana/cadvisor"
+    "DataDog/go-cmp"
   ]
 }

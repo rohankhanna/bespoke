@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 110,
-    "concepts": 147,
-    "observations": 147,
-    "repos": 28,
-    "terms": 147
+    "components": 126,
+    "concepts": 157,
+    "observations": 157,
+    "repos": 29,
+    "terms": 157
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "99designs/aws-vault",
     "aarondl/authboss",
@@ -26,7 +26,7 @@
     "chaisql/chai",
     "charmbracelet/skate",
     "containernetworking/cni",
-    "ddollar/forego",
+    "dgraph-io/ristretto",
     "favadi/protoc-go-inject-tag",
     "gin-gonic/contrib",
     "github/git-sizer",
@@ -40,6 +40,7 @@
     "rs/cors",
     "shazow/ssh-chat",
     "tenable/terrascan",
+    "tmc/langchaingo",
     "uber-go/goleak",
     "uber-go/mock"
   ]

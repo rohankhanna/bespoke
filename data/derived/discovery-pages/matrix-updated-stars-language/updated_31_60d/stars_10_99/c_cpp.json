@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 112,
-    "concepts": 111,
-    "observations": 111,
-    "repos": 27,
-    "terms": 110
+    "components": 125,
+    "concepts": 131,
+    "observations": 131,
+    "repos": 29,
+    "terms": 130
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "ada-url/goada",
     "AFD-Illinois/ebhlight",
     "AIWintermuteAI/whispercpp",
+    "ankane/stl-cpp",
     "aseprite/observable",
     "bartp5/libtexprintf",
     "BirolLab/arcs",
@@ -33,13 +34,14 @@
     "heal-research/pyoperon",
     "ilyabrilev/biosim4",
     "intel/metrics-discovery",
-    "jupyter-xeus/xleaflet",
     "lemire/simple_fastfloat_benchmark",
     "Level/classic-level",
     "mesh-iit/creo2urdf",
+    "nvictus/pybbi",
     "onicai/llama_cpp_canister",
     "RekGRpth/pg_task",
     "ssiu/flash-attention-turing",
+    "undreamai/LlamaLib",
     "VeriSilicon/tflite-vx-delegate"
   ]
 }

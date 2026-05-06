@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 649,
-    "concepts": 573,
-    "observations": 573,
-    "repos": 41,
-    "terms": 573
+    "components": 631,
+    "concepts": 547,
+    "observations": 549,
+    "repos": 39,
+    "terms": 547
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "anchore/grype",
     "argoproj/argo-workflows",
     "authelia/authelia",
     "bufbuild/buf",
     "cert-manager/cert-manager",
+    "cilium/cilium",
     "cloudflare/cloudflared",
     "cloudwego/eino",
     "cockroachdb/cockroach",
@@ -26,7 +27,6 @@
     "dagger/dagger",
     "dgraph-io/dgraph",
     "DNSCrypt/dnscrypt-proxy",
-    "etcd-io/etcd",
     "gastownhall/gastown",
     "git-lfs/git-lfs",
     "go-gitea/gitea",
@@ -43,7 +43,6 @@
     "navidrome/navidrome",
     "oauth2-proxy/oauth2-proxy",
     "ory/kratos",
-    "php/frankenphp",
     "pingcap/tidb",
     "pion/webrtc",
     "pulumi/pulumi",
@@ -52,7 +51,6 @@
     "rqlite/rqlite",
     "SagerNet/sing-box",
     "seaweedfs/seaweedfs",
-    "v2fly/v2ray-core",
     "VictoriaMetrics/VictoriaMetrics",
     "XTLS/Xray-core"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 120,
-    "concepts": 89,
-    "observations": 92,
-    "repos": 26,
-    "terms": 87
+    "components": 78,
+    "concepts": 61,
+    "observations": 61,
+    "repos": 18,
+    "terms": 59
   },
   "facet_version": 1,
   "filters": {
@@ -12,33 +12,25 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "acmesh-official/acmetest",
-    "AFLplusplus/cov-analysis",
     "argoproj-labs/argocd-extension-installer",
     "asdf-community/asdf-pdm",
     "Azure/aaz",
     "bitnami/vulndb",
     "bnb-chain/node-deploy",
-    "cloudfoundry/jumpbox-deployment",
     "conda-forge/pinocchio-feedstock",
-    "containers/automation_images",
     "crazy-max/goxx",
     "dependabot/smoke-tests",
     "dotenvx/dotenvx.sh",
     "envoyproxy/examples",
-    "gentoo-mirror/guru",
     "helidon-io/helidon-examples",
     "honwen/openwrt-dnsmasq-extra",
     "iterate-ch/profiles",
     "milvus-io/milvus-proto",
-    "oneclick/rubyinstaller2-packages",
     "pkgxdev/mash",
     "postmodern/ruby-versions",
-    "reviewdog/action-black",
-    "reviewdog/action-hadolint",
-    "reviewdog/action-shfmt",
     "tinted-theming/tinted-shell"
   ]
 }

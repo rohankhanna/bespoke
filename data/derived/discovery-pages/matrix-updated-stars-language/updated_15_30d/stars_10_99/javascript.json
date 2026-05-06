@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 701,
-    "concepts": 189,
-    "observations": 189,
-    "repos": 48,
-    "terms": 189
+    "components": 768,
+    "concepts": 210,
+    "observations": 210,
+    "repos": 52,
+    "terms": 210
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "ahmadnassri/node-glob-promise",
     "alexellis/arkade-get",
@@ -20,8 +20,8 @@
     "berty/www.berty.tech",
     "bmad-code-org/bmad-method-test-architecture-enterprise",
     "bmad-code-org/bmad-module-creative-intelligence-suite",
+    "browserslist/lint",
     "bufbuild/protobuf-conformance",
-    "C-Lodder/grunt-postcss",
     "coderaiser/supertape",
     "dwyl/aws-ses-lambda",
     "dwyl/hapi-postgres-connection",
@@ -36,18 +36,21 @@
     "evenchange4/graphql.macro-example",
     "GDevelopApp/GDevelop-tutorials",
     "grommet/grommet-site",
+    "GuillaumeGomez/browser-UI-test",
     "hectorm/chafa-wasm",
     "i18next/i18next-icu",
     "i18next/i18next-resources-to-backend",
     "ipfs/js-ipfs-utils",
     "itsrishika/payment-bypass-bug-lab",
     "jasmine/jasmine-browser-runner",
+    "locize/locize-cli",
     "mapbox/node-srs",
     "mapbox/point-geometry",
     "mapbox/tiletype",
+    "milvus-io/community",
     "newrelic/newrelic-node-apollo-server-plugin",
+    "newrelic/newrelic-node-examples",
     "npm/types",
-    "nrwl/nx-ai-agents-config",
     "patrik-csak/auto-terminal-profile",
     "peergos/web-ui",
     "rashfael/eslint-plugin-vue-pug",
@@ -59,6 +62,7 @@
     "tc39/proposal-iterator-includes",
     "TrigenSoftware/simple-release-action",
     "validator/gulp-html",
+    "webtorrent/bittorrent-lsd",
     "webtorrent/bittorrent-peerid",
     "wemake-services/wemake-frontend-styleguide",
     "winstonjs/winston-transport"

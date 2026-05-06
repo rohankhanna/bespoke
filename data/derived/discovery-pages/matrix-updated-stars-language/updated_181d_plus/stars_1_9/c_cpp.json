@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 152,
-    "concepts": 86,
-    "observations": 86,
-    "repos": 74,
-    "terms": 85
+    "components": 155,
+    "concepts": 89,
+    "observations": 89,
+    "repos": 78,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "a-n-t-h-o-n-y/zzz",
     "abhilash1910/llm.tpc",
@@ -75,8 +75,10 @@
     "nativium/nativium-http-server",
     "nativium/nativium-modules",
     "nelson-lang/nelson-minimalist-core",
+    "ntnu-arl/ouster-ros",
     "nvpro-samples/third_party_binaries",
     "onicai/llama_cpp_onicai_fork",
+    "osmcode/osmium-proj",
     "outsidercsy/spconv",
     "rawleyfowler/JSON-Simd",
     "rhoban/maple",
@@ -85,6 +87,8 @@
     "tob-challenges/example-libpng",
     "tpoechtrager/apple-libdispatch",
     "Ultraopxt/yolov10cpp",
+    "usdot-fhwa-stol/avt_vimba_camera",
+    "usdot-fhwa-stol/carma-delphi-srr2-driver",
     "vpetrigo/median-filter",
     "wxinix/wxlib",
     "yoshoku/numo-tiny_linalg"

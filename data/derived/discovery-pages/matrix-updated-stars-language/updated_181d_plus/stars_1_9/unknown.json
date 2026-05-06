@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 89,
-    "concepts": 143,
-    "observations": 143,
-    "repos": 168,
-    "terms": 142
+    "components": 120,
+    "concepts": 152,
+    "observations": 152,
+    "repos": 174,
+    "terms": 151
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "0xnu/rewsury",
     "2KAbhishek/nightblue",
@@ -37,6 +37,7 @@
     "chanzuckerberg/DRSM-corpus",
     "ChenMnZ/AutoGPTQ-bugfix",
     "chi-cat/frp",
+    "chorusone/ics23",
     "chriskempson/base16-templates",
     "connectai-e/dingtalk-claude",
     "ConnectAI-E/Dingtalk-Midjourney",
@@ -51,6 +52,7 @@
     "danielrosehill/Awesome-Linux-IDEs",
     "danielrosehill/claude-agent-picker-pattern",
     "danielrosehill/Claude-Code-Context-Toolkit",
+    "danielrosehill/Claude-Deep-Research-Model",
     "danielrosehill/CONTEXT.md",
     "danielrosehill/Geopolitical-Analysis-System-Prompts",
     "danielrosehill/HA-Air-Quality-Dashboard",
@@ -60,6 +62,7 @@
     "davidkadaria/css-style-guide",
     "Deep-Spark/FlashMLA",
     "doomemacs/community",
+    "dothq/gecko-dev",
     "dotnet-foundation/.github",
     "dotnet-foundation/wg-corporate-relations",
     "dotnet/android-api-docs",
@@ -70,6 +73,7 @@
     "EscaticZheng/ps3.9wheel-install",
     "executablebooks/.github",
     "exiawsh/storage",
+    "Extraltodeus/shared_models_galleries",
     "ezhang7423/hulc-data",
     "fidlabs/allocator-tooling",
     "filecoin-project/Allocator-Governance",
@@ -114,6 +118,7 @@
     "lingo-iitgn/TweetPap",
     "lyceum/lyceumregistry",
     "msqr1/kaldi-wasm2",
+    "nazarepiedady/rust-com-exemplos",
     "niuiic/awesome-neovim-plugins",
     "nornagon/crossterm",
     "notaryproject/.github",
@@ -167,6 +172,7 @@
     "usegalaxy-eu/cvmfs-example",
     "uxlfoundation/artwork",
     "vega/logos",
+    "viperproject/axiom-profiler-2",
     "vorburger/Log4j_CVE-2021-44228",
     "w3c/adding-permissions",
     "w3c/dpub-aam",

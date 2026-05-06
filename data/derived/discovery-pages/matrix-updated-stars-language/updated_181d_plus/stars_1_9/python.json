@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 421,
-    "concepts": 299,
-    "observations": 299,
-    "repos": 247,
-    "terms": 302
+    "components": 436,
+    "concepts": 314,
+    "observations": 314,
+    "repos": 255,
+    "terms": 317
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -73,6 +73,7 @@
     "birch-san/diffusers",
     "bitergia/grimoirelab-perceval-finos",
     "bonukai/script.mediatracker",
+    "box2ai-robotics/robosuite-joycon",
     "brentyi/fannypack",
     "brian-ogrady/astradb-multivector",
     "BrianPugh/micropython-libs",
@@ -111,6 +112,7 @@
     "echo-yiyiyi/cube",
     "elementai/spider",
     "eliemichel/sphinx_literate",
+    "ericbeyer/guidance_interval",
     "escorciav/SwiftFormer",
     "euagendas/semeval_8_2022_ia_downloader",
     "fab-jul/fjcommon",
@@ -165,9 +167,13 @@
     "kaste/SublimeLinter-addon-toggler",
     "keeeeenw/TinyLLaVA_Factory",
     "keszybz/fedora-repro",
+    "kishwarshafin/T2T_polishing_scripts",
     "Koihik/sublime-lua-format",
     "koute/rwkv_tokenizer",
     "kushaldas/cpython",
+    "lace/blmath",
+    "lace/lace",
+    "lace/meshlab-pickedpoints",
     "lawrence-cj/ComfyUI_ExtraModels",
     "layumi/dgcnn",
     "layumi/oxford-paris-attack",
@@ -188,6 +194,7 @@
     "meteoswiss-mdr/pyart",
     "meteoswiss/pyrad-examples",
     "MikeSteglich/pyCmpl3",
+    "MollySophia/Albatross",
     "moojink/dlimp_openvla",
     "Muennighoff/sentence-transformers",
     "multipath/fairseq-stable",
@@ -230,6 +237,7 @@
     "render-examples/chatgpt-retrieval-plugin",
     "rexwangcc/taichi-voxel-challenge",
     "rochacbruno/dynaconf-mirror",
+    "schedul-xor/nextzen2oscimv4",
     "scicode-bench/scicode-bench.github.io",
     "scottemmons/youngs-cql",
     "SelimaC/Tutorial-SCADS-Summer-School-2020-Scalable-Deep-Learning",

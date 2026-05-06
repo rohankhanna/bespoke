@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 58,
-    "concepts": 68,
-    "observations": 68,
-    "repos": 18,
-    "terms": 68
+    "components": 48,
+    "concepts": 61,
+    "observations": 61,
+    "repos": 16,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
     "box/box-openapi",
@@ -27,8 +27,6 @@
     "lxgw/LxgwXiHei",
     "lxgw/LxgwZhiSong",
     "maplibre/awesome-maplibre",
-    "mdn/mdn-community",
-    "openjs-foundation/cross-project-council",
     "openwdl/wdl",
     "triton-inference-server/tensorrtllm_backend",
     "yokoffing/Control-D-Config"

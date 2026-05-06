@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 242,
-    "concepts": 42,
-    "observations": 42,
-    "repos": 8,
-    "terms": 42
+    "components": 246,
+    "concepts": 47,
+    "observations": 47,
+    "repos": 9,
+    "terms": 47
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "caolan/async",
     "chalk/chalk",
@@ -21,6 +21,7 @@
     "ramda/ramda",
     "redux-saga/redux-saga",
     "songquanpeng/one-api",
+    "vitejs/awesome-vite",
     "winstonjs/winston"
   ]
 }

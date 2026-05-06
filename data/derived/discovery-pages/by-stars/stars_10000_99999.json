@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 32255,
-    "concepts": 14649,
-    "observations": 14704,
-    "repos": 1646,
-    "terms": 14608
+    "components": 32449,
+    "concepts": 14733,
+    "observations": 14788,
+    "repos": 1657,
+    "terms": 14686
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "0xJacky/nginx-ui",
@@ -377,8 +377,10 @@
     "datawhalechina/happy-llm",
     "datawhalechina/llm-universe",
     "datawhalechina/self-llm",
+    "date-fns/date-fns",
     "davatorium/rofi",
     "davidsandberg/facenet",
+    "davidshimjs/qrcodejs",
     "davila7/claude-code-templates",
     "davisking/dlib",
     "DayBreak-u/chineseocr_lite",
@@ -702,6 +704,7 @@
     "Heapy/awesome-kotlin",
     "heartcombo/devise",
     "helix-editor/helix",
+    "helm/charts",
     "helm/helm",
     "hesreallyhim/awesome-claude-code",
     "hibiken/asynq",
@@ -742,6 +745,7 @@
     "hyperium/hyper",
     "hyperium/tonic",
     "i3/i3",
+    "iamkun/dayjs",
     "ianyh/Amethyst",
     "IBM/plex",
     "iced-rs/iced",
@@ -754,6 +758,7 @@
     "ImranR98/Obtainium",
     "infernojs/inferno",
     "infiniflow/ragflow",
+    "influxdata/influxdb",
     "instantX-research/InstantID",
     "invoke-ai/InvokeAI",
     "iOfficeAI/AionUi",
@@ -763,6 +768,7 @@
     "isl-org/Open3D",
     "isocpp/CppCoreGuidelines",
     "istio/istio",
+    "itzg/docker-minecraft-server",
     "jaegertracing/jaeger",
     "JaidedAI/EasyOCR",
     "JakeChampion/fetch",
@@ -866,6 +872,7 @@
     "kubernetes-sigs/kubespray",
     "kubernetes-sigs/kustomize",
     "kubernetes/community",
+    "kubernetes/ingress-nginx",
     "kubernetes/kompose",
     "kubernetes/kops",
     "kubernetes/minikube",
@@ -1040,6 +1047,7 @@
     "modelscope/FunASR",
     "modelscope/ms-swift",
     "modin-project/modin",
+    "moment/luxon",
     "mongodb/mongo",
     "mongodb/node-mongodb-native",
     "MoonshotAI/Kimi-K2",
@@ -1544,6 +1552,7 @@
     "ultralytics/yolov5",
     "unclecode/crawl4ai",
     "uNetworking/uWebSockets",
+    "ungoogled-software/ungoogled-chromium",
     "unifyai/ivy",
     "Unitech/pm2",
     "unixorn/awesome-zsh-plugins",
@@ -1590,6 +1599,7 @@
     "vuejs/vitepress",
     "vuejs/vue-cli",
     "vuejs/vue-router",
+    "vuejs/vuex",
     "vueuse/vueuse",
     "VundleVim/Vundle.vim",
     "wader/fq",
@@ -1657,6 +1667,7 @@
     "zloirock/core-js",
     "zsh-users/zsh-autosuggestions",
     "zsh-users/zsh-syntax-highlighting",
+    "Zulko/moviepy",
     "zylon-ai/private-gpt"
   ]
 }

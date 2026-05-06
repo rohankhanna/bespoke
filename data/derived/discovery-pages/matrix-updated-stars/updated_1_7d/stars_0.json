@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 137,
-    "concepts": 55,
-    "observations": 55,
-    "repos": 31,
-    "terms": 55
+    "components": 122,
+    "concepts": 41,
+    "observations": 41,
+    "repos": 27,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "aidenlab/spacewalk",
     "aidenlab/swtool",
@@ -22,17 +22,14 @@
     "danielrosehill/Claude-AI-Model-Research-Plugin",
     "danielrosehill/Claude-Background-Removal-Plugin",
     "danielrosehill/Claude-Batch-Optical-Archivist-Plugin",
-    "danielrosehill/Claude-Browser-Data-Capture-Plugin",
-    "danielrosehill/Claude-Business-Idea-Eval-Plugin",
     "danielrosehill/Claude-Buttondown-Mgmt-Plugin",
     "danielrosehill/Claude-CopyQ-Scripting-Plugin",
-    "danielrosehill/Claude-Decision-Evaluation-Framework-Plugin",
-    "danielrosehill/Claude-Declutter-Genie-Plugin",
+    "danielrosehill/Claude-Dev-Tools-Plugin",
+    "danielrosehill/Claude-Digital-Evidence-Plugin",
+    "danielrosehill/Claude-Hopper",
     "flagos-ai/verl-FL",
     "getlantern/guide",
-    "hermit-os/.github",
     "HumanSignal/label-studio-client-generator",
-    "ipfs-examples/github-mgmt",
     "kalavai-net/kalavai-templates",
     "kleisauke/glib",
     "lace/lacecore",
@@ -42,7 +39,6 @@
     "qiayuanl/unitree_buildfarm",
     "seanmacavaney/ir-datasets.com",
     "sp1-patches/elliptic-curves",
-    "squidowl/iced",
     "superfarther/K2V"
   ]
 }

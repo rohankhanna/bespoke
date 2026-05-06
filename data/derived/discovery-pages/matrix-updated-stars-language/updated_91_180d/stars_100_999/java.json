@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 67,
-    "concepts": 106,
-    "observations": 106,
-    "repos": 15,
-    "terms": 106
+    "components": 63,
+    "concepts": 99,
+    "observations": 99,
+    "repos": 14,
+    "terms": 99
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "apache/seatunnel-web",
     "bazelbuild/stardoc",
     "bobbylight/AutoComplete",
     "burningwave/core",
-    "clojurephant/clojurephant",
     "Deep-Symmetry/beat-link",
     "eclipse-corrosion/corrosion",
     "fizzed/blaze",

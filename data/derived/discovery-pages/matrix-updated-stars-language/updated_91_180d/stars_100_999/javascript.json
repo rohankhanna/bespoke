@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 500,
-    "concepts": 96,
-    "observations": 96,
-    "repos": 39,
-    "terms": 97
+    "components": 614,
+    "concepts": 108,
+    "observations": 108,
+    "repos": 43,
+    "terms": 109
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "adriantoine/enzyme-to-json",
+    "agenda/agendash",
     "attractivechaos/k8",
     "ayoubben18/ab-method",
     "bramstein/url-template",
@@ -24,9 +25,11 @@
     "dcoapp/app",
     "dominikg/tsconfck",
     "dzeiocom/lucide-astro",
+    "emberjs/ember-cli-babel",
     "fengari-lua/fengari-interop",
     "gherghett/Antigravity-Shit-Chat",
     "kaorahi/lizgoban",
+    "latex-lsp/tree-sitter-latex",
     "Level/awesome",
     "lit/lit-element-starter-ts",
     "markdown-it/markdown-it-footnote",
@@ -43,6 +46,7 @@
     "restify/errors",
     "RJWadley/stylelint-no-unsupported-browser-features",
     "RReverser/wasm-bindgen-rayon",
+    "runegan/jsxbin",
     "rust-lang/lang-team",
     "scripting/reallysimple",
     "sindresorhus/env-paths",

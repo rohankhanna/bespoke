@@ -1,30 +1,28 @@
 {
   "counts": {
-    "components": 634,
-    "concepts": 361,
-    "observations": 365,
-    "repos": 57,
-    "terms": 361
+    "components": 619,
+    "concepts": 351,
+    "observations": 355,
+    "repos": 55,
+    "terms": 351
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
     "anthropics/claude-quickstarts",
     "antlr/antlr4",
-    "astral-sh/rye",
     "bootandy/dust",
     "burntsushi/ripgrep",
     "carbon-app/carbon",
     "ComposioHQ/awesome-claude-skills",
     "datawhalechina/llm-universe",
     "egoist/tsup",
-    "ekzhang/bore",
     "facebookresearch/audiocraft",
     "facebookresearch/vggt",
     "floating-ui/floating-ui",
@@ -66,9 +64,9 @@
     "transitive-bullshit/agentic",
     "unifyai/ivy",
     "vibrantlabsai/ragas",
-    "vitejs/awesome-vite",
     "Wan-Video/Wan2.1",
     "zsh-users/zsh-syntax-highlighting",
+    "Zulko/moviepy",
     "zylon-ai/private-gpt"
   ]
 }

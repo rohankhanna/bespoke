@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 106,
-    "concepts": 132,
-    "observations": 133,
-    "repos": 17,
-    "terms": 132
+    "components": 107,
+    "concepts": 135,
+    "observations": 136,
+    "repos": 19,
+    "terms": 135
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,26 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "alexkohler/prealloc",
+    "anacrolix/dht",
     "Antonboom/testifylint",
     "appbaseio/reactivesearch-api",
     "argoproj-labs/argocd-rbac-operator",
     "aws/amazon-ec2-spot-interrupter",
+    "aws/amazon-ecs-cni-plugins",
     "cloudpilot-ai/karpenter-provider-alibabacloud",
     "cloudwego/biz-demo",
     "dop251/goja_nodejs",
     "GoogleCloudPlatform/docker-credential-gcr",
     "gost-dom/browser",
     "ipfs/go-graphsync",
-    "lightningnetwork/lightning-onion",
     "maykonlsf/semver-cli",
     "MicahParks/keyfunc",
     "multiformats/go-multiaddr",
     "oceanbase/ob-operator",
+    "omniscale/imposm3",
     "slinso/goTemplateBenchmark"
   ]
 }

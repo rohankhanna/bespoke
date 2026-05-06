@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 25,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 2,
-    "terms": 5
+    "components": 48,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 4,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "alloy-rs/svm-rs",
+    "open-telemetry/weaver",
+    "rust-lang/stdarch",
     "servo/stylo"
   ]
 }

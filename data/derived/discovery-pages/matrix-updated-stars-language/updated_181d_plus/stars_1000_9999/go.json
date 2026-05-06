@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 282,
-    "concepts": 558,
-    "observations": 558,
-    "repos": 123,
-    "terms": 556
+    "components": 288,
+    "concepts": 591,
+    "observations": 591,
+    "repos": 129,
+    "terms": 588
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "0xPolygon/polygon-edge",
     "Adminisme/ServerScan",
@@ -35,6 +35,7 @@
     "bsm/redislock",
     "c-bata/go-prompt",
     "c-bata/kube-prompt",
+    "cespare/xxhash",
     "charmbracelet/charm",
     "chzyer/readline",
     "cjbassi/gotop",
@@ -49,13 +50,17 @@
     "darthsim/overmind",
     "DATA-DOG/go-sqlmock",
     "datreeio/datree",
+    "ddollar/forego",
     "dghubble/go-twitter",
+    "didip/tollbooth",
     "dinedal/textql",
+    "disintegration/imaging",
     "divan/expvarmon",
     "dragonflyoss/dragonfly-archived",
     "ericfreese/rat",
     "filhodanuvem/gitql",
     "fluxcd/flux",
+    "fogleman/gg",
     "GeertJohan/go.rice",
     "githubnemo/CompileDaemon",
     "go-bindata/go-bindata",
@@ -121,6 +126,7 @@
     "streadway/amqp",
     "superedge/superedge",
     "syndtr/goleveldb",
+    "TheZoraiz/ascii-image-converter",
     "tidwall/buntdb",
     "tidwall/evio",
     "tidwall/redcon",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 46,
-    "concepts": 92,
-    "observations": 92,
-    "repos": 20,
-    "terms": 86
+    "concepts": 95,
+    "observations": 95,
+    "repos": 21,
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "dgrijalva/jwt-go",
     "earthly/earthly",
@@ -23,6 +23,7 @@
     "golang/protobuf",
     "GoogleContainerTools/kaniko",
     "gorilla/websocket",
+    "helm/charts",
     "jmoiron/sqlx",
     "json-iterator/go",
     "julienschmidt/httprouter",

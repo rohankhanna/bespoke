@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 70,
-    "concepts": 82,
-    "observations": 83,
-    "repos": 27,
-    "terms": 80
+    "concepts": 84,
+    "observations": 85,
+    "repos": 28,
+    "terms": 82
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "3dfxdev/EDGE",
     "AdaCore/gnatcoll-db",
@@ -21,6 +21,7 @@
     "cassioneri/teju_jagua",
     "ccslykx/Starry",
     "coin-or/CHiPPS-ALPS",
+    "dfki-ric/pclomp",
     "DLR-TS/SUMOLibraries",
     "eddelbuettel/rcppfastfloat",
     "eliemichel/dawn-prebuilt",
@@ -29,13 +30,13 @@
     "icppWorld/icpp_llm",
     "jdlph/OpenDTA",
     "lemire/fast_float",
-    "llnl/Adiak",
     "nativium/nativium",
-    "OpenTimelineIO/toucan",
+    "osmcode/osm-gis-export",
     "osvenskan/sysv_ipc",
     "probonopd/static-tools",
     "r-spatial/lwgeom",
     "Taritsyn/LibSassHost",
+    "tier4/ndt_omp",
     "triton-inference-server/tensorflow_backend",
     "XR-Robotics/XRoboToolkit-PC-Service-Pybind",
     "xtensor-stack/xtensor-r",

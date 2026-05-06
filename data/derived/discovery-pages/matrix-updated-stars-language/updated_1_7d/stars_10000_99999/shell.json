@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 50,
-    "observations": 50,
+    "components": 39,
+    "concepts": 47,
+    "observations": 47,
     "repos": 4,
-    "terms": 48
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "acmesh-official/acme.sh",
     "BtbN/FFmpeg-Builds",
-    "rockerBOO/awesome-neovim",
-    "spaceship-prompt/spaceship-prompt"
+    "itzg/docker-minecraft-server",
+    "rockerBOO/awesome-neovim"
   ]
 }

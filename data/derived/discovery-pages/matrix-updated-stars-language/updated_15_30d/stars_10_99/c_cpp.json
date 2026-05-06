@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 170,
-    "concepts": 140,
-    "observations": 140,
-    "repos": 38,
-    "terms": 141
+    "components": 190,
+    "concepts": 148,
+    "observations": 148,
+    "repos": 40,
+    "terms": 149
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
     "ada-url/ada-python",
     "AFD-Illinois/iharm3d",
+    "agl/jbig2enc",
     "aifoundry-org/et-platform",
-    "ankane/stl-cpp",
+    "apache/pulsar-client-cpp",
     "barak/minidjvu",
     "chusitoo/flatbush",
     "clouren/SPEX",
@@ -31,6 +32,7 @@
     "GaoYusong/llm.cpp",
     "go-skynet/go-ggml-transformers.cpp",
     "grain-lang/binaryen.ml",
+    "ICRAR/crc32c",
     "JFLarvoire/the_silver_searcher",
     "jupyter-xeus/xeus-lua",
     "liangshengyong/lanwan",
@@ -40,8 +42,8 @@
     "mitsuba-renderer/nanothread",
     "mxmlnkn/indexed_bzip2",
     "mybigday/llama.node",
-    "nvictus/pybbi",
     "nx10/unigd",
+    "openucx/xpmem",
     "proxy-wasm/proxy-wasm-cpp-host",
     "r-lyeh/Spectral",
     "ROCm/roctracer",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 8,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 5,
-    "terms": 17
+    "concepts": 24,
+    "observations": 24,
+    "repos": 6,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
+    "agents-squads/agents-squads",
     "alonw0/cc-redalerts-statusline",
     "bendrucker/terraform-configuration-aliases-action",
     "tianon/fake-git",

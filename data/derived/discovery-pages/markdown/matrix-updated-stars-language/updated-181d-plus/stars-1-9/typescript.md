@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · TypeScript
 
-Generated at: `2026-05-05T08:29:41.606128+00:00`
+Generated at: `2026-05-06T05:39:22.250037+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 61
-- terms: 92
-- components: 1031
-- concepts: 94
-- observations: 94
+- repos: 72
+- terms: 118
+- components: 1260
+- concepts: 120
+- observations: 120
 
 ## Static behavior
 
@@ -58,8 +58,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hchiam/learning-angular](https://github.com/hchiam/learning-angular) | 2 | 2024-09-13T20:53:03Z | TypeScript | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [eemeli/yaml-types](https://github.com/eemeli/yaml-types) | 7 | 2024-07-07T13:29:33Z | TypeScript | Infrastructure/tooling | 0 | 7 | 0 | 0 |
 | [1000ch/vscode-csso](https://github.com/1000ch/vscode-csso) | 5 | 2024-06-17T08:34:51Z | TypeScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
+| [honeycombio/opentelemetry-demo](https://github.com/honeycombio/opentelemetry-demo) | 7 | 2024-06-07T15:56:55Z | TypeScript | Infrastructure/tooling | 7 | 16 | 7 | 7 |
+| [lightstep/opentelemetry-demo](https://github.com/lightstep/opentelemetry-demo) | 5 | 2024-05-14T17:57:10Z | TypeScript | Infrastructure/tooling | 5 | 13 | 5 | 5 |
+| [matafokka/geotiff-3d-dem-viewer](https://github.com/matafokka/geotiff-3d-dem-viewer) | 8 | 2024-04-13T08:12:08Z | TypeScript | Infrastructure/tooling | 1 | 38 | 1 | 1 |
 | [sajal353/r3f-jolt](https://github.com/sajal353/r3f-jolt) | 7 | 2024-04-01T12:29:47Z | TypeScript | Unknown | 0 | 19 | 0 | 0 |
 | [winily/zhipuai-sdk-nodejs-v4](https://github.com/winily/zhipuai-sdk-nodejs-v4) | 1 | 2024-03-20T09:06:23Z | TypeScript | Library | 0 | 6 | 0 | 0 |
+| [Azure/Azure-kusto-opentelemetry-demo](https://github.com/Azure/Azure-kusto-opentelemetry-demo) | 9 | 2024-03-05T09:19:53Z | TypeScript | Infrastructure/tooling | 7 | 14 | 7 | 7 |
 | [Chocolate4U/iwmf.ir-Mirror](https://github.com/Chocolate4U/iwmf.ir-Mirror) | 6 | 2024-02-24T09:24:53Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
 | [arvinxx/lobe-plugin-tikzjax](https://github.com/arvinxx/lobe-plugin-tikzjax) | 7 | 2024-01-14T13:35:55Z | TypeScript | Unknown | 0 | 27 | 0 | 0 |
 | [celo-org/emisianto](https://github.com/celo-org/emisianto) | 1 | 2024-01-11T15:04:27Z | TypeScript | Unknown | 0 | 24 | 0 | 0 |
@@ -75,18 +79,25 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ethers-io/ext-signer-ledger](https://github.com/ethers-io/ext-signer-ledger) | 9 | 2023-07-20T22:50:14Z | TypeScript | Unknown | 3 | 9 | 3 | 3 |
 | [Matts966/efm-langserver-vscode](https://github.com/Matts966/efm-langserver-vscode) | 1 | 2023-07-19T06:17:21Z | TypeScript | Unknown | 0 | 6 | 0 | 0 |
 | [azdavis/sml-libs-scraper](https://github.com/azdavis/sml-libs-scraper) | 4 | 2023-05-31T22:51:11Z | TypeScript | Unknown | 1 | 4 | 1 | 1 |
+| [iov-one/iov-faucet](https://github.com/iov-one/iov-faucet) | 3 | 2023-05-22T02:47:58Z | TypeScript | Infrastructure/tooling | 0 | 26 | 0 | 0 |
 | [coasys/agent-language](https://github.com/coasys/agent-language) | 2 | 2023-04-27T15:46:32Z | TypeScript | Unknown | 0 | 23 | 0 | 0 |
 | [LuaLS/LLS-Addons-Action](https://github.com/LuaLS/LLS-Addons-Action) | 1 | 2023-03-08T05:26:56Z | TypeScript | Infrastructure/tooling | 2 | 8 | 2 | 2 |
+| [sony/nnabla-browser](https://github.com/sony/nnabla-browser) | 9 | 2023-03-07T21:16:37Z | TypeScript | Infrastructure/tooling | 1 | 46 | 1 | 1 |
 | [storybook-eol/addon-graphql](https://github.com/storybook-eol/addon-graphql) | 8 | 2023-01-16T16:27:03Z | TypeScript | Infrastructure/tooling | 1 | 27 | 1 | 1 |
 | [storybookjs/addon-events](https://github.com/storybookjs/addon-events) | 8 | 2023-01-16T16:26:43Z | TypeScript | Infrastructure/tooling | 1 | 27 | 1 | 1 |
+| [iov-one/token-finder](https://github.com/iov-one/token-finder) | 1 | 2023-01-06T01:40:49Z | TypeScript | Unknown | 0 | 27 | 0 | 0 |
+| [near/near-abi-js](https://github.com/near/near-abi-js) | 2 | 2022-12-20T06:51:59Z | TypeScript | Unknown | 0 | 15 | 0 | 0 |
 | [prasek/supergraph-demo-opentelemetry](https://github.com/prasek/supergraph-demo-opentelemetry) | 5 | 2022-09-07T19:57:14Z | TypeScript | Infrastructure/tooling | 4 | 34 | 4 | 4 |
 | [confio/ibc-tests-ics20](https://github.com/confio/ibc-tests-ics20) | 6 | 2022-07-22T09:38:31Z | TypeScript | Library | 0 | 17 | 0 | 0 |
+| [iov-one/iov-ledger-iovns](https://github.com/iov-one/iov-ledger-iovns) | 2 | 2022-03-24T06:14:30Z | TypeScript | Library | 3 | 27 | 3 | 3 |
+| [hbenl/vscode-extension-samples](https://github.com/hbenl/vscode-extension-samples) | 1 | 2022-02-26T13:38:34Z | TypeScript | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [qri-io/frontend](https://github.com/qri-io/frontend) | 3 | 2022-01-20T16:56:51Z | TypeScript | Infrastructure/tooling | 0 | 98 | 0 | 0 |
 | [artemhlezin/webgpu-gerstner-waves](https://github.com/artemhlezin/webgpu-gerstner-waves) | 9 | 2022-01-12T21:01:58Z | TypeScript | Web app | 0 | 12 | 0 | 0 |
 | [indexxuan/vite-plugin-vue-cli](https://github.com/IndexXuan/vite-plugin-vue-cli) | 5 | 2021-09-22T01:45:12Z | TypeScript | CLI | 1 | 31 | 1 | 1 |
 | [codeperate/stencil-windicss](https://github.com/codeperate/stencil-windicss) | 1 | 2021-09-17T05:35:34Z | TypeScript | Unknown | 3 | 7 | 3 | 3 |
 | [arthwang/vsc-logtalk](https://github.com/arthwang/vsc-logtalk) | 3 | 2021-08-12T15:00:35Z | TypeScript | Unknown | 0 | 19 | 0 | 0 |
 | [iansan5653/vscode-format-python-docstrings](https://github.com/iansan5653/vscode-format-python-docstrings) | 4 | 2021-06-09T00:24:42Z | TypeScript | Unknown | 3 | 20 | 4 | 4 |
+| [hbenl/vscode-test-adapter-remoting-util](https://github.com/hbenl/vscode-test-adapter-remoting-util) | 1 | 2021-05-24T17:05:39Z | TypeScript | Unknown | 0 | 6 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -94,11 +105,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [Shougo/dpp-ext-toml](https://github.com/Shougo/dpp-ext-toml) | 9 | 2025-08-30T07:08:45Z | TypeScript | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [aabccd021/vanilla-virtua](https://github.com/aabccd021/vanilla-virtua) | 9 | 2025-03-15T08:58:59Z | TypeScript | Infrastructure/tooling | 0 | 8 | 0 | 0 |
+| [Azure/Azure-kusto-opentelemetry-demo](https://github.com/Azure/Azure-kusto-opentelemetry-demo) | 9 | 2024-03-05T09:19:53Z | TypeScript | Infrastructure/tooling | 7 | 14 | 7 | 7 |
 | [ceramicnetwork/js-dag-jose-utils](https://github.com/ceramicnetwork/js-dag-jose-utils) | 9 | 2024-01-03T15:10:42Z | TypeScript | Infrastructure/tooling | 1 | 20 | 1 | 1 |
 | [ethers-io/ext-signer-ledger](https://github.com/ethers-io/ext-signer-ledger) | 9 | 2023-07-20T22:50:14Z | TypeScript | Unknown | 3 | 9 | 3 | 3 |
+| [sony/nnabla-browser](https://github.com/sony/nnabla-browser) | 9 | 2023-03-07T21:16:37Z | TypeScript | Infrastructure/tooling | 1 | 46 | 1 | 1 |
 | [artemhlezin/webgpu-gerstner-waves](https://github.com/artemhlezin/webgpu-gerstner-waves) | 9 | 2022-01-12T21:01:58Z | TypeScript | Web app | 0 | 12 | 0 | 0 |
 | [litter-coder/midjourney-proxy-admin](https://github.com/litter-coder/midjourney-proxy-admin) | 8 | 2025-08-03T07:33:39Z | TypeScript | Unknown | 0 | 44 | 0 | 0 |
 | [cloydlau/vue-global-config](https://github.com/cloydlau/vue-global-config) | 8 | 2024-11-19T08:57:02Z | TypeScript | Infrastructure/tooling | 9 | 44 | 9 | 9 |
+| [matafokka/geotiff-3d-dem-viewer](https://github.com/matafokka/geotiff-3d-dem-viewer) | 8 | 2024-04-13T08:12:08Z | TypeScript | Infrastructure/tooling | 1 | 38 | 1 | 1 |
 | [PraneshASP/vscode-foundry-test-runner](https://github.com/PraneshASP/vscode-foundry-test-runner) | 8 | 2023-09-13T05:43:24Z | TypeScript | Unknown | 3 | 8 | 3 | 3 |
 | [startupdevhouse/typescript-functional-extensions-nestjs](https://github.com/startupdevhouse/typescript-functional-extensions-nestjs) | 8 | 2023-09-05T06:55:58Z | TypeScript | Unknown | 0 | 30 | 0 | 0 |
 | [storybook-eol/addon-graphql](https://github.com/storybook-eol/addon-graphql) | 8 | 2023-01-16T16:27:03Z | TypeScript | Infrastructure/tooling | 1 | 27 | 1 | 1 |
@@ -107,6 +121,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [robb-j/nova-yaml](https://github.com/robb-j/nova-yaml) | 7 | 2025-05-22T23:40:06Z | TypeScript | CLI | 4 | 10 | 5 | 5 |
 | [pkgxdev/git-gud](https://github.com/pkgxdev/git-gud) | 7 | 2024-11-27T21:23:11Z | TypeScript | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [eemeli/yaml-types](https://github.com/eemeli/yaml-types) | 7 | 2024-07-07T13:29:33Z | TypeScript | Infrastructure/tooling | 0 | 7 | 0 | 0 |
+| [honeycombio/opentelemetry-demo](https://github.com/honeycombio/opentelemetry-demo) | 7 | 2024-06-07T15:56:55Z | TypeScript | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [sajal353/r3f-jolt](https://github.com/sajal353/r3f-jolt) | 7 | 2024-04-01T12:29:47Z | TypeScript | Unknown | 0 | 19 | 0 | 0 |
 | [arvinxx/lobe-plugin-tikzjax](https://github.com/arvinxx/lobe-plugin-tikzjax) | 7 | 2024-01-14T13:35:55Z | TypeScript | Unknown | 0 | 27 | 0 | 0 |
 | [ethers-io/ext-provider-ganache](https://github.com/ethers-io/ext-provider-ganache) | 7 | 2023-08-21T00:47:58Z | TypeScript | Unknown | 4 | 5 | 4 | 4 |
@@ -118,6 +133,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [confio/ibc-tests-ics20](https://github.com/confio/ibc-tests-ics20) | 6 | 2022-07-22T09:38:31Z | TypeScript | Library | 0 | 17 | 0 | 0 |
 | [Pablerdo/hexaframe-dark](https://github.com/Pablerdo/hexaframe-dark) | 5 | 2025-02-12T01:52:34Z | TypeScript | Unknown | 0 | 21 | 0 | 0 |
 | [1000ch/vscode-csso](https://github.com/1000ch/vscode-csso) | 5 | 2024-06-17T08:34:51Z | TypeScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
+| [lightstep/opentelemetry-demo](https://github.com/lightstep/opentelemetry-demo) | 5 | 2024-05-14T17:57:10Z | TypeScript | Infrastructure/tooling | 5 | 13 | 5 | 5 |
 | [prasek/supergraph-demo-opentelemetry](https://github.com/prasek/supergraph-demo-opentelemetry) | 5 | 2022-09-07T19:57:14Z | TypeScript | Infrastructure/tooling | 4 | 34 | 4 | 4 |
 | [indexxuan/vite-plugin-vue-cli](https://github.com/IndexXuan/vite-plugin-vue-cli) | 5 | 2021-09-22T01:45:12Z | TypeScript | CLI | 1 | 31 | 1 | 1 |
 | [intlify/eslint-plugin-svelte](https://github.com/intlify/eslint-plugin-svelte) | 4 | 2025-04-07T07:51:01Z | TypeScript | Infrastructure/tooling | 2 | 27 | 2 | 2 |
@@ -129,6 +145,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [5sControl/5s-frontend](https://github.com/5sControl/5s-frontend) | 3 | 2025-06-25T13:30:18Z | TypeScript | Infrastructure/tooling | 9 | 59 | 9 | 9 |
 | [ddisisto/si](https://github.com/ddisisto/si) | 3 | 2025-05-20T01:27:58Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
 | [ethers-io/ext-provider-plugin-multicoin](https://github.com/ethers-io/ext-provider-plugin-multicoin) | 3 | 2023-09-15T06:54:19Z | TypeScript | Unknown | 0 | 3 | 0 | 0 |
+| [iov-one/iov-faucet](https://github.com/iov-one/iov-faucet) | 3 | 2023-05-22T02:47:58Z | TypeScript | Infrastructure/tooling | 0 | 26 | 0 | 0 |
 | [qri-io/frontend](https://github.com/qri-io/frontend) | 3 | 2022-01-20T16:56:51Z | TypeScript | Infrastructure/tooling | 0 | 98 | 0 | 0 |
 | [arthwang/vsc-logtalk](https://github.com/arthwang/vsc-logtalk) | 3 | 2021-08-12T15:00:35Z | TypeScript | Unknown | 0 | 19 | 0 | 0 |
 | [asonnleitner/highwayhash-wasm](https://github.com/asonnleitner/highwayhash-wasm) | 2 | 2025-03-24T19:05:00Z | TypeScript | Infrastructure/tooling | 8 | 27 | 8 | 8 |
@@ -139,6 +156,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hchiam/learning-angular](https://github.com/hchiam/learning-angular) | 2 | 2024-09-13T20:53:03Z | TypeScript | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [cryptonomic/conseiljs-softsigner](https://github.com/Cryptonomic/ConseilJS-softsigner) | 2 | 2023-08-08T19:41:32Z | TypeScript | Infrastructure/tooling | 1 | 28 | 1 | 1 |
 | [coasys/agent-language](https://github.com/coasys/agent-language) | 2 | 2023-04-27T15:46:32Z | TypeScript | Unknown | 0 | 23 | 0 | 0 |
+| [near/near-abi-js](https://github.com/near/near-abi-js) | 2 | 2022-12-20T06:51:59Z | TypeScript | Unknown | 0 | 15 | 0 | 0 |
+| [iov-one/iov-ledger-iovns](https://github.com/iov-one/iov-ledger-iovns) | 2 | 2022-03-24T06:14:30Z | TypeScript | Library | 3 | 27 | 3 | 3 |
 | [LogtalkDotOrg/jupyterlab-logtalk-codemirror-extension](https://github.com/LogtalkDotOrg/jupyterlab-logtalk-codemirror-extension) | 1 | 2025-08-11T15:13:49Z | TypeScript | Unknown | 0 | 11 | 0 | 0 |
 | [celo-org/socialconnect-template](https://github.com/celo-org/socialconnect-template) | 1 | 2025-06-28T19:50:10Z | TypeScript | Template/starter | 0 | 0 | 0 | 0 |
 | [plrthink/RNZATestApp](https://github.com/plrthink/RNZATestApp) | 1 | 2025-06-15T10:39:56Z | TypeScript | Unknown | 1 | 28 | 1 | 1 |
@@ -152,4 +171,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ConsenSys-archive/ganache-plugin-filecoin](https://github.com/ConsenSys-archive/ganache-plugin-filecoin) | 1 | 2023-08-25T00:43:32Z | TypeScript | Unknown | 0 | 15 | 0 | 0 |
 | [Matts966/efm-langserver-vscode](https://github.com/Matts966/efm-langserver-vscode) | 1 | 2023-07-19T06:17:21Z | TypeScript | Unknown | 0 | 6 | 0 | 0 |
 | [LuaLS/LLS-Addons-Action](https://github.com/LuaLS/LLS-Addons-Action) | 1 | 2023-03-08T05:26:56Z | TypeScript | Infrastructure/tooling | 2 | 8 | 2 | 2 |
+| [iov-one/token-finder](https://github.com/iov-one/token-finder) | 1 | 2023-01-06T01:40:49Z | TypeScript | Unknown | 0 | 27 | 0 | 0 |
+| [hbenl/vscode-extension-samples](https://github.com/hbenl/vscode-extension-samples) | 1 | 2022-02-26T13:38:34Z | TypeScript | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [codeperate/stencil-windicss](https://github.com/codeperate/stencil-windicss) | 1 | 2021-09-17T05:35:34Z | TypeScript | Unknown | 3 | 7 | 3 | 3 |
+| [hbenl/vscode-test-adapter-remoting-util](https://github.com/hbenl/vscode-test-adapter-remoting-util) | 1 | 2021-05-24T17:05:39Z | TypeScript | Unknown | 0 | 6 | 0 | 0 |

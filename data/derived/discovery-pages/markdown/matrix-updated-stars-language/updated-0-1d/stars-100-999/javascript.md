@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-05T08:29:41.606128+00:00`
+Generated at: `2026-05-06T05:39:22.250037+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
-- terms: 34
-- components: 68
-- concepts: 34
-- observations: 34
+- repos: 5
+- terms: 46
+- components: 73
+- concepts: 46
+- observations: 46
 
 ## Static behavior
 
@@ -26,16 +26,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [aws-cloudformation/cfn-lint-visual-studio-code](https://github.com/aws-cloudformation/cfn-lint-visual-studio-code) | 286 | 2026-05-05T00:34:24Z | JavaScript | Infrastructure/tooling | 8 | 13 | 8 | 8 |
-| [GDevelopApp/GDevelop-extensions](https://github.com/GDevelopApp/GDevelop-extensions) | 246 | 2026-05-04T10:58:47Z | JavaScript | Infrastructure/tooling | 11 | 22 | 11 | 11 |
-| [digitalocean/openapi](https://github.com/digitalocean/openapi) | 136 | 2026-05-04T10:18:20Z | JavaScript | Infrastructure/tooling | 11 | 14 | 11 | 11 |
-| [AdguardTeam/HostlistsRegistry](https://github.com/AdguardTeam/HostlistsRegistry) | 365 | 2026-05-04T09:58:07Z | JavaScript | Infrastructure/tooling | 4 | 19 | 4 | 4 |
+| [aws-cloudformation/cfn-lint-visual-studio-code](https://github.com/aws-cloudformation/cfn-lint-visual-studio-code) | 286 | 2026-05-06T00:33:44Z | JavaScript | Infrastructure/tooling | 8 | 13 | 8 | 8 |
+| [gitleaks/gitleaks-action](https://github.com/gitleaks/gitleaks-action) | 576 | 2026-05-05T18:59:46Z | JavaScript | Infrastructure/tooling | 13 | 10 | 13 | 13 |
+| [GDevelopApp/GDevelop-extensions](https://github.com/GDevelopApp/GDevelop-extensions) | 246 | 2026-05-05T16:24:17Z | JavaScript | Infrastructure/tooling | 11 | 22 | 11 | 11 |
+| [digitalocean/openapi](https://github.com/digitalocean/openapi) | 136 | 2026-05-05T09:36:18Z | JavaScript | Infrastructure/tooling | 11 | 14 | 11 | 11 |
+| [stylelint/stylelint-config-recommended](https://github.com/stylelint/stylelint-config-recommended) | 400 | 2026-05-05T08:27:02Z | JavaScript | Infrastructure/tooling | 3 | 14 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [AdguardTeam/HostlistsRegistry](https://github.com/AdguardTeam/HostlistsRegistry) | 365 | 2026-05-04T09:58:07Z | JavaScript | Infrastructure/tooling | 4 | 19 | 4 | 4 |
-| [aws-cloudformation/cfn-lint-visual-studio-code](https://github.com/aws-cloudformation/cfn-lint-visual-studio-code) | 286 | 2026-05-05T00:34:24Z | JavaScript | Infrastructure/tooling | 8 | 13 | 8 | 8 |
-| [GDevelopApp/GDevelop-extensions](https://github.com/GDevelopApp/GDevelop-extensions) | 246 | 2026-05-04T10:58:47Z | JavaScript | Infrastructure/tooling | 11 | 22 | 11 | 11 |
-| [digitalocean/openapi](https://github.com/digitalocean/openapi) | 136 | 2026-05-04T10:18:20Z | JavaScript | Infrastructure/tooling | 11 | 14 | 11 | 11 |
+| [gitleaks/gitleaks-action](https://github.com/gitleaks/gitleaks-action) | 576 | 2026-05-05T18:59:46Z | JavaScript | Infrastructure/tooling | 13 | 10 | 13 | 13 |
+| [stylelint/stylelint-config-recommended](https://github.com/stylelint/stylelint-config-recommended) | 400 | 2026-05-05T08:27:02Z | JavaScript | Infrastructure/tooling | 3 | 14 | 3 | 3 |
+| [aws-cloudformation/cfn-lint-visual-studio-code](https://github.com/aws-cloudformation/cfn-lint-visual-studio-code) | 286 | 2026-05-06T00:33:44Z | JavaScript | Infrastructure/tooling | 8 | 13 | 8 | 8 |
+| [GDevelopApp/GDevelop-extensions](https://github.com/GDevelopApp/GDevelop-extensions) | 246 | 2026-05-05T16:24:17Z | JavaScript | Infrastructure/tooling | 11 | 22 | 11 | 11 |
+| [digitalocean/openapi](https://github.com/digitalocean/openapi) | 136 | 2026-05-05T09:36:18Z | JavaScript | Infrastructure/tooling | 11 | 14 | 11 | 11 |

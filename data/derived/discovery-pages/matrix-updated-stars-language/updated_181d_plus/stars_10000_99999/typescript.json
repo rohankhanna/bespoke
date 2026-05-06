@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 677,
-    "concepts": 130,
-    "observations": 131,
-    "repos": 16,
-    "terms": 126
+    "components": 725,
+    "concepts": 144,
+    "observations": 145,
+    "repos": 17,
+    "terms": 140
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "alibaba/formily",
     "bytebot-ai/bytebot",
     "cyclejs/cyclejs",
     "cyrildiagne/ar-cutpaste",
+    "date-fns/date-fns",
     "fuergaosi233/wechat-chatgpt",
     "howdyai/botkit",
     "mckaywrigley/chatbot-ui",

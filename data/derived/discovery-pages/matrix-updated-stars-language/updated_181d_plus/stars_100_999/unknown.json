@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 116,
-    "concepts": 382,
-    "observations": 383,
-    "repos": 223,
-    "terms": 382
+    "components": 118,
+    "concepts": 387,
+    "observations": 388,
+    "repos": 229,
+    "terms": 387
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0russwest0/Awesome-Agent-RL",
@@ -79,6 +79,7 @@
     "doc-analysis/ReadingBank",
     "doc-analysis/XFUND",
     "dotnet-foundation/swag",
+    "dotnet/brand",
     "dotnet/vblang",
     "drduh/Router-Guide",
     "DS4SD/DocLayNet",
@@ -103,6 +104,7 @@
     "github/MVG",
     "gofrp/plugin",
     "google-research-datasets/conceptual-12m",
+    "google-research/reassessed-imagenet",
     "google/.github",
     "GoogleChrome/ip-protection",
     "googlefonts/gf-docs",
@@ -141,6 +143,7 @@
     "klaus2m5/6502_65c02_functional_tests",
     "knownsec/404starlink-project",
     "kwea123/OpenVTuberProject",
+    "l4rz/practical-aspects-of-stylegan2-training",
     "layumi/Vehicle_reID-Collection",
     "libp2p/go-libp2p-examples",
     "litter-coder/midjourney-proxy-plus",
@@ -171,6 +174,7 @@
     "multiformats/multiformats",
     "mundimark/awesome-markdown-alternatives",
     "ndjson/ndjson-spec",
+    "necolas/issue-guidelines",
     "nicolas-chaulet/torch-points3d",
     "nicoth-in/Dark-Space-Theme",
     "nim-lang/RFCs",
@@ -188,6 +192,7 @@
     "openxla/community",
     "OS-Agent-Survey/OS-Agent-Survey",
     "ozkriff/awesome-quads",
+    "PacificBiosciences/ccs",
     "PacificBiosciences/IsoSeq",
     "PacificBiosciences/pbbioconda",
     "pdm-project/awesome-pdm",
@@ -205,6 +210,7 @@
     "QingyongHu/VISO",
     "quchangle1/LLM-Tool-Survey",
     "react-native-community/RNNewArchitectureLibraries",
+    "rust-lang/project-portable-simd",
     "rust-lang/unsafe-code-guidelines",
     "rust-secure-code/safety-dance",
     "rvm/ubuntu_rvm",

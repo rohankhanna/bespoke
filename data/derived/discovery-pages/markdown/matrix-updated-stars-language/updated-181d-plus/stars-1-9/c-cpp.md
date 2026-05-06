@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · C/C++
 
-Generated at: `2026-05-05T08:29:41.606128+00:00`
+Generated at: `2026-05-06T05:39:22.250037+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 74
-- terms: 85
-- components: 152
-- concepts: 86
-- observations: 86
+- repos: 78
+- terms: 88
+- components: 155
+- concepts: 89
+- observations: 89
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ntnu-arl/ouster-ros](https://github.com/ntnu-arl/ouster-ros) | 2 | 2025-10-13T16:17:17Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [buty4649/mruby-terminal-color](https://github.com/buty4649/mruby-terminal-color) | 2 | 2025-10-05T09:31:38Z | C/C++ | CLI | 1 | 2 | 1 | 1 |
 | [vpetrigo/median-filter](https://github.com/vpetrigo/median-filter) | 2 | 2025-10-04T17:06:30Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [yoshoku/numo-tiny_linalg](https://github.com/yoshoku/numo-tiny_linalg) | 1 | 2025-10-01T14:12:41Z | C/C++ | Infrastructure/tooling | 5 | 5 | 5 | 5 |
@@ -36,6 +37,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tob-challenges/example-libpng](https://github.com/tob-challenges/example-libpng) | 1 | 2025-07-16T18:44:08Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [Cydral/dlib-models-training](https://github.com/Cydral/dlib-models-training) | 6 | 2025-06-24T11:18:48Z | C/C++ | Model/data | 0 | 0 | 0 | 0 |
 | [cycleg/far-gvfs](https://github.com/cycleg/far-gvfs) | 9 | 2025-06-08T07:06:59Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [usdot-fhwa-stol/avt_vimba_camera](https://github.com/usdot-fhwa-stol/avt_vimba_camera) | 4 | 2025-05-28T17:49:45Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [git-up/libgit2](https://github.com/git-up/libgit2) | 1 | 2025-05-20T14:35:34Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [hermit-os/pthread-embedded](https://github.com/hermit-os/pthread-embedded) | 2 | 2025-05-19T09:15:03Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [Cydral/Dlib-ImageNet-Datasets](https://github.com/Cydral/Dlib-ImageNet-Datasets) | 1 | 2025-05-08T16:50:48Z | C/C++ | Model/data | 0 | 0 | 0 | 0 |
@@ -68,6 +70,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Cydral/BAREL](https://github.com/Cydral/BAREL) | 4 | 2024-05-14T07:00:30Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [DOGEwbx/llama.cpp](https://github.com/DOGEwbx/llama.cpp) | 3 | 2024-05-08T04:05:22Z | C/C++ | Infrastructure/tooling | 6 | 31 | 6 | 6 |
 | [bnosac/audio.vadwebrtc](https://github.com/bnosac/audio.vadwebrtc) | 1 | 2024-05-06T13:22:29Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [usdot-fhwa-stol/carma-delphi-srr2-driver](https://github.com/usdot-fhwa-stol/carma-delphi-srr2-driver) | 1 | 2024-04-11T19:27:24Z | C/C++ | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [jk-jeon/dtoa-benchmark](https://github.com/jk-jeon/dtoa-benchmark) | 2 | 2024-03-30T08:19:12Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [cpmech/vismatrix](https://github.com/cpmech/vismatrix) | 9 | 2024-03-29T00:08:05Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [candid82/cljf](https://github.com/candid82/cljf) | 9 | 2024-03-09T19:38:54Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -93,6 +96,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mackron/vkquake2](https://github.com/mackron/vkQuake2) | 3 | 2022-04-09T00:03:04Z | C/C++ | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [jasongin/node-canvas](https://github.com/jasongin/node-canvas) | 8 | 2022-02-19T07:44:23Z | C/C++ | Unknown | 0 | 4 | 0 | 0 |
 | [infradig/imath](https://github.com/infradig/imath) | 4 | 2022-01-07T00:01:21Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [osmcode/osmium-proj](https://github.com/osmcode/osmium-proj) | 1 | 2021-11-22T16:08:32Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [outsidercsy/spconv](https://github.com/outsidercsy/spconv) | 1 | 2021-10-16T14:17:14Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [hugodaniel/cuid-c](https://github.com/HugoDaniel/cuid-c) | 1 | 2021-08-18T10:17:48Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [eddelbuettel/ldlasb](https://github.com/eddelbuettel/ldlasb) | 8 | 2021-08-01T13:20:39Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
@@ -140,6 +144,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dwyl/flutter-stopwatch-tutorial](https://github.com/dwyl/flutter-stopwatch-tutorial) | 5 | 2023-02-04T07:49:50Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [hayguen/pffft](https://github.com/hayguen/pffft) | 5 | 2022-04-10T13:50:14Z | C/C++ | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [hermit-os/hermit-c](https://github.com/hermit-os/hermit-c) | 4 | 2025-09-16T12:06:03Z | C/C++ | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [usdot-fhwa-stol/avt_vimba_camera](https://github.com/usdot-fhwa-stol/avt_vimba_camera) | 4 | 2025-05-28T17:49:45Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [Cydral/BAREL](https://github.com/Cydral/BAREL) | 4 | 2024-05-14T07:00:30Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [lockblox/multibase](https://github.com/lockblox/multibase) | 4 | 2024-03-04T19:30:29Z | C/C++ | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [axxie/far2l-jumpword](https://github.com/axxie/far2l-jumpword) | 4 | 2023-08-27T14:10:53Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -152,6 +157,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Cydral/FFspider](https://github.com/Cydral/FFspider) | 3 | 2023-08-16T20:29:34Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [mackron/vkquake2](https://github.com/mackron/vkQuake2) | 3 | 2022-04-09T00:03:04Z | C/C++ | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [hayguen/greenffts](https://github.com/hayguen/greenffts) | 3 | 2021-06-12T21:12:48Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [ntnu-arl/ouster-ros](https://github.com/ntnu-arl/ouster-ros) | 2 | 2025-10-13T16:17:17Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [buty4649/mruby-terminal-color](https://github.com/buty4649/mruby-terminal-color) | 2 | 2025-10-05T09:31:38Z | C/C++ | CLI | 1 | 2 | 1 | 1 |
 | [vpetrigo/median-filter](https://github.com/vpetrigo/median-filter) | 2 | 2025-10-04T17:06:30Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [hermit-os/pthread-embedded](https://github.com/hermit-os/pthread-embedded) | 2 | 2025-05-19T09:15:03Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -174,8 +180,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [RWTH-OS/linux](https://github.com/RWTH-OS/linux) | 1 | 2024-08-18T09:04:42Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [Clemapfel/mousetrap_julia_binding](https://github.com/Clemapfel/mousetrap_julia_binding) | 1 | 2024-07-18T13:13:20Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 | [bnosac/audio.vadwebrtc](https://github.com/bnosac/audio.vadwebrtc) | 1 | 2024-05-06T13:22:29Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [usdot-fhwa-stol/carma-delphi-srr2-driver](https://github.com/usdot-fhwa-stol/carma-delphi-srr2-driver) | 1 | 2024-04-11T19:27:24Z | C/C++ | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [afd-illinois/eht-babel](https://github.com/AFD-Illinois/EHT-babel) | 1 | 2024-03-06T17:02:07Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [rhoban/maple](https://github.com/Rhoban/Maple) | 1 | 2023-05-05T13:41:18Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [rawleyfowler/JSON-Simd](https://github.com/rawleyfowler/JSON-Simd) | 1 | 2023-03-17T00:06:24Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [osmcode/osmium-proj](https://github.com/osmcode/osmium-proj) | 1 | 2021-11-22T16:08:32Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [outsidercsy/spconv](https://github.com/outsidercsy/spconv) | 1 | 2021-10-16T14:17:14Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [hugodaniel/cuid-c](https://github.com/HugoDaniel/cuid-c) | 1 | 2021-08-18T10:17:48Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

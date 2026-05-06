@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 124,
-    "concepts": 147,
-    "observations": 149,
-    "repos": 35,
-    "terms": 142
+    "components": 134,
+    "concepts": 151,
+    "observations": 153,
+    "repos": 36,
+    "terms": 146
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "apache/casbin-cpp",
@@ -31,7 +31,9 @@
     "hhyyrylainen/GodotPckTool",
     "InteractiveComputerGraphics/TriangleMeshDistance",
     "isciences/exactextract",
+    "iwongu/sqlite3pp",
     "jsk-ros-pkg/jsk_visualization",
+    "koide3/small_gicp",
     "lexxmark/winflexbison",
     "marbl/canu",
     "martinmoene/lest",
@@ -47,7 +49,6 @@
     "swaywm/swaybg",
     "tree-sitter-grammars/tree-sitter-markdown",
     "ValveSoftware/Fossilize",
-    "xtensor-stack/xtl",
-    "ZDisket/TensorVox"
+    "xtensor-stack/xtl"
   ]
 }

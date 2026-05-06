@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1466,
-    "concepts": 229,
-    "observations": 231,
-    "repos": 39,
-    "terms": 228
+    "components": 1775,
+    "concepts": 269,
+    "observations": 271,
+    "repos": 45,
+    "terms": 265
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "ai/nanoid",
+    "ajaxorg/ace",
     "arkenfox/user.js",
     "Automattic/node-canvas",
     "avajs/ava",
@@ -25,7 +26,9 @@
     "ConardLi/easy-dataset",
     "google/zx",
     "graphql/graphql-spec",
+    "handlebars-lang/handlebars.js",
     "http-party/http-server",
+    "iamkun/dayjs",
     "immerjs/immer",
     "infernojs/inferno",
     "jantimon/html-webpack-plugin",
@@ -34,14 +37,17 @@
     "jasmine/jasmine",
     "josdejong/jsoneditor",
     "josdejong/mathjs",
+    "jquery/jquery",
     "karma-runner/karma",
     "Leaflet/Leaflet",
     "markedjs/marked",
     "motdotla/dotenv",
+    "nock/nock",
     "openai/codex-plugin-cc",
-    "parcel-bundler/parcel",
     "postcss/autoprefixer",
     "pot-app/pot-desktop",
+    "prettier/prettier",
+    "PrismJS/prism",
     "reactjs/react.dev",
     "semantic-release/semantic-release",
     "svg/svgo",

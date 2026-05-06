@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 149,
+    "components": 146,
     "concepts": 135,
     "observations": 135,
-    "repos": 25,
+    "repos": 24,
     "terms": 135
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "a16z/helios",
     "anthropics/claudes-c-compiler",
@@ -34,7 +34,6 @@
     "sagiegurari/cargo-make",
     "sharkdp/diskus",
     "tikv/grpc-rs",
-    "tokio-rs/bytes",
     "tokio-rs/loom",
     "tokio-rs/prost",
     "tower-rs/tower",

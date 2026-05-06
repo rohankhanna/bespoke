@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 75,
-    "concepts": 61,
-    "observations": 62,
+    "concepts": 56,
+    "observations": 57,
     "repos": 15,
-    "terms": 61
+    "terms": 56
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,22 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
+    "alphagov/govuk-rfcs",
     "BioContainers/multi-package-containers",
     "canonical/ubuntu-security-notices",
-    "containerd/project",
-    "crewAIInc/skills",
     "docker/github-builder",
+    "elastic/logstash-docs",
     "goharbor/community",
+    "jupyterlab/frontends-team-compass",
     "mypyc/mypyc-benchmark-results",
     "prefix-dev/rattler-build-action",
-    "qemus/virtiso-whql",
     "quarkiverse/quarkiverse-docs",
-    "rstackjs/rstack-design-resources",
     "sigstore/community",
     "spring-projects/spring-ai-integration-tests",
     "Stardust-SJF/cuvs_rabitq",
-    "supabase/scoop-bucket"
+    "supabase/scoop-bucket",
+    "uxlfoundation/foundation"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 556,
-    "concepts": 83,
-    "observations": 83,
-    "repos": 27,
-    "terms": 83
+    "components": 602,
+    "concepts": 94,
+    "observations": 94,
+    "repos": 28,
+    "terms": 94
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "9romise/eslint-plugin-import-lite",
     "acro5piano/kysely-migration-cli",
     "aiden0z/pptx-renderer",
     "apache/incubator-devlake-website",
     "automazeio/proof",
+    "blrchen/chatgpt-minimal",
     "dannyhw/react-native-storybook-starter",
     "gnosischain/gbc-deposit-ui",
     "googleapis/google-cloud-node-core",
@@ -30,6 +31,7 @@
     "literalpie/storybook-framework-qwik",
     "memoryhole/jjo",
     "nanostores/alpine",
+    "obi1kenobi/cargo-semver-checks-action",
     "pkgxdev/brewkit",
     "pkgxdev/pkgm",
     "privatenumber/is-fs-case-sensitive",
@@ -39,7 +41,6 @@
     "solidjs-community/storybook",
     "storybookjs/addon-coverage",
     "stx-labs/connect",
-    "TravisTheTechie/vscode-write-good",
-    "trzsz/tabby-trzsz"
+    "TravisTheTechie/vscode-write-good"
   ]
 }

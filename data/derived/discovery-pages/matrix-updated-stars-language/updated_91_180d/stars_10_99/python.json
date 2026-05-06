@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 173,
-    "concepts": 187,
-    "observations": 187,
-    "repos": 74,
-    "terms": 196
+    "concepts": 190,
+    "observations": 190,
+    "repos": 78,
+    "terms": 199
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "Adlik/vllm",
@@ -22,6 +22,7 @@
     "amaranth-lang/amaranth-stdio",
     "AnonymouX47/termvisage",
     "antgroup/DeepXTrace",
+    "az1326/advisor-models",
     "Azure/aaz-dev-tools",
     "bentoml/BentoLMDeploy",
     "biocypher/project-template",
@@ -46,6 +47,7 @@
     "icppWorld/icgpt",
     "InteractiveComputerGraphics/blender-sequence-loader",
     "InternScience/SeedBench",
+    "JarnoRFB/incense",
     "jdlph/Path4GMNS",
     "jhakulin/realtime-ai",
     "jhogsett/EMA-VFI-WebUI",
@@ -76,10 +78,12 @@
     "SLDGroup/CASCADE",
     "SLDGroup/EffiDec3D",
     "SLDGroup/G-CASCADE",
+    "SLDGroup/LoMix",
     "SLDGroup/MERIT",
     "SLDGroup/MK-UNet",
     "ssitu/ComfyUI_restart_sampling",
     "TencentYoutuResearch/APTBench",
+    "TencentYoutuResearch/SPEAR",
     "thunlp/BlockFFN",
     "tinted-theming/base24",
     "TransferQueue/TransferQueue",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 623,
-    "concepts": 391,
-    "observations": 395,
-    "repos": 58,
-    "terms": 389
+    "components": 603,
+    "concepts": 369,
+    "observations": 372,
+    "repos": 54,
+    "terms": 368
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "0xPolygonHermez/zisk",
     "a16z/jolt",
@@ -25,7 +25,6 @@
     "base/base",
     "boquila/boquilahub",
     "cargo-bins/cargo-quickinstall",
-    "cargo-public-api/cargo-public-api",
     "cobalt-org/liquid-rust",
     "conda/rattler",
     "cosmos/solidity-ibc-eureka",
@@ -53,20 +52,17 @@
     "left-curve/left-curve",
     "lindera/lindera",
     "matter-labs/zksync-airbender",
-    "MercuryTechnologies/ghciwatch",
     "mozilla/application-services",
+    "near/near-sdk-rs",
     "openvm-org/openvm",
     "oxc-project/oxc-resolver",
+    "paradigmxyz/solar",
     "posit-dev/ark",
     "prefix-dev/rattler-build",
     "quickwit-oss/tantivy-py",
     "rust-diplomat/diplomat",
-    "RustCrypto/crypto-bigint",
     "RustCrypto/elliptic-curves",
-    "RustCrypto/traits",
     "supabase/wrappers",
-    "tensorchord/VectorChord-bm25",
-    "tinted-theming/tinty",
     "vectordotdev/vrl",
     "z-galaxy/zbus",
     "zaeleus/noodles",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11,
-    "concepts": 49,
-    "observations": 49,
-    "repos": 32,
-    "terms": 61
+    "components": 18,
+    "concepts": 70,
+    "observations": 70,
+    "repos": 34,
+    "terms": 82
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "Ableton/push-interface",
     "ahmadawais/shades-of-purple-vscode",
@@ -24,18 +24,20 @@
     "DaoCloud/public-binary-files-mirror",
     "deepinsight/inswapper-512-live",
     "deepseek-ai/awesome-deepseek-coder",
-    "dotnet/brand",
     "eryajf/awesome-github-profile-readme-chinese",
     "ethstaker/ethstaker-guides",
     "filecoin-project/devgrants",
     "GraphBLAS/GraphBLAS-Pointers",
     "IceClear/SeedVR2",
+    "joseluisq/macosx-sdks",
     "langchain4j/awesome-langchain4j",
+    "libp2p/js-libp2p-examples",
     "lightning/blips",
     "michaelkleber/privacy-model",
     "microsoft/foss-fund",
     "MiniMax-AI/MiniMax-M2.1",
     "MME-Benchmarks/Video-MME",
+    "ntnu-arl/lidar_degeneracy_datasets",
     "NVIDIA/RTX-AI-Toolkit",
     "oh-my-fish/packages-main",
     "opendilab/awesome-ui-agents",

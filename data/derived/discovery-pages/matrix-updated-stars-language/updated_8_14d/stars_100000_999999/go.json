@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 10,
-    "concepts": 17,
-    "observations": 17,
-    "repos": 3,
-    "terms": 17
+    "concepts": 9,
+    "observations": 9,
+    "repos": 1,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
-    "avelino/awesome-go",
-    "fatedier/frp",
-    "golang/go"
+    "fatedier/frp"
   ]
 }

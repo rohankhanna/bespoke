@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3397,
-    "concepts": 711,
-    "observations": 712,
-    "repos": 104,
-    "terms": 823
+    "components": 3665,
+    "concepts": 779,
+    "observations": 780,
+    "repos": 111,
+    "terms": 891
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -34,9 +34,12 @@
     "blockprotocol/blockprotocol",
     "capricorn86/happy-dom",
     "cawa-93/vite-electron-builder",
+    "ChainSafe/lodestar",
     "changesets/action",
+    "cloudflare/agents",
     "cloudflare/agents-starter",
     "coder/ghostty-web",
+    "Comfy-Org/desktop",
     "devcontainers/cli",
     "ding113/claude-code-hub",
     "docker/metadata-action",
@@ -58,10 +61,12 @@
     "google-github-actions/run-gemini-cli",
     "googleapis/release-please",
     "googleapis/release-please-action",
+    "gorhom/react-native-bottom-sheet",
     "graffle-js/graffle",
     "Helicone/helicone",
     "heyhuynhgiabuu/proxypal",
     "i18next/next-i18next",
+    "ipfs/helia",
     "itgalaxy/favicons",
     "jaredwray/cacheable",
     "jaredwray/keyv",
@@ -94,6 +99,7 @@
     "onecli/onecli",
     "op7418/codepilot",
     "opactorai/claudable",
+    "open-telemetry/opentelemetry-js",
     "OpenAPITools/openapi-generator-cli",
     "owloops/claude-powerline",
     "PAIR-code/lit",
@@ -117,6 +123,7 @@
     "TooTallNate/proxy-agents",
     "vega/vega-lite",
     "webgpu/webgpu-samples",
+    "wighawag/hardhat-deploy",
     "withastro/starlight"
   ]
 }

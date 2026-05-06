@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 195,
-    "concepts": 159,
-    "observations": 162,
-    "repos": 37,
-    "terms": 159
+    "components": 192,
+    "concepts": 161,
+    "observations": 165,
+    "repos": 40,
+    "terms": 160
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "ashvardanian/StringWars",
+    "athre0z/color-backtrace",
     "attackgoat/vk-graph",
     "cedar-policy/cedar-examples",
     "cryscan/web-rwkv",
@@ -32,14 +33,16 @@
     "getsentry/rust-sourcemap",
     "gfx-rs/rspirv",
     "gimli-rs/addr2line",
+    "hsivonen/chardetng",
     "lambdaclass/lambdaworks",
     "LukasKalbertodt/libtest-mimic",
     "mitsuhiko/similar-asserts",
     "mozilla/dump_syms",
+    "near/borsh-rs",
     "Nugine/simd",
     "PistonDevelopers/glfw-rs",
     "posit-dev/air",
-    "prisma/tiberius",
+    "public-awesome/cw-nfts",
     "quickwit-oss/tantivy-cli",
     "rust-analyzer/rowan",
     "rust-lang/crater",

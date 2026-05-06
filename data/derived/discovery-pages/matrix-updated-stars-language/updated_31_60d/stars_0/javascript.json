@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 5,
+    "components": 19,
     "concepts": 0,
     "observations": 0,
-    "repos": 4,
+    "repos": 5,
     "terms": 0
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
+    "caprica/generator-vlcj",
     "danielrosehill/Israel-Alert-Map",
     "onomojo/i18n-country-translations-data",
     "onomojo/i18n-timezones-data",

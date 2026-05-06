@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 148,
-    "concepts": 255,
-    "observations": 255,
-    "repos": 43,
-    "terms": 252
+    "components": 157,
+    "concepts": 265,
+    "observations": 265,
+    "repos": 44,
+    "terms": 262
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "ashvardanian/less_slow.cpp",
     "asmvik/skhd",
@@ -35,7 +35,6 @@
     "gulrak/filesystem",
     "hanslub42/rlwrap",
     "hapostgres/pg_auto_failover",
-    "ianlancetaylor/libbacktrace",
     "InteractiveComputerGraphics/SPlisHSPlasH",
     "jedisct1/minisign",
     "jkuhlmann/cgltf",
@@ -43,6 +42,7 @@
     "libimobiledevice/libimobiledevice",
     "libimobiledevice/usbmuxd",
     "libsndfile/libsndfile",
+    "martinus/unordered_dense",
     "MaskRay/ccls",
     "MIT-SPARK/TEASER-plusplus",
     "naelstrof/maim",
@@ -56,6 +56,7 @@
     "pothosware/SoapySDR",
     "rurban/smhasher",
     "sysstat/sysstat",
+    "thestk/rtmidi",
     "tpoechtrager/osxcross"
   ]
 }

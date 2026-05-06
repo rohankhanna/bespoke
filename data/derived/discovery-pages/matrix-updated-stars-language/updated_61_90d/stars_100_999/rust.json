@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 192,
-    "concepts": 127,
-    "observations": 127,
-    "repos": 34,
-    "terms": 126
+    "components": 208,
+    "concepts": 137,
+    "observations": 137,
+    "repos": 36,
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "Ai00-X/ai00_server",
     "arkworks-rs/r1cs-std",
+    "ayazhafiz/xorf",
     "bet4it/udbserver",
     "blyxxyz/lexopt",
     "callum-oakley/json5-rs",
@@ -38,6 +39,7 @@
     "matsadler/magnus",
     "MSxDOS/ntapi",
     "pdf-rs/pdf_render",
+    "prisma/tiberius",
     "ratatui/templates",
     "risinglightdb/sqllogictest-rs",
     "rust-native-tls/rust-native-tls",

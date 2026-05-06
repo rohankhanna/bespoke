@@ -1,23 +1,24 @@
 {
   "counts": {
-    "components": 771,
-    "concepts": 476,
-    "observations": 478,
-    "repos": 69,
-    "terms": 473
+    "components": 799,
+    "concepts": 497,
+    "observations": 499,
+    "repos": 72,
+    "terms": 494
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
     "andrewyng/aisuite",
     "anthropics/courses",
     "aosp-mirror/platform_frameworks_base",
+    "astral-sh/rye",
     "beehiveinnovations/pal-mcp-server",
     "binary-husky/gpt_academic",
     "blitz-js/blitz",
@@ -34,6 +35,7 @@
     "containrrr/watchtower",
     "deepseek-ai/DeepSeek-Coder",
     "drduh/macOS-Security-and-Privacy-Guide",
+    "ekzhang/bore",
     "existentialaudio/blackhole",
     "ffmpegwasm/ffmpeg.wasm",
     "folke/lazy.nvim",
@@ -77,6 +79,7 @@
     "toml-lang/toml",
     "twbs/bootstrap-sass",
     "ValdikSS/GoodbyeDPI",
+    "vitejs/awesome-vite",
     "wechaty/wechaty",
     "winstonjs/winston",
     "XAMPPRocky/tokei",

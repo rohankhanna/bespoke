@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 2,
-    "terms": 5
+    "components": 17,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 1,
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
-    "4catalyzer/javascript",
-    "julia-actions/cache"
+    "apache/doris-opentelemetry-demo"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 261,
-    "concepts": 201,
-    "observations": 206,
-    "repos": 38,
-    "terms": 199
+    "components": 256,
+    "concepts": 196,
+    "observations": 201,
+    "repos": 37,
+    "terms": 194
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "allan2/dotenvy",
     "arxanas/git-branchless",
@@ -41,7 +41,6 @@
     "Mooncake-Labs/pg_mooncake",
     "not-fl3/macroquad",
     "parcel-bundler/lightningcss",
-    "rust-lang/flate2-rs",
     "Rust-SDL2/rust-sdl2",
     "servo/ipc-channel",
     "sharkdp/pastel",

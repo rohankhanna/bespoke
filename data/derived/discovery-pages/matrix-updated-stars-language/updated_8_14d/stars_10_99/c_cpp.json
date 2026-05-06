@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 153,
-    "concepts": 137,
-    "observations": 137,
+    "components": 156,
+    "concepts": 149,
+    "observations": 149,
     "repos": 26,
-    "terms": 137
+    "terms": 149
   },
   "facet_version": 1,
   "filters": {
@@ -12,28 +12,28 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "acts-project/traccc",
     "ad-si/FlatCV",
     "AFD-Illinois/kharma",
-    "agl/jbig2enc",
     "akruphi/far2l",
-    "apache/pulsar-client-cpp",
     "boostorg/config",
     "BrianPugh/tamp",
     "bufbuild/protovalidate-cc",
     "DeepLink-org/DLSlime",
     "gazebosim/gz-fuel-tools",
+    "gazebosim/gz-gui",
     "gazebosim/gz-transport",
-    "ICRAR/crc32c",
     "kendryte/canmv_k230",
+    "LedgerHQ/app-boilerplate",
     "libbitcoin/libbitcoin-database",
     "libbitcoin/libbitcoin-network",
+    "llnl/camp",
     "Mbed-TLS/TF-PSA-Crypto",
     "milvus-io/milvus-sdk-cpp",
+    "mongodb/winkerberos",
     "narugit/smctemp",
-    "openucx/xpmem",
     "openvinotoolkit/openvino_tokenizers",
     "rapidsai/ucxx",
     "ROCm/rocAL",

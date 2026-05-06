@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars
 
-Generated at: `2026-05-05T08:29:41.606128+00:00`
+Generated at: `2026-05-06T05:39:22.250037+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 66
-- terms: 80
-- components: 257
-- concepts: 80
-- observations: 80
+- repos: 68
+- terms: 81
+- components: 261
+- concepts: 81
+- observations: 81
 
 ## Static behavior
 
@@ -25,7 +25,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [grafana/cadvisor](https://github.com/grafana/cadvisor) | 0 | 2026-02-04T20:01:14Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [get-gah/gah-db](https://github.com/get-gah/gah-db) | 0 | 2026-02-03T22:34:54Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [frankkohlhepp/fancy-settings](https://github.com/frankkohlhepp/fancy-settings) | 0 | 2026-02-01T19:28:50Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [maeste/a2a-tck](https://github.com/maeste/a2a-tck) | 0 | 2026-01-28T12:40:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [haoxiangsnr/IntelNeuromorphicDNSChallenge](https://github.com/haoxiangsnr/IntelNeuromorphicDNSChallenge) | 0 | 2026-01-28T04:17:10Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [youngsofun/rust-csv](https://github.com/youngsofun/rust-csv) | 0 | 2026-01-27T10:06:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -96,7 +98,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [grafana/cadvisor](https://github.com/grafana/cadvisor) | 0 | 2026-02-04T20:01:14Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [get-gah/gah-db](https://github.com/get-gah/gah-db) | 0 | 2026-02-03T22:34:54Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [frankkohlhepp/fancy-settings](https://github.com/frankkohlhepp/fancy-settings) | 0 | 2026-02-01T19:28:50Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [maeste/a2a-tck](https://github.com/maeste/a2a-tck) | 0 | 2026-01-28T12:40:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [haoxiangsnr/IntelNeuromorphicDNSChallenge](https://github.com/haoxiangsnr/IntelNeuromorphicDNSChallenge) | 0 | 2026-01-28T04:17:10Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [youngsofun/rust-csv](https://github.com/youngsofun/rust-csv) | 0 | 2026-01-27T10:06:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

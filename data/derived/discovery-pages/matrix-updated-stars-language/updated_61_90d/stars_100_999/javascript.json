@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 438,
-    "concepts": 55,
-    "observations": 56,
-    "repos": 20,
-    "terms": 55
+    "components": 401,
+    "concepts": 60,
+    "observations": 61,
+    "repos": 19,
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
@@ -12,27 +12,26 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "adobe-photoshop/generator-core",
     "appbaseio/searchbox",
     "asdf-vm/actions",
     "Calcium-Ion/neko-api-key-tool",
     "codota/tabnine-nvim",
-    "emberjs/ember-cli-babel",
     "faceyspacey/extract-css-chunks-webpack-plugin",
     "faceyspacey/universal-demo",
     "kategengler/ember-feature-flags",
-    "latex-lsp/tree-sitter-latex",
     "lemire/FastPriorityQueue.js",
     "Mario4272/ag_bridge",
     "nodenv/jetbrains-npm",
     "prebuild/prebuild",
     "prebuild/prebuild-install",
     "raywo/MMM-NowPlayingOnSpotify",
-    "runegan/jsxbin",
+    "React9k/react-timeline-9000",
     "sindresorhus/multimatch",
     "svg-sprite/gulp-svg-sprite",
-    "testing-library/eslint-plugin-jest-dom"
+    "testing-library/eslint-plugin-jest-dom",
+    "usnistgov/jsfive"
   ]
 }

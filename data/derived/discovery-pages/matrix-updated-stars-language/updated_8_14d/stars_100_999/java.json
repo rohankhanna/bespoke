@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 169,
-    "concepts": 186,
-    "observations": 186,
-    "repos": 22,
-    "terms": 186
+    "components": 233,
+    "concepts": 260,
+    "observations": 260,
+    "repos": 33,
+    "terms": 258
   },
   "facet_version": 1,
   "filters": {
@@ -12,29 +12,40 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
     "apache/commons-jexl",
     "apache/datasketches-java",
+    "apache/ignite-3",
     "beehive-lab/GPULlama3.java",
     "bndtools/bnd",
     "connectbot/sshlib",
-    "eclipse-lemminx/lemminx",
-    "FasterXML/woodstox",
+    "eclipse-lsp4j/lsp4j",
+    "FasterXML/jackson-dataformat-xml",
+    "FasterXML/jackson-dataformats-binary",
+    "FasterXML/jackson-dataformats-text",
+    "FasterXML/jackson-modules-base",
     "googleapis/google-api-java-client-services",
     "graalvm/graalvm-demos",
     "graalvm/native-build-tools",
     "jpmml/jpmml-lightgbm",
+    "jpmml/jpmml-sklearn",
     "jpmml/jpmml-xgboost",
+    "michel-kraemer/bson4jackson",
     "microsoft/semantic-kernel-java",
     "microsoft/vscode-java-test",
     "milvus-io/milvus-sdk-java",
+    "quarkiverse/quarkus-langchain4j",
+    "reactor/reactor-addons",
     "revelc/formatter-maven-plugin",
+    "saalfeldlab/n5",
     "sevntu-checkstyle/sevntu.checkstyle",
-    "swagger-api/swagger-inflector",
+    "swagger-api/swagger-parser",
+    "ThreeTen/threetenbp",
     "Waffle/waffle",
+    "wildfly/quickstart",
     "zilliztech/vts"
   ]
 }

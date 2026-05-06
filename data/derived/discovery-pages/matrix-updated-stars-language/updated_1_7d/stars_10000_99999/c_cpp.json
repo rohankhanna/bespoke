@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 428,
-    "concepts": 512,
-    "observations": 513,
-    "repos": 43,
-    "terms": 509
+    "components": 433,
+    "concepts": 464,
+    "observations": 464,
+    "repos": 39,
+    "terms": 461
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
-    "AaronFeng753/Waifu2x-Extension-GUI",
     "apache/thrift",
     "assimp/assimp",
-    "baldurk/renderdoc",
     "bpftrace/bpftrace",
-    "cameron314/concurrentqueue",
     "capnproto/capnproto",
     "carla-simulator/carla",
     "colmap/colmap",
@@ -31,31 +28,30 @@
     "espressif/arduino-esp32",
     "espressif/esp-idf",
     "FFmpeg/FFmpeg",
-    "ggml-org/ggml",
     "ggml-org/whisper.cpp",
-    "google-deepmind/mujoco",
+    "google-ai-edge/mediapipe",
     "h2o/h2o",
     "ImageMagick/ImageMagick",
     "iovisor/bcc",
     "jemalloc/jemalloc",
     "jrouwe/JoltPhysics",
-    "k2-fsa/sherpa-onnx",
     "libsdl-org/SDL",
-    "libuv/libuv",
     "lightgbm-org/LightGBM",
     "LostRuins/koboldcpp",
     "micropython/micropython",
     "mongodb/mongo",
+    "mozilla-ai/llamafile",
     "oceanbase/oceanbase",
     "opencv/opencv",
-    "openframeworks/openFrameworks",
     "openvinotoolkit/openvino",
     "PointCloudLibrary/pcl",
+    "protocolbuffers/protobuf",
     "qmk/qmk_firmware",
     "SerenityOS/serenity",
     "simdjson/simdjson",
     "v8/v8",
     "winsiderss/systeminformer",
-    "yhirose/cpp-httplib"
+    "yhirose/cpp-httplib",
+    "Z3Prover/z3"
   ]
 }

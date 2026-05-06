@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 195,
+    "components": 187,
     "concepts": 266,
     "observations": 267,
-    "repos": 46,
-    "terms": 271
+    "repos": 45,
+    "terms": 269
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
@@ -33,7 +33,6 @@
     "Glavin001/atom-beautify",
     "Gonzalo-D-Sales/obsidian-velocity",
     "googleapis/elixir-google-api",
-    "greggh/claude-code.nvim",
     "IDEA-Research/Rex-Omni",
     "javan/whenever",
     "kaminari/kaminari",

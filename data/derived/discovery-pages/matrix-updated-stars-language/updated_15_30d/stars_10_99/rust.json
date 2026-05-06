@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 301,
-    "concepts": 176,
-    "observations": 177,
-    "repos": 44,
-    "terms": 190
+    "components": 329,
+    "concepts": 198,
+    "observations": 199,
+    "repos": 50,
+    "terms": 212
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -26,6 +26,7 @@
     "BlackDex/rust-musl",
     "boundless-xyz/steel",
     "chrisjsewell/markdown-it-pyrs",
+    "ClickHouse/clickhousectl",
     "cloudllm-ai/mentisdb",
     "cometbft/cometbft-rs",
     "cpmech/gemlab",
@@ -36,14 +37,18 @@
     "google/safe-mmio",
     "GreptimeTeam/promql-parser",
     "hagan/claudia-statusline",
+    "hecrj/iced_palace",
     "hpkewg/hpke-pq",
     "idanarye/nu_plugin_skim",
+    "janrueth/boring-rustls-provider",
     "Layr-Labs/eigensdk-rs",
     "ldclabs/ic-oss",
     "ldclabs/ic-tee",
     "major7apps/pensyve",
     "messense/py-promql-parser",
     "multiformats/rust-cid",
+    "near/cargo-near",
+    "nico-abram/blondie",
     "open-telemetry/opentelemetry-rust-contrib",
     "phiat/claude-esp-rs",
     "psmux/omp-manager",
@@ -54,6 +59,7 @@
     "tombelieber/claude-view",
     "tracel-ai/burn-bench",
     "tracel-ai/burn-onnx",
+    "tracel-ai/cubek",
     "watchexec/clearscreen",
     "watchexec/process-wrap",
     "Xuanwo/serde-env",

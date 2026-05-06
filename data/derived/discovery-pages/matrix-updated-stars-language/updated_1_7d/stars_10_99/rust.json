@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 276,
-    "concepts": 163,
-    "observations": 164,
-    "repos": 32,
-    "terms": 162
+    "components": 184,
+    "concepts": 114,
+    "observations": 115,
+    "repos": 22,
+    "terms": 113
   },
   "facet_version": 1,
   "filters": {
@@ -12,39 +12,29 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "AccessKit/accesskit-c",
-    "alloy-rs/evm",
     "apollographql/federation-rs",
     "asny/three-d-asset",
     "bnb-chain/reth",
     "bnb-chain/reth-bsc",
     "boozook/mdbook-svgbob",
     "bourumir-wyngs/serde-yaml-bw",
-    "datafusion-contrib/orc-rust",
-    "davidhozic/mujoco-rs",
     "fallow-rs/oxc-coverage-instrument",
-    "filecoin-project/builtin-actors",
     "fonttools/fontspector",
     "heroku/buildpacks-jvm",
     "heroku/buildpacks-nodejs",
     "heroku/buildpacks-python",
     "heroku/libcnb.rs",
-    "launchdarkly/rust-server-sdk",
     "ldclabs/anda-db",
     "ldclabs/anda-hippocampus",
-    "matter-labs/zksync-crypto",
     "mdn/rari",
     "openvm-org/stark-backend",
-    "oxc-project/oxc-sourcemap",
     "Ralith/lahar",
-    "rust-bitcoin/corepc",
-    "rust-osdev/ovmf-prebuilt",
     "succinctlabs/sp1-cluster",
     "tofay/rustls-openssl",
     "tyrypyrking/egui-ash",
-    "unrs/unrs-resolver",
-    "vaporif/parry-guard"
+    "unrs/unrs-resolver"
   ]
 }

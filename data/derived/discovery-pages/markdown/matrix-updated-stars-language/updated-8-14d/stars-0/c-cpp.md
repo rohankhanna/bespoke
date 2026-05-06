@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 0 stars · C/C++
 
-Generated at: `2026-05-05T08:29:41.606128+00:00`
+Generated at: `2026-05-06T05:39:22.250037+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
-- terms: 16
-- components: 15
-- concepts: 16
-- observations: 16
+- repos: 3
+- terms: 8
+- components: 11
+- concepts: 8
+- observations: 8
 
 ## Static behavior
 
@@ -29,7 +29,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [buty4649/mruby-yyjson](https://github.com/buty4649/mruby-yyjson) | 0 | 2026-04-27T00:14:49Z | C/C++ | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [conda-forge/cppinterop-feedstock](https://github.com/conda-forge/cppinterop-feedstock) | 0 | 2026-04-23T05:52:16Z | C/C++ | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [rltakashige/mlx-jaccl-fix-small-recv](https://github.com/rltakashige/mlx-jaccl-fix-small-recv) | 0 | 2026-04-22T12:30:12Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [8144225309/superscalar-cln](https://github.com/8144225309/superscalar-cln) | 0 | 2026-04-21T15:01:50Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -38,4 +37,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [buty4649/mruby-yyjson](https://github.com/buty4649/mruby-yyjson) | 0 | 2026-04-27T00:14:49Z | C/C++ | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [conda-forge/cppinterop-feedstock](https://github.com/conda-forge/cppinterop-feedstock) | 0 | 2026-04-23T05:52:16Z | C/C++ | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [rltakashige/mlx-jaccl-fix-small-recv](https://github.com/rltakashige/mlx-jaccl-fix-small-recv) | 0 | 2026-04-22T12:30:12Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [8144225309/superscalar-cln](https://github.com/8144225309/superscalar-cln) | 0 | 2026-04-21T15:01:50Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 8 |

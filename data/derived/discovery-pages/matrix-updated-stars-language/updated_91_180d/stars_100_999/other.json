@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 733,
-    "concepts": 666,
-    "observations": 667,
-    "repos": 167,
-    "terms": 663
+    "components": 732,
+    "concepts": 671,
+    "observations": 672,
+    "repos": 168,
+    "terms": 668
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -39,6 +39,7 @@
     "barsoom/traco",
     "bazeltools/bazel-deps",
     "benbalter/jekyll-include-cache",
+    "bfrg/vim-c-cpp-modern",
     "bioinf-jku/TTUR",
     "BlinkDL/RWKV-CUDA",
     "chakravala/Reduce.jl",
@@ -130,7 +131,6 @@
     "minio/docs",
     "Myriad-Dreamin/shiroa",
     "nghorbani/human_body_prior",
-    "ninenines/gun",
     "nschum/SwiftHamcrest",
     "nvim-telescope/telescope-frecency.nvim",
     "nvimdev/guard.nvim",
@@ -169,7 +169,6 @@
     "thinkdepthai/Deep_Research",
     "tomekw/hikari-cp",
     "travis-ci/travis-build",
-    "VectorSpaceLab/MegaPairs",
     "vim-jp/vim-vimlparser",
     "vim-php/phpctags",
     "w3c/FileAPI",
@@ -178,8 +177,10 @@
     "WICG/layout-instability",
     "wilkerlucio/pathom3",
     "wjakob/nanobind_example",
+    "xbdcc/GrabRedEnvelope",
     "XingangPan/SCNN",
     "yaml/yaml-test-suite",
-    "ymoslem/OpenNMT-Tutorial"
+    "ymoslem/OpenNMT-Tutorial",
+    "yogthos/migratus"
   ]
 }

@@ -3,7 +3,7 @@
     "components": 33,
     "concepts": 21,
     "observations": 21,
-    "repos": 10,
+    "repos": 11,
     "terms": 21
   },
   "facet_version": 1,
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "adonisjs/.github",
     "aifoundry-org/et-man",
     "alexpolonsky/agent-skills",
     "alexpolonsky/awesome-agent-skills-israel",
+    "awni/picochat",
     "gakonst/foundry",
     "jsdom/.github",
     "orlp/color-backtrace",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Java
 
-Generated at: `2026-05-05T08:29:41.606128+00:00`
+Generated at: `2026-05-06T05:39:22.250037+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 38
-- terms: 152
-- components: 115
-- concepts: 153
-- observations: 153
+- repos: 39
+- terms: 154
+- components: 121
+- concepts: 155
+- observations: 155
 
 ## Static behavior
 
@@ -42,6 +42,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hazelcast/hazelcast-jet](https://github.com/hazelcast/hazelcast-jet) | 1112 | 2024-12-19T11:55:10Z | Java | Unknown | 8 | 0 | 8 | 8 |
 | [apache/rocketmq-externals](https://github.com/apache/rocketmq-externals) | 4614 | 2024-12-09T09:00:27Z | Java | Unknown | 1 | 0 | 1 | 1 |
 | [crossbario/autobahn-java](https://github.com/crossbario/autobahn-java) | 1534 | 2024-11-28T05:15:51Z | Java | Infrastructure/tooling | 10 | 3 | 10 | 10 |
+| [osmdroid/osmdroid](https://github.com/osmdroid/osmdroid) | 3068 | 2024-11-20T06:40:38Z | Java | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [h2oai/h2o-2](https://github.com/h2oai/h2o-2) | 2268 | 2024-10-24T17:35:57Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [cglib/cglib](https://github.com/cglib/cglib) | 4896 | 2024-08-16T10:22:51Z | Java | Framework | 0 | 0 | 0 | 0 |
 | [featurecat/lizzie](https://github.com/featurecat/lizzie) | 1049 | 2024-07-20T06:15:53Z | Java | Unknown | 0 | 0 | 0 | 0 |
@@ -85,6 +86,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JakeWharton/ThreeTenABP](https://github.com/JakeWharton/ThreeTenABP) | 3558 | 2025-08-22T03:29:53Z | Java | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [phodal/migration](https://github.com/phodal/migration) | 3474 | 2021-08-12T08:05:53Z | Java | Unknown | 7 | 0 | 7 | 7 |
 | [aragozin/jvm-tools](https://github.com/aragozin/jvm-tools) | 3344 | 2024-01-26T12:20:14Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [osmdroid/osmdroid](https://github.com/osmdroid/osmdroid) | 3068 | 2024-11-20T06:40:38Z | Java | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [classgraph/classgraph](https://github.com/classgraph/classgraph) | 2977 | 2025-10-10T10:05:26Z | Java | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [WangDaYeeeeee/GeometricWeather](https://github.com/WangDaYeeeeee/GeometricWeather) | 2524 | 2023-08-16T22:57:26Z | Java | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [HdrHistogram/HdrHistogram](https://github.com/HdrHistogram/HdrHistogram) | 2299 | 2024-06-27T13:01:32Z | Java | Infrastructure/tooling | 1 | 4 | 1 | 1 |

@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 132,
+    "components": 130,
     "concepts": 88,
     "observations": 88,
     "repos": 26,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "agentclientprotocol/symposium-acp",
     "Anush008/tokenizers",
@@ -20,11 +20,11 @@
     "apache/casbin-axum-casbin",
     "Calsign/gazelle_rust",
     "celestiaorg/hana",
+    "chris-zen/coremidi",
     "datafusion-contrib/datafusion-orc",
     "dcampbell24/mdbook-djot",
     "filecoin-project/blstrs",
     "filecoin-project/rust-filecoin-proofs-api",
-    "fortanix/rust-mbedtls",
     "hermit-os/hermit-rs-template",
     "jiegec/tantivy-jieba",
     "Kimahriman/hdfs-native",

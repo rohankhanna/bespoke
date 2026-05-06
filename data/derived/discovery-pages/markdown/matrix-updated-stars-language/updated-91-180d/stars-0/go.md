@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars · Go
 
-Generated at: `2026-05-05T08:29:41.606128+00:00`
+Generated at: `2026-05-06T05:39:22.250037+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 1
-- components: 5
-- concepts: 1
-- observations: 1
+- repos: 3
+- terms: 2
+- components: 9
+- concepts: 2
+- observations: 2
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [grafana/cadvisor](https://github.com/grafana/cadvisor) | 0 | 2026-02-04T20:01:14Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [aldernero/spider](https://github.com/aldernero/spider) | 0 | 2026-01-20T03:37:43Z | Go | Library | 0 | 0 | 0 | 0 |
 | [appscodelabs/liche](https://github.com/appscodelabs/liche) | 0 | 2025-12-25T06:55:19Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 
@@ -33,5 +34,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [grafana/cadvisor](https://github.com/grafana/cadvisor) | 0 | 2026-02-04T20:01:14Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [aldernero/spider](https://github.com/aldernero/spider) | 0 | 2026-01-20T03:37:43Z | Go | Library | 0 | 0 | 0 | 0 |
 | [appscodelabs/liche](https://github.com/appscodelabs/liche) | 0 | 2025-12-25T06:55:19Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |

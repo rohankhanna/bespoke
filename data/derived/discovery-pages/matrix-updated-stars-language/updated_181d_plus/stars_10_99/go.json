@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 345,
-    "concepts": 374,
-    "observations": 377,
-    "repos": 151,
-    "terms": 370
+    "components": 375,
+    "concepts": 404,
+    "observations": 407,
+    "repos": 157,
+    "terms": 400
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "0xcafed00d/joystick",
     "1set/cronrange",
@@ -50,6 +50,7 @@
     "bytegust/spm",
     "carbocation/genomisc",
     "cdcdx/lotus",
+    "celestiaorg/protobuf3-solidity",
     "chenghonour/formulago",
     "chi-cat/frps-auth",
     "ChrisHirsch/kuberhealthy-storage-check",
@@ -63,11 +64,13 @@
     "cloudwego/thrift-gen-validator",
     "cmwaters/skychart",
     "cosnicolaou/pbzip2",
+    "crazy-max/goreleaser-xx",
     "dannyvankooten/extemplate",
     "darkweak/go-esi",
     "deneonet/benc",
     "dependabot/goproxy",
     "dgrr/websocket",
+    "didip/errstack",
     "die-net/lrucache",
     "donomii/go-rwkv.cpp",
     "dpastoor/qvm",
@@ -102,6 +105,7 @@
     "hertz-contrib/casbin",
     "high-moctane/nextword",
     "hinshun/vt10x",
+    "hyperledger-labs/yui-fabric-ibc",
     "imkira/go-loggers-bench",
     "InftyAI/scheduler-plugins",
     "input-output-hk/cicero",
@@ -144,10 +148,12 @@
     "scaleway/serverless-functions-go",
     "seasonjs/rwkv",
     "sh1ma/voicevoxcore.go",
+    "sideprotocol/ibcswap",
     "someone1/gcp-jwt-go",
     "spacemeshos/smrepl",
     "spazzymoto/echo-scs-session",
     "srinathgs/mysqlstore",
+    "strangelove-ventures/async-icq",
     "stripe/goproxy",
     "superedge/edgeadm",
     "tc-hib/winres",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2998,
-    "concepts": 1415,
-    "observations": 1417,
-    "repos": 295,
-    "terms": 1390
+    "components": 3087,
+    "concepts": 1435,
+    "observations": 1437,
+    "repos": 299,
+    "terms": 1410
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "acdlite/recompose",
@@ -75,7 +75,9 @@
     "cyclejs/cyclejs",
     "cyrildiagne/ar-cutpaste",
     "databrickslabs/dolly",
+    "date-fns/date-fns",
     "davidsandberg/facenet",
+    "davidshimjs/qrcodejs",
     "DayBreak-u/chineseocr_lite",
     "deepseek-ai/DeepSeek-R1",
     "deezer/spleeter",
@@ -127,6 +129,7 @@
     "h4cc/awesome-elixir",
     "haotian-liu/llava",
     "HarisIqbal88/PlotNeuralNet",
+    "helm/charts",
     "highlightjs/highlight.js",
     "Homebrew/legacy-homebrew",
     "howdyai/botkit",
@@ -289,6 +292,7 @@
     "Vision-CAIR/MiniGPT-4",
     "vuejs/devtools-v6",
     "vuejs/vue-cli",
+    "vuejs/vuex",
     "VundleVim/Vundle.vim",
     "waditu/tushare",
     "web3/web3.js",

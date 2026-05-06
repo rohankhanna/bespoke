@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 249,
-    "concepts": 159,
-    "observations": 161,
-    "repos": 44,
-    "terms": 157
+    "components": 316,
+    "concepts": 222,
+    "observations": 224,
+    "repos": 52,
+    "terms": 219
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "abhinav/goldmark-anchor",
+    "abhinav/goldmark-frontmatter",
+    "abhinav/tmux-fastcopy",
     "aldernero/sketchy",
     "allenreder/cliproxyapi-quota-inspector",
     "antham/ghokin",
@@ -33,7 +35,10 @@
     "connectrpc/conformance",
     "connectrpc/grpchealth-go",
     "darkweak/storages",
+    "davidkarlsen/flyway-operator",
+    "defilantech/LLMKube",
     "depado/smallblog",
+    "dlclark/regexp2cg",
     "ethpandaops/xatu",
     "featherbread/hypcast",
     "fgrehm/clotilde",
@@ -47,10 +52,13 @@
     "joshsymonds/cc-tools",
     "magodo/aztft",
     "MicahParks/jwkset",
+    "minio/pkg",
     "MShekow/directory-checksum",
     "notaryproject/notation-core-go",
     "notaryproject/notation-go",
     "opea-project/GenAIInfra",
+    "sigstore/rekor-tiles",
+    "terraform-linters/tflint-ruleset-google",
     "tilt-dev/tilt-apiserver",
     "transparency-dev/armored-witness",
     "usbarmory/armory-boot",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 34,
-    "concepts": 54,
-    "observations": 55,
-    "repos": 12,
-    "terms": 54
+    "components": 58,
+    "concepts": 74,
+    "observations": 75,
+    "repos": 17,
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,23 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
+    "apache/arrow-java",
     "apache/camel-quarkus-examples",
     "apache/flink-connector-pulsar",
     "Azure-Samples/agent-openai-java-banking-assistant-langgraph4j",
     "bazel-contrib/rules_jvm",
+    "bsorrentino/java-async-generator",
+    "cedar-policy/cedar-java",
     "codelibs/fess-crawler",
     "codetyio/codety-scanner",
     "google/guava-beta-checker",
+    "kirill-grouchnikov/ephemeral",
     "kurrent-io/KurrentDB-Client-Java",
     "m2e-code-quality/m2e-code-quality",
     "simonpoole/OpeningHoursFragment",
+    "usdot-fhwa-stol/cdasim",
     "xmlark/msv",
     "zai-org/z-ai-sdk-java"
   ]

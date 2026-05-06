@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 219,
-    "concepts": 161,
-    "observations": 161,
-    "repos": 40,
-    "terms": 161
+    "components": 217,
+    "concepts": 141,
+    "observations": 141,
+    "repos": 37,
+    "terms": 141
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "All-Hands-AI/OpenHands-Cloud",
     "arcaputo3/mcp-server-whisper",
@@ -21,27 +21,26 @@
     "Azure-Samples/openai-chat-app-entra-auth-builtin",
     "beclab/apps",
     "carstencodes/pdm-bump",
-    "cloudfoundry/community",
     "conda-forge/conda-forge-pinning-feedstock",
     "conservationtechlab/animl-py",
+    "dora-rs/dora-hub",
     "espressif/esp-idf-monitor",
     "flagos-ai/vllm-plugin-FL",
     "gentoo/api-gentoo-org",
     "gordon-code/cuid2",
     "graalvm/oracle-graalvm-ea-builds",
+    "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "Hiroshiba/voicevox_engine",
-    "HKU-BAL/ClairS-TO",
     "intel-staging/text-generation-webui",
     "jfly/shtuff",
     "LedgerHQ/ragger",
     "MGenAI/GRN",
     "microsoft/olive-recipes",
-    "NeilGirdhar/tjax",
     "neo4j/neo4j-python-driver-rust-ext",
     "NVIDIA/multi-storage-client",
     "open-edge-platform/physical-ai-studio",
+    "petercorke/spatialmath-python",
     "pipecat-ai/pipecat-cli",
-    "pre-commit/sync-pre-commit-deps",
     "py-pdf/sample-files",
     "pytroll/donfig",
     "qiayuanl/unitree_bringup",
@@ -51,8 +50,6 @@
     "sigstore/sigstore-conformance",
     "sublimelsp/LSP-volar",
     "TaWald/nnUNet",
-    "terrierteam/pyterrier_pisa",
-    "Thinklab-SJTU/Bench2Drive-Speed",
-    "xhluca/bm25-benchmarks"
+    "Thinklab-SJTU/Bench2Drive-Speed"
   ]
 }

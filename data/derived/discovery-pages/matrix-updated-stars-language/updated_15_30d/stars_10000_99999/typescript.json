@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1886,
-    "concepts": 280,
-    "observations": 282,
-    "repos": 42,
-    "terms": 295
+    "components": 4925,
+    "concepts": 413,
+    "observations": 416,
+    "repos": 53,
+    "terms": 426
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,31 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "actions/starter-workflows",
     "airbnb/visx",
     "ant-design/ant-design-mobile",
     "apollographql/apollo-client",
+    "babel/babel",
     "badlogic/pi-mono",
     "browserless/browserless",
     "bvaughn/react-window",
-    "catppuccin/catppuccin",
     "chatboxai/chatbox",
+    "CherryHQ/cherry-studio",
     "diegomura/react-pdf",
+    "elastic/kibana",
     "everyinc/compound-engineering-plugin",
+    "expo/expo",
     "fingerprintjs/fingerprintjs",
     "fission-ai/openspec",
     "garrytan/gstack",
     "gcanti/fp-ts",
+    "graphql/graphiql",
     "iOfficeAI/AionUi",
+    "juice-shop/juice-shop",
+    "KaTeX/KaTeX",
+    "labring/FastGPT",
     "lerna/lerna",
     "microsoft/playwright-mcp",
     "mlc-ai/web-llm",
@@ -47,14 +54,18 @@
     "shareai-lab/learn-claude-code",
     "shikijs/shiki",
     "sindresorhus/got",
+    "sindresorhus/ky",
     "slopus/happy",
     "tanweai/pua",
     "tobi/qmd",
     "toon-format/toon",
+    "typescript-eslint/typescript-eslint",
     "upstash/context7",
     "vadimdemedes/ink",
     "vercel/swr",
     "Vinzent03/obsidian-git",
-    "VSCodeVim/Vim"
+    "VSCodeVim/Vim",
+    "xtermjs/xterm.js",
+    "xyflow/xyflow"
   ]
 }

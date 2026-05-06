@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 156,
-    "concepts": 90,
-    "observations": 90,
-    "repos": 81,
-    "terms": 90
+    "components": 169,
+    "concepts": 95,
+    "observations": 95,
+    "repos": 82,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "2KAbhishek/exercism-fetcher",
     "3b/cl-vulkan",
@@ -27,6 +27,7 @@
     "aq-sensors/airbeamr",
     "artichoke/spec",
     "ashwincc/yolov6-sagemaker",
+    "aspecto-io/opentelemetry-demo",
     "avsm/ocaml-uri",
     "barche/libcxxwrap_julia_jll.jl",
     "benkasminbullock/gzip-libdeflate",
@@ -77,7 +78,7 @@
     "locize/locize-i18next-vue-example",
     "madhephaestus/MuJoCoTest",
     "maxxnino/good-stuff",
-    "molotovcherry/tree-sitter-wasm",
+    "MolotovCherry/tree-sitter-wasm",
     "mzr1996/pytorch_sphinx_theme",
     "oneflow-inc/docker-images",
     "pgvector/pgvector-ada",

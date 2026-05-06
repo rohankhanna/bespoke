@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1448,
-    "concepts": 181,
-    "observations": 182,
-    "repos": 115,
-    "terms": 181
+    "components": 1471,
+    "concepts": 184,
+    "observations": 185,
+    "repos": 121,
+    "terms": 184
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "1000ch/atom-csso",
     "14nrv/serverless-lambda-stripe",
@@ -55,6 +55,7 @@
     "docpad/docpad-plugin-nodesass",
     "effofxprime/Cosmregistry-API",
     "ehmicky/global-cache-dir",
+    "ElliotRoe/wombot",
     "expenses/mateversum-web",
     "firefox-devtools/remote-settings-mdn-browser-compat-data",
     "fnproject/flowui",
@@ -65,6 +66,7 @@
     "gost-dom/project-harmony",
     "hardfist/purge-tailwind-plugin",
     "hasharchives/wasm-ts-esm-in-node-jest-and-nextjs",
+    "hbenl/vscode-mocha-docker-example",
     "hchiam/anonymous-input",
     "hchiam/eslint-and-jest",
     "hchiam/generator-hchiam-learning",
@@ -90,6 +92,8 @@
     "josephfrazier/standard-eject",
     "kabiaa/atom-ide-volar",
     "kellyselden/git-diff-apply",
+    "kosmtik/kosmtik-fetch-remote",
+    "kosmtik/kosmtik-map-compare",
     "kriszyp/db-benchmark",
     "KyberNetwork/dao_sc",
     "l3d00m/mmm-librespotjava",
@@ -118,8 +122,10 @@
     "playwright-community/jest-playwright-jsdom",
     "PSteinhaus/PSteinhaus.github.io",
     "pulsar-cooperative/linter-shellcheck-pulsar",
+    "pulse-browser/firefox-qr-generator",
     "putoutjs/putout-processor-typos",
     "reZach/easy-redux-undo",
+    "sanctuary-js/sanctuary-descending",
     "seamapi/node-websocat",
     "shanewholloway/js-cbor-codec",
     "storybookjs/addon-design-assets",

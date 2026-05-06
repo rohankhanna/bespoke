@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 119,
-    "concepts": 144,
-    "observations": 146,
-    "repos": 19,
-    "terms": 139
+    "components": 124,
+    "concepts": 152,
+    "observations": 154,
+    "repos": 20,
+    "terms": 145
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "CocoaPods/CocoaPods",
     "datawhalechina/happy-llm",
     "devicons/devicon",
     "facebookresearch/dinov3",
+    "fastai/fastai",
     "fatih/vim-go",
     "google/dopamine",
     "ianyh/Amethyst",

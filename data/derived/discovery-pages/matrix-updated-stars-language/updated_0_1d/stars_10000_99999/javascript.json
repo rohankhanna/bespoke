@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 85,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 1,
-    "terms": 12
+    "components": 122,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 2,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
+    "lint-staged/lint-staged",
     "mui/material-ui"
   ]
 }

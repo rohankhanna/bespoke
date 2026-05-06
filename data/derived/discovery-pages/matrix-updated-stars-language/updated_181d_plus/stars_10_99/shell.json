@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 90,
-    "concepts": 203,
-    "observations": 203,
-    "repos": 78,
-    "terms": 198
+    "components": 96,
+    "concepts": 215,
+    "observations": 215,
+    "repos": 83,
+    "terms": 210
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "2KAbhishek/ghpm",
     "2KAbhishek/mkrepo",
@@ -22,6 +22,7 @@
     "aarowill/base16-gnome-terminal",
     "akohlbecker/aw-watcher-tmux",
     "aleksejkrueger/tmux-spotify-tui",
+    "Alex313031/TrImLy",
     "alexaandrov/stitchocker",
     "alexandredavi/openssl-lambda-layer",
     "amyreese/zsh-titles",
@@ -53,6 +54,7 @@
     "gchq/gaffer-docker",
     "geekworm-com/x-c1",
     "geekworm-com/xscript",
+    "go-spatial/tegola-osm",
     "google/gfbuild-SPIRV-Tools",
     "gulvarol/surreact",
     "hashnuke/heroku-buildpack-elixir-otp-builds",
@@ -71,6 +73,7 @@
     "luizm/asdf-shellcheck",
     "luizm/asdf-shfmt",
     "manim-kindergarten/manim_action_renderer",
+    "MoonshotAI/zsh-kimi-cli",
     "mskims/redux-saga-in-korean",
     "nmattia/sorri",
     "northox/openbsd-apu2",
@@ -78,6 +81,7 @@
     "Petit-Abba/Magisk-Modules-Template-ge20.4",
     "princeton-vl/DPVO_Docker",
     "pyupio/safety-action",
+    "rocq-community/docker-coq",
     "scaleway/initrd",
     "sclorg/mongodb-container",
     "sharkdp/fd-benchmarks",
@@ -87,6 +91,7 @@
     "tidwall/pkg.sh",
     "timothycrosley/cookiecutter-python",
     "tiran/cpython-wasm-test",
+    "transmissions11/dapptools-template",
     "tuvovan/Zero_DCE_TF",
     "unixorn/autoupdate-zgen",
     "xetdata/xet-tools",

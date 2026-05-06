@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2432,
-    "concepts": 414,
-    "observations": 414,
-    "repos": 86,
-    "terms": 418
+    "components": 2541,
+    "concepts": 426,
+    "observations": 426,
+    "repos": 89,
+    "terms": 430
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "101arrowz/fflate",
@@ -33,6 +33,7 @@
     "bokub/gradient-string",
     "cevek/ttypescript",
     "CirclonGroup/angular-tree-component",
+    "clauderic/react-tiny-virtual-list",
     "cloudflare/miniflare",
     "ConsenSys-archive/ganache",
     "dethcrypto/TypeChain",
@@ -42,6 +43,7 @@
     "egoist/esbuild-register",
     "electron-vite/electron-vite-react",
     "electron-vite/electron-vite-vue",
+    "eleme/morjs",
     "ElricLiu/AutoGPT-Next-Web",
     "expo/expo-cli",
     "felixrieseberg/windows-build-tools",
@@ -61,6 +63,7 @@
     "jaredpalmer/react-fns",
     "jaredpalmer/the-platform",
     "jhurliman/node-rate-limiter",
+    "joelshepherd/tabliss",
     "jquery/esprima",
     "kentcdodds/babel-plugin-preval",
     "liamcain/obsidian-calendar-plugin",

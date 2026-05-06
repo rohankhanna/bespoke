@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 46,
-    "observations": 46,
+    "components": 31,
+    "concepts": 42,
+    "observations": 42,
     "repos": 9,
-    "terms": 49
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "automazeio/ccpm",
     "docker-library/wordpress",
     "jonmosco/kube-ps1",
     "kward/shunit2",
     "lxgw/LxgwWenkaiGB",
+    "matryer/xbar-plugins",
     "pgsty/pigsty",
     "trailofbits/claude-code-config",
-    "webinstall/webi-installers",
     "zdharma-continuum/zinit"
   ]
 }

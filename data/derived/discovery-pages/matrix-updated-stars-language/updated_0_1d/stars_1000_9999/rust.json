@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 77,
-    "concepts": 79,
-    "observations": 80,
-    "repos": 8,
-    "terms": 79
+    "components": 97,
+    "concepts": 84,
+    "observations": 85,
+    "repos": 9,
+    "terms": 84
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
+    "agentclientprotocol/agent-client-protocol",
     "apache/datafusion-ballista",
     "ash-rs/ash",
-    "CosmWasm/cosmwasm",
+    "bionic-gpt/bionic-gpt",
+    "crate-ci/cargo-release",
     "databendlabs/databend",
-    "dmtrKovalenko/fff",
+    "dora-rs/dora",
     "godot-rust/gdext",
-    "hermit-os/hermit-rs",
     "watchexec/watchexec"
   ]
 }

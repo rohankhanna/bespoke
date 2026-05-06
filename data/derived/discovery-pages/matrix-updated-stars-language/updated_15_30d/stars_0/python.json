@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 20,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 15,
-    "terms": 33
+    "components": 34,
+    "concepts": 34,
+    "observations": 34,
+    "repos": 16,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,16 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "bunburysniper/bleunova-ai-agent",
     "cdeust/cortex-know-when-to-stop-training-model",
+    "conda-forge/conda-forge-feedstock-ops",
     "danielrosehill/Iran-Israel-Ceasefire-Prediction-090426",
     "danielrosehill/Red-Alert-Monitoring-Stack",
     "FEniCS/spack-fenics",
     "florisheedless915/grok-register",
-    "iandees/scrapy-camoufox",
+    "hauntsaninja/mypy",
     "kidshadow79/ogma",
     "l12203685/digital-immortality",
     "mitchuski/agentprivacy-skills",

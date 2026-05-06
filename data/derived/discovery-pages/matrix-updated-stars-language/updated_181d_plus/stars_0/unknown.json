@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 130,
-    "concepts": 75,
-    "observations": 75,
-    "repos": 96,
-    "terms": 75
+    "components": 165,
+    "concepts": 89,
+    "observations": 89,
+    "repos": 102,
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "5sControl/.github",
     "5scontrol/5s-dev-documentation",
@@ -21,6 +21,7 @@
     "aadil-runpod/rp-logo",
     "agorshk/daal4py",
     "alex-petrenko/sf_assets",
+    "aliyun-sls/opentelemetry-demo",
     "americanpresidentjimmycarter/xformers-builds",
     "ashen-sensored/gradio",
     "assignUser/delocate",
@@ -36,6 +37,7 @@
     "camenduru/memo",
     "chg0901/llama3-Chinese-chat",
     "ChinChyi/ipictures",
+    "chorusone/ibc-rs",
     "chriskiehl/gooeyimages",
     "chriskrycho/ember-rfcs",
     "cmacdonald/colbert",
@@ -54,6 +56,7 @@
     "datafuse-extras/serde-env",
     "devongovett/html5ever",
     "diffeqml/diffeqml-media",
+    "dj8yfo/near-verify-rs",
     "dstein64/media",
     "erew123/screenshots",
     "expenses/trystero",
@@ -62,9 +65,11 @@
     "get-gah/setup-gah",
     "getlantern/lantern-forum-en",
     "getlantern/lantern-forum-uae",
+    "glandium/allocator-api2",
     "glandium/rust-objc",
     "gokyeongryeol/diffusers",
     "Heap-Hop/if-watch",
+    "hsivonen/charcounts",
     "iamazy/reqwest",
     "ipfs-examples/example-fork-go-template",
     "jannerm/doodad",
@@ -98,6 +103,7 @@
     "robin1001/qr",
     "securefederatedai/artwork",
     "shesek/rust-jsonrpc",
+    "SourceScan/verification-guide",
     "sundoge/json-benchmark",
     "taoensso/roadmap",
     "tedsteen/puffin",

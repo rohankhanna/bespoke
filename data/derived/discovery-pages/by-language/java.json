@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2725,
-    "concepts": 3383,
-    "observations": 3390,
-    "repos": 603,
-    "terms": 3362
+    "components": 2751,
+    "concepts": 3404,
+    "observations": 3411,
+    "repos": 611,
+    "terms": 3383
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "java"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "abapGit/ADT_Frontend",
@@ -319,6 +319,8 @@
     "grpc/grpc-java",
     "grpc/grpc-java-api-checker",
     "gstreamer-java/gst1-java-core",
+    "gstreamer-java/gst1-java-examples",
+    "gstreamer-java/gstreamer-java",
     "guyboertje/jrjackson",
     "h2oai/h2o-2",
     "h2oai/h2o-droplets",
@@ -417,6 +419,8 @@
     "macrozheng/mall",
     "magro/memcached-session-manager",
     "mapbox/mapbox-gl-native-android",
+    "mapsforge/mapsforge",
+    "mapsforge/vtm",
     "marbl/MHAP",
     "MarcusWolschon/osmeditor4android",
     "mbosecke/template-benchmark",
@@ -440,6 +444,7 @@
     "milvus-io/milvus-sdk-java",
     "MineDojo/MineDojo",
     "minerllabs/minerl",
+    "MKergall/osmbonuspack",
     "mockingbot/react-native-zip-archive",
     "moyangzhan/langchain4j-aideepin",
     "msgpack/msgpack-java",
@@ -478,6 +483,7 @@
     "OsgiliathEnterprise/acp-langgraph-langchain-bridge",
     "oshi/oshi",
     "osirrc/ciff",
+    "osmdroid/osmdroid",
     "padreati/rapaio",
     "palantir/javapoet",
     "Parquet/parquet-compatibility",
@@ -593,6 +599,8 @@
     "tushartushar/DesigniteJava",
     "U-Alberta/wned",
     "unicode-org/cldr",
+    "usdot-fhwa-stol/carma-cloud",
+    "usdot-fhwa-stol/cdasim",
     "validator/validator",
     "vegardit/vegardit-maven-parent",
     "venkat1701/research4j",

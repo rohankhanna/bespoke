@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 140,
-    "concepts": 71,
-    "observations": 71,
-    "repos": 40,
-    "terms": 89
+    "components": 151,
+    "concepts": 77,
+    "observations": 77,
+    "repos": 43,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "adaumann/speckit-preset-fiction-book-writing",
     "agenmod/distill-protocol-skill",
@@ -20,6 +20,7 @@
     "agenmod/okr-skill",
     "AgnostiqHQ/covalent-executor-template",
     "aiidateam/plumpy",
+    "andriykohut/pdm-readiness",
     "apptainer/apptainer-admindocs",
     "apptainer/apptainer-userdocs",
     "ashvardanian/ashvardanian",
@@ -34,6 +35,7 @@
     "cjtruheart/abundance-codex",
     "CoolCat467/idlemypyextension",
     "danielrosehill/Geopol-Forecaster",
+    "dora-rs/dora-benchmark",
     "dreamiurg/peakbagger-cli",
     "etanhey/brainlayer",
     "floxym/financial-chat",
@@ -49,6 +51,7 @@
     "penpoen/llm-sugarscape",
     "piqrypt/aiss-standard",
     "piqrypt/piqrypt",
+    "pyrtlsdr/pyrtlsdrlib",
     "rrsaldanha/burp-mcp-agents",
     "sunthinks/kvmind",
     "TexasInstruments/edgeai-tidlrunner",

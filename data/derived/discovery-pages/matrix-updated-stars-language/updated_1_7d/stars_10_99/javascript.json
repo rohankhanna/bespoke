@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 297,
-    "concepts": 92,
-    "observations": 94,
-    "repos": 22,
-    "terms": 92
+    "components": 189,
+    "concepts": 60,
+    "observations": 62,
+    "repos": 15,
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
@@ -12,27 +12,20 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
     "aidenlab/hic-straw",
     "alangdm/helium-animated-pages",
-    "apollographql/connectors-community",
     "aws-samples/aws-sdk-js-tests",
     "coasys/ad4m",
-    "ember-cli/ember-app-blueprint",
     "Eonic/ProteanCMS",
-    "gacts/install-dnscontrol",
-    "galaxyproteomics/tools-galaxyp",
-    "hudochenkov/postcss-styled-syntax",
-    "hyparam/hyparquet-writer",
     "hyparam/squirreling",
     "ideditor/schema-builder",
     "julia-actions/cache",
     "kitconcept/volto-light-theme",
     "lm-sys/lm-sys.github.io",
     "nodejs/nodejs-dist-indexer",
-    "npm/package-json",
     "octokit/create-octokit-project.js",
     "rstackjs/agent-skills",
     "stdlib-js/google-summer-of-code"

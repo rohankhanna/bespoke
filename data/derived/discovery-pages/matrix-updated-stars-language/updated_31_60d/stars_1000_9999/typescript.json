@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1785,
-    "concepts": 346,
-    "observations": 347,
-    "repos": 48,
-    "terms": 368
+    "components": 1663,
+    "concepts": 335,
+    "observations": 336,
+    "repos": 45,
+    "terms": 357
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "aleclarson/vite-tsconfig-paths",
@@ -47,9 +47,6 @@
     "microsoft/tsdoc",
     "Myriad-Dreamin/typst.ts",
     "nanbingxyz/5ire",
-    "obsidian-community/obsidian-kanban",
-    "obsidian-community/obsidian-style-settings",
-    "obsidian-community/obsidian-zotero-integration",
     "peter-evans/repository-dispatch",
     "pillarjs/path-to-regexp",
     "react-native-webview/react-native-webview",

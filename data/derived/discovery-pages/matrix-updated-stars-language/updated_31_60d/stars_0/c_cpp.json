@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 1,
-    "terms": 0
+    "components": 23,
+    "concepts": 4,
+    "observations": 5,
+    "repos": 3,
+    "terms": 4
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
-    "glennhickey/red"
+    "datachainlab/cosmos-bsc-ibc-lcp",
+    "glennhickey/red",
+    "Saalvage/assimp"
   ]
 }

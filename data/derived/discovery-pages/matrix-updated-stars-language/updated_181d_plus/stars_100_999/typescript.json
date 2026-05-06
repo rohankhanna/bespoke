@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4586,
-    "concepts": 688,
-    "observations": 690,
-    "repos": 186,
-    "terms": 698
+    "components": 4673,
+    "concepts": 692,
+    "observations": 694,
+    "repos": 190,
+    "terms": 702
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "101arrowz/fzstd",
     "1hanzla100/developer-portfolio",
@@ -89,6 +89,7 @@
     "FrontLabsOfficial/vue-tiny-validate",
     "fuergaosi233/openai-proxy",
     "fwcd/vscode-kotlin",
+    "gnosis/gp-v2-contracts",
     "googleapis/gaxios",
     "graphql/graphql-http",
     "gxmari007/vite-plugin-eslint",
@@ -121,6 +122,7 @@
     "linkedin/eyeglass",
     "lobehub/lobe-vidol",
     "luisherranz/deepsignal",
+    "Lusito/forget-me-not",
     "lxsmnsyc/solid-labels",
     "Mara-Li/obsidian-snippet-downloader",
     "marcello3d/node-tosource",
@@ -181,6 +183,8 @@
     "svsool/memo",
     "Tarektouati/vue-use-web",
     "tatethurston/TwirpScript",
+    "timqian/bambot",
+    "tomblind/local-lua-debugger-vscode",
     "TrueFiEng/Waffle",
     "u3u/vue-hooks",
     "underfin/vite-plugin-vue2",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 341,
-    "concepts": 334,
-    "observations": 335,
-    "repos": 87,
-    "terms": 331
+    "components": 352,
+    "concepts": 343,
+    "observations": 344,
+    "repos": 92,
+    "terms": 340
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "4d49/scene-library",
     "ahyatt/emacs-websocket",
+    "ajevans99/swift-json-schema",
     "AndrewRadev/switch.vim",
     "ankane/kms_encrypted",
     "appwrite/playground-for-web",
@@ -34,8 +35,10 @@
     "caddyserver/caddy-docker",
     "chakravala/Grassmann.jl",
     "cjohansen/replicant",
+    "claytonfarr/ralph-playbook",
     "clj-easy/graalvm-clojure",
     "clojure-emacs/inf-clojure",
+    "clojure/core.cache",
     "clojure/core.memoize",
     "clojure/tools.analyzer",
     "clojure/tools.analyzer.jvm",
@@ -44,6 +47,7 @@
     "CSU-Radarmet/CSU_RadarTools",
     "Cysharp/ValueTaskSupplement",
     "DarthAffe/StableDiffusion.NET",
+    "dkubb/memoizable",
     "DL3DV-10K/Dataset",
     "domluna/JuliaFormatter.jl",
     "dwyl/phoenix-liveview-chat-example",
@@ -80,6 +84,7 @@
     "mathjax/MathJax-demos-web",
     "nim-lang/vscode-nim",
     "NimblePros/eShopOnWeb",
+    "ocurrent/ocaml-ci",
     "PacificBiosciences/pbmm2",
     "PMunch/nimlsp",
     "prettier/prettier-emacs",
@@ -96,10 +101,10 @@
     "thu-ml/SpargeAttn",
     "tomas-abrahamsson/gpb",
     "tpapp/julia-repl",
+    "travis-ci/travis-api",
     "trptcolin/reply",
     "vlaaad/reveal",
     "WebAssembly/esm-integration",
-    "xoofx/CppAst.NET",
-    "yogthos/migratus"
+    "xoofx/CppAst.NET"
   ]
 }

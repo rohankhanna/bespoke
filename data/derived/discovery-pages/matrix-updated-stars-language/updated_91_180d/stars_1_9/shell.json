@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 50,
-    "concepts": 29,
-    "observations": 31,
-    "repos": 11,
-    "terms": 29
+    "components": 52,
+    "concepts": 33,
+    "observations": 35,
+    "repos": 12,
+    "terms": 33
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "actions-oss/gh-rc",
+    "azdavis/ungrammar-tools",
     "blooper05/action-rails_best_practices",
     "chronosphereio/calyptia-api",
     "danielrosehill/Claude-Bug-Catcher",

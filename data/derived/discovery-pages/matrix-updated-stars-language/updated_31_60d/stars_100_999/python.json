@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 337,
-    "concepts": 510,
-    "observations": 514,
-    "repos": 114,
-    "terms": 511
+    "components": 358,
+    "concepts": 534,
+    "observations": 538,
+    "repos": 117,
+    "terms": 535
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
+    "AcademySoftwareFoundation/aswf-docker",
     "ACEnglish/truvari",
     "actionless/pikaur",
     "Advocate99/DiffGesture",
@@ -38,6 +39,7 @@
     "citusdata/django-multitenant",
     "clearml/clearml-server",
     "clearml/clearml-serving",
+    "conan-io/cmake-conan",
     "corteva/rioxarray",
     "csslc/PiSA-SR",
     "DanceTrack/DanceTrack",
@@ -54,6 +56,7 @@
     "HazyResearch/legalbench",
     "HazyResearch/zoology",
     "heyoeyo/muggled_dpt",
+    "HoangTheQuyen/think-better",
     "huawei-noah/noah-research",
     "hukkin/mdformat",
     "hustvl/Senna",
@@ -62,7 +65,6 @@
     "jpmml/sklearn2pmml",
     "jsegov/autoresearch-win-rtx",
     "kandinskylab/kandinsky-5",
-    "kijai/ComfyUI-DepthAnythingV2",
     "LAION-AI/CLIP_benchmark",
     "laixintao/tokei-pie",
     "langfengQ/DrMAS",
@@ -74,6 +76,7 @@
     "macisamuele/language-formatters-pre-commit-hooks",
     "madebyollin/taehv",
     "MAGREF-Video/MAGREF",
+    "marcelm/cutadapt",
     "matthew-brett/delocate",
     "melMass/comfy_mtb",
     "meta-pytorch/torchft",
@@ -113,12 +116,12 @@
     "spesmilo/electrumx",
     "Stanford-TML/robot_keyframe_kit",
     "strands-agents/mcp-server",
-    "svg-project/Sparse-VideoGen",
     "swc-17/SparseDrive",
     "terraform-aws-modules/terraform-aws-notify-slack",
     "TexasInstruments/edgeai-tidl-tools",
     "thu-ml/DiT-Extrapolation",
     "TorchDR/TorchDR",
+    "Vinyzu/Botright",
     "voxel51/fiftyone-examples",
     "voxel51/voxelgpt",
     "WujiangXu/A-mem-sys",

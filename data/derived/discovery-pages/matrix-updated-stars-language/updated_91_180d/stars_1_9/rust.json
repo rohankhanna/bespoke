@@ -3,7 +3,7 @@
     "components": 69,
     "concepts": 27,
     "observations": 27,
-    "repos": 20,
+    "repos": 22,
     "terms": 27
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
+    "0k/shyaml-rs",
     "ashvardanian/StringZilla-CLI",
     "axiom-crypto/halo2curves",
     "azdavis/language-util",
@@ -26,6 +27,7 @@
     "IWANABETHATGUY/l-lang",
     "LaurenzV/sitro",
     "lita-xyz/Plonky3",
+    "mozilla/midir",
     "Myriad-Dreamin/typst",
     "shesek/electrumd",
     "sigp/xdelta3-rs",

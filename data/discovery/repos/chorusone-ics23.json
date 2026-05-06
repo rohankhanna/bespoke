@@ -41,13 +41,14 @@
       "size": 95
     }
   ],
+  "metadata_refreshed_at": "2026-05-06T05:39:14.155089+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "Building generic merkle proof format for IBC",
     "fork": true,
-    "full_name": "ChorusOne/ics23",
+    "full_name": "chorusone/ics23",
     "html_url": "https://github.com/ChorusOne/ics23",
     "language": null,
     "pushed_at": "2022-01-31T14:31:51Z",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1142,
-    "concepts": 735,
-    "observations": 738,
-    "repos": 112,
-    "terms": 740
+    "components": 1168,
+    "concepts": 776,
+    "observations": 779,
+    "repos": 115,
+    "terms": 779
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "3b1b/videos",
     "666ghj/MiroFish",
@@ -24,6 +24,7 @@
     "auth0/node-jsonwebtoken",
     "bellard/quickjs",
     "bol-van/zapret",
+    "catppuccin/catppuccin",
     "chriskiehl/Gooey",
     "chromedp/chromedp",
     "cloudwu/skynet",
@@ -46,6 +47,7 @@
     "eyaltoledano/claude-task-master",
     "facebook/zstd",
     "facebookresearch/dinov3",
+    "fastai/fastai",
     "fatih/vim-go",
     "FunAudioLLM/CosyVoice",
     "githubnext/monaspace",
@@ -55,7 +57,6 @@
     "google/googletest",
     "google/leveldb",
     "google/python-fire",
-    "googleapis/google-api-nodejs-client",
     "GoogleChromeLabs/squoosh",
     "gruns/icecream",
     "hapijs/hapi",
@@ -72,6 +73,7 @@
     "koalaman/shellcheck",
     "Kong/kong",
     "Konloch/bytecode-viewer",
+    "kubernetes/ingress-nginx",
     "LazyVim/LazyVim",
     "less/less.js",
     "libevent/libevent",
@@ -95,6 +97,7 @@
     "PaddlePaddle/PaddleDetection",
     "panjf2000/ants",
     "panjf2000/gnet",
+    "parcel-bundler/parcel",
     "PKU-YuanGroup/Open-Sora-Plan",
     "powerline/powerline",
     "prompt-toolkit/python-prompt-toolkit",

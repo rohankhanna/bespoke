@@ -1,31 +1,24 @@
 {
   "counts": {
-    "components": 174,
-    "concepts": 106,
-    "observations": 106,
-    "repos": 14,
-    "terms": 106
+    "components": 64,
+    "concepts": 51,
+    "observations": 51,
+    "repos": 7,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
-    "abaplint/transpiler",
-    "analogdevicesinc/msdk",
-    "cloudfoundry/credhub-cli",
-    "CuatroElixir/spear",
-    "cucumber/cucumber-js-examples",
-    "dwyl/mvp",
-    "helix-toolkit/helix-toolkit-nex",
-    "hiddenswitch/pip-and-uv-installable-ComfyUI",
+    "alloy-rs/evm",
+    "apache/doris-opentelemetry-demo",
+    "gpac/testsuite",
     "karafka/example-apps",
     "kurrent-io/KurrentDB-Client-Rust",
-    "nuxt-modules/emotion",
-    "ogx-ai/ogx-client-typescript",
-    "pivotal/credhub-release",
-    "TrigenSoftware/simple-release"
+    "lumen-oss/luarocks-tag-release",
+    "vaporif/parry-guard"
   ]
 }

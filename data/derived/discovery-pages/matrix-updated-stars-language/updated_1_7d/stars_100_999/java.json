@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 227,
-    "concepts": 280,
-    "observations": 280,
-    "repos": 36,
-    "terms": 278
+    "components": 150,
+    "concepts": 175,
+    "observations": 175,
+    "repos": 23,
+    "terms": 175
   },
   "facet_version": 1,
   "filters": {
@@ -12,43 +12,30 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
-    "apache/ignite-3",
     "apache/rocketmq-clients",
     "apache/spark-kubernetes-operator",
     "Apicurio/apicurio-registry",
     "aws-powertools/powertools-lambda-java",
     "aws/smithy-go",
     "bazel-contrib/rules_jvm_external",
+    "cloudfoundry/credhub",
     "confluentinc/kafka-streams-examples",
     "devoxx/DevoxxGenieIDEAPlugin",
-    "eclipse-lsp4j/lsp4j",
-    "FasterXML/jackson-dataformat-xml",
-    "FasterXML/jackson-dataformats-binary",
-    "FasterXML/jackson-dataformats-text",
-    "FasterXML/jackson-modules-base",
+    "eclipse-wildwebdeveloper/wildwebdeveloper",
     "googleapis/java-bigtable-hbase",
     "heroku/webapp-runner",
     "ihmcrobotics/ihmc-open-robotics-software",
-    "jpmml/jpmml-sklearn",
     "kirill-grouchnikov/radiance",
     "MarcusWolschon/osmeditor4android",
-    "michel-kraemer/bson4jackson",
     "microsoft/LangChain4j-for-Beginners",
     "operator-framework/java-operator-sdk",
     "palantir/javapoet",
     "processing/processing4",
-    "quarkiverse/quarkus-langchain4j",
     "quarkiverse/quarkus-operator-sdk",
-    "reactor/reactor-addons",
-    "saalfeldlab/n5",
     "samtools/htsjdk",
     "SAP/SapMachine",
-    "spring-projects/spring-tools",
-    "swagger-api/swagger-parser",
-    "ThreeTen/threetenbp",
-    "wildfly/quickstart",
     "Xilinx/RapidWright"
   ]
 }

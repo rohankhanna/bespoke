@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 104,
-    "concepts": 84,
-    "observations": 84,
-    "repos": 19,
-    "terms": 84
+    "components": 100,
+    "concepts": 79,
+    "observations": 79,
+    "repos": 17,
+    "terms": 79
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "black-desk/djotfmt",
-    "bourumir-wyngs/saphyr",
     "criccomini/uniffi-bindgen-node-js",
     "databendlabs/databend-meta",
     "dcampbell24/djot-implementations",
@@ -24,14 +23,13 @@
     "flathub-infra/flat-manager-hooks",
     "godot-rust/godot4-prebuilt",
     "hecrj/llama-server",
-    "heroku/buildpacks-deb-packages",
     "heroku/buildpacks-php",
     "heroku/buildpacks-procfile",
     "Hiroshiba/voicevox_core",
     "ldclabs/ic-cose",
+    "open-telemetry/opentelemetry-weaver-examples",
     "snowflakedb/universal-driver",
     "sp1-patches/RustCrypto-hashes",
-    "typst/typst-dev-assets",
-    "vercel-labs/mdxjs-rs-turbopack"
+    "typst/typst-dev-assets"
   ]
 }

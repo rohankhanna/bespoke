@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 257,
-    "concepts": 80,
-    "observations": 80,
-    "repos": 66,
-    "terms": 80
+    "components": 261,
+    "concepts": 81,
+    "observations": 81,
+    "repos": 68,
+    "terms": 81
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "abap2UI5-addons/popups",
     "aldernero/spider",
@@ -49,7 +49,9 @@
     "faradayio/compose_yml",
     "flageval-baai/LRM-Eval",
     "forcedotcom/change-case-management",
+    "frankkohlhepp/fancy-settings",
     "get-gah/gah-db",
+    "grafana/cadvisor",
     "haoxiangsnr/IntelNeuromorphicDNSChallenge",
     "hermit-os/newlib",
     "Hitesh-Aggarwal/dotfiles",

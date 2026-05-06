@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 641,
-    "concepts": 512,
-    "observations": 513,
-    "repos": 66,
-    "terms": 512
+    "components": 613,
+    "concepts": 489,
+    "observations": 490,
+    "repos": 62,
+    "terms": 489
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "aliyun/aliyun-cli",
     "apache/dubbo-go-hessian2",
@@ -20,18 +20,15 @@
     "aquasecurity/trivy-db",
     "argoproj-labs/argocd-agent",
     "argoproj-labs/argocd-operator",
-    "aws-cloudformation/rain",
     "Azure/azure-dev",
     "Azure/azure-storage-azcopy",
     "Azure/azure-storage-fuse",
     "Azure/karpenter-provider-azure",
     "buildpacks/lifecycle",
     "celzero/firestack",
-    "ClickHouse/ch-go",
     "cloudfoundry/cf-deployment",
     "cloudfoundry/diego-release",
     "cloudpilot-ai/karpenter-provider-gcp",
-    "cloudwego/eino-examples",
     "cloudwego/eino-ext",
     "cometbft/cometbft",
     "controlplaneio-fluxcd/flux-operator",
@@ -52,13 +49,12 @@
     "hybridgroup/yzma",
     "istio/api",
     "istio/tools",
+    "itzg/mc-router",
     "kubernetes-sigs/dra-driver-nvidia-gpu",
     "kubernetes-sigs/karpenter-provider-cluster-api",
     "kubernetes-sigs/lws",
     "OffchainLabs/nitro",
     "operator-framework/operator-registry",
-    "oracle/oci-go-sdk",
-    "pion/ice",
     "pion/interceptor",
     "pion/rtp",
     "pion/stun",

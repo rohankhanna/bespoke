@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 416,
-    "concepts": 291,
-    "observations": 291,
-    "repos": 83,
-    "terms": 312
+    "components": 463,
+    "concepts": 319,
+    "observations": 321,
+    "repos": 89,
+    "terms": 339
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "4dn-dcic/tibanna",
     "Accenture/Cymple",
@@ -25,10 +25,13 @@
     "aiagenta2z/mcp-marketplace",
     "allenai/beaker-gantry",
     "allenai/scirepeval",
+    "AMD-AGI/torchtitan-amd",
     "amyreese/fissix",
+    "angr/archinfo",
     "ankurhanda/robot-assets",
+    "ant-research/pointelligence",
+    "AstarVienna/ScopeSim",
     "autowarefoundation/autoware-github-actions",
-    "beeware/briefcase-template",
     "browser-use/benchmark",
     "carstencodes/simplepycons",
     "castorini/umbrela",
@@ -50,6 +53,7 @@
     "dreamiurg/claude-mountaineering-skills",
     "ethstaker/ethstaker-deposit-cli",
     "facebookresearch/mosaic",
+    "GaloisInc/BLST-Verification",
     "googleapis/python-pubsublite",
     "GuyKh/ims-custom-component",
     "higlass/clodius",
@@ -57,13 +61,14 @@
     "hpcaitech/public_assets",
     "hsliuustc0106/vllm-omni-skills",
     "hynek/argon2-cffi-bindings",
+    "HyperionGray/trio-chrome-devtools-protocol",
     "iamsashank09/llm-wiki-kit",
     "IcyFish332/T3RL",
     "intel/ai-containers",
     "jawah/wassima",
     "jupyter/governance",
     "kserve/community",
-    "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+    "lace/polliwog",
     "lblankl/Short-RL",
     "LedgerHQ/ledgerctl",
     "libp2p/test-plans",
@@ -82,6 +87,7 @@
     "pycompression/python-isal",
     "pyocd/libusb-package",
     "pyodide/pyodide-build",
+    "pyodide/pytest-pyodide",
     "pytest-dev/execnet",
     "python-graphblas/graphblas-algorithms",
     "recap-utr/nlp-service",
@@ -89,13 +95,13 @@
     "riponazad/echotracker",
     "RWKV-Vibe/rwkv_lightning",
     "scasella/nanochat-mlx",
-    "shiweijiezero/R3L",
+    "scipy/scipy-stubs",
     "Significant-Gravitas/gravitasml",
     "skhu101/HumanLiff",
     "sliamh11/deus",
     "sphinx-contrib/sphinxcontrib-towncrier",
-    "sublimelsp/LSP-marksman",
     "svaningelgem/logprise",
+    "typeshed-internal/stub_uploader",
     "urschrei/pypolyline"
   ]
 }

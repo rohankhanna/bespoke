@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · Rust
 
-Generated at: `2026-05-05T08:29:41.606128+00:00`
+Generated at: `2026-05-06T05:39:22.250037+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 45
-- terms: 62
-- components: 186
-- concepts: 62
-- observations: 63
+- repos: 49
+- terms: 66
+- components: 187
+- concepts: 66
+- observations: 67
 
 ## Static behavior
 
@@ -55,10 +55,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [OlivierDehaene/candle](https://github.com/OlivierDehaene/candle) | 0 | 2024-07-09T13:21:01Z | Rust | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [cgisky1980/hf-hub](https://github.com/cgisky1980/hf-hub) | 0 | 2024-06-28T00:11:52Z | Rust | CLI | 1 | 3 | 1 | 1 |
 | [adiSuper94/dns-rs](https://github.com/adiSuper94/dns-rs) | 0 | 2024-04-27T01:18:37Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [hsivonen/any_all_workaround](https://github.com/hsivonen/any_all_workaround) | 0 | 2024-04-23T07:55:01Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [madsim-rs/getrandom](https://github.com/madsim-rs/getrandom) | 0 | 2024-04-07T07:28:38Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [delta1/rust-jsonrpc-client](https://github.com/delta1/rust-jsonrpc-client) | 0 | 2024-03-25T07:46:11Z | Rust | CLI | 3 | 10 | 3 | 3 |
 | [s3bk/svg](https://github.com/s3bk/svg) | 0 | 2024-03-23T15:04:33Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [msoos/cryptominisat-rs](https://github.com/msoos/cryptominisat-rs) | 0 | 2024-03-03T04:00:21Z | Rust | Unknown | 3 | 0 | 3 | 3 |
+| [njelich/cargo-near-new-project-template](https://github.com/njelich/cargo-near-new-project-template) | 0 | 2024-02-25T15:24:53Z | Rust | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [helyim/reed-solomon-erasure](https://github.com/helyim/reed-solomon-erasure) | 0 | 2024-02-14T00:51:51Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [matthme/devhub-dnas](https://github.com/matthme/devhub-dnas) | 0 | 2023-12-13T19:49:58Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [matthme/hc-zome-mere-memory](https://github.com/matthme/hc-zome-mere-memory) | 0 | 2023-12-13T14:42:51Z | Rust | Unknown | 0 | 0 | 0 | 0 |
@@ -70,6 +72,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [a-liashenko/egui](https://github.com/a-liashenko/egui) | 0 | 2022-07-29T21:06:03Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [imgui-rs/imgui-gfx-renderer](https://github.com/imgui-rs/imgui-gfx-renderer) | 0 | 2021-10-01T17:03:28Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [andreivasiliu/quad-net](https://github.com/andreivasiliu/quad-net) | 0 | 2021-08-24T19:20:22Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [hsivonen/detector_char_classes](https://github.com/hsivonen/detector_char_classes) | 0 | 2021-06-15T13:07:13Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [hsivonen/testdet](https://github.com/hsivonen/testdet) | 0 | 2021-06-15T13:05:54Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [byron/cargo-release](https://github.com/Byron/cargo-release) | 0 | 2021-05-09T02:43:06Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
@@ -105,10 +109,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [OlivierDehaene/candle](https://github.com/OlivierDehaene/candle) | 0 | 2024-07-09T13:21:01Z | Rust | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [cgisky1980/hf-hub](https://github.com/cgisky1980/hf-hub) | 0 | 2024-06-28T00:11:52Z | Rust | CLI | 1 | 3 | 1 | 1 |
 | [adiSuper94/dns-rs](https://github.com/adiSuper94/dns-rs) | 0 | 2024-04-27T01:18:37Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [hsivonen/any_all_workaround](https://github.com/hsivonen/any_all_workaround) | 0 | 2024-04-23T07:55:01Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [madsim-rs/getrandom](https://github.com/madsim-rs/getrandom) | 0 | 2024-04-07T07:28:38Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [delta1/rust-jsonrpc-client](https://github.com/delta1/rust-jsonrpc-client) | 0 | 2024-03-25T07:46:11Z | Rust | CLI | 3 | 10 | 3 | 3 |
 | [s3bk/svg](https://github.com/s3bk/svg) | 0 | 2024-03-23T15:04:33Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [msoos/cryptominisat-rs](https://github.com/msoos/cryptominisat-rs) | 0 | 2024-03-03T04:00:21Z | Rust | Unknown | 3 | 0 | 3 | 3 |
+| [njelich/cargo-near-new-project-template](https://github.com/njelich/cargo-near-new-project-template) | 0 | 2024-02-25T15:24:53Z | Rust | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [helyim/reed-solomon-erasure](https://github.com/helyim/reed-solomon-erasure) | 0 | 2024-02-14T00:51:51Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [matthme/devhub-dnas](https://github.com/matthme/devhub-dnas) | 0 | 2023-12-13T19:49:58Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [matthme/hc-zome-mere-memory](https://github.com/matthme/hc-zome-mere-memory) | 0 | 2023-12-13T14:42:51Z | Rust | Unknown | 0 | 0 | 0 | 0 |
@@ -120,4 +126,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [a-liashenko/egui](https://github.com/a-liashenko/egui) | 0 | 2022-07-29T21:06:03Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [imgui-rs/imgui-gfx-renderer](https://github.com/imgui-rs/imgui-gfx-renderer) | 0 | 2021-10-01T17:03:28Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [andreivasiliu/quad-net](https://github.com/andreivasiliu/quad-net) | 0 | 2021-08-24T19:20:22Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [hsivonen/detector_char_classes](https://github.com/hsivonen/detector_char_classes) | 0 | 2021-06-15T13:07:13Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [hsivonen/testdet](https://github.com/hsivonen/testdet) | 0 | 2021-06-15T13:05:54Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [byron/cargo-release](https://github.com/Byron/cargo-release) | 0 | 2021-05-09T02:43:06Z | Rust | Unknown | 0 | 0 | 0 | 0 |

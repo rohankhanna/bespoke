@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 111,
+    "components": 114,
     "concepts": 107,
     "observations": 110,
-    "repos": 18,
+    "repos": 19,
     "terms": 106
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "anordal/shellharden",
@@ -30,6 +30,7 @@
     "rust-headless-chrome/rust-headless-chrome",
     "tarkah/tickrs",
     "Tencent/tquic",
+    "tokio-rs/bytes",
     "vi/websocat",
     "wilsonzlin/minify-html"
   ]

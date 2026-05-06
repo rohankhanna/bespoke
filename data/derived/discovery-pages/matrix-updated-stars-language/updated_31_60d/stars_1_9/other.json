@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 160,
-    "concepts": 87,
-    "observations": 87,
-    "repos": 32,
-    "terms": 86
+    "concepts": 88,
+    "observations": 88,
+    "repos": 33,
+    "terms": 87
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "abap2UI5-addons/layout-management",
     "ada-url/kotlin",
@@ -44,6 +44,7 @@
     "ptsochantaris/trailer-json",
     "PyThaiNLP/pythainlp-corpus",
     "redis-developer/redis-starter-csharp",
+    "rocq-community/docker-base",
     "tanyongkiam/cake_lpr",
     "WebAssembly/compact-import-section"
   ]

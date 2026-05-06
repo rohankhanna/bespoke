@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 65,
-    "concepts": 86,
-    "observations": 87,
-    "repos": 9,
-    "terms": 83
+    "components": 82,
+    "concepts": 96,
+    "observations": 97,
+    "repos": 10,
+    "terms": 93
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "chromedp/chromedp",
     "direnv/direnv",
     "evanw/esbuild",
     "gitleaks/gitleaks",
+    "kubernetes/ingress-nginx",
     "Mrs4s/go-cqhttp",
     "panjf2000/ants",
     "panjf2000/gnet",

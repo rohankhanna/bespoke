@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 480,
-    "concepts": 667,
-    "observations": 667,
-    "repos": 168,
-    "terms": 658
+    "components": 502,
+    "concepts": 695,
+    "observations": 695,
+    "repos": 172,
+    "terms": 684
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "1player/host-spawn",
     "76creates/stickers",
@@ -103,7 +103,9 @@
     "h12w/socks",
     "h2non/baloo",
     "hashicorp/terraform-provider-scaffolding",
+    "haveachin/infrared",
     "Iceber/iouring-go",
+    "IGLOU-EU/go-wildcard",
     "inetaf/netaddr",
     "isovalent/eCHO",
     "jackpal/gateway",
@@ -113,6 +115,7 @@
     "joncalhoun/form",
     "josephspurrier/goversioninfo",
     "jsonnet-bundler/jsonnet-bundler",
+    "jzelinskie/faq",
     "karrick/godirwalk",
     "KatelynHaworth/go-tproxy",
     "klauspost/asmfmt",
@@ -129,6 +132,7 @@
     "maddalax/htmgo",
     "mailhog/mhsendmail",
     "mailru/dbr",
+    "makew0rld/dither",
     "mattn/go-colorable",
     "mattn/gof",
     "mgutz/ansi",

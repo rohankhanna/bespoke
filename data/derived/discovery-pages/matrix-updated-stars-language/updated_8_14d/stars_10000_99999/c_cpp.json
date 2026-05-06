@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 383,
-    "concepts": 585,
-    "observations": 588,
-    "repos": 54,
-    "terms": 583
+    "components": 319,
+    "concepts": 536,
+    "observations": 539,
+    "repos": 48,
+    "terms": 533
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,21 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
-    "abseil/abseil-cpp",
+    "AaronFeng753/Waifu2x-Extension-GUI",
     "Alexays/Waybar",
-    "alibaba/MNN",
-    "apache/arrow",
     "apache/brpc",
     "apple/foundationdb",
     "arangodb/arangodb",
-    "aseprite/aseprite",
     "asmvik/yabai",
+    "baldurk/renderdoc",
     "bitcoin/bitcoin",
     "bkaradzic/bgfx",
+    "cameron314/concurrentqueue",
     "catchorg/Catch2",
     "chromium/chromium",
     "citusdata/citus",
-    "ClickHouse/ClickHouse",
     "curl/curl",
     "davisking/dlib",
     "envoyproxy/envoy",
@@ -41,21 +39,19 @@
     "google/filament",
     "google/sentencepiece",
     "grpc/grpc",
-    "Immediate-Mode-UI/Nuklear",
     "isl-org/Open3D",
-    "jqlang/jq",
+    "k2-fsa/sherpa-onnx",
+    "libuv/libuv",
     "libvips/libvips",
     "microsoft/mimalloc",
     "microsoft/onnxruntime",
     "microsoft/react-native-windows",
     "microsoft/STL",
-    "microsoft/winget-cli",
     "microsoft/WSL",
-    "ml-explore/mlx",
     "mpv-player/mpv",
     "NixOS/nix",
     "ocornut/imgui",
-    "openssl/openssl",
+    "openframeworks/openFrameworks",
     "PaddlePaddle/Paddle",
     "qemu/qemu",
     "raysan5/raylib",
@@ -65,8 +61,6 @@
     "systemd/systemd",
     "taskflow/taskflow",
     "Tencent/ncnn",
-    "tesseract-ocr/tesseract",
-    "uNetworking/uWebSockets",
-    "wolfpld/tracy"
+    "uNetworking/uWebSockets"
   ]
 }

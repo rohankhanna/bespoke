@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 651,
-    "concepts": 645,
-    "observations": 646,
-    "repos": 52,
-    "terms": 640
+    "components": 538,
+    "concepts": 578,
+    "observations": 579,
+    "repos": 44,
+    "terms": 573
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "99designs/gqlgen",
@@ -23,19 +23,14 @@
     "argoproj/argo-cd",
     "caddyserver/caddy",
     "centrifugal/centrifugo",
-    "cli/cli",
-    "coder/coder",
     "coredns/coredns",
     "distribution/distribution",
-    "docker/compose",
     "ethereum/EIPs",
     "ethereum/go-ethereum",
     "getsops/sops",
     "gin-gonic/gin",
-    "go-delve/delve",
     "gofiber/fiber",
     "gohugoio/hugo",
-    "golangci/golangci-lint",
     "google/go-github",
     "GoogleContainerTools/skaffold",
     "grafana/loki",
@@ -43,19 +38,16 @@
     "grpc/grpc-go",
     "hajimehoshi/ebiten",
     "hashicorp/consul",
-    "hashicorp/terraform",
     "hashicorp/vault",
     "jaegertracing/jaeger",
-    "jesseduffield/lazygit",
     "joewalnes/websocketd",
-    "kubernetes/kops",
     "kubernetes/minikube",
     "mikefarah/yq",
     "milvus-io/milvus",
     "nats-io/nats-server",
     "open-policy-agent/opa",
     "opencontainers/runc",
-    "opentofu/opentofu",
+    "php/frankenphp",
     "prometheus/node_exporter",
     "prometheus/prometheus",
     "quic-go/quic-go",
@@ -65,6 +57,6 @@
     "spf13/cobra",
     "syncthing/syncthing",
     "thanos-io/thanos",
-    "trufflesecurity/trufflehog"
+    "v2fly/v2ray-core"
   ]
 }

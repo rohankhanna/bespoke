@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1665,
-    "concepts": 190,
-    "observations": 191,
-    "repos": 44,
-    "terms": 187
+    "components": 1706,
+    "concepts": 193,
+    "observations": 194,
+    "repos": 46,
+    "terms": 190
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "acdlite/recompose",
     "adam-p/markdown-here",
@@ -25,6 +25,7 @@
     "browserify/browserify",
     "bvaughn/react-virtualized",
     "chjj/blessed",
+    "davidshimjs/qrcodejs",
     "dropzone/dropzone",
     "eligrey/FileSaver.js",
     "emotion-js/emotion",
@@ -55,6 +56,7 @@
     "standard/standard",
     "statsd/statsd",
     "vuejs/vue-cli",
+    "vuejs/vuex",
     "yaronn/blessed-contrib",
     "YMFE/yapi",
     "zalmoxisus/redux-devtools-extension"

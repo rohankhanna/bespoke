@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-05-05T08:29:41.606128+00:00`
+Generated at: `2026-05-06T05:39:22.250037+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 7
-- terms: 67
-- components: 368
-- concepts: 67
-- observations: 67
+- repos: 6
+- terms: 65
+- components: 213
+- concepts: 66
+- observations: 66
 
 ## Static behavior
 
@@ -26,22 +26,20 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [conventional-changelog/conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) | 8435 | 2026-05-04T21:57:13Z | TypeScript | Infrastructure/tooling | 8 | 27 | 8 | 8 |
-| [inokawa/virtua](https://github.com/inokawa/virtua) | 3549 | 2026-05-04T19:01:59Z | TypeScript | Infrastructure/tooling | 16 | 91 | 16 | 16 |
-| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7596 | 2026-05-04T18:58:31Z | TypeScript | Infrastructure/tooling | 17 | 70 | 17 | 17 |
-| [cucumber/cucumber-js](https://github.com/cucumber/cucumber-js) | 5318 | 2026-05-04T10:07:05Z | TypeScript | Infrastructure/tooling | 8 | 101 | 8 | 8 |
-| [ebullient/obsidian-admonition](https://github.com/ebullient/obsidian-admonition) | 1261 | 2026-05-04T09:56:42Z | TypeScript | Infrastructure/tooling | 3 | 25 | 3 | 3 |
-| [graphql/graphql-playground](https://github.com/graphql/graphql-playground) | 8855 | 2026-05-04T09:38:44Z | TypeScript | Docs/knowledge | 4 | 8 | 4 | 4 |
-| [apify/fingerprint-suite](https://github.com/apify/fingerprint-suite) | 2077 | 2026-05-04T09:03:27Z | TypeScript | Infrastructure/tooling | 11 | 46 | 11 | 11 |
+| [electron/rebuild](https://github.com/electron/rebuild) | 1117 | 2026-05-05T19:24:45Z | TypeScript | Infrastructure/tooling | 5 | 34 | 5 | 5 |
+| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7599 | 2026-05-05T16:02:57Z | TypeScript | Infrastructure/tooling | 17 | 70 | 17 | 17 |
+| [apollographql/apollo-tooling](https://github.com/apollographql/apollo-tooling) | 3042 | 2026-05-05T16:00:54Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
+| [vite-pwa/vite-plugin-pwa](https://github.com/vite-pwa/vite-plugin-pwa) | 4146 | 2026-05-05T15:03:21Z | TypeScript | Infrastructure/tooling | 9 | 34 | 9 | 9 |
+| [NomicFoundation/hardhat](https://github.com/NomicFoundation/hardhat) | 8474 | 2026-05-05T14:02:46Z | TypeScript | Infrastructure/tooling | 12 | 11 | 12 | 12 |
+| [open-telemetry/opentelemetry-demo](https://github.com/open-telemetry/opentelemetry-demo) | 3056 | 2026-05-05T11:12:15Z | TypeScript | Infrastructure/tooling | 17 | 17 | 18 | 18 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [graphql/graphql-playground](https://github.com/graphql/graphql-playground) | 8855 | 2026-05-04T09:38:44Z | TypeScript | Docs/knowledge | 4 | 8 | 4 | 4 |
-| [conventional-changelog/conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) | 8435 | 2026-05-04T21:57:13Z | TypeScript | Infrastructure/tooling | 8 | 27 | 8 | 8 |
-| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7596 | 2026-05-04T18:58:31Z | TypeScript | Infrastructure/tooling | 17 | 70 | 17 | 17 |
-| [cucumber/cucumber-js](https://github.com/cucumber/cucumber-js) | 5318 | 2026-05-04T10:07:05Z | TypeScript | Infrastructure/tooling | 8 | 101 | 8 | 8 |
-| [inokawa/virtua](https://github.com/inokawa/virtua) | 3549 | 2026-05-04T19:01:59Z | TypeScript | Infrastructure/tooling | 16 | 91 | 16 | 16 |
-| [apify/fingerprint-suite](https://github.com/apify/fingerprint-suite) | 2077 | 2026-05-04T09:03:27Z | TypeScript | Infrastructure/tooling | 11 | 46 | 11 | 11 |
-| [ebullient/obsidian-admonition](https://github.com/ebullient/obsidian-admonition) | 1261 | 2026-05-04T09:56:42Z | TypeScript | Infrastructure/tooling | 3 | 25 | 3 | 3 |
+| [NomicFoundation/hardhat](https://github.com/NomicFoundation/hardhat) | 8474 | 2026-05-05T14:02:46Z | TypeScript | Infrastructure/tooling | 12 | 11 | 12 | 12 |
+| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7599 | 2026-05-05T16:02:57Z | TypeScript | Infrastructure/tooling | 17 | 70 | 17 | 17 |
+| [vite-pwa/vite-plugin-pwa](https://github.com/vite-pwa/vite-plugin-pwa) | 4146 | 2026-05-05T15:03:21Z | TypeScript | Infrastructure/tooling | 9 | 34 | 9 | 9 |
+| [open-telemetry/opentelemetry-demo](https://github.com/open-telemetry/opentelemetry-demo) | 3056 | 2026-05-05T11:12:15Z | TypeScript | Infrastructure/tooling | 17 | 17 | 18 | 18 |
+| [apollographql/apollo-tooling](https://github.com/apollographql/apollo-tooling) | 3042 | 2026-05-05T16:00:54Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
+| [electron/rebuild](https://github.com/electron/rebuild) | 1117 | 2026-05-05T19:24:45Z | TypeScript | Infrastructure/tooling | 5 | 34 | 5 | 5 |

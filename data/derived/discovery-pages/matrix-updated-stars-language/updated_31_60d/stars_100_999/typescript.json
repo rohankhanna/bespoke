@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1334,
-    "concepts": 313,
-    "observations": 313,
-    "repos": 50,
-    "terms": 322
+    "components": 1286,
+    "concepts": 298,
+    "observations": 298,
+    "repos": 49,
+    "terms": 307
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "43081j/picoquery",
     "actions-cool/issues-helper",
     "aelassas/bookcars",
-    "agentscope-ai/agentscope-studio",
     "amplify-education/serverless-domain-manager",
     "antfu-collective/bumpp",
     "aquasecurity/trivy-vscode-extension",
     "augmnt/augments-mcp-server",
     "avli/clojureVSCode",
+    "aws-actions/aws-secretsmanager-get-secrets",
     "aws-samples/dify-self-hosted-on-aws",
     "carbon-design-system/carbon-icons-svelte",
     "carbon-design-system/carbon-pictograms-svelte",
@@ -58,7 +58,6 @@
     "testing-library/angular-testing-library",
     "thesayyn/protoc-gen-ts",
     "tracked-tools/tracked-built-ins",
-    "trzsz/trzsz.js",
     "un-ts/eslint-plugin-import-x",
     "vim-denops/denops.vim",
     "windingwind/zotero-plugin-template",

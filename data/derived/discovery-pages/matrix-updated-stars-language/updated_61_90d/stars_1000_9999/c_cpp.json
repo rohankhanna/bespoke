@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 180,
-    "concepts": 164,
-    "observations": 165,
-    "repos": 38,
-    "terms": 160
+    "concepts": 171,
+    "observations": 172,
+    "repos": 41,
+    "terms": 167
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,26 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
     "adafruit/Adafruit_NeoPixel",
     "AdAway/AdAway",
     "akheron/jansson",
+    "arrayfire/arrayfire",
     "bblanchon/ArduinoJson",
     "brandur/redis-cell",
     "Chlumsky/msdf-atlas-gen",
     "Chlumsky/msdfgen",
     "cocos/cocos-engine",
+    "coin-or/Ipopt",
+    "eclipse-paho/paho.mqtt.c",
     "eradman/entr",
     "espressif/ESP8266_RTOS_SDK",
     "facebookresearch/habitat-sim",
     "flashlight/flashlight",
+    "google/snappy",
     "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
     "hpjansson/chafa",
     "icecc/icecream",
@@ -35,7 +39,6 @@
     "json-c/json-c",
     "libgit2/rugged",
     "libimobiledevice/idevicerestore",
-    "martinus/unordered_dense",
     "memononen/nanovg",
     "microsoft/onnxruntime-inference-examples",
     "mitsuba-renderer/nanogui",

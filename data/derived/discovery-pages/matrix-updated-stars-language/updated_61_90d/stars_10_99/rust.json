@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 85,
-    "concepts": 58,
-    "observations": 58,
-    "repos": 19,
-    "terms": 58
+    "components": 92,
+    "concepts": 60,
+    "observations": 60,
+    "repos": 22,
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,26 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "acw/simple_asn1",
     "alloy-rs/op-alloy",
     "antonengelhardt/wasm-oidc-plugin",
     "baerwang/openapi-rs",
     "ClickHouse/ch2rs",
+    "CosmWasm/cw-storage-plus",
     "Cykooz/libheif-rs",
     "Cykooz/libheif-sys",
     "dgn/oidc-filter",
     "dsxmachina/rfm",
     "ethereum/eipw",
     "extism/rust-pdk",
+    "fortanix/rust-mbedtls",
     "googlefonts/shaperglot",
     "hermit-os/rftrace",
     "jakudlaty/tsid",
     "jasonjmcghee/ron-lsp",
+    "jonas-k/coremidi-sys",
     "libp2p/if-watch",
     "nebelgrau77/airsniffer-esp32c6",
     "OneSignal/serde-magnus",

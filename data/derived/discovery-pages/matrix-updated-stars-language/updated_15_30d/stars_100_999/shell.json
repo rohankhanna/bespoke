@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 105,
-    "concepts": 155,
-    "observations": 156,
-    "repos": 26,
-    "terms": 169
+    "components": 132,
+    "concepts": 192,
+    "observations": 194,
+    "repos": 33,
+    "terms": 205
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,20 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-06T05:39:22.250037+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "actions/upload-pages-artifact",
     "alfredolopez80/multi-agent-ralph-loop",
+    "arangrhie/T2T-Polish",
     "astro-han/claude-pace",
     "chaoss/grimoirelab",
     "cncf/k8s-conformance",
     "codelibs/docker-fess",
     "crazy-max/xgo",
+    "denysdovhan/dotfiles",
     "docker-library/drupal",
+    "docker-library/ruby",
     "EmbarkStudios/cargo-deny-action",
     "ericbuess/claude-code-docs",
     "heroku/heroku-buildpack-apt",
@@ -31,11 +34,15 @@
     "mattmc3/zephyr",
     "nodenv/node-build",
     "numpy/numpy.org",
+    "opea-project/GenAIExamples",
     "reviewdog/action-misspell",
+    "reviewdog/action-shellcheck",
+    "reviewdog/action-suggester",
     "rsmdt/the-startup",
     "rz1989s/claude-code-statusline",
     "SamNet-dev/paqctl",
     "sclorg/mysql-container",
+    "sclorg/s2i-nodejs-container",
     "serpro69/claude-toolbox",
     "trailofbits/claude-code-devcontainer",
     "undeadlist/claude-code-agents",
