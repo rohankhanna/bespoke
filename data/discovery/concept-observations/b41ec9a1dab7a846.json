@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "monorepo for the Agoric Javascript smart contract platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Deploy YMAX1 Planner (manual)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Deploy YMAX1 Planner (manual)"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10556,
+      "status": "candidate",
+      "text": "plat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10543,
+      "status": "candidate",
+      "text": "le corbusier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10530,
+      "status": "candidate",
+      "text": "adhere"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10530,
+      "status": "candidate",
+      "text": "administer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10530,
+      "status": "candidate",
+      "text": "advise"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy YMAX1 Planner (manual)",
+      "sense_id": "deploy-ymax1-planner-manual#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deploy-ymax1-planner-manual",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deploy-ymax1-planner-manual",
+  "observation_id": "b41ec9a1dab7a846",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-07T18:41:02.254946+00:00",
+  "observed_text": "Deploy YMAX1 Planner (manual)",
+  "source_context_snippet": "Deploy YMAX1 Planner (manual)",
+  "source_file": ".github/workflows/deploy-ymax1-planner.yml",
+  "source_repo": "Agoric/agoric-sdk",
+  "source_repo_description": "monorepo for the Agoric Javascript smart contract platform"
+}

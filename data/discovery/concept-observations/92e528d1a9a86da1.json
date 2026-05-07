@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "monorepo for the Agoric Javascript smart contract platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Detect Flaky Jobs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Detect Flaky Jobs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17707,
+      "status": "candidate",
+      "text": "trip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17684,
+      "status": "candidate",
+      "text": "odd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17593,
+      "status": "candidate",
+      "text": "barbarous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17593,
+      "status": "candidate",
+      "text": "janus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17593,
+      "status": "candidate",
+      "text": "madwoman"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Detect Flaky Jobs",
+      "sense_id": "detect-flaky-jobs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "detect-flaky-jobs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "detect-flaky-jobs",
+  "observation_id": "92e528d1a9a86da1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-07T18:41:02.254946+00:00",
+  "observed_text": "Detect Flaky Jobs",
+  "source_context_snippet": "Detect Flaky Jobs",
+  "source_file": ".github/workflows/detect-flaky-jobs.yml",
+  "source_repo": "Agoric/agoric-sdk",
+  "source_repo_description": "monorepo for the Agoric Javascript smart contract platform"
+}

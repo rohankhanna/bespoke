@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T19:14:00.890683+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2657
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "System prompts for AI assistants designed to orchestrate access to other agents",
+    "fork": false,
+    "full_name": "danielrosehill/AI-Orchestration-System-Prompts",
+    "html_url": "https://github.com/danielrosehill/AI-Orchestration-System-Prompts",
+    "language": "Python",
+    "pushed_at": "2025-04-06T12:25:17Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-04-03T22:41:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

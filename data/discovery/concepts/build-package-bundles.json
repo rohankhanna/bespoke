@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Package Bundles"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Agoric/agoric-sdk",
+      "status": "candidate-context",
+      "text": "monorepo for the Agoric Javascript smart contract platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Agoric/agoric-sdk",
+      "status": "candidate-context",
+      "text": "Build Package Bundles"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Agoric/agoric-sdk",
+      "status": "candidate",
+      "text": "Build Package Bundles"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18705,
+      "status": "candidate",
+      "text": "pack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18644,
+      "status": "candidate",
+      "text": "bunching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18520,
+      "status": "candidate",
+      "text": "fiber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18520,
+      "status": "candidate",
+      "text": "vein"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18479,
+      "status": "candidate",
+      "text": "bundle up"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Package Bundles",
+  "concept_id": "build-package-bundles",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": ".github/workflows/build-bundles.yml",
+      "source_repo": "Agoric/agoric-sdk"
+    }
+  ],
+  "first_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Package Bundles",
+      "sense_id": "build-package-bundles#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

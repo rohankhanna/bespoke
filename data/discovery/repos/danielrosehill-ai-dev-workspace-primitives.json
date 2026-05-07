@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Dev-Workspace-Primitives",
+      "target": "danielrosehill/environment.md",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Dev-Workspace-Primitives",
+      "target": "danielrosehill/budget.md",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Dev-Workspace-Primitives",
+      "target": "danielrosehill/docs.md",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Dev-Workspace-Primitives",
+      "target": "danielrosehill/grounding.md",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T19:14:13.414662+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3121
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Index of AI dev workspace primitives \u2014 root-level UPPERCASE.md context files for AI-assisted projects.",
+    "fork": false,
+    "full_name": "danielrosehill/AI-Dev-Workspace-Primitives",
+    "html_url": "https://github.com/danielrosehill/AI-Dev-Workspace-Primitives",
+    "language": null,
+    "pushed_at": "2026-04-28T10:33:12Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-28T10:33:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/budget.md",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/docs.md",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/environment.md",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/grounding.md",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

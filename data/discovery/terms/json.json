@@ -1,36 +1,16 @@
 {
-  "first_seen_at": "2026-05-07T12:51:40.300011+00:00",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "first_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "fastapi/full-stack-fastapi-template"
+      "source_repo": "flightcontrolhq/superjson"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "bet365/jingo"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "francoispqt/gojay"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "dwyl/quotes"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "ultrajson/ultrajson"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "fastapi/fastapi"
+      "source_repo": "unum-cloud/UStore"
     }
   ],
   "term": "json"

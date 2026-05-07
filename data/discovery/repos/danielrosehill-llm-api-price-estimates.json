@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/LLM-API-Price-Estimates",
+      "target": "danielrosehill/llm-ui-or-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/LLM-API-Price-Estimates",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/LLM-API-Price-Estimates",
+      "target": "llm-apis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/LLM-API-Price-Estimates",
+      "target": "llm-pricing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T19:13:55.899326+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5408
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Some cost estimates for using LLMs via API versus web UI services (like ChatGPT)",
+    "fork": false,
+    "full_name": "danielrosehill/LLM-API-Price-Estimates",
+    "html_url": "https://github.com/danielrosehill/LLM-API-Price-Estimates",
+    "language": "Python",
+    "pushed_at": "2024-11-28T23:27:29Z",
+    "stargazers_count": 1,
+    "topics": [
+      "large-language-models",
+      "llm-apis",
+      "llm-pricing"
+    ],
+    "updated_at": "2025-09-10T01:30:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/llm-ui-or-api",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![alt text](images/sloth-and-old-computer.webp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "![alt text](images/sloth-and-old-computer.webp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-apis"
+    },
+    {
+      "context_snippet": "![alt text](images/sloth-and-old-computer.webp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-pricing"
+    }
+  ]
+}

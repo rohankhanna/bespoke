@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "adrozdenko/error-toon",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "adrozdenko/error-toon",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "adrozdenko/error-toon",
+      "target": "Publish to crates.io",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-07T18:41:02.254946+00:00",
+  "source_repo": "adrozdenko/error-toon"
+}

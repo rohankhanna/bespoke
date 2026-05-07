@@ -1147,6 +1147,18 @@
       "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary",
       "status": "candidate-context",
       "text": "<kbd><img src=\"images/clocks.png\" /></kbd>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "berachain/polaris",
+      "status": "candidate-context",
+      "text": "Polaris is a modular implementation of the Ethereum Virtual Machine (EVM). It can be easily integrated into any consensus engine or application, including the Cosmos-SDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berachain/polaris",
+      "status": "candidate-context",
+      "text": "This project is deprecated. If you are interested in maintaining it, please contact itsdevbear on GitHub or Twitter."
     }
   ],
   "candidate_glosses": [
@@ -1719,6 +1731,12 @@
       "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary",
       "status": "candidate",
       "text": "<kbd><img src=\"images/clocks.png\" /></kbd>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berachain/polaris",
+      "status": "candidate",
+      "text": "This project is deprecated. If you are interested in maintaining it, please contact itsdevbear on GitHub or Twitter."
     }
   ],
   "candidate_related_terms": [
@@ -4336,11 +4354,101 @@
       "observed_at": "2026-05-07T12:51:40.300011+00:00",
       "source_file": null,
       "source_repo": "Consensys/ethereum-dissectors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "safe-fndn/safe-smart-account"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "berachain/polaris"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "celestiaorg/protobuf3-solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "celestiaorg/protobuf3-solidity-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/eth-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/TypeChain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "Uniswap/v3-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "wevm/abitype"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "Uniswap/v3-periphery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "web3/web3.js"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
   "lexical_providers": [
     "datamuse"
   ],

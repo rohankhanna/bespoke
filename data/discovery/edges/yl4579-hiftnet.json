@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yl4579/HiFTNet",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yl4579/HiFTNet",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yl4579/HiFTNet",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yl4579/HiFTNet",
+      "target": "vocoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yl4579/HiFTNet",
+      "target": "vocoders",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-07T18:41:02.254946+00:00",
+  "source_repo": "yl4579/HiFTNet"
+}

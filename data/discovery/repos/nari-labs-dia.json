@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "astral-sh/ruff-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nari-labs/dia",
+      "target": "nari-labs/dia2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nari-labs/dia",
+      "target": "sesameailabs/csm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "nari-labs/dia",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "nari-labs/dia",
+      "target": "astral-sh/ruff-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "nari-labs/dia",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nari-labs/dia",
+      "target": "open-weight",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nari-labs/dia",
+      "target": "text-to-speech",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T19:14:36.983621+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9850
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1640
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 420
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A TTS model capable of generating ultra-realistic dialogue in one pass.",
+    "fork": false,
+    "full_name": "nari-labs/dia",
+    "html_url": "https://github.com/nari-labs/dia",
+    "language": "Python",
+    "pushed_at": "2025-11-19T21:11:55Z",
+    "stargazers_count": 19293,
+    "topics": [
+      "ai",
+      "open-weight",
+      "text-to-speech"
+    ],
+    "updated_at": "2026-05-07T15:10:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nari-labs/dia2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sesameailabs/csm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-weight"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    }
+  ]
+}

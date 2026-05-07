@@ -476,6 +476,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "storybookjs/storybook",
+      "target": "storybookjs/addon-design-assets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "storybookjs/storybook",
       "target": "storybookjs/addon-graphql",
       "target_type": "repository"
     },
@@ -865,7 +872,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T10:47:47.563824+00:00",
+  "fetched_at": "2026-05-07T19:01:14.185733+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -917,8 +924,8 @@
     "full_name": "storybookjs/storybook",
     "html_url": "https://github.com/storybookjs/storybook",
     "language": "TypeScript",
-    "pushed_at": "2026-05-07T10:38:16Z",
-    "stargazers_count": 89863,
+    "pushed_at": "2026-05-07T16:42:02Z",
+    "stargazers_count": 89867,
     "topics": [
       "angular",
       "components",
@@ -941,9 +948,14 @@
       "webpack",
       "workshop"
     ],
-    "updated_at": "2026-05-07T10:46:01Z"
+    "updated_at": "2026-05-07T18:04:15Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "storybookjs/addon-design-assets",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "storybookjs/addon-graphql",

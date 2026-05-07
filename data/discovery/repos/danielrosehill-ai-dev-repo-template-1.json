@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Dev-Repo-Template-1",
+      "target": "danielrosehill/ai-dev-workspace-primitives",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Dev-Repo-Template-1",
+      "target": "repo-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Dev-Repo-Template-1",
+      "target": "templates",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T19:14:06.518312+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1941
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Template repo seeded with every primitive from AI-Dev-Workspace-Primitives. Click 'Use this template' to scaffold a new AI-assisted project.",
+    "fork": false,
+    "full_name": "danielrosehill/AI-Dev-Repo-Template-1",
+    "html_url": "https://github.com/danielrosehill/AI-Dev-Repo-Template-1",
+    "language": null,
+    "pushed_at": "2026-04-28T10:33:02Z",
+    "stargazers_count": 0,
+    "topics": [
+      "repo-templates",
+      "templates"
+    ],
+    "updated_at": "2026-04-28T10:33:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/ai-dev-workspace-primitives",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A GitHub **template repository** seeded with every primitive defined in [AI-Dev-Workspace-Primitives](https://github.com/danielrosehill/AI-Dev-Workspace-Primitives).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repo-templates"
+    },
+    {
+      "context_snippet": "A GitHub **template repository** seeded with every primitive defined in [AI-Dev-Workspace-Primitives](https://github.com/danielrosehill/AI-Dev-Workspace-Primitives).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "templates"
+    }
+  ]
+}

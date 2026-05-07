@@ -1,0 +1,321 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "chrisgrieser/nvim-lsp-endhints",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "cordx56/rustowl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "adaszko/tree_climber_rust.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "akinsho/flutter-tools.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "dependabot/fetch-metadata@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "Dependabot auto-approve",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flakehub-publish-tagged.yaml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flakehub-publish-tagged.yaml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "DeterminateSystems/nix-installer-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flakehub-publish-tagged.yaml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "DeterminateSystems/flakehub-push@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flakehub-publish-tagged.yaml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "Publish tags to FlakeHub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "crazy-max/ghaction-import-gpg@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "lumen-oss/gh-actions-lux@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "Push to LuaRocks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "cachix/cachix-action@v12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "Nix build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "beemojs/conventional-pr-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "googleapis/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "Release Please",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review-checklist.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/review-checklist.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "Review Checklist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "lumen-oss/gh-actions-lux@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "cachix/cachix-action@v12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "DeterminateSystems/update-flake-lock@v28",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "reitermarkus/automerge@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "update-flake-lock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "debug-adapter-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "language-server-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "rust-analyzer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "rust-lang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrcjkb/rustaceanvim",
+      "target": "rust-tools",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-07T18:41:02.254946+00:00",
+  "source_repo": "mrcjkb/rustaceanvim"
+}

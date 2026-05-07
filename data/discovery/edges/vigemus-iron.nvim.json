@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vigemus/iron.nvim",
+      "target": "async",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vigemus/iron.nvim",
+      "target": "lua-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vigemus/iron.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vigemus/iron.nvim",
+      "target": "neovim-lua",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vigemus/iron.nvim",
+      "target": "neovim-lua-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vigemus/iron.nvim",
+      "target": "neovim-lua-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vigemus/iron.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vigemus/iron.nvim",
+      "target": "repl",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-07T18:41:02.254946+00:00",
+  "source_repo": "Vigemus/iron.nvim"
+}

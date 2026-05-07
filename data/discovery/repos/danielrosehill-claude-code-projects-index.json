@@ -11,21 +11,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-filesystem-organiser-plugin",
+      "target": "danielrosehill/claude-gimp-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-favorite-plugins-installers-plugin",
+      "target": "danielrosehill/claude-gist-writer-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-get-toony-plugin",
+      "target": "danielrosehill/claude-github-explorer-plugin",
       "target_type": "repository"
     },
     {
@@ -64,7 +64,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T12:57:08.905717+00:00",
+  "fetched_at": "2026-05-07T19:13:43.278539+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -85,13 +85,13 @@
     "html_url": "https://github.com/danielrosehill/Claude-Code-Projects-Index",
     "language": "Astro",
     "pushed_at": "2026-05-04T08:07:33Z",
-    "stargazers_count": 460,
+    "stargazers_count": 461,
     "topics": [
       "claude-code",
       "claude-code-cli",
       "index-repos"
     ],
-    "updated_at": "2026-05-07T07:32:33Z"
+    "updated_at": "2026-05-07T14:35:56Z"
   },
   "repo_links": [
     {
@@ -101,17 +101,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-favorite-plugins-installers-plugin",
+      "full_name": "danielrosehill/claude-gimp-plugin",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-filesystem-organiser-plugin",
+      "full_name": "danielrosehill/claude-gist-writer-plugin",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-get-toony-plugin",
+      "full_name": "danielrosehill/claude-github-explorer-plugin",
       "source_file": "README.md"
     }
   ],

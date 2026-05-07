@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Deep-Research-Projects-0425",
+      "target": "assafelovic/gpt-researcher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Deep-Research-Projects-0425",
+      "target": "anotiawang/deep-research-web-ui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Deep-Research-Projects-0425",
+      "target": "aws-samples/sample-bedrock-deep-researcher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Deep-Research-Projects-0425",
+      "target": "aymenfurter/smartrag",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Deep-Research-Projects-0425",
+      "target": "deep-research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Deep-Research-Projects-0425",
+      "target": "deep-researcher",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-07T18:41:02.254946+00:00",
+  "source_repo": "danielrosehill/Deep-Research-Projects-0425"
+}

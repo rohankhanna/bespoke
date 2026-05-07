@@ -3746,6 +3746,9 @@
   "api-platform": [
     "api-platform"
   ],
+  "api-pricing": [
+    "api-pricing"
+  ],
   "api-rest": [
     "api-rest"
   ],
@@ -12744,6 +12747,9 @@
   ],
   "build package and push to pypi": [
     "build-package-and-push-to-pypi"
+  ],
+  "build package bundles": [
+    "build-package-bundles"
   ],
   "build package workflow": [
     "build-package-workflow"
@@ -27815,6 +27821,9 @@
   "deep-research": [
     "deep-research"
   ],
+  "deep-researcher": [
+    "deep-researcher"
+  ],
   "deep-residual-learning": [
     "deep-residual-learning"
   ],
@@ -29192,6 +29201,12 @@
   "deploy workflows (fly.io)": [
     "deploy-workflows-fly.io"
   ],
+  "deploy ymax release": [
+    "deploy-ymax-release"
+  ],
+  "deploy ymax1 planner (manual)": [
+    "deploy-ymax1-planner-manual"
+  ],
   "deploy \ud83c\udfd7\ufe0f": [
     "deploy"
   ],
@@ -29455,6 +29470,9 @@
   ],
   "detect differences (pr only)": [
     "detect-differences-pr-only"
+  ],
+  "detect flaky jobs": [
+    "detect-flaky-jobs"
   ],
   "detect incompatible changes": [
     "detect-incompatible-changes"
@@ -41679,6 +41697,9 @@
   "gradle nightly integration test": [
     "gradle-nightly-integration-test"
   ],
+  "gradle package": [
+    "gradle-package"
+  ],
   "gradle plugin tests": [
     "gradle-plugin-tests"
   ],
@@ -52337,6 +52358,9 @@
   "llm-aligment": [
     "llm-aligment"
   ],
+  "llm-apis": [
+    "llm-apis"
+  ],
   "llm-application": [
     "llm-application"
   ],
@@ -52411,6 +52435,9 @@
   ],
   "llm-playground": [
     "llm-playground"
+  ],
+  "llm-pricing": [
+    "llm-pricing"
   ],
   "llm-reasoning": [
     "llm-reasoning"
@@ -54713,6 +54740,9 @@
   ],
   "material-design-icons": [
     "material-design-icons"
+  ],
+  "material-design-lite": [
+    "material-design-lite"
   ],
   "material-icons": [
     "material-icons"
@@ -58051,6 +58081,9 @@
   "multimodal": [
     "multimodal"
   ],
+  "multimodal-ai": [
+    "multimodal-ai"
+  ],
   "multimodal-benchmarks": [
     "multimodal-benchmarks"
   ],
@@ -58962,6 +58995,9 @@
   ],
   "neovim-lua": [
     "neovim-lua"
+  ],
+  "neovim-lua-library": [
+    "neovim-lua-library"
   ],
   "neovim-lua-plugin": [
     "neovim-lua-plugin"
@@ -62153,6 +62189,9 @@
   ],
   "open-webui": [
     "open-webui"
+  ],
+  "open-weight": [
+    "open-weight"
   ],
   "open-world": [
     "open-world"
@@ -74376,6 +74415,9 @@
   "repo-stats": [
     "repo-stats"
   ],
+  "repo-templates": [
+    "repo-templates"
+  ],
   "repo-validation": [
     "repo-validation"
   ],
@@ -77120,6 +77162,9 @@
   ],
   "rust-test": [
     "rust-test"
+  ],
+  "rust-tools": [
+    "rust-tools"
   ],
   "rust-wasm": [
     "rust-wasm"
@@ -88582,6 +88627,9 @@
   "tooltips": [
     "tooltips"
   ],
+  "toon": [
+    "toon"
+  ],
   "top issues": [
     "top-issues"
   ],
@@ -94579,6 +94627,9 @@
   ],
   "vocoder": [
     "vocoder"
+  ],
+  "vocoders": [
+    "vocoders"
   ],
   "vocos": [
     "vocos"

@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "camilledejoye/nvim-lsp-selection-range",
+      "target": "nikvdp/nvim-lsp-config",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camilledejoye/nvim-lsp-selection-range",
+      "target": "language-server-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camilledejoye/nvim-lsp-selection-range",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camilledejoye/nvim-lsp-selection-range",
+      "target": "neovim-lsp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camilledejoye/nvim-lsp-selection-range",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-07T18:41:02.254946+00:00",
+  "source_repo": "camilledejoye/nvim-lsp-selection-range"
+}

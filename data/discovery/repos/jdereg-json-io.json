@@ -1,0 +1,170 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@beta",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@beta",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-publish.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-publish.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@bd5760595778326ba7f1441bcf7e88b49de61a25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-publish.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@bd5760595778326ba7f1441bcf7e88b49de61a25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "jdereg/json-io",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "jdereg/json-io",
+      "target": "anthropics/claude-code-action@beta",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "jdereg/json-io",
+      "target": "Claude Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "jdereg/json-io",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "jdereg/json-io",
+      "target": "anthropics/claude-code-action@beta",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "jdereg/json-io",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-publish.yml",
+      "source_repo": "jdereg/json-io",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-publish.yml",
+      "source_repo": "jdereg/json-io",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-publish.yml",
+      "source_repo": "jdereg/json-io",
+      "target": "gradle/gradle-build-action@bd5760595778326ba7f1441bcf7e88b49de61a25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-publish.yml",
+      "source_repo": "jdereg/json-io",
+      "target": "Gradle Package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T19:13:52.795100+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21696
+    },
+    {
+      "path": ".github/workflows/claude-code-review.yml",
+      "size": 3027
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 2297
+    },
+    {
+      "path": ".github/workflows/gradle-publish.yml",
+      "size": 1517
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Convert Java to JSON/TOON and back. Supports complex object graphs, cyclic references, and TOON format for 40-50% LLM token savings",
+    "fork": false,
+    "full_name": "jdereg/json-io",
+    "html_url": "https://github.com/jdereg/json-io",
+    "language": "Java",
+    "pushed_at": "2026-05-05T03:58:21Z",
+    "stargazers_count": 381,
+    "topics": [],
+    "updated_at": "2026-05-05T03:58:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Claude Code Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "term": "Claude Code Review"
+    },
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "Gradle Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-publish.yml",
+      "term": "Gradle Package"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Detect Flaky Jobs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Agoric/agoric-sdk",
+      "status": "candidate-context",
+      "text": "monorepo for the Agoric Javascript smart contract platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Agoric/agoric-sdk",
+      "status": "candidate-context",
+      "text": "Detect Flaky Jobs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Agoric/agoric-sdk",
+      "status": "candidate",
+      "text": "Detect Flaky Jobs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17707,
+      "status": "candidate",
+      "text": "trip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17684,
+      "status": "candidate",
+      "text": "odd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17593,
+      "status": "candidate",
+      "text": "barbarous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17593,
+      "status": "candidate",
+      "text": "janus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17593,
+      "status": "candidate",
+      "text": "madwoman"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Detect Flaky Jobs",
+  "concept_id": "detect-flaky-jobs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": ".github/workflows/detect-flaky-jobs.yml",
+      "source_repo": "Agoric/agoric-sdk"
+    }
+  ],
+  "first_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Detect Flaky Jobs",
+      "sense_id": "detect-flaky-jobs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

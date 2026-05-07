@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "repo-templates"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/AI-Dev-Repo-Template-1",
+      "status": "candidate-context",
+      "text": "Template repo seeded with every primitive from AI-Dev-Workspace-Primitives. Click 'Use this template' to scaffold a new AI-assisted project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Dev-Repo-Template-1",
+      "status": "candidate-context",
+      "text": "A GitHub **template repository** seeded with every primitive defined in [AI-Dev-Workspace-Primitives](https://github.com/danielrosehill/AI-Dev-Workspace-Primitives)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Dev-Repo-Template-1",
+      "status": "candidate",
+      "text": "A GitHub **template repository** seeded with every primitive defined in [AI-Dev-Workspace-Primitives](https://github.com/danielrosehill/AI-Dev-Workspace-Primitives)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "repo-templates",
+  "concept_id": "repo-templates",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Dev-Repo-Template-1"
+    }
+  ],
+  "first_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "repo-templates",
+      "sense_id": "repo-templates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

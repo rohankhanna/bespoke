@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "monorepo for the Agoric Javascript smart contract platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Package Bundles"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Package Bundles"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18705,
+      "status": "candidate",
+      "text": "pack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18644,
+      "status": "candidate",
+      "text": "bunching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18520,
+      "status": "candidate",
+      "text": "fiber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18520,
+      "status": "candidate",
+      "text": "vein"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18479,
+      "status": "candidate",
+      "text": "bundle up"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Package Bundles",
+      "sense_id": "build-package-bundles#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-package-bundles",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-package-bundles",
+  "observation_id": "560fa4cc9077997e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-07T18:41:02.254946+00:00",
+  "observed_text": "Build Package Bundles",
+  "source_context_snippet": "Build Package Bundles",
+  "source_file": ".github/workflows/build-bundles.yml",
+  "source_repo": "Agoric/agoric-sdk",
+  "source_repo_description": "monorepo for the Agoric Javascript smart contract platform"
+}

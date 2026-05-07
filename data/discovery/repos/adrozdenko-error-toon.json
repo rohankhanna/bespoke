@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "adrozdenko/error-toon",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "adrozdenko/error-toon",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "adrozdenko/error-toon",
+      "target": "Publish to crates.io",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T19:13:47.290746+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9075
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 731
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 889
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Compress verbose browser errors before pasting to LLMs. Save 70-90% tokens.",
+    "fork": false,
+    "full_name": "adrozdenko/error-toon",
+    "html_url": "https://github.com/adrozdenko/error-toon",
+    "language": "Rust",
+    "pushed_at": "2026-02-04T23:02:57Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-02-04T23:03:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish to crates.io",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to crates.io"
+    }
+  ]
+}

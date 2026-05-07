@@ -1,0 +1,105 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yl4579/HiFTNet",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yl4579/HiFTNet",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yl4579/HiFTNet",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yl4579/HiFTNet",
+      "target": "vocoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yl4579/HiFTNet",
+      "target": "vocoders",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T19:14:33.323116+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3065
+    },
+    {
+      "path": "requirements.txt",
+      "size": 106
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "HiFTNet: A Fast High-Quality Neural Vocoder with Harmonic-plus-Noise Filter and Inverse Short Time Fourier Transform",
+    "fork": false,
+    "full_name": "yl4579/HiFTNet",
+    "html_url": "https://github.com/yl4579/HiFTNet",
+    "language": "Python",
+    "pushed_at": "2025-01-14T00:47:28Z",
+    "stargazers_count": 252,
+    "topics": [
+      "deep-learning",
+      "speech-synthesis",
+      "text-to-speech",
+      "tts",
+      "vocoder",
+      "vocoders"
+    ],
+    "updated_at": "2026-04-29T08:12:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> Recent advancements in speech synthesis have leveraged GAN-based networks like HiFi-GAN and BigVGAN to produce high-fidelity waveforms from mel-spectrograms. However, these networks are computationally expensive and parameter-heavy. iSTFTNet addresses these limitations by inte\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "> Recent advancements in speech synthesis have leveraged GAN-based networks like HiFi-GAN and BigVGAN to produce high-fidelity waveforms from mel-spectrograms. However, these networks are computationally expensive and parameter-heavy. iSTFTNet addresses these limitations by inte\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "> Recent advancements in speech synthesis have leveraged GAN-based networks like HiFi-GAN and BigVGAN to produce high-fidelity waveforms from mel-spectrograms. However, these networks are computationally expensive and parameter-heavy. iSTFTNet addresses these limitations by inte\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    },
+    {
+      "context_snippet": "> Recent advancements in speech synthesis have leveraged GAN-based networks like HiFi-GAN and BigVGAN to produce high-fidelity waveforms from mel-spectrograms. However, these networks are computationally expensive and parameter-heavy. iSTFTNet addresses these limitations by inte\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vocoder"
+    },
+    {
+      "context_snippet": "> Recent advancements in speech synthesis have leveraged GAN-based networks like HiFi-GAN and BigVGAN to produce high-fidelity waveforms from mel-spectrograms. However, these networks are computationally expensive and parameter-heavy. iSTFTNet addresses these limitations by inte\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vocoders"
+    }
+  ]
+}

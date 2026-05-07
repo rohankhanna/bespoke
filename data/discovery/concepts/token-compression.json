@@ -19,6 +19,18 @@
       "source_repo": "xuyang-liu16/Awesome-Token-level-Model-Compression",
       "status": "candidate-context",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HelgeSverre/toon-php",
+      "status": "candidate-context",
+      "text": "Token-Oriented Object Notation - A compact data format for reducing token consumption when sending structured data to LLMs (PHP implementation)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HelgeSverre/toon-php",
+      "status": "candidate-context",
+      "text": "[![Packagist Version](https://img.shields.io/packagist/v/helgesverre/toon)](https://packagist.org/packages/helgesverre/toon)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "xuyang-liu16/Awesome-Token-level-Model-Compression",
       "status": "candidate",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HelgeSverre/toon-php",
+      "status": "candidate",
+      "text": "[![Packagist Version](https://img.shields.io/packagist/v/helgesverre/toon)](https://packagist.org/packages/helgesverre/toon)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": null,
       "source_repo": "xuyang-liu16/Awesome-Token-level-Model-Compression"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "HelgeSverre/toon-php"
     }
   ],
   "first_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
   "lexical_providers": [
     "datamuse"
   ],

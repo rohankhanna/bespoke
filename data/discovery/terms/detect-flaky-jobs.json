@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/detect-flaky-jobs.yml",
+      "source_repo": "Agoric/agoric-sdk"
+    }
+  ],
+  "term": "Detect Flaky Jobs"
+}

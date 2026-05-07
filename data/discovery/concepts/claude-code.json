@@ -1846,6 +1846,18 @@
       "source_repo": "danielrosehill/Claude-ADHD-Research-Workspace",
       "status": "candidate-context",
       "text": "Just in case you're wondering, this is a public repo for two reasons:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jdereg/json-io",
+      "status": "candidate-context",
+      "text": "Convert Java to JSON/TOON and back. Supports complex object graphs, cyclic references, and TOON format for 40-50% LLM token savings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdereg/json-io",
+      "status": "candidate-context",
+      "text": "Claude Code"
     }
   ],
   "candidate_glosses": [
@@ -2766,6 +2778,12 @@
       "source_repo": "danielrosehill/Claude-ADHD-Research-Workspace",
       "status": "candidate",
       "text": "Just in case you're wondering, this is a public repo for two reasons:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdereg/json-io",
+      "status": "candidate",
+      "text": "Claude Code"
     }
   ],
   "candidate_related_terms": [
@@ -5635,11 +5653,53 @@
       "observed_at": "2026-05-07T12:51:40.300011+00:00",
       "source_file": null,
       "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "jdereg/json-io"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
   "lexical_providers": [
     "datamuse"
   ],

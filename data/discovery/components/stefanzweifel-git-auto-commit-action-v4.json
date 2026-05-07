@@ -1,7 +1,7 @@
 {
   "component": "stefanzweifel/git-auto-commit-action@v4",
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -262,6 +262,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/alpha.yml",
       "source_repo": "pulse-browser/browser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/daily.yml",
+      "source_repo": "berachain/polaris"
     }
   ]
 }

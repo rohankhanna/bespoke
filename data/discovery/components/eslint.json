@@ -1,7 +1,7 @@
 {
   "component": "eslint",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -9492,6 +9492,16 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "WisdomShell/codeshell-vscode"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "0x4139/cosmos-discord-faucet"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Agoric/agoric-sdk"
     }
   ]
 }

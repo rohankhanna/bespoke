@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xZunia/ToonSharp",
+      "target": "johannschopplich/toon",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T19:13:45.528147+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6096
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A high-performance, .NET 9 library for serializing and deserializing data in the TOON format - a human-readable, line-oriented data serialization format optimized for LLM contexts.",
+    "fork": false,
+    "full_name": "0xZunia/ToonSharp",
+    "html_url": "https://github.com/0xZunia/ToonSharp",
+    "language": "C#",
+    "pushed_at": "2025-10-30T14:15:10Z",
+    "stargazers_count": 74,
+    "topics": [],
+    "updated_at": "2026-04-27T19:49:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "johannschopplich/toon",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

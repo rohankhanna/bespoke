@@ -127,6 +127,18 @@
       "source_repo": "epwalsh/obsidian.nvim",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">obsidian.nvim</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hrsh7th/cmp-nvim-lsp",
+      "status": "candidate-context",
+      "text": "nvim-cmp source for neovim builtin LSP client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrsh7th/cmp-nvim-lsp",
+      "status": "candidate-context",
+      "text": "nvim-cmp source for neovim's built-in language server client."
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "epwalsh/obsidian.nvim",
       "status": "candidate",
       "text": "<h1 align=\"center\">obsidian.nvim</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrsh7th/cmp-nvim-lsp",
+      "status": "candidate",
+      "text": "nvim-cmp source for neovim's built-in language server client."
     }
   ],
   "candidate_related_terms": [],
@@ -388,11 +406,23 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": null,
       "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "hrsh7th/cmp-nvim-lsp"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,46 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Agents.md-Templates",
+      "target": "openai-codex",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T19:14:05.014575+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3545
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Template agents.md templates for use with OpenAI Codex",
+    "fork": false,
+    "full_name": "danielrosehill/Agents.md-Templates",
+    "html_url": "https://github.com/danielrosehill/Agents.md-Templates",
+    "language": "Python",
+    "pushed_at": "2025-09-17T18:16:23Z",
+    "stargazers_count": 2,
+    "topics": [
+      "codex",
+      "openai",
+      "openai-codex"
+    ],
+    "updated_at": "2026-02-03T08:13:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![OpenAI Codex](https://img.shields.io/badge/OpenAI-Codex-412991?logo=openai&logoColor=white)](https://openai.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openai-codex"
+    }
+  ]
+}

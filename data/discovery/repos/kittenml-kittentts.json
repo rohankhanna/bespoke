@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T19:14:38.878146+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7216
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1020
+    },
+    {
+      "path": "requirements.txt",
+      "size": 71
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " State-of-the-art TTS model under 25MB \ud83d\ude3b ",
+    "fork": false,
+    "full_name": "KittenML/KittenTTS",
+    "html_url": "https://github.com/KittenML/KittenTTS",
+    "language": "Python",
+    "pushed_at": "2026-03-27T00:06:45Z",
+    "stargazers_count": 13744,
+    "topics": [],
+    "updated_at": "2026-05-07T15:57:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

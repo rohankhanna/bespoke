@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Dev-Workspace-Primitives",
+      "target": "danielrosehill/environment.md",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Dev-Workspace-Primitives",
+      "target": "danielrosehill/budget.md",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Dev-Workspace-Primitives",
+      "target": "danielrosehill/docs.md",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Dev-Workspace-Primitives",
+      "target": "danielrosehill/grounding.md",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-07T18:41:02.254946+00:00",
+  "source_repo": "danielrosehill/AI-Dev-Workspace-Primitives"
+}

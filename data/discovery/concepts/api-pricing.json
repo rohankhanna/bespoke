@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "api-pricing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/OR-Models-With-Tools-0811",
+      "status": "candidate-context",
+      "text": "Price comoparison and list"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/OR-Models-With-Tools-0811",
+      "status": "candidate-context",
+      "text": "![alt text](screenshots/1.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/OR-Models-With-Tools-0811",
+      "status": "candidate",
+      "text": "![alt text](screenshots/1.png)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "api-pricing",
+  "concept_id": "api-pricing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/OR-Models-With-Tools-0811"
+    }
+  ],
+  "first_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "api-pricing",
+      "sense_id": "api-pricing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

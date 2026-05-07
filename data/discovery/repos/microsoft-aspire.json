@@ -1,42 +1,17 @@
 {
   "components": [
     {
-      "component": "github/gh-aw-actions/setup@239aec45b78c8799417efdd5bc6d8cc036629ec1",
+      "component": "github/gh-aw-actions/setup@ff0525b685481744f490a0d362753d8001e4b39d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
     {
-      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
     {
-      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
-    },
-    {
-      "component": "github/gh-aw-actions/setup@239aec45b78c8799417efdd5bc6d8cc036629ec1",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
-    },
-    {
-      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
-    },
-    {
-      "component": "github/gh-aw-actions/setup-cli@239aec45b78c8799417efdd5bc6d8cc036629ec1",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
-    },
-    {
-      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
@@ -46,17 +21,42 @@
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
     {
-      "component": "github/gh-aw-actions/setup@239aec45b78c8799417efdd5bc6d8cc036629ec1",
+      "component": "github/gh-aw-actions/setup@ff0525b685481744f490a0d362753d8001e4b39d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
     {
-      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
     {
-      "component": "github/gh-aw-actions/setup-cli@239aec45b78c8799417efdd5bc6d8cc036629ec1",
+      "component": "github/gh-aw-actions/setup-cli@ff0525b685481744f490a0d362753d8001e4b39d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@ff0525b685481744f490a0d362753d8001e4b39d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup-cli@ff0525b685481744f490a0d362753d8001e4b39d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
@@ -71,7 +71,7 @@
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
     {
-      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
@@ -81,22 +81,22 @@
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
     {
-      "component": "github/gh-aw-actions/setup@239aec45b78c8799417efdd5bc6d8cc036629ec1",
+      "component": "github/gh-aw-actions/setup@ff0525b685481744f490a0d362753d8001e4b39d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
     {
-      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
     {
-      "component": "github/gh-aw-actions/setup-cli@239aec45b78c8799417efdd5bc6d8cc036629ec1",
+      "component": "github/gh-aw-actions/setup-cli@ff0525b685481744f490a0d362753d8001e4b39d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
     {
-      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
@@ -301,14 +301,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml",
       "source_repo": "microsoft/aspire",
-      "target": "github/gh-aw-actions/setup@239aec45b78c8799417efdd5bc6d8cc036629ec1",
+      "target": "github/gh-aw-actions/setup@ff0525b685481744f490a0d362753d8001e4b39d",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml",
       "source_repo": "microsoft/aspire",
-      "target": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "target_type": "component"
     },
     {
@@ -322,7 +322,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml",
       "source_repo": "microsoft/aspire",
-      "target": "github/gh-aw-actions/setup-cli@239aec45b78c8799417efdd5bc6d8cc036629ec1",
+      "target": "github/gh-aw-actions/setup-cli@ff0525b685481744f490a0d362753d8001e4b39d",
       "target_type": "component"
     },
     {
@@ -522,7 +522,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T10:38:37.690901+00:00",
+  "fetched_at": "2026-05-07T18:48:53.608596+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -534,7 +534,7 @@
     },
     {
       "path": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml",
-      "size": 12995
+      "size": 13260
     },
     {
       "path": ".github/workflows/apply-test-attributes.yml",
@@ -558,7 +558,7 @@
     },
     {
       "path": ".github/workflows/build-cli-e2e-image.yml",
-      "size": 6371
+      "size": 6736
     },
     {
       "path": ".github/workflows/build-cli-native-archives.yml",
@@ -574,7 +574,7 @@
     "full_name": "microsoft/aspire",
     "html_url": "https://github.com/microsoft/aspire",
     "language": "C#",
-    "pushed_at": "2026-05-07T08:15:16Z",
+    "pushed_at": "2026-05-07T18:35:04Z",
     "stargazers_count": 5896,
     "topics": [
       "cloud",
@@ -583,7 +583,7 @@
       "python",
       "typescript"
     ],
-    "updated_at": "2026-05-07T08:12:42Z"
+    "updated_at": "2026-05-07T18:03:29Z"
   },
   "repo_links": [],
   "terms": [

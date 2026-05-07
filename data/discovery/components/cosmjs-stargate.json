@@ -1,7 +1,7 @@
 {
   "component": "@cosmjs/stargate",
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -17,6 +17,11 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "dydxprotocol/v4-web"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "0x4139/cosmos-discord-faucet"
     }
   ]
 }

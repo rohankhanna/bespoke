@@ -43,6 +43,18 @@
       "source_repo": "BasedHardware/omi",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Audio-Understanding-Test-Prompts",
+      "status": "candidate-context",
+      "text": "A few test prompts to be used when evaluating audio multimodal models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Audio-Understanding-Test-Prompts",
+      "status": "candidate-context",
+      "text": "A bench of test prompts designed to assist those evaluating audio multimodal or omni-modal multimodal AI models."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "BasedHardware/omi",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Audio-Understanding-Test-Prompts",
+      "status": "candidate",
+      "text": "A bench of test prompts designed to assist those evaluating audio multimodal or omni-modal multimodal AI models."
     }
   ],
   "candidate_related_terms": [
@@ -132,11 +150,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "BasedHardware/omi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Audio-Understanding-Test-Prompts"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
   "lexical_providers": [
     "datamuse"
   ],

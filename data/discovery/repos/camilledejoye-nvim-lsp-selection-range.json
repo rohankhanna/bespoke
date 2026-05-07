@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "camilledejoye/nvim-lsp-selection-range",
+      "target": "nikvdp/nvim-lsp-config",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camilledejoye/nvim-lsp-selection-range",
+      "target": "language-server-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camilledejoye/nvim-lsp-selection-range",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camilledejoye/nvim-lsp-selection-range",
+      "target": "neovim-lsp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camilledejoye/nvim-lsp-selection-range",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T18:57:10.701503+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2950
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Add a handler for the selection range feature defined by LSP",
+    "fork": false,
+    "full_name": "camilledejoye/nvim-lsp-selection-range",
+    "html_url": "https://github.com/camilledejoye/nvim-lsp-selection-range",
+    "language": "Lua",
+    "pushed_at": "2022-10-23T13:32:47Z",
+    "stargazers_count": 12,
+    "topics": [
+      "language-server-protocol",
+      "lsp",
+      "neovim",
+      "neovim-lsp",
+      "neovim-plugin"
+    ],
+    "updated_at": "2026-05-01T10:17:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nikvdp/nvim-lsp-config",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "* Neovim >= `v0.6.1`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server-protocol"
+    },
+    {
+      "context_snippet": "* Neovim >= `v0.6.1`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "* Neovim >= `v0.6.1`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-lsp"
+    },
+    {
+      "context_snippet": "* Neovim >= `v0.6.1`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    }
+  ]
+}

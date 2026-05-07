@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -2211,6 +2211,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "duke-git/lancet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "berachain/polaris"
     }
   ],
   "term": "golang"

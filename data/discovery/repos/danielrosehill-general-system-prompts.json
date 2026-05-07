@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T19:14:04.136682+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5388
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Some system prompts intended to (attempt to) configure neutral behavior from LLMs",
+    "fork": false,
+    "full_name": "danielrosehill/General-System-Prompts",
+    "html_url": "https://github.com/danielrosehill/General-System-Prompts",
+    "language": null,
+    "pushed_at": "2025-02-25T00:56:08Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-04-16T20:48:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

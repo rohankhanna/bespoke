@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -441,6 +441,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "mrcjkb/haskell-tools.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrcjkb/rustaceanvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vigemus/iron.nvim"
     }
   ],
   "term": "nvim"

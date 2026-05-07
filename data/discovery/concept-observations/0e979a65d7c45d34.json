@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of links to a few AI \"deep research\" projects and agents, April 2025"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*A non-exhaustive collection of open-source implementations of deep research projects compiled on April 6, 2025.*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*A non-exhaustive collection of open-source implementations of deep research projects compiled on April 6, 2025.*"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deep-research",
+      "sense_id": "deep-research#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deep-research",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deep-research",
+  "observation_id": "0e979a65d7c45d34",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T18:41:02.254946+00:00",
+  "observed_text": "deep-research",
+  "source_context_snippet": "*A non-exhaustive collection of open-source implementations of deep research projects compiled on April 6, 2025.*",
+  "source_file": null,
+  "source_repo": "danielrosehill/Deep-Research-Projects-0425",
+  "source_repo_description": "A collection of links to a few AI \"deep research\" projects and agents, April 2025"
+}

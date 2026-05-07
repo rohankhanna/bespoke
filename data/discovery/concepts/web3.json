@@ -211,6 +211,18 @@
       "source_repo": "left-curve/left-curve",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "berachain/polaris",
+      "status": "candidate-context",
+      "text": "Polaris is a modular implementation of the Ethereum Virtual Machine (EVM). It can be easily integrated into any consensus engine or application, including the Cosmos-SDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berachain/polaris",
+      "status": "candidate-context",
+      "text": "This project is deprecated. If you are interested in maintaining it, please contact itsdevbear on GitHub or Twitter."
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "left-curve/left-curve",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berachain/polaris",
+      "status": "candidate",
+      "text": "This project is deprecated. If you are interested in maintaining it, please contact itsdevbear on GitHub or Twitter."
     }
   ],
   "candidate_related_terms": [
@@ -968,11 +986,41 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": null,
       "source_repo": "web3/web3.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "berachain/polaris"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/eth-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/TypeChain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "wevm/abitype"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "web3/web3.js"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
   "lexical_providers": [
     "datamuse"
   ],

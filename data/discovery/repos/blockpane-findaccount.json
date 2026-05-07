@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T19:02:17.806829+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2243
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1348
+    },
+    {
+      "path": "go.mod",
+      "size": 5239
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Helps identify if an account exists on multiple cosmos chains with the same address",
+    "fork": false,
+    "full_name": "blockpane/findaccount",
+    "html_url": "https://github.com/blockpane/findaccount",
+    "language": "Go",
+    "pushed_at": "2022-06-09T18:10:47Z",
+    "stargazers_count": 37,
+    "topics": [],
+    "updated_at": "2025-09-22T00:38:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

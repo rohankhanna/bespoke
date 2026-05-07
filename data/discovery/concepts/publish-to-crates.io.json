@@ -170,6 +170,18 @@
       "source_repo": "utilityai/llama-cpp-rs",
       "status": "candidate-context",
       "text": "Publish to Crates.io"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adrozdenko/error-toon",
+      "status": "candidate-context",
+      "text": "Compress verbose browser errors before pasting to LLMs. Save 70-90% tokens."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrozdenko/error-toon",
+      "status": "candidate-context",
+      "text": "Publish to crates.io"
     }
   ],
   "candidate_glosses": [
@@ -256,6 +268,12 @@
       "source_repo": "utilityai/llama-cpp-rs",
       "status": "candidate",
       "text": "Publish to Crates.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrozdenko/error-toon",
+      "status": "candidate",
+      "text": "Publish to crates.io"
     }
   ],
   "candidate_related_terms": [
@@ -569,11 +587,17 @@
       "observed_at": "2026-05-07T12:51:40.300011+00:00",
       "source_file": ".github/workflows/release-version.yml",
       "source_repo": "godot-rust/gdnative"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "adrozdenko/error-toon"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
   "lexical_providers": [
     "datamuse"
   ],

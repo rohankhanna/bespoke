@@ -1,0 +1,102 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "withastro/action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "danielrosehill/OR-Models-With-Tools-0811",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "danielrosehill/OR-Models-With-Tools-0811",
+      "target": "withastro/action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "danielrosehill/OR-Models-With-Tools-0811",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "danielrosehill/OR-Models-With-Tools-0811",
+      "target": "Deploy to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/OR-Models-With-Tools-0811",
+      "target": "api-pricing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T19:13:58.215960+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4187
+    },
+    {
+      "path": "requirements.txt",
+      "size": 9
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 708
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Price comoparison and list",
+    "fork": false,
+    "full_name": "danielrosehill/OR-Models-With-Tools-0811",
+    "html_url": "https://github.com/danielrosehill/OR-Models-With-Tools-0811",
+    "language": "Python",
+    "pushed_at": "2025-11-08T23:07:21Z",
+    "stargazers_count": 0,
+    "topics": [
+      "api-pricing"
+    ],
+    "updated_at": "2025-11-08T23:07:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Deploy to GitHub Pages"
+    },
+    {
+      "context_snippet": "![alt text](screenshots/1.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-pricing"
+    }
+  ]
+}

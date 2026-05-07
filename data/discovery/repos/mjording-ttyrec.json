@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T18:57:09.539631+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ttyrec is a tty recorder. Recorded data can be played back with the included ttyplay command. ttyrec is just a derivative of script command for recording timing information with microsecond accuracy as well. It can record emacs -nw, vi, lynx, or any programs running on tty.  ",
+    "fork": false,
+    "full_name": "mjording/ttyrec",
+    "html_url": "https://github.com/mjording/ttyrec",
+    "language": "C",
+    "pushed_at": "2021-09-29T18:56:05Z",
+    "stargazers_count": 421,
+    "topics": [],
+    "updated_at": "2026-04-18T14:44:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

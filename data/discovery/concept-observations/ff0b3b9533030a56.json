@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Some cost estimates for using LLMs via API versus web UI services (like ChatGPT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![alt text](images/sloth-and-old-computer.webp)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![alt text](images/sloth-and-old-computer.webp)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "llm-apis",
+      "sense_id": "llm-apis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "llm-apis",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "llm-apis",
+  "observation_id": "ff0b3b9533030a56",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T18:41:02.254946+00:00",
+  "observed_text": "llm-apis",
+  "source_context_snippet": "![alt text](images/sloth-and-old-computer.webp)",
+  "source_file": null,
+  "source_repo": "danielrosehill/LLM-API-Price-Estimates",
+  "source_repo_description": "Some cost estimates for using LLMs via API versus web UI services (like ChatGPT)"
+}

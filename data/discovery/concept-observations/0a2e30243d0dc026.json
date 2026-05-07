@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "HiFTNet: A Fast High-Quality Neural Vocoder with Harmonic-plus-Noise Filter and Inverse Short Time Fourier Transform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Recent advancements in speech synthesis have leveraged GAN-based networks like HiFi-GAN and BigVGAN to produce high-fidelity waveforms from mel-spectrograms. However, these networks are computationally expensive and parameter-heavy. iSTFTNet addresses these limitations by inte\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Recent advancements in speech synthesis have leveraged GAN-based networks like HiFi-GAN and BigVGAN to produce high-fidelity waveforms from mel-spectrograms. However, these networks are computationally expensive and parameter-heavy. iSTFTNet addresses these limitations by inte\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9949546,
+      "status": "candidate",
+      "text": "formant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9949544,
+      "status": "candidate",
+      "text": "vocoid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9949543,
+      "status": "candidate",
+      "text": "transducers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9949542,
+      "status": "candidate",
+      "text": "resonators"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9949541,
+      "status": "candidate",
+      "text": "microphones"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vocoders",
+      "sense_id": "vocoders#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vocoders",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vocoders",
+  "observation_id": "0a2e30243d0dc026",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T18:41:02.254946+00:00",
+  "observed_text": "vocoders",
+  "source_context_snippet": "> Recent advancements in speech synthesis have leveraged GAN-based networks like HiFi-GAN and BigVGAN to produce high-fidelity waveforms from mel-spectrograms. However, these networks are computationally expensive and parameter-heavy. iSTFTNet addresses these limitations by inte\u2026",
+  "source_file": null,
+  "source_repo": "yl4579/HiFTNet",
+  "source_repo_description": "HiFTNet: A Fast High-Quality Neural Vocoder with Harmonic-plus-Noise Filter and Inverse Short Time Fourier Transform"
+}

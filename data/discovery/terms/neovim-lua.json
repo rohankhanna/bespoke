@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -91,6 +91,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "kevinhwang91/nvim-ufo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vigemus/iron.nvim"
     }
   ],
   "term": "neovim-lua"

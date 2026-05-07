@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hrsh7th/cmp-nvim-lsp",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hrsh7th/cmp-nvim-lsp",
+      "target": "nvim-cmp",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-07T18:41:02.254946+00:00",
+  "source_repo": "hrsh7th/cmp-nvim-lsp"
+}

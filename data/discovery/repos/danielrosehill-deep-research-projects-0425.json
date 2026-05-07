@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Deep-Research-Projects-0425",
+      "target": "assafelovic/gpt-researcher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Deep-Research-Projects-0425",
+      "target": "anotiawang/deep-research-web-ui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Deep-Research-Projects-0425",
+      "target": "aws-samples/sample-bedrock-deep-researcher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Deep-Research-Projects-0425",
+      "target": "aymenfurter/smartrag",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Deep-Research-Projects-0425",
+      "target": "deep-research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Deep-Research-Projects-0425",
+      "target": "deep-researcher",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T19:14:30.360925+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15362
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of links to a few AI \"deep research\" projects and agents, April 2025",
+    "fork": false,
+    "full_name": "danielrosehill/Deep-Research-Projects-0425",
+    "html_url": "https://github.com/danielrosehill/Deep-Research-Projects-0425",
+    "language": null,
+    "pushed_at": "2025-04-05T21:24:19Z",
+    "stargazers_count": 4,
+    "topics": [
+      "agents",
+      "ai",
+      "deep-research",
+      "deep-researcher"
+    ],
+    "updated_at": "2025-12-03T14:30:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anotiawang/deep-research-web-ui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "assafelovic/gpt-researcher",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-samples/sample-bedrock-deep-researcher",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aymenfurter/smartrag",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "*A non-exhaustive collection of open-source implementations of deep research projects compiled on April 6, 2025.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-research"
+    },
+    {
+      "context_snippet": "*A non-exhaustive collection of open-source implementations of deep research projects compiled on April 6, 2025.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-researcher"
+    }
+  ]
+}

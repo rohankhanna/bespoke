@@ -232,6 +232,18 @@
       "source_repo": "great-expectations/great_expectations",
       "status": "candidate-context",
       "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/great_expectations.svg)](https://pypi.python.org/pypi/great_expectations)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "berachain/polaris",
+      "status": "candidate-context",
+      "text": "Polaris is a modular implementation of the Ethereum Virtual Machine (EVM). It can be easily integrated into any consensus engine or application, including the Cosmos-SDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berachain/polaris",
+      "status": "candidate-context",
+      "text": "pipeline"
     }
   ],
   "candidate_glosses": [
@@ -348,6 +360,12 @@
       "source_repo": "great-expectations/great_expectations",
       "status": "candidate",
       "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/great_expectations.svg)](https://pypi.python.org/pypi/great_expectations)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berachain/polaris",
+      "status": "candidate",
+      "text": "pipeline"
     }
   ],
   "candidate_related_terms": [
@@ -1061,11 +1079,23 @@
       "observed_at": "2026-05-07T12:51:40.300011+00:00",
       "source_file": null,
       "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "berachain/polaris"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "tc39/proposal-hack-pipes"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
   "lexical_providers": [
     "datamuse"
   ],

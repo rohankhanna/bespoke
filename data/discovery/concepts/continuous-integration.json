@@ -2783,6 +2783,18 @@
       "source_repo": "inversify/InversifyJS",
       "status": "candidate-context",
       "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nari-labs/dia",
+      "status": "candidate-context",
+      "text": "A TTS model capable of generating ultra-realistic dialogue in one pass."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nari-labs/dia",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
     }
   ],
   "candidate_glosses": [
@@ -4181,6 +4193,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "inversify/InversifyJS",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nari-labs/dia",
       "status": "candidate",
       "text": "Continuous Integration"
     }
@@ -6926,11 +6944,41 @@
       "observed_at": "2026-05-07T12:51:40.300011+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "docker-archive-public/docker.compose-ecs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "actions/container-toolkit-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "emacs-eldev/eldev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "rocq-prover/docker-opam-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jawah/charset_normalizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "nari-labs/dia"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
   "lexical_providers": [
     "datamuse"
   ],

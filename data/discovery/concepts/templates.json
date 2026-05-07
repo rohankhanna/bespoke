@@ -235,6 +235,18 @@
       "source_repo": "11ty/eleventy",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"https://www.11ty.dev/img/logo-github.svg\" width=\"200\" height=\"200\" alt=\"eleventy Logo\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/AI-Dev-Repo-Template-1",
+      "status": "candidate-context",
+      "text": "Template repo seeded with every primitive from AI-Dev-Workspace-Primitives. Click 'Use this template' to scaffold a new AI-assisted project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Dev-Repo-Template-1",
+      "status": "candidate-context",
+      "text": "A GitHub **template repository** seeded with every primitive defined in [AI-Dev-Workspace-Primitives](https://github.com/danielrosehill/AI-Dev-Workspace-Primitives)."
     }
   ],
   "candidate_glosses": [
@@ -351,6 +363,12 @@
       "source_repo": "11ty/eleventy",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"https://www.11ty.dev/img/logo-github.svg\" width=\"200\" height=\"200\" alt=\"eleventy Logo\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Dev-Repo-Template-1",
+      "status": "candidate",
+      "text": "A GitHub **template repository** seeded with every primitive defined in [AI-Dev-Workspace-Primitives](https://github.com/danielrosehill/AI-Dev-Workspace-Primitives)."
     }
   ],
   "candidate_related_terms": [
@@ -514,11 +532,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "11ty/eleventy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Dev-Repo-Template-1"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
   "lexical_providers": [
     "datamuse"
   ],

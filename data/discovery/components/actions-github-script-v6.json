@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v6",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -662,6 +662,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/enforce_branch_name.yml",
       "source_repo": "emilk/egui_plot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-base-branch-change.yml",
+      "source_repo": "Agoric/agoric-sdk"
     }
   ]
 }

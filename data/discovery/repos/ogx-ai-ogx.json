@@ -301,7 +301,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T10:34:00.576573+00:00",
+  "fetched_at": "2026-05-07T18:42:20.290320+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -313,7 +313,7 @@
     },
     {
       "path": ".github/workflows/README.md",
-      "size": 3920
+      "size": 3825
     },
     {
       "path": ".github/workflows/backward-compat.yml",
@@ -353,10 +353,10 @@
     "full_name": "ogx-ai/ogx",
     "html_url": "https://github.com/ogx-ai/ogx",
     "language": "Python",
-    "pushed_at": "2026-05-07T10:26:45Z",
+    "pushed_at": "2026-05-07T15:55:56Z",
     "stargazers_count": 8363,
     "topics": [],
-    "updated_at": "2026-05-07T09:05:56Z"
+    "updated_at": "2026-05-07T16:06:11Z"
   },
   "repo_links": [],
   "terms": [

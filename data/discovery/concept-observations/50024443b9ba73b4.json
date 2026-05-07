@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Token-Oriented Object Notation - A compact data format for reducing token consumption when sending structured data to LLMs (PHP implementation)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Packagist Version](https://img.shields.io/packagist/v/helgesverre/toon)](https://packagist.org/packages/helgesverre/toon)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Packagist Version](https://img.shields.io/packagist/v/helgesverre/toon)](https://packagist.org/packages/helgesverre/toon)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "data-format",
+      "sense_id": "data-format#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "data-format",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "data-format",
+  "observation_id": "50024443b9ba73b4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T18:41:02.254946+00:00",
+  "observed_text": "data-format",
+  "source_context_snippet": "[![Packagist Version](https://img.shields.io/packagist/v/helgesverre/toon)](https://packagist.org/packages/helgesverre/toon)",
+  "source_file": null,
+  "source_repo": "HelgeSverre/toon-php",
+  "source_repo_description": "Token-Oriented Object Notation - A compact data format for reducing token consumption when sending structured data to LLMs (PHP implementation)"
+}

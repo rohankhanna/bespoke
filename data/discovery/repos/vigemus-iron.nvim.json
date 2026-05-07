@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vigemus/iron.nvim",
+      "target": "async",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vigemus/iron.nvim",
+      "target": "lua-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vigemus/iron.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vigemus/iron.nvim",
+      "target": "neovim-lua",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vigemus/iron.nvim",
+      "target": "neovim-lua-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vigemus/iron.nvim",
+      "target": "neovim-lua-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vigemus/iron.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vigemus/iron.nvim",
+      "target": "repl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T18:57:14.153835+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8792
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Interactive Repl Over Neovim",
+    "fork": false,
+    "full_name": "Vigemus/iron.nvim",
+    "html_url": "https://github.com/Vigemus/iron.nvim",
+    "language": "Lua",
+    "pushed_at": "2026-02-20T23:54:30Z",
+    "stargazers_count": 1338,
+    "topics": [
+      "async",
+      "lua-plugin",
+      "neovim",
+      "neovim-lua",
+      "neovim-lua-library",
+      "neovim-lua-plugin",
+      "nvim",
+      "repl"
+    ],
+    "updated_at": "2026-05-06T21:56:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Interactive Repls Over Neovim.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "async"
+    },
+    {
+      "context_snippet": "Interactive Repls Over Neovim.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lua-plugin"
+    },
+    {
+      "context_snippet": "Interactive Repls Over Neovim.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Interactive Repls Over Neovim.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-lua"
+    },
+    {
+      "context_snippet": "Interactive Repls Over Neovim.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-lua-library"
+    },
+    {
+      "context_snippet": "Interactive Repls Over Neovim.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-lua-plugin"
+    },
+    {
+      "context_snippet": "Interactive Repls Over Neovim.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "Interactive Repls Over Neovim.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repl"
+    }
+  ]
+}

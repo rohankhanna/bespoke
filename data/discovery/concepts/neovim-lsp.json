@@ -67,6 +67,18 @@
       "source_repo": "folke/neoconf.nvim",
       "status": "candidate-context",
       "text": "**neoconf.nvim** is a Neovim plugin to manage global and project-local settings."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camilledejoye/nvim-lsp-selection-range",
+      "status": "candidate-context",
+      "text": "Add a handler for the selection range feature defined by LSP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camilledejoye/nvim-lsp-selection-range",
+      "status": "candidate-context",
+      "text": "* Neovim >= `v0.6.1`"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "folke/neoconf.nvim",
       "status": "candidate",
       "text": "**neoconf.nvim** is a Neovim plugin to manage global and project-local settings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camilledejoye/nvim-lsp-selection-range",
+      "status": "candidate",
+      "text": "* Neovim >= `v0.6.1`"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "folke/neoconf.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "camilledejoye/nvim-lsp-selection-range"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
   "lexical_providers": [
     "datamuse"
   ],

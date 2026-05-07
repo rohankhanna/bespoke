@@ -1480,6 +1480,18 @@
       "source_repo": "mrcjkb/haskell-tools.nvim",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "status": "candidate-context",
+      "text": "\ud83e\udd80 Supercharge your Rust experience in Neovim! A heavily modified fork of rust-tools.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/rustaceanvim",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable -->"
     }
   ],
   "candidate_glosses": [
@@ -2218,6 +2230,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mrcjkb/haskell-tools.nvim",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/rustaceanvim",
       "status": "candidate",
       "text": "<!-- markdownlint-disable -->"
     }
@@ -3685,11 +3703,35 @@
       "observed_at": "2026-05-07T12:51:40.300011+00:00",
       "source_file": null,
       "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "mrcjkb/rustaceanvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gina"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A few test prompts to be used when evaluating audio multimodal models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A bench of test prompts designed to assist those evaluating audio multimodal or omni-modal multimodal AI models."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A bench of test prompts designed to assist those evaluating audio multimodal or omni-modal multimodal AI models."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multimodal-ai",
+      "sense_id": "multimodal-ai#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "multimodal-ai",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "multimodal-ai",
+  "observation_id": "540473443dc32fbf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T18:41:02.254946+00:00",
+  "observed_text": "multimodal-ai",
+  "source_context_snippet": "A bench of test prompts designed to assist those evaluating audio multimodal or omni-modal multimodal AI models.",
+  "source_file": null,
+  "source_repo": "danielrosehill/Audio-Understanding-Test-Prompts",
+  "source_repo_description": "A few test prompts to be used when evaluating audio multimodal models"
+}

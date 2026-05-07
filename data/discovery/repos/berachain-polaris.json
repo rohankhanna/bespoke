@@ -1,0 +1,554 @@
+{
+  "components": [
+    {
+      "component": "crs-k/stale-branches@v2.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branches.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v5.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branches.yml",
+      "source_repo": "berachain/polaris",
+      "target": "crs-k/stale-branches@v2.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/branches.yml",
+      "source_repo": "berachain/polaris",
+      "target": "Delete stale branches",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "berachain/polaris",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "berachain/polaris",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "berachain/polaris",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "berachain/polaris",
+      "target": "foundry-rs/foundry-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "berachain/polaris",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "berachain/polaris",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "berachain/polaris",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily.yml",
+      "source_repo": "berachain/polaris",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily.yml",
+      "source_repo": "berachain/polaris",
+      "target": "foundry-rs/foundry-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily.yml",
+      "source_repo": "berachain/polaris",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily.yml",
+      "source_repo": "berachain/polaris",
+      "target": "stefanzweifel/git-auto-commit-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily.yml",
+      "source_repo": "berachain/polaris",
+      "target": "daily",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "berachain/polaris",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "berachain/polaris",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "berachain/polaris",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "berachain/polaris",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "berachain/polaris",
+      "target": "actions/download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "berachain/polaris",
+      "target": "e2e",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "berachain/polaris",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "berachain/polaris",
+      "target": "foundry-rs/foundry-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "berachain/polaris",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "berachain/polaris",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "berachain/polaris",
+      "target": "actions/download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "berachain/polaris",
+      "target": "codecov/codecov-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "berachain/polaris",
+      "target": "pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "berachain/polaris",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "berachain/polaris",
+      "target": "amannn/action-semantic-pull-request@v5.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "berachain/polaris",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "berachain/polaris",
+      "target": "cosmos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "berachain/polaris",
+      "target": "defi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "berachain/polaris",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "berachain/polaris",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "berachain/polaris",
+      "target": "web3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T19:02:13.437864+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4679
+    },
+    {
+      "path": ".github/workflows/branches.yml",
+      "size": 1478
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 3374
+    },
+    {
+      "path": ".github/workflows/daily.yml",
+      "size": 1369
+    },
+    {
+      "path": ".github/workflows/e2e.yml",
+      "size": 5561
+    },
+    {
+      "path": ".github/workflows/pipeline.yml",
+      "size": 2499
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 1448
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Polaris is a modular implementation of the Ethereum Virtual Machine (EVM). It can be easily integrated into any consensus engine or application, including the Cosmos-SDK.",
+    "fork": false,
+    "full_name": "berachain/polaris",
+    "html_url": "https://github.com/berachain/polaris",
+    "language": "Go",
+    "pushed_at": "2024-06-09T20:51:08Z",
+    "stargazers_count": 1076,
+    "topics": [
+      "blockchain",
+      "cosmos",
+      "defi",
+      "ethereum",
+      "evm",
+      "go",
+      "golang",
+      "mev",
+      "web3"
+    ],
+    "updated_at": "2026-05-03T13:49:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Delete stale branches",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/branches.yml",
+      "term": "Delete stale branches"
+    },
+    {
+      "context_snippet": "daily",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily.yml",
+      "term": "daily"
+    },
+    {
+      "context_snippet": "e2e",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yml",
+      "term": "e2e"
+    },
+    {
+      "context_snippet": "pipeline",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pipeline.yml",
+      "term": "pipeline"
+    },
+    {
+      "context_snippet": "This project is deprecated. If you are interested in maintaining it, please contact itsdevbear on GitHub or Twitter.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "This project is deprecated. If you are interested in maintaining it, please contact itsdevbear on GitHub or Twitter.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cosmos"
+    },
+    {
+      "context_snippet": "This project is deprecated. If you are interested in maintaining it, please contact itsdevbear on GitHub or Twitter.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "defi"
+    },
+    {
+      "context_snippet": "This project is deprecated. If you are interested in maintaining it, please contact itsdevbear on GitHub or Twitter.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "This project is deprecated. If you are interested in maintaining it, please contact itsdevbear on GitHub or Twitter.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "This project is deprecated. If you are interested in maintaining it, please contact itsdevbear on GitHub or Twitter.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web3"
+    }
+  ]
+}

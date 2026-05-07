@@ -1,0 +1,34 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T19:14:32.091052+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7145
+    },
+    {
+      "path": "requirements.txt",
+      "size": 82
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Company research agent targeted towards the needs of remote job seekers sourcing detailed information about company backgrounds as well as remote-specific information",
+    "fork": false,
+    "full_name": "danielrosehill/Remote-Jobs-Research-Agent",
+    "html_url": "https://github.com/danielrosehill/Remote-Jobs-Research-Agent",
+    "language": "Python",
+    "pushed_at": "2025-04-04T17:10:15Z",
+    "stargazers_count": 0,
+    "topics": [
+      "agents",
+      "ai-agents"
+    ],
+    "updated_at": "2025-04-04T17:10:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

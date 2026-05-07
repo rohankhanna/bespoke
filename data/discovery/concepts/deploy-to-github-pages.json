@@ -477,6 +477,18 @@
       "source_repo": "tmc/langchaingo",
       "status": "candidate-context",
       "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/OR-Models-With-Tools-0811",
+      "status": "candidate-context",
+      "text": "Price comoparison and list"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/OR-Models-With-Tools-0811",
+      "status": "candidate-context",
+      "text": "Deploy to GitHub Pages"
     }
   ],
   "candidate_glosses": [
@@ -717,6 +729,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "tmc/langchaingo",
+      "status": "candidate",
+      "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/OR-Models-With-Tools-0811",
       "status": "candidate",
       "text": "Deploy to GitHub Pages"
     }
@@ -1254,11 +1272,17 @@
       "observed_at": "2026-05-07T12:51:40.300011+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "beam-community/elixir-companies"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "danielrosehill/OR-Models-With-Tools-0811"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "deep-researcher"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Deep-Research-Projects-0425",
+      "status": "candidate-context",
+      "text": "A collection of links to a few AI \"deep research\" projects and agents, April 2025"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Deep-Research-Projects-0425",
+      "status": "candidate-context",
+      "text": "*A non-exhaustive collection of open-source implementations of deep research projects compiled on April 6, 2025.*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Deep-Research-Projects-0425",
+      "status": "candidate",
+      "text": "*A non-exhaustive collection of open-source implementations of deep research projects compiled on April 6, 2025.*"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "deep-researcher",
+  "concept_id": "deep-researcher",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Deep-Research-Projects-0425"
+    }
+  ],
+  "first_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deep-researcher",
+      "sense_id": "deep-researcher#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

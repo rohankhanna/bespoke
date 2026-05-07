@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Project-Spec-Pattern",
+      "target": "spec-driven-development",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T19:14:14.439405+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4367
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pattern for creating a modular spec-definition format for AI coding agents from one initial plan ingestion",
+    "fork": false,
+    "full_name": "danielrosehill/AI-Project-Spec-Pattern",
+    "html_url": "https://github.com/danielrosehill/AI-Project-Spec-Pattern",
+    "language": null,
+    "pushed_at": "2026-04-05T11:20:14Z",
+    "stargazers_count": 0,
+    "topics": [
+      "spec-driven-development"
+    ],
+    "updated_at": "2026-04-05T11:20:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A template for **spec-driven development** with Claude Code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spec-driven-development"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hrsh7th/cmp-nvim-lsp",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hrsh7th/cmp-nvim-lsp",
+      "target": "nvim-cmp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T18:57:16.516389+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2001
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "nvim-cmp source for neovim builtin LSP client",
+    "fork": false,
+    "full_name": "hrsh7th/cmp-nvim-lsp",
+    "html_url": "https://github.com/hrsh7th/cmp-nvim-lsp",
+    "language": "Lua",
+    "pushed_at": "2025-11-13T07:27:45Z",
+    "stargazers_count": 1503,
+    "topics": [
+      "hacktoberfest",
+      "nvim-cmp"
+    ],
+    "updated_at": "2026-05-06T03:02:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "nvim-cmp source for neovim's built-in language server client.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "nvim-cmp source for neovim's built-in language server client.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-cmp"
+    }
+  ]
+}

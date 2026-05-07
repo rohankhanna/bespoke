@@ -16,7 +16,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "taiki-e/install-action@74e87cbfa15a59692b158178d8905a61bf6fca95",
+      "component": "taiki-e/install-action@7769b73c2ec98c38dfcf2e18c83cfd4880c038c1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -31,7 +31,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "taiki-e/install-action@74e87cbfa15a59692b158178d8905a61bf6fca95",
+      "component": "taiki-e/install-action@7769b73c2ec98c38dfcf2e18c83cfd4880c038c1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -199,7 +199,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "alloy-rs/svm-rs",
-      "target": "taiki-e/install-action@74e87cbfa15a59692b158178d8905a61bf6fca95",
+      "target": "taiki-e/install-action@7769b73c2ec98c38dfcf2e18c83cfd4880c038c1",
       "target_type": "component"
     },
     {
@@ -252,7 +252,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T10:50:38.705903+00:00",
+  "fetched_at": "2026-05-07T19:03:58.669371+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -280,13 +280,13 @@
     "full_name": "alloy-rs/svm-rs",
     "html_url": "https://github.com/alloy-rs/svm-rs",
     "language": "Rust",
-    "pushed_at": "2026-05-05T08:34:59Z",
+    "pushed_at": "2026-05-07T15:54:28Z",
     "stargazers_count": 284,
     "topics": [
       "solidity",
       "version-manager"
     ],
-    "updated_at": "2026-05-04T09:59:10Z"
+    "updated_at": "2026-05-07T16:02:20Z"
   },
   "repo_links": [
     {

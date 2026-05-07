@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T19:14:03.218006+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2273
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "System prompts for AI assistants related to career and job matters",
+    "fork": false,
+    "full_name": "danielrosehill/Careers-Utilities-System-Prompts",
+    "html_url": "https://github.com/danielrosehill/Careers-Utilities-System-Prompts",
+    "language": null,
+    "pushed_at": "2025-04-06T15:43:51Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-04-06T15:43:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

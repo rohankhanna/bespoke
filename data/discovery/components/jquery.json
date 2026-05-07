@@ -1,7 +1,7 @@
 {
   "component": "jquery",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -272,6 +272,11 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "sony/nnabla-browser"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "google/material-design-lite"
     }
   ]
 }

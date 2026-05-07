@@ -19,6 +19,18 @@
       "source_repo": "mikepenz/MaterialDrawer",
       "status": "candidate-context",
       "text": "... the flexible, easy to use, all in one drawer library for your Android project."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/material-design-lite",
+      "status": "candidate-context",
+      "text": "Material Design Components in HTML/CSS/JS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/material-design-lite",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/material-design-lite.svg)](https://www.npmjs.com/package/material-design-lite)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "mikepenz/MaterialDrawer",
       "status": "candidate",
       "text": "... the flexible, easy to use, all in one drawer library for your Android project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/material-design-lite",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/material-design-lite.svg)](https://www.npmjs.com/package/material-design-lite)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "mikepenz/MaterialDrawer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": null,
+      "source_repo": "google/material-design-lite"
     }
   ],
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
   "lexical_providers": [
     "datamuse"
   ],

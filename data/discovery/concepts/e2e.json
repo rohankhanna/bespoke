@@ -446,6 +446,18 @@
       "source_repo": "crazy-max/diun",
       "status": "candidate-context",
       "text": "e2e"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "berachain/polaris",
+      "status": "candidate-context",
+      "text": "Polaris is a modular implementation of the Ethereum Virtual Machine (EVM). It can be easily integrated into any consensus engine or application, including the Cosmos-SDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berachain/polaris",
+      "status": "candidate-context",
+      "text": "e2e"
     }
   ],
   "candidate_glosses": [
@@ -668,6 +680,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "crazy-max/diun",
+      "status": "candidate",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berachain/polaris",
       "status": "candidate",
       "text": "e2e"
     }
@@ -1499,11 +1517,23 @@
       "observed_at": "2026-05-07T12:51:40.300011+00:00",
       "source_file": ".github/workflows/e2e.yaml",
       "source_repo": "kubernetes-sigs/karpenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "berachain/polaris"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T18:41:02.254946+00:00",
+      "source_file": ".github/workflows/e2e-base.yml",
+      "source_repo": "facebook/create-react-app"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
   "lexical_providers": [
     "datamuse"
   ],

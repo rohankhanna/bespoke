@@ -1,0 +1,175 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "HelgeSverre/toon-php",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "HelgeSverre/toon-php",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "HelgeSverre/toon-php",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "HelgeSverre/toon-php",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "HelgeSverre/toon-php",
+      "target": "Performance Benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HelgeSverre/toon-php",
+      "target": "data-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HelgeSverre/toon-php",
+      "target": "serialization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HelgeSverre/toon-php",
+      "target": "token-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HelgeSverre/toon-php",
+      "target": "toon",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T19:13:49.134696+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11120
+    },
+    {
+      "path": ".github/workflows/benchmarks.yml",
+      "size": 4856
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Token-Oriented Object Notation - A compact data format for reducing token consumption when sending structured data to LLMs (PHP implementation)",
+    "fork": false,
+    "full_name": "HelgeSverre/toon-php",
+    "html_url": "https://github.com/HelgeSverre/toon-php",
+    "language": "PHP",
+    "pushed_at": "2025-12-06T05:30:19Z",
+    "stargazers_count": 125,
+    "topics": [
+      "ai",
+      "data-format",
+      "llm",
+      "php",
+      "serialization",
+      "token-compression",
+      "toon"
+    ],
+    "updated_at": "2026-05-04T08:07:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Performance Benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "term": "Performance Benchmarks"
+    },
+    {
+      "context_snippet": "[![Packagist Version](https://img.shields.io/packagist/v/helgesverre/toon)](https://packagist.org/packages/helgesverre/toon)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-format"
+    },
+    {
+      "context_snippet": "[![Packagist Version](https://img.shields.io/packagist/v/helgesverre/toon)](https://packagist.org/packages/helgesverre/toon)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serialization"
+    },
+    {
+      "context_snippet": "[![Packagist Version](https://img.shields.io/packagist/v/helgesverre/toon)](https://packagist.org/packages/helgesverre/toon)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "token-compression"
+    },
+    {
+      "context_snippet": "[![Packagist Version](https://img.shields.io/packagist/v/helgesverre/toon)](https://packagist.org/packages/helgesverre/toon)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toon"
+    }
+  ]
+}
