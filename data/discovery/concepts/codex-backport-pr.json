@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Codex Backport PR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lance-format/lance",
+      "status": "candidate-context",
+      "text": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming.."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lance-format/lance",
+      "status": "candidate-context",
+      "text": "Codex Backport PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lance-format/lance",
+      "status": "candidate",
+      "text": "Codex Backport PR"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9782,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9782,
+      "status": "candidate",
+      "text": "cello"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9782,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9782,
+      "status": "candidate",
+      "text": "young"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5062,
+      "status": "candidate",
+      "text": "cod"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Codex Backport PR",
+  "concept_id": "codex-backport-pr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/codex-backport-pr.yml",
+      "source_repo": "lance-format/lance"
+    }
+  ],
+  "first_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Codex Backport PR",
+      "sense_id": "codex-backport-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

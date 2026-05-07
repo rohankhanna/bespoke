@@ -1,0 +1,386 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "technote-space/get-diff-action@v6.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-reminder.yml"
+    },
+    {
+      "component": "mskelton/changelog-reminder-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-reminder.yml"
+    },
+    {
+      "component": "c-hive/gha-remove-artifacts@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-action-artifacts.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/consensuswarn.yml"
+    },
+    {
+      "component": "orijtech/consensuswarn@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/consensuswarn.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-update-all.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-update-all.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-update-all.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "target": "cosmos/awesome-cosmos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "target": "Build Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "target": "technote-space/get-diff-action@v6.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "target": "Build SimApp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-reminder.yml",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-reminder.yml",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "target": "mskelton/changelog-reminder-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-reminder.yml",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "target": "Changelog Reminder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-action-artifacts.yml",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "target": "c-hive/gha-remove-artifacts@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean-action-artifacts.yml",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "target": "Remove GitHub Action Old Artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/consensuswarn.yml",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/consensuswarn.yml",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "target": "orijtech/consensuswarn@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/consensuswarn.yml",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "target": "Warn about consensus code changes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-update-all.yml",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-update-all.yml",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-update-all.yml",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "target": "EndBug/add-and-commit@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-update-all.yml",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "target": "Dependabot Update All Go Modules",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T08:16:04.517405+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3794
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1907
+    },
+    {
+      "path": "go.mod",
+      "size": 9101
+    },
+    {
+      "path": ".github/workflows/build-docs.yml",
+      "size": 919
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1565
+    },
+    {
+      "path": ".github/workflows/changelog-reminder.yml",
+      "size": 1062
+    },
+    {
+      "path": ".github/workflows/clean-action-artifacts.yml",
+      "size": 317
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 1976
+    },
+    {
+      "path": ".github/workflows/consensuswarn.yml",
+      "size": 676
+    },
+    {
+      "path": ".github/workflows/dependabot-update-all.yml",
+      "size": 1526
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "osmo-v28/0.50.11",
+    "description": ":chains: A Framework for Building High Value Public Blockchains :sparkles:",
+    "fork": true,
+    "full_name": "osmosis-labs/cosmos-sdk",
+    "html_url": "https://github.com/osmosis-labs/cosmos-sdk",
+    "language": "Go",
+    "pushed_at": "2025-07-16T09:04:51Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2025-04-11T18:40:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cosmos/awesome-cosmos",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "term": "Build Docs"
+    },
+    {
+      "context_snippet": "Build SimApp",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build SimApp"
+    },
+    {
+      "context_snippet": "Changelog Reminder",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-reminder.yml",
+      "term": "Changelog Reminder"
+    },
+    {
+      "context_snippet": "Remove GitHub Action Old Artifacts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean-action-artifacts.yml",
+      "term": "Remove GitHub Action Old Artifacts"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "\"Warn about consensus code changes\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/consensuswarn.yml",
+      "term": "Warn about consensus code changes"
+    },
+    {
+      "context_snippet": "Dependabot Update All Go Modules",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-update-all.yml",
+      "term": "Dependabot Update All Go Modules"
+    }
+  ]
+}

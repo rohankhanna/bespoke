@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "DevHub Portal Product UI (Hosted BOS) \u2013\u00a0Includes other instances (e.g. Infrastructure, Events)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Deploy web4 resources"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Deploy web4 resources"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30708,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14308,
+      "status": "candidate",
+      "text": "capacity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14308,
+      "status": "candidate",
+      "text": "pulling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14256,
+      "status": "candidate",
+      "text": "reuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13287,
+      "status": "candidate",
+      "text": "implementation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy web4 resources",
+      "sense_id": "deploy-web4-resources#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deploy-web4-resources",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deploy-web4-resources",
+  "observation_id": "ce7418a9a84d5eb9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-07T07:09:11.945528+00:00",
+  "observed_text": "Deploy web4 resources",
+  "source_context_snippet": "Deploy web4 resources",
+  "source_file": ".github/workflows/deploy-web4-resources.yml",
+  "source_repo": "NEAR-DevHub/neardevhub-bos",
+  "source_repo_description": "DevHub Portal Product UI (Hosted BOS) \u2013\u00a0Includes other instances (e.g. Infrastructure, Events)"
+}

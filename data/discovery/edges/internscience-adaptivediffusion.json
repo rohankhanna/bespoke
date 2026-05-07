@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InternScience/AdaptiveDiffusion",
+      "target": "unimodal4reasoning/adaptivediffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternScience/AdaptiveDiffusion",
+      "target": "adaptive-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternScience/AdaptiveDiffusion",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternScience/AdaptiveDiffusion",
+      "target": "efficient-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternScience/AdaptiveDiffusion",
+      "target": "model-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternScience/AdaptiveDiffusion",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternScience/AdaptiveDiffusion",
+      "target": "training-free",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-07T07:09:11.945528+00:00",
+  "source_repo": "InternScience/AdaptiveDiffusion"
+}

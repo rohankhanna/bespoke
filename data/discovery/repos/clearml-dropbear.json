@@ -1,0 +1,237 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoconf.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/outoftree.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tarball.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tarball.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tarball.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoconf.yml",
+      "source_repo": "clearml/dropbear",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoconf.yml",
+      "source_repo": "clearml/dropbear",
+      "target": "Autoconf Up To Date",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "clearml/dropbear",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "clearml/dropbear",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "clearml/dropbear",
+      "target": "BuildTest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "clearml/dropbear",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "clearml/dropbear",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "clearml/dropbear",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "clearml/dropbear",
+      "target": "CIFuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/outoftree.yml",
+      "source_repo": "clearml/dropbear",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/outoftree.yml",
+      "source_repo": "clearml/dropbear",
+      "target": "Out of tree build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tarball.yml",
+      "source_repo": "clearml/dropbear",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tarball.yml",
+      "source_repo": "clearml/dropbear",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tarball.yml",
+      "source_repo": "clearml/dropbear",
+      "target": "tarball sha256sum",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T07:20:44.145399+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3322
+    },
+    {
+      "path": "Dockerfile",
+      "size": 690
+    },
+    {
+      "path": ".github/workflows/autoconf.yml",
+      "size": 546
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 12156
+    },
+    {
+      "path": ".github/workflows/cifuzz.yml",
+      "size": 850
+    },
+    {
+      "path": ".github/workflows/outoftree.yml",
+      "size": 571
+    },
+    {
+      "path": ".github/workflows/tarball.yml",
+      "size": 793
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Dropbear SSH  - static portable SSH server implementation ",
+    "fork": false,
+    "full_name": "clearml/dropbear",
+    "html_url": "https://github.com/clearml/dropbear",
+    "language": "C",
+    "pushed_at": "2026-05-04T07:10:38Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-05-03T15:26:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Autoconf Up To Date",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoconf.yml",
+      "term": "Autoconf Up To Date"
+    },
+    {
+      "context_snippet": "BuildTest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "BuildTest"
+    },
+    {
+      "context_snippet": "CIFuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "term": "CIFuzz"
+    },
+    {
+      "context_snippet": "Out of tree build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/outoftree.yml",
+      "term": "Out of tree build"
+    },
+    {
+      "context_snippet": "tarball sha256sum",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tarball.yml",
+      "term": "tarball sha256sum"
+    }
+  ]
+}

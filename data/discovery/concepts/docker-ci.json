@@ -81,6 +81,18 @@
       "source_repo": "HOL-Theorem-Prover/HOL",
       "status": "candidate-context",
       "text": "docker-ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kaiede/Bedrockifier",
+      "status": "candidate-context",
+      "text": "Command-line tools and Service for Minecraft Servers (Bedrock & Java)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaiede/Bedrockifier",
+      "status": "candidate-context",
+      "text": "Docker CI"
     }
   ],
   "candidate_glosses": [
@@ -119,6 +131,12 @@
       "source_repo": "HOL-Theorem-Prover/HOL",
       "status": "candidate",
       "text": "docker-ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaiede/Bedrockifier",
+      "status": "candidate",
+      "text": "Docker CI"
     }
   ],
   "candidate_related_terms": [
@@ -198,11 +216,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/docker-ci.yml",
       "source_repo": "HOL-Theorem-Prover/HOL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "Kaiede/Bedrockifier"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

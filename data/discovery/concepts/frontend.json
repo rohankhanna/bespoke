@@ -340,6 +340,18 @@
       "source_repo": "openfl/lime",
       "status": "candidate-context",
       "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE.md) [![Haxelib Version](https://img.shields.io/github/tag/openfl/lime.svg?style=flat&label=haxelib)](http://lib.haxe.org/p/lime) [![Build Status](https://img.shields.io/github/actions/workflow\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mobxjs/mobx-angular",
+      "status": "candidate-context",
+      "text": "The MobX connector for Angular."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mobxjs/mobx-angular",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/mobxjs/mobx-angular/actions/workflows/main.yml/badge.svg)](https://github.com/mobxjs/mobx-angular/actions/workflows/main.yml)"
     }
   ],
   "candidate_glosses": [
@@ -510,6 +522,12 @@
       "source_repo": "openfl/lime",
       "status": "candidate",
       "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE.md) [![Haxelib Version](https://img.shields.io/github/tag/openfl/lime.svg?style=flat&label=haxelib)](http://lib.haxe.org/p/lime) [![Build Status](https://img.shields.io/github/actions/workflow\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mobxjs/mobx-angular",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/mobxjs/mobx-angular/actions/workflows/main.yml/badge.svg)](https://github.com/mobxjs/mobx-angular/actions/workflows/main.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -841,11 +859,29 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "CirclonGroup/angular-tree-component"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "mobxjs/mobx-angular"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

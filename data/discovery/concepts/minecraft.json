@@ -121,6 +121,42 @@
       "source_repo": "joanroig/admincraft",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IdreesInc/Miracode",
+      "status": "candidate-context",
+      "text": "A sharp, readable, vector-y version of Monocraft, the programming font based on Minecraft"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IdreesInc/Miracode",
+      "status": "candidate-context",
+      "text": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Miracode/total.svg)](https://GitHub.com/IdreesInc/Miracode/releases/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IdreesInc/Monocraft",
+      "status": "candidate-context",
+      "text": "A monospaced programming font inspired by the Minecraft typeface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IdreesInc/Monocraft",
+      "status": "candidate-context",
+      "text": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Monocraft/total.svg)](https://GitHub.com/IdreesInc/Monocraft/releases/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kaiede/Bedrockifier",
+      "status": "candidate-context",
+      "text": "Command-line tools and Service for Minecraft Servers (Bedrock & Java)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaiede/Bedrockifier",
+      "status": "candidate-context",
+      "text": "[![CI Status](https://github.com/Kaiede/Bedrockifier/actions/workflows/swift.yml/badge.svg)](https://github.com/Kaiede/Bedrockifier/actions)"
     }
   ],
   "candidate_glosses": [
@@ -183,6 +219,24 @@
       "source_repo": "joanroig/admincraft",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IdreesInc/Miracode",
+      "status": "candidate",
+      "text": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Miracode/total.svg)](https://GitHub.com/IdreesInc/Miracode/releases/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IdreesInc/Monocraft",
+      "status": "candidate",
+      "text": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Monocraft/total.svg)](https://GitHub.com/IdreesInc/Monocraft/releases/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaiede/Bedrockifier",
+      "status": "candidate",
+      "text": "[![CI Status](https://github.com/Kaiede/Bedrockifier/actions/workflows/swift.yml/badge.svg)](https://github.com/Kaiede/Bedrockifier/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -388,11 +442,35 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "IdreesInc/Miracode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "IdreesInc/Monocraft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "Kaiede/Bedrockifier"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

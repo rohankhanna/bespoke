@@ -1,0 +1,272 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "near/devgigsboard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "near/devgigsboard-widgets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "near/neardevhub-widgets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "near/neardevhub-widgets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "@playwright/test",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "bos-workspace",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "http-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "near-bos-webcomponent",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "replace-in-files",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "simple-git-hooks",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow-events.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow-events.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow-events.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow-events.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration-workflow-events.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "CI - Events Committee",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow-infra.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow-infra.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow-infra.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow-infra.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration-workflow-infra.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "CI - Infrastructure Committee",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-dev-testnet.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-dev-testnet.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "flcdrg/replace-multiple-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-dev-testnet.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "Deploy Widgets to Testnet Dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-prod-mainnet-devhub.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-prod-mainnet-devhub.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "flcdrg/replace-multiple-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-prod-mainnet-devhub.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "Deploy Widgets to Mainnet - Devhub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-web4-resources.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-web4-resources.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "Deploy web4 resources",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dry-run.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dry-run.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "Dry-run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promote-develop-to-main.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/promote-develop-to-main.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "weekly-production-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "nearisbos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "nearprotocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "target": "nearsocial",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-07T07:09:11.945528+00:00",
+  "source_repo": "NEAR-DevHub/neardevhub-bos"
+}

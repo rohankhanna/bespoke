@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EvelynZhang-epiclab/SiTo",
+      "target": "evelynzhang-epiclab/evelynimgs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T07:15:34.937091+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9550
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[AAAI-2025] The offical code for SiTo \uff08Similarity-based Token Pruning for Stable Diffusion Models\uff09",
+    "fork": false,
+    "full_name": "EvelynZhang-epiclab/SiTo",
+    "html_url": "https://github.com/EvelynZhang-epiclab/SiTo",
+    "language": "Python",
+    "pushed_at": "2025-06-02T07:24:06Z",
+    "stargazers_count": 43,
+    "topics": [],
+    "updated_at": "2026-04-26T04:35:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "evelynzhang-epiclab/evelynimgs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

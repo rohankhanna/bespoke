@@ -285,7 +285,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T03:27:55.556217+00:00",
+  "fetched_at": "2026-05-07T10:17:08.131458+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -338,9 +338,9 @@
     "html_url": "https://github.com/kubernetes-sigs/karpenter",
     "language": "Go",
     "pushed_at": "2026-05-05T00:32:19Z",
-    "stargazers_count": 1864,
+    "stargazers_count": 1865,
     "topics": [],
-    "updated_at": "2026-05-06T22:51:06Z"
+    "updated_at": "2026-05-07T07:32:36Z"
   },
   "repo_links": [
     {

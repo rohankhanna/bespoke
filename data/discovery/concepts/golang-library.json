@@ -199,6 +199,30 @@
       "source_repo": "allegro/bigcache",
       "status": "candidate-context",
       "text": "Fast, concurrent, evicting in-memory cache written to keep big number of entries without impact on performance."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goccy/go-json",
+      "status": "candidate-context",
+      "text": "Fast JSON encoder/decoder compatible with encoding/json for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goccy/go-json",
+      "status": "candidate-context",
+      "text": "![Go](https://github.com/goccy/go-json/workflows/Go/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goccy/go-yaml",
+      "status": "candidate-context",
+      "text": "YAML support for the Go language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goccy/go-yaml",
+      "status": "candidate-context",
+      "text": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/goccy/go-yaml)](https://pkg.go.dev/github.com/goccy/go-yaml)"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +321,18 @@
       "source_repo": "allegro/bigcache",
       "status": "candidate",
       "text": "Fast, concurrent, evicting in-memory cache written to keep big number of entries without impact on performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goccy/go-json",
+      "status": "candidate",
+      "text": "![Go](https://github.com/goccy/go-json/workflows/Go/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goccy/go-yaml",
+      "status": "candidate",
+      "text": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/goccy/go-yaml)](https://pkg.go.dev/github.com/goccy/go-yaml)"
     }
   ],
   "candidate_related_terms": [],
@@ -400,11 +436,23 @@
       "observed_at": "2026-05-06T12:51:12.481137+00:00",
       "source_file": null,
       "source_repo": "allegro/bigcache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "goccy/go-json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "goccy/go-yaml"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

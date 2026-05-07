@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rosetta implementation for cosmos zones"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The `rosetta` project implements Coinbase's [Rosetta API](https://www.rosetta-api.org). This document provides instructions on how to use the Rosetta API integration. For information about the motivation and design choices, refer to [ADR 035](https://docs.cosmos.network/main/arc\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The `rosetta` project implements Coinbase's [Rosetta API](https://www.rosetta-api.org). This document provides instructions on how to use the Rosetta API integration. For information about the motivation and design choices, refer to [ADR 035](https://docs.cosmos.network/main/arc\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18904326,
+      "status": "candidate",
+      "text": "rasheed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18894620,
+      "status": "candidate",
+      "text": "rashid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18468527,
+      "status": "candidate",
+      "text": "rashed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049572,
+      "status": "candidate",
+      "text": "rosette"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049571,
+      "status": "candidate",
+      "text": "latte art"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rosetta",
+      "sense_id": "rosetta#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rosetta",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rosetta",
+  "observation_id": "cdcf7e7303e9cfc2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T07:09:11.945528+00:00",
+  "observed_text": "rosetta",
+  "source_context_snippet": "The `rosetta` project implements Coinbase's [Rosetta API](https://www.rosetta-api.org). This document provides instructions on how to use the Rosetta API integration. For information about the motivation and design choices, refer to [ADR 035](https://docs.cosmos.network/main/arc\u2026",
+  "source_file": null,
+  "source_repo": "cosmos/rosetta",
+  "source_repo_description": "Rosetta implementation for cosmos zones"
+}

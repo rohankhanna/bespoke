@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OrionStarAI/Orion",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T09:22:31.627517+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26047
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Orion-14B is a family of models includes a 14B foundation LLM, and a series of models: a chat model, a long context model, a quantized model, a RAG fine-tuned model, and an Agent fine-tuned model. Orion-14B \u7cfb\u5217\u6a21\u578b\u5305\u62ec\u4e00\u4e2a\u5177\u6709140\u4ebf\u53c2\u6570\u7684\u591a\u8bed\u8a00\u57fa\u5ea7\u5927\u6a21\u578b\u4ee5\u53ca\u4e00\u7cfb\u5217\u76f8\u5173\u7684\u884d\u751f\u6a21\u578b\uff0c\u5305\u62ec\u5bf9\u8bdd\u6a21\u578b\uff0c\u957f\u6587\u672c\u6a21\u578b\uff0c\u91cf\u5316\u6a21\u578b\uff0cRAG\u5fae\u8c03\u6a21\u578b\uff0cAgent\u5fae\u8c03\u6a21\u578b\u7b49\u3002",
+    "fork": false,
+    "full_name": "OrionStarAI/Orion",
+    "html_url": "https://github.com/OrionStarAI/Orion",
+    "language": "Python",
+    "pushed_at": "2024-06-03T08:13:19Z",
+    "stargazers_count": 810,
+    "topics": [],
+    "updated_at": "2026-04-16T07:55:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

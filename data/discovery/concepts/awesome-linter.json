@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Awesome Linter"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/awesome-cosmos",
+      "status": "candidate-context",
+      "text": "Collection of Cosmos related resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/awesome-cosmos",
+      "status": "candidate-context",
+      "text": "Awesome Linter"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/awesome-cosmos",
+      "status": "candidate",
+      "text": "Awesome Linter"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "amazing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "beautiful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "brilliant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "cool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "delightful"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Awesome Linter",
+  "concept_id": "awesome-linter",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "cosmos/awesome-cosmos"
+    }
+  ],
+  "first_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Awesome Linter",
+      "sense_id": "awesome-linter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Dry run"
+    "Dry run",
+    "Dry-run"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "dependabot/smoke-tests",
       "status": "candidate-context",
       "text": "Dry run"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "status": "candidate-context",
+      "text": "DevHub Portal Product UI (Hosted BOS) \u2013\u00a0Includes other instances (e.g. Infrastructure, Events)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "status": "candidate-context",
+      "text": "Dry-run"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "dependabot/smoke-tests",
       "status": "candidate",
       "text": "Dry run"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "status": "candidate",
+      "text": "Dry-run"
     }
   ],
   "candidate_related_terms": [
@@ -64,6 +83,41 @@
       "score": 10070613,
       "status": "candidate",
       "text": "run-through"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019994,
+      "status": "candidate",
+      "text": "road test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019993,
+      "status": "candidate",
+      "text": "try-out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019992,
+      "status": "candidate",
+      "text": "testrun"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019991,
+      "status": "candidate",
+      "text": "run-out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019990,
+      "status": "candidate",
+      "text": "play-through"
     }
   ],
   "candidate_synonyms": [],
@@ -76,11 +130,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/dry-run.yml",
       "source_repo": "dependabot/smoke-tests"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/dry-run.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

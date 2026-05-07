@@ -76,7 +76,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T00:58:44.157018+00:00",
+  "fetched_at": "2026-05-07T10:25:58.081438+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -101,7 +101,7 @@
     "html_url": "https://github.com/webdataset/webdataset",
     "language": "Python",
     "pushed_at": "2026-02-09T14:48:08Z",
-    "stargazers_count": 3082,
+    "stargazers_count": 3083,
     "topics": [
       "data-augmentation",
       "deep-learning",
@@ -109,7 +109,7 @@
       "webdataset",
       "webdataset-format"
     ],
-    "updated_at": "2026-05-06T21:16:58Z"
+    "updated_at": "2026-05-07T03:06:17Z"
   },
   "repo_links": [
     {

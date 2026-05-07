@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tecbot/gorocksdb",
+      "target": "cockroachdb/c-rocksdb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tecbot/gorocksdb",
+      "target": "embedded",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tecbot/gorocksdb",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tecbot/gorocksdb",
+      "target": "rocksdb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tecbot/gorocksdb",
+      "target": "wrapper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T08:16:28.286813+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 885
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "gorocksdb is a Go wrapper for RocksDB",
+    "fork": false,
+    "full_name": "tecbot/gorocksdb",
+    "html_url": "https://github.com/tecbot/gorocksdb",
+    "language": "Go",
+    "pushed_at": "2024-03-18T23:21:58Z",
+    "stargazers_count": 974,
+    "topics": [
+      "embedded",
+      "go",
+      "golang",
+      "rocksdb",
+      "wrapper"
+    ],
+    "updated_at": "2026-04-10T08:15:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cockroachdb/c-rocksdb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/tecbot/gorocksdb.svg)](https://travis-ci.org/tecbot/gorocksdb) [![GoDoc](https://godoc.org/github.com/tecbot/gorocksdb?status.svg)](http://godoc.org/github.com/tecbot/gorocksdb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/tecbot/gorocksdb.svg)](https://travis-ci.org/tecbot/gorocksdb) [![GoDoc](https://godoc.org/github.com/tecbot/gorocksdb?status.svg)](http://godoc.org/github.com/tecbot/gorocksdb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/tecbot/gorocksdb.svg)](https://travis-ci.org/tecbot/gorocksdb) [![GoDoc](https://godoc.org/github.com/tecbot/gorocksdb?status.svg)](http://godoc.org/github.com/tecbot/gorocksdb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rocksdb"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/tecbot/gorocksdb.svg)](https://travis-ci.org/tecbot/gorocksdb) [![GoDoc](https://godoc.org/github.com/tecbot/gorocksdb?status.svg)](http://godoc.org/github.com/tecbot/gorocksdb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wrapper"
+    }
+  ]
+}

@@ -148,13 +148,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "PrimeIntellect-ai/verifiers",
-      "target": "primeintellect-ai/renderers",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish-envs.yml",
       "source_repo": "PrimeIntellect-ai/verifiers",
@@ -316,15 +309,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-06T18:57:41.426733+00:00",
+  "fetched_at": "2026-05-07T09:26:31.422352+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 10686
+      "size": 10770
     },
     {
       "path": "pyproject.toml",
-      "size": 6327
+      "size": 6472
     },
     {
       "path": ".github/workflows/README.md",
@@ -364,18 +357,12 @@
     "full_name": "PrimeIntellect-ai/verifiers",
     "html_url": "https://github.com/PrimeIntellect-ai/verifiers",
     "language": "Python",
-    "pushed_at": "2026-05-06T18:40:47Z",
-    "stargazers_count": 4075,
+    "pushed_at": "2026-05-07T06:11:36Z",
+    "stargazers_count": 4077,
     "topics": [],
-    "updated_at": "2026-05-06T17:48:27Z"
+    "updated_at": "2026-05-07T06:11:21Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "primeintellect-ai/renderers",
-      "source_file": "pyproject.toml"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Publish Envs",

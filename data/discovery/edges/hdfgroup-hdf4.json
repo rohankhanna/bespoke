@@ -1,0 +1,307 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "unidata/netcdf-c",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abi-report.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abi-report.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abi-report.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/abi-report.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "hdf4 Check Application Binary Interface (ABI)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aocc-cmake.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aocc-cmake.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "hdf4 CMake aocc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "DoozyX/clang-format-lint-action@v0.20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "clang-format Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-fix.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-fix.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "DoozyX/clang-format-lint-action@v0.20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-fix.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "EndBug/add-and-commit@290ea2c423ad77ca9c62ae0f5b224379612c0321",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format-fix.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "clang-format Commit Changes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-analysis.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-analysis.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "DamianReeves/write-file-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-analysis.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-analysis.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "KyleMayes/install-llvm-action@v2.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-analysis.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "hdf4 dev ctest analysis runs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-bintest.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-bintest.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "ilammy/msvc-dev-cmd@v1.13.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-bintest.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-bintest.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "fortran-lang/setup-fortran@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-bintest.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "hdf4 examples bintest runs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "ssciwr/doxygen-install@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "ilammy/msvc-dev-cmd@v1.13.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "jsdaniell/create-json@v1.2.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "azure/trusted-signing-action@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ctest.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "fortran-lang/setup-fortran@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-ctest.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "hdf4 dev ctest runs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "ssciwr/doxygen-install@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "ilammy/msvc-dev-cmd@v1.13.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "DamianReeves/write-file-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "fortran-lang/setup-fortran@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-script.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "KyleMayes/install-llvm-action@v2.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-script.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "hdf4 dev ctest script runs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "HDFGroup/hdf4",
+      "target": "hdf4 dev cmake CI",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-07T07:09:11.945528+00:00",
+  "source_repo": "HDFGroup/hdf4"
+}

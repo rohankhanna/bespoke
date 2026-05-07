@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -111,6 +111,21 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/gen-docs.yml",
       "source_repo": "kuzudb/kuzu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docgen.yml",
+      "source_repo": "mrcjkb/neotest-haskell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docgen.yml",
+      "source_repo": "mrcjkb/haskell-snippets.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docgen.yml",
+      "source_repo": "mrcjkb/haskell-tools.nvim"
     }
   ],
   "term": "generate-docs"

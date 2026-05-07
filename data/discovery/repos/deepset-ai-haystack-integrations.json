@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/add-to-project@31b3f3ccdc584546fc445612dec3f38ff5edb41c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_project.yml"
+    },
+    {
+      "component": "actions/add-to-project@244f685bbc3b7adfa8466e08b698b5577571133e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_project.yml",
+      "source_repo": "deepset-ai/haystack-integrations",
+      "target": "actions/add-to-project@31b3f3ccdc584546fc445612dec3f38ff5edb41c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "deepset-ai/haystack-integrations",
+      "target": "actions/add-to-project@244f685bbc3b7adfa8466e08b698b5577571133e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "deepset-ai/haystack-integrations",
+      "target": "Track issues with Github project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_integrations.yml",
+      "source_repo": "deepset-ai/haystack-integrations",
+      "target": "Publish integrations on Haystack Home",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepset-ai/haystack-integrations",
+      "target": "ai-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepset-ai/haystack-integrations",
+      "target": "community",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepset-ai/haystack-integrations",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepset-ai/haystack-integrations",
+      "target": "open-source",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T09:43:50.580681+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2528
+    },
+    {
+      "path": ".github/workflows/CI_project.yml",
+      "size": 428
+    },
+    {
+      "path": ".github/workflows/project.yml",
+      "size": 414
+    },
+    {
+      "path": ".github/workflows/publish_integrations.yml",
+      "size": 274
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\ude80 A list of Haystack Integrations, maintained by the community or deepset. ",
+    "fork": false,
+    "full_name": "deepset-ai/haystack-integrations",
+    "html_url": "https://github.com/deepset-ai/haystack-integrations",
+    "language": null,
+    "pushed_at": "2026-05-06T05:30:29Z",
+    "stargazers_count": 109,
+    "topics": [
+      "ai",
+      "ai-tools",
+      "community",
+      "llm",
+      "machine-learning",
+      "nlp",
+      "open-source"
+    ],
+    "updated_at": "2026-05-06T06:19:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Track issues with Github project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/project.yml",
+      "term": "Track issues with Github project"
+    },
+    {
+      "context_snippet": "Publish integrations on Haystack Home",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_integrations.yml",
+      "term": "Publish integrations on Haystack Home"
+    },
+    {
+      "context_snippet": "This repository is an index of Haystack integrations that can be used with a Haystack Pipeline or Agent.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-tools"
+    },
+    {
+      "context_snippet": "This repository is an index of Haystack integrations that can be used with a Haystack Pipeline or Agent.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "community"
+    },
+    {
+      "context_snippet": "This repository is an index of Haystack integrations that can be used with a Haystack Pipeline or Agent.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "This repository is an index of Haystack integrations that can be used with a Haystack Pipeline or Agent.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    }
+  ]
+}

@@ -55,6 +55,18 @@
       "source_repo": "h12w/socks",
       "status": "candidate-context",
       "text": "SOCKS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gookit/filter",
+      "status": "candidate-context",
+      "text": "\u23f3 Provide filtering, sanitizing, and conversion of Golang data. \u63d0\u4f9b\u5bf9Golang\u6570\u636e\u7684\u8fc7\u6ee4\uff0c\u51c0\u5316\uff0c\u8f6c\u6362\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/filter",
+      "status": "candidate-context",
+      "text": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/gookit/filter)](https://github.com/gookit/filter)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "h12w/socks",
       "status": "candidate",
       "text": "SOCKS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/filter",
+      "status": "candidate",
+      "text": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/gookit/filter)](https://github.com/gookit/filter)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "h12w/socks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "gookit/filter"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -367,6 +367,18 @@
       "source_repo": "ymcui/Chinese-LLaMA-Alpaca",
       "status": "candidate-context",
       "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](./README.md) | [**\ud83c\udf10English**](./README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) | [**\u2753\u63d0\u95ee/Issues**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues) | [**\ud83d\udcac\u8ba8\u8bba/Discussions**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/discussion\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sunrainyg/RandOpt",
+      "status": "candidate-context",
+      "text": "Official Codebase for \"Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sunrainyg/RandOpt",
+      "status": "candidate-context",
+      "text": "**Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights**"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +561,12 @@
       "source_repo": "ymcui/Chinese-LLaMA-Alpaca",
       "status": "candidate",
       "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](./README.md) | [**\ud83c\udf10English**](./README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) | [**\u2753\u63d0\u95ee/Issues**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues) | [**\ud83d\udcac\u8ba8\u8bba/Discussions**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/discussion\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sunrainyg/RandOpt",
+      "status": "candidate",
+      "text": "**Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights**"
     }
   ],
   "candidate_related_terms": [
@@ -1264,11 +1282,41 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LongLoRA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "sunrainyg/RandOpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/ms-swift"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

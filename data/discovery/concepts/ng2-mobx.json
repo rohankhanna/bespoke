@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ng2-mobx"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mobxjs/mobx-angular",
+      "status": "candidate-context",
+      "text": "The MobX connector for Angular."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mobxjs/mobx-angular",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/mobxjs/mobx-angular/actions/workflows/main.yml/badge.svg)](https://github.com/mobxjs/mobx-angular/actions/workflows/main.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mobxjs/mobx-angular",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/mobxjs/mobx-angular/actions/workflows/main.yml/badge.svg)](https://github.com/mobxjs/mobx-angular/actions/workflows/main.yml)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ng2-mobx",
+  "concept_id": "ng2-mobx",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "mobxjs/mobx-angular"
+    }
+  ],
+  "first_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ng2-mobx",
+      "sense_id": "ng2-mobx#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

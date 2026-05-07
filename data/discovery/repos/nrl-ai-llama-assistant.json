@@ -45,13 +45,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nrl-ai/llama-assistant",
-      "target": "msys2/msys2-installer",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nrl-ai/llama-assistant",
       "target": "ggerganov/whisper.cpp",
       "target_type": "repository"
     },
@@ -161,7 +154,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T02:46:30.386363+00:00",
+  "fetched_at": "2026-05-07T08:40:21.772226+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -218,11 +211,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "ggerganov/whisper.cpp",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "msys2/msys2-installer",
       "source_file": "README.md"
     }
   ],

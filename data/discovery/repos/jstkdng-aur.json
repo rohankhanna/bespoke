@@ -1,0 +1,189 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitbuild.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jstkdng/aur",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jstkdng/aur",
+      "target": "Build packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "jstkdng/aur",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "jstkdng/aur",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "jstkdng/aur",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "jstkdng/aur",
+      "target": "docker/build-push-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitbuild.yml",
+      "source_repo": "jstkdng/aur",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gitbuild.yml",
+      "source_repo": "jstkdng/aur",
+      "target": "Build git packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yml",
+      "source_repo": "jstkdng/aur",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror.yml",
+      "source_repo": "jstkdng/aur",
+      "target": "Update OBS mirror",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T08:27:14.889586+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1269
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1610
+    },
+    {
+      "path": ".github/workflows/check_changes",
+      "size": 216
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 705
+    },
+    {
+      "path": ".github/workflows/env",
+      "size": 226
+    },
+    {
+      "path": ".github/workflows/gitbuild.yml",
+      "size": 1031
+    },
+    {
+      "path": ".github/workflows/mirror.yml",
+      "size": 1421
+    },
+    {
+      "path": ".github/workflows/obs_files",
+      "size": 4715
+    },
+    {
+      "path": ".github/workflows/obs_trigger",
+      "size": 531
+    },
+    {
+      "path": ".github/workflows/prepare",
+      "size": 189
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "AUR packages I maintain and co-maintain",
+    "fork": false,
+    "full_name": "jstkdng/aur",
+    "html_url": "https://github.com/jstkdng/aur",
+    "language": "Shell",
+    "pushed_at": "2024-09-24T02:53:14Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2025-09-23T13:23:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build packages"
+    },
+    {
+      "context_snippet": "Build git packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gitbuild.yml",
+      "term": "Build git packages"
+    },
+    {
+      "context_snippet": "Update OBS mirror",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror.yml",
+      "term": "Update OBS mirror"
+    }
+  ]
+}

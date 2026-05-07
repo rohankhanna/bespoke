@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "graphviz-dot-language"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "petercorke/pgraph-python",
+      "status": "candidate-context",
+      "text": "Simple graph classes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/pgraph-python",
+      "status": "candidate-context",
+      "text": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/pgraph-python",
+      "status": "candidate",
+      "text": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "graphviz-dot-language",
+  "concept_id": "graphviz-dot-language",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "petercorke/pgraph-python"
+    }
+  ],
+  "first_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "graphviz-dot-language",
+      "sense_id": "graphviz-dot-language#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

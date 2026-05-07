@@ -67,6 +67,18 @@
       "source_repo": "dauxio/daux.io",
       "status": "candidate-context",
       "text": "[![Latest Version](https://img.shields.io/github/release/dauxio/daux.io.svg?style=flat-square)](https://github.com/dauxio/daux.io/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Naereen/StrapDown.js",
+      "status": "candidate-context",
+      "text": ":sparkles: StrapDown.js is an awesome javascript tool to quickly publish nice-looking web-pages in pure Markdown :pencil:, with no server side compilation :sunglasses: \u2192"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Naereen/StrapDown.js",
+      "status": "candidate-context",
+      "text": "[StrapDown.js](https://naereen.github.io/StrapDown.js/) is an awesome web script to write nice-looking webpages in pure Markdown, with no server side compilation."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "dauxio/daux.io",
       "status": "candidate",
       "text": "[![Latest Version](https://img.shields.io/github/release/dauxio/daux.io.svg?style=flat-square)](https://github.com/dauxio/daux.io/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Naereen/StrapDown.js",
+      "status": "candidate",
+      "text": "[StrapDown.js](https://naereen.github.io/StrapDown.js/) is an awesome web script to write nice-looking webpages in pure Markdown, with no server side compilation."
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "dauxio/daux.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "Naereen/StrapDown.js"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

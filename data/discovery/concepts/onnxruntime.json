@@ -333,6 +333,18 @@
       "source_repo": "xlite-dev/RVM-Inference",
       "status": "candidate-context",
       "text": "<div align='left'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "remsky/Kokoro-FastAPI",
+      "status": "candidate-context",
+      "text": "Dockerized FastAPI wrapper for Kokoro-82M text-to-speech model w/CPU ONNX and NVIDIA GPU PyTorch support, handling, and auto-stitching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remsky/Kokoro-FastAPI",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -497,6 +509,12 @@
       "source_repo": "xlite-dev/RVM-Inference",
       "status": "candidate",
       "text": "<div align='left'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remsky/Kokoro-FastAPI",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -816,11 +834,29 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "xlite-dev/RVM-Inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "xlite-dev/RVM-Inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "remsky/Kokoro-FastAPI"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

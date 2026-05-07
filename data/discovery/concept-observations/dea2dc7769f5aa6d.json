@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Efficient DiT architecture for text2any tasks, ICLR2025"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is the official reproduction of [Qihoo-T2X](https://360cvgroup.github.io/Qihoo-T2X/), which represents a groundbreaking DiT architecture paradigm designed for Text-to-Any tasks."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is the official reproduction of [Qihoo-T2X](https://360cvgroup.github.io/Qihoo-T2X/), which represents a groundbreaking DiT architecture paradigm designed for Text-to-Any tasks."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "efficient-dit",
+      "sense_id": "efficient-dit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "efficient-dit",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "efficient-dit",
+  "observation_id": "dea2dc7769f5aa6d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T07:09:11.945528+00:00",
+  "observed_text": "efficient-dit",
+  "source_context_snippet": "This is the official reproduction of [Qihoo-T2X](https://360cvgroup.github.io/Qihoo-T2X/), which represents a groundbreaking DiT architecture paradigm designed for Text-to-Any tasks.",
+  "source_file": null,
+  "source_repo": "360CVGroup/Qihoo-T2X",
+  "source_repo_description": "Efficient DiT architecture for text2any tasks, ICLR2025"
+}

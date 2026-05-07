@@ -67,6 +67,18 @@
       "source_repo": "BirolLab/arcs",
       "status": "candidate-context",
       "text": "[![Release](https://img.shields.io/github/release/BirolLab/arcs.svg)](https://github.com/BirolLab/arcs/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "netwide-assembler/nasm",
+      "status": "candidate-context",
+      "text": "A cross-platform x86 assembler with an Intel-like syntax"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "netwide-assembler/nasm",
+      "status": "candidate-context",
+      "text": "NASM, the Netwide Assembler"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "BirolLab/arcs",
       "status": "candidate",
       "text": "[![Release](https://img.shields.io/github/release/BirolLab/arcs.svg)](https://github.com/BirolLab/arcs/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "netwide-assembler/nasm",
+      "status": "candidate",
+      "text": "NASM, the Netwide Assembler"
     }
   ],
   "candidate_related_terms": [
@@ -324,11 +342,23 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "crytic/pyevmasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "crytic/pyevmasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "netwide-assembler/nasm"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

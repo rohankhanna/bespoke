@@ -103,6 +103,18 @@
       "source_repo": "KaiyangZhou/deep-person-reid",
       "status": "candidate-context",
       "text": "Torchreid"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KaiyangZhou/mixstyle-release",
+      "status": "candidate-context",
+      "text": "Domain Generalization with MixStyle (ICLR'21)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KaiyangZhou/mixstyle-release",
+      "status": "candidate-context",
+      "text": "This repo contains the code of our ICLR'21 paper, \"Domain Generalization with MixStyle\"."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "KaiyangZhou/deep-person-reid",
       "status": "candidate",
       "text": "Torchreid"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KaiyangZhou/mixstyle-release",
+      "status": "candidate",
+      "text": "This repo contains the code of our ICLR'21 paper, \"Domain Generalization with MixStyle\"."
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,17 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "KaiyangZhou/deep-person-reid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/mixstyle-release"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

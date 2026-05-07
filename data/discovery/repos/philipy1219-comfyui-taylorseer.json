@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "philipy1219/ComfyUI-TaylorSeer",
+      "target": "shenyi-z/cache4diffusion",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T07:15:35.926201+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4688
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "philipy1219/ComfyUI-TaylorSeer",
+    "html_url": "https://github.com/philipy1219/ComfyUI-TaylorSeer",
+    "language": "Python",
+    "pushed_at": "2026-01-29T06:37:34Z",
+    "stargazers_count": 60,
+    "topics": [],
+    "updated_at": "2026-03-20T17:56:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shenyi-z/cache4diffusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

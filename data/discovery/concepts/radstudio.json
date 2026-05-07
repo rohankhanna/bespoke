@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "radstudio"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "salvadordf/WebView4Delphi",
+      "status": "candidate-context",
+      "text": "WebView4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Edge/Chromium-based browsers in applications made with Delphi or Lazarus/FPC for Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salvadordf/WebView4Delphi",
+      "status": "candidate-context",
+      "text": "WebView4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Edge/Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salvadordf/WebView4Delphi",
+      "status": "candidate",
+      "text": "WebView4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Edge/Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "radstudio",
+  "concept_id": "radstudio",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "salvadordf/WebView4Delphi"
+    }
+  ],
+  "first_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "radstudio",
+      "sense_id": "radstudio#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

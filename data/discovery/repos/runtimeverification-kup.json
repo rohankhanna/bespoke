@@ -1,0 +1,253 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master-push.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master-push.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master-push.yml"
+    },
+    {
+      "component": "workflow/nix-shell-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master-push.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-version.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-version.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-version.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-version.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-version.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master-push.yml",
+      "source_repo": "runtimeverification/kup",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master-push.yml",
+      "source_repo": "runtimeverification/kup",
+      "target": "cachix/install-nix-action@v31.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master-push.yml",
+      "source_repo": "runtimeverification/kup",
+      "target": "cachix/cachix-action@v12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master-push.yml",
+      "source_repo": "runtimeverification/kup",
+      "target": "workflow/nix-shell-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master-push.yml",
+      "source_repo": "runtimeverification/kup",
+      "target": "Master Push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml",
+      "source_repo": "runtimeverification/kup",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml",
+      "source_repo": "runtimeverification/kup",
+      "target": "cachix/install-nix-action@v31.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml",
+      "source_repo": "runtimeverification/kup",
+      "target": "cachix/cachix-action@v12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml",
+      "source_repo": "runtimeverification/kup",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml",
+      "source_repo": "runtimeverification/kup",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-pr.yml",
+      "source_repo": "runtimeverification/kup",
+      "target": "Build and Test PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-version.yml",
+      "source_repo": "runtimeverification/kup",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-version.yml",
+      "source_repo": "runtimeverification/kup",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-version.yml",
+      "source_repo": "runtimeverification/kup",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-version.yml",
+      "source_repo": "runtimeverification/kup",
+      "target": "cachix/install-nix-action@v31.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-version.yml",
+      "source_repo": "runtimeverification/kup",
+      "target": "cachix/cachix-action@v16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-version.yml",
+      "source_repo": "runtimeverification/kup",
+      "target": "Update Version",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T10:44:55.105566+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1276
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1425
+    },
+    {
+      "path": ".github/workflows/master-push.yml",
+      "size": 1577
+    },
+    {
+      "path": ".github/workflows/test-pr.yml",
+      "size": 1541
+    },
+    {
+      "path": ".github/workflows/update-version.yml",
+      "size": 3405
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "K and Semantics Distribution Tool",
+    "fork": false,
+    "full_name": "runtimeverification/kup",
+    "html_url": "https://github.com/runtimeverification/kup",
+    "language": "Python",
+    "pushed_at": "2026-03-29T13:29:22Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-03-10T10:30:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Master Push'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master-push.yml",
+      "term": "Master Push"
+    },
+    {
+      "context_snippet": "'Build and Test PR'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-pr.yml",
+      "term": "Build and Test PR"
+    },
+    {
+      "context_snippet": "'Update Version'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-version.yml",
+      "term": "Update Version"
+    }
+  ]
+}

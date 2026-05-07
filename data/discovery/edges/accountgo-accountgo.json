@@ -1,0 +1,146 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/good-books_api.yml",
+      "source_repo": "AccountGo/accountgo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/good-books_api.yml",
+      "source_repo": "AccountGo/accountgo",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/good-books_api.yml",
+      "source_repo": "AccountGo/accountgo",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/good-books_api.yml",
+      "source_repo": "AccountGo/accountgo",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/good-books_api.yml",
+      "source_repo": "AccountGo/accountgo",
+      "target": "azure/login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/good-books_api.yml",
+      "source_repo": "AccountGo/accountgo",
+      "target": "azure/webapps-deploy@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/good-books_mvc.yml.disable",
+      "source_repo": "AccountGo/accountgo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/good-books_mvc.yml.disable",
+      "source_repo": "AccountGo/accountgo",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/good-books_mvc.yml.disable",
+      "source_repo": "AccountGo/accountgo",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/good-books_mvc.yml.disable",
+      "source_repo": "AccountGo/accountgo",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/good-books_mvc.yml.disable",
+      "source_repo": "AccountGo/accountgo",
+      "target": "azure/login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/good-books_mvc.yml.disable",
+      "source_repo": "AccountGo/accountgo",
+      "target": "azure/webapps-deploy@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/good-books_mvc_tar.yml",
+      "source_repo": "AccountGo/accountgo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/good-books_mvc_tar.yml",
+      "source_repo": "AccountGo/accountgo",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/good-books_mvc_tar.yml",
+      "source_repo": "AccountGo/accountgo",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/good-books_mvc_tar.yml",
+      "source_repo": "AccountGo/accountgo",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/good-books_mvc_tar.yml",
+      "source_repo": "AccountGo/accountgo",
+      "target": "azure/login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/good-books_mvc_tar.yml",
+      "source_repo": "AccountGo/accountgo",
+      "target": "azure/webapps-deploy@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/good-books_react.yml.disable",
+      "source_repo": "AccountGo/accountgo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/good-books_react.yml.disable",
+      "source_repo": "AccountGo/accountgo",
+      "target": "Azure/static-web-apps-deploy@v1",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-07T07:09:11.945528+00:00",
+  "source_repo": "AccountGo/accountgo"
+}

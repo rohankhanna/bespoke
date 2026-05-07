@@ -319,6 +319,18 @@
       "source_repo": "mapbox/tilejson-spec",
       "status": "candidate-context",
       "text": "TileJSON is an open standard for representing map metadata. Current version: [3.0.0](/3.0.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pmer/tla-bin",
+      "status": "candidate-context",
+      "text": "Command line binaries for the TLA+ language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmer/tla-bin",
+      "status": "candidate-context",
+      "text": "tla-bin is a wrapper around https://github.com/tlaplus/tlaplus that provides"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +489,12 @@
       "source_repo": "mapbox/tilejson-spec",
       "status": "candidate",
       "text": "TileJSON is an open standard for representing map metadata. Current version: [3.0.0](/3.0.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmer/tla-bin",
+      "status": "candidate",
+      "text": "tla-bin is a wrapper around https://github.com/tlaplus/tlaplus that provides"
     }
   ],
   "candidate_related_terms": [
@@ -697,11 +715,17 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": null,
       "source_repo": "mapbox/tilejson-spec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "pmer/tla-bin"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "household-mangement"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/donetick-mcp",
+      "status": "candidate-context",
+      "text": "MCP for Donetick self-hosted chore manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/donetick-mcp",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/donetick-mcp)](https://pypi.org/project/donetick-mcp/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/donetick-mcp",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/donetick-mcp)](https://pypi.org/project/donetick-mcp/)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "household-mangement",
+  "concept_id": "household-mangement",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/donetick-mcp"
+    }
+  ],
+  "first_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "household-mangement",
+      "sense_id": "household-mangement#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

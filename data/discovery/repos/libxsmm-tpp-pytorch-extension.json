@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T10:50:00.134092+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 951
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 104
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Intel\u00ae Tensor Processing Primitives extension for Pytorch*",
+    "fork": false,
+    "full_name": "libxsmm/tpp-pytorch-extension",
+    "html_url": "https://github.com/libxsmm/tpp-pytorch-extension",
+    "language": "C++",
+    "pushed_at": "2026-04-09T10:15:38Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2026-01-30T22:31:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

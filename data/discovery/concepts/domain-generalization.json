@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "domain-generalization"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KaiyangZhou/Dassl.pytorch",
+      "status": "candidate-context",
+      "text": "A PyTorch toolbox for domain generalization, domain adaptation and semi-supervised learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KaiyangZhou/Dassl.pytorch",
+      "status": "candidate-context",
+      "text": "Dassl is a [PyTorch](https://pytorch.org) toolbox initially developed for our project [Domain Adaptive Ensemble Learning (DAEL)](https://arxiv.org/abs/2003.07325) to support research in domain adaptation and generalization---since in DAEL we study how to unify these two problems\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KaiyangZhou/mixstyle-release",
+      "status": "candidate-context",
+      "text": "Domain Generalization with MixStyle (ICLR'21)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KaiyangZhou/mixstyle-release",
+      "status": "candidate-context",
+      "text": "This repo contains the code of our ICLR'21 paper, \"Domain Generalization with MixStyle\"."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KaiyangZhou/Dassl.pytorch",
+      "status": "candidate",
+      "text": "Dassl is a [PyTorch](https://pytorch.org) toolbox initially developed for our project [Domain Adaptive Ensemble Learning (DAEL)](https://arxiv.org/abs/2003.07325) to support research in domain adaptation and generalization---since in DAEL we study how to unify these two problems\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KaiyangZhou/mixstyle-release",
+      "status": "candidate",
+      "text": "This repo contains the code of our ICLR'21 paper, \"Domain Generalization with MixStyle\"."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "domain-generalization",
+  "concept_id": "domain-generalization",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/Dassl.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/mixstyle-release"
+    }
+  ],
+  "first_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "domain-generalization",
+      "sense_id": "domain-generalization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -175,6 +175,18 @@
       "source_repo": "cpmech/plotpy",
       "status": "candidate-context",
       "text": "[![documentation](https://img.shields.io/badge/plotpy-documentation-blue)](https://docs.rs/plotpy)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "petercorke/pgraph-python",
+      "status": "candidate-context",
+      "text": "Simple graph classes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/pgraph-python",
+      "status": "candidate-context",
+      "text": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "cpmech/plotpy",
       "status": "candidate",
       "text": "[![documentation](https://img.shields.io/badge/plotpy-documentation-blue)](https://docs.rs/plotpy)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/pgraph-python",
+      "status": "candidate",
+      "text": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)"
     }
   ],
   "candidate_related_terms": [
@@ -406,11 +424,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "cpmech/plotpy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "petercorke/pgraph-python"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

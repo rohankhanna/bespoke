@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Command-line tools and Service for Minecraft Servers (Bedrock & Java)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI Status](https://github.com/Kaiede/Bedrockifier/actions/workflows/swift.yml/badge.svg)](https://github.com/Kaiede/Bedrockifier/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI Status](https://github.com/Kaiede/Bedrockifier/actions/workflows/swift.yml/badge.svg)](https://github.com/Kaiede/Bedrockifier/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39559506,
+      "status": "candidate",
+      "text": "fundamentals"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29799275,
+      "status": "candidate",
+      "text": "basic principle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29799275,
+      "status": "candidate",
+      "text": "basics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29799275,
+      "status": "candidate",
+      "text": "fundamental principle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29799274,
+      "status": "candidate",
+      "text": "rock"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bedrock",
+      "sense_id": "bedrock#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10029,
+      "status": "candidate",
+      "text": "fundamentals"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3024,
+      "status": "candidate",
+      "text": "basics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2010,
+      "status": "candidate",
+      "text": "fundamental principle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "basic principle"
+    }
+  ],
+  "concept_id": "bedrock",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bedrock",
+  "observation_id": "a35242f5c7948a63",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T07:09:11.945528+00:00",
+  "observed_text": "bedrock",
+  "source_context_snippet": "[![CI Status](https://github.com/Kaiede/Bedrockifier/actions/workflows/swift.yml/badge.svg)](https://github.com/Kaiede/Bedrockifier/actions)",
+  "source_file": null,
+  "source_repo": "Kaiede/Bedrockifier",
+  "source_repo_description": "Command-line tools and Service for Minecraft Servers (Bedrock & Java)"
+}

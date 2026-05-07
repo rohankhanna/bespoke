@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "usdot-fhwa-stol/cdasim",
-      "target": "usdot-fhwa-stol/carma-platform",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "usdot-fhwa-stol/cdasim",
@@ -71,6 +64,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "generated_at": "2026-05-07T07:09:11.945528+00:00",
   "source_repo": "usdot-fhwa-stol/cdasim"
 }

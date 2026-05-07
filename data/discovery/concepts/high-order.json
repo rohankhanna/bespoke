@@ -19,6 +19,18 @@
       "source_repo": "CEED/libCEED",
       "status": "candidate-context",
       "text": "[![GitHub Actions][github-badge]][github-link]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Nek5000/Nek5000",
+      "status": "candidate-context",
+      "text": "our classic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nek5000/Nek5000",
+      "status": "candidate-context",
+      "text": "| **`Short Tests`** | **`Examples`** |"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "CEED/libCEED",
       "status": "candidate",
       "text": "[![GitHub Actions][github-badge]][github-link]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nek5000/Nek5000",
+      "status": "candidate",
+      "text": "| **`Short Tests`** | **`Examples`** |"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "CEED/libCEED"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "Nek5000/Nek5000"
     }
   ],
   "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

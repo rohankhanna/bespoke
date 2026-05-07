@@ -379,6 +379,18 @@
       "source_repo": "conda-forge/pyfive-feedstock",
       "status": "candidate-context",
       "text": "Build conda package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda-forge/rerun-sdk-feedstock",
+      "status": "candidate-context",
+      "text": "A conda-smithy repository for rerun-sdk."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/rerun-sdk-feedstock",
+      "status": "candidate-context",
+      "text": "Build conda package"
     }
   ],
   "candidate_glosses": [
@@ -565,6 +577,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "conda-forge/pyfive-feedstock",
+      "status": "candidate",
+      "text": "Build conda package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/rerun-sdk-feedstock",
       "status": "candidate",
       "text": "Build conda package"
     }
@@ -796,11 +814,17 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/conda-build.yml",
       "source_repo": "conda-forge/pyfive-feedstock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/rerun-sdk-feedstock"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

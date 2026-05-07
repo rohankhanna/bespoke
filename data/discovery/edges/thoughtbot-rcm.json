@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dynamic-readme.yml",
+      "source_repo": "thoughtbot/rcm",
+      "target": "thoughtbot/templates/.github/workflows/dynamic-readme.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dynamic-readme.yml",
+      "source_repo": "thoughtbot/rcm",
+      "target": "update-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dynamic-security.yml",
+      "source_repo": "thoughtbot/rcm",
+      "target": "thoughtbot/templates/.github/workflows/dynamic-security.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dynamic-security.yml",
+      "source_repo": "thoughtbot/rcm",
+      "target": "update-security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thoughtbot/rcm",
+      "target": "unix",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-07T07:09:11.945528+00:00",
+  "source_repo": "thoughtbot/rcm"
+}

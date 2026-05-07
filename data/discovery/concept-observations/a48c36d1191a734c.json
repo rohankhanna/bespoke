@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udcdd Go INI config management. support multi file load, data override merge. parse ENV variable, parse variable reference. Dotenv file parse and loader. INI\u914d\u7f6e\u8bfb\u53d6\u7ba1\u7406\uff0c\u652f\u6301\u591a\u6587\u4ef6\u52a0\u8f7d\uff0c\u6570\u636e\u8986\u76d6\u5408\u5e76, \u89e3\u6790ENV\u53d8\u91cf, \u89e3\u6790\u53d8\u91cf\u5f15\u7528\u3002DotEnv \u89e3\u6790\u52a0\u8f7d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/ini?style=flat-square)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/ini?style=flat-square)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018928,
+      "status": "candidate",
+      "text": "surroundings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009917,
+      "status": "candidate",
+      "text": "surround"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30019233,
+      "status": "candidate",
+      "text": "environs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30019232,
+      "status": "candidate",
+      "text": "milieu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30018180,
+      "status": "candidate",
+      "text": "ambiance"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "environment",
+      "sense_id": "environment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10040,
+      "status": "candidate",
+      "text": "surround"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9027,
+      "status": "candidate",
+      "text": "surroundings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6032,
+      "status": "candidate",
+      "text": "environs"
+    }
+  ],
+  "concept_id": "environment",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "environment",
+  "observation_id": "a48c36d1191a734c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T07:09:11.945528+00:00",
+  "observed_text": "environment",
+  "source_context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/ini?style=flat-square)",
+  "source_file": null,
+  "source_repo": "gookit/ini",
+  "source_repo_description": "\ud83d\udcdd Go INI config management. support multi file load, data override merge. parse ENV variable, parse variable reference. Dotenv file parse and loader. INI\u914d\u7f6e\u8bfb\u53d6\u7ba1\u7406\uff0c\u652f\u6301\u591a\u6587\u4ef6\u52a0\u8f7d\uff0c\u6570\u636e\u8986\u76d6\u5408\u5e76, \u89e3\u6790ENV\u53d8\u91cf, \u89e3\u6790\u53d8\u91cf\u5f15\u7528\u3002DotEnv \u89e3\u6790\u52a0\u8f7d"
+}

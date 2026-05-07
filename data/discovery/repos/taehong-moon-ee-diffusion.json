@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T07:15:40.679864+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1190
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official Code Implementation for 'A Simple Early Exiting Framework for Accelerated Sampling in Diffusion Models'",
+    "fork": false,
+    "full_name": "taehong-moon/ee-diffusion",
+    "html_url": "https://github.com/taehong-moon/ee-diffusion",
+    "language": "Python",
+    "pushed_at": "2024-07-24T07:28:06Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2025-09-07T14:43:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

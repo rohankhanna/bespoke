@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -746,6 +746,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "theJayTea/WritingTools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/Dassl.pytorch"
     }
   ],
   "term": "artificial-intelligence"

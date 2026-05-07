@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "weekly-production-release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "status": "candidate-context",
+      "text": "DevHub Portal Product UI (Hosted BOS) \u2013\u00a0Includes other instances (e.g. Infrastructure, Events)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "status": "candidate-context",
+      "text": "weekly-production-release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "status": "candidate",
+      "text": "weekly-production-release"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "weekly-production-release",
+  "concept_id": "weekly-production-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/promote-develop-to-main.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos"
+    }
+  ],
+  "first_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "weekly-production-release",
+      "sense_id": "weekly-production-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

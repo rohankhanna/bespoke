@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T07:15:27.346964+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6504
+    },
+    {
+      "path": "requirements.txt",
+      "size": 209
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official Implementation for paper: Negative Token Merging: Image-based Adversarial Feature Guidance",
+    "fork": false,
+    "full_name": "1jsingh/negtome",
+    "html_url": "https://github.com/1jsingh/negtome",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-06-23T20:03:29Z",
+    "stargazers_count": 74,
+    "topics": [],
+    "updated_at": "2026-04-06T07:37:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

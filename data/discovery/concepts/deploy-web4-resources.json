@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy web4 resources"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "status": "candidate-context",
+      "text": "DevHub Portal Product UI (Hosted BOS) \u2013\u00a0Includes other instances (e.g. Infrastructure, Events)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "status": "candidate-context",
+      "text": "Deploy web4 resources"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "status": "candidate",
+      "text": "Deploy web4 resources"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30708,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14308,
+      "status": "candidate",
+      "text": "capacity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14308,
+      "status": "candidate",
+      "text": "pulling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14256,
+      "status": "candidate",
+      "text": "reuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13287,
+      "status": "candidate",
+      "text": "implementation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy web4 resources",
+  "concept_id": "deploy-web4-resources",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/deploy-web4-resources.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos"
+    }
+  ],
+  "first_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy web4 resources",
+      "sense_id": "deploy-web4-resources#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

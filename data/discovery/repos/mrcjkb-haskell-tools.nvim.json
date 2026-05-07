@@ -1,0 +1,626 @@
+{
+  "components": [
+    {
+      "component": "dependabot/fetch-metadata@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docgen.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docgen.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docgen.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flakehub-publish-tagged.yaml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flakehub-publish-tagged.yaml"
+    },
+    {
+      "component": "DeterminateSystems/flakehub-push@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flakehub-publish-tagged.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml"
+    },
+    {
+      "component": "nvim-neorocks/luarocks-tag-release@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "beemojs/conventional-pr-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "googleapis/release-please-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review-checklist.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "elaforge/fast-tags",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "hrsh7th/cmp-nvim-lsp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "camilledejoye/nvim-lsp-selection-range",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "hkupty/iron.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "dependabot/fetch-metadata@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "Dependabot auto-approve",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docgen.yml",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docgen.yml",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docgen.yml",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "cachix/cachix-action@v17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docgen.yml",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "Generate docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flakehub-publish-tagged.yaml",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flakehub-publish-tagged.yaml",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "DeterminateSystems/nix-installer-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flakehub-publish-tagged.yaml",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "DeterminateSystems/flakehub-push@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flakehub-publish-tagged.yaml",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "Publish tags to FlakeHub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "nvim-neorocks/luarocks-tag-release@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "Push to LuaRocks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "cachix/cachix-action@v17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "Nix build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "beemojs/conventional-pr-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "googleapis/release-please-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "Release Please",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review-checklist.yml",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/review-checklist.yml",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "Review Checklist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "debug-adapter-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "fast-tags",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "haskell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "hoogle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "language-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "language-server-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "lsp-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "repl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "tagfunc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "target": "telescope",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T10:44:40.780087+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31034
+    },
+    {
+      "path": ".github/workflows/auto-merge.yml",
+      "size": 597
+    },
+    {
+      "path": ".github/workflows/docgen.yml",
+      "size": 1055
+    },
+    {
+      "path": ".github/workflows/flakehub-publish-tagged.yaml",
+      "size": 755
+    },
+    {
+      "path": ".github/workflows/luarocks.yml",
+      "size": 909
+    },
+    {
+      "path": ".github/workflows/nix-build.yml",
+      "size": 675
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 335
+    },
+    {
+      "path": ".github/workflows/release-please-config.json",
+      "size": 66
+    },
+    {
+      "path": ".github/workflows/release-please.yml",
+      "size": 414
+    },
+    {
+      "path": ".github/workflows/review-checklist.yml",
+      "size": 1803
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " \ud83e\udda5 Supercharge your Haskell experience in neovim!",
+    "fork": false,
+    "full_name": "mrcjkb/haskell-tools.nvim",
+    "html_url": "https://github.com/mrcjkb/haskell-tools.nvim",
+    "language": "Lua",
+    "pushed_at": "2026-05-07T00:39:07Z",
+    "stargazers_count": 595,
+    "topics": [
+      "dap",
+      "debug-adapter-protocol",
+      "fast-tags",
+      "haskell",
+      "hoogle",
+      "language-server",
+      "language-server-protocol",
+      "lsp",
+      "lsp-client",
+      "lua",
+      "neovim",
+      "neovim-plugin",
+      "nvim",
+      "plugin",
+      "repl",
+      "tagfunc",
+      "telescope",
+      "vim"
+    ],
+    "updated_at": "2026-05-07T00:39:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "camilledejoye/nvim-lsp-selection-range",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elaforge/fast-tags",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hkupty/iron.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hrsh7th/cmp-nvim-lsp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Dependabot auto-approve",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "term": "Dependabot auto-approve"
+    },
+    {
+      "context_snippet": "Generate docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docgen.yml",
+      "term": "Generate docs"
+    },
+    {
+      "context_snippet": "\"Publish tags to FlakeHub\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flakehub-publish-tagged.yaml",
+      "term": "Publish tags to FlakeHub"
+    },
+    {
+      "context_snippet": "\"Push to LuaRocks\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "term": "Push to LuaRocks"
+    },
+    {
+      "context_snippet": "\"Nix build\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-build.yml",
+      "term": "Nix build"
+    },
+    {
+      "context_snippet": "Release Please",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "term": "Release Please"
+    },
+    {
+      "context_snippet": "Review Checklist",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/review-checklist.yml",
+      "term": "Review Checklist"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debug-adapter-protocol"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fast-tags"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haskell"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hoogle"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server-protocol"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lsp-client"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repl"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tagfunc"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "telescope"
+    }
+  ]
+}

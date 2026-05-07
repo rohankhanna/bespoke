@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "fluid"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Nek5000/Nek5000",
+      "status": "candidate-context",
+      "text": "our classic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nek5000/Nek5000",
+      "status": "candidate-context",
+      "text": "| **`Short Tests`** | **`Examples`** |"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nek5000/Nek5000",
+      "status": "candidate",
+      "text": "| **`Short Tests`** | **`Examples`** |"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045664,
+      "status": "candidate",
+      "text": "liquid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006739,
+      "status": "candidate",
+      "text": "fluent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006274,
+      "status": "candidate",
+      "text": "runny"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005288,
+      "status": "candidate",
+      "text": "flowing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39967758,
+      "status": "candidate",
+      "text": "mobile"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23041,
+      "status": "candidate",
+      "text": "unstable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19051,
+      "status": "candidate",
+      "text": "smooth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17037,
+      "status": "candidate",
+      "text": "fluent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11034,
+      "status": "candidate",
+      "text": "graceful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7033,
+      "status": "candidate",
+      "text": "flowing"
+    }
+  ],
+  "canonical_name": "fluid",
+  "concept_id": "fluid",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "Nek5000/Nek5000"
+    }
+  ],
+  "first_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fluid",
+      "sense_id": "fluid#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

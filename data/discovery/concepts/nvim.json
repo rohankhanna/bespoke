@@ -1021,6 +1021,18 @@
       "source_repo": "Iron-E/nvim-highlite",
       "status": "candidate-context",
       "text": "* Use any of the built-in colorschemes using `:colorscheme`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "status": "candidate-context",
+      "text": " \ud83e\udda5 Supercharge your Haskell experience in neovim!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable -->"
     }
   ],
   "candidate_glosses": [
@@ -1539,6 +1551,12 @@
       "source_repo": "Iron-E/nvim-highlite",
       "status": "candidate",
       "text": "* Use any of the built-in colorschemes using `:colorscheme`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable -->"
     }
   ],
   "candidate_related_terms": [],
@@ -2728,11 +2746,59 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "aileot/vim-foldpeek"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/lspsaga.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "famiu/feline.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "Hitesh-Aggarwal/feline_theme.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "onsails/lspkind.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "aileot/vim-foldpeek"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "mrcjkb/haskell-tools.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

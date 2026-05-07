@@ -13,12 +13,30 @@
       "source_repo": "HDFGroup/hdf5_plugins",
       "status": "candidate-context",
       "text": "clang-format Commit Changes"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HDFGroup/hdf4",
+      "status": "candidate-context",
+      "text": "Official HDF4 Library Repository "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HDFGroup/hdf4",
+      "status": "candidate-context",
+      "text": "clang-format Commit Changes"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "HDFGroup/hdf5_plugins",
+      "status": "candidate",
+      "text": "clang-format Commit Changes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HDFGroup/hdf4",
       "status": "candidate",
       "text": "clang-format Commit Changes"
     }
@@ -70,11 +88,17 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": ".github/workflows/clang-format-fix.yml",
       "source_repo": "HDFGroup/hdf5_plugins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/clang-format-fix.yml",
+      "source_repo": "HDFGroup/hdf4"
     }
   ],
   "first_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

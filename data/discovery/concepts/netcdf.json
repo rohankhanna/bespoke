@@ -67,6 +67,18 @@
       "source_repo": "pydata/xarray",
       "status": "candidate-context",
       "text": "[![Xarray](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/pydata/xarray/refs/heads/main/doc/badge.json)](https://xarray.dev)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Unidata/netcdf-c",
+      "status": "candidate-context",
+      "text": "Official GitHub repository for netCDF-C libraries and utilities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Unidata/netcdf-c",
+      "status": "candidate-context",
+      "text": "[![latest packaged version(s)](https://repology.org/badge/latest-versions/netcdf.svg)](https://repology.org/project/netcdf/badges)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "pydata/xarray",
       "status": "candidate",
       "text": "[![Xarray](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/pydata/xarray/refs/heads/main/doc/badge.json)](https://xarray.dev)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Unidata/netcdf-c",
+      "status": "candidate",
+      "text": "[![latest packaged version(s)](https://repology.org/badge/latest-versions/netcdf.svg)](https://repology.org/project/netcdf/badges)"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "pydata/xarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "Unidata/netcdf-c"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

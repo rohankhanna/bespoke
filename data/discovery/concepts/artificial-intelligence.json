@@ -1759,6 +1759,30 @@
       "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings",
       "status": "candidate-context",
       "text": "Provides the ability to set the temperature for both UNET and CLIP. For ComfyUI."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theJayTea/WritingTools",
+      "status": "candidate-context",
+      "text": "The world's smartest system-wide grammar assistant; a better version of the Apple Intelligence Writing Tools. Works on Windows, Linux, & macOS, with the free Gemini API, local LLMs, & more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theJayTea/WritingTools",
+      "status": "candidate-context",
+      "text": "> **\ud83c\udf4e Using a Mac? Jump to the macOS (Native Swift Port) section \u2192 [macOS](#macos)**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KaiyangZhou/Dassl.pytorch",
+      "status": "candidate-context",
+      "text": "A PyTorch toolbox for domain generalization, domain adaptation and semi-supervised learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KaiyangZhou/Dassl.pytorch",
+      "status": "candidate-context",
+      "text": "Dassl is a [PyTorch](https://pytorch.org) toolbox initially developed for our project [Domain Adaptive Ensemble Learning (DAEL)](https://arxiv.org/abs/2003.07325) to support research in domain adaptation and generalization---since in DAEL we study how to unify these two problems\u2026"
     }
   ],
   "candidate_glosses": [
@@ -2637,6 +2661,18 @@
       "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings",
       "status": "candidate",
       "text": "Provides the ability to set the temperature for both UNET and CLIP. For ComfyUI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theJayTea/WritingTools",
+      "status": "candidate",
+      "text": "> **\ud83c\udf4e Using a Mac? Jump to the macOS (Native Swift Port) section \u2192 [macOS](#macos)**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KaiyangZhou/Dassl.pytorch",
+      "status": "candidate",
+      "text": "Dassl is a [PyTorch](https://pytorch.org) toolbox initially developed for our project [Domain Adaptive Ensemble Learning (DAEL)](https://arxiv.org/abs/2003.07325) to support research in domain adaptation and generalization---since in DAEL we study how to unify these two problems\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -5110,11 +5146,107 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "Alibaba-NLP/DeepResearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "theJayTea/WritingTools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "Alibaba-NLP/DeepResearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/Dassl.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/vector-quantize-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/langchainrb"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -139,6 +139,18 @@
       "source_repo": "huawei-noah/Pretrained-Language-Model",
       "status": "candidate-context",
       "text": "This repository provides the latest pretrained language models and its related optimization techniques developed by Huawei Noah's Ark Lab."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xuyang-liu16/Awesome-Token-level-Model-Compression",
+      "status": "candidate-context",
+      "text": "\ud83d\udcda Collection of token-level model compression resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuyang-liu16/Awesome-Token-level-Model-Compression",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "huawei-noah/Pretrained-Language-Model",
       "status": "candidate",
       "text": "This repository provides the latest pretrained language models and its related optimization techniques developed by Huawei Noah's Ark Lab."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuyang-liu16/Awesome-Token-level-Model-Compression",
+      "status": "candidate",
+      "text": "<div align=center>"
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +298,17 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "huawei-noah/Pretrained-Language-Model"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Token-level-Model-Compression"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -45,6 +45,18 @@
       "source_repo": "LekoArts/gatsby-themes",
       "status": "candidate-context",
       "text": "Build Packages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jstkdng/aur",
+      "status": "candidate-context",
+      "text": "AUR packages I maintain and co-maintain"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jstkdng/aur",
+      "status": "candidate-context",
+      "text": "Build packages"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +77,12 @@
       "source_repo": "LekoArts/gatsby-themes",
       "status": "candidate",
       "text": "Build Packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jstkdng/aur",
+      "status": "candidate",
+      "text": "Build packages"
     }
   ],
   "candidate_related_terms": [
@@ -126,11 +144,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/build-packages.yml",
       "source_repo": "LekoArts/gatsby-themes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jstkdng/aur"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

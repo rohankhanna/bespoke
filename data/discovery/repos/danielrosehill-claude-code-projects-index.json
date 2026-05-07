@@ -11,21 +11,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-dolphin-konsole-actions",
+      "target": "danielrosehill/claude-filesystem-organiser-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-dork",
+      "target": "danielrosehill/claude-favorite-plugins-installers-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-donetick-plugin",
+      "target": "danielrosehill/claude-get-toony-plugin",
       "target_type": "repository"
     },
     {
@@ -64,7 +64,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T02:12:29.680179+00:00",
+  "fetched_at": "2026-05-07T08:28:25.298861+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -85,13 +85,13 @@
     "html_url": "https://github.com/danielrosehill/Claude-Code-Projects-Index",
     "language": "Astro",
     "pushed_at": "2026-05-04T08:07:33Z",
-    "stargazers_count": 459,
+    "stargazers_count": 460,
     "topics": [
       "claude-code",
       "claude-code-cli",
       "index-repos"
     ],
-    "updated_at": "2026-05-07T02:10:39Z"
+    "updated_at": "2026-05-07T07:32:33Z"
   },
   "repo_links": [
     {
@@ -101,17 +101,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-dolphin-konsole-actions",
+      "full_name": "danielrosehill/claude-favorite-plugins-installers-plugin",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-donetick-plugin",
+      "full_name": "danielrosehill/claude-filesystem-organiser-plugin",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-dork",
+      "full_name": "danielrosehill/claude-get-toony-plugin",
       "source_file": "README.md"
     }
   ],

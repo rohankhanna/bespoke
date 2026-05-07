@@ -1,61 +1,5 @@
 {
-  "components": [
-    {
-      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-package.yml"
-    },
-    {
-      "component": "dart-lang/setup-dart@b64355ae6ca0b5d484f0106a033dd1388965d06d",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-package.yml"
-    },
-    {
-      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-package.yml"
-    },
-    {
-      "component": "dart-lang/setup-dart@b64355ae6ca0b5d484f0106a033dd1388965d06d",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-package.yml"
-    },
-    {
-      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-package.yml"
-    },
-    {
-      "component": "dart-lang/setup-dart@b64355ae6ca0b5d484f0106a033dd1388965d06d",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-package.yml"
-    },
-    {
-      "component": "coverallsapp/github-action@3dfc5567390f6fa9267c0ee9c251e4c8c3f18949",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-package.yml"
-    },
-    {
-      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-package.yml"
-    },
-    {
-      "component": "dart-lang/setup-dart@b64355ae6ca0b5d484f0106a033dd1388965d06d",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-package.yml"
-    },
-    {
-      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-package.yml"
-    },
-    {
-      "component": "subosito/flutter-action@2783a3f08e1baf891508463f8c6653c258246225",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-package.yml"
-    }
-  ],
+  "components": [],
   "edges": [
     {
       "edge_type": "explicit-github-link",
@@ -63,52 +7,13 @@
       "source_repo": "dart-archive/ffigen",
       "target": "dart-lang/ffigen",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-package.yml",
-      "source_repo": "dart-archive/ffigen",
-      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-package.yml",
-      "source_repo": "dart-archive/ffigen",
-      "target": "dart-lang/setup-dart@b64355ae6ca0b5d484f0106a033dd1388965d06d",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-package.yml",
-      "source_repo": "dart-archive/ffigen",
-      "target": "coverallsapp/github-action@3dfc5567390f6fa9267c0ee9c251e4c8c3f18949",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-package.yml",
-      "source_repo": "dart-archive/ffigen",
-      "target": "subosito/flutter-action@2783a3f08e1baf891508463f8c6653c258246225",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/test-package.yml",
-      "source_repo": "dart-archive/ffigen",
-      "target": "Dart CI",
-      "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T03:27:51.170601+00:00",
+  "fetched_at": "2026-05-07T09:52:47.419038+00:00",
   "fetched_files": [
     {
       "path": "README.md",
       "size": 23148
-    },
-    {
-      "path": ".github/workflows/test-package.yml",
-      "size": 4098
     }
   ],
   "related_repositories": [],
@@ -132,12 +37,5 @@
       "source_file": "README.md"
     }
   ],
-  "terms": [
-    {
-      "context_snippet": "Dart CI",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/test-package.yml",
-      "term": "Dart CI"
-    }
-  ]
+  "terms": []
 }

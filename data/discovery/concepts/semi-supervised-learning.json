@@ -55,6 +55,18 @@
       "source_repo": "lukasruff/Deep-SAD-PyTorch",
       "status": "candidate-context",
       "text": "This repository provides a [PyTorch](https://pytorch.org/) implementation of the *Deep SAD* method presented in our ICLR 2020 paper \u201dDeep Semi-Supervised Anomaly Detection\u201d."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KaiyangZhou/Dassl.pytorch",
+      "status": "candidate-context",
+      "text": "A PyTorch toolbox for domain generalization, domain adaptation and semi-supervised learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KaiyangZhou/Dassl.pytorch",
+      "status": "candidate-context",
+      "text": "Dassl is a [PyTorch](https://pytorch.org) toolbox initially developed for our project [Domain Adaptive Ensemble Learning (DAEL)](https://arxiv.org/abs/2003.07325) to support research in domain adaptation and generalization---since in DAEL we study how to unify these two problems\u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "lukasruff/Deep-SAD-PyTorch",
       "status": "candidate",
       "text": "This repository provides a [PyTorch](https://pytorch.org/) implementation of the *Deep SAD* method presented in our ICLR 2020 paper \u201dDeep Semi-Supervised Anomaly Detection\u201d."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KaiyangZhou/Dassl.pytorch",
+      "status": "candidate",
+      "text": "Dassl is a [PyTorch](https://pytorch.org) toolbox initially developed for our project [Domain Adaptive Ensemble Learning (DAEL)](https://arxiv.org/abs/2003.07325) to support research in domain adaptation and generalization---since in DAEL we study how to unify these two problems\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "lukasruff/Deep-SAD-PyTorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/Dassl.pytorch"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

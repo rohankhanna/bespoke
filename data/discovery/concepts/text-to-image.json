@@ -379,6 +379,18 @@
       "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
       "status": "candidate-context",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Yushi-Hu/tifa",
+      "status": "candidate-context",
+      "text": "TIFA: Accurate and Interpretable Text-to-Image Faithfulness Evaluation with Question Answering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Yushi-Hu/tifa",
+      "status": "candidate-context",
+      "text": "Images synthesized by text-to-image models (e.g. Stable Diffusion) often do not follow the text inputs well."
     }
   ],
   "candidate_glosses": [
@@ -567,6 +579,12 @@
       "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
       "status": "candidate",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Yushi-Hu/tifa",
+      "status": "candidate",
+      "text": "Images synthesized by text-to-image models (e.g. Stable Diffusion) often do not follow the text inputs well."
     }
   ],
   "candidate_related_terms": [],
@@ -964,11 +982,35 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "yuval-alaluf/Attend-and-Excite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "AssemblyAI-Community/MinImagen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "Yushi-Hu/tifa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "yuval-alaluf/Attend-and-Excite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogView"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

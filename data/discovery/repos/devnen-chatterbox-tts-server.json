@@ -1,0 +1,392 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "target": "devnen/dia-tts-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "target": "devnen/kitten-tts-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "target": "devnen/chatterbox-v2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "target": "descriptinc/descript-audio-codec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "target": "Build and Push Docker Container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "target": "api-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "target": "audio-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "target": "chatterbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "target": "chatterbox-tts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "target": "fastapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "target": "huggingface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "target": "openai-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "target": "rocm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "target": "speech-synthesis-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "target": "tts-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "target": "voice-cloning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "target": "web-ui",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T08:28:36.839074+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 78398
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1790
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1986
+    },
+    {
+      "path": ".github/workflows/docker-build.yml",
+      "size": 1562
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Self-host the powerful Chatterbox TTS model. This server offers a user-friendly Web UI, flexible API endpoints (incl. OpenAI compatible), predefined voices, voice cloning, and large audiobook-scale text processing. Runs accelerated on NVIDIA (CUDA), AMD (ROCm), and CPU.",
+    "fork": false,
+    "full_name": "devnen/Chatterbox-TTS-Server",
+    "html_url": "https://github.com/devnen/Chatterbox-TTS-Server",
+    "language": "Python",
+    "pushed_at": "2026-04-02T20:30:07Z",
+    "stargazers_count": 1207,
+    "topics": [
+      "ai",
+      "api-server",
+      "audio-generation",
+      "chatterbox",
+      "chatterbox-tts",
+      "cuda",
+      "fastapi",
+      "huggingface",
+      "openai-api",
+      "python",
+      "pytorch",
+      "rocm",
+      "speech-synthesis",
+      "speech-synthesis-api",
+      "text-to-speech",
+      "tts",
+      "tts-api",
+      "voice-cloning",
+      "web-ui"
+    ],
+    "updated_at": "2026-05-07T06:32:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "descriptinc/descript-audio-codec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "devnen/chatterbox-v2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "devnen/dia-tts-server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "devnen/kitten-tts-server",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Push Docker Container",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build.yml",
+      "term": "Build and Push Docker Container"
+    },
+    {
+      "context_snippet": "**Self-host Resemble AI's [Chatterbox](https://github.com/resemble-ai/chatterbox) open-source TTS family (Original + Multilingual + Turbo) behind an OpenAI\u2011compatible API and a modern Web UI. The complete lineup includes the original high-quality model, multilingual support for \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-server"
+    },
+    {
+      "context_snippet": "**Self-host Resemble AI's [Chatterbox](https://github.com/resemble-ai/chatterbox) open-source TTS family (Original + Multilingual + Turbo) behind an OpenAI\u2011compatible API and a modern Web UI. The complete lineup includes the original high-quality model, multilingual support for \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-generation"
+    },
+    {
+      "context_snippet": "**Self-host Resemble AI's [Chatterbox](https://github.com/resemble-ai/chatterbox) open-source TTS family (Original + Multilingual + Turbo) behind an OpenAI\u2011compatible API and a modern Web UI. The complete lineup includes the original high-quality model, multilingual support for \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatterbox"
+    },
+    {
+      "context_snippet": "**Self-host Resemble AI's [Chatterbox](https://github.com/resemble-ai/chatterbox) open-source TTS family (Original + Multilingual + Turbo) behind an OpenAI\u2011compatible API and a modern Web UI. The complete lineup includes the original high-quality model, multilingual support for \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatterbox-tts"
+    },
+    {
+      "context_snippet": "**Self-host Resemble AI's [Chatterbox](https://github.com/resemble-ai/chatterbox) open-source TTS family (Original + Multilingual + Turbo) behind an OpenAI\u2011compatible API and a modern Web UI. The complete lineup includes the original high-quality model, multilingual support for \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "**Self-host Resemble AI's [Chatterbox](https://github.com/resemble-ai/chatterbox) open-source TTS family (Original + Multilingual + Turbo) behind an OpenAI\u2011compatible API and a modern Web UI. The complete lineup includes the original high-quality model, multilingual support for \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastapi"
+    },
+    {
+      "context_snippet": "**Self-host Resemble AI's [Chatterbox](https://github.com/resemble-ai/chatterbox) open-source TTS family (Original + Multilingual + Turbo) behind an OpenAI\u2011compatible API and a modern Web UI. The complete lineup includes the original high-quality model, multilingual support for \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huggingface"
+    },
+    {
+      "context_snippet": "**Self-host Resemble AI's [Chatterbox](https://github.com/resemble-ai/chatterbox) open-source TTS family (Original + Multilingual + Turbo) behind an OpenAI\u2011compatible API and a modern Web UI. The complete lineup includes the original high-quality model, multilingual support for \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openai-api"
+    },
+    {
+      "context_snippet": "**Self-host Resemble AI's [Chatterbox](https://github.com/resemble-ai/chatterbox) open-source TTS family (Original + Multilingual + Turbo) behind an OpenAI\u2011compatible API and a modern Web UI. The complete lineup includes the original high-quality model, multilingual support for \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "**Self-host Resemble AI's [Chatterbox](https://github.com/resemble-ai/chatterbox) open-source TTS family (Original + Multilingual + Turbo) behind an OpenAI\u2011compatible API and a modern Web UI. The complete lineup includes the original high-quality model, multilingual support for \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rocm"
+    },
+    {
+      "context_snippet": "**Self-host Resemble AI's [Chatterbox](https://github.com/resemble-ai/chatterbox) open-source TTS family (Original + Multilingual + Turbo) behind an OpenAI\u2011compatible API and a modern Web UI. The complete lineup includes the original high-quality model, multilingual support for \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "**Self-host Resemble AI's [Chatterbox](https://github.com/resemble-ai/chatterbox) open-source TTS family (Original + Multilingual + Turbo) behind an OpenAI\u2011compatible API and a modern Web UI. The complete lineup includes the original high-quality model, multilingual support for \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis-api"
+    },
+    {
+      "context_snippet": "**Self-host Resemble AI's [Chatterbox](https://github.com/resemble-ai/chatterbox) open-source TTS family (Original + Multilingual + Turbo) behind an OpenAI\u2011compatible API and a modern Web UI. The complete lineup includes the original high-quality model, multilingual support for \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    },
+    {
+      "context_snippet": "**Self-host Resemble AI's [Chatterbox](https://github.com/resemble-ai/chatterbox) open-source TTS family (Original + Multilingual + Turbo) behind an OpenAI\u2011compatible API and a modern Web UI. The complete lineup includes the original high-quality model, multilingual support for \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tts-api"
+    },
+    {
+      "context_snippet": "**Self-host Resemble AI's [Chatterbox](https://github.com/resemble-ai/chatterbox) open-source TTS family (Original + Multilingual + Turbo) behind an OpenAI\u2011compatible API and a modern Web UI. The complete lineup includes the original high-quality model, multilingual support for \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-cloning"
+    },
+    {
+      "context_snippet": "**Self-host Resemble AI's [Chatterbox](https://github.com/resemble-ai/chatterbox) open-source TTS family (Original + Multilingual + Turbo) behind an OpenAI\u2011compatible API and a modern Web UI. The complete lineup includes the original high-quality model, multilingual support for \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-ui"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kodyfanz/ethereum_yellowpaper_vn",
+      "target": "yuange1024/ethereum_yellowpaper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kodyfanz/ethereum_yellowpaper_vn",
+      "target": "asseth/yellowpaper",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T07:42:25.555043+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3716
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "vietnamese",
+    "description": "The 'Yellow Paper': Ethereum's formal specification in Vietnamese",
+    "fork": true,
+    "full_name": "kodyfanz/ethereum_yellowpaper_vn",
+    "html_url": "https://github.com/kodyfanz/ethereum_yellowpaper_vn",
+    "language": "TeX",
+    "pushed_at": "2024-01-31T09:23:52Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2024-01-24T01:09:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asseth/yellowpaper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuange1024/ethereum_yellowpaper",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -298,6 +298,18 @@
       "source_repo": "kloudfuse/opentelemetry-demo",
       "status": "candidate-context",
       "text": "Nightly Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TelemetryHub/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Community Demo Application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TelemetryHub/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Nightly Release"
     }
   ],
   "candidate_glosses": [
@@ -448,6 +460,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "kloudfuse/opentelemetry-demo",
+      "status": "candidate",
+      "text": "Nightly Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TelemetryHub/opentelemetry-demo",
       "status": "candidate",
       "text": "Nightly Release"
     }
@@ -841,11 +859,29 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": ".github/workflows/nightly-release.yaml",
       "source_repo": "riscv-collab/riscv-gnu-toolchain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/release_nightly.yml",
+      "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/nightly-release.yaml",
+      "source_repo": "riscv-collab/riscv-gnu-toolchain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/nightly-release.yml",
+      "source_repo": "TelemetryHub/opentelemetry-demo"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,30 @@
       "source_repo": "shivammehta25/Matcha-TTS",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "status": "candidate-context",
+      "text": "Self-host the powerful Chatterbox TTS model. This server offers a user-friendly Web UI, flexible API endpoints (incl. OpenAI compatible), predefined voices, voice cloning, and large audiobook-scale text processing. Runs accelerated on NVIDIA (CUDA), AMD (ROCm), and CPU."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "status": "candidate-context",
+      "text": "**Self-host Resemble AI's [Chatterbox](https://github.com/resemble-ai/chatterbox) open-source TTS family (Original + Multilingual + Turbo) behind an OpenAI\u2011compatible API and a modern Web UI. The complete lineup includes the original high-quality model, multilingual support for \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "remsky/Kokoro-FastAPI",
+      "status": "candidate-context",
+      "text": "Dockerized FastAPI wrapper for Kokoro-82M text-to-speech model w/CPU ONNX and NVIDIA GPU PyTorch support, handling, and auto-stitching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remsky/Kokoro-FastAPI",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "shivammehta25/Matcha-TTS",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "status": "candidate",
+      "text": "**Self-host Resemble AI's [Chatterbox](https://github.com/resemble-ai/chatterbox) open-source TTS family (Original + Multilingual + Turbo) behind an OpenAI\u2011compatible API and a modern Web UI. The complete lineup includes the original high-quality model, multilingual support for \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remsky/Kokoro-FastAPI",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "shivammehta25/Matcha-TTS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "devnen/Chatterbox-TTS-Server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "remsky/Kokoro-FastAPI"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

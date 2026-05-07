@@ -79,6 +79,30 @@
       "source_repo": "MY1L/QuQi",
       "status": "candidate-context",
       "text": "\u5206\u4e3a\u9ed8\u8ba4\u5b57\u4f53**Monu**\u548c\u5047\u540d\u5b57\u4f53**QuQi**\u3002\u8be5\u5b57\u4f53\u8bbe\u8ba1\u4e3a\u9002\u5408\u7cfb\u7edf\u6b63\u6587/\u7f51\u9875\u663e\u793a\uff08\u63d0\u4f9b\u538b\u7f29\u7684woff2\u7f51\u9875\u5b57\u4f53\uff0c\u4e14\u505a\u4e86\u5fae\u8c03\uff08hinting\uff09\uff09\uff0c\u7279\u522b\u4e0e\u5fae\u8f6f\u96c5\u9ed1\uff08\u53ca\u7c97\u4f53\uff09\u642d\u914d\u3002\u5b9e\u9645\u4e0a\u8fd9\u662f\u6211\u81ea\u7528\u7684\u9ed8\u8ba4\u5b57\u4f53\uff08\u624d\u4f1a\u66f4\u65b0\u8fd9\u4e48\u52e4\uff09"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IdreesInc/Miracode",
+      "status": "candidate-context",
+      "text": "A sharp, readable, vector-y version of Monocraft, the programming font based on Minecraft"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IdreesInc/Miracode",
+      "status": "candidate-context",
+      "text": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Miracode/total.svg)](https://GitHub.com/IdreesInc/Miracode/releases/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IdreesInc/Monocraft",
+      "status": "candidate-context",
+      "text": "A monospaced programming font inspired by the Minecraft typeface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IdreesInc/Monocraft",
+      "status": "candidate-context",
+      "text": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Monocraft/total.svg)](https://GitHub.com/IdreesInc/Monocraft/releases/)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "MY1L/QuQi",
       "status": "candidate",
       "text": "\u5206\u4e3a\u9ed8\u8ba4\u5b57\u4f53**Monu**\u548c\u5047\u540d\u5b57\u4f53**QuQi**\u3002\u8be5\u5b57\u4f53\u8bbe\u8ba1\u4e3a\u9002\u5408\u7cfb\u7edf\u6b63\u6587/\u7f51\u9875\u663e\u793a\uff08\u63d0\u4f9b\u538b\u7f29\u7684woff2\u7f51\u9875\u5b57\u4f53\uff0c\u4e14\u505a\u4e86\u5fae\u8c03\uff08hinting\uff09\uff09\uff0c\u7279\u522b\u4e0e\u5fae\u8f6f\u96c5\u9ed1\uff08\u53ca\u7c97\u4f53\uff09\u642d\u914d\u3002\u5b9e\u9645\u4e0a\u8fd9\u662f\u6211\u81ea\u7528\u7684\u9ed8\u8ba4\u5b57\u4f53\uff08\u624d\u4f1a\u66f4\u65b0\u8fd9\u4e48\u52e4\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IdreesInc/Miracode",
+      "status": "candidate",
+      "text": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Miracode/total.svg)](https://GitHub.com/IdreesInc/Miracode/releases/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IdreesInc/Monocraft",
+      "status": "candidate",
+      "text": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Monocraft/total.svg)](https://GitHub.com/IdreesInc/Monocraft/releases/)"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +232,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "MY1L/QuQi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "IdreesInc/Miracode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "IdreesInc/Monocraft"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

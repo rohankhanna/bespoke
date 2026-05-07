@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pmer/tla-bin",
+      "target": "mit-license",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pmer/tla-bin",
+      "target": "model-checking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pmer/tla-bin",
+      "target": "specification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pmer/tla-bin",
+      "target": "verification",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T08:18:27.819355+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3675
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Command line binaries for the TLA+ language",
+    "fork": false,
+    "full_name": "pmer/tla-bin",
+    "html_url": "https://github.com/pmer/tla-bin",
+    "language": "Shell",
+    "pushed_at": "2023-04-27T19:04:11Z",
+    "stargazers_count": 172,
+    "topics": [
+      "mit-license",
+      "model-checking",
+      "specification",
+      "tla",
+      "verification"
+    ],
+    "updated_at": "2026-01-21T23:44:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "tla-bin is a wrapper around https://github.com/tlaplus/tlaplus that provides",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mit-license"
+    },
+    {
+      "context_snippet": "tla-bin is a wrapper around https://github.com/tlaplus/tlaplus that provides",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-checking"
+    },
+    {
+      "context_snippet": "tla-bin is a wrapper around https://github.com/tlaplus/tlaplus that provides",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "specification"
+    },
+    {
+      "context_snippet": "tla-bin is a wrapper around https://github.com/tlaplus/tlaplus that provides",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "verification"
+    }
+  ]
+}

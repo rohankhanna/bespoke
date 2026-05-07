@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udcdd Go INI config management. support multi file load, data override merge. parse ENV variable, parse variable reference. Dotenv file parse and loader. INI\u914d\u7f6e\u8bfb\u53d6\u7ba1\u7406\uff0c\u652f\u6301\u591a\u6587\u4ef6\u52a0\u8f7d\uff0c\u6570\u636e\u8986\u76d6\u5408\u5e76, \u89e3\u6790ENV\u53d8\u91cf, \u89e3\u6790\u53d8\u91cf\u5f15\u7528\u3002DotEnv \u89e3\u6790\u52a0\u8f7d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Unit-Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Unit-Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Unit-Tests",
+      "sense_id": "unit-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "unit-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "unit-tests",
+  "observation_id": "acc4a7944d3ac8a5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-07T07:09:11.945528+00:00",
+  "observed_text": "Unit-Tests",
+  "source_context_snippet": "Unit-Tests",
+  "source_file": ".github/workflows/go.yml",
+  "source_repo": "gookit/ini",
+  "source_repo_description": "\ud83d\udcdd Go INI config management. support multi file load, data override merge. parse ENV variable, parse variable reference. Dotenv file parse and loader. INI\u914d\u7f6e\u8bfb\u53d6\u7ba1\u7406\uff0c\u652f\u6301\u591a\u6587\u4ef6\u52a0\u8f7d\uff0c\u6570\u636e\u8986\u76d6\u5408\u5e76, \u89e3\u6790ENV\u53d8\u91cf, \u89e3\u6790\u53d8\u91cf\u5f15\u7528\u3002DotEnv \u89e3\u6790\u52a0\u8f7d"
+}

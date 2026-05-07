@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "go-command-line"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gookit/gcli",
+      "status": "candidate-context",
+      "text": "\ud83d\udda5 Go CLI application, tool library, running CLI commands, support console color, user interaction, progress display, data formatting display, generate bash/zsh completion add more features. Go\u7684\u547d\u4ee4\u884c\u5e94\u7528\uff0c\u5de5\u5177\u5e93\uff0c\u8fd0\u884cCLI\u547d\u4ee4\uff0c\u652f\u6301\u547d\u4ee4\u884c\u8272\u5f69\uff0c\u7528\u6237\u4ea4\u4e92\uff0c\u8fdb\u5ea6\u663e\u793a\uff0c\u6570\u636e\u683c\u5f0f\u5316\u663e\u793a\uff0c\u751f\u6210bash/zsh\u547d\u4ee4\u8865\u5168\u811a\u672c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/gcli",
+      "status": "candidate-context",
+      "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/gcli?style=flat-square)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/gcli",
+      "status": "candidate",
+      "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/gcli?style=flat-square)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "go-command-line",
+  "concept_id": "go-command-line",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "gookit/gcli"
+    }
+  ],
+  "first_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "go-command-line",
+      "sense_id": "go-command-line#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

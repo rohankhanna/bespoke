@@ -1438,6 +1438,18 @@
       "source_repo": "Dashlane/SwiftDomainParser",
       "status": "candidate-context",
       "text": "A Full Swift Lightweight Framework that uses the Public Suffix list to Parse URLs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kaiede/Bedrockifier",
+      "status": "candidate-context",
+      "text": "Command-line tools and Service for Minecraft Servers (Bedrock & Java)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaiede/Bedrockifier",
+      "status": "candidate-context",
+      "text": "[![CI Status](https://github.com/Kaiede/Bedrockifier/actions/workflows/swift.yml/badge.svg)](https://github.com/Kaiede/Bedrockifier/actions)"
     }
   ],
   "candidate_glosses": [
@@ -2166,6 +2178,12 @@
       "source_repo": "Dashlane/SwiftDomainParser",
       "status": "candidate",
       "text": "A Full Swift Lightweight Framework that uses the Public Suffix list to Parse URLs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaiede/Bedrockifier",
+      "status": "candidate",
+      "text": "[![CI Status](https://github.com/Kaiede/Bedrockifier/actions/workflows/swift.yml/badge.svg)](https://github.com/Kaiede/Bedrockifier/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -3733,11 +3751,53 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "Kaiede/Bedrockifier"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/bow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

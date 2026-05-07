@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T10:24:33.100337+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2936
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "thu-nics/DiTFastAttn",
+    "html_url": "https://github.com/thu-nics/DiTFastAttn",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-01-14T06:06:46Z",
+    "stargazers_count": 192,
+    "topics": [],
+    "updated_at": "2026-04-11T16:16:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

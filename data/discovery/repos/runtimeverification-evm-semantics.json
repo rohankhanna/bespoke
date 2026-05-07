@@ -136,28 +136,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "runtimeverification/evm-semantics",
-      "target": "ethereum/yellowpaper",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "runtimeverification/evm-semantics",
-      "target": "pirapira/eth-isabelle",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "runtimeverification/evm-semantics",
-      "target": "runtimeverification/k",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "runtimeverification/evm-semantics",
       "target": "kframework/k-editor-support",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "runtimeverification/evm-semantics",
+      "target": "runtimeverification/kup",
       "target_type": "repository"
     },
     {
@@ -266,7 +252,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-06T07:36:57.540198+00:00",
+  "fetched_at": "2026-05-07T07:42:29.572972+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -310,22 +296,12 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ethereum/yellowpaper",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "kframework/k-editor-support",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "pirapira/eth-isabelle",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "runtimeverification/k",
+      "full_name": "runtimeverification/kup",
       "source_file": "README.md"
     }
   ],

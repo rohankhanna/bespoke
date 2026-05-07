@@ -43,6 +43,42 @@
       "source_repo": "tokio-rs/console",
       "status": "candidate-context",
       "text": "\"Publish tags to FlakeHub\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrcjkb/neotest-haskell",
+      "status": "candidate-context",
+      "text": "Neotest adapter for Haskell (cabal or stack) with support for Sydtest, Hspec and Tasty"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/neotest-haskell",
+      "status": "candidate-context",
+      "text": "\"Publish tags to FlakeHub\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrcjkb/haskell-snippets.nvim",
+      "status": "candidate-context",
+      "text": "My collection of Haskell snippets for LuaSnip. Powered by tree-sitter and LSP. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/haskell-snippets.nvim",
+      "status": "candidate-context",
+      "text": "\"Publish tags to FlakeHub\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "status": "candidate-context",
+      "text": " \ud83e\udda5 Supercharge your Haskell experience in neovim!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "status": "candidate-context",
+      "text": "\"Publish tags to FlakeHub\""
     }
   ],
   "candidate_glosses": [
@@ -61,6 +97,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "tokio-rs/console",
+      "status": "candidate",
+      "text": "\"Publish tags to FlakeHub\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/neotest-haskell",
+      "status": "candidate",
+      "text": "\"Publish tags to FlakeHub\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/haskell-snippets.nvim",
+      "status": "candidate",
+      "text": "\"Publish tags to FlakeHub\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
       "status": "candidate",
       "text": "\"Publish tags to FlakeHub\""
     }
@@ -124,11 +178,29 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/flakehub-publish-tagged.yml",
       "source_repo": "tokio-rs/console"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/flakehub-publish-tagged.yml",
+      "source_repo": "mrcjkb/neotest-haskell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/flakehub-publish-tagged.yml",
+      "source_repo": "mrcjkb/haskell-snippets.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/flakehub-publish-tagged.yaml",
+      "source_repo": "mrcjkb/haskell-tools.nvim"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

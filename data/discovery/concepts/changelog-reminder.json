@@ -43,6 +43,30 @@
       "source_repo": "osmosis-labs/osmosis",
       "status": "candidate-context",
       "text": "Changelog Reminder"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/rosetta",
+      "status": "candidate-context",
+      "text": "Rosetta implementation for cosmos zones"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/rosetta",
+      "status": "candidate-context",
+      "text": "Changelog Reminder"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "status": "candidate-context",
+      "text": ":chains: A Framework for Building High Value Public Blockchains :sparkles:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmosis-labs/cosmos-sdk",
+      "status": "candidate-context",
+      "text": "Changelog Reminder"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +85,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "osmosis-labs/osmosis",
+      "status": "candidate",
+      "text": "Changelog Reminder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/rosetta",
+      "status": "candidate",
+      "text": "Changelog Reminder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmosis-labs/cosmos-sdk",
       "status": "candidate",
       "text": "Changelog Reminder"
     }
@@ -124,11 +160,23 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": ".github/workflows/changelog-entry-reminder.yml",
       "source_repo": "osmosis-labs/osmosis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/changelog-reminder.yml",
+      "source_repo": "cosmos/rosetta"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/changelog-reminder.yml",
+      "source_repo": "osmosis-labs/cosmos-sdk"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

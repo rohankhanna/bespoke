@@ -154,11 +154,17 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": ".github/workflows/openal-soft.yml",
       "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/openal-soft.yml",
+      "source_repo": "dotnet/Silk.NET"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/n8n-workflows-index",
+      "target": "danielrosehill/price-research-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/networking-and-infrastructure-index",
+      "target": "danielrosehill/prompt-libraries-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/networking-projects-index",
+      "target": "danielrosehill/repo-starters-and-templates-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/open-research-workspaces-index",
+      "target": "danielrosehill/research-tools-and-templates-index",
       "target_type": "repository"
     },
     {
@@ -43,6 +43,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-05T18:38:09.351693+00:00",
+  "generated_at": "2026-05-07T07:09:11.945528+00:00",
   "source_repo": "danielrosehill/Subindices"
 }

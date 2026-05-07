@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T09:22:19.075930+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4793
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "hgourvest/superobject",
+    "html_url": "https://github.com/hgourvest/superobject",
+    "language": "Pascal",
+    "pushed_at": "2021-10-09T09:12:46Z",
+    "stargazers_count": 336,
+    "topics": [],
+    "updated_at": "2026-03-17T09:02:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

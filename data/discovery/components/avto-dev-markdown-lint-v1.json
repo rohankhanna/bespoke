@@ -1,0 +1,17 @@
+{
+  "component": "avto-dev/markdown-lint@v1",
+  "first_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "osmosis-labs/block-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "skip-mev/block-sdk"
+    }
+  ]
+}

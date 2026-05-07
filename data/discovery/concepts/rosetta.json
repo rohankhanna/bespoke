@@ -19,6 +19,18 @@
       "source_repo": "clovaai/deep-text-recognition-benchmark",
       "status": "candidate-context",
       "text": "| [paper](https://arxiv.org/abs/1904.01906) | [training and evaluation data](https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here) | [failure cases and cleansed label](https://github.com/clovaai/deep-text-recogni\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/rosetta",
+      "status": "candidate-context",
+      "text": "Rosetta implementation for cosmos zones"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/rosetta",
+      "status": "candidate-context",
+      "text": "The `rosetta` project implements Coinbase's [Rosetta API](https://www.rosetta-api.org). This document provides instructions on how to use the Rosetta API integration. For information about the motivation and design choices, refer to [ADR 035](https://docs.cosmos.network/main/arc\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "clovaai/deep-text-recognition-benchmark",
       "status": "candidate",
       "text": "| [paper](https://arxiv.org/abs/1904.01906) | [training and evaluation data](https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here) | [failure cases and cleansed label](https://github.com/clovaai/deep-text-recogni\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/rosetta",
+      "status": "candidate",
+      "text": "The `rosetta` project implements Coinbase's [Rosetta API](https://www.rosetta-api.org). This document provides instructions on how to use the Rosetta API integration. For information about the motivation and design choices, refer to [ADR 035](https://docs.cosmos.network/main/arc\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "clovaai/deep-text-recognition-benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "cosmos/rosetta"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

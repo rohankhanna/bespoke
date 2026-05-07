@@ -1,0 +1,260 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "petercorke/pgraph-python",
+      "target": "bdaiinstitute/spatialmath-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "petercorke/pgraph-python",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "petercorke/pgraph-python",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "petercorke/pgraph-python",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "petercorke/pgraph-python",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "petercorke/pgraph-python",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/pgraph-python",
+      "target": "a-star-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/pgraph-python",
+      "target": "adjacency-matrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/pgraph-python",
+      "target": "directed-graphs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/pgraph-python",
+      "target": "graphviz-dot-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/pgraph-python",
+      "target": "laplacian-matrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/pgraph-python",
+      "target": "optimal-path",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/pgraph-python",
+      "target": "plotting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/pgraph-python",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/pgraph-python",
+      "target": "undirected-graphs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T09:46:09.093238+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5840
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1898
+    },
+    {
+      "path": ".github/workflows/master.yml",
+      "size": 2832
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple graph classes",
+    "fork": false,
+    "full_name": "petercorke/pgraph-python",
+    "html_url": "https://github.com/petercorke/pgraph-python",
+    "language": "Python",
+    "pushed_at": "2025-01-08T03:30:30Z",
+    "stargazers_count": 19,
+    "topics": [
+      "a-star-search",
+      "adjacency-matrix",
+      "directed-graphs",
+      "graphviz-dot-language",
+      "laplacian-matrix",
+      "optimal-path",
+      "plotting",
+      "python",
+      "python3",
+      "undirected-graphs"
+    ],
+    "updated_at": "2026-04-02T16:32:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bdaiinstitute/spatialmath-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "a-star-search"
+    },
+    {
+      "context_snippet": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adjacency-matrix"
+    },
+    {
+      "context_snippet": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "directed-graphs"
+    },
+    {
+      "context_snippet": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphviz-dot-language"
+    },
+    {
+      "context_snippet": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "laplacian-matrix"
+    },
+    {
+      "context_snippet": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimal-path"
+    },
+    {
+      "context_snippet": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plotting"
+    },
+    {
+      "context_snippet": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "undirected-graphs"
+    }
+  ]
+}

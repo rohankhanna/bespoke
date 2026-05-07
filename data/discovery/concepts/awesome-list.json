@@ -859,6 +859,18 @@
       "source_repo": "jest-community/awesome-jest",
       "status": "candidate-context",
       "text": "> An awesome list of [Jest](https://jestjs.io) packages and resources"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/awesome-cosmos",
+      "status": "candidate-context",
+      "text": "Collection of Cosmos related resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/awesome-cosmos",
+      "status": "candidate-context",
+      "text": "<!--lint disable double-link-->"
     }
   ],
   "candidate_glosses": [
@@ -1281,6 +1293,12 @@
       "source_repo": "jest-community/awesome-jest",
       "status": "candidate",
       "text": "> An awesome list of [Jest](https://jestjs.io) packages and resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/awesome-cosmos",
+      "status": "candidate",
+      "text": "<!--lint disable double-link-->"
     }
   ],
   "candidate_related_terms": [],
@@ -1870,11 +1888,23 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "cosmos/awesome-cosmos"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

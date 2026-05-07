@@ -286,11 +286,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T03:05:00.198241+00:00",
+  "fetched_at": "2026-05-07T09:27:00.254111+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 18273
+      "size": 18235
     },
     {
       "path": "pyproject.toml",
@@ -326,7 +326,7 @@
     "full_name": "gbionics/adam",
     "html_url": "https://github.com/gbionics/adam",
     "language": "Python",
-    "pushed_at": "2026-05-05T12:50:15Z",
+    "pushed_at": "2026-05-07T08:19:49Z",
     "stargazers_count": 217,
     "topics": [
       "adam-robotics",
@@ -343,7 +343,7 @@
       "robotics",
       "urdf"
     ],
-    "updated_at": "2026-05-05T12:30:16Z"
+    "updated_at": "2026-05-07T08:19:50Z"
   },
   "repo_links": [
     {

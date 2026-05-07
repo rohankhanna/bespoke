@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mobxjs/awesome-mobx",
+      "target": "500tech/angular-tree-component",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mobxjs/awesome-mobx",
+      "target": "accountgo/accountgo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mobxjs/awesome-mobx",
+      "target": "1984weed/mobx-react-tetris",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mobxjs/awesome-mobx",
+      "target": "500tech/ng2-mobx",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-07T07:09:11.945528+00:00",
+  "source_repo": "mobxjs/awesome-mobx"
+}

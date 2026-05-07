@@ -4,21 +4,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-dolphin-konsole-actions",
+      "target": "danielrosehill/claude-filesystem-organiser-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-dork",
+      "target": "danielrosehill/claude-favorite-plugins-installers-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-donetick-plugin",
+      "target": "danielrosehill/claude-get-toony-plugin",
       "target_type": "repository"
     },
     {
@@ -57,6 +57,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-07T00:37:24.413591+00:00",
+  "generated_at": "2026-05-07T07:09:11.945528+00:00",
   "source_repo": "danielrosehill/Claude-Code-Projects-Index"
 }

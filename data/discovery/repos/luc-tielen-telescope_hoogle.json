@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luc-tielen/telescope_hoogle",
+      "target": "haskell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luc-tielen/telescope_hoogle",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luc-tielen/telescope_hoogle",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T10:44:28.641683+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 780
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Hoogle search integration for Telescope",
+    "fork": false,
+    "full_name": "luc-tielen/telescope_hoogle",
+    "html_url": "https://github.com/luc-tielen/telescope_hoogle",
+    "language": "Lua",
+    "pushed_at": "2025-10-13T07:10:18Z",
+    "stargazers_count": 54,
+    "topics": [
+      "haskell",
+      "lua",
+      "neovim",
+      "neovim-plugin"
+    ],
+    "updated_at": "2025-10-30T13:01:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A telescope plugin for Hoogle.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haskell"
+    },
+    {
+      "context_snippet": "A telescope plugin for Hoogle.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "A telescope plugin for Hoogle.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    }
+  ]
+}

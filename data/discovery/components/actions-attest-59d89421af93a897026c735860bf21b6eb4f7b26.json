@@ -1,7 +1,7 @@
 {
   "component": "actions/attest@59d89421af93a897026c735860bf21b6eb4f7b26",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

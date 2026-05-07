@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "system-utils"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gookit/goutil",
+      "status": "candidate-context",
+      "text": "\ud83d\udcaa Helper Utils(900+): int, byte, string, array/slice, map, struct, dump, convert/format, error, web/http, cli/flag, OS/ENV, filesystem, system, test/assert, time and more. Go \u5e38\u7528\u7684\u5de5\u5177\u51fd\u6570\uff1a\u6570\u5b57\uff0c\u5b57\u7b26\u4e32\uff0c\u6570\u7ec4\uff0cMap\uff0c\u7ed3\u6784\u4f53\uff0c\u53cd\u5c04\uff0c\u6587\u672c\uff0c\u6587\u4ef6\uff0c\u9519\u8bef\uff0c\u65f6\u95f4\u65e5\u671f\uff0c\u7279\u6b8a\u5904\u7406\uff0c\u683c\u5f0f\u5316\uff0c\u5e38\u7528\u4fe1\u606f\u83b7\u53d6\u7b49\u7b49"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/goutil",
+      "status": "candidate-context",
+      "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/goutil?style=flat-square)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/goutil",
+      "status": "candidate",
+      "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/goutil?style=flat-square)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "system-utils",
+  "concept_id": "system-utils",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "gookit/goutil"
+    }
+  ],
+  "first_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "system-utils",
+      "sense_id": "system-utils#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

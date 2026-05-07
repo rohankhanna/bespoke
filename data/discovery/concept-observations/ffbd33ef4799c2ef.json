@@ -84,7 +84,7 @@
   "normalized_form": "issue-notification-dispatcher",
   "observation_id": "ffbd33ef4799c2ef",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-07T07:09:11.945528+00:00",
   "observed_text": "Issue Notification Dispatcher",
   "source_context_snippet": "Issue Notification Dispatcher",
   "source_file": ".github/workflows/issue-notification.yml",

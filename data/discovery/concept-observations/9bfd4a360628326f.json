@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "DevHub Portal Product UI (Hosted BOS) \u2013\u00a0Includes other instances (e.g. Infrastructure, Events)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Deploy Widgets to Mainnet - Devhub"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Deploy Widgets to Mainnet - Devhub"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11876,
+      "status": "candidate",
+      "text": "array"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11876,
+      "status": "candidate",
+      "text": "arrayed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11755,
+      "status": "candidate",
+      "text": "aad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11755,
+      "status": "candidate",
+      "text": "abditory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11755,
+      "status": "candidate",
+      "text": "abutment"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Widgets to Mainnet - Devhub",
+      "sense_id": "deploy-widgets-to-mainnet---devhub#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deploy-widgets-to-mainnet---devhub",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deploy-widgets-to-mainnet---devhub",
+  "observation_id": "9bfd4a360628326f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-07T07:09:11.945528+00:00",
+  "observed_text": "Deploy Widgets to Mainnet - Devhub",
+  "source_context_snippet": "Deploy Widgets to Mainnet - Devhub",
+  "source_file": ".github/workflows/deploy-prod-mainnet-devhub.yml",
+  "source_repo": "NEAR-DevHub/neardevhub-bos",
+  "source_repo_description": "DevHub Portal Product UI (Hosted BOS) \u2013\u00a0Includes other instances (e.g. Infrastructure, Events)"
+}

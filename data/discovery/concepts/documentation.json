@@ -2572,6 +2572,18 @@
       "source_repo": "erdos-project/pylot",
       "status": "candidate-context",
       "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evmos/docs",
+      "status": "candidate-context",
+      "text": "The official docs for Evmos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evmos/docs",
+      "status": "candidate-context",
+      "text": "Welcome to the official Evmos Developer Docs. The official deployment is located [here](https://docs.evmos.org)."
     }
   ],
   "candidate_glosses": [
@@ -3888,6 +3900,12 @@
       "source_repo": "erdos-project/pylot",
       "status": "candidate",
       "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evmos/docs",
+      "status": "candidate",
+      "text": "Welcome to the official Evmos Developer Docs. The official deployment is located [here](https://docs.evmos.org)."
     }
   ],
   "candidate_related_terms": [
@@ -6600,11 +6618,95 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "erdos-project/pylot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "atom/flight-manual.atom.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "evmos/docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/ROCm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "insodoc/insomnia-documenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "geotiffjs/geotiff.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

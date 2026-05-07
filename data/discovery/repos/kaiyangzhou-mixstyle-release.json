@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/mixstyle-release",
+      "target": "domain-generalization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/mixstyle-release",
+      "target": "feature-statistics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/mixstyle-release",
+      "target": "iclr2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/mixstyle-release",
+      "target": "image-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/mixstyle-release",
+      "target": "person-reidentification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/mixstyle-release",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/mixstyle-release",
+      "target": "representation-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T09:46:25.995020+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7742
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Domain Generalization with MixStyle (ICLR'21)",
+    "fork": false,
+    "full_name": "KaiyangZhou/mixstyle-release",
+    "html_url": "https://github.com/KaiyangZhou/mixstyle-release",
+    "language": "Python",
+    "pushed_at": "2022-10-06T12:44:06Z",
+    "stargazers_count": 324,
+    "topics": [
+      "domain-generalization",
+      "feature-statistics",
+      "iclr2021",
+      "image-classification",
+      "person-reidentification",
+      "reinforcement-learning",
+      "representation-learning"
+    ],
+    "updated_at": "2026-04-21T23:53:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repo contains the code of our ICLR'21 paper, \"Domain Generalization with MixStyle\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "domain-generalization"
+    },
+    {
+      "context_snippet": "This repo contains the code of our ICLR'21 paper, \"Domain Generalization with MixStyle\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feature-statistics"
+    },
+    {
+      "context_snippet": "This repo contains the code of our ICLR'21 paper, \"Domain Generalization with MixStyle\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iclr2021"
+    },
+    {
+      "context_snippet": "This repo contains the code of our ICLR'21 paper, \"Domain Generalization with MixStyle\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-classification"
+    },
+    {
+      "context_snippet": "This repo contains the code of our ICLR'21 paper, \"Domain Generalization with MixStyle\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "person-reidentification"
+    },
+    {
+      "context_snippet": "This repo contains the code of our ICLR'21 paper, \"Domain Generalization with MixStyle\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "This repo contains the code of our ICLR'21 paper, \"Domain Generalization with MixStyle\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "representation-learning"
+    }
+  ]
+}

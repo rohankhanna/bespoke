@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":sparkles: StrapDown.js is an awesome javascript tool to quickly publish nice-looking web-pages in pure Markdown :pencil:, with no server side compilation :sunglasses: \u2192"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[StrapDown.js](https://naereen.github.io/StrapDown.js/) is an awesome web script to write nice-looking webpages in pure Markdown, with no server side compilation."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[StrapDown.js](https://naereen.github.io/StrapDown.js/) is an awesome web script to write nice-looking webpages in pure Markdown, with no server side compilation."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "strapdown-js",
+      "sense_id": "strapdown-js#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "strapdown-js",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "strapdown-js",
+  "observation_id": "56a55054692501fb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T07:09:11.945528+00:00",
+  "observed_text": "strapdown-js",
+  "source_context_snippet": "[StrapDown.js](https://naereen.github.io/StrapDown.js/) is an awesome web script to write nice-looking webpages in pure Markdown, with no server side compilation.",
+  "source_file": null,
+  "source_repo": "Naereen/StrapDown.js",
+  "source_repo_description": ":sparkles: StrapDown.js is an awesome javascript tool to quickly publish nice-looking web-pages in pure Markdown :pencil:, with no server side compilation :sunglasses: \u2192"
+}

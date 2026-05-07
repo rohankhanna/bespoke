@@ -200,6 +200,18 @@
       "source_repo": "liatrio/opentelemetry-demo",
       "status": "candidate-context",
       "text": "\"Close stale pull requests\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "teletrace/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "This repository contains the OpenTelemetry Astronomy Shop, a microservice-based distributed system intended to illustrate the implementation of OpenTelemetry in a near real-world environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teletrace/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "\"Close stale pull requests\""
     }
   ],
   "candidate_glosses": [
@@ -302,6 +314,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "liatrio/opentelemetry-demo",
+      "status": "candidate",
+      "text": "\"Close stale pull requests\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teletrace/opentelemetry-demo",
       "status": "candidate",
       "text": "\"Close stale pull requests\""
     }
@@ -461,11 +479,17 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "liatrio/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "teletrace/opentelemetry-demo"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

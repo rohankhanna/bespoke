@@ -84,7 +84,7 @@
   "normalized_form": "type-checks",
   "observation_id": "51cbb7a1862ad4eb",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_at": "2026-05-07T07:09:11.945528+00:00",
   "observed_text": "Type checks",
   "source_context_snippet": "Type checks",
   "source_file": ".github/workflows/type-checks.yml",

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Out-of-tree build"
+    "Out-of-tree build",
+    "Out of tree build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -13,6 +14,18 @@
       "source_repo": "intel/opencl-clang",
       "status": "candidate-context",
       "text": "Out-of-tree build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clearml/dropbear",
+      "status": "candidate-context",
+      "text": "Dropbear SSH  - static portable SSH server implementation "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/dropbear",
+      "status": "candidate-context",
+      "text": "Out of tree build"
     }
   ],
   "candidate_glosses": [
@@ -21,6 +34,12 @@
       "source_repo": "intel/opencl-clang",
       "status": "candidate",
       "text": "Out-of-tree build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/dropbear",
+      "status": "candidate",
+      "text": "Out of tree build"
     }
   ],
   "candidate_related_terms": [
@@ -58,6 +77,41 @@
       "score": 5050,
       "status": "candidate",
       "text": "in-tree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37182,
+      "status": "candidate",
+      "text": "carpenter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37067,
+      "status": "candidate",
+      "text": "throw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34613,
+      "status": "candidate",
+      "text": "branch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34613,
+      "status": "candidate",
+      "text": "bush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34613,
+      "status": "candidate",
+      "text": "dugout"
     }
   ],
   "candidate_synonyms": [],
@@ -70,11 +124,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/on-push-verification-out-of-tree.yml",
       "source_repo": "intel/opencl-clang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/outoftree.yml",
+      "source_repo": "clearml/dropbear"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

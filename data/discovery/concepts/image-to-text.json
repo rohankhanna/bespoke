@@ -19,6 +19,18 @@
       "source_repo": "lucidrains/CoCa-pytorch",
       "status": "candidate-context",
       "text": "<img src=\"./coca.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Yushi-Hu/tifa",
+      "status": "candidate-context",
+      "text": "TIFA: Accurate and Interpretable Text-to-Image Faithfulness Evaluation with Question Answering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Yushi-Hu/tifa",
+      "status": "candidate-context",
+      "text": "Images synthesized by text-to-image models (e.g. Stable Diffusion) often do not follow the text inputs well."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "lucidrains/CoCa-pytorch",
       "status": "candidate",
       "text": "<img src=\"./coca.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Yushi-Hu/tifa",
+      "status": "candidate",
+      "text": "Images synthesized by text-to-image models (e.g. Stable Diffusion) often do not follow the text inputs well."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "lucidrains/CoCa-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "Yushi-Hu/tifa"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WisdomShell/codeshell",
+      "target": "wisdomshell/llama_cpp_for_codeshell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WisdomShell/codeshell",
+      "target": "wisdomshell/codeshell-vscode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WisdomShell/codeshell",
+      "target": "wisdomshell/codeshell-intellij",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-07T07:09:11.945528+00:00",
+  "source_repo": "WisdomShell/codeshell"
+}

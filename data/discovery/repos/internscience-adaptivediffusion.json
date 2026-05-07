@@ -1,0 +1,131 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InternScience/AdaptiveDiffusion",
+      "target": "unimodal4reasoning/adaptivediffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternScience/AdaptiveDiffusion",
+      "target": "adaptive-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternScience/AdaptiveDiffusion",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternScience/AdaptiveDiffusion",
+      "target": "efficient-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternScience/AdaptiveDiffusion",
+      "target": "model-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternScience/AdaptiveDiffusion",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternScience/AdaptiveDiffusion",
+      "target": "training-free",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T10:24:23.243237+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9570
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 777
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[NeurIPS'24] Training-Free Adaptive Diffusion with Bounded Difference Approximation Strategy",
+    "fork": false,
+    "full_name": "InternScience/AdaptiveDiffusion",
+    "html_url": "https://github.com/InternScience/AdaptiveDiffusion",
+    "language": "Python",
+    "pushed_at": "2025-01-22T18:32:28Z",
+    "stargazers_count": 73,
+    "topics": [
+      "adaptive-inference",
+      "diffusion-models",
+      "efficient-inference",
+      "model-acceleration",
+      "stable-diffusion",
+      "training-free"
+    ],
+    "updated_at": "2025-12-06T02:15:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unimodal4reasoning/adaptivediffusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2410.09873-b31b1b.svg)](https://arxiv.org/abs/2410.09873)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adaptive-inference"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2410.09873-b31b1b.svg)](https://arxiv.org/abs/2410.09873)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2410.09873-b31b1b.svg)](https://arxiv.org/abs/2410.09873)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficient-inference"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2410.09873-b31b1b.svg)](https://arxiv.org/abs/2410.09873)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-acceleration"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2410.09873-b31b1b.svg)](https://arxiv.org/abs/2410.09873)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2410.09873-b31b1b.svg)](https://arxiv.org/abs/2410.09873)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "training-free"
+    }
+  ]
+}

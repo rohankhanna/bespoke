@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The world's smartest system-wide grammar assistant; a better version of the Apple Intelligence Writing Tools. Works on Windows, Linux, & macOS, with the free Gemini API, local LLMs, & more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> **\ud83c\udf4e Using a Mac? Jump to the macOS (Native Swift Port) section \u2192 [macOS](#macos)**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> **\ud83c\udf4e Using a Mac? Jump to the macOS (Native Swift Port) section \u2192 [macOS](#macos)**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "grammar-checker",
+      "sense_id": "grammar-checker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "grammar-checker",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "grammar-checker",
+  "observation_id": "67dd6a94de1dc4bf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T07:09:11.945528+00:00",
+  "observed_text": "grammar-checker",
+  "source_context_snippet": "> **\ud83c\udf4e Using a Mac? Jump to the macOS (Native Swift Port) section \u2192 [macOS](#macos)**",
+  "source_file": null,
+  "source_repo": "theJayTea/WritingTools",
+  "source_repo_description": "The world's smartest system-wide grammar assistant; a better version of the Apple Intelligence Writing Tools. Works on Windows, Linux, & macOS, with the free Gemini API, local LLMs, & more."
+}

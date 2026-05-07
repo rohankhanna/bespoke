@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming.."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish Rust crate"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish Rust crate"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18041,
+      "status": "candidate",
+      "text": "helminthiasis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17971,
+      "status": "candidate",
+      "text": "tub"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17948,
+      "status": "candidate",
+      "text": "disease"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10152,
+      "status": "candidate",
+      "text": "bin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10152,
+      "status": "candidate",
+      "text": "box"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Rust crate",
+      "sense_id": "publish-rust-crate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-rust-crate",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-rust-crate",
+  "observation_id": "601e02aafc0c569e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-07T07:09:11.945528+00:00",
+  "observed_text": "Publish Rust crate",
+  "source_context_snippet": "Publish Rust crate",
+  "source_file": ".github/workflows/cargo-publish.yml",
+  "source_repo": "lance-format/lance",
+  "source_repo_description": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming.."
+}

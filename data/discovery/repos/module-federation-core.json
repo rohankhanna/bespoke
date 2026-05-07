@@ -2318,7 +2318,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T01:53:40.823156+00:00",
+  "fetched_at": "2026-05-07T10:47:14.597501+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -2370,7 +2370,7 @@
     "full_name": "module-federation/core",
     "html_url": "https://github.com/module-federation/core",
     "language": "JavaScript",
-    "pushed_at": "2026-05-06T09:03:31Z",
+    "pushed_at": "2026-05-07T02:46:13Z",
     "stargazers_count": 2517,
     "topics": [
       "module-federation",
@@ -2380,7 +2380,7 @@
       "typescript",
       "webpack"
     ],
-    "updated_at": "2026-05-06T09:03:36Z"
+    "updated_at": "2026-05-07T03:23:41Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pirapira/ethereum-formal-verification-overview",
+      "target": "fp-ethereum/fp-ethereum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pirapira/ethereum-formal-verification-overview",
+      "target": "ethereum/solidity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pirapira/ethereum-formal-verification-overview",
+      "target": "bitemyapp/ledgertheory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pirapira/ethereum-formal-verification-overview",
+      "target": "ethereum/oyente",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-07T07:09:11.945528+00:00",
+  "source_repo": "pirapira/ethereum-formal-verification-overview"
+}

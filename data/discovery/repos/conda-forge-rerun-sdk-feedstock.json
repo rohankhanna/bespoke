@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/rerun-sdk-feedstock",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/rerun-sdk-feedstock",
+      "target": "Build conda package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T09:46:37.771226+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18813
+    },
+    {
+      "path": ".github/workflows/conda-build.yml",
+      "size": 6310
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A conda-smithy repository for rerun-sdk.",
+    "fork": false,
+    "full_name": "conda-forge/rerun-sdk-feedstock",
+    "html_url": "https://github.com/conda-forge/rerun-sdk-feedstock",
+    "language": "Shell",
+    "pushed_at": "2026-04-30T19:10:22Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-04-30T19:10:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build conda package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "term": "Build conda package"
+    }
+  ]
+}

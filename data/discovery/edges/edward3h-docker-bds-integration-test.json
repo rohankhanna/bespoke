@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "edward3h/docker-bds-integration-test",
+      "target": "kaiede/bedrockifier",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "edward3h/docker-bds-integration-test",
+      "target": "edward3h/bedrock-viz-from-backups",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-07T07:09:11.945528+00:00",
+  "source_repo": "edward3h/docker-bds-integration-test"
+}

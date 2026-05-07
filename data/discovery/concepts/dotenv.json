@@ -67,6 +67,18 @@
       "source_repo": "theskumar/python-dotenv",
       "status": "candidate-context",
       "text": "[![Build Status][build_status_badge]][build_status_link]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gookit/ini",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdd Go INI config management. support multi file load, data override merge. parse ENV variable, parse variable reference. Dotenv file parse and loader. INI\u914d\u7f6e\u8bfb\u53d6\u7ba1\u7406\uff0c\u652f\u6301\u591a\u6587\u4ef6\u52a0\u8f7d\uff0c\u6570\u636e\u8986\u76d6\u5408\u5e76, \u89e3\u6790ENV\u53d8\u91cf, \u89e3\u6790\u53d8\u91cf\u5f15\u7528\u3002DotEnv \u89e3\u6790\u52a0\u8f7d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/ini",
+      "status": "candidate-context",
+      "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/ini?style=flat-square)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "theskumar/python-dotenv",
       "status": "candidate",
       "text": "[![Build Status][build_status_badge]][build_status_link]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/ini",
+      "status": "candidate",
+      "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/ini?style=flat-square)"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "theskumar/python-dotenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "gookit/ini"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

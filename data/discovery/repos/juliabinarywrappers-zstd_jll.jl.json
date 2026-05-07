@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T08:18:02.414445+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2513
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "JuliaBinaryWrappers/Zstd_jll.jl",
+    "html_url": "https://github.com/JuliaBinaryWrappers/Zstd_jll.jl",
+    "language": "Julia",
+    "pushed_at": "2025-02-22T17:14:46Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-02-22T17:14:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

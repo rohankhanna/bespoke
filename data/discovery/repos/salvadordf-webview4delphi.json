@@ -1,0 +1,293 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "salvadordf/WebView4Delphi",
+      "target": "salvadordf/cef4delphi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "salvadordf/WebView4Delphi",
+      "target": "salvadordf/oldcef4delphi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "salvadordf/WebView4Delphi",
+      "target": "factoryxcode/mfpack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "salvadordf/WebView4Delphi",
+      "target": "gammasoft/fatcow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salvadordf/WebView4Delphi",
+      "target": "blink",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salvadordf/WebView4Delphi",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salvadordf/WebView4Delphi",
+      "target": "chromium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salvadordf/WebView4Delphi",
+      "target": "delphi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salvadordf/WebView4Delphi",
+      "target": "delphinuspackage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salvadordf/WebView4Delphi",
+      "target": "edge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salvadordf/WebView4Delphi",
+      "target": "embarcadero",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salvadordf/WebView4Delphi",
+      "target": "firemonkey",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salvadordf/WebView4Delphi",
+      "target": "freepascal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salvadordf/WebView4Delphi",
+      "target": "lazarus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salvadordf/WebView4Delphi",
+      "target": "pascal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salvadordf/WebView4Delphi",
+      "target": "radstudio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salvadordf/WebView4Delphi",
+      "target": "webkit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salvadordf/WebView4Delphi",
+      "target": "webview2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salvadordf/WebView4Delphi",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T09:22:22.474254+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4717
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "WebView4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Edge/Chromium-based browsers in applications made with Delphi or Lazarus/FPC for Windows.",
+    "fork": false,
+    "full_name": "salvadordf/WebView4Delphi",
+    "html_url": "https://github.com/salvadordf/WebView4Delphi",
+    "language": "Pascal",
+    "pushed_at": "2026-04-14T08:43:52Z",
+    "stargazers_count": 391,
+    "topics": [
+      "blink",
+      "browser",
+      "chromium",
+      "delphi",
+      "delphinuspackage",
+      "edge",
+      "embarcadero",
+      "firemonkey",
+      "fmx",
+      "fpc",
+      "freepascal",
+      "lazarus",
+      "pascal",
+      "radstudio",
+      "v8",
+      "vcl",
+      "webkit",
+      "webview2",
+      "windows"
+    ],
+    "updated_at": "2026-04-26T15:58:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "factoryxcode/mfpack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gammasoft/fatcow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "salvadordf/cef4delphi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "salvadordf/oldcef4delphi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "WebView4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Edge/Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blink"
+    },
+    {
+      "context_snippet": "WebView4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Edge/Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "WebView4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Edge/Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromium"
+    },
+    {
+      "context_snippet": "WebView4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Edge/Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "delphi"
+    },
+    {
+      "context_snippet": "WebView4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Edge/Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "delphinuspackage"
+    },
+    {
+      "context_snippet": "WebView4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Edge/Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edge"
+    },
+    {
+      "context_snippet": "WebView4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Edge/Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embarcadero"
+    },
+    {
+      "context_snippet": "WebView4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Edge/Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firemonkey"
+    },
+    {
+      "context_snippet": "WebView4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Edge/Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "freepascal"
+    },
+    {
+      "context_snippet": "WebView4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Edge/Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lazarus"
+    },
+    {
+      "context_snippet": "WebView4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Edge/Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pascal"
+    },
+    {
+      "context_snippet": "WebView4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Edge/Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "radstudio"
+    },
+    {
+      "context_snippet": "WebView4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Edge/Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webkit"
+    },
+    {
+      "context_snippet": "WebView4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Edge/Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webview2"
+    },
+    {
+      "context_snippet": "WebView4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Edge/Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

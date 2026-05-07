@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IdreesInc/Monocraft",
+      "target": "idreesinc/minecraft-font",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IdreesInc/Monocraft",
+      "target": "nerdypepper/scientifica",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IdreesInc/Monocraft",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IdreesInc/Monocraft",
+      "target": "fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IdreesInc/Monocraft",
+      "target": "homebrew",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IdreesInc/Monocraft",
+      "target": "ligatures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IdreesInc/Monocraft",
+      "target": "minecraft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IdreesInc/Monocraft",
+      "target": "typeface",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T08:42:47.958002+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5909
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 70
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A monospaced programming font inspired by the Minecraft typeface",
+    "fork": false,
+    "full_name": "IdreesInc/Monocraft",
+    "html_url": "https://github.com/IdreesInc/Monocraft",
+    "language": "Python",
+    "pushed_at": "2026-01-01T20:31:24Z",
+    "stargazers_count": 10565,
+    "topics": [
+      "font",
+      "fonts",
+      "homebrew",
+      "ligatures",
+      "minecraft",
+      "typeface"
+    ],
+    "updated_at": "2026-05-06T21:42:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idreesinc/minecraft-font",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nerdypepper/scientifica",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Monocraft/total.svg)](https://GitHub.com/IdreesInc/Monocraft/releases/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Monocraft/total.svg)](https://GitHub.com/IdreesInc/Monocraft/releases/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fonts"
+    },
+    {
+      "context_snippet": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Monocraft/total.svg)](https://GitHub.com/IdreesInc/Monocraft/releases/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "homebrew"
+    },
+    {
+      "context_snippet": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Monocraft/total.svg)](https://GitHub.com/IdreesInc/Monocraft/releases/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ligatures"
+    },
+    {
+      "context_snippet": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Monocraft/total.svg)](https://GitHub.com/IdreesInc/Monocraft/releases/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minecraft"
+    },
+    {
+      "context_snippet": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Monocraft/total.svg)](https://GitHub.com/IdreesInc/Monocraft/releases/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typeface"
+    }
+  ]
+}

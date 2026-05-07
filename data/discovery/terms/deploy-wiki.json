@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/deploy-wiki.yaml",
       "source_repo": "kubernetes-client/python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/wiki.yml",
+      "source_repo": "Kaiede/Bedrockifier"
     }
   ],
   "term": "Deploy Wiki"

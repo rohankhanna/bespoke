@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "hdf4 Check Application Binary Interface (ABI)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HDFGroup/hdf4",
+      "status": "candidate-context",
+      "text": "Official HDF4 Library Repository "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HDFGroup/hdf4",
+      "status": "candidate-context",
+      "text": "hdf4 Check Application Binary Interface (ABI)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HDFGroup/hdf4",
+      "status": "candidate",
+      "text": "hdf4 Check Application Binary Interface (ABI)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34950,
+      "status": "candidate",
+      "text": "api"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34638,
+      "status": "candidate",
+      "text": "driver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28821,
+      "status": "candidate",
+      "text": "field"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28761,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28761,
+      "status": "candidate",
+      "text": "controlled"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "hdf4 Check Application Binary Interface (ABI)",
+  "concept_id": "hdf4-check-application-binary-interface-abi",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/abi-report.yml",
+      "source_repo": "HDFGroup/hdf4"
+    }
+  ],
+  "first_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "hdf4 Check Application Binary Interface (ABI)",
+      "sense_id": "hdf4-check-application-binary-interface-abi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

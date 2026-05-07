@@ -139,6 +139,18 @@
       "source_repo": "signalfx/opentelemetry-demo",
       "status": "candidate-context",
       "text": "Test image generation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TelemetryHub/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Community Demo Application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TelemetryHub/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Test image generation"
     }
   ],
   "candidate_glosses": [
@@ -211,6 +223,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "signalfx/opentelemetry-demo",
+      "status": "candidate",
+      "text": "Test image generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TelemetryHub/opentelemetry-demo",
       "status": "candidate",
       "text": "Test image generation"
     }
@@ -334,11 +352,17 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": ".github/workflows/build-images.yml",
       "source_repo": "signalfx/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "TelemetryHub/opentelemetry-demo"
     }
   ],
   "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

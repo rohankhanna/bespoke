@@ -1,0 +1,357 @@
+{
+  "components": [
+    {
+      "component": "@cookbookdev/docsbot",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@docusaurus/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@docusaurus/plugin-ideal-image",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@docusaurus/preset-classic",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@mdx-js/react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "autoprefixer",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "clsx",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prism-react-renderer",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sweetalert2",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tailwindcss",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@docusaurus/module-type-aliases",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-endpoints.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-endpoints.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "nosborn/github-action-markdown-cli@v3.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-links.yml"
+    },
+    {
+      "component": "gaurav-nelson/github-action-markdown-link-check@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-links.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "evmos/docs",
+      "target": "@cookbookdev/docsbot",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "evmos/docs",
+      "target": "@docusaurus/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "evmos/docs",
+      "target": "@docusaurus/plugin-ideal-image",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "evmos/docs",
+      "target": "@docusaurus/preset-classic",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "evmos/docs",
+      "target": "@mdx-js/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "evmos/docs",
+      "target": "autoprefixer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "evmos/docs",
+      "target": "clsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "evmos/docs",
+      "target": "postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "evmos/docs",
+      "target": "prism-react-renderer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "evmos/docs",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "evmos/docs",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "evmos/docs",
+      "target": "sweetalert2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "evmos/docs",
+      "target": "tailwindcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "evmos/docs",
+      "target": "@docusaurus/module-type-aliases",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-endpoints.yml",
+      "source_repo": "evmos/docs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-endpoints.yml",
+      "source_repo": "evmos/docs",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-endpoints.yml",
+      "source_repo": "evmos/docs",
+      "target": "Check Endpoints",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "evmos/docs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "evmos/docs",
+      "target": "nosborn/github-action-markdown-cli@v3.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-links.yml",
+      "source_repo": "evmos/docs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-links.yml",
+      "source_repo": "evmos/docs",
+      "target": "gaurav-nelson/github-action-markdown-link-check@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evmos/docs",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evmos/docs",
+      "target": "ethermint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evmos/docs",
+      "target": "evmos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evmos/docs",
+      "target": "protocol",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T08:15:48.000880+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 727
+    },
+    {
+      "path": "package.json",
+      "size": 1231
+    },
+    {
+      "path": ".github/workflows/check-endpoints.yml",
+      "size": 755
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 591
+    },
+    {
+      "path": ".github/workflows/markdown-links.yml",
+      "size": 444
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official docs for Evmos",
+    "fork": false,
+    "full_name": "evmos/docs",
+    "html_url": "https://github.com/evmos/docs",
+    "language": "JavaScript",
+    "pushed_at": "2024-11-19T11:23:42Z",
+    "stargazers_count": 7,
+    "topics": [
+      "documentation",
+      "ethermint",
+      "evm",
+      "evmos",
+      "protocol"
+    ],
+    "updated_at": "2025-06-25T08:41:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check Endpoints",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-endpoints.yml",
+      "term": "Check Endpoints"
+    },
+    {
+      "context_snippet": "Welcome to the official Evmos Developer Docs. The official deployment is located [here](https://docs.evmos.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "Welcome to the official Evmos Developer Docs. The official deployment is located [here](https://docs.evmos.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethermint"
+    },
+    {
+      "context_snippet": "Welcome to the official Evmos Developer Docs. The official deployment is located [here](https://docs.evmos.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evmos"
+    },
+    {
+      "context_snippet": "Welcome to the official Evmos Developer Docs. The official deployment is located [here](https://docs.evmos.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protocol"
+    }
+  ]
+}

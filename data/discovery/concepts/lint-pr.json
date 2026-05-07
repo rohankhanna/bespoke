@@ -375,6 +375,30 @@
       "source_repo": "OpenSPG/openspg",
       "status": "candidate-context",
       "text": "\"Lint PR\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "osmosis-labs/block-sdk",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8 Programmable Block Builder for Cosmos Chains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmosis-labs/block-sdk",
+      "status": "candidate-context",
+      "text": "\"Lint PR\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "skip-mev/block-sdk",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8 Programmable Block Builder for Cosmos Chains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skip-mev/block-sdk",
+      "status": "candidate-context",
+      "text": "\"Lint PR\""
     }
   ],
   "candidate_glosses": [
@@ -561,6 +585,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "OpenSPG/openspg",
+      "status": "candidate",
+      "text": "\"Lint PR\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmosis-labs/block-sdk",
+      "status": "candidate",
+      "text": "\"Lint PR\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skip-mev/block-sdk",
       "status": "candidate",
       "text": "\"Lint PR\""
     }
@@ -852,11 +888,29 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": ".github/workflows/check-pr.yml",
       "source_repo": "vega/altair"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/lint-pr.yml",
+      "source_repo": "osmosis-labs/block-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/check-pr.yml",
+      "source_repo": "vega/altair"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/lint-pr.yml",
+      "source_repo": "skip-mev/block-sdk"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

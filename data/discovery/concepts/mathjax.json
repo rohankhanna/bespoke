@@ -43,6 +43,18 @@
       "source_repo": "larseggert/asciiTeX",
       "status": "candidate-context",
       "text": "It is actively supported and produces better output than this."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Naereen/StrapDown.js",
+      "status": "candidate-context",
+      "text": ":sparkles: StrapDown.js is an awesome javascript tool to quickly publish nice-looking web-pages in pure Markdown :pencil:, with no server side compilation :sunglasses: \u2192"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Naereen/StrapDown.js",
+      "status": "candidate-context",
+      "text": "[StrapDown.js](https://naereen.github.io/StrapDown.js/) is an awesome web script to write nice-looking webpages in pure Markdown, with no server side compilation."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "larseggert/asciiTeX",
       "status": "candidate",
       "text": "It is actively supported and produces better output than this."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Naereen/StrapDown.js",
+      "status": "candidate",
+      "text": "[StrapDown.js](https://naereen.github.io/StrapDown.js/) is an awesome web script to write nice-looking webpages in pure Markdown, with no server side compilation."
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "larseggert/asciiTeX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "Naereen/StrapDown.js"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

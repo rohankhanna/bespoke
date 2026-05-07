@@ -1,7 +1,7 @@
 {
   "component": "prettier",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -7557,6 +7557,21 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "agentclientprotocol/typescript-sdk"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NEAR-DevHub/neardevhub-bos"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "julia-actions/install-juliaup"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mobxjs/mobx-angular"
     }
   ]
 }

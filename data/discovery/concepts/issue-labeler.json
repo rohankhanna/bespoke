@@ -230,6 +230,18 @@
       "source_repo": "astroyat/lerobot",
       "status": "candidate-context",
       "text": "Issue Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/rosetta",
+      "status": "candidate-context",
+      "text": "Rosetta implementation for cosmos zones"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/rosetta",
+      "status": "candidate-context",
+      "text": "\"Issue Labeler\""
     }
   ],
   "candidate_glosses": [
@@ -346,6 +358,12 @@
       "source_repo": "astroyat/lerobot",
       "status": "candidate",
       "text": "Issue Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/rosetta",
+      "status": "candidate",
+      "text": "\"Issue Labeler\""
     }
   ],
   "candidate_related_terms": [
@@ -563,11 +581,17 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": ".github/workflows/issue_labeler.yml",
       "source_repo": "uxlfoundation/oneTBB"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/issue_labeler.yml",
+      "source_repo": "cosmos/rosetta"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

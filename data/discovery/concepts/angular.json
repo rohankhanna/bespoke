@@ -502,6 +502,18 @@
       "source_repo": "Wykks/ngx-mapbox-gl",
       "status": "candidate-context",
       "text": "[![npm version](https://img.shields.io/npm/v/ngx-mapbox-gl.svg?style=flat)](https://www.npmjs.com/package/ngx-mapbox-gl)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mobxjs/mobx-angular",
+      "status": "candidate-context",
+      "text": "The MobX connector for Angular."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mobxjs/mobx-angular",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/mobxjs/mobx-angular/actions/workflows/main.yml/badge.svg)](https://github.com/mobxjs/mobx-angular/actions/workflows/main.yml)"
     }
   ],
   "candidate_glosses": [
@@ -756,6 +768,12 @@
       "source_repo": "Wykks/ngx-mapbox-gl",
       "status": "candidate",
       "text": "[![npm version](https://img.shields.io/npm/v/ngx-mapbox-gl.svg?style=flat)](https://www.npmjs.com/package/ngx-mapbox-gl)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mobxjs/mobx-angular",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/mobxjs/mobx-angular/actions/workflows/main.yml/badge.svg)](https://github.com/mobxjs/mobx-angular/actions/workflows/main.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -1225,11 +1243,35 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "CirclonGroup/angular-tree-component"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "mobxjs/mobx-angular"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

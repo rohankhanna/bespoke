@@ -84,7 +84,7 @@
   "normalized_form": "docker-build",
   "observation_id": "c810f1bf1976deda",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-07T07:09:11.945528+00:00",
   "observed_text": "Docker build",
   "source_context_snippet": "Docker build",
   "source_file": ".github/workflows/docker.yml",

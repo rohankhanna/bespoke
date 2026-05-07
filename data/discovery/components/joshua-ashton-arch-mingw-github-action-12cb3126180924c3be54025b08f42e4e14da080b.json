@@ -1,7 +1,7 @@
 {
   "component": "Joshua-Ashton/arch-mingw-github-action@12cb3126180924c3be54025b08f42e4e14da080b",
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

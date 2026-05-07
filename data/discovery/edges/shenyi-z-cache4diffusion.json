@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shenyi-Z/Cache4Diffusion",
+      "target": "tammytcl/awesome-diffusion-acceleration-cache",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-07T07:09:11.945528+00:00",
+  "source_repo": "Shenyi-Z/Cache4Diffusion"
+}

@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Yushi-Hu/tifa",
+      "target": "image-to-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Yushi-Hu/tifa",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Yushi-Hu/tifa",
+      "target": "text-to-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Yushi-Hu/tifa",
+      "target": "visual-question-answering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T07:15:25.038614+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9642
+    },
+    {
+      "path": "requirements.txt",
+      "size": 146
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TIFA: Accurate and Interpretable Text-to-Image Faithfulness Evaluation with Question Answering",
+    "fork": false,
+    "full_name": "Yushi-Hu/tifa",
+    "html_url": "https://github.com/Yushi-Hu/tifa",
+    "language": "Python",
+    "pushed_at": "2024-04-29T04:34:08Z",
+    "stargazers_count": 183,
+    "topics": [
+      "image-to-text",
+      "large-language-models",
+      "text-to-image",
+      "visual-question-answering"
+    ],
+    "updated_at": "2026-03-24T03:43:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Images synthesized by text-to-image models (e.g. Stable Diffusion) often do not follow the text inputs well.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-text"
+    },
+    {
+      "context_snippet": "Images synthesized by text-to-image models (e.g. Stable Diffusion) often do not follow the text inputs well.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "Images synthesized by text-to-image models (e.g. Stable Diffusion) often do not follow the text inputs well.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-image"
+    },
+    {
+      "context_snippet": "Images synthesized by text-to-image models (e.g. Stable Diffusion) often do not follow the text inputs well.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-question-answering"
+    }
+  ]
+}

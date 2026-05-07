@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_project.yml",
+      "source_repo": "deepset-ai/haystack-integrations",
+      "target": "actions/add-to-project@31b3f3ccdc584546fc445612dec3f38ff5edb41c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "deepset-ai/haystack-integrations",
+      "target": "actions/add-to-project@244f685bbc3b7adfa8466e08b698b5577571133e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "deepset-ai/haystack-integrations",
+      "target": "Track issues with Github project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_integrations.yml",
+      "source_repo": "deepset-ai/haystack-integrations",
+      "target": "Publish integrations on Haystack Home",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepset-ai/haystack-integrations",
+      "target": "ai-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepset-ai/haystack-integrations",
+      "target": "community",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepset-ai/haystack-integrations",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepset-ai/haystack-integrations",
+      "target": "open-source",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-07T07:09:11.945528+00:00",
+  "source_repo": "deepset-ai/haystack-integrations"
+}

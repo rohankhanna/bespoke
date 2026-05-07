@@ -247,6 +247,18 @@
       "source_repo": "igor-petruk/scriptisto",
       "status": "candidate-context",
       "text": "[![Latest Version](https://img.shields.io/crates/v/scriptisto.svg)](https://crates.io/crates/scriptisto)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thoughtbot/rcm",
+      "status": "candidate-context",
+      "text": "rc file (dotfile) management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thoughtbot/rcm",
+      "status": "candidate-context",
+      "text": "rcm"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +381,12 @@
       "source_repo": "igor-petruk/scriptisto",
       "status": "candidate",
       "text": "[![Latest Version](https://img.shields.io/crates/v/scriptisto.svg)](https://crates.io/crates/scriptisto)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thoughtbot/rcm",
+      "status": "candidate",
+      "text": "rcm"
     }
   ],
   "candidate_related_terms": [
@@ -547,11 +565,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "igor-petruk/scriptisto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "thoughtbot/rcm"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

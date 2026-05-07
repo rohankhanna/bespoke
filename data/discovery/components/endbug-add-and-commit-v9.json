@@ -1,7 +1,7 @@
 {
   "component": "EndBug/add-and-commit@v9",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -247,6 +247,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/Generate_Register_Files.yml",
       "source_repo": "analogdevicesinc/msdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-update-all.yml",
+      "source_repo": "osmosis-labs/cosmos-sdk"
     }
   ]
 }

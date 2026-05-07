@@ -81,6 +81,42 @@
       "source_repo": "camelot-dev/camelot",
       "status": "candidate-context",
       "text": "Dependabot Auto-Approve"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrcjkb/neotest-haskell",
+      "status": "candidate-context",
+      "text": "Neotest adapter for Haskell (cabal or stack) with support for Sydtest, Hspec and Tasty"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/neotest-haskell",
+      "status": "candidate-context",
+      "text": "Dependabot auto-approve"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrcjkb/haskell-snippets.nvim",
+      "status": "candidate-context",
+      "text": "My collection of Haskell snippets for LuaSnip. Powered by tree-sitter and LSP. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/haskell-snippets.nvim",
+      "status": "candidate-context",
+      "text": "Dependabot auto-approve"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "status": "candidate-context",
+      "text": " \ud83e\udda5 Supercharge your Haskell experience in neovim!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "status": "candidate-context",
+      "text": "Dependabot auto-approve"
     }
   ],
   "candidate_glosses": [
@@ -119,6 +155,24 @@
       "source_repo": "camelot-dev/camelot",
       "status": "candidate",
       "text": "Dependabot Auto-Approve"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/neotest-haskell",
+      "status": "candidate",
+      "text": "Dependabot auto-approve"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/haskell-snippets.nvim",
+      "status": "candidate",
+      "text": "Dependabot auto-approve"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "status": "candidate",
+      "text": "Dependabot auto-approve"
     }
   ],
   "candidate_related_terms": [],
@@ -258,11 +312,35 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": ".github/workflows/auto-merge.yml",
       "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "mrcjkb/neotest-haskell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "mrcjkb/haskell-snippets.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "mrcjkb/haskell-tools.nvim"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

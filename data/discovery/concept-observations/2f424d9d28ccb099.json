@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Neotest adapter for Haskell (cabal or stack) with support for Sydtest, Hspec and Tasty"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- markdownlint-disable -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991046,
+      "status": "candidate",
+      "text": "mouth-watering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39990994,
+      "status": "candidate",
+      "text": "savory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39990899,
+      "status": "candidate",
+      "text": "appetizing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39990806,
+      "status": "candidate",
+      "text": "savoury"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39967286,
+      "status": "candidate",
+      "text": "dainty"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tasty",
+      "sense_id": "tasty#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35033,
+      "status": "candidate",
+      "text": "dainty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15031,
+      "status": "candidate",
+      "text": "tasteful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10029,
+      "status": "candidate",
+      "text": "appetizing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5023,
+      "status": "candidate",
+      "text": "savoury"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4017,
+      "status": "candidate",
+      "text": "mouth-watering"
+    }
+  ],
+  "concept_id": "tasty",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tasty",
+  "observation_id": "2f424d9d28ccb099",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T07:09:11.945528+00:00",
+  "observed_text": "tasty",
+  "source_context_snippet": "<!-- markdownlint-disable -->",
+  "source_file": null,
+  "source_repo": "mrcjkb/neotest-haskell",
+  "source_repo_description": "Neotest adapter for Haskell (cabal or stack) with support for Sydtest, Hspec and Tasty"
+}

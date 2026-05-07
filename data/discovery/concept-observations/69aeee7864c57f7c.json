@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official Codebase for \"Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19924247,
+      "status": "candidate",
+      "text": "neat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19924246,
+      "status": "candidate",
+      "text": "neuroengineering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19924245,
+      "status": "candidate",
+      "text": "generative adversarial network"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19924244,
+      "status": "candidate",
+      "text": "neurorobotics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19924243,
+      "status": "candidate",
+      "text": "neurocomputer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neuroevolution",
+      "sense_id": "neuroevolution#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "neuroevolution",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "neuroevolution",
+  "observation_id": "69aeee7864c57f7c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T07:09:11.945528+00:00",
+  "observed_text": "neuroevolution",
+  "source_context_snippet": "**Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights**",
+  "source_file": null,
+  "source_repo": "sunrainyg/RandOpt",
+  "source_repo_description": "Official Codebase for \"Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights\""
+}

@@ -1,0 +1,393 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "technote-space/get-diff-action@v6.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-reminder.yml"
+    },
+    {
+      "component": "mskelton/changelog-reminder-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-reminder.yml"
+    },
+    {
+      "component": "c-hive/gha-remove-artifacts@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-action-artifacts.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gosec.yml"
+    },
+    {
+      "component": "securego/gosec@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gosec.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gosec.yml"
+    },
+    {
+      "component": "github/issue-labeler@v3.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_labeler.yml"
+    },
+    {
+      "component": "actions/add-to-project@v0.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "cosmos/rosetta",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "cosmos/rosetta",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "cosmos/rosetta",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "cosmos/rosetta",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "cosmos/rosetta",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "cosmos/rosetta",
+      "target": "Build rosetta docker container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cosmos/rosetta",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cosmos/rosetta",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cosmos/rosetta",
+      "target": "technote-space/get-diff-action@v6.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cosmos/rosetta",
+      "target": "Build rosetta",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-reminder.yml",
+      "source_repo": "cosmos/rosetta",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-reminder.yml",
+      "source_repo": "cosmos/rosetta",
+      "target": "mskelton/changelog-reminder-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-reminder.yml",
+      "source_repo": "cosmos/rosetta",
+      "target": "Changelog Reminder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-action-artifacts.yml",
+      "source_repo": "cosmos/rosetta",
+      "target": "c-hive/gha-remove-artifacts@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean-action-artifacts.yml",
+      "source_repo": "cosmos/rosetta",
+      "target": "Remove GitHub Action Old Artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gosec.yml",
+      "source_repo": "cosmos/rosetta",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gosec.yml",
+      "source_repo": "cosmos/rosetta",
+      "target": "securego/gosec@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gosec.yml",
+      "source_repo": "cosmos/rosetta",
+      "target": "github/codeql-action/upload-sarif@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gosec.yml",
+      "source_repo": "cosmos/rosetta",
+      "target": "Run Gosec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_labeler.yml",
+      "source_repo": "cosmos/rosetta",
+      "target": "github/issue-labeler@v3.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_labeler.yml",
+      "source_repo": "cosmos/rosetta",
+      "target": "Issue Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "cosmos/rosetta",
+      "target": "actions/add-to-project@v0.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cosmos/rosetta",
+      "target": "coinbase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cosmos/rosetta",
+      "target": "cosmos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cosmos/rosetta",
+      "target": "cosmos-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cosmos/rosetta",
+      "target": "rosetta",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T08:15:53.039764+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5669
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1299
+    },
+    {
+      "path": "go.mod",
+      "size": 8361
+    },
+    {
+      "path": ".github/workflows/build-docker.yml",
+      "size": 2009
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1125
+    },
+    {
+      "path": ".github/workflows/changelog-reminder.yml",
+      "size": 1062
+    },
+    {
+      "path": ".github/workflows/clean-action-artifacts.yml",
+      "size": 317
+    },
+    {
+      "path": ".github/workflows/gosec.yml",
+      "size": 871
+    },
+    {
+      "path": ".github/workflows/issue_labeler.yml",
+      "size": 360
+    },
+    {
+      "path": ".github/workflows/issues.yml",
+      "size": 417
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rosetta implementation for cosmos zones",
+    "fork": false,
+    "full_name": "cosmos/rosetta",
+    "html_url": "https://github.com/cosmos/rosetta",
+    "language": "Go",
+    "pushed_at": "2026-05-05T03:35:26Z",
+    "stargazers_count": 9,
+    "topics": [
+      "coinbase",
+      "cosmos",
+      "cosmos-sdk",
+      "rosetta"
+    ],
+    "updated_at": "2025-10-26T13:27:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build rosetta docker container",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docker.yml",
+      "term": "Build rosetta docker container"
+    },
+    {
+      "context_snippet": "Build rosetta",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build rosetta"
+    },
+    {
+      "context_snippet": "Changelog Reminder",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-reminder.yml",
+      "term": "Changelog Reminder"
+    },
+    {
+      "context_snippet": "Remove GitHub Action Old Artifacts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean-action-artifacts.yml",
+      "term": "Remove GitHub Action Old Artifacts"
+    },
+    {
+      "context_snippet": "Run Gosec",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gosec.yml",
+      "term": "Run Gosec"
+    },
+    {
+      "context_snippet": "\"Issue Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_labeler.yml",
+      "term": "Issue Labeler"
+    },
+    {
+      "context_snippet": "The `rosetta` project implements Coinbase's [Rosetta API](https://www.rosetta-api.org). This document provides instructions on how to use the Rosetta API integration. For information about the motivation and design choices, refer to [ADR 035](https://docs.cosmos.network/main/arc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coinbase"
+    },
+    {
+      "context_snippet": "The `rosetta` project implements Coinbase's [Rosetta API](https://www.rosetta-api.org). This document provides instructions on how to use the Rosetta API integration. For information about the motivation and design choices, refer to [ADR 035](https://docs.cosmos.network/main/arc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cosmos"
+    },
+    {
+      "context_snippet": "The `rosetta` project implements Coinbase's [Rosetta API](https://www.rosetta-api.org). This document provides instructions on how to use the Rosetta API integration. For information about the motivation and design choices, refer to [ADR 035](https://docs.cosmos.network/main/arc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cosmos-sdk"
+    },
+    {
+      "context_snippet": "The `rosetta` project implements Coinbase's [Rosetta API](https://www.rosetta-api.org). This document provides instructions on how to use the Rosetta API integration. For information about the motivation and design choices, refer to [ADR 035](https://docs.cosmos.network/main/arc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rosetta"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v5",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -8712,6 +8712,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/master.yml",
       "source_repo": "petercorke/ansitable"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-endpoints.yml",
+      "source_repo": "evmos/docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "TelemetryHub/opentelemetry-demo"
     }
   ]
 }

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Track issues with Github project"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deepset-ai/haystack-integrations",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 A list of Haystack Integrations, maintained by the community or deepset. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepset-ai/haystack-integrations",
+      "status": "candidate-context",
+      "text": "Track issues with Github project"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepset-ai/haystack-integrations",
+      "status": "candidate",
+      "text": "Track issues with Github project"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18663,
+      "status": "candidate",
+      "text": "something"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18589,
+      "status": "candidate",
+      "text": "priority"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17938,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17879,
+      "status": "candidate",
+      "text": "controlling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17879,
+      "status": "candidate",
+      "text": "draw"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Track issues with Github project",
+  "concept_id": "track-issues-with-github-project",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "deepset-ai/haystack-integrations"
+    }
+  ],
+  "first_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Track issues with Github project",
+      "sense_id": "track-issues-with-github-project#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

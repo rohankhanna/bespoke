@@ -1,0 +1,153 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xuyang-liu16/Awesome-Token-level-Model-Compression",
+      "target": "naereen/strapdown.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xuyang-liu16/Awesome-Token-level-Model-Compression",
+      "target": "raoyongming/dynamicvit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Token-level-Model-Compression",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Token-level-Model-Compression",
+      "target": "efficient-deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Token-level-Model-Compression",
+      "target": "model-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Token-level-Model-Compression",
+      "target": "model-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Token-level-Model-Compression",
+      "target": "token-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Token-level-Model-Compression",
+      "target": "token-merging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Token-level-Model-Compression",
+      "target": "token-pruning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T07:15:37.560563+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5974
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udcda Collection of token-level model compression resources.",
+    "fork": false,
+    "full_name": "xuyang-liu16/Awesome-Token-level-Model-Compression",
+    "html_url": "https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression",
+    "language": null,
+    "pushed_at": "2025-09-03T12:31:53Z",
+    "stargazers_count": 195,
+    "topics": [
+      "computer-vision",
+      "efficient-deep-learning",
+      "model-acceleration",
+      "model-compression",
+      "token-compression",
+      "token-merging",
+      "token-pruning"
+    ],
+    "updated_at": "2026-04-21T01:39:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "naereen/strapdown.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raoyongming/dynamicvit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficient-deep-learning"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-acceleration"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-compression"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "token-compression"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "token-merging"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "token-pruning"
+    }
+  ]
+}

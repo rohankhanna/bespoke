@@ -19,6 +19,18 @@
       "source_repo": "Automattic/harper",
       "status": "candidate-context",
       "text": "<div id=\"header\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theJayTea/WritingTools",
+      "status": "candidate-context",
+      "text": "The world's smartest system-wide grammar assistant; a better version of the Apple Intelligence Writing Tools. Works on Windows, Linux, & macOS, with the free Gemini API, local LLMs, & more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theJayTea/WritingTools",
+      "status": "candidate-context",
+      "text": "> **\ud83c\udf4e Using a Mac? Jump to the macOS (Native Swift Port) section \u2192 [macOS](#macos)**"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Automattic/harper",
       "status": "candidate",
       "text": "<div id=\"header\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theJayTea/WritingTools",
+      "status": "candidate",
+      "text": "> **\ud83c\udf4e Using a Mac? Jump to the macOS (Native Swift Port) section \u2192 [macOS](#macos)**"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "Automattic/harper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "theJayTea/WritingTools"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

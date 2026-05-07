@@ -2,7 +2,8 @@
   "aliases": [
     "luarocks-release",
     "Luarocks Release",
-    "LuaRocks release"
+    "LuaRocks release",
+    "Luarocks release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -57,6 +58,18 @@
       "source_repo": "NTBBloodbath/sweetie.nvim",
       "status": "candidate-context",
       "text": "LuaRocks release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrcjkb/haskell-snippets.nvim",
+      "status": "candidate-context",
+      "text": "My collection of Haskell snippets for LuaSnip. Powered by tree-sitter and LSP. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/haskell-snippets.nvim",
+      "status": "candidate-context",
+      "text": "\"Luarocks release\""
     }
   ],
   "candidate_glosses": [
@@ -83,6 +96,12 @@
       "source_repo": "NTBBloodbath/sweetie.nvim",
       "status": "candidate",
       "text": "LuaRocks release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/haskell-snippets.nvim",
+      "status": "candidate",
+      "text": "\"Luarocks release\""
     }
   ],
   "candidate_related_terms": [
@@ -168,11 +187,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "NTBBloodbath/sweetie.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mrcjkb/haskell-snippets.nvim"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

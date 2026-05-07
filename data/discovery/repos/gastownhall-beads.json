@@ -619,7 +619,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T02:07:25.373611+00:00",
+  "fetched_at": "2026-05-07T08:24:39.576057+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -672,13 +672,13 @@
     "html_url": "https://github.com/gastownhall/beads",
     "language": "Go",
     "pushed_at": "2026-05-06T22:38:44Z",
-    "stargazers_count": 23292,
+    "stargazers_count": 23308,
     "topics": [
       "agents",
       "claude-code",
       "coding"
     ],
-    "updated_at": "2026-05-07T02:06:05Z"
+    "updated_at": "2026-05-07T08:16:20Z"
   },
   "repo_links": [],
   "terms": [

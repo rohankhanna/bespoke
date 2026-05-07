@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12332,6 +12332,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-and-release-app.yml",
       "source_repo": "joanroig/admincraft"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "clearml/dropbear"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "clearml/dropbear"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tarball.yml",
+      "source_repo": "clearml/dropbear"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_llvm.yml",
+      "source_repo": "Nek5000/Nek5000"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "emilk/egui_plot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_ubuntu.yml",
+      "source_repo": "Unidata/netcdf-c"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_win_cygwin.yml",
+      "source_repo": "Unidata/netcdf-c"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_win_mingw.yml",
+      "source_repo": "Unidata/netcdf-c"
     }
   ]
 }

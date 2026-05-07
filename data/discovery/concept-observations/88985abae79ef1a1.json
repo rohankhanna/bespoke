@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official HDF4 Library Repository "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "hdf4 CMake aocc"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "hdf4 CMake aocc"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "hdf4 CMake aocc",
+      "sense_id": "hdf4-cmake-aocc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hdf4-cmake-aocc",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hdf4-cmake-aocc",
+  "observation_id": "88985abae79ef1a1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-07T07:09:11.945528+00:00",
+  "observed_text": "hdf4 CMake aocc",
+  "source_context_snippet": "hdf4 CMake aocc",
+  "source_file": ".github/workflows/aocc-cmake.yml",
+  "source_repo": "HDFGroup/hdf4",
+  "source_repo_description": "Official HDF4 Library Repository "
+}

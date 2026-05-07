@@ -1,0 +1,103 @@
+{
+  "components": [
+    {
+      "component": "thoughtbot/templates/.github/workflows/dynamic-readme.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dynamic-readme.yml"
+    },
+    {
+      "component": "thoughtbot/templates/.github/workflows/dynamic-security.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dynamic-security.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dynamic-readme.yml",
+      "source_repo": "thoughtbot/rcm",
+      "target": "thoughtbot/templates/.github/workflows/dynamic-readme.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dynamic-readme.yml",
+      "source_repo": "thoughtbot/rcm",
+      "target": "update-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dynamic-security.yml",
+      "source_repo": "thoughtbot/rcm",
+      "target": "thoughtbot/templates/.github/workflows/dynamic-security.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dynamic-security.yml",
+      "source_repo": "thoughtbot/rcm",
+      "target": "update-security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thoughtbot/rcm",
+      "target": "unix",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T07:10:55.077984+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3872
+    },
+    {
+      "path": ".github/workflows/dynamic-readme.yml",
+      "size": 325
+    },
+    {
+      "path": ".github/workflows/dynamic-security.yml",
+      "size": 355
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "rc file (dotfile) management",
+    "fork": false,
+    "full_name": "thoughtbot/rcm",
+    "html_url": "https://github.com/thoughtbot/rcm",
+    "language": "Perl",
+    "pushed_at": "2025-05-23T15:40:16Z",
+    "stargazers_count": 3233,
+    "topics": [
+      "unix"
+    ],
+    "updated_at": "2026-05-06T19:12:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "update-templates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dynamic-readme.yml",
+      "term": "update-templates"
+    },
+    {
+      "context_snippet": "update-security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dynamic-security.yml",
+      "term": "update-security"
+    },
+    {
+      "context_snippet": "rcm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unix"
+    }
+  ]
+}

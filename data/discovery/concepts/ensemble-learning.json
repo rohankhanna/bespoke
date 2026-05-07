@@ -55,6 +55,18 @@
       "source_repo": "Minqi824/ADBench",
       "status": "candidate-context",
       "text": "Official code and data repository of [_**ADBench**: Anomaly Detection Benchmark_](https://arxiv.org/abs/2206.09426) (NeurIPS 2022)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sunrainyg/RandOpt",
+      "status": "candidate-context",
+      "text": "Official Codebase for \"Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sunrainyg/RandOpt",
+      "status": "candidate-context",
+      "text": "**Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights**"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "Minqi824/ADBench",
       "status": "candidate",
       "text": "Official code and data repository of [_**ADBench**: Anomaly Detection Benchmark_](https://arxiv.org/abs/2206.09426) (NeurIPS 2022)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sunrainyg/RandOpt",
+      "status": "candidate",
+      "text": "**Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights**"
     }
   ],
   "candidate_related_terms": [],
@@ -202,11 +220,23 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "sunrainyg/RandOpt"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

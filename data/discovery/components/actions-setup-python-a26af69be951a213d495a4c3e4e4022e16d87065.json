@@ -2,7 +2,7 @@
   "component": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -374,6 +374,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/json-extension.yml",
       "source_repo": "openlawlibrary/pygls"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-benchmarks.yml",
+      "source_repo": "lance-format/lance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codex-backport-pr.yml",
+      "source_repo": "lance-format/lance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codex-fix-ci.yml",
+      "source_repo": "lance-format/lance"
     }
   ]
 }

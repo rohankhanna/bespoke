@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u23f3 Provide filtering, sanitizing, and conversion of Golang data. \u63d0\u4f9b\u5bf9Golang\u6570\u636e\u7684\u8fc7\u6ee4\uff0c\u51c0\u5316\uff0c\u8f6c\u6362\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/gookit/filter)](https://github.com/gookit/filter)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/gookit/filter)](https://github.com/gookit/filter)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "data-conversion",
+      "sense_id": "data-conversion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "data-conversion",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "data-conversion",
+  "observation_id": "bf1474ce51f21f21",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T07:09:11.945528+00:00",
+  "observed_text": "data-conversion",
+  "source_context_snippet": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/gookit/filter)](https://github.com/gookit/filter)",
+  "source_file": null,
+  "source_repo": "gookit/filter",
+  "source_repo_description": "\u23f3 Provide filtering, sanitizing, and conversion of Golang data. \u63d0\u4f9b\u5bf9Golang\u6570\u636e\u7684\u8fc7\u6ee4\uff0c\u51c0\u5316\uff0c\u8f6c\u6362\u3002"
+}

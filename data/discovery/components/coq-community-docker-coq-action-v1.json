@@ -1,7 +1,7 @@
 {
   "component": "coq-community/docker-coq-action@v1",
   "first_seen_at": "2026-05-05T00:36:37.683079+00:00",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

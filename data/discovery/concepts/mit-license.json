@@ -79,6 +79,18 @@
       "source_repo": "tlaplus/tlaplus",
       "status": "candidate-context",
       "text": "Overview"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pmer/tla-bin",
+      "status": "candidate-context",
+      "text": "Command line binaries for the TLA+ language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmer/tla-bin",
+      "status": "candidate-context",
+      "text": "tla-bin is a wrapper around https://github.com/tlaplus/tlaplus that provides"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "tlaplus/tlaplus",
       "status": "candidate",
       "text": "Overview"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmer/tla-bin",
+      "status": "candidate",
+      "text": "tla-bin is a wrapper around https://github.com/tlaplus/tlaplus that provides"
     }
   ],
   "candidate_related_terms": [],
@@ -412,11 +430,29 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "pmer/tla-bin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

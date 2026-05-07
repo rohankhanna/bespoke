@@ -67,6 +67,18 @@
       "source_repo": "horseee/DeepCache",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternScience/AdaptiveDiffusion",
+      "status": "candidate-context",
+      "text": "[NeurIPS'24] Training-Free Adaptive Diffusion with Bounded Difference Approximation Strategy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternScience/AdaptiveDiffusion",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2410.09873-b31b1b.svg)](https://arxiv.org/abs/2410.09873)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "horseee/DeepCache",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternScience/AdaptiveDiffusion",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2410.09873-b31b1b.svg)](https://arxiv.org/abs/2410.09873)"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "horseee/DeepCache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "InternScience/AdaptiveDiffusion"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

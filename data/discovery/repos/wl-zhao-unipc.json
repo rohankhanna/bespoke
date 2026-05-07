@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T10:24:32.361224+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4398
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2023] UniPC: A Unified Predictor-Corrector Framework for Fast Sampling of Diffusion Models",
+    "fork": false,
+    "full_name": "wl-zhao/UniPC",
+    "html_url": "https://github.com/wl-zhao/UniPC",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-09-22T01:36:09Z",
+    "stargazers_count": 356,
+    "topics": [],
+    "updated_at": "2026-04-28T05:46:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "nasm"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "netwide-assembler/nasm",
+      "status": "candidate-context",
+      "text": "A cross-platform x86 assembler with an Intel-like syntax"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "netwide-assembler/nasm",
+      "status": "candidate-context",
+      "text": "NASM, the Netwide Assembler"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "netwide-assembler/nasm",
+      "status": "candidate",
+      "text": "NASM, the Netwide Assembler"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004325,
+      "status": "candidate",
+      "text": "disassembler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004324,
+      "status": "candidate",
+      "text": "borland"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004323,
+      "status": "candidate",
+      "text": "scons"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004322,
+      "status": "candidate",
+      "text": "assembler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004321,
+      "status": "candidate",
+      "text": "i386"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "nasm",
+  "concept_id": "nasm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "netwide-assembler/nasm"
+    }
+  ],
+  "first_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nasm",
+      "sense_id": "nasm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\ude80 A list of Haystack Integrations, maintained by the community or deepset. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish integrations on Haystack Home"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish integrations on Haystack Home"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22340,
+      "status": "candidate",
+      "text": "barrack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22340,
+      "status": "candidate",
+      "text": "barracking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22340,
+      "status": "candidate",
+      "text": "cratch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22340,
+      "status": "candidate",
+      "text": "dof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22340,
+      "status": "candidate",
+      "text": "dog"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish integrations on Haystack Home",
+      "sense_id": "publish-integrations-on-haystack-home#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-integrations-on-haystack-home",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-integrations-on-haystack-home",
+  "observation_id": "f3b567e03382ee37",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-07T07:09:11.945528+00:00",
+  "observed_text": "Publish integrations on Haystack Home",
+  "source_context_snippet": "Publish integrations on Haystack Home",
+  "source_file": ".github/workflows/publish_integrations.yml",
+  "source_repo": "deepset-ai/haystack-integrations",
+  "source_repo_description": "\ud83d\ude80 A list of Haystack Integrations, maintained by the community or deepset. "
+}

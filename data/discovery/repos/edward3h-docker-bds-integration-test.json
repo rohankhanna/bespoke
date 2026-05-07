@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "edward3h/docker-bds-integration-test",
+      "target": "kaiede/bedrockifier",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "edward3h/docker-bds-integration-test",
+      "target": "edward3h/bedrock-viz-from-backups",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T08:42:43.164494+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 782
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "edward3h/docker-bds-integration-test",
+    "html_url": "https://github.com/edward3h/docker-bds-integration-test",
+    "language": "Shell",
+    "pushed_at": "2026-05-06T11:57:53Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2023-01-03T18:55:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edward3h/bedrock-viz-from-backups",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaiede/bedrockifier",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

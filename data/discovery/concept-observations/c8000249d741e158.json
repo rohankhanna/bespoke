@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Dropbear SSH  - static portable SSH server implementation "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Autoconf Up To Date"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Autoconf Up To Date"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 57810,
+      "status": "candidate",
+      "text": "update"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 52210,
+      "status": "candidate",
+      "text": "mod"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51810,
+      "status": "candidate",
+      "text": "updated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51410,
+      "status": "candidate",
+      "text": "latest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51010,
+      "status": "candidate",
+      "text": "modern"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Autoconf Up To Date",
+      "sense_id": "autoconf-up-to-date#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "autoconf-up-to-date",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "autoconf-up-to-date",
+  "observation_id": "c8000249d741e158",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-07T07:09:11.945528+00:00",
+  "observed_text": "Autoconf Up To Date",
+  "source_context_snippet": "Autoconf Up To Date",
+  "source_file": ".github/workflows/autoconf.yml",
+  "source_repo": "clearml/dropbear",
+  "source_repo_description": "Dropbear SSH  - static portable SSH server implementation "
+}

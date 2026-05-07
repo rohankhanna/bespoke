@@ -1,0 +1,357 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "dawidd6/action-get-tag@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "YOCKOW/Action-setup-swift@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml"
+    },
+    {
+      "component": "norio-nomura/action-swiftlint@3.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wiki.yml"
+    },
+    {
+      "component": "actions4gh/deploy-wiki@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wiki.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kaiede/Bedrockifier",
+      "target": "itzg/docker-mc-backup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kaiede/Bedrockifier",
+      "target": "kaiede/docker-minecraft-bedrock-backup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "Kaiede/Bedrockifier",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "Kaiede/Bedrockifier",
+      "target": "docker/setup-buildx-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "Kaiede/Bedrockifier",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "Kaiede/Bedrockifier",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "Kaiede/Bedrockifier",
+      "target": "dawidd6/action-get-tag@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "Kaiede/Bedrockifier",
+      "target": "Docker CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "Kaiede/Bedrockifier",
+      "target": "YOCKOW/Action-setup-swift@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "Kaiede/Bedrockifier",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "Kaiede/Bedrockifier",
+      "target": "norio-nomura/action-swiftlint@3.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "Kaiede/Bedrockifier",
+      "target": "maxim-lobanov/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "Kaiede/Bedrockifier",
+      "target": "Swift CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wiki.yml",
+      "source_repo": "Kaiede/Bedrockifier",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wiki.yml",
+      "source_repo": "Kaiede/Bedrockifier",
+      "target": "actions4gh/deploy-wiki@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wiki.yml",
+      "source_repo": "Kaiede/Bedrockifier",
+      "target": "Deploy Wiki",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaiede/Bedrockifier",
+      "target": "backup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaiede/Bedrockifier",
+      "target": "bedrock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaiede/Bedrockifier",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaiede/Bedrockifier",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaiede/Bedrockifier",
+      "target": "minecraft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaiede/Bedrockifier",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaiede/Bedrockifier",
+      "target": "swift6",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T08:42:57.249570+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1939
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 3115
+    },
+    {
+      "path": ".github/workflows/swift.yml",
+      "size": 1421
+    },
+    {
+      "path": ".github/workflows/wiki.yml",
+      "size": 269
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Command-line tools and Service for Minecraft Servers (Bedrock & Java)",
+    "fork": false,
+    "full_name": "Kaiede/Bedrockifier",
+    "html_url": "https://github.com/Kaiede/Bedrockifier",
+    "language": "Swift",
+    "pushed_at": "2026-04-21T01:14:58Z",
+    "stargazers_count": 56,
+    "topics": [
+      "backup",
+      "bedrock",
+      "docker",
+      "java",
+      "minecraft",
+      "swift",
+      "swift6"
+    ],
+    "updated_at": "2026-03-31T22:07:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "itzg/docker-mc-backup",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaiede/docker-minecraft-bedrock-backup",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docker CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Docker CI"
+    },
+    {
+      "context_snippet": "Swift CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swift.yml",
+      "term": "Swift CI"
+    },
+    {
+      "context_snippet": "Deploy Wiki",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wiki.yml",
+      "term": "Deploy Wiki"
+    },
+    {
+      "context_snippet": "[![CI Status](https://github.com/Kaiede/Bedrockifier/actions/workflows/swift.yml/badge.svg)](https://github.com/Kaiede/Bedrockifier/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "backup"
+    },
+    {
+      "context_snippet": "[![CI Status](https://github.com/Kaiede/Bedrockifier/actions/workflows/swift.yml/badge.svg)](https://github.com/Kaiede/Bedrockifier/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bedrock"
+    },
+    {
+      "context_snippet": "[![CI Status](https://github.com/Kaiede/Bedrockifier/actions/workflows/swift.yml/badge.svg)](https://github.com/Kaiede/Bedrockifier/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[![CI Status](https://github.com/Kaiede/Bedrockifier/actions/workflows/swift.yml/badge.svg)](https://github.com/Kaiede/Bedrockifier/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![CI Status](https://github.com/Kaiede/Bedrockifier/actions/workflows/swift.yml/badge.svg)](https://github.com/Kaiede/Bedrockifier/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minecraft"
+    },
+    {
+      "context_snippet": "[![CI Status](https://github.com/Kaiede/Bedrockifier/actions/workflows/swift.yml/badge.svg)](https://github.com/Kaiede/Bedrockifier/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "[![CI Status](https://github.com/Kaiede/Bedrockifier/actions/workflows/swift.yml/badge.svg)](https://github.com/Kaiede/Bedrockifier/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift6"
+    }
+  ]
+}

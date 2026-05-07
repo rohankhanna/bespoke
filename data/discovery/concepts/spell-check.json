@@ -322,6 +322,18 @@
       "source_repo": "octopus-network/ibc-rs",
       "status": "candidate-context",
       "text": "Spell Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emilk/egui_plot",
+      "status": "candidate-context",
+      "text": "2D plotting library in Rust for egui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emilk/egui_plot",
+      "status": "candidate-context",
+      "text": "Spell Check"
     }
   ],
   "candidate_glosses": [
@@ -478,6 +490,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "octopus-network/ibc-rs",
+      "status": "candidate",
+      "text": "Spell Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emilk/egui_plot",
       "status": "candidate",
       "text": "Spell Check"
     }
@@ -720,11 +738,17 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/typos.yml",
       "source_repo": "octopus-network/ibc-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "emilk/egui_plot"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

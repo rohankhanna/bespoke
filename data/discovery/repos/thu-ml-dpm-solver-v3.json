@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thu-ml/DPM-Solver-v3",
+      "target": "wl-zhao/unipc",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T07:15:41.858716+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16898
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official code for \"DPM-Solver-v3: Improved Diffusion ODE Solver with Empirical Model Statistics\" (NeurIPS 2023)",
+    "fork": false,
+    "full_name": "thu-ml/DPM-Solver-v3",
+    "html_url": "https://github.com/thu-ml/DPM-Solver-v3",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-03-25T17:24:58Z",
+    "stargazers_count": 133,
+    "topics": [],
+    "updated_at": "2026-04-29T21:57:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wl-zhao/unipc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

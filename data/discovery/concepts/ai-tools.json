@@ -205,6 +205,18 @@
       "source_repo": "ruvnet/ruflo",
       "status": "candidate-context",
       "text": "\ud83c\udf0a The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deepset-ai/haystack-integrations",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 A list of Haystack Integrations, maintained by the community or deepset. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepset-ai/haystack-integrations",
+      "status": "candidate-context",
+      "text": "This repository is an index of Haystack integrations that can be used with a Haystack Pipeline or Agent."
     }
   ],
   "candidate_glosses": [
@@ -303,6 +315,12 @@
       "source_repo": "augmnt/augments-mcp-server",
       "status": "candidate",
       "text": "![Augments MCP Server](https://raw.githubusercontent.com/augmnt/augments-mcp-server/main/banner.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepset-ai/haystack-integrations",
+      "status": "candidate",
+      "text": "This repository is an index of Haystack integrations that can be used with a Haystack Pipeline or Agent."
     }
   ],
   "candidate_related_terms": [],
@@ -586,11 +604,23 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "deepset-ai/haystack-integrations"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

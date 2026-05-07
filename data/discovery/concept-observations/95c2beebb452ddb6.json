@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Dockerized FastAPI wrapper for Kokoro-82M text-to-speech model w/CPU ONNX and NVIDIA GPU PyTorch support, handling, and auto-stitching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Create Release and Publish Docker Images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Create Release and Publish Docker Images"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42578,
+      "status": "candidate",
+      "text": "graffiti"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34473,
+      "status": "candidate",
+      "text": "imagine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33493,
+      "status": "candidate",
+      "text": "imagination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33414,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33022,
+      "status": "candidate",
+      "text": "automatism"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create Release and Publish Docker Images",
+      "sense_id": "create-release-and-publish-docker-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "create-release-and-publish-docker-images",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "create-release-and-publish-docker-images",
+  "observation_id": "95c2beebb452ddb6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-07T07:09:11.945528+00:00",
+  "observed_text": "Create Release and Publish Docker Images",
+  "source_context_snippet": "Create Release and Publish Docker Images",
+  "source_file": ".github/workflows/release.yml",
+  "source_repo": "remsky/Kokoro-FastAPI",
+  "source_repo_description": "Dockerized FastAPI wrapper for Kokoro-82M text-to-speech model w/CPU ONNX and NVIDIA GPU PyTorch support, handling, and auto-stitching"
+}

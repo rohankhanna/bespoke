@@ -1,0 +1,12 @@
+{
+  "component": "bencherdev/bencher@8151077aa7b1bceaac11c4b308265417cae60e2b",
+  "first_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-benchmarks.yml",
+      "source_repo": "lance-format/lance"
+    }
+  ]
+}

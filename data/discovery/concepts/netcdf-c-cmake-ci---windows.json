@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "NetCDF-C CMake CI - Windows"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Unidata/netcdf-c",
+      "status": "candidate-context",
+      "text": "Official GitHub repository for netCDF-C libraries and utilities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Unidata/netcdf-c",
+      "status": "candidate-context",
+      "text": "NetCDF-C CMake CI - Windows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Unidata/netcdf-c",
+      "status": "candidate",
+      "text": "NetCDF-C CMake CI - Windows"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14408,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13746,
+      "status": "candidate",
+      "text": "thousand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13124,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13124,
+      "status": "candidate",
+      "text": "pole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10676,
+      "status": "candidate",
+      "text": "curie"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "NetCDF-C CMake CI - Windows",
+  "concept_id": "netcdf-c-cmake-ci---windows",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/main-cmake.yml",
+      "source_repo": "Unidata/netcdf-c"
+    }
+  ],
+  "first_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "NetCDF-C CMake CI - Windows",
+      "sense_id": "netcdf-c-cmake-ci---windows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

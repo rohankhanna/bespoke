@@ -451,6 +451,30 @@
       "source_repo": "clovaai/rexnet",
       "status": "candidate-context",
       "text": "**Dongyoon Han, Sangdoo Yun, Byeongho Heo, and YoungJoon Yoo** | [Paper](https://arxiv.org/abs/2007.00992) | [Pretrained Models](#pretrained)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KaiyangZhou/mixstyle-release",
+      "status": "candidate-context",
+      "text": "Domain Generalization with MixStyle (ICLR'21)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KaiyangZhou/mixstyle-release",
+      "status": "candidate-context",
+      "text": "This repo contains the code of our ICLR'21 paper, \"Domain Generalization with MixStyle\"."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raoyongming/DynamicViT",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2021] [T-PAMI] DynamicViT: Efficient Vision Transformers with Dynamic Token Sparsification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raoyongming/DynamicViT",
+      "status": "candidate-context",
+      "text": "This repository contains PyTorch implementation for DynamicViT (NeurIPS 2021)."
     }
   ],
   "candidate_glosses": [
@@ -675,6 +699,18 @@
       "source_repo": "clovaai/rexnet",
       "status": "candidate",
       "text": "**Dongyoon Han, Sangdoo Yun, Byeongho Heo, and YoungJoon Yoo** | [Paper](https://arxiv.org/abs/2007.00992) | [Pretrained Models](#pretrained)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KaiyangZhou/mixstyle-release",
+      "status": "candidate",
+      "text": "This repo contains the code of our ICLR'21 paper, \"Domain Generalization with MixStyle\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raoyongming/DynamicViT",
+      "status": "candidate",
+      "text": "This repository contains PyTorch implementation for DynamicViT (NeurIPS 2021)."
     }
   ],
   "candidate_related_terms": [],
@@ -1336,11 +1372,47 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleClas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/mixstyle-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "raoyongming/DynamicViT"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

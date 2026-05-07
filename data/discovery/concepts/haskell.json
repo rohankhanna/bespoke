@@ -403,6 +403,54 @@
       "source_repo": "mmark-md/mmark-cli",
       "status": "candidate-context",
       "text": "[![License BSD3](https://img.shields.io/badge/license-BSD3-brightgreen.svg)](http://opensource.org/licenses/BSD-3-Clause)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrcjkb/neotest-haskell",
+      "status": "candidate-context",
+      "text": "Neotest adapter for Haskell (cabal or stack) with support for Sydtest, Hspec and Tasty"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/neotest-haskell",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luc-tielen/telescope_hoogle",
+      "status": "candidate-context",
+      "text": "Hoogle search integration for Telescope"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luc-tielen/telescope_hoogle",
+      "status": "candidate-context",
+      "text": "A telescope plugin for Hoogle."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrcjkb/haskell-snippets.nvim",
+      "status": "candidate-context",
+      "text": "My collection of Haskell snippets for LuaSnip. Powered by tree-sitter and LSP. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/haskell-snippets.nvim",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "status": "candidate-context",
+      "text": " \ud83e\udda5 Supercharge your Haskell experience in neovim!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable -->"
     }
   ],
   "candidate_glosses": [
@@ -609,6 +657,30 @@
       "source_repo": "mmark-md/mmark-cli",
       "status": "candidate",
       "text": "[![License BSD3](https://img.shields.io/badge/license-BSD3-brightgreen.svg)](http://opensource.org/licenses/BSD-3-Clause)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/neotest-haskell",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luc-tielen/telescope_hoogle",
+      "status": "candidate",
+      "text": "A telescope plugin for Hoogle."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/haskell-snippets.nvim",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/haskell-tools.nvim",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable -->"
     }
   ],
   "candidate_related_terms": [
@@ -940,11 +1012,41 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "protolude/protolude"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "protolude/protolude"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "mrcjkb/neotest-haskell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "luc-tielen/telescope_hoogle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "mrcjkb/haskell-snippets.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "mrcjkb/haskell-tools.nvim"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

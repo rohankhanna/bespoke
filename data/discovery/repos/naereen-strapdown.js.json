@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Naereen/StrapDown.js",
+      "target": "arturadib/strapdown",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Naereen/StrapDown.js",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Naereen/StrapDown.js",
+      "target": "markdown-to-html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Naereen/StrapDown.js",
+      "target": "mathjax",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Naereen/StrapDown.js",
+      "target": "strapdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Naereen/StrapDown.js",
+      "target": "strapdown-js",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T10:24:27.989903+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6866
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":sparkles: StrapDown.js is an awesome javascript tool to quickly publish nice-looking web-pages in pure Markdown :pencil:, with no server side compilation :sunglasses: \u2192",
+    "fork": false,
+    "full_name": "Naereen/StrapDown.js",
+    "html_url": "https://github.com/Naereen/StrapDown.js",
+    "language": "CSS",
+    "pushed_at": "2022-03-21T09:08:53Z",
+    "stargazers_count": 118,
+    "topics": [
+      "javascript",
+      "markdown",
+      "markdown-to-html",
+      "mathjax",
+      "strapdown",
+      "strapdown-js"
+    ],
+    "updated_at": "2026-03-03T18:04:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arturadib/strapdown",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[StrapDown.js](https://naereen.github.io/StrapDown.js/) is an awesome web script to write nice-looking webpages in pure Markdown, with no server side compilation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "[StrapDown.js](https://naereen.github.io/StrapDown.js/) is an awesome web script to write nice-looking webpages in pure Markdown, with no server side compilation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown-to-html"
+    },
+    {
+      "context_snippet": "[StrapDown.js](https://naereen.github.io/StrapDown.js/) is an awesome web script to write nice-looking webpages in pure Markdown, with no server side compilation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mathjax"
+    },
+    {
+      "context_snippet": "[StrapDown.js](https://naereen.github.io/StrapDown.js/) is an awesome web script to write nice-looking webpages in pure Markdown, with no server side compilation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "strapdown"
+    },
+    {
+      "context_snippet": "[StrapDown.js](https://naereen.github.io/StrapDown.js/) is an awesome web script to write nice-looking webpages in pure Markdown, with no server side compilation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "strapdown-js"
+    }
+  ]
+}

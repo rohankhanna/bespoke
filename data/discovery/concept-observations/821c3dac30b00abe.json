@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A sharp, readable, vector-y version of Monocraft, the programming font based on Minecraft"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Miracode/total.svg)](https://GitHub.com/IdreesInc/Miracode/releases/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Miracode/total.svg)](https://GitHub.com/IdreesInc/Miracode/releases/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19875493,
+      "status": "candidate",
+      "text": "binder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9951077,
+      "status": "candidate",
+      "text": "ligates"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9951076,
+      "status": "candidate",
+      "text": "serifs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9951075,
+      "status": "candidate",
+      "text": "ligures"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9951074,
+      "status": "candidate",
+      "text": "typefaces"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ligatures",
+      "sense_id": "ligatures#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ligatures",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ligatures",
+  "observation_id": "821c3dac30b00abe",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T07:09:11.945528+00:00",
+  "observed_text": "ligatures",
+  "source_context_snippet": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Miracode/total.svg)](https://GitHub.com/IdreesInc/Miracode/releases/)",
+  "source_file": null,
+  "source_repo": "IdreesInc/Miracode",
+  "source_repo_description": "A sharp, readable, vector-y version of Monocraft, the programming font based on Minecraft"
+}

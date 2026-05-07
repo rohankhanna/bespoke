@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +21,18 @@
       "source_repo": "cosmos/relayer",
       "status": "candidate-context",
       "text": "chores"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/donetick-mcp",
+      "status": "candidate-context",
+      "text": "MCP for Donetick self-hosted chore manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/donetick-mcp",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/donetick-mcp)](https://pypi.org/project/donetick-mcp/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +41,12 @@
       "source_repo": "cosmos/relayer",
       "status": "candidate",
       "text": "chores"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/donetick-mcp",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/donetick-mcp)](https://pypi.org/project/donetick-mcp/)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +96,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/chores.yml",
       "source_repo": "cosmos/relayer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/donetick-mcp"
     }
   ],
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shenyi-Z/Cache4Diffusion",
+      "target": "tammytcl/awesome-diffusion-acceleration-cache",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T10:24:26.667034+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4462
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Aiming to integrate most existing feature caching-based diffusion acceleration schemes into a unified framework.",
+    "fork": false,
+    "full_name": "Shenyi-Z/Cache4Diffusion",
+    "html_url": "https://github.com/Shenyi-Z/Cache4Diffusion",
+    "language": "Python",
+    "pushed_at": "2025-10-23T02:33:59Z",
+    "stargazers_count": 99,
+    "topics": [],
+    "updated_at": "2026-04-29T09:42:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tammytcl/awesome-diffusion-acceleration-cache",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

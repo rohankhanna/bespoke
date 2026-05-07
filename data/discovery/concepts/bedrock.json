@@ -115,6 +115,18 @@
       "source_repo": "aws-samples/sample-agentic-ai-demos",
       "status": "candidate-context",
       "text": "Collection of examples of how to build Agentic AI with AWS, including Model Context Protocol."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kaiede/Bedrockifier",
+      "status": "candidate-context",
+      "text": "Command-line tools and Service for Minecraft Servers (Bedrock & Java)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaiede/Bedrockifier",
+      "status": "candidate-context",
+      "text": "[![CI Status](https://github.com/Kaiede/Bedrockifier/actions/workflows/swift.yml/badge.svg)](https://github.com/Kaiede/Bedrockifier/actions)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "aws-samples/sample-agentic-ai-demos",
       "status": "candidate",
       "text": "Collection of examples of how to build Agentic AI with AWS, including Model Context Protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaiede/Bedrockifier",
+      "status": "candidate",
+      "text": "[![CI Status](https://github.com/Kaiede/Bedrockifier/actions/workflows/swift.yml/badge.svg)](https://github.com/Kaiede/Bedrockifier/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -297,11 +315,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "aws-samples/sample-agentic-ai-demos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "Kaiede/Bedrockifier"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

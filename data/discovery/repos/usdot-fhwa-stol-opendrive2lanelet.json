@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T09:16:04.523625+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4747
+    },
+    {
+      "path": "Dockerfile",
+      "size": 351
+    },
+    {
+      "path": "requirements.txt",
+      "size": 160
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Automatic Conversion of Road Networks from OpenDRIVE to Lanelets",
+    "fork": true,
+    "full_name": "usdot-fhwa-stol/opendrive2lanelet",
+    "html_url": "https://github.com/usdot-fhwa-stol/opendrive2lanelet",
+    "language": "Python",
+    "pushed_at": "2025-05-02T15:31:39Z",
+    "stargazers_count": 33,
+    "topics": [],
+    "updated_at": "2026-04-01T01:58:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T09:46:19.972651+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4349
+    },
+    {
+      "path": "requirements.txt",
+      "size": 152
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Codebase for Image Classification Research, written in PyTorch.",
+    "fork": false,
+    "full_name": "facebookresearch/pycls",
+    "html_url": "https://github.com/facebookresearch/pycls",
+    "language": "Python",
+    "pushed_at": "2024-03-20T15:45:40Z",
+    "stargazers_count": 2168,
+    "topics": [],
+    "updated_at": "2026-04-12T14:04:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

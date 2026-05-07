@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuange1024/ethereum_yellowpaper",
+      "target": "asseth/yellowpaper",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T07:42:26.430601+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1133
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u4ee5\u592a\u574a\u9ec4\u76ae\u4e66\u4e2d\u6587\u7248",
+    "fork": true,
+    "full_name": "yuange1024/ethereum_yellowpaper",
+    "html_url": "https://github.com/yuange1024/ethereum_yellowpaper",
+    "language": "TeX",
+    "pushed_at": "2026-01-15T16:35:52Z",
+    "stargazers_count": 429,
+    "topics": [],
+    "updated_at": "2026-04-14T01:40:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asseth/yellowpaper",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,144 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_code_check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_code_check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_code_check.yml",
+      "source_repo": "carla-simulator/scenario_runner",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static_code_check.yml",
+      "source_repo": "carla-simulator/scenario_runner",
+      "target": "Static Code Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test.yml",
+      "source_repo": "carla-simulator/scenario_runner",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_test.yml",
+      "source_repo": "carla-simulator/scenario_runner",
+      "target": "Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carla-simulator/scenario_runner",
+      "target": "carla",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carla-simulator/scenario_runner",
+      "target": "openscenario",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carla-simulator/scenario_runner",
+      "target": "traffic-scenario",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T09:46:14.590393+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5175
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2269
+    },
+    {
+      "path": "requirements.txt",
+      "size": 225
+    },
+    {
+      "path": ".github/workflows/static_code_check.yml",
+      "size": 3030
+    },
+    {
+      "path": ".github/workflows/unit_test.yml",
+      "size": 734
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Traffic scenario definition and execution engine",
+    "fork": false,
+    "full_name": "carla-simulator/scenario_runner",
+    "html_url": "https://github.com/carla-simulator/scenario_runner",
+    "language": "Python",
+    "pushed_at": "2026-04-25T13:24:18Z",
+    "stargazers_count": 659,
+    "topics": [
+      "carla",
+      "openscenario",
+      "traffic-scenario"
+    ],
+    "updated_at": "2026-04-29T23:02:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Static Code Analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static_code_check.yml",
+      "term": "Static Code Analysis"
+    },
+    {
+      "context_snippet": "Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_test.yml",
+      "term": "Unit Tests"
+    },
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "carla"
+    },
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openscenario"
+    },
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "traffic-scenario"
+    }
+  ]
+}

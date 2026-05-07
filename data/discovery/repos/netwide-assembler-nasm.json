@@ -1,0 +1,132 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "netwide-assembler/nasm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "netwide-assembler/nasm",
+      "target": "assembler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "netwide-assembler/nasm",
+      "target": "assembler-x86",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "netwide-assembler/nasm",
+      "target": "assemblers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "netwide-assembler/nasm",
+      "target": "nasm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "netwide-assembler/nasm",
+      "target": "nasm-assembler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "netwide-assembler/nasm",
+      "target": "nasm-language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T09:46:39.464823+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 760
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 661
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A cross-platform x86 assembler with an Intel-like syntax",
+    "fork": false,
+    "full_name": "netwide-assembler/nasm",
+    "html_url": "https://github.com/netwide-assembler/nasm",
+    "language": "Assembly",
+    "pushed_at": "2026-04-22T16:10:40Z",
+    "stargazers_count": 3188,
+    "topics": [
+      "assembler",
+      "assembler-x86",
+      "assemblers",
+      "nasm",
+      "nasm-assembler",
+      "nasm-language",
+      "x86"
+    ],
+    "updated_at": "2026-05-06T23:08:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "NASM, the Netwide Assembler",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assembler"
+    },
+    {
+      "context_snippet": "NASM, the Netwide Assembler",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assembler-x86"
+    },
+    {
+      "context_snippet": "NASM, the Netwide Assembler",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assemblers"
+    },
+    {
+      "context_snippet": "NASM, the Netwide Assembler",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nasm"
+    },
+    {
+      "context_snippet": "NASM, the Netwide Assembler",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nasm-assembler"
+    },
+    {
+      "context_snippet": "NASM, the Netwide Assembler",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nasm-language"
+    }
+  ]
+}

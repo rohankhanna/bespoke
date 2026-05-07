@@ -1,0 +1,664 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_regression_testing.yml"
+    },
+    {
+      "component": "Unidata/netcdf-test-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_regression_testing.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_regression_testing.yml"
+    },
+    {
+      "component": "Unidata/netcdf-test-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_regression_testing.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_regression_testing.yml"
+    },
+    {
+      "component": "Unidata/netcdf-test-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_regression_testing.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_regression_testing.yml"
+    },
+    {
+      "component": "Unidata/netcdf-test-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_regression_testing.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_regression_testing.yml"
+    },
+    {
+      "component": "Unidata/netcdf-test-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_regression_testing.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-cmake.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_bigendian.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_bigendian.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_cdash.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_cdash.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_cdash.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_cdash.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_cdash.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_cdash.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_osx.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_osx.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_osx.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_osx.yml"
+    },
+    {
+      "component": "luchihoratiu/debug-via-ssh@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_osx.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_osx.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_osx.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_osx.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_osx.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_osx.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_osx.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_osx.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_osx.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_ubuntu.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_ubuntu.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_ubuntu.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_ubuntu.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_ubuntu.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_ubuntu.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_ubuntu.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_ubuntu.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_ubuntu.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_ubuntu.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_ubuntu.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_ubuntu.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_win_cygwin.yml"
+    },
+    {
+      "component": "cygwin/cygwin-install-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_win_cygwin.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_win_cygwin.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_win_cygwin.yml"
+    },
+    {
+      "component": "cygwin/cygwin-install-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_win_cygwin.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_win_mingw.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_win_mingw.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_win_mingw.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_win_mingw.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_win_mingw.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_regression_testing.yml",
+      "source_repo": "Unidata/netcdf-c",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_regression_testing.yml",
+      "source_repo": "Unidata/netcdf-c",
+      "target": "Unidata/netcdf-test-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker_regression_testing.yml",
+      "source_repo": "Unidata/netcdf-c",
+      "target": "Run Docker-Based Regression Testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-cmake.yml",
+      "source_repo": "Unidata/netcdf-c",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-cmake.yml",
+      "source_repo": "Unidata/netcdf-c",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-cmake.yml",
+      "source_repo": "Unidata/netcdf-c",
+      "target": "mamba-org/setup-micromamba@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main-cmake.yml",
+      "source_repo": "Unidata/netcdf-c",
+      "target": "NetCDF-C CMake CI - Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_bigendian.yml",
+      "source_repo": "Unidata/netcdf-c",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_bigendian.yml",
+      "source_repo": "Unidata/netcdf-c",
+      "target": "uraimo/run-on-arch-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests_bigendian.yml",
+      "source_repo": "Unidata/netcdf-c",
+      "target": "Big-Endian (s390x) netCDF Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_cdash.yml",
+      "source_repo": "Unidata/netcdf-c",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_cdash.yml",
+      "source_repo": "Unidata/netcdf-c",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_osx.yml",
+      "source_repo": "Unidata/netcdf-c",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_osx.yml",
+      "source_repo": "Unidata/netcdf-c",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_osx.yml",
+      "source_repo": "Unidata/netcdf-c",
+      "target": "luchihoratiu/debug-via-ssh@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests_osx.yml",
+      "source_repo": "Unidata/netcdf-c",
+      "target": "Run macOS-based netCDF Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_ubuntu.yml",
+      "source_repo": "Unidata/netcdf-c",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_ubuntu.yml",
+      "source_repo": "Unidata/netcdf-c",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_ubuntu.yml",
+      "source_repo": "Unidata/netcdf-c",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_ubuntu.yml",
+      "source_repo": "Unidata/netcdf-c",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_win_cygwin.yml",
+      "source_repo": "Unidata/netcdf-c",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_win_cygwin.yml",
+      "source_repo": "Unidata/netcdf-c",
+      "target": "cygwin/cygwin-install-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_win_cygwin.yml",
+      "source_repo": "Unidata/netcdf-c",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests_win_cygwin.yml",
+      "source_repo": "Unidata/netcdf-c",
+      "target": "Run Cygwin-based tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_win_mingw.yml",
+      "source_repo": "Unidata/netcdf-c",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_win_mingw.yml",
+      "source_repo": "Unidata/netcdf-c",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_win_mingw.yml",
+      "source_repo": "Unidata/netcdf-c",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Unidata/netcdf-c",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Unidata/netcdf-c",
+      "target": "netcdf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Unidata/netcdf-c",
+      "target": "unidata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Unidata/netcdf-c",
+      "target": "unidata-netcdf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T10:50:07.124065+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4311
+    },
+    {
+      "path": ".github/workflows/docker_regression_testing.yml",
+      "size": 5256
+    },
+    {
+      "path": ".github/workflows/main-cmake.yml",
+      "size": 4801
+    },
+    {
+      "path": ".github/workflows/run_tests_bigendian.yml",
+      "size": 5101
+    },
+    {
+      "path": ".github/workflows/run_tests_cdash.yml",
+      "size": 6061
+    },
+    {
+      "path": ".github/workflows/run_tests_osx.yml",
+      "size": 16495
+    },
+    {
+      "path": ".github/workflows/run_tests_ubuntu.yml",
+      "size": 30084
+    },
+    {
+      "path": ".github/workflows/run_tests_win_cygwin.yml",
+      "size": 6135
+    },
+    {
+      "path": ".github/workflows/run_tests_win_mingw.yml",
+      "size": 5440
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official GitHub repository for netCDF-C libraries and utilities.",
+    "fork": false,
+    "full_name": "Unidata/netcdf-c",
+    "html_url": "https://github.com/Unidata/netcdf-c",
+    "language": "C",
+    "pushed_at": "2026-05-01T21:22:18Z",
+    "stargazers_count": 592,
+    "topics": [
+      "c",
+      "hacktoberfest",
+      "netcdf",
+      "unidata",
+      "unidata-netcdf"
+    ],
+    "updated_at": "2026-05-01T21:22:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run Docker-Based Regression Testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker_regression_testing.yml",
+      "term": "Run Docker-Based Regression Testing"
+    },
+    {
+      "context_snippet": "NetCDF-C CMake CI - Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main-cmake.yml",
+      "term": "NetCDF-C CMake CI - Windows"
+    },
+    {
+      "context_snippet": "Big-Endian (s390x) netCDF Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests_bigendian.yml",
+      "term": "Big-Endian (s390x) netCDF Tests"
+    },
+    {
+      "context_snippet": "Run macOS-based netCDF Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests_osx.yml",
+      "term": "Run macOS-based netCDF Tests"
+    },
+    {
+      "context_snippet": "Run Cygwin-based tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests_win_cygwin.yml",
+      "term": "Run Cygwin-based tests"
+    },
+    {
+      "context_snippet": "[![latest packaged version(s)](https://repology.org/badge/latest-versions/netcdf.svg)](https://repology.org/project/netcdf/badges)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![latest packaged version(s)](https://repology.org/badge/latest-versions/netcdf.svg)](https://repology.org/project/netcdf/badges)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "netcdf"
+    },
+    {
+      "context_snippet": "[![latest packaged version(s)](https://repology.org/badge/latest-versions/netcdf.svg)](https://repology.org/project/netcdf/badges)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unidata"
+    },
+    {
+      "context_snippet": "[![latest packaged version(s)](https://repology.org/badge/latest-versions/netcdf.svg)](https://repology.org/project/netcdf/badges)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unidata-netcdf"
+    }
+  ]
+}

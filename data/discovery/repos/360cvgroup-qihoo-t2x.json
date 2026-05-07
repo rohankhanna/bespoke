@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "360CVGroup/Qihoo-T2X",
+      "target": "efficient-dit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "360CVGroup/Qihoo-T2X",
+      "target": "image-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T07:15:28.226471+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1836
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Efficient DiT architecture for text2any tasks, ICLR2025",
+    "fork": false,
+    "full_name": "360CVGroup/Qihoo-T2X",
+    "html_url": "https://github.com/360CVGroup/Qihoo-T2X",
+    "language": null,
+    "pushed_at": "2025-05-10T10:33:24Z",
+    "stargazers_count": 446,
+    "topics": [
+      "efficient-dit",
+      "image-generation"
+    ],
+    "updated_at": "2026-04-08T08:44:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is the official reproduction of [Qihoo-T2X](https://360cvgroup.github.io/Qihoo-T2X/), which represents a groundbreaking DiT architecture paradigm designed for Text-to-Any tasks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficient-dit"
+    },
+    {
+      "context_snippet": "This is the official reproduction of [Qihoo-T2X](https://360cvgroup.github.io/Qihoo-T2X/), which represents a groundbreaking DiT architecture paradigm designed for Text-to-Any tasks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    }
+  ]
+}

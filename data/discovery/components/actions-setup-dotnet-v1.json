@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-dotnet@v1",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -217,6 +217,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/regression.yml",
       "source_repo": "unitycontainer/abstractions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/good-books_api.yml",
+      "source_repo": "AccountGo/accountgo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/good-books_mvc.yml.disable",
+      "source_repo": "AccountGo/accountgo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/good-books_mvc_tar.yml",
+      "source_repo": "AccountGo/accountgo"
     }
   ]
 }

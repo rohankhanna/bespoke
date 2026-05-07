@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "WebView4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Edge/Chromium-based browsers in applications made with Delphi or Lazarus/FPC for Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "WebView4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Edge/Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "WebView4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Edge/Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036090,
+      "status": "candidate",
+      "text": "wink"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035990,
+      "status": "candidate",
+      "text": "nictitate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035970,
+      "status": "candidate",
+      "text": "nictate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032602,
+      "status": "candidate",
+      "text": "twinkle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024189,
+      "status": "candidate",
+      "text": "flash"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "blink",
+      "sense_id": "blink#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20039,
+      "status": "candidate",
+      "text": "twinkle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6023,
+      "status": "candidate",
+      "text": "nictate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4032,
+      "status": "candidate",
+      "text": "nictitate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "eye blink"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "blink away"
+    }
+  ],
+  "concept_id": "blink",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "blink",
+  "observation_id": "566c9aced38782df",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T07:09:11.945528+00:00",
+  "observed_text": "blink",
+  "source_context_snippet": "WebView4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Edge/Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/).",
+  "source_file": null,
+  "source_repo": "salvadordf/WebView4Delphi",
+  "source_repo_description": "WebView4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Edge/Chromium-based browsers in applications made with Delphi or Lazarus/FPC for Windows."
+}

@@ -1,0 +1,80 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/donetick-mcp",
+      "target": "chores",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/donetick-mcp",
+      "target": "home-assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/donetick-mcp",
+      "target": "household-mangement",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T08:28:27.528150+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5288
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1028
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2030
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MCP for Donetick self-hosted chore manager",
+    "fork": true,
+    "full_name": "danielrosehill/donetick-mcp",
+    "html_url": "https://github.com/danielrosehill/donetick-mcp",
+    "language": "Python",
+    "pushed_at": "2026-04-03T12:52:19Z",
+    "stargazers_count": 1,
+    "topics": [
+      "chores",
+      "home-assistant",
+      "household-mangement"
+    ],
+    "updated_at": "2026-04-03T12:52:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/donetick-mcp)](https://pypi.org/project/donetick-mcp/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chores"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/donetick-mcp)](https://pypi.org/project/donetick-mcp/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "home-assistant"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/donetick-mcp)](https://pypi.org/project/donetick-mcp/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "household-mangement"
+    }
+  ]
+}

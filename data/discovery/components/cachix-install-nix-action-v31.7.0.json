@@ -1,0 +1,22 @@
+{
+  "component": "cachix/install-nix-action@v31.7.0",
+  "first_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/master-push.yml",
+      "source_repo": "runtimeverification/kup"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml",
+      "source_repo": "runtimeverification/kup"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-version.yml",
+      "source_repo": "runtimeverification/kup"
+    }
+  ]
+}

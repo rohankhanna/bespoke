@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "TIFA: Accurate and Interpretable Text-to-Image Faithfulness Evaluation with Question Answering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Images synthesized by text-to-image models (e.g. Stable Diffusion) often do not follow the text inputs well."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Images synthesized by text-to-image models (e.g. Stable Diffusion) often do not follow the text inputs well."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "large-language-models",
+      "sense_id": "large-language-models#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "large-language-models",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "large-language-models",
+  "observation_id": "381d15a9b858c11f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T07:09:11.945528+00:00",
+  "observed_text": "large-language-models",
+  "source_context_snippet": "Images synthesized by text-to-image models (e.g. Stable Diffusion) often do not follow the text inputs well.",
+  "source_file": null,
+  "source_repo": "Yushi-Hu/tifa",
+  "source_repo_description": "TIFA: Accurate and Interpretable Text-to-Image Faithfulness Evaluation with Question Answering"
+}

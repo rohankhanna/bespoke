@@ -382,6 +382,18 @@
       "source_repo": "neo4j/neo4j-python-driver-rust-ext",
       "status": "candidate-context",
       "text": "This project contains Rust extensions to speed up the [official Python driver for Neo4j](https://github.com/neo4j/neo4j-python-driver)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evmos/docs",
+      "status": "candidate-context",
+      "text": "The official docs for Evmos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evmos/docs",
+      "status": "candidate-context",
+      "text": "Welcome to the official Evmos Developer Docs. The official deployment is located [here](https://docs.evmos.org)."
     }
   ],
   "candidate_glosses": [
@@ -570,6 +582,12 @@
       "source_repo": "neo4j/neo4j-python-driver-rust-ext",
       "status": "candidate",
       "text": "This project contains Rust extensions to speed up the [official Python driver for Neo4j](https://github.com/neo4j/neo4j-python-driver)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evmos/docs",
+      "status": "candidate",
+      "text": "Welcome to the official Evmos Developer Docs. The official deployment is located [here](https://docs.evmos.org)."
     }
   ],
   "candidate_related_terms": [
@@ -1209,11 +1227,35 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "evmos/docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "Consensys/ethereum-dissectors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "lightning/bolts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-companion"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

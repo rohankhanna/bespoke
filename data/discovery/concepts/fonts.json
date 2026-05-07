@@ -310,6 +310,30 @@
       "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
       "status": "candidate-context",
       "text": "![Logo](docs/logo@2x.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IdreesInc/Miracode",
+      "status": "candidate-context",
+      "text": "A sharp, readable, vector-y version of Monocraft, the programming font based on Minecraft"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IdreesInc/Miracode",
+      "status": "candidate-context",
+      "text": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Miracode/total.svg)](https://GitHub.com/IdreesInc/Miracode/releases/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IdreesInc/Monocraft",
+      "status": "candidate-context",
+      "text": "A monospaced programming font inspired by the Minecraft typeface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IdreesInc/Monocraft",
+      "status": "candidate-context",
+      "text": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Monocraft/total.svg)](https://GitHub.com/IdreesInc/Monocraft/releases/)"
     }
   ],
   "candidate_glosses": [
@@ -462,6 +486,18 @@
       "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
       "status": "candidate",
       "text": "![Logo](docs/logo@2x.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IdreesInc/Miracode",
+      "status": "candidate",
+      "text": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Miracode/total.svg)](https://GitHub.com/IdreesInc/Miracode/releases/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IdreesInc/Monocraft",
+      "status": "candidate",
+      "text": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Monocraft/total.svg)](https://GitHub.com/IdreesInc/Monocraft/releases/)"
     }
   ],
   "candidate_related_terms": [
@@ -793,11 +829,29 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "IdreesInc/Miracode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "IdreesInc/Monocraft"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

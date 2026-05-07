@@ -166,6 +166,18 @@
       "source_repo": "cucumber/.github",
       "status": "candidate-context",
       "text": "\ud83d\udc69\u200d\u2695\ufe0f Default [community health files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) for the Cucumber organisation on GitHub."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deepset-ai/haystack-integrations",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 A list of Haystack Integrations, maintained by the community or deepset. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepset-ai/haystack-integrations",
+      "status": "candidate-context",
+      "text": "This repository is an index of Haystack integrations that can be used with a Haystack Pipeline or Agent."
     }
   ],
   "candidate_glosses": [
@@ -246,6 +258,12 @@
       "source_repo": "cucumber/.github",
       "status": "candidate",
       "text": "\ud83d\udc69\u200d\u2695\ufe0f Default [community health files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) for the Cucumber organisation on GitHub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepset-ai/haystack-integrations",
+      "status": "candidate",
+      "text": "This repository is an index of Haystack integrations that can be used with a Haystack Pipeline or Agent."
     }
   ],
   "candidate_related_terms": [
@@ -469,11 +487,23 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "robotology/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "robotology/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "deepset-ai/haystack-integrations"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

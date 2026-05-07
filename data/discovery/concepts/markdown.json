@@ -1351,6 +1351,18 @@
       "source_repo": "petercorke/ansitable",
       "status": "candidate-context",
       "text": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Naereen/StrapDown.js",
+      "status": "candidate-context",
+      "text": ":sparkles: StrapDown.js is an awesome javascript tool to quickly publish nice-looking web-pages in pure Markdown :pencil:, with no server side compilation :sunglasses: \u2192"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Naereen/StrapDown.js",
+      "status": "candidate-context",
+      "text": "[StrapDown.js](https://naereen.github.io/StrapDown.js/) is an awesome web script to write nice-looking webpages in pure Markdown, with no server side compilation."
     }
   ],
   "candidate_glosses": [
@@ -2025,6 +2037,12 @@
       "source_repo": "petercorke/ansitable",
       "status": "candidate",
       "text": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Naereen/StrapDown.js",
+      "status": "candidate",
+      "text": "[StrapDown.js](https://naereen.github.io/StrapDown.js/) is an awesome web script to write nice-looking webpages in pure Markdown, with no server side compilation."
     }
   ],
   "candidate_related_terms": [
@@ -3178,11 +3196,41 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "petercorke/ansitable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "mixmark-io/turndown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "Naereen/StrapDown.js"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

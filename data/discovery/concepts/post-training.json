@@ -43,6 +43,18 @@
       "source_repo": "hao-ai-lab/FastVideo",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sunrainyg/RandOpt",
+      "status": "candidate-context",
+      "text": "Official Codebase for \"Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sunrainyg/RandOpt",
+      "status": "candidate-context",
+      "text": "**Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights**"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "hao-ai-lab/FastVideo",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sunrainyg/RandOpt",
+      "status": "candidate",
+      "text": "**Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights**"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "hao-ai-lab/FastVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "sunrainyg/RandOpt"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

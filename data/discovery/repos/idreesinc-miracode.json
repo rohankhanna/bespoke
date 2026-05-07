@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IdreesInc/Miracode",
+      "target": "idreesinc/monocraft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IdreesInc/Miracode",
+      "target": "idreesinc/idreesinc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IdreesInc/Miracode",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IdreesInc/Miracode",
+      "target": "fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IdreesInc/Miracode",
+      "target": "ligatures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IdreesInc/Miracode",
+      "target": "minecraft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IdreesInc/Miracode",
+      "target": "typeface",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T08:42:44.613613+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4079
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A sharp, readable, vector-y version of Monocraft, the programming font based on Minecraft",
+    "fork": false,
+    "full_name": "IdreesInc/Miracode",
+    "html_url": "https://github.com/IdreesInc/Miracode",
+    "language": "Python",
+    "pushed_at": "2025-08-05T21:13:43Z",
+    "stargazers_count": 1269,
+    "topics": [
+      "font",
+      "fonts",
+      "ligatures",
+      "minecraft",
+      "typeface"
+    ],
+    "updated_at": "2026-05-06T22:59:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idreesinc/idreesinc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idreesinc/monocraft",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Miracode/total.svg)](https://GitHub.com/IdreesInc/Miracode/releases/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Miracode/total.svg)](https://GitHub.com/IdreesInc/Miracode/releases/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fonts"
+    },
+    {
+      "context_snippet": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Miracode/total.svg)](https://GitHub.com/IdreesInc/Miracode/releases/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ligatures"
+    },
+    {
+      "context_snippet": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Miracode/total.svg)](https://GitHub.com/IdreesInc/Miracode/releases/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minecraft"
+    },
+    {
+      "context_snippet": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Miracode/total.svg)](https://GitHub.com/IdreesInc/Miracode/releases/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typeface"
+    }
+  ]
+}

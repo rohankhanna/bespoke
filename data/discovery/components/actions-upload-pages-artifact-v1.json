@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-pages-artifact@v1",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -132,6 +132,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "dothq/browser-desktop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hugo.yml",
+      "source_repo": "oracle-quickstart/oci-o11y-solutions"
     }
   ]
 }

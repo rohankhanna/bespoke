@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -71,6 +71,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "cucumber/.github"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepset-ai/haystack-integrations"
     }
   ],
   "term": "Community"

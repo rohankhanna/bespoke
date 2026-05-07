@@ -1,7 +1,7 @@
 {
   "component": "crowdin/github-action@5587c43063e52090026857d386174d2599ad323b",
   "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

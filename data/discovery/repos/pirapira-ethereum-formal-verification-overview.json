@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pirapira/ethereum-formal-verification-overview",
+      "target": "fp-ethereum/fp-ethereum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pirapira/ethereum-formal-verification-overview",
+      "target": "ethereum/solidity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pirapira/ethereum-formal-verification-overview",
+      "target": "bitemyapp/ledgertheory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pirapira/ethereum-formal-verification-overview",
+      "target": "ethereum/oyente",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T07:42:37.788167+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11853
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The start page about my efforts around smart contract verification",
+    "fork": false,
+    "full_name": "pirapira/ethereum-formal-verification-overview",
+    "html_url": "https://github.com/pirapira/ethereum-formal-verification-overview",
+    "language": null,
+    "pushed_at": "2022-03-24T10:30:02Z",
+    "stargazers_count": 296,
+    "topics": [],
+    "updated_at": "2026-01-12T15:05:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bitemyapp/ledgertheory",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum/oyente",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum/solidity",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fp-ethereum/fp-ethereum",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

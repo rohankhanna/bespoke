@@ -1,7 +1,7 @@
 {
   "component": "nvim-neorocks/luarocks-tag-release@v7",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -182,6 +182,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "nvim-lua/nvim-lua-plugin-template"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "mrcjkb/neotest-haskell"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mrcjkb/haskell-snippets.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "mrcjkb/haskell-tools.nvim"
     }
   ]
 }

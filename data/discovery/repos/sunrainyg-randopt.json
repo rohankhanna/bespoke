@@ -1,0 +1,147 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sunrainyg/RandOpt",
+      "target": "black-box-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sunrainyg/RandOpt",
+      "target": "ensemble-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sunrainyg/RandOpt",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sunrainyg/RandOpt",
+      "target": "lora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sunrainyg/RandOpt",
+      "target": "neuroevolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sunrainyg/RandOpt",
+      "target": "post-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sunrainyg/RandOpt",
+      "target": "reasoning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sunrainyg/RandOpt",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T09:23:29.008392+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2032
+    },
+    {
+      "path": "requirements.txt",
+      "size": 110
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official Codebase for \"Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights\"",
+    "fork": false,
+    "full_name": "sunrainyg/RandOpt",
+    "html_url": "https://github.com/sunrainyg/RandOpt",
+    "language": "Python",
+    "pushed_at": "2026-04-02T02:49:18Z",
+    "stargazers_count": 584,
+    "topics": [
+      "black-box-optimization",
+      "ensemble-learning",
+      "large-language-models",
+      "llm",
+      "lora",
+      "neuroevolution",
+      "post-training",
+      "reasoning",
+      "transformers"
+    ],
+    "updated_at": "2026-05-01T04:55:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "black-box-optimization"
+    },
+    {
+      "context_snippet": "**Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ensemble-learning"
+    },
+    {
+      "context_snippet": "**Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "**Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lora"
+    },
+    {
+      "context_snippet": "**Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neuroevolution"
+    },
+    {
+      "context_snippet": "**Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "post-training"
+    },
+    {
+      "context_snippet": "**Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reasoning"
+    },
+    {
+      "context_snippet": "**Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

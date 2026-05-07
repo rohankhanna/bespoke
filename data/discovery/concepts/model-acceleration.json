@@ -43,6 +43,30 @@
       "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
       "status": "candidate-context",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternScience/AdaptiveDiffusion",
+      "status": "candidate-context",
+      "text": "[NeurIPS'24] Training-Free Adaptive Diffusion with Bounded Difference Approximation Strategy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternScience/AdaptiveDiffusion",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2410.09873-b31b1b.svg)](https://arxiv.org/abs/2410.09873)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xuyang-liu16/Awesome-Token-level-Model-Compression",
+      "status": "candidate-context",
+      "text": "\ud83d\udcda Collection of token-level model compression resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuyang-liu16/Awesome-Token-level-Model-Compression",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +85,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternScience/AdaptiveDiffusion",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2410.09873-b31b1b.svg)](https://arxiv.org/abs/2410.09873)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuyang-liu16/Awesome-Token-level-Model-Compression",
       "status": "candidate",
       "text": "<div align=center>"
     }
@@ -88,11 +124,23 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "InternScience/AdaptiveDiffusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Token-level-Model-Compression"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

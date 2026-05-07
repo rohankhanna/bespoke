@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Command line binaries for the TLA+ language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "tla-bin is a wrapper around https://github.com/tlaplus/tlaplus that provides"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "tla-bin is a wrapper around https://github.com/tlaplus/tlaplus that provides"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mit-license",
+      "sense_id": "mit-license#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mit-license",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mit-license",
+  "observation_id": "1473bda929eff9c4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T07:09:11.945528+00:00",
+  "observed_text": "mit-license",
+  "source_context_snippet": "tla-bin is a wrapper around https://github.com/tlaplus/tlaplus that provides",
+  "source_file": null,
+  "source_repo": "pmer/tla-bin",
+  "source_repo_description": "Command line binaries for the TLA+ language"
+}

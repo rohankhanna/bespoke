@@ -739,6 +739,18 @@
       "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
       "status": "candidate-context",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "360CVGroup/Qihoo-T2X",
+      "status": "candidate-context",
+      "text": "Efficient DiT architecture for text2any tasks, ICLR2025"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "360CVGroup/Qihoo-T2X",
+      "status": "candidate-context",
+      "text": "This is the official reproduction of [Qihoo-T2X](https://360cvgroup.github.io/Qihoo-T2X/), which represents a groundbreaking DiT architecture paradigm designed for Text-to-Any tasks."
     }
   ],
   "candidate_glosses": [
@@ -1107,6 +1119,12 @@
       "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
       "status": "candidate",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "360CVGroup/Qihoo-T2X",
+      "status": "candidate",
+      "text": "This is the official reproduction of [Qihoo-T2X](https://360cvgroup.github.io/Qihoo-T2X/), which represents a groundbreaking DiT architecture paradigm designed for Text-to-Any tasks."
     }
   ],
   "candidate_related_terms": [],
@@ -1834,11 +1852,35 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "360CVGroup/Qihoo-T2X"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "showlab/VisorGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

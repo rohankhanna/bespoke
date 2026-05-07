@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_code_check.yml",
+      "source_repo": "carla-simulator/scenario_runner",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static_code_check.yml",
+      "source_repo": "carla-simulator/scenario_runner",
+      "target": "Static Code Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test.yml",
+      "source_repo": "carla-simulator/scenario_runner",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_test.yml",
+      "source_repo": "carla-simulator/scenario_runner",
+      "target": "Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carla-simulator/scenario_runner",
+      "target": "carla",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carla-simulator/scenario_runner",
+      "target": "openscenario",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carla-simulator/scenario_runner",
+      "target": "traffic-scenario",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-07T07:09:11.945528+00:00",
+  "source_repo": "carla-simulator/scenario_runner"
+}

@@ -1,7 +1,7 @@
 {
   "component": "JamesIves/github-pages-deploy-action@v4",
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -502,6 +502,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/scheduled-task_update-sponsors.yml",
       "source_repo": "serversideup/financial-freedom"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "emilk/egui_plot"
     }
   ]
 }

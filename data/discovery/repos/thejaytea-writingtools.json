@@ -1,0 +1,102 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theJayTea/WritingTools",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theJayTea/WritingTools",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theJayTea/WritingTools",
+      "target": "grammar-checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theJayTea/WritingTools",
+      "target": "largelanguagemodel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theJayTea/WritingTools",
+      "target": "writing-tool",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T09:22:28.047744+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18546
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The world's smartest system-wide grammar assistant; a better version of the Apple Intelligence Writing Tools. Works on Windows, Linux, & macOS, with the free Gemini API, local LLMs, & more.",
+    "fork": false,
+    "full_name": "theJayTea/WritingTools",
+    "html_url": "https://github.com/theJayTea/WritingTools",
+    "language": "Swift",
+    "pushed_at": "2026-05-06T17:44:39Z",
+    "stargazers_count": 2261,
+    "topics": [
+      "ai",
+      "artificial-intelligence",
+      "gemini",
+      "grammar-checker",
+      "largelanguagemodel",
+      "llm",
+      "writing-tool"
+    ],
+    "updated_at": "2026-05-07T09:11:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> **\ud83c\udf4e Using a Mac? Jump to the macOS (Native Swift Port) section \u2192 [macOS](#macos)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "> **\ud83c\udf4e Using a Mac? Jump to the macOS (Native Swift Port) section \u2192 [macOS](#macos)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    },
+    {
+      "context_snippet": "> **\ud83c\udf4e Using a Mac? Jump to the macOS (Native Swift Port) section \u2192 [macOS](#macos)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grammar-checker"
+    },
+    {
+      "context_snippet": "> **\ud83c\udf4e Using a Mac? Jump to the macOS (Native Swift Port) section \u2192 [macOS](#macos)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "largelanguagemodel"
+    },
+    {
+      "context_snippet": "> **\ud83c\udf4e Using a Mac? Jump to the macOS (Native Swift Port) section \u2192 [macOS](#macos)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "writing-tool"
+    }
+  ]
+}

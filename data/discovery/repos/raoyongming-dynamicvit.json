@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "raoyongming/DynamicViT",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raoyongming/DynamicViT",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raoyongming/DynamicViT",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raoyongming/DynamicViT",
+      "target": "image-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raoyongming/DynamicViT",
+      "target": "vision-transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T10:24:30.459186+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14067
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[NeurIPS 2021] [T-PAMI] DynamicViT: Efficient Vision Transformers with Dynamic Token Sparsification",
+    "fork": false,
+    "full_name": "raoyongming/DynamicViT",
+    "html_url": "https://github.com/raoyongming/DynamicViT",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-07-11T03:03:13Z",
+    "stargazers_count": 659,
+    "topics": [
+      "computer-vision",
+      "deep-learning",
+      "image-classification",
+      "vision-transformers"
+    ],
+    "updated_at": "2026-05-06T15:10:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains PyTorch implementation for DynamicViT (NeurIPS 2021).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This repository contains PyTorch implementation for DynamicViT (NeurIPS 2021).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This repository contains PyTorch implementation for DynamicViT (NeurIPS 2021).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-classification"
+    },
+    {
+      "context_snippet": "This repository contains PyTorch implementation for DynamicViT (NeurIPS 2021).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformers"
+    }
+  ]
+}

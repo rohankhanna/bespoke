@@ -127,6 +127,18 @@
       "source_repo": "lucidrains/soundstorm-pytorch",
       "status": "candidate-context",
       "text": "<img src=\"./soundstorm.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "status": "candidate-context",
+      "text": "Self-host the powerful Chatterbox TTS model. This server offers a user-friendly Web UI, flexible API endpoints (incl. OpenAI compatible), predefined voices, voice cloning, and large audiobook-scale text processing. Runs accelerated on NVIDIA (CUDA), AMD (ROCm), and CPU."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "status": "candidate-context",
+      "text": "**Self-host Resemble AI's [Chatterbox](https://github.com/resemble-ai/chatterbox) open-source TTS family (Original + Multilingual + Turbo) behind an OpenAI\u2011compatible API and a modern Web UI. The complete lineup includes the original high-quality model, multilingual support for \u2026"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "lucidrains/soundstorm-pytorch",
       "status": "candidate",
       "text": "<img src=\"./soundstorm.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devnen/Chatterbox-TTS-Server",
+      "status": "candidate",
+      "text": "**Self-host Resemble AI's [Chatterbox](https://github.com/resemble-ai/chatterbox) open-source TTS family (Original + Multilingual + Turbo) behind an OpenAI\u2011compatible API and a modern Web UI. The complete lineup includes the original high-quality model, multilingual support for \u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -466,11 +484,29 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "devnen/Chatterbox-TTS-Server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunCodec"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

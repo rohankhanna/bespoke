@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -431,6 +431,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "GrapheneOS/Vanadium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "salvadordf/WebView4Delphi"
     }
   ],
   "term": "browser"

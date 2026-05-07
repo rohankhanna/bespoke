@@ -179,6 +179,18 @@
       "source_repo": "stevenvachon/broken-link-checker",
       "status": "candidate-context",
       "text": "> Find broken links, missing images, etc within your HTML."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emilk/egui_plot",
+      "status": "candidate-context",
+      "text": "2D plotting library in Rust for egui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emilk/egui_plot",
+      "status": "candidate-context",
+      "text": "Link checker"
     }
   ],
   "candidate_glosses": [
@@ -265,6 +277,12 @@
       "source_repo": "stevenvachon/broken-link-checker",
       "status": "candidate",
       "text": "> Find broken links, missing images, etc within your HTML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emilk/egui_plot",
+      "status": "candidate",
+      "text": "Link checker"
     }
   ],
   "candidate_related_terms": [
@@ -392,11 +410,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "stevenvachon/broken-link-checker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "emilk/egui_plot"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

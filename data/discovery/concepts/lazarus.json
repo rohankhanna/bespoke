@@ -31,6 +31,18 @@
       "source_repo": "k2-fsa/sherpa-onnx",
       "status": "candidate-context",
       "text": "|Speech recognition| [Speech synthesis][tts-url] | [Source separation][ss-url] |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "salvadordf/WebView4Delphi",
+      "status": "candidate-context",
+      "text": "WebView4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Edge/Chromium-based browsers in applications made with Delphi or Lazarus/FPC for Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salvadordf/WebView4Delphi",
+      "status": "candidate-context",
+      "text": "WebView4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Edge/Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/)."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "k2-fsa/sherpa-onnx",
       "status": "candidate",
       "text": "|Speech recognition| [Speech synthesis][tts-url] | [Source separation][ss-url] |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salvadordf/WebView4Delphi",
+      "status": "candidate",
+      "text": "WebView4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Edge/Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/)."
     }
   ],
   "candidate_related_terms": [
@@ -202,11 +220,23 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "lmbelo/python4delphi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "lmbelo/python4delphi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "salvadordf/WebView4Delphi"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

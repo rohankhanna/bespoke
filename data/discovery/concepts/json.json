@@ -1603,6 +1603,30 @@
       "source_repo": "gookit/config",
       "status": "candidate-context",
       "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/config?style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goccy/go-json",
+      "status": "candidate-context",
+      "text": "Fast JSON encoder/decoder compatible with encoding/json for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goccy/go-json",
+      "status": "candidate-context",
+      "text": "![Go](https://github.com/goccy/go-json/workflows/Go/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-jsonschema/referencing",
+      "status": "candidate-context",
+      "text": "Cross-specification JSON referencing (JSON Schema, OpenAPI, and the one you just made up!)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-jsonschema/referencing",
+      "status": "candidate-context",
+      "text": "==============="
     }
   ],
   "candidate_glosses": [
@@ -2403,6 +2427,18 @@
       "source_repo": "gookit/config",
       "status": "candidate",
       "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/config?style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goccy/go-json",
+      "status": "candidate",
+      "text": "![Go](https://github.com/goccy/go-json/workflows/Go/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-jsonschema/referencing",
+      "status": "candidate",
+      "text": "==============="
     }
   ],
   "candidate_related_terms": [
@@ -3885,11 +3921,59 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "goccy/go-json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "python-jsonschema/referencing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/quotes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": null,
+      "source_repo": "ultrajson/ultrajson"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,179 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cosmos/awesome-cosmos",
+      "target": "agoric/agoric-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cosmos/awesome-cosmos",
+      "target": "berachain/polaris",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cosmos/awesome-cosmos",
+      "target": "blockpane/findaccount",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cosmos/awesome-cosmos",
+      "target": "0x4139/cosmos-discord-faucet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "cosmos/awesome-cosmos",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "cosmos/awesome-cosmos",
+      "target": "Awesome Linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cosmos/awesome-cosmos",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cosmos/awesome-cosmos",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cosmos/awesome-cosmos",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cosmos/awesome-cosmos",
+      "target": "cosmos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cosmos/awesome-cosmos",
+      "target": "cosmos-sdk",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T10:48:58.424379+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20270
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 225
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Collection of Cosmos related resources",
+    "fork": false,
+    "full_name": "cosmos/awesome-cosmos",
+    "html_url": "https://github.com/cosmos/awesome-cosmos",
+    "language": null,
+    "pushed_at": "2026-04-13T09:03:12Z",
+    "stargazers_count": 597,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "blockchain",
+      "cosmos",
+      "cosmos-sdk"
+    ],
+    "updated_at": "2026-04-27T23:45:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0x4139/cosmos-discord-faucet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agoric/agoric-sdk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "berachain/polaris",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blockpane/findaccount",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Awesome Linter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Awesome Linter"
+    },
+    {
+      "context_snippet": "<!--lint disable double-link-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "<!--lint disable double-link-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "<!--lint disable double-link-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "<!--lint disable double-link-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cosmos"
+    },
+    {
+      "context_snippet": "<!--lint disable double-link-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cosmos-sdk"
+    }
+  ]
+}

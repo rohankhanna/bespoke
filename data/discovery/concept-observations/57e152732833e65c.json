@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Hoogle search integration for Telescope"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A telescope plugin for Hoogle."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A telescope plugin for Hoogle."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17560670,
+      "status": "candidate",
+      "text": "asquith"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17560669,
+      "status": "candidate",
+      "text": "asby"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17560668,
+      "status": "candidate",
+      "text": "ashworth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17560667,
+      "status": "candidate",
+      "text": "hesketh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17560666,
+      "status": "candidate",
+      "text": "askwith"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "haskell",
+      "sense_id": "haskell#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "haskell",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "haskell",
+  "observation_id": "57e152732833e65c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T07:09:11.945528+00:00",
+  "observed_text": "haskell",
+  "source_context_snippet": "A telescope plugin for Hoogle.",
+  "source_file": null,
+  "source_repo": "luc-tielen/telescope_hoogle",
+  "source_repo_description": "Hoogle search integration for Telescope"
+}

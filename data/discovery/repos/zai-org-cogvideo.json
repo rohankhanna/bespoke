@@ -65,7 +65,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T03:24:38.350256+00:00",
+  "fetched_at": "2026-05-07T09:45:38.321112+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -90,7 +90,7 @@
     "html_url": "https://github.com/zai-org/CogVideo",
     "language": "Python",
     "pushed_at": "2025-11-04T11:19:04Z",
-    "stargazers_count": 12704,
+    "stargazers_count": 12706,
     "topics": [
       "cogvideox",
       "image-to-video",
@@ -99,7 +99,7 @@
       "text-to-video",
       "video-generation"
     ],
-    "updated_at": "2026-05-07T03:03:49Z"
+    "updated_at": "2026-05-07T07:22:41Z"
   },
   "repo_links": [
     {

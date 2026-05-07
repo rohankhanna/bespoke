@@ -1,12 +1,17 @@
 {
   "component": "nosborn/github-action-markdown-cli@v3.2.0",
   "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "pkgxdev/bpb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "evmos/docs"
     }
   ]
 }

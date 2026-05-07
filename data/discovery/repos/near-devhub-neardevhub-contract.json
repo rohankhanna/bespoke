@@ -23,13 +23,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "NEAR-DevHub/neardevhub-contract",
-      "target": "near-devhub/neardevhub-bos",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "NEAR-DevHub/neardevhub-contract",
@@ -79,7 +72,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T01:56:16.040781+00:00",
+  "fetched_at": "2026-05-07T10:49:02.208406+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -115,13 +108,7 @@
     ],
     "updated_at": "2025-12-05T12:54:36Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "near-devhub/neardevhub-bos",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Release",

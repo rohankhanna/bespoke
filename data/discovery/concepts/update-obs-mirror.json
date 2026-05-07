@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update OBS mirror"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jstkdng/aur",
+      "status": "candidate-context",
+      "text": "AUR packages I maintain and co-maintain"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jstkdng/aur",
+      "status": "candidate-context",
+      "text": "Update OBS mirror"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jstkdng/aur",
+      "status": "candidate",
+      "text": "Update OBS mirror"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17799,
+      "status": "candidate",
+      "text": "interface"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17547,
+      "status": "candidate",
+      "text": "see"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9902,
+      "status": "candidate",
+      "text": "real-time"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9755,
+      "status": "candidate",
+      "text": "nudiustertian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9755,
+      "status": "candidate",
+      "text": "pucelage"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update OBS mirror",
+  "concept_id": "update-obs-mirror",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/mirror.yml",
+      "source_repo": "jstkdng/aur"
+    }
+  ],
+  "first_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update OBS mirror",
+      "sense_id": "update-obs-mirror#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

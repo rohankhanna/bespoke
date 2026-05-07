@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WisdomShell/codeshell",
+      "target": "wisdomshell/llama_cpp_for_codeshell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WisdomShell/codeshell",
+      "target": "wisdomshell/codeshell-vscode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WisdomShell/codeshell",
+      "target": "wisdomshell/codeshell-intellij",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T08:40:26.835870+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7940
+    },
+    {
+      "path": "requirements.txt",
+      "size": 34
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A series of code large language models developed by PKU-KCL",
+    "fork": false,
+    "full_name": "WisdomShell/codeshell",
+    "html_url": "https://github.com/WisdomShell/codeshell",
+    "language": "Python",
+    "pushed_at": "2024-07-18T10:20:27Z",
+    "stargazers_count": 1631,
+    "topics": [],
+    "updated_at": "2026-05-06T07:32:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wisdomshell/codeshell-intellij",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wisdomshell/codeshell-vscode",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wisdomshell/llama_cpp_for_codeshell",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

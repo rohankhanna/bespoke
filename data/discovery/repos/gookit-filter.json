@@ -1,0 +1,303 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "docker://morphy/revive-action:v2.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "reviewdog/action-staticcheck@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gookit/filter",
+      "target": "gookit/validate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gookit/filter",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gookit/filter",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gookit/filter",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gookit/filter",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gookit/filter",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "gookit/filter",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "gookit/filter",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "gookit/filter",
+      "target": "docker://morphy/revive-action:v2.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "gookit/filter",
+      "target": "reviewdog/action-staticcheck@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "gookit/filter",
+      "target": "Unit-Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gookit/filter",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gookit/filter",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gookit/filter",
+      "target": "Tag-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/filter",
+      "target": "converter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/filter",
+      "target": "data-conversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/filter",
+      "target": "data-filtering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/filter",
+      "target": "filter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/filter",
+      "target": "golang-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/filter",
+      "target": "sanitization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T08:45:57.437419+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3749
+    },
+    {
+      "path": "go.mod",
+      "size": 211
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2721
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 1558
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1299
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u23f3 Provide filtering, sanitizing, and conversion of Golang data. \u63d0\u4f9b\u5bf9Golang\u6570\u636e\u7684\u8fc7\u6ee4\uff0c\u51c0\u5316\uff0c\u8f6c\u6362\u3002",
+    "fork": false,
+    "full_name": "gookit/filter",
+    "html_url": "https://github.com/gookit/filter",
+    "language": "Go",
+    "pushed_at": "2026-05-06T03:19:00Z",
+    "stargazers_count": 151,
+    "topics": [
+      "converter",
+      "data-conversion",
+      "data-filtering",
+      "filter",
+      "golang-package",
+      "sanitization"
+    ],
+    "updated_at": "2026-05-06T03:18:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gookit/validate",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Unit-Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "term": "Unit-Tests"
+    },
+    {
+      "context_snippet": "Tag-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Tag-release"
+    },
+    {
+      "context_snippet": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/gookit/filter)](https://github.com/gookit/filter)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "converter"
+    },
+    {
+      "context_snippet": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/gookit/filter)](https://github.com/gookit/filter)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-conversion"
+    },
+    {
+      "context_snippet": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/gookit/filter)](https://github.com/gookit/filter)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-filtering"
+    },
+    {
+      "context_snippet": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/gookit/filter)](https://github.com/gookit/filter)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filter"
+    },
+    {
+      "context_snippet": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/gookit/filter)](https://github.com/gookit/filter)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang-package"
+    },
+    {
+      "context_snippet": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/gookit/filter)](https://github.com/gookit/filter)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sanitization"
+    }
+  ]
+}

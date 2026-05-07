@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Rust crate"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lance-format/lance",
+      "status": "candidate-context",
+      "text": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming.."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lance-format/lance",
+      "status": "candidate-context",
+      "text": "Publish Rust crate"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lance-format/lance",
+      "status": "candidate",
+      "text": "Publish Rust crate"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18041,
+      "status": "candidate",
+      "text": "helminthiasis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17971,
+      "status": "candidate",
+      "text": "tub"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17948,
+      "status": "candidate",
+      "text": "disease"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10152,
+      "status": "candidate",
+      "text": "bin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10152,
+      "status": "candidate",
+      "text": "box"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Rust crate",
+  "concept_id": "publish-rust-crate",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/cargo-publish.yml",
+      "source_repo": "lance-format/lance"
+    }
+  ],
+  "first_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Rust crate",
+      "sense_id": "publish-rust-crate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

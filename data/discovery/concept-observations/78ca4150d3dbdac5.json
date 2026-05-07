@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rosetta implementation for cosmos zones"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build rosetta"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build rosetta"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12552,
+      "status": "candidate",
+      "text": "glyph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12311,
+      "status": "candidate",
+      "text": "basalt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12311,
+      "status": "candidate",
+      "text": "egypt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12311,
+      "status": "candidate",
+      "text": "greek"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12311,
+      "status": "candidate",
+      "text": "stone"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build rosetta",
+      "sense_id": "build-rosetta#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-rosetta",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-rosetta",
+  "observation_id": "78ca4150d3dbdac5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-07T07:09:11.945528+00:00",
+  "observed_text": "Build rosetta",
+  "source_context_snippet": "Build rosetta",
+  "source_file": ".github/workflows/build.yml",
+  "source_repo": "cosmos/rosetta",
+  "source_repo_description": "Rosetta implementation for cosmos zones"
+}

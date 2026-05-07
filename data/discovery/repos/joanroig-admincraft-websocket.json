@@ -1,0 +1,327 @@
+{
+  "components": [
+    {
+      "component": "jsonwebtoken",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ws",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nodemon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-docker-image.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-docker-image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-docker-image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-docker-image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-docker-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-docker-image.yml"
+    },
+    {
+      "component": "peter-evans/dockerhub-description@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-docker-image.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-version-and-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "joanroig/admincraft-websocket",
+      "target": "jsonwebtoken",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "joanroig/admincraft-websocket",
+      "target": "ws",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "joanroig/admincraft-websocket",
+      "target": "nodemon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-docker-image.yml",
+      "source_repo": "joanroig/admincraft-websocket",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-docker-image.yml",
+      "source_repo": "joanroig/admincraft-websocket",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-docker-image.yml",
+      "source_repo": "joanroig/admincraft-websocket",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-docker-image.yml",
+      "source_repo": "joanroig/admincraft-websocket",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-docker-image.yml",
+      "source_repo": "joanroig/admincraft-websocket",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-docker-image.yml",
+      "source_repo": "joanroig/admincraft-websocket",
+      "target": "peter-evans/dockerhub-description@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-docker-image.yml",
+      "source_repo": "joanroig/admincraft-websocket",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-release-docker-image.yml",
+      "source_repo": "joanroig/admincraft-websocket",
+      "target": "Build and Release Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-version-and-release.yml",
+      "source_repo": "joanroig/admincraft-websocket",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-version-and-release.yml",
+      "source_repo": "joanroig/admincraft-websocket",
+      "target": "Bump Version & Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joanroig/admincraft-websocket",
+      "target": "admincraft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joanroig/admincraft-websocket",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joanroig/admincraft-websocket",
+      "target": "docker-minecraft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joanroig/admincraft-websocket",
+      "target": "minecraft-bedrock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joanroig/admincraft-websocket",
+      "target": "minecraft-docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joanroig/admincraft-websocket",
+      "target": "minecraft-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joanroig/admincraft-websocket",
+      "target": "minecraft-server-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joanroig/admincraft-websocket",
+      "target": "websocket",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T08:42:51.312506+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7206
+    },
+    {
+      "path": "Dockerfile",
+      "size": 423
+    },
+    {
+      "path": "package.json",
+      "size": 821
+    },
+    {
+      "path": ".github/workflows/build-and-release-docker-image.yml",
+      "size": 4299
+    },
+    {
+      "path": ".github/workflows/bump-version-and-release.yml",
+      "size": 1225
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udef0\ufe0f WebSocket server to control Minecraft Bedrock Dockerized servers with Admincraft.",
+    "fork": false,
+    "full_name": "joanroig/admincraft-websocket",
+    "html_url": "https://github.com/joanroig/admincraft-websocket",
+    "language": "JavaScript",
+    "pushed_at": "2025-09-09T21:14:25Z",
+    "stargazers_count": 8,
+    "topics": [
+      "admincraft",
+      "docker",
+      "docker-minecraft",
+      "minecraft-bedrock",
+      "minecraft-docker",
+      "minecraft-server",
+      "minecraft-server-management",
+      "websocket"
+    ],
+    "updated_at": "2025-11-02T04:15:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Release Docker Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-release-docker-image.yml",
+      "term": "Build and Release Docker Image"
+    },
+    {
+      "context_snippet": "Bump Version & Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-version-and-release.yml",
+      "term": "Bump Version & Release"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "admincraft"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-minecraft"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minecraft-bedrock"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minecraft-docker"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minecraft-server"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minecraft-server-management"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":chains: A Framework for Building High Value Public Blockchains :sparkles:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Warn about consensus code changes\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Warn about consensus code changes\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46754,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46729,
+      "status": "candidate",
+      "text": "oppose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44279,
+      "status": "candidate",
+      "text": "pool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43745,
+      "status": "candidate",
+      "text": "mediate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43718,
+      "status": "candidate",
+      "text": "beat"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Warn about consensus code changes",
+      "sense_id": "warn-about-consensus-code-changes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "warn-about-consensus-code-changes",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "warn-about-consensus-code-changes",
+  "observation_id": "26cce6a54ef74439",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-07T07:09:11.945528+00:00",
+  "observed_text": "Warn about consensus code changes",
+  "source_context_snippet": "\"Warn about consensus code changes\"",
+  "source_file": ".github/workflows/consensuswarn.yml",
+  "source_repo": "osmosis-labs/cosmos-sdk",
+  "source_repo_description": ":chains: A Framework for Building High Value Public Blockchains :sparkles:"
+}

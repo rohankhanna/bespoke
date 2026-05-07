@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy Widgets to Testnet Dev"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "status": "candidate-context",
+      "text": "DevHub Portal Product UI (Hosted BOS) \u2013\u00a0Includes other instances (e.g. Infrastructure, Events)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "status": "candidate-context",
+      "text": "Deploy Widgets to Testnet Dev"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NEAR-DevHub/neardevhub-bos",
+      "status": "candidate",
+      "text": "Deploy Widgets to Testnet Dev"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11034,
+      "status": "candidate",
+      "text": "array"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11034,
+      "status": "candidate",
+      "text": "arrayed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10911,
+      "status": "candidate",
+      "text": "aad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10911,
+      "status": "candidate",
+      "text": "abditory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10911,
+      "status": "candidate",
+      "text": "abutment"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Widgets to Testnet Dev",
+  "concept_id": "deploy-widgets-to-testnet-dev",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/deploy-dev-testnet.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-bos"
+    }
+  ],
+  "first_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Widgets to Testnet Dev",
+      "sense_id": "deploy-widgets-to-testnet-dev#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

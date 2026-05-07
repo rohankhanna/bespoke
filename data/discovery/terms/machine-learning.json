@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -2361,6 +2361,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "KaiyangZhou/deep-person-reid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepset-ai/haystack-integrations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/Dassl.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "lance-format/lance"
     }
   ],
   "term": "machine-learning"

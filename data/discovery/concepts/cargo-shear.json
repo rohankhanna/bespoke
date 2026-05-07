@@ -31,6 +31,18 @@
       "source_repo": "rerun-io/rerun",
       "status": "candidate-context",
       "text": "Cargo Shear"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emilk/egui_plot",
+      "status": "candidate-context",
+      "text": "2D plotting library in Rust for egui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emilk/egui_plot",
+      "status": "candidate-context",
+      "text": "Cargo Shear"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "rerun-io/rerun",
+      "status": "candidate",
+      "text": "Cargo Shear"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emilk/egui_plot",
       "status": "candidate",
       "text": "Cargo Shear"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": ".github/workflows/cargo_shear.yml",
       "source_repo": "rerun-io/rerun"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T07:09:11.945528+00:00",
+      "source_file": ".github/workflows/cargo_shear.yml",
+      "source_repo": "emilk/egui_plot"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "lexical_providers": [
     "datamuse"
   ],
