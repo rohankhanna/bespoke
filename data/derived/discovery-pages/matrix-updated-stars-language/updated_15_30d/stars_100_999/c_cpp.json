@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 485,
-    "concepts": 487,
-    "observations": 489,
-    "repos": 106,
-    "terms": 484
+    "components": 508,
+    "concepts": 512,
+    "observations": 514,
+    "repos": 111,
+    "terms": 509
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/Imath",
     "actboy168/bee.lua",
@@ -34,8 +34,10 @@
     "cjlin1/libmf",
     "cloudwu/ltask",
     "coin-or/Cbc",
+    "corporateshark/lightweightvk",
     "cusplibrary/cusplibrary",
     "DavidKinder/Inform6",
+    "DOCGroup/ACE_TAO",
     "DolbyLaboratories/dlb_mp4base",
     "eddelbuettel/rcppsimdjson",
     "elixir-sqlite/exqlite",
@@ -85,6 +87,7 @@
     "mitsuba-renderer/drjit-core",
     "ml-explore/mlx-c",
     "mybigday/llama.rn",
+    "mysql/mysql-workbench",
     "NetHack-LE/nle",
     "nfrechette/rtm",
     "NiklasRosenstein/pbzx",
@@ -102,6 +105,7 @@
     "powturbo/TurboBench",
     "proxytunnel/proxytunnel",
     "pyg-team/pyg-lib",
+    "qbs/qbs",
     "rapidsai/rmm",
     "raylib-extras/rlImGui",
     "roboception/cvkit",
@@ -116,6 +120,7 @@
     "triton-inference-server/dali_backend",
     "triton-inference-server/python_backend",
     "usdot-fhwa-stol/carma-platform",
+    "uxlfoundation/oneCCL",
     "wdas/ptex",
     "WojciechMula/toys",
     "xiph/vorbis",

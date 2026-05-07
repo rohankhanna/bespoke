@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 823,
-    "concepts": 211,
-    "observations": 211,
+    "components": 826,
+    "concepts": 215,
+    "observations": 215,
     "repos": 56,
-    "terms": 211
+    "terms": 215
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "ahmadnassri/node-glob-promise",
     "alexellis/arkade-get",
-    "andylockran/spectral-aws-apigateway-ruleset",
     "berty/www.berty.tech",
     "bmad-code-org/bmad-method-test-architecture-enterprise",
     "bmad-code-org/bmad-module-creative-intelligence-suite",
@@ -45,6 +44,7 @@
     "ipfs/js-ipfs-utils",
     "itsrishika/payment-bypass-bug-lab",
     "jasmine/jasmine-browser-runner",
+    "locize/i18next-locize-backend",
     "locize/locize-cli",
     "mapbox/node-srs",
     "mapbox/node-tilejson",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 756,
-    "concepts": 150,
-    "observations": 150,
-    "repos": 29,
-    "terms": 150
+    "components": 730,
+    "concepts": 145,
+    "observations": 145,
+    "repos": 28,
+    "terms": 145
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "abaplint/transpiler",
     "aggre/ullr",
     "Airfooox/cron-validate",
     "carbon-design-system/carbon-preprocess-svelte",
-    "coasys/flux",
     "csm-actions/approve-pr-action",
     "csm-actions/securefix-action",
     "forcedotcom/agents",
@@ -31,10 +30,10 @@
     "intlify/vue-i18n-extensions",
     "jbaubree/vite-plugin-pages-sitemap",
     "jest-community/eslint-plugin-jest-extended",
+    "julia-actions/install-juliaup",
     "maplibre/maplibre-gl-inspect",
     "microsoft/Agents-for-js",
     "nuxt-modules/emotion",
-    "obsidianmd/eslint-plugin",
     "ogx-ai/ogx-client-typescript",
     "prefix-dev/setup-pixi",
     "rapideditor/location-conflation",

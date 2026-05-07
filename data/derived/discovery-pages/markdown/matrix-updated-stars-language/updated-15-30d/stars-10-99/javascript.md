@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 56
-- terms: 211
-- components: 823
-- concepts: 211
-- observations: 211
+- terms: 215
+- components: 826
+- concepts: 215
+- observations: 215
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [locize/i18next-locize-backend](https://github.com/locize/i18next-locize-backend) | 78 | 2026-04-23T06:13:08Z | JavaScript | Infrastructure/tooling | 6 | 21 | 6 | 6 |
 | [mypyc/mypy_mypyc-wheels](https://github.com/mypyc/mypy_mypyc-wheels) | 21 | 2026-04-22T23:38:28Z | JavaScript | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [i18next/i18next-chained-backend](https://github.com/i18next/i18next-chained-backend) | 76 | 2026-04-22T21:25:11Z | JavaScript | Unknown | 0 | 23 | 0 | 0 |
 | [i18next/i18next-multiload-backend-adapter](https://github.com/i18next/i18next-multiload-backend-adapter) | 19 | 2026-04-22T17:59:55Z | JavaScript | Unknown | 0 | 18 | 0 | 0 |
@@ -81,7 +82,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [wemake-services/wemake-frontend-styleguide](https://github.com/wemake-services/wemake-frontend-styleguide) | 82 | 2026-04-08T19:38:48Z | JavaScript | Infrastructure/tooling | 7 | 34 | 7 | 7 |
 | [coderaiser/supertape](https://github.com/coderaiser/supertape) | 26 | 2026-04-08T19:23:32Z | JavaScript | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 | [berty/www.berty.tech](https://github.com/berty/www.berty.tech) | 39 | 2026-04-07T22:00:26Z | JavaScript | Unknown | 2 | 0 | 2 | 2 |
-| [andylockran/spectral-aws-apigateway-ruleset](https://github.com/andylockran/spectral-aws-apigateway-ruleset) | 20 | 2026-04-07T08:19:02Z | JavaScript | Infrastructure/tooling | 2 | 18 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -92,6 +92,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [peergos/web-ui](https://github.com/Peergos/web-ui) | 94 | 2026-04-18T20:22:02Z | JavaScript | Infrastructure/tooling | 7 | 13 | 0 | 0 |
 | [scaleway/serverless-scaleway-functions](https://github.com/scaleway/serverless-scaleway-functions) | 89 | 2026-04-14T15:52:10Z | JavaScript | Infrastructure/tooling | 12 | 15 | 12 | 12 |
 | [wemake-services/wemake-frontend-styleguide](https://github.com/wemake-services/wemake-frontend-styleguide) | 82 | 2026-04-08T19:38:48Z | JavaScript | Infrastructure/tooling | 7 | 34 | 7 | 7 |
+| [locize/i18next-locize-backend](https://github.com/locize/i18next-locize-backend) | 78 | 2026-04-23T06:13:08Z | JavaScript | Infrastructure/tooling | 6 | 21 | 6 | 6 |
 | [hectorm/chafa-wasm](https://github.com/hectorm/chafa-wasm) | 77 | 2026-04-13T18:08:40Z | JavaScript | CLI | 11 | 27 | 11 | 11 |
 | [i18next/i18next-chained-backend](https://github.com/i18next/i18next-chained-backend) | 76 | 2026-04-22T21:25:11Z | JavaScript | Unknown | 0 | 23 | 0 | 0 |
 | [validator/gulp-html](https://github.com/validator/gulp-html) | 73 | 2026-04-10T03:25:45Z | JavaScript | Infrastructure/tooling | 10 | 12 | 10 | 10 |
@@ -127,7 +128,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ehmicky/get-node](https://github.com/ehmicky/get-node) | 22 | 2026-04-11T15:03:29Z | JavaScript | CLI | 14 | 22 | 15 | 15 |
 | [mypyc/mypy_mypyc-wheels](https://github.com/mypyc/mypy_mypyc-wheels) | 21 | 2026-04-22T23:38:28Z | JavaScript | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [Taritsyn/DartSassHost](https://github.com/Taritsyn/DartSassHost) | 21 | 2026-04-20T16:29:40Z | JavaScript | Unknown | 4 | 0 | 4 | 4 |
-| [andylockran/spectral-aws-apigateway-ruleset](https://github.com/andylockran/spectral-aws-apigateway-ruleset) | 20 | 2026-04-07T08:19:02Z | JavaScript | Infrastructure/tooling | 2 | 18 | 2 | 2 |
 | [i18next/i18next-multiload-backend-adapter](https://github.com/i18next/i18next-multiload-backend-adapter) | 19 | 2026-04-22T17:59:55Z | JavaScript | Unknown | 0 | 18 | 0 | 0 |
 | [erichlof/AntiGravity-Pool](https://github.com/erichlof/AntiGravity-Pool) | 19 | 2026-04-17T19:36:27Z | JavaScript | CLI | 0 | 0 | 0 | 0 |
 | [itsrishika/payment-bypass-bug-lab](https://github.com/ItsRishika/Payment-bypass-bug-lab) | 18 | 2026-04-19T11:42:16Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |

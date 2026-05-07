@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · C/C++
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 80
-- terms: 97
-- components: 158
-- concepts: 98
-- observations: 98
+- repos: 81
+- terms: 99
+- components: 164
+- concepts: 100
+- observations: 100
 
 ## Static behavior
 
@@ -34,6 +34,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [usdot-fhwa-stol/carma-ssc-interface-wrapper](https://github.com/usdot-fhwa-stol/carma-ssc-interface-wrapper) | 2 | 2025-09-12T19:40:10Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [nativium/nativium-modules](https://github.com/nativium/nativium-modules) | 1 | 2025-09-04T20:54:54Z | C/C++ | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [nativium/nativium-http-server](https://github.com/nativium/nativium-http-server) | 1 | 2025-08-30T02:59:46Z | C/C++ | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [hfp/libxsmm](https://github.com/hfp/libxsmm) | 3 | 2025-08-21T07:33:44Z | C/C++ | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [tpoechtrager/apple-libdispatch](https://github.com/tpoechtrager/apple-libdispatch) | 3 | 2025-08-16T10:38:25Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [tob-challenges/example-libpng](https://github.com/tob-challenges/example-libpng) | 1 | 2025-07-16T18:44:08Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [Cydral/dlib-models-training](https://github.com/Cydral/dlib-models-training) | 6 | 2025-06-24T11:18:48Z | C/C++ | Model/data | 0 | 0 | 0 | 0 |
@@ -152,6 +153,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [axxie/far2l-jumpword](https://github.com/axxie/far2l-jumpword) | 4 | 2023-08-27T14:10:53Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [mah0x211/lua-libmdbx](https://github.com/mah0x211/lua-libmdbx) | 4 | 2023-01-31T06:17:38Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [infradig/imath](https://github.com/infradig/imath) | 4 | 2022-01-07T00:01:21Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [hfp/libxsmm](https://github.com/hfp/libxsmm) | 3 | 2025-08-21T07:33:44Z | C/C++ | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [tpoechtrager/apple-libdispatch](https://github.com/tpoechtrager/apple-libdispatch) | 3 | 2025-08-16T10:38:25Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [a-n-t-h-o-n-y/zzz](https://github.com/a-n-t-h-o-n-y/zzz) | 3 | 2025-04-13T04:52:17Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [jdlph/MIOCSV](https://github.com/jdlph/MIOCSV) | 3 | 2024-12-06T02:08:37Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |

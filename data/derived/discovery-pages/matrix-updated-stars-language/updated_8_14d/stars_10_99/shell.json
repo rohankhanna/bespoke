@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 89,
-    "concepts": 80,
-    "observations": 80,
-    "repos": 19,
-    "terms": 78
+    "components": 88,
+    "concepts": 76,
+    "observations": 76,
+    "repos": 18,
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "acmesh-official/acmetest",
     "Azure/aaz",
@@ -26,7 +26,6 @@
     "envoyproxy/examples",
     "helidon-io/helidon-examples",
     "honwen/openwrt-dnsmasq-extra",
-    "iterate-ch/profiles",
     "pkgxdev/mash",
     "postmodern/ruby-versions",
     "quarkusio/quarkus-ecosystem-ci",

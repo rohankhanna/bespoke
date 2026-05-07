@@ -1,6 +1,6 @@
 # 0 stars
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-05-07T05:41:41.352230+00:00`
 
 ## Counts
 
-- repos: 812
-- terms: 1141
-- components: 2751
-- concepts: 1110
-- observations: 1114
+- repos: 820
+- terms: 1151
+- components: 2778
+- concepts: 1120
+- observations: 1124
 
 ## Static behavior
 
@@ -237,6 +237,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/brainstorm-solutions-plugin](https://github.com/danielrosehill/brainstorm-solutions-plugin) | 0 | 2026-04-10T12:29:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [8144225309/superscalar-docs](https://github.com/8144225309/superscalar-docs) | 0 | 2026-04-09T21:20:43Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [ashton/neotest-gleam-unitest](https://github.com/ashton/neotest-gleam-unitest) | 0 | 2026-04-09T20:27:40Z | Other | Unknown | 8 | 0 | 8 | 8 |
+| [JuliaBinaryWrappers/JpegTurbo_jll.jl](https://github.com/JuliaBinaryWrappers/JpegTurbo_jll.jl) | 0 | 2026-04-09T15:33:29Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [JuliaBinaryWrappers/libaec_jll.jl](https://github.com/JuliaBinaryWrappers/libaec_jll.jl) | 0 | 2026-04-09T15:05:24Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [VOICEVOX/preview-pages](https://github.com/VOICEVOX/preview-pages) | 0 | 2026-04-09T11:24:32Z | TypeScript | Infrastructure/tooling | 4 | 43 | 4 | 4 |
 | [stdlib-js/dstructs-struct](https://github.com/stdlib-js/dstructs-struct) | 0 | 2026-04-09T03:55:27Z | JavaScript | Infrastructure/tooling | 18 | 75 | 18 | 18 |
 | [danielrosehill/Agent-Journal](https://github.com/danielrosehill/Agent-Journal) | 0 | 2026-04-08T14:15:54Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
@@ -436,6 +438,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rose-pine/homebrew-tap](https://github.com/rose-pine/homebrew-tap) | 0 | 2025-11-19T19:53:51Z | Shell | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [hermit-os/newlib](https://github.com/hermit-os/newlib) | 0 | 2025-11-19T12:32:21Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [datafuse-extras/arrow-udf](https://github.com/datafuse-extras/arrow-udf) | 0 | 2025-11-17T10:18:52Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
+| [JuliaBinaryWrappers/brotli_jll.jl](https://github.com/JuliaBinaryWrappers/brotli_jll.jl) | 0 | 2025-11-15T16:48:29Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [openobserve/promql-parser](https://github.com/openobserve/promql-parser) | 0 | 2025-11-14T08:05:47Z | Rust | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [radashi-org/radashi-canary](https://github.com/radashi-org/radashi-canary) | 0 | 2025-11-13T19:22:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/A-Better-Jobs-Platform-Notes](https://github.com/danielrosehill/A-Better-Jobs-Platform-Notes) | 0 | 2025-11-11T13:25:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -488,6 +491,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Mooncake-Labs/rust-postgres](https://github.com/Mooncake-Labs/rust-postgres) | 0 | 2025-09-03T23:52:42Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [datafuse-extras/recursive](https://github.com/datafuse-extras/recursive) | 0 | 2025-08-28T16:13:28Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [countries/country_select_demo](https://github.com/countries/country_select_demo) | 0 | 2025-08-28T15:39:23Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [osmosis-labs/block-sdk](https://github.com/osmosis-labs/block-sdk) | 0 | 2025-08-22T10:44:02Z | Unknown | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [JuliaBinaryWrappers/Fontconfig_jll.jl](https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl) | 0 | 2025-08-19T16:54:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [MaterializeInc/async-compression](https://github.com/MaterializeInc/async-compression) | 0 | 2025-08-18T17:47:41Z | Rust | Infrastructure/tooling | 8 | 8 | 8 | 8 |
 | [boundless-xyz/reth](https://github.com/boundless-xyz/reth) | 0 | 2025-08-18T02:17:38Z | Rust | Infrastructure/tooling | 7 | 10 | 7 | 7 |
@@ -548,6 +552,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaBinaryWrappers/FriBidi_jll.jl](https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl) | 0 | 2025-04-04T22:49:01Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [cmacdonald/colbert](https://github.com/cmacdonald/ColBERT) | 0 | 2025-04-03T17:06:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [abiondevelopment/external-dns-webhook-abion](https://github.com/abiondevelopment/external-dns-webhook-abion) | 0 | 2025-03-31T11:40:01Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
+| [JuliaBinaryWrappers/snappy_jll.jl](https://github.com/JuliaBinaryWrappers/snappy_jll.jl) | 0 | 2025-03-27T23:51:36Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [assignUser/delocate](https://github.com/assignUser/delocate) | 0 | 2025-03-26T02:20:32Z | Unknown | Infrastructure/tooling | 0 | 9 | 0 | 0 |
 | [CBenoit/diplomat](https://github.com/CBenoit/diplomat) | 0 | 2025-03-25T22:17:05Z | Rust | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [AlmaLinux/errata2osv](https://github.com/AlmaLinux/errata2osv) | 0 | 2025-03-25T09:22:24Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -575,6 +580,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [srdtrk/ibc-rs](https://github.com/srdtrk/ibc-rs) | 0 | 2025-02-09T17:26:25Z | Rust | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [tedsteen/puffin](https://github.com/tedsteen/puffin) | 0 | 2025-02-06T13:28:55Z | Unknown | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [JuliaBinaryWrappers/Bzip2_jll.jl](https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl) | 0 | 2025-01-31T16:01:41Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [JuliaBinaryWrappers/Thrift_jll.jl](https://github.com/JuliaBinaryWrappers/Thrift_jll.jl) | 0 | 2025-01-30T12:22:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [nugine/simd-benches](https://github.com/Nugine/simd-benches) | 0 | 2025-01-29T16:04:35Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [JuliaBinaryWrappers/boost_jll.jl](https://github.com/JuliaBinaryWrappers/boost_jll.jl) | 0 | 2025-01-28T02:39:44Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/Libiconv_jll.jl](https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl) | 0 | 2025-01-13T13:15:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -583,6 +589,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Freed-Wu/coc-write-good](https://github.com/Freed-Wu/coc-write-good) | 0 | 2025-01-07T08:51:04Z | TypeScript | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [glandium/rust-objc](https://github.com/glandium/rust-objc) | 0 | 2025-01-07T00:59:44Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [timelic/source-han-serif](https://github.com/timelic/source-han-serif) | 0 | 2025-01-06T02:28:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [JuliaBinaryWrappers/Lz4_jll.jl](https://github.com/JuliaBinaryWrappers/Lz4_jll.jl) | 0 | 2024-12-30T16:00:00Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [luolin101/Visual-SWE-bench](https://github.com/luolin101/Visual-SWE-bench) | 0 | 2024-12-28T12:50:31Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [gokyeongryeol/diffusers](https://github.com/gokyeongryeol/diffusers) | 0 | 2024-12-20T10:25:33Z | Unknown | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [SourceScan/verification-guide](https://github.com/SourceScan/verification-guide) | 0 | 2024-12-19T21:10:16Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
@@ -640,6 +647,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cgisky1980/hf-hub](https://github.com/cgisky1980/hf-hub) | 0 | 2024-06-28T00:11:52Z | Rust | CLI | 1 | 3 | 1 | 1 |
 | [thanku-all/parse_answer](https://github.com/thanku-all/parse_answer) | 0 | 2024-06-23T04:04:26Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [datachainlab/lcp-cgen](https://github.com/datachainlab/lcp-cgen) | 0 | 2024-06-18T11:16:40Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [TelemetryHub/opentelemetry-demo](https://github.com/TelemetryHub/opentelemetry-demo) | 0 | 2024-06-17T21:22:10Z | TypeScript | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [hbenl/vscode-mocha-ssh-example](https://github.com/hbenl/vscode-mocha-ssh-example) | 0 | 2024-06-17T18:38:19Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
 | [JuliaBinaryWrappers/LightGBM_jll.jl](https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl) | 0 | 2024-06-13T17:22:22Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [barche/libcxxwrap_julia_jll.jl](https://github.com/barche/libcxxwrap_julia_jll.jl) | 0 | 2024-06-09T15:09:47Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -1054,6 +1062,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/brainstorm-solutions-plugin](https://github.com/danielrosehill/brainstorm-solutions-plugin) | 0 | 2026-04-10T12:29:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [8144225309/superscalar-docs](https://github.com/8144225309/superscalar-docs) | 0 | 2026-04-09T21:20:43Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [ashton/neotest-gleam-unitest](https://github.com/ashton/neotest-gleam-unitest) | 0 | 2026-04-09T20:27:40Z | Other | Unknown | 8 | 0 | 8 | 8 |
+| [JuliaBinaryWrappers/JpegTurbo_jll.jl](https://github.com/JuliaBinaryWrappers/JpegTurbo_jll.jl) | 0 | 2026-04-09T15:33:29Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [JuliaBinaryWrappers/libaec_jll.jl](https://github.com/JuliaBinaryWrappers/libaec_jll.jl) | 0 | 2026-04-09T15:05:24Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [VOICEVOX/preview-pages](https://github.com/VOICEVOX/preview-pages) | 0 | 2026-04-09T11:24:32Z | TypeScript | Infrastructure/tooling | 4 | 43 | 4 | 4 |
 | [stdlib-js/dstructs-struct](https://github.com/stdlib-js/dstructs-struct) | 0 | 2026-04-09T03:55:27Z | JavaScript | Infrastructure/tooling | 18 | 75 | 18 | 18 |
 | [danielrosehill/Agent-Journal](https://github.com/danielrosehill/Agent-Journal) | 0 | 2026-04-08T14:15:54Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
@@ -1253,6 +1263,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rose-pine/homebrew-tap](https://github.com/rose-pine/homebrew-tap) | 0 | 2025-11-19T19:53:51Z | Shell | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [hermit-os/newlib](https://github.com/hermit-os/newlib) | 0 | 2025-11-19T12:32:21Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [datafuse-extras/arrow-udf](https://github.com/datafuse-extras/arrow-udf) | 0 | 2025-11-17T10:18:52Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
+| [JuliaBinaryWrappers/brotli_jll.jl](https://github.com/JuliaBinaryWrappers/brotli_jll.jl) | 0 | 2025-11-15T16:48:29Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [openobserve/promql-parser](https://github.com/openobserve/promql-parser) | 0 | 2025-11-14T08:05:47Z | Rust | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [radashi-org/radashi-canary](https://github.com/radashi-org/radashi-canary) | 0 | 2025-11-13T19:22:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/A-Better-Jobs-Platform-Notes](https://github.com/danielrosehill/A-Better-Jobs-Platform-Notes) | 0 | 2025-11-11T13:25:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -1305,6 +1316,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Mooncake-Labs/rust-postgres](https://github.com/Mooncake-Labs/rust-postgres) | 0 | 2025-09-03T23:52:42Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [datafuse-extras/recursive](https://github.com/datafuse-extras/recursive) | 0 | 2025-08-28T16:13:28Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [countries/country_select_demo](https://github.com/countries/country_select_demo) | 0 | 2025-08-28T15:39:23Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [osmosis-labs/block-sdk](https://github.com/osmosis-labs/block-sdk) | 0 | 2025-08-22T10:44:02Z | Unknown | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [JuliaBinaryWrappers/Fontconfig_jll.jl](https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl) | 0 | 2025-08-19T16:54:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [MaterializeInc/async-compression](https://github.com/MaterializeInc/async-compression) | 0 | 2025-08-18T17:47:41Z | Rust | Infrastructure/tooling | 8 | 8 | 8 | 8 |
 | [boundless-xyz/reth](https://github.com/boundless-xyz/reth) | 0 | 2025-08-18T02:17:38Z | Rust | Infrastructure/tooling | 7 | 10 | 7 | 7 |
@@ -1365,6 +1377,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaBinaryWrappers/FriBidi_jll.jl](https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl) | 0 | 2025-04-04T22:49:01Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [cmacdonald/colbert](https://github.com/cmacdonald/ColBERT) | 0 | 2025-04-03T17:06:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [abiondevelopment/external-dns-webhook-abion](https://github.com/abiondevelopment/external-dns-webhook-abion) | 0 | 2025-03-31T11:40:01Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
+| [JuliaBinaryWrappers/snappy_jll.jl](https://github.com/JuliaBinaryWrappers/snappy_jll.jl) | 0 | 2025-03-27T23:51:36Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [assignUser/delocate](https://github.com/assignUser/delocate) | 0 | 2025-03-26T02:20:32Z | Unknown | Infrastructure/tooling | 0 | 9 | 0 | 0 |
 | [CBenoit/diplomat](https://github.com/CBenoit/diplomat) | 0 | 2025-03-25T22:17:05Z | Rust | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [AlmaLinux/errata2osv](https://github.com/AlmaLinux/errata2osv) | 0 | 2025-03-25T09:22:24Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -1392,6 +1405,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [srdtrk/ibc-rs](https://github.com/srdtrk/ibc-rs) | 0 | 2025-02-09T17:26:25Z | Rust | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [tedsteen/puffin](https://github.com/tedsteen/puffin) | 0 | 2025-02-06T13:28:55Z | Unknown | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [JuliaBinaryWrappers/Bzip2_jll.jl](https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl) | 0 | 2025-01-31T16:01:41Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [JuliaBinaryWrappers/Thrift_jll.jl](https://github.com/JuliaBinaryWrappers/Thrift_jll.jl) | 0 | 2025-01-30T12:22:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [nugine/simd-benches](https://github.com/Nugine/simd-benches) | 0 | 2025-01-29T16:04:35Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [JuliaBinaryWrappers/boost_jll.jl](https://github.com/JuliaBinaryWrappers/boost_jll.jl) | 0 | 2025-01-28T02:39:44Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/Libiconv_jll.jl](https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl) | 0 | 2025-01-13T13:15:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -1400,6 +1414,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Freed-Wu/coc-write-good](https://github.com/Freed-Wu/coc-write-good) | 0 | 2025-01-07T08:51:04Z | TypeScript | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [glandium/rust-objc](https://github.com/glandium/rust-objc) | 0 | 2025-01-07T00:59:44Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [timelic/source-han-serif](https://github.com/timelic/source-han-serif) | 0 | 2025-01-06T02:28:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [JuliaBinaryWrappers/Lz4_jll.jl](https://github.com/JuliaBinaryWrappers/Lz4_jll.jl) | 0 | 2024-12-30T16:00:00Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [luolin101/Visual-SWE-bench](https://github.com/luolin101/Visual-SWE-bench) | 0 | 2024-12-28T12:50:31Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [gokyeongryeol/diffusers](https://github.com/gokyeongryeol/diffusers) | 0 | 2024-12-20T10:25:33Z | Unknown | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [SourceScan/verification-guide](https://github.com/SourceScan/verification-guide) | 0 | 2024-12-19T21:10:16Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
@@ -1457,6 +1472,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cgisky1980/hf-hub](https://github.com/cgisky1980/hf-hub) | 0 | 2024-06-28T00:11:52Z | Rust | CLI | 1 | 3 | 1 | 1 |
 | [thanku-all/parse_answer](https://github.com/thanku-all/parse_answer) | 0 | 2024-06-23T04:04:26Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [datachainlab/lcp-cgen](https://github.com/datachainlab/lcp-cgen) | 0 | 2024-06-18T11:16:40Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [TelemetryHub/opentelemetry-demo](https://github.com/TelemetryHub/opentelemetry-demo) | 0 | 2024-06-17T21:22:10Z | TypeScript | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [hbenl/vscode-mocha-ssh-example](https://github.com/hbenl/vscode-mocha-ssh-example) | 0 | 2024-06-17T18:38:19Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
 | [JuliaBinaryWrappers/LightGBM_jll.jl](https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl) | 0 | 2024-06-13T17:22:22Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [barche/libcxxwrap_julia_jll.jl](https://github.com/barche/libcxxwrap_julia_jll.jl) | 0 | 2024-06-09T15:09:47Z | Other | Unknown | 0 | 0 | 0 | 0 |

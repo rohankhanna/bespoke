@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 762,
-    "concepts": 638,
-    "observations": 639,
-    "repos": 71,
-    "terms": 635
+    "components": 728,
+    "concepts": 609,
+    "observations": 610,
+    "repos": 64,
+    "terms": 606
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/OpenImageIO",
     "AdaptiveCpp/AdaptiveCpp",
     "Andersbakken/rtags",
-    "apache/age",
     "arkime/arkime",
     "ashvardanian/NumKong",
     "async-profiler/async-profiler",
@@ -31,7 +30,6 @@
     "dmlc/dlpack",
     "doxygen/doxygen",
     "DrTimothyAldenDavis/SuiteSparse",
-    "eclipse-cyclonedds/cyclonedds",
     "eclipse-sumo/sumo",
     "facebook/fbthrift",
     "facebook/mvfst",
@@ -48,7 +46,6 @@
     "intel/pcm",
     "KhronosGroup/Vulkan-Hpp",
     "KratosMultiphysics/Kratos",
-    "libbitcoin/libbitcoin-system",
     "libcpr/cpr",
     "libexpat/libexpat",
     "libfuse/libfuse",
@@ -57,22 +54,19 @@
     "meetecho/janus-gateway",
     "Mithril-mine/libmdbx",
     "mruby/mruby",
-    "NetHack/NetHack",
     "NVIDIA/DALI",
-    "open-telemetry/opentelemetry-go-instrumentation",
     "opensim-org/opensim-core",
     "optiscaler/OptiScaler",
     "PoseLib/PoseLib",
-    "qt-creator/qt-creator",
     "RainerKuemmerle/g2o",
     "realsenseai/librealsense",
     "riscv-collab/riscv-gnu-toolchain",
     "RobotLocomotion/drake",
     "samtools/samtools",
-    "SchedMD/slurm",
     "sorbet/sorbet",
     "stack-of-tasks/pinocchio",
     "swiftlang/swift-corelibs-foundation",
+    "swiftlang/swift-llbuild",
     "Themaister/Granite",
     "tianocore/edk2",
     "ultrajson/ultrajson",
@@ -82,7 +76,6 @@
     "vincentlaucsb/csv-parser",
     "westes/flex",
     "xtensor-stack/xsimd",
-    "YosysHQ/nextpnr",
     "zcash/zcash",
     "zeux/volk"
   ]

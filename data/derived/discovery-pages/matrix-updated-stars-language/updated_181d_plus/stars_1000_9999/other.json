@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1227,
-    "concepts": 1431,
-    "observations": 1433,
-    "repos": 394,
-    "terms": 1421
+    "components": 1229,
+    "concepts": 1434,
+    "observations": 1436,
+    "repos": 396,
+    "terms": 1424
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -358,6 +358,7 @@
     "thiagopradi/octopus",
     "thoughtbot/appraisal",
     "thoughtbot/paperclip",
+    "thoughtbot/rcm",
     "threestudio-project/threestudio",
     "tianocore/tianocore.github.io",
     "tianzhi0549/CTPN",
@@ -367,6 +368,7 @@
     "tonsky/datascript",
     "tonsky/rum",
     "tpope/vim-abolish",
+    "tpope/vim-commentary",
     "tpope/vim-dispatch",
     "tpope/vim-fireplace",
     "tpope/vim-projectionist",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 163,
-    "concepts": 194,
-    "observations": 194,
-    "repos": 28,
-    "terms": 194
+    "components": 155,
+    "concepts": 188,
+    "observations": 188,
+    "repos": 27,
+    "terms": 188
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "apache/camel-examples",
     "apache/datasketches-java",
-    "apache/doris-flink-connector",
-    "apache/doris-spark-connector",
+    "beehive-lab/GPULlama3.java",
     "carrot2/carrot2",
     "connectbot/sshlib",
     "Cosium/git-code-format-maven-plugin",

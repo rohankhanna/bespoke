@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 46
+- repos: 47
 - terms: 291
-- components: 1412
+- components: 1444
 - concepts: 291
 - observations: 293
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [obsidianmd/eslint-plugin](https://github.com/obsidianmd/eslint-plugin) | 65 | 2026-04-30T10:33:43Z | TypeScript | Infrastructure/tooling | 4 | 36 | 4 | 4 |
+| [coasys/flux](https://github.com/coasys/flux) | 19 | 2026-04-30T07:35:38Z | TypeScript | Infrastructure/tooling | 2 | 13 | 2 | 2 |
 | [ecyrbe/zodios-express](https://github.com/ecyrbe/zodios-express) | 55 | 2026-04-29T23:40:35Z | TypeScript | Infrastructure/tooling | 1 | 22 | 1 | 1 |
 | [OffchainLabs/nitro-testnode](https://github.com/OffchainLabs/nitro-testnode) | 45 | 2026-04-29T21:46:26Z | TypeScript | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [octokit/auth-oauth-user.js](https://github.com/octokit/auth-oauth-user.js) | 17 | 2026-04-29T20:12:37Z | TypeScript | CLI | 8 | 25 | 8 | 8 |
@@ -71,7 +73,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mcous/vitest-when](https://github.com/mcous/vitest-when) | 50 | 2026-04-23T20:57:01Z | TypeScript | Infrastructure/tooling | 0 | 19 | 0 | 0 |
 | [octokit/webhooks-methods.js](https://github.com/octokit/webhooks-methods.js) | 25 | 2026-04-23T13:28:10Z | TypeScript | Infrastructure/tooling | 8 | 18 | 8 | 8 |
 | [celo-org/social-connect](https://github.com/celo-org/social-connect) | 12 | 2026-04-23T12:58:46Z | TypeScript | Infrastructure/tooling | 7 | 29 | 7 | 7 |
-| [DataDog/opentelemetry-demo](https://github.com/DataDog/opentelemetry-demo) | 10 | 2026-04-23T09:32:22Z | TypeScript | Infrastructure/tooling | 6 | 17 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -88,6 +89,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ldclabs/KIP](https://github.com/ldclabs/KIP) | 73 | 2026-04-29T14:46:08Z | TypeScript | Docs/knowledge | 3 | 0 | 3 | 3 |
 | [dannyhw/expo-storybook-starter](https://github.com/dannyhw/expo-storybook-starter) | 73 | 2026-04-23T23:19:31Z | TypeScript | Web app | 0 | 43 | 0 | 0 |
 | [quickwit-oss/quickwit-datasource](https://github.com/quickwit-oss/quickwit-datasource) | 67 | 2026-04-29T19:38:20Z | TypeScript | Infrastructure/tooling | 2 | 76 | 2 | 2 |
+| [obsidianmd/eslint-plugin](https://github.com/obsidianmd/eslint-plugin) | 65 | 2026-04-30T10:33:43Z | TypeScript | Infrastructure/tooling | 4 | 36 | 4 | 4 |
 | [fabon-f/temporal-polyfill-lite](https://github.com/fabon-f/temporal-polyfill-lite) | 65 | 2026-04-29T18:03:18Z | TypeScript | Infrastructure/tooling | 2 | 18 | 2 | 2 |
 | [jbaubree/sitemap-ts](https://github.com/jbaubree/sitemap-ts) | 62 | 2026-04-29T14:08:28Z | TypeScript | Infrastructure/tooling | 0 | 25 | 0 | 0 |
 | [ecyrbe/zodios-express](https://github.com/ecyrbe/zodios-express) | 55 | 2026-04-29T23:40:35Z | TypeScript | Infrastructure/tooling | 1 | 22 | 1 | 1 |
@@ -114,6 +116,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [appsignal/appsignal-javascript](https://github.com/appsignal/appsignal-javascript) | 20 | 2026-04-28T12:13:45Z | TypeScript | Infrastructure/tooling | 11 | 28 | 11 | 11 |
 | [jakoch/install-vulkan-sdk-action](https://github.com/jakoch/install-vulkan-sdk-action) | 20 | 2026-04-24T14:43:58Z | TypeScript | Infrastructure/tooling | 11 | 18 | 11 | 11 |
 | [gridatek/semantic-icons](https://github.com/gridatek/semantic-icons) | 20 | 2026-04-24T04:56:37Z | TypeScript | Infrastructure/tooling | 9 | 105 | 9 | 9 |
+| [coasys/flux](https://github.com/coasys/flux) | 19 | 2026-04-30T07:35:38Z | TypeScript | Infrastructure/tooling | 2 | 13 | 2 | 2 |
 | [octokit/auth-oauth-user.js](https://github.com/octokit/auth-oauth-user.js) | 17 | 2026-04-29T20:12:37Z | TypeScript | CLI | 8 | 25 | 8 | 8 |
 | [octokit/oauth-authorization-url.js](https://github.com/octokit/oauth-authorization-url.js) | 17 | 2026-04-29T15:04:16Z | TypeScript | Infrastructure/tooling | 7 | 15 | 7 | 7 |
 | [emscripten-forge/mambajs](https://github.com/emscripten-forge/mambajs) | 15 | 2026-04-29T13:04:04Z | TypeScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
@@ -122,4 +125,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ipfs/github-mgmt](https://github.com/ipfs/github-mgmt) | 12 | 2026-04-28T21:46:04Z | TypeScript | Infrastructure/tooling | 10 | 10 | 10 | 10 |
 | [celo-org/social-connect](https://github.com/celo-org/social-connect) | 12 | 2026-04-23T12:58:46Z | TypeScript | Infrastructure/tooling | 7 | 29 | 7 | 7 |
 | [favware/esbuild-plugin-version-injector](https://github.com/favware/esbuild-plugin-version-injector) | 11 | 2026-04-29T13:06:48Z | TypeScript | Infrastructure/tooling | 9 | 31 | 9 | 9 |
-| [DataDog/opentelemetry-demo](https://github.com/DataDog/opentelemetry-demo) | 10 | 2026-04-23T09:32:22Z | TypeScript | Infrastructure/tooling | 6 | 17 | 6 | 6 |

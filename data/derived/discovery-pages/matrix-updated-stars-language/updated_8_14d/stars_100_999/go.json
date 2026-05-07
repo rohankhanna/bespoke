@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 457,
-    "concepts": 387,
-    "observations": 387,
-    "repos": 59,
-    "terms": 387
+    "components": 454,
+    "concepts": 401,
+    "observations": 401,
+    "repos": 60,
+    "terms": 401
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "2dust/AndroidLibXrayLite",
     "a2aproject/a2a-go",
@@ -47,6 +47,8 @@
     "go-logr/zapr",
     "go-openapi/strfmt",
     "google/oss-rebuild",
+    "huaweicloud/huaweicloud-sdk-go-v3",
+    "hybridgroup/yzma",
     "hypnoglow/helm-s3",
     "ipfs/boxo",
     "ipfs/rainbow",
@@ -63,7 +65,6 @@
     "OffchainLabs/nitro",
     "operator-framework/operator-registry",
     "oracle/oci-go-sdk",
-    "ossf/osv-schema",
     "pion/ice",
     "pion/mediadevices",
     "sigstore/fulcio",

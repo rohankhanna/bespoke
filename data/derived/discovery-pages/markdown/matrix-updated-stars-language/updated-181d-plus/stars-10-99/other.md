@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 771
-- terms: 1750
+- repos: 773
+- terms: 1753
 - components: 1935
-- concepts: 1756
-- observations: 1762
+- concepts: 1759
+- observations: 1765
 
 ## Static behavior
 
@@ -55,6 +55,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [NimblePros/SharedKernelSample](https://github.com/NimblePros/SharedKernelSample) | 14 | 2025-10-15T09:22:08Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [sl-solution/DLMReader.jl](https://github.com/sl-solution/DLMReader.jl) | 31 | 2025-10-15T04:59:00Z | Other | Infrastructure/tooling | 13 | 9 | 13 | 13 |
 | [lite-xl/lite-xl-colors](https://github.com/lite-xl/lite-xl-colors) | 85 | 2025-10-14T17:32:17Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [luc-tielen/telescope_hoogle](https://github.com/luc-tielen/telescope_hoogle) | 54 | 2025-10-13T07:10:18Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [aristocratos/LHM-CppExport](https://github.com/aristocratos/LHM-CppExport) | 15 | 2025-10-12T11:25:57Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [CreArts-Community/CreArts-Obsidian](https://github.com/CreArts-Community/CreArts-Obsidian) | 25 | 2025-10-12T07:14:45Z | Other | Infrastructure/tooling | 4 | 12 | 4 | 4 |
 | [file-icons/MFixx](https://github.com/file-icons/MFixx) | 58 | 2025-10-11T08:28:03Z | Other | Unknown | 3 | 0 | 3 | 3 |
@@ -138,6 +139,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [haxeui/haxeui-flixel](https://github.com/haxeui/haxeui-flixel) | 55 | 2025-06-27T06:40:41Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [damiankorcz/Alternative-Checkboxes-Reference-Set](https://github.com/damiankorcz/Alternative-Checkboxes-Reference-Set) | 50 | 2025-06-26T19:01:11Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [FStarLang/fstar-mode.el](https://github.com/FStarLang/fstar-mode.el) | 73 | 2025-06-25T09:21:04Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [1jsingh/negtome](https://github.com/1jsingh/negtome) | 74 | 2025-06-23T20:03:29Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [gumob/PunycodeSwift](https://github.com/gumob/PunycodeSwift) | 33 | 2025-06-22T13:28:09Z | Other | Infrastructure/tooling | 11 | 6 | 11 | 11 |
 | [gumob/TLDExtractSwift](https://github.com/gumob/TLDExtractSwift) | 38 | 2025-06-22T13:26:53Z | Other | Infrastructure/tooling | 11 | 6 | 11 | 11 |
 | [moskomule/anatome](https://github.com/moskomule/anatome) | 67 | 2025-06-21T09:51:18Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
@@ -599,7 +601,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Armour/vue-typescript-admin-docs](https://github.com/Armour/vue-typescript-admin-docs) | 19 | 2022-12-11T02:01:43Z | Other | Template/starter | 3 | 3 | 3 | 3 |
 | [queryverse/VegaDatasets.jl](https://github.com/queryverse/VegaDatasets.jl) | 21 | 2022-12-11T00:36:24Z | Other | Infrastructure/tooling | 9 | 11 | 9 | 9 |
 | [andrejlevkovitch/vim-lua-format](https://github.com/andrejlevkovitch/vim-lua-format) | 31 | 2022-12-09T08:40:37Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [google/vim-glaive](https://github.com/google/vim-glaive) | 76 | 2022-12-09T06:52:36Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [google/vim-glaive](https://github.com/google/vim-glaive) | 77 | 2022-12-09T06:52:36Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [ArulselvanMadhavan/diffusers-ocaml](https://github.com/ArulselvanMadhavan/diffusers-ocaml) | 21 | 2022-12-09T00:10:36Z | Other | Service/API | 6 | 0 | 6 | 6 |
 | [vany0114/chaos-injection-using-simmy](https://github.com/vany0114/chaos-injection-using-simmy) | 28 | 2022-12-08T01:59:15Z | Other | Service/API | 11 | 0 | 11 | 11 |
 | [egoist/vue-bytesize-icons](https://github.com/egoist/vue-bytesize-icons) | 55 | 2022-12-07T01:01:25Z | Other | Unknown | 3 | 18 | 3 | 3 |
@@ -895,11 +897,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [r-lib/pkgbuild](https://github.com/r-lib/pkgbuild) | 77 | 2025-10-21T07:42:20Z | Other | Infrastructure/tooling | 0 | 11 | 0 | 0 |
 | [cyb3rko/pazzword](https://github.com/cyb3rko/pazzword) | 77 | 2024-10-24T01:47:21Z | Other | Infrastructure/tooling | 10 | 4 | 10 | 10 |
 | [BlackHC/batchbald_redux](https://github.com/BlackHC/batchbald_redux) | 77 | 2024-02-28T23:12:02Z | Other | Infrastructure/tooling | 6 | 2 | 6 | 6 |
+| [google/vim-glaive](https://github.com/google/vim-glaive) | 77 | 2022-12-09T06:52:36Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [jarcane/clojurice](https://github.com/jarcane/clojurice) | 77 | 2022-02-17T15:29:01Z | Other | Template/starter | 5 | 0 | 5 | 5 |
 | [raimon49/requirements.txt.vim](https://github.com/raimon49/requirements.txt.vim) | 76 | 2025-07-25T10:02:35Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [LuaLS/LuaParser](https://github.com/LuaLS/LuaParser) | 76 | 2025-07-24T08:05:50Z | Other | Service/API | 5 | 0 | 5 | 5 |
 | [DefTruth/CUDA-Learn-Notes](https://github.com/DefTruth/CUDA-Learn-Notes) | 76 | 2025-04-26T04:54:26Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [google/vim-glaive](https://github.com/google/vim-glaive) | 76 | 2022-12-09T06:52:36Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [rust3ds/rust3ds-template](https://github.com/rust3ds/rust3ds-template) | 76 | 2022-10-10T12:34:28Z | Other | Template/starter | 0 | 0 | 0 | 0 |
 | [arrayfire/arrayfire-dotnet](https://github.com/arrayfire/arrayfire-dotnet) | 76 | 2022-07-14T07:08:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ElsaTam/Obsidian-Stuff](https://github.com/ElsaTam/Obsidian-Stuff) | 75 | 2025-05-12T13:58:34Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -907,6 +909,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [NVlabs/adaptive-prediction](https://github.com/NVlabs/adaptive-prediction) | 75 | 2023-09-19T11:25:16Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [google/google-id-token](https://github.com/google/google-id-token) | 75 | 2023-01-19T23:41:27Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [AlexBrohshtut/vue-ts-realworld-app](https://github.com/AlexBrohshtut/vue-ts-realworld-app) | 75 | 2022-07-20T23:50:19Z | Other | Unknown | 0 | 37 | 0 | 0 |
+| [1jsingh/negtome](https://github.com/1jsingh/negtome) | 74 | 2025-06-23T20:03:29Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [Dashlane/SwiftDomainParser](https://github.com/Dashlane/SwiftDomainParser) | 74 | 2025-06-02T13:09:44Z | Other | Framework | 4 | 0 | 4 | 4 |
 | [Infrawaves/DeepEP_ibrc_dual-ports_multiQP](https://github.com/Infrawaves/DeepEP_ibrc_dual-ports_multiQP) | 74 | 2025-05-09T08:43:14Z | Other | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [melizeche/AireLibre](https://github.com/melizeche/AireLibre) | 74 | 2025-03-21T15:28:12Z | Other | Unknown | 6 | 0 | 6 | 6 |
@@ -1052,6 +1055,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ikostrikov/jaxrl2](https://github.com/ikostrikov/jaxrl2) | 55 | 2023-01-20T18:37:08Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [egoist/vue-bytesize-icons](https://github.com/egoist/vue-bytesize-icons) | 55 | 2022-12-07T01:01:25Z | Other | Unknown | 3 | 18 | 3 | 3 |
 | [cheald/manticore](https://github.com/cheald/manticore) | 54 | 2025-10-20T12:17:52Z | Other | CLI | 1 | 3 | 1 | 1 |
+| [luc-tielen/telescope_hoogle](https://github.com/luc-tielen/telescope_hoogle) | 54 | 2025-10-13T07:10:18Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [WebAssembly/flexible-vectors](https://github.com/WebAssembly/flexible-vectors) | 54 | 2025-09-15T16:31:48Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [trailblazer/cells-rails](https://github.com/trailblazer/cells-rails) | 54 | 2024-11-13T10:35:03Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [Wilfred/pip-requirements.el](https://github.com/Wilfred/pip-requirements.el) | 54 | 2024-06-21T21:51:04Z | Other | Unknown | 0 | 0 | 0 | 0 |

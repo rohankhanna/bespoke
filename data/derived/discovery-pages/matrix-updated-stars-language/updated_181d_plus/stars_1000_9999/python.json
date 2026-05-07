@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 837,
-    "concepts": 3552,
-    "observations": 3554,
-    "repos": 904,
-    "terms": 3494
+    "concepts": 3567,
+    "observations": 3569,
+    "repos": 908,
+    "terms": 3506
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -273,6 +273,7 @@
     "facebookresearch/moco-v3",
     "facebookresearch/MUSE",
     "facebookresearch/nougat",
+    "facebookresearch/pycls",
     "facebookresearch/pyrobot",
     "facebookresearch/PyTorch-BigGraph",
     "facebookresearch/sapiens",
@@ -380,6 +381,7 @@
     "IDEA-Research/MaskDINO",
     "IDEA-Research/T-Rex",
     "idiap/fast-transformers",
+    "IdreesInc/Miracode",
     "IDSIA/sacred",
     "ifzhang/FairMOT",
     "iGhibli/iOS-DeviceSupport",
@@ -430,6 +432,7 @@
     "kabachuha/sd-webui-text2video",
     "KaiDMML/FakeNewsNet",
     "Kaixhin/Rainbow",
+    "KaiyangZhou/Dassl.pytorch",
     "kakaobrain/coyo-dataset",
     "kakaobrain/nerf-factory",
     "karolpiczak/ESC-50",
@@ -859,6 +862,7 @@
     "weiyithu/SurroundOcc",
     "welltop-cn/ComfyUI-TeaCache",
     "whai362/PVT",
+    "WisdomShell/codeshell",
     "WongKinYiu/PyTorch_YOLOv4",
     "WongKinYiu/ScaledYOLOv4",
     "WongKinYiu/yolor",

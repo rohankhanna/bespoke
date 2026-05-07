@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5166,
-    "concepts": 1763,
-    "observations": 1765,
-    "repos": 1272,
-    "terms": 1759
+    "components": 5202,
+    "concepts": 1780,
+    "observations": 1782,
+    "repos": 1277,
+    "terms": 1776
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -523,6 +523,7 @@
     "ethers-io/ext-signer-ledger",
     "etodanik/borsh-cpp20",
     "euagendas/semeval_8_2022_ia_downloader",
+    "evmos/docs",
     "ex-aws/ex_aws_lambda",
     "exactlyallan/Spatial-Analytics-Viz",
     "executablebooks/.github",
@@ -662,6 +663,7 @@
     "hertz-contrib/autotls",
     "hertz-contrib/cache",
     "hertz-contrib/etag",
+    "hfp/libxsmm",
     "hhu-stups/jupyterlab-prolog-codemirror-extension",
     "HiceS/mirabuf",
     "high-moctane/mocword-data",
@@ -751,6 +753,7 @@
     "jiweimaster/lfs",
     "jk-jeon/dtoa-benchmark",
     "jllllll/AutoGPTQ",
+    "joanroig/admincraft-websocket",
     "jodyvanden/guard-standardrb",
     "JolifantoBambla/shadercl",
     "JolifantoBambla/varjo",
@@ -763,6 +766,7 @@
     "jruby/jruby-examples",
     "jruby/ruby-maven",
     "jtdaugherty/vty-unix",
+    "JuliaBinaryWrappers/Zstd_jll.jl",
     "JuliaComputing/Registrator.jl",
     "JuliaReducePkg/ReduceLinAlg.jl",
     "JuliaStrings/LibTeXPrintf.jl",
@@ -796,6 +800,7 @@
     "kitex-contrib/config-apollo",
     "kitex-contrib/config-etcd",
     "kivikakk/kivikakk",
+    "kodyfanz/ethereum_yellowpaper_vn",
     "Koihik/sublime-lua-format",
     "kokospalme/java-BC",
     "Kong/official-images",
@@ -1203,7 +1208,7 @@
     "travis-ci/travis-packer-build",
     "travis-infrastructure/packer-build",
     "triton-inference-server/contrib",
-    "tritondatacenter/node-cmdutil",
+    "TritonDataCenter/node-cmdutil",
     "turbofish-org/abci2",
     "turner/swt2sw",
     "UBC-NLP/Cheetah",

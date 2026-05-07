@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 68
-- terms: 613
-- components: 2940
-- concepts: 615
-- observations: 616
+- repos: 64
+- terms: 588
+- components: 2793
+- concepts: 590
+- observations: 591
 
 ## Static behavior
 
@@ -90,10 +90,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [analogjs/analog](https://github.com/analogjs/analog) | 3114 | 2026-04-30T12:58:56Z | TypeScript | Infrastructure/tooling | 14 | 171 | 14 | 14 |
 | [hey-api/openapi-ts](https://github.com/hey-api/openapi-ts) | 4581 | 2026-04-30T12:56:20Z | TypeScript | Infrastructure/tooling | 19 | 40 | 19 | 19 |
 | [bqplot/bqplot](https://github.com/bqplot/bqplot) | 3688 | 2026-04-30T11:51:20Z | TypeScript | Infrastructure/tooling | 6 | 11 | 6 | 6 |
-| [nodejs/llhttp](https://github.com/nodejs/llhttp) | 1894 | 2026-04-30T10:35:42Z | TypeScript | Infrastructure/tooling | 6 | 22 | 6 | 6 |
-| [VOICEVOX/voicevox](https://github.com/VOICEVOX/voicevox) | 3099 | 2026-04-30T08:12:22Z | TypeScript | Infrastructure/tooling | 8 | 106 | 8 | 8 |
-| [argdown/argdown](https://github.com/argdown/argdown) | 1007 | 2026-04-30T08:04:33Z | TypeScript | Infrastructure/tooling | 6 | 13 | 6 | 6 |
-| [r-lib/actions](https://github.com/r-lib/actions) | 1060 | 2026-04-30T07:55:46Z | TypeScript | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -126,7 +122,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fern-api/fern](https://github.com/fern-api/fern) | 3597 | 2026-05-01T05:53:35Z | TypeScript | Infrastructure/tooling | 10 | 33 | 10 | 10 |
 | [inokawa/virtua](https://github.com/inokawa/virtua) | 3549 | 2026-05-04T19:01:59Z | TypeScript | Infrastructure/tooling | 16 | 91 | 16 | 16 |
 | [analogjs/analog](https://github.com/analogjs/analog) | 3114 | 2026-04-30T12:58:56Z | TypeScript | Infrastructure/tooling | 14 | 171 | 14 | 14 |
-| [VOICEVOX/voicevox](https://github.com/VOICEVOX/voicevox) | 3099 | 2026-04-30T08:12:22Z | TypeScript | Infrastructure/tooling | 8 | 106 | 8 | 8 |
 | [open-telemetry/opentelemetry-demo](https://github.com/open-telemetry/opentelemetry-demo) | 3056 | 2026-05-05T11:12:15Z | TypeScript | Infrastructure/tooling | 17 | 17 | 18 | 18 |
 | [apollographql/apollo-tooling](https://github.com/apollographql/apollo-tooling) | 3042 | 2026-05-05T16:00:54Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
 | [remotion-dev/skills](https://github.com/remotion-dev/skills) | 2986 | 2026-05-01T07:07:44Z | TypeScript | Unknown | 0 | 12 | 0 | 0 |
@@ -140,7 +135,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jest-community/jest-extended](https://github.com/jest-community/jest-extended) | 2352 | 2026-04-30T14:46:47Z | TypeScript | Infrastructure/tooling | 6 | 29 | 6 | 6 |
 | [hannoeru/vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages) | 2080 | 2026-05-01T16:59:52Z | TypeScript | Infrastructure/tooling | 1 | 34 | 1 | 1 |
 | [apify/fingerprint-suite](https://github.com/apify/fingerprint-suite) | 2077 | 2026-05-04T09:03:27Z | TypeScript | Infrastructure/tooling | 11 | 46 | 11 | 11 |
-| [nodejs/llhttp](https://github.com/nodejs/llhttp) | 1894 | 2026-04-30T10:35:42Z | TypeScript | Infrastructure/tooling | 6 | 22 | 6 | 6 |
 | [boxlite-ai/boxlite](https://github.com/boxlite-ai/boxlite) | 1883 | 2026-05-02T14:30:23Z | TypeScript | Infrastructure/tooling | 11 | 15 | 11 | 11 |
 | [ng-packagr/ng-packagr](https://github.com/ng-packagr/ng-packagr) | 1858 | 2026-05-02T16:24:48Z | TypeScript | CLI | 11 | 58 | 11 | 11 |
 | [stackblitz-labs/pkg.pr.new](https://github.com/stackblitz-labs/pkg.pr.new) | 1851 | 2026-05-01T12:22:19Z | TypeScript | Infrastructure/tooling | 4 | 29 | 4 | 4 |
@@ -165,5 +159,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [wundergraph/cosmo](https://github.com/wundergraph/cosmo) | 1202 | 2026-04-30T18:22:46Z | TypeScript | Infrastructure/tooling | 14 | 26 | 14 | 14 |
 | [valtyr/prisma-kysely](https://github.com/valtyr/prisma-kysely) | 1173 | 2026-05-01T00:19:20Z | TypeScript | Infrastructure/tooling | 6 | 23 | 6 | 6 |
 | [vitejs/devtools](https://github.com/vitejs/devtools) | 1149 | 2026-05-02T21:25:20Z | TypeScript | Infrastructure/tooling | 7 | 61 | 7 | 7 |
-| [r-lib/actions](https://github.com/r-lib/actions) | 1060 | 2026-04-30T07:55:46Z | TypeScript | Infrastructure/tooling | 5 | 6 | 5 | 5 |
-| [argdown/argdown](https://github.com/argdown/argdown) | 1007 | 2026-04-30T08:04:33Z | TypeScript | Infrastructure/tooling | 6 | 13 | 6 | 6 |

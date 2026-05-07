@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 139,
-    "concepts": 117,
-    "observations": 117,
-    "repos": 25,
-    "terms": 116
+    "components": 125,
+    "concepts": 124,
+    "observations": 124,
+    "repos": 23,
+    "terms": 123
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "acts-project/traccc",
     "akruphi/far2l",
     "Antares0982/ssrJSON",
     "boostorg/config",
-    "DeepLink-org/DLSlime",
-    "gazebosim/gz-fuel-tools",
     "gazebosim/gz-gui",
     "gazebosim/gz-transport",
+    "hazelcast/hazelcast-cpp-client",
     "kendryte/canmv_k230",
     "LedgerHQ/app-boilerplate",
     "LedgerHQ/ledger-secure-sdk",
@@ -31,7 +30,6 @@
     "llnl/camp",
     "milvus-io/milvus-sdk-cpp",
     "mongodb/winkerberos",
-    "openvinotoolkit/openvino_tokenizers",
     "rapidsai/ucxx",
     "ROCm/rocAL",
     "ROCm/ROCgdb",

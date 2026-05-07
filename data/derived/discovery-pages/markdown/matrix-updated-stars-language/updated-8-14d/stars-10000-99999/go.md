@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10,000 to 99,999 stars · Go
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 36
-- terms: 468
-- components: 432
-- concepts: 469
-- observations: 469
+- repos: 39
+- terms: 519
+- components: 478
+- concepts: 520
+- observations: 520
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach) | 32108 | 2026-04-30T10:21:01Z | Go | Infrastructure/tooling | 11 | 11 | 11 | 11 |
+| [ory/kratos](https://github.com/ory/kratos) | 13610 | 2026-04-30T10:05:07Z | Go | Infrastructure/tooling | 17 | 36 | 17 | 17 |
+| [pingcap/tidb](https://github.com/pingcap/tidb) | 40044 | 2026-04-30T09:29:28Z | Go | Infrastructure/tooling | 20 | 8 | 20 | 20 |
+| [dagger/dagger](https://github.com/dagger/dagger) | 15746 | 2026-04-30T09:09:49Z | Go | Infrastructure/tooling | 16 | 6 | 16 | 16 |
 | [DNSCrypt/dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) | 13256 | 2026-04-30T03:52:44Z | Go | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [hashicorp/nomad](https://github.com/hashicorp/nomad) | 16460 | 2026-04-30T00:44:46Z | Go | Infrastructure/tooling | 6 | 12 | 6 | 6 |
 | [ipfs/kubo](https://github.com/ipfs/kubo) | 17002 | 2026-04-29T22:13:03Z | Go | Infrastructure/tooling | 8 | 14 | 8 | 8 |
@@ -61,7 +65,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ethereum/EIPs](https://github.com/ethereum/EIPs) | 13826 | 2026-04-23T16:11:44Z | Go | Infrastructure/tooling | 8 | 22 | 8 | 8 |
 | [AdguardTeam/AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) | 33670 | 2026-04-23T15:22:36Z | Go | Infrastructure/tooling | 9 | 0 | 9 | 9 |
 | [shirou/gopsutil](https://github.com/shirou/gopsutil) | 11791 | 2026-04-23T13:38:56Z | Go | Infrastructure/tooling | 9 | 7 | 9 | 9 |
-| [prometheus/node_exporter](https://github.com/prometheus/node_exporter) | 13370 | 2026-04-23T07:38:59Z | Go | Infrastructure/tooling | 13 | 15 | 13 | 13 |
 
 ## Repos sorted by stars
 
@@ -69,11 +72,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [milvus-io/milvus](https://github.com/milvus-io/milvus) | 43936 | 2026-04-23T16:51:49Z | Go | Infrastructure/tooling | 24 | 9 | 24 | 24 |
 | [spf13/cobra](https://github.com/spf13/cobra) | 43814 | 2026-04-25T23:07:41Z | Go | CLI | 16 | 6 | 16 | 16 |
+| [pingcap/tidb](https://github.com/pingcap/tidb) | 40044 | 2026-04-30T09:29:28Z | Go | Infrastructure/tooling | 20 | 8 | 20 | 20 |
 | [gofiber/fiber](https://github.com/gofiber/fiber) | 39635 | 2026-04-23T19:33:08Z | Go | Infrastructure/tooling | 22 | 16 | 22 | 22 |
 | [hashicorp/vault](https://github.com/hashicorp/vault) | 35484 | 2026-04-23T23:14:55Z | Go | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 | [schollz/croc](https://github.com/schollz/croc) | 34888 | 2026-04-26T13:57:41Z | Go | Infrastructure/tooling | 10 | 12 | 10 | 10 |
 | [v2fly/v2ray-core](https://github.com/v2fly/v2ray-core) | 33854 | 2026-04-28T22:52:41Z | Go | Infrastructure/tooling | 18 | 12 | 18 | 18 |
 | [AdguardTeam/AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) | 33670 | 2026-04-23T15:22:36Z | Go | Infrastructure/tooling | 9 | 0 | 9 | 9 |
+| [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach) | 32108 | 2026-04-30T10:21:01Z | Go | Infrastructure/tooling | 11 | 11 | 11 | 11 |
 | [hashicorp/consul](https://github.com/hashicorp/consul) | 29853 | 2026-04-23T19:13:04Z | Go | Infrastructure/tooling | 13 | 19 | 13 | 13 |
 | [goharbor/harbor](https://github.com/goharbor/harbor) | 28386 | 2026-04-29T08:21:43Z | Go | Infrastructure/tooling | 18 | 18 | 18 | 18 |
 | [grpc/grpc-go](https://github.com/grpc/grpc-go) | 22915 | 2026-04-23T19:37:44Z | Go | Infrastructure/tooling | 16 | 8 | 16 | 16 |
@@ -88,9 +93,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | 16653 | 2026-04-29T20:41:58Z | Go | Infrastructure/tooling | 22 | 17 | 22 | 22 |
 | [hashicorp/nomad](https://github.com/hashicorp/nomad) | 16460 | 2026-04-30T00:44:46Z | Go | Infrastructure/tooling | 6 | 12 | 6 | 6 |
 | [GoogleContainerTools/skaffold](https://github.com/GoogleContainerTools/skaffold) | 15816 | 2026-04-23T17:36:28Z | Go | Infrastructure/tooling | 12 | 9 | 12 | 12 |
+| [dagger/dagger](https://github.com/dagger/dagger) | 15746 | 2026-04-30T09:09:49Z | Go | Infrastructure/tooling | 16 | 6 | 16 | 16 |
 | [go-sql-driver/mysql](https://github.com/go-sql-driver/mysql) | 15245 | 2026-04-29T13:29:41Z | Go | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [ethereum/EIPs](https://github.com/ethereum/EIPs) | 13826 | 2026-04-23T16:11:44Z | Go | Infrastructure/tooling | 8 | 22 | 8 | 8 |
-| [prometheus/node_exporter](https://github.com/prometheus/node_exporter) | 13370 | 2026-04-23T07:38:59Z | Go | Infrastructure/tooling | 13 | 15 | 13 | 13 |
+| [ory/kratos](https://github.com/ory/kratos) | 13610 | 2026-04-30T10:05:07Z | Go | Infrastructure/tooling | 17 | 36 | 17 | 17 |
 | [DNSCrypt/dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) | 13256 | 2026-04-30T03:52:44Z | Go | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [hajimehoshi/ebiten](https://github.com/hajimehoshi/ebiten) | 13137 | 2026-04-28T07:25:47Z | Go | Infrastructure/tooling | 16 | 9 | 16 | 16 |
 | [shirou/gopsutil](https://github.com/shirou/gopsutil) | 11791 | 2026-04-23T13:38:56Z | Go | Infrastructure/tooling | 9 | 7 | 9 | 9 |

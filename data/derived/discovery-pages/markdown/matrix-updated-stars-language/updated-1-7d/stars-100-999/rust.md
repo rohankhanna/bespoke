@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 35
-- terms: 233
-- components: 374
-- concepts: 233
-- observations: 235
+- repos: 31
+- terms: 218
+- components: 345
+- concepts: 218
+- observations: 220
 
 ## Static behavior
 
@@ -57,16 +57,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [oxc-project/oxc-resolver](https://github.com/oxc-project/oxc-resolver) | 269 | 2026-04-30T16:45:56Z | Rust | Infrastructure/tooling | 4 | 23 | 4 | 4 |
 | [RustCrypto/elliptic-curves](https://github.com/RustCrypto/elliptic-curves) | 846 | 2026-04-30T16:39:16Z | Rust | Infrastructure/tooling | 13 | 4 | 13 | 13 |
 | [cargo-bins/cargo-quickinstall](https://github.com/cargo-bins/cargo-quickinstall) | 300 | 2026-04-30T11:58:07Z | Rust | Infrastructure/tooling | 6 | 12 | 6 | 6 |
-| [EricLBuehler/candle-vllm](https://github.com/EricLBuehler/candle-vllm) | 652 | 2026-04-30T10:43:53Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
-| [duckdb/duckdb-rs](https://github.com/duckdb/duckdb-rs) | 904 | 2026-04-30T10:40:40Z | Rust | Infrastructure/tooling | 7 | 8 | 7 | 7 |
-| [A2-ai/rv](https://github.com/A2-ai/rv) | 338 | 2026-04-30T08:15:29Z | Rust | Infrastructure/tooling | 2 | 10 | 2 | 2 |
-| [hermit-os/uhyve](https://github.com/hermit-os/uhyve) | 289 | 2026-04-30T08:15:20Z | Rust | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [duckdb/duckdb-rs](https://github.com/duckdb/duckdb-rs) | 904 | 2026-04-30T10:40:40Z | Rust | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [RustCrypto/elliptic-curves](https://github.com/RustCrypto/elliptic-curves) | 846 | 2026-04-30T16:39:16Z | Rust | Infrastructure/tooling | 13 | 4 | 13 | 13 |
 | [supabase/wrappers](https://github.com/supabase/wrappers) | 839 | 2026-05-01T14:10:36Z | Rust | Infrastructure/tooling | 12 | 10 | 12 | 13 |
 | [rust-diplomat/diplomat](https://github.com/rust-diplomat/diplomat) | 770 | 2026-05-01T18:48:49Z | Rust | Infrastructure/tooling | 3 | 13 | 3 | 3 |
@@ -74,7 +69,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [zaeleus/noodles](https://github.com/zaeleus/noodles) | 685 | 2026-05-01T01:04:30Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [z-galaxy/zbus](https://github.com/z-galaxy/zbus) | 682 | 2026-05-02T12:04:31Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [rust-lang/stdarch](https://github.com/rust-lang/stdarch) | 669 | 2026-05-05T09:20:06Z | Rust | Infrastructure/tooling | 3 | 2 | 3 | 3 |
-| [EricLBuehler/candle-vllm](https://github.com/EricLBuehler/candle-vllm) | 652 | 2026-04-30T10:43:53Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [cobalt-org/liquid-rust](https://github.com/cobalt-org/liquid-rust) | 577 | 2026-05-01T01:21:52Z | Rust | Infrastructure/tooling | 9 | 11 | 9 | 9 |
 | [iqlusioninc/crates](https://github.com/iqlusioninc/crates) | 567 | 2026-05-05T01:23:44Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [utilityai/llama-cpp-rs](https://github.com/utilityai/llama-cpp-rs) | 557 | 2026-05-06T00:58:56Z | Rust | Infrastructure/tooling | 4 | 5 | 4 | 4 |
@@ -87,9 +81,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kpcyrd/rebuilderd](https://github.com/kpcyrd/rebuilderd) | 420 | 2026-04-30T17:08:08Z | Rust | Infrastructure/tooling | 9 | 7 | 9 | 10 |
 | [open-telemetry/weaver](https://github.com/open-telemetry/weaver) | 395 | 2026-05-05T12:43:48Z | Rust | Infrastructure/tooling | 11 | 21 | 11 | 11 |
 | [prefix-dev/rattler-build](https://github.com/prefix-dev/rattler-build) | 357 | 2026-05-02T05:34:23Z | Rust | Infrastructure/tooling | 10 | 10 | 10 | 10 |
-| [A2-ai/rv](https://github.com/A2-ai/rv) | 338 | 2026-04-30T08:15:29Z | Rust | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [cargo-bins/cargo-quickinstall](https://github.com/cargo-bins/cargo-quickinstall) | 300 | 2026-04-30T11:58:07Z | Rust | Infrastructure/tooling | 6 | 12 | 6 | 6 |
-| [hermit-os/uhyve](https://github.com/hermit-os/uhyve) | 289 | 2026-04-30T08:15:20Z | Rust | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [alloy-rs/svm-rs](https://github.com/alloy-rs/svm-rs) | 284 | 2026-05-05T08:34:59Z | Rust | Infrastructure/tooling | 3 | 20 | 3 | 3 |
 | [oxc-project/oxc-resolver](https://github.com/oxc-project/oxc-resolver) | 269 | 2026-04-30T16:45:56Z | Rust | Infrastructure/tooling | 4 | 23 | 4 | 4 |
 | [vectordotdev/vrl](https://github.com/vectordotdev/vrl) | 229 | 2026-05-01T04:28:19Z | Rust | Infrastructure/tooling | 7 | 9 | 7 | 7 |

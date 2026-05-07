@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 275,
-    "concepts": 287,
-    "observations": 287,
-    "repos": 56,
-    "terms": 280
+    "components": 290,
+    "concepts": 315,
+    "observations": 315,
+    "repos": 59,
+    "terms": 308
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "aquasecurity/starboard",
     "aquasecurity/tfsec",
+    "arl/statsviz",
     "atotto/clipboard",
     "azure/aztfexport",
     "bazelbuild/buildtools",
@@ -36,6 +37,7 @@
     "dghubble/sling",
     "dop251/goja",
     "go-redis/redis_rate",
+    "goccy/go-json",
     "golang/oauth2",
     "google/go-cmp",
     "google/go-jsonnet",
@@ -47,6 +49,7 @@
     "hashicorp/memberlist",
     "hashicorp/yamux",
     "itchyny/gojq",
+    "klauspost/compress",
     "kubernetes-sigs/krew",
     "mailru/easyjson",
     "mattn/goreman",

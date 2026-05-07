@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 311,
-    "concepts": 352,
-    "observations": 353,
-    "repos": 34,
-    "terms": 351
+    "components": 320,
+    "concepts": 378,
+    "observations": 379,
+    "repos": 35,
+    "terms": 377
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "aws/aws-sdk-go-v2",
     "aws/karpenter-provider-aws",
     "bazel-contrib/bazel-gazelle",
+    "bazel-contrib/rules_go",
     "beclab/Olares",
     "cosmos/cosmos-sdk",
     "crazy-max/diun",
@@ -26,8 +27,8 @@
     "erigontech/erigon",
     "fluxcd/flux2",
     "go-git/go-git",
-    "googleapis/google-api-go-client",
     "gookit/color",
+    "gookit/goutil",
     "helmfile/helmfile",
     "kubeflow/trainer",
     "kubeovn/kube-ovn",

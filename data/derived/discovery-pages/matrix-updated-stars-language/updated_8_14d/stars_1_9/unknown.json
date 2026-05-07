@@ -3,7 +3,7 @@
     "components": 23,
     "concepts": 25,
     "observations": 25,
-    "repos": 19,
+    "repos": 17,
     "terms": 25
   },
   "facet_version": 1,
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "AlmaLinux/osv-database",
-    "bell-sw/osv-database",
     "calda/SwiftFormat-nightly",
     "conda-forge/captum-feedstock",
     "danielrosehill/Claude-Data-Analyst-plugin",
@@ -26,7 +25,6 @@
     "hiyouga/llamafactory-community",
     "jku/tuf-demo",
     "oobabooga/screenshots",
-    "openwebdocs/mdn-bcd-results",
     "psmux/scoop-psmux",
     "puppetlabs/.github",
     "scalar/starter",

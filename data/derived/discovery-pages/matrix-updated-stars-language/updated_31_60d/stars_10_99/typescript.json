@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 638,
-    "concepts": 102,
-    "observations": 102,
-    "repos": 30,
-    "terms": 102
+    "components": 663,
+    "concepts": 111,
+    "observations": 111,
+    "repos": 32,
+    "terms": 111
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "9romise/eslint-plugin-import-lite",
+    "absolute-version/absolute-version-js",
     "acro5piano/kysely-migration-cli",
     "aiden0z/pptx-renderer",
     "apache/incubator-devlake-website",
@@ -26,6 +27,7 @@
     "gnosischain/gbc-deposit-ui",
     "googleapis/google-cloud-node-core",
     "gr2m/octokit-oauth-app-now-example",
+    "haskell/ghcup-setup",
     "holochain/kangaroo-electron",
     "HoneyLuka/uBlacklist",
     "joshwooding/vite-plugin-react-docgen-typescript",

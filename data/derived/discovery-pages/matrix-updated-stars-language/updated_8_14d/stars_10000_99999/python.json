@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 835,
-    "concepts": 704,
-    "observations": 705,
-    "repos": 57,
-    "terms": 702
+    "components": 834,
+    "concepts": 646,
+    "observations": 647,
+    "repos": 55,
+    "terms": 644
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,16 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
+    "agentscope-ai/agentscope",
     "agno-agi/agno",
     "Aider-AI/aider",
     "ansible/ansible",
-    "apache/airflow",
-    "apache/tvm",
     "aws/aws-cli",
     "BerriAI/litellm",
     "celery/celery",
     "chubin/wttr.in",
-    "cookiecutter/cookiecutter-django",
     "dagster-io/dagster",
     "fossasia/visdom",
     "Genesis-Embodied-AI/Genesis",
@@ -36,8 +34,10 @@
     "huggingface/lerobot",
     "huggingface/pytorch-image-models",
     "huggingface/smolagents",
+    "huggingface/trl",
     "ipython/ipython",
     "kornia/kornia",
+    "kvcache-ai/ktransformers",
     "LibreTranslate/LibreTranslate",
     "locustio/locust",
     "microsoft/agent-lightning",
@@ -65,9 +65,7 @@
     "streamlit/streamlit",
     "SWE-agent/SWE-agent",
     "tensorflow/models",
-    "Textualize/textual",
     "treeverse/dvc",
-    "ultralytics/ultralytics",
     "ultralytics/yolov3",
     "ultralytics/yolov5",
     "wandb/wandb"

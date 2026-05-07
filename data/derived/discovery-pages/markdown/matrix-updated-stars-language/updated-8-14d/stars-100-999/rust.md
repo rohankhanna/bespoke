@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 82
-- terms: 540
-- components: 782
-- concepts: 544
-- observations: 546
+- repos: 84
+- terms: 543
+- components: 794
+- concepts: 547
+- observations: 549
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [EricLBuehler/candle-vllm](https://github.com/EricLBuehler/candle-vllm) | 652 | 2026-04-30T10:43:53Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [duckdb/duckdb-rs](https://github.com/duckdb/duckdb-rs) | 904 | 2026-04-30T10:40:40Z | Rust | Infrastructure/tooling | 7 | 8 | 7 | 7 |
+| [A2-ai/rv](https://github.com/A2-ai/rv) | 338 | 2026-04-30T08:15:29Z | Rust | Infrastructure/tooling | 2 | 10 | 2 | 2 |
+| [hermit-os/uhyve](https://github.com/hermit-os/uhyve) | 289 | 2026-04-30T08:15:20Z | Rust | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [Dicklesworthstone/beads_rust](https://github.com/Dicklesworthstone/beads_rust) | 854 | 2026-04-30T04:24:03Z | Rust | Infrastructure/tooling | 10 | 16 | 10 | 10 |
 | [boquila/boquilahub](https://github.com/boquila/boquilahub) | 158 | 2026-04-30T04:06:16Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [facebookexperimental/rust-shed](https://github.com/facebookexperimental/rust-shed) | 146 | 2026-04-30T03:51:45Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
@@ -106,8 +110,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ComunidadAylas/PackSquash](https://github.com/ComunidadAylas/PackSquash) | 809 | 2026-04-23T15:31:52Z | Rust | Infrastructure/tooling | 15 | 15 | 15 | 15 |
 | [rust-bitcoin/rust-miniscript](https://github.com/rust-bitcoin/rust-miniscript) | 413 | 2026-04-23T13:21:34Z | Rust | Infrastructure/tooling | 4 | 12 | 4 | 4 |
 | [enbop/fungi](https://github.com/enbop/fungi) | 121 | 2026-04-23T13:07:49Z | Rust | Infrastructure/tooling | 15 | 3 | 15 | 15 |
-| [arkworks-rs/algebra](https://github.com/arkworks-rs/algebra) | 858 | 2026-04-23T08:12:16Z | Rust | Infrastructure/tooling | 9 | 10 | 9 | 9 |
-| [fancy-regex/fancy-regex](https://github.com/fancy-regex/fancy-regex) | 591 | 2026-04-23T05:55:13Z | Rust | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -116,11 +118,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [a16z/jolt](https://github.com/a16z/jolt) | 984 | 2026-04-29T21:21:00Z | Rust | Infrastructure/tooling | 14 | 18 | 14 | 14 |
 | [apollographql/router](https://github.com/apollographql/router) | 958 | 2026-04-30T00:46:03Z | Rust | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [typst/packages](https://github.com/typst/packages) | 946 | 2026-04-23T15:57:25Z | Rust | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [duckdb/duckdb-rs](https://github.com/duckdb/duckdb-rs) | 904 | 2026-04-30T10:40:40Z | Rust | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [RustCrypto/password-hashes](https://github.com/RustCrypto/password-hashes) | 887 | 2026-04-27T16:36:41Z | Rust | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [Anush008/fastembed-rs](https://github.com/Anush008/fastembed-rs) | 875 | 2026-04-27T16:47:16Z | Rust | Infrastructure/tooling | 9 | 7 | 9 | 9 |
 | [hyper-mcp-rs/hyper-mcp](https://github.com/hyper-mcp-rs/hyper-mcp) | 873 | 2026-04-30T02:04:48Z | Rust | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [lambdaclass/ethrex](https://github.com/lambdaclass/ethrex) | 859 | 2026-04-23T22:04:19Z | Rust | CLI | 14 | 13 | 14 | 14 |
-| [arkworks-rs/algebra](https://github.com/arkworks-rs/algebra) | 858 | 2026-04-23T08:12:16Z | Rust | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [Dicklesworthstone/beads_rust](https://github.com/Dicklesworthstone/beads_rust) | 854 | 2026-04-30T04:24:03Z | Rust | Infrastructure/tooling | 10 | 16 | 10 | 10 |
 | [ComunidadAylas/PackSquash](https://github.com/ComunidadAylas/PackSquash) | 809 | 2026-04-23T15:31:52Z | Rust | Infrastructure/tooling | 15 | 15 | 15 | 15 |
 | [flatgeobuf/flatgeobuf](https://github.com/flatgeobuf/flatgeobuf) | 797 | 2026-04-24T12:42:34Z | Rust | Infrastructure/tooling | 0 | 31 | 0 | 0 |
@@ -133,9 +135,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [esp-rs/espflash](https://github.com/esp-rs/espflash) | 695 | 2026-04-29T11:53:45Z | Rust | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [KSXGitHub/parallel-disk-usage](https://github.com/KSXGitHub/parallel-disk-usage) | 690 | 2026-04-28T01:37:07Z | Rust | Infrastructure/tooling | 11 | 9 | 11 | 11 |
 | [mozilla/application-services](https://github.com/mozilla/application-services) | 663 | 2026-04-29T23:05:13Z | Rust | Infrastructure/tooling | 8 | 10 | 8 | 8 |
+| [EricLBuehler/candle-vllm](https://github.com/EricLBuehler/candle-vllm) | 652 | 2026-04-30T10:43:53Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [Nullus157/async-compression](https://github.com/Nullus157/async-compression) | 643 | 2026-04-24T12:03:25Z | Rust | Infrastructure/tooling | 8 | 8 | 8 | 8 |
 | [lindera/lindera](https://github.com/lindera/lindera) | 623 | 2026-04-30T02:43:38Z | Rust | Infrastructure/tooling | 9 | 14 | 9 | 9 |
-| [fancy-regex/fancy-regex](https://github.com/fancy-regex/fancy-regex) | 591 | 2026-04-23T05:55:13Z | Rust | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [aws/aws-lc-rs](https://github.com/aws/aws-lc-rs) | 584 | 2026-04-29T18:52:28Z | Rust | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 | [alexcrichton/ssh2-rs](https://github.com/alexcrichton/ssh2-rs) | 559 | 2026-04-24T14:12:17Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [cargo-public-api/cargo-public-api](https://github.com/cargo-public-api/cargo-public-api) | 544 | 2026-04-28T10:33:44Z | Rust | CLI | 11 | 3 | 12 | 12 |
@@ -154,6 +156,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tensorchord/VectorChord-bm25](https://github.com/tensorchord/VectorChord-bm25) | 363 | 2026-04-28T09:17:34Z | Rust | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [RustCrypto/MACs](https://github.com/RustCrypto/MACs) | 354 | 2026-04-27T21:47:42Z | Rust | Infrastructure/tooling | 8 | 8 | 8 | 8 |
 | [openvm-org/openvm](https://github.com/openvm-org/openvm) | 343 | 2026-04-29T19:45:53Z | Rust | Infrastructure/tooling | 8 | 11 | 8 | 8 |
+| [A2-ai/rv](https://github.com/A2-ai/rv) | 338 | 2026-04-30T08:15:29Z | Rust | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [Mooncake-Labs/moonlink](https://github.com/Mooncake-Labs/moonlink) | 326 | 2026-04-27T05:28:08Z | Rust | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [posit-dev/ark](https://github.com/posit-dev/ark) | 311 | 2026-04-29T23:17:36Z | Rust | Infrastructure/tooling | 8 | 18 | 8 | 8 |
 | [zip-rs/zip2](https://github.com/zip-rs/zip2) | 308 | 2026-04-30T02:33:49Z | Rust | Infrastructure/tooling | 7 | 18 | 7 | 7 |
@@ -161,6 +164,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [yetanotherco/aligned_layer](https://github.com/yetanotherco/aligned_layer) | 296 | 2026-04-23T17:28:13Z | Rust | Infrastructure/tooling | 12 | 13 | 12 | 12 |
 | [Yatekii/imgui-wgpu-rs](https://github.com/Yatekii/imgui-wgpu-rs) | 290 | 2026-04-27T09:27:29Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [huggingface/hf-hub](https://github.com/huggingface/hf-hub) | 290 | 2026-04-24T01:03:26Z | Rust | CLI | 2 | 6 | 2 | 2 |
+| [hermit-os/uhyve](https://github.com/hermit-os/uhyve) | 289 | 2026-04-30T08:15:20Z | Rust | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [antoniusnaumann/cargo-swift](https://github.com/antoniusnaumann/cargo-swift) | 279 | 2026-04-24T14:22:11Z | Rust | Infrastructure/tooling | 14 | 2 | 14 | 14 |
 | [apollographql/apollo-mcp-server](https://github.com/apollographql/apollo-mcp-server) | 278 | 2026-04-24T14:24:23Z | Rust | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [apache/hudi-rs](https://github.com/apache/hudi-rs) | 274 | 2026-04-29T22:47:55Z | Rust | Infrastructure/tooling | 6 | 12 | 6 | 6 |

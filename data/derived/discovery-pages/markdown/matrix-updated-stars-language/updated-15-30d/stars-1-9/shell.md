@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · Shell
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 17
+- repos: 18
 - terms: 24
 - components: 35
 - concepts: 26
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [kubernetes-sigs/provider-ibmcloud-test-infra](https://github.com/kubernetes-sigs/provider-ibmcloud-test-infra) | 2 | 2026-04-23T07:12:49Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [conda-forge/pgvector-feedstock](https://github.com/conda-forge/pgvector-feedstock) | 7 | 2026-04-22T13:53:43Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [conda-forge/nlohmann_json-feedstock](https://github.com/conda-forge/nlohmann_json-feedstock) | 4 | 2026-04-22T11:31:59Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [status-im/nimbus-build-system](https://github.com/status-im/nimbus-build-system) | 9 | 2026-04-22T01:16:01Z | Shell | Infrastructure/tooling | 0 | 2 | 0 | 0 |
@@ -61,6 +62,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [agent-sh/glidemq](https://github.com/agent-sh/glidemq) | 4 | 2026-04-15T09:02:49Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [semgrep/mcp-marketplace](https://github.com/semgrep/mcp-marketplace) | 3 | 2026-04-10T23:28:35Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [rapidsai/gha-tools](https://github.com/rapidsai/gha-tools) | 3 | 2026-04-07T19:03:34Z | Shell | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [kubernetes-sigs/provider-ibmcloud-test-infra](https://github.com/kubernetes-sigs/provider-ibmcloud-test-infra) | 2 | 2026-04-23T07:12:49Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [cdeust/zetetic-team-subagents](https://github.com/cdeust/zetetic-team-subagents) | 2 | 2026-04-17T12:49:20Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [eea/eea.docker.gitflow](https://github.com/eea/eea.docker.gitflow) | 2 | 2026-04-08T17:49:37Z | Shell | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [causely-oss/otel-demo](https://github.com/causely-oss/otel-demo) | 1 | 2026-04-20T03:39:46Z | Shell | Unknown | 5 | 0 | 5 | 5 |

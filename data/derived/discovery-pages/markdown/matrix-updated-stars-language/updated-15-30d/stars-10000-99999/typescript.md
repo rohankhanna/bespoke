@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · TypeScript
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 64
-- terms: 535
-- components: 5593
-- concepts: 522
-- observations: 525
+- repos: 65
+- terms: 552
+- components: 5955
+- concepts: 539
+- observations: 542
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [grafana/grafana](https://github.com/grafana/grafana) | 73377 | 2026-04-23T08:37:49Z | TypeScript | Infrastructure/tooling | 17 | 362 | 17 | 17 |
 | [cline/cline](https://github.com/cline/cline) | 60627 | 2026-04-23T04:34:54Z | TypeScript | Infrastructure/tooling | 8 | 147 | 8 | 8 |
 | [google/brotli](https://github.com/google/brotli) | 14672 | 2026-04-22T23:46:28Z | TypeScript | Infrastructure/tooling | 4 | 15 | 4 | 4 |
 | [sass/sass](https://github.com/sass/sass) | 15376 | 2026-04-22T22:11:44Z | TypeScript | Infrastructure/tooling | 0 | 26 | 0 | 0 |
@@ -89,7 +90,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [shikijs/shiki](https://github.com/shikijs/shiki) | 13274 | 2026-04-13T00:47:33Z | TypeScript | Infrastructure/tooling | 4 | 81 | 5 | 5 |
 | [bvaughn/react-window](https://github.com/bvaughn/react-window) | 17170 | 2026-04-12T20:54:17Z | TypeScript | Infrastructure/tooling | 6 | 62 | 6 | 6 |
 | [tobi/qmd](https://github.com/tobi/qmd) | 22376 | 2026-04-11T01:21:25Z | TypeScript | CLI | 2 | 17 | 0 | 0 |
-| [chatboxai/chatbox](https://github.com/chatboxai/chatbox) | 39820 | 2026-04-09T03:24:43Z | TypeScript | CLI | 7 | 240 | 7 | 7 |
+| [chatboxai/chatbox](https://github.com/chatboxai/chatbox) | 39832 | 2026-04-09T03:24:43Z | TypeScript | CLI | 7 | 240 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -97,6 +98,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | 84206 | 2026-04-17T22:59:54Z | TypeScript | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [garrytan/gstack](https://github.com/garrytan/gstack) | 77075 | 2026-04-19T11:21:38Z | TypeScript | Infrastructure/tooling | 5 | 12 | 0 | 0 |
+| [grafana/grafana](https://github.com/grafana/grafana) | 73377 | 2026-04-23T08:37:49Z | TypeScript | Infrastructure/tooling | 17 | 362 | 17 | 17 |
 | [cline/cline](https://github.com/cline/cline) | 60627 | 2026-04-23T04:34:54Z | TypeScript | Infrastructure/tooling | 8 | 147 | 8 | 8 |
 | [shareai-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 54759 | 2026-04-14T16:58:21Z | TypeScript | Infrastructure/tooling | 1 | 3 | 0 | 0 |
 | [upstash/context7](https://github.com/upstash/context7) | 53147 | 2026-04-18T13:14:45Z | TypeScript | Infrastructure/tooling | 8 | 23 | 8 | 8 |
@@ -104,7 +106,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 44016 | 2026-04-22T05:07:43Z | TypeScript | CLI | 14 | 374 | 14 | 15 |
 | [babel/babel](https://github.com/babel/babel) | 43891 | 2026-04-21T17:57:16Z | TypeScript | Infrastructure/tooling | 11 | 86 | 11 | 11 |
 | [fission-ai/openspec](https://github.com/Fission-AI/OpenSpec) | 41172 | 2026-04-15T10:33:52Z | TypeScript | Infrastructure/tooling | 8 | 26 | 8 | 8 |
-| [chatboxai/chatbox](https://github.com/chatboxai/chatbox) | 39820 | 2026-04-09T03:24:43Z | TypeScript | CLI | 7 | 240 | 7 | 7 |
+| [chatboxai/chatbox](https://github.com/chatboxai/chatbox) | 39832 | 2026-04-09T03:24:43Z | TypeScript | CLI | 7 | 240 | 7 | 7 |
 | [vadimdemedes/ink](https://github.com/vadimdemedes/ink) | 37800 | 2026-04-17T07:15:51Z | TypeScript | CLI | 5 | 56 | 5 | 5 |
 | [badlogic/pi-mono](https://github.com/badlogic/pi-mono) | 37319 | 2026-04-19T12:46:14Z | TypeScript | CLI | 5 | 17 | 5 | 5 |
 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 36781 | 2026-04-22T17:20:41Z | TypeScript | Infrastructure/tooling | 13 | 39 | 13 | 13 |

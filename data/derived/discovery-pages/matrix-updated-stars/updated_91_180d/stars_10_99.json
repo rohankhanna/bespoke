@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1946,
-    "concepts": 999,
-    "observations": 1005,
-    "repos": 401,
-    "terms": 999
+    "components": 1987,
+    "concepts": 1011,
+    "observations": 1017,
+    "repos": 404,
+    "terms": 1011
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "1ilkhamov/opencode-hermes-multiagent",
@@ -89,6 +89,7 @@
     "breejs/express-example",
     "brentyi/jax_dataclasses",
     "bwya77/obsidian-baseline-customization",
+    "c2corg/browserslist-update-action",
     "cahamilton/css-property-sort-order-smacss",
     "cassioneri/teju_jagua",
     "castortech/mdbxjni",
@@ -284,6 +285,7 @@
     "mvz/non-digest-assets",
     "nanostores/angular",
     "nativium/nativium",
+    "NEAR-DevHub/neardevhub-bos",
     "nelson-lang/nelson-website",
     "NielsRogge/tutorials",
     "NightFurySL2001/cjktables",
@@ -314,6 +316,7 @@
     "patterns-ai-core/qdrant-ruby",
     "penumbra-zone/jmt",
     "pfnet-research/tgan2",
+    "philipy1219/ComfyUI-TaylorSeer",
     "PhoenixIllusion/babylonjs-jolt-physics-plugin",
     "probe-lab/network-measurements",
     "probonopd/static-tools",

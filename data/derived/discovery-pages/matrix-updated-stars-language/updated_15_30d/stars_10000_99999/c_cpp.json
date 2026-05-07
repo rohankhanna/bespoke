@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 420,
-    "concepts": 501,
-    "observations": 503,
-    "repos": 56,
-    "terms": 501
+    "components": 452,
+    "concepts": 544,
+    "observations": 546,
+    "repos": 61,
+    "terms": 544
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "abseil/abseil-cpp",
     "Alexays/Waybar",
     "alibaba/MNN",
     "apache/arrow",
     "ApolloAuto/apollo",
+    "apple/foundationdb",
     "aristocratos/btop",
     "aseprite/aseprite",
     "bitcoin/bitcoin",
@@ -29,10 +30,13 @@
     "facebook/folly",
     "facebook/hhvm",
     "facebook/rocksdb",
+    "facebookresearch/faiss",
     "fmtlib/fmt",
+    "FreeRDP/FreeRDP",
     "g-truc/glm",
     "gabime/spdlog",
     "git/git",
+    "gnachman/iTerm2",
     "google/benchmark",
     "google/flatbuffers",
     "google/sanitizers",
@@ -43,6 +47,7 @@
     "jedisct1/libsodium",
     "jonas/tig",
     "mawww/kakoune",
+    "microsoft/onnxruntime",
     "microsoft/react-native-windows",
     "microsoft/winget-cli",
     "microsoft/WSL",

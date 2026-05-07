@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 285,
-    "concepts": 228,
-    "observations": 228,
-    "repos": 63,
-    "terms": 226
+    "components": 275,
+    "concepts": 225,
+    "observations": 225,
+    "repos": 62,
+    "terms": 223
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "4dn-dcic/tibanna",
@@ -33,7 +33,6 @@
     "ckan/datapusher",
     "clearml/clearml-session",
     "cmake-wheel/cmeel",
-    "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
     "collinear-ai/yc-bench",
     "cvat-ai/datumaro",
     "danielrosehill/Index",

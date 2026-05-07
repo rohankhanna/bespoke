@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 147
-- terms: 455
-- components: 890
-- concepts: 447
-- observations: 447
+- repos: 151
+- terms: 484
+- components: 930
+- concepts: 476
+- observations: 476
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [servo/servo.org](https://github.com/servo/servo.org) | 38 | 2026-04-23T10:26:04Z | Other | Infrastructure/tooling | 2 | 12 | 2 | 2 |
+| [SAP/abap-file-formats-tools](https://github.com/SAP/abap-file-formats-tools) | 28 | 2026-04-23T06:54:54Z | Other | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [SAP/abap-file-formats](https://github.com/SAP/abap-file-formats) | 91 | 2026-04-23T02:35:38Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [meta-pytorch/executorch-examples](https://github.com/meta-pytorch/executorch-examples) | 75 | 2026-04-23T00:48:34Z | Other | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [3rd/config](https://github.com/3rd/config) | 12 | 2026-04-23T00:26:11Z | Other | Unknown | 3 | 0 | 3 | 3 |
@@ -55,6 +57,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mirage/ocaml-dkim](https://github.com/mirage/ocaml-dkim) | 12 | 2026-04-21T13:33:18Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [sbt/sbt-java-formatter](https://github.com/sbt/sbt-java-formatter) | 30 | 2026-04-21T12:30:58Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [simonpoole/beautified-JOSM-preset](https://github.com/simonpoole/beautified-JOSM-preset) | 66 | 2026-04-21T10:05:13Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
+| [mrcjkb/haskell-snippets.nvim](https://github.com/mrcjkb/haskell-snippets.nvim) | 33 | 2026-04-21T09:18:44Z | Other | Infrastructure/tooling | 11 | 9 | 11 | 11 |
 | [hexaeder/MCPRepl.jl](https://github.com/hexaeder/MCPRepl.jl) | 24 | 2026-04-21T08:17:52Z | Other | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [optuna/optunahub-web](https://github.com/optuna/optunahub-web) | 10 | 2026-04-21T04:22:07Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [habamax/.vim](https://github.com/habamax/.vim) | 82 | 2026-04-21T03:38:53Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -62,6 +65,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sass-contrib/sass-embedded-host-ruby](https://github.com/sass-contrib/sass-embedded-host-ruby) | 85 | 2026-04-21T01:33:13Z | Other | Infrastructure/tooling | 9 | 7 | 9 | 9 |
 | [mrjones2014/codesettings.nvim](https://github.com/mrjones2014/codesettings.nvim) | 65 | 2026-04-21T01:32:21Z | Other | Infrastructure/tooling | 11 | 9 | 11 | 11 |
 | [standardrb/standard-performance](https://github.com/standardrb/standard-performance) | 21 | 2026-04-21T01:30:38Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [Kaiede/Bedrockifier](https://github.com/Kaiede/Bedrockifier) | 56 | 2026-04-21T01:14:58Z | Other | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [cbrgm/githubevents](https://github.com/cbrgm/githubevents) | 92 | 2026-04-20T23:30:57Z | Other | Infrastructure/tooling | 14 | 10 | 14 | 14 |
 | [dart-lang/core](https://github.com/dart-lang/core) | 68 | 2026-04-20T22:58:00Z | Other | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [harfbuzz/uharfbuzz](https://github.com/harfbuzz/uharfbuzz) | 97 | 2026-04-20T22:26:50Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
@@ -225,6 +229,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [emacscollective/epkg](https://github.com/emacscollective/epkg) | 59 | 2026-04-20T08:35:18Z | Other | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [ocaml-opam/opam2web](https://github.com/ocaml-opam/opam2web) | 59 | 2026-04-10T10:18:09Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [giggls/openstreetmap-carto-de](https://github.com/giggls/openstreetmap-carto-de) | 57 | 2026-04-13T15:45:19Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
+| [Kaiede/Bedrockifier](https://github.com/Kaiede/Bedrockifier) | 56 | 2026-04-21T01:14:58Z | Other | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [mrded/nvim-lsp-notify](https://github.com/mrded/nvim-lsp-notify) | 56 | 2026-04-17T12:55:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [babashka/babashka.nrepl](https://github.com/babashka/babashka.nrepl) | 55 | 2026-04-20T18:56:01Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [appwrite/sdk-for-swift](https://github.com/appwrite/sdk-for-swift) | 55 | 2026-04-16T12:51:53Z | Other | Infrastructure/tooling | 2 | 1 | 2 | 2 |
@@ -252,9 +257,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ocurrent/ocluster](https://github.com/ocurrent/ocluster) | 40 | 2026-04-09T21:02:30Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [lxqt/lxqt-build-tools](https://github.com/lxqt/lxqt-build-tools) | 39 | 2026-04-20T07:01:39Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [logseq/og](https://github.com/logseq/og) | 39 | 2026-04-15T18:15:22Z | Other | Infrastructure/tooling | 7 | 121 | 7 | 7 |
+| [servo/servo.org](https://github.com/servo/servo.org) | 38 | 2026-04-23T10:26:04Z | Other | Infrastructure/tooling | 2 | 12 | 2 | 2 |
 | [alexrudall/midjourney](https://github.com/alexrudall/midjourney) | 38 | 2026-04-22T15:05:13Z | Other | Service/API | 0 | 0 | 0 | 0 |
 | [JuliaGenAI/HuggingFaceDatasets.jl](https://github.com/JuliaGenAI/HuggingFaceDatasets.jl) | 37 | 2026-04-20T07:47:25Z | Other | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [ankane/blazer-docker](https://github.com/ankane/blazer-docker) | 33 | 2026-04-21T18:36:51Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
+| [mrcjkb/haskell-snippets.nvim](https://github.com/mrcjkb/haskell-snippets.nvim) | 33 | 2026-04-21T09:18:44Z | Other | Infrastructure/tooling | 11 | 9 | 11 | 11 |
 | [ankane/libmf-ruby](https://github.com/ankane/libmf-ruby) | 33 | 2026-04-17T21:45:55Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [aspect-build/rules_esbuild](https://github.com/aspect-build/rules_esbuild) | 33 | 2026-04-16T20:20:00Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [red-data-tools/red-datasets](https://github.com/red-data-tools/red-datasets) | 33 | 2026-04-14T01:43:20Z | Other | Infrastructure/tooling | 3 | 7 | 3 | 3 |
@@ -268,6 +275,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaClimate/CDSAPI.jl](https://github.com/JuliaClimate/CDSAPI.jl) | 30 | 2026-04-20T21:00:24Z | Other | CLI | 2 | 8 | 2 | 2 |
 | [ankane/neighbor-redis](https://github.com/ankane/neighbor-redis) | 30 | 2026-04-15T20:35:20Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [bencheeorg/statistex](https://github.com/bencheeorg/statistex) | 30 | 2026-04-11T09:01:31Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
+| [SAP/abap-file-formats-tools](https://github.com/SAP/abap-file-formats-tools) | 28 | 2026-04-23T06:54:54Z | Other | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [onnx/steering-committee](https://github.com/onnx/steering-committee) | 28 | 2026-04-21T13:39:48Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaPy/MicroMamba.jl](https://github.com/JuliaPy/MicroMamba.jl) | 28 | 2026-04-19T04:42:25Z | Other | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [mirage/ptt](https://github.com/mirage/ptt) | 28 | 2026-04-13T07:37:41Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |

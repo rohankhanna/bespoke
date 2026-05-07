@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 299,
-    "concepts": 282,
-    "observations": 282,
-    "repos": 22,
-    "terms": 282
+    "components": 241,
+    "concepts": 253,
+    "observations": 253,
+    "repos": 19,
+    "terms": 253
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "alacritty/alacritty",
     "DioxusLabs/dioxus",
@@ -26,9 +26,6 @@
     "oxc-project/oxc",
     "pola-rs/polars",
     "qdrant/qdrant",
-    "quickwit-oss/quickwit",
-    "quickwit-oss/tantivy",
-    "rolldown/rolldown",
     "rust-lang/mdBook",
     "shadowsocks/shadowsocks-rust",
     "tracel-ai/burn",

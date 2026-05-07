@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1471,
-    "concepts": 184,
-    "observations": 185,
-    "repos": 121,
-    "terms": 184
+    "components": 1501,
+    "concepts": 199,
+    "observations": 200,
+    "repos": 123,
+    "terms": 199
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "1000ch/atom-csso",
     "14nrv/serverless-lambda-stripe",
@@ -56,6 +56,7 @@
     "effofxprime/Cosmregistry-API",
     "ehmicky/global-cache-dir",
     "ElliotRoe/wombot",
+    "evmos/docs",
     "expenses/mateversum-web",
     "firefox-devtools/remote-settings-mdn-browser-compat-data",
     "fnproject/flowui",
@@ -89,6 +90,7 @@
     "ipdxco/awesome-github-as-code-users",
     "ipfs-examples/example-template",
     "ipfs-shipyard/contributors-hex-grid",
+    "joanroig/admincraft-websocket",
     "josephfrazier/standard-eject",
     "kabiaa/atom-ide-volar",
     "kellyselden/git-diff-apply",

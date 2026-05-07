@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 485,
-    "concepts": 366,
-    "observations": 366,
-    "repos": 39,
-    "terms": 364
+    "components": 442,
+    "concepts": 331,
+    "observations": 331,
+    "repos": 35,
+    "terms": 329
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "agentclientprotocol/agent-client-protocol",
     "apache/datafusion",
@@ -23,11 +23,9 @@
     "crate-ci/cargo-release",
     "databendlabs/openraft",
     "delta-io/delta-rs",
-    "Devolutions/IronRDP",
     "dimforge/kiss3d",
     "dora-rs/dora",
     "erebe/wstunnel",
-    "facebook/buck2",
     "facebook/pyrefly",
     "facebook/sapling",
     "holochain/holochain",
@@ -37,7 +35,6 @@
     "mozilla/uniffi-rs",
     "nats-io/nats.rs",
     "prefix-dev/pixi",
-    "risingwavelabs/risingwave",
     "robustmq/robustmq",
     "ron-rs/ron",
     "ros2-rust/ros2_rust",
@@ -49,7 +46,6 @@
     "rust-openssl/rust-openssl",
     "Splode/pomotroid",
     "supabase/etl",
-    "tensorchord/VectorChord",
     "unicode-org/icu4x",
     "VOICEVOX/voicevox_core",
     "watchexec/watchexec"

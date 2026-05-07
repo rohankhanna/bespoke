@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 502,
-    "concepts": 442,
-    "observations": 444,
-    "repos": 29,
-    "terms": 442
+    "components": 441,
+    "concepts": 378,
+    "observations": 380,
+    "repos": 25,
+    "terms": 378
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "anchore/grype",
     "authelia/authelia",
     "cert-manager/cert-manager",
     "cilium/cilium",
     "cloudflare/cloudflared",
-    "cockroachdb/cockroach",
     "containers/podman",
-    "dagger/dagger",
     "etcd-io/etcd",
     "git-lfs/git-lfs",
     "go-gitea/gitea",
@@ -32,8 +30,6 @@
     "istio/istio",
     "navidrome/navidrome",
     "oauth2-proxy/oauth2-proxy",
-    "ory/kratos",
-    "pingcap/tidb",
     "pion/webrtc",
     "pulumi/pulumi",
     "rclone/rclone",

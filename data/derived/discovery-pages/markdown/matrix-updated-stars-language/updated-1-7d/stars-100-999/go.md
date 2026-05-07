@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 49
-- terms: 428
-- components: 512
-- concepts: 428
-- observations: 429
+- terms: 418
+- components: 515
+- concepts: 420
+- observations: 421
 
 ## Static behavior
 
@@ -26,10 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [dgraph-io/dgraph-benchmarks](https://github.com/dgraph-io/dgraph-benchmarks) | 102 | 2026-05-06T08:57:09Z | Go | Unknown | 0 | 0 | 0 | 0 |
+| [gookit/filter](https://github.com/gookit/filter) | 151 | 2026-05-06T03:19:00Z | Go | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | 904 | 2026-05-05T17:27:38Z | Go | Infrastructure/tooling | 5 | 19 | 5 | 5 |
 | [osmosis-labs/osmosis](https://github.com/osmosis-labs/osmosis) | 962 | 2026-05-05T10:35:06Z | Go | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 | [itzg/mc-router](https://github.com/itzg/mc-router) | 846 | 2026-05-05T03:20:36Z | Go | CLI | 7 | 3 | 7 | 7 |
-| [gookit/config](https://github.com/gookit/config) | 584 | 2026-05-05T02:29:34Z | Go | Infrastructure/tooling | 15 | 9 | 15 | 15 |
+| [gookit/config](https://github.com/gookit/config) | 584 | 2026-05-05T02:29:34Z | Go | Infrastructure/tooling | 13 | 9 | 15 | 15 |
 | [gookit/cache](https://github.com/gookit/cache) | 198 | 2026-05-05T01:58:07Z | Go | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [gookit/event](https://github.com/gookit/event) | 570 | 2026-05-05T01:55:48Z | Go | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [charmbracelet/x](https://github.com/charmbracelet/x) | 290 | 2026-05-04T10:21:24Z | Go | CLI | 11 | 5 | 11 | 11 |
@@ -73,8 +75,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [istio/tools](https://github.com/istio/tools) | 371 | 2026-04-30T14:18:15Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [controlplaneio-fluxcd/flux-operator](https://github.com/controlplaneio-fluxcd/flux-operator) | 621 | 2026-04-30T13:41:23Z | Go | Infrastructure/tooling | 12 | 19 | 12 | 12 |
 | [cometbft/cometbft](https://github.com/cometbft/cometbft) | 889 | 2026-04-30T12:01:42Z | Go | Infrastructure/tooling | 13 | 9 | 13 | 13 |
-| [huaweicloud/huaweicloud-sdk-go-v3](https://github.com/huaweicloud/huaweicloud-sdk-go-v3) | 125 | 2026-04-30T08:16:33Z | Go | Infrastructure/tooling | 2 | 2 | 2 | 2 |
-| [hybridgroup/yzma](https://github.com/hybridgroup/yzma) | 444 | 2026-04-30T08:10:00Z | Go | Infrastructure/tooling | 15 | 3 | 15 | 15 |
 
 ## Repos sorted by stars
 
@@ -96,14 +96,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Azure/azure-storage-azcopy](https://github.com/Azure/azure-storage-azcopy) | 687 | 2026-04-30T22:28:05Z | Go | Infrastructure/tooling | 6 | 13 | 6 | 6 |
 | [cosmos/ibc-go](https://github.com/cosmos/ibc-go) | 637 | 2026-05-01T16:17:36Z | Go | Infrastructure/tooling | 7 | 15 | 7 | 7 |
 | [controlplaneio-fluxcd/flux-operator](https://github.com/controlplaneio-fluxcd/flux-operator) | 621 | 2026-04-30T13:41:23Z | Go | Infrastructure/tooling | 12 | 19 | 12 | 12 |
-| [gookit/config](https://github.com/gookit/config) | 584 | 2026-05-05T02:29:34Z | Go | Infrastructure/tooling | 15 | 9 | 15 | 15 |
+| [gookit/config](https://github.com/gookit/config) | 584 | 2026-05-05T02:29:34Z | Go | Infrastructure/tooling | 13 | 9 | 15 | 15 |
 | [pulumi/pulumi-aws](https://github.com/pulumi/pulumi-aws) | 573 | 2026-05-01T12:34:40Z | Go | Infrastructure/tooling | 17 | 22 | 17 | 17 |
 | [gookit/event](https://github.com/gookit/event) | 570 | 2026-05-05T01:55:48Z | Go | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [cosmos/gaia](https://github.com/cosmos/gaia) | 569 | 2026-04-30T19:29:15Z | Go | Infrastructure/tooling | 12 | 18 | 12 | 12 |
 | [Azure/karpenter-provider-azure](https://github.com/Azure/karpenter-provider-azure) | 538 | 2026-05-01T09:02:44Z | Go | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [istio/api](https://github.com/istio/api) | 510 | 2026-05-02T13:15:58Z | Go | Service/API | 0 | 0 | 0 | 0 |
 | [pion/rtp](https://github.com/pion/rtp) | 466 | 2026-05-01T09:18:28Z | Go | Infrastructure/tooling | 16 | 12 | 16 | 16 |
-| [hybridgroup/yzma](https://github.com/hybridgroup/yzma) | 444 | 2026-04-30T08:10:00Z | Go | Infrastructure/tooling | 15 | 3 | 15 | 15 |
 | [CosmWasm/wasmd](https://github.com/CosmWasm/wasmd) | 412 | 2026-05-04T08:11:41Z | Go | Infrastructure/tooling | 10 | 15 | 10 | 10 |
 | [apache/iceberg-go](https://github.com/apache/iceberg-go) | 405 | 2026-05-01T20:16:23Z | Go | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [runpod/runpodctl](https://github.com/runpod/runpodctl) | 393 | 2026-04-30T15:08:37Z | Go | CLI | 6 | 4 | 6 | 6 |
@@ -121,11 +120,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gookit/cache](https://github.com/gookit/cache) | 198 | 2026-05-05T01:58:07Z | Go | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [cosmos/interchain-security](https://github.com/cosmos/interchain-security) | 191 | 2026-05-01T17:59:51Z | Go | Infrastructure/tooling | 14 | 16 | 14 | 14 |
 | [celzero/firestack](https://github.com/celzero/firestack) | 162 | 2026-04-30T19:44:42Z | Go | Infrastructure/tooling | 10 | 25 | 10 | 10 |
+| [gookit/filter](https://github.com/gookit/filter) | 151 | 2026-05-06T03:19:00Z | Go | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [pulumi/pulumi-azure-native](https://github.com/pulumi/pulumi-azure-native) | 151 | 2026-05-02T09:58:10Z | Go | Infrastructure/tooling | 6 | 18 | 6 | 6 |
 | [cosmos/evm](https://github.com/cosmos/evm) | 149 | 2026-05-01T22:25:45Z | Go | Infrastructure/tooling | 6 | 15 | 6 | 6 |
 | [pion/interceptor](https://github.com/pion/interceptor) | 144 | 2026-05-01T17:08:44Z | Go | Infrastructure/tooling | 10 | 12 | 10 | 10 |
 | [pulumi/pulumi-azure](https://github.com/pulumi/pulumi-azure) | 143 | 2026-05-01T18:35:16Z | Go | Infrastructure/tooling | 15 | 20 | 15 | 15 |
 | [scaleway/scaleway-sdk-go](https://github.com/scaleway/scaleway-sdk-go) | 126 | 2026-05-02T13:09:38Z | Go | Infrastructure/tooling | 9 | 10 | 9 | 9 |
-| [huaweicloud/huaweicloud-sdk-go-v3](https://github.com/huaweicloud/huaweicloud-sdk-go-v3) | 125 | 2026-04-30T08:16:33Z | Go | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [sergelogvinov/karpenter-provider-proxmox](https://github.com/sergelogvinov/karpenter-provider-proxmox) | 110 | 2026-05-02T17:25:23Z | Go | Infrastructure/tooling | 12 | 13 | 12 | 12 |
 | [suzuki-shunsuke/ghtkn](https://github.com/suzuki-shunsuke/ghtkn) | 107 | 2026-05-01T08:12:35Z | Go | CLI | 9 | 8 | 9 | 9 |
+| [dgraph-io/dgraph-benchmarks](https://github.com/dgraph-io/dgraph-benchmarks) | 102 | 2026-05-06T08:57:09Z | Go | Unknown | 0 | 0 | 0 | 0 |

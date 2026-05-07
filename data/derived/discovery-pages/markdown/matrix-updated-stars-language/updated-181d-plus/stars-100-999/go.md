@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 173
-- terms: 684
+- repos: 174
+- terms: 688
 - components: 504
-- concepts: 695
-- observations: 695
+- concepts: 699
+- observations: 699
 
 ## Static behavior
 
@@ -122,6 +122,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [muesli/reflow](https://github.com/muesli/reflow) | 771 | 2024-04-18T19:08:14Z | Go | Infrastructure/tooling | 10 | 3 | 10 | 10 |
 | [mgutz/ansi](https://github.com/mgutz/ansi) | 426 | 2024-04-15T23:23:11Z | Go | CLI | 2 | 0 | 2 | 2 |
 | [tc-hib/go-winres](https://github.com/tc-hib/go-winres) | 397 | 2024-04-11T12:06:10Z | Go | CLI | 5 | 0 | 5 | 5 |
+| [tecbot/gorocksdb](https://github.com/tecbot/gorocksdb) | 974 | 2024-03-18T23:21:58Z | Go | Unknown | 4 | 0 | 4 | 4 |
 | [antonlindstrom/pgstore](https://github.com/antonlindstrom/pgstore) | 100 | 2024-03-13T14:12:52Z | Go | Unknown | 4 | 0 | 4 | 4 |
 | [shurcooL/markdownfmt](https://github.com/shurcooL/markdownfmt) | 817 | 2024-03-12T17:16:34Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [uptrace/go-clickhouse](https://github.com/uptrace/go-clickhouse) | 282 | 2024-02-29T16:28:34Z | Go | CLI | 6 | 5 | 6 | 6 |
@@ -204,6 +205,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [tecbot/gorocksdb](https://github.com/tecbot/gorocksdb) | 974 | 2024-03-18T23:21:58Z | Go | Unknown | 4 | 0 | 4 | 4 |
 | [argoproj-labs/argocd-vault-plugin](https://github.com/argoproj-labs/argocd-vault-plugin) | 963 | 2024-12-18T18:24:47Z | Go | Infrastructure/tooling | 13 | 7 | 13 | 13 |
 | [docker-archive/compose-cli](https://github.com/docker-archive/compose-cli) | 963 | 2023-11-27T11:12:15Z | Go | CLI | 17 | 6 | 17 | 17 |
 | [containers/image](https://github.com/containers/image) | 962 | 2025-09-02T20:22:35Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 2 |

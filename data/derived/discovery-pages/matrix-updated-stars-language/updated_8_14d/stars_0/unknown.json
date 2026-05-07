@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 8,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 23,
-    "terms": 26
+    "concepts": 25,
+    "observations": 25,
+    "repos": 22,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
-    "conda-forge/conda-lock-feedstock",
     "conda-forge/equinox-feedstock",
     "conda-forge/textgrad-feedstock",
     "conda-forge/tianshou-feedstock",

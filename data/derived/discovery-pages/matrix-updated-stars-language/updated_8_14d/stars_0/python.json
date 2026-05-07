@@ -12,12 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "danielrosehill/Claude-AI-Video-Producer-Plugin",
-    "danielrosehill/Hypothesis-Council",
     "flagos-ai/verl-FL",
     "NightWatcher314/dockgecli",
-    "NightWatcher314/npmctl"
+    "NightWatcher314/npmctl",
+    "superfarther/K2V"
   ]
 }

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 106
-- terms: 484
-- components: 485
-- concepts: 487
-- observations: 489
+- repos: 111
+- terms: 509
+- components: 508
+- concepts: 512
+- observations: 514
 
 ## Static behavior
 
@@ -26,6 +26,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [corporateshark/lightweightvk](https://github.com/corporateshark/lightweightvk) | 426 | 2026-04-23T10:19:43Z | C/C++ | Infrastructure/tooling | 0 | 7 | 0 | 0 |
+| [uxlfoundation/oneCCL](https://github.com/uxlfoundation/oneCCL) | 264 | 2026-04-23T10:13:59Z | C/C++ | Infrastructure/tooling | 9 | 2 | 9 | 9 |
+| [DOCGroup/ACE_TAO](https://github.com/DOCGroup/ACE_TAO) | 758 | 2026-04-23T09:32:28Z | C/C++ | Infrastructure/tooling | 12 | 7 | 12 | 12 |
+| [mysql/mysql-workbench](https://github.com/mysql/mysql-workbench) | 990 | 2026-04-23T09:01:56Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
+| [qbs/qbs](https://github.com/qbs/qbs) | 178 | 2026-04-23T07:18:10Z | C/C++ | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [rapidsai/rmm](https://github.com/rapidsai/rmm) | 693 | 2026-04-23T04:28:56Z | C/C++ | Infrastructure/tooling | 8 | 21 | 8 | 8 |
 | [Frommi/miniz_oxide](https://github.com/Frommi/miniz_oxide) | 233 | 2026-04-22T22:51:54Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [nss-dev/nss](https://github.com/nss-dev/nss) | 179 | 2026-04-22T22:27:07Z | C/C++ | Infrastructure/tooling | 3 | 4 | 3 | 3 |
@@ -138,6 +143,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [google/fuzztest](https://github.com/google/fuzztest) | 991 | 2026-04-22T18:54:05Z | C/C++ | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [mysql/mysql-workbench](https://github.com/mysql/mysql-workbench) | 990 | 2026-04-23T09:01:56Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [coin-or/Cbc](https://github.com/coin-or/Cbc) | 987 | 2026-04-20T19:47:50Z | C/C++ | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [microsoft/Tutel](https://github.com/microsoft/Tutel) | 986 | 2026-04-11T18:05:17Z | C/C++ | Library | 3 | 0 | 3 | 3 |
 | [Solo5/solo5](https://github.com/Solo5/solo5) | 970 | 2026-04-14T07:47:23Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 10 |
@@ -152,6 +158,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nfrechette/rtm](https://github.com/nfrechette/rtm) | 783 | 2026-04-14T00:53:39Z | C/C++ | Infrastructure/tooling | 11 | 8 | 11 | 11 |
 | [google-deepmind/reverb](https://github.com/google-deepmind/reverb) | 776 | 2026-04-16T00:09:40Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [chhylp123/hifiasm](https://github.com/chhylp123/hifiasm) | 768 | 2026-04-15T16:16:11Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |
+| [DOCGroup/ACE_TAO](https://github.com/DOCGroup/ACE_TAO) | 758 | 2026-04-23T09:32:28Z | C/C++ | Infrastructure/tooling | 12 | 7 | 12 | 12 |
 | [SHI-Labs/NATTEN](https://github.com/SHI-Labs/NATTEN) | 739 | 2026-04-14T18:51:11Z | C/C++ | Infrastructure/tooling | 4 | 0 | 4 | 4 |
 | [wdas/ptex](https://github.com/wdas/ptex) | 731 | 2026-04-11T02:00:42Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [OpenLightingProject/ola](https://github.com/OpenLightingProject/ola) | 730 | 2026-04-18T16:36:10Z | C/C++ | CLI | 14 | 8 | 14 | 14 |
@@ -181,6 +188,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [intel/QAT_Engine](https://github.com/intel/QAT_Engine) | 440 | 2026-04-10T10:08:16Z | C/C++ | Unknown | 1 | 0 | 1 | 1 |
 | [usdot-fhwa-stol/carma-platform](https://github.com/usdot-fhwa-stol/carma-platform) | 431 | 2026-04-17T13:14:20Z | C/C++ | Infrastructure/tooling | 12 | 14 | 12 | 12 |
 | [SaschaWillems/HowToVulkan](https://github.com/SaschaWillems/HowToVulkan) | 427 | 2026-04-22T17:14:53Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
+| [corporateshark/lightweightvk](https://github.com/corporateshark/lightweightvk) | 426 | 2026-04-23T10:19:43Z | C/C++ | Infrastructure/tooling | 0 | 7 | 0 | 0 |
 | [cusplibrary/cusplibrary](https://github.com/cusplibrary/cusplibrary) | 422 | 2026-04-18T02:33:33Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [fribidi/fribidi](https://github.com/fribidi/fribidi) | 420 | 2026-04-13T19:09:20Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [ARM-software/CMSIS-NN](https://github.com/ARM-software/CMSIS-NN) | 388 | 2026-04-20T13:19:37Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
@@ -209,6 +217,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bnprks/BPCells](https://github.com/bnprks/BPCells) | 278 | 2026-04-09T07:09:29Z | C/C++ | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [CarlosDerSeher/snapclient](https://github.com/CarlosDerSeher/snapclient) | 270 | 2026-04-07T17:35:00Z | C/C++ | CLI | 10 | 3 | 10 | 10 |
 | [openSUSE/catatonit](https://github.com/openSUSE/catatonit) | 265 | 2026-04-22T09:10:14Z | C/C++ | Infrastructure/tooling | 2 | 1 | 2 | 2 |
+| [uxlfoundation/oneCCL](https://github.com/uxlfoundation/oneCCL) | 264 | 2026-04-23T10:13:59Z | C/C++ | Infrastructure/tooling | 9 | 2 | 9 | 9 |
 | [elixir-sqlite/exqlite](https://github.com/elixir-sqlite/exqlite) | 258 | 2026-04-09T19:42:24Z | C/C++ | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [apache/datasketches-cpp](https://github.com/apache/datasketches-cpp) | 257 | 2026-04-14T06:24:16Z | C/C++ | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [ampl/mp](https://github.com/ampl/mp) | 248 | 2026-04-21T10:26:15Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
@@ -224,6 +233,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [actboy168/bee.lua](https://github.com/actboy168/bee.lua) | 192 | 2026-04-22T05:12:07Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [boostorg/nowide](https://github.com/boostorg/nowide) | 188 | 2026-04-22T14:14:46Z | C/C++ | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [nss-dev/nss](https://github.com/nss-dev/nss) | 179 | 2026-04-22T22:27:07Z | C/C++ | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [qbs/qbs](https://github.com/qbs/qbs) | 178 | 2026-04-23T07:18:10Z | C/C++ | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [freebsd/kyua](https://github.com/freebsd/kyua) | 175 | 2026-04-18T18:16:04Z | C/C++ | Infrastructure/tooling | 5 | 0 | 5 | 5 |
 | [appium/appium-mac2-driver](https://github.com/appium/appium-mac2-driver) | 174 | 2026-04-15T05:08:28Z | C/C++ | Infrastructure/tooling | 9 | 37 | 9 | 9 |
 | [apache/pulsar-client-node](https://github.com/apache/pulsar-client-node) | 165 | 2026-04-22T13:45:00Z | C/C++ | CLI | 10 | 27 | 10 | 10 |

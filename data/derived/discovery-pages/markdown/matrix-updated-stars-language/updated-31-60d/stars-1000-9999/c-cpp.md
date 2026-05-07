@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 58
-- terms: 308
+- repos: 59
+- terms: 311
 - components: 217
-- concepts: 312
-- observations: 313
+- concepts: 316
+- observations: 317
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [posva/catimg](https://github.com/posva/catimg) | 1545 | 2026-04-07T08:59:37Z | C/C++ | CLI | 3 | 0 | 4 | 4 |
 | [go-gl/glfw](https://github.com/go-gl/glfw) | 1674 | 2026-04-06T07:22:36Z | C/C++ | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [espeak-ng/espeak-ng](https://github.com/espeak-ng/espeak-ng) | 6388 | 2026-04-06T06:32:15Z | C/C++ | Infrastructure/tooling | 12 | 8 | 12 | 13 |
 | [h2o/picohttpparser](https://github.com/h2o/picohttpparser) | 2058 | 2026-04-06T05:31:48Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
@@ -137,6 +138,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [TuGraph-family/tugraph-db](https://github.com/TuGraph-family/tugraph-db) | 1728 | 2026-03-31T03:18:27Z | C/C++ | Infrastructure/tooling | 12 | 9 | 12 | 12 |
 | [go-gl/glfw](https://github.com/go-gl/glfw) | 1674 | 2026-04-06T07:22:36Z | C/C++ | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [TA-Lib/ta-lib](https://github.com/TA-Lib/ta-lib) | 1553 | 2026-04-01T06:23:41Z | C/C++ | Infrastructure/tooling | 9 | 3 | 9 | 9 |
+| [posva/catimg](https://github.com/posva/catimg) | 1545 | 2026-04-07T08:59:37Z | C/C++ | CLI | 3 | 0 | 4 | 4 |
 | [felt/tippecanoe](https://github.com/felt/tippecanoe) | 1493 | 2026-04-02T23:58:29Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [NVIDIA/gdrcopy](https://github.com/NVIDIA/gdrcopy) | 1373 | 2026-03-12T16:30:20Z | C/C++ | Library | 6 | 0 | 6 | 6 |
 | [cdown/clipmenu](https://github.com/cdown/clipmenu) | 1243 | 2026-04-03T06:53:04Z | C/C++ | CLI | 6 | 2 | 6 | 6 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 391,
-    "concepts": 252,
-    "observations": 255,
-    "repos": 56,
-    "terms": 251
+    "components": 367,
+    "concepts": 228,
+    "observations": 231,
+    "repos": 52,
+    "terms": 227
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "AarshBatra/biteSizedAQ",
     "Accla/d4m",
@@ -26,7 +26,6 @@
     "bladeacer/flexcyon",
     "cloudfoundry/uaa-release",
     "conservationtechlab/animl-r",
-    "controlplaneio-fluxcd/distribution",
     "countries/countries-data-json",
     "CuatroElixir/spear",
     "cucumber/cucumber-js-examples",
@@ -60,10 +59,7 @@
     "MSP-Greg/ruby-loco",
     "osrf/homebrew-simulation",
     "palladius/gemini-news-crawler",
-    "php/doc-es",
-    "php/doc-fr",
     "pipecat-ai/docs",
-    "r-lib/pkgload",
     "robotology/robotology-superbuild",
     "ruby/jruby-dev-builder",
     "ruby/ruby-dev-builder",

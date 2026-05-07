@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 159
-- terms: 400
-- components: 377
-- concepts: 404
-- observations: 407
+- repos: 161
+- terms: 410
+- components: 399
+- concepts: 414
+- observations: 417
 
 ## Static behavior
 
@@ -47,6 +47,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gogama/incite](https://github.com/gogama/incite) | 64 | 2025-07-18T15:25:45Z | Go | Unknown | 5 | 0 | 5 | 5 |
 | [rueian/rueidis-benchmark](https://github.com/rueian/rueidis-benchmark) | 11 | 2025-07-18T03:02:22Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [maoueh/zap-pretty](https://github.com/maoueh/zap-pretty) | 59 | 2025-07-17T15:55:57Z | Go | CLI | 2 | 3 | 2 | 2 |
+| [osmosis-labs/cosmos-sdk](https://github.com/osmosis-labs/cosmos-sdk) | 13 | 2025-07-16T09:04:51Z | Go | Infrastructure/tooling | 7 | 11 | 7 | 7 |
 | [itchyny/gojo](https://github.com/itchyny/gojo) | 61 | 2025-06-21T12:34:04Z | Go | CLI | 3 | 5 | 4 | 4 |
 | [chenghonour/formulago](https://github.com/chenghonour/formulago) | 54 | 2025-06-19T09:01:32Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [InftyAI/scheduler-plugins](https://github.com/InftyAI/scheduler-plugins) | 11 | 2025-06-16T07:20:33Z | Go | Infrastructure/tooling | 3 | 3 | 3 | 3 |
@@ -64,6 +65,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [brpaz/echozap](https://github.com/brpaz/echozap) | 67 | 2025-02-09T19:05:47Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [cloudwego/thrift-gen-validator](https://github.com/cloudwego/thrift-gen-validator) | 21 | 2025-02-08T09:50:26Z | Go | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [aethiopicuschan/cubism-go](https://github.com/aethiopicuschan/cubism-go) | 33 | 2025-02-04T15:22:16Z | Go | Infrastructure/tooling | 0 | 4 | 0 | 0 |
+| [skip-mev/block-sdk](https://github.com/skip-mev/block-sdk) | 68 | 2025-01-31T19:58:22Z | Go | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [aimerneige/yukichan-bot](https://github.com/aimerneige/yukichan-bot) | 14 | 2025-01-29T17:41:09Z | Go | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [go-logr/glogr](https://github.com/go-logr/glogr) | 14 | 2025-01-28T17:29:59Z | Go | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [pinpox/base16-universal-manager](https://github.com/pinpox/base16-universal-manager) | 97 | 2025-01-23T19:14:41Z | Go | Unknown | 10 | 0 | 10 | 10 |
@@ -217,6 +219,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [authorizer-tech/access-controller](https://github.com/authorizer-tech/access-controller) | 73 | 2021-10-26T01:37:21Z | Go | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [malfunkt/iprange](https://github.com/malfunkt/iprange) | 70 | 2024-12-22T22:40:38Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [dgrr/websocket](https://github.com/dgrr/websocket) | 68 | 2025-03-10T16:59:37Z | Go | Unknown | 5 | 0 | 5 | 5 |
+| [skip-mev/block-sdk](https://github.com/skip-mev/block-sdk) | 68 | 2025-01-31T19:58:22Z | Go | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [filhodanuvem/polyglot](https://github.com/filhodanuvem/polyglot) | 68 | 2023-02-25T09:10:39Z | Go | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [jaegertracing/jaeger-lib](https://github.com/jaegertracing/jaeger-lib) | 67 | 2025-08-17T15:30:59Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [brpaz/echozap](https://github.com/brpaz/echozap) | 67 | 2025-02-09T19:05:47Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |
@@ -331,6 +334,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aimerneige/miraichess](https://github.com/aimerneige/MiraiChess) | 14 | 2023-08-21T00:58:48Z | Go | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [cmwaters/skychart](https://github.com/cmwaters/skychart) | 14 | 2023-05-04T19:59:31Z | Go | CLI | 0 | 0 | 0 | 0 |
 | [a3chron/gith](https://github.com/a3chron/gith) | 13 | 2025-10-21T07:52:31Z | Go | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [osmosis-labs/cosmos-sdk](https://github.com/osmosis-labs/cosmos-sdk) | 13 | 2025-07-16T09:04:51Z | Go | Infrastructure/tooling | 7 | 11 | 7 | 7 |
 | [ingenuity-build/interchain-queries](https://github.com/ingenuity-build/interchain-queries) | 13 | 2024-05-21T11:34:39Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [bozerkins/terraform-provider-dkron](https://github.com/bozerkins/terraform-provider-dkron) | 13 | 2024-05-09T04:16:03Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [goradd/html5tag](https://github.com/goradd/html5tag) | 13 | 2023-12-10T23:53:09Z | Go | Infrastructure/tooling | 0 | 2 | 0 | 0 |

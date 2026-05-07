@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 377,
-    "concepts": 404,
-    "observations": 407,
-    "repos": 159,
-    "terms": 400
+    "components": 399,
+    "concepts": 414,
+    "observations": 417,
+    "repos": 161,
+    "terms": 410
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "0xcafed00d/joystick",
     "1set/cronrange",
@@ -140,6 +140,7 @@
     "OpenTreeHole/auth_next",
     "operator-framework/java-operator-plugins",
     "oras-project/artifacts-spec",
+    "osmosis-labs/cosmos-sdk",
     "pinpox/base16-universal-manager",
     "pulumi/halloumi",
     "qri-io/dataset",
@@ -151,6 +152,7 @@
     "seasonjs/rwkv",
     "sh1ma/voicevoxcore.go",
     "sideprotocol/ibcswap",
+    "skip-mev/block-sdk",
     "someone1/gcp-jwt-go",
     "spacemeshos/smrepl",
     "spazzymoto/echo-scs-session",

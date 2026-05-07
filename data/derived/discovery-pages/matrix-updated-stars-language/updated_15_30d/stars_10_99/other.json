@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 890,
-    "concepts": 447,
-    "observations": 447,
-    "repos": 147,
-    "terms": 455
+    "components": 930,
+    "concepts": 476,
+    "observations": 476,
+    "repos": 151,
+    "terms": 484
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "3rd/config",
     "AdaCore/gnatcoll-core",
@@ -107,6 +107,7 @@
     "jupyterlab/extension-template",
     "jupyterlite/xeus",
     "kahliburke/Kaimon.jl",
+    "Kaiede/Bedrockifier",
     "kata-containers/www.katacontainers.io",
     "kbenzie/vim-spirv",
     "kendryte/k230_canmv_docs",
@@ -123,6 +124,7 @@
     "mirage/ocaml-dkim",
     "mirage/ptt",
     "mmark-md/mmark-cli",
+    "mrcjkb/haskell-snippets.nvim",
     "mrded/nvim-lsp-notify",
     "mrjones2014/codesettings.nvim",
     "musicman3/emarket",
@@ -143,10 +145,12 @@
     "ruby-debug/ruby-debug",
     "rust-lang-ru/rust-by-example",
     "SAP/abap-file-formats",
+    "SAP/abap-file-formats-tools",
     "sass-contrib/sass-embedded-host-ruby",
     "sbcgua/ajson",
     "sbt/sbt-java-formatter",
     "sentientwave/automata",
+    "servo/servo.org",
     "simonpoole/beautified-JOSM-preset",
     "simplecov-ruby/simplecov-html",
     "SimplyDanny/SwiftLintPlugins",

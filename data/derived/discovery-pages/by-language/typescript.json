@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 60167,
-    "concepts": 10295,
-    "observations": 10330,
-    "repos": 1832,
-    "terms": 10603
+    "components": 60269,
+    "concepts": 10316,
+    "observations": 10351,
+    "repos": 1836,
+    "terms": 10622
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "0h7z/vscode-julia-format",
@@ -934,6 +934,7 @@
     "jsonwebtoken/jsonwebtoken.github.io",
     "jspreadsheet/spreadsheet-react-server",
     "juice-shop/juice-shop",
+    "julia-actions/install-juliaup",
     "julia-actions/setup-julia",
     "julia-vscode/julia-vscode",
     "juliangruber/brace-expansion",
@@ -1172,6 +1173,7 @@
     "mmkal/expect-type",
     "Mobile-Artificial-Intelligence/maid",
     "mobxjs/mobx",
+    "mobxjs/mobx-angular",
     "modelcontextprotocol/inspector",
     "modelcontextprotocol/servers",
     "Moldoteck/MagicEraser",
@@ -1649,6 +1651,8 @@
     "tatethurston/ProtoScript",
     "tatethurston/TwirpScript",
     "tats-u/markdown-cjk-friendly",
+    "TelemetryHub/opentelemetry-demo",
+    "teletrace/opentelemetry-demo",
     "tensorflow/tensorboard",
     "testing-library/angular-testing-library",
     "testing-library/react-hooks-testing-library",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 265,
-    "concepts": 461,
-    "observations": 463,
-    "repos": 41,
-    "terms": 459
+    "components": 251,
+    "concepts": 447,
+    "observations": 449,
+    "repos": 39,
+    "terms": 445
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,15 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
-    "apple/foundationdb",
     "arangodb/arangodb",
     "asmvik/yabai",
     "baldurk/renderdoc",
     "bkaradzic/bgfx",
     "cameron314/concurrentqueue",
+    "carla-simulator/carla",
     "catchorg/Catch2",
     "chromium/chromium",
     "citusdata/citus",
@@ -28,10 +28,7 @@
     "davisking/dlib",
     "dmlc/xgboost",
     "envoyproxy/envoy",
-    "facebookresearch/faiss",
     "FFmpeg/FFmpeg",
-    "FreeRDP/FreeRDP",
-    "gnachman/iTerm2",
     "google/filament",
     "grpc/grpc",
     "h2o/h2o",
@@ -42,10 +39,10 @@
     "libvips/libvips",
     "lightgbm-org/LightGBM",
     "microsoft/mimalloc",
-    "microsoft/onnxruntime",
     "microsoft/STL",
     "mongodb/mongo",
     "oceanbase/oceanbase",
+    "opencv/opencv",
     "openframeworks/openFrameworks",
     "PaddlePaddle/Paddle",
     "qemu/qemu",
@@ -54,6 +51,7 @@
     "swaywm/sway",
     "systemd/systemd",
     "taskflow/taskflow",
+    "v8/v8",
     "yhirose/cpp-httplib"
   ]
 }

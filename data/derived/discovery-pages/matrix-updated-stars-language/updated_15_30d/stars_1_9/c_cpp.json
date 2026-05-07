@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 152,
-    "concepts": 89,
-    "observations": 89,
-    "repos": 11,
-    "terms": 88
+    "components": 158,
+    "concepts": 91,
+    "observations": 91,
+    "repos": 13,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman-js",
     "CHIP-SPV/H4I-MKLShim",
+    "compiler-research/CPyCppyy",
+    "DavidKinder/inform",
     "decibri/decibri.cpp",
     "gbrobro119-star/darksword-kexploit",
     "lonewolf-jp/convopeq",

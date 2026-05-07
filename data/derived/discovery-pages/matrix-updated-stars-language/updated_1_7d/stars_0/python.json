@@ -3,7 +3,7 @@
     "components": 9,
     "concepts": 6,
     "observations": 6,
-    "repos": 4,
+    "repos": 3,
     "terms": 6
   },
   "facet_version": 1,
@@ -12,11 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "danielrosehill/Claude-Agent-Relay-Plugin",
     "lace/lacecore",
-    "seanmacavaney/ir-datasets.com",
-    "superfarther/K2V"
+    "seanmacavaney/ir-datasets.com"
   ]
 }

@@ -3,7 +3,7 @@
     "components": 79,
     "concepts": 81,
     "observations": 82,
-    "repos": 16,
+    "repos": 17,
     "terms": 80
   },
   "facet_version": 1,
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "akarnokd/RxJavaFiberInterop",
     "apache/datasketches-hive",
     "apache/datasketches-pig",
+    "Azure-Samples/agent-openai-java-banking-assistant-langgraph4j",
     "bobbylight/RSTALanguageSupport",
     "bobbylight/SpellChecker",
     "clearml/clearml-pycharm-plugin",

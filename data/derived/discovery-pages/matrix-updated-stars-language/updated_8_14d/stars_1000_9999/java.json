@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 415,
-    "concepts": 552,
-    "observations": 553,
-    "repos": 50,
-    "terms": 548
+    "components": 432,
+    "concepts": 568,
+    "observations": 568,
+    "repos": 51,
+    "terms": 564
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "alibaba/spring-ai-alibaba",
@@ -20,8 +20,6 @@
     "apache/camel",
     "apache/flink-kubernetes-operator",
     "apache/hudi",
-    "apache/lucene",
-    "apache/netbeans",
     "apache/parquet-java",
     "apache/pdfbox",
     "apache/poi",
@@ -47,6 +45,7 @@
     "google/google-java-format",
     "google/tsunami-security-scanner-plugins",
     "googleapis/google-cloud-java",
+    "hazelcast/hazelcast",
     "iterate-ch/cyberduck",
     "jhipster/prettier-java",
     "jline/jline3",
@@ -58,7 +57,9 @@
     "konsoletyper/teavm",
     "langgraph4j/langgraph4j",
     "lightbend/config",
+    "micronaut-projects/micronaut-core",
     "oshi/oshi",
+    "reactor/BlockHound",
     "reactor/reactor-core",
     "SonarSource/sonar-java",
     "spring-projects/spring-ai",

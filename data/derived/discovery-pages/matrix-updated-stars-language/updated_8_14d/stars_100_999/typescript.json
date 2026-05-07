@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1929,
-    "concepts": 492,
-    "observations": 492,
-    "repos": 68,
-    "terms": 487
+    "components": 2069,
+    "concepts": 523,
+    "observations": 523,
+    "repos": 70,
+    "terms": 518
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,23 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "antfu/eslint-flat-config-utils",
     "apollographql/federation",
+    "appium/appium-xcuitest-driver",
     "appwrite/sdk-for-web",
     "astahmer/typed-openapi",
-    "astral-sh/ruff-action",
     "aws-samples/swift-chat",
     "azat-io/eslint-plugin-de-morgan",
     "bitwarden/directory-connector",
+    "browserslist/browserslist-useragent-regexp",
     "chainguard-dev/actions",
     "ClickHouse/clickhouse-js",
     "cocos/cocos-docs",
     "daeh/zotero-markdb-connect",
     "danielroe/beasties",
     "decentralized-identity/did-resolver",
-    "DeterminateSystems/nix-installer-action",
     "docker/bake-action",
     "electron-vite/vite-plugin-electron-renderer",
     "flathub-infra/website",
@@ -72,7 +72,7 @@
     "redhat-developer/vscode-xml",
     "redhat-developer/vscode-yaml",
     "relative-ci/bundle-stats",
-    "safe-fndn/safe-singleton-factory",
+    "rstackjs/storybook-rsbuild",
     "salesforcecli/cli",
     "sapphiredev/utilities",
     "sergiodxa/remix-i18next",
@@ -80,7 +80,9 @@
     "TabbyML/pochi",
     "tats-u/markdown-cjk-friendly",
     "tinylibs/tinyexec",
+    "un-ts/prettier",
     "unjs/c12",
-    "web-infra-dev/rslib"
+    "web-infra-dev/rslib",
+    "web-infra-dev/rstest"
   ]
 }

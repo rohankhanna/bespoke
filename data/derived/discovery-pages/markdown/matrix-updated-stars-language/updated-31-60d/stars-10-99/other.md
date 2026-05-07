@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 99
-- terms: 342
-- components: 349
-- concepts: 344
-- observations: 346
+- repos: 100
+- terms: 347
+- components: 362
+- concepts: 349
+- observations: 351
 
 ## Static behavior
 
@@ -90,6 +90,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [SciML/sciml.ai](https://github.com/SciML/sciml.ai) | 75 | 2026-03-21T12:34:46Z | Other | Infrastructure/tooling | 11 | 4 | 11 | 11 |
 | [blaine/fantastty](https://github.com/blaine/fantastty) | 29 | 2026-03-21T01:06:26Z | Other | CLI | 1 | 5 | 1 | 1 |
 | [js-temporal/proposal-temporal-v2](https://github.com/js-temporal/proposal-temporal-v2) | 26 | 2026-03-20T20:15:53Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [oracle-quickstart/oci-o11y-solutions](https://github.com/oracle-quickstart/oci-o11y-solutions) | 18 | 2026-03-20T16:34:03Z | Other | Infrastructure/tooling | 5 | 13 | 5 | 5 |
 | [notaryproject/notaryproject.dev](https://github.com/notaryproject/notaryproject.dev) | 28 | 2026-03-19T23:55:18Z | Other | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [Azure-Samples/openai-chat-backend-fastapi](https://github.com/Azure-Samples/openai-chat-backend-fastapi) | 66 | 2026-03-19T22:49:31Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [w3c/element-timing](https://github.com/w3c/element-timing) | 60 | 2026-03-19T19:08:26Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -210,6 +211,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [crazy-max/yasu](https://github.com/crazy-max/yasu) | 19 | 2026-03-28T16:02:11Z | Other | Infrastructure/tooling | 10 | 13 | 10 | 10 |
 | [dwyl/learn-alpine.js](https://github.com/dwyl/learn-alpine.js) | 18 | 2026-04-03T16:58:44Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [aperezdc/lua-wcwidth](https://github.com/aperezdc/lua-wcwidth) | 18 | 2026-03-28T22:31:20Z | Other | Infrastructure/tooling | 6 | 5 | 6 | 6 |
+| [oracle-quickstart/oci-o11y-solutions](https://github.com/oracle-quickstart/oci-o11y-solutions) | 18 | 2026-03-20T16:34:03Z | Other | Infrastructure/tooling | 5 | 13 | 5 | 5 |
 | [ibhagwan/ts-vimdoc.nvim](https://github.com/ibhagwan/ts-vimdoc.nvim) | 17 | 2026-04-05T12:32:50Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [rainyl/native_toolchain_cmake](https://github.com/rainyl/native_toolchain_cmake) | 17 | 2026-04-03T08:37:42Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [MisanthropicBit/neotest-busted](https://github.com/MisanthropicBit/neotest-busted) | 16 | 2026-04-02T18:10:10Z | Other | Infrastructure/tooling | 10 | 11 | 10 | 11 |

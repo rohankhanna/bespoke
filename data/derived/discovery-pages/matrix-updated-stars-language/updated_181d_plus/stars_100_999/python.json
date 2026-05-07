@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1104,
-    "concepts": 5116,
-    "observations": 5119,
-    "repos": 1744,
-    "terms": 4966
+    "concepts": 5127,
+    "observations": 5130,
+    "repos": 1748,
+    "terms": 4977
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -932,6 +932,7 @@
     "Kahsolt/stable-diffusion-webui-sonar",
     "Kai-46/nerfplusplus",
     "kaixin96/PANet",
+    "KaiyangZhou/mixstyle-release",
     "kakaobrain/mindall-e",
     "kakaobrain/torchgpipe",
     "Kaliiiiiiiiii-Vinyzu/CDP-Patches",
@@ -1201,6 +1202,7 @@
     "naver/deep-image-retrieval",
     "naver/r2d2",
     "necla-ml/SNLI-VE",
+    "neelsjain/NEFTune",
     "neosr-project/neosr",
     "neulab/ExplainaBoard",
     "neverbiasu/ComfyUI-BAGEL",
@@ -1304,6 +1306,7 @@
     "openxrlab/xrmocap",
     "orangeduck/lafan1-resolved",
     "OrangeX4/latex2sympy",
+    "OrionStarAI/Orion",
     "OS-Copilot/OS-Atlas",
     "OscarXZQ/weight-selection",
     "OSU-NLP-Group/TravelPlanner",
@@ -1715,6 +1718,7 @@
     "yuliangguo/Pytorch_Generalized_3D_Lane_Detection",
     "YunseokJANG/tgif-qa",
     "yunxiaoshi/Neural-IMage-Assessment",
+    "Yushi-Hu/tifa",
     "yuval-alaluf/SAM",
     "yuvalkirstain/PickScore",
     "yuyangw/MolCLR",

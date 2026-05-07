@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 57,
-    "concepts": 53,
-    "observations": 53,
-    "repos": 23,
-    "terms": 52
+    "components": 65,
+    "concepts": 59,
+    "observations": 59,
+    "repos": 25,
+    "terms": 58
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "42-evey/evey-bridge-plugin",
     "al1-nasir/Research_council",
@@ -25,6 +25,7 @@
     "cognizant-ai-lab/neuro-san-cc",
     "conda-forge/cupy-feedstock",
     "danielrosehill/claude-slash-commands",
+    "danielrosehill/donetick-mcp",
     "fixie-ai/evals",
     "flinedev/recall",
     "KabakaWilliam/trajectorykit",
@@ -34,6 +35,7 @@
     "openelections/openelections-data-sd",
     "radian-software/gnu-elpa-mirror",
     "ROCm/rbuild",
+    "runtimeverification/kup",
     "shadmau/autocouncil",
     "sparklabutah/timewarp",
     "zkcrypto/rfcs"

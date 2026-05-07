@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1221,
-    "concepts": 1200,
-    "observations": 1204,
-    "repos": 252,
-    "terms": 1210
+    "components": 1287,
+    "concepts": 1244,
+    "observations": 1249,
+    "repos": 260,
+    "terms": 1253
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
@@ -75,6 +75,7 @@
     "compilerla/conventional-pre-commit",
     "conda-forge/conda-smithy",
     "conda/grayskull",
+    "confluentinc/confluent-kafka-python",
     "crytic/crytic-compile",
     "crytic/pyevmasm",
     "crytic/solc-select",
@@ -191,10 +192,13 @@
     "notofonts/nototools",
     "nuprl/MultiPL-E",
     "NVIDIA-NeMo/Emerging-Optimizers",
+    "NVIDIA-NeMo/Megatron-Bridge",
     "nvpro-samples/vk_mini_samples",
     "ogx-ai/llama-stack-client-python",
     "oh-my-ocr/text_renderer",
     "OpenBMB/BMTrain",
+    "OpenHands/OpenHands-CLI",
+    "OpenHands/software-agent-sdk",
     "optuna/optuna-examples",
     "pandas-dev/pandas-stubs",
     "patrick-kidger/optimistix",
@@ -202,6 +206,7 @@
     "pedronauck/skills",
     "petercorke/machinevision-toolbox-python",
     "pettingllms-ai/PettingLLMs",
+    "PhoenixZ810/RISEBench",
     "pimutils/todoman",
     "pipecat-ai/pipecat-examples",
     "PKU-YuanGroup/ChronoMagic-Bench",
@@ -223,6 +228,7 @@
     "python-poetry/poetry-core",
     "python-poetry/poetry-plugin-bundle",
     "QubesOS/qubes-secpack",
+    "redai-infra/Relax",
     "replicate/cog-examples",
     "rgeirhos/Stylized-ImageNet",
     "Rhoban/onshape-to-robot",
@@ -235,6 +241,7 @@
     "ryjoxtechnologies/octopoda-os",
     "SandAI-org/MagiAttention",
     "scrapinghub/article-extraction-benchmark",
+    "searxng/searx-instances",
     "spylang/spy",
     "strands-agents/agent-sop",
     "strands-agents/evals",
@@ -251,6 +258,7 @@
     "TIGER-AI-Lab/VLM2Vec",
     "trailofbits/dropkit",
     "triton-inference-server/tutorials",
+    "ultralytics/thop",
     "Unbabel/COMET",
     "unixorn/lima-xbar-plugin",
     "urschrei/simplification",

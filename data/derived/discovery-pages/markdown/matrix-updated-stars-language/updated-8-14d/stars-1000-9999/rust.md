@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 70
-- terms: 558
-- components: 703
-- concepts: 561
-- observations: 566
+- repos: 71
+- terms: 567
+- components: 723
+- concepts: 569
+- observations: 573
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Devolutions/IronRDP](https://github.com/Devolutions/IronRDP) | 2957 | 2026-04-30T09:16:17Z | Rust | Infrastructure/tooling | 6 | 17 | 6 | 6 |
+| [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) | 8966 | 2026-04-30T07:05:21Z | Rust | Infrastructure/tooling | 18 | 9 | 18 | 18 |
+| [facebook/buck2](https://github.com/facebook/buck2) | 4324 | 2026-04-30T06:50:35Z | Rust | Infrastructure/tooling | 3 | 10 | 3 | 3 |
+| [tensorchord/VectorChord](https://github.com/tensorchord/VectorChord) | 1660 | 2026-04-30T06:35:45Z | Rust | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [GreptimeTeam/greptimedb](https://github.com/GreptimeTeam/greptimedb) | 6222 | 2026-04-30T04:17:54Z | Rust | Infrastructure/tooling | 26 | 16 | 26 | 26 |
 | [floneum/floneum](https://github.com/floneum/floneum) | 2183 | 2026-04-30T02:45:59Z | Rust | Infrastructure/tooling | 15 | 4 | 15 | 15 |
 | [wasm-bindgen/wasm-bindgen](https://github.com/wasm-bindgen/wasm-bindgen) | 8975 | 2026-04-30T02:24:03Z | Rust | Infrastructure/tooling | 6 | 20 | 6 | 6 |
@@ -93,9 +97,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [j178/prek](https://github.com/j178/prek) | 7381 | 2026-04-23T13:37:22Z | Rust | Infrastructure/tooling | 7 | 31 | 7 | 7 |
 | [servo/pathfinder](https://github.com/servo/pathfinder) | 3877 | 2026-04-23T11:40:36Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [apache/iggy](https://github.com/apache/iggy) | 4158 | 2026-04-23T11:04:45Z | Rust | Infrastructure/tooling | 7 | 12 | 7 | 7 |
-| [compio-rs/compio](https://github.com/compio-rs/compio) | 1665 | 2026-04-23T10:30:22Z | Rust | Infrastructure/tooling | 8 | 11 | 8 | 8 |
-| [succinctlabs/sp1](https://github.com/succinctlabs/sp1) | 1644 | 2026-04-23T08:13:55Z | Rust | Infrastructure/tooling | 14 | 9 | 14 | 14 |
-| [pulldown-cmark/pulldown-cmark](https://github.com/pulldown-cmark/pulldown-cmark) | 2550 | 2026-04-23T06:43:06Z | Rust | Infrastructure/tooling | 4 | 3 | 5 | 6 |
 
 ## Repos sorted by stars
 
@@ -103,6 +104,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [pkgxdev/pkgx](https://github.com/pkgxdev/pkgx) | 9723 | 2026-04-27T16:00:12Z | Rust | Infrastructure/tooling | 9 | 15 | 9 | 9 |
 | [wasm-bindgen/wasm-bindgen](https://github.com/wasm-bindgen/wasm-bindgen) | 8975 | 2026-04-30T02:24:03Z | Rust | Infrastructure/tooling | 6 | 20 | 6 | 6 |
+| [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) | 8966 | 2026-04-30T07:05:21Z | Rust | Infrastructure/tooling | 18 | 9 | 18 | 18 |
 | [j178/prek](https://github.com/j178/prek) | 7381 | 2026-04-23T13:37:22Z | Rust | Infrastructure/tooling | 7 | 31 | 7 | 7 |
 | [boa-dev/boa](https://github.com/boa-dev/boa) | 7211 | 2026-04-27T00:50:49Z | Rust | Infrastructure/tooling | 18 | 15 | 18 | 18 |
 | [wasm-bindgen/wasm-pack](https://github.com/wasm-bindgen/wasm-pack) | 7156 | 2026-04-28T17:43:28Z | Rust | CLI | 9 | 14 | 9 | 9 |
@@ -120,6 +122,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apache/opendal](https://github.com/apache/opendal) | 5025 | 2026-04-23T16:11:31Z | Rust | Infrastructure/tooling | 14 | 13 | 14 | 14 |
 | [huggingface/text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference) | 4757 | 2026-04-29T18:07:32Z | Rust | Infrastructure/tooling | 7 | 15 | 7 | 7 |
 | [dimforge/nalgebra](https://github.com/dimforge/nalgebra) | 4711 | 2026-04-23T18:38:57Z | Rust | Infrastructure/tooling | 5 | 3 | 5 | 5 |
+| [facebook/buck2](https://github.com/facebook/buck2) | 4324 | 2026-04-30T06:50:35Z | Rust | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [apache/iggy](https://github.com/apache/iggy) | 4158 | 2026-04-23T11:04:45Z | Rust | Infrastructure/tooling | 7 | 12 | 7 | 7 |
 | [squidowl/halloy](https://github.com/squidowl/halloy) | 4089 | 2026-04-29T17:16:56Z | Rust | Infrastructure/tooling | 9 | 19 | 9 | 9 |
 | [actix/examples](https://github.com/actix/examples) | 3950 | 2026-04-29T10:29:35Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
@@ -131,12 +134,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [modelcontextprotocol/rust-sdk](https://github.com/modelcontextprotocol/rust-sdk) | 3329 | 2026-04-23T21:31:03Z | Rust | Infrastructure/tooling | 4 | 12 | 4 | 4 |
 | [Myriad-Dreamin/tinymist](https://github.com/Myriad-Dreamin/tinymist) | 3142 | 2026-04-26T00:25:23Z | Rust | Infrastructure/tooling | 10 | 27 | 10 | 10 |
 | [Rust-GPU/rust-gpu](https://github.com/Rust-GPU/rust-gpu) | 3058 | 2026-04-29T12:15:01Z | Rust | Infrastructure/tooling | 10 | 11 | 10 | 10 |
+| [Devolutions/IronRDP](https://github.com/Devolutions/IronRDP) | 2957 | 2026-04-30T09:16:17Z | Rust | Infrastructure/tooling | 6 | 17 | 6 | 6 |
 | [mozilla/cbindgen](https://github.com/mozilla/cbindgen) | 2877 | 2026-04-28T14:56:18Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [obi1kenobi/trustfall](https://github.com/obi1kenobi/trustfall) | 2851 | 2026-04-27T04:45:02Z | Rust | Infrastructure/tooling | 6 | 15 | 6 | 6 |
 | [eycorsican/leaf](https://github.com/eycorsican/leaf) | 2776 | 2026-04-27T12:37:15Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [cargo-bins/cargo-binstall](https://github.com/cargo-bins/cargo-binstall) | 2637 | 2026-04-29T10:28:41Z | Rust | Infrastructure/tooling | 10 | 15 | 10 | 10 |
 | [rust-bitcoin/rust-bitcoin](https://github.com/rust-bitcoin/rust-bitcoin) | 2618 | 2026-04-23T14:58:32Z | Rust | Infrastructure/tooling | 7 | 10 | 7 | 7 |
-| [pulldown-cmark/pulldown-cmark](https://github.com/pulldown-cmark/pulldown-cmark) | 2550 | 2026-04-23T06:43:06Z | Rust | Infrastructure/tooling | 4 | 3 | 5 | 6 |
 | [rust-lang/libc](https://github.com/rust-lang/libc) | 2529 | 2026-04-29T08:14:32Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [rust-cross/cargo-zigbuild](https://github.com/rust-cross/cargo-zigbuild) | 2450 | 2026-04-26T02:45:49Z | Rust | Infrastructure/tooling | 5 | 24 | 5 | 5 |
 | [RustAudio/rodio](https://github.com/RustAudio/rodio) | 2333 | 2026-04-27T19:20:35Z | Rust | Infrastructure/tooling | 4 | 1 | 4 | 4 |
@@ -150,8 +153,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [georust/geo](https://github.com/georust/geo) | 1863 | 2026-04-29T10:17:38Z | Rust | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [64bit/async-openai](https://github.com/64bit/async-openai) | 1862 | 2026-04-26T19:36:16Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [esp-rs/esp-hal](https://github.com/esp-rs/esp-hal) | 1855 | 2026-04-23T16:11:29Z | Rust | Infrastructure/tooling | 12 | 11 | 12 | 12 |
-| [compio-rs/compio](https://github.com/compio-rs/compio) | 1665 | 2026-04-23T10:30:22Z | Rust | Infrastructure/tooling | 8 | 11 | 8 | 8 |
-| [succinctlabs/sp1](https://github.com/succinctlabs/sp1) | 1644 | 2026-04-23T08:13:55Z | Rust | Infrastructure/tooling | 14 | 9 | 14 | 14 |
+| [tensorchord/VectorChord](https://github.com/tensorchord/VectorChord) | 1660 | 2026-04-30T06:35:45Z | Rust | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [obi1kenobi/cargo-semver-checks](https://github.com/obi1kenobi/cargo-semver-checks) | 1615 | 2026-04-27T04:51:26Z | Rust | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [kivikakk/comrak](https://github.com/kivikakk/comrak) | 1601 | 2026-04-27T14:03:59Z | Rust | Infrastructure/tooling | 9 | 8 | 10 | 11 |
 | [cobalt-org/cobalt.rs](https://github.com/cobalt-org/cobalt.rs) | 1518 | 2026-04-27T20:46:35Z | Rust | Infrastructure/tooling | 11 | 11 | 11 | 11 |

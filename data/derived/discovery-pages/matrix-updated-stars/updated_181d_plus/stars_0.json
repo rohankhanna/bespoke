@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1110,
-    "concepts": 476,
-    "observations": 478,
-    "repos": 393,
-    "terms": 476
+    "components": 1137,
+    "concepts": 486,
+    "observations": 488,
+    "repos": 398,
+    "terms": 486
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "2KAbhishek/exercism-fetcher",
@@ -262,7 +262,10 @@
     "JuliaBinaryWrappers/Libiconv_jll.jl",
     "JuliaBinaryWrappers/LightGBM_jll.jl",
     "JuliaBinaryWrappers/LLVMOpenMP_jll.jl",
+    "JuliaBinaryWrappers/Lz4_jll.jl",
     "JuliaBinaryWrappers/pixi_jll.jl",
+    "JuliaBinaryWrappers/snappy_jll.jl",
+    "JuliaBinaryWrappers/Thrift_jll.jl",
     "JuliaBinaryWrappers/yyjson_jll.jl",
     "juliaci/base-buildkite-docs",
     "JuliaDocs/DocumenterInventoryWritingBackport.jl",
@@ -336,6 +339,7 @@
     "offline-ai/cli-plugin-cmd-brain.js",
     "OlivierDehaene/candle",
     "oneflow-inc/docker-images",
+    "osmosis-labs/block-sdk",
     "panekj/lapce-plugin-rust",
     "passcod/cargo-release-pr-test",
     "pengzhendong/files",
@@ -378,6 +382,7 @@
     "taoensso/roadmap",
     "team-acaisia/php-varint",
     "tedsteen/puffin",
+    "TelemetryHub/opentelemetry-demo",
     "thanku-all/parse_answer",
     "threesigmaxyz/filplus-allocator-bot",
     "timelic/source-han-serif",

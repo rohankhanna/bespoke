@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 48,
-    "concepts": 45,
-    "observations": 45,
+    "components": 52,
+    "concepts": 58,
+    "observations": 58,
     "repos": 9,
-    "terms": 45
+    "terms": 58
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "ankitpokhrel/shopctl",
-    "cloudfoundry/bosh-google-cpi-release",
     "cloudfoundry/credhub-cli",
     "golangci/go-printf-func-name",
     "golangci/misspell",
+    "gookit/ini",
     "kubernetes-sigs/karpenter-provider-ibm-cloud",
     "philips-labs/dct-notary-admin",
     "tendermint/tm-db",

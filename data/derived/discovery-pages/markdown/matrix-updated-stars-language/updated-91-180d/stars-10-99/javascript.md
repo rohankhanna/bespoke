@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 27
-- terms: 43
-- components: 321
-- concepts: 43
-- observations: 44
+- repos: 28
+- terms: 53
+- components: 333
+- concepts: 53
+- observations: 54
 
 ## Static behavior
 
@@ -35,6 +35,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chaijs/check-error](https://github.com/chaijs/check-error) | 15 | 2026-01-03T23:15:58Z | JavaScript | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [breejs/api](https://github.com/breejs/api) | 13 | 2026-01-02T09:12:51Z | JavaScript | Infrastructure/tooling | 0 | 60 | 0 | 0 |
 | [LuaLS/vscode-lua-doc](https://github.com/LuaLS/vscode-lua-doc) | 11 | 2025-12-22T15:50:55Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [NEAR-DevHub/neardevhub-bos](https://github.com/NEAR-DevHub/neardevhub-bos) | 25 | 2025-12-22T13:58:44Z | JavaScript | Infrastructure/tooling | 10 | 12 | 10 | 10 |
 | [d3x0r/JSOX](https://github.com/d3x0r/JSOX) | 56 | 2025-12-18T05:55:47Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
 | [ember-cli/broccoli-caching-writer](https://github.com/ember-cli/broccoli-caching-writer) | 17 | 2025-12-15T20:20:33Z | JavaScript | Infrastructure/tooling | 3 | 19 | 3 | 3 |
 | [ykdojo/cc-safe](https://github.com/ykdojo/cc-safe) | 51 | 2025-12-10T01:16:28Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
@@ -73,6 +74,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [haskell-actions/run-ormolu](https://github.com/haskell-actions/run-ormolu) | 32 | 2025-11-26T20:23:59Z | JavaScript | Infrastructure/tooling | 0 | 7 | 0 | 0 |
 | [bevry/domain-browser](https://github.com/bevry/domain-browser) | 32 | 2025-11-22T16:19:22Z | JavaScript | CLI | 5 | 7 | 5 | 5 |
 | [markdown-it/markdown-it-sub](https://github.com/markdown-it/markdown-it-sub) | 29 | 2025-11-21T08:09:35Z | JavaScript | Infrastructure/tooling | 0 | 13 | 0 | 0 |
+| [NEAR-DevHub/neardevhub-bos](https://github.com/NEAR-DevHub/neardevhub-bos) | 25 | 2025-12-22T13:58:44Z | JavaScript | Infrastructure/tooling | 10 | 12 | 10 | 10 |
 | [markdown-it/markdown-it-cjk-breaks](https://github.com/markdown-it/markdown-it-cjk-breaks) | 23 | 2025-11-21T01:06:50Z | JavaScript | Infrastructure/tooling | 0 | 14 | 0 | 0 |
 | [dzeiocom/simple-icons-astro](https://github.com/dzeiocom/simple-icons-astro) | 21 | 2025-12-07T06:17:35Z | JavaScript | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [breejs/express-example](https://github.com/breejs/express-example) | 19 | 2026-01-07T08:38:03Z | JavaScript | Unknown | 0 | 25 | 0 | 0 |

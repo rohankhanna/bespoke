@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 301,
-    "concepts": 255,
-    "observations": 255,
-    "repos": 58,
-    "terms": 251
+    "components": 305,
+    "concepts": 251,
+    "observations": 251,
+    "repos": 57,
+    "terms": 247
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
     "agno-agi/coda",
@@ -31,10 +31,10 @@
     "cloudfoundry/community",
     "conda-forge/admin-requests",
     "conda-forge/conda-forge-pinning-feedstock",
-    "conda-forge/conda-forge-repodata-patches-feedstock",
     "DanielNoord/pydocstringformatter",
     "dbfixtures/mirakuru",
     "DeterminateSystems/determinate-nix-action",
+    "espressif/esp-idf-monitor",
     "executablebooks/mdit-py-plugins",
     "flagos-ai/vllm-plugin-FL",
     "graalvm/oracle-graalvm-ea-builds",
@@ -44,7 +44,6 @@
     "instadeepai/fastpbrl",
     "LedgerHQ/ragger",
     "mayeut/pep600_compliance",
-    "mesh-iit/cad-libraries",
     "meta-pytorch/MSLK",
     "MGenAI/GRN",
     "microsoft/olive-recipes",
@@ -54,7 +53,6 @@
     "notofonts/notobuilder",
     "oneapi-src/level-zero-spec",
     "open-edge-platform/physical-ai-studio",
-    "OpenHands/benchmarks",
     "pdm-project/tox-pdm",
     "pipecat-ai/pipecat-cli",
     "plone/cookieplone",
@@ -66,6 +64,7 @@
     "sublimelsp/LSP-ruff",
     "sublimelsp/LSP-volar",
     "symgraph/BinAssistMCP",
+    "TaWald/nnUNet",
     "terrierteam/pyterrier_pisa",
     "theupdateframework/tuf-on-ci",
     "Thinklab-SJTU/Bench2Drive-Speed",

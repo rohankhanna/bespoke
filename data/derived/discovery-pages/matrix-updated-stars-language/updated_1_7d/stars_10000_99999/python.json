@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 486,
-    "concepts": 473,
-    "observations": 474,
-    "repos": 41,
-    "terms": 468
+    "components": 444,
+    "concepts": 452,
+    "observations": 454,
+    "repos": 39,
+    "terms": 447
   },
   "facet_version": 1,
   "filters": {
@@ -12,26 +12,23 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "aden-hive/hive",
-    "agentscope-ai/agentscope",
     "agentscope-ai/QwenPaw",
     "axolotl-ai-cloud/axolotl",
     "certbot/certbot",
     "Comfy-Org/ComfyUI-Manager",
-    "crewAIInc/crewAI",
     "cvat-ai/cvat",
     "datalab-to/marker",
+    "datalab-to/surya",
     "docling-project/docling",
     "facefusion/facefusion",
     "fastapi/fastapi",
     "fastapi/typer",
     "huggingface/datasets",
-    "huggingface/trl",
     "keras-team/keras",
     "Kludex/starlette",
-    "kvcache-ai/ktransformers",
     "Lightning-AI/litgpt",
     "lucidrains/vit-pytorch",
     "MetaCubeX/mihomo",
@@ -54,6 +51,7 @@
     "unclecode/crawl4ai",
     "ungoogled-software/ungoogled-chromium",
     "vega/altair",
-    "wkentaro/labelme"
+    "wkentaro/labelme",
+    "zhayujie/CowAgent"
   ]
 }

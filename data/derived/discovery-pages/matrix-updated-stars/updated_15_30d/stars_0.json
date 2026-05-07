@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 738,
-    "concepts": 224,
-    "observations": 224,
-    "repos": 148,
-    "terms": 253
+    "components": 748,
+    "concepts": 232,
+    "observations": 232,
+    "repos": 156,
+    "terms": 261
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "8144225309/superscalar-cln",
@@ -47,6 +47,9 @@
     "conda-forge/bottom-feedstock",
     "conda-forge/cccl-feedstock",
     "conda-forge/conda-forge-feedstock-ops",
+    "conda-forge/conda-lock-feedstock",
+    "conda-forge/cppinterop-feedstock",
+    "conda-forge/diffutils-feedstock",
     "conda-forge/python-isal-feedstock",
     "csjgg/ags-cookbook",
     "Culmus/hebrew-fonts",
@@ -83,6 +86,7 @@
     "danielrosehill/Geopol-Forecasts-Index",
     "danielrosehill/Github-Ideas-And-FRs",
     "danielrosehill/Github-Repo-Org-Question",
+    "danielrosehill/Hypothesis-Council",
     "danielrosehill/Iran-Israel-Ceasefire-Prediction-090426",
     "danielrosehill/lan-manager-plugin",
     "danielrosehill/Live-Typing-UX-Research",
@@ -90,6 +94,7 @@
     "danielrosehill/My-Benchmarks",
     "danielrosehill/Red-Alert-Monitoring-Stack",
     "databendlabs/databend-base",
+    "DataDog/vault",
     "datafuse-extras/orc-rust",
     "DeepWok/mase-docker",
     "dubbo-go-pixiu/dubbo-go-pixiu",
@@ -119,10 +124,13 @@
     "jsleekr/skilldigest",
     "JuliaBinaryWrappers/CUDA_Driver_jll.jl",
     "JuliaBinaryWrappers/CUDA_Runtime_jll.jl",
+    "JuliaBinaryWrappers/JpegTurbo_jll.jl",
+    "JuliaBinaryWrappers/libaec_jll.jl",
     "JuliaBinaryWrappers/Libmount_jll.jl",
     "JuliaBinaryWrappers/libpng_jll.jl",
     "JuliaBinaryWrappers/Libuuid_jll.jl",
     "kdn36/arrow-rs-object-store",
+    "kdubbo/xds-api",
     "kidshadow79/ogma",
     "l12203685/digital-immortality",
     "livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux",

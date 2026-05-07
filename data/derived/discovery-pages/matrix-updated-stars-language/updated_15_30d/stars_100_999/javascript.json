@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1880,
+    "components": 1892,
     "concepts": 459,
     "observations": 464,
-    "repos": 92,
+    "repos": 93,
     "terms": 480
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "actions/create-github-app-token",
     "actions/hello-world-javascript-action",
@@ -76,6 +76,7 @@
     "lobehub/lobe-editor",
     "mapbox/mapbox-gl-styles",
     "mapbox/pbf",
+    "mapbox/tilelive",
     "mapbox/vector-tile-js",
     "mattgodbolt/jsbeeb",
     "muratcankoylan/ralph-wiggum-marketer",

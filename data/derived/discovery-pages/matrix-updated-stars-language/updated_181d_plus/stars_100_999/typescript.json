@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4635,
-    "concepts": 685,
-    "observations": 687,
-    "repos": 191,
-    "terms": 696
+    "components": 4684,
+    "concepts": 693,
+    "observations": 695,
+    "repos": 192,
+    "terms": 704
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "101arrowz/fzstd",
     "1hanzla100/developer-portfolio",
@@ -139,6 +139,7 @@
     "microsoft/vscode-references-view",
     "milhidaka/webgpu-blas",
     "MiniMax-AI/MiniMax-MCP-JS",
+    "mobxjs/mobx-angular",
     "morrys/wora",
     "mostjs/core",
     "neoclide/coc-css",

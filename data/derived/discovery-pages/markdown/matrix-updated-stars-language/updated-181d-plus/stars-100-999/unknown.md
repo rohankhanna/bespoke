@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 231
-- terms: 395
+- repos: 235
+- terms: 404
 - components: 118
-- concepts: 395
-- observations: 396
+- concepts: 404
+- observations: 405
 
 ## Static behavior
 
@@ -43,6 +43,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mswjs/examples](https://github.com/mswjs/examples) | 726 | 2025-09-16T10:32:17Z | Unknown | Infrastructure/tooling | 11 | 4 | 11 | 12 |
 | [YoYo000/BlendedMVS](https://github.com/YoYo000/BlendedMVS) | 669 | 2025-09-08T02:21:12Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [eliemichel/LearnWebGPU-Code](https://github.com/eliemichel/LearnWebGPU-Code) | 165 | 2025-09-05T15:11:12Z | Unknown | Infrastructure/tooling | 4 | 1 | 4 | 4 |
+| [xuyang-liu16/Awesome-Token-level-Model-Compression](https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression) | 195 | 2025-09-03T12:31:53Z | Unknown | Model/data | 7 | 0 | 7 | 7 |
 | [microsoft/VSProjectSystem](https://github.com/microsoft/VSProjectSystem) | 329 | 2025-09-03T02:46:30Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [FasterXML/smile-format-specification](https://github.com/FasterXML/smile-format-specification) | 109 | 2025-08-27T22:46:19Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [rust-lang/unsafe-code-guidelines](https://github.com/rust-lang/unsafe-code-guidelines) | 740 | 2025-08-19T12:22:16Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -71,6 +72,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [notaryproject/specifications](https://github.com/notaryproject/specifications) | 175 | 2025-05-20T04:02:03Z | Unknown | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [drduh/Router-Guide](https://github.com/drduh/Router-Guide) | 180 | 2025-05-11T23:50:37Z | Unknown | Docs/knowledge | 13 | 0 | 13 | 13 |
 | [multiformats/multibase](https://github.com/multiformats/multibase) | 324 | 2025-05-11T14:46:47Z | Unknown | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [360CVGroup/Qihoo-T2X](https://github.com/360CVGroup/Qihoo-T2X) | 446 | 2025-05-10T10:33:24Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [HCIILAB/M6Doc](https://github.com/HCIILAB/M6Doc) | 160 | 2025-05-08T14:53:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [jingsam/vector-tile-spec](https://github.com/jingsam/vector-tile-spec) | 198 | 2025-05-05T12:50:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ipfs/roadmap](https://github.com/ipfs/roadmap) | 298 | 2025-05-01T08:39:08Z | Unknown | Infrastructure/tooling | 2 | 2 | 2 | 2 |
@@ -157,6 +159,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mikewest/privacy-budget](https://github.com/mikewest/privacy-budget) | 209 | 2024-01-29T06:23:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [microsoft/vscode-discussions](https://github.com/microsoft/vscode-discussions) | 255 | 2024-01-27T00:46:19Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [nicoth-in/Dark-Space-Theme](https://github.com/nicoth-in/Dark-Space-Theme) | 163 | 2024-01-26T15:49:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [iridium-browser/iridium-browser](https://github.com/iridium-browser/iridium-browser) | 412 | 2024-01-26T09:48:44Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [octokit/authentication-strategies.js](https://github.com/octokit/authentication-strategies.js) | 323 | 2024-01-13T22:43:08Z | Unknown | Service/API | 2 | 0 | 2 | 2 |
 | [yarnpkg/rfcs](https://github.com/yarnpkg/rfcs) | 431 | 2024-01-06T17:52:20Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [mekicha/awesome-sanic](https://github.com/mekicha/awesome-sanic) | 769 | 2024-01-06T09:10:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -233,6 +236,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [acmi-lab/cmu-10717-the-art-of-the-paper](https://github.com/acmi-lab/cmu-10717-the-art-of-the-paper) | 288 | 2022-04-21T16:06:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [cuilimeng/CoAID](https://github.com/cuilimeng/CoAID) | 114 | 2022-04-04T02:41:24Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [rust-secure-code/safety-dance](https://github.com/rust-secure-code/safety-dance) | 570 | 2022-03-25T17:24:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [pirapira/ethereum-formal-verification-overview](https://github.com/pirapira/ethereum-formal-verification-overview) | 296 | 2022-03-24T10:30:02Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [babel/proposals](https://github.com/babel/proposals) | 436 | 2022-01-18T09:10:47Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [crev-dev/crev](https://github.com/crev-dev/crev) | 425 | 2022-01-18T03:04:46Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [QingyongHu/VISO](https://github.com/QingyongHu/VISO) | 166 | 2021-12-22T06:47:19Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
@@ -320,6 +324,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aigc3d/AniGS](https://github.com/aigc3d/AniGS) | 452 | 2025-03-13T19:01:23Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [imfing/ava_downloader](https://github.com/imfing/ava_downloader) | 447 | 2024-02-14T21:07:34Z | Unknown | Model/data | 3 | 0 | 3 | 3 |
 | [Azure/app-service-announcements](https://github.com/Azure/app-service-announcements) | 447 | 2022-07-28T17:18:26Z | Unknown | Service/API | 3 | 0 | 3 | 3 |
+| [360CVGroup/Qihoo-T2X](https://github.com/360CVGroup/Qihoo-T2X) | 446 | 2025-05-10T10:33:24Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [defunctzombie/package-browser-field-spec](https://github.com/defunctzombie/package-browser-field-spec) | 443 | 2021-08-22T18:22:45Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [mala-lab/ADBenchmarks-anomaly-detection-datasets](https://github.com/mala-lab/ADBenchmarks-anomaly-detection-datasets) | 438 | 2025-10-01T13:16:29Z | Unknown | Model/data | 12 | 0 | 12 | 12 |
 | [facebookresearch/MovieGenBench](https://github.com/facebookresearch/MovieGenBench) | 437 | 2025-03-08T07:58:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -330,6 +335,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [necolas/issue-guidelines](https://github.com/necolas/issue-guidelines) | 425 | 2022-06-01T12:20:55Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [crev-dev/crev](https://github.com/crev-dev/crev) | 425 | 2022-01-18T03:04:46Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [google-research-datasets/conceptual-12m](https://github.com/google-research-datasets/conceptual-12m) | 421 | 2025-07-14T06:27:09Z | Unknown | Model/data | 3 | 0 | 3 | 3 |
+| [iridium-browser/iridium-browser](https://github.com/iridium-browser/iridium-browser) | 412 | 2024-01-26T09:48:44Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [microsoft/containerregistry](https://github.com/microsoft/containerregistry) | 411 | 2025-04-01T14:15:22Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [OS-Agent-Survey/OS-Agent-Survey](https://github.com/OS-Agent-Survey/OS-Agent-Survey) | 409 | 2025-08-16T07:10:15Z | Unknown | Unknown | 14 | 0 | 14 | 14 |
 | [github/MVG](https://github.com/github/MVG) | 408 | 2024-06-06T09:18:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -372,6 +378,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ipfs/roadmap](https://github.com/ipfs/roadmap) | 298 | 2025-05-01T08:39:08Z | Unknown | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [ichitenfont/inheritedglyphs](https://github.com/ichitenfont/inheritedglyphs) | 298 | 2024-05-08T21:13:28Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [justinpinkney/awesome-pretrained-stylegan3](https://github.com/justinpinkney/awesome-pretrained-stylegan3) | 298 | 2022-07-18T12:45:24Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
+| [pirapira/ethereum-formal-verification-overview](https://github.com/pirapira/ethereum-formal-verification-overview) | 296 | 2022-03-24T10:30:02Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [mpnally/Terrifically-Simple-JSON](https://github.com/mpnally/Terrifically-Simple-JSON) | 294 | 2022-07-17T03:25:26Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [WeikaiTan/Toronto-3D](https://github.com/WeikaiTan/Toronto-3D) | 291 | 2025-10-30T19:22:34Z | Unknown | Model/data | 7 | 0 | 7 | 7 |
 | [mapbox/simplestyle-spec](https://github.com/mapbox/simplestyle-spec) | 291 | 2025-10-07T19:23:54Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -417,6 +424,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jingsam/vector-tile-spec](https://github.com/jingsam/vector-tile-spec) | 198 | 2025-05-05T12:50:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Adamdad/Awesome-ComposableAI](https://github.com/Adamdad/Awesome-ComposableAI) | 197 | 2023-11-24T04:51:12Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [aws/aws-proton-public-roadmap](https://github.com/aws/aws-proton-public-roadmap) | 196 | 2021-06-21T19:49:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [xuyang-liu16/Awesome-Token-level-Model-Compression](https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression) | 195 | 2025-09-03T12:31:53Z | Unknown | Model/data | 7 | 0 | 7 | 7 |
 | [openvinotoolkit/awesome-openvino](https://github.com/openvinotoolkit/awesome-openvino) | 194 | 2025-06-30T03:23:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [swift-server/sswg](https://github.com/swift-server/sswg) | 189 | 2025-07-07T13:56:15Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [opencontainers/artwork](https://github.com/opencontainers/artwork) | 189 | 2021-10-20T18:40:18Z | Unknown | Unknown | 2 | 0 | 2 | 2 |

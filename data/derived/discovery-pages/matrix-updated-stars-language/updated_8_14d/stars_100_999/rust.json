@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 782,
-    "concepts": 544,
-    "observations": 546,
-    "repos": 82,
-    "terms": 540
+    "components": 794,
+    "concepts": 547,
+    "observations": 549,
+    "repos": 84,
+    "terms": 543
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "0x676e67/wreq",
     "0xPolygonHermez/zisk",
     "a16z/jolt",
+    "A2-ai/rv",
     "akiomik/mado",
     "alexcrichton/ssh2-rs",
     "ankane/tokenizers-ruby",
@@ -27,7 +28,6 @@
     "apollographql/apollo-mcp-server",
     "apollographql/router",
     "apollographql/rover",
-    "arkworks-rs/algebra",
     "arkworks-rs/crypto-primitives",
     "arkworks-rs/poly-commit",
     "aws/aws-lc-rs",
@@ -42,17 +42,19 @@
     "Dicklesworthstone/coding_agent_session_search",
     "Dicklesworthstone/frankentui",
     "DioxusLabs/docsite",
+    "duckdb/duckdb-rs",
     "eitsupi/arf",
     "enbop/fungi",
+    "EricLBuehler/candle-vllm",
     "esp-rs/espflash",
     "esp-rs/std-training",
     "EspressoSystems/espresso-network",
     "evaera/moonwave",
     "facebookexperimental/rust-shed",
-    "fancy-regex/fancy-regex",
     "filecoin-project/filecoin-ffi",
     "flatgeobuf/flatgeobuf",
     "helyim/helyim",
+    "hermit-os/uhyve",
     "huggingface/hf-hub",
     "huggingface/nfsserve",
     "hyper-mcp-rs/hyper-mcp",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 569,
-    "concepts": 697,
-    "observations": 702,
-    "repos": 121,
-    "terms": 696
+    "components": 573,
+    "concepts": 703,
+    "observations": 708,
+    "repos": 122,
+    "terms": 702
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
@@ -99,6 +99,7 @@
     "nesquena/rabl",
     "ninenines/cowboy",
     "nmattia/niv",
+    "nvim-treesitter/nvim-treesitter-textobjects",
     "OFA-Sys/Chinese-CLIP",
     "OmniSharp/omnisharp-roslyn",
     "onnx/models",

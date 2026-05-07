@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 62
-- terms: 269
-- components: 413
-- concepts: 272
-- observations: 274
+- repos: 60
+- terms: 266
+- components: 400
+- concepts: 269
+- observations: 271
 
 ## Static behavior
 
@@ -86,8 +86,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [featherbread/hypcast](https://github.com/featherbread/hypcast) | 12 | 2026-04-08T04:15:38Z | Go | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [darkweak/storages](https://github.com/darkweak/storages) | 14 | 2026-04-07T12:38:57Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 3 |
 | [ionos-cloud/external-dns-ionos-webhook](https://github.com/ionos-cloud/external-dns-ionos-webhook) | 22 | 2026-04-07T12:15:18Z | Go | Infrastructure/tooling | 12 | 8 | 12 | 12 |
-| [0ghny/gitconfig](https://github.com/0ghny/gitconfig) | 15 | 2026-04-07T08:29:20Z | Go | CLI | 2 | 10 | 2 | 2 |
-| [getlantern/.github](https://github.com/getlantern/.github) | 30 | 2026-04-07T06:04:55Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -129,7 +127,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cometbft/cometbft-db](https://github.com/cometbft/cometbft-db) | 31 | 2026-04-10T13:21:47Z | Go | Infrastructure/tooling | 6 | 12 | 6 | 6 |
 | [coder/coder-logstream-kube](https://github.com/coder/coder-logstream-kube) | 30 | 2026-04-20T11:13:59Z | Go | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [cloudfoundry/bbs](https://github.com/cloudfoundry/bbs) | 30 | 2026-04-16T18:46:01Z | Go | Service/API | 1 | 0 | 1 | 1 |
-| [getlantern/.github](https://github.com/getlantern/.github) | 30 | 2026-04-07T06:04:55Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [fgrehm/clotilde](https://github.com/fgrehm/clotilde) | 29 | 2026-04-13T07:30:54Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [appleboy/drone-lambda](https://github.com/appleboy/drone-lambda) | 27 | 2026-04-18T03:56:18Z | Go | Infrastructure/tooling | 11 | 15 | 11 | 11 |
 | [apache/dubbo-go-pixiu-samples](https://github.com/apache/dubbo-go-pixiu-samples) | 25 | 2026-04-12T11:38:11Z | Go | Infrastructure/tooling | 2 | 6 | 2 | 2 |
@@ -146,7 +143,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [usbarmory/GoTEE-example](https://github.com/usbarmory/GoTEE-example) | 17 | 2026-04-10T09:59:42Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [celo-org/op-geth](https://github.com/celo-org/op-geth) | 16 | 2026-04-16T14:00:01Z | Go | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [hashicorp/hcp-sdk-go](https://github.com/hashicorp/hcp-sdk-go) | 16 | 2026-04-15T08:45:18Z | Go | Infrastructure/tooling | 5 | 3 | 5 | 5 |
-| [0ghny/gitconfig](https://github.com/0ghny/gitconfig) | 15 | 2026-04-07T08:29:20Z | Go | CLI | 2 | 10 | 2 | 2 |
 | [notaryproject/notation-core-go](https://github.com/notaryproject/notation-core-go) | 14 | 2026-04-13T17:57:13Z | Go | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [darkweak/storages](https://github.com/darkweak/storages) | 14 | 2026-04-07T12:38:57Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 3 |
 | [davidkarlsen/flyway-operator](https://github.com/davidkarlsen/flyway-operator) | 12 | 2026-04-21T23:39:12Z | Go | Infrastructure/tooling | 12 | 17 | 12 | 12 |

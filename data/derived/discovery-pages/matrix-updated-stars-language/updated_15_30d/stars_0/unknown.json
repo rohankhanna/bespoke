@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 43,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 58,
-    "terms": 43
+    "concepts": 35,
+    "observations": 35,
+    "repos": 59,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "aaronrsun/spec-kit-issue",
@@ -24,6 +24,7 @@
     "cachix/serde-envfile",
     "carloandremoreyra/xx",
     "chafingdishposition355/go-skills",
+    "conda-forge/conda-lock-feedstock",
     "conda-forge/python-isal-feedstock",
     "csjgg/ags-cookbook",
     "Culmus/hebrew-fonts",

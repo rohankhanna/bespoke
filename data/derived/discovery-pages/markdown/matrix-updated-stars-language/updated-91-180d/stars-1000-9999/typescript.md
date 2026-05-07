@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -29,7 +29,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nat/openplayground](https://github.com/nat/openplayground) | 6359 | 2026-02-06T04:56:49Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
 | [actions/checkout](https://github.com/actions/checkout) | 7803 | 2026-02-03T15:54:51Z | TypeScript | Infrastructure/tooling | 7 | 30 | 7 | 7 |
 | [ricky0123/vad](https://github.com/ricky0123/vad) | 1943 | 2026-01-30T14:04:11Z | TypeScript | Infrastructure/tooling | 11 | 31 | 11 | 11 |
-| [shareAI-lab/Kode-Agent](https://github.com/shareAI-lab/Kode-Agent) | 5005 | 2026-01-23T20:20:17Z | TypeScript | Infrastructure/tooling | 4 | 71 | 4 | 4 |
+| [shareAI-lab/Kode-Agent](https://github.com/shareAI-lab/Kode-Agent) | 5006 | 2026-01-23T20:20:17Z | TypeScript | Infrastructure/tooling | 4 | 71 | 4 | 4 |
 | [google/gts](https://github.com/google/gts) | 5275 | 2026-01-21T23:36:42Z | TypeScript | Infrastructure/tooling | 4 | 40 | 4 | 4 |
 | [improbable-eng/ts-protoc-gen](https://github.com/improbable-eng/ts-protoc-gen) | 1398 | 2026-01-21T23:30:21Z | TypeScript | Web app | 5 | 25 | 5 | 5 |
 | [msgpack/msgpack-javascript](https://github.com/msgpack/msgpack-javascript) | 1540 | 2026-01-20T22:25:46Z | TypeScript | Infrastructure/tooling | 9 | 44 | 9 | 9 |
@@ -67,7 +67,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [PaulLeCam/react-leaflet](https://github.com/PaulLeCam/react-leaflet) | 5581 | 2025-12-31T13:03:00Z | TypeScript | Infrastructure/tooling | 4 | 20 | 4 | 4 |
 | [vercel/ms](https://github.com/vercel/ms) | 5521 | 2026-01-16T16:27:00Z | TypeScript | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [google/gts](https://github.com/google/gts) | 5275 | 2026-01-21T23:36:42Z | TypeScript | Infrastructure/tooling | 4 | 40 | 4 | 4 |
-| [shareAI-lab/Kode-Agent](https://github.com/shareAI-lab/Kode-Agent) | 5005 | 2026-01-23T20:20:17Z | TypeScript | Infrastructure/tooling | 4 | 71 | 4 | 4 |
+| [shareAI-lab/Kode-Agent](https://github.com/shareAI-lab/Kode-Agent) | 5006 | 2026-01-23T20:20:17Z | TypeScript | Infrastructure/tooling | 4 | 71 | 4 | 4 |
 | [unplugin/unplugin-icons](https://github.com/unplugin/unplugin-icons) | 4843 | 2026-01-14T10:52:48Z | TypeScript | Infrastructure/tooling | 9 | 26 | 9 | 9 |
 | [obsidianmd/obsidian-sample-plugin](https://github.com/obsidianmd/obsidian-sample-plugin) | 4137 | 2025-12-30T18:09:48Z | TypeScript | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [unplugin/unplugin-auto-import](https://github.com/unplugin/unplugin-auto-import) | 3781 | 2026-01-14T23:43:18Z | TypeScript | Infrastructure/tooling | 6 | 34 | 6 | 6 |

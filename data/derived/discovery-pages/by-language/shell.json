@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1836,
-    "concepts": 2751,
-    "observations": 2770,
-    "repos": 688,
-    "terms": 2695
+    "components": 1842,
+    "concepts": 2759,
+    "observations": 2778,
+    "repos": 692,
+    "terms": 2703
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "shell"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",
@@ -208,6 +208,7 @@
     "conda-forge/pgvector-feedstock",
     "conda-forge/pinocchio-feedstock",
     "conda-forge/poppler-feedstock",
+    "conda-forge/rerun-sdk-feedstock",
     "conda-forge/spacy-feedstock",
     "conda-forge/xeus-cpp-feedstock",
     "confluentinc/cp-demo",
@@ -292,6 +293,7 @@
     "dwyl/learn-devops",
     "eclipse-embed-cdt/org.eclipse.epp.packages",
     "eddelbuettel/github-actions",
+    "edward3h/docker-bds-integration-test",
     "eea/eea.docker.gitflow",
     "ekalinin/github-markdown-toc",
     "electerm/electerm-resource",
@@ -416,6 +418,7 @@
     "jorgebucaran/nvm.fish",
     "joseluisq/gitnow",
     "joshmedeski/t-smart-tmux-session-manager",
+    "jstkdng/aur",
     "juanluisbaptiste/apachebench-graphs",
     "junkblocker/calibre-zaw-source",
     "just-containers/s6-overlay",
@@ -536,6 +539,7 @@
     "pgsty/pigsty",
     "pion/awesome-pion",
     "pkgxdev/mash",
+    "pmer/tla-bin",
     "postmodern/chruby",
     "postmodern/ruby-install",
     "postmodern/ruby-versions",
@@ -661,7 +665,7 @@
     "transmissions11/dapptools-template",
     "trapd00r/LS_COLORS",
     "tremby/imgur.sh",
-    "tritondatacenter/node-cmdutil",
+    "TritonDataCenter/node-cmdutil",
     "tuvovan/Zero_DCE_TF",
     "twain47/Open-SVG-Map-Icons",
     "tzachar/sqlite_skim",

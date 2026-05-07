@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 53,
-    "concepts": 86,
-    "observations": 86,
-    "repos": 35,
-    "terms": 85
+    "components": 54,
+    "concepts": 93,
+    "observations": 93,
+    "repos": 37,
+    "terms": 92
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
@@ -29,6 +29,7 @@
     "flinedev/plankit",
     "ganelson/inform-evolution",
     "GDevelopApp/GDevelop-community-list",
+    "goharbor/community",
     "google/oss-policies-info",
     "Homebrew/.github",
     "ipshipyard/dnslink-action",
@@ -37,6 +38,7 @@
     "jakoch/vulkan-sdk-arm",
     "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
     "kubernetes/steering",
+    "mypyc/mypyc-benchmark-results",
     "ocaml/platform-blog",
     "openobserve/dashboards",
     "pre-commit/mirrors-eslint",

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · Python
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 48
-- terms: 113
-- components: 177
-- concepts: 95
-- observations: 95
+- repos: 49
+- terms: 120
+- components: 184
+- concepts: 102
+- observations: 102
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [5sControl/5s-backend](https://github.com/5sControl/5s-backend) | 2 | 2026-04-23T07:54:59Z | Python | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [arielagor/jetbrains-mono-hebrew](https://github.com/arielagor/jetbrains-mono-hebrew) | 1 | 2026-04-22T20:14:06Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [ModelCloud/Defuser](https://github.com/ModelCloud/Defuser) | 2 | 2026-04-22T16:37:44Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [ModelCloud/LogBar](https://github.com/ModelCloud/LogBar) | 8 | 2026-04-22T15:12:39Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
@@ -107,6 +108,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ashvardanian/ashvardanian](https://github.com/ashvardanian/ashvardanian) | 3 | 2026-04-11T09:26:22Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [lxgw/LxgwWenKai-shared](https://github.com/lxgw/LxgwWenKai-shared) | 3 | 2026-04-09T16:23:21Z | Python | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [agenmod/okr-skill](https://github.com/agenmod/okr-skill) | 3 | 2026-04-08T15:04:08Z | Python | Framework | 0 | 0 | 0 | 0 |
+| [5sControl/5s-backend](https://github.com/5sControl/5s-backend) | 2 | 2026-04-23T07:54:59Z | Python | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [ModelCloud/Defuser](https://github.com/ModelCloud/Defuser) | 2 | 2026-04-22T16:37:44Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [cafitac/hermit-agent](https://github.com/cafitac/hermit-agent) | 2 | 2026-04-19T13:28:48Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [rrsaldanha/burp-mcp-agents](https://github.com/rrsaldanha/burp-mcp-agents) | 2 | 2026-04-19T11:53:12Z | Python | CLI | 0 | 0 | 0 | 0 |

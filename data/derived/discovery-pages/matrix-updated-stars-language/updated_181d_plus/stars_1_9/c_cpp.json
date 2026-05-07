@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 158,
-    "concepts": 98,
-    "observations": 98,
-    "repos": 80,
-    "terms": 97
+    "components": 164,
+    "concepts": 100,
+    "observations": 100,
+    "repos": 81,
+    "terms": 99
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "a-n-t-h-o-n-y/zzz",
     "abhilash1910/llm.tpc",
@@ -56,6 +56,7 @@
     "hayguen/pffft",
     "hermit-os/hermit-c",
     "hermit-os/pthread-embedded",
+    "hfp/libxsmm",
     "hugodaniel/cuid-c",
     "hugoif/hugo-unix",
     "HunterBarclay/JoltPhysics.js",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · Other
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 90
+- repos: 93
 - terms: 102
 - components: 169
 - concepts: 102
@@ -49,6 +49,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [clojurephant/sample-clojurephant-cljs-app](https://github.com/clojurephant/sample-clojurephant-cljs-app) | 0 | 2025-04-14T00:11:28Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [clojurephant/sample-clojurephant-clj-lib](https://github.com/clojurephant/sample-clojurephant-clj-lib) | 0 | 2025-04-14T00:05:49Z | Other | Library | 3 | 0 | 3 | 3 |
 | [JuliaBinaryWrappers/FriBidi_jll.jl](https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl) | 0 | 2025-04-04T22:49:01Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [JuliaBinaryWrappers/snappy_jll.jl](https://github.com/JuliaBinaryWrappers/snappy_jll.jl) | 0 | 2025-03-27T23:51:36Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [adre5577/contour-tinted](https://github.com/adre5577/contour-tinted) | 0 | 2025-03-19T00:40:34Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/Blosc_jll.jl](https://github.com/JuliaBinaryWrappers/Blosc_jll.jl) | 0 | 2025-03-12T20:29:43Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [juharris/dotnet-OptionsProvider](https://github.com/juharris/dotnet-OptionsProvider) | 0 | 2025-03-05T20:08:44Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
@@ -56,8 +57,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rudionrails/yell](https://github.com/rudionrails/yell) | 0 | 2025-02-26T21:13:48Z | Other | Library | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/pixi_jll.jl](https://github.com/JuliaBinaryWrappers/pixi_jll.jl) | 0 | 2025-02-17T19:01:55Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/Bzip2_jll.jl](https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl) | 0 | 2025-01-31T16:01:41Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [JuliaBinaryWrappers/Thrift_jll.jl](https://github.com/JuliaBinaryWrappers/Thrift_jll.jl) | 0 | 2025-01-30T12:22:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/boost_jll.jl](https://github.com/JuliaBinaryWrappers/boost_jll.jl) | 0 | 2025-01-28T02:39:44Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/Libiconv_jll.jl](https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl) | 0 | 2025-01-13T13:15:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [JuliaBinaryWrappers/Lz4_jll.jl](https://github.com/JuliaBinaryWrappers/Lz4_jll.jl) | 0 | 2024-12-30T16:00:00Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [2KAbhishek/exercism-fetcher](https://github.com/2KAbhishek/exercism-fetcher) | 0 | 2024-12-01T17:26:26Z | Other | CLI | 4 | 2 | 4 | 4 |
 | [dixyes/ghactionsplay](https://github.com/dixyes/ghactionsplay) | 0 | 2024-11-30T02:46:40Z | Other | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 | [interstar/Patterning-Quil](https://github.com/interstar/Patterning-Quil) | 0 | 2024-10-21T15:08:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -144,6 +147,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [clojurephant/sample-clojurephant-cljs-app](https://github.com/clojurephant/sample-clojurephant-cljs-app) | 0 | 2025-04-14T00:11:28Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [clojurephant/sample-clojurephant-clj-lib](https://github.com/clojurephant/sample-clojurephant-clj-lib) | 0 | 2025-04-14T00:05:49Z | Other | Library | 3 | 0 | 3 | 3 |
 | [JuliaBinaryWrappers/FriBidi_jll.jl](https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl) | 0 | 2025-04-04T22:49:01Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [JuliaBinaryWrappers/snappy_jll.jl](https://github.com/JuliaBinaryWrappers/snappy_jll.jl) | 0 | 2025-03-27T23:51:36Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [adre5577/contour-tinted](https://github.com/adre5577/contour-tinted) | 0 | 2025-03-19T00:40:34Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/Blosc_jll.jl](https://github.com/JuliaBinaryWrappers/Blosc_jll.jl) | 0 | 2025-03-12T20:29:43Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [juharris/dotnet-OptionsProvider](https://github.com/juharris/dotnet-OptionsProvider) | 0 | 2025-03-05T20:08:44Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
@@ -151,8 +155,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rudionrails/yell](https://github.com/rudionrails/yell) | 0 | 2025-02-26T21:13:48Z | Other | Library | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/pixi_jll.jl](https://github.com/JuliaBinaryWrappers/pixi_jll.jl) | 0 | 2025-02-17T19:01:55Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/Bzip2_jll.jl](https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl) | 0 | 2025-01-31T16:01:41Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [JuliaBinaryWrappers/Thrift_jll.jl](https://github.com/JuliaBinaryWrappers/Thrift_jll.jl) | 0 | 2025-01-30T12:22:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/boost_jll.jl](https://github.com/JuliaBinaryWrappers/boost_jll.jl) | 0 | 2025-01-28T02:39:44Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/Libiconv_jll.jl](https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl) | 0 | 2025-01-13T13:15:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [JuliaBinaryWrappers/Lz4_jll.jl](https://github.com/JuliaBinaryWrappers/Lz4_jll.jl) | 0 | 2024-12-30T16:00:00Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [2KAbhishek/exercism-fetcher](https://github.com/2KAbhishek/exercism-fetcher) | 0 | 2024-12-01T17:26:26Z | Other | CLI | 4 | 2 | 4 | 4 |
 | [dixyes/ghactionsplay](https://github.com/dixyes/ghactionsplay) | 0 | 2024-11-30T02:46:40Z | Other | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 | [interstar/Patterning-Quil](https://github.com/interstar/Patterning-Quil) | 0 | 2024-10-21T15:08:46Z | Other | Unknown | 0 | 0 | 0 | 0 |

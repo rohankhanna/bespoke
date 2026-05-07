@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 878,
-    "concepts": 952,
-    "observations": 957,
-    "repos": 126,
-    "terms": 946
+    "components": 882,
+    "concepts": 959,
+    "observations": 964,
+    "repos": 127,
+    "terms": 954
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "Ableton/link",
     "AcademySoftwareFoundation/OpenColorIO",
@@ -46,6 +46,7 @@
     "fastfloat/fast_float",
     "flatpak/flatpak",
     "fontforge/fontforge",
+    "ganelson/inform",
     "GNOME/glib",
     "google/boringssl",
     "google/draco",
@@ -107,10 +108,10 @@
     "ohler55/oj",
     "oneapi-src/oneAPI-samples",
     "openssh/openssh-portable",
+    "openxla/xla",
     "panda3d/panda3d",
     "plasma-umass/coz",
     "pnggroup/libpng",
-    "posva/catimg",
     "pytorch/gloo",
     "rapidsai/cudf",
     "richgel999/miniz",

@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 56
-- terms: 251
-- components: 391
-- concepts: 252
-- observations: 255
+- repos: 52
+- terms: 227
+- components: 367
+- concepts: 228
+- observations: 231
 
 ## Static behavior
 
@@ -78,10 +78,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DevEnterpriseSoftware/patchright-dotnet](https://github.com/DevEnterpriseSoftware/patchright-dotnet) | 30 | 2026-04-30T11:50:55Z | Other | Infrastructure/tooling | 20 | 6 | 20 | 20 |
 | [palladius/gemini-news-crawler](https://github.com/palladius/gemini-news-crawler) | 16 | 2026-04-30T11:49:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [cloudfoundry/uaa-release](https://github.com/cloudfoundry/uaa-release) | 28 | 2026-04-30T11:05:59Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [php/doc-es](https://github.com/php/doc-es) | 32 | 2026-04-30T10:24:38Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
-| [controlplaneio-fluxcd/distribution](https://github.com/controlplaneio-fluxcd/distribution) | 89 | 2026-04-30T08:40:07Z | Other | Infrastructure/tooling | 12 | 10 | 12 | 12 |
-| [php/doc-fr](https://github.com/php/doc-fr) | 55 | 2026-04-30T08:26:34Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
-| [r-lib/pkgload](https://github.com/r-lib/pkgload) | 60 | 2026-04-30T08:03:07Z | Other | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -91,7 +87,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dwyl/mvp](https://github.com/dwyl/mvp) | 96 | 2026-05-04T20:26:32Z | Other | Infrastructure/tooling | 17 | 10 | 17 | 17 |
 | [CuatroElixir/spear](https://github.com/CuatroElixir/spear) | 95 | 2026-05-04T13:38:28Z | Other | CLI | 7 | 4 | 7 | 7 |
 | [davidanthoff/Electron.jl](https://github.com/davidanthoff/Electron.jl) | 95 | 2026-05-02T06:52:12Z | Other | Infrastructure/tooling | 6 | 11 | 6 | 6 |
-| [controlplaneio-fluxcd/distribution](https://github.com/controlplaneio-fluxcd/distribution) | 89 | 2026-04-30T08:40:07Z | Other | Infrastructure/tooling | 12 | 10 | 12 | 12 |
 | [alphagov/govuk_publishing_components](https://github.com/alphagov/govuk_publishing_components) | 88 | 2026-05-01T14:46:58Z | Other | Infrastructure/tooling | 4 | 20 | 4 | 4 |
 | [JuliaGeo/GeometryOps.jl](https://github.com/JuliaGeo/GeometryOps.jl) | 78 | 2026-05-03T19:20:48Z | Other | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [countries/countries-data-json](https://github.com/countries/countries-data-json) | 76 | 2026-05-02T22:01:39Z | Other | Infrastructure/tooling | 7 | 1 | 8 | 8 |
@@ -99,13 +94,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Shopify/rbi-central](https://github.com/Shopify/rbi-central) | 71 | 2026-05-04T18:25:26Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [osrf/homebrew-simulation](https://github.com/osrf/homebrew-simulation) | 68 | 2026-05-01T20:11:14Z | Other | Infrastructure/tooling | 9 | 2 | 9 | 9 |
 | [heroku/cnb-builder-images](https://github.com/heroku/cnb-builder-images) | 68 | 2026-05-01T18:35:45Z | Other | Infrastructure/tooling | 7 | 8 | 7 | 7 |
-| [r-lib/pkgload](https://github.com/r-lib/pkgload) | 60 | 2026-04-30T08:03:07Z | Other | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [GregoryConrad/native_toolchain_rust](https://github.com/GregoryConrad/native_toolchain_rust) | 59 | 2026-05-01T08:19:31Z | Other | Infrastructure/tooling | 9 | 11 | 9 | 9 |
 | [karafka/example-apps](https://github.com/karafka/example-apps) | 58 | 2026-05-05T08:49:06Z | Other | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [bladeacer/flexcyon](https://github.com/bladeacer/flexcyon) | 58 | 2026-05-02T14:01:37Z | Other | CLI | 8 | 14 | 8 | 8 |
 | [robotology/robotology-superbuild](https://github.com/robotology/robotology-superbuild) | 57 | 2026-05-03T00:31:18Z | Other | Infrastructure/tooling | 12 | 15 | 12 | 12 |
 | [JuliaCon/www.juliacon.org](https://github.com/JuliaCon/www.juliacon.org) | 55 | 2026-05-01T21:36:38Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [php/doc-fr](https://github.com/php/doc-fr) | 55 | 2026-04-30T08:26:34Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [mit-plv/coqutil](https://github.com/mit-plv/coqutil) | 51 | 2026-05-05T04:34:47Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [LedgerHQ/ledger-app-builder](https://github.com/LedgerHQ/ledger-app-builder) | 48 | 2026-04-30T14:44:36Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [tc39/proposal-amount](https://github.com/tc39/proposal-amount) | 47 | 2026-04-30T14:44:51Z | Other | Infrastructure/tooling | 9 | 10 | 9 | 9 |
@@ -116,7 +109,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [B-Lang-org/bsc-contrib](https://github.com/B-Lang-org/bsc-contrib) | 39 | 2026-05-01T20:48:57Z | Other | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [pipecat-ai/docs](https://github.com/pipecat-ai/docs) | 35 | 2026-04-30T20:01:55Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [B-Lang-org/bdw](https://github.com/B-Lang-org/bdw) | 33 | 2026-05-01T20:48:17Z | Other | Infrastructure/tooling | 0 | 5 | 0 | 0 |
-| [php/doc-es](https://github.com/php/doc-es) | 32 | 2026-04-30T10:24:38Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [melpa/package-build](https://github.com/melpa/package-build) | 31 | 2026-05-02T14:51:32Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [AarshBatra/biteSizedAQ](https://github.com/AarshBatra/biteSizedAQ) | 30 | 2026-04-30T14:42:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [DevEnterpriseSoftware/patchright-dotnet](https://github.com/DevEnterpriseSoftware/patchright-dotnet) | 30 | 2026-04-30T11:50:55Z | Other | Infrastructure/tooling | 20 | 6 | 20 | 20 |

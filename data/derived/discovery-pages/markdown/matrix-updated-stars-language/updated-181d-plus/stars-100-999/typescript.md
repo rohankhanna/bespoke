@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 191
-- terms: 696
-- components: 4635
-- concepts: 685
-- observations: 687
+- repos: 192
+- terms: 704
+- components: 4684
+- concepts: 693
+- observations: 695
 
 ## Static behavior
 
@@ -88,6 +88,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [delashum/obsidian-checklist-plugin](https://github.com/delashum/obsidian-checklist-plugin) | 469 | 2025-01-11T19:07:57Z | TypeScript | Unknown | 0 | 16 | 0 | 0 |
 | [proposal-signals/signal-utils](https://github.com/proposal-signals/signal-utils) | 115 | 2024-12-23T13:50:42Z | TypeScript | Infrastructure/tooling | 2 | 21 | 2 | 2 |
 | [microsoft/botframework-cli](https://github.com/microsoft/botframework-cli) | 176 | 2024-12-10T13:32:21Z | TypeScript | CLI | 0 | 0 | 0 | 0 |
+| [mobxjs/mobx-angular](https://github.com/mobxjs/mobx-angular) | 481 | 2024-12-09T22:51:49Z | TypeScript | Infrastructure/tooling | 8 | 49 | 8 | 8 |
 | [fwcd/vscode-kotlin](https://github.com/fwcd/vscode-kotlin) | 358 | 2024-12-06T02:45:38Z | TypeScript | Infrastructure/tooling | 6 | 23 | 6 | 6 |
 | [windicss/vite-plugin-windicss](https://github.com/windicss/vite-plugin-windicss) | 849 | 2024-11-29T06:45:46Z | TypeScript | Infrastructure/tooling | 2 | 30 | 2 | 2 |
 | [highlightjs/vue-plugin](https://github.com/highlightjs/vue-plugin) | 242 | 2024-11-24T04:36:05Z | TypeScript | Unknown | 2 | 7 | 2 | 2 |
@@ -273,6 +274,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alexcanessa/typescript-coverage-report](https://github.com/alexcanessa/typescript-coverage-report) | 519 | 2025-02-28T08:21:46Z | TypeScript | Infrastructure/tooling | 5 | 35 | 5 | 5 |
 | [dsherret/ts-nameof](https://github.com/dsherret/ts-nameof) | 505 | 2023-03-23T16:04:22Z | TypeScript | Unknown | 2 | 0 | 2 | 2 |
 | [u3u/vue-hooks](https://github.com/u3u/vue-hooks) | 491 | 2023-01-04T03:56:44Z | TypeScript | Unknown | 4 | 48 | 4 | 4 |
+| [mobxjs/mobx-angular](https://github.com/mobxjs/mobx-angular) | 481 | 2024-12-09T22:51:49Z | TypeScript | Infrastructure/tooling | 8 | 49 | 8 | 8 |
 | [iamcco/coc-flutter](https://github.com/iamcco/coc-flutter) | 477 | 2023-09-11T10:32:16Z | TypeScript | Infrastructure/tooling | 3 | 19 | 3 | 3 |
 | [chetachiezikeuzor/cMenu-Plugin](https://github.com/chetachiezikeuzor/cMenu-Plugin) | 477 | 2022-09-05T07:06:58Z | TypeScript | Unknown | 4 | 20 | 5 | 5 |
 | [fjc0k/yapi-to-typescript](https://github.com/fjc0k/yapi-to-typescript) | 472 | 2024-11-21T07:14:18Z | TypeScript | Infrastructure/tooling | 8 | 52 | 8 | 8 |

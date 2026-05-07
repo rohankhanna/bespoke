@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1 to 9 stars · Unknown
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 19
+- repos: 17
 - terms: 25
 - components: 23
 - concepts: 25
@@ -43,8 +43,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [oobabooga/screenshots](https://github.com/oobabooga/screenshots) | 5 | 2026-04-23T19:22:16Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Data-Analyst-plugin](https://github.com/danielrosehill/Claude-Data-Analyst-plugin) | 3 | 2026-04-23T14:53:13Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [AlmaLinux/osv-database](https://github.com/AlmaLinux/osv-database) | 8 | 2026-04-23T12:52:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [bell-sw/osv-database](https://github.com/bell-sw/osv-database) | 1 | 2026-04-23T07:05:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [openwebdocs/mdn-bcd-results](https://github.com/openwebdocs/mdn-bcd-results) | 4 | 2026-04-23T06:24:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -59,7 +57,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [oobabooga/screenshots](https://github.com/oobabooga/screenshots) | 5 | 2026-04-23T19:22:16Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [emacs-straight/gnu-elpa-mirror](https://github.com/emacs-straight/gnu-elpa-mirror) | 4 | 2026-04-29T00:20:16Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [dmBots/DM-J4310-2EC](https://github.com/dmBots/DM-J4310-2EC) | 4 | 2026-04-28T05:50:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [openwebdocs/mdn-bcd-results](https://github.com/openwebdocs/mdn-bcd-results) | 4 | 2026-04-23T06:24:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [psmux/scoop-psmux](https://github.com/psmux/scoop-psmux) | 3 | 2026-04-28T08:48:54Z | Unknown | CLI | 1 | 0 | 1 | 1 |
 | [danielrosehill/Claude-Data-Analyst-plugin](https://github.com/danielrosehill/Claude-Data-Analyst-plugin) | 3 | 2026-04-23T14:53:13Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [sp1-patches/RustCrypto-bigint](https://github.com/sp1-patches/RustCrypto-bigint) | 1 | 2026-04-29T21:30:56Z | Unknown | Infrastructure/tooling | 3 | 6 | 3 | 3 |
@@ -68,4 +65,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eddelbuettel/r2u-config](https://github.com/eddelbuettel/r2u-config) | 1 | 2026-04-25T16:38:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [conda-forge/captum-feedstock](https://github.com/conda-forge/captum-feedstock) | 1 | 2026-04-25T12:37:54Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [danielrosehill/Subindices](https://github.com/danielrosehill/Subindices) | 1 | 2026-04-25T10:40:53Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
-| [bell-sw/osv-database](https://github.com/bell-sw/osv-database) | 1 | 2026-04-23T07:05:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

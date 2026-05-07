@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5593,
-    "concepts": 522,
-    "observations": 525,
-    "repos": 64,
-    "terms": 535
+    "components": 5955,
+    "concepts": 539,
+    "observations": 542,
+    "repos": 65,
+    "terms": 552
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "actions/starter-workflows",
     "airbnb/visx",
@@ -36,6 +36,7 @@
     "garrytan/gstack",
     "gcanti/fp-ts",
     "google/brotli",
+    "grafana/grafana",
     "graphile/crystal",
     "graphql/graphiql",
     "graphql/graphql-js",

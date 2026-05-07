@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 38
-- terms: 111
-- components: 365
-- concepts: 111
-- observations: 111
+- repos: 39
+- terms: 113
+- components: 383
+- concepts: 113
+- observations: 113
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [andylockran/spectral-aws-apigateway-ruleset](https://github.com/andylockran/spectral-aws-apigateway-ruleset) | 20 | 2026-04-07T08:19:02Z | JavaScript | Infrastructure/tooling | 2 | 18 | 2 | 2 |
 | [nrwl/nx-ai-agents-config](https://github.com/nrwl/nx-ai-agents-config) | 19 | 2026-04-05T22:09:37Z | JavaScript | Infrastructure/tooling | 2 | 14 | 2 | 2 |
 | [C-Lodder/grunt-postcss](https://github.com/C-Lodder/grunt-postcss) | 40 | 2026-04-05T21:10:25Z | JavaScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
 | [gr2m/before-after-hook](https://github.com/gr2m/before-after-hook) | 82 | 2026-04-03T20:19:32Z | JavaScript | Infrastructure/tooling | 8 | 10 | 8 | 8 |
@@ -99,6 +100,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eemeli/prettier-plugin-properties](https://github.com/eemeli/prettier-plugin-properties) | 22 | 2026-03-25T23:40:54Z | JavaScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [hipster-labs/jhipster-daily-builds](https://github.com/hipster-labs/jhipster-daily-builds) | 21 | 2026-03-26T11:04:07Z | JavaScript | Infrastructure/tooling | 11 | 9 | 11 | 11 |
 | [10up/action-repo-automator](https://github.com/10up/action-repo-automator) | 21 | 2026-03-20T00:24:29Z | JavaScript | Infrastructure/tooling | 6 | 12 | 6 | 6 |
+| [andylockran/spectral-aws-apigateway-ruleset](https://github.com/andylockran/spectral-aws-apigateway-ruleset) | 20 | 2026-04-07T08:19:02Z | JavaScript | Infrastructure/tooling | 2 | 18 | 2 | 2 |
 | [dwyl/phoenix-liveview-stopwatch](https://github.com/dwyl/phoenix-liveview-stopwatch) | 20 | 2026-04-03T17:42:51Z | JavaScript | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [nrwl/nx-ai-agents-config](https://github.com/nrwl/nx-ai-agents-config) | 19 | 2026-04-05T22:09:37Z | JavaScript | Infrastructure/tooling | 2 | 14 | 2 | 2 |
 | [AdguardTeam/CodeGuidelines](https://github.com/AdguardTeam/CodeGuidelines) | 19 | 2026-04-03T15:15:20Z | JavaScript | Docs/knowledge | 0 | 0 | 0 | 0 |

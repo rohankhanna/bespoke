@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 186,
-    "concepts": 94,
-    "observations": 94,
-    "repos": 109,
-    "terms": 94
+    "components": 197,
+    "concepts": 97,
+    "observations": 97,
+    "repos": 110,
+    "terms": 97
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "5sControl/.github",
     "5scontrol/5s-dev-documentation",
@@ -99,6 +99,7 @@
     "MY1L/icense",
     "newrelic/open-source-office",
     "ningsir/pytorch",
+    "osmosis-labs/block-sdk",
     "panekj/lapce-plugin-rust",
     "pengzhendong/files",
     "Peterande/storage",

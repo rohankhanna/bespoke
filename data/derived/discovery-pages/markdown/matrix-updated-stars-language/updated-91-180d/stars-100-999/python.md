@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 183
+- repos: 184
 - terms: 698
-- components: 341
+- components: 342
 - concepts: 705
 - observations: 706
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [SAML-Toolkits/python-saml](https://github.com/SAML-Toolkits/python-saml) | 678 | 2026-02-06T09:31:34Z | Python | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [pypa/get-pip](https://github.com/pypa/get-pip) | 876 | 2026-02-06T02:50:57Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [metauto-ai/GPTSwarm](https://github.com/metauto-ai/GPTSwarm) | 987 | 2026-02-05T10:39:09Z | Python | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [OpenSparseLLMs/MoM](https://github.com/OpenSparseLLMs/MoM) | 130 | 2026-02-04T03:40:59Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -257,6 +258,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [marin-community/levanter](https://github.com/marin-community/levanter) | 704 | 2026-01-26T20:08:30Z | Python | Infrastructure/tooling | 8 | 13 | 8 | 8 |
 | [TsinghuaDatabaseGroup/DB-GPT](https://github.com/TsinghuaDatabaseGroup/DB-GPT) | 704 | 2025-12-27T03:28:34Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [gafniguy/4D-Facial-Avatars](https://github.com/gafniguy/4D-Facial-Avatars) | 697 | 2026-01-29T22:01:53Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [SAML-Toolkits/python-saml](https://github.com/SAML-Toolkits/python-saml) | 678 | 2026-02-06T09:31:34Z | Python | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [yashsinghcodes/wik](https://github.com/yashsinghcodes/wik) | 673 | 2026-01-21T21:13:14Z | Python | CLI | 4 | 3 | 4 | 4 |
 | [baaivision/Uni3D](https://github.com/baaivision/Uni3D) | 667 | 2026-01-12T08:39:36Z | Python | Unknown | 2 | 0 | 3 | 3 |
 | [feifeibear/long-context-attention](https://github.com/feifeibear/long-context-attention) | 666 | 2026-01-15T11:55:25Z | Python | Infrastructure/tooling | 6 | 3 | 6 | 6 |

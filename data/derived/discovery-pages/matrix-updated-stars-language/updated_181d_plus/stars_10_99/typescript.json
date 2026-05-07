@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3840,
-    "concepts": 489,
-    "observations": 490,
-    "repos": 173,
-    "terms": 500
+    "components": 3854,
+    "concepts": 494,
+    "observations": 495,
+    "repos": 174,
+    "terms": 505
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "101arrowz/compression-streams-polyfill",
     "6/openai-caching-proxy-worker",
@@ -176,6 +176,7 @@
     "streamich/react-universal-interface",
     "SysCV/nutsh",
     "tatethurston/ProtoScript",
+    "teletrace/opentelemetry-demo",
     "tillahoffmann/obsidian-file-include",
     "tommy351/tsc-multi",
     "tracked-tools/tracked-maps-and-sets",

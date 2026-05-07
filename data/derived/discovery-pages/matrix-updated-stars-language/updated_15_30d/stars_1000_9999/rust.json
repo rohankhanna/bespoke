@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1302,
-    "concepts": 854,
-    "observations": 856,
-    "repos": 127,
-    "terms": 868
+    "components": 1325,
+    "concepts": 881,
+    "observations": 884,
+    "repos": 130,
+    "terms": 894
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0xPlaygrounds/rig",
@@ -36,6 +36,7 @@
     "Canop/bacon",
     "cberner/fuser",
     "cedar-policy/cedar",
+    "compio-rs/compio",
     "crate-ci/typos",
     "cross-rs/cross",
     "crossterm-rs/crossterm",
@@ -100,6 +101,7 @@
     "pgcentralfoundation/pgrx",
     "pop-os/cosmic-text",
     "proptest-rs/proptest",
+    "pulldown-cmark/pulldown-cmark",
     "PyO3/maturin",
     "ratatui/mousefood",
     "rkyv/rkyv",
@@ -125,6 +127,7 @@
     "servo/html5ever",
     "sigp/lighthouse",
     "snapview/tungstenite-rs",
+    "succinctlabs/sp1",
     "SuperCuber/dotter",
     "tauri-apps/create-tauri-app",
     "tauri-apps/wry",

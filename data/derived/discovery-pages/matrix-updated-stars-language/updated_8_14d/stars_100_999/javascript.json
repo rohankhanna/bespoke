@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1265,
+    "components": 1288,
     "concepts": 268,
     "observations": 273,
-    "repos": 53,
+    "repos": 54,
     "terms": 266
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "AdguardTeam/Scriptlets",
@@ -64,6 +64,7 @@
     "speced/respec",
     "sveltejs/dts-buddy",
     "tomayac/SVGcode",
+    "vllm-project/recipes",
     "webtorrent/bittorrent-protocol",
     "webtorrent/ut_metadata",
     "ztoben/assets-webpack-plugin"

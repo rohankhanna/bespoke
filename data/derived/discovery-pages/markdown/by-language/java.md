@@ -1,6 +1,6 @@
 # Java
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 ## Active filters
 
@@ -22,17 +22,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [eclipse-wildwebdeveloper/wildwebdeveloper](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper) | 198 | 2026-05-07T09:09:48Z | Java | CLI | 8 | 13 | 8 | 8 |
+| [helidon-io/helidon](https://github.com/helidon-io/helidon) | 3782 | 2026-05-07T08:21:42Z | Java | Infrastructure/tooling | 10 | 4 | 10 | 10 |
+| [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1925 | 2026-05-07T07:49:48Z | Java | Infrastructure/tooling | 13 | 21 | 13 | 13 |
 | [grpc/grpc-java](https://github.com/grpc/grpc-java) | 12011 | 2026-05-07T01:24:04Z | Java | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [cloudfoundry/credhub](https://github.com/cloudfoundry/credhub) | 249 | 2026-05-07T00:20:54Z | Java | Infrastructure/tooling | 6 | 2 | 6 | 6 |
-| [helidon-io/helidon](https://github.com/helidon-io/helidon) | 3782 | 2026-05-06T16:59:50Z | Java | Infrastructure/tooling | 10 | 4 | 10 | 10 |
-| [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1925 | 2026-05-06T15:26:12Z | Java | Infrastructure/tooling | 13 | 21 | 13 | 13 |
+| [usdot-fhwa-stol/cdasim](https://github.com/usdot-fhwa-stol/cdasim) | 53 | 2026-05-06T14:22:30Z | Java | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [apache/tomcat](https://github.com/apache/tomcat) | 8163 | 2026-05-06T13:24:43Z | Java | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [spring-projects/spring-tools](https://github.com/spring-projects/spring-tools) | 963 | 2026-05-06T10:47:32Z | Java | CLI | 16 | 6 | 16 | 16 |
 | [ldproxy/ldproxy](https://github.com/ldproxy/ldproxy) | 102 | 2026-05-05T21:06:12Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [eclipse-jdtls/eclipse.jdt.ls](https://github.com/eclipse-jdtls/eclipse.jdt.ls) | 2325 | 2026-05-05T08:39:40Z | Java | CLI | 7 | 8 | 7 | 7 |
 | [mapsforge/mapsforge](https://github.com/mapsforge/mapsforge) | 1371 | 2026-05-05T07:01:32Z | Java | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [mapsforge/vtm](https://github.com/mapsforge/vtm) | 299 | 2026-05-05T07:00:16Z | Java | Infrastructure/tooling | 5 | 2 | 5 | 5 |
-| [eclipse-wildwebdeveloper/wildwebdeveloper](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper) | 198 | 2026-05-04T18:18:51Z | Java | CLI | 8 | 13 | 8 | 8 |
 | [openjdk/jdk](https://github.com/openjdk/jdk) | 22845 | 2026-05-04T09:29:54Z | Java | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [processing/processing4](https://github.com/processing/processing4) | 394 | 2026-05-03T17:26:27Z | Java | Infrastructure/tooling | 12 | 15 | 12 | 12 |
 | [redisson/redisson](https://github.com/redisson/redisson) | 24314 | 2026-05-03T08:51:25Z | Java | CLI | 20 | 6 | 21 | 21 |
@@ -243,7 +244,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [resilience4j/resilience4j](https://github.com/resilience4j/resilience4j) | 10643 | 2026-04-20T15:06:18Z | Java | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [simonpoole/OpeningHoursFragment](https://github.com/simonpoole/OpeningHoursFragment) | 10 | 2026-04-20T14:48:48Z | Java | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [bazel-contrib/rules_jvm](https://github.com/bazel-contrib/rules_jvm) | 53 | 2026-04-20T14:25:59Z | Java | Infrastructure/tooling | 6 | 6 | 6 | 6 |
-| [usdot-fhwa-stol/cdasim](https://github.com/usdot-fhwa-stol/cdasim) | 53 | 2026-04-20T14:10:14Z | Java | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [spotbugs/sonar-findbugs](https://github.com/spotbugs/sonar-findbugs) | 381 | 2026-04-20T13:38:07Z | Java | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [graalvm/graal-languages-demos](https://github.com/graalvm/graal-languages-demos) | 101 | 2026-04-20T11:54:29Z | Java | Infrastructure/tooling | 14 | 4 | 14 | 14 |
 | [spotbugs/spotbugs](https://github.com/spotbugs/spotbugs) | 3865 | 2026-04-20T09:41:42Z | Java | Infrastructure/tooling | 9 | 6 | 9 | 9 |
@@ -744,7 +744,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [react-native-share/react-native-share](https://github.com/react-native-share/react-native-share) | 3879 | 2026-04-14T01:15:58Z | Java | Infrastructure/tooling | 10 | 51 | 10 | 10 |
 | [spotbugs/spotbugs](https://github.com/spotbugs/spotbugs) | 3865 | 2026-04-20T09:41:42Z | Java | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [RoaringBitmap/RoaringBitmap](https://github.com/RoaringBitmap/RoaringBitmap) | 3853 | 2026-04-15T02:15:42Z | Java | Infrastructure/tooling | 14 | 11 | 14 | 15 |
-| [helidon-io/helidon](https://github.com/helidon-io/helidon) | 3782 | 2026-05-06T16:59:50Z | Java | Infrastructure/tooling | 10 | 4 | 10 | 10 |
+| [helidon-io/helidon](https://github.com/helidon-io/helidon) | 3782 | 2026-05-07T08:21:42Z | Java | Infrastructure/tooling | 10 | 4 | 10 | 10 |
 | [jtablesaw/tablesaw](https://github.com/jtablesaw/tablesaw) | 3747 | 2026-03-02T01:13:06Z | Java | Infrastructure/tooling | 15 | 2 | 15 | 15 |
 | [FasterXML/jackson-databind](https://github.com/FasterXML/jackson-databind) | 3719 | 2026-04-28T20:50:36Z | Java | Infrastructure/tooling | 11 | 11 | 12 | 12 |
 | [PlexPt/chatgpt-java](https://github.com/PlexPt/chatgpt-java) | 3611 | 2025-11-29T16:41:52Z | Java | Infrastructure/tooling | 10 | 3 | 10 | 10 |
@@ -793,7 +793,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tabulapdf/tabula-java](https://github.com/tabulapdf/tabula-java) | 2025 | 2025-03-19T18:21:14Z | Java | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [alibaba/compileflow](https://github.com/alibaba/compileflow) | 1976 | 2025-10-05T09:40:42Z | Java | Infrastructure/tooling | 9 | 2 | 9 | 9 |
 | [validator/validator](https://github.com/validator/validator) | 1929 | 2026-05-02T10:42:13Z | Java | Infrastructure/tooling | 15 | 19 | 15 | 15 |
-| [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1925 | 2026-05-06T15:26:12Z | Java | Infrastructure/tooling | 13 | 21 | 13 | 13 |
+| [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1925 | 2026-05-07T07:49:48Z | Java | Infrastructure/tooling | 13 | 21 | 13 | 13 |
 | [ninjaframework/ninja](https://github.com/ninjaframework/ninja) | 1902 | 2026-04-03T18:40:39Z | Java | Infrastructure/tooling | 9 | 2 | 9 | 9 |
 | [JetBrains/JetBrainsRuntime](https://github.com/JetBrains/JetBrainsRuntime) | 1876 | 2026-05-01T06:15:56Z | Java | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [spring-ai-alibaba/DataAgent](https://github.com/spring-ai-alibaba/DataAgent) | 1826 | 2026-04-22T05:13:12Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |
@@ -976,7 +976,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [citiususc/calendula](https://github.com/citiususc/calendula) | 206 | 2023-06-13T15:38:38Z | Java | Unknown | 6 | 0 | 6 | 6 |
 | [ymnk/jzlib](https://github.com/ymnk/jzlib) | 206 | 2023-05-25T18:04:44Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [saalfeldlab/n5](https://github.com/saalfeldlab/n5) | 201 | 2026-04-28T16:03:28Z | Java | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [eclipse-wildwebdeveloper/wildwebdeveloper](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper) | 198 | 2026-05-04T18:18:51Z | Java | CLI | 8 | 13 | 8 | 8 |
+| [eclipse-wildwebdeveloper/wildwebdeveloper](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper) | 198 | 2026-05-07T09:09:48Z | Java | CLI | 8 | 13 | 8 | 8 |
 | [testng-team/testng-eclipse](https://github.com/testng-team/testng-eclipse) | 197 | 2026-02-15T06:56:21Z | Java | CLI | 1 | 2 | 1 | 1 |
 | [sevntu-checkstyle/sevntu.checkstyle](https://github.com/sevntu-checkstyle/sevntu.checkstyle) | 196 | 2026-04-25T01:26:12Z | Java | CLI | 3 | 3 | 3 | 3 |
 | [clojurephant/clojurephant](https://github.com/clojurephant/clojurephant) | 196 | 2025-11-06T23:10:06Z | Java | Infrastructure/tooling | 7 | 4 | 7 | 7 |
@@ -1080,8 +1080,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eclipse-archived/dartboard](https://github.com/eclipse-archived/dartboard) | 55 | 2023-09-04T09:15:49Z | Java | CLI | 4 | 0 | 4 | 4 |
 | [debajyotibasak/MyTimes](https://github.com/debajyotibasak/MyTimes) | 55 | 2021-05-31T09:57:40Z | Java | Service/API | 7 | 0 | 8 | 8 |
 | [bobbylight/RSTAUI](https://github.com/bobbylight/RSTAUI) | 54 | 2026-01-03T04:48:29Z | Java | Infrastructure/tooling | 2 | 7 | 2 | 2 |
+| [usdot-fhwa-stol/cdasim](https://github.com/usdot-fhwa-stol/cdasim) | 53 | 2026-05-06T14:22:30Z | Java | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [bazel-contrib/rules_jvm](https://github.com/bazel-contrib/rules_jvm) | 53 | 2026-04-20T14:25:59Z | Java | Infrastructure/tooling | 6 | 6 | 6 | 6 |
-| [usdot-fhwa-stol/cdasim](https://github.com/usdot-fhwa-stol/cdasim) | 53 | 2026-04-20T14:10:14Z | Java | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [enola-dev/enola](https://github.com/enola-dev/enola) | 53 | 2026-03-25T20:40:13Z | Java | Infrastructure/tooling | 10 | 20 | 10 | 10 |
 | [metaloom/qdrant-java-client](https://github.com/metaloom/qdrant-java-client) | 52 | 2024-02-26T10:19:58Z | Java | CLI | 1 | 5 | 1 | 1 |
 | [apache/datasketches-hive](https://github.com/apache/datasketches-hive) | 51 | 2026-03-28T20:06:05Z | Java | Infrastructure/tooling | 2 | 3 | 2 | 2 |

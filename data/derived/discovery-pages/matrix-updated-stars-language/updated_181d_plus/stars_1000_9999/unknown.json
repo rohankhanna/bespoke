@@ -3,7 +3,7 @@
     "components": 30,
     "concepts": 261,
     "observations": 261,
-    "repos": 107,
+    "repos": 108,
     "terms": 252
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "0nn0/terminal-mac-cheatsheet",
     "0xAX/erlang-bookmarks",
@@ -74,6 +74,7 @@
     "microsoft/live-share",
     "microsoft/nodejs-guidelines",
     "MLNLP-World/Paper-Writing-Tips",
+    "mobxjs/awesome-mobx",
     "MoonshotAI/Moonlight",
     "mozilla/geckodriver",
     "msgpack/msgpack",

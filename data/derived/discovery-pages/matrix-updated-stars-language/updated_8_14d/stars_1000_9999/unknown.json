@@ -3,7 +3,7 @@
     "components": 24,
     "concepts": 23,
     "observations": 23,
-    "repos": 7,
+    "repos": 8,
     "terms": 23
   },
   "facet_version": 1,
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "CocoaPods/Specs",
     "CVEProject/cvelistV5",
     "Efficient-ML/Awesome-Model-Quantization",
     "github/rest-api-description",
+    "GyanD/codexffmpeg",
     "logseq/awesome-logseq",
     "meituan-longcat/LongCat-Flash-Chat",
     "MicrosoftDocs/cpp-docs"

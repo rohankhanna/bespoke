@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Other
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 317
+- repos: 319
 - terms: 476
 - components: 1065
 - concepts: 470
@@ -97,6 +97,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [niuiic/omega.nvim](https://github.com/niuiic/omega.nvim) | 6 | 2025-03-13T12:57:49Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [zscott/pane](https://github.com/zscott/pane) | 6 | 2025-03-07T16:35:10Z | Other | Infrastructure/tooling | 1 | 3 | 0 | 0 |
 | [d3ara1n/arcbot](https://github.com/d3ara1n/arcbot) | 5 | 2025-03-06T14:43:07Z | Other | Unknown | 4 | 0 | 4 | 4 |
+| [JuliaBinaryWrappers/Zstd_jll.jl](https://github.com/JuliaBinaryWrappers/Zstd_jll.jl) | 2 | 2025-02-22T17:14:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [GuyTevet/mdm-page](https://github.com/GuyTevet/mdm-page) | 4 | 2025-02-22T11:53:00Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [jverzani/SymPy.jl](https://github.com/jverzani/SymPy.jl) | 3 | 2025-02-19T17:22:58Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaComputing/Registrator.jl](https://github.com/JuliaComputing/Registrator.jl) | 1 | 2025-02-19T00:20:36Z | Other | Infrastructure/tooling | 2 | 7 | 2 | 2 |
@@ -188,6 +189,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaReducePkg/ReduceLinAlg.jl](https://github.com/JuliaReducePkg/ReduceLinAlg.jl) | 7 | 2024-02-16T10:39:22Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [donut-party/endpoint-test](https://github.com/donut-party/endpoint-test) | 2 | 2024-02-08T02:56:36Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [CVEProject/quality-workgroup](https://github.com/CVEProject/quality-workgroup) | 9 | 2024-02-01T23:11:57Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [kodyfanz/ethereum_yellowpaper_vn](https://github.com/kodyfanz/ethereum_yellowpaper_vn) | 4 | 2024-01-31T09:23:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [apache/netbeans-mavenutils-archetypes](https://github.com/apache/netbeans-mavenutils-archetypes) | 1 | 2024-01-29T04:37:15Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [quil/sketchbook-template](https://github.com/quil/sketchbook-template) | 1 | 2024-01-22T04:50:47Z | Other | Template/starter | 0 | 0 | 0 | 0 |
 | [travis-ci/travis-packer-build](https://github.com/travis-ci/travis-packer-build) | 3 | 2024-01-02T14:48:05Z | Other | Library | 0 | 0 | 0 | 0 |
@@ -519,6 +521,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alecrabbit/php-wcwidth](https://github.com/alecrabbit/php-wcwidth) | 4 | 2024-05-10T10:06:41Z | Other | CLI | 4 | 2 | 4 | 4 |
 | [camenduru/MagicTime-jupyter](https://github.com/camenduru/MagicTime-jupyter) | 4 | 2024-04-14T12:30:06Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [dinosaure/unstrctrd](https://github.com/dinosaure/unstrctrd) | 4 | 2024-04-05T08:43:25Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [kodyfanz/ethereum_yellowpaper_vn](https://github.com/kodyfanz/ethereum_yellowpaper_vn) | 4 | 2024-01-31T09:23:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [dicksonlaw583/GMIceCream](https://github.com/dicksonlaw583/GMIceCream) | 4 | 2023-10-29T05:02:37Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [SaraiQX/tigerbot-svelte-app](https://github.com/SaraiQX/tigerbot-svelte-app) | 4 | 2023-06-28T01:34:24Z | Other | Web app | 0 | 10 | 0 | 0 |
 | [terrierteam/pyterrier_deepct](https://github.com/terrierteam/pyterrier_deepct) | 4 | 2023-05-04T12:41:09Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
@@ -589,6 +592,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bigcode-bench/bigcode-bench.github.io](https://github.com/bigcode-bench/bigcode-bench.github.io) | 2 | 2025-04-16T20:12:31Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ptsochantaris/trailer-ql](https://github.com/ptsochantaris/trailer-ql) | 2 | 2025-04-09T07:11:14Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [quarkiverse/antora-ui-quarkiverse](https://github.com/quarkiverse/antora-ui-quarkiverse) | 2 | 2025-04-08T09:20:16Z | Other | Infrastructure/tooling | 2 | 53 | 2 | 2 |
+| [JuliaBinaryWrappers/Zstd_jll.jl](https://github.com/JuliaBinaryWrappers/Zstd_jll.jl) | 2 | 2025-02-22T17:14:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [david-bouyssie/mdbx4s](https://github.com/david-bouyssie/mdbx4s) | 2 | 2025-01-21T10:02:49Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [hchiam/learning-jExcel](https://github.com/hchiam/learning-jExcel) | 2 | 2024-12-05T23:10:09Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [EnokViking/Box2DBeef](https://github.com/EnokViking/Box2DBeef) | 2 | 2024-11-10T02:00:48Z | Other | Unknown | 0 | 0 | 0 | 0 |

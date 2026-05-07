@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2074,
-    "concepts": 2829,
-    "observations": 2836,
-    "repos": 901,
-    "terms": 2817
+    "components": 2078,
+    "concepts": 2842,
+    "observations": 2849,
+    "repos": 908,
+    "terms": 2830
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -391,6 +391,7 @@
     "haydengunraj/COVIDNet-CT",
     "helm/charts-repo-actions-demo",
     "Helsinki-NLP/Tatoeba-Challenge",
+    "hgourvest/superobject",
     "hgyhungry/ge-spmm",
     "hila-chefer/Transformer-MM-Explainability",
     "holochain/launcher-tauri",
@@ -625,6 +626,7 @@
     "MY1L/Unicode",
     "myrjola/diminish.el",
     "mzdluo123/MiraiAndroid",
+    "Naereen/StrapDown.js",
     "nak1114/rbenv-win",
     "natebosch/vim-lsc",
     "nathom/filetype.nvim",
@@ -661,6 +663,7 @@
     "nvim-neotest/neotest-go",
     "nvim-neotest/nvim-nio",
     "nvim-telescope/telescope-cheat.nvim",
+    "nvim-telescope/telescope-frecency.nvim",
     "nvim-telescope/telescope-fzy-native.nvim",
     "nvim-telescope/telescope-smart-history.nvim",
     "nvimdev/galaxyline.nvim",
@@ -720,6 +723,7 @@
     "rails/jsbundling-rails",
     "rails/sprockets-rails",
     "rajanadar/VaultSharp",
+    "raoyongming/DynamicViT",
     "Ravenslofty/mistral",
     "rbong/vim-flog",
     "rdeits/MeshCat.jl",
@@ -831,6 +835,8 @@
     "TheDenk/cogvideox-controlnet",
     "ThePharaohArt/Obsidian-CyberGlow",
     "thinca/vim-qfreplace",
+    "thu-ml/DPM-Solver-v3",
+    "thu-nics/DiTFastAttn",
     "thunlp/WebCPM",
     "tiagofumo/vim-nerdtree-syntax-highlight",
     "tiagovla/scope.nvim",
@@ -896,6 +902,7 @@
     "winterTTr/ace-jump-mode",
     "withastro/houston.astro.build",
     "wjdp/htmltest",
+    "wl-zhao/UniPC",
     "wl-zhao/VPD",
     "xolox/vim-misc",
     "xolox/vim-session",

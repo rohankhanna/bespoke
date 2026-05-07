@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 48,
-    "concepts": 16,
-    "observations": 16,
-    "repos": 8,
-    "terms": 16
+    "components": 58,
+    "concepts": 21,
+    "observations": 21,
+    "repos": 10,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,17 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "abraxas-365/claudio-screenshot",
     "amoniacou/external-dns-digitalocean-webhook",
     "Amtrend/ssh-manager",
+    "DataDog/vault",
     "dubbo-go-pixiu/dubbo-go-pixiu",
     "foundry-rs/optimism",
     "hyper-mcp-rs/crypto-price-plugin",
     "jonislutheran87/weclaw",
+    "kdubbo/xds-api",
     "transparency-dev/armored-witness-common"
   ]
 }

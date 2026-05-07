@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 858,
-    "concepts": 473,
-    "observations": 473,
-    "repos": 110,
-    "terms": 470
+    "components": 860,
+    "concepts": 489,
+    "observations": 489,
+    "repos": 112,
+    "terms": 486
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "abap2UI5/samples",
     "abarisani/abarisani.github.io",
@@ -40,6 +40,7 @@
     "cloudfoundry/bosh-azure-cpi-release",
     "cloudfoundry/capi-release",
     "connectbot/termlib",
+    "controlplaneio-fluxcd/distribution",
     "day8/re-frame-debux",
     "dotnet/arcade-services",
     "dotnet/wpf-test",
@@ -92,10 +93,13 @@
     "optuna/optunahub-registry",
     "Ozsie/detekt-maven-plugin",
     "ParisNeo/lollms",
+    "php/doc-es",
+    "php/doc-fr",
     "php/doc-ja",
     "php/phd",
     "plotly/graphing-library-docs",
     "pq-code-package/mldsa-native",
+    "r-lib/pkgload",
     "reviewdog/action-actionlint",
     "ROCm/rocm-cmake",
     "ROCm/rocm-docs-core",
@@ -104,13 +108,11 @@
     "ruby/mspec",
     "ruby/ruby-builder",
     "saghen/blink.lib",
-    "SAP/abap-file-formats-tools",
     "sbt/sbt-osgi",
     "scientific-python/scientific-python-hugo-theme",
     "SciML/Static.jl",
     "ScoopInstaller/PHP",
     "searxng/searx-instances-uptime",
-    "servo/servo.org",
     "sferik/multi_json",
     "shingarov/MachineArithmetic",
     "Shopify/yjit-metrics",

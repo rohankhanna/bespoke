@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 105
-- terms: 599
-- components: 2884
-- concepts: 546
-- observations: 546
+- repos: 107
+- terms: 608
+- components: 2935
+- concepts: 555
+- observations: 555
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [astral-sh/ruff-action](https://github.com/astral-sh/ruff-action) | 243 | 2026-04-23T10:55:59Z | TypeScript | Infrastructure/tooling | 6 | 28 | 6 | 6 |
+| [DeterminateSystems/nix-installer-action](https://github.com/DeterminateSystems/nix-installer-action) | 231 | 2026-04-23T06:41:58Z | TypeScript | Infrastructure/tooling | 3 | 23 | 3 | 3 |
 | [microsoft/react-native-gallery](https://github.com/microsoft/react-native-gallery) | 254 | 2026-04-23T05:06:08Z | TypeScript | Unknown | 0 | 24 | 0 | 0 |
 | [antfu/starter-ts](https://github.com/antfu/starter-ts) | 906 | 2026-04-23T04:39:32Z | TypeScript | Infrastructure/tooling | 1 | 20 | 1 | 1 |
 | [OpenZeppelin/openzeppelin-upgrades](https://github.com/OpenZeppelin/openzeppelin-upgrades) | 655 | 2026-04-23T03:07:56Z | TypeScript | Infrastructure/tooling | 4 | 18 | 4 | 4 |
@@ -215,8 +217,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [appwrite/sdk-for-node](https://github.com/appwrite/sdk-for-node) | 256 | 2026-04-16T12:15:42Z | TypeScript | Infrastructure/tooling | 7 | 12 | 7 | 7 |
 | [microsoft/react-native-gallery](https://github.com/microsoft/react-native-gallery) | 254 | 2026-04-23T05:06:08Z | TypeScript | Unknown | 0 | 24 | 0 | 0 |
 | [matepek/vscode-catch2-test-adapter](https://github.com/matepek/vscode-catch2-test-adapter) | 248 | 2026-04-14T05:43:01Z | TypeScript | Infrastructure/tooling | 12 | 39 | 12 | 12 |
+| [astral-sh/ruff-action](https://github.com/astral-sh/ruff-action) | 243 | 2026-04-23T10:55:59Z | TypeScript | Infrastructure/tooling | 6 | 28 | 6 | 6 |
 | [aws/aws-iot-device-sdk-js-v2](https://github.com/aws/aws-iot-device-sdk-js-v2) | 238 | 2026-04-21T18:26:28Z | TypeScript | CLI | 6 | 27 | 6 | 6 |
 | [elm-tooling/elm-language-client-vscode](https://github.com/elm-tooling/elm-language-client-vscode) | 237 | 2026-04-13T04:57:01Z | TypeScript | Infrastructure/tooling | 9 | 12 | 9 | 9 |
+| [DeterminateSystems/nix-installer-action](https://github.com/DeterminateSystems/nix-installer-action) | 231 | 2026-04-23T06:41:58Z | TypeScript | Infrastructure/tooling | 3 | 23 | 3 | 3 |
 | [sass/embedded-host-node](https://github.com/sass/embedded-host-node) | 223 | 2026-04-20T20:48:36Z | TypeScript | Infrastructure/tooling | 1 | 37 | 1 | 1 |
 | [fastify/demo](https://github.com/fastify/demo) | 219 | 2026-04-12T12:33:31Z | TypeScript | Infrastructure/tooling | 8 | 37 | 8 | 8 |
 | [juliangruber/brace-expansion](https://github.com/juliangruber/brace-expansion) | 207 | 2026-04-11T13:26:33Z | TypeScript | Infrastructure/tooling | 0 | 10 | 0 | 0 |

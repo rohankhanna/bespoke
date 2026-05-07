@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 132,
-    "concepts": 147,
-    "observations": 150,
-    "repos": 32,
-    "terms": 147
+    "components": 133,
+    "concepts": 151,
+    "observations": 154,
+    "repos": 33,
+    "terms": 151
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/mac2k",
@@ -37,6 +37,7 @@
     "flinedev/tandemkit",
     "gentoo-mirror/guru",
     "GoogleCloudPlatform/blueprints",
+    "iterate-ch/profiles",
     "milvus-io/milvus-proto",
     "NixOS/org",
     "nodenv/nodenv-package-rehash",

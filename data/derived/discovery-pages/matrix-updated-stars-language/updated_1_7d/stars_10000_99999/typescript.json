@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2721,
-    "concepts": 493,
-    "observations": 497,
-    "repos": 45,
-    "terms": 491
+    "components": 2459,
+    "concepts": 436,
+    "observations": 439,
+    "repos": 40,
+    "terms": 434
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "aidenybai/react-scan",
     "angular/angular-cli",
@@ -21,21 +21,17 @@
     "appwrite/appwrite",
     "BabylonJS/Babylon.js",
     "calcom/cal.diy",
-    "changesets/changesets",
     "continuedev/continue",
     "danny-avila/LibreChat",
     "DefinitelyTyped/DefinitelyTyped",
     "element-plus/element-plus",
     "faker-js/faker",
-    "jhipster/generator-jhipster",
+    "fastapi/full-stack-fastapi-template",
     "mapbox/mapbox-gl-js",
     "maplibre/maplibre-gl-js",
     "medusajs/medusa",
     "nitrojs/nitro",
     "nrwl/nx",
-    "nuxt/nuxt",
-    "oblador/react-native-vector-icons",
-    "openobserve/openobserve",
     "puppeteer/puppeteer",
     "QwikDev/qwik",
     "react-hook-form/react-hook-form",
@@ -55,7 +51,6 @@
     "vuejs/core",
     "vuejs/vitepress",
     "vueuse/vueuse",
-    "web-infra-dev/midscene",
     "webpro-nl/knip",
     "windingwind/zotero-pdf-translate",
     "withastro/astro"

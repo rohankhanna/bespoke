@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1,000 to 9,999 stars · Shell
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 16
-- terms: 113
+- repos: 15
+- terms: 111
 - components: 76
-- concepts: 114
-- observations: 114
+- concepts: 111
+- observations: 111
 
 ## Static behavior
 
@@ -41,13 +41,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dtcooper/raspotify](https://github.com/dtcooper/raspotify) | 5120 | 2026-04-24T07:54:17Z | Shell | CLI | 9 | 5 | 9 | 9 |
 | [bioconda/bioconda-recipes](https://github.com/bioconda/bioconda-recipes) | 1805 | 2026-04-23T19:19:52Z | Shell | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [aurutils/aurutils](https://github.com/aurutils/aurutils) | 1039 | 2026-04-23T13:21:14Z | Shell | Infrastructure/tooling | 6 | 1 | 6 | 6 |
-| [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions) | 7743 | 2026-04-23T10:52:06Z | Shell | Unknown | 2 | 0 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions) | 7743 | 2026-04-23T10:52:06Z | Shell | Unknown | 2 | 0 | 3 | 3 |
 | [dtcooper/raspotify](https://github.com/dtcooper/raspotify) | 5120 | 2026-04-24T07:54:17Z | Shell | CLI | 9 | 5 | 9 | 9 |
 | [mlocati/docker-php-extension-installer](https://github.com/mlocati/docker-php-extension-installer) | 4902 | 2026-04-29T12:35:10Z | Shell | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 | [rbenv/ruby-build](https://github.com/rbenv/ruby-build) | 3967 | 2026-04-29T15:26:30Z | Shell | Infrastructure/tooling | 8 | 3 | 8 | 8 |

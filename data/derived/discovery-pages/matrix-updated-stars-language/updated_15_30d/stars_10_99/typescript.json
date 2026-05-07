@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1561,
-    "concepts": 238,
-    "observations": 241,
-    "repos": 63,
-    "terms": 270
+    "components": 1553,
+    "concepts": 235,
+    "observations": 238,
+    "repos": 62,
+    "terms": 267
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
-    "absolute-version/absolute-version-js",
     "adyscorpius/logseq-jira",
     "agents-squads/squads-cli",
     "almogdepaz/wolfpack",
@@ -34,6 +33,7 @@
     "celo-org/developer-tooling",
     "codemirror/language",
     "darkriszty/MarkdownTablePrettify-VSCodeExt",
+    "DataDog/opentelemetry-demo",
     "dokploy/cli",
     "electron-userland/electron-windows-msix",
     "electron/windows-sign",
@@ -45,7 +45,6 @@
     "GreptimeTeam/greptimedb-grafana-datasource",
     "hashintel/labs",
     "haskell-actions/setup",
-    "haskell/ghcup-setup",
     "huangguang1999/ccstatusline-zh",
     "hyparam/demos",
     "ipfs/ipld-explorer-components",

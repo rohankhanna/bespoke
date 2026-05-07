@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 138,
-    "concepts": 71,
-    "observations": 71,
-    "repos": 22,
-    "terms": 71
+    "components": 131,
+    "concepts": 72,
+    "observations": 72,
+    "repos": 21,
+    "terms": 72
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "arcaputo3/mcp-server-whisper",
     "autowarefoundation/autoware_launch",
@@ -21,7 +21,6 @@
     "beclab/apps",
     "conservationtechlab/animl-py",
     "dora-rs/dora-hub",
-    "espressif/esp-idf-monitor",
     "gentoo/api-gentoo-org",
     "gordon-code/cuid2",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
@@ -31,10 +30,10 @@
     "NVIDIA/multi-storage-client",
     "petercorke/spatialmath-python",
     "py-pdf/sample-files",
+    "python-jsonschema/referencing",
     "pytroll/donfig",
     "qiayuanl/unitree_bringup",
     "redis/docs",
-    "scipy/scipy.org",
-    "TaWald/nnUNet"
+    "scipy/scipy.org"
   ]
 }

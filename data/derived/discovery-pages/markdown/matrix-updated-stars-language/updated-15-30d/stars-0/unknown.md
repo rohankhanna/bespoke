@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars · Unknown
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 58
-- terms: 43
+- repos: 59
+- terms: 44
 - components: 43
-- concepts: 34
-- observations: 34
+- concepts: 35
+- observations: 35
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [conda-forge/conda-lock-feedstock](https://github.com/conda-forge/conda-lock-feedstock) | 0 | 2026-04-23T05:44:24Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [Dustinpro/Dustinpro](https://github.com/Dustinpro/Dustinpro) | 0 | 2026-04-22T21:16:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [conda-forge/python-isal-feedstock](https://github.com/conda-forge/python-isal-feedstock) | 0 | 2026-04-22T19:38:39Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [cachix/serde-envfile](https://github.com/cachix/serde-envfile) | 0 | 2026-04-22T10:39:58Z | Unknown | Infrastructure/tooling | 2 | 4 | 2 | 2 |
@@ -89,6 +90,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [conda-forge/conda-lock-feedstock](https://github.com/conda-forge/conda-lock-feedstock) | 0 | 2026-04-23T05:44:24Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [Dustinpro/Dustinpro](https://github.com/Dustinpro/Dustinpro) | 0 | 2026-04-22T21:16:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [conda-forge/python-isal-feedstock](https://github.com/conda-forge/python-isal-feedstock) | 0 | 2026-04-22T19:38:39Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [cachix/serde-envfile](https://github.com/cachix/serde-envfile) | 0 | 2026-04-22T10:39:58Z | Unknown | Infrastructure/tooling | 2 | 4 | 2 | 2 |

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 922,
-    "concepts": 554,
-    "observations": 555,
-    "repos": 166,
-    "terms": 546
+    "components": 930,
+    "concepts": 560,
+    "observations": 561,
+    "repos": 168,
+    "terms": 552
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "10up/.github",
     "2KAbhishek/BWnB",
@@ -72,6 +72,7 @@
     "danielrosehill/claude-code-sysadmin-workspaces-index",
     "danielrosehill/Claude-Dolphin-Konsole-Actions",
     "danielrosehill/claude-slash-commands",
+    "danielrosehill/donetick-mcp",
     "danielrosehill/GreenInvoice-MCP",
     "danielrosehill/Hebrew-TTS-Providers",
     "danielrosehill/Homebox-Projects-Index",
@@ -161,6 +162,7 @@
     "ROCm/rbuild",
     "rocq-community/docker-base",
     "rocq-community/docker-rocq",
+    "runtimeverification/kup",
     "saalfeldlab/n5-google-cloud",
     "ScoopInstaller/.github",
     "serpro69/claude-in-docker",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2621,
-    "concepts": 2011,
-    "observations": 2021,
-    "repos": 403,
-    "terms": 1991
+    "components": 2626,
+    "concepts": 2023,
+    "observations": 2033,
+    "repos": 405,
+    "terms": 2003
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "99designs/aws-vault",
@@ -153,6 +153,7 @@
     "globalize/globalize",
     "godot-rust/gdnative",
     "golang-ui/nuklear",
+    "google-deepmind/alphageometry",
     "google-gemini/deprecated-generative-ai-python",
     "google-github-actions/auth",
     "google-research/text-to-text-transfer-transformer",
@@ -336,6 +337,7 @@
     "rails/spring",
     "reactjs/react-a11y",
     "reagent-project/reagent",
+    "remsky/Kokoro-FastAPI",
     "richfelker/musl-cross-make",
     "ricky0123/vad",
     "rose-pine/rose-pine-theme",

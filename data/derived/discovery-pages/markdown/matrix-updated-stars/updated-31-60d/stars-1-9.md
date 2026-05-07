@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 166
-- terms: 546
-- components: 922
-- concepts: 554
-- observations: 555
+- repos: 168
+- terms: 552
+- components: 930
+- concepts: 560
+- observations: 561
 
 ## Static behavior
 
@@ -47,6 +47,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dwyl/auth_plug_example](https://github.com/dwyl/auth_plug_example) | 7 | 2026-04-03T23:06:16Z | Other | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [axolotl-ai-cloud/ml-cross-entropy](https://github.com/axolotl-ai-cloud/ml-cross-entropy) | 3 | 2026-04-03T21:08:13Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [rocq-community/docker-rocq](https://github.com/rocq-community/docker-rocq) | 4 | 2026-04-03T15:27:30Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/donetick-mcp](https://github.com/danielrosehill/donetick-mcp) | 1 | 2026-04-03T12:52:19Z | Python | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [graphql/community-wg](https://github.com/graphql/community-wg) | 8 | 2026-04-03T12:17:52Z | JavaScript | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [danielrosehill/GreenInvoice-MCP](https://github.com/danielrosehill/GreenInvoice-MCP) | 2 | 2026-04-03T10:56:40Z | TypeScript | Unknown | 0 | 3 | 0 | 0 |
 | [stdlib-js/ndarray-dtype](https://github.com/stdlib-js/ndarray-dtype) | 1 | 2026-04-03T03:55:10Z | JavaScript | Infrastructure/tooling | 23 | 25 | 23 | 23 |
@@ -80,6 +81,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hsivonen/chardetng_c](https://github.com/hsivonen/chardetng_c) | 2 | 2026-03-30T12:23:58Z | Rust | Service/API | 0 | 0 | 0 | 0 |
 | [lab-cosmo/.github](https://github.com/lab-cosmo/.github) | 1 | 2026-03-30T08:47:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [datachainlab/yui-relayer-build](https://github.com/datachainlab/yui-relayer-build) | 8 | 2026-03-30T07:44:01Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
+| [runtimeverification/kup](https://github.com/runtimeverification/kup) | 9 | 2026-03-29T13:29:22Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [dylibso/xtp-go-bindgen](https://github.com/dylibso/xtp-go-bindgen) | 3 | 2026-03-29T12:28:20Z | Other | Infrastructure/tooling | 2 | 14 | 2 | 2 |
 | [dylibso/xtp-cpp-bindgen](https://github.com/dylibso/xtp-cpp-bindgen) | 1 | 2026-03-29T11:57:47Z | TypeScript | Infrastructure/tooling | 2 | 12 | 2 | 2 |
 | [dylibso/xtp-csharp-bindgen](https://github.com/dylibso/xtp-csharp-bindgen) | 2 | 2026-03-29T11:39:13Z | Other | Infrastructure/tooling | 2 | 13 | 2 | 2 |
@@ -198,6 +200,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [azure/homebrew-bicep](https://github.com/Azure/homebrew-bicep) | 9 | 2026-04-02T19:30:43Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [elixir-makeup/makeup_syntect](https://github.com/elixir-makeup/makeup_syntect) | 9 | 2026-03-30T15:26:06Z | Other | Infrastructure/tooling | 3 | 11 | 3 | 3 |
+| [runtimeverification/kup](https://github.com/runtimeverification/kup) | 9 | 2026-03-29T13:29:22Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [ldayton/parable](https://github.com/ldayton/Parable) | 9 | 2026-03-26T21:26:40Z | Python | Infrastructure/tooling | 4 | 6 | 5 | 5 |
 | [lucabubi/star-history](https://github.com/lucabubi/star-history) | 9 | 2026-03-17T12:29:09Z | JavaScript | Unknown | 14 | 9 | 14 | 14 |
 | [PyThaiNLP/pythainlp-corpus](https://github.com/PyThaiNLP/pythainlp-corpus) | 9 | 2026-03-14T05:43:38Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
@@ -327,6 +330,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Open-Claw-Stack](https://github.com/danielrosehill/Open-Claw-Stack) | 1 | 2026-04-06T16:46:34Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [danielrosehill/Awesome-Red-Alerts](https://github.com/danielrosehill/Awesome-Red-Alerts) | 1 | 2026-04-06T14:14:22Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [danielrosehill/AI-Decision-Eval-Projects](https://github.com/danielrosehill/AI-Decision-Eval-Projects) | 1 | 2026-04-05T00:30:36Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
+| [danielrosehill/donetick-mcp](https://github.com/danielrosehill/donetick-mcp) | 1 | 2026-04-03T12:52:19Z | Python | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [stdlib-js/ndarray-dtype](https://github.com/stdlib-js/ndarray-dtype) | 1 | 2026-04-03T03:55:10Z | JavaScript | Infrastructure/tooling | 23 | 25 | 23 | 23 |
 | [stdlib-js/array-typed](https://github.com/stdlib-js/array-typed) | 1 | 2026-04-02T03:34:17Z | JavaScript | Infrastructure/tooling | 24 | 42 | 24 | 24 |
 | [storybookjs/addon-jest](https://github.com/storybookjs/addon-jest) | 1 | 2026-04-01T12:26:26Z | TypeScript | Infrastructure/tooling | 2 | 20 | 2 | 2 |

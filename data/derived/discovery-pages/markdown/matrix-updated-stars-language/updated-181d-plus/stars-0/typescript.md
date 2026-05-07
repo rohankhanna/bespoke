@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · TypeScript
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 13
-- terms: 30
-- components: 202
-- concepts: 30
-- observations: 30
+- repos: 14
+- terms: 37
+- components: 218
+- concepts: 37
+- observations: 37
 
 ## Static behavior
 
@@ -35,6 +35,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kakajun/simple-panzoom](https://github.com/kakajun/simple-panzoom) | 0 | 2024-08-13T08:05:25Z | TypeScript | Infrastructure/tooling | 1 | 25 | 1 | 1 |
 | [kloudfuse/opentelemetry-demo](https://github.com/kloudfuse/opentelemetry-demo) | 0 | 2024-07-15T17:51:03Z | TypeScript | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [featherbread/hypcast-v1](https://github.com/featherbread/hypcast-v1) | 0 | 2024-06-29T01:41:43Z | TypeScript | Infrastructure/tooling | 0 | 35 | 0 | 0 |
+| [TelemetryHub/opentelemetry-demo](https://github.com/TelemetryHub/opentelemetry-demo) | 0 | 2024-06-17T21:22:10Z | TypeScript | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [kong/proxy-wasm-assemblyscript-rate-limiting](https://github.com/Kong/proxy-wasm-assemblyscript-rate-limiting) | 0 | 2023-11-03T13:26:41Z | TypeScript | Unknown | 0 | 4 | 0 | 0 |
 | [cryptonomic/conseiljs-ledgersigner](https://github.com/Cryptonomic/ConseilJS-ledgersigner) | 0 | 2023-08-08T19:40:12Z | TypeScript | Infrastructure/tooling | 1 | 20 | 1 | 1 |
 | [mgr0dzicki/cargo-semver-checks-action](https://github.com/mgr0dzicki/cargo-semver-checks-action) | 0 | 2023-05-02T19:40:02Z | TypeScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
@@ -53,6 +54,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kakajun/simple-panzoom](https://github.com/kakajun/simple-panzoom) | 0 | 2024-08-13T08:05:25Z | TypeScript | Infrastructure/tooling | 1 | 25 | 1 | 1 |
 | [kloudfuse/opentelemetry-demo](https://github.com/kloudfuse/opentelemetry-demo) | 0 | 2024-07-15T17:51:03Z | TypeScript | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [featherbread/hypcast-v1](https://github.com/featherbread/hypcast-v1) | 0 | 2024-06-29T01:41:43Z | TypeScript | Infrastructure/tooling | 0 | 35 | 0 | 0 |
+| [TelemetryHub/opentelemetry-demo](https://github.com/TelemetryHub/opentelemetry-demo) | 0 | 2024-06-17T21:22:10Z | TypeScript | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [kong/proxy-wasm-assemblyscript-rate-limiting](https://github.com/Kong/proxy-wasm-assemblyscript-rate-limiting) | 0 | 2023-11-03T13:26:41Z | TypeScript | Unknown | 0 | 4 | 0 | 0 |
 | [cryptonomic/conseiljs-ledgersigner](https://github.com/Cryptonomic/ConseilJS-ledgersigner) | 0 | 2023-08-08T19:40:12Z | TypeScript | Infrastructure/tooling | 1 | 20 | 1 | 1 |
 | [mgr0dzicki/cargo-semver-checks-action](https://github.com/mgr0dzicki/cargo-semver-checks-action) | 0 | 2023-05-02T19:40:02Z | TypeScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |

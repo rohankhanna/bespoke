@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars · Go
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 8
-- terms: 16
-- components: 48
-- concepts: 16
-- observations: 16
+- repos: 10
+- terms: 21
+- components: 58
+- concepts: 21
+- observations: 21
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [kdubbo/xds-api](https://github.com/kdubbo/xds-api) | 0 | 2026-04-23T10:50:00Z | Go | Unknown | 0 | 0 | 0 | 0 |
+| [DataDog/vault](https://github.com/DataDog/vault) | 0 | 2026-04-23T09:08:34Z | Go | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [transparency-dev/armored-witness-common](https://github.com/transparency-dev/armored-witness-common) | 0 | 2026-04-20T11:23:44Z | Go | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [Amtrend/ssh-manager](https://github.com/Amtrend/ssh-manager) | 0 | 2026-04-19T17:00:11Z | Go | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [jonislutheran87/weclaw](https://github.com/jonislutheran87/weclaw) | 0 | 2026-04-19T12:37:21Z | Go | CLI | 0 | 0 | 0 | 0 |
@@ -39,6 +41,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [kdubbo/xds-api](https://github.com/kdubbo/xds-api) | 0 | 2026-04-23T10:50:00Z | Go | Unknown | 0 | 0 | 0 | 0 |
+| [DataDog/vault](https://github.com/DataDog/vault) | 0 | 2026-04-23T09:08:34Z | Go | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [transparency-dev/armored-witness-common](https://github.com/transparency-dev/armored-witness-common) | 0 | 2026-04-20T11:23:44Z | Go | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [Amtrend/ssh-manager](https://github.com/Amtrend/ssh-manager) | 0 | 2026-04-19T17:00:11Z | Go | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [jonislutheran87/weclaw](https://github.com/jonislutheran87/weclaw) | 0 | 2026-04-19T12:37:21Z | Go | CLI | 0 | 0 | 0 | 0 |

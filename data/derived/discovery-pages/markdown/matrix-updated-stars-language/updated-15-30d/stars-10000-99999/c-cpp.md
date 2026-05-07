@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 56
-- terms: 501
-- components: 420
-- concepts: 501
-- observations: 503
+- repos: 61
+- terms: 544
+- components: 452
+- concepts: 544
+- observations: 546
 
 ## Static behavior
 
@@ -26,6 +26,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | 19945 | 2026-04-23T08:42:20Z | C/C++ | Infrastructure/tooling | 14 | 13 | 14 | 14 |
+| [gnachman/iTerm2](https://github.com/gnachman/iTerm2) | 17448 | 2026-04-23T07:08:03Z | C/C++ | CLI | 1 | 3 | 1 | 1 |
+| [FreeRDP/FreeRDP](https://github.com/FreeRDP/FreeRDP) | 13080 | 2026-04-23T06:58:34Z | C/C++ | CLI | 14 | 8 | 14 | 14 |
+| [apple/foundationdb](https://github.com/apple/foundationdb) | 16272 | 2026-04-23T06:52:40Z | C/C++ | Infrastructure/tooling | 7 | 3 | 7 | 7 |
+| [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | 39808 | 2026-04-23T06:02:08Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [facebook/rocksdb](https://github.com/facebook/rocksdb) | 31629 | 2026-04-23T03:41:46Z | C/C++ | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [facebook/folly](https://github.com/facebook/folly) | 30338 | 2026-04-23T01:19:19Z | C/C++ | Infrastructure/tooling | 7 | 15 | 7 | 7 |
 | [microsoft/react-native-windows](https://github.com/microsoft/react-native-windows) | 17241 | 2026-04-23T00:58:07Z | C/C++ | Infrastructure/tooling | 10 | 26 | 10 | 10 |
@@ -95,6 +100,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 46992 | 2026-04-21T11:35:12Z | C/C++ | CLI | 21 | 5 | 21 | 21 |
 | [tmux/tmux](https://github.com/tmux/tmux) | 44678 | 2026-04-16T03:27:10Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [curl/curl](https://github.com/curl/curl) | 41364 | 2026-04-22T21:42:17Z | C/C++ | CLI | 25 | 7 | 25 | 25 |
+| [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | 39808 | 2026-04-23T06:02:08Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [aseprite/aseprite](https://github.com/aseprite/aseprite) | 36669 | 2026-04-21T19:13:01Z | C/C++ | Infrastructure/tooling | 20 | 11 | 20 | 20 |
 | [mpv-player/mpv](https://github.com/mpv-player/mpv) | 34912 | 2026-04-22T23:38:48Z | C/C++ | CLI | 11 | 15 | 11 | 11 |
 | [nothings/stb](https://github.com/nothings/stb) | 33436 | 2026-04-15T20:53:29Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -111,20 +117,24 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fmtlib/fmt](https://github.com/fmtlib/fmt) | 23441 | 2026-04-20T17:29:42Z | C/C++ | Infrastructure/tooling | 18 | 7 | 18 | 18 |
 | [Tencent/ncnn](https://github.com/Tencent/ncnn) | 23144 | 2026-04-22T11:42:01Z | C/C++ | Infrastructure/tooling | 26 | 8 | 26 | 27 |
 | [pgvector/pgvector](https://github.com/pgvector/pgvector) | 20968 | 2026-04-15T05:48:15Z | C/C++ | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | 19945 | 2026-04-23T08:42:20Z | C/C++ | Infrastructure/tooling | 14 | 13 | 14 | 14 |
 | [uNetworking/uWebSockets](https://github.com/uNetworking/uWebSockets) | 18809 | 2026-04-22T23:14:12Z | C/C++ | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [RPCS3/rpcs3](https://github.com/RPCS3/rpcs3) | 18625 | 2026-04-22T13:06:02Z | C/C++ | Infrastructure/tooling | 11 | 8 | 11 | 11 |
 | [facebook/hhvm](https://github.com/facebook/hhvm) | 18616 | 2026-04-22T18:55:39Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [pybind/pybind11](https://github.com/pybind/pybind11) | 17812 | 2026-04-19T03:05:32Z | C/C++ | Infrastructure/tooling | 8 | 19 | 8 | 8 |
+| [gnachman/iTerm2](https://github.com/gnachman/iTerm2) | 17448 | 2026-04-23T07:08:03Z | C/C++ | CLI | 1 | 3 | 1 | 1 |
 | [microsoft/react-native-windows](https://github.com/microsoft/react-native-windows) | 17241 | 2026-04-23T00:58:07Z | C/C++ | Infrastructure/tooling | 10 | 26 | 10 | 10 |
 | [abseil/abseil-cpp](https://github.com/abseil/abseil-cpp) | 17209 | 2026-04-21T19:11:07Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [apache/arrow](https://github.com/apache/arrow) | 16682 | 2026-04-21T14:56:22Z | C/C++ | Infrastructure/tooling | 11 | 12 | 11 | 11 |
 | [NixOS/nix](https://github.com/NixOS/nix) | 16671 | 2026-04-23T00:37:08Z | C/C++ | Infrastructure/tooling | 7 | 10 | 7 | 7 |
+| [apple/foundationdb](https://github.com/apple/foundationdb) | 16272 | 2026-04-23T06:52:40Z | C/C++ | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [davatorium/rofi](https://github.com/davatorium/rofi) | 16006 | 2026-04-13T13:42:37Z | C/C++ | Infrastructure/tooling | 11 | 9 | 11 | 11 |
 | [wolfpld/tracy](https://github.com/wolfpld/tracy) | 15694 | 2026-04-21T16:12:32Z | C/C++ | Infrastructure/tooling | 16 | 10 | 16 | 16 |
 | [alibaba/MNN](https://github.com/alibaba/MNN) | 14999 | 2026-04-21T11:31:53Z | C/C++ | Infrastructure/tooling | 14 | 10 | 14 | 14 |
 | [haiwen/seafile](https://github.com/haiwen/seafile) | 14646 | 2026-04-16T02:22:19Z | C/C++ | Unknown | 6 | 0 | 7 | 7 |
 | [jedisct1/libsodium](https://github.com/jedisct1/libsodium) | 13627 | 2026-04-16T14:51:33Z | C/C++ | Infrastructure/tooling | 7 | 11 | 7 | 7 |
 | [jonas/tig](https://github.com/jonas/tig) | 13199 | 2026-04-20T18:00:55Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
+| [FreeRDP/FreeRDP](https://github.com/FreeRDP/FreeRDP) | 13080 | 2026-04-23T06:58:34Z | C/C++ | CLI | 14 | 8 | 14 | 14 |
 | [NVIDIA/TensorRT](https://github.com/NVIDIA/TensorRT) | 12928 | 2026-04-13T22:59:10Z | C/C++ | Infrastructure/tooling | 10 | 6 | 10 | 10 |
 | [ninja-build/ninja](https://github.com/ninja-build/ninja) | 12895 | 2026-04-12T16:45:24Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [google/sanitizers](https://github.com/google/sanitizers) | 12361 | 2026-04-08T16:22:46Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

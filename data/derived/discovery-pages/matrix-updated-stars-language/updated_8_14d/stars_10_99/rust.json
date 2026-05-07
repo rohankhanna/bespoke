@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 341,
-    "concepts": 219,
-    "observations": 219,
-    "repos": 47,
-    "terms": 219
+    "components": 326,
+    "concepts": 206,
+    "observations": 206,
+    "repos": 45,
+    "terms": 206
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "AccessKit/accesskit-c",
     "ai-dynamo/modelexpress",
@@ -32,8 +32,6 @@
     "davidhozic/mujoco-rs",
     "Dicklesworthstone/frankensearch",
     "eopb/cargo-override",
-    "eth-act/ere",
-    "eth-act/zkboost",
     "filecoin-project/builtin-actors",
     "fonttools/fontspector",
     "GreptimeTeam/greptimedb-ingester-rust",

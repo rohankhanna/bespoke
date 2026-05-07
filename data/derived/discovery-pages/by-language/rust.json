@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11374,
-    "concepts": 7749,
-    "observations": 7809,
-    "repos": 1703,
-    "terms": 7751
+    "components": 11408,
+    "concepts": 7779,
+    "observations": 7839,
+    "repos": 1705,
+    "terms": 7781
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "01mf02/jaq",
@@ -574,6 +574,7 @@
     "EmbarkStudios/rust-gpu",
     "emilk/eframe_template",
     "emilk/egui",
+    "emilk/egui_plot",
     "EmmyLuaLs/emmylua-analyzer-rust",
     "enbop/fungi",
     "enigo-rs/enigo",
@@ -981,6 +982,7 @@
     "lambdaclass/ethrex",
     "lambdaclass/lambdaworks",
     "lambdaclass/libssz",
+    "lance-format/lance",
     "lapce/lapce-plugin-rust",
     "lapce/psp-types",
     "lapce/wasi-experimental-http",

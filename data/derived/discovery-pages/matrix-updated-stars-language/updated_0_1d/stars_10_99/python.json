@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 6,
-    "observations": 6,
+    "components": 0,
+    "concepts": 0,
+    "observations": 0,
     "repos": 1,
-    "terms": 6
+    "terms": 0
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
-    "hiddenswitch/pip-and-uv-installable-ComfyUI"
+    "mesh-iit/cad-libraries"
   ]
 }

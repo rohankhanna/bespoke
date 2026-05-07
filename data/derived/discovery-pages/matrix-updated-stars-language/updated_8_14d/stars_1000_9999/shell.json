@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 76,
-    "concepts": 114,
-    "observations": 114,
-    "repos": 16,
-    "terms": 113
+    "concepts": 111,
+    "observations": 111,
+    "repos": 15,
+    "terms": 111
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "aurutils/aurutils",
     "bioconda/bioconda-recipes",
@@ -28,7 +28,6 @@
     "rbenv/ruby-build",
     "rocker-org/rocker",
     "sublimehq/Packages",
-    "YosysHQ/oss-cad-suite-build",
-    "zsh-users/zsh-completions"
+    "YosysHQ/oss-cad-suite-build"
   ]
 }

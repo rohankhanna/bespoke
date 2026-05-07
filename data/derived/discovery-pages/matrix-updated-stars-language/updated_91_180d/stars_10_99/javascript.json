@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 321,
-    "concepts": 43,
-    "observations": 44,
-    "repos": 27,
-    "terms": 43
+    "components": 333,
+    "concepts": 53,
+    "observations": 54,
+    "repos": 28,
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "ameshkov/safari-blocker",
     "Arthy000/gherkin-testcafe",
@@ -36,6 +36,7 @@
     "markdown-it/markdown-it-deflist",
     "markdown-it/markdown-it-sub",
     "minikube-ci/examples",
+    "NEAR-DevHub/neardevhub-bos",
     "nodejs/Gzemnid",
     "Redocly/redocly-cli-cookbook",
     "salesforcecli/status",

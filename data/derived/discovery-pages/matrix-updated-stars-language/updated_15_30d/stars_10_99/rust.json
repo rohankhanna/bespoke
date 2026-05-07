@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 369,
-    "concepts": 228,
-    "observations": 229,
-    "repos": 59,
-    "terms": 242
+    "components": 382,
+    "concepts": 237,
+    "observations": 237,
+    "repos": 60,
+    "terms": 251
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -36,10 +36,11 @@
     "cpmech/gemlab",
     "crate-ci/imperative",
     "datachainlab/lcp",
+    "eth-act/ere",
+    "eth-act/zkboost",
     "filecoin-project/actors-utils",
     "fortanix/rustls-mbedtls-provider",
     "foundry-rs/foundry-fork-db",
-    "google/safe-mmio",
     "GreptimeTeam/promql-parser",
     "hagan/claudia-statusline",
     "hecrj/iced_palace",

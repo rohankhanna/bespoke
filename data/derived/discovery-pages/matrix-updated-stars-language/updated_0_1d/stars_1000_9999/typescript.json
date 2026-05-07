@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 259,
-    "concepts": 53,
-    "observations": 54,
-    "repos": 6,
-    "terms": 53
+    "components": 309,
+    "concepts": 56,
+    "observations": 57,
+    "repos": 7,
+    "terms": 56
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "benchmark-action/github-action-benchmark",
     "conventional-changelog/conventional-changelog",
     "electron/rebuild",
     "podman-desktop/podman-desktop",
     "TanStack/form",
-    "typescript-language-server/typescript-language-server"
+    "typescript-language-server/typescript-language-server",
+    "vuejs/devtools"
   ]
 }

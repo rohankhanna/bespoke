@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · Other
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 47
-- terms: 74
+- repos: 48
+- terms: 75
 - components: 161
-- concepts: 74
-- observations: 74
+- concepts: 75
+- observations: 75
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [conda-forge/croc-feedstock](https://github.com/conda-forge/croc-feedstock) | 1 | 2026-04-23T06:46:24Z | Other | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [jhugestar/jhugestar.github.io](https://github.com/jhugestar/jhugestar.github.io) | 3 | 2026-04-23T03:26:09Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [conda-forge/scikit-build-core-feedstock](https://github.com/conda-forge/scikit-build-core-feedstock) | 1 | 2026-04-23T00:36:17Z | Other | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [celo-org/charts](https://github.com/celo-org/charts) | 6 | 2026-04-23T00:09:03Z | Other | Infrastructure/tooling | 6 | 24 | 6 | 6 |
@@ -118,6 +119,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dm0x23/portfolio-website](https://github.com/dm0x23/Portfolio-website) | 2 | 2026-04-17T16:50:49Z | Other | Web app | 0 | 16 | 0 | 0 |
 | [joinwell52-ai/joinwell52](https://github.com/joinwell52-AI/joinwell52) | 2 | 2026-04-14T02:12:31Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [dp111/6502timing](https://github.com/dp111/6502Timing) | 2 | 2026-04-11T09:31:38Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [conda-forge/croc-feedstock](https://github.com/conda-forge/croc-feedstock) | 1 | 2026-04-23T06:46:24Z | Other | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [conda-forge/scikit-build-core-feedstock](https://github.com/conda-forge/scikit-build-core-feedstock) | 1 | 2026-04-23T00:36:17Z | Other | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [cake-contrib/Cake.Markdownlint](https://github.com/cake-contrib/Cake.Markdownlint) | 1 | 2026-04-22T20:43:57Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [hchiam/hchiam.github.io](https://github.com/hchiam/hchiam.github.io) | 1 | 2026-04-21T22:14:43Z | Other | Infrastructure/tooling | 1 | 13 | 1 | 1 |

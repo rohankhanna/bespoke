@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 126
-- terms: 946
-- components: 878
-- concepts: 952
-- observations: 957
+- repos: 127
+- terms: 954
+- components: 882
+- concepts: 959
+- observations: 964
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ganelson/inform](https://github.com/ganelson/inform) | 1584 | 2026-04-23T09:13:42Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
+| [openxla/xla](https://github.com/openxla/xla) | 4195 | 2026-04-23T06:35:20Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [rapidsai/cudf](https://github.com/rapidsai/cudf) | 9607 | 2026-04-23T05:06:40Z | C/C++ | Infrastructure/tooling | 17 | 24 | 17 | 17 |
 | [saitoha/libsixel](https://github.com/saitoha/libsixel) | 2785 | 2026-04-23T04:07:06Z | C/C++ | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [libjxl/libjxl](https://github.com/libjxl/libjxl) | 3457 | 2026-04-23T03:47:37Z | C/C++ | Infrastructure/tooling | 17 | 12 | 17 | 17 |
@@ -151,7 +153,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [oneapi-src/oneAPI-samples](https://github.com/oneapi-src/oneAPI-samples) | 1139 | 2026-04-08T08:45:58Z | C/C++ | Infrastructure/tooling | 17 | 2 | 17 | 17 |
 | [KhronosGroup/MoltenVK](https://github.com/KhronosGroup/MoltenVK) | 5588 | 2026-04-08T00:01:30Z | C/C++ | Infrastructure/tooling | 0 | 8 | 0 | 0 |
 | [OHF-Voice/piper1-gpl](https://github.com/OHF-Voice/piper1-gpl) | 3869 | 2026-04-07T12:06:54Z | C/C++ | Infrastructure/tooling | 3 | 6 | 3 | 3 |
-| [posva/catimg](https://github.com/posva/catimg) | 1545 | 2026-04-07T08:59:37Z | C/C++ | CLI | 3 | 0 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -200,6 +201,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/react-native-macos](https://github.com/microsoft/react-native-macos) | 4319 | 2026-04-22T00:28:10Z | C/C++ | Infrastructure/tooling | 6 | 76 | 6 | 6 |
 | [libjpeg-turbo/libjpeg-turbo](https://github.com/libjpeg-turbo/libjpeg-turbo) | 4295 | 2026-04-14T15:30:45Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [libffi/libffi](https://github.com/libffi/libffi) | 4235 | 2026-04-21T09:33:32Z | C/C++ | Infrastructure/tooling | 2 | 14 | 2 | 2 |
+| [openxla/xla](https://github.com/openxla/xla) | 4195 | 2026-04-23T06:35:20Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [root-project/cling](https://github.com/root-project/cling) | 4137 | 2026-04-19T13:49:42Z | C/C++ | CLI | 6 | 1 | 6 | 6 |
 | [unum-cloud/USearch](https://github.com/unum-cloud/USearch) | 4070 | 2026-04-20T00:52:22Z | C/C++ | Infrastructure/tooling | 20 | 39 | 20 | 20 |
 | [mapnik/mapnik](https://github.com/mapnik/mapnik) | 3929 | 2026-04-14T10:41:05Z | C/C++ | Infrastructure/tooling | 9 | 5 | 9 | 9 |
@@ -258,8 +260,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nvpro-samples/vk_raytracing_tutorial_KHR](https://github.com/nvpro-samples/vk_raytracing_tutorial_KHR) | 1706 | 2026-04-20T09:44:37Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [soramimi/guitar](https://github.com/soramimi/Guitar) | 1673 | 2026-04-19T13:23:50Z | C/C++ | CLI | 1 | 7 | 0 | 0 |
 | [HypoPG/hypopg](https://github.com/HypoPG/hypopg) | 1641 | 2026-04-18T07:47:04Z | C/C++ | Infrastructure/tooling | 7 | 1 | 7 | 7 |
+| [ganelson/inform](https://github.com/ganelson/inform) | 1584 | 2026-04-23T09:13:42Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [pnggroup/libpng](https://github.com/pnggroup/libpng) | 1578 | 2026-04-22T18:43:14Z | C/C++ | Infrastructure/tooling | 4 | 3 | 4 | 4 |
-| [posva/catimg](https://github.com/posva/catimg) | 1545 | 2026-04-07T08:59:37Z | C/C++ | CLI | 3 | 0 | 4 | 4 |
 | [Moddable-OpenSource/moddable](https://github.com/Moddable-OpenSource/moddable) | 1520 | 2026-04-22T08:17:02Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [libssh2/libssh2](https://github.com/libssh2/libssh2) | 1519 | 2026-04-22T22:27:33Z | C/C++ | CLI | 9 | 14 | 9 | 9 |
 | [google/tensorstore](https://github.com/google/tensorstore) | 1510 | 2026-04-14T23:03:46Z | C/C++ | Infrastructure/tooling | 2 | 7 | 2 | 2 |

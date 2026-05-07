@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Shell
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 83
-- terms: 205
-- components: 92
-- concepts: 210
-- observations: 210
+- repos: 84
+- terms: 208
+- components: 97
+- concepts: 213
+- observations: 213
 
 ## Static behavior
 
@@ -52,6 +52,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [2KAbhishek/ghpm](https://github.com/2KAbhishek/ghpm) | 30 | 2024-12-15T05:56:16Z | Shell | Unknown | 3 | 0 | 4 | 4 |
 | [bjartnes/hikke](https://github.com/bjartnes/hikke) | 52 | 2024-11-29T13:04:11Z | Shell | Unknown | 10 | 0 | 10 | 10 |
 | [xetdata/xet-tools](https://github.com/xetdata/xet-tools) | 11 | 2024-10-16T17:47:15Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [jstkdng/aur](https://github.com/jstkdng/aur) | 18 | 2024-09-24T02:53:14Z | Shell | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [aaronpowell/tmux-weather](https://github.com/aaronpowell/tmux-weather) | 52 | 2024-09-16T01:22:17Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [timothycrosley/cookiecutter-python](https://github.com/timothycrosley/cookiecutter-python) | 24 | 2024-07-05T03:52:56Z | Shell | Template/starter | 0 | 0 | 0 | 0 |
 | [tuvovan/Zero_DCE_TF](https://github.com/tuvovan/Zero_DCE_TF) | 52 | 2024-06-13T07:08:27Z | Shell | Infrastructure/tooling | 2 | 0 | 2 | 2 |
@@ -177,6 +178,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jcupitt/vips-benchmarks](https://github.com/jcupitt/vips-benchmarks) | 19 | 2023-01-18T20:32:38Z | Shell | Library | 0 | 0 | 0 | 0 |
 | [wchen342/android-rebuilds](https://github.com/wchen342/android-rebuilds) | 19 | 2022-02-07T16:48:47Z | Shell | Library | 0 | 0 | 0 | 0 |
 | [geekworm-com/xscript](https://github.com/geekworm-com/xscript) | 18 | 2025-10-29T15:16:39Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [jstkdng/aur](https://github.com/jstkdng/aur) | 18 | 2024-09-24T02:53:14Z | Shell | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [aleksejkrueger/tmux-spotify-tui](https://github.com/aleksejkrueger/tmux-spotify-tui) | 18 | 2022-12-17T12:03:21Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [geekworm-com/x-c1](https://github.com/geekworm-com/x-c1) | 17 | 2024-06-11T12:52:10Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [manim-kindergarten/manim_action_renderer](https://github.com/manim-kindergarten/manim_action_renderer) | 17 | 2022-01-15T17:39:06Z | Shell | Infrastructure/tooling | 5 | 2 | 5 | 5 |

@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 35
-- terms: 165
-- components: 624
-- concepts: 165
-- observations: 166
+- repos: 34
+- terms: 159
+- components: 603
+- concepts: 159
+- observations: 160
 
 ## Static behavior
 
@@ -60,7 +60,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [octokit/openapi-types.ts](https://github.com/octokit/openapi-types.ts) | 54 | 2026-04-23T14:59:38Z | JavaScript | Infrastructure/tooling | 13 | 16 | 13 | 13 |
 | [octokit/app-permissions](https://github.com/octokit/app-permissions) | 14 | 2026-04-23T14:56:25Z | JavaScript | Infrastructure/tooling | 8 | 12 | 8 | 8 |
 | [octokit/openapi](https://github.com/octokit/openapi) | 50 | 2026-04-23T13:29:21Z | JavaScript | Infrastructure/tooling | 12 | 22 | 12 | 12 |
-| [locize/i18next-locize-backend](https://github.com/locize/i18next-locize-backend) | 78 | 2026-04-23T06:13:08Z | JavaScript | Infrastructure/tooling | 6 | 21 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -72,7 +71,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lm-sys/lm-sys.github.io](https://github.com/lm-sys/lm-sys.github.io) | 87 | 2026-04-29T18:36:11Z | JavaScript | Infrastructure/tooling | 1 | 26 | 1 | 1 |
 | [tracked-tools/tracked-toolbox](https://github.com/tracked-tools/tracked-toolbox) | 85 | 2026-04-27T19:32:28Z | JavaScript | Infrastructure/tooling | 3 | 15 | 3 | 3 |
 | [hudochenkov/postcss-styled-syntax](https://github.com/hudochenkov/postcss-styled-syntax) | 81 | 2026-04-28T23:10:30Z | JavaScript | Infrastructure/tooling | 6 | 14 | 6 | 6 |
-| [locize/i18next-locize-backend](https://github.com/locize/i18next-locize-backend) | 78 | 2026-04-23T06:13:08Z | JavaScript | Infrastructure/tooling | 6 | 21 | 6 | 6 |
 | [aws-samples/aws-sdk-js-tests](https://github.com/aws-samples/aws-sdk-js-tests) | 68 | 2026-04-29T19:08:42Z | JavaScript | Library | 4 | 3 | 4 | 4 |
 | [rstackjs/agent-skills](https://github.com/rstackjs/agent-skills) | 64 | 2026-04-30T03:51:49Z | JavaScript | Infrastructure/tooling | 1 | 15 | 1 | 1 |
 | [j9t/obsohtml](https://github.com/j9t/obsohtml) | 64 | 2026-04-27T06:14:12Z | JavaScript | Infrastructure/tooling | 2 | 7 | 2 | 2 |

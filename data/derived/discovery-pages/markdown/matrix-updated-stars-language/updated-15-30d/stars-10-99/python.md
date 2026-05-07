@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 96
-- terms: 347
-- components: 479
-- concepts: 327
-- observations: 329
+- repos: 98
+- terms: 355
+- components: 487
+- concepts: 336
+- observations: 338
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [OpenHands/benchmarks](https://github.com/OpenHands/benchmarks) | 72 | 2026-04-23T07:08:27Z | Python | Infrastructure/tooling | 8 | 7 | 8 | 8 |
+| [conda-forge/conda-forge-repodata-patches-feedstock](https://github.com/conda-forge/conda-forge-repodata-patches-feedstock) | 20 | 2026-04-23T05:44:08Z | Python | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [ModelCloud/Evalution](https://github.com/ModelCloud/Evalution) | 12 | 2026-04-23T04:33:35Z | Python | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [Ascend/TransferQueue](https://github.com/Ascend/TransferQueue) | 59 | 2026-04-23T02:38:35Z | Python | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [harbor-framework/harbor-cookbook](https://github.com/harbor-framework/harbor-cookbook) | 63 | 2026-04-23T02:30:06Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
@@ -97,7 +99,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [autowarefoundation/autoware-github-actions](https://github.com/autowarefoundation/autoware-github-actions) | 24 | 2026-04-13T16:53:44Z | Python | Infrastructure/tooling | 12 | 6 | 12 | 12 |
 | [riponazad/echotracker](https://github.com/riponazad/echotracker) | 56 | 2026-04-13T14:11:33Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [devexp-db/distgen](https://github.com/devexp-db/distgen) | 19 | 2026-04-13T12:09:45Z | Python | Infrastructure/tooling | 1 | 7 | 1 | 1 |
-| [petercorke/ansitable](https://github.com/petercorke/ansitable) | 20 | 2026-04-13T02:30:55Z | Python | Infrastructure/tooling | 16 | 5 | 16 | 16 |
+| [petercorke/ansitable](https://github.com/petercorke/ansitable) | 20 | 2026-04-13T02:30:55Z | Python | Infrastructure/tooling | 15 | 5 | 16 | 16 |
 | [cloudartisan/cloudartisan.github.io](https://github.com/cloudartisan/cloudartisan.github.io) | 31 | 2026-04-12T10:59:10Z | Python | Infrastructure/tooling | 2 | 3 | 0 | 0 |
 | [GuyKh/ims-custom-component](https://github.com/GuyKh/ims-custom-component) | 58 | 2026-04-12T08:43:18Z | Python | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [cswry/VOSR](https://github.com/cswry/VOSR) | 85 | 2026-04-12T04:17:33Z | Python | Model/data | 0 | 0 | 0 | 0 |
@@ -136,6 +138,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [scipy/scipy-stubs](https://github.com/scipy/scipy-stubs) | 87 | 2026-04-21T14:54:41Z | Python | Infrastructure/tooling | 5 | 9 | 6 | 6 |
 | [cswry/VOSR](https://github.com/cswry/VOSR) | 85 | 2026-04-12T04:17:33Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [enjoy-digital/litex-acorn-baseboard](https://github.com/enjoy-digital/litex-acorn-baseboard) | 74 | 2026-04-22T16:25:55Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
+| [OpenHands/benchmarks](https://github.com/OpenHands/benchmarks) | 72 | 2026-04-23T07:08:27Z | Python | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [HyperionGray/trio-chrome-devtools-protocol](https://github.com/HyperionGray/trio-chrome-devtools-protocol) | 72 | 2026-04-08T19:19:27Z | Python | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [intel/ai-containers](https://github.com/intel/ai-containers) | 71 | 2026-04-07T13:08:39Z | Python | Infrastructure/tooling | 17 | 25 | 17 | 17 |
 | [browser-use/benchmark](https://github.com/browser-use/benchmark) | 69 | 2026-04-09T04:31:34Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -201,9 +204,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [daltonmaag/vttLib](https://github.com/daltonmaag/vttLib) | 22 | 2026-04-14T03:17:29Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [cdeust/cortex](https://github.com/cdeust/Cortex) | 21 | 2026-04-17T22:49:25Z | Python | Infrastructure/tooling | 3 | 7 | 0 | 0 |
 | [mozilla-services/shavar](https://github.com/mozilla-services/shavar) | 21 | 2026-04-07T11:54:53Z | Python | Infrastructure/tooling | 2 | 0 | 2 | 2 |
+| [conda-forge/conda-forge-repodata-patches-feedstock](https://github.com/conda-forge/conda-forge-repodata-patches-feedstock) | 20 | 2026-04-23T05:44:08Z | Python | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [googleapis/python-pubsublite](https://github.com/googleapis/python-pubsublite) | 20 | 2026-04-14T00:06:00Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [ai4colonoscopy/Colon-X](https://github.com/ai4colonoscopy/Colon-X) | 20 | 2026-04-13T23:26:27Z | Python | CLI | 12 | 0 | 12 | 12 |
-| [petercorke/ansitable](https://github.com/petercorke/ansitable) | 20 | 2026-04-13T02:30:55Z | Python | Infrastructure/tooling | 16 | 5 | 16 | 16 |
+| [petercorke/ansitable](https://github.com/petercorke/ansitable) | 20 | 2026-04-13T02:30:55Z | Python | Infrastructure/tooling | 15 | 5 | 16 | 16 |
 | [devexp-db/distgen](https://github.com/devexp-db/distgen) | 19 | 2026-04-13T12:09:45Z | Python | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [Accio-Lab/SwimBird](https://github.com/Accio-Lab/SwimBird) | 19 | 2026-04-09T08:51:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [sliamh11/deus](https://github.com/sliamh11/Deus) | 18 | 2026-04-19T13:44:37Z | Python | Infrastructure/tooling | 8 | 36 | 0 | 0 |

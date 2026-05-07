@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 587,
-    "concepts": 621,
-    "observations": 621,
-    "repos": 97,
-    "terms": 616
+    "components": 578,
+    "concepts": 607,
+    "observations": 607,
+    "repos": 94,
+    "terms": 602
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/openfx",
     "acts-project/acts",
@@ -28,7 +28,6 @@
     "ClickHouse/clickhouse-cpp",
     "cloudflare/cloudflare-workers-wasm-demo",
     "CloverLabsAI/camoufox",
-    "corporateshark/lightweightvk",
     "cygwin/cygwin",
     "daanx/isocline",
     "davisp/jiffy",
@@ -37,10 +36,10 @@
     "DiligentGraphics/DiligentSamples",
     "DiligentGraphics/DiligentTools",
     "dmlc/treelite",
-    "DOCGroup/ACE_TAO",
     "eblerjana/pangenie",
     "f32c/f32c",
     "facil-io/cstl",
+    "flagos-ai/FlagTree",
     "flexivrobotics/flexiv_rdk",
     "freetype/freetype",
     "ganelson/inweb",
@@ -57,6 +56,7 @@
     "intel/ScalableVectorSearch",
     "istio/proxy",
     "jcmvbkbc/gcc-xtensa",
+    "jellyfin/jellyfin-ffmpeg",
     "JokerJohn/DCReg",
     "jrouwe/JoltPhysics.js",
     "k2-fsa/sherpa",
@@ -75,7 +75,6 @@
     "microsoft/WindowsAppSDK-Samples",
     "mitsuba-renderer/drjit",
     "murat-dogan/node-datachannel",
-    "mysql/mysql-workbench",
     "nianticlabs/spz",
     "NVIDIA/pyxis",
     "ofiwg/libfabric",
@@ -88,7 +87,6 @@
     "pbatard/Mosby",
     "pqrs-org/Karabiner-DriverKit-VirtualHIDDevice",
     "pygobject/pycairo",
-    "qbs/qbs",
     "RcppCore/Rcpp",
     "realh/roxterm",
     "rmagick/rmagick",
@@ -108,7 +106,6 @@
     "sophgo/tpu-mlir",
     "tile-ai/tilelang-ascend",
     "trealla-prolog/trealla",
-    "uxlfoundation/oneCCL",
     "uxlfoundation/oneDAL",
     "VectorDB-NTU/RaBitQ-Library"
   ]

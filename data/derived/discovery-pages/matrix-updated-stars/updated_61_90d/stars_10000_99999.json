@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 629,
-    "concepts": 349,
-    "observations": 353,
-    "repos": 56,
-    "terms": 356
+    "concepts": 353,
+    "observations": 357,
+    "repos": 57,
+    "terms": 360
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
@@ -20,6 +20,7 @@
     "burntsushi/ripgrep",
     "carbon-app/carbon",
     "ComposioHQ/awesome-claude-skills",
+    "cool-RR/PySnooper",
     "datawhalechina/llm-universe",
     "egoist/tsup",
     "facebookresearch/audiocraft",

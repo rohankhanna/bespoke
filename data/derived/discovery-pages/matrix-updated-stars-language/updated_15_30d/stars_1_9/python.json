@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 177,
-    "concepts": 95,
-    "observations": 95,
-    "repos": 48,
-    "terms": 113
+    "components": 184,
+    "concepts": 102,
+    "observations": 102,
+    "repos": 49,
+    "terms": 120
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
+    "5sControl/5s-backend",
     "adaumann/speckit-preset-fiction-book-writing",
     "agenmod/distill-protocol-skill",
     "agenmod/distill-shield-skill",

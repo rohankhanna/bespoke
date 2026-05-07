@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · Rust
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,14 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [EmmyLuaLs/emmylua-analyzer-rust](https://github.com/EmmyLuaLs/emmylua-analyzer-rust) | 446 | 2026-05-07T02:29:26Z | Rust | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [kornia/kornia-rs](https://github.com/kornia/kornia-rs) | 636 | 2026-05-06T18:04:55Z | Rust | Infrastructure/tooling | 11 | 11 | 11 | 11 |
-| [servo/stylo](https://github.com/servo/stylo) | 271 | 2026-05-06T13:45:44Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [EmmyLuaLs/emmylua-analyzer-rust](https://github.com/EmmyLuaLs/emmylua-analyzer-rust) | 446 | 2026-05-06T12:58:21Z | Rust | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [servo/stylo](https://github.com/servo/stylo) | 272 | 2026-05-06T13:45:44Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [kornia/kornia-rs](https://github.com/kornia/kornia-rs) | 636 | 2026-05-06T18:04:55Z | Rust | Infrastructure/tooling | 11 | 11 | 11 | 11 |
-| [EmmyLuaLs/emmylua-analyzer-rust](https://github.com/EmmyLuaLs/emmylua-analyzer-rust) | 446 | 2026-05-06T12:58:21Z | Rust | Infrastructure/tooling | 3 | 6 | 3 | 3 |
-| [servo/stylo](https://github.com/servo/stylo) | 271 | 2026-05-06T13:45:44Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [EmmyLuaLs/emmylua-analyzer-rust](https://github.com/EmmyLuaLs/emmylua-analyzer-rust) | 446 | 2026-05-07T02:29:26Z | Rust | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [servo/stylo](https://github.com/servo/stylo) | 272 | 2026-05-06T13:45:44Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |

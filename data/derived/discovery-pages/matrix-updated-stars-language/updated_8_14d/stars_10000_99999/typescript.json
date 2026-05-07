@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3136,
-    "concepts": 636,
-    "observations": 640,
-    "repos": 53,
-    "terms": 636
+    "components": 3043,
+    "concepts": 699,
+    "observations": 704,
+    "repos": 58,
+    "terms": 699
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "adonisjs/core",
@@ -26,6 +26,7 @@
     "bluesky-social/social-app",
     "bokeh/bokeh",
     "bytedance/UI-TARS-desktop",
+    "changesets/changesets",
     "cheeriojs/cheerio",
     "coder/code-server",
     "colinhacks/zod",
@@ -38,10 +39,10 @@
     "FlowiseAI/Flowise",
     "formatjs/formatjs",
     "GoogleChromeLabs/comlink",
-    "grafana/grafana",
     "gvergnaud/ts-pattern",
     "invoke-ai/InvokeAI",
     "janhq/jan",
+    "jhipster/generator-jhipster",
     "jquense/yup",
     "Kong/insomnia",
     "kysely-org/kysely",
@@ -52,6 +53,9 @@
     "microsoft/playwright",
     "mongodb/node-mongodb-native",
     "mswjs/msw",
+    "nuxt/nuxt",
+    "oblador/react-native-vector-icons",
+    "openobserve/openobserve",
     "paulmillr/chokidar",
     "pmndrs/react-three-fiber",
     "pmndrs/zustand",
@@ -66,6 +70,7 @@
     "styled-components/styled-components",
     "unocss/unocss",
     "vitest-dev/vitest",
+    "web-infra-dev/midscene",
     "wojtekmaj/react-pdf"
   ]
 }

@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1,000 to 9,999 stars · Java
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 17
-- terms: 184
-- components: 162
-- concepts: 184
-- observations: 184
+- repos: 14
+- terms: 147
+- components: 129
+- concepts: 147
+- observations: 147
 
 ## Static behavior
 
@@ -40,9 +40,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apache/phoenix](https://github.com/apache/phoenix) | 1055 | 2026-04-30T17:56:14Z | Java | Unknown | 4 | 0 | 4 | 4 |
 | [moyangzhan/langchain4j-aideepin](https://github.com/moyangzhan/langchain4j-aideepin) | 1263 | 2026-04-30T12:29:44Z | Java | Unknown | 4 | 0 | 4 | 4 |
 | [apache/ignite](https://github.com/apache/ignite) | 5065 | 2026-04-30T11:52:41Z | Java | CLI | 19 | 13 | 19 | 19 |
-| [reactor/BlockHound](https://github.com/reactor/BlockHound) | 1492 | 2026-04-30T07:54:07Z | Java | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [micronaut-projects/micronaut-core](https://github.com/micronaut-projects/micronaut-core) | 6402 | 2026-04-30T06:26:22Z | Java | Infrastructure/tooling | 14 | 25 | 14 | 14 |
-| [hazelcast/hazelcast](https://github.com/hazelcast/hazelcast) | 6575 | 2026-04-30T06:21:01Z | Java | Infrastructure/tooling | 19 | 2 | 19 | 19 |
 
 ## Repos sorted by stars
 
@@ -50,8 +47,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [apache/iceberg](https://github.com/apache/iceberg) | 8804 | 2026-05-02T00:35:05Z | Java | Infrastructure/tooling | 12 | 8 | 12 | 12 |
 | [dropwizard/dropwizard](https://github.com/dropwizard/dropwizard) | 8584 | 2026-04-30T19:20:05Z | Java | Infrastructure/tooling | 19 | 13 | 19 | 19 |
-| [hazelcast/hazelcast](https://github.com/hazelcast/hazelcast) | 6575 | 2026-04-30T06:21:01Z | Java | Infrastructure/tooling | 19 | 2 | 19 | 19 |
-| [micronaut-projects/micronaut-core](https://github.com/micronaut-projects/micronaut-core) | 6402 | 2026-04-30T06:26:22Z | Java | Infrastructure/tooling | 14 | 25 | 14 | 14 |
 | [apache/ignite](https://github.com/apache/ignite) | 5065 | 2026-04-30T11:52:41Z | Java | CLI | 19 | 13 | 19 | 19 |
 | [eclipse-jdtls/eclipse.jdt.ls](https://github.com/eclipse-jdtls/eclipse.jdt.ls) | 2325 | 2026-05-05T08:39:40Z | Java | CLI | 7 | 8 | 7 | 7 |
 | [smithy-lang/smithy](https://github.com/smithy-lang/smithy) | 2252 | 2026-04-30T20:23:24Z | Java | CLI | 8 | 15 | 8 | 8 |
@@ -60,7 +55,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JetBrains/JetBrainsRuntime](https://github.com/JetBrains/JetBrainsRuntime) | 1876 | 2026-05-01T06:15:56Z | Java | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [sqlancer/sqlancer](https://github.com/sqlancer/sqlancer) | 1728 | 2026-05-02T05:46:49Z | Java | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 | [cloudfoundry/uaa](https://github.com/cloudfoundry/uaa) | 1633 | 2026-05-01T01:43:20Z | Java | Infrastructure/tooling | 17 | 9 | 17 | 17 |
-| [reactor/BlockHound](https://github.com/reactor/BlockHound) | 1492 | 2026-04-30T07:54:07Z | Java | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [mapsforge/mapsforge](https://github.com/mapsforge/mapsforge) | 1371 | 2026-05-05T07:01:32Z | Java | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [moyangzhan/langchain4j-aideepin](https://github.com/moyangzhan/langchain4j-aideepin) | 1263 | 2026-04-30T12:29:44Z | Java | Unknown | 4 | 0 | 4 | 4 |
 | [unicode-org/cldr](https://github.com/unicode-org/cldr) | 1090 | 2026-05-03T00:00:46Z | Java | Infrastructure/tooling | 9 | 16 | 9 | 9 |

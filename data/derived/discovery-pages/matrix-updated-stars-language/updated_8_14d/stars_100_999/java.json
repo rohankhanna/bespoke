@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 264,
-    "concepts": 300,
-    "observations": 300,
-    "repos": 36,
-    "terms": 298
+    "components": 262,
+    "concepts": 277,
+    "observations": 277,
+    "repos": 35,
+    "terms": 275
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "allegro/hermes",
     "apache/commons-jexl",
@@ -20,7 +20,6 @@
     "apache/rocketmq-clients",
     "apache/spark-kubernetes-operator",
     "aws-powertools/powertools-lambda-java",
-    "beehive-lab/GPULlama3.java",
     "bndtools/bnd",
     "confluentinc/kafka-streams-examples",
     "devoxx/DevoxxGenieIDEAPlugin",

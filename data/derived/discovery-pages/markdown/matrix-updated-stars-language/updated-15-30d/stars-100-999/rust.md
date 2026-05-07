@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 113
+- repos: 114
 - terms: 542
-- components: 823
+- components: 835
 - concepts: 535
 - observations: 543
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [arkworks-rs/algebra](https://github.com/arkworks-rs/algebra) | 858 | 2026-04-23T08:12:16Z | Rust | Infrastructure/tooling | 9 | 10 | 9 | 9 |
+| [fancy-regex/fancy-regex](https://github.com/fancy-regex/fancy-regex) | 591 | 2026-04-23T05:55:13Z | Rust | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [marshallpierce/rust-base64](https://github.com/marshallpierce/rust-base64) | 719 | 2026-04-23T02:11:56Z | Rust | Unknown | 3 | 0 | 3 | 3 |
 | [zkcrypto/ff](https://github.com/zkcrypto/ff) | 259 | 2026-04-23T01:59:39Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [tauri-apps/global-hotkey](https://github.com/tauri-apps/global-hotkey) | 248 | 2026-04-23T01:42:01Z | Rust | Infrastructure/tooling | 9 | 6 | 9 | 9 |
@@ -138,7 +140,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dalance/ptags](https://github.com/dalance/ptags) | 139 | 2026-04-08T06:43:32Z | Rust | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [FedericoPonzi/Horust](https://github.com/FedericoPonzi/Horust) | 275 | 2026-04-07T22:15:28Z | Rust | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [ctz/graviola](https://github.com/ctz/graviola) | 255 | 2026-04-07T11:27:02Z | Rust | Infrastructure/tooling | 7 | 10 | 7 | 7 |
-| [drahnr/cargo-spellcheck](https://github.com/drahnr/cargo-spellcheck) | 359 | 2026-04-07T07:12:02Z | Rust | Infrastructure/tooling | 12 | 5 | 12 | 12 |
 
 ## Repos sorted by stars
 
@@ -152,6 +153,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cargo-lambda/cargo-lambda](https://github.com/cargo-lambda/cargo-lambda) | 902 | 2026-04-15T15:07:49Z | Rust | Infrastructure/tooling | 8 | 24 | 8 | 8 |
 | [Azure/azure-sdk-for-rust](https://github.com/Azure/azure-sdk-for-rust) | 871 | 2026-04-23T00:40:07Z | Rust | Infrastructure/tooling | 13 | 14 | 13 | 13 |
 | [nixops4/nixops4](https://github.com/nixops4/nixops4) | 869 | 2026-04-11T09:29:02Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [arkworks-rs/algebra](https://github.com/arkworks-rs/algebra) | 858 | 2026-04-23T08:12:16Z | Rust | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [nix-community/lorri](https://github.com/nix-community/lorri) | 856 | 2026-04-14T11:33:39Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [rust-lang/socket2](https://github.com/rust-lang/socket2) | 839 | 2026-04-20T19:31:00Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
 | [esp-rs/rust](https://github.com/esp-rs/rust) | 816 | 2026-04-15T11:15:15Z | Rust | Infrastructure/tooling | 3 | 7 | 3 | 3 |
@@ -180,6 +182,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [RazrFalcon/memmap2-rs](https://github.com/RazrFalcon/memmap2-rs) | 621 | 2026-04-09T08:04:49Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [apollographql/apollo-rs](https://github.com/apollographql/apollo-rs) | 599 | 2026-04-22T18:10:05Z | Rust | Unknown | 8 | 0 | 8 | 8 |
 | [proxy-wasm/proxy-wasm-rust-sdk](https://github.com/proxy-wasm/proxy-wasm-rust-sdk) | 594 | 2026-04-15T17:26:25Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [fancy-regex/fancy-regex](https://github.com/fancy-regex/fancy-regex) | 591 | 2026-04-23T05:55:13Z | Rust | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [smol-rs/async-task](https://github.com/smol-rs/async-task) | 588 | 2026-04-15T15:01:10Z | Rust | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [gjtorikian/commonmarker](https://github.com/gjtorikian/commonmarker) | 546 | 2026-04-14T04:26:55Z | Rust | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [tekumara/typos-lsp](https://github.com/tekumara/typos-lsp) | 541 | 2026-04-19T00:12:25Z | Rust | CLI | 7 | 29 | 7 | 7 |
@@ -200,7 +203,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Blockstream/electrs](https://github.com/Blockstream/electrs) | 376 | 2026-04-22T23:20:12Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [LaurenzV/krilla](https://github.com/LaurenzV/krilla) | 373 | 2026-04-22T19:28:01Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [FuelLabs/fuel-vm](https://github.com/FuelLabs/fuel-vm) | 373 | 2026-04-16T20:53:55Z | Rust | Infrastructure/tooling | 7 | 14 | 7 | 7 |
-| [drahnr/cargo-spellcheck](https://github.com/drahnr/cargo-spellcheck) | 359 | 2026-04-07T07:12:02Z | Rust | Infrastructure/tooling | 12 | 5 | 12 | 12 |
 | [tracel-ai/models](https://github.com/tracel-ai/models) | 355 | 2026-04-17T17:52:47Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [rust-lang/team](https://github.com/rust-lang/team) | 342 | 2026-04-22T00:10:36Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [georust/geojson](https://github.com/georust/geojson) | 335 | 2026-04-21T00:05:14Z | Rust | Infrastructure/tooling | 4 | 2 | 4 | 4 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 512,
-    "concepts": 428,
-    "observations": 429,
+    "components": 515,
+    "concepts": 420,
+    "observations": 421,
     "repos": 49,
-    "terms": 428
+    "terms": 418
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "apache/iceberg-go",
     "argoproj-labs/argocd-operator",
@@ -28,16 +28,16 @@
     "cosmos/ibc-go",
     "cosmos/interchain-security",
     "CosmWasm/wasmd",
+    "dgraph-io/dgraph-benchmarks",
     "dydxprotocol/v4-chain",
     "gofiber/contrib",
     "gofrs/flock",
     "gookit/cache",
     "gookit/config",
     "gookit/event",
+    "gookit/filter",
     "grafana/grafana-plugin-sdk-go",
     "helmfile/vals",
-    "huaweicloud/huaweicloud-sdk-go-v3",
-    "hybridgroup/yzma",
     "istio/api",
     "istio/tools",
     "itzg/mc-router",

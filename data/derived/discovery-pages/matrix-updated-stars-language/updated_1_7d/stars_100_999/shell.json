@@ -3,7 +3,7 @@
     "components": 42,
     "concepts": 52,
     "observations": 52,
-    "repos": 9,
+    "repos": 8,
     "terms": 52
   },
   "facet_version": 1,
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "Chocolate4U/Iran-v2ray-rules",
-    "harbor-framework/terminal-bench-2",
     "heroku/base-images",
     "heroku/heroku-buildpack-go",
     "heroku/heroku-buildpack-java",

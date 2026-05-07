@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1710,
-    "concepts": 299,
-    "observations": 301,
-    "repos": 44,
-    "terms": 299
+    "components": 1481,
+    "concepts": 264,
+    "observations": 266,
+    "repos": 40,
+    "terms": 264
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "agentclientprotocol/typescript-sdk",
     "AgnosticUI/agnosticui",
     "ansible/vscode-ansible",
-    "appium/appium-xcuitest-driver",
-    "browserslist/browserslist-useragent-regexp",
     "carbon-design-system/carbon-components-angular",
     "carbon-design-system/sveld",
     "cosmos/cosmjs",
@@ -29,8 +27,10 @@
     "foundry-rs/foundry-toolchain",
     "ftonato/nope-validator",
     "gradle/actions",
+    "huggingface/hf-mcp-server",
     "iconify/icon-sets",
     "intlify/eslint-plugin-vue-i18n",
+    "lambdalisue/vim-gin",
     "LemmyNet/lemmy-js-client",
     "microsoft/cognitive-services-speech-sdk-js",
     "mswjs/interceptors",
@@ -39,9 +39,7 @@
     "ory/docs",
     "P4sca1/cron-schedule",
     "radashi-org/radashi",
-    "rstackjs/storybook-rsbuild",
     "SkepticMystic/breadcrumbs",
-    "skilld-dev/skilld",
     "smithy-lang/smithy-typescript",
     "sumup-oss/circuit-ui",
     "TanStack/config",
@@ -49,14 +47,12 @@
     "TanStack/pacer",
     "TanStack/store",
     "tlaplus/vscode-tlaplus",
-    "un-ts/prettier",
     "un-ts/synckit",
     "unjs/get-port-please",
     "unjs/listhen",
     "unjs/unimport",
     "unplugin/unplugin-imagemin",
     "victorgarciaesgi/regle",
-    "web-infra-dev/rstest",
     "wevm/abitype"
   ]
 }

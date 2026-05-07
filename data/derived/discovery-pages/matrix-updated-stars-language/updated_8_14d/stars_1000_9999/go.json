@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 898,
-    "concepts": 842,
-    "observations": 849,
-    "repos": 87,
-    "terms": 839
+    "components": 825,
+    "concepts": 813,
+    "observations": 820,
+    "repos": 82,
+    "terms": 810
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "actions/actions-runner-controller",
-    "AdguardTeam/dnsproxy",
     "akuity/kargo",
     "akvorado/akvorado",
     "allegro/bigcache",
@@ -57,9 +56,7 @@
     "go-spatial/tegola",
     "go-swagger/go-swagger",
     "google/adk-go",
-    "google/certificate-transparency-go",
     "google/syzkaller",
-    "google/trillian",
     "goreleaser/nfpm",
     "hashicorp/terraform-provider-helm",
     "joshmedeski/sesh",
@@ -74,10 +71,8 @@
     "kubernetes/autoscaler",
     "kubernetes/ingress-gce",
     "kubernetes/kubectl",
-    "kubernetes/test-infra",
     "maragudk/gomponents",
     "NVIDIA/gpu-operator",
-    "NVIDIA/nvidia-container-toolkit",
     "oapi-codegen/oapi-codegen",
     "onsi/ginkgo",
     "onsi/gomega",

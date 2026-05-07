@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · Java
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 28
-- terms: 194
-- components: 163
-- concepts: 194
-- observations: 194
+- repos: 27
+- terms: 188
+- components: 155
+- concepts: 188
+- observations: 188
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [beehive-lab/GPULlama3.java](https://github.com/beehive-lab/GPULlama3.java) | 253 | 2026-04-23T09:33:03Z | Java | Infrastructure/tooling | 23 | 2 | 23 | 23 |
 | [connectbot/sshlib](https://github.com/connectbot/sshlib) | 120 | 2026-04-23T02:34:24Z | Java | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [a2aproject/a2a-java](https://github.com/a2aproject/a2a-java) | 399 | 2026-04-22T17:49:52Z | Java | CLI | 14 | 12 | 14 | 14 |
 | [apache/datasketches-java](https://github.com/apache/datasketches-java) | 952 | 2026-04-22T17:39:41Z | Java | Infrastructure/tooling | 6 | 6 | 6 | 6 |
@@ -52,8 +53,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [redis/redis-om-spring](https://github.com/redis/redis-om-spring) | 652 | 2026-04-10T21:58:36Z | Java | Infrastructure/tooling | 7 | 11 | 7 | 7 |
 | [ysbing/YADB](https://github.com/ysbing/YADB) | 194 | 2026-04-09T09:00:59Z | Java | Unknown | 4 | 0 | 4 | 4 |
 | [GoogleCloudPlatform/cloud-opensource-java](https://github.com/GoogleCloudPlatform/cloud-opensource-java) | 163 | 2026-04-08T01:38:47Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |
-| [apache/doris-spark-connector](https://github.com/apache/doris-spark-connector) | 104 | 2026-04-07T10:43:30Z | Java | Infrastructure/tooling | 13 | 5 | 13 | 13 |
-| [apache/doris-flink-connector](https://github.com/apache/doris-flink-connector) | 376 | 2026-04-07T08:22:07Z | Java | Infrastructure/tooling | 16 | 5 | 16 | 16 |
 
 ## Repos sorted by stars
 
@@ -73,10 +72,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [a2aproject/a2a-java](https://github.com/a2aproject/a2a-java) | 399 | 2026-04-22T17:49:52Z | Java | CLI | 14 | 12 | 14 | 14 |
 | [microsoft/Generative-AI-for-beginners-java](https://github.com/microsoft/Generative-AI-for-beginners-java) | 398 | 2026-04-20T15:23:18Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [spotbugs/sonar-findbugs](https://github.com/spotbugs/sonar-findbugs) | 381 | 2026-04-20T13:38:07Z | Java | Infrastructure/tooling | 4 | 8 | 4 | 4 |
-| [apache/doris-flink-connector](https://github.com/apache/doris-flink-connector) | 376 | 2026-04-07T08:22:07Z | Java | Infrastructure/tooling | 16 | 5 | 16 | 16 |
 | [eclipse-lemminx/lemminx](https://github.com/eclipse-lemminx/lemminx) | 348 | 2026-04-21T18:20:38Z | Java | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [jpmml/jpmml-sparkml](https://github.com/jpmml/jpmml-sparkml) | 271 | 2026-04-11T07:38:31Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [microsoft/semantic-kernel-java](https://github.com/microsoft/semantic-kernel-java) | 260 | 2026-04-22T17:33:07Z | Java | Infrastructure/tooling | 8 | 9 | 8 | 8 |
+| [beehive-lab/GPULlama3.java](https://github.com/beehive-lab/GPULlama3.java) | 253 | 2026-04-23T09:33:03Z | Java | Infrastructure/tooling | 23 | 2 | 23 | 23 |
 | [FasterXML/woodstox](https://github.com/FasterXML/woodstox) | 248 | 2026-04-21T17:04:16Z | Java | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [Cosium/git-code-format-maven-plugin](https://github.com/Cosium/git-code-format-maven-plugin) | 222 | 2026-04-20T05:41:58Z | Java | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [ysbing/YADB](https://github.com/ysbing/YADB) | 194 | 2026-04-09T09:00:59Z | Java | Unknown | 4 | 0 | 4 | 4 |
@@ -85,5 +84,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [GoogleCloudPlatform/cloud-opensource-java](https://github.com/GoogleCloudPlatform/cloud-opensource-java) | 163 | 2026-04-08T01:38:47Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [fabmax/physx-jni](https://github.com/fabmax/physx-jni) | 128 | 2026-04-15T19:52:51Z | Java | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [connectbot/sshlib](https://github.com/connectbot/sshlib) | 120 | 2026-04-23T02:34:24Z | Java | Infrastructure/tooling | 5 | 4 | 5 | 5 |
-| [apache/doris-spark-connector](https://github.com/apache/doris-spark-connector) | 104 | 2026-04-07T10:43:30Z | Java | Infrastructure/tooling | 13 | 5 | 13 | 13 |
 | [graalvm/graal-languages-demos](https://github.com/graalvm/graal-languages-demos) | 101 | 2026-04-20T11:54:29Z | Java | Infrastructure/tooling | 14 | 4 | 14 | 14 |

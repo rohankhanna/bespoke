@@ -1,19 +1,22 @@
 {
   "counts": {
-    "components": 261,
-    "concepts": 64,
-    "observations": 64,
-    "repos": 6,
-    "terms": 61
+    "components": 303,
+    "concepts": 94,
+    "observations": 95,
+    "repos": 9,
+    "terms": 91
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
+    "anomalyco/opencode",
     "fatedier/frp",
+    "Genymobile/scrcpy",
+    "microsoft/generative-ai-for-beginners",
     "open-webui/open-webui",
     "Significant-Gravitas/AutoGPT",
     "tensorflow/tensorflow",

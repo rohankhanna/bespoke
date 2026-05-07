@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars · Other
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 22
+- repos: 24
 - terms: 32
 - components: 33
 - concepts: 26
@@ -48,6 +48,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaBinaryWrappers/Libuuid_jll.jl](https://github.com/JuliaBinaryWrappers/Libuuid_jll.jl) | 0 | 2026-04-11T15:39:53Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [8144225309/superscalar-docs](https://github.com/8144225309/superscalar-docs) | 0 | 2026-04-09T21:20:43Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [ashton/neotest-gleam-unitest](https://github.com/ashton/neotest-gleam-unitest) | 0 | 2026-04-09T20:27:40Z | Other | Unknown | 8 | 0 | 8 | 8 |
+| [JuliaBinaryWrappers/JpegTurbo_jll.jl](https://github.com/JuliaBinaryWrappers/JpegTurbo_jll.jl) | 0 | 2026-04-09T15:33:29Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [JuliaBinaryWrappers/libaec_jll.jl](https://github.com/JuliaBinaryWrappers/libaec_jll.jl) | 0 | 2026-04-09T15:05:24Z | Other | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -75,3 +77,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaBinaryWrappers/Libuuid_jll.jl](https://github.com/JuliaBinaryWrappers/Libuuid_jll.jl) | 0 | 2026-04-11T15:39:53Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [8144225309/superscalar-docs](https://github.com/8144225309/superscalar-docs) | 0 | 2026-04-09T21:20:43Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [ashton/neotest-gleam-unitest](https://github.com/ashton/neotest-gleam-unitest) | 0 | 2026-04-09T20:27:40Z | Other | Unknown | 8 | 0 | 8 | 8 |
+| [JuliaBinaryWrappers/JpegTurbo_jll.jl](https://github.com/JuliaBinaryWrappers/JpegTurbo_jll.jl) | 0 | 2026-04-09T15:33:29Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [JuliaBinaryWrappers/libaec_jll.jl](https://github.com/JuliaBinaryWrappers/libaec_jll.jl) | 0 | 2026-04-09T15:05:24Z | Other | Unknown | 0 | 0 | 0 | 0 |

@@ -3,7 +3,7 @@
     "components": 1065,
     "concepts": 470,
     "observations": 470,
-    "repos": 317,
+    "repos": 319,
     "terms": 476
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "2KAbhishek/awesome2k",
     "2KAbhishek/rofi2k",
@@ -194,6 +194,7 @@
     "jpbruyere/VkCrowWindow",
     "jruby/ruby-maven",
     "jtdaugherty/vty-unix",
+    "JuliaBinaryWrappers/Zstd_jll.jl",
     "JuliaComputing/Registrator.jl",
     "JuliaReducePkg/ReduceLinAlg.jl",
     "JuliaStrings/LibTeXPrintf.jl",
@@ -206,6 +207,7 @@
     "kaminari/kaminari-mongo_mapper",
     "kaorahi/visual_MCTS",
     "kgkoutis/TSID.Creator.NET",
+    "kodyfanz/ethereum_yellowpaper_vn",
     "korewaChino/koboldCppDocker",
     "kristijanhusak/completion-tags",
     "kurrent-io/EventStoreDB-Client-Dotnet-Legacy",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Shell
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 86
-- terms: 191
+- repos: 87
+- terms: 195
 - components: 66
-- concepts: 198
-- observations: 200
+- concepts: 202
+- observations: 204
 
 ## Static behavior
 
@@ -84,6 +84,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gjaldon/heroku-buildpack-phoenix-static](https://github.com/gjaldon/heroku-buildpack-phoenix-static) | 230 | 2023-07-05T15:23:47Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [googlefonts/rubik](https://github.com/googlefonts/rubik) | 212 | 2023-06-22T07:57:01Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [tmux-plugins/tmux-sessionist](https://github.com/tmux-plugins/tmux-sessionist) | 461 | 2023-05-16T17:13:16Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [pmer/tla-bin](https://github.com/pmer/tla-bin) | 172 | 2023-04-27T19:04:11Z | Shell | CLI | 4 | 0 | 4 | 4 |
 | [ungoogled-software/ungoogled-chromium-android](https://github.com/ungoogled-software/ungoogled-chromium-android) | 612 | 2023-04-19T22:40:06Z | Shell | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [fsaintjacques/semver-tool](https://github.com/fsaintjacques/semver-tool) | 817 | 2023-02-15T17:40:26Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [lukechilds/gifgen](https://github.com/lukechilds/gifgen) | 565 | 2023-01-22T12:21:49Z | Shell | Unknown | 2 | 0 | 2 | 2 |
@@ -185,6 +186,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [acmesh-official/get.acme.sh](https://github.com/acmesh-official/get.acme.sh) | 186 | 2024-05-08T16:12:22Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [fastai/docker-containers](https://github.com/fastai/docker-containers) | 183 | 2022-04-22T17:29:38Z | Shell | Infrastructure/tooling | 7 | 1 | 7 | 7 |
 | [chinanf-boy/ripgrep-zh](https://github.com/chinanf-boy/ripgrep-zh) | 180 | 2022-06-11T01:35:12Z | Shell | Unknown | 4 | 0 | 4 | 4 |
+| [pmer/tla-bin](https://github.com/pmer/tla-bin) | 172 | 2023-04-27T19:04:11Z | Shell | CLI | 4 | 0 | 4 | 4 |
 | [janmoesen/tilde](https://github.com/janmoesen/tilde) | 168 | 2024-04-14T21:20:31Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [heroku/heroku-buildpack-multi](https://github.com/heroku/heroku-buildpack-multi) | 155 | 2022-02-12T13:26:57Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [sobolevn/misspell-fixer-action](https://github.com/sobolevn/misspell-fixer-action) | 154 | 2024-02-12T16:47:11Z | Shell | Infrastructure/tooling | 6 | 3 | 6 | 7 |

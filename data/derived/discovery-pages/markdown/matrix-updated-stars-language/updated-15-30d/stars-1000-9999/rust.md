@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 127
-- terms: 868
-- components: 1302
-- concepts: 854
-- observations: 856
+- repos: 130
+- terms: 894
+- components: 1325
+- concepts: 881
+- observations: 884
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [compio-rs/compio](https://github.com/compio-rs/compio) | 1665 | 2026-04-23T10:30:22Z | Rust | Infrastructure/tooling | 8 | 11 | 8 | 8 |
+| [succinctlabs/sp1](https://github.com/succinctlabs/sp1) | 1644 | 2026-04-23T08:13:55Z | Rust | Infrastructure/tooling | 14 | 9 | 14 | 14 |
+| [pulldown-cmark/pulldown-cmark](https://github.com/pulldown-cmark/pulldown-cmark) | 2550 | 2026-04-23T06:43:06Z | Rust | Infrastructure/tooling | 4 | 3 | 5 | 6 |
 | [nextest-rs/nextest](https://github.com/nextest-rs/nextest) | 2917 | 2026-04-23T05:34:08Z | Rust | Infrastructure/tooling | 14 | 17 | 14 | 14 |
 | [cross-rs/cross](https://github.com/cross-rs/cross) | 8143 | 2026-04-23T05:25:27Z | Rust | Infrastructure/tooling | 14 | 10 | 14 | 14 |
 | [0xPlaygrounds/rig](https://github.com/0xPlaygrounds/rig) | 7018 | 2026-04-23T04:05:46Z | Rust | Infrastructure/tooling | 9 | 7 | 9 | 9 |
@@ -231,6 +234,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [GuillaumeGomez/sysinfo](https://github.com/GuillaumeGomez/sysinfo) | 2668 | 2026-04-09T14:45:07Z | Rust | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [LukeMathWalker/cargo-chef](https://github.com/LukeMathWalker/cargo-chef) | 2585 | 2026-04-13T08:31:56Z | Rust | Infrastructure/tooling | 7 | 11 | 7 | 9 |
 | [servo/html5ever](https://github.com/servo/html5ever) | 2567 | 2026-04-20T07:19:52Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [pulldown-cmark/pulldown-cmark](https://github.com/pulldown-cmark/pulldown-cmark) | 2550 | 2026-04-23T06:43:06Z | Rust | Infrastructure/tooling | 4 | 3 | 5 | 6 |
 | [open-telemetry/opentelemetry-rust](https://github.com/open-telemetry/opentelemetry-rust) | 2549 | 2026-04-18T08:32:08Z | Rust | Infrastructure/tooling | 13 | 17 | 13 | 13 |
 | [rust-lang/log](https://github.com/rust-lang/log) | 2507 | 2026-04-14T06:36:04Z | Rust | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [mthom/scryer-prolog](https://github.com/mthom/scryer-prolog) | 2390 | 2026-04-23T00:55:54Z | Rust | Infrastructure/tooling | 7 | 11 | 7 | 7 |
@@ -257,6 +261,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [asomers/mockall](https://github.com/asomers/mockall) | 1808 | 2026-04-17T23:36:19Z | Rust | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [eyre-rs/eyre](https://github.com/eyre-rs/eyre) | 1740 | 2026-04-10T10:57:05Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [EmbarkStudios/puffin](https://github.com/EmbarkStudios/puffin) | 1702 | 2026-04-22T15:29:58Z | Rust | Infrastructure/tooling | 5 | 6 | 5 | 5 |
+| [compio-rs/compio](https://github.com/compio-rs/compio) | 1665 | 2026-04-23T10:30:22Z | Rust | Infrastructure/tooling | 8 | 11 | 8 | 8 |
+| [succinctlabs/sp1](https://github.com/succinctlabs/sp1) | 1644 | 2026-04-23T08:13:55Z | Rust | Infrastructure/tooling | 14 | 9 | 14 | 14 |
 | [tikv/pprof-rs](https://github.com/tikv/pprof-rs) | 1619 | 2026-04-23T00:10:09Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [asny/three-d](https://github.com/asny/three-d) | 1616 | 2026-04-17T17:15:00Z | Rust | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [tauri-apps/create-tauri-app](https://github.com/tauri-apps/create-tauri-app) | 1556 | 2026-04-21T22:09:39Z | Rust | Infrastructure/tooling | 6 | 11 | 6 | 6 |

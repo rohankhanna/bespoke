@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 42
-- terms: 168
-- components: 200
-- concepts: 168
-- observations: 172
+- repos: 44
+- terms: 187
+- components: 221
+- concepts: 187
+- observations: 191
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [drahnr/cargo-spellcheck](https://github.com/drahnr/cargo-spellcheck) | 359 | 2026-04-07T07:12:02Z | Rust | Infrastructure/tooling | 12 | 5 | 12 | 12 |
 | [iqlusioninc/tmkms](https://github.com/iqlusioninc/tmkms) | 363 | 2026-04-06T18:56:26Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [iqlusioninc/abscissa](https://github.com/iqlusioninc/abscissa) | 590 | 2026-04-06T13:05:55Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [athre0z/color-backtrace](https://github.com/athre0z/color-backtrace) | 600 | 2026-04-05T16:28:59Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
@@ -49,6 +50,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DoumanAsh/xxhash-rust](https://github.com/DoumanAsh/xxhash-rust) | 282 | 2026-03-27T00:31:29Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 4 |
 | [cedar-policy/cedar-examples](https://github.com/cedar-policy/cedar-examples) | 110 | 2026-03-26T18:35:16Z | Rust | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [dfrg/swash](https://github.com/dfrg/swash) | 840 | 2026-03-26T13:19:27Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
+| [emilk/egui_plot](https://github.com/emilk/egui_plot) | 415 | 2026-03-26T12:59:24Z | Rust | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [rust-lang/crater](https://github.com/rust-lang/crater) | 735 | 2026-03-25T23:40:03Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [PistonDevelopers/glfw-rs](https://github.com/PistonDevelopers/glfw-rs) | 690 | 2026-03-25T14:30:42Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [dtolnay/trybuild](https://github.com/dtolnay/trybuild) | 965 | 2026-03-25T06:01:25Z | Rust | Infrastructure/tooling | 0 | 10 | 0 | 0 |
@@ -92,10 +94,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [YaLTeR/wl-clipboard-rs](https://github.com/YaLTeR/wl-clipboard-rs) | 475 | 2026-03-16T08:25:58Z | Rust | CLI | 3 | 8 | 3 | 3 |
 | [rustmailer/rustmailer](https://github.com/rustmailer/rustmailer) | 442 | 2026-04-04T08:58:34Z | Rust | CLI | 21 | 9 | 21 | 21 |
 | [near/borsh-rs](https://github.com/near/borsh-rs) | 424 | 2026-03-18T14:28:26Z | Rust | Infrastructure/tooling | 4 | 5 | 4 | 5 |
+| [emilk/egui_plot](https://github.com/emilk/egui_plot) | 415 | 2026-03-26T12:59:24Z | Rust | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [gimli-rs/addr2line](https://github.com/gimli-rs/addr2line) | 414 | 2026-03-29T10:25:00Z | Rust | Infrastructure/tooling | 6 | 2 | 6 | 7 |
 | [posit-dev/air](https://github.com/posit-dev/air) | 411 | 2026-03-31T12:27:15Z | Rust | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [quickwit-oss/tantivy-cli](https://github.com/quickwit-oss/tantivy-cli) | 391 | 2026-03-31T09:18:32Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [iqlusioninc/tmkms](https://github.com/iqlusioninc/tmkms) | 363 | 2026-04-06T18:56:26Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [drahnr/cargo-spellcheck](https://github.com/drahnr/cargo-spellcheck) | 359 | 2026-04-07T07:12:02Z | Rust | Infrastructure/tooling | 12 | 5 | 12 | 12 |
 | [cryscan/web-rwkv](https://github.com/cryscan/web-rwkv) | 347 | 2026-04-01T05:31:36Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [attackgoat/vk-graph](https://github.com/attackgoat/vk-graph) | 336 | 2026-03-27T14:42:56Z | Rust | Infrastructure/tooling | 7 | 5 | 7 | 8 |
 | [DoumanAsh/xxhash-rust](https://github.com/DoumanAsh/xxhash-rust) | 282 | 2026-03-27T00:31:29Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 4 |

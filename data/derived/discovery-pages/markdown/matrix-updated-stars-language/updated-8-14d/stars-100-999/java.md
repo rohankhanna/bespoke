@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Java
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 36
-- terms: 298
-- components: 264
-- concepts: 300
-- observations: 300
+- repos: 35
+- terms: 275
+- components: 262
+- concepts: 277
+- observations: 277
 
 ## Static behavior
 
@@ -61,7 +61,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [milvus-io/milvus-sdk-java](https://github.com/milvus-io/milvus-sdk-java) | 485 | 2026-04-24T06:45:15Z | Java | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [Waffle/waffle](https://github.com/Waffle/waffle) | 503 | 2026-04-23T19:41:51Z | Java | Infrastructure/tooling | 16 | 8 | 16 | 16 |
 | [zilliztech/vts](https://github.com/zilliztech/vts) | 121 | 2026-04-23T13:19:03Z | Java | Infrastructure/tooling | 4 | 3 | 4 | 4 |
-| [beehive-lab/GPULlama3.java](https://github.com/beehive-lab/GPULlama3.java) | 253 | 2026-04-23T09:33:03Z | Java | Infrastructure/tooling | 23 | 2 | 23 | 23 |
 
 ## Repos sorted by stars
 
@@ -91,7 +90,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [michel-kraemer/bson4jackson](https://github.com/michel-kraemer/bson4jackson) | 299 | 2026-04-28T21:23:02Z | Java | Infrastructure/tooling | 6 | 3 | 8 | 8 |
 | [quarkiverse/quarkus-langchain4j](https://github.com/quarkiverse/quarkus-langchain4j) | 290 | 2026-04-28T11:38:53Z | Java | Infrastructure/tooling | 9 | 14 | 9 | 9 |
 | [apache/spark-kubernetes-operator](https://github.com/apache/spark-kubernetes-operator) | 275 | 2026-04-29T19:30:53Z | Java | Infrastructure/tooling | 8 | 14 | 8 | 8 |
-| [beehive-lab/GPULlama3.java](https://github.com/beehive-lab/GPULlama3.java) | 253 | 2026-04-23T09:33:03Z | Java | Infrastructure/tooling | 23 | 2 | 23 | 23 |
 | [reactor/reactor-addons](https://github.com/reactor/reactor-addons) | 241 | 2026-04-28T15:43:57Z | Java | Infrastructure/tooling | 10 | 6 | 10 | 10 |
 | [apache/commons-jexl](https://github.com/apache/commons-jexl) | 236 | 2026-04-26T18:53:52Z | Java | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [saalfeldlab/n5](https://github.com/saalfeldlab/n5) | 201 | 2026-04-28T16:03:28Z | Java | Infrastructure/tooling | 1 | 3 | 1 | 1 |

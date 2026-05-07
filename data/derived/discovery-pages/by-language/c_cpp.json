@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 9121,
-    "concepts": 10854,
-    "observations": 10880,
-    "repos": 2248,
-    "terms": 10763
+    "components": 9154,
+    "concepts": 10879,
+    "observations": 10905,
+    "repos": 2253,
+    "terms": 10788
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "0xPolygonHermez/pil2-proofman-js",
@@ -427,6 +427,7 @@
     "cjlin1/libmf",
     "ckb-next/ckb-next",
     "clab/fast_align",
+    "clearml/dropbear",
     "Clemapfel/mousetrap",
     "Clemapfel/mousetrap_julia_binding",
     "clibs/clib",
@@ -956,6 +957,7 @@
     "hazelcast/hazelcast-cpp-client",
     "HazyResearch/HipKittens",
     "HazyResearch/ThunderMittens",
+    "HDFGroup/hdf4",
     "heal-research/operon",
     "heal-research/pyoperon",
     "hecomi/uDesktopDuplication",
@@ -974,6 +976,7 @@
     "hermit-os/newlib",
     "hermit-os/pthread-embedded",
     "herumi/xbyak",
+    "hfp/libxsmm",
     "hholtmann/smcFanControl",
     "hhyyrylainen/GodotPckTool",
     "highfive-devs/highfive",
@@ -1317,6 +1320,7 @@
     "libvips/libvips",
     "libxsmm/libxsmm",
     "libxsmm/libxsmm-dnn",
+    "libxsmm/tpp-pytorch-extension",
     "lieff/minimp3",
     "lightgbm-org/LightGBM",
     "lightvector/KataGo",
@@ -2116,6 +2120,7 @@
     "unevens/hiir",
     "unevens/oversimple",
     "unicode-org/icu",
+    "Unidata/netcdf-c",
     "unitreerobotics/unitree_mujoco",
     "unitreerobotics/unitree_sdk2",
     "unittest-cpp/unittest-cpp",

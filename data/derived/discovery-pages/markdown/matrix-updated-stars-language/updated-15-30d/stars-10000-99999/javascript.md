@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 55
-- terms: 373
-- components: 2323
-- concepts: 377
-- observations: 379
+- repos: 57
+- terms: 408
+- components: 2375
+- concepts: 412
+- observations: 414
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons) | 24968 | 2026-04-23T09:11:44Z | JavaScript | Infrastructure/tooling | 24 | 37 | 24 | 24 |
+| [be5invis/Iosevka](https://github.com/be5invis/Iosevka) | 22135 | 2026-04-23T07:17:19Z | JavaScript | Infrastructure/tooling | 11 | 15 | 11 | 11 |
 | [commitizen/cz-cli](https://github.com/commitizen/cz-cli) | 17465 | 2026-04-23T03:01:49Z | JavaScript | CLI | 9 | 39 | 9 | 9 |
 | [badges/shields](https://github.com/badges/shields) | 26483 | 2026-04-23T01:02:18Z | JavaScript | Infrastructure/tooling | 13 | 111 | 13 | 13 |
 | [webpack/webpack](https://github.com/webpack/webpack) | 65784 | 2026-04-22T22:38:00Z | JavaScript | Infrastructure/tooling | 19 | 121 | 19 | 19 |
@@ -108,9 +110,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [remy/nodemon](https://github.com/remy/nodemon) | 26697 | 2026-04-22T11:54:12Z | JavaScript | Infrastructure/tooling | 8 | 26 | 8 | 8 |
 | [badges/shields](https://github.com/badges/shields) | 26483 | 2026-04-23T01:02:18Z | JavaScript | Infrastructure/tooling | 13 | 111 | 13 | 13 |
 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | 25372 | 2026-04-17T04:17:46Z | JavaScript | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons) | 24968 | 2026-04-23T09:11:44Z | JavaScript | Infrastructure/tooling | 24 | 37 | 24 | 24 |
 | [semantic-release/semantic-release](https://github.com/semantic-release/semantic-release) | 23574 | 2026-04-20T09:18:33Z | JavaScript | Infrastructure/tooling | 14 | 56 | 14 | 15 |
 | [svg/svgo](https://github.com/svg/svgo) | 22440 | 2026-04-17T14:56:09Z | JavaScript | CLI | 7 | 39 | 7 | 7 |
 | [postcss/autoprefixer](https://github.com/postcss/autoprefixer) | 22312 | 2026-04-13T20:45:46Z | JavaScript | Infrastructure/tooling | 4 | 22 | 4 | 4 |
+| [be5invis/Iosevka](https://github.com/be5invis/Iosevka) | 22135 | 2026-04-23T07:17:19Z | JavaScript | Infrastructure/tooling | 11 | 15 | 11 | 11 |
 | [avajs/ava](https://github.com/avajs/ava) | 20848 | 2026-04-16T19:58:23Z | JavaScript | CLI | 15 | 58 | 15 | 15 |
 | [motdotla/dotenv](https://github.com/motdotla/dotenv) | 20404 | 2026-04-17T21:24:18Z | JavaScript | Infrastructure/tooling | 9 | 9 | 9 | 9 |
 | [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) | 19963 | 2026-04-18T21:32:38Z | JavaScript | CLI | 6 | 7 | 6 | 7 |

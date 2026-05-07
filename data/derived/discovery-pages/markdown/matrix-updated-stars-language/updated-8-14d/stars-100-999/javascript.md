@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 53
+- repos: 54
 - terms: 266
-- components: 1265
+- components: 1288
 - concepts: 268
 - observations: 273
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [vllm-project/recipes](https://github.com/vllm-project/recipes) | 765 | 2026-04-30T07:05:17Z | JavaScript | Unknown | 0 | 23 | 0 | 0 |
 | [ruby/setup-ruby](https://github.com/ruby/setup-ruby) | 973 | 2026-04-29T21:05:00Z | JavaScript | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [sveltejs/dts-buddy](https://github.com/sveltejs/dts-buddy) | 351 | 2026-04-29T20:30:52Z | JavaScript | Infrastructure/tooling | 1 | 20 | 1 | 1 |
 | [ember-cli/ember-cli-update](https://github.com/ember-cli/ember-cli-update) | 279 | 2026-04-29T19:30:19Z | JavaScript | CLI | 3 | 40 | 3 | 3 |
@@ -95,6 +96,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [commitizen/cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog) | 792 | 2026-04-29T18:52:30Z | JavaScript | Infrastructure/tooling | 4 | 16 | 4 | 4 |
 | [speced/respec](https://github.com/speced/respec) | 786 | 2026-04-23T20:22:50Z | JavaScript | Infrastructure/tooling | 10 | 58 | 10 | 10 |
 | [mdn/data](https://github.com/mdn/data) | 776 | 2026-04-28T11:02:34Z | JavaScript | Infrastructure/tooling | 3 | 5 | 5 | 5 |
+| [vllm-project/recipes](https://github.com/vllm-project/recipes) | 765 | 2026-04-30T07:05:17Z | JavaScript | Unknown | 0 | 23 | 0 | 0 |
 | [aadsm/jschardet](https://github.com/aadsm/jschardet) | 738 | 2026-04-24T11:38:07Z | JavaScript | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [auth0/node-jws](https://github.com/auth0/node-jws) | 721 | 2026-04-27T21:22:28Z | JavaScript | Infrastructure/tooling | 5 | 15 | 5 | 5 |
 | [Mathpix/mathpix-markdown-it](https://github.com/Mathpix/mathpix-markdown-it) | 665 | 2026-04-24T17:16:17Z | JavaScript | Unknown | 0 | 53 | 0 | 0 |

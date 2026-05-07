@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · Unknown
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 109
-- terms: 94
-- components: 186
-- concepts: 94
-- observations: 94
+- repos: 110
+- terms: 97
+- components: 197
+- concepts: 97
+- observations: 97
 
 ## Static behavior
 
@@ -37,6 +37,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [autofac/.github](https://github.com/autofac/.github) | 0 | 2025-09-25T18:29:17Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [robin1001/qr](https://github.com/robin1001/qr) | 0 | 2025-09-24T03:44:20Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [glandium/allocator-api2](https://github.com/glandium/allocator-api2) | 0 | 2025-09-10T01:32:06Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
+| [osmosis-labs/block-sdk](https://github.com/osmosis-labs/block-sdk) | 0 | 2025-08-22T10:44:02Z | Unknown | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [5sControl/.github](https://github.com/5sControl/.github) | 0 | 2025-08-12T16:19:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [haxelime/lime](https://github.com/haxelime/lime) | 0 | 2025-08-06T21:54:41Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [KSXGitHub/parallel-disk-usage-0.20.0-benchmarks](https://github.com/KSXGitHub/parallel-disk-usage-0.20.0-benchmarks) | 0 | 2025-07-26T10:50:06Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
@@ -151,6 +152,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [autofac/.github](https://github.com/autofac/.github) | 0 | 2025-09-25T18:29:17Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [robin1001/qr](https://github.com/robin1001/qr) | 0 | 2025-09-24T03:44:20Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [glandium/allocator-api2](https://github.com/glandium/allocator-api2) | 0 | 2025-09-10T01:32:06Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
+| [osmosis-labs/block-sdk](https://github.com/osmosis-labs/block-sdk) | 0 | 2025-08-22T10:44:02Z | Unknown | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [5sControl/.github](https://github.com/5sControl/.github) | 0 | 2025-08-12T16:19:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [haxelime/lime](https://github.com/haxelime/lime) | 0 | 2025-08-06T21:54:41Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [KSXGitHub/parallel-disk-usage-0.20.0-benchmarks](https://github.com/KSXGitHub/parallel-disk-usage-0.20.0-benchmarks) | 0 | 2025-07-26T10:50:06Z | Unknown | Unknown | 1 | 0 | 1 | 1 |

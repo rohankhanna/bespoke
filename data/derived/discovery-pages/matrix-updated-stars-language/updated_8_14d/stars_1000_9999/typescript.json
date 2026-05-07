@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3886,
-    "concepts": 726,
-    "observations": 727,
-    "repos": 85,
-    "terms": 722
+    "components": 3836,
+    "concepts": 719,
+    "observations": 720,
+    "repos": 83,
+    "terms": 715
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "acacode/swagger-typescript-api",
-    "actions/setup-node",
-    "actions/setup-python",
     "AdguardTeam/AdguardBrowserExtension",
     "adobe/spectrum-web-components",
     "amilajack/eslint-plugin-compat",
     "ardatan/graphql-tools",
+    "argdown/argdown",
     "artsy/eigen",
     "aws-powertools/powertools-lambda-typescript",
     "aws/aws-sdk-js-v3",
@@ -65,12 +64,14 @@
     "nanostores/nanostores",
     "ngxson/wllama",
     "nodejs/corepack",
+    "nodejs/llhttp",
     "octokit/core.js",
     "openai/openai-agents-js",
     "ory/polis",
     "posit-dev/positron",
     "probot/probot",
     "pulumi/examples",
+    "r-lib/actions",
     "r5n-labs/vscode-react-javascript-snippets",
     "Redocly/redocly-cli",
     "retorquere/zotero-better-bibtex",
@@ -82,22 +83,19 @@
     "standard/eslint-config-standard",
     "stoplightio/spectral",
     "swc-project/swc-node",
-    "tailwindlabs/prettier-plugin-tailwindcss",
     "TanStack/virtual",
     "thomasloven/hass-browser_mod",
-    "thomasloven/lovelace-card-mod",
     "tinylibs/tinybench",
     "ts-safeql/safeql",
     "unjs/changelogen",
     "unjs/ofetch",
     "unjs/ufo",
     "Urigo/graphql-cli",
-    "vuejs/devtools",
+    "VOICEVOX/voicevox",
     "vuejs/router",
     "web-infra-dev/rsbuild",
     "web-infra-dev/rsdoctor",
     "web-infra-dev/rspress",
-    "yarnpkg/berry",
     "zsviczian/obsidian-excalidraw-plugin"
   ]
 }

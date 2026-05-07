@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 87
-- terms: 839
-- components: 898
-- concepts: 842
-- observations: 849
+- repos: 82
+- terms: 810
+- components: 825
+- concepts: 813
+- observations: 820
 
 ## Static behavior
 
@@ -108,11 +108,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [actions/actions-runner-controller](https://github.com/actions/actions-runner-controller) | 6189 | 2026-04-23T13:48:32Z | Go | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [knative/serving](https://github.com/knative/serving) | 6037 | 2026-04-23T12:45:19Z | Go | Infrastructure/tooling | 18 | 15 | 18 | 18 |
 | [knative/eventing](https://github.com/knative/eventing) | 1540 | 2026-04-23T11:01:15Z | Go | Infrastructure/tooling | 16 | 13 | 16 | 16 |
-| [AdguardTeam/dnsproxy](https://github.com/AdguardTeam/dnsproxy) | 3074 | 2026-04-23T10:00:24Z | Go | Infrastructure/tooling | 8 | 6 | 8 | 8 |
-| [google/trillian](https://github.com/google/trillian) | 3723 | 2026-04-23T09:00:25Z | Go | Infrastructure/tooling | 8 | 11 | 8 | 8 |
-| [google/certificate-transparency-go](https://github.com/google/certificate-transparency-go) | 1124 | 2026-04-23T08:45:16Z | Go | Infrastructure/tooling | 4 | 10 | 4 | 4 |
-| [kubernetes/test-infra](https://github.com/kubernetes/test-infra) | 4004 | 2026-04-23T08:22:46Z | Go | Unknown | 1 | 29 | 1 | 1 |
-| [NVIDIA/nvidia-container-toolkit](https://github.com/NVIDIA/nvidia-container-toolkit) | 4274 | 2026-04-23T08:20:19Z | Go | Infrastructure/tooling | 8 | 17 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -151,18 +146,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dunglas/mercure](https://github.com/dunglas/mercure) | 5237 | 2026-04-30T00:50:11Z | Go | Infrastructure/tooling | 22 | 17 | 22 | 22 |
 | [open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib) | 4616 | 2026-04-29T18:45:33Z | Go | Infrastructure/tooling | 10 | 10 | 10 | 10 |
 | [ory/dockertest](https://github.com/ory/dockertest) | 4512 | 2026-04-24T14:04:12Z | Go | Infrastructure/tooling | 12 | 19 | 12 | 12 |
-| [NVIDIA/nvidia-container-toolkit](https://github.com/NVIDIA/nvidia-container-toolkit) | 4274 | 2026-04-23T08:20:19Z | Go | Infrastructure/tooling | 8 | 17 | 8 | 8 |
 | [open-policy-agent/gatekeeper](https://github.com/open-policy-agent/gatekeeper) | 4205 | 2026-04-28T21:06:23Z | Go | Infrastructure/tooling | 16 | 11 | 16 | 16 |
-| [kubernetes/test-infra](https://github.com/kubernetes/test-infra) | 4004 | 2026-04-23T08:22:46Z | Go | Unknown | 1 | 29 | 1 | 1 |
 | [connectrpc/connect-go](https://github.com/connectrpc/connect-go) | 3868 | 2026-04-23T14:55:47Z | Go | Infrastructure/tooling | 6 | 4 | 6 | 6 |
-| [google/trillian](https://github.com/google/trillian) | 3723 | 2026-04-23T09:00:25Z | Go | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 | [ory/oathkeeper](https://github.com/ory/oathkeeper) | 3553 | 2026-04-29T14:41:14Z | Go | Infrastructure/tooling | 13 | 29 | 13 | 13 |
 | [prometheus-community/windows_exporter](https://github.com/prometheus-community/windows_exporter) | 3530 | 2026-04-25T08:09:18Z | Go | Infrastructure/tooling | 10 | 12 | 10 | 10 |
 | [argoproj/argo-rollouts](https://github.com/argoproj/argo-rollouts) | 3457 | 2026-04-28T14:16:50Z | Go | Infrastructure/tooling | 15 | 16 | 15 | 15 |
 | [kubernetes/kubectl](https://github.com/kubernetes/kubectl) | 3262 | 2026-04-29T20:40:16Z | Go | CLI | 2 | 0 | 2 | 2 |
 | [bnb-chain/bsc](https://github.com/bnb-chain/bsc) | 3250 | 2026-04-28T06:44:34Z | Go | CLI | 9 | 12 | 9 | 9 |
 | [akuity/kargo](https://github.com/akuity/kargo) | 3237 | 2026-04-24T09:10:35Z | Go | Infrastructure/tooling | 11 | 28 | 11 | 11 |
-| [AdguardTeam/dnsproxy](https://github.com/AdguardTeam/dnsproxy) | 3074 | 2026-04-23T10:00:24Z | Go | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [C2SP/wycheproof](https://github.com/C2SP/wycheproof) | 3029 | 2026-04-28T17:44:14Z | Go | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [apache/incubator-devlake](https://github.com/apache/incubator-devlake) | 2996 | 2026-04-29T12:35:02Z | Go | Infrastructure/tooling | 23 | 14 | 23 | 23 |
 | [filecoin-project/lotus](https://github.com/filecoin-project/lotus) | 2992 | 2026-04-29T19:00:50Z | Go | Infrastructure/tooling | 8 | 4 | 8 | 8 |
@@ -198,7 +189,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [auth0/go-jwt-middleware](https://github.com/auth0/go-jwt-middleware) | 1201 | 2026-04-29T15:36:48Z | Go | Infrastructure/tooling | 6 | 8 | 6 | 7 |
 | [kubernetes-sigs/sig-storage-local-static-provisioner](https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner) | 1192 | 2026-04-28T03:22:47Z | Go | Infrastructure/tooling | 7 | 11 | 7 | 7 |
 | [apache/apisix-ingress-controller](https://github.com/apache/apisix-ingress-controller) | 1127 | 2026-04-27T10:18:53Z | Go | Infrastructure/tooling | 17 | 9 | 17 | 17 |
-| [google/certificate-transparency-go](https://github.com/google/certificate-transparency-go) | 1124 | 2026-04-23T08:45:16Z | Go | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [sigstore/gitsign](https://github.com/sigstore/gitsign) | 1082 | 2026-04-27T07:08:53Z | Go | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [hashicorp/terraform-provider-helm](https://github.com/hashicorp/terraform-provider-helm) | 1068 | 2026-04-28T19:37:22Z | Go | Infrastructure/tooling | 12 | 22 | 12 | 12 |
 | [kubernetes-sigs/node-feature-discovery](https://github.com/kubernetes-sigs/node-feature-discovery) | 1027 | 2026-04-28T05:40:41Z | Go | Infrastructure/tooling | 8 | 2 | 8 | 9 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 709,
-    "concepts": 81,
-    "observations": 81,
-    "repos": 30,
-    "terms": 81
+    "components": 738,
+    "concepts": 83,
+    "observations": 83,
+    "repos": 31,
+    "terms": 83
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "adevinta/actions-lighthouseci-compare",
     "aigc3d/LAM_WebRender",
     "androidStern-personal/openclaw-mcp-adapter",
     "atom-yang/aumi",
+    "c2corg/browserslist-update-action",
     "cahamilton/css-property-sort-order-smacss",
     "chaijs/assertion-error",
     "connectrpc/connect-playwright-es",

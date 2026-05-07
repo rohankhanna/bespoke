@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1 to 9 stars · C/C++
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 9
-- terms: 17
-- components: 34
-- concepts: 17
-- observations: 17
+- repos: 7
+- terms: 15
+- components: 28
+- concepts: 15
+- observations: 15
 
 ## Static behavior
 
@@ -33,8 +33,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [compiler-research/cppyy-backend](https://github.com/compiler-research/cppyy-backend) | 1 | 2026-04-27T15:48:22Z | C/C++ | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [yoshoku/numo-linalg-alt](https://github.com/yoshoku/numo-linalg-alt) | 2 | 2026-04-26T14:30:26Z | C/C++ | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [ROCm/rocJPEG](https://github.com/ROCm/rocJPEG) | 7 | 2026-04-24T17:32:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [compiler-research/CPyCppyy](https://github.com/compiler-research/CPyCppyy) | 2 | 2026-04-23T08:33:36Z | C/C++ | Infrastructure/tooling | 2 | 6 | 2 | 2 |
-| [DavidKinder/inform](https://github.com/DavidKinder/inform) | 2 | 2026-04-23T06:35:15Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -45,7 +43,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ROCm/rocJPEG](https://github.com/ROCm/rocJPEG) | 7 | 2026-04-24T17:32:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [danielbernalb/AireCiudadano](https://github.com/danielbernalb/AireCiudadano) | 5 | 2026-04-29T01:56:02Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [yoshoku/numo-linalg-alt](https://github.com/yoshoku/numo-linalg-alt) | 2 | 2026-04-26T14:30:26Z | C/C++ | Infrastructure/tooling | 8 | 6 | 8 | 8 |
-| [compiler-research/CPyCppyy](https://github.com/compiler-research/CPyCppyy) | 2 | 2026-04-23T08:33:36Z | C/C++ | Infrastructure/tooling | 2 | 6 | 2 | 2 |
-| [DavidKinder/inform](https://github.com/DavidKinder/inform) | 2 | 2026-04-23T06:35:15Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [eddelbuettel/r2u-builder](https://github.com/eddelbuettel/r2u-builder) | 1 | 2026-04-29T13:59:40Z | C/C++ | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [compiler-research/cppyy-backend](https://github.com/compiler-research/cppyy-backend) | 1 | 2026-04-27T15:48:22Z | C/C++ | Infrastructure/tooling | 2 | 6 | 2 | 2 |

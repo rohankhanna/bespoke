@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 59
-- terms: 387
-- components: 457
-- concepts: 387
-- observations: 387
+- repos: 60
+- terms: 401
+- components: 454
+- concepts: 401
+- observations: 401
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [huaweicloud/huaweicloud-sdk-go-v3](https://github.com/huaweicloud/huaweicloud-sdk-go-v3) | 125 | 2026-04-30T08:16:33Z | Go | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [hybridgroup/yzma](https://github.com/hybridgroup/yzma) | 444 | 2026-04-30T08:10:00Z | Go | Infrastructure/tooling | 15 | 3 | 15 | 15 |
 | [web-infra-dev/rslint](https://github.com/web-infra-dev/rslint) | 389 | 2026-04-30T04:41:16Z | Go | Infrastructure/tooling | 11 | 20 | 11 | 11 |
 | [google/oss-rebuild](https://github.com/google/oss-rebuild) | 693 | 2026-04-29T23:55:18Z | Go | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [cloudfoundry/cf-deployment](https://github.com/cloudfoundry/cf-deployment) | 313 | 2026-04-29T22:56:39Z | Go | Unknown | 1 | 0 | 1 | 1 |
@@ -84,7 +86,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kubernetes/sample-apiserver](https://github.com/kubernetes/sample-apiserver) | 599 | 2026-04-23T11:46:16Z | Go | Service/API | 1 | 0 | 1 | 1 |
 | [bazel-contrib/rules_img](https://github.com/bazel-contrib/rules_img) | 113 | 2026-04-23T11:34:05Z | Go | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [maragudk/gomponents-starter-kit](https://github.com/maragudk/gomponents-starter-kit) | 101 | 2026-04-23T11:33:16Z | Go | Infrastructure/tooling | 5 | 7 | 5 | 5 |
-| [ossf/osv-schema](https://github.com/ossf/osv-schema) | 245 | 2026-04-23T05:54:51Z | Go | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -112,6 +113,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [argoproj-labs/argocd-agent](https://github.com/argoproj-labs/argocd-agent) | 506 | 2026-04-29T15:05:21Z | Go | Infrastructure/tooling | 15 | 25 | 15 | 15 |
 | [Kong/deck](https://github.com/Kong/deck) | 494 | 2026-04-23T23:53:57Z | Go | Infrastructure/tooling | 15 | 17 | 15 | 15 |
 | [bufbuild/protovalidate-go](https://github.com/bufbuild/protovalidate-go) | 464 | 2026-04-23T19:40:48Z | Go | Infrastructure/tooling | 10 | 7 | 10 | 10 |
+| [hybridgroup/yzma](https://github.com/hybridgroup/yzma) | 444 | 2026-04-30T08:10:00Z | Go | Infrastructure/tooling | 15 | 3 | 15 | 15 |
 | [2dust/AndroidLibXrayLite](https://github.com/2dust/AndroidLibXrayLite) | 427 | 2026-04-26T02:20:02Z | Go | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [trzsz/tsshd](https://github.com/trzsz/tsshd) | 425 | 2026-04-25T07:36:53Z | Go | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [boj/redistore](https://github.com/boj/redistore) | 424 | 2026-04-27T10:57:49Z | Go | Infrastructure/tooling | 4 | 11 | 4 | 4 |
@@ -128,7 +130,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ipfs/boxo](https://github.com/ipfs/boxo) | 296 | 2026-04-24T12:34:04Z | Go | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [kubernetes-sigs/prow](https://github.com/kubernetes-sigs/prow) | 282 | 2026-04-23T17:22:48Z | Go | Docs/knowledge | 1 | 29 | 1 | 1 |
 | [kubernetes/apiextensions-apiserver](https://github.com/kubernetes/apiextensions-apiserver) | 258 | 2026-04-23T11:46:29Z | Go | Service/API | 1 | 0 | 1 | 1 |
-| [ossf/osv-schema](https://github.com/ossf/osv-schema) | 245 | 2026-04-23T05:54:51Z | Go | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [web-platform-tests/wpt.fyi](https://github.com/web-platform-tests/wpt.fyi) | 233 | 2026-04-23T17:46:19Z | Go | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [apache/dubbo-go-hessian2](https://github.com/apache/dubbo-go-hessian2) | 231 | 2026-04-29T13:02:57Z | Go | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [operator-framework/operator-registry](https://github.com/operator-framework/operator-registry) | 227 | 2026-04-29T19:22:36Z | Go | Infrastructure/tooling | 11 | 11 | 11 | 11 |
@@ -144,6 +145,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/dcp](https://github.com/microsoft/dcp) | 155 | 2026-04-24T00:16:17Z | Go | CLI | 4 | 5 | 4 | 4 |
 | [fnproject/cli](https://github.com/fnproject/cli) | 140 | 2026-04-29T16:07:55Z | Go | CLI | 0 | 0 | 0 | 0 |
 | [go-logr/zapr](https://github.com/go-logr/zapr) | 137 | 2026-04-28T02:51:50Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
+| [huaweicloud/huaweicloud-sdk-go-v3](https://github.com/huaweicloud/huaweicloud-sdk-go-v3) | 125 | 2026-04-30T08:16:33Z | Go | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [bazel-contrib/rules_img](https://github.com/bazel-contrib/rules_img) | 113 | 2026-04-23T11:34:05Z | Go | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [go-openapi/strfmt](https://github.com/go-openapi/strfmt) | 111 | 2026-04-29T11:38:46Z | Go | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 | [AdguardTeam/urlfilter](https://github.com/AdguardTeam/urlfilter) | 111 | 2026-04-23T16:31:59Z | Go | Infrastructure/tooling | 4 | 0 | 4 | 4 |

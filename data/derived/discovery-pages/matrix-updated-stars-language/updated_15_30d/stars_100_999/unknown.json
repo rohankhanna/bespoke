@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 74,
-    "concepts": 219,
-    "observations": 220,
-    "repos": 55,
-    "terms": 218
+    "components": 75,
+    "concepts": 225,
+    "observations": 226,
+    "repos": 56,
+    "terms": 224
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "abhisheknaiidu/abhisheknaiidu",
     "actions/partner-runner-images",
@@ -31,6 +31,7 @@
     "bloomberg/clang-p2996",
     "cloudflare/skills",
     "cncf/artwork",
+    "cosmos/awesome-cosmos",
     "CVEProject/automation-working-group",
     "django/deps",
     "dotnet-foundation/projects",

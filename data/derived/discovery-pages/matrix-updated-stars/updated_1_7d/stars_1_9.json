@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 612,
-    "concepts": 392,
-    "observations": 392,
-    "repos": 68,
-    "terms": 391
+    "components": 590,
+    "concepts": 384,
+    "observations": 384,
+    "repos": 65,
+    "terms": 383
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "3mdeb/3mdeb-secpack",
     "alphagov/stylelint-config-gds",
@@ -20,21 +20,20 @@
     "anolilab/unplugin-favicons",
     "Azure-Samples/langchain-agent-python",
     "Cebeerre/dnsblocklists",
+    "clearml/dropbear",
     "cloudfoundry/credhub-acceptance-tests",
-    "compiler-research/cppyy",
     "conda-forge/pyfive-feedstock",
+    "conda-forge/rerun-sdk-feedstock",
+    "cosmos/rosetta",
     "criccomini/uniffi-bindgen-node-js",
     "csm-actions/demo-server",
     "csm-actions/update-branch-action",
-    "cucumber/.github",
     "danielrosehill/Claude-Content-Writing-Plugin",
     "danielrosehill/Claude-Debugging-Plugin",
     "danielrosehill/Claude-Desktop-Manager-Plugin",
     "danielrosehill/Claude-Rudder",
     "databendlabs/databend-meta",
-    "datachainlab/lcp-go",
     "decibri/decibri",
-    "demonatic/flash-attention",
     "dydxprotocol/v4-localization",
     "emacs-straight/emacsmirror-mirror",
     "Evilpasture/Culverin",
@@ -49,12 +48,12 @@
     "heroku/buildpacks-php",
     "heroku/buildpacks-procfile",
     "hybridgroup/llama-cpp-builder",
+    "influxdata/arrow-datafusion",
     "JeremyAnsel/SharpAssimp",
     "JuliaCI/rootfs-images",
     "kurrent-io/KurrentDB-Bridge-Client",
     "LedgerHQ/ledger-app-workflows",
     "linode/karpenter-provider-linode",
-    "lintnet-modules/ghalint",
     "mozilla-ai/otari",
     "oclif/plugin-version",
     "open-telemetry/opentelemetry-weaver-examples",
@@ -65,7 +64,6 @@
     "pot-app/.github",
     "PrimeIntellect-ai/renderers",
     "Seedloaf/mc-router-discovery",
-    "stable-haskell/cabal",
     "standardrb/standard-sorbet",
     "stdlib-js/array-float32",
     "stdlib-js/complex-reviver",
@@ -79,7 +77,6 @@
     "triton-inference-server/TensorRT-LLM",
     "usdot-fhwa-stol/carma-config",
     "usdot-fhwa-stol/cdasim-config",
-    "vincentlaucsb/classify_scalar",
-    "zopefoundation/meta"
+    "vincentlaucsb/classify_scalar"
   ]
 }

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2751,
-    "concepts": 1110,
-    "observations": 1114,
-    "repos": 812,
-    "terms": 1141
+    "components": 2778,
+    "concepts": 1120,
+    "observations": 1124,
+    "repos": 820,
+    "terms": 1151
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "0xBigBoss/ghostty-web",
@@ -527,6 +527,7 @@
     "JuliaBinaryWrappers/Arrow_jll.jl",
     "JuliaBinaryWrappers/Blosc_jll.jl",
     "JuliaBinaryWrappers/boost_jll.jl",
+    "JuliaBinaryWrappers/brotli_jll.jl",
     "JuliaBinaryWrappers/Bzip2_jll.jl",
     "JuliaBinaryWrappers/Cairo_jll.jl",
     "JuliaBinaryWrappers/CUDA_Driver_jll.jl",
@@ -541,7 +542,9 @@
     "JuliaBinaryWrappers/Glib_jll.jl",
     "JuliaBinaryWrappers/GTK4_jll.jl",
     "JuliaBinaryWrappers/HDF4_jll.jl",
+    "JuliaBinaryWrappers/JpegTurbo_jll.jl",
     "JuliaBinaryWrappers/libadwaita_jll.jl",
+    "JuliaBinaryWrappers/libaec_jll.jl",
     "JuliaBinaryWrappers/Libffi_jll.jl",
     "JuliaBinaryWrappers/Libiconv_jll.jl",
     "JuliaBinaryWrappers/Libmount_jll.jl",
@@ -549,7 +552,10 @@
     "JuliaBinaryWrappers/Libuuid_jll.jl",
     "JuliaBinaryWrappers/LightGBM_jll.jl",
     "JuliaBinaryWrappers/LLVMOpenMP_jll.jl",
+    "JuliaBinaryWrappers/Lz4_jll.jl",
     "JuliaBinaryWrappers/pixi_jll.jl",
+    "JuliaBinaryWrappers/snappy_jll.jl",
+    "JuliaBinaryWrappers/Thrift_jll.jl",
     "JuliaBinaryWrappers/yyjson_jll.jl",
     "juliaci/base-buildkite-docs",
     "JuliaDocs/DocumenterInventoryWritingBackport.jl",
@@ -684,6 +690,7 @@
     "onomojo/i18n-timezones-rs",
     "openobserve/promql-parser",
     "openwdl/governance",
+    "osmosis-labs/block-sdk",
     "panekj/lapce-plugin-rust",
     "passcod/cargo-release-pr-test",
     "Patrick-ring-motive/sval-rhino-gs",
@@ -778,6 +785,7 @@
     "taoensso/roadmap",
     "team-acaisia/php-varint",
     "tedsteen/puffin",
+    "TelemetryHub/opentelemetry-demo",
     "thanku-all/parse_answer",
     "threesigmaxyz/filplus-allocator-bot",
     "timelic/source-han-serif",

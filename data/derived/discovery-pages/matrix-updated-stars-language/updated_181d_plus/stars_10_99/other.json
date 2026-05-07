@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1935,
-    "concepts": 1756,
-    "observations": 1762,
-    "repos": 771,
-    "terms": 1750
+    "concepts": 1759,
+    "observations": 1765,
+    "repos": 773,
+    "terms": 1753
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x7432/asm-ru",
@@ -21,6 +21,7 @@
     "0xJohnnyboy/scretch.nvim",
     "11ty/eleventy-benchmark",
     "1jsingh/Divide-Evaluate-and-Refine",
+    "1jsingh/negtome",
     "1mill/serverless-tf-examples",
     "1zb/sdf_gen",
     "20000yshust/SWARM",
@@ -520,6 +521,7 @@
     "LogtalkDotOrg/logtalk-jupyter-kernel",
     "lshqqytiger/triton",
     "LuaLS/LuaParser",
+    "luc-tielen/telescope_hoogle",
     "LucHermitte/vim-build-tools-wrapper",
     "lukas-reineke/onedark.nvim",
     "lumen-oss/rocks-dev.nvim",

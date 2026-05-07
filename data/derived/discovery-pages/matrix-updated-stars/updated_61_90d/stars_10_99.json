@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1399,
-    "concepts": 729,
-    "observations": 730,
+    "components": 1380,
+    "concepts": 730,
+    "observations": 731,
     "repos": 259,
-    "terms": 732
+    "terms": 733
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "2slides/mcp-2slides",
@@ -70,7 +70,6 @@
     "broccolijs/broccoli-plugin",
     "BuddiesOfBudgie/budgie-desktop-view",
     "ButTaiwan/taigivs",
-    "c2corg/browserslist-update-action",
     "caltechlibrary/datatools",
     "camel-ai/seta",
     "camertron/garnet-js",
@@ -86,6 +85,7 @@
     "ClickHouse/opentelemetry-demo",
     "cloudfoundry/buildpackapplifecycle",
     "CMBAgents/cmbagent",
+    "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
     "co-IT/CSharpFunctionalExtensions.HttpResults",
     "coderaiser/estree-to-babel",
     "coderaiser/mock-import",

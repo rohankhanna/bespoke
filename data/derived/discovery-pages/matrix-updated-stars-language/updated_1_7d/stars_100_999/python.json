@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 388,
-    "concepts": 404,
-    "observations": 406,
-    "repos": 59,
-    "terms": 402
+    "components": 374,
+    "concepts": 368,
+    "observations": 370,
+    "repos": 52,
+    "terms": 366
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "aboutcode-org/scancode.io",
@@ -24,7 +24,6 @@
     "aio-libs/aiorwlock",
     "aio-libs/pytest-aiohttp",
     "alltheplaces/alltheplaces",
-    "autowarefoundation/autoware-documentation",
     "Azure/co-op-translator",
     "Blosc/python-blosc2",
     "castorini/rank_llm",
@@ -35,23 +34,19 @@
     "conda/conda-build",
     "conda/conda-libmamba-solver",
     "cosmos/chain-registry",
-    "Dao-AILab/sonic-moe",
     "databrickslabs/ucx",
     "echonet/dynamic",
-    "enjoy-digital/litepcie",
-    "enjoy-digital/litescope",
     "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
-    "flagos-ai/FlagGems",
+    "flagos-ai/FlagScale",
     "fsspec/gcsfs",
-    "gbionics/adam",
     "gbionics/jaxsim",
     "google/orbax",
     "googlefonts/roboto-3-classic",
-    "HansZ8/RoboJuDo",
     "heyoeyo/muggled_sam",
     "httpwg/http-extensions",
     "HumanSignal/label-studio-sdk",
     "jawah/charset_normalizer",
+    "jupyter-server/jupyter_server",
     "librelane/librelane",
     "lightly-ai/lightly-studio",
     "makehumancommunity/mpfb2",
@@ -68,10 +63,8 @@
     "robometer/robometer",
     "runtimeverification/k",
     "sigsep/norbert",
-    "svg-project/flash-kmeans",
     "tox-dev/filelock",
     "triton-inference-server/client",
-    "unitreerobotics/unitree_sdk2_python",
     "unum-bio/USearchMolecules"
   ]
 }

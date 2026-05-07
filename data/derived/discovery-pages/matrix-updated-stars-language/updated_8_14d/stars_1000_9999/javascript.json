@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1360,
-    "concepts": 295,
-    "observations": 296,
-    "repos": 42,
-    "terms": 291
+    "components": 1589,
+    "concepts": 321,
+    "observations": 322,
+    "repos": 45,
+    "terms": 317
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "amannn/action-semantic-pull-request",
     "americanexpress/jest-image-snapshot",
+    "antfu/eslint-config",
     "apostrophecms/apostrophe",
     "appium/appium-inspector",
     "conventional-changelog/standard-version",
@@ -41,7 +42,6 @@
     "mapbox/pixelmatch",
     "mermaid-js/mermaid-cli",
     "middyjs/middy",
-    "minio/minio-js",
     "mozilla/rhino",
     "mozilla/web-ext",
     "NickColley/jest-axe",
@@ -49,10 +49,13 @@
     "parallel-js/parallel.js",
     "postcss/postcss-import",
     "release-it/release-it",
+    "RisingStack/react-easy-state",
+    "swagger-api/swagger-editor",
     "terser/terser",
     "testem/testem",
     "umijs/dumi",
     "unifiedjs/unified",
+    "WebKit/WebKit",
     "webpack/webpack-dev-middleware",
     "webpack/webpack-dev-server",
     "yahoo/serialize-javascript"

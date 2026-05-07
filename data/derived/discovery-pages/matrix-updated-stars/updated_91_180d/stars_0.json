@@ -3,7 +3,7 @@
     "components": 272,
     "concepts": 85,
     "observations": 85,
-    "repos": 72,
+    "repos": 73,
     "terms": 85
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "abap2UI5-addons/popups",
     "aldernero/spider",
@@ -61,6 +61,7 @@
     "Hitesh-Aggarwal/dotfiles",
     "illusionfield/fourseven-scss",
     "jackielii/qmk_firmware",
+    "JuliaBinaryWrappers/brotli_jll.jl",
     "JuliaBinaryWrappers/Libffi_jll.jl",
     "Keats/os_info",
     "KSXGitHub/aur-packages-builder-1",

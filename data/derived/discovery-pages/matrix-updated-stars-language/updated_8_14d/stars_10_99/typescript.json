@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1412,
+    "components": 1444,
     "concepts": 291,
     "observations": 293,
-    "repos": 46,
+    "repos": 47,
     "terms": 291
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
@@ -20,8 +20,8 @@
     "appsignal/appsignal-javascript",
     "catppuccin/.github",
     "celo-org/social-connect",
+    "coasys/flux",
     "dannyhw/expo-storybook-starter",
-    "DataDog/opentelemetry-demo",
     "ecyrbe/zodios-express",
     "elastic/opentelemetry-demo",
     "emscripten-forge/mambajs",
@@ -38,6 +38,7 @@
     "ldclabs/KIP",
     "mcous/vitest-when",
     "NullVoxPopuli/ember-deep-tracked",
+    "obsidianmd/eslint-plugin",
     "oclif/plugin-autocomplete",
     "oclif/plugin-help",
     "oclif/plugin-plugins",

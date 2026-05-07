@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 85,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 5,
-    "terms": 22
+    "components": 58,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 3,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "aws-cloudformation/cfn-lint-visual-studio-code",
-    "browserslist/caniuse-lite",
     "GDevelopApp/GDevelop-extensions",
-    "mafintosh/streamx",
     "tc39/eshost"
   ]
 }

@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 95
-- terms: 631
-- components: 941
-- concepts: 635
-- observations: 635
+- repos: 84
+- terms: 564
+- components: 851
+- concepts: 568
+- observations: 568
 
 ## Static behavior
 
@@ -40,7 +40,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [open-telemetry/opentelemetry-helm-charts](https://github.com/open-telemetry/opentelemetry-helm-charts) | 549 | 2026-05-04T16:03:06Z | Other | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [LibreChat-AI/librechat.ai](https://github.com/LibreChat-AI/librechat.ai) | 493 | 2026-05-04T13:32:14Z | Other | Infrastructure/tooling | 5 | 89 | 5 | 5 |
 | [ChristopherHX/runner.server](https://github.com/ChristopherHX/runner.server) | 233 | 2026-05-04T09:11:39Z | Other | Infrastructure/tooling | 14 | 18 | 14 | 14 |
-| [danielrosehill/Claude-Code-Projects-Index](https://github.com/danielrosehill/Claude-Code-Projects-Index) | 459 | 2026-05-04T08:07:33Z | Other | CLI | 3 | 1 | 3 | 3 |
+| [danielrosehill/Claude-Code-Projects-Index](https://github.com/danielrosehill/Claude-Code-Projects-Index) | 460 | 2026-05-04T08:07:33Z | Other | CLI | 3 | 1 | 3 | 3 |
 | [phpstan/phpstan-src](https://github.com/phpstan/phpstan-src) | 390 | 2026-05-04T01:18:42Z | Other | Infrastructure/tooling | 8 | 12 | 8 | 8 |
 | [nix-community/haumea](https://github.com/nix-community/haumea) | 400 | 2026-05-03T13:59:10Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [osmlab/name-suggestion-index](https://github.com/osmlab/name-suggestion-index) | 833 | 2026-05-03T10:48:22Z | Other | Infrastructure/tooling | 11 | 36 | 11 | 11 |
@@ -110,17 +110,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [moyangzhan/langchain4j-aideepin-web](https://github.com/moyangzhan/langchain4j-aideepin-web) | 144 | 2026-04-30T12:34:36Z | Other | Infrastructure/tooling | 0 | 55 | 0 | 0 |
 | [LogtalkDotOrg/logtalk3](https://github.com/LogtalkDotOrg/logtalk3) | 479 | 2026-04-30T11:57:35Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [dauxio/daux.io](https://github.com/dauxio/daux.io) | 826 | 2026-04-30T11:10:41Z | Other | Infrastructure/tooling | 6 | 28 | 8 | 8 |
-| [ocaml-ppx/ocamlformat](https://github.com/ocaml-ppx/ocamlformat) | 714 | 2026-04-30T10:17:04Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
-| [nim-lang/langserver](https://github.com/nim-lang/langserver) | 294 | 2026-04-30T09:54:05Z | Other | Infrastructure/tooling | 0 | 10 | 0 | 0 |
-| [day8/re-frame-10x](https://github.com/day8/re-frame-10x) | 652 | 2026-04-30T09:11:10Z | Other | Infrastructure/tooling | 4 | 10 | 4 | 4 |
-| [igraph/rigraph](https://github.com/igraph/rigraph) | 611 | 2026-04-30T09:10:10Z | Other | Infrastructure/tooling | 13 | 13 | 13 | 13 |
-| [compiler-research/xeus-cpp](https://github.com/compiler-research/xeus-cpp) | 119 | 2026-04-30T08:55:07Z | Other | Infrastructure/tooling | 5 | 11 | 5 | 5 |
-| [microsoft/binskim](https://github.com/microsoft/binskim) | 850 | 2026-04-30T08:35:35Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
-| [JuliaRegistries/General](https://github.com/JuliaRegistries/General) | 705 | 2026-04-30T08:20:19Z | Other | Infrastructure/tooling | 9 | 6 | 9 | 9 |
-| [90-008/nix-cargo-integration](https://github.com/90-008/nix-cargo-integration) | 217 | 2026-04-30T08:06:22Z | Other | Infrastructure/tooling | 12 | 7 | 12 | 12 |
-| [day8/re-frame-template](https://github.com/day8/re-frame-template) | 598 | 2026-04-30T08:02:55Z | Other | CLI | 6 | 4 | 6 | 6 |
-| [php/doc-en](https://github.com/php/doc-en) | 585 | 2026-04-30T07:09:47Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
-| [open-telemetry/opentelemetry-erlang-contrib](https://github.com/open-telemetry/opentelemetry-erlang-contrib) | 210 | 2026-04-30T07:01:27Z | Other | Infrastructure/tooling | 7 | 13 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -133,23 +122,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/Agents](https://github.com/microsoft/Agents) | 876 | 2026-05-02T02:50:59Z | Other | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [microsoft/Oryx](https://github.com/microsoft/Oryx) | 869 | 2026-05-01T01:18:51Z | Other | Infrastructure/tooling | 9 | 7 | 9 | 9 |
 | [Shopify/tapioca](https://github.com/Shopify/tapioca) | 854 | 2026-05-05T17:43:00Z | Other | Infrastructure/tooling | 8 | 4 | 8 | 8 |
-| [microsoft/binskim](https://github.com/microsoft/binskim) | 850 | 2026-04-30T08:35:35Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [osmlab/name-suggestion-index](https://github.com/osmlab/name-suggestion-index) | 833 | 2026-05-03T10:48:22Z | Other | Infrastructure/tooling | 11 | 36 | 11 | 11 |
 | [dauxio/daux.io](https://github.com/dauxio/daux.io) | 826 | 2026-04-30T11:10:41Z | Other | Infrastructure/tooling | 6 | 28 | 8 | 8 |
 | [sbt/sbt-jmh](https://github.com/sbt/sbt-jmh) | 798 | 2026-05-03T06:13:24Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [activeadmin/arbre](https://github.com/activeadmin/arbre) | 791 | 2026-04-30T16:52:07Z | Other | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [dennisdoomen/CSharpGuidelines](https://github.com/dennisdoomen/CSharpGuidelines) | 765 | 2026-05-03T10:08:12Z | Other | Web app | 0 | 3 | 0 | 0 |
 | [HOL-Theorem-Prover/HOL](https://github.com/HOL-Theorem-Prover/HOL) | 740 | 2026-05-03T01:28:37Z | Other | Infrastructure/tooling | 7 | 6 | 7 | 7 |
-| [ocaml-ppx/ocamlformat](https://github.com/ocaml-ppx/ocamlformat) | 714 | 2026-04-30T10:17:04Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
-| [JuliaRegistries/General](https://github.com/JuliaRegistries/General) | 705 | 2026-04-30T08:20:19Z | Other | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [JuliaDebug/Cthulhu.jl](https://github.com/JuliaDebug/Cthulhu.jl) | 702 | 2026-05-02T00:01:31Z | Other | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [clj-commons/rewrite-clj](https://github.com/clj-commons/rewrite-clj) | 654 | 2026-05-06T02:23:12Z | Other | Infrastructure/tooling | 5 | 12 | 5 | 5 |
-| [day8/re-frame-10x](https://github.com/day8/re-frame-10x) | 652 | 2026-04-30T09:11:10Z | Other | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [SonarSource/sonarlint-intellij](https://github.com/SonarSource/sonarlint-intellij) | 634 | 2026-04-30T14:44:01Z | Other | Infrastructure/tooling | 11 | 20 | 11 | 11 |
 | [JuliaGraphics/Luxor.jl](https://github.com/JuliaGraphics/Luxor.jl) | 623 | 2026-05-02T18:39:24Z | Other | Infrastructure/tooling | 14 | 11 | 14 | 14 |
-| [igraph/rigraph](https://github.com/igraph/rigraph) | 611 | 2026-04-30T09:10:10Z | Other | Infrastructure/tooling | 13 | 13 | 13 | 13 |
-| [day8/re-frame-template](https://github.com/day8/re-frame-template) | 598 | 2026-04-30T08:02:55Z | Other | CLI | 6 | 4 | 6 | 6 |
-| [php/doc-en](https://github.com/php/doc-en) | 585 | 2026-04-30T07:09:47Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [codiume/orbit](https://github.com/codiume/orbit) | 577 | 2026-05-01T18:23:38Z | Other | Infrastructure/tooling | 10 | 20 | 10 | 10 |
 | [mapbox/mapbox-maps-android](https://github.com/mapbox/mapbox-maps-android) | 569 | 2026-05-01T17:56:52Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [JuliaSymbolics/SymbolicUtils.jl](https://github.com/JuliaSymbolics/SymbolicUtils.jl) | 560 | 2026-04-30T14:25:18Z | Other | Infrastructure/tooling | 9 | 13 | 9 | 9 |
@@ -160,7 +142,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaDebug/Infiltrator.jl](https://github.com/JuliaDebug/Infiltrator.jl) | 492 | 2026-05-02T02:55:22Z | Other | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [LogtalkDotOrg/logtalk3](https://github.com/LogtalkDotOrg/logtalk3) | 479 | 2026-04-30T11:57:35Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [dbkangaroo/kangaroo](https://github.com/dbkangaroo/kangaroo) | 469 | 2026-05-05T07:07:26Z | Other | CLI | 17 | 0 | 17 | 17 |
-| [danielrosehill/Claude-Code-Projects-Index](https://github.com/danielrosehill/Claude-Code-Projects-Index) | 459 | 2026-05-04T08:07:33Z | Other | CLI | 3 | 1 | 3 | 3 |
+| [danielrosehill/Claude-Code-Projects-Index](https://github.com/danielrosehill/Claude-Code-Projects-Index) | 460 | 2026-05-04T08:07:33Z | Other | CLI | 3 | 1 | 3 | 3 |
 | [JuliaPackaging/BinaryBuilder.jl](https://github.com/JuliaPackaging/BinaryBuilder.jl) | 426 | 2026-04-30T12:44:37Z | Other | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [braintree/braintree_android](https://github.com/braintree/braintree_android) | 424 | 2026-04-30T13:07:26Z | Other | Infrastructure/tooling | 11 | 11 | 11 | 11 |
 | [castacks/tartanair_tools](https://github.com/castacks/tartanair_tools) | 408 | 2026-04-30T18:59:22Z | Other | Model/data | 0 | 0 | 0 | 0 |
@@ -180,7 +162,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [CHIP-SPV/chipStar](https://github.com/CHIP-SPV/chipStar) | 329 | 2026-05-04T17:02:31Z | Other | Infrastructure/tooling | 13 | 6 | 13 | 13 |
 | [appwrite/sdk-generator](https://github.com/appwrite/sdk-generator) | 314 | 2026-05-01T15:14:02Z | Other | Infrastructure/tooling | 12 | 15 | 12 | 12 |
 | [halostatue/diff-lcs](https://github.com/halostatue/diff-lcs) | 304 | 2026-05-01T01:50:45Z | Other | Infrastructure/tooling | 7 | 12 | 7 | 7 |
-| [nim-lang/langserver](https://github.com/nim-lang/langserver) | 294 | 2026-04-30T09:54:05Z | Other | Infrastructure/tooling | 0 | 10 | 0 | 0 |
 | [netdur/llama_cpp_dart](https://github.com/netdur/llama_cpp_dart) | 292 | 2026-04-30T17:41:20Z | Other | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [jump-dev/NLopt.jl](https://github.com/jump-dev/NLopt.jl) | 280 | 2026-05-05T08:06:18Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [test-unit/test-unit](https://github.com/test-unit/test-unit) | 275 | 2026-04-30T21:11:17Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
@@ -195,9 +176,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ChristopherHX/runner.server](https://github.com/ChristopherHX/runner.server) | 233 | 2026-05-04T09:11:39Z | Other | Infrastructure/tooling | 14 | 18 | 14 | 14 |
 | [actions/python-versions](https://github.com/actions/python-versions) | 230 | 2026-04-30T14:34:34Z | Other | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [JuliaIO/FileIO.jl](https://github.com/JuliaIO/FileIO.jl) | 226 | 2026-04-30T13:45:06Z | Other | Infrastructure/tooling | 14 | 14 | 14 | 14 |
-| [90-008/nix-cargo-integration](https://github.com/90-008/nix-cargo-integration) | 217 | 2026-04-30T08:06:22Z | Other | Infrastructure/tooling | 12 | 7 | 12 | 12 |
 | [openstreetmap/id-tagging-schema](https://github.com/openstreetmap/id-tagging-schema) | 215 | 2026-05-01T12:22:50Z | Other | Infrastructure/tooling | 10 | 12 | 10 | 10 |
-| [open-telemetry/opentelemetry-erlang-contrib](https://github.com/open-telemetry/opentelemetry-erlang-contrib) | 210 | 2026-04-30T07:01:27Z | Other | Infrastructure/tooling | 7 | 13 | 7 | 7 |
 | [Shopify/rubocop-sorbet](https://github.com/Shopify/rubocop-sorbet) | 200 | 2026-04-30T20:08:43Z | Other | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [devcontainers/devcontainers.github.io](https://github.com/devcontainers/devcontainers.github.io) | 191 | 2026-05-05T02:17:32Z | Other | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [heroku/heroku-buildpack-scala](https://github.com/heroku/heroku-buildpack-scala) | 190 | 2026-05-01T05:57:18Z | Other | Infrastructure/tooling | 7 | 3 | 7 | 7 |
@@ -215,7 +194,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaData/CategoricalArrays.jl](https://github.com/JuliaData/CategoricalArrays.jl) | 136 | 2026-05-01T01:58:35Z | Other | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [zephyr-data-specs/GMNS](https://github.com/zephyr-data-specs/GMNS) | 130 | 2026-05-01T22:54:44Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [pulumi/templates](https://github.com/pulumi/templates) | 129 | 2026-05-01T12:18:42Z | Other | Infrastructure/tooling | 7 | 26 | 7 | 7 |
-| [compiler-research/xeus-cpp](https://github.com/compiler-research/xeus-cpp) | 119 | 2026-04-30T08:55:07Z | Other | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 | [mmark-md/mmark](https://github.com/mmark-md/mmark) | 117 | 2026-05-01T14:31:14Z | Other | Infrastructure/tooling | 2 | 4 | 3 | 3 |
 | [heroku/heroku-buildpack-clojure](https://github.com/heroku/heroku-buildpack-clojure) | 117 | 2026-05-01T02:09:40Z | Other | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [ROCm/hipBLASLt](https://github.com/ROCm/hipBLASLt) | 113 | 2026-05-05T13:35:19Z | Other | Unknown | 7 | 0 | 7 | 7 |

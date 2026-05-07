@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1 to 9 stars · Python
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 15
-- terms: 58
-- components: 84
-- concepts: 58
-- observations: 58
+- repos: 17
+- terms: 62
+- components: 99
+- concepts: 62
+- observations: 62
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [compiler-research/cppyy](https://github.com/compiler-research/cppyy) | 1 | 2026-04-30T10:43:13Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [demonatic/flash-attention](https://github.com/demonatic/flash-attention) | 3 | 2026-04-30T06:56:20Z | Python | Infrastructure/tooling | 4 | 11 | 4 | 4 |
+| [zopefoundation/meta](https://github.com/zopefoundation/meta) | 8 | 2026-04-30T06:47:18Z | Python | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [flagos-ai/Megatron-LM-FL](https://github.com/flagos-ai/Megatron-LM-FL) | 4 | 2026-04-30T02:21:15Z | Python | Infrastructure/tooling | 5 | 9 | 5 | 5 |
 | [meridianlabs-ai/inspect_harbor](https://github.com/meridianlabs-ai/inspect_harbor) | 9 | 2026-04-29T22:39:53Z | Python | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [eea/eea-website-backend](https://github.com/eea/eea-website-backend) | 1 | 2026-04-29T15:23:24Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
@@ -40,7 +43,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kalavai-net/kube-watcher](https://github.com/kalavai-net/kube-watcher) | 5 | 2026-04-24T15:25:39Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [flagos-ai/TransformerEngine-FL](https://github.com/flagos-ai/TransformerEngine-FL) | 4 | 2026-04-24T10:04:59Z | Python | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [conda-forge/threadpoolctl-feedstock](https://github.com/conda-forge/threadpoolctl-feedstock) | 1 | 2026-04-24T03:50:03Z | Python | Infrastructure/tooling | 1 | 0 | 1 | 1 |
-| [5sControl/5s-backend](https://github.com/5sControl/5s-backend) | 2 | 2026-04-23T07:54:59Z | Python | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -50,6 +52,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mlcommons/submissions_algorithms](https://github.com/mlcommons/submissions_algorithms) | 9 | 2026-04-27T17:36:09Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [scaleway/serverless-api-framework-python](https://github.com/scaleway/serverless-api-framework-python) | 9 | 2026-04-27T16:58:01Z | Python | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [plone/cookieplone-templates](https://github.com/plone/cookieplone-templates) | 9 | 2026-04-27T11:10:47Z | Python | Infrastructure/tooling | 6 | 7 | 6 | 6 |
+| [zopefoundation/meta](https://github.com/zopefoundation/meta) | 8 | 2026-04-30T06:47:18Z | Python | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [ParisNeo/lollms_client](https://github.com/ParisNeo/lollms_client) | 8 | 2026-04-28T07:44:03Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [atlanhq/atlan-sample-apps](https://github.com/atlanhq/atlan-sample-apps) | 5 | 2026-04-28T16:42:18Z | Python | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 | [TJC-LP/sanzaru](https://github.com/TJC-LP/sanzaru) | 5 | 2026-04-25T19:24:00Z | Python | Infrastructure/tooling | 3 | 7 | 3 | 3 |
@@ -57,7 +60,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [flagos-ai/Megatron-LM-FL](https://github.com/flagos-ai/Megatron-LM-FL) | 4 | 2026-04-30T02:21:15Z | Python | Infrastructure/tooling | 5 | 9 | 5 | 5 |
 | [astral-sh/versions](https://github.com/astral-sh/versions) | 4 | 2026-04-28T10:47:52Z | Python | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [flagos-ai/TransformerEngine-FL](https://github.com/flagos-ai/TransformerEngine-FL) | 4 | 2026-04-24T10:04:59Z | Python | Infrastructure/tooling | 5 | 8 | 5 | 5 |
-| [5sControl/5s-backend](https://github.com/5sControl/5s-backend) | 2 | 2026-04-23T07:54:59Z | Python | Infrastructure/tooling | 7 | 7 | 7 | 7 |
+| [demonatic/flash-attention](https://github.com/demonatic/flash-attention) | 3 | 2026-04-30T06:56:20Z | Python | Infrastructure/tooling | 4 | 11 | 4 | 4 |
+| [compiler-research/cppyy](https://github.com/compiler-research/cppyy) | 1 | 2026-04-30T10:43:13Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [eea/eea-website-backend](https://github.com/eea/eea-website-backend) | 1 | 2026-04-29T15:23:24Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [mozilla-ai/tinyagent](https://github.com/mozilla-ai/tinyagent) | 1 | 2026-04-29T13:40:33Z | Python | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [conda-forge/threadpoolctl-feedstock](https://github.com/conda-forge/threadpoolctl-feedstock) | 1 | 2026-04-24T03:50:03Z | Python | Infrastructure/tooling | 1 | 0 | 1 | 1 |

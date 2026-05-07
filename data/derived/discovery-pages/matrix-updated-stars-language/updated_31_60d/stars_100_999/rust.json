@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 200,
-    "concepts": 168,
-    "observations": 172,
-    "repos": 42,
-    "terms": 168
+    "components": 221,
+    "concepts": 187,
+    "observations": 191,
+    "repos": 44,
+    "terms": 187
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "ashvardanian/StringWars",
     "athre0z/color-backtrace",
@@ -22,9 +22,11 @@
     "dfrg/swash",
     "dimforge/parry",
     "DoumanAsh/xxhash-rust",
+    "drahnr/cargo-spellcheck",
     "dtolnay/readonly",
     "dtolnay/ref-cast",
     "dtolnay/trybuild",
+    "emilk/egui_plot",
     "esp-rs/embedded-svc",
     "esp-rs/esp-idf-svc",
     "filecoin-project/bellperson",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 118,
-    "concepts": 395,
-    "observations": 396,
-    "repos": 231,
-    "terms": 395
+    "concepts": 404,
+    "observations": 405,
+    "repos": 235,
+    "terms": 404
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0russwest0/Awesome-Agent-RL",
+    "360CVGroup/Qihoo-T2X",
     "abatilo/actions-poetry",
     "AbhishekMaira10/AbhishekMaira10",
     "AcademySoftwareFoundation/openexr-images",
@@ -126,6 +127,7 @@
     "instantX-research/InstantID-Rome",
     "Instrument/instrument-sans",
     "ipfs/roadmap",
+    "iridium-browser/iridium-browser",
     "JafferWilson/Process-Data-of-CNN-DailyMail",
     "jakubfoglar/raveo",
     "jbenet/random-ideas",
@@ -199,6 +201,7 @@
     "pdm-project/awesome-pdm",
     "pi0/config-dir",
     "pickhardt/maintainers-wanted",
+    "pirapira/ethereum-formal-verification-overview",
     "pkuliyi2015/multidiffusion-img-demo",
     "PlexPt/chatgpt-corpus",
     "privacycg/storage-partitioning",
@@ -241,6 +244,7 @@
     "uxlfoundation/awesome-oneapi",
     "WeikaiTan/Toronto-3D",
     "xuyang-liu16/Awesome-Generation-Acceleration",
+    "xuyang-liu16/Awesome-Token-level-Model-Compression",
     "yarnpkg/rfcs",
     "YoYo000/BlendedMVS",
     "YuzukiHD/YuzukiChameleon",

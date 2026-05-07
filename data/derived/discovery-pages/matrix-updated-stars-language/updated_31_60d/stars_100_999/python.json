@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 396,
-    "concepts": 566,
-    "observations": 570,
-    "repos": 122,
-    "terms": 565
+    "components": 384,
+    "concepts": 560,
+    "observations": 564,
+    "repos": 121,
+    "terms": 559
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/aswf-docker",
     "ACEnglish/truvari",
@@ -73,7 +73,6 @@
     "layumi/University1652-Baseline",
     "ldayton/dippy",
     "lessw2020/Ranger21",
-    "lxgw/LxgwMarkerGothic",
     "macisamuele/language-formatters-pre-commit-hooks",
     "madebyollin/taehv",
     "MAGREF-Video/MAGREF",
@@ -85,7 +84,6 @@
     "MIC-DKFZ/dynamic-network-architectures",
     "microsoft/ArchScale",
     "microsoft/XPretrain",
-    "mindspore-lab/mindnlp",
     "MinimalFuture/AgentMesh",
     "mkdocstrings/griffe",
     "mlcommons/algorithmic-efficiency",
@@ -117,6 +115,7 @@
     "spesmilo/electrumx",
     "Stanford-TML/robot_keyframe_kit",
     "strands-agents/mcp-server",
+    "sunrainyg/RandOpt",
     "swc-17/SparseDrive",
     "swc-17/SparseDriveV2",
     "terraform-aws-modules/terraform-aws-notify-slack",

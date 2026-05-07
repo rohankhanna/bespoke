@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -204,7 +204,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vuejs-templates/webpack](https://github.com/vuejs-templates/webpack) | 9653 | 2023-03-01T12:48:02Z | JavaScript | Web app | 0 | 1 | 0 | 0 |
 | [steelbrain/linter](https://github.com/steelbrain/linter) | 1088 | 2023-02-20T08:53:20Z | JavaScript | Infrastructure/tooling | 0 | 30 | 0 | 0 |
 | [que-etc/resize-observer-polyfill](https://github.com/que-etc/resize-observer-polyfill) | 1754 | 2023-01-27T12:16:31Z | JavaScript | Service/API | 4 | 18 | 4 | 4 |
-| [ElemeFE/element-react](https://github.com/ElemeFE/element-react) | 2836 | 2023-01-14T21:13:08Z | JavaScript | Web app | 4 | 55 | 4 | 4 |
+| [ElemeFE/element-react](https://github.com/ElemeFE/element-react) | 2837 | 2023-01-14T21:13:08Z | JavaScript | Web app | 4 | 55 | 4 | 4 |
 | [peggyrayzis/react-native-create-bridge](https://github.com/peggyrayzis/react-native-create-bridge) | 1022 | 2023-01-12T09:51:27Z | JavaScript | CLI | 6 | 17 | 6 | 6 |
 | [jackspirou/clientjs](https://github.com/jackspirou/clientjs) | 2225 | 2023-01-08T17:39:54Z | JavaScript | Unknown | 0 | 27 | 0 | 0 |
 | [iodide-project/iodide](https://github.com/iodide-project/iodide) | 1500 | 2023-01-06T01:32:43Z | JavaScript | Infrastructure/tooling | 0 | 97 | 0 | 0 |
@@ -371,7 +371,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [babel/babel-eslint](https://github.com/babel/babel-eslint) | 2949 | 2021-08-18T15:39:05Z | JavaScript | Unknown | 3 | 29 | 3 | 3 |
 | [vitalets/react-native-extended-stylesheet](https://github.com/vitalets/react-native-extended-stylesheet) | 2933 | 2025-02-05T16:37:19Z | JavaScript | Unknown | 7 | 18 | 7 | 7 |
 | [coreybutler/node-windows](https://github.com/coreybutler/node-windows) | 2933 | 2024-10-01T21:28:07Z | JavaScript | Infrastructure/tooling | 6 | 7 | 6 | 6 |
-| [ElemeFE/element-react](https://github.com/ElemeFE/element-react) | 2836 | 2023-01-14T21:13:08Z | JavaScript | Web app | 4 | 55 | 4 | 4 |
+| [ElemeFE/element-react](https://github.com/ElemeFE/element-react) | 2837 | 2023-01-14T21:13:08Z | JavaScript | Web app | 4 | 55 | 4 | 4 |
 | [dwyl/learn-tdd](https://github.com/dwyl/learn-tdd) | 2780 | 2025-10-13T16:20:21Z | JavaScript | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [arackaf/customize-cra](https://github.com/arackaf/customize-cra) | 2771 | 2023-10-06T20:33:24Z | JavaScript | Web app | 0 | 17 | 0 | 0 |
 | [saharmor/dalle-playground](https://github.com/saharmor/dalle-playground) | 2746 | 2024-06-03T22:19:37Z | JavaScript | Unknown | 9 | 0 | 9 | 9 |

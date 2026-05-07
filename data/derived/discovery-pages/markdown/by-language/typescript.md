@@ -1,6 +1,6 @@
 # TypeScript
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-05-07T05:41:41.352230+00:00`
 
 ## Counts
 
-- repos: 1832
-- terms: 10603
-- components: 60167
-- concepts: 10295
-- observations: 10330
+- repos: 1836
+- terms: 10622
+- components: 60269
+- concepts: 10316
+- observations: 10351
 
 ## Static behavior
 
@@ -22,36 +22,38 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 89863 | 2026-05-07T10:38:16Z | TypeScript | Infrastructure/tooling | 21 | 24 | 21 | 23 |
+| [vuejs/devtools](https://github.com/vuejs/devtools) | 2817 | 2026-05-07T09:49:51Z | TypeScript | Infrastructure/tooling | 3 | 50 | 3 | 3 |
+| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 76153 | 2026-05-07T09:34:50Z | TypeScript | Infrastructure/tooling | 13 | 379 | 13 | 13 |
+| [TanStack/form](https://github.com/TanStack/form) | 6506 | 2026-05-07T09:29:49Z | TypeScript | Infrastructure/tooling | 9 | 40 | 9 | 9 |
+| [a2aproject/a2a-js](https://github.com/a2aproject/a2a-js) | 533 | 2026-05-07T08:54:34Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
+| [jestjs/jest](https://github.com/jestjs/jest) | 45345 | 2026-05-07T08:44:01Z | TypeScript | Infrastructure/tooling | 16 | 96 | 16 | 16 |
+| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7608 | 2026-05-07T07:54:51Z | TypeScript | Infrastructure/tooling | 17 | 70 | 17 | 17 |
+| [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) | 27222 | 2026-05-07T07:01:20Z | TypeScript | Infrastructure/tooling | 27 | 9 | 27 | 27 |
+| [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) | 17629 | 2026-05-07T06:15:21Z | TypeScript | Infrastructure/tooling | 7 | 28 | 7 | 7 |
+| [skilld-dev/skilld](https://github.com/skilld-dev/skilld) | 268 | 2026-05-07T05:37:44Z | TypeScript | Infrastructure/tooling | 2 | 39 | 2 | 2 |
+| [safe-fndn/safe-singleton-factory](https://github.com/safe-fndn/safe-singleton-factory) | 134 | 2026-05-07T04:55:49Z | TypeScript | Infrastructure/tooling | 0 | 22 | 0 | 0 |
+| [electron/packager](https://github.com/electron/packager) | 290 | 2026-05-07T03:08:45Z | TypeScript | CLI | 9 | 50 | 9 | 9 |
 | [electron/rebuild](https://github.com/electron/rebuild) | 1117 | 2026-05-07T01:44:49Z | TypeScript | Infrastructure/tooling | 5 | 34 | 5 | 5 |
-| [electron/packager](https://github.com/electron/packager) | 290 | 2026-05-07T00:55:59Z | TypeScript | CLI | 9 | 50 | 9 | 9 |
-| [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) | 27214 | 2026-05-07T00:24:52Z | TypeScript | Infrastructure/tooling | 27 | 9 | 27 | 27 |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 45275 | 2026-05-06T22:28:40Z | TypeScript | Infrastructure/tooling | 34 | 25 | 25 | 25 |
+| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 45705 | 2026-05-06T22:28:40Z | TypeScript | Infrastructure/tooling | 34 | 25 | 25 | 25 |
 | [preactjs/preact-devtools](https://github.com/preactjs/preact-devtools) | 341 | 2026-05-06T22:08:31Z | TypeScript | Infrastructure/tooling | 7 | 57 | 7 | 7 |
-| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 89861 | 2026-05-06T22:08:02Z | TypeScript | Infrastructure/tooling | 21 | 24 | 21 | 23 |
-| [typescript-language-server/typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) | 2470 | 2026-05-06T21:08:40Z | TypeScript | Infrastructure/tooling | 6 | 46 | 6 | 6 |
+| [typescript-language-server/typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) | 2471 | 2026-05-06T21:08:40Z | TypeScript | Infrastructure/tooling | 6 | 46 | 6 | 6 |
 | [embroider-build/ember-auto-import](https://github.com/embroider-build/ember-auto-import) | 359 | 2026-05-06T20:07:13Z | TypeScript | Infrastructure/tooling | 3 | 17 | 3 | 3 |
-| [googleapis/google-api-nodejs-client](https://github.com/googleapis/google-api-nodejs-client) | 12142 | 2026-05-06T19:12:00Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
-| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 76125 | 2026-05-06T18:34:42Z | TypeScript | Infrastructure/tooling | 13 | 379 | 13 | 13 |
-| [inversify/monorepo](https://github.com/inversify/monorepo) | 232 | 2026-05-06T17:33:12Z | TypeScript | Infrastructure/tooling | 13 | 24 | 13 | 13 |
+| [googleapis/google-api-nodejs-client](https://github.com/googleapis/google-api-nodejs-client) | 12144 | 2026-05-06T19:12:00Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
+| [inversify/monorepo](https://github.com/inversify/monorepo) | 232 | 2026-05-06T17:33:12Z | TypeScript | Infrastructure/tooling | 11 | 24 | 13 | 13 |
 | [stx-labs/stacks.js](https://github.com/stx-labs/stacks.js) | 973 | 2026-05-06T17:17:31Z | TypeScript | Infrastructure/tooling | 5 | 43 | 5 | 5 |
-| [TanStack/form](https://github.com/TanStack/form) | 6506 | 2026-05-06T17:13:06Z | TypeScript | Infrastructure/tooling | 9 | 40 | 9 | 9 |
-| [jestjs/jest](https://github.com/jestjs/jest) | 45345 | 2026-05-06T17:08:47Z | TypeScript | Infrastructure/tooling | 16 | 96 | 16 | 16 |
 | [fluent-vue/fluent-vue](https://github.com/fluent-vue/fluent-vue) | 276 | 2026-05-06T16:56:55Z | TypeScript | Infrastructure/tooling | 12 | 31 | 12 | 12 |
-| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7603 | 2026-05-06T15:23:59Z | TypeScript | Infrastructure/tooling | 17 | 70 | 17 | 17 |
 | [conventional-changelog/conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) | 8438 | 2026-05-06T14:30:48Z | TypeScript | Infrastructure/tooling | 8 | 27 | 8 | 8 |
 | [mightyiam/eslint-config-love](https://github.com/mightyiam/eslint-config-love) | 817 | 2026-05-06T14:24:40Z | TypeScript | Infrastructure/tooling | 4 | 40 | 4 | 4 |
 | [TrigenSoftware/simple-release](https://github.com/TrigenSoftware/simple-release) | 20 | 2026-05-06T13:48:32Z | TypeScript | Infrastructure/tooling | 4 | 23 | 4 | 4 |
-| [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) | 17625 | 2026-05-06T13:33:32Z | TypeScript | Infrastructure/tooling | 7 | 28 | 7 | 7 |
 | [mobxjs/mobx](https://github.com/mobxjs/mobx) | 28183 | 2026-05-06T13:32:59Z | TypeScript | Infrastructure/tooling | 6 | 43 | 6 | 6 |
 | [benchmark-action/github-action-benchmark](https://github.com/benchmark-action/github-action-benchmark) | 1224 | 2026-05-06T13:20:13Z | TypeScript | Infrastructure/tooling | 8 | 42 | 8 | 9 |
 | [LuaLS/vscode-lua](https://github.com/LuaLS/vscode-lua) | 210 | 2026-05-06T13:08:29Z | TypeScript | Infrastructure/tooling | 3 | 4 | 3 | 3 |
-| [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template) | 43014 | 2026-05-06T10:18:14Z | TypeScript | Infrastructure/tooling | 23 | 7 | 23 | 23 |
+| [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template) | 43016 | 2026-05-06T10:18:14Z | TypeScript | Infrastructure/tooling | 23 | 7 | 23 | 23 |
 | [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) | 229 | 2026-05-06T08:49:33Z | TypeScript | Infrastructure/tooling | 3 | 17 | 3 | 3 |
 | [lambdalisue/vim-gin](https://github.com/lambdalisue/vim-gin) | 169 | 2026-05-06T06:29:34Z | TypeScript | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [a2aproject/a2a-js](https://github.com/a2aproject/a2a-js) | 533 | 2026-05-06T06:12:00Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
-| [skilld-dev/skilld](https://github.com/skilld-dev/skilld) | 268 | 2026-05-06T04:02:40Z | TypeScript | Infrastructure/tooling | 2 | 39 | 2 | 2 |
-| [realworld-apps/realworld](https://github.com/realworld-apps/realworld) | 83382 | 2026-05-05T21:36:13Z | TypeScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
-| [vercel-labs/skills](https://github.com/vercel-labs/skills) | 17059 | 2026-05-05T21:18:07Z | TypeScript | Infrastructure/tooling | 2 | 15 | 2 | 2 |
+| [realworld-apps/realworld](https://github.com/realworld-apps/realworld) | 83384 | 2026-05-05T21:36:13Z | TypeScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
+| [vercel-labs/skills](https://github.com/vercel-labs/skills) | 17200 | 2026-05-05T21:18:07Z | TypeScript | Infrastructure/tooling | 2 | 15 | 2 | 2 |
 | [apollographql/apollo-tooling](https://github.com/apollographql/apollo-tooling) | 3042 | 2026-05-05T16:00:54Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
 | [vite-pwa/vite-plugin-pwa](https://github.com/vite-pwa/vite-plugin-pwa) | 4146 | 2026-05-05T15:03:21Z | TypeScript | Infrastructure/tooling | 9 | 34 | 9 | 9 |
 | [vitejs/vite](https://github.com/vitejs/vite) | 80403 | 2026-05-05T14:41:42Z | TypeScript | Infrastructure/tooling | 10 | 41 | 10 | 10 |
@@ -63,6 +65,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [unplugin/unplugin-imagemin](https://github.com/unplugin/unplugin-imagemin) | 259 | 2026-05-04T21:11:22Z | TypeScript | Unknown | 0 | 23 | 0 | 0 |
 | [P4sca1/cron-schedule](https://github.com/P4sca1/cron-schedule) | 216 | 2026-05-04T20:47:08Z | TypeScript | Infrastructure/tooling | 15 | 12 | 15 | 15 |
 | [ogx-ai/ogx-client-typescript](https://github.com/ogx-ai/ogx-client-typescript) | 95 | 2026-05-04T20:45:30Z | TypeScript | Infrastructure/tooling | 3 | 30 | 3 | 3 |
+| [julia-actions/install-juliaup](https://github.com/julia-actions/install-juliaup) | 19 | 2026-05-04T19:52:33Z | TypeScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
 | [inokawa/virtua](https://github.com/inokawa/virtua) | 3549 | 2026-05-04T19:01:59Z | TypeScript | Infrastructure/tooling | 16 | 91 | 16 | 16 |
 | [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | 94233 | 2026-05-04T16:39:22Z | TypeScript | Infrastructure/tooling | 15 | 57 | 15 | 15 |
 | [abaplint/transpiler](https://github.com/abaplint/transpiler) | 99 | 2026-05-04T16:20:50Z | TypeScript | Infrastructure/tooling | 5 | 31 | 5 | 5 |
@@ -303,7 +306,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cheeriojs/cheerio](https://github.com/cheeriojs/cheerio) | 30296 | 2026-04-29T16:39:43Z | TypeScript | Infrastructure/tooling | 16 | 49 | 16 | 16 |
 | [web-infra-dev/rslib](https://github.com/web-infra-dev/rslib) | 976 | 2026-04-29T16:32:27Z | TypeScript | Infrastructure/tooling | 17 | 25 | 17 | 17 |
 | [chhoumann/quickadd](https://github.com/chhoumann/quickadd) | 2191 | 2026-04-29T16:21:26Z | TypeScript | Infrastructure/tooling | 6 | 43 | 6 | 6 |
-| [vuejs/devtools](https://github.com/vuejs/devtools) | 2817 | 2026-04-29T16:19:51Z | TypeScript | Infrastructure/tooling | 3 | 50 | 3 | 3 |
 | [octokit/oauth-app.js](https://github.com/octokit/oauth-app.js) | 90 | 2026-04-29T16:13:36Z | TypeScript | Infrastructure/tooling | 8 | 28 | 8 | 8 |
 | [JamesIves/github-pages-deploy-action](https://github.com/JamesIves/github-pages-deploy-action) | 4572 | 2026-04-29T16:10:25Z | TypeScript | Infrastructure/tooling | 26 | 30 | 26 | 26 |
 | [octokit/app.js](https://github.com/octokit/app.js) | 187 | 2026-04-29T16:06:48Z | TypeScript | Infrastructure/tooling | 7 | 27 | 7 | 7 |
@@ -330,7 +332,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [electron-vite/vite-plugin-electron-renderer](https://github.com/electron-vite/vite-plugin-electron-renderer) | 124 | 2026-04-29T13:57:56Z | TypeScript | Service/API | 0 | 10 | 0 | 0 |
 | [prisma/engines-wrapper](https://github.com/prisma/engines-wrapper) | 24 | 2026-04-29T13:50:43Z | TypeScript | Infrastructure/tooling | 4 | 18 | 4 | 4 |
 | [chainguard-dev/actions](https://github.com/chainguard-dev/actions) | 165 | 2026-04-29T13:22:25Z | TypeScript | Infrastructure/tooling | 9 | 7 | 9 | 9 |
-| [unocss/unocss](https://github.com/unocss/unocss) | 18781 | 2026-04-29T13:10:15Z | TypeScript | Infrastructure/tooling | 8 | 92 | 8 | 8 |
+| [unocss/unocss](https://github.com/unocss/unocss) | 18784 | 2026-04-29T13:10:15Z | TypeScript | Infrastructure/tooling | 8 | 92 | 8 | 8 |
 | [favware/esbuild-plugin-version-injector](https://github.com/favware/esbuild-plugin-version-injector) | 11 | 2026-04-29T13:06:48Z | TypeScript | Infrastructure/tooling | 9 | 31 | 9 | 9 |
 | [emscripten-forge/mambajs](https://github.com/emscripten-forge/mambajs) | 15 | 2026-04-29T13:04:04Z | TypeScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
 | [octokit/auth-action.js](https://github.com/octokit/auth-action.js) | 48 | 2026-04-29T13:02:23Z | TypeScript | Infrastructure/tooling | 7 | 20 | 7 | 7 |
@@ -421,7 +423,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [paulmillr/chokidar](https://github.com/paulmillr/chokidar) | 12081 | 2026-04-27T12:48:12Z | TypeScript | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [addfox/addfox](https://github.com/addfox/addfox) | 84 | 2026-04-27T12:44:02Z | TypeScript | Web app | 11 | 6 | 11 | 11 |
 | [swagger-api/apidom](https://github.com/swagger-api/apidom) | 96 | 2026-04-27T11:49:01Z | TypeScript | Infrastructure/tooling | 15 | 67 | 15 | 15 |
-| [safe-fndn/safe-singleton-factory](https://github.com/safe-fndn/safe-singleton-factory) | 134 | 2026-04-27T11:27:31Z | TypeScript | Infrastructure/tooling | 0 | 22 | 0 | 0 |
 | [ts-safeql/safeql](https://github.com/ts-safeql/safeql) | 1545 | 2026-04-27T09:32:36Z | TypeScript | Infrastructure/tooling | 5 | 9 | 5 | 5 |
 | [luciopaiva/heapify](https://github.com/luciopaiva/heapify) | 742 | 2026-04-27T09:01:14Z | TypeScript | Infrastructure/tooling | 9 | 14 | 9 | 9 |
 | [catppuccin/.github](https://github.com/catppuccin/.github) | 13 | 2026-04-27T08:44:06Z | TypeScript | Unknown | 5 | 0 | 5 | 5 |
@@ -901,7 +902,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [VOICEVOX/preview-pages](https://github.com/VOICEVOX/preview-pages) | 0 | 2026-04-09T11:24:32Z | TypeScript | Infrastructure/tooling | 4 | 43 | 4 | 4 |
 | [Shougo/ddu-ui-ff](https://github.com/Shougo/ddu-ui-ff) | 59 | 2026-04-09T09:40:25Z | TypeScript | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [google-gemini/starter-applets](https://github.com/google-gemini/starter-applets) | 1313 | 2026-04-09T05:34:40Z | TypeScript | Template/starter | 3 | 0 | 3 | 3 |
-| [chatboxai/chatbox](https://github.com/chatboxai/chatbox) | 39820 | 2026-04-09T03:24:43Z | TypeScript | CLI | 7 | 240 | 7 | 7 |
+| [chatboxai/chatbox](https://github.com/chatboxai/chatbox) | 39832 | 2026-04-09T03:24:43Z | TypeScript | CLI | 7 | 240 | 7 | 7 |
 | [lobehub/lobe-icons](https://github.com/lobehub/lobe-icons) | 1768 | 2026-04-09T00:49:12Z | TypeScript | Infrastructure/tooling | 6 | 57 | 0 | 0 |
 | [kirodotdev/Kiro](https://github.com/kirodotdev/Kiro) | 3576 | 2026-04-08T23:38:25Z | TypeScript | Infrastructure/tooling | 10 | 4 | 10 | 10 |
 | [electron/windows-installer](https://github.com/electron/windows-installer) | 1630 | 2026-04-08T23:09:42Z | TypeScript | Infrastructure/tooling | 4 | 26 | 4 | 4 |
@@ -966,7 +967,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [amplify-education/serverless-domain-manager](https://github.com/amplify-education/serverless-domain-manager) | 946 | 2026-03-31T15:03:44Z | TypeScript | Infrastructure/tooling | 9 | 45 | 9 | 9 |
 | [microsoft/tsdoc](https://github.com/microsoft/tsdoc) | 4949 | 2026-03-31T04:12:28Z | TypeScript | Infrastructure/tooling | 8 | 2 | 9 | 9 |
 | [sujithpvarghese/bedrock-agent-core-operations-hub](https://github.com/sujithpvarghese/bedrock-agent-core-operations-hub) | 0 | 2026-03-30T22:34:02Z | TypeScript | Web app | 10 | 9 | 10 | 10 |
-| [react-native-webview/react-native-webview](https://github.com/react-native-webview/react-native-webview) | 7147 | 2026-03-30T19:03:14Z | TypeScript | Infrastructure/tooling | 7 | 43 | 7 | 7 |
+| [react-native-webview/react-native-webview](https://github.com/react-native-webview/react-native-webview) | 7148 | 2026-03-30T19:03:14Z | TypeScript | Infrastructure/tooling | 7 | 43 | 7 | 7 |
 | [pkgxdev/pkgm](https://github.com/pkgxdev/pkgm) | 52 | 2026-03-30T16:26:42Z | TypeScript | Infrastructure/tooling | 0 | 8 | 0 | 0 |
 | [holochain/kangaroo-electron](https://github.com/holochain/kangaroo-electron) | 13 | 2026-03-30T13:41:04Z | TypeScript | Infrastructure/tooling | 3 | 41 | 3 | 3 |
 | [ory/hydra-login-consent-node](https://github.com/ory/hydra-login-consent-node) | 328 | 2026-03-30T11:20:43Z | TypeScript | Infrastructure/tooling | 7 | 37 | 7 | 7 |
@@ -1010,7 +1011,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aquasecurity/tfsec-azure-pipelines-task](https://github.com/aquasecurity/tfsec-azure-pipelines-task) | 8 | 2026-03-24T03:58:30Z | TypeScript | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [literalpie/storybook-framework-qwik](https://github.com/literalpie/storybook-framework-qwik) | 33 | 2026-03-24T02:00:19Z | TypeScript | Infrastructure/tooling | 3 | 15 | 3 | 3 |
 | [automazeio/proof](https://github.com/automazeio/proof) | 41 | 2026-03-23T20:42:52Z | TypeScript | Infrastructure/tooling | 1 | 12 | 1 | 1 |
-| [AndyMik90/Aperant](https://github.com/AndyMik90/Aperant) | 14159 | 2026-03-23T19:47:59Z | TypeScript | Infrastructure/tooling | 7 | 15 | 7 | 7 |
+| [AndyMik90/Aperant](https://github.com/AndyMik90/Aperant) | 14162 | 2026-03-23T19:47:59Z | TypeScript | Infrastructure/tooling | 7 | 15 | 7 | 7 |
 | [stephenh/ts-proto](https://github.com/stephenh/ts-proto) | 2559 | 2026-03-23T18:42:27Z | TypeScript | Infrastructure/tooling | 10 | 49 | 10 | 10 |
 | [apache/incubator-devlake-website](https://github.com/apache/incubator-devlake-website) | 43 | 2026-03-23T14:31:00Z | TypeScript | Infrastructure/tooling | 5 | 22 | 5 | 5 |
 | [nanostores/alpine](https://github.com/nanostores/alpine) | 17 | 2026-03-23T11:28:45Z | TypeScript | Infrastructure/tooling | 7 | 21 | 7 | 7 |
@@ -1076,8 +1077,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [humanlayer/humanlayer](https://github.com/humanlayer/humanlayer) | 10485 | 2026-03-07T22:34:40Z | TypeScript | Infrastructure/tooling | 7 | 17 | 0 | 0 |
 | [neuroverseos/neuroverseos-openclaw-governance](https://github.com/NeuroverseOS/neuroverseos-openclaw-governance) | 2 | 2026-03-06T17:58:50Z | TypeScript | Unknown | 0 | 2 | 0 | 0 |
 | [trzsz/tabby-trzsz](https://github.com/trzsz/tabby-trzsz) | 29 | 2026-03-06T17:54:06Z | TypeScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
-| [obsidian-community/obsidian-kanban](https://github.com/obsidian-community/obsidian-kanban) | 4236 | 2026-03-06T17:40:01Z | TypeScript | Infrastructure/tooling | 4 | 57 | 4 | 4 |
-| [obsidian-community/obsidian-zotero-integration](https://github.com/obsidian-community/obsidian-zotero-integration) | 1620 | 2026-03-06T17:39:40Z | TypeScript | Infrastructure/tooling | 3 | 44 | 3 | 3 |
+| [obsidian-community/obsidian-kanban](https://github.com/obsidian-community/obsidian-kanban) | 4238 | 2026-03-06T17:40:01Z | TypeScript | Infrastructure/tooling | 4 | 57 | 4 | 4 |
+| [obsidian-community/obsidian-zotero-integration](https://github.com/obsidian-community/obsidian-zotero-integration) | 1621 | 2026-03-06T17:39:40Z | TypeScript | Infrastructure/tooling | 3 | 44 | 3 | 3 |
 | [obsidian-community/obsidian-style-settings](https://github.com/obsidian-community/obsidian-style-settings) | 2180 | 2026-03-06T17:39:30Z | TypeScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
 | [trzsz/trzsz.js](https://github.com/trzsz/trzsz.js) | 199 | 2026-03-06T17:35:00Z | TypeScript | CLI | 10 | 29 | 10 | 10 |
 | [agentscope-ai/agentscope-studio](https://github.com/agentscope-ai/agentscope-studio) | 532 | 2026-03-06T15:46:32Z | TypeScript | Infrastructure/tooling | 12 | 36 | 12 | 12 |
@@ -1173,7 +1174,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lobehub/.github](https://github.com/lobehub/.github) | 11 | 2026-02-08T00:31:53Z | TypeScript | Infrastructure/tooling | 2 | 11 | 0 | 0 |
 | [addyosmani/chatty](https://github.com/addyosmani/chatty) | 812 | 2026-02-07T18:28:42Z | TypeScript | Infrastructure/tooling | 3 | 51 | 3 | 3 |
 | [omril321/automated-notebooklm](https://github.com/omril321/automated-notebooklm) | 15 | 2026-02-07T09:45:17Z | TypeScript | Unknown | 0 | 17 | 0 | 0 |
-| [Redocly/redoc](https://github.com/Redocly/redoc) | 25677 | 2026-02-07T06:18:05Z | TypeScript | Infrastructure/tooling | 16 | 105 | 16 | 16 |
+| [Redocly/redoc](https://github.com/Redocly/redoc) | 25675 | 2026-02-07T06:18:05Z | TypeScript | Infrastructure/tooling | 16 | 105 | 16 | 16 |
 | [antfu-collective/eslint-vitest-rule-tester](https://github.com/antfu-collective/eslint-vitest-rule-tester) | 139 | 2026-02-07T01:02:56Z | TypeScript | Infrastructure/tooling | 1 | 22 | 1 | 1 |
 | [libp2p/github-mgmt](https://github.com/libp2p/github-mgmt) | 10 | 2026-02-06T19:12:55Z | TypeScript | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [weaviate/elysia-frontend](https://github.com/weaviate/elysia-frontend) | 179 | 2026-02-06T15:41:11Z | TypeScript | Infrastructure/tooling | 4 | 74 | 4 | 4 |
@@ -1199,7 +1200,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sculptdotfun/viberank](https://github.com/sculptdotfun/viberank) | 95 | 2026-01-26T03:24:17Z | TypeScript | Unknown | 0 | 28 | 0 | 0 |
 | [tevonsb/homeassistant-mcp](https://github.com/tevonsb/homeassistant-mcp) | 569 | 2026-01-25T20:52:22Z | TypeScript | Infrastructure/tooling | 0 | 24 | 0 | 0 |
 | [cahamilton/css-property-sort-order-smacss](https://github.com/cahamilton/css-property-sort-order-smacss) | 17 | 2026-01-24T13:26:03Z | TypeScript | Unknown | 1 | 1 | 1 | 1 |
-| [shareAI-lab/Kode-Agent](https://github.com/shareAI-lab/Kode-Agent) | 5005 | 2026-01-23T20:20:17Z | TypeScript | Infrastructure/tooling | 4 | 71 | 4 | 4 |
+| [shareAI-lab/Kode-Agent](https://github.com/shareAI-lab/Kode-Agent) | 5006 | 2026-01-23T20:20:17Z | TypeScript | Infrastructure/tooling | 4 | 71 | 4 | 4 |
 | [matrix-org/matrix-appservice-slack](https://github.com/matrix-org/matrix-appservice-slack) | 284 | 2026-01-22T15:12:07Z | TypeScript | Infrastructure/tooling | 11 | 68 | 11 | 11 |
 | [akshaykmr/teletype](https://github.com/akshaykmr/teletype) | 132 | 2026-01-22T00:38:41Z | TypeScript | CLI | 8 | 23 | 8 | 8 |
 | [SassNinja/postcss-extract-media-query](https://github.com/SassNinja/postcss-extract-media-query) | 139 | 2026-01-21T23:40:03Z | TypeScript | Infrastructure/tooling | 0 | 16 | 0 | 0 |
@@ -1261,7 +1262,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lokerl/tts-vue](https://github.com/LokerL/tts-vue) | 6089 | 2025-12-06T02:52:44Z | TypeScript | Infrastructure/tooling | 3 | 26 | 3 | 4 |
 | [stainless-api/tsc-multi](https://github.com/stainless-api/tsc-multi) | 0 | 2025-12-05T21:10:25Z | TypeScript | Infrastructure/tooling | 1 | 48 | 1 | 1 |
 | [CyanSalt/commas](https://github.com/CyanSalt/commas) | 76 | 2025-12-05T08:12:58Z | TypeScript | CLI | 2 | 70 | 2 | 2 |
-| [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) | 87911 | 2025-12-02T17:05:02Z | TypeScript | Infrastructure/tooling | 24 | 85 | 24 | 24 |
+| [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) | 87915 | 2025-12-02T17:05:02Z | TypeScript | Infrastructure/tooling | 24 | 85 | 24 | 24 |
 | [iccicci/next-json](https://github.com/iccicci/next-json) | 34 | 2025-12-01T21:34:44Z | TypeScript | Unknown | 0 | 17 | 0 | 0 |
 | [labring/laf](https://github.com/labring/laf) | 7562 | 2025-12-01T08:01:13Z | TypeScript | Infrastructure/tooling | 16 | 21 | 16 | 16 |
 | [instana/opentelemetry-demo](https://github.com/instana/opentelemetry-demo) | 14 | 2025-11-27T17:03:51Z | TypeScript | Infrastructure/tooling | 6 | 17 | 6 | 6 |
@@ -1309,7 +1310,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [neplexlabs/canvacord](https://github.com/neplexlabs/canvacord) | 259 | 2025-10-21T17:22:50Z | TypeScript | Infrastructure/tooling | 15 | 14 | 15 | 15 |
 | [vim-fall/fall.vim](https://github.com/vim-fall/fall.vim) | 95 | 2025-10-18T07:42:17Z | TypeScript | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [weaviate/recipes-ts](https://github.com/weaviate/recipes-ts) | 19 | 2025-10-17T09:35:55Z | TypeScript | Unknown | 6 | 14 | 6 | 6 |
-| [winfunc/opcode](https://github.com/winfunc/opcode) | 21755 | 2025-10-16T12:05:56Z | TypeScript | Infrastructure/tooling | 18 | 62 | 18 | 19 |
+| [winfunc/opcode](https://github.com/winfunc/opcode) | 21761 | 2025-10-16T12:05:56Z | TypeScript | Infrastructure/tooling | 18 | 62 | 18 | 19 |
 | [invoke-ai/launcher](https://github.com/invoke-ai/launcher) | 41 | 2025-10-16T06:09:21Z | TypeScript | Infrastructure/tooling | 4 | 83 | 4 | 4 |
 | [danielnappa/tweakgc-cli](https://github.com/DanielNappa/tweakgc-cli) | 18 | 2025-10-11T13:36:17Z | TypeScript | CLI | 0 | 35 | 0 | 0 |
 | [Azure-Samples/azure-search-openai-javascript](https://github.com/Azure-Samples/azure-search-openai-javascript) | 318 | 2025-10-11T06:16:23Z | TypeScript | Infrastructure/tooling | 13 | 18 | 13 | 13 |
@@ -1427,7 +1428,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [simonwep/nanopop](https://github.com/simonwep/nanopop) | 719 | 2025-03-09T15:47:33Z | TypeScript | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [lobehub/lobe-vidol](https://github.com/lobehub/lobe-vidol) | 940 | 2025-03-08T15:05:47Z | TypeScript | Infrastructure/tooling | 14 | 132 | 14 | 14 |
 | [iohub/OpenCopilot](https://github.com/iohub/OpenCopilot) | 13 | 2025-03-07T14:45:10Z | TypeScript | Infrastructure/tooling | 1 | 72 | 1 | 1 |
-| [web3/web3.js](https://github.com/web3/web3.js) | 19938 | 2025-03-05T08:48:59Z | TypeScript | Infrastructure/tooling | 11 | 55 | 11 | 11 |
+| [web3/web3.js](https://github.com/web3/web3.js) | 19937 | 2025-03-05T08:48:59Z | TypeScript | Infrastructure/tooling | 11 | 55 | 11 | 11 |
 | [alexlafroscia/testdouble-qunit](https://github.com/alexlafroscia/testdouble-qunit) | 1 | 2025-03-03T04:03:52Z | TypeScript | Infrastructure/tooling | 5 | 16 | 5 | 5 |
 | [benjamn/recast](https://github.com/benjamn/recast) | 5231 | 2025-03-03T01:52:20Z | TypeScript | Infrastructure/tooling | 0 | 24 | 0 | 0 |
 | [yaegassy/coc-volar](https://github.com/yaegassy/coc-volar) | 295 | 2025-03-02T13:18:18Z | TypeScript | Unknown | 3 | 14 | 3 | 3 |
@@ -1480,6 +1481,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ErKeLost/squoosh-node-latest](https://github.com/ErKeLost/squoosh-node-latest) | 13 | 2024-12-13T08:24:11Z | TypeScript | Infrastructure/tooling | 1 | 39 | 1 | 1 |
 | [amilajack/ast-metadata-inferer](https://github.com/amilajack/ast-metadata-inferer) | 17 | 2024-12-11T19:42:44Z | TypeScript | Infrastructure/tooling | 2 | 20 | 2 | 2 |
 | [microsoft/botframework-cli](https://github.com/microsoft/botframework-cli) | 176 | 2024-12-10T13:32:21Z | TypeScript | CLI | 0 | 0 | 0 | 0 |
+| [mobxjs/mobx-angular](https://github.com/mobxjs/mobx-angular) | 481 | 2024-12-09T22:51:49Z | TypeScript | Infrastructure/tooling | 8 | 49 | 8 | 8 |
 | [streamich/react-universal-interface](https://github.com/streamich/react-universal-interface) | 39 | 2024-12-09T18:41:30Z | TypeScript | Unknown | 0 | 24 | 0 | 0 |
 | [fwcd/vscode-kotlin](https://github.com/fwcd/vscode-kotlin) | 358 | 2024-12-06T02:45:38Z | TypeScript | Infrastructure/tooling | 6 | 23 | 6 | 6 |
 | [celo-org/react-celo](https://github.com/celo-org/react-celo) | 68 | 2024-12-03T23:45:30Z | TypeScript | Infrastructure/tooling | 8 | 37 | 8 | 8 |
@@ -1526,7 +1528,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [appwrite/playground-for-deno](https://github.com/appwrite/playground-for-deno) | 34 | 2024-09-19T13:24:43Z | TypeScript | Infrastructure/tooling | 6 | 0 | 6 | 6 |
 | [vite-plugin/vite-plugin-native](https://github.com/vite-plugin/vite-plugin-native) | 22 | 2024-09-15T08:13:47Z | TypeScript | Unknown | 0 | 16 | 0 | 0 |
 | [hchiam/learning-angular](https://github.com/hchiam/learning-angular) | 2 | 2024-09-13T20:53:03Z | TypeScript | Infrastructure/tooling | 0 | 1 | 0 | 0 |
-| [vuejs/devtools-v6](https://github.com/vuejs/devtools-v6) | 24742 | 2024-09-11T14:49:24Z | TypeScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
+| [vuejs/devtools-v6](https://github.com/vuejs/devtools-v6) | 24743 | 2024-09-11T14:49:24Z | TypeScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
 | [brandonroberts/analog-angular-start](https://github.com/brandonroberts/analog-angular-start) | 15 | 2024-08-30T23:40:37Z | TypeScript | Service/API | 0 | 30 | 0 | 0 |
 | [iamcco/diagnostic-languageserver](https://github.com/iamcco/diagnostic-languageserver) | 435 | 2024-08-30T04:55:39Z | TypeScript | Service/API | 3 | 13 | 3 | 3 |
 | [milhidaka/webgpu-blas](https://github.com/milhidaka/webgpu-blas) | 129 | 2024-08-29T07:02:20Z | TypeScript | Web app | 3 | 5 | 3 | 3 |
@@ -1580,6 +1582,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [marmelab/react-admin-helpdesk](https://github.com/marmelab/react-admin-helpdesk) | 64 | 2024-06-21T15:18:13Z | TypeScript | Infrastructure/tooling | 6 | 28 | 6 | 6 |
 | [posthtml/posthtml-render](https://github.com/posthtml/posthtml-render) | 45 | 2024-06-19T10:51:11Z | TypeScript | Infrastructure/tooling | 1 | 24 | 1 | 1 |
 | [argoproj-labs/argocd-extension-metrics](https://github.com/argoproj-labs/argocd-extension-metrics) | 168 | 2024-06-18T19:01:36Z | TypeScript | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [TelemetryHub/opentelemetry-demo](https://github.com/TelemetryHub/opentelemetry-demo) | 0 | 2024-06-17T21:22:10Z | TypeScript | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [1000ch/vscode-csso](https://github.com/1000ch/vscode-csso) | 5 | 2024-06-17T08:34:51Z | TypeScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [mgmeyers/obsidian-contextual-typography](https://github.com/mgmeyers/obsidian-contextual-typography) | 193 | 2024-06-16T20:29:20Z | TypeScript | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [vuejs/vetur](https://github.com/vuejs/vetur) | 5753 | 2024-06-14T19:37:30Z | TypeScript | Infrastructure/tooling | 6 | 38 | 6 | 6 |
@@ -1644,7 +1647,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [expo/expo-cli](https://github.com/expo/expo-cli) | 2663 | 2023-12-30T13:33:59Z | TypeScript | CLI | 9 | 28 | 9 | 9 |
 | [dilanx/craco](https://github.com/dilanx/craco) | 7437 | 2023-12-29T01:00:10Z | TypeScript | Infrastructure/tooling | 7 | 13 | 7 | 7 |
 | [lobehub/chat-plugins-gateway](https://github.com/lobehub/chat-plugins-gateway) | 26 | 2023-12-28T13:40:27Z | TypeScript | Infrastructure/tooling | 5 | 29 | 0 | 0 |
-| [anse-app/chatgpt-demo](https://github.com/anse-app/chatgpt-demo) | 7980 | 2023-12-27T01:44:01Z | TypeScript | Infrastructure/tooling | 10 | 37 | 10 | 10 |
+| [anse-app/chatgpt-demo](https://github.com/anse-app/chatgpt-demo) | 7979 | 2023-12-27T01:44:01Z | TypeScript | Infrastructure/tooling | 10 | 37 | 10 | 10 |
 | [pulse-browser/gluon](https://github.com/pulse-browser/gluon) | 95 | 2023-12-24T10:08:08Z | TypeScript | Infrastructure/tooling | 8 | 46 | 8 | 8 |
 | [dracula/dracula-ui](https://github.com/dracula/dracula-ui) | 874 | 2023-12-19T11:46:05Z | TypeScript | Infrastructure/tooling | 0 | 57 | 0 | 0 |
 | [Kingwl/monaco-volar](https://github.com/Kingwl/monaco-volar) | 181 | 2023-12-16T23:31:46Z | TypeScript | Infrastructure/tooling | 3 | 20 | 3 | 3 |
@@ -1713,6 +1716,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [IndexXuan/vite-plugin-mpa](https://github.com/IndexXuan/vite-plugin-mpa) | 241 | 2023-06-16T13:04:51Z | TypeScript | Infrastructure/tooling | 3 | 20 | 3 | 3 |
 | [adamiBs/vscode-terraform-live-graph](https://github.com/adamiBs/vscode-terraform-live-graph) | 239 | 2023-06-12T10:28:33Z | TypeScript | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [Igorbek/typescript-plugin-styled-components](https://github.com/Igorbek/typescript-plugin-styled-components) | 419 | 2023-06-06T23:22:33Z | TypeScript | Infrastructure/tooling | 5 | 15 | 5 | 5 |
+| [teletrace/opentelemetry-demo](https://github.com/teletrace/opentelemetry-demo) | 12 | 2023-06-05T10:33:59Z | TypeScript | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [filipesilva/obsidian-babashka](https://github.com/filipesilva/obsidian-babashka) | 56 | 2023-06-01T16:52:25Z | TypeScript | Unknown | 0 | 9 | 0 | 0 |
 | [fuergaosi233/openai-proxy](https://github.com/fuergaosi233/openai-proxy) | 220 | 2023-06-01T13:00:43Z | TypeScript | Infrastructure/tooling | 2 | 18 | 2 | 2 |
 | [azdavis/sml-libs-scraper](https://github.com/azdavis/sml-libs-scraper) | 4 | 2023-05-31T22:51:11Z | TypeScript | Unknown | 1 | 4 | 1 | 1 |
@@ -1871,16 +1875,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ant-design/ant-design](https://github.com/ant-design/ant-design) | 97902 | 2026-04-30T16:33:50Z | TypeScript | Infrastructure/tooling | 14 | 219 | 14 | 14 |
 | [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) | 94817 | 2026-05-01T11:29:20Z | TypeScript | Infrastructure/tooling | 9 | 24 | 9 | 9 |
 | [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | 94233 | 2026-05-04T16:39:22Z | TypeScript | Infrastructure/tooling | 15 | 57 | 15 | 15 |
-| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 89861 | 2026-05-06T22:08:02Z | TypeScript | Infrastructure/tooling | 21 | 24 | 21 | 23 |
-| [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) | 87911 | 2025-12-02T17:05:02Z | TypeScript | Infrastructure/tooling | 24 | 85 | 24 | 24 |
+| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 89863 | 2026-05-07T10:38:16Z | TypeScript | Infrastructure/tooling | 21 | 24 | 21 | 23 |
+| [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) | 87915 | 2025-12-02T17:05:02Z | TypeScript | Infrastructure/tooling | 24 | 85 | 24 | 24 |
 | [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) | 87741 | 2026-04-30T05:15:31Z | TypeScript | Infrastructure/tooling | 11 | 81 | 11 | 11 |
 | [microsoft/playwright](https://github.com/microsoft/playwright) | 87165 | 2026-04-24T00:20:25Z | TypeScript | Infrastructure/tooling | 19 | 96 | 19 | 19 |
 | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | 84206 | 2026-04-17T22:59:54Z | TypeScript | Infrastructure/tooling | 4 | 14 | 4 | 4 |
-| [realworld-apps/realworld](https://github.com/realworld-apps/realworld) | 83382 | 2026-05-05T21:36:13Z | TypeScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
+| [realworld-apps/realworld](https://github.com/realworld-apps/realworld) | 83384 | 2026-05-05T21:36:13Z | TypeScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [vitejs/vite](https://github.com/vitejs/vite) | 80403 | 2026-05-05T14:41:42Z | TypeScript | Infrastructure/tooling | 10 | 41 | 10 | 10 |
 | [coder/code-server](https://github.com/coder/code-server) | 77329 | 2026-04-27T17:59:20Z | TypeScript | Infrastructure/tooling | 13 | 69 | 13 | 13 |
 | [garrytan/gstack](https://github.com/garrytan/gstack) | 77075 | 2026-04-19T11:21:38Z | TypeScript | Infrastructure/tooling | 5 | 12 | 0 | 0 |
-| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 76125 | 2026-05-06T18:34:42Z | TypeScript | Infrastructure/tooling | 13 | 379 | 13 | 13 |
+| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 76153 | 2026-05-07T09:34:50Z | TypeScript | Infrastructure/tooling | 13 | 379 | 13 | 13 |
 | [grafana/grafana](https://github.com/grafana/grafana) | 73377 | 2026-04-23T08:37:49Z | TypeScript | Infrastructure/tooling | 17 | 362 | 17 | 17 |
 | [apache/superset](https://github.com/apache/superset) | 72554 | 2026-04-23T19:57:31Z | TypeScript | Infrastructure/tooling | 18 | 4 | 18 | 18 |
 | [apache/echarts](https://github.com/apache/echarts) | 66255 | 2026-05-02T05:58:07Z | TypeScript | Infrastructure/tooling | 16 | 42 | 16 | 16 |
@@ -1900,20 +1904,20 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [expo/expo](https://github.com/expo/expo) | 48895 | 2026-04-22T03:21:41Z | TypeScript | Infrastructure/tooling | 20 | 21 | 20 | 20 |
 | [slidevjs/slidev](https://github.com/slidevjs/slidev) | 46181 | 2026-05-02T03:16:43Z | TypeScript | Infrastructure/tooling | 9 | 49 | 10 | 10 |
 | [prisma/prisma](https://github.com/prisma/prisma) | 45862 | 2026-04-29T15:27:11Z | TypeScript | CLI | 25 | 79 | 25 | 25 |
+| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 45705 | 2026-05-06T22:28:40Z | TypeScript | Infrastructure/tooling | 34 | 25 | 25 | 25 |
 | [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | 45487 | 2026-05-02T08:46:17Z | TypeScript | Infrastructure/tooling | 8 | 24 | 8 | 8 |
-| [jestjs/jest](https://github.com/jestjs/jest) | 45345 | 2026-05-06T17:08:47Z | TypeScript | Infrastructure/tooling | 16 | 96 | 16 | 16 |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 45275 | 2026-05-06T22:28:40Z | TypeScript | Infrastructure/tooling | 34 | 25 | 25 | 25 |
+| [jestjs/jest](https://github.com/jestjs/jest) | 45345 | 2026-05-07T08:44:01Z | TypeScript | Infrastructure/tooling | 16 | 96 | 16 | 16 |
 | [react-hook-form/react-hook-form](https://github.com/react-hook-form/react-hook-form) | 44687 | 2026-05-04T04:32:51Z | TypeScript | Infrastructure/tooling | 11 | 45 | 11 | 11 |
 | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 44016 | 2026-04-22T05:07:43Z | TypeScript | CLI | 14 | 374 | 14 | 15 |
 | [streamich/react-use](https://github.com/streamich/react-use) | 43972 | 2026-01-20T12:19:23Z | TypeScript | Infrastructure/tooling | 2 | 76 | 2 | 3 |
 | [babel/babel](https://github.com/babel/babel) | 43891 | 2026-04-21T17:57:16Z | TypeScript | Infrastructure/tooling | 11 | 86 | 11 | 11 |
-| [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template) | 43014 | 2026-05-06T10:18:14Z | TypeScript | Infrastructure/tooling | 23 | 7 | 23 | 23 |
+| [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template) | 43016 | 2026-05-06T10:18:14Z | TypeScript | Infrastructure/tooling | 23 | 7 | 23 | 23 |
 | [colinhacks/zod](https://github.com/colinhacks/zod) | 42534 | 2026-04-30T00:45:00Z | TypeScript | Infrastructure/tooling | 10 | 45 | 10 | 10 |
 | [calcom/cal.diy](https://github.com/calcom/cal.diy) | 42306 | 2026-05-01T02:52:36Z | TypeScript | Infrastructure/tooling | 15 | 36 | 15 | 15 |
 | [janhq/jan](https://github.com/janhq/jan) | 42283 | 2026-04-30T03:45:51Z | TypeScript | Infrastructure/tooling | 13 | 18 | 13 | 13 |
 | [fission-ai/openspec](https://github.com/Fission-AI/OpenSpec) | 41172 | 2026-04-15T10:33:52Z | TypeScript | Infrastructure/tooling | 8 | 26 | 8 | 8 |
 | [styled-components/styled-components](https://github.com/styled-components/styled-components) | 41021 | 2026-04-30T03:35:40Z | TypeScript | CLI | 7 | 9 | 7 | 7 |
-| [chatboxai/chatbox](https://github.com/chatboxai/chatbox) | 39820 | 2026-04-09T03:24:43Z | TypeScript | CLI | 7 | 240 | 7 | 7 |
+| [chatboxai/chatbox](https://github.com/chatboxai/chatbox) | 39832 | 2026-04-09T03:24:43Z | TypeScript | CLI | 7 | 240 | 7 | 7 |
 | [Kong/insomnia](https://github.com/Kong/insomnia) | 38363 | 2026-04-29T08:28:42Z | TypeScript | CLI | 17 | 56 | 17 | 17 |
 | [vadimdemedes/ink](https://github.com/vadimdemedes/ink) | 37800 | 2026-04-17T07:15:51Z | TypeScript | CLI | 5 | 56 | 5 | 5 |
 | [badlogic/pi-mono](https://github.com/badlogic/pi-mono) | 37319 | 2026-04-19T12:46:14Z | TypeScript | CLI | 5 | 17 | 5 | 5 |
@@ -1944,19 +1948,19 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [labring/FastGPT](https://github.com/labring/FastGPT) | 27800 | 2026-04-22T01:53:25Z | TypeScript | Infrastructure/tooling | 12 | 28 | 12 | 12 |
 | [qwibitai/nanoclaw](https://github.com/qwibitai/nanoclaw) | 27520 | 2026-04-19T12:48:54Z | TypeScript | Infrastructure/tooling | 7 | 20 | 7 | 7 |
 | [element-plus/element-plus](https://github.com/element-plus/element-plus) | 27370 | 2026-05-02T11:06:49Z | TypeScript | Infrastructure/tooling | 13 | 68 | 13 | 13 |
-| [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) | 27214 | 2026-05-07T00:24:52Z | TypeScript | Infrastructure/tooling | 27 | 9 | 27 | 27 |
+| [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) | 27222 | 2026-05-07T07:01:20Z | TypeScript | Infrastructure/tooling | 27 | 9 | 27 | 27 |
 | [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) | 27076 | 2026-04-27T21:35:23Z | TypeScript | Infrastructure/tooling | 21 | 17 | 21 | 21 |
 | [angular/angular-cli](https://github.com/angular/angular-cli) | 27038 | 2026-04-30T15:38:38Z | TypeScript | CLI | 7 | 111 | 7 | 8 |
 | [fingerprintjs/fingerprintjs](https://github.com/fingerprintjs/fingerprintjs) | 27018 | 2026-04-14T08:12:18Z | TypeScript | Infrastructure/tooling | 17 | 39 | 17 | 17 |
 | [recharts/recharts](https://github.com/recharts/recharts) | 27013 | 2026-04-19T13:50:14Z | TypeScript | Infrastructure/tooling | 12 | 113 | 12 | 12 |
 | [discordjs/discord.js](https://github.com/discordjs/discord.js) | 26681 | 2026-04-24T17:11:21Z | TypeScript | Infrastructure/tooling | 16 | 30 | 16 | 16 |
 | [marmelab/react-admin](https://github.com/marmelab/react-admin) | 26667 | 2026-04-29T07:50:07Z | TypeScript | Infrastructure/tooling | 15 | 67 | 15 | 15 |
-| [Redocly/redoc](https://github.com/Redocly/redoc) | 25677 | 2026-02-07T06:18:05Z | TypeScript | Infrastructure/tooling | 16 | 105 | 16 | 16 |
+| [Redocly/redoc](https://github.com/Redocly/redoc) | 25675 | 2026-02-07T06:18:05Z | TypeScript | Infrastructure/tooling | 16 | 105 | 16 | 16 |
 | [BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js) | 25444 | 2026-05-02T20:19:28Z | TypeScript | Infrastructure/tooling | 12 | 51 | 12 | 13 |
 | [withfig/autocomplete](https://github.com/withfig/autocomplete) | 25163 | 2025-05-05T17:15:31Z | TypeScript | CLI | 11 | 25 | 13 | 13 |
 | [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim) | 25150 | 2026-04-17T16:21:09Z | TypeScript | CLI | 8 | 55 | 8 | 8 |
 | [GoogleChromeLabs/squoosh](https://github.com/GoogleChromeLabs/squoosh) | 25138 | 2026-03-17T21:57:27Z | TypeScript | Infrastructure/tooling | 1 | 39 | 1 | 1 |
-| [vuejs/devtools-v6](https://github.com/vuejs/devtools-v6) | 24742 | 2024-09-11T14:49:24Z | TypeScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
+| [vuejs/devtools-v6](https://github.com/vuejs/devtools-v6) | 24743 | 2024-09-11T14:49:24Z | TypeScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
 | [react-navigation/react-navigation](https://github.com/react-navigation/react-navigation) | 24438 | 2026-04-22T12:34:52Z | TypeScript | Infrastructure/tooling | 9 | 29 | 9 | 9 |
 | [electron-react-boilerplate/electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate) | 24244 | 2026-04-29T22:35:26Z | TypeScript | Infrastructure/tooling | 9 | 75 | 9 | 9 |
 | [toon-format/toon](https://github.com/toon-format/toon) | 23927 | 2026-04-16T09:04:24Z | TypeScript | Infrastructure/tooling | 6 | 14 | 6 | 6 |
@@ -1970,7 +1974,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vueuse/vueuse](https://github.com/vueuse/vueuse) | 22218 | 2026-05-01T01:49:58Z | TypeScript | Infrastructure/tooling | 7 | 79 | 7 | 7 |
 | [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | 22203 | 2026-04-19T13:13:59Z | TypeScript | CLI | 21 | 141 | 21 | 21 |
 | [QwikDev/qwik](https://github.com/QwikDev/qwik) | 21997 | 2026-05-01T08:49:36Z | TypeScript | Infrastructure/tooling | 8 | 94 | 8 | 8 |
-| [winfunc/opcode](https://github.com/winfunc/opcode) | 21755 | 2025-10-16T12:05:56Z | TypeScript | Infrastructure/tooling | 18 | 62 | 18 | 19 |
+| [winfunc/opcode](https://github.com/winfunc/opcode) | 21761 | 2025-10-16T12:05:56Z | TypeScript | Infrastructure/tooling | 18 | 62 | 18 | 19 |
 | [lit/lit](https://github.com/lit/lit) | 21534 | 2026-04-28T04:28:09Z | TypeScript | Infrastructure/tooling | 11 | 48 | 11 | 11 |
 | [SBoudrias/Inquirer.js](https://github.com/SBoudrias/Inquirer.js) | 21508 | 2026-04-19T16:51:14Z | TypeScript | CLI | 7 | 30 | 7 | 7 |
 | [appium/appium](https://github.com/appium/appium) | 21472 | 2026-04-30T02:41:20Z | TypeScript | Infrastructure/tooling | 15 | 77 | 15 | 15 |
@@ -1982,13 +1986,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [xtermjs/xterm.js](https://github.com/xtermjs/xterm.js) | 20367 | 2026-04-21T19:57:25Z | TypeScript | CLI | 10 | 51 | 10 | 10 |
 | [graphql/graphql-js](https://github.com/graphql/graphql-js) | 20311 | 2026-04-22T13:02:23Z | TypeScript | Infrastructure/tooling | 7 | 33 | 7 | 7 |
 | [KaTeX/KaTeX](https://github.com/KaTeX/KaTeX) | 19996 | 2026-04-21T13:10:34Z | TypeScript | Infrastructure/tooling | 7 | 86 | 7 | 7 |
-| [web3/web3.js](https://github.com/web3/web3.js) | 19938 | 2025-03-05T08:48:59Z | TypeScript | Infrastructure/tooling | 11 | 55 | 11 | 11 |
+| [web3/web3.js](https://github.com/web3/web3.js) | 19937 | 2025-03-05T08:48:59Z | TypeScript | Infrastructure/tooling | 11 | 55 | 11 | 11 |
 | [apollographql/apollo-client](https://github.com/apollographql/apollo-client) | 19716 | 2026-04-21T00:52:10Z | TypeScript | CLI | 11 | 110 | 11 | 11 |
 | [nvidia/nemoclaw](https://github.com/NVIDIA/NemoClaw) | 19462 | 2026-04-19T13:49:48Z | TypeScript | Infrastructure/tooling | 6 | 29 | 6 | 6 |
 | [catppuccin/catppuccin](https://github.com/catppuccin/catppuccin) | 19062 | 2026-04-05T15:42:52Z | TypeScript | Infrastructure/tooling | 15 | 11 | 15 | 15 |
 | [reduxjs/reselect](https://github.com/reduxjs/reselect) | 19038 | 2025-09-26T14:41:25Z | TypeScript | Infrastructure/tooling | 3 | 33 | 3 | 3 |
 | [adonisjs/core](https://github.com/adonisjs/core) | 18886 | 2026-04-26T14:49:15Z | TypeScript | Infrastructure/tooling | 11 | 70 | 11 | 11 |
-| [unocss/unocss](https://github.com/unocss/unocss) | 18781 | 2026-04-29T13:10:15Z | TypeScript | Infrastructure/tooling | 8 | 92 | 8 | 8 |
+| [unocss/unocss](https://github.com/unocss/unocss) | 18784 | 2026-04-29T13:10:15Z | TypeScript | Infrastructure/tooling | 8 | 92 | 8 | 8 |
 | [slopus/happy](https://github.com/slopus/happy) | 18719 | 2026-04-18T05:50:19Z | TypeScript | CLI | 2 | 3 | 0 | 0 |
 | [openobserve/openobserve](https://github.com/openobserve/openobserve) | 18670 | 2026-04-30T06:48:05Z | TypeScript | Infrastructure/tooling | 26 | 23 | 26 | 26 |
 | [alibaba/ice](https://github.com/alibaba/ice) | 18632 | 2026-04-02T11:24:47Z | TypeScript | Infrastructure/tooling | 14 | 45 | 14 | 14 |
@@ -2000,13 +2004,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mlc-ai/web-llm](https://github.com/mlc-ai/web-llm) | 17816 | 2026-04-15T02:40:41Z | TypeScript | Infrastructure/tooling | 10 | 39 | 10 | 10 |
 | [reduxjs/redux-thunk](https://github.com/reduxjs/redux-thunk) | 17712 | 2025-03-16T00:36:10Z | TypeScript | Infrastructure/tooling | 0 | 18 | 0 | 0 |
 | [vuejs/vitepress](https://github.com/vuejs/vitepress) | 17637 | 2026-05-02T18:42:37Z | TypeScript | Infrastructure/tooling | 8 | 102 | 9 | 9 |
-| [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) | 17625 | 2026-05-06T13:33:32Z | TypeScript | Infrastructure/tooling | 7 | 28 | 7 | 7 |
+| [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) | 17629 | 2026-05-07T06:15:21Z | TypeScript | Infrastructure/tooling | 7 | 28 | 7 | 7 |
 | [snarktank/ralph](https://github.com/snarktank/ralph) | 17536 | 2026-02-02T01:46:21Z | TypeScript | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [redis/node-redis](https://github.com/redis/node-redis) | 17511 | 2026-04-23T17:38:55Z | TypeScript | CLI | 9 | 21 | 9 | 13 |
 | [labring/sealos](https://github.com/labring/sealos) | 17383 | 2026-04-22T08:36:30Z | TypeScript | Infrastructure/tooling | 18 | 17 | 18 | 18 |
+| [vercel-labs/skills](https://github.com/vercel-labs/skills) | 17200 | 2026-05-05T21:18:07Z | TypeScript | Infrastructure/tooling | 2 | 15 | 2 | 2 |
 | [bvaughn/react-window](https://github.com/bvaughn/react-window) | 17170 | 2026-04-12T20:54:17Z | TypeScript | Infrastructure/tooling | 6 | 62 | 6 | 6 |
 | [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) | 17098 | 2026-04-24T20:52:35Z | TypeScript | Infrastructure/tooling | 7 | 19 | 7 | 7 |
-| [vercel-labs/skills](https://github.com/vercel-labs/skills) | 17059 | 2026-05-05T21:18:07Z | TypeScript | Infrastructure/tooling | 2 | 15 | 2 | 2 |
 | [linsa-io/linsa](https://github.com/linsa-io/linsa) | 16899 | 2026-01-17T08:47:22Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
 | [graphql/graphiql](https://github.com/graphql/graphiql) | 16822 | 2026-04-21T23:55:14Z | TypeScript | Infrastructure/tooling | 9 | 76 | 9 | 9 |
 | [sindresorhus/ky](https://github.com/sindresorhus/ky) | 16806 | 2026-04-21T09:33:45Z | TypeScript | CLI | 8 | 17 | 9 | 9 |
@@ -2030,7 +2034,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [electron-userland/electron-builder](https://github.com/electron-userland/electron-builder) | 14538 | 2026-04-28T21:15:36Z | TypeScript | Infrastructure/tooling | 23 | 40 | 23 | 23 |
 | [reduxjs/redux-devtools](https://github.com/reduxjs/redux-devtools) | 14353 | 2026-05-02T13:16:44Z | TypeScript | Infrastructure/tooling | 1 | 18 | 1 | 1 |
 | [TanStack/router](https://github.com/TanStack/router) | 14277 | 2026-05-01T08:14:12Z | TypeScript | CLI | 16 | 50 | 16 | 16 |
-| [AndyMik90/Aperant](https://github.com/AndyMik90/Aperant) | 14159 | 2026-03-23T19:47:59Z | TypeScript | Infrastructure/tooling | 7 | 15 | 7 | 7 |
+| [AndyMik90/Aperant](https://github.com/AndyMik90/Aperant) | 14162 | 2026-03-23T19:47:59Z | TypeScript | Infrastructure/tooling | 7 | 15 | 7 | 7 |
 | [blitz-js/blitz](https://github.com/blitz-js/blitz) | 14131 | 2025-11-21T13:13:37Z | TypeScript | Infrastructure/tooling | 12 | 25 | 12 | 12 |
 | [apollographql/apollo-server](https://github.com/apollographql/apollo-server) | 13936 | 2026-04-29T20:45:47Z | TypeScript | Infrastructure/tooling | 12 | 53 | 12 | 12 |
 | [BuilderIO/mitosis](https://github.com/BuilderIO/mitosis) | 13816 | 2026-01-13T20:31:08Z | TypeScript | Infrastructure/tooling | 16 | 21 | 16 | 16 |
@@ -2051,7 +2055,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [GoogleChromeLabs/comlink](https://github.com/GoogleChromeLabs/comlink) | 12633 | 2026-04-27T23:09:46Z | TypeScript | Infrastructure/tooling | 0 | 19 | 0 | 0 |
 | [alibaba/formily](https://github.com/alibaba/formily) | 12531 | 2025-06-21T01:46:14Z | TypeScript | Infrastructure/tooling | 22 | 119 | 24 | 24 |
 | [mapbox/mapbox-gl-js](https://github.com/mapbox/mapbox-gl-js) | 12255 | 2026-04-30T13:44:55Z | TypeScript | Infrastructure/tooling | 4 | 94 | 4 | 4 |
-| [googleapis/google-api-nodejs-client](https://github.com/googleapis/google-api-nodejs-client) | 12142 | 2026-05-06T19:12:00Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
+| [googleapis/google-api-nodejs-client](https://github.com/googleapis/google-api-nodejs-client) | 12144 | 2026-05-06T19:12:00Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
 | [paulmillr/chokidar](https://github.com/paulmillr/chokidar) | 12081 | 2026-04-27T12:48:12Z | TypeScript | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [inversify/InversifyJS](https://github.com/inversify/InversifyJS) | 12062 | 2025-11-19T13:18:33Z | TypeScript | Infrastructure/tooling | 4 | 35 | 4 | 4 |
 | [ant-design/ant-design-mobile](https://github.com/ant-design/ant-design-mobile) | 11984 | 2026-04-16T07:25:12Z | TypeScript | Infrastructure/tooling | 14 | 129 | 14 | 14 |
@@ -2114,7 +2118,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [yarnpkg/berry](https://github.com/yarnpkg/berry) | 8061 | 2026-04-23T09:32:36Z | TypeScript | Infrastructure/tooling | 11 | 26 | 11 | 11 |
 | [ben-rogerson/twin.macro](https://github.com/ben-rogerson/twin.macro) | 8036 | 2026-03-22T03:38:39Z | TypeScript | Infrastructure/tooling | 19 | 59 | 19 | 19 |
 | [markdoc/markdoc](https://github.com/markdoc/markdoc) | 8004 | 2026-03-26T03:37:33Z | TypeScript | Infrastructure/tooling | 6 | 23 | 7 | 7 |
-| [anse-app/chatgpt-demo](https://github.com/anse-app/chatgpt-demo) | 7980 | 2023-12-27T01:44:01Z | TypeScript | Infrastructure/tooling | 10 | 37 | 10 | 10 |
+| [anse-app/chatgpt-demo](https://github.com/anse-app/chatgpt-demo) | 7979 | 2023-12-27T01:44:01Z | TypeScript | Infrastructure/tooling | 10 | 37 | 10 | 10 |
 | [xojs/xo](https://github.com/xojs/xo) | 7972 | 2026-04-02T14:08:37Z | TypeScript | Infrastructure/tooling | 12 | 38 | 12 | 12 |
 | [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) | 7889 | 2026-04-17T13:53:59Z | TypeScript | CLI | 8 | 29 | 0 | 0 |
 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | 7824 | 2026-04-19T06:32:25Z | TypeScript | CLI | 19 | 21 | 19 | 19 |
@@ -2123,7 +2127,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [arktypeio/arktype](https://github.com/arktypeio/arktype) | 7749 | 2026-03-04T20:19:48Z | TypeScript | Infrastructure/tooling | 5 | 30 | 5 | 5 |
 | [electron/fiddle](https://github.com/electron/fiddle) | 7729 | 2026-04-22T23:46:25Z | TypeScript | Infrastructure/tooling | 10 | 112 | 10 | 10 |
 | [Comcast/react-data-grid](https://github.com/Comcast/react-data-grid) | 7617 | 2026-04-29T22:17:15Z | TypeScript | Infrastructure/tooling | 4 | 36 | 4 | 4 |
-| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7603 | 2026-05-06T15:23:59Z | TypeScript | Infrastructure/tooling | 17 | 70 | 17 | 17 |
+| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7608 | 2026-05-07T07:54:51Z | TypeScript | Infrastructure/tooling | 17 | 70 | 17 | 17 |
 | [labring/laf](https://github.com/labring/laf) | 7562 | 2025-12-01T08:01:13Z | TypeScript | Infrastructure/tooling | 16 | 21 | 16 | 16 |
 | [panva/jose](https://github.com/panva/jose) | 7525 | 2026-04-20T11:46:06Z | TypeScript | Infrastructure/tooling | 12 | 26 | 12 | 12 |
 | [supermacro/neverthrow](https://github.com/supermacro/neverthrow) | 7473 | 2026-02-14T23:23:06Z | TypeScript | Infrastructure/tooling | 2 | 22 | 2 | 2 |
@@ -2132,7 +2136,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nanostores/nanostores](https://github.com/nanostores/nanostores) | 7286 | 2026-04-30T02:45:53Z | TypeScript | Infrastructure/tooling | 2 | 22 | 2 | 2 |
 | [anthropics/claude-code-action](https://github.com/anthropics/claude-code-action) | 7160 | 2026-04-18T01:39:27Z | TypeScript | Infrastructure/tooling | 7 | 22 | 0 | 0 |
 | [tensorflow/tensorboard](https://github.com/tensorflow/tensorboard) | 7152 | 2026-04-23T02:52:27Z | TypeScript | Infrastructure/tooling | 1 | 110 | 1 | 1 |
-| [react-native-webview/react-native-webview](https://github.com/react-native-webview/react-native-webview) | 7147 | 2026-03-30T19:03:14Z | TypeScript | Infrastructure/tooling | 7 | 43 | 7 | 7 |
+| [react-native-webview/react-native-webview](https://github.com/react-native-webview/react-native-webview) | 7148 | 2026-03-30T19:03:14Z | TypeScript | Infrastructure/tooling | 7 | 43 | 7 | 7 |
 | [ianstormtaylor/superstruct](https://github.com/ianstormtaylor/superstruct) | 7147 | 2024-10-01T02:42:53Z | TypeScript | Infrastructure/tooling | 6 | 17 | 6 | 6 |
 | [jquery/esprima](https://github.com/jquery/esprima) | 7134 | 2023-04-16T01:17:08Z | TypeScript | Infrastructure/tooling | 9 | 22 | 9 | 9 |
 | [civitai/civitai](https://github.com/civitai/civitai) | 7087 | 2026-04-23T20:47:03Z | TypeScript | Infrastructure/tooling | 6 | 264 | 6 | 6 |
@@ -2150,7 +2154,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [retorquere/zotero-better-bibtex](https://github.com/retorquere/zotero-better-bibtex) | 6610 | 2026-04-29T08:58:40Z | TypeScript | Infrastructure/tooling | 8 | 146 | 8 | 8 |
 | [kentcdodds/cross-env](https://github.com/kentcdodds/cross-env) | 6528 | 2025-11-16T14:11:37Z | TypeScript | Infrastructure/tooling | 9 | 19 | 9 | 9 |
 | [windicss/windicss](https://github.com/windicss/windicss) | 6527 | 2024-06-21T23:11:31Z | TypeScript | Infrastructure/tooling | 9 | 44 | 9 | 9 |
-| [TanStack/form](https://github.com/TanStack/form) | 6506 | 2026-05-06T17:13:06Z | TypeScript | Infrastructure/tooling | 9 | 40 | 9 | 9 |
+| [TanStack/form](https://github.com/TanStack/form) | 6506 | 2026-05-07T09:29:49Z | TypeScript | Infrastructure/tooling | 9 | 40 | 9 | 9 |
 | [iorate/ublacklist](https://github.com/iorate/ublacklist) | 6505 | 2026-04-22T14:43:08Z | TypeScript | Infrastructure/tooling | 7 | 55 | 7 | 7 |
 | [nat/openplayground](https://github.com/nat/openplayground) | 6359 | 2026-02-06T04:56:49Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
 | [josStorer/RWKV-Runner](https://github.com/josStorer/RWKV-Runner) | 6324 | 2026-03-20T10:59:04Z | TypeScript | CLI | 8 | 15 | 8 | 8 |
@@ -2192,7 +2196,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [serafimcloud/21st](https://github.com/serafimcloud/21st) | 5197 | 2025-05-28T15:55:24Z | TypeScript | Web app | 7 | 11 | 7 | 7 |
 | [nanbingxyz/5ire](https://github.com/nanbingxyz/5ire) | 5172 | 2026-03-18T09:40:08Z | TypeScript | CLI | 6 | 122 | 6 | 6 |
 | [firebase/firebase-js-sdk](https://github.com/firebase/firebase-js-sdk) | 5111 | 2026-05-01T22:28:01Z | TypeScript | Infrastructure/tooling | 16 | 105 | 16 | 16 |
-| [shareAI-lab/Kode-Agent](https://github.com/shareAI-lab/Kode-Agent) | 5005 | 2026-01-23T20:20:17Z | TypeScript | Infrastructure/tooling | 4 | 71 | 4 | 4 |
+| [shareAI-lab/Kode-Agent](https://github.com/shareAI-lab/Kode-Agent) | 5006 | 2026-01-23T20:20:17Z | TypeScript | Infrastructure/tooling | 4 | 71 | 4 | 4 |
 | [Uniswap/v3-core](https://github.com/Uniswap/v3-core) | 4986 | 2026-04-30T16:18:51Z | TypeScript | Infrastructure/tooling | 8 | 28 | 8 | 8 |
 | [vuejs/vue-loader](https://github.com/vuejs/vue-loader) | 4976 | 2024-08-07T07:28:11Z | TypeScript | Infrastructure/tooling | 3 | 52 | 3 | 3 |
 | [microsoft/tsdoc](https://github.com/microsoft/tsdoc) | 4949 | 2026-03-31T04:12:28Z | TypeScript | Infrastructure/tooling | 8 | 2 | 9 | 9 |
@@ -2230,7 +2234,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jaredpalmer/the-platform](https://github.com/jaredpalmer/the-platform) | 4384 | 2022-12-09T09:39:17Z | TypeScript | Web app | 5 | 30 | 5 | 5 |
 | [unplugin/unplugin-vue-components](https://github.com/unplugin/unplugin-vue-components) | 4275 | 2026-03-23T10:38:50Z | TypeScript | CLI | 9 | 36 | 9 | 9 |
 | [golang/vscode-go](https://github.com/golang/vscode-go) | 4241 | 2026-04-02T13:50:07Z | TypeScript | Infrastructure/tooling | 9 | 3 | 9 | 9 |
-| [obsidian-community/obsidian-kanban](https://github.com/obsidian-community/obsidian-kanban) | 4236 | 2026-03-06T17:40:01Z | TypeScript | Infrastructure/tooling | 4 | 57 | 4 | 4 |
+| [obsidian-community/obsidian-kanban](https://github.com/obsidian-community/obsidian-kanban) | 4238 | 2026-03-06T17:40:01Z | TypeScript | Infrastructure/tooling | 4 | 57 | 4 | 4 |
 | [vuejs/composition-api](https://github.com/vuejs/composition-api) | 4191 | 2023-08-15T11:08:15Z | TypeScript | Infrastructure/tooling | 3 | 26 | 3 | 3 |
 | [cosmiconfig/cosmiconfig](https://github.com/cosmiconfig/cosmiconfig) | 4147 | 2026-03-02T13:27:47Z | TypeScript | Infrastructure/tooling | 1 | 28 | 1 | 1 |
 | [vite-pwa/vite-plugin-pwa](https://github.com/vite-pwa/vite-plugin-pwa) | 4146 | 2026-05-05T15:03:21Z | TypeScript | Infrastructure/tooling | 9 | 34 | 9 | 9 |
@@ -2303,7 +2307,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aws/jsii](https://github.com/aws/jsii) | 2852 | 2026-04-29T21:24:50Z | TypeScript | Infrastructure/tooling | 11 | 37 | 11 | 11 |
 | [sql-formatter-org/sql-formatter](https://github.com/sql-formatter-org/sql-formatter) | 2842 | 2026-03-28T08:21:11Z | TypeScript | Infrastructure/tooling | 4 | 39 | 4 | 4 |
 | [sparkjsdev/spark](https://github.com/sparkjsdev/spark) | 2827 | 2026-04-29T22:23:22Z | TypeScript | Infrastructure/tooling | 4 | 19 | 4 | 4 |
-| [vuejs/devtools](https://github.com/vuejs/devtools) | 2817 | 2026-04-29T16:19:51Z | TypeScript | Infrastructure/tooling | 3 | 50 | 3 | 3 |
+| [vuejs/devtools](https://github.com/vuejs/devtools) | 2817 | 2026-05-07T09:49:51Z | TypeScript | Infrastructure/tooling | 3 | 50 | 3 | 3 |
 | [langchain-ai/langgraphjs](https://github.com/langchain-ai/langgraphjs) | 2803 | 2026-04-18T21:11:56Z | TypeScript | Infrastructure/tooling | 5 | 29 | 0 | 0 |
 | [dethcrypto/TypeChain](https://github.com/dethcrypto/TypeChain) | 2802 | 2024-07-10T10:41:35Z | TypeScript | Infrastructure/tooling | 7 | 22 | 7 | 7 |
 | [Chevrotain/chevrotain](https://github.com/Chevrotain/chevrotain) | 2771 | 2026-04-27T06:14:51Z | TypeScript | Infrastructure/tooling | 8 | 23 | 8 | 8 |
@@ -2331,7 +2335,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google-gemini/live-api-web-console](https://github.com/google-gemini/live-api-web-console) | 2537 | 2026-04-15T13:44:12Z | TypeScript | Web app | 2 | 28 | 2 | 2 |
 | [dmotz/trystero](https://github.com/dmotz/trystero) | 2534 | 2026-04-30T23:23:26Z | TypeScript | Infrastructure/tooling | 19 | 32 | 19 | 19 |
 | [clauderic/react-tiny-virtual-list](https://github.com/clauderic/react-tiny-virtual-list) | 2491 | 2023-04-11T03:46:12Z | TypeScript | Library | 5 | 32 | 5 | 5 |
-| [typescript-language-server/typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) | 2470 | 2026-05-06T21:08:40Z | TypeScript | Infrastructure/tooling | 6 | 46 | 6 | 6 |
+| [typescript-language-server/typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) | 2471 | 2026-05-06T21:08:40Z | TypeScript | Infrastructure/tooling | 6 | 46 | 6 | 6 |
 | [Mobile-Artificial-Intelligence/maid](https://github.com/Mobile-Artificial-Intelligence/maid) | 2455 | 2026-04-07T06:38:23Z | TypeScript | Infrastructure/tooling | 17 | 74 | 17 | 17 |
 | [microsoft/dts-gen](https://github.com/microsoft/dts-gen) | 2427 | 2023-12-15T20:02:03Z | TypeScript | Library | 0 | 15 | 0 | 0 |
 | [timmywil/panzoom](https://github.com/timmywil/panzoom) | 2423 | 2026-05-02T14:32:05Z | TypeScript | Infrastructure/tooling | 4 | 47 | 4 | 4 |
@@ -2439,8 +2443,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [maxritter/pilot-shell](https://github.com/maxritter/pilot-shell) | 1650 | 2026-04-17T08:34:27Z | TypeScript | Infrastructure/tooling | 4 | 15 | 0 | 0 |
 | [MiniMax-AI/cli](https://github.com/MiniMax-AI/cli) | 1635 | 2026-04-26T01:40:16Z | TypeScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [electron/windows-installer](https://github.com/electron/windows-installer) | 1630 | 2026-04-08T23:09:42Z | TypeScript | Infrastructure/tooling | 4 | 26 | 4 | 4 |
+| [obsidian-community/obsidian-zotero-integration](https://github.com/obsidian-community/obsidian-zotero-integration) | 1621 | 2026-03-06T17:39:40Z | TypeScript | Infrastructure/tooling | 3 | 44 | 3 | 3 |
 | [aleclarson/vite-tsconfig-paths](https://github.com/aleclarson/vite-tsconfig-paths) | 1620 | 2026-03-29T18:46:37Z | TypeScript | Infrastructure/tooling | 0 | 20 | 0 | 0 |
-| [obsidian-community/obsidian-zotero-integration](https://github.com/obsidian-community/obsidian-zotero-integration) | 1620 | 2026-03-06T17:39:40Z | TypeScript | Infrastructure/tooling | 3 | 44 | 3 | 3 |
 | [astral-sh/ruff-vscode](https://github.com/astral-sh/ruff-vscode) | 1616 | 2026-04-20T11:33:53Z | TypeScript | Infrastructure/tooling | 2 | 35 | 2 | 2 |
 | [antfu/esno](https://github.com/antfu/esno) | 1612 | 2024-09-29T00:24:25Z | TypeScript | Unknown | 5 | 5 | 5 | 5 |
 | [rustmailer/bichon](https://github.com/rustmailer/bichon) | 1611 | 2026-04-28T15:27:34Z | TypeScript | Infrastructure/tooling | 16 | 9 | 16 | 16 |
@@ -2716,7 +2720,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [playwright-community/jest-playwright](https://github.com/playwright-community/jest-playwright) | 542 | 2023-11-17T10:52:42Z | TypeScript | Infrastructure/tooling | 5 | 33 | 5 | 5 |
 | [lucasastorian/llmwiki](https://github.com/lucasastorian/llmwiki) | 540 | 2026-04-15T21:48:54Z | TypeScript | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [AmesingFlank/taichi.js](https://github.com/AmesingFlank/taichi.js) | 534 | 2024-07-18T06:38:21Z | TypeScript | Unknown | 5 | 16 | 5 | 5 |
-| [a2aproject/a2a-js](https://github.com/a2aproject/a2a-js) | 533 | 2026-05-06T06:12:00Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
+| [a2aproject/a2a-js](https://github.com/a2aproject/a2a-js) | 533 | 2026-05-07T08:54:34Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
 | [agentscope-ai/agentscope-studio](https://github.com/agentscope-ai/agentscope-studio) | 532 | 2026-03-06T15:46:32Z | TypeScript | Infrastructure/tooling | 12 | 36 | 12 | 12 |
 | [solidjs/templates](https://github.com/solidjs/templates) | 531 | 2026-03-17T14:11:05Z | TypeScript | Template/starter | 0 | 3 | 0 | 0 |
 | [ElemeFE/element-angular](https://github.com/ElemeFE/element-angular) | 529 | 2022-06-23T00:02:14Z | TypeScript | Unknown | 0 | 55 | 0 | 0 |
@@ -2733,6 +2737,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vega/vega-embed](https://github.com/vega/vega-embed) | 490 | 2026-04-10T21:56:51Z | TypeScript | Infrastructure/tooling | 7 | 47 | 7 | 7 |
 | [vuejs/vue-eslint-parser](https://github.com/vuejs/vue-eslint-parser) | 488 | 2026-02-14T09:54:59Z | TypeScript | Infrastructure/tooling | 6 | 37 | 6 | 6 |
 | [adaltas/node-http-status](https://github.com/adaltas/node-http-status) | 485 | 2026-01-21T23:03:03Z | TypeScript | Infrastructure/tooling | 4 | 25 | 4 | 4 |
+| [mobxjs/mobx-angular](https://github.com/mobxjs/mobx-angular) | 481 | 2024-12-09T22:51:49Z | TypeScript | Infrastructure/tooling | 8 | 49 | 8 | 8 |
 | [curiousdannii/parchment](https://github.com/curiousdannii/parchment) | 478 | 2026-04-17T05:56:56Z | TypeScript | Infrastructure/tooling | 3 | 38 | 3 | 3 |
 | [hyperbrew/bolt-cep](https://github.com/hyperbrew/bolt-cep) | 478 | 2026-01-30T18:51:05Z | TypeScript | Infrastructure/tooling | 6 | 50 | 6 | 6 |
 | [iamcco/coc-flutter](https://github.com/iamcco/coc-flutter) | 477 | 2023-09-11T10:32:16Z | TypeScript | Infrastructure/tooling | 3 | 19 | 3 | 3 |
@@ -2864,7 +2869,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [docker/bake-action](https://github.com/docker/bake-action) | 292 | 2026-04-24T07:46:59Z | TypeScript | Infrastructure/tooling | 12 | 30 | 12 | 12 |
 | [sebelga/gstore-node](https://github.com/sebelga/gstore-node) | 292 | 2024-03-04T19:56:26Z | TypeScript | Model/data | 7 | 51 | 7 | 7 |
 | [asg017/sqlite-ecosystem](https://github.com/asg017/sqlite-ecosystem) | 292 | 2023-08-06T02:27:05Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
-| [electron/packager](https://github.com/electron/packager) | 290 | 2026-05-07T00:55:59Z | TypeScript | CLI | 9 | 50 | 9 | 9 |
+| [electron/packager](https://github.com/electron/packager) | 290 | 2026-05-07T03:08:45Z | TypeScript | CLI | 9 | 50 | 9 | 9 |
 | [nuxt/bridge](https://github.com/nuxt/bridge) | 288 | 2026-05-01T05:54:08Z | TypeScript | Infrastructure/tooling | 6 | 36 | 6 | 8 |
 | [matrix-org/matrix-appservice-slack](https://github.com/matrix-org/matrix-appservice-slack) | 284 | 2026-01-22T15:12:07Z | TypeScript | Infrastructure/tooling | 11 | 68 | 11 | 11 |
 | [lobehub/lobe-chat-plugins](https://github.com/lobehub/lobe-chat-plugins) | 283 | 2026-04-19T00:24:10Z | TypeScript | Infrastructure/tooling | 8 | 27 | 0 | 0 |
@@ -2882,7 +2887,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [storybookjs/test-runner](https://github.com/storybookjs/test-runner) | 272 | 2026-04-08T08:52:16Z | TypeScript | Infrastructure/tooling | 13 | 76 | 13 | 13 |
 | [sudocode-ai/sudocode](https://github.com/sudocode-ai/sudocode) | 272 | 2026-03-18T23:20:38Z | TypeScript | CLI | 4 | 6 | 0 | 0 |
 | [hyparam/hightable](https://github.com/hyparam/hightable) | 272 | 2026-03-10T09:32:02Z | TypeScript | Infrastructure/tooling | 10 | 29 | 10 | 10 |
-| [skilld-dev/skilld](https://github.com/skilld-dev/skilld) | 268 | 2026-05-06T04:02:40Z | TypeScript | Infrastructure/tooling | 2 | 39 | 2 | 2 |
+| [skilld-dev/skilld](https://github.com/skilld-dev/skilld) | 268 | 2026-05-07T05:37:44Z | TypeScript | Infrastructure/tooling | 2 | 39 | 2 | 2 |
 | [nyatinte/ccexp](https://github.com/nyatinte/ccexp) | 268 | 2026-04-17T19:05:38Z | TypeScript | CLI | 2 | 34 | 0 | 0 |
 | [intlify/bundle-tools](https://github.com/intlify/bundle-tools) | 267 | 2026-04-29T12:15:58Z | TypeScript | Infrastructure/tooling | 8 | 26 | 8 | 8 |
 | [multiformats/js-multiformats](https://github.com/multiformats/js-multiformats) | 267 | 2026-03-01T16:19:05Z | TypeScript | Infrastructure/tooling | 4 | 11 | 4 | 4 |
@@ -2920,7 +2925,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [streamich/unionfs](https://github.com/streamich/unionfs) | 235 | 2025-09-17T02:43:50Z | TypeScript | Infrastructure/tooling | 4 | 17 | 4 | 4 |
 | [fnando/i18n](https://github.com/fnando/i18n) | 233 | 2026-03-04T21:02:59Z | TypeScript | Infrastructure/tooling | 4 | 27 | 4 | 4 |
 | [pragmagic/vscode-nim](https://github.com/pragmagic/vscode-nim) | 233 | 2023-12-14T10:42:13Z | TypeScript | Unknown | 1 | 6 | 1 | 1 |
-| [inversify/monorepo](https://github.com/inversify/monorepo) | 232 | 2026-05-06T17:33:12Z | TypeScript | Infrastructure/tooling | 13 | 24 | 13 | 13 |
+| [inversify/monorepo](https://github.com/inversify/monorepo) | 232 | 2026-05-06T17:33:12Z | TypeScript | Infrastructure/tooling | 11 | 24 | 13 | 13 |
 | [DeterminateSystems/nix-installer-action](https://github.com/DeterminateSystems/nix-installer-action) | 231 | 2026-04-23T06:41:58Z | TypeScript | Infrastructure/tooling | 3 | 23 | 3 | 3 |
 | [decentralized-identity/did-resolver](https://github.com/decentralized-identity/did-resolver) | 230 | 2026-04-29T11:13:27Z | TypeScript | Infrastructure/tooling | 3 | 21 | 3 | 3 |
 | [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) | 229 | 2026-05-06T08:49:33Z | TypeScript | Infrastructure/tooling | 3 | 17 | 3 | 3 |
@@ -3035,7 +3040,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [FrontLabsOfficial/vue-tiny-validate](https://github.com/FrontLabsOfficial/vue-tiny-validate) | 138 | 2023-10-29T09:45:02Z | TypeScript | Infrastructure/tooling | 4 | 34 | 4 | 4 |
 | [tracked-tools/tracked-built-ins](https://github.com/tracked-tools/tracked-built-ins) | 137 | 2026-03-20T21:21:28Z | TypeScript | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [carbon-design-system/carbon-pictograms-svelte](https://github.com/carbon-design-system/carbon-pictograms-svelte) | 135 | 2026-03-26T19:03:45Z | TypeScript | Infrastructure/tooling | 6 | 9 | 6 | 6 |
-| [safe-fndn/safe-singleton-factory](https://github.com/safe-fndn/safe-singleton-factory) | 134 | 2026-04-27T11:27:31Z | TypeScript | Infrastructure/tooling | 0 | 22 | 0 | 0 |
+| [safe-fndn/safe-singleton-factory](https://github.com/safe-fndn/safe-singleton-factory) | 134 | 2026-05-07T04:55:49Z | TypeScript | Infrastructure/tooling | 0 | 22 | 0 | 0 |
 | [krassowski/jupyterlab-lsp](https://github.com/krassowski/jupyterlab-lsp) | 134 | 2026-04-01T14:12:56Z | TypeScript | Infrastructure/tooling | 2 | 41 | 2 | 2 |
 | [iShareStuff/ZoteroTheme](https://github.com/iShareStuff/ZoteroTheme) | 134 | 2022-10-16T16:31:24Z | TypeScript | Unknown | 0 | 5 | 0 | 0 |
 | [avirut/obsidian-metatemplates](https://github.com/avirut/obsidian-metatemplates) | 134 | 2022-03-24T16:04:41Z | TypeScript | Template/starter | 3 | 6 | 3 | 3 |
@@ -3388,6 +3393,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [csstree/vscode-plugin](https://github.com/csstree/vscode-plugin) | 20 | 2024-10-13T22:45:05Z | TypeScript | Unknown | 0 | 6 | 0 | 0 |
 | [motrixapp/motrix-install-assistant](https://github.com/motrixapp/motrix-install-assistant) | 20 | 2023-08-01T12:58:24Z | TypeScript | Infrastructure/tooling | 0 | 36 | 0 | 0 |
 | [ember-polyfills/ember-cached-decorator-polyfill](https://github.com/ember-polyfills/ember-cached-decorator-polyfill) | 20 | 2023-07-26T20:29:49Z | TypeScript | Infrastructure/tooling | 9 | 56 | 9 | 9 |
+| [julia-actions/install-juliaup](https://github.com/julia-actions/install-juliaup) | 19 | 2026-05-04T19:52:33Z | TypeScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
 | [coasys/flux](https://github.com/coasys/flux) | 19 | 2026-04-30T07:35:38Z | TypeScript | Infrastructure/tooling | 2 | 13 | 2 | 2 |
 | [zhayujie/cow-skill-hub](https://github.com/zhayujie/cow-skill-hub) | 19 | 2026-04-12T09:23:38Z | TypeScript | Unknown | 5 | 8 | 5 | 5 |
 | [weaviate/recipes-ts](https://github.com/weaviate/recipes-ts) | 19 | 2025-10-17T09:35:55Z | TypeScript | Unknown | 6 | 14 | 6 | 6 |
@@ -3463,6 +3469,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alonronin/react-tailwind-rsbuild-boilerplate](https://github.com/alonronin/react-tailwind-rsbuild-boilerplate) | 12 | 2024-07-25T22:42:54Z | TypeScript | Web app | 4 | 17 | 4 | 4 |
 | [llllvvuu/vscode-glspc](https://github.com/llllvvuu/vscode-glspc) | 12 | 2024-07-02T04:10:36Z | TypeScript | CLI | 0 | 15 | 0 | 0 |
 | [trustwallet/web3-react-trust-wallet](https://github.com/trustwallet/web3-react-trust-wallet) | 12 | 2024-04-22T11:30:56Z | TypeScript | Unknown | 0 | 2 | 0 | 0 |
+| [teletrace/opentelemetry-demo](https://github.com/teletrace/opentelemetry-demo) | 12 | 2023-06-05T10:33:59Z | TypeScript | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [plone/plone.restapi-angular](https://github.com/plone/plone.restapi-angular) | 12 | 2023-04-18T06:40:54Z | TypeScript | Web app | 0 | 34 | 0 | 0 |
 | [andreock/AdguardHomeAPI](https://github.com/andreock/AdguardHomeAPI) | 12 | 2022-03-21T15:13:18Z | TypeScript | Library | 0 | 6 | 0 | 0 |
 | [intlify/cli](https://github.com/intlify/cli) | 11 | 2026-05-01T17:49:05Z | TypeScript | CLI | 2 | 47 | 2 | 2 |
@@ -3686,6 +3693,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kakajun/simple-panzoom](https://github.com/kakajun/simple-panzoom) | 0 | 2024-08-13T08:05:25Z | TypeScript | Infrastructure/tooling | 1 | 25 | 1 | 1 |
 | [kloudfuse/opentelemetry-demo](https://github.com/kloudfuse/opentelemetry-demo) | 0 | 2024-07-15T17:51:03Z | TypeScript | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [featherbread/hypcast-v1](https://github.com/featherbread/hypcast-v1) | 0 | 2024-06-29T01:41:43Z | TypeScript | Infrastructure/tooling | 0 | 35 | 0 | 0 |
+| [TelemetryHub/opentelemetry-demo](https://github.com/TelemetryHub/opentelemetry-demo) | 0 | 2024-06-17T21:22:10Z | TypeScript | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [kong/proxy-wasm-assemblyscript-rate-limiting](https://github.com/Kong/proxy-wasm-assemblyscript-rate-limiting) | 0 | 2023-11-03T13:26:41Z | TypeScript | Unknown | 0 | 4 | 0 | 0 |
 | [cryptonomic/conseiljs-ledgersigner](https://github.com/Cryptonomic/ConseilJS-ledgersigner) | 0 | 2023-08-08T19:40:12Z | TypeScript | Infrastructure/tooling | 1 | 20 | 1 | 1 |
 | [mgr0dzicki/cargo-semver-checks-action](https://github.com/mgr0dzicki/cargo-semver-checks-action) | 0 | 2023-05-02T19:40:02Z | TypeScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |

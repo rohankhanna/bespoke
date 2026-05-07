@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 173
-- terms: 500
-- components: 3840
-- concepts: 489
-- observations: 490
+- repos: 174
+- terms: 505
+- components: 3854
+- concepts: 494
+- observations: 495
 
 ## Static behavior
 
@@ -149,6 +149,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ember-polyfills/ember-cached-decorator-polyfill](https://github.com/ember-polyfills/ember-cached-decorator-polyfill) | 20 | 2023-07-26T20:29:49Z | TypeScript | Infrastructure/tooling | 9 | 56 | 9 | 9 |
 | [dropbox/ts-transform-react-jsx-source](https://github.com/dropbox/ts-transform-react-jsx-source) | 11 | 2023-07-25T22:50:21Z | TypeScript | Infrastructure/tooling | 6 | 18 | 6 | 6 |
 | [qwertyforce/ambience](https://github.com/qwertyforce/ambience) | 37 | 2023-07-05T19:08:28Z | TypeScript | Infrastructure/tooling | 4 | 11 | 4 | 4 |
+| [teletrace/opentelemetry-demo](https://github.com/teletrace/opentelemetry-demo) | 12 | 2023-06-05T10:33:59Z | TypeScript | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [filipesilva/obsidian-babashka](https://github.com/filipesilva/obsidian-babashka) | 56 | 2023-06-01T16:52:25Z | TypeScript | Unknown | 0 | 9 | 0 | 0 |
 | [nuxt-contrib/devalue](https://github.com/nuxt-contrib/devalue) | 96 | 2023-05-02T20:03:58Z | TypeScript | Infrastructure/tooling | 0 | 14 | 0 | 0 |
 | [chenghonour/formulago-ui](https://github.com/chenghonour/formulago-ui) | 10 | 2023-04-30T07:58:12Z | TypeScript | Infrastructure/tooling | 0 | 110 | 0 | 0 |
@@ -363,6 +364,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alonronin/react-tailwind-rsbuild-boilerplate](https://github.com/alonronin/react-tailwind-rsbuild-boilerplate) | 12 | 2024-07-25T22:42:54Z | TypeScript | Web app | 4 | 17 | 4 | 4 |
 | [llllvvuu/vscode-glspc](https://github.com/llllvvuu/vscode-glspc) | 12 | 2024-07-02T04:10:36Z | TypeScript | CLI | 0 | 15 | 0 | 0 |
 | [trustwallet/web3-react-trust-wallet](https://github.com/trustwallet/web3-react-trust-wallet) | 12 | 2024-04-22T11:30:56Z | TypeScript | Unknown | 0 | 2 | 0 | 0 |
+| [teletrace/opentelemetry-demo](https://github.com/teletrace/opentelemetry-demo) | 12 | 2023-06-05T10:33:59Z | TypeScript | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [plone/plone.restapi-angular](https://github.com/plone/plone.restapi-angular) | 12 | 2023-04-18T06:40:54Z | TypeScript | Web app | 0 | 34 | 0 | 0 |
 | [andreock/AdguardHomeAPI](https://github.com/andreock/AdguardHomeAPI) | 12 | 2022-03-21T15:13:18Z | TypeScript | Library | 0 | 6 | 0 | 0 |
 | [CyanAsterisk/FreeCar-Admin](https://github.com/CyanAsterisk/FreeCar-Admin) | 11 | 2025-04-16T11:04:25Z | TypeScript | Unknown | 2 | 51 | 2 | 2 |

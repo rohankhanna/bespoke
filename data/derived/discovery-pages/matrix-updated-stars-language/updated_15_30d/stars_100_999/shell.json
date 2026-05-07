@@ -3,7 +3,7 @@
     "components": 190,
     "concepts": 238,
     "observations": 242,
-    "repos": 43,
+    "repos": 44,
     "terms": 249
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "actions/upload-pages-artifact",
@@ -42,6 +42,7 @@
     "nodenv/node-build",
     "numpy/numpy.org",
     "opea-project/GenAIExamples",
+    "openshift/release",
     "reviewdog/action-misspell",
     "reviewdog/action-shellcheck",
     "reviewdog/action-suggester",

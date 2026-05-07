@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 66,
-    "concepts": 198,
-    "observations": 200,
-    "repos": 86,
-    "terms": 191
+    "concepts": 202,
+    "observations": 204,
+    "repos": 87,
+    "terms": 195
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "10up/actions-wordpress",
     "27medkamal/tmux-session-wizard",
@@ -78,6 +78,7 @@
     "mattmc3/zsh_unplugged",
     "mpv-player/mpv-build",
     "nightrome/cocostuff",
+    "pmer/tla-bin",
     "rbenv/rbenv-default-gems",
     "rbenv/rbenv-gem-rehash",
     "rbenv/rbenv-installer",

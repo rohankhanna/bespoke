@@ -1,23 +1,20 @@
 {
   "counts": {
-    "components": 98,
-    "concepts": 96,
-    "observations": 96,
-    "repos": 52,
-    "terms": 96
+    "components": 88,
+    "concepts": 88,
+    "observations": 88,
+    "repos": 47,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "arnaud-lb/php-rdkafka-doc",
     "buty4649/mruby-yyjson",
-    "conda-forge/conda-lock-feedstock",
-    "conda-forge/cppinterop-feedstock",
-    "conda-forge/diffutils-feedstock",
     "conda-forge/equinox-feedstock",
     "conda-forge/ergocub-software-feedstock",
     "conda-forge/textgrad-feedstock",
@@ -39,11 +36,9 @@
     "danielrosehill/Claude-Digital-Printing-Plugin",
     "danielrosehill/Claude-Hopper",
     "danielrosehill/Claude-Israel",
-    "danielrosehill/Hypothesis-Council",
     "danielrosehill/Israel-Projects-Index",
     "danielrosehill/Open-Research-Workspaces-Index",
     "danielrosehill/Responsible-Agent-Skill-Development",
-    "DataDog/vault",
     "flagos-ai/verl-FL",
     "hermit-os/.github",
     "hyper-mcp-rs/context7-plugin",
@@ -51,7 +46,6 @@
     "ipfs-examples/github-mgmt",
     "JuliaBinaryWrappers/Expat_jll.jl",
     "JuliaBinaryWrappers/GDAL_jll.jl",
-    "kdubbo/xds-api",
     "kyverno/.github",
     "mukel/gptoss.java",
     "mukel/nemotron3.java",
@@ -64,6 +58,7 @@
     "squidowl/iced",
     "stable-haskell/haskell-language-server",
     "Strivin0311/strivin0311.github.io",
+    "superfarther/K2V",
     "TransferQueue/community_doc"
   ]
 }

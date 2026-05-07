@@ -3,7 +3,7 @@
     "components": 18,
     "concepts": 73,
     "observations": 73,
-    "repos": 34,
+    "repos": 35,
     "terms": 84
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "Ableton/push-interface",
     "ahmadawais/shades-of-purple-vscode",
@@ -47,6 +47,7 @@
     "sgl-project/sgl-learning-materials",
     "snwfdhmp/awesome-ralph",
     "spring-ai-community/awesome-spring-ai",
+    "TencentCloudADP/youtu-vl",
     "thibautmelen/agentic-ai-systems"
   ]
 }

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 148
-- terms: 253
-- components: 738
-- concepts: 224
-- observations: 224
+- repos: 156
+- terms: 261
+- components: 748
+- concepts: 232
+- observations: 232
 
 ## Static behavior
 
@@ -25,6 +25,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [kdubbo/xds-api](https://github.com/kdubbo/xds-api) | 0 | 2026-04-23T10:50:00Z | Go | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Hypothesis-Council](https://github.com/danielrosehill/Hypothesis-Council) | 0 | 2026-04-23T10:28:19Z | Python | Model/data | 0 | 0 | 0 | 0 |
+| [DataDog/vault](https://github.com/DataDog/vault) | 0 | 2026-04-23T09:08:34Z | Go | Infrastructure/tooling | 5 | 10 | 5 | 5 |
+| [conda-forge/diffutils-feedstock](https://github.com/conda-forge/diffutils-feedstock) | 0 | 2026-04-23T07:16:40Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [conda-forge/cppinterop-feedstock](https://github.com/conda-forge/cppinterop-feedstock) | 0 | 2026-04-23T05:52:16Z | C/C++ | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [conda-forge/conda-lock-feedstock](https://github.com/conda-forge/conda-lock-feedstock) | 0 | 2026-04-23T05:44:24Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [conda-forge/cccl-feedstock](https://github.com/conda-forge/cccl-feedstock) | 0 | 2026-04-23T05:17:57Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [conda-forge/bottom-feedstock](https://github.com/conda-forge/bottom-feedstock) | 0 | 2026-04-23T05:06:25Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [conda-forge/blis-feedstock](https://github.com/conda-forge/blis-feedstock) | 0 | 2026-04-23T05:02:51Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -164,6 +170,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/brainstorm-solutions-plugin](https://github.com/danielrosehill/brainstorm-solutions-plugin) | 0 | 2026-04-10T12:29:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [8144225309/superscalar-docs](https://github.com/8144225309/superscalar-docs) | 0 | 2026-04-09T21:20:43Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [ashton/neotest-gleam-unitest](https://github.com/ashton/neotest-gleam-unitest) | 0 | 2026-04-09T20:27:40Z | Other | Unknown | 8 | 0 | 8 | 8 |
+| [JuliaBinaryWrappers/JpegTurbo_jll.jl](https://github.com/JuliaBinaryWrappers/JpegTurbo_jll.jl) | 0 | 2026-04-09T15:33:29Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [JuliaBinaryWrappers/libaec_jll.jl](https://github.com/JuliaBinaryWrappers/libaec_jll.jl) | 0 | 2026-04-09T15:05:24Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [VOICEVOX/preview-pages](https://github.com/VOICEVOX/preview-pages) | 0 | 2026-04-09T11:24:32Z | TypeScript | Infrastructure/tooling | 4 | 43 | 4 | 4 |
 | [stdlib-js/dstructs-struct](https://github.com/stdlib-js/dstructs-struct) | 0 | 2026-04-09T03:55:27Z | JavaScript | Infrastructure/tooling | 18 | 75 | 18 | 18 |
 | [danielrosehill/Agent-Journal](https://github.com/danielrosehill/Agent-Journal) | 0 | 2026-04-08T14:15:54Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
@@ -178,6 +186,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [kdubbo/xds-api](https://github.com/kdubbo/xds-api) | 0 | 2026-04-23T10:50:00Z | Go | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Hypothesis-Council](https://github.com/danielrosehill/Hypothesis-Council) | 0 | 2026-04-23T10:28:19Z | Python | Model/data | 0 | 0 | 0 | 0 |
+| [DataDog/vault](https://github.com/DataDog/vault) | 0 | 2026-04-23T09:08:34Z | Go | Infrastructure/tooling | 5 | 10 | 5 | 5 |
+| [conda-forge/diffutils-feedstock](https://github.com/conda-forge/diffutils-feedstock) | 0 | 2026-04-23T07:16:40Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [conda-forge/cppinterop-feedstock](https://github.com/conda-forge/cppinterop-feedstock) | 0 | 2026-04-23T05:52:16Z | C/C++ | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [conda-forge/conda-lock-feedstock](https://github.com/conda-forge/conda-lock-feedstock) | 0 | 2026-04-23T05:44:24Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [conda-forge/cccl-feedstock](https://github.com/conda-forge/cccl-feedstock) | 0 | 2026-04-23T05:17:57Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [conda-forge/bottom-feedstock](https://github.com/conda-forge/bottom-feedstock) | 0 | 2026-04-23T05:06:25Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [conda-forge/blis-feedstock](https://github.com/conda-forge/blis-feedstock) | 0 | 2026-04-23T05:02:51Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -317,6 +331,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/brainstorm-solutions-plugin](https://github.com/danielrosehill/brainstorm-solutions-plugin) | 0 | 2026-04-10T12:29:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [8144225309/superscalar-docs](https://github.com/8144225309/superscalar-docs) | 0 | 2026-04-09T21:20:43Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [ashton/neotest-gleam-unitest](https://github.com/ashton/neotest-gleam-unitest) | 0 | 2026-04-09T20:27:40Z | Other | Unknown | 8 | 0 | 8 | 8 |
+| [JuliaBinaryWrappers/JpegTurbo_jll.jl](https://github.com/JuliaBinaryWrappers/JpegTurbo_jll.jl) | 0 | 2026-04-09T15:33:29Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [JuliaBinaryWrappers/libaec_jll.jl](https://github.com/JuliaBinaryWrappers/libaec_jll.jl) | 0 | 2026-04-09T15:05:24Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [VOICEVOX/preview-pages](https://github.com/VOICEVOX/preview-pages) | 0 | 2026-04-09T11:24:32Z | TypeScript | Infrastructure/tooling | 4 | 43 | 4 | 4 |
 | [stdlib-js/dstructs-struct](https://github.com/stdlib-js/dstructs-struct) | 0 | 2026-04-09T03:55:27Z | JavaScript | Infrastructure/tooling | 18 | 75 | 18 | 18 |
 | [danielrosehill/Agent-Journal](https://github.com/danielrosehill/Agent-Journal) | 0 | 2026-04-08T14:15:54Z | Unknown | Unknown | 1 | 0 | 1 | 1 |

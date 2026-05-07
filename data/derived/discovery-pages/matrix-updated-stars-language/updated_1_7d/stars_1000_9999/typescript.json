@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2940,
-    "concepts": 615,
-    "observations": 616,
-    "repos": 68,
-    "terms": 613
+    "components": 2793,
+    "concepts": 590,
+    "observations": 591,
+    "repos": 64,
+    "terms": 588
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "aeharding/voyager",
     "analogjs/analog",
@@ -20,7 +20,6 @@
     "apify/fingerprint-suite",
     "apollographql/apollo-client-devtools",
     "apollographql/apollo-tooling",
-    "argdown/argdown",
     "azat-io/eslint-plugin-perfectionist",
     "baptisteArno/typebot.io",
     "boxlite-ai/boxlite",
@@ -54,14 +53,12 @@
     "microsoft/vscode-cmake-tools",
     "mui/mui-x",
     "ng-packagr/ng-packagr",
-    "nodejs/llhttp",
     "NomicFoundation/hardhat",
     "nrwl/nx-console",
     "open-telemetry/opentelemetry-demo",
     "openlit/openlit",
     "OutlineFoundation/outline-apps",
     "prisma/prisma-examples",
-    "r-lib/actions",
     "react-cosmos/react-cosmos",
     "reactjs/react-docgen",
     "remotion-dev/skills",
@@ -77,7 +74,6 @@
     "valtyr/prisma-kysely",
     "vite-pwa/vite-plugin-pwa",
     "vitejs/devtools",
-    "VOICEVOX/voicevox",
     "vuejs/babel-plugin-jsx",
     "vuejs/language-tools",
     "webdriverio/webdriverio",

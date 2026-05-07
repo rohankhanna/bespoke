@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 32585,
-    "concepts": 14800,
-    "observations": 14855,
-    "repos": 1664,
-    "terms": 14766
+    "concepts": 14806,
+    "observations": 14861,
+    "repos": 1666,
+    "terms": 14772
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "0xJacky/nginx-ui",
@@ -753,6 +753,7 @@
     "iced-rs/iced",
     "IDEA-Research/Grounded-Segment-Anything",
     "IDEA-Research/GroundingDINO",
+    "IdreesInc/Monocraft",
     "Ileriayo/markdown-badges",
     "ImageMagick/ImageMagick",
     "Immediate-Mode-UI/Nuklear",
@@ -1291,6 +1292,7 @@
     "QwenLM/Qwen-Agent",
     "qwenlm/qwen-code",
     "QwenLM/Qwen3",
+    "QwenLM/Qwen3-Coder",
     "QwenLM/Qwen3-TTS",
     "QwenLM/Qwen3-VL",
     "qwibitai/nanoclaw",

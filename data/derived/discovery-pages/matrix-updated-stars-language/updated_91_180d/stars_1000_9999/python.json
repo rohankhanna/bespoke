@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 328,
-    "concepts": 602,
-    "observations": 603,
-    "repos": 133,
-    "terms": 597
+    "components": 333,
+    "concepts": 614,
+    "observations": 615,
+    "repos": 135,
+    "terms": 609
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "AILab-CVC/VideoCrafter",
     "alexmojaki/snoop",
@@ -54,6 +54,7 @@
     "fixie-ai/ultravox",
     "FlagAI-Open/FlagAI",
     "genmoai/mochi",
+    "google-deepmind/alphageometry",
     "google-gemini/deprecated-generative-ai-python",
     "google-research/text-to-text-transfer-transformer",
     "google/fuzzbench",
@@ -122,6 +123,7 @@
     "python-lsp/python-lsp-server",
     "python-rope/rope",
     "pytorch/extension-cpp",
+    "remsky/Kokoro-FastAPI",
     "RUC-NLPIR/Search-o1",
     "RUC-NLPIR/WebThinker",
     "ShichenLiu/SoftRas",

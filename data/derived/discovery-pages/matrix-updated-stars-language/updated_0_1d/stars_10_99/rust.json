@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 32,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 3,
-    "terms": 23
+    "components": 18,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 1,
+    "terms": 5
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
-    "influxdata/datafusion-udf-wasm",
-    "kurrent-io/KurrentDB-Client-Rust",
     "vaporif/parry-guard"
   ]
 }

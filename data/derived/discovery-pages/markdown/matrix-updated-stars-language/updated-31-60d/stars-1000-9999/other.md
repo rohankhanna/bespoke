@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 121
-- terms: 696
-- components: 569
-- concepts: 697
-- observations: 702
+- repos: 122
+- terms: 702
+- components: 573
+- concepts: 703
+- observations: 708
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [nvim-treesitter/nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects) | 2757 | 2026-04-07T09:06:13Z | Other | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [oxalorg/sakura](https://github.com/oxalorg/sakura) | 4370 | 2026-04-07T01:47:31Z | Other | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [JuliaDocs/Franklin.jl](https://github.com/JuliaDocs/Franklin.jl) | 1058 | 2026-04-06T22:46:26Z | Other | Infrastructure/tooling | 8 | 12 | 9 | 9 |
 | [heartcombo/responders](https://github.com/heartcombo/responders) | 2046 | 2026-04-06T20:25:44Z | Other | Infrastructure/tooling | 6 | 2 | 6 | 6 |
@@ -208,6 +209,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [elixir-plug/plug](https://github.com/elixir-plug/plug) | 3000 | 2026-04-06T18:02:49Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [RubyMoney/money](https://github.com/RubyMoney/money) | 2855 | 2026-03-29T18:54:22Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 5 |
 | [zjunlp/EasyEdit](https://github.com/zjunlp/EasyEdit) | 2799 | 2026-04-01T14:20:09Z | Other | Infrastructure/tooling | 19 | 0 | 19 | 19 |
+| [nvim-treesitter/nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects) | 2757 | 2026-04-07T09:06:13Z | Other | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [rom1504/clip-retrieval](https://github.com/rom1504/clip-retrieval) | 2753 | 2026-03-28T17:21:35Z | Other | CLI | 8 | 8 | 8 | 8 |
 | [mhinz/vim-signify](https://github.com/mhinz/vim-signify) | 2729 | 2026-03-12T14:24:49Z | Other | Unknown | 11 | 0 | 11 | 11 |
 | [pgpartman/pg_partman](https://github.com/pgpartman/pg_partman) | 2684 | 2026-03-09T15:14:51Z | Other | Infrastructure/tooling | 7 | 1 | 7 | 7 |

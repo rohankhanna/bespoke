@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 97
-- terms: 616
-- components: 587
-- concepts: 621
-- observations: 621
+- repos: 94
+- terms: 602
+- components: 578
+- concepts: 607
+- observations: 607
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [jellyfin/jellyfin-ffmpeg](https://github.com/jellyfin/jellyfin-ffmpeg) | 797 | 2026-04-30T10:21:41Z | C/C++ | Infrastructure/tooling | 3 | 10 | 3 | 3 |
+| [flagos-ai/FlagTree](https://github.com/flagos-ai/FlagTree) | 256 | 2026-04-30T09:15:08Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [nianticlabs/spz](https://github.com/nianticlabs/spz) | 759 | 2026-04-30T05:21:16Z | C/C++ | Infrastructure/tooling | 4 | 3 | 5 | 5 |
 | [f32c/f32c](https://github.com/f32c/f32c) | 419 | 2026-04-30T04:55:57Z | C/C++ | Unknown | 7 | 0 | 7 | 7 |
 | [secretflow/spu](https://github.com/secretflow/spu) | 323 | 2026-04-30T04:15:28Z | C/C++ | Infrastructure/tooling | 10 | 14 | 10 | 10 |
@@ -118,17 +120,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mitsuba-renderer/drjit](https://github.com/mitsuba-renderer/drjit) | 763 | 2026-04-23T13:53:25Z | C/C++ | Infrastructure/tooling | 0 | 7 | 0 | 0 |
 | [acts-project/acts](https://github.com/acts-project/acts) | 121 | 2026-04-23T12:38:35Z | C/C++ | Infrastructure/tooling | 12 | 16 | 12 | 12 |
 | [bfgroup/Lyra](https://github.com/bfgroup/Lyra) | 584 | 2026-04-23T12:08:16Z | C/C++ | CLI | 17 | 3 | 17 | 17 |
-| [corporateshark/lightweightvk](https://github.com/corporateshark/lightweightvk) | 426 | 2026-04-23T10:19:43Z | C/C++ | Infrastructure/tooling | 0 | 7 | 0 | 0 |
-| [uxlfoundation/oneCCL](https://github.com/uxlfoundation/oneCCL) | 264 | 2026-04-23T10:13:59Z | C/C++ | Infrastructure/tooling | 9 | 2 | 9 | 9 |
-| [DOCGroup/ACE_TAO](https://github.com/DOCGroup/ACE_TAO) | 758 | 2026-04-23T09:32:28Z | C/C++ | Infrastructure/tooling | 12 | 7 | 12 | 12 |
-| [mysql/mysql-workbench](https://github.com/mysql/mysql-workbench) | 990 | 2026-04-23T09:01:56Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
-| [qbs/qbs](https://github.com/qbs/qbs) | 178 | 2026-04-23T07:18:10Z | C/C++ | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [mysql/mysql-workbench](https://github.com/mysql/mysql-workbench) | 990 | 2026-04-23T09:01:56Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [google/dawn](https://github.com/google/dawn) | 971 | 2026-04-23T21:39:11Z | C/C++ | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [boazsegev/iodine](https://github.com/boazsegev/iodine) | 963 | 2026-04-23T20:01:04Z | C/C++ | Infrastructure/tooling | 11 | 2 | 11 | 11 |
 | [microsoft/WindowsAppSDK-Samples](https://github.com/microsoft/WindowsAppSDK-Samples) | 960 | 2026-04-24T09:10:47Z | C/C++ | Library | 7 | 0 | 7 | 7 |
@@ -142,12 +138,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kleisauke/wasm-vips](https://github.com/kleisauke/wasm-vips) | 861 | 2026-04-25T09:12:46Z | C/C++ | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [freetype/freetype](https://github.com/freetype/freetype) | 817 | 2026-04-28T22:57:33Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [dmlc/treelite](https://github.com/dmlc/treelite) | 814 | 2026-04-27T21:03:22Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 8 |
+| [jellyfin/jellyfin-ffmpeg](https://github.com/jellyfin/jellyfin-ffmpeg) | 797 | 2026-04-30T10:21:41Z | C/C++ | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [RcppCore/Rcpp](https://github.com/RcppCore/Rcpp) | 792 | 2026-04-29T17:44:11Z | C/C++ | Infrastructure/tooling | 13 | 9 | 13 | 13 |
 | [ofiwg/libfabric](https://github.com/ofiwg/libfabric) | 785 | 2026-04-29T14:25:46Z | C/C++ | Infrastructure/tooling | 8 | 15 | 8 | 8 |
 | [mitsuba-renderer/drjit](https://github.com/mitsuba-renderer/drjit) | 763 | 2026-04-23T13:53:25Z | C/C++ | Infrastructure/tooling | 0 | 7 | 0 | 0 |
 | [LunarG/VulkanTools](https://github.com/LunarG/VulkanTools) | 760 | 2026-04-29T15:06:28Z | C/C++ | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [nianticlabs/spz](https://github.com/nianticlabs/spz) | 759 | 2026-04-30T05:21:16Z | C/C++ | Infrastructure/tooling | 4 | 3 | 5 | 5 |
-| [DOCGroup/ACE_TAO](https://github.com/DOCGroup/ACE_TAO) | 758 | 2026-04-23T09:32:28Z | C/C++ | Infrastructure/tooling | 12 | 7 | 12 | 12 |
 | [DiligentGraphics/DiligentCore](https://github.com/DiligentGraphics/DiligentCore) | 736 | 2026-04-27T18:14:48Z | C/C++ | Infrastructure/tooling | 25 | 12 | 25 | 25 |
 | [rmagick/rmagick](https://github.com/rmagick/rmagick) | 729 | 2026-04-25T02:13:41Z | C/C++ | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [bitcoin-core/gui](https://github.com/bitcoin-core/gui) | 714 | 2026-04-23T19:17:06Z | C/C++ | Infrastructure/tooling | 0 | 5 | 0 | 0 |
@@ -170,7 +166,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [openvinotoolkit/openvino.genai](https://github.com/openvinotoolkit/openvino.genai) | 494 | 2026-04-23T16:03:32Z | C/C++ | Infrastructure/tooling | 6 | 19 | 6 | 6 |
 | [antgroup/vsag](https://github.com/antgroup/vsag) | 468 | 2026-04-29T08:45:26Z | C/C++ | Infrastructure/tooling | 12 | 11 | 12 | 12 |
 | [NVIDIA/pyxis](https://github.com/NVIDIA/pyxis) | 431 | 2026-04-29T05:54:39Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [corporateshark/lightweightvk](https://github.com/corporateshark/lightweightvk) | 426 | 2026-04-23T10:19:43Z | C/C++ | Infrastructure/tooling | 0 | 7 | 0 | 0 |
 | [f32c/f32c](https://github.com/f32c/f32c) | 419 | 2026-04-30T04:55:57Z | C/C++ | Unknown | 7 | 0 | 7 | 7 |
 | [ROCm/rccl](https://github.com/ROCm/rccl) | 418 | 2026-04-28T15:36:08Z | C/C++ | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [DiligentGraphics/DiligentFX](https://github.com/DiligentGraphics/DiligentFX) | 414 | 2026-04-29T22:23:52Z | C/C++ | Infrastructure/tooling | 12 | 9 | 12 | 12 |
@@ -194,7 +189,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [llnl/blt](https://github.com/llnl/blt) | 286 | 2026-04-28T19:13:29Z | C/C++ | Unknown | 6 | 0 | 6 | 6 |
 | [sophgo/LLM-TPU](https://github.com/sophgo/LLM-TPU) | 282 | 2026-04-29T08:29:44Z | C/C++ | Infrastructure/tooling | 12 | 2 | 12 | 12 |
 | [GraphBLAS/LAGraph](https://github.com/GraphBLAS/LAGraph) | 266 | 2026-04-28T22:23:23Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [uxlfoundation/oneCCL](https://github.com/uxlfoundation/oneCCL) | 264 | 2026-04-23T10:13:59Z | C/C++ | Infrastructure/tooling | 9 | 2 | 9 | 9 |
+| [flagos-ai/FlagTree](https://github.com/flagos-ai/FlagTree) | 256 | 2026-04-30T09:15:08Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [optiscaler/OptiPatcher](https://github.com/optiscaler/OptiPatcher) | 256 | 2026-04-26T15:38:54Z | C/C++ | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [tile-ai/tilelang-ascend](https://github.com/tile-ai/tilelang-ascend) | 254 | 2026-04-24T02:16:49Z | C/C++ | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [Alpine-DAV/ascent](https://github.com/Alpine-DAV/ascent) | 242 | 2026-04-28T21:33:04Z | C/C++ | Infrastructure/tooling | 7 | 4 | 7 | 7 |
@@ -209,7 +204,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [LedgerHQ/speculos](https://github.com/LedgerHQ/speculos) | 180 | 2026-04-28T11:36:59Z | C/C++ | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [CloverLabsAI/camoufox](https://github.com/CloverLabsAI/camoufox) | 179 | 2026-04-24T22:51:14Z | C/C++ | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [shader-slang/slang-rhi](https://github.com/shader-slang/slang-rhi) | 178 | 2026-04-29T15:22:32Z | C/C++ | Infrastructure/tooling | 4 | 9 | 4 | 4 |
-| [qbs/qbs](https://github.com/qbs/qbs) | 178 | 2026-04-23T07:18:10Z | C/C++ | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [eblerjana/pangenie](https://github.com/eblerjana/pangenie) | 166 | 2026-04-27T09:36:51Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [autowarefoundation/autoware_core](https://github.com/autowarefoundation/autoware_core) | 164 | 2026-04-29T08:48:51Z | C/C++ | Infrastructure/tooling | 16 | 21 | 17 | 17 |
 | [libbitcoin/libbitcoin-server](https://github.com/libbitcoin/libbitcoin-server) | 164 | 2026-04-26T07:11:23Z | C/C++ | Infrastructure/tooling | 3 | 6 | 3 | 3 |

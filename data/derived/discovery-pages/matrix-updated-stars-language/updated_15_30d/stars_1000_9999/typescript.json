@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5167,
-    "concepts": 960,
-    "observations": 963,
-    "repos": 132,
-    "terms": 1070
+    "components": 5240,
+    "concepts": 972,
+    "observations": 975,
+    "repos": 136,
+    "terms": 1082
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
     "abrahamjuliot/creepjs",
     "actions/cache",
     "actions/setup-java",
+    "actions/setup-node",
+    "actions/setup-python",
     "actions/toolkit",
     "actions/typescript-action",
     "actions/upload-artifact",
@@ -105,7 +107,6 @@
     "microsoft/vscode-js-debug",
     "microsoft/vscode-languageserver-node",
     "mksglu/context-mode",
-    "Mobile-Artificial-Intelligence/maid",
     "mutoe/vue3-realworld-example-app",
     "netlify/cli",
     "ngx-translate/core",
@@ -136,8 +137,10 @@
     "streamich/memfs",
     "stripe/ai",
     "stripe/stripe-node",
+    "tailwindlabs/prettier-plugin-tailwindcss",
     "tensorflow/tensorboard",
     "the-guild-org/apollo-angular",
+    "thomasloven/lovelace-card-mod",
     "thx/resvg-js",
     "TooTallNate/proxy-agents",
     "vega/vega-lite",
@@ -145,6 +148,7 @@
     "vuejs/eslint-plugin-vue",
     "webgpu/webgpu-samples",
     "wighawag/hardhat-deploy",
-    "withastro/starlight"
+    "withastro/starlight",
+    "yarnpkg/berry"
   ]
 }

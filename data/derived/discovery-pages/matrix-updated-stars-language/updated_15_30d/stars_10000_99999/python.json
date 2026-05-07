@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1251,
-    "concepts": 1121,
-    "observations": 1125,
-    "repos": 117,
-    "terms": 1148
+    "components": 1289,
+    "concepts": 1208,
+    "observations": 1212,
+    "repos": 122,
+    "terms": 1235
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -25,6 +25,8 @@
     "alchaincyf/nuwa-skill",
     "alirezarezvani/claude-skills",
     "anthropics/claude-plugins-official",
+    "apache/airflow",
+    "apache/tvm",
     "astral-sh/ty",
     "benoitc/gunicorn",
     "bentoml/OpenLLM",
@@ -35,6 +37,7 @@
     "caronc/apprise",
     "Chia-Network/chia-blockchain",
     "codelucas/newspaper",
+    "cookiecutter/cookiecutter-django",
     "cupy/cupy",
     "danielgatis/rembg",
     "dask/dask",
@@ -123,7 +126,9 @@
     "squidfunk/mkdocs-material",
     "stanfordnlp/dspy",
     "Textualize/rich",
+    "Textualize/textual",
     "titanwings/colleague-skill",
+    "ultralytics/ultralytics",
     "unslothai/unsloth",
     "vllm-project/vllm",
     "voxel51/fiftyone",

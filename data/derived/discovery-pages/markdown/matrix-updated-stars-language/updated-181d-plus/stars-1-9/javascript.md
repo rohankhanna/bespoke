@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · JavaScript
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 121
-- terms: 184
-- components: 1471
-- concepts: 184
-- observations: 185
+- repos: 123
+- terms: 199
+- components: 1501
+- concepts: 199
+- observations: 200
 
 ## Static behavior
 
@@ -35,6 +35,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [libp2p/js-libp2p-example-auto-tls](https://github.com/libp2p/js-libp2p-example-auto-tls) | 5 | 2025-09-30T08:40:10Z | JavaScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
 | [cartocss/carto](https://github.com/cartocss/carto) | 7 | 2025-09-17T10:28:12Z | JavaScript | Unknown | 0 | 12 | 0 | 0 |
 | [kellyselden/git-diff-apply](https://github.com/kellyselden/git-diff-apply) | 9 | 2025-09-12T05:05:50Z | JavaScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
+| [joanroig/admincraft-websocket](https://github.com/joanroig/admincraft-websocket) | 8 | 2025-09-09T21:14:25Z | JavaScript | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 | [aralyekta/prompttester](https://github.com/aralyekta/prompttester) | 8 | 2025-08-13T21:20:08Z | JavaScript | Unknown | 6 | 8 | 6 | 6 |
 | [angular/dev-infra-private-build-tooling-builds](https://github.com/angular/dev-infra-private-build-tooling-builds) | 3 | 2025-08-06T22:27:37Z | JavaScript | Web app | 0 | 133 | 0 | 0 |
 | [openxrlab/xrviewer](https://github.com/openxrlab/xrviewer) | 6 | 2025-06-30T08:10:14Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
@@ -52,6 +53,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Homebox-Desktop-Wrapper-AppImage](https://github.com/danielrosehill/Homebox-Desktop-Wrapper-AppImage) | 2 | 2025-02-24T15:37:45Z | JavaScript | Unknown | 0 | 4 | 0 | 0 |
 | [wa-lang/webgpu](https://github.com/wa-lang/webgpu) | 3 | 2025-02-17T01:30:51Z | JavaScript | Unknown | 2 | 0 | 2 | 2 |
 | [codesyntax/volto-countup-block](https://github.com/codesyntax/volto-countup-block) | 2 | 2024-12-05T19:20:37Z | JavaScript | Infrastructure/tooling | 6 | 10 | 6 | 6 |
+| [evmos/docs](https://github.com/evmos/docs) | 7 | 2024-11-19T11:23:42Z | JavaScript | Infrastructure/tooling | 5 | 19 | 5 | 5 |
 | [seamapi/node-websocat](https://github.com/seamapi/node-websocat) | 3 | 2024-11-19T01:52:01Z | JavaScript | Infrastructure/tooling | 3 | 16 | 3 | 3 |
 | [hchiam/learning-firestore](https://github.com/hchiam/learning-firestore) | 1 | 2024-11-04T03:35:06Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [hardfist/purge-tailwind-plugin](https://github.com/hardfist/purge-tailwind-plugin) | 5 | 2024-11-02T13:45:17Z | JavaScript | Web app | 0 | 8 | 0 | 0 |
@@ -157,6 +159,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [amilajack/eslint-plugin-compat-demo](https://github.com/amilajack/eslint-plugin-compat-demo) | 9 | 2021-10-18T19:25:59Z | JavaScript | Unknown | 4 | 2 | 4 | 4 |
 | [storybookjs/addon-design-assets](https://github.com/storybookjs/addon-design-assets) | 9 | 2021-05-08T10:22:19Z | JavaScript | Infrastructure/tooling | 1 | 22 | 1 | 1 |
 | [gost-dom/project-harmony](https://github.com/gost-dom/project-harmony) | 8 | 2025-10-19T17:31:42Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
+| [joanroig/admincraft-websocket](https://github.com/joanroig/admincraft-websocket) | 8 | 2025-09-09T21:14:25Z | JavaScript | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 | [aralyekta/prompttester](https://github.com/aralyekta/prompttester) | 8 | 2025-08-13T21:20:08Z | JavaScript | Unknown | 6 | 8 | 6 | 6 |
 | [modelscope/Trinity-Studio](https://github.com/modelscope/Trinity-Studio) | 8 | 2025-05-26T06:41:07Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [SWHL/ProcessLaTeXFormulaTools](https://github.com/SWHL/ProcessLaTeXFormulaTools) | 8 | 2024-05-30T14:00:00Z | JavaScript | Infrastructure/tooling | 3 | 4 | 3 | 3 |
@@ -169,6 +172,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [libp2p/js-libp2p-example-circuit-relay](https://github.com/libp2p/js-libp2p-example-circuit-relay) | 7 | 2025-09-30T08:40:11Z | JavaScript | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [libp2p/js-libp2p-example-browser-pubsub](https://github.com/libp2p/js-libp2p-example-browser-pubsub) | 7 | 2025-09-30T08:40:11Z | JavaScript | Infrastructure/tooling | 4 | 18 | 4 | 4 |
 | [cartocss/carto](https://github.com/cartocss/carto) | 7 | 2025-09-17T10:28:12Z | JavaScript | Unknown | 0 | 12 | 0 | 0 |
+| [evmos/docs](https://github.com/evmos/docs) | 7 | 2024-11-19T11:23:42Z | JavaScript | Infrastructure/tooling | 5 | 19 | 5 | 5 |
 | [kosmtik/kosmtik-map-compare](https://github.com/kosmtik/kosmtik-map-compare) | 7 | 2023-10-23T10:21:06Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [higlass/higlass-app](https://github.com/higlass/higlass-app) | 7 | 2023-09-21T02:44:09Z | JavaScript | Infrastructure/tooling | 3 | 95 | 3 | 3 |
 | [derhuerst/tap-min](https://github.com/derhuerst/tap-min) | 7 | 2023-08-20T11:42:01Z | JavaScript | Infrastructure/tooling | 1 | 8 | 1 | 1 |

@@ -1,31 +1,29 @@
 {
   "counts": {
-    "components": 1319,
-    "concepts": 636,
-    "observations": 640,
-    "repos": 51,
-    "terms": 645
+    "components": 1265,
+    "concepts": 590,
+    "observations": 593,
+    "repos": 48,
+    "terms": 599
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "anthropics/claude-cookbooks",
-    "apache/brpc",
     "apache/casbin",
     "argotorg/solidity",
     "astral-sh/ruff",
+    "crewAIInc/crewAI",
     "Dao-AILab/flash-attention",
-    "datalab-to/surya",
     "deepspeedai/DeepSpeed",
-    "emotion-js/emotion",
-    "fastapi/full-stack-fastapi-template",
     "flipped-aurora/gin-vue-admin",
     "gastownhall/beads",
     "gastownhall/gastown",
+    "ggml-org/whisper.cpp",
     "google-ai-edge/mediapipe",
     "googleapis/google-api-nodejs-client",
     "great-expectations/great_expectations",
@@ -33,7 +31,6 @@
     "hiyouga/LlamaFactory",
     "huggingface/sentence-transformers",
     "HumanSignal/label-studio",
-    "isl-org/Open3D",
     "jax-ml/jax",
     "jestjs/jest",
     "langchain-ai/langchainjs",
@@ -51,6 +48,7 @@
     "OpenHands/OpenHands",
     "pydantic/pydantic",
     "QuantumNous/new-api",
+    "quickwit-oss/tantivy",
     "rerun-io/rerun",
     "run-llama/llama_index",
     "rust-lang/rust-analyzer",
@@ -62,7 +60,6 @@
     "upptime/upptime",
     "vbenjs/vue-vben-admin",
     "verl-project/verl",
-    "weaviate/weaviate",
-    "zhayujie/CowAgent"
+    "weaviate/weaviate"
   ]
 }

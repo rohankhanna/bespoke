@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-05-07T05:41:41.352230+00:00`
+Generated at: `2026-05-07T10:58:32.162222+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 29
-- terms: 150
-- components: 756
-- concepts: 150
-- observations: 150
+- repos: 28
+- terms: 145
+- components: 730
+- concepts: 145
+- observations: 145
 
 ## Static behavior
 
@@ -29,6 +29,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nuxt-modules/emotion](https://github.com/nuxt-modules/emotion) | 92 | 2026-05-04T23:26:34Z | TypeScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
 | [GoogleCloudPlatform/opentelemetry-demo](https://github.com/GoogleCloudPlatform/opentelemetry-demo) | 26 | 2026-05-04T22:38:28Z | TypeScript | Infrastructure/tooling | 6 | 16 | 6 | 6 |
 | [ogx-ai/ogx-client-typescript](https://github.com/ogx-ai/ogx-client-typescript) | 95 | 2026-05-04T20:45:30Z | TypeScript | Infrastructure/tooling | 3 | 30 | 3 | 3 |
+| [julia-actions/install-juliaup](https://github.com/julia-actions/install-juliaup) | 19 | 2026-05-04T19:52:33Z | TypeScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
 | [abaplint/transpiler](https://github.com/abaplint/transpiler) | 99 | 2026-05-04T16:20:50Z | TypeScript | Infrastructure/tooling | 5 | 31 | 5 | 5 |
 | [maplibre/maplibre-gl-inspect](https://github.com/maplibre/maplibre-gl-inspect) | 65 | 2026-05-04T05:17:00Z | TypeScript | Infrastructure/tooling | 8 | 21 | 8 | 8 |
 | [universal-ember/reactiveweb](https://github.com/universal-ember/reactiveweb) | 18 | 2026-05-04T00:43:18Z | TypeScript | Infrastructure/tooling | 17 | 17 | 17 | 17 |
@@ -53,8 +54,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [seung-lab/neuroglancer](https://github.com/seung-lab/neuroglancer) | 25 | 2026-04-30T18:27:41Z | TypeScript | Infrastructure/tooling | 1 | 66 | 1 | 1 |
 | [rapideditor/location-conflation](https://github.com/rapideditor/location-conflation) | 17 | 2026-04-30T13:40:28Z | TypeScript | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [jest-community/eslint-plugin-jest-extended](https://github.com/jest-community/eslint-plugin-jest-extended) | 22 | 2026-04-30T11:56:43Z | TypeScript | Infrastructure/tooling | 5 | 49 | 5 | 5 |
-| [obsidianmd/eslint-plugin](https://github.com/obsidianmd/eslint-plugin) | 65 | 2026-04-30T10:33:43Z | TypeScript | Infrastructure/tooling | 4 | 36 | 4 | 4 |
-| [coasys/flux](https://github.com/coasys/flux) | 19 | 2026-04-30T07:35:38Z | TypeScript | Infrastructure/tooling | 2 | 13 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -73,14 +72,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jbaubree/vite-plugin-pages-sitemap](https://github.com/jbaubree/vite-plugin-pages-sitemap) | 75 | 2026-05-01T18:52:39Z | TypeScript | Infrastructure/tooling | 0 | 15 | 0 | 0 |
 | [suzuki-shunsuke/pinact-action](https://github.com/suzuki-shunsuke/pinact-action) | 68 | 2026-05-01T14:26:28Z | TypeScript | Infrastructure/tooling | 10 | 25 | 10 | 10 |
 | [maplibre/maplibre-gl-inspect](https://github.com/maplibre/maplibre-gl-inspect) | 65 | 2026-05-04T05:17:00Z | TypeScript | Infrastructure/tooling | 8 | 21 | 8 | 8 |
-| [obsidianmd/eslint-plugin](https://github.com/obsidianmd/eslint-plugin) | 65 | 2026-04-30T10:33:43Z | TypeScript | Infrastructure/tooling | 4 | 36 | 4 | 4 |
 | [aggre/ullr](https://github.com/aggre/ullr) | 64 | 2026-05-01T16:41:05Z | TypeScript | Infrastructure/tooling | 0 | 27 | 0 | 0 |
 | [rstackjs/rsbuild-plugin-tailwindcss](https://github.com/rstackjs/rsbuild-plugin-tailwindcss) | 53 | 2026-05-01T00:35:14Z | TypeScript | Infrastructure/tooling | 6 | 16 | 6 | 6 |
 | [csm-actions/securefix-action](https://github.com/csm-actions/securefix-action) | 39 | 2026-05-02T13:58:17Z | TypeScript | Infrastructure/tooling | 11 | 28 | 11 | 11 |
 | [GoogleCloudPlatform/opentelemetry-demo](https://github.com/GoogleCloudPlatform/opentelemetry-demo) | 26 | 2026-05-04T22:38:28Z | TypeScript | Infrastructure/tooling | 6 | 16 | 6 | 6 |
 | [seung-lab/neuroglancer](https://github.com/seung-lab/neuroglancer) | 25 | 2026-04-30T18:27:41Z | TypeScript | Infrastructure/tooling | 1 | 66 | 1 | 1 |
 | [jest-community/eslint-plugin-jest-extended](https://github.com/jest-community/eslint-plugin-jest-extended) | 22 | 2026-04-30T11:56:43Z | TypeScript | Infrastructure/tooling | 5 | 49 | 5 | 5 |
-| [coasys/flux](https://github.com/coasys/flux) | 19 | 2026-04-30T07:35:38Z | TypeScript | Infrastructure/tooling | 2 | 13 | 2 | 2 |
+| [julia-actions/install-juliaup](https://github.com/julia-actions/install-juliaup) | 19 | 2026-05-04T19:52:33Z | TypeScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
 | [universal-ember/reactiveweb](https://github.com/universal-ember/reactiveweb) | 18 | 2026-05-04T00:43:18Z | TypeScript | Infrastructure/tooling | 17 | 17 | 17 | 17 |
 | [iconify/iconify-tailwind](https://github.com/iconify/iconify-tailwind) | 18 | 2026-05-02T05:59:54Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
 | [rapideditor/location-conflation](https://github.com/rapideditor/location-conflation) | 17 | 2026-04-30T13:40:28Z | TypeScript | Infrastructure/tooling | 7 | 16 | 7 | 7 |

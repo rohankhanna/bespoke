@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 345,
-    "concepts": 612,
-    "observations": 612,
-    "repos": 97,
-    "terms": 607
+    "components": 352,
+    "concepts": 637,
+    "observations": 637,
+    "repos": 100,
+    "terms": 631
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "AgentOps-AI/agentops",
@@ -34,6 +34,7 @@
     "davidhalter/jedi",
     "deepspeedai/DeepSpeedExamples",
     "DepthAnything/Depth-Anything-V2",
+    "devnen/Chatterbox-TTS-Server",
     "django/channels",
     "django/daphne",
     "docarray/docarray",
@@ -81,6 +82,7 @@
     "PaddlePaddle/PaddleClas",
     "pdfminer/pdfminer.six",
     "Peterande/D-FINE",
+    "Pointcept/Pointcept",
     "PyCQA/flake8-bugbear",
     "Pylons/pyramid",
     "pytest-dev/pytest-cov",
@@ -96,6 +98,7 @@
     "snakers4/silero-vad",
     "SWE-bench/SWE-bench",
     "tabatkins/railroad-diagrams",
+    "Tencent-Hunyuan/HunyuanVideo-I2V",
     "TencentCloudADP/youtu-agent",
     "tensorflow/datasets",
     "Textualize/rich-cli",

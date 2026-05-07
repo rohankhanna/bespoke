@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 658,
-    "concepts": 1397,
-    "observations": 1399,
-    "repos": 793,
-    "terms": 1378
+    "components": 662,
+    "concepts": 1417,
+    "observations": 1419,
+    "repos": 801,
+    "terms": 1398
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -44,6 +44,7 @@
     "acpopescu/bitsandbytes",
     "ActiveVisionLab/direct-posenet",
     "ActiveVisionLab/NeFeS",
+    "ada-cheng/CAT-Pruning",
     "Adlik/model_optimizer",
     "Adlik/smoothquantplus",
     "Advocate99/DragDiffusion",
@@ -334,6 +335,7 @@
     "ethancaballero/description2code",
     "ethansmith2000/comfy-todo",
     "ethereum/ddht",
+    "EvelynZhang-epiclab/SiTo",
     "evuraan/mintPiper",
     "Extraltodeus/Conditioning-token-experiments-for-ComfyUI",
     "Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI",
@@ -448,6 +450,7 @@
     "intelligent-machine-learning/atorch",
     "IntelPython/smp",
     "IntentDev/TopArray",
+    "InternScience/AdaptiveDiffusion",
     "interstar/ThoughtStorms",
     "intuitive-robots/beso",
     "ionelmc/tox-wheel",
@@ -634,6 +637,7 @@
     "patil-suraj/vqgan-jax",
     "pblatter/ettrack",
     "pdcxs/manimprojects",
+    "petercorke/pgraph-python",
     "petersn/autosat",
     "pkulwj1994/diff_instruct",
     "placeforyiming/IROS21-FIDNet-SemanticKITTI",
@@ -692,6 +696,7 @@
     "sdbds/YuE-for-windows",
     "ServiceNow/DoomArena",
     "ShadeCloak/ADORA",
+    "Shenyi-Z/Cache4Diffusion",
     "Shenyi-Z/DuCa",
     "SHI-Labs/Text2Video-Zero-sd-webui",
     "Shimingyi/ARP-Batch-Retargeting",
@@ -725,6 +730,7 @@
     "SWHL/ConvertLaTeXOCRToONNX",
     "Table-R1/Table-R1",
     "tabnine/YouCompleteMe",
+    "taehong-moon/ee-diffusion",
     "taichi-dev/advanced_examples",
     "takuma104/diffusers",
     "takuseno/d3rlpy-benchmarks",
@@ -735,6 +741,7 @@
     "textmate/javascript.tmbundle",
     "Thartvigsen/GRACE",
     "thedatumorg/TSB-AutoAD",
+    "thu-nics/MixDQ",
     "thudm/multilingual-glm",
     "THUDM/NaturalCodeBench",
     "THUDM/TreeRL",
@@ -760,6 +767,7 @@
     "UKPLab/useb",
     "umarbutler/orjsonl",
     "UnitedHuman/UnitedHuman",
+    "usdot-fhwa-stol/opendrive2lanelet",
     "VisionSystemsInc/face-parsing.PyTorch",
     "VITA-Group/FreeTickets",
     "VITA-Group/GraNet",

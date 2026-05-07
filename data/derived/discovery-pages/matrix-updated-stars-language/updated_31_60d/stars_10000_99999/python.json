@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 165,
-    "concepts": 203,
-    "observations": 203,
+    "concepts": 199,
+    "observations": 199,
     "repos": 35,
-    "terms": 208
+    "terms": 204
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "3b1b/videos",
     "666ghj/MiroFish",
     "allenai/olmocr",
     "chriskiehl/Gooey",
     "cookiecutter/cookiecutter",
-    "cool-RR/PySnooper",
     "CorentinJ/Real-Time-Voice-Cloning",
     "deepinsight/insightface",
     "delgan/loguru",
@@ -43,6 +42,7 @@
     "PKU-YuanGroup/Open-Sora-Plan",
     "powerline/powerline",
     "prompt-toolkit/python-prompt-toolkit",
+    "QwenLM/Qwen3-Coder",
     "QwenLM/Qwen3-TTS",
     "resemble-ai/chatterbox",
     "subframe7536/maple-font",

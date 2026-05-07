@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 91,
-    "concepts": 93,
-    "observations": 93,
-    "repos": 31,
-    "terms": 93
+    "components": 110,
+    "concepts": 109,
+    "observations": 109,
+    "repos": 32,
+    "terms": 109
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "appsignal/appsignal-elixir-plug",
@@ -23,7 +23,6 @@
     "bennyyip/dot-vim",
     "Blosc/blogsite",
     "cgrindel/rules_swiftformat",
-    "conda-forge/croc-feedstock",
     "cosmos/security",
     "curiousdannii/emglken",
     "dotenvx/homebrew-brew",
@@ -36,6 +35,7 @@
     "jk10001/aquainsightai",
     "JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl",
     "KhronosGroup/KTX-Software-CTS",
+    "lintnet-modules/ghalint",
     "localstack/homebrew-tap",
     "mozilla-mobile/fxios-ctl",
     "moznion/sbt-spotless",
@@ -43,6 +43,7 @@
     "php-rdkafka/php-rdkafka-doc",
     "rmsrosa/rmsrosa.github.io",
     "ros2-rust/rosidl_rust",
+    "stable-haskell/cabal",
     "tinted-theming/base16-waybar",
     "v-iashin/v-iashin.github.io"
   ]

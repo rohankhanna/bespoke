@@ -3,7 +3,7 @@
     "components": 173,
     "concepts": 194,
     "observations": 194,
-    "repos": 80,
+    "repos": 81,
     "terms": 203
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-07T05:41:41.352230+00:00",
+  "generated_at": "2026-05-07T10:58:32.162222+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "Adlik/vllm",
@@ -71,6 +71,7 @@
     "opea-project/docs",
     "OpenVoiceOS/ovos-tts-plugin-piper",
     "pfnet-research/tgan2",
+    "philipy1219/ComfyUI-TaylorSeer",
     "pycompression/python-zlib-ng",
     "ReneHollander/rep0st",
     "robotools/ufo2fdk",
