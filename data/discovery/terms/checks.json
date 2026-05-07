@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -436,6 +436,31 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "kloudfuse/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "opensearch-project/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "kubeshop/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "signalfx/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "liatrio/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "petercorke/sphinx-autorun"
     }
   ],
   "term": "Checks"

@@ -1,0 +1,131 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "mattn/go-runewidth",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "mattn/go-runewidth",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "mattn/go-runewidth",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "mattn/go-runewidth",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mattn/go-runewidth",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mattn/go-runewidth",
+      "target": "wcwidth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mattn/go-runewidth",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T02:52:07.783315+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 825
+    },
+    {
+      "path": "go.mod",
+      "size": 95
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 648
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "wcwidth for golang",
+    "fork": false,
+    "full_name": "mattn/go-runewidth",
+    "html_url": "https://github.com/mattn/go-runewidth",
+    "language": "Go",
+    "pushed_at": "2026-04-18T13:32:32Z",
+    "stargazers_count": 695,
+    "topics": [
+      "go",
+      "golang",
+      "wcwidth",
+      "windows"
+    ],
+    "updated_at": "2026-05-04T04:37:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "go-runewidth",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "go-runewidth",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wcwidth"
+    },
+    {
+      "context_snippet": "go-runewidth",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

@@ -79,6 +79,18 @@
       "source_repo": "Bruce-Lee-LY/cuda_hgemm",
       "status": "candidate-context",
       "text": "Several optimization methods of half-precision general matrix multiplication (HGEMM) using tensor core with WMMA API and MMA PTX instruction. The calculation expression is as follows, where the precision of matrix A (M * K), B (K * N) and C (M * N) is FP16. Through exploring var\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cp2k/dbcsr",
+      "status": "candidate-context",
+      "text": "DBCSR: Distributed Block Compressed Sparse Row matrix library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cp2k/dbcsr",
+      "status": "candidate-context",
+      "text": "[![Build Status Linux](https://github.com/cp2k/dbcsr/actions/workflows/testing-linux.yml/badge.svg)](https://github.com/cp2k/dbcsr/actions/workflows/testing-linux.yml) [![Build Status MacOS](https://github.com/cp2k/dbcsr/actions/workflows/testing-macos.yml/badge.svg)](https://gi\u2026"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "Bruce-Lee-LY/cuda_hgemm",
       "status": "candidate",
       "text": "Several optimization methods of half-precision general matrix multiplication (HGEMM) using tensor core with WMMA API and MMA PTX instruction. The calculation expression is as follows, where the precision of matrix A (M * K), B (K * N) and C (M * N) is FP16. Through exploring var\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cp2k/dbcsr",
+      "status": "candidate",
+      "text": "[![Build Status Linux](https://github.com/cp2k/dbcsr/actions/workflows/testing-linux.yml/badge.svg)](https://github.com/cp2k/dbcsr/actions/workflows/testing-linux.yml) [![Build Status MacOS](https://github.com/cp2k/dbcsr/actions/workflows/testing-macos.yml/badge.svg)](https://gi\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -262,11 +280,23 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": null,
       "source_repo": "ROCm/hipBLASLt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "cp2k/dbcsr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/hipBLASLt"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

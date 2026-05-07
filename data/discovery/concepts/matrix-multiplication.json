@@ -91,6 +91,18 @@
       "source_repo": "libxsmm/libxsmm",
       "status": "candidate-context",
       "text": "[![BSD 3-Clause License](https://img.shields.io/badge/license-BSD3-blue.svg \"BSD 3-Clause License\")](LICENSE.md) [![GCC Build Status](https://badge.buildkite.com/2e962d4cfc7ddb10a6cd6c27b0d8033edf179a799e156cb363.svg?branch=main \"GCC Build Status\")](https://github.com/libxsmm/li\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cp2k/dbcsr",
+      "status": "candidate-context",
+      "text": "DBCSR: Distributed Block Compressed Sparse Row matrix library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cp2k/dbcsr",
+      "status": "candidate-context",
+      "text": "[![Build Status Linux](https://github.com/cp2k/dbcsr/actions/workflows/testing-linux.yml/badge.svg)](https://github.com/cp2k/dbcsr/actions/workflows/testing-linux.yml) [![Build Status MacOS](https://github.com/cp2k/dbcsr/actions/workflows/testing-macos.yml/badge.svg)](https://gi\u2026"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "libxsmm/libxsmm",
       "status": "candidate",
       "text": "[![BSD 3-Clause License](https://img.shields.io/badge/license-BSD3-blue.svg \"BSD 3-Clause License\")](LICENSE.md) [![GCC Build Status](https://badge.buildkite.com/2e962d4cfc7ddb10a6cd6c27b0d8033edf179a799e156cb363.svg?branch=main \"GCC Build Status\")](https://github.com/libxsmm/li\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cp2k/dbcsr",
+      "status": "candidate",
+      "text": "[![Build Status Linux](https://github.com/cp2k/dbcsr/actions/workflows/testing-linux.yml/badge.svg)](https://github.com/cp2k/dbcsr/actions/workflows/testing-linux.yml) [![Build Status MacOS](https://github.com/cp2k/dbcsr/actions/workflows/testing-macos.yml/badge.svg)](https://gi\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -370,11 +388,23 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": null,
       "source_repo": "ROCm/hipBLASLt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "cp2k/dbcsr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/hipBLASLt"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

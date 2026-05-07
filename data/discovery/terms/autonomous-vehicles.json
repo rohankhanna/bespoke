@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -86,6 +86,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "usdot-fhwa-stol/carma-platform"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "erdos-project/pylot"
     }
   ],
   "term": "autonomous-vehicles"

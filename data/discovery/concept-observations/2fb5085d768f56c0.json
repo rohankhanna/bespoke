@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Evmos is the canonical EVM chain on Cosmos. Evmos is the flagship implementation of evmOS, a stack to build forward compatible EVMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!--"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!--"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "golang",
+      "sense_id": "golang#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "golang",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "golang",
+  "observation_id": "2fb5085d768f56c0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_text": "golang",
+  "source_context_snippet": "<!--",
+  "source_file": null,
+  "source_repo": "evmos/evmos",
+  "source_repo_description": "Evmos is the canonical EVM chain on Cosmos. Evmos is the flagship implementation of evmOS, a stack to build forward compatible EVMs"
+}

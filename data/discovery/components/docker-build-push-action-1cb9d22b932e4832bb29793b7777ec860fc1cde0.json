@@ -1,0 +1,12 @@
+{
+  "component": "docker/build-push-action@1cb9d22b932e4832bb29793b7777ec860fc1cde0",
+  "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "bianjieai/ibc-go"
+    }
+  ]
+}

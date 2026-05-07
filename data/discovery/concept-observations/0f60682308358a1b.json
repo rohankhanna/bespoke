@@ -84,7 +84,7 @@
   "normalized_form": "issue-labeled",
   "observation_id": "0f60682308358a1b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-06T12:51:12.481137+00:00",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
   "observed_text": "Issue Labeled",
   "source_context_snippet": "Issue Labeled",
   "source_file": ".github/workflows/issue-labeled.yml",

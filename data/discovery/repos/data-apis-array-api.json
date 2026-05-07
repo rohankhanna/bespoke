@@ -1,0 +1,186 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pre-commit-ci/lite-action@v1.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "larsoner/circleci-artifacts-redirector-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "data-apis/array-api",
+      "target": "all-contributors/all-contributors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "data-apis/array-api",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "data-apis/array-api",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "data-apis/array-api",
+      "target": "pre-commit/action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "data-apis/array-api",
+      "target": "pre-commit-ci/lite-action@v1.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "data-apis/array-api",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "data-apis/array-api",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview.yml",
+      "source_repo": "data-apis/array-api",
+      "target": "larsoner/circleci-artifacts-redirector-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "data-apis/array-api",
+      "target": "pydata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "data-apis/array-api",
+      "target": "spec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "data-apis/array-api",
+      "target": "standard",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T02:53:33.592366+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30037
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 728
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1509
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "size": 3724
+    },
+    {
+      "path": ".github/workflows/preview.yml",
+      "size": 616
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RFC document, tooling and other content related to the array API standard",
+    "fork": false,
+    "full_name": "data-apis/array-api",
+    "html_url": "https://github.com/data-apis/array-api",
+    "language": "Python",
+    "pushed_at": "2026-04-23T17:13:42Z",
+    "stargazers_count": 267,
+    "topics": [
+      "pydata",
+      "spec",
+      "standard"
+    ],
+    "updated_at": "2026-04-25T15:06:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "all-contributors/all-contributors",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pydata"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spec"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standard"
+    }
+  ]
+}

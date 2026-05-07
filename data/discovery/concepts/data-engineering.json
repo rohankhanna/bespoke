@@ -151,6 +151,18 @@
       "source_repo": "daochenzha/data-centric-AI",
       "status": "candidate-context",
       "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "great-expectations/great_expectations",
+      "status": "candidate-context",
+      "text": "Always know what to expect from your data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "great-expectations/great_expectations",
+      "status": "candidate-context",
+      "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/great_expectations.svg)](https://pypi.python.org/pypi/great_expectations)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "daochenzha/data-centric-AI",
       "status": "candidate",
       "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "great-expectations/great_expectations",
+      "status": "candidate",
+      "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/great_expectations.svg)](https://pypi.python.org/pypi/great_expectations)"
     }
   ],
   "candidate_related_terms": [],
@@ -310,11 +328,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "daochenzha/data-centric-AI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "great-expectations/great_expectations"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

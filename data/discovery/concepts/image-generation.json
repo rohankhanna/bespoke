@@ -727,6 +727,18 @@
       "source_repo": "PaddlePaddle/PaddleGAN",
       "status": "candidate-context",
       "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "status": "candidate-context",
+      "text": "\ud83d\udcda Collection of awesome generation acceleration resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -1089,6 +1101,12 @@
       "source_repo": "PaddlePaddle/PaddleGAN",
       "status": "candidate",
       "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "status": "candidate",
+      "text": "<div align=center>"
     }
   ],
   "candidate_related_terms": [],
@@ -1792,11 +1810,35 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "showlab/VisorGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

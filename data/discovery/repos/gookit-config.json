@@ -1,0 +1,469 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "WillAbides/setup-go-faster@v1.15.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "shogo82148/actions-goveralls@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "shogo82148/actions-goveralls@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "WillAbides/setup-go-faster@v1.15.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "docker://morphy/revive-action:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "reviewdog/action-staticcheck@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gookit/config",
+      "target": "gookit/event",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gookit/config",
+      "target": "gookit/filter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gookit/config",
+      "target": "goccy/go-json",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gookit/config",
+      "target": "goccy/go-yaml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gookit/config",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gookit/config",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gookit/config",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gookit/config",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gookit/config",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "gookit/config",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "gookit/config",
+      "target": "WillAbides/setup-go-faster@v1.15.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "gookit/config",
+      "target": "shogo82148/actions-goveralls@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "gookit/config",
+      "target": "Unit-Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gookit/config",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gookit/config",
+      "target": "WillAbides/setup-go-faster@v1.15.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gookit/config",
+      "target": "docker://morphy/revive-action:v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gookit/config",
+      "target": "reviewdog/action-staticcheck@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gookit/config",
+      "target": "CodeLinter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gookit/config",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gookit/config",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gookit/config",
+      "target": "Tag-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/config",
+      "target": "config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/config",
+      "target": "config-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/config",
+      "target": "configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/config",
+      "target": "configuration-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/config",
+      "target": "flags",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/config",
+      "target": "goconfig",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/config",
+      "target": "gookit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/config",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/config",
+      "target": "properties",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/config",
+      "target": "toml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/config",
+      "target": "yaml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T02:52:20.212808+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16069
+    },
+    {
+      "path": "go.mod",
+      "size": 555
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2721
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 1190
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1138
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1263
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udcdd Go configuration manage(load,get,set,export). support JSON, YAML, TOML, Properties, INI, HCL, ENV and Flags. Multi file load, data override merge, parse ENV var. Go\u5e94\u7528\u914d\u7f6e\u52a0\u8f7d\u7ba1\u7406\uff0c\u652f\u6301\u591a\u79cd\u683c\u5f0f\uff0c\u591a\u6587\u4ef6\u52a0\u8f7d\uff0c\u8fdc\u7a0b\u6587\u4ef6\u52a0\u8f7d\uff0c\u652f\u6301\u6570\u636e\u5408\u5e76\uff0c\u89e3\u6790\u73af\u5883\u53d8\u91cf\u540d",
+    "fork": false,
+    "full_name": "gookit/config",
+    "html_url": "https://github.com/gookit/config",
+    "language": "Go",
+    "pushed_at": "2026-05-05T02:29:34Z",
+    "stargazers_count": 584,
+    "topics": [
+      "config",
+      "config-management",
+      "configuration",
+      "configuration-management",
+      "flags",
+      "goconfig",
+      "gookit",
+      "hcl",
+      "ini",
+      "json",
+      "properties",
+      "toml",
+      "yaml"
+    ],
+    "updated_at": "2026-05-05T02:16:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "goccy/go-json",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "goccy/go-yaml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gookit/event",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gookit/filter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Unit-Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "term": "Unit-Tests"
+    },
+    {
+      "context_snippet": "CodeLinter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "CodeLinter"
+    },
+    {
+      "context_snippet": "Tag-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Tag-release"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/config?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "config"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/config?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "config-management"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/config?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "configuration"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/config?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "configuration-management"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/config?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flags"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/config?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "goconfig"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/config?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gookit"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/config?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/config?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "properties"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/config?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toml"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/config?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yaml"
+    }
+  ]
+}

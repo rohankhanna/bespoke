@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "earthquake"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "3343/edge",
+      "status": "candidate-context",
+      "text": "Extreme-scale Discontinuous Galerkin Environment (EDGE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3343/edge",
+      "status": "candidate-context",
+      "text": "* *advection (1D)*:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3343/edge",
+      "status": "candidate",
+      "text": "* *advection (1D)*:"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39765449,
+      "status": "candidate",
+      "text": "seism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39765428,
+      "status": "candidate",
+      "text": "temblor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39546344,
+      "status": "candidate",
+      "text": "quake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29765922,
+      "status": "candidate",
+      "text": "aftershock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29765593,
+      "status": "candidate",
+      "text": "seismic"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6027,
+      "status": "candidate",
+      "text": "temblor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4016,
+      "status": "candidate",
+      "text": "seism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "quake"
+    }
+  ],
+  "canonical_name": "earthquake",
+  "concept_id": "earthquake",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "3343/edge"
+    }
+  ],
+  "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "earthquake",
+      "sense_id": "earthquake#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

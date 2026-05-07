@@ -1,0 +1,87 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "RFC document, tooling and other content related to the array API standard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995513,
+      "status": "candidate",
+      "text": "specification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30017610,
+      "status": "candidate",
+      "text": "specifications"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29989795,
+      "status": "candidate",
+      "text": "standard"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spec",
+      "sense_id": "spec#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 53,
+      "status": "candidate",
+      "text": "specification"
+    }
+  ],
+  "concept_id": "spec",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "spec",
+  "observation_id": "f69e2895cac334b8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_text": "spec",
+  "source_context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+  "source_file": null,
+  "source_repo": "data-apis/array-api",
+  "source_repo_description": "RFC document, tooling and other content related to the array API standard"
+}

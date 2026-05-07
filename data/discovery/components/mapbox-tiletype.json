@@ -1,12 +1,17 @@
 {
   "component": "@mapbox/tiletype",
   "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "mapbox/mapbox-geostats"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mapbox/node-tilejson"
     }
   ]
 }

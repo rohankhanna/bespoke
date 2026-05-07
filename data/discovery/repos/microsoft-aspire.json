@@ -253,37 +253,47 @@
     {
       "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-cli-native-archives.yml"
+      "source_file": ".github/workflows/build-cli-e2e-image.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cli-e2e-image.yml"
     },
     {
       "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-cli-native-archives.yml"
+      "source_file": ".github/workflows/build-cli-e2e-image.yml"
     },
     {
       "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-cli-native-archives.yml"
+      "source_file": ".github/workflows/build-cli-e2e-image.yml"
     },
     {
       "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-cli-native-archives.yml"
+      "source_file": ".github/workflows/build-cli-e2e-image.yml"
     },
     {
       "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-packages.yml"
+      "source_file": ".github/workflows/build-cli-native-archives.yml"
     },
     {
       "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-packages.yml"
+      "source_file": ".github/workflows/build-cli-native-archives.yml"
     },
     {
       "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-packages.yml"
+      "source_file": ".github/workflows/build-cli-native-archives.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cli-native-archives.yml"
     }
   ],
   "edges": [
@@ -443,6 +453,34 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cli-e2e-image.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cli-e2e-image.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cli-e2e-image.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cli-e2e-image.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "Build CLI E2E Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-cli-native-archives.yml",
       "source_repo": "microsoft/aspire",
       "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
@@ -460,27 +498,6 @@
       "source_file": ".github/workflows/build-cli-native-archives.yml",
       "source_repo": "microsoft/aspire",
       "target": "Build native CLI archives",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-packages.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-packages.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/build-packages.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "Build Packages (Reusable)",
       "target_type": "term"
     },
     {
@@ -505,7 +522,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-06T07:28:57.608118+00:00",
+  "fetched_at": "2026-05-07T01:20:34.970176+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -540,12 +557,12 @@
       "size": 12220
     },
     {
-      "path": ".github/workflows/build-cli-native-archives.yml",
-      "size": 5553
+      "path": ".github/workflows/build-cli-e2e-image.yml",
+      "size": 6371
     },
     {
-      "path": ".github/workflows/build-packages.yml",
-      "size": 1274
+      "path": ".github/workflows/build-cli-native-archives.yml",
+      "size": 5553
     }
   ],
   "related_repositories": [],
@@ -557,8 +574,8 @@
     "full_name": "microsoft/aspire",
     "html_url": "https://github.com/microsoft/aspire",
     "language": "C#",
-    "pushed_at": "2026-05-06T07:19:00Z",
-    "stargazers_count": 5888,
+    "pushed_at": "2026-05-07T01:10:39Z",
+    "stargazers_count": 5893,
     "topics": [
       "cloud",
       "dotnet",
@@ -566,7 +583,7 @@
       "python",
       "typescript"
     ],
-    "updated_at": "2026-05-06T07:00:38Z"
+    "updated_at": "2026-05-06T23:48:37Z"
   },
   "repo_links": [],
   "terms": [
@@ -589,16 +606,16 @@
       "term": "Backport PR to branch"
     },
     {
+      "context_snippet": "Build CLI E2E Docker Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cli-e2e-image.yml",
+      "term": "Build CLI E2E Docker Image"
+    },
+    {
       "context_snippet": "Build native CLI archives",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/build-cli-native-archives.yml",
       "term": "Build native CLI archives"
-    },
-    {
-      "context_snippet": "Build Packages (Reusable)",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/build-packages.yml",
-      "term": "Build Packages (Reusable)"
     },
     {
       "context_snippet": "[![CI](https://github.com/microsoft/aspire/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/microsoft/aspire/actions/workflows/ci.yml)",

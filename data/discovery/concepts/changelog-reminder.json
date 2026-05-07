@@ -31,6 +31,18 @@
       "source_repo": "cosmos/cosmos-sdk",
       "status": "candidate-context",
       "text": "Changelog Reminder"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "osmosis-labs/osmosis",
+      "status": "candidate-context",
+      "text": "The AMM Laboratory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmosis-labs/osmosis",
+      "status": "candidate-context",
+      "text": "Changelog Reminder"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cosmos/cosmos-sdk",
+      "status": "candidate",
+      "text": "Changelog Reminder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmosis-labs/osmosis",
       "status": "candidate",
       "text": "Changelog Reminder"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/changelog-reminder.yml",
       "source_repo": "cosmos/cosmos-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/changelog-entry-reminder.yml",
+      "source_repo": "osmosis-labs/osmosis"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

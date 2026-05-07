@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joshwlewis/unitwise",
+      "target": "oracle/truffleruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "joshwlewis/unitwise",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "joshwlewis/unitwise",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "joshwlewis/unitwise",
+      "target": "Ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T00:50:02.109322+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9713
+    },
+    {
+      "path": ".github/workflows/ruby.yml",
+      "size": 1123
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Physical quantity and units of measure conversion and math for Ruby",
+    "fork": false,
+    "full_name": "joshwlewis/unitwise",
+    "html_url": "https://github.com/joshwlewis/unitwise",
+    "language": "Ruby",
+    "pushed_at": "2025-11-27T14:41:34Z",
+    "stargazers_count": 286,
+    "topics": [],
+    "updated_at": "2026-01-03T17:35:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oracle/truffleruby",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Ruby",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "term": "Ruby"
+    }
+  ]
+}

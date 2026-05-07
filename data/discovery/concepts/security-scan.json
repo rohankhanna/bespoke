@@ -43,6 +43,18 @@
       "source_repo": "Roblox/SmoothCache",
       "status": "candidate-context",
       "text": "Security Scan"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
+      "status": "candidate-context",
+      "text": "RP2040 A/B bootloader in Rust \u2014 copies firmware from flash to RAM with dual-bank support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
+      "status": "candidate-context",
+      "text": "Security Scan"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Roblox/SmoothCache",
+      "status": "candidate",
+      "text": "Security Scan"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
       "status": "candidate",
       "text": "Security Scan"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": ".github/workflows/security-scan.yaml",
       "source_repo": "Roblox/SmoothCache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/security-scan.yml",
+      "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs"
     }
   ],
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

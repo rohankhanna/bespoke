@@ -100,11 +100,17 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": null,
       "source_repo": "nginx-le/nginx-le"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "nginx-le/nginx-le"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

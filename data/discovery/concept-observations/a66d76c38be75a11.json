@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenSPG is a Knowledge Graph Engine developed by Ant Group in collaboration with OpenKG, based on the SPG (Semantic-enhanced Programmable Graph) framework.   Core Capabilities: 1) domain model constrained knowledge modeling, 2) facts and logic fused  representation, 3) natively support KAG..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Alipay Cloud Devops Codescan"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Alipay Cloud Devops Codescan"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "siloed development"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "traditional it"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4424,
+      "status": "candidate",
+      "text": "aerosol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4424,
+      "status": "candidate",
+      "text": "air"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4424,
+      "status": "candidate",
+      "text": "altostratus"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Alipay Cloud Devops Codescan",
+      "sense_id": "alipay-cloud-devops-codescan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "alipay-cloud-devops-codescan",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "alipay-cloud-devops-codescan",
+  "observation_id": "a66d76c38be75a11",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_text": "Alipay Cloud Devops Codescan",
+  "source_context_snippet": "Alipay Cloud Devops Codescan",
+  "source_file": ".github/workflows/cloud_code_scan.yml",
+  "source_repo": "OpenSPG/openspg",
+  "source_repo_description": "OpenSPG is a Knowledge Graph Engine developed by Ant Group in collaboration with OpenKG, based on the SPG (Semantic-enhanced Programmable Graph) framework.   Core Capabilities: 1) domain model constrained knowledge modeling, 2) facts and logic fused  representation, 3) natively support KAG..."
+}

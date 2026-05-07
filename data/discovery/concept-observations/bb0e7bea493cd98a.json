@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Charm experimental packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "etag"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "etag"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19933502,
+      "status": "candidate",
+      "text": "eth."
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19933501,
+      "status": "candidate",
+      "text": "tv episode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19933500,
+      "status": "candidate",
+      "text": "etext"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19933499,
+      "status": "candidate",
+      "text": "id card"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19933498,
+      "status": "candidate",
+      "text": "entity relationship diagram"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "etag",
+      "sense_id": "etag#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "etag",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "etag",
+  "observation_id": "bb0e7bea493cd98a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_text": "etag",
+  "source_context_snippet": "etag",
+  "source_file": ".github/workflows/etag.yml",
+  "source_repo": "charmbracelet/x",
+  "source_repo_description": "Charm experimental packages"
+}

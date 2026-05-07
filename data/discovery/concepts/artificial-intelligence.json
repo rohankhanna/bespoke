@@ -1747,6 +1747,18 @@
       "source_repo": "Extraltodeus/Uncond-Zero-for-ComfyUI",
       "status": "candidate-context",
       "text": "Allows to sample without generating any negative prediction with Stable Diffusion!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings",
+      "status": "candidate-context",
+      "text": "Provides the ability to set the temperature for both UNET and CLIP. For ComfyUI. Has for side effect to improve non-native resolutions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings",
+      "status": "candidate-context",
+      "text": "Provides the ability to set the temperature for both UNET and CLIP. For ComfyUI."
     }
   ],
   "candidate_glosses": [
@@ -2619,6 +2631,12 @@
       "source_repo": "Extraltodeus/Uncond-Zero-for-ComfyUI",
       "status": "candidate",
       "text": "Allows to sample without generating any negative prediction with Stable Diffusion!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings",
+      "status": "candidate",
+      "text": "Provides the ability to set the temperature for both UNET and CLIP. For ComfyUI."
     }
   ],
   "candidate_related_terms": [],
@@ -5002,11 +5020,101 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": null,
       "source_repo": "Alibaba-NLP/DeepResearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/vector-quantize-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/langchainrb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "Alibaba-NLP/DeepResearch"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

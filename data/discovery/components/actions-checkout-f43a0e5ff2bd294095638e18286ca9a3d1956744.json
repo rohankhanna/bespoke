@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -307,6 +307,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "openlawlibrary/pygls"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "explosion/spacy-alignments"
     }
   ]
 }

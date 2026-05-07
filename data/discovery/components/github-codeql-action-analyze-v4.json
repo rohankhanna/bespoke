@@ -1,7 +1,7 @@
 {
   "component": "github/codeql-action/analyze@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1452,6 +1452,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "gookit/cache"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gookit/config"
     }
   ]
 }

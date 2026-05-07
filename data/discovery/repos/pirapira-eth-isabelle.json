@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pirapira/eth-isabelle",
+      "target": "mrsmkl/ecc-ocaml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pirapira/eth-isabelle",
+      "target": "pirapira/ethereum-formal-verification-overview",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pirapira/eth-isabelle",
+      "target": "kframework/evm-semantics",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T01:49:49.818955+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3824
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Lem formalization of EVM and some Isabelle/HOL proofs",
+    "fork": false,
+    "full_name": "pirapira/eth-isabelle",
+    "html_url": "https://github.com/pirapira/eth-isabelle",
+    "language": "Isabelle",
+    "pushed_at": "2022-03-24T10:29:19Z",
+    "stargazers_count": 244,
+    "topics": [],
+    "updated_at": "2026-04-12T08:07:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kframework/evm-semantics",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mrsmkl/ecc-ocaml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pirapira/ethereum-formal-verification-overview",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

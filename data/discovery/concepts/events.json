@@ -175,6 +175,18 @@
       "source_repo": "ocsigen/lwt",
       "status": "candidate-context",
       "text": "[![version][version]][releases] [![GitHub Actions status][github-actions-img]][github-actions]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gookit/event",
+      "status": "candidate-context",
+      "text": "\ud83d\udce2 Lightweight event manager and dispatcher implements by Go. Go\u5b9e\u73b0\u7684\u8f7b\u91cf\u7ea7\u7684\u4e8b\u4ef6\u7ba1\u7406\u3001\u8c03\u5ea6\u7a0b\u5e8f\u5e93, \u652f\u6301\u8bbe\u7f6e\u76d1\u542c\u5668\u7684\u4f18\u5148\u7ea7, \u652f\u6301\u4f7f\u7528\u901a\u914d\u7b26\u6765\u8fdb\u884c\u4e00\u7ec4\u4e8b\u4ef6\u7684\u76d1\u542c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/event",
+      "status": "candidate-context",
+      "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/event?style=flat-square)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "ocsigen/lwt",
       "status": "candidate",
       "text": "[![version][version]][releases] [![GitHub Actions status][github-actions-img]][github-actions]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/event",
+      "status": "candidate",
+      "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/event?style=flat-square)"
     }
   ],
   "candidate_related_terms": [
@@ -472,11 +490,23 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": null,
       "source_repo": "0no-co/wonka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "gookit/event"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "0no-co/wonka"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

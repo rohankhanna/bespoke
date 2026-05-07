@@ -46,6 +46,18 @@
       "source_repo": "angelozerr/ec4e",
       "status": "candidate-context",
       "text": "[![Build Status](https://secure.travis-ci.org/angelozerr/ec4e.png)](http://travis-ci.org/angelozerr/ec4e)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dbkangaroo/kangaroo",
+      "status": "candidate-context",
+      "text": "Kangaroo is an AI-powered SQL client and admin tool for popular databases (MariaDB / MySQL / Oracle / PostgreSQL / Redis / SQLite / SQL Server / ...) on Windows / MacOS / Linux, support table design, query, model, sync, export/import etc, focus on comfortable, fun and developer friendly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbkangaroo/kangaroo",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -66,6 +78,12 @@
       "source_repo": "angelozerr/ec4e",
       "status": "candidate",
       "text": "[![Build Status](https://secure.travis-ci.org/angelozerr/ec4e.png)](http://travis-ci.org/angelozerr/ec4e)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbkangaroo/kangaroo",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -91,11 +109,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "angelozerr/ec4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "dbkangaroo/kangaroo"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

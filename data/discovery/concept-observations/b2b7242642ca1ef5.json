@@ -84,7 +84,7 @@
   "normalized_form": "releaser",
   "observation_id": "b2b7242642ca1ef5",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
   "observed_text": "Releaser",
   "source_context_snippet": "Releaser",
   "source_file": ".github/workflows/goreleaser.yml",

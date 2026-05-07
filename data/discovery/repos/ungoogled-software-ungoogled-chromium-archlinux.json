@@ -1,0 +1,243 @@
+{
+  "components": [
+    {
+      "component": "styfle/cancel-workflow-action@0.9.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/obs-upload.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/obs-upload.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@cd28b0f5ee8571b76cfdaa62a30d51d752317477",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+      "target": "jstkdng/aur",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/obs-upload.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+      "target": "styfle/cancel-workflow-action@0.9.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/obs-upload.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/obs-upload.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+      "target": "OBS Upload",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+      "target": "actions/download-artifact@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+      "target": "softprops/action-gh-release@cd28b0f5ee8571b76cfdaa62a30d51d752317477",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+      "target": "Build for a release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+      "target": "archlinux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+      "target": "chromium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+      "target": "pkgbuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+      "target": "ungoogled-chromium",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T02:10:48.524758+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3713
+    },
+    {
+      "path": ".github/workflows/obs-upload.bash",
+      "size": 4227
+    },
+    {
+      "path": ".github/workflows/obs-upload.yml",
+      "size": 1108
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 15504
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Arch Linux packaging for ungoogled-chromium",
+    "fork": false,
+    "full_name": "ungoogled-software/ungoogled-chromium-archlinux",
+    "html_url": "https://github.com/ungoogled-software/ungoogled-chromium-archlinux",
+    "language": "Shell",
+    "pushed_at": "2026-05-03T02:49:47Z",
+    "stargazers_count": 425,
+    "topics": [
+      "archlinux",
+      "chromium",
+      "pkgbuild",
+      "ungoogled-chromium"
+    ],
+    "updated_at": "2026-05-06T11:48:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jstkdng/aur",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "OBS Upload",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/obs-upload.yml",
+      "term": "OBS Upload"
+    },
+    {
+      "context_snippet": "Build for a release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Build for a release"
+    },
+    {
+      "context_snippet": "Arch Linux packaging for [ungoogled-chromium](//github.com/ungoogled-software/ungoogled-chromium).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "archlinux"
+    },
+    {
+      "context_snippet": "Arch Linux packaging for [ungoogled-chromium](//github.com/ungoogled-software/ungoogled-chromium).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromium"
+    },
+    {
+      "context_snippet": "Arch Linux packaging for [ungoogled-chromium](//github.com/ungoogled-software/ungoogled-chromium).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pkgbuild"
+    },
+    {
+      "context_snippet": "Arch Linux packaging for [ungoogled-chromium](//github.com/ungoogled-software/ungoogled-chromium).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ungoogled-chromium"
+    }
+  ]
+}

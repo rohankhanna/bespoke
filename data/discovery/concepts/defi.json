@@ -31,6 +31,18 @@
       "source_repo": "left-curve/left-curve",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "osmosis-labs/osmosis",
+      "status": "candidate-context",
+      "text": "The AMM Laboratory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmosis-labs/osmosis",
+      "status": "candidate-context",
+      "text": "![Banner!](assets/banner.png)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "left-curve/left-curve",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmosis-labs/osmosis",
+      "status": "candidate",
+      "text": "![Banner!](assets/banner.png)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "left-curve/left-curve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "osmosis-labs/osmosis"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

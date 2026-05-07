@@ -1,6 +1,36 @@
 {
   "components": [
     {
+      "component": "@claude-flow/cli-core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@claude-flow/mcp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@claude-flow/neural",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@claude-flow/shared",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@noble/ed25519",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@ruvector/rabitq-wasm",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "semver",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
@@ -435,6 +465,48 @@
       "source_repo": "ruvnet/ruflo",
       "target": "ruvnet/claude-flow",
       "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ruvnet/ruflo",
+      "target": "@claude-flow/cli-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ruvnet/ruflo",
+      "target": "@claude-flow/mcp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ruvnet/ruflo",
+      "target": "@claude-flow/neural",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ruvnet/ruflo",
+      "target": "@claude-flow/shared",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ruvnet/ruflo",
+      "target": "@noble/ed25519",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ruvnet/ruflo",
+      "target": "@ruvector/rabitq-wasm",
+      "target_type": "component"
     },
     {
       "edge_type": "package-json:dependencies",
@@ -878,7 +950,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-06T07:19:54.054807+00:00",
+  "fetched_at": "2026-05-07T01:07:41.254570+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -886,7 +958,7 @@
     },
     {
       "path": "package.json",
-      "size": 4054
+      "size": 4305
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -930,8 +1002,8 @@
     "full_name": "ruvnet/ruflo",
     "html_url": "https://github.com/ruvnet/ruflo",
     "language": "TypeScript",
-    "pushed_at": "2026-05-06T03:19:21Z",
-    "stargazers_count": 44275,
+    "pushed_at": "2026-05-06T22:28:40Z",
+    "stargazers_count": 45275,
     "topics": [
       "agentic-ai",
       "agentic-engineering",
@@ -954,7 +1026,7 @@
       "swarm",
       "swarm-intelligence"
     ],
-    "updated_at": "2026-05-06T07:19:48Z"
+    "updated_at": "2026-05-07T01:07:13Z"
   },
   "repo_links": [
     {

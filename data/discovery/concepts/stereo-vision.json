@@ -103,6 +103,18 @@
       "source_repo": "KumarRobotics/msckf_vio",
       "status": "candidate-context",
       "text": "The `MSCKF_VIO` package is a stereo version of MSCKF. The software takes in synchronized stereo images and IMU messages and generates real-time 6DOF pose estimation of the IMU frame."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "petercorke/machinevision-toolbox-python",
+      "status": "candidate-context",
+      "text": "Machine vision toolbox for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/machinevision-toolbox-python",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "KumarRobotics/msckf_vio",
       "status": "candidate",
       "text": "The `MSCKF_VIO` package is a stereo version of MSCKF. The software takes in synchronized stereo images and IMU messages and generates real-time 6DOF pose estimation of the IMU frame."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/machinevision-toolbox-python",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,17 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "KumarRobotics/msckf_vio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "petercorke/machinevision-toolbox-python"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

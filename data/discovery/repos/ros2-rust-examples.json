@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T03:25:22.093961+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 42
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Example packages for ros2-rust",
+    "fork": false,
+    "full_name": "ros2-rust/examples",
+    "html_url": "https://github.com/ros2-rust/examples",
+    "language": "Rust",
+    "pushed_at": "2026-01-21T20:13:44Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-02-21T00:33:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

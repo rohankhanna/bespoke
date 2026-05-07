@@ -191,7 +191,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "utilityai/llama-cpp-rs",
+      "target": "wisdomshell/codeshell",
       "target_type": "repository"
     },
     {
@@ -433,7 +433,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-06T13:14:27.456100+00:00",
+  "fetched_at": "2026-05-07T02:46:06.050694+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -485,12 +485,12 @@
     "full_name": "ggml-org/llama.cpp",
     "html_url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
-    "pushed_at": "2026-05-06T12:56:16Z",
-    "stargazers_count": 108595,
+    "pushed_at": "2026-05-06T21:42:52Z",
+    "stargazers_count": 108702,
     "topics": [
       "ggml"
     ],
-    "updated_at": "2026-05-06T13:08:49Z"
+    "updated_at": "2026-05-07T02:45:52Z"
   },
   "repo_links": [
     {
@@ -505,12 +505,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "utilityai/llama-cpp-rs",
+      "full_name": "vietanhdev/llama-assistant",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "vietanhdev/llama-assistant",
+      "full_name": "wisdomshell/codeshell",
       "source_file": "README.md"
     }
   ],

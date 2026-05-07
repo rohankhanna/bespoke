@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "cross-domain"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KaiyangZhou/deep-person-reid",
+      "status": "candidate-context",
+      "text": "Torchreid: Deep learning person re-identification in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KaiyangZhou/deep-person-reid",
+      "status": "candidate-context",
+      "text": "Torchreid"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KaiyangZhou/deep-person-reid",
+      "status": "candidate",
+      "text": "Torchreid"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "cross-domain",
+  "concept_id": "cross-domain",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/deep-person-reid"
+    }
+  ],
+  "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cross-domain",
+      "sense_id": "cross-domain#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

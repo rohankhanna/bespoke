@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cosmos/gorocksdb",
+      "target": "cockroachdb/c-rocksdb",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T01:56:45.491249+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1279
+    },
+    {
+      "path": "go.mod",
+      "size": 486
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "gorocksdb is a Go wrapper for RocksDB",
+    "fork": true,
+    "full_name": "cosmos/gorocksdb",
+    "html_url": "https://github.com/cosmos/gorocksdb",
+    "language": "Go",
+    "pushed_at": "2023-04-13T12:36:15Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-04-08T07:46:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cockroachdb/c-rocksdb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,174 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings",
+      "target": "Comfy-Org/publish-node-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings",
+      "target": "comfyui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings",
+      "target": "comfyui-nodes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings",
+      "target": "temperature",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T00:55:52.447952+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3657
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 452
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 581
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Provides the ability to set the temperature for both UNET and CLIP. For ComfyUI. Has for side effect to improve non-native resolutions.",
+    "fork": false,
+    "full_name": "Extraltodeus/Stable-Diffusion-temperature-settings",
+    "html_url": "https://github.com/Extraltodeus/Stable-Diffusion-temperature-settings",
+    "language": "Python",
+    "pushed_at": "2024-07-10T00:27:51Z",
+    "stargazers_count": 44,
+    "topics": [
+      "artificial-intelligence",
+      "comfyui",
+      "comfyui-nodes",
+      "generative-ai",
+      "image-processing",
+      "stable-diffusion",
+      "temperature"
+    ],
+    "updated_at": "2025-11-27T08:48:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    },
+    {
+      "context_snippet": "Provides the ability to set the temperature for both UNET and CLIP. For ComfyUI.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "Provides the ability to set the temperature for both UNET and CLIP. For ComfyUI.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui"
+    },
+    {
+      "context_snippet": "Provides the ability to set the temperature for both UNET and CLIP. For ComfyUI.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui-nodes"
+    },
+    {
+      "context_snippet": "Provides the ability to set the temperature for both UNET and CLIP. For ComfyUI.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "context_snippet": "Provides the ability to set the temperature for both UNET and CLIP. For ComfyUI.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "Provides the ability to set the temperature for both UNET and CLIP. For ComfyUI.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "Provides the ability to set the temperature for both UNET and CLIP. For ComfyUI.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "temperature"
+    }
+  ]
+}

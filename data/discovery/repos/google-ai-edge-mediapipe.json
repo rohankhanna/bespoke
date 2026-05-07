@@ -1,21 +1,6 @@
 {
   "components": [
     {
-      "component": "@bazel/jasmine",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "@bazel/rollup",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "@bazel/typescript",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "@rollup/plugin-commonjs",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -71,6 +56,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "jasmine-reporters",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "protobufjs",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -108,27 +98,6 @@
       "source_repo": "google-ai-edge/mediapipe",
       "target": "google/mediapipe",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "google-ai-edge/mediapipe",
-      "target": "@bazel/jasmine",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "google-ai-edge/mediapipe",
-      "target": "@bazel/rollup",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "google-ai-edge/mediapipe",
-      "target": "@bazel/typescript",
-      "target_type": "component"
     },
     {
       "edge_type": "package-json:devDependencies",
@@ -205,6 +174,13 @@
       "source_file": "package.json",
       "source_repo": "google-ai-edge/mediapipe",
       "target": "jasmine-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "google-ai-edge/mediapipe",
+      "target": "jasmine-reporters",
       "target_type": "component"
     },
     {
@@ -376,7 +352,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-06T07:09:47.421112+00:00",
+  "fetched_at": "2026-05-07T00:53:45.148855+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -388,7 +364,7 @@
     },
     {
       "path": "package.json",
-      "size": 763
+      "size": 768
     },
     {
       "path": "requirements.txt",
@@ -408,8 +384,8 @@
     "full_name": "google-ai-edge/mediapipe",
     "html_url": "https://github.com/google-ai-edge/mediapipe",
     "language": "C++",
-    "pushed_at": "2026-05-06T00:26:30Z",
-    "stargazers_count": 35069,
+    "pushed_at": "2026-05-06T19:59:13Z",
+    "stargazers_count": 35079,
     "topics": [
       "android",
       "audio-processing",
@@ -429,7 +405,7 @@
       "stream-processing",
       "video-processing"
     ],
-    "updated_at": "2026-05-06T06:40:25Z"
+    "updated_at": "2026-05-06T19:59:17Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Claude-assisted technical research into live voice typing implementation approaches, focusing on inference, patterns, etc. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A research workspace for documenting the UX challenges of using **live voice typing as a replacement for keyboard input on the desktop**."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A research workspace for documenting the UX challenges of using **live voice typing as a replacement for keyboard input on the desktop**."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049056,
+      "status": "candidate",
+      "text": "annotation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10044722,
+      "status": "candidate",
+      "text": "notation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10043795,
+      "status": "candidate",
+      "text": "mention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10036842,
+      "status": "candidate",
+      "text": "remark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10035947,
+      "status": "candidate",
+      "text": "notice"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "notes",
+      "sense_id": "notes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "notes",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "notes",
+  "observation_id": "47fc7077d640664a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_text": "notes",
+  "source_context_snippet": "A research workspace for documenting the UX challenges of using **live voice typing as a replacement for keyboard input on the desktop**.",
+  "source_file": null,
+  "source_repo": "danielrosehill/Live-Typing-UX-Research",
+  "source_repo_description": "Claude-assisted technical research into live voice typing implementation approaches, focusing on inference, patterns, etc. "
+}

@@ -105,6 +105,13 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "quickwit-oss/tantivy",
+      "target": "lindera-morphology/lindera-ko-dic-builder",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "quickwit-oss/tantivy",
@@ -252,7 +259,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-06T19:02:45.407742+00:00",
+  "fetched_at": "2026-05-07T03:09:51.421169+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -289,14 +296,19 @@
     "html_url": "https://github.com/quickwit-oss/tantivy",
     "language": "Rust",
     "pushed_at": "2026-05-05T08:39:51Z",
-    "stargazers_count": 15142,
+    "stargazers_count": 15143,
     "topics": [
       "rust",
       "search-engine"
     ],
-    "updated_at": "2026-05-06T11:07:10Z"
+    "updated_at": "2026-05-06T20:25:25Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lindera-morphology/lindera-ko-dic-builder",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "lindera-morphology/lindera-tantivy",

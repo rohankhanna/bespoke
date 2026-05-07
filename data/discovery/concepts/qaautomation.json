@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "qaautomation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hknio/wasmcov",
+      "status": "candidate-context",
+      "text": "Automated coverage analysis of WASM executables on embedded and other constrained environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hknio/wasmcov",
+      "status": "candidate-context",
+      "text": "Wasmcov comprises a Rust library and an associated binary that offer a range of utilities for coverage analysis of WebAssembly (Wasm) modules. This tool empowers you to gather and scrutinize code coverage data while executing Wasm modules. Wasmcov stands out for its adaptability\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hknio/wasmcov",
+      "status": "candidate",
+      "text": "Wasmcov comprises a Rust library and an associated binary that offer a range of utilities for coverage analysis of WebAssembly (Wasm) modules. This tool empowers you to gather and scrutinize code coverage data while executing Wasm modules. Wasmcov stands out for its adaptability\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "qaautomation",
+  "concept_id": "qaautomation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "hknio/wasmcov"
+    }
+  ],
+  "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "qaautomation",
+      "sense_id": "qaautomation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

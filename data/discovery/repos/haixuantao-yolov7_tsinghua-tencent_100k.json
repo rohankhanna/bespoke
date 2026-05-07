@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haixuanTao/yolov7_Tsinghua-Tencent_100K",
+      "target": "halftop/tt100k_yolo_label",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haixuanTao/yolov7_Tsinghua-Tencent_100K",
+      "target": "haixuantao/yolov7",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haixuanTao/yolov7_Tsinghua-Tencent_100K",
+      "target": "linaom1214/tensorrt-python",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T03:26:06.862264+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13877
+    },
+    {
+      "path": "requirements.txt",
+      "size": 950
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of paper - YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors",
+    "fork": true,
+    "full_name": "haixuanTao/yolov7_Tsinghua-Tencent_100K",
+    "html_url": "https://github.com/haixuanTao/yolov7_Tsinghua-Tencent_100K",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-09-29T16:32:22Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2023-03-21T12:04:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haixuantao/yolov7",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "halftop/tt100k_yolo_label",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "linaom1214/tensorrt-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+      "target": "jstkdng/aur",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/obs-upload.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+      "target": "styfle/cancel-workflow-action@0.9.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/obs-upload.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/obs-upload.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+      "target": "OBS Upload",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+      "target": "actions/download-artifact@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+      "target": "softprops/action-gh-release@cd28b0f5ee8571b76cfdaa62a30d51d752317477",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+      "target": "Build for a release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+      "target": "archlinux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+      "target": "chromium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+      "target": "pkgbuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+      "target": "ungoogled-chromium",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-07T00:37:24.413591+00:00",
+  "source_repo": "ungoogled-software/ungoogled-chromium-archlinux"
+}

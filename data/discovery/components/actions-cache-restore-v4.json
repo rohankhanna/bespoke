@@ -1,7 +1,7 @@
 {
   "component": "actions/cache/restore@v4",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -837,6 +837,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/service_install-and-build-node.yml",
       "source_repo": "serversideup/financial-freedom"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium-debian"
     }
   ]
 }

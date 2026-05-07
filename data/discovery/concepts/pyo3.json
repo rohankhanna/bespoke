@@ -46,6 +46,18 @@
       "source_repo": "ast-grep/ast-grep",
       "status": "candidate-context",
       "text": "PyO3"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kornia/kornia-rs",
+      "status": "candidate-context",
+      "text": "\ud83e\udd80 Low-level 3D Computer Vision library in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kornia/kornia-rs",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)"
     }
   ],
   "candidate_glosses": [
@@ -66,6 +78,12 @@
       "source_repo": "ast-grep/ast-grep",
       "status": "candidate",
       "text": "PyO3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kornia/kornia-rs",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -91,11 +109,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/pyo3.yml",
       "source_repo": "ast-grep/ast-grep"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "kornia/kornia-rs"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

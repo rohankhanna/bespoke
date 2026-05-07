@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T02:12:52.058150+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1020
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Network schematics and purchasing notes for those interested in provisioning failover and bonded internet connectivity in Israel (using locally sourced hardware)",
+    "fork": false,
+    "full_name": "danielrosehill/backup_internet_israel",
+    "html_url": "https://github.com/danielrosehill/backup_internet_israel",
+    "language": null,
+    "pushed_at": "2021-09-14T02:02:31Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-08-04T14:33:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

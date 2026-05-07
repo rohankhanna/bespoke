@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T00:47:10.907388+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1592
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SPF verifier and signer in OCaml",
+    "fork": false,
+    "full_name": "mirage/uspf",
+    "html_url": "https://github.com/mirage/uspf",
+    "language": "OCaml",
+    "pushed_at": "2026-04-26T14:05:48Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2026-04-26T19:10:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

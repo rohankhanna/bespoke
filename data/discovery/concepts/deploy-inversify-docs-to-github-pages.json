@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy Inversify docs to GitHub Pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inversify/monorepo",
+      "status": "candidate-context",
+      "text": "A powerful and lightweight inversion of control container for JavaScript & Node.js apps powered by TypeScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inversify/monorepo",
+      "status": "candidate-context",
+      "text": "Deploy Inversify docs to GitHub Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inversify/monorepo",
+      "status": "candidate",
+      "text": "Deploy Inversify docs to GitHub Pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19714,
+      "status": "candidate",
+      "text": "lectern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19714,
+      "status": "candidate",
+      "text": "right to know"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19692,
+      "status": "candidate",
+      "text": "collate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19681,
+      "status": "candidate",
+      "text": "djvu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18895,
+      "status": "candidate",
+      "text": "page"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Inversify docs to GitHub Pages",
+  "concept_id": "deploy-inversify-docs-to-github-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/deploy-inversify-pages.yaml",
+      "source_repo": "inversify/monorepo"
+    }
+  ],
+  "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Inversify docs to GitHub Pages",
+      "sense_id": "deploy-inversify-docs-to-github-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

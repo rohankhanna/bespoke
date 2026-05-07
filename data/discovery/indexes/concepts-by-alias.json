@@ -1298,6 +1298,9 @@
   "adguard-mini": [
     "adguard-mini"
   ],
+  "adhoc wheels": [
+    "adhoc-wheels"
+  ],
   "adidas": [
     "adidas"
   ],
@@ -1327,6 +1330,9 @@
   ],
   "admin-ui": [
     "admin-ui"
+  ],
+  "admincraft": [
+    "admincraft"
   ],
   "administration": [
     "administration"
@@ -3030,6 +3036,9 @@
   "android ci": [
     "android-ci"
   ],
+  "android cmake build": [
+    "android-cmake-build"
+  ],
   "android device tests": [
     "android-device-tests"
   ],
@@ -3390,6 +3399,9 @@
   ],
   "antd-mobile": [
     "antd-mobile"
+  ],
+  "antehandler benchmark tests": [
+    "antehandler-benchmark-tests"
   ],
   "anthropic": [
     "anthropic"
@@ -9209,6 +9221,9 @@
   "blob - version and release": [
     "blob---version-and-release"
   ],
+  "blob-features": [
+    "blob-features"
+  ],
   "blob-size-policy": [
     "blob-size-policy"
   ],
@@ -9232,6 +9247,9 @@
   ],
   "block pr merging on blocked labels": [
     "block-pr-merging-on-blocked-labels"
+  ],
+  "block-diagram": [
+    "block-diagram"
   ],
   "block-protocol": [
     "block-protocol"
@@ -11017,6 +11035,9 @@
   "build and release (code signed)": [
     "build-and-release-code-signed"
   ],
+  "build and release app": [
+    "build-and-release-app"
+  ],
   "build and release aws router binaries": [
     "build-and-release-aws-router-binaries"
   ],
@@ -11268,6 +11289,9 @@
   ],
   "build and test with bazel": [
     "build-and-test-with-bazel"
+  ],
+  "build and test with cmake": [
+    "build-and-test-with-cmake"
   ],
   "build and test with ramdisk": [
     "build-and-test-with-ramdisk"
@@ -11583,6 +11607,9 @@
   ],
   "build clang-tidy": [
     "build-clang-tidy"
+  ],
+  "build cli e2e docker image": [
+    "build-cli-e2e-docker-image"
   ],
   "build cli on pr target": [
     "build-cli-on-pr-target"
@@ -12045,6 +12072,9 @@
   ],
   "build fonts and deploy": [
     "build-fonts-and-deploy"
+  ],
+  "build for a release": [
+    "build-for-a-release"
   ],
   "build for android": [
     "build-for-android"
@@ -12651,6 +12681,9 @@
   ],
   "build openvino dev image": [
     "build-openvino-dev-image"
+  ],
+  "build osmosisd": [
+    "build-osmosisd"
   ],
   "build p2 update site": [
     "build-p2-update-site"
@@ -14242,6 +14275,9 @@
   "bump version": [
     "bump-version"
   ],
+  "bump version & release": [
+    "bump-version-release"
+  ],
   "bump version and make master job": [
     "bump-version-and-make-master-job"
   ],
@@ -14563,6 +14599,9 @@
   ],
   "c++ linter comment": [
     "c-linter-comment"
+  ],
+  "c++ test": [
+    "c-test"
   ],
   "c++ testing": [
     "c-testing"
@@ -15497,6 +15536,9 @@
   "celestia": [
     "celestia"
   ],
+  "cellbuf": [
+    "cellbuf"
+  ],
   "cells": [
     "cells"
   ],
@@ -15752,6 +15794,9 @@
   "changelog check": [
     "changelog-check"
   ],
+  "changelog checks": [
+    "changelog-checks"
+  ],
   "changelog draft": [
     "changelog-draft"
   ],
@@ -15901,6 +15946,9 @@
   ],
   "charmbracelet": [
     "charmbracelet"
+  ],
+  "charmtone": [
+    "charmtone"
   ],
   "charset": [
     "charset"
@@ -17141,6 +17189,9 @@
   "check stale pull requests": [
     "check-stale-pull-requests"
   ],
+  "check state compatibility": [
+    "check-state-compatibility"
+  ],
   "check style": [
     "check-style"
   ],
@@ -17344,6 +17395,12 @@
   ],
   "check-profiles": [
     "check-profiles"
+  ],
+  "check-pypi": [
+    "check-pypi"
+  ],
+  "check-pypi-manylinux": [
+    "check-pypi-manylinux"
   ],
   "check-restricted-files": [
     "check-restricted-files"
@@ -19202,6 +19259,9 @@
   "clang scan-build static analyzer build": [
     "clang-scan-build-static-analyzer-build"
   ],
+  "clang static analyzer": [
+    "clang-static-analyzer"
+  ],
   "clang tests": [
     "clang-tests"
   ],
@@ -19535,6 +19595,9 @@
   "claude-plugin": [
     "claude-plugin"
   ],
+  "claude-research": [
+    "claude-research"
+  ],
   "claude-skill": [
     "claude-skill"
   ],
@@ -19670,6 +19733,9 @@
   "clean-css": [
     "clean-css"
   ],
+  "cleandata": [
+    "cleandata"
+  ],
   "cleaner": [
     "cleaner"
   ],
@@ -19801,6 +19867,9 @@
   ],
   "clear caches": [
     "clear-caches"
+  ],
+  "clear gh actions cache": [
+    "clear-gh-actions-cache"
   ],
   "clear ok-to-deploy on new commits": [
     "clear-ok-to-deploy-on-new-commits"
@@ -21443,6 +21512,9 @@
   "codeium": [
     "codeium"
   ],
+  "codelinter": [
+    "codelinter"
+  ],
   "codellama": [
     "codellama"
   ],
@@ -21797,6 +21869,9 @@
   "collect test coverage": [
     "collect-test-coverage"
   ],
+  "collect-coverage": [
+    "collect-coverage"
+  ],
   "collection": [
     "collection"
   ],
@@ -21967,6 +22042,9 @@
   ],
   "column-store": [
     "column-store"
+  ],
+  "columnar": [
+    "columnar"
   ],
   "columnstore": [
     "columnstore"
@@ -23858,6 +23936,9 @@
   "conversion": [
     "conversion"
   ],
+  "conversions": [
+    "conversions"
+  ],
   "convert": [
     "convert"
   ],
@@ -24467,6 +24548,9 @@
   "cp-vton-plus": [
     "cp-vton-plus"
   ],
+  "cp2k": [
+    "cp2k"
+  ],
   "cpack-builder": [
     "cpack-builder"
   ],
@@ -24800,6 +24884,9 @@
   "create build size report": [
     "create-build-size-report"
   ],
+  "create bump package versions pr": [
+    "create-bump-package-versions-pr"
+  ],
   "create bump version pr": [
     "create-bump-version-pr"
   ],
@@ -24943,6 +25030,9 @@
   ],
   "create release after tag": [
     "create-release-after-tag"
+  ],
+  "create release and publish docker images": [
+    "create-release-and-publish-docker-images"
   ],
   "create release and upload binaries": [
     "create-release-and-upload-binaries"
@@ -25288,6 +25378,9 @@
   ],
   "cross-currency": [
     "cross-currency"
+  ],
+  "cross-domain": [
+    "cross-domain"
   ],
   "cross-encoder": [
     "cross-encoder"
@@ -25816,6 +25909,9 @@
   ],
   "culverin remote ci": [
     "culverin-remote-ci"
+  ],
+  "cups": [
+    "cups"
   ],
   "cupy": [
     "cupy"
@@ -26594,6 +26690,9 @@
   "data schema validation": [
     "data-schema-validation"
   ],
+  "data source cleanup": [
+    "data-source-cleanup"
+  ],
   "data tests": [
     "data-tests"
   ],
@@ -26795,6 +26894,9 @@
   "data-processing": [
     "data-processing"
   ],
+  "data-profilers": [
+    "data-profilers"
+  ],
   "data-profiling": [
     "data-profiling"
   ],
@@ -26857,6 +26959,9 @@
   ],
   "data-type": [
     "data-type"
+  ],
+  "data-unit-tests": [
+    "data-unit-tests"
   ],
   "data-validation": [
     "data-validation"
@@ -26966,6 +27071,12 @@
   "dataclasses": [
     "dataclasses"
   ],
+  "datacleaner": [
+    "datacleaner"
+  ],
+  "datacleaning": [
+    "datacleaning"
+  ],
   "dataconnection": [
     "dataconnection"
   ],
@@ -27022,6 +27133,9 @@
   ],
   "dataproc": [
     "dataproc"
+  ],
+  "dataquality": [
+    "dataquality"
   ],
   "datascience": [
     "datascience"
@@ -27091,6 +27205,9 @@
   ],
   "datatype": [
     "datatype"
+  ],
+  "dataunittest": [
+    "dataunittest"
   ],
   "dataview": [
     "dataview"
@@ -28511,6 +28628,9 @@
   "deploy hugo site to pages": [
     "deploy-hugo-site-to-pages"
   ],
+  "deploy inversify docs to github pages": [
+    "deploy-inversify-docs-to-github-pages"
+  ],
   "deploy jaeger demo to oke": [
     "deploy-jaeger-demo-to-oke"
   ],
@@ -29609,6 +29729,9 @@
   "diagram-as-code": [
     "diagram-as-code"
   ],
+  "diagram-form": [
+    "diagram-form"
+  ],
   "diagram-generator": [
     "diagram-generator"
   ],
@@ -29926,6 +30049,9 @@
   ],
   "disaster-recovery": [
     "disaster-recovery"
+  ],
+  "discontinuous-galerkin": [
+    "discontinuous-galerkin"
   ],
   "discord": [
     "discord"
@@ -31136,6 +31262,9 @@
   "docs deploy": [
     "docs-deploy"
   ],
+  "docs deploy pre-check": [
+    "docs-deploy-pre-check"
+  ],
   "docs deployment": [
     "docs-deployment"
   ],
@@ -31462,6 +31591,9 @@
   ],
   "dolly": [
     "dolly"
+  ],
+  "dolphin": [
+    "dolphin"
   ],
   "dom-api": [
     "dom-api"
@@ -31973,6 +32105,9 @@
   "drug-discovery": [
     "drug-discovery"
   ],
+  "drug-policy": [
+    "drug-policy"
+  ],
   "drug-repurposing": [
     "drug-repurposing"
   ],
@@ -32254,6 +32389,9 @@
   ],
   "dynamics": [
     "dynamics"
+  ],
+  "dynamics-simulation": [
+    "dynamics-simulation"
   ],
   "dynamicsparsetraining": [
     "dynamicsparsetraining"
@@ -32601,6 +32739,9 @@
   ],
   "earthly next docker ci ubuntu": [
     "earthly-next-docker-ci-ubuntu"
+  ],
+  "earthquake": [
+    "earthquake"
   ],
   "easy": [
     "easy"
@@ -34357,6 +34498,9 @@
   "esy ci": [
     "esy-ci"
   ],
+  "etag": [
+    "etag"
+  ],
   "etc2": [
     "etc2"
   ],
@@ -34504,11 +34648,20 @@
   "event workflow": [
     "event-workflow"
   ],
+  "event-dispatcher": [
+    "event-dispatcher"
+  ],
   "event-driven": [
     "event-driven"
   ],
+  "event-listener": [
+    "event-listener"
+  ],
   "event-loop": [
     "event-loop"
+  ],
+  "event-management": [
+    "event-management"
   ],
   "event-processing": [
     "event-processing"
@@ -34527,6 +34680,9 @@
   ],
   "event-streaming": [
     "event-streaming"
+  ],
+  "eventbus": [
+    "eventbus"
   ],
   "eventing": [
     "eventing"
@@ -34895,8 +35051,14 @@
   "exploration": [
     "exploration"
   ],
+  "exploratory-analysis": [
+    "exploratory-analysis"
+  ],
   "exploratory-data-analysis": [
     "exploratory-data-analysis"
+  ],
+  "exploratorydataanalysis": [
+    "exploratorydataanalysis"
   ],
   "explorer": [
     "explorer"
@@ -36282,6 +36444,9 @@
   ],
   "fingerprints-generator": [
     "fingerprints-generator"
+  ],
+  "finite-element-method": [
+    "finite-element-method"
   ],
   "finite-element-methods": [
     "finite-element-methods"
@@ -37926,6 +38091,9 @@
   "fused-kernel": [
     "fused-kernel"
   ],
+  "fused-simulations": [
+    "fused-simulations"
+  ],
   "fusermount-server-image": [
     "fusermount-server-image"
   ],
@@ -38670,6 +38838,9 @@
   "generate big-bench task summaries": [
     "generate-big-bench-task-summaries"
   ],
+  "generate bindings": [
+    "generate-bindings"
+  ],
   "generate bootstrap archives (android-7)": [
     "generate-bootstrap-archives-android-7"
   ],
@@ -38832,6 +39003,9 @@
   "generate project documentation": [
     "generate-project-documentation"
   ],
+  "generate protobuf code": [
+    "generate-protobuf-code"
+  ],
   "generate quest list": [
     "generate-quest-list"
   ],
@@ -38942,6 +39116,9 @@
   ],
   "generatedocs": [
     "generatedocs"
+  ],
+  "generating documentation": [
+    "generating-documentation"
   ],
   "generating-favicons": [
     "generating-favicons"
@@ -40530,6 +40707,9 @@
   "gobgp": [
     "gobgp"
   ],
+  "goconfig": [
+    "goconfig"
+  ],
   "godot": [
     "godot"
   ],
@@ -40559,6 +40739,9 @@
   ],
   "gogenerate": [
     "gogenerate"
+  ],
+  "goimports": [
+    "goimports"
   ],
   "goimports style fix": [
     "goimports-style-fix"
@@ -42066,6 +42249,24 @@
   "h2oai": [
     "h2oai"
   ],
+  "h4i-hipblas ci": [
+    "h4i-hipblas-ci"
+  ],
+  "h4i-hipblas install": [
+    "h4i-hipblas-install"
+  ],
+  "h4i-hipsolver ci": [
+    "h4i-hipsolver-ci"
+  ],
+  "h4i-hipsolver install": [
+    "h4i-hipsolver-install"
+  ],
+  "h4i-mklshim ci": [
+    "h4i-mklshim-ci"
+  ],
+  "h4i-mklshim install": [
+    "h4i-mklshim-install"
+  ],
   "habana": [
     "habana"
   ],
@@ -43410,6 +43611,9 @@
   "hottop": [
     "hottop"
   ],
+  "hotwire": [
+    "hotwire"
+  ],
   "hourglass": [
     "hourglass"
   ],
@@ -44000,6 +44204,9 @@
   ],
   "hyperaishell": [
     "hyperaishell"
+  ],
+  "hyperbolic-pdes": [
+    "hyperbolic-pdes"
   ],
   "hyperdrive": [
     "hyperdrive"
@@ -46959,6 +47166,9 @@
   "itself": [
     "en-pronoun-itself"
   ],
+  "iview": [
+    "iview"
+  ],
   "iwarp": [
     "iwarp"
   ],
@@ -48303,6 +48513,9 @@
   "kd-trees": [
     "kd-trees"
   ],
+  "kde-plasma": [
+    "kde-plasma"
+  ],
   "kdf": [
     "kdf"
   ],
@@ -48675,6 +48888,9 @@
   "knowledge": [
     "knowledge"
   ],
+  "knowledge-augmented-generation": [
+    "knowledge-augmented-generation"
+  ],
   "knowledge-base": [
     "knowledge-base"
   ],
@@ -48707,6 +48923,9 @@
   ],
   "knowledge-pretraining": [
     "knowledge-pretraining"
+  ],
+  "knowledge-reasoning": [
+    "knowledge-reasoning"
   ],
   "knowledgebase": [
     "knowledgebase"
@@ -51908,6 +52127,9 @@
   "llm-infra": [
     "llm-infra"
   ],
+  "llm-kg-bidirectional-enhancement": [
+    "llm-kg-bidirectional-enhancement"
+  ],
   "llm-memory": [
     "llm-memory"
   ],
@@ -53078,6 +53300,9 @@
   "machine-translation": [
     "machine-translation"
   ],
+  "machine-vision": [
+    "machine-vision"
+  ],
   "machinelearning": [
     "machinelearning"
   ],
@@ -53877,6 +54102,9 @@
   "mapbox-gl": [
     "mapbox-gl"
   ],
+  "mapbox-satellite-oss": [
+    "mapbox-satellite-oss"
+  ],
   "mapbox-vector-tile": [
     "mapbox-vector-tile"
   ],
@@ -54269,6 +54497,9 @@
   ],
   "mathematical-modelling": [
     "mathematical-modelling"
+  ],
+  "mathematical-morphology": [
+    "mathematical-morphology"
   ],
   "mathematical-programming": [
     "mathematical-programming"
@@ -54695,6 +54926,9 @@
   ],
   "medical-imaging": [
     "medical-imaging"
+  ],
+  "medicalgpt": [
+    "medicalgpt"
   ],
   "medication": [
     "medication"
@@ -55548,8 +55782,14 @@
   "minecraft": [
     "minecraft"
   ],
+  "minecraft-bedrock": [
+    "minecraft-bedrock"
+  ],
   "minecraft-datapack": [
     "minecraft-datapack"
+  ],
+  "minecraft-docker": [
+    "minecraft-docker"
   ],
   "minecraft-map-making": [
     "minecraft-map-making"
@@ -55562,6 +55802,9 @@
   ],
   "minecraft-server": [
     "minecraft-server"
+  ],
+  "minecraft-server-management": [
+    "minecraft-server-management"
   ],
   "minecraft-server-proxy": [
     "minecraft-server-proxy"
@@ -56234,6 +56477,9 @@
   ],
   "mobsf": [
     "mobsf"
+  ],
+  "mobx": [
+    "mobx"
   ],
   "moby": [
     "moby"
@@ -57643,6 +57889,9 @@
   "multiple-languages": [
     "multiple-languages"
   ],
+  "multiple-listeners": [
+    "multiple-listeners"
+  ],
   "multiple-machines": [
     "multiple-machines"
   ],
@@ -57900,6 +58149,9 @@
   ],
   "n1ql": [
     "n1ql"
+  ],
+  "n8n-agents": [
+    "n8n-agents"
   ],
   "n8n-workflows": [
     "n8n-workflows"
@@ -58264,6 +58516,9 @@
   ],
   "nearest-neighbours-classifier": [
     "nearest-neighbours-classifier"
+  ],
+  "nearisbos": [
+    "nearisbos"
   ],
   "nearprotocol": [
     "nearprotocol"
@@ -58804,6 +59059,9 @@
   ],
   "newapi": [
     "newapi"
+  ],
+  "newborns": [
+    "newborns"
   ],
   "newcomer": [
     "newcomer"
@@ -59483,6 +59741,9 @@
   "no-compile-needed": [
     "no-compile-needed"
   ],
+  "no-defer": [
+    "no-defer"
+  ],
   "no-dependencies": [
     "no-dependencies"
   ],
@@ -59886,6 +60147,9 @@
   ],
   "nosql": [
     "nosql"
+  ],
+  "nostd": [
+    "nostd"
   ],
   "nostr": [
     "nostr"
@@ -60672,6 +60936,9 @@
   "obs": [
     "obs"
   ],
+  "obs upload": [
+    "obs-upload"
+  ],
   "obsei action": [
     "obsei-action"
   ],
@@ -60728,6 +60995,9 @@
   ],
   "obsidianmd": [
     "obsidianmd"
+  ],
+  "obstacle-tracking": [
+    "obstacle-tracking"
   ],
   "obtainium": [
     "obtainium"
@@ -60860,6 +61130,9 @@
   ],
   "octoslash": [
     "octoslash"
+  ],
+  "odbc": [
+    "odbc"
   ],
   "odbc ci": [
     "odbc-ci"
@@ -61319,6 +61592,9 @@
   ],
   "online-alignment": [
     "online-alignment"
+  ],
+  "online-forms": [
+    "online-forms"
   ],
   "online-hdmap-construction": [
     "online-hdmap-construction"
@@ -61811,6 +62087,9 @@
   ],
   "openmp": [
     "openmp"
+  ],
+  "openmp-parallelization": [
+    "openmp-parallelization"
   ],
   "openmv": [
     "openmv"
@@ -62420,6 +62699,9 @@
   ],
   "osint": [
     "osint"
+  ],
+  "osmosis": [
+    "osmosis"
   ],
   "oson": [
     "oson"
@@ -63225,6 +63507,9 @@
   "parenthesis-matching": [
     "parenthesis-matching"
   ],
+  "parenting": [
+    "parenting"
+  ],
   "parlour": [
     "parlour"
   ],
@@ -63981,6 +64266,9 @@
   "personal-cloud": [
     "personal-cloud"
   ],
+  "personal-finance": [
+    "personal-finance"
+  ],
   "personal-knowledge-base": [
     "personal-knowledge-base"
   ],
@@ -64458,6 +64746,9 @@
   "pipeline": [
     "pipeline"
   ],
+  "pipeline-debt": [
+    "pipeline-debt"
+  ],
   "pipeline-framework": [
     "pipeline-framework"
   ],
@@ -64469,6 +64760,12 @@
   ],
   "pipeline-structure": [
     "pipeline-structure"
+  ],
+  "pipeline-testing": [
+    "pipeline-testing"
+  ],
+  "pipeline-tests": [
+    "pipeline-tests"
   ],
   "pipeline: test, lint, build": [
     "pipeline-test-lint-build"
@@ -68433,6 +68730,9 @@
   "publish npm package": [
     "publish-npm-package"
   ],
+  "publish npm packages": [
+    "publish-npm-packages"
+  ],
   "publish npm release": [
     "publish-npm-release"
   ],
@@ -69146,6 +69446,9 @@
   ],
   "pull request check": [
     "pull-request-check"
+  ],
+  "pull request checkboxes": [
+    "pull-request-checkboxes"
   ],
   "pull request checks": [
     "pull-request-checks"
@@ -70115,6 +70418,9 @@
   ],
   "qa whole library": [
     "qa-whole-library"
+  ],
+  "qaautomation": [
+    "qaautomation"
   ],
   "qbasic": [
     "qbasic"
@@ -74208,6 +74514,9 @@
   "restrictions": [
     "restrictions"
   ],
+  "restructured-text": [
+    "restructured-text"
+  ],
   "restructuredtext": [
     "restructuredtext"
   ],
@@ -75372,6 +75681,9 @@
   "rstats": [
     "rstats"
   ],
+  "rstcheck": [
+    "rstcheck"
+  ],
   "rstest": [
     "rstest"
   ],
@@ -75536,6 +75848,9 @@
   ],
   "ruby-tests": [
     "ruby-tests"
+  ],
+  "ruby-units": [
+    "ruby-units"
   ],
   "ruby-versions": [
     "ruby-versions"
@@ -76347,6 +76662,9 @@
   "rust dependency audit": [
     "rust-dependency-audit"
   ],
+  "rust minimal": [
+    "rust-minimal"
+  ],
   "rust musl": [
     "rust-musl"
   ],
@@ -76362,6 +76680,9 @@
   "rust shed linux": [
     "rust-shed-linux"
   ],
+  "rust stable": [
+    "rust-stable"
+  ],
   "rust test": [
     "rust-test"
   ],
@@ -76373,6 +76694,9 @@
   ],
   "rust version compatibility check": [
     "rust-version-compatibility-check"
+  ],
+  "rust windows": [
+    "rust-windows"
   ],
   "rust-analyzer": [
     "rust-analyzer"
@@ -77882,6 +78206,9 @@
   ],
   "segments": [
     "segments"
+  ],
+  "seismic-waves": [
+    "seismic-waves"
   ],
   "select": [
     "select"
@@ -82001,6 +82328,9 @@
   "static-code-analysis": [
     "static-code-analysis"
   ],
+  "static-library": [
+    "static-library"
+  ],
   "static-map-building": [
     "static-map-building"
   ],
@@ -84107,6 +84437,9 @@
   "tabular-data": [
     "tabular-data"
   ],
+  "tabular-data-formatter": [
+    "tabular-data-formatter"
+  ],
   "tacotron": [
     "tacotron"
   ],
@@ -84608,6 +84941,9 @@
   "temperature-sensor": [
     "temperature-sensor"
   ],
+  "temperature-units": [
+    "temperature-units"
+  ],
   "tempfile": [
     "tempfile"
   ],
@@ -85063,6 +85399,9 @@
   ],
   "test against pacman-git": [
     "test-against-pacman-git"
+  ],
+  "test against recent gdal tags": [
+    "test-against-recent-gdal-tags"
   ],
   "test agent context": [
     "test-agent-context"
@@ -85520,6 +85859,9 @@
   "test fzf on macos": [
     "test-fzf-on-macos"
   ],
+  "test gdal latest": [
+    "test-gdal-latest"
+  ],
   "test generated c": [
     "test-generated-c"
   ],
@@ -85780,6 +86122,9 @@
   ],
   "test on rocky linux": [
     "test-on-rocky-linux"
+  ],
+  "test on signal from gdal": [
+    "test-on-signal-from-gdal"
   ],
   "test on ubuntu": [
     "test-on-ubuntu"
@@ -86426,11 +86771,20 @@
   "testing - interchaintest": [
     "testing---interchaintest"
   ],
+  "testing on linux": [
+    "testing-on-linux"
+  ],
+  "testing on macos": [
+    "testing-on-macos"
+  ],
   "testing queue runner": [
     "testing-queue-runner"
   ],
   "testing suite (executor)": [
     "testing-suite-executor"
+  ],
+  "testing with latest gcc": [
+    "testing-with-latest-gcc"
   ],
   "testing \ud83d\udc68\u200d\ud83d\udd2c": [
     "testing"
@@ -88090,6 +88444,9 @@
   "traffic-element-recognition": [
     "traffic-element-recognition"
   ],
+  "traffic-light-detection": [
+    "traffic-light-detection"
+  ],
   "train": [
     "train"
   ],
@@ -88887,6 +89244,9 @@
   ],
   "tuplehash": [
     "tuplehash"
+  ],
+  "turbo": [
+    "turbo"
   ],
   "turbo-rails": [
     "turbo-rails"
@@ -89986,6 +90346,9 @@
   "unit-integration-tests": [
     "unit-integration-tests"
   ],
+  "unit-math": [
+    "unit-math"
+  ],
   "unit-test": [
     "unit-test"
   ],
@@ -90189,6 +90552,9 @@
   ],
   "unstructured-data": [
     "unstructured-data"
+  ],
+  "unstructured-meshes": [
+    "unstructured-meshes"
   ],
   "unsupervised": [
     "unsupervised"
@@ -91019,6 +91385,9 @@
   "update squeak.org": [
     "update-squeak.org"
   ],
+  "update stable tag": [
+    "update-stable-tag"
+  ],
   "update stale issues": [
     "update-stale-issues"
   ],
@@ -91129,6 +91498,9 @@
   ],
   "update version": [
     "update-version"
+  ],
+  "update version db": [
+    "update-version-db"
   ],
   "update version file and create tag": [
     "update-version-file-and-create-tag"
@@ -91840,6 +92212,9 @@
   ],
   "vagrant": [
     "vagrant"
+  ],
+  "vala": [
+    "vala"
   ],
   "vale": [
     "vale"
@@ -94445,6 +94820,9 @@
   "wasm tests": [
     "wasm-tests"
   ],
+  "wasm-bindgen": [
+    "wasm-bindgen"
+  ],
   "wasm-oci": [
     "wasm-oci"
   ],
@@ -94522,6 +94900,9 @@
   ],
   "wav2vec2": [
     "wav2vec2"
+  ],
+  "wave-propagation": [
+    "wave-propagation"
   ],
   "waveform": [
     "waveform"
@@ -95203,6 +95584,9 @@
   ],
   "weekly tests": [
     "weekly-tests"
+  ],
+  "weekly tests against latest gdal": [
+    "weekly-tests-against-latest-gdal"
   ],
   "weekly trivy scan": [
     "weekly-trivy-scan"

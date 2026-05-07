@@ -1414,6 +1414,18 @@
       "source_repo": "libLAS/libLAS",
       "status": "candidate-context",
       "text": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary",
+      "status": "candidate-context",
+      "text": "Gas-Efficient Solidity DateTime Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary",
+      "status": "candidate-context",
+      "text": "<kbd><img src=\"images/clocks.png\" /></kbd>"
     }
   ],
   "candidate_glosses": [
@@ -2118,6 +2130,12 @@
       "source_repo": "libLAS/libLAS",
       "status": "candidate",
       "text": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary",
+      "status": "candidate",
+      "text": "<kbd><img src=\"images/clocks.png\" /></kbd>"
     }
   ],
   "candidate_related_terms": [
@@ -3178,11 +3196,35 @@
       "observed_at": "2026-05-06T12:51:12.481137+00:00",
       "source_file": null,
       "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "AltF02/mouse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

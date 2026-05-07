@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "cleandata"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "great-expectations/great_expectations",
+      "status": "candidate-context",
+      "text": "Always know what to expect from your data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "great-expectations/great_expectations",
+      "status": "candidate-context",
+      "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/great_expectations.svg)](https://pypi.python.org/pypi/great_expectations)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "great-expectations/great_expectations",
+      "status": "candidate",
+      "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/great_expectations.svg)](https://pypi.python.org/pypi/great_expectations)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "cleandata",
+  "concept_id": "cleandata",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "great-expectations/great_expectations"
+    }
+  ],
+  "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cleandata",
+      "sense_id": "cleandata#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

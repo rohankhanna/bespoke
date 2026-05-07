@@ -259,6 +259,18 @@
       "source_repo": "geopandas/geopandas",
       "status": "candidate-context",
       "text": "[![pypi](https://img.shields.io/pypi/v/geopandas.svg)](https://pypi.python.org/pypi/geopandas/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "petercorke/ansitable",
+      "status": "candidate-context",
+      "text": "Quick, easy and pretty display of tabular data or matrices, with optional ANSI color and borders"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/ansitable",
+      "status": "candidate-context",
+      "text": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +399,12 @@
       "source_repo": "geopandas/geopandas",
       "status": "candidate",
       "text": "[![pypi](https://img.shields.io/pypi/v/geopandas.svg)](https://pypi.python.org/pypi/geopandas/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/ansitable",
+      "status": "candidate",
+      "text": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)"
     }
   ],
   "candidate_related_terms": [
@@ -634,11 +652,23 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": null,
       "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "petercorke/ansitable"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

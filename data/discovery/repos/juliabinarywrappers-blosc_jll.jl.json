@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/Blosc_jll.jl",
+      "target": "juliabinarywrappers/lz4_jll.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/Blosc_jll.jl",
+      "target": "juliabinarywrappers/zstd_jll.jl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T01:58:39.356939+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2665
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "JuliaBinaryWrappers/Blosc_jll.jl",
+    "html_url": "https://github.com/JuliaBinaryWrappers/Blosc_jll.jl",
+    "language": "Julia",
+    "pushed_at": "2025-03-12T20:29:43Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-03-12T20:29:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliabinarywrappers/lz4_jll.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliabinarywrappers/zstd_jll.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

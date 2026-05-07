@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rstcheck.yml",
+      "source_repo": "Toblerity/Fiona",
+      "target": "actions/checkout@v4.1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rstcheck.yml",
+      "source_repo": "Toblerity/Fiona",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rstcheck.yml",
+      "source_repo": "Toblerity/Fiona",
+      "target": "rstcheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "Toblerity/Fiona",
+      "target": "actions/checkout@1d96c772d19495a3b5c517cd2bc0cb401ea0529f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "Toblerity/Fiona",
+      "target": "ossf/scorecard-action@62b2cac7ed8198b15735ed49ab1e5cf35480ba46",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "Toblerity/Fiona",
+      "target": "actions/upload-artifact@b4b15b8c7c6ac21ea08fcf65892d2ee8f75cf882",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "Toblerity/Fiona",
+      "target": "github/codeql-action/upload-sarif@662472033e021d55d94146f66f6058822b0b39fd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "Toblerity/Fiona",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_gdal_latest.yml",
+      "source_repo": "Toblerity/Fiona",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_gdal_latest.yml",
+      "source_repo": "Toblerity/Fiona",
+      "target": "Test GDAL Latest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Toblerity/Fiona",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Toblerity/Fiona",
+      "target": "mamba-org/setup-micromamba@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Toblerity/Fiona",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Toblerity/Fiona",
+      "target": "cython",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Toblerity/Fiona",
+      "target": "gdal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Toblerity/Fiona",
+      "target": "vector",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-07T00:37:24.413591+00:00",
+  "source_repo": "Toblerity/Fiona"
+}

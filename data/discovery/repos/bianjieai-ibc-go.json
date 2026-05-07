@@ -1,0 +1,362 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "technote-space/get-diff-action@v6.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-fork.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-fork.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-fork.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-fork.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "docker/login-action@49ed152c8eca782a232dede0303416e8f356c37b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "docker/metadata-action@69f6fc9d46f2f8bf0d5491e4aabe0bb8c6a4678a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "docker/build-push-action@1cb9d22b932e4832bb29793b7777ec860fc1cde0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "docker/login-action@49ed152c8eca782a232dede0303416e8f356c37b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goimports.yaml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v3.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-docs.yml",
+      "source_repo": "bianjieai/ibc-go",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-docs.yml",
+      "source_repo": "bianjieai/ibc-go",
+      "target": "Check docs build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bianjieai/ibc-go",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bianjieai/ibc-go",
+      "target": "technote-space/get-diff-action@v6.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bianjieai/ibc-go",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bianjieai/ibc-go",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bianjieai/ibc-go",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bianjieai/ibc-go",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-fork.yml",
+      "source_repo": "bianjieai/ibc-go",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-fork.yml",
+      "source_repo": "bianjieai/ibc-go",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "bianjieai/ibc-go",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "bianjieai/ibc-go",
+      "target": "docker/login-action@49ed152c8eca782a232dede0303416e8f356c37b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "bianjieai/ibc-go",
+      "target": "docker/metadata-action@69f6fc9d46f2f8bf0d5491e4aabe0bb8c6a4678a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "bianjieai/ibc-go",
+      "target": "docker/build-push-action@1cb9d22b932e4832bb29793b7777ec860fc1cde0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "bianjieai/ibc-go",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goimports.yaml",
+      "source_repo": "bianjieai/ibc-go",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goimports.yaml",
+      "source_repo": "bianjieai/ibc-go",
+      "target": "Goimports",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci.yml",
+      "source_repo": "bianjieai/ibc-go",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci.yml",
+      "source_repo": "bianjieai/ibc-go",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci.yml",
+      "source_repo": "bianjieai/ibc-go",
+      "target": "golangci/golangci-lint-action@v3.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci.yml",
+      "source_repo": "bianjieai/ibc-go",
+      "target": "golangci-lint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T01:55:38.582933+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3371
+    },
+    {
+      "path": "Dockerfile",
+      "size": 291
+    },
+    {
+      "path": "go.mod",
+      "size": 6146
+    },
+    {
+      "path": ".github/workflows/check-docs.yml",
+      "size": 611
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2705
+    },
+    {
+      "path": ".github/workflows/e2e-fork.yml",
+      "size": 1558
+    },
+    {
+      "path": ".github/workflows/e2e.yaml",
+      "size": 3475
+    },
+    {
+      "path": ".github/workflows/goimports.yaml",
+      "size": 194
+    },
+    {
+      "path": ".github/workflows/golangci.yml",
+      "size": 561
+    },
+    {
+      "path": ".github/workflows/link-check-config.json",
+      "size": 144
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Interblockchain Communication Protocol (IBC) implementation in Golang.",
+    "fork": true,
+    "full_name": "bianjieai/ibc-go",
+    "html_url": "https://github.com/bianjieai/ibc-go",
+    "language": "Go",
+    "pushed_at": "2022-07-29T14:07:12Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2022-11-18T15:51:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check docs build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-docs.yml",
+      "term": "Check docs build"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Goimports",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goimports.yaml",
+      "term": "Goimports"
+    },
+    {
+      "context_snippet": "golangci-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci.yml",
+      "term": "golangci-lint"
+    }
+  ]
+}

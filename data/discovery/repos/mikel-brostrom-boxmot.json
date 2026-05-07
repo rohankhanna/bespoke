@@ -567,7 +567,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T15:31:28.859798+00:00",
+  "fetched_at": "2026-05-07T03:25:48.863606+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -579,7 +579,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 6138
+      "size": 6411
     },
     {
       "path": ".github/workflows/benchmark.yml",
@@ -619,8 +619,8 @@
     "full_name": "mikel-brostrom/boxmot",
     "html_url": "https://github.com/mikel-brostrom/boxmot",
     "language": "Python",
-    "pushed_at": "2026-05-03T14:22:48Z",
-    "stargazers_count": 8134,
+    "pushed_at": "2026-05-07T00:45:37Z",
+    "stargazers_count": 8137,
     "topics": [
       "boosttrack",
       "botsort",
@@ -640,7 +640,7 @@
       "tracking-by-detection",
       "yolo"
     ],
-    "updated_at": "2026-05-03T14:58:28Z"
+    "updated_at": "2026-05-07T00:45:42Z"
   },
   "repo_links": [],
   "terms": [

@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "CHIP-SPV/H4I-HipSOLVER",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "CHIP-SPV/H4I-HipSOLVER",
+      "target": "H4I-HipSOLVER CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install.yml",
+      "source_repo": "CHIP-SPV/H4I-HipSOLVER",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install.yml",
+      "source_repo": "CHIP-SPV/H4I-HipSOLVER",
+      "target": "H4I-HipSOLVER Install",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "CHIP-SPV/H4I-HipSOLVER",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "CHIP-SPV/H4I-HipSOLVER",
+      "target": "Presubmit",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-07T00:37:24.413591+00:00",
+  "source_repo": "CHIP-SPV/H4I-HipSOLVER"
+}

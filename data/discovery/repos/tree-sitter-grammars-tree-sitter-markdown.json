@@ -228,7 +228,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-06T07:30:26.247259+00:00",
+  "fetched_at": "2026-05-07T01:22:34.490852+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -268,14 +268,14 @@
     "full_name": "tree-sitter-grammars/tree-sitter-markdown",
     "html_url": "https://github.com/tree-sitter-grammars/tree-sitter-markdown",
     "language": "C",
-    "pushed_at": "2026-02-26T18:04:36Z",
-    "stargazers_count": 600,
+    "pushed_at": "2026-05-06T10:45:23Z",
+    "stargazers_count": 601,
     "topics": [
       "markdown",
       "parser",
       "tree-sitter"
     ],
-    "updated_at": "2026-05-04T06:55:21Z"
+    "updated_at": "2026-05-07T00:01:49Z"
   },
   "repo_links": [
     {

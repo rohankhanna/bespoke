@@ -82,6 +82,30 @@
       "source_repo": "gookit/cache",
       "status": "candidate-context",
       "text": "Tag-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gookit/config",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdd Go configuration manage(load,get,set,export). support JSON, YAML, TOML, Properties, INI, HCL, ENV and Flags. Multi file load, data override merge, parse ENV var. Go\u5e94\u7528\u914d\u7f6e\u52a0\u8f7d\u7ba1\u7406\uff0c\u652f\u6301\u591a\u79cd\u683c\u5f0f\uff0c\u591a\u6587\u4ef6\u52a0\u8f7d\uff0c\u8fdc\u7a0b\u6587\u4ef6\u52a0\u8f7d\uff0c\u652f\u6301\u6570\u636e\u5408\u5e76\uff0c\u89e3\u6790\u73af\u5883\u53d8\u91cf\u540d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/config",
+      "status": "candidate-context",
+      "text": "Tag-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gookit/event",
+      "status": "candidate-context",
+      "text": "\ud83d\udce2 Lightweight event manager and dispatcher implements by Go. Go\u5b9e\u73b0\u7684\u8f7b\u91cf\u7ea7\u7684\u4e8b\u4ef6\u7ba1\u7406\u3001\u8c03\u5ea6\u7a0b\u5e8f\u5e93, \u652f\u6301\u8bbe\u7f6e\u76d1\u542c\u5668\u7684\u4f18\u5148\u7ea7, \u652f\u6301\u4f7f\u7528\u901a\u914d\u7b26\u6765\u8fdb\u884c\u4e00\u7ec4\u4e8b\u4ef6\u7684\u76d1\u542c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/event",
+      "status": "candidate-context",
+      "text": "Tag-release"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +142,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gookit/cache",
+      "status": "candidate",
+      "text": "Tag-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/config",
+      "status": "candidate",
+      "text": "Tag-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/event",
       "status": "candidate",
       "text": "Tag-release"
     }
@@ -199,11 +235,23 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "gookit/cache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gookit/config"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gookit/event"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

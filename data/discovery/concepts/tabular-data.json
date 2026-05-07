@@ -91,6 +91,18 @@
       "source_repo": "bvaughn/react-virtualized",
       "status": "candidate-context",
       "text": "[<img src=\"https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png\" alt=\"React virtualized\" data-canonical-src=\"https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png\" width=\"330\" height=\"100\"\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "petercorke/ansitable",
+      "status": "candidate-context",
+      "text": "Quick, easy and pretty display of tabular data or matrices, with optional ANSI color and borders"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/ansitable",
+      "status": "candidate-context",
+      "text": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "bvaughn/react-virtualized",
       "status": "candidate",
       "text": "[<img src=\"https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png\" alt=\"React virtualized\" data-canonical-src=\"https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png\" width=\"330\" height=\"100\"\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/ansitable",
+      "status": "candidate",
+      "text": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,17 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "bvaughn/react-virtualized"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "petercorke/ansitable"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

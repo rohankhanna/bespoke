@@ -1,0 +1,94 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Debian, Ubuntu, and others packaging for ungoogled-chromium"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "#!/bin/bash # convert.sh # # Perform the conversion from Chromium to ungoogled-chromium # set -e test -n \"$DOWNLOAD_DIR\" test -n \"$OUTPUT_DIR\" test -n \"$STATE_DIR\" test -n \"$WORK_DIR\" test -d \"$GITHUB_WORKSPACE\" uc_git=$GITHUB_WORKSPACE/ungoogled-chromium wrap= tab=' ' run() { e\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "#!/bin/bash # convert.sh # # Perform the conversion from Chromium to ungoogled-chromium # set -e test -n \"$DOWNLOAD_DIR\" test -n \"$OUTPUT_DIR\" test -n \"$STATE_DIR\" test -n \"$WORK_DIR\" test -d \"$GITHUB_WORKSPACE\" uc_git=$GITHUB_WORKSPACE/ungoogled-chromium wrap= tab=' ' run() { e\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047491,
+      "status": "candidate",
+      "text": "atomic number 24"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047490,
+      "status": "candidate",
+      "text": "molybdenum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20045774,
+      "status": "candidate",
+      "text": "chromic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20042810,
+      "status": "candidate",
+      "text": "trivalent"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chromium",
+      "sense_id": "chromium#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "atomic number 24"
+    }
+  ],
+  "concept_id": "chromium",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chromium",
+  "observation_id": "467c0268e8bcae5e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_text": "chromium",
+  "source_context_snippet": "#!/bin/bash # convert.sh # # Perform the conversion from Chromium to ungoogled-chromium # set -e test -n \"$DOWNLOAD_DIR\" test -n \"$OUTPUT_DIR\" test -n \"$STATE_DIR\" test -n \"$WORK_DIR\" test -d \"$GITHUB_WORKSPACE\" uc_git=$GITHUB_WORKSPACE/ungoogled-chromium wrap= tab=' ' run() { e\u2026",
+  "source_file": null,
+  "source_repo": "ungoogled-software/ungoogled-chromium-debian",
+  "source_repo_description": "Debian, Ubuntu, and others packaging for ungoogled-chromium"
+}

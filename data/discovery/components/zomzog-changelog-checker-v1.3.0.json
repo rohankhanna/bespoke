@@ -1,12 +1,17 @@
 {
   "component": "Zomzog/changelog-checker@v1.3.0",
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/changelog.yml",
       "source_repo": "rojo-rbx/rojo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/changelog-entry-reminder.yml",
+      "source_repo": "osmosis-labs/osmosis"
     }
   ]
 }

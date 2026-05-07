@@ -1,0 +1,225 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "jandelgado/gcov2lcov-action@v1.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "linxGnu/grocksdb",
+      "target": "tecbot/gorocksdb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "linxGnu/grocksdb",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "linxGnu/grocksdb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "linxGnu/grocksdb",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "linxGnu/grocksdb",
+      "target": "jandelgado/gcov2lcov-action@v1.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "linxGnu/grocksdb",
+      "target": "coverallsapp/github-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linxGnu/grocksdb",
+      "target": "embedded",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linxGnu/grocksdb",
+      "target": "go-binding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linxGnu/grocksdb",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linxGnu/grocksdb",
+      "target": "no-defer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linxGnu/grocksdb",
+      "target": "rocksdb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linxGnu/grocksdb",
+      "target": "static",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linxGnu/grocksdb",
+      "target": "static-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linxGnu/grocksdb",
+      "target": "wrapper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T01:56:32.806163+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3406
+    },
+    {
+      "path": "go.mod",
+      "size": 236
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 1439
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RocksDB wrapper for Go. Support 10.x, 9.x, 8.x, 7.x, 6.x, etc",
+    "fork": false,
+    "full_name": "linxGnu/grocksdb",
+    "html_url": "https://github.com/linxGnu/grocksdb",
+    "language": "Go",
+    "pushed_at": "2026-04-19T02:22:33Z",
+    "stargazers_count": 392,
+    "topics": [
+      "embedded",
+      "go",
+      "go-binding",
+      "golang",
+      "no-defer",
+      "rocksdb",
+      "static",
+      "static-library",
+      "wrapper"
+    ],
+    "updated_at": "2026-05-06T09:44:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tecbot/gorocksdb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![](https://github.com/linxGnu/grocksdb/workflows/CI/badge.svg)]()",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded"
+    },
+    {
+      "context_snippet": "[![](https://github.com/linxGnu/grocksdb/workflows/CI/badge.svg)]()",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "go-binding"
+    },
+    {
+      "context_snippet": "[![](https://github.com/linxGnu/grocksdb/workflows/CI/badge.svg)]()",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![](https://github.com/linxGnu/grocksdb/workflows/CI/badge.svg)]()",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "no-defer"
+    },
+    {
+      "context_snippet": "[![](https://github.com/linxGnu/grocksdb/workflows/CI/badge.svg)]()",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rocksdb"
+    },
+    {
+      "context_snippet": "[![](https://github.com/linxGnu/grocksdb/workflows/CI/badge.svg)]()",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static"
+    },
+    {
+      "context_snippet": "[![](https://github.com/linxGnu/grocksdb/workflows/CI/badge.svg)]()",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-library"
+    },
+    {
+      "context_snippet": "[![](https://github.com/linxGnu/grocksdb/workflows/CI/badge.svg)]()",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wrapper"
+    }
+  ]
+}

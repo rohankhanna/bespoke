@@ -312,7 +312,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T18:55:43.410010+00:00",
+  "fetched_at": "2026-05-07T01:10:57.640011+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -343,13 +343,13 @@
   "repo": {
     "archived": false,
     "default_branch": "master",
-    "description": "\ud83d\ude43   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
+    "description": "\ud83d\ude43   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
     "fork": false,
     "full_name": "ohmyzsh/ohmyzsh",
     "html_url": "https://github.com/ohmyzsh/ohmyzsh",
     "language": "Shell",
-    "pushed_at": "2026-05-04T07:20:12Z",
-    "stargazers_count": 186714,
+    "pushed_at": "2026-05-06T18:42:33Z",
+    "stargazers_count": 186771,
     "topics": [
       "cli",
       "cli-app",
@@ -367,7 +367,7 @@
       "zsh",
       "zsh-configuration"
     ],
-    "updated_at": "2026-05-05T18:38:30Z"
+    "updated_at": "2026-05-07T00:21:54Z"
   },
   "repo_links": [],
   "terms": [

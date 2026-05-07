@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -115,6 +117,18 @@
       "source_repo": "hinshun/vt10x",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/hinshun/vt10x.svg?branch=master)](https://travis-ci.org/hinshun/vt10x)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/x",
+      "status": "candidate-context",
+      "text": "Charm experimental packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/x",
+      "status": "candidate-context",
+      "text": "ansi"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +185,12 @@
       "source_repo": "hinshun/vt10x",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/hinshun/vt10x.svg?branch=master)](https://travis-ci.org/hinshun/vt10x)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/x",
+      "status": "candidate",
+      "text": "ansi"
     }
   ],
   "candidate_related_terms": [
@@ -268,11 +288,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "hinshun/vt10x"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/ansi.yml",
+      "source_repo": "charmbracelet/x"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

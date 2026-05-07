@@ -74,6 +74,18 @@
       "source_repo": "isciences/exactextract",
       "status": "candidate-context",
       "text": "Code Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OSGeo/gdal",
+      "status": "candidate-context",
+      "text": "GDAL is an open source MIT licensed translator library for raster and vector geospatial data formats."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OSGeo/gdal",
+      "status": "candidate-context",
+      "text": "Code Checks"
     }
   ],
   "candidate_glosses": [
@@ -110,6 +122,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "isciences/exactextract",
+      "status": "candidate",
+      "text": "Code Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OSGeo/gdal",
       "status": "candidate",
       "text": "Code Checks"
     }
@@ -191,11 +209,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/code_checks.yml",
       "source_repo": "isciences/exactextract"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/code_checks.yml",
+      "source_repo": "OSGeo/gdal"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

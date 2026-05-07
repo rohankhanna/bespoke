@@ -1,7 +1,7 @@
 {
   "component": "dorny/paths-filter@v3",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -577,6 +577,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/label-pr.yml",
       "source_repo": "instana/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/label-pr.yml",
+      "source_repo": "opensearch-project/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/label-pr.yml",
+      "source_repo": "signalfx/opentelemetry-demo"
     }
   ]
 }

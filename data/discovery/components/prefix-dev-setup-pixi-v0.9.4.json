@@ -1,0 +1,17 @@
+{
+  "component": "prefix-dev/setup-pixi@v0.9.4",
+  "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto_approve.yml",
+      "source_repo": "rerun-io/rerun"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checkboxes.yml",
+      "source_repo": "rerun-io/rerun"
+    }
+  ]
+}

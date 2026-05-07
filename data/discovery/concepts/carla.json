@@ -31,6 +31,18 @@
       "source_repo": "PJLab-ADG/PCSim",
       "status": "candidate-context",
       "text": "<!-- - [News](#news-fire) -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erdos-project/pylot",
+      "status": "candidate-context",
+      "text": "Modular autonomous driving platform running on the CARLA simulator and real-world vehicles."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erdos-project/pylot",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "PJLab-ADG/PCSim",
       "status": "candidate",
       "text": "<!-- - [News](#news-fire) -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erdos-project/pylot",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "PJLab-ADG/PCSim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "erdos-project/pylot"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

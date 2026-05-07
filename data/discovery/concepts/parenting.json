@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "parenting"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Parenting-Questions-AI-Agent-Workflow",
+      "status": "candidate-context",
+      "text": "Workflow for an agent that answers parenting questions by email with upload to Google Drive"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Parenting-Questions-AI-Agent-Workflow",
+      "status": "candidate-context",
+      "text": "![alt text](images/1.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Parenting-Questions-AI-Agent-Workflow",
+      "status": "candidate",
+      "text": "![alt text](images/1.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39922622,
+      "status": "candidate",
+      "text": "rear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39850142,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39840081,
+      "status": "candidate",
+      "text": "nurture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39835875,
+      "status": "candidate",
+      "text": "bring up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29936421,
+      "status": "candidate",
+      "text": "childrearing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "parenting",
+  "concept_id": "parenting",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Parenting-Questions-AI-Agent-Workflow"
+    }
+  ],
+  "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "parenting",
+      "sense_id": "parenting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

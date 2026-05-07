@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shenyi-Z/TaylorSeer",
+      "target": "evelynzhang-epiclab/sito",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shenyi-Z/TaylorSeer",
+      "target": "philipy1219/comfyui-taylorseer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shenyi-Z/TaylorSeer",
+      "target": "thudm/imagereward",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shenyi-Z/TaylorSeer",
+      "target": "tencent/hunyuanvideo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T00:56:23.101720+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8958
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV2025] From Reusing to Forecasting: Accelerating Diffusion Models with TaylorSeers",
+    "fork": false,
+    "full_name": "Shenyi-Z/TaylorSeer",
+    "html_url": "https://github.com/Shenyi-Z/TaylorSeer",
+    "language": "Python",
+    "pushed_at": "2026-03-02T03:12:12Z",
+    "stargazers_count": 393,
+    "topics": [],
+    "updated_at": "2026-04-29T14:35:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "evelynzhang-epiclab/sito",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "philipy1219/comfyui-taylorseer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/hunyuanvideo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/imagereward",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,212 @@
+{
+  "components": [
+    {
+      "component": "apache-arrow",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gh-pages",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typedoc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kylebarron/arrow-wasm",
+      "target": "apache-arrow",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kylebarron/arrow-wasm",
+      "target": "gh-pages",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kylebarron/arrow-wasm",
+      "target": "typedoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kylebarron/arrow-wasm",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kylebarron/arrow-wasm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kylebarron/arrow-wasm",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kylebarron/arrow-wasm",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kylebarron/arrow-wasm",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kylebarron/arrow-wasm",
+      "target": "apache-arrow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kylebarron/arrow-wasm",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kylebarron/arrow-wasm",
+      "target": "wasm-bindgen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kylebarron/arrow-wasm",
+      "target": "webassembly",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T02:49:05.081694+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 89
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2349
+    },
+    {
+      "path": "package.json",
+      "size": 537
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 978
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Building block library for using Apache Arrow in Rust WebAssembly modules.",
+    "fork": false,
+    "full_name": "kylebarron/arrow-wasm",
+    "html_url": "https://github.com/kylebarron/arrow-wasm",
+    "language": "Rust",
+    "pushed_at": "2026-04-06T13:43:39Z",
+    "stargazers_count": 28,
+    "topics": [
+      "apache-arrow",
+      "javascript",
+      "rust",
+      "wasm-bindgen",
+      "webassembly"
+    ],
+    "updated_at": "2026-04-06T13:43:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "Building block library for using Apache Arrow in Rust WebAssembly modules.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apache-arrow"
+    },
+    {
+      "context_snippet": "Building block library for using Apache Arrow in Rust WebAssembly modules.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "Building block library for using Apache Arrow in Rust WebAssembly modules.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm-bindgen"
+    },
+    {
+      "context_snippet": "Building block library for using Apache Arrow in Rust WebAssembly modules.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webassembly"
+    }
+  ]
+}

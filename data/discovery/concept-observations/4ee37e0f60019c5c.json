@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An open source SDK for logging, storing, querying, and visualizing multimodal and multi-rate data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Adhoc Wheels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Adhoc Wheels"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "handcar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15314,
+      "status": "candidate",
+      "text": "wheelchair"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "art"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "based"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "bumper car"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Adhoc Wheels",
+      "sense_id": "adhoc-wheels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "adhoc-wheels",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "adhoc-wheels",
+  "observation_id": "4ee37e0f60019c5c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_text": "Adhoc Wheels",
+  "source_context_snippet": "Adhoc Wheels",
+  "source_file": ".github/workflows/adhoc_wheels.yml",
+  "source_repo": "rerun-io/rerun",
+  "source_repo_description": "An open source SDK for logging, storing, querying, and visualizing multimodal and multi-rate data"
+}

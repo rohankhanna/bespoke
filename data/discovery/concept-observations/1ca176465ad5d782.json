@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kangaroo is an AI-powered SQL client and admin tool for popular databases (MariaDB / MySQL / Oracle / PostgreSQL / Redis / SQLite / SQL Server / ...) on Windows / MacOS / Linux, support table design, query, model, sync, export/import etc, focus on comfortable, fun and developer friendly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ollama-ui",
+      "sense_id": "ollama-ui#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ollama-ui",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ollama-ui",
+  "observation_id": "1ca176465ad5d782",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_text": "ollama-ui",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "dbkangaroo/kangaroo",
+  "source_repo_description": "Kangaroo is an AI-powered SQL client and admin tool for popular databases (MariaDB / MySQL / Oracle / PostgreSQL / Redis / SQLite / SQL Server / ...) on Windows / MacOS / Linux, support table design, query, model, sync, export/import etc, focus on comfortable, fun and developer friendly."
+}

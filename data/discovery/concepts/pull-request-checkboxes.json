@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Pull Request Checkboxes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rerun-io/rerun",
+      "status": "candidate-context",
+      "text": "An open source SDK for logging, storing, querying, and visualizing multimodal and multi-rate data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rerun-io/rerun",
+      "status": "candidate-context",
+      "text": "Pull Request Checkboxes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rerun-io/rerun",
+      "status": "candidate",
+      "text": "Pull Request Checkboxes"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10355,
+      "status": "candidate",
+      "text": "sets"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9634,
+      "status": "candidate",
+      "text": "balance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9634,
+      "status": "candidate",
+      "text": "extension"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9634,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9634,
+      "status": "candidate",
+      "text": "hike"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Pull Request Checkboxes",
+  "concept_id": "pull-request-checkboxes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/checkboxes.yml",
+      "source_repo": "rerun-io/rerun"
+    }
+  ],
+  "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pull Request Checkboxes",
+      "sense_id": "pull-request-checkboxes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

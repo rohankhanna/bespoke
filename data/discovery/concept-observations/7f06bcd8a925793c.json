@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Modular autonomous driving platform running on the CARLA simulator and real-world vehicles."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039161,
+      "status": "candidate",
+      "text": "foretelling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039125,
+      "status": "candidate",
+      "text": "forecasting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039093,
+      "status": "candidate",
+      "text": "foresight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038545,
+      "status": "candidate",
+      "text": "anticipation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039232,
+      "status": "candidate",
+      "text": "prognostic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "prediction",
+      "sense_id": "prediction#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34048,
+      "status": "candidate",
+      "text": "anticipation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24037,
+      "status": "candidate",
+      "text": "foresight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5019,
+      "status": "candidate",
+      "text": "foretelling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4027,
+      "status": "candidate",
+      "text": "forecasting"
+    }
+  ],
+  "concept_id": "prediction",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "prediction",
+  "observation_id": "7f06bcd8a925793c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_text": "prediction",
+  "source_context_snippet": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)",
+  "source_file": null,
+  "source_repo": "erdos-project/pylot",
+  "source_repo_description": "Modular autonomous driving platform running on the CARLA simulator and real-world vehicles."
+}

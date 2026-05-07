@@ -355,6 +355,30 @@
       "source_repo": "jabir-zheng/TCD",
       "status": "candidate-context",
       "text": "[![Arxiv](https://img.shields.io/badge/arXiv-2402.19159-b31b1b)](https://arxiv.org/abs/2402.19159)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j-min/DSG",
+      "status": "candidate-context",
+      "text": "Davidsonian Scene Graph (DSG) for Text-to-Image Evaluation (ICLR 2024)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j-min/DSG",
+      "status": "candidate-context",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "status": "candidate-context",
+      "text": "\ud83d\udcda Collection of awesome generation acceleration resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +555,18 @@
       "source_repo": "jabir-zheng/TCD",
       "status": "candidate",
       "text": "[![Arxiv](https://img.shields.io/badge/arXiv-2402.19159-b31b1b)](https://arxiv.org/abs/2402.19159)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j-min/DSG",
+      "status": "candidate",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "status": "candidate",
+      "text": "<div align=center>"
     }
   ],
   "candidate_related_terms": [],
@@ -898,11 +934,41 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": null,
       "source_repo": "yuval-alaluf/Attend-and-Excite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogView"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "AssemblyAI-Community/MinImagen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "j-min/DSG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "yuval-alaluf/Attend-and-Excite"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

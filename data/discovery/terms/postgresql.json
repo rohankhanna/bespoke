@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -276,6 +276,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "Accla/d4m"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "dbkangaroo/kangaroo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "maybe-finance/maybe"
     }
   ],
   "term": "postgresql"

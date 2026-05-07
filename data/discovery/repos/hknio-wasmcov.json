@@ -1,0 +1,121 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "hknio/wasmcov",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "hknio/wasmcov",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "hknio/wasmcov",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "hknio/wasmcov",
+      "target": "build-and-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hknio/wasmcov",
+      "target": "code-coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hknio/wasmcov",
+      "target": "qaautomation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T01:56:08.122594+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3990
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1139
+    },
+    {
+      "path": ".github/workflows/build-test.yml",
+      "size": 530
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Automated coverage analysis of WASM executables on embedded and other constrained environments",
+    "fork": false,
+    "full_name": "hknio/wasmcov",
+    "html_url": "https://github.com/hknio/wasmcov",
+    "language": "Rust",
+    "pushed_at": "2024-08-13T09:54:11Z",
+    "stargazers_count": 38,
+    "topics": [
+      "code-coverage",
+      "qaautomation"
+    ],
+    "updated_at": "2026-03-15T17:02:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build-and-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test.yml",
+      "term": "build-and-test"
+    },
+    {
+      "context_snippet": "Wasmcov comprises a Rust library and an associated binary that offer a range of utilities for coverage analysis of WebAssembly (Wasm) modules. This tool empowers you to gather and scrutinize code coverage data while executing Wasm modules. Wasmcov stands out for its adaptability\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-coverage"
+    },
+    {
+      "context_snippet": "Wasmcov comprises a Rust library and an associated binary that offer a range of utilities for coverage analysis of WebAssembly (Wasm) modules. This tool empowers you to gather and scrutinize code coverage data while executing Wasm modules. Wasmcov stands out for its adaptability\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qaautomation"
+    }
+  ]
+}

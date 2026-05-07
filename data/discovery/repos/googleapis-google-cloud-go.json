@@ -331,7 +331,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-06T01:07:58.615718+00:00",
+  "fetched_at": "2026-05-07T03:28:17.747044+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -351,7 +351,7 @@
     },
     {
       "path": ".github/workflows/config_check.yml",
-      "size": 1326
+      "size": 1399
     },
     {
       "path": ".github/workflows/conformance.yaml",
@@ -359,7 +359,7 @@
     },
     {
       "path": ".github/workflows/generation_check.yaml",
-      "size": 1854
+      "size": 1930
     },
     {
       "path": ".github/workflows/third_party_check.yml",
@@ -383,8 +383,8 @@
     "full_name": "googleapis/google-cloud-go",
     "html_url": "https://github.com/googleapis/google-cloud-go",
     "language": "Go",
-    "pushed_at": "2026-05-05T21:18:43Z",
-    "stargazers_count": 4447,
+    "pushed_at": "2026-05-07T02:33:32Z",
+    "stargazers_count": 4448,
     "topics": [
       "cloud-bigquery",
       "cloud-datastore",
@@ -394,7 +394,7 @@
       "golang",
       "google-cloud"
     ],
-    "updated_at": "2026-05-05T17:16:59Z"
+    "updated_at": "2026-05-07T02:17:48Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,562 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_cmake.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_cmake.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_tag_stable.yml"
+    },
+    {
+      "component": "m-kuhn/backport@7f3cab83e4b3b26aefcffda21851c3dc3d389f45",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@45ba562b43a923d7be2bf33c902e26a8f9c24285",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@45ba562b43a923d7be2bf33c902e26a8f9c24285",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang_static_analyzer.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_builds.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_builds.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_builds.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@e9898307ac31d1a803454791be09ab9973336e1c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_builds.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_builds.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_builds.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_builds.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@8ee1f361103df19b6f8c8655fd3967a8ecb162d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_builds.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_builds.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@8ee1f361103df19b6f8c8655fd3967a8ecb162d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_builds.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@ed7a3b1fda3918c0306d1b724322adc0b8cc0a90",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_builds.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_builds.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_builds.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_checks.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_checks.yml"
+    },
+    {
+      "component": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_checks.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_checks.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_checks.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_cmake.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_cmake.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android_cmake.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "Android CMake build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_tag_stable.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_tag_stable.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "Update Stable Tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "m-kuhn/backport@7f3cab83e4b3b26aefcffda21851c3dc3d389f45",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "Backport",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@45ba562b43a923d7be2bf33c902e26a8f9c24285",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@45ba562b43a923d7be2bf33c902e26a8f9c24285",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "CIFuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang_static_analyzer.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang_static_analyzer.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "Clang Static Analyzer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_builds.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_builds.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_builds.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "msys2/setup-msys2@e9898307ac31d1a803454791be09ab9973336e1c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_builds.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_builds.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "conda-incubator/setup-miniconda@8ee1f361103df19b6f8c8655fd3967a8ecb162d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_builds.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "maxim-lobanov/setup-xcode@ed7a3b1fda3918c0306d1b724322adc0b8cc0a90",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake_builds.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "Build and test with CMake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_checks.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_checks.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_checks.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_checks.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "Code Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "OSGeo/gdal",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OSGeo/gdal",
+      "target": "geospatial-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OSGeo/gdal",
+      "target": "raster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OSGeo/gdal",
+      "target": "remote-sensing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OSGeo/gdal",
+      "target": "vector",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T01:58:58.129239+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4141
+    },
+    {
+      "path": ".github/workflows/android_cmake.yml",
+      "size": 1228
+    },
+    {
+      "path": ".github/workflows/auto_tag_stable.yml",
+      "size": 1691
+    },
+    {
+      "path": ".github/workflows/backport.yml",
+      "size": 762
+    },
+    {
+      "path": ".github/workflows/cifuzz.yml",
+      "size": 1070
+    },
+    {
+      "path": ".github/workflows/clang_static_analyzer.yml",
+      "size": 1020
+    },
+    {
+      "path": ".github/workflows/cmake_builds.yml",
+      "size": 37800
+    },
+    {
+      "path": ".github/workflows/code_checks.yml",
+      "size": 8982
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 4713
+    },
+    {
+      "path": ".github/workflows/common_install.sh",
+      "size": 269
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GDAL is an open source MIT licensed translator library for raster and vector geospatial data formats.",
+    "fork": false,
+    "full_name": "OSGeo/gdal",
+    "html_url": "https://github.com/OSGeo/gdal",
+    "language": "C++",
+    "pushed_at": "2026-05-07T01:14:50Z",
+    "stargazers_count": 5895,
+    "topics": [
+      "geospatial-data",
+      "raster",
+      "remote-sensing",
+      "vector"
+    ],
+    "updated_at": "2026-05-07T01:14:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Android CMake build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android_cmake.yml",
+      "term": "Android CMake build"
+    },
+    {
+      "context_snippet": "Update Stable Tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_tag_stable.yml",
+      "term": "Update Stable Tag"
+    },
+    {
+      "context_snippet": "Backport",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "term": "Backport"
+    },
+    {
+      "context_snippet": "CIFuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "term": "CIFuzz"
+    },
+    {
+      "context_snippet": "Clang Static Analyzer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang_static_analyzer.yml",
+      "term": "Clang Static Analyzer"
+    },
+    {
+      "context_snippet": "Build and test with CMake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake_builds.yml",
+      "term": "Build and test with CMake"
+    },
+    {
+      "context_snippet": "Code Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_checks.yml",
+      "term": "Code Checks"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "GDAL - Geospatial Data Abstraction Library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geospatial-data"
+    },
+    {
+      "context_snippet": "GDAL - Geospatial Data Abstraction Library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raster"
+    },
+    {
+      "context_snippet": "GDAL - Geospatial Data Abstraction Library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "remote-sensing"
+    },
+    {
+      "context_snippet": "GDAL - Geospatial Data Abstraction Library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector"
+    }
+  ]
+}

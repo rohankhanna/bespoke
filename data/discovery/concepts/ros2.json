@@ -175,6 +175,18 @@
       "source_repo": "Livox-SDK/livox_ros_driver2",
       "status": "candidate-context",
       "text": "Livox ROS Driver 2 is the 2nd-generation driver package used to connect LiDAR products produced by Livox, applicable for ROS (noetic recommended) and ROS2 (foxy or humble recommended)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ros2-rust/ros2_rust",
+      "status": "candidate-context",
+      "text": "Rust bindings for ROS 2 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ros2-rust/ros2_rust",
+      "status": "candidate-context",
+      "text": "ROS 2 for Rust"
     }
   ],
   "candidate_glosses": [
@@ -273,6 +285,12 @@
       "source_repo": "Livox-SDK/livox_ros_driver2",
       "status": "candidate",
       "text": "Livox ROS Driver 2 is the 2nd-generation driver package used to connect LiDAR products produced by Livox, applicable for ROS (noetic recommended) and ROS2 (foxy or humble recommended)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ros2-rust/ros2_rust",
+      "status": "candidate",
+      "text": "ROS 2 for Rust"
     }
   ],
   "candidate_related_terms": [],
@@ -382,11 +400,17 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "Livox-SDK/livox_ros_driver2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "ros2-rust/ros2_rust"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

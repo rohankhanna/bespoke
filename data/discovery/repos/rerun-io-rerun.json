@@ -1,0 +1,396 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_approve.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@v0.9.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_approve.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_docs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_docs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_docs_check.yml"
+    },
+    {
+      "component": "mshick/add-pr-comment@v2.8.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_docs_check.yml"
+    },
+    {
+      "component": "mshick/add-pr-comment@v2.8.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_docs_check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_shear.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_shear.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v2.48.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_shear.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checkboxes.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@v0.9.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checkboxes.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rerun-io/rerun",
+      "target": "conda-forge/rerun-sdk-feedstock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rerun-io/rerun",
+      "target": "netwide-assembler/nasm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "rerun-io/rerun",
+      "target": "emilk/egui_plot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "rerun-io/rerun",
+      "target": "lance-format/lance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/adhoc_wheels.yml",
+      "source_repo": "rerun-io/rerun",
+      "target": "Adhoc Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_approve.yml",
+      "source_repo": "rerun-io/rerun",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_approve.yml",
+      "source_repo": "rerun-io/rerun",
+      "target": "prefix-dev/setup-pixi@v0.9.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_approve.yml",
+      "source_repo": "rerun-io/rerun",
+      "target": "Approve Workflow Runs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_docs.yml",
+      "source_repo": "rerun-io/rerun",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_docs.yml",
+      "source_repo": "rerun-io/rerun",
+      "target": "Docs deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_docs_check.yml",
+      "source_repo": "rerun-io/rerun",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_docs_check.yml",
+      "source_repo": "rerun-io/rerun",
+      "target": "mshick/add-pr-comment@v2.8.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_docs_check.yml",
+      "source_repo": "rerun-io/rerun",
+      "target": "Docs deploy pre-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_shear.yml",
+      "source_repo": "rerun-io/rerun",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_shear.yml",
+      "source_repo": "rerun-io/rerun",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_shear.yml",
+      "source_repo": "rerun-io/rerun",
+      "target": "taiki-e/install-action@v2.48.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo_shear.yml",
+      "source_repo": "rerun-io/rerun",
+      "target": "Cargo Shear",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checkboxes.yml",
+      "source_repo": "rerun-io/rerun",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checkboxes.yml",
+      "source_repo": "rerun-io/rerun",
+      "target": "prefix-dev/setup-pixi@v0.9.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checkboxes.yml",
+      "source_repo": "rerun-io/rerun",
+      "target": "Pull Request Checkboxes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rerun-io/rerun",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rerun-io/rerun",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rerun-io/rerun",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rerun-io/rerun",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rerun-io/rerun",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T03:26:18.945605+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11073
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 41743
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 14750
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 893
+    },
+    {
+      "path": ".github/workflows/adhoc_wheels.yml",
+      "size": 3595
+    },
+    {
+      "path": ".github/workflows/auto_approve.yml",
+      "size": 1095
+    },
+    {
+      "path": ".github/workflows/auto_docs.yml",
+      "size": 2018
+    },
+    {
+      "path": ".github/workflows/auto_docs_check.yml",
+      "size": 2498
+    },
+    {
+      "path": ".github/workflows/cargo_shear.yml",
+      "size": 891
+    },
+    {
+      "path": ".github/workflows/checkboxes.yml",
+      "size": 955
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An open source SDK for logging, storing, querying, and visualizing multimodal and multi-rate data",
+    "fork": false,
+    "full_name": "rerun-io/rerun",
+    "html_url": "https://github.com/rerun-io/rerun",
+    "language": "Rust",
+    "pushed_at": "2026-05-06T23:00:08Z",
+    "stargazers_count": 10651,
+    "topics": [
+      "computer-vision",
+      "cpp",
+      "multimodal",
+      "python",
+      "robotics",
+      "rust",
+      "visualization"
+    ],
+    "updated_at": "2026-05-06T23:00:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "conda-forge/rerun-sdk-feedstock",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "netwide-assembler/nasm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emilk/egui_plot",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lance-format/lance",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Adhoc Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/adhoc_wheels.yml",
+      "term": "Adhoc Wheels"
+    },
+    {
+      "context_snippet": "\"Approve Workflow Runs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_approve.yml",
+      "term": "Approve Workflow Runs"
+    },
+    {
+      "context_snippet": "Docs deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_docs.yml",
+      "term": "Docs deploy"
+    },
+    {
+      "context_snippet": "Docs deploy pre-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_docs_check.yml",
+      "term": "Docs deploy pre-check"
+    },
+    {
+      "context_snippet": "Cargo Shear",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo_shear.yml",
+      "term": "Cargo Shear"
+    },
+    {
+      "context_snippet": "Pull Request Checkboxes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checkboxes.yml",
+      "term": "Pull Request Checkboxes"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

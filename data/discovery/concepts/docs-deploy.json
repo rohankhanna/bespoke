@@ -1,7 +1,8 @@
 {
   "aliases": [
     "docs-deploy",
-    "Docs Deploy"
+    "Docs Deploy",
+    "Docs deploy"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -80,6 +81,18 @@
       "source_repo": "elastic/cloud-on-k8s",
       "status": "candidate-context",
       "text": "docs-deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rerun-io/rerun",
+      "status": "candidate-context",
+      "text": "An open source SDK for logging, storing, querying, and visualizing multimodal and multi-rate data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rerun-io/rerun",
+      "status": "candidate-context",
+      "text": "Docs deploy"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +131,12 @@
       "source_repo": "elastic/cloud-on-k8s",
       "status": "candidate",
       "text": "docs-deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rerun-io/rerun",
+      "status": "candidate",
+      "text": "Docs deploy"
     }
   ],
   "candidate_related_terms": [
@@ -197,11 +216,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/docs-deploy.yml",
       "source_repo": "elastic/cloud-on-k8s"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/auto_docs.yml",
+      "source_repo": "rerun-io/rerun"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

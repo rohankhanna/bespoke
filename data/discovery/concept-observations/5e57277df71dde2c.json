@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GDAL is an open source MIT licensed translator library for raster and vector geospatial data formats."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update Stable Tag"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update Stable Tag"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18161,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18161,
+      "status": "candidate",
+      "text": "posted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18141,
+      "status": "candidate",
+      "text": "track"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18057,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17988,
+      "status": "candidate",
+      "text": "det"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Stable Tag",
+      "sense_id": "update-stable-tag#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-stable-tag",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-stable-tag",
+  "observation_id": "5e57277df71dde2c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_text": "Update Stable Tag",
+  "source_context_snippet": "Update Stable Tag",
+  "source_file": ".github/workflows/auto_tag_stable.yml",
+  "source_repo": "OSGeo/gdal",
+  "source_repo_description": "GDAL is an open source MIT licensed translator library for raster and vector geospatial data formats."
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -16,6 +16,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/build-new.yml",
       "source_repo": "colmap/pycolmap"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "source_repo": "rasterio/rasterio"
     }
   ],
   "term": "Build and Publish Wheels"

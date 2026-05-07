@@ -115,6 +115,18 @@
       "source_repo": "DiligentGraphics/DiligentTools",
       "status": "candidate-context",
       "text": "Linux build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shibing624/MedicalGPT",
+      "status": "candidate-context",
+      "text": "MedicalGPT: Training Your Own Medical GPT Model with ChatGPT Training Pipeline. \u8bad\u7ec3\u533b\u7597\u5927\u6a21\u578b\uff0c\u5b9e\u73b0\u4e86\u5305\u62ec\u589e\u91cf\u9884\u8bad\u7ec3(PT)\u3001\u6709\u76d1\u7763\u5fae\u8c03(SFT)\u3001RLHF\u3001DPO\u3001ORPO\u3001GRPO\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shibing624/MedicalGPT",
+      "status": "candidate-context",
+      "text": "Linux build"
     }
   ],
   "candidate_glosses": [
@@ -169,6 +181,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "DiligentGraphics/DiligentTools",
+      "status": "candidate",
+      "text": "Linux build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shibing624/MedicalGPT",
       "status": "candidate",
       "text": "Linux build"
     }
@@ -274,11 +292,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/build-linux.yml",
       "source_repo": "DiligentGraphics/DiligentTools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "shibing624/MedicalGPT"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

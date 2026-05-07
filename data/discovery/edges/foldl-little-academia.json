@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "foldl/little-academia",
+      "target": "qwenlm/qwen3-coder",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-07T00:37:24.413591+00:00",
+  "source_repo": "foldl/little-academia"
+}

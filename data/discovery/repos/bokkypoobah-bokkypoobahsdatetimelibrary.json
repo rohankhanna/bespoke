@@ -1,0 +1,112 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary",
+      "target": "alex-kampa/test_bokkypoobahsdatetimelibrary",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary",
+      "target": "bokkypoobah/bokkypoobahshalloffameandbugbounties",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary",
+      "target": "datetime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary",
+      "target": "solidity",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T01:57:04.148627+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30451
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Gas-Efficient Solidity DateTime Library",
+    "fork": false,
+    "full_name": "bokkypoobah/BokkyPooBahsDateTimeLibrary",
+    "html_url": "https://github.com/bokkypoobah/BokkyPooBahsDateTimeLibrary",
+    "language": "Solidity",
+    "pushed_at": "2022-08-05T09:08:43Z",
+    "stargazers_count": 373,
+    "topics": [
+      "datetime",
+      "ethereum",
+      "gas",
+      "library",
+      "solidity"
+    ],
+    "updated_at": "2026-05-03T12:50:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alex-kampa/test_bokkypoobahsdatetimelibrary",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bokkypoobah/bokkypoobahshalloffameandbugbounties",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<kbd><img src=\"images/clocks.png\" /></kbd>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datetime"
+    },
+    {
+      "context_snippet": "<kbd><img src=\"images/clocks.png\" /></kbd>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "<kbd><img src=\"images/clocks.png\" /></kbd>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "<kbd><img src=\"images/clocks.png\" /></kbd>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "solidity"
+    }
+  ]
+}

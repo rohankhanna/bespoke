@@ -1,7 +1,7 @@
 {
   "component": "technote-space/get-diff-action@v6.1.2",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -82,6 +82,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "strangelove-ventures/async-icq"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ante-benchmark.yml",
+      "source_repo": "evmos/evmos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "evmos/evmos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-licenses.yml",
+      "source_repo": "evmos/evmos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "evmos/evmos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "osmosis-labs/osmosis"
     }
   ]
 }

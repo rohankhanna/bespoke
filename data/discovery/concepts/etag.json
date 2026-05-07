@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "etag"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/x",
+      "status": "candidate-context",
+      "text": "Charm experimental packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/x",
+      "status": "candidate-context",
+      "text": "etag"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/x",
+      "status": "candidate",
+      "text": "etag"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19933502,
+      "status": "candidate",
+      "text": "eth."
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19933501,
+      "status": "candidate",
+      "text": "tv episode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19933500,
+      "status": "candidate",
+      "text": "etext"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19933499,
+      "status": "candidate",
+      "text": "id card"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19933498,
+      "status": "candidate",
+      "text": "entity relationship diagram"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "etag",
+  "concept_id": "etag",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/etag.yml",
+      "source_repo": "charmbracelet/x"
+    }
+  ],
+  "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "etag",
+      "sense_id": "etag#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -95,28 +95,7 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "preactjs/preact-devtools",
-      "target": "@types/mri",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "preactjs/preact-devtools",
       "target": "@types/node",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "preactjs/preact-devtools",
-      "target": "@types/node-fetch",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "preactjs/preact-devtools",
-      "target": "@types/sinon",
       "target_type": "component"
     },
     {
@@ -186,13 +165,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "preactjs/preact-devtools",
-      "target": "husky",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "preactjs/preact-devtools",
       "target": "jsdom",
       "target_type": "component"
     },
@@ -208,13 +180,6 @@
       "source_file": "package.json",
       "source_repo": "preactjs/preact-devtools",
       "target": "lightningcss",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "preactjs/preact-devtools",
-      "target": "lint-staged",
       "target_type": "component"
     },
     {
@@ -243,13 +208,6 @@
       "source_file": "package.json",
       "source_repo": "preactjs/preact-devtools",
       "target": "preact",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "preactjs/preact-devtools",
-      "target": "sinon",
       "target_type": "component"
     },
     {
@@ -379,6 +337,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-06T12:51:12.481137+00:00",
+  "generated_at": "2026-05-07T00:37:24.413591+00:00",
   "source_repo": "preactjs/preact-devtools"
 }

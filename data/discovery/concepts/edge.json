@@ -209,6 +209,18 @@
       "source_repo": "triton-inference-server/server",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "3343/edge",
+      "status": "candidate-context",
+      "text": "Extreme-scale Discontinuous Galerkin Environment (EDGE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3343/edge",
+      "status": "candidate-context",
+      "text": "EDGE"
     }
   ],
   "candidate_glosses": [
@@ -313,6 +325,12 @@
       "source_repo": "triton-inference-server/server",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3343/edge",
+      "status": "candidate",
+      "text": "EDGE"
     }
   ],
   "candidate_related_terms": [
@@ -608,11 +626,23 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": null,
       "source_repo": "edge-classic/EDGE-classic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "edge-classic/EDGE-classic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/develop.yml",
+      "source_repo": "3343/edge"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

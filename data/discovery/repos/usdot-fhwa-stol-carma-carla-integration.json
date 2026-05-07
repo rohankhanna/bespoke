@@ -1,0 +1,186 @@
+{
+  "components": [
+    {
+      "component": "usdot-fhwa-stol/actions/docker-org-and-tag@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "usdot-fhwa-stol/actions/sonar-scanner@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "usdot-fhwa-stol/actions/.github/workflows/docker.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "usdot-fhwa-stol/actions/.github/workflows/dockerhub.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml"
+    },
+    {
+      "component": "usdot-fhwa-stol/actions/.github/workflows/issue-notification.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-notification.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usdot-fhwa-stol/carma-carla-integration",
+      "target": "usdot-fhwa-stol/opendrive2lanelet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "usdot-fhwa-stol/carma-carla-integration",
+      "target": "usdot-fhwa-stol/carma-simulation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "usdot-fhwa-stol/carma-carla-integration",
+      "target": "usdot-fhwa-stol/actions/docker-org-and-tag@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "usdot-fhwa-stol/carma-carla-integration",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "usdot-fhwa-stol/carma-carla-integration",
+      "target": "usdot-fhwa-stol/actions/sonar-scanner@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "usdot-fhwa-stol/carma-carla-integration",
+      "target": "usdot-fhwa-stol/actions/.github/workflows/docker.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "usdot-fhwa-stol/carma-carla-integration",
+      "target": "Docker build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "source_repo": "usdot-fhwa-stol/carma-carla-integration",
+      "target": "usdot-fhwa-stol/actions/.github/workflows/dockerhub.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "source_repo": "usdot-fhwa-stol/carma-carla-integration",
+      "target": "Docker Hub build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-notification.yml",
+      "source_repo": "usdot-fhwa-stol/carma-carla-integration",
+      "target": "usdot-fhwa-stol/actions/.github/workflows/issue-notification.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-notification.yml",
+      "source_repo": "usdot-fhwa-stol/carma-carla-integration",
+      "target": "Issue Notification Dispatcher",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T02:53:37.549847+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5867
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2729
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2410
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 237
+    },
+    {
+      "path": ".github/workflows/dockerhub.yml",
+      "size": 896
+    },
+    {
+      "path": ".github/workflows/issue-notification.yml",
+      "size": 198
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Integration nodes for interfacing CARMA Platform with CARLA simulation environment",
+    "fork": false,
+    "full_name": "usdot-fhwa-stol/carma-carla-integration",
+    "html_url": "https://github.com/usdot-fhwa-stol/carma-carla-integration",
+    "language": "Python",
+    "pushed_at": "2026-01-30T17:36:37Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-01-30T17:11:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "usdot-fhwa-stol/opendrive2lanelet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "usdot-fhwa-stol/carma-simulation",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docker build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Docker build"
+    },
+    {
+      "context_snippet": "Docker Hub build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "term": "Docker Hub build"
+    },
+    {
+      "context_snippet": "Issue Notification Dispatcher",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-notification.yml",
+      "term": "Issue Notification Dispatcher"
+    }
+  ]
+}

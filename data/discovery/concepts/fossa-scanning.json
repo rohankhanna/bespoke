@@ -266,6 +266,30 @@
       "source_repo": "instana/opentelemetry-demo",
       "status": "candidate-context",
       "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opensearch-project/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "This repository contains the OpenSearch adaptation for the OpenTelemetry Astronomy Shop, a microservice-based distributed system intended to illustrate the implementation of OpenTelemetry in a near real-world environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opensearch-project/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "signalfx/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Community Demo Application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "signalfx/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "FOSSA scanning"
     }
   ],
   "candidate_glosses": [
@@ -404,6 +428,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "instana/opentelemetry-demo",
+      "status": "candidate",
+      "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opensearch-project/opentelemetry-demo",
+      "status": "candidate",
+      "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "signalfx/opentelemetry-demo",
       "status": "candidate",
       "text": "FOSSA scanning"
     }
@@ -587,11 +623,23 @@
       "observed_at": "2026-05-06T12:51:12.481137+00:00",
       "source_file": ".github/workflows/fossa.yml",
       "source_repo": "instana/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "opensearch-project/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "signalfx/opentelemetry-demo"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

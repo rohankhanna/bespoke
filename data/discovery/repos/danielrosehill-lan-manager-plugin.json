@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T02:12:58.264647+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2659
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A specialized workspace for network system administration on local area networks, providing tools for LAN scanning, device discovery, device management, and network operations.",
+    "fork": false,
+    "full_name": "danielrosehill/lan-manager-plugin",
+    "html_url": "https://github.com/danielrosehill/lan-manager-plugin",
+    "language": null,
+    "pushed_at": "2026-04-18T21:13:34Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-18T21:13:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

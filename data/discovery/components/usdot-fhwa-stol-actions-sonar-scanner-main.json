@@ -1,12 +1,22 @@
 {
   "component": "usdot-fhwa-stol/actions/sonar-scanner@main",
   "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/Ci.yml",
       "source_repo": "usdot-fhwa-stol/carma-platform"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "usdot-fhwa-stol/carma-carla-integration"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ns3-adapter"
     }
   ]
 }

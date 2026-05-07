@@ -1,0 +1,122 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bluele/gcache",
+      "target": "actions/setup-go@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bluele/gcache",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bluele/gcache",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bluele/gcache",
+      "target": "cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bluele/gcache",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bluele/gcache",
+      "target": "in-memory",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T02:52:16.391329+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5286
+    },
+    {
+      "path": "go.mod",
+      "size": 41
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 337
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An in-memory cache library for golang. It supports multiple eviction policies: LRU, LFU, ARC",
+    "fork": false,
+    "full_name": "bluele/gcache",
+    "html_url": "https://github.com/bluele/gcache",
+    "language": "Go",
+    "pushed_at": "2024-03-01T12:49:21Z",
+    "stargazers_count": 2732,
+    "topics": [
+      "arc",
+      "cache",
+      "go",
+      "golang",
+      "in-memory",
+      "lfu",
+      "lru"
+    ],
+    "updated_at": "2026-05-06T03:42:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "![Test](https://github.com/bluele/gcache/workflows/Test/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cache"
+    },
+    {
+      "context_snippet": "![Test](https://github.com/bluele/gcache/workflows/Test/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "![Test](https://github.com/bluele/gcache/workflows/Test/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "in-memory"
+    }
+  ]
+}

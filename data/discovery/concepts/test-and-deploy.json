@@ -32,6 +32,42 @@
       "source_repo": "tamuhey/tokenizations",
       "status": "candidate-context",
       "text": "Test and Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "explosion/tokenizations",
+      "status": "candidate-context",
+      "text": "Robust and Fast tokenizations alignment library for Rust and Python https://tamuhey.github.io/tokenizations/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "explosion/tokenizations",
+      "status": "candidate-context",
+      "text": "Test and Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tamuhey/seqdiff",
+      "status": "candidate-context",
+      "text": "diff library for Rust and Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tamuhey/seqdiff",
+      "status": "candidate-context",
+      "text": "Test and Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tamuhey/textspan",
+      "status": "candidate-context",
+      "text": "Text span utilities for Rust and Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tamuhey/textspan",
+      "status": "candidate-context",
+      "text": "Test and Deploy"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +80,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "tamuhey/tokenizations",
+      "status": "candidate",
+      "text": "Test and Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "explosion/tokenizations",
+      "status": "candidate",
+      "text": "Test and Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tamuhey/seqdiff",
+      "status": "candidate",
+      "text": "Test and Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tamuhey/textspan",
       "status": "candidate",
       "text": "Test and Deploy"
     }
@@ -101,11 +155,29 @@
       "observed_at": "2026-05-06T00:36:03.937537+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "tamuhey/tokenizations"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "explosion/tokenizations"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "tamuhey/seqdiff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "tamuhey/textspan"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

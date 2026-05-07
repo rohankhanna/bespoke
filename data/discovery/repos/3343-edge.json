@@ -1,0 +1,257 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop.yml",
+      "source_repo": "3343/edge",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/develop.yml",
+      "source_repo": "3343/edge",
+      "target": "EDGE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3343/edge",
+      "target": "cloud-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3343/edge",
+      "target": "discontinuous-galerkin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3343/edge",
+      "target": "earthquake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3343/edge",
+      "target": "finite-element-method",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3343/edge",
+      "target": "fused-simulations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3343/edge",
+      "target": "high-performance-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3343/edge",
+      "target": "hyperbolic-pdes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3343/edge",
+      "target": "openmp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3343/edge",
+      "target": "scientific-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3343/edge",
+      "target": "seismic-waves",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3343/edge",
+      "target": "simd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3343/edge",
+      "target": "sparse-matrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3343/edge",
+      "target": "unstructured-meshes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3343/edge",
+      "target": "wave-propagation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T01:58:11.769062+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7628
+    },
+    {
+      "path": ".github/workflows/develop.yml",
+      "size": 4023
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Extreme-scale Discontinuous Galerkin Environment (EDGE)",
+    "fork": false,
+    "full_name": "3343/edge",
+    "html_url": "https://github.com/3343/edge",
+    "language": "C++",
+    "pushed_at": "2023-05-25T13:13:46Z",
+    "stargazers_count": 36,
+    "topics": [
+      "cloud-computing",
+      "discontinuous-galerkin",
+      "earthquake",
+      "finite-element-method",
+      "fused-simulations",
+      "high-performance-computing",
+      "hyperbolic-pdes",
+      "mpi",
+      "openmp",
+      "scientific-computing",
+      "seismic-waves",
+      "simd",
+      "sparse-matrix",
+      "unstructured-meshes",
+      "wave-propagation"
+    ],
+    "updated_at": "2026-03-11T00:53:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "EDGE",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/develop.yml",
+      "term": "EDGE"
+    },
+    {
+      "context_snippet": "* *advection (1D)*:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-computing"
+    },
+    {
+      "context_snippet": "* *advection (1D)*:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "discontinuous-galerkin"
+    },
+    {
+      "context_snippet": "* *advection (1D)*:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "earthquake"
+    },
+    {
+      "context_snippet": "* *advection (1D)*:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "finite-element-method"
+    },
+    {
+      "context_snippet": "* *advection (1D)*:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fused-simulations"
+    },
+    {
+      "context_snippet": "* *advection (1D)*:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance-computing"
+    },
+    {
+      "context_snippet": "* *advection (1D)*:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperbolic-pdes"
+    },
+    {
+      "context_snippet": "* *advection (1D)*:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openmp"
+    },
+    {
+      "context_snippet": "* *advection (1D)*:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-computing"
+    },
+    {
+      "context_snippet": "* *advection (1D)*:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "seismic-waves"
+    },
+    {
+      "context_snippet": "* *advection (1D)*:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    },
+    {
+      "context_snippet": "* *advection (1D)*:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse-matrix"
+    },
+    {
+      "context_snippet": "* *advection (1D)*:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unstructured-meshes"
+    },
+    {
+      "context_snippet": "* *advection (1D)*:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wave-propagation"
+    }
+  ]
+}

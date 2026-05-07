@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "finite-element-method"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "3343/edge",
+      "status": "candidate-context",
+      "text": "Extreme-scale Discontinuous Galerkin Environment (EDGE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3343/edge",
+      "status": "candidate-context",
+      "text": "* *advection (1D)*:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3343/edge",
+      "status": "candidate",
+      "text": "* *advection (1D)*:"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "finite-element-method",
+  "concept_id": "finite-element-method",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "3343/edge"
+    }
+  ],
+  "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "finite-element-method",
+      "sense_id": "finite-element-method#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

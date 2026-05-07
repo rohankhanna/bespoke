@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "florentc/vim-tla",
+      "target": "tpope/vim-commentary",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T01:59:38.468525+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2691
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vim filetype for the TLA+ specification language and proofs",
+    "fork": false,
+    "full_name": "florentc/vim-tla",
+    "html_url": "https://github.com/florentc/vim-tla",
+    "language": "Vim script",
+    "pushed_at": "2021-06-25T15:44:02Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2025-07-17T23:54:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tpope/vim-commentary",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

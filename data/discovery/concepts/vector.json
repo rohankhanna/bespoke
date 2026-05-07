@@ -307,6 +307,30 @@
       "source_repo": "yeesian/ArchGDAL.jl",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/yeesian/ArchGDAL.jl/workflows/CI/badge.svg)](https://github.com/yeesian/ArchGDAL.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OSGeo/gdal",
+      "status": "candidate-context",
+      "text": "GDAL is an open source MIT licensed translator library for raster and vector geospatial data formats."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OSGeo/gdal",
+      "status": "candidate-context",
+      "text": "GDAL - Geospatial Data Abstraction Library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Toblerity/Fiona",
+      "status": "candidate-context",
+      "text": "Fiona reads and writes geographic data files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Toblerity/Fiona",
+      "status": "candidate-context",
+      "text": "====="
     }
   ],
   "candidate_glosses": [
@@ -459,6 +483,18 @@
       "source_repo": "yeesian/ArchGDAL.jl",
       "status": "candidate",
       "text": "[![CI](https://github.com/yeesian/ArchGDAL.jl/workflows/CI/badge.svg)](https://github.com/yeesian/ArchGDAL.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OSGeo/gdal",
+      "status": "candidate",
+      "text": "GDAL - Geospatial Data Abstraction Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Toblerity/Fiona",
+      "status": "candidate",
+      "text": "====="
     }
   ],
   "candidate_related_terms": [
@@ -664,11 +700,23 @@
       "observed_at": "2026-05-06T12:51:12.481137+00:00",
       "source_file": null,
       "source_repo": "yeesian/ArchGDAL.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "OSGeo/gdal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "Toblerity/Fiona"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

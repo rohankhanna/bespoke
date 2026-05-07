@@ -1,0 +1,178 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "qltysh/qlty-action/coverage@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "olbrich/ruby-units",
+      "target": "actions/checkout@v6.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "olbrich/ruby-units",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "olbrich/ruby-units",
+      "target": "qltysh/qlty-action/coverage@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "olbrich/ruby-units",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olbrich/ruby-units",
+      "target": "conversions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olbrich/ruby-units",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olbrich/ruby-units",
+      "target": "ruby-units",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olbrich/ruby-units",
+      "target": "rubygems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olbrich/ruby-units",
+      "target": "temperature-units",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olbrich/ruby-units",
+      "target": "unit-math",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T00:50:04.283221+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18426
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1055
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A unit handling library for ruby",
+    "fork": false,
+    "full_name": "olbrich/ruby-units",
+    "html_url": "https://github.com/olbrich/ruby-units",
+    "language": "Ruby",
+    "pushed_at": "2026-01-19T14:25:34Z",
+    "stargazers_count": 543,
+    "topics": [
+      "conversions",
+      "ruby",
+      "ruby-units",
+      "rubygems",
+      "temperature-units",
+      "unit-math"
+    ],
+    "updated_at": "2026-03-10T22:06:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Kevin C. Olbrich, Ph.D.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conversions"
+    },
+    {
+      "context_snippet": "Kevin C. Olbrich, Ph.D.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "Kevin C. Olbrich, Ph.D.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby-units"
+    },
+    {
+      "context_snippet": "Kevin C. Olbrich, Ph.D.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rubygems"
+    },
+    {
+      "context_snippet": "Kevin C. Olbrich, Ph.D.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "temperature-units"
+    },
+    {
+      "context_snippet": "Kevin C. Olbrich, Ph.D.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unit-math"
+    }
+  ]
+}

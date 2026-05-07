@@ -1,0 +1,356 @@
+{
+  "components": [
+    {
+      "component": "@biomejs/biome",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "maybe-finance/maybe",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "maybe-finance/maybe",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "maybe-finance/maybe",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "maybe-finance/maybe",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "maybe-finance/maybe",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "maybe-finance/maybe",
+      "target": "Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "maybe-finance/maybe",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "maybe-finance/maybe",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "maybe-finance/maybe",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "maybe-finance/maybe",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "maybe-finance/maybe",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "maybe-finance/maybe",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "maybe-finance/maybe",
+      "target": "Publish Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maybe-finance/maybe",
+      "target": "finance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maybe-finance/maybe",
+      "target": "hotwire",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maybe-finance/maybe",
+      "target": "personal-finance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maybe-finance/maybe",
+      "target": "postgresql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maybe-finance/maybe",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maybe-finance/maybe",
+      "target": "ruby-on-rails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maybe-finance/maybe",
+      "target": "stimulusjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maybe-finance/maybe",
+      "target": "turbo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T00:48:21.221394+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2364
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2050
+    },
+    {
+      "path": "package.json",
+      "size": 401
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3253
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 89
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 2344
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "The personal finance app for everyone",
+    "fork": false,
+    "full_name": "maybe-finance/maybe",
+    "html_url": "https://github.com/maybe-finance/maybe",
+    "language": "Ruby",
+    "pushed_at": "2025-07-24T22:20:44Z",
+    "stargazers_count": 54115,
+    "topics": [
+      "finance",
+      "hotwire",
+      "personal-finance",
+      "postgresql",
+      "ruby",
+      "ruby-on-rails",
+      "stimulusjs",
+      "turbo"
+    ],
+    "updated_at": "2026-05-06T23:36:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "term": "Pull Request"
+    },
+    {
+      "context_snippet": "Publish Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish Docker image"
+    },
+    {
+      "context_snippet": "<img width=\"1190\" alt=\"maybe_hero\" src=\"https://github.com/user-attachments/assets/5ed08763-a9ee-42b2-a436-e05038fcf573\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "finance"
+    },
+    {
+      "context_snippet": "<img width=\"1190\" alt=\"maybe_hero\" src=\"https://github.com/user-attachments/assets/5ed08763-a9ee-42b2-a436-e05038fcf573\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hotwire"
+    },
+    {
+      "context_snippet": "<img width=\"1190\" alt=\"maybe_hero\" src=\"https://github.com/user-attachments/assets/5ed08763-a9ee-42b2-a436-e05038fcf573\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "personal-finance"
+    },
+    {
+      "context_snippet": "<img width=\"1190\" alt=\"maybe_hero\" src=\"https://github.com/user-attachments/assets/5ed08763-a9ee-42b2-a436-e05038fcf573\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql"
+    },
+    {
+      "context_snippet": "<img width=\"1190\" alt=\"maybe_hero\" src=\"https://github.com/user-attachments/assets/5ed08763-a9ee-42b2-a436-e05038fcf573\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "<img width=\"1190\" alt=\"maybe_hero\" src=\"https://github.com/user-attachments/assets/5ed08763-a9ee-42b2-a436-e05038fcf573\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby-on-rails"
+    },
+    {
+      "context_snippet": "<img width=\"1190\" alt=\"maybe_hero\" src=\"https://github.com/user-attachments/assets/5ed08763-a9ee-42b2-a436-e05038fcf573\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stimulusjs"
+    },
+    {
+      "context_snippet": "<img width=\"1190\" alt=\"maybe_hero\" src=\"https://github.com/user-attachments/assets/5ed08763-a9ee-42b2-a436-e05038fcf573\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "turbo"
+    }
+  ]
+}

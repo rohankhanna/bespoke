@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shenyi-Z/ToCa",
+      "target": "xuyang-liu16/awesome-token-reduction-for-model-compression",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shenyi-Z/ToCa",
+      "target": "evelynzhang-epiclab/sito",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-07T00:37:24.413591+00:00",
+  "source_repo": "Shenyi-Z/ToCa"
+}

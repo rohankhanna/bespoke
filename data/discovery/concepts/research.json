@@ -331,6 +331,18 @@
       "source_repo": "robotology/yarp",
       "status": "candidate-context",
       "text": "![YARP logo](doc/images/yarp-robot-24.png?raw=true \"YARP\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Live-Typing-UX-Research",
+      "status": "candidate-context",
+      "text": "Claude-assisted technical research into live voice typing implementation approaches, focusing on inference, patterns, etc. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Live-Typing-UX-Research",
+      "status": "candidate-context",
+      "text": "A research workspace for documenting the UX challenges of using **live voice typing as a replacement for keyboard input on the desktop**."
     }
   ],
   "candidate_glosses": [
@@ -501,6 +513,12 @@
       "source_repo": "robotology/yarp",
       "status": "candidate",
       "text": "![YARP logo](doc/images/yarp-robot-24.png?raw=true \"YARP\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Live-Typing-UX-Research",
+      "status": "candidate",
+      "text": "A research workspace for documenting the UX challenges of using **live voice typing as a replacement for keyboard input on the desktop**."
     }
   ],
   "candidate_related_terms": [
@@ -945,11 +963,29 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Live-Typing-UX-Research"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/WebThinker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/acme"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

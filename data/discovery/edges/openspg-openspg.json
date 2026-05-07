@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "OpenSPG/openspg",
+      "target": "contributor-assistant/github-action@v2.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "OpenSPG/openspg",
+      "target": "CLA Assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cloud_code_scan.yml",
+      "source_repo": "OpenSPG/openspg",
+      "target": "layotto/alipay-cloud-devops-codescan@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cloud_code_scan.yml",
+      "source_repo": "OpenSPG/openspg",
+      "target": "Alipay Cloud Devops Codescan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yml",
+      "source_repo": "OpenSPG/openspg",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yml",
+      "source_repo": "OpenSPG/openspg",
+      "target": "apache/skywalking-eyes@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yml",
+      "source_repo": "OpenSPG/openspg",
+      "target": "apache/skywalking-eyes/dependency@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-checker.yml",
+      "source_repo": "OpenSPG/openspg",
+      "target": "License Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openspg-ci.yml",
+      "source_repo": "OpenSPG/openspg",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openspg-ci.yml",
+      "source_repo": "OpenSPG/openspg",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openspg-ci.yml",
+      "source_repo": "OpenSPG/openspg",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title-checker.yml",
+      "source_repo": "OpenSPG/openspg",
+      "target": "amannn/action-semantic-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title-checker.yml",
+      "source_repo": "OpenSPG/openspg",
+      "target": "Lint PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenSPG/openspg",
+      "target": "knowledge-augmented-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenSPG/openspg",
+      "target": "knowledge-graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenSPG/openspg",
+      "target": "knowledge-reasoning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenSPG/openspg",
+      "target": "llm-kg-bidirectional-enhancement",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-07T00:37:24.413591+00:00",
+  "source_repo": "OpenSPG/openspg"
+}

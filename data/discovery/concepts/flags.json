@@ -46,6 +46,18 @@
       "source_repo": "osmlab/name-suggestion-index",
       "status": "candidate-context",
       "text": "[![build](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gookit/config",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdd Go configuration manage(load,get,set,export). support JSON, YAML, TOML, Properties, INI, HCL, ENV and Flags. Multi file load, data override merge, parse ENV var. Go\u5e94\u7528\u914d\u7f6e\u52a0\u8f7d\u7ba1\u7406\uff0c\u652f\u6301\u591a\u79cd\u683c\u5f0f\uff0c\u591a\u6587\u4ef6\u52a0\u8f7d\uff0c\u8fdc\u7a0b\u6587\u4ef6\u52a0\u8f7d\uff0c\u652f\u6301\u6570\u636e\u5408\u5e76\uff0c\u89e3\u6790\u73af\u5883\u53d8\u91cf\u540d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/config",
+      "status": "candidate-context",
+      "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/config?style=flat-square)"
     }
   ],
   "candidate_glosses": [
@@ -66,6 +78,12 @@
       "source_repo": "osmlab/name-suggestion-index",
       "status": "candidate",
       "text": "[![build](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/config",
+      "status": "candidate",
+      "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/config?style=flat-square)"
     }
   ],
   "candidate_related_terms": [
@@ -127,11 +145,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "osmlab/name-suggestion-index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "gookit/config"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

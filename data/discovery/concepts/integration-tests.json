@@ -726,6 +726,30 @@
       "source_repo": "grafana/opentelemetry-demo",
       "status": "candidate-context",
       "text": "Integration Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubeshop/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Community Demo Application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeshop/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liatrio/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "This repository contains the OpenTelemetry Astronomy Shop, a microservice-based distributed system intended to illustrate the implementation of OpenTelemetry in a near real-world environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liatrio/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Integration Tests"
     }
   ],
   "candidate_glosses": [
@@ -1092,6 +1116,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "grafana/opentelemetry-demo",
+      "status": "candidate",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeshop/opentelemetry-demo",
+      "status": "candidate",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liatrio/opentelemetry-demo",
       "status": "candidate",
       "text": "Integration Tests"
     }
@@ -1989,11 +2025,47 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/run-integration-tests.yml",
+      "source_repo": "kubeshop/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/run-integration-tests.yml",
+      "source_repo": "liatrio/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "triton-lang/triton"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

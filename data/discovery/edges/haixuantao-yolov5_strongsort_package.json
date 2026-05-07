@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haixuanTao/yolov5_strongsort_package",
+      "target": "mikel-brostrom/yolov5_strongsort_osnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "haixuanTao/yolov5_strongsort_package",
+      "target": "kaiyangzhou/deep-person-reid",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-07T00:37:24.413591+00:00",
+  "source_repo": "haixuanTao/yolov5_strongsort_package"
+}

@@ -220,6 +220,18 @@
       "source_repo": "InternLM/HuixiangDou",
       "status": "candidate-context",
       "text": "[HuixiangDou2](https://github.com/tpoisonooo/HuixiangDou2)(ACL25) is a GraphRAG solution whose effectiveness has been demonstrated in the plant-science domain and that contributed to the [**cover paper in Cell**](https://www.cell.com/molecular-plant/issue?pii=S1674-2052(24)X0008\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "great-expectations/great_expectations",
+      "status": "candidate-context",
+      "text": "Always know what to expect from your data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "great-expectations/great_expectations",
+      "status": "candidate-context",
+      "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/great_expectations.svg)](https://pypi.python.org/pypi/great_expectations)"
     }
   ],
   "candidate_glosses": [
@@ -330,6 +342,12 @@
       "source_repo": "InternLM/HuixiangDou",
       "status": "candidate",
       "text": "[HuixiangDou2](https://github.com/tpoisonooo/HuixiangDou2)(ACL25) is a GraphRAG solution whose effectiveness has been demonstrated in the plant-science domain and that contributed to the [**cover paper in Cell**](https://www.cell.com/molecular-plant/issue?pii=S1674-2052(24)X0008\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "great-expectations/great_expectations",
+      "status": "candidate",
+      "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/great_expectations.svg)](https://pypi.python.org/pypi/great_expectations)"
     }
   ],
   "candidate_related_terms": [
@@ -947,11 +965,47 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": null,
       "source_repo": "kharchenkolab/dropEst"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "ai-bot-pro/pipeline-py"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "tc39/proposal-hack-pipes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "great-expectations/great_expectations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "kharchenkolab/dropEst"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The AMM Laboratory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Banner!](assets/banner.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Banner!](assets/banner.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29705407,
+      "status": "candidate",
+      "text": "challenge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19832398,
+      "status": "candidate",
+      "text": "defin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19832397,
+      "status": "candidate",
+      "text": "defini"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19832396,
+      "status": "candidate",
+      "text": "nition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19832395,
+      "status": "candidate",
+      "text": "confi"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "defi",
+      "sense_id": "defi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "defi",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "defi",
+  "observation_id": "d1d1d47129e76552",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_text": "defi",
+  "source_context_snippet": "![Banner!](assets/banner.png)",
+  "source_file": null,
+  "source_repo": "osmosis-labs/osmosis",
+  "source_repo_description": "The AMM Laboratory"
+}

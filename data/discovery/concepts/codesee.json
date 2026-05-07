@@ -31,6 +31,18 @@
       "source_repo": "danibram/mocker-data-generator",
       "status": "candidate-context",
       "text": "CodeSee"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "great-expectations/great_expectations",
+      "status": "candidate-context",
+      "text": "Always know what to expect from your data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "great-expectations/great_expectations",
+      "status": "candidate-context",
+      "text": "CodeSee"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "danibram/mocker-data-generator",
+      "status": "candidate",
+      "text": "CodeSee"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "great-expectations/great_expectations",
       "status": "candidate",
       "text": "CodeSee"
     }
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/codesee-arch-diagram.yml",
       "source_repo": "danibram/mocker-data-generator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codesee-arch-diagram.yml",
+      "source_repo": "great-expectations/great_expectations"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

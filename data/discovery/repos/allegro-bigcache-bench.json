@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "allegro/bigcache-bench",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "allegro/bigcache-bench",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-07T02:49:08.618071+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4717
+    },
+    {
+      "path": "go.mod",
+      "size": 241
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 1673
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Benchmarks for BigCache project",
+    "fork": false,
+    "full_name": "allegro/bigcache-bench",
+    "html_url": "https://github.com/allegro/bigcache-bench",
+    "language": "Go",
+    "pushed_at": "2024-01-08T10:09:15Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2025-09-27T15:11:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

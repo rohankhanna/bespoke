@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jcs090218/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ashutoshvarma/setup-ninja@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mrc/tla-tools",
+      "target": "pmer/tla-bin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mrc/tla-tools",
+      "target": "owickstrom/tlaplus-cli-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mrc/tla-tools",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mrc/tla-tools",
+      "target": "jcs090218/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mrc/tla-tools",
+      "target": "ashutoshvarma/setup-ninja@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrc/tla-tools",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrc/tla-tools",
+      "target": "emacs-mode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrc/tla-tools",
+      "target": "pluscal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrc/tla-tools",
+      "target": "tlaplus",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T01:59:35.144022+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2921
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 565
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TLA+ tools for Emacs",
+    "fork": false,
+    "full_name": "mrc/tla-tools",
+    "html_url": "https://github.com/mrc/tla-tools",
+    "language": "Emacs Lisp",
+    "pushed_at": "2024-12-14T02:52:35Z",
+    "stargazers_count": 36,
+    "topics": [
+      "emacs",
+      "emacs-mode",
+      "pluscal",
+      "tla",
+      "tlaplus"
+    ],
+    "updated_at": "2026-01-29T06:02:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "owickstrom/tlaplus-cli-template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pmer/tla-bin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "TLA+ tools for Emacs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "TLA+ tools for Emacs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-mode"
+    },
+    {
+      "context_snippet": "TLA+ tools for Emacs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pluscal"
+    },
+    {
+      "context_snippet": "TLA+ tools for Emacs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tlaplus"
+    }
+  ]
+}

@@ -5459,11 +5459,65 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": ".github/workflows/TagBot.yml",
       "source_repo": "JuliaDiff/DiffRules.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaInterop/NBInclude.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaLang/SoftGlobalScope.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGraphics/Cairo.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaStrings/LibTeXPrintf.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JTAmos/Temporal.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGizmos/Blink.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

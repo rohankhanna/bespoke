@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "nostd"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marshallpierce/rust-base64",
+      "status": "candidate-context",
+      "text": "base64, in rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marshallpierce/rust-base64",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/crates/v/base64.svg)](https://crates.io/crates/base64) [![Docs](https://docs.rs/base64/badge.svg)](https://docs.rs/base64) [![CircleCI](https://circleci.com/gh/marshallpierce/rust-base64/tree/master.svg?style=shield)](https://circleci.com/gh/marshallp\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marshallpierce/rust-base64",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/crates/v/base64.svg)](https://crates.io/crates/base64) [![Docs](https://docs.rs/base64/badge.svg)](https://docs.rs/base64) [![CircleCI](https://circleci.com/gh/marshallpierce/rust-base64/tree/master.svg?style=shield)](https://circleci.com/gh/marshallp\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "nostd",
+  "concept_id": "nostd",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "marshallpierce/rust-base64"
+    }
+  ],
+  "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nostd",
+      "sense_id": "nostd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

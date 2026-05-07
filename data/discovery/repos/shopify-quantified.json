@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@dffc446db9ba5a0c4446edb5bca1c5c473a806c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Shopify/quantified",
+      "target": "actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Shopify/quantified",
+      "target": "ruby/setup-ruby@dffc446db9ba5a0c4446edb5bca1c5c473a806c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Shopify/quantified",
+      "target": "Ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T00:50:10.868428+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1693
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 578
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pretty quantifiable measurements which feel like ActiveSupport::Duration",
+    "fork": false,
+    "full_name": "Shopify/quantified",
+    "html_url": "https://github.com/Shopify/quantified",
+    "language": "Ruby",
+    "pushed_at": "2026-02-09T16:13:28Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2026-04-13T17:39:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Ruby",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Ruby"
+    }
+  ]
+}

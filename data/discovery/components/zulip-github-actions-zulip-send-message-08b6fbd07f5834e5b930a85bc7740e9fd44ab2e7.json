@@ -1,7 +1,7 @@
 {
   "component": "zulip/github-actions-zulip/send-message@08b6fbd07f5834e5b930a85bc7740e9fd44ab2e7",
   "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

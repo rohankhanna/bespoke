@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "AnteHandler Benchmark Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evmos/evmos",
+      "status": "candidate-context",
+      "text": "Evmos is the canonical EVM chain on Cosmos. Evmos is the flagship implementation of evmOS, a stack to build forward compatible EVMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evmos/evmos",
+      "status": "candidate-context",
+      "text": "AnteHandler Benchmark Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evmos/evmos",
+      "status": "candidate",
+      "text": "AnteHandler Benchmark Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11855,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11843,
+      "status": "candidate",
+      "text": "scale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11807,
+      "status": "candidate",
+      "text": "criteria"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11795,
+      "status": "candidate",
+      "text": "litmus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10831,
+      "status": "candidate",
+      "text": "baseline"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "AnteHandler Benchmark Tests",
+  "concept_id": "antehandler-benchmark-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/ante-benchmark.yml",
+      "source_repo": "evmos/evmos"
+    }
+  ],
+  "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AnteHandler Benchmark Tests",
+      "sense_id": "antehandler-benchmark-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

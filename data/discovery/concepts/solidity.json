@@ -355,6 +355,18 @@
       "source_repo": "celestiaorg/protobuf3-solidity-lib",
       "status": "candidate-context",
       "text": "[![NPM Package](https://img.shields.io/npm/v/@lazyledger/protobuf3-solidity-lib)](https://www.npmjs.org/package/@lazyledger/protobuf3-solidity-lib)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary",
+      "status": "candidate-context",
+      "text": "Gas-Efficient Solidity DateTime Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary",
+      "status": "candidate-context",
+      "text": "<kbd><img src=\"images/clocks.png\" /></kbd>"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +543,12 @@
       "source_repo": "celestiaorg/protobuf3-solidity-lib",
       "status": "candidate",
       "text": "[![NPM Package](https://img.shields.io/npm/v/@lazyledger/protobuf3-solidity-lib)](https://www.npmjs.org/package/@lazyledger/protobuf3-solidity-lib)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary",
+      "status": "candidate",
+      "text": "<kbd><img src=\"images/clocks.png\" /></kbd>"
     }
   ],
   "candidate_related_terms": [
@@ -1464,11 +1482,65 @@
       "observed_at": "2026-05-06T12:51:12.481137+00:00",
       "source_file": null,
       "source_repo": "dethcrypto/TypeChain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "PraneshASP/vscode-foundry-test-runner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "safe-fndn/safe-smart-account"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "celestiaorg/protobuf3-solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "celestiaorg/protobuf3-solidity-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "alloy-rs/svm-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/eth-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/TypeChain"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

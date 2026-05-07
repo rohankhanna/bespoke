@@ -55,6 +55,18 @@
       "source_repo": "microsoft/AirSim",
       "status": "candidate-context",
       "text": "Microsoft and IAMAI collaborated to advance high-fidelity autonomy simulations through Project AirSim\u2014the evolution of AirSim\u2014 released under the MIT license as part of a DARPA-supported initiative. IAMAI is proud to have contributed to these efforts and has published its versio\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erdos-project/pylot",
+      "status": "candidate-context",
+      "text": "Modular autonomous driving platform running on the CARLA simulator and real-world vehicles."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erdos-project/pylot",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)"
     }
   ],
   "candidate_glosses": [
@@ -87,6 +99,12 @@
       "source_repo": "microsoft/AirSim",
       "status": "candidate",
       "text": "Microsoft and IAMAI collaborated to advance high-fidelity autonomy simulations through Project AirSim\u2014the evolution of AirSim\u2014 released under the MIT license as part of a DARPA-supported initiative. IAMAI is proud to have contributed to these efforts and has published its versio\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erdos-project/pylot",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)"
     }
   ],
   "candidate_related_terms": [],
@@ -124,11 +142,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "microsoft/AirSim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "erdos-project/pylot"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

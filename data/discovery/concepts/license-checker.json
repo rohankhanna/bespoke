@@ -248,6 +248,18 @@
       "source_repo": "apache/datasketches-go",
       "status": "candidate-context",
       "text": "License checker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenSPG/openspg",
+      "status": "candidate-context",
+      "text": "OpenSPG is a Knowledge Graph Engine developed by Ant Group in collaboration with OpenKG, based on the SPG (Semantic-enhanced Programmable Graph) framework.   Core Capabilities: 1) domain model constrained knowledge modeling, 2) facts and logic fused  representation, 3) natively support KAG..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenSPG/openspg",
+      "status": "candidate-context",
+      "text": "License Checker"
     }
   ],
   "candidate_glosses": [
@@ -370,6 +382,12 @@
       "source_repo": "apache/datasketches-go",
       "status": "candidate",
       "text": "License checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenSPG/openspg",
+      "status": "candidate",
+      "text": "License Checker"
     }
   ],
   "candidate_related_terms": [
@@ -545,11 +563,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/license.yml",
       "source_repo": "apache/datasketches-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/license-checker.yml",
+      "source_repo": "OpenSPG/openspg"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

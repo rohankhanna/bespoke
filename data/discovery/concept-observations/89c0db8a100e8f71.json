@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A powerful form designer for Vue."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![image](https://ks3-cn-beijing.ksyuncs.com/vform-static/img/vform_demo.gif)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![image](https://ks3-cn-beijing.ksyuncs.com/vform-static/img/vform_demo.gif)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "iview",
+      "sense_id": "iview#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "iview",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "iview",
+  "observation_id": "89c0db8a100e8f71",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_text": "iview",
+  "source_context_snippet": "![image](https://ks3-cn-beijing.ksyuncs.com/vform-static/img/vform_demo.gif)",
+  "source_file": null,
+  "source_repo": "vform666/variant-form",
+  "source_repo_description": "A powerful form designer for Vue."
+}

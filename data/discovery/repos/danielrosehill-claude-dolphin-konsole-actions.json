@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Dolphin-Konsole-Actions",
+      "target": "danielrosehill/claude-code-repos-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Dolphin-Konsole-Actions",
+      "target": "dolphin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Dolphin-Konsole-Actions",
+      "target": "kde-plasma",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T02:12:32.583791+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1561
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Dolphin actions for KDE + Claude Code",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Dolphin-Konsole-Actions",
+    "html_url": "https://github.com/danielrosehill/Claude-Dolphin-Konsole-Actions",
+    "language": "Shell",
+    "pushed_at": "2026-03-18T18:16:58Z",
+    "stargazers_count": 1,
+    "topics": [
+      "dolphin",
+      "kde-plasma"
+    ],
+    "updated_at": "2026-04-08T04:34:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-code-repos-index",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Part of the Claude Code Repos Index](https://img.shields.io/badge/Claude%20Code%20Repos-Index-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Repos-Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dolphin"
+    },
+    {
+      "context_snippet": "[![Part of the Claude Code Repos Index](https://img.shields.io/badge/Claude%20Code%20Repos-Index-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Repos-Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kde-plasma"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T01:58:35.626915+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1516
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Reference implementation of Deep Neural Network primitives using LIBXSMM's Tensor Processing Primitives (TPP)",
+    "fork": false,
+    "full_name": "libxsmm/libxsmm-dnn",
+    "html_url": "https://github.com/libxsmm/libxsmm-dnn",
+    "language": "C",
+    "pushed_at": "2025-08-15T08:55:56Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2025-08-15T04:15:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

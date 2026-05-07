@@ -1,0 +1,145 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NEAR-DevHub/neardevhub-contract",
+      "target": "near-devhub/neardevhub-bos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-contract",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-contract",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-contract",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-contract",
+      "target": "Swatinem/rust-cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-contract",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NEAR-DevHub/neardevhub-contract",
+      "target": "nearisbos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NEAR-DevHub/neardevhub-contract",
+      "target": "nearprotocol",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T01:56:16.040781+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1170
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2212
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 701
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2297
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "DevHub Portal Product Contract (Hosted on NEAR Blockchain) \u2013\u00a0Includes other instances (e.g. Infrastructure, Events)",
+    "fork": false,
+    "full_name": "NEAR-DevHub/neardevhub-contract",
+    "html_url": "https://github.com/NEAR-DevHub/neardevhub-contract",
+    "language": "Rust",
+    "pushed_at": "2025-03-06T19:20:27Z",
+    "stargazers_count": 18,
+    "topics": [
+      "nearisbos",
+      "nearprotocol"
+    ],
+    "updated_at": "2025-12-05T12:54:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "near-devhub/neardevhub-bos",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "The smart contract responsible for managing the communities, posts, and permissions made available via the [NEAR DevHub frontend](https://neardevhub.org). The repository for the frontend widgets can be found [here](https://github.com/NEAR-DevHub/neardevhub-bos).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nearisbos"
+    },
+    {
+      "context_snippet": "The smart contract responsible for managing the communities, posts, and permissions made available via the [NEAR DevHub frontend](https://neardevhub.org). The repository for the frontend widgets can be found [here](https://github.com/NEAR-DevHub/neardevhub-bos).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nearprotocol"
+    }
+  ]
+}

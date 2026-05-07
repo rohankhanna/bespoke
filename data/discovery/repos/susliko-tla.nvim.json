@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T01:59:39.418418+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2535
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TLA+/PlusCal support for Neovim",
+    "fork": false,
+    "full_name": "susliko/tla.nvim",
+    "html_url": "https://github.com/susliko/tla.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-08-07T13:21:35Z",
+    "stargazers_count": 33,
+    "topics": [],
+    "updated_at": "2026-04-03T22:15:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Claude research notebook into ADHD drug access - an important topic!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Just in case you're wondering, this is a public repo for two reasons:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Just in case you're wondering, this is a public repo for two reasons:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "drug-policy",
+      "sense_id": "drug-policy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "drug-policy",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "drug-policy",
+  "observation_id": "6252ac8cc0be09a6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_text": "drug-policy",
+  "source_context_snippet": "Just in case you're wondering, this is a public repo for two reasons:",
+  "source_file": null,
+  "source_repo": "danielrosehill/Claude-ADHD-Research-Workspace",
+  "source_repo_description": "Claude research notebook into ADHD drug access - an important topic!"
+}

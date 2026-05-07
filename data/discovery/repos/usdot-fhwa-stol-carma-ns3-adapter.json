@@ -1,0 +1,161 @@
+{
+  "components": [
+    {
+      "component": "usdot-fhwa-stol/actions/docker-org-and-tag@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "usdot-fhwa-stol/actions/sonar-scanner@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "usdot-fhwa-stol/actions/.github/workflows/docker.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "usdot-fhwa-stol/actions/.github/workflows/dockerhub.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml"
+    },
+    {
+      "component": "usdot-fhwa-stol/actions/.github/workflows/issue-notification.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-notification.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ns3-adapter",
+      "target": "usdot-fhwa-stol/actions/docker-org-and-tag@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ns3-adapter",
+      "target": "actions/checkout@v3.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ns3-adapter",
+      "target": "usdot-fhwa-stol/actions/sonar-scanner@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ns3-adapter",
+      "target": "usdot-fhwa-stol/actions/.github/workflows/docker.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ns3-adapter",
+      "target": "Docker build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ns3-adapter",
+      "target": "usdot-fhwa-stol/actions/.github/workflows/dockerhub.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ns3-adapter",
+      "target": "Docker Hub build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-notification.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ns3-adapter",
+      "target": "usdot-fhwa-stol/actions/.github/workflows/issue-notification.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-notification.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ns3-adapter",
+      "target": "Issue Notification Dispatcher",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T02:53:42.087308+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3302
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1953
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2726
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 213
+    },
+    {
+      "path": ".github/workflows/dockerhub.yml",
+      "size": 444
+    },
+    {
+      "path": ".github/workflows/issue-notification.yml",
+      "size": 198
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Simulated communication driver for use with CARMA Platform and CDASim",
+    "fork": false,
+    "full_name": "usdot-fhwa-stol/carma-ns3-adapter",
+    "html_url": "https://github.com/usdot-fhwa-stol/carma-ns3-adapter",
+    "language": "C++",
+    "pushed_at": "2026-03-10T16:28:52Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-10T16:28:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Docker build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Docker build"
+    },
+    {
+      "context_snippet": "Docker Hub build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "term": "Docker Hub build"
+    },
+    {
+      "context_snippet": "Issue Notification Dispatcher",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-notification.yml",
+      "term": "Issue Notification Dispatcher"
+    }
+  ]
+}

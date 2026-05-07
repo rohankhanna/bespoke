@@ -370,6 +370,30 @@
       "source_repo": "GrapheneOS/Vanadium",
       "status": "candidate-context",
       "text": "Vanadium is a privacy and security hardened variant of Chromium providing the WebView (used by"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+      "status": "candidate-context",
+      "text": "Arch Linux packaging for ungoogled-chromium"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+      "status": "candidate-context",
+      "text": "Arch Linux packaging for [ungoogled-chromium](//github.com/ungoogled-software/ungoogled-chromium)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ungoogled-software/ungoogled-chromium-debian",
+      "status": "candidate-context",
+      "text": "Debian, Ubuntu, and others packaging for ungoogled-chromium"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ungoogled-software/ungoogled-chromium-debian",
+      "status": "candidate-context",
+      "text": "#!/bin/bash # convert.sh # # Perform the conversion from Chromium to ungoogled-chromium # set -e test -n \"$DOWNLOAD_DIR\" test -n \"$OUTPUT_DIR\" test -n \"$STATE_DIR\" test -n \"$WORK_DIR\" test -d \"$GITHUB_WORKSPACE\" uc_git=$GITHUB_WORKSPACE/ungoogled-chromium wrap= tab=' ' run() { e\u2026"
     }
   ],
   "candidate_glosses": [
@@ -552,6 +576,18 @@
       "source_repo": "GrapheneOS/Vanadium",
       "status": "candidate",
       "text": "Vanadium is a privacy and security hardened variant of Chromium providing the WebView (used by"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+      "status": "candidate",
+      "text": "Arch Linux packaging for [ungoogled-chromium](//github.com/ungoogled-software/ungoogled-chromium)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ungoogled-software/ungoogled-chromium-debian",
+      "status": "candidate",
+      "text": "#!/bin/bash # convert.sh # # Perform the conversion from Chromium to ungoogled-chromium # set -e test -n \"$DOWNLOAD_DIR\" test -n \"$OUTPUT_DIR\" test -n \"$STATE_DIR\" test -n \"$WORK_DIR\" test -d \"$GITHUB_WORKSPACE\" uc_git=$GITHUB_WORKSPACE/ungoogled-chromium wrap= tab=' ' run() { e\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1034,11 +1070,53 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": null,
       "source_repo": "browserslist/map-to-chrome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/ThoriumOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium-legacy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium-debian"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-MacOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

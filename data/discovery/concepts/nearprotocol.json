@@ -43,6 +43,18 @@
       "source_repo": "near/near-cli-rs",
       "status": "candidate-context",
       "text": "near CLI is your **human-friendly** companion that helps to interact with [NEAR Protocol](https://near.org) from command line."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NEAR-DevHub/neardevhub-contract",
+      "status": "candidate-context",
+      "text": "DevHub Portal Product Contract (Hosted on NEAR Blockchain) \u2013\u00a0Includes other instances (e.g. Infrastructure, Events)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NEAR-DevHub/neardevhub-contract",
+      "status": "candidate-context",
+      "text": "The smart contract responsible for managing the communities, posts, and permissions made available via the [NEAR DevHub frontend](https://neardevhub.org). The repository for the frontend widgets can be found [here](https://github.com/NEAR-DevHub/neardevhub-bos)."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "near/near-cli-rs",
       "status": "candidate",
       "text": "near CLI is your **human-friendly** companion that helps to interact with [NEAR Protocol](https://near.org) from command line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NEAR-DevHub/neardevhub-contract",
+      "status": "candidate",
+      "text": "The smart contract responsible for managing the communities, posts, and permissions made available via the [NEAR DevHub frontend](https://neardevhub.org). The repository for the frontend widgets can be found [here](https://github.com/NEAR-DevHub/neardevhub-bos)."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-06T12:51:12.481137+00:00",
       "source_file": null,
       "source_repo": "near/near-cli-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "NEAR-DevHub/neardevhub-contract"
     }
   ],
   "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

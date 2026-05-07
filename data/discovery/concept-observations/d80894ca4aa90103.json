@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Like detective conan, find clue about the type of the file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "`conan` is a re-implementation of the famous command `file`:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "`conan` is a re-implementation of the famous command `file`:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049597,
+      "status": "candidate",
+      "text": "pantomimist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049586,
+      "status": "candidate",
+      "text": "pantomimer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049568,
+      "status": "candidate",
+      "text": "pantomime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049556,
+      "status": "candidate",
+      "text": "dumb show"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028492,
+      "status": "candidate",
+      "text": "mummer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mime",
+      "sense_id": "mime#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15035,
+      "status": "candidate",
+      "text": "pantomime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5018,
+      "status": "candidate",
+      "text": "pantomimist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3034,
+      "status": "candidate",
+      "text": "mummer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1010,
+      "status": "candidate",
+      "text": "pantomimer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20,
+      "status": "candidate",
+      "text": "dumb show"
+    }
+  ],
+  "concept_id": "mime",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mime",
+  "observation_id": "d80894ca4aa90103",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_text": "mime",
+  "source_context_snippet": "`conan` is a re-implementation of the famous command `file`:",
+  "source_file": null,
+  "source_repo": "mirage/conan",
+  "source_repo_description": "Like detective conan, find clue about the type of the file"
+}

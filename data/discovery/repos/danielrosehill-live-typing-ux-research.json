@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Live-Typing-UX-Research",
+      "target": "notes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Live-Typing-UX-Research",
+      "target": "research",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T02:13:06.755121+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7598
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Claude-assisted technical research into live voice typing implementation approaches, focusing on inference, patterns, etc. ",
+    "fork": false,
+    "full_name": "danielrosehill/Live-Typing-UX-Research",
+    "html_url": "https://github.com/danielrosehill/Live-Typing-UX-Research",
+    "language": "Typst",
+    "pushed_at": "2026-04-14T13:33:10Z",
+    "stargazers_count": 0,
+    "topics": [
+      "notes",
+      "research"
+    ],
+    "updated_at": "2026-04-14T13:33:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A research workspace for documenting the UX challenges of using **live voice typing as a replacement for keyboard input on the desktop**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notes"
+    },
+    {
+      "context_snippet": "A research workspace for documenting the UX challenges of using **live voice typing as a replacement for keyboard input on the desktop**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research"
+    }
+  ]
+}

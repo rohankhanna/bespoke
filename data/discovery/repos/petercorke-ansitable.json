@@ -1,0 +1,333 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "petercorke/ansitable",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "petercorke/ansitable",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "petercorke/ansitable",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "petercorke/ansitable",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "petercorke/ansitable",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "petercorke/ansitable",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/ansitable",
+      "target": "ansi-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/ansitable",
+      "target": "ansi-colors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/ansitable",
+      "target": "array",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/ansitable",
+      "target": "borders",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/ansitable",
+      "target": "columnar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/ansitable",
+      "target": "formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/ansitable",
+      "target": "html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/ansitable",
+      "target": "latex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/ansitable",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/ansitable",
+      "target": "matrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/ansitable",
+      "target": "pandas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/ansitable",
+      "target": "restructured-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/ansitable",
+      "target": "table",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/ansitable",
+      "target": "tabular-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "petercorke/ansitable",
+      "target": "tabular-data-formatter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T03:25:10.710070+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24262
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1854
+    },
+    {
+      "path": ".github/workflows/master.yml",
+      "size": 2046
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Quick, easy and pretty display of tabular data or matrices, with optional ANSI color and borders",
+    "fork": false,
+    "full_name": "petercorke/ansitable",
+    "html_url": "https://github.com/petercorke/ansitable",
+    "language": "Python",
+    "pushed_at": "2026-04-13T02:30:55Z",
+    "stargazers_count": 20,
+    "topics": [
+      "ansi-art",
+      "ansi-colors",
+      "array",
+      "borders",
+      "columnar",
+      "csv",
+      "formatting",
+      "html",
+      "latex",
+      "markdown",
+      "matrix",
+      "pandas",
+      "restructured-text",
+      "table",
+      "tabular-data",
+      "tabular-data-formatter"
+    ],
+    "updated_at": "2026-04-13T02:30:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ansi-art"
+    },
+    {
+      "context_snippet": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ansi-colors"
+    },
+    {
+      "context_snippet": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "array"
+    },
+    {
+      "context_snippet": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "borders"
+    },
+    {
+      "context_snippet": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "columnar"
+    },
+    {
+      "context_snippet": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatting"
+    },
+    {
+      "context_snippet": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html"
+    },
+    {
+      "context_snippet": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "latex"
+    },
+    {
+      "context_snippet": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matrix"
+    },
+    {
+      "context_snippet": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pandas"
+    },
+    {
+      "context_snippet": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "restructured-text"
+    },
+    {
+      "context_snippet": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "table"
+    },
+    {
+      "context_snippet": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tabular-data"
+    },
+    {
+      "context_snippet": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tabular-data-formatter"
+    }
+  ]
+}

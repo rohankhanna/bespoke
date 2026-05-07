@@ -1,0 +1,88 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Parenting-Questions-AI-Agent-Workflow",
+      "target": "ai-automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Parenting-Questions-AI-Agent-Workflow",
+      "target": "n8n-agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Parenting-Questions-AI-Agent-Workflow",
+      "target": "newborns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Parenting-Questions-AI-Agent-Workflow",
+      "target": "parenting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T02:12:45.775513+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5395
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Workflow for an agent that answers parenting questions by email with upload to Google Drive",
+    "fork": false,
+    "full_name": "danielrosehill/Parenting-Questions-AI-Agent-Workflow",
+    "html_url": "https://github.com/danielrosehill/Parenting-Questions-AI-Agent-Workflow",
+    "language": "HTML",
+    "pushed_at": "2025-07-22T11:59:50Z",
+    "stargazers_count": 0,
+    "topics": [
+      "ai-agents",
+      "ai-automation",
+      "n8n",
+      "n8n-agents",
+      "newborns",
+      "parenting"
+    ],
+    "updated_at": "2025-07-22T11:59:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![alt text](images/1.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-automation"
+    },
+    {
+      "context_snippet": "![alt text](images/1.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "n8n-agents"
+    },
+    {
+      "context_snippet": "![alt text](images/1.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "newborns"
+    },
+    {
+      "context_snippet": "![alt text](images/1.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parenting"
+    }
+  ]
+}

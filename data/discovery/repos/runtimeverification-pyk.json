@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T01:49:51.569590+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 139
+    },
+    {
+      "path": "Dockerfile",
+      "size": 647
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1615
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Python tools for the K Framework",
+    "fork": false,
+    "full_name": "runtimeverification/pyk",
+    "html_url": "https://github.com/runtimeverification/pyk",
+    "language": "Python",
+    "pushed_at": "2024-04-25T13:57:44Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2024-04-25T13:58:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

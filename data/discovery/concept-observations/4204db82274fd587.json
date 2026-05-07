@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rust bindings for ROS 2 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Rust Stable"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Rust Stable"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10672,
+      "status": "candidate",
+      "text": "albugo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10672,
+      "status": "candidate",
+      "text": "autoecious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10672,
+      "status": "candidate",
+      "text": "blight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10672,
+      "status": "candidate",
+      "text": "brand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10672,
+      "status": "candidate",
+      "text": "corrosion"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rust Stable",
+      "sense_id": "rust-stable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rust-stable",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rust-stable",
+  "observation_id": "4204db82274fd587",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_text": "Rust Stable",
+  "source_context_snippet": "Rust Stable",
+  "source_file": ".github/workflows/rust-stable.yml",
+  "source_repo": "ros2-rust/ros2_rust",
+  "source_repo_description": "Rust bindings for ROS 2 "
+}

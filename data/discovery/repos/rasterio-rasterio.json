@@ -1,0 +1,433 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1.13.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v3.4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_gdal_build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_gdal_build.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_gdal_tags.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_gdal_tags.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_gdal_tags.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_gdal_tags.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "source_repo": "rasterio/rasterio",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "source_repo": "rasterio/rasterio",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "source_repo": "rasterio/rasterio",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "source_repo": "rasterio/rasterio",
+      "target": "ilammy/msvc-dev-cmd@v1.13.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "source_repo": "rasterio/rasterio",
+      "target": "pypa/cibuildwheel@v3.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "source_repo": "rasterio/rasterio",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "source_repo": "rasterio/rasterio",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "source_repo": "rasterio/rasterio",
+      "target": "Build and publish wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_gdal_build.yaml",
+      "source_repo": "rasterio/rasterio",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_gdal_build.yaml",
+      "source_repo": "rasterio/rasterio",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_gdal_dispatch.yaml",
+      "source_repo": "rasterio/rasterio",
+      "target": "Test on signal from GDAL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_gdal_latest.yaml",
+      "source_repo": "rasterio/rasterio",
+      "target": "Weekly tests against latest GDAL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_gdal_tags.yaml",
+      "source_repo": "rasterio/rasterio",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_gdal_tags.yaml",
+      "source_repo": "rasterio/rasterio",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_gdal_tags.yaml",
+      "source_repo": "rasterio/rasterio",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_gdal_tags.yaml",
+      "source_repo": "rasterio/rasterio",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_gdal_tags.yaml",
+      "source_repo": "rasterio/rasterio",
+      "target": "Test against recent GDAL tags",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "rasterio/rasterio",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "rasterio/rasterio",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "rasterio/rasterio",
+      "target": "mamba-org/setup-micromamba@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "rasterio/rasterio",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rasterio/rasterio",
+      "target": "cython",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rasterio/rasterio",
+      "target": "gdal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rasterio/rasterio",
+      "target": "mapbox-satellite-oss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rasterio/rasterio",
+      "target": "raster",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T01:58:45.928952+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 6346
+    },
+    {
+      "path": "Dockerfile",
+      "size": 863
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3975
+    },
+    {
+      "path": "requirements.txt",
+      "size": 296
+    },
+    {
+      "path": ".github/workflows/build-wheels.yaml",
+      "size": 9946
+    },
+    {
+      "path": ".github/workflows/test_gdal_build.yaml",
+      "size": 2768
+    },
+    {
+      "path": ".github/workflows/test_gdal_dispatch.yaml",
+      "size": 677
+    },
+    {
+      "path": ".github/workflows/test_gdal_latest.yaml",
+      "size": 643
+    },
+    {
+      "path": ".github/workflows/test_gdal_tags.yaml",
+      "size": 3135
+    },
+    {
+      "path": ".github/workflows/tests.yaml",
+      "size": 4138
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rasterio reads and writes geospatial raster datasets",
+    "fork": false,
+    "full_name": "rasterio/rasterio",
+    "html_url": "https://github.com/rasterio/rasterio",
+    "language": "Python",
+    "pushed_at": "2026-05-01T14:46:11Z",
+    "stargazers_count": 2520,
+    "topics": [
+      "cli",
+      "cython",
+      "gdal",
+      "gis",
+      "mapbox-satellite-oss",
+      "python",
+      "raster"
+    ],
+    "updated_at": "2026-05-04T14:20:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and publish wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "term": "Build and publish wheels"
+    },
+    {
+      "context_snippet": "Test on signal from GDAL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_gdal_dispatch.yaml",
+      "term": "Test on signal from GDAL"
+    },
+    {
+      "context_snippet": "Weekly tests against latest GDAL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_gdal_latest.yaml",
+      "term": "Weekly tests against latest GDAL"
+    },
+    {
+      "context_snippet": "Test against recent GDAL tags",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_gdal_tags.yaml",
+      "term": "Test against recent GDAL tags"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cython"
+    },
+    {
+      "context_snippet": "========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gdal"
+    },
+    {
+      "context_snippet": "========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mapbox-satellite-oss"
+    },
+    {
+      "context_snippet": "========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raster"
+    }
+  ]
+}

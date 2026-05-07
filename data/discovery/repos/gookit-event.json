@@ -1,0 +1,346 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "shogo82148/actions-goveralls@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "shogo82148/actions-goveralls@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "WillAbides/setup-go-faster@v1.15.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "docker://morphy/revive-action:v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "reviewdog/action-staticcheck@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gookit/event",
+      "target": "gookit/ini",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gookit/event",
+      "target": "gookit/gcli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gookit/event",
+      "target": "gookit/filter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gookit/event",
+      "target": "gookit/goutil",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "gookit/event",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "gookit/event",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "gookit/event",
+      "target": "shogo82148/actions-goveralls@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "gookit/event",
+      "target": "Unit-Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gookit/event",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gookit/event",
+      "target": "WillAbides/setup-go-faster@v1.15.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gookit/event",
+      "target": "docker://morphy/revive-action:v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gookit/event",
+      "target": "reviewdog/action-staticcheck@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gookit/event",
+      "target": "CodeLinter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gookit/event",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gookit/event",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gookit/event",
+      "target": "Tag-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/event",
+      "target": "event-dispatcher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/event",
+      "target": "event-listener",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/event",
+      "target": "event-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/event",
+      "target": "eventbus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/event",
+      "target": "events",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/event",
+      "target": "gookit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/event",
+      "target": "multiple-listeners",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T02:52:30.020531+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10458
+    },
+    {
+      "path": "go.mod",
+      "size": 210
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 1291
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1138
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1299
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udce2 Lightweight event manager and dispatcher implements by Go. Go\u5b9e\u73b0\u7684\u8f7b\u91cf\u7ea7\u7684\u4e8b\u4ef6\u7ba1\u7406\u3001\u8c03\u5ea6\u7a0b\u5e8f\u5e93, \u652f\u6301\u8bbe\u7f6e\u76d1\u542c\u5668\u7684\u4f18\u5148\u7ea7, \u652f\u6301\u4f7f\u7528\u901a\u914d\u7b26\u6765\u8fdb\u884c\u4e00\u7ec4\u4e8b\u4ef6\u7684\u76d1\u542c",
+    "fork": false,
+    "full_name": "gookit/event",
+    "html_url": "https://github.com/gookit/event",
+    "language": "Go",
+    "pushed_at": "2026-05-05T01:55:48Z",
+    "stargazers_count": 570,
+    "topics": [
+      "event-dispatcher",
+      "event-listener",
+      "event-management",
+      "eventbus",
+      "events",
+      "gookit",
+      "multiple-listeners"
+    ],
+    "updated_at": "2026-05-06T21:34:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gookit/filter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gookit/gcli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gookit/goutil",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gookit/ini",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Unit-Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "term": "Unit-Tests"
+    },
+    {
+      "context_snippet": "CodeLinter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "CodeLinter"
+    },
+    {
+      "context_snippet": "Tag-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Tag-release"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/event?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "event-dispatcher"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/event?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "event-listener"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/event?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "event-management"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/event?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eventbus"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/event?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "events"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/event?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gookit"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/event?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiple-listeners"
+    }
+  ]
+}

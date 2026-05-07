@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Release Cycle"
+    "Release Cycle",
+    "Release cycle"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "OpenZeppelin/openzeppelin-contracts",
       "status": "candidate-context",
       "text": "Release Cycle"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ungoogled-software/ungoogled-chromium-debian",
+      "status": "candidate-context",
+      "text": "Debian, Ubuntu, and others packaging for ungoogled-chromium"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ungoogled-software/ungoogled-chromium-debian",
+      "status": "candidate-context",
+      "text": "Release cycle"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "OpenZeppelin/openzeppelin-contracts",
       "status": "candidate",
       "text": "Release Cycle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ungoogled-software/ungoogled-chromium-debian",
+      "status": "candidate",
+      "text": "Release cycle"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/release-cycle.yml",
       "source_repo": "OpenZeppelin/openzeppelin-contracts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium-debian"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

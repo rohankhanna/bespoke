@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jez/dotfiles",
+      "target": "thoughtbot/rcm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jez/dotfiles",
+      "target": "config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jez/dotfiles",
+      "target": "dotfiles",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T00:50:14.643815+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2355
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "My personal collection of configuration files.",
+    "fork": false,
+    "full_name": "jez/dotfiles",
+    "html_url": "https://github.com/jez/dotfiles",
+    "language": "Shell",
+    "pushed_at": "2026-05-04T20:37:46Z",
+    "stargazers_count": 131,
+    "topics": [
+      "cli",
+      "config",
+      "dotfiles",
+      "rcm"
+    ],
+    "updated_at": "2026-05-04T20:37:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thoughtbot/rcm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![xkcd: Automation](http://imgs.xkcd.com/comics/automation.png)](http://xkcd.com/1319/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "config"
+    },
+    {
+      "context_snippet": "[![xkcd: Automation](http://imgs.xkcd.com/comics/automation.png)](http://xkcd.com/1319/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotfiles"
+    }
+  ]
+}

@@ -19,6 +19,18 @@
       "source_repo": "rapideditor/country-coder",
       "status": "candidate-context",
       "text": "[![build](https://github.com/rapideditor/country-coder/workflows/build/badge.svg)](https://github.com/rapideditor/country-coder/actions?query=workflow%3A%22build%22)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "petercorke/ansitable",
+      "status": "candidate-context",
+      "text": "Quick, easy and pretty display of tabular data or matrices, with optional ANSI color and borders"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/ansitable",
+      "status": "candidate-context",
+      "text": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "rapideditor/country-coder",
       "status": "candidate",
       "text": "[![build](https://github.com/rapideditor/country-coder/workflows/build/badge.svg)](https://github.com/rapideditor/country-coder/actions?query=workflow%3A%22build%22)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/ansitable",
+      "status": "candidate",
+      "text": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "rapideditor/country-coder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "petercorke/ansitable"
     }
   ],
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

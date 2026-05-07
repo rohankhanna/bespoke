@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ns3-adapter",
+      "target": "usdot-fhwa-stol/actions/docker-org-and-tag@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ns3-adapter",
+      "target": "actions/checkout@v3.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ns3-adapter",
+      "target": "usdot-fhwa-stol/actions/sonar-scanner@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ns3-adapter",
+      "target": "usdot-fhwa-stol/actions/.github/workflows/docker.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ns3-adapter",
+      "target": "Docker build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ns3-adapter",
+      "target": "usdot-fhwa-stol/actions/.github/workflows/dockerhub.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ns3-adapter",
+      "target": "Docker Hub build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-notification.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ns3-adapter",
+      "target": "usdot-fhwa-stol/actions/.github/workflows/issue-notification.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-notification.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ns3-adapter",
+      "target": "Issue Notification Dispatcher",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-07T00:37:24.413591+00:00",
+  "source_repo": "usdot-fhwa-stol/carma-ns3-adapter"
+}

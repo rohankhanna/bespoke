@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "@modelcontextprotocol/sdk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "express",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cors",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/express",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/cors",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "danielrosehill/My-Network-MCP",
+      "target": "@modelcontextprotocol/sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "danielrosehill/My-Network-MCP",
+      "target": "express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "danielrosehill/My-Network-MCP",
+      "target": "cors",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "danielrosehill/My-Network-MCP",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "danielrosehill/My-Network-MCP",
+      "target": "@types/express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "danielrosehill/My-Network-MCP",
+      "target": "@types/cors",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "danielrosehill/My-Network-MCP",
+      "target": "typescript",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-07T02:13:01.783057+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7525
+    },
+    {
+      "path": "package.json",
+      "size": 1261
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MCP for providing a manually managed LAN directory to AI tools",
+    "fork": false,
+    "full_name": "danielrosehill/My-Network-MCP",
+    "html_url": "https://github.com/danielrosehill/My-Network-MCP",
+    "language": "JavaScript",
+    "pushed_at": "2026-01-02T01:01:19Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-03-01T01:25:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

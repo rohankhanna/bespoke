@@ -55,6 +55,18 @@
       "source_repo": "autonomousvision/plant2",
       "status": "candidate-context",
       "text": "PlanT 2.0 is a lightweight, object-centric planning transformer for CARLA that enables controlled analysis of failure modes while achieving strong closed-loop performance on CARLA Leaderboard 2.0 benchmarks."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erdos-project/pylot",
+      "status": "candidate-context",
+      "text": "Modular autonomous driving platform running on the CARLA simulator and real-world vehicles."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erdos-project/pylot",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "autonomousvision/plant2",
       "status": "candidate",
       "text": "PlanT 2.0 is a lightweight, object-centric planning transformer for CARLA that enables controlled analysis of failure modes while achieving strong closed-loop performance on CARLA Leaderboard 2.0 benchmarks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erdos-project/pylot",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "autonomousvision/plant2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "erdos-project/pylot"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

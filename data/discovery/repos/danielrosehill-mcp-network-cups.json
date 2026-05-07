@@ -1,0 +1,110 @@
+{
+  "components": [
+    {
+      "component": "@modelcontextprotocol/sdk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "execa",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "zod",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "danielrosehill/MCP-Network-CUPS",
+      "target": "@modelcontextprotocol/sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "danielrosehill/MCP-Network-CUPS",
+      "target": "execa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "danielrosehill/MCP-Network-CUPS",
+      "target": "zod",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "danielrosehill/MCP-Network-CUPS",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "danielrosehill/MCP-Network-CUPS",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/MCP-Network-CUPS",
+      "target": "cups",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T02:12:59.952784+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4923
+    },
+    {
+      "path": "package.json",
+      "size": 1292
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MCP-CUPS bridge intended to provide LAN clients with priting tools for a networked/shrared printer running on a CUPS backend",
+    "fork": true,
+    "full_name": "danielrosehill/MCP-Network-CUPS",
+    "html_url": "https://github.com/danielrosehill/MCP-Network-CUPS",
+    "language": "TypeScript",
+    "pushed_at": "2026-01-02T01:02:29Z",
+    "stargazers_count": 1,
+    "topics": [
+      "cups",
+      "mcp"
+    ],
+    "updated_at": "2026-03-01T01:25:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![LAN MCP CUPS](images/1.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cups"
+    }
+  ]
+}

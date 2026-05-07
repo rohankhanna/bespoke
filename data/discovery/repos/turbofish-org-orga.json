@@ -115,13 +115,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "turbofish-org/orga",
-      "target": "turbofish-org/ed",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "turbofish-org/orga",
@@ -164,7 +157,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-06T12:56:13.977374+00:00",
+  "fetched_at": "2026-05-07T01:56:53.399854+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -197,11 +190,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "turbofish-org/abci2",
-      "source_file": "Cargo.toml"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "turbofish-org/ed",
       "source_file": "Cargo.toml"
     }
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T01:55:41.530506+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6090
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Cosmos SDK module that allows for cross-chain/IBC based cross-chain querying of state.",
+    "fork": false,
+    "full_name": "defund-labs/interquery",
+    "html_url": "https://github.com/defund-labs/interquery",
+    "language": null,
+    "pushed_at": "2022-02-23T05:26:57Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2022-08-08T12:35:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

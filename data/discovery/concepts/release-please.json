@@ -1052,6 +1052,18 @@
       "source_repo": "dao-xyz/borsh-ts",
       "status": "candidate-context",
       "text": "Release Please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentclientprotocol/typescript-sdk",
+      "status": "candidate-context",
+      "text": "TypeScript SDK for ACP clients and agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentclientprotocol/typescript-sdk",
+      "status": "candidate-context",
+      "text": "release-please"
     }
   ],
   "candidate_glosses": [
@@ -1588,6 +1600,12 @@
       "source_repo": "dao-xyz/borsh-ts",
       "status": "candidate",
       "text": "Release Please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentclientprotocol/typescript-sdk",
+      "status": "candidate",
+      "text": "release-please"
     }
   ],
   "candidate_related_terms": [
@@ -3345,11 +3363,95 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": ".github/workflows/release-please.yml",
       "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "Obsidian-TTRPG-Community/fantasy-statblocks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "Obsidian-TTRPG-Community/dice-roller"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "Obsidian-TTRPG-Community/initiative-tracker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "javalent/obsidian-leaflet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "lumen-oss/rocks-config.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "lumen-oss/rocks-dev.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/release-please.yaml",
+      "source_repo": "lumen-oss/rocks-treesitter.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "codymikol/neotest-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "agentclientprotocol/typescript-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "a2aproject/a2a-js"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

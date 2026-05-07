@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haixuanTao/frenet_optimal_trajectory_planner",
+      "target": "erdos-project/pylot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haixuanTao/frenet_optimal_trajectory_planner",
+      "target": "fangedward/frenet-optimal-trajectory-planner",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T00:41:47.499011+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5654
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": true,
+    "full_name": "haixuanTao/frenet_optimal_trajectory_planner",
+    "html_url": "https://github.com/haixuanTao/frenet_optimal_trajectory_planner",
+    "language": "C++",
+    "pushed_at": "2023-07-31T22:01:44Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2023-07-31T20:19:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erdos-project/pylot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fangedward/frenet-optimal-trajectory-planner",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

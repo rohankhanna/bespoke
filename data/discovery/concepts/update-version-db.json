@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Version DB"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLang/juliaup",
+      "status": "candidate-context",
+      "text": "Julia installer and version manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/juliaup",
+      "status": "candidate-context",
+      "text": "Update Version DB"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/juliaup",
+      "status": "candidate",
+      "text": "Update Version DB"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12744,
+      "status": "candidate",
+      "text": "law"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12744,
+      "status": "candidate",
+      "text": "love"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12744,
+      "status": "candidate",
+      "text": "otis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12744,
+      "status": "candidate",
+      "text": "ter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10140,
+      "status": "candidate",
+      "text": "abscissa"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Version DB",
+  "concept_id": "update-version-db",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/updateversiondb.yml",
+      "source_repo": "JuliaLang/juliaup"
+    }
+  ],
+  "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Version DB",
+      "sense_id": "update-version-db#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udcdd Go configuration manage(load,get,set,export). support JSON, YAML, TOML, Properties, INI, HCL, ENV and Flags. Multi file load, data override merge, parse ENV var. Go\u5e94\u7528\u914d\u7f6e\u52a0\u8f7d\u7ba1\u7406\uff0c\u652f\u6301\u591a\u79cd\u683c\u5f0f\uff0c\u591a\u6587\u4ef6\u52a0\u8f7d\uff0c\u8fdc\u7a0b\u6587\u4ef6\u52a0\u8f7d\uff0c\u652f\u6301\u6570\u636e\u5408\u5e76\uff0c\u89e3\u6790\u73af\u5883\u53d8\u91cf\u540d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/config?style=flat-square)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/config?style=flat-square)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39889133,
+      "status": "candidate",
+      "text": "ensign"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39854956,
+      "status": "candidate",
+      "text": "flagstone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39848956,
+      "status": "candidate",
+      "text": "pin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39805596,
+      "status": "candidate",
+      "text": "swag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39769850,
+      "status": "candidate",
+      "text": "sag"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "flags",
+      "sense_id": "flags#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "flags",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "flags",
+  "observation_id": "5ea13da5a6608f74",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_text": "flags",
+  "source_context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/config?style=flat-square)",
+  "source_file": null,
+  "source_repo": "gookit/config",
+  "source_repo_description": "\ud83d\udcdd Go configuration manage(load,get,set,export). support JSON, YAML, TOML, Properties, INI, HCL, ENV and Flags. Multi file load, data override merge, parse ENV var. Go\u5e94\u7528\u914d\u7f6e\u52a0\u8f7d\u7ba1\u7406\uff0c\u652f\u6301\u591a\u79cd\u683c\u5f0f\uff0c\u591a\u6587\u4ef6\u52a0\u8f7d\uff0c\u8fdc\u7a0b\u6587\u4ef6\u52a0\u8f7d\uff0c\u652f\u6301\u6570\u636e\u5408\u5e76\uff0c\u89e3\u6790\u73af\u5883\u53d8\u91cf\u540d"
+}

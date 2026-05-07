@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T00:55:57.556928+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 329
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CTM CIFAR-10 code",
+    "fork": false,
+    "full_name": "Kim-Dongjun/ctm-cifar10",
+    "html_url": "https://github.com/Kim-Dongjun/ctm-cifar10",
+    "language": "Python",
+    "pushed_at": "2024-10-09T18:35:21Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-08-06T13:23:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

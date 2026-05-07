@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RollaProject/solidity-datetime",
+      "target": "alex-kampa/test_bokkypoobahsdatetimelibrary",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RollaProject/solidity-datetime",
+      "target": "bokkypoobah/bokkypoobahshalloffameandbugbounties",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "RollaProject/solidity-datetime",
+      "target": "quant-finance-hq/solidity-datetime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "RollaProject/solidity-datetime",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "RollaProject/solidity-datetime",
+      "target": "prettier-plugin-solidity",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-07T00:37:24.413591+00:00",
+  "source_repo": "RollaProject/solidity-datetime"
+}

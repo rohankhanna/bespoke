@@ -1,7 +1,7 @@
 {
   "component": "markdown-toc",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -162,6 +162,26 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "kloudfuse/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "opensearch-project/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kubeshop/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "signalfx/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "liatrio/opentelemetry-demo"
     }
   ]
 }

@@ -274,6 +274,30 @@
       "source_repo": "usdot-fhwa-stol/cdasim-config",
       "status": "candidate-context",
       "text": "Docker build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "usdot-fhwa-stol/carma-carla-integration",
+      "status": "candidate-context",
+      "text": "Integration nodes for interfacing CARMA Platform with CARLA simulation environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/carma-carla-integration",
+      "status": "candidate-context",
+      "text": "Docker build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "usdot-fhwa-stol/carma-ns3-adapter",
+      "status": "candidate-context",
+      "text": "Simulated communication driver for use with CARMA Platform and CDASim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/carma-ns3-adapter",
+      "status": "candidate-context",
+      "text": "Docker build"
     }
   ],
   "candidate_glosses": [
@@ -412,6 +436,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "usdot-fhwa-stol/cdasim-config",
+      "status": "candidate",
+      "text": "Docker build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/carma-carla-integration",
+      "status": "candidate",
+      "text": "Docker build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/carma-ns3-adapter",
       "status": "candidate",
       "text": "Docker build"
     }
@@ -697,11 +733,29 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "usdot-fhwa-stol/cdasim-config"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "usdot-fhwa-stol/carma-carla-integration"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "usdot-fhwa-stol/carma-ns3-adapter"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

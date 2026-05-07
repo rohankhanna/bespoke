@@ -1,0 +1,753 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ansi.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ansi.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ansi.yml"
+    },
+    {
+      "component": "dependabot/fetch-metadata@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ansi.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ansi.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cellbuf.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cellbuf.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cellbuf.yml"
+    },
+    {
+      "component": "dependabot/fetch-metadata@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cellbuf.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cellbuf.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/charmtone.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/charmtone.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/charmtone.yml"
+    },
+    {
+      "component": "dependabot/fetch-metadata@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/charmtone.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/charmtone.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/colors.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/colors.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/colors.yml"
+    },
+    {
+      "component": "dependabot/fetch-metadata@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/colors.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/colors.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conpty.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conpty.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conpty.yml"
+    },
+    {
+      "component": "dependabot/fetch-metadata@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conpty.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conpty.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/editor.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/editor.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/editor.yml"
+    },
+    {
+      "component": "dependabot/fetch-metadata@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/editor.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/editor.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/errors.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/errors.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/errors.yml"
+    },
+    {
+      "component": "dependabot/fetch-metadata@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/errors.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/errors.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/etag.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/etag.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/etag.yml"
+    },
+    {
+      "component": "dependabot/fetch-metadata@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/etag.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/etag.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "dependabot/fetch-metadata@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ansi.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ansi.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ansi.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ansi.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "dependabot/fetch-metadata@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ansi.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "charmbracelet/meta/.github/workflows/lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ansi.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "ansi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cellbuf.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cellbuf.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cellbuf.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cellbuf.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "dependabot/fetch-metadata@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cellbuf.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "charmbracelet/meta/.github/workflows/lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cellbuf.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "cellbuf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/charmtone.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/charmtone.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/charmtone.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/charmtone.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "dependabot/fetch-metadata@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/charmtone.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "charmbracelet/meta/.github/workflows/lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/charmtone.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "charmtone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/colors.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/colors.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/colors.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/colors.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "dependabot/fetch-metadata@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/colors.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "charmbracelet/meta/.github/workflows/lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/colors.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "colors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conpty.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conpty.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conpty.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conpty.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "dependabot/fetch-metadata@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conpty.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "charmbracelet/meta/.github/workflows/lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conpty.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "conpty",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/editor.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/editor.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/editor.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/editor.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "dependabot/fetch-metadata@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/editor.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "charmbracelet/meta/.github/workflows/lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/editor.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "editor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/errors.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/errors.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/errors.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/errors.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "dependabot/fetch-metadata@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/errors.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "charmbracelet/meta/.github/workflows/lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/errors.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "errors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/etag.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/etag.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/etag.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/etag.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "dependabot/fetch-metadata@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/etag.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "charmbracelet/meta/.github/workflows/lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/etag.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "etag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "dependabot/fetch-metadata@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "charmbracelet/meta/.github/workflows/lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "charmbracelet/x",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charmbracelet/x",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charmbracelet/x",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T02:52:01.208580+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5182
+    },
+    {
+      "path": ".github/workflows/ansi.yml",
+      "size": 1548
+    },
+    {
+      "path": ".github/workflows/cellbuf.yml",
+      "size": 1569
+    },
+    {
+      "path": ".github/workflows/charmtone.yml",
+      "size": 1603
+    },
+    {
+      "path": ".github/workflows/colors.yml",
+      "size": 1562
+    },
+    {
+      "path": ".github/workflows/conpty.yml",
+      "size": 1562
+    },
+    {
+      "path": ".github/workflows/editor.yml",
+      "size": 1562
+    },
+    {
+      "path": ".github/workflows/errors.yml",
+      "size": 1562
+    },
+    {
+      "path": ".github/workflows/etag.yml",
+      "size": 1548
+    },
+    {
+      "path": ".github/workflows/examples.yml",
+      "size": 1576
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Charm experimental packages",
+    "fork": false,
+    "full_name": "charmbracelet/x",
+    "html_url": "https://github.com/charmbracelet/x",
+    "language": "Go",
+    "pushed_at": "2026-05-04T10:21:24Z",
+    "stargazers_count": 290,
+    "topics": [
+      "go",
+      "hacktoberfest",
+      "terminal"
+    ],
+    "updated_at": "2026-05-06T12:34:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "ansi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ansi.yml",
+      "term": "ansi"
+    },
+    {
+      "context_snippet": "cellbuf",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cellbuf.yml",
+      "term": "cellbuf"
+    },
+    {
+      "context_snippet": "charmtone",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/charmtone.yml",
+      "term": "charmtone"
+    },
+    {
+      "context_snippet": "colors",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/colors.yml",
+      "term": "colors"
+    },
+    {
+      "context_snippet": "conpty",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conpty.yml",
+      "term": "conpty"
+    },
+    {
+      "context_snippet": "editor",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/editor.yml",
+      "term": "editor"
+    },
+    {
+      "context_snippet": "errors",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/errors.yml",
+      "term": "errors"
+    },
+    {
+      "context_snippet": "etag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/etag.yml",
+      "term": "etag"
+    },
+    {
+      "context_snippet": "examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "term": "examples"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

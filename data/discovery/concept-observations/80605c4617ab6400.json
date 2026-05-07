@@ -84,7 +84,7 @@
   "normalized_form": "build-manylinux-opencv-image",
   "observation_id": "80605c4617ab6400",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
   "observed_text": "Build manylinux OpenCV image",
   "source_context_snippet": "Build manylinux OpenCV image",
   "source_file": ".github/workflows/build-manylinux-image.yml",

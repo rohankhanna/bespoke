@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T00:41:10.427397+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2607
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A python package for controlling Kuka iiwa from an external PC",
+    "fork": false,
+    "full_name": "Modi1987/iiwaPy",
+    "html_url": "https://github.com/Modi1987/iiwaPy",
+    "language": "Python",
+    "pushed_at": "2023-02-22T18:14:07Z",
+    "stargazers_count": 48,
+    "topics": [],
+    "updated_at": "2026-03-26T13:54:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -19,6 +19,18 @@
       "source_repo": "inversify/InversifyJS",
       "status": "candidate-context",
       "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inversify/monorepo",
+      "status": "candidate-context",
+      "text": "A powerful and lightweight inversion of control container for JavaScript & Node.js apps powered by TypeScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inversify/monorepo",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "inversify/InversifyJS",
       "status": "candidate",
       "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inversify/monorepo",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-06T12:51:12.481137+00:00",
       "source_file": null,
       "source_repo": "inversify/InversifyJS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "inversify/monorepo"
     }
   ],
   "first_seen_at": "2026-05-06T12:51:12.481137+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

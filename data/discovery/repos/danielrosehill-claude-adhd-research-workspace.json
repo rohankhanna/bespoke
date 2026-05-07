@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-ADHD-Research-Workspace",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-ADHD-Research-Workspace",
+      "target": "drug-policy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T02:13:02.745889+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2404
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Claude research notebook into ADHD drug access - an important topic!",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-ADHD-Research-Workspace",
+    "html_url": "https://github.com/danielrosehill/Claude-ADHD-Research-Workspace",
+    "language": null,
+    "pushed_at": "2026-04-16T13:56:55Z",
+    "stargazers_count": 5,
+    "topics": [
+      "claude-code",
+      "drug-policy"
+    ],
+    "updated_at": "2026-04-16T13:57:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Just in case you're wondering, this is a public repo for two reasons:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "Just in case you're wondering, this is a public repo for two reasons:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "drug-policy"
+    }
+  ]
+}

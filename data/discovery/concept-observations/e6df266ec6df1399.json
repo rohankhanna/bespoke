@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Local AI inference server for AMD GPU users"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![alt text](screenshots/1.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![alt text](screenshots/1.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "local-ai",
+      "sense_id": "local-ai#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "local-ai",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "local-ai",
+  "observation_id": "e6df266ec6df1399",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_text": "local-ai",
+  "source_context_snippet": "![alt text](screenshots/1.png)",
+  "source_file": null,
+  "source_repo": "danielrosehill/AMD-AI-Server",
+  "source_repo_description": "Local AI inference server for AMD GPU users"
+}

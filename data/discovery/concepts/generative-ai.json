@@ -571,6 +571,18 @@
       "source_repo": "Extraltodeus/Uncond-Zero-for-ComfyUI",
       "status": "candidate-context",
       "text": "Allows to sample without generating any negative prediction with Stable Diffusion!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings",
+      "status": "candidate-context",
+      "text": "Provides the ability to set the temperature for both UNET and CLIP. For ComfyUI. Has for side effect to improve non-native resolutions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings",
+      "status": "candidate-context",
+      "text": "Provides the ability to set the temperature for both UNET and CLIP. For ComfyUI."
     }
   ],
   "candidate_glosses": [
@@ -855,6 +867,12 @@
       "source_repo": "Extraltodeus/Uncond-Zero-for-ComfyUI",
       "status": "candidate",
       "text": "Allows to sample without generating any negative prediction with Stable Diffusion!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings",
+      "status": "candidate",
+      "text": "Provides the ability to set the temperature for both UNET and CLIP. For ComfyUI."
     }
   ],
   "candidate_related_terms": [],
@@ -1756,11 +1774,47 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": null,
       "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "langflow-ai/langflow"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

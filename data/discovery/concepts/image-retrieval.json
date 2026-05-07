@@ -295,6 +295,18 @@
       "source_repo": "InternLM/HuixiangDou",
       "status": "candidate-context",
       "text": "[HuixiangDou2](https://github.com/tpoisonooo/HuixiangDou2)(ACL25) is a GraphRAG solution whose effectiveness has been demonstrated in the plant-science domain and that contributed to the [**cover paper in Cell**](https://www.cell.com/molecular-plant/issue?pii=S1674-2052(24)X0008\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KaiyangZhou/deep-person-reid",
+      "status": "candidate-context",
+      "text": "Torchreid: Deep learning person re-identification in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KaiyangZhou/deep-person-reid",
+      "status": "candidate-context",
+      "text": "Torchreid"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +453,12 @@
       "source_repo": "InternLM/HuixiangDou",
       "status": "candidate",
       "text": "[HuixiangDou2](https://github.com/tpoisonooo/HuixiangDou2)(ACL25) is a GraphRAG solution whose effectiveness has been demonstrated in the plant-science domain and that contributed to the [**cover paper in Cell**](https://www.cell.com/molecular-plant/issue?pii=S1674-2052(24)X0008\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KaiyangZhou/deep-person-reid",
+      "status": "candidate",
+      "text": "Torchreid"
     }
   ],
   "candidate_related_terms": [],
@@ -592,11 +610,17 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "InternLM/HuixiangDou"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/deep-person-reid"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

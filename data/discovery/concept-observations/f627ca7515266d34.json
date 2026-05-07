@@ -84,7 +84,7 @@
   "normalized_form": "boxmot-ci",
   "observation_id": "f627ca7515266d34",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
   "observed_text": "BoxMOT CI",
   "source_context_snippet": "BoxMOT CI",
   "source_file": ".github/workflows/ci.yml",

@@ -1,0 +1,628 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_test.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@v0.9.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_test.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@v0.9.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_test.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@v0.9.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-docs.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@v0.9.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_package.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_package.yml"
+    },
+    {
+      "component": "ilammy/setup-nasm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_release.yml"
+    },
+    {
+      "component": "messense/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_release.yml"
+    },
+    {
+      "component": "ilammy/setup-nasm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_release.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_release.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_release.yml"
+    },
+    {
+      "component": "messense/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_release.yml"
+    },
+    {
+      "component": "ilammy/setup-nasm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_release.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_release.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_release.yml"
+    },
+    {
+      "component": "messense/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_release.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_release.yml"
+    },
+    {
+      "component": "messense/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_test.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@v0.9.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_test.yml"
+    },
+    {
+      "component": "ilammy/setup-nasm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_test.yml"
+    },
+    {
+      "component": "messense/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_test.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kornia/kornia-rs",
+      "target": "rerun-io/rerun",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_test.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_test.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "prefix-dev/setup-pixi@v0.9.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp_test.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "C++ Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "Issue Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "prefix-dev/setup-pixi@v0.9.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "PR Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-docs.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-docs.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "prefix-dev/setup-pixi@v0.9.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_package.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_package.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_release.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "ilammy/setup-nasm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_release.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_release.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "messense/maturin-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_release.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_release.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_release.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_release.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_test.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_test.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "prefix-dev/setup-pixi@v0.9.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_test.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "ilammy/setup-nasm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_test.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "messense/maturin-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_test.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_test.yml",
+      "source_repo": "kornia/kornia-rs",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kornia/kornia-rs",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kornia/kornia-rs",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kornia/kornia-rs",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kornia/kornia-rs",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kornia/kornia-rs",
+      "target": "pyo3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kornia/kornia-rs",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kornia/kornia-rs",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T00:41:59.754265+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13354
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2719
+    },
+    {
+      "path": ".github/workflows/cpp_test.yml",
+      "size": 1530
+    },
+    {
+      "path": ".github/workflows/issue-triage.yml",
+      "size": 1221
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 634
+    },
+    {
+      "path": ".github/workflows/pr-validation.yml",
+      "size": 5691
+    },
+    {
+      "path": ".github/workflows/python-docs.yml",
+      "size": 570
+    },
+    {
+      "path": ".github/workflows/python_package.yml",
+      "size": 672
+    },
+    {
+      "path": ".github/workflows/python_release.yml",
+      "size": 7662
+    },
+    {
+      "path": ".github/workflows/python_test.yml",
+      "size": 6200
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\udd80 Low-level 3D Computer Vision library in Rust",
+    "fork": false,
+    "full_name": "kornia/kornia-rs",
+    "html_url": "https://github.com/kornia/kornia-rs",
+    "language": "Rust",
+    "pushed_at": "2026-05-06T18:04:55Z",
+    "stargazers_count": 636,
+    "topics": [
+      "computer-vision",
+      "deep-learning",
+      "image-processing",
+      "machine-learning",
+      "pyo3",
+      "python",
+      "robotics",
+      "rust"
+    ],
+    "updated_at": "2026-05-06T18:05:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rerun-io/rerun",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "C++ Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp_test.yml",
+      "term": "C++ Test"
+    },
+    {
+      "context_snippet": "Issue Triage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "term": "Issue Triage"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "PR Validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "term": "PR Validation"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyo3"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

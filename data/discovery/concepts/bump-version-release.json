@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bump Version & Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joanroig/admincraft",
+      "status": "candidate-context",
+      "text": "\ud83d\udcf1 Multiplatform app to control Minecraft Bedrock Dockerized servers, built with Flutter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joanroig/admincraft",
+      "status": "candidate-context",
+      "text": "Bump Version & Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joanroig/admincraft",
+      "status": "candidate",
+      "text": "Bump Version & Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34732,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33896,
+      "status": "candidate",
+      "text": "free"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33896,
+      "status": "candidate",
+      "text": "freeing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25730,
+      "status": "candidate",
+      "text": "linspire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18451,
+      "status": "candidate",
+      "text": "kick"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bump Version & Release",
+  "concept_id": "bump-version-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/bump-version-and-release.yml",
+      "source_repo": "joanroig/admincraft"
+    }
+  ],
+  "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump Version & Release",
+      "sense_id": "bump-version-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

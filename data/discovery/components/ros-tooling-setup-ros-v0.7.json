@@ -1,7 +1,7 @@
 {
   "component": "ros-tooling/setup-ros@v0.7",
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ros2.yaml",
       "source_repo": "ros/urdfdom"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-bindings.yml",
+      "source_repo": "ros2-rust/ros2_rust"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust-minimal.yml",
+      "source_repo": "ros2-rust/ros2_rust"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust-stable.yml",
+      "source_repo": "ros2-rust/ros2_rust"
     }
   ]
 }

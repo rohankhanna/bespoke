@@ -301,7 +301,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-06T07:17:11.385804+00:00",
+  "fetched_at": "2026-05-07T01:03:53.246939+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -350,14 +350,14 @@
     "html_url": "https://github.com/Comfy-Org/comfy-cli",
     "language": "Python",
     "pushed_at": "2026-05-01T07:28:36Z",
-    "stargazers_count": 781,
+    "stargazers_count": 784,
     "topics": [
       "ai",
       "comfyui",
       "command-line",
       "stable-diffusion"
     ],
-    "updated_at": "2026-05-06T06:10:40Z"
+    "updated_at": "2026-05-06T19:27:18Z"
   },
   "repo_links": [
     {

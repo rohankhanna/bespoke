@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test_gdal_dispatch.yaml",
+      "source_repo": "rasterio/rasterio"
+    }
+  ],
+  "term": "Test on signal from GDAL"
+}

@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "CHIP-SPV/H4I-HipBLAS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "CHIP-SPV/H4I-HipBLAS",
+      "target": "H4I-HipBLAS CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install.yml",
+      "source_repo": "CHIP-SPV/H4I-HipBLAS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install.yml",
+      "source_repo": "CHIP-SPV/H4I-HipBLAS",
+      "target": "H4I-HipBLAS Install",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "CHIP-SPV/H4I-HipBLAS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "CHIP-SPV/H4I-HipBLAS",
+      "target": "Presubmit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T01:57:59.300597+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1235
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1875
+    },
+    {
+      "path": ".github/workflows/install.yml",
+      "size": 1346
+    },
+    {
+      "path": ".github/workflows/presubmit.yml",
+      "size": 1415
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "CHIP-SPV/H4I-HipBLAS",
+    "html_url": "https://github.com/CHIP-SPV/H4I-HipBLAS",
+    "language": "C++",
+    "pushed_at": "2026-04-18T09:23:02Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-18T09:23:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "H4I-HipBLAS CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "H4I-HipBLAS CI"
+    },
+    {
+      "context_snippet": "H4I-HipBLAS Install",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install.yml",
+      "term": "H4I-HipBLAS Install"
+    },
+    {
+      "context_snippet": "Presubmit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit.yml",
+      "term": "Presubmit"
+    }
+  ]
+}

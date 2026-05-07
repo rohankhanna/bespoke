@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A powerful and lightweight inversion of control container for JavaScript & Node.js apps powered by TypeScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Clear GH actions cache"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Clear GH actions cache"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20295,
+      "status": "candidate",
+      "text": "stock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19764,
+      "status": "candidate",
+      "text": "card"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19671,
+      "status": "candidate",
+      "text": "reserves"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19645,
+      "status": "candidate",
+      "text": "follow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19636,
+      "status": "candidate",
+      "text": "quantity"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Clear GH actions cache",
+      "sense_id": "clear-gh-actions-cache#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "clear-gh-actions-cache",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clear-gh-actions-cache",
+  "observation_id": "93231b32d64b97b4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_text": "Clear GH actions cache",
+  "source_context_snippet": "Clear GH actions cache",
+  "source_file": ".github/workflows/clear-gh-actions-cache.yaml",
+  "source_repo": "inversify/monorepo",
+  "source_repo_description": "A powerful and lightweight inversion of control container for JavaScript & Node.js apps powered by TypeScript."
+}

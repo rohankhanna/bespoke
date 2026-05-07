@@ -1,0 +1,202 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium-debian",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium-debian",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium-debian",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium-debian",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium-debian",
+      "target": "Release cycle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium-debian",
+      "target": "chromium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium-debian",
+      "target": "debian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium-debian",
+      "target": "debian-packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium-debian",
+      "target": "ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium-debian",
+      "target": "ungoogled-chromium",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T02:10:54.464301+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/convert.sh",
+      "size": 2541
+    },
+    {
+      "path": ".github/workflows/dpkg-source-build.patch",
+      "size": 4047
+    },
+    {
+      "path": ".github/workflows/get-latest.sh",
+      "size": 4727
+    },
+    {
+      "path": ".github/workflows/obs-upload.sh",
+      "size": 4569
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 4807
+    },
+    {
+      "path": ".github/workflows/remote-check.sh",
+      "size": 4718
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "unified",
+    "description": "Debian, Ubuntu, and others packaging for ungoogled-chromium",
+    "fork": false,
+    "full_name": "ungoogled-software/ungoogled-chromium-debian",
+    "html_url": "https://github.com/ungoogled-software/ungoogled-chromium-debian",
+    "language": "Makefile",
+    "pushed_at": "2026-04-17T00:04:06Z",
+    "stargazers_count": 472,
+    "topics": [
+      "chromium",
+      "debian",
+      "debian-packages",
+      "ubuntu",
+      "ungoogled-chromium"
+    ],
+    "updated_at": "2026-05-06T11:48:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release cycle",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release cycle"
+    },
+    {
+      "context_snippet": "#!/bin/bash # convert.sh # # Perform the conversion from Chromium to ungoogled-chromium # set -e test -n \"$DOWNLOAD_DIR\" test -n \"$OUTPUT_DIR\" test -n \"$STATE_DIR\" test -n \"$WORK_DIR\" test -d \"$GITHUB_WORKSPACE\" uc_git=$GITHUB_WORKSPACE/ungoogled-chromium wrap= tab=' ' run() { e\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromium"
+    },
+    {
+      "context_snippet": "#!/bin/bash # convert.sh # # Perform the conversion from Chromium to ungoogled-chromium # set -e test -n \"$DOWNLOAD_DIR\" test -n \"$OUTPUT_DIR\" test -n \"$STATE_DIR\" test -n \"$WORK_DIR\" test -d \"$GITHUB_WORKSPACE\" uc_git=$GITHUB_WORKSPACE/ungoogled-chromium wrap= tab=' ' run() { e\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debian"
+    },
+    {
+      "context_snippet": "#!/bin/bash # convert.sh # # Perform the conversion from Chromium to ungoogled-chromium # set -e test -n \"$DOWNLOAD_DIR\" test -n \"$OUTPUT_DIR\" test -n \"$STATE_DIR\" test -n \"$WORK_DIR\" test -d \"$GITHUB_WORKSPACE\" uc_git=$GITHUB_WORKSPACE/ungoogled-chromium wrap= tab=' ' run() { e\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debian-packages"
+    },
+    {
+      "context_snippet": "#!/bin/bash # convert.sh # # Perform the conversion from Chromium to ungoogled-chromium # set -e test -n \"$DOWNLOAD_DIR\" test -n \"$OUTPUT_DIR\" test -n \"$STATE_DIR\" test -n \"$WORK_DIR\" test -d \"$GITHUB_WORKSPACE\" uc_git=$GITHUB_WORKSPACE/ungoogled-chromium wrap= tab=' ' run() { e\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ubuntu"
+    },
+    {
+      "context_snippet": "#!/bin/bash # convert.sh # # Perform the conversion from Chromium to ungoogled-chromium # set -e test -n \"$DOWNLOAD_DIR\" test -n \"$OUTPUT_DIR\" test -n \"$STATE_DIR\" test -n \"$WORK_DIR\" test -d \"$GITHUB_WORKSPACE\" uc_git=$GITHUB_WORKSPACE/ungoogled-chromium wrap= tab=' ' run() { e\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ungoogled-chromium"
+    }
+  ]
+}

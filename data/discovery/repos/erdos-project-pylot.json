@@ -1,0 +1,299 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erdos-project/pylot",
+      "target": "carla-simulator/scenario_runner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "erdos-project/pylot",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "erdos-project/pylot",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "erdos-project/pylot",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "erdos-project/pylot",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "erdos-project/pylot",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erdos-project/pylot",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erdos-project/pylot",
+      "target": "autonomous-vehicles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erdos-project/pylot",
+      "target": "carla",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erdos-project/pylot",
+      "target": "carla-simulator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erdos-project/pylot",
+      "target": "control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erdos-project/pylot",
+      "target": "lane-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erdos-project/pylot",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erdos-project/pylot",
+      "target": "obstacle-tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erdos-project/pylot",
+      "target": "perception",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erdos-project/pylot",
+      "target": "planning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erdos-project/pylot",
+      "target": "prediction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erdos-project/pylot",
+      "target": "self-driving-car",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erdos-project/pylot",
+      "target": "traffic-light-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T03:25:28.063526+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11737
+    },
+    {
+      "path": "requirements.txt",
+      "size": 488
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1104
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 475
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Modular autonomous driving platform running on the CARLA simulator and real-world vehicles.",
+    "fork": false,
+    "full_name": "erdos-project/pylot",
+    "html_url": "https://github.com/erdos-project/pylot",
+    "language": "Python",
+    "pushed_at": "2023-03-24T22:58:22Z",
+    "stargazers_count": 533,
+    "topics": [
+      "autonomous-driving",
+      "autonomous-vehicles",
+      "carla",
+      "carla-simulator",
+      "control",
+      "lane-detection",
+      "machine-learning",
+      "obstacle-tracking",
+      "perception",
+      "planning",
+      "prediction",
+      "self-driving-car",
+      "traffic-light-detection"
+    ],
+    "updated_at": "2026-04-30T07:03:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carla-simulator/scenario_runner",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-vehicles"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "carla"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "carla-simulator"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "control"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lane-detection"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obstacle-tracking"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "perception"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "planning"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prediction"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-driving-car"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "traffic-light-detection"
+    }
+  ]
+}

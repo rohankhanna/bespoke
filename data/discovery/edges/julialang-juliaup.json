@@ -1,0 +1,258 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "julia-actions/install-juliaup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "actions-rust-lang/setup-rust-toolchain@150fca883cd4034361b621bd4e6a9d34e5143606",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clippy.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "Clippy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "egor-tensin/setup-mingw@41b837e47d7f85214629d255b9c4bc3fcbe9fd63",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "actions-rust-lang/setup-rust-toolchain@150fca883cd4034361b621bd4e6a9d34e5143606",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "clechasseur/rs-cargo@34806c2f3a52f2f236510fb17044cbcc62f04eba",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "cross-platform-actions/action@492b0c80085400348c599edace11141a4ee73524",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "azure/login@532459ea530d8321f2fb9bb10d1e0bcf23869a43",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "azure/trusted-signing-action@b443cf8ea4124818d2ea9f043cba29fc3ec47b16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "ncipollo/release-action@339a81892b84b4eeb0f6e744e4574d79d0d9b8dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "dawidd6/action-homebrew-bump-formula@1446dca236b0440c6f02723a3f14f13be2c04ab0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "heyhusen/archlinux-package-action@c9f94059ccbebe8710d31d582f33ef4e84fe575c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "Build and Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustfmt.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustfmt.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "actions-rust-lang/setup-rust-toolchain@150fca883cd4034361b621bd4e6a9d34e5143606",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustfmt.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "reviewdog/action-suggester@aa38384ceb608d00f84b4690cacc83a5aba307ff",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rustfmt.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "rustfmt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "actions-rust-lang/setup-rust-toolchain@150fca883cd4034361b621bd4e6a9d34e5143606",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "taiki-e/install-action@5939f3337e40968c39aa70f5ecb1417a92fb25a0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "clechasseur/rs-cargo@34806c2f3a52f2f236510fb17044cbcc62f04eba",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "egor-tensin/setup-mingw@41b837e47d7f85214629d255b9c4bc3fcbe9fd63",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "cross-platform-actions/action@492b0c80085400348c599edace11141a4ee73524",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updateversiondb.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updateversiondb.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "julia-actions/setup-julia@4c0cb0fce8556fdb04a90347310e5db8b1f98fb9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updateversiondb.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updateversiondb.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updateversiondb.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/updateversiondb.yml",
+      "source_repo": "JuliaLang/juliaup",
+      "target": "Update Version DB",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-07T00:37:24.413591+00:00",
+  "source_repo": "JuliaLang/juliaup"
+}

@@ -1,0 +1,241 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "KaiyangZhou/deep-person-reid",
+      "target": "kaiyangzhou/deep-person-reid.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "KaiyangZhou/deep-person-reid",
+      "target": "facebookresearch/pycls",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "KaiyangZhou/deep-person-reid",
+      "target": "kaiyangzhou/mixstyle-release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "KaiyangZhou/deep-person-reid",
+      "target": "kaiyangzhou/dassl.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/deep-person-reid",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/deep-person-reid",
+      "target": "cross-domain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/deep-person-reid",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/deep-person-reid",
+      "target": "deep-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/deep-person-reid",
+      "target": "image-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/deep-person-reid",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/deep-person-reid",
+      "target": "metric-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/deep-person-reid",
+      "target": "person-reid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/deep-person-reid",
+      "target": "person-reidentification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/deep-person-reid",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/deep-person-reid",
+      "target": "re-ranking",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T03:26:01.013513+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 17379
+    },
+    {
+      "path": "Dockerfile",
+      "size": 806
+    },
+    {
+      "path": "requirements.txt",
+      "size": 276
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Torchreid: Deep learning person re-identification in PyTorch.",
+    "fork": false,
+    "full_name": "KaiyangZhou/deep-person-reid",
+    "html_url": "https://github.com/KaiyangZhou/deep-person-reid",
+    "language": "Python",
+    "pushed_at": "2026-01-09T05:23:24Z",
+    "stargazers_count": 4819,
+    "topics": [
+      "computer-vision",
+      "cross-domain",
+      "deep-learning",
+      "deep-neural-networks",
+      "image-retrieval",
+      "machine-learning",
+      "metric-learning",
+      "person-reid",
+      "person-reidentification",
+      "pytorch",
+      "re-ranking"
+    ],
+    "updated_at": "2026-05-06T03:01:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/pycls",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaiyangzhou/dassl.pytorch",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaiyangzhou/deep-person-reid.",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaiyangzhou/mixstyle-release",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Torchreid",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "Torchreid",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-domain"
+    },
+    {
+      "context_snippet": "Torchreid",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Torchreid",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-neural-networks"
+    },
+    {
+      "context_snippet": "Torchreid",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-retrieval"
+    },
+    {
+      "context_snippet": "Torchreid",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Torchreid",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metric-learning"
+    },
+    {
+      "context_snippet": "Torchreid",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "person-reid"
+    },
+    {
+      "context_snippet": "Torchreid",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "person-reidentification"
+    },
+    {
+      "context_snippet": "Torchreid",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Torchreid",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "re-ranking"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bloom-release.yaml",
+      "source_repo": "ros2-rust/rosidl_rust",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bloom-release.yaml",
+      "source_repo": "ros2-rust/rosidl_rust",
+      "target": "esteve/release-ros-robot@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bloom-release.yaml",
+      "source_repo": "ros2-rust/rosidl_rust",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-07T00:37:24.413591+00:00",
+  "source_repo": "ros2-rust/rosidl_rust"
+}

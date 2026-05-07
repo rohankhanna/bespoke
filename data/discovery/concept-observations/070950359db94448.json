@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenSPG is a Knowledge Graph Engine developed by Ant Group in collaboration with OpenKG, based on the SPG (Semantic-enhanced Programmable Graph) framework.   Core Capabilities: 1) domain model constrained knowledge modeling, 2) facts and logic fused  representation, 3) natively support KAG..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[\u4e2d\u6587\u7248\u6587\u6863](./README_cn.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587\u7248\u6587\u6863](./README_cn.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "knowledge-reasoning",
+      "sense_id": "knowledge-reasoning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "knowledge-reasoning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "knowledge-reasoning",
+  "observation_id": "070950359db94448",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_text": "knowledge-reasoning",
+  "source_context_snippet": "[\u4e2d\u6587\u7248\u6587\u6863](./README_cn.md)",
+  "source_file": null,
+  "source_repo": "OpenSPG/openspg",
+  "source_repo_description": "OpenSPG is a Knowledge Graph Engine developed by Ant Group in collaboration with OpenKG, based on the SPG (Semantic-enhanced Programmable Graph) framework.   Core Capabilities: 1) domain model constrained knowledge modeling, 2) facts and logic fused  representation, 3) natively support KAG..."
+}

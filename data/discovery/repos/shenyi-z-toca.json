@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shenyi-Z/ToCa",
+      "target": "xuyang-liu16/awesome-token-reduction-for-model-compression",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shenyi-Z/ToCa",
+      "target": "evelynzhang-epiclab/sito",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T00:56:24.076013+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13146
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR2025] Accelerating Diffusion Transformers with Token-wise Feature Caching",
+    "fork": false,
+    "full_name": "Shenyi-Z/ToCa",
+    "html_url": "https://github.com/Shenyi-Z/ToCa",
+    "language": "Python",
+    "pushed_at": "2025-03-14T09:09:35Z",
+    "stargazers_count": 217,
+    "topics": [],
+    "updated_at": "2026-04-29T14:35:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "evelynzhang-epiclab/sito",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xuyang-liu16/awesome-token-reduction-for-model-compression",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

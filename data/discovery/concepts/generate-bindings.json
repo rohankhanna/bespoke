@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate bindings"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ros2-rust/ros2_rust",
+      "status": "candidate-context",
+      "text": "Rust bindings for ROS 2 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ros2-rust/ros2_rust",
+      "status": "candidate-context",
+      "text": "Generate bindings"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ros2-rust/ros2_rust",
+      "status": "candidate",
+      "text": "Generate bindings"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11314,
+      "status": "candidate",
+      "text": "wakeboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11146,
+      "status": "candidate",
+      "text": "ankle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11146,
+      "status": "candidate",
+      "text": "astringent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11146,
+      "status": "candidate",
+      "text": "attach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11146,
+      "status": "candidate",
+      "text": "baryon"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate bindings",
+  "concept_id": "generate-bindings",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/generate-bindings.yml",
+      "source_repo": "ros2-rust/ros2_rust"
+    }
+  ],
+  "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate bindings",
+      "sense_id": "generate-bindings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

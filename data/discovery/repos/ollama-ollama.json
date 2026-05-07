@@ -272,7 +272,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
-      "target": "dbkangaroo/kangaroo",
+      "target": "deepset-ai/haystack-integrations",
       "target_type": "repository"
     },
     {
@@ -549,7 +549,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-06T19:16:02.758578+00:00",
+  "fetched_at": "2026-05-07T03:22:39.729191+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -589,8 +589,8 @@
     "full_name": "ollama/ollama",
     "html_url": "https://github.com/ollama/ollama",
     "language": "Go",
-    "pushed_at": "2026-05-06T18:46:36Z",
-    "stargazers_count": 170848,
+    "pushed_at": "2026-05-07T03:01:52Z",
+    "stargazers_count": 170876,
     "topics": [
       "deepseek",
       "gemma",
@@ -608,7 +608,7 @@
       "ollama",
       "qwen"
     ],
-    "updated_at": "2026-05-06T18:44:34Z"
+    "updated_at": "2026-05-07T03:21:00Z"
   },
   "repo_links": [
     {
@@ -628,7 +628,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "dbkangaroo/kangaroo",
+      "full_name": "deepset-ai/haystack-integrations",
       "source_file": "README.md"
     }
   ],

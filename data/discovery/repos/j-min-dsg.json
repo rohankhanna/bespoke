@@ -1,0 +1,92 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "j-min/DSG",
+      "target": "yushi-hu/tifa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j-min/DSG",
+      "target": "text-to-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j-min/DSG",
+      "target": "text-to-image-evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j-min/DSG",
+      "target": "text-to-image-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T00:56:01.748443+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13352
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 626
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Davidsonian Scene Graph (DSG) for Text-to-Image Evaluation (ICLR 2024)",
+    "fork": false,
+    "full_name": "j-min/DSG",
+    "html_url": "https://github.com/j-min/DSG",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-12-09T19:06:35Z",
+    "stargazers_count": 107,
+    "topics": [
+      "dsg",
+      "llm",
+      "text-to-image",
+      "text-to-image-evaluation",
+      "text-to-image-generation",
+      "vqa"
+    ],
+    "updated_at": "2026-04-14T15:42:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yushi-hu/tifa",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-image"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-image-evaluation"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-image-generation"
+    }
+  ]
+}

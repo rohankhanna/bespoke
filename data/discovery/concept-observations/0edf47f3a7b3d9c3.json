@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Evmos is the canonical EVM chain on Cosmos. Evmos is the flagship implementation of evmOS, a stack to build forward compatible EVMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "AnteHandler Benchmark Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "AnteHandler Benchmark Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11855,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11843,
+      "status": "candidate",
+      "text": "scale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11807,
+      "status": "candidate",
+      "text": "criteria"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11795,
+      "status": "candidate",
+      "text": "litmus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10831,
+      "status": "candidate",
+      "text": "baseline"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AnteHandler Benchmark Tests",
+      "sense_id": "antehandler-benchmark-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "antehandler-benchmark-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "antehandler-benchmark-tests",
+  "observation_id": "0edf47f3a7b3d9c3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_text": "AnteHandler Benchmark Tests",
+  "source_context_snippet": "AnteHandler Benchmark Tests",
+  "source_file": ".github/workflows/ante-benchmark.yml",
+  "source_repo": "evmos/evmos",
+  "source_repo_description": "Evmos is the canonical EVM chain on Cosmos. Evmos is the flagship implementation of evmOS, a stack to build forward compatible EVMs"
+}

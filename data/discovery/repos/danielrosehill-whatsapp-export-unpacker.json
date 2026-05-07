@@ -1,0 +1,48 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/WhatsApp-Export-Unpacker",
+      "target": "whatsapp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T02:12:37.359635+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12211
+    },
+    {
+      "path": "requirements.txt",
+      "size": 48
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Utility for unpacking, organising, and transcribing a WhatsApp chat export",
+    "fork": false,
+    "full_name": "danielrosehill/WhatsApp-Export-Unpacker",
+    "html_url": "https://github.com/danielrosehill/WhatsApp-Export-Unpacker",
+    "language": "Python",
+    "pushed_at": "2026-01-27T23:25:12Z",
+    "stargazers_count": 6,
+    "topics": [
+      "whatsapp"
+    ],
+    "updated_at": "2026-04-13T03:39:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whatsapp"
+    }
+  ]
+}

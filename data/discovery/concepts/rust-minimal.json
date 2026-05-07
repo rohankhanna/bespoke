@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Rust Minimal"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ros2-rust/ros2_rust",
+      "status": "candidate-context",
+      "text": "Rust bindings for ROS 2 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ros2-rust/ros2_rust",
+      "status": "candidate-context",
+      "text": "Rust Minimal"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ros2-rust/ros2_rust",
+      "status": "candidate",
+      "text": "Rust Minimal"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10592,
+      "status": "candidate",
+      "text": "tin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10592,
+      "status": "candidate",
+      "text": "verdigris"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10509,
+      "status": "candidate",
+      "text": "blight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10509,
+      "status": "candidate",
+      "text": "brand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10509,
+      "status": "candidate",
+      "text": "corrosion"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Rust Minimal",
+  "concept_id": "rust-minimal",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/rust-minimal.yml",
+      "source_repo": "ros2-rust/ros2_rust"
+    }
+  ],
+  "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rust Minimal",
+      "sense_id": "rust-minimal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

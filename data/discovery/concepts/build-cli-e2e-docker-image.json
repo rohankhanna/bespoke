@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build CLI E2E Docker Image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/aspire",
+      "status": "candidate-context",
+      "text": "Aspire is the tool for code-first, extensible, observable dev and deploy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/aspire",
+      "status": "candidate-context",
+      "text": "Build CLI E2E Docker Image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/aspire",
+      "status": "candidate",
+      "text": "Build CLI E2E Docker Image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22100,
+      "status": "candidate",
+      "text": "ark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17485,
+      "status": "candidate",
+      "text": "loader"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17485,
+      "status": "candidate",
+      "text": "summer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17485,
+      "status": "candidate",
+      "text": "summers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16085,
+      "status": "candidate",
+      "text": "lumper"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build CLI E2E Docker Image",
+  "concept_id": "build-cli-e2e-docker-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/build-cli-e2e-image.yml",
+      "source_repo": "microsoft/aspire"
+    }
+  ],
+  "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build CLI E2E Docker Image",
+      "sense_id": "build-cli-e2e-docker-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

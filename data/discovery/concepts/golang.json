@@ -5087,6 +5087,54 @@
       "source_repo": "gookit/cache",
       "status": "candidate-context",
       "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/cache?style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evmos/evmos",
+      "status": "candidate-context",
+      "text": "Evmos is the canonical EVM chain on Cosmos. Evmos is the flagship implementation of evmOS, a stack to build forward compatible EVMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evmos/evmos",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "linxGnu/grocksdb",
+      "status": "candidate-context",
+      "text": "RocksDB wrapper for Go. Support 10.x, 9.x, 8.x, 7.x, 6.x, etc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linxGnu/grocksdb",
+      "status": "candidate-context",
+      "text": "[![](https://github.com/linxGnu/grocksdb/workflows/CI/badge.svg)]()"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mattn/go-runewidth",
+      "status": "candidate-context",
+      "text": "wcwidth for golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/go-runewidth",
+      "status": "candidate-context",
+      "text": "go-runewidth"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bluele/gcache",
+      "status": "candidate-context",
+      "text": "An in-memory cache library for golang. It supports multiple eviction policies: LRU, LFU, ARC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluele/gcache",
+      "status": "candidate-context",
+      "text": "![Test](https://github.com/bluele/gcache/workflows/Test/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -7639,6 +7687,30 @@
       "source_repo": "gookit/cache",
       "status": "candidate",
       "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/cache?style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evmos/evmos",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linxGnu/grocksdb",
+      "status": "candidate",
+      "text": "[![](https://github.com/linxGnu/grocksdb/workflows/CI/badge.svg)]()"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/go-runewidth",
+      "status": "candidate",
+      "text": "go-runewidth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluele/gcache",
+      "status": "candidate",
+      "text": "![Test](https://github.com/bluele/gcache/workflows/Test/badge.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -11522,11 +11594,107 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": null,
       "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "evmos/evmos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "linxGnu/grocksdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "rainbend/frp-notify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "nutsdb/nutsdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "trknhr/2048-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "mattn/go-runewidth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "bluele/gcache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "stephenlacy/daz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "DBCSR: Distributed Block Compressed Sparse Row matrix library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status Linux](https://github.com/cp2k/dbcsr/actions/workflows/testing-linux.yml/badge.svg)](https://github.com/cp2k/dbcsr/actions/workflows/testing-linux.yml) [![Build Status MacOS](https://github.com/cp2k/dbcsr/actions/workflows/testing-macos.yml/badge.svg)](https://gi\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status Linux](https://github.com/cp2k/dbcsr/actions/workflows/testing-linux.yml/badge.svg)](https://github.com/cp2k/dbcsr/actions/workflows/testing-linux.yml) [![Build Status MacOS](https://github.com/cp2k/dbcsr/actions/workflows/testing-macos.yml/badge.svg)](https://gi\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 3,
+      "status": "candidate",
+      "text": "adorned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 3,
+      "status": "candidate",
+      "text": "beaded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 3,
+      "status": "candidate",
+      "text": "beady"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 3,
+      "status": "candidate",
+      "text": "bejeweled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 3,
+      "status": "candidate",
+      "text": "bejewelled"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gemm",
+      "sense_id": "gemm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gemm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gemm",
+  "observation_id": "4fd353a196ab2a5a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_text": "gemm",
+  "source_context_snippet": "[![Build Status Linux](https://github.com/cp2k/dbcsr/actions/workflows/testing-linux.yml/badge.svg)](https://github.com/cp2k/dbcsr/actions/workflows/testing-linux.yml) [![Build Status MacOS](https://github.com/cp2k/dbcsr/actions/workflows/testing-macos.yml/badge.svg)](https://gi\u2026",
+  "source_file": null,
+  "source_repo": "cp2k/dbcsr",
+  "source_repo_description": "DBCSR: Distributed Block Compressed Sparse Row matrix library"
+}

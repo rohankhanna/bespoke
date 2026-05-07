@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T01:57:51.523783+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4802
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "the ninja of .net dependency injectors",
+    "fork": false,
+    "full_name": "ninject/Ninject",
+    "html_url": "https://github.com/ninject/Ninject",
+    "language": "C#",
+    "pushed_at": "2024-06-14T01:19:58Z",
+    "stargazers_count": 2678,
+    "topics": [],
+    "updated_at": "2026-04-20T13:16:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

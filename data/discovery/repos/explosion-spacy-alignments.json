@@ -1,0 +1,210 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@9fcee9dd00ea649310eaae4735325d2b417226ae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "read",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "robinraju/release-downloader@daf26c55d821e836577a15f77d86ddc078948b05",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "explosion/spacy-alignments",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "explosion/spacy-alignments",
+      "target": "pypa/cibuildwheel@9fcee9dd00ea649310eaae4735325d2b417226ae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "explosion/spacy-alignments",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "explosion/spacy-alignments",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "explosion/spacy-alignments",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "explosion/spacy-alignments",
+      "target": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "explosion/spacy-alignments",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "source_repo": "explosion/spacy-alignments",
+      "target": "robinraju/release-downloader@daf26c55d821e836577a15f77d86ddc078948b05",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "source_repo": "explosion/spacy-alignments",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "explosion/spacy-alignments",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "explosion/spacy-alignments",
+      "target": "actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "explosion/spacy-alignments",
+      "target": "tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T03:27:38.899861+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1406
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 288
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1379
+    },
+    {
+      "path": "requirements.txt",
+      "size": 92
+    },
+    {
+      "path": ".github/workflows/cibuildwheel.yml",
+      "size": 3319
+    },
+    {
+      "path": ".github/workflows/publish_pypi.yml",
+      "size": 1041
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1934
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udcab A spaCy package for Yohei Tamura's Rust tokenizations library ",
+    "fork": false,
+    "full_name": "explosion/spacy-alignments",
+    "html_url": "https://github.com/explosion/spacy-alignments",
+    "language": "Python",
+    "pushed_at": "2026-03-27T08:49:51Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2026-03-27T08:49:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "tests"
+    }
+  ]
+}

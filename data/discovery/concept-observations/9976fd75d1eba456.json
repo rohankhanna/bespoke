@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Arch Linux packaging for ungoogled-chromium"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Arch Linux packaging for [ungoogled-chromium](//github.com/ungoogled-software/ungoogled-chromium)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Arch Linux packaging for [ungoogled-chromium](//github.com/ungoogled-software/ungoogled-chromium)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pkgbuild",
+      "sense_id": "pkgbuild#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pkgbuild",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pkgbuild",
+  "observation_id": "9976fd75d1eba456",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_text": "pkgbuild",
+  "source_context_snippet": "Arch Linux packaging for [ungoogled-chromium](//github.com/ungoogled-software/ungoogled-chromium).",
+  "source_file": null,
+  "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
+  "source_repo_description": "Arch Linux packaging for ungoogled-chromium"
+}

@@ -1,0 +1,12 @@
+{
+  "component": "softprops/action-gh-release@cd28b0f5ee8571b76cfdaa62a30d51d752317477",
+  "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium-archlinux"
+    }
+  ]
+}

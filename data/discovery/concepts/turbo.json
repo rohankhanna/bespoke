@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "turbo"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maybe-finance/maybe",
+      "status": "candidate-context",
+      "text": "The personal finance app for everyone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maybe-finance/maybe",
+      "status": "candidate-context",
+      "text": "<img width=\"1190\" alt=\"maybe_hero\" src=\"https://github.com/user-attachments/assets/5ed08763-a9ee-42b2-a436-e05038fcf573\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maybe-finance/maybe",
+      "status": "candidate",
+      "text": "<img width=\"1190\" alt=\"maybe_hero\" src=\"https://github.com/user-attachments/assets/5ed08763-a9ee-42b2-a436-e05038fcf573\" />"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047005,
+      "status": "candidate",
+      "text": "supercharger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025848,
+      "status": "candidate",
+      "text": "alternator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016846,
+      "status": "candidate",
+      "text": "gear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19993545,
+      "status": "candidate",
+      "text": "heat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19978102,
+      "status": "candidate",
+      "text": "boost"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "turbo",
+  "concept_id": "turbo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "maybe-finance/maybe"
+    }
+  ],
+  "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "turbo",
+      "sense_id": "turbo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

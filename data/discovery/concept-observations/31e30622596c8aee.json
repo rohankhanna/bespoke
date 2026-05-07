@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Modular autonomous driving platform running on the CARLA simulator and real-world vehicles."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28551483,
+      "status": "candidate",
+      "text": "carli"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28551481,
+      "status": "candidate",
+      "text": "carly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28551467,
+      "status": "candidate",
+      "text": "karla"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28550869,
+      "status": "candidate",
+      "text": "valerie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28544713,
+      "status": "candidate",
+      "text": "karl"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "carla",
+      "sense_id": "carla#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "carla",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "carla",
+  "observation_id": "31e30622596c8aee",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_text": "carla",
+  "source_context_snippet": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)",
+  "source_file": null,
+  "source_repo": "erdos-project/pylot",
+  "source_repo_description": "Modular autonomous driving platform running on the CARLA simulator and real-world vehicles."
+}

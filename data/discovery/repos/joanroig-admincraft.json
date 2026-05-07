@@ -1,0 +1,325 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-app.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-app.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-app.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-app.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-app.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-app.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-app.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-app.yml"
+    },
+    {
+      "component": "geekyeggo/delete-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-app.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-version-and-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joanroig/admincraft",
+      "target": "joanroig/admincraft-websocket",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joanroig/admincraft",
+      "target": "kaiede/bedrockifier",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joanroig/admincraft",
+      "target": "idreesinc/miracode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joanroig/admincraft",
+      "target": "idreesinc/monocraft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-app.yml",
+      "source_repo": "joanroig/admincraft",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-app.yml",
+      "source_repo": "joanroig/admincraft",
+      "target": "subosito/flutter-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-app.yml",
+      "source_repo": "joanroig/admincraft",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-app.yml",
+      "source_repo": "joanroig/admincraft",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-app.yml",
+      "source_repo": "joanroig/admincraft",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release-app.yml",
+      "source_repo": "joanroig/admincraft",
+      "target": "geekyeggo/delete-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-release-app.yml",
+      "source_repo": "joanroig/admincraft",
+      "target": "Build and Release App",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-version-and-release.yml",
+      "source_repo": "joanroig/admincraft",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-version-and-release.yml",
+      "source_repo": "joanroig/admincraft",
+      "target": "Bump Version & Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joanroig/admincraft",
+      "target": "admincraft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joanroig/admincraft",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joanroig/admincraft",
+      "target": "flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joanroig/admincraft",
+      "target": "minecraft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joanroig/admincraft",
+      "target": "minecraft-bedrock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joanroig/admincraft",
+      "target": "minecraft-docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joanroig/admincraft",
+      "target": "minecraft-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joanroig/admincraft",
+      "target": "minecraft-server-management",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T02:49:14.936605+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7648
+    },
+    {
+      "path": ".github/workflows/build-and-release-app.yml",
+      "size": 4336
+    },
+    {
+      "path": ".github/workflows/bump-version-and-release.yml",
+      "size": 1625
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udcf1 Multiplatform app to control Minecraft Bedrock Dockerized servers, built with Flutter.",
+    "fork": false,
+    "full_name": "joanroig/admincraft",
+    "html_url": "https://github.com/joanroig/admincraft",
+    "language": "Dart",
+    "pushed_at": "2026-02-08T10:29:40Z",
+    "stargazers_count": 15,
+    "topics": [
+      "admincraft",
+      "docker",
+      "flutter",
+      "minecraft",
+      "minecraft-bedrock",
+      "minecraft-docker",
+      "minecraft-server",
+      "minecraft-server-management"
+    ],
+    "updated_at": "2026-02-08T10:29:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idreesinc/miracode",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idreesinc/monocraft",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joanroig/admincraft-websocket",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaiede/bedrockifier",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Release App",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-release-app.yml",
+      "term": "Build and Release App"
+    },
+    {
+      "context_snippet": "Bump Version & Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-version-and-release.yml",
+      "term": "Bump Version & Release"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "admincraft"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minecraft"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minecraft-bedrock"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minecraft-docker"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minecraft-server"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minecraft-server-management"
+    }
+  ]
+}

@@ -81,6 +81,18 @@
       "source_repo": "artichoke/spec",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/ruby/spec.svg)](https://travis-ci.org/ruby/spec)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "data-apis/array-api",
+      "status": "candidate-context",
+      "text": "RFC document, tooling and other content related to the array API standard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "data-apis/array-api",
+      "status": "candidate-context",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
     }
   ],
   "candidate_glosses": [
@@ -119,6 +131,12 @@
       "source_repo": "artichoke/spec",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/ruby/spec.svg)](https://travis-ci.org/ruby/spec)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "data-apis/array-api",
+      "status": "candidate",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
     }
   ],
   "candidate_related_terms": [
@@ -204,11 +222,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "artichoke/spec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "data-apis/array-api"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

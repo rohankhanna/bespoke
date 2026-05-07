@@ -180,7 +180,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-06T07:18:14.285728+00:00",
+  "fetched_at": "2026-05-07T01:05:17.831038+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -212,11 +212,11 @@
     },
     {
       "path": ".github/workflows/bazel_cuda_b200_mosaic_presubmit.yml",
-      "size": 6211
+      "size": 6215
     },
     {
       "path": ".github/workflows/bazel_cuda_h100_b200.yml",
-      "size": 6036
+      "size": 6030
     },
     {
       "path": ".github/workflows/bazel_cuda_presubmit.yml",
@@ -232,12 +232,12 @@
     "full_name": "jax-ml/jax",
     "html_url": "https://github.com/jax-ml/jax",
     "language": "Python",
-    "pushed_at": "2026-05-06T06:57:41Z",
-    "stargazers_count": 35556,
+    "pushed_at": "2026-05-07T00:58:59Z",
+    "stargazers_count": 35561,
     "topics": [
       "jax"
     ],
-    "updated_at": "2026-05-06T07:03:00Z"
+    "updated_at": "2026-05-07T00:59:01Z"
   },
   "repo_links": [],
   "terms": [

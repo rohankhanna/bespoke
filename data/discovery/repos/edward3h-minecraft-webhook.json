@@ -1,0 +1,231 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-ci.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-ci.yml"
+    },
+    {
+      "component": "EnricoMi/publish-unit-test-result-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "docker/login-action@3227f5311cb93ffd14d13e65d8cc400d30f4dd8a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_mr.yml"
+    },
+    {
+      "component": "docker/login-action@3227f5311cb93ffd14d13e65d8cc400d30f4dd8a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_mr.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_mr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "edward3h/minecraft-webhook",
+      "target": "edward3h/docker-bds-integration-test",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-ci.yml",
+      "source_repo": "edward3h/minecraft-webhook",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-ci.yml",
+      "source_repo": "edward3h/minecraft-webhook",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-ci.yml",
+      "source_repo": "edward3h/minecraft-webhook",
+      "target": "EnricoMi/publish-unit-test-result-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-ci.yml",
+      "source_repo": "edward3h/minecraft-webhook",
+      "target": "Java CI with Gradle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "edward3h/minecraft-webhook",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "edward3h/minecraft-webhook",
+      "target": "docker/login-action@3227f5311cb93ffd14d13e65d8cc400d30f4dd8a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "edward3h/minecraft-webhook",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "edward3h/minecraft-webhook",
+      "target": "Publish Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_mr.yml",
+      "source_repo": "edward3h/minecraft-webhook",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_mr.yml",
+      "source_repo": "edward3h/minecraft-webhook",
+      "target": "docker/login-action@3227f5311cb93ffd14d13e65d8cc400d30f4dd8a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_mr.yml",
+      "source_repo": "edward3h/minecraft-webhook",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_mr.yml",
+      "source_repo": "edward3h/minecraft-webhook",
+      "target": "Publish Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "edward3h/minecraft-webhook",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "edward3h/minecraft-webhook",
+      "target": "minecraft",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T02:49:10.904555+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4362
+    },
+    {
+      "path": ".github/workflows/gradle-ci.yml",
+      "size": 863
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 937
+    },
+    {
+      "path": ".github/workflows/publish_mr.yml",
+      "size": 973
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "edward3h/minecraft-webhook",
+    "html_url": "https://github.com/edward3h/minecraft-webhook",
+    "language": "Java",
+    "pushed_at": "2026-04-29T01:30:42Z",
+    "stargazers_count": 24,
+    "topics": [
+      "docker",
+      "minecraft"
+    ],
+    "updated_at": "2026-02-23T23:06:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edward3h/docker-bds-integration-test",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Java CI with Gradle",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-ci.yml",
+      "term": "Java CI with Gradle"
+    },
+    {
+      "context_snippet": "Publish Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish Docker image"
+    },
+    {
+      "context_snippet": "Publish Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_mr.yml",
+      "term": "Publish Docker image"
+    },
+    {
+      "context_snippet": "This service runs against a docker host.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "This service runs against a docker host.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minecraft"
+    }
+  ]
+}

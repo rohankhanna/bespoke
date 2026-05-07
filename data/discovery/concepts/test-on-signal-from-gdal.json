@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test on signal from GDAL"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rasterio/rasterio",
+      "status": "candidate-context",
+      "text": "Rasterio reads and writes geospatial raster datasets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rasterio/rasterio",
+      "status": "candidate-context",
+      "text": "Test on signal from GDAL"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rasterio/rasterio",
+      "status": "candidate",
+      "text": "Test on signal from GDAL"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25944,
+      "status": "candidate",
+      "text": "synthesizer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22634,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22634,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22592,
+      "status": "candidate",
+      "text": "candle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22592,
+      "status": "candidate",
+      "text": "check"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test on signal from GDAL",
+  "concept_id": "test-on-signal-from-gdal",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/test_gdal_dispatch.yaml",
+      "source_repo": "rasterio/rasterio"
+    }
+  ],
+  "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test on signal from GDAL",
+      "sense_id": "test-on-signal-from-gdal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

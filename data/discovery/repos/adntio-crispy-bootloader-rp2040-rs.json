@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -11,32 +11,17 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "astral-sh/setup-uv@v3",
+      "component": "astral-sh/setup-uv@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/setup-node@v4",
+      "component": "actions/setup-node@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    },
-    {
-      "component": "dtolnay/rust-toolchain@stable",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    },
-    {
-      "component": "astral-sh/setup-uv@v3",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -46,17 +31,57 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "astral-sh/setup-uv@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/download-artifact@v4",
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -64,6 +89,81 @@
       "component": "softprops/action-gh-release@v2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml"
+    },
+    {
+      "component": "actions/dependency-review-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml"
     }
   ],
   "edges": [
@@ -78,7 +178,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v5",
       "target_type": "component"
     },
     {
@@ -92,28 +192,35 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
-      "target": "astral-sh/setup-uv@v3",
+      "target": "astral-sh/setup-uv@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
-      "target": "actions/setup-node@v4",
+      "target": "actions/setup-node@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
-      "target": "actions/upload-artifact@v4",
+      "target": "actions/upload-artifact@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
-      "target": "actions/download-artifact@v4",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
+      "target": "actions/download-artifact@v5",
       "target_type": "component"
     },
     {
@@ -122,9 +229,79 @@
       "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
       "target": "softprops/action-gh-release@v2",
       "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml",
+      "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml",
+      "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
+      "target": "actions/dependency-review-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml",
+      "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml",
+      "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml",
+      "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml",
+      "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml",
+      "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
+      "target": "actions/download-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml",
+      "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
+      "target": "github/codeql-action/upload-sarif@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml",
+      "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security-scan.yml",
+      "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
+      "target": "Security Scan",
+      "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-06T07:19:19.731864+00:00",
+  "fetched_at": "2026-05-07T01:06:52.986362+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -136,7 +313,11 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 4219
+      "size": 5220
+    },
+    {
+      "path": ".github/workflows/security-scan.yml",
+      "size": 8570
     }
   ],
   "related_repositories": [],
@@ -148,10 +329,10 @@
     "full_name": "ADNTIO/crispy-bootloader-rp2040-rs",
     "html_url": "https://github.com/ADNTIO/crispy-bootloader-rp2040-rs",
     "language": "Rust",
-    "pushed_at": "2026-05-05T16:22:45Z",
+    "pushed_at": "2026-05-06T21:28:26Z",
     "stargazers_count": 9,
     "topics": [],
-    "updated_at": "2026-05-04T11:52:57Z"
+    "updated_at": "2026-05-06T21:27:01Z"
   },
   "repo_links": [
     {
@@ -160,5 +341,12 @@
       "source_file": "Cargo.toml"
     }
   ],
-  "terms": []
+  "terms": [
+    {
+      "context_snippet": "Security Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security-scan.yml",
+      "term": "Security Scan"
+    }
+  ]
 }

@@ -1,0 +1,216 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "ros2-rust/examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "ros2-rust/rosidl_rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "ros2/common_interfaces",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "ros2/example_interfaces",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-bindings.yml",
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-bindings.yml",
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "ros-tooling/setup-ros@v0.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-bindings.yml",
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "dtolnay/rust-toolchain@1.85",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-bindings.yml",
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "Generate bindings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "actions/create-github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "release-plz/action@v0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "Release-plz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-minimal.yml",
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-minimal.yml",
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "ros-tooling/setup-ros@v0.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-minimal.yml",
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "dtolnay/rust-toolchain@1.85",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-minimal.yml",
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "ros-tooling/action-ros-ci@v0.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust-minimal.yml",
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "Rust Minimal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-stable.yml",
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-stable.yml",
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "ros-tooling/setup-ros@v0.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-stable.yml",
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-stable.yml",
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "ros-tooling/action-ros-ci@v0.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust-stable.yml",
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "Rust Stable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-win.yml",
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-win.yml",
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "ilammy/msvc-dev-cmd@v1.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-win.yml",
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "prefix-dev/setup-pixi@v0.8.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust-win.yml",
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "Rust Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "ros2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ros2-rust/ros2_rust",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-07T00:37:24.413591+00:00",
+  "source_repo": "ros2-rust/ros2_rust"
+}

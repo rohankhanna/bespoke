@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jmhodges/levigo",
+      "target": "jmhodges/levigo_leveldb_1.4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "jmhodges/levigo",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "jmhodges/levigo",
+      "target": "actions/setup-go@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-07T01:56:30.397765+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2428
+    },
+    {
+      "path": "go.mod",
+      "size": 43
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 613
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "levigo is a Go wrapper for LevelDB",
+    "fork": false,
+    "full_name": "jmhodges/levigo",
+    "html_url": "https://github.com/jmhodges/levigo",
+    "language": "Go",
+    "pushed_at": "2022-03-07T12:05:55Z",
+    "stargazers_count": 420,
+    "topics": [],
+    "updated_at": "2026-04-21T08:39:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jmhodges/levigo_leveldb_1.4",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "TLA+ tools for Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "TLA+ tools for Emacs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "TLA+ tools for Emacs"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "emacs-mode",
+      "sense_id": "emacs-mode#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "emacs-mode",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "emacs-mode",
+  "observation_id": "65f2ca2d7d72d49a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_text": "emacs-mode",
+  "source_context_snippet": "TLA+ tools for Emacs",
+  "source_file": null,
+  "source_repo": "mrc/tla-tools",
+  "source_repo_description": "TLA+ tools for Emacs"
+}

@@ -1,0 +1,74 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Oref-GPT",
+      "target": "n8n-workflows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Oref-GPT",
+      "target": "pikud-haoref",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Oref-GPT",
+      "target": "red-alert",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T02:12:43.362762+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6702
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "N8N automation that uses TwitterAPI.io to rertieve real-time social media data about the source of rocket alerts in Israel",
+    "fork": false,
+    "full_name": "danielrosehill/Oref-GPT",
+    "html_url": "https://github.com/danielrosehill/Oref-GPT",
+    "language": "HTML",
+    "pushed_at": "2025-05-22T16:00:38Z",
+    "stargazers_count": 0,
+    "topics": [
+      "ai-agents",
+      "n8n",
+      "n8n-workflows",
+      "pikud-haoref",
+      "red-alert"
+    ],
+    "updated_at": "2025-05-22T16:01:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![alt text](screenshots/red-alerts.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "n8n-workflows"
+    },
+    {
+      "context_snippet": "![alt text](screenshots/red-alerts.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pikud-haoref"
+    },
+    {
+      "context_snippet": "![alt text](screenshots/red-alerts.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "red-alert"
+    }
+  ]
+}

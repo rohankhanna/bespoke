@@ -103,6 +103,18 @@
       "source_repo": "filerjs/filer",
       "status": "candidate-context",
       "text": "[![NPM](https://nodei.co/npm/filer.png?downloads=true&stars=true)](https://nodei.co/npm/filer/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mirage/conan",
+      "status": "candidate-context",
+      "text": "Like detective conan, find clue about the type of the file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mirage/conan",
+      "status": "candidate-context",
+      "text": "`conan` is a re-implementation of the famous command `file`:"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "filerjs/filer",
       "status": "candidate",
       "text": "[![NPM](https://nodei.co/npm/filer.png?downloads=true&stars=true)](https://nodei.co/npm/filer/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mirage/conan",
+      "status": "candidate",
+      "text": "`conan` is a re-implementation of the famous command `file`:"
     }
   ],
   "candidate_related_terms": [
@@ -280,11 +298,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "filerjs/filer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "mirage/conan"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

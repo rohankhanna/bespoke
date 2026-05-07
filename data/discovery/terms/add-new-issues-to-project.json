@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -56,6 +56,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/project.yml",
       "source_repo": "rrousselGit/provider"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/add-issue-to-project.yml",
+      "source_repo": "osmosis-labs/osmosis"
     }
   ],
   "term": "Add new issues to project"

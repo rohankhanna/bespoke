@@ -43,6 +43,18 @@
       "source_repo": "aperezdc/lua-wcwidth",
       "status": "candidate-context",
       "text": "lua-wcwidth"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mattn/go-runewidth",
+      "status": "candidate-context",
+      "text": "wcwidth for golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/go-runewidth",
+      "status": "candidate-context",
+      "text": "go-runewidth"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "aperezdc/lua-wcwidth",
       "status": "candidate",
       "text": "lua-wcwidth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/go-runewidth",
+      "status": "candidate",
+      "text": "go-runewidth"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "aperezdc/lua-wcwidth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "mattn/go-runewidth"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -692,7 +692,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T18:40:57.545165+00:00",
+  "fetched_at": "2026-05-07T00:44:59.782279+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -700,7 +700,7 @@
     },
     {
       "path": "package.json",
-      "size": 3495
+      "size": 3634
     },
     {
       "path": ".github/workflows/ci.yaml",
@@ -716,7 +716,7 @@
     },
     {
       "path": ".github/workflows/update-apis.yaml",
-      "size": 962
+      "size": 953
     }
   ],
   "related_repositories": [],
@@ -728,8 +728,8 @@
     "full_name": "googleapis/google-api-nodejs-client",
     "html_url": "https://github.com/googleapis/google-api-nodejs-client",
     "language": "TypeScript",
-    "pushed_at": "2026-05-05T17:54:55Z",
-    "stargazers_count": 12141,
+    "pushed_at": "2026-05-06T19:12:00Z",
+    "stargazers_count": 12142,
     "topics": [
       "client",
       "client-library",
@@ -737,7 +737,7 @@
       "google-api",
       "nodejs"
     ],
-    "updated_at": "2026-05-05T12:24:49Z"
+    "updated_at": "2026-05-06T19:12:11Z"
   },
   "repo_links": [
     {

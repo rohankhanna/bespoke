@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haixuanTao/IMFNet",
+      "target": "stanfordvl/minkowskiengine",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T00:41:49.661299+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5348
+    },
+    {
+      "path": "requirements.txt",
+      "size": 243
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "IMFNet: Interpretable Multimodal Fusion for Point Cloud Registration",
+    "fork": true,
+    "full_name": "haixuanTao/IMFNet",
+    "html_url": "https://github.com/haixuanTao/IMFNet",
+    "language": "Python",
+    "pushed_at": "2022-09-19T16:55:26Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-09-07T16:12:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stanfordvl/minkowskiengine",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

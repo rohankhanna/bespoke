@@ -193,6 +193,18 @@
       "source_repo": "LibreTranslate/LibreTranslate",
       "status": "candidate-context",
       "text": "Issue Triage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kornia/kornia-rs",
+      "status": "candidate-context",
+      "text": "\ud83e\udd80 Low-level 3D Computer Vision library in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kornia/kornia-rs",
+      "status": "candidate-context",
+      "text": "Issue Triage"
     }
   ],
   "candidate_glosses": [
@@ -289,6 +301,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "LibreTranslate/LibreTranslate",
+      "status": "candidate",
+      "text": "Issue Triage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kornia/kornia-rs",
       "status": "candidate",
       "text": "Issue Triage"
     }
@@ -574,11 +592,23 @@
       "observed_at": "2026-05-06T12:51:12.481137+00:00",
       "source_file": ".github/workflows/claude-issue-triage.yml",
       "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "kornia/kornia-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "aden-hive/hive"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

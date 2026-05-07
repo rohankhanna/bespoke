@@ -1,27 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "tc39/eshost",
-      "target": "microsoft/chakracore",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "tc39/eshost",
-      "target": "bterlson/eshost",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "package.json",
-      "source_repo": "tc39/eshost",
-      "target": "bterlson/eshost",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "tc39/eshost",
@@ -67,7 +46,28 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "tc39/eshost",
+      "target": "stackframe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/eshost",
       "target": "unique-temp-dir",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/eshost",
+      "target": "@eslint/eslintrc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/eshost",
+      "target": "@eslint/js",
       "target_type": "component"
     },
     {
@@ -95,6 +95,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "tc39/eshost",
+      "target": "globals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/eshost",
       "target": "hasbin",
       "target_type": "component"
     },
@@ -102,21 +109,7 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "tc39/eshost",
-      "target": "jasmine",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "tc39/eshost",
       "target": "jest",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "tc39/eshost",
-      "target": "mocha",
       "target_type": "component"
     },
     {
@@ -139,8 +132,22 @@
       "source_repo": "tc39/eshost",
       "target": "test262-stream",
       "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tc39/eshost",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tc39/eshost",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
     }
   ],
-  "generated_at": "2026-05-06T12:51:12.481137+00:00",
+  "generated_at": "2026-05-07T00:37:24.413591+00:00",
   "source_repo": "tc39/eshost"
 }

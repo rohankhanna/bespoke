@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hip_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hip_ci.yml",
+      "source_repo": "CHIP-SPV/H4I-MKLShim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hip_ci.yml",
+      "source_repo": "CHIP-SPV/H4I-MKLShim",
+      "target": "H4I-MKLShim CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install.yml",
+      "source_repo": "CHIP-SPV/H4I-MKLShim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install.yml",
+      "source_repo": "CHIP-SPV/H4I-MKLShim",
+      "target": "H4I-MKLShim Install",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "CHIP-SPV/H4I-MKLShim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "CHIP-SPV/H4I-MKLShim",
+      "target": "Presubmit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T01:58:08.686731+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1415
+    },
+    {
+      "path": ".github/workflows/hip_ci.yml",
+      "size": 1513
+    },
+    {
+      "path": ".github/workflows/install.yml",
+      "size": 1287
+    },
+    {
+      "path": ".github/workflows/presubmit.yml",
+      "size": 1232
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "CHIP-SPV/H4I-MKLShim",
+    "html_url": "https://github.com/CHIP-SPV/H4I-MKLShim",
+    "language": "C++",
+    "pushed_at": "2026-04-21T09:14:19Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-21T09:14:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "H4I-MKLShim CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hip_ci.yml",
+      "term": "H4I-MKLShim CI"
+    },
+    {
+      "context_snippet": "H4I-MKLShim Install",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install.yml",
+      "term": "H4I-MKLShim Install"
+    },
+    {
+      "context_snippet": "Presubmit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit.yml",
+      "term": "Presubmit"
+    }
+  ]
+}

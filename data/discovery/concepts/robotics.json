@@ -1351,6 +1351,54 @@
       "source_repo": "qcr/qcr.github.io",
       "status": "candidate-context",
       "text": "[![QUT Centre for Robotics Open Source](https://github.com/qcr/qcr.github.io/raw/master/misc/badge.svg)](https://qcr.github.io)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "petercorke/bdsim",
+      "status": "candidate-context",
+      "text": "Simulate dynamic systems expressed in block diagram form using Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/bdsim",
+      "status": "candidate-context",
+      "text": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ros2-rust/ros2_rust",
+      "status": "candidate-context",
+      "text": "Rust bindings for ROS 2 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ros2-rust/ros2_rust",
+      "status": "candidate-context",
+      "text": "ROS 2 for Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kornia/kornia-rs",
+      "status": "candidate-context",
+      "text": "\ud83e\udd80 Low-level 3D Computer Vision library in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kornia/kornia-rs",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rerun-io/rerun",
+      "status": "candidate-context",
+      "text": "An open source SDK for logging, storing, querying, and visualizing multimodal and multi-rate data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rerun-io/rerun",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -2025,6 +2073,30 @@
       "source_repo": "qcr/qcr.github.io",
       "status": "candidate",
       "text": "[![QUT Centre for Robotics Open Source](https://github.com/qcr/qcr.github.io/raw/master/misc/badge.svg)](https://qcr.github.io)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/bdsim",
+      "status": "candidate",
+      "text": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ros2-rust/ros2_rust",
+      "status": "candidate",
+      "text": "ROS 2 for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kornia/kornia-rs",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rerun-io/rerun",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -3340,11 +3412,89 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": null,
       "source_repo": "taichi-dev/difftaichi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "petercorke/bdsim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "ros2-rust/ros2_rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "kornia/kornia-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "keenan-burnett/yeti_radar_odometry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "lukashermann/hulc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "robotology-legacy/gym-ignition"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/idyntree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "robotology/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "taichi-dev/difftaichi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "rerun-io/rerun"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

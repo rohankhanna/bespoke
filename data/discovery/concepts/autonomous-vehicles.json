@@ -199,6 +199,18 @@
       "source_repo": "usdot-fhwa-stol/carma-platform",
       "status": "candidate-context",
       "text": "| DockerHub Image Build | Unit Tests Workflow | Sonar Code Quality |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erdos-project/pylot",
+      "status": "candidate-context",
+      "text": "Modular autonomous driving platform running on the CARLA simulator and real-world vehicles."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erdos-project/pylot",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)"
     }
   ],
   "candidate_glosses": [
@@ -303,6 +315,12 @@
       "source_repo": "usdot-fhwa-stol/carma-platform",
       "status": "candidate",
       "text": "| DockerHub Image Build | Unit Tests Workflow | Sonar Code Quality |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erdos-project/pylot",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)"
     }
   ],
   "candidate_related_terms": [],
@@ -448,11 +466,23 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": null,
       "source_repo": "keenan-burnett/yeti_radar_odometry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "keenan-burnett/yeti_radar_odometry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "erdos-project/pylot"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

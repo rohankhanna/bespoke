@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haixuanTao/yolov5_strongsort_package",
+      "target": "mikel-brostrom/yolov5_strongsort_osnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "haixuanTao/yolov5_strongsort_package",
+      "target": "kaiyangzhou/deep-person-reid",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T00:41:51.885254+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1352
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1479
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "haixuanTao/yolov5_strongsort_package",
+    "html_url": "https://github.com/haixuanTao/yolov5_strongsort_package",
+    "language": "Python",
+    "pushed_at": "2022-08-30T08:41:55Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2023-01-10T03:11:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikel-brostrom/yolov5_strongsort_osnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaiyangzhou/deep-person-reid",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

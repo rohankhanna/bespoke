@@ -78,27 +78,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cosmos/iavl",
-      "target": "tendermint/tm-db",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cosmos/iavl",
-      "target": "cometbft/cometbft-db",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cosmos/iavl",
-      "target": "cosmos/cosmos-db",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/benchmarks.yml",
       "source_repo": "cosmos/iavl",
@@ -267,7 +246,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T19:12:56.680239+00:00",
+  "fetched_at": "2026-05-07T01:56:40.520202+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -320,23 +299,7 @@
     ],
     "updated_at": "2026-04-16T08:47:40Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "cometbft/cometbft-db",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "cosmos/cosmos-db",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tendermint/tm-db",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Benchmarks",

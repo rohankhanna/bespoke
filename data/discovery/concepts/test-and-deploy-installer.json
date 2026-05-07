@@ -19,6 +19,12 @@
       "source_repo": "ohmyzsh/ohmyzsh",
       "status": "candidate-context",
       "text": "Test and Deploy installer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "status": "candidate-context",
+      "text": "\ud83d\ude43   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community."
     }
   ],
   "candidate_glosses": [
@@ -226,11 +232,17 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": ".github/workflows/installer.yml",
       "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/installer.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,191 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "target": "1jsingh/negtome",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "target": "ada-cheng/cat-pruning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "target": "alpha-innovator/adaptivediffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "target": "360cvgroup/qihoo-t2x",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "target": "efficient-deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "target": "efficient-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "target": "model-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "target": "text-to-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "target": "text-to-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T00:56:17.469981+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 49553
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udcda Collection of awesome generation acceleration resources.",
+    "fork": false,
+    "full_name": "xuyang-liu16/Awesome-Generation-Acceleration",
+    "html_url": "https://github.com/xuyang-liu16/Awesome-Generation-Acceleration",
+    "language": null,
+    "pushed_at": "2025-07-07T06:54:50Z",
+    "stargazers_count": 399,
+    "topics": [
+      "diffusion-models",
+      "efficient-deep-learning",
+      "efficient-inference",
+      "image-generation",
+      "model-acceleration",
+      "text-to-image",
+      "text-to-video",
+      "video-generation"
+    ],
+    "updated_at": "2026-04-17T05:29:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "1jsingh/negtome",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "360cvgroup/qihoo-t2x",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ada-cheng/cat-pruning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alpha-innovator/adaptivediffusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficient-deep-learning"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficient-inference"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-acceleration"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-image"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-video"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

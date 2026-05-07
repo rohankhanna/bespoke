@@ -247,6 +247,18 @@
       "source_repo": "holman/dotfiles",
       "status": "candidate-context",
       "text": "Your dotfiles are how you personalize your system. These are mine."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jez/dotfiles",
+      "status": "candidate-context",
+      "text": "My personal collection of configuration files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jez/dotfiles",
+      "status": "candidate-context",
+      "text": "[![xkcd: Automation](http://imgs.xkcd.com/comics/automation.png)](http://xkcd.com/1319/)"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +381,12 @@
       "source_repo": "holman/dotfiles",
       "status": "candidate",
       "text": "Your dotfiles are how you personalize your system. These are mine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jez/dotfiles",
+      "status": "candidate",
+      "text": "[![xkcd: Automation](http://imgs.xkcd.com/comics/automation.png)](http://xkcd.com/1319/)"
     }
   ],
   "candidate_related_terms": [
@@ -544,11 +562,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "holman/dotfiles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "jez/dotfiles"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

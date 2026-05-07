@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mirage/conan",
+      "target": "file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mirage/conan",
+      "target": "mime",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T00:47:12.063323+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10352
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Like detective conan, find clue about the type of the file",
+    "fork": false,
+    "full_name": "mirage/conan",
+    "html_url": "https://github.com/mirage/conan",
+    "language": "OCaml",
+    "pushed_at": "2026-03-06T08:14:34Z",
+    "stargazers_count": 57,
+    "topics": [
+      "file",
+      "mime"
+    ],
+    "updated_at": "2026-03-09T07:33:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "`conan` is a re-implementation of the famous command `file`:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file"
+    },
+    {
+      "context_snippet": "`conan` is a re-implementation of the famous command `file`:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mime"
+    }
+  ]
+}

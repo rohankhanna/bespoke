@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Automated coverage analysis of WASM executables on embedded and other constrained environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Wasmcov comprises a Rust library and an associated binary that offer a range of utilities for coverage analysis of WebAssembly (Wasm) modules. This tool empowers you to gather and scrutinize code coverage data while executing Wasm modules. Wasmcov stands out for its adaptability\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Wasmcov comprises a Rust library and an associated binary that offer a range of utilities for coverage analysis of WebAssembly (Wasm) modules. This tool empowers you to gather and scrutinize code coverage data while executing Wasm modules. Wasmcov stands out for its adaptability\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "code-coverage",
+      "sense_id": "code-coverage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "code-coverage",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "code-coverage",
+  "observation_id": "9928db899a336dc9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_text": "code-coverage",
+  "source_context_snippet": "Wasmcov comprises a Rust library and an associated binary that offer a range of utilities for coverage analysis of WebAssembly (Wasm) modules. This tool empowers you to gather and scrutinize code coverage data while executing Wasm modules. Wasmcov stands out for its adaptability\u2026",
+  "source_file": null,
+  "source_repo": "hknio/wasmcov",
+  "source_repo_description": "Automated coverage analysis of WASM executables on embedded and other constrained environments"
+}

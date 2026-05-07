@@ -25,7 +25,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Alex313031/thorium-legacy",
-      "target": "grapheneos/vanadium",
+      "target": "iridium-browser/iridium-browser",
       "target_type": "repository"
     },
     {
@@ -169,6 +169,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-06T12:51:12.481137+00:00",
+  "generated_at": "2026-05-07T00:37:24.413591+00:00",
   "source_repo": "Alex313031/thorium-legacy"
 }

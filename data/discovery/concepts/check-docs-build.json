@@ -19,12 +19,30 @@
       "source_repo": "cosmos/ibc-go",
       "status": "candidate-context",
       "text": "Check docs build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bianjieai/ibc-go",
+      "status": "candidate-context",
+      "text": "Interblockchain Communication Protocol (IBC) implementation in Golang."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bianjieai/ibc-go",
+      "status": "candidate-context",
+      "text": "Check docs build"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "cosmos/ibc-go",
+      "status": "candidate",
+      "text": "Check docs build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bianjieai/ibc-go",
       "status": "candidate",
       "text": "Check docs build"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/docs-check.yml",
       "source_repo": "cosmos/ibc-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/check-docs.yml",
+      "source_repo": "bianjieai/ibc-go"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

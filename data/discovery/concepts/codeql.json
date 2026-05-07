@@ -9648,6 +9648,54 @@
       "source_repo": "gookit/cache",
       "status": "candidate-context",
       "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bianjieai/ibc-go",
+      "status": "candidate-context",
+      "text": "Interblockchain Communication Protocol (IBC) implementation in Golang."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bianjieai/ibc-go",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evmos/evmos",
+      "status": "candidate-context",
+      "text": "Evmos is the canonical EVM chain on Cosmos. Evmos is the flagship implementation of evmOS, a stack to build forward compatible EVMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evmos/evmos",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OSGeo/gdal",
+      "status": "candidate-context",
+      "text": "GDAL is an open source MIT licensed translator library for raster and vector geospatial data formats."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OSGeo/gdal",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gookit/config",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdd Go configuration manage(load,get,set,export). support JSON, YAML, TOML, Properties, INI, HCL, ENV and Flags. Multi file load, data override merge, parse ENV var. Go\u5e94\u7528\u914d\u7f6e\u52a0\u8f7d\u7ba1\u7406\uff0c\u652f\u6301\u591a\u79cd\u683c\u5f0f\uff0c\u591a\u6587\u4ef6\u52a0\u8f7d\uff0c\u8fdc\u7a0b\u6587\u4ef6\u52a0\u8f7d\uff0c\u652f\u6301\u6570\u636e\u5408\u5e76\uff0c\u89e3\u6790\u73af\u5883\u53d8\u91cf\u540d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/config",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
     }
   ],
   "candidate_glosses": [
@@ -14514,6 +14562,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gookit/cache",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bianjieai/ibc-go",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evmos/evmos",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OSGeo/gdal",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/config",
       "status": "candidate",
       "text": "\"CodeQL\""
     }
@@ -23079,11 +23151,245 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "kubernetes-sigs/karpenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "aws/karpenter-provider-aws"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "windsonR/vite-plugin-virtual-html"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "vbenjs/vue-vben-admin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "intel/ipex-llm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aws/serverless-application-model"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "actions/container-toolkit-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "GitoxideLabs/cargo-smart-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "erigontech/mdbx-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bianjieai/ibc-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "evmos/evmos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "cosmos/iavl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "OSGeo/gdal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "erigontech/silkpre"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "edenhill/kcat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "pillarjs/iconv-lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jawah/charset_normalizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "michaellzc/vscode-hadolint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "realworld-apps/realworld"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "redis/redis-om-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "vale-cli/vale"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "CloudCompare/CloudCompare"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gookit/config"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "mui/material-ui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "mongodb/winkerberos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "googleapis/gaxios"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

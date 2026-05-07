@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T02:12:42.431848+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1594
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Configuration for an AI agent for sanitising (redacting personal details) in N8N workflow exports",
+    "fork": false,
+    "full_name": "danielrosehill/N8N-Workflow-Sanitiser-Agent",
+    "html_url": "https://github.com/danielrosehill/N8N-Workflow-Sanitiser-Agent",
+    "language": null,
+    "pushed_at": "2025-07-22T11:57:52Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-07-22T11:57:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

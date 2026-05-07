@@ -91,6 +91,18 @@
       "source_repo": "OSU-NLP-Group/TravelPlanner",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">TravelPlanner<br> A Benchmark for Real-World Planning<br> with Language Agents </h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erdos-project/pylot",
+      "status": "candidate-context",
+      "text": "Modular autonomous driving platform running on the CARLA simulator and real-world vehicles."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erdos-project/pylot",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "OSU-NLP-Group/TravelPlanner",
       "status": "candidate",
       "text": "<h1 align=\"center\">TravelPlanner<br> A Benchmark for Real-World Planning<br> with Language Agents </h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erdos-project/pylot",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/erdos-project/pylot/workflows/CI/badge.svg)](https://github.com/erdos-project/pylot/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -241,11 +259,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "OSU-NLP-Group/TravelPlanner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "erdos-project/pylot"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

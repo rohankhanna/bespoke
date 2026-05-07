@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Extreme-scale Discontinuous Galerkin Environment (EDGE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "* *advection (1D)*:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "* *advection (1D)*:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hyperbolic-pdes",
+      "sense_id": "hyperbolic-pdes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hyperbolic-pdes",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hyperbolic-pdes",
+  "observation_id": "f901b4085c163469",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_text": "hyperbolic-pdes",
+  "source_context_snippet": "* *advection (1D)*:",
+  "source_file": null,
+  "source_repo": "3343/edge",
+  "source_repo_description": "Extreme-scale Discontinuous Galerkin Environment (EDGE)"
+}

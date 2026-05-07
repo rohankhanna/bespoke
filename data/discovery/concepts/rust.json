@@ -9046,6 +9046,84 @@
       "source_repo": "influxdata/influxdb",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ros2-rust/ros2_rust",
+      "status": "candidate-context",
+      "text": "Rust bindings for ROS 2 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ros2-rust/ros2_rust",
+      "status": "candidate-context",
+      "text": "ROS 2 for Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kornia/kornia-rs",
+      "status": "candidate-context",
+      "text": "\ud83e\udd80 Low-level 3D Computer Vision library in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kornia/kornia-rs",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marshallpierce/rust-base64",
+      "status": "candidate-context",
+      "text": "base64, in rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marshallpierce/rust-base64",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/crates/v/base64.svg)](https://crates.io/crates/base64) [![Docs](https://docs.rs/base64/badge.svg)](https://docs.rs/base64) [![CircleCI](https://circleci.com/gh/marshallpierce/rust-base64/tree/master.svg?style=shield)](https://circleci.com/gh/marshallp\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "josh-project/josh",
+      "status": "candidate-context",
+      "text": "Git at scale platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josh-project/josh",
+      "status": "candidate-context",
+      "text": "rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kylebarron/arrow-wasm",
+      "status": "candidate-context",
+      "text": "Building block library for using Apache Arrow in Rust WebAssembly modules."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kylebarron/arrow-wasm",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kylebarron/arrow-wasm",
+      "status": "candidate-context",
+      "text": "Building block library for using Apache Arrow in Rust WebAssembly modules."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rerun-io/rerun",
+      "status": "candidate-context",
+      "text": "An open source SDK for logging, storing, querying, and visualizing multimodal and multi-rate data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rerun-io/rerun",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -13704,6 +13782,48 @@
       "source_repo": "influxdata/influxdb",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ros2-rust/ros2_rust",
+      "status": "candidate",
+      "text": "ROS 2 for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kornia/kornia-rs",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marshallpierce/rust-base64",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/crates/v/base64.svg)](https://crates.io/crates/base64) [![Docs](https://docs.rs/base64/badge.svg)](https://docs.rs/base64) [![CircleCI](https://circleci.com/gh/marshallpierce/rust-base64/tree/master.svg?style=shield)](https://circleci.com/gh/marshallp\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josh-project/josh",
+      "status": "candidate",
+      "text": "rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kylebarron/arrow-wasm",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kylebarron/arrow-wasm",
+      "status": "candidate",
+      "text": "Building block library for using Apache Arrow in Rust WebAssembly modules."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rerun-io/rerun",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -23695,11 +23815,347 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": null,
       "source_repo": "kurrent-io/KurrentDB-Client-Rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "bionic-gpt/bionic-gpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "ros2-rust/ros2_rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "kornia/kornia-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "AltF02/mouse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "AltF02/mouse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdnative"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "unknownue/vulkan-tutorial-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "ash-rs/ash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "DioxusLabs/sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/rust-std-hermit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/hermit-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cometbft/tendermint-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "cometbft/tendermint-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "marshallpierce/rust-base64"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "larry0x/cw-plus-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/std"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dirs-dev/dirs-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/vscode-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "josh-project/josh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "rust-rse/reed-solomon-erasure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "psmux/Tmux-Plugin-Panel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "prataprc/xorfilter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "apache/horaedb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "databendlabs/databend"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kylebarron/arrow-wasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "kylebarron/arrow-wasm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "rerun-io/rerun"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

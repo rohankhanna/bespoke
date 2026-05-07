@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v2",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -3507,6 +3507,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/torch-struct.yml",
       "source_repo": "harvardnlp/pytorch-struct"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "petercorke/bdsim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "data-apis/array-api"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "shibing624/MedicalGPT"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "erdos-project/pylot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "erdos-project/pylot"
     }
   ]
 }

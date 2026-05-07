@@ -84,7 +84,7 @@
   "normalized_form": "format-code-with-black",
   "observation_id": "7f5fc4b40e0ecbd7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-06T18:41:14.951242+00:00",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
   "observed_text": "Format Code with Black",
   "source_context_snippet": "Format Code with Black",
   "source_file": ".github/workflows/black.format.yml",

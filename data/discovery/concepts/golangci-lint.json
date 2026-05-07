@@ -1049,6 +1049,18 @@
       "source_repo": "quicksilver-zone/quicksilver",
       "status": "candidate-context",
       "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bianjieai/ibc-go",
+      "status": "candidate-context",
+      "text": "Interblockchain Communication Protocol (IBC) implementation in Golang."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bianjieai/ibc-go",
+      "status": "candidate-context",
+      "text": "golangci-lint"
     }
   ],
   "candidate_glosses": [
@@ -1565,6 +1577,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "quicksilver-zone/quicksilver",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bianjieai/ibc-go",
       "status": "candidate",
       "text": "golangci-lint"
     }
@@ -2636,11 +2654,47 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": ".github/workflows/golangci-lint.yml",
       "source_repo": "vale-cli/vale"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/golangci.yml",
+      "source_repo": "bianjieai/ibc-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "weaviate/weaviate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "vale-cli/vale"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

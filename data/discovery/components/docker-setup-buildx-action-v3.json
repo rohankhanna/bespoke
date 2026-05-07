@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-buildx-action@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2517,6 +2517,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dockerhub.yml",
       "source_repo": "usdot-fhwa-stol/cdasim-config"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "maybe-finance/maybe"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-env.yml",
+      "source_repo": "cp2k/dbcsr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "danielrosehill/AMD-AI-Server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "danielrosehill/Kokoro-FastAPI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/component-build-images.yml",
+      "source_repo": "opensearch-project/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "kubeshop/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/component-build-images.yml",
+      "source_repo": "signalfx/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "liatrio/opentelemetry-demo"
     }
   ]
 }

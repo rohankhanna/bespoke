@@ -1,0 +1,17 @@
+{
+  "component": "egor-tensin/setup-mingw@41b837e47d7f85214629d255b9c4bc3fcbe9fd63",
+  "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JuliaLang/juliaup"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JuliaLang/juliaup"
+    }
+  ]
+}

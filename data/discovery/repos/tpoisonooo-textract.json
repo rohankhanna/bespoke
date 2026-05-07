@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T02:59:55.092091+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1856
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "extract text from any document. no muss. no fuss.",
+    "fork": true,
+    "full_name": "tpoisonooo/textract",
+    "html_url": "https://github.com/tpoisonooo/textract",
+    "language": "HTML",
+    "pushed_at": "2024-04-15T09:44:28Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-04-15T09:44:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

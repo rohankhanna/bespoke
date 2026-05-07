@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haixuanTao/yolov7_Tsinghua-Tencent_100K",
+      "target": "halftop/tt100k_yolo_label",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haixuanTao/yolov7_Tsinghua-Tencent_100K",
+      "target": "haixuantao/yolov7",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haixuanTao/yolov7_Tsinghua-Tencent_100K",
+      "target": "linaom1214/tensorrt-python",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-07T00:37:24.413591+00:00",
+  "source_repo": "haixuanTao/yolov7_Tsinghua-Tencent_100K"
+}

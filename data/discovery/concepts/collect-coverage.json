@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "collect-coverage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inversify/monorepo",
+      "status": "candidate-context",
+      "text": "A powerful and lightweight inversion of control container for JavaScript & Node.js apps powered by TypeScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inversify/monorepo",
+      "status": "candidate-context",
+      "text": "collect-coverage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inversify/monorepo",
+      "status": "candidate",
+      "text": "collect-coverage"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "collect-coverage",
+  "concept_id": "collect-coverage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/collect-coverage.yaml",
+      "source_repo": "inversify/monorepo"
+    }
+  ],
+  "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "collect-coverage",
+      "sense_id": "collect-coverage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

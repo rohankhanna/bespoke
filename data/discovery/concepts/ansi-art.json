@@ -19,6 +19,18 @@
       "source_repo": "hectorm/chafa-wasm",
       "status": "candidate-context",
       "text": "Have you ever wanted to convert an image into a much less efficient and lower quality text representation? No? Well, with this module you can."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "petercorke/ansitable",
+      "status": "candidate-context",
+      "text": "Quick, easy and pretty display of tabular data or matrices, with optional ANSI color and borders"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/ansitable",
+      "status": "candidate-context",
+      "text": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "hectorm/chafa-wasm",
       "status": "candidate",
       "text": "Have you ever wanted to convert an image into a much less efficient and lower quality text representation? No? Well, with this module you can."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/ansitable",
+      "status": "candidate",
+      "text": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "hectorm/chafa-wasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "petercorke/ansitable"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

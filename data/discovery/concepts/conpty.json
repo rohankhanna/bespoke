@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -43,6 +45,18 @@
       "source_repo": "microsoft/node-pty",
       "status": "candidate-context",
       "text": "[![Build Status](https://dev.azure.com/vscode/node-pty/_apis/build/status/Microsoft.node-pty?branchName=main)](https://dev.azure.com/vscode/node-pty/_build/latest?definitionId=11&branchName=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/x",
+      "status": "candidate-context",
+      "text": "Charm experimental packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/x",
+      "status": "candidate-context",
+      "text": "conpty"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +77,12 @@
       "source_repo": "microsoft/node-pty",
       "status": "candidate",
       "text": "[![Build Status](https://dev.azure.com/vscode/node-pty/_apis/build/status/Microsoft.node-pty?branchName=main)](https://dev.azure.com/vscode/node-pty/_build/latest?definitionId=11&branchName=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/x",
+      "status": "candidate",
+      "text": "conpty"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +228,23 @@
       "observed_at": "2026-05-06T12:51:12.481137+00:00",
       "source_file": null,
       "source_repo": "Watfaq/PowerSession"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "Watfaq/PowerSession"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/conpty.yml",
+      "source_repo": "charmbracelet/x"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "Shopify/shopify-cla-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Shopify/measured-rails",
+      "target": "Shopify/shopify-cla-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Shopify/measured-rails",
+      "target": "Contributor License Agreement (CLA)",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T00:50:08.986398+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 802
+    },
+    {
+      "path": ".github/workflows/cla.yml",
+      "size": 619
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Rails adapter for the measured gem. Encapsulate measurements and their units in Ruby and Rails.",
+    "fork": false,
+    "full_name": "Shopify/measured-rails",
+    "html_url": "https://github.com/Shopify/measured-rails",
+    "language": "Ruby",
+    "pushed_at": "2024-04-19T18:26:34Z",
+    "stargazers_count": 92,
+    "topics": [],
+    "updated_at": "2024-10-27T01:53:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Contributor License Agreement (CLA)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "term": "Contributor License Agreement (CLA)"
+    }
+  ]
+}

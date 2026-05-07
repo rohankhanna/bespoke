@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "foldl/AlphaGeometryRE",
+      "target": "google-deepmind/alphageometry",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T02:59:38.436610+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12003
+    },
+    {
+      "path": "requirements.txt",
+      "size": 31
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "AlphaGeometry Re-engineered",
+    "fork": false,
+    "full_name": "foldl/AlphaGeometryRE",
+    "html_url": "https://github.com/foldl/AlphaGeometryRE",
+    "language": "Python",
+    "pushed_at": "2026-03-11T08:18:09Z",
+    "stargazers_count": 41,
+    "topics": [],
+    "updated_at": "2026-03-22T18:16:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-deepmind/alphageometry",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

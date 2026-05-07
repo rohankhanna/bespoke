@@ -1,0 +1,81 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bloom-release.yaml"
+    },
+    {
+      "component": "esteve/release-ros-robot@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bloom-release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bloom-release.yaml"
+    },
+    {
+      "component": "esteve/release-ros-robot@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bloom-release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bloom-release.yaml",
+      "source_repo": "ros2-rust/rosidl_rust",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bloom-release.yaml",
+      "source_repo": "ros2-rust/rosidl_rust",
+      "target": "esteve/release-ros-robot@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bloom-release.yaml",
+      "source_repo": "ros2-rust/rosidl_rust",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T03:25:23.628283+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 39
+    },
+    {
+      "path": ".github/workflows/bloom-release.yaml",
+      "size": 1871
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " rosidl support for Rust",
+    "fork": false,
+    "full_name": "ros2-rust/rosidl_rust",
+    "html_url": "https://github.com/ros2-rust/rosidl_rust",
+    "language": "EmberScript",
+    "pushed_at": "2026-04-25T15:33:13Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-25T15:33:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bloom-release.yaml",
+      "term": "Release"
+    }
+  ]
+}

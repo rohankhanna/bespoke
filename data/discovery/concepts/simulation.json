@@ -535,6 +535,18 @@
       "source_repo": "ucla-mobility/OpenCDA",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.com/ucla-mobility/OpenCDA.svg?branch=develop)](https://travis-ci.com/ucla-mobility/OpenCDA)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "petercorke/bdsim",
+      "status": "candidate-context",
+      "text": "Simulate dynamic systems expressed in block diagram form using Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/bdsim",
+      "status": "candidate-context",
+      "text": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)"
     }
   ],
   "candidate_glosses": [
@@ -801,6 +813,12 @@
       "source_repo": "ucla-mobility/OpenCDA",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.com/ucla-mobility/OpenCDA.svg?branch=develop)](https://travis-ci.com/ucla-mobility/OpenCDA)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/bdsim",
+      "status": "candidate",
+      "text": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)"
     }
   ],
   "candidate_related_terms": [
@@ -1474,11 +1492,41 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": null,
       "source_repo": "taichi-dev/difftaichi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "petercorke/bdsim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "echo-yiyiyi/cube"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "robotology-legacy/gym-ignition"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "taichi-dev/difftaichi"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

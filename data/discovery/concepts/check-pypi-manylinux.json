@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "check-pypi-manylinux"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tamuhey/seqdiff",
+      "status": "candidate-context",
+      "text": "diff library for Rust and Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tamuhey/seqdiff",
+      "status": "candidate-context",
+      "text": "check-pypi-manylinux"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tamuhey/seqdiff",
+      "status": "candidate",
+      "text": "check-pypi-manylinux"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "check-pypi-manylinux",
+  "concept_id": "check-pypi-manylinux",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": ".github/workflows/test_pypi_manylinux.yml",
+      "source_repo": "tamuhey/seqdiff"
+    }
+  ],
+  "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "check-pypi-manylinux",
+      "sense_id": "check-pypi-manylinux#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

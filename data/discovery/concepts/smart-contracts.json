@@ -199,6 +199,18 @@
       "source_repo": "octopus-network/near-ibc",
       "status": "candidate-context",
       "text": "This is an implementation of the IBC protocol (IBC/TAO) in the NEAR protocol, which includes additional applications such as ICS-20, written by Octopus Network."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evmos/evmos",
+      "status": "candidate-context",
+      "text": "Evmos is the canonical EVM chain on Cosmos. Evmos is the flagship implementation of evmOS, a stack to build forward compatible EVMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evmos/evmos",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "octopus-network/near-ibc",
       "status": "candidate",
       "text": "This is an implementation of the IBC protocol (IBC/TAO) in the NEAR protocol, which includes additional applications such as ICS-20, written by Octopus Network."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evmos/evmos",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [],
@@ -628,11 +646,29 @@
       "observed_at": "2026-05-06T12:51:12.481137+00:00",
       "source_file": null,
       "source_repo": "Uniswap/v3-periphery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "evmos/evmos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "Uniswap/v3-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "Uniswap/v3-periphery"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary",
+      "target": "alex-kampa/test_bokkypoobahsdatetimelibrary",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary",
+      "target": "bokkypoobah/bokkypoobahshalloffameandbugbounties",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary",
+      "target": "datetime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary",
+      "target": "solidity",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-07T00:37:24.413591+00:00",
+  "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary"
+}

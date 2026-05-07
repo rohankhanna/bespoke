@@ -1,7 +1,7 @@
 {
   "component": "weaviate/weaviate-github-issue-triage@6a20f3ea7980102999f6a6ca009bafbf19014b6d",
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T03:25:24.907134+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1541
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "rolling",
+    "description": "A set of packages which contain common interface files (.msg and .srv).",
+    "fork": false,
+    "full_name": "ros2/common_interfaces",
+    "html_url": "https://github.com/ros2/common_interfaces",
+    "language": "C++",
+    "pushed_at": "2026-05-06T18:50:00Z",
+    "stargazers_count": 355,
+    "topics": [],
+    "updated_at": "2026-05-06T18:50:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

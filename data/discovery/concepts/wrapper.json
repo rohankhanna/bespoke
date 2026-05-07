@@ -175,6 +175,18 @@
       "source_repo": "4kills/go-libdeflate",
       "status": "candidate-context",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "linxGnu/grocksdb",
+      "status": "candidate-context",
+      "text": "RocksDB wrapper for Go. Support 10.x, 9.x, 8.x, 7.x, 6.x, etc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linxGnu/grocksdb",
+      "status": "candidate-context",
+      "text": "[![](https://github.com/linxGnu/grocksdb/workflows/CI/badge.svg)]()"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "4kills/go-libdeflate",
       "status": "candidate",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linxGnu/grocksdb",
+      "status": "candidate",
+      "text": "[![](https://github.com/linxGnu/grocksdb/workflows/CI/badge.svg)]()"
     }
   ],
   "candidate_related_terms": [
@@ -424,11 +442,17 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "4kills/go-libdeflate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "linxGnu/grocksdb"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

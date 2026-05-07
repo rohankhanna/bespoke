@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T00:55:56.598340+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3994
+    },
+    {
+      "path": "Dockerfile",
+      "size": 826
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "ChiehHsinJesseLai/ctm-notebook",
+    "html_url": "https://github.com/ChiehHsinJesseLai/ctm-notebook",
+    "language": "Python",
+    "pushed_at": "2026-03-03T06:07:22Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-03T06:07:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

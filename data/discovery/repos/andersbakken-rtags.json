@@ -1,0 +1,68 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Andersbakken/rtags",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Andersbakken/rtags",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-07T00:50:12.426883+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3685
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A client/server indexer for c/c++/objc[++] with integration for Emacs based on clang.",
+    "fork": false,
+    "full_name": "Andersbakken/rtags",
+    "html_url": "https://github.com/Andersbakken/rtags",
+    "language": "C++",
+    "pushed_at": "2026-05-04T19:03:32Z",
+    "stargazers_count": 1843,
+    "topics": [],
+    "updated_at": "2026-05-04T19:03:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

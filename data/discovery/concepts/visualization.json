@@ -823,6 +823,18 @@
       "source_repo": "hila-chefer/Transformer-MM-Explainability",
       "status": "candidate-context",
       "text": "[ICCV 2021- Oral] PyTorch Implementation of `Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers <https://arxiv.org/abs/2103.15679>`_"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rerun-io/rerun",
+      "status": "candidate-context",
+      "text": "An open source SDK for logging, storing, querying, and visualizing multimodal and multi-rate data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rerun-io/rerun",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1233,6 +1245,12 @@
       "source_repo": "hila-chefer/Transformer-MM-Explainability",
       "status": "candidate",
       "text": "[ICCV 2021- Oral] PyTorch Implementation of `Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers <https://arxiv.org/abs/2103.15679>`_"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rerun-io/rerun",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1975,11 +1993,35 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": null,
       "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "rerun-io/rerun"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

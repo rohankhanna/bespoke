@@ -31,8 +31,23 @@
       "source_file": "package.json"
     },
     {
+      "component": "stackframe",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "unique-temp-dir",
       "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/eslintrc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/js",
+      "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
     {
@@ -51,22 +66,17 @@
       "source_file": "package.json"
     },
     {
+      "component": "globals",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "hasbin",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
     {
-      "component": "jasmine",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "jest",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "mocha",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -84,30 +94,29 @@
       "component": "test262-stream",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
     }
   ],
   "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "tc39/eshost",
-      "target": "microsoft/chakracore",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "tc39/eshost",
-      "target": "bterlson/eshost",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "package.json",
-      "source_repo": "tc39/eshost",
-      "target": "bterlson/eshost",
-      "target_type": "repository"
-    },
     {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
@@ -154,7 +163,28 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "tc39/eshost",
+      "target": "stackframe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/eshost",
       "target": "unique-temp-dir",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/eshost",
+      "target": "@eslint/eslintrc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/eshost",
+      "target": "@eslint/js",
       "target_type": "component"
     },
     {
@@ -182,6 +212,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "tc39/eshost",
+      "target": "globals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/eshost",
       "target": "hasbin",
       "target_type": "component"
     },
@@ -189,21 +226,7 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "tc39/eshost",
-      "target": "jasmine",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "tc39/eshost",
       "target": "jest",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "tc39/eshost",
-      "target": "mocha",
       "target_type": "component"
     },
     {
@@ -226,17 +249,35 @@
       "source_repo": "tc39/eshost",
       "target": "test262-stream",
       "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tc39/eshost",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tc39/eshost",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-06T13:02:48.232572+00:00",
+  "fetched_at": "2026-05-07T02:08:44.109781+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 12786
+      "size": 20190
     },
     {
       "path": "package.json",
-      "size": 1034
+      "size": 1148
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4083
     }
   ],
   "related_repositories": [],
@@ -248,27 +289,11 @@
     "full_name": "tc39/eshost",
     "html_url": "https://github.com/tc39/eshost",
     "language": "JavaScript",
-    "pushed_at": "2025-04-08T21:21:03Z",
+    "pushed_at": "2026-05-06T23:54:31Z",
     "stargazers_count": 147,
     "topics": [],
-    "updated_at": "2026-03-12T17:31:10Z"
+    "updated_at": "2026-05-06T23:54:36Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "bterlson/eshost",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "microsoft/chakracore",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "bterlson/eshost",
-      "source_file": "package.json"
-    }
-  ],
+  "repo_links": [],
   "terms": []
 }

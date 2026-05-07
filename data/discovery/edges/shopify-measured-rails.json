@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Shopify/measured-rails",
+      "target": "Shopify/shopify-cla-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Shopify/measured-rails",
+      "target": "Contributor License Agreement (CLA)",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-07T00:37:24.413591+00:00",
+  "source_repo": "Shopify/measured-rails"
+}

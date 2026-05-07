@@ -109,7 +109,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-06T07:33:22.773102+00:00",
+  "fetched_at": "2026-05-07T01:45:00.056674+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -134,7 +134,7 @@
     "html_url": "https://github.com/wemake-services/flake8-eradicate",
     "language": "Python",
     "pushed_at": "2025-03-14T02:08:22Z",
-    "stargazers_count": 316,
+    "stargazers_count": 317,
     "topics": [
       "code-quality",
       "comments",
@@ -145,7 +145,7 @@
       "wemake-python-styleguide",
       "wemake-services"
     ],
-    "updated_at": "2026-04-07T14:02:33Z"
+    "updated_at": "2026-05-06T09:10:43Z"
   },
   "repo_links": [
     {

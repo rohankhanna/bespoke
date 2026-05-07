@@ -763,6 +763,30 @@
       "source_repo": "vztu/maxim-pytorch",
       "status": "candidate-context",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-hide-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-hide-trained-on-gopro?p=maxim-multi-axis-mlp-for-image-processing)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kornia/kornia-rs",
+      "status": "candidate-context",
+      "text": "\ud83e\udd80 Low-level 3D Computer Vision library in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kornia/kornia-rs",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings",
+      "status": "candidate-context",
+      "text": "Provides the ability to set the temperature for both UNET and CLIP. For ComfyUI. Has for side effect to improve non-native resolutions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings",
+      "status": "candidate-context",
+      "text": "Provides the ability to set the temperature for both UNET and CLIP. For ComfyUI."
     }
   ],
   "candidate_glosses": [
@@ -1143,6 +1167,18 @@
       "source_repo": "vztu/maxim-pytorch",
       "status": "candidate",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-hide-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-hide-trained-on-gopro?p=maxim-multi-axis-mlp-for-image-processing)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kornia/kornia-rs",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings",
+      "status": "candidate",
+      "text": "Provides the ability to set the temperature for both UNET and CLIP. For ComfyUI."
     }
   ],
   "candidate_related_terms": [],
@@ -1924,11 +1960,47 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "kornia/kornia-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_pix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

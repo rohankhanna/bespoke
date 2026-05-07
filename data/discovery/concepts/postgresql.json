@@ -667,6 +667,30 @@
       "source_repo": "Accla/d4m",
       "status": "candidate-context",
       "text": "NOTE: This is the Accumulo 1.6.0+ version."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dbkangaroo/kangaroo",
+      "status": "candidate-context",
+      "text": "Kangaroo is an AI-powered SQL client and admin tool for popular databases (MariaDB / MySQL / Oracle / PostgreSQL / Redis / SQLite / SQL Server / ...) on Windows / MacOS / Linux, support table design, query, model, sync, export/import etc, focus on comfortable, fun and developer friendly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbkangaroo/kangaroo",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maybe-finance/maybe",
+      "status": "candidate-context",
+      "text": "The personal finance app for everyone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maybe-finance/maybe",
+      "status": "candidate-context",
+      "text": "<img width=\"1190\" alt=\"maybe_hero\" src=\"https://github.com/user-attachments/assets/5ed08763-a9ee-42b2-a436-e05038fcf573\" />"
     }
   ],
   "candidate_glosses": [
@@ -999,6 +1023,18 @@
       "source_repo": "Accla/d4m",
       "status": "candidate",
       "text": "NOTE: This is the Accumulo 1.6.0+ version."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbkangaroo/kangaroo",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maybe-finance/maybe",
+      "status": "candidate",
+      "text": "<img width=\"1190\" alt=\"maybe_hero\" src=\"https://github.com/user-attachments/assets/5ed08763-a9ee-42b2-a436-e05038fcf573\" />"
     }
   ],
   "candidate_related_terms": [
@@ -1785,11 +1821,47 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": null,
       "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "dbkangaroo/kangaroo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "maybe-finance/maybe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka-sql-pods"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

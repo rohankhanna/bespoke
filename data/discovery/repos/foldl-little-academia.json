@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "foldl/little-academia",
+      "target": "qwenlm/qwen3-coder",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T02:59:39.645441+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2777
+    },
+    {
+      "path": "requirements.txt",
+      "size": 18
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ChatLLM \u2022 \u5c0f\u5b66\u7a76\uff1a\u57fa\u4e8e ChatLLM.cpp \u7684\u4e2a\u6027\u5316\u7f16\u7a0b\u5b66\u4e60\u52a9\u624b\uff0c",
+    "fork": false,
+    "full_name": "foldl/little-academia",
+    "html_url": "https://github.com/foldl/little-academia",
+    "language": null,
+    "pushed_at": "2025-08-31T13:01:42Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-03-16T11:33:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qwenlm/qwen3-coder",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

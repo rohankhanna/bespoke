@@ -487,6 +487,18 @@
       "source_repo": "lace/vg",
       "status": "candidate-context",
       "text": "vg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "petercorke/bdsim",
+      "status": "candidate-context",
+      "text": "Simulate dynamic systems expressed in block diagram form using Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/bdsim",
+      "status": "candidate-context",
+      "text": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)"
     }
   ],
   "candidate_glosses": [
@@ -729,6 +741,12 @@
       "source_repo": "lace/vg",
       "status": "candidate",
       "text": "vg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petercorke/bdsim",
+      "status": "candidate",
+      "text": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)"
     }
   ],
   "candidate_related_terms": [
@@ -1384,11 +1402,35 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": null,
       "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "petercorke/bdsim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "unifyai/ivy"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

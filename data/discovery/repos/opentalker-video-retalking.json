@@ -58,7 +58,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-06T01:05:47.969811+00:00",
+  "fetched_at": "2026-05-07T03:26:35.082946+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -79,14 +79,14 @@
     "html_url": "https://github.com/OpenTalker/video-retalking",
     "language": "Python",
     "pushed_at": "2024-08-05T05:59:59Z",
-    "stargazers_count": 7244,
+    "stargazers_count": 7245,
     "topics": [
       "lip-synchronization",
       "siggraph-asia-2022",
       "talking-head-videos",
       "video-editing"
     ],
-    "updated_at": "2026-05-05T10:29:26Z"
+    "updated_at": "2026-05-06T06:08:41Z"
   },
   "repo_links": [
     {

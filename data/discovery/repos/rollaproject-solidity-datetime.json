@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-plugin-solidity",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RollaProject/solidity-datetime",
+      "target": "alex-kampa/test_bokkypoobahsdatetimelibrary",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RollaProject/solidity-datetime",
+      "target": "bokkypoobah/bokkypoobahshalloffameandbugbounties",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "RollaProject/solidity-datetime",
+      "target": "quant-finance-hq/solidity-datetime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "RollaProject/solidity-datetime",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "RollaProject/solidity-datetime",
+      "target": "prettier-plugin-solidity",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-07T01:57:10.419142+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30451
+    },
+    {
+      "path": "package.json",
+      "size": 839
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Gas-Efficient Solidity DateTime Library",
+    "fork": true,
+    "full_name": "RollaProject/solidity-datetime",
+    "html_url": "https://github.com/RollaProject/solidity-datetime",
+    "language": "Solidity",
+    "pushed_at": "2023-02-01T06:47:22Z",
+    "stargazers_count": 28,
+    "topics": [],
+    "updated_at": "2026-04-01T12:09:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alex-kampa/test_bokkypoobahsdatetimelibrary",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bokkypoobah/bokkypoobahshalloffameandbugbounties",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "quant-finance-hq/solidity-datetime",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": []
+}

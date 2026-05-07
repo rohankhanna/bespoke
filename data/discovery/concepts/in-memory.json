@@ -139,6 +139,18 @@
       "source_repo": "sl-solution/InMemoryDatasets.jl",
       "status": "candidate-context",
       "text": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://sl-solution.github.io/InMemoryDatasets.jl/stable) [![CI](https://github.com/sl-solution/InMemoryDatasets.jl/actions/workflows/ci.yml/badge.svg)](https://github.com/sl-solution/InMemoryDatasets.jl/actions/workflows/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bluele/gcache",
+      "status": "candidate-context",
+      "text": "An in-memory cache library for golang. It supports multiple eviction policies: LRU, LFU, ARC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluele/gcache",
+      "status": "candidate-context",
+      "text": "![Test](https://github.com/bluele/gcache/workflows/Test/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "sl-solution/InMemoryDatasets.jl",
       "status": "candidate",
       "text": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://sl-solution.github.io/InMemoryDatasets.jl/stable) [![CI](https://github.com/sl-solution/InMemoryDatasets.jl/actions/workflows/ci.yml/badge.svg)](https://github.com/sl-solution/InMemoryDatasets.jl/actions/workflows/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluele/gcache",
+      "status": "candidate",
+      "text": "![Test](https://github.com/bluele/gcache/workflows/Test/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -388,11 +406,23 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/SmashTable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/SmashTable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "bluele/gcache"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

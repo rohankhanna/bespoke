@@ -11,7 +11,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "Kludex/starlette",
-      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "target_type": "component"
     },
     {
@@ -39,14 +39,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "Kludex/starlette",
-      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "Kludex/starlette",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -60,7 +60,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "Kludex/starlette",
-      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
       "target_type": "component"
     },
     {
@@ -74,7 +74,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "Kludex/starlette",
-      "target": "actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b",
+      "target": "actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9",
       "target_type": "component"
     },
     {
@@ -88,7 +88,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "Kludex/starlette",
-      "target": "cloudflare/wrangler-action@da0e0dfe58b7a431659754fdf3f186c529afbe65",
+      "target": "cloudflare/wrangler-action@9acf94ace14e7dc412b076f2c5c20b8ce93c79cd",
       "target_type": "component"
     },
     {
@@ -127,6 +127,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T18:29:39.500037+00:00",
+  "generated_at": "2026-05-07T00:37:24.413591+00:00",
   "source_repo": "Kludex/starlette"
 }

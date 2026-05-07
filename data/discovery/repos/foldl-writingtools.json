@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "foldl/WritingTools",
+      "target": "salvadordf/webview4delphi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "foldl/WritingTools",
+      "target": "thejaytea/writingtools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "foldl/WritingTools",
+      "target": "hgourvest/superobject",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T02:59:40.703807+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13012
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Writing Tools, Apple's AI-inspired app, enchants Windows, enhancing your pen with AI LLMs. One hotkey press, system-wide, fixes grammar, punctuation, and more.",
+    "fork": false,
+    "full_name": "foldl/WritingTools",
+    "html_url": "https://github.com/foldl/WritingTools",
+    "language": "Pascal",
+    "pushed_at": "2025-07-26T04:41:51Z",
+    "stargazers_count": 27,
+    "topics": [],
+    "updated_at": "2026-02-24T08:25:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hgourvest/superobject",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "salvadordf/webview4delphi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thejaytea/writingtools",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

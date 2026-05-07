@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "target": "1jsingh/negtome",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "target": "ada-cheng/cat-pruning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "target": "alpha-innovator/adaptivediffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "target": "360cvgroup/qihoo-t2x",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "target": "efficient-deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "target": "efficient-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "target": "model-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "target": "text-to-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "target": "text-to-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-07T00:37:24.413591+00:00",
+  "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration"
+}

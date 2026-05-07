@@ -1,0 +1,243 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manylinux_build.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_pypi_manylinux.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "tamuhey/seqdiff",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "tamuhey/seqdiff",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "tamuhey/seqdiff",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "tamuhey/seqdiff",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "tamuhey/seqdiff",
+      "target": "actions-rs/cargo@v1.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "tamuhey/seqdiff",
+      "target": "Test and Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manylinux_build.yml",
+      "source_repo": "tamuhey/seqdiff",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manylinux_build.yml",
+      "source_repo": "tamuhey/seqdiff",
+      "target": "build manylinux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_pypi.yml",
+      "source_repo": "tamuhey/seqdiff",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_pypi.yml",
+      "source_repo": "tamuhey/seqdiff",
+      "target": "check-pypi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_pypi_manylinux.yml",
+      "source_repo": "tamuhey/seqdiff",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_pypi_manylinux.yml",
+      "source_repo": "tamuhey/seqdiff",
+      "target": "check-pypi-manylinux",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T03:27:42.136418+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2151
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 684
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 4103
+    },
+    {
+      "path": ".github/workflows/manylinux_build.yml",
+      "size": 2585
+    },
+    {
+      "path": ".github/workflows/test_pypi.yml",
+      "size": 725
+    },
+    {
+      "path": ".github/workflows/test_pypi_manylinux.yml",
+      "size": 809
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "diff library for Rust and Python",
+    "fork": false,
+    "full_name": "tamuhey/seqdiff",
+    "html_url": "https://github.com/tamuhey/seqdiff",
+    "language": "Rust",
+    "pushed_at": "2021-07-13T05:08:16Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2024-11-24T09:37:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test and Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Test and Deploy"
+    },
+    {
+      "context_snippet": "build manylinux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manylinux_build.yml",
+      "term": "build manylinux"
+    },
+    {
+      "context_snippet": "check-pypi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_pypi.yml",
+      "term": "check-pypi"
+    },
+    {
+      "context_snippet": "check-pypi-manylinux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_pypi_manylinux.yml",
+      "term": "check-pypi-manylinux"
+    }
+  ]
+}

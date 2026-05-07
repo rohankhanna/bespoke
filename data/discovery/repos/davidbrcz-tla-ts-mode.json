@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T01:59:32.949459+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 583
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TLA+ and PlusCal editing mode for emacs powered by tree-sitter",
+    "fork": false,
+    "full_name": "Davidbrcz/tla-ts-mode",
+    "html_url": "https://github.com/Davidbrcz/tla-ts-mode",
+    "language": "Emacs Lisp",
+    "pushed_at": "2023-12-27T11:45:37Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2025-06-24T04:48:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

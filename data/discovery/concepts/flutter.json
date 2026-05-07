@@ -598,6 +598,18 @@
       "source_repo": "davidmigloz/langchain_dart",
       "status": "candidate-context",
       "text": "[![tests](https://img.shields.io/github/actions/workflow/status/davidmigloz/langchain_dart/test.yaml?logo=github&label=tests)](https://github.com/davidmigloz/langchain_dart/actions/workflows/test.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joanroig/admincraft",
+      "status": "candidate-context",
+      "text": "\ud83d\udcf1 Multiplatform app to control Minecraft Bedrock Dockerized servers, built with Flutter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joanroig/admincraft",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -894,6 +906,12 @@
       "source_repo": "davidmigloz/langchain_dart",
       "status": "candidate",
       "text": "[![tests](https://img.shields.io/github/actions/workflow/status/davidmigloz/langchain_dart/test.yaml?logo=github&label=tests)](https://github.com/davidmigloz/langchain_dart/actions/workflows/test.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joanroig/admincraft",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1561,11 +1579,35 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": null,
       "source_repo": "shekohex/allo-isolate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "firebase/flutterfire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "shekohex/allo-isolate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "joanroig/admincraft"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

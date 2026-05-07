@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The AMM Laboratory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Generate protobuf code"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Generate protobuf code"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11826,
+      "status": "candidate",
+      "text": "matrix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11712,
+      "status": "candidate",
+      "text": "scanner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10861,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10861,
+      "status": "candidate",
+      "text": "boil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10861,
+      "status": "candidate",
+      "text": "call"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate protobuf code",
+      "sense_id": "generate-protobuf-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "generate-protobuf-code",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "generate-protobuf-code",
+  "observation_id": "4ee123513b020281",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_text": "Generate protobuf code",
+  "source_context_snippet": "Generate protobuf code",
+  "source_file": ".github/workflows/check-generated.yml",
+  "source_repo": "osmosis-labs/osmosis",
+  "source_repo_description": "The AMM Laboratory"
+}

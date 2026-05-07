@@ -61,22 +61,7 @@
       "source_file": "package.json"
     },
     {
-      "component": "@types/mri",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "@types/node",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "@types/node-fetch",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "@types/sinon",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -126,11 +111,6 @@
       "source_file": "package.json"
     },
     {
-      "component": "husky",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "jsdom",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -142,11 +122,6 @@
     },
     {
       "component": "lightningcss",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "lint-staged",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -167,11 +142,6 @@
     },
     {
       "component": "preact",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "sinon",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -327,28 +297,7 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "preactjs/preact-devtools",
-      "target": "@types/mri",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "preactjs/preact-devtools",
       "target": "@types/node",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "preactjs/preact-devtools",
-      "target": "@types/node-fetch",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "preactjs/preact-devtools",
-      "target": "@types/sinon",
       "target_type": "component"
     },
     {
@@ -418,13 +367,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "preactjs/preact-devtools",
-      "target": "husky",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "preactjs/preact-devtools",
       "target": "jsdom",
       "target_type": "component"
     },
@@ -440,13 +382,6 @@
       "source_file": "package.json",
       "source_repo": "preactjs/preact-devtools",
       "target": "lightningcss",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "preactjs/preact-devtools",
-      "target": "lint-staged",
       "target_type": "component"
     },
     {
@@ -475,13 +410,6 @@
       "source_file": "package.json",
       "source_repo": "preactjs/preact-devtools",
       "target": "preact",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "preactjs/preact-devtools",
-      "target": "sinon",
       "target_type": "component"
     },
     {
@@ -611,7 +539,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-06T13:01:12.315996+00:00",
+  "fetched_at": "2026-05-07T02:06:00.373485+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -619,7 +547,7 @@
     },
     {
       "path": "package.json",
-      "size": 3774
+      "size": 3452
     },
     {
       "path": ".github/workflows/docs.yml",
@@ -627,7 +555,7 @@
     },
     {
       "path": ".github/workflows/nodejs.yml",
-      "size": 887
+      "size": 952
     }
   ],
   "related_repositories": [],
@@ -639,7 +567,7 @@
     "full_name": "preactjs/preact-devtools",
     "html_url": "https://github.com/preactjs/preact-devtools",
     "language": "TypeScript",
-    "pushed_at": "2026-05-06T12:59:48Z",
+    "pushed_at": "2026-05-06T22:08:31Z",
     "stargazers_count": 341,
     "topics": [
       "chrome",
@@ -648,7 +576,7 @@
       "preact",
       "preact-devtools"
     ],
-    "updated_at": "2026-05-06T12:56:04Z"
+    "updated_at": "2026-05-06T16:07:47Z"
   },
   "repo_links": [
     {

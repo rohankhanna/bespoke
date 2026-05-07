@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -556,6 +556,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "danny-avila/LibreChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "shibing624/MedicalGPT"
     }
   ],
   "term": "chatgpt"

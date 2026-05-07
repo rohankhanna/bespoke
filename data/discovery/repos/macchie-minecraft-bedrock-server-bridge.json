@@ -1,0 +1,157 @@
+{
+  "components": [
+    {
+      "component": "cors",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dockerode",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "express",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "telegraf",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/cors",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/dockerode",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/express",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsc-watch",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "macchie/minecraft-bedrock-server-bridge",
+      "target": "cors",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "macchie/minecraft-bedrock-server-bridge",
+      "target": "dockerode",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "macchie/minecraft-bedrock-server-bridge",
+      "target": "express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "macchie/minecraft-bedrock-server-bridge",
+      "target": "telegraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "macchie/minecraft-bedrock-server-bridge",
+      "target": "@types/cors",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "macchie/minecraft-bedrock-server-bridge",
+      "target": "@types/dockerode",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "macchie/minecraft-bedrock-server-bridge",
+      "target": "@types/express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "macchie/minecraft-bedrock-server-bridge",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "macchie/minecraft-bedrock-server-bridge",
+      "target": "tsc-watch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "macchie/minecraft-bedrock-server-bridge",
+      "target": "typescript",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-07T02:49:21.362202+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5564
+    },
+    {
+      "path": "Dockerfile",
+      "size": 474
+    },
+    {
+      "path": "package.json",
+      "size": 683
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Minecraft Bedrock Server Bridge",
+    "fork": false,
+    "full_name": "macchie/minecraft-bedrock-server-bridge",
+    "html_url": "https://github.com/macchie/minecraft-bedrock-server-bridge",
+    "language": "TypeScript",
+    "pushed_at": "2021-11-02T17:57:00Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2025-09-09T17:44:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

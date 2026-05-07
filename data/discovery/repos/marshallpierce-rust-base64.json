@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marshallpierce/rust-base64",
+      "target": "base64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marshallpierce/rust-base64",
+      "target": "nostd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marshallpierce/rust-base64",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T01:56:58.808008+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8055
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1551
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "base64, in rust",
+    "fork": false,
+    "full_name": "marshallpierce/rust-base64",
+    "html_url": "https://github.com/marshallpierce/rust-base64",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T02:11:56Z",
+    "stargazers_count": 719,
+    "topics": [
+      "base64",
+      "nostd",
+      "rust"
+    ],
+    "updated_at": "2026-05-01T03:08:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![](https://img.shields.io/crates/v/base64.svg)](https://crates.io/crates/base64) [![Docs](https://docs.rs/base64/badge.svg)](https://docs.rs/base64) [![CircleCI](https://circleci.com/gh/marshallpierce/rust-base64/tree/master.svg?style=shield)](https://circleci.com/gh/marshallp\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base64"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/crates/v/base64.svg)](https://crates.io/crates/base64) [![Docs](https://docs.rs/base64/badge.svg)](https://docs.rs/base64) [![CircleCI](https://circleci.com/gh/marshallpierce/rust-base64/tree/master.svg?style=shield)](https://circleci.com/gh/marshallp\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nostd"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/crates/v/base64.svg)](https://crates.io/crates/base64) [![Docs](https://docs.rs/base64/badge.svg)](https://docs.rs/base64) [![CircleCI](https://circleci.com/gh/marshallpierce/rust-base64/tree/master.svg?style=shield)](https://circleci.com/gh/marshallp\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

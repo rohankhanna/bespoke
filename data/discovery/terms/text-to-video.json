@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -126,6 +126,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "songweige/TATS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuyang-liu16/Awesome-Generation-Acceleration"
     }
   ],
   "term": "text-to-video"

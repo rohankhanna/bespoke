@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clearml/clearml-agent-bootstrap",
+      "target": "clearml/dropbear",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T01:02:48.527518+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16665
+    },
+    {
+      "path": ".github/workflows/git_issue_to_pylon.yml",
+      "size": 946
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bootstrap binaries for the ClearML Agent package",
+    "fork": false,
+    "full_name": "clearml/clearml-agent-bootstrap",
+    "html_url": "https://github.com/clearml/clearml-agent-bootstrap",
+    "language": "Shell",
+    "pushed_at": "2026-05-06T15:42:50Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-05-06T15:31:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clearml/dropbear",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -106,11 +106,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "black0017/MedicalZooPytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],

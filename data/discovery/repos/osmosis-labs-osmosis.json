@@ -1,0 +1,442 @@
+{
+  "components": [
+    {
+      "component": "actions/add-to-project@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-issue-to-project.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "technote-space/get-diff-action@v6.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-entry-reminder.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v45.0.8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-entry-reminder.yml"
+    },
+    {
+      "component": "Zomzog/changelog-checker@v1.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-entry-reminder.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-broken-links.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-broken-links.yml"
+    },
+    {
+      "component": "lycheeverse/lychee-action@v2.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-broken-links.yml"
+    },
+    {
+      "component": "peter-evans/create-issue-from-file@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-broken-links.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-state-compatibility.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-state-compatibility.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-state-compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-cache.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "cosmos/rosetta",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "osmosis-labs/cosmos-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "osmosis-labs/block-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-issue-to-project.yml",
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "actions/add-to-project@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-issue-to-project.yml",
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "Add new issues to project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "technote-space/get-diff-action@v6.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "Build osmosisd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-entry-reminder.yml",
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-entry-reminder.yml",
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "tj-actions/changed-files@v45.0.8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-entry-reminder.yml",
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "Zomzog/changelog-checker@v1.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-entry-reminder.yml",
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "Changelog Reminder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-broken-links.yml",
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-broken-links.yml",
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-broken-links.yml",
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "lycheeverse/lychee-action@v2.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-broken-links.yml",
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "peter-evans/create-issue-from-file@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-broken-links.yml",
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "Check Broken Links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated.yml",
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-generated.yml",
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "Generate protobuf code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-state-compatibility.yml",
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-state-compatibility.yml",
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-state-compatibility.yml",
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-state-compatibility.yml",
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "Check state compatibility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-cache.yaml",
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-cache.yaml",
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "cleanup caches by a branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "cosmos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "defi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "osmosis-labs/osmosis",
+      "target": "osmosis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T01:56:00.363630+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4620
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2519
+    },
+    {
+      "path": "go.mod",
+      "size": 17199
+    },
+    {
+      "path": ".github/workflows/add-issue-to-project.yml",
+      "size": 361
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2052
+    },
+    {
+      "path": ".github/workflows/changelog-entry-reminder.yml",
+      "size": 1071
+    },
+    {
+      "path": ".github/workflows/check-broken-links.yml",
+      "size": 1711
+    },
+    {
+      "path": ".github/workflows/check-generated.yml",
+      "size": 1114
+    },
+    {
+      "path": ".github/workflows/check-state-compatibility.yml",
+      "size": 9193
+    },
+    {
+      "path": ".github/workflows/cleanup-cache.yaml",
+      "size": 1152
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The AMM Laboratory",
+    "fork": false,
+    "full_name": "osmosis-labs/osmosis",
+    "html_url": "https://github.com/osmosis-labs/osmosis",
+    "language": "Go",
+    "pushed_at": "2026-05-05T10:35:06Z",
+    "stargazers_count": 962,
+    "topics": [
+      "cosmos",
+      "defi",
+      "dex",
+      "osmosis"
+    ],
+    "updated_at": "2026-05-02T15:49:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cosmos/rosetta",
+      "source_file": "go.mod"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "osmosis-labs/block-sdk",
+      "source_file": "go.mod"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "osmosis-labs/cosmos-sdk",
+      "source_file": "go.mod"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Add new issues to project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-issue-to-project.yml",
+      "term": "Add new issues to project"
+    },
+    {
+      "context_snippet": "Build osmosisd",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build osmosisd"
+    },
+    {
+      "context_snippet": "Changelog Reminder",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-entry-reminder.yml",
+      "term": "Changelog Reminder"
+    },
+    {
+      "context_snippet": "Check Broken Links",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-broken-links.yml",
+      "term": "Check Broken Links"
+    },
+    {
+      "context_snippet": "Generate protobuf code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-generated.yml",
+      "term": "Generate protobuf code"
+    },
+    {
+      "context_snippet": "Check state compatibility",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-state-compatibility.yml",
+      "term": "Check state compatibility"
+    },
+    {
+      "context_snippet": "cleanup caches by a branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-cache.yaml",
+      "term": "cleanup caches by a branch"
+    },
+    {
+      "context_snippet": "![Banner!](assets/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cosmos"
+    },
+    {
+      "context_snippet": "![Banner!](assets/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "defi"
+    },
+    {
+      "context_snippet": "![Banner!](assets/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "osmosis"
+    }
+  ]
+}

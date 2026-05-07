@@ -19,6 +19,18 @@
       "source_repo": "vueform/vueform",
       "status": "candidate-context",
       "text": "[![Vueform](https://raw.githubusercontent.com/vueform/vueform/main/.github/assets/banner.svg)](https://vueform.com?cid=vueform)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vform666/variant-form",
+      "status": "candidate-context",
+      "text": "A powerful form designer for Vue."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vform666/variant-form",
+      "status": "candidate-context",
+      "text": "![image](https://ks3-cn-beijing.ksyuncs.com/vform-static/img/vform_demo.gif)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "vueform/vueform",
       "status": "candidate",
       "text": "[![Vueform](https://raw.githubusercontent.com/vueform/vueform/main/.github/assets/banner.svg)](https://vueform.com?cid=vueform)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vform666/variant-form",
+      "status": "candidate",
+      "text": "![image](https://ks3-cn-beijing.ksyuncs.com/vform-static/img/vform_demo.gif)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "vueform/vueform"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T00:37:24.413591+00:00",
+      "source_file": null,
+      "source_repo": "vform666/variant-form"
     }
   ],
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "lexical_providers": [
     "datamuse"
   ],
