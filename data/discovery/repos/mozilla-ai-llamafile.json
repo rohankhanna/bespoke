@@ -204,7 +204,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T08:40:15.189315+00:00",
+  "fetched_at": "2026-05-07T13:05:31.633357+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -241,7 +241,7 @@
     "html_url": "https://github.com/mozilla-ai/llamafile",
     "language": "C++",
     "pushed_at": "2026-05-04T20:45:06Z",
-    "stargazers_count": 24391,
+    "stargazers_count": 24395,
     "topics": [
       "cross-platform",
       "gguf",
@@ -253,7 +253,7 @@
       "single-file-executable",
       "speech-to-text"
     ],
-    "updated_at": "2026-05-07T08:21:00Z"
+    "updated_at": "2026-05-07T12:31:43Z"
   },
   "repo_links": [
     {

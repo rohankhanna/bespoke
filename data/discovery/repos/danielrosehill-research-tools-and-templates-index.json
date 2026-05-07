@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Research-Tools-And-Templates-Index",
+      "target": "danielrosehill/ai-project-spec-pattern",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Research-Tools-And-Templates-Index",
+      "target": "danielrosehill/remote-jobs-research-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Research-Tools-And-Templates-Index",
+      "target": "danielrosehill/deep-research-projects-0425",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Research-Tools-And-Templates-Index",
+      "target": "indexes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T12:57:42.357124+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7627
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Research scaffolds and repos",
+    "fork": false,
+    "full_name": "danielrosehill/Research-Tools-And-Templates-Index",
+    "html_url": "https://github.com/danielrosehill/Research-Tools-And-Templates-Index",
+    "language": null,
+    "pushed_at": "2026-04-14T12:21:21Z",
+    "stargazers_count": 0,
+    "topics": [
+      "indexes"
+    ],
+    "updated_at": "2026-04-14T12:21:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/ai-project-spec-pattern",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/deep-research-projects-0425",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/remote-jobs-research-agent",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "indexes"
+    }
+  ]
+}

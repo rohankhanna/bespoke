@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "clang-tidy review post comments"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WisdomShell/llama_cpp_for_codeshell",
+      "status": "candidate-context",
+      "text": "CodeShell model in C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WisdomShell/llama_cpp_for_codeshell",
+      "status": "candidate-context",
+      "text": "clang-tidy review post comments"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WisdomShell/llama_cpp_for_codeshell",
+      "status": "candidate",
+      "text": "clang-tidy review post comments"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34177,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19195,
+      "status": "candidate",
+      "text": "recap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18231,
+      "status": "candidate",
+      "text": "comment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18159,
+      "status": "candidate",
+      "text": "notice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18159,
+      "status": "candidate",
+      "text": "point"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "clang-tidy review post comments",
+  "concept_id": "clang-tidy-review-post-comments",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/tidy-post.yml",
+      "source_repo": "WisdomShell/llama_cpp_for_codeshell"
+    }
+  ],
+  "first_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "clang-tidy review post comments",
+      "sense_id": "clang-tidy-review-post-comments#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -7723,6 +7723,54 @@
       "source_repo": "KaiyangZhou/Dassl.pytorch",
       "status": "candidate-context",
       "text": "Dassl is a [PyTorch](https://pytorch.org) toolbox initially developed for our project [Domain Adaptive Ensemble Learning (DAEL)](https://arxiv.org/abs/2003.07325) to support research in domain adaptation and generalization---since in DAEL we study how to unify these two problems\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "descriptinc/descript-audio-codec",
+      "status": "candidate-context",
+      "text": "State-of-the-art audio codec with 90x compression factor. Supports 44.1kHz, 24kHz, and 16kHz mono/stereo audio."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "descriptinc/descript-audio-codec",
+      "status": "candidate-context",
+      "text": "This repository contains training and inference scripts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devnen/Dia-TTS-Server",
+      "status": "candidate-context",
+      "text": "Self-host the powerful Dia TTS model. This server offers a user-friendly Web UI, flexible API endpoints (incl. OpenAI compatible), support for SafeTensors/BF16, voice cloning, dialogue generation, and GPU/CPU execution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devnen/Dia-TTS-Server",
+      "status": "candidate-context",
+      "text": "**Self-host the powerful [Nari Labs Dia TTS models](https://github.com/nari-labs/dia) \u2014 including the original **Dia 1.6B** and the new **Dia 2** family (1B & 2B) \u2014 with this enhanced FastAPI server! Features hot-swappable model switching, an intuitive Web UI, flexible API endpo\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devnen/Kitten-TTS-Server",
+      "status": "candidate-context",
+      "text": "Self-host the ultra-lightweight Kitten TTS model with this enhanced API server with an intuitive Web UI, large text processing for audiobooks, and GPU acceleration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devnen/Kitten-TTS-Server",
+      "status": "candidate-context",
+      "text": "**Self-host the ultra-lightweight [KittenTTS model](https://github.com/KittenML/KittenTTS) with this enhanced API server. Now supports all 7 KittenTTS models \u2014 from the tiny 15M Nano to the 80M Mini \u2014 with hot-swappable model switching, an intuitive Web UI, a flexible API, large\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ludwig-ai/ludwig",
+      "status": "candidate-context",
+      "text": "Low-code framework for building custom LLMs, neural networks, and other AI models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ludwig-ai/ludwig",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -11583,6 +11631,30 @@
       "source_repo": "KaiyangZhou/Dassl.pytorch",
       "status": "candidate",
       "text": "Dassl is a [PyTorch](https://pytorch.org) toolbox initially developed for our project [Domain Adaptive Ensemble Learning (DAEL)](https://arxiv.org/abs/2003.07325) to support research in domain adaptation and generalization---since in DAEL we study how to unify these two problems\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "descriptinc/descript-audio-codec",
+      "status": "candidate",
+      "text": "This repository contains training and inference scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devnen/Dia-TTS-Server",
+      "status": "candidate",
+      "text": "**Self-host the powerful [Nari Labs Dia TTS models](https://github.com/nari-labs/dia) \u2014 including the original **Dia 1.6B** and the new **Dia 2** family (1B & 2B) \u2014 with this enhanced FastAPI server! Features hot-swappable model switching, an intuitive Web UI, flexible API endpo\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devnen/Kitten-TTS-Server",
+      "status": "candidate",
+      "text": "**Self-host the ultra-lightweight [KittenTTS model](https://github.com/KittenML/KittenTTS) with this enhanced API server. Now supports all 7 KittenTTS models \u2014 from the tiny 15M Nano to the 80M Mini \u2014 with hot-swappable model switching, an intuitive Web UI, a flexible API, large\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ludwig-ai/ludwig",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -20974,11 +21046,323 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": null,
       "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "descriptinc/descript-audio-codec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "devnen/Dia-TTS-Server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "devnen/Kitten-TTS-Server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-quanto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "Sanster/IOPaint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "baal-org/baal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "FoundationVision/ByteTrack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "megvii-research/MOTR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "meetps/pytorch-semseg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "ludwig-ai/ludwig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "lukashermann/hulc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "lcswillems/rl-starter-files"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "iflytek/cino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogView"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/vector-quantize-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "axelspringer/DeepPhonemizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "AssemblyAI-Community/MinImagen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "iver56/torch-audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "DayBreak-u/chineseocr_lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/HybrIK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/res-loglikelihood-regression"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/gloo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "DemisEom/SpecAugment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "intel/BigDL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "intel/ipex-llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -31,6 +31,18 @@
       "source_repo": "DOGEwbx/llama.cpp",
       "status": "candidate-context",
       "text": "EditorConfig Checker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WisdomShell/llama_cpp_for_codeshell",
+      "status": "candidate-context",
+      "text": "CodeShell model in C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WisdomShell/llama_cpp_for_codeshell",
+      "status": "candidate-context",
+      "text": "EditorConfig Checker"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "DOGEwbx/llama.cpp",
+      "status": "candidate",
+      "text": "EditorConfig Checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WisdomShell/llama_cpp_for_codeshell",
       "status": "candidate",
       "text": "EditorConfig Checker"
     }
@@ -178,11 +196,23 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": ".github/workflows/editorconfig.yml",
       "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/editorconfig.yml",
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/editorconfig.yml",
+      "source_repo": "WisdomShell/llama_cpp_for_codeshell"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
   "lexical_providers": [
     "datamuse"
   ],

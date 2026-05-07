@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IdreesInc/Minecraft-Font",
+      "target": "idreesinc/minecraft-mono",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IdreesInc/Minecraft-Font",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IdreesInc/Minecraft-Font",
+      "target": "minecraft",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T13:07:22.521539+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3952
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A rendition of the font used in Minecraft",
+    "fork": false,
+    "full_name": "IdreesInc/Minecraft-Font",
+    "html_url": "https://github.com/IdreesInc/Minecraft-Font",
+    "language": null,
+    "pushed_at": "2023-02-12T00:07:33Z",
+    "stargazers_count": 432,
+    "topics": [
+      "font",
+      "minecraft"
+    ],
+    "updated_at": "2026-05-02T10:58:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idreesinc/minecraft-mono",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "***Notice: This project is not affiliated with Minecraft or Mojang in any way and is exclusively a fan project. This font emulates the typeface of the font used in the Minecraft UI, but it does not include any assets or font files from the original game.***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "***Notice: This project is not affiliated with Minecraft or Mojang in any way and is exclusively a fan project. This font emulates the typeface of the font used in the Minecraft UI, but it does not include any assets or font files from the original game.***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minecraft"
+    }
+  ]
+}

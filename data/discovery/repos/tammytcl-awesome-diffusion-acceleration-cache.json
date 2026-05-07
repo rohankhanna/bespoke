@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tammytcl/Awesome-Diffusion-Acceleration-Cache",
+      "target": "asleepytree/eb-cache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tammytcl/Awesome-Diffusion-Acceleration-Cache",
+      "target": "bienluky/cachequant",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tammytcl/Awesome-Diffusion-Acceleration-Cache",
+      "target": "aniaggarwal/ecad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tammytcl/Awesome-Diffusion-Acceleration-Cache",
+      "target": "bujiazi/dicache",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T14:12:45.104716+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31684
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A curated list of research papers, resources, and advancements on Diffusion Cache and related efficient diffusion model acceleration techniques.",
+    "fork": false,
+    "full_name": "Tammytcl/Awesome-Diffusion-Acceleration-Cache",
+    "html_url": "https://github.com/Tammytcl/Awesome-Diffusion-Acceleration-Cache",
+    "language": null,
+    "pushed_at": "2025-11-04T07:18:43Z",
+    "stargazers_count": 81,
+    "topics": [],
+    "updated_at": "2026-04-30T11:24:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aniaggarwal/ecad",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asleepytree/eb-cache",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bienluky/cachequant",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bujiazi/dicache",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

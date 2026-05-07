@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T14:07:11.078881+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "VisionLearningGroup/VisionLearningGroup.github.io",
+    "html_url": "https://github.com/VisionLearningGroup/VisionLearningGroup.github.io",
+    "language": "CSS",
+    "pushed_at": "2026-02-07T23:49:35Z",
+    "stargazers_count": 186,
+    "topics": [],
+    "updated_at": "2026-03-30T00:21:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

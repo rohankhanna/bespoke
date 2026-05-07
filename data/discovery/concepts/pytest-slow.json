@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "pytest (slow)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ludwig-ai/ludwig",
+      "status": "candidate-context",
+      "text": "Low-code framework for building custom LLMs, neural networks, and other AI models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ludwig-ai/ludwig",
+      "status": "candidate-context",
+      "text": "pytest (slow)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ludwig-ai/ludwig",
+      "status": "candidate",
+      "text": "pytest (slow)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "pytest (slow)",
+  "concept_id": "pytest-slow",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/pytest_slow.yml",
+      "source_repo": "ludwig-ai/ludwig"
+    }
+  ],
+  "first_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "pytest (slow)",
+      "sense_id": "pytest-slow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

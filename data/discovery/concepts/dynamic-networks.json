@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "dynamic-networks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MetaVisionLab/DDG",
+      "status": "candidate-context",
+      "text": "DDG: This repo contains the code for our IJCAI 2022 paper: Dynamic Domain Generalization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MetaVisionLab/DDG",
+      "status": "candidate-context",
+      "text": "This repo contains the code for our IJCAI 2022 paper: Dynamic Domain Generalization."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MetaVisionLab/DDG",
+      "status": "candidate",
+      "text": "This repo contains the code for our IJCAI 2022 paper: Dynamic Domain Generalization."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "dynamic-networks",
+  "concept_id": "dynamic-networks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "MetaVisionLab/DDG"
+    }
+  ],
+  "first_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dynamic-networks",
+      "sense_id": "dynamic-networks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

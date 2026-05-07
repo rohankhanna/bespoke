@@ -289,6 +289,18 @@
       "source_repo": "datvodinh/rag-chatbot",
       "status": "candidate-context",
       "text": "![alt text](assets/demo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ludwig-ai/ludwig",
+      "status": "candidate-context",
+      "text": "Low-code framework for building custom LLMs, neural networks, and other AI models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ludwig-ai/ludwig",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -435,6 +447,12 @@
       "source_repo": "datvodinh/rag-chatbot",
       "status": "candidate",
       "text": "![alt text](assets/demo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ludwig-ai/ludwig",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1036,11 +1054,35 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": null,
       "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "ludwig-ai/ludwig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -166,11 +166,6 @@
       "source_file": "package.json"
     },
     {
-      "component": "babel-plugin-istanbul",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "babel-plugin-module-resolver",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -642,13 +637,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "mui/material-ui",
-      "target": "babel-plugin-istanbul",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "mui/material-ui",
       "target": "babel-plugin-module-resolver",
       "target_type": "component"
     },
@@ -1059,7 +1047,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T09:22:59.190544+00:00",
+  "fetched_at": "2026-05-07T13:53:49.656660+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1067,7 +1055,7 @@
     },
     {
       "path": "package.json",
-      "size": 8600
+      "size": 8562
     },
     {
       "path": ".github/workflows/check-if-pr-has-label.yml",
@@ -1111,8 +1099,8 @@
     "full_name": "mui/material-ui",
     "html_url": "https://github.com/mui/material-ui",
     "language": "JavaScript",
-    "pushed_at": "2026-05-07T06:11:33Z",
-    "stargazers_count": 98284,
+    "pushed_at": "2026-05-07T11:03:43Z",
+    "stargazers_count": 98286,
     "topics": [
       "design-system",
       "material-design",
@@ -1120,7 +1108,7 @@
       "react",
       "react-components"
     ],
-    "updated_at": "2026-05-07T08:26:32Z"
+    "updated_at": "2026-05-07T11:43:06Z"
   },
   "repo_links": [],
   "terms": [

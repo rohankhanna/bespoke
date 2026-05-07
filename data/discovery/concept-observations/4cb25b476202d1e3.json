@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "public mirror of openSUSE sources from build.opensuse.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repo is a public read-only git mirror of openSUSE sources"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repo is a public read-only git mirror of openSUSE sources"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19908132,
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19908131,
+      "status": "candidate",
+      "text": "open source"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19908129,
+      "status": "candidate",
+      "text": "linuxism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19908127,
+      "status": "candidate",
+      "text": "unix"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "opensuse",
+      "sense_id": "opensuse#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "opensuse",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "opensuse",
+  "observation_id": "4cb25b476202d1e3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T12:51:40.300011+00:00",
+  "observed_text": "opensuse",
+  "source_context_snippet": "This repo is a public read-only git mirror of openSUSE sources",
+  "source_file": null,
+  "source_repo": "bmwiedemann/openSUSE",
+  "source_repo_description": "public mirror of openSUSE sources from build.opensuse.org"
+}

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ungoogled-software/ungoogled-chromium-wiki",
+      "target": "chromatical/jekyll-materialdocs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ungoogled-software/ungoogled-chromium-wiki",
+      "target": "google/material-design-lite",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T12:56:21.042414+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1020
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Wiki for ungoogled-chromium",
+    "fork": false,
+    "full_name": "ungoogled-software/ungoogled-chromium-wiki",
+    "html_url": "https://github.com/ungoogled-software/ungoogled-chromium-wiki",
+    "language": "CSS",
+    "pushed_at": "2026-04-15T17:07:59Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2026-04-27T20:25:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chromatical/jekyll-materialdocs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/material-design-lite",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oppiliappan/scientifica",
+      "target": "romeovs/creep",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oppiliappan/scientifica",
+      "target": "raymond-w-ko/creep2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oppiliappan/scientifica",
+      "target": "bitmap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oppiliappan/scientifica",
+      "target": "bitmap-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oppiliappan/scientifica",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oppiliappan/scientifica",
+      "target": "ligatures",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T13:07:24.038419+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2318
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "tall, condensed, bitmap font for geeks",
+    "fork": false,
+    "full_name": "oppiliappan/scientifica",
+    "html_url": "https://github.com/oppiliappan/scientifica",
+    "language": "Vim script",
+    "pushed_at": "2023-11-04T17:11:39Z",
+    "stargazers_count": 2099,
+    "topics": [
+      "bitmap",
+      "bitmap-font",
+      "font",
+      "ligatures"
+    ],
+    "updated_at": "2026-05-05T15:48:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raymond-w-ko/creep2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "romeovs/creep",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitmap"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitmap-font"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ligatures"
+    }
+  ]
+}

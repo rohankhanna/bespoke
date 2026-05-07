@@ -1,0 +1,133 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "francoispqt/gojay",
+      "target": "decoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "francoispqt/gojay",
+      "target": "encoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "francoispqt/gojay",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "francoispqt/gojay",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "francoispqt/gojay",
+      "target": "perfomance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "francoispqt/gojay",
+      "target": "stream-decoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "francoispqt/gojay",
+      "target": "stream-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T13:09:37.201364+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25364
+    },
+    {
+      "path": "go.mod",
+      "size": 962
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "high performance JSON encoder/decoder with stream API for Golang ",
+    "fork": false,
+    "full_name": "francoispqt/gojay",
+    "html_url": "https://github.com/francoispqt/gojay",
+    "language": "Go",
+    "pushed_at": "2023-11-22T16:50:12Z",
+    "stargazers_count": 2135,
+    "topics": [
+      "decoder",
+      "encoder",
+      "go",
+      "golang",
+      "json",
+      "perfomance",
+      "stream-decoder",
+      "stream-processing"
+    ],
+    "updated_at": "2026-04-04T18:07:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/francoispqt/gojay.svg?branch=master)](https://travis-ci.org/francoispqt/gojay)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decoder"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/francoispqt/gojay.svg?branch=master)](https://travis-ci.org/francoispqt/gojay)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encoder"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/francoispqt/gojay.svg?branch=master)](https://travis-ci.org/francoispqt/gojay)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/francoispqt/gojay.svg?branch=master)](https://travis-ci.org/francoispqt/gojay)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/francoispqt/gojay.svg?branch=master)](https://travis-ci.org/francoispqt/gojay)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "perfomance"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/francoispqt/gojay.svg?branch=master)](https://travis-ci.org/francoispqt/gojay)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stream-decoder"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/francoispqt/gojay.svg?branch=master)](https://travis-ci.org/francoispqt/gojay)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stream-processing"
+    }
+  ]
+}

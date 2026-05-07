@@ -386,7 +386,7 @@
       "source_file": ".github/workflows/arm64.yml"
     },
     {
-      "component": "docker/github-builder/.github/workflows/bake.yml@7d2a02426d4b989616ba5aaee4e879afd4134b0d",
+      "component": "docker/github-builder/.github/workflows/bake.yml@c2782c55efa56a01b9c30021db8f5ec3993228a3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bin-image.yml"
     }
@@ -662,7 +662,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bin-image.yml",
       "source_repo": "moby/moby",
-      "target": "docker/github-builder/.github/workflows/bake.yml@7d2a02426d4b989616ba5aaee4e879afd4134b0d",
+      "target": "docker/github-builder/.github/workflows/bake.yml@c2782c55efa56a01b9c30021db8f5ec3993228a3",
       "target_type": "component"
     },
     {
@@ -694,7 +694,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T08:38:46.836759+00:00",
+  "fetched_at": "2026-05-07T13:04:19.264277+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -746,15 +746,15 @@
     "full_name": "moby/moby",
     "html_url": "https://github.com/moby/moby",
     "language": "Go",
-    "pushed_at": "2026-05-07T08:37:51Z",
-    "stargazers_count": 71520,
+    "pushed_at": "2026-05-07T09:40:28Z",
+    "stargazers_count": 71524,
     "topics": [
       "containers",
       "docker",
       "go",
       "golang"
     ],
-    "updated_at": "2026-05-07T08:37:58Z"
+    "updated_at": "2026-05-07T11:55:59Z"
   },
   "repo_links": [
     {

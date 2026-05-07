@@ -163,6 +163,18 @@
       "source_repo": "pgjones/hypercorn",
       "status": "candidate-context",
       "text": "Hypercorn"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gookit/rux",
+      "status": "candidate-context",
+      "text": "\u26a1 Rux is an simple and fast web framework. support route group, param route binding, middleware, compatible http.Handler interface. \u7b80\u5355\u4e14\u5feb\u901f\u7684 Go api/web \u6846\u67b6\uff0c\u652f\u6301\u8def\u7531\u5206\u7ec4\uff0c\u8def\u7531\u53c2\u6570\u7ed1\u5b9a\uff0c\u4e2d\u95f4\u4ef6\uff0c\u517c\u5bb9 http.Handler \u63a5\u53e3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/rux",
+      "status": "candidate-context",
+      "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/rux?style=flat-square)"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "pgjones/hypercorn",
       "status": "candidate",
       "text": "Hypercorn"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/rux",
+      "status": "candidate",
+      "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/rux?style=flat-square)"
     }
   ],
   "candidate_related_terms": [],
@@ -334,11 +352,17 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "http-party/http-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "gookit/rux"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
   "lexical_providers": [
     "datamuse"
   ],

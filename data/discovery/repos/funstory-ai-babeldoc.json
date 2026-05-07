@@ -163,6 +163,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "funstory-ai/BabelDOC",
+      "target": "surya-is/surya",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "funstory-ai/BabelDOC",
       "target": "byaidu/pdfmathtranslate",
       "target_type": "repository"
     },
@@ -398,7 +405,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T09:25:30.616595+00:00",
+  "fetched_at": "2026-05-07T13:55:12.653345+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -406,7 +413,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 4726
+      "size": 4792
     },
     {
       "path": ".github/workflows/codeql.yml",
@@ -430,7 +437,7 @@
     },
     {
       "path": ".github/workflows/publish-to-pypi.yml",
-      "size": 4536
+      "size": 5381
     },
     {
       "path": ".github/workflows/test.yml",
@@ -446,10 +453,10 @@
     "full_name": "funstory-ai/BabelDOC",
     "html_url": "https://github.com/funstory-ai/BabelDOC",
     "language": "Python",
-    "pushed_at": "2026-04-13T22:19:45Z",
-    "stargazers_count": 8400,
+    "pushed_at": "2026-05-07T11:45:43Z",
+    "stargazers_count": 8406,
     "topics": [],
-    "updated_at": "2026-05-07T08:57:39Z"
+    "updated_at": "2026-05-07T13:49:36Z"
   },
   "repo_links": [
     {
@@ -465,6 +472,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "multimeric/asynchronize",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "surya-is/surya",
       "source_file": "README.md"
     }
   ],

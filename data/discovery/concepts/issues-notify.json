@@ -43,6 +43,18 @@
       "source_repo": "itzg/docker-minecraft-bedrock-server",
       "status": "candidate-context",
       "text": "Issues notify"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "itzg/docker-mc-backup",
+      "status": "candidate-context",
+      "text": "Provides a side-car container to backup itzg/minecraft-server server data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itzg/docker-mc-backup",
+      "status": "candidate-context",
+      "text": "Issues notify"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "itzg/docker-minecraft-bedrock-server",
+      "status": "candidate",
+      "text": "Issues notify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itzg/docker-mc-backup",
       "status": "candidate",
       "text": "Issues notify"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-05-06T12:51:12.481137+00:00",
       "source_file": ".github/workflows/issues-notify.yml",
       "source_repo": "itzg/docker-minecraft-bedrock-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/issues-notify.yml",
+      "source_repo": "itzg/docker-mc-backup"
     }
   ],
   "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
   "lexical_providers": [
     "datamuse"
   ],

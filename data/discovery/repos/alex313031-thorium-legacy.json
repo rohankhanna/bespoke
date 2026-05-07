@@ -19,14 +19,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Alex313031/thorium-legacy",
-      "target": "eloston/ungoogled-chromium",
+      "target": "saiarcot895/chromium-ubuntu-build",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Alex313031/thorium-legacy",
-      "target": "iridium-browser/iridium-browser",
+      "target": "eloston/ungoogled-chromium",
       "target_type": "repository"
     },
     {
@@ -170,7 +170,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T08:26:54.758447+00:00",
+  "fetched_at": "2026-05-07T12:56:10.966490+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -230,7 +230,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "iridium-browser/iridium-browser",
+      "full_name": "saiarcot895/chromium-ubuntu-build",
       "source_file": "README.md"
     }
   ],

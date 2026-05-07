@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "devnen/chatterbox-v2",
+      "target": "yl4579/hiftnet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T12:57:46.076967+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3892
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 828
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "add-disc",
+    "description": null,
+    "fork": false,
+    "full_name": "devnen/chatterbox-v2",
+    "html_url": "https://github.com/devnen/chatterbox-v2",
+    "language": "Python",
+    "pushed_at": "2026-03-26T22:24:31Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-12-15T23:55:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yl4579/hiftnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IdreesInc/Minecraft-Font",
+      "target": "idreesinc/minecraft-mono",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IdreesInc/Minecraft-Font",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IdreesInc/Minecraft-Font",
+      "target": "minecraft",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-07T12:51:40.300011+00:00",
+  "source_repo": "IdreesInc/Minecraft-Font"
+}

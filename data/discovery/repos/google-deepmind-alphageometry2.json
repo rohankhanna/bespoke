@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T13:53:27.625344+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3892
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AlphaGeometry2 symbolic engine (DDAR) with examples",
+    "fork": false,
+    "full_name": "google-deepmind/alphageometry2",
+    "html_url": "https://github.com/google-deepmind/alphageometry2",
+    "language": "Python",
+    "pushed_at": "2026-01-07T22:35:16Z",
+    "stargazers_count": 68,
+    "topics": [],
+    "updated_at": "2026-05-05T15:32:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -382,6 +382,18 @@
       "source_repo": "kberov/rust-by-example-bg",
       "status": "candidate-context",
       "text": "[![Build Status][travis-badge]][travis-repo]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-playground/validator",
+      "status": "candidate-context",
+      "text": ":100:Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-playground/validator",
+      "status": "candidate-context",
+      "text": "Package validator"
     }
   ],
   "candidate_glosses": [
@@ -570,6 +582,12 @@
       "source_repo": "kberov/rust-by-example-bg",
       "status": "candidate",
       "text": "[![Build Status][travis-badge]][travis-repo]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-playground/validator",
+      "status": "candidate",
+      "text": "Package validator"
     }
   ],
   "candidate_related_terms": [
@@ -967,11 +985,29 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": null,
       "source_repo": "fluent-vue/fluent-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "go-playground/validator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "fluent-vue/fluent-vue"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
   "lexical_providers": [
     "datamuse"
   ],

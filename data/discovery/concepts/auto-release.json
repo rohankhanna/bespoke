@@ -243,6 +243,18 @@
       "source_repo": "itzg/docker-minecraft-bedrock-server",
       "status": "candidate-context",
       "text": "Auto release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "itzg/docker-mc-backup",
+      "status": "candidate-context",
+      "text": "Provides a side-car container to backup itzg/minecraft-server server data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itzg/docker-mc-backup",
+      "status": "candidate-context",
+      "text": "Auto release"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +381,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "itzg/docker-minecraft-bedrock-server",
+      "status": "candidate",
+      "text": "Auto release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itzg/docker-mc-backup",
       "status": "candidate",
       "text": "Auto release"
     }
@@ -1062,11 +1080,41 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/auto-release.yml",
+      "source_repo": "itzg/docker-mc-backup"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
   "lexical_providers": [
     "datamuse"
   ],

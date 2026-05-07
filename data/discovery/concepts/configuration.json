@@ -313,6 +313,18 @@
       "source_repo": "gookit/ini",
       "status": "candidate-context",
       "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/ini?style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-ini/ini",
+      "status": "candidate-context",
+      "text": "Package ini provides INI file read and write functionality in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-ini/ini",
+      "status": "candidate-context",
+      "text": "[![GitHub Workflow Status](https://img.shields.io/github/checks-status/go-ini/ini/main?logo=github&style=for-the-badge)](https://github.com/go-ini/ini/actions?query=branch%3Amain)"
     }
   ],
   "candidate_glosses": [
@@ -471,6 +483,12 @@
       "source_repo": "gookit/ini",
       "status": "candidate",
       "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/ini?style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-ini/ini",
+      "status": "candidate",
+      "text": "[![GitHub Workflow Status](https://img.shields.io/github/checks-status/go-ini/ini/main?logo=github&style=for-the-badge)](https://github.com/go-ini/ini/actions?query=branch%3Amain)"
     }
   ],
   "candidate_related_terms": [
@@ -711,11 +729,17 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": null,
       "source_repo": "gookit/ini"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "go-ini/ini"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
   "lexical_providers": [
     "datamuse"
   ],

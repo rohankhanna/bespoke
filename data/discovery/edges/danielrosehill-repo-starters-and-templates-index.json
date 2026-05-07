@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Repo-Starters-And-Templates-Index",
+      "target": "danielrosehill/agents.md-templates",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Repo-Starters-And-Templates-Index",
+      "target": "danielrosehill/ai-dev-repo-template-1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Repo-Starters-And-Templates-Index",
+      "target": "danielrosehill/ai-dev-workspace-primitives",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Repo-Starters-And-Templates-Index",
+      "target": "danielrosehill/ai-project-spec-pattern",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Repo-Starters-And-Templates-Index",
+      "target": "indexes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Repo-Starters-And-Templates-Index",
+      "target": "repositories",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Repo-Starters-And-Templates-Index",
+      "target": "starters",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-07T12:51:40.300011+00:00",
+  "source_repo": "danielrosehill/Repo-Starters-And-Templates-Index"
+}

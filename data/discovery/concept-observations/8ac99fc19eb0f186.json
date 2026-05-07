@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2694 Go package for data validation and filtering. support Map, Struct, Form data. Go\u901a\u7528\u7684\u6570\u636e\u9a8c\u8bc1\u4e0e\u8fc7\u6ee4\u5e93\uff0c\u4f7f\u7528\u7b80\u5355\uff0c\u5185\u7f6e\u5927\u90e8\u5206\u5e38\u7528\u9a8c\u8bc1\u3001\u8fc7\u6ee4\u5668\uff0c\u652f\u6301\u81ea\u5b9a\u4e49\u9a8c\u8bc1\u5668\u3001\u81ea\u5b9a\u4e49\u6d88\u606f\u3001\u5b57\u6bb5\u7ffb\u8bd1\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/gookit/validate)](https://github.com/gookit/validate)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/gookit/validate)](https://github.com/gookit/validate)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029678,
+      "status": "candidate",
+      "text": "checker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029677,
+      "status": "candidate",
+      "text": "invalidator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029676,
+      "status": "candidate",
+      "text": "certificator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029675,
+      "status": "candidate",
+      "text": "legitimator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029674,
+      "status": "candidate",
+      "text": "verificator"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "validator",
+      "sense_id": "validator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "validator",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "validator",
+  "observation_id": "8ac99fc19eb0f186",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T12:51:40.300011+00:00",
+  "observed_text": "validator",
+  "source_context_snippet": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/gookit/validate)](https://github.com/gookit/validate)",
+  "source_file": null,
+  "source_repo": "gookit/validate",
+  "source_repo_description": "\u2694 Go package for data validation and filtering. support Map, Struct, Form data. Go\u901a\u7528\u7684\u6570\u636e\u9a8c\u8bc1\u4e0e\u8fc7\u6ee4\u5e93\uff0c\u4f7f\u7528\u7b80\u5355\uff0c\u5185\u7f6e\u5927\u90e8\u5206\u5e38\u7528\u9a8c\u8bc1\u3001\u8fc7\u6ee4\u5668\uff0c\u652f\u6301\u81ea\u5b9a\u4e49\u9a8c\u8bc1\u5668\u3001\u81ea\u5b9a\u4e49\u6d88\u606f\u3001\u5b57\u6bb5\u7ffb\u8bd1\u3002"
+}

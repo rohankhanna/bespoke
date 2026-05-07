@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bmwiedemann/openSUSE",
+      "target": "ipfs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bmwiedemann/openSUSE",
+      "target": "mirror",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bmwiedemann/openSUSE",
+      "target": "opensuse",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T12:56:22.151254+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 588
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "public mirror of openSUSE sources from build.opensuse.org",
+    "fork": false,
+    "full_name": "bmwiedemann/openSUSE",
+    "html_url": "https://github.com/bmwiedemann/openSUSE",
+    "language": "C",
+    "pushed_at": "2026-05-07T01:18:24Z",
+    "stargazers_count": 46,
+    "topics": [
+      "ipfs",
+      "mirror",
+      "opensuse"
+    ],
+    "updated_at": "2026-05-07T01:18:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repo is a public read-only git mirror of openSUSE sources",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipfs"
+    },
+    {
+      "context_snippet": "This repo is a public read-only git mirror of openSUSE sources",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mirror"
+    },
+    {
+      "context_snippet": "This repo is a public read-only git mirror of openSUSE sources",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opensuse"
+    }
+  ]
+}

@@ -45,6 +45,18 @@
       "source_repo": "gentoo/api-gentoo-org",
       "status": "candidate-context",
       "text": "repositories"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Repo-Starters-And-Templates-Index",
+      "status": "candidate-context",
+      "text": "Index of repo starter templates, scaffolds, and patterns for bootstrapping new projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Repo-Starters-And-Templates-Index",
+      "status": "candidate-context",
+      "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +77,12 @@
       "source_repo": "gentoo/api-gentoo-org",
       "status": "candidate",
       "text": "repositories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Repo-Starters-And-Templates-Index",
+      "status": "candidate",
+      "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)"
     }
   ],
   "candidate_related_terms": [
@@ -240,11 +258,17 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/Subindices"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Repo-Starters-And-Templates-Index"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T14:12:47.602534+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4984
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is the official repo for the paper \"Accelerating Parallel Sampling of Diffusion Models\" Tang et al. ICML 2024 https://openreview.net/forum?id=CjVWen8aJL",
+    "fork": false,
+    "full_name": "TZW1998/ParaTAA-Diffusion",
+    "html_url": "https://github.com/TZW1998/ParaTAA-Diffusion",
+    "language": "Python",
+    "pushed_at": "2024-07-19T00:56:35Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2025-09-12T08:37:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

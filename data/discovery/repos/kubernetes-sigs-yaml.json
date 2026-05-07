@@ -1,0 +1,90 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes-sigs/yaml",
+      "target": "yaml/go-yaml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "kubernetes-sigs/yaml",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "kubernetes-sigs/yaml",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/yaml",
+      "target": "k8s-sig-api-machinery",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T13:09:46.246555+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3316
+    },
+    {
+      "path": "go.mod",
+      "size": 162
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 827
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A better way to marshal and unmarshal YAML in Golang",
+    "fork": true,
+    "full_name": "kubernetes-sigs/yaml",
+    "html_url": "https://github.com/kubernetes-sigs/yaml",
+    "language": "Go",
+    "pushed_at": "2025-12-14T04:55:43Z",
+    "stargazers_count": 346,
+    "topics": [
+      "k8s-sig-api-machinery"
+    ],
+    "updated_at": "2026-04-23T18:04:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yaml/go-yaml",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/kubernetes-sigs/yaml.svg)](https://travis-ci.org/kubernetes-sigs/yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-sig-api-machinery"
+    }
+  ]
+}

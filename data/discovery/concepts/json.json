@@ -1627,6 +1627,30 @@
       "source_repo": "python-jsonschema/referencing",
       "status": "candidate-context",
       "text": "==============="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bet365/jingo",
+      "status": "candidate-context",
+      "text": "This package provides the ability to encode golang structs to a buffer as JSON very quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bet365/jingo",
+      "status": "candidate-context",
+      "text": "This package provides the ability to encode golang structs to a buffer as JSON."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "francoispqt/gojay",
+      "status": "candidate-context",
+      "text": "high performance JSON encoder/decoder with stream API for Golang "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "francoispqt/gojay",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/francoispqt/gojay.svg?branch=master)](https://travis-ci.org/francoispqt/gojay)"
     }
   ],
   "candidate_glosses": [
@@ -2439,6 +2463,18 @@
       "source_repo": "python-jsonschema/referencing",
       "status": "candidate",
       "text": "==============="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bet365/jingo",
+      "status": "candidate",
+      "text": "This package provides the ability to encode golang structs to a buffer as JSON."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "francoispqt/gojay",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/francoispqt/gojay.svg?branch=master)](https://travis-ci.org/francoispqt/gojay)"
     }
   ],
   "candidate_related_terms": [
@@ -3969,11 +4005,47 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": null,
       "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "bet365/jingo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "francoispqt/gojay"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/quotes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
   "lexical_providers": [
     "datamuse"
   ],

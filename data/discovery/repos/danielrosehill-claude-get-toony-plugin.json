@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Get-Toony-Plugin",
+      "target": "jdereg/json-io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Get-Toony-Plugin",
+      "target": "0xzunia/toonsharp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Get-Toony-Plugin",
+      "target": "helgesverre/toon-php",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Get-Toony-Plugin",
+      "target": "adrozdenko/error-toon",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T12:57:13.217936+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2577
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Get-Toony-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Get-Toony-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-30T15:40:41Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-30T15:46:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xzunia/toonsharp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adrozdenko/error-toon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "helgesverre/toon-php",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jdereg/json-io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

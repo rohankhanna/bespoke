@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "bet365/jingo",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "bet365/jingo",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bet365/jingo",
+      "target": "encoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bet365/jingo",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bet365/jingo",
+      "target": "high-performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bet365/jingo",
+      "target": "json",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T13:09:35.874210+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7659
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 367
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This package provides the ability to encode golang structs to a buffer as JSON very quickly.",
+    "fork": false,
+    "full_name": "bet365/jingo",
+    "html_url": "https://github.com/bet365/jingo",
+    "language": "Go",
+    "pushed_at": "2023-12-06T17:16:05Z",
+    "stargazers_count": 733,
+    "topics": [
+      "encoder",
+      "go",
+      "golang",
+      "high-performance",
+      "json"
+    ],
+    "updated_at": "2026-05-06T09:39:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This package provides the ability to encode golang structs to a buffer as JSON.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encoder"
+    },
+    {
+      "context_snippet": "This package provides the ability to encode golang structs to a buffer as JSON.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "This package provides the ability to encode golang structs to a buffer as JSON.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance"
+    },
+    {
+      "context_snippet": "This package provides the ability to encode golang structs to a buffer as JSON.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    }
+  ]
+}

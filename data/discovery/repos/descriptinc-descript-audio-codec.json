@@ -1,0 +1,164 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "descriptinc/descript-audio-codec",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "descriptinc/descript-audio-codec",
+      "target": "audio-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "descriptinc/descript-audio-codec",
+      "target": "codec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "descriptinc/descript-audio-codec",
+      "target": "compression-algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "descriptinc/descript-audio-codec",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "descriptinc/descript-audio-codec",
+      "target": "gans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "descriptinc/descript-audio-codec",
+      "target": "generative-adversarial-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "descriptinc/descript-audio-codec",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "descriptinc/descript-audio-codec",
+      "target": "residual-vector-quantization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T12:57:43.339424+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6351
+    },
+    {
+      "path": "Dockerfile",
+      "size": 202
+    },
+    {
+      "path": "requirements.txt",
+      "size": 113
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "State-of-the-art audio codec with 90x compression factor. Supports 44.1kHz, 24kHz, and 16kHz mono/stereo audio.",
+    "fork": false,
+    "full_name": "descriptinc/descript-audio-codec",
+    "html_url": "https://github.com/descriptinc/descript-audio-codec",
+    "language": "Python",
+    "pushed_at": "2026-01-26T05:37:10Z",
+    "stargazers_count": 1786,
+    "topics": [
+      "audio",
+      "audio-compression",
+      "codec",
+      "compression-algorithm",
+      "deep-learning",
+      "gans",
+      "generative-adversarial-network",
+      "pytorch",
+      "residual-vector-quantization"
+    ],
+    "updated_at": "2026-05-07T00:39:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains training and inference scripts",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "This repository contains training and inference scripts",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-compression"
+    },
+    {
+      "context_snippet": "This repository contains training and inference scripts",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codec"
+    },
+    {
+      "context_snippet": "This repository contains training and inference scripts",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression-algorithm"
+    },
+    {
+      "context_snippet": "This repository contains training and inference scripts",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This repository contains training and inference scripts",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gans"
+    },
+    {
+      "context_snippet": "This repository contains training and inference scripts",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-network"
+    },
+    {
+      "context_snippet": "This repository contains training and inference scripts",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This repository contains training and inference scripts",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "residual-vector-quantization"
+    }
+  ]
+}

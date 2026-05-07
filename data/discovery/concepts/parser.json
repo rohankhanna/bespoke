@@ -1051,6 +1051,18 @@
       "source_repo": "nikitakit/self-attentive-parser",
       "status": "candidate-context",
       "text": "A high-accuracy parser with models for 11 languages, implemented in Python. Based on [Constituency Parsing with a Self-Attentive Encoder](https://arxiv.org/abs/1805.01052) from ACL 2018, with additional changes described in [Multilingual Constituency Parsing with Self-Attention \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-ini/ini",
+      "status": "candidate-context",
+      "text": "Package ini provides INI file read and write functionality in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-ini/ini",
+      "status": "candidate-context",
+      "text": "[![GitHub Workflow Status](https://img.shields.io/github/checks-status/go-ini/ini/main?logo=github&style=for-the-badge)](https://github.com/go-ini/ini/actions?query=branch%3Amain)"
     }
   ],
   "candidate_glosses": [
@@ -1575,6 +1587,12 @@
       "source_repo": "nikitakit/self-attentive-parser",
       "status": "candidate",
       "text": "A high-accuracy parser with models for 11 languages, implemented in Python. Based on [Constituency Parsing with a Self-Attentive Encoder](https://arxiv.org/abs/1805.01052) from ACL 2018, with additional changes described in [Multilingual Constituency Parsing with Self-Attention \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-ini/ini",
+      "status": "candidate",
+      "text": "[![GitHub Workflow Status](https://img.shields.io/github/checks-status/go-ini/ini/main?logo=github&style=for-the-badge)](https://github.com/go-ini/ini/actions?query=branch%3Amain)"
     }
   ],
   "candidate_related_terms": [
@@ -2278,11 +2296,17 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": null,
       "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "go-ini/ini"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
   "lexical_providers": [
     "datamuse"
   ],

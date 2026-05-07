@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "dialogue-tts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devnen/Dia-TTS-Server",
+      "status": "candidate-context",
+      "text": "Self-host the powerful Dia TTS model. This server offers a user-friendly Web UI, flexible API endpoints (incl. OpenAI compatible), support for SafeTensors/BF16, voice cloning, dialogue generation, and GPU/CPU execution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devnen/Dia-TTS-Server",
+      "status": "candidate-context",
+      "text": "**Self-host the powerful [Nari Labs Dia TTS models](https://github.com/nari-labs/dia) \u2014 including the original **Dia 1.6B** and the new **Dia 2** family (1B & 2B) \u2014 with this enhanced FastAPI server! Features hot-swappable model switching, an intuitive Web UI, flexible API endpo\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devnen/Dia-TTS-Server",
+      "status": "candidate",
+      "text": "**Self-host the powerful [Nari Labs Dia TTS models](https://github.com/nari-labs/dia) \u2014 including the original **Dia 1.6B** and the new **Dia 2** family (1B & 2B) \u2014 with this enhanced FastAPI server! Features hot-swappable model switching, an intuitive Web UI, flexible API endpo\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "dialogue-tts",
+  "concept_id": "dialogue-tts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "devnen/Dia-TTS-Server"
+    }
+  ],
+  "first_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dialogue-tts",
+      "sense_id": "dialogue-tts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

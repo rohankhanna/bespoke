@@ -1141,6 +1141,54 @@
       "source_repo": "carla-simulator/scenario_runner",
       "status": "candidate-context",
       "text": "Unit Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gookit/validate",
+      "status": "candidate-context",
+      "text": "\u2694 Go package for data validation and filtering. support Map, Struct, Form data. Go\u901a\u7528\u7684\u6570\u636e\u9a8c\u8bc1\u4e0e\u8fc7\u6ee4\u5e93\uff0c\u4f7f\u7528\u7b80\u5355\uff0c\u5185\u7f6e\u5927\u90e8\u5206\u5e38\u7528\u9a8c\u8bc1\u3001\u8fc7\u6ee4\u5668\uff0c\u652f\u6301\u81ea\u5b9a\u4e49\u9a8c\u8bc1\u5668\u3001\u81ea\u5b9a\u4e49\u6d88\u606f\u3001\u5b57\u6bb5\u7ffb\u8bd1\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/validate",
+      "status": "candidate-context",
+      "text": "Unit-Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gookit/cliui",
+      "status": "candidate-context",
+      "text": "Provides some commonly used display and interactive functional components for CLI. \u63d0\u4f9b\u4e00\u4e9b\u7528\u4e8e CLI \u4e0b\u7684\uff0c\u5e38\u7528\u7684\u663e\u793a\u548c\u4ea4\u4e92\u529f\u80fd\u7ec4\u4ef6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/cliui",
+      "status": "candidate-context",
+      "text": "Unit-Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gookit/rux",
+      "status": "candidate-context",
+      "text": "\u26a1 Rux is an simple and fast web framework. support route group, param route binding, middleware, compatible http.Handler interface. \u7b80\u5355\u4e14\u5feb\u901f\u7684 Go api/web \u6846\u67b6\uff0c\u652f\u6301\u8def\u7531\u5206\u7ec4\uff0c\u8def\u7531\u53c2\u6570\u7ed1\u5b9a\uff0c\u4e2d\u95f4\u4ef6\uff0c\u517c\u5bb9 http.Handler \u63a5\u53e3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/rux",
+      "status": "candidate-context",
+      "text": "Unit-Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gookit/slog",
+      "status": "candidate-context",
+      "text": "\ud83d\udcd1 Lightweight, configurable, extensible logging library written in Go. Support multi level, multi outputs and built-in multi file logger, buffers, clean, rotate-file handling.\u4e00\u4e2a\u6613\u4e8e\u4f7f\u7528\u7684\uff0c\u8f7b\u91cf\u7ea7\u3001\u53ef\u914d\u7f6e\u3001\u53ef\u6269\u5c55\u7684\u65e5\u5fd7\u5e93\u3002\u652f\u6301\u591a\u4e2a\u7ea7\u522b\uff0c\u8f93\u51fa\u5230\u591a\u6587\u4ef6\uff1b\u5185\u7f6e\u6587\u4ef6\u65e5\u5fd7\u5904\u7406\u3001\u81ea\u52a8\u5207\u5272\u3001\u6e05\u7406\u3001\u538b\u7f29\u7b49\u589e\u5f3a\u529f\u80fd"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/slog",
+      "status": "candidate-context",
+      "text": "Unit-Tests"
     }
   ],
   "candidate_glosses": [
@@ -1719,6 +1767,30 @@
       "source_repo": "carla-simulator/scenario_runner",
       "status": "candidate",
       "text": "Unit Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/validate",
+      "status": "candidate",
+      "text": "Unit-Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/cliui",
+      "status": "candidate",
+      "text": "Unit-Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/rux",
+      "status": "candidate",
+      "text": "Unit-Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/slog",
+      "status": "candidate",
+      "text": "Unit-Tests"
     }
   ],
   "candidate_related_terms": [
@@ -3609,11 +3681,89 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": ".github/workflows/unit-test.yml",
       "source_repo": "clj-commons/rewrite-clj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "datalab-to/surya"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "electron-userland/electron-windows-msix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/unittest-mac.yaml",
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "gookit/validate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "gookit/cliui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "gookit/rux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "gookit/slog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "huggingface/sentence-transformers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "FoundationAgents/MetaGPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "GoogleChrome/related-website-sets"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
   "lexical_providers": [
     "datamuse"
   ],

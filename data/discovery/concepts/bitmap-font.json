@@ -67,6 +67,18 @@
       "source_repo": "scott0107000/BoutiqueBitmap7x7",
       "status": "candidate-context",
       "text": "![BoutiqueBitmap7x7](https://github.com/scott0107000/BoutiqueBitmap7x7/blob/9f0788524045082a216987151c9c6bec8867921f/README_PIC/0080.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oppiliappan/scientifica",
+      "status": "candidate-context",
+      "text": "tall, condensed, bitmap font for geeks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oppiliappan/scientifica",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "scott0107000/BoutiqueBitmap7x7",
       "status": "candidate",
       "text": "![BoutiqueBitmap7x7](https://github.com/scott0107000/BoutiqueBitmap7x7/blob/9f0788524045082a216987151c9c6bec8867921f/README_PIC/0080.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oppiliappan/scientifica",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "scott0107000/BoutiqueBitmap7x7"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "oppiliappan/scientifica"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
   "lexical_providers": [
     "datamuse"
   ],

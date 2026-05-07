@@ -1,0 +1,111 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-push.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-push.yml"
+    },
+    {
+      "component": "docker/metadata-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-push.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-push.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-push.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-push.yml",
+      "source_repo": "edward3h/bedrock-viz-from-backups",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-push.yml",
+      "source_repo": "edward3h/bedrock-viz-from-backups",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-push.yml",
+      "source_repo": "edward3h/bedrock-viz-from-backups",
+      "target": "docker/metadata-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-push.yml",
+      "source_repo": "edward3h/bedrock-viz-from-backups",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-push.yml",
+      "source_repo": "edward3h/bedrock-viz-from-backups",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-push.yml",
+      "source_repo": "edward3h/bedrock-viz-from-backups",
+      "target": "build and push docker image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T13:07:20.778706+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1292
+    },
+    {
+      "path": "Dockerfile",
+      "size": 999
+    },
+    {
+      "path": ".github/workflows/docker-push.yml",
+      "size": 846
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "edward3h/bedrock-viz-from-backups",
+    "html_url": "https://github.com/edward3h/bedrock-viz-from-backups",
+    "language": "Shell",
+    "pushed_at": "2026-04-24T01:53:19Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-03-01T03:41:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build and push docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-push.yml",
+      "term": "build and push docker image"
+    }
+  ]
+}

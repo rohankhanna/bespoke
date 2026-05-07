@@ -1,0 +1,250 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "devnen/Kitten-TTS-Server",
+      "target": "kittenml/kittentts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Kitten-TTS-Server",
+      "target": "api-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Kitten-TTS-Server",
+      "target": "audio-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Kitten-TTS-Server",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Kitten-TTS-Server",
+      "target": "fastapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Kitten-TTS-Server",
+      "target": "huggingface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Kitten-TTS-Server",
+      "target": "kitten",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Kitten-TTS-Server",
+      "target": "kitten-tts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Kitten-TTS-Server",
+      "target": "kittentts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Kitten-TTS-Server",
+      "target": "openai-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Kitten-TTS-Server",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Kitten-TTS-Server",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Kitten-TTS-Server",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Kitten-TTS-Server",
+      "target": "tts-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Kitten-TTS-Server",
+      "target": "web-ui",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T12:57:51.675892+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26454
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2501
+    },
+    {
+      "path": "requirements.txt",
+      "size": 408
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Self-host the ultra-lightweight Kitten TTS model with this enhanced API server with an intuitive Web UI, large text processing for audiobooks, and GPU acceleration.",
+    "fork": false,
+    "full_name": "devnen/Kitten-TTS-Server",
+    "html_url": "https://github.com/devnen/Kitten-TTS-Server",
+    "language": "Python",
+    "pushed_at": "2026-03-28T12:57:04Z",
+    "stargazers_count": 260,
+    "topics": [
+      "ai",
+      "api-server",
+      "audio-generation",
+      "cuda",
+      "fastapi",
+      "huggingface",
+      "kitten",
+      "kitten-tts",
+      "kittentts",
+      "openai-api",
+      "python",
+      "pytorch",
+      "speech-synthesis",
+      "text-to-speech",
+      "tts",
+      "tts-api",
+      "web-ui"
+    ],
+    "updated_at": "2026-05-06T16:37:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kittenml/kittentts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Self-host the ultra-lightweight [KittenTTS model](https://github.com/KittenML/KittenTTS) with this enhanced API server. Now supports all 7 KittenTTS models \u2014 from the tiny 15M Nano to the 80M Mini \u2014 with hot-swappable model switching, an intuitive Web UI, a flexible API, large\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-server"
+    },
+    {
+      "context_snippet": "**Self-host the ultra-lightweight [KittenTTS model](https://github.com/KittenML/KittenTTS) with this enhanced API server. Now supports all 7 KittenTTS models \u2014 from the tiny 15M Nano to the 80M Mini \u2014 with hot-swappable model switching, an intuitive Web UI, a flexible API, large\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-generation"
+    },
+    {
+      "context_snippet": "**Self-host the ultra-lightweight [KittenTTS model](https://github.com/KittenML/KittenTTS) with this enhanced API server. Now supports all 7 KittenTTS models \u2014 from the tiny 15M Nano to the 80M Mini \u2014 with hot-swappable model switching, an intuitive Web UI, a flexible API, large\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "**Self-host the ultra-lightweight [KittenTTS model](https://github.com/KittenML/KittenTTS) with this enhanced API server. Now supports all 7 KittenTTS models \u2014 from the tiny 15M Nano to the 80M Mini \u2014 with hot-swappable model switching, an intuitive Web UI, a flexible API, large\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastapi"
+    },
+    {
+      "context_snippet": "**Self-host the ultra-lightweight [KittenTTS model](https://github.com/KittenML/KittenTTS) with this enhanced API server. Now supports all 7 KittenTTS models \u2014 from the tiny 15M Nano to the 80M Mini \u2014 with hot-swappable model switching, an intuitive Web UI, a flexible API, large\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huggingface"
+    },
+    {
+      "context_snippet": "**Self-host the ultra-lightweight [KittenTTS model](https://github.com/KittenML/KittenTTS) with this enhanced API server. Now supports all 7 KittenTTS models \u2014 from the tiny 15M Nano to the 80M Mini \u2014 with hot-swappable model switching, an intuitive Web UI, a flexible API, large\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kitten"
+    },
+    {
+      "context_snippet": "**Self-host the ultra-lightweight [KittenTTS model](https://github.com/KittenML/KittenTTS) with this enhanced API server. Now supports all 7 KittenTTS models \u2014 from the tiny 15M Nano to the 80M Mini \u2014 with hot-swappable model switching, an intuitive Web UI, a flexible API, large\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kitten-tts"
+    },
+    {
+      "context_snippet": "**Self-host the ultra-lightweight [KittenTTS model](https://github.com/KittenML/KittenTTS) with this enhanced API server. Now supports all 7 KittenTTS models \u2014 from the tiny 15M Nano to the 80M Mini \u2014 with hot-swappable model switching, an intuitive Web UI, a flexible API, large\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kittentts"
+    },
+    {
+      "context_snippet": "**Self-host the ultra-lightweight [KittenTTS model](https://github.com/KittenML/KittenTTS) with this enhanced API server. Now supports all 7 KittenTTS models \u2014 from the tiny 15M Nano to the 80M Mini \u2014 with hot-swappable model switching, an intuitive Web UI, a flexible API, large\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openai-api"
+    },
+    {
+      "context_snippet": "**Self-host the ultra-lightweight [KittenTTS model](https://github.com/KittenML/KittenTTS) with this enhanced API server. Now supports all 7 KittenTTS models \u2014 from the tiny 15M Nano to the 80M Mini \u2014 with hot-swappable model switching, an intuitive Web UI, a flexible API, large\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "**Self-host the ultra-lightweight [KittenTTS model](https://github.com/KittenML/KittenTTS) with this enhanced API server. Now supports all 7 KittenTTS models \u2014 from the tiny 15M Nano to the 80M Mini \u2014 with hot-swappable model switching, an intuitive Web UI, a flexible API, large\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "**Self-host the ultra-lightweight [KittenTTS model](https://github.com/KittenML/KittenTTS) with this enhanced API server. Now supports all 7 KittenTTS models \u2014 from the tiny 15M Nano to the 80M Mini \u2014 with hot-swappable model switching, an intuitive Web UI, a flexible API, large\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    },
+    {
+      "context_snippet": "**Self-host the ultra-lightweight [KittenTTS model](https://github.com/KittenML/KittenTTS) with this enhanced API server. Now supports all 7 KittenTTS models \u2014 from the tiny 15M Nano to the 80M Mini \u2014 with hot-swappable model switching, an intuitive Web UI, a flexible API, large\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tts-api"
+    },
+    {
+      "context_snippet": "**Self-host the ultra-lightweight [KittenTTS model](https://github.com/KittenML/KittenTTS) with this enhanced API server. Now supports all 7 KittenTTS models \u2014 from the tiny 15M Nano to the 80M Mini \u2014 with hot-swappable model switching, an intuitive Web UI, a flexible API, large\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-ui"
+    }
+  ]
+}

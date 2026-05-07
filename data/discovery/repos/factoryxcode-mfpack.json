@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T13:53:28.875684+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17023
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "Master",
+    "description": "Delphi translations for Microsoft Media Foundation and related API's",
+    "fork": false,
+    "full_name": "FactoryXCode/MfPack",
+    "html_url": "https://github.com/FactoryXCode/MfPack",
+    "language": "Pascal",
+    "pushed_at": "2026-05-05T14:00:20Z",
+    "stargazers_count": 98,
+    "topics": [],
+    "updated_at": "2026-05-05T14:02:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

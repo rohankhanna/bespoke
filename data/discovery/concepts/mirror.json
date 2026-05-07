@@ -136,6 +136,18 @@
       "source_repo": "bonigarcia/webdrivermanager",
       "status": "candidate-context",
       "text": "mirror"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bmwiedemann/openSUSE",
+      "status": "candidate-context",
+      "text": "public mirror of openSUSE sources from build.opensuse.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bmwiedemann/openSUSE",
+      "status": "candidate-context",
+      "text": "This repo is a public read-only git mirror of openSUSE sources"
     }
   ],
   "candidate_glosses": [
@@ -204,6 +216,12 @@
       "source_repo": "bonigarcia/webdrivermanager",
       "status": "candidate",
       "text": "mirror"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bmwiedemann/openSUSE",
+      "status": "candidate",
+      "text": "This repo is a public read-only git mirror of openSUSE sources"
     }
   ],
   "candidate_related_terms": [
@@ -319,11 +337,17 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": ".github/workflows/mirror.yml",
       "source_repo": "bonigarcia/webdrivermanager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "bmwiedemann/openSUSE"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T12:57:10.497423+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3160
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Claude Code plugin: filesystem organisation workflow \u2014 scan, dedupe, cleanup, rename, sort for local directories and Google Drive, with local/gdrive variants.",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Filesystem-Organiser-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Filesystem-Organiser-Plugin",
+    "language": "Shell",
+    "pushed_at": "2026-04-30T18:51:27Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-30T18:51:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

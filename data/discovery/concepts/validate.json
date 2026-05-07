@@ -607,6 +607,18 @@
       "source_repo": "cosmos/chain-registry",
       "status": "candidate-context",
       "text": "Validate \u2705"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gookit/validate",
+      "status": "candidate-context",
+      "text": "\u2694 Go package for data validation and filtering. support Map, Struct, Form data. Go\u901a\u7528\u7684\u6570\u636e\u9a8c\u8bc1\u4e0e\u8fc7\u6ee4\u5e93\uff0c\u4f7f\u7528\u7b80\u5355\uff0c\u5185\u7f6e\u5927\u90e8\u5206\u5e38\u7528\u9a8c\u8bc1\u3001\u8fc7\u6ee4\u5668\uff0c\u652f\u6301\u81ea\u5b9a\u4e49\u9a8c\u8bc1\u5668\u3001\u81ea\u5b9a\u4e49\u6d88\u606f\u3001\u5b57\u6bb5\u7ffb\u8bd1\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/validate",
+      "status": "candidate-context",
+      "text": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/gookit/validate)](https://github.com/gookit/validate)"
     }
   ],
   "candidate_glosses": [
@@ -909,6 +921,12 @@
       "source_repo": "cosmos/chain-registry",
       "status": "candidate",
       "text": "Validate \u2705"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/validate",
+      "status": "candidate",
+      "text": "[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/gookit/validate)](https://github.com/gookit/validate)"
     }
   ],
   "candidate_related_terms": [
@@ -1812,11 +1830,29 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": ".github/workflows/validate.yml",
       "source_repo": "serverless/serverless-python-requirements"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "gookit/validate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "serverless/serverless-python-requirements"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
   "lexical_providers": [
     "datamuse"
   ],

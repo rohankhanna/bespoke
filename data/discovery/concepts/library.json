@@ -1426,6 +1426,18 @@
       "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary",
       "status": "candidate-context",
       "text": "<kbd><img src=\"images/clocks.png\" /></kbd>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "duke-git/lancet",
+      "status": "candidate-context",
+      "text": "A comprehensive, efficient, and reusable util function library of Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "duke-git/lancet",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -2136,6 +2148,12 @@
       "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary",
       "status": "candidate",
       "text": "<kbd><img src=\"images/clocks.png\" /></kbd>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "duke-git/lancet",
+      "status": "candidate",
+      "text": "<div align=center>"
     }
   ],
   "candidate_related_terms": [
@@ -3244,11 +3262,29 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": null,
       "source_repo": "CirclonGroup/angular-tree-component"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "duke-git/lancet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "AltF02/mouse-rs"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
   "lexical_providers": [
     "datamuse"
   ],

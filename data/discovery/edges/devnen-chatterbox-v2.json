@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "devnen/chatterbox-v2",
+      "target": "yl4579/hiftnet",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-07T12:51:40.300011+00:00",
+  "source_repo": "devnen/chatterbox-v2"
+}

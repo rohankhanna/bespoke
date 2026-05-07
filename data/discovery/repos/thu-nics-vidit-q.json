@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thu-nics/ViDiT-Q",
+      "target": "pixart-alpha/pixart-sigma",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-nics/ViDiT-Q",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-nics/ViDiT-Q",
+      "target": "efficientml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-nics/ViDiT-Q",
+      "target": "mixed-precision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-nics/ViDiT-Q",
+      "target": "quantization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T14:12:46.351585+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12134
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "viditq",
+    "description": "[ICLR'25] ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation",
+    "fork": false,
+    "full_name": "thu-nics/ViDiT-Q",
+    "html_url": "https://github.com/thu-nics/ViDiT-Q",
+    "language": "Python",
+    "pushed_at": "2025-03-21T11:33:50Z",
+    "stargazers_count": 158,
+    "topics": [
+      "diffusion-models",
+      "efficientml",
+      "mixed-precision",
+      "quantization"
+    ],
+    "updated_at": "2026-05-06T09:41:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pixart-alpha/pixart-sigma",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficientml"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mixed-precision"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization"
+    }
+  ]
+}

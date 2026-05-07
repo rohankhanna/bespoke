@@ -19,6 +19,18 @@
       "source_repo": "devnen/Chatterbox-TTS-Server",
       "status": "candidate-context",
       "text": "**Self-host Resemble AI's [Chatterbox](https://github.com/resemble-ai/chatterbox) open-source TTS family (Original + Multilingual + Turbo) behind an OpenAI\u2011compatible API and a modern Web UI. The complete lineup includes the original high-quality model, multilingual support for \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devnen/Dia-TTS-Server",
+      "status": "candidate-context",
+      "text": "Self-host the powerful Dia TTS model. This server offers a user-friendly Web UI, flexible API endpoints (incl. OpenAI compatible), support for SafeTensors/BF16, voice cloning, dialogue generation, and GPU/CPU execution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devnen/Dia-TTS-Server",
+      "status": "candidate-context",
+      "text": "**Self-host the powerful [Nari Labs Dia TTS models](https://github.com/nari-labs/dia) \u2014 including the original **Dia 1.6B** and the new **Dia 2** family (1B & 2B) \u2014 with this enhanced FastAPI server! Features hot-swappable model switching, an intuitive Web UI, flexible API endpo\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "devnen/Chatterbox-TTS-Server",
       "status": "candidate",
       "text": "**Self-host Resemble AI's [Chatterbox](https://github.com/resemble-ai/chatterbox) open-source TTS family (Original + Multilingual + Turbo) behind an OpenAI\u2011compatible API and a modern Web UI. The complete lineup includes the original high-quality model, multilingual support for \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devnen/Dia-TTS-Server",
+      "status": "candidate",
+      "text": "**Self-host the powerful [Nari Labs Dia TTS models](https://github.com/nari-labs/dia) \u2014 including the original **Dia 1.6B** and the new **Dia 2** family (1B & 2B) \u2014 with this enhanced FastAPI server! Features hot-swappable model switching, an intuitive Web UI, flexible API endpo\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": null,
       "source_repo": "devnen/Chatterbox-TTS-Server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "devnen/Dia-TTS-Server"
     }
   ],
   "first_seen_at": "2026-05-07T07:09:11.945528+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
   "lexical_providers": [
     "datamuse"
   ],

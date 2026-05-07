@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "log-rotation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gookit/slog",
+      "status": "candidate-context",
+      "text": "\ud83d\udcd1 Lightweight, configurable, extensible logging library written in Go. Support multi level, multi outputs and built-in multi file logger, buffers, clean, rotate-file handling.\u4e00\u4e2a\u6613\u4e8e\u4f7f\u7528\u7684\uff0c\u8f7b\u91cf\u7ea7\u3001\u53ef\u914d\u7f6e\u3001\u53ef\u6269\u5c55\u7684\u65e5\u5fd7\u5e93\u3002\u652f\u6301\u591a\u4e2a\u7ea7\u522b\uff0c\u8f93\u51fa\u5230\u591a\u6587\u4ef6\uff1b\u5185\u7f6e\u6587\u4ef6\u65e5\u5fd7\u5904\u7406\u3001\u81ea\u52a8\u5207\u5272\u3001\u6e05\u7406\u3001\u538b\u7f29\u7b49\u589e\u5f3a\u529f\u80fd"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/slog",
+      "status": "candidate-context",
+      "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/slog?style=flat-square)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/slog",
+      "status": "candidate",
+      "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/slog?style=flat-square)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "log-rotation",
+  "concept_id": "log-rotation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "gookit/slog"
+    }
+  ],
+  "first_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "log-rotation",
+      "sense_id": "log-rotation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

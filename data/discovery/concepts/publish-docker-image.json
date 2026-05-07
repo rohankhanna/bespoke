@@ -495,6 +495,18 @@
       "source_repo": "edward3h/minecraft-webhook",
       "status": "candidate-context",
       "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WisdomShell/llama_cpp_for_codeshell",
+      "status": "candidate-context",
+      "text": "CodeShell model in C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WisdomShell/llama_cpp_for_codeshell",
+      "status": "candidate-context",
+      "text": "Publish Docker image"
     }
   ],
   "candidate_glosses": [
@@ -741,6 +753,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "edward3h/minecraft-webhook",
+      "status": "candidate",
+      "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WisdomShell/llama_cpp_for_codeshell",
       "status": "candidate",
       "text": "Publish Docker image"
     }
@@ -1860,11 +1878,41 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "WisdomShell/llama_cpp_for_codeshell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "web-platform-tests/wpt"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -31,6 +31,18 @@
       "source_repo": "lavabit/robox",
       "status": "candidate-context",
       "text": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bmwiedemann/openSUSE",
+      "status": "candidate-context",
+      "text": "public mirror of openSUSE sources from build.opensuse.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bmwiedemann/openSUSE",
+      "status": "candidate-context",
+      "text": "This repo is a public read-only git mirror of openSUSE sources"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "lavabit/robox",
       "status": "candidate",
       "text": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bmwiedemann/openSUSE",
+      "status": "candidate",
+      "text": "This repo is a public read-only git mirror of openSUSE sources"
     }
   ],
   "candidate_related_terms": [
@@ -93,11 +111,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "lavabit/robox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "bmwiedemann/openSUSE"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
   "lexical_providers": [
     "datamuse"
   ],

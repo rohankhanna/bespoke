@@ -1,17 +1,7 @@
 {
-  "first_seen_at": "2026-05-07T07:09:11.945528+00:00",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "first_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
   "sources": [
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "mixmark-io/turndown"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
-    },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
@@ -25,7 +15,7 @@
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "Naereen/StrapDown.js"
+      "source_repo": "mixmark-io/turndown"
     }
   ],
   "term": "markdown"

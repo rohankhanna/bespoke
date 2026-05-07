@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2694 Go package for data validation and filtering. support Map, Struct, Form data. Go\u901a\u7528\u7684\u6570\u636e\u9a8c\u8bc1\u4e0e\u8fc7\u6ee4\u5e93\uff0c\u4f7f\u7528\u7b80\u5355\uff0c\u5185\u7f6e\u5927\u90e8\u5206\u5e38\u7528\u9a8c\u8bc1\u3001\u8fc7\u6ee4\u5668\uff0c\u652f\u6301\u81ea\u5b9a\u4e49\u9a8c\u8bc1\u5668\u3001\u81ea\u5b9a\u4e49\u6d88\u606f\u3001\u5b57\u6bb5\u7ffb\u8bd1\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"CodeQL\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CodeQL",
+      "sense_id": "codeql#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "codeql",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "codeql",
+  "observation_id": "12b0086b4a0fa789",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-07T12:51:40.300011+00:00",
+  "observed_text": "CodeQL",
+  "source_context_snippet": "\"CodeQL\"",
+  "source_file": ".github/workflows/codeql.yml",
+  "source_repo": "gookit/validate",
+  "source_repo_description": "\u2694 Go package for data validation and filtering. support Map, Struct, Form data. Go\u901a\u7528\u7684\u6570\u636e\u9a8c\u8bc1\u4e0e\u8fc7\u6ee4\u5e93\uff0c\u4f7f\u7528\u7b80\u5355\uff0c\u5185\u7f6e\u5927\u90e8\u5206\u5e38\u7528\u9a8c\u8bc1\u3001\u8fc7\u6ee4\u5668\uff0c\u652f\u6301\u81ea\u5b9a\u4e49\u9a8c\u8bc1\u5668\u3001\u81ea\u5b9a\u4e49\u6d88\u606f\u3001\u5b57\u6bb5\u7ffb\u8bd1\u3002"
+}

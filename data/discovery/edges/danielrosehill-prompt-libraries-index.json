@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Prompt-Libraries-Index",
+      "target": "danielrosehill/ai-orchestration-system-prompts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Prompt-Libraries-Index",
+      "target": "danielrosehill/audio-understanding-test-prompts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Prompt-Libraries-Index",
+      "target": "danielrosehill/careers-utilities-system-prompts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Prompt-Libraries-Index",
+      "target": "danielrosehill/general-system-prompts",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-07T12:51:40.300011+00:00",
+  "source_repo": "danielrosehill/Prompt-Libraries-Index"
+}

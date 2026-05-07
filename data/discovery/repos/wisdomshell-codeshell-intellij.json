@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WisdomShell/codeshell-intellij",
+      "target": "wisdomshell/llama_cpp_for_codeshell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WisdomShell/codeshell-intellij",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WisdomShell/codeshell-intellij",
+      "target": "skeeto/w64devkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WisdomShell/codeshell-intellij",
+      "target": "wisdomshell/text-generation-inference",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T13:05:43.391941+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5861
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An intelligent coding assistant plugin for IntelliJ, developed based on CodeShell",
+    "fork": false,
+    "full_name": "WisdomShell/codeshell-intellij",
+    "html_url": "https://github.com/WisdomShell/codeshell-intellij",
+    "language": "Java",
+    "pushed_at": "2023-12-28T08:00:11Z",
+    "stargazers_count": 182,
+    "topics": [],
+    "updated_at": "2025-12-03T12:32:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "skeeto/w64devkit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wisdomshell/llama_cpp_for_codeshell",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wisdomshell/text-generation-inference",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

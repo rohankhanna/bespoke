@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T12:56:21.418772+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Automatic import of svn 'packages' repo (read-only mirror)",
+    "fork": false,
+    "full_name": "archlinux/svntogit-packages",
+    "html_url": "https://github.com/archlinux/svntogit-packages",
+    "language": "Shell",
+    "pushed_at": "2023-05-19T02:45:36Z",
+    "stargazers_count": 324,
+    "topics": [],
+    "updated_at": "2026-03-11T08:52:27Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -270,7 +270,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bin-image.yml",
       "source_repo": "moby/moby",
-      "target": "docker/github-builder/.github/workflows/bake.yml@7d2a02426d4b989616ba5aaee4e879afd4134b0d",
+      "target": "docker/github-builder/.github/workflows/bake.yml@c2782c55efa56a01b9c30021db8f5ec3993228a3",
       "target_type": "component"
     },
     {
@@ -302,6 +302,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-07T07:09:11.945528+00:00",
+  "generated_at": "2026-05-07T12:51:40.300011+00:00",
   "source_repo": "moby/moby"
 }

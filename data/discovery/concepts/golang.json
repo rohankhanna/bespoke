@@ -5207,6 +5207,54 @@
       "source_repo": "gookit/ini",
       "status": "candidate-context",
       "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/ini?style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bet365/jingo",
+      "status": "candidate-context",
+      "text": "This package provides the ability to encode golang structs to a buffer as JSON very quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bet365/jingo",
+      "status": "candidate-context",
+      "text": "This package provides the ability to encode golang structs to a buffer as JSON."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "francoispqt/gojay",
+      "status": "candidate-context",
+      "text": "high performance JSON encoder/decoder with stream API for Golang "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "francoispqt/gojay",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/francoispqt/gojay.svg?branch=master)](https://travis-ci.org/francoispqt/gojay)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goccy/go-reflect",
+      "status": "candidate-context",
+      "text": "Zero-allocation reflection library for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goccy/go-reflect",
+      "status": "candidate-context",
+      "text": "![Go](https://github.com/goccy/go-reflect/workflows/Go/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "duke-git/lancet",
+      "status": "candidate-context",
+      "text": "A comprehensive, efficient, and reusable util function library of Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "duke-git/lancet",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -7819,6 +7867,30 @@
       "source_repo": "gookit/ini",
       "status": "candidate",
       "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/ini?style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bet365/jingo",
+      "status": "candidate",
+      "text": "This package provides the ability to encode golang structs to a buffer as JSON."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "francoispqt/gojay",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/francoispqt/gojay.svg?branch=master)](https://travis-ci.org/francoispqt/gojay)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goccy/go-reflect",
+      "status": "candidate",
+      "text": "![Go](https://github.com/goccy/go-reflect/workflows/Go/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "duke-git/lancet",
+      "status": "candidate",
+      "text": "<div align=center>"
     }
   ],
   "candidate_related_terms": [],
@@ -11912,11 +11984,89 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": null,
       "source_repo": "googleapis/google-cloud-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "rainbend/frp-notify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "nutsdb/nutsdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "trknhr/2048-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "bet365/jingo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "francoispqt/gojay"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "goccy/go-reflect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "duke-git/lancet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "stephenlacy/daz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-go"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
   "lexical_providers": [
     "datamuse"
   ],

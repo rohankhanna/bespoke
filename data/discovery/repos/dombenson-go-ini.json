@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dombenson/go-ini",
+      "target": "vaughan0/go-ini",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dombenson/go-ini",
+      "target": "mpvl/subtest",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-07T13:10:05.172496+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2064
+    },
+    {
+      "path": "go.mod",
+      "size": 46
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "INI parsing library for Go.",
+    "fork": true,
+    "full_name": "dombenson/go-ini",
+    "html_url": "https://github.com/dombenson/go-ini",
+    "language": "Go",
+    "pushed_at": "2024-08-14T13:46:37Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2024-08-14T13:46:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mpvl/subtest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vaughan0/go-ini",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -445,6 +445,18 @@
       "source_repo": "google-research/hit-gan",
       "status": "candidate-context",
       "text": "HiT-GAN presents a Transformer-based generator that is trained based on Generative Adversarial Networks (GANs). It achieves state-of-the-art performance for high-resolution image synthesis. Please check our NeurIPS 2021 paper \"[Improved Transformer for High-Resolution GANs](http\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "descriptinc/descript-audio-codec",
+      "status": "candidate-context",
+      "text": "State-of-the-art audio codec with 90x compression factor. Supports 44.1kHz, 24kHz, and 16kHz mono/stereo audio."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "descriptinc/descript-audio-codec",
+      "status": "candidate-context",
+      "text": "This repository contains training and inference scripts"
     }
   ],
   "candidate_glosses": [
@@ -669,6 +681,12 @@
       "source_repo": "google-research/hit-gan",
       "status": "candidate",
       "text": "HiT-GAN presents a Transformer-based generator that is trained based on Generative Adversarial Networks (GANs). It achieves state-of-the-art performance for high-resolution image synthesis. Please check our NeurIPS 2021 paper \"[Improved Transformer for High-Resolution GANs](http\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "descriptinc/descript-audio-codec",
+      "status": "candidate",
+      "text": "This repository contains training and inference scripts"
     }
   ],
   "candidate_related_terms": [],
@@ -1282,11 +1300,41 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": null,
       "source_repo": "clovaai/generative-evaluation-prdc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "descriptinc/descript-audio-codec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/generative-evaluation-prdc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
   "lexical_providers": [
     "datamuse"
   ],

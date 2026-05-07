@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CodeShell model in C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Zig CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Zig CI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4438,
+      "status": "candidate",
+      "text": "dance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4438,
+      "status": "candidate",
+      "text": "euphemism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4438,
+      "status": "candidate",
+      "text": "meander"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4438,
+      "status": "candidate",
+      "text": "pink"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4438,
+      "status": "candidate",
+      "text": "slue"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Zig CI",
+      "sense_id": "zig-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "zig-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "zig-ci",
+  "observation_id": "a74ec6f8a91b2039",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-07T12:51:40.300011+00:00",
+  "observed_text": "Zig CI",
+  "source_context_snippet": "Zig CI",
+  "source_file": ".github/workflows/zig-build.yml",
+  "source_repo": "WisdomShell/llama_cpp_for_codeshell",
+  "source_repo_description": "CodeShell model in C/C++"
+}

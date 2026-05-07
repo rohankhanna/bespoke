@@ -4,7 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "xlite-dev/Awesome-DiT-Inference",
-      "target": "tzw1998/parataa-diffusion",
+      "target": "wl-zhao/dc-solver",
       "target_type": "repository"
     },
     {
@@ -18,7 +18,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "xlite-dev/Awesome-DiT-Inference",
-      "target": "thu-nics/vidit-q",
+      "target": "vchitect/fastercache",
       "target_type": "repository"
     },
     {
@@ -99,6 +99,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-07T07:09:11.945528+00:00",
+  "generated_at": "2026-05-07T12:51:40.300011+00:00",
   "source_repo": "xlite-dev/Awesome-DiT-Inference"
 }

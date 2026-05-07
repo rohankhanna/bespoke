@@ -272,7 +272,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
-      "target": "deepset-ai/haystack-integrations",
+      "target": "dezoito/ollama-grid-search",
       "target_type": "repository"
     },
     {
@@ -549,7 +549,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T09:43:40.249422+00:00",
+  "fetched_at": "2026-05-07T14:05:40.034545+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -590,7 +590,7 @@
     "html_url": "https://github.com/ollama/ollama",
     "language": "Go",
     "pushed_at": "2026-05-07T05:07:02Z",
-    "stargazers_count": 170910,
+    "stargazers_count": 170922,
     "topics": [
       "deepseek",
       "gemma",
@@ -608,7 +608,7 @@
       "ollama",
       "qwen"
     ],
-    "updated_at": "2026-05-07T09:39:18Z"
+    "updated_at": "2026-05-07T13:30:55Z"
   },
   "repo_links": [
     {
@@ -628,7 +628,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "deepset-ai/haystack-integrations",
+      "full_name": "dezoito/ollama-grid-search",
       "source_file": "README.md"
     }
   ],

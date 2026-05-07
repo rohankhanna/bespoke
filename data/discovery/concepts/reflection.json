@@ -79,6 +79,18 @@
       "source_repo": "burningwave/core",
       "status": "candidate-context",
       "text": "<a href=\"https://www.burningwave.org\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goccy/go-reflect",
+      "status": "candidate-context",
+      "text": "Zero-allocation reflection library for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goccy/go-reflect",
+      "status": "candidate-context",
+      "text": "![Go](https://github.com/goccy/go-reflect/workflows/Go/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "burningwave/core",
       "status": "candidate",
       "text": "<a href=\"https://www.burningwave.org\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goccy/go-reflect",
+      "status": "candidate",
+      "text": "![Go](https://github.com/goccy/go-reflect/workflows/Go/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -232,11 +250,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "burningwave/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "goccy/go-reflect"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
   "lexical_providers": [
     "datamuse"
   ],

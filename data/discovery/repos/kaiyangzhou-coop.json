@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KaiyangZhou/CoOp",
+      "target": "kaiyangzhou/on-device-dg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KaiyangZhou/CoOp",
+      "target": "davidzhangyuanhan/noah",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/CoOp",
+      "target": "foundation-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/CoOp",
+      "target": "multimodal-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KaiyangZhou/CoOp",
+      "target": "prompt-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T14:07:08.832341+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5948
+    },
+    {
+      "path": "requirements.txt",
+      "size": 16
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Prompt Learning for Vision-Language Models (IJCV'22, CVPR'22)",
+    "fork": false,
+    "full_name": "KaiyangZhou/CoOp",
+    "html_url": "https://github.com/KaiyangZhou/CoOp",
+    "language": "Python",
+    "pushed_at": "2024-05-20T16:58:40Z",
+    "stargazers_count": 2207,
+    "topics": [
+      "foundation-models",
+      "multimodal-learning",
+      "prompt-learning"
+    ],
+    "updated_at": "2026-05-06T10:59:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davidzhangyuanhan/noah",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaiyangzhou/on-device-dg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo contains the codebase of a series of research projects focused on adapting vision-language models like [CLIP](https://arxiv.org/abs/2103.00020) to downstream datasets via *prompt learning*:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foundation-models"
+    },
+    {
+      "context_snippet": "This repo contains the codebase of a series of research projects focused on adapting vision-language models like [CLIP](https://arxiv.org/abs/2103.00020) to downstream datasets via *prompt learning*:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-learning"
+    },
+    {
+      "context_snippet": "This repo contains the codebase of a series of research projects focused on adapting vision-language models like [CLIP](https://arxiv.org/abs/2103.00020) to downstream datasets via *prompt learning*:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-learning"
+    }
+  ]
+}

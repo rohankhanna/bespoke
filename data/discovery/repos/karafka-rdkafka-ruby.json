@@ -559,7 +559,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T02:02:45.811795+00:00",
+  "fetched_at": "2026-05-07T12:52:24.353824+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -611,8 +611,8 @@
     "full_name": "karafka/rdkafka-ruby",
     "html_url": "https://github.com/karafka/rdkafka-ruby",
     "language": "Ruby",
-    "pushed_at": "2026-05-06T18:10:12Z",
-    "stargazers_count": 402,
+    "pushed_at": "2026-05-07T11:27:50Z",
+    "stargazers_count": 403,
     "topics": [
       "apache-kafka",
       "apache-kafka-consumer",
@@ -621,7 +621,7 @@
       "librdkafka",
       "ruby"
     ],
-    "updated_at": "2026-05-04T13:06:46Z"
+    "updated_at": "2026-05-07T11:17:21Z"
   },
   "repo_links": [],
   "terms": [

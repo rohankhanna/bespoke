@@ -919,6 +919,30 @@
       "source_repo": "IdreesInc/Monocraft",
       "status": "candidate-context",
       "text": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Monocraft/total.svg)](https://GitHub.com/IdreesInc/Monocraft/releases/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IdreesInc/Minecraft-Font",
+      "status": "candidate-context",
+      "text": "A rendition of the font used in Minecraft"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IdreesInc/Minecraft-Font",
+      "status": "candidate-context",
+      "text": "***Notice: This project is not affiliated with Minecraft or Mojang in any way and is exclusively a fan project. This font emulates the typeface of the font used in the Minecraft UI, but it does not include any assets or font files from the original game.***"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oppiliappan/scientifica",
+      "status": "candidate-context",
+      "text": "tall, condensed, bitmap font for geeks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oppiliappan/scientifica",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1377,6 +1401,18 @@
       "source_repo": "IdreesInc/Monocraft",
       "status": "candidate",
       "text": "[![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Monocraft/total.svg)](https://GitHub.com/IdreesInc/Monocraft/releases/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IdreesInc/Minecraft-Font",
+      "status": "candidate",
+      "text": "***Notice: This project is not affiliated with Minecraft or Mojang in any way and is exclusively a fan project. This font emulates the typeface of the font used in the Minecraft UI, but it does not include any assets or font files from the original game.***"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oppiliappan/scientifica",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -2086,11 +2122,29 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": null,
       "source_repo": "nushu-script/Nyushu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "IdreesInc/Minecraft-Font"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "oppiliappan/scientifica"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "nushu-script/Nyushu"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
   "lexical_providers": [
     "datamuse"
   ],

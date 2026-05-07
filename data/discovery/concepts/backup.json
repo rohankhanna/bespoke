@@ -106,6 +106,30 @@
       "source_repo": "Kaiede/Bedrockifier",
       "status": "candidate-context",
       "text": "[![CI Status](https://github.com/Kaiede/Bedrockifier/actions/workflows/swift.yml/badge.svg)](https://github.com/Kaiede/Bedrockifier/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "itzg/docker-mc-backup",
+      "status": "candidate-context",
+      "text": "Provides a side-car container to backup itzg/minecraft-server server data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itzg/docker-mc-backup",
+      "status": "candidate-context",
+      "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/mc-backup.svg)](https://hub.docker.com/r/itzg/mc-backup)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kaiede/docker-minecraft-bedrock-backup",
+      "status": "candidate-context",
+      "text": "Backup container service for itzg/minecraft-bedrock-server or itzg/minecraft-server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaiede/docker-minecraft-bedrock-backup",
+      "status": "candidate-context",
+      "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/kaiede/minecraft-bedrock-backup.svg)](https://hub.docker.com/r/kaiede/minecraft-bedrock-backup)"
     }
   ],
   "candidate_glosses": [
@@ -156,6 +180,18 @@
       "source_repo": "Kaiede/Bedrockifier",
       "status": "candidate",
       "text": "[![CI Status](https://github.com/Kaiede/Bedrockifier/actions/workflows/swift.yml/badge.svg)](https://github.com/Kaiede/Bedrockifier/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itzg/docker-mc-backup",
+      "status": "candidate",
+      "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/mc-backup.svg)](https://hub.docker.com/r/itzg/mc-backup)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaiede/docker-minecraft-bedrock-backup",
+      "status": "candidate",
+      "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/kaiede/minecraft-bedrock-backup.svg)](https://hub.docker.com/r/kaiede/minecraft-bedrock-backup)"
     }
   ],
   "candidate_related_terms": [
@@ -433,11 +469,29 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": null,
       "source_repo": "Kaiede/Bedrockifier"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "itzg/docker-mc-backup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "Kaiede/docker-minecraft-bedrock-backup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "gobackup/gobackup"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "goccy/go-reflect",
+      "target": "actions/setup-go@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "goccy/go-reflect",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "goccy/go-reflect",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "goccy/go-reflect",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "goccy/go-reflect",
+      "target": "golang-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "goccy/go-reflect",
+      "target": "reflection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T13:09:40.285556+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5724
+    },
+    {
+      "path": "go.mod",
+      "size": 44
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 709
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Zero-allocation reflection library for Go",
+    "fork": false,
+    "full_name": "goccy/go-reflect",
+    "html_url": "https://github.com/goccy/go-reflect",
+    "language": "Go",
+    "pushed_at": "2023-11-16T23:17:57Z",
+    "stargazers_count": 596,
+    "topics": [
+      "go",
+      "golang",
+      "golang-library",
+      "reflection"
+    ],
+    "updated_at": "2026-05-02T19:07:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![Go](https://github.com/goccy/go-reflect/workflows/Go/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "![Go](https://github.com/goccy/go-reflect/workflows/Go/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang-library"
+    },
+    {
+      "context_snippet": "![Go](https://github.com/goccy/go-reflect/workflows/Go/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reflection"
+    }
+  ]
+}

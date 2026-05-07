@@ -1,0 +1,342 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "devnen/Dia-TTS-Server",
+      "target": "nari-labs/dia",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "devnen/Dia-TTS-Server",
+      "target": "huggingface/safetensors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "source_repo": "devnen/Dia-TTS-Server",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "source_repo": "devnen/Dia-TTS-Server",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "source_repo": "devnen/Dia-TTS-Server",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "source_repo": "devnen/Dia-TTS-Server",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "source_repo": "devnen/Dia-TTS-Server",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Dia-TTS-Server",
+      "target": "api-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Dia-TTS-Server",
+      "target": "audio-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Dia-TTS-Server",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Dia-TTS-Server",
+      "target": "dia-tts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Dia-TTS-Server",
+      "target": "dialogue-tts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Dia-TTS-Server",
+      "target": "fastapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Dia-TTS-Server",
+      "target": "huggingface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Dia-TTS-Server",
+      "target": "openai-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Dia-TTS-Server",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Dia-TTS-Server",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Dia-TTS-Server",
+      "target": "speech-synthesis-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Dia-TTS-Server",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Dia-TTS-Server",
+      "target": "tts-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Dia-TTS-Server",
+      "target": "voice-cloning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devnen/Dia-TTS-Server",
+      "target": "web-ui",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-07T12:57:47.734247+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 39192
+    },
+    {
+      "path": "Dockerfile",
+      "size": 843
+    },
+    {
+      "path": "requirements.txt",
+      "size": 846
+    },
+    {
+      "path": ".github/workflows/docker-build-push.yml",
+      "size": 1365
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Self-host the powerful Dia TTS model. This server offers a user-friendly Web UI, flexible API endpoints (incl. OpenAI compatible), support for SafeTensors/BF16, voice cloning, dialogue generation, and GPU/CPU execution.",
+    "fork": false,
+    "full_name": "devnen/Dia-TTS-Server",
+    "html_url": "https://github.com/devnen/Dia-TTS-Server",
+    "language": "Python",
+    "pushed_at": "2026-03-28T16:29:42Z",
+    "stargazers_count": 352,
+    "topics": [
+      "ai",
+      "api-server",
+      "audio-generation",
+      "cuda",
+      "dia",
+      "dia-tts",
+      "dialogue-tts",
+      "fastapi",
+      "huggingface",
+      "openai-api",
+      "python",
+      "pytorch",
+      "speech-synthesis",
+      "speech-synthesis-api",
+      "text-to-speech",
+      "tts",
+      "tts-api",
+      "voice-cloning",
+      "web-ui"
+    ],
+    "updated_at": "2026-05-07T04:01:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/safetensors",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nari-labs/dia",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Self-host the powerful [Nari Labs Dia TTS models](https://github.com/nari-labs/dia) \u2014 including the original **Dia 1.6B** and the new **Dia 2** family (1B & 2B) \u2014 with this enhanced FastAPI server! Features hot-swappable model switching, an intuitive Web UI, flexible API endpo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-server"
+    },
+    {
+      "context_snippet": "**Self-host the powerful [Nari Labs Dia TTS models](https://github.com/nari-labs/dia) \u2014 including the original **Dia 1.6B** and the new **Dia 2** family (1B & 2B) \u2014 with this enhanced FastAPI server! Features hot-swappable model switching, an intuitive Web UI, flexible API endpo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-generation"
+    },
+    {
+      "context_snippet": "**Self-host the powerful [Nari Labs Dia TTS models](https://github.com/nari-labs/dia) \u2014 including the original **Dia 1.6B** and the new **Dia 2** family (1B & 2B) \u2014 with this enhanced FastAPI server! Features hot-swappable model switching, an intuitive Web UI, flexible API endpo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "**Self-host the powerful [Nari Labs Dia TTS models](https://github.com/nari-labs/dia) \u2014 including the original **Dia 1.6B** and the new **Dia 2** family (1B & 2B) \u2014 with this enhanced FastAPI server! Features hot-swappable model switching, an intuitive Web UI, flexible API endpo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dia-tts"
+    },
+    {
+      "context_snippet": "**Self-host the powerful [Nari Labs Dia TTS models](https://github.com/nari-labs/dia) \u2014 including the original **Dia 1.6B** and the new **Dia 2** family (1B & 2B) \u2014 with this enhanced FastAPI server! Features hot-swappable model switching, an intuitive Web UI, flexible API endpo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dialogue-tts"
+    },
+    {
+      "context_snippet": "**Self-host the powerful [Nari Labs Dia TTS models](https://github.com/nari-labs/dia) \u2014 including the original **Dia 1.6B** and the new **Dia 2** family (1B & 2B) \u2014 with this enhanced FastAPI server! Features hot-swappable model switching, an intuitive Web UI, flexible API endpo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastapi"
+    },
+    {
+      "context_snippet": "**Self-host the powerful [Nari Labs Dia TTS models](https://github.com/nari-labs/dia) \u2014 including the original **Dia 1.6B** and the new **Dia 2** family (1B & 2B) \u2014 with this enhanced FastAPI server! Features hot-swappable model switching, an intuitive Web UI, flexible API endpo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huggingface"
+    },
+    {
+      "context_snippet": "**Self-host the powerful [Nari Labs Dia TTS models](https://github.com/nari-labs/dia) \u2014 including the original **Dia 1.6B** and the new **Dia 2** family (1B & 2B) \u2014 with this enhanced FastAPI server! Features hot-swappable model switching, an intuitive Web UI, flexible API endpo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openai-api"
+    },
+    {
+      "context_snippet": "**Self-host the powerful [Nari Labs Dia TTS models](https://github.com/nari-labs/dia) \u2014 including the original **Dia 1.6B** and the new **Dia 2** family (1B & 2B) \u2014 with this enhanced FastAPI server! Features hot-swappable model switching, an intuitive Web UI, flexible API endpo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "**Self-host the powerful [Nari Labs Dia TTS models](https://github.com/nari-labs/dia) \u2014 including the original **Dia 1.6B** and the new **Dia 2** family (1B & 2B) \u2014 with this enhanced FastAPI server! Features hot-swappable model switching, an intuitive Web UI, flexible API endpo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "**Self-host the powerful [Nari Labs Dia TTS models](https://github.com/nari-labs/dia) \u2014 including the original **Dia 1.6B** and the new **Dia 2** family (1B & 2B) \u2014 with this enhanced FastAPI server! Features hot-swappable model switching, an intuitive Web UI, flexible API endpo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis-api"
+    },
+    {
+      "context_snippet": "**Self-host the powerful [Nari Labs Dia TTS models](https://github.com/nari-labs/dia) \u2014 including the original **Dia 1.6B** and the new **Dia 2** family (1B & 2B) \u2014 with this enhanced FastAPI server! Features hot-swappable model switching, an intuitive Web UI, flexible API endpo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    },
+    {
+      "context_snippet": "**Self-host the powerful [Nari Labs Dia TTS models](https://github.com/nari-labs/dia) \u2014 including the original **Dia 1.6B** and the new **Dia 2** family (1B & 2B) \u2014 with this enhanced FastAPI server! Features hot-swappable model switching, an intuitive Web UI, flexible API endpo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tts-api"
+    },
+    {
+      "context_snippet": "**Self-host the powerful [Nari Labs Dia TTS models](https://github.com/nari-labs/dia) \u2014 including the original **Dia 1.6B** and the new **Dia 2** family (1B & 2B) \u2014 with this enhanced FastAPI server! Features hot-swappable model switching, an intuitive Web UI, flexible API endpo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-cloning"
+    },
+    {
+      "context_snippet": "**Self-host the powerful [Nari Labs Dia TTS models](https://github.com/nari-labs/dia) \u2014 including the original **Dia 1.6B** and the new **Dia 2** family (1B & 2B) \u2014 with this enhanced FastAPI server! Features hot-swappable model switching, an intuitive Web UI, flexible API endpo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-ui"
+    }
+  ]
+}

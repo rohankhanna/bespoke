@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "starters"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Repo-Starters-And-Templates-Index",
+      "status": "candidate-context",
+      "text": "Index of repo starter templates, scaffolds, and patterns for bootstrapping new projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Repo-Starters-And-Templates-Index",
+      "status": "candidate-context",
+      "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Repo-Starters-And-Templates-Index",
+      "status": "candidate",
+      "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10040949,
+      "status": "candidate",
+      "text": "dispatcher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9967736,
+      "status": "candidate",
+      "text": "entrant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9817173,
+      "status": "candidate",
+      "text": "crank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9814533,
+      "status": "candidate",
+      "text": "newcomer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9808165,
+      "status": "candidate",
+      "text": "freshman"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "starters",
+  "concept_id": "starters",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Repo-Starters-And-Templates-Index"
+    }
+  ],
+  "first_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "starters",
+      "sense_id": "starters#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -231,7 +231,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T08:34:51.687554+00:00",
+  "fetched_at": "2026-05-07T13:01:46.186315+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -276,7 +276,7 @@
     "html_url": "https://github.com/apache/horaedb",
     "language": "Rust",
     "pushed_at": "2026-02-05T18:30:54Z",
-    "stargazers_count": 2835,
+    "stargazers_count": 2836,
     "topics": [
       "cloud-native",
       "distributed-database",
@@ -288,7 +288,7 @@
       "timeseries-database",
       "tsdb"
     ],
-    "updated_at": "2026-05-04T15:19:01Z"
+    "updated_at": "2026-05-07T11:53:03Z"
   },
   "repo_links": [],
   "terms": [

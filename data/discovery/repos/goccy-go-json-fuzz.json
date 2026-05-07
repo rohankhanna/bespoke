@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T13:09:39.123227+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 230
+    },
+    {
+      "path": "go.mod",
+      "size": 419
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "fuzzing test for goccy/go-json",
+    "fork": false,
+    "full_name": "goccy/go-json-fuzz",
+    "html_url": "https://github.com/goccy/go-json-fuzz",
+    "language": "Go",
+    "pushed_at": "2021-11-17T15:00:22Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2025-02-12T01:15:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-07T13:09:41.615339+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1322
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "release",
+    "description": "Device management schema data for MDM.",
+    "fork": false,
+    "full_name": "apple/device-management",
+    "html_url": "https://github.com/apple/device-management",
+    "language": null,
+    "pushed_at": "2026-03-25T14:14:40Z",
+    "stargazers_count": 907,
+    "topics": [],
+    "updated_at": "2026-05-06T20:52:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

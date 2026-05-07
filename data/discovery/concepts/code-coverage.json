@@ -461,6 +461,18 @@
       "source_repo": "hknio/wasmcov",
       "status": "candidate-context",
       "text": "Wasmcov comprises a Rust library and an associated binary that offer a range of utilities for coverage analysis of WebAssembly (Wasm) modules. This tool empowers you to gather and scrutinize code coverage data while executing Wasm modules. Wasmcov stands out for its adaptability\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WisdomShell/llama_cpp_for_codeshell",
+      "status": "candidate-context",
+      "text": "CodeShell model in C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WisdomShell/llama_cpp_for_codeshell",
+      "status": "candidate-context",
+      "text": "Code Coverage"
     }
   ],
   "candidate_glosses": [
@@ -691,6 +703,12 @@
       "source_repo": "hknio/wasmcov",
       "status": "candidate",
       "text": "Wasmcov comprises a Rust library and an associated binary that offer a range of utilities for coverage analysis of WebAssembly (Wasm) modules. This tool empowers you to gather and scrutinize code coverage data while executing Wasm modules. Wasmcov stands out for its adaptability\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WisdomShell/llama_cpp_for_codeshell",
+      "status": "candidate",
+      "text": "Code Coverage"
     }
   ],
   "candidate_related_terms": [
@@ -1466,11 +1484,35 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": ".github/workflows/code-coverage.yml",
       "source_repo": "clj-commons/rewrite-clj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-07T12:51:40.300011+00:00",
+      "source_file": ".github/workflows/code-coverage.yml",
+      "source_repo": "WisdomShell/llama_cpp_for_codeshell"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
   "lexical_providers": [
     "datamuse"
   ],

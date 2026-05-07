@@ -51,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T10:24:51.790109+00:00",
+  "fetched_at": "2026-05-07T14:12:57.862125+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -68,7 +68,7 @@
     "html_url": "https://github.com/jeffffffli/res-loglikelihood-regression",
     "language": "Python",
     "pushed_at": "2021-11-25T03:47:29Z",
-    "stargazers_count": 436,
+    "stargazers_count": 437,
     "topics": [
       "2d-human-pose",
       "3d-human-pose",
@@ -78,7 +78,7 @@
       "pytorch",
       "regression"
     ],
-    "updated_at": "2026-05-07T06:08:33Z"
+    "updated_at": "2026-05-07T12:45:23Z"
   },
   "repo_links": [],
   "terms": [

@@ -235,13 +235,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "mui/material-ui",
-      "target": "babel-plugin-istanbul",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "mui/material-ui",
       "target": "babel-plugin-module-resolver",
       "target_type": "component"
     },
@@ -652,6 +645,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-07T07:09:11.945528+00:00",
+  "generated_at": "2026-05-07T12:51:40.300011+00:00",
   "source_repo": "mui/material-ui"
 }

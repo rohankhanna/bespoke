@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "DDG: This repo contains the code for our IJCAI 2022 paper: Dynamic Domain Generalization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repo contains the code for our IJCAI 2022 paper: Dynamic Domain Generalization."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repo contains the code for our IJCAI 2022 paper: Dynamic Domain Generalization."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "domain-generalization",
+      "sense_id": "domain-generalization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "domain-generalization",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "domain-generalization",
+  "observation_id": "493c7769bd8c1975",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-07T12:51:40.300011+00:00",
+  "observed_text": "domain-generalization",
+  "source_context_snippet": "This repo contains the code for our IJCAI 2022 paper: Dynamic Domain Generalization.",
+  "source_file": null,
+  "source_repo": "MetaVisionLab/DDG",
+  "source_repo_description": "DDG: This repo contains the code for our IJCAI 2022 paper: Dynamic Domain Generalization."
+}
