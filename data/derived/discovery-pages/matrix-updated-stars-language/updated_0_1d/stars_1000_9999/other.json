@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 193,
-    "concepts": 176,
-    "observations": 177,
-    "repos": 15,
-    "terms": 176
+    "components": 114,
+    "concepts": 108,
+    "observations": 109,
+    "repos": 10,
+    "terms": 108
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
-    "agenda/agenda",
-    "all-contributors/allcontributors.org",
-    "beam-community/elixir-companies",
     "clj-kondo/clj-kondo",
     "datalevin/datalevin",
+    "dotnet/reactive",
     "dotnet/Silk.NET",
     "firebase/flutterfire",
-    "foundry-rs/forge-std",
-    "jump-dev/JuMP.jl",
     "kurrent-io/KurrentDB",
     "microsoft/aspire",
-    "rocq-prover/rocq",
     "swiftlang/llvm-project",
     "swiftlang/swift-syntax",
     "web-platform-tests/wpt"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 13,
-    "terms": 37
+    "components": 16,
+    "concepts": 39,
+    "observations": 39,
+    "repos": 14,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "apache/.github",
     "astroyat/lerobot-ros",
     "chaiNNer-org/chaiNNer-nightly",
-    "cloudrepo-io/founder-os",
     "conda-forge/cfep",
     "datajuicer/data-juicer-hub",
     "ethereum/beacon-metrics",
@@ -26,6 +25,8 @@
     "hicchicc/x8y12pxDenkiChip",
     "Lynxe-public/Lynxe-public-prompts",
     "panaversity/claude-code-agent-teams-exercises",
+    "robotology/community",
+    "robotology/mesh-support",
     "tony/claude-code-riper-5"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4035,
-    "concepts": 794,
-    "observations": 795,
-    "repos": 232,
-    "terms": 788
+    "components": 4073,
+    "concepts": 799,
+    "observations": 800,
+    "repos": 233,
+    "terms": 794
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "28mm/blast-radius",
     "afc163/fanyi",
@@ -241,6 +241,7 @@
     "vuelidate/vuelidate",
     "vueuse/vue-demi",
     "WebDevSimplified/Zoom-Clone-With-WebRTC",
+    "webpack/style-loader",
     "wenda-LLM/wenda",
     "wendux/fly",
     "yaronn/wopr",

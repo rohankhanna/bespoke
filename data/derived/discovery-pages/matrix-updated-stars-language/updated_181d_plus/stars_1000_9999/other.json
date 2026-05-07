@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1203,
-    "concepts": 1419,
-    "observations": 1421,
-    "repos": 388,
-    "terms": 1409
+    "components": 1227,
+    "concepts": 1431,
+    "observations": 1433,
+    "repos": 394,
+    "terms": 1421
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -110,9 +110,11 @@
     "efemkay/obsidian-modular-css-layout",
     "eladrich/pixel2style2pixel",
     "elzr/vim-json",
+    "emacs-evil/evil",
     "emk/rust-musl-builder",
     "ervandew/supertab",
     "ErwinM/acts_as_tenant",
+    "ethereum/yellowpaper",
     "facebookarchive/fb.resnet.torch",
     "facebookresearch/DensePose",
     "facebookresearch/vissl",
@@ -253,12 +255,14 @@
     "natemoo-re/astro-icon",
     "neomake/neomake",
     "nianticlabs/monodepth2",
+    "ninject/Ninject",
     "nordtheme/nord",
     "nordtheme/vim",
     "NVIDIA-AI-IOT/jetbot",
     "NVIDIA/tacotron2",
     "nvim-pack/nvim-spectre",
     "nvim-telescope/telescope-ui-select.nvim",
+    "octol/vim-cpp-enhanced-highlight",
     "ojdkbuild/ojdkbuild",
     "OmniSharp/omnisharp-vim",
     "oneclick/rubyinstaller",
@@ -379,6 +383,7 @@
     "twitter/scalding",
     "twosigma/beakerx",
     "tylin/coco-caption",
+    "vform666/variant-form",
     "voidlabs/mosaico",
     "wardencommunity/warden",
     "wbthomason/packer.nvim",
@@ -398,6 +403,7 @@
     "yang-song/score_sde_pytorch",
     "YangLing0818/RPG-DiffusionMaster",
     "yformer/EfficientSAM",
+    "Yggdroot/indentLine",
     "yitu-opensource/T2T-ViT",
     "YuanGongND/ast",
     "zhoubolei/CAM",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 16,
-    "concepts": 33,
-    "observations": 34,
-    "repos": 2,
-    "terms": 33
+    "components": 105,
+    "concepts": 49,
+    "observations": 51,
+    "repos": 3,
+    "terms": 49
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "2dust/v2rayN",
+    "f/prompts.chat",
     "microsoft/generative-ai-for-beginners"
   ]
 }

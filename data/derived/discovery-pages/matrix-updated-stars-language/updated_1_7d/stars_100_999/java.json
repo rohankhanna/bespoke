@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 144,
-    "concepts": 166,
-    "observations": 166,
-    "repos": 23,
-    "terms": 166
+    "components": 80,
+    "concepts": 89,
+    "observations": 89,
+    "repos": 15,
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
@@ -12,30 +12,22 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
-    "apache/spark-kubernetes-operator",
     "Apicurio/apicurio-registry",
-    "aws-powertools/powertools-lambda-java",
     "aws/smithy-go",
     "bazel-contrib/rules_jvm_external",
-    "cloudfoundry/credhub",
-    "confluentinc/kafka-streams-examples",
-    "devoxx/DevoxxGenieIDEAPlugin",
     "eclipse-wildwebdeveloper/wildwebdeveloper",
-    "googleapis/java-bigtable-hbase",
     "heroku/webapp-runner",
     "ihmcrobotics/ihmc-open-robotics-software",
     "kirill-grouchnikov/radiance",
+    "ldproxy/ldproxy",
     "mapsforge/vtm",
     "MarcusWolschon/osmeditor4android",
     "microsoft/LangChain4j-for-Beginners",
-    "operator-framework/java-operator-sdk",
     "palantir/javapoet",
     "processing/processing4",
-    "quarkiverse/quarkus-operator-sdk",
     "samtools/htsjdk",
-    "SAP/SapMachine",
-    "Xilinx/RapidWright"
+    "SAP/SapMachine"
   ]
 }

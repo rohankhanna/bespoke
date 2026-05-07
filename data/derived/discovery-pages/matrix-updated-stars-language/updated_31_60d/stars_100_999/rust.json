@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 192,
-    "concepts": 161,
-    "observations": 165,
-    "repos": 40,
-    "terms": 161
+    "components": 200,
+    "concepts": 168,
+    "observations": 172,
+    "repos": 42,
+    "terms": 168
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "ashvardanian/StringWars",
     "athre0z/color-backtrace",
@@ -34,6 +34,8 @@
     "gfx-rs/rspirv",
     "gimli-rs/addr2line",
     "hsivonen/chardetng",
+    "iqlusioninc/abscissa",
+    "iqlusioninc/tmkms",
     "lambdaclass/lambdaworks",
     "LukasKalbertodt/libtest-mimic",
     "mitsuhiko/similar-asserts",

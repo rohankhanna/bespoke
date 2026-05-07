@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 768,
-    "concepts": 210,
-    "observations": 210,
-    "repos": 52,
-    "terms": 210
+    "components": 823,
+    "concepts": 211,
+    "observations": 211,
+    "repos": 56,
+    "terms": 211
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "ahmadnassri/node-glob-promise",
     "alexellis/arkade-get",
@@ -38,16 +38,20 @@
     "grommet/grommet-site",
     "GuillaumeGomez/browser-UI-test",
     "hectorm/chafa-wasm",
+    "i18next/i18next-chained-backend",
     "i18next/i18next-icu",
+    "i18next/i18next-multiload-backend-adapter",
     "i18next/i18next-resources-to-backend",
     "ipfs/js-ipfs-utils",
     "itsrishika/payment-bypass-bug-lab",
     "jasmine/jasmine-browser-runner",
     "locize/locize-cli",
     "mapbox/node-srs",
+    "mapbox/node-tilejson",
     "mapbox/point-geometry",
     "mapbox/tiletype",
     "milvus-io/community",
+    "mypyc/mypy_mypyc-wheels",
     "newrelic/newrelic-node-apollo-server-plugin",
     "newrelic/newrelic-node-examples",
     "npm/types",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 47,
-    "concepts": 27,
-    "observations": 27,
-    "repos": 22,
-    "terms": 27
+    "concepts": 34,
+    "observations": 34,
+    "repos": 26,
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "adiny/moodtrip-hotel-search",
     "cachix/crossterm",
     "cwfitzgerald/libtest-mimic",
     "danielrosehill/AI-Browser-Tools",
     "danielrosehill/AI-Projects-Index",
+    "danielrosehill/AI-Resource-Maps",
     "danielrosehill/amd-gpu-fixes",
     "danielrosehill/Backup-Projects-Index",
     "danielrosehill/Bug-Reports-And-Fixes",
@@ -29,8 +30,11 @@
     "danielrosehill/handy-wayland-autostart-fix",
     "danielrosehill/Hebrew-Tech-Vocab",
     "danielrosehill/Home-Assistant-Index",
+    "danielrosehill/Israel-Preparedness-Index",
     "danielrosehill/Jewish-Related-Index",
     "danielrosehill/Linux-Desktop-Tools-Index",
+    "danielrosehill/Networking-And-Infrastructure-Index",
+    "danielrosehill/Networking-Projects-Index",
     "danielrosehill/Patches-Repos-Index",
     "DataDog/opa",
     "hermit-os/tokio",

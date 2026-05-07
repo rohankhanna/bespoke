@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 187,
-    "concepts": 66,
-    "observations": 67,
-    "repos": 49,
-    "terms": 66
+    "components": 188,
+    "concepts": 70,
+    "observations": 71,
+    "repos": 51,
+    "terms": 70
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "a-liashenko/egui",
     "adiSuper94/dns-rs",
     "andreivasiliu/quad-net",
     "boundless-xyz/reth",
     "byron/cargo-release",
+    "Canvinus/cargo-near-new-example",
     "CBenoit/diplomat",
     "cgisky1980/hf-hub",
     "cnoshb/cnosdb",
@@ -26,6 +27,7 @@
     "ComunidadAylas/glsl-lang",
     "CyberHoward/cw-plus-plus",
     "databendlabs/state-machine-api",
+    "datachainlab/lcp-cgen",
     "datafuse-extras/async-backtrace",
     "datafuse-extras/async-recursion",
     "datafuse-extras/logforth",

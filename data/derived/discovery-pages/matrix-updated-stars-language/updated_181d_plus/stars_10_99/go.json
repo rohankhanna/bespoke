@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 375,
+    "components": 377,
     "concepts": 404,
     "observations": 407,
-    "repos": 157,
+    "repos": 159,
     "terms": 400
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "0xcafed00d/joystick",
     "1set/cronrange",
@@ -33,6 +33,7 @@
     "AlexBeauchemin/gobadge",
     "alexkohler/dogsled",
     "alexkohler/nargs",
+    "allegro/bigcache-bench",
     "ameshkov/dnscrypt",
     "anacrolix/btlink",
     "antonmedv/golang-expression-evaluation-comparison",
@@ -108,6 +109,7 @@
     "hyperledger-labs/yui-fabric-ibc",
     "imkira/go-loggers-bench",
     "InftyAI/scheduler-plugins",
+    "ingenuity-build/interchain-queries",
     "input-output-hk/cicero",
     "ipfs-shipyard/nopfs",
     "ipfs/fs-repo-migrations",

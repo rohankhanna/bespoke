@@ -3,7 +3,7 @@
     "components": 15,
     "concepts": 43,
     "observations": 43,
-    "repos": 32,
+    "repos": 33,
     "terms": 41
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "1ilkhamov/opencode-hermes-multiagent",
     "Adlik/model_zoo",
@@ -23,6 +23,7 @@
     "BingguangHao/BalanceSFT",
     "bl-ue/tweakcc-system-prompts",
     "cedar-policy/rfcs",
+    "cloudrepo-io/founder-os",
     "dredozubov/prd-generator",
     "eric-haibin-lin/verl-community",
     "FAIR-IMPACT/MOD",

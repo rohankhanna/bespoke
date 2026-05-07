@@ -3,7 +3,7 @@
     "components": 0,
     "concepts": 2,
     "observations": 2,
-    "repos": 2,
+    "repos": 3,
     "terms": 2
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
+    "aaronrsun/spec-kit-confluence",
     "danielrosehill/adb-keep-awake",
     "danielrosehill/AMD-GPU-DP-Hotplug-Fix"
   ]

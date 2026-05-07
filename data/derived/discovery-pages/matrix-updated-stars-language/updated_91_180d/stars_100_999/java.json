@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 63,
-    "concepts": 99,
-    "observations": 99,
-    "repos": 14,
-    "terms": 99
+    "components": 59,
+    "concepts": 93,
+    "observations": 93,
+    "repos": 13,
+    "terms": 93
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "apache/seatunnel-web",
     "bazelbuild/stardoc",
@@ -25,7 +25,6 @@
     "heiher/sockstun",
     "ipfs-shipyard/gomobile-ipfs",
     "jpmml/jpmml-evaluator",
-    "librespot-org/librespot-java",
     "nacos-group/nacos-spring-project",
     "takari/polyglot-maven"
   ]

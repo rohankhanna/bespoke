@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 103,
-    "concepts": 160,
-    "observations": 160,
-    "repos": 66,
-    "terms": 160
+    "components": 110,
+    "concepts": 164,
+    "observations": 164,
+    "repos": 69,
+    "terms": 164
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "abilian/abilian-sbe",
     "adamharrison/lite-xl-android",
@@ -29,6 +29,7 @@
     "caprica/vlcj-info",
     "CommonWealthRobotics/mujoco-java",
     "CraftJarvis/MC-Simulator",
+    "CreeperHost/Log4jPatcher",
     "cyberphone/jws-ct",
     "debajyotibasak/MyTimes",
     "Deep-Symmetry/wayang",
@@ -64,6 +65,7 @@
     "marbl/MHAP",
     "metaloom/qdrant-java-client",
     "mikepapadim/llama2.tornadovm.java",
+    "Modi1987/Simulink-iiwa-interface",
     "MSPaintIDE/NewOCR",
     "osirrc/ciff",
     "Parquet/parquet-compatibility",
@@ -71,6 +73,7 @@
     "redis-developer/redis-om-spring-skeleton-app",
     "RESTDocsEXT/restdocsext-jersey",
     "ruby-processing/JRubyArt",
+    "runtimeverification/k-editor-support",
     "setl/rdf-urdna",
     "shire-lang/shire-demo",
     "snover/terp",

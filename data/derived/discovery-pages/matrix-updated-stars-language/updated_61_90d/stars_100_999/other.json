@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 352,
-    "concepts": 343,
-    "observations": 344,
+    "concepts": 342,
+    "observations": 343,
     "repos": 92,
-    "terms": 340
+    "terms": 339
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "4d49/scene-library",
     "ahyatt/emacs-websocket",
@@ -20,7 +20,6 @@
     "AndrewRadev/switch.vim",
     "ankane/kms_encrypted",
     "appwrite/playground-for-web",
-    "archguard/archguard",
     "arnetheduck/nim-results",
     "arnetheduck/nph",
     "aserafin/grape_logging",
@@ -65,7 +64,6 @@
     "google-research/nested-transformer",
     "google/CommonLoopUtils",
     "havarddj/typst-preview.el",
-    "hollowstrawberry/kohya-colab",
     "JacksonBurns/chemeleon",
     "JetBrains/gradle-changelog-plugin",
     "JetBrains/intellij-ui-test-robot",
@@ -79,12 +77,12 @@
     "JuliaLang/JuliaSyntax.jl",
     "kowainik/summoner",
     "lambdalisue/vim-nerdfont",
-    "lite-xl/lite-xl-plugin-manager",
     "loqusion/typix",
     "mathjax/MathJax-demos-web",
     "nim-lang/vscode-nim",
     "NimblePros/eShopOnWeb",
     "ocurrent/ocaml-ci",
+    "onomojo/i18n-country-translations",
     "PacificBiosciences/pbmm2",
     "PMunch/nimlsp",
     "prettier/prettier-emacs",
@@ -94,6 +92,8 @@
     "ropensci/git2r",
     "rubocop/rubocop-performance",
     "scribd/Weaver",
+    "sol/hpack",
+    "stefan-hoeck/idris2-pack",
     "swansonk14/admet_ai",
     "tc39/proposal-decimal",
     "tensorflow/mlir-hlo",

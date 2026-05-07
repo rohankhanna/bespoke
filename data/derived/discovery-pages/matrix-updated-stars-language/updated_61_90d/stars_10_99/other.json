@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 335,
-    "concepts": 172,
-    "observations": 172,
-    "repos": 65,
-    "terms": 171
+    "components": 342,
+    "concepts": 177,
+    "observations": 177,
+    "repos": 67,
+    "terms": 176
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "ably-labs/realtime-quiz-framework",
@@ -24,12 +24,12 @@
     "andys8/git-brunch",
     "ankane/ml-stack",
     "anmolitor/travelm-agency",
-    "antonbabenko/serverless.tf-playground",
     "apache/netbeans-antora-site",
     "asg017/sqlite-hello",
     "avelino/monotropic-theme-vscode",
     "benomahony/oil-git.nvim",
     "bokeh/tutorial",
+    "BuddiesOfBudgie/budgie-desktop-view",
     "camertron/garnet-js",
     "co-IT/CSharpFunctionalExtensions.HttpResults",
     "codymikol/neotest-kotlin",
@@ -41,7 +41,6 @@
     "Embarcadero/PythonPackages4Delphi",
     "flycheck/flycheck-eglot",
     "FoundationDB/fdb-build-support",
-    "getgrav/grav-theme-learn2",
     "GoogleCloudPlatform/getting-started-dotnet",
     "HaxeFlixel/haxeflixel.com",
     "hedronvision/bazel-make-cc-https-easy",
@@ -52,7 +51,7 @@
     "jakewvincent/texmagic.nvim",
     "jfmengels/elm-review-unused",
     "jmespath/jmespath.site",
-    "jpmml/r2pmml",
+    "joanroig/admincraft",
     "JuliaGraphics/Cairo.jl",
     "JuliaGtk/Gtk4.jl",
     "JunoLab/Atom.jl",
@@ -62,10 +61,12 @@
     "mfussenegger/nlua",
     "microsoft/windows-host-process-containers-base-image",
     "MicrosoftDocs/vcpkg-docs",
+    "mirage/conan",
     "newtheatre/history-project",
     "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
     "ocaml-opam/opam-publish",
     "ocurrent/opam-health-check",
+    "onomojo/i18n-timezones",
     "PacktPublishing/Natural-Language-Processing-with-Flair",
     "padreati/rapaio-jupyter-kernel",
     "patrickgold/jetpref",
@@ -74,10 +75,11 @@
     "rojo-rbx/rojo.space",
     "rust-lang/crates-build-env",
     "SchwarzIT/spectral-intellij-plugin",
+    "Shopify/quantified",
     "spring-ai-alibaba/website",
     "standardrb/lint_roller",
     "tarsius/llama",
     "timo/json_fast",
-    "xie-lab-ml/piecewise-sparse-attention"
+    "Triang-jyed-driung/Rapid-Sampling"
   ]
 }

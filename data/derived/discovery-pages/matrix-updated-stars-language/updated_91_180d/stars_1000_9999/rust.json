@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 114,
-    "concepts": 107,
-    "observations": 110,
-    "repos": 19,
-    "terms": 106
+    "components": 138,
+    "concepts": 147,
+    "observations": 150,
+    "repos": 24,
+    "terms": 146
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "anordal/shellharden",
+    "anthropics/claudes-c-compiler",
+    "apache/horaedb",
     "atanunq/viu",
     "dtolnay/case-studies",
     "erg-lang/erg",
@@ -25,9 +27,12 @@
     "guillaume-be/rust-bert",
     "helix-editor/nucleo",
     "imgui-rs/imgui-rs",
+    "linebender/tiny-skia",
     "Morganamilo/paru",
     "nagisa/rust_libloading",
     "rust-headless-chrome/rust-headless-chrome",
+    "sachaos/viddy",
+    "sagiegurari/cargo-make",
     "tarkah/tickrs",
     "Tencent/tquic",
     "tokio-rs/bytes",

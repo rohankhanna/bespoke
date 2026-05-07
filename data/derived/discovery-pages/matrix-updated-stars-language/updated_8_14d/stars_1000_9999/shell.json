@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 89,
-    "observations": 89,
-    "repos": 15,
-    "terms": 88
+    "components": 76,
+    "concepts": 114,
+    "observations": 114,
+    "repos": 16,
+    "terms": 113
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,23 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
-    "aquasecurity/trivy-action",
     "aurutils/aurutils",
     "bioconda/bioconda-recipes",
+    "Botspot/pi-apps",
     "confluentinc/demo-scene",
-    "docker-library/docs",
-    "docker-library/official-images",
     "dtcooper/raspotify",
     "fluxcd/flux2-kustomize-helm-example",
-    "google/adk-docs",
+    "GrapheneOS/Vanadium",
+    "home-assistant/addons",
+    "mlocati/docker-php-extension-installer",
+    "msys2/MINGW-packages",
     "pypa/manylinux",
+    "rbenv/ruby-build",
     "rocker-org/rocker",
-    "rvm/rvm",
     "sublimehq/Packages",
-    "void-linux/void-packages",
+    "YosysHQ/oss-cad-suite-build",
     "zsh-users/zsh-completions"
   ]
 }

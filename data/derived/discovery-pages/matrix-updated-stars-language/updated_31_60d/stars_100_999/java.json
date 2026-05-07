@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 62,
-    "concepts": 89,
-    "observations": 89,
-    "repos": 13,
-    "terms": 86
+    "components": 72,
+    "concepts": 98,
+    "observations": 98,
+    "repos": 14,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
+    "Azure-Samples/agent-openai-java-banking-assistant",
     "Deep-Symmetry/crate-digger",
     "eclipse-buildship/buildship",
     "eclipse-tm4e/tm4e",

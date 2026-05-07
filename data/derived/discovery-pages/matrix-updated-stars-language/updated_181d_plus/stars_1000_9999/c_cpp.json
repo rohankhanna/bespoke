@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 334,
-    "concepts": 711,
-    "observations": 711,
-    "repos": 199,
-    "terms": 702
+    "components": 338,
+    "concepts": 718,
+    "observations": 718,
+    "repos": 200,
+    "terms": 709
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "aantron/better-enums",
     "aappleby/smhasher",
@@ -91,6 +91,7 @@
     "hiroi-sora/PaddleOCR-json",
     "hku-mars/FAST-LIVO",
     "hku-mars/FAST_LIO",
+    "HKUST-Aerial-Robotics/A-LOAM",
     "HKUST-Aerial-Robotics/Fast-Planner",
     "HKUST-Aerial-Robotics/FUEL",
     "HKUST-Aerial-Robotics/VINS-Fusion",
@@ -157,6 +158,7 @@
     "NVIDIA/FasterTransformer",
     "NVIDIA/thrust",
     "NVIDIA/VideoProcessingFramework",
+    "nvim-telescope/telescope-fzf-native.nvim",
     "OAID/Tengine",
     "P-H-C/phc-winner-argon2",
     "p-ranav/argparse",
@@ -196,7 +198,6 @@
     "Tencent/TNN",
     "tensorflow/community",
     "Tessil/robin-map",
-    "thestinger/termite",
     "tinycthread/tinycthread",
     "TixiaoShan/LIO-SAM",
     "tomaz/appledoc",

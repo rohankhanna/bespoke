@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 34,
-    "concepts": 62,
-    "observations": 62,
-    "repos": 8,
-    "terms": 60
+    "components": 89,
+    "concepts": 128,
+    "observations": 129,
+    "repos": 12,
+    "terms": 126
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,19 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
+    "89luca89/distrobox",
     "agarrharr/awesome-cli-apps",
     "dokku/dokku",
+    "google/oss-fuzz",
     "nodesource/distributions",
-    "oh-my-fish/oh-my-fish",
     "pyenv/pyenv",
+    "super-linter/super-linter",
+    "termux/termux-packages",
     "tj/n",
     "unixorn/awesome-zsh-plugins",
+    "VSCodium/vscodium",
     "zarazhangrui/frontend-slides"
   ]
 }

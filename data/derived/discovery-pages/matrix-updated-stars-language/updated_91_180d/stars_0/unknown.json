@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 20,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 22,
-    "terms": 23
+    "components": 26,
+    "concepts": 24,
+    "observations": 24,
+    "repos": 23,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "asm89/prettytable-rs",
     "danielrosehill/A-Better-Jobs-Platform-Notes",
@@ -23,6 +23,7 @@
     "danielrosehill/Claude-Rescue",
     "danielrosehill/Data-Projects-Index",
     "danielrosehill/git-github-plugin",
+    "danielrosehill/Kokoro-FastAPI",
     "datafuse-extras/pprof-rs",
     "Enselic/cargo-public-api",
     "get-gah/gah-db",

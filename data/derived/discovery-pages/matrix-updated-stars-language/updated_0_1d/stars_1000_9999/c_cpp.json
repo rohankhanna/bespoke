@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 88,
-    "concepts": 87,
-    "observations": 88,
-    "repos": 8,
-    "terms": 87
+    "components": 55,
+    "concepts": 68,
+    "observations": 68,
+    "repos": 6,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
-    "gpac/gpac",
     "harfbuzz/harfbuzz",
-    "riscv-collab/riscv-gnu-toolchain",
-    "sorbet/sorbet",
+    "KhronosGroup/KTX-Software",
+    "OSGeo/gdal",
     "swiftlang/swift-llbuild",
-    "ultrajson/ultrajson",
-    "uxlfoundation/oneTBB",
+    "TrenchBroom/TrenchBroom",
     "xtensor-stack/xtensor"
   ]
 }

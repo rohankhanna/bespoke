@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 32449,
-    "concepts": 14733,
-    "observations": 14788,
-    "repos": 1657,
-    "terms": 14689
+    "components": 32585,
+    "concepts": 14800,
+    "observations": 14855,
+    "repos": 1664,
+    "terms": 14766
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "0xJacky/nginx-ui",
@@ -546,6 +546,7 @@
     "fivethirtyeight/data",
     "FlagOpen/FlagEmbedding",
     "flairNLP/flair",
+    "flipped-aurora/gin-vue-admin",
     "floating-ui/floating-ui",
     "FlowiseAI/Flowise",
     "fmtlib/fmt",
@@ -676,6 +677,7 @@
     "graphql/graphql-js",
     "graphql/graphql-spec",
     "gravitational/teleport",
+    "great-expectations/great_expectations",
     "grpc-ecosystem/grpc-gateway",
     "grpc/grpc",
     "grpc/grpc-go",
@@ -760,6 +762,7 @@
     "infiniflow/ragflow",
     "influxdata/influxdb",
     "instantX-research/InstantID",
+    "inversify/InversifyJS",
     "invoke-ai/InvokeAI",
     "iOfficeAI/AionUi",
     "iovisor/bcc",
@@ -966,6 +969,7 @@
     "MatsuriDayo/NekoBoxForAndroid",
     "MatsuriDayo/nekoray",
     "mawww/kakoune",
+    "maybe-finance/maybe",
     "mckaywrigley/chatbot-ui",
     "mdn/content",
     "mdx-js/mdx",
@@ -1039,6 +1043,7 @@
     "mlfoundations/open_clip",
     "mmistakes/minimal-mistakes",
     "mobile-shell/mosh",
+    "mobxjs/mobx",
     "moby/moby",
     "mochajs/mocha",
     "modelcontextprotocol/python-sdk",
@@ -1080,6 +1085,7 @@
     "neovim/neovim",
     "neovim/nvim-lspconfig",
     "nerfstudio-project/nerfstudio",
+    "netease-youdao/QAnything",
     "Netflix/Hystrix",
     "netty/netty",
     "networkx/networkx",
@@ -1329,6 +1335,7 @@
     "remy/nodemon",
     "renovatebot/renovate",
     "request/request",
+    "rerun-io/rerun",
     "resemble-ai/chatterbox",
     "resilience4j/resilience4j",
     "restify/node-restify",

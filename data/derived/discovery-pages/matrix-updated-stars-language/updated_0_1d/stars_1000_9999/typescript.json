@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 213,
-    "concepts": 66,
-    "observations": 66,
+    "components": 259,
+    "concepts": 53,
+    "observations": 54,
     "repos": 6,
-    "terms": 65
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
-    "apollographql/apollo-tooling",
+    "benchmark-action/github-action-benchmark",
+    "conventional-changelog/conventional-changelog",
     "electron/rebuild",
-    "NomicFoundation/hardhat",
-    "open-telemetry/opentelemetry-demo",
     "podman-desktop/podman-desktop",
-    "vite-pwa/vite-plugin-pwa"
+    "TanStack/form",
+    "typescript-language-server/typescript-language-server"
   ]
 }

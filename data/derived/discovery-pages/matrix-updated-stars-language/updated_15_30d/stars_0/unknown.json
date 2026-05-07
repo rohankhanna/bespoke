@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 39,
-    "concepts": 38,
-    "observations": 38,
-    "repos": 56,
-    "terms": 47
+    "components": 43,
+    "concepts": 34,
+    "observations": 34,
+    "repos": 58,
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "aaronrsun/spec-kit-issue",
@@ -21,8 +21,10 @@
     "begmyratb/floweye-yyyxxx.cc",
     "biparous-blaxploitation156/ciphermind",
     "cachix/nix-bindings-rust",
+    "cachix/serde-envfile",
     "carloandremoreyra/xx",
     "chafingdishposition355/go-skills",
+    "conda-forge/python-isal-feedstock",
     "csjgg/ags-cookbook",
     "Culmus/hebrew-fonts",
     "damacol/ai-hub",
@@ -40,7 +42,6 @@
     "danielrosehill/Agent-Journal",
     "danielrosehill/AI-Geopol-Projects",
     "danielrosehill/AI-Memory-Planning-0426",
-    "danielrosehill/AI-Resource-Maps",
     "danielrosehill/Arch-And-Interiors-Index",
     "danielrosehill/audio-editing-plugin",
     "danielrosehill/Backup-Planner",
@@ -54,8 +55,9 @@
     "danielrosehill/Claude-Workspace-Reshaping-190426",
     "danielrosehill/Favorite-Code-Libraries",
     "danielrosehill/Geopol-Forecasts-Index",
-    "danielrosehill/Israel-Preparedness-Index",
+    "danielrosehill/lan-manager-plugin",
     "danielrosehill/My-Benchmarks",
+    "Dustinpro/Dustinpro",
     "foundersieve687/skill-gateway",
     "kdn36/arrow-rs-object-store",
     "livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux",

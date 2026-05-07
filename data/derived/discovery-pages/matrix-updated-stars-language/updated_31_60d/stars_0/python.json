@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 24,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 6,
-    "terms": 13
+    "components": 29,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 7,
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "adammes/voyanode",
     "iandees/scrapy-camoufox",
     "marin-community/harbor",
     "Nambers/ssrJSON-benchmark",
     "nibir1/vaultsim",
+    "petercorke/sphinx-autorun",
     "Systemcluster/tokenizer-bench"
   ]
 }

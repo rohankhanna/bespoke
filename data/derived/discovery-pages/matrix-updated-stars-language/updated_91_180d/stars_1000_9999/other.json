@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 337,
-    "concepts": 365,
-    "observations": 367,
+    "components": 344,
+    "concepts": 374,
+    "observations": 376,
     "repos": 83,
-    "terms": 365
+    "terms": 374
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "Alexander-Miller/treemacs",
     "ankane/dexter",
@@ -22,6 +22,7 @@
     "bazelbuild/rules_docker",
     "bencodezen/vue-enterprise-boilerplate",
     "bkeepers/dotenv",
+    "black7375/Firefox-UI-Fix",
     "brianmario/charlock_holmes",
     "carrierwaveuploader/carrierwave",
     "ChaoningZhang/MobileSAM",
@@ -35,7 +36,6 @@
     "DotNetAnalyzers/StyleCopAnalyzers",
     "EleutherAI/pythia",
     "elixir-lang/gen_stage",
-    "emacs-evil/evil",
     "emacs-lsp/lsp-ui",
     "erew123/alltalk_tts",
     "FoundationVision/VAR",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 155,
-    "concepts": 89,
-    "observations": 89,
-    "repos": 78,
-    "terms": 88
+    "components": 158,
+    "concepts": 98,
+    "observations": 98,
+    "repos": 80,
+    "terms": 97
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "a-n-t-h-o-n-y/zzz",
     "abhilash1910/llm.tpc",
@@ -48,6 +48,7 @@
     "eddelbuettel/ldlasb",
     "erigontech/silkpre",
     "erwincoumans/bullet3",
+    "etodanik/borsh-cpp20",
     "fish-shell/rust-pcre2",
     "galaxyproject/seek-bzip2",
     "git-up/libgit2",
@@ -89,6 +90,7 @@
     "Ultraopxt/yolov10cpp",
     "usdot-fhwa-stol/avt_vimba_camera",
     "usdot-fhwa-stol/carma-delphi-srr2-driver",
+    "usdot-fhwa-stol/carma-ssc-interface-wrapper",
     "vpetrigo/median-filter",
     "wxinix/wxlib",
     "yoshoku/numo-tiny_linalg"

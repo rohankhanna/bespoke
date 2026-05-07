@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 34,
+    "components": 41,
     "concepts": 9,
     "observations": 9,
-    "repos": 6,
+    "repos": 7,
     "terms": 9
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "3swordman/tree-sitter-toon",
     "AnshulGora/portfolio_template_v1",
+    "danielrosehill/My-Network-MCP",
     "hchiam/learning-eslint-google",
     "hchiam/learning-redux",
     "lukasz-wronski/Antigravity-Shit-Chat",

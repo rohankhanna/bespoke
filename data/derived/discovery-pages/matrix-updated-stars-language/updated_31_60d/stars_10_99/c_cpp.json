@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 126,
-    "concepts": 136,
-    "observations": 136,
-    "repos": 30,
-    "terms": 135
+    "components": 137,
+    "concepts": 148,
+    "observations": 148,
+    "repos": 32,
+    "terms": 147
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "ada-url/goada",
     "AFD-Illinois/ebhlight",
@@ -22,6 +22,7 @@
     "bartp5/libtexprintf",
     "BirolLab/arcs",
     "cisco/libacvp",
+    "cpmech/tritet",
     "CROSS-signature/CROSS-implementation",
     "dacap/observable",
     "DeanoC/tiny_imageformat",
@@ -39,6 +40,7 @@
     "mesh-iit/creo2urdf",
     "nvictus/pybbi",
     "onicai/llama_cpp_canister",
+    "r-lyeh/Spectral",
     "RekGRpth/pg_task",
     "ssiu/flash-attention-turing",
     "uael/sv",

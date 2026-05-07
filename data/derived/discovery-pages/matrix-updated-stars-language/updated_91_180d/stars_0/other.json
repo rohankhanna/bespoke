@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 21,
-    "concepts": 1,
-    "observations": 1,
-    "repos": 9,
-    "terms": 1
+    "components": 26,
+    "concepts": 3,
+    "observations": 3,
+    "repos": 10,
+    "terms": 3
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "abap2UI5-addons/popups",
     "babashka/homebrew-brew",
+    "danielrosehill/AMD-AI-Server",
     "danielrosehill/Failover-Internet-Israel-Notes",
     "haoxiangsnr/IntelNeuromorphicDNSChallenge",
     "Hitesh-Aggarwal/dotfiles",

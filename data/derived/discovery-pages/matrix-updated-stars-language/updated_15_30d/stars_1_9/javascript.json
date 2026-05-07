@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 646,
-    "concepts": 413,
-    "observations": 413,
-    "repos": 46,
-    "terms": 414
+    "components": 787,
+    "concepts": 416,
+    "observations": 416,
+    "repos": 49,
+    "terms": 417
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "agent-sh/agent-core",
     "agent-sh/audit-project",
@@ -24,8 +24,10 @@
     "agent-sh/perf",
     "agent-sh/repo-intel",
     "agent-sh/sync-docs",
+    "angular/dev-infra-private-ng-dev-builds",
     "anojndr/grok-to-openai",
     "apache/netbeans-antora",
+    "certible/superagent-aws-sign",
     "ChadKillingsworth/closure-compiler-npm",
     "collective/mrs-developer",
     "ehmicky/fetch-node-website",
@@ -37,13 +39,14 @@
     "gr2m/octokit-oauth-app-begin-example",
     "h5wasm/h5wasm-plugins",
     "hchiam/code-inspiration",
-    "hchiam/learning-js",
     "ibm-telemetry/telemetry-config-schema",
     "ipfs-shipyard/js-mock-ipfs-pinning-service",
     "ipld/js-bitcoin",
     "istanbuljs/schema",
     "j9t/htaccess-punk",
     "kellyselden/boilerplate-update",
+    "locize/locize-lastused",
+    "newrelic/csec-node-agent",
     "poolifier/tatami-ng",
     "recap-utr/arg-services",
     "seunghunbae-3svs/solo-cto-agent",

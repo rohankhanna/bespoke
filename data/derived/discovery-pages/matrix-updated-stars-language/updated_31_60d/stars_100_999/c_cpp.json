@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 239,
-    "concepts": 357,
-    "observations": 358,
-    "repos": 71,
-    "terms": 353
+    "components": 240,
+    "concepts": 378,
+    "observations": 379,
+    "repos": 74,
+    "terms": 374
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "afbjorklund/lima-gui",
     "AmusementClub/vs-mlrt",
@@ -38,6 +38,8 @@
     "fujitsu/xbyak_aarch64",
     "g-truc/gli",
     "gbionics/idyntree",
+    "ghostty-org/ghostling",
+    "GNOME/gnome-terminal",
     "haosulab/SAPIEN",
     "haxenme/nme",
     "heal-research/operon",
@@ -49,6 +51,7 @@
     "KhronosGroup/OpenCL-ICD-Loader",
     "KhronosGroup/OpenGL-Registry",
     "lastz/lastz",
+    "libxsmm/libxsmm",
     "littlefs-project/littlefs-fuse",
     "lualanes/lanes",
     "LuisaGroup/LuisaRender",
@@ -57,6 +60,7 @@
     "microsoft/xlang",
     "mikolmogorov/Flye",
     "mybigday/whisper.rn",
+    "myfreeer/chrome-pak-customizer",
     "NetEase-FuXi/EETQ",
     "ng-log/ng-log",
     "NiLuJe/kfmon",
@@ -82,7 +86,6 @@
     "vectr-ucla/direct_lidar_inertial_odometry",
     "VeriSilicon/TIM-VX",
     "webgpu-native/webgpu-headers",
-    "websockets/bufferutil",
     "xtensor-stack/xtensor-python",
     "xuankuzcr/Global-LVBA"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 130,
-    "concepts": 17,
-    "observations": 17,
-    "repos": 4,
-    "terms": 17
+    "components": 323,
+    "concepts": 71,
+    "observations": 71,
+    "repos": 11,
+    "terms": 71
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "a2aproject/a2a-js",
+    "electron/packager",
     "embroider-build/ember-auto-import",
+    "fluent-vue/fluent-vue",
+    "huggingface/hf-mcp-server",
+    "inversify/monorepo",
+    "lambdalisue/vim-gin",
+    "LuaLS/vscode-lua",
     "mightyiam/eslint-config-love",
-    "skilld-dev/skilld"
+    "preactjs/preact-devtools",
+    "stx-labs/stacks.js"
   ]
 }

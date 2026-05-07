@@ -1,21 +1,20 @@
 {
   "counts": {
-    "components": 619,
-    "concepts": 351,
-    "observations": 355,
-    "repos": 55,
-    "terms": 351
+    "components": 629,
+    "concepts": 349,
+    "observations": 353,
+    "repos": 56,
+    "terms": 356
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
-    "anthropics/claude-quickstarts",
     "antlr/antlr4",
     "bootandy/dust",
     "burntsushi/ripgrep",
@@ -33,6 +32,7 @@
     "google-research/vision_transformer",
     "gulpjs/gulp",
     "guzzle/guzzle",
+    "humanlayer/humanlayer",
     "i3/i3",
     "jaredpalmer/tsdx",
     "jart/cosmopolitan",
@@ -60,6 +60,7 @@
     "sharkdp/hyperfine",
     "sql-js/sql.js",
     "TabbyML/tabby",
+    "tpope/vim-fugitive",
     "tqdm/tqdm",
     "transitive-bullshit/agentic",
     "unifyai/ivy",

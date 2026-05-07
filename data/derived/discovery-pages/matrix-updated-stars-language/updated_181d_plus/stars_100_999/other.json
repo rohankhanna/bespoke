@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2072,
-    "concepts": 2811,
-    "observations": 2818,
-    "repos": 895,
-    "terms": 2797
+    "components": 2074,
+    "concepts": 2829,
+    "observations": 2836,
+    "repos": 901,
+    "terms": 2817
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -142,6 +142,7 @@
     "bnbeckwith/writegood-mode",
     "boakley/robotframework-lint",
     "bofenghuang/vigogne",
+    "bokkypoobah/BokkyPooBahsDateTimeLibrary",
     "Boolector/boolector",
     "borglab/SwiftFusion",
     "borkdude/carve",
@@ -155,6 +156,7 @@
     "bpsm/edn-java",
     "brandonbloom/backtick",
     "brandonbloom/fipp",
+    "Brechtpd/base64",
     "brentonashworth/clj-diff",
     "brianc/jade-mode",
     "bronter/wgpu_native_zig",
@@ -433,6 +435,7 @@
     "itchyny/vim-gitbranch",
     "ivanvovk/WaveGrad",
     "ivodolenc/aspekta",
+    "j-min/DSG",
     "jackroos/VL-BERT",
     "jakeheis/Ice",
     "jakeheis/SwiftCLI",
@@ -684,6 +687,7 @@
     "petercorke/spatialmath-matlab",
     "pgmpy/pgmpy_tutorials",
     "philoskim/debux",
+    "pirapira/eth-isabelle",
     "PistonDevelopers/rust-empty",
     "PlexPt/chatgpt-online-springboot",
     "pocojang/nuxt-realworld",
@@ -755,6 +759,7 @@
     "sanel/monroe",
     "sass/sassc-rails",
     "savq/paq-nvim",
+    "sayakpaul/maxim-tf",
     "scala-interop/slinc",
     "schasse/tmux-jump",
     "schell/steeloverseer",
@@ -882,6 +887,7 @@
     "WebAssembly/module-linking",
     "WebAssembly/wasi-threads",
     "WICG/file-system-access",
+    "WICG/first-party-sets",
     "wiktoriavh/Spectrum",
     "wilkerlucio/pathom",
     "wilkerlucio/spec-coerce",

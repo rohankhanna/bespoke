@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 89,
-    "concepts": 117,
-    "observations": 119,
-    "repos": 23,
-    "terms": 112
+    "components": 41,
+    "concepts": 68,
+    "observations": 68,
+    "repos": 15,
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
@@ -12,30 +12,22 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "2KAbhishek/dots2k",
     "alexmyczko/fnt",
     "alpinelinux/aports",
     "amrsa1/Android-Emulator-image",
     "bnb-chain/bsc-snapshots",
-    "dani-garcia/bw_web_builds",
-    "gentoo/guru",
-    "getsolus/packages",
-    "git-friendly/git-friendly",
-    "justchokingaround/lobster",
-    "jvm-repo-rebuild/reproducible-central",
-    "lemire/docker_programming_station",
+    "cloudfoundry/bosh-deployment",
     "lovell/sharp-libvips",
+    "microcai/gentoo-zh",
+    "mozilla/addons",
     "NVIDIA/enroot",
     "openshift/release",
     "pacstall/pacstall-programs",
     "pion/awesome-pion",
     "rocker-org/rocker-versioned2",
-    "rust-cross/rust-musl-cross",
-    "sclorg/s2i-python-container",
-    "termux/repology-metadata",
-    "tinted-theming/schemes",
-    "tonistiigi/xx"
+    "tinted-theming/schemes"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 324,
-    "concepts": 337,
-    "observations": 339,
-    "repos": 95,
-    "terms": 335
+    "components": 349,
+    "concepts": 344,
+    "observations": 346,
+    "repos": 99,
+    "terms": 342
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -40,10 +40,10 @@
     "beam-telemetry/telemetry_metrics_statsd",
     "BirolLab/LINKS",
     "blaine/fantastty",
-    "BuddiesOfBudgie/budgie-desktop-view",
     "buildfoundation/bazel_rules_detekt",
     "citation-file-format/ruby-cff",
     "clearml/clearml-helm-charts",
+    "clojure/homebrew-tools",
     "clojure/tools.deps",
     "coin-or-tools/homebrew-coinor",
     "crazy-max/yasu",
@@ -73,6 +73,8 @@
     "informalsystems/choreo",
     "IQVIA-ML/LightGBM.jl",
     "j20001970/GDMP-demo",
+    "janestreet/tracing",
+    "jeffzi/llscheck",
     "jelly-beam/rebar3_ex_doc",
     "js-temporal/proposal-temporal-v2",
     "JuliaCI/PkgEval.jl",
@@ -87,7 +89,9 @@
     "MisanthropicBit/neotest-busted",
     "mit-plv/bbv",
     "Mobile-Artificial-Intelligence/maise",
+    "mugh/minecraft-bedrock-server-manager",
     "nicholasjng/nanobind-bazel",
+    "NixOS/nix-installer-action",
     "notaryproject/notaryproject.dev",
     "notomo/vusted",
     "nvim-mini/mini.base16",
@@ -96,7 +100,7 @@
     "nvim-mini/mini.statusline",
     "oap-project/oap-mllib",
     "ocurrent/ocurrent-deployer",
-    "onomojo/i18n-timezones",
+    "opea-project/GenAIEval",
     "opencontainers/.github",
     "php/doc-it",
     "rainyl/native_toolchain_cmake",
@@ -105,8 +109,8 @@
     "Saalvage/AssimpNetter",
     "SciML/sciml.ai",
     "tarides/ocaml-eglot",
-    "Triang-jyed-driung/Rapid-Sampling",
     "typst/typst-flake",
+    "vorburger/blog",
     "w3c/element-timing",
     "xledger/pod_sql_server"
   ]

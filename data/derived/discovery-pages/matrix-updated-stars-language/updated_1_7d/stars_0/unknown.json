@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 13,
-    "terms": 14
+    "components": 4,
+    "concepts": 2,
+    "observations": 2,
+    "repos": 10,
+    "terms": 2
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,17 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "csm-actions/demo-client",
     "danielrosehill/Air-Quality-Toolkit-Plugin",
     "danielrosehill/Claude-AI-Model-Research-Plugin",
     "danielrosehill/Claude-Background-Removal-Plugin",
     "danielrosehill/Claude-Batch-Optical-Archivist-Plugin",
-    "danielrosehill/Claude-Buttondown-Mgmt-Plugin",
     "danielrosehill/Claude-CopyQ-Scripting-Plugin",
     "danielrosehill/Claude-Dev-Tools-Plugin",
     "danielrosehill/Claude-Digital-Evidence-Plugin",
-    "danielrosehill/Claude-Hopper",
-    "kleisauke/glib",
-    "qiayuanl/unitree_buildfarm",
-    "sp1-patches/elliptic-curves"
+    "danielrosehill/Claude-Donetick-Plugin",
+    "kleisauke/glib"
   ]
 }

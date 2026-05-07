@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 16,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 2,
-    "terms": 14
+    "components": 2,
+    "concepts": 1,
+    "observations": 1,
+    "repos": 1,
+    "terms": 1
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
-    "heroku/base-images",
-    "sclorg/s2i-php-container"
+    "git-friendly/git-friendly"
   ]
 }

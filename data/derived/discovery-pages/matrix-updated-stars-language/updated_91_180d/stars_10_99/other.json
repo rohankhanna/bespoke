@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 340,
-    "concepts": 268,
-    "observations": 269,
-    "repos": 109,
-    "terms": 267
+    "components": 342,
+    "concepts": 280,
+    "observations": 281,
+    "repos": 111,
+    "terms": 279
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "2KAbhishek/tdo.nvim",
@@ -26,6 +26,7 @@
     "ahrvoje/numerics",
     "ahumenberger/Z3.jl",
     "aki-0929/PaddleOCRJson.NET",
+    "antonbabenko/serverless.tf-playground",
     "apache/datasketches-python",
     "apache/rocketmq-apis",
     "apostrophecms/starter-kit-astro-apollo",
@@ -43,7 +44,6 @@
     "cmacdonald/pyt_splade",
     "ColinKennedy/mega.cmdparse",
     "darrelmiller/sharpa2a",
-    "djjolicoeur/datamaps",
     "donny741/ruby-lsp-factory_bot",
     "drowzy/protobuf_generate",
     "dspinellis/bibtools",
@@ -57,6 +57,7 @@
     "formigarafa/zxcvbn-rb",
     "friemen/diffit",
     "geocompx/docker",
+    "getgrav/grav-theme-learn2",
     "getumbrel/umbrel-lightning",
     "GoogleCloudPlatform/ai-infra-cluster-provisioning",
     "gregorias/toggle.nvim",
@@ -68,6 +69,7 @@
     "JezerM/oil-lsp-diagnostics.nvim",
     "jgpc42/lein-jmh",
     "Jorenar/minPlug",
+    "jpmml/r2pmml",
     "jruby/maven-tools",
     "JuliaGraphics/ColorTypes.jl",
     "JuliaGtk/Gtk4Makie.jl",
@@ -107,7 +109,6 @@
     "sbcgua/abap-string-map",
     "SciML/SciMLTutorialsOutput",
     "status-im/nim-json-serialization",
-    "status-im/nim-nat-traversal",
     "status-im/nim-serialization",
     "status-im/nim-toml-serialization",
     "tc39/proposal-smart-unit-preferences",
@@ -120,6 +121,7 @@
     "webdataset/WebDataset.jl",
     "westnordost/osmfeatures",
     "WICG/crash-reporting",
+    "xie-lab-ml/piecewise-sparse-attention",
     "XR-Robotics/XRoboToolkit-Unity-Client",
     "Xuyuanp/yanil",
     "yamachu/VoicevoxEngineSharp"

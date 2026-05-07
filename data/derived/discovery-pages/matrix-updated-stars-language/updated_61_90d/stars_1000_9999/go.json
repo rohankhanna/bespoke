@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 81,
-    "concepts": 68,
-    "observations": 68,
-    "repos": 16,
-    "terms": 71
+    "components": 86,
+    "concepts": 72,
+    "observations": 72,
+    "repos": 17,
+    "terms": 75
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "abh/geodns",
     "avast/retry-go",
@@ -24,6 +24,7 @@
     "JohannesKaufmann/html-to-markdown",
     "liquidmetal-dev/flintlock",
     "markbates/goth",
+    "mattn/efm-langserver",
     "nutsdb/nutsdb",
     "OffchainLabs/arbitrum-classic",
     "opencontainers/image-spec",

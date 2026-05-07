@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 17,
-    "terms": 29
+    "components": 42,
+    "concepts": 30,
+    "observations": 30,
+    "repos": 18,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "b2agi/exist-is-charter_kr",
     "bookcars/bookcars.github.io",
+    "cmake-wheel/cmeel-example",
     "danielrosehill/HFC-Guidance-Flip-Book",
     "danielrosehill/Israel-Civilian-Readiness-Guide",
     "danielrosehill/Israel-First-Aid",

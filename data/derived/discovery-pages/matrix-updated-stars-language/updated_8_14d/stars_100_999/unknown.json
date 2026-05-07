@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 27,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 15,
-    "terms": 35
+    "components": 37,
+    "concepts": 39,
+    "observations": 39,
+    "repos": 14,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,20 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
-    "abhisheknaiidu/abhisheknaiidu",
     "adoptium/temurin21-binaries",
     "bitrise-io/bitrise-steplib",
     "chromedp/cdproto",
     "cisagov/vulnrichment",
-    "eryajf/awesome-stars-eryajf",
-    "google/agents-cli",
-    "kitknox/rootshell",
+    "fluxcd/flux2-multi-tenancy",
+    "forcedotcom/cli",
+    "github/copilot-language-server-release",
+    "graalvm/graalvm-ce-dev-builds",
     "LemmyNet/lemmy-docs",
     "LuaLS/LLS-Addons",
     "luau-lang/rfcs",
     "mdn/mdn-community",
-    "NuGet/docs.microsoft.com-nuget",
     "openjs-foundation/cross-project-council",
     "smithy-lang/awesome-smithy"
   ]

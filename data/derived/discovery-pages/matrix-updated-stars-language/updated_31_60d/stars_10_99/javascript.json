@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 379,
+    "components": 365,
     "concepts": 111,
     "observations": 111,
-    "repos": 39,
+    "repos": 38,
     "terms": 111
   },
   "facet_version": 1,
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
     "a5huynh/vscode-ron",
     "acemir/CSSOM",
     "AdguardTeam/CodeGuidelines",
-    "aidenlab/juicebox.js",
     "angular/domino",
     "appwrite/playground-for-node",
     "Azure/azure-api-style-guide",

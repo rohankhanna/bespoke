@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 680,
-    "concepts": 562,
-    "observations": 568,
-    "repos": 168,
-    "terms": 555
+    "components": 702,
+    "concepts": 567,
+    "observations": 573,
+    "repos": 172,
+    "terms": 560
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "0xProject/OpenZKP",
     "10XGenomics/vartrix",
@@ -77,6 +77,7 @@
     "EricLBuehler/candle-lora",
     "EspressoSystems/HotShot",
     "ethereum/trin",
+    "explosion/tokenizations",
     "facebook/winterfell",
     "feakin/fklang",
     "fltk-rs/demos",
@@ -131,6 +132,7 @@
     "monero-rs/monero-rs",
     "nachoparker/dutree",
     "njsmith/posy",
+    "nomic-io/nomic",
     "numToStr/lemmy-help",
     "paradigmxyz/mev-share-rs",
     "prataprc/xorfilter",
@@ -152,6 +154,7 @@
     "rust-ethereum/ethabi",
     "rust-lang-deprecated/rustc-serialize",
     "rust-lang-ja/rust-by-example-ja",
+    "rust-lang/packed_simd",
     "rust-lang/rust-semverver",
     "rust-lang/style-team",
     "rust-rse/reed-solomon-erasure",
@@ -173,6 +176,7 @@
     "tazz4843/whisper-rs",
     "tokio-rs/async-backtrace",
     "turbofish-org/merk",
+    "turbofish-org/orga",
     "Twinklebear/tobj",
     "unknownue/vulkan-tutorial-rust",
     "valida-xyz/valida",

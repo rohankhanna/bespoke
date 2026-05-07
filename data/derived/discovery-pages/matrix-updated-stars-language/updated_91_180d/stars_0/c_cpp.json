@@ -3,7 +3,7 @@
     "components": 17,
     "concepts": 8,
     "observations": 8,
-    "repos": 5,
+    "repos": 6,
     "terms": 8
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
+    "cloudaper/compact_enc_det_fork",
     "czk23/YiTu",
     "DiligentGraphics/glslang",
     "DiligentGraphics/googletest",

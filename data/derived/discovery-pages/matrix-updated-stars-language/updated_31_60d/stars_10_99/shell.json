@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 23,
-    "concepts": 41,
-    "observations": 41,
-    "repos": 12,
-    "terms": 42
+    "components": 36,
+    "concepts": 55,
+    "observations": 55,
+    "repos": 14,
+    "terms": 56
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "2KAbhishek/tmux-tilit",
+    "aiKrice/homebrew-badgetizr",
     "beehive-lab/docker-tornadovm",
+    "clojure/brew-install",
     "coin-or-tools/ThirdParty-Mumps",
     "coin-or/coinbrew",
     "conda-forge/spacy-feedstock",

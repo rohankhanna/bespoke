@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 3,
-    "terms": 0
+    "components": 2,
+    "concepts": 4,
+    "observations": 4,
+    "repos": 6,
+    "terms": 4
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
-    "aaronrsun/spec-kit-confluence",
+    "conda-forge/blis-feedstock",
+    "conda-forge/bottom-feedstock",
     "danielrosehill/Claude-Calls-The-Shots",
+    "danielrosehill/Local-Claude-Plugin-Install-Research",
+    "DeepWok/mase-docker",
     "gerardtschanz/revenue-os"
   ]
 }

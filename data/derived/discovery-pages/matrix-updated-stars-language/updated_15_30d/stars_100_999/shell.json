@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 132,
-    "concepts": 192,
-    "observations": 194,
-    "repos": 33,
-    "terms": 205
+    "components": 190,
+    "concepts": 238,
+    "observations": 242,
+    "repos": 43,
+    "terms": 249
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "actions/upload-pages-artifact",
@@ -23,15 +23,22 @@
     "cncf/k8s-conformance",
     "codelibs/docker-fess",
     "crazy-max/xgo",
+    "dani-garcia/bw_web_builds",
     "denysdovhan/dotfiles",
     "docker-library/drupal",
     "docker-library/ruby",
     "EmbarkStudios/cargo-deny-action",
     "ericbuess/claude-code-docs",
+    "gentoo/guru",
+    "getsolus/packages",
     "heroku/heroku-buildpack-apt",
     "heroku/heroku-buildpack-php",
+    "justchokingaround/lobster",
+    "jvm-repo-rebuild/reproducible-central",
     "kubernetes/sig-release",
+    "lemire/docker_programming_station",
     "mattmc3/zephyr",
+    "msys2/msys2-installer",
     "nodenv/node-build",
     "numpy/numpy.org",
     "opea-project/GenAIExamples",
@@ -39,11 +46,14 @@
     "reviewdog/action-shellcheck",
     "reviewdog/action-suggester",
     "rsmdt/the-startup",
+    "rust-cross/rust-musl-cross",
     "rz1989s/claude-code-statusline",
-    "SamNet-dev/paqctl",
     "sclorg/mysql-container",
     "sclorg/s2i-nodejs-container",
+    "sclorg/s2i-python-container",
     "serpro69/claude-toolbox",
+    "termux/repology-metadata",
+    "tonistiigi/xx",
     "trailofbits/claude-code-devcontainer",
     "undeadlist/claude-code-agents",
     "unixorn/zsh-quickstart-kit"

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 132,
-    "concepts": 151,
-    "observations": 154,
-    "repos": 29,
-    "terms": 151
+    "concepts": 147,
+    "observations": 150,
+    "repos": 32,
+    "terms": 147
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,22 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/mac2k",
     "2KAbhishek/sway2k",
     "AFLplusplus/cov-analysis",
     "agricidaniel/claude-cybersecurity",
-    "aiKrice/homebrew-badgetizr",
     "alvistack/ansible-role-crun",
     "apache/arrow-testing",
     "aporthq/aport-agent-guardrails",
+    "argoproj-labs/argocd-extension-installer",
+    "asdf-community/asdf-pdm",
+    "bnb-chain/node-deploy",
     "ChainSafe/forest-iac",
-    "clojure/brew-install",
     "cloudfoundry/jumpbox-deployment",
+    "conda-forge/pinocchio-feedstock",
     "conda-forge/poppler-feedstock",
     "confluentinc/cp-demo",
     "containers/automation",
@@ -35,6 +37,7 @@
     "flinedev/tandemkit",
     "gentoo-mirror/guru",
     "GoogleCloudPlatform/blueprints",
+    "milvus-io/milvus-proto",
     "NixOS/org",
     "nodenv/nodenv-package-rehash",
     "oceanbase/docker-images",

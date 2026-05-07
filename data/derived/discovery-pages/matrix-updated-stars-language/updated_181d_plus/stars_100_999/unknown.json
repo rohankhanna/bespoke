@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 118,
-    "concepts": 387,
-    "observations": 388,
-    "repos": 229,
-    "terms": 387
+    "concepts": 395,
+    "observations": 396,
+    "repos": 231,
+    "terms": 395
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0russwest0/Awesome-Agent-RL",
@@ -154,6 +154,7 @@
     "mapbox/vector-tile-spec",
     "mayhemantt/mayhemantt",
     "mekicha/awesome-sanic",
+    "michaelkleber/privacy-model",
     "micronaut-projects/micronaut-examples",
     "microsoft/containerregistry",
     "microsoft/sarif-tutorials",
@@ -239,6 +240,7 @@
     "unitycontainer/container",
     "uxlfoundation/awesome-oneapi",
     "WeikaiTan/Toronto-3D",
+    "xuyang-liu16/Awesome-Generation-Acceleration",
     "yarnpkg/rfcs",
     "YoYo000/BlendedMVS",
     "YuzukiHD/YuzukiChameleon",

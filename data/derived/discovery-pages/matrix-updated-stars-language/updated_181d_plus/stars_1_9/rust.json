@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 305,
-    "concepts": 117,
-    "observations": 117,
-    "repos": 91,
-    "terms": 117
+    "components": 315,
+    "concepts": 121,
+    "observations": 121,
+    "repos": 93,
+    "terms": 121
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "adambiltcliffe/macroquad-jfa",
     "adamgreig/spi-flash-rs",
@@ -97,9 +97,11 @@
     "s3bk/tuple",
     "sfackler/serde-smile",
     "spacemeshos/scrypt-jane-rs",
+    "tamuhey/seqdiff",
     "tensorchord/rust-stemmers",
     "thomaseizinger/rust-jsonrpc-client",
     "tmpfs/tamp-rs",
+    "turbofish-org/abci2",
     "valida-xyz/Plonky3",
     "VollmondT/juice-rs",
     "walles/loadviz",

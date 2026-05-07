@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2751,
-    "concepts": 3404,
-    "observations": 3411,
-    "repos": 611,
-    "terms": 3383
+    "components": 2779,
+    "concepts": 3432,
+    "observations": 3440,
+    "repos": 618,
+    "terms": 3411
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "java"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "abapGit/ADT_Frontend",
@@ -20,6 +20,7 @@
     "Accla/D4M.py",
     "Accla/graphulo",
     "adamharrison/lite-xl-android",
+    "agentclientprotocol/java-sdk",
     "agents-flex/agents-flex",
     "aidenlab/HiCTools",
     "aidenlab/java-straw",
@@ -89,6 +90,7 @@
     "apache/seatunnel-web",
     "apache/sling-org-apache-sling-feature-modelconverter",
     "apache/spark-kubernetes-operator",
+    "apache/tomcat",
     "Apicurio/apicurio-registry",
     "apple/pkl",
     "aragozin/jvm-tools",
@@ -182,6 +184,7 @@
     "connectbot/sshlib",
     "Cosium/git-code-format-maven-plugin",
     "CraftJarvis/MC-Simulator",
+    "CreeperHost/Log4jPatcher",
     "crossbario/autobahn-java",
     "cyberphone/json-canonicalization",
     "cyberphone/jws-ct",
@@ -226,6 +229,7 @@
     "eclipse-wildwebdeveloper/wildwebdeveloper",
     "eclipsefdn/eclipsefdn-project-adopters",
     "editorconfig/editorconfig-core-java",
+    "edward3h/minecraft-webhook",
     "elastic/elasticsearch",
     "elastic/logstash",
     "enola-dev/enola",
@@ -446,6 +450,7 @@
     "minerllabs/minerl",
     "MKergall/osmbonuspack",
     "mockingbot/react-native-zip-archive",
+    "Modi1987/Simulink-iiwa-interface",
     "moyangzhan/langchain4j-aideepin",
     "msgpack/msgpack-java",
     "MSPaintIDE/MSPaintIDE",
@@ -478,6 +483,7 @@
     "openjdk/jmh",
     "opensciencemap/vtm",
     "opensim-org/opensim-gui",
+    "OpenSPG/openspg",
     "operator-framework/java-operator-sdk",
     "oracle/graal",
     "OsgiliathEnterprise/acp-langgraph-langchain-bridge",
@@ -532,6 +538,7 @@
     "ronmamo/reflections",
     "rpcx-ecosystem/rpcx-benchmark",
     "ruby-processing/JRubyArt",
+    "runtimeverification/k-editor-support",
     "sa501428/hic-emt",
     "sa501428/java-straw",
     "saalfeldlab/n5",

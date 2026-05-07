@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1775,
-    "concepts": 269,
-    "observations": 271,
-    "repos": 45,
-    "terms": 265
+    "components": 2323,
+    "concepts": 377,
+    "observations": 379,
+    "repos": 55,
+    "terms": 373
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "ai/nanoid",
     "ajaxorg/ace",
@@ -20,10 +20,15 @@
     "Automattic/node-canvas",
     "avajs/ava",
     "avwo/whistle",
+    "badges/shields",
     "be5invis/Sarasa-Gothic",
     "bmad-code-org/bmad-method",
+    "brianc/node-postgres",
     "browserslist/browserslist",
+    "commitizen/cz-cli",
     "ConardLi/easy-dataset",
+    "decaporg/decap-cms",
+    "fastify/fastify",
     "google/zx",
     "graphql/graphql-spec",
     "handlebars-lang/handlebars.js",
@@ -33,6 +38,7 @@
     "infernojs/inferno",
     "jantimon/html-webpack-plugin",
     "jarrodwatts/claude-hud",
+    "jashkenas/backbone",
     "jashkenas/underscore",
     "jasmine/jasmine",
     "josdejong/jsoneditor",
@@ -40,6 +46,7 @@
     "jquery/jquery",
     "karma-runner/karma",
     "Leaflet/Leaflet",
+    "lodash/lodash",
     "markedjs/marked",
     "motdotla/dotenv",
     "nock/nock",
@@ -49,13 +56,16 @@
     "prettier/prettier",
     "PrismJS/prism",
     "reactjs/react.dev",
+    "remy/nodemon",
     "semantic-release/semantic-release",
+    "serverless/serverless",
     "svg/svgo",
     "thomaspark/bootswatch",
     "tj/commander.js",
     "vega/vega",
     "vercel-labs/agent-skills",
     "vuejs/vue-router",
+    "webpack/webpack",
     "webtorrent/webtorrent",
     "welldone-software/why-did-you-render",
     "yarnpkg/yarn"

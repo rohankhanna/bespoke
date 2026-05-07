@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 14,
-    "concepts": 44,
-    "observations": 44,
-    "repos": 5,
-    "terms": 44
+    "components": 19,
+    "concepts": 28,
+    "observations": 28,
+    "repos": 6,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
-    "CEED/libCEED",
     "confluentinc/librdkafka",
+    "flagos-ai/FlagCX",
     "ipsilon/evmone",
-    "open-telemetry/opentelemetry-ebpf-instrumentation",
-    "ouster-lidar/ouster-ros"
+    "ROCm/hipBLAS",
+    "ros2/common_interfaces",
+    "tree-sitter-grammars/tree-sitter-markdown"
   ]
 }

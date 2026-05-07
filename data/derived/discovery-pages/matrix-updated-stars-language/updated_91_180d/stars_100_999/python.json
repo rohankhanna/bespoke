@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 340,
-    "concepts": 698,
-    "observations": 699,
+    "components": 341,
+    "concepts": 705,
+    "observations": 706,
     "repos": 183,
-    "terms": 689
+    "terms": 698
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "0k/shyaml",
     "23andMe/Yamale",
@@ -83,7 +83,6 @@
     "hako-mikan/sd-webui-supermerger",
     "haoxiangsnr/spiking-fullsubnet",
     "hkchengrex/CascadePSP",
-    "hluaguo/learn-faster-kit",
     "httplib2/httplib2",
     "huggingface/flux-fast",
     "huspacy/huspacy",
@@ -97,7 +96,6 @@
     "JettHu/ComfyUI-TCD",
     "JettHu/ComfyUI_TGate",
     "jimmyyhwu/tidybot2",
-    "joblib/threadpoolctl",
     "JunyaoHu/common_metrics_on_video_quality",
     "KellerJordan/cifar10-airbench",
     "kevinhwang91/rnvimr",
@@ -116,6 +114,7 @@
     "mariusvniekerk/condax",
     "mcfletch/pyopengl",
     "meidachen/STPLS3D",
+    "metauto-ai/GPTSwarm",
     "microsoft/ANCE",
     "microsoft/botbuilder-python",
     "microsoft/langchain-for-beginners",
@@ -129,6 +128,7 @@
     "nghorbani/body_visualizer",
     "nicklashansen/newt",
     "NightFurySL2001/CJK-character-count",
+    "nrl-ai/llama-assistant",
     "NVlabs/PS3",
     "OpenBMB/AppCopilot",
     "OpenBMB/VisRAG",
@@ -137,7 +137,6 @@
     "OpenHands/ToM-SWE",
     "OpenSparseLLMs/MoM",
     "OpenTeleVision/AMO",
-    "OSU-NLP-Group/TravelPlanner",
     "p-doom/jasmine",
     "Parallel-Reasoning/APR",
     "PDillis/stylegan3-fun",
@@ -148,6 +147,7 @@
     "PrithivirajDamodaran/FlashRank",
     "PyCQA/eradicate",
     "pygeobuf/pygeobuf",
+    "pypa/get-pip",
     "pytest-dev/pytest-timeout",
     "python-hyper/wsproto",
     "ranahaani/GNews",

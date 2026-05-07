@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 2,
-    "terms": 11
+    "components": 18,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 6,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "8144225309/superscalar-cln",
-    "arnaud-lb/php-rdkafka"
+    "arnaud-lb/php-rdkafka",
+    "CHIP-SPV/H4I-HipBLAS",
+    "CHIP-SPV/H4I-HipFFT",
+    "CHIP-SPV/H4I-HipSOLVER",
+    "rltakashige/mlx-jaccl-fix-small-recv"
   ]
 }

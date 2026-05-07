@@ -1,23 +1,19 @@
 {
   "counts": {
-    "components": 676,
-    "concepts": 118,
-    "observations": 119,
-    "repos": 10,
-    "terms": 115
+    "components": 261,
+    "concepts": 64,
+    "observations": 64,
+    "repos": 6,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
-    "angular/angular",
-    "facebook/react-native",
     "fatedier/frp",
-    "langgenius/dify",
-    "microsoft/vscode",
     "open-webui/open-webui",
     "Significant-Gravitas/AutoGPT",
     "tensorflow/tensorflow",

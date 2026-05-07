@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1054,
-    "concepts": 468,
-    "observations": 468,
-    "repos": 311,
-    "terms": 474
+    "components": 1065,
+    "concepts": 470,
+    "observations": 470,
+    "repos": 317,
+    "terms": 476
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "2KAbhishek/awesome2k",
     "2KAbhishek/rofi2k",
@@ -74,6 +74,7 @@
     "breezedeus/yolov7",
     "brianhuster/dirvish-do.nvim",
     "brianhuster/dirvish-git.nvim",
+    "bugarela/tla-input",
     "buraksezer/olric-kubernetes",
     "BYVoid/opencc-bazel-example",
     "CameLLM/CameLLM-Plugin-Harness",
@@ -81,6 +82,7 @@
     "camenduru/Lumina-Next-jupyter",
     "camenduru/MagicTime-jupyter",
     "camenduru/memo-jupyter",
+    "carlthuringer/tla-mode",
     "carlverret/fastfloattestbench",
     "carueda/cfg",
     "catai9/Cancer-Net-BCa",
@@ -117,6 +119,7 @@
     "darcythomas/zxcvbn.net",
     "darky/pg-unused-index-tui",
     "david-bouyssie/mdbx4s",
+    "Davidbrcz/tla-ts-mode",
     "deathbeam/difftool.nvim",
     "decypher-ai/checklist",
     "Deep-Symmetry/ola-clojure",
@@ -125,6 +128,7 @@
     "dicksonlaw583/GMIceCream",
     "dinosaure/unstrctrd",
     "donut-party/endpoint-test",
+    "dryruby/borsh.rb",
     "dryruby/json-canonicalization",
     "dwyl/dart_multihash",
     "dwyl/elixir-plug-tutorial",
@@ -196,6 +200,7 @@
     "jupyterlab/vscode-config-template",
     "jverzani/SymPy.jl",
     "jverzani/SymPyCore.jl",
+    "jw3126/LibGEOSMakie.jl",
     "kaminari/kaminari-data_mapper",
     "kaminari/kaminari-grape",
     "kaminari/kaminari-mongo_mapper",
@@ -241,6 +246,7 @@
     "niuiic/omega.nvim",
     "num42/icon-resizer-swift",
     "nunommc/acts_as_tenant-delayed_job",
+    "octopus-network/ibc",
     "olachinkei/BioNeMo_WandB",
     "onicai/Charles",
     "ontoportal/documentation",

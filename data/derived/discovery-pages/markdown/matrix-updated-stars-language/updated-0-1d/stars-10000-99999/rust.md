@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · Rust
 
-Generated at: `2026-05-06T07:43:15.885019+00:00`
+Generated at: `2026-05-07T05:41:41.352230+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 3
-- terms: 27
-- components: 47
-- concepts: 27
-- observations: 27
+- terms: 35
+- components: 59
+- concepts: 35
+- observations: 35
 
 ## Static behavior
 
@@ -26,14 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | 35921 | 2026-05-05T23:04:21Z | Rust | Infrastructure/tooling | 11 | 24 | 11 | 11 |
-| [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16368 | 2026-05-05T19:27:53Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
-| [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | 15138 | 2026-05-05T08:39:51Z | Rust | Infrastructure/tooling | 6 | 10 | 6 | 6 |
+| [rerun-io/rerun](https://github.com/rerun-io/rerun) | 10651 | 2026-05-06T23:00:08Z | Rust | Infrastructure/tooling | 11 | 6 | 11 | 11 |
+| [astral-sh/ruff](https://github.com/astral-sh/ruff) | 47401 | 2026-05-06T18:10:34Z | Rust | Infrastructure/tooling | 14 | 40 | 14 | 14 |
+| [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16376 | 2026-05-06T17:03:50Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | 35921 | 2026-05-05T23:04:21Z | Rust | Infrastructure/tooling | 11 | 24 | 11 | 11 |
-| [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16368 | 2026-05-05T19:27:53Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
-| [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | 15138 | 2026-05-05T08:39:51Z | Rust | Infrastructure/tooling | 6 | 10 | 6 | 6 |
+| [astral-sh/ruff](https://github.com/astral-sh/ruff) | 47401 | 2026-05-06T18:10:34Z | Rust | Infrastructure/tooling | 14 | 40 | 14 | 14 |
+| [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16376 | 2026-05-06T17:03:50Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
+| [rerun-io/rerun](https://github.com/rerun-io/rerun) | 10651 | 2026-05-06T23:00:08Z | Rust | Infrastructure/tooling | 11 | 6 | 11 | 11 |

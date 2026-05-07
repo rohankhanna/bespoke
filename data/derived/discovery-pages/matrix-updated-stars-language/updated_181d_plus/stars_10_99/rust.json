@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 485,
-    "concepts": 383,
-    "observations": 386,
-    "repos": 185,
-    "terms": 376
+    "components": 501,
+    "concepts": 391,
+    "observations": 394,
+    "repos": 189,
+    "terms": 385
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "0xPlaygrounds/rig-onchain-kit",
     "16arpi/meteo-tui",
@@ -103,6 +103,7 @@
     "gwihlidal/vk-sync-rs",
     "hanabi1224/RuAnnoy",
     "high-moctane/mocword",
+    "hknio/wasmcov",
     "holochain/devhub-dnas",
     "HorizenLabs/poseidon2",
     "imgui-rs/imgui-winit-support",
@@ -141,6 +142,7 @@
     "monoio-rs/monoio-tls",
     "mtp401/protoc-grpcio",
     "musitdev/portmidi-rs",
+    "NEAR-DevHub/neardevhub-contract",
     "nickspring/charset-normalizer-rs",
     "nlewo/hydra-cli",
     "nlordell/solabi-rs",
@@ -177,11 +179,13 @@
     "sonhal/wasm-oauth-filter",
     "srcres258/learnopengl-rust",
     "stainless-steel/md5",
+    "tamuhey/textspan",
     "tamuhey/tokenizations",
     "tari-project/randomx-rs",
     "tensorchord/pg_tokenizer.rs",
     "thomcc/index_vec",
     "tlaplus-community/tlauc",
+    "turbofish-org/ed",
     "udoprog/codeviz",
     "UnstoppableSwap/wallet",
     "varjolintu/keepassxc-proxy-rust",

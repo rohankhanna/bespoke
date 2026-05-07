@@ -3,7 +3,7 @@
     "components": 6,
     "concepts": 7,
     "observations": 7,
-    "repos": 3,
+    "repos": 4,
     "terms": 7
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "1000ch/Sublime-csso",
     "CharlieFRuan/harbor",
+    "ChiehHsinJesseLai/ctm-notebook",
     "samsja/dion"
   ]
 }

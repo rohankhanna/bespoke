@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3800,
-    "concepts": 476,
-    "observations": 477,
-    "repos": 170,
-    "terms": 487
+    "components": 3840,
+    "concepts": 489,
+    "observations": 490,
+    "repos": 173,
+    "terms": 500
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "101arrowz/compression-streams-polyfill",
     "6/openai-caching-proxy-worker",
@@ -86,9 +86,11 @@
     "frandiox/reactesse-ssr-template",
     "Garoth/sendgrid-mcp",
     "garyng/obsidian-temple",
+    "getsentry/opentelemetry-demo",
     "google-github-actions/release-please-action",
     "google/mysteryofthreebots",
     "googleapis/nodejs-datastore-kvstore",
+    "grafana/opentelemetry-demo",
     "gurvancampion/nuxt-electron-trpc-prisma",
     "hughfenghen/bloom-shadow",
     "illuxiza/nanostores-immer",
@@ -121,6 +123,7 @@
     "lobehub/chat-plugins-gateway",
     "longlho/ts-transform-img",
     "LumaKernel/ddc-tabnine",
+    "macchie/minecraft-bedrock-server-bridge",
     "majo44/storeon-async-router",
     "marionebl/ts-transformer-testing-library",
     "marmelab/react-admin-helpdesk",

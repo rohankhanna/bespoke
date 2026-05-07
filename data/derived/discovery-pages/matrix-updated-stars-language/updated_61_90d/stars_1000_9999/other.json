@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 187,
-    "concepts": 266,
-    "observations": 267,
-    "repos": 45,
-    "terms": 269
+    "components": 177,
+    "concepts": 253,
+    "observations": 254,
+    "repos": 44,
+    "terms": 256
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
@@ -20,7 +20,6 @@
     "analysis-tools-dev/dynamic-analysis",
     "artempyanykh/marksman",
     "bakpakin/Fennel",
-    "black7375/Firefox-UI-Fix",
     "breezedeus/Pix2Text",
     "cognitect/transit-format",
     "dashbitco/mox",

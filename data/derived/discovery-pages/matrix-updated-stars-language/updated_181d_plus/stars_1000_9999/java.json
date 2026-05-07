@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 121,
-    "concepts": 155,
-    "observations": 155,
-    "repos": 39,
-    "terms": 154
+    "components": 130,
+    "concepts": 163,
+    "observations": 163,
+    "repos": 40,
+    "terms": 162
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "abel533/ECharts",
     "alibaba/compileflow",
@@ -38,6 +38,7 @@
     "mstrobel/procyon",
     "nitaliano/react-native-mapbox-gl",
     "novicezk/midjourney-proxy",
+    "OpenSPG/openspg",
     "osmdroid/osmdroid",
     "phodal/migration",
     "processing/processing",

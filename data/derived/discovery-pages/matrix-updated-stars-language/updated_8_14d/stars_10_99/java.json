@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 104,
-    "concepts": 75,
-    "observations": 75,
-    "repos": 17,
-    "terms": 72
+    "components": 107,
+    "concepts": 78,
+    "observations": 79,
+    "repos": 21,
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,28 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "apache/ignite-extensions",
-    "apache/netbeans-mavenutils-nbm-maven-plugin",
     "BerkleyTechnologyServices/restdocs-spec",
+    "BerkleyTechnologyServices/restdocs-spec-example",
     "bufbuild/protovalidate-java",
+    "confluentinc/common",
+    "confluentinc/rest-utils",
     "eclipse-shellwax/shellwax",
-    "filip26/ld-cli",
+    "edward3h/minecraft-webhook",
     "googleapis/discovery-artifact-manager",
     "googleapis/java-bigtable",
     "googleapis/java-cloud-bom",
+    "googleapis/sdk-platform-java",
     "GoogleCloudPlatform/opentelemetry-operations-java",
     "hivemq/helm-charts",
     "jpmml/jpmml-h2o",
     "jpmml/jpmml-r",
     "mukel/gemma4.java",
     "opensim-org/opensim-gui",
+    "smithy-lang/smithy-examples",
     "spiffe/java-spiffe",
-    "yawkat/lz4-java"
+    "usdot-fhwa-stol/carma-cloud"
   ]
 }

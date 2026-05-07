@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 131,
-    "concepts": 155,
-    "observations": 155,
-    "repos": 23,
-    "terms": 155
+    "components": 163,
+    "concepts": 194,
+    "observations": 194,
+    "repos": 28,
+    "terms": 194
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,30 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
+    "a2aproject/a2a-java",
     "apache/camel-examples",
+    "apache/datasketches-java",
     "apache/doris-flink-connector",
     "apache/doris-spark-connector",
-    "Azure-Samples/agent-openai-java-banking-assistant",
     "carrot2/carrot2",
+    "connectbot/sshlib",
     "Cosium/git-code-format-maven-plugin",
     "eclipse-lemminx/lemminx",
     "fabmax/physx-jni",
     "FasterXML/woodstox",
+    "googleapis/google-api-java-client-services",
     "googleapis/google-auth-library-java",
     "googleapis/google-oauth-java-client",
     "GoogleCloudPlatform/cloud-opensource-java",
     "graalvm/graal-languages-demos",
+    "graalvm/native-build-tools",
     "higress-group/higress-console",
     "jpmml/jpmml-sparkml",
     "microsoft/Generative-AI-for-beginners-java",
     "microsoft/java-debug",
+    "microsoft/semantic-kernel-java",
     "mockingbot/react-native-zip-archive",
     "mukel/llama3.java",
     "redis/redis-om-spring",

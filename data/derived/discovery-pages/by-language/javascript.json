@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 38926,
-    "concepts": 8623,
-    "observations": 8649,
-    "repos": 2050,
-    "terms": 8615
+    "components": 38989,
+    "concepts": 8636,
+    "observations": 8662,
+    "repos": 2056,
+    "terms": 8630
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "javascript"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "0xPolygon/pilcom",
     "0xPolygonHermez/pil2-compiler",
@@ -473,6 +473,7 @@
     "cpojer/js-codemod",
     "creationix/js-git",
     "creatorrr/web-streams-polyfill",
+    "CrispyBaguette/wasm-palette-converter",
     "cristianbote/goober",
     "crossbario/autobahn-js",
     "crossbario/autobahn-js-browser",
@@ -516,6 +517,7 @@
     "danielrosehill/Homebox-Desktop-Wrapper-AppImage",
     "danielrosehill/Israel-Alert-Map",
     "danielrosehill/Model-Scout-MCP",
+    "danielrosehill/My-Network-MCP",
     "danmactough/node-feedparser",
     "dart-lang/site-shared",
     "dat-ecosystem-archive/dat-desktop",
@@ -810,6 +812,7 @@
     "gja/cloudflare-worker-local",
     "gja/create-cloudflare-worker",
     "glslify/glslify",
+    "go-spatial/fresco",
     "goldfire/howler.js",
     "google/closure-compiler",
     "google/closure-library",
@@ -1278,6 +1281,7 @@
     "mapbox/mason-js",
     "mapbox/node-pre-gyp",
     "mapbox/node-srs",
+    "mapbox/node-tilejson",
     "mapbox/pbf",
     "mapbox/pixelmatch",
     "mapbox/point-geometry",
@@ -1498,6 +1502,7 @@
     "open-cli-tools/chokidar-cli",
     "openai/codex-plugin-cc",
     "OpenBMB/AgentVerse",
+    "openfl/lime",
     "OpenHands/openhands-chrome-extension",
     "openstreetmap/iD",
     "openwrt/luci",
@@ -1857,6 +1862,7 @@
     "swagger-autogen/swagger-autogen",
     "SWHL/ProcessLaTeXFormulaTools",
     "swinton/github-rest-apis-for-insomnia",
+    "swr1bm86/vscode-idris",
     "tangledgroup/llama-cpp-wasm",
     "tape-testing/tape",
     "tapjs/tapjs",

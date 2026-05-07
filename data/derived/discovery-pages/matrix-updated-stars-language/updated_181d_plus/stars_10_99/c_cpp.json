@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 491,
-    "concepts": 581,
-    "observations": 581,
-    "repos": 262,
-    "terms": 578
+    "components": 492,
+    "concepts": 596,
+    "observations": 596,
+    "repos": 266,
+    "terms": 593
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "13thsymphony/HDRImageViewer",
     "19reborn/NeuS2_TCNN",
     "2shady4u/godot-cpp-ci",
+    "3343/edge",
     "a-n-t-h-o-n-y/Escape",
     "ablab/VerityMap",
     "adafruit/Adafruit_BMP085_Unified",
@@ -26,6 +27,7 @@
     "alexmyczko/ree",
     "alfredbaudisch/raylib-cimgui",
     "Alpine-DAV/vtk-h",
+    "aminroosta/sqlite_modern_cpp",
     "analogdevicesinc/MAX78xxx-RefDes",
     "andrewtrotman/JASSv2",
     "antoonpurnal/clangover",
@@ -178,6 +180,7 @@
     "leofansq/SCF-Net",
     "libbitcoin/secp256k1",
     "libimobiledevice/libtatsu",
+    "libxsmm/libxsmm-dnn",
     "linebender/resvg-test-suite",
     "littlefs-project/ramrsbd",
     "llandsmeer/inkvt",
@@ -245,6 +248,7 @@
     "sony/nnabla-c-runtime",
     "sophgo/ChatGLM2-TPU",
     "SRombauts/SQLiteCpp_Example",
+    "srv/avt_vimba_camera",
     "taichi-dev/taichi-aot-demo",
     "TAPZCREW/xmake-project-manager",
     "tevador/randomx-sniffer",

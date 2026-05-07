@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 441,
-    "concepts": 322,
-    "observations": 322,
-    "repos": 257,
-    "terms": 325
+    "concepts": 324,
+    "observations": 324,
+    "repos": 260,
+    "terms": 327
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -102,6 +102,7 @@
     "d0c-s4vage/lookatme.contrib.qrcode",
     "dani-maarouf/psqlparse2",
     "danielrosehill/Agent-SDK-Env-Setup",
+    "danielrosehill/Agentic-Context-Development-Interview-Demo",
     "danielrosehill/AI-Agent-UN",
     "danielrosehill/AI-Assistant-Template",
     "danielrosehill/AI-Dev-Prompts-Example",
@@ -130,6 +131,7 @@
     "grimoirelab-gitee/grimoirelab",
     "grimoirelab-gitee/grimoirelab-perceval-gitee",
     "hackdays-io/toban-contribution-viewer",
+    "haixuanTao/yolov5_strongsort_package",
     "HansZ8/ZED-Proxy",
     "HaoyiZhu/HalpeCOCOAPI",
     "hashberg-io/bases",
@@ -167,6 +169,7 @@
     "kaste/SublimeLinter-addon-toggler",
     "keeeeenw/TinyLLaVA_Factory",
     "keszybz/fedora-repro",
+    "Kim-Dongjun/ctm-cifar10",
     "kishwarshafin/T2T_polishing_scripts",
     "Koihik/sublime-lua-format",
     "koute/rwkv_tokenizer",

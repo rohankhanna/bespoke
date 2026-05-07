@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1280,
-    "concepts": 125,
-    "observations": 125,
-    "repos": 73,
-    "terms": 123
+    "components": 1330,
+    "concepts": 140,
+    "observations": 140,
+    "repos": 77,
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "0h7z/vscode-julia-format",
     "1000ch/vscode-csso",
@@ -62,7 +62,10 @@
     "iov-one/iov-ledger-iovns",
     "iov-one/token-finder",
     "janwilmake/oapis.npm",
+    "Kong/proxy-wasm-assemblyscript-sdk",
+    "kubeshop/opentelemetry-demo",
     "lace/hyla",
+    "liatrio/opentelemetry-demo",
     "lightstep/opentelemetry-demo",
     "litter-coder/midjourney-proxy-admin",
     "LogtalkDotOrg/jupyterlab-logtalk-codemirror-extension",
@@ -71,6 +74,7 @@
     "Matts966/efm-langserver-vscode",
     "mcous/testdouble-vitest",
     "near/near-abi-js",
+    "nomic-io/nomic-bitcoin-js",
     "Pablerdo/hexaframe-dark",
     "pkgxdev/git-gud",
     "plrthink/RNZATestApp",

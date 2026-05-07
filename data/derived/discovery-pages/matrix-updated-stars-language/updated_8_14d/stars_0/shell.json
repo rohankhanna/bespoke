@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 16,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 9,
-    "terms": 23
+    "components": 14,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 6,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
-    "conda-forge/blis-feedstock",
-    "conda-forge/bottom-feedstock",
     "conda-forge/diffutils-feedstock",
     "conda-forge/ergocub-software-feedstock",
     "conda-forge/xeus-cpp-feedstock",
     "danielrosehill/Awesome-Hebrew-Fonts",
-    "DeepWok/mase-docker",
     "kyverno/.github",
     "nodenv/node-build-prerelease"
   ]

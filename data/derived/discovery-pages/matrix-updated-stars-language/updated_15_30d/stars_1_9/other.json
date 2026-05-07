@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 120,
-    "concepts": 61,
-    "observations": 61,
-    "repos": 41,
-    "terms": 61
+    "components": 161,
+    "concepts": 74,
+    "observations": 74,
+    "repos": 47,
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,21 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "0xPolygonHermez/stark-recurser",
     "actboy168/ltest",
     "alstafeev/midscene-java",
     "ankane/seaduck",
+    "apache/netbeans-antora-ui",
     "bladeacer/obsi-snip-coll",
+    "cake-contrib/Cake.Markdownlint",
     "caronc/apprise-docs",
-    "Circuitscape/www.circuitscape.org",
+    "celo-org/charts",
     "cloudfoundry/cf-smoke-tests-release",
     "conda-forge/.cirun",
+    "conda-forge/pybind11-feedstock",
+    "conda-forge/scikit-build-core-feedstock",
     "CVEProject/cve-user-registry-client",
     "cyber404/che-apple-mail-mcp",
     "diffblue/homebrew-cbmc",
@@ -31,11 +35,12 @@
     "dpep/ice_age_rb",
     "flagos-ai/flir",
     "floxym/financial-chat-finance-nlp-chatbots",
+    "fredrikekre/runic-pre-commit",
     "goreleaser/.github",
     "gusztavvargadr/aws-vault-chocolatey",
-    "hchiam/convenience",
     "hchiam/hchiam.github.io",
     "helix-toolkit/helix-toolkit.github.io",
+    "jhugestar/jhugestar.github.io",
     "joinwell52-ai/codeflow-pwa",
     "joinwell52-ai/joinwell52",
     "JuliaCI/julia-buildkite",
@@ -54,6 +59,7 @@
     "tarikmanoar/tarikmanoar",
     "Tengfei-Wang/Tengfei-Wang.github.io",
     "tnc-ca-geo/animl-ml",
+    "tweag/gazelle_haskell_modules",
     "wavelens/gobgp.nix"
   ]
 }

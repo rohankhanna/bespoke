@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 18,
-    "concepts": 70,
-    "observations": 70,
+    "concepts": 73,
+    "observations": 73,
     "repos": 34,
-    "terms": 82
+    "terms": 84
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "Ableton/push-interface",
     "ahmadawais/shades-of-purple-vscode",
@@ -33,7 +33,7 @@
     "langchain4j/awesome-langchain4j",
     "libp2p/js-libp2p-examples",
     "lightning/blips",
-    "michaelkleber/privacy-model",
+    "mapbox/tilejson-spec",
     "microsoft/foss-fund",
     "MiniMax-AI/MiniMax-M2.1",
     "MME-Benchmarks/Video-MME",

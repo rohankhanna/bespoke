@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 186,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 12,
-    "terms": 23
+    "components": 202,
+    "concepts": 30,
+    "observations": 30,
+    "repos": 13,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "alexgorbatchev/typescript-transform-react-jsx-source",
     "cryptonomic/conseiljs-ledgersigner",
     "featherbread/hypcast-v1",
     "Freed-Wu/coc-write-good",
     "kakajun/simple-panzoom",
+    "kloudfuse/opentelemetry-demo",
     "kong/proxy-wasm-assemblyscript-rate-limiting",
     "mgr0dzicki/cargo-semver-checks-action",
     "offline-ai/cli-plugin-cmd-brain.js",

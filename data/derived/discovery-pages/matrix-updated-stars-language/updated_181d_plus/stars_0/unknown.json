@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 165,
-    "concepts": 89,
-    "observations": 89,
-    "repos": 103,
-    "terms": 89
+    "components": 186,
+    "concepts": 94,
+    "observations": 94,
+    "repos": 109,
+    "terms": 94
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "5sControl/.github",
     "5scontrol/5s-dev-documentation",
@@ -45,12 +45,16 @@
     "ConfettiFX/The-Forge-Media",
     "cpettitt/dagre-d3",
     "danielrosehill/ai-human-attribution-adder",
+    "danielrosehill/backup_internet_israel",
     "danielrosehill/Career-Data-AI-Context-Repo",
     "danielrosehill/Claude-Code-Context-Feature-Requests",
     "danielrosehill/Claude-Linux-Desktop-Manager",
     "danielrosehill/Context-Chunker-Assistant",
     "danielrosehill/HA-Red-Alert-News-Dash",
     "danielrosehill/HA-Red-Alerts-Model-Automations",
+    "danielrosehill/N8N-Workflow-Sanitiser-Agent",
+    "datachainlab/base64",
+    "datachainlab/solidity-datetime",
     "datafuse-extras/async-compression",
     "datafuse-extras/serde-bridge",
     "datafuse-extras/serde-env",
@@ -66,8 +70,10 @@
     "getlantern/lantern-forum-en",
     "getlantern/lantern-forum-uae",
     "glandium/allocator-api2",
+    "glandium/mio",
     "glandium/rust-objc",
     "gokyeongryeol/diffusers",
+    "GuanceCloud/opentelemetry-demo",
     "haxelime/lime",
     "Heap-Hop/if-watch",
     "hsivonen/charcounts",

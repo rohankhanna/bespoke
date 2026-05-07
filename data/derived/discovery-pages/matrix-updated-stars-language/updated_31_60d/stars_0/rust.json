@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 46,
+    "components": 52,
     "concepts": 17,
     "observations": 18,
-    "repos": 14,
+    "repos": 13,
     "terms": 17
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "arckoor/botan-rs",
     "beurdouche/nss-gk-api",
@@ -23,8 +23,7 @@
     "hermit-os/safe-mmio",
     "iambriccardo/gcp-bigquery-client",
     "kayabaNerve/monero-oxide",
-    "onomojo/i18n-country-translations-rs",
-    "onomojo/i18n-timezones-rs",
+    "MaterializeInc/duckdb-rs",
     "prisma/cuid-rust",
     "Sovereign-Labs/reltester",
     "vaporif/rvx"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 829,
-    "concepts": 3545,
-    "observations": 3547,
+    "components": 837,
+    "concepts": 3552,
+    "observations": 3554,
     "repos": 904,
-    "terms": 3483
+    "terms": 3494
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -768,7 +768,6 @@
     "stanford-futuredata/ColBERT",
     "StarsfieldAI/R1-V",
     "stepjam/RLBench",
-    "strob/gentle",
     "STVIR/pysot",
     "stylegan-human/StyleGAN-Human",
     "SUDO-AI-3D/zero123plus",
@@ -822,6 +821,7 @@
     "TMElyralab/MusePose",
     "TMElyralab/MuseTalk",
     "TMElyralab/MuseV",
+    "Toblerity/Fiona",
     "togethercomputer/RedPajama-Data",
     "tonyzhaozh/act",
     "tonyzhaozh/aloha",

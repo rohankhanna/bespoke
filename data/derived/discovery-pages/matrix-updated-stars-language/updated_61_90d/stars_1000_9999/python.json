@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 169,
-    "concepts": 320,
-    "observations": 320,
-    "repos": 61,
-    "terms": 312
+    "concepts": 304,
+    "observations": 304,
+    "repos": 59,
+    "terms": 296
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -20,7 +20,6 @@
     "AIDC-AI/Ovis",
     "AmberSahdev/Open-Interface",
     "anthropics/claude-code-security-review",
-    "ARISE-Initiative/robomimic",
     "ARISE-Initiative/robosuite",
     "bazelbuild/starlark",
     "Beckschen/TransUNet",
@@ -39,8 +38,8 @@
     "davidhalter/jedi-vim",
     "django/asgiref",
     "facebookresearch/habitat-lab",
-    "google-deepmind/sonnet",
     "google/vizier",
+    "gururise/AlpacaDataCleaned",
     "isl-org/Open3D-ML",
     "jaredks/rumps",
     "keleshev/schema",
@@ -56,7 +55,6 @@
     "nunchaku-ai/ComfyUI-nunchaku",
     "nunchaku-ai/nunchaku",
     "open-webui/mcpo",
-    "PaddlePaddle/PaddleSeg",
     "palantir/python-language-server",
     "pfnet/pfrl",
     "Python-Markdown/markdown",

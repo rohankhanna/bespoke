@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 241,
-    "concepts": 274,
-    "observations": 274,
-    "repos": 34,
-    "terms": 272
+    "components": 264,
+    "concepts": 300,
+    "observations": 300,
+    "repos": 36,
+    "terms": 298
   },
   "facet_version": 1,
   "filters": {
@@ -12,33 +12,34 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
-    "a2aproject/a2a-java",
     "allegro/hermes",
     "apache/commons-jexl",
-    "apache/datasketches-java",
     "apache/ignite-3",
     "apache/rocketmq-clients",
+    "apache/spark-kubernetes-operator",
+    "aws-powertools/powertools-lambda-java",
     "beehive-lab/GPULlama3.java",
     "bndtools/bnd",
-    "connectbot/sshlib",
+    "confluentinc/kafka-streams-examples",
+    "devoxx/DevoxxGenieIDEAPlugin",
     "eclipse-lsp4j/lsp4j",
     "FasterXML/jackson-dataformat-xml",
     "FasterXML/jackson-dataformats-binary",
     "FasterXML/jackson-dataformats-text",
     "FasterXML/jackson-modules-base",
-    "googleapis/google-api-java-client-services",
+    "googleapis/java-bigtable-hbase",
     "graalvm/graalvm-demos",
-    "graalvm/native-build-tools",
     "jpmml/jpmml-lightgbm",
     "jpmml/jpmml-sklearn",
     "jpmml/jpmml-xgboost",
     "michel-kraemer/bson4jackson",
-    "microsoft/semantic-kernel-java",
     "microsoft/vscode-java-test",
     "milvus-io/milvus-sdk-java",
+    "operator-framework/java-operator-sdk",
     "quarkiverse/quarkus-langchain4j",
+    "quarkiverse/quarkus-operator-sdk",
     "reactor/reactor-addons",
     "revelc/formatter-maven-plugin",
     "saalfeldlab/n5",
@@ -47,6 +48,7 @@
     "ThreeTen/threetenbp",
     "Waffle/waffle",
     "wildfly/quickstart",
+    "Xilinx/RapidWright",
     "zilliztech/vts"
   ]
 }

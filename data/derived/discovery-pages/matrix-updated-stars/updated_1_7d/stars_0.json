@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 122,
-    "concepts": 41,
-    "observations": 41,
-    "repos": 27,
-    "terms": 41
+    "components": 106,
+    "concepts": 26,
+    "observations": 26,
+    "repos": 23,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "aidenlab/spacewalk",
     "aidenlab/swtool",
@@ -22,12 +22,10 @@
     "danielrosehill/Claude-AI-Model-Research-Plugin",
     "danielrosehill/Claude-Background-Removal-Plugin",
     "danielrosehill/Claude-Batch-Optical-Archivist-Plugin",
-    "danielrosehill/Claude-Buttondown-Mgmt-Plugin",
     "danielrosehill/Claude-CopyQ-Scripting-Plugin",
     "danielrosehill/Claude-Dev-Tools-Plugin",
     "danielrosehill/Claude-Digital-Evidence-Plugin",
-    "danielrosehill/Claude-Hopper",
-    "flagos-ai/verl-FL",
+    "danielrosehill/Claude-Donetick-Plugin",
     "getlantern/guide",
     "HumanSignal/label-studio-client-generator",
     "kalavai-net/kalavai-templates",
@@ -36,9 +34,7 @@
     "lakekeeper/iceberg-rust",
     "lakekeeper/lakekeeper-operator",
     "netdur/imaged-sdk-examples",
-    "qiayuanl/unitree_buildfarm",
     "seanmacavaney/ir-datasets.com",
-    "sp1-patches/elliptic-curves",
     "superfarther/K2V"
   ]
 }

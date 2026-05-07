@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 78,
-    "concepts": 61,
-    "observations": 61,
-    "repos": 18,
-    "terms": 59
+    "components": 89,
+    "concepts": 80,
+    "observations": 80,
+    "repos": 19,
+    "terms": 78
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,26 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "acmesh-official/acmetest",
-    "argoproj-labs/argocd-extension-installer",
-    "asdf-community/asdf-pdm",
     "Azure/aaz",
     "bitnami/vulndb",
-    "bnb-chain/node-deploy",
-    "conda-forge/pinocchio-feedstock",
+    "bufbuild/homebrew-buf",
+    "cloudfoundry/cf-deployment-concourse-tasks",
     "crazy-max/goxx",
     "dependabot/smoke-tests",
     "dotenvx/dotenvx.sh",
+    "electerm/electerm-web-docker",
     "envoyproxy/examples",
     "helidon-io/helidon-examples",
     "honwen/openwrt-dnsmasq-extra",
     "iterate-ch/profiles",
-    "milvus-io/milvus-proto",
     "pkgxdev/mash",
     "postmodern/ruby-versions",
-    "tinted-theming/tinted-shell"
+    "quarkusio/quarkus-ecosystem-ci",
+    "reviewdog/action-depup",
+    "tinted-theming/tinted-shell",
+    "tinted-theming/tinted-terminal"
   ]
 }

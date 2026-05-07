@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4673,
-    "concepts": 692,
-    "observations": 694,
-    "repos": 190,
-    "terms": 702
+    "components": 4635,
+    "concepts": 685,
+    "observations": 687,
+    "repos": 191,
+    "terms": 696
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "101arrowz/fzstd",
     "1hanzla100/developer-portfolio",
@@ -102,6 +102,7 @@
     "iamcco/coc-flutter",
     "iamcco/diagnostic-languageserver",
     "IDEA-Research/DINO-X-MCP",
+    "idris-hackers/atom-language-idris",
     "Igorbek/typescript-plugin-styled-components",
     "IndexXuan/vite-plugin-html-template",
     "IndexXuan/vite-plugin-mpa",
@@ -161,7 +162,6 @@
     "possibilities/claude-composer",
     "pragmagic/vscode-nim",
     "preactjs-templates/typescript",
-    "preactjs/preact-devtools",
     "proposal-signals/signal-polyfill",
     "proposal-signals/signal-utils",
     "Qard/onchange",
@@ -175,6 +175,7 @@
     "sebelga/gstore-node",
     "simonwep/nanopop",
     "sinclairzx81/typebox-codegen",
+    "sindresorhus/cli-boxes",
     "spacemeshos/smapp",
     "stacks-archive/gaia",
     "storybookjs/frontpage",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 91,
-    "concepts": 125,
-    "observations": 125,
-    "repos": 21,
-    "terms": 125
+    "components": 67,
+    "concepts": 99,
+    "observations": 99,
+    "repos": 16,
+    "terms": 99
   },
   "facet_version": 1,
   "filters": {
@@ -12,28 +12,23 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "Alexpux/MINGW-packages",
-    "bufbuild/homebrew-buf",
     "Chocolate4U/Iran-clash-rules",
     "cilium/community",
     "cldwalker/dotfiles",
-    "cloudfoundry/cf-deployment-concourse-tasks",
-    "electerm/electerm-web-docker",
     "fcshark-org/route-list",
+    "gpac/testsuite",
     "heroku/heroku-buildpack-dotnet",
     "heroku/heroku-buildpack-gradle",
     "heroku/heroku-buildpack-jvm-common",
     "PF4Public/gentoo-overlay",
-    "quarkusio/quarkus-ecosystem-ci",
-    "reviewdog/action-depup",
     "rocq-prover/docker-opam-action",
     "sclorg/s2i-perl-container",
     "sclorg/s2i-ruby-container",
     "stefantalpalaru/gentoo-overlay",
     "taginfo/taginfo-projects",
-    "tinted-theming/tinted-terminal",
     "VOICEVOX/onnxruntime-builder"
   ]
 }

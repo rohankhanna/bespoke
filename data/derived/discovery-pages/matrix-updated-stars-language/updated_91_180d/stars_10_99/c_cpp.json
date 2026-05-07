@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 70,
-    "concepts": 84,
-    "observations": 85,
+    "components": 77,
+    "concepts": 81,
+    "observations": 82,
     "repos": 28,
-    "terms": 82
+    "terms": 79
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "3dfxdev/EDGE",
     "AdaCore/gnatcoll-db",
@@ -35,12 +35,12 @@
     "osvenskan/sysv_ipc",
     "probonopd/static-tools",
     "r-spatial/lwgeom",
+    "RomanArzumanyan/VALI",
     "Taritsyn/LibSassHost",
     "tier4/ndt_omp",
     "triton-inference-server/tensorflow_backend",
     "XR-Robotics/XRoboToolkit-PC-Service-Pybind",
     "xtensor-stack/xtensor-r",
-    "Yepkit/ykush",
-    "zig-wasm/wasmer-zig-api"
+    "Yepkit/ykush"
   ]
 }

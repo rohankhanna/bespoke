@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 407,
-    "concepts": 57,
-    "observations": 57,
+    "components": 394,
+    "concepts": 59,
+    "observations": 59,
     "repos": 22,
-    "terms": 59
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "2slides/mcp-2slides",
@@ -20,8 +20,8 @@
     "AlexJPotter/fluentvalidation-ts",
     "br14n-sol/inquirer-file-selector",
     "c2corg/browserslist-update-action",
+    "ClickHouse/opentelemetry-demo",
     "googleapis/nodejs-error-reporting",
-    "googleapis/nodejs-logging-bunyan",
     "hbenl/vscode-mocha-test-adapter",
     "holochain/hc-spin",
     "hsimpson/vscode-glsllint",

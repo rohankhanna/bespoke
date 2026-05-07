@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 142,
-    "concepts": 106,
-    "observations": 106,
-    "repos": 35,
-    "terms": 106
+    "components": 91,
+    "concepts": 93,
+    "observations": 93,
+    "repos": 31,
+    "terms": 93
   },
   "facet_version": 1,
   "filters": {
@@ -12,42 +12,38 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
-    "apache/netbeans-antora-ui",
     "appsignal/appsignal-elixir-plug",
     "b-data/jupyterlab-julia-docker-stack",
     "b-data/jupyterlab-mojo-docker-stack",
     "beeware/beeware-docs-tools",
+    "benjamimgois/pascube",
     "bennyyip/dot-vim",
     "Blosc/blogsite",
-    "cake-contrib/Cake.Markdownlint",
-    "celo-org/charts",
     "cgrindel/rules_swiftformat",
     "conda-forge/croc-feedstock",
-    "conda-forge/pybind11-feedstock",
-    "conda-forge/scikit-build-core-feedstock",
+    "cosmos/security",
     "curiousdannii/emglken",
     "dotenvx/homebrew-brew",
     "enbop/fungi-app",
-    "fredrikekre/runic-pre-commit",
     "googleapis/google-cloud-php-compute",
     "hao-ai-lab/flash-attention-fp4",
     "holochain/holonix",
     "Humans-of-Julia/BibInternal.jl",
     "jfmengels/elm-review-config",
-    "jhugestar/jhugestar.github.io",
     "jk10001/aquainsightai",
     "JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl",
     "KhronosGroup/KTX-Software-CTS",
+    "localstack/homebrew-tap",
     "mozilla-mobile/fxios-ctl",
     "moznion/sbt-spotless",
     "NightWatcher314/homebrew-formula",
     "php-rdkafka/php-rdkafka-doc",
     "rmsrosa/rmsrosa.github.io",
+    "ros2-rust/rosidl_rust",
     "tinted-theming/base16-waybar",
-    "tweag/gazelle_haskell_modules",
     "v-iashin/v-iashin.github.io"
   ]
 }

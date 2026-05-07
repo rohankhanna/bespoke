@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 164,
-    "concepts": 118,
-    "observations": 121,
-    "repos": 43,
-    "terms": 116
+    "components": 169,
+    "concepts": 119,
+    "observations": 122,
+    "repos": 46,
+    "terms": 117
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "adamgreig/ecpdap",
@@ -24,6 +24,7 @@
     "BoltzExchange/hold",
     "catch-twenty-two/rust-ssd",
     "chrisguida/smaug",
+    "ClickHouse/ch2rs",
     "cosmos/ibc-proto-rs",
     "CosmWasm/cw-minus",
     "cpmech/plotpy",
@@ -31,6 +32,7 @@
     "datafusion-contrib/hdfs-native-object-store",
     "Dzordzu/rust-apache-age",
     "EricLBuehler/candle",
+    "ethereum/eipw",
     "fengkx/jieba-wasm",
     "georust/wkt",
     "germangb/minimp3-rs",
@@ -46,6 +48,7 @@
     "MaterializeInc/rust-postgres",
     "microsoft/LinuxTracepoints-Rust",
     "penumbra-zone/jmt",
+    "ros2-rust/examples",
     "rukai/winit_input_helper",
     "rust-lang/gccjit.rs",
     "RustCrypto/nacl-compat",

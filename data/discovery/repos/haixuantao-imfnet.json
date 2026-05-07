@@ -20,13 +20,14 @@
       "size": 243
     }
   ],
+  "metadata_refreshed_at": "2026-05-07T05:41:30.421294+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "IMFNet: Interpretable Multimodal Fusion for Point Cloud Registration",
     "fork": true,
-    "full_name": "haixuanTao/IMFNet",
+    "full_name": "haixuantao/imfnet",
     "html_url": "https://github.com/haixuanTao/IMFNet",
     "language": "Python",
     "pushed_at": "2022-09-19T16:55:26Z",

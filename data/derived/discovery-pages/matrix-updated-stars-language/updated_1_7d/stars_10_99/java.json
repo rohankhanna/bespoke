@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 34,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 10,
-    "terms": 43
+    "components": 16,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 4,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "Accla/graphulo",
-    "BerkleyTechnologyServices/restdocs-spec-example",
-    "confluentinc/common",
-    "confluentinc/rest-utils",
     "flyway/flyway-community-db-support",
-    "googleapis/sdk-platform-java",
     "heroku/heroku-jvm-application-deployer",
-    "qdrant/java-client",
-    "smithy-lang/smithy-examples",
-    "usdot-fhwa-stol/carma-cloud"
+    "qdrant/java-client"
   ]
 }

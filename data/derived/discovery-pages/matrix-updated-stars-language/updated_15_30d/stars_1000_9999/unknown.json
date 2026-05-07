@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 63,
-    "observations": 63,
-    "repos": 20,
-    "terms": 63
+    "components": 43,
+    "concepts": 92,
+    "observations": 92,
+    "repos": 25,
+    "terms": 92
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,29 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "0xNyk/awesome-hermes-agent",
     "alchaincyf/zhangxuefeng-skill",
     "android/skills",
+    "aws-controllers-k8s/community",
     "bbatsov/clojure-style-guide",
-    "esbatmop/MNBVC",
+    "dotnet/docs",
     "FasterXML/jackson",
+    "flathub/flathub",
     "FuelLabs/fuel-specs",
     "godotengine/awesome-godot",
     "libp2p/libp2p",
     "libp2p/specs",
     "macfuse/macfuse",
+    "mapbox/awesome-vector-tiles",
     "MicrosoftDocs/WSL",
     "pditommaso/awesome-pipeline",
+    "QwenLM/Qwen3.6",
     "ratatui/awesome-ratatui",
     "rust-embedded/awesome-embedded-rust",
     "rust-embedded/wg",
+    "rustsec/advisory-db",
     "shuaibiyy/awesome-tf",
     "skills-directory/skill-codex",
     "tmstack/awesome-persona-skills",

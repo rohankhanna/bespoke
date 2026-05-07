@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 156,
-    "concepts": 149,
-    "observations": 149,
-    "repos": 26,
-    "terms": 149
+    "components": 139,
+    "concepts": 117,
+    "observations": 117,
+    "repos": 25,
+    "terms": 116
   },
   "facet_version": 1,
   "filters": {
@@ -12,33 +12,32 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
+    "0xPolygonHermez/pil2-proofman",
     "acts-project/traccc",
-    "ad-si/FlatCV",
-    "AFD-Illinois/kharma",
     "akruphi/far2l",
+    "Antares0982/ssrJSON",
     "boostorg/config",
-    "BrianPugh/tamp",
-    "bufbuild/protovalidate-cc",
     "DeepLink-org/DLSlime",
     "gazebosim/gz-fuel-tools",
     "gazebosim/gz-gui",
     "gazebosim/gz-transport",
     "kendryte/canmv_k230",
     "LedgerHQ/app-boilerplate",
+    "LedgerHQ/ledger-secure-sdk",
     "libbitcoin/libbitcoin-database",
     "libbitcoin/libbitcoin-network",
     "llnl/camp",
-    "Mbed-TLS/TF-PSA-Crypto",
     "milvus-io/milvus-sdk-cpp",
     "mongodb/winkerberos",
-    "narugit/smctemp",
     "openvinotoolkit/openvino_tokenizers",
     "rapidsai/ucxx",
     "ROCm/rocAL",
     "ROCm/ROCgdb",
+    "ROCm/rpp",
     "walbourn/directxmathtest",
+    "xjb714/xjb",
     "yquake2/yquake2remaster"
   ]
 }

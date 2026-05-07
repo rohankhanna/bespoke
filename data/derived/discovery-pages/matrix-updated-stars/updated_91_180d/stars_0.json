@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 261,
-    "concepts": 81,
-    "observations": 81,
-    "repos": 68,
-    "terms": 81
+    "components": 272,
+    "concepts": 85,
+    "observations": 85,
+    "repos": 72,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "abap2UI5-addons/popups",
     "aldernero/spider",
@@ -20,6 +20,7 @@
     "asm89/prettytable-rs",
     "babashka/homebrew-brew",
     "biocypher/biocypher-cookiecutter-template",
+    "cloudaper/compact_enc_det_fork",
     "czk23/YiTu",
     "danielrosehill/A-Better-Jobs-Platform-Notes",
     "danielrosehill/Agent-Deploy",
@@ -28,6 +29,7 @@
     "danielrosehill/AI-Sysadmin",
     "danielrosehill/ai-tools-plugin",
     "danielrosehill/All-About-MCP",
+    "danielrosehill/AMD-AI-Server",
     "danielrosehill/Back-Up-Your-SaaS",
     "danielrosehill/BTRFS-Snapper-MCP",
     "danielrosehill/Claude-Rescue",
@@ -35,7 +37,9 @@
     "danielrosehill/Failover-Internet-Israel-Notes",
     "danielrosehill/git-github-plugin",
     "danielrosehill/Hebrew-Image-Generation-Eval",
+    "danielrosehill/Kokoro-FastAPI",
     "danielrosehill/Model-Scout-MCP",
+    "danielrosehill/N8N-Workflows-Index",
     "danielrosehill/Quick-RMBG",
     "databendlabs/iceberg-rust",
     "datafuse-extras/arrow-udf",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 75,
-    "concepts": 52,
-    "observations": 52,
+    "components": 84,
+    "concepts": 58,
+    "observations": 58,
     "repos": 15,
-    "terms": 52
+    "terms": 58
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,19 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
-    "arielagor/jetbrains-mono-hebrew",
     "astral-sh/versions",
-    "astropy/repo_stats",
     "atlanhq/atlan-sample-apps",
     "conda-forge/threadpoolctl-feedstock",
+    "eea/eea-website-backend",
+    "flagos-ai/Megatron-LM-FL",
     "flagos-ai/TransformerEngine-FL",
     "kalavai-net/kube-watcher",
+    "meridianlabs-ai/inspect_harbor",
     "mlcommons/submissions_algorithms",
-    "ModelCloud/Defuser",
-    "ModelCloud/LogBar",
+    "mozilla-ai/tinyagent",
     "ParisNeo/lollms_client",
     "plone/cookieplone-templates",
     "scaleway/serverless-api-framework-python",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 16,
-    "concepts": 10,
-    "observations": 10,
+    "components": 25,
+    "concepts": 13,
+    "observations": 14,
     "repos": 7,
-    "terms": 10
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
+    "cloudfoundry/wg-app-platform-runtime-ci",
     "conda-forge/fenics-dolfinx-feedstock",
-    "conda-forge/nlohmann_json-feedstock",
-    "conda-forge/pgvector-feedstock",
     "danielrosehill/Claude-Data-Wrangler-plugin",
     "gazebo-tooling/release-tools",
     "kubernetes-sigs/provider-ibmcloud-test-infra",
-    "lint-staged/lint-staged.sh"
+    "lint-staged/lint-staged.sh",
+    "reviewdog/action-alex"
   ]
 }

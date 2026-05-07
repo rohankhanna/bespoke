@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 654,
-    "concepts": 1384,
-    "observations": 1386,
-    "repos": 788,
-    "terms": 1363
+    "components": 658,
+    "concepts": 1397,
+    "observations": 1399,
+    "repos": 793,
+    "terms": 1378
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -337,6 +337,7 @@
     "evuraan/mintPiper",
     "Extraltodeus/Conditioning-token-experiments-for-ComfyUI",
     "Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI",
+    "Extraltodeus/Stable-Diffusion-temperature-settings",
     "Extraltodeus/Uncond-Zero-for-ComfyUI",
     "ezhang7423/language-control-diffusion",
     "facebookresearch/clip-rocket",
@@ -378,6 +379,7 @@
     "givkashi/Focal-Unet",
     "gligen/diffusers",
     "google-deepmind/dmvr",
+    "google-research/hit-gan",
     "google-research/human-scene-transformer",
     "google-research/localmot",
     "google/certificate-transparency-rfcs",
@@ -509,6 +511,7 @@
     "leogao2/lm_dataformat",
     "libjxl/conformance",
     "LibreTranslate/Locomotive",
+    "limenlp/verl",
     "linonetwo/MOSS-DockerFile",
     "liuh127/NTIRE-2021-Dehazing-Two-branch",
     "liuzuyan/ElasticCache",
@@ -564,6 +567,7 @@
     "mlox/mlox",
     "mlvlab/PointWOLF",
     "ModelTC/Outlier_Suppression_Plus",
+    "Modi1987/iiwaPy",
     "modin-project/unidist",
     "MontaEllis/Pytorch-Medical-Classification",
     "moojink/rlds_dataset_builder",
@@ -670,6 +674,7 @@
     "RUCAIBox/ICPC-Eval",
     "RUCAIBox/OlymMATH",
     "RUCAIBox/R1-Searcher-plus",
+    "runtimeverification/pyk",
     "RWKV/RWKV-LM",
     "sachinraja/simple-icons-py",
     "saikat107/NatGen",

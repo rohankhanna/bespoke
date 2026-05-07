@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 20,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 19,
-    "terms": 35
+    "components": 15,
+    "concepts": 26,
+    "observations": 26,
+    "repos": 17,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "AppImage/AppImageSpec",
     "aquasecurity/setup-trivy",
@@ -30,8 +30,6 @@
     "marko-js/examples",
     "onyx-dot-app/onyx_deep_research_bench",
     "opencontainers/tob",
-    "operator-framework/community",
-    "robotology/community",
-    "robotology/mesh-support"
+    "operator-framework/community"
   ]
 }

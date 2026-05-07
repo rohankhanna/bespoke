@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 49,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 15,
-    "terms": 58
+    "concepts": 70,
+    "observations": 70,
+    "repos": 17,
+    "terms": 71
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "2KAbhishek/tmux2k",
     "aslafy-z/helm-git",
@@ -27,7 +27,9 @@
     "mosaicml/examples",
     "nginx-le/nginx-le",
     "NVIDIA/DL4AGX",
+    "SamNet-dev/paqctl",
     "SWE-bench/experiments",
-    "TexasInstruments/edgeai"
+    "TexasInstruments/edgeai",
+    "xbdcc/CCommand"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 268,
-    "concepts": 203,
-    "observations": 208,
-    "repos": 38,
-    "terms": 201
+    "components": 284,
+    "concepts": 215,
+    "observations": 220,
+    "repos": 41,
+    "terms": 213
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "allan2/dotenvy",
     "arxanas/git-branchless",
@@ -36,10 +36,13 @@
     "hyperledger-solang/solang",
     "Keats/tera",
     "LaurentMazare/tch-rs",
+    "liuchengxu/vim-clap",
     "lldap/lldap",
     "mattsse/chromiumoxide",
     "mitsuhiko/insta",
     "Mooncake-Labs/pg_mooncake",
+    "nabijaczleweli/cargo-update",
+    "noib3/nvim-oxi",
     "not-fl3/macroquad",
     "parcel-bundler/lightningcss",
     "Rust-SDL2/rust-sdl2",

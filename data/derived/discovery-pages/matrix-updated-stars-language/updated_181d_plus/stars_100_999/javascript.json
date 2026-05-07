@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4596,
-    "concepts": 1045,
-    "observations": 1045,
-    "repos": 363,
-    "terms": 1032
+    "components": 4632,
+    "concepts": 1056,
+    "observations": 1056,
+    "repos": 366,
+    "terms": 1044
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "14nrv/buefy-shop",
     "2createStudio/postcss-sprites",
@@ -169,6 +169,7 @@
     "getndazn/dazn-lambda-powertools",
     "ghostery/user-agent-desktop",
     "gja/cloudflare-worker-local",
+    "go-spatial/fresco",
     "GoogleChromeLabs/jsbi",
     "GoogleCloudPlatform/nodejs-getting-started",
     "gotwarlost/istanbul-middleware",
@@ -343,8 +344,8 @@
     "swagger-api/swagger-samples",
     "swagger-autogen/swagger-autogen",
     "swinton/github-rest-apis-for-insomnia",
+    "swr1bm86/vscode-idris",
     "tangledgroup/llama-cpp-wasm",
-    "tc39/eshost",
     "tc39/proposal-operator-overloading",
     "tc39/template-for-proposals",
     "timdream/wordcloud",
@@ -352,6 +353,7 @@
     "TooTallNate/ref",
     "topojson/topojson-client",
     "topojson/topojson-server",
+    "tree-sitter/tree-sitter-julia",
     "tree-sitter/tree-sitter-python",
     "tree-sitter/tree-sitter-regex",
     "TritonDataCenter/node-http-signature",
@@ -376,6 +378,7 @@
     "wix-incubator/wml",
     "xfumihiro/jest-puppeteer-example",
     "xinntao/HandyFigure",
+    "zalo/mujoco_wasm",
     "zhipeng-jia/snappyjs"
   ]
 }

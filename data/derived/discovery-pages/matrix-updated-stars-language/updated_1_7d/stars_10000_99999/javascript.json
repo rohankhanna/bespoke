@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1266,
-    "concepts": 250,
-    "observations": 250,
-    "repos": 28,
-    "terms": 243
+    "components": 726,
+    "concepts": 180,
+    "observations": 180,
+    "repos": 20,
+    "terms": 174
   },
   "facet_version": 1,
   "filters": {
@@ -12,30 +12,22 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "4ian/GDevelop",
     "acornjs/acorn",
     "addyosmani/critical",
-    "Automattic/mongoose",
     "CesiumGS/cesium",
-    "easydiffusion/easydiffusion",
     "eslint/eslint",
     "facebook/hermes",
     "faisalman/ua-parser-js",
-    "gatsbyjs/gatsby",
-    "GoogleChrome/lighthouse",
     "gorhill/uBlock",
     "http-party/node-http-proxy",
     "jsdoc/jsdoc",
     "jsdom/jsdom",
-    "lutzroeder/netron",
-    "mdx-js/mdx",
     "mochajs/mocha",
-    "mozilla/pdf.js",
     "nwjs/nw.js",
-    "plotly/plotly.js",
     "preactjs/preact",
     "stylelint/stylelint",
     "sveltejs/kit",

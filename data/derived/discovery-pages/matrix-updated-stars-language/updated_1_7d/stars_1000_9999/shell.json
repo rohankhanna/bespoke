@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 96,
-    "concepts": 101,
-    "observations": 101,
-    "repos": 12,
-    "terms": 99
+    "components": 61,
+    "concepts": 58,
+    "observations": 58,
+    "repos": 8,
+    "terms": 57
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "archlinuxcn/repo",
     "bitnami/containers",
-    "Botspot/pi-apps",
     "heroku/heroku-buildpack-nodejs",
     "holman/dotfiles",
-    "home-assistant/addons",
+    "itzg/docker-minecraft-bedrock-server",
     "jkroepke/helm-secrets",
-    "mlocati/docker-php-extension-installer",
-    "msys2/MINGW-packages",
     "nodenv/nodenv",
-    "rbenv/ruby-build",
-    "YosysHQ/oss-cad-suite-build"
+    "ROCm/ROCm"
   ]
 }

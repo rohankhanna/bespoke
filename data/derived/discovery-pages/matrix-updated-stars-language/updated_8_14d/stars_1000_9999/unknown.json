@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 41,
-    "concepts": 58,
-    "observations": 58,
-    "repos": 13,
-    "terms": 58
+    "components": 24,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 7,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
-    "aws-controllers-k8s/community",
     "CocoaPods/Specs",
     "CVEProject/cvelistV5",
-    "dotnet/docs",
     "Efficient-ML/Awesome-Model-Quantization",
-    "flathub/flathub",
     "github/rest-api-description",
     "logseq/awesome-logseq",
-    "mapbox/awesome-vector-tiles",
     "meituan-longcat/LongCat-Flash-Chat",
-    "MicrosoftDocs/cpp-docs",
-    "QwenLM/Qwen3.6",
-    "rustsec/advisory-db"
+    "MicrosoftDocs/cpp-docs"
   ]
 }

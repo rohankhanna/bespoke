@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 732,
-    "concepts": 671,
-    "observations": 672,
-    "repos": 168,
-    "terms": 667
+    "components": 745,
+    "concepts": 681,
+    "observations": 682,
+    "repos": 172,
+    "terms": 678
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -26,6 +26,7 @@
     "ankane/groupdate.sql",
     "antosha417/nvim-lsp-file-operations",
     "ap/vim-buftabline",
+    "archguard/archguard",
     "ardalis/Ardalis.SharedKernel",
     "astoff/digestif",
     "atomontage/xterm-color",
@@ -94,11 +95,13 @@
     "haskell/text",
     "Helsinki-NLP/OPUS-MT-train",
     "HerringtonDarkholme/yats.vim",
+    "hollowstrawberry/kohya-colab",
     "igor-makarov/xcake",
     "inkle/ink-unity-integration",
     "izelnakri/paper_trail",
     "jayli/vim-easycomplete",
     "jgpc42/jmh-clojure",
+    "joshwlewis/unitwise",
     "juji-io/editscript",
     "JuliaData/DataFramesMeta.jl",
     "JuliaDebug/SnoopCompile.jl",
@@ -135,6 +138,7 @@
     "nvim-telescope/telescope-frecency.nvim",
     "nvimdev/guard.nvim",
     "ocaml-wasm/wasm_of_ocaml",
+    "olbrich/ruby-units",
     "OpenBMB/CPM.cu",
     "OrleansContrib/OrleansDashboard",
     "PaulRBerg/foundry-template",
@@ -169,11 +173,11 @@
     "thinkdepthai/Deep_Research",
     "tomekw/hikari-cp",
     "travis-ci/travis-build",
+    "vim-jp/vim-cpp",
     "vim-jp/vim-vimlparser",
     "vim-php/phpctags",
     "w3c/FileAPI",
     "WebAssembly/tool-conventions",
-    "WICG/first-party-sets",
     "WICG/layout-instability",
     "wilkerlucio/pathom3",
     "wjakob/nanobind_example",

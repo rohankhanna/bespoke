@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 780,
-    "concepts": 188,
-    "observations": 189,
-    "repos": 36,
-    "terms": 185
+    "components": 742,
+    "concepts": 183,
+    "observations": 184,
+    "repos": 35,
+    "terms": 180
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "alexmojaki/birdseye",
     "antimatter15/splat",
@@ -48,7 +48,6 @@
     "steipete/claude-code-mcp",
     "testing-library/dom-testing-library",
     "testing-library/jest-dom",
-    "TritonDataCenter/node-verror",
-    "webpack/style-loader"
+    "TritonDataCenter/node-verror"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1092,
-    "concepts": 5079,
-    "observations": 5082,
-    "repos": 1737,
-    "terms": 4920
+    "components": 1104,
+    "concepts": 5116,
+    "observations": 5119,
+    "repos": 1744,
+    "terms": 4966
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -520,6 +520,7 @@
     "EPFL-VILAB/MultiMAE",
     "epfml/landmark-attention",
     "eps696/stylegan2",
+    "erdos-project/pylot",
     "eric-mitchell/mend",
     "ericchen321/ros_x_habitat",
     "EricGuo5513/action-to-motion",
@@ -900,6 +901,7 @@
     "JizhiziLi/P3M",
     "jjihwan/FIFO-Diffusion_public",
     "jkkummerfeld/text2sql-data",
+    "joblib/threadpoolctl",
     "jojkaart/ComfyUI-sampler-lcm-alternative",
     "jonasrothfuss/ProMP",
     "JonasSchult/Mask3D",
@@ -945,6 +947,7 @@
     "kevinzakka/ibc",
     "kevinzakka/obj2mjcf",
     "khanrc/tcl",
+    "kijai/ComfyUI-ELLA-wrapper",
     "kijai/ComfyUI-Geowizard",
     "kijai/ComfyUI-LuminaWrapper",
     "kijai/ComfyUI-MochiWrapper",
@@ -1303,6 +1306,7 @@
     "OrangeX4/latex2sympy",
     "OS-Copilot/OS-Atlas",
     "OscarXZQ/weight-selection",
+    "OSU-NLP-Group/TravelPlanner",
     "p-lambda/wilds",
     "PacificBiosciences/pbsv",
     "PaddlePaddle/Paddle3D",
@@ -1445,7 +1449,9 @@
     "shawnricecake/draft-attention",
     "shawwn/openai-server",
     "ShenhanQian/VHAP",
+    "Shenyi-Z/ToCa",
     "shepnerd/inpainting_gmcnn",
+    "shibing624/ChatPDF",
     "shikiw/OPERA",
     "shikras/shikra",
     "ShirAmir/dino-vit-features",
@@ -1623,6 +1629,7 @@
     "vivo-ai-lab/BlueLM",
     "vladmandic/sd-extension-steps-animation",
     "voletiv/mcvd-pytorch",
+    "vztu/maxim-pytorch",
     "wangjiangshan0725/RF-Solver-Edit",
     "WangYueFt/detr3d",
     "wangyuxinwhy/uniem",

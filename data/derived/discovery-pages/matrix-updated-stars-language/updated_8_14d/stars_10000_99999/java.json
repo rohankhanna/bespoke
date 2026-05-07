@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 119,
-    "concepts": 136,
-    "observations": 136,
-    "repos": 10,
-    "terms": 134
+    "components": 179,
+    "concepts": 205,
+    "observations": 205,
+    "repos": 16,
+    "terms": 203
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,21 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "apache/doris",
-    "apache/incubator-seata",
+    "apache/dubbo",
+    "apache/kafka",
     "apache/rocketmq",
     "apple/pkl",
+    "awsdocs/aws-doc-sdk-examples",
     "ben-manes/caffeine",
-    "clojure/clojure",
+    "bumptech/glide",
+    "dbeaver/dbeaver",
+    "google/gson",
     "JetBrains/intellij-community",
+    "langchain4j/langchain4j",
+    "netty/netty",
     "prestodb/presto",
     "ReactiveX/RxJava",
     "SeleniumHQ/selenium"

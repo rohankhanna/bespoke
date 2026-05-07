@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 325,
-    "concepts": 574,
-    "observations": 575,
-    "repos": 129,
-    "terms": 569
+    "components": 328,
+    "concepts": 602,
+    "observations": 603,
+    "repos": 133,
+    "terms": 597
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "AILab-CVC/VideoCrafter",
     "alexmojaki/snoop",
@@ -24,6 +24,7 @@
     "AnswerDotAI/rerankers",
     "apple/ml-hypersim",
     "aqlaboratory/openfold",
+    "ARISE-Initiative/robomimic",
     "astral-sh/ruff-lsp",
     "baaivision/Emu",
     "baaivision/Emu3",
@@ -75,6 +76,7 @@
     "jazzband/django-configurations",
     "jessevig/bertviz",
     "junyanz/CatPapers",
+    "KaiyangZhou/deep-person-reid",
     "KellerJordan/Muon",
     "KlingAIResearch/ReCamMaster",
     "LeCAR-Lab/ASAP",
@@ -101,7 +103,9 @@
     "open-mmlab/mmcv",
     "open-mmlab/mmengine",
     "opencv/opencv-python",
+    "OpenSPG/KAG",
     "PaddlePaddle/ERNIE",
+    "PaddlePaddle/PaddleSeg",
     "PaddlePaddle/PaddleSlim",
     "pallets-eco/blinker",
     "Paper2Poster/Paper2Poster",

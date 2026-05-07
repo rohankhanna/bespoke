@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1269,
-    "concepts": 295,
-    "observations": 295,
-    "repos": 48,
-    "terms": 304
+    "components": 1353,
+    "concepts": 300,
+    "observations": 300,
+    "repos": 49,
+    "terms": 309
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "43081j/picoquery",
@@ -50,6 +50,7 @@
     "ory/hydra-login-consent-node",
     "PanAeon/vscode-tmgrammar-test",
     "Piebald-AI/gemini-cli-desktop",
+    "retracedhq/retraced",
     "ruvnet/agentic-flow",
     "shareai-lab/kode-agent-sdk",
     "solidjs/templates",

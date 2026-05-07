@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 210,
-    "concepts": 136,
-    "observations": 136,
-    "repos": 36,
-    "terms": 136
+    "components": 138,
+    "concepts": 71,
+    "observations": 71,
+    "repos": 22,
+    "terms": 71
   },
   "facet_version": 1,
   "filters": {
@@ -12,43 +12,29 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-07T05:41:41.352230+00:00",
   "repo_ids": [
-    "All-Hands-AI/OpenHands-Cloud",
     "arcaputo3/mcp-server-whisper",
     "autowarefoundation/autoware_launch",
     "awslabs/nx-neptune",
     "Azure-Samples/openai-chat-app-entra-auth-builtin",
     "beclab/apps",
-    "carstencodes/pdm-bump",
-    "conda-forge/conda-forge-pinning-feedstock",
     "conservationtechlab/animl-py",
     "dora-rs/dora-hub",
     "espressif/esp-idf-monitor",
-    "flagos-ai/vllm-plugin-FL",
     "gentoo/api-gentoo-org",
     "gordon-code/cuid2",
-    "graalvm/oracle-graalvm-ea-builds",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "Hiroshiba/voicevox_engine",
     "intel-staging/text-generation-webui",
     "jfly/shtuff",
-    "LedgerHQ/ragger",
-    "MGenAI/GRN",
-    "microsoft/olive-recipes",
-    "neo4j/neo4j-python-driver-rust-ext",
     "NVIDIA/multi-storage-client",
-    "open-edge-platform/physical-ai-studio",
     "petercorke/spatialmath-python",
-    "pipecat-ai/pipecat-cli",
     "py-pdf/sample-files",
     "pytroll/donfig",
     "qiayuanl/unitree_bringup",
     "redis/docs",
-    "regro/cf-scripts",
     "scipy/scipy.org",
-    "sublimelsp/LSP-volar",
-    "TaWald/nnUNet",
-    "Thinklab-SJTU/Bench2Drive-Speed"
+    "TaWald/nnUNet"
   ]
 }
