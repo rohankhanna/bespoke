@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chromiumembedded/cef",
+      "target": "hgourvest/dcef3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chromiumembedded/cef",
+      "target": "czarektomczak/cef2go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chromiumembedded/cef",
+      "target": "energye/energy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chromiumembedded/cef",
+      "target": "chromiumembedded/java-cef",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromiumembedded/cef",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromiumembedded/cef",
+      "target": "chromium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromiumembedded/cef",
+      "target": "framework",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-08T06:44:29.884715+00:00",
+  "source_repo": "chromiumembedded/cef"
+}

@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "slug"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gosimple/slug",
+      "status": "candidate-context",
+      "text": "URL-friendly slugify with multiple languages support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gosimple/slug",
+      "status": "candidate-context",
+      "text": "Package `slug` generate slug from Unicode string, URL-friendly slugify with"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gosimple/slug",
+      "status": "candidate",
+      "text": "Package `slug` generate slug from Unicode string, URL-friendly slugify with"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39466065,
+      "status": "candidate",
+      "text": "swig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39324056,
+      "status": "candidate",
+      "text": "bullet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39271574,
+      "status": "candidate",
+      "text": "slog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39233062,
+      "status": "candidate",
+      "text": "sluggard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29620440,
+      "status": "candidate",
+      "text": "maggot"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18035,
+      "status": "candidate",
+      "text": "slog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12035,
+      "status": "candidate",
+      "text": "swig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6056,
+      "status": "candidate",
+      "text": "bullet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4027,
+      "status": "candidate",
+      "text": "sluggard"
+    }
+  ],
+  "canonical_name": "slug",
+  "concept_id": "slug",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T06:44:29.884715+00:00",
+      "source_file": null,
+      "source_repo": "gosimple/slug"
+    }
+  ],
+  "first_seen_at": "2026-05-08T06:44:29.884715+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "slug",
+      "sense_id": "slug#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

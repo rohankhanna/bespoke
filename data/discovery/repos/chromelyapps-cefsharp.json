@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chromelyapps/CefSharp",
+      "target": "chromelyapps/chromely",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chromelyapps/CefSharp",
+      "target": "electronnet/electron.net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chromelyapps/CefSharp",
+      "target": "chromelyapps/demo-projects",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-08T06:51:22.512989+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4087
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Build HTML Desktop Apps on .NET/.NET Core/.NET 5 using native GUI, HTML5, JavaScript, CSS",
+    "fork": false,
+    "full_name": "chromelyapps/CefSharp",
+    "html_url": "https://github.com/chromelyapps/CefSharp",
+    "language": "C#",
+    "pushed_at": "2023-01-15T23:17:26Z",
+    "stargazers_count": 98,
+    "topics": [],
+    "updated_at": "2025-10-21T00:14:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chromelyapps/chromely",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chromelyapps/demo-projects",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "electronnet/electron.net",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,111 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codesniffer.yml",
+      "source_repo": "contributte/monolog",
+      "target": "contributte/.github/.github/workflows/codesniffer.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codesniffer.yml",
+      "source_repo": "contributte/monolog",
+      "target": "Codesniffer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "contributte/monolog",
+      "target": "contributte/.github/.github/workflows/nette-tester-coverage-v2.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "contributte/monolog",
+      "target": "Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/phpstan.yml",
+      "source_repo": "contributte/monolog",
+      "target": "contributte/.github/.github/workflows/phpstan.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/phpstan.yml",
+      "source_repo": "contributte/monolog",
+      "target": "PHPStan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "contributte/monolog",
+      "target": "contributte/.github/.github/workflows/nette-tester.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "contributte/monolog",
+      "target": "Nette Tester",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "contributte/monolog",
+      "target": "contributte",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "contributte/monolog",
+      "target": "doctrine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "contributte/monolog",
+      "target": "logging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "contributte/monolog",
+      "target": "monolog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "contributte/monolog",
+      "target": "nette-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "contributte/monolog",
+      "target": "psr-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "contributte/monolog",
+      "target": "tracy",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-08T06:44:29.884715+00:00",
+  "source_repo": "contributte/monolog"
+}

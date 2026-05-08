@@ -115,6 +115,18 @@
       "source_repo": "bdovaz/UnityNuGet",
       "status": "candidate-context",
       "text": "FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:10.0@sha256:8a90a473da5205a16979de99d2fc20975e922c68304f5c79d564e666dc3982fc AS build ARG TARGETARCH WORKDIR /app RUN mkdir -p src/UnityNuGet && \\ mkdir -p src/UnityNuGet.Server && \\ mkdir -p src/UnityNuGet.Server.Tests\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cefsharp/CefSharp.MinimalExample",
+      "status": "candidate-context",
+      "text": "Minimal example of how the CefSharp library can be used"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cefsharp/CefSharp.MinimalExample",
+      "status": "candidate-context",
+      "text": "Minimal example of how the CefSharp library can be used using the official `Nuget` packages."
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "bdovaz/UnityNuGet",
       "status": "candidate",
       "text": "FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:10.0@sha256:8a90a473da5205a16979de99d2fc20975e922c68304f5c79d564e666dc3982fc AS build ARG TARGETARCH WORKDIR /app RUN mkdir -p src/UnityNuGet && \\ mkdir -p src/UnityNuGet.Server && \\ mkdir -p src/UnityNuGet.Server.Tests\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cefsharp/CefSharp.MinimalExample",
+      "status": "candidate",
+      "text": "Minimal example of how the CefSharp library can be used using the official `Nuget` packages."
     }
   ],
   "candidate_related_terms": [
@@ -274,11 +292,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "bdovaz/UnityNuGet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T06:44:29.884715+00:00",
+      "source_file": null,
+      "source_repo": "cefsharp/CefSharp.MinimalExample"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
   "lexical_providers": [
     "datamuse"
   ],

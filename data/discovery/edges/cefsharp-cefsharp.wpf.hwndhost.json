@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cefsharp/CefSharp.Wpf.HwndHost",
+      "target": "cefsharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cefsharp/CefSharp.Wpf.HwndHost",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cefsharp/CefSharp.Wpf.HwndHost",
+      "target": "webbrowser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cefsharp/CefSharp.Wpf.HwndHost",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-08T06:44:29.884715+00:00",
+  "source_repo": "cefsharp/CefSharp.Wpf.HwndHost"
+}

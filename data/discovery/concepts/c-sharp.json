@@ -355,6 +355,18 @@
       "source_repo": "cefsharp/CefSharp",
       "status": "candidate-context",
       "text": "[![CefSharp Logo](logo.png)](https://cefsharp.github.io/ \"CefSharp - Embedded Chromium for .NET\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cefsharp/CefSharp.MinimalExample",
+      "status": "candidate-context",
+      "text": "Minimal example of how the CefSharp library can be used"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cefsharp/CefSharp.MinimalExample",
+      "status": "candidate-context",
+      "text": "Minimal example of how the CefSharp library can be used using the official `Nuget` packages."
     }
   ],
   "candidate_glosses": [
@@ -531,6 +543,12 @@
       "source_repo": "cefsharp/CefSharp",
       "status": "candidate",
       "text": "[![CefSharp Logo](logo.png)](https://cefsharp.github.io/ \"CefSharp - Embedded Chromium for .NET\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cefsharp/CefSharp.MinimalExample",
+      "status": "candidate",
+      "text": "Minimal example of how the CefSharp library can be used using the official `Nuget` packages."
     }
   ],
   "candidate_related_terms": [
@@ -766,11 +784,17 @@
       "observed_at": "2026-05-08T00:38:13.543216+00:00",
       "source_file": null,
       "source_repo": "cefsharp/CefSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T06:44:29.884715+00:00",
+      "source_file": null,
+      "source_repo": "cefsharp/CefSharp.MinimalExample"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
   "lexical_providers": [
     "datamuse"
   ],

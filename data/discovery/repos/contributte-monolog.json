@@ -1,0 +1,260 @@
+{
+  "components": [
+    {
+      "component": "contributte/.github/.github/workflows/codesniffer.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codesniffer.yml"
+    },
+    {
+      "component": "contributte/.github/.github/workflows/nette-tester-coverage-v2.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "contributte/.github/.github/workflows/phpstan.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/phpstan.yml"
+    },
+    {
+      "component": "contributte/.github/.github/workflows/nette-tester.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "contributte/.github/.github/workflows/nette-tester.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "contributte/.github/.github/workflows/nette-tester.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "contributte/.github/.github/workflows/nette-tester.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codesniffer.yml",
+      "source_repo": "contributte/monolog",
+      "target": "contributte/.github/.github/workflows/codesniffer.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codesniffer.yml",
+      "source_repo": "contributte/monolog",
+      "target": "Codesniffer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "contributte/monolog",
+      "target": "contributte/.github/.github/workflows/nette-tester-coverage-v2.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "contributte/monolog",
+      "target": "Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/phpstan.yml",
+      "source_repo": "contributte/monolog",
+      "target": "contributte/.github/.github/workflows/phpstan.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/phpstan.yml",
+      "source_repo": "contributte/monolog",
+      "target": "PHPStan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "contributte/monolog",
+      "target": "contributte/.github/.github/workflows/nette-tester.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "contributte/monolog",
+      "target": "Nette Tester",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "contributte/monolog",
+      "target": "contributte",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "contributte/monolog",
+      "target": "doctrine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "contributte/monolog",
+      "target": "logging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "contributte/monolog",
+      "target": "monolog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "contributte/monolog",
+      "target": "nette-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "contributte/monolog",
+      "target": "psr-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "contributte/monolog",
+      "target": "tracy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T06:46:53.249481+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2352
+    },
+    {
+      "path": ".github/workflows/codesniffer.yml",
+      "size": 274
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 281
+    },
+    {
+      "path": ".github/workflows/phpstan.yml",
+      "size": 258
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 791
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":memo: Best logging support into Nette Framework (@nette)",
+    "fork": false,
+    "full_name": "contributte/monolog",
+    "html_url": "https://github.com/contributte/monolog",
+    "language": "PHP",
+    "pushed_at": "2026-03-29T09:52:31Z",
+    "stargazers_count": 24,
+    "topics": [
+      "contributte",
+      "doctrine",
+      "logging",
+      "monolog",
+      "nette-framework",
+      "psr-3",
+      "tracy"
+    ],
+    "updated_at": "2026-04-25T10:39:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Codesniffer\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codesniffer.yml",
+      "term": "Codesniffer"
+    },
+    {
+      "context_snippet": "\"Coverage\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Coverage"
+    },
+    {
+      "context_snippet": "\"PHPStan\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/phpstan.yml",
+      "term": "PHPStan"
+    },
+    {
+      "context_snippet": "\"Nette Tester\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Nette Tester"
+    },
+    {
+      "context_snippet": "![](https://heatbadger.now.sh/github/readme/contributte/monolog/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contributte"
+    },
+    {
+      "context_snippet": "![](https://heatbadger.now.sh/github/readme/contributte/monolog/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "doctrine"
+    },
+    {
+      "context_snippet": "![](https://heatbadger.now.sh/github/readme/contributte/monolog/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logging"
+    },
+    {
+      "context_snippet": "![](https://heatbadger.now.sh/github/readme/contributte/monolog/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monolog"
+    },
+    {
+      "context_snippet": "![](https://heatbadger.now.sh/github/readme/contributte/monolog/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nette-framework"
+    },
+    {
+      "context_snippet": "![](https://heatbadger.now.sh/github/readme/contributte/monolog/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "psr-3"
+    },
+    {
+      "context_snippet": "![](https://heatbadger.now.sh/github/readme/contributte/monolog/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracy"
+    }
+  ]
+}

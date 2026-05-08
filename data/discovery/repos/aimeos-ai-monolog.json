@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-08T06:46:49.646533+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2535
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Monolog adapter for Aimeos web shops and e-commerce solutions",
+    "fork": false,
+    "full_name": "aimeos/ai-monolog",
+    "html_url": "https://github.com/aimeos/ai-monolog",
+    "language": "PHP",
+    "pushed_at": "2026-04-29T09:32:46Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-04-27T14:39:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

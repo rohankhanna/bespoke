@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Minimal example of how the CefSharp library can be used"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Minimal example of how the CefSharp library can be used using the official `Nuget` packages."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Minimal example of how the CefSharp library can be used using the official `Nuget` packages."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "nuxt.js"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "nunit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "hijackthis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "jscript .net"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "filehippo"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nuget",
+      "sense_id": "nuget#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nuget",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nuget",
+  "observation_id": "c3c9ff01552bb882",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-08T06:44:29.884715+00:00",
+  "observed_text": "nuget",
+  "source_context_snippet": "Minimal example of how the CefSharp library can be used using the official `Nuget` packages.",
+  "source_file": null,
+  "source_repo": "cefsharp/CefSharp.MinimalExample",
+  "source_repo_description": "Minimal example of how the CefSharp library can be used"
+}

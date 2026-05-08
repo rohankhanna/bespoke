@@ -55,6 +55,18 @@
       "source_repo": "ocaml-tracing/ocaml-trace",
       "status": "candidate-context",
       "text": "[![Build and Test](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml/badge.svg)](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "contributte/monolog",
+      "status": "candidate-context",
+      "text": ":memo: Best logging support into Nette Framework (@nette)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "contributte/monolog",
+      "status": "candidate-context",
+      "text": "![](https://heatbadger.now.sh/github/readme/contributte/monolog/)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "ocaml-tracing/ocaml-trace",
       "status": "candidate",
       "text": "[![Build and Test](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml/badge.svg)](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "contributte/monolog",
+      "status": "candidate",
+      "text": "![](https://heatbadger.now.sh/github/readme/contributte/monolog/)"
     }
   ],
   "candidate_related_terms": [
@@ -466,11 +484,17 @@
       "observed_at": "2026-05-08T00:38:13.543216+00:00",
       "source_file": null,
       "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T06:44:29.884715+00:00",
+      "source_file": null,
+      "source_repo": "contributte/monolog"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
   "lexical_providers": [
     "datamuse"
   ],

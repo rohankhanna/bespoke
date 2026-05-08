@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cefsharp/CefSharp.MinimalExample",
+      "target": "c-sharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cefsharp/CefSharp.MinimalExample",
+      "target": "cefsharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cefsharp/CefSharp.MinimalExample",
+      "target": "nuget",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T06:51:19.106842+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2019
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Minimal example of how the CefSharp library can be used",
+    "fork": false,
+    "full_name": "cefsharp/CefSharp.MinimalExample",
+    "html_url": "https://github.com/cefsharp/CefSharp.MinimalExample",
+    "language": "C#",
+    "pushed_at": "2026-05-03T04:06:21Z",
+    "stargazers_count": 535,
+    "topics": [
+      "c-sharp",
+      "cefsharp",
+      "nuget"
+    ],
+    "updated_at": "2026-05-03T04:06:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Minimal example of how the CefSharp library can be used using the official `Nuget` packages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-sharp"
+    },
+    {
+      "context_snippet": "Minimal example of how the CefSharp library can be used using the official `Nuget` packages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cefsharp"
+    },
+    {
+      "context_snippet": "Minimal example of how the CefSharp library can be used using the official `Nuget` packages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nuget"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cefsharp/CefSharp.Wpf.HwndHost",
+      "target": "cefsharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cefsharp/CefSharp.Wpf.HwndHost",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cefsharp/CefSharp.Wpf.HwndHost",
+      "target": "webbrowser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cefsharp/CefSharp.Wpf.HwndHost",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T06:51:20.442552+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1158
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Designed as a drop in replacement for CefSharp.Wpf for those who want the native Win32 based implementation (For IME support and better performance).",
+    "fork": false,
+    "full_name": "cefsharp/CefSharp.Wpf.HwndHost",
+    "html_url": "https://github.com/cefsharp/CefSharp.Wpf.HwndHost",
+    "language": "C#",
+    "pushed_at": "2024-12-23T02:12:29Z",
+    "stargazers_count": 46,
+    "topics": [
+      "cefsharp",
+      "dotnet",
+      "webbrowser",
+      "windows",
+      "wpf"
+    ],
+    "updated_at": "2026-04-04T09:56:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![CefSharp Logo](https://github.com/cefsharp/CefSharp/raw/master/logo.png)](https://cefsharp.github.io/ \"CefSharp - Embedded Chromium for .NET\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cefsharp"
+    },
+    {
+      "context_snippet": "[![CefSharp Logo](https://github.com/cefsharp/CefSharp/raw/master/logo.png)](https://cefsharp.github.io/ \"CefSharp - Embedded Chromium for .NET\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "[![CefSharp Logo](https://github.com/cefsharp/CefSharp/raw/master/logo.png)](https://cefsharp.github.io/ \"CefSharp - Embedded Chromium for .NET\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webbrowser"
+    },
+    {
+      "context_snippet": "[![CefSharp Logo](https://github.com/cefsharp/CefSharp/raw/master/logo.png)](https://cefsharp.github.io/ \"CefSharp - Embedded Chromium for .NET\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

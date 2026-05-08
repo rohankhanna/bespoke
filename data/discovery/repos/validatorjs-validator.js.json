@@ -136,13 +136,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "validatorjs/validator.js",
-      "target": "alguerocode/validator.js",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "validatorjs/validator.js",
       "target": "yahoo/xss-filters",
       "target_type": "repository"
     },
@@ -413,7 +406,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T02:55:33.502313+00:00",
+  "fetched_at": "2026-05-08T06:46:41.366999+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -446,7 +439,7 @@
     "html_url": "https://github.com/validatorjs/validator.js",
     "language": "JavaScript",
     "pushed_at": "2026-04-24T18:39:04Z",
-    "stargazers_count": 23752,
+    "stargazers_count": 23751,
     "topics": [
       "hacktoberfest",
       "input",
@@ -459,14 +452,9 @@
       "validations",
       "validator"
     ],
-    "updated_at": "2026-04-29T14:28:59Z"
+    "updated_at": "2026-05-08T02:03:27Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "alguerocode/validator.js",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "jameslk/awesome-falsehoods",

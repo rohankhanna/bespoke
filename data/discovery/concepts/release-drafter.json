@@ -717,6 +717,18 @@
       "source_repo": "celestiaorg/protobuf3-solidity",
       "status": "candidate-context",
       "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gosimple/slug",
+      "status": "candidate-context",
+      "text": "URL-friendly slugify with multiple languages support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gosimple/slug",
+      "status": "candidate-context",
+      "text": "Release Drafter"
     }
   ],
   "candidate_glosses": [
@@ -1077,6 +1089,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "celestiaorg/protobuf3-solidity",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gosimple/slug",
       "status": "candidate",
       "text": "Release Drafter"
     }
@@ -2448,11 +2466,17 @@
       "observed_at": "2026-05-08T00:38:13.543216+00:00",
       "source_file": ".github/workflows/release-drafter.yml",
       "source_repo": "celestiaorg/protobuf3-solidity"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T06:44:29.884715+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "gosimple/slug"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -2530,6 +2530,18 @@
       "source_repo": "salvadordf/CEF4Delphi",
       "status": "candidate-context",
       "text": "CEF4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/) for Windows, Linux and MacOS."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cefsharp/CefSharp.Wpf.HwndHost",
+      "status": "candidate-context",
+      "text": "Designed as a drop in replacement for CefSharp.Wpf for those who want the native Win32 based implementation (For IME support and better performance)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cefsharp/CefSharp.Wpf.HwndHost",
+      "status": "candidate-context",
+      "text": "[![CefSharp Logo](https://github.com/cefsharp/CefSharp/raw/master/logo.png)](https://cefsharp.github.io/ \"CefSharp - Embedded Chromium for .NET\")"
     }
   ],
   "candidate_glosses": [
@@ -3810,6 +3822,12 @@
       "source_repo": "salvadordf/CEF4Delphi",
       "status": "candidate",
       "text": "CEF4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/) for Windows, Linux and MacOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cefsharp/CefSharp.Wpf.HwndHost",
+      "status": "candidate",
+      "text": "[![CefSharp Logo](https://github.com/cefsharp/CefSharp/raw/master/logo.png)](https://cefsharp.github.io/ \"CefSharp - Embedded Chromium for .NET\")"
     }
   ],
   "candidate_related_terms": [
@@ -6409,11 +6427,41 @@
       "observed_at": "2026-05-08T00:38:13.543216+00:00",
       "source_file": null,
       "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T06:44:29.884715+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T06:44:29.884715+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T06:44:29.884715+00:00",
+      "source_file": null,
+      "source_repo": "cefsharp/CefSharp.Wpf.HwndHost"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T06:44:29.884715+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T06:44:29.884715+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chromelyapps/CefSharp",
+      "target": "chromelyapps/chromely",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chromelyapps/CefSharp",
+      "target": "electronnet/electron.net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chromelyapps/CefSharp",
+      "target": "chromelyapps/demo-projects",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-08T06:44:29.884715+00:00",
+  "source_repo": "chromelyapps/CefSharp"
+}

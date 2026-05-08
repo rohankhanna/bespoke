@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":memo: Best logging support into Nette Framework (@nette)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![](https://heatbadger.now.sh/github/readme/contributte/monolog/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![](https://heatbadger.now.sh/github/readme/contributte/monolog/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043779,
+      "status": "candidate",
+      "text": "school of thought"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041285,
+      "status": "candidate",
+      "text": "ism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033810,
+      "status": "candidate",
+      "text": "philosophy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048566,
+      "status": "candidate",
+      "text": "doctrinal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048248,
+      "status": "candidate",
+      "text": "creed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "doctrine",
+      "sense_id": "doctrine#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20051,
+      "status": "candidate",
+      "text": "philosophy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8053,
+      "status": "candidate",
+      "text": "ism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2022,
+      "status": "candidate",
+      "text": "school of thought"
+    }
+  ],
+  "concept_id": "doctrine",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "doctrine",
+  "observation_id": "7284dce93c5eece8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-08T06:44:29.884715+00:00",
+  "observed_text": "doctrine",
+  "source_context_snippet": "![](https://heatbadger.now.sh/github/readme/contributte/monolog/)",
+  "source_file": null,
+  "source_repo": "contributte/monolog",
+  "source_repo_description": ":memo: Best logging support into Nette Framework (@nette)"
+}

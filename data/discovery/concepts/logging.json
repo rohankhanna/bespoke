@@ -475,6 +475,18 @@
       "source_repo": "Seldaek/monolog",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"logo.jpg\" alt=\"Monolog\" width=\"400\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "contributte/monolog",
+      "status": "candidate-context",
+      "text": ":memo: Best logging support into Nette Framework (@nette)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "contributte/monolog",
+      "status": "candidate-context",
+      "text": "![](https://heatbadger.now.sh/github/readme/contributte/monolog/)"
     }
   ],
   "candidate_glosses": [
@@ -711,6 +723,12 @@
       "source_repo": "Seldaek/monolog",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"logo.jpg\" alt=\"Monolog\" width=\"400\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "contributte/monolog",
+      "status": "candidate",
+      "text": "![](https://heatbadger.now.sh/github/readme/contributte/monolog/)"
     }
   ],
   "candidate_related_terms": [
@@ -1006,11 +1024,17 @@
       "observed_at": "2026-05-08T00:38:13.543216+00:00",
       "source_file": null,
       "source_repo": "Seldaek/monolog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T06:44:29.884715+00:00",
+      "source_file": null,
+      "source_repo": "contributte/monolog"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
   "lexical_providers": [
     "datamuse"
   ],

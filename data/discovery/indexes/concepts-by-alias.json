@@ -21773,6 +21773,9 @@
   "codesmells": [
     "codesmells"
   ],
+  "codesniffer": [
+    "codesniffer"
+  ],
   "codespaces": [
     "codespaces"
   ],
@@ -23944,6 +23947,9 @@
   ],
   "contributors": [
     "contributors"
+  ],
+  "contributte": [
+    "contributte"
   ],
   "control": [
     "control"
@@ -54816,6 +54822,9 @@
   "match-when": [
     "match-when"
   ],
+  "matchall": [
+    "matchall"
+  ],
   "matcher": [
     "matcher"
   ],
@@ -59289,6 +59298,12 @@
   ],
   "netstrings": [
     "netstrings"
+  ],
+  "nette tester": [
+    "nette-tester"
+  ],
+  "nette-framework": [
+    "nette-framework"
   ],
   "netty": [
     "netty"
@@ -65018,6 +65033,9 @@
   ],
   "php-parser": [
     "php-parser"
+  ],
+  "php-router": [
+    "php-router"
   ],
   "php-validation": [
     "php-validation"
@@ -80655,6 +80673,9 @@
   "slsaprovenance": [
     "slsaprovenance"
   ],
+  "slug": [
+    "slug"
+  ],
   "slurm": [
     "slurm"
   ],
@@ -95824,6 +95845,9 @@
   ],
   "web-platform-tests": [
     "web-platform-tests"
+  ],
+  "web-router": [
+    "web-router"
   ],
   "web-scraper": [
     "web-scraper"

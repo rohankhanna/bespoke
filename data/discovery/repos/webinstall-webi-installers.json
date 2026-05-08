@@ -126,7 +126,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T01:08:32.970240+00:00",
+  "fetched_at": "2026-05-08T06:56:06.885065+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -150,7 +150,7 @@
     "full_name": "webinstall/webi-installers",
     "html_url": "https://github.com/webinstall/webi-installers",
     "language": "Shell",
-    "pushed_at": "2026-05-07T21:41:13Z",
+    "pushed_at": "2026-05-08T04:08:40Z",
     "stargazers_count": 2860,
     "topics": [
       "brew",

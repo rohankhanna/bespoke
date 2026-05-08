@@ -1,0 +1,122 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chromiumembedded/cef",
+      "target": "hgourvest/dcef3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chromiumembedded/cef",
+      "target": "czarektomczak/cef2go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chromiumembedded/cef",
+      "target": "energye/energy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chromiumembedded/cef",
+      "target": "chromiumembedded/java-cef",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromiumembedded/cef",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromiumembedded/cef",
+      "target": "chromium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromiumembedded/cef",
+      "target": "framework",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T06:51:24.084434+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8209
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Chromium Embedded Framework (CEF). A simple framework for embedding Chromium-based browsers in other applications.",
+    "fork": false,
+    "full_name": "chromiumembedded/cef",
+    "html_url": "https://github.com/chromiumembedded/cef",
+    "language": "C++",
+    "pushed_at": "2026-05-01T16:12:50Z",
+    "stargazers_count": 4524,
+    "topics": [
+      "browser",
+      "cef",
+      "chromium",
+      "framework"
+    ],
+    "updated_at": "2026-05-08T05:53:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chromiumembedded/java-cef",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "czarektomczak/cef2go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "energye/energy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hgourvest/dcef3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The Chromium Embedded Framework (CEF) is a simple framework for embedding Chromium-based browsers in other applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "The Chromium Embedded Framework (CEF) is a simple framework for embedding Chromium-based browsers in other applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromium"
+    },
+    {
+      "context_snippet": "The Chromium Embedded Framework (CEF) is a simple framework for embedding Chromium-based browsers in other applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    }
+  ]
+}

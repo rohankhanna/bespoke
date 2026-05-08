@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Nette Tester"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "contributte/monolog",
+      "status": "candidate-context",
+      "text": ":memo: Best logging support into Nette Framework (@nette)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "contributte/monolog",
+      "status": "candidate-context",
+      "text": "\"Nette Tester\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "contributte/monolog",
+      "status": "candidate",
+      "text": "\"Nette Tester\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5050,
+      "status": "candidate",
+      "text": "compte"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "acid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "assayer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "audiometer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "binet"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Nette Tester",
+  "concept_id": "nette-tester",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T06:44:29.884715+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "contributte/monolog"
+    }
+  ],
+  "first_seen_at": "2026-05-08T06:44:29.884715+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nette Tester",
+      "sense_id": "nette-tester#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

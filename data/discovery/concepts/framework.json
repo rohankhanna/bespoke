@@ -1009,6 +1009,18 @@
       "source_repo": "cefsharp/CefSharp",
       "status": "candidate-context",
       "text": "[![CefSharp Logo](logo.png)](https://cefsharp.github.io/ \"CefSharp - Embedded Chromium for .NET\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chromiumembedded/cef",
+      "status": "candidate-context",
+      "text": "Chromium Embedded Framework (CEF). A simple framework for embedding Chromium-based browsers in other applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chromiumembedded/cef",
+      "status": "candidate-context",
+      "text": "The Chromium Embedded Framework (CEF) is a simple framework for embedding Chromium-based browsers in other applications."
     }
   ],
   "candidate_glosses": [
@@ -1509,6 +1521,12 @@
       "source_repo": "cefsharp/CefSharp",
       "status": "candidate",
       "text": "[![CefSharp Logo](logo.png)](https://cefsharp.github.io/ \"CefSharp - Embedded Chromium for .NET\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chromiumembedded/cef",
+      "status": "candidate",
+      "text": "The Chromium Embedded Framework (CEF) is a simple framework for embedding Chromium-based browsers in other applications."
     }
   ],
   "candidate_related_terms": [
@@ -2836,11 +2854,23 @@
       "observed_at": "2026-05-08T00:38:13.543216+00:00",
       "source_file": null,
       "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T06:44:29.884715+00:00",
+      "source_file": null,
+      "source_repo": "chromiumembedded/cef"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T06:44:29.884715+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
   "lexical_providers": [
     "datamuse"
   ],

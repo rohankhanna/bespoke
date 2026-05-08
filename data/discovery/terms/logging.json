@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
-  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -201,6 +201,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "Seldaek/monolog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "contributte/monolog"
     }
   ],
   "term": "logging"

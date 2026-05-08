@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":memo: Best logging support into Nette Framework (@nette)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![](https://heatbadger.now.sh/github/readme/contributte/monolog/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![](https://heatbadger.now.sh/github/readme/contributte/monolog/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019864,
+      "status": "candidate",
+      "text": "duolog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019863,
+      "status": "candidate",
+      "text": "soliloquiser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019862,
+      "status": "candidate",
+      "text": "travelog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019861,
+      "status": "candidate",
+      "text": "dialoger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019860,
+      "status": "candidate",
+      "text": "trialog"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "monolog",
+      "sense_id": "monolog#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "monolog",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "monolog",
+  "observation_id": "dc88f6bb229b405f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-08T06:44:29.884715+00:00",
+  "observed_text": "monolog",
+  "source_context_snippet": "![](https://heatbadger.now.sh/github/readme/contributte/monolog/)",
+  "source_file": null,
+  "source_repo": "contributte/monolog",
+  "source_repo_description": ":memo: Best logging support into Nette Framework (@nette)"
+}

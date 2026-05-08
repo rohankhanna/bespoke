@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A very lightweight and fast speed PHP request router. \u975e\u5e38\u5feb\u901f\u4e14\u8f7b\u91cf\u7684\u8bf7\u6c42\u5339\u914d\u8def\u7531\u5668\u3002\u65e0\u4f9d\u8d56\u3001\u7b80\u6d01\u3001\u81ea\u5b9a\u4e49\u6027\u5f3a\uff0c\u67e5\u627e\u5339\u914d\u901f\u5ea6\u5feb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![License](https://img.shields.io/packagist/l/inhere/sroute.svg?style=flat-square)](LICENSE)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/packagist/l/inhere/sroute.svg?style=flat-square)](LICENSE)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "php-router",
+      "sense_id": "php-router#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "php-router",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "php-router",
+  "observation_id": "bda47b6d3075efdc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-08T06:44:29.884715+00:00",
+  "observed_text": "php-router",
+  "source_context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/sroute.svg?style=flat-square)](LICENSE)",
+  "source_file": null,
+  "source_repo": "inhere/php-sroute",
+  "source_repo_description": "A very lightweight and fast speed PHP request router. \u975e\u5e38\u5feb\u901f\u4e14\u8f7b\u91cf\u7684\u8bf7\u6c42\u5339\u914d\u8def\u7531\u5668\u3002\u65e0\u4f9d\u8d56\u3001\u7b80\u6d01\u3001\u81ea\u5b9a\u4e49\u6027\u5f3a\uff0c\u67e5\u627e\u5339\u914d\u901f\u5ea6\u5feb"
+}

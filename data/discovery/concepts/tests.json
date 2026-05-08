@@ -7081,6 +7081,18 @@
       "source_repo": "xrjr/mcutils",
       "status": "candidate-context",
       "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gosimple/slug",
+      "status": "candidate-context",
+      "text": "URL-friendly slugify with multiple languages support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gosimple/slug",
+      "status": "candidate-context",
+      "text": "Tests"
     }
   ],
   "candidate_glosses": [
@@ -10683,6 +10695,12 @@
       "source_repo": "xrjr/mcutils",
       "status": "candidate",
       "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gosimple/slug",
+      "status": "candidate",
+      "text": "Tests"
     }
   ],
   "candidate_related_terms": [
@@ -17835,11 +17853,47 @@
       "observed_at": "2026-05-08T00:38:13.543216+00:00",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "xrjr/mcutils"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T06:44:29.884715+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "gosimple/slug"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T06:44:29.884715+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T06:44:29.884715+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "TencentCloudADP/youtu-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T06:44:29.884715+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T06:44:29.884715+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "dracory/hb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T06:44:29.884715+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "standardrb/standard"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
   "lexical_providers": [
     "datamuse"
   ],

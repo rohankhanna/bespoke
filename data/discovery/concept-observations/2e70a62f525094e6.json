@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":memo: Best logging support into Nette Framework (@nette)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![](https://heatbadger.now.sh/github/readme/contributte/monolog/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![](https://heatbadger.now.sh/github/readme/contributte/monolog/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18620419,
+      "status": "candidate",
+      "text": "tracey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18606649,
+      "status": "candidate",
+      "text": "lidia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18583119,
+      "status": "candidate",
+      "text": "tracie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17157623,
+      "status": "candidate",
+      "text": "fleur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17157188,
+      "status": "candidate",
+      "text": "flower"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tracy",
+      "sense_id": "tracy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tracy",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tracy",
+  "observation_id": "2e70a62f525094e6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-08T06:44:29.884715+00:00",
+  "observed_text": "tracy",
+  "source_context_snippet": "![](https://heatbadger.now.sh/github/readme/contributte/monolog/)",
+  "source_file": null,
+  "source_repo": "contributte/monolog",
+  "source_repo_description": ":memo: Best logging support into Nette Framework (@nette)"
+}

@@ -272,7 +272,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
-      "target": "dezoito/ollama-grid-search",
+      "target": "djcopley/shelloracle",
       "target_type": "repository"
     },
     {
@@ -549,7 +549,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T01:49:52.514113+00:00",
+  "fetched_at": "2026-05-08T07:05:04.044912+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -589,8 +589,8 @@
     "full_name": "ollama/ollama",
     "html_url": "https://github.com/ollama/ollama",
     "language": "Go",
-    "pushed_at": "2026-05-08T01:36:49Z",
-    "stargazers_count": 170957,
+    "pushed_at": "2026-05-08T04:01:19Z",
+    "stargazers_count": 170965,
     "topics": [
       "deepseek",
       "gemma",
@@ -608,7 +608,7 @@
       "ollama",
       "qwen"
     ],
-    "updated_at": "2026-05-08T01:45:30Z"
+    "updated_at": "2026-05-08T07:03:23Z"
   },
   "repo_links": [
     {
@@ -628,7 +628,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "dezoito/ollama-grid-search",
+      "full_name": "djcopley/shelloracle",
       "source_file": "README.md"
     }
   ],

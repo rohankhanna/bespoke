@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":memo: Best logging support into Nette Framework (@nette)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Codesniffer\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Codesniffer\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Codesniffer",
+      "sense_id": "codesniffer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "codesniffer",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "codesniffer",
+  "observation_id": "a593ea3d1a3096c0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-08T06:44:29.884715+00:00",
+  "observed_text": "Codesniffer",
+  "source_context_snippet": "\"Codesniffer\"",
+  "source_file": ".github/workflows/codesniffer.yml",
+  "source_repo": "contributte/monolog",
+  "source_repo_description": ":memo: Best logging support into Nette Framework (@nette)"
+}

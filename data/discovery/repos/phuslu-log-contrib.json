@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-08T06:46:49.206111+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 53
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "phuslog contrib",
+    "fork": false,
+    "full_name": "phuslu/log-contrib",
+    "html_url": "https://github.com/phuslu/log-contrib",
+    "language": "Go",
+    "pushed_at": "2025-03-09T10:09:53Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-06-19T14:19:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

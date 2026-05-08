@@ -175,6 +175,18 @@
       "source_repo": "pointfreeco/swift-url-routing",
       "status": "candidate-context",
       "text": "[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fpointfreeco%2Fswift-url-routing%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/pointfreeco/swift-url-routing)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inhere/php-sroute",
+      "status": "candidate-context",
+      "text": "A very lightweight and fast speed PHP request router. \u975e\u5e38\u5feb\u901f\u4e14\u8f7b\u91cf\u7684\u8bf7\u6c42\u5339\u914d\u8def\u7531\u5668\u3002\u65e0\u4f9d\u8d56\u3001\u7b80\u6d01\u3001\u81ea\u5b9a\u4e49\u6027\u5f3a\uff0c\u67e5\u627e\u5339\u914d\u901f\u5ea6\u5feb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inhere/php-sroute",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/packagist/l/inhere/sroute.svg?style=flat-square)](LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "pointfreeco/swift-url-routing",
       "status": "candidate",
       "text": "[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fpointfreeco%2Fswift-url-routing%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/pointfreeco/swift-url-routing)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inhere/php-sroute",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/packagist/l/inhere/sroute.svg?style=flat-square)](LICENSE)"
     }
   ],
   "candidate_related_terms": [
@@ -388,11 +406,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "pointfreeco/swift-url-routing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T06:44:29.884715+00:00",
+      "source_file": null,
+      "source_repo": "inhere/php-sroute"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
   "lexical_providers": [
     "datamuse"
   ],
