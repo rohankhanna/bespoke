@@ -753,6 +753,18 @@
       "source_repo": "cloudaper/compact_enc_det",
       "status": "candidate-context",
       "text": "Build & test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "energye/energy",
+      "status": "candidate-context",
+      "text": "Energy is a framework developed by Go language based on CEF (Chromium Embedded Framework) for developing cross-platform desktop applications for Windows, Mac OS X, and Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "energye/energy",
+      "status": "candidate-context",
+      "text": "build-test"
     }
   ],
   "candidate_glosses": [
@@ -1133,6 +1145,12 @@
       "source_repo": "cloudaper/compact_enc_det",
       "status": "candidate",
       "text": "Build & test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "energye/energy",
+      "status": "candidate",
+      "text": "build-test"
     }
   ],
   "candidate_related_terms": [
@@ -2628,11 +2646,59 @@
       "observed_at": "2026-05-08T06:44:29.884715+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "dwyl/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "preactjs/preact"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vale-cli/Microsoft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vale-cli/Google"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "energye/energy"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "lexical_providers": [
     "datamuse"
   ],

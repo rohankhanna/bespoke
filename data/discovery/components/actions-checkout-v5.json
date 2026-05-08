@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v5",
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -8212,6 +8212,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "skeeto/aas-sign"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml",
+      "source_repo": "universal-ctags/ctags-nightly-build"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-ctags.yaml",
+      "source_repo": "universal-ctags/ctags-win32"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-release-list.yaml",
+      "source_repo": "universal-ctags/ctags-win32"
     }
   ]
 }

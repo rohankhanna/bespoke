@@ -1864,6 +1864,12 @@
       "source_repo": "danielrosehill/Claude-Gist-Writer-Plugin",
       "status": "candidate-context",
       "text": "Publish content to GitHub gists with clear AI authorship and a PII pre-flight scrub for public publishes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/open_deep_research",
+      "status": "candidate-context",
+      "text": "Claude Code"
     }
   ],
   "candidate_glosses": [
@@ -2796,6 +2802,12 @@
       "source_repo": "danielrosehill/Claude-Gist-Writer-Plugin",
       "status": "candidate",
       "text": "Publish content to GitHub gists with clear AI authorship and a PII pre-flight scrub for public publishes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/open_deep_research",
+      "status": "candidate",
+      "text": "Claude Code"
     }
   ],
   "candidate_related_terms": [
@@ -5791,11 +5803,83 @@
       "observed_at": "2026-05-08T06:44:29.884715+00:00",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "vibrantlabsai/ragas"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "flagos-ai/FlagScale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "langchain-ai/open_deep_research"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "rllm-org/rllm"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "lexical_providers": [
     "datamuse"
   ],

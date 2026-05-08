@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-08T12:52:24.348485+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2194
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open source implementation and models of One-step Diffusion with Distribution Matching Distillation",
+    "fork": false,
+    "full_name": "Zeqiang-Lai/OpenDMD",
+    "html_url": "https://github.com/Zeqiang-Lai/OpenDMD",
+    "language": "Python",
+    "pushed_at": "2024-05-26T15:37:25Z",
+    "stargazers_count": 181,
+    "topics": [],
+    "updated_at": "2026-03-28T16:54:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

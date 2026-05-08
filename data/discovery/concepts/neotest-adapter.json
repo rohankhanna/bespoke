@@ -43,6 +43,18 @@
       "source_repo": "ashton/neotest-gleam-unitest",
       "status": "candidate-context",
       "text": "A [Gleam](https://gleam.run/) adapter for the [Neotest](https://github.com/nvim-neotest/neotest) framework, built for projects using [unitest](https://github.com/maxdeviant/unitest) as the test runner."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Nsidorenco/neotest-vstest",
+      "status": "candidate-context",
+      "text": "neotest adapter for dotnet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nsidorenco/neotest-vstest",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "ashton/neotest-gleam-unitest",
       "status": "candidate",
       "text": "A [Gleam](https://gleam.run/) adapter for the [Neotest](https://github.com/nvim-neotest/neotest) framework, built for projects using [unitest](https://github.com/maxdeviant/unitest) as the test runner."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nsidorenco/neotest-vstest",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "ashton/neotest-gleam-unitest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "Nsidorenco/neotest-vstest"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "lexical_providers": [
     "datamuse"
   ],

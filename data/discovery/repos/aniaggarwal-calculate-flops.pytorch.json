@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AniAggarwal/calculate-flops.pytorch",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-08T12:52:21.215703+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30891
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 413
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The calflops is designed to calculate FLOPs\u3001MACs and Parameters in all various neural networks, such as Linear\u3001 CNN\u3001 RNN\u3001 GCN\u3001Transformer(Bert\u3001LlaMA etc Large Language Model)",
+    "fork": true,
+    "full_name": "AniAggarwal/calculate-flops.pytorch",
+    "html_url": "https://github.com/AniAggarwal/calculate-flops.pytorch",
+    "language": "Python",
+    "pushed_at": "2025-05-03T11:43:43Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-05-03T11:43:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeed",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

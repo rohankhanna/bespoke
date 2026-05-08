@@ -2866,6 +2866,30 @@
       "source_repo": "salvadordf/CEF4Delphi",
       "status": "candidate-context",
       "text": "CEF4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/) for Windows, Linux and MacOS."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "universal-ctags/ctags-snap",
+      "status": "candidate-context",
+      "text": "Universal-ctags installable snap package for Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "universal-ctags/ctags-snap",
+      "status": "candidate-context",
+      "text": "Snap packaging for Universal Ctags"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "energye/energy",
+      "status": "candidate-context",
+      "text": "Energy is a framework developed by Go language based on CEF (Chromium Embedded Framework) for developing cross-platform desktop applications for Windows, Mac OS X, and Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "energye/energy",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -4314,6 +4338,18 @@
       "source_repo": "salvadordf/CEF4Delphi",
       "status": "candidate",
       "text": "CEF4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/) for Windows, Linux and MacOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "universal-ctags/ctags-snap",
+      "status": "candidate",
+      "text": "Snap packaging for Universal Ctags"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "energye/energy",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -7435,11 +7471,83 @@
       "observed_at": "2026-05-08T06:44:29.884715+00:00",
       "source_file": null,
       "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "Biscuit-Theme/biscuit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "universal-ctags/ctags-snap"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/getdeps_linux.yml",
+      "source_repo": "facebookarchive/fbzmq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "energye/energy"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -326,6 +326,18 @@
       "source_repo": "teletrace/opentelemetry-demo",
       "status": "candidate-context",
       "text": "\"Build and Publish\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ElectronNET/Electron.NET",
+      "status": "candidate-context",
+      "text": ":electron: Build cross platform desktop apps with ASP.NET Core (Razor Pages, MVC, Blazor)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElectronNET/Electron.NET",
+      "status": "candidate-context",
+      "text": "Build and Publish"
     }
   ],
   "candidate_glosses": [
@@ -490,6 +502,12 @@
       "source_repo": "teletrace/opentelemetry-demo",
       "status": "candidate",
       "text": "\"Build and Publish\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElectronNET/Electron.NET",
+      "status": "candidate",
+      "text": "Build and Publish"
     }
   ],
   "candidate_related_terms": [
@@ -713,11 +731,17 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "teletrace/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/Build and Publish.yml",
+      "source_repo": "ElectronNET/Electron.NET"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "lexical_providers": [
     "datamuse"
   ],

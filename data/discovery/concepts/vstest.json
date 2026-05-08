@@ -19,6 +19,18 @@
       "source_repo": "microsoft/vstest-docs",
       "status": "candidate-context",
       "text": "You've found the GitHub repository which contains the content for the Visual Studio Test Platform documentation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Nsidorenco/neotest-vstest",
+      "status": "candidate-context",
+      "text": "neotest adapter for dotnet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nsidorenco/neotest-vstest",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "microsoft/vstest-docs",
       "status": "candidate",
       "text": "You've found the GitHub repository which contains the content for the Visual Studio Test Platform documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nsidorenco/neotest-vstest",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "microsoft/vstest-docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "Nsidorenco/neotest-vstest"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -2542,6 +2542,18 @@
       "source_repo": "cefsharp/CefSharp.Wpf.HwndHost",
       "status": "candidate-context",
       "text": "[![CefSharp Logo](https://github.com/cefsharp/CefSharp/raw/master/logo.png)](https://cefsharp.github.io/ \"CefSharp - Embedded Chromium for .NET\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "energye/energy",
+      "status": "candidate-context",
+      "text": "Energy is a framework developed by Go language based on CEF (Chromium Embedded Framework) for developing cross-platform desktop applications for Windows, Mac OS X, and Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "energye/energy",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -3828,6 +3840,12 @@
       "source_repo": "cefsharp/CefSharp.Wpf.HwndHost",
       "status": "candidate",
       "text": "[![CefSharp Logo](https://github.com/cefsharp/CefSharp/raw/master/logo.png)](https://cefsharp.github.io/ \"CefSharp - Embedded Chromium for .NET\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "energye/energy",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -6457,11 +6475,59 @@
       "observed_at": "2026-05-08T06:44:29.884715+00:00",
       "source_file": null,
       "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "red-data-tools/pycall.rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "energye/energy"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "lexical_providers": [
     "datamuse"
   ],

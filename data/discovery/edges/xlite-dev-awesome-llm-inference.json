@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xlite-dev/Awesome-LLM-Inference",
+      "target": "aca-lab-sjtu/token-ring",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xlite-dev/Awesome-LLM-Inference",
+      "target": "aiot-mlsys-lab/efficient-llms-survey",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xlite-dev/Awesome-LLM-Inference",
+      "target": "alignedquant/alignedkv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xlite-dev/Awesome-LLM-Inference",
+      "target": "alichherawalla/off-grid-mobile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue.yml",
+      "source_repo": "xlite-dev/Awesome-LLM-Inference",
+      "target": "actions/stale@v9.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue.yml",
+      "source_repo": "xlite-dev/Awesome-LLM-Inference",
+      "target": "issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlite-dev/Awesome-LLM-Inference",
+      "target": "awesome-llm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlite-dev/Awesome-LLM-Inference",
+      "target": "deepseek",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlite-dev/Awesome-LLM-Inference",
+      "target": "deepseek-r1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlite-dev/Awesome-LLM-Inference",
+      "target": "deepseek-v3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlite-dev/Awesome-LLM-Inference",
+      "target": "flash-attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlite-dev/Awesome-LLM-Inference",
+      "target": "flash-attention-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlite-dev/Awesome-LLM-Inference",
+      "target": "flash-mla",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlite-dev/Awesome-LLM-Inference",
+      "target": "llm-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlite-dev/Awesome-LLM-Inference",
+      "target": "minimax-01",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlite-dev/Awesome-LLM-Inference",
+      "target": "paged-attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlite-dev/Awesome-LLM-Inference",
+      "target": "qwen3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlite-dev/Awesome-LLM-Inference",
+      "target": "tensorrt-llm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlite-dev/Awesome-LLM-Inference",
+      "target": "vllm",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-08T12:43:50.373126+00:00",
+  "source_repo": "xlite-dev/Awesome-LLM-Inference"
+}

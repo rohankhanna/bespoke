@@ -554,6 +554,18 @@
       "source_repo": "jquery/jquery-color",
       "status": "candidate-context",
       "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Luflosi/kitty",
+      "status": "candidate-context",
+      "text": "A cross-platform, fast, feature full, GPU based terminal emulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Luflosi/kitty",
+      "status": "candidate-context",
+      "text": "\"Code scanning - action\""
     }
   ],
   "candidate_glosses": [
@@ -836,6 +848,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jquery/jquery-color",
+      "status": "candidate",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Luflosi/kitty",
       "status": "candidate",
       "text": "\"Code scanning - action\""
     }
@@ -1487,11 +1505,23 @@
       "observed_at": "2026-05-08T06:44:29.884715+00:00",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Luflosi/kitty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ChristopherHX/runner.server"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "lexical_providers": [
     "datamuse"
   ],

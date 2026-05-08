@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "o3-mini"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dzhng/deep-research",
+      "status": "candidate-context",
+      "text": "An AI-powered research assistant that performs iterative, deep research on any topic by combining search engines, web scraping, and large language models.  The goal of this repo is to provide the simplest implementation of a deep research agent - e.g. an agent that can refine its research direction overtime and deep dive into a topic."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dzhng/deep-research",
+      "status": "candidate-context",
+      "text": "An AI-powered research assistant that performs iterative, deep research on any topic by combining search engines, web scraping, and large language models."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dzhng/deep-research",
+      "status": "candidate",
+      "text": "An AI-powered research assistant that performs iterative, deep research on any topic by combining search engines, web scraping, and large language models."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "o3-mini",
+  "concept_id": "o3-mini",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "dzhng/deep-research"
+    }
+  ],
+  "first_seen_at": "2026-05-08T12:43:50.373126+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "o3-mini",
+      "sense_id": "o3-mini#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

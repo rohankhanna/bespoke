@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Universal-ctags installable snap package for Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Snap packaging for Universal Ctags"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Snap packaging for Universal Ctags"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018415,
+      "status": "candidate",
+      "text": "uninstallable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018414,
+      "status": "candidate",
+      "text": "downloadable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018413,
+      "status": "candidate",
+      "text": "placeable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018412,
+      "status": "candidate",
+      "text": "reinstallable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018411,
+      "status": "candidate",
+      "text": "loadable"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "installable",
+      "sense_id": "installable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "installable",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "installable",
+  "observation_id": "a50e01e1aa795cd0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-08T12:43:50.373126+00:00",
+  "observed_text": "installable",
+  "source_context_snippet": "Snap packaging for Universal Ctags",
+  "source_file": null,
+  "source_repo": "universal-ctags/ctags-snap",
+  "source_repo_description": "Universal-ctags installable snap package for Linux"
+}

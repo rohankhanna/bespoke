@@ -33,6 +33,20 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "LuaLS/vscode-lua",
+      "target": "luals/lua-glob",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LuaLS/vscode-lua",
+      "target": "luals/utility",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LuaLS/vscode-lua",
       "target": "actboy168/vscode-lua-doc",
       "target_type": "repository"
     },
@@ -86,7 +100,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T03:00:10.391414+00:00",
+  "fetched_at": "2026-05-08T13:57:03.142942+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -111,18 +125,28 @@
     "html_url": "https://github.com/LuaLS/vscode-lua",
     "language": "TypeScript",
     "pushed_at": "2026-05-08T00:08:12Z",
-    "stargazers_count": 210,
+    "stargazers_count": 211,
     "topics": [
       "lua",
       "lua-language-server",
       "vscode-extension"
     ],
-    "updated_at": "2026-05-03T02:39:10Z"
+    "updated_at": "2026-05-08T03:31:10Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "actboy168/vscode-lua-doc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luals/lua-glob",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luals/utility",
       "source_file": "README.md"
     },
     {

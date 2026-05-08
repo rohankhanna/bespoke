@@ -217,6 +217,18 @@
       "source_repo": "containrrr/watchtower",
       "status": "candidate-context",
       "text": "Greetings"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexanderjeurissen/ranger_devicons",
+      "status": "candidate-context",
+      "text": "Ranger plugin that adds file glyphs / icon support to Ranger"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexanderjeurissen/ranger_devicons",
+      "status": "candidate-context",
+      "text": "Greetings"
     }
   ],
   "candidate_glosses": [
@@ -325,6 +337,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "containrrr/watchtower",
+      "status": "candidate",
+      "text": "Greetings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexanderjeurissen/ranger_devicons",
       "status": "candidate",
       "text": "Greetings"
     }
@@ -706,11 +724,29 @@
       "observed_at": "2026-05-08T06:44:29.884715+00:00",
       "source_file": ".github/workflows/greetings.yml",
       "source_repo": "lainq/img"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/greetings.yml",
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/greetings.yml",
+      "source_repo": "alexanderjeurissen/ranger_devicons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/greetings.yml",
+      "source_repo": "lainq/img"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,61 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SesameAILabs/silentcipher",
+      "target": "sony/silentcipher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "SesameAILabs/silentcipher",
+      "target": "sony/silentcipher",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-08T13:55:58.649967+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7265
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 640
+    },
+    {
+      "path": "requirements.txt",
+      "size": 168
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": true,
+    "full_name": "SesameAILabs/silentcipher",
+    "html_url": "https://github.com/SesameAILabs/silentcipher",
+    "language": "Python",
+    "pushed_at": "2025-03-17T12:01:47Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2026-04-05T00:47:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sony/silentcipher",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sony/silentcipher",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

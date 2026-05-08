@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ThisisBillhe/torch_quantizer",
+      "target": "ist-daslab/quik",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-08T12:43:50.373126+00:00",
+  "source_repo": "ThisisBillhe/torch_quantizer"
+}

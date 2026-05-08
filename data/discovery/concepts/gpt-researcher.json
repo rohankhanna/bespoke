@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "gpt-researcher"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "assafelovic/gptr-mcp",
+      "status": "candidate-context",
+      "text": "MCP server for enabling LLM applications to perform deep research via the MCP protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "assafelovic/gptr-mcp",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" id=\"top\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "assafelovic/gptr-mcp",
+      "status": "candidate",
+      "text": "<div align=\"center\" id=\"top\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "gpt-researcher",
+  "concept_id": "gpt-researcher",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "assafelovic/gptr-mcp"
+    }
+  ],
+  "first_seen_at": "2026-05-08T12:43:50.373126+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gpt-researcher",
+      "sense_id": "gpt-researcher#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

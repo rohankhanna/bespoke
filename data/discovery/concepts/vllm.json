@@ -249,6 +249,18 @@
       "source_repo": "PaddlePaddle/FastDeploy",
       "status": "candidate-context",
       "text": "[English](README_EN.md) | \u7b80\u4f53\u4e2d\u6587"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xlite-dev/Awesome-LLM-Inference",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdaA curated list of Awesome LLM/VLM Inference Papers with Codes: Flash-Attention, Paged-Attention, WINT8/4, Parallelism, etc.\ud83c\udf89"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlite-dev/Awesome-LLM-Inference",
+      "status": "candidate-context",
+      "text": "<div align='center'>"
     }
   ],
   "candidate_glosses": [
@@ -371,6 +383,12 @@
       "source_repo": "PaddlePaddle/FastDeploy",
       "status": "candidate",
       "text": "[English](README_EN.md) | \u7b80\u4f53\u4e2d\u6587"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlite-dev/Awesome-LLM-Inference",
+      "status": "candidate",
+      "text": "<div align='center'>"
     }
   ],
   "candidate_related_terms": [],
@@ -690,11 +708,23 @@
       "observed_at": "2026-05-08T06:44:29.884715+00:00",
       "source_file": null,
       "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "xlite-dev/Awesome-LLM-Inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "lexical_providers": [
     "datamuse"
   ],

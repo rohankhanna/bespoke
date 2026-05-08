@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udda5 PHP CLI application library, provide console options,arguments parse, console controller/command run, color style, user interactive, format information show and more.  \u529f\u80fd\u5168\u9762\u7684PHP\u547d\u4ee4\u884c\u5e94\u7528\u5e93\u3002\u63d0\u4f9b\u63a7\u5236\u53f0\u9009\u9879\u3001\u53c2\u6570\u89e3\u6790, \u547d\u4ee4\u8fd0\u884c\uff0c\u989c\u8272\u98ce\u683c\u8f93\u51fa, \u7528\u6237\u4fe1\u606f\u4ea4\u4e92, \u7279\u6b8a\u683c\u5f0f\u4fe1\u606f\u663e\u793a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cli-flags",
+      "sense_id": "cli-flags#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cli-flags",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cli-flags",
+  "observation_id": "538a45179b36ac07",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-08T12:43:50.373126+00:00",
+  "observed_text": "cli-flags",
+  "source_context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)",
+  "source_file": null,
+  "source_repo": "inhere/php-console",
+  "source_repo_description": "\ud83d\udda5 PHP CLI application library, provide console options,arguments parse, console controller/command run, color style, user interactive, format information show and more.  \u529f\u80fd\u5168\u9762\u7684PHP\u547d\u4ee4\u884c\u5e94\u7528\u5e93\u3002\u63d0\u4f9b\u63a7\u5236\u53f0\u9009\u9879\u3001\u53c2\u6570\u89e3\u6790, \u547d\u4ee4\u8fd0\u884c\uff0c\u989c\u8272\u98ce\u683c\u8f93\u51fa, \u7528\u6237\u4fe1\u606f\u4ea4\u4e92, \u7279\u6b8a\u683c\u5f0f\u4fe1\u606f\u663e\u793a"
+}

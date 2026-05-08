@@ -1228,6 +1228,42 @@
       "source_repo": "cefsharp/CefSharp.Wpf.HwndHost",
       "status": "candidate-context",
       "text": "[![CefSharp Logo](https://github.com/cefsharp/CefSharp/raw/master/logo.png)](https://cefsharp.github.io/ \"CefSharp - Embedded Chromium for .NET\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Nsidorenco/neotest-vstest",
+      "status": "candidate-context",
+      "text": "neotest adapter for dotnet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nsidorenco/neotest-vstest",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chromelyapps/Chromely",
+      "status": "candidate-context",
+      "text": "Build Cross Platform HTML Desktop Apps on .NET using native GUI, HTML5, JavaScript, CSS, Owin, AspNetCore (MVC, RazorPages, Blazor)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chromelyapps/Chromely",
+      "status": "candidate-context",
+      "text": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ElectronNET/Electron.NET",
+      "status": "candidate-context",
+      "text": ":electron: Build cross platform desktop apps with ASP.NET Core (Razor Pages, MVC, Blazor)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElectronNET/Electron.NET",
+      "status": "candidate-context",
+      "text": "[![Electron.NET Logo](https://github.com/ElectronNET/Electron.NET/raw/main/assets/images/electron.net-logo.png)](https://github.com/ElectronNET/Electron.NET)"
     }
   ],
   "candidate_glosses": [
@@ -1842,6 +1878,24 @@
       "source_repo": "cefsharp/CefSharp.Wpf.HwndHost",
       "status": "candidate",
       "text": "[![CefSharp Logo](https://github.com/cefsharp/CefSharp/raw/master/logo.png)](https://cefsharp.github.io/ \"CefSharp - Embedded Chromium for .NET\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nsidorenco/neotest-vstest",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chromelyapps/Chromely",
+      "status": "candidate",
+      "text": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElectronNET/Electron.NET",
+      "status": "candidate",
+      "text": "[![Electron.NET Logo](https://github.com/ElectronNET/Electron.NET/raw/main/assets/images/electron.net-logo.png)](https://github.com/ElectronNET/Electron.NET)"
     }
   ],
   "candidate_related_terms": [],
@@ -3193,11 +3247,53 @@
       "observed_at": "2026-05-08T06:44:29.884715+00:00",
       "source_file": null,
       "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "Nsidorenco/neotest-vstest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-Casbin.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "chromelyapps/Chromely"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "ElectronNET/Electron.NET"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "lexical_providers": [
     "datamuse"
   ],

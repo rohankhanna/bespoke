@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-08T12:53:03.474288+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5209
+    },
+    {
+      "path": "requirements.txt",
+      "size": 74
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Video-Infinity generates long videos quickly using multiple GPUs without extra training.",
+    "fork": false,
+    "full_name": "Yuanshi9815/Video-Infinity",
+    "html_url": "https://github.com/Yuanshi9815/Video-Infinity",
+    "language": "Python",
+    "pushed_at": "2024-08-04T11:34:30Z",
+    "stargazers_count": 191,
+    "topics": [],
+    "updated_at": "2026-03-27T19:03:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

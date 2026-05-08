@@ -103,6 +103,30 @@
       "source_repo": "bdovaz/UnityNuGet",
       "status": "candidate-context",
       "text": "FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:10.0@sha256:8a90a473da5205a16979de99d2fc20975e922c68304f5c79d564e666dc3982fc AS build ARG TARGETARCH WORKDIR /app RUN mkdir -p src/UnityNuGet && \\ mkdir -p src/UnityNuGet.Server && \\ mkdir -p src/UnityNuGet.Server.Tests\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chromelyapps/Chromely",
+      "status": "candidate-context",
+      "text": "Build Cross Platform HTML Desktop Apps on .NET using native GUI, HTML5, JavaScript, CSS, Owin, AspNetCore (MVC, RazorPages, Blazor)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chromelyapps/Chromely",
+      "status": "candidate-context",
+      "text": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ElectronNET/Electron.NET",
+      "status": "candidate-context",
+      "text": ":electron: Build cross platform desktop apps with ASP.NET Core (Razor Pages, MVC, Blazor)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElectronNET/Electron.NET",
+      "status": "candidate-context",
+      "text": "[![Electron.NET Logo](https://github.com/ElectronNET/Electron.NET/raw/main/assets/images/electron.net-logo.png)](https://github.com/ElectronNET/Electron.NET)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "bdovaz/UnityNuGet",
       "status": "candidate",
       "text": "FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:10.0@sha256:8a90a473da5205a16979de99d2fc20975e922c68304f5c79d564e666dc3982fc AS build ARG TARGETARCH WORKDIR /app RUN mkdir -p src/UnityNuGet && \\ mkdir -p src/UnityNuGet.Server && \\ mkdir -p src/UnityNuGet.Server.Tests\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chromelyapps/Chromely",
+      "status": "candidate",
+      "text": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElectronNET/Electron.NET",
+      "status": "candidate",
+      "text": "[![Electron.NET Logo](https://github.com/ElectronNET/Electron.NET/raw/main/assets/images/electron.net-logo.png)](https://github.com/ElectronNET/Electron.NET)"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +244,23 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "bdovaz/UnityNuGet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "chromelyapps/Chromely"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "ElectronNET/Electron.NET"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "lexical_providers": [
     "datamuse"
   ],

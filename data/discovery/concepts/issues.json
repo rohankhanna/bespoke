@@ -388,6 +388,18 @@
       "source_repo": "yzhangcs/parser",
       "status": "candidate-context",
       "text": "issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xlite-dev/Awesome-LLM-Inference",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdaA curated list of Awesome LLM/VLM Inference Papers with Codes: Flash-Attention, Paged-Attention, WINT8/4, Parallelism, etc.\ud83c\udf89"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlite-dev/Awesome-LLM-Inference",
+      "status": "candidate-context",
+      "text": "issues"
     }
   ],
   "candidate_glosses": [
@@ -580,6 +592,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "yzhangcs/parser",
+      "status": "candidate",
+      "text": "issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlite-dev/Awesome-LLM-Inference",
       "status": "candidate",
       "text": "issues"
     }
@@ -1117,11 +1135,29 @@
       "observed_at": "2026-05-08T06:44:29.884715+00:00",
       "source_file": ".github/workflows/issue.yml",
       "source_repo": "fla-org/flash-linear-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/issue.yml",
+      "source_repo": "xlite-dev/Awesome-LLM-Inference"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "shovel-org/Windows-Sysinternals-Bucket"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/issue.yml",
+      "source_repo": "fla-org/flash-linear-attention"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "lexical_providers": [
     "datamuse"
   ],

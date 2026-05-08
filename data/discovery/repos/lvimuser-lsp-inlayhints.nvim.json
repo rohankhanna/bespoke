@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lvimuser/lsp-inlayhints.nvim",
+      "target": "simrat39/rust-tools.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lvimuser/lsp-inlayhints.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lvimuser/lsp-inlayhints.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lvimuser/lsp-inlayhints.nvim",
+      "target": "nvim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T13:46:50.041302+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6976
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "lvimuser/lsp-inlayhints.nvim",
+    "html_url": "https://github.com/lvimuser/lsp-inlayhints.nvim",
+    "language": "Lua",
+    "pushed_at": "2023-06-08T15:01:25Z",
+    "stargazers_count": 415,
+    "topics": [
+      "lsp",
+      "neovim",
+      "nvim",
+      "nvim-plugin",
+      "vim"
+    ],
+    "updated_at": "2026-04-29T08:41:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "simrat39/rust-tools.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Partial implementation of [LSP](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/) inlay hint.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Partial implementation of [LSP](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/) inlay hint.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "Partial implementation of [LSP](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/) inlay hint.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-plugin"
+    }
+  ]
+}

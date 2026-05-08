@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-08T12:52:21.877971+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5283
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Quick scripts to calculate CLIP text-image similarity",
+    "fork": true,
+    "full_name": "AniAggarwal/clip-score",
+    "html_url": "https://github.com/AniAggarwal/clip-score",
+    "language": "Python",
+    "pushed_at": "2025-07-27T04:21:30Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-07-27T04:21:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

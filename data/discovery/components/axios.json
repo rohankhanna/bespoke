@@ -1,7 +1,7 @@
 {
   "component": "axios",
   "first_seen_at": "2026-04-18T04:44:33.621188+00:00",
-  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -907,6 +907,11 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "0x4139/cosmos-discord-faucet"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "danielrosehill/Github-Gist-MCP-Minimal"
     }
   ]
 }

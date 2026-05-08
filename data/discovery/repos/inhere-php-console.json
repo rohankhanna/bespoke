@@ -1,0 +1,275 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inhere/php-console",
+      "target": "inhere/kite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inhere/php-console",
+      "target": "inhere/php-srouter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inhere/php-console",
+      "target": "php-toolkit/cli-utils",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inhere/php-console",
+      "target": "php-toolkit/pflag",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml",
+      "source_repo": "inhere/php-console",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml",
+      "source_repo": "inhere/php-console",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/php.yml",
+      "source_repo": "inhere/php-console",
+      "target": "Unit-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "inhere/php-console",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "inhere/php-console",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "inhere/php-console",
+      "target": "Tag-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/php-console",
+      "target": "cli-flags",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/php-console",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/php-console",
+      "target": "console",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/php-console",
+      "target": "console-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/php-console",
+      "target": "console-color",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/php-console",
+      "target": "interactive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/php-console",
+      "target": "phar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/php-console",
+      "target": "php-console",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T14:08:04.672877+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4580
+    },
+    {
+      "path": ".github/workflows/php.yml",
+      "size": 1964
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1306
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udda5 PHP CLI application library, provide console options,arguments parse, console controller/command run, color style, user interactive, format information show and more.  \u529f\u80fd\u5168\u9762\u7684PHP\u547d\u4ee4\u884c\u5e94\u7528\u5e93\u3002\u63d0\u4f9b\u63a7\u5236\u53f0\u9009\u9879\u3001\u53c2\u6570\u89e3\u6790, \u547d\u4ee4\u8fd0\u884c\uff0c\u989c\u8272\u98ce\u683c\u8f93\u51fa, \u7528\u6237\u4fe1\u606f\u4ea4\u4e92, \u7279\u6b8a\u683c\u5f0f\u4fe1\u606f\u663e\u793a",
+    "fork": false,
+    "full_name": "inhere/php-console",
+    "html_url": "https://github.com/inhere/php-console",
+    "language": "PHP",
+    "pushed_at": "2026-04-13T12:23:57Z",
+    "stargazers_count": 347,
+    "topics": [
+      "cli",
+      "cli-flags",
+      "command-line",
+      "console",
+      "console-application",
+      "console-color",
+      "interactive",
+      "phar",
+      "php-console"
+    ],
+    "updated_at": "2026-04-13T12:23:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "inhere/kite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "inhere/php-srouter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "php-toolkit/cli-utils",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "php-toolkit/pflag",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Unit-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/php.yml",
+      "term": "Unit-tests"
+    },
+    {
+      "context_snippet": "Tag-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Tag-release"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cli-flags"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "console"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "console-application"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "console-color"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interactive"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phar"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "php-console"
+    }
+  ]
+}

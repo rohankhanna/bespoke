@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ranger plugin that adds file glyphs / icon support to Ranger"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This plugin introduces a new linemode that prefixes file names with a file icon"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This plugin introduces a new linemode that prefixes file names with a file icon"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "file-icons",
+      "sense_id": "file-icons#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "file-icons",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "file-icons",
+  "observation_id": "d93f952eb1a52d18",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-08T12:43:50.373126+00:00",
+  "observed_text": "file-icons",
+  "source_context_snippet": "This plugin introduces a new linemode that prefixes file names with a file icon",
+  "source_file": null,
+  "source_repo": "alexanderjeurissen/ranger_devicons",
+  "source_repo_description": "Ranger plugin that adds file glyphs / icon support to Ranger"
+}

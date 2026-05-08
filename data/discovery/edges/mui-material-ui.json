@@ -501,7 +501,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "mui/material-ui",
-      "target": "pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320",
+      "target": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "target_type": "component"
     },
     {
@@ -585,7 +585,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ensure-triage-label.yml",
       "source_repo": "mui/material-ui",
-      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "target_type": "component"
     },
     {
@@ -599,7 +599,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-cleanup.yml",
       "source_repo": "mui/material-ui",
-      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "target_type": "component"
     },
     {
@@ -645,6 +645,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-08T06:44:29.884715+00:00",
+  "generated_at": "2026-05-08T12:43:50.373126+00:00",
   "source_repo": "mui/material-ui"
 }

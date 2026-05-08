@@ -19,6 +19,30 @@
       "source_repo": "dotnet-architecture/eShopOnWeb",
       "status": "candidate-context",
       "text": "> eShop sample applications have been updated and moved to https://github.com/dotnet/eShop. Active development will continue there. We also recommend the [Reliable Web App](https://learn.microsoft.com/azure/architecture/web-apps/guides/reliable-web-app/overview) patterns guidanc\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chromelyapps/Chromely",
+      "status": "candidate-context",
+      "text": "Build Cross Platform HTML Desktop Apps on .NET using native GUI, HTML5, JavaScript, CSS, Owin, AspNetCore (MVC, RazorPages, Blazor)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chromelyapps/Chromely",
+      "status": "candidate-context",
+      "text": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ElectronNET/Electron.NET",
+      "status": "candidate-context",
+      "text": ":electron: Build cross platform desktop apps with ASP.NET Core (Razor Pages, MVC, Blazor)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElectronNET/Electron.NET",
+      "status": "candidate-context",
+      "text": "[![Electron.NET Logo](https://github.com/ElectronNET/Electron.NET/raw/main/assets/images/electron.net-logo.png)](https://github.com/ElectronNET/Electron.NET)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "dotnet-architecture/eShopOnWeb",
       "status": "candidate",
       "text": "> eShop sample applications have been updated and moved to https://github.com/dotnet/eShop. Active development will continue there. We also recommend the [Reliable Web App](https://learn.microsoft.com/azure/architecture/web-apps/guides/reliable-web-app/overview) patterns guidanc\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chromelyapps/Chromely",
+      "status": "candidate",
+      "text": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElectronNET/Electron.NET",
+      "status": "candidate",
+      "text": "[![Electron.NET Logo](https://github.com/ElectronNET/Electron.NET/raw/main/assets/images/electron.net-logo.png)](https://github.com/ElectronNET/Electron.NET)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "dotnet-architecture/eShopOnWeb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "chromelyapps/Chromely"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "ElectronNET/Electron.NET"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1021,6 +1021,18 @@
       "source_repo": "chromiumembedded/cef",
       "status": "candidate-context",
       "text": "The Chromium Embedded Framework (CEF) is a simple framework for embedding Chromium-based browsers in other applications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chromiumembedded/java-cef",
+      "status": "candidate-context",
+      "text": "Java Chromium Embedded Framework (JCEF). A simple framework for embedding Chromium-based browsers in other applications using the Java programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chromiumembedded/java-cef",
+      "status": "candidate-context",
+      "text": "The Java Chromium Embedded Framework (JCEF) is a simple framework for embedding Chromium-based browsers in other applications using the Java programming language."
     }
   ],
   "candidate_glosses": [
@@ -1527,6 +1539,12 @@
       "source_repo": "chromiumembedded/cef",
       "status": "candidate",
       "text": "The Chromium Embedded Framework (CEF) is a simple framework for embedding Chromium-based browsers in other applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chromiumembedded/java-cef",
+      "status": "candidate",
+      "text": "The Java Chromium Embedded Framework (JCEF) is a simple framework for embedding Chromium-based browsers in other applications using the Java programming language."
     }
   ],
   "candidate_related_terms": [
@@ -2866,11 +2884,41 @@
       "observed_at": "2026-05-08T06:44:29.884715+00:00",
       "source_file": null,
       "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "chromiumembedded/java-cef"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "lexical_providers": [
     "datamuse"
   ],

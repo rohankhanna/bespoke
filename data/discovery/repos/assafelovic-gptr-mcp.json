@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "assafelovic/gptr-mcp",
+      "target": "deep-research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "assafelovic/gptr-mcp",
+      "target": "deepresearch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "assafelovic/gptr-mcp",
+      "target": "gpt-researcher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "assafelovic/gptr-mcp",
+      "target": "mcp-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "assafelovic/gptr-mcp",
+      "target": "websearch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T13:55:54.797474+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16863
+    },
+    {
+      "path": "Dockerfile",
+      "size": 661
+    },
+    {
+      "path": "requirements.txt",
+      "size": 247
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MCP server for enabling LLM applications to perform deep research via the MCP protocol",
+    "fork": false,
+    "full_name": "assafelovic/gptr-mcp",
+    "html_url": "https://github.com/assafelovic/gptr-mcp",
+    "language": "Python",
+    "pushed_at": "2025-11-07T07:46:52Z",
+    "stargazers_count": 345,
+    "topics": [
+      "deep-research",
+      "deepresearch",
+      "gpt-researcher",
+      "mcp",
+      "mcp-server",
+      "websearch"
+    ],
+    "updated_at": "2026-05-06T21:34:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\" id=\"top\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-research"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"top\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepresearch"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"top\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-researcher"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"top\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-server"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"top\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websearch"
+    }
+  ]
+}

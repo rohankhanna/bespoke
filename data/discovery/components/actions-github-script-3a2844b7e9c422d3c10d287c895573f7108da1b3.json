@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
   "first_seen_at": "2026-04-18T04:44:33.621188+00:00",
-  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -897,6 +897,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml",
       "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ensure-triage-label.yml",
+      "source_repo": "mui/material-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-cleanup.yml",
+      "source_repo": "mui/material-ui"
     }
   ]
 }

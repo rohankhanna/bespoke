@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-08T14:04:11.368952+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bugbounty POC by @nvk0x",
+    "fork": false,
+    "full_name": "abdeladim-s/pywhispercpp",
+    "html_url": "https://github.com/abdeladim-s/pywhispercpp",
+    "language": null,
+    "pushed_at": "2026-05-08T08:13:30Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-05-08T08:13:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

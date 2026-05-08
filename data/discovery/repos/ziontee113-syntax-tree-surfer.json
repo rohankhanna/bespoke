@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ziontee113/syntax-tree-surfer",
+      "target": "nvim-treesitter/playground",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ziontee113/syntax-tree-surfer",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ziontee113/syntax-tree-surfer",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ziontee113/syntax-tree-surfer",
+      "target": "treesitter-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T13:46:48.903974+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9430
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A plugin for Neovim that helps you surf through your document and move elements around using the nvim-treesitter API.",
+    "fork": false,
+    "full_name": "ziontee113/syntax-tree-surfer",
+    "html_url": "https://github.com/ziontee113/syntax-tree-surfer",
+    "language": "Lua",
+    "pushed_at": "2024-02-02T08:29:42Z",
+    "stargazers_count": 464,
+    "topics": [
+      "lua",
+      "neovim",
+      "nvim",
+      "treesitter-api"
+    ],
+    "updated_at": "2026-05-05T20:51:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvim-treesitter/playground",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![tree surfing cover](https://user-images.githubusercontent.com/102876811/163170119-89369c35-a061-4058-aaeb-1706ea6fa4cf.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "![tree surfing cover](https://user-images.githubusercontent.com/102876811/163170119-89369c35-a061-4058-aaeb-1706ea6fa4cf.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "![tree surfing cover](https://user-images.githubusercontent.com/102876811/163170119-89369c35-a061-4058-aaeb-1706ea6fa4cf.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "treesitter-api"
+    }
+  ]
+}

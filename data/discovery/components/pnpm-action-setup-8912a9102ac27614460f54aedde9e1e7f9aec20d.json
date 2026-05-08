@@ -1,7 +1,7 @@
 {
   "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
-  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/managed-configuration.yaml",
       "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mui/material-ui"
     }
   ]
 }

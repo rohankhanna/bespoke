@@ -43,6 +43,18 @@
       "source_repo": "seancorfield/next-jdbc",
       "status": "candidate-context",
       "text": "Release Version"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "energye/energy",
+      "status": "candidate-context",
+      "text": "Energy is a framework developed by Go language based on CEF (Chromium Embedded Framework) for developing cross-platform desktop applications for Windows, Mac OS X, and Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "energye/energy",
+      "status": "candidate-context",
+      "text": "Release Version"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "seancorfield/next-jdbc",
+      "status": "candidate",
+      "text": "Release Version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "energye/energy",
       "status": "candidate",
       "text": "Release Version"
     }
@@ -160,11 +178,23 @@
       "observed_at": "2026-05-08T00:38:13.543216+00:00",
       "source_file": ".github/workflows/test-and-release.yml",
       "source_repo": "seancorfield/honeysql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/test-and-release.yml",
+      "source_repo": "seancorfield/honeysql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/release-version.yml",
+      "source_repo": "energye/energy"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "lexical_providers": [
     "datamuse"
   ],

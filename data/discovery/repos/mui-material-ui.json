@@ -346,7 +346,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320",
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -391,12 +391,12 @@
       "source_file": ".github/workflows/create-cherry-pick-pr.yml"
     },
     {
-      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ensure-triage-label.yml"
     },
     {
-      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-cleanup.yml"
     }
@@ -903,7 +903,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "mui/material-ui",
-      "target": "pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320",
+      "target": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "target_type": "component"
     },
     {
@@ -987,7 +987,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ensure-triage-label.yml",
       "source_repo": "mui/material-ui",
-      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "target_type": "component"
     },
     {
@@ -1001,7 +1001,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-cleanup.yml",
       "source_repo": "mui/material-ui",
-      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "target_type": "component"
     },
     {
@@ -1047,7 +1047,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T06:51:35.747280+00:00",
+  "fetched_at": "2026-05-08T14:13:22.859375+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1099,8 +1099,8 @@
     "full_name": "mui/material-ui",
     "html_url": "https://github.com/mui/material-ui",
     "language": "JavaScript",
-    "pushed_at": "2026-05-08T06:35:54Z",
-    "stargazers_count": 98286,
+    "pushed_at": "2026-05-08T14:10:16Z",
+    "stargazers_count": 98290,
     "topics": [
       "design-system",
       "material-design",
@@ -1108,7 +1108,7 @@
       "react",
       "react-components"
     ],
-    "updated_at": "2026-05-08T05:47:28Z"
+    "updated_at": "2026-05-08T14:10:52Z"
   },
   "repo_links": [],
   "terms": [

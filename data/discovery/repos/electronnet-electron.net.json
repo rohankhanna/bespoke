@@ -1,0 +1,539 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build and Publish.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build and Publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR Validation.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR Validation.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "ctrf-io/github-test-reporter@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment.yml"
+    },
+    {
+      "component": "ctrf-io/github-test-reporter@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-wiki.yml"
+    },
+    {
+      "component": "softworkz/strip-markdown-extensions-from-links-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-wiki.yml"
+    },
+    {
+      "component": "Andrew-Chen-Wang/github-wiki-action@v4.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-wiki.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trailing-whitespace-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build and Publish.yml",
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build and Publish.yml",
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Build and Publish.yml",
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "Build and Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR Validation.yml",
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR Validation.yml",
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PR Validation.yml",
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "PR Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "ctrf-io/github-test-reporter@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment.yml",
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "dawidd6/action-download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment.yml",
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "ctrf-io/github-test-reporter@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-comment.yml",
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "Create PR Comments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-wiki.yml",
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-wiki.yml",
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "softworkz/strip-markdown-extensions-from-links-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-wiki.yml",
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "Andrew-Chen-Wang/github-wiki-action@v4.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-wiki.yml",
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "Publish wiki",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/retry-test-jobs.yml",
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "Tests auto-rerun",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trailing-whitespace-check.yml",
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trailing-whitespace-check.yml",
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "Whitespace Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "asp-net-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "asp-net-core-mvc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "aspnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "blazor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "blazor-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "blazor-webassembly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "dotnet-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "dotnet-standard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "dotnetcore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "electron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElectronNET/Electron.NET",
+      "target": "electron-net",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T14:13:03.390431+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8817
+    },
+    {
+      "path": ".github/workflows/Build and Publish.yml",
+      "size": 895
+    },
+    {
+      "path": ".github/workflows/PR Validation.yml",
+      "size": 729
+    },
+    {
+      "path": ".github/workflows/integration-tests.yml",
+      "size": 7859
+    },
+    {
+      "path": ".github/workflows/pr-comment.yml",
+      "size": 2233
+    },
+    {
+      "path": ".github/workflows/publish-wiki.yml",
+      "size": 1821
+    },
+    {
+      "path": ".github/workflows/retry-test-jobs.yml",
+      "size": 1529
+    },
+    {
+      "path": ".github/workflows/trailing-whitespace-check.yml",
+      "size": 2618
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ":electron: Build cross platform desktop apps with ASP.NET Core (Razor Pages, MVC, Blazor).",
+    "fork": false,
+    "full_name": "ElectronNET/Electron.NET",
+    "html_url": "https://github.com/ElectronNET/Electron.NET",
+    "language": "C#",
+    "pushed_at": "2026-04-10T03:27:14Z",
+    "stargazers_count": 7591,
+    "topics": [
+      "asp-net-core",
+      "asp-net-core-mvc",
+      "aspnet",
+      "blazor",
+      "blazor-server",
+      "blazor-webassembly",
+      "cross-platform",
+      "dotnet",
+      "dotnet-core",
+      "dotnet-standard",
+      "dotnetcore",
+      "electron",
+      "electron-net"
+    ],
+    "updated_at": "2026-05-07T20:54:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Build and Publish.yml",
+      "term": "Build and Publish"
+    },
+    {
+      "context_snippet": "PR Validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PR Validation.yml",
+      "term": "PR Validation"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Create PR Comments",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-comment.yml",
+      "term": "Create PR Comments"
+    },
+    {
+      "context_snippet": "Publish wiki",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-wiki.yml",
+      "term": "Publish wiki"
+    },
+    {
+      "context_snippet": "Tests auto-rerun",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/retry-test-jobs.yml",
+      "term": "Tests auto-rerun"
+    },
+    {
+      "context_snippet": "Whitespace Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trailing-whitespace-check.yml",
+      "term": "Whitespace Check"
+    },
+    {
+      "context_snippet": "[![Electron.NET Logo](https://github.com/ElectronNET/Electron.NET/raw/main/assets/images/electron.net-logo.png)](https://github.com/ElectronNET/Electron.NET)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asp-net-core"
+    },
+    {
+      "context_snippet": "[![Electron.NET Logo](https://github.com/ElectronNET/Electron.NET/raw/main/assets/images/electron.net-logo.png)](https://github.com/ElectronNET/Electron.NET)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asp-net-core-mvc"
+    },
+    {
+      "context_snippet": "[![Electron.NET Logo](https://github.com/ElectronNET/Electron.NET/raw/main/assets/images/electron.net-logo.png)](https://github.com/ElectronNET/Electron.NET)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aspnet"
+    },
+    {
+      "context_snippet": "[![Electron.NET Logo](https://github.com/ElectronNET/Electron.NET/raw/main/assets/images/electron.net-logo.png)](https://github.com/ElectronNET/Electron.NET)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blazor"
+    },
+    {
+      "context_snippet": "[![Electron.NET Logo](https://github.com/ElectronNET/Electron.NET/raw/main/assets/images/electron.net-logo.png)](https://github.com/ElectronNET/Electron.NET)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blazor-server"
+    },
+    {
+      "context_snippet": "[![Electron.NET Logo](https://github.com/ElectronNET/Electron.NET/raw/main/assets/images/electron.net-logo.png)](https://github.com/ElectronNET/Electron.NET)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blazor-webassembly"
+    },
+    {
+      "context_snippet": "[![Electron.NET Logo](https://github.com/ElectronNET/Electron.NET/raw/main/assets/images/electron.net-logo.png)](https://github.com/ElectronNET/Electron.NET)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "[![Electron.NET Logo](https://github.com/ElectronNET/Electron.NET/raw/main/assets/images/electron.net-logo.png)](https://github.com/ElectronNET/Electron.NET)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "[![Electron.NET Logo](https://github.com/ElectronNET/Electron.NET/raw/main/assets/images/electron.net-logo.png)](https://github.com/ElectronNET/Electron.NET)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet-core"
+    },
+    {
+      "context_snippet": "[![Electron.NET Logo](https://github.com/ElectronNET/Electron.NET/raw/main/assets/images/electron.net-logo.png)](https://github.com/ElectronNET/Electron.NET)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet-standard"
+    },
+    {
+      "context_snippet": "[![Electron.NET Logo](https://github.com/ElectronNET/Electron.NET/raw/main/assets/images/electron.net-logo.png)](https://github.com/ElectronNET/Electron.NET)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnetcore"
+    },
+    {
+      "context_snippet": "[![Electron.NET Logo](https://github.com/ElectronNET/Electron.NET/raw/main/assets/images/electron.net-logo.png)](https://github.com/ElectronNET/Electron.NET)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electron"
+    },
+    {
+      "context_snippet": "[![Electron.NET Logo](https://github.com/ElectronNET/Electron.NET/raw/main/assets/images/electron.net-logo.png)](https://github.com/ElectronNET/Electron.NET)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electron-net"
+    }
+  ]
+}

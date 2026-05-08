@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "universal-ctags/ctags-nightly-build",
+      "target": "universal-ctags/ctags-win32",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "universal-ctags/ctags-nightly-build",
+      "target": "leleliu008/ppkg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml",
+      "source_repo": "universal-ctags/ctags-nightly-build",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml",
+      "source_repo": "universal-ctags/ctags-nightly-build",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml",
+      "source_repo": "universal-ctags/ctags-nightly-build",
+      "target": "vmactions/dragonflybsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml",
+      "source_repo": "universal-ctags/ctags-nightly-build",
+      "target": "cross-platform-actions/action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml",
+      "source_repo": "universal-ctags/ctags-nightly-build",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/uctags-publish.yml",
+      "source_repo": "universal-ctags/ctags-nightly-build",
+      "target": "publish uctags",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-08T12:43:50.373126+00:00",
+  "source_repo": "universal-ctags/ctags-nightly-build"
+}

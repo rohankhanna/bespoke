@@ -1,0 +1,309 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kreativekorp/bitsnpicas",
+      "target": "kreativekorp/u8m",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kreativekorp/bitsnpicas",
+      "target": "freeyourgadget/gadgetbridge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kreativekorp/bitsnpicas",
+      "target": "bitmap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kreativekorp/bitsnpicas",
+      "target": "bitmap-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kreativekorp/bitsnpicas",
+      "target": "bitmap-fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kreativekorp/bitsnpicas",
+      "target": "cbdt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kreativekorp/bitsnpicas",
+      "target": "cblc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kreativekorp/bitsnpicas",
+      "target": "color-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kreativekorp/bitsnpicas",
+      "target": "color-fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kreativekorp/bitsnpicas",
+      "target": "conversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kreativekorp/bitsnpicas",
+      "target": "converter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kreativekorp/bitsnpicas",
+      "target": "dfont",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kreativekorp/bitsnpicas",
+      "target": "emoji",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kreativekorp/bitsnpicas",
+      "target": "emoji-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kreativekorp/bitsnpicas",
+      "target": "emoji-fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kreativekorp/bitsnpicas",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kreativekorp/bitsnpicas",
+      "target": "fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kreativekorp/bitsnpicas",
+      "target": "opentype",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kreativekorp/bitsnpicas",
+      "target": "sbix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kreativekorp/bitsnpicas",
+      "target": "truetype",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T14:06:05.836140+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15928
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bits'N'Picas - Bitmap & Emoji Font Creation & Conversion Tools",
+    "fork": false,
+    "full_name": "kreativekorp/bitsnpicas",
+    "html_url": "https://github.com/kreativekorp/bitsnpicas",
+    "language": "Java",
+    "pushed_at": "2026-04-11T10:02:19Z",
+    "stargazers_count": 432,
+    "topics": [
+      "bdf",
+      "bitmap",
+      "bitmap-font",
+      "bitmap-fonts",
+      "cbdt",
+      "cblc",
+      "color-font",
+      "color-fonts",
+      "conversion",
+      "converter",
+      "dfont",
+      "emoji",
+      "emoji-font",
+      "emoji-fonts",
+      "font",
+      "fonts",
+      "fzx",
+      "opentype",
+      "sbix",
+      "truetype"
+    ],
+    "updated_at": "2026-05-07T21:54:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "freeyourgadget/gadgetbridge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kreativekorp/u8m",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bits'N'Picas is a set of tools for creating and converting bitmap and emoji fonts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitmap"
+    },
+    {
+      "context_snippet": "Bits'N'Picas is a set of tools for creating and converting bitmap and emoji fonts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitmap-font"
+    },
+    {
+      "context_snippet": "Bits'N'Picas is a set of tools for creating and converting bitmap and emoji fonts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitmap-fonts"
+    },
+    {
+      "context_snippet": "Bits'N'Picas is a set of tools for creating and converting bitmap and emoji fonts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cbdt"
+    },
+    {
+      "context_snippet": "Bits'N'Picas is a set of tools for creating and converting bitmap and emoji fonts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cblc"
+    },
+    {
+      "context_snippet": "Bits'N'Picas is a set of tools for creating and converting bitmap and emoji fonts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-font"
+    },
+    {
+      "context_snippet": "Bits'N'Picas is a set of tools for creating and converting bitmap and emoji fonts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-fonts"
+    },
+    {
+      "context_snippet": "Bits'N'Picas is a set of tools for creating and converting bitmap and emoji fonts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conversion"
+    },
+    {
+      "context_snippet": "Bits'N'Picas is a set of tools for creating and converting bitmap and emoji fonts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "converter"
+    },
+    {
+      "context_snippet": "Bits'N'Picas is a set of tools for creating and converting bitmap and emoji fonts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dfont"
+    },
+    {
+      "context_snippet": "Bits'N'Picas is a set of tools for creating and converting bitmap and emoji fonts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emoji"
+    },
+    {
+      "context_snippet": "Bits'N'Picas is a set of tools for creating and converting bitmap and emoji fonts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emoji-font"
+    },
+    {
+      "context_snippet": "Bits'N'Picas is a set of tools for creating and converting bitmap and emoji fonts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emoji-fonts"
+    },
+    {
+      "context_snippet": "Bits'N'Picas is a set of tools for creating and converting bitmap and emoji fonts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "Bits'N'Picas is a set of tools for creating and converting bitmap and emoji fonts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fonts"
+    },
+    {
+      "context_snippet": "Bits'N'Picas is a set of tools for creating and converting bitmap and emoji fonts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentype"
+    },
+    {
+      "context_snippet": "Bits'N'Picas is a set of tools for creating and converting bitmap and emoji fonts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sbix"
+    },
+    {
+      "context_snippet": "Bits'N'Picas is a set of tools for creating and converting bitmap and emoji fonts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "truetype"
+    }
+  ]
+}

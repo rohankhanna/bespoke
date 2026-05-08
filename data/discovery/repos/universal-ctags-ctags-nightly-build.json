@@ -1,0 +1,262 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "vmactions/dragonflybsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "cross-platform-actions/action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "cross-platform-actions/action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "cross-platform-actions/action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "universal-ctags/ctags-nightly-build",
+      "target": "universal-ctags/ctags-win32",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "universal-ctags/ctags-nightly-build",
+      "target": "leleliu008/ppkg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml",
+      "source_repo": "universal-ctags/ctags-nightly-build",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml",
+      "source_repo": "universal-ctags/ctags-nightly-build",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml",
+      "source_repo": "universal-ctags/ctags-nightly-build",
+      "target": "vmactions/dragonflybsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml",
+      "source_repo": "universal-ctags/ctags-nightly-build",
+      "target": "cross-platform-actions/action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uctags-publish.yml",
+      "source_repo": "universal-ctags/ctags-nightly-build",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/uctags-publish.yml",
+      "source_repo": "universal-ctags/ctags-nightly-build",
+      "target": "publish uctags",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T14:04:14.417345+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3019
+    },
+    {
+      "path": ".github/workflows/uctags-publish.yml",
+      "size": 22254
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "build Universal Ctags every night via GitHub Actions",
+    "fork": false,
+    "full_name": "universal-ctags/ctags-nightly-build",
+    "html_url": "https://github.com/universal-ctags/ctags-nightly-build",
+    "language": null,
+    "pushed_at": "2026-05-04T16:11:28Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-05-04T16:11:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leleliu008/ppkg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "universal-ctags/ctags-win32",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "publish uctags",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/uctags-publish.yml",
+      "term": "publish uctags"
+    }
+  ]
+}

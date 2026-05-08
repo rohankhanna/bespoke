@@ -1,0 +1,181 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ctags.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ctags.yaml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ctags.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ctags.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ctags.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ctags.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ctags.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ctags.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ctags.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ctags.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-release-list.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-release-list.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ctags.yaml",
+      "source_repo": "universal-ctags/ctags-win32",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ctags.yaml",
+      "source_repo": "universal-ctags/ctags-win32",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ctags.yaml",
+      "source_repo": "universal-ctags/ctags-win32",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ctags.yaml",
+      "source_repo": "universal-ctags/ctags-win32",
+      "target": "actions/download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ctags.yaml",
+      "source_repo": "universal-ctags/ctags-win32",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ctags.yaml",
+      "source_repo": "universal-ctags/ctags-win32",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-release-list.yaml",
+      "source_repo": "universal-ctags/ctags-win32",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-release-list.yaml",
+      "source_repo": "universal-ctags/ctags-win32",
+      "target": "Update Release List",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "universal-ctags/ctags-win32",
+      "target": "ctags",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T14:04:18.577234+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3123
+    },
+    {
+      "path": ".github/workflows/build-ctags.yaml",
+      "size": 9200
+    },
+    {
+      "path": ".github/workflows/update-release-list.yaml",
+      "size": 1308
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Universal Ctags Win32 daily builds",
+    "fork": false,
+    "full_name": "universal-ctags/ctags-win32",
+    "html_url": "https://github.com/universal-ctags/ctags-win32",
+    "language": "Python",
+    "pushed_at": "2026-05-04T04:49:42Z",
+    "stargazers_count": 388,
+    "topics": [
+      "ctags"
+    ],
+    "updated_at": "2026-05-04T04:49:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ctags.yaml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Update Release List",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-release-list.yaml",
+      "term": "Update Release List"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/universal-ctags/ctags-win32/actions/workflows/build-ctags.yaml/badge.svg)](https://github.com/universal-ctags/ctags-win32/actions/workflows/build-ctags.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ctags"
+    }
+  ]
+}

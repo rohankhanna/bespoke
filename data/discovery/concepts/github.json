@@ -921,6 +921,18 @@
       "source_repo": "danielrosehill/Github-Repo-Org-Question",
       "status": "candidate-context",
       "text": "[![Claude Code Projects Index](https://img.shields.io/badge/Claude%20Code-Projects%20Index-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Repos-Index)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Github-Gist-MCP-Minimal",
+      "status": "candidate-context",
+      "text": "Fork of Gistpad MCP focused on minimising tool definitions for those who want an MCP for basic Gist operations (approximately CRUD)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Github-Gist-MCP-Minimal",
+      "status": "candidate-context",
+      "text": "A minimal MCP server for creating and managing GitHub Gists. Provides just 4 essential tools to keep context usage low."
     }
   ],
   "candidate_glosses": [
@@ -1379,6 +1391,12 @@
       "source_repo": "danielrosehill/Github-Repo-Org-Question",
       "status": "candidate",
       "text": "[![Claude Code Projects Index](https://img.shields.io/badge/Claude%20Code-Projects%20Index-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Repos-Index)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Github-Gist-MCP-Minimal",
+      "status": "candidate",
+      "text": "A minimal MCP server for creating and managing GitHub Gists. Provides just 4 essential tools to keep context usage low."
     }
   ],
   "candidate_related_terms": [
@@ -2328,11 +2346,35 @@
       "observed_at": "2026-05-08T00:38:13.543216+00:00",
       "source_file": null,
       "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "remotion-dev/github-unwrapped"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Github-Gist-MCP-Minimal"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "lexical_providers": [
     "datamuse"
   ],

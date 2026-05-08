@@ -4854,6 +4854,9 @@
   "asp-net-core-mvc": [
     "asp-net-core-mvc"
   ],
+  "asp-net-core-razor-pages": [
+    "asp-net-core-razor-pages"
+  ],
   "asp-net-core-web-api": [
     "asp-net-core-web-api"
   ],
@@ -6800,6 +6803,9 @@
   ],
   "awesome-lists": [
     "awesome-lists"
+  ],
+  "awesome-llm": [
+    "awesome-llm"
   ],
   "awesome-polyp-segmentation": [
     "awesome-polyp-segmentation"
@@ -15479,6 +15485,9 @@
   "cbc-mac": [
     "cbc-mac"
   ],
+  "cbdt": [
+    "cbdt"
+  ],
   "cbfmt check": [
     "cbfmt-check"
   ],
@@ -15487,6 +15496,9 @@
   ],
   "cbindgen": [
     "cbindgen"
+  ],
+  "cblc": [
+    "cblc"
   ],
   "cbmc": [
     "cbmc"
@@ -15604,6 +15616,9 @@
   ],
   "ceed": [
     "ceed"
+  ],
+  "cefglue": [
+    "cefglue"
   ],
   "cefpython": [
     "cefpython"
@@ -20087,6 +20102,9 @@
   "cli-error-notifier": [
     "cli-error-notifier"
   ],
+  "cli-flags": [
+    "cli-flags"
+  ],
   "cli-framework": [
     "cli-framework"
   ],
@@ -22087,6 +22105,12 @@
   ],
   "color-enhancement": [
     "color-enhancement"
+  ],
+  "color-font": [
+    "color-font"
+  ],
+  "color-fonts": [
+    "color-fonts"
   ],
   "color-histogram": [
     "color-histogram"
@@ -25147,6 +25171,9 @@
   ],
   "create permanent reference": [
     "create-permanent-reference"
+  ],
+  "create pr comments": [
+    "create-pr-comments"
   ],
   "create pr for meeting notes": [
     "create-pr-for-meeting-notes"
@@ -29903,6 +29930,9 @@
   "dfdnet": [
     "dfdnet"
   ],
+  "dfont": [
+    "dfont"
+  ],
   "dfsmn": [
     "dfsmn"
   ],
@@ -33921,6 +33951,12 @@
   "emoji helper": [
     "emoji-helper"
   ],
+  "emoji-font": [
+    "emoji-font"
+  ],
+  "emoji-fonts": [
+    "emoji-fonts"
+  ],
   "emoji-picker": [
     "emoji-picker"
   ],
@@ -36403,6 +36439,9 @@
   "file-formats": [
     "file-formats"
   ],
+  "file-icons": [
+    "file-icons"
+  ],
   "file-launcher": [
     "file-launcher"
   ],
@@ -37129,11 +37168,17 @@
   "flash-attention": [
     "flash-attention"
   ],
+  "flash-attention-3": [
+    "flash-attention-3"
+  ],
   "flash-linear-attention": [
     "flash-linear-attention"
   ],
   "flash-messages": [
     "flash-messages"
+  ],
+  "flash-mla": [
+    "flash-mla"
   ],
   "flashbots": [
     "flashbots"
@@ -41016,6 +41061,9 @@
   "gobgp": [
     "gobgp"
   ],
+  "gocef": [
+    "gocef"
+  ],
   "goconfig": [
     "goconfig"
   ],
@@ -41082,6 +41130,9 @@
   "golang-bindings": [
     "golang-bindings"
   ],
+  "golang-chromium": [
+    "golang-chromium"
+  ],
   "golang-cli": [
     "golang-cli"
   ],
@@ -41123,6 +41174,9 @@
   ],
   "golangci-lint": [
     "golangci-lint"
+  ],
+  "golangui": [
+    "golangui"
   ],
   "golden": [
     "golden"
@@ -41567,6 +41621,9 @@
   ],
   "gpt-q": [
     "gpt-q"
+  ],
+  "gpt-researcher": [
+    "gpt-researcher"
   ],
   "gpt-sovits": [
     "gpt-sovits"
@@ -46271,6 +46328,9 @@
   ],
   "install tests": [
     "install-tests"
+  ],
+  "installable": [
+    "installable"
   ],
   "installation": [
     "installation"
@@ -53834,6 +53894,9 @@
   "macos-commands": [
     "macos-commands"
   ],
+  "macos-desktop": [
+    "macos-desktop"
+  ],
   "macos-high-sierra": [
     "macos-high-sierra"
   ],
@@ -56372,6 +56435,9 @@
   ],
   "minimax": [
     "minimax"
+  ],
+  "minimax-01": [
+    "minimax-01"
   ],
   "minimax-text-01": [
     "minimax-text-01"
@@ -59110,6 +59176,9 @@
   "neotest-gtest ci": [
     "neotest-gtest-ci"
   ],
+  "neotest-vstest": [
+    "neotest-vstest"
+  ],
   "neovim": [
     "neovim"
   ],
@@ -61308,6 +61377,9 @@
   "nyushu": [
     "nyushu"
   ],
+  "o3-mini": [
+    "o3-mini"
+  ],
   "oasv3": [
     "oasv3"
   ],
@@ -63411,6 +63483,9 @@
   "owen": [
     "owen"
   ],
+  "owin": [
+    "owin"
+  ],
   "owl-rl": [
     "owl-rl"
   ],
@@ -63752,6 +63827,9 @@
   ],
   "pagebuilder": [
     "pagebuilder"
+  ],
+  "paged-attention": [
+    "paged-attention"
   ],
   "paged-media": [
     "paged-media"
@@ -69776,6 +69854,9 @@
   ],
   "publish typst package": [
     "publish-typst-package"
+  ],
+  "publish uctags": [
+    "publish-uctags"
   ],
   "publish ui docker image": [
     "publish-ui-docker-image"
@@ -77799,6 +77880,9 @@
   "sbert": [
     "sbert"
   ],
+  "sbix": [
+    "sbix"
+  ],
   "sbom": [
     "sbom"
   ],
@@ -85790,6 +85874,9 @@
   "tensorrt-inference": [
     "tensorrt-inference"
   ],
+  "tensorrt-llm": [
+    "tensorrt-llm"
+  ],
   "tensors": [
     "tensors"
   ],
@@ -87574,6 +87661,9 @@
   ],
   "tests and linters": [
     "tests-and-linters"
+  ],
+  "tests auto-rerun": [
+    "tests-auto-rerun"
   ],
   "tests browser extension": [
     "tests-browser-extension"
@@ -89442,6 +89532,9 @@
   ],
   "treesitter": [
     "treesitter"
+  ],
+  "treesitter-api": [
+    "treesitter-api"
   ],
   "treeview": [
     "treeview"
@@ -96110,6 +96203,9 @@
   "webscraping": [
     "webscraping"
   ],
+  "websearch": [
+    "websearch"
+  ],
   "websemantics": [
     "websemantics"
   ],
@@ -96549,6 +96645,9 @@
   "whitespace": [
     "whitespace"
   ],
+  "whitespace check": [
+    "whitespace-check"
+  ],
   "who": [
     "en-interrogative-who",
     "en-pronoun-who"
@@ -96710,6 +96809,9 @@
   ],
   "win64": [
     "win64"
+  ],
+  "winapi": [
+    "winapi"
   ],
   "winappsdk": [
     "winappsdk"
@@ -96896,6 +96998,9 @@
   ],
   "windows-console": [
     "windows-console"
+  ],
+  "windows-desktop": [
+    "windows-desktop"
   ],
   "windows-explorer": [
     "windows-explorer"

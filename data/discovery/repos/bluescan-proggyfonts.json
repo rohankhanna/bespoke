@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-08T14:06:05.191615+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5931
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Monospaced fonts for programming.",
+    "fork": false,
+    "full_name": "bluescan/proggyfonts",
+    "html_url": "https://github.com/bluescan/proggyfonts",
+    "language": null,
+    "pushed_at": "2026-02-10T09:17:06Z",
+    "stargazers_count": 879,
+    "topics": [],
+    "updated_at": "2026-05-08T13:56:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

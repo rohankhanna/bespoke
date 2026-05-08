@@ -226,6 +226,18 @@
       "source_repo": "inhere/php-sroute",
       "status": "candidate-context",
       "text": "Tag-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inhere/php-console",
+      "status": "candidate-context",
+      "text": "\ud83d\udda5 PHP CLI application library, provide console options,arguments parse, console controller/command run, color style, user interactive, format information show and more.  \u529f\u80fd\u5168\u9762\u7684PHP\u547d\u4ee4\u884c\u5e94\u7528\u5e93\u3002\u63d0\u4f9b\u63a7\u5236\u53f0\u9009\u9879\u3001\u53c2\u6570\u89e3\u6790, \u547d\u4ee4\u8fd0\u884c\uff0c\u989c\u8272\u98ce\u683c\u8f93\u51fa, \u7528\u6237\u4fe1\u606f\u4ea4\u4e92, \u7279\u6b8a\u683c\u5f0f\u4fe1\u606f\u663e\u793a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inhere/php-console",
+      "status": "candidate-context",
+      "text": "Tag-release"
     }
   ],
   "candidate_glosses": [
@@ -334,6 +346,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "inhere/php-sroute",
+      "status": "candidate",
+      "text": "Tag-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inhere/php-console",
       "status": "candidate",
       "text": "Tag-release"
     }
@@ -487,11 +505,17 @@
       "observed_at": "2026-05-08T06:44:29.884715+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "inhere/php-sroute"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "inhere/php-console"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "lexical_providers": [
     "datamuse"
   ],

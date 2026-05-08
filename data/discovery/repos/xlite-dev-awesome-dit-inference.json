@@ -5,21 +5,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "xlite-dev/Awesome-DiT-Inference",
-      "target": "xlite-dev/awesome-llm-inference",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "xlite-dev/Awesome-DiT-Inference",
       "target": "liewfeng/teacache",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "xlite-dev/Awesome-DiT-Inference",
-      "target": "yuanshi9815/video-infinity",
       "target_type": "repository"
     },
     {
@@ -100,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T02:01:08.951552+00:00",
+  "fetched_at": "2026-05-08T12:53:05.117593+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -143,16 +129,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "mit-han-lab/nunchaku",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "xlite-dev/awesome-llm-inference",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "yuanshi9815/video-infinity",
       "source_file": "README.md"
     }
   ],

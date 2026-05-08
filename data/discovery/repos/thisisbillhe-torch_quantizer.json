@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ThisisBillhe/torch_quantizer",
+      "target": "ist-daslab/quik",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-08T12:52:23.776058+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3572
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "torch_quantizer is a out-of-box quantization tool for PyTorch models on CUDA backend, specially optimized for Diffusion Models.",
+    "fork": false,
+    "full_name": "ThisisBillhe/torch_quantizer",
+    "html_url": "https://github.com/ThisisBillhe/torch_quantizer",
+    "language": "C++",
+    "pushed_at": "2024-03-29T08:49:48Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2026-03-13T06:19:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ist-daslab/quik",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

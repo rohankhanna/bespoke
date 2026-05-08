@@ -93,7 +93,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T02:46:48.133987+00:00",
+  "fetched_at": "2026-05-08T13:10:47.648257+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -117,12 +117,12 @@
     "full_name": "pivotal/credhub-release",
     "html_url": "https://github.com/pivotal/credhub-release",
     "language": "Ruby",
-    "pushed_at": "2026-05-07T22:48:23Z",
+    "pushed_at": "2026-05-08T02:54:33Z",
     "stargazers_count": 37,
     "topics": [
       "credhub"
     ],
-    "updated_at": "2026-05-07T22:48:27Z"
+    "updated_at": "2026-05-08T02:54:37Z"
   },
   "repo_links": [
     {

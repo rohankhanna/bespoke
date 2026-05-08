@@ -127,6 +127,18 @@
       "source_repo": "aymenfurter/smartrag",
       "status": "candidate-context",
       "text": "<div id=\"top\"></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "assafelovic/gptr-mcp",
+      "status": "candidate-context",
+      "text": "MCP server for enabling LLM applications to perform deep research via the MCP protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "assafelovic/gptr-mcp",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" id=\"top\">"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "aymenfurter/smartrag",
       "status": "candidate",
       "text": "<div id=\"top\"></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "assafelovic/gptr-mcp",
+      "status": "candidate",
+      "text": "<div align=\"center\" id=\"top\">"
     }
   ],
   "candidate_related_terms": [],
@@ -538,11 +556,29 @@
       "observed_at": "2026-05-08T06:44:29.884715+00:00",
       "source_file": null,
       "source_repo": "Alibaba-NLP/DeepResearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "assafelovic/gptr-mcp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/ms-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "Alibaba-NLP/DeepResearch"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "lexical_providers": [
     "datamuse"
   ],

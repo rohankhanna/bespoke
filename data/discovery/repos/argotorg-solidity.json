@@ -152,7 +152,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T02:49:30.613164+00:00",
+  "fetched_at": "2026-05-08T13:47:06.460227+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -184,8 +184,8 @@
     "full_name": "argotorg/solidity",
     "html_url": "https://github.com/argotorg/solidity",
     "language": "C++",
-    "pushed_at": "2026-05-07T20:54:31Z",
-    "stargazers_count": 25625,
+    "pushed_at": "2026-05-08T12:17:45Z",
+    "stargazers_count": 25626,
     "topics": [
       "blockchain",
       "cpp",
@@ -196,7 +196,7 @@
       "smartcontracts",
       "solidity"
     ],
-    "updated_at": "2026-05-07T21:43:59Z"
+    "updated_at": "2026-05-08T13:19:57Z"
   },
   "repo_links": [],
   "terms": [

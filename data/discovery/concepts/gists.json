@@ -13,6 +13,18 @@
       "source_repo": "danielrosehill/Claude-Gist-Writer-Plugin",
       "status": "candidate-context",
       "text": "Publish content to GitHub gists with clear AI authorship and a PII pre-flight scrub for public publishes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Github-Gist-MCP-Minimal",
+      "status": "candidate-context",
+      "text": "Fork of Gistpad MCP focused on minimising tool definitions for those who want an MCP for basic Gist operations (approximately CRUD)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Github-Gist-MCP-Minimal",
+      "status": "candidate-context",
+      "text": "A minimal MCP server for creating and managing GitHub Gists. Provides just 4 essential tools to keep context usage low."
     }
   ],
   "candidate_glosses": [
@@ -21,6 +33,12 @@
       "source_repo": "danielrosehill/Claude-Gist-Writer-Plugin",
       "status": "candidate",
       "text": "Publish content to GitHub gists with clear AI authorship and a PII pre-flight scrub for public publishes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Github-Gist-MCP-Minimal",
+      "status": "candidate",
+      "text": "A minimal MCP server for creating and managing GitHub Gists. Provides just 4 essential tools to keep context usage low."
     }
   ],
   "candidate_related_terms": [
@@ -70,11 +88,17 @@
       "observed_at": "2026-05-08T00:38:13.543216+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/Claude-Gist-Writer-Plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Github-Gist-MCP-Minimal"
     }
   ],
   "first_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -247,6 +247,18 @@
       "source_repo": "vuejs/vetur",
       "status": "candidate-context",
       "text": "Automatic Rebase"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gosimple/unidecode",
+      "status": "candidate-context",
+      "text": "Unicode transliterator in Golang - Replaces non-ASCII characters with their ASCII approximations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gosimple/unidecode",
+      "status": "candidate-context",
+      "text": "Automatic Rebase"
     }
   ],
   "candidate_glosses": [
@@ -367,6 +379,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "vuejs/vetur",
+      "status": "candidate",
+      "text": "Automatic Rebase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gosimple/unidecode",
       "status": "candidate",
       "text": "Automatic Rebase"
     }
@@ -1060,11 +1078,29 @@
       "observed_at": "2026-05-08T06:44:29.884715+00:00",
       "source_file": ".github/workflows/rebase.yml",
       "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "tape-testing/tape"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "gosimple/unidecode"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "lexical_providers": [
     "datamuse"
   ],

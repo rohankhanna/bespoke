@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "sbix"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kreativekorp/bitsnpicas",
+      "status": "candidate-context",
+      "text": "Bits'N'Picas - Bitmap & Emoji Font Creation & Conversion Tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kreativekorp/bitsnpicas",
+      "status": "candidate-context",
+      "text": "Bits'N'Picas is a set of tools for creating and converting bitmap and emoji fonts."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kreativekorp/bitsnpicas",
+      "status": "candidate",
+      "text": "Bits'N'Picas is a set of tools for creating and converting bitmap and emoji fonts."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "sbix",
+  "concept_id": "sbix",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T12:43:50.373126+00:00",
+      "source_file": null,
+      "source_repo": "kreativekorp/bitsnpicas"
+    }
+  ],
+  "first_seen_at": "2026-05-08T12:43:50.373126+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sbix",
+      "sense_id": "sbix#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

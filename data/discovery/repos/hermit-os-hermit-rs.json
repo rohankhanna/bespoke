@@ -205,7 +205,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T02:46:31.369670+00:00",
+  "fetched_at": "2026-05-08T13:10:25.554983+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -213,7 +213,7 @@
     },
     {
       "path": "Cargo.toml",
-      "size": 975
+      "size": 1027
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -233,7 +233,7 @@
     "full_name": "hermit-os/hermit-rs",
     "html_url": "https://github.com/hermit-os/hermit-rs",
     "language": "Rust",
-    "pushed_at": "2026-05-07T21:45:53Z",
+    "pushed_at": "2026-05-08T10:48:26Z",
     "stargazers_count": 1914,
     "topics": [
       "cloud-computing",
@@ -246,7 +246,7 @@
       "unikernel",
       "virtualization"
     ],
-    "updated_at": "2026-05-07T21:45:56Z"
+    "updated_at": "2026-05-08T10:48:30Z"
   },
   "repo_links": [],
   "terms": [

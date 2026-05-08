@@ -1,0 +1,367 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chromelyapps/Chromely",
+      "target": "edgesharp/edgesharp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chromelyapps/Chromely",
+      "target": "electronnet/electron.net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chromelyapps/Chromely",
+      "target": "chromelyapps/demo-projects",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chromelyapps/Chromely",
+      "target": "amaitland/chromium.aspnetcore.bridge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "source_repo": "chromelyapps/Chromely",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "source_repo": "chromelyapps/Chromely",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromelyapps/Chromely",
+      "target": "angular",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromelyapps/Chromely",
+      "target": "asp-net-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromelyapps/Chromely",
+      "target": "asp-net-core-mvc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromelyapps/Chromely",
+      "target": "asp-net-core-razor-pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromelyapps/Chromely",
+      "target": "blazor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromelyapps/Chromely",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromelyapps/Chromely",
+      "target": "c-sharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromelyapps/Chromely",
+      "target": "cefglue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromelyapps/Chromely",
+      "target": "cefsharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromelyapps/Chromely",
+      "target": "chromium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromelyapps/Chromely",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromelyapps/Chromely",
+      "target": "desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromelyapps/Chromely",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromelyapps/Chromely",
+      "target": "electron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromelyapps/Chromely",
+      "target": "html5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromelyapps/Chromely",
+      "target": "owin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromelyapps/Chromely",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromelyapps/Chromely",
+      "target": "winapi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T14:12:57.322476+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6055
+    },
+    {
+      "path": ".github/workflows/dotnetcore.yml",
+      "size": 519
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Build Cross Platform HTML Desktop Apps on .NET using native GUI, HTML5, JavaScript, CSS, Owin, AspNetCore (MVC, RazorPages, Blazor)",
+    "fork": false,
+    "full_name": "chromelyapps/Chromely",
+    "html_url": "https://github.com/chromelyapps/Chromely",
+    "language": "C#",
+    "pushed_at": "2023-01-15T23:12:16Z",
+    "stargazers_count": 2972,
+    "topics": [
+      "angular",
+      "asp-net-core",
+      "asp-net-core-mvc",
+      "asp-net-core-razor-pages",
+      "blazor",
+      "browser",
+      "c-sharp",
+      "cef",
+      "cefglue",
+      "cefsharp",
+      "chromium",
+      "cross-platform",
+      "desktop",
+      "dotnet",
+      "electron",
+      "html5",
+      "owin",
+      "react",
+      "vue",
+      "winapi"
+    ],
+    "updated_at": "2026-04-29T02:08:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amaitland/chromium.aspnetcore.bridge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chromelyapps/demo-projects",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edgesharp/edgesharp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "electronnet/electron.net",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "angular"
+    },
+    {
+      "context_snippet": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asp-net-core"
+    },
+    {
+      "context_snippet": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asp-net-core-mvc"
+    },
+    {
+      "context_snippet": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asp-net-core-razor-pages"
+    },
+    {
+      "context_snippet": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blazor"
+    },
+    {
+      "context_snippet": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-sharp"
+    },
+    {
+      "context_snippet": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cefglue"
+    },
+    {
+      "context_snippet": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cefsharp"
+    },
+    {
+      "context_snippet": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromium"
+    },
+    {
+      "context_snippet": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop"
+    },
+    {
+      "context_snippet": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electron"
+    },
+    {
+      "context_snippet": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html5"
+    },
+    {
+      "context_snippet": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "owin"
+    },
+    {
+      "context_snippet": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winapi"
+    }
+  ]
+}
