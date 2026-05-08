@@ -73,6 +73,18 @@
       "source_repo": "kkharji/sqlite.lua",
       "status": "candidate-context",
       "text": "Linting and style checking"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-treesitter/playground",
+      "status": "candidate-context",
+      "text": "Treesitter playground integrated into Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-treesitter/playground",
+      "status": "candidate-context",
+      "text": "Linting and style checking"
     }
   ],
   "candidate_glosses": [
@@ -109,6 +121,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "kkharji/sqlite.lua",
+      "status": "candidate",
+      "text": "Linting and style checking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-treesitter/playground",
       "status": "candidate",
       "text": "Linting and style checking"
     }
@@ -340,11 +358,23 @@
       "observed_at": "2026-05-08T12:43:50.373126+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "andymass/vim-matchup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T18:37:42.068971+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "andymass/vim-matchup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T18:37:42.068971+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nvim-treesitter/playground"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
+  "last_seen_at": "2026-05-08T18:37:42.068971+00:00",
   "lexical_providers": [
     "datamuse"
   ],

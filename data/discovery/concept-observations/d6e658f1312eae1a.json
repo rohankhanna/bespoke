@@ -84,7 +84,7 @@
   "normalized_form": "supergraph-build-webhook",
   "observation_id": "d6e658f1312eae1a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-08T12:43:50.373126+00:00",
+  "observed_at": "2026-05-08T18:37:42.068971+00:00",
   "observed_text": "Supergraph Build Webhook",
   "source_context_snippet": "Supergraph Build Webhook",
   "source_file": ".github/workflows/supergraph-build-webhook.yml",

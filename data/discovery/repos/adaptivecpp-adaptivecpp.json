@@ -459,7 +459,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T12:45:01.000948+00:00",
+  "fetched_at": "2026-05-08T18:54:03.959130+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -512,7 +512,7 @@
     "html_url": "https://github.com/AdaptiveCpp/AdaptiveCpp",
     "language": "C++",
     "pushed_at": "2026-05-03T07:34:16Z",
-    "stargazers_count": 1843,
+    "stargazers_count": 1844,
     "topics": [
       "adaptivecpp",
       "compiler",
@@ -526,7 +526,7 @@
       "stdpar",
       "sycl"
     ],
-    "updated_at": "2026-05-08T10:32:09Z"
+    "updated_at": "2026-05-08T13:35:15Z"
   },
   "repo_links": [
     {

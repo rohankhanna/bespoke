@@ -841,6 +841,18 @@
       "source_repo": "KittyKatt/screenFetch",
       "status": "candidate-context",
       "text": "Fetches system/theme information in terminal for Linux desktop screenshots."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "djcopley/ShellOracle",
+      "status": "candidate-context",
+      "text": "A terminal utility for intelligent shell command generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djcopley/ShellOracle",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1257,6 +1269,12 @@
       "source_repo": "KittyKatt/screenFetch",
       "status": "candidate",
       "text": "Fetches system/theme information in terminal for Linux desktop screenshots."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djcopley/ShellOracle",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -2404,11 +2422,41 @@
       "observed_at": "2026-05-08T12:43:50.373126+00:00",
       "source_file": null,
       "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T18:37:42.068971+00:00",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T18:37:42.068971+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T18:37:42.068971+00:00",
+      "source_file": null,
+      "source_repo": "djcopley/ShellOracle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T18:37:42.068971+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T18:37:42.068971+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
+  "last_seen_at": "2026-05-08T18:37:42.068971+00:00",
   "lexical_providers": [
     "datamuse"
   ],

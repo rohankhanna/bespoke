@@ -452,7 +452,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T12:50:41.445878+00:00",
+  "fetched_at": "2026-05-08T18:59:11.093981+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -504,8 +504,8 @@
     "full_name": "HumanSignal/label-studio",
     "html_url": "https://github.com/HumanSignal/label-studio",
     "language": "TypeScript",
-    "pushed_at": "2026-05-08T10:35:11Z",
-    "stargazers_count": 27237,
+    "pushed_at": "2026-05-08T13:12:31Z",
+    "stargazers_count": 27239,
     "topics": [
       "annotation",
       "annotation-tool",
@@ -528,7 +528,7 @@
       "text-annotation",
       "yolo"
     ],
-    "updated_at": "2026-05-08T10:35:08Z"
+    "updated_at": "2026-05-08T15:58:35Z"
   },
   "repo_links": [],
   "terms": [

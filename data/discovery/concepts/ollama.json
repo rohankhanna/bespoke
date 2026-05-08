@@ -451,6 +451,18 @@
       "source_repo": "dezoito/ollama-grid-search",
       "status": "candidate-context",
       "text": "This project automates the process of selecting the best models, prompts, or inference parameters for a given use-case, allowing you to iterate over their combinations and to visually inspect the results."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "djcopley/ShellOracle",
+      "status": "candidate-context",
+      "text": "A terminal utility for intelligent shell command generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djcopley/ShellOracle",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -675,6 +687,12 @@
       "source_repo": "dezoito/ollama-grid-search",
       "status": "candidate",
       "text": "This project automates the process of selecting the best models, prompts, or inference parameters for a given use-case, allowing you to iterate over their combinations and to visually inspect the results."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djcopley/ShellOracle",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1810,11 +1828,47 @@
       "observed_at": "2026-05-08T12:43:50.373126+00:00",
       "source_file": null,
       "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T18:37:42.068971+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T18:37:42.068971+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T18:37:42.068971+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T18:37:42.068971+00:00",
+      "source_file": null,
+      "source_repo": "chatboxai/chatbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T18:37:42.068971+00:00",
+      "source_file": null,
+      "source_repo": "djcopley/ShellOracle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T18:37:42.068971+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
+  "last_seen_at": "2026-05-08T18:37:42.068971+00:00",
   "lexical_providers": [
     "datamuse"
   ],

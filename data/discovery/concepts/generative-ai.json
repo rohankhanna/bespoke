@@ -595,6 +595,18 @@
       "source_repo": "aws-samples/sample-bedrock-deep-researcher",
       "status": "candidate-context",
       "text": "Bedrock Deep Research is a Streamlit-based application using Amazon Bedrock, LangGraph, and LangChain AWS libraries that automates article/report generation through AI-powered research, content writing, and image generation. It combines web research, structured content generatio\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AIoT-MLSys-Lab/Efficient-LLMs-Survey",
+      "status": "candidate-context",
+      "text": "[TMLR 2024] Efficient Large Language Models: A Survey"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AIoT-MLSys-Lab/Efficient-LLMs-Survey",
+      "status": "candidate-context",
+      "text": "> **[Efficient Large Language Models: A Survey](http://arxiv.org/abs/2312.03863)**[ [arXiv]](http://arxiv.org/abs/2312.03863) (Version 1: 12/06/2023; Version 2: 12/23/2023; Version 3: 01/31/2024; Version 4: 05/23/2024, camera ready version of Transactions on Machine Learning Res\u2026"
     }
   ],
   "candidate_glosses": [
@@ -891,6 +903,12 @@
       "source_repo": "aws-samples/sample-bedrock-deep-researcher",
       "status": "candidate",
       "text": "Bedrock Deep Research is a Streamlit-based application using Amazon Bedrock, LangGraph, and LangChain AWS libraries that automates article/report generation through AI-powered research, content writing, and image generation. It combines web research, structured content generatio\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AIoT-MLSys-Lab/Efficient-LLMs-Survey",
+      "status": "candidate",
+      "text": "> **[Efficient Large Language Models: A Survey](http://arxiv.org/abs/2312.03863)**[ [arXiv]](http://arxiv.org/abs/2312.03863) (Version 1: 12/06/2023; Version 2: 12/23/2023; Version 3: 01/31/2024; Version 4: 05/23/2024, camera ready version of Transactions on Machine Learning Res\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -1960,11 +1978,35 @@
       "observed_at": "2026-05-08T12:43:50.373126+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T18:37:42.068971+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T18:37:42.068971+00:00",
+      "source_file": null,
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T18:37:42.068971+00:00",
+      "source_file": null,
+      "source_repo": "AIoT-MLSys-Lab/Efficient-LLMs-Survey"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T18:37:42.068971+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
+  "last_seen_at": "2026-05-08T18:37:42.068971+00:00",
   "lexical_providers": [
     "datamuse"
   ],

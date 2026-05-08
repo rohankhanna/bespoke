@@ -61,6 +61,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvim-neotest/neotest",
+      "target": "nvim-neotest/neotest-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-neotest/neotest",
       "target": "akinsho/neotest-go",
       "target_type": "repository"
     },
@@ -69,13 +76,6 @@
       "source_file": "README.md",
       "source_repo": "nvim-neotest/neotest",
       "target": "haydenmeade/neotest-jest",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nvim-neotest/neotest",
-      "target": "nsidorenco/neotest-vstest",
       "target_type": "repository"
     },
     {
@@ -170,7 +170,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T02:48:56.765093+00:00",
+  "fetched_at": "2026-05-08T20:00:21.116338+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -204,7 +204,7 @@
       "lua",
       "neovim"
     ],
-    "updated_at": "2026-05-06T22:46:36Z"
+    "updated_at": "2026-05-08T14:53:23Z"
   },
   "repo_links": [
     {
@@ -224,7 +224,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "nsidorenco/neotest-vstest",
+      "full_name": "nvim-neotest/neotest-python",
       "source_file": "README.md"
     }
   ],

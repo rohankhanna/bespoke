@@ -67,6 +67,18 @@
       "source_repo": "streetcomplete/StreetComplete",
       "status": "candidate-context",
       "text": "![StreetComplete](.github/images/feature_graphic.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AIoT-MLSys-Lab/Efficient-LLMs-Survey",
+      "status": "candidate-context",
+      "text": "[TMLR 2024] Efficient Large Language Models: A Survey"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AIoT-MLSys-Lab/Efficient-LLMs-Survey",
+      "status": "candidate-context",
+      "text": "> **[Efficient Large Language Models: A Survey](http://arxiv.org/abs/2312.03863)**[ [arXiv]](http://arxiv.org/abs/2312.03863) (Version 1: 12/06/2023; Version 2: 12/23/2023; Version 3: 01/31/2024; Version 4: 05/23/2024, camera ready version of Transactions on Machine Learning Res\u2026"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "streetcomplete/StreetComplete",
       "status": "candidate",
       "text": "![StreetComplete](.github/images/feature_graphic.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AIoT-MLSys-Lab/Efficient-LLMs-Survey",
+      "status": "candidate",
+      "text": "> **[Efficient Large Language Models: A Survey](http://arxiv.org/abs/2312.03863)**[ [arXiv]](http://arxiv.org/abs/2312.03863) (Version 1: 12/06/2023; Version 2: 12/23/2023; Version 3: 01/31/2024; Version 4: 05/23/2024, camera ready version of Transactions on Machine Learning Res\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -214,11 +232,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "streetcomplete/StreetComplete"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T18:37:42.068971+00:00",
+      "source_file": null,
+      "source_repo": "AIoT-MLSys-Lab/Efficient-LLMs-Survey"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-08T18:37:42.068971+00:00",
   "lexical_providers": [
     "datamuse"
   ],

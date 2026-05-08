@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
+  "last_seen_at": "2026-05-08T18:37:42.068971+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -4001,6 +4001,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "Seldaek/monolog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-treesitter/playground"
     }
   ],
   "term": "hacktoberfest"

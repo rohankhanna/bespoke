@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Treesitter playground integrated into Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "View treesitter information directly in Neovim!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "View treesitter information directly in Neovim!"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tree-sitter",
+      "sense_id": "tree-sitter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tree-sitter",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tree-sitter",
+  "observation_id": "adeeb461afe47e0e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-08T18:37:42.068971+00:00",
+  "observed_text": "tree-sitter",
+  "source_context_snippet": "View treesitter information directly in Neovim!",
+  "source_file": null,
+  "source_repo": "nvim-treesitter/playground",
+  "source_repo_description": "Treesitter playground integrated into Neovim"
+}

@@ -19,6 +19,18 @@
       "source_repo": "mrcjkb/rustaceanvim",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simrat39/rust-tools.nvim",
+      "status": "candidate-context",
+      "text": "Tools for better development in rust using neovim's builtin lsp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simrat39/rust-tools.nvim",
+      "status": "candidate-context",
+      "text": "> [!NOTE]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "mrcjkb/rustaceanvim",
       "status": "candidate",
       "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simrat39/rust-tools.nvim",
+      "status": "candidate",
+      "text": "> [!NOTE]"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-07T18:41:02.254946+00:00",
       "source_file": null,
       "source_repo": "mrcjkb/rustaceanvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T18:37:42.068971+00:00",
+      "source_file": null,
+      "source_repo": "simrat39/rust-tools.nvim"
     }
   ],
   "first_seen_at": "2026-05-07T18:41:02.254946+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "last_seen_at": "2026-05-08T18:37:42.068971+00:00",
   "lexical_providers": [
     "datamuse"
   ],

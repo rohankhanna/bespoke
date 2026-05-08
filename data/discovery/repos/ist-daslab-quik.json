@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-08T19:00:38.626521+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1964
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Repository for the QUIK project, enabling the use of 4bit kernels for generative inference - EMNLP 2024",
+    "fork": false,
+    "full_name": "IST-DASLab/QUIK",
+    "html_url": "https://github.com/IST-DASLab/QUIK",
+    "language": "C++",
+    "pushed_at": "2024-04-16T03:21:40Z",
+    "stargazers_count": 185,
+    "topics": [],
+    "updated_at": "2026-05-08T03:29:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/configure-pages@v6",
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
+  "last_seen_at": "2026-05-08T18:37:42.068971+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-08T19:01:25.608372+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2534
+    },
+    {
+      "path": "requirements.txt",
+      "size": 33
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implement of AlignedKV",
+    "fork": false,
+    "full_name": "AlignedQuant/AlignedKV",
+    "html_url": "https://github.com/AlignedQuant/AlignedKV",
+    "language": "Cuda",
+    "pushed_at": "2025-04-05T11:49:13Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-04-05T11:49:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

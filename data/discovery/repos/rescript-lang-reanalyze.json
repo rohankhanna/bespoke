@@ -127,7 +127,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T06:58:54.430480+00:00",
+  "fetched_at": "2026-05-08T18:44:13.762715+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -156,7 +156,7 @@
     "html_url": "https://github.com/rescript-lang/reanalyze",
     "language": "OCaml",
     "pushed_at": "2025-09-16T08:56:38Z",
-    "stargazers_count": 281,
+    "stargazers_count": 282,
     "topics": [
       "analysis",
       "dce",
@@ -165,7 +165,7 @@
       "rescript",
       "termination-detection-algorithm"
     ],
-    "updated_at": "2026-04-23T18:24:12Z"
+    "updated_at": "2026-05-08T15:58:42Z"
   },
   "repo_links": [
     {

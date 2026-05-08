@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
+  "last_seen_at": "2026-05-08T18:37:42.068971+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -706,6 +706,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "danielrosehill/LLM-API-Price-Estimates"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIoT-MLSys-Lab/Efficient-LLMs-Survey"
     }
   ],
   "term": "large-language-models"

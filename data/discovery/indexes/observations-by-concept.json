@@ -11769,6 +11769,7 @@
     "b52944348c536d18",
     "bb960e95b0640363",
     "c701a2af4b281dd6",
+    "c731a4820e0059a3",
     "c8292aabc8dd7ae5",
     "cc1ccec4bdcc18ce",
     "ce7e273e20d31bb3",
@@ -17585,6 +17586,9 @@
     "f6f2f7f6fd3b0cb3",
     "fcf765008c5bafb2"
   ],
+  "build-and-release-android": [
+    "6105007e0441e10f"
+  ],
   "build-and-release-app": [
     "dd4f616ae6e1a28f"
   ],
@@ -17603,6 +17607,9 @@
   "build-and-release-for-windows-7": [
     "2cac8c26f07df44b",
     "fbf182ee001215a2"
+  ],
+  "build-and-release-ios": [
+    "57d55ec8d4891c77"
   ],
   "build-and-release-lightly": [
     "ba0f25c5bb205850"
@@ -48450,6 +48457,9 @@
   "deploy-odoc-to-github-pages": [
     "8cf4e6e76ddf9ade"
   ],
+  "deploy-off-grid-docs": [
+    "26320f7fc1e56b4d"
+  ],
   "deploy-ogrepy-live-to-pages": [
     "ecaabd7a2764b0f2"
   ],
@@ -49741,6 +49751,7 @@
     "d4c5d043e8778a51",
     "d5958059a9b95ab6",
     "d6988ffdecd118ee",
+    "d6ff0e2ac407be84",
     "db32860bfeb817e4",
     "f26efbe7c71d7d55",
     "f7e71ce4240666f9",
@@ -55649,6 +55660,7 @@
     "fd68b4e016247b6f"
   ],
   "edge-ai": [
+    "1250c6402bdfa629",
     "2fe5a546cf2f5288",
     "6b59d0775a7c7e19",
     "89d71665fdf20618",
@@ -55862,6 +55874,7 @@
   ],
   "efficient-deep-learning": [
     "0eea0b3ed5a262a3",
+    "4474e6ed37287987",
     "5a2e8029778e2d41",
     "64a71e56ac27131e",
     "6f5eb090873f030d"
@@ -61493,6 +61506,7 @@
     "5fc2b5814d8f0cec",
     "636696b5713a6367",
     "6bc257fc8651670e",
+    "78d7c3cf8a3c18ab",
     "79df86b32f333b91",
     "7e07abab7d417e88",
     "804eda3c4e05dea1",
@@ -64822,6 +64836,7 @@
     "bb85f564350d45ea",
     "bc391209deae5f65",
     "bd7f4ca71293e4ef",
+    "c0661ed52fc220b9",
     "c41974dd0227ee7c",
     "c536d511f0eabaf3",
     "c7d00793b0cd7548",
@@ -65688,6 +65703,7 @@
     "ddd3600dd6b68f2e",
     "df38f777c972fdd4",
     "e2c62214089b984c",
+    "e412a5c052825d5c",
     "e72bb9cd2363457f",
     "e76a2312588a4d0d",
     "f7d5ae6ca1c3b88e",
@@ -66349,6 +66365,7 @@
     "7968b6a5b22a7360",
     "7f995d95847d36e4",
     "80fbc52bbaf52090",
+    "8981706a308619a4",
     "966ab3d037c14781",
     "be97a0190a5a8646",
     "c8bfe6e4dfe995c9",
@@ -72115,6 +72132,7 @@
     "e587538073f78a43",
     "e61ca88036ef1471",
     "e620edd7b245de57",
+    "e69af9c9a82b0a86",
     "e6b2513484e1eb96",
     "e72a4e64a25090f2",
     "e7c118b81ebf1a9c",
@@ -85158,6 +85176,7 @@
     "2bdb12f9c8fb18d3",
     "2cbfd5edd4253cdf",
     "2ce3555592c1f0df",
+    "2dad9229363308b8",
     "2f9a9dba0fcc92a9",
     "3280f0c39f974164",
     "330b54582b033050",
@@ -87159,6 +87178,7 @@
     "05684bf55f6da5bb",
     "05a2f4fd946dd272",
     "05a98754fbd9070b",
+    "05dc2e9978728f29",
     "05e4463e13982a86",
     "06a5fe286dc8e3c9",
     "06be161ce82f85df",
@@ -88473,6 +88493,7 @@
   "linting-and-style-checking": [
     "2c1398bba94d2362",
     "396a8ccd703e5047",
+    "4390592c7e1d45fd",
     "6ac59c17db46e176",
     "8535d0b39be6321e",
     "99ecb1d41820ef96",
@@ -88690,6 +88711,7 @@
     "be3a2477c03eb375",
     "be6f8e5b29376cb4",
     "be9f0fd1efeb69be",
+    "c0eed7dac7ec8fbe",
     "c270bf0e04a9bca4",
     "c28d4ee851fb1d78",
     "c4aeb070ab1f7204",
@@ -89351,6 +89373,7 @@
     "a1a1f2fcff74b280",
     "a28922c329176217",
     "a6c1012a95c7f275",
+    "d87fbc5c378b71f9",
     "e533a5e39ba419b2",
     "ebab2f0adb69812e"
   ],
@@ -90097,6 +90120,7 @@
     "03fe9de3a4838c1f",
     "1c099caa7fbc153a",
     "25e9b2ec773b749c",
+    "498de40ad2f5a934",
     "84d4b68aad6489cd",
     "da60978020be31d6",
     "e6df266ec6df1399"
@@ -90144,6 +90168,7 @@
   ],
   "localai": [
     "58d33cead88f067b",
+    "6ba1814931f00041",
     "e5e62ddab21a7b96"
   ],
   "locale": [
@@ -92001,6 +92026,7 @@
   ],
   "machine-learning-systems": [
     "7285e9961ea8835a",
+    "90064b5a78d572e1",
     "90805df5951c17e5",
     "a33abd56c1124def"
   ],
@@ -92178,6 +92204,7 @@
     "792bd16fd2173405",
     "79589c009c92299d",
     "7a6536f7508ccabc",
+    "7aa1dd11984ec67a",
     "7acdf0900c2b665b",
     "7b5ca24816a76e4c",
     "7c8d143860e8d5e2",
@@ -97120,7 +97147,8 @@
     "e71966d4e1560d67"
   ],
   "mobile-ai": [
-    "a6922dc5e107e86b"
+    "a6922dc5e107e86b",
+    "b4b61599a6ad212a"
   ],
   "mobile-app": [
     "8ed5de44f07f723f",
@@ -100631,6 +100659,7 @@
     "1d133e4b1b4dcbfa",
     "1d75ae3d36396ad2",
     "217fa2a9fc415d6f",
+    "21ab6baa8c736f5c",
     "22472d906cd4006a",
     "2287dba78dd9a05c",
     "246079ff38f978d2",
@@ -104984,6 +105013,7 @@
   ],
   "nvim": [
     "0140a0af20f8f7ea",
+    "01fb961896f5fe19",
     "0517c049ac3050f1",
     "06923cf1ada30ffe",
     "07a0919bd2372ed6",
@@ -105181,6 +105211,7 @@
   "nvim-treesitter": [
     "293cfc5ceb3b030f",
     "a87efdea5808f972",
+    "b850a9828dd016ef",
     "c089827e227ae0d6"
   ],
   "nvim-treesitter-parser-tests": [
@@ -106087,6 +106118,7 @@
     "7bb6ba6eb36e778a"
   ],
   "offline-ai": [
+    "15a66c4682e55c77",
     "7a310fbd5b0de9e6"
   ],
   "offline-capable": [
@@ -106102,6 +106134,9 @@
     "addebf1a0df6f36f",
     "c2807fc63a46ef11",
     "efe4ffc09ab8e2ce"
+  ],
+  "offline-llm": [
+    "652334ffda386921"
   ],
   "offline-reinforcement-learning": [
     "2b4b04542517501e",
@@ -106305,6 +106340,7 @@
     "a97c7a96cd57ab1c",
     "a9ae6e728e7da8fe",
     "ac6da4de8e217e49",
+    "b3ac5c5df6071860",
     "b4d83ebb54e86442",
     "b74810e18d033124",
     "bd45003f0e6d3693",
@@ -106486,6 +106522,12 @@
   ],
   "ondemand": [
     "e7447306b6695d8b"
+  ],
+  "ondevice": [
+    "7d3f538d5226cac6"
+  ],
+  "ondevice-ai": [
+    "b9bc95cc06c478d6"
   ],
   "ondeviceai": [
     "01b0b62d588b51ba",
@@ -107149,6 +107191,7 @@
     "69d223d8d2ae2cd4",
     "6ab1b066c884f7c3",
     "741b2522d7209c43",
+    "7d8d3a960080d3ff",
     "8db8460f69f4b744",
     "9af1ea83b14d1167",
     "bfb7c9cd55c30a20",
@@ -109693,6 +109736,7 @@
     "3eb975b7ef63b586",
     "4e8f136e1b9edae0",
     "7897ae53ad17a543",
+    "9bcd154a6bd7fc8c",
     "e55d5a8ef0730532",
     "f65c932005c9cbb2"
   ],
@@ -115831,6 +115875,9 @@
   ],
   "privacy-enhancing-technology": [
     "58e6925653406548"
+  ],
+  "privacy-first": [
+    "84454aa3b6768a40"
   ],
   "privacy-preserving": [
     "1df5daab70e04a94",
@@ -125612,6 +125659,7 @@
     "0d1c40b3da6c6350",
     "0d291d735bcafdf3",
     "0d2ce4e727d165b8",
+    "0d3ee5ebc2c0e136",
     "0d57f9f64f40ef5f",
     "0d746905e20c4d6b",
     "0d79df57f88beaac",
@@ -133580,6 +133628,7 @@
     "5d1055d391569309",
     "5d6e2de89202edca",
     "5e00a1d7f28f8913",
+    "5e0eef962121fc17",
     "5e1116068b91860f",
     "5e34f60faeddfb6d",
     "5e7513892ad5aa04",
@@ -134318,7 +134367,8 @@
     "0dd4b0b1565aadd1"
   ],
   "rust-tools": [
-    "2279d574e7940db4"
+    "2279d574e7940db4",
+    "ce0b38677230ade6"
   ],
   "rust-version-compatibility-check": [
     "542ac72d4e7619f4",
@@ -142817,6 +142867,9 @@
     "fd7b062765516c43",
     "fe35766c01297116"
   ],
+  "stable-diffusion-android": [
+    "776f130c90d0bf72"
+  ],
   "stable-diffusion-app": [
     "795e7b3ffac5bc3e"
   ],
@@ -145397,6 +145450,7 @@
     "5b78935616c3c7a7",
     "5c07d95c83640321",
     "967f05aabaf80596",
+    "ddddb0a277092d40",
     "e207a858f7329b9a"
   ],
   "surya-cla-assistant": [
@@ -148558,6 +148612,7 @@
     "73507604e8b14d64",
     "7607441dd47ac2ce",
     "781d497b75fb46f5",
+    "7ad5dea6d352bfb2",
     "7b03b96d7fa32f6a",
     "7b4cb22e771c7a75",
     "80a25fa3a9c75384",
@@ -151901,6 +151956,7 @@
     "07bf7ccd92dbb14a",
     "082b0a1e77cf5df9",
     "088cb8ae48136229",
+    "0a17b9c772614377",
     "0a1bc1fbbb6b1fd7",
     "0a579a1086c1290b",
     "0a997fc48001271a",
@@ -154354,7 +154410,8 @@
     "8862b25870802a6e"
   ],
   "tool-calling": [
-    "c96309c298a8e3fd"
+    "c96309c298a8e3fd",
+    "c9b3137c0e137cd1"
   ],
   "tool-learning": [
     "06406f07f691cd5c",
@@ -155613,6 +155670,7 @@
     "8363b16aa7565d98",
     "87f09589bb957b55",
     "8a6a89f9165c036e",
+    "adeeb461afe47e0e",
     "b285066d11341e32",
     "d7c17a117d18a5ed",
     "db1fe68278b92741",
@@ -166677,6 +166735,9 @@
     "9e0ab1f56a67b861",
     "b2a11eff30d36ec4",
     "ebdc15734b4f5ffe"
+  ],
+  "whisper-android": [
+    "bb3b2ad5faede6d4"
   ],
   "whisper-cpp": [
     "09fef21ed3250670",

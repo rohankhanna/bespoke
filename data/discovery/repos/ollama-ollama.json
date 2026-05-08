@@ -549,7 +549,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T07:05:04.044912+00:00",
+  "fetched_at": "2026-05-08T18:51:17.491402+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -589,8 +589,8 @@
     "full_name": "ollama/ollama",
     "html_url": "https://github.com/ollama/ollama",
     "language": "Go",
-    "pushed_at": "2026-05-08T04:01:19Z",
-    "stargazers_count": 170965,
+    "pushed_at": "2026-05-08T16:52:16Z",
+    "stargazers_count": 171008,
     "topics": [
       "deepseek",
       "gemma",
@@ -608,7 +608,7 @@
       "ollama",
       "qwen"
     ],
-    "updated_at": "2026-05-08T07:03:23Z"
+    "updated_at": "2026-05-08T18:50:45Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy Off Grid Docs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alichherawalla/off-grid-mobile-ai",
+      "status": "candidate-context",
+      "text": "The Swiss Army Knife of Offline AI. Chat, Speak, and Generate Images - Privacy First, Zero Internet. Download an LLM and use it on your mobile device. No data ever leaves your phone. Supports text-to-text, vision, text-to-image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alichherawalla/off-grid-mobile-ai",
+      "status": "candidate-context",
+      "text": "Deploy Off Grid Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alichherawalla/off-grid-mobile-ai",
+      "status": "candidate",
+      "text": "Deploy Off Grid Docs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36895,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36875,
+      "status": "candidate",
+      "text": "oost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36875,
+      "status": "candidate",
+      "text": "posted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36875,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35370,
+      "status": "candidate",
+      "text": "dashboard"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Off Grid Docs",
+  "concept_id": "deploy-off-grid-docs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T18:37:42.068971+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "alichherawalla/off-grid-mobile-ai"
+    }
+  ],
+  "first_seen_at": "2026-05-08T18:37:42.068971+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-08T18:37:42.068971+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Off Grid Docs",
+      "sense_id": "deploy-off-grid-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

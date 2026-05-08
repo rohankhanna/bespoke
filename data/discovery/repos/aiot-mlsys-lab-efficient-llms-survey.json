@@ -1,0 +1,149 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AIoT-MLSys-Lab/Efficient-LLMs-Survey",
+      "target": "agi-edgerunners/llm-adapters",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AIoT-MLSys-Lab/Efficient-LLMs-Survey",
+      "target": "ai21labs/parallel-context-windows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AIoT-MLSys-Lab/Efficient-LLMs-Survey",
+      "target": "abertsch72/unlimiformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AIoT-MLSys-Lab/Efficient-LLMs-Survey",
+      "target": "ag1988/dss",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIoT-MLSys-Lab/Efficient-LLMs-Survey",
+      "target": "efficient-deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIoT-MLSys-Lab/Efficient-LLMs-Survey",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIoT-MLSys-Lab/Efficient-LLMs-Survey",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIoT-MLSys-Lab/Efficient-LLMs-Survey",
+      "target": "machine-learning-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIoT-MLSys-Lab/Efficient-LLMs-Survey",
+      "target": "survey",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T19:01:16.722542+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 87307
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[TMLR 2024] Efficient Large Language Models: A Survey",
+    "fork": false,
+    "full_name": "AIoT-MLSys-Lab/Efficient-LLMs-Survey",
+    "html_url": "https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey",
+    "language": null,
+    "pushed_at": "2025-06-23T01:57:02Z",
+    "stargazers_count": 1258,
+    "topics": [
+      "efficient-deep-learning",
+      "generative-ai",
+      "large-language-models",
+      "machine-learning-systems",
+      "survey"
+    ],
+    "updated_at": "2026-05-06T18:28:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abertsch72/unlimiformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ag1988/dss",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agi-edgerunners/llm-adapters",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ai21labs/parallel-context-windows",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> **[Efficient Large Language Models: A Survey](http://arxiv.org/abs/2312.03863)**[ [arXiv]](http://arxiv.org/abs/2312.03863) (Version 1: 12/06/2023; Version 2: 12/23/2023; Version 3: 01/31/2024; Version 4: 05/23/2024, camera ready version of Transactions on Machine Learning Res\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficient-deep-learning"
+    },
+    {
+      "context_snippet": "> **[Efficient Large Language Models: A Survey](http://arxiv.org/abs/2312.03863)**[ [arXiv]](http://arxiv.org/abs/2312.03863) (Version 1: 12/06/2023; Version 2: 12/23/2023; Version 3: 01/31/2024; Version 4: 05/23/2024, camera ready version of Transactions on Machine Learning Res\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "context_snippet": "> **[Efficient Large Language Models: A Survey](http://arxiv.org/abs/2312.03863)**[ [arXiv]](http://arxiv.org/abs/2312.03863) (Version 1: 12/06/2023; Version 2: 12/23/2023; Version 3: 01/31/2024; Version 4: 05/23/2024, camera ready version of Transactions on Machine Learning Res\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "> **[Efficient Large Language Models: A Survey](http://arxiv.org/abs/2312.03863)**[ [arXiv]](http://arxiv.org/abs/2312.03863) (Version 1: 12/06/2023; Version 2: 12/23/2023; Version 3: 01/31/2024; Version 4: 05/23/2024, camera ready version of Transactions on Machine Learning Res\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning-systems"
+    },
+    {
+      "context_snippet": "> **[Efficient Large Language Models: A Survey](http://arxiv.org/abs/2312.03863)**[ [arXiv]](http://arxiv.org/abs/2312.03863) (Version 1: 12/06/2023; Version 2: 12/23/2023; Version 3: 01/31/2024; Version 4: 05/23/2024, camera ready version of Transactions on Machine Learning Res\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "survey"
+    }
+  ]
+}

@@ -154,7 +154,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T13:51:44.775077+00:00",
+  "fetched_at": "2026-05-08T20:07:33.347737+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -182,7 +182,7 @@
     "full_name": "karafka/example-apps",
     "html_url": "https://github.com/karafka/example-apps",
     "language": "Ruby",
-    "pushed_at": "2026-05-05T08:49:06Z",
+    "pushed_at": "2026-05-08T17:16:06Z",
     "stargazers_count": 58,
     "topics": [
       "kafka",

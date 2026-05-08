@@ -11092,6 +11092,9 @@
   "build and release (code signed)": [
     "build-and-release-code-signed"
   ],
+  "build and release android": [
+    "build-and-release-android"
+  ],
   "build and release app": [
     "build-and-release-app"
   ],
@@ -11106,6 +11109,9 @@
   ],
   "build and release for windows 7": [
     "build-and-release-for-windows-7"
+  ],
+  "build and release ios": [
+    "build-and-release-ios"
   ],
   "build and release lightly": [
     "build-and-release-lightly"
@@ -28945,6 +28951,9 @@
   ],
   "deploy odoc to github pages": [
     "deploy-odoc-to-github-pages"
+  ],
+  "deploy off grid docs": [
+    "deploy-off-grid-docs"
   ],
   "deploy ogrepy live to pages": [
     "deploy-ogrepy-live-to-pages"
@@ -61767,6 +61776,9 @@
   "offline-first": [
     "offline-first"
   ],
+  "offline-llm": [
+    "offline-llm"
+  ],
   "offline-reinforcement-learning": [
     "offline-reinforcement-learning"
   ],
@@ -62063,6 +62075,12 @@
   ],
   "ondemand": [
     "ondemand"
+  ],
+  "ondevice": [
+    "ondevice"
+  ],
+  "ondevice-ai": [
+    "ondevice-ai"
   ],
   "ondeviceai": [
     "ondeviceai"
@@ -67832,6 +67850,9 @@
   ],
   "privacy-enhancing-technology": [
     "privacy-enhancing-technology"
+  ],
+  "privacy-first": [
+    "privacy-first"
   ],
   "privacy-preserving": [
     "privacy-preserving"
@@ -82562,6 +82583,9 @@
   "stable-diffusion": [
     "stable-diffusion"
   ],
+  "stable-diffusion-android": [
+    "stable-diffusion-android"
+  ],
   "stable-diffusion-app": [
     "stable-diffusion-app"
   ],
@@ -96611,6 +96635,9 @@
   ],
   "whisper": [
     "whisper"
+  ],
+  "whisper-android": [
+    "whisper-android"
   ],
   "whisper-cpp": [
     "whisper-cpp"

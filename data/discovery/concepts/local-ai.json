@@ -79,6 +79,18 @@
       "source_repo": "danielrosehill/AMD-AI-Server",
       "status": "candidate-context",
       "text": "![alt text](screenshots/1.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alichherawalla/off-grid-mobile-ai",
+      "status": "candidate-context",
+      "text": "The Swiss Army Knife of Offline AI. Chat, Speak, and Generate Images - Privacy First, Zero Internet. Download an LLM and use it on your mobile device. No data ever leaves your phone. Supports text-to-text, vision, text-to-image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alichherawalla/off-grid-mobile-ai",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "danielrosehill/AMD-AI-Server",
       "status": "candidate",
       "text": "![alt text](screenshots/1.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alichherawalla/off-grid-mobile-ai",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -250,11 +268,17 @@
       "observed_at": "2026-05-08T12:43:50.373126+00:00",
       "source_file": null,
       "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T18:37:42.068971+00:00",
+      "source_file": null,
+      "source_repo": "alichherawalla/off-grid-mobile-ai"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
+  "last_seen_at": "2026-05-08T18:37:42.068971+00:00",
   "lexical_providers": [
     "datamuse"
   ],

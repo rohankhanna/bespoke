@@ -21,6 +21,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "@vercel/detect-agent",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "husky",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -146,6 +151,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "vercel-labs/skills",
+      "target": "@vercel/detect-agent",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vercel-labs/skills",
       "target": "husky",
       "target_type": "component"
     },
@@ -262,7 +274,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T13:52:40.214915+00:00",
+  "fetched_at": "2026-05-08T20:08:59.940959+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -270,7 +282,7 @@
     },
     {
       "path": "package.json",
-      "size": 2717
+      "size": 2755
     },
     {
       "path": ".github/workflows/agents.yml",
@@ -294,10 +306,10 @@
     "full_name": "vercel-labs/skills",
     "html_url": "https://github.com/vercel-labs/skills",
     "language": "TypeScript",
-    "pushed_at": "2026-05-05T21:18:07Z",
-    "stargazers_count": 17473,
+    "pushed_at": "2026-05-08T17:15:04Z",
+    "stargazers_count": 17519,
     "topics": [],
-    "updated_at": "2026-05-08T13:44:49Z"
+    "updated_at": "2026-05-08T20:04:20Z"
   },
   "repo_links": [
     {

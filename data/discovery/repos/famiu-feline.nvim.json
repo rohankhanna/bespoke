@@ -131,7 +131,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T13:45:40.577308+00:00",
+  "fetched_at": "2026-05-08T19:58:56.358152+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -156,7 +156,7 @@
     "html_url": "https://github.com/famiu/feline.nvim",
     "language": "Lua",
     "pushed_at": "2023-09-20T18:18:39Z",
-    "stargazers_count": 1053,
+    "stargazers_count": 1054,
     "topics": [
       "lua",
       "neovim",
@@ -164,7 +164,7 @@
       "nvim",
       "statusline"
     ],
-    "updated_at": "2026-03-29T18:58:57Z"
+    "updated_at": "2026-05-08T19:34:48Z"
   },
   "repo_links": [
     {
