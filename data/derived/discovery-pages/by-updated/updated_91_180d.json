@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 9784,
-    "concepts": 6525,
-    "observations": 6550,
-    "repos": 1808,
-    "terms": 6509
+    "components": 9898,
+    "concepts": 6543,
+    "observations": 6568,
+    "repos": 1810,
+    "terms": 6524
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0b01/tigris-and-euphrates",
@@ -977,6 +977,7 @@
     "JuliaData/DataFramesMeta.jl",
     "JuliaDebug/SnoopCompile.jl",
     "JuliaDocs/LiveServer.jl",
+    "JuliaGraphics/Cairo.jl",
     "JuliaGraphics/Colors.jl",
     "JuliaGraphics/ColorTypes.jl",
     "JuliaGtk/Gtk4Makie.jl",
@@ -1447,6 +1448,7 @@
     "reasonml/reasonml.github.io",
     "redhat-developer/vscode-redhat-telemetry",
     "redis/go-redis-entraid",
+    "Redocly/redoc",
     "Redocly/redocly-cli-cookbook",
     "redux-saga/redux-saga",
     "reisub/http_cookie",

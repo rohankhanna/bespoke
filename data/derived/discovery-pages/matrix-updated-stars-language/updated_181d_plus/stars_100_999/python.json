@@ -3,8 +3,8 @@
     "components": 1112,
     "concepts": 5150,
     "observations": 5153,
-    "repos": 1755,
-    "terms": 4999
+    "repos": 1754,
+    "terms": 4996
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -40,7 +40,6 @@
     "ADaM-BJTU/AutoCoA",
     "Adamdad/DeRy",
     "AdamSpannbauer/python_video_stab",
-    "AdeDZY/DeepCT",
     "adefossez/mdx21_demucs",
     "adieyal/comfyui-dynamicprompts",
     "adieyal/dynamicprompts",

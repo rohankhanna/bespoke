@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 579,
-    "concepts": 599,
-    "observations": 600,
+    "components": 572,
+    "concepts": 595,
+    "observations": 596,
     "repos": 97,
-    "terms": 597
+    "terms": 593
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/openfx",
     "Alpine-DAV/ascent",
@@ -47,6 +47,7 @@
     "GraphBLAS/LAGraph",
     "grizzlypeak3d/tlRender",
     "HazyResearch/HipKittens",
+    "HybridRobotics/motion_tracking_controller",
     "iamaisim/ProjectAirSim",
     "intel/intel-graphics-compiler",
     "intel/llm-scaler",
@@ -94,7 +95,6 @@
     "rmagick/rmagick",
     "robotology/yarp",
     "ROCm/AMDMIGraphX",
-    "ROCm/mori",
     "ROCm/rccl",
     "ROCm/rocBLAS",
     "ROCm/rocm-systems",

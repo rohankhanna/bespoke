@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 253,
-    "concepts": 274,
-    "observations": 276,
-    "repos": 34,
-    "terms": 275
+    "components": 258,
+    "concepts": 285,
+    "observations": 287,
+    "repos": 36,
+    "terms": 286
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
+    "agents-flex/agents-flex",
     "apache/camel",
     "apache/logging-log4j2",
     "apache/lucene",
     "apache/netbeans",
+    "apache/pdfbox",
     "apache/poi",
     "beehive-lab/TornadoVM",
     "besu-eth/besu",

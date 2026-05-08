@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 25721,
-    "concepts": 21972,
-    "observations": 22043,
-    "repos": 5442,
-    "terms": 21925
+    "components": 25730,
+    "concepts": 21999,
+    "observations": 22070,
+    "repos": 5448,
+    "terms": 21946
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "other"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "0oAstro/silicon.lua",
@@ -219,6 +219,7 @@
     "AIGAnimation/CAMDM",
     "AILab-CVC/SEED-X",
     "aileot/vim-foldpeek",
+    "aimeos/ai-monolog",
     "aimerykong/deepImageAestheticsAnalysis",
     "aio-libs/aiohttp-demos",
     "airblade/vim-gitgutter",
@@ -1062,6 +1063,8 @@
     "cdeust/ai-prd-builder",
     "cedar-policy/cedar-spec",
     "cefsharp/CefSharp",
+    "cefsharp/CefSharp.MinimalExample",
+    "cefsharp/CefSharp.Wpf.HwndHost",
     "celo-org/celo-monorepo",
     "celo-org/charts",
     "celzero/rethink-app",
@@ -1137,6 +1140,7 @@
     "ChristopherHX/runner.server",
     "Chrixtar/latent-gaussian-rasterization",
     "chromebrew/chromebrew",
+    "chromelyapps/CefSharp",
     "chuxiaoguo/vue-sketch-ruler",
     "cimgui/cimgui",
     "circe/circe",
@@ -1332,6 +1336,7 @@
     "Const-me/ComLightInterop",
     "Const-me/Vrmac",
     "container-storage-interface/spec",
+    "contributte/monolog",
     "controlplaneio-fluxcd/distribution",
     "ControlzEx/ControlzEx",
     "coollabsio/coolify",
@@ -2613,6 +2618,7 @@
     "Infrawaves/DeepEP_ibrc_dual-ports_multiQP",
     "inhabitedtype/angstrom",
     "inhabitedtype/faraday",
+    "inhere/php-sroute",
     "inhere/php-validate",
     "inkle/ink",
     "inkle/ink-unity-integration",

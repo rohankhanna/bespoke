@@ -4,13 +4,13 @@
     "concepts": 10380,
     "observations": 10415,
     "repos": 1843,
-    "terms": 10686
+    "terms": 10680
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "0h7z/vscode-julia-format",

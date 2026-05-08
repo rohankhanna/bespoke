@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 27877,
-    "concepts": 14646,
-    "observations": 14695,
-    "repos": 5325,
-    "terms": 14655
+    "components": 27885,
+    "concepts": 14670,
+    "observations": 14719,
+    "repos": 5328,
+    "terms": 14678
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -1190,6 +1190,7 @@
     "cedar-policy/cedar-java",
     "cedar-policy/rfcs",
     "cedricrupb/code_ast",
+    "cefsharp/CefSharp.Wpf.HwndHost",
     "cehoffman/lua-build",
     "cehoffman/luaenv",
     "celestiaorg/hana",
@@ -1299,6 +1300,7 @@
     "ChristianChiarulli/neovim-codicons",
     "Chrixtar/latent-gaussian-rasterization",
     "chromedp/pdlgen",
+    "chromelyapps/CefSharp",
     "chroneus/stylematte",
     "chu-tianxiang/QuIP-for-all",
     "chunqian/icecream-c",
@@ -1477,6 +1479,7 @@
     "ContainerSolutions/prom-metrics-check",
     "continuouscalendar/dateutils",
     "continuumio/blz",
+    "contributte/monolog",
     "controlplaneio-fluxcd/distribution",
     "Coobiw/IE-Critic-R1",
     "cooper12121/llama3-8x8b-MoE",
@@ -1939,7 +1942,6 @@
     "eigenfoundation/elips",
     "eira-fransham/crunchy",
     "eisneim/ltx_lora_training_i2v_t2v",
-    "EKA2L1/Compatibility-List",
     "eki3z/git-cliff.el",
     "ekino/frankenphp-magento2",
     "ekovac/x86term",
@@ -2783,6 +2785,7 @@
     "ingonyama-zk/icicle-gnark",
     "ingra14m/Lightweight-Deformable-GS",
     "inherd/forming",
+    "inhere/php-sroute",
     "input-output-hk/cicero",
     "input-output-hk/tullia",
     "instadeepai/fastpbrl",

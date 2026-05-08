@@ -3,14 +3,14 @@
     "components": 17279,
     "concepts": 25840,
     "observations": 25889,
-    "repos": 6457,
-    "terms": 25655
+    "repos": 6456,
+    "terms": 25646
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "python"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0cc4m/hf_bleeding_edge",
@@ -145,7 +145,6 @@
     "adapter-hub/adapters",
     "adaumann/speckit-preset-fiction-book-writing",
     "adbar/trafilatura",
-    "AdeDZY/DeepCT",
     "adefossez/demucs",
     "adefossez/mdx21_demucs",
     "aden-hive/hive",

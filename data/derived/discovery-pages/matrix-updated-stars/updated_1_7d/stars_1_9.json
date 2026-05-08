@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 435,
+    "components": 433,
     "concepts": 296,
     "observations": 296,
-    "repos": 50,
+    "repos": 49,
     "terms": 295
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "ADNTIO/crispy-bootloader-rp2040-rs",
     "alphagov/stylelint-config-gds",
@@ -57,7 +57,6 @@
     "stdlib-js/math-base-special-erf",
     "stdlib-js/math-base-special-erfc",
     "stdlib-js/math-base-special-erfcx",
-    "stdlib-js/meetings",
     "stdlib-js/ndarray-fancy",
     "suzuki-shunsuke/release-js-action",
     "szksh-lab/.github",

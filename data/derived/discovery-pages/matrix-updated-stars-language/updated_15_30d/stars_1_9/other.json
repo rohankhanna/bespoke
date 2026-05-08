@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 175,
-    "concepts": 97,
-    "observations": 97,
-    "repos": 52,
-    "terms": 97
+    "concepts": 113,
+    "observations": 113,
+    "repos": 53,
+    "terms": 113
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "0xPolygonHermez/stark-recurser",
     "actboy168/ltest",
@@ -20,6 +20,7 @@
     "ankane/seaduck",
     "apache/netbeans-antora-ui",
     "b-data/jupyterlab-julia-docker-stack",
+    "b-data/jupyterlab-mojo-docker-stack",
     "bladeacer/obsi-snip-coll",
     "cake-contrib/Cake.Markdownlint",
     "caronc/apprise-docs",

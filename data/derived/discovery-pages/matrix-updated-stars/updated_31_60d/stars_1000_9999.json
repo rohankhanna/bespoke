@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4784,
-    "concepts": 2906,
-    "observations": 2918,
-    "repos": 502,
-    "terms": 2909
+    "components": 4806,
+    "concepts": 2940,
+    "observations": 2952,
+    "repos": 505,
+    "terms": 2942
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "aaaaalexis/obsidian-cupertino",
@@ -259,6 +259,7 @@
     "jonmosco/kube-ps1",
     "josdejong/svelte-jsoneditor",
     "josStorer/RWKV-Runner",
+    "jpsim/Yams",
     "jshttp/mime-types",
     "jsx-eslint/eslint-plugin-react",
     "JuliaDocs/Franklin.jl",
@@ -293,6 +294,7 @@
     "lunarmodules/busted",
     "lxgw/LxgwWenKai-Screen",
     "lxgw/LxgwWenkaiGB",
+    "macvim-dev/macvim",
     "madler/zlib",
     "mailru/easyjson",
     "manzaltu/claude-code-ide.el",
@@ -483,6 +485,7 @@
     "ufoym/deepo",
     "unitaryai/detoxify",
     "unplugin/unplugin-vue-components",
+    "uptrace/bun",
     "usbarmory/usbarmory",
     "varvet/pundit",
     "Vchitect/VBench",

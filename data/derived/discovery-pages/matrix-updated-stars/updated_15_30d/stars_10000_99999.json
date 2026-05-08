@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 14342,
-    "concepts": 5637,
-    "observations": 5662,
-    "repos": 591,
-    "terms": 5652
+    "components": 14391,
+    "concepts": 5682,
+    "observations": 5709,
+    "repos": 594,
+    "terms": 5696
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -201,7 +201,6 @@
     "fabric/fabric",
     "facebook/folly",
     "facebook/hhvm",
-    "facebook/prophet",
     "facebook/relay",
     "facebook/rocksdb",
     "facebookresearch/dinov2",
@@ -251,6 +250,7 @@
     "google/benchmark",
     "google/brotli",
     "google/cadvisor",
+    "google/filament",
     "google/flatbuffers",
     "google/fonts",
     "google/go-github",
@@ -303,6 +303,7 @@
     "infiniflow/ragflow",
     "iOfficeAI/AionUi",
     "isocpp/CppCoreGuidelines",
+    "jaegertracing/jaeger",
     "jantimon/html-webpack-plugin",
     "jarrodwatts/claude-hud",
     "jashkenas/backbone",
@@ -459,6 +460,7 @@
     "PrismJS/prism",
     "prometheus/node_exporter",
     "prometheus/prometheus",
+    "protobufjs/protobuf.js",
     "px4/px4-autopilot",
     "pybind/pybind11",
     "pydantic/pydantic-ai",
@@ -542,6 +544,7 @@
     "systemd/systemd",
     "tanweai/pua",
     "taskflow/taskflow",
+    "tc39/ecma262",
     "tc39/proposals",
     "teamcapybara/capybara",
     "Tencent/ncnn",

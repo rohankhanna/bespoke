@@ -1,20 +1,19 @@
 {
   "counts": {
-    "components": 985,
-    "concepts": 532,
-    "observations": 535,
-    "repos": 57,
-    "terms": 532
+    "components": 931,
+    "concepts": 497,
+    "observations": 500,
+    "repos": 53,
+    "terms": 497
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "aigc-apps/VideoX-Fun",
-    "all-contributors/allcontributors.org",
     "apache/datafusion-ballista",
     "apollographql/apollo-tooling",
     "aws-cloudformation/cfn-lint",
@@ -48,7 +47,6 @@
     "meta-pytorch/torchcodec",
     "meta-pytorch/torchtune",
     "microsoft/aspire",
-    "microsoft/aspire-samples",
     "Mithril-mine/libmdbx",
     "module-federation/core",
     "ogx-ai/ogx",
@@ -56,7 +54,6 @@
     "podman-desktop/podman-desktop",
     "PrimeIntellect-ai/verifiers",
     "psmux/psmux",
-    "redis/redis-om-python",
     "rllm-org/rllm",
     "safe-fndn/safe-smart-account",
     "skeeto/w64devkit",
@@ -64,7 +61,6 @@
     "swiftlang/swift-llbuild",
     "swiftlang/swift-syntax",
     "TanStack/form",
-    "TrenchBroom/TrenchBroom",
     "TryGhost/node-sqlite3",
     "vuejs/devtools",
     "vuejs/language-tools",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 686,
-    "concepts": 553,
-    "observations": 555,
+    "components": 694,
+    "concepts": 560,
+    "observations": 562,
     "repos": 66,
-    "terms": 551
+    "terms": 558
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "64bit/async-openai",
@@ -66,7 +66,6 @@
     "rust-cross/cargo-zigbuild",
     "Rust-GPU/rust-gpu",
     "rust-lang/libc",
-    "rust-lang/miri",
     "rust-lang/rustfmt",
     "rust-openssl/rust-openssl",
     "RustAudio/cpal",
@@ -77,6 +76,7 @@
     "squidowl/halloy",
     "tensorchord/VectorChord",
     "time-rs/time",
+    "VOICEVOX/voicevox_core",
     "vulkano-rs/vulkano",
     "wasm-bindgen/wasm-bindgen",
     "wasm-bindgen/wasm-pack"

@@ -3,7 +3,7 @@
     "components": 1140,
     "concepts": 488,
     "observations": 490,
-    "repos": 402,
+    "repos": 401,
     "terms": 488
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "2KAbhishek/exercism-fetcher",
@@ -88,7 +88,6 @@
     "bronter/wgpu-native-zig-windows-test",
     "build2-packaging/nlohmann-json",
     "burntsushi/linux",
-    "byron/cargo-release",
     "camenduru/memo",
     "Canvinus/cargo-near-new-example",
     "CBenoit/diplomat",

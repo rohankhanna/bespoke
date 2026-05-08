@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 596,
-    "concepts": 610,
-    "observations": 612,
-    "repos": 123,
-    "terms": 604
+    "components": 603,
+    "concepts": 614,
+    "observations": 616,
+    "repos": 124,
+    "terms": 608
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/Imath",
     "actboy168/bee.lua",
@@ -121,6 +121,7 @@
     "roboception/cvkit",
     "ROCm/composable_kernel",
     "ROCm/MIVisionX",
+    "ROCm/mori",
     "ruby-debug/debase",
     "samdauwe/webgpu-native-examples",
     "SaschaWillems/HowToVulkan",

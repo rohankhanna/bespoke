@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11432,
+    "components": 11434,
     "concepts": 7790,
     "observations": 7850,
-    "repos": 1707,
-    "terms": 7792
+    "repos": 1706,
+    "terms": 7790
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "01mf02/jaq",
@@ -296,7 +296,6 @@
     "bwasty/vulkan-tutorial-rs",
     "bwt-dev/bwt",
     "bwt-dev/libbwt",
-    "byron/cargo-release",
     "Byron/dua-cli",
     "Byron/google-apis-rs",
     "bytedance/monoio",

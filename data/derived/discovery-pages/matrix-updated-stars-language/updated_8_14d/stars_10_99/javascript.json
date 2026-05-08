@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 423,
-    "concepts": 119,
-    "observations": 121,
-    "repos": 27,
-    "terms": 119
+    "components": 444,
+    "concepts": 130,
+    "observations": 132,
+    "repos": 29,
+    "terms": 130
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersCompiler",
     "aidenlab/hic-straw",
@@ -26,6 +26,7 @@
     "galaxyproteomics/tools-galaxyp",
     "hudochenkov/postcss-styled-syntax",
     "hyparam/hyparquet-writer",
+    "hyparam/squirreling",
     "ionide/tree-sitter-fsharp",
     "j9t/obsohtml",
     "kitconcept/volto-light-theme",
@@ -39,6 +40,7 @@
     "readthedocs/addons",
     "rescript-lang/tree-sitter-rescript",
     "rstackjs/agent-skills",
+    "stdlib-js/google-summer-of-code",
     "tracked-tools/tracked-toolbox",
     "wyyazlz/sheetnext"
   ]

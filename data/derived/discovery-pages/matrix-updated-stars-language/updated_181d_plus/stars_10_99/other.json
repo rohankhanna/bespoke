@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1938,
-    "concepts": 1763,
-    "observations": 1769,
-    "repos": 778,
-    "terms": 1757
+    "concepts": 1767,
+    "observations": 1773,
+    "repos": 780,
+    "terms": 1761
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x7432/asm-ru",
@@ -194,6 +194,7 @@
     "carrierwaveuploader/carrierwave-i18n",
     "casper-hansen/AutoAWQ_kernels",
     "castorini/anserini-notebooks",
+    "cefsharp/CefSharp.Wpf.HwndHost",
     "cfabianski/hstore_translate",
     "cfrg/draft-irtf-cfrg-hpke",
     "cgnorthcutt/confidentlearning-reproduce",
@@ -210,6 +211,7 @@
     "chriskempson/base16-builder-php",
     "ChristianChiarulli/neovim-codicons",
     "Chrixtar/latent-gaussian-rasterization",
+    "chromelyapps/CefSharp",
     "citusdata/citus_docs",
     "cjohansen/gadget-inspector",
     "ckipp01/stylua-nvim",

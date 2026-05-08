@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-08T05:20:28.469902+00:00`
+Generated at: `2026-05-08T07:13:05.364640+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 9
-- terms: 43
-- components: 286
-- concepts: 43
-- observations: 43
+- repos: 8
+- terms: 41
+- components: 247
+- concepts: 41
+- observations: 41
 
 ## Static behavior
 
@@ -34,7 +34,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [safe-fndn/safe-singleton-factory](https://github.com/safe-fndn/safe-singleton-factory) | 134 | 2026-05-07T13:54:16Z | TypeScript | Infrastructure/tooling | 0 | 22 | 0 | 0 |
 | [fluent-vue/fluent-vue](https://github.com/fluent-vue/fluent-vue) | 276 | 2026-05-07T10:32:21Z | TypeScript | Infrastructure/tooling | 12 | 31 | 12 | 12 |
 | [a2aproject/a2a-js](https://github.com/a2aproject/a2a-js) | 534 | 2026-05-07T08:54:34Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
-| [skilld-dev/skilld](https://github.com/skilld-dev/skilld) | 268 | 2026-05-07T05:37:44Z | TypeScript | Infrastructure/tooling | 2 | 39 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -45,7 +44,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [a2aproject/a2a-js](https://github.com/a2aproject/a2a-js) | 534 | 2026-05-07T08:54:34Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
 | [electron/packager](https://github.com/electron/packager) | 290 | 2026-05-07T18:39:58Z | TypeScript | CLI | 9 | 50 | 9 | 9 |
 | [fluent-vue/fluent-vue](https://github.com/fluent-vue/fluent-vue) | 276 | 2026-05-07T10:32:21Z | TypeScript | Infrastructure/tooling | 12 | 31 | 12 | 12 |
-| [skilld-dev/skilld](https://github.com/skilld-dev/skilld) | 268 | 2026-05-07T05:37:44Z | TypeScript | Infrastructure/tooling | 2 | 39 | 2 | 2 |
 | [unplugin/unplugin-imagemin](https://github.com/unplugin/unplugin-imagemin) | 259 | 2026-05-07T21:27:10Z | TypeScript | Unknown | 0 | 23 | 0 | 0 |
 | [LuaLS/vscode-lua](https://github.com/LuaLS/vscode-lua) | 210 | 2026-05-08T00:08:12Z | TypeScript | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [safe-fndn/safe-singleton-factory](https://github.com/safe-fndn/safe-singleton-factory) | 134 | 2026-05-07T13:54:16Z | TypeScript | Infrastructure/tooling | 0 | 22 | 0 | 0 |

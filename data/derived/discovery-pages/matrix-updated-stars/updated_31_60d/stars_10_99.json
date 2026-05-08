@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2380,
-    "concepts": 1398,
-    "observations": 1404,
+    "components": 2378,
+    "concepts": 1396,
+    "observations": 1402,
     "repos": 393,
-    "terms": 1394
+    "terms": 1392
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x-ximon/acario.nvim",
@@ -143,6 +143,7 @@
     "conda-forge/spacy-feedstock",
     "containerd/release-tool",
     "containers/image_build",
+    "contributte/monolog",
     "cpmech/tritet",
     "crazy-max/yasu",
     "CROSS-signature/CROSS-implementation",
@@ -307,7 +308,6 @@
     "microsoft/vscode-azurecli",
     "MisanthropicBit/neotest-busted",
     "mit-plv/bbv",
-    "Mobile-Artificial-Intelligence/maise",
     "mozilla-services/shavar",
     "mugh/minecraft-bedrock-server-manager",
     "multiformats/java-multibase",

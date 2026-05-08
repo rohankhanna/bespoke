@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 236,
-    "concepts": 195,
-    "observations": 198,
-    "repos": 45,
-    "terms": 195
+    "components": 241,
+    "concepts": 204,
+    "observations": 207,
+    "repos": 46,
+    "terms": 204
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "ashvardanian/StringWars",
     "athre0z/color-backtrace",
     "cedar-policy/cedar-examples",
     "cryscan/web-rwkv",
     "ctz/graviola",
+    "dalance/ptags",
     "dfrg/swash",
     "dimforge/parry",
     "DoumanAsh/xxhash-rust",

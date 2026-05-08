@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 21,
-    "concepts": 31,
-    "observations": 31,
-    "repos": 5,
-    "terms": 31
+    "components": 14,
+    "concepts": 20,
+    "observations": 20,
+    "repos": 4,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "CloudCompare/CloudCompare",
     "Mithril-mine/libmdbx",
     "skeeto/w64devkit",
-    "swiftlang/swift-llbuild",
-    "TrenchBroom/TrenchBroom"
+    "swiftlang/swift-llbuild"
   ]
 }

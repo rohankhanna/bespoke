@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 7098,
-    "concepts": 4279,
-    "observations": 4294,
-    "repos": 1091,
-    "terms": 4274
+    "components": 6990,
+    "concepts": 4274,
+    "observations": 4289,
+    "repos": 1090,
+    "terms": 4268
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "0x676e67/0x676e67",
@@ -626,7 +626,6 @@
     "JuliaEditorSupport/julia-emacs",
     "JuliaEditorSupport/julia-vim",
     "JuliaGizmos/Blink.jl",
-    "JuliaGraphics/Cairo.jl",
     "JuliaGtk/Gtk4.jl",
     "JuliaInterop/CxxWrap.jl",
     "JuliaLang/JuliaSyntax.jl",
@@ -735,6 +734,7 @@
     "mlc-ai/tokenizers-cpp",
     "MMMU-Benchmark/MMMU",
     "mmorise/World",
+    "Mobile-Artificial-Intelligence/maise",
     "ModelTC/GenRL",
     "modin-project/modin",
     "mongodb-js/kerberos",
@@ -883,7 +883,6 @@
     "React9k/react-timeline-9000",
     "realworld-apps/nitro-prisma-zod-realworld-example-app",
     "REditorSupport/vscode-R-syntax",
-    "Redocly/redoc",
     "remarkjs/remark",
     "renzmann/treesit-auto",
     "revfactory/claude-code-harness",

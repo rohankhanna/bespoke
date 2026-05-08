@@ -3,7 +3,7 @@
     "components": 5200,
     "concepts": 1791,
     "observations": 1793,
-    "repos": 1289,
+    "repos": 1290,
     "terms": 1787
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -1038,6 +1038,7 @@
     "philips-labs/about-this-organization",
     "philips-labs/dangerous-dave",
     "phlegx/money-openexchangerates-bank",
+    "phuslu/log-contrib",
     "phymhan/taming-transformers",
     "Piebald-AI/muda",
     "pimlie/geekworm-x-c1",

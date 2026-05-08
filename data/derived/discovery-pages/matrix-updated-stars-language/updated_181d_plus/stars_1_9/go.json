@@ -3,7 +3,7 @@
     "components": 158,
     "concepts": 125,
     "observations": 125,
-    "repos": 63,
+    "repos": 64,
     "terms": 124
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "0ghny/tlsg10x-cli",
     "13rac1/goldmark-embed",
@@ -68,6 +68,7 @@
     "olric-data/olric-consul-plugin",
     "oras-project/distribution",
     "phamngocquy/hyper-mcp-yfinance",
+    "phuslu/log-contrib",
     "ppc64le-cloud/kubetest2-plugins",
     "qri-io/qfs",
     "retracedhq/retraced-go",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1304,
-    "concepts": 884,
-    "observations": 887,
-    "repos": 127,
-    "terms": 882
+    "components": 1317,
+    "concepts": 886,
+    "observations": 889,
+    "repos": 128,
+    "terms": 881
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "3b1b/videos",
     "666ghj/MiroFish",
@@ -46,6 +46,7 @@
     "evanw/esbuild",
     "explosion/spaCy",
     "eyaltoledano/claude-task-master",
+    "facebook/prophet",
     "facebook/zstd",
     "facebookresearch/detectron2",
     "facebookresearch/dinov3",

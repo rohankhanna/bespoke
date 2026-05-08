@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 51,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 10,
-    "terms": 30
+    "components": 49,
+    "concepts": 28,
+    "observations": 28,
+    "repos": 9,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "alphagov/govuk-rfcs",
     "BioContainers/multi-package-containers",
@@ -22,7 +22,6 @@
     "prefix-dev/rattler-build-action",
     "sigstore/root-signing-staging",
     "spiffe/spire-examples",
-    "spring-projects/spring-ai-integration-tests",
     "uxlfoundation/foundation"
   ]
 }

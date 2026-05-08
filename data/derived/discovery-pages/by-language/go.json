@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 10153,
-    "concepts": 9949,
-    "observations": 9981,
-    "repos": 1695,
-    "terms": 9903
+    "components": 10158,
+    "concepts": 9952,
+    "observations": 9984,
+    "repos": 1697,
+    "terms": 9905
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",
@@ -897,6 +897,7 @@
     "gorilla/securecookie",
     "gorilla/sessions",
     "gorilla/websocket",
+    "gosimple/slug",
     "gost-dom/browser",
     "gost-dom/shaman",
     "gost-dom/webref",
@@ -1384,6 +1385,7 @@
     "phodal/coca",
     "php/frankenphp",
     "phuslu/log",
+    "phuslu/log-contrib",
     "pingcap/tidb",
     "pinpox/base16-universal-manager",
     "pion/example-webrtc-applications",

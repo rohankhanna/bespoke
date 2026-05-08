@@ -3,7 +3,7 @@
     "components": 68,
     "concepts": 33,
     "observations": 33,
-    "repos": 11,
+    "repos": 10,
     "terms": 31
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "arcaputo3/mcp-server-whisper",
     "dora-rs/dora-hub",
@@ -23,7 +23,6 @@
     "jfly/shtuff",
     "python-jsonschema/referencing",
     "pytroll/donfig",
-    "qiayuanl/unitree_bringup",
     "scipy/scipy.org"
   ]
 }

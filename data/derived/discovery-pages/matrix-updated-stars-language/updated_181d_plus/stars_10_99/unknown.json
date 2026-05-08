@@ -3,7 +3,7 @@
     "components": 197,
     "concepts": 315,
     "observations": 315,
-    "repos": 273,
+    "repos": 272,
     "terms": 315
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "0nutation/SLMTokBench",
     "0nutation/SpeechAgents",
@@ -107,7 +107,6 @@
     "dwyl/phase-three",
     "dwyl/product-roadmap",
     "dwyl/technical-glossary",
-    "EKA2L1/Compatibility-List",
     "eosphoros-ai/community",
     "eric-haibin-lin/verl-data",
     "erlef/observability-wg",

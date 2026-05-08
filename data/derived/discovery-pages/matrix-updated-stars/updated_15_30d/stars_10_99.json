@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5966,
-    "concepts": 2582,
-    "observations": 2593,
-    "repos": 673,
-    "terms": 2648
+    "components": 5997,
+    "concepts": 2620,
+    "observations": 2631,
+    "repos": 679,
+    "terms": 2686
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "10up/action-wordpress-plugin-build-zip",
@@ -122,10 +122,12 @@
     "aws/aws-network-policy-agent",
     "awslabs/wdio-aws-device-farm-service",
     "Azure-Samples/openai-chat-app-entra-auth-local",
+    "Azure/aaz",
     "Azure/bicep-deploy",
     "Azure/bicep-extensibility",
     "Azure/powershell",
     "b-data/jupyterlab-python-docker-stack",
+    "b-data/jupyterlab-r-docker-stack",
     "babashka/babashka.nrepl",
     "barak/minidjvu",
     "bazel-contrib/rules_d",
@@ -273,6 +275,7 @@
     "emacscollective/epkg",
     "emibcn/badge-action",
     "enjoy-digital/litex-acorn-baseboard",
+    "envoyproxy/examples",
     "erichlof/AntiGravity-Pool",
     "erichlof/PathTracedPong",
     "erichlof/TheSentinel-2nd-Look",
@@ -330,6 +333,7 @@
     "GuillaumeGomez/browser-UI-test",
     "GuyKh/ims-custom-component",
     "habamax/.vim",
+    "HabanaAI/vllm-fork",
     "hadolint/language-docker",
     "hagan/claudia-statusline",
     "hairyf/genapi",
@@ -369,6 +373,7 @@
     "IDAES/idaes-ext",
     "idanarye/nu_plugin_skim",
     "Infisical/go-sdk",
+    "inhere/php-sroute",
     "interstar/Patterning-Core",
     "ipfs/distributions",
     "ipfs/gateway-conformance",
@@ -620,6 +625,7 @@
     "slopus/slopus.github.io",
     "sophus-vision/sophus-rs",
     "Sovereign-Labs/rollup-starter",
+    "spring-projects/spring-ai-integration-tests",
     "standardrb/standard-performance",
     "Stardust-SJF/cuvs_rabitq",
     "status-im/nim-eth",

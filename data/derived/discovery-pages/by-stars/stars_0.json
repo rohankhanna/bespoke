@@ -3,14 +3,14 @@
     "components": 2786,
     "concepts": 1133,
     "observations": 1137,
-    "repos": 842,
+    "repos": 841,
     "terms": 1164
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "0xBigBoss/ghostty-web",
@@ -139,7 +139,6 @@
     "bunburysniper/bleunova-ai-agent",
     "burntsushi/linux",
     "buty4649/mruby-yyjson",
-    "byron/cargo-release",
     "cachix/crossterm",
     "cachix/nix-bindings-rust",
     "cachix/serde-envfile",

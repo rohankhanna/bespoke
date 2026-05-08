@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2005,
-    "concepts": 1756,
-    "observations": 1763,
-    "repos": 266,
-    "terms": 1744
+    "components": 2041,
+    "concepts": 1762,
+    "observations": 1769,
+    "repos": 268,
+    "terms": 1751
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -79,6 +79,7 @@
     "crytic/building-secure-contracts",
     "crytic/echidna",
     "cssnano/cssnano",
+    "Cysharp/MagicOnion",
     "dart-lang/site-www",
     "dashbitco/broadway",
     "dcloudio/hello-uniapp",
@@ -96,6 +97,7 @@
     "dotnet/fsharp",
     "dotnet/machinelearning",
     "dotnet/samples",
+    "dotnet/sdk",
     "dotnet/sourcelink",
     "durgeshsamariya/awesome-github-profile-readme-templates",
     "dwyl/learn-elixir",
@@ -147,7 +149,6 @@
     "jeremyevans/sequel",
     "johnbean393/Sidekick",
     "jpsim/SourceKitten",
-    "jpsim/Yams",
     "jruby/jruby",
     "JuliaData/DataFrames.jl",
     "JuliaLang/IJulia.jl",
@@ -160,8 +161,8 @@
     "kubernetes-monitoring/kubernetes-mixin",
     "lervag/vimtex",
     "libbpf/libbpf-bootstrap",
+    "lm-sensors/lm-sensors",
     "lowRISC/opentitan",
-    "macvim-dev/macvim",
     "MagicDuck/grug-far.nvim",
     "MahApps/MahApps.Metro",
     "markdownlint/markdownlint",
@@ -210,6 +211,7 @@
     "OrchardCMS/OrchardCore",
     "pagedjs/pagedjs",
     "phodal/auto-dev",
+    "php/pie",
     "pinterest/ktlint",
     "plotly/plotly.R",
     "Polytonic/Glitter",

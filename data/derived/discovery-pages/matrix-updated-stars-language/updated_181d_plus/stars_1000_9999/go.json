@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 310,
-    "concepts": 629,
-    "observations": 629,
-    "repos": 136,
-    "terms": 625
+    "components": 315,
+    "concepts": 632,
+    "observations": 632,
+    "repos": 137,
+    "terms": 628
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "0xPolygon/polygon-edge",
     "Adminisme/ServerScan",
@@ -83,6 +83,7 @@
     "google/uuid",
     "gorilla/schema",
     "gorilla/sessions",
+    "gosimple/slug",
     "h2non/bimg",
     "h2non/gentleman",
     "h2non/imaginary",

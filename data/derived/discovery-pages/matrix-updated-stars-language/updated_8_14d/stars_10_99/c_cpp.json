@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 105,
-    "concepts": 132,
-    "observations": 132,
-    "repos": 25,
-    "terms": 129
+    "components": 115,
+    "concepts": 146,
+    "observations": 146,
+    "repos": 26,
+    "terms": 143
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "acts-project/traccc",
@@ -34,6 +34,7 @@
     "microsoft/aitour-exploring-cutting-edge-models",
     "milvus-io/milvus-sdk-cpp",
     "mongodb/winkerberos",
+    "oneapi-src/unified-memory-framework",
     "ROCm/ROCgdb",
     "ROCm/rpp",
     "skeeto/dcmake",

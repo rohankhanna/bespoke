@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 213,
-    "concepts": 125,
-    "observations": 126,
-    "repos": 29,
-    "terms": 125
+    "components": 220,
+    "concepts": 137,
+    "observations": 138,
+    "repos": 30,
+    "terms": 137
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
+    "ankitpokhrel/shopctl",
     "apache/datasketches-go",
     "aquasecurity/trivy-java-db",
     "bitrise-io/stepman",

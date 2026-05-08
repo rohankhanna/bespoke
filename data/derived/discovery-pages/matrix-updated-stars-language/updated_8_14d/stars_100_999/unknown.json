@@ -3,7 +3,7 @@
     "components": 52,
     "concepts": 61,
     "observations": 61,
-    "repos": 17,
+    "repos": 16,
     "terms": 61
   },
   "facet_version": 1,
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
     "adoptium/temurin21-binaries",
-    "bitrise-io/bitrise-steplib",
     "box/box-openapi",
     "chromedp/cdproto",
     "fluxcd/flux2-multi-tenancy",

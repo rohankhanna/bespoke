@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 588,
-    "concepts": 712,
-    "observations": 717,
-    "repos": 123,
-    "terms": 711
+    "components": 603,
+    "concepts": 734,
+    "observations": 739,
+    "repos": 125,
+    "terms": 732
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
@@ -80,6 +80,7 @@
     "ipfs/specs",
     "j-hui/fidget.nvim",
     "jgm/djot",
+    "jpsim/Yams",
     "JuliaDocs/Franklin.jl",
     "JuliaPlots/Plots.jl",
     "kepano/obsidian-minimal",
@@ -89,6 +90,7 @@
     "liuchengxu/vim-which-key",
     "luarocks/luarocks",
     "lunarmodules/busted",
+    "macvim-dev/macvim",
     "manzaltu/claude-code-ide.el",
     "metosin/reitit",
     "mfussenegger/nvim-dap",

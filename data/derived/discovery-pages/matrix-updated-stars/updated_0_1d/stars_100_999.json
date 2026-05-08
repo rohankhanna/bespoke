@@ -1,22 +1,22 @@
 {
   "counts": {
-    "components": 454,
-    "concepts": 217,
-    "observations": 218,
-    "repos": 33,
-    "terms": 217
+    "components": 399,
+    "concepts": 204,
+    "observations": 205,
+    "repos": 31,
+    "terms": 203
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
+    "15r10nk/inline-snapshot",
     "a2aproject/a2a-js",
     "AI-Hypercomputer/maxdiffusion",
     "alloy-rs/svm-rs",
-    "apalache-mc/apalache",
     "attackgoat/vk-graph",
     "aws-cloudformation/cfn-lint-visual-studio-code",
     "clearml/clearml-agent",
@@ -28,7 +28,6 @@
     "fluent-vue/fluent-vue",
     "gbionics/adam",
     "GDevelopApp/GDevelop-extensions",
-    "gookit/gcli",
     "ipsilon/evmone",
     "karafka/rdkafka-ruby",
     "kurrent-io/KurrentDB-Client-Dotnet",
@@ -40,7 +39,6 @@
     "safe-fndn/safe-singleton-factory",
     "scverse/rapids-singlecell",
     "servo/stylo",
-    "skilld-dev/skilld",
     "stx-labs/stacks.js",
     "TinyLLaVA/TinyLLaVA_Factory",
     "unplugin/unplugin-imagemin",

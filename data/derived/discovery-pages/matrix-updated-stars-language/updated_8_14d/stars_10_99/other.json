@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 667,
-    "concepts": 405,
-    "observations": 405,
+    "components": 681,
+    "concepts": 402,
+    "observations": 402,
     "repos": 100,
-    "terms": 404
+    "terms": 401
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "AarshBatra/biteSizedAQ",
     "abarisani/abarisani.github.io",
@@ -25,7 +25,6 @@
     "arkime/arkimeweb",
     "arktekk/sbt-aether-deploy",
     "ArmandPhilippot/coldark",
-    "b-data/jupyterlab-r-docker-stack",
     "brave-intl/publishers",
     "buttondown/docs",
     "cderv/r-bucket",
@@ -54,6 +53,7 @@
     "googleapis/google-cloud-php-pubsub",
     "guoqingbao/attention.rs",
     "habamax/vim-habamax",
+    "haskell-actions/hlint-scan",
     "hermanjustnu/scoop-emulators",
     "heroku/buildpacks",
     "Humans-of-Julia/BibParser.jl",

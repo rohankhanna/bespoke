@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2428,
-    "concepts": 992,
-    "observations": 992,
-    "repos": 301,
-    "terms": 1020
+    "components": 2444,
+    "concepts": 1017,
+    "observations": 1017,
+    "repos": 304,
+    "terms": 1045
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "0xPolygonHermez/pil2-proofman-js",
@@ -66,6 +66,7 @@
     "astropy/repo_stats",
     "audeering/audonnx",
     "b-data/jupyterlab-julia-docker-stack",
+    "b-data/jupyterlab-mojo-docker-stack",
     "Badisi/wdio-harness",
     "bell-sw/osv-database",
     "beneadie/DeepDog_1",
@@ -260,10 +261,12 @@
     "reviewdog/action-composite-template",
     "ROCm/hipBLAS-common",
     "rrsaldanha/burp-mcp-agents",
+    "rstackjs/rsbuild-plugin-i18next-extractor",
     "saalfeldlab/n5-aws-s3",
     "saminiscool/twitter-ai-agent",
     "sass/sync-child-process",
     "sass/sync-message-port",
+    "scalar/starter",
     "semgrep/mcp-marketplace",
     "serpro69/capy",
     "seunghunbae-3svs/solo-cto-agent",

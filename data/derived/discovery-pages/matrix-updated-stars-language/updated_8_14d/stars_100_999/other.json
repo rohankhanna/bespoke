@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1468,
-    "concepts": 1075,
-    "observations": 1075,
-    "repos": 190,
-    "terms": 1070
+    "components": 1483,
+    "concepts": 1087,
+    "observations": 1087,
+    "repos": 192,
+    "terms": 1082
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "90-008/nix-cargo-integration",
     "actions/python-versions",
@@ -58,6 +58,7 @@
     "cortinico/ktfmt-gradle",
     "cosmos/testnets",
     "cp2k/dbcsr",
+    "dart-lang/native",
     "dauxio/daux.io",
     "day8/re-com",
     "day8/re-frame-10x",
@@ -92,6 +93,7 @@
     "hazelcast/hazelcast-csharp-client",
     "Helium314/SCEE",
     "heroku/heroku-buildpack-clojure",
+    "heroku/heroku-buildpack-scala",
     "ibhagwan/nvim-lua",
     "igraph/rigraph",
     "Iron-E/nvim-highlite",

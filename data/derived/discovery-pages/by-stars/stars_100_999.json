@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 48738,
-    "concepts": 33514,
-    "observations": 33617,
+    "concepts": 33517,
+    "observations": 33620,
     "repos": 8320,
-    "terms": 33394
+    "terms": 33382
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0k/shyaml",
@@ -187,7 +187,6 @@
     "AdamStrojek/rust-agentai",
     "adamwattis/mcp-proxy-server",
     "addyosmani/chatty",
-    "AdeDZY/DeepCT",
     "adefossez/mdx21_demucs",
     "adelarsq/neoline.vim",
     "AdguardTeam/AdGuardDNS",
@@ -1550,6 +1549,7 @@
     "cedar-policy/cedar-go",
     "cedar-policy/cedar-spec",
     "CEED/libCEED",
+    "cefsharp/CefSharp.MinimalExample",
     "CelebV-HQ/CelebV-HQ",
     "celebv-text/CelebV-Text",
     "celery/billiard",

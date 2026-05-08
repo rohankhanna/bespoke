@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1283,
-    "concepts": 223,
-    "observations": 225,
-    "repos": 33,
-    "terms": 221
+    "components": 1212,
+    "concepts": 209,
+    "observations": 209,
+    "repos": 32,
+    "terms": 207
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "agentclientprotocol/typescript-sdk",
     "AgnosticUI/agnosticui",
@@ -33,12 +33,11 @@
     "LemmyNet/lemmy-js-client",
     "mswjs/interceptors",
     "nonara/ts-patch",
-    "nuxt/bridge",
-    "ory/docs",
     "P4sca1/cron-schedule",
     "preactjs/preact-devtools",
     "radashi-org/radashi",
     "SkepticMystic/breadcrumbs",
+    "skilld-dev/skilld",
     "smithy-lang/smithy-typescript",
     "sumup-oss/circuit-ui",
     "tlaplus/vscode-tlaplus",

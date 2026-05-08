@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 53930,
-    "concepts": 34803,
-    "observations": 34910,
-    "repos": 5906,
-    "terms": 34718
+    "components": 53937,
+    "concepts": 34809,
+    "observations": 34916,
+    "repos": 5908,
+    "terms": 34714
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -1039,6 +1039,7 @@
     "ChromeDevTools/devtools-frontend",
     "ChromeDevTools/devtools-protocol",
     "chromedp/examples",
+    "chromiumembedded/cef",
     "chronotope/chrono",
     "chuanqi305/MobileNet-SSD",
     "chubin/pyphoon",
@@ -2293,6 +2294,7 @@
     "gorilla-llm/gorilla-cli",
     "gorilla/schema",
     "gorilla/sessions",
+    "gosimple/slug",
     "gotestyourself/gotestsum",
     "gothinkster/react-redux-realworld-example-app",
     "gothinkster/vue-realworld-example-app",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 637,
-    "concepts": 662,
-    "observations": 665,
-    "repos": 73,
-    "terms": 660
+    "components": 671,
+    "concepts": 678,
+    "observations": 681,
+    "repos": 75,
+    "terms": 674
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-baseline",
     "activeadmin/inherited_resources",
     "AdguardTeam/AdGuardSDNSFilter",
     "agenda/agenda",
+    "all-contributors/allcontributors.org",
     "androidx/androidx",
     "babashka/babashka",
     "badmojr/1Hosts",
@@ -58,6 +59,7 @@
     "MakieOrg/Makie.jl",
     "melpa/melpa",
     "MetaCubeX/metacubexd",
+    "microsoft/aspire-samples",
     "mikepenz/AboutLibraries",
     "mrcjkb/rustaceanvim",
     "naudio/NAudio",

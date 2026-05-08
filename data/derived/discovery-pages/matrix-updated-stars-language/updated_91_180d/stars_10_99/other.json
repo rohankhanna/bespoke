@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 341,
-    "concepts": 276,
-    "observations": 277,
-    "repos": 110,
-    "terms": 275
+    "components": 350,
+    "concepts": 278,
+    "observations": 279,
+    "repos": 111,
+    "terms": 277
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "2KAbhishek/tdo.nvim",
@@ -70,6 +70,7 @@
     "Jorenar/minPlug",
     "jpmml/r2pmml",
     "jruby/maven-tools",
+    "JuliaGraphics/Cairo.jl",
     "JuliaGraphics/ColorTypes.jl",
     "JuliaGtk/Gtk4Makie.jl",
     "JuliaLogging/ProgressLogging.jl",

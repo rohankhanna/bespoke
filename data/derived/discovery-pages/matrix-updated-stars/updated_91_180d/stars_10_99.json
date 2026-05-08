@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2004,
-    "concepts": 1024,
-    "observations": 1030,
-    "repos": 408,
-    "terms": 1024
+    "components": 2013,
+    "concepts": 1026,
+    "observations": 1032,
+    "repos": 409,
+    "terms": 1026
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "1ilkhamov/opencode-hermes-multiagent",
@@ -234,6 +234,7 @@
     "jruby/maven-tools",
     "json-schema-org/.github",
     "jsonquerylang/jsonquery-python",
+    "JuliaGraphics/Cairo.jl",
     "JuliaGraphics/ColorTypes.jl",
     "JuliaGtk/Gtk4Makie.jl",
     "JuliaInterop/libcxxwrap-julia",

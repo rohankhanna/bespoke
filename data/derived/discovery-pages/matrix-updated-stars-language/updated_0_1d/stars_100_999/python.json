@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 48,
-    "observations": 48,
-    "repos": 6,
-    "terms": 48
+    "components": 43,
+    "concepts": 63,
+    "observations": 63,
+    "repos": 7,
+    "terms": 63
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
+    "15r10nk/inline-snapshot",
     "AI-Hypercomputer/maxdiffusion",
     "clearml/clearml-agent",
     "gbionics/adam",

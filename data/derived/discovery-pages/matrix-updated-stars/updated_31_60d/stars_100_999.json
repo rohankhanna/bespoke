@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4605,
-    "concepts": 2940,
-    "observations": 2951,
-    "repos": 631,
-    "terms": 2943
+    "components": 4646,
+    "concepts": 2960,
+    "observations": 2972,
+    "repos": 636,
+    "terms": 2962
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "2KAbhishek/seeker.nvim",
@@ -170,6 +170,7 @@
     "cztomsik/ava",
     "d3/d3-format",
     "d3/d3-geo-polygon",
+    "dalance/ptags",
     "DanceTrack/DanceTrack",
     "Dao-AILab/causal-conv1d",
     "Dao-AILab/fast-hadamard-transform",
@@ -237,6 +238,7 @@
     "facebookresearch/fairo",
     "fannheyward/coc-sql",
     "fannheyward/create-coc-extension",
+    "fanshiqing/grouped_gemm",
     "FedericoPonzi/Horust",
     "fgnass/domino",
     "Fil/d3-geo-voronoi",
@@ -282,6 +284,7 @@
     "GoogleChromeLabs/wasm-feature-detect",
     "GoogleCloudPlatform/cloud-bigtable-examples",
     "GoogleCloudPlatform/cloud-opensource-java",
+    "GoogleCloudPlatform/google-cloud-node-todos",
     "gopacket/gopacket",
     "gpustack/gguf-parser-go",
     "graalvm/setup-graalvm",
@@ -436,6 +439,7 @@
     "mklement0/n-install",
     "mlcommons/algorithmic-efficiency",
     "mondeja/mkdocs-include-markdown-plugin",
+    "mosaicml/diffusion",
     "mosaicml/examples",
     "mourner/flatqueue",
     "mourner/kdbush",
@@ -492,6 +496,7 @@
     "PaddlePaddle/Paddle2ONNX",
     "PanAeon/vscode-tmgrammar-test",
     "pappasam/jedi-language-server",
+    "PDFMathTranslate/PDFMathTranslate-next",
     "pfultz2/cget",
     "phuslu/log",
     "PistonDevelopers/glfw-rs",

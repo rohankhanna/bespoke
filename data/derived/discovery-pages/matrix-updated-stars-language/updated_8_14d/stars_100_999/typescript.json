@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2044,
-    "concepts": 519,
-    "observations": 519,
-    "repos": 70,
-    "terms": 514
+    "components": 2122,
+    "concepts": 529,
+    "observations": 531,
+    "repos": 71,
+    "terms": 524
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "antfu/eslint-flat-config-utils",
     "apollographql/federation",
@@ -20,7 +20,6 @@
     "appwrite/sdk-for-web",
     "astahmer/typed-openapi",
     "aws-samples/swift-chat",
-    "azat-io/eslint-plugin-de-morgan",
     "bitwarden/directory-connector",
     "browserslist/browserslist-useragent-regexp",
     "chainguard-dev/actions",
@@ -60,11 +59,13 @@
     "mmkal/expect-type",
     "nene/prettier-plugin-sql-cst",
     "nene/sql-parser-cst",
+    "nuxt/bridge",
     "oclif/core",
     "octokit/action.js",
     "octokit/app.js",
     "octokit/auth-app.js",
     "octokit/graphql.js",
+    "ory/docs",
     "oxc-project/eslint-plugin-oxlint",
     "privatenumber/get-tsconfig",
     "redhat-developer/vscode-yaml",

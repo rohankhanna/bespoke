@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 714,
-    "concepts": 845,
-    "observations": 845,
+    "components": 722,
+    "concepts": 842,
+    "observations": 842,
     "repos": 100,
-    "terms": 839
+    "terms": 836
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/openexr",
     "AcademySoftwareFoundation/OpenImageIO",
@@ -39,8 +39,8 @@
     "facebook/igl",
     "facebook/proxygen",
     "facebook/wangle",
+    "facebookincubator/fizz",
     "Farama-Foundation/Arcade-Learning-Environment",
-    "FEniCS/dolfinx",
     "flashrom/flashrom",
     "flightlessmango/MangoHud",
     "google/shaderc",
@@ -72,7 +72,6 @@
     "microsoft/DirectML",
     "microsoft/DirectXTex",
     "microsoft/DirectXTK",
-    "microsoft/DirectXTK12",
     "microsoft/onnxruntime-genai",
     "microsoft/SPTAG",
     "miniupnp/miniupnp",
@@ -107,6 +106,7 @@
     "the-tcpdump-group/libpcap",
     "tianocore/edk2",
     "unitreerobotics/unitree_sdk2",
+    "uxlfoundation/oneDNN",
     "westes/flex",
     "YACReader/yacreader",
     "YosysHQ/nextpnr",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1447,
-    "concepts": 973,
-    "observations": 978,
-    "repos": 142,
-    "terms": 985
+    "components": 1453,
+    "concepts": 974,
+    "observations": 979,
+    "repos": 143,
+    "terms": 986
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0xPlaygrounds/rig",
@@ -126,6 +126,7 @@
     "rust-lang/futures-rs",
     "rust-lang/git2-rs",
     "rust-lang/log",
+    "rust-lang/miri",
     "rust-lang/rust-bindgen",
     "rust-postgres/rust-postgres",
     "rust-windowing/glutin",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 286,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 9,
-    "terms": 43
+    "components": 247,
+    "concepts": 41,
+    "observations": 41,
+    "repos": 8,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "a2aproject/a2a-js",
     "electron/packager",
@@ -20,7 +20,6 @@
     "LuaLS/vscode-lua",
     "mightyiam/eslint-config-love",
     "safe-fndn/safe-singleton-factory",
-    "skilld-dev/skilld",
     "stx-labs/stacks.js",
     "unplugin/unplugin-imagemin"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 503,
-    "concepts": 653,
-    "observations": 655,
-    "repos": 69,
-    "terms": 652
+    "components": 511,
+    "concepts": 673,
+    "observations": 676,
+    "repos": 70,
+    "terms": 671
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "abseil/abseil-cpp",
     "Alexays/Waybar",
@@ -40,6 +40,7 @@
     "git/git",
     "gnachman/iTerm2",
     "google/benchmark",
+    "google/filament",
     "google/flatbuffers",
     "google/sanitizers",
     "google/sentencepiece",

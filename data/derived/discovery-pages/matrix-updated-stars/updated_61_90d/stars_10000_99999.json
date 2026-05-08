@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 641,
-    "concepts": 361,
-    "observations": 365,
-    "repos": 59,
-    "terms": 368
+    "components": 536,
+    "concepts": 345,
+    "observations": 349,
+    "repos": 58,
+    "terms": 352
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
@@ -57,7 +57,6 @@
     "PKU-YuanGroup/Open-Sora-Plan",
     "QwenLM/Qwen",
     "QwenLM/Qwen-Agent",
-    "Redocly/redoc",
     "rubocop/ruby-style-guide",
     "serde-rs/serde",
     "sharkdp/hyperfine",

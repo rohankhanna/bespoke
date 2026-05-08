@@ -3,7 +3,7 @@
     "components": 188,
     "concepts": 70,
     "observations": 71,
-    "repos": 51,
+    "repos": 50,
     "terms": 70
   },
   "facet_version": 1,
@@ -12,13 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "a-liashenko/egui",
     "adiSuper94/dns-rs",
     "andreivasiliu/quad-net",
     "boundless-xyz/reth",
-    "byron/cargo-release",
     "Canvinus/cargo-near-new-example",
     "CBenoit/diplomat",
     "cgisky1980/hf-hub",

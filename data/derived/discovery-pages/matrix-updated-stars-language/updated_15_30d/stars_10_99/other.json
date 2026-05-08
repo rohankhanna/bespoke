@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1115,
-    "concepts": 602,
-    "observations": 602,
-    "repos": 168,
-    "terms": 608
+    "components": 1119,
+    "concepts": 626,
+    "observations": 626,
+    "repos": 170,
+    "terms": 632
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "3rd/config",
     "abap2UI5/samples",
@@ -44,6 +44,7 @@
     "Azure-Samples/openai-chat-app-entra-auth-local",
     "Azure/bicep-extensibility",
     "b-data/jupyterlab-python-docker-stack",
+    "b-data/jupyterlab-r-docker-stack",
     "babashka/babashka.nrepl",
     "bazel-contrib/rules_d",
     "bazel-contrib/rules_distroless",
@@ -93,6 +94,7 @@
     "i18next/react-i18next-gitbook",
     "ibmruntimes/zoslib",
     "IDAES/idaes-ext",
+    "inhere/php-sroute",
     "interstar/Patterning-Core",
     "ipfs/distributions",
     "julia-actions/julia-format",

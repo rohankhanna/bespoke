@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 331,
-    "concepts": 269,
-    "observations": 269,
+    "components": 315,
+    "concepts": 261,
+    "observations": 261,
     "repos": 61,
-    "terms": 265
+    "terms": 257
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
     "agno-agi/coda",
@@ -42,7 +42,6 @@
     "gordon-code/cuid2",
     "graalvm/oracle-graalvm-ea-builds",
     "GreptimeTeam/demo-scene",
-    "HabanaAI/vllm-fork",
     "HKU-BAL/ClairS-TO",
     "instadeepai/fastpbrl",
     "LedgerHQ/ragger",
@@ -60,6 +59,7 @@
     "plone/cookieplone",
     "pre-commit/sync-pre-commit-deps",
     "py-pdf/sample-files",
+    "qiayuanl/unitree_bringup",
     "redis/docs",
     "regro/cf-scripts",
     "rwightman/timm",

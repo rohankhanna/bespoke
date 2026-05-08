@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 401,
-    "concepts": 582,
-    "observations": 586,
-    "repos": 126,
-    "terms": 581
+    "components": 419,
+    "concepts": 589,
+    "observations": 593,
+    "repos": 128,
+    "terms": 588
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/aswf-docker",
     "ACEnglish/truvari",
@@ -91,6 +91,7 @@
     "mkdocstrings/griffe",
     "mlcommons/algorithmic-efficiency",
     "mondeja/mkdocs-include-markdown-plugin",
+    "mosaicml/diffusion",
     "mr-fatalyst/fastopenapi",
     "NeuralVox/OpenPhonemizer",
     "nicklashansen/dreamer4",
@@ -102,6 +103,7 @@
     "OSGeo/PROJ-data",
     "Osilly/Vision-DeepResearch",
     "pappasam/jedi-language-server",
+    "PDFMathTranslate/PDFMathTranslate-next",
     "pfultz2/cget",
     "pnkraemer/matfree",
     "psf/pyperf",

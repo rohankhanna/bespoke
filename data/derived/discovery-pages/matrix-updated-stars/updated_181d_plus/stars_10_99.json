@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 11137,
-    "concepts": 6410,
-    "observations": 6425,
-    "repos": 3069,
-    "terms": 6370
+    "concepts": 6414,
+    "observations": 6429,
+    "repos": 3070,
+    "terms": 6373
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -690,6 +690,7 @@
     "castorini/mr.tydi",
     "ccccczzy/icc",
     "cdcdx/lotus",
+    "cefsharp/CefSharp.Wpf.HwndHost",
     "cehoffman/luaenv",
     "celestiaorg/protobuf3-solidity",
     "celestiaorg/protobuf3-solidity-lib",
@@ -764,6 +765,7 @@
     "chrismellard/docker-credential-acr-env",
     "ChristianChiarulli/neovim-codicons",
     "Chrixtar/latent-gaussian-rasterization",
+    "chromelyapps/CefSharp",
     "chroneus/stylematte",
     "chu-tianxiang/QuIP-for-all",
     "chunqian/icecream-c",
@@ -1135,7 +1137,6 @@
     "Ehsanfarahi22/Bypassing-SNI-based-HTTPS-Filtering",
     "eira-fransham/crunchy",
     "eisneim/ltx_lora_training_i2v_t2v",
-    "EKA2L1/Compatibility-List",
     "eki3z/git-cliff.el",
     "ekovac/x86term",
     "elaforge/fast-tags",

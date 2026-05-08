@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 9200,
-    "concepts": 10918,
-    "observations": 10944,
-    "repos": 2262,
+    "concepts": 10921,
+    "observations": 10947,
+    "repos": 2263,
     "terms": 10827
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "0xPolygonHermez/pil2-proofman-js",
@@ -415,6 +415,7 @@
     "chongyi-zheng/SMPLpp",
     "chrisant996/clink",
     "chromium/chromium",
+    "chromiumembedded/cef",
     "chunqian/icecream-c",
     "chusitoo/flatbush",
     "cisco/hash-sigs",

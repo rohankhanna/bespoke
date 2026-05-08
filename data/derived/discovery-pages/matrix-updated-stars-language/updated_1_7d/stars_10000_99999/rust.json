@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 201,
-    "concepts": 195,
-    "observations": 195,
-    "repos": 15,
-    "terms": 195
+    "components": 176,
+    "concepts": 157,
+    "observations": 157,
+    "repos": 13,
+    "terms": 157
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "alacritty/alacritty",
     "astral-sh/ruff",
@@ -21,13 +21,11 @@
     "influxdata/influxdb",
     "juspay/hyperswitch",
     "LemmyNet/lemmy",
-    "pola-rs/polars",
     "qdrant/qdrant",
     "rerun-io/rerun",
     "rust-lang/mdBook",
     "shadowsocks/shadowsocks-rust",
     "tw93/Pake",
-    "vectordotdev/vector",
     "wasmerio/wasmer"
   ]
 }

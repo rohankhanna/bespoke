@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 308,
-    "concepts": 306,
-    "observations": 307,
-    "repos": 43,
-    "terms": 304
+    "components": 288,
+    "concepts": 277,
+    "observations": 278,
+    "repos": 41,
+    "terms": 277
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
-    "15r10nk/inline-snapshot",
     "adamchainz/blacken-docs",
     "agentclientprotocol/python-sdk",
     "AgileRL/AgileRL",
@@ -22,7 +21,6 @@
     "aio-libs/aiorwlock",
     "aio-libs/pytest-aiohttp",
     "alltheplaces/alltheplaces",
-    "Azure/co-op-translator",
     "Blosc/python-blosc2",
     "castorini/rank_llm",
     "cognizant-ai-lab/neuro-san",

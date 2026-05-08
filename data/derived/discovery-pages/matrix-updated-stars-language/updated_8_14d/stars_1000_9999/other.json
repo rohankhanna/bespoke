@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1613,
-    "concepts": 1399,
-    "observations": 1411,
-    "repos": 175,
-    "terms": 1391
+    "components": 1562,
+    "concepts": 1371,
+    "observations": 1383,
+    "repos": 171,
+    "terms": 1363
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "aaubry/YamlDotNet",
     "abapGit/abapGit",
@@ -51,7 +51,6 @@
     "cortinico/kotlin-android-template",
     "crosire/reshade-shaders",
     "csstools/postcss-plugins",
-    "Cysharp/MagicOnion",
     "d12frosted/homebrew-emacs-plus",
     "dafny-lang/dafny",
     "danger/danger",
@@ -69,7 +68,6 @@
     "dotfiles/dotfiles.github.com",
     "dotnet/dotnet-docker",
     "dotnet/msbuild",
-    "dotnet/sdk",
     "dotnet/wpf",
     "dusty-nv/jetson-containers",
     "elixir-ecto/ecto",
@@ -117,7 +115,6 @@
     "lewis6991/gitsigns.nvim",
     "LibreHardwareMonitor/LibreHardwareMonitor",
     "licensee/licensed",
-    "lm-sensors/lm-sensors",
     "lobsters/lobsters",
     "LuaLS/lua-language-server",
     "MacPaw/OpenAI",
@@ -150,7 +147,6 @@
     "openstreetmap-carto/openstreetmap-carto",
     "openwrt/packages",
     "pedestal/pedestal",
-    "php/pie",
     "pradyunsg/furo",
     "presidentbeef/brakeman",
     "PrismLibrary/Prism",

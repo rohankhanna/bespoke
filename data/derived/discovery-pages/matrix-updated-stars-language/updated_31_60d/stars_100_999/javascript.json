@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 834,
+    "components": 842,
     "concepts": 247,
     "observations": 247,
-    "repos": 58,
+    "repos": 59,
     "terms": 256
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "absolute-version/commit-and-tag-version",
     "actions/deploy-pages",
@@ -40,6 +40,7 @@
     "florajs/sql-parser",
     "googleapis/nodejs-bigtable",
     "GoogleChromeLabs/wasm-feature-detect",
+    "GoogleCloudPlatform/google-cloud-node-todos",
     "gruntjs/grunt-contrib-connect",
     "gruntjs/grunt-contrib-cssmin",
     "gruntjs/grunt-contrib-htmlmin",

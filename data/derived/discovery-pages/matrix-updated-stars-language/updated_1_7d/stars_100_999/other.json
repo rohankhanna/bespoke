@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 621,
-    "concepts": 407,
-    "observations": 407,
+    "components": 622,
+    "concepts": 409,
+    "observations": 409,
     "repos": 59,
-    "terms": 405
+    "terms": 406
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,20 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersRegistry",
+    "apalache-mc/apalache",
     "appwrite/sdk-generator",
     "argotorg/hevm",
     "bazel-contrib/rules_kotlin",
+    "cefsharp/CefSharp.MinimalExample",
     "CHIP-SPV/chipStar",
     "ChristopherHX/runner.server",
     "codiume/orbit",
     "cowprotocol/contracts",
     "cucumber/aruba",
     "danielrosehill/Claude-Code-Projects-Index",
-    "dart-lang/native",
     "dbkangaroo/kangaroo",
     "dennisdoomen/CSharpGuidelines",
     "devcontainers/devcontainers.github.io",
@@ -33,7 +34,6 @@
     "haskell/ghcup-hs",
     "heroku/go-getting-started",
     "heroku/heroku-buildpack-python",
-    "heroku/heroku-buildpack-scala",
     "HOL-Theorem-Prover/HOL",
     "intel/ipex-llm-tutorial",
     "istio/client-go",

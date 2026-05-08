@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 408,
-    "concepts": 360,
-    "observations": 362,
+    "components": 406,
+    "concepts": 358,
+    "observations": 360,
     "repos": 109,
-    "terms": 358
+    "terms": 356
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -51,6 +51,7 @@
     "clojure/homebrew-tools",
     "cloudfoundry/cf-uaac",
     "coin-or-tools/homebrew-coinor",
+    "contributte/monolog",
     "crazy-max/yasu",
     "curiosity-ai/hnsw-sharp",
     "DamageLabs/paper_trail_manager",
@@ -97,7 +98,6 @@
     "metosin/ring-swagger-ui",
     "MisanthropicBit/neotest-busted",
     "mit-plv/bbv",
-    "Mobile-Artificial-Intelligence/maise",
     "mugh/minecraft-bedrock-server-manager",
     "nicholasjng/nanobind-bazel",
     "NixOS/nix-installer-action",

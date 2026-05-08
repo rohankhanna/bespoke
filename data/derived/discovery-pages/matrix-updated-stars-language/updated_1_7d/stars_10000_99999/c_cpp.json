@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 240,
-    "concepts": 204,
-    "observations": 204,
-    "repos": 19,
-    "terms": 201
+    "components": 176,
+    "concepts": 162,
+    "observations": 162,
+    "repos": 16,
+    "terms": 159
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "apache/brpc",
-    "apache/thrift",
     "capnproto/capnproto",
-    "coturn/coturn",
     "duckdb/duckdb",
     "emscripten-core/emscripten",
     "ggml-org/whisper.cpp",
@@ -30,7 +28,6 @@
     "openvinotoolkit/openvino",
     "PointCloudLibrary/pcl",
     "protocolbuffers/protobuf",
-    "SerenityOS/serenity",
     "simdjson/simdjson",
     "Z3Prover/z3"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1512,
-    "concepts": 1652,
-    "observations": 1656,
-    "repos": 175,
-    "terms": 1644
+    "components": 1482,
+    "concepts": 1638,
+    "observations": 1642,
+    "repos": 172,
+    "terms": 1630
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "abhiTronix/vidgear",
@@ -70,14 +70,12 @@
     "git-cola/git-cola",
     "google-deepmind/mujoco_playground",
     "google-deepmind/mujoco_warp",
-    "google-research/scenic",
     "gpustack/gpustack",
     "hacs/integration",
     "hao-ai-lab/FastVideo",
     "HumanAIGC-Engineering/OpenAvatarChat",
     "HumanSignal/label-studio-ml-backend",
     "ibis-project/ibis",
-    "inclusionAI/AReaL",
     "inclusionAI/AWorld",
     "isaac-sim/IsaacLab",
     "jawah/niquests",
@@ -118,7 +116,6 @@
     "neo4j/neo4j-python-driver",
     "nerfstudio-project/gsplat",
     "newton-physics/newton",
-    "NVIDIA-NeMo/RL",
     "NVIDIA/Isaac-GR00T",
     "NVIDIA/Model-Optimizer",
     "NVIDIA/warp",
@@ -169,6 +166,7 @@
     "spyder-ide/spyder",
     "stanfordnlp/stanza",
     "sublimelsp/LSP",
+    "Tavish9/any4lerobot",
     "tdrussell/diffusion-pipe",
     "testcontainers/testcontainers-python",
     "theupdateframework/python-tuf",
@@ -187,7 +185,6 @@
     "wemake-services/wemake-python-styleguide",
     "xbpeng/MimicKit",
     "xdit-project/xDiT",
-    "xorbitsai/inference",
-    "Yuliang-Liu/MonkeyOCR"
+    "xorbitsai/inference"
   ]
 }

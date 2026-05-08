@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 843,
-    "concepts": 512,
-    "observations": 514,
-    "repos": 76,
-    "terms": 509
+    "components": 948,
+    "concepts": 528,
+    "observations": 530,
+    "repos": 77,
+    "terms": 525
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
@@ -70,6 +70,7 @@
     "QwenLM/Qwen3-VL",
     "ramda/ramda",
     "RasaHQ/rasa",
+    "Redocly/redoc",
     "redux-saga/redux-saga",
     "sczhou/CodeFormer",
     "slatedocs/slate",

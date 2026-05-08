@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1999,
-    "concepts": 403,
-    "observations": 404,
-    "repos": 47,
-    "terms": 401
+    "components": 1925,
+    "concepts": 383,
+    "observations": 384,
+    "repos": 44,
+    "terms": 380
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "aeharding/voyager",
     "apify/fingerprint-suite",
@@ -23,12 +23,10 @@
     "boxlite-ai/boxlite",
     "carbon-design-system/carbon-components-svelte",
     "ChromeDevTools/devtools-protocol",
-    "cloudflare/workers-sdk",
     "conventional-changelog/conventional-changelog",
     "cucumber/cucumber-js",
     "cursorless-dev/cursorless",
     "ebullient/obsidian-admonition",
-    "fern-api/fern",
     "fi3ework/vite-plugin-checker",
     "firebase/firebase-js-sdk",
     "firebase/quickstart-js",
@@ -49,7 +47,6 @@
     "OutlineFoundation/outline-apps",
     "react-cosmos/react-cosmos",
     "reactjs/react-docgen",
-    "remotion-dev/skills",
     "SilentVoid13/Templater",
     "solidjs-community/solid-primitives",
     "stackblitz-labs/pkg.pr.new",

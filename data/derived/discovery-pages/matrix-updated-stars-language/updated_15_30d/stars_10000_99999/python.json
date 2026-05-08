@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1657,
-    "concepts": 1393,
-    "observations": 1397,
-    "repos": 137,
-    "terms": 1419
+    "components": 1644,
+    "concepts": 1391,
+    "observations": 1395,
+    "repos": 136,
+    "terms": 1417
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -59,7 +59,6 @@
     "exaloop/codon",
     "exo-explore/exo",
     "fabric/fabric",
-    "facebook/prophet",
     "facebookresearch/hydra",
     "facebookresearch/xformers",
     "Farama-Foundation/Gymnasium",

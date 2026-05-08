@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 128,
-    "concepts": 163,
-    "observations": 164,
-    "repos": 15,
-    "terms": 163
+    "components": 114,
+    "concepts": 140,
+    "observations": 141,
+    "repos": 14,
+    "terms": 140
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "aden-hive/hive",
     "Dao-AILab/flash-attention",
@@ -20,7 +20,6 @@
     "huggingface/sentence-transformers",
     "jax-ml/jax",
     "Lightning-AI/pytorch-lightning",
-    "ludwig-ai/ludwig",
     "modelscope/DiffSynth-Studio",
     "modelscope/ms-swift",
     "NVIDIA-NeMo/NeMo",

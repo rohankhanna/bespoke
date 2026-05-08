@@ -4,13 +4,13 @@
     "concepts": 2773,
     "observations": 2792,
     "repos": 697,
-    "terms": 2717
+    "terms": 2710
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "shell"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1145,
-    "concepts": 1227,
-    "observations": 1233,
-    "repos": 157,
-    "terms": 1219
+    "components": 1161,
+    "concepts": 1257,
+    "observations": 1263,
+    "repos": 159,
+    "terms": 1249
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "Ableton/link",
     "AcademySoftwareFoundation/OpenColorIO",
@@ -53,6 +53,7 @@
     "eth-brownie/brownie",
     "facebookincubator/velox",
     "fastfloat/fast_float",
+    "FEniCS/dolfinx",
     "FFTW/fftw3",
     "flatpak/flatpak",
     "fluent/fluent-bit",
@@ -107,6 +108,7 @@
     "microsoft/DirectX-Graphics-Samples",
     "microsoft/DirectXMath",
     "microsoft/DirectXShaderCompiler",
+    "microsoft/DirectXTK12",
     "microsoft/microsoft-ui-xaml",
     "microsoft/react-native-macos",
     "microsoft/wil",

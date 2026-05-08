@@ -3,14 +3,14 @@
     "components": 1576,
     "concepts": 2885,
     "observations": 2889,
-    "repos": 1632,
+    "repos": 1631,
     "terms": 2889
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "unknown"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nn0/terminal-mac-cheatsheet",
@@ -661,7 +661,6 @@
     "edn-format/edn",
     "Efficient-ML/Awesome-Model-Quantization",
     "eigenfoundation/elips",
-    "EKA2L1/Compatibility-List",
     "elastic/logstash-docs",
     "EleutherAI/polyglot",
     "eliemichel/LearnWebGPU-Code",

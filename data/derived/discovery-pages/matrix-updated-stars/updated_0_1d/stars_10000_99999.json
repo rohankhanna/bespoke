@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1158,
-    "concepts": 550,
-    "observations": 553,
-    "repos": 46,
-    "terms": 559
+    "components": 1145,
+    "concepts": 527,
+    "observations": 530,
+    "repos": 45,
+    "terms": 536
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "aden-hive/hive",
     "argotorg/solidity",
@@ -33,7 +33,6 @@
     "Lightning-AI/pytorch-lightning",
     "lint-staged/lint-staged",
     "lobehub/lobehub",
-    "ludwig-ai/ludwig",
     "moby/moby",
     "modelscope/DiffSynth-Studio",
     "modelscope/ms-swift",

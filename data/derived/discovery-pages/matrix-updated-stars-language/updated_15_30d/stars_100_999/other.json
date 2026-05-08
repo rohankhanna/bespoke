@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2457,
-    "concepts": 1982,
-    "observations": 1986,
-    "repos": 332,
-    "terms": 2006
+    "components": 2447,
+    "concepts": 1978,
+    "observations": 1981,
+    "repos": 331,
+    "terms": 2002
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "a2aproject/a2a-dotnet",
@@ -148,7 +148,6 @@
     "ethpandaops/ethereum-helm-charts",
     "ethpandaops/ethereum-package",
     "EzequielRamis/zimdjson",
-    "fanshiqing/grouped_gemm",
     "filecoin-project/FIPs",
     "firebase/FirebaseUI-Flutter",
     "FluxML/NNlib.jl",

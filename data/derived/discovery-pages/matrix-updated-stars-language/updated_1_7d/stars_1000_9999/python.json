@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 281,
-    "concepts": 348,
-    "observations": 351,
+    "components": 296,
+    "concepts": 346,
+    "observations": 349,
     "repos": 37,
-    "terms": 343
+    "terms": 341
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "AI-Hypercomputer/maxtext",
     "arcee-ai/mergekit",
@@ -43,10 +43,10 @@
     "pytorch/rl",
     "pytorch/tensordict",
     "rasterio/rasterio",
+    "redis/redis-om-python",
     "safetensors/safetensors",
     "starVLA/starVLA",
     "strob/gentle",
-    "Tavish9/any4lerobot",
     "TorchIO-project/torchio",
     "viser-project/viser",
     "vyperlang/vyper",

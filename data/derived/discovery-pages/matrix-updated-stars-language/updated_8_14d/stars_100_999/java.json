@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 284,
-    "concepts": 300,
-    "observations": 300,
+    "components": 278,
+    "concepts": 293,
+    "observations": 293,
     "repos": 39,
-    "terms": 298
+    "terms": 291
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "allegro/hermes",
     "apache/commons-jexl",
@@ -40,8 +40,8 @@
     "kirill-grouchnikov/radiance",
     "michel-kraemer/bson4jackson",
     "microsoft/vscode-java-test",
-    "milvus-io/milvus-sdk-java",
     "operator-framework/java-operator-sdk",
+    "palantir/javapoet",
     "quarkiverse/quarkus-langchain4j",
     "quarkiverse/quarkus-operator-sdk",
     "reactor/reactor-addons",

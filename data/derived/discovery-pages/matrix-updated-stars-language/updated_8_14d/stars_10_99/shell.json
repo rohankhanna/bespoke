@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 82,
-    "observations": 82,
-    "repos": 20,
-    "terms": 80
+    "components": 67,
+    "concepts": 78,
+    "observations": 78,
+    "repos": 18,
+    "terms": 76
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "acmesh-official/acmetest",
     "Alexpux/MINGW-packages",
-    "Azure/aaz",
     "bufbuild/homebrew-buf",
     "cilium/community",
     "cldwalker/dotfiles",
     "cloudfoundry/cf-deployment-concourse-tasks",
     "dotenvx/dotenvx.sh",
     "electerm/electerm-web-docker",
-    "envoyproxy/examples",
     "helidon-io/helidon-examples",
     "heroku/heroku-buildpack-gradle",
     "honwen/openwrt-dnsmasq-extra",

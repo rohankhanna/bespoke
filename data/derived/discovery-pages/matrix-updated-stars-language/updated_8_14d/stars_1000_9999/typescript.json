@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4208,
-    "concepts": 817,
-    "observations": 819,
-    "repos": 91,
-    "terms": 813
+    "components": 4282,
+    "concepts": 837,
+    "observations": 839,
+    "repos": 94,
+    "terms": 833
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "acacode/swagger-typescript-api",
     "AdguardTeam/AdguardBrowserExtension",
@@ -33,6 +33,7 @@
     "callstack/react-native-testing-library",
     "Chevrotain/chevrotain",
     "chhoumann/quickadd",
+    "cloudflare/workers-sdk",
     "Comcast/react-data-grid",
     "connectrpc/connect-es",
     "dbeaver/cloudbeaver",
@@ -40,6 +41,7 @@
     "dotnet/vscode-csharp",
     "ecomfe/zrender",
     "ecyrbe/zodios",
+    "fern-api/fern",
     "ggml-org/llama.vscode",
     "google/neuroglancer",
     "graphql-hive/graphql-inspector",
@@ -76,6 +78,7 @@
     "r-lib/actions",
     "r5n-labs/vscode-react-javascript-snippets",
     "Redocly/redocly-cli",
+    "remotion-dev/skills",
     "retorquere/zotero-better-bibtex",
     "rolldown/tsdown",
     "rustmailer/bichon",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1900,
-    "concepts": 2173,
-    "observations": 2179,
-    "repos": 285,
-    "terms": 2176
+    "components": 1930,
+    "concepts": 2197,
+    "observations": 2203,
+    "repos": 289,
+    "terms": 2200
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "6551Team/opennews-mcp",
@@ -109,6 +109,7 @@
     "google-deepmind/acme",
     "google-deepmind/mujoco_menagerie",
     "google-research/FLAN",
+    "google-research/scenic",
     "google-research/t5x",
     "google/adk-samples",
     "google/clusterfuzz",
@@ -133,6 +134,7 @@
     "icip-cas/PPTAgent",
     "ijl/orjson",
     "illuin-tech/colpali",
+    "inclusionAI/AReaL",
     "intel/auto-round",
     "intel/neural-compressor",
     "intelligent-machine-learning/dlrover",
@@ -213,6 +215,7 @@
     "nousresearch/atropos",
     "NovaSky-AI/SkyRL",
     "NVIDIA-NeMo/DataDesigner",
+    "NVIDIA-NeMo/RL",
     "NVIDIA/apex",
     "NVIDIA/TransformerEngine",
     "NVlabs/Sana",
@@ -298,6 +301,7 @@
     "xlang-ai/OSWorld",
     "ymcui/Chinese-ELECTRA",
     "ymcui/Chinese-XLNet",
+    "Yuliang-Liu/MonkeyOCR",
     "yzhao062/pyod"
   ]
 }

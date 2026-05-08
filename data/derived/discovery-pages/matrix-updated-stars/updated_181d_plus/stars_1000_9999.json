@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 9806,
-    "concepts": 8456,
-    "observations": 8465,
-    "repos": 2219,
-    "terms": 8341
+    "components": 9811,
+    "concepts": 8459,
+    "observations": 8468,
+    "repos": 2220,
+    "terms": 8342
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -828,6 +828,7 @@
     "gorilla-llm/gorilla-cli",
     "gorilla/schema",
     "gorilla/sessions",
+    "gosimple/slug",
     "gothinkster/react-redux-realworld-example-app",
     "gothinkster/vue-realworld-example-app",
     "gotwarlost/istanbul",

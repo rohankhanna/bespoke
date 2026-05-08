@@ -3,8 +3,8 @@
     "components": 178,
     "concepts": 173,
     "observations": 173,
-    "repos": 32,
-    "terms": 173
+    "repos": 31,
+    "terms": 172
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "apache/iceberg-cpp",
     "asl/BandageNG",
@@ -27,7 +27,6 @@
     "foldl/chatllm.cpp",
     "heiher/hev-socks5-server",
     "heiher/hev-socks5-tproxy",
-    "HybridRobotics/motion_tracking_controller",
     "KDE/breeze-icons",
     "libsdl-org/SDL_image",
     "Mercury13/unicodia",

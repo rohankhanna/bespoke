@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1534,
-    "concepts": 1402,
-    "observations": 1408,
-    "repos": 284,
-    "terms": 1411
+    "components": 1521,
+    "concepts": 1396,
+    "observations": 1402,
+    "repos": 283,
+    "terms": 1405
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
@@ -198,7 +198,6 @@
     "mll-lab-nu/VAGEN",
     "MME-Benchmarks/Video-MME-v2",
     "modelscope/DiffSynth-Engine",
-    "mosaicml/diffusion",
     "mosecorg/mosec",
     "multiformats/multicodec",
     "nanoporetech/medaka",
@@ -220,7 +219,6 @@
     "optuna/optuna-examples",
     "pandas-dev/pandas-stubs",
     "patrick-kidger/optimistix",
-    "PDFMathTranslate/PDFMathTranslate-next",
     "pedronauck/skills",
     "petercorke/machinevision-toolbox-python",
     "pettingllms-ai/PettingLLMs",
@@ -295,6 +293,7 @@
     "voxel51/fiftyone-brain",
     "ymcui/Chinese-Mixtral",
     "ymcui/LERT",
+    "YosysHQ/sby",
     "zai-org/GLM-skills",
     "zarr-developers/numcodecs",
     "zhiqwang/yolort"

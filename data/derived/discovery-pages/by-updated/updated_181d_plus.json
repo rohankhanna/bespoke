@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 45107,
-    "concepts": 31594,
-    "observations": 31648,
-    "repos": 11614,
-    "terms": 31198
+    "components": 45112,
+    "concepts": 31601,
+    "observations": 31655,
+    "repos": 11615,
+    "terms": 31191
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "generated_at": "2026-05-08T07:13:05.364640+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01-ai/Yi-1.5",
@@ -343,7 +343,6 @@
     "adapter-hub/adapter-transformers-legacy",
     "adbar/trafilatura",
     "addyosmani/gemini-cli-tips",
-    "AdeDZY/DeepCT",
     "adefossez/demucs",
     "adefossez/mdx21_demucs",
     "adelarsq/falco_graphql_sample",
@@ -2041,7 +2040,6 @@
     "bxirobotics/robot_models",
     "byrnedo/dockdash",
     "byrnereese/linkchecker-mkdocs",
-    "byron/cargo-release",
     "byroneverson/Mia",
     "byte-fe/react-model",
     "Byte-Lab/JCoz",
@@ -2216,6 +2214,7 @@
     "cdjkim/audiocaps",
     "cdmikechen/airflow-dag-operator",
     "cedarbdd/cedar",
+    "cefsharp/CefSharp.Wpf.HwndHost",
     "cehoffman/luaenv",
     "CelebV-HQ/CelebV-HQ",
     "celebv-text/CelebV-Text",
@@ -2429,6 +2428,7 @@
     "christophschuhmann/improved-aesthetic-predictor",
     "chrisvoncsefalvay/claude-d3js-skill",
     "Chrixtar/latent-gaussian-rasterization",
+    "chromelyapps/CefSharp",
     "chromium/hterm",
     "chroneus/stylematte",
     "chronosphereio/calyptia-go-bubble-table",
@@ -3752,7 +3752,6 @@
     "eigilnikolajsen/commit-mono",
     "eira-fransham/crunchy",
     "eisneim/ltx_lora_training_i2v_t2v",
-    "EKA2L1/Compatibility-List",
     "ekalinin/github-markdown-toc",
     "ekampf/pymaybe",
     "eki3z/git-cliff.el",
@@ -4871,6 +4870,7 @@
     "gorilla/securecookie",
     "gorilla/sessions",
     "gorilla/websocket",
+    "gosimple/slug",
     "GoSimpleLLC/nbvcxz",
     "gost-dom/project-harmony",
     "got-10k/toolkit",
@@ -8843,6 +8843,7 @@
     "phracker/MacOSX-SDKs",
     "phsym/prettytable-rs",
     "phusion/node-sha3",
+    "phuslu/log-contrib",
     "phymhan/taming-transformers",
     "pi0/config-dir",
     "pickhardt/maintainers-wanted",
