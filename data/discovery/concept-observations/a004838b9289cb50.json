@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "a pretty sweet 4px wide pixel font."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Creep](screens/logo.png \"Creep logo\")"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Creep](screens/logo.png \"Creep logo\")"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "box-drawing",
+      "sense_id": "box-drawing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "box-drawing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "box-drawing",
+  "observation_id": "a004838b9289cb50",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-08T00:38:13.543216+00:00",
+  "observed_text": "box-drawing",
+  "source_context_snippet": "![Creep](screens/logo.png \"Creep logo\")",
+  "source_file": null,
+  "source_repo": "romeovs/creep",
+  "source_repo_description": "a pretty sweet 4px wide pixel font."
+}

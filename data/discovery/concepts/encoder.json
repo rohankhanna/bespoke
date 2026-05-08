@@ -151,6 +151,18 @@
       "source_repo": "francoispqt/gojay",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/francoispqt/gojay.svg?branch=master)](https://travis-ci.org/francoispqt/gojay)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-playground/form",
+      "status": "candidate-context",
+      "text": ":steam_locomotive: Decodes url.Values into Go value(s) and Encodes Go value(s) into url.Values. Dual Array and Full map support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-playground/form",
+      "status": "candidate-context",
+      "text": "Package form"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "francoispqt/gojay",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/francoispqt/gojay.svg?branch=master)](https://travis-ci.org/francoispqt/gojay)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-playground/form",
+      "status": "candidate",
+      "text": "Package form"
     }
   ],
   "candidate_related_terms": [
@@ -520,11 +538,29 @@
       "observed_at": "2026-05-07T12:51:40.300011+00:00",
       "source_file": null,
       "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "go-playground/form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "TiagoCortinhal/SalsaNext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "ultrajson/ultrajson"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

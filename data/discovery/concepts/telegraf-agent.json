@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "telegraf-agent"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "itzg/mc-monitor",
+      "status": "candidate-context",
+      "text": "Monitor the status of Minecraft servers and provides Prometheus exporter and Influx line protocol output"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itzg/mc-monitor",
+      "status": "candidate-context",
+      "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/mc-monitor)](https://hub.docker.com/r/itzg/mc-monitor)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itzg/mc-monitor",
+      "status": "candidate",
+      "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/mc-monitor)](https://hub.docker.com/r/itzg/mc-monitor)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "telegraf-agent",
+  "concept_id": "telegraf-agent",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "itzg/mc-monitor"
+    }
+  ],
+  "first_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "telegraf-agent",
+      "sense_id": "telegraf-agent#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

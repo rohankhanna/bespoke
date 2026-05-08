@@ -703,6 +703,18 @@
       "source_repo": "InternLM/HuixiangDou",
       "status": "candidate-context",
       "text": "[HuixiangDou2](https://github.com/tpoisonooo/HuixiangDou2)(ACL25) is a GraphRAG solution whose effectiveness has been demonstrated in the plant-science domain and that contributed to the [**cover paper in Cell**](https://www.cell.com/molecular-plant/issue?pii=S1674-2052(24)X0008\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "withcatai/catai",
+      "status": "candidate-context",
+      "text": "Run AI \u2728 assistant locally! with simple API for Node.js \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withcatai/catai",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1053,6 +1065,12 @@
       "source_repo": "InternLM/HuixiangDou",
       "status": "candidate",
       "text": "[HuixiangDou2](https://github.com/tpoisonooo/HuixiangDou2)(ACL25) is a GraphRAG solution whose effectiveness has been demonstrated in the plant-science domain and that contributed to the [**cover paper in Cell**](https://www.cell.com/molecular-plant/issue?pii=S1674-2052(24)X0008\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withcatai/catai",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1948,11 +1966,41 @@
       "observed_at": "2026-05-07T12:51:40.300011+00:00",
       "source_file": null,
       "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "withcatai/catai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Phi3-Vision-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "chatboxai/chatbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

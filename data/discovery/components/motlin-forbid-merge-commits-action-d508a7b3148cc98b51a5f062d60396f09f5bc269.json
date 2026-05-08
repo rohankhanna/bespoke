@@ -1,0 +1,12 @@
+{
+  "component": "motlin/forbid-merge-commits-action@d508a7b3148cc98b51a5f062d60396f09f5bc269",
+  "first_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/forbid-merge-commits.yaml",
+      "source_repo": "yaml/go-yaml"
+    }
+  ]
+}

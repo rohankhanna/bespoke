@@ -439,6 +439,18 @@
       "source_repo": "gookit/rux",
       "status": "candidate-context",
       "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/rux?style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gorilla/mux",
+      "status": "candidate-context",
+      "text": "Package gorilla/mux is a powerful HTTP router and URL matcher for building Go web servers with \ud83e\udd8d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/mux",
+      "status": "candidate-context",
+      "text": "![testing](https://github.com/gorilla/mux/actions/workflows/test.yml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -657,6 +669,12 @@
       "source_repo": "gookit/rux",
       "status": "candidate",
       "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/rux?style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/mux",
+      "status": "candidate",
+      "text": "![testing](https://github.com/gorilla/mux/actions/workflows/test.yml/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -1306,11 +1324,35 @@
       "observed_at": "2026-05-07T18:41:02.254946+00:00",
       "source_file": null,
       "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "gorilla/mux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

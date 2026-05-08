@@ -19,12 +19,30 @@
       "source_repo": "xorbitsai/inference",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "withcatai/catai",
+      "status": "candidate-context",
+      "text": "Run AI \u2728 assistant locally! with simple API for Node.js \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withcatai/catai",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "xorbitsai/inference",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withcatai/catai",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "xorbitsai/inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "withcatai/catai"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

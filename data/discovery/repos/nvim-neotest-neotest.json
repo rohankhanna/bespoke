@@ -75,7 +75,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvim-neotest/neotest",
-      "target": "mrcjkb/rustaceanvim",
+      "target": "nsidorenco/neotest-vstest",
       "target_type": "repository"
     },
     {
@@ -170,7 +170,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T10:44:26.546580+00:00",
+  "fetched_at": "2026-05-08T02:48:56.765093+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -224,7 +224,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mrcjkb/rustaceanvim",
+      "full_name": "nsidorenco/neotest-vstest",
       "source_file": "README.md"
     }
   ],

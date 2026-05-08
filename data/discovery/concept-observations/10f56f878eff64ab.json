@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Lightweight and feature-rich PHP validation and filtering library. Support scene grouping, pre-filtering, array checking, custom validators, custom messages. \u8f7b\u91cf\u4e14\u529f\u80fd\u4e30\u5bcc\u7684PHP\u9a8c\u8bc1\u3001\u8fc7\u6ee4\u5e93\u3002\u652f\u6301\u573a\u666f\u5206\u7ec4\uff0c\u524d\u7f6e\u8fc7\u6ee4\uff0c\u6570\u7ec4\u68c0\u67e5\uff0c\u81ea\u5b9a\u4e49\u9a8c\u8bc1\u5668\uff0c\u81ea\u5b9a\u4e49\u6d88\u606f\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![License](https://img.shields.io/packagist/l/inhere/php-validate.svg?style=flat-square)](LICENSE)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/packagist/l/inhere/php-validate.svg?style=flat-square)](LICENSE)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997204,
+      "status": "candidate",
+      "text": "proof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39993254,
+      "status": "candidate",
+      "text": "establishment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39775332,
+      "status": "candidate",
+      "text": "proving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30008098,
+      "status": "candidate",
+      "text": "validating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30008097,
+      "status": "candidate",
+      "text": "validated"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "validation",
+      "sense_id": "validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10016,
+      "status": "candidate",
+      "text": "validating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2022,
+      "status": "candidate",
+      "text": "proving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "establishment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "proof"
+    }
+  ],
+  "concept_id": "validation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "validation",
+  "observation_id": "10f56f878eff64ab",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-08T00:38:13.543216+00:00",
+  "observed_text": "validation",
+  "source_context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/php-validate.svg?style=flat-square)](LICENSE)",
+  "source_file": null,
+  "source_repo": "inhere/php-validate",
+  "source_repo_description": "Lightweight and feature-rich PHP validation and filtering library. Support scene grouping, pre-filtering, array checking, custom validators, custom messages. \u8f7b\u91cf\u4e14\u529f\u80fd\u4e30\u5bcc\u7684PHP\u9a8c\u8bc1\u3001\u8fc7\u6ee4\u5e93\u3002\u652f\u6301\u573a\u666f\u5206\u7ec4\uff0c\u524d\u7f6e\u8fc7\u6ee4\uff0c\u6570\u7ec4\u68c0\u67e5\uff0c\u81ea\u5b9a\u4e49\u9a8c\u8bc1\u5668\uff0c\u81ea\u5b9a\u4e49\u6d88\u606f\u3002"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "voice-mode"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aymenfurter/smartrag",
+      "status": "candidate-context",
+      "text": "Deep Research through Multi-Agents, using GraphRAG "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aymenfurter/smartrag",
+      "status": "candidate-context",
+      "text": "<div id=\"top\"></div>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aymenfurter/smartrag",
+      "status": "candidate",
+      "text": "<div id=\"top\"></div>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "voice-mode",
+  "concept_id": "voice-mode",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "aymenfurter/smartrag"
+    }
+  ],
+  "first_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "voice-mode",
+      "sense_id": "voice-mode#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

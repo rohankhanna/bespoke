@@ -34,13 +34,6 @@
   "edges": [
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "arcee-ai/mergekit",
-      "target": "arcee-ai/mergekit.",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "arcee-ai/mergekit",
       "target": "cg123/mergekit",
@@ -103,7 +96,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T13:53:10.887977+00:00",
+  "fetched_at": "2026-05-08T01:00:28.329605+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -132,20 +125,15 @@
     "html_url": "https://github.com/arcee-ai/mergekit",
     "language": "Python",
     "pushed_at": "2026-05-06T05:15:16Z",
-    "stargazers_count": 7064,
+    "stargazers_count": 7063,
     "topics": [
       "llama",
       "llm",
       "model-merging"
     ],
-    "updated_at": "2026-05-07T13:29:21Z"
+    "updated_at": "2026-05-07T19:25:49Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "arcee-ai/mergekit.",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "cg123/mergekit",

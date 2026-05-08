@@ -217,6 +217,18 @@
       "source_repo": "antfu/vitesse-nuxt-bridge",
       "status": "candidate-context",
       "text": "Archived. Try the [Nuxt 3 version](https://github.com/antfu/vitesse-nuxt3) instead."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AnotiaWang/deep-research-web-ui",
+      "status": "candidate-context",
+      "text": "(Supports DeepSeek R1) An AI-powered research assistant that performs iterative, deep research on any topic by combining search engines, web scraping, and large language models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnotiaWang/deep-research-web-ui",
+      "status": "candidate-context",
+      "text": "[English | [\u4e2d\u6587](README_zh.md)]"
     }
   ],
   "candidate_glosses": [
@@ -327,6 +339,12 @@
       "source_repo": "antfu/vitesse-nuxt-bridge",
       "status": "candidate",
       "text": "Archived. Try the [Nuxt 3 version](https://github.com/antfu/vitesse-nuxt3) instead."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnotiaWang/deep-research-web-ui",
+      "status": "candidate",
+      "text": "[English | [\u4e2d\u6587](README_zh.md)]"
     }
   ],
   "candidate_related_terms": [],
@@ -730,11 +748,35 @@
       "observed_at": "2026-05-07T18:41:02.254946+00:00",
       "source_file": null,
       "source_repo": "nuxt-modules/emotion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "pocojang/nuxt-realworld"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "nuxt-modules/emotion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "AnotiaWang/deep-research-web-ui"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

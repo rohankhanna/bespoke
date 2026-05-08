@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-08T00:54:10.670387+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6399
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v2.0",
+    "description": "lumberjack is a log rolling package for Go",
+    "fork": false,
+    "full_name": "natefinch/lumberjack",
+    "html_url": "https://github.com/natefinch/lumberjack",
+    "language": "Go",
+    "pushed_at": "2024-08-05T20:55:26Z",
+    "stargazers_count": 5421,
+    "topics": [],
+    "updated_at": "2026-05-07T22:32:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

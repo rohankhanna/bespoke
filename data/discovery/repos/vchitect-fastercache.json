@@ -1,0 +1,61 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Vchitect/FasterCache",
+      "target": "thudm/cogvideo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Vchitect/FasterCache",
+      "target": "genmoai/models",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-08T02:01:05.785272+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5556
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 639
+    },
+    {
+      "path": "requirements.txt",
+      "size": 397
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2025] FasterCache: Training-Free Video Diffusion Model Acceleration with High Quality",
+    "fork": false,
+    "full_name": "Vchitect/FasterCache",
+    "html_url": "https://github.com/Vchitect/FasterCache",
+    "language": "Python",
+    "pushed_at": "2024-12-27T08:57:19Z",
+    "stargazers_count": 261,
+    "topics": [],
+    "updated_at": "2026-04-27T12:45:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "genmoai/models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/cogvideo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

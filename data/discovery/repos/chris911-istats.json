@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-08T03:08:35.142476+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3733
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ruby gem for your mac stats",
+    "fork": false,
+    "full_name": "Chris911/iStats",
+    "html_url": "https://github.com/Chris911/iStats",
+    "language": "Ruby",
+    "pushed_at": "2023-01-29T19:26:57Z",
+    "stargazers_count": 2450,
+    "topics": [],
+    "updated_at": "2026-04-09T16:59:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

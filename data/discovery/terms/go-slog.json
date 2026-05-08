@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/go-slog.yml",
+      "source_repo": "phuslu/log"
+    }
+  ],
+  "term": "go-slog"
+}

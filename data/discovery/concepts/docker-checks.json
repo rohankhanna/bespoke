@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Docker Checks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cordx56/rustowl",
+      "status": "candidate-context",
+      "text": "Visualize Ownership and Lifetimes in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cordx56/rustowl",
+      "status": "candidate-context",
+      "text": "Docker Checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cordx56/rustowl",
+      "status": "candidate",
+      "text": "Docker Checks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12376,
+      "status": "candidate",
+      "text": "ark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11983,
+      "status": "candidate",
+      "text": "cargo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11983,
+      "status": "candidate",
+      "text": "dock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11983,
+      "status": "candidate",
+      "text": "knot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11983,
+      "status": "candidate",
+      "text": "load"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Docker Checks",
+  "concept_id": "docker-checks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/docker-checks.yml",
+      "source_repo": "cordx56/rustowl"
+    }
+  ],
+  "first_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker Checks",
+      "sense_id": "docker-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,432 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building-with-nmake.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building-with-pegof.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building-with-pegof.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-coverage-on-ubuntu.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-coverage-on-ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-compile-for--netbsd-on-ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-compile-for-android-on-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-compile-for-android-on-ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-compile-for-freebsd-on-ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-compile-for-openbsd-on-ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-compile-for-windows-on-macos.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "universal-ctags/ctags",
+      "target": "universal-ctags/ctags-win32",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "universal-ctags/ctags",
+      "target": "universal-ctags/ctags-nightly-build",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "universal-ctags/ctags",
+      "target": "universal-ctags/ctags-snap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building-with-nmake.yml",
+      "source_repo": "universal-ctags/ctags",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building-with-pegof.yml",
+      "source_repo": "universal-ctags/ctags",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-coverage-on-ubuntu.yml",
+      "source_repo": "universal-ctags/ctags",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-coverage-on-ubuntu.yml",
+      "source_repo": "universal-ctags/ctags",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-coverage-on-ubuntu.yml",
+      "source_repo": "universal-ctags/ctags",
+      "target": "upload coverage report to codecov.io",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-compile-for--netbsd-on-ubuntu.yml",
+      "source_repo": "universal-ctags/ctags",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-compile-for--netbsd-on-ubuntu.yml",
+      "source_repo": "universal-ctags/ctags",
+      "target": "cross compile for NetBSD on Ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-compile-for-android-on-macos.yml",
+      "source_repo": "universal-ctags/ctags",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-compile-for-android-on-macos.yml",
+      "source_repo": "universal-ctags/ctags",
+      "target": "cross compile for Android on macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-compile-for-android-on-ubuntu.yml",
+      "source_repo": "universal-ctags/ctags",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-compile-for-android-on-ubuntu.yml",
+      "source_repo": "universal-ctags/ctags",
+      "target": "cross compile for Android on ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-compile-for-freebsd-on-ubuntu.yml",
+      "source_repo": "universal-ctags/ctags",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-compile-for-freebsd-on-ubuntu.yml",
+      "source_repo": "universal-ctags/ctags",
+      "target": "cross compile for FreeBSD on Ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-compile-for-openbsd-on-ubuntu.yml",
+      "source_repo": "universal-ctags/ctags",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-compile-for-openbsd-on-ubuntu.yml",
+      "source_repo": "universal-ctags/ctags",
+      "target": "cross compile for OpenBSD on Ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-compile-for-windows-on-macos.yml",
+      "source_repo": "universal-ctags/ctags",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-compile-for-windows-on-macos.yml",
+      "source_repo": "universal-ctags/ctags",
+      "target": "cross compile for Windows on macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "universal-ctags/ctags",
+      "target": "code-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "universal-ctags/ctags",
+      "target": "code-completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "universal-ctags/ctags",
+      "target": "code-navigation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "universal-ctags/ctags",
+      "target": "code-reading",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "universal-ctags/ctags",
+      "target": "code-summarization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "universal-ctags/ctags",
+      "target": "ctags",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "universal-ctags/ctags",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "universal-ctags/ctags",
+      "target": "tagjumping",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T03:06:51.121576+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6313
+    },
+    {
+      "path": ".github/workflows/building-with-nmake.yml",
+      "size": 1835
+    },
+    {
+      "path": ".github/workflows/building-with-pegof.yml",
+      "size": 1451
+    },
+    {
+      "path": ".github/workflows/code-coverage-on-ubuntu.yml",
+      "size": 1212
+    },
+    {
+      "path": ".github/workflows/cross-compile-for--netbsd-on-ubuntu.yml",
+      "size": 5093
+    },
+    {
+      "path": ".github/workflows/cross-compile-for-android-on-macos.yml",
+      "size": 1347
+    },
+    {
+      "path": ".github/workflows/cross-compile-for-android-on-ubuntu.yml",
+      "size": 1511
+    },
+    {
+      "path": ".github/workflows/cross-compile-for-freebsd-on-ubuntu.yml",
+      "size": 5046
+    },
+    {
+      "path": ".github/workflows/cross-compile-for-openbsd-on-ubuntu.yml",
+      "size": 5552
+    },
+    {
+      "path": ".github/workflows/cross-compile-for-windows-on-macos.yml",
+      "size": 1044
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A maintained ctags implementation",
+    "fork": false,
+    "full_name": "universal-ctags/ctags",
+    "html_url": "https://github.com/universal-ctags/ctags",
+    "language": "C",
+    "pushed_at": "2026-05-03T09:16:39Z",
+    "stargazers_count": 7169,
+    "topics": [
+      "code-analysis",
+      "code-completion",
+      "code-navigation",
+      "code-reading",
+      "code-summarization",
+      "ctags",
+      "developer-tools",
+      "tagjumping"
+    ],
+    "updated_at": "2026-05-07T15:49:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "universal-ctags/ctags-nightly-build",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "universal-ctags/ctags-snap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "universal-ctags/ctags-win32",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "upload coverage report to codecov.io",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-coverage-on-ubuntu.yml",
+      "term": "upload coverage report to codecov.io"
+    },
+    {
+      "context_snippet": "cross compile for NetBSD on Ubuntu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-compile-for--netbsd-on-ubuntu.yml",
+      "term": "cross compile for NetBSD on Ubuntu"
+    },
+    {
+      "context_snippet": "cross compile for Android on macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-compile-for-android-on-macos.yml",
+      "term": "cross compile for Android on macOS"
+    },
+    {
+      "context_snippet": "cross compile for Android on ubuntu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-compile-for-android-on-ubuntu.yml",
+      "term": "cross compile for Android on ubuntu"
+    },
+    {
+      "context_snippet": "cross compile for FreeBSD on Ubuntu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-compile-for-freebsd-on-ubuntu.yml",
+      "term": "cross compile for FreeBSD on Ubuntu"
+    },
+    {
+      "context_snippet": "cross compile for OpenBSD on Ubuntu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-compile-for-openbsd-on-ubuntu.yml",
+      "term": "cross compile for OpenBSD on Ubuntu"
+    },
+    {
+      "context_snippet": "cross compile for Windows on macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-compile-for-windows-on-macos.yml",
+      "term": "cross compile for Windows on macOS"
+    },
+    {
+      "context_snippet": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/4355/badge.svg)](https://scan.coverity.com/projects/4355)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-analysis"
+    },
+    {
+      "context_snippet": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/4355/badge.svg)](https://scan.coverity.com/projects/4355)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-completion"
+    },
+    {
+      "context_snippet": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/4355/badge.svg)](https://scan.coverity.com/projects/4355)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-navigation"
+    },
+    {
+      "context_snippet": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/4355/badge.svg)](https://scan.coverity.com/projects/4355)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-reading"
+    },
+    {
+      "context_snippet": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/4355/badge.svg)](https://scan.coverity.com/projects/4355)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-summarization"
+    },
+    {
+      "context_snippet": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/4355/badge.svg)](https://scan.coverity.com/projects/4355)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ctags"
+    },
+    {
+      "context_snippet": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/4355/badge.svg)](https://scan.coverity.com/projects/4355)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    },
+    {
+      "context_snippet": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/4355/badge.svg)](https://scan.coverity.com/projects/4355)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tagjumping"
+    }
+  ]
+}

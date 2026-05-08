@@ -277,6 +277,18 @@
       "source_repo": "lupantech/AgentFlow",
       "status": "candidate-context",
       "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aymenfurter/smartrag",
+      "status": "candidate-context",
+      "text": "Deep Research through Multi-Agents, using GraphRAG "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aymenfurter/smartrag",
+      "status": "candidate-context",
+      "text": "<div id=\"top\"></div>"
     }
   ],
   "candidate_glosses": [
@@ -411,6 +423,12 @@
       "source_repo": "lupantech/AgentFlow",
       "status": "candidate",
       "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aymenfurter/smartrag",
+      "status": "candidate",
+      "text": "<div id=\"top\"></div>"
     }
   ],
   "candidate_related_terms": [],
@@ -898,11 +916,29 @@
       "observed_at": "2026-05-07T18:41:02.254946+00:00",
       "source_file": null,
       "source_repo": "echo-yiyiyi/cube"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "aymenfurter/smartrag"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "echo-yiyiyi/cube"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

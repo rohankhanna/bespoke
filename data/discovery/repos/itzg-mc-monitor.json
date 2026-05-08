@@ -1,0 +1,195 @@
+{
+  "components": [
+    {
+      "component": "itzg/github-workflows/.github/workflows/issues-notify-discord.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-notify.yml"
+    },
+    {
+      "component": "itzg/github-workflows/.github/workflows/go-with-releaser-image.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "itzg/github-workflows/.github/workflows/go-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "itzg/mc-monitor",
+      "target": "xrjr/mcutils",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-notify.yml",
+      "source_repo": "itzg/mc-monitor",
+      "target": "itzg/github-workflows/.github/workflows/issues-notify-discord.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-notify.yml",
+      "source_repo": "itzg/mc-monitor",
+      "target": "Issues notify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "itzg/mc-monitor",
+      "target": "itzg/github-workflows/.github/workflows/go-with-releaser-image.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "itzg/mc-monitor",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "itzg/mc-monitor",
+      "target": "itzg/github-workflows/.github/workflows/go-test.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "itzg/mc-monitor",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itzg/mc-monitor",
+      "target": "minecraft-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itzg/mc-monitor",
+      "target": "monitor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itzg/mc-monitor",
+      "target": "prometheus-exporter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itzg/mc-monitor",
+      "target": "telegraf-agent",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T00:50:52.321861+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9915
+    },
+    {
+      "path": "Dockerfile",
+      "size": 245
+    },
+    {
+      "path": "go.mod",
+      "size": 2326
+    },
+    {
+      "path": ".github/workflows/issues-notify.yml",
+      "size": 281
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 445
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 288
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Monitor the status of Minecraft servers and provides Prometheus exporter and Influx line protocol output",
+    "fork": false,
+    "full_name": "itzg/mc-monitor",
+    "html_url": "https://github.com/itzg/mc-monitor",
+    "language": "Go",
+    "pushed_at": "2026-04-26T18:03:36Z",
+    "stargazers_count": 314,
+    "topics": [
+      "minecraft-server",
+      "monitor",
+      "prometheus-exporter",
+      "telegraf-agent"
+    ],
+    "updated_at": "2026-04-26T18:03:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xrjr/mcutils",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Issues notify",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-notify.yml",
+      "term": "Issues notify"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/mc-monitor)](https://hub.docker.com/r/itzg/mc-monitor)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minecraft-server"
+    },
+    {
+      "context_snippet": "[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/mc-monitor)](https://hub.docker.com/r/itzg/mc-monitor)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitor"
+    },
+    {
+      "context_snippet": "[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/mc-monitor)](https://hub.docker.com/r/itzg/mc-monitor)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prometheus-exporter"
+    },
+    {
+      "context_snippet": "[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/mc-monitor)](https://hub.docker.com/r/itzg/mc-monitor)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "telegraf-agent"
+    }
+  ]
+}

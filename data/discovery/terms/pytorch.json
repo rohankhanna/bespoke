@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -3246,6 +3246,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "ludwig-ai/ludwig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhangYuanhan-AI/NOAH"
     }
   ],
   "term": "pytorch"

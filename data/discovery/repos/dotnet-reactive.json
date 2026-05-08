@@ -1,7 +1,7 @@
 {
   "components": [],
   "edges": [],
-  "fetched_at": "2026-05-07T14:04:17.946885+00:00",
+  "fetched_at": "2026-05-08T01:47:07.515220+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -18,9 +18,9 @@
     "html_url": "https://github.com/dotnet/reactive",
     "language": "C#",
     "pushed_at": "2026-05-06T07:06:31Z",
-    "stargazers_count": 7147,
+    "stargazers_count": 7146,
     "topics": [],
-    "updated_at": "2026-05-06T05:44:53Z"
+    "updated_at": "2026-05-07T22:24:26Z"
   },
   "repo_links": [],
   "terms": []

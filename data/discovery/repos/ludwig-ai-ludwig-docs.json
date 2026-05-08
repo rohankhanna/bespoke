@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "ludwig-ai/ludwig-docs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "ludwig-ai/ludwig-docs",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "ludwig-ai/ludwig-docs",
+      "target": "stefanzweifel/git-auto-commit-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "ludwig-ai/ludwig-docs",
+      "target": "Publish Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docs.yml",
+      "source_repo": "ludwig-ai/ludwig-docs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docs.yml",
+      "source_repo": "ludwig-ai/ludwig-docs",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-docs.yml",
+      "source_repo": "ludwig-ai/ludwig-docs",
+      "target": "Test Docs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T01:01:06.879295+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2873
+    },
+    {
+      "path": "requirements.txt",
+      "size": 3443
+    },
+    {
+      "path": ".github/workflows/publish-docs.yml",
+      "size": 2617
+    },
+    {
+      "path": ".github/workflows/test-docs.yml",
+      "size": 954
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ludwig's documentation",
+    "fork": false,
+    "full_name": "ludwig-ai/ludwig-docs",
+    "html_url": "https://github.com/ludwig-ai/ludwig-docs",
+    "language": "HTML",
+    "pushed_at": "2026-05-07T05:15:00Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2026-05-07T05:09:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "term": "Publish Docs"
+    },
+    {
+      "context_snippet": "Test Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-docs.yml",
+      "term": "Test Docs"
+    }
+  ]
+}

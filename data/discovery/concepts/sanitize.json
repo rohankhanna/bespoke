@@ -46,6 +46,18 @@
       "source_repo": "apache/datasketches-cpp",
       "status": "candidate-context",
       "text": "Sanitize"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-playground/mold",
+      "status": "candidate-context",
+      "text": ":scissors: Is a general library to help modify or set data within data structures and other objects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-playground/mold",
+      "status": "candidate-context",
+      "text": "Package mold"
     }
   ],
   "candidate_glosses": [
@@ -66,6 +78,12 @@
       "source_repo": "apache/datasketches-cpp",
       "status": "candidate",
       "text": "Sanitize"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-playground/mold",
+      "status": "candidate",
+      "text": "Package mold"
     }
   ],
   "candidate_related_terms": [
@@ -135,11 +153,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/sanitize.yml",
       "source_repo": "apache/datasketches-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "go-playground/mold"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

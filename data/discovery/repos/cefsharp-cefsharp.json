@@ -1,0 +1,230 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml.bak"
+    },
+    {
+      "component": "github/codeql-action/init@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml.bak"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml.bak"
+    },
+    {
+      "component": "github/codeql-action/analyze@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml.bak"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cefsharp/CefSharp",
+      "target": "cefsharp/cefsharp.minimalexample",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cefsharp/CefSharp",
+      "target": "cefsharp/cefsharp.wpf.hwndhost",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cefsharp/CefSharp",
+      "target": "chromiumembedded/cef",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cefsharp/CefSharp",
+      "target": "chromelyapps/cefsharp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml.bak",
+      "source_repo": "cefsharp/CefSharp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml.bak",
+      "source_repo": "cefsharp/CefSharp",
+      "target": "github/codeql-action/init@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml.bak",
+      "source_repo": "cefsharp/CefSharp",
+      "target": "github/codeql-action/autobuild@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml.bak",
+      "source_repo": "cefsharp/CefSharp",
+      "target": "github/codeql-action/analyze@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml.bak",
+      "source_repo": "cefsharp/CefSharp",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cefsharp/CefSharp",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cefsharp/CefSharp",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cefsharp/CefSharp",
+      "target": "c-sharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cefsharp/CefSharp",
+      "target": "cefsharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cefsharp/CefSharp",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cefsharp/CefSharp",
+      "target": "winforms",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T01:00:58.479223+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20240
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml.bak",
+      "size": 2188
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ".NET (WPF and Windows Forms) bindings for the Chromium Embedded Framework",
+    "fork": false,
+    "full_name": "cefsharp/CefSharp",
+    "html_url": "https://github.com/cefsharp/CefSharp",
+    "language": "C#",
+    "pushed_at": "2026-05-02T23:06:25Z",
+    "stargazers_count": 10221,
+    "topics": [
+      "browser",
+      "c-plus-plus",
+      "c-sharp",
+      "cefsharp",
+      "framework",
+      "winforms",
+      "wpf"
+    ],
+    "updated_at": "2026-05-03T19:17:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cefsharp/cefsharp.minimalexample",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cefsharp/cefsharp.wpf.hwndhost",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chromelyapps/cefsharp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chromiumembedded/cef",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml.bak",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "[![CefSharp Logo](logo.png)](https://cefsharp.github.io/ \"CefSharp - Embedded Chromium for .NET\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "[![CefSharp Logo](logo.png)](https://cefsharp.github.io/ \"CefSharp - Embedded Chromium for .NET\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "[![CefSharp Logo](logo.png)](https://cefsharp.github.io/ \"CefSharp - Embedded Chromium for .NET\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-sharp"
+    },
+    {
+      "context_snippet": "[![CefSharp Logo](logo.png)](https://cefsharp.github.io/ \"CefSharp - Embedded Chromium for .NET\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cefsharp"
+    },
+    {
+      "context_snippet": "[![CefSharp Logo](logo.png)](https://cefsharp.github.io/ \"CefSharp - Embedded Chromium for .NET\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "[![CefSharp Logo](logo.png)](https://cefsharp.github.io/ \"CefSharp - Embedded Chromium for .NET\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winforms"
+    }
+  ]
+}

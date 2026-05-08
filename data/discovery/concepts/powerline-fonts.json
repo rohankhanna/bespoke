@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "powerline-fonts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-moonwitch/Cozette",
+      "status": "candidate-context",
+      "text": "A bitmap programming font optimized for coziness \ud83d\udc9c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-moonwitch/Cozette",
+      "status": "candidate-context",
+      "text": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/the-moonwitch/Cozette?logo=github&style=flat-square)](https://github.com/the-moonwitch/Cozette/releases/latest)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-moonwitch/Cozette",
+      "status": "candidate",
+      "text": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/the-moonwitch/Cozette?logo=github&style=flat-square)](https://github.com/the-moonwitch/Cozette/releases/latest)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "powerline-fonts",
+  "concept_id": "powerline-fonts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "the-moonwitch/Cozette"
+    }
+  ],
+  "first_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "powerline-fonts",
+      "sense_id": "powerline-fonts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

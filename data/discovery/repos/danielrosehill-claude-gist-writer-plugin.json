@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Gist-Writer-Plugin",
+      "target": "danielrosehill/github-gist-mcp-minimal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Gist-Writer-Plugin",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Gist-Writer-Plugin",
+      "target": "gists",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Gist-Writer-Plugin",
+      "target": "plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T02:58:38.637785+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2313
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Gist-Writer-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Gist-Writer-Plugin",
+    "language": null,
+    "pushed_at": "2026-05-05T16:10:20Z",
+    "stargazers_count": 0,
+    "topics": [
+      "claude-code",
+      "gists",
+      "plugin"
+    ],
+    "updated_at": "2026-05-05T16:10:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/github-gist-mcp-minimal",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish content to GitHub gists with clear AI authorship and a PII pre-flight scrub for public publishes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "Publish content to GitHub gists with clear AI authorship and a PII pre-flight scrub for public publishes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gists"
+    },
+    {
+      "context_snippet": "Publish content to GitHub gists with clear AI authorship and a PII pre-flight scrub for public publishes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    }
+  ]
+}

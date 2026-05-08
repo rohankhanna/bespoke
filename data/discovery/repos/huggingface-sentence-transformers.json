@@ -31,6 +31,31 @@
       "source_file": ".github/workflows/quality.yml"
     },
     {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-skills.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-skills.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-skills.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-skills.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-skills.yml"
+    },
+    {
       "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml"
@@ -105,6 +130,34 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-skills.yml",
+      "source_repo": "huggingface/sentence-transformers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-skills.yml",
+      "source_repo": "huggingface/sentence-transformers",
+      "target": "actions/create-github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-skills.yml",
+      "source_repo": "huggingface/sentence-transformers",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-skills.yml",
+      "source_repo": "huggingface/sentence-transformers",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "huggingface/sentence-transformers",
       "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
@@ -132,15 +185,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T13:54:22.119966+00:00",
+  "fetched_at": "2026-05-08T01:02:19.695964+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 15463
+      "size": 15749
     },
     {
       "path": "pyproject.toml",
-      "size": 4097
+      "size": 4850
     },
     {
       "path": ".github/workflows/min-versions.yml",
@@ -151,23 +204,27 @@
       "size": 813
     },
     {
+      "path": ".github/workflows/sync-skills.yml",
+      "size": 3711
+    },
+    {
       "path": ".github/workflows/tests.yml",
-      "size": 2914
+      "size": 2930
     }
   ],
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
-    "description": "State-of-the-Art Text Embeddings",
+    "description": "State-of-the-Art Embeddings, Retrieval, and Reranking",
     "fork": false,
     "full_name": "huggingface/sentence-transformers",
     "html_url": "https://github.com/huggingface/sentence-transformers",
     "language": "Python",
-    "pushed_at": "2026-05-07T10:01:19Z",
+    "pushed_at": "2026-05-07T15:04:30Z",
     "stargazers_count": 18644,
     "topics": [],
-    "updated_at": "2026-05-07T11:45:04Z"
+    "updated_at": "2026-05-07T15:14:30Z"
   },
   "repo_links": [],
   "terms": [

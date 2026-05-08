@@ -751,6 +751,18 @@
       "source_repo": "360CVGroup/Qihoo-T2X",
       "status": "candidate-context",
       "text": "This is the official reproduction of [Qihoo-T2X](https://360cvgroup.github.io/Qihoo-T2X/), which represents a groundbreaking DiT architecture paradigm designed for Text-to-Any tasks."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AniAggarwal/ecad",
+      "status": "candidate-context",
+      "text": "[ICLR 2026] Code for Evolutionary Caching to Accelerate Your Off-the-Shelf Diffusion Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AniAggarwal/ecad",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1125,6 +1137,12 @@
       "source_repo": "360CVGroup/Qihoo-T2X",
       "status": "candidate",
       "text": "This is the official reproduction of [Qihoo-T2X](https://360cvgroup.github.io/Qihoo-T2X/), which represents a groundbreaking DiT architecture paradigm designed for Text-to-Any tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AniAggarwal/ecad",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1894,11 +1912,35 @@
       "observed_at": "2026-05-07T12:51:40.300011+00:00",
       "source_file": null,
       "source_repo": "showlab/VisorGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "AniAggarwal/ecad"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "showlab/VisorGPT"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

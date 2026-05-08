@@ -103,6 +103,30 @@
       "source_repo": "gookit/slog",
       "status": "candidate-context",
       "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/slog?style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phuslu/log",
+      "status": "candidate-context",
+      "text": "Fastest structured logging"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phuslu/log",
+      "status": "candidate-context",
+      "text": "[![godoc][godoc-img]][godoc]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Seldaek/monolog",
+      "status": "candidate-context",
+      "text": "Sends your logs to files, sockets, inboxes, databases and various web services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Seldaek/monolog",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"logo.jpg\" alt=\"Monolog\" width=\"400\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "gookit/slog",
       "status": "candidate",
       "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/slog?style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phuslu/log",
+      "status": "candidate",
+      "text": "[![godoc][godoc-img]][godoc]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Seldaek/monolog",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"logo.jpg\" alt=\"Monolog\" width=\"400\"></p>"
     }
   ],
   "candidate_related_terms": [
@@ -250,11 +286,23 @@
       "observed_at": "2026-05-07T12:51:40.300011+00:00",
       "source_file": null,
       "source_repo": "gookit/slog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "phuslu/log"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "Seldaek/monolog"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

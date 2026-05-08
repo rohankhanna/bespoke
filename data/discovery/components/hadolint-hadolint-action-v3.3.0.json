@@ -1,7 +1,7 @@
 {
   "component": "hadolint/hadolint-action@v3.3.0",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -62,6 +62,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/verify.yml",
       "source_repo": "itzg/docker-mc-backup"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-checks.yml",
+      "source_repo": "cordx56/rustowl"
     }
   ]
 }

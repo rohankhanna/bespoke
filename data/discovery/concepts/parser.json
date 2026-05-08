@@ -1063,6 +1063,18 @@
       "source_repo": "go-ini/ini",
       "status": "candidate-context",
       "text": "[![GitHub Workflow Status](https://img.shields.io/github/checks-status/go-ini/ini/main?logo=github&style=for-the-badge)](https://github.com/go-ini/ini/actions?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-playground/form",
+      "status": "candidate-context",
+      "text": ":steam_locomotive: Decodes url.Values into Go value(s) and Encodes Go value(s) into url.Values. Dual Array and Full map support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-playground/form",
+      "status": "candidate-context",
+      "text": "Package form"
     }
   ],
   "candidate_glosses": [
@@ -1593,6 +1605,12 @@
       "source_repo": "go-ini/ini",
       "status": "candidate",
       "text": "[![GitHub Workflow Status](https://img.shields.io/github/checks-status/go-ini/ini/main?logo=github&style=for-the-badge)](https://github.com/go-ini/ini/actions?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-playground/form",
+      "status": "candidate",
+      "text": "Package form"
     }
   ],
   "candidate_related_terms": [
@@ -2308,11 +2326,23 @@
       "observed_at": "2026-05-07T18:41:02.254946+00:00",
       "source_file": null,
       "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "go-playground/form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

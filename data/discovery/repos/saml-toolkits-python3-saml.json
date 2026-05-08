@@ -58,13 +58,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "SAML-Toolkits/python3-saml",
-      "target": "distributedweaknessfiling/dwf-database-artifacts",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "SAML-Toolkits/python3-saml",
       "target": "onelogin/python3-saml",
       "target_type": "repository"
     },
@@ -90,7 +83,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-07T14:11:44.361480+00:00",
+  "fetched_at": "2026-05-08T01:59:08.708771+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -115,16 +108,11 @@
     "html_url": "https://github.com/SAML-Toolkits/python3-saml",
     "language": "Python",
     "pushed_at": "2026-01-14T03:53:12Z",
-    "stargazers_count": 752,
+    "stargazers_count": 749,
     "topics": [],
-    "updated_at": "2026-04-16T02:06:00Z"
+    "updated_at": "2026-05-07T15:44:23Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "distributedweaknessfiling/dwf-database-artifacts",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "onelogin/python-saml",

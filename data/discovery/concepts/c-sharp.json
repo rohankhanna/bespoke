@@ -343,6 +343,18 @@
       "source_repo": "Cysharp/MagicOnion",
       "status": "candidate-context",
       "text": "[![Build](https://github.com/Cysharp/MagicOnion/actions/workflows/build.yaml/badge.svg)](https://github.com/Cysharp/MagicOnion/actions/workflows/build.yml) [![Build Canary](https://github.com/Cysharp/MagicOnion/actions/workflows/build-canary.yaml/badge.svg)](https://github.com/C\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cefsharp/CefSharp",
+      "status": "candidate-context",
+      "text": ".NET (WPF and Windows Forms) bindings for the Chromium Embedded Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cefsharp/CefSharp",
+      "status": "candidate-context",
+      "text": "[![CefSharp Logo](logo.png)](https://cefsharp.github.io/ \"CefSharp - Embedded Chromium for .NET\")"
     }
   ],
   "candidate_glosses": [
@@ -513,6 +525,12 @@
       "source_repo": "Cysharp/MagicOnion",
       "status": "candidate",
       "text": "[![Build](https://github.com/Cysharp/MagicOnion/actions/workflows/build.yaml/badge.svg)](https://github.com/Cysharp/MagicOnion/actions/workflows/build.yml) [![Build Canary](https://github.com/Cysharp/MagicOnion/actions/workflows/build-canary.yaml/badge.svg)](https://github.com/C\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cefsharp/CefSharp",
+      "status": "candidate",
+      "text": "[![CefSharp Logo](logo.png)](https://cefsharp.github.io/ \"CefSharp - Embedded Chromium for .NET\")"
     }
   ],
   "candidate_related_terms": [
@@ -742,11 +760,17 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "Cysharp/MagicOnion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "cefsharp/CefSharp"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

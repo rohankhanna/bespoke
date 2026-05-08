@@ -5267,6 +5267,54 @@
       "source_repo": "berachain/polaris",
       "status": "candidate-context",
       "text": "This project is deprecated. If you are interested in maintaining it, please contact itsdevbear on GitHub or Twitter."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-playground/mold",
+      "status": "candidate-context",
+      "text": ":scissors: Is a general library to help modify or set data within data structures and other objects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-playground/mold",
+      "status": "candidate-context",
+      "text": "Package mold"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gorilla/mux",
+      "status": "candidate-context",
+      "text": "Package gorilla/mux is a powerful HTTP router and URL matcher for building Go web servers with \ud83e\udd8d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/mux",
+      "status": "candidate-context",
+      "text": "![testing](https://github.com/gorilla/mux/actions/workflows/test.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phuslu/log",
+      "status": "candidate-context",
+      "text": "Fastest structured logging"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phuslu/log",
+      "status": "candidate-context",
+      "text": "[![godoc][godoc-img]][godoc]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xrjr/mcutils",
+      "status": "candidate-context",
+      "text": "Implementation of Minecraft protocols in Go : ping, query, rcon and bedrock ping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xrjr/mcutils",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -7909,6 +7957,30 @@
       "source_repo": "berachain/polaris",
       "status": "candidate",
       "text": "This project is deprecated. If you are interested in maintaining it, please contact itsdevbear on GitHub or Twitter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-playground/mold",
+      "status": "candidate",
+      "text": "Package mold"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/mux",
+      "status": "candidate",
+      "text": "![testing](https://github.com/gorilla/mux/actions/workflows/test.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phuslu/log",
+      "status": "candidate",
+      "text": "[![godoc][godoc-img]][godoc]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xrjr/mcutils",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -12122,11 +12194,113 @@
       "observed_at": "2026-05-07T18:41:02.254946+00:00",
       "source_file": null,
       "source_repo": "nutsdb/nutsdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "trknhr/2048-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "go-playground/mold"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "gorilla/mux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "phuslu/log"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "stephenlacy/daz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "rainbend/frp-notify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "nutsdb/nutsdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "xrjr/mcutils"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

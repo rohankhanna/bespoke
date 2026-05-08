@@ -141,7 +141,7 @@
       "source_file": ".github/workflows/android.yaml"
     },
     {
-      "component": "actions/setup-java@8df1039502a15bceb9433410b1a100fbe190c53b",
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/android.yaml"
     },
@@ -201,7 +201,7 @@
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "actions/setup-java@8df1039502a15bceb9433410b1a100fbe190c53b",
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
@@ -266,7 +266,7 @@
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "actions/setup-java@8df1039502a15bceb9433410b1a100fbe190c53b",
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
@@ -326,7 +326,7 @@
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "actions/setup-java@8df1039502a15bceb9433410b1a100fbe190c53b",
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
@@ -366,7 +366,7 @@
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "actions/setup-java@8df1039502a15bceb9433410b1a100fbe190c53b",
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
@@ -406,7 +406,7 @@
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml"
     },
     {
-      "component": "actions/setup-java@8df1039502a15bceb9433410b1a100fbe190c53b",
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml"
     },
@@ -476,7 +476,7 @@
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml"
     },
     {
-      "component": "actions/setup-java@8df1039502a15bceb9433410b1a100fbe190c53b",
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml"
     },
@@ -506,7 +506,7 @@
       "source_file": ".github/workflows/ios.yaml"
     },
     {
-      "component": "actions/setup-java@8df1039502a15bceb9433410b1a100fbe190c53b",
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ios.yaml"
     },
@@ -561,7 +561,7 @@
       "source_file": ".github/workflows/macos.yaml"
     },
     {
-      "component": "actions/setup-java@8df1039502a15bceb9433410b1a100fbe190c53b",
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/macos.yaml"
     },
@@ -697,7 +697,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/android.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "actions/setup-java@8df1039502a15bceb9433410b1a100fbe190c53b",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
       "target_type": "component"
     },
     {
@@ -774,7 +774,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "actions/setup-java@8df1039502a15bceb9433410b1a100fbe190c53b",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
       "target_type": "component"
     },
     {
@@ -872,7 +872,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "actions/setup-java@8df1039502a15bceb9433410b1a100fbe190c53b",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
       "target_type": "component"
     },
     {
@@ -956,7 +956,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ios.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "actions/setup-java@8df1039502a15bceb9433410b1a100fbe190c53b",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
       "target_type": "component"
     },
     {
@@ -1026,7 +1026,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/macos.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "actions/setup-java@8df1039502a15bceb9433410b1a100fbe190c53b",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
       "target_type": "component"
     },
     {
@@ -1163,7 +1163,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T14:11:11.517446+00:00",
+  "fetched_at": "2026-05-08T01:58:19.001782+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1215,15 +1215,15 @@
     "full_name": "firebase/flutterfire",
     "html_url": "https://github.com/firebase/flutterfire",
     "language": "Dart",
-    "pushed_at": "2026-05-07T08:00:07Z",
-    "stargazers_count": 9194,
+    "pushed_at": "2026-05-07T22:48:10Z",
+    "stargazers_count": 9195,
     "topics": [
       "dart",
       "firebase",
       "flutter",
       "google"
     ],
-    "updated_at": "2026-05-07T11:48:59Z"
+    "updated_at": "2026-05-07T20:40:54Z"
   },
   "repo_links": [
     {

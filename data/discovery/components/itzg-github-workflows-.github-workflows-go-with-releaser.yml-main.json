@@ -1,0 +1,12 @@
+{
+  "component": "itzg/github-workflows/.github/workflows/go-with-releaser.yml@main",
+  "first_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "itzg/entrypoint-demoter"
+    }
+  ]
+}

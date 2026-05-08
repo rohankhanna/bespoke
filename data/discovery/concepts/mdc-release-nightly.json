@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "MDC Release (Nightly)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "material-components/material-components-web",
+      "status": "candidate-context",
+      "text": "Modular and customizable Material Design UI components for the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "material-components/material-components-web",
+      "status": "candidate-context",
+      "text": "MDC Release (Nightly)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "material-components/material-components-web",
+      "status": "candidate",
+      "text": "MDC Release (Nightly)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17404,
+      "status": "candidate",
+      "text": "traffic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17364,
+      "status": "candidate",
+      "text": "cam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17364,
+      "status": "candidate",
+      "text": "doc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17364,
+      "status": "candidate",
+      "text": "gam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17364,
+      "status": "candidate",
+      "text": "movement"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "MDC Release (Nightly)",
+  "concept_id": "mdc-release-nightly",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/release-nightly.yml",
+      "source_repo": "material-components/material-components-web"
+    }
+  ],
+  "first_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "MDC Release (Nightly)",
+      "sense_id": "mdc-release-nightly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

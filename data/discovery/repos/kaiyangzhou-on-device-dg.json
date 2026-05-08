@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-08T01:52:05.218166+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6356
+    },
+    {
+      "path": "requirements.txt",
+      "size": 14
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "On-Device Domain Generalization",
+    "fork": false,
+    "full_name": "KaiyangZhou/on-device-dg",
+    "html_url": "https://github.com/KaiyangZhou/on-device-dg",
+    "language": "Python",
+    "pushed_at": "2022-11-09T02:14:07Z",
+    "stargazers_count": 46,
+    "topics": [],
+    "updated_at": "2026-01-15T11:29:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

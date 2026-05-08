@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Make a release, upload artifacts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mstorsjo/llvm-mingw",
+      "status": "candidate-context",
+      "text": "An LLVM/Clang/LLD based mingw-w64 toolchain"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mstorsjo/llvm-mingw",
+      "status": "candidate-context",
+      "text": "Make a release, upload artifacts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mstorsjo/llvm-mingw",
+      "status": "candidate",
+      "text": "Make a release, upload artifacts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37039,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35656,
+      "status": "candidate",
+      "text": "free"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33856,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33447,
+      "status": "candidate",
+      "text": "sacrifice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32631,
+      "status": "candidate",
+      "text": "clean"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Make a release, upload artifacts",
+  "concept_id": "make-a-release-upload-artifacts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mstorsjo/llvm-mingw"
+    }
+  ],
+  "first_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Make a release, upload artifacts",
+      "sense_id": "make-a-release-upload-artifacts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

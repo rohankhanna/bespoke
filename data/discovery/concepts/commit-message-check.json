@@ -153,6 +153,18 @@
       "source_repo": "drmingdrmer/display-more",
       "status": "candidate-context",
       "text": "'commit-message-check'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yaml/go-yaml",
+      "status": "candidate-context",
+      "text": "The YAML org maintained fork of https://github.com/go-yaml/yaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yaml/go-yaml",
+      "status": "candidate-context",
+      "text": "Commit Message Check"
     }
   ],
   "candidate_glosses": [
@@ -227,6 +239,12 @@
       "source_repo": "drmingdrmer/display-more",
       "status": "candidate",
       "text": "'commit-message-check'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yaml/go-yaml",
+      "status": "candidate",
+      "text": "Commit Message Check"
     }
   ],
   "candidate_related_terms": [
@@ -348,11 +366,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/commit-message-check.yml",
       "source_repo": "drmingdrmer/display-more"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/check-commit-message.yaml",
+      "source_repo": "yaml/go-yaml"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

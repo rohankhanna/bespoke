@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-08T02:58:39.925971+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2333
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Github-Explorer-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Github-Explorer-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-29T10:45:56Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-29T10:46:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

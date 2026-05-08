@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "IdreesInc/Monocraft",
-      "target": "idreesinc/minecraft-font",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "IdreesInc/Monocraft",
       "target": "nerdypepper/scientifica",
       "target_type": "repository"
     },
@@ -58,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T08:42:47.958002+00:00",
+  "fetched_at": "2026-05-08T00:50:40.863635+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -79,7 +72,7 @@
     "html_url": "https://github.com/IdreesInc/Monocraft",
     "language": "Python",
     "pushed_at": "2026-01-01T20:31:24Z",
-    "stargazers_count": 10565,
+    "stargazers_count": 10572,
     "topics": [
       "font",
       "fonts",
@@ -88,14 +81,9 @@
       "minecraft",
       "typeface"
     ],
-    "updated_at": "2026-05-06T21:42:36Z"
+    "updated_at": "2026-05-08T00:28:50Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "idreesinc/minecraft-font",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "nerdypepper/scientifica",

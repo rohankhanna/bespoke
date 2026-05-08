@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Implementation of Minecraft protocols in Go : ping, query, rcon and bedrock ping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968668,
+      "status": "candidate",
+      "text": "knock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29961955,
+      "status": "candidate",
+      "text": "wave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29940690,
+      "status": "candidate",
+      "text": "chek"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29938894,
+      "status": "candidate",
+      "text": "tie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29931808,
+      "status": "candidate",
+      "text": "snooping"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ping",
+      "sense_id": "ping#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13046,
+      "status": "candidate",
+      "text": "knock"
+    }
+  ],
+  "concept_id": "ping",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ping",
+  "observation_id": "70ca87707853ed2d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-08T00:38:13.543216+00:00",
+  "observed_text": "ping",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "xrjr/mcutils",
+  "source_repo_description": "Implementation of Minecraft protocols in Go : ping, query, rcon and bedrock ping."
+}

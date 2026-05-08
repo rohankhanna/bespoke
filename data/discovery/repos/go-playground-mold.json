@@ -1,0 +1,229 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "shogo82148/actions-goveralls@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-playground/mold",
+      "target": "gosimple/slug",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "go-playground/mold",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "go-playground/mold",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "go-playground/mold",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "go-playground/mold",
+      "target": "shogo82148/actions-goveralls@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "go-playground/mold",
+      "target": "golangci/golangci-lint-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "go-playground/mold",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-playground/mold",
+      "target": "clean",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-playground/mold",
+      "target": "go-playground",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-playground/mold",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-playground/mold",
+      "target": "modify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-playground/mold",
+      "target": "mold",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-playground/mold",
+      "target": "sanitize",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-playground/mold",
+      "target": "scrub",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T00:53:50.746594+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6406
+    },
+    {
+      "path": "go.mod",
+      "size": 512
+    },
+    {
+      "path": ".github/workflows/workflow.yml",
+      "size": 1210
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":scissors: Is a general library to help modify or set data within data structures and other objects.",
+    "fork": false,
+    "full_name": "go-playground/mold",
+    "html_url": "https://github.com/go-playground/mold",
+    "language": "Go",
+    "pushed_at": "2024-12-29T18:52:52Z",
+    "stargazers_count": 297,
+    "topics": [
+      "clean",
+      "go",
+      "go-playground",
+      "golang",
+      "modify",
+      "mold",
+      "sanitize",
+      "scrub"
+    ],
+    "updated_at": "2026-04-23T19:16:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gosimple/slug",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Package mold",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clean"
+    },
+    {
+      "context_snippet": "Package mold",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "go-playground"
+    },
+    {
+      "context_snippet": "Package mold",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "Package mold",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modify"
+    },
+    {
+      "context_snippet": "Package mold",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mold"
+    },
+    {
+      "context_snippet": "Package mold",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sanitize"
+    },
+    {
+      "context_snippet": "Package mold",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scrub"
+    }
+  ]
+}

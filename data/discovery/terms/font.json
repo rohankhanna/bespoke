@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
-  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -391,6 +391,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "oppiliappan/scientifica"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "romeovs/creep"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "the-moonwitch/Cozette"
     }
   ],
   "term": "font"

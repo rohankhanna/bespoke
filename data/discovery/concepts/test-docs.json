@@ -69,6 +69,18 @@
       "source_repo": "scikit-image/scikit-image",
       "status": "candidate-context",
       "text": "Test docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ludwig-ai/ludwig-docs",
+      "status": "candidate-context",
+      "text": "Ludwig's documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ludwig-ai/ludwig-docs",
+      "status": "candidate-context",
+      "text": "Test Docs"
     }
   ],
   "candidate_glosses": [
@@ -101,6 +113,12 @@
       "source_repo": "scikit-image/scikit-image",
       "status": "candidate",
       "text": "Test docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ludwig-ai/ludwig-docs",
+      "status": "candidate",
+      "text": "Test Docs"
     }
   ],
   "candidate_related_terms": [
@@ -426,11 +444,29 @@
       "observed_at": "2026-05-07T12:51:40.300011+00:00",
       "source_file": ".github/workflows/test_docs.yml",
       "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/test-docs.yml",
+      "source_repo": "ludwig-ai/ludwig-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "567-labs/instructor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "15r10nk/inline-snapshot"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

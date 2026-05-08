@@ -67,6 +67,18 @@
       "source_repo": "hicchicc/x8y12pxDenkiChip",
       "status": "candidate-context",
       "text": "![DenkiChip](documentation/x8y12pxDenkiChip.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "romeovs/creep",
+      "status": "candidate-context",
+      "text": "a pretty sweet 4px wide pixel font."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "romeovs/creep",
+      "status": "candidate-context",
+      "text": "![Creep](screens/logo.png \"Creep logo\")"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "hicchicc/x8y12pxDenkiChip",
       "status": "candidate",
       "text": "![DenkiChip](documentation/x8y12pxDenkiChip.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "romeovs/creep",
+      "status": "candidate",
+      "text": "![Creep](screens/logo.png \"Creep logo\")"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "hicchicc/x8y12pxDenkiChip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "romeovs/creep"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

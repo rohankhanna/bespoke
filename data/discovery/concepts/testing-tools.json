@@ -325,6 +325,18 @@
       "source_repo": "gookit/goutil",
       "status": "candidate-context",
       "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/goutil?style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dezoito/ollama-grid-search",
+      "status": "candidate-context",
+      "text": "A multi-platform desktop application to evaluate and compare LLM models, written in Rust and React."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dezoito/ollama-grid-search",
+      "status": "candidate-context",
+      "text": "This project automates the process of selecting the best models, prompts, or inference parameters for a given use-case, allowing you to iterate over their combinations and to visually inspect the results."
     }
   ],
   "candidate_glosses": [
@@ -483,6 +495,12 @@
       "source_repo": "gookit/goutil",
       "status": "candidate",
       "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/goutil?style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dezoito/ollama-grid-search",
+      "status": "candidate",
+      "text": "This project automates the process of selecting the best models, prompts, or inference parameters for a given use-case, allowing you to iterate over their combinations and to visually inspect the results."
     }
   ],
   "candidate_related_terms": [],
@@ -658,11 +676,17 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": null,
       "source_repo": "gookit/goutil"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "dezoito/ollama-grid-search"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

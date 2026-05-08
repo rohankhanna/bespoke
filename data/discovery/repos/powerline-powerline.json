@@ -95,7 +95,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T18:56:54.562977+00:00",
+  "fetched_at": "2026-05-08T03:08:36.673561+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -116,7 +116,7 @@
     "html_url": "https://github.com/powerline/powerline",
     "language": "Python",
     "pushed_at": "2026-03-11T01:18:21Z",
-    "stargazers_count": 14742,
+    "stargazers_count": 14744,
     "topics": [
       "bash",
       "fish",
@@ -129,7 +129,7 @@
       "vim",
       "zsh"
     ],
-    "updated_at": "2026-05-01T08:11:16Z"
+    "updated_at": "2026-05-06T20:59:02Z"
   },
   "repo_links": [],
   "terms": [

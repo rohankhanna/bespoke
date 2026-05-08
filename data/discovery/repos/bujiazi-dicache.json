@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-08T02:01:02.517791+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 1041
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2026] Official implementation of DiCache: Let Diffusion Model Determine Its Own Cache",
+    "fork": false,
+    "full_name": "Bujiazi/DiCache",
+    "html_url": "https://github.com/Bujiazi/DiCache",
+    "language": "Python",
+    "pushed_at": "2026-01-26T14:21:54Z",
+    "stargazers_count": 60,
+    "topics": [],
+    "updated_at": "2026-04-26T12:37:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

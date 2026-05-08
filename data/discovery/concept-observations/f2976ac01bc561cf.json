@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A little RCON cli based on james4k's RCON library for golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/itzg/rcon-cli)](https://github.com/itzg/rcon-cli/releases/latest)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/itzg/rcon-cli)](https://github.com/itzg/rcon-cli/releases/latest)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rcon-client",
+      "sense_id": "rcon-client#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rcon-client",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rcon-client",
+  "observation_id": "f2976ac01bc561cf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-08T00:38:13.543216+00:00",
+  "observed_text": "rcon-client",
+  "source_context_snippet": "[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/itzg/rcon-cli)](https://github.com/itzg/rcon-cli/releases/latest)",
+  "source_file": null,
+  "source_repo": "itzg/rcon-cli",
+  "source_repo_description": "A little RCON cli based on james4k's RCON library for golang"
+}

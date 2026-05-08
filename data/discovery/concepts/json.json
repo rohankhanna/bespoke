@@ -1651,6 +1651,18 @@
       "source_repo": "francoispqt/gojay",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/francoispqt/gojay.svg?branch=master)](https://travis-ci.org/francoispqt/gojay)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phuslu/log",
+      "status": "candidate-context",
+      "text": "Fastest structured logging"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phuslu/log",
+      "status": "candidate-context",
+      "text": "[![godoc][godoc-img]][godoc]"
     }
   ],
   "candidate_glosses": [
@@ -2475,6 +2487,12 @@
       "source_repo": "francoispqt/gojay",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/francoispqt/gojay.svg?branch=master)](https://travis-ci.org/francoispqt/gojay)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phuslu/log",
+      "status": "candidate",
+      "text": "[![godoc][godoc-img]][godoc]"
     }
   ],
   "candidate_related_terms": [
@@ -4053,11 +4071,53 @@
       "observed_at": "2026-05-07T18:41:02.254946+00:00",
       "source_file": null,
       "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "phuslu/log"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/quotes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

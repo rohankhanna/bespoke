@@ -6,22 +6,17 @@
       "source_file": "package.json"
     },
     {
+      "component": "@rollup/plugin-terser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "data-modal",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
     {
       "component": "dotenv",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "google-utils",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "igv-utils",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -44,11 +39,6 @@
       "component": "rollup-plugin-copy",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
-    },
-    {
-      "component": "rollup-plugin-terser",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
     }
   ],
   "edges": [
@@ -63,6 +53,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "aidenlab/juicebox-web",
+      "target": "@rollup/plugin-terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aidenlab/juicebox-web",
       "target": "data-modal",
       "target_type": "component"
     },
@@ -71,20 +68,6 @@
       "source_file": "package.json",
       "source_repo": "aidenlab/juicebox-web",
       "target": "dotenv",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "aidenlab/juicebox-web",
-      "target": "google-utils",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "aidenlab/juicebox-web",
-      "target": "igv-utils",
       "target_type": "component"
     },
     {
@@ -114,20 +97,13 @@
       "source_repo": "aidenlab/juicebox-web",
       "target": "rollup-plugin-copy",
       "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "aidenlab/juicebox-web",
-      "target": "rollup-plugin-terser",
-      "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-07T13:07:36.294964+00:00",
+  "fetched_at": "2026-05-08T03:08:55.926845+00:00",
   "fetched_files": [
     {
       "path": "package.json",
-      "size": 865
+      "size": 756
     }
   ],
   "related_repositories": [],
@@ -139,10 +115,10 @@
     "full_name": "aidenlab/juicebox-web",
     "html_url": "https://github.com/aidenlab/juicebox-web",
     "language": "JavaScript",
-    "pushed_at": "2026-03-22T05:39:17Z",
+    "pushed_at": "2026-05-07T21:49:32Z",
     "stargazers_count": 3,
     "topics": [],
-    "updated_at": "2026-02-18T16:08:10Z"
+    "updated_at": "2026-05-07T21:49:10Z"
   },
   "repo_links": [],
   "terms": []

@@ -834,13 +834,6 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "ruvnet/ruflo",
-      "target": "agentic-engineering",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "ruvnet/ruflo",
       "target": "agentic-framework",
       "target_type": "term"
     },
@@ -869,7 +862,14 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "ruvnet/ruflo",
-      "target": "ai-tools",
+      "target": "ai-coding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo",
+      "target": "ai-skills",
       "target_type": "term"
     },
     {
@@ -898,13 +898,6 @@
       "source_file": null,
       "source_repo": "ruvnet/ruflo",
       "target": "claude-code-skills",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "ruvnet/ruflo",
-      "target": "huggingface",
       "target_type": "term"
     },
     {
@@ -950,7 +943,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T14:17:44.250248+00:00",
+  "fetched_at": "2026-05-08T02:08:51.301763+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1002,23 +995,23 @@
     "full_name": "ruvnet/ruflo",
     "html_url": "https://github.com/ruvnet/ruflo",
     "language": "TypeScript",
-    "pushed_at": "2026-05-06T22:28:40Z",
-    "stargazers_count": 45846,
+    "pushed_at": "2026-05-07T17:15:21Z",
+    "stargazers_count": 46199,
     "topics": [
       "agentic-ai",
-      "agentic-engineering",
       "agentic-framework",
       "agentic-rag",
       "agentic-workflow",
       "agents",
+      "ai-agent",
       "ai-assistant",
-      "ai-tools",
+      "ai-coding",
+      "ai-skills",
       "anthropic-claude",
       "autonomous-agents",
       "claude-code",
       "claude-code-skills",
       "codex",
-      "huggingface",
       "mcp-server",
       "model-context-protocol",
       "multi-agent",
@@ -1026,7 +1019,7 @@
       "swarm",
       "swarm-intelligence"
     ],
-    "updated_at": "2026-05-07T14:17:31Z"
+    "updated_at": "2026-05-08T02:07:10Z"
   },
   "repo_links": [
     {
@@ -1087,12 +1080,6 @@
       "context_snippet": "<div align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
-      "term": "agentic-engineering"
-    },
-    {
-      "context_snippet": "<div align=\"center\">",
-      "edge_type": "repo-topic",
-      "source_file": null,
       "term": "agentic-framework"
     },
     {
@@ -1117,7 +1104,13 @@
       "context_snippet": "<div align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
-      "term": "ai-tools"
+      "term": "ai-coding"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-skills"
     },
     {
       "context_snippet": "<div align=\"center\">",
@@ -1142,12 +1135,6 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "claude-code-skills"
-    },
-    {
-      "context_snippet": "<div align=\"center\">",
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "term": "huggingface"
     },
     {
       "context_snippet": "<div align=\"center\">",

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -86,6 +86,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/docker-publish.yaml",
       "source_repo": "cosmos/relayer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "restic/restic"
     }
   ],
   "term": "Create and publish a Docker image"

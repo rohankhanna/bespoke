@@ -251,7 +251,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T13:13:13.068634+00:00",
+  "fetched_at": "2026-05-08T00:58:26.894514+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -303,8 +303,8 @@
     "full_name": "Lightning-AI/pytorch-lightning",
     "html_url": "https://github.com/Lightning-AI/pytorch-lightning",
     "language": "Python",
-    "pushed_at": "2026-05-07T12:29:25Z",
-    "stargazers_count": 31118,
+    "pushed_at": "2026-05-07T21:01:23Z",
+    "stargazers_count": 31121,
     "topics": [
       "ai",
       "artificial-intelligence",
@@ -314,7 +314,7 @@
       "python",
       "pytorch"
     ],
-    "updated_at": "2026-05-07T08:55:19Z"
+    "updated_at": "2026-05-07T23:31:50Z"
   },
   "repo_links": [
     {

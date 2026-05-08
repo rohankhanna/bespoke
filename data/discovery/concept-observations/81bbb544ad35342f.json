@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The YAML org maintained fork of https://github.com/go-yaml/yaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Forbid Merge Commits"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Forbid Merge Commits"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17711,
+      "status": "candidate",
+      "text": "enjoin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17613,
+      "status": "candidate",
+      "text": "denature"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17613,
+      "status": "candidate",
+      "text": "denatured"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17613,
+      "status": "candidate",
+      "text": "dof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17613,
+      "status": "candidate",
+      "text": "dog"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Forbid Merge Commits",
+      "sense_id": "forbid-merge-commits#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "forbid-merge-commits",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "forbid-merge-commits",
+  "observation_id": "81bbb544ad35342f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-08T00:38:13.543216+00:00",
+  "observed_text": "Forbid Merge Commits",
+  "source_context_snippet": "Forbid Merge Commits",
+  "source_file": ".github/workflows/forbid-merge-commits.yaml",
+  "source_repo": "yaml/go-yaml",
+  "source_repo_description": "The YAML org maintained fork of https://github.com/go-yaml/yaml"
+}

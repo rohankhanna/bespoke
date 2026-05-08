@@ -164,6 +164,18 @@
       "source_repo": "chrisgrieser/nvim-various-textobjs",
       "status": "candidate-context",
       "text": "Stale bot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chrisgrieser/nvim-lsp-endhints",
+      "status": "candidate-context",
+      "text": "Display LSP inlay hints at the end of the line, rather than within the line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrisgrieser/nvim-lsp-endhints",
+      "status": "candidate-context",
+      "text": "Stale bot"
     }
   ],
   "candidate_glosses": [
@@ -242,6 +254,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "status": "candidate",
+      "text": "Stale bot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrisgrieser/nvim-lsp-endhints",
       "status": "candidate",
       "text": "Stale bot"
     }
@@ -509,11 +527,23 @@
       "observed_at": "2026-05-07T12:51:40.300011+00:00",
       "source_file": ".github/workflows/stale.yml.disabled",
       "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/stale.yml.disabled",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/stale-bot.yml",
+      "source_repo": "chrisgrieser/nvim-lsp-endhints"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

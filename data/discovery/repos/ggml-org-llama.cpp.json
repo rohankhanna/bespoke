@@ -191,6 +191,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
+      "target": "withcatai/node-llama-cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggml-org/llama.cpp",
       "target": "vietanhdev/llama-assistant",
       "target_type": "repository"
     },
@@ -206,13 +213,6 @@
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
       "target": "oobabooga/text-generation-webui",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ggml-org/llama.cpp",
-      "target": "withcatai/catai",
       "target_type": "repository"
     },
     {
@@ -433,11 +433,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T13:05:20.896288+00:00",
+  "fetched_at": "2026-05-08T03:06:21.509042+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 30152
+      "size": 30191
     },
     {
       "path": "pyproject.toml",
@@ -485,12 +485,12 @@
     "full_name": "ggml-org/llama.cpp",
     "html_url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
-    "pushed_at": "2026-05-07T12:01:01Z",
-    "stargazers_count": 108807,
+    "pushed_at": "2026-05-07T23:52:54Z",
+    "stargazers_count": 108893,
     "topics": [
       "ggml"
     ],
-    "updated_at": "2026-05-07T13:02:52Z"
+    "updated_at": "2026-05-08T03:05:49Z"
   },
   "repo_links": [
     {
@@ -510,7 +510,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "withcatai/catai",
+      "full_name": "withcatai/node-llama-cpp",
       "source_file": "README.md"
     }
   ],

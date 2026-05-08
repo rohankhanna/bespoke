@@ -553,6 +553,18 @@
       "source_repo": "nari-labs/dia",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nari-labs/dia2",
+      "status": "candidate-context",
+      "text": "TTS model capable of streaming conversational audio in realtime."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nari-labs/dia2",
+      "status": "candidate-context",
+      "text": "![Banner](banner.gif)"
     }
   ],
   "candidate_glosses": [
@@ -831,6 +843,12 @@
       "source_repo": "nari-labs/dia",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nari-labs/dia2",
+      "status": "candidate",
+      "text": "![Banner](banner.gif)"
     }
   ],
   "candidate_related_terms": [],
@@ -1204,11 +1222,23 @@
       "observed_at": "2026-05-07T18:41:02.254946+00:00",
       "source_file": null,
       "source_repo": "nari-labs/dia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "lifeiteng/vall-e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "nari-labs/dia2"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

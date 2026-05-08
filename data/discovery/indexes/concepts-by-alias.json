@@ -470,6 +470,9 @@
   "aarch64-linux-gnu-static": [
     "aarch64-linux-gnu-static"
   ],
+  "ab-testing": [
+    "ab-testing"
+  ],
   "abac": [
     "abac"
   ],
@@ -2174,6 +2177,9 @@
   ],
   "ai-research": [
     "ai-research"
+  ],
+  "ai-researcher": [
+    "ai-researcher"
   ],
   "ai-resources": [
     "ai-resources"
@@ -9808,6 +9814,9 @@
   "bower": [
     "bower"
   ],
+  "box-drawing": [
+    "box-drawing"
+  ],
   "box2d": [
     "box2d"
   ],
@@ -12550,6 +12559,9 @@
   "build msrv": [
     "build-msrv"
   ],
+  "build msvcrt toolchains": [
+    "build-msvcrt-toolchains"
+  ],
   "build msys2": [
     "build-msys2"
   ],
@@ -13005,6 +13017,9 @@
   ],
   "build rust documentation": [
     "build-rust-documentation"
+  ],
+  "build rustowl": [
+    "build-rustowl"
   ],
   "build s3transfer": [
     "build-s3transfer"
@@ -13917,6 +13932,9 @@
   ],
   "build-push": [
     "build-push"
+  ],
+  "build-push and update image tag": [
+    "build-push-and-update-image-tag"
   ],
   "build-push-custom-image": [
     "build-push-custom-image"
@@ -15362,6 +15380,9 @@
   "casting": [
     "casting"
   ],
+  "catai": [
+    "catai"
+  ],
   "catalog": [
     "catalog"
   ],
@@ -15583,6 +15604,12 @@
   ],
   "ceed": [
     "ceed"
+  ],
+  "cefpython": [
+    "cefpython"
+  ],
+  "cefsharp": [
+    "cefsharp"
   ],
   "cehshi on run": [
     "cehshi-on-run"
@@ -16201,6 +16228,9 @@
   ],
   "chattts": [
     "chattts"
+  ],
+  "chatui": [
+    "chatui"
   ],
   "cheatcodes": [
     "cheatcodes"
@@ -21440,6 +21470,9 @@
   "code-quality-analyzer": [
     "code-quality-analyzer"
   ],
+  "code-reading": [
+    "code-reading"
+  ],
   "code-repair": [
     "code-repair"
   ],
@@ -21478,6 +21511,9 @@
   ],
   "code-style": [
     "code-style"
+  ],
+  "code-summarization": [
+    "code-summarization"
   ],
   "code-switch": [
     "code-switch"
@@ -25439,6 +25475,24 @@
   "cross compile": [
     "cross-compile"
   ],
+  "cross compile for android on macos": [
+    "cross-compile-for-android-on-macos"
+  ],
+  "cross compile for android on ubuntu": [
+    "cross-compile-for-android-on-ubuntu"
+  ],
+  "cross compile for freebsd on ubuntu": [
+    "cross-compile-for-freebsd-on-ubuntu"
+  ],
+  "cross compile for netbsd on ubuntu": [
+    "cross-compile-for-netbsd-on-ubuntu"
+  ],
+  "cross compile for openbsd on ubuntu": [
+    "cross-compile-for-openbsd-on-ubuntu"
+  ],
+  "cross compile for windows on macos": [
+    "cross-compile-for-windows-on-macos"
+  ],
   "cross compilers": [
     "cross-compilers"
   ],
@@ -26575,6 +26629,9 @@
   ],
   "daisyui": [
     "daisyui"
+  ],
+  "dalai": [
+    "dalai"
   ],
   "dali": [
     "dali"
@@ -27736,6 +27793,9 @@
   ],
   "dedent": [
     "dedent"
+  ],
+  "dedupe": [
+    "dedupe"
   ],
   "deduplication": [
     "deduplication"
@@ -30884,6 +30944,9 @@
   "docker check": [
     "docker-check"
   ],
+  "docker checks": [
+    "docker-checks"
+  ],
   "docker ci": [
     "docker-ci"
   ],
@@ -32185,6 +32248,9 @@
   ],
   "drawerlayout": [
     "drawerlayout"
+  ],
+  "drawille": [
+    "drawille"
   ],
   "drawing": [
     "drawing"
@@ -36008,6 +36074,9 @@
   "feature-attribution": [
     "feature-attribution"
   ],
+  "feature-caching": [
+    "feature-caching"
+  ],
   "feature-detection": [
     "feature-detection"
   ],
@@ -36444,6 +36513,9 @@
   ],
   "files existence": [
     "files-existence"
+  ],
+  "files lint": [
+    "files-lint"
   ],
   "files-changed": [
     "files-changed"
@@ -37486,6 +37558,9 @@
   "fontawesome": [
     "fontawesome"
   ],
+  "fontforge": [
+    "fontforge"
+  ],
   "fontisto": [
     "fontisto"
   ],
@@ -37519,6 +37594,9 @@
   ],
   "for msvc bug": [
     "for-msvc-bug"
+  ],
+  "forbid merge commits": [
+    "forbid-merge-commits"
   ],
   "force pypi release": [
     "force-pypi-release"
@@ -37579,6 +37657,9 @@
   ],
   "form-builder": [
     "form-builder"
+  ],
+  "form-data": [
+    "form-data"
   ],
   "form-generation": [
     "form-generation"
@@ -39717,6 +39798,9 @@
   "ggml": [
     "ggml"
   ],
+  "ggmlv3": [
+    "ggmlv3"
+  ],
   "ggplot-extension": [
     "ggplot-extension"
   ],
@@ -39896,6 +39980,9 @@
   ],
   "gist": [
     "gist"
+  ],
+  "gists": [
+    "gists"
   ],
   "git checks": [
     "git-checks"
@@ -40869,11 +40956,17 @@
   "go-package": [
     "go-package"
   ],
+  "go-playground": [
+    "go-playground"
+  ],
   "go-ppc64-ci": [
     "go-ppc64-ci"
   ],
   "go-redis": [
     "go-redis"
+  ],
+  "go-slog": [
+    "go-slog"
   ],
   "go-test": [
     "go-test"
@@ -41507,6 +41600,9 @@
   ],
   "gptq": [
     "gptq"
+  ],
+  "gptr tests": [
+    "gptr-tests"
   ],
   "gpts": [
     "gpts"
@@ -42153,8 +42249,14 @@
   "grid": [
     "grid"
   ],
+  "grid-search": [
+    "grid-search"
+  ],
   "gridmask": [
     "gridmask"
+  ],
+  "gridsearch": [
+    "gridsearch"
   ],
   "gridworld-environment": [
     "gridworld-environment"
@@ -42947,6 +43049,9 @@
   ],
   "haskell-prelude": [
     "haskell-prelude"
+  ],
+  "haskell-syntax": [
+    "haskell-syntax"
   ],
   "hasklig": [
     "hasklig"
@@ -46016,6 +46121,9 @@
   ],
   "inkjs": [
     "inkjs"
+  ],
+  "inlay-hints": [
+    "inlay-hints"
   ],
   "inlets": [
     "inlets"
@@ -51202,6 +51310,9 @@
   "lifelong-mapping": [
     "lifelong-mapping"
   ],
+  "lifetime": [
+    "lifetime"
+  ],
   "ligatures": [
     "ligatures"
   ],
@@ -53222,6 +53333,9 @@
   "lsp-dart": [
     "lsp-dart"
   ],
+  "lsp-inlayhint": [
+    "lsp-inlayhint"
+  ],
   "lsp-java": [
     "lsp-java"
   ],
@@ -54016,6 +54130,9 @@
   ],
   "make `make dist` tarball": [
     "make-make-dist-tarball"
+  ],
+  "make a release, upload artifacts": [
+    "make-a-release-upload-artifacts"
   ],
   "make bentos": [
     "make-bentos"
@@ -55121,6 +55238,21 @@
   ],
   "mdbx": [
     "mdbx"
+  ],
+  "mdc release": [
+    "mdc-release"
+  ],
+  "mdc release (canary)": [
+    "mdc-release-canary"
+  ],
+  "mdc release (nightly)": [
+    "mdc-release-nightly"
+  ],
+  "mdc release (pull request)": [
+    "mdc-release-pull-request"
+  ],
+  "mdc test": [
+    "mdc-test"
   ],
   "mdct": [
     "mdct"
@@ -57093,6 +57225,9 @@
   "mojo": [
     "mojo"
   ],
+  "mold": [
+    "mold"
+  ],
   "moldable-development": [
     "moldable-development"
   ],
@@ -58972,6 +59107,9 @@
   "neovim checkhealth": [
     "neovim-checkhealth"
   ],
+  "neovim checks": [
+    "neovim-checks"
+  ],
   "neovim nightly": [
     "neovim-nightly"
   ],
@@ -60223,6 +60361,9 @@
   ],
   "node-labels": [
     "node-labels"
+  ],
+  "node-llama-cpp": [
+    "node-llama-cpp"
   ],
   "node-metrics": [
     "node-metrics"
@@ -63261,6 +63402,9 @@
   "owner-greg": [
     "owner-greg"
   ],
+  "ownership": [
+    "ownership"
+  ],
   "oxford-nanopore": [
     "oxford-nanopore"
   ],
@@ -64875,6 +65019,9 @@
   "php-parser": [
     "php-parser"
   ],
+  "php-validation": [
+    "php-validation"
+  ],
   "php7": [
     "php7"
   ],
@@ -65027,6 +65174,9 @@
   ],
   "pinecone": [
     "pinecone"
+  ],
+  "ping": [
+    "ping"
   ],
   "ping maintainers": [
     "ping-maintainers"
@@ -66338,6 +66488,12 @@
   ],
   "powerline": [
     "powerline"
+  ],
+  "powerline-font": [
+    "powerline-font"
+  ],
+  "powerline-fonts": [
+    "powerline-fonts"
   ],
   "powerpc": [
     "powerpc"
@@ -68468,6 +68624,9 @@
   ],
   "psql": [
     "psql"
+  ],
+  "psr-3": [
+    "psr-3"
   ],
   "psr-7": [
     "psr-7"
@@ -71691,6 +71850,12 @@
   "rcmdcheck": [
     "rcmdcheck"
   ],
+  "rcon": [
+    "rcon"
+  ],
+  "rcon-client": [
+    "rcon-client"
+  ],
   "rcpp": [
     "rcpp"
   ],
@@ -73605,6 +73770,9 @@
   "release rustmailer": [
     "release-rustmailer"
   ],
+  "release rustowl": [
+    "release-rustowl"
+  ],
   "release rustup-toolchain": [
     "release-rustup-toolchain"
   ],
@@ -74664,6 +74832,9 @@
   "research-software-engineering": [
     "research-software-engineering"
   ],
+  "research-tool": [
+    "research-tool"
+  ],
   "resend": [
     "resend"
   ],
@@ -74873,6 +75044,9 @@
   ],
   "restful-webservices": [
     "restful-webservices"
+  ],
+  "restic": [
+    "restic"
   ],
   "restify": [
     "restify"
@@ -76671,6 +76845,9 @@
   "run linux ci-tests for vidgear": [
     "run-linux-ci-tests-for-vidgear"
   ],
+  "run llvm tests": [
+    "run-llvm-tests"
+  ],
   "run luacheck and unit tests": [
     "run-luacheck-and-unit-tests"
   ],
@@ -78204,6 +78381,9 @@
   "scrot": [
     "scrot"
   ],
+  "scrub": [
+    "scrub"
+  ],
   "scrum": [
     "scrum"
   ],
@@ -78446,6 +78626,9 @@
   ],
   "secure-boot": [
     "secure-boot"
+  ],
+  "secure-by-default": [
+    "secure-by-default"
   ],
   "secure-coding": [
     "secure-coding"
@@ -81319,6 +81502,9 @@
   ],
   "sparkles": [
     "sparkles"
+  ],
+  "sparkline": [
+    "sparkline"
   ],
   "sparkpost": [
     "sparkpost"
@@ -85010,6 +85196,9 @@
   "tagit": [
     "tagit"
   ],
+  "tagjumping": [
+    "tagjumping"
+  ],
   "tagless-final": [
     "tagless-final"
   ],
@@ -85330,6 +85519,9 @@
   ],
   "telegraf": [
     "telegraf"
+  ],
+  "telegraf-agent": [
+    "telegraf-agent"
   ],
   "telegram": [
     "telegram"
@@ -85669,6 +85861,9 @@
   ],
   "terraform": [
     "terraform"
+  ],
+  "terraform deploy": [
+    "terraform-deploy"
   ],
   "terraform lint": [
     "terraform-lint"
@@ -86413,6 +86608,9 @@
   ],
   "test installer script": [
     "test-installer-script"
+  ],
+  "test installing with a system clang": [
+    "test-installing-with-a-system-clang"
   ],
   "test integration packages": [
     "test-integration-packages"
@@ -92213,6 +92411,9 @@
   "upload companion plugin (manual)": [
     "upload-companion-plugin-manual"
   ],
+  "upload coverage report to codecov.io": [
+    "upload-coverage-report-to-codecov.io"
+  ],
   "upload coverage to codecov": [
     "upload-coverage-to-codecov"
   ],
@@ -93623,6 +93824,9 @@
   "vicuna": [
     "vicuna"
   ],
+  "vicuna-installation-guide": [
+    "vicuna-installation-guide"
+  ],
   "video": [
     "video"
   ],
@@ -94666,6 +94870,9 @@
   ],
   "voice-detection": [
     "voice-detection"
+  ],
+  "voice-mode": [
+    "voice-mode"
   ],
   "voice-recognition": [
     "voice-recognition"

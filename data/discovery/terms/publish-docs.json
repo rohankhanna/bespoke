@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:23:05.253565+00:00",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -176,6 +176,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "oracle-quickstart/oci-o11y-solutions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "ludwig-ai/ludwig-docs"
     }
   ],
   "term": "Publish Docs"

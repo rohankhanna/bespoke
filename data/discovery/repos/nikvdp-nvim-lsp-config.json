@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-08T02:49:15.466800+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3676
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "nikvdp/nvim-lsp-config",
+    "html_url": "https://github.com/nikvdp/nvim-lsp-config",
+    "language": "Lua",
+    "pushed_at": "2022-10-19T10:34:27Z",
+    "stargazers_count": 95,
+    "topics": [],
+    "updated_at": "2025-09-06T14:41:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

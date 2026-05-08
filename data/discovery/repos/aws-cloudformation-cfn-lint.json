@@ -334,7 +334,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T18:44:39.310935+00:00",
+  "fetched_at": "2026-05-08T02:41:40.917360+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -382,7 +382,7 @@
     "full_name": "aws-cloudformation/cfn-lint",
     "html_url": "https://github.com/aws-cloudformation/cfn-lint",
     "language": "Python",
-    "pushed_at": "2026-05-07T15:34:00Z",
+    "pushed_at": "2026-05-07T21:43:58Z",
     "stargazers_count": 2611,
     "topics": [
       "aws",

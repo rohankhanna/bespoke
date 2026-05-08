@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "dalai"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "withcatai/catai",
+      "status": "candidate-context",
+      "text": "Run AI \u2728 assistant locally! with simple API for Node.js \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withcatai/catai",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withcatai/catai",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51425,
+      "status": "candidate",
+      "text": "clayton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51425,
+      "status": "candidate",
+      "text": "lai"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51425,
+      "status": "candidate",
+      "text": "lama"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51425,
+      "status": "candidate",
+      "text": "lamas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51425,
+      "status": "candidate",
+      "text": "llama"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "dalai",
+  "concept_id": "dalai",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "withcatai/catai"
+    }
+  ],
+  "first_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dalai",
+      "sense_id": "dalai#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

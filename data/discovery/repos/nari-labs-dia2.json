@@ -1,0 +1,62 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nari-labs/dia2",
+      "target": "open-weight",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nari-labs/dia2",
+      "target": "text-to-speech",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T02:59:03.530981+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4918
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 923
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TTS model capable of streaming conversational audio in realtime.",
+    "fork": false,
+    "full_name": "nari-labs/dia2",
+    "html_url": "https://github.com/nari-labs/dia2",
+    "language": "Python",
+    "pushed_at": "2025-11-29T00:51:56Z",
+    "stargazers_count": 1120,
+    "topics": [
+      "open-weight",
+      "text-to-speech"
+    ],
+    "updated_at": "2026-05-02T14:48:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![Banner](banner.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-weight"
+    },
+    {
+      "context_snippet": "![Banner](banner.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    }
+  ]
+}

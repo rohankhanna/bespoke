@@ -130,6 +130,18 @@
       "source_repo": "Kaiede/docker-minecraft-bedrock-backup",
       "status": "candidate-context",
       "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/kaiede/minecraft-bedrock-backup.svg)](https://hub.docker.com/r/kaiede/minecraft-bedrock-backup)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "restic/restic",
+      "status": "candidate-context",
+      "text": "Fast, secure, efficient backup program"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "restic/restic",
+      "status": "candidate-context",
+      "text": "[![Documentation](https://readthedocs.org/projects/restic/badge/?version=latest)](https://restic.readthedocs.io/en/latest/?badge=latest)"
     }
   ],
   "candidate_glosses": [
@@ -192,6 +204,12 @@
       "source_repo": "Kaiede/docker-minecraft-bedrock-backup",
       "status": "candidate",
       "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/kaiede/minecraft-bedrock-backup.svg)](https://hub.docker.com/r/kaiede/minecraft-bedrock-backup)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "restic/restic",
+      "status": "candidate",
+      "text": "[![Documentation](https://readthedocs.org/projects/restic/badge/?version=latest)](https://restic.readthedocs.io/en/latest/?badge=latest)"
     }
   ],
   "candidate_related_terms": [
@@ -487,11 +505,23 @@
       "observed_at": "2026-05-07T12:51:40.300011+00:00",
       "source_file": null,
       "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "restic/restic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "gobackup/gobackup"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

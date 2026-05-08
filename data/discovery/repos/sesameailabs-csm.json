@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "SesameAILabs/csm",
+      "target": "sesameailabs/silentcipher",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-08T02:59:04.993325+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5508
+    },
+    {
+      "path": "requirements.txt",
+      "size": 210
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Conversational Speech Generation Model",
+    "fork": false,
+    "full_name": "SesameAILabs/csm",
+    "html_url": "https://github.com/SesameAILabs/csm",
+    "language": "Python",
+    "pushed_at": "2025-05-27T12:21:52Z",
+    "stargazers_count": 14616,
+    "topics": [],
+    "updated_at": "2026-05-07T17:43:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sesameailabs/silentcipher",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

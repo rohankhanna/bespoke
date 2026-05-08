@@ -8,7 +8,7 @@
     {
       "source_kind": "repo-description",
       "status": "context-only",
-      "text": "State-of-the-Art Text Embeddings"
+      "text": "State-of-the-Art Embeddings, Retrieval, and Reranking"
     },
     {
       "source_kind": "source-snippet",
@@ -84,10 +84,10 @@
   "normalized_form": "unit-tests",
   "observation_id": "adf59095d07cba1a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-07T12:51:40.300011+00:00",
+  "observed_at": "2026-05-08T00:38:13.543216+00:00",
   "observed_text": "Unit tests",
   "source_context_snippet": "Unit tests",
   "source_file": ".github/workflows/tests.yml",
   "source_repo": "huggingface/sentence-transformers",
-  "source_repo_description": "State-of-the-Art Text Embeddings"
+  "source_repo_description": "State-of-the-Art Embeddings, Retrieval, and Reranking"
 }

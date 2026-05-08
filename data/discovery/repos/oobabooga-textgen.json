@@ -275,11 +275,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T14:08:01.769378+00:00",
+  "fetched_at": "2026-05-08T01:53:29.605880+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 30766
+      "size": 31049
     },
     {
       "path": ".github/workflows/build-everything-tgw.yml",
@@ -319,10 +319,10 @@
     "full_name": "oobabooga/textgen",
     "html_url": "https://github.com/oobabooga/textgen",
     "language": "Python",
-    "pushed_at": "2026-05-07T13:50:05Z",
-    "stargazers_count": 46954,
+    "pushed_at": "2026-05-07T17:43:03Z",
+    "stargazers_count": 46957,
     "topics": [],
-    "updated_at": "2026-05-07T13:34:56Z"
+    "updated_at": "2026-05-07T21:55:43Z"
   },
   "repo_links": [
     {

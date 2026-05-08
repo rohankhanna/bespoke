@@ -1,7 +1,7 @@
 {
   "component": "amannn/action-semantic-pull-request@v6",
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
-  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -177,6 +177,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/semantic_pull_request.yml",
       "source_repo": "aeharding/voyager"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "chrisgrieser/nvim-lsp-endhints"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prLint.yml",
+      "source_repo": "withcatai/node-llama-cpp"
     }
   ]
 }

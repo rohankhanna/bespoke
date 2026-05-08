@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "cross compile for Android on macOS"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "universal-ctags/ctags",
+      "status": "candidate-context",
+      "text": "A maintained ctags implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "universal-ctags/ctags",
+      "status": "candidate-context",
+      "text": "cross compile for Android on macOS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "universal-ctags/ctags",
+      "status": "candidate",
+      "text": "cross compile for Android on macOS"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20431,
+      "status": "candidate",
+      "text": "frog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15383,
+      "status": "candidate",
+      "text": "robot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14480,
+      "status": "candidate",
+      "text": "ash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14480,
+      "status": "candidate",
+      "text": "data"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14480,
+      "status": "candidate",
+      "text": "email"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "cross compile for Android on macOS",
+  "concept_id": "cross-compile-for-android-on-macos",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/cross-compile-for-android-on-macos.yml",
+      "source_repo": "universal-ctags/ctags"
+    }
+  ],
+  "first_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "cross compile for Android on macOS",
+      "sense_id": "cross-compile-for-android-on-macos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

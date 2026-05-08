@@ -193,6 +193,18 @@
       "source_repo": "Kaiede/docker-minecraft-bedrock-backup",
       "status": "candidate-context",
       "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/kaiede/minecraft-bedrock-backup.svg)](https://hub.docker.com/r/kaiede/minecraft-bedrock-backup)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xrjr/mcutils",
+      "status": "candidate-context",
+      "text": "Implementation of Minecraft protocols in Go : ping, query, rcon and bedrock ping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xrjr/mcutils",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -291,6 +303,12 @@
       "source_repo": "Kaiede/docker-minecraft-bedrock-backup",
       "status": "candidate",
       "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/kaiede/minecraft-bedrock-backup.svg)](https://hub.docker.com/r/kaiede/minecraft-bedrock-backup)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xrjr/mcutils",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -544,11 +562,29 @@
       "observed_at": "2026-05-07T12:51:40.300011+00:00",
       "source_file": null,
       "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "IdreesInc/Monocraft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "xrjr/mcutils"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

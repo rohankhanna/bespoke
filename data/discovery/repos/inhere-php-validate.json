@@ -1,0 +1,224 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inhere/php-validate",
+      "target": "inhere/php-srouter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml",
+      "source_repo": "inhere/php-validate",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml",
+      "source_repo": "inhere/php-validate",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/php.yml",
+      "source_repo": "inhere/php-validate",
+      "target": "Unit-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "inhere/php-validate",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "inhere/php-validate",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "inhere/php-validate",
+      "target": "Tag-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/php-validate",
+      "target": "filter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/php-validate",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/php-validate",
+      "target": "php-validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/php-validate",
+      "target": "tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/php-validate",
+      "target": "validate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/php-validate",
+      "target": "validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/php-validate",
+      "target": "validation-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T00:54:03.007507+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25321
+    },
+    {
+      "path": ".github/workflows/php.yml",
+      "size": 1364
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1277
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lightweight and feature-rich PHP validation and filtering library. Support scene grouping, pre-filtering, array checking, custom validators, custom messages. \u8f7b\u91cf\u4e14\u529f\u80fd\u4e30\u5bcc\u7684PHP\u9a8c\u8bc1\u3001\u8fc7\u6ee4\u5e93\u3002\u652f\u6301\u573a\u666f\u5206\u7ec4\uff0c\u524d\u7f6e\u8fc7\u6ee4\uff0c\u6570\u7ec4\u68c0\u67e5\uff0c\u81ea\u5b9a\u4e49\u9a8c\u8bc1\u5668\uff0c\u81ea\u5b9a\u4e49\u6d88\u606f\u3002",
+    "fork": false,
+    "full_name": "inhere/php-validate",
+    "html_url": "https://github.com/inhere/php-validate",
+    "language": "PHP",
+    "pushed_at": "2026-04-13T10:09:59Z",
+    "stargazers_count": 260,
+    "topics": [
+      "filter",
+      "library",
+      "php-validation",
+      "tool",
+      "validate",
+      "validation",
+      "validation-library"
+    ],
+    "updated_at": "2026-04-13T10:09:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "inhere/php-srouter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Unit-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/php.yml",
+      "term": "Unit-tests"
+    },
+    {
+      "context_snippet": "Tag-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Tag-release"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/php-validate.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filter"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/php-validate.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/php-validate.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "php-validation"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/php-validate.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tool"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/php-validate.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "validate"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/php-validate.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "validation"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/php-validate.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "validation-library"
+    }
+  ]
+}

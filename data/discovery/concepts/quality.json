@@ -214,6 +214,12 @@
       "source_repo": "box2ai-robotics/lerobot-joycon",
       "status": "candidate-context",
       "text": "Quality"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/sentence-transformers",
+      "status": "candidate-context",
+      "text": "State-of-the-Art Embeddings, Retrieval, and Reranking"
     }
   ],
   "candidate_glosses": [
@@ -607,11 +613,17 @@
       "observed_at": "2026-05-07T12:51:40.300011+00:00",
       "source_file": ".github/workflows/quality.yml",
       "source_repo": "huggingface/sentence-transformers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "huggingface/sentence-transformers"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

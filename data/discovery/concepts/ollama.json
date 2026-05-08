@@ -439,6 +439,18 @@
       "source_repo": "datvodinh/rag-chatbot",
       "status": "candidate-context",
       "text": "![alt text](assets/demo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dezoito/ollama-grid-search",
+      "status": "candidate-context",
+      "text": "A multi-platform desktop application to evaluate and compare LLM models, written in Rust and React."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dezoito/ollama-grid-search",
+      "status": "candidate-context",
+      "text": "This project automates the process of selecting the best models, prompts, or inference parameters for a given use-case, allowing you to iterate over their combinations and to visually inspect the results."
     }
   ],
   "candidate_glosses": [
@@ -657,6 +669,12 @@
       "source_repo": "datvodinh/rag-chatbot",
       "status": "candidate",
       "text": "![alt text](assets/demo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dezoito/ollama-grid-search",
+      "status": "candidate",
+      "text": "This project automates the process of selecting the best models, prompts, or inference parameters for a given use-case, allowing you to iterate over their combinations and to visually inspect the results."
     }
   ],
   "candidate_related_terms": [],
@@ -1714,11 +1732,53 @@
       "observed_at": "2026-05-07T12:51:40.300011+00:00",
       "source_file": null,
       "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "chatboxai/chatbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "dezoito/ollama-grid-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -18,13 +18,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Alex313031/thorium-legacy",
-      "target": "saiarcot895/chromium-ubuntu-build",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Alex313031/thorium-legacy",
       "target": "eloston/ungoogled-chromium",
       "target_type": "repository"
     },
@@ -169,6 +162,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-07T18:41:02.254946+00:00",
+  "generated_at": "2026-05-08T00:38:13.543216+00:00",
   "source_repo": "Alex313031/thorium-legacy"
 }

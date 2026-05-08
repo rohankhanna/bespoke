@@ -1,0 +1,92 @@
+{
+  "components": [
+    {
+      "component": "itzg/github-workflows/.github/workflows/go-with-releaser.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "itzg/github-workflows/.github/workflows/go-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "itzg/entrypoint-demoter",
+      "target": "itzg/github-workflows/.github/workflows/go-with-releaser.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "itzg/entrypoint-demoter",
+      "target": "goreleaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "itzg/entrypoint-demoter",
+      "target": "itzg/github-workflows/.github/workflows/go-test.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "itzg/entrypoint-demoter",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T00:50:49.364146+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2862
+    },
+    {
+      "path": "go.mod",
+      "size": 599
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 206
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 283
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Container entry point that can demote uid and gid from environment variables or matching directory",
+    "fork": false,
+    "full_name": "itzg/entrypoint-demoter",
+    "html_url": "https://github.com/itzg/entrypoint-demoter",
+    "language": "Go",
+    "pushed_at": "2025-09-28T14:42:46Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2025-09-28T14:42:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "goreleaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "goreleaser"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Test"
+    }
+  ]
+}

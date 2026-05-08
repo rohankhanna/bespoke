@@ -43,6 +43,18 @@
       "source_repo": "dotnet/winforms",
       "status": "candidate-context",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/dotnet/winforms/blob/main/LICENSE.TXT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cefsharp/CefSharp",
+      "status": "candidate-context",
+      "text": ".NET (WPF and Windows Forms) bindings for the Chromium Embedded Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cefsharp/CefSharp",
+      "status": "candidate-context",
+      "text": "[![CefSharp Logo](logo.png)](https://cefsharp.github.io/ \"CefSharp - Embedded Chromium for .NET\")"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "dotnet/winforms",
       "status": "candidate",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/dotnet/winforms/blob/main/LICENSE.TXT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cefsharp/CefSharp",
+      "status": "candidate",
+      "text": "[![CefSharp Logo](logo.png)](https://cefsharp.github.io/ \"CefSharp - Embedded Chromium for .NET\")"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "dotnet/winforms"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "cefsharp/CefSharp"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

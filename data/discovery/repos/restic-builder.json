@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-08T03:08:47.514717+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1902
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1471
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Build script and Dockerfile to produce the restic binaries",
+    "fork": false,
+    "full_name": "restic/builder",
+    "html_url": "https://github.com/restic/builder",
+    "language": "Dockerfile",
+    "pushed_at": "2025-03-27T18:48:03Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2026-04-11T23:33:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

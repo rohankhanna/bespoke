@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":scissors: Is a general library to help modify or set data within data structures and other objects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Package mold"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Package mold"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988828,
+      "status": "candidate",
+      "text": "cur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39973449,
+      "status": "candidate",
+      "text": "underbred"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39929000,
+      "status": "candidate",
+      "text": "scrub up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39927473,
+      "status": "candidate",
+      "text": "scour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39921942,
+      "status": "candidate",
+      "text": "unimproved"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scrub",
+      "sense_id": "scrub#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34029,
+      "status": "candidate",
+      "text": "scouring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22042,
+      "status": "candidate",
+      "text": "scour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18047,
+      "status": "candidate",
+      "text": "cur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6053,
+      "status": "candidate",
+      "text": "bush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3042,
+      "status": "candidate",
+      "text": "mixed"
+    }
+  ],
+  "concept_id": "scrub",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scrub",
+  "observation_id": "939dd83d0a6239f1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-08T00:38:13.543216+00:00",
+  "observed_text": "scrub",
+  "source_context_snippet": "Package mold",
+  "source_file": null,
+  "source_repo": "go-playground/mold",
+  "source_repo_description": ":scissors: Is a general library to help modify or set data within data structures and other objects."
+}

@@ -79,6 +79,18 @@
       "source_repo": "oppiliappan/scientifica",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-moonwitch/Cozette",
+      "status": "candidate-context",
+      "text": "A bitmap programming font optimized for coziness \ud83d\udc9c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-moonwitch/Cozette",
+      "status": "candidate-context",
+      "text": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/the-moonwitch/Cozette?logo=github&style=flat-square)](https://github.com/the-moonwitch/Cozette/releases/latest)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "oppiliappan/scientifica",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-moonwitch/Cozette",
+      "status": "candidate",
+      "text": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/the-moonwitch/Cozette?logo=github&style=flat-square)](https://github.com/the-moonwitch/Cozette/releases/latest)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,23 @@
       "observed_at": "2026-05-07T12:51:40.300011+00:00",
       "source_file": null,
       "source_repo": "oppiliappan/scientifica"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "oppiliappan/scientifica"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "the-moonwitch/Cozette"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

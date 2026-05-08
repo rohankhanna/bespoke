@@ -727,6 +727,18 @@
       "source_repo": "continuedev/continue",
       "status": "candidate-context",
       "text": "<div align=\"center\"></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "universal-ctags/ctags",
+      "status": "candidate-context",
+      "text": "A maintained ctags implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "universal-ctags/ctags",
+      "status": "candidate-context",
+      "text": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/4355/badge.svg)](https://scan.coverity.com/projects/4355)"
     }
   ],
   "candidate_glosses": [
@@ -1089,6 +1101,12 @@
       "source_repo": "continuedev/continue",
       "status": "candidate",
       "text": "<div align=\"center\"></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "universal-ctags/ctags",
+      "status": "candidate",
+      "text": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/4355/badge.svg)](https://scan.coverity.com/projects/4355)"
     }
   ],
   "candidate_related_terms": [],
@@ -1822,11 +1840,35 @@
       "observed_at": "2026-05-07T18:41:02.254946+00:00",
       "source_file": null,
       "source_repo": "emacs-eldev/eldev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "emacs-eldev/eldev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "universal-ctags/ctags"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

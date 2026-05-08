@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-08T02:58:47.402140+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 506
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Development and deployment environment primitive (toolchains, runtimes, Conda, GPU). Part of AI-Dev-Workspace-Primitives.",
+    "fork": false,
+    "full_name": "danielrosehill/ENVIRONMENT.md",
+    "html_url": "https://github.com/danielrosehill/ENVIRONMENT.md",
+    "language": null,
+    "pushed_at": "2026-04-28T10:24:08Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-28T10:25:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

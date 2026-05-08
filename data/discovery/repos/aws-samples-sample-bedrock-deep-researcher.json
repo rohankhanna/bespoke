@@ -1,0 +1,145 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-samples/sample-bedrock-deep-researcher",
+      "target": "langchain-ai/open_deep_research",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/sample-bedrock-deep-researcher",
+      "target": "agentic-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/sample-bedrock-deep-researcher",
+      "target": "agentic-workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/sample-bedrock-deep-researcher",
+      "target": "ai-researcher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/sample-bedrock-deep-researcher",
+      "target": "bedrock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/sample-bedrock-deep-researcher",
+      "target": "deep-research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/sample-bedrock-deep-researcher",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/sample-bedrock-deep-researcher",
+      "target": "research-tool",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T02:58:57.108340+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6587
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 804
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Researcher Agent to write blog posts/ articles using Amazon Bedrock and websearch.",
+    "fork": false,
+    "full_name": "aws-samples/sample-bedrock-deep-researcher",
+    "html_url": "https://github.com/aws-samples/sample-bedrock-deep-researcher",
+    "language": "Python",
+    "pushed_at": "2026-02-05T21:01:02Z",
+    "stargazers_count": 114,
+    "topics": [
+      "agentic-ai",
+      "agentic-workflow",
+      "ai-researcher",
+      "bedrock",
+      "deep-research",
+      "generative-ai",
+      "research-tool"
+    ],
+    "updated_at": "2026-04-27T15:25:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "langchain-ai/open_deep_research",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bedrock Deep Research is a Streamlit-based application using Amazon Bedrock, LangGraph, and LangChain AWS libraries that automates article/report generation through AI-powered research, content writing, and image generation. It combines web research, structured content generatio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-ai"
+    },
+    {
+      "context_snippet": "Bedrock Deep Research is a Streamlit-based application using Amazon Bedrock, LangGraph, and LangChain AWS libraries that automates article/report generation through AI-powered research, content writing, and image generation. It combines web research, structured content generatio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-workflow"
+    },
+    {
+      "context_snippet": "Bedrock Deep Research is a Streamlit-based application using Amazon Bedrock, LangGraph, and LangChain AWS libraries that automates article/report generation through AI-powered research, content writing, and image generation. It combines web research, structured content generatio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-researcher"
+    },
+    {
+      "context_snippet": "Bedrock Deep Research is a Streamlit-based application using Amazon Bedrock, LangGraph, and LangChain AWS libraries that automates article/report generation through AI-powered research, content writing, and image generation. It combines web research, structured content generatio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bedrock"
+    },
+    {
+      "context_snippet": "Bedrock Deep Research is a Streamlit-based application using Amazon Bedrock, LangGraph, and LangChain AWS libraries that automates article/report generation through AI-powered research, content writing, and image generation. It combines web research, structured content generatio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-research"
+    },
+    {
+      "context_snippet": "Bedrock Deep Research is a Streamlit-based application using Amazon Bedrock, LangGraph, and LangChain AWS libraries that automates article/report generation through AI-powered research, content writing, and image generation. It combines web research, structured content generatio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "context_snippet": "Bedrock Deep Research is a Streamlit-based application using Amazon Bedrock, LangGraph, and LangChain AWS libraries that automates article/report generation through AI-powered research, content writing, and image generation. It combines web research, structured content generatio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research-tool"
+    }
+  ]
+}

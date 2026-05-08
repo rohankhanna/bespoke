@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -66,6 +66,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/stale-bot.yml",
       "source_repo": "chrisgrieser/nvim-various-textobjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale-bot.yml",
+      "source_repo": "chrisgrieser/nvim-lsp-endhints"
     }
   ],
   "term": "Stale Bot"

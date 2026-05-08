@@ -1,0 +1,225 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "the-moonwitch/Cozette",
+      "target": "luflosi/kitty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "the-moonwitch/Cozette",
+      "target": "kreativekorp/bitsnpicas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "the-moonwitch/Cozette",
+      "target": "bluescan/proggyfonts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "the-moonwitch/Cozette",
+      "target": "alexanderjeurissen/ranger_devicons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "the-moonwitch/Cozette",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "the-moonwitch/Cozette",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "the-moonwitch/Cozette",
+      "target": "Build fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "the-moonwitch/Cozette",
+      "target": "bitmap-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "the-moonwitch/Cozette",
+      "target": "bitmap-fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "the-moonwitch/Cozette",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "the-moonwitch/Cozette",
+      "target": "nerd-fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "the-moonwitch/Cozette",
+      "target": "powerline-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "the-moonwitch/Cozette",
+      "target": "powerline-fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "the-moonwitch/Cozette",
+      "target": "programming-font",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T03:08:41.074225+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14275
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 180
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1406
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A bitmap programming font optimized for coziness \ud83d\udc9c",
+    "fork": false,
+    "full_name": "the-moonwitch/Cozette",
+    "html_url": "https://github.com/the-moonwitch/Cozette",
+    "language": "Python",
+    "pushed_at": "2026-03-07T12:14:24Z",
+    "stargazers_count": 3612,
+    "topics": [
+      "bdf",
+      "bitmap-font",
+      "bitmap-fonts",
+      "font",
+      "nerd-fonts",
+      "otb",
+      "powerline-font",
+      "powerline-fonts",
+      "programming-font"
+    ],
+    "updated_at": "2026-05-08T01:23:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexanderjeurissen/ranger_devicons",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bluescan/proggyfonts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kreativekorp/bitsnpicas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luflosi/kitty",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build fonts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Build fonts"
+    },
+    {
+      "context_snippet": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/the-moonwitch/Cozette?logo=github&style=flat-square)](https://github.com/the-moonwitch/Cozette/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitmap-font"
+    },
+    {
+      "context_snippet": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/the-moonwitch/Cozette?logo=github&style=flat-square)](https://github.com/the-moonwitch/Cozette/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitmap-fonts"
+    },
+    {
+      "context_snippet": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/the-moonwitch/Cozette?logo=github&style=flat-square)](https://github.com/the-moonwitch/Cozette/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/the-moonwitch/Cozette?logo=github&style=flat-square)](https://github.com/the-moonwitch/Cozette/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerd-fonts"
+    },
+    {
+      "context_snippet": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/the-moonwitch/Cozette?logo=github&style=flat-square)](https://github.com/the-moonwitch/Cozette/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "powerline-font"
+    },
+    {
+      "context_snippet": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/the-moonwitch/Cozette?logo=github&style=flat-square)](https://github.com/the-moonwitch/Cozette/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "powerline-fonts"
+    },
+    {
+      "context_snippet": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/the-moonwitch/Cozette?logo=github&style=flat-square)](https://github.com/the-moonwitch/Cozette/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-font"
+    }
+  ]
+}

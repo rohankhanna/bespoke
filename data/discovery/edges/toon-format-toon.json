@@ -1,34 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "toon-format/toon",
-      "target": "toon-format/spec",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "toon-format/toon",
-      "target": "niieani/gpt-tokenizer",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "toon-format/toon",
-      "target": "3swordman/tree-sitter-toon",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "toon-format/toon",
-      "target": "thalesgelinger/toon.nvim",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "toon-format/toon",
@@ -225,6 +197,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-19T04:47:57.443742+00:00",
+  "generated_at": "2026-05-08T00:38:13.543216+00:00",
   "source_repo": "toon-format/toon"
 }

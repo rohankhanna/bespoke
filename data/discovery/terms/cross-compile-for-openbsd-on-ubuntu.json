@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cross-compile-for-openbsd-on-ubuntu.yml",
+      "source_repo": "universal-ctags/ctags"
+    }
+  ],
+  "term": "cross compile for OpenBSD on Ubuntu"
+}

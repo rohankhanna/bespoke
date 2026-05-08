@@ -334,6 +334,18 @@
       "source_repo": "itzg/docker-mc-backup",
       "status": "candidate-context",
       "text": "Verify"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gorilla/mux",
+      "status": "candidate-context",
+      "text": "Package gorilla/mux is a powerful HTTP router and URL matcher for building Go web servers with \ud83e\udd8d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/mux",
+      "status": "candidate-context",
+      "text": "Verify"
     }
   ],
   "candidate_glosses": [
@@ -502,6 +514,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "itzg/docker-mc-backup",
+      "status": "candidate",
+      "text": "Verify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/mux",
       "status": "candidate",
       "text": "Verify"
     }
@@ -831,11 +849,23 @@
       "observed_at": "2026-05-07T18:41:02.254946+00:00",
       "source_file": ".github/workflows/verify.yml",
       "source_repo": "wevm/abitype"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "gorilla/mux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "wevm/abitype"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

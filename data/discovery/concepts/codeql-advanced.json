@@ -679,6 +679,18 @@
       "source_repo": "Cysharp/MagicOnion",
       "status": "candidate-context",
       "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yaml/go-yaml",
+      "status": "candidate-context",
+      "text": "The YAML org maintained fork of https://github.com/go-yaml/yaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yaml/go-yaml",
+      "status": "candidate-context",
+      "text": "CodeQL Advanced"
     }
   ],
   "candidate_glosses": [
@@ -1017,6 +1029,12 @@
       "source_repo": "Cysharp/MagicOnion",
       "status": "candidate",
       "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yaml/go-yaml",
+      "status": "candidate",
+      "text": "CodeQL Advanced"
     }
   ],
   "candidate_related_terms": [
@@ -1756,11 +1774,29 @@
       "observed_at": "2026-05-07T12:51:40.300011+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "googleapis/google-cloud-node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "yaml/go-yaml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "funstory-ai/BabelDOC"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

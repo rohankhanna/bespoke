@@ -6,7 +6,8 @@
     "\ud83e\uddea Unit Tests",
     "unit tests",
     "Unit Tests \ud83e\uddea",
-    "Unit-Tests"
+    "Unit-Tests",
+    "Unit-tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -1189,6 +1190,24 @@
       "source_repo": "gookit/slog",
       "status": "candidate-context",
       "text": "Unit-Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inhere/php-validate",
+      "status": "candidate-context",
+      "text": "Lightweight and feature-rich PHP validation and filtering library. Support scene grouping, pre-filtering, array checking, custom validators, custom messages. \u8f7b\u91cf\u4e14\u529f\u80fd\u4e30\u5bcc\u7684PHP\u9a8c\u8bc1\u3001\u8fc7\u6ee4\u5e93\u3002\u652f\u6301\u573a\u666f\u5206\u7ec4\uff0c\u524d\u7f6e\u8fc7\u6ee4\uff0c\u6570\u7ec4\u68c0\u67e5\uff0c\u81ea\u5b9a\u4e49\u9a8c\u8bc1\u5668\uff0c\u81ea\u5b9a\u4e49\u6d88\u606f\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inhere/php-validate",
+      "status": "candidate-context",
+      "text": "Unit-tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/sentence-transformers",
+      "status": "candidate-context",
+      "text": "State-of-the-Art Embeddings, Retrieval, and Reranking"
     }
   ],
   "candidate_glosses": [
@@ -1791,6 +1810,12 @@
       "source_repo": "gookit/slog",
       "status": "candidate",
       "text": "Unit-Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inhere/php-validate",
+      "status": "candidate",
+      "text": "Unit-tests"
     }
   ],
   "candidate_related_terms": [
@@ -3777,11 +3802,83 @@
       "observed_at": "2026-05-07T18:41:02.254946+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "datalab-to/surya"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "electron-userland/electron-windows-msix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/unittest-mac.yaml",
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/php.yml",
+      "source_repo": "inhere/php-validate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "huggingface/sentence-transformers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "FoundationAgents/MetaGPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "GoogleChrome/related-website-sets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "clj-commons/rewrite-clj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "datalab-to/surya"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

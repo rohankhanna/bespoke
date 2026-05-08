@@ -1,0 +1,275 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-commit-message.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/files.yaml"
+    },
+    {
+      "component": "raven-actions/actionlint@205b530c5d9fa8f44ae9ed59f341a0db994aa6f8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/files.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/files.yaml"
+    },
+    {
+      "component": "ibiqlik/action-yamllint@2576378a8e339169678f9939646ee3ee325e845c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/files.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/files.yaml"
+    },
+    {
+      "component": "ls-lint/action@02e380fe8733d499cbfc9e22276de5085508a5bd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/files.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/files.yaml"
+    },
+    {
+      "component": "crate-ci/typos@cf5f1c29a8ac336af8568821ec41919923b05a83",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/files.yaml"
+    },
+    {
+      "component": "motlin/forbid-merge-commits-action@d508a7b3148cc98b51a5f062d60396f09f5bc269",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/forbid-merge-commits.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "arnested/go-version-action@6343454db06c63467680c5dc1f4f382fe9fe6303",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-commit-message.yaml",
+      "source_repo": "yaml/go-yaml",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-commit-message.yaml",
+      "source_repo": "yaml/go-yaml",
+      "target": "Commit Message Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "yaml/go-yaml",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "yaml/go-yaml",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "yaml/go-yaml",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "yaml/go-yaml",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/files.yaml",
+      "source_repo": "yaml/go-yaml",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/files.yaml",
+      "source_repo": "yaml/go-yaml",
+      "target": "raven-actions/actionlint@205b530c5d9fa8f44ae9ed59f341a0db994aa6f8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/files.yaml",
+      "source_repo": "yaml/go-yaml",
+      "target": "ibiqlik/action-yamllint@2576378a8e339169678f9939646ee3ee325e845c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/files.yaml",
+      "source_repo": "yaml/go-yaml",
+      "target": "ls-lint/action@02e380fe8733d499cbfc9e22276de5085508a5bd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/files.yaml",
+      "source_repo": "yaml/go-yaml",
+      "target": "crate-ci/typos@cf5f1c29a8ac336af8568821ec41919923b05a83",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/files.yaml",
+      "source_repo": "yaml/go-yaml",
+      "target": "Files Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/forbid-merge-commits.yaml",
+      "source_repo": "yaml/go-yaml",
+      "target": "motlin/forbid-merge-commits-action@d508a7b3148cc98b51a5f062d60396f09f5bc269",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/forbid-merge-commits.yaml",
+      "source_repo": "yaml/go-yaml",
+      "target": "Forbid Merge Commits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml",
+      "source_repo": "yaml/go-yaml",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml",
+      "source_repo": "yaml/go-yaml",
+      "target": "arnested/go-version-action@6343454db06c63467680c5dc1f4f382fe9fe6303",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-08T00:53:55.337383+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6204
+    },
+    {
+      "path": "go.mod",
+      "size": 35
+    },
+    {
+      "path": ".github/workflows/check-commit-message.yaml",
+      "size": 789
+    },
+    {
+      "path": ".github/workflows/codeql.yaml",
+      "size": 1340
+    },
+    {
+      "path": ".github/workflows/files.yaml",
+      "size": 1594
+    },
+    {
+      "path": ".github/workflows/forbid-merge-commits.yaml",
+      "size": 528
+    },
+    {
+      "path": ".github/workflows/go.yaml",
+      "size": 2522
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The YAML org maintained fork of https://github.com/go-yaml/yaml",
+    "fork": false,
+    "full_name": "yaml/go-yaml",
+    "html_url": "https://github.com/yaml/go-yaml",
+    "language": "Go",
+    "pushed_at": "2026-05-01T21:33:40Z",
+    "stargazers_count": 472,
+    "topics": [],
+    "updated_at": "2026-05-07T13:39:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Commit Message Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-commit-message.yaml",
+      "term": "Commit Message Check"
+    },
+    {
+      "context_snippet": "CodeQL Advanced",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yaml",
+      "term": "CodeQL Advanced"
+    },
+    {
+      "context_snippet": "Files Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/files.yaml",
+      "term": "Files Lint"
+    },
+    {
+      "context_snippet": "Forbid Merge Commits",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/forbid-merge-commits.yaml",
+      "term": "Forbid Merge Commits"
+    }
+  ]
+}

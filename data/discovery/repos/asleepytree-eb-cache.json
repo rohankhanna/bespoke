@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-08T02:01:00.199177+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1502
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code for\uff1aFEB-Cache: Frequency\u2011Guided Exposure Bias Reduction for Enhancing Diffusion Transformer Caching",
+    "fork": false,
+    "full_name": "aSleepyTree/EB-Cache",
+    "html_url": "https://github.com/aSleepyTree/EB-Cache",
+    "language": "Python",
+    "pushed_at": "2025-10-06T03:54:56Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-12-11T02:27:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

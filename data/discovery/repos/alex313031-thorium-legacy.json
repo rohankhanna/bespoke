@@ -19,13 +19,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Alex313031/thorium-legacy",
-      "target": "saiarcot895/chromium-ubuntu-build",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Alex313031/thorium-legacy",
       "target": "eloston/ungoogled-chromium",
       "target_type": "repository"
     },
@@ -170,7 +163,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T19:12:05.427536+00:00",
+  "fetched_at": "2026-05-08T02:58:01.969448+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -210,7 +203,7 @@
       "windows8-1",
       "windowsxp"
     ],
-    "updated_at": "2026-05-04T18:07:56Z"
+    "updated_at": "2026-05-07T22:16:45Z"
   },
   "repo_links": [
     {
@@ -226,11 +219,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "eloston/ungoogled-chromium",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "saiarcot895/chromium-ubuntu-build",
       "source_file": "README.md"
     }
   ],

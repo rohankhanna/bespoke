@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -491,6 +491,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "beego/bee"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "assafelovic/gpt-researcher"
     }
   ],
   "term": "automation"

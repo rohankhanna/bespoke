@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/forbid-merge-commits.yaml",
+      "source_repo": "yaml/go-yaml"
+    }
+  ],
+  "term": "Forbid Merge Commits"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Lightweight and feature-rich PHP validation and filtering library. Support scene grouping, pre-filtering, array checking, custom validators, custom messages. \u8f7b\u91cf\u4e14\u529f\u80fd\u4e30\u5bcc\u7684PHP\u9a8c\u8bc1\u3001\u8fc7\u6ee4\u5e93\u3002\u652f\u6301\u573a\u666f\u5206\u7ec4\uff0c\u524d\u7f6e\u8fc7\u6ee4\uff0c\u6570\u7ec4\u68c0\u67e5\uff0c\u81ea\u5b9a\u4e49\u9a8c\u8bc1\u5668\uff0c\u81ea\u5b9a\u4e49\u6d88\u606f\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Unit-tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Unit-tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Unit-tests",
+      "sense_id": "unit-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "unit-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "unit-tests",
+  "observation_id": "5f22b57c216c6bb0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-08T00:38:13.543216+00:00",
+  "observed_text": "Unit-tests",
+  "source_context_snippet": "Unit-tests",
+  "source_file": ".github/workflows/php.yml",
+  "source_repo": "inhere/php-validate",
+  "source_repo_description": "Lightweight and feature-rich PHP validation and filtering library. Support scene grouping, pre-filtering, array checking, custom validators, custom messages. \u8f7b\u91cf\u4e14\u529f\u80fd\u4e30\u5bcc\u7684PHP\u9a8c\u8bc1\u3001\u8fc7\u6ee4\u5e93\u3002\u652f\u6301\u573a\u666f\u5206\u7ec4\uff0c\u524d\u7f6e\u8fc7\u6ee4\uff0c\u6570\u7ec4\u68c0\u67e5\uff0c\u81ea\u5b9a\u4e49\u9a8c\u8bc1\u5668\uff0c\u81ea\u5b9a\u4e49\u6d88\u606f\u3002"
+}

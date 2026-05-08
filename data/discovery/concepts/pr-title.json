@@ -329,6 +329,18 @@
       "source_repo": "nrwl/nx-console",
       "status": "candidate-context",
       "text": "PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chrisgrieser/nvim-lsp-endhints",
+      "status": "candidate-context",
+      "text": "Display LSP inlay hints at the end of the line, rather than within the line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrisgrieser/nvim-lsp-endhints",
+      "status": "candidate-context",
+      "text": "PR title"
     }
   ],
   "candidate_glosses": [
@@ -493,6 +505,12 @@
       "source_repo": "nrwl/nx-console",
       "status": "candidate",
       "text": "PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrisgrieser/nvim-lsp-endhints",
+      "status": "candidate",
+      "text": "PR title"
     }
   ],
   "candidate_related_terms": [
@@ -704,11 +722,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/pr_title.yml",
       "source_repo": "nrwl/nx-console"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "chrisgrieser/nvim-lsp-endhints"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

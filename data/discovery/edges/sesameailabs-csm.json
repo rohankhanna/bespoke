@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "SesameAILabs/csm",
+      "target": "sesameailabs/silentcipher",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-08T00:38:13.543216+00:00",
+  "source_repo": "SesameAILabs/csm"
+}

@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PixArt-alpha/PixArt-sigma",
+      "target": "zeqiang-lai/opendmd",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-08T02:01:04.377791+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17785
+    },
+    {
+      "path": "Dockerfile",
+      "size": 668
+    },
+    {
+      "path": "requirements.txt",
+      "size": 288
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PixArt-\u03a3: Weak-to-Strong Training of Diffusion Transformer for 4K Text-to-Image Generation",
+    "fork": false,
+    "full_name": "PixArt-alpha/PixArt-sigma",
+    "html_url": "https://github.com/PixArt-alpha/PixArt-sigma",
+    "language": "Python",
+    "pushed_at": "2024-10-31T01:20:19Z",
+    "stargazers_count": 1919,
+    "topics": [],
+    "updated_at": "2026-05-03T09:24:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zeqiang-lai/opendmd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

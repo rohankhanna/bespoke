@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "rcon"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "itzg/rcon-cli",
+      "status": "candidate-context",
+      "text": "A little RCON cli based on james4k's RCON library for golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itzg/rcon-cli",
+      "status": "candidate-context",
+      "text": "[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/itzg/rcon-cli)](https://github.com/itzg/rcon-cli/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xrjr/mcutils",
+      "status": "candidate-context",
+      "text": "Implementation of Minecraft protocols in Go : ping, query, rcon and bedrock ping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xrjr/mcutils",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itzg/rcon-cli",
+      "status": "candidate",
+      "text": "[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/itzg/rcon-cli)](https://github.com/itzg/rcon-cli/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xrjr/mcutils",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "rcon",
+  "concept_id": "rcon",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "itzg/rcon-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "xrjr/mcutils"
+    }
+  ],
+  "first_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rcon",
+      "sense_id": "rcon#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

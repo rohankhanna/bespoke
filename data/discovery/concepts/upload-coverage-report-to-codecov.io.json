@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "upload coverage report to codecov.io"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "universal-ctags/ctags",
+      "status": "candidate-context",
+      "text": "A maintained ctags implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "universal-ctags/ctags",
+      "status": "candidate-context",
+      "text": "upload coverage report to codecov.io"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "universal-ctags/ctags",
+      "status": "candidate",
+      "text": "upload coverage report to codecov.io"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24719,
+      "status": "candidate",
+      "text": "download"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24436,
+      "status": "candidate",
+      "text": "scan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22831,
+      "status": "candidate",
+      "text": "cover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22807,
+      "status": "candidate",
+      "text": "rate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22807,
+      "status": "candidate",
+      "text": "rates"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "upload coverage report to codecov.io",
+  "concept_id": "upload-coverage-report-to-codecov.io",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/code-coverage-on-ubuntu.yml",
+      "source_repo": "universal-ctags/ctags"
+    }
+  ],
+  "first_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "upload coverage report to codecov.io",
+      "sense_id": "upload-coverage-report-to-codecov.io#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

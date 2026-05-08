@@ -91,6 +91,18 @@
       "source_repo": "ymcui/PERT",
       "status": "candidate-context",
       "text": "[**\u4e2d\u6587**](https://github.com/ymcui/PERT) | [**English**](https://github.com/ymcui/PERT/blob/main/README_EN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ZhangYuanhan-AI/NOAH",
+      "status": "candidate-context",
+      "text": "[TPAMI] Searching prompt modules for parameter-efficient transfer learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhangYuanhan-AI/NOAH",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "ymcui/PERT",
       "status": "candidate",
       "text": "[**\u4e2d\u6587**](https://github.com/ymcui/PERT) | [**English**](https://github.com/ymcui/PERT/blob/main/README_EN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhangYuanhan-AI/NOAH",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "ymcui/PERT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "ZhangYuanhan-AI/NOAH"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

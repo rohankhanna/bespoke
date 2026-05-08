@@ -1,0 +1,150 @@
+{
+  "components": [
+    {
+      "component": "itzg/github-workflows/.github/workflows/issues-notify-discord.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-notify.yml"
+    },
+    {
+      "component": "itzg/github-workflows/.github/workflows/go-with-releaser-image.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "itzg/github-workflows/.github/workflows/go-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-notify.yml",
+      "source_repo": "itzg/rcon-cli",
+      "target": "itzg/github-workflows/.github/workflows/issues-notify-discord.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-notify.yml",
+      "source_repo": "itzg/rcon-cli",
+      "target": "Issues notify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "itzg/rcon-cli",
+      "target": "itzg/github-workflows/.github/workflows/go-with-releaser-image.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "itzg/rcon-cli",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "itzg/rcon-cli",
+      "target": "itzg/github-workflows/.github/workflows/go-test.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "itzg/rcon-cli",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itzg/rcon-cli",
+      "target": "rcon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itzg/rcon-cli",
+      "target": "rcon-client",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T00:50:56.007295+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2003
+    },
+    {
+      "path": "go.mod",
+      "size": 980
+    },
+    {
+      "path": ".github/workflows/issues-notify.yml",
+      "size": 281
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 446
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 290
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A little RCON cli based on james4k's RCON library for golang",
+    "fork": false,
+    "full_name": "itzg/rcon-cli",
+    "html_url": "https://github.com/itzg/rcon-cli",
+    "language": "Go",
+    "pushed_at": "2026-03-12T21:03:03Z",
+    "stargazers_count": 215,
+    "topics": [
+      "rcon",
+      "rcon-client"
+    ],
+    "updated_at": "2026-05-03T00:31:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Issues notify",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-notify.yml",
+      "term": "Issues notify"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/itzg/rcon-cli)](https://github.com/itzg/rcon-cli/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rcon"
+    },
+    {
+      "context_snippet": "[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/itzg/rcon-cli)](https://github.com/itzg/rcon-cli/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rcon-client"
+    }
+  ]
+}

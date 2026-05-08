@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Files Lint"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yaml/go-yaml",
+      "status": "candidate-context",
+      "text": "The YAML org maintained fork of https://github.com/go-yaml/yaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yaml/go-yaml",
+      "status": "candidate-context",
+      "text": "Files Lint"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yaml/go-yaml",
+      "status": "candidate",
+      "text": "Files Lint"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10674,
+      "status": "candidate",
+      "text": "alfa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10674,
+      "status": "candidate",
+      "text": "cotton wool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10674,
+      "status": "candidate",
+      "text": "couplet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10674,
+      "status": "candidate",
+      "text": "cushion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10674,
+      "status": "candidate",
+      "text": "cutout"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Files Lint",
+  "concept_id": "files-lint",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/files.yaml",
+      "source_repo": "yaml/go-yaml"
+    }
+  ],
+  "first_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Files Lint",
+      "sense_id": "files-lint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

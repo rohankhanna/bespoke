@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Display LSP inlay hints at the end of the line, rather than within the line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"https://dotfyle.com/plugins/chrisgrieser/nvim-lsp-endhints\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"https://dotfyle.com/plugins/chrisgrieser/nvim-lsp-endhints\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lsp-inlayhint",
+      "sense_id": "lsp-inlayhint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lsp-inlayhint",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lsp-inlayhint",
+  "observation_id": "1bc56a0d38e414e3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-08T00:38:13.543216+00:00",
+  "observed_text": "lsp-inlayhint",
+  "source_context_snippet": "<a href=\"https://dotfyle.com/plugins/chrisgrieser/nvim-lsp-endhints\">",
+  "source_file": null,
+  "source_repo": "chrisgrieser/nvim-lsp-endhints",
+  "source_repo_description": "Display LSP inlay hints at the end of the line, rather than within the line."
+}

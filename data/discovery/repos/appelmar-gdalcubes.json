@@ -204,7 +204,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T14:02:35.701554+00:00",
+  "fetched_at": "2026-05-08T01:44:26.493981+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -233,14 +233,14 @@
     "html_url": "https://github.com/appelmar/gdalcubes",
     "language": "C++",
     "pushed_at": "2026-01-21T12:12:27Z",
-    "stargazers_count": 129,
+    "stargazers_count": 130,
     "topics": [
       "remote-sensing",
       "rstats",
       "satellite-imagery",
       "spatial-analysis"
     ],
-    "updated_at": "2026-03-10T20:14:49Z"
+    "updated_at": "2026-05-07T17:40:11Z"
   },
   "repo_links": [
     {

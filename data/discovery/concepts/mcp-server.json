@@ -469,6 +469,18 @@
       "source_repo": "ruvnet/ruflo",
       "status": "candidate-context",
       "text": "\ud83c\udf0a The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "assafelovic/gpt-researcher",
+      "status": "candidate-context",
+      "text": "An autonomous agent that conducts deep research on any data using any LLM providers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "assafelovic/gpt-researcher",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" id=\"top\">"
     }
   ],
   "candidate_glosses": [
@@ -699,6 +711,12 @@
       "source_repo": "benjaminr/chrome-devtools-mcp",
       "status": "candidate",
       "text": "A Model Context Protocol (MCP) server that provides Chrome DevTools Protocol integration through MCP. This allows you to debug web applications by connecting to Chrome's developer tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "assafelovic/gpt-researcher",
+      "status": "candidate",
+      "text": "<div align=\"center\" id=\"top\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1312,11 +1330,29 @@
       "observed_at": "2026-05-07T18:41:02.254946+00:00",
       "source_file": null,
       "source_repo": "symgraph/BinAssistMCP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "symgraph/BinAssistMCP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "assafelovic/gpt-researcher"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

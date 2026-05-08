@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-08T02:01:06.663705+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3703
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV 2024] DC-Solver: Improving Predictor-Corrector Diffusion Sampler via Dynamic Compensation",
+    "fork": false,
+    "full_name": "wl-zhao/DC-Solver",
+    "html_url": "https://github.com/wl-zhao/DC-Solver",
+    "language": "Python",
+    "pushed_at": "2024-09-09T08:29:25Z",
+    "stargazers_count": 50,
+    "topics": [],
+    "updated_at": "2026-03-01T01:47:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

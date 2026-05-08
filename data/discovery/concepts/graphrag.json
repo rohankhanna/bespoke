@@ -103,6 +103,18 @@
       "source_repo": "shibing624/ChatPDF",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">ChatPDF</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aymenfurter/smartrag",
+      "status": "candidate-context",
+      "text": "Deep Research through Multi-Agents, using GraphRAG "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aymenfurter/smartrag",
+      "status": "candidate-context",
+      "text": "<div id=\"top\"></div>"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "shibing624/ChatPDF",
       "status": "candidate",
       "text": "<h1 align=\"center\">ChatPDF</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aymenfurter/smartrag",
+      "status": "candidate",
+      "text": "<div id=\"top\"></div>"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,17 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": null,
       "source_repo": "shibing624/ChatPDF"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "aymenfurter/smartrag"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

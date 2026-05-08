@@ -1,0 +1,116 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cztomczak/cefpython",
+      "target": "cefpython",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cztomczak/cefpython",
+      "target": "chrome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cztomczak/cefpython",
+      "target": "chromium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cztomczak/cefpython",
+      "target": "cross-platform-gui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cztomczak/cefpython",
+      "target": "gui-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cztomczak/cefpython",
+      "target": "gui-toolkit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T01:01:03.164054+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 35833
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python bindings for the Chromium Embedded Framework (CEF)",
+    "fork": false,
+    "full_name": "cztomczak/cefpython",
+    "html_url": "https://github.com/cztomczak/cefpython",
+    "language": "C++",
+    "pushed_at": "2026-01-02T11:51:01Z",
+    "stargazers_count": 3234,
+    "topics": [
+      "cef",
+      "cefpython",
+      "chrome",
+      "chromium",
+      "cross-platform-gui",
+      "gui-framework",
+      "gui-toolkit",
+      "python"
+    ],
+    "updated_at": "2026-05-08T00:09:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Table of contents:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cefpython"
+    },
+    {
+      "context_snippet": "Table of contents:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome"
+    },
+    {
+      "context_snippet": "Table of contents:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromium"
+    },
+    {
+      "context_snippet": "Table of contents:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform-gui"
+    },
+    {
+      "context_snippet": "Table of contents:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gui-framework"
+    },
+    {
+      "context_snippet": "Table of contents:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gui-toolkit"
+    }
+  ]
+}

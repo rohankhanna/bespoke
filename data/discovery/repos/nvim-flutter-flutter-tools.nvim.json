@@ -63,34 +63,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nvim-flutter/flutter-tools.nvim",
-      "target": "emacs-lsp/lsp-dart",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nvim-flutter/flutter-tools.nvim",
-      "target": "iamcco/coc-flutter",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nvim-flutter/flutter-tools.nvim",
-      "target": "scalameta/nvim-metals",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nvim-flutter/flutter-tools.nvim",
-      "target": "stevearc/dressing.nvim",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/contributing.yml",
       "source_repo": "nvim-flutter/flutter-tools.nvim",
@@ -217,11 +189,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:12:46.206697+00:00",
+  "fetched_at": "2026-05-08T02:49:01.370969+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 18873
+      "size": 19370
     },
     {
       "path": ".github/workflows/contributing.yml",
@@ -233,7 +205,7 @@
     },
     {
       "path": ".github/workflows/release.yaml",
-      "size": 2368
+      "size": 2367
     }
   ],
   "related_repositories": [],
@@ -245,8 +217,8 @@
     "full_name": "nvim-flutter/flutter-tools.nvim",
     "html_url": "https://github.com/nvim-flutter/flutter-tools.nvim",
     "language": "Lua",
-    "pushed_at": "2026-04-23T16:21:30Z",
-    "stargazers_count": 1382,
+    "pushed_at": "2026-05-04T06:10:34Z",
+    "stargazers_count": 1389,
     "topics": [
       "closing-tags",
       "dart",
@@ -256,30 +228,9 @@
       "neovim",
       "nvim"
     ],
-    "updated_at": "2026-04-23T16:21:03Z"
+    "updated_at": "2026-05-07T01:26:24Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "emacs-lsp/lsp-dart",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "iamcco/coc-flutter",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "scalameta/nvim-metals",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "stevearc/dressing.nvim",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "contributing",

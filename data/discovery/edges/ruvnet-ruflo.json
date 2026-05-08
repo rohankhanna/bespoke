@@ -382,13 +382,6 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "ruvnet/ruflo",
-      "target": "agentic-engineering",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "ruvnet/ruflo",
       "target": "agentic-framework",
       "target_type": "term"
     },
@@ -417,7 +410,14 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "ruvnet/ruflo",
-      "target": "ai-tools",
+      "target": "ai-coding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo",
+      "target": "ai-skills",
       "target_type": "term"
     },
     {
@@ -446,13 +446,6 @@
       "source_file": null,
       "source_repo": "ruvnet/ruflo",
       "target": "claude-code-skills",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "ruvnet/ruflo",
-      "target": "huggingface",
       "target_type": "term"
     },
     {
@@ -498,6 +491,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-07T12:51:40.300011+00:00",
+  "generated_at": "2026-05-08T00:38:13.543216+00:00",
   "source_repo": "ruvnet/ruflo"
 }

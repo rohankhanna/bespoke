@@ -493,7 +493,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T14:04:49.625051+00:00",
+  "fetched_at": "2026-05-08T01:48:03.373360+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -545,8 +545,8 @@
     "full_name": "nvm-sh/nvm",
     "html_url": "https://github.com/nvm-sh/nvm",
     "language": "Shell",
-    "pushed_at": "2026-05-05T23:21:45Z",
-    "stargazers_count": 93256,
+    "pushed_at": "2026-05-07T21:24:47Z",
+    "stargazers_count": 93266,
     "topics": [
       "bash",
       "install",
@@ -562,7 +562,7 @@
       "version-manager",
       "zsh"
     ],
-    "updated_at": "2026-05-07T13:19:12Z"
+    "updated_at": "2026-05-08T00:49:38Z"
   },
   "repo_links": [
     {

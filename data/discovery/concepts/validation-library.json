@@ -31,6 +31,30 @@
       "source_repo": "Airfooox/cron-validate",
       "status": "candidate-context",
       "text": "[![typescript](https://camo.githubusercontent.com/56e4a1d9c38168bd7b1520246d6ee084ab9abbbb/68747470733a2f2f62616467656e2e6e65742f62616467652f69636f6e2f547970655363726970743f69636f6e3d74797065736372697074266c6162656c266c6162656c436f6c6f723d626c756526636f6c6f723d353535353535)](htt\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asaskevich/govalidator",
+      "status": "candidate-context",
+      "text": "[Go] Package of validators and sanitizers for strings, numerics, slices and structs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asaskevich/govalidator",
+      "status": "candidate-context",
+      "text": "govalidator"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inhere/php-validate",
+      "status": "candidate-context",
+      "text": "Lightweight and feature-rich PHP validation and filtering library. Support scene grouping, pre-filtering, array checking, custom validators, custom messages. \u8f7b\u91cf\u4e14\u529f\u80fd\u4e30\u5bcc\u7684PHP\u9a8c\u8bc1\u3001\u8fc7\u6ee4\u5e93\u3002\u652f\u6301\u573a\u666f\u5206\u7ec4\uff0c\u524d\u7f6e\u8fc7\u6ee4\uff0c\u6570\u7ec4\u68c0\u67e5\uff0c\u81ea\u5b9a\u4e49\u9a8c\u8bc1\u5668\uff0c\u81ea\u5b9a\u4e49\u6d88\u606f\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inhere/php-validate",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/packagist/l/inhere/php-validate.svg?style=flat-square)](LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "Airfooox/cron-validate",
       "status": "candidate",
       "text": "[![typescript](https://camo.githubusercontent.com/56e4a1d9c38168bd7b1520246d6ee084ab9abbbb/68747470733a2f2f62616467656e2e6e65742f62616467652f69636f6e2f547970655363726970743f69636f6e3d74797065736372697074266c6162656c266c6162656c436f6c6f723d626c756526636f6c6f723d353535353535)](htt\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asaskevich/govalidator",
+      "status": "candidate",
+      "text": "govalidator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inhere/php-validate",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/packagist/l/inhere/php-validate.svg?style=flat-square)](LICENSE)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "Airfooox/cron-validate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "asaskevich/govalidator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "inhere/php-validate"
     }
   ],
   "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

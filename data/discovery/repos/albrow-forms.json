@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "albrow/forms",
+      "target": "tools/godep",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-08T00:53:57.750928+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3076
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A lightweight go library for parsing form data or json from an http.Request.",
+    "fork": false,
+    "full_name": "albrow/forms",
+    "html_url": "https://github.com/albrow/forms",
+    "language": "Go",
+    "pushed_at": "2022-12-16T03:14:57Z",
+    "stargazers_count": 142,
+    "topics": [],
+    "updated_at": "2026-04-08T11:46:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tools/godep",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

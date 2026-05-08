@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -746,6 +746,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "camilledejoye/nvim-lsp-selection-range"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "adaszko/tree_climber_rust.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrisgrieser/nvim-lsp-endhints"
     }
   ],
   "term": "neovim-plugin"

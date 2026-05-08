@@ -80,13 +80,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "mixmark-io/turndown",
-      "target": "mixmark-io/turndown.",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "mixmark-io/turndown",
@@ -234,7 +227,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T14:09:50.946224+00:00",
+  "fetched_at": "2026-05-08T01:56:14.618316+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -276,11 +269,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "domchristie/to-markdown",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mixmark-io/turndown.",
       "source_file": "README.md"
     }
   ],

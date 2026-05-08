@@ -86,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T12:59:02.256532+00:00",
+  "fetched_at": "2026-05-08T03:00:10.391414+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -110,7 +110,7 @@
     "full_name": "LuaLS/vscode-lua",
     "html_url": "https://github.com/LuaLS/vscode-lua",
     "language": "TypeScript",
-    "pushed_at": "2026-05-06T13:08:29Z",
+    "pushed_at": "2026-05-08T00:08:12Z",
     "stargazers_count": 210,
     "topics": [
       "lua",

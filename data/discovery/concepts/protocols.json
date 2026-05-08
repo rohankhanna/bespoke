@@ -19,6 +19,18 @@
       "source_repo": "apache/dubbo-go-pixiu",
       "status": "candidate-context",
       "text": "[![Pixiu Logo](docs/images/pixiu-logo-v4.png)](http://alexstocks.github.io/html/dubbogo.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xrjr/mcutils",
+      "status": "candidate-context",
+      "text": "Implementation of Minecraft protocols in Go : ping, query, rcon and bedrock ping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xrjr/mcutils",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "apache/dubbo-go-pixiu",
       "status": "candidate",
       "text": "[![Pixiu Logo](docs/images/pixiu-logo-v4.png)](http://alexstocks.github.io/html/dubbogo.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xrjr/mcutils",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "apache/dubbo-go-pixiu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "xrjr/mcutils"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

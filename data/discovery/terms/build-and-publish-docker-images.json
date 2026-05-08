@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -26,6 +26,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/publish_docker_images.yml",
       "source_repo": "quickwit-oss/quickwit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-image.yml",
+      "source_repo": "aymenfurter/smartrag"
     }
   ],
   "term": "Build and Publish Docker Images"

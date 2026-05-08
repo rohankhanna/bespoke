@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asaskevich/govalidator",
+      "target": "chriso/validator.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asaskevich/govalidator",
+      "target": "govalidator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asaskevich/govalidator",
+      "target": "sanitization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asaskevich/govalidator",
+      "target": "validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asaskevich/govalidator",
+      "target": "validation-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T00:53:59.525301+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24116
+    },
+    {
+      "path": "go.mod",
+      "size": 54
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[Go] Package of validators and sanitizers for strings, numerics, slices and structs",
+    "fork": false,
+    "full_name": "asaskevich/govalidator",
+    "html_url": "https://github.com/asaskevich/govalidator",
+    "language": "Go",
+    "pushed_at": "2026-04-20T09:11:45Z",
+    "stargazers_count": 6199,
+    "topics": [
+      "go",
+      "govalidator",
+      "sanitization",
+      "validation",
+      "validation-library"
+    ],
+    "updated_at": "2026-04-24T17:19:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chriso/validator.js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "govalidator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "govalidator"
+    },
+    {
+      "context_snippet": "govalidator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sanitization"
+    },
+    {
+      "context_snippet": "govalidator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "validation"
+    },
+    {
+      "context_snippet": "govalidator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "validation-library"
+    }
+  ]
+}

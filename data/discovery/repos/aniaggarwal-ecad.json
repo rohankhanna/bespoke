@@ -1,0 +1,133 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "AniAggarwal/ecad",
+      "target": "aniaggarwal/calculate-flops.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "AniAggarwal/ecad",
+      "target": "aniaggarwal/clip-score",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AniAggarwal/ecad",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AniAggarwal/ecad",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AniAggarwal/ecad",
+      "target": "feature-caching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AniAggarwal/ecad",
+      "target": "genetic-algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AniAggarwal/ecad",
+      "target": "image-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-08T02:00:58.419378+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6641
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 324
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1564
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2026] Code for Evolutionary Caching to Accelerate Your Off-the-Shelf Diffusion Model",
+    "fork": false,
+    "full_name": "AniAggarwal/ecad",
+    "html_url": "https://github.com/AniAggarwal/ecad",
+    "language": "Python",
+    "pushed_at": "2026-03-01T01:20:59Z",
+    "stargazers_count": 31,
+    "topics": [
+      "diffusion",
+      "diffusion-models",
+      "feature-caching",
+      "genetic-algorithm",
+      "image-generation"
+    ],
+    "updated_at": "2026-03-12T19:18:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aniaggarwal/calculate-flops.pytorch",
+      "source_file": "requirements.txt"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aniaggarwal/clip-score",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feature-caching"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genetic-algorithm"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    }
+  ]
+}

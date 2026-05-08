@@ -31,6 +31,18 @@
       "source_repo": "danielrosehill/AMD-AI-Server",
       "status": "candidate-context",
       "text": "Build and Push Docker Images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AnotiaWang/deep-research-web-ui",
+      "status": "candidate-context",
+      "text": "(Supports DeepSeek R1) An AI-powered research assistant that performs iterative, deep research on any topic by combining search engines, web scraping, and large language models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnotiaWang/deep-research-web-ui",
+      "status": "candidate-context",
+      "text": "Build and Push Docker Images"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "danielrosehill/AMD-AI-Server",
+      "status": "candidate",
+      "text": "Build and Push Docker Images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnotiaWang/deep-research-web-ui",
       "status": "candidate",
       "text": "Build and Push Docker Images"
     }
@@ -106,11 +124,17 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": ".github/workflows/docker-publish.yml",
       "source_repo": "danielrosehill/AMD-AI-Server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "AnotiaWang/deep-research-web-ui"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],

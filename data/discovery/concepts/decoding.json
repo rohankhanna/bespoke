@@ -79,6 +79,18 @@
       "source_repo": "gazebosim/gz-common",
       "status": "candidate-context",
       "text": "**Maintainer:** nate AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-playground/form",
+      "status": "candidate-context",
+      "text": ":steam_locomotive: Decodes url.Values into Go value(s) and Encodes Go value(s) into url.Values. Dual Array and Full map support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-playground/form",
+      "status": "candidate-context",
+      "text": "Package form"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "gazebosim/gz-common",
       "status": "candidate",
       "text": "**Maintainer:** nate AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-playground/form",
+      "status": "candidate",
+      "text": "Package form"
     }
   ],
   "candidate_related_terms": [
@@ -211,11 +229,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "gazebosim/gz-common"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-08T00:38:13.543216+00:00",
+      "source_file": null,
+      "source_repo": "go-playground/form"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "lexical_providers": [
     "datamuse"
   ],
