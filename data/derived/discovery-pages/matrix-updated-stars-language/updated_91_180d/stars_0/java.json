@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 4,
+    "concepts": 1,
+    "observations": 1,
+    "repos": 1,
+    "terms": 1
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "java",
+    "star_bucket": "stars_0",
+    "updated_bucket": "updated_91_180d"
+  },
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
+  "repo_ids": [
+    "artsy/react-native-launch-arguments"
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 161,
-    "concepts": 75,
-    "observations": 75,
-    "repos": 48,
-    "terms": 75
+    "components": 175,
+    "concepts": 97,
+    "observations": 97,
+    "repos": 52,
+    "terms": 97
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "0xPolygonHermez/stark-recurser",
     "actboy168/ltest",
     "alstafeev/midscene-java",
     "ankane/seaduck",
     "apache/netbeans-antora-ui",
+    "b-data/jupyterlab-julia-docker-stack",
     "bladeacer/obsi-snip-coll",
     "cake-contrib/Cake.Markdownlint",
     "caronc/apprise-docs",
@@ -28,12 +29,14 @@
     "conda-forge/croc-feedstock",
     "conda-forge/pybind11-feedstock",
     "conda-forge/scikit-build-core-feedstock",
+    "curiousdannii/emglken",
     "CVEProject/cve-user-registry-client",
     "cyber404/che-apple-mail-mcp",
     "diffblue/homebrew-cbmc",
     "dm0x23/portfolio-website",
     "dp111/6502timing",
     "dpep/ice_age_rb",
+    "enbop/fungi-app",
     "flagos-ai/flir",
     "floxym/financial-chat-finance-nlp-chatbots",
     "fredrikekre/runic-pre-commit",
@@ -45,6 +48,7 @@
     "joinwell52-ai/codeflow-pwa",
     "joinwell52-ai/joinwell52",
     "JuliaCI/julia-buildkite",
+    "KhronosGroup/KTX-Software-CTS",
     "knopp/native_toolchain_ninja",
     "KnotUntied/scoop-fonts",
     "konnov/apalache-examples",

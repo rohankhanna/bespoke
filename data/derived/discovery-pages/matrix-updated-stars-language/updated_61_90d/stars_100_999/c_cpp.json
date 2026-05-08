@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 136,
-    "concepts": 158,
-    "observations": 160,
-    "repos": 38,
-    "terms": 154
+    "components": 137,
+    "concepts": 162,
+    "observations": 164,
+    "repos": 39,
+    "terms": 158
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "apache/casbin-cpp",
@@ -45,12 +45,13 @@
     "openxrlab/xrslam",
     "rust-fuzz/libfuzzer",
     "sasha0552/nvidia-pstated",
-    "stardot/b-em",
+    "sheredom/ubench.h",
     "starwing/luautf8",
     "swaywm/swaybg",
     "ValveSoftware/Fossilize",
     "veorq/SipHash",
     "websockets/bufferutil",
-    "xtensor-stack/xtl"
+    "xtensor-stack/xtl",
+    "xuankuzcr/Global-LVBA"
   ]
 }

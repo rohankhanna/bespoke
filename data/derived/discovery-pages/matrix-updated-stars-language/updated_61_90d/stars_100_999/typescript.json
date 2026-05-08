@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1097,
-    "concepts": 149,
-    "observations": 150,
-    "repos": 36,
-    "terms": 159
+    "components": 1014,
+    "concepts": 164,
+    "observations": 165,
+    "repos": 35,
+    "terms": 174
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
     "addyosmani/chatty",
     "agentscope-ai/agentscope-studio",
-    "antfu-collective/eslint-vitest-rule-tester",
     "antfu/changelogithub",
     "antfu/eslint-plugin-antfu",
     "antfu/eslint-plugin-command",
@@ -41,12 +40,12 @@
     "multiformats/js-multiformats",
     "niieani/gpt-tokenizer",
     "nodejs/llparse",
+    "Piebald-AI/gemini-cli-desktop",
     "priceline/design-system",
     "sveltejs/prettier-plugin-svelte",
     "trzsz/trzsz.js",
     "unplugin/unplugin-vue-markdown",
     "vuejs/vue-eslint-parser",
-    "weaviate/elysia-frontend",
     "Wykks/ngx-mapbox-gl",
     "yandeu/five-server",
     "zsviczian/excalibrain"

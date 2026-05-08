@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · C/C++
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 81
-- terms: 99
-- components: 164
-- concepts: 100
-- observations: 100
+- repos: 84
+- terms: 105
+- components: 172
+- concepts: 106
+- observations: 106
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [andreasdr/a-gui](https://github.com/andreasdr/a-gui) | 1 | 2025-11-08T20:41:33Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [andreasdr/yannet](https://github.com/andreasdr/yannet) | 1 | 2025-11-08T20:39:30Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
+| [andreasdr/minitscript](https://github.com/andreasdr/minitscript) | 4 | 2025-11-08T20:37:57Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [ntnu-arl/ouster-ros](https://github.com/ntnu-arl/ouster-ros) | 2 | 2025-10-13T16:17:17Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [buty4649/mruby-terminal-color](https://github.com/buty4649/mruby-terminal-color) | 2 | 2025-10-05T09:31:38Z | C/C++ | CLI | 1 | 2 | 1 | 1 |
 | [vpetrigo/median-filter](https://github.com/vpetrigo/median-filter) | 2 | 2025-10-04T17:06:30Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -146,6 +149,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [wxinix/wxlib](https://github.com/wxinix/wxlib) | 5 | 2023-02-20T16:44:58Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [dwyl/flutter-stopwatch-tutorial](https://github.com/dwyl/flutter-stopwatch-tutorial) | 5 | 2023-02-04T07:49:50Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [hayguen/pffft](https://github.com/hayguen/pffft) | 5 | 2022-04-10T13:50:14Z | C/C++ | Infrastructure/tooling | 0 | 4 | 0 | 0 |
+| [andreasdr/minitscript](https://github.com/andreasdr/minitscript) | 4 | 2025-11-08T20:37:57Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [hermit-os/hermit-c](https://github.com/hermit-os/hermit-c) | 4 | 2025-09-16T12:06:03Z | C/C++ | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [usdot-fhwa-stol/avt_vimba_camera](https://github.com/usdot-fhwa-stol/avt_vimba_camera) | 4 | 2025-05-28T17:49:45Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [Cydral/BAREL](https://github.com/Cydral/BAREL) | 4 | 2024-05-14T07:00:30Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -171,6 +175,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [andreigh/triton](https://github.com/andreigh/triton) | 2 | 2023-10-29T07:34:42Z | C/C++ | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [CameLLM/CameLLM-Common](https://github.com/CameLLM/CameLLM-Common) | 2 | 2023-06-08T22:46:41Z | C/C++ | Unknown | 1 | 0 | 1 | 1 |
 | [nvpro-samples/third_party_binaries](https://github.com/nvpro-samples/third_party_binaries) | 2 | 2021-05-18T15:11:39Z | C/C++ | Framework | 0 | 0 | 0 | 0 |
+| [andreasdr/a-gui](https://github.com/andreasdr/a-gui) | 1 | 2025-11-08T20:41:33Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [andreasdr/yannet](https://github.com/andreasdr/yannet) | 1 | 2025-11-08T20:39:30Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [yoshoku/numo-tiny_linalg](https://github.com/yoshoku/numo-tiny_linalg) | 1 | 2025-10-01T14:12:41Z | C/C++ | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [nativium/nativium-modules](https://github.com/nativium/nativium-modules) | 1 | 2025-09-04T20:54:54Z | C/C++ | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [nativium/nativium-http-server](https://github.com/nativium/nativium-http-server) | 1 | 2025-08-30T02:59:46Z | C/C++ | Infrastructure/tooling | 3 | 6 | 3 | 3 |

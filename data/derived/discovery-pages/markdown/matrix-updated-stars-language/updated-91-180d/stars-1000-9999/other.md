@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 83
-- terms: 374
+- repos: 84
+- terms: 376
 - components: 344
-- concepts: 374
-- observations: 376
+- concepts: 376
+- observations: 378
 
 ## Static behavior
 
@@ -106,6 +106,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [petertriho/nvim-scrollbar](https://github.com/petertriho/nvim-scrollbar) | 1040 | 2025-11-17T11:06:08Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [jashkenas/docco](https://github.com/jashkenas/docco) | 3571 | 2025-11-17T10:31:55Z | Other | Web app | 0 | 5 | 0 | 0 |
 | [EleutherAI/pythia](https://github.com/EleutherAI/pythia) | 2783 | 2025-11-15T17:39:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [hrsh7th/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp) | 1503 | 2025-11-13T07:27:45Z | Other | CLI | 2 | 0 | 2 | 2 |
 | [IDEA-Research/Grounded-SAM-2](https://github.com/IDEA-Research/Grounded-SAM-2) | 3475 | 2025-11-11T12:16:57Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [FoundationVision/VAR](https://github.com/FoundationVision/VAR) | 8678 | 2025-11-10T21:42:29Z | Other | Model/data | 11 | 0 | 11 | 11 |
 | [GEOSwift/GEOSwift](https://github.com/GEOSwift/GEOSwift) | 1500 | 2025-11-09T19:17:58Z | Other | Infrastructure/tooling | 15 | 1 | 15 | 15 |
@@ -174,6 +175,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [richfelker/musl-cross-make](https://github.com/richfelker/musl-cross-make) | 1544 | 2025-12-03T02:11:11Z | Other | Unknown | 6 | 0 | 6 | 6 |
 | [kikito/inspect.lua](https://github.com/kikito/inspect.lua) | 1523 | 2026-01-05T16:28:00Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [hoshsadiq/adblock-nocoin-list](https://github.com/hoshsadiq/adblock-nocoin-list) | 1518 | 2025-12-30T17:55:05Z | Other | Unknown | 5 | 0 | 5 | 5 |
+| [hrsh7th/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp) | 1503 | 2025-11-13T07:27:45Z | Other | CLI | 2 | 0 | 2 | 2 |
 | [GEOSwift/GEOSwift](https://github.com/GEOSwift/GEOSwift) | 1500 | 2025-11-09T19:17:58Z | Other | Infrastructure/tooling | 15 | 1 | 15 | 15 |
 | [clojure/core.logic](https://github.com/clojure/core.logic) | 1498 | 2025-12-30T18:57:45Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [microsoft/TextWorld](https://github.com/microsoft/TextWorld) | 1405 | 2026-01-30T19:15:32Z | Other | Infrastructure/tooling | 7 | 6 | 7 | 7 |

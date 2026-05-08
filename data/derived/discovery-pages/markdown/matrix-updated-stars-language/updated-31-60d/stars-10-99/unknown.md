@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · Unknown
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 17
-- terms: 26
-- components: 15
-- concepts: 26
-- observations: 26
+- repos: 18
+- terms: 27
+- components: 16
+- concepts: 27
+- observations: 27
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [bmad-code-org/bmad-plugins-marketplace](https://github.com/bmad-code-org/bmad-plugins-marketplace) | 13 | 2026-04-08T04:41:05Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [onyx-dot-app/onyx_deep_research_bench](https://github.com/onyx-dot-app/onyx_deep_research_bench) | 17 | 2026-04-04T22:49:18Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [AppImage/AppImageSpec](https://github.com/AppImage/AppImageSpec) | 85 | 2026-04-03T11:48:26Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [collective/awesome-volto](https://github.com/collective/awesome-volto) | 33 | 2026-04-02T09:47:29Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -62,6 +63,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [getsentry/.github](https://github.com/getsentry/.github) | 23 | 2026-03-24T06:46:32Z | Unknown | Infrastructure/tooling | 5 | 9 | 5 | 5 |
 | [cta-wave/WMAS](https://github.com/cta-wave/WMAS) | 20 | 2026-03-18T13:07:02Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [onyx-dot-app/onyx_deep_research_bench](https://github.com/onyx-dot-app/onyx_deep_research_bench) | 17 | 2026-04-04T22:49:18Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [bmad-code-org/bmad-plugins-marketplace](https://github.com/bmad-code-org/bmad-plugins-marketplace) | 13 | 2026-04-08T04:41:05Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [dragonflyoss/community](https://github.com/dragonflyoss/community) | 13 | 2026-03-30T15:36:33Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [aquasecurity/setup-trivy](https://github.com/aquasecurity/setup-trivy) | 12 | 2026-03-19T22:27:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ithiria894/awesome-claude-code-hooks](https://github.com/ithiria894/awesome-claude-code-hooks) | 11 | 2026-03-24T21:08:05Z | Unknown | Infrastructure/tooling | 7 | 1 | 7 | 7 |

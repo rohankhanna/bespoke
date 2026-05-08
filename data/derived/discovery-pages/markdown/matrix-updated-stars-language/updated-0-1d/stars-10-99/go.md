@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10 to 99 stars · Go
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [cloudfoundry/bosh-google-cpi-release](https://github.com/cloudfoundry/bosh-google-cpi-release) | 63 | 2026-05-07T06:44:23Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
+| [cloudfoundry/bosh-google-cpi-release](https://github.com/cloudfoundry/bosh-google-cpi-release) | 63 | 2026-05-08T01:06:45Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [cloudfoundry/bosh-google-cpi-release](https://github.com/cloudfoundry/bosh-google-cpi-release) | 63 | 2026-05-07T06:44:23Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
+| [cloudfoundry/bosh-google-cpi-release](https://github.com/cloudfoundry/bosh-google-cpi-release) | 63 | 2026-05-08T01:06:45Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |

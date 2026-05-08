@@ -1,39 +1,26 @@
 {
   "counts": {
-    "components": 106,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 22,
-    "terms": 26
+    "components": 66,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 9,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
-    "aidenlab/spacewalk",
-    "aidenlab/swtool",
     "angular/angular-build-builds",
-    "csm-actions/demo-client",
-    "danielrosehill/Air-Quality-Toolkit-Plugin",
+    "clearml/clearml-agent-bootstrap",
     "danielrosehill/Claude-Agent-Relay-Plugin",
-    "danielrosehill/Claude-AI-Model-Research-Plugin",
-    "danielrosehill/Claude-Background-Removal-Plugin",
-    "danielrosehill/Claude-Batch-Optical-Archivist-Plugin",
-    "danielrosehill/Claude-CopyQ-Scripting-Plugin",
-    "danielrosehill/Claude-Dev-Tools-Plugin",
-    "danielrosehill/Claude-Digital-Evidence-Plugin",
-    "danielrosehill/Claude-Donetick-Plugin",
-    "getlantern/guide",
-    "HumanSignal/label-studio-client-generator",
+    "danielrosehill/Claude-Gist-Writer-Plugin",
     "kalavai-net/kalavai-templates",
     "kleisauke/glib",
     "lace/lacecore",
     "lakekeeper/iceberg-rust",
-    "lakekeeper/lakekeeper-operator",
-    "netdur/imaged-sdk-examples",
     "seanmacavaney/ir-datasets.com"
   ]
 }

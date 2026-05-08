@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 163,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 3,
-    "terms": 27
+    "components": 153,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 2,
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "open-webui/open-webui",
-    "Significant-Gravitas/AutoGPT",
     "vinta/awesome-python"
   ]
 }

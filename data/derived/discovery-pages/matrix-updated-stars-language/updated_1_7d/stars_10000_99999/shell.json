@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 47,
-    "concepts": 53,
-    "observations": 53,
+    "components": 40,
+    "concepts": 50,
+    "observations": 50,
     "repos": 4,
-    "terms": 51
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "acmesh-official/acme.sh",
     "BtbN/FFmpeg-Builds",
     "itzg/docker-minecraft-server",
-    "nvm-sh/nvm"
+    "spaceship-prompt/spaceship-prompt"
   ]
 }

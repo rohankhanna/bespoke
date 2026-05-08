@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 10,
-    "terms": 2
+    "components": 0,
+    "concepts": 3,
+    "observations": 3,
+    "repos": 2,
+    "terms": 3
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
-    "csm-actions/demo-client",
-    "danielrosehill/Air-Quality-Toolkit-Plugin",
-    "danielrosehill/Claude-AI-Model-Research-Plugin",
-    "danielrosehill/Claude-Background-Removal-Plugin",
-    "danielrosehill/Claude-Batch-Optical-Archivist-Plugin",
-    "danielrosehill/Claude-CopyQ-Scripting-Plugin",
-    "danielrosehill/Claude-Dev-Tools-Plugin",
-    "danielrosehill/Claude-Digital-Evidence-Plugin",
-    "danielrosehill/Claude-Donetick-Plugin",
+    "danielrosehill/Claude-Gist-Writer-Plugin",
     "kleisauke/glib"
   ]
 }

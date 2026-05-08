@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10 to 99 stars · TypeScript
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 1
-- terms: 4
-- components: 23
-- concepts: 4
-- observations: 4
+- terms: 3
+- components: 30
+- concepts: 3
+- observations: 3
 
 ## Static behavior
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [TrigenSoftware/simple-release](https://github.com/TrigenSoftware/simple-release) | 20 | 2026-05-06T13:48:32Z | TypeScript | Infrastructure/tooling | 4 | 23 | 4 | 4 |
+| [ogx-ai/ogx-client-typescript](https://github.com/ogx-ai/ogx-client-typescript) | 95 | 2026-05-07T21:16:00Z | TypeScript | Infrastructure/tooling | 3 | 30 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [TrigenSoftware/simple-release](https://github.com/TrigenSoftware/simple-release) | 20 | 2026-05-06T13:48:32Z | TypeScript | Infrastructure/tooling | 4 | 23 | 4 | 4 |
+| [ogx-ai/ogx-client-typescript](https://github.com/ogx-ai/ogx-client-typescript) | 95 | 2026-05-07T21:16:00Z | TypeScript | Infrastructure/tooling | 3 | 30 | 3 | 3 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 240,
-    "concepts": 378,
-    "observations": 379,
-    "repos": 74,
-    "terms": 374
+    "components": 249,
+    "concepts": 401,
+    "observations": 402,
+    "repos": 76,
+    "terms": 397
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "afbjorklund/lima-gui",
     "AmusementClub/vs-mlrt",
@@ -25,6 +25,7 @@
     "avaneev/r8brain-free-src",
     "BirolLab/ntHash",
     "btzy/nativefiledialog-extended",
+    "CarlosDerSeher/snapclient",
     "containers/conmon",
     "CrystallineCore/Biscuit",
     "Dao-AILab/fast-hadamard-transform",
@@ -45,6 +46,7 @@
     "heal-research/operon",
     "intel/gmmlib",
     "intel/opencl-clang",
+    "ipsilon/evmc",
     "JokerJohn/Cloud_Map_Evaluation",
     "JokerJohn/MS-Mapping",
     "KhronosGroup/OpenCL-Headers",
@@ -63,6 +65,7 @@
     "myfreeer/chrome-pak-customizer",
     "NetEase-FuXi/EETQ",
     "ng-log/ng-log",
+    "NiLuJe/FBInk",
     "NiLuJe/kfmon",
     "objectbox/objectbox-c",
     "osmcode/libosmium",
@@ -73,7 +76,7 @@
     "refresh-bio/KMC",
     "RoaringBitmap/croaring-rs",
     "rusty1s/pytorch_cluster",
-    "sheredom/ubench.h",
+    "samtools/bcftools",
     "Slamtec/rplidar_sdk",
     "smarco/WFA2-lib",
     "stardot/beebasm",
@@ -86,7 +89,6 @@
     "vectr-ucla/direct_lidar_inertial_odometry",
     "VeriSilicon/TIM-VX",
     "webgpu-native/webgpu-headers",
-    "xtensor-stack/xtensor-python",
-    "xuankuzcr/Global-LVBA"
+    "xtensor-stack/xtensor-python"
   ]
 }

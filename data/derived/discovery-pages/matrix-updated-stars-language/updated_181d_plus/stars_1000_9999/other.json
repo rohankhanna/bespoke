@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1229,
-    "concepts": 1434,
-    "observations": 1436,
-    "repos": 396,
-    "terms": 1424
+    "concepts": 1445,
+    "observations": 1447,
+    "repos": 399,
+    "terms": 1435
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -71,6 +71,7 @@
     "cask/cask",
     "cgrand/enlive",
     "chentoast/marks.nvim",
+    "Chris911/iStats",
     "clojure-cookbook/clojure-cookbook",
     "clojure-liberator/liberator",
     "cloneofsimo/lora",
@@ -271,6 +272,7 @@
     "openai/mujoco-py",
     "openai/requests-for-research",
     "OpenDriveLab/DriveLM",
+    "oppiliappan/scientifica",
     "orpatashnik/StyleCLIP",
     "paper-trail-gem/paper_trail",
     "pesser/stable-diffusion",
@@ -302,6 +304,7 @@
     "rhysd/clever-f.vim",
     "rhysd/vim-clang-format",
     "rmcelreath/stat_rethinking_2022",
+    "romeovs/creep",
     "rrousselGit/flutter_hooks",
     "rtfeldman/elm-css",
     "rtfeldman/elm-spa-example",

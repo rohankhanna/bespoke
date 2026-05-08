@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 0 stars · Shell
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
+- repos: 2
 - terms: 1
 - components: 2
 - concepts: 1
@@ -26,10 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [clearml/clearml-agent-bootstrap](https://github.com/clearml/clearml-agent-bootstrap) | 0 | 2026-05-06T15:42:50Z | Shell | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [kalavai-net/kalavai-templates](https://github.com/kalavai-net/kalavai-templates) | 0 | 2026-05-01T07:45:12Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [clearml/clearml-agent-bootstrap](https://github.com/clearml/clearml-agent-bootstrap) | 0 | 2026-05-06T15:42:50Z | Shell | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [kalavai-net/kalavai-templates](https://github.com/kalavai-net/kalavai-templates) | 0 | 2026-05-01T07:45:12Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |

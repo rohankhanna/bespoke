@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 110,
-    "concepts": 109,
-    "observations": 109,
-    "repos": 32,
-    "terms": 109
+    "components": 96,
+    "concepts": 87,
+    "observations": 87,
+    "repos": 28,
+    "terms": 87
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "appsignal/appsignal-elixir-plug",
-    "b-data/jupyterlab-julia-docker-stack",
     "b-data/jupyterlab-mojo-docker-stack",
     "beeware/beeware-docs-tools",
     "benjamimgois/pascube",
@@ -24,9 +23,7 @@
     "Blosc/blogsite",
     "cgrindel/rules_swiftformat",
     "cosmos/security",
-    "curiousdannii/emglken",
     "dotenvx/homebrew-brew",
-    "enbop/fungi-app",
     "googleapis/google-cloud-php-compute",
     "hao-ai-lab/flash-attention-fp4",
     "holochain/holonix",
@@ -34,7 +31,6 @@
     "jfmengels/elm-review-config",
     "jk10001/aquainsightai",
     "JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl",
-    "KhronosGroup/KTX-Software-CTS",
     "lintnet-modules/ghalint",
     "localstack/homebrew-tap",
     "mozilla-mobile/fxios-ctl",

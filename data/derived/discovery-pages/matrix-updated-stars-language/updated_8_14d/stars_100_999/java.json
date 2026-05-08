@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 262,
-    "concepts": 277,
-    "observations": 277,
-    "repos": 35,
-    "terms": 275
+    "components": 284,
+    "concepts": 300,
+    "observations": 300,
+    "repos": 39,
+    "terms": 298
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,17 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "allegro/hermes",
     "apache/commons-jexl",
     "apache/ignite-3",
     "apache/rocketmq-clients",
     "apache/spark-kubernetes-operator",
+    "Apicurio/apicurio-registry",
     "aws-powertools/powertools-lambda-java",
+    "aws/smithy-go",
+    "bazel-contrib/rules_jvm_external",
     "bndtools/bnd",
     "confluentinc/kafka-streams-examples",
     "devoxx/DevoxxGenieIDEAPlugin",
@@ -30,9 +33,11 @@
     "FasterXML/jackson-modules-base",
     "googleapis/java-bigtable-hbase",
     "graalvm/graalvm-demos",
+    "heroku/webapp-runner",
     "jpmml/jpmml-lightgbm",
     "jpmml/jpmml-sklearn",
     "jpmml/jpmml-xgboost",
+    "kirill-grouchnikov/radiance",
     "michel-kraemer/bson4jackson",
     "microsoft/vscode-java-test",
     "milvus-io/milvus-sdk-java",
@@ -42,12 +47,11 @@
     "reactor/reactor-addons",
     "revelc/formatter-maven-plugin",
     "saalfeldlab/n5",
+    "SAP/SapMachine",
     "sevntu-checkstyle/sevntu.checkstyle",
     "swagger-api/swagger-parser",
     "ThreeTen/threetenbp",
-    "Waffle/waffle",
     "wildfly/quickstart",
-    "Xilinx/RapidWright",
-    "zilliztech/vts"
+    "Xilinx/RapidWright"
   ]
 }

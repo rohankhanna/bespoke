@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 60269,
-    "concepts": 10316,
-    "observations": 10351,
-    "repos": 1836,
-    "terms": 10622
+    "components": 60600,
+    "concepts": 10380,
+    "observations": 10415,
+    "repos": 1843,
+    "terms": 10686
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "0h7z/vscode-julia-format",
@@ -90,6 +90,7 @@
     "agentscope-ai/agentscope-studio",
     "aggre/ullr",
     "AgnosticUI/agnosticui",
+    "Agoric/agoric-sdk",
     "Agreon/styco",
     "ai-that-works/ai-that-works",
     "aiden0z/pptx-renderer",
@@ -142,6 +143,7 @@
     "angular/vscode-ng-language-service",
     "anolilab/unplugin-favicons",
     "anomalyco/opencode",
+    "AnotiaWang/deep-research-web-ui",
     "anse-app/anse",
     "anse-app/chatgpt-demo",
     "anselanza/parse-strings-in-object",
@@ -501,6 +503,7 @@
     "devcontainers/action",
     "devcontainers/ci",
     "devcontainers/cli",
+    "dezoito/ollama-grid-search",
     "diegomura/react-pdf",
     "DiFuks/ts-overrides-plugin",
     "dilanx/craco",
@@ -1089,6 +1092,7 @@
     "MarshallOfSound/electron-devtools-installer",
     "matafokka/geotiff-3d-dem-viewer",
     "matepek/vscode-catch2-test-adapter",
+    "material-components/material-components-web",
     "mathjax/MathJax-src",
     "matrix-org/matrix-appservice-slack",
     "matt1398/claude-devtools",
@@ -1823,8 +1827,11 @@
     "windsonR/vite-plugin-virtual-html",
     "winfunc/opcode",
     "winily/zhipuai-sdk-nodejs-v4",
+    "WisdomShell/codeshell-vscode",
     "withastro/astro",
     "withastro/starlight",
+    "withcatai/catai",
+    "withcatai/node-llama-cpp",
     "withfig/autocomplete",
     "wojtekmaj/react-pdf",
     "wrkout/exercises.json",

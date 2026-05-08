@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 344,
-    "concepts": 374,
-    "observations": 376,
-    "repos": 83,
-    "terms": 374
+    "concepts": 376,
+    "observations": 378,
+    "repos": 84,
+    "terms": 376
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "Alexander-Miller/treemacs",
     "ankane/dexter",
@@ -55,6 +55,7 @@
     "haskell/stylish-haskell",
     "hecomi/uLipSync",
     "hoshsadiq/adblock-nocoin-list",
+    "hrsh7th/cmp-nvim-lsp",
     "IDEA-Research/Grounded-SAM-2",
     "jashkenas/docco",
     "jekip/naive-ui-admin",

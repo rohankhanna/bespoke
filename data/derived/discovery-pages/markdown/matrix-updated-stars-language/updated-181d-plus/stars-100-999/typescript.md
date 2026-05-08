@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 192
+- repos: 193
 - terms: 704
-- components: 4684
+- components: 4704
 - concepts: 693
 - observations: 695
 
@@ -124,6 +124,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [andresz1/size-limit-action](https://github.com/andresz1/size-limit-action) | 470 | 2024-06-07T13:50:06Z | TypeScript | Infrastructure/tooling | 2 | 24 | 2 | 2 |
 | [Lusito/forget-me-not](https://github.com/Lusito/forget-me-not) | 228 | 2024-05-30T15:15:31Z | TypeScript | Web app | 0 | 29 | 0 | 0 |
 | [hibiken/asynqmon](https://github.com/hibiken/asynqmon) | 903 | 2024-05-21T00:11:44Z | TypeScript | Infrastructure/tooling | 3 | 12 | 3 | 3 |
+| [WisdomShell/codeshell-vscode](https://github.com/WisdomShell/codeshell-vscode) | 580 | 2024-05-09T11:52:05Z | TypeScript | Unknown | 0 | 20 | 0 | 0 |
 | [storybookjs/native](https://github.com/storybookjs/native) | 217 | 2024-04-24T17:10:55Z | TypeScript | Unknown | 0 | 22 | 0 | 0 |
 | [ben-rogerson/twin.examples](https://github.com/ben-rogerson/twin.examples) | 466 | 2024-04-11T03:21:20Z | TypeScript | Framework | 5 | 0 | 5 | 5 |
 | [1hanzla100/developer-portfolio](https://github.com/1hanzla100/developer-portfolio) | 798 | 2024-04-09T11:02:08Z | TypeScript | Infrastructure/tooling | 14 | 32 | 14 | 14 |
@@ -262,6 +263,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [underfin/vite-plugin-vue2](https://github.com/underfin/vite-plugin-vue2) | 619 | 2023-02-16T23:10:02Z | TypeScript | Infrastructure/tooling | 0 | 54 | 0 | 0 |
 | [mhartington/nvim-typescript](https://github.com/mhartington/nvim-typescript) | 612 | 2021-07-28T14:13:48Z | TypeScript | Unknown | 1 | 0 | 1 | 1 |
 | [yassinedoghri/astro-i18next](https://github.com/yassinedoghri/astro-i18next) | 593 | 2024-07-26T02:07:26Z | TypeScript | Infrastructure/tooling | 8 | 52 | 8 | 8 |
+| [WisdomShell/codeshell-vscode](https://github.com/WisdomShell/codeshell-vscode) | 580 | 2024-05-09T11:52:05Z | TypeScript | Unknown | 0 | 20 | 0 | 0 |
 | [Azzedde/brainstormers](https://github.com/Azzedde/brainstormers) | 567 | 2025-08-02T13:05:20Z | TypeScript | Web app | 1 | 30 | 1 | 1 |
 | [wrkout/exercises.json](https://github.com/wrkout/exercises.json) | 563 | 2025-02-16T10:35:27Z | TypeScript | Model/data | 4 | 20 | 4 | 4 |
 | [rameshvarun/netplayjs](https://github.com/rameshvarun/netplayjs) | 562 | 2024-10-10T07:40:04Z | TypeScript | Infrastructure/tooling | 10 | 2 | 10 | 10 |

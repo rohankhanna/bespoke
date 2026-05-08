@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 41
-- terms: 213
-- components: 284
-- concepts: 215
-- observations: 220
+- repos: 42
+- terms: 221
+- components: 295
+- concepts: 223
+- observations: 228
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [WebAssembly/WASI](https://github.com/WebAssembly/WASI) | 5606 | 2026-04-07T13:41:02Z | Rust | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 | [liuchengxu/vim-clap](https://github.com/liuchengxu/vim-clap) | 2138 | 2026-04-06T15:43:17Z | Rust | Infrastructure/tooling | 8 | 12 | 8 | 8 |
 | [nabijaczleweli/cargo-update](https://github.com/nabijaczleweli/cargo-update) | 1513 | 2026-04-06T14:46:16Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [noib3/nvim-oxi](https://github.com/noib3/nvim-oxi) | 1116 | 2026-04-06T10:01:24Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
@@ -78,6 +79,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sharkdp/pastel](https://github.com/sharkdp/pastel) | 6341 | 2026-04-01T02:05:48Z | Rust | CLI | 8 | 7 | 8 | 8 |
 | [lldap/lldap](https://github.com/lldap/lldap) | 6196 | 2026-03-29T08:19:27Z | Rust | Infrastructure/tooling | 7 | 0 | 7 | 7 |
 | [visioncortex/vtracer](https://github.com/visioncortex/vtracer) | 5957 | 2026-03-23T15:31:45Z | Rust | Infrastructure/tooling | 3 | 10 | 3 | 4 |
+| [WebAssembly/WASI](https://github.com/WebAssembly/WASI) | 5606 | 2026-04-07T13:41:02Z | Rust | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 | [extism/extism](https://github.com/extism/extism) | 5583 | 2026-03-26T21:38:31Z | Rust | Infrastructure/tooling | 18 | 15 | 18 | 18 |
 | [dtolnay/thiserror](https://github.com/dtolnay/thiserror) | 5403 | 2026-03-24T02:34:35Z | Rust | Infrastructure/tooling | 0 | 10 | 0 | 0 |
 | [LaurentMazare/tch-rs](https://github.com/LaurentMazare/tch-rs) | 5367 | 2026-03-26T13:24:41Z | Rust | Infrastructure/tooling | 6 | 3 | 6 | 6 |

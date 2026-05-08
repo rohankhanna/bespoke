@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 326,
-    "concepts": 206,
-    "observations": 206,
-    "repos": 45,
-    "terms": 206
+    "components": 304,
+    "concepts": 196,
+    "observations": 196,
+    "repos": 40,
+    "terms": 196
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "AccessKit/accesskit-c",
-    "ai-dynamo/modelexpress",
     "ankane/delta-ruby",
     "ankane/iceberg-ruby",
-    "ankane/safetensors-ruby",
-    "apache/opendal-oli",
     "apollographql/federation-rs",
     "arkworks-rs/std",
     "asny/three-d-asset",
     "astral-sh/pubgrub",
-    "bitcoindevkit/rust-electrum-client",
     "bnb-chain/reth",
     "bnb-chain/reth-bsc",
     "bourumir-wyngs/serde-yaml-bw",
@@ -34,12 +30,10 @@
     "eopb/cargo-override",
     "filecoin-project/builtin-actors",
     "fonttools/fontspector",
-    "GreptimeTeam/greptimedb-ingester-rust",
     "hermit-os/loader",
     "heroku/buildpacks-dotnet",
     "heroku/buildpacks-go",
-    "holochain/holochain-wasmer",
-    "KWARC/rust-libxml",
+    "heroku/libcnb.rs",
     "launchdarkly/rust-server-sdk",
     "ldclabs/anda-db",
     "ldclabs/anda-hippocampus",
@@ -51,13 +45,14 @@
     "near/cargo-near-new-project-template",
     "openvm-org/stark-backend",
     "oxc-project/oxc-sourcemap",
-    "paradigmxyz/stateless",
+    "Ralith/lahar",
     "rozbb/rust-hpke",
     "rust-bitcoin/corepc",
     "rust-osdev/ovmf-prebuilt",
     "succinctlabs/sp1-cluster",
     "Systemcluster/kitoken",
     "typst/typst-assets",
+    "unrs/unrs-resolver",
     "urschrei/rdp"
   ]
 }

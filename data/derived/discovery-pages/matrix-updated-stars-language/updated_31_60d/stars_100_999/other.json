@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 957,
-    "concepts": 705,
-    "observations": 708,
-    "repos": 169,
-    "terms": 698
+    "components": 1004,
+    "concepts": 727,
+    "observations": 730,
+    "repos": 176,
+    "terms": 720
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "actboy168/json.lua",
@@ -32,6 +32,7 @@
     "aws-ia/terraform-aws-eks-blueprints-addons",
     "aws/homebrew-tap",
     "Azure-Samples/azureai-samples",
+    "Azure-Samples/openai-chat-app-quickstart",
     "Azure/appservice-landing-zone-accelerator",
     "babashka/babashka-sql-pods",
     "babashka/bbin",
@@ -55,6 +56,7 @@
     "chep/copilot-chat.el",
     "chiron-fonts/chiron-hei-hk",
     "chomosuke/typst-preview.nvim",
+    "chrisgrieser/nvim-lsp-endhints",
     "clojure-emacs/clj-refactor.el",
     "clojure-emacs/clojure-mode",
     "clojure-emacs/clojure-ts-mode",
@@ -70,6 +72,7 @@
     "Dao-AILab/causal-conv1d",
     "dashbitco/nimble_options",
     "dashbitco/nimble_pool",
+    "dashbitco/nimble_totp",
     "Deep-Symmetry/dysentery",
     "djezzzl/factory_trace",
     "dkubb/adamantium",
@@ -85,6 +88,7 @@
     "elementary/icons",
     "elixir-ecto/myxql",
     "elixir-sqlite/ecto_sqlite3",
+    "emacs-rustic/rustic",
     "enjoy-digital/usb3_pipe",
     "ethereum/builder-specs",
     "facebookresearch/fairo",
@@ -120,6 +124,7 @@
     "kwn/php-rdkafka-stubs",
     "LAION-AI/laion.ai",
     "lassik/emacs-format-all-the-code",
+    "Layr-Labs/eigenlayer-contracts",
     "less/less-docs",
     "lewis6991/hover.nvim",
     "lifepillar/vim-colortemplate",
@@ -156,6 +161,7 @@
     "r-lib/styler",
     "rails/execjs",
     "RDFLib/OWL-RL",
+    "riscv-non-isa/riscv-sbi-doc",
     "rubocop/rubocop-ast",
     "ruby/spec",
     "RubyMoney/eu_central_bank",
@@ -180,6 +186,7 @@
     "unxsist/jet-pilot",
     "vim-jp/vital.vim",
     "w3c/navigation-timing",
+    "w3c/web-performance",
     "whatwg/fs",
     "whatyouhide/stream_data",
     "WICG/attribution-reporting-api"

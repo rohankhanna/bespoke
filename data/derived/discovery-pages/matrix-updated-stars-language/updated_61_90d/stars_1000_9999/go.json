@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 86,
-    "concepts": 72,
-    "observations": 72,
-    "repos": 17,
-    "terms": 75
+    "components": 91,
+    "concepts": 87,
+    "observations": 87,
+    "repos": 21,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,23 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "abh/geodns",
     "avast/retry-go",
     "dagger/container-use",
+    "dghubble/sling",
+    "duke-git/lancet",
     "flashbots/mev-boost",
     "go-rod/rod",
     "gobwas/ws",
+    "golang/oauth2",
     "isaacphi/mcp-language-server",
     "JohannesKaufmann/html-to-markdown",
     "liquidmetal-dev/flintlock",
     "markbates/goth",
     "mattn/efm-langserver",
+    "mozillazg/go-pinyin",
     "nutsdb/nutsdb",
     "OffchainLabs/arbitrum-classic",
     "opencontainers/image-spec",

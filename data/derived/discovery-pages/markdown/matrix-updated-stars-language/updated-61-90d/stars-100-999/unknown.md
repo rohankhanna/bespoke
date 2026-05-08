@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 18
-- terms: 73
+- terms: 71
 - components: 14
-- concepts: 77
-- observations: 78
+- concepts: 75
+- observations: 76
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [MiniMax-AI/MiniMax-M2.5](https://github.com/MiniMax-AI/MiniMax-M2.5) | 571 | 2026-03-09T02:44:20Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [google/deepsomatic](https://github.com/google/deepsomatic) | 304 | 2026-03-05T23:37:06Z | Unknown | Unknown | 10 | 0 | 10 | 10 |
 | [peter-evans/enable-pull-request-automerge](https://github.com/peter-evans/enable-pull-request-automerge) | 145 | 2026-03-05T21:46:15Z | Unknown | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [eza-community/eza-themes](https://github.com/eza-community/eza-themes) | 229 | 2026-03-04T17:26:16Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 2 |
@@ -43,7 +44,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lintool/guide](https://github.com/lintool/guide) | 324 | 2026-02-11T23:06:08Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [docker-library/faq](https://github.com/docker-library/faq) | 140 | 2026-02-11T18:18:31Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Biscuit-Theme/biscuit](https://github.com/Biscuit-Theme/biscuit) | 191 | 2026-02-09T05:09:11Z | Unknown | Unknown | 8 | 0 | 8 | 8 |
-| [GuiWonder/MoonStarsKai](https://github.com/GuiWonder/MoonStarsKai) | 118 | 2026-02-06T12:48:34Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -53,6 +53,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [TimoBolkart/FLAME-Universe](https://github.com/TimoBolkart/FLAME-Universe) | 671 | 2026-03-03T16:22:45Z | Unknown | Model/data | 8 | 0 | 10 | 10 |
 | [pbatard/UEFI-Shell](https://github.com/pbatard/UEFI-Shell) | 611 | 2026-02-27T12:41:21Z | Unknown | Infrastructure/tooling | 10 | 4 | 11 | 11 |
 | [Alex313031/Thorium-MacOS](https://github.com/Alex313031/Thorium-MacOS) | 604 | 2026-02-25T22:59:48Z | Unknown | Unknown | 9 | 0 | 9 | 9 |
+| [MiniMax-AI/MiniMax-M2.5](https://github.com/MiniMax-AI/MiniMax-M2.5) | 571 | 2026-03-09T02:44:20Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaDiff/BlueStyle](https://github.com/JuliaDiff/BlueStyle) | 513 | 2026-02-19T12:43:30Z | Unknown | Docs/knowledge | 5 | 0 | 5 | 5 |
 | [Calcium-Ion/new-api-horizon](https://github.com/Calcium-Ion/new-api-horizon) | 365 | 2026-03-04T09:46:45Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [lintool/guide](https://github.com/lintool/guide) | 324 | 2026-02-11T23:06:08Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
@@ -66,4 +67,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [peter-evans/enable-pull-request-automerge](https://github.com/peter-evans/enable-pull-request-automerge) | 145 | 2026-03-05T21:46:15Z | Unknown | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [googleapis/python-logging](https://github.com/googleapis/python-logging) | 143 | 2026-02-26T17:08:02Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [docker-library/faq](https://github.com/docker-library/faq) | 140 | 2026-02-11T18:18:31Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [GuiWonder/MoonStarsKai](https://github.com/GuiWonder/MoonStarsKai) | 118 | 2026-02-06T12:48:34Z | Unknown | Unknown | 2 | 0 | 2 | 2 |

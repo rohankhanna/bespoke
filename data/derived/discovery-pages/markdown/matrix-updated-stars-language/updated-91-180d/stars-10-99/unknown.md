@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · Unknown
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 33
+- repos: 34
 - terms: 41
 - components: 15
 - concepts: 43
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [conda-forge/cfep](https://github.com/conda-forge/cfep) | 24 | 2026-02-06T17:38:24Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [cloudrepo-io/founder-os](https://github.com/cloudrepo-io/founder-os) | 10 | 2026-02-05T21:57:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [withastro/.github](https://github.com/withastro/.github) | 23 | 2026-02-04T14:34:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [LINs-lab/RCGM](https://github.com/LINs-lab/RCGM) | 35 | 2026-02-04T12:51:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -82,6 +83,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [PyCQA/bandit-action](https://github.com/PyCQA/bandit-action) | 26 | 2025-11-20T23:59:48Z | Unknown | Unknown | 6 | 0 | 6 | 6 |
 | [talk-flow/Lynxe-public-usecase](https://github.com/talk-flow/Lynxe-public-usecase) | 25 | 2025-12-15T03:11:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [astro/deadnix-action](https://github.com/astro/deadnix-action) | 25 | 2025-12-10T09:09:38Z | Unknown | Unknown | 6 | 0 | 6 | 6 |
+| [conda-forge/cfep](https://github.com/conda-forge/cfep) | 24 | 2026-02-06T17:38:24Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [withastro/.github](https://github.com/withastro/.github) | 23 | 2026-02-04T14:34:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [automazeio/open-royalties](https://github.com/automazeio/open-royalties) | 23 | 2026-01-16T12:22:54Z | Unknown | Framework | 0 | 0 | 0 | 0 |
 | [stephenschoettler/taches-oc-prompts](https://github.com/stephenschoettler/taches-oc-prompts) | 22 | 2026-01-14T04:58:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

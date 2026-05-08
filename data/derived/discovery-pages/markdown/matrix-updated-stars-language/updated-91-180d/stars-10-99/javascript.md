@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 28
-- terms: 53
-- components: 333
-- concepts: 53
-- observations: 54
+- repos: 29
+- terms: 59
+- components: 344
+- concepts: 59
+- observations: 60
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [quarkiverse/quarkiverse](https://github.com/quarkiverse/quarkiverse) | 53 | 2026-02-06T11:25:33Z | JavaScript | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [minikube-ci/examples](https://github.com/minikube-ci/examples) | 36 | 2026-01-26T21:35:44Z | JavaScript | Infrastructure/tooling | 1 | 2 | 1 | 2 |
 | [ameshkov/safari-blocker](https://github.com/ameshkov/safari-blocker) | 10 | 2026-01-14T14:13:08Z | JavaScript | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [nodejs/Gzemnid](https://github.com/nodejs/Gzemnid) | 35 | 2026-01-10T07:06:58Z | JavaScript | Unknown | 2 | 10 | 2 | 2 |
@@ -63,6 +64,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [salesforcecli/status](https://github.com/salesforcecli/status) | 58 | 2025-12-02T22:21:45Z | JavaScript | CLI | 1 | 7 | 1 | 1 |
 | [d3x0r/JSOX](https://github.com/d3x0r/JSOX) | 56 | 2025-12-18T05:55:47Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
 | [Arthy000/gherkin-testcafe](https://github.com/Arthy000/gherkin-testcafe) | 55 | 2025-11-17T18:23:45Z | JavaScript | Unknown | 0 | 13 | 0 | 0 |
+| [quarkiverse/quarkiverse](https://github.com/quarkiverse/quarkiverse) | 53 | 2026-02-06T11:25:33Z | JavaScript | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [markdown-it/markdown-it-deflist](https://github.com/markdown-it/markdown-it-deflist) | 53 | 2025-11-20T17:08:22Z | JavaScript | Infrastructure/tooling | 0 | 13 | 0 | 0 |
 | [karma-runner/karma-qunit](https://github.com/karma-runner/karma-qunit) | 52 | 2025-12-01T20:08:00Z | JavaScript | Infrastructure/tooling | 1 | 17 | 1 | 1 |
 | [ykdojo/cc-safe](https://github.com/ykdojo/cc-safe) | 51 | 2025-12-10T01:16:28Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |

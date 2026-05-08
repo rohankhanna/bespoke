@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 21,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 8,
-    "terms": 10
+    "components": 32,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 11,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,16 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "arnaud-lb/php-rdkafka-doc",
     "danielrosehill/Claude-Decision-Evaluation-Framework-Plugin",
     "danielrosehill/Responsible-Agent-Skill-Development",
+    "getlantern/guide",
+    "HumanSignal/label-studio-client-generator",
     "JuliaBinaryWrappers/Expat_jll.jl",
     "JuliaBinaryWrappers/GDAL_jll.jl",
+    "netdur/imaged-sdk-examples",
     "regro/cf-graph-countyfair",
     "stable-haskell/haskell-language-server",
     "Strivin0311/strivin0311.github.io"

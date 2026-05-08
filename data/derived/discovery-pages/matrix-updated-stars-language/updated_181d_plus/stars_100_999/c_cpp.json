@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 604,
-    "concepts": 1140,
-    "observations": 1143,
-    "repos": 358,
-    "terms": 1124
+    "components": 628,
+    "concepts": 1166,
+    "observations": 1169,
+    "repos": 361,
+    "terms": 1147
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "a-e-k/canvas_ity",
     "a-n-t-h-o-n-y/TermOx",
@@ -35,6 +35,7 @@
     "alibaba/BladeDISC",
     "alibaba/sentinel-cpp",
     "andikleen/snappy-c",
+    "andreasdr/tdme2",
     "andrewrk/libgroove",
     "andrewrk/node-groove",
     "andy-thomason/Vookoo",
@@ -262,6 +263,7 @@
     "mit-han-lab/omniserve",
     "mit-han-lab/TinyChatEngine",
     "mit-han-lab/tinyengine",
+    "mjording/ttyrec",
     "mmwillet/TTS.cpp",
     "MorganRO8/Lucys_Labyrinth",
     "MPEGGroup/mpeg-pcc-tmc13",
@@ -358,6 +360,7 @@
     "vulkan-go/vulkan",
     "wadey/node-microtime",
     "weisongwen/GraphGNSSLib",
+    "WisdomShell/llama_cpp_for_codeshell",
     "WL-Amigo/waifu2x-converter-cpp",
     "WojciechMula/base64simd",
     "xiongzhu666/Sky-Segmentation-and-Post-processing",

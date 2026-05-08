@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · JavaScript
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 123
-- terms: 199
-- components: 1501
-- concepts: 199
-- observations: 200
+- terms: 198
+- components: 1491
+- concepts: 198
+- observations: 199
 
 ## Static behavior
 
@@ -96,6 +96,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [effofxprime/Cosmregistry-API](https://github.com/effofxprime/Cosmregistry-API) | 1 | 2023-08-02T16:37:49Z | JavaScript | Service/API | 0 | 4 | 0 | 0 |
 | [csstree/atom-plugin](https://github.com/csstree/atom-plugin) | 5 | 2023-07-11T07:59:17Z | JavaScript | Unknown | 0 | 3 | 0 | 0 |
 | [KyberNetwork/dao_sc](https://github.com/KyberNetwork/dao_sc) | 7 | 2023-06-14T15:24:27Z | JavaScript | Unknown | 0 | 40 | 0 | 0 |
+| [0x4139/cosmos-discord-faucet](https://github.com/0x4139/cosmos-discord-faucet) | 6 | 2023-05-15T13:05:30Z | JavaScript | Infrastructure/tooling | 0 | 12 | 0 | 0 |
 | [broccolijs/broccoli-multifilter](https://github.com/broccolijs/broccoli-multifilter) | 4 | 2023-04-13T16:00:11Z | JavaScript | Infrastructure/tooling | 0 | 12 | 0 | 0 |
 | [adeweb-be/volto-leaflet-block](https://github.com/adeweb-be/volto-leaflet-block) | 3 | 2023-04-02T16:40:34Z | JavaScript | Unknown | 4 | 6 | 4 | 4 |
 | [caoxiemeihao/blog](https://github.com/caoxiemeihao/blog) | 2 | 2023-03-17T03:27:22Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
@@ -148,7 +149,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fnproject/flowui](https://github.com/fnproject/flowui) | 8 | 2021-05-17T19:57:16Z | JavaScript | Infrastructure/tooling | 0 | 23 | 0 | 0 |
 | [webmaster128/private-voting](https://github.com/webmaster128/private-voting) | 1 | 2021-05-10T23:19:52Z | JavaScript | Unknown | 0 | 12 | 0 | 0 |
 | [pajaydev/lasso-analyzer](https://github.com/pajaydev/lasso-analyzer) | 4 | 2021-05-10T17:06:16Z | JavaScript | Unknown | 5 | 5 | 5 | 5 |
-| [storybookjs/addon-design-assets](https://github.com/storybookjs/addon-design-assets) | 9 | 2021-05-08T10:22:19Z | JavaScript | Infrastructure/tooling | 1 | 22 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -157,7 +157,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kellyselden/git-diff-apply](https://github.com/kellyselden/git-diff-apply) | 9 | 2025-09-12T05:05:50Z | JavaScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
 | [andenacitelli/openapi-endpoint-trimmer](https://github.com/andenacitelli/openapi-endpoint-trimmer) | 9 | 2024-07-29T13:19:51Z | JavaScript | Infrastructure/tooling | 1 | 31 | 1 | 1 |
 | [amilajack/eslint-plugin-compat-demo](https://github.com/amilajack/eslint-plugin-compat-demo) | 9 | 2021-10-18T19:25:59Z | JavaScript | Unknown | 4 | 2 | 4 | 4 |
-| [storybookjs/addon-design-assets](https://github.com/storybookjs/addon-design-assets) | 9 | 2021-05-08T10:22:19Z | JavaScript | Infrastructure/tooling | 1 | 22 | 1 | 1 |
 | [gost-dom/project-harmony](https://github.com/gost-dom/project-harmony) | 8 | 2025-10-19T17:31:42Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
 | [joanroig/admincraft-websocket](https://github.com/joanroig/admincraft-websocket) | 8 | 2025-09-09T21:14:25Z | JavaScript | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 | [aralyekta/prompttester](https://github.com/aralyekta/prompttester) | 8 | 2025-08-13T21:20:08Z | JavaScript | Unknown | 6 | 8 | 6 | 6 |
@@ -190,6 +189,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [CyanAsterisk/FreeCar-MP](https://github.com/CyanAsterisk/FreeCar-MP) | 6 | 2025-04-17T07:32:44Z | JavaScript | CLI | 0 | 7 | 0 | 0 |
 | [sanctuary-js/sanctuary-descending](https://github.com/sanctuary-js/sanctuary-descending) | 6 | 2024-10-27T12:17:18Z | JavaScript | Unknown | 2 | 10 | 2 | 2 |
 | [boxworld18/OpenWebAgent](https://github.com/boxworld18/OpenWebAgent) | 6 | 2024-06-22T02:51:25Z | JavaScript | Framework | 0 | 0 | 0 | 0 |
+| [0x4139/cosmos-discord-faucet](https://github.com/0x4139/cosmos-discord-faucet) | 6 | 2023-05-15T13:05:30Z | JavaScript | Infrastructure/tooling | 0 | 12 | 0 | 0 |
 | [pulse-browser/firefox-qr-generator](https://github.com/pulse-browser/firefox-qr-generator) | 6 | 2022-11-23T09:21:47Z | JavaScript | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [pepsryuu/create-nollup-app](https://github.com/PepsRyuu/create-nollup-app) | 6 | 2021-09-10T16:29:25Z | JavaScript | Unknown | 0 | 1 | 0 | 0 |
 | [libp2p/js-libp2p-example-auto-tls](https://github.com/libp2p/js-libp2p-example-auto-tls) | 5 | 2025-09-30T08:40:10Z | JavaScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |

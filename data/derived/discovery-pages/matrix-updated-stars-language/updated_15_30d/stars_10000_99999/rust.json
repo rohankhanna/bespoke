@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 667,
-    "concepts": 388,
-    "observations": 389,
-    "repos": 40,
-    "terms": 382
+    "components": 781,
+    "concepts": 461,
+    "observations": 462,
+    "repos": 48,
+    "terms": 455
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "actix/actix-web",
     "ajeetdsouza/zoxide",
@@ -30,15 +30,22 @@
     "facebook/relay",
     "fish-shell/fish-shell",
     "foundry-rs/foundry",
+    "FuelLabs/fuel-core",
+    "FuelLabs/sway",
     "gfx-rs/wgpu",
     "gitui-org/gitui",
+    "gleam-lang/gleam",
     "googleworkspace/cli",
     "huggingface/candle",
     "hyperium/tonic",
     "jdx/mise",
+    "launchbadge/sqlx",
     "lsd-rs/lsd",
+    "microsoft/windows-rs",
+    "nearai/ironclaw",
     "openai/codex",
     "orhun/git-cliff",
+    "rayon-rs/rayon",
     "rust-lang/cargo",
     "Schniz/fnm",
     "seanmonstar/reqwest",
@@ -53,6 +60,7 @@
     "tree-sitter/tree-sitter",
     "typst/typst",
     "vercel-labs/agent-browser",
+    "web-infra-dev/rspack",
     "zeroclaw-labs/zeroclaw"
   ]
 }

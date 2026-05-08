@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 6
-- terms: 64
-- components: 59
-- concepts: 64
-- observations: 64
+- repos: 5
+- terms: 31
+- components: 21
+- concepts: 31
+- observations: 31
 
 ## Static behavior
 
@@ -26,20 +26,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [swiftlang/swift-llbuild](https://github.com/swiftlang/swift-llbuild) | 1271 | 2026-05-07T20:02:34Z | C/C++ | Library | 5 | 0 | 5 | 5 |
+| [Mithril-mine/libmdbx](https://github.com/Mithril-mine/libmdbx) | 1399 | 2026-05-07T19:19:40Z | C/C++ | Unknown | 9 | 0 | 9 | 9 |
+| [skeeto/w64devkit](https://github.com/skeeto/w64devkit) | 4468 | 2026-05-07T17:52:59Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [CloudCompare/CloudCompare](https://github.com/CloudCompare/CloudCompare) | 4499 | 2026-05-07T16:20:12Z | C/C++ | Infrastructure/tooling | 5 | 9 | 5 | 5 |
 | [TrenchBroom/TrenchBroom](https://github.com/TrenchBroom/TrenchBroom) | 2598 | 2026-05-07T06:23:09Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
-| [libbitcoin/libbitcoin-system](https://github.com/libbitcoin/libbitcoin-system) | 1387 | 2026-05-07T03:40:24Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
-| [OSGeo/gdal](https://github.com/OSGeo/gdal) | 5895 | 2026-05-07T01:14:50Z | C/C++ | Infrastructure/tooling | 12 | 14 | 12 | 12 |
-| [KhronosGroup/KTX-Software](https://github.com/KhronosGroup/KTX-Software) | 1246 | 2026-05-07T00:31:41Z | C/C++ | Infrastructure/tooling | 9 | 13 | 9 | 9 |
-| [harfbuzz/harfbuzz](https://github.com/harfbuzz/harfbuzz) | 5616 | 2026-05-06T23:27:10Z | C/C++ | Infrastructure/tooling | 17 | 9 | 17 | 17 |
-| [xtensor-stack/xtensor](https://github.com/xtensor-stack/xtensor) | 3731 | 2026-05-06T13:12:47Z | C/C++ | Infrastructure/tooling | 14 | 12 | 14 | 14 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [OSGeo/gdal](https://github.com/OSGeo/gdal) | 5895 | 2026-05-07T01:14:50Z | C/C++ | Infrastructure/tooling | 12 | 14 | 12 | 12 |
-| [harfbuzz/harfbuzz](https://github.com/harfbuzz/harfbuzz) | 5616 | 2026-05-06T23:27:10Z | C/C++ | Infrastructure/tooling | 17 | 9 | 17 | 17 |
-| [xtensor-stack/xtensor](https://github.com/xtensor-stack/xtensor) | 3731 | 2026-05-06T13:12:47Z | C/C++ | Infrastructure/tooling | 14 | 12 | 14 | 14 |
+| [CloudCompare/CloudCompare](https://github.com/CloudCompare/CloudCompare) | 4499 | 2026-05-07T16:20:12Z | C/C++ | Infrastructure/tooling | 5 | 9 | 5 | 5 |
+| [skeeto/w64devkit](https://github.com/skeeto/w64devkit) | 4468 | 2026-05-07T17:52:59Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [TrenchBroom/TrenchBroom](https://github.com/TrenchBroom/TrenchBroom) | 2598 | 2026-05-07T06:23:09Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
-| [libbitcoin/libbitcoin-system](https://github.com/libbitcoin/libbitcoin-system) | 1387 | 2026-05-07T03:40:24Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
-| [KhronosGroup/KTX-Software](https://github.com/KhronosGroup/KTX-Software) | 1246 | 2026-05-07T00:31:41Z | C/C++ | Infrastructure/tooling | 9 | 13 | 9 | 9 |
+| [Mithril-mine/libmdbx](https://github.com/Mithril-mine/libmdbx) | 1399 | 2026-05-07T19:19:40Z | C/C++ | Unknown | 9 | 0 | 9 | 9 |
+| [swiftlang/swift-llbuild](https://github.com/swiftlang/swift-llbuild) | 1271 | 2026-05-07T20:02:34Z | C/C++ | Library | 5 | 0 | 5 | 5 |

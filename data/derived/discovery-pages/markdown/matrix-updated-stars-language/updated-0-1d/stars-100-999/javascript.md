@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
+- repos: 2
 - terms: 19
-- components: 58
+- components: 35
 - concepts: 19
 - observations: 19
 
@@ -26,14 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [aws-cloudformation/cfn-lint-visual-studio-code](https://github.com/aws-cloudformation/cfn-lint-visual-studio-code) | 286 | 2026-05-07T08:54:21Z | JavaScript | Infrastructure/tooling | 8 | 13 | 8 | 8 |
-| [tc39/eshost](https://github.com/tc39/eshost) | 147 | 2026-05-06T23:54:31Z | JavaScript | CLI | 0 | 23 | 0 | 0 |
-| [GDevelopApp/GDevelop-extensions](https://github.com/GDevelopApp/GDevelop-extensions) | 247 | 2026-05-06T17:25:12Z | JavaScript | Infrastructure/tooling | 11 | 22 | 11 | 11 |
+| [aws-cloudformation/cfn-lint-visual-studio-code](https://github.com/aws-cloudformation/cfn-lint-visual-studio-code) | 286 | 2026-05-08T00:35:27Z | JavaScript | Infrastructure/tooling | 8 | 13 | 8 | 8 |
+| [GDevelopApp/GDevelop-extensions](https://github.com/GDevelopApp/GDevelop-extensions) | 247 | 2026-05-07T17:36:57Z | JavaScript | Infrastructure/tooling | 11 | 22 | 11 | 11 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [aws-cloudformation/cfn-lint-visual-studio-code](https://github.com/aws-cloudformation/cfn-lint-visual-studio-code) | 286 | 2026-05-07T08:54:21Z | JavaScript | Infrastructure/tooling | 8 | 13 | 8 | 8 |
-| [GDevelopApp/GDevelop-extensions](https://github.com/GDevelopApp/GDevelop-extensions) | 247 | 2026-05-06T17:25:12Z | JavaScript | Infrastructure/tooling | 11 | 22 | 11 | 11 |
-| [tc39/eshost](https://github.com/tc39/eshost) | 147 | 2026-05-06T23:54:31Z | JavaScript | CLI | 0 | 23 | 0 | 0 |
+| [aws-cloudformation/cfn-lint-visual-studio-code](https://github.com/aws-cloudformation/cfn-lint-visual-studio-code) | 286 | 2026-05-08T00:35:27Z | JavaScript | Infrastructure/tooling | 8 | 13 | 8 | 8 |
+| [GDevelopApp/GDevelop-extensions](https://github.com/GDevelopApp/GDevelop-extensions) | 247 | 2026-05-07T17:36:57Z | JavaScript | Infrastructure/tooling | 11 | 22 | 11 | 11 |

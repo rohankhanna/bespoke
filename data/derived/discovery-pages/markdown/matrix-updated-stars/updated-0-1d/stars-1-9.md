@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1 to 9 stars
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -12,10 +12,10 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 ## Counts
 
 - repos: 3
-- terms: 1
-- components: 16
-- concepts: 1
-- observations: 1
+- terms: 6
+- components: 32
+- concepts: 6
+- observations: 6
 
 ## Static behavior
 
@@ -25,14 +25,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ADNTIO/crispy-bootloader-rp2040-rs](https://github.com/ADNTIO/crispy-bootloader-rp2040-rs) | 9 | 2026-05-06T21:28:26Z | Rust | Infrastructure/tooling | 1 | 16 | 1 | 1 |
-| [lxgw/B5XiZhi](https://github.com/lxgw/B5XiZhi) | 4 | 2026-05-06T17:10:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [edward3h/docker-bds-integration-test](https://github.com/edward3h/docker-bds-integration-test) | 1 | 2026-05-06T11:57:53Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [oscard0m/ts-transformer-remove-named-export](https://github.com/oscard0m/ts-transformer-remove-named-export) | 1 | 2026-05-07T22:11:46Z | JavaScript | Unknown | 0 | 11 | 0 | 0 |
+| [aidenlab/juicebox-web](https://github.com/aidenlab/juicebox-web) | 3 | 2026-05-07T21:49:32Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
+| [mozilla-ai/otari](https://github.com/mozilla-ai/otari) | 3 | 2026-05-07T12:40:12Z | Python | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ADNTIO/crispy-bootloader-rp2040-rs](https://github.com/ADNTIO/crispy-bootloader-rp2040-rs) | 9 | 2026-05-06T21:28:26Z | Rust | Infrastructure/tooling | 1 | 16 | 1 | 1 |
-| [lxgw/B5XiZhi](https://github.com/lxgw/B5XiZhi) | 4 | 2026-05-06T17:10:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [edward3h/docker-bds-integration-test](https://github.com/edward3h/docker-bds-integration-test) | 1 | 2026-05-06T11:57:53Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [aidenlab/juicebox-web](https://github.com/aidenlab/juicebox-web) | 3 | 2026-05-07T21:49:32Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
+| [mozilla-ai/otari](https://github.com/mozilla-ai/otari) | 3 | 2026-05-07T12:40:12Z | Python | Infrastructure/tooling | 6 | 11 | 6 | 6 |
+| [oscard0m/ts-transformer-remove-named-export](https://github.com/oscard0m/ts-transformer-remove-named-export) | 1 | 2026-05-07T22:11:46Z | JavaScript | Unknown | 0 | 11 | 0 | 0 |

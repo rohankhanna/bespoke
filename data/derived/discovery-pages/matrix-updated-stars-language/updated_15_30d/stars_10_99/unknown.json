@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 54,
-    "concepts": 93,
-    "observations": 93,
-    "repos": 37,
-    "terms": 92
+    "components": 110,
+    "concepts": 122,
+    "observations": 123,
+    "repos": 42,
+    "terms": 121
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,20 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
     "askroundtable/expert-skills",
     "bleichenbacher-daniel/Rooterberg",
-    "bmad-code-org/bmad-plugins-marketplace",
+    "canonical/ubuntu-security-notices",
     "cdxeve/awesome-computer-use-agents",
     "cedar-policy/cedar-docs",
     "charmbracelet/scoop-bucket",
     "containerd/project",
     "crewAIInc/skills",
     "Dexters-Hub/Dexters-Hub",
+    "docker/github-builder",
     "eigenfoundation/elips",
     "flinedev/plankit",
     "ganelson/inform-evolution",
@@ -43,9 +44,13 @@
     "openobserve/dashboards",
     "pre-commit/mirrors-eslint",
     "qemus/virtiso-whql",
+    "quarkiverse/quarkiverse-docs",
     "rstackjs/rstack-design-resources",
     "SeleniumHQ/selenium_manager_artifacts",
+    "sigstore/community",
     "simonw/simonwillisonblog-backup",
+    "Stardust-SJF/cuvs_rabitq",
+    "supabase/scoop-bucket",
     "tc39/proposal-duplicate-named-capturing-groups",
     "uxlfoundation/open-source-working-group",
     "w3c/accname",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 169,
-    "concepts": 304,
-    "observations": 304,
+    "concepts": 323,
+    "observations": 323,
     "repos": 59,
-    "terms": 296
+    "terms": 315
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
     "AIDC-AI/Marco-o1",
     "AIDC-AI/Ovis",
     "AmberSahdev/Open-Interface",
+    "anapnoe/stable-diffusion-webui-ux",
     "anthropics/claude-code-security-review",
     "ARISE-Initiative/robosuite",
-    "bazelbuild/starlark",
     "Beckschen/TransUNet",
     "benjaminp/six",
     "BlinkDL/ChatRWKV",
@@ -29,7 +29,6 @@
     "brycedrennan/imaginAIry",
     "bytetriper/RAE",
     "ChenmienTan/RL2",
-    "CLUEbenchmark/CLUE",
     "CrazyBoyM/llama3-Chinese-chat",
     "crowsonkb/k-diffusion",
     "cvg/LightGlue",
@@ -40,6 +39,7 @@
     "facebookresearch/habitat-lab",
     "google/vizier",
     "gururise/AlpacaDataCleaned",
+    "heshengtao/comfyui_LLM_party",
     "isl-org/Open3D-ML",
     "jaredks/rumps",
     "keleshev/schema",
@@ -66,9 +66,9 @@
     "SafeAILab/EAGLE",
     "shibing624/text2vec",
     "simonw/claude-code-transcripts",
+    "the-moonwitch/Cozette",
     "toshas/torch-fidelity",
     "turboderp-org/exllamav2",
-    "weaviate/elysia",
     "webdataset/webdataset",
     "YosysHQ/icestorm",
     "ZhengPeng7/BiRefNet",

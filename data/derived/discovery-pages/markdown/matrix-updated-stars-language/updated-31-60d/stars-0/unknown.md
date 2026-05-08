@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars · Unknown
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 26
-- terms: 34
-- components: 47
-- concepts: 34
-- observations: 34
+- repos: 30
+- terms: 33
+- components: 36
+- concepts: 33
+- observations: 33
 
 ## Static behavior
 
@@ -26,9 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [semgrep/cursor-plugin](https://github.com/semgrep/cursor-plugin) | 0 | 2026-04-07T14:35:16Z | Unknown | Infrastructure/tooling | 2 | 1 | 2 | 2 |
+| [piebald-ai/piebald](https://github.com/Piebald-AI/piebald) | 0 | 2026-04-07T14:19:22Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [kdn36/arrow-rs-object-store](https://github.com/kdn36/arrow-rs-object-store) | 0 | 2026-04-07T11:45:00Z | Unknown | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [danielrosehill/AI-Resource-Maps](https://github.com/danielrosehill/AI-Resource-Maps) | 0 | 2026-04-06T19:02:06Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [danielrosehill/Israel-Preparedness-Index](https://github.com/danielrosehill/Israel-Preparedness-Index) | 0 | 2026-04-06T14:14:22Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
+| [danielrosehill/AI-Project-Spec-Pattern](https://github.com/danielrosehill/AI-Project-Spec-Pattern) | 0 | 2026-04-05T11:20:14Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [danielrosehill/AI-Browser-Tools](https://github.com/danielrosehill/AI-Browser-Tools) | 0 | 2026-04-04T20:58:25Z | Unknown | Framework | 0 | 0 | 0 | 0 |
+| [danielrosehill/Price-Research-Index](https://github.com/danielrosehill/Price-Research-Index) | 0 | 2026-04-04T20:12:16Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [danielrosehill/Deployments-Index](https://github.com/danielrosehill/Deployments-Index) | 0 | 2026-04-03T14:39:38Z | Unknown | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [danielrosehill/handy-wayland-autostart-fix](https://github.com/danielrosehill/handy-wayland-autostart-fix) | 0 | 2026-03-31T11:35:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [lakekeeper/nats.rs](https://github.com/lakekeeper/nats.rs) | 0 | 2026-03-30T10:13:36Z | Unknown | CLI | 2 | 13 | 2 | 2 |
@@ -51,15 +56,19 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cachix/crossterm](https://github.com/cachix/crossterm) | 0 | 2026-03-19T13:56:10Z | Unknown | CLI | 1 | 2 | 1 | 1 |
 | [hermit-os/tokio](https://github.com/hermit-os/tokio) | 0 | 2026-03-17T19:45:58Z | Unknown | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [cwfitzgerald/libtest-mimic](https://github.com/cwfitzgerald/libtest-mimic) | 0 | 2026-03-16T16:27:11Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
-| [DataDog/opa](https://github.com/DataDog/opa) | 0 | 2026-03-08T14:11:06Z | Unknown | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [semgrep/cursor-plugin](https://github.com/semgrep/cursor-plugin) | 0 | 2026-04-07T14:35:16Z | Unknown | Infrastructure/tooling | 2 | 1 | 2 | 2 |
+| [piebald-ai/piebald](https://github.com/Piebald-AI/piebald) | 0 | 2026-04-07T14:19:22Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [kdn36/arrow-rs-object-store](https://github.com/kdn36/arrow-rs-object-store) | 0 | 2026-04-07T11:45:00Z | Unknown | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [danielrosehill/AI-Resource-Maps](https://github.com/danielrosehill/AI-Resource-Maps) | 0 | 2026-04-06T19:02:06Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [danielrosehill/Israel-Preparedness-Index](https://github.com/danielrosehill/Israel-Preparedness-Index) | 0 | 2026-04-06T14:14:22Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
+| [danielrosehill/AI-Project-Spec-Pattern](https://github.com/danielrosehill/AI-Project-Spec-Pattern) | 0 | 2026-04-05T11:20:14Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [danielrosehill/AI-Browser-Tools](https://github.com/danielrosehill/AI-Browser-Tools) | 0 | 2026-04-04T20:58:25Z | Unknown | Framework | 0 | 0 | 0 | 0 |
+| [danielrosehill/Price-Research-Index](https://github.com/danielrosehill/Price-Research-Index) | 0 | 2026-04-04T20:12:16Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [danielrosehill/Deployments-Index](https://github.com/danielrosehill/Deployments-Index) | 0 | 2026-04-03T14:39:38Z | Unknown | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [danielrosehill/handy-wayland-autostart-fix](https://github.com/danielrosehill/handy-wayland-autostart-fix) | 0 | 2026-03-31T11:35:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [lakekeeper/nats.rs](https://github.com/lakekeeper/nats.rs) | 0 | 2026-03-30T10:13:36Z | Unknown | CLI | 2 | 13 | 2 | 2 |
@@ -82,4 +91,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cachix/crossterm](https://github.com/cachix/crossterm) | 0 | 2026-03-19T13:56:10Z | Unknown | CLI | 1 | 2 | 1 | 1 |
 | [hermit-os/tokio](https://github.com/hermit-os/tokio) | 0 | 2026-03-17T19:45:58Z | Unknown | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [cwfitzgerald/libtest-mimic](https://github.com/cwfitzgerald/libtest-mimic) | 0 | 2026-03-16T16:27:11Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
-| [DataDog/opa](https://github.com/DataDog/opa) | 0 | 2026-03-08T14:11:06Z | Unknown | Infrastructure/tooling | 7 | 16 | 7 | 7 |

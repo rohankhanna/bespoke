@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Shell
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 44
-- terms: 151
-- components: 57
-- concepts: 169
-- observations: 169
+- repos: 45
+- terms: 161
+- components: 62
+- concepts: 179
+- observations: 179
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [quicwg/base-drafts](https://github.com/quicwg/base-drafts) | 1662 | 2025-11-09T01:12:09Z | Shell | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [postmodern/chruby](https://github.com/postmodern/chruby) | 2914 | 2025-10-27T05:38:57Z | Shell | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [pyenv/pyenv-installer](https://github.com/pyenv/pyenv-installer) | 4114 | 2025-09-05T19:23:22Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [marlonrichert/zsh-snap](https://github.com/marlonrichert/zsh-snap) | 1507 | 2025-08-06T07:48:52Z | Shell | Unknown | 6 | 0 | 7 | 7 |
@@ -103,6 +104,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [karalabe/xgo](https://github.com/karalabe/xgo) | 2148 | 2021-12-14T12:33:19Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [kylef/swiftenv](https://github.com/kylef/swiftenv) | 1992 | 2024-12-23T12:19:32Z | Shell | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [bpkg/bpkg](https://github.com/bpkg/bpkg) | 1967 | 2025-07-07T16:29:21Z | Shell | Infrastructure/tooling | 6 | 2 | 12 | 12 |
+| [quicwg/base-drafts](https://github.com/quicwg/base-drafts) | 1662 | 2025-11-09T01:12:09Z | Shell | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [cowboy/dotfiles](https://github.com/cowboy/dotfiles) | 1601 | 2021-09-17T03:43:02Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [eth-p/bat-extras](https://github.com/eth-p/bat-extras) | 1586 | 2025-02-22T03:01:42Z | Shell | CLI | 3 | 3 | 3 | 3 |
 | [drduh/pwd.sh](https://github.com/drduh/pwd.sh) | 1564 | 2025-04-13T23:30:57Z | Shell | Unknown | 9 | 0 | 11 | 11 |

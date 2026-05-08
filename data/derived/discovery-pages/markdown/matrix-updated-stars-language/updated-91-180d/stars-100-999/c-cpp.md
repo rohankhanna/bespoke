@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 58
-- terms: 239
-- components: 177
-- concepts: 243
-- observations: 243
+- terms: 222
+- components: 175
+- concepts: 223
+- observations: 223
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [stardot/b-em](https://github.com/stardot/b-em) | 132 | 2026-02-06T19:23:49Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ZDisket/TensorVox](https://github.com/ZDisket/TensorVox) | 213 | 2026-02-05T02:14:58Z | C/C++ | Unknown | 10 | 0 | 10 | 10 |
 | [Kong/ngx_wasm_module](https://github.com/Kong/ngx_wasm_module) | 137 | 2026-02-03T21:18:17Z | C/C++ | Infrastructure/tooling | 14 | 22 | 14 | 14 |
 | [proxy-wasm/proxy-wasm-cpp-sdk](https://github.com/proxy-wasm/proxy-wasm-cpp-sdk) | 161 | 2026-02-03T18:24:26Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
@@ -41,7 +42,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bdwgc/libatomic_ops](https://github.com/bdwgc/libatomic_ops) | 447 | 2026-01-22T19:30:17Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [intel/isa-l_crypto](https://github.com/intel/isa-l_crypto) | 295 | 2026-01-22T17:04:40Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [aviggiano/redis-roaring](https://github.com/aviggiano/redis-roaring) | 381 | 2026-01-21T21:19:56Z | C/C++ | Infrastructure/tooling | 3 | 13 | 3 | 3 |
-| [appelmar/gdalcubes](https://github.com/appelmar/gdalcubes) | 129 | 2026-01-21T12:12:27Z | C/C++ | Infrastructure/tooling | 6 | 11 | 6 | 6 |
+| [appelmar/gdalcubes](https://github.com/appelmar/gdalcubes) | 130 | 2026-01-21T12:12:27Z | C/C++ | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [swigger/wechat-ocr](https://github.com/swigger/wechat-ocr) | 902 | 2026-01-18T09:44:33Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [mit-han-lab/Block-Sparse-Attention](https://github.com/mit-han-lab/Block-Sparse-Attention) | 502 | 2026-01-18T02:55:56Z | C/C++ | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [mengyao/Complete-Striped-Smith-Waterman-Library](https://github.com/mengyao/Complete-Striped-Smith-Waterman-Library) | 316 | 2026-01-15T03:00:40Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -83,7 +84,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [antonypro/QGoodWindow](https://github.com/antonypro/QGoodWindow) | 574 | 2025-11-12T13:45:39Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [IST-DASLab/qutlass](https://github.com/IST-DASLab/qutlass) | 179 | 2025-11-11T13:41:32Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [ingonyama-zk/icicle](https://github.com/ingonyama-zk/icicle) | 493 | 2025-11-10T11:46:37Z | C/C++ | Infrastructure/tooling | 10 | 18 | 10 | 10 |
-| [andreasdr/tdme2](https://github.com/andreasdr/tdme2) | 185 | 2025-11-08T20:43:03Z | C/C++ | CLI | 17 | 2 | 20 | 20 |
 
 ## Repos sorted by stars
 
@@ -124,7 +124,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mit-han-lab/flash-moba](https://github.com/mit-han-lab/flash-moba) | 244 | 2025-11-19T19:53:55Z | C/C++ | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [deeptools/pyBigWig](https://github.com/deeptools/pyBigWig) | 243 | 2026-01-14T14:49:32Z | C/C++ | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [ZDisket/TensorVox](https://github.com/ZDisket/TensorVox) | 213 | 2026-02-05T02:14:58Z | C/C++ | Unknown | 10 | 0 | 10 | 10 |
-| [andreasdr/tdme2](https://github.com/andreasdr/tdme2) | 185 | 2025-11-08T20:43:03Z | C/C++ | CLI | 17 | 2 | 20 | 20 |
 | [neovim/libvterm](https://github.com/neovim/libvterm) | 182 | 2025-11-21T05:22:35Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [IST-DASLab/qutlass](https://github.com/IST-DASLab/qutlass) | 179 | 2025-11-11T13:41:32Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [lh3/yak](https://github.com/lh3/yak) | 169 | 2025-12-30T19:05:14Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
@@ -135,7 +134,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pmwkaa/ioarena](https://github.com/pmwkaa/ioarena) | 139 | 2026-01-07T17:11:30Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [Kong/ngx_wasm_module](https://github.com/Kong/ngx_wasm_module) | 137 | 2026-02-03T21:18:17Z | C/C++ | Infrastructure/tooling | 14 | 22 | 14 | 14 |
 | [bnosac/audio.whisper](https://github.com/bnosac/audio.whisper) | 137 | 2026-01-07T22:32:00Z | C/C++ | Infrastructure/tooling | 1 | 8 | 1 | 1 |
-| [appelmar/gdalcubes](https://github.com/appelmar/gdalcubes) | 129 | 2026-01-21T12:12:27Z | C/C++ | Infrastructure/tooling | 6 | 11 | 6 | 6 |
+| [stardot/b-em](https://github.com/stardot/b-em) | 132 | 2026-02-06T19:23:49Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [appelmar/gdalcubes](https://github.com/appelmar/gdalcubes) | 130 | 2026-01-21T12:12:27Z | C/C++ | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [birkett/srvany-ng](https://github.com/birkett/srvany-ng) | 129 | 2025-12-11T21:02:52Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [appwrite/playground-for-flutter](https://github.com/appwrite/playground-for-flutter) | 127 | 2026-01-01T08:12:17Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [jimporter/mettle](https://github.com/jimporter/mettle) | 125 | 2025-12-13T21:14:57Z | C/C++ | Infrastructure/tooling | 3 | 3 | 3 | 3 |

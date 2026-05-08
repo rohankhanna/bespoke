@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · Shell
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 31
-- terms: 171
-- components: 135
-- concepts: 167
-- observations: 169
+- repos: 33
+- terms: 187
+- components: 143
+- concepts: 183
+- observations: 185
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [bioconda/bioconda-recipes](https://github.com/bioconda/bioconda-recipes) | 1805 | 2026-04-23T19:19:52Z | Shell | Infrastructure/tooling | 10 | 7 | 10 | 10 |
+| [aurutils/aurutils](https://github.com/aurutils/aurutils) | 1039 | 2026-04-23T13:21:14Z | Shell | Infrastructure/tooling | 6 | 1 | 6 | 6 |
 | [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions) | 7743 | 2026-04-23T10:52:06Z | Shell | Unknown | 2 | 0 | 3 | 3 |
 | [docker-library/docs](https://github.com/docker-library/docs) | 5274 | 2026-04-23T01:18:32Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [docker-library/official-images](https://github.com/docker-library/official-images) | 6943 | 2026-04-23T00:54:22Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
@@ -46,7 +48,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [clangd/clangd](https://github.com/clangd/clangd) | 2155 | 2026-04-19T23:51:29Z | Shell | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [nix-community/nix-direnv](https://github.com/nix-community/nix-direnv) | 2624 | 2026-04-19T03:09:19Z | Shell | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [devcontainers/features](https://github.com/devcontainers/features) | 1435 | 2026-04-19T00:24:05Z | Shell | Infrastructure/tooling | 8 | 4 | 8 | 8 |
-| [git-quick-stats/git-quick-stats](https://github.com/git-quick-stats/git-quick-stats) | 6970 | 2026-04-18T12:15:43Z | Shell | Infrastructure/tooling | 19 | 0 | 19 | 19 |
+| [git-quick-stats/git-quick-stats](https://github.com/git-quick-stats/git-quick-stats) | 6971 | 2026-04-18T12:15:43Z | Shell | Infrastructure/tooling | 19 | 0 | 19 | 19 |
 | [pyenv/pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) | 6731 | 2026-04-17T19:54:46Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [diet103/claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase) | 9482 | 2026-04-17T04:22:53Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [bluesky-social/pds](https://github.com/bluesky-social/pds) | 2476 | 2026-04-15T08:59:45Z | Shell | Infrastructure/tooling | 4 | 5 | 4 | 4 |
@@ -66,7 +68,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [diet103/claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase) | 9482 | 2026-04-17T04:22:53Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | 8735 | 2026-04-13T18:22:32Z | Shell | CLI | 9 | 14 | 0 | 0 |
 | [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions) | 7743 | 2026-04-23T10:52:06Z | Shell | Unknown | 2 | 0 | 3 | 3 |
-| [git-quick-stats/git-quick-stats](https://github.com/git-quick-stats/git-quick-stats) | 6970 | 2026-04-18T12:15:43Z | Shell | Infrastructure/tooling | 19 | 0 | 19 | 19 |
+| [git-quick-stats/git-quick-stats](https://github.com/git-quick-stats/git-quick-stats) | 6971 | 2026-04-18T12:15:43Z | Shell | Infrastructure/tooling | 19 | 0 | 19 | 19 |
 | [docker-library/official-images](https://github.com/docker-library/official-images) | 6943 | 2026-04-23T00:54:22Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [pyenv/pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) | 6731 | 2026-04-17T19:54:46Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [docker-library/docs](https://github.com/docker-library/docs) | 5274 | 2026-04-23T01:18:32Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
@@ -81,6 +83,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [crosstool-ng/crosstool-ng](https://github.com/crosstool-ng/crosstool-ng) | 2452 | 2026-04-14T00:29:11Z | Shell | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [clangd/clangd](https://github.com/clangd/clangd) | 2155 | 2026-04-19T23:51:29Z | Shell | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [devcontainers/images](https://github.com/devcontainers/images) | 2004 | 2026-04-22T05:52:08Z | Shell | Infrastructure/tooling | 9 | 9 | 9 | 9 |
+| [bioconda/bioconda-recipes](https://github.com/bioconda/bioconda-recipes) | 1805 | 2026-04-23T19:19:52Z | Shell | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [spiffe/spiffe](https://github.com/spiffe/spiffe) | 1746 | 2026-04-13T17:10:08Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [pacstall/pacstall](https://github.com/pacstall/pacstall) | 1608 | 2026-04-21T17:41:47Z | Shell | Infrastructure/tooling | 15 | 8 | 18 | 18 |
 | [docker-library/golang](https://github.com/docker-library/golang) | 1554 | 2026-04-20T04:42:31Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
@@ -93,3 +96,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google/adk-docs](https://github.com/google/adk-docs) | 1311 | 2026-04-22T22:26:27Z | Shell | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [anthropics/claude-agent-sdk-typescript](https://github.com/anthropics/claude-agent-sdk-typescript) | 1308 | 2026-04-22T00:04:37Z | Shell | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [aquasecurity/trivy-action](https://github.com/aquasecurity/trivy-action) | 1300 | 2026-04-22T10:11:00Z | Shell | Infrastructure/tooling | 9 | 3 | 9 | 9 |
+| [aurutils/aurutils](https://github.com/aurutils/aurutils) | 1039 | 2026-04-23T13:21:14Z | Shell | Infrastructure/tooling | 6 | 1 | 6 | 6 |

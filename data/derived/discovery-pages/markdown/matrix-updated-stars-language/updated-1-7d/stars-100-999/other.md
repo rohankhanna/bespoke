@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 84
-- terms: 564
-- components: 851
-- concepts: 568
-- observations: 568
+- repos: 59
+- terms: 405
+- components: 621
+- concepts: 407
+- observations: 407
 
 ## Static behavior
 
@@ -26,9 +26,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [clj-commons/rewrite-clj](https://github.com/clj-commons/rewrite-clj) | 654 | 2026-05-06T02:23:12Z | Other | Infrastructure/tooling | 5 | 12 | 5 | 5 |
+| [mrcjkb/haskell-tools.nvim](https://github.com/mrcjkb/haskell-tools.nvim) | 595 | 2026-05-07T00:39:07Z | Other | CLI | 21 | 11 | 21 | 21 |
+| [argotorg/hevm](https://github.com/argotorg/hevm) | 337 | 2026-05-06T17:11:56Z | Other | Infrastructure/tooling | 5 | 16 | 5 | 5 |
+| [elixir-protobuf/protobuf](https://github.com/elixir-protobuf/protobuf) | 898 | 2026-05-06T15:49:21Z | Other | Infrastructure/tooling | 8 | 4 | 8 | 8 |
+| [lite-xl/lite-xl-plugin-manager](https://github.com/lite-xl/lite-xl-plugin-manager) | 160 | 2026-05-06T14:53:30Z | Other | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [Shopify/tapioca](https://github.com/Shopify/tapioca) | 854 | 2026-05-05T17:43:00Z | Other | Infrastructure/tooling | 8 | 4 | 8 | 8 |
-| [ROCm/hipBLASLt](https://github.com/ROCm/hipBLASLt) | 113 | 2026-05-05T13:35:19Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [cowprotocol/contracts](https://github.com/cowprotocol/contracts) | 153 | 2026-05-05T08:59:52Z | Other | Infrastructure/tooling | 8 | 56 | 8 | 8 |
 | [jump-dev/NLopt.jl](https://github.com/jump-dev/NLopt.jl) | 280 | 2026-05-05T08:06:18Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [dbkangaroo/kangaroo](https://github.com/dbkangaroo/kangaroo) | 469 | 2026-05-05T07:07:26Z | Other | CLI | 17 | 0 | 17 | 17 |
@@ -40,7 +42,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [open-telemetry/opentelemetry-helm-charts](https://github.com/open-telemetry/opentelemetry-helm-charts) | 549 | 2026-05-04T16:03:06Z | Other | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [LibreChat-AI/librechat.ai](https://github.com/LibreChat-AI/librechat.ai) | 493 | 2026-05-04T13:32:14Z | Other | Infrastructure/tooling | 5 | 89 | 5 | 5 |
 | [ChristopherHX/runner.server](https://github.com/ChristopherHX/runner.server) | 233 | 2026-05-04T09:11:39Z | Other | Infrastructure/tooling | 14 | 18 | 14 | 14 |
-| [danielrosehill/Claude-Code-Projects-Index](https://github.com/danielrosehill/Claude-Code-Projects-Index) | 460 | 2026-05-04T08:07:33Z | Other | CLI | 3 | 1 | 3 | 3 |
+| [danielrosehill/Claude-Code-Projects-Index](https://github.com/danielrosehill/Claude-Code-Projects-Index) | 461 | 2026-05-04T08:07:33Z | Other | CLI | 3 | 1 | 3 | 3 |
 | [phpstan/phpstan-src](https://github.com/phpstan/phpstan-src) | 390 | 2026-05-04T01:18:42Z | Other | Infrastructure/tooling | 8 | 12 | 8 | 8 |
 | [nix-community/haumea](https://github.com/nix-community/haumea) | 400 | 2026-05-03T13:59:10Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [osmlab/name-suggestion-index](https://github.com/osmlab/name-suggestion-index) | 833 | 2026-05-03T10:48:22Z | Other | Infrastructure/tooling | 11 | 36 | 11 | 11 |
@@ -83,33 +85,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jackielii/skhd.zig](https://github.com/jackielii/skhd.zig) | 506 | 2026-05-01T07:45:17Z | Other | CLI | 6 | 3 | 6 | 6 |
 | [dart-lang/native](https://github.com/dart-lang/native) | 263 | 2026-05-01T06:25:49Z | Other | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [heroku/heroku-buildpack-scala](https://github.com/heroku/heroku-buildpack-scala) | 190 | 2026-05-01T05:57:18Z | Other | Infrastructure/tooling | 7 | 3 | 7 | 7 |
-| [microsoft/vstest](https://github.com/microsoft/vstest) | 960 | 2026-05-01T05:01:22Z | Other | Infrastructure/tooling | 8 | 1 | 8 | 8 |
-| [heroku/heroku-buildpack-clojure](https://github.com/heroku/heroku-buildpack-clojure) | 117 | 2026-05-01T02:09:40Z | Other | Infrastructure/tooling | 7 | 3 | 7 | 7 |
-| [JuliaData/CategoricalArrays.jl](https://github.com/JuliaData/CategoricalArrays.jl) | 136 | 2026-05-01T01:58:35Z | Other | Infrastructure/tooling | 6 | 10 | 6 | 6 |
-| [halostatue/diff-lcs](https://github.com/halostatue/diff-lcs) | 304 | 2026-05-01T01:50:45Z | Other | Infrastructure/tooling | 7 | 12 | 7 | 7 |
-| [TuringLang/docs](https://github.com/TuringLang/docs) | 236 | 2026-05-01T01:32:42Z | Other | Infrastructure/tooling | 9 | 11 | 9 | 9 |
-| [microsoft/Oryx](https://github.com/microsoft/Oryx) | 869 | 2026-05-01T01:18:51Z | Other | Infrastructure/tooling | 9 | 7 | 9 | 9 |
-| [Iron-E/nvim-highlite](https://github.com/Iron-E/nvim-highlite) | 250 | 2026-04-30T23:35:24Z | Other | Unknown | 15 | 0 | 15 | 15 |
-| [JuliaPackaging/Yggdrasil](https://github.com/JuliaPackaging/Yggdrasil) | 398 | 2026-04-30T22:07:53Z | Other | Infrastructure/tooling | 6 | 5 | 6 | 6 |
-| [test-unit/test-unit](https://github.com/test-unit/test-unit) | 275 | 2026-04-30T21:11:17Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
-| [cosmos/testnets](https://github.com/cosmos/testnets) | 177 | 2026-04-30T20:52:52Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [Shopify/rubocop-sorbet](https://github.com/Shopify/rubocop-sorbet) | 200 | 2026-04-30T20:08:43Z | Other | Infrastructure/tooling | 6 | 7 | 6 | 6 |
-| [castacks/tartanair_tools](https://github.com/castacks/tartanair_tools) | 408 | 2026-04-30T18:59:22Z | Other | Model/data | 0 | 0 | 0 | 0 |
-| [erlef/rebar3_hex](https://github.com/erlef/rebar3_hex) | 100 | 2026-04-30T18:11:21Z | Other | Infrastructure/tooling | 3 | 6 | 3 | 3 |
-| [netdur/llama_cpp_dart](https://github.com/netdur/llama_cpp_dart) | 292 | 2026-04-30T17:41:20Z | Other | Infrastructure/tooling | 3 | 5 | 3 | 3 |
-| [activeadmin/arbre](https://github.com/activeadmin/arbre) | 791 | 2026-04-30T16:52:07Z | Other | Infrastructure/tooling | 6 | 9 | 6 | 6 |
-| [colineckert/obsidian-things](https://github.com/colineckert/obsidian-things) | 954 | 2026-04-30T14:56:22Z | Other | Unknown | 6 | 0 | 6 | 6 |
-| [groundhog2k/helm-charts](https://github.com/groundhog2k/helm-charts) | 177 | 2026-04-30T14:51:30Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
-| [SonarSource/sonarlint-intellij](https://github.com/SonarSource/sonarlint-intellij) | 634 | 2026-04-30T14:44:01Z | Other | Infrastructure/tooling | 11 | 20 | 11 | 11 |
-| [actions/python-versions](https://github.com/actions/python-versions) | 230 | 2026-04-30T14:34:34Z | Other | Infrastructure/tooling | 4 | 10 | 4 | 4 |
-| [JuliaSymbolics/SymbolicUtils.jl](https://github.com/JuliaSymbolics/SymbolicUtils.jl) | 560 | 2026-04-30T14:25:18Z | Other | Infrastructure/tooling | 9 | 13 | 9 | 9 |
-| [hazelcast/hazelcast-csharp-client](https://github.com/hazelcast/hazelcast-csharp-client) | 106 | 2026-04-30T14:20:20Z | Other | CLI | 23 | 11 | 23 | 23 |
-| [JuliaIO/FileIO.jl](https://github.com/JuliaIO/FileIO.jl) | 226 | 2026-04-30T13:45:06Z | Other | Infrastructure/tooling | 14 | 14 | 14 | 14 |
-| [braintree/braintree_android](https://github.com/braintree/braintree_android) | 424 | 2026-04-30T13:07:26Z | Other | Infrastructure/tooling | 11 | 11 | 11 | 11 |
-| [JuliaPackaging/BinaryBuilder.jl](https://github.com/JuliaPackaging/BinaryBuilder.jl) | 426 | 2026-04-30T12:44:37Z | Other | Infrastructure/tooling | 7 | 6 | 7 | 7 |
-| [moyangzhan/langchain4j-aideepin-web](https://github.com/moyangzhan/langchain4j-aideepin-web) | 144 | 2026-04-30T12:34:36Z | Other | Infrastructure/tooling | 0 | 55 | 0 | 0 |
-| [LogtalkDotOrg/logtalk3](https://github.com/LogtalkDotOrg/logtalk3) | 479 | 2026-04-30T11:57:35Z | Other | Unknown | 5 | 0 | 5 | 5 |
-| [dauxio/daux.io](https://github.com/dauxio/daux.io) | 826 | 2026-04-30T11:10:41Z | Other | Infrastructure/tooling | 6 | 28 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -117,85 +92,60 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [heroku/heroku-buildpack-python](https://github.com/heroku/heroku-buildpack-python) | 991 | 2026-05-01T17:56:44Z | Other | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [cucumber/aruba](https://github.com/cucumber/aruba) | 963 | 2026-05-02T09:24:48Z | Other | Infrastructure/tooling | 6 | 5 | 7 | 7 |
-| [microsoft/vstest](https://github.com/microsoft/vstest) | 960 | 2026-05-01T05:01:22Z | Other | Infrastructure/tooling | 8 | 1 | 8 | 8 |
-| [colineckert/obsidian-things](https://github.com/colineckert/obsidian-things) | 954 | 2026-04-30T14:56:22Z | Other | Unknown | 6 | 0 | 6 | 6 |
+| [elixir-protobuf/protobuf](https://github.com/elixir-protobuf/protobuf) | 898 | 2026-05-06T15:49:21Z | Other | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [microsoft/Agents](https://github.com/microsoft/Agents) | 876 | 2026-05-02T02:50:59Z | Other | Infrastructure/tooling | 5 | 8 | 5 | 5 |
-| [microsoft/Oryx](https://github.com/microsoft/Oryx) | 869 | 2026-05-01T01:18:51Z | Other | Infrastructure/tooling | 9 | 7 | 9 | 9 |
 | [Shopify/tapioca](https://github.com/Shopify/tapioca) | 854 | 2026-05-05T17:43:00Z | Other | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [osmlab/name-suggestion-index](https://github.com/osmlab/name-suggestion-index) | 833 | 2026-05-03T10:48:22Z | Other | Infrastructure/tooling | 11 | 36 | 11 | 11 |
-| [dauxio/daux.io](https://github.com/dauxio/daux.io) | 826 | 2026-04-30T11:10:41Z | Other | Infrastructure/tooling | 6 | 28 | 8 | 8 |
 | [sbt/sbt-jmh](https://github.com/sbt/sbt-jmh) | 798 | 2026-05-03T06:13:24Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
-| [activeadmin/arbre](https://github.com/activeadmin/arbre) | 791 | 2026-04-30T16:52:07Z | Other | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [dennisdoomen/CSharpGuidelines](https://github.com/dennisdoomen/CSharpGuidelines) | 765 | 2026-05-03T10:08:12Z | Other | Web app | 0 | 3 | 0 | 0 |
 | [HOL-Theorem-Prover/HOL](https://github.com/HOL-Theorem-Prover/HOL) | 740 | 2026-05-03T01:28:37Z | Other | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [JuliaDebug/Cthulhu.jl](https://github.com/JuliaDebug/Cthulhu.jl) | 702 | 2026-05-02T00:01:31Z | Other | Infrastructure/tooling | 3 | 11 | 3 | 3 |
-| [clj-commons/rewrite-clj](https://github.com/clj-commons/rewrite-clj) | 654 | 2026-05-06T02:23:12Z | Other | Infrastructure/tooling | 5 | 12 | 5 | 5 |
-| [SonarSource/sonarlint-intellij](https://github.com/SonarSource/sonarlint-intellij) | 634 | 2026-04-30T14:44:01Z | Other | Infrastructure/tooling | 11 | 20 | 11 | 11 |
 | [JuliaGraphics/Luxor.jl](https://github.com/JuliaGraphics/Luxor.jl) | 623 | 2026-05-02T18:39:24Z | Other | Infrastructure/tooling | 14 | 11 | 14 | 14 |
+| [mrcjkb/haskell-tools.nvim](https://github.com/mrcjkb/haskell-tools.nvim) | 595 | 2026-05-07T00:39:07Z | Other | CLI | 21 | 11 | 21 | 21 |
 | [codiume/orbit](https://github.com/codiume/orbit) | 577 | 2026-05-01T18:23:38Z | Other | Infrastructure/tooling | 10 | 20 | 10 | 10 |
 | [mapbox/mapbox-maps-android](https://github.com/mapbox/mapbox-maps-android) | 569 | 2026-05-01T17:56:52Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
-| [JuliaSymbolics/SymbolicUtils.jl](https://github.com/JuliaSymbolics/SymbolicUtils.jl) | 560 | 2026-04-30T14:25:18Z | Other | Infrastructure/tooling | 9 | 13 | 9 | 9 |
 | [JuliaImages/Images.jl](https://github.com/JuliaImages/Images.jl) | 552 | 2026-05-01T23:51:13Z | Other | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [open-telemetry/opentelemetry-helm-charts](https://github.com/open-telemetry/opentelemetry-helm-charts) | 549 | 2026-05-04T16:03:06Z | Other | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [jackielii/skhd.zig](https://github.com/jackielii/skhd.zig) | 506 | 2026-05-01T07:45:17Z | Other | CLI | 6 | 3 | 6 | 6 |
 | [LibreChat-AI/librechat.ai](https://github.com/LibreChat-AI/librechat.ai) | 493 | 2026-05-04T13:32:14Z | Other | Infrastructure/tooling | 5 | 89 | 5 | 5 |
 | [JuliaDebug/Infiltrator.jl](https://github.com/JuliaDebug/Infiltrator.jl) | 492 | 2026-05-02T02:55:22Z | Other | Infrastructure/tooling | 6 | 7 | 6 | 6 |
-| [LogtalkDotOrg/logtalk3](https://github.com/LogtalkDotOrg/logtalk3) | 479 | 2026-04-30T11:57:35Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [dbkangaroo/kangaroo](https://github.com/dbkangaroo/kangaroo) | 469 | 2026-05-05T07:07:26Z | Other | CLI | 17 | 0 | 17 | 17 |
-| [danielrosehill/Claude-Code-Projects-Index](https://github.com/danielrosehill/Claude-Code-Projects-Index) | 460 | 2026-05-04T08:07:33Z | Other | CLI | 3 | 1 | 3 | 3 |
-| [JuliaPackaging/BinaryBuilder.jl](https://github.com/JuliaPackaging/BinaryBuilder.jl) | 426 | 2026-04-30T12:44:37Z | Other | Infrastructure/tooling | 7 | 6 | 7 | 7 |
-| [braintree/braintree_android](https://github.com/braintree/braintree_android) | 424 | 2026-04-30T13:07:26Z | Other | Infrastructure/tooling | 11 | 11 | 11 | 11 |
-| [castacks/tartanair_tools](https://github.com/castacks/tartanair_tools) | 408 | 2026-04-30T18:59:22Z | Other | Model/data | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Code-Projects-Index](https://github.com/danielrosehill/Claude-Code-Projects-Index) | 461 | 2026-05-04T08:07:33Z | Other | CLI | 3 | 1 | 3 | 3 |
 | [nix-community/haumea](https://github.com/nix-community/haumea) | 400 | 2026-05-03T13:59:10Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [rust-lang/blog.rust-lang.org](https://github.com/rust-lang/blog.rust-lang.org) | 398 | 2026-05-01T11:27:04Z | Other | Infrastructure/tooling | 3 | 5 | 3 | 3 |
-| [JuliaPackaging/Yggdrasil](https://github.com/JuliaPackaging/Yggdrasil) | 398 | 2026-04-30T22:07:53Z | Other | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [phpstan/phpstan-src](https://github.com/phpstan/phpstan-src) | 390 | 2026-05-04T01:18:42Z | Other | Infrastructure/tooling | 8 | 12 | 8 | 8 |
 | [JuliaLang/www.julialang.org](https://github.com/JuliaLang/www.julialang.org) | 385 | 2026-05-01T17:26:15Z | Other | Infrastructure/tooling | 11 | 17 | 11 | 11 |
 | [bazel-contrib/rules_kotlin](https://github.com/bazel-contrib/rules_kotlin) | 365 | 2026-05-02T20:59:01Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [openair-project/openair](https://github.com/openair-project/openair) | 353 | 2026-05-02T11:00:52Z | Other | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [haskell/ghcup-hs](https://github.com/haskell/ghcup-hs) | 345 | 2026-05-01T15:49:20Z | Other | Infrastructure/tooling | 12 | 13 | 12 | 12 |
 | [AdguardTeam/FiltersRegistry](https://github.com/AdguardTeam/FiltersRegistry) | 339 | 2026-05-04T17:41:50Z | Other | Infrastructure/tooling | 6 | 28 | 6 | 6 |
+| [argotorg/hevm](https://github.com/argotorg/hevm) | 337 | 2026-05-06T17:11:56Z | Other | Infrastructure/tooling | 5 | 16 | 5 | 5 |
 | [ropensci/software-review](https://github.com/ropensci/software-review) | 336 | 2026-05-01T13:20:56Z | Other | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [JuliaGPU/AMDGPU.jl](https://github.com/JuliaGPU/AMDGPU.jl) | 333 | 2026-05-01T22:59:04Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [mit-plv/bedrock2](https://github.com/mit-plv/bedrock2) | 331 | 2026-05-05T06:51:08Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [rafaqz/DimensionalData.jl](https://github.com/rafaqz/DimensionalData.jl) | 331 | 2026-05-03T02:02:50Z | Other | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [CHIP-SPV/chipStar](https://github.com/CHIP-SPV/chipStar) | 329 | 2026-05-04T17:02:31Z | Other | Infrastructure/tooling | 13 | 6 | 13 | 13 |
 | [appwrite/sdk-generator](https://github.com/appwrite/sdk-generator) | 314 | 2026-05-01T15:14:02Z | Other | Infrastructure/tooling | 12 | 15 | 12 | 12 |
-| [halostatue/diff-lcs](https://github.com/halostatue/diff-lcs) | 304 | 2026-05-01T01:50:45Z | Other | Infrastructure/tooling | 7 | 12 | 7 | 7 |
-| [netdur/llama_cpp_dart](https://github.com/netdur/llama_cpp_dart) | 292 | 2026-04-30T17:41:20Z | Other | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [jump-dev/NLopt.jl](https://github.com/jump-dev/NLopt.jl) | 280 | 2026-05-05T08:06:18Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
-| [test-unit/test-unit](https://github.com/test-unit/test-unit) | 275 | 2026-04-30T21:11:17Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [istio/client-go](https://github.com/istio/client-go) | 274 | 2026-05-02T13:19:57Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [dart-lang/native](https://github.com/dart-lang/native) | 263 | 2026-05-01T06:25:49Z | Other | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [osmlab/editor-layer-index](https://github.com/osmlab/editor-layer-index) | 256 | 2026-05-03T03:38:17Z | Other | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [heroku/go-getting-started](https://github.com/heroku/go-getting-started) | 250 | 2026-05-01T18:46:59Z | Other | Infrastructure/tooling | 3 | 0 | 3 | 3 |
-| [Iron-E/nvim-highlite](https://github.com/Iron-E/nvim-highlite) | 250 | 2026-04-30T23:35:24Z | Other | Unknown | 15 | 0 | 15 | 15 |
 | [rapideditor/country-coder](https://github.com/rapideditor/country-coder) | 248 | 2026-05-01T15:16:05Z | Other | Infrastructure/tooling | 5 | 12 | 5 | 5 |
-| [TuringLang/docs](https://github.com/TuringLang/docs) | 236 | 2026-05-01T01:32:42Z | Other | Infrastructure/tooling | 9 | 11 | 9 | 9 |
 | [JuliaML/MLDatasets.jl](https://github.com/JuliaML/MLDatasets.jl) | 235 | 2026-05-01T14:44:15Z | Other | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [ChristopherHX/runner.server](https://github.com/ChristopherHX/runner.server) | 233 | 2026-05-04T09:11:39Z | Other | Infrastructure/tooling | 14 | 18 | 14 | 14 |
-| [actions/python-versions](https://github.com/actions/python-versions) | 230 | 2026-04-30T14:34:34Z | Other | Infrastructure/tooling | 4 | 10 | 4 | 4 |
-| [JuliaIO/FileIO.jl](https://github.com/JuliaIO/FileIO.jl) | 226 | 2026-04-30T13:45:06Z | Other | Infrastructure/tooling | 14 | 14 | 14 | 14 |
 | [openstreetmap/id-tagging-schema](https://github.com/openstreetmap/id-tagging-schema) | 215 | 2026-05-01T12:22:50Z | Other | Infrastructure/tooling | 10 | 12 | 10 | 10 |
-| [Shopify/rubocop-sorbet](https://github.com/Shopify/rubocop-sorbet) | 200 | 2026-04-30T20:08:43Z | Other | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [devcontainers/devcontainers.github.io](https://github.com/devcontainers/devcontainers.github.io) | 191 | 2026-05-05T02:17:32Z | Other | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [heroku/heroku-buildpack-scala](https://github.com/heroku/heroku-buildpack-scala) | 190 | 2026-05-01T05:57:18Z | Other | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [ROCm/rocMLIR](https://github.com/ROCm/rocMLIR) | 177 | 2026-05-01T14:20:52Z | Other | Infrastructure/tooling | 2 | 1 | 2 | 2 |
-| [cosmos/testnets](https://github.com/cosmos/testnets) | 177 | 2026-04-30T20:52:52Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [groundhog2k/helm-charts](https://github.com/groundhog2k/helm-charts) | 177 | 2026-04-30T14:51:30Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [intel/ipex-llm-tutorial](https://github.com/intel/ipex-llm-tutorial) | 170 | 2026-05-04T18:18:28Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [EdenEast/nyx](https://github.com/EdenEast/nyx) | 167 | 2026-05-02T05:29:08Z | Other | Infrastructure/tooling | 12 | 5 | 12 | 12 |
 | [JuliaStats/RDatasets.jl](https://github.com/JuliaStats/RDatasets.jl) | 166 | 2026-05-01T11:15:14Z | Other | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [microsoft/Agents-for-net](https://github.com/microsoft/Agents-for-net) | 165 | 2026-05-01T23:51:44Z | Other | Infrastructure/tooling | 5 | 7 | 5 | 5 |
+| [lite-xl/lite-xl-plugin-manager](https://github.com/lite-xl/lite-xl-plugin-manager) | 160 | 2026-05-06T14:53:30Z | Other | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [cowprotocol/contracts](https://github.com/cowprotocol/contracts) | 153 | 2026-05-05T08:59:52Z | Other | Infrastructure/tooling | 8 | 56 | 8 | 8 |
-| [moyangzhan/langchain4j-aideepin-web](https://github.com/moyangzhan/langchain4j-aideepin-web) | 144 | 2026-04-30T12:34:36Z | Other | Infrastructure/tooling | 0 | 55 | 0 | 0 |
 | [JuliaLLVM/LLVM.jl](https://github.com/JuliaLLVM/LLVM.jl) | 142 | 2026-05-01T09:51:19Z | Other | Infrastructure/tooling | 10 | 14 | 10 | 10 |
 | [KulikDM/pythresh](https://github.com/KulikDM/pythresh) | 137 | 2026-05-03T03:41:33Z | Other | Infrastructure/tooling | 7 | 3 | 7 | 7 |
-| [JuliaData/CategoricalArrays.jl](https://github.com/JuliaData/CategoricalArrays.jl) | 136 | 2026-05-01T01:58:35Z | Other | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [zephyr-data-specs/GMNS](https://github.com/zephyr-data-specs/GMNS) | 130 | 2026-05-01T22:54:44Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [pulumi/templates](https://github.com/pulumi/templates) | 129 | 2026-05-01T12:18:42Z | Other | Infrastructure/tooling | 7 | 26 | 7 | 7 |
 | [mmark-md/mmark](https://github.com/mmark-md/mmark) | 117 | 2026-05-01T14:31:14Z | Other | Infrastructure/tooling | 2 | 4 | 3 | 3 |
-| [heroku/heroku-buildpack-clojure](https://github.com/heroku/heroku-buildpack-clojure) | 117 | 2026-05-01T02:09:40Z | Other | Infrastructure/tooling | 7 | 3 | 7 | 7 |
-| [ROCm/hipBLASLt](https://github.com/ROCm/hipBLASLt) | 113 | 2026-05-05T13:35:19Z | Other | Unknown | 7 | 0 | 7 | 7 |
-| [hazelcast/hazelcast-csharp-client](https://github.com/hazelcast/hazelcast-csharp-client) | 106 | 2026-04-30T14:20:20Z | Other | CLI | 23 | 11 | 23 | 23 |
-| [erlef/rebar3_hex](https://github.com/erlef/rebar3_hex) | 100 | 2026-04-30T18:11:21Z | Other | Infrastructure/tooling | 3 | 6 | 3 | 3 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 144,
-    "concepts": 163,
-    "observations": 163,
-    "repos": 34,
-    "terms": 161
+    "components": 146,
+    "concepts": 167,
+    "observations": 167,
+    "repos": 36,
+    "terms": 165
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "ada-url/goada",
     "AFD-Illinois/ebhlight",
@@ -21,6 +21,7 @@
     "aseprite/observable",
     "bartp5/libtexprintf",
     "BirolLab/arcs",
+    "chusitoo/flatbush",
     "cisco/libacvp",
     "cpmech/tritet",
     "CROSS-signature/CROSS-implementation",
@@ -29,9 +30,11 @@
     "edge-classic/EDGE-classic",
     "farm-ng/farm-ng-core",
     "flashlight/text",
+    "flatpak/xdg-dbus-proxy",
     "galaxyproject/KegAlign",
     "GaoYusong/llm.cpp",
     "gershnik/wsdd-native",
+    "go-skynet/go-ggml-transformers.cpp",
     "gozaltech/espeak-ng-sapi",
     "heal-research/pyoperon",
     "ilyabrilev/biosim4",
@@ -46,7 +49,6 @@
     "RekGRpth/pg_task",
     "ssiu/flash-attention-turing",
     "uael/sv",
-    "undreamai/LlamaLib",
     "VeriSilicon/tflite-vx-delegate"
   ]
 }

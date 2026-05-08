@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 702,
+    "components": 704,
     "concepts": 567,
     "observations": 573,
-    "repos": 172,
+    "repos": 173,
     "terms": 560
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "0xProject/OpenZKP",
     "10XGenomics/vartrix",
@@ -149,6 +149,7 @@
     "Riey/cargo-feature",
     "rojo-rbx/remodel",
     "rosetta-rs/template-benchmarks-rs",
+    "rust-analyzer/ungrammar",
     "rust-db/barrel",
     "rust-embedded/critical-section",
     "rust-ethereum/ethabi",

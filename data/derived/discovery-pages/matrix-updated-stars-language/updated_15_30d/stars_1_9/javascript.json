@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 787,
-    "concepts": 416,
-    "observations": 416,
-    "repos": 49,
-    "terms": 417
+    "components": 939,
+    "concepts": 420,
+    "observations": 420,
+    "repos": 53,
+    "terms": 421
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "agent-sh/agent-core",
     "agent-sh/audit-project",
@@ -30,6 +30,9 @@
     "certible/superagent-aws-sign",
     "ChadKillingsworth/closure-compiler-npm",
     "collective/mrs-developer",
+    "eea/bise-frontend",
+    "eea/eea-website-frontend",
+    "eea/fise-frontend",
     "ehmicky/fetch-node-website",
     "ehmicky/get-node-cli",
     "ehmicky/normalize-node-version",
@@ -46,6 +49,7 @@
     "j9t/htaccess-punk",
     "kellyselden/boilerplate-update",
     "locize/locize-lastused",
+    "metosin/open-source",
     "newrelic/csec-node-agent",
     "poolifier/tatami-ng",
     "recap-utr/arg-services",

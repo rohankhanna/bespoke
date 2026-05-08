@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 0 stars
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 47
-- terms: 88
-- components: 88
-- concepts: 88
-- observations: 88
+- repos: 66
+- terms: 94
+- components: 127
+- concepts: 94
+- observations: 94
 
 ## Static behavior
 
@@ -25,12 +25,32 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [getlantern/guide](https://github.com/getlantern/guide) | 0 | 2026-05-01T05:03:06Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [danielrosehill/Air-Quality-Toolkit-Plugin](https://github.com/danielrosehill/Air-Quality-Toolkit-Plugin) | 0 | 2026-04-30T20:10:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Background-Removal-Plugin](https://github.com/danielrosehill/Claude-Background-Removal-Plugin) | 0 | 2026-04-30T19:46:16Z | Unknown | CLI | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-AI-Model-Research-Plugin](https://github.com/danielrosehill/Claude-AI-Model-Research-Plugin) | 0 | 2026-04-30T19:37:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Donetick-Plugin](https://github.com/danielrosehill/Claude-Donetick-Plugin) | 0 | 2026-04-30T19:23:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Digital-Evidence-Plugin](https://github.com/danielrosehill/Claude-Digital-Evidence-Plugin) | 0 | 2026-04-30T19:21:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Filesystem-Organiser-Plugin](https://github.com/danielrosehill/Claude-Filesystem-Organiser-Plugin) | 0 | 2026-04-30T18:51:27Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [HumanSignal/label-studio-client-generator](https://github.com/HumanSignal/label-studio-client-generator) | 0 | 2026-04-30T18:49:08Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
+| [aidenlab/spacewalk](https://github.com/aidenlab/spacewalk) | 0 | 2026-04-30T18:43:04Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
+| [aidenlab/swtool](https://github.com/aidenlab/swtool) | 0 | 2026-04-30T18:08:34Z | JavaScript | Unknown | 0 | 6 | 0 | 0 |
+| [netdur/imaged-sdk-examples](https://github.com/netdur/imaged-sdk-examples) | 0 | 2026-04-30T17:13:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Batch-Optical-Archivist-Plugin](https://github.com/danielrosehill/Claude-Batch-Optical-Archivist-Plugin) | 0 | 2026-04-30T17:12:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [csm-actions/demo-client](https://github.com/csm-actions/demo-client) | 0 | 2026-04-30T16:35:51Z | Unknown | CLI | 2 | 4 | 2 | 2 |
+| [danielrosehill/Claude-Favorite-Plugins-Installers-Plugin](https://github.com/danielrosehill/Claude-Favorite-Plugins-Installers-Plugin) | 0 | 2026-04-30T15:45:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-GIMP-Plugin](https://github.com/danielrosehill/Claude-GIMP-Plugin) | 0 | 2026-04-30T15:44:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Get-Toony-Plugin](https://github.com/danielrosehill/Claude-Get-Toony-Plugin) | 0 | 2026-04-30T15:40:41Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-CopyQ-Scripting-Plugin](https://github.com/danielrosehill/Claude-CopyQ-Scripting-Plugin) | 0 | 2026-04-30T15:38:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [lakekeeper/lakekeeper-operator](https://github.com/lakekeeper/lakekeeper-operator) | 0 | 2026-04-30T11:30:58Z | Go | Infrastructure/tooling | 6 | 5 | 6 | 6 |
+| [danielrosehill/Claude-Dev-Tools-Plugin](https://github.com/danielrosehill/Claude-Dev-Tools-Plugin) | 0 | 2026-04-30T11:06:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [superfarther/K2V](https://github.com/superfarther/K2V) | 0 | 2026-04-30T09:18:13Z | Python | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [flagos-ai/verl-FL](https://github.com/flagos-ai/verl-FL) | 0 | 2026-04-30T03:04:30Z | Python | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [sp1-patches/elliptic-curves](https://github.com/sp1-patches/elliptic-curves) | 0 | 2026-04-29T21:30:13Z | Unknown | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [danielrosehill/Claude-Hopper](https://github.com/danielrosehill/Claude-Hopper) | 0 | 2026-04-29T12:39:24Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [qiayuanl/unitree_buildfarm](https://github.com/qiayuanl/unitree_buildfarm) | 0 | 2026-04-29T11:32:14Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [danielrosehill/Claude-Buttondown-Mgmt-Plugin](https://github.com/danielrosehill/Claude-Buttondown-Mgmt-Plugin) | 0 | 2026-04-29T11:12:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Github-Explorer-Plugin](https://github.com/danielrosehill/Claude-Github-Explorer-Plugin) | 0 | 2026-04-29T10:45:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ipfs-examples/github-mgmt](https://github.com/ipfs-examples/github-mgmt) | 0 | 2026-04-28T21:45:40Z | TypeScript | Infrastructure/tooling | 10 | 10 | 10 | 10 |
 | [squidowl/iced](https://github.com/squidowl/iced) | 0 | 2026-04-28T21:06:47Z | Rust | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [hermit-os/.github](https://github.com/hermit-os/.github) | 0 | 2026-04-28T13:11:39Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -38,6 +58,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Claude-Declutter-Genie-Plugin](https://github.com/danielrosehill/Claude-Declutter-Genie-Plugin) | 0 | 2026-04-28T12:05:09Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Decision-Evaluation-Framework-Plugin](https://github.com/danielrosehill/Claude-Decision-Evaluation-Framework-Plugin) | 0 | 2026-04-28T11:51:10Z | Other | Framework | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Browser-Data-Capture-Plugin](https://github.com/danielrosehill/Claude-Browser-Data-Capture-Plugin) | 0 | 2026-04-28T11:47:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Repo-Starters-And-Templates-Index](https://github.com/danielrosehill/Repo-Starters-And-Templates-Index) | 0 | 2026-04-28T10:35:14Z | Python | Template/starter | 3 | 0 | 3 | 3 |
+| [danielrosehill/AI-Dev-Workspace-Primitives](https://github.com/danielrosehill/AI-Dev-Workspace-Primitives) | 0 | 2026-04-28T10:33:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/AI-Dev-Repo-Template-1](https://github.com/danielrosehill/AI-Dev-Repo-Template-1) | 0 | 2026-04-28T10:33:02Z | Unknown | CLI | 2 | 0 | 2 | 2 |
+| [danielrosehill/GROUNDING.md](https://github.com/danielrosehill/GROUNDING.md) | 0 | 2026-04-28T10:24:34Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
+| [danielrosehill/DOCS.md](https://github.com/danielrosehill/DOCS.md) | 0 | 2026-04-28T10:24:21Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
+| [danielrosehill/BUDGET.md](https://github.com/danielrosehill/BUDGET.md) | 0 | 2026-04-28T10:24:10Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/ENVIRONMENT.md](https://github.com/danielrosehill/ENVIRONMENT.md) | 0 | 2026-04-28T10:24:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/Expat_jll.jl](https://github.com/JuliaBinaryWrappers/Expat_jll.jl) | 0 | 2026-04-27T23:30:31Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Data-Annotation-Plugin](https://github.com/danielrosehill/Claude-Data-Annotation-Plugin) | 0 | 2026-04-27T17:37:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [arnaud-lb/php-rdkafka-doc](https://github.com/arnaud-lb/php-rdkafka-doc) | 0 | 2026-04-27T16:20:34Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -64,25 +91,37 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [regro/cf-graph-countyfair](https://github.com/regro/cf-graph-countyfair) | 0 | 2026-04-24T09:16:27Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [TransferQueue/community_doc](https://github.com/TransferQueue/community_doc) | 0 | 2026-04-24T08:25:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [nodenv/node-build-prerelease](https://github.com/nodenv/node-build-prerelease) | 0 | 2026-04-24T07:57:51Z | Shell | Infrastructure/tooling | 10 | 9 | 10 | 10 |
-| [conda-forge/tianshou-feedstock](https://github.com/conda-forge/tianshou-feedstock) | 0 | 2026-04-24T03:51:30Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
-| [conda-forge/textgrad-feedstock](https://github.com/conda-forge/textgrad-feedstock) | 0 | 2026-04-24T03:45:49Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
-| [danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin](https://github.com/danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin) | 0 | 2026-04-23T14:34:16Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
-| [danielrosehill/Open-Research-Workspaces-Index](https://github.com/danielrosehill/Open-Research-Workspaces-Index) | 0 | 2026-04-23T13:24:32Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
-| [danielrosehill/AI-Presentation-Builders-Index](https://github.com/danielrosehill/AI-Presentation-Builders-Index) | 0 | 2026-04-23T13:11:27Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
-| [conda-forge/ergocub-software-feedstock](https://github.com/conda-forge/ergocub-software-feedstock) | 0 | 2026-04-23T12:46:07Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
-| [conda-forge/equinox-feedstock](https://github.com/conda-forge/equinox-feedstock) | 0 | 2026-04-23T12:45:27Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [danielrosehill/Claude-Israel](https://github.com/danielrosehill/Claude-Israel) | 0 | 2026-04-23T12:34:17Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [getlantern/guide](https://github.com/getlantern/guide) | 0 | 2026-05-01T05:03:06Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [danielrosehill/Air-Quality-Toolkit-Plugin](https://github.com/danielrosehill/Air-Quality-Toolkit-Plugin) | 0 | 2026-04-30T20:10:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Background-Removal-Plugin](https://github.com/danielrosehill/Claude-Background-Removal-Plugin) | 0 | 2026-04-30T19:46:16Z | Unknown | CLI | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-AI-Model-Research-Plugin](https://github.com/danielrosehill/Claude-AI-Model-Research-Plugin) | 0 | 2026-04-30T19:37:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Donetick-Plugin](https://github.com/danielrosehill/Claude-Donetick-Plugin) | 0 | 2026-04-30T19:23:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Digital-Evidence-Plugin](https://github.com/danielrosehill/Claude-Digital-Evidence-Plugin) | 0 | 2026-04-30T19:21:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Filesystem-Organiser-Plugin](https://github.com/danielrosehill/Claude-Filesystem-Organiser-Plugin) | 0 | 2026-04-30T18:51:27Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [HumanSignal/label-studio-client-generator](https://github.com/HumanSignal/label-studio-client-generator) | 0 | 2026-04-30T18:49:08Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
+| [aidenlab/spacewalk](https://github.com/aidenlab/spacewalk) | 0 | 2026-04-30T18:43:04Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
+| [aidenlab/swtool](https://github.com/aidenlab/swtool) | 0 | 2026-04-30T18:08:34Z | JavaScript | Unknown | 0 | 6 | 0 | 0 |
+| [netdur/imaged-sdk-examples](https://github.com/netdur/imaged-sdk-examples) | 0 | 2026-04-30T17:13:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Batch-Optical-Archivist-Plugin](https://github.com/danielrosehill/Claude-Batch-Optical-Archivist-Plugin) | 0 | 2026-04-30T17:12:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [csm-actions/demo-client](https://github.com/csm-actions/demo-client) | 0 | 2026-04-30T16:35:51Z | Unknown | CLI | 2 | 4 | 2 | 2 |
+| [danielrosehill/Claude-Favorite-Plugins-Installers-Plugin](https://github.com/danielrosehill/Claude-Favorite-Plugins-Installers-Plugin) | 0 | 2026-04-30T15:45:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-GIMP-Plugin](https://github.com/danielrosehill/Claude-GIMP-Plugin) | 0 | 2026-04-30T15:44:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Get-Toony-Plugin](https://github.com/danielrosehill/Claude-Get-Toony-Plugin) | 0 | 2026-04-30T15:40:41Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-CopyQ-Scripting-Plugin](https://github.com/danielrosehill/Claude-CopyQ-Scripting-Plugin) | 0 | 2026-04-30T15:38:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [lakekeeper/lakekeeper-operator](https://github.com/lakekeeper/lakekeeper-operator) | 0 | 2026-04-30T11:30:58Z | Go | Infrastructure/tooling | 6 | 5 | 6 | 6 |
+| [danielrosehill/Claude-Dev-Tools-Plugin](https://github.com/danielrosehill/Claude-Dev-Tools-Plugin) | 0 | 2026-04-30T11:06:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [superfarther/K2V](https://github.com/superfarther/K2V) | 0 | 2026-04-30T09:18:13Z | Python | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [flagos-ai/verl-FL](https://github.com/flagos-ai/verl-FL) | 0 | 2026-04-30T03:04:30Z | Python | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [sp1-patches/elliptic-curves](https://github.com/sp1-patches/elliptic-curves) | 0 | 2026-04-29T21:30:13Z | Unknown | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [danielrosehill/Claude-Hopper](https://github.com/danielrosehill/Claude-Hopper) | 0 | 2026-04-29T12:39:24Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [qiayuanl/unitree_buildfarm](https://github.com/qiayuanl/unitree_buildfarm) | 0 | 2026-04-29T11:32:14Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [danielrosehill/Claude-Buttondown-Mgmt-Plugin](https://github.com/danielrosehill/Claude-Buttondown-Mgmt-Plugin) | 0 | 2026-04-29T11:12:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Github-Explorer-Plugin](https://github.com/danielrosehill/Claude-Github-Explorer-Plugin) | 0 | 2026-04-29T10:45:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ipfs-examples/github-mgmt](https://github.com/ipfs-examples/github-mgmt) | 0 | 2026-04-28T21:45:40Z | TypeScript | Infrastructure/tooling | 10 | 10 | 10 | 10 |
 | [squidowl/iced](https://github.com/squidowl/iced) | 0 | 2026-04-28T21:06:47Z | Rust | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [hermit-os/.github](https://github.com/hermit-os/.github) | 0 | 2026-04-28T13:11:39Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -90,6 +129,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Claude-Declutter-Genie-Plugin](https://github.com/danielrosehill/Claude-Declutter-Genie-Plugin) | 0 | 2026-04-28T12:05:09Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Decision-Evaluation-Framework-Plugin](https://github.com/danielrosehill/Claude-Decision-Evaluation-Framework-Plugin) | 0 | 2026-04-28T11:51:10Z | Other | Framework | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Browser-Data-Capture-Plugin](https://github.com/danielrosehill/Claude-Browser-Data-Capture-Plugin) | 0 | 2026-04-28T11:47:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Repo-Starters-And-Templates-Index](https://github.com/danielrosehill/Repo-Starters-And-Templates-Index) | 0 | 2026-04-28T10:35:14Z | Python | Template/starter | 3 | 0 | 3 | 3 |
+| [danielrosehill/AI-Dev-Workspace-Primitives](https://github.com/danielrosehill/AI-Dev-Workspace-Primitives) | 0 | 2026-04-28T10:33:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/AI-Dev-Repo-Template-1](https://github.com/danielrosehill/AI-Dev-Repo-Template-1) | 0 | 2026-04-28T10:33:02Z | Unknown | CLI | 2 | 0 | 2 | 2 |
+| [danielrosehill/GROUNDING.md](https://github.com/danielrosehill/GROUNDING.md) | 0 | 2026-04-28T10:24:34Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
+| [danielrosehill/DOCS.md](https://github.com/danielrosehill/DOCS.md) | 0 | 2026-04-28T10:24:21Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
+| [danielrosehill/BUDGET.md](https://github.com/danielrosehill/BUDGET.md) | 0 | 2026-04-28T10:24:10Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/ENVIRONMENT.md](https://github.com/danielrosehill/ENVIRONMENT.md) | 0 | 2026-04-28T10:24:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/Expat_jll.jl](https://github.com/JuliaBinaryWrappers/Expat_jll.jl) | 0 | 2026-04-27T23:30:31Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Data-Annotation-Plugin](https://github.com/danielrosehill/Claude-Data-Annotation-Plugin) | 0 | 2026-04-27T17:37:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [arnaud-lb/php-rdkafka-doc](https://github.com/arnaud-lb/php-rdkafka-doc) | 0 | 2026-04-27T16:20:34Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -116,11 +162,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [regro/cf-graph-countyfair](https://github.com/regro/cf-graph-countyfair) | 0 | 2026-04-24T09:16:27Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [TransferQueue/community_doc](https://github.com/TransferQueue/community_doc) | 0 | 2026-04-24T08:25:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [nodenv/node-build-prerelease](https://github.com/nodenv/node-build-prerelease) | 0 | 2026-04-24T07:57:51Z | Shell | Infrastructure/tooling | 10 | 9 | 10 | 10 |
-| [conda-forge/tianshou-feedstock](https://github.com/conda-forge/tianshou-feedstock) | 0 | 2026-04-24T03:51:30Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
-| [conda-forge/textgrad-feedstock](https://github.com/conda-forge/textgrad-feedstock) | 0 | 2026-04-24T03:45:49Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
-| [danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin](https://github.com/danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin) | 0 | 2026-04-23T14:34:16Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
-| [danielrosehill/Open-Research-Workspaces-Index](https://github.com/danielrosehill/Open-Research-Workspaces-Index) | 0 | 2026-04-23T13:24:32Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
-| [danielrosehill/AI-Presentation-Builders-Index](https://github.com/danielrosehill/AI-Presentation-Builders-Index) | 0 | 2026-04-23T13:11:27Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
-| [conda-forge/ergocub-software-feedstock](https://github.com/conda-forge/ergocub-software-feedstock) | 0 | 2026-04-23T12:46:07Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
-| [conda-forge/equinox-feedstock](https://github.com/conda-forge/equinox-feedstock) | 0 | 2026-04-23T12:45:27Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [danielrosehill/Claude-Israel](https://github.com/danielrosehill/Claude-Israel) | 0 | 2026-04-23T12:34:17Z | Unknown | Unknown | 3 | 0 | 3 | 3 |

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1842,
-    "concepts": 2759,
-    "observations": 2778,
-    "repos": 692,
-    "terms": 2703
+    "components": 1862,
+    "concepts": 2773,
+    "observations": 2792,
+    "repos": 697,
+    "terms": 2717
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "shell"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",
@@ -100,6 +100,7 @@
     "aquasecurity/trivy-action",
     "arangrhie/T2T-Polish",
     "archlinux/archlinux-repro",
+    "archlinux/svntogit-packages",
     "archlinuxcn/repo",
     "argoproj-labs/argocd-extension-installer",
     "aristocratos/bashtop",
@@ -249,6 +250,7 @@
     "danielrosehill/Claude-Data-Wrangler-plugin",
     "danielrosehill/Claude-Debugging-Plugin",
     "danielrosehill/Claude-Dolphin-Konsole-Actions",
+    "danielrosehill/Claude-Filesystem-Organiser-Plugin",
     "danielrosehill/Claude-Rudder",
     "danielrosehill/Local-Claude-Plugin-Install-Research",
     "danielrosehill/OpenWebUI-Postgres-Qdrant",
@@ -293,6 +295,7 @@
     "dwyl/learn-devops",
     "eclipse-embed-cdt/org.eclipse.epp.packages",
     "eddelbuettel/github-actions",
+    "edward3h/bedrock-viz-from-backups",
     "edward3h/docker-bds-integration-test",
     "eea/eea.docker.gitflow",
     "ekalinin/github-markdown-toc",
@@ -392,6 +395,7 @@
     "isaacs/nave",
     "isaacs/npm",
     "iterate-ch/profiles",
+    "itzg/docker-mc-backup",
     "itzg/docker-minecraft-bedrock-server",
     "itzg/docker-minecraft-server",
     "jandamm/zgenom",
@@ -426,6 +430,7 @@
     "justinmayer/virtualfish",
     "jvm-repo-rebuild/reproducible-central",
     "k4m4/terminals-are-sexy",
+    "Kaiede/docker-minecraft-bedrock-backup",
     "kalavai-net/kalavai-templates",
     "kaldi-asr/kaldi",
     "karalabe/xgo",
@@ -665,7 +670,7 @@
     "transmissions11/dapptools-template",
     "trapd00r/LS_COLORS",
     "tremby/imgur.sh",
-    "TritonDataCenter/node-cmdutil",
+    "tritondatacenter/node-cmdutil",
     "tuvovan/Zero_DCE_TF",
     "twain47/Open-SVG-Map-Icons",
     "tzachar/sqlite_skim",

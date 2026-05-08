@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 14,
-    "concepts": 77,
-    "observations": 78,
+    "concepts": 75,
+    "observations": 76,
     "repos": 18,
-    "terms": 73
+    "terms": 71
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "Alex313031/Thorium-Android",
     "Alex313031/Thorium-MacOS",
@@ -22,12 +22,12 @@
     "eza-community/eza-themes",
     "google/deepsomatic",
     "googleapis/python-logging",
-    "GuiWonder/MoonStarsKai",
     "hashicorp/vault-examples",
     "ipfs/devgrants",
     "JuliaDiff/BlueStyle",
     "lintool/guide",
     "lxgw/lxgw",
+    "MiniMax-AI/MiniMax-M2.5",
     "pbatard/UEFI-Shell",
     "peter-evans/enable-pull-request-automerge",
     "shadowspawn/node-version-usage",

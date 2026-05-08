@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 36
-- terms: 159
-- components: 1097
-- concepts: 149
-- observations: 150
+- repos: 35
+- terms: 174
+- components: 1014
+- concepts: 164
+- observations: 165
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Piebald-AI/gemini-cli-desktop](https://github.com/Piebald-AI/gemini-cli-desktop) | 407 | 2026-03-08T15:18:16Z | TypeScript | CLI | 20 | 13 | 20 | 20 |
 | [trzsz/trzsz.js](https://github.com/trzsz/trzsz.js) | 199 | 2026-03-06T17:35:00Z | TypeScript | CLI | 10 | 29 | 10 | 10 |
 | [agentscope-ai/agentscope-studio](https://github.com/agentscope-ai/agentscope-studio) | 532 | 2026-03-06T15:46:32Z | TypeScript | Infrastructure/tooling | 12 | 36 | 12 | 12 |
 | [ethereum/staking-launchpad](https://github.com/ethereum/staking-launchpad) | 302 | 2026-03-05T17:45:32Z | TypeScript | Unknown | 1 | 82 | 1 | 1 |
@@ -60,8 +61,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [niieani/gpt-tokenizer](https://github.com/niieani/gpt-tokenizer) | 778 | 2026-02-10T17:50:16Z | TypeScript | Infrastructure/tooling | 13 | 16 | 13 | 13 |
 | [kutsan/stylelint-config-clean-order](https://github.com/kutsan/stylelint-config-clean-order) | 186 | 2026-02-10T14:36:48Z | TypeScript | Infrastructure/tooling | 5 | 28 | 5 | 5 |
 | [addyosmani/chatty](https://github.com/addyosmani/chatty) | 812 | 2026-02-07T18:28:42Z | TypeScript | Infrastructure/tooling | 3 | 51 | 3 | 3 |
-| [antfu-collective/eslint-vitest-rule-tester](https://github.com/antfu-collective/eslint-vitest-rule-tester) | 139 | 2026-02-07T01:02:56Z | TypeScript | Infrastructure/tooling | 1 | 22 | 1 | 1 |
-| [weaviate/elysia-frontend](https://github.com/weaviate/elysia-frontend) | 179 | 2026-02-06T15:41:11Z | TypeScript | Infrastructure/tooling | 4 | 74 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -82,6 +81,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [agentscope-ai/agentscope-studio](https://github.com/agentscope-ai/agentscope-studio) | 532 | 2026-03-06T15:46:32Z | TypeScript | Infrastructure/tooling | 12 | 36 | 12 | 12 |
 | [vuejs/vue-eslint-parser](https://github.com/vuejs/vue-eslint-parser) | 488 | 2026-02-14T09:54:59Z | TypeScript | Infrastructure/tooling | 6 | 37 | 6 | 6 |
 | [castwide/vscode-solargraph](https://github.com/castwide/vscode-solargraph) | 435 | 2026-02-11T13:34:32Z | TypeScript | Unknown | 5 | 14 | 5 | 5 |
+| [Piebald-AI/gemini-cli-desktop](https://github.com/Piebald-AI/gemini-cli-desktop) | 407 | 2026-03-08T15:18:16Z | TypeScript | CLI | 20 | 13 | 20 | 20 |
 | [lobehub/lobe-cli-toolbox](https://github.com/lobehub/lobe-cli-toolbox) | 404 | 2026-02-15T00:32:39Z | TypeScript | CLI | 15 | 38 | 15 | 15 |
 | [a2aproject/a2a-inspector](https://github.com/a2aproject/a2a-inspector) | 400 | 2026-02-28T20:00:09Z | TypeScript | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [Lusito/webextension-polyfill-ts](https://github.com/Lusito/webextension-polyfill-ts) | 398 | 2026-02-18T20:44:51Z | TypeScript | Web app | 0 | 12 | 0 | 0 |
@@ -95,10 +95,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [yandeu/five-server](https://github.com/yandeu/five-server) | 220 | 2026-02-25T18:19:32Z | TypeScript | Infrastructure/tooling | 1 | 36 | 1 | 1 |
 | [trzsz/trzsz.js](https://github.com/trzsz/trzsz.js) | 199 | 2026-03-06T17:35:00Z | TypeScript | CLI | 10 | 29 | 10 | 10 |
 | [kutsan/stylelint-config-clean-order](https://github.com/kutsan/stylelint-config-clean-order) | 186 | 2026-02-10T14:36:48Z | TypeScript | Infrastructure/tooling | 5 | 28 | 5 | 5 |
-| [weaviate/elysia-frontend](https://github.com/weaviate/elysia-frontend) | 179 | 2026-02-06T15:41:11Z | TypeScript | Infrastructure/tooling | 4 | 74 | 4 | 4 |
 | [antfu/eslint-plugin-antfu](https://github.com/antfu/eslint-plugin-antfu) | 172 | 2026-02-14T04:44:36Z | TypeScript | Infrastructure/tooling | 1 | 24 | 1 | 1 |
 | [0xtbug/zero-limit](https://github.com/0xtbug/zero-limit) | 155 | 2026-02-27T04:25:53Z | TypeScript | CLI | 8 | 50 | 8 | 8 |
-| [antfu-collective/eslint-vitest-rule-tester](https://github.com/antfu-collective/eslint-vitest-rule-tester) | 139 | 2026-02-07T01:02:56Z | TypeScript | Infrastructure/tooling | 1 | 22 | 1 | 1 |
 | [googleapis/nodejs-logging-winston](https://github.com/googleapis/nodejs-logging-winston) | 114 | 2026-02-12T17:49:05Z | TypeScript | CLI | 4 | 27 | 4 | 4 |
 | [eckardt/cchistory](https://github.com/eckardt/cchistory) | 107 | 2026-02-28T16:49:23Z | TypeScript | CLI | 3 | 13 | 0 | 0 |
 | [aymenfurter/ralph](https://github.com/aymenfurter/ralph) | 103 | 2026-02-27T08:01:38Z | TypeScript | Infrastructure/tooling | 1 | 18 | 0 | 0 |

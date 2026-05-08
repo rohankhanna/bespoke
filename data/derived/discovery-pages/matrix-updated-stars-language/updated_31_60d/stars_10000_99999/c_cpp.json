@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 95,
-    "concepts": 105,
-    "observations": 105,
-    "repos": 17,
-    "terms": 105
+    "components": 109,
+    "concepts": 128,
+    "observations": 128,
+    "repos": 19,
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "aria2/aria2",
     "bellard/quickjs",
@@ -21,6 +21,7 @@
     "deepseek-ai/FlashMLA",
     "esp8266/Arduino",
     "facebook/zstd",
+    "g-truc/glm",
     "glfw/glfw",
     "google/googletest",
     "google/leveldb",
@@ -30,6 +31,7 @@
     "microsoft/AirSim",
     "mobile-shell/mosh",
     "NVIDIA/open-gpu-kernel-modules",
-    "taichi-dev/taichi"
+    "taichi-dev/taichi",
+    "zeromq/libzmq"
   ]
 }

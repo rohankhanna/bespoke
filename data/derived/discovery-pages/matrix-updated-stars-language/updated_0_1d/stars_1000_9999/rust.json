@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 111,
-    "concepts": 96,
-    "observations": 97,
-    "repos": 9,
-    "terms": 96
+    "components": 81,
+    "concepts": 83,
+    "observations": 84,
+    "repos": 6,
+    "terms": 83
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "apache/datafusion-ballista",
-    "ash-rs/ash",
     "databendlabs/databend",
     "dmtrKovalenko/fff",
     "godot-rust/gdext",
     "hermit-os/hermit-rs",
-    "josh-project/josh",
-    "JuliaLang/juliaup",
     "lance-format/lance"
   ]
 }

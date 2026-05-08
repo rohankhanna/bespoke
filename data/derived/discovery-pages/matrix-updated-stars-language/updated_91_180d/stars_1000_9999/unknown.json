@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 16,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 12,
-    "terms": 33
+    "concepts": 56,
+    "observations": 56,
+    "repos": 14,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "ACh-K/Cubic-11",
     "antonbabenko/terraform-skill",
+    "brightmart/nlp_chinese_corpus",
+    "CLUEbenchmark/CLUECorpus2020",
     "datawhalechina/so-large-lm",
     "facebookresearch/moco",
     "graalvm/graalvm-ce-builds",

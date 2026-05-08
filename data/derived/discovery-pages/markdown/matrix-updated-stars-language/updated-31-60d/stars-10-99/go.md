@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 29
-- terms: 113
-- components: 140
-- concepts: 110
-- observations: 110
+- repos: 32
+- terms: 130
+- components: 161
+- concepts: 127
+- observations: 128
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [featherbread/hypcast](https://github.com/featherbread/hypcast) | 12 | 2026-04-08T04:15:38Z | Go | Infrastructure/tooling | 3 | 9 | 3 | 3 |
+| [darkweak/storages](https://github.com/darkweak/storages) | 14 | 2026-04-07T12:38:57Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 3 |
+| [ionos-cloud/external-dns-ionos-webhook](https://github.com/ionos-cloud/external-dns-ionos-webhook) | 22 | 2026-04-07T12:15:18Z | Go | Infrastructure/tooling | 12 | 8 | 12 | 12 |
 | [0ghny/gitconfig](https://github.com/0ghny/gitconfig) | 15 | 2026-04-07T08:29:20Z | Go | CLI | 2 | 10 | 2 | 2 |
 | [getlantern/.github](https://github.com/getlantern/.github) | 30 | 2026-04-07T06:04:55Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [opea-project/GenAIInfra](https://github.com/opea-project/GenAIInfra) | 73 | 2026-04-06T22:42:55Z | Go | Infrastructure/tooling | 6 | 3 | 6 | 6 |
@@ -79,12 +82,15 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [getlantern/.github](https://github.com/getlantern/.github) | 30 | 2026-04-07T06:04:55Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [GFW-knocker/AndroidLibXrayLite](https://github.com/GFW-knocker/AndroidLibXrayLite) | 25 | 2026-03-31T17:44:00Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [chrislusf/seaweedfs](https://github.com/chrislusf/seaweedfs) | 24 | 2026-03-28T00:03:22Z | Go | Infrastructure/tooling | 7 | 6 | 7 | 7 |
+| [ionos-cloud/external-dns-ionos-webhook](https://github.com/ionos-cloud/external-dns-ionos-webhook) | 22 | 2026-04-07T12:15:18Z | Go | Infrastructure/tooling | 12 | 8 | 12 | 12 |
 | [hashicorp/go-netaddrs](https://github.com/hashicorp/go-netaddrs) | 22 | 2026-04-02T02:46:00Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [cjkreklow/t38c](https://github.com/cjkreklow/t38c) | 22 | 2026-03-25T00:23:15Z | Go | CLI | 3 | 4 | 3 | 3 |
 | [cyberark/conjur-api-go](https://github.com/cyberark/conjur-api-go) | 21 | 2026-03-18T13:17:52Z | Go | CLI | 7 | 0 | 7 | 7 |
 | [hashicorp/vault-plugin-auth-kerberos](https://github.com/hashicorp/vault-plugin-auth-kerberos) | 20 | 2026-04-01T00:45:10Z | Go | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [0ghny/gitconfig](https://github.com/0ghny/gitconfig) | 15 | 2026-04-07T08:29:20Z | Go | CLI | 2 | 10 | 2 | 2 |
+| [darkweak/storages](https://github.com/darkweak/storages) | 14 | 2026-04-07T12:38:57Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 3 |
 | [datachainlab/ethereum-ibc-relay-chain](https://github.com/datachainlab/ethereum-ibc-relay-chain) | 13 | 2026-03-16T03:27:19Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [featherbread/hypcast](https://github.com/featherbread/hypcast) | 12 | 2026-04-08T04:15:38Z | Go | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [aquasecurity/k8s-node-collector](https://github.com/aquasecurity/k8s-node-collector) | 12 | 2026-03-09T19:51:11Z | Go | Infrastructure/tooling | 4 | 16 | 4 | 4 |
 | [wzshiming/repimage](https://github.com/wzshiming/repimage) | 12 | 2026-03-09T08:01:32Z | Go | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [astro-han/diffpane](https://github.com/Astro-Han/diffpane) | 11 | 2026-04-01T12:44:05Z | Go | CLI | 9 | 3 | 9 | 9 |

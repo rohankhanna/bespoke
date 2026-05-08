@@ -3,7 +3,7 @@
     "components": 197,
     "concepts": 97,
     "observations": 97,
-    "repos": 110,
+    "repos": 112,
     "terms": 97
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "5sControl/.github",
     "5scontrol/5s-dev-documentation",
@@ -47,12 +47,14 @@
     "danielrosehill/ai-human-attribution-adder",
     "danielrosehill/backup_internet_israel",
     "danielrosehill/Career-Data-AI-Context-Repo",
+    "danielrosehill/Careers-Utilities-System-Prompts",
     "danielrosehill/Claude-Code-Context-Feature-Requests",
     "danielrosehill/Claude-Linux-Desktop-Manager",
     "danielrosehill/Context-Chunker-Assistant",
     "danielrosehill/HA-Red-Alert-News-Dash",
     "danielrosehill/HA-Red-Alerts-Model-Automations",
     "danielrosehill/N8N-Workflow-Sanitiser-Agent",
+    "danielrosehill/STT-Price-Points-260225",
     "datachainlab/base64",
     "datachainlab/solidity-datetime",
     "datafuse-extras/async-compression",

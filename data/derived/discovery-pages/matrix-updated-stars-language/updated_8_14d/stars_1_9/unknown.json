@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 23,
-    "concepts": 25,
-    "observations": 25,
-    "repos": 17,
-    "terms": 25
+    "components": 32,
+    "concepts": 28,
+    "observations": 28,
+    "repos": 19,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,21 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
-    "AlmaLinux/osv-database",
     "calda/SwiftFormat-nightly",
     "conda-forge/captum-feedstock",
-    "danielrosehill/Claude-Data-Analyst-plugin",
+    "csm-actions/demo-server",
+    "danielrosehill/Claude-Content-Writing-Plugin",
+    "danielrosehill/Claude-Desktop-Manager-Plugin",
     "danielrosehill/Subindices",
     "dmBots/DM-J4310-2EC",
     "eddelbuettel/r2u-config",
     "emacs-straight/gnu-elpa-mirror",
     "hiyouga/llamafactory-community",
+    "hybridgroup/llama-cpp-builder",
     "jku/tuf-demo",
-    "oobabooga/screenshots",
+    "OpenSC/Nightly",
     "psmux/scoop-psmux",
     "puppetlabs/.github",
     "scalar/starter",

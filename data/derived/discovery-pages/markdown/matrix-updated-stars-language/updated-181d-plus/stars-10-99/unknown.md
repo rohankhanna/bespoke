@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Unknown
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 271
+- repos: 273
 - terms: 315
 - components: 197
 - concepts: 315
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Tammytcl/Awesome-Diffusion-Acceleration-Cache](https://github.com/Tammytcl/Awesome-Diffusion-Acceleration-Cache) | 81 | 2025-11-04T07:18:43Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [danielrosehill/claude-file-organiser-super-slash](https://github.com/danielrosehill/Claude-File-Organiser-Super-Slash) | 10 | 2025-10-29T14:55:19Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Code-MCP-List](https://github.com/danielrosehill/Claude-Code-MCP-List) | 24 | 2025-10-28T15:36:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [datasette/datasette-studio](https://github.com/datasette/datasette-studio) | 32 | 2025-10-21T22:32:50Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -84,6 +85,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [near/abi](https://github.com/near/abi) | 19 | 2025-03-27T23:40:50Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [zlib-ng/patches](https://github.com/zlib-ng/patches) | 16 | 2025-03-19T20:56:30Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [mozilla-services/shavar-list-creation-config](https://github.com/mozilla-services/shavar-list-creation-config) | 11 | 2025-03-05T22:09:01Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/General-System-Prompts](https://github.com/danielrosehill/General-System-Prompts) | 10 | 2025-02-25T00:56:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [stoplightio/spectral-rulesets](https://github.com/stoplightio/spectral-rulesets) | 70 | 2025-02-04T15:41:33Z | Unknown | Service/API | 2 | 0 | 2 | 2 |
 | [nvm-sh/logos](https://github.com/nvm-sh/logos) | 20 | 2025-02-03T18:27:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [plotly/plotly.r-docs](https://github.com/plotly/plotly.r-docs) | 10 | 2025-01-27T14:21:40Z | Unknown | Library | 0 | 0 | 0 | 0 |
@@ -330,6 +332,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lxgw/FusionKai](https://github.com/lxgw/FusionKai) | 83 | 2024-05-13T03:30:27Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [gogocodeio/vue-element-admin](https://github.com/gogocodeio/vue-element-admin) | 83 | 2022-04-14T07:56:33Z | Unknown | Unknown | 0 | 54 | 0 | 0 |
 | [OpenGVLab/Awesome-DragGAN](https://github.com/OpenGVLab/Awesome-DragGAN) | 82 | 2023-11-08T08:54:43Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [Tammytcl/Awesome-Diffusion-Acceleration-Cache](https://github.com/Tammytcl/Awesome-Diffusion-Acceleration-Cache) | 81 | 2025-11-04T07:18:43Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [FocalNet/Networks-Beyond-Attention](https://github.com/FocalNet/Networks-Beyond-Attention) | 81 | 2023-01-18T18:55:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [google-deepmind/boxoban-levels](https://github.com/google-deepmind/boxoban-levels) | 81 | 2022-12-28T16:26:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [twitter-archive/code-of-conduct](https://github.com/twitter-archive/code-of-conduct) | 81 | 2021-08-17T18:04:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -568,6 +571,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/claude-file-organiser-super-slash](https://github.com/danielrosehill/Claude-File-Organiser-Super-Slash) | 10 | 2025-10-29T14:55:19Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [gchq/gaffer-doc](https://github.com/gchq/gaffer-doc) | 10 | 2025-06-06T10:17:48Z | Unknown | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [throttled/gcra](https://github.com/throttled/gcra) | 10 | 2025-04-12T17:03:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/General-System-Prompts](https://github.com/danielrosehill/General-System-Prompts) | 10 | 2025-02-25T00:56:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [plotly/plotly.r-docs](https://github.com/plotly/plotly.r-docs) | 10 | 2025-01-27T14:21:40Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [bluejekyll/trust-dns](https://github.com/bluejekyll/trust-dns) | 10 | 2024-08-04T21:31:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [wanderview/quota-storage-partitioning](https://github.com/wanderview/quota-storage-partitioning) | 10 | 2024-07-03T09:17:10Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

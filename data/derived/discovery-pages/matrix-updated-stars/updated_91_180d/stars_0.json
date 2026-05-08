@@ -1,22 +1,23 @@
 {
   "counts": {
-    "components": 272,
-    "concepts": 85,
-    "observations": 85,
-    "repos": 73,
-    "terms": 85
+    "components": 276,
+    "concepts": 86,
+    "observations": 86,
+    "repos": 75,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "abap2UI5-addons/popups",
     "aldernero/spider",
     "all-the-noises/data",
     "appscodelabs/liche",
+    "artsy/react-native-launch-arguments",
     "asm89/prettytable-rs",
     "babashka/homebrew-brew",
     "biocypher/biocypher-cookiecutter-template",
@@ -62,6 +63,7 @@
     "illusionfield/fourseven-scss",
     "jackielii/qmk_firmware",
     "JuliaBinaryWrappers/brotli_jll.jl",
+    "JuliaBinaryWrappers/Glib_jll.jl",
     "JuliaBinaryWrappers/Libffi_jll.jl",
     "Keats/os_info",
     "KSXGitHub/aur-packages-builder-1",

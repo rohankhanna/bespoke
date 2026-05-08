@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 99,
-    "concepts": 62,
-    "observations": 62,
-    "repos": 17,
-    "terms": 62
+    "components": 111,
+    "concepts": 67,
+    "observations": 67,
+    "repos": 18,
+    "terms": 67
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "astral-sh/versions",
     "atlanhq/atlan-sample-apps",
     "compiler-research/cppyy",
-    "conda-forge/threadpoolctl-feedstock",
     "demonatic/flash-attention",
     "eea/eea-website-backend",
     "flagos-ai/Megatron-LM-FL",
@@ -30,6 +29,8 @@
     "plone/cookieplone-templates",
     "scaleway/serverless-api-framework-python",
     "TJC-LP/sanzaru",
+    "usdot-fhwa-stol/carma-config",
+    "usdot-fhwa-stol/cdasim-config",
     "zopefoundation/meta"
   ]
 }

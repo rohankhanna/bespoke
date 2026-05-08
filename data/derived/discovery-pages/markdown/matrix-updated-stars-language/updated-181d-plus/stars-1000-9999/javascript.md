@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -77,7 +77,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jshint/jshint](https://github.com/jshint/jshint) | 9070 | 2025-02-13T17:18:03Z | JavaScript | Unknown | 0 | 23 | 0 | 0 |
 | [timarney/react-app-rewired](https://github.com/timarney/react-app-rewired) | 9858 | 2025-02-13T03:23:53Z | JavaScript | Web app | 6 | 2 | 6 | 6 |
 | [vitalets/react-native-extended-stylesheet](https://github.com/vitalets/react-native-extended-stylesheet) | 2933 | 2025-02-05T16:37:19Z | JavaScript | Unknown | 7 | 18 | 7 | 7 |
-| [wenda-LLM/wenda](https://github.com/wenda-LLM/wenda) | 6190 | 2025-01-23T12:55:35Z | JavaScript | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [wenda-LLM/wenda](https://github.com/wenda-LLM/wenda) | 6189 | 2025-01-23T12:55:35Z | JavaScript | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [vueuse/vue-demi](https://github.com/vueuse/vue-demi) | 3135 | 2025-01-22T09:27:29Z | JavaScript | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [nodejs/readable-stream](https://github.com/nodejs/readable-stream) | 1045 | 2025-01-07T10:06:21Z | JavaScript | Infrastructure/tooling | 6 | 36 | 6 | 6 |
 | [bjornharrtell/jsts](https://github.com/bjornharrtell/jsts) | 1552 | 2025-01-02T19:25:48Z | JavaScript | Infrastructure/tooling | 1 | 19 | 1 | 1 |
@@ -302,7 +302,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chancejs/chancejs](https://github.com/chancejs/chancejs) | 6544 | 2025-05-18T21:03:04Z | JavaScript | Infrastructure/tooling | 7 | 19 | 7 | 7 |
 | [fkling/astexplorer](https://github.com/fkling/astexplorer) | 6532 | 2024-04-26T13:48:46Z | JavaScript | Unknown | 5 | 0 | 5 | 5 |
 | [pa7/heatmap.js](https://github.com/pa7/heatmap.js) | 6370 | 2023-10-31T03:05:44Z | JavaScript | Library | 14 | 6 | 14 | 14 |
-| [wenda-LLM/wenda](https://github.com/wenda-LLM/wenda) | 6190 | 2025-01-23T12:55:35Z | JavaScript | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [wenda-LLM/wenda](https://github.com/wenda-LLM/wenda) | 6189 | 2025-01-23T12:55:35Z | JavaScript | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [slap-editor/slap](https://github.com/slap-editor/slap) | 6186 | 2021-11-01T04:47:39Z | JavaScript | CLI | 0 | 15 | 0 | 0 |
 | [thx/gogocode](https://github.com/thx/gogocode) | 6085 | 2024-04-11T02:24:33Z | JavaScript | Web app | 3 | 8 | 3 | 3 |
 | [nodeca/pako](https://github.com/nodeca/pako) | 6066 | 2024-06-27T10:02:41Z | JavaScript | Infrastructure/tooling | 2 | 15 | 2 | 2 |

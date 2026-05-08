@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 20,
-    "concepts": 25,
-    "observations": 25,
-    "repos": 1,
-    "terms": 25
+    "components": 21,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 2,
+    "terms": 0
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
-    "stdlib-js/complex-reviver"
+    "aidenlab/juicebox-web",
+    "oscard0m/ts-transformer-remove-named-export"
   ]
 }

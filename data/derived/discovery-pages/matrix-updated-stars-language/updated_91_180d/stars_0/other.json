@@ -3,7 +3,7 @@
     "components": 26,
     "concepts": 3,
     "observations": 3,
-    "repos": 11,
+    "repos": 12,
     "terms": 3
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "abap2UI5-addons/popups",
     "babashka/homebrew-brew",
@@ -21,6 +21,7 @@
     "haoxiangsnr/IntelNeuromorphicDNSChallenge",
     "Hitesh-Aggarwal/dotfiles",
     "JuliaBinaryWrappers/brotli_jll.jl",
+    "JuliaBinaryWrappers/Glib_jll.jl",
     "JuliaBinaryWrappers/Libffi_jll.jl",
     "KSXGitHub/aur-packages-builder-1",
     "KSXGitHub/aur-packages-builder-2",

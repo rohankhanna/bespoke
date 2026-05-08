@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 182,
-    "concepts": 188,
-    "observations": 189,
-    "repos": 41,
-    "terms": 184
+    "components": 194,
+    "concepts": 200,
+    "observations": 201,
+    "repos": 44,
+    "terms": 195
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -32,7 +32,9 @@
     "facebookresearch/habitat-sim",
     "flashlight/flashlight",
     "google/snappy",
+    "gperftools/gperftools",
     "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+    "hku-mars/FAST-LIVO2",
     "hpjansson/chafa",
     "icecc/icecream",
     "JoeDog/siege",
@@ -49,6 +51,7 @@
     "pramsey/pgsql-http",
     "RobertBeckebans/RBDOOM-3-BFG",
     "svenstaro/rofi-calc",
+    "TheAssassin/AppImageLauncher",
     "tzapu/WiFiManager",
     "UB-Mannheim/tesseract",
     "ulfjack/ryu",

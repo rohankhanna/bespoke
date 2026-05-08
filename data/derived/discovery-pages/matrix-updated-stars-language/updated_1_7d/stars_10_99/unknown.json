@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 7,
-    "terms": 26
+    "components": 12,
+    "concepts": 24,
+    "observations": 24,
+    "repos": 6,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "Ayaginu-Sue/Astalia",
     "cbuijs/hagezi",
-    "filecoin-project/Allocator-Registry",
     "microsoft/microsoft-foundry-for-vscode",
     "NightWatcher314/zotero-pdf2zh-server",
     "sakib-m/Pi-hole-Torrent-Blocklist",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 235
-- terms: 404
+- repos: 237
+- terms: 406
 - components: 118
-- concepts: 404
-- observations: 405
+- concepts: 406
+- observations: 407
 
 ## Static behavior
 
@@ -138,7 +138,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [taichi-dev/awesome-taichi](https://github.com/taichi-dev/awesome-taichi) | 677 | 2024-06-13T10:21:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [SkyworkAI/Skywork-MoE](https://github.com/SkyworkAI/Skywork-MoE) | 139 | 2024-06-12T03:42:15Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [github/MVG](https://github.com/github/MVG) | 408 | 2024-06-06T09:18:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [nushu-script/Nyushu](https://github.com/nushu-script/Nyushu) | 259 | 2024-06-06T09:10:29Z | Unknown | Unknown | 7 | 0 | 7 | 7 |
+| [nushu-script/Nyushu](https://github.com/nushu-script/Nyushu) | 261 | 2024-06-06T09:10:29Z | Unknown | Unknown | 7 | 0 | 7 | 7 |
 | [PlexPt/chatgpt-corpus](https://github.com/PlexPt/chatgpt-corpus) | 960 | 2024-05-15T13:06:46Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [chainer-community/awesome-chainer](https://github.com/chainer-community/awesome-chainer) | 135 | 2024-05-11T07:48:30Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ichitenfont/inheritedglyphs](https://github.com/ichitenfont/inheritedglyphs) | 298 | 2024-05-08T21:13:28Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
@@ -183,6 +183,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nim-lang/RFCs](https://github.com/nim-lang/RFCs) | 141 | 2023-06-20T14:09:16Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [awsdocs/aws-sam-developer-guide](https://github.com/awsdocs/aws-sam-developer-guide) | 182 | 2023-06-15T23:21:51Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [unitycontainer/container](https://github.com/unitycontainer/container) | 132 | 2023-06-15T22:13:43Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [saiarcot895/chromium-ubuntu-build](https://github.com/saiarcot895/chromium-ubuntu-build) | 139 | 2023-06-15T16:01:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Instrument/instrument-sans](https://github.com/Instrument/instrument-sans) | 303 | 2023-06-14T13:12:10Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [microsoft/vs-tools-for-ai](https://github.com/microsoft/vs-tools-for-ai) | 359 | 2023-06-12T20:27:14Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [mourner/projects](https://github.com/mourner/projects) | 475 | 2023-05-26T10:40:13Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
@@ -201,6 +202,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jbenet/random-ideas](https://github.com/jbenet/random-ideas) | 328 | 2023-03-05T21:15:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [mayhemantt/mayhemantt](https://github.com/mayhemantt/mayhemantt) | 265 | 2023-03-02T09:36:20Z | Unknown | Unknown | 14 | 0 | 14 | 14 |
 | [haofanwang/T2I-Adapter-for-Diffusers](https://github.com/haofanwang/T2I-Adapter-for-Diffusers) | 137 | 2023-02-22T09:04:46Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
+| [IdreesInc/Minecraft-Font](https://github.com/IdreesInc/Minecraft-Font) | 432 | 2023-02-12T00:07:33Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [ZHKKKe/PPM](https://github.com/ZHKKKe/PPM) | 102 | 2023-02-01T08:23:56Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [DS4SD/DocLayNet](https://github.com/DS4SD/DocLayNet) | 431 | 2023-02-01T06:44:02Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [Buernia/Tiejili](https://github.com/Buernia/Tiejili) | 726 | 2023-01-31T18:42:56Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
@@ -329,6 +331,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mala-lab/ADBenchmarks-anomaly-detection-datasets](https://github.com/mala-lab/ADBenchmarks-anomaly-detection-datasets) | 438 | 2025-10-01T13:16:29Z | Unknown | Model/data | 12 | 0 | 12 | 12 |
 | [facebookresearch/MovieGenBench](https://github.com/facebookresearch/MovieGenBench) | 437 | 2025-03-08T07:58:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [babel/proposals](https://github.com/babel/proposals) | 436 | 2022-01-18T09:10:47Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [IdreesInc/Minecraft-Font](https://github.com/IdreesInc/Minecraft-Font) | 432 | 2023-02-12T00:07:33Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [yarnpkg/rfcs](https://github.com/yarnpkg/rfcs) | 431 | 2024-01-06T17:52:20Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [DS4SD/DocLayNet](https://github.com/DS4SD/DocLayNet) | 431 | 2023-02-01T06:44:02Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [mannaandpoem/OpenManus](https://github.com/mannaandpoem/OpenManus) | 427 | 2025-06-21T07:39:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -395,8 +398,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nicolas-chaulet/torch-points3d](https://github.com/nicolas-chaulet/torch-points3d) | 266 | 2021-12-10T20:17:18Z | Unknown | Infrastructure/tooling | 3 | 12 | 3 | 3 |
 | [mayhemantt/mayhemantt](https://github.com/mayhemantt/mayhemantt) | 265 | 2023-03-02T09:36:20Z | Unknown | Unknown | 14 | 0 | 14 | 14 |
 | [the-guild-org/Stack](https://github.com/the-guild-org/Stack) | 263 | 2022-08-11T11:53:52Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [nushu-script/Nyushu](https://github.com/nushu-script/Nyushu) | 261 | 2024-06-06T09:10:29Z | Unknown | Unknown | 7 | 0 | 7 | 7 |
 | [YuzukiHD/YuzukiChameleon](https://github.com/YuzukiHD/YuzukiChameleon) | 260 | 2024-06-16T11:51:02Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [nushu-script/Nyushu](https://github.com/nushu-script/Nyushu) | 259 | 2024-06-06T09:10:29Z | Unknown | Unknown | 7 | 0 | 7 | 7 |
 | [microsoft/vscode-discussions](https://github.com/microsoft/vscode-discussions) | 255 | 2024-01-27T00:46:19Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [dwyl/home](https://github.com/dwyl/home) | 253 | 2024-08-05T22:59:35Z | Unknown | Unknown | 8 | 0 | 8 | 8 |
 | [helm/hub](https://github.com/helm/hub) | 252 | 2021-07-01T20:07:44Z | Unknown | Infrastructure/tooling | 2 | 1 | 2 | 2 |
@@ -457,6 +460,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [flashbots/mev-share](https://github.com/flashbots/mev-share) | 142 | 2023-07-14T08:23:10Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [nim-lang/RFCs](https://github.com/nim-lang/RFCs) | 141 | 2023-06-20T14:09:16Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [SkyworkAI/Skywork-MoE](https://github.com/SkyworkAI/Skywork-MoE) | 139 | 2024-06-12T03:42:15Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
+| [saiarcot895/chromium-ubuntu-build](https://github.com/saiarcot895/chromium-ubuntu-build) | 139 | 2023-06-15T16:01:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [cooelf/PaperWritingTips](https://github.com/cooelf/PaperWritingTips) | 139 | 2021-11-04T06:04:19Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [haofanwang/T2I-Adapter-for-Diffusers](https://github.com/haofanwang/T2I-Adapter-for-Diffusers) | 137 | 2023-02-22T09:04:46Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [NVlabs/stylegan3-detector](https://github.com/NVlabs/stylegan3-detector) | 137 | 2021-10-26T21:39:55Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

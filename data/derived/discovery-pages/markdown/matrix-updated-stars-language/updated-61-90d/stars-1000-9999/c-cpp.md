@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 41
-- terms: 184
-- components: 182
-- concepts: 188
-- observations: 189
+- repos: 44
+- terms: 195
+- components: 194
+- concepts: 200
+- observations: 201
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [TheAssassin/AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher) | 7935 | 2026-03-09T04:21:55Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [gperftools/gperftools](https://github.com/gperftools/gperftools) | 8942 | 2026-03-08T17:06:07Z | C/C++ | Infrastructure/tooling | 1 | 8 | 1 | 1 |
+| [hku-mars/FAST-LIVO2](https://github.com/hku-mars/FAST-LIVO2) | 3999 | 2026-03-08T15:40:36Z | C/C++ | Unknown | 9 | 0 | 10 | 10 |
 | [wang-xinyu/tensorrtx](https://github.com/wang-xinyu/tensorrtx) | 7755 | 2026-03-07T10:45:14Z | C/C++ | Infrastructure/tooling | 20 | 3 | 20 | 20 |
 | [arrayfire/arrayfire](https://github.com/arrayfire/arrayfire) | 4882 | 2026-03-07T03:06:52Z | C/C++ | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [google/snappy](https://github.com/google/snappy) | 6562 | 2026-03-06T22:30:42Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -59,7 +62,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [brandur/redis-cell](https://github.com/brandur/redis-cell) | 1243 | 2026-02-14T08:31:37Z | C/C++ | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [adafruit/Adafruit_NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel) | 3370 | 2026-02-11T17:55:35Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [JoeDog/siege](https://github.com/JoeDog/siege) | 6195 | 2026-02-11T16:02:32Z | C/C++ | Infrastructure/tooling | 0 | 0 | 0 | 0 |
-| [cocos/cocos-engine](https://github.com/cocos/cocos-engine) | 9567 | 2026-02-11T12:59:32Z | C/C++ | Infrastructure/tooling | 14 | 52 | 14 | 14 |
+| [cocos/cocos-engine](https://github.com/cocos/cocos-engine) | 9570 | 2026-02-11T12:59:32Z | C/C++ | Infrastructure/tooling | 14 | 52 | 14 | 14 |
 | [AdAway/AdAway](https://github.com/AdAway/AdAway) | 9044 | 2026-02-10T20:16:36Z | C/C++ | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [RobertBeckebans/RBDOOM-3-BFG](https://github.com/RobertBeckebans/RBDOOM-3-BFG) | 1785 | 2026-02-10T11:30:41Z | C/C++ | Unknown | 7 | 0 | 8 | 8 |
 | [VirusTotal/yara](https://github.com/VirusTotal/yara) | 9561 | 2026-02-10T09:51:15Z | C/C++ | Infrastructure/tooling | 3 | 6 | 3 | 3 |
@@ -72,9 +75,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [cocos/cocos-engine](https://github.com/cocos/cocos-engine) | 9567 | 2026-02-11T12:59:32Z | C/C++ | Infrastructure/tooling | 14 | 52 | 14 | 14 |
+| [cocos/cocos-engine](https://github.com/cocos/cocos-engine) | 9570 | 2026-02-11T12:59:32Z | C/C++ | Infrastructure/tooling | 14 | 52 | 14 | 14 |
 | [VirusTotal/yara](https://github.com/VirusTotal/yara) | 9561 | 2026-02-10T09:51:15Z | C/C++ | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [AdAway/AdAway](https://github.com/AdAway/AdAway) | 9044 | 2026-02-10T20:16:36Z | C/C++ | Infrastructure/tooling | 8 | 10 | 8 | 8 |
+| [gperftools/gperftools](https://github.com/gperftools/gperftools) | 8942 | 2026-03-08T17:06:07Z | C/C++ | Infrastructure/tooling | 1 | 8 | 1 | 1 |
+| [TheAssassin/AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher) | 7935 | 2026-03-09T04:21:55Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [wang-xinyu/tensorrtx](https://github.com/wang-xinyu/tensorrtx) | 7755 | 2026-03-07T10:45:14Z | C/C++ | Infrastructure/tooling | 20 | 3 | 20 | 20 |
 | [tzapu/WiFiManager](https://github.com/tzapu/WiFiManager) | 7164 | 2026-02-25T01:11:14Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [bblanchon/ArduinoJson](https://github.com/bblanchon/ArduinoJson) | 7147 | 2026-03-03T17:03:44Z | C/C++ | Infrastructure/tooling | 9 | 10 | 10 | 10 |
@@ -87,6 +92,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Chlumsky/msdfgen](https://github.com/Chlumsky/msdfgen) | 4762 | 2026-03-05T16:22:41Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [hpjansson/chafa](https://github.com/hpjansson/chafa) | 4628 | 2026-02-25T16:05:51Z | C/C++ | CLI | 13 | 1 | 13 | 13 |
 | [UB-Mannheim/tesseract](https://github.com/UB-Mannheim/tesseract) | 4256 | 2026-02-20T12:13:37Z | C/C++ | Infrastructure/tooling | 14 | 9 | 14 | 14 |
+| [hku-mars/FAST-LIVO2](https://github.com/hku-mars/FAST-LIVO2) | 3999 | 2026-03-08T15:40:36Z | C/C++ | Unknown | 9 | 0 | 10 | 10 |
 | [2ndalpha/gasmask](https://github.com/2ndalpha/gasmask) | 3835 | 2026-03-01T18:09:56Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [facebookresearch/habitat-sim](https://github.com/facebookresearch/habitat-sim) | 3647 | 2026-02-24T01:27:10Z | C/C++ | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [espressif/ESP8266_RTOS_SDK](https://github.com/espressif/ESP8266_RTOS_SDK) | 3540 | 2026-02-10T01:21:01Z | C/C++ | Infrastructure/tooling | 3 | 2 | 3 | 3 |

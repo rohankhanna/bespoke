@@ -3,7 +3,7 @@
     "components": 87,
     "concepts": 59,
     "observations": 59,
-    "repos": 20,
+    "repos": 21,
     "terms": 59
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "acw/simple_asn1",
     "alloy-rs/op-alloy",
@@ -33,6 +33,7 @@
     "libp2p/if-watch",
     "nebelgrau77/airsniffer-esp32c6",
     "OneSignal/serde-magnus",
+    "raymondshe/matchengine-raft",
     "sigp/ethereum_hashing"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 7,
-    "terms": 24
+    "components": 14,
+    "concepts": 12,
+    "observations": 12,
+    "repos": 4,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "Azure-Samples/langchain-agent-python",
     "flexcyon/docs-en",
-    "mozilla-ai/otari",
     "PrimeIntellect-ai/renderers",
-    "triton-inference-server/TensorRT-LLM",
-    "usdot-fhwa-stol/carma-config",
-    "usdot-fhwa-stol/cdasim-config"
+    "triton-inference-server/TensorRT-LLM"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 309,
-    "concepts": 56,
-    "observations": 57,
-    "repos": 7,
-    "terms": 56
+    "components": 316,
+    "concepts": 52,
+    "observations": 52,
+    "repos": 8,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
-    "benchmark-action/github-action-benchmark",
-    "conventional-changelog/conventional-changelog",
+    "apollographql/apollo-tooling",
     "electron/rebuild",
+    "google-gemini/live-api-web-console",
     "podman-desktop/podman-desktop",
+    "safe-fndn/safe-smart-account",
     "TanStack/form",
-    "typescript-language-server/typescript-language-server",
-    "vuejs/devtools"
+    "vuejs/devtools",
+    "vuejs/language-tools"
   ]
 }

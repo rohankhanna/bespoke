@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Java
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 66
+- repos: 67
 - terms: 171
 - components: 87
 - concepts: 171
@@ -69,6 +69,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Byte-Lab/JCoz](https://github.com/Byte-Lab/JCoz) | 281 | 2024-03-07T18:25:45Z | Java | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [brettwooldridge/HikariCP-benchmark](https://github.com/brettwooldridge/HikariCP-benchmark) | 193 | 2024-02-22T07:00:56Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [alibaba/spring-context-support](https://github.com/alibaba/spring-context-support) | 156 | 2024-02-02T21:01:11Z | Java | Unknown | 5 | 0 | 5 | 5 |
+| [WisdomShell/codeshell-intellij](https://github.com/WisdomShell/codeshell-intellij) | 182 | 2023-12-28T08:00:11Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [iTXTech/mirai-console-loader](https://github.com/iTXTech/mirai-console-loader) | 745 | 2023-12-24T05:39:40Z | Java | Unknown | 1 | 0 | 1 | 1 |
 | [ScaCap/spring-auto-restdocs](https://github.com/ScaCap/spring-auto-restdocs) | 312 | 2023-12-19T14:18:15Z | Java | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [magro/memcached-session-manager](https://github.com/magro/memcached-session-manager) | 756 | 2023-12-17T15:47:24Z | Java | Unknown | 0 | 0 | 0 | 0 |
@@ -145,6 +146,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [brettwooldridge/HikariCP-benchmark](https://github.com/brettwooldridge/HikariCP-benchmark) | 193 | 2024-02-22T07:00:56Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [tushartushar/DesigniteJava](https://github.com/tushartushar/DesigniteJava) | 191 | 2025-03-21T21:41:00Z | Java | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [microsoft/botbuilder-java](https://github.com/microsoft/botbuilder-java) | 189 | 2023-11-22T16:25:40Z | Java | Infrastructure/tooling | 5 | 3 | 5 | 5 |
+| [WisdomShell/codeshell-intellij](https://github.com/WisdomShell/codeshell-intellij) | 182 | 2023-12-28T08:00:11Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [rpcx-ecosystem/rpcx-benchmark](https://github.com/rpcx-ecosystem/rpcx-benchmark) | 180 | 2024-09-20T02:51:11Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [apache/incubator-tuweni](https://github.com/apache/incubator-tuweni) | 175 | 2023-07-21T03:00:26Z | Java | Infrastructure/tooling | 15 | 9 | 15 | 15 |
 | [netplex/json-smart-v2](https://github.com/netplex/json-smart-v2) | 166 | 2025-11-01T00:01:33Z | Java | Infrastructure/tooling | 3 | 7 | 3 | 3 |

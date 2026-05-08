@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 398
-- terms: 486
-- components: 1137
-- concepts: 486
-- observations: 488
+- repos: 402
+- terms: 488
+- components: 1140
+- concepts: 488
+- observations: 490
 
 ## Static behavior
 
@@ -25,6 +25,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/OR-Models-With-Tools-0811](https://github.com/danielrosehill/OR-Models-With-Tools-0811) | 0 | 2025-11-08T23:07:21Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [benkasminbullock/gzip-libdeflate](https://github.com/benkasminbullock/gzip-libdeflate) | 0 | 2025-11-05T11:35:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/GEOS_jll.jl](https://github.com/JuliaBinaryWrappers/GEOS_jll.jl) | 0 | 2025-11-04T00:47:25Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [kivikakk/cmark-gfm](https://github.com/kivikakk/cmark-gfm) | 0 | 2025-11-03T01:50:46Z | Unknown | Infrastructure/tooling | 2 | 6 | 2 | 2 |
@@ -130,7 +131,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [clojurephant/sample-clojurephant-clj-lib](https://github.com/clojurephant/sample-clojurephant-clj-lib) | 0 | 2025-04-14T00:05:49Z | Other | Library | 3 | 0 | 3 | 3 |
 | [ntheanh201/hyper-mcp-release-monitor-id-tool](https://github.com/ntheanh201/hyper-mcp-release-monitor-id-tool) | 0 | 2025-04-10T23:48:07Z | Rust | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [wesfloyd/avs-context-prompt](https://github.com/wesfloyd/avs-context-prompt) | 0 | 2025-04-09T19:13:31Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Careers-Utilities-System-Prompts](https://github.com/danielrosehill/Careers-Utilities-System-Prompts) | 0 | 2025-04-06T15:43:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/FriBidi_jll.jl](https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl) | 0 | 2025-04-04T22:49:01Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Remote-Jobs-Research-Agent](https://github.com/danielrosehill/Remote-Jobs-Research-Agent) | 0 | 2025-04-04T17:10:15Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [cmacdonald/colbert](https://github.com/cmacdonald/ColBERT) | 0 | 2025-04-03T17:06:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [abiondevelopment/external-dns-webhook-abion](https://github.com/abiondevelopment/external-dns-webhook-abion) | 0 | 2025-03-31T11:40:01Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/snappy_jll.jl](https://github.com/JuliaBinaryWrappers/snappy_jll.jl) | 0 | 2025-03-27T23:51:36Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -152,6 +155,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [abap2ui5/abap2ui5-build](https://github.com/abap2UI5/abap2UI5-build) | 0 | 2025-03-04T15:02:20Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [MindWorkAI/Planning](https://github.com/MindWorkAI/Planning) | 0 | 2025-03-02T19:20:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [rudionrails/yell](https://github.com/rudionrails/yell) | 0 | 2025-02-26T21:13:48Z | Other | Library | 0 | 0 | 0 | 0 |
+| [danielrosehill/STT-Price-Points-260225](https://github.com/danielrosehill/STT-Price-Points-260225) | 0 | 2025-02-26T15:44:59Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [yinbow/CamoFormer-Jittor](https://github.com/yinbow/CamoFormer-Jittor) | 0 | 2025-02-26T08:54:38Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [retracedhq/docs](https://github.com/retracedhq/docs) | 0 | 2025-02-21T16:14:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [datafuse-extras/serde-bridge](https://github.com/datafuse-extras/serde-bridge) | 0 | 2025-02-18T10:42:56Z | Unknown | Infrastructure/tooling | 0 | 3 | 0 | 0 |
@@ -428,6 +432,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/OR-Models-With-Tools-0811](https://github.com/danielrosehill/OR-Models-With-Tools-0811) | 0 | 2025-11-08T23:07:21Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [benkasminbullock/gzip-libdeflate](https://github.com/benkasminbullock/gzip-libdeflate) | 0 | 2025-11-05T11:35:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/GEOS_jll.jl](https://github.com/JuliaBinaryWrappers/GEOS_jll.jl) | 0 | 2025-11-04T00:47:25Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [kivikakk/cmark-gfm](https://github.com/kivikakk/cmark-gfm) | 0 | 2025-11-03T01:50:46Z | Unknown | Infrastructure/tooling | 2 | 6 | 2 | 2 |
@@ -533,7 +538,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [clojurephant/sample-clojurephant-clj-lib](https://github.com/clojurephant/sample-clojurephant-clj-lib) | 0 | 2025-04-14T00:05:49Z | Other | Library | 3 | 0 | 3 | 3 |
 | [ntheanh201/hyper-mcp-release-monitor-id-tool](https://github.com/ntheanh201/hyper-mcp-release-monitor-id-tool) | 0 | 2025-04-10T23:48:07Z | Rust | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [wesfloyd/avs-context-prompt](https://github.com/wesfloyd/avs-context-prompt) | 0 | 2025-04-09T19:13:31Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Careers-Utilities-System-Prompts](https://github.com/danielrosehill/Careers-Utilities-System-Prompts) | 0 | 2025-04-06T15:43:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/FriBidi_jll.jl](https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl) | 0 | 2025-04-04T22:49:01Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Remote-Jobs-Research-Agent](https://github.com/danielrosehill/Remote-Jobs-Research-Agent) | 0 | 2025-04-04T17:10:15Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [cmacdonald/colbert](https://github.com/cmacdonald/ColBERT) | 0 | 2025-04-03T17:06:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [abiondevelopment/external-dns-webhook-abion](https://github.com/abiondevelopment/external-dns-webhook-abion) | 0 | 2025-03-31T11:40:01Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/snappy_jll.jl](https://github.com/JuliaBinaryWrappers/snappy_jll.jl) | 0 | 2025-03-27T23:51:36Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -555,6 +562,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [abap2ui5/abap2ui5-build](https://github.com/abap2UI5/abap2UI5-build) | 0 | 2025-03-04T15:02:20Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [MindWorkAI/Planning](https://github.com/MindWorkAI/Planning) | 0 | 2025-03-02T19:20:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [rudionrails/yell](https://github.com/rudionrails/yell) | 0 | 2025-02-26T21:13:48Z | Other | Library | 0 | 0 | 0 | 0 |
+| [danielrosehill/STT-Price-Points-260225](https://github.com/danielrosehill/STT-Price-Points-260225) | 0 | 2025-02-26T15:44:59Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [yinbow/CamoFormer-Jittor](https://github.com/yinbow/CamoFormer-Jittor) | 0 | 2025-02-26T08:54:38Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [retracedhq/docs](https://github.com/retracedhq/docs) | 0 | 2025-02-21T16:14:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [datafuse-extras/serde-bridge](https://github.com/datafuse-extras/serde-bridge) | 0 | 2025-02-18T10:42:56Z | Unknown | Infrastructure/tooling | 0 | 3 | 0 | 0 |

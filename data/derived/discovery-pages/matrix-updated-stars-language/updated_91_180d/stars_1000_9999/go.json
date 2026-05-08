@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 138,
-    "concepts": 171,
-    "observations": 171,
+    "components": 142,
+    "concepts": 162,
+    "observations": 162,
     "repos": 30,
-    "terms": 171
+    "terms": 162
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "99designs/aws-vault",
     "aarondl/authboss",
@@ -31,13 +31,13 @@
     "favadi/protoc-go-inject-tag",
     "gin-gonic/contrib",
     "github/git-sizer",
-    "h2non/imaginary",
     "instrumenta/kubeval",
     "jhump/protoreflect",
     "jpillora/cloud-torrent",
     "jtblin/kube2iam",
     "muesli/termenv",
     "protocolbuffers/protobuf-go",
+    "restic/rest-server",
     "rs/cors",
     "shazow/ssh-chat",
     "tenable/terrascan",

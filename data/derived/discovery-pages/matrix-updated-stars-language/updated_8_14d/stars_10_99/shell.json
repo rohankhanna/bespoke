@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 88,
-    "concepts": 76,
-    "observations": 76,
-    "repos": 18,
-    "terms": 74
+    "components": 76,
+    "concepts": 82,
+    "observations": 82,
+    "repos": 20,
+    "terms": 80
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,26 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "acmesh-official/acmetest",
+    "Alexpux/MINGW-packages",
     "Azure/aaz",
-    "bitnami/vulndb",
     "bufbuild/homebrew-buf",
+    "cilium/community",
+    "cldwalker/dotfiles",
     "cloudfoundry/cf-deployment-concourse-tasks",
-    "crazy-max/goxx",
-    "dependabot/smoke-tests",
     "dotenvx/dotenvx.sh",
     "electerm/electerm-web-docker",
     "envoyproxy/examples",
     "helidon-io/helidon-examples",
+    "heroku/heroku-buildpack-gradle",
     "honwen/openwrt-dnsmasq-extra",
     "pkgxdev/mash",
     "postmodern/ruby-versions",
     "quarkusio/quarkus-ecosystem-ci",
     "reviewdog/action-depup",
+    "rocq-prover/docker-opam-action",
     "tinted-theming/tinted-shell",
     "tinted-theming/tinted-terminal"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 220,
-    "concepts": 68,
-    "observations": 68,
-    "repos": 19,
-    "terms": 68
+    "components": 209,
+    "concepts": 62,
+    "observations": 62,
+    "repos": 18,
+    "terms": 62
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "ably-labs/realtime-multiplayer-space-invaders",
     "apostrophecms/apostrophe-astro",
@@ -31,7 +31,6 @@
     "L2jLiga/grunt-webfonts",
     "mongodb-js/zstd",
     "OpenHands/openhands-chrome-extension",
-    "quarkiverse/quarkiverse",
     "tc39/proposal-import-bytes"
   ]
 }

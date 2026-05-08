@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 62
-- terms: 267
-- components: 1553
-- concepts: 235
-- observations: 238
+- repos: 69
+- terms: 311
+- components: 1894
+- concepts: 279
+- observations: 282
 
 ## Static behavior
 
@@ -26,6 +26,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [gridatek/semantic-icons](https://github.com/gridatek/semantic-icons) | 20 | 2026-04-24T04:56:37Z | TypeScript | Infrastructure/tooling | 9 | 105 | 9 | 9 |
+| [hairyf/genapi](https://github.com/hairyf/genapi) | 43 | 2026-04-24T02:06:11Z | TypeScript | Infrastructure/tooling | 15 | 23 | 15 | 15 |
+| [grafana/profiles-drilldown](https://github.com/grafana/profiles-drilldown) | 40 | 2026-04-24T00:48:56Z | TypeScript | Infrastructure/tooling | 5 | 104 | 5 | 5 |
+| [dannyhw/expo-storybook-starter](https://github.com/dannyhw/expo-storybook-starter) | 73 | 2026-04-23T23:19:31Z | TypeScript | Web app | 0 | 43 | 0 | 0 |
+| [mcous/vitest-when](https://github.com/mcous/vitest-when) | 50 | 2026-04-23T20:57:01Z | TypeScript | Infrastructure/tooling | 0 | 19 | 0 | 0 |
+| [octokit/webhooks-methods.js](https://github.com/octokit/webhooks-methods.js) | 25 | 2026-04-23T13:28:10Z | TypeScript | Infrastructure/tooling | 8 | 18 | 8 | 8 |
+| [celo-org/social-connect](https://github.com/celo-org/social-connect) | 12 | 2026-04-23T12:58:46Z | TypeScript | Infrastructure/tooling | 7 | 29 | 7 | 7 |
 | [DataDog/opentelemetry-demo](https://github.com/DataDog/opentelemetry-demo) | 10 | 2026-04-23T09:32:22Z | TypeScript | Infrastructure/tooling | 6 | 17 | 6 | 6 |
 | [Azure/powershell](https://github.com/Azure/powershell) | 74 | 2026-04-23T01:49:21Z | TypeScript | Infrastructure/tooling | 2 | 21 | 2 | 2 |
 | [Kastalien-Research/thoughtbox](https://github.com/Kastalien-Research/thoughtbox) | 56 | 2026-04-22T17:37:04Z | TypeScript | Infrastructure/tooling | 13 | 49 | 13 | 14 |
@@ -108,6 +115,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apollographql/vscode-graphql](https://github.com/apollographql/vscode-graphql) | 76 | 2026-04-22T12:01:28Z | TypeScript | Infrastructure/tooling | 6 | 71 | 6 | 6 |
 | [bufbuild/protovalidate-es](https://github.com/bufbuild/protovalidate-es) | 76 | 2026-04-22T11:34:22Z | TypeScript | Infrastructure/tooling | 5 | 15 | 5 | 5 |
 | [Azure/powershell](https://github.com/Azure/powershell) | 74 | 2026-04-23T01:49:21Z | TypeScript | Infrastructure/tooling | 2 | 21 | 2 | 2 |
+| [dannyhw/expo-storybook-starter](https://github.com/dannyhw/expo-storybook-starter) | 73 | 2026-04-23T23:19:31Z | TypeScript | Web app | 0 | 43 | 0 | 0 |
 | [ylsssq926/relic.skill](https://github.com/Ylsssq926/relic.skill) | 73 | 2026-04-17T23:16:15Z | TypeScript | CLI | 1 | 4 | 0 | 0 |
 | [pinecone-io/pinecone-mcp](https://github.com/pinecone-io/pinecone-mcp) | 65 | 2026-04-16T02:00:00Z | TypeScript | Infrastructure/tooling | 1 | 13 | 1 | 1 |
 | [fannheyward/coc-xml](https://github.com/fannheyward/coc-xml) | 64 | 2026-04-22T10:25:26Z | TypeScript | Infrastructure/tooling | 4 | 20 | 4 | 4 |
@@ -120,11 +128,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [adyscorpius/logseq-jira](https://github.com/adyscorpius/logseq-jira) | 56 | 2026-04-20T00:59:32Z | TypeScript | Infrastructure/tooling | 3 | 32 | 3 | 3 |
 | [favware/cliff-jumper](https://github.com/favware/cliff-jumper) | 54 | 2026-04-19T13:13:34Z | TypeScript | CLI | 13 | 37 | 13 | 13 |
 | [patrickkabwe/create-nitro-module](https://github.com/patrickkabwe/create-nitro-module) | 51 | 2026-04-20T08:04:51Z | TypeScript | CLI | 2 | 31 | 2 | 2 |
+| [mcous/vitest-when](https://github.com/mcous/vitest-when) | 50 | 2026-04-23T20:57:01Z | TypeScript | Infrastructure/tooling | 0 | 19 | 0 | 0 |
 | [cargo-bins/release-pr](https://github.com/cargo-bins/release-pr) | 47 | 2026-04-21T11:37:59Z | TypeScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
 | [ElementsProject/cln-application](https://github.com/ElementsProject/cln-application) | 47 | 2026-04-08T21:30:51Z | TypeScript | Infrastructure/tooling | 4 | 8 | 4 | 4 |
+| [hairyf/genapi](https://github.com/hairyf/genapi) | 43 | 2026-04-24T02:06:11Z | TypeScript | Infrastructure/tooling | 15 | 23 | 15 | 15 |
 | [agents-squads/squads-cli](https://github.com/agents-squads/squads-cli) | 43 | 2026-04-14T17:49:41Z | TypeScript | CLI | 17 | 29 | 17 | 18 |
 | [lobehub/lobe-lint](https://github.com/lobehub/lobe-lint) | 41 | 2026-04-15T10:31:46Z | TypeScript | Infrastructure/tooling | 7 | 20 | 0 | 0 |
 | [buddingnewinsights/proxypal](https://github.com/buddingnewinsights/proxypal) | 41 | 2026-04-10T18:56:54Z | TypeScript | Infrastructure/tooling | 3 | 39 | 3 | 3 |
+| [grafana/profiles-drilldown](https://github.com/grafana/profiles-drilldown) | 40 | 2026-04-24T00:48:56Z | TypeScript | Infrastructure/tooling | 5 | 104 | 5 | 5 |
 | [labring/fastgpt-plugin](https://github.com/labring/fastgpt-plugin) | 39 | 2026-04-16T07:53:33Z | TypeScript | Infrastructure/tooling | 5 | 33 | 5 | 5 |
 | [celo-org/developer-tooling](https://github.com/celo-org/developer-tooling) | 38 | 2026-04-21T08:38:29Z | TypeScript | CLI | 7 | 34 | 7 | 7 |
 | [overseedai/viwo](https://github.com/OverseedAI/viwo) | 34 | 2026-04-19T13:30:30Z | TypeScript | Infrastructure/tooling | 4 | 20 | 0 | 0 |
@@ -134,10 +145,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [almogdepaz/wolfpack](https://github.com/almogdepaz/wolfpack) | 27 | 2026-04-19T10:41:57Z | TypeScript | CLI | 7 | 10 | 7 | 7 |
 | [jerseycheese/narraitor](https://github.com/jerseycheese/Narraitor) | 27 | 2026-04-11T13:45:12Z | TypeScript | Infrastructure/tooling | 4 | 78 | 0 | 0 |
 | [ipfs/ipld-explorer-components](https://github.com/ipfs/ipld-explorer-components) | 26 | 2026-04-11T17:23:43Z | TypeScript | Infrastructure/tooling | 6 | 81 | 6 | 6 |
+| [octokit/webhooks-methods.js](https://github.com/octokit/webhooks-methods.js) | 25 | 2026-04-23T13:28:10Z | TypeScript | Infrastructure/tooling | 8 | 18 | 8 | 8 |
 | [bolasblack/shadow-cljs-vite-plugin](https://github.com/bolasblack/shadow-cljs-vite-plugin) | 25 | 2026-04-20T10:05:24Z | TypeScript | Infrastructure/tooling | 1 | 15 | 1 | 1 |
 | [ngyewch/smile-js](https://github.com/ngyewch/smile-js) | 25 | 2026-04-13T07:33:58Z | TypeScript | Infrastructure/tooling | 1 | 22 | 1 | 1 |
 | [awslabs/wdio-aws-device-farm-service](https://github.com/awslabs/wdio-aws-device-farm-service) | 25 | 2026-04-10T21:29:33Z | TypeScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
 | [ipikuka/remark-flexible-containers](https://github.com/ipikuka/remark-flexible-containers) | 23 | 2026-04-18T08:59:24Z | TypeScript | Infrastructure/tooling | 2 | 29 | 2 | 2 |
+| [gridatek/semantic-icons](https://github.com/gridatek/semantic-icons) | 20 | 2026-04-24T04:56:37Z | TypeScript | Infrastructure/tooling | 9 | 105 | 9 | 9 |
 | [vaultwarden/vw_web_builds](https://github.com/vaultwarden/vw_web_builds) | 20 | 2026-04-22T10:58:03Z | TypeScript | CLI | 2 | 0 | 2 | 2 |
 | [sgcarstrends/sgcarstrends](https://github.com/sgcarstrends/sgcarstrends) | 20 | 2026-04-15T13:15:05Z | TypeScript | Infrastructure/tooling | 9 | 30 | 0 | 0 |
 | [zhayujie/cow-skill-hub](https://github.com/zhayujie/cow-skill-hub) | 19 | 2026-04-12T09:23:38Z | TypeScript | Unknown | 5 | 8 | 5 | 5 |
@@ -147,6 +160,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [GreptimeTeam/greptimedb-grafana-datasource](https://github.com/GreptimeTeam/greptimedb-grafana-datasource) | 17 | 2026-04-16T10:28:31Z | TypeScript | Infrastructure/tooling | 5 | 74 | 5 | 5 |
 | [ipikuka/rehype-highlight-code-lines](https://github.com/ipikuka/rehype-highlight-code-lines) | 15 | 2026-04-18T09:57:37Z | TypeScript | Infrastructure/tooling | 2 | 34 | 2 | 2 |
 | [electron-userland/electron-windows-msix](https://github.com/electron-userland/electron-windows-msix) | 14 | 2026-04-15T00:06:43Z | TypeScript | Infrastructure/tooling | 2 | 13 | 2 | 2 |
+| [celo-org/social-connect](https://github.com/celo-org/social-connect) | 12 | 2026-04-23T12:58:46Z | TypeScript | Infrastructure/tooling | 7 | 29 | 7 | 7 |
 | [Shougo/dpp-ext-installer](https://github.com/Shougo/dpp-ext-installer) | 12 | 2026-04-17T02:58:50Z | TypeScript | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [mdjastrzebski/test-renderer](https://github.com/mdjastrzebski/test-renderer) | 12 | 2026-04-16T21:50:21Z | TypeScript | Infrastructure/tooling | 4 | 20 | 4 | 4 |
 | [microsoft/vscode-js-debug-companion](https://github.com/microsoft/vscode-js-debug-companion) | 12 | 2026-04-08T14:56:59Z | TypeScript | Unknown | 0 | 20 | 0 | 0 |

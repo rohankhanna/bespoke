@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 105,
-    "concepts": 36,
-    "observations": 37,
-    "repos": 8,
-    "terms": 36
+    "components": 84,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 7,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
-    "aidenlab/hic-straw",
+    "aidenlab/juicebox.js",
     "apache/doris-opentelemetry-demo",
-    "coasys/ad4m",
     "hyparam/squirreling",
     "ideditor/schema-builder",
     "julia-actions/cache",

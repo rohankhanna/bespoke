@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · Other
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 48
-- terms: 75
-- components: 161
-- concepts: 75
-- observations: 75
+- repos: 52
+- terms: 97
+- components: 175
+- concepts: 97
+- observations: 97
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [b-data/jupyterlab-julia-docker-stack](https://github.com/b-data/jupyterlab-julia-docker-stack) | 9 | 2026-04-24T03:45:41Z | Other | Unknown | 16 | 0 | 16 | 16 |
+| [curiousdannii/emglken](https://github.com/curiousdannii/emglken) | 9 | 2026-04-24T02:34:56Z | Other | Infrastructure/tooling | 3 | 11 | 3 | 3 |
+| [enbop/fungi-app](https://github.com/enbop/fungi-app) | 3 | 2026-04-23T14:04:05Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [KhronosGroup/KTX-Software-CTS](https://github.com/KhronosGroup/KTX-Software-CTS) | 2 | 2026-04-23T13:17:03Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [conda-forge/croc-feedstock](https://github.com/conda-forge/croc-feedstock) | 1 | 2026-04-23T06:46:24Z | Other | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [jhugestar/jhugestar.github.io](https://github.com/jhugestar/jhugestar.github.io) | 3 | 2026-04-23T03:26:09Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [conda-forge/scikit-build-core-feedstock](https://github.com/conda-forge/scikit-build-core-feedstock) | 1 | 2026-04-23T00:36:17Z | Other | Infrastructure/tooling | 1 | 0 | 1 | 1 |
@@ -79,6 +83,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [b-data/jupyterlab-julia-docker-stack](https://github.com/b-data/jupyterlab-julia-docker-stack) | 9 | 2026-04-24T03:45:41Z | Other | Unknown | 16 | 0 | 16 | 16 |
+| [curiousdannii/emglken](https://github.com/curiousdannii/emglken) | 9 | 2026-04-24T02:34:56Z | Other | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [flagos-ai/flir](https://github.com/flagos-ai/flir) | 9 | 2026-04-21T01:25:02Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [JuliaCI/julia-buildkite](https://github.com/JuliaCI/julia-buildkite) | 9 | 2026-04-20T22:02:48Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [knopp/native_toolchain_ninja](https://github.com/knopp/native_toolchain_ninja) | 9 | 2026-04-15T15:59:33Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
@@ -108,10 +114,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [konnov/apalache-examples](https://github.com/konnov/apalache-examples) | 5 | 2026-04-09T07:44:09Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [actboy168/ltest](https://github.com/actboy168/ltest) | 4 | 2026-04-22T05:07:22Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [0xPolygonHermez/stark-recurser](https://github.com/0xPolygonHermez/stark-recurser) | 4 | 2026-04-16T08:32:28Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [enbop/fungi-app](https://github.com/enbop/fungi-app) | 3 | 2026-04-23T14:04:05Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [jhugestar/jhugestar.github.io](https://github.com/jhugestar/jhugestar.github.io) | 3 | 2026-04-23T03:26:09Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [wavelens/gobgp.nix](https://github.com/wavelens/gobgp.nix) | 3 | 2026-04-21T05:52:59Z | Other | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [mitchuski/agentprivacy-docs](https://github.com/mitchuski/agentprivacy-docs) | 3 | 2026-04-16T15:26:35Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [diffblue/homebrew-cbmc](https://github.com/diffblue/homebrew-cbmc) | 3 | 2026-04-15T10:25:41Z | Other | Infrastructure/tooling | 3 | 8 | 3 | 3 |
+| [KhronosGroup/KTX-Software-CTS](https://github.com/KhronosGroup/KTX-Software-CTS) | 2 | 2026-04-23T13:17:03Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [CVEProject/cve-user-registry-client](https://github.com/CVEProject/cve-user-registry-client) | 2 | 2026-04-21T18:22:25Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [caronc/apprise-docs](https://github.com/caronc/apprise-docs) | 2 | 2026-04-21T02:08:52Z | Other | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [conda-forge/.cirun](https://github.com/conda-forge/.cirun) | 2 | 2026-04-20T18:39:59Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |

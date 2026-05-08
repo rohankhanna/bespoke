@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 172,
-    "concepts": 89,
-    "observations": 89,
-    "repos": 36,
-    "terms": 88
+    "components": 165,
+    "concepts": 84,
+    "observations": 84,
+    "repos": 34,
+    "terms": 83
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "abap2UI5-addons/layout-management",
     "ada-url/kotlin",
@@ -38,10 +38,8 @@
     "flagos-ai/llvm-project",
     "gmberton/gmberton.github.io",
     "hchiam/convenience",
-    "MarcCote/TextWorld",
     "microsoft/LinuxTracepoints-Net",
     "mpizenberg/elm-test-runner",
-    "nikitabobko/homebrew-tap",
     "objectbox/objectbox-swift-spm",
     "ptsochantaris/trailer-json",
     "PyThaiNLP/pythainlp-corpus",

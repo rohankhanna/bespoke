@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 73
-- terms: 475
-- components: 2339
-- concepts: 477
-- observations: 477
+- repos: 77
+- terms: 521
+- components: 2479
+- concepts: 524
+- observations: 524
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ipfs/ipfs-desktop](https://github.com/ipfs/ipfs-desktop) | 6525 | 2026-04-24T00:23:14Z | JavaScript | Infrastructure/tooling | 15 | 54 | 15 | 15 |
+| [expressjs/body-parser](https://github.com/expressjs/body-parser) | 5501 | 2026-04-23T23:40:39Z | JavaScript | Infrastructure/tooling | 8 | 29 | 9 | 9 |
+| [conventional-changelog/standard-version](https://github.com/conventional-changelog/standard-version) | 7963 | 2026-04-23T15:39:15Z | JavaScript | CLI | 10 | 31 | 10 | 10 |
+| [americanexpress/jest-image-snapshot](https://github.com/americanexpress/jest-image-snapshot) | 3909 | 2026-04-23T11:04:01Z | JavaScript | Infrastructure/tooling | 13 | 26 | 13 | 13 |
 | [minio/minio-js](https://github.com/minio/minio-js) | 1135 | 2026-04-23T07:18:08Z | JavaScript | CLI | 6 | 60 | 6 | 6 |
 | [apache/cordova-ios](https://github.com/apache/cordova-ios) | 2215 | 2026-04-23T05:13:16Z | JavaScript | Infrastructure/tooling | 10 | 27 | 10 | 10 |
 | [apache/cordova-android](https://github.com/apache/cordova-android) | 3779 | 2026-04-23T05:06:50Z | JavaScript | Infrastructure/tooling | 10 | 29 | 10 | 10 |
@@ -112,6 +116,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [piebald-ai/claude-code-system-prompts](https://github.com/Piebald-AI/claude-code-system-prompts) | 9112 | 2026-04-17T23:32:30Z | JavaScript | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [GoogleChrome/web-vitals](https://github.com/GoogleChrome/web-vitals) | 8483 | 2026-04-23T04:57:37Z | JavaScript | Infrastructure/tooling | 2 | 21 | 2 | 2 |
 | [grommet/grommet](https://github.com/grommet/grommet) | 8355 | 2026-04-22T15:23:34Z | JavaScript | Framework | 7 | 95 | 7 | 7 |
+| [conventional-changelog/standard-version](https://github.com/conventional-changelog/standard-version) | 7963 | 2026-04-23T15:39:15Z | JavaScript | CLI | 10 | 31 | 10 | 10 |
 | [codemirror/dev](https://github.com/codemirror/dev) | 7832 | 2026-04-15T10:24:43Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [hotoo/pinyin](https://github.com/hotoo/pinyin) | 7811 | 2026-04-09T15:33:21Z | JavaScript | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [sindresorhus/np](https://github.com/sindresorhus/np) | 7698 | 2026-04-20T12:11:49Z | JavaScript | CLI | 6 | 50 | 6 | 6 |
@@ -121,12 +126,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dequelabs/axe-core](https://github.com/dequelabs/axe-core) | 7078 | 2026-04-22T14:06:26Z | JavaScript | Infrastructure/tooling | 8 | 80 | 8 | 8 |
 | [ai/size-limit](https://github.com/ai/size-limit) | 6905 | 2026-04-13T19:45:44Z | JavaScript | Infrastructure/tooling | 2 | 27 | 2 | 2 |
 | [brunch/brunch](https://github.com/brunch/brunch) | 6758 | 2026-04-19T14:13:39Z | JavaScript | Web app | 4 | 27 | 4 | 4 |
+| [ipfs/ipfs-desktop](https://github.com/ipfs/ipfs-desktop) | 6525 | 2026-04-24T00:23:14Z | JavaScript | Infrastructure/tooling | 15 | 54 | 15 | 15 |
 | [RichardLitt/standard-readme](https://github.com/RichardLitt/standard-readme) | 6291 | 2026-04-10T03:26:11Z | JavaScript | Unknown | 5 | 2 | 5 | 5 |
 | [DavidAnson/markdownlint](https://github.com/DavidAnson/markdownlint) | 6021 | 2026-04-20T02:23:53Z | JavaScript | Infrastructure/tooling | 7 | 44 | 8 | 8 |
 | [fullstorydev/grpcui](https://github.com/fullstorydev/grpcui) | 5880 | 2026-04-21T21:18:50Z | JavaScript | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [nodegit/nodegit](https://github.com/nodegit/nodegit) | 5749 | 2026-04-23T03:19:51Z | JavaScript | Infrastructure/tooling | 11 | 20 | 11 | 11 |
 | [BrowserWorks/waterfox](https://github.com/BrowserWorks/waterfox) | 5742 | 2026-04-21T23:11:39Z | JavaScript | Infrastructure/tooling | 10 | 33 | 10 | 10 |
 | [GoogleChromeLabs/ProjectVisBug](https://github.com/GoogleChromeLabs/ProjectVisBug) | 5726 | 2026-04-14T01:18:27Z | JavaScript | Infrastructure/tooling | 7 | 30 | 7 | 7 |
+| [expressjs/body-parser](https://github.com/expressjs/body-parser) | 5501 | 2026-04-23T23:40:39Z | JavaScript | Infrastructure/tooling | 8 | 29 | 9 | 9 |
 | [npm/node-semver](https://github.com/npm/node-semver) | 5419 | 2026-04-16T17:02:20Z | JavaScript | CLI | 8 | 13 | 8 | 8 |
 | [json-schema-org/json-schema-spec](https://github.com/json-schema-org/json-schema-spec) | 4944 | 2026-04-22T18:02:10Z | JavaScript | Infrastructure/tooling | 5 | 25 | 7 | 7 |
 | [amperser/proselint](https://github.com/amperser/proselint) | 4526 | 2026-04-21T16:37:31Z | JavaScript | Infrastructure/tooling | 10 | 12 | 10 | 10 |
@@ -134,6 +141,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [webpack/css-loader](https://github.com/webpack/css-loader) | 4322 | 2026-04-10T10:35:36Z | JavaScript | Infrastructure/tooling | 5 | 49 | 5 | 5 |
 | [yeoman/yo](https://github.com/yeoman/yo) | 3956 | 2026-04-09T21:48:06Z | JavaScript | CLI | 11 | 48 | 11 | 11 |
 | [tw-in-js/twind](https://github.com/tw-in-js/twind) | 3934 | 2026-04-21T05:07:25Z | JavaScript | Infrastructure/tooling | 7 | 35 | 7 | 7 |
+| [americanexpress/jest-image-snapshot](https://github.com/americanexpress/jest-image-snapshot) | 3909 | 2026-04-23T11:04:01Z | JavaScript | Infrastructure/tooling | 13 | 26 | 13 | 13 |
 | [webpack/sass-loader](https://github.com/webpack/sass-loader) | 3893 | 2026-04-15T11:37:33Z | JavaScript | Infrastructure/tooling | 9 | 55 | 9 | 9 |
 | [apache/cordova-android](https://github.com/apache/cordova-android) | 3779 | 2026-04-23T05:06:50Z | JavaScript | Infrastructure/tooling | 10 | 29 | 10 | 10 |
 | [gatsbyjs/gatsby-starter-blog](https://github.com/gatsbyjs/gatsby-starter-blog) | 3515 | 2026-04-15T12:34:37Z | JavaScript | Template/starter | 0 | 17 | 0 | 0 |

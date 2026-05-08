@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 246,
+    "components": 244,
     "concepts": 180,
     "observations": 183,
-    "repos": 45,
+    "repos": 44,
     "terms": 178
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "alexheretic/ab-glyph",
     "astro/deadnix",
@@ -42,7 +42,6 @@
     "pksunkara/cargo-workspaces",
     "pythops/tenere",
     "Roblox/foreman",
-    "rust-analyzer/ungrammar",
     "rust-bio/rust-htslib",
     "rust-bitcoin/rust-bitcoincore-rpc",
     "rust-embedded-community/serde-json-core",

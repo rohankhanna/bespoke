@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 234,
-    "concepts": 192,
-    "observations": 192,
-    "repos": 45,
-    "terms": 194
+    "components": 253,
+    "concepts": 187,
+    "observations": 187,
+    "repos": 46,
+    "terms": 189
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
     "ad-si/FlatCV",
@@ -23,18 +23,16 @@
     "aifoundry-org/et-platform",
     "apache/pulsar-client-cpp",
     "barak/minidjvu",
+    "boostorg/config",
     "BrianPugh/tamp",
     "bufbuild/protovalidate-cc",
-    "chusitoo/flatbush",
     "clouren/SPEX",
     "DavidKinder/Windows-Inform7",
     "DeepLink-org/DLSlime",
     "f32c/tools",
     "fabmax/PhysX",
     "fcambus/bdf2sfd",
-    "flatpak/xdg-dbus-proxy",
     "gazebosim/gz-fuel-tools",
-    "go-skynet/go-ggml-transformers.cpp",
     "grain-lang/binaryen.ml",
     "ICRAR/crc32c",
     "JFLarvoire/the_silver_searcher",
@@ -52,12 +50,15 @@
     "openucx/xpmem",
     "openvinotoolkit/openvino_tokenizers",
     "proxy-wasm/proxy-wasm-cpp-host",
+    "rapidsai/ucxx",
+    "ROCm/rocAL",
     "ROCm/roctracer",
     "theimpossibleastronaut/rmw",
     "triton-inference-server/openvino_backend",
     "walbourn/directxtextest",
     "walbourn/directxtktest",
     "yoshoku/numo-narray-alt",
-    "yquake2/ref_vk"
+    "yquake2/ref_vk",
+    "yquake2/yquake2remaster"
   ]
 }

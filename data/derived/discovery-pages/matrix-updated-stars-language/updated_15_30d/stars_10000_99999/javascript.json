@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2375,
-    "concepts": 412,
-    "observations": 414,
-    "repos": 57,
-    "terms": 408
+    "components": 2585,
+    "concepts": 449,
+    "observations": 452,
+    "repos": 61,
+    "terms": 445
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "ai/nanoid",
     "ajaxorg/ace",
@@ -28,7 +28,10 @@
     "browserslist/browserslist",
     "commitizen/cz-cli",
     "ConardLi/easy-dataset",
+    "cure53/DOMPurify",
     "decaporg/decap-cms",
+    "electron/minimal-repro",
+    "expressjs/express",
     "fastify/fastify",
     "google/zx",
     "graphql/graphql-spec",
@@ -36,7 +39,6 @@
     "http-party/http-server",
     "iamkun/dayjs",
     "immerjs/immer",
-    "infernojs/inferno",
     "jantimon/html-webpack-plugin",
     "jarrodwatts/claude-hud",
     "jashkenas/backbone",
@@ -48,6 +50,7 @@
     "karma-runner/karma",
     "Leaflet/Leaflet",
     "lodash/lodash",
+    "lovell/sharp",
     "markedjs/marked",
     "motdotla/dotenv",
     "nock/nock",
@@ -58,11 +61,11 @@
     "PrismJS/prism",
     "reactjs/react.dev",
     "remy/nodemon",
+    "rollup/rollup",
     "semantic-release/semantic-release",
     "serverless/serverless",
     "simple-icons/simple-icons",
     "svg/svgo",
-    "thomaspark/bootswatch",
     "tj/commander.js",
     "vega/vega",
     "vercel-labs/agent-skills",
@@ -70,6 +73,7 @@
     "webpack/webpack",
     "webtorrent/webtorrent",
     "welldone-software/why-did-you-render",
-    "yarnpkg/yarn"
+    "yarnpkg/yarn",
+    "zloirock/core-js"
   ]
 }

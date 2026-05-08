@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 28
-- terms: 79
-- components: 77
-- concepts: 81
-- observations: 82
+- terms: 80
+- components: 76
+- concepts: 82
+- observations: 83
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [JuliaInterop/libcxxwrap-julia](https://github.com/JuliaInterop/libcxxwrap-julia) | 95 | 2026-02-06T20:12:37Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [RomanArzumanyan/VALI](https://github.com/RomanArzumanyan/VALI) | 70 | 2026-02-05T19:12:18Z | C/C++ | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [Taritsyn/LibSassHost](https://github.com/Taritsyn/LibSassHost) | 87 | 2026-02-03T12:56:55Z | C/C++ | Library | 4 | 0 | 4 | 4 |
 | [eliemichel/dawn-prebuilt](https://github.com/eliemichel/dawn-prebuilt) | 15 | 2026-01-21T14:44:33Z | C/C++ | Infrastructure/tooling | 3 | 11 | 3 | 3 |
@@ -53,13 +54,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [triton-inference-server/tensorflow_backend](https://github.com/triton-inference-server/tensorflow_backend) | 56 | 2025-11-22T19:42:34Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [Blosc/hdf5-blosc](https://github.com/Blosc/hdf5-blosc) | 46 | 2025-11-19T12:27:33Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [cassioneri/teju_jagua](https://github.com/cassioneri/teju_jagua) | 38 | 2025-11-16T23:52:18Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [probonopd/static-tools](https://github.com/probonopd/static-tools) | 37 | 2025-11-08T15:50:39Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [ccslykx/Starry](https://github.com/ccslykx/Starry) | 97 | 2025-12-30T09:12:28Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [JuliaInterop/libcxxwrap-julia](https://github.com/JuliaInterop/libcxxwrap-julia) | 95 | 2026-02-06T20:12:37Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [xtensor-stack/xtensor-r](https://github.com/xtensor-stack/xtensor-r) | 90 | 2025-12-06T21:10:45Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [Taritsyn/LibSassHost](https://github.com/Taritsyn/LibSassHost) | 87 | 2026-02-03T12:56:55Z | C/C++ | Library | 4 | 0 | 4 | 4 |
 | [3dfxdev/EDGE](https://github.com/3dfxdev/EDGE) | 81 | 2025-11-29T07:14:01Z | C/C++ | Infrastructure/tooling | 9 | 3 | 11 | 12 |
@@ -72,7 +73,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [adamharrison/lite-xl-terminal](https://github.com/adamharrison/lite-xl-terminal) | 54 | 2025-12-15T21:18:43Z | C/C++ | CLI | 0 | 3 | 0 | 0 |
 | [Blosc/hdf5-blosc](https://github.com/Blosc/hdf5-blosc) | 46 | 2025-11-19T12:27:33Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [cassioneri/teju_jagua](https://github.com/cassioneri/teju_jagua) | 38 | 2025-11-16T23:52:18Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [probonopd/static-tools](https://github.com/probonopd/static-tools) | 37 | 2025-11-08T15:50:39Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [graalvm/polyglot-embedding-demo](https://github.com/graalvm/polyglot-embedding-demo) | 35 | 2025-12-10T12:23:06Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [tier4/ndt_omp](https://github.com/tier4/ndt_omp) | 31 | 2026-01-08T04:12:18Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [DLR-TS/SUMOLibraries](https://github.com/DLR-TS/SUMOLibraries) | 27 | 2025-12-16T11:30:44Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |

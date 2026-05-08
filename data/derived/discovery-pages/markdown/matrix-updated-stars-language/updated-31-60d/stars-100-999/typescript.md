@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 49
-- terms: 309
-- components: 1353
-- concepts: 300
-- observations: 300
+- repos: 51
+- terms: 310
+- components: 1433
+- concepts: 301
+- observations: 301
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [antfu/skills-npm](https://github.com/antfu/skills-npm) | 431 | 2026-04-08T01:53:25Z | TypeScript | Infrastructure/tooling | 1 | 31 | 1 | 1 |
+| [Autodesk/synthesis](https://github.com/Autodesk/synthesis) | 178 | 2026-04-07T19:18:12Z | TypeScript | Infrastructure/tooling | 12 | 9 | 12 | 12 |
+| [dezoito/ollama-grid-search](https://github.com/dezoito/ollama-grid-search) | 931 | 2026-04-07T13:58:55Z | TypeScript | Infrastructure/tooling | 8 | 53 | 8 | 8 |
 | [retracedhq/retraced](https://github.com/retracedhq/retraced) | 438 | 2026-04-06T16:37:46Z | TypeScript | Infrastructure/tooling | 5 | 84 | 5 | 5 |
 | [aws-actions/aws-secretsmanager-get-secrets](https://github.com/aws-actions/aws-secretsmanager-get-secrets) | 187 | 2026-04-06T04:43:37Z | TypeScript | Infrastructure/tooling | 7 | 17 | 7 | 7 |
 | [nashaofu/screenshots](https://github.com/nashaofu/screenshots) | 464 | 2026-04-03T22:28:44Z | TypeScript | Infrastructure/tooling | 7 | 5 | 7 | 7 |
@@ -63,7 +66,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [actions-cool/issues-helper](https://github.com/actions-cool/issues-helper) | 407 | 2026-03-20T10:00:23Z | TypeScript | Infrastructure/tooling | 10 | 31 | 10 | 10 |
 | [thesayyn/protoc-gen-ts](https://github.com/thesayyn/protoc-gen-ts) | 405 | 2026-03-19T00:09:38Z | TypeScript | CLI | 12 | 7 | 12 | 12 |
 | [sudocode-ai/sudocode](https://github.com/sudocode-ai/sudocode) | 272 | 2026-03-18T23:20:38Z | TypeScript | CLI | 4 | 6 | 0 | 0 |
-| [graphql-hive/graphql-eslint](https://github.com/graphql-hive/graphql-eslint) | 834 | 2026-03-18T17:19:45Z | TypeScript | Infrastructure/tooling | 11 | 37 | 11 | 11 |
+| [graphql-hive/graphql-eslint](https://github.com/graphql-hive/graphql-eslint) | 835 | 2026-03-18T17:19:45Z | TypeScript | Infrastructure/tooling | 11 | 37 | 11 | 11 |
 | [aelassas/bookcars](https://github.com/aelassas/bookcars) | 576 | 2026-03-18T12:23:22Z | TypeScript | Infrastructure/tooling | 17 | 13 | 17 | 17 |
 | [solidjs/templates](https://github.com/solidjs/templates) | 531 | 2026-03-17T14:11:05Z | TypeScript | Template/starter | 0 | 3 | 0 | 0 |
 | [testing-library/angular-testing-library](https://github.com/testing-library/angular-testing-library) | 788 | 2026-03-17T11:52:43Z | TypeScript | Infrastructure/tooling | 4 | 65 | 4 | 4 |
@@ -74,15 +77,15 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hyparam/hightable](https://github.com/hyparam/hightable) | 272 | 2026-03-10T09:32:02Z | TypeScript | Infrastructure/tooling | 10 | 29 | 10 | 10 |
 | [windingwind/zotero-plugin-template](https://github.com/windingwind/zotero-plugin-template) | 817 | 2026-03-09T23:53:42Z | TypeScript | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 | [h3js/rou3](https://github.com/h3js/rou3) | 723 | 2026-03-09T09:17:45Z | TypeScript | Infrastructure/tooling | 0 | 20 | 0 | 0 |
-| [Piebald-AI/gemini-cli-desktop](https://github.com/Piebald-AI/gemini-cli-desktop) | 407 | 2026-03-08T15:18:16Z | TypeScript | CLI | 20 | 13 | 20 | 20 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [amplify-education/serverless-domain-manager](https://github.com/amplify-education/serverless-domain-manager) | 946 | 2026-03-31T15:03:44Z | TypeScript | Infrastructure/tooling | 9 | 45 | 9 | 9 |
+| [dezoito/ollama-grid-search](https://github.com/dezoito/ollama-grid-search) | 931 | 2026-04-07T13:58:55Z | TypeScript | Infrastructure/tooling | 8 | 53 | 8 | 8 |
 | [antfu-collective/bumpp](https://github.com/antfu-collective/bumpp) | 924 | 2026-03-16T06:15:05Z | TypeScript | CLI | 1 | 24 | 1 | 1 |
-| [graphql-hive/graphql-eslint](https://github.com/graphql-hive/graphql-eslint) | 834 | 2026-03-18T17:19:45Z | TypeScript | Infrastructure/tooling | 11 | 37 | 11 | 11 |
+| [graphql-hive/graphql-eslint](https://github.com/graphql-hive/graphql-eslint) | 835 | 2026-03-18T17:19:45Z | TypeScript | Infrastructure/tooling | 11 | 37 | 11 | 11 |
 | [windingwind/zotero-plugin-template](https://github.com/windingwind/zotero-plugin-template) | 817 | 2026-03-09T23:53:42Z | TypeScript | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 | [testing-library/angular-testing-library](https://github.com/testing-library/angular-testing-library) | 788 | 2026-03-17T11:52:43Z | TypeScript | Infrastructure/tooling | 4 | 65 | 4 | 4 |
 | [vim-denops/denops.vim](https://github.com/vim-denops/denops.vim) | 784 | 2026-03-23T01:05:40Z | TypeScript | Infrastructure/tooling | 7 | 6 | 7 | 7 |
@@ -100,8 +103,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nashaofu/screenshots](https://github.com/nashaofu/screenshots) | 464 | 2026-04-03T22:28:44Z | TypeScript | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [carbon-design-system/carbon-icons-svelte](https://github.com/carbon-design-system/carbon-icons-svelte) | 452 | 2026-03-26T19:03:05Z | TypeScript | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [retracedhq/retraced](https://github.com/retracedhq/retraced) | 438 | 2026-04-06T16:37:46Z | TypeScript | Infrastructure/tooling | 5 | 84 | 5 | 5 |
+| [antfu/skills-npm](https://github.com/antfu/skills-npm) | 431 | 2026-04-08T01:53:25Z | TypeScript | Infrastructure/tooling | 1 | 31 | 1 | 1 |
 | [actions-cool/issues-helper](https://github.com/actions-cool/issues-helper) | 407 | 2026-03-20T10:00:23Z | TypeScript | Infrastructure/tooling | 10 | 31 | 10 | 10 |
-| [Piebald-AI/gemini-cli-desktop](https://github.com/Piebald-AI/gemini-cli-desktop) | 407 | 2026-03-08T15:18:16Z | TypeScript | CLI | 20 | 13 | 20 | 20 |
 | [thesayyn/protoc-gen-ts](https://github.com/thesayyn/protoc-gen-ts) | 405 | 2026-03-19T00:09:38Z | TypeScript | CLI | 12 | 7 | 12 | 12 |
 | [connectrpc/connect-query-es](https://github.com/connectrpc/connect-query-es) | 358 | 2026-03-21T18:02:19Z | TypeScript | Infrastructure/tooling | 13 | 25 | 13 | 13 |
 | [ory/hydra-login-consent-node](https://github.com/ory/hydra-login-consent-node) | 328 | 2026-03-30T11:20:43Z | TypeScript | Infrastructure/tooling | 7 | 37 | 7 | 7 |
@@ -117,6 +120,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lobehub/lobe-midjourney-webui](https://github.com/lobehub/lobe-midjourney-webui) | 196 | 2026-03-29T00:41:26Z | TypeScript | Infrastructure/tooling | 6 | 54 | 0 | 0 |
 | [aws-actions/aws-secretsmanager-get-secrets](https://github.com/aws-actions/aws-secretsmanager-get-secrets) | 187 | 2026-04-06T04:43:37Z | TypeScript | Infrastructure/tooling | 7 | 17 | 7 | 7 |
 | [aws-samples/dify-self-hosted-on-aws](https://github.com/aws-samples/dify-self-hosted-on-aws) | 186 | 2026-03-29T02:28:25Z | TypeScript | Infrastructure/tooling | 4 | 17 | 4 | 4 |
+| [Autodesk/synthesis](https://github.com/Autodesk/synthesis) | 178 | 2026-04-07T19:18:12Z | TypeScript | Infrastructure/tooling | 12 | 9 | 12 | 12 |
 | [aquasecurity/trivy-vscode-extension](https://github.com/aquasecurity/trivy-vscode-extension) | 174 | 2026-03-25T23:31:23Z | TypeScript | Infrastructure/tooling | 4 | 49 | 4 | 4 |
 | [hazelcast/hazelcast-nodejs-client](https://github.com/hazelcast/hazelcast-nodejs-client) | 152 | 2026-04-02T21:31:54Z | TypeScript | CLI | 18 | 38 | 18 | 18 |
 | [tracked-tools/tracked-built-ins](https://github.com/tracked-tools/tracked-built-ins) | 137 | 2026-03-20T21:21:28Z | TypeScript | Infrastructure/tooling | 3 | 9 | 3 | 3 |

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · Python
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 49
-- terms: 120
+- repos: 50
+- terms: 121
 - components: 184
-- concepts: 102
-- observations: 102
+- concepts: 103
+- observations: 103
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [conda-forge/threadpoolctl-feedstock](https://github.com/conda-forge/threadpoolctl-feedstock) | 1 | 2026-04-24T03:50:03Z | Python | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [5sControl/5s-backend](https://github.com/5sControl/5s-backend) | 2 | 2026-04-23T07:54:59Z | Python | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [arielagor/jetbrains-mono-hebrew](https://github.com/arielagor/jetbrains-mono-hebrew) | 1 | 2026-04-22T20:14:06Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [ModelCloud/Defuser](https://github.com/ModelCloud/Defuser) | 2 | 2026-04-22T16:37:44Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
@@ -117,6 +118,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [piqrypt/piqrypt](https://github.com/PiQrypt/piqrypt) | 2 | 2026-04-17T10:34:51Z | Python | Infrastructure/tooling | 2 | 6 | 0 | 0 |
 | [CoolCat467/idlemypyextension](https://github.com/CoolCat467/idlemypyextension) | 2 | 2026-04-11T05:42:12Z | Python | Infrastructure/tooling | 12 | 7 | 14 | 14 |
 | [danielrosehill/Geopol-Forecaster](https://github.com/danielrosehill/Geopol-Forecaster) | 2 | 2026-04-10T15:56:17Z | Python | Infrastructure/tooling | 2 | 20 | 2 | 2 |
+| [conda-forge/threadpoolctl-feedstock](https://github.com/conda-forge/threadpoolctl-feedstock) | 1 | 2026-04-24T03:50:03Z | Python | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [arielagor/jetbrains-mono-hebrew](https://github.com/arielagor/jetbrains-mono-hebrew) | 1 | 2026-04-22T20:14:06Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [piqrypt/aiss-standard](https://github.com/PiQrypt/aiss-standard) | 1 | 2026-04-19T16:45:49Z | Python | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [penpoen/llm-sugarscape](https://github.com/penpoen/llm-SugarScape) | 1 | 2026-04-19T13:44:54Z | Python | Unknown | 0 | 0 | 0 | 0 |

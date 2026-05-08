@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Unknown
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 177
-- terms: 151
+- repos: 180
+- terms: 153
 - components: 120
-- concepts: 152
-- observations: 152
+- concepts: 154
+- observations: 154
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [radian-software/contributor-guide](https://github.com/radian-software/contributor-guide) | 2 | 2025-11-08T18:54:36Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [Tencent/tencent.github.io](https://github.com/Tencent/tencent.github.io) | 3 | 2025-11-05T07:34:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Deep-Research-Model](https://github.com/danielrosehill/Claude-Deep-Research-Model) | 7 | 2025-11-02T01:08:45Z | Unknown | Model/data | 2 | 0 | 2 | 2 |
 | [danielrosehill/claude-agent-picker-pattern](https://github.com/danielrosehill/Claude-Agent-Picker-Pattern) | 4 | 2025-10-31T15:22:40Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
@@ -44,6 +45,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [filecoin-project/Allocator-Governance](https://github.com/filecoin-project/Allocator-Governance) | 8 | 2025-08-29T14:38:46Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [warpdotdev/brand-assets](https://github.com/warpdotdev/brand-assets) | 3 | 2025-08-06T16:17:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [wsxiaoys/sqlx](https://github.com/wsxiaoys/sqlx) | 1 | 2025-07-29T01:38:42Z | Unknown | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [IdreesInc/IdreesInc](https://github.com/IdreesInc/IdreesInc) | 1 | 2025-07-26T17:27:52Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [asomoza/image_gen_aux](https://github.com/asomoza/image_gen_aux) | 6 | 2025-07-15T15:00:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [notaryproject/.github](https://github.com/notaryproject/.github) | 3 | 2025-07-10T07:19:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [jcmorrow/seoul256-zed](https://github.com/jcmorrow/seoul256-zed) | 3 | 2025-07-02T15:46:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -66,6 +68,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [layr-labs/avs-vibe-developer-guide](https://github.com/Layr-Labs/avs-vibe-developer-guide) | 2 | 2025-04-22T19:19:06Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [taichi-dev/public_files](https://github.com/taichi-dev/public_files) | 6 | 2025-04-15T00:30:46Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [danielrosehill/Geopolitical-Analysis-System-Prompts](https://github.com/danielrosehill/Geopolitical-Analysis-System-Prompts) | 3 | 2025-04-06T15:13:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Deep-Research-Projects-0425](https://github.com/danielrosehill/Deep-Research-Projects-0425) | 4 | 2025-04-05T21:24:19Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [Arize-ai/phoenix-assets](https://github.com/Arize-ai/phoenix-assets) | 1 | 2025-04-05T19:01:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [bxirobotics/robot_models](https://github.com/bxirobotics/robot_models) | 5 | 2025-04-03T15:52:44Z | Unknown | Model/data | 1 | 0 | 1 | 1 |
 | [funstory-ai/jobs](https://github.com/funstory-ai/jobs) | 9 | 2025-03-21T16:07:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -270,6 +273,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alexcrichton/git2-rs](https://github.com/alexcrichton/git2-rs) | 5 | 2022-03-10T17:03:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/claude-agent-picker-pattern](https://github.com/danielrosehill/Claude-Agent-Picker-Pattern) | 4 | 2025-10-31T15:22:40Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [danielrosehill/Home-Inventory-AI-Assistants](https://github.com/danielrosehill/Home-Inventory-AI-Assistants) | 4 | 2025-05-17T11:56:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Deep-Research-Projects-0425](https://github.com/danielrosehill/Deep-Research-Projects-0425) | 4 | 2025-04-05T21:24:19Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [getlantern/lantern-forum-fa](https://github.com/getlantern/lantern-forum-fa) | 4 | 2024-11-01T18:31:03Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [IDEA-Research/detrex-storage](https://github.com/IDEA-Research/detrex-storage) | 4 | 2024-10-24T09:03:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [UBC-NLP/Cheetah](https://github.com/UBC-NLP/Cheetah) | 4 | 2024-08-12T19:56:18Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -308,6 +312,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [containers/release-keys](https://github.com/containers/release-keys) | 3 | 2022-11-10T18:29:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [LianjiaTech/athena-model-zoo](https://github.com/LianjiaTech/athena-model-zoo) | 3 | 2022-08-08T12:31:56Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [vorburger/Log4j_CVE-2021-44228](https://github.com/vorburger/Log4j_CVE-2021-44228) | 3 | 2022-02-16T21:58:54Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [radian-software/contributor-guide](https://github.com/radian-software/contributor-guide) | 2 | 2025-11-08T18:54:36Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [travis-infrastructure/packer-build](https://github.com/travis-infrastructure/packer-build) | 2 | 2025-10-15T13:56:32Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
 | [foldl/little-academia](https://github.com/foldl/little-academia) | 2 | 2025-08-31T13:01:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [podman-desktop/community](https://github.com/podman-desktop/community) | 2 | 2025-06-27T14:40:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -346,6 +351,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/CONTEXT.md](https://github.com/danielrosehill/CONTEXT.md) | 1 | 2025-10-27T14:58:34Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [cta-wave/wmas-deploy](https://github.com/cta-wave/WMAS-deploy) | 1 | 2025-09-05T09:28:44Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [wsxiaoys/sqlx](https://github.com/wsxiaoys/sqlx) | 1 | 2025-07-29T01:38:42Z | Unknown | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [IdreesInc/IdreesInc](https://github.com/IdreesInc/IdreesInc) | 1 | 2025-07-26T17:27:52Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [achannarasappa/ticker-static](https://github.com/achannarasappa/ticker-static) | 1 | 2025-05-04T23:20:19Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/HA-Air-Quality-Dashboard](https://github.com/danielrosehill/HA-Air-Quality-Dashboard) | 1 | 2025-04-24T03:51:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Arize-ai/phoenix-assets](https://github.com/Arize-ai/phoenix-assets) | 1 | 2025-04-05T19:01:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

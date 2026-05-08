@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 100
-- terms: 347
-- components: 362
-- concepts: 349
-- observations: 351
+- repos: 109
+- terms: 358
+- components: 408
+- concepts: 360
+- observations: 362
 
 ## Static behavior
 
@@ -26,6 +26,15 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ankane/drill-ruby](https://github.com/ankane/drill-ruby) | 13 | 2026-04-08T04:14:06Z | Other | CLI | 1 | 3 | 1 | 1 |
+| [Betterment/betterlint](https://github.com/Betterment/betterlint) | 42 | 2026-04-08T02:56:34Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [f3liz-casa/noraneko](https://github.com/f3liz-casa/noraneko) | 87 | 2026-04-08T01:19:22Z | Other | Infrastructure/tooling | 1 | 36 | 1 | 1 |
+| [marbl/T2T-Browser](https://github.com/marbl/T2T-Browser) | 27 | 2026-04-07T21:03:22Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [Jamir-boop/minimalisticfox](https://github.com/Jamir-boop/minimalisticfox) | 44 | 2026-04-07T20:56:43Z | Other | Unknown | 4 | 0 | 4 | 4 |
+| [ankane/AnomalyDetection.rb](https://github.com/ankane/AnomalyDetection.rb) | 48 | 2026-04-07T20:11:50Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [buildbot/buildbot-website](https://github.com/buildbot/buildbot-website) | 20 | 2026-04-07T19:52:51Z | Other | Web app | 0 | 5 | 0 | 0 |
+| [cloudfoundry/cf-uaac](https://github.com/cloudfoundry/cf-uaac) | 43 | 2026-04-07T14:40:22Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [lambdaisland/open-source](https://github.com/lambdaisland/open-source) | 52 | 2026-04-07T13:24:32Z | Other | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [opea-project/GenAIEval](https://github.com/opea-project/GenAIEval) | 41 | 2026-04-06T22:45:00Z | Other | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [jeffzi/llscheck](https://github.com/jeffzi/llscheck) | 12 | 2026-04-06T21:57:13Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [clojure/homebrew-tools](https://github.com/clojure/homebrew-tools) | 48 | 2026-04-06T17:37:42Z | Other | Infrastructure/tooling | 2 | 1 | 2 | 2 |
@@ -109,6 +118,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [219-design/qt-qml-project-template-with-ci](https://github.com/219-design/qt-qml-project-template-with-ci) | 63 | 2026-03-14T17:45:07Z | Other | Infrastructure/tooling | 12 | 2 | 12 | 13 |
 | [DragonFlyBSD/DPorts](https://github.com/DragonFlyBSD/DPorts) | 94 | 2026-03-13T23:31:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [larshp/abapGitServer](https://github.com/larshp/abapGitServer) | 69 | 2026-03-13T14:04:47Z | Other | Service/API | 3 | 0 | 3 | 3 |
+| [adaszko/tree_climber_rust.nvim](https://github.com/adaszko/tree_climber_rust.nvim) | 25 | 2026-03-13T11:30:54Z | Other | Unknown | 6 | 0 | 6 | 6 |
 | [JuliaPackaging/PkgServer.jl](https://github.com/JuliaPackaging/PkgServer.jl) | 45 | 2026-03-12T20:15:36Z | Other | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [2KAbhishek/exercism.nvim](https://github.com/2KAbhishek/exercism.nvim) | 43 | 2026-03-12T19:37:01Z | Other | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [clearml/clearml-helm-charts](https://github.com/clearml/clearml-helm-charts) | 46 | 2026-03-12T14:25:18Z | Other | Infrastructure/tooling | 7 | 6 | 7 | 7 |
@@ -125,7 +135,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [babashka/sci.configs](https://github.com/babashka/sci.configs) | 22 | 2026-03-10T11:14:56Z | Other | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [dominique-unruh/scala-isabelle](https://github.com/dominique-unruh/scala-isabelle) | 43 | 2026-03-09T21:57:27Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [Mobile-Artificial-Intelligence/maise](https://github.com/Mobile-Artificial-Intelligence/maise) | 24 | 2026-03-09T05:39:38Z | Other | Infrastructure/tooling | 13 | 6 | 13 | 13 |
-| [clojure/tools.deps](https://github.com/clojure/tools.deps) | 54 | 2026-03-08T22:45:55Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -141,6 +150,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [notomo/vusted](https://github.com/notomo/vusted) | 91 | 2026-03-28T04:02:19Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [nvim-mini/mini.statusline](https://github.com/nvim-mini/mini.statusline) | 89 | 2026-04-03T14:03:09Z | Other | Library | 3 | 0 | 3 | 3 |
 | [0xC0000054/pdn-ddsfiletype-plus](https://github.com/0xC0000054/pdn-ddsfiletype-plus) | 89 | 2026-03-22T23:48:30Z | Other | Unknown | 5 | 0 | 5 | 5 |
+| [f3liz-casa/noraneko](https://github.com/f3liz-casa/noraneko) | 87 | 2026-04-08T01:19:22Z | Other | Infrastructure/tooling | 1 | 36 | 1 | 1 |
 | [am-kantox/md](https://github.com/am-kantox/md) | 87 | 2026-03-23T14:36:04Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [HaxeFlixel/flixel-docs](https://github.com/HaxeFlixel/flixel-docs) | 85 | 2026-04-01T19:33:18Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [dwyl/fields](https://github.com/dwyl/fields) | 84 | 2026-04-03T17:44:59Z | Other | Infrastructure/tooling | 7 | 4 | 7 | 7 |
@@ -164,9 +174,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [henryw374/chronos](https://github.com/henryw374/chronos) | 55 | 2026-03-18T13:40:58Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [opencontainers/.github](https://github.com/opencontainers/.github) | 55 | 2026-03-16T21:53:30Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [metosin/ring-swagger-ui](https://github.com/metosin/ring-swagger-ui) | 54 | 2026-03-25T08:05:47Z | Other | Library | 1 | 0 | 1 | 1 |
-| [clojure/tools.deps](https://github.com/clojure/tools.deps) | 54 | 2026-03-08T22:45:55Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
+| [lambdaisland/open-source](https://github.com/lambdaisland/open-source) | 52 | 2026-04-07T13:24:32Z | Other | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [rubygems/release-gem](https://github.com/rubygems/release-gem) | 52 | 2026-04-01T01:59:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [dwyl/learn-payment-processing](https://github.com/dwyl/learn-payment-processing) | 51 | 2026-03-11T11:42:54Z | Other | Infrastructure/tooling | 9 | 4 | 9 | 9 |
+| [ankane/AnomalyDetection.rb](https://github.com/ankane/AnomalyDetection.rb) | 48 | 2026-04-07T20:11:50Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [clojure/homebrew-tools](https://github.com/clojure/homebrew-tools) | 48 | 2026-04-06T17:37:42Z | Other | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [jelly-beam/rebar3_ex_doc](https://github.com/jelly-beam/rebar3_ex_doc) | 48 | 2026-03-27T16:01:25Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [astropy/astropy-project](https://github.com/astropy/astropy-project) | 47 | 2026-03-31T14:11:00Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -176,9 +187,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [clearml/clearml-helm-charts](https://github.com/clearml/clearml-helm-charts) | 46 | 2026-03-12T14:25:18Z | Other | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [AvaotaSBC/AvaotaF1](https://github.com/AvaotaSBC/AvaotaF1) | 45 | 2026-03-19T00:16:26Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaPackaging/PkgServer.jl](https://github.com/JuliaPackaging/PkgServer.jl) | 45 | 2026-03-12T20:15:36Z | Other | Infrastructure/tooling | 1 | 6 | 1 | 1 |
+| [Jamir-boop/minimalisticfox](https://github.com/Jamir-boop/minimalisticfox) | 44 | 2026-04-07T20:56:43Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [dwyl/email](https://github.com/dwyl/email) | 44 | 2026-03-24T08:21:52Z | Other | Infrastructure/tooling | 2 | 8 | 2 | 2 |
+| [cloudfoundry/cf-uaac](https://github.com/cloudfoundry/cf-uaac) | 43 | 2026-04-07T14:40:22Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [2KAbhishek/exercism.nvim](https://github.com/2KAbhishek/exercism.nvim) | 43 | 2026-03-12T19:37:01Z | Other | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [dominique-unruh/scala-isabelle](https://github.com/dominique-unruh/scala-isabelle) | 43 | 2026-03-09T21:57:27Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
+| [Betterment/betterlint](https://github.com/Betterment/betterlint) | 42 | 2026-04-08T02:56:34Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [opea-project/GenAIEval](https://github.com/opea-project/GenAIEval) | 41 | 2026-04-06T22:45:00Z | Other | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [lostromb/concentus.oggfile](https://github.com/lostromb/concentus.oggfile) | 39 | 2026-03-17T19:39:47Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [dwyl/cid](https://github.com/dwyl/cid) | 38 | 2026-03-10T18:14:24Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
@@ -196,13 +210,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nvim-mini/mini.doc](https://github.com/nvim-mini/mini.doc) | 28 | 2026-04-03T14:02:21Z | Other | Library | 3 | 0 | 3 | 3 |
 | [j20001970/GDMP-demo](https://github.com/j20001970/GDMP-demo) | 28 | 2026-03-27T04:37:19Z | Other | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [notaryproject/notaryproject.dev](https://github.com/notaryproject/notaryproject.dev) | 28 | 2026-03-19T23:55:18Z | Other | Infrastructure/tooling | 1 | 6 | 1 | 1 |
+| [marbl/T2T-Browser](https://github.com/marbl/T2T-Browser) | 27 | 2026-04-07T21:03:22Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [js-temporal/proposal-temporal-v2](https://github.com/js-temporal/proposal-temporal-v2) | 26 | 2026-03-20T20:15:53Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [dwyl/elixir-auth-google-demo](https://github.com/dwyl/elixir-auth-google-demo) | 25 | 2026-03-24T08:22:36Z | Other | Infrastructure/tooling | 10 | 5 | 10 | 10 |
+| [adaszko/tree_climber_rust.nvim](https://github.com/adaszko/tree_climber_rust.nvim) | 25 | 2026-03-13T11:30:54Z | Other | Unknown | 6 | 0 | 6 | 6 |
 | [Mobile-Artificial-Intelligence/maise](https://github.com/Mobile-Artificial-Intelligence/maise) | 24 | 2026-03-09T05:39:38Z | Other | Infrastructure/tooling | 13 | 6 | 13 | 13 |
 | [ocurrent/ocurrent-deployer](https://github.com/ocurrent/ocurrent-deployer) | 23 | 2026-03-31T17:20:28Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [oap-project/oap-mllib](https://github.com/oap-project/oap-mllib) | 22 | 2026-03-24T00:41:48Z | Other | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [babashka/sci.configs](https://github.com/babashka/sci.configs) | 22 | 2026-03-10T11:14:56Z | Other | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [dwyl/content](https://github.com/dwyl/content) | 21 | 2026-03-11T08:59:37Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [buildbot/buildbot-website](https://github.com/buildbot/buildbot-website) | 20 | 2026-04-07T19:52:51Z | Other | Web app | 0 | 5 | 0 | 0 |
 | [appsignal/appsignal-elixir-phoenix](https://github.com/appsignal/appsignal-elixir-phoenix) | 20 | 2026-04-02T17:31:29Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [FluxML/fluxml.github.io](https://github.com/FluxML/fluxml.github.io) | 20 | 2026-03-26T05:49:47Z | Other | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [NixOS/nix-installer-action](https://github.com/NixOS/nix-installer-action) | 19 | 2026-04-06T12:29:33Z | Other | Infrastructure/tooling | 0 | 1 | 0 | 0 |
@@ -219,6 +236,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [php/doc-it](https://github.com/php/doc-it) | 15 | 2026-03-11T09:11:06Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [0xrsydn/nix-hermes-agent](https://github.com/0xrsydn/nix-hermes-agent) | 14 | 2026-03-30T04:58:57Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [kalbasit/nur-packages](https://github.com/kalbasit/nur-packages) | 14 | 2026-03-23T05:52:23Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [ankane/drill-ruby](https://github.com/ankane/drill-ruby) | 13 | 2026-04-08T04:14:06Z | Other | CLI | 1 | 3 | 1 | 1 |
 | [informalsystems/choreo](https://github.com/informalsystems/choreo) | 13 | 2026-03-24T15:04:34Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [jeffzi/llscheck](https://github.com/jeffzi/llscheck) | 12 | 2026-04-06T21:57:13Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [aspect-build/rules_cypress](https://github.com/aspect-build/rules_cypress) | 12 | 2026-04-06T03:15:53Z | Other | Infrastructure/tooling | 4 | 6 | 4 | 4 |

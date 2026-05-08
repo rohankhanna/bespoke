@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Shell
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 87
+- repos: 88
 - terms: 195
 - components: 66
 - concepts: 202
@@ -83,6 +83,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [satbyy/go-noto-universal](https://github.com/satbyy/go-noto-universal) | 272 | 2023-08-01T05:19:33Z | Shell | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [gjaldon/heroku-buildpack-phoenix-static](https://github.com/gjaldon/heroku-buildpack-phoenix-static) | 230 | 2023-07-05T15:23:47Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [googlefonts/rubik](https://github.com/googlefonts/rubik) | 212 | 2023-06-22T07:57:01Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [archlinux/svntogit-packages](https://github.com/archlinux/svntogit-packages) | 324 | 2023-05-19T02:45:36Z | Shell | Library | 0 | 0 | 0 | 0 |
 | [tmux-plugins/tmux-sessionist](https://github.com/tmux-plugins/tmux-sessionist) | 461 | 2023-05-16T17:13:16Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [pmer/tla-bin](https://github.com/pmer/tla-bin) | 172 | 2023-04-27T19:04:11Z | Shell | CLI | 4 | 0 | 4 | 4 |
 | [ungoogled-software/ungoogled-chromium-android](https://github.com/ungoogled-software/ungoogled-chromium-android) | 612 | 2023-04-19T22:40:06Z | Shell | Infrastructure/tooling | 5 | 1 | 5 | 5 |
@@ -164,6 +165,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [marbl/merqury](https://github.com/marbl/merqury) | 343 | 2024-06-28T19:13:08Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [Magisk-Modules-Repo/v2ray](https://github.com/Magisk-Modules-Repo/v2ray) | 340 | 2022-02-10T15:36:49Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [chrismytton/shoreman](https://github.com/chrismytton/shoreman) | 336 | 2025-01-30T11:05:25Z | Shell | Infrastructure/tooling | 3 | 2 | 4 | 4 |
+| [archlinux/svntogit-packages](https://github.com/archlinux/svntogit-packages) | 324 | 2023-05-19T02:45:36Z | Shell | Library | 0 | 0 | 0 | 0 |
 | [jkjung-avt/jetson_nano](https://github.com/jkjung-avt/jetson_nano) | 304 | 2022-05-21T03:52:49Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [kward/shflags](https://github.com/kward/shflags) | 303 | 2024-06-12T13:05:52Z | Shell | Library | 0 | 0 | 0 | 0 |
 | [antfu/dotfiles](https://github.com/antfu/dotfiles) | 287 | 2022-04-04T20:47:25Z | Shell | Unknown | 0 | 0 | 0 | 0 |

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2779,
-    "concepts": 3432,
-    "observations": 3440,
-    "repos": 618,
-    "terms": 3411
+    "components": 2784,
+    "concepts": 3435,
+    "observations": 3443,
+    "repos": 620,
+    "terms": 3414
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "java"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "abapGit/ADT_Frontend",
@@ -359,6 +359,7 @@
     "java-native-access/jna",
     "jboss-javassist/javassist",
     "jchambers/id-obfuscator",
+    "jdereg/json-io",
     "jenkinsci/jenkins",
     "jenkinsci/jmh-report-plugin",
     "jerrylususu/PaddleOCR-json-java-api",
@@ -618,6 +619,7 @@
     "wasabeef/glide-transformations",
     "wildfly-extras/a2a-java-sdk-server-jakarta",
     "wildfly/quickstart",
+    "WisdomShell/codeshell-intellij",
     "xerial/snappy-java",
     "Xilinx/RapidWright",
     "xmlark/msv",

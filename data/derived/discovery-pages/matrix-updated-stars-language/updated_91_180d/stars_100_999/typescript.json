@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 838,
-    "concepts": 144,
-    "observations": 144,
-    "repos": 31,
-    "terms": 143
+    "components": 939,
+    "concepts": 166,
+    "observations": 166,
+    "repos": 34,
+    "terms": 165
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "adaltas/node-http-status",
     "akshaykmr/teletype",
     "angular/vscode-ng-language-service",
+    "antfu-collective/eslint-vitest-rule-tester",
     "antfu/vscode-icons-carbon",
     "Anush008/fastembed-js",
     "axel-op/googlejavaformat-action",
@@ -44,6 +45,8 @@
     "snapcast/snapweb",
     "TanStack/ranger",
     "tevonsb/homeassistant-mcp",
-    "uni-helper/uni-network"
+    "uni-helper/uni-network",
+    "weaviate/elysia-frontend",
+    "withcatai/catai"
   ]
 }

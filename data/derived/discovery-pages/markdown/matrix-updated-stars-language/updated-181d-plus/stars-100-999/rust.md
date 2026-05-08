@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 172
+- repos: 173
 - terms: 560
-- components: 702
+- components: 704
 - concepts: 567
 - observations: 573
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [rust-analyzer/ungrammar](https://github.com/rust-analyzer/ungrammar) | 324 | 2025-11-08T12:34:26Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [AtomaAI/atoma-infer](https://github.com/AtomaAI/atoma-infer) | 119 | 2025-11-05T11:13:17Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [informalsystems/hermes](https://github.com/informalsystems/hermes) | 500 | 2025-10-29T18:07:16Z | Rust | Infrastructure/tooling | 11 | 19 | 11 | 11 |
 | [microsoft/Spartan](https://github.com/microsoft/Spartan) | 856 | 2025-10-15T00:02:53Z | Rust | Infrastructure/tooling | 7 | 5 | 7 | 7 |
@@ -100,7 +101,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apoelstra/rust-jsonrpc](https://github.com/apoelstra/rust-jsonrpc) | 159 | 2024-09-04T13:42:07Z | Rust | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [BurntSushi/cargo-benchcmp](https://github.com/BurntSushi/cargo-benchcmp) | 367 | 2024-08-29T16:45:27Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [Michael-F-Bryan/mdbook-linkcheck](https://github.com/Michael-F-Bryan/mdbook-linkcheck) | 169 | 2024-08-15T13:00:47Z | Rust | Infrastructure/tooling | 2 | 7 | 2 | 2 |
-| [clog-tool/clog-cli](https://github.com/clog-tool/clog-cli) | 915 | 2024-08-15T12:54:21Z | Rust | Infrastructure/tooling | 4 | 10 | 4 | 4 |
+| [clog-tool/clog-cli](https://github.com/clog-tool/clog-cli) | 916 | 2024-08-15T12:54:21Z | Rust | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [rust-lang-ja/rust-by-example-ja](https://github.com/rust-lang-ja/rust-by-example-ja) | 163 | 2024-07-26T02:01:46Z | Rust | Unknown | 3 | 0 | 3 | 3 |
 | [dotenv-rs/dotenv](https://github.com/dotenv-rs/dotenv) | 624 | 2024-07-16T17:50:46Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [apache/dubbo-rust](https://github.com/apache/dubbo-rust) | 290 | 2024-07-15T10:20:21Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
@@ -208,7 +209,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [smol-rs/async-channel](https://github.com/smol-rs/async-channel) | 938 | 2025-07-06T07:06:43Z | Rust | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [tazz4843/whisper-rs](https://github.com/tazz4843/whisper-rs) | 937 | 2025-07-30T01:18:46Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [heim-rs/heim](https://github.com/heim-rs/heim) | 923 | 2024-07-14T05:21:56Z | Rust | Infrastructure/tooling | 19 | 8 | 19 | 19 |
-| [clog-tool/clog-cli](https://github.com/clog-tool/clog-cli) | 915 | 2024-08-15T12:54:21Z | Rust | Infrastructure/tooling | 4 | 10 | 4 | 4 |
+| [clog-tool/clog-cli](https://github.com/clog-tool/clog-cli) | 916 | 2024-08-15T12:54:21Z | Rust | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [arkworks-rs/snark](https://github.com/arkworks-rs/snark) | 902 | 2025-09-12T23:19:29Z | Rust | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [facebook/winterfell](https://github.com/facebook/winterfell) | 889 | 2025-07-19T21:21:16Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [nachoparker/dutree](https://github.com/nachoparker/dutree) | 871 | 2022-06-29T08:44:36Z | Rust | Unknown | 2 | 0 | 2 | 2 |
@@ -276,6 +277,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [arkworks-rs/groth16](https://github.com/arkworks-rs/groth16) | 338 | 2025-08-11T21:55:36Z | Rust | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [microsoft/vscode-remote-try-rust](https://github.com/microsoft/vscode-remote-try-rust) | 327 | 2024-04-12T07:36:35Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [aryakaul/rusty-krab-manager](https://github.com/aryakaul/rusty-krab-manager) | 327 | 2023-03-20T10:59:27Z | Rust | Infrastructure/tooling | 4 | 4 | 4 | 4 |
+| [rust-analyzer/ungrammar](https://github.com/rust-analyzer/ungrammar) | 324 | 2025-11-08T12:34:26Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [arkworks-rs/marlin](https://github.com/arkworks-rs/marlin) | 324 | 2024-01-18T06:19:08Z | Rust | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [inherd/coco](https://github.com/inherd/coco) | 323 | 2022-09-22T15:46:45Z | Rust | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [cowprotocol/ethcontract-rs](https://github.com/cowprotocol/ethcontract-rs) | 321 | 2025-09-24T07:18:04Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |

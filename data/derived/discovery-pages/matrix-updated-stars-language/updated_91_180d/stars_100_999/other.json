@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 741,
-    "concepts": 677,
-    "observations": 678,
-    "repos": 172,
-    "terms": 674
+    "components": 747,
+    "concepts": 690,
+    "observations": 691,
+    "repos": 175,
+    "terms": 687
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -43,6 +43,7 @@
     "bfrg/vim-c-cpp-modern",
     "bioinf-jku/TTUR",
     "BlinkDL/RWKV-CUDA",
+    "BrunoBonacci/mulog",
     "chakravala/Reduce.jl",
     "cleanlab/examples",
     "clj-commons/etaoin",
@@ -93,6 +94,7 @@
     "grpc/grpc-dart",
     "gvvaughan/lyaml",
     "haskell/text",
+    "HelgeSverre/toon-php",
     "Helsinki-NLP/OPUS-MT-train",
     "HerringtonDarkholme/yats.vim",
     "hollowstrawberry/kohya-colab",
@@ -170,6 +172,7 @@
     "Tencent-Hunyuan/flex-block-attn",
     "terraform-aws-modules/terraform-aws-apigateway-v2",
     "thinkdepthai/Deep_Research",
+    "tomas-abrahamsson/gpb",
     "tomekw/hikari-cp",
     "travis-ci/travis-build",
     "vim-jp/vim-cpp",

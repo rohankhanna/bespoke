@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 184,
-    "concepts": 102,
-    "observations": 102,
-    "repos": 49,
-    "terms": 120
+    "concepts": 103,
+    "observations": 103,
+    "repos": 50,
+    "terms": 121
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "adaumann/speckit-preset-fiction-book-writing",
@@ -36,6 +36,7 @@
     "cdxeve/scale-openclaw",
     "chaoss/grimoirelab-toolkit",
     "cjtruheart/abundance-codex",
+    "conda-forge/threadpoolctl-feedstock",
     "CoolCat467/idlemypyextension",
     "danielrosehill/Geopol-Forecaster",
     "dora-rs/dora-benchmark",

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 59
-- terms: 296
+- terms: 315
 - components: 169
-- concepts: 304
-- observations: 304
+- concepts: 323
+- observations: 323
 
 ## Static behavior
 
@@ -26,8 +26,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [heshengtao/comfyui_LLM_party](https://github.com/heshengtao/comfyui_LLM_party) | 2212 | 2026-03-08T17:40:45Z | Python | Infrastructure/tooling | 14 | 2 | 14 | 14 |
+| [anapnoe/stable-diffusion-webui-ux](https://github.com/anapnoe/stable-diffusion-webui-ux) | 1122 | 2026-03-08T17:35:40Z | Python | Infrastructure/tooling | 15 | 6 | 15 | 15 |
 | [gururise/AlpacaDataCleaned](https://github.com/gururise/AlpacaDataCleaned) | 1588 | 2026-03-07T14:15:41Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [nunchaku-ai/nunchaku](https://github.com/nunchaku-ai/nunchaku) | 3829 | 2026-03-07T06:42:49Z | Python | Infrastructure/tooling | 16 | 5 | 16 | 16 |
+| [the-moonwitch/Cozette](https://github.com/the-moonwitch/Cozette) | 3612 | 2026-03-07T12:14:24Z | Python | Infrastructure/tooling | 8 | 2 | 8 | 8 |
+| [nunchaku-ai/nunchaku](https://github.com/nunchaku-ai/nunchaku) | 3831 | 2026-03-07T06:42:49Z | Python | Infrastructure/tooling | 16 | 5 | 16 | 16 |
 | [randy3k/radian](https://github.com/randy3k/radian) | 2272 | 2026-03-07T04:32:55Z | Python | CLI | 6 | 3 | 6 | 6 |
 | [keleshev/schema](https://github.com/keleshev/schema) | 2944 | 2026-03-04T20:33:24Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [turboderp-org/exllamav2](https://github.com/turboderp-org/exllamav2) | 4514 | 2026-03-04T13:12:20Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
@@ -82,9 +85,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [webdataset/webdataset](https://github.com/webdataset/webdataset) | 3083 | 2026-02-09T14:48:08Z | Python | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [lupantech/AgentFlow](https://github.com/lupantech/AgentFlow) | 1803 | 2026-02-08T14:00:53Z | Python | Unknown | 7 | 0 | 7 | 7 |
 | [breezedeus/CnOCR](https://github.com/breezedeus/CnOCR) | 3748 | 2026-02-07T09:33:07Z | Python | Infrastructure/tooling | 3 | 0 | 4 | 4 |
-| [bazelbuild/starlark](https://github.com/bazelbuild/starlark) | 2957 | 2026-02-06T18:27:51Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [weaviate/elysia](https://github.com/weaviate/elysia) | 1902 | 2026-02-06T15:37:07Z | Python | Infrastructure/tooling | 4 | 10 | 4 | 4 |
-| [CLUEbenchmark/CLUE](https://github.com/CLUEbenchmark/CLUE) | 4253 | 2026-02-06T11:41:17Z | Python | Model/data | 14 | 0 | 14 | 14 |
 
 ## Repos sorted by stars
 
@@ -105,19 +105,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ace-step/ACE-Step](https://github.com/ace-step/ACE-Step) | 4395 | 2026-02-15T04:57:54Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [novnc/websockify](https://github.com/novnc/websockify) | 4383 | 2026-02-11T16:10:56Z | Python | Infrastructure/tooling | 12 | 1 | 12 | 12 |
 | [anthropics/claude-code-security-review](https://github.com/anthropics/claude-code-security-review) | 4314 | 2026-02-11T18:01:23Z | Python | Infrastructure/tooling | 2 | 4 | 2 | 2 |
-| [CLUEbenchmark/CLUE](https://github.com/CLUEbenchmark/CLUE) | 4253 | 2026-02-06T11:41:17Z | Python | Model/data | 14 | 0 | 14 | 14 |
 | [Python-Markdown/markdown](https://github.com/Python-Markdown/markdown) | 4195 | 2026-02-09T14:57:00Z | Python | Infrastructure/tooling | 5 | 7 | 9 | 9 |
 | [open-webui/mcpo](https://github.com/open-webui/mcpo) | 4168 | 2026-02-27T17:58:13Z | Python | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [CrazyBoyM/llama3-Chinese-chat](https://github.com/CrazyBoyM/llama3-Chinese-chat) | 4163 | 2026-02-21T08:22:18Z | Python | Unknown | 5 | 0 | 5 | 5 |
-| [nunchaku-ai/nunchaku](https://github.com/nunchaku-ai/nunchaku) | 3829 | 2026-03-07T06:42:49Z | Python | Infrastructure/tooling | 16 | 5 | 16 | 16 |
+| [nunchaku-ai/nunchaku](https://github.com/nunchaku-ai/nunchaku) | 3831 | 2026-03-07T06:42:49Z | Python | Infrastructure/tooling | 16 | 5 | 16 | 16 |
 | [breezedeus/CnOCR](https://github.com/breezedeus/CnOCR) | 3748 | 2026-02-07T09:33:07Z | Python | Infrastructure/tooling | 3 | 0 | 4 | 4 |
+| [the-moonwitch/Cozette](https://github.com/the-moonwitch/Cozette) | 3612 | 2026-03-07T12:14:24Z | Python | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [ZhengPeng7/BiRefNet](https://github.com/ZhengPeng7/BiRefNet) | 3381 | 2026-02-27T07:47:55Z | Python | Unknown | 7 | 0 | 7 | 7 |
 | [adrienverge/yamllint](https://github.com/adrienverge/yamllint) | 3368 | 2026-02-23T07:56:09Z | Python | Infrastructure/tooling | 5 | 7 | 6 | 6 |
 | [jaredks/rumps](https://github.com/jaredks/rumps) | 3297 | 2026-02-27T20:29:24Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [Beckschen/TransUNet](https://github.com/Beckschen/TransUNet) | 3172 | 2026-02-25T04:44:14Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [webdataset/webdataset](https://github.com/webdataset/webdataset) | 3083 | 2026-02-09T14:48:08Z | Python | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [facebookresearch/habitat-lab](https://github.com/facebookresearch/habitat-lab) | 2962 | 2026-02-21T02:11:09Z | Python | Infrastructure/tooling | 10 | 5 | 10 | 10 |
-| [bazelbuild/starlark](https://github.com/bazelbuild/starlark) | 2957 | 2026-02-06T18:27:51Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [keleshev/schema](https://github.com/keleshev/schema) | 2944 | 2026-03-04T20:33:24Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [nunchaku-ai/ComfyUI-nunchaku](https://github.com/nunchaku-ai/ComfyUI-nunchaku) | 2861 | 2026-02-19T07:29:18Z | Python | Infrastructure/tooling | 12 | 7 | 12 | 12 |
 | [palantir/python-language-server](https://github.com/palantir/python-language-server) | 2690 | 2026-02-12T19:23:02Z | Python | Infrastructure/tooling | 5 | 3 | 5 | 5 |
@@ -129,8 +128,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [SafeAILab/EAGLE](https://github.com/SafeAILab/EAGLE) | 2297 | 2026-02-20T02:53:29Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [isl-org/Open3D-ML](https://github.com/isl-org/Open3D-ML) | 2278 | 2026-02-25T17:42:20Z | Python | Infrastructure/tooling | 11 | 3 | 13 | 13 |
 | [randy3k/radian](https://github.com/randy3k/radian) | 2272 | 2026-03-07T04:32:55Z | Python | CLI | 6 | 3 | 6 | 6 |
+| [heshengtao/comfyui_LLM_party](https://github.com/heshengtao/comfyui_LLM_party) | 2212 | 2026-03-08T17:40:45Z | Python | Infrastructure/tooling | 14 | 2 | 14 | 14 |
 | [LTH14/mar](https://github.com/LTH14/mar) | 1905 | 2026-02-20T16:07:51Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [weaviate/elysia](https://github.com/weaviate/elysia) | 1902 | 2026-02-06T15:37:07Z | Python | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [bytetriper/RAE](https://github.com/bytetriper/RAE) | 1870 | 2026-02-25T23:07:26Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [langfengQ/verl-agent](https://github.com/langfengQ/verl-agent) | 1831 | 2026-02-27T05:29:25Z | Python | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [lupantech/AgentFlow](https://github.com/lupantech/AgentFlow) | 1803 | 2026-02-08T14:00:53Z | Python | Unknown | 7 | 0 | 7 | 7 |
@@ -146,6 +145,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pfnet/pfrl](https://github.com/pfnet/pfrl) | 1269 | 2026-03-02T04:48:45Z | Python | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [toshas/torch-fidelity](https://github.com/toshas/torch-fidelity) | 1178 | 2026-02-17T21:04:26Z | Python | Infrastructure/tooling | 13 | 4 | 13 | 13 |
 | [YosysHQ/icestorm](https://github.com/YosysHQ/icestorm) | 1154 | 2026-02-26T14:31:07Z | Python | Docs/knowledge | 0 | 0 | 0 | 0 |
+| [anapnoe/stable-diffusion-webui-ux](https://github.com/anapnoe/stable-diffusion-webui-ux) | 1122 | 2026-03-08T17:35:40Z | Python | Infrastructure/tooling | 15 | 6 | 15 | 15 |
 | [daijro/browserforge](https://github.com/daijro/browserforge) | 1074 | 2026-02-26T09:09:22Z | Python | Unknown | 7 | 0 | 7 | 7 |
 | [python-semantic-release/python-semantic-release](https://github.com/python-semantic-release/python-semantic-release) | 1024 | 2026-03-02T19:57:01Z | Python | Infrastructure/tooling | 7 | 13 | 7 | 7 |
 | [benjaminp/six](https://github.com/benjaminp/six) | 1018 | 2026-02-23T02:19:45Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |

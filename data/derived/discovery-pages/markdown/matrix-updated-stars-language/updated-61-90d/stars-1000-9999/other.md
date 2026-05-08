@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 44
-- terms: 256
-- components: 177
-- concepts: 253
-- observations: 254
+- repos: 49
+- terms: 286
+- components: 212
+- concepts: 283
+- observations: 284
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [onnx/models](https://github.com/onnx/models) | 9557 | 2026-03-09T03:26:31Z | Other | Infrastructure/tooling | 6 | 4 | 6 | 6 |
+| [jpanther/congo](https://github.com/jpanther/congo) | 1619 | 2026-03-08T22:03:07Z | Other | Infrastructure/tooling | 14 | 22 | 14 | 14 |
+| [clojure/clojurescript](https://github.com/clojure/clojurescript) | 9387 | 2026-03-08T16:25:04Z | Other | Infrastructure/tooling | 2 | 7 | 2 | 2 |
+| [dimitri/el-get](https://github.com/dimitri/el-get) | 1660 | 2026-03-08T13:07:08Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [activerecord-hackery/ransack](https://github.com/activerecord-hackery/ransack) | 5853 | 2026-03-04T15:27:04Z | Other | Infrastructure/tooling | 14 | 8 | 14 | 14 |
 | [timdorr/tesla-api](https://github.com/timdorr/tesla-api) | 2055 | 2026-03-04T13:42:11Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [facebookresearch/co-tracker](https://github.com/facebookresearch/co-tracker) | 4925 | 2026-03-03T21:51:22Z | Other | Model/data | 3 | 0 | 3 | 3 |
@@ -50,6 +54,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sbt/sbt-native-packager](https://github.com/sbt/sbt-native-packager) | 1608 | 2026-02-22T17:06:38Z | Other | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [IDEA-Research/Rex-Omni](https://github.com/IDEA-Research/Rex-Omni) | 1327 | 2026-02-22T02:59:06Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [3rd/image.nvim](https://github.com/3rd/image.nvim) | 1962 | 2026-02-21T15:06:58Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
+| [Vigemus/iron.nvim](https://github.com/Vigemus/iron.nvim) | 1338 | 2026-02-20T23:54:30Z | Other | Unknown | 8 | 0 | 8 | 8 |
 | [rails/tailwindcss-rails](https://github.com/rails/tailwindcss-rails) | 1584 | 2026-02-20T03:41:57Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [kaminari/kaminari](https://github.com/kaminari/kaminari) | 8670 | 2026-02-20T00:33:30Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [woct0rdho/triton-windows](https://github.com/woct0rdho/triton-windows) | 1915 | 2026-02-18T16:59:37Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
@@ -75,6 +80,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [onnx/models](https://github.com/onnx/models) | 9557 | 2026-03-09T03:26:31Z | Other | Infrastructure/tooling | 6 | 4 | 6 | 6 |
+| [clojure/clojurescript](https://github.com/clojure/clojurescript) | 9387 | 2026-03-08T16:25:04Z | Other | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [javan/whenever](https://github.com/javan/whenever) | 8871 | 2026-03-02T03:08:54Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [OpenBMB/MiniCPM](https://github.com/OpenBMB/MiniCPM) | 8833 | 2026-02-11T13:55:08Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [kaminari/kaminari](https://github.com/kaminari/kaminari) | 8670 | 2026-02-20T00:33:30Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
@@ -104,12 +111,15 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cognitect/transit-format](https://github.com/cognitect/transit-format) | 1908 | 2026-02-24T15:12:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [amebalabs/TRex](https://github.com/amebalabs/TRex) | 1787 | 2026-02-13T18:43:06Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [parruda/swarm](https://github.com/parruda/swarm) | 1708 | 2026-02-17T02:07:40Z | Other | CLI | 5 | 5 | 5 | 5 |
+| [dimitri/el-get](https://github.com/dimitri/el-get) | 1660 | 2026-03-08T13:07:08Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
+| [jpanther/congo](https://github.com/jpanther/congo) | 1619 | 2026-03-08T22:03:07Z | Other | Infrastructure/tooling | 14 | 22 | 14 | 14 |
 | [sbt/sbt-native-packager](https://github.com/sbt/sbt-native-packager) | 1608 | 2026-02-22T17:06:38Z | Other | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [rails/tailwindcss-rails](https://github.com/rails/tailwindcss-rails) | 1584 | 2026-02-20T03:41:57Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [Glavin001/atom-beautify](https://github.com/Glavin001/atom-beautify) | 1503 | 2026-02-14T14:00:33Z | Other | Library | 7 | 46 | 7 | 7 |
 | [mfussenegger/nvim-jdtls](https://github.com/mfussenegger/nvim-jdtls) | 1461 | 2026-02-10T20:22:51Z | Other | CLI | 4 | 0 | 4 | 4 |
 | [dashbitco/mox](https://github.com/dashbitco/mox) | 1392 | 2026-02-24T16:39:20Z | Other | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [emacs-lsp/dap-mode](https://github.com/emacs-lsp/dap-mode) | 1375 | 2026-02-08T14:03:57Z | Other | Infrastructure/tooling | 10 | 5 | 10 | 10 |
+| [Vigemus/iron.nvim](https://github.com/Vigemus/iron.nvim) | 1338 | 2026-02-20T23:54:30Z | Other | Unknown | 8 | 0 | 8 | 8 |
 | [IDEA-Research/Rex-Omni](https://github.com/IDEA-Research/Rex-Omni) | 1327 | 2026-02-22T02:59:06Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [dspinellis/latex-advice](https://github.com/dspinellis/latex-advice) | 1276 | 2026-02-10T07:49:32Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [msasanmh/DNSveil](https://github.com/msasanmh/DNSveil) | 1261 | 2026-02-23T17:00:48Z | Other | CLI | 12 | 0 | 12 | 12 |

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 366
-- terms: 1044
-- components: 4632
-- concepts: 1056
-- observations: 1056
+- repos: 365
+- terms: 1040
+- components: 4629
+- concepts: 1052
+- observations: 1052
 
 ## Static behavior
 
@@ -391,7 +391,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eugeneware/gifencoder](https://github.com/eugeneware/gifencoder) | 477 | 2021-05-31T18:57:27Z | JavaScript | Service/API | 0 | 8 | 0 | 0 |
 | [update/update](https://github.com/update/update) | 131 | 2021-05-21T08:35:17Z | JavaScript | CLI | 11 | 50 | 11 | 11 |
 | [pvdlg/conventional-changelog-metahub](https://github.com/pvdlg/conventional-changelog-metahub) | 452 | 2021-05-13T12:57:44Z | JavaScript | Unknown | 6 | 17 | 6 | 6 |
-| [styled-components/babel-plugin-polished](https://github.com/styled-components/babel-plugin-polished) | 138 | 2021-05-08T10:06:36Z | JavaScript | Web app | 4 | 3 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -706,7 +705,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dylanblokhuis/svelte-feather-icons](https://github.com/dylanblokhuis/svelte-feather-icons) | 139 | 2024-10-31T09:35:10Z | JavaScript | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [jonidelv/generator-create-redux-app](https://github.com/jonidelv/generator-create-redux-app) | 139 | 2023-01-06T01:44:36Z | JavaScript | Unknown | 7 | 12 | 7 | 7 |
 | [ghostery/user-agent-desktop](https://github.com/ghostery/user-agent-desktop) | 138 | 2025-02-17T09:00:33Z | JavaScript | Web app | 4 | 14 | 4 | 4 |
-| [styled-components/babel-plugin-polished](https://github.com/styled-components/babel-plugin-polished) | 138 | 2021-05-08T10:06:36Z | JavaScript | Web app | 4 | 3 | 4 | 4 |
 | [khaledosman/react-redux-realworld-example-app](https://github.com/khaledosman/react-redux-realworld-example-app) | 136 | 2024-03-13T13:18:51Z | JavaScript | Web app | 0 | 33 | 0 | 0 |
 | [heroku/facebook-template-nodejs](https://github.com/heroku/facebook-template-nodejs) | 134 | 2024-10-15T23:38:48Z | JavaScript | Unknown | 0 | 4 | 0 | 0 |
 | [mapbox/which-polygon](https://github.com/mapbox/which-polygon) | 134 | 2023-02-16T16:35:19Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |

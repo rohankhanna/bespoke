@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 177,
-    "concepts": 253,
-    "observations": 254,
-    "repos": 44,
-    "terms": 256
+    "components": 212,
+    "concepts": 283,
+    "observations": 284,
+    "repos": 49,
+    "terms": 286
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
@@ -21,10 +21,12 @@
     "artempyanykh/marksman",
     "bakpakin/Fennel",
     "breezedeus/Pix2Text",
+    "clojure/clojurescript",
     "cognitect/transit-format",
     "dashbitco/mox",
     "datawhalechina/tiny-universe",
     "Deci-AI/super-gradients",
+    "dimitri/el-get",
     "dspinellis/latex-advice",
     "emacs-lsp/dap-mode",
     "facebookresearch/co-tracker",
@@ -34,6 +36,7 @@
     "googleapis/elixir-google-api",
     "IDEA-Research/Rex-Omni",
     "javan/whenever",
+    "jpanther/congo",
     "kaminari/kaminari",
     "kristijanhusak/vim-dadbod-ui",
     "krzysztofzablocki/Sourcery",
@@ -42,6 +45,7 @@
     "mono/CppSharp",
     "msasanmh/DNSveil",
     "omniauth/omniauth",
+    "onnx/models",
     "OpenBMB/MiniCPM",
     "parruda/swarm",
     "preservim/vimux",
@@ -56,6 +60,7 @@
     "timdorr/tesla-api",
     "touchlab/droidconkotlin",
     "v2fly/v2ray-examples",
+    "Vigemus/iron.nvim",
     "vkhorikov/CSharpFunctionalExtensions",
     "woct0rdho/triton-windows"
   ]

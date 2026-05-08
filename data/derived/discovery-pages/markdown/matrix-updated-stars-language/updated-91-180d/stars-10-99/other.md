@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 111
-- terms: 279
-- components: 342
-- concepts: 280
-- observations: 281
+- repos: 110
+- terms: 275
+- components: 341
+- concepts: 276
+- observations: 277
 
 ## Static behavior
 
@@ -93,7 +93,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cleanlab/cleanvision-examples](https://github.com/cleanlab/cleanvision-examples) | 17 | 2025-12-16T00:51:46Z | Other | Library | 4 | 0 | 4 | 4 |
 | [cmacdonald/pyt_splade](https://github.com/cmacdonald/pyt_splade) | 15 | 2025-12-15T10:39:22Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [honwen/openwrt-shadowsocks-rust](https://github.com/honwen/openwrt-shadowsocks-rust) | 71 | 2025-12-15T09:04:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [Cle2ment/CherryStudio_themes](https://github.com/Cle2ment/CherryStudio_themes) | 34 | 2025-12-15T08:54:57Z | Other | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [probe-lab/network-measurements](https://github.com/probe-lab/network-measurements) | 56 | 2025-12-12T06:36:51Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [sbcgua/abap-string-map](https://github.com/sbcgua/abap-string-map) | 17 | 2025-12-11T08:40:13Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [getumbrel/umbrel-lightning](https://github.com/getumbrel/umbrel-lightning) | 23 | 2025-12-09T01:15:09Z | Other | Infrastructure/tooling | 10 | 3 | 10 | 10 |
@@ -202,7 +201,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [abapGit/ADT_Backend](https://github.com/abapGit/ADT_Backend) | 35 | 2026-01-29T11:05:51Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [ayrat555/cargo-mode](https://github.com/ayrat555/cargo-mode) | 35 | 2026-01-14T08:40:34Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [aarroyoc/doclog](https://github.com/aarroyoc/doclog) | 34 | 2026-01-05T09:55:59Z | Other | Infrastructure/tooling | 2 | 1 | 2 | 2 |
-| [Cle2ment/CherryStudio_themes](https://github.com/Cle2ment/CherryStudio_themes) | 34 | 2025-12-15T08:54:57Z | Other | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [hspec/sensei](https://github.com/hspec/sensei) | 32 | 2026-02-01T09:46:25Z | Other | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [GunnarFarneback/LocalPackageServer.jl](https://github.com/GunnarFarneback/LocalPackageServer.jl) | 32 | 2025-11-27T19:42:06Z | Other | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [bitbeans/minisign-net](https://github.com/bitbeans/minisign-net) | 32 | 2025-11-17T04:00:43Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |

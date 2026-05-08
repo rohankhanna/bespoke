@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 56
-- terms: 242
-- components: 780
-- concepts: 233
-- observations: 233
+- repos: 58
+- terms: 256
+- components: 834
+- concepts: 247
+- observations: 247
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Atheos/Atheos](https://github.com/Atheos/Atheos) | 665 | 2026-04-07T15:25:03Z | JavaScript | Infrastructure/tooling | 8 | 14 | 8 | 8 |
+| [ipld/explore.ipld.io](https://github.com/ipld/explore.ipld.io) | 132 | 2026-04-07T13:06:20Z | JavaScript | Infrastructure/tooling | 6 | 40 | 6 | 6 |
 | [gruntjs/grunt-contrib-connect](https://github.com/gruntjs/grunt-contrib-connect) | 709 | 2026-04-07T03:36:11Z | JavaScript | Infrastructure/tooling | 1 | 15 | 1 | 1 |
 | [d3/d3-format](https://github.com/d3/d3-format) | 641 | 2026-04-06T22:41:56Z | JavaScript | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [ember-cli/ember-exam](https://github.com/ember-cli/ember-exam) | 289 | 2026-04-06T21:58:12Z | JavaScript | CLI | 9 | 56 | 9 | 9 |
@@ -103,6 +105,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [igvteam/igv.js](https://github.com/igvteam/igv.js) | 719 | 2026-03-20T00:51:27Z | JavaScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
 | [gruntjs/grunt-contrib-connect](https://github.com/gruntjs/grunt-contrib-connect) | 709 | 2026-04-07T03:36:11Z | JavaScript | Infrastructure/tooling | 1 | 15 | 1 | 1 |
 | [mourner/kdbush](https://github.com/mourner/kdbush) | 698 | 2026-03-30T00:53:02Z | JavaScript | Infrastructure/tooling | 5 | 7 | 6 | 6 |
+| [Atheos/Atheos](https://github.com/Atheos/Atheos) | 665 | 2026-04-07T15:25:03Z | JavaScript | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [d3/d3-format](https://github.com/d3/d3-format) | 641 | 2026-04-06T22:41:56Z | JavaScript | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [GoogleChromeLabs/wasm-feature-detect](https://github.com/GoogleChromeLabs/wasm-feature-detect) | 633 | 2026-03-27T19:53:12Z | JavaScript | Web app | 0 | 10 | 0 | 0 |
 | [rstudio/DT](https://github.com/rstudio/DT) | 620 | 2026-03-23T18:01:03Z | JavaScript | Infrastructure/tooling | 5 | 3 | 5 | 5 |
@@ -140,6 +143,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [CyberAP/nanoid-dictionary](https://github.com/CyberAP/nanoid-dictionary) | 144 | 2026-03-29T10:37:22Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [mourner/flatqueue](https://github.com/mourner/flatqueue) | 144 | 2026-03-26T07:01:04Z | JavaScript | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [rtfeldman/node-test-runner](https://github.com/rtfeldman/node-test-runner) | 139 | 2026-03-30T21:00:12Z | JavaScript | Infrastructure/tooling | 2 | 24 | 2 | 2 |
+| [ipld/explore.ipld.io](https://github.com/ipld/explore.ipld.io) | 132 | 2026-04-07T13:06:20Z | JavaScript | Infrastructure/tooling | 6 | 40 | 6 | 6 |
 | [d3/d3-geo-polygon](https://github.com/d3/d3-geo-polygon) | 123 | 2026-03-26T11:02:59Z | JavaScript | CLI | 5 | 20 | 5 | 5 |
 | [beve-org/beve](https://github.com/beve-org/beve) | 120 | 2026-04-06T13:30:35Z | JavaScript | Infrastructure/tooling | 9 | 2 | 9 | 9 |
 | [googleapis/nodejs-bigtable](https://github.com/googleapis/nodejs-bigtable) | 106 | 2026-03-26T16:19:10Z | JavaScript | CLI | 6 | 66 | 6 | 6 |

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · JavaScript
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 49
-- terms: 417
-- components: 787
-- concepts: 416
-- observations: 416
+- repos: 53
+- terms: 421
+- components: 939
+- concepts: 420
+- observations: 420
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [metosin/open-source](https://github.com/metosin/open-source) | 6 | 2026-04-24T04:56:42Z | JavaScript | Infrastructure/tooling | 3 | 1 | 3 | 3 |
+| [eea/eea-website-frontend](https://github.com/eea/eea-website-frontend) | 2 | 2026-04-23T20:40:22Z | JavaScript | Infrastructure/tooling | 1 | 62 | 1 | 1 |
+| [eea/bise-frontend](https://github.com/eea/bise-frontend) | 6 | 2026-04-23T18:45:31Z | JavaScript | Infrastructure/tooling | 0 | 43 | 0 | 0 |
+| [eea/fise-frontend](https://github.com/eea/fise-frontend) | 5 | 2026-04-23T18:41:56Z | JavaScript | Infrastructure/tooling | 0 | 46 | 0 | 0 |
 | [newrelic/csec-node-agent](https://github.com/newrelic/csec-node-agent) | 3 | 2026-04-22T22:31:23Z | JavaScript | Infrastructure/tooling | 4 | 55 | 4 | 4 |
 | [angular/dev-infra-private-ng-dev-builds](https://github.com/angular/dev-infra-private-ng-dev-builds) | 4 | 2026-04-22T22:21:53Z | JavaScript | Web app | 0 | 54 | 0 | 0 |
 | [locize/locize-lastused](https://github.com/locize/locize-lastused) | 3 | 2026-04-22T21:31:11Z | JavaScript | Infrastructure/tooling | 7 | 25 | 7 | 7 |
@@ -90,7 +94,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ipfs-shipyard/js-mock-ipfs-pinning-service](https://github.com/ipfs-shipyard/js-mock-ipfs-pinning-service) | 7 | 2026-04-11T17:25:18Z | JavaScript | Infrastructure/tooling | 2 | 25 | 2 | 2 |
 | [ehmicky/get-node-cli](https://github.com/ehmicky/get-node-cli) | 7 | 2026-04-11T15:03:42Z | JavaScript | CLI | 15 | 14 | 16 | 16 |
 | [collective/mrs-developer](https://github.com/collective/mrs-developer) | 7 | 2026-04-11T10:38:40Z | JavaScript | Infrastructure/tooling | 0 | 14 | 0 | 0 |
+| [metosin/open-source](https://github.com/metosin/open-source) | 6 | 2026-04-24T04:56:42Z | JavaScript | Infrastructure/tooling | 3 | 1 | 3 | 3 |
+| [eea/bise-frontend](https://github.com/eea/bise-frontend) | 6 | 2026-04-23T18:45:31Z | JavaScript | Infrastructure/tooling | 0 | 43 | 0 | 0 |
 | [Taritsyn/AutoprefixerHost](https://github.com/Taritsyn/AutoprefixerHost) | 6 | 2026-04-14T17:15:22Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [eea/fise-frontend](https://github.com/eea/fise-frontend) | 5 | 2026-04-23T18:41:56Z | JavaScript | Infrastructure/tooling | 0 | 46 | 0 | 0 |
 | [agent-sh/agent-core](https://github.com/agent-sh/agent-core) | 5 | 2026-04-14T23:27:14Z | JavaScript | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [kellyselden/boilerplate-update](https://github.com/kellyselden/boilerplate-update) | 5 | 2026-04-10T18:45:11Z | JavaScript | Infrastructure/tooling | 1 | 37 | 1 | 1 |
 | [angular/dev-infra-private-ng-dev-builds](https://github.com/angular/dev-infra-private-ng-dev-builds) | 4 | 2026-04-22T22:21:53Z | JavaScript | Web app | 0 | 54 | 0 | 0 |
@@ -110,6 +117,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [agent-sh/enhance](https://github.com/agent-sh/enhance) | 3 | 2026-04-14T23:26:52Z | JavaScript | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [istanbuljs/schema](https://github.com/istanbuljs/schema) | 3 | 2026-04-13T11:04:17Z | JavaScript | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [stdlib-js/streams-node-stdin](https://github.com/stdlib-js/streams-node-stdin) | 3 | 2026-04-12T03:41:16Z | JavaScript | Infrastructure/tooling | 12 | 15 | 12 | 12 |
+| [eea/eea-website-frontend](https://github.com/eea/eea-website-frontend) | 2 | 2026-04-23T20:40:22Z | JavaScript | Infrastructure/tooling | 1 | 62 | 1 | 1 |
 | [certible/superagent-aws-sign](https://github.com/certible/superagent-aws-sign) | 2 | 2026-04-22T19:00:44Z | JavaScript | Infrastructure/tooling | 2 | 16 | 2 | 2 |
 | [recap-utr/arg-services](https://github.com/recap-utr/arg-services) | 2 | 2026-04-21T16:45:52Z | JavaScript | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [j9t/htaccess-punk](https://github.com/j9t/htaccess-punk) | 2 | 2026-04-21T10:02:10Z | JavaScript | Infrastructure/tooling | 10 | 5 | 10 | 10 |

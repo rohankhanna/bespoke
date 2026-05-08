@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 730,
-    "concepts": 145,
-    "observations": 145,
-    "repos": 28,
-    "terms": 145
+    "components": 469,
+    "concepts": 101,
+    "observations": 101,
+    "repos": 20,
+    "terms": 101
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "abaplint/transpiler",
     "aggre/ullr",
@@ -20,26 +20,18 @@
     "carbon-design-system/carbon-preprocess-svelte",
     "csm-actions/approve-pr-action",
     "csm-actions/securefix-action",
-    "forcedotcom/agents",
-    "ghostery/broken-page-reports",
     "GoogleCloudPlatform/opentelemetry-demo",
     "ibm-telemetry/telemetry-js",
     "iconify/iconify-tailwind",
     "iconify/tools",
     "intlify/cli",
-    "intlify/vue-i18n-extensions",
     "jbaubree/vite-plugin-pages-sitemap",
-    "jest-community/eslint-plugin-jest-extended",
     "julia-actions/install-juliaup",
     "maplibre/maplibre-gl-inspect",
     "microsoft/Agents-for-js",
     "nuxt-modules/emotion",
-    "ogx-ai/ogx-client-typescript",
-    "prefix-dev/setup-pixi",
-    "rapideditor/location-conflation",
-    "rstackjs/rsbuild-plugin-tailwindcss",
-    "seung-lab/neuroglancer",
     "suzuki-shunsuke/pinact-action",
+    "TrigenSoftware/simple-release",
     "universal-ember/reactiveweb",
     "vincentlaucsb/experiencer"
   ]

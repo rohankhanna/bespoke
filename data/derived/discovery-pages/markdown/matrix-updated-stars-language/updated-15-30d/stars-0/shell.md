@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars · Shell
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 7
-- terms: 5
-- components: 2
-- concepts: 5
-- observations: 5
+- repos: 9
+- terms: 7
+- components: 7
+- concepts: 7
+- observations: 7
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [edward3h/bedrock-viz-from-backups](https://github.com/edward3h/bedrock-viz-from-backups) | 0 | 2026-04-24T01:53:19Z | Shell | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [conda-forge/ergocub-software-feedstock](https://github.com/conda-forge/ergocub-software-feedstock) | 0 | 2026-04-23T12:46:07Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [conda-forge/diffutils-feedstock](https://github.com/conda-forge/diffutils-feedstock) | 0 | 2026-04-23T07:16:40Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [conda-forge/bottom-feedstock](https://github.com/conda-forge/bottom-feedstock) | 0 | 2026-04-23T05:06:25Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [conda-forge/blis-feedstock](https://github.com/conda-forge/blis-feedstock) | 0 | 2026-04-23T05:02:51Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -38,6 +40,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [edward3h/bedrock-viz-from-backups](https://github.com/edward3h/bedrock-viz-from-backups) | 0 | 2026-04-24T01:53:19Z | Shell | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [conda-forge/ergocub-software-feedstock](https://github.com/conda-forge/ergocub-software-feedstock) | 0 | 2026-04-23T12:46:07Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [conda-forge/diffutils-feedstock](https://github.com/conda-forge/diffutils-feedstock) | 0 | 2026-04-23T07:16:40Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [conda-forge/bottom-feedstock](https://github.com/conda-forge/bottom-feedstock) | 0 | 2026-04-23T05:06:25Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [conda-forge/blis-feedstock](https://github.com/conda-forge/blis-feedstock) | 0 | 2026-04-23T05:02:51Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |

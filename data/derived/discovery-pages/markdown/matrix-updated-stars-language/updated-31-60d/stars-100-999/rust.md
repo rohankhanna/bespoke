@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 44
-- terms: 187
-- components: 221
-- concepts: 187
-- observations: 191
+- repos: 45
+- terms: 195
+- components: 236
+- concepts: 195
+- observations: 198
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [FedericoPonzi/Horust](https://github.com/FedericoPonzi/Horust) | 275 | 2026-04-07T22:15:28Z | Rust | Infrastructure/tooling | 8 | 10 | 8 | 8 |
+| [ctz/graviola](https://github.com/ctz/graviola) | 255 | 2026-04-07T11:27:02Z | Rust | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [drahnr/cargo-spellcheck](https://github.com/drahnr/cargo-spellcheck) | 359 | 2026-04-07T07:12:02Z | Rust | Infrastructure/tooling | 12 | 5 | 12 | 12 |
 | [iqlusioninc/tmkms](https://github.com/iqlusioninc/tmkms) | 363 | 2026-04-06T18:56:26Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [iqlusioninc/abscissa](https://github.com/iqlusioninc/abscissa) | 590 | 2026-04-06T13:05:55Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
@@ -46,7 +48,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Nugine/simd](https://github.com/Nugine/simd) | 252 | 2026-03-30T03:25:38Z | Rust | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [esp-rs/esp-idf-svc](https://github.com/esp-rs/esp-idf-svc) | 507 | 2026-03-29T11:45:55Z | Rust | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [gimli-rs/addr2line](https://github.com/gimli-rs/addr2line) | 414 | 2026-03-29T10:25:00Z | Rust | Infrastructure/tooling | 6 | 2 | 6 | 7 |
-| [attackgoat/vk-graph](https://github.com/attackgoat/vk-graph) | 336 | 2026-03-27T14:42:56Z | Rust | Infrastructure/tooling | 7 | 5 | 7 | 8 |
 | [DoumanAsh/xxhash-rust](https://github.com/DoumanAsh/xxhash-rust) | 282 | 2026-03-27T00:31:29Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 4 |
 | [cedar-policy/cedar-examples](https://github.com/cedar-policy/cedar-examples) | 110 | 2026-03-26T18:35:16Z | Rust | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [dfrg/swash](https://github.com/dfrg/swash) | 840 | 2026-03-26T13:19:27Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
@@ -101,9 +102,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [iqlusioninc/tmkms](https://github.com/iqlusioninc/tmkms) | 363 | 2026-04-06T18:56:26Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [drahnr/cargo-spellcheck](https://github.com/drahnr/cargo-spellcheck) | 359 | 2026-04-07T07:12:02Z | Rust | Infrastructure/tooling | 12 | 5 | 12 | 12 |
 | [cryscan/web-rwkv](https://github.com/cryscan/web-rwkv) | 347 | 2026-04-01T05:31:36Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
-| [attackgoat/vk-graph](https://github.com/attackgoat/vk-graph) | 336 | 2026-03-27T14:42:56Z | Rust | Infrastructure/tooling | 7 | 5 | 7 | 8 |
 | [DoumanAsh/xxhash-rust](https://github.com/DoumanAsh/xxhash-rust) | 282 | 2026-03-27T00:31:29Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 4 |
+| [FedericoPonzi/Horust](https://github.com/FedericoPonzi/Horust) | 275 | 2026-04-07T22:15:28Z | Rust | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [dtolnay/readonly](https://github.com/dtolnay/readonly) | 265 | 2026-03-24T02:37:41Z | Rust | Infrastructure/tooling | 0 | 10 | 0 | 0 |
+| [ctz/graviola](https://github.com/ctz/graviola) | 255 | 2026-04-07T11:27:02Z | Rust | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [Nugine/simd](https://github.com/Nugine/simd) | 252 | 2026-03-30T03:25:38Z | Rust | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [getsentry/rust-sourcemap](https://github.com/getsentry/rust-sourcemap) | 246 | 2026-03-25T04:01:23Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [firstbatchxyz/dkn-compute-node](https://github.com/firstbatchxyz/dkn-compute-node) | 228 | 2026-03-21T10:43:07Z | Rust | Infrastructure/tooling | 10 | 8 | 10 | 10 |

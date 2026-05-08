@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 333,
-    "concepts": 614,
-    "observations": 615,
-    "repos": 135,
-    "terms": 609
+    "components": 336,
+    "concepts": 636,
+    "observations": 637,
+    "repos": 139,
+    "terms": 631
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "AILab-CVC/VideoCrafter",
     "alexmojaki/snoop",
@@ -28,6 +28,7 @@
     "astral-sh/ruff-lsp",
     "baaivision/Emu",
     "baaivision/Emu3",
+    "bazelbuild/starlark",
     "buriy/python-readability",
     "ByteDance-Seed/SeedVR",
     "canopyai/Orpheus-TTS",
@@ -37,10 +38,12 @@
     "city96/ComfyUI-GGUF",
     "cleanlab/cleanvision",
     "ClownsharkBatwing/RES4LYF",
+    "CLUEbenchmark/CLUE",
     "crossbario/autobahn-python",
     "crossbario/autobahn-testsuite",
     "cvg/Hierarchical-Localization",
     "deepseek-ai/DeepSeek-V3.2-Exp",
+    "descriptinc/descript-audio-codec",
     "DLYuanGod/TinyGPT-V",
     "docker/docker-py",
     "ekalinin/nodeenv",
@@ -91,6 +94,7 @@
     "mosaicml/streaming",
     "myhub/tr",
     "mymarilyn/clickhouse-driver",
+    "nari-labs/dia2",
     "NixOS/nixops",
     "nod-ai/AMD-SHARK-Studio",
     "notofonts/noto-cjk",
@@ -112,7 +116,6 @@
     "Paper2Poster/Paper2Poster",
     "paulocoutinhox/pdfium-lib",
     "PeterGriffinJin/Search-R1",
-    "pgjones/hypercorn",
     "Phantom-video/HuMo",
     "PKU-Alignment/safe-rlhf",
     "PKU-YuanGroup/LLaVA-CoT",
@@ -144,6 +147,7 @@
     "Visual-Agent/DeepEyes",
     "ViTAE-Transformer/ViTPose",
     "waymo-research/waymo-open-dataset",
+    "weaviate/elysia",
     "web-arena-x/webarena",
     "WenmuZhou/PytorchOCR",
     "willisma/SiT",

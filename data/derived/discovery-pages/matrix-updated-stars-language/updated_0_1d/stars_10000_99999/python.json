@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 162,
-    "concepts": 184,
-    "observations": 185,
-    "repos": 16,
-    "terms": 184
+    "components": 128,
+    "concepts": 163,
+    "observations": 164,
+    "repos": 15,
+    "terms": 163
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,22 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
-    "crewAIInc/crewAI",
+    "aden-hive/hive",
     "Dao-AILab/flash-attention",
-    "deepspeedai/DeepSpeed",
-    "great-expectations/great_expectations",
     "hiyouga/LlamaFactory",
     "huggingface/sentence-transformers",
     "jax-ml/jax",
     "Lightning-AI/pytorch-lightning",
+    "ludwig-ai/ludwig",
     "modelscope/DiffSynth-Studio",
     "modelscope/ms-swift",
     "NVIDIA-NeMo/NeMo",
     "oobabooga/textgen",
     "OpenHands/OpenHands",
-    "pydantic/pydantic",
     "run-llama/llama_index",
+    "ungoogled-software/ungoogled-chromium",
     "verl-project/verl"
   ]
 }

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · Rust
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 12
-- terms: 50
-- components: 73
-- concepts: 48
-- observations: 48
+- repos: 15
+- terms: 57
+- components: 83
+- concepts: 55
+- observations: 55
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [curiousdannii/remglk-rs](https://github.com/curiousdannii/remglk-rs) | 2 | 2026-04-24T02:09:24Z | Rust | Infrastructure/tooling | 3 | 1 | 3 | 3 |
+| [eth-act/ere-guests](https://github.com/eth-act/ere-guests) | 7 | 2026-04-24T01:11:43Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
+| [facebookexperimental/cxx](https://github.com/facebookexperimental/cxx) | 4 | 2026-04-23T17:57:37Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [tremby/snapmixer](https://github.com/tremby/snapmixer) | 4 | 2026-04-23T02:15:40Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [foundry-rs/foundry-core](https://github.com/foundry-rs/foundry-core) | 8 | 2026-04-22T12:45:09Z | Rust | Infrastructure/tooling | 13 | 11 | 13 | 13 |
 | [kmjjjj/polymarket-arbitrage-bot-btc-sol-15m](https://github.com/kmjjjj/polymarket-arbitrage-bot-btc-sol-15m) | 1 | 2026-04-19T11:52:48Z | Rust | Unknown | 0 | 0 | 0 | 0 |
@@ -46,10 +49,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [EspressoSystems/espresso-example-l2](https://github.com/EspressoSystems/espresso-example-l2) | 9 | 2026-04-19T00:19:35Z | Rust | Infrastructure/tooling | 5 | 15 | 5 | 5 |
 | [foundry-rs/foundry-core](https://github.com/foundry-rs/foundry-core) | 8 | 2026-04-22T12:45:09Z | Rust | Infrastructure/tooling | 13 | 11 | 13 | 13 |
 | [netdur/hugind](https://github.com/netdur/hugind) | 8 | 2026-04-13T16:57:52Z | Rust | Infrastructure/tooling | 5 | 3 | 5 | 5 |
+| [eth-act/ere-guests](https://github.com/eth-act/ere-guests) | 7 | 2026-04-24T01:11:43Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [Layr-Labs/hokulea](https://github.com/Layr-Labs/hokulea) | 7 | 2026-04-16T16:28:46Z | Rust | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [eikarna/hermes-rs](https://github.com/eikarna/hermes-rs) | 6 | 2026-04-19T09:37:31Z | Rust | Infrastructure/tooling | 2 | 5 | 0 | 0 |
+| [facebookexperimental/cxx](https://github.com/facebookexperimental/cxx) | 4 | 2026-04-23T17:57:37Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [tremby/snapmixer](https://github.com/tremby/snapmixer) | 4 | 2026-04-23T02:15:40Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [agent-sh/agent-analyzer](https://github.com/agent-sh/agent-analyzer) | 4 | 2026-04-14T23:27:20Z | Rust | Infrastructure/tooling | 10 | 7 | 10 | 10 |
+| [curiousdannii/remglk-rs](https://github.com/curiousdannii/remglk-rs) | 2 | 2026-04-24T02:09:24Z | Rust | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [kensave/agent-memory-rs](https://github.com/kensave/agent-memory-rs) | 2 | 2026-04-17T19:30:34Z | Rust | CLI | 0 | 3 | 0 | 0 |
 | [kmjjjj/polymarket-arbitrage-bot-btc-sol-15m](https://github.com/kmjjjj/polymarket-arbitrage-bot-btc-sol-15m) | 1 | 2026-04-19T11:52:48Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [pkgxdev/bpb](https://github.com/pkgxdev/bpb) | 1 | 2026-04-14T02:21:34Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |

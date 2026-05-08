@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1137,
-    "concepts": 486,
-    "observations": 488,
-    "repos": 398,
-    "terms": 486
+    "components": 1140,
+    "concepts": 488,
+    "observations": 490,
+    "repos": 402,
+    "terms": 488
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "2KAbhishek/exercism-fetcher",
@@ -137,6 +137,7 @@
     "danielrosehill/batch-claudemd-repo-creator",
     "danielrosehill/better-hashnode-backups",
     "danielrosehill/Career-Data-AI-Context-Repo",
+    "danielrosehill/Careers-Utilities-System-Prompts",
     "danielrosehill/Claude-Code-Context-Feature-Requests",
     "danielrosehill/Claude-Linux-Desktop-Manager",
     "danielrosehill/Context-Chunker-Assistant",
@@ -147,8 +148,11 @@
     "danielrosehill/HA-Red-Alert-News-Dash",
     "danielrosehill/HA-Red-Alerts-Model-Automations",
     "danielrosehill/N8N-Workflow-Sanitiser-Agent",
+    "danielrosehill/OR-Models-With-Tools-0811",
     "danielrosehill/Oref-GPT",
     "danielrosehill/Parenting-Questions-AI-Agent-Workflow",
+    "danielrosehill/Remote-Jobs-Research-Agent",
+    "danielrosehill/STT-Price-Points-260225",
     "databendlabs/state-machine-api",
     "datachainlab/base64",
     "datachainlab/lcp-cgen",

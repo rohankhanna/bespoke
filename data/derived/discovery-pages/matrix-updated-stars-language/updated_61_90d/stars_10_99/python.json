@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 152,
-    "concepts": 132,
-    "observations": 133,
-    "repos": 50,
-    "terms": 130
+    "components": 165,
+    "concepts": 144,
+    "observations": 145,
+    "repos": 53,
+    "terms": 142
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "AadSah/ConverSeg",
     "aba122/Q-Hawkeye",
     "abduznik/git-alchemist",
     "agents-x-project/PyVision-RL",
     "Alibaba-Quark/SSP",
+    "AniAggarwal/ecad",
     "apache/parquet-testing",
     "autokitteh/kittehub",
     "bazelbuild/java_tools",
@@ -43,6 +44,7 @@
     "galaxyproject/tools-devteam",
     "gazebosim/gz-mujoco",
     "googlefonts/lang",
+    "googlefonts/nam-files",
     "GuiWonder/HuayingMincho",
     "Han-Cao/collapse-bubble",
     "huggingface/image_gen_aux",
@@ -54,6 +56,7 @@
     "Owen-Liuyuxuan/ros2_vision_inference",
     "rdb/panda3d-thirdparty",
     "scaleway/serverless-gateway",
+    "ServiceNow/webarena-verified",
     "sylabs/singularity-userdocs",
     "sympy/sympy-bot",
     "TungChintao/SkiLa",

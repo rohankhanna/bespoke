@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1553,
-    "concepts": 235,
-    "observations": 238,
-    "repos": 62,
-    "terms": 267
+    "components": 1894,
+    "concepts": 279,
+    "observations": 282,
+    "repos": 69,
+    "terms": 311
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "adyscorpius/logseq-jira",
     "agents-squads/squads-cli",
@@ -31,7 +31,9 @@
     "cahamilton/stylelint-config-property-sort-order-smacss",
     "cargo-bins/release-pr",
     "celo-org/developer-tooling",
+    "celo-org/social-connect",
     "codemirror/language",
+    "dannyhw/expo-storybook-starter",
     "darkriszty/MarkdownTablePrettify-VSCodeExt",
     "DataDog/opentelemetry-demo",
     "dokploy/cli",
@@ -42,7 +44,10 @@
     "fannheyward/coc-xml",
     "favware/cliff-jumper",
     "Godefroy/micdrop",
+    "grafana/profiles-drilldown",
     "GreptimeTeam/greptimedb-grafana-datasource",
+    "gridatek/semantic-icons",
+    "hairyf/genapi",
     "hashintel/labs",
     "haskell-actions/setup",
     "huangguang1999/ccstatusline-zh",
@@ -58,10 +63,12 @@
     "labring/fastgpt-plugin",
     "llamastack/llama-stack-client-typescript",
     "lobehub/lobe-lint",
+    "mcous/vitest-when",
     "mdjastrzebski/test-renderer",
     "microsoft/vscode-js-debug-companion",
     "newrelic/opentelemetry-demo",
     "ngyewch/smile-js",
+    "octokit/webhooks-methods.js",
     "ogx-ai/llama-stack-client-typescript",
     "overseedai/viwo",
     "patrickkabwe/create-nitro-module",

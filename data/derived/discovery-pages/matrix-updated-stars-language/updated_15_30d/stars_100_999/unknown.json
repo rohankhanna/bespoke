@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "abhisheknaiidu/abhisheknaiidu",
     "actions/partner-runner-images",
@@ -29,6 +29,7 @@
     "astro-han/karpathy-llm-wiki",
     "attack68/rateslib",
     "bloomberg/clang-p2996",
+    "cisagov/vulnrichment",
     "cloudflare/skills",
     "cncf/artwork",
     "cosmos/awesome-cosmos",
@@ -67,7 +68,6 @@
     "tc39/how-we-work",
     "tinted-theming/home",
     "Uzaaft/awesome-libghostty",
-    "web-platform-tests/rfcs",
     "ymcui/MacBERT",
     "ymcui/PERT"
   ]

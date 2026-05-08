@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 41,
-    "concepts": 68,
-    "observations": 68,
+    "components": 62,
+    "concepts": 73,
+    "observations": 73,
     "repos": 15,
-    "terms": 65
+    "terms": 70
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "2KAbhishek/dots2k",
-    "alexmyczko/fnt",
-    "alpinelinux/aports",
     "amrsa1/Android-Emulator-image",
-    "bnb-chain/bsc-snapshots",
     "cloudfoundry/bosh-deployment",
     "harbor-framework/terminal-bench-2",
+    "heroku/heroku-buildpack-java",
+    "itzg/docker-mc-backup",
     "lovell/sharp-libvips",
+    "meyayl/docker-languagetool",
     "microcai/gentoo-zh",
     "mozilla/addons",
     "NVIDIA/enroot",

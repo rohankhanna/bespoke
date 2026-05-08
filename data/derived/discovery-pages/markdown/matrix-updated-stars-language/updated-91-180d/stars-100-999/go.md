@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 31
-- terms: 193
-- components: 167
-- concepts: 194
-- observations: 194
+- repos: 32
+- terms: 194
+- components: 169
+- concepts: 195
+- observations: 195
 
 ## Static behavior
 
@@ -42,6 +42,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aws/amazon-ec2-metadata-mock](https://github.com/aws/amazon-ec2-metadata-mock) | 289 | 2025-12-29T17:01:30Z | Go | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [aws/amazon-ec2-instance-selector](https://github.com/aws/amazon-ec2-instance-selector) | 931 | 2025-12-22T15:45:18Z | Go | CLI | 5 | 4 | 5 | 5 |
 | [cloudwego/hertz-examples](https://github.com/cloudwego/hertz-examples) | 346 | 2025-12-15T05:07:42Z | Go | Infrastructure/tooling | 5 | 6 | 5 | 5 |
+| [kubernetes-sigs/yaml](https://github.com/kubernetes-sigs/yaml) | 346 | 2025-12-14T04:55:43Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [mholt/archives](https://github.com/mholt/archives) | 403 | 2025-12-10T21:19:34Z | Go | Infrastructure/tooling | 15 | 2 | 16 | 16 |
 | [ipfs/go-ds-s3](https://github.com/ipfs/go-ds-s3) | 267 | 2025-12-10T13:27:56Z | Go | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [github/smimesign](https://github.com/github/smimesign) | 646 | 2025-12-08T17:26:44Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
@@ -78,6 +79,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lightningnetwork/lightning-onion](https://github.com/lightningnetwork/lightning-onion) | 415 | 2026-02-04T08:44:50Z | Go | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [mholt/archives](https://github.com/mholt/archives) | 403 | 2025-12-10T21:19:34Z | Go | Infrastructure/tooling | 15 | 2 | 16 | 16 |
 | [cloudwego/hertz-examples](https://github.com/cloudwego/hertz-examples) | 346 | 2025-12-15T05:07:42Z | Go | Infrastructure/tooling | 5 | 6 | 5 | 5 |
+| [kubernetes-sigs/yaml](https://github.com/kubernetes-sigs/yaml) | 346 | 2025-12-14T04:55:43Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [sugarme/tokenizer](https://github.com/sugarme/tokenizer) | 323 | 2025-11-27T07:06:28Z | Go | Unknown | 3 | 0 | 3 | 3 |
 | [InftyAI/llmaz](https://github.com/InftyAI/llmaz) | 302 | 2026-01-26T03:54:54Z | Go | Infrastructure/tooling | 15 | 10 | 15 | 15 |
 | [aws/amazon-ec2-metadata-mock](https://github.com/aws/amazon-ec2-metadata-mock) | 289 | 2025-12-29T17:01:30Z | Go | Infrastructure/tooling | 9 | 6 | 9 | 9 |

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 262
-- terms: 604
-- components: 2853
-- concepts: 612
-- observations: 612
+- repos: 263
+- terms: 613
+- components: 2859
+- concepts: 621
+- observations: 621
 
 ## Static behavior
 
@@ -46,6 +46,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [digitalbazaar/cborld](https://github.com/digitalbazaar/cborld) | 25 | 2025-09-05T16:25:46Z | JavaScript | Infrastructure/tooling | 5 | 35 | 5 | 5 |
 | [jonschlinkert/shallow-clone](https://github.com/jonschlinkert/shallow-clone) | 31 | 2025-09-04T10:33:03Z | JavaScript | Unknown | 6 | 3 | 6 | 6 |
 | [mapbox/mapbox-geostats](https://github.com/mapbox/mapbox-geostats) | 42 | 2025-08-27T15:39:33Z | JavaScript | Unknown | 1 | 14 | 1 | 1 |
+| [aymenfurter/smartrag](https://github.com/aymenfurter/smartrag) | 86 | 2025-08-21T20:13:50Z | JavaScript | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [Cysharp/DocfxTemplate](https://github.com/Cysharp/DocfxTemplate) | 10 | 2025-08-19T09:48:53Z | JavaScript | Template/starter | 0 | 0 | 0 | 0 |
 | [bebraw/libumd](https://github.com/bebraw/libumd) | 11 | 2025-08-07T06:05:13Z | JavaScript | Unknown | 0 | 8 | 0 | 0 |
 | [mantoni/core_d.js](https://github.com/mantoni/core_d.js) | 67 | 2025-08-04T15:59:18Z | JavaScript | Infrastructure/tooling | 5 | 11 | 5 | 5 |
@@ -101,7 +102,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [muhajirdev/monad-ui](https://github.com/muhajirdev/monad-ui) | 37 | 2024-08-29T20:42:13Z | JavaScript | Unknown | 3 | 9 | 3 | 3 |
 | [Comfy-Org/ComfyUI_legacy_frontend](https://github.com/Comfy-Org/ComfyUI_legacy_frontend) | 10 | 2024-08-11T14:45:40Z | JavaScript | Web app | 0 | 1 | 0 | 0 |
 | [sumcumo/imagemin-merlin](https://github.com/sumcumo/imagemin-merlin) | 64 | 2024-08-06T16:59:07Z | JavaScript | Unknown | 6 | 9 | 6 | 6 |
-| [TritonDataCenter/node-getopt](https://github.com/TritonDataCenter/node-getopt) | 46 | 2024-08-01T15:11:07Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [tritondatacenter/node-getopt](https://github.com/TritonDataCenter/node-getopt) | 46 | 2024-08-01T15:11:07Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [brombal/just-install](https://github.com/brombal/just-install) | 51 | 2024-07-31T23:01:48Z | JavaScript | Unknown | 0 | 3 | 0 | 0 |
 | [pot-app/pot-app-collection-plugin-shanbay](https://github.com/pot-app/pot-app-collection-plugin-shanbay) | 10 | 2024-07-31T00:10:02Z | JavaScript | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [crudo/grunt-testcafe](https://github.com/crudo/grunt-testcafe) | 10 | 2024-07-26T18:22:25Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
@@ -310,6 +311,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [preactjs-templates/widget](https://github.com/preactjs-templates/widget) | 88 | 2021-11-16T10:37:50Z | JavaScript | Template/starter | 0 | 0 | 0 | 0 |
 | [fnproject/ui](https://github.com/fnproject/ui) | 87 | 2023-10-10T01:01:37Z | JavaScript | Infrastructure/tooling | 0 | 45 | 0 | 0 |
 | [chancejs/chance-cli](https://github.com/chancejs/chance-cli) | 87 | 2023-03-17T05:50:08Z | JavaScript | CLI | 0 | 7 | 0 | 0 |
+| [aymenfurter/smartrag](https://github.com/aymenfurter/smartrag) | 86 | 2025-08-21T20:13:50Z | JavaScript | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [andstor/jsdoc-action](https://github.com/andstor/jsdoc-action) | 86 | 2023-01-16T04:02:18Z | JavaScript | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [tomchentw/imagemin-lint-staged](https://github.com/tomchentw/imagemin-lint-staged) | 85 | 2024-01-22T11:52:19Z | JavaScript | CLI | 4 | 17 | 4 | 4 |
 | [electron-userland/electron-installer-redhat](https://github.com/electron-userland/electron-installer-redhat) | 84 | 2023-10-30T17:05:38Z | JavaScript | Infrastructure/tooling | 0 | 25 | 0 | 0 |
@@ -403,7 +405,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sanctuary-js/sanctuary-either](https://github.com/sanctuary-js/sanctuary-either) | 48 | 2024-11-10T14:54:16Z | JavaScript | Unknown | 2 | 11 | 2 | 2 |
 | [wylieconlon/jsonrpc-ws-proxy](https://github.com/wylieconlon/jsonrpc-ws-proxy) | 48 | 2022-07-18T19:38:17Z | JavaScript | Web app | 0 | 11 | 0 | 0 |
 | [JakePartusch/wait-for-netlify-action](https://github.com/JakePartusch/wait-for-netlify-action) | 47 | 2024-05-20T23:02:05Z | JavaScript | Infrastructure/tooling | 0 | 4 | 0 | 0 |
-| [TritonDataCenter/node-getopt](https://github.com/TritonDataCenter/node-getopt) | 46 | 2024-08-01T15:11:07Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [tritondatacenter/node-getopt](https://github.com/TritonDataCenter/node-getopt) | 46 | 2024-08-01T15:11:07Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [jlevy/atom-flowmark](https://github.com/jlevy/atom-flowmark) | 45 | 2023-03-04T09:45:13Z | JavaScript | Unknown | 0 | 17 | 0 | 0 |
 | [GoogleChromeLabs/babel-plugin-transform-jsbi-to-bigint](https://github.com/GoogleChromeLabs/babel-plugin-transform-jsbi-to-bigint) | 44 | 2025-03-31T09:17:55Z | JavaScript | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [ethereum/rpc-tests](https://github.com/ethereum/rpc-tests) | 44 | 2023-06-20T16:52:49Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |

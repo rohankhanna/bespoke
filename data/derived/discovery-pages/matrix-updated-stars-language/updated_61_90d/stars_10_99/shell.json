@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
+    "components": 19,
     "concepts": 18,
     "observations": 18,
-    "repos": 7,
-    "terms": 18
+    "repos": 8,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "Aedelon/claude-code-blueprint",
     "erikw/tmux-dark-notify",
     "graphql/composite-schemas-spec",
+    "jawwadfirdousi/agent-skills",
     "Layr-Labs/eigenda-operator-setup",
     "nfnty/pkgbuilds",
     "nodenv/nodenv-default-packages",

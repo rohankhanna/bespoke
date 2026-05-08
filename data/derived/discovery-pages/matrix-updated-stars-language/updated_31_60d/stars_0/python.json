@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 29,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 7,
-    "terms": 16
+    "components": 37,
+    "concepts": 21,
+    "observations": 21,
+    "repos": 10,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,17 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "adammes/voyanode",
+    "cdeust/cortex-know-when-to-stop-training-model",
+    "devnen/chatterbox-v2",
     "iandees/scrapy-camoufox",
     "marin-community/harbor",
     "Nambers/ssrJSON-benchmark",
     "nibir1/vaultsim",
     "petercorke/sphinx-autorun",
+    "redai-infra/TransferQueue",
     "Systemcluster/tokenizer-bench"
   ]
 }

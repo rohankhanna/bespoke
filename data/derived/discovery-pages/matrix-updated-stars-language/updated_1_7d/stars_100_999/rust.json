@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 345,
-    "concepts": 218,
-    "observations": 220,
-    "repos": 31,
-    "terms": 218
+    "components": 267,
+    "concepts": 172,
+    "observations": 173,
+    "repos": 23,
+    "terms": 172
   },
   "facet_version": 1,
   "filters": {
@@ -12,38 +12,30 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "agentclientprotocol/rust-sdk",
-    "alloy-rs/svm-rs",
-    "cargo-bins/cargo-quickinstall",
-    "cobalt-org/liquid-rust",
     "conda/rattler",
     "cosmos/solidity-ibc-eureka",
     "Dicklesworthstone/asupersync",
-    "Dicklesworthstone/frankensqlite",
+    "EmmyLuaLs/emmylua-analyzer-rust",
     "GitoxideLabs/cargo-smart-release",
     "google/mdbook-i18n-helpers",
     "huggingface/hf-mount",
     "huggingface/xet-core",
     "iqlusioninc/crates",
-    "istio/ztunnel",
-    "kpcyrd/rebuilderd",
+    "kornia/kornia-rs",
     "left-curve/left-curve",
     "near/near-cli-rs",
     "near/near-sdk-rs",
     "open-telemetry/weaver",
-    "oxc-project/oxc-resolver",
     "paradigmxyz/solar",
     "prefix-dev/rattler-build",
     "rust-diplomat/diplomat",
     "rust-lang/stdarch",
-    "RustCrypto/elliptic-curves",
     "supabase/wrappers",
     "utilityai/llama-cpp-rs",
-    "vectordotdev/vrl",
     "z-galaxy/zbus",
-    "zaeleus/noodles",
     "ZcashFoundation/zebra"
   ]
 }

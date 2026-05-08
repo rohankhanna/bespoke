@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 154,
-    "concepts": 264,
-    "observations": 264,
-    "repos": 44,
-    "terms": 261
+    "concepts": 270,
+    "observations": 270,
+    "repos": 45,
+    "terms": 267
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "ashvardanian/less_slow.cpp",
     "asmvik/skhd",
@@ -24,6 +24,7 @@
     "codeplea/tinyexpr",
     "colmap/glomap",
     "cpputest/cpputest",
+    "cztomczak/cefpython",
     "EKA2L1/EKA2L1",
     "emersion/slurp",
     "flame/blis",

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · Unknown
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 14
+- repos: 13
 - terms: 46
 - components: 16
 - concepts: 39
@@ -39,7 +39,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [datajuicer/data-juicer-hub](https://github.com/datajuicer/data-juicer-hub) | 10 | 2026-02-12T09:46:27Z | Unknown | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [panaversity/claude-code-agent-teams-exercises](https://github.com/panaversity/claude-code-agent-teams-exercises) | 22 | 2026-02-11T07:23:13Z | Unknown | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [tony/claude-code-riper-5](https://github.com/tony/claude-code-riper-5) | 82 | 2026-02-08T00:20:22Z | Unknown | Unknown | 6 | 0 | 0 | 0 |
-| [conda-forge/cfep](https://github.com/conda-forge/cfep) | 24 | 2026-02-06T17:38:24Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -54,7 +53,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [astroyat/lerobot-ros](https://github.com/astroyat/lerobot-ros) | 31 | 2026-02-16T21:47:34Z | Unknown | Unknown | 10 | 0 | 10 | 10 |
 | [ethereum/beacon-metrics](https://github.com/ethereum/beacon-metrics) | 30 | 2026-02-23T11:47:49Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [robotology/community](https://github.com/robotology/community) | 25 | 2026-03-07T16:33:02Z | Unknown | Unknown | 8 | 0 | 8 | 8 |
-| [conda-forge/cfep](https://github.com/conda-forge/cfep) | 24 | 2026-02-06T17:38:24Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [panaversity/claude-code-agent-teams-exercises](https://github.com/panaversity/claude-code-agent-teams-exercises) | 22 | 2026-02-11T07:23:13Z | Unknown | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [robotology/mesh-support](https://github.com/robotology/mesh-support) | 21 | 2026-03-07T16:47:58Z | Unknown | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [hchiam/learning](https://github.com/hchiam/learning) | 19 | 2026-02-14T04:35:44Z | Unknown | Unknown | 15 | 0 | 15 | 15 |

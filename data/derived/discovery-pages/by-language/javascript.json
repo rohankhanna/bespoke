@@ -1,17 +1,18 @@
 {
   "counts": {
-    "components": 39043,
-    "concepts": 8661,
-    "observations": 8687,
+    "components": 39036,
+    "concepts": 8665,
+    "observations": 8691,
     "repos": 2060,
-    "terms": 8655
+    "terms": 8659
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "javascript"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
+    "0x4139/cosmos-discord-faucet",
     "0xPolygon/pilcom",
     "0xPolygonHermez/pil2-compiler",
     "1000ch/atom-csso",
@@ -264,6 +265,7 @@
     "aws/aws-cdk-rfcs",
     "axeldelafosse/expo-next-monorepo-example",
     "axios/axios",
+    "aymenfurter/smartrag",
     "aymericbeaumet/metalsmith-clean-css",
     "ayoubben18/ab-method",
     "azeemba/eslint-plugin-json",
@@ -1824,14 +1826,12 @@
     "storeon/storeon",
     "storybook-community/addon-queryparams",
     "storybook-eol/addon-smart-knobs",
-    "storybookjs/addon-design-assets",
     "storybookjs/addon-google-analytics",
     "storybookjs/babel-plugin-react-docgen",
     "streamich/fs-monkey",
     "streamich/spyfs",
     "stripe-samples/accept-a-payment",
     "stsquad/emacs_chrome",
-    "styled-components/babel-plugin-polished",
     "styled-components/babel-plugin-styled-components",
     "styled-components/polished",
     "styled-system/styled-system",
@@ -1938,7 +1938,7 @@
     "treosh/lighthouse-ci-action",
     "TrigenSoftware/simple-release-action",
     "TritonDataCenter/node-extsprintf",
-    "TritonDataCenter/node-getopt",
+    "tritondatacenter/node-getopt",
     "TritonDataCenter/node-http-signature",
     "TritonDataCenter/node-verror",
     "trylovetom/clean-code-javascript",

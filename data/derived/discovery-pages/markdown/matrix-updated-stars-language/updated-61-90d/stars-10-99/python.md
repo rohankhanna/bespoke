@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 50
-- terms: 130
-- components: 152
-- concepts: 132
-- observations: 133
+- repos: 53
+- terms: 142
+- components: 165
+- concepts: 144
+- observations: 145
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [googlefonts/nam-files](https://github.com/googlefonts/nam-files) | 11 | 2026-03-08T21:06:13Z | Python | Infrastructure/tooling | 1 | 6 | 1 | 1 |
+| [ServiceNow/webarena-verified](https://github.com/ServiceNow/webarena-verified) | 36 | 2026-03-08T19:20:25Z | Python | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework](https://github.com/cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework) | 91 | 2026-03-08T06:38:25Z | Python | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [cldf/segments](https://github.com/cldf/segments) | 41 | 2026-03-07T10:02:01Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [xuanyuzhang21/VQ-Insight](https://github.com/xuanyuzhang21/VQ-Insight) | 17 | 2026-03-06T09:35:02Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -39,6 +41,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chaoss/grimoirelab-kidash](https://github.com/chaoss/grimoirelab-kidash) | 13 | 2026-03-03T09:03:44Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [corl-team/VL-DAC](https://github.com/corl-team/VL-DAC) | 10 | 2026-03-03T08:07:55Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [fla-org/flash-bidirectional-linear-attention](https://github.com/fla-org/flash-bidirectional-linear-attention) | 75 | 2026-03-01T04:06:49Z | Python | Unknown | 3 | 0 | 3 | 3 |
+| [AniAggarwal/ecad](https://github.com/AniAggarwal/ecad) | 31 | 2026-03-01T01:20:59Z | Python | Model/data | 5 | 0 | 5 | 5 |
 | [vinlyx/mgzip](https://github.com/vinlyx/mgzip) | 59 | 2026-02-28T11:47:24Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [Embarcadero/PythonEnvironments](https://github.com/Embarcadero/PythonEnvironments) | 63 | 2026-02-27T10:20:06Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [rdb/panda3d-thirdparty](https://github.com/rdb/panda3d-thirdparty) | 42 | 2026-02-26T21:25:19Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -112,7 +115,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gazebosim/gz-mujoco](https://github.com/gazebosim/gz-mujoco) | 38 | 2026-03-04T22:45:11Z | Python | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [bigai-nlco/RuleReasoner](https://github.com/bigai-nlco/RuleReasoner) | 37 | 2026-02-25T14:32:07Z | Python | Unknown | 2 | 0 | 2 | 2 |
 | [galaxyproject/tools-devteam](https://github.com/galaxyproject/tools-devteam) | 37 | 2026-02-20T07:13:27Z | Python | Infrastructure/tooling | 6 | 12 | 6 | 6 |
+| [ServiceNow/webarena-verified](https://github.com/ServiceNow/webarena-verified) | 36 | 2026-03-08T19:20:25Z | Python | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [inducer/genpy](https://github.com/inducer/genpy) | 33 | 2026-02-21T04:44:43Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [AniAggarwal/ecad](https://github.com/AniAggarwal/ecad) | 31 | 2026-03-01T01:20:59Z | Python | Model/data | 5 | 0 | 5 | 5 |
 | [chaoss/grimoirelab-graal](https://github.com/chaoss/grimoirelab-graal) | 28 | 2026-03-03T09:09:50Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [xuanyuzhang21/RALI](https://github.com/xuanyuzhang21/RALI) | 27 | 2026-02-14T09:14:15Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [sylabs/singularity-userdocs](https://github.com/sylabs/singularity-userdocs) | 24 | 2026-02-26T16:30:57Z | Python | Docs/knowledge | 0 | 0 | 0 | 0 |
@@ -128,6 +133,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chaoss/grimoirelab-cereslib](https://github.com/chaoss/grimoirelab-cereslib) | 12 | 2026-03-03T09:04:15Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [bazelbuild/java_tools](https://github.com/bazelbuild/java_tools) | 12 | 2026-02-10T15:32:42Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [zlib-ng/deflatebench](https://github.com/zlib-ng/deflatebench) | 12 | 2026-02-07T23:40:18Z | Python | Infrastructure/tooling | 6 | 4 | 6 | 6 |
+| [googlefonts/nam-files](https://github.com/googlefonts/nam-files) | 11 | 2026-03-08T21:06:13Z | Python | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [Han-Cao/collapse-bubble](https://github.com/Han-Cao/collapse-bubble) | 11 | 2026-03-04T13:51:18Z | Python | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [wamp-proto/wamp-xbr](https://github.com/wamp-proto/wamp-xbr) | 11 | 2026-02-26T16:56:26Z | Python | Infrastructure/tooling | 10 | 34 | 10 | 10 |
 | [corl-team/VL-DAC](https://github.com/corl-team/VL-DAC) | 10 | 2026-03-03T08:07:55Z | Python | Model/data | 0 | 0 | 0 | 0 |

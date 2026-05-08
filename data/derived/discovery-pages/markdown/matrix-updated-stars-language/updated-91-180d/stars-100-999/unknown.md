@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 35
-- terms: 84
+- repos: 36
+- terms: 86
 - components: 18
-- concepts: 73
-- observations: 73
+- concepts: 75
+- observations: 75
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [GuiWonder/MoonStarsKai](https://github.com/GuiWonder/MoonStarsKai) | 118 | 2026-02-06T12:48:34Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [TencentCloudADP/youtu-vl](https://github.com/TencentCloudADP/youtu-vl) | 152 | 2026-02-06T06:22:36Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [libp2p/js-libp2p-examples](https://github.com/libp2p/js-libp2p-examples) | 103 | 2026-02-04T11:17:14Z | Unknown | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [microsoft/foss-fund](https://github.com/microsoft/foss-fund) | 411 | 2026-02-03T17:39:03Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
@@ -99,5 +100,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [langchain4j/awesome-langchain4j](https://github.com/langchain4j/awesome-langchain4j) | 163 | 2025-11-14T12:21:10Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [TencentCloudADP/youtu-vl](https://github.com/TencentCloudADP/youtu-vl) | 152 | 2026-02-06T06:22:36Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [charm-and-friends/additional-bubbles](https://github.com/charm-and-friends/additional-bubbles) | 145 | 2025-11-15T21:37:01Z | Unknown | Library | 0 | 0 | 0 | 0 |
+| [GuiWonder/MoonStarsKai](https://github.com/GuiWonder/MoonStarsKai) | 118 | 2026-02-06T12:48:34Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [libp2p/js-libp2p-examples](https://github.com/libp2p/js-libp2p-examples) | 103 | 2026-02-04T11:17:14Z | Unknown | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [CodeBoarding/GeneratedOnBoardings](https://github.com/CodeBoarding/GeneratedOnBoardings) | 102 | 2025-12-01T00:58:46Z | Unknown | Unknown | 2 | 0 | 2 | 2 |

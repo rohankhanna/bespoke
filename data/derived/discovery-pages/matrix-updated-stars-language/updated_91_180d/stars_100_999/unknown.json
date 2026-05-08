@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 18,
-    "concepts": 73,
-    "observations": 73,
-    "repos": 35,
-    "terms": 84
+    "concepts": 75,
+    "observations": 75,
+    "repos": 36,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "Ableton/push-interface",
     "ahmadawais/shades-of-purple-vscode",
@@ -28,6 +28,7 @@
     "ethstaker/ethstaker-guides",
     "filecoin-project/devgrants",
     "GraphBLAS/GraphBLAS-Pointers",
+    "GuiWonder/MoonStarsKai",
     "IceClear/SeedVR2",
     "joseluisq/macosx-sdks",
     "langchain4j/awesome-langchain4j",

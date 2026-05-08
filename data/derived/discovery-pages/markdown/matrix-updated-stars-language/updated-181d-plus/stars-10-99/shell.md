@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Shell
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 84
-- terms: 208
-- components: 97
-- concepts: 213
-- observations: 213
+- repos: 85
+- terms: 212
+- components: 102
+- concepts: 217
+- observations: 217
 
 ## Static behavior
 
@@ -103,6 +103,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stephenmathieson/git-standup](https://github.com/stephenmathieson/git-standup) | 24 | 2022-03-31T22:07:01Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [Petit-Abba/Magisk-Modules-Template-ge20.4](https://github.com/Petit-Abba/Magisk-Modules-Template-ge20.4) | 42 | 2022-03-14T03:11:46Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [wchen342/android-rebuilds](https://github.com/wchen342/android-rebuilds) | 19 | 2022-02-07T16:48:47Z | Shell | Library | 0 | 0 | 0 | 0 |
+| [Kaiede/docker-minecraft-bedrock-backup](https://github.com/Kaiede/docker-minecraft-bedrock-backup) | 20 | 2022-01-18T17:02:12Z | Shell | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [manim-kindergarten/manim_action_renderer](https://github.com/manim-kindergarten/manim_action_renderer) | 17 | 2022-01-15T17:39:06Z | Shell | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [transmissions11/dapptools-template](https://github.com/transmissions11/dapptools-template) | 51 | 2022-01-03T09:30:06Z | Shell | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [f4pga/prjxray-db](https://github.com/f4pga/prjxray-db) | 74 | 2021-12-14T21:34:10Z | Shell | Infrastructure/tooling | 13 | 2 | 13 | 13 |
@@ -175,6 +176,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [timothycrosley/cookiecutter-python](https://github.com/timothycrosley/cookiecutter-python) | 24 | 2024-07-05T03:52:56Z | Shell | Template/starter | 0 | 0 | 0 | 0 |
 | [diwakar-s-maurya/helm-git](https://github.com/diwakar-s-maurya/helm-git) | 24 | 2023-10-28T10:31:59Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [stephenmathieson/git-standup](https://github.com/stephenmathieson/git-standup) | 24 | 2022-03-31T22:07:01Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [Kaiede/docker-minecraft-bedrock-backup](https://github.com/Kaiede/docker-minecraft-bedrock-backup) | 20 | 2022-01-18T17:02:12Z | Shell | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [jcupitt/vips-benchmarks](https://github.com/jcupitt/vips-benchmarks) | 19 | 2023-01-18T20:32:38Z | Shell | Library | 0 | 0 | 0 | 0 |
 | [wchen342/android-rebuilds](https://github.com/wchen342/android-rebuilds) | 19 | 2022-02-07T16:48:47Z | Shell | Library | 0 | 0 | 0 | 0 |
 | [geekworm-com/xscript](https://github.com/geekworm-com/xscript) | 18 | 2025-10-29T15:16:39Z | Shell | Unknown | 0 | 0 | 0 | 0 |

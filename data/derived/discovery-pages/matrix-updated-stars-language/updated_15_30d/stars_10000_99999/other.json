@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1006,
-    "concepts": 643,
-    "observations": 646,
-    "repos": 73,
-    "terms": 647
+    "components": 1065,
+    "concepts": 693,
+    "observations": 696,
+    "repos": 80,
+    "terms": 697
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,15 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "abpframework/abp",
     "adambard/learnxinyminutes-docs",
     "Alamofire/Alamofire",
+    "AlDanial/cloc",
     "alexandresanlim/Badges4-README.md-Profile",
     "antlr/grammars-v4",
     "apache/spark",
-    "AppFlowy-IO/AppFlowy",
     "apple/container",
     "AssemblyScript/assemblyscript",
     "AudioKit/AudioKit",
@@ -33,7 +33,10 @@
     "dense-analysis/ale",
     "dotnet/core",
     "dotnet/csharplang",
+    "dotnet/efcore",
     "dotnet/eShop",
+    "dotnet/orleans",
+    "dotnet/roslyn",
     "dotnet/runtime",
     "elixir-lang/elixir",
     "facebookresearch/dinov2",
@@ -58,6 +61,7 @@
     "jordansissel/fpm",
     "JuliaLang/julia",
     "junegunn/fzf.vim",
+    "jupyter/notebook",
     "kubernetes/community",
     "llvm/llvm-project",
     "meta-llama/llama-cookbook",
@@ -80,12 +84,15 @@
     "realm/SwiftLint",
     "saadeghi/daisyui",
     "SaschaWillems/Vulkan",
+    "Seldaek/monolog",
     "semgrep/semgrep",
     "shap/shap",
     "Solido/awesome-flutter",
     "teamcapybara/capybara",
     "tmuxinator/tmuxinator",
     "tonsky/FiraCode",
+    "topjohnwu/Magisk",
+    "vim/vim",
     "winsw/winsw"
   ]
 }

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars · Unknown
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 59
-- terms: 44
-- components: 43
-- concepts: 35
-- observations: 35
+- repos: 64
+- terms: 53
+- components: 39
+- concepts: 44
+- observations: 44
 
 ## Static behavior
 
@@ -26,6 +26,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [conda-forge/tianshou-feedstock](https://github.com/conda-forge/tianshou-feedstock) | 0 | 2026-04-24T03:51:30Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [conda-forge/textgrad-feedstock](https://github.com/conda-forge/textgrad-feedstock) | 0 | 2026-04-24T03:45:49Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin](https://github.com/danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin) | 0 | 2026-04-23T14:34:16Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [danielrosehill/Open-Research-Workspaces-Index](https://github.com/danielrosehill/Open-Research-Workspaces-Index) | 0 | 2026-04-23T13:24:32Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
+| [danielrosehill/AI-Presentation-Builders-Index](https://github.com/danielrosehill/AI-Presentation-Builders-Index) | 0 | 2026-04-23T13:11:27Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [conda-forge/equinox-feedstock](https://github.com/conda-forge/equinox-feedstock) | 0 | 2026-04-23T12:45:27Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [danielrosehill/Claude-Israel](https://github.com/danielrosehill/Claude-Israel) | 0 | 2026-04-23T12:34:17Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [conda-forge/conda-lock-feedstock](https://github.com/conda-forge/conda-lock-feedstock) | 0 | 2026-04-23T05:44:24Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [Dustinpro/Dustinpro](https://github.com/Dustinpro/Dustinpro) | 0 | 2026-04-22T21:16:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [conda-forge/python-isal-feedstock](https://github.com/conda-forge/python-isal-feedstock) | 0 | 2026-04-22T19:38:39Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
@@ -74,6 +81,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/My-Benchmarks](https://github.com/danielrosehill/My-Benchmarks) | 0 | 2026-04-17T12:20:50Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Agent-Assisted-Purchase-Research-Index](https://github.com/danielrosehill/Agent-Assisted-Purchase-Research-Index) | 0 | 2026-04-16T18:00:32Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
 | [cachix/nix-bindings-rust](https://github.com/cachix/nix-bindings-rust) | 0 | 2026-04-16T15:06:49Z | Unknown | Library | 0 | 0 | 0 | 0 |
+| [danielrosehill/Research-Tools-And-Templates-Index](https://github.com/danielrosehill/Research-Tools-And-Templates-Index) | 0 | 2026-04-14T12:21:21Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [ublacklist/store-assets](https://github.com/ublacklist/store-assets) | 0 | 2026-04-13T14:23:11Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [danielrosehill/AI-Memory-Planning-0426](https://github.com/danielrosehill/AI-Memory-Planning-0426) | 0 | 2026-04-13T12:00:38Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [aaronrsun/spec-kit-issue](https://github.com/aaronrsun/spec-kit-issue) | 0 | 2026-04-12T23:36:28Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -82,14 +90,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/brainstorm-solutions-plugin](https://github.com/danielrosehill/brainstorm-solutions-plugin) | 0 | 2026-04-10T12:29:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Agent-Journal](https://github.com/danielrosehill/Agent-Journal) | 0 | 2026-04-08T14:15:54Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [csjgg/ags-cookbook](https://github.com/csjgg/ags-cookbook) | 0 | 2026-04-08T09:25:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [semgrep/cursor-plugin](https://github.com/semgrep/cursor-plugin) | 0 | 2026-04-07T14:35:16Z | Unknown | Infrastructure/tooling | 2 | 1 | 2 | 2 |
-| [piebald-ai/piebald](https://github.com/Piebald-AI/piebald) | 0 | 2026-04-07T14:19:22Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [kdn36/arrow-rs-object-store](https://github.com/kdn36/arrow-rs-object-store) | 0 | 2026-04-07T11:45:00Z | Unknown | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [conda-forge/tianshou-feedstock](https://github.com/conda-forge/tianshou-feedstock) | 0 | 2026-04-24T03:51:30Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [conda-forge/textgrad-feedstock](https://github.com/conda-forge/textgrad-feedstock) | 0 | 2026-04-24T03:45:49Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin](https://github.com/danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin) | 0 | 2026-04-23T14:34:16Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [danielrosehill/Open-Research-Workspaces-Index](https://github.com/danielrosehill/Open-Research-Workspaces-Index) | 0 | 2026-04-23T13:24:32Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
+| [danielrosehill/AI-Presentation-Builders-Index](https://github.com/danielrosehill/AI-Presentation-Builders-Index) | 0 | 2026-04-23T13:11:27Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [conda-forge/equinox-feedstock](https://github.com/conda-forge/equinox-feedstock) | 0 | 2026-04-23T12:45:27Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [danielrosehill/Claude-Israel](https://github.com/danielrosehill/Claude-Israel) | 0 | 2026-04-23T12:34:17Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [conda-forge/conda-lock-feedstock](https://github.com/conda-forge/conda-lock-feedstock) | 0 | 2026-04-23T05:44:24Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [Dustinpro/Dustinpro](https://github.com/Dustinpro/Dustinpro) | 0 | 2026-04-22T21:16:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [conda-forge/python-isal-feedstock](https://github.com/conda-forge/python-isal-feedstock) | 0 | 2026-04-22T19:38:39Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
@@ -138,6 +150,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/My-Benchmarks](https://github.com/danielrosehill/My-Benchmarks) | 0 | 2026-04-17T12:20:50Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Agent-Assisted-Purchase-Research-Index](https://github.com/danielrosehill/Agent-Assisted-Purchase-Research-Index) | 0 | 2026-04-16T18:00:32Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
 | [cachix/nix-bindings-rust](https://github.com/cachix/nix-bindings-rust) | 0 | 2026-04-16T15:06:49Z | Unknown | Library | 0 | 0 | 0 | 0 |
+| [danielrosehill/Research-Tools-And-Templates-Index](https://github.com/danielrosehill/Research-Tools-And-Templates-Index) | 0 | 2026-04-14T12:21:21Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [ublacklist/store-assets](https://github.com/ublacklist/store-assets) | 0 | 2026-04-13T14:23:11Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [danielrosehill/AI-Memory-Planning-0426](https://github.com/danielrosehill/AI-Memory-Planning-0426) | 0 | 2026-04-13T12:00:38Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [aaronrsun/spec-kit-issue](https://github.com/aaronrsun/spec-kit-issue) | 0 | 2026-04-12T23:36:28Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -146,6 +159,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/brainstorm-solutions-plugin](https://github.com/danielrosehill/brainstorm-solutions-plugin) | 0 | 2026-04-10T12:29:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Agent-Journal](https://github.com/danielrosehill/Agent-Journal) | 0 | 2026-04-08T14:15:54Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [csjgg/ags-cookbook](https://github.com/csjgg/ags-cookbook) | 0 | 2026-04-08T09:25:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [semgrep/cursor-plugin](https://github.com/semgrep/cursor-plugin) | 0 | 2026-04-07T14:35:16Z | Unknown | Infrastructure/tooling | 2 | 1 | 2 | 2 |
-| [piebald-ai/piebald](https://github.com/Piebald-AI/piebald) | 0 | 2026-04-07T14:19:22Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [kdn36/arrow-rs-object-store](https://github.com/kdn36/arrow-rs-object-store) | 0 | 2026-04-07T11:45:00Z | Unknown | Infrastructure/tooling | 3 | 4 | 3 | 3 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 196,
-    "concepts": 298,
-    "observations": 298,
+    "components": 194,
+    "concepts": 310,
+    "observations": 310,
     "repos": 87,
-    "terms": 298
+    "terms": 310
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "absadiki/pywhispercpp",
     "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
@@ -46,9 +46,7 @@
     "GANWANSHUI/GaussianOcc",
     "gatecat/prjoxide",
     "Gen-Verse/Open-AgentRL",
-    "GFW-knocker/gfw_resist_tcp_proxy",
     "google-deepmind/multi_object_datasets",
-    "google-deepmind/recurrentgemma",
     "google/adk-python-community",
     "googlefonts/glyphsets",
     "GuiWonder/Shanggu",
@@ -62,6 +60,7 @@
     "intel/ai-reference-models",
     "IST-DASLab/FP-Quant",
     "j-bennet/wharfee",
+    "jayleicn/moment_detr",
     "kijai/ComfyUI-DepthAnythingV2",
     "lxgw/LxgwMarkerGothic",
     "magic-wormhole/magic-wormhole-transit-relay",
@@ -91,6 +90,7 @@
     "sony/ctm",
     "svg-project/Sparse-VideoGen",
     "TencentCloudADP/youtu-tip",
+    "thu-ml/DiT-Extrapolation",
     "TIGER-AI-Lab/verl-tool",
     "TRI-ML/dgp",
     "tulerfeng/OneThinker",

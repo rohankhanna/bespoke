@@ -3,7 +3,7 @@
     "components": 15,
     "concepts": 59,
     "observations": 59,
-    "repos": 20,
+    "repos": 21,
     "terms": 59
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "abubakarsiddik31/claude-skills-collection",
     "agamm/claude-code-owasp",
+    "apple/device-management",
     "dotnet/source-build",
     "e18e/ecosystem-issues",
     "emberjs/core-notes",
@@ -27,12 +28,12 @@
     "lumen-oss/nvim-best-practices",
     "lwpyh/Awesome-MLLM-Reasoning-Collection",
     "lxgw/LxgwZhenKai",
-    "MiniMax-AI/MiniMax-M2.5",
     "near/borsh",
     "neon-bindings/examples",
     "oobabooga/textgen-extensions",
     "reactwg/react-native-releases",
     "revfactory/harness-100",
-    "scott0107000/BoutiqueBitmap7x7"
+    "scott0107000/BoutiqueBitmap7x7",
+    "web-platform-tests/rfcs"
   ]
 }

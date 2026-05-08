@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 87
-- terms: 137
-- components: 294
-- concepts: 134
-- observations: 136
+- repos: 94
+- terms: 143
+- components: 291
+- concepts: 140
+- observations: 142
 
 ## Static behavior
 
@@ -25,6 +25,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [redai-infra/TransferQueue](https://github.com/redai-infra/TransferQueue) | 0 | 2026-04-08T03:48:14Z | Python | Infrastructure/tooling | 6 | 6 | 6 | 6 |
+| [cdeust/cortex-know-when-to-stop-training-model](https://github.com/cdeust/cortex-know-when-to-stop-training-model) | 0 | 2026-04-07T20:02:33Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [semgrep/cursor-plugin](https://github.com/semgrep/cursor-plugin) | 0 | 2026-04-07T14:35:16Z | Unknown | Infrastructure/tooling | 2 | 1 | 2 | 2 |
+| [piebald-ai/piebald](https://github.com/Piebald-AI/piebald) | 0 | 2026-04-07T14:19:22Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [kdn36/arrow-rs-object-store](https://github.com/kdn36/arrow-rs-object-store) | 0 | 2026-04-07T11:45:00Z | Unknown | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [MaterializeInc/duckdb-rs](https://github.com/MaterializeInc/duckdb-rs) | 0 | 2026-04-07T01:52:50Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [ethpandaops/xatu-cbt](https://github.com/ethpandaops/xatu-cbt) | 0 | 2026-04-07T00:59:51Z | Go | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [aaronrsun/spec-kit-confluence](https://github.com/aaronrsun/spec-kit-confluence) | 0 | 2026-04-06T23:35:42Z | Shell | Unknown | 0 | 0 | 0 | 0 |
@@ -33,9 +38,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Israel-Preparedness-Index](https://github.com/danielrosehill/Israel-Preparedness-Index) | 0 | 2026-04-06T14:14:22Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [iandees/scrapy-camoufox](https://github.com/iandees/scrapy-camoufox) | 0 | 2026-04-05T21:47:43Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [kayabaNerve/monero-oxide](https://github.com/kayabaNerve/monero-oxide) | 0 | 2026-04-05T17:02:41Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
+| [danielrosehill/AI-Project-Spec-Pattern](https://github.com/danielrosehill/AI-Project-Spec-Pattern) | 0 | 2026-04-05T11:20:14Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [caprica/generator-vlcj](https://github.com/caprica/generator-vlcj) | 0 | 2026-04-05T08:38:27Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
 | [aldernero/debugui](https://github.com/aldernero/debugui) | 0 | 2026-04-05T00:58:23Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [danielrosehill/AI-Browser-Tools](https://github.com/danielrosehill/AI-Browser-Tools) | 0 | 2026-04-04T20:58:25Z | Unknown | Framework | 0 | 0 | 0 | 0 |
+| [danielrosehill/Price-Research-Index](https://github.com/danielrosehill/Price-Research-Index) | 0 | 2026-04-04T20:12:16Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [danielrosehill/Deployments-Index](https://github.com/danielrosehill/Deployments-Index) | 0 | 2026-04-03T14:39:38Z | Unknown | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [stefanlogue/scoops](https://github.com/stefanlogue/scoops) | 0 | 2026-04-03T09:40:21Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [9romise/eslint-config](https://github.com/9romise/eslint-config) | 0 | 2026-04-03T09:28:34Z | TypeScript | Infrastructure/tooling | 2 | 20 | 2 | 2 |
@@ -67,6 +74,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Networking-Projects-Index](https://github.com/danielrosehill/Networking-Projects-Index) | 0 | 2026-03-27T17:09:45Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [danielrosehill/Jewish-Related-Index](https://github.com/danielrosehill/Jewish-Related-Index) | 0 | 2026-03-27T17:08:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [saharmor/saharmor.github.io](https://github.com/saharmor/saharmor.github.io) | 0 | 2026-03-26T22:55:49Z | Other | Infrastructure/tooling | 1 | 9 | 1 | 1 |
+| [devnen/chatterbox-v2](https://github.com/devnen/chatterbox-v2) | 0 | 2026-03-26T22:24:31Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [arckoor/botan-rs](https://github.com/arckoor/botan-rs) | 0 | 2026-03-26T12:38:30Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [nibir1/vaultsim](https://github.com/Nibir1/VaultSim) | 0 | 2026-03-26T07:05:03Z | Python | Infrastructure/tooling | 2 | 6 | 0 | 0 |
 | [danielrosehill/HFC-Guidance-Flip-Book](https://github.com/danielrosehill/HFC-Guidance-Flip-Book) | 0 | 2026-03-26T01:31:11Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -111,12 +119,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [onomojo/i18n-timezones-data](https://github.com/onomojo/i18n-timezones-data) | 0 | 2026-03-09T13:12:02Z | JavaScript | Library | 0 | 0 | 0 | 0 |
 | [onomojo/i18n-country-translations-ex](https://github.com/onomojo/i18n-country-translations-ex) | 0 | 2026-03-09T13:08:35Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [onomojo/i18n-timezones-ex](https://github.com/onomojo/i18n-timezones-ex) | 0 | 2026-03-09T13:08:23Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [DataDog/opa](https://github.com/DataDog/opa) | 0 | 2026-03-08T14:11:06Z | Unknown | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [redai-infra/TransferQueue](https://github.com/redai-infra/TransferQueue) | 0 | 2026-04-08T03:48:14Z | Python | Infrastructure/tooling | 6 | 6 | 6 | 6 |
+| [cdeust/cortex-know-when-to-stop-training-model](https://github.com/cdeust/cortex-know-when-to-stop-training-model) | 0 | 2026-04-07T20:02:33Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [semgrep/cursor-plugin](https://github.com/semgrep/cursor-plugin) | 0 | 2026-04-07T14:35:16Z | Unknown | Infrastructure/tooling | 2 | 1 | 2 | 2 |
+| [piebald-ai/piebald](https://github.com/Piebald-AI/piebald) | 0 | 2026-04-07T14:19:22Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [kdn36/arrow-rs-object-store](https://github.com/kdn36/arrow-rs-object-store) | 0 | 2026-04-07T11:45:00Z | Unknown | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [MaterializeInc/duckdb-rs](https://github.com/MaterializeInc/duckdb-rs) | 0 | 2026-04-07T01:52:50Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [ethpandaops/xatu-cbt](https://github.com/ethpandaops/xatu-cbt) | 0 | 2026-04-07T00:59:51Z | Go | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [aaronrsun/spec-kit-confluence](https://github.com/aaronrsun/spec-kit-confluence) | 0 | 2026-04-06T23:35:42Z | Shell | Unknown | 0 | 0 | 0 | 0 |
@@ -125,9 +137,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Israel-Preparedness-Index](https://github.com/danielrosehill/Israel-Preparedness-Index) | 0 | 2026-04-06T14:14:22Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [iandees/scrapy-camoufox](https://github.com/iandees/scrapy-camoufox) | 0 | 2026-04-05T21:47:43Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [kayabaNerve/monero-oxide](https://github.com/kayabaNerve/monero-oxide) | 0 | 2026-04-05T17:02:41Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
+| [danielrosehill/AI-Project-Spec-Pattern](https://github.com/danielrosehill/AI-Project-Spec-Pattern) | 0 | 2026-04-05T11:20:14Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [caprica/generator-vlcj](https://github.com/caprica/generator-vlcj) | 0 | 2026-04-05T08:38:27Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
 | [aldernero/debugui](https://github.com/aldernero/debugui) | 0 | 2026-04-05T00:58:23Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [danielrosehill/AI-Browser-Tools](https://github.com/danielrosehill/AI-Browser-Tools) | 0 | 2026-04-04T20:58:25Z | Unknown | Framework | 0 | 0 | 0 | 0 |
+| [danielrosehill/Price-Research-Index](https://github.com/danielrosehill/Price-Research-Index) | 0 | 2026-04-04T20:12:16Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [danielrosehill/Deployments-Index](https://github.com/danielrosehill/Deployments-Index) | 0 | 2026-04-03T14:39:38Z | Unknown | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [stefanlogue/scoops](https://github.com/stefanlogue/scoops) | 0 | 2026-04-03T09:40:21Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [9romise/eslint-config](https://github.com/9romise/eslint-config) | 0 | 2026-04-03T09:28:34Z | TypeScript | Infrastructure/tooling | 2 | 20 | 2 | 2 |
@@ -159,6 +173,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Networking-Projects-Index](https://github.com/danielrosehill/Networking-Projects-Index) | 0 | 2026-03-27T17:09:45Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [danielrosehill/Jewish-Related-Index](https://github.com/danielrosehill/Jewish-Related-Index) | 0 | 2026-03-27T17:08:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [saharmor/saharmor.github.io](https://github.com/saharmor/saharmor.github.io) | 0 | 2026-03-26T22:55:49Z | Other | Infrastructure/tooling | 1 | 9 | 1 | 1 |
+| [devnen/chatterbox-v2](https://github.com/devnen/chatterbox-v2) | 0 | 2026-03-26T22:24:31Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [arckoor/botan-rs](https://github.com/arckoor/botan-rs) | 0 | 2026-03-26T12:38:30Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [nibir1/vaultsim](https://github.com/Nibir1/VaultSim) | 0 | 2026-03-26T07:05:03Z | Python | Infrastructure/tooling | 2 | 6 | 0 | 0 |
 | [danielrosehill/HFC-Guidance-Flip-Book](https://github.com/danielrosehill/HFC-Guidance-Flip-Book) | 0 | 2026-03-26T01:31:11Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -203,4 +218,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [onomojo/i18n-timezones-data](https://github.com/onomojo/i18n-timezones-data) | 0 | 2026-03-09T13:12:02Z | JavaScript | Library | 0 | 0 | 0 | 0 |
 | [onomojo/i18n-country-translations-ex](https://github.com/onomojo/i18n-country-translations-ex) | 0 | 2026-03-09T13:08:35Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [onomojo/i18n-timezones-ex](https://github.com/onomojo/i18n-timezones-ex) | 0 | 2026-03-09T13:08:23Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [DataDog/opa](https://github.com/DataDog/opa) | 0 | 2026-03-08T14:11:06Z | Unknown | Infrastructure/tooling | 7 | 16 | 7 | 7 |

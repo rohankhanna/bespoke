@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 452,
-    "concepts": 544,
-    "observations": 546,
-    "repos": 61,
-    "terms": 544
+    "components": 503,
+    "concepts": 653,
+    "observations": 655,
+    "repos": 69,
+    "terms": 652
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "abseil/abseil-cpp",
     "Alexays/Waybar",
@@ -23,17 +23,19 @@
     "aristocratos/btop",
     "aseprite/aseprite",
     "bitcoin/bitcoin",
+    "bkaradzic/bgfx",
+    "chromium/chromium",
     "ClickHouse/ClickHouse",
     "curl/curl",
     "Cyan4973/xxHash",
     "davatorium/rofi",
+    "envoyproxy/envoy",
     "facebook/folly",
     "facebook/hhvm",
     "facebook/rocksdb",
     "facebookresearch/faiss",
     "fmtlib/fmt",
     "FreeRDP/FreeRDP",
-    "g-truc/glm",
     "gabime/spdlog",
     "git/git",
     "gnachman/iTerm2",
@@ -46,7 +48,9 @@
     "Immediate-Mode-UI/Nuklear",
     "jedisct1/libsodium",
     "jonas/tig",
+    "libvips/libvips",
     "mawww/kakoune",
+    "microsoft/mimalloc",
     "microsoft/onnxruntime",
     "microsoft/react-native-windows",
     "microsoft/winget-cli",
@@ -67,13 +71,17 @@
     "pgvector/pgvector",
     "px4/px4-autopilot",
     "pybind/pybind11",
+    "qemu/qemu",
+    "raysan5/raylib",
+    "redis/redis",
     "RPCS3/rpcs3",
+    "systemd/systemd",
+    "taskflow/taskflow",
     "Tencent/ncnn",
     "tesseract-ocr/tesseract",
     "tmux/tmux",
     "tsl0922/ttyd",
     "uNetworking/uWebSockets",
-    "wolfpld/tracy",
-    "zeromq/libzmq"
+    "wolfpld/tracy"
   ]
 }

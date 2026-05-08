@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 89,
-    "concepts": 128,
-    "observations": 129,
-    "repos": 12,
-    "terms": 126
+    "components": 104,
+    "concepts": 141,
+    "observations": 142,
+    "repos": 13,
+    "terms": 139
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "89luca89/distrobox",
+    "a2aproject/A2A",
     "agarrharr/awesome-cli-apps",
     "dokku/dokku",
     "google/oss-fuzz",

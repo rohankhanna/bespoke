@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 28,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 13,
-    "terms": 15
+    "components": 19,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 9,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,14 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "angular/angular-devkit-build-webpack-builds",
     "Cebeerre/dnsblocklists",
     "conda-forge/pyfive-feedstock",
-    "csm-actions/demo-server",
-    "danielrosehill/Claude-Content-Writing-Plugin",
-    "danielrosehill/Claude-Desktop-Manager-Plugin",
     "emacs-straight/emacsmirror-mirror",
     "haskell/ghcup-www",
-    "hybridgroup/llama-cpp-builder",
-    "OpenSC/Nightly",
+    "lxgw/B5XiZhi",
     "pot-app/.github",
     "stdlib-js/meetings",
     "szksh-lab/.github"

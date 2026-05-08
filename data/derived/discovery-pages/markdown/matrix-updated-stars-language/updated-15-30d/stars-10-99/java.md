@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · Java
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 19
-- terms: 92
-- components: 76
-- concepts: 94
-- observations: 95
+- repos: 20
+- terms: 99
+- components: 86
+- concepts: 101
+- observations: 102
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [bufbuild/protovalidate-java](https://github.com/bufbuild/protovalidate-java) | 63 | 2026-04-23T20:00:36Z | Java | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [googleapis/discovery-artifact-manager](https://github.com/googleapis/discovery-artifact-manager) | 59 | 2026-04-23T18:11:06Z | Java | CLI | 3 | 4 | 3 | 3 |
 | [filip26/ld-cli](https://github.com/filip26/ld-cli) | 32 | 2026-04-22T09:17:06Z | Java | CLI | 14 | 8 | 16 | 16 |
 | [apache/netbeans-mavenutils-nbm-maven-plugin](https://github.com/apache/netbeans-mavenutils-nbm-maven-plugin) | 16 | 2026-04-22T08:22:30Z | Java | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [yawkat/lz4-java](https://github.com/yawkat/lz4-java) | 43 | 2026-04-22T08:08:18Z | Java | Infrastructure/tooling | 3 | 8 | 3 | 3 |
@@ -44,7 +46,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kurrent-io/KurrentDB-Client-Java](https://github.com/kurrent-io/KurrentDB-Client-Java) | 71 | 2026-04-14T06:24:15Z | Java | CLI | 14 | 6 | 14 | 14 |
 | [apache/flink-connector-pulsar](https://github.com/apache/flink-connector-pulsar) | 67 | 2026-04-14T00:22:27Z | Java | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [codetyio/codety-scanner](https://github.com/codetyio/codety-scanner) | 50 | 2026-04-09T14:16:53Z | Java | Infrastructure/tooling | 7 | 2 | 7 | 8 |
-| [zai-org/z-ai-sdk-java](https://github.com/zai-org/z-ai-sdk-java) | 56 | 2026-04-08T02:45:06Z | Java | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -57,7 +58,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cedar-policy/cedar-java](https://github.com/cedar-policy/cedar-java) | 72 | 2026-04-21T13:52:36Z | Java | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [kurrent-io/KurrentDB-Client-Java](https://github.com/kurrent-io/KurrentDB-Client-Java) | 71 | 2026-04-14T06:24:15Z | Java | CLI | 14 | 6 | 14 | 14 |
 | [apache/flink-connector-pulsar](https://github.com/apache/flink-connector-pulsar) | 67 | 2026-04-14T00:22:27Z | Java | Infrastructure/tooling | 7 | 2 | 7 | 7 |
-| [zai-org/z-ai-sdk-java](https://github.com/zai-org/z-ai-sdk-java) | 56 | 2026-04-08T02:45:06Z | Java | Infrastructure/tooling | 2 | 3 | 2 | 2 |
+| [bufbuild/protovalidate-java](https://github.com/bufbuild/protovalidate-java) | 63 | 2026-04-23T20:00:36Z | Java | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [googleapis/discovery-artifact-manager](https://github.com/googleapis/discovery-artifact-manager) | 59 | 2026-04-23T18:11:06Z | Java | CLI | 3 | 4 | 3 | 3 |
 | [bazel-contrib/rules_jvm](https://github.com/bazel-contrib/rules_jvm) | 53 | 2026-04-20T14:25:59Z | Java | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [codetyio/codety-scanner](https://github.com/codetyio/codety-scanner) | 50 | 2026-04-09T14:16:53Z | Java | Infrastructure/tooling | 7 | 2 | 7 | 8 |
 | [yawkat/lz4-java](https://github.com/yawkat/lz4-java) | 43 | 2026-04-22T08:08:18Z | Java | Infrastructure/tooling | 3 | 8 | 3 | 3 |

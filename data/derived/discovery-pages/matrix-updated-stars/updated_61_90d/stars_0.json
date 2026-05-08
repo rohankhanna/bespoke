@@ -1,30 +1,30 @@
 {
   "counts": {
-    "components": 133,
-    "concepts": 69,
-    "observations": 69,
-    "repos": 36,
-    "terms": 68
+    "components": 145,
+    "concepts": 75,
+    "observations": 75,
+    "repos": 35,
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "0xBigBoss/ghostty-web",
     "1000ch/Sublime-csso",
     "8144225309/superscalar-mcp",
     "AdaCore/vss-text",
     "aleclarson/vite-multi-spa",
-    "artsy/react-native-launch-arguments",
     "Bearer/homebrew-tap",
     "bgw/bincode",
     "CADindustries/container",
     "CharlieFRuan/harbor",
     "ChiehHsinJesseLai/ctm-notebook",
     "DataDog/go-cmp",
+    "DataDog/opa",
     "DiligentGraphics/args",
     "DiligentGraphics/glfw",
     "DiligentGraphics/json",
@@ -33,7 +33,6 @@
     "EspressoSystems/jellyfish-compat",
     "guaguastandup/guaguastandup",
     "jrsoftware/is7z",
-    "JuliaBinaryWrappers/Glib_jll.jl",
     "kitknox/helix",
     "kylebarron/pyo3-file",
     "mjvolk3/dendron-template",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 178,
-    "concepts": 107,
-    "observations": 109,
-    "repos": 30,
-    "terms": 107
+    "components": 188,
+    "concepts": 112,
+    "observations": 114,
+    "repos": 31,
+    "terms": 112
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "agentclientprotocol/symposium-acp",
     "Anush008/tokenizers",
     "apache/casbin-actix-casbin-auth",
     "apache/casbin-axum-casbin",
     "bencevans/camtrap-detector",
+    "bgpkit/bgpkit-broker",
     "Calsign/gazelle_rust",
     "celestiaorg/hana",
     "chris-zen/coremidi",
@@ -35,12 +36,12 @@
     "libdeflater/libdeflater",
     "messense/py-promql-parser",
     "microsoft/tracing-etw",
+    "near/near-workspaces-rs",
     "neysofu/reltester",
     "omerbenamram/pyo3-file",
     "psmux/psnet",
     "psmux/Tmux-Plugin-Panel",
     "randombit/botan-rs",
-    "raymondshe/matchengine-raft",
     "sigp/rust-libp2p",
     "Turbo87/flat-projection-rs",
     "Vaishnav-Sabari-Girish/Hayasen"

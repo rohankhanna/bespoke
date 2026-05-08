@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 181,
-    "concepts": 62,
-    "observations": 62,
-    "repos": 6,
-    "terms": 62
+    "components": 70,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 3,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,8 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
-    "anolilab/unplugin-favicons",
-    "csm-actions/update-branch-action",
-    "dydxprotocol/v4-localization",
     "fluent-vue/unplugin-fluent-vue",
     "oclif/plugin-version",
     "suzuki-shunsuke/release-js-action"

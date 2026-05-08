@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 358
-- terms: 1124
-- components: 604
-- concepts: 1140
-- observations: 1143
+- repos: 361
+- terms: 1147
+- components: 628
+- concepts: 1166
+- observations: 1169
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [andreasdr/tdme2](https://github.com/andreasdr/tdme2) | 185 | 2025-11-08T20:43:03Z | C/C++ | CLI | 17 | 2 | 20 | 20 |
 | [unitreerobotics/unitree_mujoco](https://github.com/unitreerobotics/unitree_mujoco) | 953 | 2025-11-07T03:38:55Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [bagder/fcpp](https://github.com/bagder/fcpp) | 142 | 2025-11-03T15:58:28Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 | [Tessil/hopscotch-map](https://github.com/Tessil/hopscotch-map) | 764 | 2025-11-02T18:47:59Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |
@@ -142,7 +143,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Level/leveldown](https://github.com/Level/leveldown) | 775 | 2024-12-01T21:46:12Z | C/C++ | Infrastructure/tooling | 9 | 31 | 9 | 9 |
 | [mit-han-lab/tinyengine](https://github.com/mit-han-lab/tinyengine) | 942 | 2024-11-27T18:51:37Z | C/C++ | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [asg017/sqlite-lembed](https://github.com/asg017/sqlite-lembed) | 255 | 2024-11-24T06:10:43Z | C/C++ | Infrastructure/tooling | 3 | 8 | 3 | 3 |
-| [Robotics-STAR-Lab/RACER](https://github.com/Robotics-STAR-Lab/RACER) | 746 | 2024-11-19T06:07:39Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
+| [Robotics-STAR-Lab/RACER](https://github.com/Robotics-STAR-Lab/RACER) | 745 | 2024-11-19T06:07:39Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [Alex313031/thorium-legacy](https://github.com/Alex313031/thorium-legacy) | 338 | 2024-11-13T02:54:54Z | C/C++ | Unknown | 20 | 0 | 20 | 20 |
 | [ethz-asl/COIN-LIO](https://github.com/ethz-asl/COIN-LIO) | 473 | 2024-11-12T12:47:50Z | C/C++ | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [lac-dcc/llvm-course](https://github.com/lac-dcc/llvm-course) | 134 | 2024-11-08T12:42:11Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -178,6 +179,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [xlite-dev/RVM-Inference](https://github.com/xlite-dev/RVM-Inference) | 141 | 2024-07-29T01:07:58Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
 | [SqliteModernCpp/sqlite_modern_cpp](https://github.com/SqliteModernCpp/sqlite_modern_cpp) | 946 | 2024-07-23T15:29:30Z | C/C++ | Library | 2 | 0 | 2 | 2 |
 | [hku-mars/dyn_small_obs_avoidance](https://github.com/hku-mars/dyn_small_obs_avoidance) | 217 | 2024-07-23T00:47:05Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [WisdomShell/llama_cpp_for_codeshell](https://github.com/WisdomShell/llama_cpp_for_codeshell) | 108 | 2024-07-22T16:40:45Z | C/C++ | Infrastructure/tooling | 6 | 22 | 6 | 6 |
 | [robopeak/rplidar_ros](https://github.com/robopeak/rplidar_ros) | 466 | 2024-07-18T18:30:46Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [Slamtec/sllidar_ros2](https://github.com/Slamtec/sllidar_ros2) | 206 | 2024-07-12T04:41:37Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [colmap/pycolmap](https://github.com/colmap/pycolmap) | 993 | 2024-07-09T23:33:38Z | C/C++ | Infrastructure/tooling | 2 | 7 | 2 | 2 |
@@ -377,6 +379,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google-coral/edgetpu](https://github.com/google-coral/edgetpu) | 475 | 2021-10-27T17:11:22Z | C/C++ | Service/API | 2 | 0 | 2 | 2 |
 | [vinniefalco/CppCon2018](https://github.com/vinniefalco/CppCon2018) | 131 | 2021-10-12T02:50:13Z | C/C++ | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [google/farmhash](https://github.com/google/farmhash) | 646 | 2021-10-09T05:35:41Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [mjording/ttyrec](https://github.com/mjording/ttyrec) | 421 | 2021-09-29T18:56:05Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [kendryte/kendryte-standalone-sdk](https://github.com/kendryte/kendryte-standalone-sdk) | 458 | 2021-09-24T02:56:15Z | C/C++ | Library | 2 | 0 | 2 | 2 |
 | [KlugerLab/FIt-SNE](https://github.com/KlugerLab/FIt-SNE) | 609 | 2021-09-13T00:21:33Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [genotrance/nimgen](https://github.com/genotrance/nimgen) | 115 | 2021-09-01T13:51:12Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
@@ -450,7 +453,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gisbi-kim/FAST_LIO_SLAM](https://github.com/gisbi-kim/FAST_LIO_SLAM) | 758 | 2022-12-28T15:33:08Z | C/C++ | Unknown | 7 | 0 | 7 | 7 |
 | [MegEngine/InferLLM](https://github.com/MegEngine/InferLLM) | 752 | 2024-04-07T01:57:37Z | C/C++ | Framework | 3 | 0 | 3 | 3 |
 | [OAID/AutoKernel](https://github.com/OAID/AutoKernel) | 748 | 2022-09-23T03:32:36Z | C/C++ | Unknown | 10 | 0 | 10 | 10 |
-| [Robotics-STAR-Lab/RACER](https://github.com/Robotics-STAR-Lab/RACER) | 746 | 2024-11-19T06:07:39Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
+| [Robotics-STAR-Lab/RACER](https://github.com/Robotics-STAR-Lab/RACER) | 745 | 2024-11-19T06:07:39Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [libsndfile/libsamplerate](https://github.com/libsndfile/libsamplerate) | 724 | 2025-09-07T06:03:41Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [BlueBrain/HighFive](https://github.com/BlueBrain/HighFive) | 723 | 2025-01-09T09:29:48Z | C/C++ | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [paulftw/hiberlite](https://github.com/paulftw/hiberlite) | 722 | 2023-07-24T17:16:55Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -541,6 +544,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [TixiaoShan/imaging_lidar_place_recognition](https://github.com/TixiaoShan/imaging_lidar_place_recognition) | 432 | 2024-08-05T06:49:11Z | C/C++ | Unknown | 7 | 0 | 7 | 7 |
 | [henk717/KoboldAI](https://github.com/henk717/KoboldAI) | 429 | 2025-01-16T16:55:26Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [BrutPitt/imGuIZMO.quat](https://github.com/BrutPitt/imGuIZMO.quat) | 428 | 2025-04-01T02:40:16Z | C/C++ | Unknown | 19 | 0 | 19 | 19 |
+| [mjording/ttyrec](https://github.com/mjording/ttyrec) | 421 | 2021-09-29T18:56:05Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [kherud/java-llama.cpp](https://github.com/kherud/java-llama.cpp) | 416 | 2025-06-20T19:25:55Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [yuanming-hu/taichi](https://github.com/yuanming-hu/taichi) | 411 | 2023-09-16T14:39:21Z | C/C++ | Infrastructure/tooling | 8 | 8 | 8 | 8 |
 | [danielfrg/tsne](https://github.com/danielfrg/tsne) | 410 | 2023-04-06T22:49:42Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -660,6 +664,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [crazyxman/simdjson_php](https://github.com/crazyxman/simdjson_php) | 188 | 2022-10-24T01:50:17Z | C/C++ | Infrastructure/tooling | 1 | 2 | 3 | 3 |
 | [koron/cmigemo](https://github.com/koron/cmigemo) | 187 | 2022-06-23T01:52:51Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [shadowsocks/badvpn](https://github.com/shadowsocks/badvpn) | 186 | 2025-01-19T04:51:45Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [andreasdr/tdme2](https://github.com/andreasdr/tdme2) | 185 | 2025-11-08T20:43:03Z | C/C++ | CLI | 17 | 2 | 20 | 20 |
 | [digitalocean/prometheus-client-c](https://github.com/digitalocean/prometheus-client-c) | 185 | 2024-08-01T17:56:07Z | C/C++ | CLI | 1 | 1 | 1 | 1 |
 | [sogaiu/tree-sitter-clojure](https://github.com/sogaiu/tree-sitter-clojure) | 184 | 2025-08-26T06:59:18Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
 | [alexrozanski/llama.swift](https://github.com/alexrozanski/llama.swift) | 184 | 2023-06-20T23:48:50Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
@@ -740,6 +745,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [genotrance/nimgen](https://github.com/genotrance/nimgen) | 115 | 2021-09-01T13:51:12Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 | [microsoft/Komodo](https://github.com/microsoft/Komodo) | 109 | 2022-08-18T07:48:36Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [intel/compute-samples](https://github.com/intel/compute-samples) | 108 | 2025-09-10T13:15:11Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
+| [WisdomShell/llama_cpp_for_codeshell](https://github.com/WisdomShell/llama_cpp_for_codeshell) | 108 | 2024-07-22T16:40:45Z | C/C++ | Infrastructure/tooling | 6 | 22 | 6 | 6 |
 | [nihui/ifrnet-ncnn-vulkan](https://github.com/nihui/ifrnet-ncnn-vulkan) | 108 | 2022-07-20T14:03:18Z | C/C++ | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [eliemichel/glfw3webgpu](https://github.com/eliemichel/glfw3webgpu) | 107 | 2025-05-24T09:53:06Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [mapbox/geojson-vt-cpp](https://github.com/mapbox/geojson-vt-cpp) | 106 | 2024-08-13T12:36:40Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

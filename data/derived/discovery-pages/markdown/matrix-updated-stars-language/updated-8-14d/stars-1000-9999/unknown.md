@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1,000 to 9,999 stars · Unknown
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 8
-- terms: 23
-- components: 24
-- concepts: 23
-- observations: 23
+- repos: 7
+- terms: 18
+- components: 13
+- concepts: 18
+- observations: 18
 
 ## Static behavior
 
@@ -33,7 +33,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Efficient-ML/Awesome-Model-Quantization](https://github.com/Efficient-ML/Awesome-Model-Quantization) | 2360 | 2026-04-25T11:45:19Z | Unknown | Model/data | 10 | 0 | 10 | 10 |
 | [meituan-longcat/LongCat-Flash-Chat](https://github.com/meituan-longcat/LongCat-Flash-Chat) | 1328 | 2026-04-24T09:24:55Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [CocoaPods/Specs](https://github.com/CocoaPods/Specs) | 6812 | 2026-04-24T08:01:57Z | Unknown | Infrastructure/tooling | 0 | 1 | 0 | 0 |
-| [CVEProject/cvelistV5](https://github.com/CVEProject/cvelistV5) | 2611 | 2026-04-23T21:53:25Z | Unknown | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -41,7 +40,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [CocoaPods/Specs](https://github.com/CocoaPods/Specs) | 6812 | 2026-04-24T08:01:57Z | Unknown | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [logseq/awesome-logseq](https://github.com/logseq/awesome-logseq) | 2825 | 2026-04-27T12:19:40Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [CVEProject/cvelistV5](https://github.com/CVEProject/cvelistV5) | 2611 | 2026-04-23T21:53:25Z | Unknown | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 | [Efficient-ML/Awesome-Model-Quantization](https://github.com/Efficient-ML/Awesome-Model-Quantization) | 2360 | 2026-04-25T11:45:19Z | Unknown | Model/data | 10 | 0 | 10 | 10 |
 | [GyanD/codexffmpeg](https://github.com/GyanD/codexffmpeg) | 2197 | 2026-04-30T10:54:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [MicrosoftDocs/cpp-docs](https://github.com/MicrosoftDocs/cpp-docs) | 1595 | 2026-04-27T17:34:47Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |

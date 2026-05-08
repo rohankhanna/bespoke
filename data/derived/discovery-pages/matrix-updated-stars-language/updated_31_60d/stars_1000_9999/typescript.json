@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1925,
-    "concepts": 394,
-    "observations": 395,
-    "repos": 52,
-    "terms": 416
+    "components": 2031,
+    "concepts": 414,
+    "observations": 415,
+    "repos": 54,
+    "terms": 436
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "aleclarson/vite-tsconfig-paths",
@@ -31,6 +31,7 @@
     "gajus/slonik",
     "glittercowboy/taches-cc-resources",
     "golang/vscode-go",
+    "google-github-actions/run-gemini-cli",
     "gpac/mp4box.js",
     "graffle-js/graffle",
     "graphql-hive/graphql-config",
@@ -39,6 +40,7 @@
     "infinitered/nsfwjs",
     "Ironclad/rivet",
     "isaacs/node-glob",
+    "itgalaxy/favicons",
     "jamiebrynes7/obsidian-todoist-plugin",
     "jnsahaj/tweakcn",
     "josdejong/svelte-jsoneditor",
@@ -53,13 +55,13 @@
     "Mobile-Artificial-Intelligence/maid",
     "Myriad-Dreamin/typst.ts",
     "nanbingxyz/5ire",
+    "oclif/oclif",
     "peter-evans/repository-dispatch",
     "pillarjs/path-to-regexp",
     "react-native-webview/react-native-webview",
     "REditorSupport/vscode-R",
     "remotion-dev/github-unwrapped",
     "sql-formatter-org/sql-formatter",
-    "standard-schema/standard-schema",
     "stephenh/ts-proto",
     "TfTHacker/obsidian42-brat",
     "TypeStrong/ts-loader",

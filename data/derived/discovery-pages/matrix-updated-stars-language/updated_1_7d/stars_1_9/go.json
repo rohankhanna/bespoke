@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 42,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 6,
-    "terms": 34
+    "components": 41,
+    "concepts": 28,
+    "observations": 28,
+    "repos": 5,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "cloudfoundry/credhub-acceptance-tests",
     "cosmos/rosetta",
     "exoscale/karpenter-provider-exoscale",
     "fluxcd/flux-schema",
-    "linode/karpenter-provider-linode",
-    "Seedloaf/mc-router-discovery"
+    "gookit/cliui"
   ]
 }

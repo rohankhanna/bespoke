@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 67
-- terms: 176
-- components: 342
-- concepts: 177
-- observations: 177
+- repos: 68
+- terms: 180
+- components: 347
+- concepts: 181
+- observations: 181
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [clojure/tools.deps](https://github.com/clojure/tools.deps) | 54 | 2026-03-08T22:45:55Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [onomojo/i18n-timezones](https://github.com/onomojo/i18n-timezones) | 69 | 2026-03-08T00:30:08Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [BuddiesOfBudgie/budgie-desktop-view](https://github.com/BuddiesOfBudgie/budgie-desktop-view) | 33 | 2026-03-07T16:29:49Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [Triang-jyed-driung/Rapid-Sampling](https://github.com/Triang-jyed-driung/Rapid-Sampling) | 10 | 2026-03-07T08:49:04Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -122,6 +123,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [informalsystems/quint-llm-kit](https://github.com/informalsystems/quint-llm-kit) | 59 | 2026-03-06T12:00:20Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [jakewvincent/texmagic.nvim](https://github.com/jakewvincent/texmagic.nvim) | 58 | 2026-03-02T15:10:15Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [mirage/conan](https://github.com/mirage/conan) | 57 | 2026-03-06T08:14:34Z | Other | Unknown | 2 | 0 | 2 | 2 |
+| [clojure/tools.deps](https://github.com/clojure/tools.deps) | 54 | 2026-03-08T22:45:55Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [tarsius/llama](https://github.com/tarsius/llama) | 53 | 2026-03-01T12:57:37Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [microsoft/windows-host-process-containers-base-image](https://github.com/microsoft/windows-host-process-containers-base-image) | 53 | 2026-02-11T18:03:36Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [rojo-rbx/rojo.space](https://github.com/rojo-rbx/rojo.space) | 49 | 2026-03-04T19:57:31Z | Other | Infrastructure/tooling | 3 | 19 | 3 | 3 |

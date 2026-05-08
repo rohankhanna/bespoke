@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 17
-- terms: 75
-- components: 86
-- concepts: 72
-- observations: 72
+- repos: 21
+- terms: 90
+- components: 91
+- concepts: 87
+- observations: 87
 
 ## Static behavior
 
@@ -26,7 +26,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [mozillazg/go-pinyin](https://github.com/mozillazg/go-pinyin) | 1769 | 2026-03-08T13:36:18Z | Go | Infrastructure/tooling | 5 | 2 | 5 | 5 |
+| [dghubble/sling](https://github.com/dghubble/sling) | 1717 | 2026-03-08T12:41:49Z | Go | CLI | 1 | 1 | 1 | 1 |
+| [golang/oauth2](https://github.com/golang/oauth2) | 5845 | 2026-03-08T12:01:22Z | Go | CLI | 3 | 0 | 3 | 3 |
 | [mattn/efm-langserver](https://github.com/mattn/efm-langserver) | 1529 | 2026-03-08T02:08:41Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
+| [duke-git/lancet](https://github.com/duke-git/lancet) | 5282 | 2026-03-07T04:35:06Z | Go | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [spf13/pflag](https://github.com/spf13/pflag) | 2731 | 2026-03-05T10:20:58Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [OffchainLabs/arbitrum-classic](https://github.com/OffchainLabs/arbitrum-classic) | 2004 | 2026-03-03T15:38:05Z | Go | Unknown | 0 | 6 | 0 | 0 |
 | [JohannesKaufmann/html-to-markdown](https://github.com/JohannesKaufmann/html-to-markdown) | 3609 | 2026-03-02T11:06:58Z | Go | CLI | 4 | 4 | 6 | 6 |
@@ -51,6 +55,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [go-rod/rod](https://github.com/go-rod/rod) | 6881 | 2026-02-17T04:59:41Z | Go | Infrastructure/tooling | 19 | 4 | 19 | 19 |
 | [markbates/goth](https://github.com/markbates/goth) | 6516 | 2026-02-11T05:06:29Z | Go | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [gobwas/ws](https://github.com/gobwas/ws) | 6455 | 2026-02-12T17:07:49Z | Go | Infrastructure/tooling | 5 | 3 | 5 | 5 |
+| [golang/oauth2](https://github.com/golang/oauth2) | 5845 | 2026-03-08T12:01:22Z | Go | CLI | 3 | 0 | 3 | 3 |
+| [duke-git/lancet](https://github.com/duke-git/lancet) | 5282 | 2026-03-07T04:35:06Z | Go | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [opencontainers/image-spec](https://github.com/opencontainers/image-spec) | 4237 | 2026-02-26T10:21:22Z | Go | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [dagger/container-use](https://github.com/dagger/container-use) | 3730 | 2026-02-23T12:37:47Z | Go | Infrastructure/tooling | 5 | 2 | 0 | 0 |
 | [JohannesKaufmann/html-to-markdown](https://github.com/JohannesKaufmann/html-to-markdown) | 3609 | 2026-03-02T11:06:58Z | Go | CLI | 4 | 4 | 6 | 6 |
@@ -59,6 +65,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [avast/retry-go](https://github.com/avast/retry-go) | 2915 | 2026-02-12T09:24:39Z | Go | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [spf13/pflag](https://github.com/spf13/pflag) | 2731 | 2026-03-05T10:20:58Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [OffchainLabs/arbitrum-classic](https://github.com/OffchainLabs/arbitrum-classic) | 2004 | 2026-03-03T15:38:05Z | Go | Unknown | 0 | 6 | 0 | 0 |
+| [mozillazg/go-pinyin](https://github.com/mozillazg/go-pinyin) | 1769 | 2026-03-08T13:36:18Z | Go | Infrastructure/tooling | 5 | 2 | 5 | 5 |
+| [dghubble/sling](https://github.com/dghubble/sling) | 1717 | 2026-03-08T12:41:49Z | Go | CLI | 1 | 1 | 1 | 1 |
 | [mattn/efm-langserver](https://github.com/mattn/efm-langserver) | 1529 | 2026-03-08T02:08:41Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [isaacphi/mcp-language-server](https://github.com/isaacphi/mcp-language-server) | 1511 | 2026-03-01T23:27:09Z | Go | CLI | 4 | 5 | 4 | 4 |
 | [abh/geodns](https://github.com/abh/geodns) | 1451 | 2026-02-23T22:34:37Z | Go | CLI | 0 | 0 | 0 | 0 |

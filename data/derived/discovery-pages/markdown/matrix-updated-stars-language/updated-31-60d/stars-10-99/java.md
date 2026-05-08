@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · Java
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 17
-- terms: 80
-- components: 79
-- concepts: 81
-- observations: 82
+- repos: 18
+- terms: 82
+- components: 82
+- concepts: 83
+- observations: 84
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [zai-org/z-ai-sdk-java](https://github.com/zai-org/z-ai-sdk-java) | 56 | 2026-04-08T02:45:06Z | Java | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [Azure-Samples/agent-openai-java-banking-assistant-langgraph4j](https://github.com/Azure-Samples/agent-openai-java-banking-assistant-langgraph4j) | 25 | 2026-04-07T09:54:53Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [iterate-ch/rococoa](https://github.com/iterate-ch/rococoa) | 84 | 2026-04-02T01:07:48Z | Java | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [dart4e/dart4e](https://github.com/dart4e/dart4e) | 16 | 2026-04-01T16:12:10Z | Java | CLI | 9 | 5 | 9 | 9 |
@@ -52,6 +53,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [padreati/rapaio](https://github.com/padreati/rapaio) | 78 | 2026-03-16T23:52:13Z | Java | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [bobbylight/RSTALanguageSupport](https://github.com/bobbylight/RSTALanguageSupport) | 70 | 2026-03-30T10:47:38Z | Java | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [guyboertje/jrjackson](https://github.com/guyboertje/jrjackson) | 67 | 2026-03-16T10:47:23Z | Java | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [zai-org/z-ai-sdk-java](https://github.com/zai-org/z-ai-sdk-java) | 56 | 2026-04-08T02:45:06Z | Java | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [enola-dev/enola](https://github.com/enola-dev/enola) | 53 | 2026-03-25T20:40:13Z | Java | Infrastructure/tooling | 10 | 20 | 10 | 10 |
 | [apache/datasketches-hive](https://github.com/apache/datasketches-hive) | 51 | 2026-03-28T20:06:05Z | Java | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [ipld/java-cid](https://github.com/ipld/java-cid) | 50 | 2026-03-24T09:07:17Z | Java | Infrastructure/tooling | 5 | 4 | 5 | 5 |

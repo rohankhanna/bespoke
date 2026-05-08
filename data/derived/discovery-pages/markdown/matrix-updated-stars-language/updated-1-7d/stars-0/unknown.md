@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 0 stars · Unknown
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 10
-- terms: 2
-- components: 4
-- concepts: 2
-- observations: 2
+- repos: 2
+- terms: 3
+- components: 0
+- concepts: 3
+- observations: 3
 
 ## Static behavior
 
@@ -26,28 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Claude-Gist-Writer-Plugin](https://github.com/danielrosehill/Claude-Gist-Writer-Plugin) | 0 | 2026-05-05T16:10:20Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [kleisauke/glib](https://github.com/kleisauke/glib) | 0 | 2026-05-03T15:23:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Air-Quality-Toolkit-Plugin](https://github.com/danielrosehill/Air-Quality-Toolkit-Plugin) | 0 | 2026-04-30T20:10:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Background-Removal-Plugin](https://github.com/danielrosehill/Claude-Background-Removal-Plugin) | 0 | 2026-04-30T19:46:16Z | Unknown | CLI | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-AI-Model-Research-Plugin](https://github.com/danielrosehill/Claude-AI-Model-Research-Plugin) | 0 | 2026-04-30T19:37:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Donetick-Plugin](https://github.com/danielrosehill/Claude-Donetick-Plugin) | 0 | 2026-04-30T19:23:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Digital-Evidence-Plugin](https://github.com/danielrosehill/Claude-Digital-Evidence-Plugin) | 0 | 2026-04-30T19:21:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Batch-Optical-Archivist-Plugin](https://github.com/danielrosehill/Claude-Batch-Optical-Archivist-Plugin) | 0 | 2026-04-30T17:12:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [csm-actions/demo-client](https://github.com/csm-actions/demo-client) | 0 | 2026-04-30T16:35:51Z | Unknown | CLI | 2 | 4 | 2 | 2 |
-| [danielrosehill/Claude-CopyQ-Scripting-Plugin](https://github.com/danielrosehill/Claude-CopyQ-Scripting-Plugin) | 0 | 2026-04-30T15:38:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Dev-Tools-Plugin](https://github.com/danielrosehill/Claude-Dev-Tools-Plugin) | 0 | 2026-04-30T11:06:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Claude-Gist-Writer-Plugin](https://github.com/danielrosehill/Claude-Gist-Writer-Plugin) | 0 | 2026-05-05T16:10:20Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [kleisauke/glib](https://github.com/kleisauke/glib) | 0 | 2026-05-03T15:23:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Air-Quality-Toolkit-Plugin](https://github.com/danielrosehill/Air-Quality-Toolkit-Plugin) | 0 | 2026-04-30T20:10:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Background-Removal-Plugin](https://github.com/danielrosehill/Claude-Background-Removal-Plugin) | 0 | 2026-04-30T19:46:16Z | Unknown | CLI | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-AI-Model-Research-Plugin](https://github.com/danielrosehill/Claude-AI-Model-Research-Plugin) | 0 | 2026-04-30T19:37:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Donetick-Plugin](https://github.com/danielrosehill/Claude-Donetick-Plugin) | 0 | 2026-04-30T19:23:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Digital-Evidence-Plugin](https://github.com/danielrosehill/Claude-Digital-Evidence-Plugin) | 0 | 2026-04-30T19:21:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Batch-Optical-Archivist-Plugin](https://github.com/danielrosehill/Claude-Batch-Optical-Archivist-Plugin) | 0 | 2026-04-30T17:12:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [csm-actions/demo-client](https://github.com/csm-actions/demo-client) | 0 | 2026-04-30T16:35:51Z | Unknown | CLI | 2 | 4 | 2 | 2 |
-| [danielrosehill/Claude-CopyQ-Scripting-Plugin](https://github.com/danielrosehill/Claude-CopyQ-Scripting-Plugin) | 0 | 2026-04-30T15:38:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Dev-Tools-Plugin](https://github.com/danielrosehill/Claude-Dev-Tools-Plugin) | 0 | 2026-04-30T11:06:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

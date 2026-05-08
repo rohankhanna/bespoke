@@ -3,7 +3,7 @@
     "components": 158,
     "concepts": 125,
     "observations": 125,
-    "repos": 61,
+    "repos": 63,
     "terms": 124
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "0ghny/tlsg10x-cli",
     "13rac1/goldmark-embed",
@@ -41,12 +41,14 @@
     "datachainlab/besu-ibc-relay-prover",
     "DeprecatedGoModules/redigo",
     "docker-archive-public/atomisthq.pod-atomisthq-tools.docker",
+    "dombenson/go-ini",
     "dubbo-go-pixiu/pixiu-api",
     "ebml-go/ebml",
     "EpicStep/clickhouse-go-rows-utils",
     "filecoin-project/go-sectorbuilder",
     "go-bun/go-http-routing-benchmark",
     "go-woo/protoc-gen-ent",
+    "goccy/go-json-fuzz",
     "gogama/aws-xray-httpx",
     "gogama/reconnx",
     "hertz-contrib/autotls",

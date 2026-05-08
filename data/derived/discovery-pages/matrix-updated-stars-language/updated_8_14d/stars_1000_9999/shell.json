@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 111,
-    "observations": 111,
-    "repos": 15,
-    "terms": 111
+    "components": 68,
+    "concepts": 95,
+    "observations": 95,
+    "repos": 13,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
-    "aurutils/aurutils",
-    "bioconda/bioconda-recipes",
     "Botspot/pi-apps",
     "confluentinc/demo-scene",
     "dtcooper/raspotify",

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1 to 9 stars
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 103
-- terms: 302
-- components: 444
-- concepts: 306
-- observations: 306
+- repos: 104
+- terms: 309
+- components: 464
+- concepts: 313
+- observations: 313
 
 ## Static behavior
 
@@ -25,6 +25,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [nikitabobko/homebrew-tap](https://github.com/nikitabobko/homebrew-tap) | 8 | 2026-03-08T23:58:00Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [CROSS-signature/CROSS-lib-oqs](https://github.com/CROSS-signature/CROSS-lib-oqs) | 1 | 2026-03-08T18:50:44Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [REditorSupport/vscode-R-syntax](https://github.com/REditorSupport/vscode-R-syntax) | 7 | 2026-03-08T17:57:02Z | JavaScript | Infrastructure/tooling | 2 | 14 | 2 | 2 |
+| [MarcCote/TextWorld](https://github.com/MarcCote/TextWorld) | 1 | 2026-03-08T11:16:24Z | Other | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [adobe-type-tools/Adobe-Manga1](https://github.com/adobe-type-tools/Adobe-Manga1) | 6 | 2026-03-07T22:58:57Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [neuroverseos/neuroverseos-openclaw-governance](https://github.com/NeuroverseOS/neuroverseos-openclaw-governance) | 2 | 2026-03-06T17:58:50Z | TypeScript | Unknown | 0 | 2 | 0 | 0 |
 | [agents-squads/agents-squads](https://github.com/agents-squads/agents-squads) | 5 | 2026-03-06T16:57:23Z | Shell | Framework | 6 | 0 | 6 | 6 |
@@ -125,9 +129,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [haya14busa/github-used-by](https://github.com/haya14busa/github-used-by) | 3 | 2026-02-08T07:33:49Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [baskeboler/clj-karaoke-lyrics](https://github.com/baskeboler/clj-karaoke-lyrics) | 7 | 2026-02-08T00:59:40Z | Other | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [JuliaBinaryWrappers/libcxxwrap_julia_jll.jl](https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl) | 2 | 2026-02-07T12:31:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [genius-harry/neural-chat](https://github.com/genius-harry/Neural-Chat) | 2 | 2026-02-07T02:32:44Z | Python | Model/data | 0 | 0 | 0 | 0 |
-| [ansible-community/presentations](https://github.com/ansible-community/presentations) | 1 | 2026-02-06T17:10:54Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
-| [Coral-Protocol/coral-rs](https://github.com/Coral-Protocol/coral-rs) | 5 | 2026-02-06T15:39:06Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -136,6 +137,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bendrucker/terraform-configuration-aliases-action](https://github.com/bendrucker/terraform-configuration-aliases-action) | 9 | 2026-03-05T20:46:56Z | Shell | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [appbaseio/reactivesearch-api-docker](https://github.com/appbaseio/reactivesearch-api-docker) | 9 | 2026-02-23T10:37:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [usnistgov/libhdf5-wasm](https://github.com/usnistgov/libhdf5-wasm) | 9 | 2026-02-16T19:15:13Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [nikitabobko/homebrew-tap](https://github.com/nikitabobko/homebrew-tap) | 8 | 2026-03-08T23:58:00Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [actions-cool/.github](https://github.com/actions-cool/.github) | 8 | 2026-03-05T18:25:08Z | JavaScript | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [Layr-Labs/incredible-squaring-avs-rs](https://github.com/Layr-Labs/incredible-squaring-avs-rs) | 8 | 2026-03-03T20:35:56Z | Rust | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [llm-in-sandbox/llm-in-sandbox-rl](https://github.com/llm-in-sandbox/llm-in-sandbox-rl) | 8 | 2026-03-03T07:09:39Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -144,6 +146,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [near/near-abi-rs](https://github.com/near/near-abi-rs) | 8 | 2026-02-17T19:24:08Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [RobertBeckebans/DOOM-3](https://github.com/RobertBeckebans/DOOM-3) | 8 | 2026-02-11T22:24:55Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [zen-eth/multiformats-zig](https://github.com/zen-eth/multiformats-zig) | 8 | 2026-02-09T08:37:12Z | Other | Infrastructure/tooling | 8 | 2 | 8 | 8 |
+| [REditorSupport/vscode-R-syntax](https://github.com/REditorSupport/vscode-R-syntax) | 7 | 2026-03-08T17:57:02Z | JavaScript | Infrastructure/tooling | 2 | 14 | 2 | 2 |
 | [awni/picochat](https://github.com/awni/picochat) | 7 | 2026-03-06T14:14:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [shakacode/package_json](https://github.com/shakacode/package_json) | 7 | 2026-03-04T08:06:09Z | Other | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [cfrg/draft-irtf-cfrg-concrete-hybrid-kems](https://github.com/cfrg/draft-irtf-cfrg-concrete-hybrid-kems) | 7 | 2026-03-02T23:37:06Z | Rust | Infrastructure/tooling | 5 | 5 | 5 | 5 |
@@ -166,7 +169,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [SWE-bench/SWE-smith-envs](https://github.com/SWE-bench/SWE-smith-envs) | 5 | 2026-03-02T04:49:17Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [AlwaysNur/bookbank](https://github.com/AlwaysNur/bookbank) | 5 | 2026-02-22T23:00:47Z | Go | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [DavidKinder/Libraries](https://github.com/DavidKinder/Libraries) | 5 | 2026-02-14T11:20:14Z | C/C++ | Library | 0 | 0 | 0 | 0 |
-| [Coral-Protocol/coral-rs](https://github.com/Coral-Protocol/coral-rs) | 5 | 2026-02-06T15:39:06Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [hailiang-wang/llm-get-started](https://github.com/hailiang-wang/llm-get-started) | 4 | 2026-03-06T08:46:54Z | Python | Unknown | 1 | 0 | 1 | 1 |
 | [alonw0/cc-redalerts-statusline](https://github.com/alonw0/cc-redalerts-statusline) | 4 | 2026-03-05T15:48:01Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [0x676e67/0x676e67](https://github.com/0x676e67/0x676e67) | 4 | 2026-03-05T07:18:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -214,7 +216,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jsdom/.github](https://github.com/jsdom/.github) | 2 | 2026-02-14T05:28:09Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ethereum-optimism/kurtosis-test](https://github.com/ethereum-optimism/kurtosis-test) | 2 | 2026-02-10T00:33:59Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/libcxxwrap_julia_jll.jl](https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl) | 2 | 2026-02-07T12:31:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [genius-harry/neural-chat](https://github.com/genius-harry/Neural-Chat) | 2 | 2026-02-07T02:32:44Z | Python | Model/data | 0 | 0 | 0 | 0 |
+| [CROSS-signature/CROSS-lib-oqs](https://github.com/CROSS-signature/CROSS-lib-oqs) | 1 | 2026-03-08T18:50:44Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [MarcCote/TextWorld](https://github.com/MarcCote/TextWorld) | 1 | 2026-03-08T11:16:24Z | Other | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [danielrosehill/Claude-Dork](https://github.com/danielrosehill/Claude-Dork) | 1 | 2026-03-05T18:30:17Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [lace/hobart](https://github.com/lace/hobart) | 1 | 2026-03-03T19:46:12Z | Python | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [chaoss/grimoirelab-perceval-puppet](https://github.com/chaoss/grimoirelab-perceval-puppet) | 1 | 2026-03-03T09:09:49Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |
@@ -235,4 +238,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sp1-patches/curve25519-dalek-ng](https://github.com/sp1-patches/curve25519-dalek-ng) | 1 | 2026-02-12T14:22:39Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [orlp/color-backtrace](https://github.com/orlp/color-backtrace) | 1 | 2026-02-12T11:42:46Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [Jumziey/neotest-nix-unit.nvim](https://github.com/Jumziey/neotest-nix-unit.nvim) | 1 | 2026-02-08T22:22:52Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
-| [ansible-community/presentations](https://github.com/ansible-community/presentations) | 1 | 2026-02-06T17:10:54Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |

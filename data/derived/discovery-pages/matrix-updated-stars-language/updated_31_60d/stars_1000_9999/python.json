@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 352,
-    "concepts": 637,
-    "observations": 637,
-    "repos": 100,
-    "terms": 631
+    "components": 375,
+    "concepts": 626,
+    "observations": 626,
+    "repos": 103,
+    "terms": 620
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "AgentOps-AI/agentops",
     "aigc3d/LHM",
-    "anapnoe/stable-diffusion-webui-ux",
     "ApeWorX/ape",
     "astanin/python-tabulate",
     "atlassian-api/atlassian-python-api",
@@ -26,6 +25,7 @@
     "belluzj/fantasque-sans",
     "black-forest-labs/flux2",
     "bpython/bpython",
+    "chemprop/chemprop",
     "cheshire-cat-ai/core",
     "chungmin99/pyroki",
     "CoinCheung/BiSeNet",
@@ -49,9 +49,9 @@
     "google/deepvariant",
     "google/ml_collections",
     "graphql-python/gql",
-    "heshengtao/comfyui_LLM_party",
     "hiyouga/EasyR1",
     "HKUDS/VideoRAG",
+    "huggingface/nanotron",
     "huggingface/optimum-quanto",
     "huggingface/smollm",
     "hyperopt/hyperopt",
@@ -62,6 +62,7 @@
     "jeffallan/claude-skills",
     "jiaaro/pydub",
     "JulietaUla/Montserrat",
+    "jupyter/nbconvert",
     "kislyuk/argcomplete",
     "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
     "linkchecker/linkchecker",
@@ -89,6 +90,7 @@
     "python-hyper/h2",
     "python-poetry/cleo",
     "pyupio/safety",
+    "QwenLM/Qwen3-VL-Embedding",
     "rusty1s/pytorch_scatter",
     "rusty1s/pytorch_sparse",
     "s3prl/s3prl",
@@ -96,6 +98,7 @@
     "shareai-lab/claw0",
     "sierra-research/tau-bench",
     "snakers4/silero-vad",
+    "ssitu/ComfyUI_UltimateSDUpscale",
     "SWE-bench/SWE-bench",
     "tabatkins/railroad-diagrams",
     "Tencent-Hunyuan/HunyuanVideo-I2V",

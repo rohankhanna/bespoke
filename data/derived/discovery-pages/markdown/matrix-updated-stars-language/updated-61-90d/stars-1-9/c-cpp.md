@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1 to 9 stars · C/C++
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 7
+- repos: 8
 - terms: 15
 - components: 11
 - concepts: 15
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [CROSS-signature/CROSS-lib-oqs](https://github.com/CROSS-signature/CROSS-lib-oqs) | 1 | 2026-03-08T18:50:44Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [yoshoku/numo-libsvm](https://github.com/yoshoku/numo-libsvm) | 4 | 2026-03-02T14:02:55Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [arran4/lemmy_notify](https://github.com/arran4/lemmy_notify) | 2 | 2026-02-27T12:27:09Z | C/C++ | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [ankane/torchcodec-ruby](https://github.com/ankane/torchcodec-ruby) | 2 | 2026-02-27T09:13:37Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -45,3 +46,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AchimPieters/esp32-udp-logger](https://github.com/AchimPieters/esp32-udp-logger) | 4 | 2026-02-25T17:19:07Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [arran4/lemmy_notify](https://github.com/arran4/lemmy_notify) | 2 | 2026-02-27T12:27:09Z | C/C++ | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [ankane/torchcodec-ruby](https://github.com/ankane/torchcodec-ruby) | 2 | 2026-02-27T09:13:37Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [CROSS-signature/CROSS-lib-oqs](https://github.com/CROSS-signature/CROSS-lib-oqs) | 1 | 2026-03-08T18:50:44Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 45
+- repos: 44
 - terms: 178
-- components: 246
+- components: 244
 - concepts: 180
 - observations: 183
 
@@ -70,7 +70,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rust-embedded-community/serde-json-core](https://github.com/rust-embedded-community/serde-json-core) | 192 | 2025-11-18T12:05:40Z | Rust | Infrastructure/tooling | 5 | 2 | 6 | 6 |
 | [lerouxrgd/datachannel-rs](https://github.com/lerouxrgd/datachannel-rs) | 153 | 2025-11-12T00:29:39Z | Rust | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [bbqsrc/cargo-ndk](https://github.com/bbqsrc/cargo-ndk) | 923 | 2025-11-11T21:05:57Z | Rust | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [rust-analyzer/ungrammar](https://github.com/rust-analyzer/ungrammar) | 324 | 2025-11-08T12:34:26Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -99,7 +98,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [atanunq/viuer](https://github.com/atanunq/viuer) | 347 | 2025-12-09T17:16:05Z | Rust | CLI | 4 | 4 | 4 | 4 |
 | [zonyitoo/rust-ini](https://github.com/zonyitoo/rust-ini) | 345 | 2026-02-04T06:32:20Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [guillaume-be/rust-tokenizers](https://github.com/guillaume-be/rust-tokenizers) | 340 | 2026-01-22T20:30:14Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
-| [rust-analyzer/ungrammar](https://github.com/rust-analyzer/ungrammar) | 324 | 2025-11-08T12:34:26Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [faradayio/cage](https://github.com/faradayio/cage) | 315 | 2025-11-30T15:43:01Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [Manishearth/triomphe](https://github.com/Manishearth/triomphe) | 289 | 2026-01-22T21:05:24Z | Rust | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [op-rs/kona](https://github.com/op-rs/kona) | 289 | 2026-01-16T16:44:30Z | Rust | Infrastructure/tooling | 15 | 23 | 15 | 15 |

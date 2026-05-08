@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 77,
-    "concepts": 81,
-    "observations": 82,
+    "components": 76,
+    "concepts": 82,
+    "observations": 83,
     "repos": 28,
-    "terms": 79
+    "terms": 80
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "3dfxdev/EDGE",
     "AdaCore/gnatcoll-db",
@@ -29,11 +29,11 @@
     "ibireme/c_numconv_benchmark",
     "icppWorld/icpp_llm",
     "jdlph/OpenDTA",
+    "JuliaInterop/libcxxwrap-julia",
     "lemire/fast_float",
     "nativium/nativium",
     "osmcode/osm-gis-export",
     "osvenskan/sysv_ipc",
-    "probonopd/static-tools",
     "r-spatial/lwgeom",
     "RomanArzumanyan/VALI",
     "Taritsyn/LibSassHost",

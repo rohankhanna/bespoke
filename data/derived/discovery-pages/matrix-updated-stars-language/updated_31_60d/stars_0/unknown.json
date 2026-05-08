@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 47,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 26,
-    "terms": 34
+    "components": 36,
+    "concepts": 33,
+    "observations": 33,
+    "repos": 30,
+    "terms": 33
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "adiny/moodtrip-hotel-search",
     "cachix/crossterm",
     "cwfitzgerald/libtest-mimic",
     "danielrosehill/AI-Browser-Tools",
+    "danielrosehill/AI-Project-Spec-Pattern",
     "danielrosehill/AI-Projects-Index",
     "danielrosehill/AI-Resource-Maps",
     "danielrosehill/amd-gpu-fixes",
@@ -36,9 +37,12 @@
     "danielrosehill/Networking-And-Infrastructure-Index",
     "danielrosehill/Networking-Projects-Index",
     "danielrosehill/Patches-Repos-Index",
-    "DataDog/opa",
+    "danielrosehill/Price-Research-Index",
     "hermit-os/tokio",
+    "kdn36/arrow-rs-object-store",
     "lakekeeper/nats.rs",
-    "PetervanLunteren/EcoAssist-metadata"
+    "PetervanLunteren/EcoAssist-metadata",
+    "piebald-ai/piebald",
+    "semgrep/cursor-plugin"
   ]
 }

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 44
-- terms: 261
+- repos: 45
+- terms: 267
 - components: 154
-- concepts: 264
-- observations: 264
+- concepts: 270
+- observations: 270
 
 ## Static behavior
 
@@ -39,6 +39,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bshoshany/thread-pool](https://github.com/bshoshany/thread-pool) | 2955 | 2026-01-04T01:05:55Z | C/C++ | Library | 18 | 0 | 18 | 18 |
 | [pothosware/SoapySDR](https://github.com/pothosware/SoapySDR) | 1435 | 2026-01-02T21:28:01Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [EKA2L1/EKA2L1](https://github.com/EKA2L1/EKA2L1) | 1930 | 2026-01-02T18:07:40Z | C/C++ | Infrastructure/tooling | 8 | 10 | 8 | 8 |
+| [cztomczak/cefpython](https://github.com/cztomczak/cefpython) | 3234 | 2026-01-02T11:51:01Z | C/C++ | Framework | 6 | 0 | 6 | 6 |
 | [gulrak/filesystem](https://github.com/gulrak/filesystem) | 1527 | 2025-12-31T21:23:00Z | C/C++ | Infrastructure/tooling | 11 | 4 | 11 | 11 |
 | [cjlin1/liblinear](https://github.com/cjlin1/liblinear) | 1047 | 2025-12-29T11:32:11Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [golang-ui/nuklear](https://github.com/golang-ui/nuklear) | 1604 | 2025-12-29T09:12:46Z | C/C++ | Library | 0 | 0 | 0 | 0 |
@@ -49,7 +50,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [github/cmark-gfm](https://github.com/github/cmark-gfm) | 1078 | 2025-12-19T16:43:45Z | C/C++ | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [openMVG/openMVG](https://github.com/openMVG/openMVG) | 6390 | 2025-12-17T00:44:42Z | C/C++ | Infrastructure/tooling | 10 | 5 | 11 | 11 |
 | [naelstrof/maim](https://github.com/naelstrof/maim) | 2266 | 2025-12-16T11:43:17Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
-| [libsndfile/libsndfile](https://github.com/libsndfile/libsndfile) | 1696 | 2025-12-16T06:36:09Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
+| [libsndfile/libsndfile](https://github.com/libsndfile/libsndfile) | 1697 | 2025-12-16T06:36:09Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [tpoechtrager/osxcross](https://github.com/tpoechtrager/osxcross) | 3305 | 2025-12-15T17:34:45Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [Blosc/c-blosc](https://github.com/Blosc/c-blosc) | 1048 | 2025-12-15T01:03:00Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [NixOS/patchelf](https://github.com/NixOS/patchelf) | 4186 | 2025-12-15T01:02:35Z | C/C++ | Infrastructure/tooling | 1 | 6 | 1 | 1 |
@@ -86,6 +87,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [MaskRay/ccls](https://github.com/MaskRay/ccls) | 4051 | 2025-11-30T05:53:43Z | C/C++ | Service/API | 2 | 0 | 2 | 2 |
 | [sysstat/sysstat](https://github.com/sysstat/sysstat) | 3313 | 2025-12-07T09:02:50Z | C/C++ | Infrastructure/tooling | 12 | 4 | 12 | 12 |
 | [tpoechtrager/osxcross](https://github.com/tpoechtrager/osxcross) | 3305 | 2025-12-15T17:34:45Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [cztomczak/cefpython](https://github.com/cztomczak/cefpython) | 3234 | 2026-01-02T11:51:01Z | C/C++ | Framework | 6 | 0 | 6 | 6 |
 | [hanslub42/rlwrap](https://github.com/hanslub42/rlwrap) | 3056 | 2025-11-13T10:56:20Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [gflags/gflags](https://github.com/gflags/gflags) | 3016 | 2025-12-06T13:49:51Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [bshoshany/thread-pool](https://github.com/bshoshany/thread-pool) | 2955 | 2026-01-04T01:05:55Z | C/C++ | Library | 18 | 0 | 18 | 18 |
@@ -104,7 +106,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [InteractiveComputerGraphics/SPlisHSPlasH](https://github.com/InteractiveComputerGraphics/SPlisHSPlasH) | 1835 | 2025-11-28T15:47:16Z | C/C++ | Infrastructure/tooling | 15 | 6 | 15 | 15 |
 | [NVlabs/nvdiffrast](https://github.com/NVlabs/nvdiffrast) | 1828 | 2025-12-08T13:25:14Z | C/C++ | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [libimobiledevice/usbmuxd](https://github.com/libimobiledevice/usbmuxd) | 1700 | 2025-12-06T01:14:51Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |
-| [libsndfile/libsndfile](https://github.com/libsndfile/libsndfile) | 1696 | 2025-12-16T06:36:09Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
+| [libsndfile/libsndfile](https://github.com/libsndfile/libsndfile) | 1697 | 2025-12-16T06:36:09Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [golang-ui/nuklear](https://github.com/golang-ui/nuklear) | 1604 | 2025-12-29T09:12:46Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [nfrechette/acl](https://github.com/nfrechette/acl) | 1550 | 2025-11-26T02:28:49Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
 | [gulrak/filesystem](https://github.com/gulrak/filesystem) | 1527 | 2025-12-31T21:23:00Z | C/C++ | Infrastructure/tooling | 11 | 4 | 11 | 11 |

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 19
-- terms: 68
-- components: 220
-- concepts: 68
-- observations: 68
+- repos: 18
+- terms: 62
+- components: 209
+- concepts: 62
+- observations: 62
 
 ## Static behavior
 
@@ -44,7 +44,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [coderaiser/try-catch](https://github.com/coderaiser/try-catch) | 19 | 2026-02-13T11:17:03Z | JavaScript | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [ButTaiwan/taigivs](https://github.com/ButTaiwan/taigivs) | 63 | 2026-02-10T12:56:57Z | JavaScript | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [tc39/proposal-import-bytes](https://github.com/tc39/proposal-import-bytes) | 80 | 2026-02-09T15:42:56Z | JavaScript | Infrastructure/tooling | 3 | 11 | 3 | 3 |
-| [quarkiverse/quarkiverse](https://github.com/quarkiverse/quarkiverse) | 53 | 2026-02-06T11:25:33Z | JavaScript | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -57,7 +56,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ably-labs/realtime-multiplayer-space-invaders](https://github.com/ably-labs/realtime-multiplayer-space-invaders) | 76 | 2026-03-06T11:30:22Z | JavaScript | Unknown | 5 | 4 | 5 | 5 |
 | [ButTaiwan/taigivs](https://github.com/ButTaiwan/taigivs) | 63 | 2026-02-10T12:56:57Z | JavaScript | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [hchiam/learning-lighthouse-ci](https://github.com/hchiam/learning-lighthouse-ci) | 61 | 2026-02-13T18:42:15Z | JavaScript | Web app | 2 | 3 | 2 | 2 |
-| [quarkiverse/quarkiverse](https://github.com/quarkiverse/quarkiverse) | 53 | 2026-02-06T11:25:33Z | JavaScript | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [coderaiser/try-to-catch](https://github.com/coderaiser/try-to-catch) | 41 | 2026-02-13T11:18:27Z | JavaScript | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [coderaiser/estree-to-babel](https://github.com/coderaiser/estree-to-babel) | 35 | 2026-03-04T11:29:52Z | JavaScript | Infrastructure/tooling | 7 | 22 | 7 | 7 |
 | [hyparam/hysnappy](https://github.com/hyparam/hysnappy) | 27 | 2026-02-22T03:58:48Z | JavaScript | Infrastructure/tooling | 8 | 7 | 8 | 8 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 131,
-    "concepts": 72,
-    "observations": 72,
-    "repos": 21,
-    "terms": 72
+    "components": 68,
+    "concepts": 33,
+    "observations": 33,
+    "repos": 11,
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,28 +12,18 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "arcaputo3/mcp-server-whisper",
-    "autowarefoundation/autoware_launch",
-    "awslabs/nx-neptune",
-    "Azure-Samples/openai-chat-app-entra-auth-builtin",
-    "beclab/apps",
-    "conservationtechlab/animl-py",
     "dora-rs/dora-hub",
     "gentoo/api-gentoo-org",
-    "gordon-code/cuid2",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "Hiroshiba/voicevox_engine",
     "intel-staging/text-generation-webui",
     "jfly/shtuff",
-    "NVIDIA/multi-storage-client",
-    "petercorke/spatialmath-python",
-    "py-pdf/sample-files",
     "python-jsonschema/referencing",
     "pytroll/donfig",
     "qiayuanl/unitree_bringup",
-    "redis/docs",
     "scipy/scipy.org"
   ]
 }

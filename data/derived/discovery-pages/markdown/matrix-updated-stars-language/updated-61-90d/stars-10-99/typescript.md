@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 21
-- terms: 59
-- components: 365
-- concepts: 57
-- observations: 57
+- repos: 20
+- terms: 49
+- components: 357
+- concepts: 47
+- observations: 47
 
 ## Static behavior
 
@@ -46,7 +46,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hsimpson/vscode-glsllint](https://github.com/hsimpson/vscode-glsllint) | 92 | 2026-02-12T18:52:35Z | TypeScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
 | [lobehub/.github](https://github.com/lobehub/.github) | 11 | 2026-02-08T00:31:53Z | TypeScript | Infrastructure/tooling | 2 | 11 | 0 | 0 |
 | [omril321/automated-notebooklm](https://github.com/omril321/automated-notebooklm) | 15 | 2026-02-07T09:45:17Z | TypeScript | Unknown | 0 | 17 | 0 | 0 |
-| [libp2p/github-mgmt](https://github.com/libp2p/github-mgmt) | 10 | 2026-02-06T19:12:55Z | TypeScript | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 
 ## Repos sorted by stars
 
@@ -72,4 +71,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pkgxdev/pkgo](https://github.com/pkgxdev/pkgo) | 13 | 2026-02-25T18:55:25Z | TypeScript | Library | 0 | 0 | 0 | 0 |
 | [nulone/claude-rules-doctor](https://github.com/nulone/claude-rules-doctor) | 11 | 2026-02-25T02:41:48Z | TypeScript | CLI | 0 | 7 | 0 | 0 |
 | [lobehub/.github](https://github.com/lobehub/.github) | 11 | 2026-02-08T00:31:53Z | TypeScript | Infrastructure/tooling | 2 | 11 | 0 | 0 |
-| [libp2p/github-mgmt](https://github.com/libp2p/github-mgmt) | 10 | 2026-02-06T19:12:55Z | TypeScript | Infrastructure/tooling | 10 | 8 | 10 | 10 |

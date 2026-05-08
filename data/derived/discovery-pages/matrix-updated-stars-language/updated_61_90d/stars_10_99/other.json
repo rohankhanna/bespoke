@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 342,
-    "concepts": 177,
-    "observations": 177,
-    "repos": 67,
-    "terms": 176
+    "components": 347,
+    "concepts": 181,
+    "observations": 181,
+    "repos": 68,
+    "terms": 180
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "ably-labs/realtime-quiz-framework",
@@ -31,6 +31,7 @@
     "bokeh/tutorial",
     "BuddiesOfBudgie/budgie-desktop-view",
     "camertron/garnet-js",
+    "clojure/tools.deps",
     "co-IT/CSharpFunctionalExtensions.HttpResults",
     "codymikol/neotest-kotlin",
     "DavidKinder/Windows-Glulxe",

@@ -3,7 +3,7 @@
     "components": 173,
     "concepts": 194,
     "observations": 194,
-    "repos": 81,
+    "repos": 83,
     "terms": 203
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "Adlik/vllm",
@@ -28,6 +28,7 @@
     "biocypher/project-template",
     "BoosterRobotics/booster_deploy",
     "brentyi/jax_dataclasses",
+    "Bujiazi/DiCache",
     "cedricrupb/code_ast",
     "ChenMnZ/INT_vs_FP",
     "ChenShawn/MultiModal-Jupyter-Sandbox",
@@ -41,6 +42,7 @@
     "erkyrath/glk-dev",
     "espressif/conventional-precommit-linter",
     "fsspec/sshfs",
+    "google-deepmind/alphageometry2",
     "HabanaAI/DeepSpeed",
     "haydn-jones/SOAP_JAX",
     "HuajianUP/360Loc",

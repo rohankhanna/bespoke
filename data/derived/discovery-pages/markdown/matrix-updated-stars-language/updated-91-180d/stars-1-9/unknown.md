@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars · Unknown
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 33
-- terms: 22
+- terms: 24
 - components: 30
-- concepts: 23
-- observations: 23
+- concepts: 25
+- observations: 25
 
 ## Static behavior
 
@@ -46,6 +46,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/AI-Model-Manager](https://github.com/danielrosehill/AI-Model-Manager) | 2 | 2025-12-15T02:45:54Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [jupyter-widgets/team-compass](https://github.com/jupyter-widgets/team-compass) | 4 | 2025-12-12T20:37:40Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [rose-pine/.github](https://github.com/rose-pine/.github) | 2 | 2025-12-10T14:31:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Audio-Understanding-Test-Prompts](https://github.com/danielrosehill/Audio-Understanding-Test-Prompts) | 1 | 2025-12-08T12:18:55Z | Unknown | Model/data | 2 | 0 | 2 | 2 |
 | [danielrosehill/MCP-Server-Ideas](https://github.com/danielrosehill/MCP-Server-Ideas) | 1 | 2025-12-02T11:58:19Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [geopandas/governance](https://github.com/geopandas/governance) | 4 | 2025-11-27T17:18:36Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Ai-Workspace-Planning-Notes](https://github.com/danielrosehill/Ai-Workspace-Planning-Notes) | 1 | 2025-11-25T13:27:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -58,7 +59,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alphagov/.github](https://github.com/alphagov/.github) | 6 | 2025-11-10T14:11:22Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [haskell/cabal-proposals](https://github.com/haskell/cabal-proposals) | 7 | 2025-11-10T10:17:18Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Code-Bash-Aliases](https://github.com/danielrosehill/Claude-Code-Bash-Aliases) | 1 | 2025-11-09T16:29:44Z | Unknown | Unknown | 1 | 0 | 2 | 2 |
-| [radian-software/contributor-guide](https://github.com/radian-software/contributor-guide) | 2 | 2025-11-08T18:54:36Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -88,11 +88,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/AI-Model-Manager](https://github.com/danielrosehill/AI-Model-Manager) | 2 | 2025-12-15T02:45:54Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [rose-pine/.github](https://github.com/rose-pine/.github) | 2 | 2025-12-10T14:31:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [SWE-agent/swe-agent-media](https://github.com/SWE-agent/swe-agent-media) | 2 | 2025-11-15T01:29:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [radian-software/contributor-guide](https://github.com/radian-software/contributor-guide) | 2 | 2025-11-08T18:54:36Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [kornia/data](https://github.com/kornia/data) | 1 | 2026-02-02T13:51:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [apollographql/.github](https://github.com/apollographql/.github) | 1 | 2026-01-16T19:46:00Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [lionel-/biome](https://github.com/lionel-/biome) | 1 | 2026-01-07T10:58:42Z | Unknown | CLI | 5 | 12 | 5 | 5 |
 | [EvelynZhang-epiclab/EvelynImgs](https://github.com/EvelynZhang-epiclab/EvelynImgs) | 1 | 2025-12-23T04:03:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Audio-Understanding-Test-Prompts](https://github.com/danielrosehill/Audio-Understanding-Test-Prompts) | 1 | 2025-12-08T12:18:55Z | Unknown | Model/data | 2 | 0 | 2 | 2 |
 | [danielrosehill/MCP-Server-Ideas](https://github.com/danielrosehill/MCP-Server-Ideas) | 1 | 2025-12-02T11:58:19Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [danielrosehill/Ai-Workspace-Planning-Notes](https://github.com/danielrosehill/Ai-Workspace-Planning-Notes) | 1 | 2025-11-25T13:27:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/claude-code-plugin](https://github.com/danielrosehill/claude-code-plugin) | 1 | 2025-11-15T19:37:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 82,
-    "concepts": 127,
-    "observations": 127,
-    "repos": 16,
-    "terms": 124
+    "components": 85,
+    "concepts": 130,
+    "observations": 130,
+    "repos": 17,
+    "terms": 127
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "apache/doris-flink-connector",
     "apache/doris-spark-connector",
@@ -24,6 +24,7 @@
     "fnproject/fdk-java",
     "googleapis/java-bigquery",
     "GoogleCloudPlatform/cloud-bigtable-examples",
+    "GoogleCloudPlatform/cloud-opensource-java",
     "mebigfatguy/fb-contrib",
     "nayuki/Nayuki-web-published-code",
     "objectbox/objectbox-examples",

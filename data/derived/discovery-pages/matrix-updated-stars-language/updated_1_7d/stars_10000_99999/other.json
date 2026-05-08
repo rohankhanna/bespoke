@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 476,
-    "concepts": 400,
-    "observations": 401,
-    "repos": 36,
-    "terms": 397
+    "components": 430,
+    "concepts": 291,
+    "observations": 292,
+    "repos": 27,
+    "terms": 290
   },
   "facet_version": 1,
   "filters": {
@@ -12,43 +12,34 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
-    "actions/runner-images",
     "adityatelange/hugo-PaperMod",
     "alpinejs/alpine",
-    "autowarefoundation/autoware",
+    "anthropics/claude-cookbooks",
     "BasedHardware/omi",
     "bitnami/charts",
-    "coollabsio/coolify",
+    "cefsharp/CefSharp",
     "crystal-lang/crystal",
     "Devolutions/UniGetUI",
     "dotnet/aspnetcore",
     "dotnet/AspNetCore.Docs",
     "exelban/stats",
-    "getgrav/grav",
-    "getlantern/lantern",
     "github-linguist/linguist",
-    "hadolint/hadolint",
+    "google/material-design-lite",
     "hagezi/dns-blocklists",
-    "Heapy/awesome-kotlin",
     "JetBrains/compose-multiplatform",
-    "Kotlin/kotlinx.coroutines",
     "kubernetes-sigs/kubespray",
     "logseq/logseq",
     "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
     "mdn/content",
-    "microsoft/ai-agents-for-beginners",
     "MudBlazor/MudBlazor",
     "phpstan/phpstan",
-    "rapid7/metasploit-framework",
     "rubocop/rubocop",
     "shadowsocks/shadowsocks-android",
-    "Shopify/liquid",
     "swiftlang/swift-evolution",
     "swiftlang/swift-package-manager",
-    "symfony/symfony",
     "tiann/KernelSU"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 315,
-    "concepts": 338,
-    "observations": 338,
-    "repos": 29,
-    "terms": 335
+    "components": 240,
+    "concepts": 204,
+    "observations": 204,
+    "repos": 19,
+    "terms": 201
   },
   "facet_version": 1,
   "filters": {
@@ -12,36 +12,26 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "apache/brpc",
     "apache/thrift",
-    "assimp/assimp",
-    "bpftrace/bpftrace",
     "capnproto/capnproto",
     "coturn/coturn",
-    "dcloudio/uni-app",
     "duckdb/duckdb",
     "emscripten-core/emscripten",
-    "espressif/arduino-esp32",
-    "espressif/esp-idf",
-    "ggml-org/ggml",
+    "ggml-org/whisper.cpp",
     "google-deepmind/mujoco",
-    "isl-org/Open3D",
-    "jemalloc/jemalloc",
     "jqlang/jq",
     "jrouwe/JoltPhysics",
     "libsdl-org/SDL",
-    "LostRuins/koboldcpp",
     "micropython/micropython",
     "mozilla-ai/llamafile",
     "openvinotoolkit/openvino",
     "PointCloudLibrary/pcl",
     "protocolbuffers/protobuf",
-    "qmk/qmk_firmware",
     "SerenityOS/serenity",
     "simdjson/simdjson",
-    "winsiderss/systeminformer",
     "Z3Prover/z3"
   ]
 }

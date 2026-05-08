@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1753,
-    "concepts": 283,
-    "observations": 284,
-    "repos": 31,
-    "terms": 282
+    "components": 1597,
+    "concepts": 254,
+    "observations": 254,
+    "repos": 29,
+    "terms": 253
   },
   "facet_version": 1,
   "filters": {
@@ -12,38 +12,36 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
+    "acornjs/acorn",
     "ampproject/amphtml",
     "Automattic/mongoose",
-    "cure53/DOMPurify",
     "easydiffusion/easydiffusion",
     "electerm/electerm",
-    "electron/minimal-repro",
-    "expressjs/express",
     "facebook/hermes",
     "gatsbyjs/gatsby",
     "GoogleChrome/lighthouse",
+    "http-party/node-http-proxy",
     "huggingface/transformers.js",
+    "jsdoc/jsdoc",
     "jsdom/jsdom",
     "krisk/Fuse",
-    "lovell/sharp",
     "lutzroeder/netron",
     "MagicMirrorOrg/MagicMirror",
     "mdx-js/mdx",
     "microsoft/monaco-editor",
+    "mochajs/mocha",
     "moment/luxon",
     "mozilla/pdf.js",
     "nodemailer/nodemailer",
     "novnc/noVNC",
     "plotly/plotly.js",
     "protobufjs/protobuf.js",
-    "rollup/rollup",
     "SillyTavern/SillyTavern",
     "swagger-api/swagger-ui",
     "Unitech/pm2",
     "validatorjs/validator.js",
-    "wix/Detox",
-    "zloirock/core-js"
+    "wix/Detox"
   ]
 }

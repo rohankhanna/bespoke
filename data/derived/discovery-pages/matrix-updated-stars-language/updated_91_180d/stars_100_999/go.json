@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 167,
-    "concepts": 194,
-    "observations": 194,
-    "repos": 31,
-    "terms": 193
+    "components": 169,
+    "concepts": 195,
+    "observations": 195,
+    "repos": 32,
+    "terms": 194
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "alexkohler/nakedret",
     "aws-observability/aws-otel-collector",
@@ -34,6 +34,7 @@
     "IBM/FfDL",
     "InftyAI/llmaz",
     "ipfs/go-ds-s3",
+    "kubernetes-sigs/yaml",
     "lightningnetwork/lightning-onion",
     "liquidmetal-dev/cluster-api-provider-microvm",
     "Masterminds/vcs",

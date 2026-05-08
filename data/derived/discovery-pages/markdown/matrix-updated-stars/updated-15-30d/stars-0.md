@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 156
-- terms: 261
-- components: 748
-- concepts: 232
-- observations: 232
+- repos: 161
+- terms: 265
+- components: 741
+- concepts: 236
+- observations: 236
 
 ## Static behavior
 
@@ -25,6 +25,15 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [conda-forge/tianshou-feedstock](https://github.com/conda-forge/tianshou-feedstock) | 0 | 2026-04-24T03:51:30Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [conda-forge/textgrad-feedstock](https://github.com/conda-forge/textgrad-feedstock) | 0 | 2026-04-24T03:45:49Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [edward3h/bedrock-viz-from-backups](https://github.com/edward3h/bedrock-viz-from-backups) | 0 | 2026-04-24T01:53:19Z | Shell | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin](https://github.com/danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin) | 0 | 2026-04-23T14:34:16Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [danielrosehill/Open-Research-Workspaces-Index](https://github.com/danielrosehill/Open-Research-Workspaces-Index) | 0 | 2026-04-23T13:24:32Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
+| [danielrosehill/AI-Presentation-Builders-Index](https://github.com/danielrosehill/AI-Presentation-Builders-Index) | 0 | 2026-04-23T13:11:27Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [conda-forge/ergocub-software-feedstock](https://github.com/conda-forge/ergocub-software-feedstock) | 0 | 2026-04-23T12:46:07Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [conda-forge/equinox-feedstock](https://github.com/conda-forge/equinox-feedstock) | 0 | 2026-04-23T12:45:27Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [danielrosehill/Claude-Israel](https://github.com/danielrosehill/Claude-Israel) | 0 | 2026-04-23T12:34:17Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [kdubbo/xds-api](https://github.com/kdubbo/xds-api) | 0 | 2026-04-23T10:50:00Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Hypothesis-Council](https://github.com/danielrosehill/Hypothesis-Council) | 0 | 2026-04-23T10:28:19Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [DataDog/vault](https://github.com/DataDog/vault) | 0 | 2026-04-23T09:08:34Z | Go | Infrastructure/tooling | 5 | 10 | 5 | 5 |
@@ -149,6 +158,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hyper-mcp-rs/crates-io-plugin](https://github.com/hyper-mcp-rs/crates-io-plugin) | 0 | 2026-04-15T16:06:42Z | Rust | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [hyper-mcp-rs/arxiv-plugin](https://github.com/hyper-mcp-rs/arxiv-plugin) | 0 | 2026-04-15T11:53:03Z | Rust | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [danielrosehill/Live-Typing-UX-Research](https://github.com/danielrosehill/Live-Typing-UX-Research) | 0 | 2026-04-14T13:33:10Z | Other | Unknown | 2 | 0 | 2 | 2 |
+| [danielrosehill/Research-Tools-And-Templates-Index](https://github.com/danielrosehill/Research-Tools-And-Templates-Index) | 0 | 2026-04-14T12:21:21Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [danielrosehill/Claude-Calls-The-Shots](https://github.com/danielrosehill/Claude-Calls-The-Shots) | 0 | 2026-04-14T11:13:59Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [arckoor/jsonwebtoken-botan](https://github.com/arckoor/jsonwebtoken-botan) | 0 | 2026-04-14T03:20:44Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [fulmicoton-dd/datasketches-rust](https://github.com/fulmicoton-dd/datasketches-rust) | 0 | 2026-04-13T15:27:23Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
@@ -176,16 +186,20 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stdlib-js/dstructs-struct](https://github.com/stdlib-js/dstructs-struct) | 0 | 2026-04-09T03:55:27Z | JavaScript | Infrastructure/tooling | 18 | 75 | 18 | 18 |
 | [danielrosehill/Agent-Journal](https://github.com/danielrosehill/Agent-Journal) | 0 | 2026-04-08T14:15:54Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [csjgg/ags-cookbook](https://github.com/csjgg/ags-cookbook) | 0 | 2026-04-08T09:25:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [redai-infra/TransferQueue](https://github.com/redai-infra/TransferQueue) | 0 | 2026-04-08T03:48:14Z | Python | Infrastructure/tooling | 6 | 6 | 6 | 6 |
-| [cdeust/cortex-know-when-to-stop-training-model](https://github.com/cdeust/cortex-know-when-to-stop-training-model) | 0 | 2026-04-07T20:02:33Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [semgrep/cursor-plugin](https://github.com/semgrep/cursor-plugin) | 0 | 2026-04-07T14:35:16Z | Unknown | Infrastructure/tooling | 2 | 1 | 2 | 2 |
-| [piebald-ai/piebald](https://github.com/Piebald-AI/piebald) | 0 | 2026-04-07T14:19:22Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [kdn36/arrow-rs-object-store](https://github.com/kdn36/arrow-rs-object-store) | 0 | 2026-04-07T11:45:00Z | Unknown | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [conda-forge/tianshou-feedstock](https://github.com/conda-forge/tianshou-feedstock) | 0 | 2026-04-24T03:51:30Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [conda-forge/textgrad-feedstock](https://github.com/conda-forge/textgrad-feedstock) | 0 | 2026-04-24T03:45:49Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [edward3h/bedrock-viz-from-backups](https://github.com/edward3h/bedrock-viz-from-backups) | 0 | 2026-04-24T01:53:19Z | Shell | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin](https://github.com/danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin) | 0 | 2026-04-23T14:34:16Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [danielrosehill/Open-Research-Workspaces-Index](https://github.com/danielrosehill/Open-Research-Workspaces-Index) | 0 | 2026-04-23T13:24:32Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
+| [danielrosehill/AI-Presentation-Builders-Index](https://github.com/danielrosehill/AI-Presentation-Builders-Index) | 0 | 2026-04-23T13:11:27Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [conda-forge/ergocub-software-feedstock](https://github.com/conda-forge/ergocub-software-feedstock) | 0 | 2026-04-23T12:46:07Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [conda-forge/equinox-feedstock](https://github.com/conda-forge/equinox-feedstock) | 0 | 2026-04-23T12:45:27Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [danielrosehill/Claude-Israel](https://github.com/danielrosehill/Claude-Israel) | 0 | 2026-04-23T12:34:17Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [kdubbo/xds-api](https://github.com/kdubbo/xds-api) | 0 | 2026-04-23T10:50:00Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Hypothesis-Council](https://github.com/danielrosehill/Hypothesis-Council) | 0 | 2026-04-23T10:28:19Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [DataDog/vault](https://github.com/DataDog/vault) | 0 | 2026-04-23T09:08:34Z | Go | Infrastructure/tooling | 5 | 10 | 5 | 5 |
@@ -310,6 +324,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hyper-mcp-rs/crates-io-plugin](https://github.com/hyper-mcp-rs/crates-io-plugin) | 0 | 2026-04-15T16:06:42Z | Rust | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [hyper-mcp-rs/arxiv-plugin](https://github.com/hyper-mcp-rs/arxiv-plugin) | 0 | 2026-04-15T11:53:03Z | Rust | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [danielrosehill/Live-Typing-UX-Research](https://github.com/danielrosehill/Live-Typing-UX-Research) | 0 | 2026-04-14T13:33:10Z | Other | Unknown | 2 | 0 | 2 | 2 |
+| [danielrosehill/Research-Tools-And-Templates-Index](https://github.com/danielrosehill/Research-Tools-And-Templates-Index) | 0 | 2026-04-14T12:21:21Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [danielrosehill/Claude-Calls-The-Shots](https://github.com/danielrosehill/Claude-Calls-The-Shots) | 0 | 2026-04-14T11:13:59Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [arckoor/jsonwebtoken-botan](https://github.com/arckoor/jsonwebtoken-botan) | 0 | 2026-04-14T03:20:44Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [fulmicoton-dd/datasketches-rust](https://github.com/fulmicoton-dd/datasketches-rust) | 0 | 2026-04-13T15:27:23Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
@@ -337,8 +352,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stdlib-js/dstructs-struct](https://github.com/stdlib-js/dstructs-struct) | 0 | 2026-04-09T03:55:27Z | JavaScript | Infrastructure/tooling | 18 | 75 | 18 | 18 |
 | [danielrosehill/Agent-Journal](https://github.com/danielrosehill/Agent-Journal) | 0 | 2026-04-08T14:15:54Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [csjgg/ags-cookbook](https://github.com/csjgg/ags-cookbook) | 0 | 2026-04-08T09:25:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [redai-infra/TransferQueue](https://github.com/redai-infra/TransferQueue) | 0 | 2026-04-08T03:48:14Z | Python | Infrastructure/tooling | 6 | 6 | 6 | 6 |
-| [cdeust/cortex-know-when-to-stop-training-model](https://github.com/cdeust/cortex-know-when-to-stop-training-model) | 0 | 2026-04-07T20:02:33Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [semgrep/cursor-plugin](https://github.com/semgrep/cursor-plugin) | 0 | 2026-04-07T14:35:16Z | Unknown | Infrastructure/tooling | 2 | 1 | 2 | 2 |
-| [piebald-ai/piebald](https://github.com/Piebald-AI/piebald) | 0 | 2026-04-07T14:19:22Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [kdn36/arrow-rs-object-store](https://github.com/kdn36/arrow-rs-object-store) | 0 | 2026-04-07T11:45:00Z | Unknown | Infrastructure/tooling | 3 | 4 | 3 | 3 |

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 45
-- terms: 194
-- components: 234
-- concepts: 192
-- observations: 192
+- repos: 46
+- terms: 189
+- components: 253
+- concepts: 187
+- observations: 187
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [boostorg/config](https://github.com/boostorg/config) | 76 | 2026-04-23T23:39:52Z | C/C++ | Infrastructure/tooling | 0 | 2 | 0 | 0 |
+| [yquake2/yquake2remaster](https://github.com/yquake2/yquake2remaster) | 99 | 2026-04-23T22:28:02Z | C/C++ | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [ROCm/rocAL](https://github.com/ROCm/rocAL) | 23 | 2026-04-23T20:00:02Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [rapidsai/ucxx](https://github.com/rapidsai/ucxx) | 58 | 2026-04-23T19:53:52Z | C/C++ | Infrastructure/tooling | 3 | 18 | 3 | 3 |
 | [openvinotoolkit/openvino_tokenizers](https://github.com/openvinotoolkit/openvino_tokenizers) | 50 | 2026-04-23T08:46:17Z | C/C++ | Infrastructure/tooling | 2 | 15 | 2 | 2 |
 | [gazebosim/gz-fuel-tools](https://github.com/gazebosim/gz-fuel-tools) | 16 | 2026-04-23T07:47:23Z | C/C++ | CLI | 15 | 7 | 15 | 15 |
 | [DeepLink-org/DLSlime](https://github.com/DeepLink-org/DLSlime) | 97 | 2026-04-23T05:49:53Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -68,14 +72,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [grain-lang/binaryen.ml](https://github.com/grain-lang/binaryen.ml) | 52 | 2026-04-08T23:22:15Z | C/C++ | Infrastructure/tooling | 7 | 13 | 7 | 7 |
 | [clouren/SPEX](https://github.com/clouren/SPEX) | 15 | 2026-04-08T18:45:01Z | C/C++ | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [theimpossibleastronaut/rmw](https://github.com/theimpossibleastronaut/rmw) | 94 | 2026-04-08T10:17:01Z | C/C++ | CLI | 19 | 16 | 19 | 19 |
-| [chusitoo/flatbush](https://github.com/chusitoo/flatbush) | 23 | 2026-04-08T01:41:10Z | C/C++ | Infrastructure/tooling | 13 | 5 | 13 | 13 |
-| [flatpak/xdg-dbus-proxy](https://github.com/flatpak/xdg-dbus-proxy) | 78 | 2026-04-07T16:53:34Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
-| [go-skynet/go-ggml-transformers.cpp](https://github.com/go-skynet/go-ggml-transformers.cpp) | 65 | 2026-04-07T13:51:50Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [yquake2/yquake2remaster](https://github.com/yquake2/yquake2remaster) | 99 | 2026-04-23T22:28:02Z | C/C++ | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [narugit/smctemp](https://github.com/narugit/smctemp) | 98 | 2026-04-22T23:12:00Z | C/C++ | CLI | 14 | 4 | 14 | 14 |
 | [DeepLink-org/DLSlime](https://github.com/DeepLink-org/DLSlime) | 97 | 2026-04-23T05:49:53Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [theimpossibleastronaut/rmw](https://github.com/theimpossibleastronaut/rmw) | 94 | 2026-04-08T10:17:01Z | C/C++ | CLI | 19 | 16 | 19 | 19 |
@@ -86,15 +88,15 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jupyter-xeus/xeus-lua](https://github.com/jupyter-xeus/xeus-lua) | 80 | 2026-04-10T07:49:16Z | C/C++ | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [lxqt/libqtxdg](https://github.com/lxqt/libqtxdg) | 79 | 2026-04-20T07:04:58Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [DavidKinder/Windows-Inform7](https://github.com/DavidKinder/Windows-Inform7) | 78 | 2026-04-18T16:38:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [flatpak/xdg-dbus-proxy](https://github.com/flatpak/xdg-dbus-proxy) | 78 | 2026-04-07T16:53:34Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [boostorg/config](https://github.com/boostorg/config) | 76 | 2026-04-23T23:39:52Z | C/C++ | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [apache/pulsar-client-cpp](https://github.com/apache/pulsar-client-cpp) | 69 | 2026-04-22T03:19:15Z | C/C++ | CLI | 9 | 11 | 9 | 9 |
 | [lxqt/liblxqt](https://github.com/lxqt/liblxqt) | 69 | 2026-04-20T07:16:03Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [ada-url/ada-python](https://github.com/ada-url/ada-python) | 67 | 2026-04-09T20:21:49Z | C/C++ | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [BrianPugh/tamp](https://github.com/BrianPugh/tamp) | 65 | 2026-04-23T01:48:02Z | C/C++ | Infrastructure/tooling | 15 | 19 | 15 | 15 |
-| [go-skynet/go-ggml-transformers.cpp](https://github.com/go-skynet/go-ggml-transformers.cpp) | 65 | 2026-04-07T13:51:50Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [agl/jbig2enc](https://github.com/agl/jbig2enc) | 61 | 2026-04-21T08:45:09Z | C/C++ | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [yquake2/ref_vk](https://github.com/yquake2/ref_vk) | 60 | 2026-04-18T15:17:43Z | C/C++ | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [marciogranzotto/clawd-tank](https://github.com/marciogranzotto/clawd-tank) | 60 | 2026-04-17T13:36:43Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [rapidsai/ucxx](https://github.com/rapidsai/ucxx) | 58 | 2026-04-23T19:53:52Z | C/C++ | Infrastructure/tooling | 3 | 18 | 3 | 3 |
 | [AFD-Illinois/kharma](https://github.com/AFD-Illinois/kharma) | 58 | 2026-04-22T23:18:58Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
 | [grain-lang/binaryen.ml](https://github.com/grain-lang/binaryen.ml) | 52 | 2026-04-08T23:22:15Z | C/C++ | Infrastructure/tooling | 7 | 13 | 7 | 7 |
 | [openvinotoolkit/openvino_tokenizers](https://github.com/openvinotoolkit/openvino_tokenizers) | 50 | 2026-04-23T08:46:17Z | C/C++ | Infrastructure/tooling | 2 | 15 | 2 | 2 |
@@ -108,8 +110,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nx10/unigd](https://github.com/nx10/unigd) | 28 | 2026-04-20T16:43:10Z | C/C++ | Infrastructure/tooling | 6 | 15 | 6 | 6 |
 | [bufbuild/protovalidate-cc](https://github.com/bufbuild/protovalidate-cc) | 25 | 2026-04-22T11:47:59Z | C/C++ | Infrastructure/tooling | 11 | 11 | 11 | 11 |
 | [f32c/tools](https://github.com/f32c/tools) | 25 | 2026-04-20T11:19:32Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
+| [ROCm/rocAL](https://github.com/ROCm/rocAL) | 23 | 2026-04-23T20:00:02Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [openucx/xpmem](https://github.com/openucx/xpmem) | 23 | 2026-04-21T10:15:45Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
-| [chusitoo/flatbush](https://github.com/chusitoo/flatbush) | 23 | 2026-04-08T01:41:10Z | C/C++ | Infrastructure/tooling | 13 | 5 | 13 | 13 |
 | [yoshoku/numo-narray-alt](https://github.com/yoshoku/numo-narray-alt) | 21 | 2026-04-19T08:39:37Z | C/C++ | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [walbourn/directxtktest](https://github.com/walbourn/directxtktest) | 20 | 2026-04-21T05:14:03Z | C/C++ | Unknown | 1 | 0 | 1 | 1 |
 | [mybigday/llama.node](https://github.com/mybigday/llama.node) | 19 | 2026-04-17T11:20:01Z | C/C++ | Infrastructure/tooling | 7 | 23 | 7 | 7 |

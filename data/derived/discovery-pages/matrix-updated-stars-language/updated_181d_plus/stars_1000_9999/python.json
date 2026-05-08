@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 837,
-    "concepts": 3567,
-    "observations": 3569,
-    "repos": 908,
-    "terms": 3506
+    "components": 844,
+    "concepts": 3577,
+    "observations": 3579,
+    "repos": 911,
+    "terms": 3516
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -432,6 +432,7 @@
     "kabachuha/sd-webui-text2video",
     "KaiDMML/FakeNewsNet",
     "Kaixhin/Rainbow",
+    "KaiyangZhou/CoOp",
     "KaiyangZhou/Dassl.pytorch",
     "kakaobrain/coyo-dataset",
     "kakaobrain/nerf-factory",
@@ -669,10 +670,12 @@
     "petercorke/robotics-toolbox-python",
     "PeterL1n/BackgroundMattingV2",
     "PeterL1n/RobustVideoMatting",
+    "pgjones/hypercorn",
     "Phantom-video/Phantom",
     "pharmapsychotic/clip-interrogator",
     "Picsart-AI-Research/Text2Video-Zero",
     "PixArt-alpha/PixArt-alpha",
+    "PixArt-alpha/PixArt-sigma",
     "PKU-YuanGroup/MoE-LLaVA",
     "PKU-YuanGroup/Video-LLaVA",
     "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",

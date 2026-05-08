@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 34,
-    "concepts": 40,
-    "observations": 40,
-    "repos": 35,
-    "terms": 40
+    "concepts": 43,
+    "observations": 43,
+    "repos": 38,
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "aar0npb/curator-skill",
@@ -21,6 +21,7 @@
     "agent-sh/prepare-delivery",
     "AI-Agent-Hub/mcp-marketplace",
     "ai-dynamo/enhancements",
+    "AlmaLinux/osv-database",
     "bell-sw/osv-database",
     "cachix/iocraft",
     "canonical/ubuntu-desktop-provision-screenshots",
@@ -32,6 +33,7 @@
     "danielrosehill/Claude-ADHD-Research-Workspace",
     "danielrosehill/Claude-AI-Attribution-Plugin",
     "danielrosehill/Claude-Code-Plugins",
+    "danielrosehill/Claude-Data-Analyst-plugin",
     "danielrosehill/Docs-And-Notes-Index",
     "danielrosehill/Experiments-And-Evaluations-Index",
     "danielrosehill/MCP-Projects-Index",
@@ -45,6 +47,7 @@
     "kyverno/community",
     "leeyeel/gltfOverview-Chinese",
     "nodejs/web-team",
+    "oobabooga/screenshots",
     "openwebdocs/mdn-bcd-results",
     "piebald-ai/piebald-issues",
     "sigstore/architecture-docs",

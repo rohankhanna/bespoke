@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · Unknown
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 37
-- terms: 92
-- components: 54
-- concepts: 93
-- observations: 93
+- repos: 42
+- terms: 121
+- components: 110
+- concepts: 122
+- observations: 123
 
 ## Static behavior
 
@@ -26,6 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [docker/github-builder](https://github.com/docker/github-builder) | 47 | 2026-04-23T20:01:11Z | Unknown | Infrastructure/tooling | 14 | 17 | 14 | 14 |
+| [sigstore/community](https://github.com/sigstore/community) | 45 | 2026-04-23T19:44:49Z | Unknown | Infrastructure/tooling | 6 | 8 | 6 | 7 |
+| [canonical/ubuntu-security-notices](https://github.com/canonical/ubuntu-security-notices) | 27 | 2026-04-23T16:20:09Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [Stardust-SJF/cuvs_rabitq](https://github.com/Stardust-SJF/cuvs_rabitq) | 11 | 2026-04-23T14:40:55Z | Unknown | Infrastructure/tooling | 5 | 21 | 5 | 5 |
+| [quarkiverse/quarkiverse-docs](https://github.com/quarkiverse/quarkiverse-docs) | 14 | 2026-04-23T12:12:50Z | Unknown | Infrastructure/tooling | 4 | 10 | 4 | 4 |
+| [supabase/scoop-bucket](https://github.com/supabase/scoop-bucket) | 22 | 2026-04-23T11:50:42Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [mypyc/mypyc-benchmark-results](https://github.com/mypyc/mypyc-benchmark-results) | 12 | 2026-04-23T08:23:15Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [goharbor/community](https://github.com/goharbor/community) | 81 | 2026-04-23T06:52:05Z | Unknown | Infrastructure/tooling | 7 | 1 | 7 | 7 |
 | [qemus/virtiso-whql](https://github.com/qemus/virtiso-whql) | 48 | 2026-04-22T03:26:48Z | Unknown | Infrastructure/tooling | 7 | 5 | 7 | 7 |
@@ -62,7 +68,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [askroundtable/expert-skills](https://github.com/AskRoundtable/expert-skills) | 39 | 2026-04-09T13:53:39Z | Unknown | Model/data | 6 | 0 | 6 | 6 |
 | [uxlfoundation/open-source-working-group](https://github.com/uxlfoundation/open-source-working-group) | 13 | 2026-04-08T22:16:48Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [cedar-policy/cedar-docs](https://github.com/cedar-policy/cedar-docs) | 35 | 2026-04-08T17:57:29Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
-| [bmad-code-org/bmad-plugins-marketplace](https://github.com/bmad-code-org/bmad-plugins-marketplace) | 13 | 2026-04-08T04:41:05Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -79,26 +84,31 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [webdriverio/awesome-webdriverio](https://github.com/webdriverio/awesome-webdriverio) | 52 | 2026-04-20T12:37:16Z | Unknown | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [Homebrew/.github](https://github.com/Homebrew/.github) | 52 | 2026-04-17T08:17:11Z | Unknown | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [qemus/virtiso-whql](https://github.com/qemus/virtiso-whql) | 48 | 2026-04-22T03:26:48Z | Unknown | Infrastructure/tooling | 7 | 5 | 7 | 7 |
+| [docker/github-builder](https://github.com/docker/github-builder) | 47 | 2026-04-23T20:01:11Z | Unknown | Infrastructure/tooling | 14 | 17 | 14 | 14 |
 | [ganelson/inform-evolution](https://github.com/ganelson/inform-evolution) | 47 | 2026-04-15T05:49:22Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [w3c/core-aam](https://github.com/w3c/core-aam) | 46 | 2026-04-19T15:47:52Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [sigstore/community](https://github.com/sigstore/community) | 45 | 2026-04-23T19:44:49Z | Unknown | Infrastructure/tooling | 6 | 8 | 6 | 7 |
 | [simonw/simonwillisonblog-backup](https://github.com/simonw/simonwillisonblog-backup) | 44 | 2026-04-19T01:07:00Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [askroundtable/expert-skills](https://github.com/AskRoundtable/expert-skills) | 39 | 2026-04-09T13:53:39Z | Unknown | Model/data | 6 | 0 | 6 | 6 |
 | [cedar-policy/cedar-docs](https://github.com/cedar-policy/cedar-docs) | 35 | 2026-04-08T17:57:29Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [google/oss-policies-info](https://github.com/google/oss-policies-info) | 33 | 2026-04-20T16:05:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [tc39/proposal-duplicate-named-capturing-groups](https://github.com/tc39/proposal-duplicate-named-capturing-groups) | 31 | 2026-04-10T02:50:52Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaPackageComparisons/JuliaPackageComparisons.github.io](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io) | 30 | 2026-04-20T10:32:50Z | Unknown | Infrastructure/tooling | 5 | 5 | 5 | 5 |
+| [canonical/ubuntu-security-notices](https://github.com/canonical/ubuntu-security-notices) | 27 | 2026-04-23T16:20:09Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [charmbracelet/scoop-bucket](https://github.com/charmbracelet/scoop-bucket) | 27 | 2026-04-17T16:56:22Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [alchaincyf/ilya-sutskever-skill](https://github.com/alchaincyf/ilya-sutskever-skill) | 24 | 2026-04-10T02:28:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [supabase/scoop-bucket](https://github.com/supabase/scoop-bucket) | 22 | 2026-04-23T11:50:42Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [GDevelopApp/GDevelop-community-list](https://github.com/GDevelopApp/GDevelop-community-list) | 21 | 2026-04-16T10:54:41Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [jakoch/vulkan-sdk-arm](https://github.com/jakoch/vulkan-sdk-arm) | 18 | 2026-04-13T12:09:44Z | Unknown | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [rstackjs/rstack-design-resources](https://github.com/rstackjs/rstack-design-resources) | 17 | 2026-04-21T08:43:28Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [Dexters-Hub/Dexters-Hub](https://github.com/Dexters-Hub/Dexters-Hub) | 16 | 2026-04-19T19:41:43Z | Unknown | Infrastructure/tooling | 15 | 3 | 16 | 16 |
+| [quarkiverse/quarkiverse-docs](https://github.com/quarkiverse/quarkiverse-docs) | 14 | 2026-04-23T12:12:50Z | Unknown | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [ocaml/platform-blog](https://github.com/ocaml/platform-blog) | 13 | 2026-04-16T21:48:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [uxlfoundation/open-source-working-group](https://github.com/uxlfoundation/open-source-working-group) | 13 | 2026-04-08T22:16:48Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [bmad-code-org/bmad-plugins-marketplace](https://github.com/bmad-code-org/bmad-plugins-marketplace) | 13 | 2026-04-08T04:41:05Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [mypyc/mypyc-benchmark-results](https://github.com/mypyc/mypyc-benchmark-results) | 12 | 2026-04-23T08:23:15Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [eigenfoundation/elips](https://github.com/eigenfoundation/ELIPs) | 12 | 2026-04-13T20:18:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [SeleniumHQ/selenium_manager_artifacts](https://github.com/SeleniumHQ/selenium_manager_artifacts) | 12 | 2026-04-09T21:12:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [Stardust-SJF/cuvs_rabitq](https://github.com/Stardust-SJF/cuvs_rabitq) | 11 | 2026-04-23T14:40:55Z | Unknown | Infrastructure/tooling | 5 | 21 | 5 | 5 |
 | [flinedev/plankit](https://github.com/FlineDev/PlanKit) | 11 | 2026-04-14T14:41:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [cdxeve/awesome-computer-use-agents](https://github.com/cdxeve/awesome-computer-use-agents) | 11 | 2026-04-14T03:17:18Z | Unknown | CLI | 0 | 0 | 0 | 0 |
 | [crewAIInc/skills](https://github.com/crewAIInc/skills) | 10 | 2026-04-21T15:38:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

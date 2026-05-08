@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 399,
-    "concepts": 414,
-    "observations": 417,
-    "repos": 161,
-    "terms": 410
+    "components": 403,
+    "concepts": 424,
+    "observations": 427,
+    "repos": 164,
+    "terms": 420
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "0xcafed00d/joystick",
     "1set/cronrange",
@@ -45,6 +45,7 @@
     "bgokden/veri",
     "bianjieai/nft-transfer",
     "birkelund/boltdbcache",
+    "blockpane/findaccount",
     "bozerkins/terraform-provider-dkron",
     "brads3290/cclogviewer",
     "brpaz/echozap",
@@ -114,6 +115,7 @@
     "ipfs-shipyard/nopfs",
     "ipfs/fs-repo-migrations",
     "itchyny/gojo",
+    "itzg/entrypoint-demoter",
     "jaegertracing/jaeger-lib",
     "jaxxstorm/ploy",
     "Jille/raft-grpc-leader-rpc",
@@ -172,6 +174,7 @@
     "vmihailenco/go-tinylfu",
     "vulkan-go/asche",
     "wintoncode/vault-plugin-auth-kerberos",
+    "xrjr/mcutils",
     "ysmood/goob",
     "ysmood/leakless",
     "yuin/goldmark-meta"

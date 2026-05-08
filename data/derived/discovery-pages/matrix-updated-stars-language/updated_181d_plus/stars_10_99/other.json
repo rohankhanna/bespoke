@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1935,
-    "concepts": 1759,
-    "observations": 1765,
-    "repos": 773,
-    "terms": 1753
+    "components": 1938,
+    "concepts": 1763,
+    "observations": 1769,
+    "repos": 778,
+    "terms": 1757
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x7432/asm-ru",
     "0xC0000054/libheif-sharp",
     "0xc0000054/libheif-sharp-samples",
     "0xJohnnyboy/scretch.nvim",
+    "0xZunia/ToonSharp",
     "11ty/eleventy-benchmark",
     "1jsingh/Divide-Evaluate-and-Refine",
     "1jsingh/negtome",
@@ -189,6 +190,7 @@
     "camenduru/MotionDirector-colab",
     "camenduru/PuLID-jupyter",
     "camenduru/simple-knn",
+    "camilledejoye/nvim-lsp-selection-range",
     "carrierwaveuploader/carrierwave-i18n",
     "casper-hansen/AutoAWQ_kernels",
     "castorini/anserini-notebooks",
@@ -299,6 +301,7 @@
     "edwinb/Idris2",
     "egoist/vue-bytesize-icons",
     "eki3z/git-cliff.el",
+    "elaforge/fast-tags",
     "elixir-makeup/makeup_elixir",
     "elixir-makeup/makeup_html",
     "ElsaTam/Obsidian-Stuff",
@@ -575,6 +578,7 @@
     "nalimilan/FreqTables.jl",
     "nelsonic/nelsonic.github.io",
     "NickDarvey/whisper",
+    "nikvdp/nvim-lsp-config",
     "NimblePros/SharedKernelSample",
     "niu-haoran/FLIVE_Database",
     "niuiic/code-shot.nvim",
@@ -650,6 +654,7 @@
     "redis-stack/helm-redis-stack",
     "rejeep/commander.el",
     "rejeep/ert-runner.el",
+    "restic/builder",
     "rgeirhos/generalisation-humans-DNNs",
     "rgeo/activerecord-mysql2spatial-adapter",
     "rgeo/rgeo-activerecord",

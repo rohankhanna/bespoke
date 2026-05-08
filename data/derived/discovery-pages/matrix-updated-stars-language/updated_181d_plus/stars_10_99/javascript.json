@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2853,
-    "concepts": 612,
-    "observations": 612,
-    "repos": 262,
-    "terms": 604
+    "components": 2859,
+    "concepts": 621,
+    "observations": 621,
+    "repos": 263,
+    "terms": 613
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "0xPolygon/pilcom",
     "71/logseq-snippets",
@@ -47,6 +47,7 @@
     "Armour/vue-typescript-admin-mock-server",
     "atom/archive-view",
     "atomlinter/linter-markdown",
+    "aymenfurter/smartrag",
     "aymericbeaumet/metalsmith-clean-css",
     "basecase/testdouble-chai",
     "bchr02/node-pre-gyp-github",
@@ -259,7 +260,7 @@
     "tommasongr/nova-vue",
     "topojson/topojson-simplify",
     "TritonDataCenter/node-extsprintf",
-    "TritonDataCenter/node-getopt",
+    "tritondatacenter/node-getopt",
     "udacity/FEF-UdaciMeals-Backbone",
     "un-ts/toml-tools",
     "unlight/postcss-import-url",

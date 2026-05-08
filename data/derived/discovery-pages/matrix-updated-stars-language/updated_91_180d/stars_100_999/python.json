@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 342,
+    "components": 336,
     "concepts": 705,
     "observations": 706,
     "repos": 184,
-    "terms": 698
+    "terms": 699
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "0k/shyaml",
     "23andMe/Yamale",
@@ -38,6 +38,7 @@
     "autonomousvision/carla_garage",
     "autonomousvision/plant",
     "aws-cloudformation/aws-cloudformation-samples",
+    "aws-samples/sample-bedrock-deep-researcher",
     "axon-rl/gem",
     "Azure-Samples/ai-rag-chat-evaluator",
     "Azure/MS-AMP",
@@ -75,7 +76,9 @@
     "fudan-zvg/PVG",
     "gafniguy/4D-Facial-Avatars",
     "GewelsJI/VPS",
+    "GFW-knocker/gfw_resist_tcp_proxy",
     "githubharald/CTCDecoder",
+    "google-deepmind/recurrentgemma",
     "GoogleChrome/related-website-sets",
     "googlefonts/fontmake",
     "gristlabs/asttokens",
@@ -109,7 +112,6 @@
     "machow/quartodoc",
     "madebyollin/taesd",
     "mapbox/mason",
-    "marin-community/haliax",
     "marin-community/levanter",
     "mariusvniekerk/condax",
     "mcfletch/pyopengl",
@@ -186,7 +188,6 @@
     "wudongming97/TopoMLP",
     "xArm-Developer/xArm-Python-SDK",
     "xingchensong/S3Tokenizer",
-    "xmlyqing00/AFB-URR",
     "XPixelGroup/DepictQA",
     "yashsinghcodes/wik",
     "yeyupiaoling/AudioClassification-Pytorch",
@@ -194,7 +195,6 @@
     "yeyupiaoling/PaddlePaddle-DeepSpeech",
     "yeyupiaoling/PPASR",
     "yeyupiaoling/VoiceprintRecognition-PaddlePaddle",
-    "YihangChen-ee/FCGS",
     "ZhangXJ199/TinyLLaVA-Video-R1",
     "zhiyuanyou/DeQA-Score",
     "zixaphir/Stable-Diffusion-Webui-Civitai-Helper"

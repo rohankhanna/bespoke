@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Java
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 16
-- terms: 124
-- components: 82
-- concepts: 127
-- observations: 127
+- repos: 17
+- terms: 127
+- components: 85
+- concepts: 130
+- observations: 130
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [GoogleCloudPlatform/cloud-opensource-java](https://github.com/GoogleCloudPlatform/cloud-opensource-java) | 163 | 2026-04-08T01:38:47Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [apache/doris-spark-connector](https://github.com/apache/doris-spark-connector) | 104 | 2026-04-07T10:43:30Z | Java | Infrastructure/tooling | 13 | 5 | 13 | 13 |
 | [apache/doris-flink-connector](https://github.com/apache/doris-flink-connector) | 376 | 2026-04-07T08:22:07Z | Java | Infrastructure/tooling | 16 | 5 | 16 | 16 |
 | [Azure-Samples/agent-openai-java-banking-assistant](https://github.com/Azure-Samples/agent-openai-java-banking-assistant) | 153 | 2026-04-07T03:10:15Z | Java | Infrastructure/tooling | 9 | 10 | 9 | 9 |
@@ -56,6 +57,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [swagger-api/validator-badge](https://github.com/swagger-api/validator-badge) | 223 | 2026-03-26T08:02:49Z | Java | Infrastructure/tooling | 16 | 10 | 16 | 16 |
 | [Deep-Symmetry/crate-digger](https://github.com/Deep-Symmetry/crate-digger) | 209 | 2026-03-13T15:43:49Z | Java | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [mebigfatguy/fb-contrib](https://github.com/mebigfatguy/fb-contrib) | 171 | 2026-03-12T04:21:13Z | Java | Infrastructure/tooling | 5 | 2 | 5 | 5 |
+| [GoogleCloudPlatform/cloud-opensource-java](https://github.com/GoogleCloudPlatform/cloud-opensource-java) | 163 | 2026-04-08T01:38:47Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [filip26/titanium-json-ld](https://github.com/filip26/titanium-json-ld) | 157 | 2026-03-24T18:40:56Z | Java | Infrastructure/tooling | 10 | 6 | 13 | 13 |
 | [Azure-Samples/agent-openai-java-banking-assistant](https://github.com/Azure-Samples/agent-openai-java-banking-assistant) | 153 | 2026-04-07T03:10:15Z | Java | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [nayuki/Nayuki-web-published-code](https://github.com/nayuki/Nayuki-web-published-code) | 151 | 2026-03-13T18:30:58Z | Java | Unknown | 7 | 0 | 7 | 7 |

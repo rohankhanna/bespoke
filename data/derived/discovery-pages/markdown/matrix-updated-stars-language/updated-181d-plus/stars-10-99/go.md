@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 161
-- terms: 410
-- components: 399
-- concepts: 414
-- observations: 417
+- repos: 164
+- terms: 420
+- components: 403
+- concepts: 424
+- observations: 427
 
 ## Static behavior
 
@@ -33,6 +33,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stripe/goproxy](https://github.com/stripe/goproxy) | 22 | 2025-10-14T11:07:33Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [0xcafed00d/joystick](https://github.com/0xcafed00d/joystick) | 75 | 2025-10-13T13:43:46Z | Go | Service/API | 0 | 0 | 0 | 0 |
 | [dpastoor/qvm](https://github.com/dpastoor/qvm) | 34 | 2025-10-09T10:43:15Z | Go | Infrastructure/tooling | 3 | 9 | 3 | 3 |
+| [itzg/entrypoint-demoter](https://github.com/itzg/entrypoint-demoter) | 11 | 2025-09-28T14:42:46Z | Go | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [tianon/markdownfmt](https://github.com/tianon/markdownfmt) | 24 | 2025-09-18T00:04:02Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [cloudfoundry/auction](https://github.com/cloudfoundry/auction) | 17 | 2025-09-11T19:35:39Z | Go | Unknown | 1 | 0 | 1 | 1 |
 | [cloudwego/gjson](https://github.com/cloudwego/gjson) | 57 | 2025-09-02T06:07:00Z | Go | Infrastructure/tooling | 3 | 9 | 4 | 4 |
@@ -142,6 +143,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cmwaters/skychart](https://github.com/cmwaters/skychart) | 14 | 2023-05-04T19:59:31Z | Go | CLI | 0 | 0 | 0 | 0 |
 | [superedge/edgeadm](https://github.com/superedge/edgeadm) | 13 | 2023-04-18T09:27:31Z | Go | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [Alexander-r/box2d](https://github.com/Alexander-r/box2d) | 20 | 2023-04-15T22:40:03Z | Go | Unknown | 0 | 0 | 0 | 0 |
+| [xrjr/mcutils](https://github.com/xrjr/mcutils) | 25 | 2023-04-14T19:33:19Z | Go | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [mailgun/proxyproto](https://github.com/mailgun/proxyproto) | 27 | 2023-04-07T08:08:12Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [chrismellard/docker-credential-acr-env](https://github.com/chrismellard/docker-credential-acr-env) | 17 | 2023-03-24T00:01:28Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [darkweak/go-esi](https://github.com/darkweak/go-esi) | 26 | 2023-03-23T09:12:23Z | Go | Infrastructure/tooling | 4 | 6 | 4 | 4 |
@@ -170,6 +172,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [spacemeshos/smrepl](https://github.com/spacemeshos/smrepl) | 16 | 2022-07-17T05:42:44Z | Go | CLI | 5 | 7 | 5 | 5 |
 | [go-logr/stdr](https://github.com/go-logr/stdr) | 37 | 2022-07-14T21:57:17Z | Go | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [FooSoft/md2vim](https://github.com/FooSoft/md2vim) | 76 | 2022-07-14T21:18:24Z | Go | Unknown | 0 | 0 | 0 | 0 |
+| [blockpane/findaccount](https://github.com/blockpane/findaccount) | 37 | 2022-06-09T18:10:47Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [alexanderscrimgeour/biogo](https://github.com/alexanderscrimgeour/biogo) | 16 | 2022-05-18T21:00:14Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [kentaro-m/blackfriday-confluence](https://github.com/kentaro-m/blackfriday-confluence) | 24 | 2022-04-25T11:36:44Z | Go | Infrastructure/tooling | 5 | 3 | 7 | 7 |
 | [ysmood/goob](https://github.com/ysmood/goob) | 62 | 2022-04-09T04:52:52Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -268,6 +271,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hyperledger-labs/yui-fabric-ibc](https://github.com/hyperledger-labs/yui-fabric-ibc) | 37 | 2023-05-11T20:41:35Z | Go | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [ailabstw/webrtc-socket-proxy](https://github.com/ailabstw/webrtc-socket-proxy) | 37 | 2023-02-25T00:11:51Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [go-logr/stdr](https://github.com/go-logr/stdr) | 37 | 2022-07-14T21:57:17Z | Go | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [blockpane/findaccount](https://github.com/blockpane/findaccount) | 37 | 2022-06-09T18:10:47Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [qri-io/starpg](https://github.com/qri-io/starpg) | 36 | 2022-12-03T08:11:32Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [ClickHouse/ch-bench](https://github.com/ClickHouse/ch-bench) | 35 | 2024-03-04T21:42:56Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [wintoncode/vault-plugin-auth-kerberos](https://github.com/wintoncode/vault-plugin-auth-kerberos) | 35 | 2021-11-23T16:59:13Z | Go | Unknown | 4 | 0 | 4 | 4 |
@@ -292,6 +296,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [trknhr/2048-go](https://github.com/trknhr/2048-go) | 26 | 2021-08-12T19:01:40Z | Go | CLI | 1 | 0 | 1 | 1 |
 | [tidwall/btree-benchmark](https://github.com/tidwall/btree-benchmark) | 25 | 2023-09-06T21:49:35Z | Go | Library | 0 | 0 | 0 | 0 |
 | [Jille/raftadmin](https://github.com/Jille/raftadmin) | 25 | 2023-08-24T19:23:17Z | Go | Unknown | 3 | 0 | 3 | 3 |
+| [xrjr/mcutils](https://github.com/xrjr/mcutils) | 25 | 2023-04-14T19:33:19Z | Go | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [tianon/markdownfmt](https://github.com/tianon/markdownfmt) | 24 | 2025-09-18T00:04:02Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [3rd/syslang](https://github.com/3rd/syslang) | 24 | 2025-08-17T23:08:22Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [extism/cli](https://github.com/extism/cli) | 24 | 2025-07-23T19:36:12Z | Go | CLI | 1 | 5 | 1 | 1 |
@@ -342,6 +347,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cdcdx/lotus](https://github.com/cdcdx/lotus) | 13 | 2023-05-11T15:41:33Z | Go | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [superedge/edgeadm](https://github.com/superedge/edgeadm) | 13 | 2023-04-18T09:27:31Z | Go | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [ahmetb/ytdl](https://github.com/ahmetb/ytdl) | 13 | 2021-05-25T17:00:04Z | Go | Infrastructure/tooling | 3 | 0 | 3 | 3 |
+| [itzg/entrypoint-demoter](https://github.com/itzg/entrypoint-demoter) | 11 | 2025-09-28T14:42:46Z | Go | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [OpenTreeHole/auth_next](https://github.com/OpenTreeHole/auth_next) | 11 | 2025-08-16T11:23:42Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 2 |
 | [rueian/rueidis-benchmark](https://github.com/rueian/rueidis-benchmark) | 11 | 2025-07-18T03:02:22Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [InftyAI/scheduler-plugins](https://github.com/InftyAI/scheduler-plugins) | 11 | 2025-06-16T07:20:33Z | Go | Infrastructure/tooling | 3 | 3 | 3 | 3 |

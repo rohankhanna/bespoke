@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Python
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 260
-- terms: 327
+- repos: 264
+- terms: 331
 - components: 441
-- concepts: 324
-- observations: 324
+- concepts: 328
+- observations: 328
 
 ## Static behavior
 
@@ -37,8 +37,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gadjalin/glad-fortran](https://github.com/gadjalin/glad-fortran) | 5 | 2025-10-21T12:12:41Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [allenai/olmes-docker](https://github.com/allenai/olmes-docker) | 1 | 2025-10-13T21:46:46Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [MDAnalysis/mda-xdrlib](https://github.com/MDAnalysis/mda-xdrlib) | 1 | 2025-10-12T14:24:59Z | Python | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [aSleepyTree/EB-Cache](https://github.com/aSleepyTree/EB-Cache) | 3 | 2025-10-06T03:54:56Z | Python | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [ignorejjj/HiRA](https://github.com/ignorejjj/HiRA) | 1 | 2025-09-30T07:36:29Z | Python | Framework | 0 | 0 | 0 | 0 |
 | [HansZ8/ZED-Proxy](https://github.com/HansZ8/ZED-Proxy) | 1 | 2025-09-26T06:57:07Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Agents.md-Templates](https://github.com/danielrosehill/Agents.md-Templates) | 2 | 2025-09-17T18:16:23Z | Python | Template/starter | 1 | 0 | 1 | 1 |
 | [keeeeenw/TinyLLaVA_Factory](https://github.com/keeeeenw/TinyLLaVA_Factory) | 4 | 2025-08-27T02:49:55Z | Python | Framework | 0 | 0 | 0 | 0 |
 | [appl-team/ExplErr](https://github.com/appl-team/ExplErr) | 3 | 2025-08-26T01:42:56Z | Python | Unknown | 1 | 0 | 1 | 1 |
 | [appl-team/AutoNaming](https://github.com/appl-team/AutoNaming) | 4 | 2025-08-26T01:28:06Z | Python | CLI | 0 | 0 | 0 | 0 |
@@ -69,6 +71,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [agentsea/threadmem](https://github.com/agentsea/threadmem) | 3 | 2025-04-18T20:33:39Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [ghchinoy/studio-scaffold](https://github.com/ghchinoy/studio-scaffold) | 8 | 2025-04-13T20:36:20Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [Force1ess/python-pptx](https://github.com/Force1ess/python-pptx) | 7 | 2025-04-09T07:59:57Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
+| [danielrosehill/AI-Orchestration-System-Prompts](https://github.com/danielrosehill/AI-Orchestration-System-Prompts) | 4 | 2025-04-06T12:25:17Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [HReynaud/echonet](https://github.com/HReynaud/echonet) | 3 | 2025-04-04T17:48:27Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [kaste/SublimeLinter-addon-goto-flash](https://github.com/kaste/SublimeLinter-addon-goto-flash) | 1 | 2025-03-28T09:51:50Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [yuan199696/add_text_2_img](https://github.com/yuan199696/add_text_2_img) | 9 | 2025-03-27T14:40:27Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -93,6 +96,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [LBG21/diffusion_policy](https://github.com/LBG21/diffusion_policy) | 3 | 2024-12-17T15:03:15Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [camenduru/memo-tost](https://github.com/camenduru/memo-tost) | 5 | 2024-12-06T18:03:12Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [yuntongzhang/SWE-bench](https://github.com/yuntongzhang/SWE-bench) | 6 | 2024-12-02T02:51:13Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
+| [danielrosehill/LLM-API-Price-Estimates](https://github.com/danielrosehill/LLM-API-Price-Estimates) | 1 | 2024-11-28T23:27:29Z | Python | Service/API | 3 | 0 | 3 | 3 |
 | [dani-maarouf/psqlparse2](https://github.com/dani-maarouf/psqlparse2) | 2 | 2024-11-21T23:34:12Z | Python | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [echo-yiyiyi/cube](https://github.com/echo-yiyiyi/cube) | 9 | 2024-11-20T17:42:44Z | Python | Model/data | 8 | 0 | 8 | 8 |
 | [camenduru/add_text_2_img](https://github.com/camenduru/add_text_2_img) | 2 | 2024-11-12T06:09:58Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -410,6 +414,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [appl-team/AutoNaming](https://github.com/appl-team/AutoNaming) | 4 | 2025-08-26T01:28:06Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [reginald-mclean/Metaworld](https://github.com/reginald-mclean/Metaworld) | 4 | 2025-08-01T01:13:25Z | Python | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [2KAbhishek/mcp-tdo](https://github.com/2KAbhishek/mcp-tdo) | 4 | 2025-06-25T05:14:23Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [danielrosehill/AI-Orchestration-System-Prompts](https://github.com/danielrosehill/AI-Orchestration-System-Prompts) | 4 | 2025-04-06T12:25:17Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [hiyouga/vllm](https://github.com/hiyouga/vllm) | 4 | 2025-03-25T12:25:39Z | Python | Infrastructure/tooling | 7 | 12 | 7 | 7 |
 | [danielrosehill/AI-Dev-Prompts-Example](https://github.com/danielrosehill/AI-Dev-Prompts-Example) | 4 | 2025-03-13T17:31:55Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [3d12/rookognition](https://github.com/3d12/rookognition) | 4 | 2025-01-11T22:30:46Z | Python | Infrastructure/tooling | 0 | 3 | 0 | 0 |
@@ -440,6 +445,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [philips-labs/dangerous-dave](https://github.com/philips-labs/dangerous-dave) | 4 | 2022-03-30T07:44:54Z | Python | Unknown | 0 | 7 | 0 | 0 |
 | [darwinai/pl-covidnet](https://github.com/darwinai/pl-covidnet) | 4 | 2021-11-24T15:19:56Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [scicode-bench/scicode-bench.github.io](https://github.com/scicode-bench/scicode-bench.github.io) | 3 | 2025-10-29T16:17:57Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [aSleepyTree/EB-Cache](https://github.com/aSleepyTree/EB-Cache) | 3 | 2025-10-06T03:54:56Z | Python | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [appl-team/ExplErr](https://github.com/appl-team/ExplErr) | 3 | 2025-08-26T01:42:56Z | Python | Unknown | 1 | 0 | 1 | 1 |
 | [intel-staging/DockerHub-API](https://github.com/intel-staging/DockerHub-API) | 3 | 2025-05-08T21:55:39Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [berrydev-ai/blockdoc-python](https://github.com/berrydev-ai/blockdoc-python) | 3 | 2025-04-28T15:54:35Z | Python | Infrastructure/tooling | 0 | 3 | 0 | 0 |
@@ -474,6 +480,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chaoss/grimoirelab-bestiary](https://github.com/chaoss/grimoirelab-bestiary) | 3 | 2021-12-22T12:46:32Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [danielrosehill/Agentic-Context-Development-Interview-Demo](https://github.com/danielrosehill/Agentic-Context-Development-Interview-Demo) | 2 | 2025-11-07T17:23:58Z | Python | Model/data | 2 | 0 | 2 | 2 |
 | [psyonicinc/ability-hand-ros2](https://github.com/psyonicinc/ability-hand-ros2) | 2 | 2025-10-28T20:21:29Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Agents.md-Templates](https://github.com/danielrosehill/Agents.md-Templates) | 2 | 2025-09-17T18:16:23Z | Python | Template/starter | 1 | 0 | 1 | 1 |
 | [tnc-ca-geo/animl-email-relay](https://github.com/tnc-ca-geo/animl-email-relay) | 2 | 2025-07-04T21:39:31Z | Python | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [ToTheBeginning/facexlib](https://github.com/ToTheBeginning/facexlib) | 2 | 2025-06-03T05:20:14Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [agentsea/mllm](https://github.com/agentsea/mllm) | 2 | 2025-04-18T20:35:48Z | Python | Model/data | 0 | 0 | 0 | 0 |
@@ -520,6 +527,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [459737087/MNBVC-pdf-extract](https://github.com/459737087/MNBVC-pdf-extract) | 1 | 2025-03-08T02:00:07Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [medialab/corpora](https://github.com/medialab/corpora) | 1 | 2025-01-23T15:53:58Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [altendky/qt-tools](https://github.com/altendky/qt-tools) | 1 | 2024-12-29T14:48:19Z | Python | Infrastructure/tooling | 0 | 4 | 0 | 0 |
+| [danielrosehill/LLM-API-Price-Estimates](https://github.com/danielrosehill/LLM-API-Price-Estimates) | 1 | 2024-11-28T23:27:29Z | Python | Service/API | 3 | 0 | 3 | 3 |
 | [ShenhanQian/BackgroundMattingV2](https://github.com/ShenhanQian/BackgroundMattingV2) | 1 | 2024-07-05T19:23:26Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [OpenNLPLab/im](https://github.com/OpenNLPLab/im) | 1 | 2024-04-11T09:32:14Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [5sControl/idle-control](https://github.com/5sControl/idle-control) | 1 | 2024-04-04T08:15:50Z | Python | Infrastructure/tooling | 6 | 5 | 6 | 6 |

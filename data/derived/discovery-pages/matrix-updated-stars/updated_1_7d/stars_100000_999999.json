@@ -1,23 +1,24 @@
 {
   "counts": {
-    "components": 122,
-    "concepts": 85,
-    "observations": 85,
-    "repos": 6,
-    "terms": 85
+    "components": 176,
+    "concepts": 104,
+    "observations": 105,
+    "repos": 7,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "2dust/v2rayN",
     "axios/axios",
-    "excalidraw/excalidraw",
+    "f/prompts.chat",
     "godotengine/godot",
     "huggingface/transformers",
+    "ohmyzsh/ohmyzsh",
     "rust-lang/rust"
   ]
 }

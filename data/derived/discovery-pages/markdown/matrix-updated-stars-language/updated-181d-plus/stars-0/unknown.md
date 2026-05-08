@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · Unknown
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 110
+- repos: 112
 - terms: 97
 - components: 197
 - concepts: 97
@@ -58,12 +58,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [QuantuMope/GroundingDINO](https://github.com/QuantuMope/GroundingDINO) | 0 | 2025-04-16T22:28:25Z | Unknown | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [krallin/probminhash](https://github.com/krallin/probminhash) | 0 | 2025-04-15T15:12:00Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [wesfloyd/avs-context-prompt](https://github.com/wesfloyd/avs-context-prompt) | 0 | 2025-04-09T19:13:31Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Careers-Utilities-System-Prompts](https://github.com/danielrosehill/Careers-Utilities-System-Prompts) | 0 | 2025-04-06T15:43:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [cmacdonald/colbert](https://github.com/cmacdonald/ColBERT) | 0 | 2025-04-03T17:06:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [assignUser/delocate](https://github.com/assignUser/delocate) | 0 | 2025-03-26T02:20:32Z | Unknown | Infrastructure/tooling | 0 | 9 | 0 | 0 |
 | [devongovett/html5ever](https://github.com/devongovett/html5ever) | 0 | 2025-03-23T21:55:09Z | Unknown | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [danielrosehill/HA-Red-Alerts-Model-Automations](https://github.com/danielrosehill/HA-Red-Alerts-Model-Automations) | 0 | 2025-03-21T21:33:52Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Context-Chunker-Assistant](https://github.com/danielrosehill/Context-Chunker-Assistant) | 0 | 2025-03-07T01:03:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [MindWorkAI/Planning](https://github.com/MindWorkAI/Planning) | 0 | 2025-03-02T19:20:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/STT-Price-Points-260225](https://github.com/danielrosehill/STT-Price-Points-260225) | 0 | 2025-02-26T15:44:59Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [retracedhq/docs](https://github.com/retracedhq/docs) | 0 | 2025-02-21T16:14:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [datafuse-extras/serde-bridge](https://github.com/datafuse-extras/serde-bridge) | 0 | 2025-02-18T10:42:56Z | Unknown | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [cockroachdb/client_golang](https://github.com/cockroachdb/client_golang) | 0 | 2025-02-11T21:49:10Z | Unknown | Infrastructure/tooling | 5 | 14 | 5 | 5 |
@@ -173,12 +175,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [QuantuMope/GroundingDINO](https://github.com/QuantuMope/GroundingDINO) | 0 | 2025-04-16T22:28:25Z | Unknown | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [krallin/probminhash](https://github.com/krallin/probminhash) | 0 | 2025-04-15T15:12:00Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [wesfloyd/avs-context-prompt](https://github.com/wesfloyd/avs-context-prompt) | 0 | 2025-04-09T19:13:31Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Careers-Utilities-System-Prompts](https://github.com/danielrosehill/Careers-Utilities-System-Prompts) | 0 | 2025-04-06T15:43:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [cmacdonald/colbert](https://github.com/cmacdonald/ColBERT) | 0 | 2025-04-03T17:06:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [assignUser/delocate](https://github.com/assignUser/delocate) | 0 | 2025-03-26T02:20:32Z | Unknown | Infrastructure/tooling | 0 | 9 | 0 | 0 |
 | [devongovett/html5ever](https://github.com/devongovett/html5ever) | 0 | 2025-03-23T21:55:09Z | Unknown | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [danielrosehill/HA-Red-Alerts-Model-Automations](https://github.com/danielrosehill/HA-Red-Alerts-Model-Automations) | 0 | 2025-03-21T21:33:52Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Context-Chunker-Assistant](https://github.com/danielrosehill/Context-Chunker-Assistant) | 0 | 2025-03-07T01:03:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [MindWorkAI/Planning](https://github.com/MindWorkAI/Planning) | 0 | 2025-03-02T19:20:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/STT-Price-Points-260225](https://github.com/danielrosehill/STT-Price-Points-260225) | 0 | 2025-02-26T15:44:59Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [retracedhq/docs](https://github.com/retracedhq/docs) | 0 | 2025-02-21T16:14:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [datafuse-extras/serde-bridge](https://github.com/datafuse-extras/serde-bridge) | 0 | 2025-02-18T10:42:56Z | Unknown | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [cockroachdb/client_golang](https://github.com/cockroachdb/client_golang) | 0 | 2025-02-11T21:49:10Z | Unknown | Infrastructure/tooling | 5 | 14 | 5 | 5 |

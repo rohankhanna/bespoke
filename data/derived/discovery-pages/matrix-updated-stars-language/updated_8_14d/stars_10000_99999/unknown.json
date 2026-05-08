@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11,
-    "concepts": 52,
-    "observations": 52,
-    "repos": 5,
-    "terms": 52
+    "components": 14,
+    "concepts": 45,
+    "observations": 45,
+    "repos": 4,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
-    "fffaraz/awesome-cpp",
     "firstcontributions/first-contributions",
-    "google/material-design-icons",
     "matiassingers/awesome-readme",
+    "obsidianmd/obsidian-releases",
     "veggiemonk/awesome-docker"
   ]
 }

@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1 to 9 stars · Python
 
-Generated at: `2026-05-05T08:29:41.606128+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 13
-- components: 17
-- concepts: 13
-- observations: 13
+- repos: 1
+- terms: 6
+- components: 11
+- concepts: 6
+- observations: 6
 
 ## Static behavior
 
@@ -26,12 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [triton-inference-server/TensorRT-LLM](https://github.com/triton-inference-server/TensorRT-LLM) | 2 | 2026-05-04T20:08:12Z | Python | Infrastructure/tooling | 7 | 6 | 7 | 7 |
-| [mozilla-ai/otari](https://github.com/mozilla-ai/otari) | 1 | 2026-05-04T15:27:59Z | Python | Infrastructure/tooling | 6 | 11 | 6 | 6 |
+| [mozilla-ai/otari](https://github.com/mozilla-ai/otari) | 3 | 2026-05-07T12:40:12Z | Python | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [triton-inference-server/TensorRT-LLM](https://github.com/triton-inference-server/TensorRT-LLM) | 2 | 2026-05-04T20:08:12Z | Python | Infrastructure/tooling | 7 | 6 | 7 | 7 |
-| [mozilla-ai/otari](https://github.com/mozilla-ai/otari) | 1 | 2026-05-04T15:27:59Z | Python | Infrastructure/tooling | 6 | 11 | 6 | 6 |
+| [mozilla-ai/otari](https://github.com/mozilla-ai/otari) | 3 | 2026-05-07T12:40:12Z | Python | Infrastructure/tooling | 6 | 11 | 6 | 6 |

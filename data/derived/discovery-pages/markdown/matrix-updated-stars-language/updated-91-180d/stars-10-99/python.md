@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 81
+- repos: 83
 - terms: 203
 - components: 173
 - concepts: 194
@@ -40,6 +40,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [TencentYoutuResearch/SPEAR](https://github.com/TencentYoutuResearch/SPEAR) | 37 | 2026-01-30T11:23:30Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [philipy1219/ComfyUI-TaylorSeer](https://github.com/philipy1219/ComfyUI-TaylorSeer) | 60 | 2026-01-29T06:37:34Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [amaranth-lang/amaranth-stdio](https://github.com/amaranth-lang/amaranth-stdio) | 31 | 2026-01-27T15:16:24Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
+| [Bujiazi/DiCache](https://github.com/Bujiazi/DiCache) | 60 | 2026-01-26T14:21:54Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [fsspec/sshfs](https://github.com/fsspec/sshfs) | 85 | 2026-01-26T07:32:24Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [jhakulin/realtime-ai](https://github.com/jhakulin/realtime-ai) | 46 | 2026-01-24T04:04:35Z | Python | Library | 0 | 0 | 0 | 0 |
 | [danielward27/paramax](https://github.com/danielward27/paramax) | 58 | 2026-01-23T19:00:24Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
@@ -62,6 +63,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [haydn-jones/SOAP_JAX](https://github.com/haydn-jones/SOAP_JAX) | 25 | 2026-01-09T21:00:41Z | Python | Unknown | 1 | 0 | 1 | 1 |
 | [HabanaAI/DeepSpeed](https://github.com/HabanaAI/DeepSpeed) | 14 | 2026-01-08T19:21:44Z | Python | Infrastructure/tooling | 9 | 2 | 9 | 9 |
 | [modelscope/ms-enclave](https://github.com/modelscope/ms-enclave) | 49 | 2026-01-08T07:32:32Z | Python | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [google-deepmind/alphageometry2](https://github.com/google-deepmind/alphageometry2) | 68 | 2026-01-07T22:35:16Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [tinted-theming/base24](https://github.com/tinted-theming/base24) | 94 | 2026-01-07T20:09:18Z | Python | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 | [InteractiveComputerGraphics/blender-sequence-loader](https://github.com/InteractiveComputerGraphics/blender-sequence-loader) | 92 | 2026-01-07T14:30:58Z | Python | Unknown | 5 | 0 | 5 | 5 |
 | [jsonquerylang/jsonquery-python](https://github.com/jsonquerylang/jsonquery-python) | 56 | 2026-01-07T10:04:03Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -136,9 +138,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [SLDGroup/MERIT](https://github.com/SLDGroup/MERIT) | 72 | 2025-11-26T19:00:01Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [cedricrupb/code_ast](https://github.com/cedricrupb/code_ast) | 70 | 2025-11-11T17:30:52Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [SLDGroup/MK-UNet](https://github.com/SLDGroup/MK-UNet) | 69 | 2026-01-12T20:08:54Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [google-deepmind/alphageometry2](https://github.com/google-deepmind/alphageometry2) | 68 | 2026-01-07T22:35:16Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [jdlph/Path4GMNS](https://github.com/jdlph/Path4GMNS) | 66 | 2025-12-16T02:33:52Z | Python | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [lmgame-org/GRL](https://github.com/lmgame-org/GRL) | 61 | 2025-12-18T23:18:07Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [philipy1219/ComfyUI-TaylorSeer](https://github.com/philipy1219/ComfyUI-TaylorSeer) | 60 | 2026-01-29T06:37:34Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [Bujiazi/DiCache](https://github.com/Bujiazi/DiCache) | 60 | 2026-01-26T14:21:54Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [danielward27/paramax](https://github.com/danielward27/paramax) | 58 | 2026-01-23T19:00:24Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [Justintime50/homebrew-releaser](https://github.com/Justintime50/homebrew-releaser) | 57 | 2026-01-17T23:00:41Z | Python | Infrastructure/tooling | 12 | 4 | 13 | 13 |
 | [jsonquerylang/jsonquery-python](https://github.com/jsonquerylang/jsonquery-python) | 56 | 2026-01-07T10:04:03Z | Python | Unknown | 0 | 0 | 0 | 0 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 662,
-    "concepts": 1417,
-    "observations": 1419,
-    "repos": 801,
-    "terms": 1398
+    "components": 678,
+    "concepts": 1424,
+    "observations": 1426,
+    "repos": 807,
+    "terms": 1405
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -166,6 +166,7 @@
     "bentoml/BentoChatTTS",
     "bentoml/BentoColPali",
     "bentoml/BentoCrewAI",
+    "BienLuky/CacheQuant",
     "binary-husky/void-terminal",
     "Bing-su/sd-webui-tunnels",
     "biomap-research/xTrimoMultimer",
@@ -487,6 +488,7 @@
     "justinjfu/doodad",
     "kacperkan/conerf",
     "kaiokendev/cutoff-len-is-context-len",
+    "KaiyangZhou/on-device-dg",
     "kakaobrain/coyo-vit",
     "kamalkraj/Swin-Transformer-Serve",
     "kaste/SublimeLinter-any-lsp",
@@ -550,6 +552,7 @@
     "mdipierro/ulid",
     "MegEngine/Hub",
     "mercurystraw/Kris_Bench",
+    "MetaVisionLab/DDG",
     "microsoft/admin-torch",
     "microsoft/azfuse",
     "microsoft/huggingface-transformers",
@@ -764,6 +767,7 @@
     "TTPlanetPig/Comfyui_TTP_CN_Preprocessor",
     "tuneflow/AudioLDM",
     "tyco986/AlphaPose_jittor",
+    "TZW1998/ParaTAA-Diffusion",
     "UKPLab/useb",
     "umarbutler/orjsonl",
     "UnitedHuman/UnitedHuman",
@@ -781,7 +785,9 @@
     "wellecks/lm-evaluation-harness",
     "whai362/PVTv2-Seg",
     "williamberman/diffusers",
+    "WisdomShell/text-generation-inference",
     "wkpark/uddetailer",
+    "wl-zhao/DC-Solver",
     "wordweb/Tiger-qq-bot",
     "WrongProtocol/YuE-exllamav2-UI",
     "xetdata/xetcache",

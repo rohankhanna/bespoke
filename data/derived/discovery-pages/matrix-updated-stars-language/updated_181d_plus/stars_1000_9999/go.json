@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 292,
-    "concepts": 602,
-    "observations": 602,
-    "repos": 132,
-    "terms": 599
+    "components": 310,
+    "concepts": 629,
+    "observations": 629,
+    "repos": 136,
+    "terms": 625
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "0xPolygon/polygon-edge",
     "Adminisme/ServerScan",
@@ -29,6 +29,7 @@
     "attic-labs/noms",
     "aws/aws-sdk-go",
     "beego/bee",
+    "berachain/polaris",
     "bitly/go-simplejson",
     "bluele/gcache",
     "blushft/go-diagrams",
@@ -64,14 +65,15 @@
     "filhodanuvem/gitql",
     "fluxcd/flux",
     "fogleman/gg",
+    "francoispqt/gojay",
     "GeertJohan/go.rice",
+    "ghodss/yaml",
     "githubnemo/CompileDaemon",
     "go-bindata/go-bindata",
     "go-yaml/yaml",
     "gobwas/glob",
     "gogo/protobuf",
     "golang/glog",
-    "golang/lint",
     "golang/mock",
     "golang/snappy",
     "gomodule/redigo",
@@ -83,6 +85,7 @@
     "gorilla/sessions",
     "h2non/bimg",
     "h2non/gentleman",
+    "h2non/imaginary",
     "igrigorik/ga-beacon",
     "jaegertracing/jaeger-client-go",
     "jaegertracing/jaeger-operator",
@@ -109,6 +112,7 @@
     "mosn/holmes",
     "mosn/mosn",
     "Mrs4s/MiraiGo",
+    "natefinch/lumberjack",
     "nfnt/resize",
     "notaryproject/notary",
     "nsf/termbox-go",

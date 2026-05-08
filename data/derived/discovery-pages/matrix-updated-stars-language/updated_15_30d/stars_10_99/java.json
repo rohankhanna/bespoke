@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 94,
-    "observations": 95,
-    "repos": 19,
-    "terms": 92
+    "components": 86,
+    "concepts": 101,
+    "observations": 102,
+    "repos": 20,
+    "terms": 99
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "agentclientprotocol/java-sdk",
     "apache/arrow-java",
@@ -21,17 +21,18 @@
     "apache/netbeans-mavenutils-nbm-maven-plugin",
     "bazel-contrib/rules_jvm",
     "bsorrentino/java-async-generator",
+    "bufbuild/protovalidate-java",
     "cedar-policy/cedar-java",
     "codelibs/fess-crawler",
     "codetyio/codety-scanner",
     "filip26/ld-cli",
     "google/guava-beta-checker",
+    "googleapis/discovery-artifact-manager",
     "kirill-grouchnikov/ephemeral",
     "kurrent-io/KurrentDB-Client-Java",
     "m2e-code-quality/m2e-code-quality",
     "simonpoole/OpeningHoursFragment",
     "xmlark/msv",
-    "yawkat/lz4-java",
-    "zai-org/z-ai-sdk-java"
+    "yawkat/lz4-java"
   ]
 }

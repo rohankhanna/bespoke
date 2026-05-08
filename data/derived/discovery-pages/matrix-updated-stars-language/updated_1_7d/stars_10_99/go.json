@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 58,
-    "observations": 58,
-    "repos": 9,
-    "terms": 58
+    "components": 31,
+    "concepts": 43,
+    "observations": 43,
+    "repos": 5,
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "ankitpokhrel/shopctl",
     "cloudfoundry/credhub-cli",
-    "golangci/go-printf-func-name",
-    "golangci/misspell",
     "gookit/ini",
-    "kubernetes-sigs/karpenter-provider-ibm-cloud",
-    "philips-labs/dct-notary-admin",
-    "tendermint/tm-db",
-    "usbarmory/tamago-sev-example"
+    "gookit/rux",
+    "tendermint/tm-db"
   ]
 }

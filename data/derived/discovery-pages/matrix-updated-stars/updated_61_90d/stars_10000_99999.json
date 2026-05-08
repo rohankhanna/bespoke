@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 629,
-    "concepts": 353,
-    "observations": 357,
-    "repos": 57,
-    "terms": 360
+    "components": 641,
+    "concepts": 361,
+    "observations": 365,
+    "repos": 59,
+    "terms": 368
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
@@ -19,6 +19,7 @@
     "bootandy/dust",
     "burntsushi/ripgrep",
     "carbon-app/carbon",
+    "CocoaPods/CocoaPods",
     "ComposioHQ/awesome-claude-skills",
     "cool-RR/PySnooper",
     "datawhalechina/llm-universe",
@@ -53,6 +54,7 @@
     "modin-project/modin",
     "nikic/PHP-Parser",
     "peers/peerjs",
+    "PKU-YuanGroup/Open-Sora-Plan",
     "QwenLM/Qwen",
     "QwenLM/Qwen-Agent",
     "Redocly/redoc",

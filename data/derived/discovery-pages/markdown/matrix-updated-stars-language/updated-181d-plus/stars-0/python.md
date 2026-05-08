@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · Python
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 72
-- terms: 107
-- components: 160
-- concepts: 107
-- observations: 107
+- repos: 74
+- terms: 109
+- components: 163
+- concepts: 109
+- observations: 109
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/OR-Models-With-Tools-0811](https://github.com/danielrosehill/OR-Models-With-Tools-0811) | 0 | 2025-11-08T23:07:21Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [danielrosehill/Feature-Ideas-And-Requests](https://github.com/danielrosehill/Feature-Ideas-And-Requests) | 0 | 2025-10-28T19:25:18Z | Python | Unknown | 2 | 0 | 2 | 2 |
 | [danielrosehill/Context-Cruncher](https://github.com/danielrosehill/Context-Cruncher) | 0 | 2025-10-26T19:44:35Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Assistant-Ideator](https://github.com/danielrosehill/AI-Assistant-Ideator) | 0 | 2025-10-26T14:29:44Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -46,6 +47,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [CodeBoarding/atlassian-python-api](https://github.com/CodeBoarding/atlassian-python-api) | 0 | 2025-06-06T15:53:33Z | Python | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [Natyren/alfworld](https://github.com/Natyren/alfworld) | 0 | 2025-05-26T21:13:24Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [mongodb-forks/PyKMIP](https://github.com/mongodb-forks/PyKMIP) | 0 | 2025-04-21T22:22:26Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [danielrosehill/Remote-Jobs-Research-Agent](https://github.com/danielrosehill/Remote-Jobs-Research-Agent) | 0 | 2025-04-04T17:10:15Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [AlmaLinux/errata2osv](https://github.com/AlmaLinux/errata2osv) | 0 | 2025-03-25T09:22:24Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Agent-Ideation-Agent](https://github.com/danielrosehill/AI-Agent-Ideation-Agent) | 0 | 2025-03-25T06:28:06Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Github-To-OpenWebUI-Context-Pipeline](https://github.com/danielrosehill/Github-To-OpenWebUI-Context-Pipeline) | 0 | 2025-03-21T00:09:53Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -103,6 +105,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/OR-Models-With-Tools-0811](https://github.com/danielrosehill/OR-Models-With-Tools-0811) | 0 | 2025-11-08T23:07:21Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [danielrosehill/Feature-Ideas-And-Requests](https://github.com/danielrosehill/Feature-Ideas-And-Requests) | 0 | 2025-10-28T19:25:18Z | Python | Unknown | 2 | 0 | 2 | 2 |
 | [danielrosehill/Context-Cruncher](https://github.com/danielrosehill/Context-Cruncher) | 0 | 2025-10-26T19:44:35Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Assistant-Ideator](https://github.com/danielrosehill/AI-Assistant-Ideator) | 0 | 2025-10-26T14:29:44Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -123,6 +126,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [CodeBoarding/atlassian-python-api](https://github.com/CodeBoarding/atlassian-python-api) | 0 | 2025-06-06T15:53:33Z | Python | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [Natyren/alfworld](https://github.com/Natyren/alfworld) | 0 | 2025-05-26T21:13:24Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [mongodb-forks/PyKMIP](https://github.com/mongodb-forks/PyKMIP) | 0 | 2025-04-21T22:22:26Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [danielrosehill/Remote-Jobs-Research-Agent](https://github.com/danielrosehill/Remote-Jobs-Research-Agent) | 0 | 2025-04-04T17:10:15Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [AlmaLinux/errata2osv](https://github.com/AlmaLinux/errata2osv) | 0 | 2025-03-25T09:22:24Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Agent-Ideation-Agent](https://github.com/danielrosehill/AI-Agent-Ideation-Agent) | 0 | 2025-03-25T06:28:06Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Github-To-OpenWebUI-Context-Pipeline](https://github.com/danielrosehill/Github-To-OpenWebUI-Context-Pipeline) | 0 | 2025-03-21T00:09:53Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 155,
-    "concepts": 188,
-    "observations": 188,
-    "repos": 27,
-    "terms": 188
+    "components": 163,
+    "concepts": 205,
+    "observations": 205,
+    "repos": 28,
+    "terms": 205
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "apache/camel-examples",
@@ -27,7 +27,6 @@
     "googleapis/google-api-java-client-services",
     "googleapis/google-auth-library-java",
     "googleapis/google-oauth-java-client",
-    "GoogleCloudPlatform/cloud-opensource-java",
     "graalvm/graal-languages-demos",
     "graalvm/native-build-tools",
     "higress-group/higress-console",
@@ -40,6 +39,8 @@
     "redis/redis-om-spring",
     "spotbugs/sonar-findbugs",
     "swagger-api/swagger-inflector",
-    "ysbing/YADB"
+    "Waffle/waffle",
+    "ysbing/YADB",
+    "zilliztech/vts"
   ]
 }

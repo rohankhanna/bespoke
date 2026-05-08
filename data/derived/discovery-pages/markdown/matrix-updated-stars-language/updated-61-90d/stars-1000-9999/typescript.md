@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 26
-- terms: 112
-- components: 763
-- concepts: 108
-- observations: 108
+- repos: 27
+- terms: 119
+- components: 772
+- concepts: 115
+- observations: 115
 
 ## Static behavior
 
@@ -26,12 +26,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [obsidian-community/obsidian-kanban](https://github.com/obsidian-community/obsidian-kanban) | 4238 | 2026-03-06T17:40:01Z | TypeScript | Infrastructure/tooling | 4 | 57 | 4 | 4 |
-| [obsidian-community/obsidian-zotero-integration](https://github.com/obsidian-community/obsidian-zotero-integration) | 1621 | 2026-03-06T17:39:40Z | TypeScript | Infrastructure/tooling | 3 | 44 | 3 | 3 |
+| [standard-schema/standard-schema](https://github.com/standard-schema/standard-schema) | 3486 | 2026-03-08T20:52:13Z | TypeScript | Infrastructure/tooling | 7 | 9 | 7 | 7 |
+| [obsidian-community/obsidian-kanban](https://github.com/obsidian-community/obsidian-kanban) | 4241 | 2026-03-06T17:40:01Z | TypeScript | Infrastructure/tooling | 4 | 57 | 4 | 4 |
+| [obsidian-community/obsidian-zotero-integration](https://github.com/obsidian-community/obsidian-zotero-integration) | 1623 | 2026-03-06T17:39:40Z | TypeScript | Infrastructure/tooling | 3 | 44 | 3 | 3 |
 | [obsidian-community/obsidian-style-settings](https://github.com/obsidian-community/obsidian-style-settings) | 2180 | 2026-03-06T17:39:30Z | TypeScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
 | [antfu-collective/vitesse-lite](https://github.com/antfu-collective/vitesse-lite) | 1245 | 2026-03-06T05:50:16Z | TypeScript | Infrastructure/tooling | 4 | 27 | 4 | 4 |
 | [arktypeio/arktype](https://github.com/arktypeio/arktype) | 7749 | 2026-03-04T20:19:48Z | TypeScript | Infrastructure/tooling | 5 | 30 | 5 | 5 |
-| [vercel/serve](https://github.com/vercel/serve) | 9849 | 2026-03-03T19:05:01Z | TypeScript | CLI | 5 | 29 | 5 | 5 |
+| [vercel/serve](https://github.com/vercel/serve) | 9850 | 2026-03-03T19:05:01Z | TypeScript | CLI | 5 | 29 | 5 | 5 |
 | [antfu-collective/vitesse-webext](https://github.com/antfu-collective/vitesse-webext) | 3366 | 2026-03-03T12:41:03Z | TypeScript | Web app | 3 | 37 | 3 | 3 |
 | [cosmiconfig/cosmiconfig](https://github.com/cosmiconfig/cosmiconfig) | 4147 | 2026-03-02T13:27:47Z | TypeScript | Infrastructure/tooling | 1 | 28 | 1 | 1 |
 | [unjs/unplugin](https://github.com/unjs/unplugin) | 3574 | 2026-02-27T09:22:53Z | TypeScript | Infrastructure/tooling | 10 | 40 | 10 | 10 |
@@ -39,7 +40,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [peers/peerjs-server](https://github.com/peers/peerjs-server) | 4686 | 2026-02-27T01:15:52Z | TypeScript | Infrastructure/tooling | 8 | 36 | 8 | 8 |
 | [stravu/crystal](https://github.com/stravu/crystal) | 3020 | 2026-02-26T21:48:10Z | TypeScript | Infrastructure/tooling | 4 | 28 | 0 | 0 |
 | [snarktank/antfarm](https://github.com/snarktank/antfarm) | 2409 | 2026-02-26T17:39:07Z | TypeScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |
-| [antfu-collective/vitesse](https://github.com/antfu-collective/vitesse) | 9427 | 2026-02-25T14:39:25Z | TypeScript | Infrastructure/tooling | 3 | 52 | 3 | 3 |
+| [antfu-collective/vitesse](https://github.com/antfu-collective/vitesse) | 9428 | 2026-02-25T14:39:25Z | TypeScript | Infrastructure/tooling | 3 | 52 | 3 | 3 |
 | [jupyter-widgets/ipyleaflet](https://github.com/jupyter-widgets/ipyleaflet) | 1536 | 2026-02-25T12:48:27Z | TypeScript | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [posva/unplugin-vue-router](https://github.com/posva/unplugin-vue-router) | 2253 | 2026-02-24T07:56:26Z | TypeScript | Infrastructure/tooling | 6 | 67 | 6 | 6 |
 | [jonaskello/tsconfig-paths](https://github.com/jonaskello/tsconfig-paths) | 1902 | 2026-02-23T07:34:11Z | TypeScript | Infrastructure/tooling | 2 | 26 | 2 | 2 |
@@ -57,17 +58,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [vercel/serve](https://github.com/vercel/serve) | 9849 | 2026-03-03T19:05:01Z | TypeScript | CLI | 5 | 29 | 5 | 5 |
-| [antfu-collective/vitesse](https://github.com/antfu-collective/vitesse) | 9427 | 2026-02-25T14:39:25Z | TypeScript | Infrastructure/tooling | 3 | 52 | 3 | 3 |
+| [vercel/serve](https://github.com/vercel/serve) | 9850 | 2026-03-03T19:05:01Z | TypeScript | CLI | 5 | 29 | 5 | 5 |
+| [antfu-collective/vitesse](https://github.com/antfu-collective/vitesse) | 9428 | 2026-02-25T14:39:25Z | TypeScript | Infrastructure/tooling | 3 | 52 | 3 | 3 |
 | [tsconfig/bases](https://github.com/tsconfig/bases) | 7781 | 2026-02-14T13:47:08Z | TypeScript | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [arktypeio/arktype](https://github.com/arktypeio/arktype) | 7749 | 2026-03-04T20:19:48Z | TypeScript | Infrastructure/tooling | 5 | 30 | 5 | 5 |
 | [supermacro/neverthrow](https://github.com/supermacro/neverthrow) | 7473 | 2026-02-14T23:23:06Z | TypeScript | Infrastructure/tooling | 2 | 22 | 2 | 2 |
 | [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) | 5250 | 2026-02-09T10:53:34Z | TypeScript | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [21st-dev/magic-mcp](https://github.com/21st-dev/magic-mcp) | 4770 | 2026-02-17T04:50:55Z | TypeScript | CLI | 0 | 15 | 0 | 0 |
 | [peers/peerjs-server](https://github.com/peers/peerjs-server) | 4686 | 2026-02-27T01:15:52Z | TypeScript | Infrastructure/tooling | 8 | 36 | 8 | 8 |
-| [obsidian-community/obsidian-kanban](https://github.com/obsidian-community/obsidian-kanban) | 4238 | 2026-03-06T17:40:01Z | TypeScript | Infrastructure/tooling | 4 | 57 | 4 | 4 |
+| [obsidian-community/obsidian-kanban](https://github.com/obsidian-community/obsidian-kanban) | 4241 | 2026-03-06T17:40:01Z | TypeScript | Infrastructure/tooling | 4 | 57 | 4 | 4 |
 | [cosmiconfig/cosmiconfig](https://github.com/cosmiconfig/cosmiconfig) | 4147 | 2026-03-02T13:27:47Z | TypeScript | Infrastructure/tooling | 1 | 28 | 1 | 1 |
 | [unjs/unplugin](https://github.com/unjs/unplugin) | 3574 | 2026-02-27T09:22:53Z | TypeScript | Infrastructure/tooling | 10 | 40 | 10 | 10 |
+| [standard-schema/standard-schema](https://github.com/standard-schema/standard-schema) | 3486 | 2026-03-08T20:52:13Z | TypeScript | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [ulid/javascript](https://github.com/ulid/javascript) | 3417 | 2026-02-27T08:22:11Z | TypeScript | Infrastructure/tooling | 3 | 13 | 3 | 3 |
 | [antfu-collective/vitesse-webext](https://github.com/antfu-collective/vitesse-webext) | 3366 | 2026-03-03T12:41:03Z | TypeScript | Web app | 3 | 37 | 3 | 3 |
 | [stravu/crystal](https://github.com/stravu/crystal) | 3020 | 2026-02-26T21:48:10Z | TypeScript | Infrastructure/tooling | 4 | 28 | 0 | 0 |
@@ -78,7 +80,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [react-native-netinfo/react-native-netinfo](https://github.com/react-native-netinfo/react-native-netinfo) | 2163 | 2026-02-15T14:37:30Z | TypeScript | Infrastructure/tooling | 4 | 48 | 4 | 4 |
 | [jonaskello/tsconfig-paths](https://github.com/jonaskello/tsconfig-paths) | 1902 | 2026-02-23T07:34:11Z | TypeScript | Infrastructure/tooling | 2 | 26 | 2 | 2 |
 | [toddbluhm/env-cmd](https://github.com/toddbluhm/env-cmd) | 1816 | 2026-02-09T12:15:44Z | TypeScript | Infrastructure/tooling | 10 | 27 | 10 | 10 |
-| [obsidian-community/obsidian-zotero-integration](https://github.com/obsidian-community/obsidian-zotero-integration) | 1621 | 2026-03-06T17:39:40Z | TypeScript | Infrastructure/tooling | 3 | 44 | 3 | 3 |
+| [obsidian-community/obsidian-zotero-integration](https://github.com/obsidian-community/obsidian-zotero-integration) | 1623 | 2026-03-06T17:39:40Z | TypeScript | Infrastructure/tooling | 3 | 44 | 3 | 3 |
 | [jupyter-widgets/ipyleaflet](https://github.com/jupyter-widgets/ipyleaflet) | 1536 | 2026-02-25T12:48:27Z | TypeScript | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [styleguidist/react-docgen-typescript](https://github.com/styleguidist/react-docgen-typescript) | 1259 | 2026-02-12T18:51:28Z | TypeScript | Infrastructure/tooling | 3 | 22 | 3 | 3 |
 | [antfu-collective/vitesse-lite](https://github.com/antfu-collective/vitesse-lite) | 1245 | 2026-03-06T05:50:16Z | TypeScript | Infrastructure/tooling | 4 | 27 | 4 | 4 |

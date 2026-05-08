@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 17
-- terms: 105
-- components: 95
-- concepts: 105
-- observations: 105
+- repos: 19
+- terms: 128
+- components: 109
+- concepts: 128
+- observations: 128
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [zeromq/libzmq](https://github.com/zeromq/libzmq) | 10860 | 2026-04-07T18:05:29Z | C/C++ | Infrastructure/tooling | 12 | 10 | 12 | 12 |
+| [g-truc/glm](https://github.com/g-truc/glm) | 10900 | 2026-04-07T11:38:35Z | C/C++ | Infrastructure/tooling | 11 | 4 | 11 | 11 |
 | [deepseek-ai/FlashMLA](https://github.com/deepseek-ai/FlashMLA) | 12560 | 2026-04-07T03:02:45Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [taichi-dev/taichi](https://github.com/taichi-dev/taichi) | 28178 | 2026-04-06T19:37:14Z | C/C++ | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [NVIDIA/open-gpu-kernel-modules](https://github.com/NVIDIA/open-gpu-kernel-modules) | 16925 | 2026-04-03T00:04:57Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -63,5 +65,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [deepseek-ai/FlashMLA](https://github.com/deepseek-ai/FlashMLA) | 12560 | 2026-04-07T03:02:45Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [libevent/libevent](https://github.com/libevent/libevent) | 11884 | 2026-04-01T18:03:27Z | C/C++ | Infrastructure/tooling | 7 | 18 | 7 | 7 |
 | [lz4/lz4](https://github.com/lz4/lz4) | 11781 | 2026-04-01T22:56:47Z | C/C++ | Infrastructure/tooling | 9 | 8 | 9 | 9 |
+| [g-truc/glm](https://github.com/g-truc/glm) | 10900 | 2026-04-07T11:38:35Z | C/C++ | Infrastructure/tooling | 11 | 4 | 11 | 11 |
+| [zeromq/libzmq](https://github.com/zeromq/libzmq) | 10860 | 2026-04-07T18:05:29Z | C/C++ | Infrastructure/tooling | 12 | 10 | 12 | 12 |
 | [bellard/quickjs](https://github.com/bellard/quickjs) | 10563 | 2026-03-23T17:46:12Z | C/C++ | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [libgit2/libgit2](https://github.com/libgit2/libgit2) | 10419 | 2026-03-31T19:34:06Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |

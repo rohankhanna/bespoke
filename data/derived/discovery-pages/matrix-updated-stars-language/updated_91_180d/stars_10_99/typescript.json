@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 738,
-    "concepts": 83,
-    "observations": 83,
-    "repos": 31,
-    "terms": 83
+    "components": 746,
+    "concepts": 93,
+    "observations": 93,
+    "repos": 32,
+    "terms": 93
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "adevinta/actions-lighthouseci-compare",
     "aigc3d/LAM_WebRender",
@@ -34,6 +34,7 @@
     "isaacs/clock-mock",
     "janwilmake/oapis",
     "joliss/node-walk-sync",
+    "libp2p/github-mgmt",
     "lnbc1QWFyb24/lnmessage",
     "luizbarboza/polyclip-ts",
     "nanostores/angular",

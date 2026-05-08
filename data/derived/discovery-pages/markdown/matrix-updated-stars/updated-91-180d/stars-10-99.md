@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 404
-- terms: 1011
-- components: 1987
-- concepts: 1011
-- observations: 1017
+- repos: 408
+- terms: 1024
+- components: 2004
+- concepts: 1024
+- observations: 1030
 
 ## Static behavior
 
@@ -25,6 +25,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [JuliaInterop/libcxxwrap-julia](https://github.com/JuliaInterop/libcxxwrap-julia) | 95 | 2026-02-06T20:12:37Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [libp2p/github-mgmt](https://github.com/libp2p/github-mgmt) | 10 | 2026-02-06T19:12:55Z | TypeScript | Infrastructure/tooling | 10 | 8 | 10 | 10 |
+| [conda-forge/cfep](https://github.com/conda-forge/cfep) | 24 | 2026-02-06T17:38:24Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [quarkiverse/quarkiverse](https://github.com/quarkiverse/quarkiverse) | 53 | 2026-02-06T11:25:33Z | JavaScript | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [c2corg/browserslist-update-action](https://github.com/c2corg/browserslist-update-action) | 44 | 2026-02-06T07:12:46Z | TypeScript | Infrastructure/tooling | 2 | 29 | 2 | 2 |
 | [ChenMnZ/INT_vs_FP](https://github.com/ChenMnZ/INT_vs_FP) | 77 | 2026-02-06T05:27:02Z | Python | Framework | 0 | 0 | 0 | 0 |
 | [cloudrepo-io/founder-os](https://github.com/cloudrepo-io/founder-os) | 10 | 2026-02-05T21:57:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -89,6 +93,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apache/rocketmq-apis](https://github.com/apache/rocketmq-apis) | 31 | 2026-01-27T09:24:46Z | Other | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [aws-cloudformation/cloudformation-resource-schema](https://github.com/aws-cloudformation/cloudformation-resource-schema) | 98 | 2026-01-26T21:38:04Z | Java | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [minikube-ci/examples](https://github.com/minikube-ci/examples) | 36 | 2026-01-26T21:35:44Z | JavaScript | Infrastructure/tooling | 1 | 2 | 1 | 2 |
+| [Bujiazi/DiCache](https://github.com/Bujiazi/DiCache) | 60 | 2026-01-26T14:21:54Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [dwyl/elixir-auth-microsoft](https://github.com/dwyl/elixir-auth-microsoft) | 47 | 2026-01-26T08:55:32Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [zeng3ld/claude-session-restore](https://github.com/ZENG3LD/claude-session-restore) | 30 | 2026-01-26T07:54:26Z | Rust | CLI | 0 | 0 | 0 | 0 |
 | [fsspec/sshfs](https://github.com/fsspec/sshfs) | 85 | 2026-01-26T07:32:24Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
@@ -182,6 +187,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [spyoungtech/json-five-rs](https://github.com/spyoungtech/json-five-rs) | 18 | 2026-01-08T07:47:42Z | Rust | Infrastructure/tooling | 4 | 1 | 5 | 6 |
 | [modelscope/ms-enclave](https://github.com/modelscope/ms-enclave) | 49 | 2026-01-08T07:32:32Z | Python | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [tier4/ndt_omp](https://github.com/tier4/ndt_omp) | 31 | 2026-01-08T04:12:18Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [google-deepmind/alphageometry2](https://github.com/google-deepmind/alphageometry2) | 68 | 2026-01-07T22:35:16Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [tinted-theming/base24](https://github.com/tinted-theming/base24) | 94 | 2026-01-07T20:09:18Z | Python | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 | [InteractiveComputerGraphics/blender-sequence-loader](https://github.com/InteractiveComputerGraphics/blender-sequence-loader) | 92 | 2026-01-07T14:30:58Z | Python | Unknown | 5 | 0 | 5 | 5 |
 | [josdejong/typed-function](https://github.com/josdejong/typed-function) | 78 | 2026-01-07T10:06:14Z | JavaScript | Infrastructure/tooling | 1 | 17 | 1 | 1 |
@@ -278,7 +284,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [01mf02/hifijson](https://github.com/01mf02/hifijson) | 27 | 2025-12-15T15:09:14Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [cmacdonald/pyt_splade](https://github.com/cmacdonald/pyt_splade) | 15 | 2025-12-15T10:39:22Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [honwen/openwrt-shadowsocks-rust](https://github.com/honwen/openwrt-shadowsocks-rust) | 71 | 2025-12-15T09:04:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [Cle2ment/CherryStudio_themes](https://github.com/Cle2ment/CherryStudio_themes) | 34 | 2025-12-15T08:54:57Z | Other | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [talk-flow/Lynxe-public-usecase](https://github.com/talk-flow/Lynxe-public-usecase) | 25 | 2025-12-15T03:11:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [NightFurySL2001/cjktables](https://github.com/NightFurySL2001/cjktables) | 46 | 2025-12-13T13:08:14Z | Python | Unknown | 1 | 0 | 1 | 1 |
 | [dfki-ric/pclomp](https://github.com/dfki-ric/pclomp) | 22 | 2025-12-12T10:53:43Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -428,7 +433,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [wirasm/dylan](https://github.com/Wirasm/dylan) | 37 | 2025-11-09T18:47:47Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [luizbarboza/polyclip-ts](https://github.com/luizbarboza/polyclip-ts) | 48 | 2025-11-09T17:56:14Z | TypeScript | Infrastructure/tooling | 1 | 20 | 1 | 1 |
 | [MiniMax-AI/MiniMax-AI.github.io](https://github.com/MiniMax-AI/MiniMax-AI.github.io) | 71 | 2025-11-09T07:43:01Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
-| [probonopd/static-tools](https://github.com/probonopd/static-tools) | 37 | 2025-11-08T15:50:39Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -444,6 +448,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ccslykx/Starry](https://github.com/ccslykx/Starry) | 97 | 2025-12-30T09:12:28Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [mingyuanzhou/SiD-LSG](https://github.com/mingyuanzhou/SiD-LSG) | 97 | 2025-12-04T18:07:58Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [niner/Inline-Perl5](https://github.com/niner/Inline-Perl5) | 97 | 2025-11-14T15:28:47Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [JuliaInterop/libcxxwrap-julia](https://github.com/JuliaInterop/libcxxwrap-julia) | 95 | 2026-02-06T20:12:37Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [sculptdotfun/viberank](https://github.com/sculptdotfun/viberank) | 95 | 2026-01-26T03:24:17Z | TypeScript | Unknown | 0 | 28 | 0 | 0 |
 | [antgroup/DeepXTrace](https://github.com/antgroup/DeepXTrace) | 95 | 2026-01-16T09:03:31Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [tinted-theming/base24](https://github.com/tinted-theming/base24) | 94 | 2026-01-07T20:09:18Z | Python | Infrastructure/tooling | 8 | 1 | 8 | 8 |
@@ -511,6 +516,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nativium/nativium](https://github.com/nativium/nativium) | 69 | 2025-12-23T03:52:23Z | C/C++ | Infrastructure/tooling | 12 | 8 | 12 | 12 |
 | [airlift/codestyle](https://github.com/airlift/codestyle) | 69 | 2025-11-28T16:46:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [lumen-oss/rocks-config.nvim](https://github.com/lumen-oss/rocks-config.nvim) | 68 | 2026-01-29T16:47:20Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
+| [google-deepmind/alphageometry2](https://github.com/google-deepmind/alphageometry2) | 68 | 2026-01-07T22:35:16Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [remotion-dev/brand](https://github.com/remotion-dev/brand) | 68 | 2025-12-12T09:28:21Z | TypeScript | Infrastructure/tooling | 4 | 27 | 4 | 4 |
 | [travis-ci/travis-hub](https://github.com/travis-ci/travis-hub) | 67 | 2026-01-08T09:43:39Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [jdlph/Path4GMNS](https://github.com/jdlph/Path4GMNS) | 66 | 2025-12-16T02:33:52Z | Python | Infrastructure/tooling | 7 | 2 | 7 | 7 |
@@ -530,6 +536,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [langgraph4j/langgraph4j-examples](https://github.com/langgraph4j/langgraph4j-examples) | 61 | 2026-01-27T11:38:55Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [lmgame-org/GRL](https://github.com/lmgame-org/GRL) | 61 | 2025-12-18T23:18:07Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [philipy1219/ComfyUI-TaylorSeer](https://github.com/philipy1219/ComfyUI-TaylorSeer) | 60 | 2026-01-29T06:37:34Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [Bujiazi/DiCache](https://github.com/Bujiazi/DiCache) | 60 | 2026-01-26T14:21:54Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [theplant/htmlgo](https://github.com/theplant/htmlgo) | 60 | 2025-12-02T09:48:03Z | Go | Service/API | 3 | 0 | 3 | 3 |
 | [lesismal/nbio-examples](https://github.com/lesismal/nbio-examples) | 59 | 2026-01-04T04:41:44Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [patterns-ai-core/qdrant-ruby](https://github.com/patterns-ai-core/qdrant-ruby) | 59 | 2025-11-25T15:30:06Z | Other | CLI | 9 | 2 | 9 | 9 |
@@ -552,6 +559,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ClickHouse/ch2rs](https://github.com/ClickHouse/ch2rs) | 54 | 2026-02-05T15:53:08Z | Rust | CLI | 0 | 1 | 0 | 0 |
 | [bobbylight/RSTAUI](https://github.com/bobbylight/RSTAUI) | 54 | 2026-01-03T04:48:29Z | Java | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [adamharrison/lite-xl-terminal](https://github.com/adamharrison/lite-xl-terminal) | 54 | 2025-12-15T21:18:43Z | C/C++ | CLI | 0 | 3 | 0 | 0 |
+| [quarkiverse/quarkiverse](https://github.com/quarkiverse/quarkiverse) | 53 | 2026-02-06T11:25:33Z | JavaScript | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [status-im/nim-json-serialization](https://github.com/status-im/nim-json-serialization) | 53 | 2026-01-30T20:51:54Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [1ilkhamov/opencode-hermes-multiagent](https://github.com/1ilkhamov/opencode-hermes-multiagent) | 53 | 2025-12-31T14:58:10Z | Unknown | Unknown | 0 | 3 | 0 | 0 |
 | [JuliaLogging/ProgressLogging.jl](https://github.com/JuliaLogging/ProgressLogging.jl) | 53 | 2025-11-22T12:25:35Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -627,7 +635,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ReneHollander/rep0st](https://github.com/ReneHollander/rep0st) | 37 | 2025-12-25T16:07:05Z | Python | Unknown | 0 | 8 | 0 | 0 |
 | [bl-ue/tweakcc-system-prompts](https://github.com/bl-ue/tweakcc-system-prompts) | 37 | 2025-11-23T18:05:33Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [wirasm/dylan](https://github.com/Wirasm/dylan) | 37 | 2025-11-09T18:47:47Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [probonopd/static-tools](https://github.com/probonopd/static-tools) | 37 | 2025-11-08T15:50:39Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [bfenetworks/api-server](https://github.com/bfenetworks/api-server) | 36 | 2026-01-31T06:49:01Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [minikube-ci/examples](https://github.com/minikube-ci/examples) | 36 | 2026-01-26T21:35:44Z | JavaScript | Infrastructure/tooling | 1 | 2 | 1 | 2 |
 | [apache/opendal-ofs](https://github.com/apache/opendal-ofs) | 36 | 2026-01-08T18:59:53Z | Rust | CLI | 3 | 2 | 3 | 3 |
@@ -642,7 +649,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aws-observability/aws-otel-test-framework](https://github.com/aws-observability/aws-otel-test-framework) | 34 | 2026-01-24T22:37:58Z | Java | Infrastructure/tooling | 10 | 18 | 10 | 10 |
 | [bombsimon/logrusr](https://github.com/bombsimon/logrusr) | 34 | 2026-01-15T22:18:23Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [aarroyoc/doclog](https://github.com/aarroyoc/doclog) | 34 | 2026-01-05T09:55:59Z | Other | Infrastructure/tooling | 2 | 1 | 2 | 2 |
-| [Cle2ment/CherryStudio_themes](https://github.com/Cle2ment/CherryStudio_themes) | 34 | 2025-12-15T08:54:57Z | Other | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [iccicci/next-json](https://github.com/iccicci/next-json) | 34 | 2025-12-01T21:34:44Z | TypeScript | Unknown | 0 | 17 | 0 | 0 |
 | [ethereum/eipw](https://github.com/ethereum/eipw) | 33 | 2026-02-05T20:19:14Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [HZAI-ZJNU/happy-llm-ppt](https://github.com/HZAI-ZJNU/happy-llm-ppt) | 33 | 2026-02-04T00:50:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -703,6 +709,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [talk-flow/Lynxe-public-usecase](https://github.com/talk-flow/Lynxe-public-usecase) | 25 | 2025-12-15T03:11:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [astro/deadnix-action](https://github.com/astro/deadnix-action) | 25 | 2025-12-10T09:09:38Z | Unknown | Unknown | 6 | 0 | 6 | 6 |
 | [vstinner/misc](https://github.com/vstinner/misc) | 25 | 2025-12-01T17:21:15Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [conda-forge/cfep](https://github.com/conda-forge/cfep) | 24 | 2026-02-06T17:38:24Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [zilliztech/kafka-connect-milvus](https://github.com/zilliztech/kafka-connect-milvus) | 24 | 2026-01-23T08:01:12Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [osmcode/osm-gis-export](https://github.com/osmcode/osm-gis-export) | 24 | 2026-01-18T13:51:30Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [lukacu/docker-frps](https://github.com/lukacu/docker-frps) | 24 | 2025-12-05T21:13:55Z | Go | Infrastructure/tooling | 1 | 0 | 1 | 1 |
@@ -822,6 +829,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Adlik/model_zoo](https://github.com/Adlik/model_zoo) | 11 | 2025-12-26T01:36:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [LuaLS/vscode-lua-doc](https://github.com/LuaLS/vscode-lua-doc) | 11 | 2025-12-22T15:50:55Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [VectorSpaceLab/Vis-IR](https://github.com/VectorSpaceLab/Vis-IR) | 11 | 2025-11-10T07:30:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [libp2p/github-mgmt](https://github.com/libp2p/github-mgmt) | 10 | 2026-02-06T19:12:55Z | TypeScript | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [cloudrepo-io/founder-os](https://github.com/cloudrepo-io/founder-os) | 10 | 2026-02-05T21:57:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [dspinellis/bibtools](https://github.com/dspinellis/bibtools) | 10 | 2026-02-04T19:50:15Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [adevinta/actions-lighthouseci-compare](https://github.com/adevinta/actions-lighthouseci-compare) | 10 | 2026-02-02T06:37:13Z | TypeScript | Infrastructure/tooling | 4 | 32 | 4 | 4 |

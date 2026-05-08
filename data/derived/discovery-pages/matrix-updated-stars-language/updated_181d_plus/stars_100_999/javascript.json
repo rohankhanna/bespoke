@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4632,
-    "concepts": 1056,
-    "observations": 1056,
-    "repos": 366,
-    "terms": 1044
+    "components": 4629,
+    "concepts": 1052,
+    "observations": 1052,
+    "repos": 365,
+    "terms": 1040
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "14nrv/buefy-shop",
     "2createStudio/postcss-sprites",
@@ -334,7 +334,6 @@
     "storybook-eol/addon-smart-knobs",
     "storybookjs/babel-plugin-react-docgen",
     "streamich/fs-monkey",
-    "styled-components/babel-plugin-polished",
     "surma/rollup-plugin-off-main-thread",
     "sveltejs/eslint-plugin-svelte3",
     "sveltejs/sapper-template",

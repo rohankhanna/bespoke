@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars · Python
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 26
+- repos: 28
 - terms: 58
 - components: 87
 - concepts: 48
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [genius-harry/neural-chat](https://github.com/genius-harry/Neural-Chat) | 2 | 2026-02-07T02:32:44Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [mlfoundations/SkyRL](https://github.com/mlfoundations/SkyRL) | 1 | 2026-02-04T22:42:59Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [zwowo1997/pack-repo-4ai](https://github.com/zwowo1997/pack-repo-4ai) | 6 | 2026-01-31T19:20:45Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [usdot-fhwa-stol/carma-carla-integration](https://github.com/usdot-fhwa-stol/carma-carla-integration) | 4 | 2026-01-30T17:36:37Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
@@ -46,6 +47,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Computer-use-agents/GUI-Docker-Env](https://github.com/Computer-use-agents/GUI-Docker-Env) | 6 | 2025-12-18T07:45:55Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [cognizant-ai-lab/neuro-san-web-client](https://github.com/cognizant-ai-lab/neuro-san-web-client) | 3 | 2025-12-15T18:56:51Z | Python | CLI | 3 | 7 | 3 | 3 |
 | [tahv/typos-gitlab-code-quality](https://github.com/tahv/typos-gitlab-code-quality) | 2 | 2025-12-10T12:08:30Z | Python | Infrastructure/tooling | 6 | 10 | 6 | 6 |
+| [danielrosehill/Cloud-STT-Price-Points-1225](https://github.com/danielrosehill/Cloud-STT-Price-Points-1225) | 1 | 2025-12-08T14:16:46Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [heyoeyo/toadui](https://github.com/heyoeyo/toadui) | 2 | 2025-12-06T22:08:17Z | Python | Library | 3 | 0 | 3 | 3 |
 | [aiagenta2z/onekey_mcp_router](https://github.com/aiagenta2z/onekey_mcp_router) | 4 | 2025-12-04T04:45:41Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [ai-bot-pro/pipeline-py](https://github.com/ai-bot-pro/pipeline-py) | 2 | 2025-11-28T14:05:41Z | Python | Unknown | 1 | 0 | 1 | 1 |
@@ -74,6 +76,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [b-data/docker-deployment-jupyter](https://github.com/b-data/docker-deployment-jupyter) | 3 | 2026-01-05T12:28:39Z | Python | Unknown | 16 | 0 | 16 | 16 |
 | [cognizant-ai-lab/neuro-san-web-client](https://github.com/cognizant-ai-lab/neuro-san-web-client) | 3 | 2025-12-15T18:56:51Z | Python | CLI | 3 | 7 | 3 | 3 |
 | [MarcCote/downward](https://github.com/MarcCote/downward) | 3 | 2025-11-11T14:34:25Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [genius-harry/neural-chat](https://github.com/genius-harry/Neural-Chat) | 2 | 2026-02-07T02:32:44Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [biocypher/collectri](https://github.com/biocypher/collectri) | 2 | 2026-01-28T15:19:19Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [ca-ruz/bumpit](https://github.com/ca-ruz/bumpit) | 2 | 2026-01-22T20:04:54Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-LAN-Manager-0126](https://github.com/danielrosehill/Claude-LAN-Manager-0126) | 2 | 2026-01-09T14:21:24Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -83,3 +86,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mlfoundations/SkyRL](https://github.com/mlfoundations/SkyRL) | 1 | 2026-02-04T22:42:59Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [mjvolk3/torchcell](https://github.com/Mjvolk3/torchcell) | 1 | 2026-01-27T17:12:36Z | Python | Infrastructure/tooling | 6 | 10 | 0 | 0 |
 | [pydantic/pydantic-docs](https://github.com/pydantic/pydantic-docs) | 1 | 2026-01-23T10:39:01Z | Python | Docs/knowledge | 0 | 0 | 0 | 0 |
+| [danielrosehill/Cloud-STT-Price-Points-1225](https://github.com/danielrosehill/Cloud-STT-Price-Points-1225) | 1 | 2025-12-08T14:16:46Z | Python | Unknown | 0 | 0 | 0 | 0 |

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11408,
-    "concepts": 7779,
-    "observations": 7839,
-    "repos": 1705,
-    "terms": 7781
+    "components": 11432,
+    "concepts": 7790,
+    "observations": 7850,
+    "repos": 1707,
+    "terms": 7792
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "01mf02/jaq",
@@ -59,6 +59,7 @@
     "AdnoC/sixel-sys",
     "ADNTIO/crispy-bootloader-rp2040-rs",
     "adrien-ben/vulkan-tutorial-rs",
+    "adrozdenko/error-toon",
     "agent-sh/agent-analyzer",
     "agent-sh/agnix",
     "agentclientprotocol/agent-client-protocol",
@@ -378,6 +379,7 @@
     "containers/aardvark-dns",
     "containers/netavark",
     "Coral-Protocol/coral-rs",
+    "cordx56/rustowl",
     "cormacrelf/dark-notify",
     "cosmos/ibc-proto-rs",
     "cosmos/ics23",

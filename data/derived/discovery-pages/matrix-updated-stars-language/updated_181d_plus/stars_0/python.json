@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 160,
-    "concepts": 107,
-    "observations": 107,
-    "repos": 72,
-    "terms": 107
+    "components": 163,
+    "concepts": 109,
+    "observations": 109,
+    "repos": 74,
+    "terms": 109
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "AbhiLegend/AIDrugDiscoveryOpenVINO",
     "af-74413592/agentscope",
@@ -38,6 +38,8 @@
     "danielrosehill/Docs-Grabber",
     "danielrosehill/Feature-Ideas-And-Requests",
     "danielrosehill/Github-To-OpenWebUI-Context-Pipeline",
+    "danielrosehill/OR-Models-With-Tools-0811",
+    "danielrosehill/Remote-Jobs-Research-Agent",
     "doc-doc/hcrn-bert",
     "DSaurus/MVDream",
     "edstoica/stylegan3",

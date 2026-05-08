@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 94
-- terms: 345
-- components: 366
-- concepts: 348
-- observations: 349
+- repos: 93
+- terms: 337
+- components: 364
+- concepts: 340
+- observations: 341
 
 ## Static behavior
 
@@ -113,13 +113,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [PMunch/nimlsp](https://github.com/PMunch/nimlsp) | 439 | 2026-02-09T21:16:08Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [clj-easy/graalvm-clojure](https://github.com/clj-easy/graalvm-clojure) | 518 | 2026-02-08T16:30:48Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [jtdaugherty/vty](https://github.com/jtdaugherty/vty) | 333 | 2026-02-08T16:14:32Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
+| [VisionLearningGroup/VisionLearningGroup.github.io](https://github.com/VisionLearningGroup/VisionLearningGroup.github.io) | 186 | 2026-02-07T23:49:35Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ankane/kms_encrypted](https://github.com/ankane/kms_encrypted) | 259 | 2026-02-07T19:00:18Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [gfredericks/test.chuck](https://github.com/gfredericks/test.chuck) | 224 | 2026-02-07T17:53:58Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [JuliaInterop/CxxWrap.jl](https://github.com/JuliaInterop/CxxWrap.jl) | 470 | 2026-02-07T14:16:08Z | Other | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [EbrahimTahernejad/Tun2SocksKit](https://github.com/EbrahimTahernejad/Tun2SocksKit) | 141 | 2026-02-07T13:50:34Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [loqusion/typix](https://github.com/loqusion/typix) | 312 | 2026-02-07T08:51:26Z | Other | Infrastructure/tooling | 5 | 8 | 5 | 5 |
-| [tomas-abrahamsson/gpb](https://github.com/tomas-abrahamsson/gpb) | 575 | 2026-02-06T22:56:55Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
-| [BrunoBonacci/mulog](https://github.com/BrunoBonacci/mulog) | 532 | 2026-02-06T13:21:46Z | Other | Library | 6 | 0 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -141,10 +140,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tc39/proposal-decimal](https://github.com/tc39/proposal-decimal) | 618 | 2026-02-12T15:35:20Z | Other | Infrastructure/tooling | 6 | 12 | 6 | 6 |
 | [DL3DV-10K/Dataset](https://github.com/DL3DV-10K/Dataset) | 610 | 2026-02-10T04:05:04Z | Other | Model/data | 6 | 0 | 9 | 9 |
 | [xoofx/CppAst.NET](https://github.com/xoofx/CppAst.NET) | 602 | 2026-02-10T08:09:38Z | Other | Infrastructure/tooling | 7 | 1 | 7 | 7 |
-| [tomas-abrahamsson/gpb](https://github.com/tomas-abrahamsson/gpb) | 575 | 2026-02-06T22:56:55Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [NimblePros/eShopOnWeb](https://github.com/NimblePros/eShopOnWeb) | 562 | 2026-03-02T16:27:57Z | Other | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [caddyserver/caddy-docker](https://github.com/caddyserver/caddy-docker) | 551 | 2026-03-06T02:52:20Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [BrunoBonacci/mulog](https://github.com/BrunoBonacci/mulog) | 532 | 2026-02-06T13:21:46Z | Other | Library | 6 | 0 | 6 | 6 |
 | [cloojure/tupelo](https://github.com/cloojure/tupelo) | 520 | 2026-02-11T22:44:17Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [clj-easy/graalvm-clojure](https://github.com/clj-easy/graalvm-clojure) | 518 | 2026-02-08T16:30:48Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [renzmann/treesit-auto](https://github.com/renzmann/treesit-auto) | 513 | 2026-02-10T20:10:35Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -193,6 +190,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [PacificBiosciences/pbmm2](https://github.com/PacificBiosciences/pbmm2) | 215 | 2026-03-04T09:17:38Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [emacs-lsp/lsp-dart](https://github.com/emacs-lsp/lsp-dart) | 213 | 2026-02-14T23:54:28Z | Other | CLI | 16 | 4 | 16 | 16 |
 | [google-research/nested-transformer](https://github.com/google-research/nested-transformer) | 204 | 2026-03-03T16:43:05Z | Other | Unknown | 3 | 0 | 3 | 3 |
+| [VisionLearningGroup/VisionLearningGroup.github.io](https://github.com/VisionLearningGroup/VisionLearningGroup.github.io) | 186 | 2026-02-07T23:49:35Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [tpapp/julia-repl](https://github.com/tpapp/julia-repl) | 184 | 2026-02-11T15:04:10Z | Other | CLI | 1 | 3 | 1 | 1 |
 | [emacscollective/auto-compile](https://github.com/emacscollective/auto-compile) | 181 | 2026-03-01T12:57:35Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [arnetheduck/nim-results](https://github.com/arnetheduck/nim-results) | 171 | 2026-02-10T11:31:06Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 492,
-    "concepts": 596,
-    "observations": 596,
-    "repos": 266,
-    "terms": 593
+    "components": 495,
+    "concepts": 597,
+    "observations": 597,
+    "repos": 267,
+    "terms": 594
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "13thsymphony/HDRImageViewer",
     "19reborn/NeuS2_TCNN",
@@ -215,6 +215,7 @@
     "pellepl/spiflash_driver",
     "pipecat-ai/pipecat-esp32",
     "pplux/wgpu.hpp",
+    "probonopd/static-tools",
     "PSU-Security-Universe/sqlright",
     "pullmoll/musl-fts",
     "puma/dev-tld-resolver",

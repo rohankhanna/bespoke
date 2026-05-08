@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 342,
-    "concepts": 280,
-    "observations": 281,
-    "repos": 111,
-    "terms": 279
+    "components": 341,
+    "concepts": 276,
+    "observations": 277,
+    "repos": 110,
+    "terms": 275
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "2KAbhishek/tdo.nvim",
@@ -38,7 +38,6 @@
     "bwya77/obsidian-baseline-customization",
     "chakravala/DirectSum.jl",
     "cjohansen/m1p",
-    "Cle2ment/CherryStudio_themes",
     "cleanlab/cleanvision-examples",
     "cloudfoundry/cf-uaa-lib",
     "cmacdonald/pyt_splade",

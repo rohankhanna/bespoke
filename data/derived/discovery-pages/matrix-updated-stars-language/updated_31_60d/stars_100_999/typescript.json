@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1353,
-    "concepts": 300,
-    "observations": 300,
-    "repos": 49,
-    "terms": 309
+    "components": 1433,
+    "concepts": 301,
+    "observations": 301,
+    "repos": 51,
+    "terms": 310
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "43081j/picoquery",
@@ -20,8 +20,10 @@
     "aelassas/bookcars",
     "amplify-education/serverless-domain-manager",
     "antfu-collective/bumpp",
+    "antfu/skills-npm",
     "aquasecurity/trivy-vscode-extension",
     "augmnt/augments-mcp-server",
+    "Autodesk/synthesis",
     "avli/clojureVSCode",
     "aws-actions/aws-secretsmanager-get-secrets",
     "aws-samples/dify-self-hosted-on-aws",
@@ -32,6 +34,7 @@
     "cloydlau/json-editor-vue",
     "connectrpc/connect-query-es",
     "cztomsik/ava",
+    "dezoito/ollama-grid-search",
     "fannheyward/coc-sql",
     "fannheyward/create-coc-extension",
     "graalvm/setup-graalvm",
@@ -49,7 +52,6 @@
     "neoclide/coc-java",
     "ory/hydra-login-consent-node",
     "PanAeon/vscode-tmgrammar-test",
-    "Piebald-AI/gemini-cli-desktop",
     "retracedhq/retraced",
     "ruvnet/agentic-flow",
     "shareai-lab/kode-agent-sdk",

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 31
-- terms: 83
-- components: 738
-- concepts: 83
-- observations: 83
+- repos: 32
+- terms: 93
+- components: 746
+- concepts: 93
+- observations: 93
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [libp2p/github-mgmt](https://github.com/libp2p/github-mgmt) | 10 | 2026-02-06T19:12:55Z | TypeScript | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [c2corg/browserslist-update-action](https://github.com/c2corg/browserslist-update-action) | 44 | 2026-02-06T07:12:46Z | TypeScript | Infrastructure/tooling | 2 | 29 | 2 | 2 |
 | [googleapis/nodejs-logging-bunyan](https://github.com/googleapis/nodejs-logging-bunyan) | 64 | 2026-02-05T18:05:46Z | TypeScript | CLI | 4 | 30 | 4 | 4 |
 | [lnbc1QWFyb24/lnmessage](https://github.com/lnbc1QWFyb24/lnmessage) | 22 | 2026-02-05T03:27:50Z | TypeScript | Web app | 3 | 13 | 3 | 3 |
@@ -91,5 +92,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nanostores/angular](https://github.com/nanostores/angular) | 13 | 2025-12-18T10:50:36Z | TypeScript | Infrastructure/tooling | 1 | 33 | 1 | 1 |
 | [atom-yang/aumi](https://github.com/atom-yang/aumi) | 12 | 2025-12-29T12:19:29Z | TypeScript | Unknown | 0 | 8 | 0 | 0 |
 | [storybookjs/addon-cssresources](https://github.com/storybookjs/addon-cssresources) | 12 | 2025-11-12T11:39:30Z | TypeScript | Infrastructure/tooling | 3 | 40 | 3 | 3 |
+| [libp2p/github-mgmt](https://github.com/libp2p/github-mgmt) | 10 | 2026-02-06T19:12:55Z | TypeScript | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [adevinta/actions-lighthouseci-compare](https://github.com/adevinta/actions-lighthouseci-compare) | 10 | 2026-02-02T06:37:13Z | TypeScript | Infrastructure/tooling | 4 | 32 | 4 | 4 |
 | [signalfx/opentelemetry-demo](https://github.com/signalfx/opentelemetry-demo) | 10 | 2025-12-19T21:21:11Z | TypeScript | Infrastructure/tooling | 6 | 17 | 6 | 6 |

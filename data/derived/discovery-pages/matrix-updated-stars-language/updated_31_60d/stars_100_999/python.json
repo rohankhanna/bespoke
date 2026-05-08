@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 384,
-    "concepts": 560,
-    "observations": 564,
-    "repos": 121,
-    "terms": 559
+    "components": 401,
+    "concepts": 582,
+    "observations": 586,
+    "repos": 126,
+    "terms": 581
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/aswf-docker",
     "ACEnglish/truvari",
@@ -28,6 +28,7 @@
     "altendky/pyqt-tools",
     "amap-cvlab/ABot-Manipulation",
     "amaranth-lang/amaranth-boards",
+    "amazon-science/esci-data",
     "astra-vision/MonoScene",
     "biocypher/biocypher",
     "Blosc/python-blosc",
@@ -45,7 +46,10 @@
     "dask/fastparquet",
     "datasets/country-codes",
     "ddh0/easy-llama",
+    "devnen/Dia-TTS-Server",
+    "devnen/Kitten-TTS-Server",
     "facebookincubator/ptr",
+    "facebookresearch/atlas",
     "facebookresearch/CodeGen",
     "G-Research/ahocorasick_rs",
     "gmberton/CosPlace",
@@ -62,7 +66,6 @@
     "hustvl/Senna",
     "hynek/argon2-cffi",
     "iterative/shtab",
-    "jayleicn/moment_detr",
     "jpmml/sklearn2pmml",
     "jsegov/autoresearch-win-rtx",
     "kandinskylab/kandinsky-5",
@@ -120,20 +123,22 @@
     "swc-17/SparseDriveV2",
     "terraform-aws-modules/terraform-aws-notify-slack",
     "TexasInstruments/edgeai-tidl-tools",
+    "TextArena/UnstableBaselines",
     "Thinklab-SJTU/Bench2Drive-VL",
-    "thu-ml/DiT-Extrapolation",
     "TorchDR/TorchDR",
     "twisted/towncrier",
     "Vinyzu/Botright",
     "voxel51/fiftyone-examples",
     "voxel51/voxelgpt",
     "WujiangXu/A-mem-sys",
+    "wuphilipp/gello_software",
     "xavierpuigf/virtualhome",
     "xlite-dev/Awesome-DiT-Inference",
     "yanring/Megatron-MoE-ModelZoo",
     "Yelp/aactivator",
     "yoxu515/aot-benchmark",
     "yuliangguo/3D_Lane_Synthetic_Dataset",
+    "zai-org/z-ai-sdk-python",
     "zhijian-liu/torchprofile"
   ]
 }

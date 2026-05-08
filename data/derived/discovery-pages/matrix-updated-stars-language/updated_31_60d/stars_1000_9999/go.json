@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 290,
-    "concepts": 315,
-    "observations": 315,
-    "repos": 59,
-    "terms": 308
+    "components": 289,
+    "concepts": 314,
+    "observations": 314,
+    "repos": 58,
+    "terms": 306
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "aquasecurity/starboard",
     "aquasecurity/tfsec",
@@ -34,11 +34,10 @@
     "darccio/mergo",
     "davidbyttow/govips",
     "ddworken/hishtory",
-    "dghubble/sling",
     "dop251/goja",
+    "fnproject/fn",
     "go-redis/redis_rate",
     "goccy/go-json",
-    "golang/oauth2",
     "google/go-cmp",
     "google/go-jsonnet",
     "google/pprof",
@@ -54,8 +53,8 @@
     "mailru/easyjson",
     "mattn/goreman",
     "minio/operator",
-    "mozillazg/go-pinyin",
     "nikolaydubina/go-recipes",
+    "NVIDIA/dcgm-exporter",
     "olric-data/olric",
     "opencontainers/runtime-spec",
     "OwO-Network/DeepLX",

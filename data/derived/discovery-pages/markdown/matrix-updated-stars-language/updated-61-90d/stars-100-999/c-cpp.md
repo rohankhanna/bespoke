@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-07T10:58:32.162222+00:00`
+Generated at: `2026-05-08T05:20:28.469902+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 38
-- terms: 154
-- components: 136
-- concepts: 158
-- observations: 160
+- repos: 39
+- terms: 158
+- components: 137
+- concepts: 162
+- observations: 164
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [sheredom/ubench.h](https://github.com/sheredom/ubench.h) | 255 | 2026-03-08T18:22:06Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
+| [xuankuzcr/Global-LVBA](https://github.com/xuankuzcr/Global-LVBA) | 377 | 2026-03-08T14:22:05Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [websockets/bufferutil](https://github.com/websockets/bufferutil) | 167 | 2026-03-07T18:15:51Z | C/C++ | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [veorq/SipHash](https://github.com/veorq/SipHash) | 757 | 2026-03-07T07:30:07Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [google/kmsan](https://github.com/google/kmsan) | 418 | 2026-03-05T16:38:11Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -63,7 +65,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [iwongu/sqlite3pp](https://github.com/iwongu/sqlite3pp) | 635 | 2026-02-08T19:41:41Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [adamritter/fastgron](https://github.com/adamritter/fastgron) | 673 | 2026-02-08T17:37:49Z | C/C++ | Infrastructure/tooling | 4 | 7 | 5 | 5 |
 | [apache/casbin-cpp](https://github.com/apache/casbin-cpp) | 251 | 2026-02-08T03:06:59Z | C/C++ | Infrastructure/tooling | 12 | 4 | 12 | 12 |
-| [stardot/b-em](https://github.com/stardot/b-em) | 132 | 2026-02-06T19:23:49Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -89,10 +90,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [starwing/luautf8](https://github.com/starwing/luautf8) | 453 | 2026-02-26T16:04:24Z | C/C++ | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [google/kmsan](https://github.com/google/kmsan) | 418 | 2026-03-05T16:38:11Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [martinmoene/lest](https://github.com/martinmoene/lest) | 406 | 2026-02-16T15:21:24Z | C/C++ | Infrastructure/tooling | 8 | 1 | 8 | 8 |
+| [xuankuzcr/Global-LVBA](https://github.com/xuankuzcr/Global-LVBA) | 377 | 2026-03-08T14:22:05Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [jsk-ros-pkg/jsk_visualization](https://github.com/jsk-ros-pkg/jsk_visualization) | 357 | 2026-02-18T07:25:38Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [google/ruy](https://github.com/google/ruy) | 322 | 2026-02-17T01:04:46Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [isciences/exactextract](https://github.com/isciences/exactextract) | 309 | 2026-02-24T13:44:58Z | C/C++ | Infrastructure/tooling | 5 | 18 | 5 | 5 |
 | [KamilSJaron/smudgeplot](https://github.com/KamilSJaron/smudgeplot) | 294 | 2026-02-25T09:45:40Z | C/C++ | Infrastructure/tooling | 5 | 7 | 5 | 5 |
+| [sheredom/ubench.h](https://github.com/sheredom/ubench.h) | 255 | 2026-03-08T18:22:06Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [rust-fuzz/libfuzzer](https://github.com/rust-fuzz/libfuzzer) | 253 | 2026-02-10T16:37:30Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 5 |
 | [apache/casbin-cpp](https://github.com/apache/casbin-cpp) | 251 | 2026-02-08T03:06:59Z | C/C++ | Infrastructure/tooling | 12 | 4 | 12 | 12 |
 | [xtensor-stack/xtl](https://github.com/xtensor-stack/xtl) | 233 | 2026-02-12T12:31:26Z | C/C++ | Infrastructure/tooling | 3 | 4 | 3 | 3 |
@@ -103,7 +106,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chfast/intx](https://github.com/chfast/intx) | 167 | 2026-02-09T12:44:40Z | C/C++ | Library | 11 | 0 | 11 | 11 |
 | [CppCXY/EmmyLuaCodeStyle](https://github.com/CppCXY/EmmyLuaCodeStyle) | 165 | 2026-02-25T02:50:40Z | C/C++ | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [creachadair/imath](https://github.com/creachadair/imath) | 153 | 2026-02-13T06:33:53Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
-| [stardot/b-em](https://github.com/stardot/b-em) | 132 | 2026-02-06T19:23:49Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [sasha0552/nvidia-pstated](https://github.com/sasha0552/nvidia-pstated) | 123 | 2026-02-24T17:38:15Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [google/effcee](https://github.com/google/effcee) | 103 | 2026-02-24T15:38:36Z | C/C++ | Library | 3 | 0 | 3 | 3 |
 | [arminbiere/aiger](https://github.com/arminbiere/aiger) | 101 | 2026-02-17T12:49:07Z | C/C++ | Library | 0 | 0 | 0 | 0 |

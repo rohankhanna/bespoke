@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 39,
-    "observations": 39,
-    "repos": 15,
-    "terms": 39
+    "components": 52,
+    "concepts": 61,
+    "observations": 61,
+    "repos": 17,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,19 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-07T10:58:32.162222+00:00",
+  "generated_at": "2026-05-08T05:20:28.469902+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
     "adoptium/temurin21-binaries",
     "bitrise-io/bitrise-steplib",
+    "box/box-openapi",
     "chromedp/cdproto",
-    "cisagov/vulnrichment",
     "fluxcd/flux2-multi-tenancy",
     "forcedotcom/cli",
+    "getlantern/lantern-binaries",
     "github/copilot-language-server-release",
     "graalvm/graalvm-ce-dev-builds",
+    "graalvm/mandrel",
     "LemmyNet/lemmy-docs",
     "LuaLS/LLS-Addons",
     "luau-lang/rfcs",
