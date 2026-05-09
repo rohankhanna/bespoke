@@ -84,7 +84,7 @@
   "normalized_form": "copilot-setup-steps",
   "observation_id": "503ea20d2867a520",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-08T18:37:42.068971+00:00",
+  "observed_at": "2026-05-09T00:39:13.791861+00:00",
   "observed_text": "Copilot Setup Steps",
   "source_context_snippet": "'Copilot Setup Steps'",
   "source_file": ".github/workflows/copilot-setup-steps.yml",

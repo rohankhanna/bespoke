@@ -78,13 +78,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "fla-org/flash-linear-attention",
-      "target": "opennlplab/lightnet",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/benchmark-comment.yml",
       "source_repo": "fla-org/flash-linear-attention",
@@ -260,11 +253,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T14:11:15.799158+00:00",
+  "fetched_at": "2026-05-09T01:05:48.063808+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 43091
+      "size": 43992
     },
     {
       "path": "pyproject.toml",
@@ -312,23 +305,17 @@
     "full_name": "fla-org/flash-linear-attention",
     "html_url": "https://github.com/fla-org/flash-linear-attention",
     "language": "Python",
-    "pushed_at": "2026-05-08T08:56:51Z",
-    "stargazers_count": 5058,
+    "pushed_at": "2026-05-08T19:03:04Z",
+    "stargazers_count": 5059,
     "topics": [
       "large-language-models",
       "machine-learning-systems",
       "natural-language-processing",
       "sequence-modeling"
     ],
-    "updated_at": "2026-05-08T13:02:46Z"
+    "updated_at": "2026-05-08T19:03:10Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "opennlplab/lightnet",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Post benchmark comment",

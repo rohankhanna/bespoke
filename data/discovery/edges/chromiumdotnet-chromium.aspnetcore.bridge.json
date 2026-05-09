@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChromiumDotNet/Chromium.AspNetCore.Bridge",
+      "target": "cefsharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChromiumDotNet/Chromium.AspNetCore.Bridge",
+      "target": "webview2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChromiumDotNet/Chromium.AspNetCore.Bridge",
+      "target": "winforms",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-09T00:39:13.791861+00:00",
+  "source_repo": "ChromiumDotNet/Chromium.AspNetCore.Bridge"
+}

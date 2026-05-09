@@ -153,6 +153,18 @@
       "source_repo": "MatsuriDayo/Matsuri",
       "status": "candidate-context",
       "text": "Release Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "energye/designer",
+      "status": "candidate-context",
+      "text": "ENERGY Designer is developed in Go and implemented via self-bootstrapping based on the ENERGY GUI framework, supporting Windows, macOS, and Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "energye/designer",
+      "status": "candidate-context",
+      "text": "Release Build"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "MatsuriDayo/Matsuri",
+      "status": "candidate",
+      "text": "Release Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "energye/designer",
       "status": "candidate",
       "text": "Release Build"
     }
@@ -522,11 +540,23 @@
       "observed_at": "2026-05-08T18:37:42.068971+00:00",
       "source_file": ".github/workflows/release-build.yaml",
       "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "energye/designer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": ".github/workflows/release-build.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T18:37:42.068971+00:00",
+  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
   "lexical_providers": [
     "datamuse"
   ],

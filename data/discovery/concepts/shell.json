@@ -1195,6 +1195,30 @@
       "source_repo": "ohmyzsh/ohmyzsh",
       "status": "candidate-context",
       "text": "\ud83d\ude43   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leleliu008/ppkg",
+      "status": "candidate-context",
+      "text": "A portable package builder for Unix-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leleliu008/ppkg",
+      "status": "candidate-context",
+      "text": "A portable package builder/manager for Unix-like system."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inhere/kite",
+      "status": "candidate-context",
+      "text": "Kite is a CLI application for help development. \u65b9\u4fbf\u672c\u5730\u5f00\u53d1\u548c\u4f7f\u7528\u7684\u4e2a\u4ebaCLI\u5de5\u5177\u5e94\u7528"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inhere/kite",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -1785,6 +1809,18 @@
       "source_repo": "KittyKatt/screenFetch",
       "status": "candidate",
       "text": "Fetches system/theme information in terminal for Linux desktop screenshots."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leleliu008/ppkg",
+      "status": "candidate",
+      "text": "A portable package builder/manager for Unix-like system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inhere/kite",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)"
     }
   ],
   "candidate_related_terms": [
@@ -3472,11 +3508,59 @@
       "observed_at": "2026-05-08T18:37:42.068971+00:00",
       "source_file": null,
       "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "leleliu008/ppkg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "inhere/kite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "denysdovhan/robbyrussell-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T18:37:42.068971+00:00",
+  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
   "lexical_providers": [
     "datamuse"
   ],

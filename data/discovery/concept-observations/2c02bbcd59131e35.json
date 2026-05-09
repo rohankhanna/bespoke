@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Build .NET Win32/WinForms/WPF WebView2 HTML5 Desktop Apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\"><img src=\"https://github.com/edgesharp/EdgeSharp/blob/main/src/EdgeSharp.Core/edgesharp.png?raw=true\" /></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://github.com/edgesharp/EdgeSharp/blob/main/src/EdgeSharp.Core/edgesharp.png?raw=true\" /></p>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014662,
+      "status": "candidate",
+      "text": "boundary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014231,
+      "status": "candidate",
+      "text": "border"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005626,
+      "status": "candidate",
+      "text": "abut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994701,
+      "status": "candidate",
+      "text": "peripheral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39993280,
+      "status": "candidate",
+      "text": "adjoin"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "edge",
+      "sense_id": "edge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35059,
+      "status": "candidate",
+      "text": "butt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21051,
+      "status": "candidate",
+      "text": "marginal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18087,
+      "status": "candidate",
+      "text": "margin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16057,
+      "status": "candidate",
+      "text": "boundary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16051,
+      "status": "candidate",
+      "text": "border"
+    }
+  ],
+  "concept_id": "edge",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "edge",
+  "observation_id": "2c02bbcd59131e35",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-09T00:39:13.791861+00:00",
+  "observed_text": "edge",
+  "source_context_snippet": "<p align=\"center\"><img src=\"https://github.com/edgesharp/EdgeSharp/blob/main/src/EdgeSharp.Core/edgesharp.png?raw=true\" /></p>",
+  "source_file": null,
+  "source_repo": "webview2/EdgeSharp",
+  "source_repo_description": "Build .NET Win32/WinForms/WPF WebView2 HTML5 Desktop Apps"
+}

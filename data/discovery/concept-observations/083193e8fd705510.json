@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "We are on codeberg.org now! https://codeberg.org/Freeyourgadget/Gadgetbridge -  Gadgetbridge - A free and cloudless replacement for your gadget vendors' closed source Android applications. Supports Pebble, Mi Band, Liveview, HPlus and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Gadgetbridge is now hosted on [codeberg.org](https://codeberg.org/Freeyourgadget/Gadgetbridge/)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Gadgetbridge is now hosted on [codeberg.org](https://codeberg.org/Freeyourgadget/Gadgetbridge/)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045420,
+      "status": "candidate",
+      "text": "lustful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045388,
+      "status": "candidate",
+      "text": "randy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045295,
+      "status": "candidate",
+      "text": "flirtatious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045243,
+      "status": "candidate",
+      "text": "prurient"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045240,
+      "status": "candidate",
+      "text": "coquettish"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sexy",
+      "sense_id": "sexy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 102038,
+      "status": "candidate",
+      "text": "salacious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 70022,
+      "status": "candidate",
+      "text": "titillating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 68038,
+      "status": "candidate",
+      "text": "lascivious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 68034,
+      "status": "candidate",
+      "text": "provocative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 59024,
+      "status": "candidate",
+      "text": "coquettish"
+    }
+  ],
+  "concept_id": "sexy",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sexy",
+  "observation_id": "083193e8fd705510",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-09T00:39:13.791861+00:00",
+  "observed_text": "sexy",
+  "source_context_snippet": "Gadgetbridge is now hosted on [codeberg.org](https://codeberg.org/Freeyourgadget/Gadgetbridge/).",
+  "source_file": null,
+  "source_repo": "Freeyourgadget/Gadgetbridge",
+  "source_repo_description": "We are on codeberg.org now! https://codeberg.org/Freeyourgadget/Gadgetbridge -  Gadgetbridge - A free and cloudless replacement for your gadget vendors' closed source Android applications. Supports Pebble, Mi Band, Liveview, HPlus and more."
+}

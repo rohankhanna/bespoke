@@ -1,7 +1,8 @@
 {
   "aliases": [
     "archlinux",
-    "Archlinux"
+    "Archlinux",
+    "ArchLinux"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -166,6 +167,18 @@
       "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
       "status": "candidate-context",
       "text": "Arch Linux packaging for [ungoogled-chromium](//github.com/ungoogled-software/ungoogled-chromium)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leleliu008/ppkg",
+      "status": "candidate-context",
+      "text": "A portable package builder for Unix-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leleliu008/ppkg",
+      "status": "candidate-context",
+      "text": "ArchLinux"
     }
   ],
   "candidate_glosses": [
@@ -246,6 +259,12 @@
       "source_repo": "ungoogled-software/ungoogled-chromium-archlinux",
       "status": "candidate",
       "text": "Arch Linux packaging for [ungoogled-chromium](//github.com/ungoogled-software/ungoogled-chromium)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leleliu008/ppkg",
+      "status": "candidate",
+      "text": "ArchLinux"
     }
   ],
   "candidate_related_terms": [],
@@ -337,11 +356,17 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "ungoogled-software/ungoogled-chromium-archlinux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": ".github/workflows/archlinux.yml",
+      "source_repo": "leleliu008/ppkg"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
   "lexical_providers": [
     "datamuse"
   ],

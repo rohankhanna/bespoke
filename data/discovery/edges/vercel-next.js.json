@@ -1369,21 +1369,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build_and_deploy.yml",
       "source_repo": "vercel/next.js",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build_and_deploy.yml",
       "source_repo": "vercel/next.js",
-      "target": "actions/setup-node@v6",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build_and_deploy.yml",
       "source_repo": "vercel/next.js",
-      "target": "actions/cache@v5",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
@@ -1418,7 +1418,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build_and_deploy.yml",
       "source_repo": "vercel/next.js",
-      "target": "actions/create-github-app-token@v3",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
       "target_type": "component"
     },
     {
@@ -1432,7 +1432,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build_and_test.yml",
       "source_repo": "vercel/next.js",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
       "target_type": "component"
     },
     {
@@ -1446,7 +1446,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build_and_test.yml",
       "source_repo": "vercel/next.js",
-      "target": "actions/setup-node@v4",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
       "target_type": "component"
     },
     {
@@ -1467,14 +1467,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build_reusable.yml",
       "source_repo": "vercel/next.js",
-      "target": "actions/github-script@v7",
+      "target": "actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build_reusable.yml",
       "source_repo": "vercel/next.js",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
       "target_type": "component"
     },
     {
@@ -1495,7 +1495,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build_reusable.yml",
       "source_repo": "vercel/next.js",
-      "target": "actions/cache@v4",
+      "target": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
       "target_type": "component"
     },
     {
@@ -1509,7 +1509,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/code_freeze.yml",
       "source_repo": "vercel/next.js",
-      "target": "actions/setup-node@v4",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
       "target_type": "component"
     },
     {
@@ -1523,21 +1523,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/create_release_branch.yml",
       "source_repo": "vercel/next.js",
-      "target": "actions/setup-node@v4",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/create_release_branch.yml",
       "source_repo": "vercel/next.js",
-      "target": "actions/create-github-app-token@v3",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/create_release_branch.yml",
       "source_repo": "vercel/next.js",
-      "target": "actions/cache@v4",
+      "target": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
       "target_type": "component"
     },
     {
@@ -1565,7 +1565,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integration_tests_reusable.yml",
       "source_repo": "vercel/next.js",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
       "target_type": "component"
     },
     {
@@ -1688,6 +1688,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-08T12:43:50.373126+00:00",
+  "generated_at": "2026-05-09T00:39:13.791861+00:00",
   "source_repo": "vercel/next.js"
 }

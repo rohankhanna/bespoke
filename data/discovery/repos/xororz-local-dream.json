@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xororz/local-dream",
+      "target": "moyuruaizawa/cropify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xororz/local-dream",
+      "target": "img2img",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xororz/local-dream",
+      "target": "inpainting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xororz/local-dream",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xororz/local-dream",
+      "target": "stable-diffusion-android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xororz/local-dream",
+      "target": "txt2img",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T02:08:43.167530+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3436
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Run Stable Diffusion on Android Devices with Snapdragon NPU acceleration. Also supports CPU/GPU inference.",
+    "fork": false,
+    "full_name": "xororz/local-dream",
+    "html_url": "https://github.com/xororz/local-dream",
+    "language": "Kotlin",
+    "pushed_at": "2026-05-07T17:14:53Z",
+    "stargazers_count": 2355,
+    "topics": [
+      "img2img",
+      "inpainting",
+      "stable-diffusion",
+      "stable-diffusion-android",
+      "txt2img"
+    ],
+    "updated_at": "2026-05-08T23:33:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "moyuruaizawa/cropify",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "img2img"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inpainting"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion-android"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "txt2img"
+    }
+  ]
+}

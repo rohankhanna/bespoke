@@ -1,0 +1,293 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "jcefmaven/jcefmaven",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "docker/setup-qemu-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-all.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "build-all",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-amd64.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-amd64.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "docker/setup-qemu-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-amd64.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-amd64.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux-amd64.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "build-linux-amd64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-arm.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-arm.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "docker/setup-qemu-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-arm.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-arm.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux-arm.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "build-linux-arm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-arm64.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-arm64.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "docker/setup-qemu-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-arm64.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-arm64.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux-arm64.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "build-linux-arm64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macosx-amd64.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macosx-amd64.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macosx-amd64.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macosx-amd64.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macosx-amd64.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "build-macosx-amd64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macosx-arm64.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macosx-arm64.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macosx-arm64.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macosx-arm64.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macosx-arm64.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "build-macosx-arm64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-amd64.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-amd64.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows-amd64.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "build-windows-amd64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-arm64.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-arm64.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows-arm64.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "build-windows-arm64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-i386.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-i386.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows-i386.yml",
+      "source_repo": "jcefmaven/jcefbuild",
+      "target": "build-windows-i386",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-09T00:39:13.791861+00:00",
+  "source_repo": "jcefmaven/jcefbuild"
+}

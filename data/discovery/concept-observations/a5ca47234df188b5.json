@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Builds for JCef"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "build-macosx-amd64"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "build-macosx-amd64"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build-macosx-amd64",
+      "sense_id": "build-macosx-amd64#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-macosx-amd64",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-macosx-amd64",
+  "observation_id": "a5ca47234df188b5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-09T00:39:13.791861+00:00",
+  "observed_text": "build-macosx-amd64",
+  "source_context_snippet": "build-macosx-amd64",
+  "source_file": ".github/workflows/build-macosx-amd64.yml",
+  "source_repo": "jcefmaven/jcefbuild",
+  "source_repo_description": "Builds for JCef"
+}

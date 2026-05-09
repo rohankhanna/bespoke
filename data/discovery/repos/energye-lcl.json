@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "energye/lcl",
+      "target": "energye/examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "energye/lcl",
+      "target": "energye/wv",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-09T01:08:27.421460+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4683
+    },
+    {
+      "path": "go.mod",
+      "size": 39
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LCL is a framework developed by Go language based on LCL(Lazarus Component Library) for developing cross-platform desktop applications for Windows, Mac OS X, and Linux",
+    "fork": false,
+    "full_name": "energye/lcl",
+    "html_url": "https://github.com/energye/lcl",
+    "language": "Go",
+    "pushed_at": "2026-04-30T13:31:00Z",
+    "stargazers_count": 33,
+    "topics": [],
+    "updated_at": "2026-04-24T03:39:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "energye/examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "energye/wv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

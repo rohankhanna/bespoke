@@ -391,6 +391,18 @@
       "source_repo": "ludwig-ai/ludwig",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AGI-Edgerunners/LLM-Adapters",
+      "status": "candidate-context",
+      "text": "Code for our EMNLP 2023 Paper: \"LLM-Adapters: An Adapter Family for Parameter-Efficient Fine-Tuning of Large Language Models\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AGI-Edgerunners/LLM-Adapters",
+      "status": "candidate-context",
+      "text": "<!---"
     }
   ],
   "candidate_glosses": [
@@ -585,6 +597,12 @@
       "source_repo": "ludwig-ai/ludwig",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AGI-Edgerunners/LLM-Adapters",
+      "status": "candidate",
+      "text": "<!---"
     }
   ],
   "candidate_related_terms": [
@@ -1582,11 +1600,47 @@
       "observed_at": "2026-05-08T18:37:42.068971+00:00",
       "source_file": null,
       "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/maestro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "AGI-Edgerunners/LLM-Adapters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "run-llama/llama_index"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T18:37:42.068971+00:00",
+  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
   "lexical_providers": [
     "datamuse"
   ],

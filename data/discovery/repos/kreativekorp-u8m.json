@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-09T00:58:14.528048+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 56
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "U8/M - UTF-8 for Microcomputers",
+    "fork": false,
+    "full_name": "kreativekorp/u8m",
+    "html_url": "https://github.com/kreativekorp/u8m",
+    "language": "Assembly",
+    "pushed_at": "2024-07-26T03:55:08Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-09-10T21:47:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChromiumDotNet/Chromium.AspNetCore.Bridge",
+      "target": "cefsharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChromiumDotNet/Chromium.AspNetCore.Bridge",
+      "target": "webview2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChromiumDotNet/Chromium.AspNetCore.Bridge",
+      "target": "winforms",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T01:08:02.364499+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 189
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Chromium.AspNetCore.Bridge",
+    "fork": false,
+    "full_name": "ChromiumDotNet/Chromium.AspNetCore.Bridge",
+    "html_url": "https://github.com/ChromiumDotNet/Chromium.AspNetCore.Bridge",
+    "language": "C#",
+    "pushed_at": "2023-07-29T19:51:24Z",
+    "stargazers_count": 31,
+    "topics": [
+      "cefsharp",
+      "webview2",
+      "winforms",
+      "wpf"
+    ],
+    "updated_at": "2025-10-22T04:53:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Chromium based browsers (`CefSharp`, `CefGlue`, `WebView2` etc) can directly integrate `AspNetCore` into the browser without having to make network requests.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cefsharp"
+    },
+    {
+      "context_snippet": "Chromium based browsers (`CefSharp`, `CefGlue`, `WebView2` etc) can directly integrate `AspNetCore` into the browser without having to make network requests.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webview2"
+    },
+    {
+      "context_snippet": "Chromium based browsers (`CefSharp`, `CefGlue`, `WebView2` etc) can directly integrate `AspNetCore` into the browser without having to make network requests.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winforms"
+    }
+  ]
+}

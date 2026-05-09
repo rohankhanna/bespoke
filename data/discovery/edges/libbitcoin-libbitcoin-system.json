@@ -9,6 +9,41 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-expanded.yml",
+      "source_repo": "libbitcoin/libbitcoin-system",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-expanded.yml",
+      "source_repo": "libbitcoin/libbitcoin-system",
+      "target": "coverallsapp/github-action@v2.3.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-expanded.yml",
+      "source_repo": "libbitcoin/libbitcoin-system",
+      "target": "actions/upload-artifact@v7.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-expanded.yml",
+      "source_repo": "libbitcoin/libbitcoin-system",
+      "target": "microsoft/setup-msbuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-expanded.yml",
+      "source_repo": "libbitcoin/libbitcoin-system",
+      "target": "Expanded Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "libbitcoin/libbitcoin-system",
       "target": "actions/checkout@v6",
@@ -43,6 +78,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-08T12:43:50.373126+00:00",
+  "generated_at": "2026-05-09T00:39:13.791861+00:00",
   "source_repo": "libbitcoin/libbitcoin-system"
 }

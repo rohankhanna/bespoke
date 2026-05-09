@@ -30,7 +30,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T14:13:47.468197+00:00",
+  "fetched_at": "2026-05-09T01:09:04.014407+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -47,7 +47,7 @@
     "html_url": "https://github.com/Agent-RL/ReCall",
     "language": "Python",
     "pushed_at": "2025-05-16T10:31:58Z",
-    "stargazers_count": 1380,
+    "stargazers_count": 1379,
     "topics": [
       "agent",
       "function-calling",
@@ -55,7 +55,7 @@
       "reinforcement-learning",
       "tool-use"
     ],
-    "updated_at": "2026-04-29T08:54:41Z"
+    "updated_at": "2026-05-08T14:19:35Z"
   },
   "repo_links": [
     {

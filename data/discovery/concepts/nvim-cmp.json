@@ -139,6 +139,18 @@
       "source_repo": "hrsh7th/cmp-nvim-lsp",
       "status": "candidate-context",
       "text": "nvim-cmp source for neovim's built-in language server client."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "saecki/crates.nvim",
+      "status": "candidate-context",
+      "text": "A neovim plugin that helps managing crates.io dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saecki/crates.nvim",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/saecki/crates.nvim/actions/workflows/CI.yml/badge.svg)](https://github.com/saecki/crates.nvim/actions/workflows/CI.yml)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "hrsh7th/cmp-nvim-lsp",
       "status": "candidate",
       "text": "nvim-cmp source for neovim's built-in language server client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saecki/crates.nvim",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/saecki/crates.nvim/actions/workflows/CI.yml/badge.svg)](https://github.com/saecki/crates.nvim/actions/workflows/CI.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -436,11 +454,23 @@
       "observed_at": "2026-05-08T18:37:42.068971+00:00",
       "source_file": null,
       "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "saecki/crates.nvim"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T18:37:42.068971+00:00",
+  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -6,6 +6,16 @@
       "source_file": ".github/workflows/backend.yml"
     },
     {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml"
+    },
+    {
       "component": "actions/setup-go@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend.yml"
@@ -32,11 +42,6 @@
     },
     {
       "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/backend_build.yml"
-    },
-    {
-      "component": "jlumbroso/free-disk-space@main",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend_build.yml"
     },
@@ -76,6 +81,11 @@
       "source_file": ".github/workflows/backend_build.yml"
     },
     {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_build.yml"
+    },
+    {
       "component": "docker/build-push-action@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend_build.yml"
@@ -139,6 +149,31 @@
       "component": "docker/metadata-action@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend_build_darwin.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_merge.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_merge.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_merge.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_merge.yml"
+    },
+    {
+      "component": "docker/metadata-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_merge.yml"
     },
     {
       "component": "actions/checkout@v6",
@@ -204,26 +239,6 @@
       "component": "peter-evans/create-pull-request@v8",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bump-inference-defaults.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/bump_deps.yaml"
-    },
-    {
-      "component": "peter-evans/create-pull-request@v8",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/bump_deps.yaml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/bump_deps.yaml"
-    },
-    {
-      "component": "peter-evans/create-pull-request@v8",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/bump_deps.yaml"
     }
   ],
   "edges": [
@@ -253,6 +268,13 @@
       "source_file": ".github/workflows/backend.yml",
       "source_repo": "mudler/LocalAI",
       "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml",
+      "source_repo": "mudler/LocalAI",
+      "target": "oven-sh/setup-bun@v2",
       "target_type": "component"
     },
     {
@@ -301,13 +323,6 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend_build.yml",
       "source_repo": "mudler/LocalAI",
-      "target": "jlumbroso/free-disk-space@main",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/backend_build.yml",
-      "source_repo": "mudler/LocalAI",
       "target": "docker/metadata-action@v6",
       "target_type": "component"
     },
@@ -337,6 +352,13 @@
       "source_file": ".github/workflows/backend_build.yml",
       "source_repo": "mudler/LocalAI",
       "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_build.yml",
+      "source_repo": "mudler/LocalAI",
+      "target": "actions/upload-artifact@v4",
       "target_type": "component"
     },
     {
@@ -394,6 +416,41 @@
       "source_repo": "mudler/LocalAI",
       "target": "docker/metadata-action@v6",
       "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_merge.yml",
+      "source_repo": "mudler/LocalAI",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_merge.yml",
+      "source_repo": "mudler/LocalAI",
+      "target": "docker/setup-buildx-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_merge.yml",
+      "source_repo": "mudler/LocalAI",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_merge.yml",
+      "source_repo": "mudler/LocalAI",
+      "target": "docker/metadata-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend_merge.yml",
+      "source_repo": "mudler/LocalAI",
+      "target": "merge backend manifest list (reusable)",
+      "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
@@ -470,27 +527,6 @@
       "source_file": ".github/workflows/bump-inference-defaults.yml",
       "source_repo": "mudler/LocalAI",
       "target": "Bump inference defaults",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/bump_deps.yaml",
-      "source_repo": "mudler/LocalAI",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/bump_deps.yaml",
-      "source_repo": "mudler/LocalAI",
-      "target": "peter-evans/create-pull-request@v8",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/bump_deps.yaml",
-      "source_repo": "mudler/LocalAI",
-      "target": "Bump Backend dependencies",
       "target_type": "term"
     },
     {
@@ -578,7 +614,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T18:57:53.383813+00:00",
+  "fetched_at": "2026-05-09T02:04:58.265817+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -594,19 +630,23 @@
     },
     {
       "path": ".github/workflows/backend.yml",
-      "size": 127181
+      "size": 8073
     },
     {
       "path": ".github/workflows/backend_build.yml",
-      "size": 10084
+      "size": 9027
     },
     {
       "path": ".github/workflows/backend_build_darwin.yml",
       "size": 10163
     },
     {
+      "path": ".github/workflows/backend_merge.yml",
+      "size": 4456
+    },
+    {
       "path": ".github/workflows/backend_pr.yml",
-      "size": 2891
+      "size": 3860
     },
     {
       "path": ".github/workflows/build-test.yaml",
@@ -615,10 +655,6 @@
     {
       "path": ".github/workflows/bump-inference-defaults.yml",
       "size": 1442
-    },
-    {
-      "path": ".github/workflows/bump_deps.yaml",
-      "size": 4752
     }
   ],
   "related_repositories": [],
@@ -630,8 +666,8 @@
     "full_name": "mudler/LocalAI",
     "html_url": "https://github.com/mudler/LocalAI",
     "language": "Go",
-    "pushed_at": "2026-05-08T14:26:03Z",
-    "stargazers_count": 46134,
+    "pushed_at": "2026-05-08T23:21:52Z",
+    "stargazers_count": 46139,
     "topics": [
       "agents",
       "ai",
@@ -652,7 +688,7 @@
       "text-generation",
       "tts"
     ],
-    "updated_at": "2026-05-08T18:31:39Z"
+    "updated_at": "2026-05-09T01:40:37Z"
   },
   "repo_links": [
     {
@@ -685,6 +721,12 @@
       "term": "build backend container images (reusable)"
     },
     {
+      "context_snippet": "'merge backend manifest list (reusable)'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend_merge.yml",
+      "term": "merge backend manifest list (reusable)"
+    },
+    {
       "context_snippet": "'build backend container images (PR-filtered)'",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/backend_pr.yml",
@@ -701,12 +743,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/bump-inference-defaults.yml",
       "term": "Bump inference defaults"
-    },
-    {
-      "context_snippet": "Bump Backend dependencies",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/bump_deps.yaml",
-      "term": "Bump Backend dependencies"
     },
     {
       "context_snippet": "<h1 align=\"center\">",

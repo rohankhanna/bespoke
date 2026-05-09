@@ -175,6 +175,12 @@
       "source_repo": "2shady4u/godot-cpp-ci",
       "status": "candidate-context",
       "text": "Docker image and Github Actions to automatically compile Godot C++ GDExtension libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godot-rust/gdext",
+      "status": "candidate-context",
+      "text": "[profile.dev] # Skips type/variable debug metadata while keeping file:line info for backtraces. Saves 1-4% build time on clean dev builds. debug = \"line-tables-only\" [workspace] resolver = \"2\" members = [ \"godot-bindings\", \"godot-codegen\", \"godot-ffi\", \"godot-core\", \"godot-macro\u2026"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +267,12 @@
       "source_repo": "2shady4u/godot-cpp-ci",
       "status": "candidate",
       "text": "Docker image and Github Actions to automatically compile Godot C++ GDExtension libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godot-rust/gdext",
+      "status": "candidate",
+      "text": "[profile.dev] # Skips type/variable debug metadata while keeping file:line info for backtraces. Saves 1-4% build time on clean dev builds. debug = \"line-tables-only\" [workspace] resolver = \"2\" members = [ \"godot-bindings\", \"godot-codegen\", \"godot-ffi\", \"godot-core\", \"godot-macro\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -580,11 +592,23 @@
       "observed_at": "2026-05-08T18:37:42.068971+00:00",
       "source_file": null,
       "source_repo": "godot-rust/gdnative"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdnative"
     }
   ],
   "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T18:37:42.068971+00:00",
+  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1219,7 +1219,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T14:00:23.905736+00:00",
+  "fetched_at": "2026-05-09T03:12:11.248603+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1272,7 +1272,7 @@
     "html_url": "https://github.com/pydantic/pydantic",
     "language": "Python",
     "pushed_at": "2026-05-06T13:46:55Z",
-    "stargazers_count": 27719,
+    "stargazers_count": 27722,
     "topics": [
       "hints",
       "json-schema",
@@ -1286,7 +1286,7 @@
       "python39",
       "validation"
     ],
-    "updated_at": "2026-05-08T10:45:50Z"
+    "updated_at": "2026-05-09T01:13:35Z"
   },
   "repo_links": [],
   "terms": [

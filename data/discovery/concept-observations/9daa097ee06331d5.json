@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Builds for JCef"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "build-windows-i386"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "build-windows-i386"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build-windows-i386",
+      "sense_id": "build-windows-i386#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-windows-i386",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-windows-i386",
+  "observation_id": "9daa097ee06331d5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-09T00:39:13.791861+00:00",
+  "observed_text": "build-windows-i386",
+  "source_context_snippet": "build-windows-i386",
+  "source_file": ".github/workflows/build-windows-i386.yml",
+  "source_repo": "jcefmaven/jcefbuild",
+  "source_repo_description": "Builds for JCef"
+}

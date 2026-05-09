@@ -32,6 +32,13 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend.yml",
       "source_repo": "mudler/LocalAI",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml",
+      "source_repo": "mudler/LocalAI",
       "target": "actions/setup-go@v5",
       "target_type": "component"
     },
@@ -74,13 +81,6 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend_build.yml",
       "source_repo": "mudler/LocalAI",
-      "target": "jlumbroso/free-disk-space@main",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/backend_build.yml",
-      "source_repo": "mudler/LocalAI",
       "target": "docker/metadata-action@v6",
       "target_type": "component"
     },
@@ -110,6 +110,13 @@
       "source_file": ".github/workflows/backend_build.yml",
       "source_repo": "mudler/LocalAI",
       "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_build.yml",
+      "source_repo": "mudler/LocalAI",
+      "target": "actions/upload-artifact@v4",
       "target_type": "component"
     },
     {
@@ -167,6 +174,41 @@
       "source_repo": "mudler/LocalAI",
       "target": "docker/metadata-action@v6",
       "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_merge.yml",
+      "source_repo": "mudler/LocalAI",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_merge.yml",
+      "source_repo": "mudler/LocalAI",
+      "target": "docker/setup-buildx-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_merge.yml",
+      "source_repo": "mudler/LocalAI",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_merge.yml",
+      "source_repo": "mudler/LocalAI",
+      "target": "docker/metadata-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend_merge.yml",
+      "source_repo": "mudler/LocalAI",
+      "target": "merge backend manifest list (reusable)",
+      "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
@@ -243,27 +285,6 @@
       "source_file": ".github/workflows/bump-inference-defaults.yml",
       "source_repo": "mudler/LocalAI",
       "target": "Bump inference defaults",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/bump_deps.yaml",
-      "source_repo": "mudler/LocalAI",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/bump_deps.yaml",
-      "source_repo": "mudler/LocalAI",
-      "target": "peter-evans/create-pull-request@v8",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/bump_deps.yaml",
-      "source_repo": "mudler/LocalAI",
-      "target": "Bump Backend dependencies",
       "target_type": "term"
     },
     {
@@ -351,6 +372,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-08T18:37:42.068971+00:00",
+  "generated_at": "2026-05-09T00:39:13.791861+00:00",
   "source_repo": "mudler/LocalAI"
 }

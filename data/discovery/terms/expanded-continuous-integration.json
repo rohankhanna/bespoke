@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-09T00:39:13.791861+00:00",
+  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci-expanded.yml",
+      "source_repo": "libbitcoin/libbitcoin-system"
+    }
+  ],
+  "term": "Expanded Continuous Integration"
+}

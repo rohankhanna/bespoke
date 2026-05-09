@@ -40,13 +40,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "inhere/php-sroute",
-      "target": "inhere/php-console",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/php.yml",
       "source_repo": "inhere/php-sroute",
@@ -145,7 +138,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T06:46:46.627554+00:00",
+  "fetched_at": "2026-05-09T01:01:12.882456+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -184,11 +177,6 @@
     "updated_at": "2026-04-14T03:03:19Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "inhere/php-console",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "ulue/php-router-benchmark",

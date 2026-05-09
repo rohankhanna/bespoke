@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Chromium.AspNetCore.Bridge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Chromium based browsers (`CefSharp`, `CefGlue`, `WebView2` etc) can directly integrate `AspNetCore` into the browser without having to make network requests."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Chromium based browsers (`CefSharp`, `CefGlue`, `WebView2` etc) can directly integrate `AspNetCore` into the browser without having to make network requests."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "webview2",
+      "sense_id": "webview2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "webview2",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "webview2",
+  "observation_id": "c644a20088b065b6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-09T00:39:13.791861+00:00",
+  "observed_text": "webview2",
+  "source_context_snippet": "Chromium based browsers (`CefSharp`, `CefGlue`, `WebView2` etc) can directly integrate `AspNetCore` into the browser without having to make network requests.",
+  "source_file": null,
+  "source_repo": "ChromiumDotNet/Chromium.AspNetCore.Bridge",
+  "source_repo_description": "Chromium.AspNetCore.Bridge"
+}

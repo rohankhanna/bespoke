@@ -37,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T14:11:48.909433+00:00",
+  "fetched_at": "2026-05-09T01:06:32.761890+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -57,7 +57,7 @@
     "full_name": "bazel-contrib/rules_go",
     "html_url": "https://github.com/bazel-contrib/rules_go",
     "language": "Go",
-    "pushed_at": "2026-05-08T09:47:29Z",
+    "pushed_at": "2026-05-08T20:45:08Z",
     "stargazers_count": 1478,
     "topics": [
       "bazel",

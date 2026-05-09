@@ -1,0 +1,398 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archlinux.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archlinux.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-core-linux-manully.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-core-linux-manully.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/centos.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debian.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dragonflybsd.yml"
+    },
+    {
+      "component": "vmactions/dragonflybsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dragonflybsd.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fedora.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freebsd.yml"
+    },
+    {
+      "component": "cross-platform-actions/action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freebsd.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gentoo.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "leleliu008/ppkg",
+      "target": "leleliu008/ppkg-package-manually-build",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "leleliu008/ppkg",
+      "target": "alpinelinux/alpine-chroot-install",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "leleliu008/ppkg",
+      "target": "leleliu008/c-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "leleliu008/ppkg",
+      "target": "leleliu008/ppkg-formula-repository-official-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "leleliu008/ppkg",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "leleliu008/ppkg",
+      "target": "AlpineLinux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archlinux.yml",
+      "source_repo": "leleliu008/ppkg",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/archlinux.yml",
+      "source_repo": "leleliu008/ppkg",
+      "target": "ArchLinux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-core-linux-manully.yml",
+      "source_repo": "leleliu008/ppkg",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-core-linux-manully.yml",
+      "source_repo": "leleliu008/ppkg",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-core-linux-manully.yml",
+      "source_repo": "leleliu008/ppkg",
+      "target": "build ppkg-core for linux manully",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/centos.yml",
+      "source_repo": "leleliu008/ppkg",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/centos.yml",
+      "source_repo": "leleliu008/ppkg",
+      "target": "CentOS Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debian.yml",
+      "source_repo": "leleliu008/ppkg",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dragonflybsd.yml",
+      "source_repo": "leleliu008/ppkg",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dragonflybsd.yml",
+      "source_repo": "leleliu008/ppkg",
+      "target": "vmactions/dragonflybsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dragonflybsd.yml",
+      "source_repo": "leleliu008/ppkg",
+      "target": "DragonFlyBSD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fedora.yml",
+      "source_repo": "leleliu008/ppkg",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fedora.yml",
+      "source_repo": "leleliu008/ppkg",
+      "target": "Fedora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freebsd.yml",
+      "source_repo": "leleliu008/ppkg",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freebsd.yml",
+      "source_repo": "leleliu008/ppkg",
+      "target": "cross-platform-actions/action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/freebsd.yml",
+      "source_repo": "leleliu008/ppkg",
+      "target": "FreeBSD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gentoo.yml",
+      "source_repo": "leleliu008/ppkg",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gentoo.yml",
+      "source_repo": "leleliu008/ppkg",
+      "target": "Gentoo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leleliu008/ppkg",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leleliu008/ppkg",
+      "target": "shell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T00:56:05.226369+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 45318
+    },
+    {
+      "path": ".github/workflows/alpine.yml",
+      "size": 4868
+    },
+    {
+      "path": ".github/workflows/archlinux.yml",
+      "size": 2533
+    },
+    {
+      "path": ".github/workflows/build-core-linux-manully.yml",
+      "size": 1004
+    },
+    {
+      "path": ".github/workflows/centos.yml",
+      "size": 2180
+    },
+    {
+      "path": ".github/workflows/debian.yml",
+      "size": 2089
+    },
+    {
+      "path": ".github/workflows/dragonflybsd.yml",
+      "size": 1758
+    },
+    {
+      "path": ".github/workflows/fedora.yml",
+      "size": 1756
+    },
+    {
+      "path": ".github/workflows/freebsd.yml",
+      "size": 1819
+    },
+    {
+      "path": ".github/workflows/gentoo.yml",
+      "size": 1255
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A portable package builder for Unix-like systems.",
+    "fork": false,
+    "full_name": "leleliu008/ppkg",
+    "html_url": "https://github.com/leleliu008/ppkg",
+    "language": "Shell",
+    "pushed_at": "2026-05-04T08:15:44Z",
+    "stargazers_count": 33,
+    "topics": [
+      "cli",
+      "package-manager",
+      "shell"
+    ],
+    "updated_at": "2026-05-04T08:15:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alpinelinux/alpine-chroot-install",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leleliu008/c-examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leleliu008/ppkg-formula-repository-official-core",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leleliu008/ppkg-package-manually-build",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "AlpineLinux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alpine.yml",
+      "term": "AlpineLinux"
+    },
+    {
+      "context_snippet": "ArchLinux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/archlinux.yml",
+      "term": "ArchLinux"
+    },
+    {
+      "context_snippet": "build ppkg-core for linux manully",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-core-linux-manully.yml",
+      "term": "build ppkg-core for linux manully"
+    },
+    {
+      "context_snippet": "CentOS Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/centos.yml",
+      "term": "CentOS Linux"
+    },
+    {
+      "context_snippet": "DragonFlyBSD",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dragonflybsd.yml",
+      "term": "DragonFlyBSD"
+    },
+    {
+      "context_snippet": "Fedora",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fedora.yml",
+      "term": "Fedora"
+    },
+    {
+      "context_snippet": "FreeBSD",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/freebsd.yml",
+      "term": "FreeBSD"
+    },
+    {
+      "context_snippet": "Gentoo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gentoo.yml",
+      "term": "Gentoo"
+    },
+    {
+      "context_snippet": "A portable package builder/manager for Unix-like system.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    },
+    {
+      "context_snippet": "A portable package builder/manager for Unix-like system.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    }
+  ]
+}

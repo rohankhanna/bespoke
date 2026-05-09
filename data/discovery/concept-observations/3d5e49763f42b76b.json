@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Maven artifacts for JCef"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div id=\"title\" align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div id=\"title\" align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jcef-maven",
+      "sense_id": "jcef-maven#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jcef-maven",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jcef-maven",
+  "observation_id": "3d5e49763f42b76b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-09T00:39:13.791861+00:00",
+  "observed_text": "jcef-maven",
+  "source_context_snippet": "<div id=\"title\" align=\"center\">",
+  "source_file": null,
+  "source_repo": "jcefmaven/jcefmaven",
+  "source_repo_description": "Maven artifacts for JCef"
+}

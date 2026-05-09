@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-09T00:44:37.804519+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10295
+    },
+    {
+      "path": "Dockerfile",
+      "size": 411
+    },
+    {
+      "path": "requirements.txt",
+      "size": 210
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MCP tool for deep web research",
+    "fork": false,
+    "full_name": "Finance-LLMs/deep-research-python",
+    "html_url": "https://github.com/Finance-LLMs/deep-research-python",
+    "language": "Python",
+    "pushed_at": "2025-11-19T17:01:15Z",
+    "stargazers_count": 69,
+    "topics": [],
+    "updated_at": "2026-05-08T14:36:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

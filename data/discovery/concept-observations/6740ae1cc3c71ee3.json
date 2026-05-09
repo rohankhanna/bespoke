@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kite is a CLI application for help development. \u65b9\u4fbf\u672c\u5730\u5f00\u53d1\u548c\u4f7f\u7528\u7684\u4e2a\u4ebaCLI\u5de5\u5177\u5e94\u7528"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39950273,
+      "status": "candidate",
+      "text": "whap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39950124,
+      "status": "candidate",
+      "text": "smash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39950042,
+      "status": "candidate",
+      "text": "knock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39949946,
+      "status": "candidate",
+      "text": "bang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39949855,
+      "status": "candidate",
+      "text": "bop"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bash",
+      "sense_id": "bash#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36052,
+      "status": "candidate",
+      "text": "bang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19036,
+      "status": "candidate",
+      "text": "brawl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17047,
+      "status": "candidate",
+      "text": "smash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13046,
+      "status": "candidate",
+      "text": "knock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12038,
+      "status": "candidate",
+      "text": "bonk"
+    }
+  ],
+  "concept_id": "bash",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bash",
+  "observation_id": "6740ae1cc3c71ee3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-09T00:39:13.791861+00:00",
+  "observed_text": "bash",
+  "source_context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)",
+  "source_file": null,
+  "source_repo": "inhere/kite",
+  "source_repo_description": "Kite is a CLI application for help development. \u65b9\u4fbf\u672c\u5730\u5f00\u53d1\u548c\u4f7f\u7528\u7684\u4e2a\u4ebaCLI\u5de5\u5177\u5e94\u7528"
+}

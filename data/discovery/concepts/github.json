@@ -933,6 +933,18 @@
       "source_repo": "danielrosehill/Github-Gist-MCP-Minimal",
       "status": "candidate-context",
       "text": "A minimal MCP server for creating and managing GitHub Gists. Provides just 4 essential tools to keep context usage low."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inhere/kite",
+      "status": "candidate-context",
+      "text": "Kite is a CLI application for help development. \u65b9\u4fbf\u672c\u5730\u5f00\u53d1\u548c\u4f7f\u7528\u7684\u4e2a\u4ebaCLI\u5de5\u5177\u5e94\u7528"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inhere/kite",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -1397,6 +1409,12 @@
       "source_repo": "danielrosehill/Github-Gist-MCP-Minimal",
       "status": "candidate",
       "text": "A minimal MCP server for creating and managing GitHub Gists. Provides just 4 essential tools to keep context usage low."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inhere/kite",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)"
     }
   ],
   "candidate_related_terms": [
@@ -2388,11 +2406,35 @@
       "observed_at": "2026-05-08T18:37:42.068971+00:00",
       "source_file": null,
       "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "inhere/kite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "remotion-dev/github-unwrapped"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gin"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T18:37:42.068971+00:00",
+  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
   "lexical_providers": [
     "datamuse"
   ],

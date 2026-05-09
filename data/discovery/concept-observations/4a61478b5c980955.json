@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Green Invoice plugin providing Green Invoice/ Morning MCP and skill definitions to Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A Claude Code plugin for conducting operations against the [Green Invoice MCP](https://github.com/danielrosehill/GreenInvoice-MCP) server \u2014 the unofficial MCP wrapper around the [Green Invoice](https://www.greeninvoice.co.il/) Israeli invoicing API."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A Claude Code plugin for conducting operations against the [Green Invoice MCP](https://github.com/danielrosehill/GreenInvoice-MCP) server \u2014 the unofficial MCP wrapper around the [Green Invoice](https://www.greeninvoice.co.il/) Israeli invoicing API."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39887580,
+      "status": "candidate",
+      "text": "accountancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39887377,
+      "status": "candidate",
+      "text": "account statement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29887615,
+      "status": "candidate",
+      "text": "accounting system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29887615,
+      "status": "candidate",
+      "text": "method of accounting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29887601,
+      "status": "candidate",
+      "text": "bookkeeping"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "accounting",
+      "sense_id": "accounting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21055,
+      "status": "candidate",
+      "text": "account"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31,
+      "status": "candidate",
+      "text": "accountancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15,
+      "status": "candidate",
+      "text": "account statement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15,
+      "status": "candidate",
+      "text": "accounting system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "method of accounting"
+    }
+  ],
+  "concept_id": "accounting",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "accounting",
+  "observation_id": "4a61478b5c980955",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-09T00:39:13.791861+00:00",
+  "observed_text": "accounting",
+  "source_context_snippet": "A Claude Code plugin for conducting operations against the [Green Invoice MCP](https://github.com/danielrosehill/GreenInvoice-MCP) server \u2014 the unofficial MCP wrapper around the [Green Invoice](https://www.greeninvoice.co.il/) Israeli invoicing API.",
+  "source_file": null,
+  "source_repo": "danielrosehill/Claude-Green-Invoice-Ops-Plugin",
+  "source_repo_description": "Green Invoice plugin providing Green Invoice/ Morning MCP and skill definitions to Claude Code"
+}

@@ -1,0 +1,182 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "php-toolkit/cli-utils",
+      "target": "php-toolkit/pflag",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml",
+      "source_repo": "php-toolkit/cli-utils",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml",
+      "source_repo": "php-toolkit/cli-utils",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/php.yml",
+      "source_repo": "php-toolkit/cli-utils",
+      "target": "Unit-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "php-toolkit/cli-utils",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "php-toolkit/cli-utils",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "php-toolkit/cli-utils",
+      "target": "Tag-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "php-toolkit/cli-utils",
+      "target": "cli-utilities",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "php-toolkit/cli-utils",
+      "target": "color",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "php-toolkit/cli-utils",
+      "target": "highlight",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "php-toolkit/cli-utils",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T01:01:17.342169+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3978
+    },
+    {
+      "path": ".github/workflows/php.yml",
+      "size": 1562
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1250
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Provide some useful utils for the php CLI. console color, CLI env, CLI code highlighter.",
+    "fork": false,
+    "full_name": "php-toolkit/cli-utils",
+    "html_url": "https://github.com/php-toolkit/cli-utils",
+    "language": "PHP",
+    "pushed_at": "2026-04-14T02:01:14Z",
+    "stargazers_count": 20,
+    "topics": [
+      "cli-utilities",
+      "color",
+      "highlight",
+      "terminal"
+    ],
+    "updated_at": "2026-04-14T02:01:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "php-toolkit/pflag",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Unit-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/php.yml",
+      "term": "Unit-tests"
+    },
+    {
+      "context_snippet": "Tag-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Tag-release"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/toolkit/cli-utils.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cli-utilities"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/toolkit/cli-utils.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/toolkit/cli-utils.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "highlight"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/toolkit/cli-utils.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

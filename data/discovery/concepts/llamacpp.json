@@ -367,6 +367,18 @@
       "source_repo": "SciSharp/LLamaSharp",
       "status": "candidate-context",
       "text": "![logo](Assets/LLamaSharpLogo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xuegao-tzx/Fllama",
+      "status": "candidate-context",
+      "text": "A flutter binding for llama.cpp, which use platform channel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuegao-tzx/Fllama",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +561,12 @@
       "source_repo": "SciSharp/LLamaSharp",
       "status": "candidate",
       "text": "![logo](Assets/LLamaSharpLogo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuegao-tzx/Fllama",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_related_terms": [],
@@ -910,11 +928,23 @@
       "observed_at": "2026-05-08T12:43:50.373126+00:00",
       "source_file": null,
       "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "xuegao-tzx/Fllama"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
+  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
   "lexical_providers": [
     "datamuse"
   ],

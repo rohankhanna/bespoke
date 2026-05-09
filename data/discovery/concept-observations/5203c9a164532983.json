@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A portable package builder for Unix-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CentOS Linux"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CentOS Linux"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5624,
+      "status": "candidate",
+      "text": "centonism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5354,
+      "status": "candidate",
+      "text": "allegories"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4270,
+      "status": "candidate",
+      "text": "absolutes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4270,
+      "status": "candidate",
+      "text": "allegorists"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4270,
+      "status": "candidate",
+      "text": "allegory"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CentOS Linux",
+      "sense_id": "centos-linux#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "centos-linux",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "centos-linux",
+  "observation_id": "5203c9a164532983",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-09T00:39:13.791861+00:00",
+  "observed_text": "CentOS Linux",
+  "source_context_snippet": "CentOS Linux",
+  "source_file": ".github/workflows/centos.yml",
+  "source_repo": "leleliu008/ppkg",
+  "source_repo_description": "A portable package builder for Unix-like systems."
+}

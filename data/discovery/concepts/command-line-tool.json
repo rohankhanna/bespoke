@@ -391,6 +391,18 @@
       "source_repo": "TheZoraiz/ascii-image-converter",
       "status": "candidate-context",
       "text": "[![release-version](https://img.shields.io/github/v/release/TheZoraiz/ascii-image-converter?label=Latest%20Version)](https://github.com/TheZoraiz/ascii-image-converter/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inhere/kite",
+      "status": "candidate-context",
+      "text": "Kite is a CLI application for help development. \u65b9\u4fbf\u672c\u5730\u5f00\u53d1\u548c\u4f7f\u7528\u7684\u4e2a\u4ebaCLI\u5de5\u5177\u5e94\u7528"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inhere/kite",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -585,6 +597,12 @@
       "source_repo": "TheZoraiz/ascii-image-converter",
       "status": "candidate",
       "text": "[![release-version](https://img.shields.io/github/v/release/TheZoraiz/ascii-image-converter?label=Latest%20Version)](https://github.com/TheZoraiz/ascii-image-converter/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inhere/kite",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)"
     }
   ],
   "candidate_related_terms": [],
@@ -820,11 +838,17 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "TheZoraiz/ascii-image-converter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "inhere/kite"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
   "lexical_providers": [
     "datamuse"
   ],

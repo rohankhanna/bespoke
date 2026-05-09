@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ENERGY Designer is developed in Go and implemented via self-bootstrapping based on the ENERGY GUI framework, supporting Windows, macOS, and Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ENERGY Designer is a visual UI design tool built for the ENERGY cross-platform GUI framework, focused on native desktop UI design and generating maintainable Go source code."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ENERGY Designer is a visual UI design tool built for the ENERGY cross-platform GUI framework, focused on native desktop UI design and generating maintainable Go source code."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39723524,
+      "status": "candidate",
+      "text": "windowpane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29723622,
+      "status": "candidate",
+      "text": "taskbar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29723474,
+      "status": "candidate",
+      "text": "microsoft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29716970,
+      "status": "candidate",
+      "text": "ups"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29702071,
+      "status": "candidate",
+      "text": "times"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "windows",
+      "sense_id": "windows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "windows",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "windows",
+  "observation_id": "96cfa7144c849ac1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-09T00:39:13.791861+00:00",
+  "observed_text": "windows",
+  "source_context_snippet": "ENERGY Designer is a visual UI design tool built for the ENERGY cross-platform GUI framework, focused on native desktop UI design and generating maintainable Go source code.",
+  "source_file": null,
+  "source_repo": "energye/designer",
+  "source_repo_description": "ENERGY Designer is developed in Go and implemented via self-bootstrapping based on the ENERGY GUI framework, supporting Windows, macOS, and Linux."
+}

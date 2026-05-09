@@ -531,7 +531,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T13:53:32.247559+00:00",
+  "fetched_at": "2026-05-09T03:05:26.515664+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -583,14 +583,14 @@
     "full_name": "rust-lang/rust-analyzer",
     "html_url": "https://github.com/rust-lang/rust-analyzer",
     "language": "Rust",
-    "pushed_at": "2026-05-08T13:29:22Z",
+    "pushed_at": "2026-05-09T01:17:03Z",
     "stargazers_count": 16382,
     "topics": [
       "hacktoberfest",
       "lsp-server",
       "rust"
     ],
-    "updated_at": "2026-05-08T13:27:28Z"
+    "updated_at": "2026-05-09T01:43:23Z"
   },
   "repo_links": [],
   "terms": [

@@ -692,6 +692,9 @@
   "accname ed": [
     "accname-ed"
   ],
+  "accounting": [
+    "accounting"
+  ],
   "accumulo": [
     "accumulo"
   ],
@@ -2745,6 +2748,9 @@
   "alpinejs": [
     "alpinejs"
   ],
+  "alpinelinux": [
+    "alpinelinux"
+  ],
   "altair": [
     "altair"
   ],
@@ -2789,6 +2795,9 @@
   ],
   "amaranth-hdl": [
     "amaranth-hdl"
+  ],
+  "amazfit": [
+    "amazfit"
   ],
   "amazon": [
     "amazon"
@@ -12832,6 +12841,9 @@
   "build poselib": [
     "build-poselib"
   ],
+  "build ppkg-core for linux manully": [
+    "build-ppkg-core-for-linux-manully"
+  ],
   "build pr": [
     "build-pr"
   ],
@@ -13900,6 +13912,15 @@
   "build-linux": [
     "build-linux"
   ],
+  "build-linux-amd64": [
+    "build-linux-amd64"
+  ],
+  "build-linux-arm": [
+    "build-linux-arm"
+  ],
+  "build-linux-arm64": [
+    "build-linux-arm64"
+  ],
   "build-linux-wheels": [
     "build-linux-wheels"
   ],
@@ -13911,6 +13932,12 @@
   ],
   "build-macos": [
     "build-macos"
+  ],
+  "build-macosx-amd64": [
+    "build-macosx-amd64"
+  ],
+  "build-macosx-arm64": [
+    "build-macosx-arm64"
   ],
   "build-metaprompt-generator": [
     "build-metaprompt-generator"
@@ -14022,6 +14049,15 @@
   ],
   "build-windows": [
     "build-windows"
+  ],
+  "build-windows-amd64": [
+    "build-windows-amd64"
+  ],
+  "build-windows-arm64": [
+    "build-windows-arm64"
+  ],
+  "build-windows-i386": [
+    "build-windows-i386"
   ],
   "build-windows-wheels": [
     "build-windows-wheels"
@@ -14187,6 +14223,9 @@
   ],
   "built-with-rust": [
     "built-with-rust"
+  ],
+  "builtin-command": [
+    "builtin-command"
   ],
   "bulgarian": [
     "bulgarian"
@@ -15694,6 +15733,9 @@
   ],
   "centos": [
     "centos"
+  ],
+  "centos linux": [
+    "centos-linux"
   ],
   "centos stream linux": [
     "centos-stream-linux"
@@ -20075,6 +20117,9 @@
   "cli-args": [
     "cli-args"
   ],
+  "cli-arguments": [
+    "cli-arguments"
+  ],
   "cli-assets-component-pipeline": [
     "cli-assets-component-pipeline"
   ],
@@ -20116,6 +20161,9 @@
   ],
   "cli-lovers": [
     "cli-lovers"
+  ],
+  "cli-options": [
+    "cli-options"
   ],
   "cli-package": [
     "cli-package"
@@ -31601,6 +31649,9 @@
   "docs-upstream": [
     "docs-upstream"
   ],
+  "docsearch": [
+    "docsearch"
+  ],
   "docsite": [
     "docsite"
   ],
@@ -33303,6 +33354,9 @@
   ],
   "edgegpt": [
     "edgegpt"
+  ],
+  "edgesharp": [
+    "edgesharp"
   ],
   "edgetpu": [
     "edgetpu"
@@ -35258,6 +35312,9 @@
   "expand": [
     "expand"
   ],
+  "expanded continuous integration": [
+    "expanded-continuous-integration"
+  ],
   "expansion": [
     "expansion"
   ],
@@ -37086,6 +37143,9 @@
   ],
   "flag": [
     "flag"
+  ],
+  "flag-parser": [
+    "flag-parser"
   ],
   "flagcicd-nv-build-and-test": [
     "flagcicd-nv-build-and-test"
@@ -40164,6 +40224,9 @@
   "gitea": [
     "gitea"
   ],
+  "gitflow": [
+    "gitflow"
+  ],
   "gitgudsimilarissues comments": [
     "gitgudsimilarissues-comments"
   ],
@@ -40514,6 +40577,9 @@
   ],
   "gitlab-releases": [
     "gitlab-releases"
+  ],
+  "gitlab-tool": [
+    "gitlab-tool"
   ],
   "gitleaks": [
     "gitleaks"
@@ -40997,6 +41063,9 @@
   ],
   "go-gpt": [
     "go-gpt"
+  ],
+  "go-gui": [
+    "go-gui"
   ],
   "go-ipfs": [
     "go-ipfs"
@@ -42293,6 +42362,9 @@
   ],
   "green talks scraper": [
     "green-talks-scraper"
+  ],
+  "green-invoice": [
+    "green-invoice"
   ],
   "green-threads": [
     "green-threads"
@@ -44087,6 +44159,9 @@
   ],
   "hpke": [
     "hpke"
+  ],
+  "hplus": [
+    "hplus"
   ],
   "hpsf": [
     "hpsf"
@@ -47934,6 +48009,12 @@
   "jbuilder": [
     "jbuilder"
   ],
+  "jcef": [
+    "jcef"
+  ],
+  "jcef-maven": [
+    "jcef-maven"
+  ],
   "jdbc": [
     "jdbc"
   ],
@@ -49241,6 +49322,9 @@
   ],
   "kitchen": [
     "kitchen"
+  ],
+  "kite": [
+    "kite"
   ],
   "kitex": [
     "kitex"
@@ -55665,6 +55749,9 @@
   "merge a pr on a comment": [
     "merge-a-pr-on-a-comment"
   ],
+  "merge backend manifest list (reusable)": [
+    "merge-backend-manifest-list-reusable"
+  ],
   "merge branch with labeled": [
     "merge-branch-with-labeled"
   ],
@@ -56000,6 +56087,9 @@
   ],
   "mfcc": [
     "mfcc"
+  ],
+  "mi-band": [
+    "mi-band"
   ],
   "micro": [
     "micro"
@@ -64089,6 +64179,9 @@
   "param check": [
     "param-check"
   ],
+  "parameter-efficient": [
+    "parameter-efficient"
+  ],
   "parameter-efficient-learning": [
     "parameter-efficient-learning"
   ],
@@ -64538,6 +64631,12 @@
   ],
   "peakbagging": [
     "peakbagging"
+  ],
+  "pebble": [
+    "pebble"
+  ],
+  "pebble-smartwatch": [
+    "pebble-smartwatch"
   ],
   "pedestal": [
     "pedestal"
@@ -69962,6 +70061,9 @@
   ],
   "publish-helm-chart": [
     "publish-helm-chart"
+  ],
+  "publish-image": [
+    "publish-image"
   ],
   "publish-libs": [
     "publish-libs"
@@ -79652,6 +79754,9 @@
     "en-pronoun-several",
     "en-quantifier-several"
   ],
+  "sexy": [
+    "sexy"
+  ],
   "sf-sql": [
     "sf-sql"
   ],
@@ -85642,6 +85747,9 @@
   ],
   "technology": [
     "technology"
+  ],
+  "teclast": [
+    "teclast"
   ],
   "telco": [
     "telco"
@@ -96148,6 +96256,9 @@
   ],
   "webkit-headless": [
     "webkit-headless"
+  ],
+  "webkit2": [
+    "webkit2"
   ],
   "weblate pull branch": [
     "weblate-pull-branch"

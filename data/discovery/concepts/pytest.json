@@ -563,6 +563,12 @@
       "source_repo": "ludwig-ai/ludwig",
       "status": "candidate-context",
       "text": "pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-neotest/neotest-python",
+      "status": "candidate-context",
+      "text": "[Neotest](https://github.com/rcarriga/neotest) adapter for python."
     }
   ],
   "candidate_glosses": [
@@ -841,6 +847,12 @@
       "source_repo": "ludwig-ai/ludwig",
       "status": "candidate",
       "text": "pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-neotest/neotest-python",
+      "status": "candidate",
+      "text": "[Neotest](https://github.com/rcarriga/neotest) adapter for python."
     }
   ],
   "candidate_related_terms": [
@@ -2264,11 +2276,65 @@
       "observed_at": "2026-05-08T18:37:42.068971+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "google-deepmind/jmp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "verbiiyo/rigl-torch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/bsuite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "axelspringer/DeepPhonemizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/jmp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "nvim-neotest/neotest-python"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T18:37:42.068971+00:00",
+  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
   "lexical_providers": [
     "datamuse"
   ],

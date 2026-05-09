@@ -1,0 +1,119 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AGI-Edgerunners/LLM-Adapters",
+      "target": "timdettmers/bitsandbytes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AGI-Edgerunners/LLM-Adapters",
+      "target": "adapter-hub/adapter-transformers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AGI-Edgerunners/LLM-Adapters",
+      "target": "adapters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AGI-Edgerunners/LLM-Adapters",
+      "target": "fine-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AGI-Edgerunners/LLM-Adapters",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AGI-Edgerunners/LLM-Adapters",
+      "target": "parameter-efficient",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T02:08:31.767996+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14699
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 131
+    },
+    {
+      "path": "requirements.txt",
+      "size": 126
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code for our EMNLP 2023 Paper: \"LLM-Adapters: An Adapter Family for Parameter-Efficient Fine-Tuning of Large Language Models\"",
+    "fork": false,
+    "full_name": "AGI-Edgerunners/LLM-Adapters",
+    "html_url": "https://github.com/AGI-Edgerunners/LLM-Adapters",
+    "language": "Python",
+    "pushed_at": "2024-03-10T08:20:15Z",
+    "stargazers_count": 1234,
+    "topics": [
+      "adapters",
+      "fine-tuning",
+      "large-language-models",
+      "parameter-efficient"
+    ],
+    "updated_at": "2026-05-02T03:00:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adapter-hub/adapter-transformers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timdettmers/bitsandbytes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adapters"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fine-tuning"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parameter-efficient"
+    }
+  ]
+}

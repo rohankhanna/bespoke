@@ -8,13 +8,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "inhere/php-sroute",
-      "target": "inhere/php-console",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/php.yml",
       "source_repo": "inhere/php-sroute",
@@ -113,6 +106,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-08T06:44:29.884715+00:00",
+  "generated_at": "2026-05-09T00:39:13.791861+00:00",
   "source_repo": "inhere/php-sroute"
 }

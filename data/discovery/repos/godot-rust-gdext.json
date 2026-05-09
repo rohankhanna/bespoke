@@ -260,11 +260,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T19:43:20.397977+00:00",
+  "fetched_at": "2026-05-09T02:12:58.974295+00:00",
   "fetched_files": [
     {
       "path": "Cargo.toml",
-      "size": 2216
+      "size": 2383
     },
     {
       "path": ".github/workflows/full-ci.yml",
@@ -292,15 +292,15 @@
     "full_name": "godot-rust/gdext",
     "html_url": "https://github.com/godot-rust/gdext",
     "language": "Rust",
-    "pushed_at": "2026-05-07T16:04:20Z",
-    "stargazers_count": 4760,
+    "pushed_at": "2026-05-08T22:22:57Z",
+    "stargazers_count": 4761,
     "topics": [
       "game-development",
       "gamedev",
       "godot",
       "rust"
     ],
-    "updated_at": "2026-05-08T11:34:37Z"
+    "updated_at": "2026-05-08T22:22:59Z"
   },
   "repo_links": [],
   "terms": [
@@ -329,25 +329,25 @@
       "term": "Compile + Sync Docs"
     },
     {
-      "context_snippet": "[workspace] resolver = \"2\" members = [ \"godot-bindings\", \"godot-codegen\", \"godot-ffi\", \"godot-core\", \"godot-macros\", \"godot-cell\", \"godot\", # Godot integration \"itest/rust\", \"itest/repo-tweak\", \"itest/hot-reload/rust\", \"itest/itest-dependency\" ] [workspace.package] edition = \"20\u2026",
+      "context_snippet": "[profile.dev] # Skips type/variable debug metadata while keeping file:line info for backtraces. Saves 1-4% build time on clean dev builds. debug = \"line-tables-only\" [workspace] resolver = \"2\" members = [ \"godot-bindings\", \"godot-codegen\", \"godot-ffi\", \"godot-core\", \"godot-macro\u2026",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "game-development"
     },
     {
-      "context_snippet": "[workspace] resolver = \"2\" members = [ \"godot-bindings\", \"godot-codegen\", \"godot-ffi\", \"godot-core\", \"godot-macros\", \"godot-cell\", \"godot\", # Godot integration \"itest/rust\", \"itest/repo-tweak\", \"itest/hot-reload/rust\", \"itest/itest-dependency\" ] [workspace.package] edition = \"20\u2026",
+      "context_snippet": "[profile.dev] # Skips type/variable debug metadata while keeping file:line info for backtraces. Saves 1-4% build time on clean dev builds. debug = \"line-tables-only\" [workspace] resolver = \"2\" members = [ \"godot-bindings\", \"godot-codegen\", \"godot-ffi\", \"godot-core\", \"godot-macro\u2026",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "gamedev"
     },
     {
-      "context_snippet": "[workspace] resolver = \"2\" members = [ \"godot-bindings\", \"godot-codegen\", \"godot-ffi\", \"godot-core\", \"godot-macros\", \"godot-cell\", \"godot\", # Godot integration \"itest/rust\", \"itest/repo-tweak\", \"itest/hot-reload/rust\", \"itest/itest-dependency\" ] [workspace.package] edition = \"20\u2026",
+      "context_snippet": "[profile.dev] # Skips type/variable debug metadata while keeping file:line info for backtraces. Saves 1-4% build time on clean dev builds. debug = \"line-tables-only\" [workspace] resolver = \"2\" members = [ \"godot-bindings\", \"godot-codegen\", \"godot-ffi\", \"godot-core\", \"godot-macro\u2026",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "godot"
     },
     {
-      "context_snippet": "[workspace] resolver = \"2\" members = [ \"godot-bindings\", \"godot-codegen\", \"godot-ffi\", \"godot-core\", \"godot-macros\", \"godot-cell\", \"godot\", # Godot integration \"itest/rust\", \"itest/repo-tweak\", \"itest/hot-reload/rust\", \"itest/itest-dependency\" ] [workspace.package] edition = \"20\u2026",
+      "context_snippet": "[profile.dev] # Skips type/variable debug metadata while keeping file:line info for backtraces. Saves 1-4% build time on clean dev builds. debug = \"line-tables-only\" [workspace] resolver = \"2\" members = [ \"godot-bindings\", \"godot-codegen\", \"godot-ffi\", \"godot-core\", \"godot-macro\u2026",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "rust"

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Build .NET Win32/WinForms/WPF WebView2 HTML5 Desktop Apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\"><img src=\"https://github.com/edgesharp/EdgeSharp/blob/main/src/EdgeSharp.Core/edgesharp.png?raw=true\" /></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://github.com/edgesharp/EdgeSharp/blob/main/src/EdgeSharp.Core/edgesharp.png?raw=true\" /></p>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "asp-net-core",
+      "sense_id": "asp-net-core#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "asp-net-core",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "asp-net-core",
+  "observation_id": "bdf63fa615d83be3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-09T00:39:13.791861+00:00",
+  "observed_text": "asp-net-core",
+  "source_context_snippet": "<p align=\"center\"><img src=\"https://github.com/edgesharp/EdgeSharp/blob/main/src/EdgeSharp.Core/edgesharp.png?raw=true\" /></p>",
+  "source_file": null,
+  "source_repo": "webview2/EdgeSharp",
+  "source_repo_description": "Build .NET Win32/WinForms/WPF WebView2 HTML5 Desktop Apps"
+}

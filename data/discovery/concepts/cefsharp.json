@@ -55,6 +55,18 @@
       "source_repo": "chromelyapps/Chromely",
       "status": "candidate-context",
       "text": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChromiumDotNet/Chromium.AspNetCore.Bridge",
+      "status": "candidate-context",
+      "text": "Chromium.AspNetCore.Bridge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChromiumDotNet/Chromium.AspNetCore.Bridge",
+      "status": "candidate-context",
+      "text": "Chromium based browsers (`CefSharp`, `CefGlue`, `WebView2` etc) can directly integrate `AspNetCore` into the browser without having to make network requests."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "chromelyapps/Chromely",
       "status": "candidate",
       "text": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChromiumDotNet/Chromium.AspNetCore.Bridge",
+      "status": "candidate",
+      "text": "Chromium based browsers (`CefSharp`, `CefGlue`, `WebView2` etc) can directly integrate `AspNetCore` into the browser without having to make network requests."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-08T12:43:50.373126+00:00",
       "source_file": null,
       "source_repo": "chromelyapps/Chromely"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "ChromiumDotNet/Chromium.AspNetCore.Bridge"
     }
   ],
   "first_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
+  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
   "lexical_providers": [
     "datamuse"
   ],

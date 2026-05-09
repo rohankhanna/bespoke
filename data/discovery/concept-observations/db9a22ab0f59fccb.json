@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bitcoin Cross-Platform C++ Development Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Expanded Continuous Integration"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Expanded Continuous Integration"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18155,
+      "status": "candidate",
+      "text": "disk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18155,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18155,
+      "status": "candidate",
+      "text": "round"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18155,
+      "status": "candidate",
+      "text": "sheet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18141,
+      "status": "candidate",
+      "text": "extend"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Expanded Continuous Integration",
+      "sense_id": "expanded-continuous-integration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "expanded-continuous-integration",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "expanded-continuous-integration",
+  "observation_id": "db9a22ab0f59fccb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-09T00:39:13.791861+00:00",
+  "observed_text": "Expanded Continuous Integration",
+  "source_context_snippet": "Expanded Continuous Integration",
+  "source_file": ".github/workflows/ci-expanded.yml",
+  "source_repo": "libbitcoin/libbitcoin-system",
+  "source_repo_description": "Bitcoin Cross-Platform C++ Development Toolkit"
+}

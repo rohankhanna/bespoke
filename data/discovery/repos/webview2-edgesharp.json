@@ -1,0 +1,281 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "webview2/EdgeSharp",
+      "target": "edgesharp/edgesharp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "webview2/EdgeSharp",
+      "target": "edgesharp/edgesharp.samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "webview2/EdgeSharp",
+      "target": "amaitland/chromium.aspnetcore.bridge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp",
+      "target": "asp-net-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp",
+      "target": "chrome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp",
+      "target": "chromium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp",
+      "target": "desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp",
+      "target": "edge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp",
+      "target": "edgesharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp",
+      "target": "electron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp",
+      "target": "html5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp",
+      "target": "owin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp",
+      "target": "webview2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp",
+      "target": "win32",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp",
+      "target": "winapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp",
+      "target": "winforms",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T01:08:06.174421+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2369
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Build .NET Win32/WinForms/WPF WebView2 HTML5 Desktop Apps",
+    "fork": false,
+    "full_name": "webview2/EdgeSharp",
+    "html_url": "https://github.com/webview2/EdgeSharp",
+    "language": "C#",
+    "pushed_at": "2023-02-12T21:08:22Z",
+    "stargazers_count": 285,
+    "topics": [
+      "asp-net-core",
+      "cef",
+      "chrome",
+      "chromium",
+      "css",
+      "desktop",
+      "dotnet",
+      "edge",
+      "edgesharp",
+      "electron",
+      "html5",
+      "javascript",
+      "json",
+      "owin",
+      "webview2",
+      "win32",
+      "winapi",
+      "winforms",
+      "wpf"
+    ],
+    "updated_at": "2026-04-29T12:43:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amaitland/chromium.aspnetcore.bridge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edgesharp/edgesharp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edgesharp/edgesharp.samples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://github.com/edgesharp/EdgeSharp/blob/main/src/EdgeSharp.Core/edgesharp.png?raw=true\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asp-net-core"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://github.com/edgesharp/EdgeSharp/blob/main/src/EdgeSharp.Core/edgesharp.png?raw=true\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://github.com/edgesharp/EdgeSharp/blob/main/src/EdgeSharp.Core/edgesharp.png?raw=true\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromium"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://github.com/edgesharp/EdgeSharp/blob/main/src/EdgeSharp.Core/edgesharp.png?raw=true\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://github.com/edgesharp/EdgeSharp/blob/main/src/EdgeSharp.Core/edgesharp.png?raw=true\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://github.com/edgesharp/EdgeSharp/blob/main/src/EdgeSharp.Core/edgesharp.png?raw=true\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edge"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://github.com/edgesharp/EdgeSharp/blob/main/src/EdgeSharp.Core/edgesharp.png?raw=true\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edgesharp"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://github.com/edgesharp/EdgeSharp/blob/main/src/EdgeSharp.Core/edgesharp.png?raw=true\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electron"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://github.com/edgesharp/EdgeSharp/blob/main/src/EdgeSharp.Core/edgesharp.png?raw=true\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html5"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://github.com/edgesharp/EdgeSharp/blob/main/src/EdgeSharp.Core/edgesharp.png?raw=true\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://github.com/edgesharp/EdgeSharp/blob/main/src/EdgeSharp.Core/edgesharp.png?raw=true\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "owin"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://github.com/edgesharp/EdgeSharp/blob/main/src/EdgeSharp.Core/edgesharp.png?raw=true\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webview2"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://github.com/edgesharp/EdgeSharp/blob/main/src/EdgeSharp.Core/edgesharp.png?raw=true\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "win32"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://github.com/edgesharp/EdgeSharp/blob/main/src/EdgeSharp.Core/edgesharp.png?raw=true\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winapi"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://github.com/edgesharp/EdgeSharp/blob/main/src/EdgeSharp.Core/edgesharp.png?raw=true\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winforms"
+    }
+  ]
+}

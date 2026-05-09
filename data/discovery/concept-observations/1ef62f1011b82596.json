@@ -84,7 +84,7 @@
   "normalized_form": "reusable-benchmark-template",
   "observation_id": "1ef62f1011b82596",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-08T18:37:42.068971+00:00",
+  "observed_at": "2026-05-09T00:39:13.791861+00:00",
   "observed_text": "Reusable Benchmark Template",
   "source_context_snippet": "Reusable Benchmark Template",
   "source_file": ".github/workflows/benchmark-template.yaml",

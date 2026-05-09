@@ -131,13 +131,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standard/standard",
-      "target": "showcases/clean-code-linters",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "standard/standard",
       "target": "w0rp/ale",
       "target_type": "repository"
     },
@@ -408,7 +401,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T13:54:11.117832+00:00",
+  "fetched_at": "2026-05-09T03:06:05.333166+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -464,11 +457,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "ishamf/brackets-standard",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "showcases/clean-code-linters",
       "source_file": "README.md"
     },
     {

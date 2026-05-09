@@ -58,6 +58,18 @@
       "source_repo": "gookit/config",
       "status": "candidate-context",
       "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/config?style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php-toolkit/pflag",
+      "status": "candidate-context",
+      "text": "Generic PHP command line flags parse library. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php-toolkit/pflag",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/packagist/l/toolkit/pflag.svg?style=flat-square)](LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +96,12 @@
       "source_repo": "gookit/config",
       "status": "candidate",
       "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/config?style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php-toolkit/pflag",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/packagist/l/toolkit/pflag.svg?style=flat-square)](LICENSE)"
     }
   ],
   "candidate_related_terms": [
@@ -151,11 +169,17 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "gookit/config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "php-toolkit/pflag"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
   "lexical_providers": [
     "datamuse"
   ],

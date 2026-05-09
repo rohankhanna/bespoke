@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-09T01:08:26.232856+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 366
+    },
+    {
+      "path": "go.mod",
+      "size": 41
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "energye/golcl",
+    "html_url": "https://github.com/energye/golcl",
+    "language": "Go",
+    "pushed_at": "2024-12-31T03:53:36Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-01-05T01:27:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

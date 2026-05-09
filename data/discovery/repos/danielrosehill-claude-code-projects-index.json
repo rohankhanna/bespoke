@@ -11,14 +11,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-code-linux-notes",
+      "target": "danielrosehill/claude-green-invoice-ops-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-gpg-ops-plugin",
+      "target": "danielrosehill/claude-hardware-id-annotation-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
+      "target": "danielrosehill/claude-hardware-spec-assembly-plugin",
       "target_type": "repository"
     },
     {
@@ -26,13 +33,6 @@
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
       "target": "danielrosehill/claude-agent-blueprints",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-code-marketplace",
       "target_type": "repository"
     },
     {
@@ -64,7 +64,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T13:55:47.800487+00:00",
+  "fetched_at": "2026-05-09T03:07:52.165375+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -85,13 +85,13 @@
     "html_url": "https://github.com/danielrosehill/Claude-Code-Projects-Index",
     "language": "Astro",
     "pushed_at": "2026-05-04T08:07:33Z",
-    "stargazers_count": 461,
+    "stargazers_count": 464,
     "topics": [
       "claude-code",
       "claude-code-cli",
       "index-repos"
     ],
-    "updated_at": "2026-05-07T14:35:56Z"
+    "updated_at": "2026-05-08T21:03:45Z"
   },
   "repo_links": [
     {
@@ -101,17 +101,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-code-linux-notes",
+      "full_name": "danielrosehill/claude-green-invoice-ops-plugin",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-code-marketplace",
+      "full_name": "danielrosehill/claude-hardware-id-annotation-plugin",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-gpg-ops-plugin",
+      "full_name": "danielrosehill/claude-hardware-spec-assembly-plugin",
       "source_file": "README.md"
     }
   ],

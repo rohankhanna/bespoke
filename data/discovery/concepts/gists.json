@@ -25,6 +25,18 @@
       "source_repo": "danielrosehill/Github-Gist-MCP-Minimal",
       "status": "candidate-context",
       "text": "A minimal MCP server for creating and managing GitHub Gists. Provides just 4 essential tools to keep context usage low."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lostintangent/gistpad-mcp",
+      "status": "candidate-context",
+      "text": "\ud83d\udcd3 An MCP server for managing your personal knowledge, daily notes, and re-usable prompts via GitHub Gists"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lostintangent/gistpad-mcp",
+      "status": "candidate-context",
+      "text": "An MCP server for managing and sharing your personal knowledge, daily notes, and reuseable prompts via GitHub Gists. It's a companion to the GistPad [VS Code extension](https://aka.ms/gistpad) and [GistPad.dev](https://gistpad.dev) (for web/mobile), which allows you to access an\u2026"
     }
   ],
   "candidate_glosses": [
@@ -39,6 +51,12 @@
       "source_repo": "danielrosehill/Github-Gist-MCP-Minimal",
       "status": "candidate",
       "text": "A minimal MCP server for creating and managing GitHub Gists. Provides just 4 essential tools to keep context usage low."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lostintangent/gistpad-mcp",
+      "status": "candidate",
+      "text": "An MCP server for managing and sharing your personal knowledge, daily notes, and reuseable prompts via GitHub Gists. It's a companion to the GistPad [VS Code extension](https://aka.ms/gistpad) and [GistPad.dev](https://gistpad.dev) (for web/mobile), which allows you to access an\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -94,11 +112,17 @@
       "observed_at": "2026-05-08T12:43:50.373126+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/Github-Gist-MCP-Minimal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "lostintangent/gistpad-mcp"
     }
   ],
   "first_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
+  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
   "lexical_providers": [
     "datamuse"
   ],

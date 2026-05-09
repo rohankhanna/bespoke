@@ -871,6 +871,18 @@
       "source_repo": "conan-io/cmake-conan",
       "status": "candidate-context",
       "text": "![Build Status](https://github.com/conan-io/cmake-conan/actions/workflows/cmake_conan.yml/badge.svg?branch=develop2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leleliu008/ppkg",
+      "status": "candidate-context",
+      "text": "A portable package builder for Unix-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leleliu008/ppkg",
+      "status": "candidate-context",
+      "text": "A portable package builder/manager for Unix-like system."
     }
   ],
   "candidate_glosses": [
@@ -1305,6 +1317,12 @@
       "source_repo": "conan-io/cmake-conan",
       "status": "candidate",
       "text": "![Build Status](https://github.com/conan-io/cmake-conan/actions/workflows/cmake_conan.yml/badge.svg?branch=develop2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leleliu008/ppkg",
+      "status": "candidate",
+      "text": "A portable package builder/manager for Unix-like system."
     }
   ],
   "candidate_related_terms": [],
@@ -2014,11 +2032,29 @@
       "observed_at": "2026-05-08T18:37:42.068971+00:00",
       "source_file": null,
       "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "leleliu008/ppkg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "radian-software/straight.el"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T18:37:42.068971+00:00",
+  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
   "lexical_providers": [
     "datamuse"
   ],

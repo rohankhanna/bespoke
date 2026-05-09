@@ -127,6 +127,18 @@
       "source_repo": "ElectronNET/Electron.NET",
       "status": "candidate-context",
       "text": "[![Electron.NET Logo](https://github.com/ElectronNET/Electron.NET/raw/main/assets/images/electron.net-logo.png)](https://github.com/ElectronNET/Electron.NET)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webview2/EdgeSharp",
+      "status": "candidate-context",
+      "text": "Build .NET Win32/WinForms/WPF WebView2 HTML5 Desktop Apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webview2/EdgeSharp",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://github.com/edgesharp/EdgeSharp/blob/main/src/EdgeSharp.Core/edgesharp.png?raw=true\" /></p>"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "ElectronNET/Electron.NET",
       "status": "candidate",
       "text": "[![Electron.NET Logo](https://github.com/ElectronNET/Electron.NET/raw/main/assets/images/electron.net-logo.png)](https://github.com/ElectronNET/Electron.NET)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webview2/EdgeSharp",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://github.com/edgesharp/EdgeSharp/blob/main/src/EdgeSharp.Core/edgesharp.png?raw=true\" /></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +274,17 @@
       "observed_at": "2026-05-08T12:43:50.373126+00:00",
       "source_file": null,
       "source_repo": "ElectronNET/Electron.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
+  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
   "lexical_providers": [
     "datamuse"
   ],

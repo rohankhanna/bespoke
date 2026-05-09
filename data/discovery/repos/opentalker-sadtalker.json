@@ -93,7 +93,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T18:53:45.921909+00:00",
+  "fetched_at": "2026-05-09T01:59:00.751585+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -114,7 +114,7 @@
     "html_url": "https://github.com/OpenTalker/SadTalker",
     "language": "Python",
     "pushed_at": "2024-06-26T12:51:53Z",
-    "stargazers_count": 13779,
+    "stargazers_count": 13780,
     "topics": [
       "audio-driven-talking-face",
       "cvpr2023",
@@ -126,7 +126,7 @@
       "talking-head",
       "talking-heads"
     ],
-    "updated_at": "2026-05-08T18:50:25Z"
+    "updated_at": "2026-05-08T21:44:30Z"
   },
   "repo_links": [
     {

@@ -31,41 +31,6 @@
       "source_file": ".github/workflows/conda-forge-tests.yml"
     },
     {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pypi-ci.yml"
-    },
-    {
-      "component": "actions/setup-python@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pypi-ci.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pypi-ci.yml"
-    },
-    {
-      "component": "actions/download-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pypi-ci.yml"
-    },
-    {
-      "component": "pypa/gh-action-pypi-publish@release/v1",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pypi-ci.yml"
-    },
-    {
-      "component": "actions/download-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pypi-ci.yml"
-    },
-    {
-      "component": "pypa/gh-action-pypi-publish@release/v1",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pypi-ci.yml"
-    },
-    {
       "component": "readthedocs/actions/preview@v1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/read_the_docs.yml"
@@ -137,41 +102,6 @@
       "source_repo": "gbionics/adam",
       "target": "Test adam with conda-forge dependencies",
       "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pypi-ci.yml",
-      "source_repo": "gbionics/adam",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pypi-ci.yml",
-      "source_repo": "gbionics/adam",
-      "target": "actions/setup-python@v5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pypi-ci.yml",
-      "source_repo": "gbionics/adam",
-      "target": "actions/upload-artifact@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pypi-ci.yml",
-      "source_repo": "gbionics/adam",
-      "target": "actions/download-artifact@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pypi-ci.yml",
-      "source_repo": "gbionics/adam",
-      "target": "pypa/gh-action-pypi-publish@release/v1",
-      "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
@@ -286,7 +216,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T14:16:15.827554+00:00",
+  "fetched_at": "2026-05-09T01:41:05.647436+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -303,10 +233,6 @@
     {
       "path": ".github/workflows/conda-forge-tests.yml",
       "size": 2239
-    },
-    {
-      "path": ".github/workflows/pypi-ci.yml",
-      "size": 2196
     },
     {
       "path": ".github/workflows/read_the_docs.yml",
@@ -326,7 +252,7 @@
     "full_name": "gbionics/adam",
     "html_url": "https://github.com/gbionics/adam",
     "language": "Python",
-    "pushed_at": "2026-05-08T09:30:54Z",
+    "pushed_at": "2026-05-08T15:01:49Z",
     "stargazers_count": 217,
     "topics": [
       "adam-robotics",

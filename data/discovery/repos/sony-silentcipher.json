@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-09T00:44:41.517791+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7265
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 640
+    },
+    {
+      "path": "requirements.txt",
+      "size": 157
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "sony/silentcipher",
+    "html_url": "https://github.com/sony/silentcipher",
+    "language": "Python",
+    "pushed_at": "2024-07-22T13:28:50Z",
+    "stargazers_count": 86,
+    "topics": [],
+    "updated_at": "2026-05-04T16:11:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

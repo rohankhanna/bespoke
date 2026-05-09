@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T14:09:27.546035+00:00",
+  "fetched_at": "2026-05-09T01:03:21.724803+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -65,7 +65,7 @@
     "html_url": "https://github.com/google-research/frame-interpolation",
     "language": "Python",
     "pushed_at": "2024-08-10T01:12:48Z",
-    "stargazers_count": 3124,
+    "stargazers_count": 3125,
     "topics": [
       "forward-warp",
       "frame-interpolation",
@@ -73,7 +73,7 @@
       "splatting",
       "video"
     ],
-    "updated_at": "2026-05-05T07:16:30Z"
+    "updated_at": "2026-05-08T16:06:06Z"
   },
   "repo_links": [
     {

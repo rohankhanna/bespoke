@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Freeyourgadget/Gadgetbridge",
+      "target": "amazfit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Freeyourgadget/Gadgetbridge",
+      "target": "android-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Freeyourgadget/Gadgetbridge",
+      "target": "hplus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Freeyourgadget/Gadgetbridge",
+      "target": "mi-band",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Freeyourgadget/Gadgetbridge",
+      "target": "pebble",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Freeyourgadget/Gadgetbridge",
+      "target": "pebble-smartwatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Freeyourgadget/Gadgetbridge",
+      "target": "sexy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Freeyourgadget/Gadgetbridge",
+      "target": "teclast",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-09T00:39:13.791861+00:00",
+  "source_repo": "Freeyourgadget/Gadgetbridge"
+}

@@ -19,6 +19,18 @@
       "source_repo": "inhere/php-console",
       "status": "candidate-context",
       "text": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php-toolkit/pflag",
+      "status": "candidate-context",
+      "text": "Generic PHP command line flags parse library. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php-toolkit/pflag",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/packagist/l/toolkit/pflag.svg?style=flat-square)](LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "inhere/php-console",
       "status": "candidate",
       "text": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php-toolkit/pflag",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/packagist/l/toolkit/pflag.svg?style=flat-square)](LICENSE)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-08T12:43:50.373126+00:00",
       "source_file": null,
       "source_repo": "inhere/php-console"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "php-toolkit/pflag"
     }
   ],
   "first_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
+  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
   "lexical_providers": [
     "datamuse"
   ],

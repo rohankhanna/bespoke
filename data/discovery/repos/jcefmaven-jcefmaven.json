@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-import-gpg@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jcefmaven/jcefmaven",
+      "target": "jcefmaven/jcefsampleapp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml",
+      "source_repo": "jcefmaven/jcefmaven",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml",
+      "source_repo": "jcefmaven/jcefmaven",
+      "target": "crazy-max/ghaction-import-gpg@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-release.yml",
+      "source_repo": "jcefmaven/jcefmaven",
+      "target": "maven-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jcefmaven/jcefmaven",
+      "target": "jcef",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jcefmaven/jcefmaven",
+      "target": "jcef-maven",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T01:08:18.184009+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5939
+    },
+    {
+      "path": "Dockerfile",
+      "size": 390
+    },
+    {
+      "path": ".github/workflows/maven-release.yml",
+      "size": 2333
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Maven artifacts for JCef",
+    "fork": false,
+    "full_name": "jcefmaven/jcefmaven",
+    "html_url": "https://github.com/jcefmaven/jcefmaven",
+    "language": "Java",
+    "pushed_at": "2026-05-05T06:59:29Z",
+    "stargazers_count": 298,
+    "topics": [
+      "jcef",
+      "jcef-maven"
+    ],
+    "updated_at": "2026-05-05T06:41:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jcefmaven/jcefsampleapp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "maven-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-release.yml",
+      "term": "maven-release"
+    },
+    {
+      "context_snippet": "<div id=\"title\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jcef"
+    },
+    {
+      "context_snippet": "<div id=\"title\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jcef-maven"
+    }
+  ]
+}

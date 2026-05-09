@@ -120,7 +120,7 @@
   "normalized_form": "repeat",
   "observation_id": "bba19d7103a6b453",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-08T18:37:42.068971+00:00",
+  "observed_at": "2026-05-09T00:39:13.791861+00:00",
   "observed_text": "repeat",
   "source_context_snippet": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.",
   "source_file": null,

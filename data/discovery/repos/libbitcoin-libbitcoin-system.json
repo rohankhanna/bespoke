@@ -3,6 +3,61 @@
     {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-expanded.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@v2.3.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-expanded.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-expanded.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-expanded.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@v2.3.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-expanded.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-expanded.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-expanded.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@v2.3.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-expanded.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-expanded.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-expanded.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-expanded.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
@@ -66,6 +121,41 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-expanded.yml",
+      "source_repo": "libbitcoin/libbitcoin-system",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-expanded.yml",
+      "source_repo": "libbitcoin/libbitcoin-system",
+      "target": "coverallsapp/github-action@v2.3.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-expanded.yml",
+      "source_repo": "libbitcoin/libbitcoin-system",
+      "target": "actions/upload-artifact@v7.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-expanded.yml",
+      "source_repo": "libbitcoin/libbitcoin-system",
+      "target": "microsoft/setup-msbuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-expanded.yml",
+      "source_repo": "libbitcoin/libbitcoin-system",
+      "target": "Expanded Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "libbitcoin/libbitcoin-system",
       "target": "actions/checkout@v6",
@@ -100,15 +190,19 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T14:01:29.106217+00:00",
+  "fetched_at": "2026-05-09T03:12:56.228569+00:00",
   "fetched_files": [
     {
       "path": "README.md",
       "size": 13027
     },
     {
+      "path": ".github/workflows/ci-expanded.yml",
+      "size": 44919
+    },
+    {
       "path": ".github/workflows/ci.yml",
-      "size": 19761
+      "size": 19978
     }
   ],
   "related_repositories": [],
@@ -120,10 +214,10 @@
     "full_name": "libbitcoin/libbitcoin-system",
     "html_url": "https://github.com/libbitcoin/libbitcoin-system",
     "language": "C++",
-    "pushed_at": "2026-05-07T03:40:24Z",
+    "pushed_at": "2026-05-09T03:06:31Z",
     "stargazers_count": 1387,
     "topics": [],
-    "updated_at": "2026-05-07T03:40:29Z"
+    "updated_at": "2026-05-09T03:06:36Z"
   },
   "repo_links": [
     {
@@ -133,6 +227,12 @@
     }
   ],
   "terms": [
+    {
+      "context_snippet": "Expanded Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-expanded.yml",
+      "term": "Expanded Continuous Integration"
+    },
     {
       "context_snippet": "Continuous Integration",
       "edge_type": "workflow-name",

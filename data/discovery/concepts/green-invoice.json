@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "green-invoice"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Claude-Green-Invoice-Ops-Plugin",
+      "status": "candidate-context",
+      "text": "Green Invoice plugin providing Green Invoice/ Morning MCP and skill definitions to Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Green-Invoice-Ops-Plugin",
+      "status": "candidate-context",
+      "text": "A Claude Code plugin for conducting operations against the [Green Invoice MCP](https://github.com/danielrosehill/GreenInvoice-MCP) server \u2014 the unofficial MCP wrapper around the [Green Invoice](https://www.greeninvoice.co.il/) Israeli invoicing API."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Green-Invoice-Ops-Plugin",
+      "status": "candidate",
+      "text": "A Claude Code plugin for conducting operations against the [Green Invoice MCP](https://github.com/danielrosehill/GreenInvoice-MCP) server \u2014 the unofficial MCP wrapper around the [Green Invoice](https://www.greeninvoice.co.il/) Israeli invoicing API."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "green-invoice",
+  "concept_id": "green-invoice",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Green-Invoice-Ops-Plugin"
+    }
+  ],
+  "first_seen_at": "2026-05-09T00:39:13.791861+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "green-invoice",
+      "sense_id": "green-invoice#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

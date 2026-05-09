@@ -166,6 +166,18 @@
       "source_repo": "sclorg/s2i-ruby-container",
       "status": "candidate-context",
       "text": "Ruby container images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leleliu008/ppkg",
+      "status": "candidate-context",
+      "text": "A portable package builder for Unix-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leleliu008/ppkg",
+      "status": "candidate-context",
+      "text": "Fedora"
     }
   ],
   "candidate_glosses": [
@@ -246,6 +258,12 @@
       "source_repo": "sclorg/s2i-ruby-container",
       "status": "candidate",
       "text": "Ruby container images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leleliu008/ppkg",
+      "status": "candidate",
+      "text": "Fedora"
     }
   ],
   "candidate_related_terms": [
@@ -396,11 +414,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "sclorg/s2i-ruby-container"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": ".github/workflows/fedora.yml",
+      "source_repo": "leleliu008/ppkg"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
   "lexical_providers": [
     "datamuse"
   ],

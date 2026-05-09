@@ -84,7 +84,7 @@
   "normalized_form": "node.js-ci",
   "observation_id": "f15c74360f793341",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-08T12:43:50.373126+00:00",
+  "observed_at": "2026-05-09T00:39:13.791861+00:00",
   "observed_text": "Node.js CI",
   "source_context_snippet": "Node.js CI",
   "source_file": ".github/workflows/node_build.yml",

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abertsch72/unlimiformer",
+      "target": "mivg/sled",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-09T02:08:27.568324+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10141
+    },
+    {
+      "path": "requirements.txt",
+      "size": 123
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Public repo for the NeurIPS 2023 paper \"Unlimiformer: Long-Range Transformers with Unlimited Length Input\"",
+    "fork": false,
+    "full_name": "abertsch72/unlimiformer",
+    "html_url": "https://github.com/abertsch72/unlimiformer",
+    "language": "Python",
+    "pushed_at": "2024-03-07T22:05:38Z",
+    "stargazers_count": 1065,
+    "topics": [],
+    "updated_at": "2026-05-06T09:40:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mivg/sled",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

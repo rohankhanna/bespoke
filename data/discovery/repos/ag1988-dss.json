@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ag1988/dss",
+      "target": "hazyresearch/state-spaces",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ag1988/dss",
+      "target": "google-research/long-range-arena",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-09T02:08:29.975727+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17455
+    },
+    {
+      "path": "requirements.txt",
+      "size": 196
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Sequence Modeling with Structured State Spaces",
+    "fork": true,
+    "full_name": "ag1988/dss",
+    "html_url": "https://github.com/ag1988/dss",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-08-02T07:35:03Z",
+    "stargazers_count": 67,
+    "topics": [],
+    "updated_at": "2025-12-10T12:51:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/long-range-arena",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hazyresearch/state-spaces",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,7 +1,7 @@
 {
   "component": "ncipollo/release-action@339a81892b84b4eeb0f6e744e4574d79d0d9b8dd",
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
-  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
+  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

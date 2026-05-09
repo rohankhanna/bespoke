@@ -228,7 +228,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T14:00:12.013131+00:00",
+  "fetched_at": "2026-05-09T03:11:59.626615+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -265,7 +265,7 @@
     "html_url": "https://github.com/olric-data/olric",
     "language": "Go",
     "pushed_at": "2026-04-03T22:02:03Z",
-    "stargazers_count": 3444,
+    "stargazers_count": 3445,
     "topics": [
       "cache",
       "database",
@@ -279,7 +279,7 @@
       "nosql",
       "redis"
     ],
-    "updated_at": "2026-05-07T11:06:55Z"
+    "updated_at": "2026-05-08T23:27:40Z"
   },
   "repo_links": [
     {

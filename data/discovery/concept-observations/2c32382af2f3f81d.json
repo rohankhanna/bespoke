@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Provide some useful utils for the php CLI. console color, CLI env, CLI code highlighter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![License](https://img.shields.io/packagist/l/toolkit/cli-utils.svg?style=flat-square)](LICENSE)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/packagist/l/toolkit/cli-utils.svg?style=flat-square)](LICENSE)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39899636,
+      "status": "candidate",
+      "text": "pole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39898512,
+      "status": "candidate",
+      "text": "depot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39820396,
+      "status": "candidate",
+      "text": "closing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39819189,
+      "status": "candidate",
+      "text": "final"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39795496,
+      "status": "candidate",
+      "text": "terminus"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "terminal",
+      "sense_id": "terminal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26042,
+      "status": "candidate",
+      "text": "terminus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20044,
+      "status": "candidate",
+      "text": "depot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15048,
+      "status": "candidate",
+      "text": "last"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14044,
+      "status": "candidate",
+      "text": "fatal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8044,
+      "status": "candidate",
+      "text": "closing"
+    }
+  ],
+  "concept_id": "terminal",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "terminal",
+  "observation_id": "2c32382af2f3f81d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-09T00:39:13.791861+00:00",
+  "observed_text": "terminal",
+  "source_context_snippet": "[![License](https://img.shields.io/packagist/l/toolkit/cli-utils.svg?style=flat-square)](LICENSE)",
+  "source_file": null,
+  "source_repo": "php-toolkit/cli-utils",
+  "source_repo_description": "Provide some useful utils for the php CLI. console color, CLI env, CLI code highlighter."
+}

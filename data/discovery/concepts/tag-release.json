@@ -238,6 +238,42 @@
       "source_repo": "inhere/php-console",
       "status": "candidate-context",
       "text": "Tag-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inhere/kite",
+      "status": "candidate-context",
+      "text": "Kite is a CLI application for help development. \u65b9\u4fbf\u672c\u5730\u5f00\u53d1\u548c\u4f7f\u7528\u7684\u4e2a\u4ebaCLI\u5de5\u5177\u5e94\u7528"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inhere/kite",
+      "status": "candidate-context",
+      "text": "Tag-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php-toolkit/cli-utils",
+      "status": "candidate-context",
+      "text": "Provide some useful utils for the php CLI. console color, CLI env, CLI code highlighter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php-toolkit/cli-utils",
+      "status": "candidate-context",
+      "text": "Tag-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php-toolkit/pflag",
+      "status": "candidate-context",
+      "text": "Generic PHP command line flags parse library. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php-toolkit/pflag",
+      "status": "candidate-context",
+      "text": "Tag-release"
     }
   ],
   "candidate_glosses": [
@@ -352,6 +388,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "inhere/php-console",
+      "status": "candidate",
+      "text": "Tag-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inhere/kite",
+      "status": "candidate",
+      "text": "Tag-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php-toolkit/cli-utils",
+      "status": "candidate",
+      "text": "Tag-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php-toolkit/pflag",
       "status": "candidate",
       "text": "Tag-release"
     }
@@ -511,11 +565,35 @@
       "observed_at": "2026-05-08T12:43:50.373126+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "inhere/php-console"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "inhere/kite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "inhere/php-sroute"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "php-toolkit/cli-utils"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "php-toolkit/pflag"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
+  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
   "lexical_providers": [
     "datamuse"
   ],

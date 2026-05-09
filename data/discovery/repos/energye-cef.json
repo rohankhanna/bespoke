@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "energye/cef",
+      "target": "energye/lcl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "energye/cef",
+      "target": "energye/examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "energye/cef",
+      "target": "energye/wv",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-09T01:08:21.005802+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7044
+    },
+    {
+      "path": "go.mod",
+      "size": 39
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CEF is a framework developed by Go language based on CEF (Chromium Embedded Framework) for developing cross-platform desktop applications for Windows, Mac OS X, and Linux",
+    "fork": false,
+    "full_name": "energye/cef",
+    "html_url": "https://github.com/energye/cef",
+    "language": "Go",
+    "pushed_at": "2026-04-29T04:56:31Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2026-02-17T00:12:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "energye/examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "energye/lcl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "energye/wv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

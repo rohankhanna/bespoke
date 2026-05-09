@@ -1,0 +1,466 @@
+{
+  "components": [
+    {
+      "component": "@fortawesome/fontawesome-free",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bulmaswatch",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml"
+    },
+    {
+      "component": "docker/metadata-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inhere/kite",
+      "target": "php-toolkit/cli-utils",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inhere/kite",
+      "target": "php-toolkit/sys-utils",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inhere/kite",
+      "target": "php-toolkit/stdlib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inhere/kite",
+      "target": "jaywcjlove/linux-command",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "inhere/kite",
+      "target": "@fortawesome/fontawesome-free",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "inhere/kite",
+      "target": "bulmaswatch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml",
+      "source_repo": "inhere/kite",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml",
+      "source_repo": "inhere/kite",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/php.yml",
+      "source_repo": "inhere/kite",
+      "target": "Unit-Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml",
+      "source_repo": "inhere/kite",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml",
+      "source_repo": "inhere/kite",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml",
+      "source_repo": "inhere/kite",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml",
+      "source_repo": "inhere/kite",
+      "target": "docker/metadata-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml",
+      "source_repo": "inhere/kite",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-image.yml",
+      "source_repo": "inhere/kite",
+      "target": "Publish-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "inhere/kite",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "inhere/kite",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "inhere/kite",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "inhere/kite",
+      "target": "Tag-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/kite",
+      "target": "autocompletion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/kite",
+      "target": "autojump",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/kite",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/kite",
+      "target": "builtin-command",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/kite",
+      "target": "command-line-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/kite",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/kite",
+      "target": "docsearch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/kite",
+      "target": "gitflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/kite",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/kite",
+      "target": "gitlab-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/kite",
+      "target": "kite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/kite",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhere/kite",
+      "target": "toolkit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T01:01:05.603965+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13433
+    },
+    {
+      "path": "Dockerfile",
+      "size": 195
+    },
+    {
+      "path": "package.json",
+      "size": 330
+    },
+    {
+      "path": ".github/workflows/php.yml",
+      "size": 2863
+    },
+    {
+      "path": ".github/workflows/publish-image.yml",
+      "size": 2463
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2574
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Kite is a CLI application for help development. \u65b9\u4fbf\u672c\u5730\u5f00\u53d1\u548c\u4f7f\u7528\u7684\u4e2a\u4ebaCLI\u5de5\u5177\u5e94\u7528",
+    "fork": false,
+    "full_name": "inhere/kite",
+    "html_url": "https://github.com/inhere/kite",
+    "language": "PHP",
+    "pushed_at": "2026-04-20T02:04:40Z",
+    "stargazers_count": 23,
+    "topics": [
+      "autocompletion",
+      "autojump",
+      "bash",
+      "builtin-command",
+      "command-line-tool",
+      "developer-tools",
+      "docsearch",
+      "git",
+      "gitflow",
+      "github",
+      "gitlab-tool",
+      "kite",
+      "shell",
+      "toolkit"
+    ],
+    "updated_at": "2026-04-20T02:04:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jaywcjlove/linux-command",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "php-toolkit/cli-utils",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "php-toolkit/stdlib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "php-toolkit/sys-utils",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Unit-Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/php.yml",
+      "term": "Unit-Tests"
+    },
+    {
+      "context_snippet": "Publish-image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-image.yml",
+      "term": "Publish-image"
+    },
+    {
+      "context_snippet": "Tag-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Tag-release"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autocompletion"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autojump"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "builtin-command"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-tool"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docsearch"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitflow"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitlab-tool"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kite"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toolkit"
+    }
+  ]
+}

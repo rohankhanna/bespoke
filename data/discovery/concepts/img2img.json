@@ -91,6 +91,18 @@
       "source_repo": "DarthAffe/StableDiffusion.NET",
       "status": "candidate-context",
       "text": "\ufeff# StableDiffusion.NET"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xororz/local-dream",
+      "status": "candidate-context",
+      "text": "Run Stable Diffusion on Android Devices with Snapdragon NPU acceleration. Also supports CPU/GPU inference."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xororz/local-dream",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "DarthAffe/StableDiffusion.NET",
       "status": "candidate",
       "text": "\ufeff# StableDiffusion.NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xororz/local-dream",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "xororz/local-dream"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
   "lexical_providers": [
     "datamuse"
   ],

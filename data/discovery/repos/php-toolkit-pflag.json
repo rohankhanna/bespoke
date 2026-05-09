@@ -1,0 +1,269 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml",
+      "source_repo": "php-toolkit/pflag",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml",
+      "source_repo": "php-toolkit/pflag",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml",
+      "source_repo": "php-toolkit/pflag",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml",
+      "source_repo": "php-toolkit/pflag",
+      "target": "coverallsapp/github-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/php.yml",
+      "source_repo": "php-toolkit/pflag",
+      "target": "Unit-Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "php-toolkit/pflag",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "php-toolkit/pflag",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "php-toolkit/pflag",
+      "target": "Tag-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "php-toolkit/pflag",
+      "target": "cli-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "php-toolkit/pflag",
+      "target": "cli-arguments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "php-toolkit/pflag",
+      "target": "cli-flags",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "php-toolkit/pflag",
+      "target": "cli-options",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "php-toolkit/pflag",
+      "target": "cli-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "php-toolkit/pflag",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "php-toolkit/pflag",
+      "target": "command-line-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "php-toolkit/pflag",
+      "target": "flag-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "php-toolkit/pflag",
+      "target": "flags",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T01:01:20.585187+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12523
+    },
+    {
+      "path": ".github/workflows/php.yml",
+      "size": 2413
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1192
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Generic PHP command line flags parse library. ",
+    "fork": false,
+    "full_name": "php-toolkit/pflag",
+    "html_url": "https://github.com/php-toolkit/pflag",
+    "language": "PHP",
+    "pushed_at": "2026-04-13T10:10:03Z",
+    "stargazers_count": 34,
+    "topics": [
+      "cli",
+      "cli-application",
+      "cli-arguments",
+      "cli-flags",
+      "cli-options",
+      "cli-parser",
+      "command-line",
+      "command-line-app",
+      "flag-parser",
+      "flags"
+    ],
+    "updated_at": "2026-04-13T10:10:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Unit-Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/php.yml",
+      "term": "Unit-Tests"
+    },
+    {
+      "context_snippet": "Tag-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Tag-release"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/toolkit/pflag.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cli-application"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/toolkit/pflag.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cli-arguments"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/toolkit/pflag.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cli-flags"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/toolkit/pflag.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cli-options"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/toolkit/pflag.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cli-parser"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/toolkit/pflag.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/toolkit/pflag.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-app"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/toolkit/pflag.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flag-parser"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/packagist/l/toolkit/pflag.svg?style=flat-square)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flags"
+    }
+  ]
+}

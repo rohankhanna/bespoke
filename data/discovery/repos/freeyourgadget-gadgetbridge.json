@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Freeyourgadget/Gadgetbridge",
+      "target": "amazfit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Freeyourgadget/Gadgetbridge",
+      "target": "android-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Freeyourgadget/Gadgetbridge",
+      "target": "hplus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Freeyourgadget/Gadgetbridge",
+      "target": "mi-band",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Freeyourgadget/Gadgetbridge",
+      "target": "pebble",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Freeyourgadget/Gadgetbridge",
+      "target": "pebble-smartwatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Freeyourgadget/Gadgetbridge",
+      "target": "sexy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Freeyourgadget/Gadgetbridge",
+      "target": "teclast",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T00:58:11.511296+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5055
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "We are on codeberg.org now! https://codeberg.org/Freeyourgadget/Gadgetbridge -  Gadgetbridge - A free and cloudless replacement for your gadget vendors' closed source Android applications. Supports Pebble, Mi Band, Liveview, HPlus and more.",
+    "fork": false,
+    "full_name": "Freeyourgadget/Gadgetbridge",
+    "html_url": "https://github.com/Freeyourgadget/Gadgetbridge",
+    "language": "Java",
+    "pushed_at": "2024-12-23T17:24:07Z",
+    "stargazers_count": 4514,
+    "topics": [
+      "amazfit",
+      "android-application",
+      "hplus",
+      "mi-band",
+      "pebble",
+      "pebble-smartwatch",
+      "sexy",
+      "teclast"
+    ],
+    "updated_at": "2026-05-08T19:53:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Gadgetbridge is now hosted on [codeberg.org](https://codeberg.org/Freeyourgadget/Gadgetbridge/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amazfit"
+    },
+    {
+      "context_snippet": "Gadgetbridge is now hosted on [codeberg.org](https://codeberg.org/Freeyourgadget/Gadgetbridge/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-application"
+    },
+    {
+      "context_snippet": "Gadgetbridge is now hosted on [codeberg.org](https://codeberg.org/Freeyourgadget/Gadgetbridge/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hplus"
+    },
+    {
+      "context_snippet": "Gadgetbridge is now hosted on [codeberg.org](https://codeberg.org/Freeyourgadget/Gadgetbridge/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mi-band"
+    },
+    {
+      "context_snippet": "Gadgetbridge is now hosted on [codeberg.org](https://codeberg.org/Freeyourgadget/Gadgetbridge/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pebble"
+    },
+    {
+      "context_snippet": "Gadgetbridge is now hosted on [codeberg.org](https://codeberg.org/Freeyourgadget/Gadgetbridge/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pebble-smartwatch"
+    },
+    {
+      "context_snippet": "Gadgetbridge is now hosted on [codeberg.org](https://codeberg.org/Freeyourgadget/Gadgetbridge/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sexy"
+    },
+    {
+      "context_snippet": "Gadgetbridge is now hosted on [codeberg.org](https://codeberg.org/Freeyourgadget/Gadgetbridge/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "teclast"
+    }
+  ]
+}

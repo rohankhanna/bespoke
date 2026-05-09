@@ -48,7 +48,7 @@
   "normalized_form": "release-holochain-binaries",
   "observation_id": "f93fc81aa66d87c2",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-08T18:37:42.068971+00:00",
+  "observed_at": "2026-05-09T00:39:13.791861+00:00",
   "observed_text": "release-holochain-binaries",
   "source_context_snippet": "'release-holochain-binaries'",
   "source_file": ".github/workflows/holochain-binaries.yaml",

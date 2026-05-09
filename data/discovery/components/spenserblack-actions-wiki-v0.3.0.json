@@ -1,0 +1,17 @@
+{
+  "component": "spenserblack/actions-wiki@v0.3.0",
+  "first_seen_at": "2026-05-09T00:39:13.791861+00:00",
+  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "saecki/crates.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "saecki/crates.nvim"
+    }
+  ]
+}

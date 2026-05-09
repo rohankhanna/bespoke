@@ -1,0 +1,83 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Green-Invoice-Ops-Plugin",
+      "target": "jango-ai-com/morning-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Green-Invoice-Ops-Plugin",
+      "target": "d1dx/morning-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Green-Invoice-Ops-Plugin",
+      "target": "accounting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Green-Invoice-Ops-Plugin",
+      "target": "green-invoice",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T03:07:53.349493+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2400
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Green Invoice plugin providing Green Invoice/ Morning MCP and skill definitions to Claude Code",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Green-Invoice-Ops-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Green-Invoice-Ops-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-20T14:44:29Z",
+    "stargazers_count": 0,
+    "topics": [
+      "accounting",
+      "green-invoice"
+    ],
+    "updated_at": "2026-04-20T14:44:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "d1dx/morning-skill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jango-ai-com/morning-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A Claude Code plugin for conducting operations against the [Green Invoice MCP](https://github.com/danielrosehill/GreenInvoice-MCP) server \u2014 the unofficial MCP wrapper around the [Green Invoice](https://www.greeninvoice.co.il/) Israeli invoicing API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "accounting"
+    },
+    {
+      "context_snippet": "A Claude Code plugin for conducting operations against the [Green Invoice MCP](https://github.com/danielrosehill/GreenInvoice-MCP) server \u2014 the unofficial MCP wrapper around the [Green Invoice](https://www.greeninvoice.co.il/) Israeli invoicing API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "green-invoice"
+    }
+  ]
+}

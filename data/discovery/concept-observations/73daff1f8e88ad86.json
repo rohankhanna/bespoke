@@ -84,7 +84,7 @@
   "normalized_form": "closed-issue-message",
   "observation_id": "73daff1f8e88ad86",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-08T18:37:42.068971+00:00",
+  "observed_at": "2026-05-09T00:39:13.791861+00:00",
   "observed_text": "Closed issue message",
   "source_context_snippet": "Closed issue message",
   "source_file": ".github/workflows/close_issue_message.yml",

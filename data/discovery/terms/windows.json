@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-05-08T18:37:42.068971+00:00",
+  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -1086,6 +1086,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "energye/energy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "energye/designer"
     }
   ],
   "term": "Windows"

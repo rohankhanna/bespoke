@@ -1663,6 +1663,18 @@
       "source_repo": "phuslu/log",
       "status": "candidate-context",
       "text": "[![godoc][godoc-img]][godoc]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webview2/EdgeSharp",
+      "status": "candidate-context",
+      "text": "Build .NET Win32/WinForms/WPF WebView2 HTML5 Desktop Apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webview2/EdgeSharp",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://github.com/edgesharp/EdgeSharp/blob/main/src/EdgeSharp.Core/edgesharp.png?raw=true\" /></p>"
     }
   ],
   "candidate_glosses": [
@@ -2493,6 +2505,12 @@
       "source_repo": "phuslu/log",
       "status": "candidate",
       "text": "[![godoc][godoc-img]][godoc]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webview2/EdgeSharp",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://github.com/edgesharp/EdgeSharp/blob/main/src/EdgeSharp.Core/edgesharp.png?raw=true\" /></p>"
     }
   ],
   "candidate_related_terms": [
@@ -4173,11 +4191,53 @@
       "observed_at": "2026-05-08T18:37:42.068971+00:00",
       "source_file": null,
       "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/quotes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T18:37:42.068971+00:00",
+  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
   "lexical_providers": [
     "datamuse"
   ],

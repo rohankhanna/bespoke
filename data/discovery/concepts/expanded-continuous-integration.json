@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Expanded Continuous Integration"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libbitcoin/libbitcoin-system",
+      "status": "candidate-context",
+      "text": "Bitcoin Cross-Platform C++ Development Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libbitcoin/libbitcoin-system",
+      "status": "candidate-context",
+      "text": "Expanded Continuous Integration"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libbitcoin/libbitcoin-system",
+      "status": "candidate",
+      "text": "Expanded Continuous Integration"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18155,
+      "status": "candidate",
+      "text": "disk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18155,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18155,
+      "status": "candidate",
+      "text": "round"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18155,
+      "status": "candidate",
+      "text": "sheet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18141,
+      "status": "candidate",
+      "text": "extend"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Expanded Continuous Integration",
+  "concept_id": "expanded-continuous-integration",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T00:39:13.791861+00:00",
+      "source_file": ".github/workflows/ci-expanded.yml",
+      "source_repo": "libbitcoin/libbitcoin-system"
+    }
+  ],
+  "first_seen_at": "2026-05-09T00:39:13.791861+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Expanded Continuous Integration",
+      "sense_id": "expanded-continuous-integration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}
