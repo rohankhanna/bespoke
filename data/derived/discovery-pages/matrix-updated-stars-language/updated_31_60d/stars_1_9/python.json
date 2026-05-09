@@ -3,7 +3,7 @@
     "components": 65,
     "concepts": 59,
     "observations": 59,
-    "repos": 25,
+    "repos": 27,
     "terms": 58
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "42-evey/evey-bridge-plugin",
+    "agenmod/okr-skill",
     "al1-nasir/Research_council",
     "alexpolonsky/agent-skill-ontopo",
     "astroyat/lerobot",
@@ -31,6 +32,7 @@
     "KabakaWilliam/trajectorykit",
     "ldayton/parable",
     "ldayton/Tongues",
+    "Mbed-TLS/mbedtls-framework",
     "Mercury13/unicodia-sesh",
     "openelections/openelections-data-sd",
     "radian-software/gnu-elpa-mirror",

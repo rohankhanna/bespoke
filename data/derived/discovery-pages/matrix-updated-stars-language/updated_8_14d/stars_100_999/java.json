@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 278,
-    "concepts": 293,
-    "observations": 293,
-    "repos": 39,
-    "terms": 291
+    "components": 279,
+    "concepts": 302,
+    "observations": 302,
+    "repos": 40,
+    "terms": 300
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "allegro/hermes",
     "apache/commons-jexl",
@@ -32,13 +32,14 @@
     "FasterXML/jackson-dataformats-text",
     "FasterXML/jackson-modules-base",
     "googleapis/java-bigtable-hbase",
-    "graalvm/graalvm-demos",
     "heroku/webapp-runner",
+    "ihmcrobotics/ihmc-open-robotics-software",
     "jpmml/jpmml-lightgbm",
     "jpmml/jpmml-sklearn",
     "jpmml/jpmml-xgboost",
     "kirill-grouchnikov/radiance",
     "michel-kraemer/bson4jackson",
+    "microsoft/LangChain4j-for-Beginners",
     "microsoft/vscode-java-test",
     "operator-framework/java-operator-sdk",
     "palantir/javapoet",
@@ -47,8 +48,8 @@
     "reactor/reactor-addons",
     "revelc/formatter-maven-plugin",
     "saalfeldlab/n5",
+    "samtools/htsjdk",
     "SAP/SapMachine",
-    "sevntu-checkstyle/sevntu.checkstyle",
     "swagger-api/swagger-parser",
     "ThreeTen/threetenbp",
     "wildfly/quickstart",

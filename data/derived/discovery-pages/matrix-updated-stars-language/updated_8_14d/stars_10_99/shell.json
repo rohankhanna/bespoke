@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 67,
-    "concepts": 78,
-    "observations": 78,
-    "repos": 18,
-    "terms": 76
+    "components": 87,
+    "concepts": 110,
+    "observations": 110,
+    "repos": 21,
+    "terms": 108
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
-    "acmesh-official/acmetest",
     "Alexpux/MINGW-packages",
     "bufbuild/homebrew-buf",
     "cilium/community",
@@ -23,13 +22,17 @@
     "dotenvx/dotenvx.sh",
     "electerm/electerm-web-docker",
     "helidon-io/helidon-examples",
+    "heroku/heroku-buildpack-dotnet",
     "heroku/heroku-buildpack-gradle",
+    "heroku/heroku-buildpack-jvm-common",
     "honwen/openwrt-dnsmasq-extra",
     "pkgxdev/mash",
     "postmodern/ruby-versions",
     "quarkusio/quarkus-ecosystem-ci",
     "reviewdog/action-depup",
     "rocq-prover/docker-opam-action",
+    "sclorg/s2i-perl-container",
+    "sclorg/s2i-ruby-container",
     "tinted-theming/tinted-shell",
     "tinted-theming/tinted-terminal"
   ]

@@ -3,7 +3,7 @@
     "components": 1140,
     "concepts": 488,
     "observations": 490,
-    "repos": 401,
+    "repos": 404,
     "terms": 488
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "2KAbhishek/exercism-fetcher",
@@ -53,6 +53,8 @@
     "altgr/opam-publish",
     "americanpresidentjimmycarter/xformers-builds",
     "andreivasiliu/quad-net",
+    "AniAggarwal/calculate-flops.pytorch",
+    "AniAggarwal/clip-score",
     "anonymized-transformer/anonymized-transformer.github.io",
     "apache/sling-org-apache-sling-feature-modelconverter",
     "aq-sensors/airbeamr",
@@ -372,6 +374,7 @@
     "securefederatedai/artwork",
     "ShenhanQian/nvdiffrast",
     "shesek/rust-jsonrpc",
+    "simrat39/rust-tools-demos",
     "songquanpeng/blog-theme-bootstrap",
     "songquanpeng/blog-theme-bootstrap5",
     "songquanpeng/blog-theme-next",

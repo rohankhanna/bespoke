@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 137,
-    "concepts": 162,
-    "observations": 164,
+    "components": 135,
+    "concepts": 151,
+    "observations": 153,
     "repos": 39,
-    "terms": 158
+    "terms": 147
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "adamritter/fastgron",
-    "apache/casbin-cpp",
     "ARM-software/EndpointAI",
     "arminbiere/aiger",
     "beached/daw_json_link",
@@ -48,6 +47,7 @@
     "sheredom/ubench.h",
     "starwing/luautf8",
     "swaywm/swaybg",
+    "usnistgov/trec_eval",
     "ValveSoftware/Fossilize",
     "veorq/SipHash",
     "websockets/bufferutil",

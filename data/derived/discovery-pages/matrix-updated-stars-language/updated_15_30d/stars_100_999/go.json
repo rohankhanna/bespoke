@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 789,
-    "concepts": 647,
-    "observations": 653,
-    "repos": 107,
-    "terms": 657
+    "components": 821,
+    "concepts": 669,
+    "observations": 675,
+    "repos": 109,
+    "terms": 679
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "a2aproject/a2a-go",
@@ -35,7 +35,6 @@
     "bazel-contrib/rules_img",
     "bernardo-bruning/ollama-copilot",
     "bitrise-io/envman",
-    "bluesky-social/goat",
     "bufbuild/protovalidate-go",
     "ByteNess/aws-vault",
     "celestiaorg/celestia-node",
@@ -44,6 +43,7 @@
     "charmbracelet/catwalk",
     "charmbracelet/colorprofile",
     "cloudflare/go",
+    "cloudfoundry/bosh-bootloader",
     "cloudfoundry/gosigar",
     "coder/code-marketplace",
     "coder/envbuilder",
@@ -58,6 +58,7 @@
     "ethereum-optimism/op-geth",
     "ethereum/hive",
     "foxj77/claudectx",
+    "go-git/go-billy",
     "go-openapi/swag",
     "go-viper/mapstructure",
     "google/trillian-examples",
@@ -72,7 +73,9 @@
     "hashicorp/terraform-provider-scaffolding-framework",
     "hazelcast/hazelcast-go-client",
     "helm/chart-releaser",
+    "ipfs/boxo",
     "ipfs/go-cid",
+    "ipfs/rainbow",
     "jaegertracing/jaeger-idl",
     "JupiterRider/ffi",
     "knative/community",
@@ -92,7 +95,6 @@
     "Layr-Labs/eigenda",
     "letsencrypt/pebble",
     "linxGnu/grocksdb",
-    "mailru/go-clickhouse",
     "maragudk/gomponents-starter-kit",
     "mattn/go-runewidth",
     "microsoft/cognitive-services-speech-sdk-go",

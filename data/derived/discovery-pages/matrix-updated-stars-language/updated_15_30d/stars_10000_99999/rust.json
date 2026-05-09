@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 781,
+    "components": 783,
     "concepts": 461,
     "observations": 462,
     "repos": 48,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
+    "aaif-goose/goose",
     "actix/actix-web",
     "ajeetdsouza/zoxide",
     "analysis-tools-dev/static-analysis",
@@ -40,7 +41,6 @@
     "hyperium/tonic",
     "jdx/mise",
     "launchbadge/sqlx",
-    "lsd-rs/lsd",
     "microsoft/windows-rs",
     "nearai/ironclaw",
     "openai/codex",

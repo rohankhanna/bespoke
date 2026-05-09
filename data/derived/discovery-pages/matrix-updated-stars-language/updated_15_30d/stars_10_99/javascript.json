@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1041,
-    "concepts": 266,
-    "observations": 266,
-    "repos": 64,
-    "terms": 266
+    "concepts": 260,
+    "observations": 260,
+    "repos": 65,
+    "terms": 260
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "ahmadnassri/node-glob-promise",
     "alexellis/arkade-get",
@@ -20,7 +20,6 @@
     "bmad-code-org/bmad-module-creative-intelligence-suite",
     "browserslist/lint",
     "bufbuild/protobuf-conformance",
-    "coderaiser/supertape",
     "dwyl/aws-ses-lambda",
     "dwyl/hapi-postgres-connection",
     "ehmicky/all-node-versions",
@@ -47,6 +46,7 @@
     "locize/locize",
     "locize/locize-cli",
     "locize/locizify",
+    "mainmatter/ember-vite-codemod",
     "mapbox/node-srs",
     "mapbox/node-tilejson",
     "mapbox/point-geometry",
@@ -57,11 +57,13 @@
     "newrelic/newrelic-node-apollo-server-plugin",
     "newrelic/newrelic-node-examples",
     "npm/types",
+    "oclif/oclif.github.io",
     "octokit/app-permissions",
     "octokit/openapi",
     "octokit/openapi-types.ts",
     "patrik-csak/auto-terminal-profile",
     "peergos/web-ui",
+    "r-lyeh/gamebook",
     "rashfael/eslint-plugin-vue-pug",
     "reZach/i18next-electron-fs-backend",
     "reZach/secure-electron-context-menu",
@@ -76,7 +78,6 @@
     "web-platform-tests/results-analysis",
     "webtorrent/bittorrent-lsd",
     "webtorrent/bittorrent-peerid",
-    "wemake-services/wemake-frontend-styleguide",
     "winstonjs/winston-transport"
   ]
 }

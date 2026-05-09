@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 594,
-    "concepts": 99,
-    "observations": 99,
-    "repos": 41,
-    "terms": 100
+    "components": 686,
+    "concepts": 109,
+    "observations": 109,
+    "repos": 44,
+    "terms": 110
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "adriantoine/enzyme-to-json",
     "agenda/agendash",
@@ -29,6 +29,7 @@
     "fengari-lua/fengari-interop",
     "gherghett/Antigravity-Shit-Chat",
     "kaorahi/lizgoban",
+    "kategengler/ember-feature-flags",
     "latex-lsp/tree-sitter-latex",
     "Level/awesome",
     "lit/lit-element-starter-ts",
@@ -43,6 +44,7 @@
     "omnidan/redux-recycle",
     "omnidan/redux-undo-boilerplate",
     "pmndrs/three-stdlib",
+    "prebuild/prebuild",
     "restify/errors",
     "RJWadley/stylelint-no-unsupported-browser-features",
     "RReverser/wasm-bindgen-rayon",
@@ -52,6 +54,7 @@
     "sindresorhus/env-paths",
     "stsquad/emacs_chrome",
     "sveltejs/rollup-plugin-svelte",
+    "svg-sprite/gulp-svg-sprite",
     "tonyganch/gonzales-pe",
     "tree-sitter/tree-sitter-javascript",
     "ValYouW/njsTrace"

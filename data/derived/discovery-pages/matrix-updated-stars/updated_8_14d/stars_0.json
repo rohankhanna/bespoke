@@ -1,23 +1,23 @@
 {
   "counts": {
-    "components": 127,
-    "concepts": 94,
-    "observations": 94,
-    "repos": 66,
-    "terms": 94
+    "components": 147,
+    "concepts": 72,
+    "observations": 72,
+    "repos": 62,
+    "terms": 72
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "aidenlab/spacewalk",
     "aidenlab/swtool",
+    "angular/angular-build-builds",
     "arnaud-lb/php-rdkafka-doc",
     "buty4649/mruby-yyjson",
-    "conda-forge/xeus-cpp-feedstock",
     "csm-actions/demo-client",
     "danielrosehill/AI-Dev-Repo-Template-1",
     "danielrosehill/AI-Dev-Workspace-Primitives",
@@ -47,6 +47,7 @@
     "danielrosehill/Claude-Get-Toony-Plugin",
     "danielrosehill/Claude-GIMP-Plugin",
     "danielrosehill/Claude-Github-Explorer-Plugin",
+    "danielrosehill/Claude-GPG-Ops-Plugin",
     "danielrosehill/Claude-Hopper",
     "danielrosehill/DOCS.md",
     "danielrosehill/ENVIRONMENT.md",
@@ -63,21 +64,16 @@
     "ipfs-examples/github-mgmt",
     "JuliaBinaryWrappers/Expat_jll.jl",
     "JuliaBinaryWrappers/GDAL_jll.jl",
+    "kalavai-net/kalavai-templates",
     "kyverno/.github",
+    "lace/lacecore",
     "lakekeeper/lakekeeper-operator",
-    "mukel/gptoss.java",
-    "mukel/nemotron3.java",
     "netdur/imaged-sdk-examples",
     "NightWatcher314/dockgecli",
     "NightWatcher314/npmctl",
-    "nodenv/node-build-prerelease",
     "qiayuanl/unitree_buildfarm",
-    "regro/cf-graph-countyfair",
     "sp1-patches/elliptic-curves",
     "squidowl/iced",
-    "stable-haskell/haskell-language-server",
-    "Strivin0311/strivin0311.github.io",
-    "superfarther/K2V",
-    "TransferQueue/community_doc"
+    "superfarther/K2V"
   ]
 }

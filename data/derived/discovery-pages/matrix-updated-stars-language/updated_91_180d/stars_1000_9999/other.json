@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 344,
-    "concepts": 376,
-    "observations": 378,
-    "repos": 84,
-    "terms": 376
+    "components": 343,
+    "concepts": 374,
+    "observations": 376,
+    "repos": 85,
+    "terms": 373
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,19 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "Alexander-Miller/treemacs",
     "ankane/dexter",
     "ankane/pgslice",
     "ankane/pgsync",
     "auto-complete/auto-complete",
+    "bakpakin/Fennel",
     "bazelbuild/rules_docker",
     "bencodezen/vue-enterprise-boilerplate",
     "bkeepers/dotenv",
     "black7375/Firefox-UI-Fix",
+    "breezedeus/Pix2Text",
     "brianmario/charlock_holmes",
     "carrierwaveuploader/carrierwave",
     "ChaoningZhang/MobileSAM",
@@ -42,7 +44,6 @@
     "fsprojects/Paket",
     "Fuco1/smartparens",
     "fukuball/jieba-php",
-    "GEOSwift/GEOSwift",
     "gf3/dotfiles",
     "globalize/globalize",
     "google/gumbo-parser",

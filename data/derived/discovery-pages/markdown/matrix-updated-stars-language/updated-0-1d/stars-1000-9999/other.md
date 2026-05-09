@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-05-08T07:13:05.364640+00:00`
+Generated at: `2026-05-09T05:34:16.337725+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 11
-- terms: 118
-- components: 118
-- concepts: 118
-- observations: 119
+- repos: 14
+- terms: 155
+- components: 142
+- concepts: 155
+- observations: 156
 
 ## Static behavior
 
@@ -26,30 +26,36 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [kurrent-io/KurrentDB](https://github.com/kurrent-io/KurrentDB) | 5785 | 2026-05-08T07:00:05Z | Other | Infrastructure/tooling | 12 | 12 | 12 | 12 |
-| [swiftlang/llvm-project](https://github.com/swiftlang/llvm-project) | 1224 | 2026-05-08T06:59:41Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
-| [microsoft/aspire](https://github.com/microsoft/aspire) | 5897 | 2026-05-08T02:43:57Z | Other | Infrastructure/tooling | 9 | 14 | 9 | 9 |
-| [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 5919 | 2026-05-08T01:41:12Z | Other | Infrastructure/tooling | 24 | 13 | 24 | 24 |
-| [dotnet/Silk.NET](https://github.com/dotnet/Silk.NET) | 5030 | 2026-05-08T01:14:23Z | Other | Infrastructure/tooling | 24 | 14 | 24 | 25 |
-| [firebase/flutterfire](https://github.com/firebase/flutterfire) | 9195 | 2026-05-07T22:48:10Z | Other | Infrastructure/tooling | 11 | 23 | 11 | 11 |
-| [TryGhost/node-sqlite3](https://github.com/TryGhost/node-sqlite3) | 6416 | 2026-05-07T22:47:24Z | Other | Infrastructure/tooling | 0 | 12 | 0 | 0 |
-| [okd-project/okd](https://github.com/okd-project/okd) | 2063 | 2026-05-07T21:34:20Z | Other | Infrastructure/tooling | 3 | 0 | 3 | 3 |
-| [datalevin/datalevin](https://github.com/datalevin/datalevin) | 1418 | 2026-05-07T20:17:04Z | Other | CLI | 10 | 14 | 10 | 10 |
-| [psmux/psmux](https://github.com/psmux/psmux) | 1849 | 2026-05-07T18:22:00Z | Other | CLI | 16 | 5 | 16 | 16 |
-| [swiftlang/swift-syntax](https://github.com/swiftlang/swift-syntax) | 3636 | 2026-05-07T15:33:22Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [microsoft/aspire](https://github.com/microsoft/aspire) | 5906 | 2026-05-09T02:46:17Z | Other | Infrastructure/tooling | 9 | 14 | 9 | 9 |
+| [microsoft/aspire-samples](https://github.com/microsoft/aspire-samples) | 1173 | 2026-05-09T01:48:45Z | Other | Infrastructure/tooling | 6 | 11 | 6 | 6 |
+| [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 5921 | 2026-05-09T01:29:21Z | Other | Infrastructure/tooling | 24 | 13 | 24 | 24 |
+| [swiftlang/llvm-project](https://github.com/swiftlang/llvm-project) | 1224 | 2026-05-09T01:26:43Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
+| [all-contributors/allcontributors.org](https://github.com/all-contributors/allcontributors.org) | 8039 | 2026-05-09T01:19:24Z | Other | Infrastructure/tooling | 10 | 23 | 10 | 10 |
+| [microsoft/PhiCookBook](https://github.com/microsoft/PhiCookBook) | 3731 | 2026-05-09T00:56:25Z | Other | Model/data | 12 | 0 | 12 | 12 |
+| [dotnet/Silk.NET](https://github.com/dotnet/Silk.NET) | 5031 | 2026-05-08T22:53:42Z | Other | Infrastructure/tooling | 24 | 14 | 24 | 25 |
+| [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) | 2662 | 2026-05-08T22:53:24Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
+| [firebase/flutterfire](https://github.com/firebase/flutterfire) | 9195 | 2026-05-08T20:44:56Z | Other | Infrastructure/tooling | 11 | 23 | 11 | 11 |
+| [psmux/psmux](https://github.com/psmux/psmux) | 1872 | 2026-05-08T20:08:02Z | Other | CLI | 16 | 5 | 16 | 16 |
+| [swiftlang/swift-syntax](https://github.com/swiftlang/swift-syntax) | 3637 | 2026-05-08T19:14:27Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [intel/BigDL](https://github.com/intel/BigDL) | 2695 | 2026-05-08T17:54:20Z | Other | Infrastructure/tooling | 15 | 6 | 15 | 15 |
+| [kurrent-io/KurrentDB](https://github.com/kurrent-io/KurrentDB) | 5787 | 2026-05-08T13:18:18Z | Other | Infrastructure/tooling | 12 | 12 | 12 | 12 |
+| [dotnet/reactive](https://github.com/dotnet/reactive) | 7146 | 2026-05-08T08:38:15Z | Other | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [firebase/flutterfire](https://github.com/firebase/flutterfire) | 9195 | 2026-05-07T22:48:10Z | Other | Infrastructure/tooling | 11 | 23 | 11 | 11 |
-| [TryGhost/node-sqlite3](https://github.com/TryGhost/node-sqlite3) | 6416 | 2026-05-07T22:47:24Z | Other | Infrastructure/tooling | 0 | 12 | 0 | 0 |
-| [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 5919 | 2026-05-08T01:41:12Z | Other | Infrastructure/tooling | 24 | 13 | 24 | 24 |
-| [microsoft/aspire](https://github.com/microsoft/aspire) | 5897 | 2026-05-08T02:43:57Z | Other | Infrastructure/tooling | 9 | 14 | 9 | 9 |
-| [kurrent-io/KurrentDB](https://github.com/kurrent-io/KurrentDB) | 5785 | 2026-05-08T07:00:05Z | Other | Infrastructure/tooling | 12 | 12 | 12 | 12 |
-| [dotnet/Silk.NET](https://github.com/dotnet/Silk.NET) | 5030 | 2026-05-08T01:14:23Z | Other | Infrastructure/tooling | 24 | 14 | 24 | 25 |
-| [swiftlang/swift-syntax](https://github.com/swiftlang/swift-syntax) | 3636 | 2026-05-07T15:33:22Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
-| [okd-project/okd](https://github.com/okd-project/okd) | 2063 | 2026-05-07T21:34:20Z | Other | Infrastructure/tooling | 3 | 0 | 3 | 3 |
-| [psmux/psmux](https://github.com/psmux/psmux) | 1849 | 2026-05-07T18:22:00Z | Other | CLI | 16 | 5 | 16 | 16 |
-| [datalevin/datalevin](https://github.com/datalevin/datalevin) | 1418 | 2026-05-07T20:17:04Z | Other | CLI | 10 | 14 | 10 | 10 |
-| [swiftlang/llvm-project](https://github.com/swiftlang/llvm-project) | 1224 | 2026-05-08T06:59:41Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
+| [firebase/flutterfire](https://github.com/firebase/flutterfire) | 9195 | 2026-05-08T20:44:56Z | Other | Infrastructure/tooling | 11 | 23 | 11 | 11 |
+| [all-contributors/allcontributors.org](https://github.com/all-contributors/allcontributors.org) | 8039 | 2026-05-09T01:19:24Z | Other | Infrastructure/tooling | 10 | 23 | 10 | 10 |
+| [dotnet/reactive](https://github.com/dotnet/reactive) | 7146 | 2026-05-08T08:38:15Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 5921 | 2026-05-09T01:29:21Z | Other | Infrastructure/tooling | 24 | 13 | 24 | 24 |
+| [microsoft/aspire](https://github.com/microsoft/aspire) | 5906 | 2026-05-09T02:46:17Z | Other | Infrastructure/tooling | 9 | 14 | 9 | 9 |
+| [kurrent-io/KurrentDB](https://github.com/kurrent-io/KurrentDB) | 5787 | 2026-05-08T13:18:18Z | Other | Infrastructure/tooling | 12 | 12 | 12 | 12 |
+| [dotnet/Silk.NET](https://github.com/dotnet/Silk.NET) | 5031 | 2026-05-08T22:53:42Z | Other | Infrastructure/tooling | 24 | 14 | 24 | 25 |
+| [microsoft/PhiCookBook](https://github.com/microsoft/PhiCookBook) | 3731 | 2026-05-09T00:56:25Z | Other | Model/data | 12 | 0 | 12 | 12 |
+| [swiftlang/swift-syntax](https://github.com/swiftlang/swift-syntax) | 3637 | 2026-05-08T19:14:27Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [intel/BigDL](https://github.com/intel/BigDL) | 2695 | 2026-05-08T17:54:20Z | Other | Infrastructure/tooling | 15 | 6 | 15 | 15 |
+| [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) | 2662 | 2026-05-08T22:53:24Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
+| [psmux/psmux](https://github.com/psmux/psmux) | 1872 | 2026-05-08T20:08:02Z | Other | CLI | 16 | 5 | 16 | 16 |
+| [swiftlang/llvm-project](https://github.com/swiftlang/llvm-project) | 1224 | 2026-05-09T01:26:43Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
+| [microsoft/aspire-samples](https://github.com/microsoft/aspire-samples) | 1173 | 2026-05-09T01:48:45Z | Other | Infrastructure/tooling | 6 | 11 | 6 | 6 |

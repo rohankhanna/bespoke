@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 9200,
-    "concepts": 10921,
-    "observations": 10947,
-    "repos": 2263,
-    "terms": 10827
+    "concepts": 10927,
+    "observations": 10953,
+    "repos": 2266,
+    "terms": 10836
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "0xPolygonHermez/pil2-proofman-js",
@@ -1080,6 +1080,7 @@
     "isl-org/open3d-cmake-find-package",
     "isovic/racon",
     "ispc/ispc",
+    "IST-DASLab/QUIK",
     "IST-DASLab/qutlass",
     "istio/proxy",
     "itinance/react-native-fs",
@@ -2055,6 +2056,7 @@
     "theimpossibleastronaut/rmw",
     "Themaister/Granite",
     "thestk/rtmidi",
+    "ThisisBillhe/torch_quantizer",
     "thlorenz/learnuv",
     "ThrowTheSwitch/Unity",
     "thunlp/FR-Spec",
@@ -2233,6 +2235,7 @@
     "xuankuzcr/Global-LVBA",
     "xuankuzcr/LIV_handhold",
     "xuankuzcr/rpg_vikit",
+    "xuegao-tzx/Fllama",
     "y-chan/node-voicevox-engine",
     "YACReader/yacreader",
     "yamachu/VoicevoxCoreSwift",

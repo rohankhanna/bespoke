@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 176,
-    "concepts": 162,
-    "observations": 162,
-    "repos": 16,
-    "terms": 159
+    "components": 143,
+    "concepts": 130,
+    "observations": 130,
+    "repos": 12,
+    "terms": 127
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,17 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "apache/brpc",
-    "capnproto/capnproto",
-    "duckdb/duckdb",
     "emscripten-core/emscripten",
+    "ggml-org/ggml",
     "ggml-org/whisper.cpp",
     "google-deepmind/mujoco",
+    "isl-org/Open3D",
     "jqlang/jq",
     "jrouwe/JoltPhysics",
-    "libsdl-org/SDL",
-    "micropython/micropython",
     "mozilla-ai/llamafile",
-    "openvinotoolkit/openvino",
-    "PointCloudLibrary/pcl",
     "protocolbuffers/protobuf",
     "simdjson/simdjson",
     "Z3Prover/z3"

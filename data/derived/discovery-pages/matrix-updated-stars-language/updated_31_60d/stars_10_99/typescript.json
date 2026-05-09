@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 663,
-    "concepts": 111,
-    "observations": 111,
-    "repos": 32,
-    "terms": 111
+    "components": 659,
+    "concepts": 108,
+    "observations": 108,
+    "repos": 33,
+    "terms": 108
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
     "acro5piano/kysely-migration-cli",
-    "aiden0z/pptx-renderer",
     "apache/incubator-devlake-website",
     "automazeio/proof",
     "aws-samples/aws-sdk-js-notes-app",
     "blrchen/chatgpt-minimal",
     "dannyhw/react-native-storybook-starter",
+    "ElementsProject/cln-application",
     "gicentre/prettier-plugin-elm",
     "gnosischain/gbc-deposit-ui",
     "googleapis/google-cloud-node-core",
@@ -34,6 +34,7 @@
     "klaudworks/ralph-meets-rex",
     "literalpie/storybook-framework-qwik",
     "memoryhole/jjo",
+    "microsoft/vscode-js-debug-companion",
     "nanostores/alpine",
     "obi1kenobi/cargo-semver-checks-action",
     "pkgxdev/brewkit",

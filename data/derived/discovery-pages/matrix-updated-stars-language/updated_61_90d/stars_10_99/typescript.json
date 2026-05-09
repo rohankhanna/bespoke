@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 357,
-    "concepts": 47,
-    "observations": 47,
-    "repos": 20,
-    "terms": 49
+    "components": 361,
+    "concepts": 54,
+    "observations": 54,
+    "repos": 19,
+    "terms": 54
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "2slides/mcp-2slides",
     "aaaaalexis/obsidian-pseudo-mica",
+    "aiden0z/pptx-renderer",
     "AlexJPotter/fluentvalidation-ts",
     "br14n-sol/inquirer-file-selector",
     "ClickHouse/opentelemetry-demo",
@@ -26,9 +27,7 @@
     "hsimpson/vscode-glsllint",
     "ipfs/js-kubo-rpc-client",
     "janwilmake/openapisearch",
-    "lobehub/.github",
     "nulone/claude-rules-doctor",
-    "omril321/automated-notebooklm",
     "pkgxdev/dev",
     "pkgxdev/pkgo",
     "SchwarzIT/api-linter-rules",

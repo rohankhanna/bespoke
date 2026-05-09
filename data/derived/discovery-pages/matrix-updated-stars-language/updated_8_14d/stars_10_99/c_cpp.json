@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 115,
-    "concepts": 146,
-    "observations": 146,
-    "repos": 26,
-    "terms": 143
+    "components": 134,
+    "concepts": 201,
+    "observations": 201,
+    "repos": 27,
+    "terms": 196
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,21 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
-    "acts-project/traccc",
     "akruphi/far2l",
     "Antares0982/ssrJSON",
     "BirolLab/btllib",
     "confluentinc/libserdes",
     "facebook/fb303",
+    "gazebosim/gz-common",
     "gazebosim/gz-gui",
-    "gazebosim/gz-transport",
+    "gazebosim/gz-physics",
+    "gazebosim/gz-rendering",
+    "gazebosim/gz-tools",
     "hazelcast/hazelcast-cpp-client",
+    "HDFGroup/hdf4",
     "jwindgassen/UnrealYAML",
     "kendryte/canmv_k230",
     "LedgerHQ/app-boilerplate",
@@ -32,10 +35,8 @@
     "libbitcoin/libbitcoin-network",
     "llnl/camp",
     "microsoft/aitour-exploring-cutting-edge-models",
-    "milvus-io/milvus-sdk-cpp",
     "mongodb/winkerberos",
     "oneapi-src/unified-memory-framework",
-    "ROCm/ROCgdb",
     "ROCm/rpp",
     "skeeto/dcmake",
     "walbourn/directxmathtest",

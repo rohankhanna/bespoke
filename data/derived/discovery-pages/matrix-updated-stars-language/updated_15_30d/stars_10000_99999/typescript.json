@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6507,
-    "concepts": 649,
-    "observations": 656,
-    "repos": 73,
-    "terms": 662
+    "components": 6665,
+    "concepts": 718,
+    "observations": 725,
+    "repos": 80,
+    "terms": 731
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,28 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "actions/starter-workflows",
     "airbnb/visx",
+    "ajv-validator/ajv",
     "ant-design/ant-design-mobile",
     "apache/superset",
     "apollographql/apollo-client",
     "babel/babel",
     "badlogic/pi-mono",
+    "bitwarden/clients",
     "bluesky-social/social-app",
     "browserless/browserless",
     "bvaughn/react-window",
-    "chatboxai/chatbox",
     "CherryHQ/cherry-studio",
     "ChromeDevTools/chrome-devtools-mcp",
     "cline/cline",
     "conventional-changelog/commitlint",
     "diegomura/react-pdf",
+    "discordjs/discord.js",
     "dotansimha/graphql-code-generator",
+    "dzhng/deep-research",
     "elastic/kibana",
     "emberjs/ember.js",
     "everyinc/compound-engineering-plugin",
@@ -45,6 +48,7 @@
     "graphile/crystal",
     "graphql/graphiql",
     "graphql/graphql-js",
+    "gvergnaud/ts-pattern",
     "iOfficeAI/AionUi",
     "juice-shop/juice-shop",
     "jupyterlab/jupyterlab",
@@ -52,6 +56,7 @@
     "labring/FastGPT",
     "labring/sealos",
     "lerna/lerna",
+    "louislam/dockge",
     "microsoft/playwright",
     "microsoft/playwright-mcp",
     "mlc-ai/web-llm",
@@ -75,6 +80,7 @@
     "shikijs/shiki",
     "sindresorhus/got",
     "sindresorhus/ky",
+    "sindresorhus/type-fest",
     "slopus/happy",
     "tanweai/pua",
     "tobi/qmd",
@@ -85,6 +91,7 @@
     "vercel/swr",
     "Vinzent03/obsidian-git",
     "VSCodeVim/Vim",
+    "wojtekmaj/react-pdf",
     "xtermjs/xterm.js",
     "xyflow/xyflow"
   ]

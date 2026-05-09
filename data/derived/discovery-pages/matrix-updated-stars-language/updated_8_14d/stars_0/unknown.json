@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "csm-actions/demo-client",
     "danielrosehill/AI-Dev-Repo-Template-1",
@@ -39,6 +39,7 @@
     "danielrosehill/Claude-Get-Toony-Plugin",
     "danielrosehill/Claude-GIMP-Plugin",
     "danielrosehill/Claude-Github-Explorer-Plugin",
+    "danielrosehill/Claude-GPG-Ops-Plugin",
     "danielrosehill/Claude-Hopper",
     "danielrosehill/DOCS.md",
     "danielrosehill/ENVIRONMENT.md",
@@ -46,7 +47,6 @@
     "danielrosehill/Israel-Projects-Index",
     "hermit-os/.github",
     "qiayuanl/unitree_buildfarm",
-    "sp1-patches/elliptic-curves",
-    "TransferQueue/community_doc"
+    "sp1-patches/elliptic-curves"
   ]
 }

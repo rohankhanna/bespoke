@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 406,
-    "concepts": 358,
-    "observations": 360,
-    "repos": 109,
-    "terms": 356
+    "components": 411,
+    "concepts": 364,
+    "observations": 366,
+    "repos": 111,
+    "terms": 362
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -28,6 +28,7 @@
     "ankane/AnomalyDetection.rb",
     "ankane/drill-ruby",
     "ankane/nlopt-ruby",
+    "ankane/torchaudio-ruby",
     "apache/pdfbox-docs",
     "aperezdc/lua-wcwidth",
     "apollographql/apollo-ios-pagination",
@@ -36,6 +37,7 @@
     "aspect-build/rules_cypress",
     "astropy/astropy-project",
     "AvaotaSBC/AvaotaF1",
+    "aws/amazon-sagemaker-examples-community",
     "awslabs/aws-lc-verification",
     "Azure-Samples/openai-chat-backend-fastapi",
     "babashka/sci.configs",
@@ -51,13 +53,13 @@
     "clojure/homebrew-tools",
     "cloudfoundry/cf-uaac",
     "coin-or-tools/homebrew-coinor",
+    "Const-me/ComLightInterop",
     "contributte/monolog",
     "crazy-max/yasu",
     "curiosity-ai/hnsw-sharp",
     "DamageLabs/paper_trail_manager",
     "dbuenzli/logs",
     "dharrigan/startrek",
-    "dominique-unruh/scala-isabelle",
     "donderom/llm4s",
     "DragonFlyBSD/DPorts",
     "dwyl/auth_plug",
@@ -83,7 +85,6 @@
     "Jamir-boop/minimalisticfox",
     "janestreet/tracing",
     "jeffzi/llscheck",
-    "jelly-beam/rebar3_ex_doc",
     "js-temporal/proposal-temporal-v2",
     "JuliaCI/PkgEval.jl",
     "JuliaGraphics/ColorVectorSpace.jl",
@@ -103,6 +104,7 @@
     "NixOS/nix-installer-action",
     "notaryproject/notaryproject.dev",
     "notomo/vusted",
+    "Nsidorenco/neotest-vstest",
     "nvim-mini/mini.base16",
     "nvim-mini/mini.deps",
     "nvim-mini/mini.doc",

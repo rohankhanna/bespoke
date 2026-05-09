@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 427,
-    "concepts": 259,
-    "observations": 259,
-    "repos": 66,
-    "terms": 273
+    "components": 459,
+    "concepts": 279,
+    "observations": 279,
+    "repos": 72,
+    "terms": 293
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -21,6 +21,8 @@
     "amazon-ion/ion-cli",
     "andelf/axcli",
     "andelf/picc",
+    "ankane/delta-ruby",
+    "ankane/iceberg-ruby",
     "ankane/safetensors-ruby",
     "antonWetzel/prettypst",
     "apache/opendal-oli",
@@ -39,6 +41,7 @@
     "cpmech/gemlab",
     "crate-ci/imperative",
     "datachainlab/lcp",
+    "Dicklesworthstone/frankensearch",
     "eth-act/ere",
     "eth-act/zkboost",
     "filecoin-project/actors-utils",
@@ -48,6 +51,7 @@
     "GreptimeTeam/promql-parser",
     "hagan/claudia-statusline",
     "hecrj/iced_palace",
+    "hermit-os/loader",
     "holochain/holochain-serialization",
     "holochain/holochain-wasmer",
     "hpkewg/hpke-pq",
@@ -58,14 +62,16 @@
     "ldclabs/ic-oss",
     "ldclabs/ic-tee",
     "major7apps/pensyve",
+    "martinthomson/ohttp",
+    "mpizenberg/elm-test-rs",
     "multiformats/rust-cid",
-    "near/cargo-near",
     "nico-abram/blondie",
     "open-telemetry/opentelemetry-rust-contrib",
     "paradigmxyz/stateless",
     "phiat/claude-esp-rs",
     "psmux/omp-manager",
     "quininer/x11-clipboard",
+    "rozbb/rust-hpke",
     "rust-lang/josh-sync",
     "sophus-vision/sophus-rs",
     "Sovereign-Labs/rollup-starter",

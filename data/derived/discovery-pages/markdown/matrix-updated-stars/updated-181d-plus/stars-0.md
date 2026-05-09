@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars
 
-Generated at: `2026-05-08T07:13:05.364640+00:00`
+Generated at: `2026-05-09T05:34:16.337725+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,7 +11,7 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 401
+- repos: 404
 - terms: 488
 - components: 1140
 - concepts: 488
@@ -84,6 +84,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DiligentGraphics/imgui](https://github.com/DiligentGraphics/imgui) | 0 | 2025-08-04T03:41:22Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [meinac/oj-introspect](https://github.com/meinac/oj-introspect) | 0 | 2025-07-30T11:37:51Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [datafuse-extras/serfig](https://github.com/datafuse-extras/serfig) | 0 | 2025-07-28T05:58:30Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
+| [AniAggarwal/clip-score](https://github.com/AniAggarwal/clip-score) | 0 | 2025-07-27T04:21:30Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [KSXGitHub/parallel-disk-usage-0.20.0-benchmarks](https://github.com/KSXGitHub/parallel-disk-usage-0.20.0-benchmarks) | 0 | 2025-07-26T10:50:06Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [datafuse-extras/serde-env](https://github.com/datafuse-extras/serde-env) | 0 | 2025-07-25T21:30:19Z | Unknown | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [spencer-tb/ethereum-spec-evm-resolver](https://github.com/spencer-tb/ethereum-spec-evm-resolver) | 0 | 2025-07-25T10:24:33Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -115,6 +116,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lnx-search/memmap2-rs](https://github.com/lnx-search/memmap2-rs) | 0 | 2025-05-19T03:09:57Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [ConfettiFX/The-Forge-Media](https://github.com/ConfettiFX/The-Forge-Media) | 0 | 2025-05-15T18:40:22Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [hermit-os/socket2](https://github.com/hermit-os/socket2) | 0 | 2025-05-08T09:20:18Z | Rust | Infrastructure/tooling | 0 | 5 | 0 | 0 |
+| [AniAggarwal/calculate-flops.pytorch](https://github.com/AniAggarwal/calculate-flops.pytorch) | 0 | 2025-05-03T11:43:43Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [ipld/js-blockcodec-to-ipld-format](https://github.com/ipld/js-blockcodec-to-ipld-format) | 0 | 2025-05-01T08:39:56Z | JavaScript | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [ipfs-examples/example-fork-go-template](https://github.com/ipfs-examples/example-fork-go-template) | 0 | 2025-05-01T07:36:54Z | Unknown | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [danielrosehill/Career-Data-AI-Context-Repo](https://github.com/danielrosehill/Career-Data-AI-Context-Repo) | 0 | 2025-04-28T20:34:14Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
@@ -421,6 +423,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [erick2418/vue-axios-vuex-jwt](https://github.com/Erick2418/vue-axios-vuex-jwt) | 0 | 2021-08-16T12:06:07Z | Other | Unknown | 0 | 22 | 0 | 0 |
 | [interactive-instruments/ldproxy-community](https://github.com/interactive-instruments/ldproxy-community) | 0 | 2021-08-04T10:05:31Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [ipld/js-ipld-format-to-blockcodec](https://github.com/ipld/js-ipld-format-to-blockcodec) | 0 | 2021-07-28T10:34:43Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
+| [simrat39/rust-tools-demos](https://github.com/simrat39/rust-tools-demos) | 0 | 2021-07-28T04:47:44Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [altgr/opam-publish](https://github.com/AltGr/opam-publish) | 0 | 2021-06-24T09:58:55Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [hsivonen/detector_char_classes](https://github.com/hsivonen/detector_char_classes) | 0 | 2021-06-15T13:07:13Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [hsivonen/charcounts](https://github.com/hsivonen/charcounts) | 0 | 2021-06-15T13:06:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -490,6 +493,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DiligentGraphics/imgui](https://github.com/DiligentGraphics/imgui) | 0 | 2025-08-04T03:41:22Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [meinac/oj-introspect](https://github.com/meinac/oj-introspect) | 0 | 2025-07-30T11:37:51Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [datafuse-extras/serfig](https://github.com/datafuse-extras/serfig) | 0 | 2025-07-28T05:58:30Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
+| [AniAggarwal/clip-score](https://github.com/AniAggarwal/clip-score) | 0 | 2025-07-27T04:21:30Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [KSXGitHub/parallel-disk-usage-0.20.0-benchmarks](https://github.com/KSXGitHub/parallel-disk-usage-0.20.0-benchmarks) | 0 | 2025-07-26T10:50:06Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [datafuse-extras/serde-env](https://github.com/datafuse-extras/serde-env) | 0 | 2025-07-25T21:30:19Z | Unknown | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [spencer-tb/ethereum-spec-evm-resolver](https://github.com/spencer-tb/ethereum-spec-evm-resolver) | 0 | 2025-07-25T10:24:33Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -521,6 +525,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lnx-search/memmap2-rs](https://github.com/lnx-search/memmap2-rs) | 0 | 2025-05-19T03:09:57Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [ConfettiFX/The-Forge-Media](https://github.com/ConfettiFX/The-Forge-Media) | 0 | 2025-05-15T18:40:22Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [hermit-os/socket2](https://github.com/hermit-os/socket2) | 0 | 2025-05-08T09:20:18Z | Rust | Infrastructure/tooling | 0 | 5 | 0 | 0 |
+| [AniAggarwal/calculate-flops.pytorch](https://github.com/AniAggarwal/calculate-flops.pytorch) | 0 | 2025-05-03T11:43:43Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [ipld/js-blockcodec-to-ipld-format](https://github.com/ipld/js-blockcodec-to-ipld-format) | 0 | 2025-05-01T08:39:56Z | JavaScript | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [ipfs-examples/example-fork-go-template](https://github.com/ipfs-examples/example-fork-go-template) | 0 | 2025-05-01T07:36:54Z | Unknown | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [danielrosehill/Career-Data-AI-Context-Repo](https://github.com/danielrosehill/Career-Data-AI-Context-Repo) | 0 | 2025-04-28T20:34:14Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
@@ -827,6 +832,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [erick2418/vue-axios-vuex-jwt](https://github.com/Erick2418/vue-axios-vuex-jwt) | 0 | 2021-08-16T12:06:07Z | Other | Unknown | 0 | 22 | 0 | 0 |
 | [interactive-instruments/ldproxy-community](https://github.com/interactive-instruments/ldproxy-community) | 0 | 2021-08-04T10:05:31Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [ipld/js-ipld-format-to-blockcodec](https://github.com/ipld/js-ipld-format-to-blockcodec) | 0 | 2021-07-28T10:34:43Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
+| [simrat39/rust-tools-demos](https://github.com/simrat39/rust-tools-demos) | 0 | 2021-07-28T04:47:44Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [altgr/opam-publish](https://github.com/AltGr/opam-publish) | 0 | 2021-06-24T09:58:55Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [hsivonen/detector_char_classes](https://github.com/hsivonen/detector_char_classes) | 0 | 2021-06-15T13:07:13Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [hsivonen/charcounts](https://github.com/hsivonen/charcounts) | 0 | 2021-06-15T13:06:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

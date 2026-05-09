@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 212,
-    "concepts": 283,
-    "observations": 284,
-    "repos": 49,
-    "terms": 286
+    "components": 235,
+    "concepts": 305,
+    "observations": 306,
+    "repos": 51,
+    "terms": 309
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
     "amebalabs/TRex",
     "analysis-tools-dev/dynamic-analysis",
+    "ardalis/ApiEndpoints",
     "artempyanykh/marksman",
-    "bakpakin/Fennel",
-    "breezedeus/Pix2Text",
     "clojure/clojurescript",
     "cognitect/transit-format",
     "dashbitco/mox",
@@ -29,6 +28,7 @@
     "dimitri/el-get",
     "dspinellis/latex-advice",
     "emacs-lsp/dap-mode",
+    "ex-aws/ex_aws",
     "facebookresearch/co-tracker",
     "formtastic/formtastic",
     "Glavin001/atom-beautify",
@@ -44,10 +44,12 @@
     "mfussenegger/nvim-jdtls",
     "mono/CppSharp",
     "msasanmh/DNSveil",
+    "nanxiaobei/hugo-paper",
     "omniauth/omniauth",
     "onnx/models",
     "OpenBMB/MiniCPM",
     "parruda/swarm",
+    "pgpartman/pg_partman",
     "preservim/vimux",
     "pry/pry",
     "rails/tailwindcss-rails",

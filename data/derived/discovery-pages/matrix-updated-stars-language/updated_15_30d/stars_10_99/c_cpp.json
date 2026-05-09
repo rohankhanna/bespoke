@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 253,
-    "concepts": 187,
-    "observations": 187,
-    "repos": 46,
-    "terms": 189
+    "components": 235,
+    "concepts": 182,
+    "observations": 182,
+    "repos": 47,
+    "terms": 184
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
+    "acts-project/traccc",
     "ad-si/FlatCV",
     "ada-url/ada-python",
     "AFD-Illinois/iharm3d",
@@ -26,14 +27,13 @@
     "boostorg/config",
     "BrianPugh/tamp",
     "bufbuild/protovalidate-cc",
-    "clouren/SPEX",
     "DavidKinder/Windows-Inform7",
     "DeepLink-org/DLSlime",
     "f32c/tools",
     "fabmax/PhysX",
     "fcambus/bdf2sfd",
     "gazebosim/gz-fuel-tools",
-    "grain-lang/binaryen.ml",
+    "gazebosim/gz-transport",
     "ICRAR/crc32c",
     "JFLarvoire/the_silver_searcher",
     "jupyter-xeus/xeus-lua",
@@ -43,6 +43,7 @@
     "lxqt/libqtxdg",
     "marciogranzotto/clawd-tank",
     "Mbed-TLS/TF-PSA-Crypto",
+    "milvus-io/milvus-sdk-cpp",
     "mitsuba-renderer/nanothread",
     "mybigday/llama.node",
     "narugit/smctemp",
@@ -52,8 +53,8 @@
     "proxy-wasm/proxy-wasm-cpp-host",
     "rapidsai/ucxx",
     "ROCm/rocAL",
+    "ROCm/ROCgdb",
     "ROCm/roctracer",
-    "theimpossibleastronaut/rmw",
     "triton-inference-server/openvino_backend",
     "walbourn/directxtextest",
     "walbourn/directxtktest",

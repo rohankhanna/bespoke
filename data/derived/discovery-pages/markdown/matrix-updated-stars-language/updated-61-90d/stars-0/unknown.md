@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars · Unknown
 
-Generated at: `2026-05-08T07:13:05.364640+00:00`
+Generated at: `2026-05-09T05:34:16.337725+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 9
-- terms: 29
-- components: 58
-- concepts: 29
-- observations: 29
+- repos: 7
+- terms: 25
+- components: 52
+- concepts: 25
+- observations: 25
 
 ## Static behavior
 
@@ -33,8 +33,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kitknox/helix](https://github.com/kitknox/helix) | 0 | 2026-02-16T05:27:20Z | Unknown | Infrastructure/tooling | 4 | 12 | 4 | 4 |
 | [CADindustries/container](https://github.com/CADindustries/container) | 0 | 2026-02-13T06:46:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [sp1-patches/curve25519-dalek](https://github.com/sp1-patches/curve25519-dalek) | 0 | 2026-02-12T14:22:37Z | Unknown | Infrastructure/tooling | 5 | 8 | 5 | 5 |
-| [mudler/vulkan-sdk-arm](https://github.com/mudler/vulkan-sdk-arm) | 0 | 2026-02-08T00:36:16Z | Unknown | Infrastructure/tooling | 2 | 3 | 2 | 2 |
-| [DiligentGraphics/NuklearUI](https://github.com/DiligentGraphics/NuklearUI) | 0 | 2026-02-07T17:37:48Z | Unknown | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -47,5 +45,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kitknox/helix](https://github.com/kitknox/helix) | 0 | 2026-02-16T05:27:20Z | Unknown | Infrastructure/tooling | 4 | 12 | 4 | 4 |
 | [CADindustries/container](https://github.com/CADindustries/container) | 0 | 2026-02-13T06:46:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [sp1-patches/curve25519-dalek](https://github.com/sp1-patches/curve25519-dalek) | 0 | 2026-02-12T14:22:37Z | Unknown | Infrastructure/tooling | 5 | 8 | 5 | 5 |
-| [mudler/vulkan-sdk-arm](https://github.com/mudler/vulkan-sdk-arm) | 0 | 2026-02-08T00:36:16Z | Unknown | Infrastructure/tooling | 2 | 3 | 2 | 2 |
-| [DiligentGraphics/NuklearUI](https://github.com/DiligentGraphics/NuklearUI) | 0 | 2026-02-07T17:37:48Z | Unknown | Infrastructure/tooling | 2 | 3 | 2 | 2 |

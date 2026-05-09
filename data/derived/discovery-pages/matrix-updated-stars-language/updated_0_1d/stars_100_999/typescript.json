@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 247,
-    "concepts": 41,
-    "observations": 41,
-    "repos": 8,
-    "terms": 41
+    "components": 171,
+    "concepts": 29,
+    "observations": 29,
+    "repos": 5,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "a2aproject/a2a-js",
-    "electron/packager",
     "fluent-vue/fluent-vue",
-    "LuaLS/vscode-lua",
     "mightyiam/eslint-config-love",
-    "safe-fndn/safe-singleton-factory",
     "stx-labs/stacks.js",
     "unplugin/unplugin-imagemin"
   ]

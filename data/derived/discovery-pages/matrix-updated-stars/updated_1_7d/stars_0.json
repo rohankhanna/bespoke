@@ -1,25 +1,23 @@
 {
   "counts": {
-    "components": 66,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 9,
-    "terms": 14
+    "components": 16,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 7,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
-    "angular/angular-build-builds",
     "clearml/clearml-agent-bootstrap",
     "danielrosehill/Claude-Agent-Relay-Plugin",
     "danielrosehill/Claude-Gist-Writer-Plugin",
-    "kalavai-net/kalavai-templates",
+    "danielrosehill/Claude-Hardware-ID-Annotation-Plugin",
     "kleisauke/glib",
-    "lace/lacecore",
     "lakekeeper/iceberg-rust",
     "seanmacavaney/ir-datasets.com"
   ]

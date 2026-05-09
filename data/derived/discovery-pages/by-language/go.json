@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 10158,
-    "concepts": 9952,
-    "observations": 9984,
-    "repos": 1697,
-    "terms": 9905
+    "components": 10175,
+    "concepts": 9981,
+    "observations": 10013,
+    "repos": 1703,
+    "terms": 9934
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",
@@ -660,6 +660,11 @@
     "elastic/cloud-on-k8s",
     "elastic/go-elasticsearch",
     "elazarl/goproxy",
+    "energye/cef",
+    "energye/designer",
+    "energye/energy",
+    "energye/golcl",
+    "energye/lcl",
     "EngFlow/gazelle_cc",
     "ent/ent",
     "envoyproxy/ai-gateway",
@@ -898,6 +903,7 @@
     "gorilla/sessions",
     "gorilla/websocket",
     "gosimple/slug",
+    "gosimple/unidecode",
     "gost-dom/browser",
     "gost-dom/shaman",
     "gost-dom/webref",

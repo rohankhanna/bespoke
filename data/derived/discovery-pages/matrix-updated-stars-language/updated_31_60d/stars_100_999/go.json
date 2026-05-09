@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 299,
-    "concepts": 228,
-    "observations": 228,
+    "components": 305,
+    "concepts": 227,
+    "observations": 227,
     "repos": 44,
-    "terms": 226
+    "terms": 225
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "aws/aws-app-mesh-controller-for-k8s",
     "aws/aws-xray-daemon",
     "aws/credentials-fetcher",
+    "bluesky-social/goat",
     "bradleyfalzon/ghinstallation",
     "broderick-westrope/tetrigo",
     "cedar-policy/cedar-go",
@@ -26,7 +27,6 @@
     "connectrpc/validate-go",
     "docker-library/bashbrew",
     "ekalinin/github-markdown-toc.go",
-    "erigontech/interfaces",
     "ethereum-optimism/superchain-registry",
     "GFW-knocker/Xray-core",
     "go-chi/docgen",
@@ -44,8 +44,8 @@
     "kubernetes-sigs/hydrophone",
     "kubernetes-sigs/kubetest2",
     "lightninglabs/neutrino",
+    "mailru/go-clickhouse",
     "medama-io/medama",
-    "mholt/acmez",
     "minio/directpv",
     "minio/highwayhash",
     "nikepan/clickhouse-bulk",

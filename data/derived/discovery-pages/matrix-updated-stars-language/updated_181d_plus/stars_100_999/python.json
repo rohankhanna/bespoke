@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1112,
-    "concepts": 5150,
-    "observations": 5153,
-    "repos": 1754,
-    "terms": 4996
+    "concepts": 5155,
+    "observations": 5158,
+    "repos": 1758,
+    "terms": 5004
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -63,6 +63,7 @@
     "ahgsql/StyleSelectorXL",
     "ahopkins/sanic-jwt",
     "ahxt/g-mixup",
+    "AI21Labs/Parallel-Context-Windows",
     "ai4ce/Occ4cast",
     "ai4ce/SSCBench",
     "AI4HealthUOL/SSSD",
@@ -190,6 +191,7 @@
     "ashleysommer/sanic-cors",
     "ashleysommer/sanic-restplus",
     "askbudi/roundtable",
+    "assafelovic/gptr-mcp",
     "AssemblyAI-Community/MinImagen",
     "astramind-ai/Mixture-of-depths",
     "Atten4Vis/ConditionalDETR",
@@ -1718,6 +1720,7 @@
     "YuanGongND/ltu",
     "YuanGongND/psla",
     "YuanGongND/ssast",
+    "Yuanshi9815/Video-Infinity",
     "yuantianyuan01/StreamMapNet",
     "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
     "yuliangguo/Pytorch_Generalized_3D_Lane_Detection",
@@ -1739,6 +1742,7 @@
     "zekunhao1995/DualSDF",
     "zeliu98/Group-Free-3D",
     "zengwang430521/TCFormer",
+    "Zeqiang-Lai/OpenDMD",
     "zgojcic/3DSmoothNet",
     "zhangj111/astnn",
     "ZhangXInFD/soundstorm-speechtokenizer",

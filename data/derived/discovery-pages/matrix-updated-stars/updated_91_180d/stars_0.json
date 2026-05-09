@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 276,
-    "concepts": 86,
-    "observations": 86,
-    "repos": 75,
-    "terms": 86
+    "components": 291,
+    "concepts": 94,
+    "observations": 94,
+    "repos": 79,
+    "terms": 94
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "abap2UI5-addons/popups",
     "aldernero/spider",
@@ -37,6 +37,7 @@
     "danielrosehill/Data-Projects-Index",
     "danielrosehill/Failover-Internet-Israel-Notes",
     "danielrosehill/git-github-plugin",
+    "danielrosehill/Github-Gist-MCP-Minimal",
     "danielrosehill/Hebrew-Image-Generation-Eval",
     "danielrosehill/Kokoro-FastAPI",
     "danielrosehill/Model-Scout-MCP",
@@ -47,8 +48,10 @@
     "datafuse-extras/pprof-rs",
     "datafuse-extras/tantivy",
     "datafuse-extras/tantivy-jieba",
+    "DiligentGraphics/glfw",
     "DiligentGraphics/glslang",
     "DiligentGraphics/googletest",
+    "DiligentGraphics/NuklearUI",
     "Enselic/cargo-public-api",
     "espressosystems/espresso-systems-common",
     "faradayio/compose_yml",
@@ -74,6 +77,7 @@
     "LuminalOSS/credstash",
     "maeste/a2a-tck",
     "Mountchicken/Mountchicken",
+    "mudler/vulkan-sdk-arm",
     "openobserve/promql-parser",
     "openwdl/governance",
     "praw-dev/.github",

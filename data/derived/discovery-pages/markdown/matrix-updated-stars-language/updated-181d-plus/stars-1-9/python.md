@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Python
 
-Generated at: `2026-05-08T07:13:05.364640+00:00`
+Generated at: `2026-05-09T05:34:16.337725+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 264
-- terms: 331
-- components: 441
-- concepts: 328
-- observations: 328
+- repos: 266
+- terms: 332
+- components: 446
+- concepts: 329
+- observations: 329
 
 ## Static behavior
 
@@ -49,6 +49,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nuprl/Ag-LiveCodeBench-X](https://github.com/nuprl/Ag-LiveCodeBench-X) | 5 | 2025-08-07T13:36:52Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [qingw-dev/aworld-mcp-servers](https://github.com/qingw-dev/aworld-mcp-servers) | 7 | 2025-08-05T03:20:00Z | Python | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [reginald-mclean/Metaworld](https://github.com/reginald-mclean/Metaworld) | 4 | 2025-08-01T01:13:25Z | Python | Infrastructure/tooling | 4 | 8 | 4 | 4 |
+| [CREAsTIVE/LSP-rustowl](https://github.com/CREAsTIVE/LSP-rustowl) | 2 | 2025-07-24T23:51:53Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [HaoyiZhu/HalpeCOCOAPI](https://github.com/HaoyiZhu/HalpeCOCOAPI) | 5 | 2025-07-06T11:58:46Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [tnc-ca-geo/animl-email-relay](https://github.com/tnc-ca-geo/animl-email-relay) | 2 | 2025-07-04T21:39:31Z | Python | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [eliemichel/sphinx_literate](https://github.com/eliemichel/sphinx_literate) | 8 | 2025-06-29T08:45:31Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
@@ -230,6 +231,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lly007/PointStructuringNet](https://github.com/lly007/PointStructuringNet) | 7 | 2022-10-21T07:11:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [hpcaitech/torchrec](https://github.com/hpcaitech/torchrec) | 1 | 2022-10-21T01:36:16Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [ZhengyiLuo/smplx](https://github.com/ZhengyiLuo/smplx) | 3 | 2022-10-10T22:03:12Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [luflosi/kitty](https://github.com/Luflosi/kitty) | 4 | 2022-09-17T19:31:07Z | Python | CLI | 1 | 5 | 1 | 1 |
 | [jatentaki/torch-dimcheck](https://github.com/jatentaki/torch-dimcheck) | 8 | 2022-09-14T12:27:26Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [chaoss/grimoirelab-perceval-gitee](https://github.com/chaoss/grimoirelab-perceval-gitee) | 2 | 2022-09-09T07:33:29Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [hhu-stups/jupyterlab-prolog-codemirror-extension](https://github.com/hhu-stups/jupyterlab-prolog-codemirror-extension) | 3 | 2022-09-08T11:40:32Z | Python | Unknown | 0 | 18 | 0 | 0 |
@@ -438,6 +440,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [celebv-text/MMVID](https://github.com/celebv-text/MMVID) | 4 | 2023-01-06T13:57:15Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [lace/meshlab-pickedpoints](https://github.com/lace/meshlab-pickedpoints) | 4 | 2022-12-22T15:48:15Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [jxpress/hydra-vertex-ai-pipeline](https://github.com/jxpress/hydra-vertex-ai-pipeline) | 4 | 2022-10-31T02:37:23Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [luflosi/kitty](https://github.com/Luflosi/kitty) | 4 | 2022-09-17T19:31:07Z | Python | CLI | 1 | 5 | 1 | 1 |
 | [layumi/oxford-paris-attack](https://github.com/layumi/Oxford-Paris-Attack) | 4 | 2022-07-09T16:51:45Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [cognitiveailab/kga2c-scienceworld](https://github.com/cognitiveailab/kga2c-scienceworld) | 4 | 2022-06-04T04:56:38Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [cognitiveailab/calm-scienceworld](https://github.com/cognitiveailab/calm-scienceworld) | 4 | 2022-06-04T04:51:16Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
@@ -481,6 +484,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Agentic-Context-Development-Interview-Demo](https://github.com/danielrosehill/Agentic-Context-Development-Interview-Demo) | 2 | 2025-11-07T17:23:58Z | Python | Model/data | 2 | 0 | 2 | 2 |
 | [psyonicinc/ability-hand-ros2](https://github.com/psyonicinc/ability-hand-ros2) | 2 | 2025-10-28T20:21:29Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Agents.md-Templates](https://github.com/danielrosehill/Agents.md-Templates) | 2 | 2025-09-17T18:16:23Z | Python | Template/starter | 1 | 0 | 1 | 1 |
+| [CREAsTIVE/LSP-rustowl](https://github.com/CREAsTIVE/LSP-rustowl) | 2 | 2025-07-24T23:51:53Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [tnc-ca-geo/animl-email-relay](https://github.com/tnc-ca-geo/animl-email-relay) | 2 | 2025-07-04T21:39:31Z | Python | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [ToTheBeginning/facexlib](https://github.com/ToTheBeginning/facexlib) | 2 | 2025-06-03T05:20:14Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [agentsea/mllm](https://github.com/agentsea/mllm) | 2 | 2025-04-18T20:35:48Z | Python | Model/data | 0 | 0 | 0 | 0 |

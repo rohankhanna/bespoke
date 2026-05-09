@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 100,
-    "concepts": 73,
-    "observations": 74,
-    "repos": 21,
-    "terms": 72
+    "components": 81,
+    "concepts": 76,
+    "observations": 77,
+    "repos": 19,
+    "terms": 75
   },
   "facet_version": 1,
   "filters": {
@@ -12,26 +12,24 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "Accla/graphulo",
-    "apache/ignite-extensions",
     "BerkleyTechnologyServices/restdocs-spec",
     "BerkleyTechnologyServices/restdocs-spec-example",
     "confluentinc/common",
     "confluentinc/rest-utils",
     "eclipse-shellwax/shellwax",
     "edward3h/minecraft-webhook",
+    "flyway/flyway-community-db-support",
     "googleapis/java-bigtable",
     "googleapis/java-cloud-bom",
     "googleapis/sdk-platform-java",
-    "GoogleCloudPlatform/opentelemetry-operations-java",
     "heroku/heroku-jvm-application-deployer",
-    "hivemq/helm-charts",
     "jpmml/jpmml-h2o",
     "jpmml/jpmml-r",
-    "mukel/gemma4.java",
     "opensim-org/opensim-gui",
+    "qdrant/java-client",
     "smithy-lang/smithy-examples",
     "spiffe/java-spiffe",
     "usdot-fhwa-stol/carma-cloud"

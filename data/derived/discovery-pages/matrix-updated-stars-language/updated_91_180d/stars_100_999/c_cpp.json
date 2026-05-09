@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 175,
-    "concepts": 223,
-    "observations": 223,
-    "repos": 58,
-    "terms": 222
+    "components": 179,
+    "concepts": 235,
+    "observations": 235,
+    "repos": 59,
+    "terms": 234
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "angr/vex",
     "antonypro/QGoodWindow",
+    "apache/casbin-cpp",
     "appelmar/gdalcubes",
     "appwrite/playground-for-flutter",
     "Ar-Ray-code/YOLOX-ROS",

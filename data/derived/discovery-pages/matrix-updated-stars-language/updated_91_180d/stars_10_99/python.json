@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 173,
-    "concepts": 194,
-    "observations": 194,
-    "repos": 83,
-    "terms": 203
+    "components": 177,
+    "concepts": 200,
+    "observations": 200,
+    "repos": 84,
+    "terms": 209
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "Adlik/vllm",
@@ -41,6 +41,7 @@
     "emory-irlab/pyterrier_genrank",
     "erkyrath/glk-dev",
     "espressif/conventional-precommit-linter",
+    "Finance-LLMs/deep-research-python",
     "fsspec/sshfs",
     "google-deepmind/alphageometry2",
     "HabanaAI/DeepSpeed",
@@ -95,7 +96,7 @@
     "vis-nlp/ChartQAPro",
     "vllm-project/vllm-openvino",
     "vstinner/misc",
-    "wirasm/dylan",
-    "zheng977/MutiAgent4Fraud"
+    "zheng977/MutiAgent4Fraud",
+    "zlib-ng/deflatebench"
   ]
 }

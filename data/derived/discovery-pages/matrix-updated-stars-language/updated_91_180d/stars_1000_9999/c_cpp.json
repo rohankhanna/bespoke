@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 154,
+    "components": 158,
     "concepts": 270,
     "observations": 270,
-    "repos": 45,
+    "repos": 46,
     "terms": 267
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "ashvardanian/less_slow.cpp",
     "asmvik/skhd",
@@ -53,6 +53,7 @@
     "Oneflow-Inc/oneflow",
     "openMVG/openMVG",
     "OpenNMT/CTranslate2",
+    "pganalyze/libpg_query",
     "pothosware/SoapySDR",
     "rurban/smhasher",
     "sammycage/lunasvg",

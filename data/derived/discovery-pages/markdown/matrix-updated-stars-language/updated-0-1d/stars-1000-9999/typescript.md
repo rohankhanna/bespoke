@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-05-08T07:13:05.364640+00:00`
+Generated at: `2026-05-09T05:34:16.337725+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 8
-- terms: 52
-- components: 316
-- concepts: 52
-- observations: 52
+- repos: 10
+- terms: 62
+- components: 465
+- concepts: 62
+- observations: 62
 
 ## Static behavior
 
@@ -26,24 +26,28 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7611 | 2026-05-08T03:04:12Z | TypeScript | Infrastructure/tooling | 17 | 70 | 17 | 17 |
-| [safe-fndn/safe-smart-account](https://github.com/safe-fndn/safe-smart-account) | 2141 | 2026-05-08T00:29:45Z | TypeScript | Infrastructure/tooling | 5 | 35 | 5 | 5 |
-| [apollographql/apollo-tooling](https://github.com/apollographql/apollo-tooling) | 3042 | 2026-05-07T21:56:31Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
-| [google-gemini/live-api-web-console](https://github.com/google-gemini/live-api-web-console) | 2537 | 2026-05-07T17:16:42Z | TypeScript | Web app | 2 | 28 | 2 | 2 |
-| [vuejs/language-tools](https://github.com/vuejs/language-tools) | 6658 | 2026-05-07T11:42:26Z | TypeScript | Infrastructure/tooling | 6 | 12 | 6 | 6 |
-| [electron/rebuild](https://github.com/electron/rebuild) | 1117 | 2026-05-07T10:54:44Z | TypeScript | Infrastructure/tooling | 5 | 34 | 5 | 5 |
-| [vuejs/devtools](https://github.com/vuejs/devtools) | 2818 | 2026-05-07T09:49:51Z | TypeScript | Infrastructure/tooling | 3 | 50 | 3 | 3 |
-| [TanStack/form](https://github.com/TanStack/form) | 6506 | 2026-05-07T09:29:49Z | TypeScript | Infrastructure/tooling | 9 | 40 | 9 | 9 |
+| [typescript-language-server/typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) | 2476 | 2026-05-09T01:56:07Z | TypeScript | Infrastructure/tooling | 6 | 46 | 6 | 6 |
+| [apollographql/apollo-tooling](https://github.com/apollographql/apollo-tooling) | 3042 | 2026-05-09T01:29:55Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
+| [ebullient/obsidian-admonition](https://github.com/ebullient/obsidian-admonition) | 1267 | 2026-05-09T00:52:32Z | TypeScript | Infrastructure/tooling | 3 | 25 | 3 | 3 |
+| [microsoft/vscode-js-debug](https://github.com/microsoft/vscode-js-debug) | 1945 | 2026-05-08T23:33:34Z | TypeScript | Unknown | 4 | 97 | 4 | 4 |
+| [safe-fndn/safe-smart-account](https://github.com/safe-fndn/safe-smart-account) | 2142 | 2026-05-08T23:29:35Z | TypeScript | Infrastructure/tooling | 5 | 35 | 5 | 5 |
+| [TanStack/form](https://github.com/TanStack/form) | 6506 | 2026-05-08T22:21:01Z | TypeScript | Infrastructure/tooling | 9 | 40 | 9 | 9 |
+| [google-gemini/live-api-web-console](https://github.com/google-gemini/live-api-web-console) | 2537 | 2026-05-08T21:47:22Z | TypeScript | Web app | 2 | 28 | 2 | 2 |
+| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7617 | 2026-05-08T14:14:59Z | TypeScript | Infrastructure/tooling | 17 | 70 | 17 | 17 |
+| [vuejs/devtools](https://github.com/vuejs/devtools) | 2820 | 2026-05-08T10:34:52Z | TypeScript | Infrastructure/tooling | 3 | 50 | 3 | 3 |
+| [conventional-changelog/conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) | 8437 | 2026-05-08T05:35:14Z | TypeScript | Infrastructure/tooling | 8 | 27 | 8 | 8 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7611 | 2026-05-08T03:04:12Z | TypeScript | Infrastructure/tooling | 17 | 70 | 17 | 17 |
-| [vuejs/language-tools](https://github.com/vuejs/language-tools) | 6658 | 2026-05-07T11:42:26Z | TypeScript | Infrastructure/tooling | 6 | 12 | 6 | 6 |
-| [TanStack/form](https://github.com/TanStack/form) | 6506 | 2026-05-07T09:29:49Z | TypeScript | Infrastructure/tooling | 9 | 40 | 9 | 9 |
-| [apollographql/apollo-tooling](https://github.com/apollographql/apollo-tooling) | 3042 | 2026-05-07T21:56:31Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
-| [vuejs/devtools](https://github.com/vuejs/devtools) | 2818 | 2026-05-07T09:49:51Z | TypeScript | Infrastructure/tooling | 3 | 50 | 3 | 3 |
-| [google-gemini/live-api-web-console](https://github.com/google-gemini/live-api-web-console) | 2537 | 2026-05-07T17:16:42Z | TypeScript | Web app | 2 | 28 | 2 | 2 |
-| [safe-fndn/safe-smart-account](https://github.com/safe-fndn/safe-smart-account) | 2141 | 2026-05-08T00:29:45Z | TypeScript | Infrastructure/tooling | 5 | 35 | 5 | 5 |
-| [electron/rebuild](https://github.com/electron/rebuild) | 1117 | 2026-05-07T10:54:44Z | TypeScript | Infrastructure/tooling | 5 | 34 | 5 | 5 |
+| [conventional-changelog/conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) | 8437 | 2026-05-08T05:35:14Z | TypeScript | Infrastructure/tooling | 8 | 27 | 8 | 8 |
+| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7617 | 2026-05-08T14:14:59Z | TypeScript | Infrastructure/tooling | 17 | 70 | 17 | 17 |
+| [TanStack/form](https://github.com/TanStack/form) | 6506 | 2026-05-08T22:21:01Z | TypeScript | Infrastructure/tooling | 9 | 40 | 9 | 9 |
+| [apollographql/apollo-tooling](https://github.com/apollographql/apollo-tooling) | 3042 | 2026-05-09T01:29:55Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
+| [vuejs/devtools](https://github.com/vuejs/devtools) | 2820 | 2026-05-08T10:34:52Z | TypeScript | Infrastructure/tooling | 3 | 50 | 3 | 3 |
+| [google-gemini/live-api-web-console](https://github.com/google-gemini/live-api-web-console) | 2537 | 2026-05-08T21:47:22Z | TypeScript | Web app | 2 | 28 | 2 | 2 |
+| [typescript-language-server/typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) | 2476 | 2026-05-09T01:56:07Z | TypeScript | Infrastructure/tooling | 6 | 46 | 6 | 6 |
+| [safe-fndn/safe-smart-account](https://github.com/safe-fndn/safe-smart-account) | 2142 | 2026-05-08T23:29:35Z | TypeScript | Infrastructure/tooling | 5 | 35 | 5 | 5 |
+| [microsoft/vscode-js-debug](https://github.com/microsoft/vscode-js-debug) | 1945 | 2026-05-08T23:33:34Z | TypeScript | Unknown | 4 | 97 | 4 | 4 |
+| [ebullient/obsidian-admonition](https://github.com/ebullient/obsidian-admonition) | 1267 | 2026-05-09T00:52:32Z | TypeScript | Infrastructure/tooling | 3 | 25 | 3 | 3 |

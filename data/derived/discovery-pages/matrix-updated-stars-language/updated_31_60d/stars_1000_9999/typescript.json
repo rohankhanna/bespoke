@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2031,
-    "concepts": 414,
-    "observations": 415,
-    "repos": 54,
-    "terms": 436
+    "components": 2118,
+    "concepts": 428,
+    "observations": 429,
+    "repos": 57,
+    "terms": 456
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "aleclarson/vite-tsconfig-paths",
@@ -27,6 +27,7 @@
     "changesets/action",
     "coaidev/coai",
     "ekalinin/sitemap.js",
+    "electron/windows-installer",
     "enisdenjo/graphql-ws",
     "gajus/slonik",
     "glittercowboy/taches-cc-resources",
@@ -45,8 +46,10 @@
     "jnsahaj/tweakcn",
     "josdejong/svelte-jsoneditor",
     "josStorer/RWKV-Runner",
+    "kirodotdev/Kiro",
     "LekoArts/gatsby-themes",
     "lobehub/lobe-chat-agents",
+    "lobehub/lobe-icons",
     "markdoc/markdoc",
     "mattpocock/ts-reset",
     "microsoft/genaiscript",

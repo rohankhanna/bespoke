@@ -3,7 +3,7 @@
     "components": 1065,
     "concepts": 470,
     "observations": 470,
-    "repos": 319,
+    "repos": 321,
     "terms": 476
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "2KAbhishek/awesome2k",
     "2KAbhishek/rofi2k",
@@ -39,6 +39,7 @@
     "alejandrobabio/spring-commands-teaspoon",
     "Alexander-N/tla-specs",
     "alexhumphreys/idris2-dockerfile",
+    "AlignedQuant/AlignedKV",
     "AlmarAubel/CSharpFunctionalExtensions.Analyzers",
     "AnamuddinAhmad/Portfolio_1",
     "AndyTheFactory/article-extraction-dataset",
@@ -209,6 +210,7 @@
     "kgkoutis/TSID.Creator.NET",
     "kodyfanz/ethereum_yellowpaper_vn",
     "korewaChino/koboldCppDocker",
+    "kreativekorp/u8m",
     "kristijanhusak/completion-tags",
     "kurrent-io/EventStoreDB-Client-Dotnet-Legacy",
     "kvfrans/tfds_builders",

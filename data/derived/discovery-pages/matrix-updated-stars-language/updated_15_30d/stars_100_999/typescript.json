@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3273,
-    "concepts": 621,
-    "observations": 621,
-    "repos": 116,
-    "terms": 674
+    "components": 3166,
+    "concepts": 619,
+    "observations": 619,
+    "repos": 114,
+    "terms": 672
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "abaplint/abaplint",
@@ -27,6 +27,7 @@
     "appwrite/sdk-for-node",
     "astral-sh/ruff-action",
     "atomicmemory/llm-wiki-compiler",
+    "aws-samples/swift-chat",
     "aws/aws-iot-device-sdk-js-v2",
     "azat-io/eslint-plugin-de-morgan",
     "Azure/cli",
@@ -44,11 +45,11 @@
     "decentralized-identity/did-jwt",
     "DeterminateSystems/nix-installer-action",
     "devcontainers/ci",
+    "docker/bake-action",
     "docker/setup-qemu-action",
     "EclipseFdn/open-vsx.org",
     "elizaos/elizaos.github.io",
     "elm-tooling/elm-language-client-vscode",
-    "elm-tooling/elm-language-server",
     "evmts/tevm-monorepo",
     "fastify/demo",
     "giselles-ai/giselle",
@@ -66,7 +67,6 @@
     "jgm/djot.js",
     "js-temporal/temporal-polyfill",
     "juliangruber/brace-expansion",
-    "jupyterlab/extension-examples",
     "k-dense-ai/k-dense-byok",
     "Kaliiiiiiiiii-Vinyzu/patchright-nodejs",
     "Kong/kong-manager",
@@ -111,14 +111,12 @@
     "redhat-developer/vscode-xml",
     "safe-global/safe-deployments",
     "sass/embedded-host-node",
-    "serversideup/webext-bridge",
     "Shougo/ddc.vim",
     "Shougo/ddu.vim",
     "Shougo/dpp.vim",
     "Siubaak/sval",
     "snipeship/ccflare",
     "Softeria/ms-365-mcp-server",
-    "storybookjs/test-runner",
     "strands-agents/sdk-typescript",
     "sveltejs/eslint-plugin-svelte",
     "sveltejs/svelte-eslint-parser",

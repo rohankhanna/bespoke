@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1576,
-    "concepts": 2885,
-    "observations": 2889,
-    "repos": 1631,
-    "terms": 2889
+    "components": 1581,
+    "concepts": 2893,
+    "observations": 2897,
+    "repos": 1638,
+    "terms": 2897
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "unknown"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nn0/terminal-mac-cheatsheet",
@@ -46,6 +46,7 @@
     "aaronrsun/spec-kit-issue",
     "abatilo/actions-poetry",
     "abcjjy/godot-sqlcipher",
+    "abdeladim-s/pywhispercpp",
     "AbhishekMaira10/AbhishekMaira10",
     "abhisheknaiidu/abhisheknaiidu",
     "abhisheknaiidu/awesome-github-profile-readme",
@@ -93,6 +94,7 @@
     "aigc3d/AniGS",
     "AILab-CVC/TaleCrafter",
     "ailev/fpf",
+    "AIoT-MLSys-Lab/Efficient-LLMs-Survey",
     "airbnb/css",
     "airlift/codestyle",
     "airowe/claude-a11y-skill",
@@ -254,6 +256,7 @@
     "blockstream/rust-electrum-client",
     "bloomberg/clang-p2996",
     "bluejekyll/trust-dns",
+    "bluescan/proggyfonts",
     "bmad-code-org/bmad-plugins-marketplace",
     "bnb-chain/whitepaper",
     "bokub/prettier-config",
@@ -504,6 +507,8 @@
     "danielrosehill/Claude-GIMP-Plugin",
     "danielrosehill/Claude-Gist-Writer-Plugin",
     "danielrosehill/Claude-Github-Explorer-Plugin",
+    "danielrosehill/Claude-GPG-Ops-Plugin",
+    "danielrosehill/Claude-Green-Invoice-Ops-Plugin",
     "danielrosehill/Claude-Hopper",
     "danielrosehill/Claude-Israel",
     "danielrosehill/Claude-Linux-Desktop-Manager",
@@ -1426,6 +1431,7 @@
     "simonpoole/geocontext",
     "simonpoole/osm-area-tags",
     "simonw/simonwillisonblog-backup",
+    "simrat39/rust-tools-demos",
     "sindresorhus/awesome",
     "sindresorhus/awesome-nodejs",
     "sindresorhus/guides",
@@ -1552,6 +1558,7 @@
     "unitycontainer/abstractions",
     "unitycontainer/container",
     "unitycontainer/unity",
+    "universal-ctags/ctags-nightly-build",
     "unum-cloud/.github",
     "unum-cloud/UDisk",
     "usegalaxy-eu/cvmfs-example",

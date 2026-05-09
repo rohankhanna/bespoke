@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1938,
-    "concepts": 1767,
-    "observations": 1773,
-    "repos": 780,
-    "terms": 1761
+    "components": 1942,
+    "concepts": 1776,
+    "observations": 1782,
+    "repos": 784,
+    "terms": 1770
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x7432/asm-ru",
@@ -45,6 +45,7 @@
     "adelarsq/falco_graphql_sample",
     "ademanuele/VSMac-CodeCoverage",
     "adobe-photoshop/generator-panels",
+    "ag1988/dss",
     "agilord/ulid",
     "ahonn/shadow-electron-starter",
     "AI-secure/AdvAgent",
@@ -212,6 +213,7 @@
     "ChristianChiarulli/neovim-codicons",
     "Chrixtar/latent-gaussian-rasterization",
     "chromelyapps/CefSharp",
+    "ChromiumDotNet/Chromium.AspNetCore.Bridge",
     "citusdata/citus_docs",
     "cjohansen/gadget-inspector",
     "ckipp01/stylua-nvim",
@@ -559,6 +561,7 @@
     "microsoft/Phi3-Chat-WinUI3-Sample",
     "microsoft/Windows-AppConsult-Samples-UWP",
     "MineDojo/TaskCreationUI",
+    "MiniMax-AI/MiniMax-AI.github.io",
     "Minxyzgo/MiraiGoChess",
     "miquelmassot/g2o-python-examples",
     "mirage/emile",
@@ -747,6 +750,7 @@
     "unit-mesh/unit-eval",
     "unit-mesh/unit-gen",
     "unitycontainer/aspnet-mvc",
+    "universal-ctags/ctags-snap",
     "uperl/Kafka-Librd",
     "vale-cli/alex",
     "vale-cli/Google",

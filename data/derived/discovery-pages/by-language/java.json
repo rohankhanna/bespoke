@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2784,
-    "concepts": 3435,
-    "observations": 3443,
-    "repos": 620,
-    "terms": 3414
+    "components": 2786,
+    "concepts": 3468,
+    "observations": 3476,
+    "repos": 624,
+    "terms": 3447
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "java"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "abapGit/ADT_Frontend",
@@ -159,6 +159,7 @@
     "checkstyle/checkstyle",
     "chequer-io/phoenixsql",
     "chriskamphuis/olddog",
+    "chromiumembedded/java-cef",
     "citiususc/calendula",
     "cjlin1/libsvm",
     "classgraph/classgraph",
@@ -277,6 +278,7 @@
     "flyway/flyway-community-db-support",
     "fnproject/docs",
     "fnproject/fdk-java",
+    "Freeyourgadget/Gadgetbridge",
     "gchq/Gaffer",
     "gchq/koryphe",
     "GiviMAD/whisper-jni",
@@ -358,6 +360,7 @@
     "JaneliaSciComp/n5-zstandard",
     "java-native-access/jna",
     "jboss-javassist/javassist",
+    "jcefmaven/jcefmaven",
     "jchambers/id-obfuscator",
     "jdereg/json-io",
     "jenkinsci/jenkins",
@@ -402,6 +405,7 @@
     "konsoletyper/teavm",
     "konsoletyper/teavm-site",
     "krasa/EclipseCodeFormatter",
+    "kreativekorp/bitsnpicas",
     "ksuid/ksuid",
     "Kugaaa/langchain4j-langfuse",
     "kurrent-io/KurrentDB-Client-Java",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 430,
-    "concepts": 291,
-    "observations": 292,
-    "repos": 27,
-    "terms": 290
+    "components": 171,
+    "concepts": 179,
+    "observations": 180,
+    "repos": 16,
+    "terms": 179
   },
   "facet_version": 1,
   "filters": {
@@ -12,32 +12,21 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "adityatelange/hugo-PaperMod",
-    "alpinejs/alpine",
-    "anthropics/claude-cookbooks",
-    "BasedHardware/omi",
-    "bitnami/charts",
     "cefsharp/CefSharp",
-    "crystal-lang/crystal",
     "Devolutions/UniGetUI",
     "dotnet/aspnetcore",
     "dotnet/AspNetCore.Docs",
     "exelban/stats",
-    "github-linguist/linguist",
     "google/material-design-lite",
     "hagezi/dns-blocklists",
     "JetBrains/compose-multiplatform",
     "kubernetes-sigs/kubespray",
-    "logseq/logseq",
-    "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
-    "mdn/content",
     "MudBlazor/MudBlazor",
     "phpstan/phpstan",
-    "rubocop/rubocop",
-    "shadowsocks/shadowsocks-android",
     "swiftlang/swift-evolution",
     "swiftlang/swift-package-manager",
     "tiann/KernelSU"

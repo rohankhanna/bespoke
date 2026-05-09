@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 350,
-    "concepts": 278,
-    "observations": 279,
-    "repos": 111,
-    "terms": 277
+    "components": 346,
+    "concepts": 276,
+    "observations": 277,
+    "repos": 110,
+    "terms": 275
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "2KAbhishek/tdo.nvim",
@@ -82,7 +82,6 @@
     "lumen-oss/rocks-config.nvim",
     "lumen-oss/rocks-git.nvim",
     "MichaelHatherly/REPLicant.jl",
-    "MiniMax-AI/MiniMax-AI.github.io",
     "mirage/ocaml-conduit",
     "mirage/ocaml-uri",
     "mosn/mosn.io",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 844,
-    "concepts": 3577,
-    "observations": 3579,
-    "repos": 911,
-    "terms": 3515
+    "components": 849,
+    "concepts": 3588,
+    "observations": 3590,
+    "repos": 914,
+    "terms": 3527
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
     "425776024/nlpcda",
+    "abertsch72/unlimiformer",
     "abewley/sort",
     "abisee/pointer-generator",
     "acheong08/EdgeGPT",
@@ -26,6 +27,7 @@
     "adobe/antialiased-cnns",
     "aesara-devs/aesara",
     "Agent-RL/ReCall",
+    "AGI-Edgerunners/LLM-Adapters",
     "agiresearch/OpenAGI",
     "aigc-apps/EasyAnimate",
     "AILab-CVC/YOLO-World",
@@ -39,6 +41,7 @@
     "akamaster/pytorch_resnet_cifar10",
     "akanazawa/hmr",
     "Akegarasu/lora-scripts",
+    "alexanderjeurissen/ranger_devicons",
     "AlexanderKoch-Koch/low_cost_robot",
     "alexmojaki/heartrate",
     "ali-vilab/TeaCache",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 985,
-    "concepts": 956,
-    "observations": 960,
-    "repos": 86,
-    "terms": 943
+    "components": 982,
+    "concepts": 948,
+    "observations": 952,
+    "repos": 85,
+    "terms": 935
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -93,7 +93,6 @@
     "shirou/gopsutil",
     "slackhq/nebula",
     "slimtoolkit/slim",
-    "stretchr/testify",
     "syncthing/syncthing",
     "thanos-io/thanos",
     "trufflesecurity/trufflehog",

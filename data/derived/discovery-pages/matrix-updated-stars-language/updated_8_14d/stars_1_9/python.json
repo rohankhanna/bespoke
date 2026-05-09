@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 111,
-    "concepts": 67,
-    "observations": 67,
+    "components": 103,
+    "concepts": 63,
+    "observations": 63,
     "repos": 18,
-    "terms": 67
+    "terms": 63
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,16 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "astral-sh/versions",
     "atlanhq/atlan-sample-apps",
+    "Azure-Samples/langchain-agent-python",
     "compiler-research/cppyy",
     "demonatic/flash-attention",
     "eea/eea-website-backend",
     "flagos-ai/Megatron-LM-FL",
-    "flagos-ai/TransformerEngine-FL",
-    "kalavai-net/kube-watcher",
+    "flexcyon/docs-en",
     "meridianlabs-ai/inspect_harbor",
     "mlcommons/submissions_algorithms",
     "mozilla-ai/tinyagent",

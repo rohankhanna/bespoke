@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 146,
-    "concepts": 167,
-    "observations": 167,
-    "repos": 36,
-    "terms": 165
+    "components": 184,
+    "concepts": 197,
+    "observations": 197,
+    "repos": 38,
+    "terms": 195
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "ada-url/goada",
     "AFD-Illinois/ebhlight",
@@ -23,6 +23,7 @@
     "BirolLab/arcs",
     "chusitoo/flatbush",
     "cisco/libacvp",
+    "clouren/SPEX",
     "cpmech/tritet",
     "CROSS-signature/CROSS-implementation",
     "dacap/observable",
@@ -36,8 +37,8 @@
     "gershnik/wsdd-native",
     "go-skynet/go-ggml-transformers.cpp",
     "gozaltech/espeak-ng-sapi",
+    "grain-lang/binaryen.ml",
     "heal-research/pyoperon",
-    "ilyabrilev/biosim4",
     "intel/metrics-discovery",
     "lemire/simple_fastfloat_benchmark",
     "Level/classic-level",
@@ -48,6 +49,7 @@
     "r-lyeh/Spectral",
     "RekGRpth/pg_task",
     "ssiu/flash-attention-turing",
+    "theimpossibleastronaut/rmw",
     "uael/sv",
     "VeriSilicon/tflite-vx-delegate"
   ]

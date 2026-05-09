@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2013,
-    "concepts": 1026,
-    "observations": 1032,
-    "repos": 409,
-    "terms": 1026
+    "components": 2021,
+    "concepts": 1029,
+    "observations": 1035,
+    "repos": 411,
+    "terms": 1037
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "1ilkhamov/opencode-hermes-multiagent",
@@ -93,7 +93,6 @@
     "c2corg/browserslist-update-action",
     "cahamilton/css-property-sort-order-smacss",
     "cassioneri/teju_jagua",
-    "castortech/mdbxjni",
     "catch-twenty-two/rust-ssd",
     "ccslykx/Starry",
     "cedar-policy/rfcs",
@@ -167,6 +166,7 @@
     "fengkx/jieba-wasm",
     "FFTAI/Wiki-GRx-Gym",
     "FiloSottile/hpke",
+    "Finance-LLMs/deep-research-python",
     "formigarafa/zxcvbn-rb",
     "freddyaboulton/gradio-pdf",
     "friemen/diffit",
@@ -225,6 +225,7 @@
     "jin-s13/xtcocoapi",
     "JodaOrg/joda-time-hibernate",
     "johandahlberg/awesome-10x-genomics",
+    "jokkebk/JUnzip",
     "joliss/node-walk-sync",
     "Jorenar/minPlug",
     "josdejong/typed-function",
@@ -258,12 +259,12 @@
     "llvm/clangd-www",
     "lmgame-org/GRL",
     "lnbc1QWFyb24/lnmessage",
+    "lobehub/.github",
     "logseq/db-test",
     "loyd/fixnum",
     "lread/test-doc-blocks",
     "LuaLS/vscode-lua-doc",
     "LuisaGroup/luisa-compute-rs",
-    "luizbarboza/polyclip-ts",
     "lukacu/docker-frps",
     "lumen-oss/rocks-config.nvim",
     "lumen-oss/rocks-git.nvim",
@@ -280,7 +281,6 @@
     "mikespook/possum",
     "mingyuanzhou/SiD-LSG",
     "minikube-ci/examples",
-    "MiniMax-AI/MiniMax-AI.github.io",
     "MINT-SJTU/STI-Bench",
     "mirage/ocaml-conduit",
     "mirage/ocaml-uri",
@@ -295,7 +295,6 @@
     "NielsRogge/tutorials",
     "NightFurySL2001/cjktables",
     "nikitabobko/brew-install-path",
-    "NinaWie/COVID-BLUES",
     "niner/Inline-Perl5",
     "nodejs/Gzemnid",
     "nodenv/nodenv-installer",
@@ -306,6 +305,7 @@
     "objectbox/objectbox-generator",
     "ochorocho/franken-typo3",
     "okuvshynov/cubestat",
+    "omril321/automated-notebooklm",
     "opea-project/docs",
     "opencontainers/oci-conformance",
     "opensearch-project/opentelemetry-demo",
@@ -342,6 +342,7 @@
     "RomanArzumanyan/VALI",
     "ros2-rust/examples",
     "rose-pine/rose-pine-template",
+    "roy2220/osc52pty",
     "rpcxio/rpcx-etcd",
     "RTBHOUSE/tmux-picker",
     "rubyjs/libv8-node",
@@ -386,6 +387,7 @@
     "thunlp/BlockFFN",
     "tier4/ndt_omp",
     "tinted-theming/base24",
+    "tony/claude-code-riper-5",
     "tracked-tools/ember-async-data",
     "TransferQueue/TransferQueue",
     "travis-ci/travis-hub",
@@ -406,7 +408,6 @@
     "webdataset/WebDataset.jl",
     "westnordost/osmfeatures",
     "WICG/crash-reporting",
-    "wirasm/dylan",
     "withastro/.github",
     "worlpaker/go-syntax",
     "xie-lab-ml/piecewise-sparse-attention",
@@ -421,6 +422,7 @@
     "zakarumych/mev",
     "zeng3ld/claude-session-restore",
     "zheng977/MutiAgent4Fraud",
-    "zilliztech/kafka-connect-milvus"
+    "zilliztech/kafka-connect-milvus",
+    "zlib-ng/deflatebench"
   ]
 }

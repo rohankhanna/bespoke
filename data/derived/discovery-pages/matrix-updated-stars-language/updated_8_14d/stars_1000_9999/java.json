@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 425,
-    "concepts": 548,
-    "observations": 548,
+    "components": 430,
+    "concepts": 556,
+    "observations": 556,
     "repos": 49,
-    "terms": 544
+    "terms": 552
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "alibaba/spring-ai-alibaba",
     "apache/beam",
     "apache/flink-kubernetes-operator",
     "apache/hudi",
+    "apache/iceberg",
     "apache/ignite",
     "apache/parquet-java",
     "apache/phoenix",
     "apache/seatunnel",
     "aws/aws-sdk-java-v2",
-    "bonigarcia/webdrivermanager",
     "castorini/anserini",
     "checkstyle/checkstyle",
     "ClickHouse/clickhouse-java",
@@ -33,7 +33,6 @@
     "dlew/joda-time-android",
     "dropwizard/dropwizard",
     "dylibso/chicory",
-    "FasterXML/jackson-annotations",
     "FasterXML/jackson-core",
     "FasterXML/jackson-databind",
     "firebase/firebase-android-sdk",
@@ -62,6 +61,7 @@
     "SonarSource/sonar-java",
     "spring-projects/spring-ai",
     "swagger-api/swagger-core",
+    "testng-team/testng",
     "tlaplus/tlaplus"
   ]
 }

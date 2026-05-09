@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 62,
-    "concepts": 41,
-    "observations": 41,
-    "repos": 4,
-    "terms": 41
+    "components": 85,
+    "concepts": 56,
+    "observations": 56,
+    "repos": 6,
+    "terms": 56
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
+    "anthropics/claude-cookbooks",
+    "mixmark-io/turndown",
     "swiftlang/swift",
     "triton-lang/triton",
     "upptime/upptime",

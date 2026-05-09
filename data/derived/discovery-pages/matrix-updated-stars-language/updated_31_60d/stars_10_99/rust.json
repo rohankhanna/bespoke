@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 188,
-    "concepts": 112,
-    "observations": 114,
-    "repos": 31,
-    "terms": 112
+    "components": 187,
+    "concepts": 114,
+    "observations": 116,
+    "repos": 29,
+    "terms": 114
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "agentclientprotocol/symposium-acp",
     "Anush008/tokenizers",
@@ -25,8 +25,6 @@
     "chris-zen/coremidi",
     "datafusion-contrib/datafusion-orc",
     "dcampbell24/mdbook-djot",
-    "filecoin-project/blstrs",
-    "filecoin-project/rust-filecoin-proofs-api",
     "google/safe-mmio",
     "hermit-os/hermit-rs-template",
     "jiegec/tantivy-jieba",
@@ -35,7 +33,7 @@
     "lambdaclass/libssz",
     "libdeflater/libdeflater",
     "messense/py-promql-parser",
-    "microsoft/tracing-etw",
+    "near/cargo-near",
     "near/near-workspaces-rs",
     "neysofu/reltester",
     "omerbenamram/pyo3-file",

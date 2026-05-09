@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 61,
-    "observations": 61,
-    "repos": 16,
-    "terms": 61
+    "components": 58,
+    "concepts": 69,
+    "observations": 69,
+    "repos": 17,
+    "terms": 69
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
-    "adoptium/temurin21-binaries",
     "box/box-openapi",
     "chromedp/cdproto",
     "fluxcd/flux2-multi-tenancy",
@@ -24,11 +23,13 @@
     "github/copilot-language-server-release",
     "graalvm/graalvm-ce-dev-builds",
     "graalvm/mandrel",
-    "LemmyNet/lemmy-docs",
     "LuaLS/LLS-Addons",
     "luau-lang/rfcs",
     "mdn/mdn-community",
     "openjs-foundation/cross-project-council",
-    "smithy-lang/awesome-smithy"
+    "openwdl/wdl",
+    "smithy-lang/awesome-smithy",
+    "triton-inference-server/tensorrtllm_backend",
+    "yokoffing/Control-D-Config"
   ]
 }

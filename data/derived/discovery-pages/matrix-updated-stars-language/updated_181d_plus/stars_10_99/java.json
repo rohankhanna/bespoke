@@ -3,7 +3,7 @@
     "components": 110,
     "concepts": 164,
     "observations": 164,
-    "repos": 69,
+    "repos": 70,
     "terms": 164
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "abilian/abilian-sbe",
     "adamharrison/lite-xl-android",
@@ -27,6 +27,7 @@
     "BioASQ/Evaluation-Measures",
     "Breezeware-OS/dynamo-multi-ai-agent-langgraph4j-starter",
     "caprica/vlcj-info",
+    "castortech/mdbxjni",
     "CommonWealthRobotics/mujoco-java",
     "CraftJarvis/MC-Simulator",
     "CreeperHost/Log4jPatcher",

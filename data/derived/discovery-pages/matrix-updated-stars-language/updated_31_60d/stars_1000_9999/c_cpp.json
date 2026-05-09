@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 219,
-    "concepts": 307,
-    "observations": 308,
-    "repos": 58,
-    "terms": 303
+    "components": 243,
+    "concepts": 327,
+    "observations": 328,
+    "repos": 62,
+    "terms": 326
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "alembic/alembic",
     "Alex313031/thorium",
+    "alibaba/havenask",
     "AlibabaResearch/AdvancedLiterateMachinery",
     "apache/singa",
+    "asg017/sqlite-vec",
     "ashvardanian/StringZilla",
     "bcrypt-ruby/bcrypt-ruby",
     "bugaevc/wl-clipboard",
@@ -32,11 +34,10 @@
     "go-gl/gl",
     "go-gl/glfw",
     "google/double-conversion",
+    "google/draco",
     "h2o/picohttpparser",
     "hufrea/byedpi",
-    "ioquake/ioq3",
     "KhronosGroup/MoltenVK",
-    "leethomason/tinyxml2",
     "lieff/minimp3",
     "littlefs-project/littlefs",
     "lltcggie/waifu2x-caffe",
@@ -53,11 +54,13 @@
     "NVIDIA/gdrcopy",
     "OHF-Voice/piper1-gpl",
     "olikraus/u8g2",
+    "oneapi-src/oneAPI-samples",
     "onnx/onnx-tensorrt",
     "Overv/VulkanTutorial",
     "pisa-engine/pisa",
     "posva/catimg",
     "redis/hiredis",
+    "riscv-software-src/opensbi",
     "romkatv/gitstatus",
     "snapcast/snapcast",
     "sqlcipher/sqlcipher",
@@ -70,6 +73,7 @@
     "tinyobjloader/tinyobjloader",
     "TuGraph-family/tugraph-db",
     "void-linux/xbps",
+    "WebAssembly/wabt",
     "xlite-dev/lite.ai.toolkit",
     "zeromq/cppzmq"
   ]

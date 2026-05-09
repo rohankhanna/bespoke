@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 194,
-    "concepts": 200,
-    "observations": 201,
-    "repos": 44,
-    "terms": 195
+    "components": 201,
+    "concepts": 211,
+    "observations": 212,
+    "repos": 45,
+    "terms": 206
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -37,8 +37,10 @@
     "hku-mars/FAST-LIVO2",
     "hpjansson/chafa",
     "icecc/icecream",
+    "ioquake/ioq3",
     "JoeDog/siege",
     "json-c/json-c",
+    "leethomason/tinyxml2",
     "libgit2/rugged",
     "libimobiledevice/idevicerestore",
     "memononen/nanovg",
@@ -46,7 +48,6 @@
     "mitsuba-renderer/nanogui",
     "mmorise/World",
     "pellepl/spiffs",
-    "pganalyze/libpg_query",
     "PixarAnimationStudios/OpenSubdiv",
     "pramsey/pgsql-http",
     "RobertBeckebans/RBDOOM-3-BFG",

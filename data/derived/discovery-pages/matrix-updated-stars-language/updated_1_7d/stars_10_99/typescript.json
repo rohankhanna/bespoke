@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 469,
-    "concepts": 101,
-    "observations": 101,
-    "repos": 20,
-    "terms": 101
+    "components": 282,
+    "concepts": 74,
+    "observations": 74,
+    "repos": 12,
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
@@ -12,26 +12,18 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
-    "abaplint/transpiler",
-    "aggre/ullr",
-    "Airfooox/cron-validate",
     "carbon-design-system/carbon-preprocess-svelte",
     "csm-actions/approve-pr-action",
     "csm-actions/securefix-action",
     "GoogleCloudPlatform/opentelemetry-demo",
     "ibm-telemetry/telemetry-js",
     "iconify/iconify-tailwind",
-    "iconify/tools",
-    "intlify/cli",
-    "jbaubree/vite-plugin-pages-sitemap",
     "julia-actions/install-juliaup",
     "maplibre/maplibre-gl-inspect",
-    "microsoft/Agents-for-js",
     "nuxt-modules/emotion",
-    "suzuki-shunsuke/pinact-action",
-    "TrigenSoftware/simple-release",
+    "ogx-ai/ogx-client-typescript",
     "universal-ember/reactiveweb",
     "vincentlaucsb/experiencer"
   ]

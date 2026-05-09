@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 91,
-    "concepts": 87,
-    "observations": 87,
-    "repos": 21,
-    "terms": 90
+    "components": 63,
+    "concepts": 66,
+    "observations": 66,
+    "repos": 18,
+    "terms": 69
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "abh/geodns",
     "avast/retry-go",
@@ -25,14 +25,11 @@
     "golang/oauth2",
     "isaacphi/mcp-language-server",
     "JohannesKaufmann/html-to-markdown",
-    "liquidmetal-dev/flintlock",
     "markbates/goth",
     "mattn/efm-langserver",
     "mozillazg/go-pinyin",
-    "nutsdb/nutsdb",
     "OffchainLabs/arbitrum-classic",
     "opencontainers/image-spec",
-    "sony/gobreaker",
     "spf13/pflag",
     "tidwall/btree"
   ]

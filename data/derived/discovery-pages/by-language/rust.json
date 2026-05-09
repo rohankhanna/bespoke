@@ -4,13 +4,13 @@
     "concepts": 7790,
     "observations": 7850,
     "repos": 1706,
-    "terms": 7790
+    "terms": 7792
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "01mf02/jaq",

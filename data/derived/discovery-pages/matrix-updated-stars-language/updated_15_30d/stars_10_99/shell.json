@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 171,
-    "concepts": 171,
-    "observations": 174,
-    "repos": 38,
-    "terms": 171
+    "components": 176,
+    "concepts": 176,
+    "observations": 179,
+    "repos": 37,
+    "terms": 176
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
-    "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/mac2k",
     "2KAbhishek/sway2k",
+    "acmesh-official/acmetest",
     "AFLplusplus/cov-analysis",
     "agricidaniel/claude-cybersecurity",
     "alvistack/ansible-role-crun",
@@ -30,7 +30,6 @@
     "ChainSafe/forest-iac",
     "cloudfoundry/jumpbox-deployment",
     "conda-forge/pinocchio-feedstock",
-    "conda-forge/poppler-feedstock",
     "confluentinc/cp-demo",
     "containers/automation",
     "containers/automation_images",

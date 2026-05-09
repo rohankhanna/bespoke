@@ -3,7 +3,7 @@
     "components": 163,
     "concepts": 109,
     "observations": 109,
-    "repos": 74,
+    "repos": 76,
     "terms": 109
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "AbhiLegend/AIDrugDiscoveryOpenVINO",
     "af-74413592/agentscope",
@@ -20,6 +20,8 @@
     "akira-l/warc_extractor_mnbvc",
     "albertogeniola/elmax-api",
     "AlmaLinux/errata2osv",
+    "AniAggarwal/calculate-flops.pytorch",
+    "AniAggarwal/clip-score",
     "autodistill/autodistill-azure-vision",
     "b-data/jupyter-marimo-proxy",
     "bfshi/llava_next_s2_integration",

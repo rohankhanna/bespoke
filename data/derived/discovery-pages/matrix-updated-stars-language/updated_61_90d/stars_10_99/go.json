@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 88,
-    "concepts": 64,
-    "observations": 64,
-    "repos": 20,
-    "terms": 62
+    "components": 110,
+    "concepts": 69,
+    "observations": 69,
+    "repos": 21,
+    "terms": 67
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "AbsaOSS/external-dns-infoblox-webhook",
     "alexellis/fstail",
     "apache/incubator-seata-k8s",
+    "aquasecurity/k8s-node-collector",
     "aws-controllers-k8s/runtime",
     "bfenetworks/conf-agent",
     "bored-engineer/github-conditional-http-transport",
@@ -31,8 +32,8 @@
     "jm33-m0/arc",
     "multiformats/go-varint",
     "rose-pine/rose-pine-bloom",
-    "roy2220/osc52pty",
     "seaweedfs/seaweedfs-cosi-driver",
+    "wzshiming/repimage",
     "zoom/karpenter-oci"
   ]
 }

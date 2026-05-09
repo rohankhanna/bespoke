@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 86,
-    "concepts": 101,
-    "observations": 102,
-    "repos": 20,
-    "terms": 99
+    "components": 115,
+    "concepts": 117,
+    "observations": 118,
+    "repos": 24,
+    "terms": 115
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "agentclientprotocol/java-sdk",
     "apache/arrow-java",
     "apache/camel-quarkus-examples",
     "apache/flink-connector-pulsar",
+    "apache/ignite-extensions",
     "apache/netbeans-mavenutils-nbm-maven-plugin",
     "bazel-contrib/rules_jvm",
     "bsorrentino/java-async-generator",
@@ -28,9 +29,12 @@
     "filip26/ld-cli",
     "google/guava-beta-checker",
     "googleapis/discovery-artifact-manager",
+    "GoogleCloudPlatform/opentelemetry-operations-java",
+    "hivemq/helm-charts",
     "kirill-grouchnikov/ephemeral",
     "kurrent-io/KurrentDB-Client-Java",
     "m2e-code-quality/m2e-code-quality",
+    "mukel/gemma4.java",
     "simonpoole/OpeningHoursFragment",
     "xmlark/msv",
     "yawkat/lz4-java"

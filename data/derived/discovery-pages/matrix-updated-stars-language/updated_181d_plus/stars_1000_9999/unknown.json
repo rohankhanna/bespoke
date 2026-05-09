@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 30,
-    "concepts": 261,
-    "observations": 261,
-    "repos": 108,
-    "terms": 252
+    "concepts": 266,
+    "observations": 266,
+    "repos": 109,
+    "terms": 257
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "0nn0/terminal-mac-cheatsheet",
     "0xAX/erlang-bookmarks",
@@ -21,6 +21,7 @@
     "addyosmani/gemini-cli-tips",
     "AdguardTeam/AdGuardExtra",
     "AdrienTorris/awesome-blazor",
+    "AIoT-MLSys-Lab/Efficient-LLMs-Survey",
     "airbnb/css",
     "ali-vilab/composer",
     "ali-vilab/In-Context-LoRA",

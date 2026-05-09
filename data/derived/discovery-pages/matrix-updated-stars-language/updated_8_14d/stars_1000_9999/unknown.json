@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 13,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 7,
-    "terms": 18
+    "components": 12,
+    "concepts": 71,
+    "observations": 71,
+    "repos": 8,
+    "terms": 71
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
-    "CocoaPods/Specs",
     "Efficient-ML/Awesome-Model-Quantization",
     "github/rest-api-description",
     "GyanD/codexffmpeg",
+    "hxehex/russia-mobile-internet-whitelist",
     "logseq/awesome-logseq",
-    "meituan-longcat/LongCat-Flash-Chat",
-    "MicrosoftDocs/cpp-docs"
+    "MicrosoftDocs/cpp-docs",
+    "yokoffing/filterlists",
+    "yokoffing/NextDNS-Config"
   ]
 }

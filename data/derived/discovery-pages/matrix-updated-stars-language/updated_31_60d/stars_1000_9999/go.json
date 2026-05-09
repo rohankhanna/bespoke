@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 296,
-    "concepts": 326,
-    "observations": 326,
-    "repos": 59,
-    "terms": 318
+    "components": 313,
+    "concepts": 347,
+    "observations": 347,
+    "repos": 63,
+    "terms": 337
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "aquasecurity/starboard",
     "aquasecurity/tfsec",
@@ -20,6 +20,7 @@
     "atotto/clipboard",
     "azure/aztfexport",
     "bazelbuild/buildtools",
+    "btcsuite/btcd",
     "burke/zeus",
     "bytedance/gopkg",
     "caddyserver/xcaddy",
@@ -35,6 +36,7 @@
     "davidbyttow/govips",
     "ddworken/hishtory",
     "dop251/goja",
+    "fatih/color",
     "fnproject/fn",
     "go-redis/redis_rate",
     "goccy/go-json",
@@ -50,9 +52,11 @@
     "itchyny/gojq",
     "klauspost/compress",
     "kubernetes-sigs/krew",
+    "kubernetes-sigs/prometheus-adapter",
     "mailru/easyjson",
     "mattn/goreman",
     "minio/operator",
+    "mvdan/sh",
     "nikolaydubina/go-recipes",
     "NVIDIA/dcgm-exporter",
     "olric-data/olric",

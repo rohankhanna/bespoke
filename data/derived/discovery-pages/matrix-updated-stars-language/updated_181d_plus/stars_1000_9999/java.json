@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 130,
-    "concepts": 163,
-    "observations": 163,
-    "repos": 40,
-    "terms": 162
+    "concepts": 171,
+    "observations": 171,
+    "repos": 41,
+    "terms": 170
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "abel533/ECharts",
     "alibaba/compileflow",
@@ -24,6 +24,7 @@
     "crossbario/autobahn-java",
     "facebook/buck",
     "featurecat/lizzie",
+    "Freeyourgadget/Gadgetbridge",
     "gchq/Gaffer",
     "h2oai/h2o-2",
     "hazelcast/hazelcast-jet",

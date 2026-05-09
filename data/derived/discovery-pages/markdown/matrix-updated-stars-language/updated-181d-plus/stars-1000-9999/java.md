@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Java
 
-Generated at: `2026-05-08T07:13:05.364640+00:00`
+Generated at: `2026-05-09T05:34:16.337725+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 40
-- terms: 162
+- repos: 41
+- terms: 170
 - components: 130
-- concepts: 163
-- observations: 163
+- concepts: 171
+- observations: 171
 
 ## Static behavior
 
@@ -40,6 +40,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gchq/Gaffer](https://github.com/gchq/Gaffer) | 1793 | 2025-06-06T08:50:47Z | Java | Infrastructure/tooling | 18 | 13 | 18 | 18 |
 | [processing/processing](https://github.com/processing/processing) | 6492 | 2025-05-18T21:02:16Z | Java | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [tabulapdf/tabula-java](https://github.com/tabulapdf/tabula-java) | 2025 | 2025-03-19T18:21:14Z | Java | Infrastructure/tooling | 5 | 2 | 5 | 5 |
+| [Freeyourgadget/Gadgetbridge](https://github.com/Freeyourgadget/Gadgetbridge) | 4514 | 2024-12-23T17:24:07Z | Java | Unknown | 8 | 0 | 8 | 8 |
 | [hazelcast/hazelcast-jet](https://github.com/hazelcast/hazelcast-jet) | 1112 | 2024-12-19T11:55:10Z | Java | Unknown | 8 | 0 | 8 | 8 |
 | [apache/rocketmq-externals](https://github.com/apache/rocketmq-externals) | 4614 | 2024-12-09T09:00:27Z | Java | Unknown | 1 | 0 | 1 | 1 |
 | [crossbario/autobahn-java](https://github.com/crossbario/autobahn-java) | 1534 | 2024-11-28T05:15:51Z | Java | Infrastructure/tooling | 10 | 3 | 10 | 10 |
@@ -83,6 +84,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [reactive-streams/reactive-streams-jvm](https://github.com/reactive-streams/reactive-streams-jvm) | 4874 | 2024-03-13T03:40:25Z | Java | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [ronmamo/reflections](https://github.com/ronmamo/reflections) | 4773 | 2024-06-17T21:43:09Z | Java | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [apache/rocketmq-externals](https://github.com/apache/rocketmq-externals) | 4614 | 2024-12-09T09:00:27Z | Java | Unknown | 1 | 0 | 1 | 1 |
+| [Freeyourgadget/Gadgetbridge](https://github.com/Freeyourgadget/Gadgetbridge) | 4514 | 2024-12-23T17:24:07Z | Java | Unknown | 8 | 0 | 8 | 8 |
 | [pytorch/serve](https://github.com/pytorch/serve) | 4360 | 2025-08-06T19:17:08Z | Java | Infrastructure/tooling | 17 | 11 | 17 | 17 |
 | [JakeWharton/ThreeTenABP](https://github.com/JakeWharton/ThreeTenABP) | 3558 | 2025-08-22T03:29:53Z | Java | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [phodal/migration](https://github.com/phodal/migration) | 3474 | 2021-08-12T08:05:53Z | Java | Unknown | 7 | 0 | 7 | 7 |

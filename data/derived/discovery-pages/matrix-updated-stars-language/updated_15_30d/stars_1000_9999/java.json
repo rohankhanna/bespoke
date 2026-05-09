@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 258,
-    "concepts": 285,
-    "observations": 287,
+    "components": 260,
+    "concepts": 284,
+    "observations": 286,
     "repos": 36,
-    "terms": 286
+    "terms": 285
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "apache/camel",
@@ -23,9 +23,11 @@
     "apache/poi",
     "beehive-lab/TornadoVM",
     "besu-eth/besu",
+    "bonigarcia/webdrivermanager",
     "brianfrankcooper/YCSB",
     "codelibs/fess",
     "diffplug/spotless",
+    "FasterXML/jackson-annotations",
     "google/adk-java",
     "google/error-prone",
     "google/google-java-format",
@@ -33,7 +35,6 @@
     "google/tsunami-security-scanner",
     "googleapis/google-api-java-client",
     "googleapis/google-http-java-client",
-    "http-kit/http-kit",
     "java-native-access/jna",
     "jboss-javassist/javassist",
     "JetBrains/intellij-sdk-code-samples",
@@ -48,7 +49,6 @@
     "soot-oss/soot",
     "spotbugs/spotbugs",
     "spring-ai-alibaba/DataAgent",
-    "spring-ai-alibaba/examples",
-    "spring-projects/spring-restdocs"
+    "spring-ai-alibaba/examples"
   ]
 }

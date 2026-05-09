@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1433,
-    "concepts": 301,
-    "observations": 301,
-    "repos": 51,
-    "terms": 310
+    "components": 1538,
+    "concepts": 325,
+    "observations": 325,
+    "repos": 53,
+    "terms": 334
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "43081j/picoquery",
@@ -35,14 +35,15 @@
     "connectrpc/connect-query-es",
     "cztomsik/ava",
     "dezoito/ollama-grid-search",
+    "elm-tooling/elm-language-server",
     "fannheyward/coc-sql",
     "fannheyward/create-coc-extension",
     "graalvm/setup-graalvm",
     "graphql-hive/graphql-eslint",
-    "h3js/rou3",
     "hazelcast/hazelcast-nodejs-client",
     "hyparam/hightable",
     "ivo-toby/mcp-openapi-server",
+    "jupyterlab/extension-examples",
     "krassowski/jupyterlab-lsp",
     "kylebarron/arrow-js-ffi",
     "latex-lsp/texlab-vscode",
@@ -54,15 +55,16 @@
     "PanAeon/vscode-tmgrammar-test",
     "retracedhq/retraced",
     "ruvnet/agentic-flow",
+    "serversideup/webext-bridge",
     "shareai-lab/kode-agent-sdk",
     "solidjs/templates",
+    "storybookjs/test-runner",
     "sudocode-ai/sudocode",
     "testing-library/angular-testing-library",
     "thesayyn/protoc-gen-ts",
     "tracked-tools/tracked-built-ins",
     "un-ts/eslint-plugin-import-x",
     "vim-denops/denops.vim",
-    "windingwind/zotero-plugin-template",
     "XantreDev/preact-signals",
     "y-lohse/inkjs"
   ]

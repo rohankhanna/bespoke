@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 101,
-    "concepts": 68,
-    "observations": 69,
-    "repos": 12,
-    "terms": 67
+    "components": 68,
+    "concepts": 36,
+    "observations": 37,
+    "repos": 8,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "alloy-rs/evm",
     "boozook/mdbook-svgbob",
     "fallow-rs/oxc-coverage-instrument",
-    "heroku/buildpacks-jvm",
-    "heroku/buildpacks-nodejs",
-    "heroku/buildpacks-python",
     "influxdata/datafusion-udf-wasm",
     "kurrent-io/KurrentDB-Client-Rust",
-    "mdn/rari",
     "tofay/rustls-openssl",
     "tyrypyrking/egui-ash",
     "vaporif/parry-guard"

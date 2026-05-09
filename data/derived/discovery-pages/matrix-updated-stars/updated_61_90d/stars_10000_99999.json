@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 536,
-    "concepts": 345,
-    "observations": 349,
-    "repos": 58,
-    "terms": 352
+    "components": 532,
+    "concepts": 342,
+    "observations": 345,
+    "repos": 59,
+    "terms": 349
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
@@ -22,6 +22,7 @@
     "CocoaPods/CocoaPods",
     "ComposioHQ/awesome-claude-skills",
     "cool-RR/PySnooper",
+    "CorentinJ/Real-Time-Voice-Cloning",
     "datawhalechina/llm-universe",
     "egoist/tsup",
     "facebookresearch/audiocraft",
@@ -60,12 +61,12 @@
     "rubocop/ruby-style-guide",
     "serde-rs/serde",
     "sharkdp/hyperfine",
+    "sirupsen/logrus",
     "sql-js/sql.js",
     "TabbyML/tabby",
     "tpope/vim-fugitive",
     "tqdm/tqdm",
     "transitive-bullshit/agentic",
-    "unifyai/ivy",
     "vibrantlabsai/ragas",
     "Wan-Video/Wan2.1",
     "zsh-users/zsh-syntax-highlighting",

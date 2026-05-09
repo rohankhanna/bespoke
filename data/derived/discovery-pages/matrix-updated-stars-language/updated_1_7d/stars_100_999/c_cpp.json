@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 178,
-    "concepts": 173,
-    "observations": 173,
-    "repos": 31,
-    "terms": 172
+    "components": 80,
+    "concepts": 106,
+    "observations": 106,
+    "repos": 18,
+    "terms": 106
   },
   "facet_version": 1,
   "filters": {
@@ -12,38 +12,25 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "apache/iceberg-cpp",
-    "asl/BandageNG",
     "Blosc/c-blosc2",
-    "boostorg/math",
     "CEED/libCEED",
-    "ddemidov/amgcl",
-    "DrTimothyAldenDavis/GraphBLAS",
-    "enjoy-digital/litex_m2sdr",
-    "facebook/fboss",
-    "flagos-ai/FlagCX",
     "foldl/chatllm.cpp",
     "heiher/hev-socks5-server",
     "heiher/hev-socks5-tproxy",
-    "KDE/breeze-icons",
-    "libsdl-org/SDL_image",
+    "ipsilon/evmone",
     "Mercury13/unicodia",
-    "nelson-lang/nelson",
-    "nix-community/nix-unit",
     "open-telemetry/opentelemetry-dotnet-instrumentation",
     "open-telemetry/opentelemetry-ebpf-instrumentation",
     "ouster-lidar/ouster-ros",
-    "pkgxdev/pantry",
+    "ROCm/hipBLAS",
     "ros2/common_interfaces",
-    "snowballstem/snowball",
     "todbot/hidapitester",
     "tree-sitter-grammars/tree-sitter-markdown",
     "triton-inference-server/core",
-    "triton-inference-server/onnxruntime_backend",
     "triton-inference-server/pytorch_backend",
-    "ucscGenomeBrowser/kent",
-    "Unidata/netcdf-c"
+    "ucscGenomeBrowser/kent"
   ]
 }

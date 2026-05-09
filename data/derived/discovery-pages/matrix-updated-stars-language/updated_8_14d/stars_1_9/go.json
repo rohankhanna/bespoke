@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 45,
-    "concepts": 28,
-    "observations": 28,
+    "components": 49,
+    "concepts": 29,
+    "observations": 29,
     "repos": 10,
-    "terms": 27
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "1mb-dev/natcheck",
     "abhinav/goldmark-hashtag",
-    "bitrise-io/bitrise-plugins-step",
     "cloudfoundry/cc-uploader",
     "cloudfoundry/runtime-ci",
     "datachainlab/lcp-go",
+    "exoscale/karpenter-provider-exoscale",
     "huggingface/hf-csi-driver",
     "linode/karpenter-provider-linode",
     "Seedloaf/mc-router-discovery",

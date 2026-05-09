@@ -3,7 +3,7 @@
     "components": 12,
     "concepts": 6,
     "observations": 6,
-    "repos": 3,
+    "repos": 5,
     "terms": 6
   },
   "facet_version": 1,
@@ -12,10 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "AdaCore/vss-text",
     "Bearer/homebrew-tap",
-    "mjvolk3/dendron-template"
+    "mjvolk3/dendron-template",
+    "onomojo/i18n-country-translations-ex",
+    "onomojo/i18n-timezones-ex"
   ]
 }

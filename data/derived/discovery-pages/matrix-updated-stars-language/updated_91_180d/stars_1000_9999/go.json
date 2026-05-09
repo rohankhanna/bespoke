@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 142,
-    "concepts": 162,
-    "observations": 162,
-    "repos": 30,
-    "terms": 162
+    "components": 170,
+    "concepts": 183,
+    "observations": 183,
+    "repos": 33,
+    "terms": 183
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "99designs/aws-vault",
     "aarondl/authboss",
@@ -35,11 +35,14 @@
     "jhump/protoreflect",
     "jpillora/cloud-torrent",
     "jtblin/kube2iam",
+    "liquidmetal-dev/flintlock",
     "muesli/termenv",
+    "nutsdb/nutsdb",
     "protocolbuffers/protobuf-go",
     "restic/rest-server",
     "rs/cors",
     "shazow/ssh-chat",
+    "sony/gobreaker",
     "tenable/terrascan",
     "tmc/langchaingo",
     "uber-go/goleak",

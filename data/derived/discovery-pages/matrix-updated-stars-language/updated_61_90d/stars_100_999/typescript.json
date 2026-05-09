@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1014,
-    "concepts": 164,
-    "observations": 165,
-    "repos": 35,
-    "terms": 174
+    "components": 999,
+    "concepts": 169,
+    "observations": 170,
+    "repos": 36,
+    "terms": 179
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
-    "addyosmani/chatty",
     "agentscope-ai/agentscope-studio",
     "antfu/changelogithub",
     "antfu/eslint-plugin-antfu",
@@ -28,6 +27,7 @@
     "fnando/i18n",
     "googleapis/nodejs-datastore",
     "googleapis/nodejs-logging-winston",
+    "h3js/rou3",
     "import-js/eslint-import-resolver-typescript",
     "inciteful-xyz/inciteful-zotero-plugin",
     "janwilmake/openapi-mcp-server",
@@ -46,6 +46,7 @@
     "trzsz/trzsz.js",
     "unplugin/unplugin-vue-markdown",
     "vuejs/vue-eslint-parser",
+    "windingwind/zotero-plugin-template",
     "Wykks/ngx-mapbox-gl",
     "yandeu/five-server",
     "zsviczian/excalibrain"

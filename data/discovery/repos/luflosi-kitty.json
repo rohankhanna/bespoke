@@ -112,13 +112,14 @@
       "size": 859
     }
   ],
+  "metadata_refreshed_at": "2026-05-09T05:33:39.079837+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "A cross-platform, fast, feature full, GPU based terminal emulator",
     "fork": true,
-    "full_name": "Luflosi/kitty",
+    "full_name": "luflosi/kitty",
     "html_url": "https://github.com/Luflosi/kitty",
     "language": "Python",
     "pushed_at": "2022-09-17T19:31:07Z",

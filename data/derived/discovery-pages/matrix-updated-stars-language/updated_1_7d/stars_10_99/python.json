@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 68,
-    "concepts": 33,
-    "observations": 33,
-    "repos": 10,
-    "terms": 31
+    "components": 36,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 4,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
-    "arcaputo3/mcp-server-whisper",
     "dora-rs/dora-hub",
-    "gentoo/api-gentoo-org",
-    "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "Hiroshiba/voicevox_engine",
     "intel-staging/text-generation-webui",
-    "jfly/shtuff",
-    "python-jsonschema/referencing",
-    "pytroll/donfig",
-    "scipy/scipy.org"
+    "python-jsonschema/referencing"
   ]
 }

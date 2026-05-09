@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 13,
-    "terms": 24
+    "components": 42,
+    "concepts": 30,
+    "observations": 30,
+    "repos": 17,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "adobe-type-tools/Adobe-Manga1",
@@ -20,12 +20,16 @@
     "aifoundry-org/et-man",
     "alexpolonsky/agent-skills",
     "alexpolonsky/awesome-agent-skills-israel",
+    "autowarefoundation/.github",
     "awni/picochat",
+    "cncf/k8s-conformance-archive",
+    "danielrosehill/claude-agent-workspace-generator",
     "danielrosehill/Claude-Dork",
     "gakonst/foundry",
     "jsdom/.github",
     "orlp/color-backtrace",
     "piebald-ai/.github",
+    "richgel999/junkdrawer",
     "sp1-patches/curve25519-dalek-ng"
   ]
 }

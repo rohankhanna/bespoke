@@ -1,23 +1,29 @@
 {
   "counts": {
-    "components": 45,
-    "concepts": 25,
-    "observations": 25,
-    "repos": 6,
-    "terms": 25
+    "components": 68,
+    "concepts": 77,
+    "observations": 77,
+    "repos": 12,
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "Cle2ment/CherryStudio_themes",
-    "cloudfoundry/bosh-google-cpi-release",
+    "dwyl/mvp",
+    "hiddenswitch/pip-and-uv-installable-ComfyUI",
+    "jelly-beam/rebar3_ex_doc",
+    "karafka/example-apps",
     "lumen-oss/luarocks-tag-release",
     "mesh-iit/cad-libraries",
-    "ogx-ai/ogx-client-typescript",
-    "pivotal/credhub-release"
+    "ocaml-tracing/ocaml-opentelemetry",
+    "ocaml-tracing/ocaml-trace",
+    "pivotal/credhub-release",
+    "TrigenSoftware/simple-release",
+    "xuegao-tzx/Fllama"
   ]
 }

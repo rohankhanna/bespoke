@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 220,
-    "concepts": 137,
-    "observations": 138,
-    "repos": 30,
-    "terms": 137
+    "components": 196,
+    "concepts": 126,
+    "observations": 127,
+    "repos": 29,
+    "terms": 126
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
     "ankitpokhrel/shopctl",
     "apache/datasketches-go",
-    "aquasecurity/trivy-java-db",
     "bitrise-io/stepman",
     "bootmortis/sing-geosite",
     "cloudfoundry/bosh-backup-and-restore",
@@ -29,6 +28,8 @@
     "datachainlab/cosmos-ethereum-ibc-lcp",
     "DevExpGbb/gh-devlake",
     "dianlight/gollama.cpp",
+    "energye/cef",
+    "energye/lcl",
     "EngFlow/gazelle_cc",
     "golangci/go-printf-func-name",
     "golangci/misspell",
@@ -39,8 +40,6 @@
     "oracle/karpenter-provider-oci",
     "philips-labs/dct-notary-admin",
     "philips-labs/tabia",
-    "sigstore/helm-sigstore",
-    "sigstore/k8s-manifest-sigstore",
     "transparency-dev/witness",
     "usbarmory/tamago-example",
     "usbarmory/tamago-sev-example"

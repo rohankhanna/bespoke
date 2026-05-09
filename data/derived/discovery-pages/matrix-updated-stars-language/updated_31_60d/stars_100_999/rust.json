@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 241,
-    "concepts": 204,
-    "observations": 207,
-    "repos": 46,
-    "terms": 204
+    "components": 234,
+    "concepts": 197,
+    "observations": 200,
+    "repos": 45,
+    "terms": 197
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "ashvardanian/StringWars",
     "athre0z/color-backtrace",
@@ -28,11 +28,10 @@
     "dtolnay/ref-cast",
     "dtolnay/trybuild",
     "emilk/egui_plot",
-    "esp-rs/embedded-svc",
     "esp-rs/esp-idf-svc",
+    "facebookexperimental/allocative",
     "FedericoPonzi/Horust",
     "filecoin-project/bellperson",
-    "filecoin-project/rust-fil-proofs",
     "firstbatchxyz/dkn-compute-node",
     "getsentry/rust-sourcemap",
     "gfx-rs/rspirv",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1862,
-    "concepts": 2773,
-    "observations": 2792,
-    "repos": 697,
-    "terms": 2710
+    "components": 1873,
+    "concepts": 2792,
+    "observations": 2811,
+    "repos": 699,
+    "terms": 2736
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "shell"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",
@@ -407,6 +407,7 @@
     "japaric/rust-cross",
     "japaric/trust",
     "jawwadfirdousi/agent-skills",
+    "jcefmaven/jcefbuild",
     "jcmvbkbc/crosstool-NG",
     "jcupitt/vips-benchmarks",
     "jeff-hykin/better-go-syntax",
@@ -454,6 +455,7 @@
     "Layr-Labs/eigenda-operator-setup",
     "LedgerHQ/ledger-app-workflows",
     "LedgerHQ/udev-rules",
+    "leleliu008/ppkg",
     "lemire/docker_programming_station",
     "lint-staged/lint-staged.sh",
     "lite-xl/lite-xl-build-box",

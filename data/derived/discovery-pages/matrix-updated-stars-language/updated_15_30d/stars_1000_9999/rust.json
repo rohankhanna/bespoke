@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1453,
-    "concepts": 974,
-    "observations": 979,
-    "repos": 143,
-    "terms": 986
+    "components": 1495,
+    "concepts": 1017,
+    "observations": 1022,
+    "repos": 146,
+    "terms": 1029
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0xPlaygrounds/rig",
@@ -24,6 +24,7 @@
     "alloy-rs/alloy",
     "aome510/spotify-player",
     "apache/arrow-rs",
+    "apache/datafusion-comet",
     "apache/iggy",
     "apache/opendal",
     "asny/three-d",
@@ -43,8 +44,8 @@
     "cedar-policy/cedar",
     "compio-rs/compio",
     "crate-ci/typos",
+    "crev-dev/cargo-crev",
     "cross-rs/cross",
-    "crossterm-rs/crossterm",
     "dalek-cryptography/curve25519-dalek",
     "dathere/qsv",
     "DeterminateSystems/nix-installer",
@@ -74,6 +75,7 @@
     "j178/prek",
     "jni-rs/jni-rs",
     "johnnymorganz/stylua",
+    "jonhoo/fantoccini",
     "jonhoo/inferno",
     "jsr-io/jsr",
     "kata-containers/kata-containers",
@@ -104,7 +106,6 @@
     "not-fl3/miniquad",
     "nvidia/openshell",
     "open-telemetry/opentelemetry-rust",
-    "openai/harmony",
     "paradigmxyz/reth",
     "pdeljanov/Symphonia",
     "pgcentralfoundation/pgrx",
@@ -114,6 +115,7 @@
     "PyO3/maturin",
     "ratatui/mousefood",
     "release-plz/release-plz",
+    "rizsotto/Bear",
     "rkyv/rkyv",
     "romanz/electrs",
     "rusqlite/rusqlite",
@@ -140,6 +142,7 @@
     "servo/html5ever",
     "servo/pathfinder",
     "sigp/lighthouse",
+    "smallcloudai/refact",
     "snapview/tungstenite-rs",
     "succinctlabs/sp1",
     "SuperCuber/dotter",

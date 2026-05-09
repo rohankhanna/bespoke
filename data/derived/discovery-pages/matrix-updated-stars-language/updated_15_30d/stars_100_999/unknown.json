@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 75,
-    "concepts": 225,
-    "observations": 226,
+    "components": 67,
+    "concepts": 196,
+    "observations": 197,
     "repos": 57,
-    "terms": 224
+    "terms": 195
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "abhisheknaiidu/abhisheknaiidu",
     "actions/partner-runner-images",
-    "adoptium/adoptium",
+    "adoptium/temurin21-binaries",
     "ailev/fpf",
     "alchaincyf/elon-musk-skill",
     "alchaincyf/feynman-skill",
@@ -27,7 +27,6 @@
     "antonbabenko/terraform-aws-devops",
     "apappascs/mcp-servers-hub",
     "astro-han/karpathy-llm-wiki",
-    "attack68/rateslib",
     "bitrise-io/bitrise-steplib",
     "bloomberg/clang-p2996",
     "cisagov/vulnrichment",
@@ -52,6 +51,7 @@
     "ipfs-examples/helia-examples",
     "kitknox/rootshell",
     "kubernetes-sigs/krew-index",
+    "LemmyNet/lemmy-docs",
     "mason-org/mason-registry",
     "MicrosoftDocs/terminal",
     "nimbalyst/nimbalyst",

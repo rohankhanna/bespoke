@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · Unknown
 
-Generated at: `2026-05-08T07:13:05.364640+00:00`
+Generated at: `2026-05-09T05:34:16.337725+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 112
+- repos: 113
 - terms: 97
 - components: 197
 - concepts: 97
@@ -137,6 +137,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [marwes/hubcaps](https://github.com/Marwes/hubcaps) | 0 | 2021-10-04T09:10:02Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/backup_internet_israel](https://github.com/danielrosehill/backup_internet_israel) | 0 | 2021-09-14T02:02:31Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [zyedidia/blobs](https://github.com/zyedidia/blobs) | 0 | 2021-08-25T00:47:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [simrat39/rust-tools-demos](https://github.com/simrat39/rust-tools-demos) | 0 | 2021-07-28T04:47:44Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [hsivonen/charcounts](https://github.com/hsivonen/charcounts) | 0 | 2021-06-15T13:06:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
@@ -254,4 +255,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [marwes/hubcaps](https://github.com/Marwes/hubcaps) | 0 | 2021-10-04T09:10:02Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/backup_internet_israel](https://github.com/danielrosehill/backup_internet_israel) | 0 | 2021-09-14T02:02:31Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [zyedidia/blobs](https://github.com/zyedidia/blobs) | 0 | 2021-08-25T00:47:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [simrat39/rust-tools-demos](https://github.com/simrat39/rust-tools-demos) | 0 | 2021-07-28T04:47:44Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [hsivonen/charcounts](https://github.com/hsivonen/charcounts) | 0 | 2021-06-15T13:06:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

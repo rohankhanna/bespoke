@@ -4,7 +4,7 @@
     "concepts": 43,
     "observations": 43,
     "repos": 34,
-    "terms": 41
+    "terms": 47
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "1ilkhamov/opencode-hermes-multiagent",
     "Adlik/model_zoo",
@@ -37,7 +37,6 @@
     "LINs-lab/RCGM",
     "logseq/db-test",
     "lxgw/ext-characters",
-    "NinaWie/COVID-BLUES",
     "oak-security/resources",
     "PacificBiosciences/pbAA",
     "PyCQA/bandit-action",
@@ -45,6 +44,7 @@
     "sclorg/welcome",
     "stephenschoettler/taches-oc-prompts",
     "talk-flow/Lynxe-public-usecase",
+    "tony/claude-code-riper-5",
     "VectorSpaceLab/Vis-IR",
     "vega/schema",
     "withastro/.github"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 57,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 8,
-    "terms": 35
+    "components": 41,
+    "concepts": 21,
+    "observations": 21,
+    "repos": 5,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "ADNTIO/crispy-bootloader-rp2040-rs",
-    "databendlabs/databend-meta",
     "godot-rust/godot4-prebuilt",
-    "heroku/buildpacks-php",
-    "heroku/buildpacks-procfile",
     "influxdata/arrow-datafusion",
     "kurrent-io/KurrentDB-Bridge-Client",
     "open-telemetry/opentelemetry-weaver-examples"

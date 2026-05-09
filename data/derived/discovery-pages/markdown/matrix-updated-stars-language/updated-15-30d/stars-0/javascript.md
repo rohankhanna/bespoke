@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars · JavaScript
 
-Generated at: `2026-05-08T07:13:05.364640+00:00`
+Generated at: `2026-05-09T05:34:16.337725+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 10
-- terms: 50
-- components: 204
-- concepts: 49
-- observations: 49
+- repos: 9
+- terms: 32
+- components: 129
+- concepts: 31
+- observations: 31
 
 ## Static behavior
 
@@ -35,7 +35,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [i18next/i18next-subliminal](https://github.com/i18next/i18next-subliminal) | 0 | 2026-04-18T18:25:48Z | JavaScript | Infrastructure/tooling | 1 | 28 | 1 | 1 |
 | [saidudz/chat-ai](https://github.com/saidudz/Chat-AI) | 0 | 2026-04-17T15:26:16Z | JavaScript | Infrastructure/tooling | 1 | 24 | 0 | 0 |
 | [stdlib-js/ndarray-dtype-ctor](https://github.com/stdlib-js/ndarray-dtype-ctor) | 0 | 2026-04-17T11:17:11Z | JavaScript | Infrastructure/tooling | 25 | 30 | 25 | 25 |
-| [stdlib-js/dstructs-struct](https://github.com/stdlib-js/dstructs-struct) | 0 | 2026-04-09T03:55:27Z | JavaScript | Infrastructure/tooling | 18 | 75 | 18 | 18 |
 
 ## Repos sorted by stars
 
@@ -50,4 +49,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [i18next/i18next-subliminal](https://github.com/i18next/i18next-subliminal) | 0 | 2026-04-18T18:25:48Z | JavaScript | Infrastructure/tooling | 1 | 28 | 1 | 1 |
 | [saidudz/chat-ai](https://github.com/saidudz/Chat-AI) | 0 | 2026-04-17T15:26:16Z | JavaScript | Infrastructure/tooling | 1 | 24 | 0 | 0 |
 | [stdlib-js/ndarray-dtype-ctor](https://github.com/stdlib-js/ndarray-dtype-ctor) | 0 | 2026-04-17T11:17:11Z | JavaScript | Infrastructure/tooling | 25 | 30 | 25 | 25 |
-| [stdlib-js/dstructs-struct](https://github.com/stdlib-js/dstructs-struct) | 0 | 2026-04-09T03:55:27Z | JavaScript | Infrastructure/tooling | 18 | 75 | 18 | 18 |

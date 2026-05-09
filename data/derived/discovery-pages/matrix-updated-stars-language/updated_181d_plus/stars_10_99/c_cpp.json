@@ -3,7 +3,7 @@
     "components": 495,
     "concepts": 597,
     "observations": 597,
-    "repos": 267,
+    "repos": 268,
     "terms": 594
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "13thsymphony/HDRImageViewer",
     "19reborn/NeuS2_TCNN",
@@ -253,6 +253,7 @@
     "taichi-dev/taichi-aot-demo",
     "TAPZCREW/xmake-project-manager",
     "tevador/randomx-sniffer",
+    "ThisisBillhe/torch_quantizer",
     "thunlp/FR-Spec",
     "tidwall/evio.c",
     "tidwall/redcon.c",

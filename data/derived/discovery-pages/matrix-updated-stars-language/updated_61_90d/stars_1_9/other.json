@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 97,
-    "concepts": 62,
-    "observations": 62,
+    "components": 99,
+    "concepts": 63,
+    "observations": 63,
     "repos": 24,
-    "terms": 59
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,19 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "adobe/spectrum-tokens",
     "appbaseio/reactivesearch-api-docker",
     "arya-s/phantty",
-    "baskeboler/clj-karaoke-lyrics",
+    "aspect-build/rules_jasmine",
     "countries/countries-data-yaml",
+    "danielrosehill/Agentic-AI-Architecture-Visualisation",
     "empriselab/kortex_description",
     "haya14busa/github-used-by",
     "hermit-os/hermit-gcc",
     "ihmcrobotics/ihmc-build",
-    "JuliaBinaryWrappers/libcxxwrap_julia_jll.jl",
     "JuliaBinaryWrappers/Zlib_jll.jl",
     "Jumziey/neotest-nix-unit.nvim",
     "MarcCote/TextWorld",

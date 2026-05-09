@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2786,
-    "concepts": 1133,
-    "observations": 1137,
-    "repos": 841,
-    "terms": 1164
+    "components": 2793,
+    "concepts": 1138,
+    "observations": 1142,
+    "repos": 849,
+    "terms": 1169
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "0xBigBoss/ghostty-web",
@@ -41,6 +41,7 @@
     "abap2UI5-addons/popups",
     "abap2ui5/abap2ui5-build",
     "abap2UI5/web-abap2ui5-samples",
+    "abdeladim-s/pywhispercpp",
     "AbhiLegend/AIDrugDiscoveryOpenVINO",
     "abiondevelopment/external-dns-webhook-abion",
     "abraxas-365/claudio-screenshot",
@@ -82,6 +83,8 @@
     "Amtrend/ssh-manager",
     "andreivasiliu/quad-net",
     "angular/angular-build-builds",
+    "AniAggarwal/calculate-flops.pytorch",
+    "AniAggarwal/clip-score",
     "anonymized-transformer/anonymized-transformer.github.io",
     "apache/sling-org-apache-sling-feature-modelconverter",
     "appscodelabs/liche",
@@ -301,6 +304,9 @@
     "danielrosehill/Claude-GIMP-Plugin",
     "danielrosehill/Claude-Gist-Writer-Plugin",
     "danielrosehill/Claude-Github-Explorer-Plugin",
+    "danielrosehill/Claude-GPG-Ops-Plugin",
+    "danielrosehill/Claude-Green-Invoice-Ops-Plugin",
+    "danielrosehill/Claude-Hardware-ID-Annotation-Plugin",
     "danielrosehill/Claude-Hopper",
     "danielrosehill/Claude-Israel",
     "danielrosehill/Claude-Linux-Desktop-Manager",
@@ -321,6 +327,7 @@
     "danielrosehill/Geopol-Forecasts-Index",
     "danielrosehill/Geopolitical-And-OSINT-Index",
     "danielrosehill/git-github-plugin",
+    "danielrosehill/Github-Gist-MCP-Minimal",
     "danielrosehill/Github-Ideas-And-FRs",
     "danielrosehill/GitHub-Management-Tools-Index",
     "danielrosehill/Github-Repo-Org-Question",
@@ -776,6 +783,7 @@
     "shouted-numberone752/wechat-agent-connector",
     "shubishere/ai-drawio",
     "similar-colpoxerosis201/codex-wechat",
+    "simrat39/rust-tools-demos",
     "smallscientist1/tilelang",
     "songquanpeng/blog-theme-bootstrap",
     "songquanpeng/blog-theme-bootstrap5",

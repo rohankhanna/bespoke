@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 483,
-    "concepts": 100,
-    "observations": 101,
-    "repos": 18,
-    "terms": 98
+    "components": 182,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 9,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "AdguardTeam/HostlistsRegistry",
-    "americanexpress/jest-json-schema",
     "browserslist/caniuse-lite",
     "digitalocean/openapi",
-    "emberjs/ember-test-helpers",
-    "facebook/Rapid",
     "firebase/snippets-web",
-    "fontello/svg2ttf",
     "gitleaks/gitleaks-action",
     "mafintosh/streamx",
-    "mdn/fred",
-    "openfl/lime",
     "oss-serverless/serverless",
     "stylelint/stylelint-config-recommended",
-    "tc39/eshost",
-    "usnistgov/h5wasm",
-    "validator/grunt-html",
-    "w3c/webref"
+    "tc39/eshost"
   ]
 }

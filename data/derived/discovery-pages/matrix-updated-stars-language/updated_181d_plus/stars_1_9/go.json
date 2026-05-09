@@ -3,7 +3,7 @@
     "components": 158,
     "concepts": 125,
     "observations": 125,
-    "repos": 64,
+    "repos": 65,
     "terms": 124
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "0ghny/tlsg10x-cli",
     "13rac1/goldmark-embed",
@@ -44,6 +44,7 @@
     "dombenson/go-ini",
     "dubbo-go-pixiu/pixiu-api",
     "ebml-go/ebml",
+    "energye/golcl",
     "EpicStep/clickhouse-go-rows-utils",
     "filecoin-project/go-sectorbuilder",
     "go-bun/go-http-routing-benchmark",

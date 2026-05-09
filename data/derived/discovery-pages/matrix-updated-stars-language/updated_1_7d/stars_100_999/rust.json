@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 267,
-    "concepts": 172,
-    "observations": 173,
-    "repos": 23,
-    "terms": 172
+    "components": 154,
+    "concepts": 90,
+    "observations": 91,
+    "repos": 13,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,30 +12,20 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "agentclientprotocol/rust-sdk",
-    "conda/rattler",
+    "alloy-rs/svm-rs",
+    "attackgoat/vk-graph",
     "cosmos/solidity-ibc-eureka",
-    "Dicklesworthstone/asupersync",
-    "EmmyLuaLs/emmylua-analyzer-rust",
-    "GitoxideLabs/cargo-smart-release",
-    "google/mdbook-i18n-helpers",
-    "huggingface/hf-mount",
-    "huggingface/xet-core",
     "iqlusioninc/crates",
     "kornia/kornia-rs",
     "left-curve/left-curve",
-    "near/near-cli-rs",
-    "near/near-sdk-rs",
     "open-telemetry/weaver",
     "paradigmxyz/solar",
     "prefix-dev/rattler-build",
-    "rust-diplomat/diplomat",
     "rust-lang/stdarch",
-    "supabase/wrappers",
     "utilityai/llama-cpp-rs",
-    "z-galaxy/zbus",
-    "ZcashFoundation/zebra"
+    "z-galaxy/zbus"
   ]
 }

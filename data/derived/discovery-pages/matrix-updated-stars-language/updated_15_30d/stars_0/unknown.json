@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 39,
-    "concepts": 44,
-    "observations": 44,
+    "concepts": 45,
+    "observations": 45,
     "repos": 64,
-    "terms": 53
+    "terms": 54
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "aaronrsun/spec-kit-issue",
@@ -29,7 +29,6 @@
     "conda-forge/python-isal-feedstock",
     "conda-forge/textgrad-feedstock",
     "conda-forge/tianshou-feedstock",
-    "csjgg/ags-cookbook",
     "Culmus/hebrew-fonts",
     "damacol/ai-hub",
     "damacol/gemma-4-collection",
@@ -43,7 +42,6 @@
     "damacol/xai-org-grok-2",
     "danielrosehill/adb-ops-plugin",
     "danielrosehill/Agent-Assisted-Purchase-Research-Index",
-    "danielrosehill/Agent-Journal",
     "danielrosehill/AI-Geopol-Projects",
     "danielrosehill/AI-Memory-Planning-0426",
     "danielrosehill/AI-Presentation-Builders-Index",
@@ -58,6 +56,7 @@
     "danielrosehill/Claude-Code-Bugs-And-FRs",
     "danielrosehill/Claude-Code-Feedback",
     "danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin",
+    "danielrosehill/Claude-Green-Invoice-Ops-Plugin",
     "danielrosehill/Claude-Israel",
     "danielrosehill/Claude-Workspace-Reshaping-190426",
     "danielrosehill/Favorite-Code-Libraries",
@@ -74,6 +73,7 @@
     "pragmatical-transshipment598/claude-code-workflows",
     "psmux/scoop-omp-manager",
     "shouted-numberone752/wechat-agent-connector",
+    "TransferQueue/community_doc",
     "ublacklist/store-assets",
     "vivianalaced749/vk-calls-tunnel",
     "wencuecryforme/mysoul.skill",

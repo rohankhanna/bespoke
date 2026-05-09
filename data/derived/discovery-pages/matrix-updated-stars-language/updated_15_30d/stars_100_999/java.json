@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 169,
-    "concepts": 213,
-    "observations": 213,
-    "repos": 29,
-    "terms": 213
+    "components": 174,
+    "concepts": 241,
+    "observations": 241,
+    "repos": 33,
+    "terms": 241
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "apache/camel-examples",
     "apache/datasketches-java",
     "beehive-lab/GPULlama3.java",
     "carrot2/carrot2",
+    "chromiumembedded/java-cef",
     "connectbot/sshlib",
     "Cosium/git-code-format-maven-plugin",
     "eclipse-lemminx/lemminx",
@@ -28,9 +29,11 @@
     "googleapis/google-auth-library-java",
     "googleapis/google-oauth-java-client",
     "graalvm/graal-languages-demos",
+    "graalvm/graalvm-demos",
     "graalvm/native-build-tools",
     "higress-group/higress-console",
     "jpmml/jpmml-sparkml",
+    "kreativekorp/bitsnpicas",
     "microsoft/Generative-AI-for-beginners-java",
     "microsoft/java-debug",
     "microsoft/semantic-kernel-java",
@@ -38,6 +41,7 @@
     "mockingbot/react-native-zip-archive",
     "mukel/llama3.java",
     "redis/redis-om-spring",
+    "sevntu-checkstyle/sevntu.checkstyle",
     "spotbugs/sonar-findbugs",
     "swagger-api/swagger-inflector",
     "Waffle/waffle",

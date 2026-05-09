@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 63,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 5,
-    "terms": 12
+    "components": 31,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 2,
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
-    "4catalyzer/javascript",
     "aidenlab/juicebox.js",
-    "apache/doris-opentelemetry-demo",
-    "ideditor/schema-builder",
-    "julia-actions/cache"
+    "apache/doris-opentelemetry-demo"
   ]
 }

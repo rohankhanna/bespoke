@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1647,
-    "concepts": 259,
-    "observations": 259,
-    "repos": 29,
-    "terms": 258
+    "components": 1694,
+    "concepts": 249,
+    "observations": 249,
+    "repos": 30,
+    "terms": 248
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
+    "11ty/eleventy",
     "acornjs/acorn",
+    "addyosmani/critical",
     "ampproject/amphtml",
     "Automattic/mongoose",
     "easydiffusion/easydiffusion",
-    "electerm/electerm",
     "facebook/hermes",
     "gatsbyjs/gatsby",
     "GoogleChrome/lighthouse",
@@ -39,9 +40,9 @@
     "plotly/plotly.js",
     "SillyTavern/SillyTavern",
     "stylelint/stylelint",
+    "sveltejs/svelte",
     "swagger-api/swagger-ui",
     "Unitech/pm2",
-    "validatorjs/validator.js",
     "wix/Detox"
   ]
 }

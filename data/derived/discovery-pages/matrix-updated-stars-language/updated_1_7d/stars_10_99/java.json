@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 15,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 3,
-    "terms": 23
+    "components": 5,
+    "concepts": 4,
+    "observations": 4,
+    "repos": 1,
+    "terms": 4
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
-    "flyway/flyway-community-db-support",
-    "qdrant/java-client",
     "usdot-fhwa-stol/cdasim"
   ]
 }

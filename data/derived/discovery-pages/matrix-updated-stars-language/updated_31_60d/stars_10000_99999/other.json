@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 140,
-    "concepts": 166,
-    "observations": 168,
-    "repos": 20,
-    "terms": 159
+    "components": 128,
+    "concepts": 160,
+    "observations": 162,
+    "repos": 21,
+    "terms": 155
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "AppFlowy-IO/AppFlowy",
     "datawhalechina/happy-llm",
     "devicons/devicon",
+    "facebookresearch/dinov2",
     "facebookresearch/dinov3",
     "facebookresearch/sam2",
     "fastai/fastai",
@@ -27,7 +28,7 @@
     "koalaman/shellcheck",
     "Kong/kong",
     "LazyVim/LazyVim",
-    "mixmark-io/turndown",
+    "microsoft/language-server-protocol",
     "nvim-treesitter/nvim-treesitter",
     "openai/CLIP",
     "reasonml/reason",

@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Java
 
-Generated at: `2026-05-08T07:13:05.364640+00:00`
+Generated at: `2026-05-09T05:34:16.337725+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 30
-- components: 33
-- concepts: 30
-- observations: 30
+- repos: 1
+- terms: 13
+- components: 21
+- concepts: 13
+- observations: 13
 
 ## Static behavior
 
@@ -26,14 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1926 | 2026-05-07T20:12:12Z | Java | Infrastructure/tooling | 13 | 21 | 13 | 13 |
-| [eclipse-jdtls/eclipse.jdt.ls](https://github.com/eclipse-jdtls/eclipse.jdt.ls) | 2325 | 2026-05-07T19:53:13Z | Java | CLI | 7 | 8 | 7 | 7 |
-| [helidon-io/helidon](https://github.com/helidon-io/helidon) | 3782 | 2026-05-07T17:43:07Z | Java | Infrastructure/tooling | 10 | 4 | 10 | 10 |
+| [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1927 | 2026-05-09T00:36:08Z | Java | Infrastructure/tooling | 13 | 21 | 13 | 13 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [helidon-io/helidon](https://github.com/helidon-io/helidon) | 3782 | 2026-05-07T17:43:07Z | Java | Infrastructure/tooling | 10 | 4 | 10 | 10 |
-| [eclipse-jdtls/eclipse.jdt.ls](https://github.com/eclipse-jdtls/eclipse.jdt.ls) | 2325 | 2026-05-07T19:53:13Z | Java | CLI | 7 | 8 | 7 | 7 |
-| [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1926 | 2026-05-07T20:12:12Z | Java | Infrastructure/tooling | 13 | 21 | 13 | 13 |
+| [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1927 | 2026-05-09T00:36:08Z | Java | Infrastructure/tooling | 13 | 21 | 13 | 13 |

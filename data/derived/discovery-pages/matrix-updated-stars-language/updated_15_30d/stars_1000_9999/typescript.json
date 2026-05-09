@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5671,
-    "concepts": 1063,
-    "observations": 1066,
-    "repos": 143,
-    "terms": 1173
+    "components": 5565,
+    "concepts": 1057,
+    "observations": 1060,
+    "repos": 141,
+    "terms": 1161
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -66,7 +66,6 @@
     "eemeli/yaml",
     "electron/fiddle",
     "electron/forge",
-    "electron/windows-installer",
     "ElMassimo/iles",
     "emmetio/emmet",
     "EpicenterHQ/epicenter",
@@ -85,6 +84,7 @@
     "gorhom/react-native-bottom-sheet",
     "Helicone/helicone",
     "heyhuynhgiabuu/proxypal",
+    "huozhi/bunchee",
     "i18next/next-i18next",
     "iorate/ublacklist",
     "ipfs/helia",
@@ -92,7 +92,6 @@
     "jaredwray/keyv",
     "jupyter-lsp/jupyterlab-lsp",
     "Kaliiiiiiiiii-Vinyzu/patchright",
-    "kirodotdev/Kiro",
     "kulshekhar/ts-jest",
     "langchain-ai/deepagentsjs",
     "langchain-ai/langgraphjs",
@@ -102,7 +101,6 @@
     "liam-hq/liam",
     "libp2p/js-libp2p",
     "liveblocks/liveblocks",
-    "lobehub/lobe-icons",
     "lobehub/lobe-ui",
     "lobehub/sd-webui-lobe-theme",
     "lukeautry/tsoa",
@@ -112,7 +110,6 @@
     "microsoft/rnx-kit",
     "microsoft/vscode-cpptools",
     "microsoft/vscode-eslint",
-    "microsoft/vscode-js-debug",
     "microsoft/vscode-languageserver-node",
     "mksglu/context-mode",
     "mutoe/vue3-realworld-example-app",
@@ -153,6 +150,7 @@
     "vega/vega-lite",
     "VoltAgent/voltagent",
     "vuejs/eslint-plugin-vue",
+    "vuejs/router",
     "webgpu/webgpu-samples",
     "wighawag/hardhat-deploy",
     "withastro/starlight",

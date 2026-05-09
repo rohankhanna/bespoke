@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 390,
-    "concepts": 265,
-    "observations": 266,
-    "repos": 62,
-    "terms": 261
+    "components": 398,
+    "concepts": 266,
+    "observations": 267,
+    "repos": 63,
+    "terms": 262
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "abhinav/goldmark-anchor",
     "abhinav/goldmark-frontmatter",
@@ -23,6 +23,7 @@
     "apache/dubbo-go-pixiu-samples",
     "appleboy/drone-lambda",
     "apptainer/sif",
+    "aquasecurity/trivy-java-db",
     "aspect-build/aspect-gazelle",
     "Asterisk4Magisk/XrayHelper",
     "aws-controllers-k8s/code-generator",
@@ -52,7 +53,6 @@
     "gopasspw/gopass-hibp",
     "hashicorp/hcp-sdk-go",
     "Infisical/go-sdk",
-    "ipfs/gateway-conformance",
     "ipshipyard/p2p-forge",
     "joshsymonds/cc-tools",
     "kubernetes-sigs/apiserver-runtime",
@@ -67,6 +67,8 @@
     "notaryproject/notation-go",
     "openshift/ci-tools",
     "quicksilver-zone/quicksilver",
+    "sigstore/helm-sigstore",
+    "sigstore/k8s-manifest-sigstore",
     "sigstore/rekor-tiles",
     "terraform-linters/tflint-ruleset-google",
     "tilt-dev/tilt-apiserver",
@@ -74,7 +76,6 @@
     "usbarmory/armory-boot",
     "usbarmory/armory-drive",
     "usbarmory/armory-ums",
-    "usbarmory/GoTEE-example",
-    "usbarmory/tamago-go"
+    "usbarmory/GoTEE-example"
   ]
 }

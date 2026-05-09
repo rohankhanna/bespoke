@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 400,
-    "concepts": 332,
-    "observations": 334,
-    "repos": 21,
-    "terms": 332
+    "components": 268,
+    "concepts": 213,
+    "observations": 215,
+    "repos": 15,
+    "terms": 213
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,19 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
-    "anchore/grype",
     "apache/casbin",
-    "authelia/authelia",
     "cert-manager/cert-manager",
     "cilium/cilium",
     "containers/podman",
     "etcd-io/etcd",
     "flipped-aurora/gin-vue-admin",
     "go-gitea/gitea",
-    "google/gvisor",
-    "gotify/server",
-    "gravitational/teleport",
     "helm/helm",
     "istio/istio",
     "oauth2-proxy/oauth2-proxy",
-    "pion/webrtc",
-    "pulumi/pulumi",
+    "restic/restic",
     "rqlite/rqlite",
     "SagerNet/sing-box",
     "seaweedfs/seaweedfs",

@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · Python
 
-Generated at: `2026-05-08T07:13:05.364640+00:00`
+Generated at: `2026-05-09T05:34:16.337725+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 7
-- terms: 63
-- components: 43
-- concepts: 63
-- observations: 63
+- terms: 64
+- components: 62
+- concepts: 64
+- observations: 64
 
 ## Static behavior
 
@@ -26,22 +26,22 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [AI-Hypercomputer/maxdiffusion](https://github.com/AI-Hypercomputer/maxdiffusion) | 346 | 2026-05-08T05:52:11Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |
+| [AI-Hypercomputer/maxdiffusion](https://github.com/AI-Hypercomputer/maxdiffusion) | 347 | 2026-05-09T00:49:15Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |
+| [scverse/rapids-singlecell](https://github.com/scverse/rapids-singlecell) | 366 | 2026-05-08T21:00:36Z | Python | Infrastructure/tooling | 7 | 17 | 7 | 7 |
+| [gbionics/adam](https://github.com/gbionics/adam) | 217 | 2026-05-08T15:01:49Z | Python | Infrastructure/tooling | 15 | 9 | 15 | 15 |
+| [pyrtlsdr/pyrtlsdr](https://github.com/pyrtlsdr/pyrtlsdr) | 682 | 2026-05-08T13:24:38Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [gbionics/jaxsim](https://github.com/gbionics/jaxsim) | 194 | 2026-05-08T09:34:39Z | Python | Infrastructure/tooling | 18 | 11 | 18 | 18 |
+| [googlefonts/roboto-3-classic](https://github.com/googlefonts/roboto-3-classic) | 236 | 2026-05-08T09:01:27Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [15r10nk/inline-snapshot](https://github.com/15r10nk/inline-snapshot) | 728 | 2026-05-08T05:42:01Z | Python | Infrastructure/tooling | 15 | 8 | 15 | 15 |
-| [clearml/clearml-agent](https://github.com/clearml/clearml-agent) | 295 | 2026-05-07T15:24:26Z | Python | Infrastructure/tooling | 12 | 0 | 12 | 12 |
-| [scverse/rapids-singlecell](https://github.com/scverse/rapids-singlecell) | 365 | 2026-05-07T14:59:13Z | Python | Infrastructure/tooling | 7 | 17 | 7 | 7 |
-| [TinyLLaVA/TinyLLaVA_Factory](https://github.com/TinyLLaVA/TinyLLaVA_Factory) | 978 | 2026-05-07T12:41:53Z | Python | Framework | 6 | 0 | 6 | 6 |
-| [vale-cli/packages](https://github.com/vale-cli/packages) | 118 | 2026-05-07T10:42:51Z | Python | Library | 1 | 0 | 1 | 1 |
-| [gbionics/adam](https://github.com/gbionics/adam) | 217 | 2026-05-07T08:19:49Z | Python | Infrastructure/tooling | 15 | 9 | 15 | 15 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [TinyLLaVA/TinyLLaVA_Factory](https://github.com/TinyLLaVA/TinyLLaVA_Factory) | 978 | 2026-05-07T12:41:53Z | Python | Framework | 6 | 0 | 6 | 6 |
 | [15r10nk/inline-snapshot](https://github.com/15r10nk/inline-snapshot) | 728 | 2026-05-08T05:42:01Z | Python | Infrastructure/tooling | 15 | 8 | 15 | 15 |
-| [scverse/rapids-singlecell](https://github.com/scverse/rapids-singlecell) | 365 | 2026-05-07T14:59:13Z | Python | Infrastructure/tooling | 7 | 17 | 7 | 7 |
-| [AI-Hypercomputer/maxdiffusion](https://github.com/AI-Hypercomputer/maxdiffusion) | 346 | 2026-05-08T05:52:11Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |
-| [clearml/clearml-agent](https://github.com/clearml/clearml-agent) | 295 | 2026-05-07T15:24:26Z | Python | Infrastructure/tooling | 12 | 0 | 12 | 12 |
-| [gbionics/adam](https://github.com/gbionics/adam) | 217 | 2026-05-07T08:19:49Z | Python | Infrastructure/tooling | 15 | 9 | 15 | 15 |
-| [vale-cli/packages](https://github.com/vale-cli/packages) | 118 | 2026-05-07T10:42:51Z | Python | Library | 1 | 0 | 1 | 1 |
+| [pyrtlsdr/pyrtlsdr](https://github.com/pyrtlsdr/pyrtlsdr) | 682 | 2026-05-08T13:24:38Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [scverse/rapids-singlecell](https://github.com/scverse/rapids-singlecell) | 366 | 2026-05-08T21:00:36Z | Python | Infrastructure/tooling | 7 | 17 | 7 | 7 |
+| [AI-Hypercomputer/maxdiffusion](https://github.com/AI-Hypercomputer/maxdiffusion) | 347 | 2026-05-09T00:49:15Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |
+| [googlefonts/roboto-3-classic](https://github.com/googlefonts/roboto-3-classic) | 236 | 2026-05-08T09:01:27Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [gbionics/adam](https://github.com/gbionics/adam) | 217 | 2026-05-08T15:01:49Z | Python | Infrastructure/tooling | 15 | 9 | 15 | 15 |
+| [gbionics/jaxsim](https://github.com/gbionics/jaxsim) | 194 | 2026-05-08T09:34:39Z | Python | Infrastructure/tooling | 18 | 11 | 18 | 18 |

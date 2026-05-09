@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · Python
 
-Generated at: `2026-05-08T07:13:05.364640+00:00`
+Generated at: `2026-05-09T05:34:16.337725+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 74
+- repos: 76
 - terms: 109
 - components: 163
 - concepts: 109
@@ -38,6 +38,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cogito233/mini_webarena](https://github.com/cogito233/mini_webarena) | 0 | 2025-09-12T04:47:26Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [jbilcke-hf/finetrainers](https://github.com/jbilcke-hf/finetrainers) | 0 | 2025-09-05T12:40:25Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [mignonjia/lmgame_train_reorg](https://github.com/mignonjia/lmgame_train_reorg) | 0 | 2025-08-07T20:33:37Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [AniAggarwal/clip-score](https://github.com/AniAggarwal/clip-score) | 0 | 2025-07-27T04:21:30Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [spencer-tb/ethereum-spec-evm-resolver](https://github.com/spencer-tb/ethereum-spec-evm-resolver) | 0 | 2025-07-25T10:24:33Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [py-cov-action/python-coverage-comment-action-v3-example](https://github.com/py-cov-action/python-coverage-comment-action-v3-example) | 0 | 2025-07-12T09:20:01Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [elladyr/myo_sim](https://github.com/elladyr/myo_sim) | 0 | 2025-07-10T03:51:47Z | Python | Model/data | 0 | 0 | 0 | 0 |
@@ -46,6 +47,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Natyren/WebShop](https://github.com/Natyren/WebShop) | 0 | 2025-06-10T21:13:16Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [CodeBoarding/atlassian-python-api](https://github.com/CodeBoarding/atlassian-python-api) | 0 | 2025-06-06T15:53:33Z | Python | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [Natyren/alfworld](https://github.com/Natyren/alfworld) | 0 | 2025-05-26T21:13:24Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
+| [AniAggarwal/calculate-flops.pytorch](https://github.com/AniAggarwal/calculate-flops.pytorch) | 0 | 2025-05-03T11:43:43Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [mongodb-forks/PyKMIP](https://github.com/mongodb-forks/PyKMIP) | 0 | 2025-04-21T22:22:26Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [danielrosehill/Remote-Jobs-Research-Agent](https://github.com/danielrosehill/Remote-Jobs-Research-Agent) | 0 | 2025-04-04T17:10:15Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [AlmaLinux/errata2osv](https://github.com/AlmaLinux/errata2osv) | 0 | 2025-03-25T09:22:24Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -117,6 +119,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cogito233/mini_webarena](https://github.com/cogito233/mini_webarena) | 0 | 2025-09-12T04:47:26Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [jbilcke-hf/finetrainers](https://github.com/jbilcke-hf/finetrainers) | 0 | 2025-09-05T12:40:25Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [mignonjia/lmgame_train_reorg](https://github.com/mignonjia/lmgame_train_reorg) | 0 | 2025-08-07T20:33:37Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [AniAggarwal/clip-score](https://github.com/AniAggarwal/clip-score) | 0 | 2025-07-27T04:21:30Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [spencer-tb/ethereum-spec-evm-resolver](https://github.com/spencer-tb/ethereum-spec-evm-resolver) | 0 | 2025-07-25T10:24:33Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [py-cov-action/python-coverage-comment-action-v3-example](https://github.com/py-cov-action/python-coverage-comment-action-v3-example) | 0 | 2025-07-12T09:20:01Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [elladyr/myo_sim](https://github.com/elladyr/myo_sim) | 0 | 2025-07-10T03:51:47Z | Python | Model/data | 0 | 0 | 0 | 0 |
@@ -125,6 +128,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Natyren/WebShop](https://github.com/Natyren/WebShop) | 0 | 2025-06-10T21:13:16Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [CodeBoarding/atlassian-python-api](https://github.com/CodeBoarding/atlassian-python-api) | 0 | 2025-06-06T15:53:33Z | Python | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [Natyren/alfworld](https://github.com/Natyren/alfworld) | 0 | 2025-05-26T21:13:24Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
+| [AniAggarwal/calculate-flops.pytorch](https://github.com/AniAggarwal/calculate-flops.pytorch) | 0 | 2025-05-03T11:43:43Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [mongodb-forks/PyKMIP](https://github.com/mongodb-forks/PyKMIP) | 0 | 2025-04-21T22:22:26Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [danielrosehill/Remote-Jobs-Research-Agent](https://github.com/danielrosehill/Remote-Jobs-Research-Agent) | 0 | 2025-04-04T17:10:15Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [AlmaLinux/errata2osv](https://github.com/AlmaLinux/errata2osv) | 0 | 2025-03-25T09:22:24Z | Python | Unknown | 0 | 0 | 0 | 0 |

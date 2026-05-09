@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1357,
-    "concepts": 292,
-    "observations": 294,
-    "repos": 48,
-    "terms": 292
+    "components": 1492,
+    "concepts": 296,
+    "observations": 298,
+    "repos": 53,
+    "terms": 296
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "1-Platform/op-components",
-    "52-entertainment/vite-plugin-oxlint",
     "addfox/addfox",
+    "aggre/ullr",
+    "Airfooox/cron-validate",
     "appsignal/appsignal-javascript",
     "catppuccin/.github",
     "coasys/flux",
@@ -27,14 +28,17 @@
     "favware/esbuild-plugin-version-injector",
     "forcedotcom/agents",
     "ghostery/broken-page-reports",
+    "iconify/tools",
+    "intlify/cli",
     "intlify/vue-i18n-extensions",
     "ipdxco/github-as-code",
     "ipfs/github-mgmt",
     "jakebailey/pyright-action",
-    "jakoch/install-vulkan-sdk-action",
     "jbaubree/sitemap-ts",
+    "jbaubree/vite-plugin-pages-sitemap",
     "jest-community/eslint-plugin-jest-extended",
     "ldclabs/KIP",
+    "microsoft/Agents-for-js",
     "NullVoxPopuli/ember-deep-tracked",
     "obsidianmd/eslint-plugin",
     "oclif/plugin-autocomplete",
@@ -61,6 +65,7 @@
     "sapphiredev/shapeshift",
     "SemiAnalysisAI/InferenceX-app",
     "seung-lab/neuroglancer",
+    "suzuki-shunsuke/pinact-action",
     "swagger-api/apidom"
   ]
 }

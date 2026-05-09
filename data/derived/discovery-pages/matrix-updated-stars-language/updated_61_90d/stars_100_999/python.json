@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 194,
-    "concepts": 310,
-    "observations": 310,
-    "repos": 87,
-    "terms": 310
+    "components": 222,
+    "concepts": 334,
+    "observations": 334,
+    "repos": 90,
+    "terms": 332
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "absadiki/pywhispercpp",
     "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
@@ -27,16 +27,18 @@
     "araffin/sbx",
     "aws-samples/sample-agentic-ai-demos",
     "berkerpeksag/astor",
-    "breezedeus/CnSTD",
+    "Blosc/python-blosc",
     "brentyi/jaxls",
     "BrianPugh/belay",
     "bytedance/Q-Insight",
+    "celery/py-amqp",
     "Chris-hughes10/pytorch-accelerated",
     "cleinc/bts",
     "DanCardin/cappa",
     "danielward27/flowjax",
     "dbeley/awesome-lemmy",
     "deepbeepmeep/mmgp",
+    "djcopley/ShellOracle",
     "dongjae0107/ELite",
     "drivendataorg/zamba",
     "dualverse-ai/station",
@@ -83,6 +85,7 @@
     "quanhaol/MagicMotion",
     "radekd91/inferno",
     "ronaldoussoren/py2app",
+    "scottchiefbaker/dool",
     "securefederatedai/openfederatedlearning",
     "ShenhanQian/GaussianAvatars",
     "Shenyi-Z/TaylorSeer",

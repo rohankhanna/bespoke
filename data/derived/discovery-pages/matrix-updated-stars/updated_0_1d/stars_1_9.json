@@ -1,19 +1,20 @@
 {
   "counts": {
-    "components": 32,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 3,
-    "terms": 6
+    "components": 37,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 4,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "aidenlab/juicebox-web",
+    "energye/designer",
     "mozilla-ai/otari",
     "oscard0m/ts-transformer-remove-named-export"
   ]

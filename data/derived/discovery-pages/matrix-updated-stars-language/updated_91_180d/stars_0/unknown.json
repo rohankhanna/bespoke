@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 23,
-    "terms": 24
+    "components": 32,
+    "concepts": 28,
+    "observations": 28,
+    "repos": 25,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "asm89/prettytable-rs",
     "danielrosehill/A-Better-Jobs-Platform-Notes",
@@ -25,12 +25,14 @@
     "danielrosehill/git-github-plugin",
     "danielrosehill/Kokoro-FastAPI",
     "datafuse-extras/pprof-rs",
+    "DiligentGraphics/NuklearUI",
     "Enselic/cargo-public-api",
     "get-gah/gah-db",
     "jackielii/qmk_firmware",
     "llamagate/diff",
     "LuminalOSS/credstash",
     "Mountchicken/Mountchicken",
+    "mudler/vulkan-sdk-arm",
     "openwdl/governance",
     "praw-dev/.github",
     "radashi-org/radashi-canary",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1894,
-    "concepts": 279,
-    "observations": 282,
+    "concepts": 292,
+    "observations": 295,
     "repos": 69,
-    "terms": 311
+    "terms": 324
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
+    "52-entertainment/vite-plugin-oxlint",
     "adyscorpius/logseq-jira",
     "agents-squads/squads-cli",
     "almogdepaz/wolfpack",
@@ -39,7 +40,6 @@
     "dokploy/cli",
     "electron-userland/electron-windows-msix",
     "electron/windows-sign",
-    "ElementsProject/cln-application",
     "ethereum/eip-review-bot",
     "fannheyward/coc-xml",
     "favware/cliff-jumper",
@@ -56,6 +56,7 @@
     "ipikuka/rehype-highlight-code-lines",
     "ipikuka/remark-flexible-containers",
     "jaegertracing/documentation",
+    "jakoch/install-vulkan-sdk-action",
     "jerseycheese/narraitor",
     "jkheadley/instar",
     "Kastalien-Research/thoughtbox",
@@ -65,7 +66,6 @@
     "lobehub/lobe-lint",
     "mcous/vitest-when",
     "mdjastrzebski/test-renderer",
-    "microsoft/vscode-js-debug-companion",
     "newrelic/opentelemetry-demo",
     "ngyewch/smile-js",
     "octokit/webhooks-methods.js",

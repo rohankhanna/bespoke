@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 742,
-    "concepts": 183,
-    "observations": 184,
+    "components": 648,
+    "concepts": 175,
+    "observations": 176,
     "repos": 35,
-    "terms": 180
+    "terms": 172
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "alexmojaki/birdseye",
     "antimatter15/splat",
@@ -29,10 +29,10 @@
     "gautamkrishnar/nothing-private",
     "GoogleChromeLabs/jsvu",
     "gradio-app/fastrtc",
+    "grpc/grpc-web",
     "guybedford/es-module-lexer",
     "guybedford/es-module-shims",
     "gwudcap/cc-sessions",
-    "ipfs/ipfs-companion",
     "jasongin/nvs",
     "jimmywarting/StreamSaver.js",
     "jsx-eslint/eslint-plugin-jsx-a11y",

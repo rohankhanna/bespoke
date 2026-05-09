@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11599,
-    "concepts": 5069,
-    "observations": 5078,
-    "repos": 2272,
-    "terms": 5089
+    "components": 11609,
+    "concepts": 5079,
+    "observations": 5088,
+    "repos": 2278,
+    "terms": 5099
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0cc4m/hf_bleeding_edge",
@@ -215,6 +215,7 @@
     "alguerocode/validator.js",
     "alibaba-archive/session-compatible-fast-serializer",
     "alibaizhanov/openclaw-mengram",
+    "AlignedQuant/AlignedKV",
     "aliyun/alibabacloud-oss-java-sdk-v2",
     "allen-hsu/wdyr-flipper",
     "allenai/olmes-docker",
@@ -659,6 +660,7 @@
     "cpu/wycheproof",
     "CrackAndDie/Hypocrite.Services",
     "crate-ci/cargo-tarball",
+    "CREAsTIVE/LSP-rustowl",
     "criccomini/uniffi-bindgen-node-js",
     "CROSS-signature/CROSS-lib-oqs",
     "cryptonomic/conseiljs-reasonml-bindings",
@@ -924,6 +926,8 @@
     "empowerchain/cosmos-chain-directory",
     "empriselab/kortex_description",
     "enbop/fungi-app",
+    "energye/designer",
+    "energye/golcl",
     "EnokViking/Box2DBeef",
     "enola-dev/LearningADK",
     "enxs969/skiller",
@@ -1442,6 +1446,7 @@
     "kosmtik/kosmtik-map-compare",
     "koute/rwkv_tokenizer",
     "kowainik/.github",
+    "kreativekorp/u8m",
     "kristijanhusak/completion-tags",
     "kriszyp/db-benchmark",
     "KSXGitHub/aur-packages-builder",
@@ -1553,6 +1558,7 @@
     "LucasGinard/AireLibre-iOS",
     "luchoturtle/banger-bot",
     "lucthev/collapse-whitespace",
+    "luflosi/kitty",
     "LuisaGroup/CMakeStarterTemplate",
     "lukasz-wronski/Antigravity-Shit-Chat",
     "lumen-oss/luarocks-build-treesitter-parser",

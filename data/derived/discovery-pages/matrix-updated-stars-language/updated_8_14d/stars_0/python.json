@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 6,
-    "terms": 6
+    "components": 15,
+    "concepts": 10,
+    "observations": 10,
+    "repos": 7,
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "danielrosehill/Claude-AI-Video-Producer-Plugin",
     "danielrosehill/Repo-Starters-And-Templates-Index",
     "flagos-ai/verl-FL",
+    "lace/lacecore",
     "NightWatcher314/dockgecli",
     "NightWatcher314/npmctl",
     "superfarther/K2V"

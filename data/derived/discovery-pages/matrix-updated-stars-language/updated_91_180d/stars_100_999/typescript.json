@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 939,
-    "concepts": 166,
-    "observations": 166,
-    "repos": 34,
-    "terms": 165
+    "components": 974,
+    "concepts": 173,
+    "observations": 173,
+    "repos": 35,
+    "terms": 172
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "adaltas/node-http-status",
+    "addyosmani/chatty",
     "akshaykmr/teletype",
     "angular/vscode-ng-language-service",
     "antfu-collective/eslint-vitest-rule-tester",
@@ -31,6 +32,7 @@
     "jsonquerylang/jsonquery",
     "kepano/obsidian-hider",
     "LeDDGroup/typescript-transform-paths",
+    "lostintangent/gistpad-mcp",
     "ManuelHentschel/VSCode-R-Debugger",
     "matrix-org/matrix-appservice-slack",
     "microsoft/botbuilder-js",
@@ -41,7 +43,6 @@
     "posthtml/posthtml-parser",
     "PrismLibrary/Prism-Documentation",
     "SassNinja/postcss-extract-media-query",
-    "scopecraft/command",
     "snapcast/snapweb",
     "TanStack/ranger",
     "tevonsb/homeassistant-mcp",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 349,
-    "concepts": 376,
-    "observations": 376,
-    "repos": 30,
-    "terms": 376
+    "components": 495,
+    "concepts": 502,
+    "observations": 502,
+    "repos": 37,
+    "terms": 502
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "a-h/templ",
+    "anchore/grype",
     "apernet/hysteria",
     "argoproj/argo-workflows",
+    "authelia/authelia",
     "bufbuild/buf",
     "cloudflare/cloudflared",
     "cloudwego/eino",
@@ -29,6 +31,9 @@
     "go-playground/validator",
     "go-sql-driver/mysql",
     "goharbor/harbor",
+    "google/gvisor",
+    "gotify/server",
+    "gravitational/teleport",
     "grpc-ecosystem/grpc-gateway",
     "hajimehoshi/ebiten",
     "hashicorp/nomad",
@@ -38,6 +43,8 @@
     "ory/kratos",
     "php/frankenphp",
     "pingcap/tidb",
+    "pion/webrtc",
+    "pulumi/pulumi",
     "quic-go/quic-go",
     "rclone/rclone",
     "schollz/croc",

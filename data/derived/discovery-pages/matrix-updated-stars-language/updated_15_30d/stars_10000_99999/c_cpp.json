@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 511,
-    "concepts": 673,
-    "observations": 676,
-    "repos": 70,
-    "terms": 671
+    "components": 538,
+    "concepts": 718,
+    "observations": 721,
+    "repos": 74,
+    "terms": 716
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "abseil/abseil-cpp",
     "Alexays/Waybar",
@@ -20,11 +20,13 @@
     "apache/arrow",
     "ApolloAuto/apollo",
     "apple/foundationdb",
+    "arangodb/arangodb",
     "aristocratos/btop",
     "aseprite/aseprite",
     "bitcoin/bitcoin",
     "bkaradzic/bgfx",
     "chromium/chromium",
+    "citusdata/citus",
     "ClickHouse/ClickHouse",
     "curl/curl",
     "Cyan4973/xxHash",
@@ -42,9 +44,9 @@
     "google/benchmark",
     "google/filament",
     "google/flatbuffers",
-    "google/sanitizers",
     "google/sentencepiece",
     "google/skia",
+    "grpc/grpc",
     "haiwen/seafile",
     "Immediate-Mode-UI/Nuklear",
     "jedisct1/libsodium",
@@ -54,6 +56,7 @@
     "microsoft/mimalloc",
     "microsoft/onnxruntime",
     "microsoft/react-native-windows",
+    "microsoft/STL",
     "microsoft/winget-cli",
     "microsoft/WSL",
     "microsoft/WSL2-Linux-Kernel",
@@ -69,6 +72,7 @@
     "opencv/opencv_contrib",
     "openresty/lua-nginx-module",
     "openssl/openssl",
+    "PaddlePaddle/Paddle",
     "pgvector/pgvector",
     "px4/px4-autopilot",
     "pybind/pybind11",

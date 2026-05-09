@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 42,
-    "concepts": 53,
-    "observations": 53,
-    "repos": 8,
-    "terms": 53
+    "components": 32,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 5,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
-    "ihmcrobotics/ihmc-open-robotics-software",
+    "jcefmaven/jcefmaven",
     "jdereg/json-io",
     "mapsforge/vtm",
     "MarcusWolschon/osmeditor4android",
-    "microsoft/LangChain4j-for-Beginners",
-    "processing/processing4",
-    "samtools/htsjdk",
-    "spring-projects/spring-tools"
+    "processing/processing4"
   ]
 }

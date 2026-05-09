@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars · C/C++
 
-Generated at: `2026-05-08T07:13:05.364640+00:00`
+Generated at: `2026-05-09T05:34:16.337725+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 6
-- terms: 8
-- components: 17
-- concepts: 8
-- observations: 8
+- repos: 7
+- terms: 9
+- components: 19
+- concepts: 9
+- observations: 9
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [DiligentGraphics/glfw](https://github.com/DiligentGraphics/glfw) | 0 | 2026-02-07T16:52:59Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [DiligentGraphics/glslang](https://github.com/DiligentGraphics/glslang) | 0 | 2026-01-19T19:39:35Z | C/C++ | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [DiligentGraphics/googletest](https://github.com/DiligentGraphics/googletest) | 0 | 2026-01-19T04:19:47Z | C/C++ | Framework | 0 | 0 | 0 | 0 |
 | [czk23/YiTu](https://github.com/czk23/YiTu) | 0 | 2026-01-07T05:54:31Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -37,6 +38,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [DiligentGraphics/glfw](https://github.com/DiligentGraphics/glfw) | 0 | 2026-02-07T16:52:59Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [DiligentGraphics/glslang](https://github.com/DiligentGraphics/glslang) | 0 | 2026-01-19T19:39:35Z | C/C++ | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [DiligentGraphics/googletest](https://github.com/DiligentGraphics/googletest) | 0 | 2026-01-19T04:19:47Z | C/C++ | Framework | 0 | 0 | 0 | 0 |
 | [czk23/YiTu](https://github.com/czk23/YiTu) | 0 | 2026-01-07T05:54:31Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

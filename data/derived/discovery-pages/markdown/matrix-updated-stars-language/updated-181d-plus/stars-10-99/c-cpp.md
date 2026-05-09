@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-05-08T07:13:05.364640+00:00`
+Generated at: `2026-05-09T05:34:16.337725+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 267
+- repos: 268
 - terms: 594
 - components: 495
 - concepts: 597
@@ -164,6 +164,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [awslabs/bike-kem](https://github.com/awslabs/bike-kem) | 53 | 2024-04-11T20:51:24Z | C/C++ | Unknown | 1 | 0 | 1 | 1 |
 | [derronqi/ncnn-android-yolov8-face](https://github.com/derronqi/ncnn-android-yolov8-face) | 44 | 2024-04-02T08:55:25Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [xtensor-stack/xtensor-io](https://github.com/xtensor-stack/xtensor-io) | 93 | 2024-04-02T04:05:57Z | C/C++ | Infrastructure/tooling | 6 | 2 | 6 | 6 |
+| [ThisisBillhe/torch_quantizer](https://github.com/ThisisBillhe/torch_quantizer) | 25 | 2024-03-29T08:49:48Z | C/C++ | Model/data | 0 | 0 | 0 | 0 |
 | [S95Sedan/Deepspeed-Windows](https://github.com/S95Sedan/Deepspeed-Windows) | 44 | 2024-03-09T08:29:58Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [kimgr/getopt_port](https://github.com/kimgr/getopt_port) | 94 | 2024-03-03T14:27:15Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [sophgo/ChatGLM2-TPU](https://github.com/sophgo/ChatGLM2-TPU) | 49 | 2024-03-01T02:42:17Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -491,6 +492,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [TritonDataCenter/javascriptlint](https://github.com/TritonDataCenter/javascriptlint) | 26 | 2022-04-08T19:33:07Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [MetaX-MACA/FlashMLA](https://github.com/MetaX-MACA/FlashMLA) | 25 | 2025-03-25T06:08:35Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [continuumio/blz](https://github.com/ContinuumIO/blz) | 25 | 2024-08-14T00:43:32Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [ThisisBillhe/torch_quantizer](https://github.com/ThisisBillhe/torch_quantizer) | 25 | 2024-03-29T08:49:48Z | C/C++ | Model/data | 0 | 0 | 0 | 0 |
 | [sewenew/tokenizer](https://github.com/sewenew/tokenizer) | 25 | 2023-12-07T14:24:08Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 | [FFTW/benchfft](https://github.com/FFTW/benchfft) | 24 | 2025-03-18T20:19:12Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [libbitcoin/secp256k1](https://github.com/libbitcoin/secp256k1) | 24 | 2025-03-09T15:53:52Z | C/C++ | Library | 0 | 0 | 0 | 0 |

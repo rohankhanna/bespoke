@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 68,
-    "concepts": 95,
-    "observations": 95,
+    "components": 76,
+    "concepts": 111,
+    "observations": 111,
     "repos": 13,
-    "terms": 95
+    "terms": 110
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,19 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "Botspot/pi-apps",
     "confluentinc/demo-scene",
-    "dtcooper/raspotify",
     "fluxcd/flux2-kustomize-helm-example",
     "GrapheneOS/Vanadium",
+    "heroku/heroku-buildpack-nodejs",
+    "holman/dotfiles",
     "home-assistant/addons",
+    "jkroepke/helm-secrets",
     "mlocati/docker-php-extension-installer",
     "msys2/MINGW-packages",
-    "pypa/manylinux",
     "rbenv/ruby-build",
-    "rocker-org/rocker",
     "sublimehq/Packages",
     "YosysHQ/oss-cad-suite-build"
   ]

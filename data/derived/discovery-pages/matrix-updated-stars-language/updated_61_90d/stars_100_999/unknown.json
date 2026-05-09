@@ -3,7 +3,7 @@
     "components": 14,
     "concepts": 75,
     "observations": 76,
-    "repos": 18,
+    "repos": 19,
     "terms": 71
   },
   "facet_version": 1,
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "Alex313031/Thorium-Android",
     "Alex313031/Thorium-MacOS",
     "Biscuit-Theme/biscuit",
+    "bluescan/proggyfonts",
     "Calcium-Ion/new-api-horizon",
     "docker-library/faq",
     "eza-community/eza-themes",

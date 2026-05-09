@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 165,
-    "concepts": 144,
-    "observations": 145,
+    "components": 161,
+    "concepts": 138,
+    "observations": 139,
     "repos": 53,
-    "terms": 142
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "AadSah/ConverSeg",
     "aba122/Q-Hawkeye",
@@ -55,6 +55,7 @@
     "Lizw14/Super-CLEVR",
     "Owen-Liuyuxuan/ros2_vision_inference",
     "rdb/panda3d-thirdparty",
+    "richardodliu/OpenCodeEval",
     "scaleway/serverless-gateway",
     "ServiceNow/webarena-verified",
     "sylabs/singularity-userdocs",
@@ -65,7 +66,6 @@
     "xplpc/xplpc",
     "xuanyuzhang21/RALI",
     "xuanyuzhang21/VQ-Insight",
-    "yulewang97/ERDiff",
-    "zlib-ng/deflatebench"
+    "yulewang97/ERDiff"
   ]
 }

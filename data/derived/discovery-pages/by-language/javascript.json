@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 39036,
+    "components": 39046,
     "concepts": 8665,
     "observations": 8691,
     "repos": 2060,
-    "terms": 8656
+    "terms": 8659
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "javascript"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "0x4139/cosmos-discord-faucet",
     "0xPolygon/pilcom",

@@ -3,8 +3,8 @@
     "components": 21,
     "concepts": 31,
     "observations": 32,
-    "repos": 9,
-    "terms": 31
+    "repos": 10,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "agkozak/zcomet",
     "alirezarezvani/claude-code-tresor",
     "asdf-vm/asdf-nodejs",
     "docker-library/buildpack-deps",
+    "flinedev/contextkit",
     "helm/kind-action",
     "nico2sh/semtag",
     "nodejs/unofficial-builds",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2078,
-    "concepts": 2842,
-    "observations": 2849,
-    "repos": 908,
-    "terms": 2827
+    "components": 2082,
+    "concepts": 2870,
+    "observations": 2877,
+    "repos": 914,
+    "terms": 2856
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -197,6 +197,7 @@
     "chriskempson/base16-vim",
     "chrismccord/phoenix_live_view_example",
     "christoomey/vim-tmux-runner",
+    "chromelyapps/demo-projects",
     "chuxiaoguo/vue-sketch-ruler",
     "citusdata/activerecord-multi-tenant",
     "CjangCjengh/MoeGoe_GUI",
@@ -524,6 +525,7 @@
     "LambdaLabsML/lambda-diffusers",
     "lambdalisue/vim-gina",
     "lambdalisue/vim-glyph-palette",
+    "langchain-ai/deep_research_from_scratch",
     "larsiusprime/firetongue",
     "LaurentMazare/ocaml-torch",
     "Lausbert/Exermote",
@@ -558,6 +560,7 @@
     "lukas-reineke/lsp-format.nvim",
     "lunarmodules/luassert",
     "lupantech/MathVista",
+    "lvimuser/lsp-inlayhints.nvim",
     "lyft/nuscenes-devkit",
     "m00qek/plugin-template.nvim",
     "Macoron/whisper.unity",
@@ -666,6 +669,7 @@
     "nvim-telescope/telescope-frecency.nvim",
     "nvim-telescope/telescope-fzy-native.nvim",
     "nvim-telescope/telescope-smart-history.nvim",
+    "nvim-treesitter/playground",
     "nvimdev/galaxyline.nvim",
     "ocaml-community/zed",
     "octref/veturpack",
@@ -892,6 +896,7 @@
     "WebAssembly/function-references",
     "WebAssembly/module-linking",
     "WebAssembly/wasi-threads",
+    "webview2/EdgeSharp",
     "WICG/file-system-access",
     "WICG/first-party-sets",
     "wiktoriavh/Spectrum",
@@ -918,6 +923,7 @@
     "zhunzhong07/person-re-ranking",
     "ziglang/zig-spec",
     "zihangJiang/TokenLabeling",
+    "ziontee113/syntax-tree-surfer",
     "zju3dv/mlp_maps",
     "zsef123/Connected_components_PyTorch",
     "Zzh-tju/DIoU",

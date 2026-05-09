@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-05-08T07:13:05.364640+00:00`
+Generated at: `2026-05-09T05:34:16.337725+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 164
-- terms: 420
-- components: 403
-- concepts: 424
-- observations: 427
+- repos: 165
+- terms: 423
+- components: 408
+- concepts: 427
+- observations: 430
 
 ## Static behavior
 
@@ -181,6 +181,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google/gnostic-go-generator](https://github.com/google/gnostic-go-generator) | 50 | 2022-02-05T10:24:11Z | Go | CLI | 0 | 0 | 0 | 0 |
 | [go-bun/bun-realworld-app](https://github.com/go-bun/bun-realworld-app) | 28 | 2022-01-09T06:59:06Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [wintoncode/vault-plugin-auth-kerberos](https://github.com/wintoncode/vault-plugin-auth-kerberos) | 35 | 2021-11-23T16:59:13Z | Go | Unknown | 4 | 0 | 4 | 4 |
+| [gosimple/unidecode](https://github.com/gosimple/unidecode) | 20 | 2021-11-08T17:42:35Z | Go | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [authorizer-tech/access-controller](https://github.com/authorizer-tech/access-controller) | 73 | 2021-10-26T01:37:21Z | Go | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [udacity/fef-udacimeals-backbone-server](https://github.com/udacity/FEF-UdaciMeals-Backbone-Server) | 22 | 2021-10-21T13:33:42Z | Go | Framework | 0 | 0 | 0 | 0 |
 | [qri-io/dataset](https://github.com/qri-io/dataset) | 15 | 2021-09-24T02:06:44Z | Go | Model/data | 3 | 0 | 3 | 3 |
@@ -317,6 +318,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [allegro/bigcache-bench](https://github.com/allegro/bigcache-bench) | 20 | 2024-01-08T10:09:15Z | Go | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [sideprotocol/ibcswap](https://github.com/sideprotocol/ibcswap) | 20 | 2023-08-10T12:34:57Z | Go | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [Alexander-r/box2d](https://github.com/Alexander-r/box2d) | 20 | 2023-04-15T22:40:03Z | Go | Unknown | 0 | 0 | 0 | 0 |
+| [gosimple/unidecode](https://github.com/gosimple/unidecode) | 20 | 2021-11-08T17:42:35Z | Go | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [dependabot/goproxy](https://github.com/dependabot/goproxy) | 18 | 2025-03-13T00:56:33Z | Go | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [sh1ma/voicevoxcore.go](https://github.com/sh1ma/voicevoxcore.go) | 18 | 2024-05-20T10:44:23Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [seasonjs/rwkv](https://github.com/seasonjs/rwkv) | 18 | 2023-12-31T05:15:03Z | Go | Unknown | 5 | 0 | 5 | 5 |

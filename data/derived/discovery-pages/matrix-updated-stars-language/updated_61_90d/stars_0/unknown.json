@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 58,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 9,
-    "terms": 29
+    "components": 52,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 7,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "CADindustries/container",
     "DataDog/opa",
     "DiligentGraphics/json",
-    "DiligentGraphics/NuklearUI",
     "guaguastandup/guaguastandup",
     "kitknox/helix",
-    "mudler/vulkan-sdk-arm",
     "psmux/scoop-tmuxpanel",
     "sp1-patches/curve25519-dalek"
   ]

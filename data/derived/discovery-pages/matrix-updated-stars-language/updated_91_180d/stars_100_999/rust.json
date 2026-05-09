@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 244,
-    "concepts": 180,
-    "observations": 183,
-    "repos": 44,
-    "terms": 178
+    "components": 247,
+    "concepts": 181,
+    "observations": 184,
+    "repos": 46,
+    "terms": 179
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "alexheretic/ab-glyph",
     "astro/deadnix",
@@ -21,8 +21,10 @@
     "bluss/matrixmultiply",
     "browserslist/browserslist-rs",
     "Builditluc/wiki-tui",
+    "callum-oakley/json5-rs",
     "CosmWasm/cw-plus",
     "cuviper/autocfg",
+    "dimforge/simba",
     "DioxusLabs/sdk",
     "dtolnay/cargo-llvm-lines",
     "dustinblackman/cargo-run-bin",

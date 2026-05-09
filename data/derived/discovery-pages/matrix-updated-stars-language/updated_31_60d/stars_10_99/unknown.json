@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 16,
-    "concepts": 27,
-    "observations": 27,
+    "components": 17,
+    "concepts": 26,
+    "observations": 26,
     "repos": 18,
-    "terms": 27
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "AppImage/AppImageSpec",
     "aquasecurity/setup-trivy",
     "bmad-code-org/bmad-plugins-marketplace",
     "bpftrace/user-tools",
+    "cedar-policy/cedar-docs",
     "clearml/clearml-fractional-gpu",
-    "cncf/project-template",
-    "cncf/wg-networking",
     "collective/awesome-volto",
     "CommunitySpecification/Community_Specification",
     "cta-wave/WMAS",
@@ -31,6 +30,7 @@
     "marko-js/examples",
     "onyx-dot-app/onyx_deep_research_bench",
     "opencontainers/tob",
-    "operator-framework/community"
+    "operator-framework/community",
+    "uxlfoundation/open-source-working-group"
   ]
 }

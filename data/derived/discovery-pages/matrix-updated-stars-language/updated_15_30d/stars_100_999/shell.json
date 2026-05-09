@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 193,
-    "concepts": 251,
-    "observations": 255,
-    "repos": 47,
-    "terms": 262
+    "components": 172,
+    "concepts": 234,
+    "observations": 238,
+    "repos": 46,
+    "terms": 245
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "actions/upload-pages-artifact",
@@ -22,10 +22,8 @@
     "arangrhie/T2T-Polish",
     "astro-han/claude-pace",
     "bnb-chain/bsc-snapshots",
-    "chaoss/grimoirelab",
     "cncf/k8s-conformance",
     "codelibs/docker-fess",
-    "crazy-max/xgo",
     "dani-garcia/bw_web_builds",
     "denysdovhan/dotfiles",
     "docker-library/drupal",
@@ -57,6 +55,7 @@
     "sclorg/s2i-python-container",
     "serpro69/claude-toolbox",
     "termux/repology-metadata",
+    "tinted-theming/schemes",
     "tonistiigi/xx",
     "trailofbits/claude-code-devcontainer",
     "undeadlist/claude-code-agents",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 184,
-    "concepts": 103,
-    "observations": 103,
+    "components": 196,
+    "concepts": 109,
+    "observations": 109,
     "repos": 50,
-    "terms": 121
+    "terms": 127
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "adaumann/speckit-preset-fiction-book-writing",
     "agenmod/distill-protocol-skill",
     "agenmod/distill-shield-skill",
-    "agenmod/okr-skill",
     "AgnostiqHQ/covalent-executor-template",
     "aiidateam/plumpy",
     "andriykohut/pdm-readiness",
@@ -42,15 +41,16 @@
     "dora-rs/dora-benchmark",
     "dreamiurg/peakbagger-cli",
     "etanhey/brainlayer",
+    "flagos-ai/TransformerEngine-FL",
     "floxym/financial-chat",
     "frank-syncmarket/skills",
     "gibdd-dps/prizolov-agent-os",
     "jupyter-xeus/xeus-python-shell",
     "justinchuby/lintrunner-adapters",
+    "kalavai-net/kube-watcher",
     "kelp/webdown",
     "lace/proximity",
     "lxgw/LxgwWenKai-shared",
-    "Mbed-TLS/mbedtls-framework",
     "ModelCloud/Defuser",
     "ModelCloud/LogBar",
     "momentique/source-code-security-audit-reviewer",

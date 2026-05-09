@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 175,
-    "concepts": 113,
-    "observations": 113,
-    "repos": 53,
-    "terms": 113
+    "components": 183,
+    "concepts": 119,
+    "observations": 119,
+    "repos": 54,
+    "terms": 119
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "0xPolygonHermez/stark-recurser",
     "actboy168/ltest",
@@ -25,6 +25,7 @@
     "cake-contrib/Cake.Markdownlint",
     "caronc/apprise-docs",
     "celo-org/charts",
+    "cgrindel/rules_swiftformat",
     "cloudfoundry/cf-smoke-tests-release",
     "conda-forge/.cirun",
     "conda-forge/croc-feedstock",
@@ -48,6 +49,7 @@
     "jhugestar/jhugestar.github.io",
     "joinwell52-ai/codeflow-pwa",
     "joinwell52-ai/joinwell52",
+    "JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl",
     "JuliaCI/julia-buildkite",
     "KhronosGroup/KTX-Software-CTS",
     "knopp/native_toolchain_ninja",
@@ -55,7 +57,6 @@
     "konnov/apalache-examples",
     "lahma/test262-harness-dotnet",
     "lemire/unicode_lipsum",
-    "marcindulak/learning-api-styles-gen-ai-experiments",
     "Mbed-TLS/mbedtls-test",
     "mitchuski/agentprivacy-docs",
     "raku-community-modules/Terminal-WCWidth",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 746,
-    "concepts": 93,
-    "observations": 93,
-    "repos": 32,
-    "terms": 93
+    "components": 754,
+    "concepts": 92,
+    "observations": 92,
+    "repos": 33,
+    "terms": 94
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "adevinta/actions-lighthouseci-compare",
     "aigc3d/LAM_WebRender",
@@ -36,8 +36,9 @@
     "joliss/node-walk-sync",
     "libp2p/github-mgmt",
     "lnbc1QWFyb24/lnmessage",
-    "luizbarboza/polyclip-ts",
+    "lobehub/.github",
     "nanostores/angular",
+    "omril321/automated-notebooklm",
     "opensearch-project/opentelemetry-demo",
     "PhoenixIllusion/babylonjs-jolt-physics-plugin",
     "redhat-developer/vscode-redhat-telemetry",

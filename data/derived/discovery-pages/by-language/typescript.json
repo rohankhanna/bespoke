@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 60600,
-    "concepts": 10380,
-    "observations": 10415,
-    "repos": 1843,
-    "terms": 10680
+    "components": 60711,
+    "concepts": 10405,
+    "observations": 10440,
+    "repos": 1847,
+    "terms": 10710
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "0h7z/vscode-julia-format",
@@ -118,6 +118,7 @@
     "alibaba/formily",
     "alibaba/ice",
     "alibaizhanov/openclaw-mengram",
+    "alichherawalla/off-grid-mobile-ai",
     "aliezzahn/rsbuild-plugin-css-optimizer",
     "aliezzahn/rsbuild-plugin-markdown-loader",
     "alixdehghani/echarts-for-angular",
@@ -477,6 +478,7 @@
     "danielnappa/tweakgc-cli",
     "danielroe/beasties",
     "danielrosehill/agent-junction",
+    "danielrosehill/Github-Gist-MCP-Minimal",
     "danielrosehill/GreenInvoice-MCP",
     "danielrosehill/MCP-Network-CUPS",
     "danny-avila/LibreChat",
@@ -536,6 +538,7 @@
     "dylibso/xtp-bindgen",
     "dylibso/xtp-cpp-bindgen",
     "dyoshikawa/rulesync",
+    "dzhng/deep-research",
     "eastlondoner/pac-man",
     "eastlondoner/vibe-tools",
     "easyCZ/grpc-web-hacker-news",
@@ -1059,6 +1062,7 @@
     "lokerl/tts-vue",
     "lokesh/color-thief",
     "longlho/ts-transform-img",
+    "lostintangent/gistpad-mcp",
     "louislam/dockge",
     "LuaLS/LLS-Addons-Action",
     "LuaLS/vscode-lua",

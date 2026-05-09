@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 55,
-    "observations": 55,
-    "repos": 13,
-    "terms": 55
+    "components": 39,
+    "concepts": 59,
+    "observations": 59,
+    "repos": 15,
+    "terms": 59
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
+    "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/tmux-tilit",
     "aiKrice/homebrew-badgetizr",
     "beehive-lab/docker-tornadovm",
     "clojure/brew-install",
     "coin-or-tools/ThirdParty-Mumps",
     "coin-or/coinbrew",
+    "conda-forge/poppler-feedstock",
     "conda-forge/spacy-feedstock",
     "containers/image_build",
     "lxgw/LxgwWenkaiGB-Lite",

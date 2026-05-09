@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 14,
-    "concepts": 17,
-    "observations": 17,
-    "repos": 5,
-    "terms": 17
+    "components": 6,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 4,
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
-    "conda-forge/xeus-cpp-feedstock",
     "danielrosehill/Awesome-Hebrew-Fonts",
     "danielrosehill/Claude-Filesystem-Organiser-Plugin",
-    "kyverno/.github",
-    "nodenv/node-build-prerelease"
+    "kalavai-net/kalavai-templates",
+    "kyverno/.github"
   ]
 }

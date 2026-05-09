@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7,
-    "concepts": 7,
-    "observations": 7,
-    "repos": 9,
-    "terms": 7
+    "components": 17,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 11,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,18 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "conda-forge/blis-feedstock",
     "conda-forge/bottom-feedstock",
     "conda-forge/diffutils-feedstock",
     "conda-forge/ergocub-software-feedstock",
+    "conda-forge/xeus-cpp-feedstock",
     "danielrosehill/Claude-Calls-The-Shots",
     "danielrosehill/Local-Claude-Plugin-Install-Research",
     "DeepWok/mase-docker",
     "edward3h/bedrock-viz-from-backups",
-    "gerardtschanz/revenue-os"
+    "gerardtschanz/revenue-os",
+    "nodenv/node-build-prerelease"
   ]
 }

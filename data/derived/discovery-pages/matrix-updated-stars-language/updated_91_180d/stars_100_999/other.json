@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 747,
-    "concepts": 690,
-    "observations": 691,
-    "repos": 175,
-    "terms": 687
+    "components": 774,
+    "concepts": 703,
+    "observations": 704,
+    "repos": 181,
+    "terms": 700
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -24,6 +24,7 @@
     "allenai/ScienceWorld",
     "analogdevicesinc/ai8x-training",
     "ankane/groupdate.sql",
+    "ankane/kms_encrypted",
     "antosha417/nvim-lsp-file-operations",
     "ap/vim-buftabline",
     "archguard/archguard",
@@ -73,6 +74,7 @@
     "dominicletz/websockex",
     "donut-party/system",
     "dwyl/quotes",
+    "EbrahimTahernejad/Tun2SocksKit",
     "eclarke/ggbeeswarm",
     "ecukes/ecukes",
     "elixir-mint/mint_web_socket",
@@ -89,6 +91,7 @@
     "flosse/sloc",
     "FluxML/MLJFlux.jl",
     "funcool/promesa",
+    "gfredericks/test.chuck",
     "google-research/vmoe",
     "gradle-nexus/publish-plugin",
     "grpc/grpc-dart",
@@ -109,6 +112,7 @@
     "JuliaDebug/SnoopCompile.jl",
     "JuliaDocs/LiveServer.jl",
     "JuliaGraphics/Colors.jl",
+    "JuliaInterop/CxxWrap.jl",
     "JuliaML/MLUtils.jl",
     "JuliaPlots/StatsPlots.jl",
     "JuliaPy/Conda.jl",
@@ -126,6 +130,7 @@
     "layr-labs/eigenlayer-middleware",
     "libvips/ruby-vips",
     "LintaoAmons/cd-project.nvim",
+    "loqusion/typix",
     "lunacookies/vim-colors-xcode",
     "marilari88/neotest-vitest",
     "megvii-research/HiDiffusion",
@@ -178,6 +183,7 @@
     "vim-jp/vim-cpp",
     "vim-jp/vim-vimlparser",
     "vim-php/phpctags",
+    "VisionLearningGroup/VisionLearningGroup.github.io",
     "w3c/FileAPI",
     "WebAssembly/tool-conventions",
     "WICG/layout-instability",

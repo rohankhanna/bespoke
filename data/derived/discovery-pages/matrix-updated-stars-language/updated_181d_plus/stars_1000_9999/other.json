@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1229,
-    "concepts": 1445,
-    "observations": 1447,
-    "repos": 399,
-    "terms": 1435
+    "components": 1235,
+    "concepts": 1482,
+    "observations": 1484,
+    "repos": 402,
+    "terms": 1472
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -72,6 +72,7 @@
     "cgrand/enlive",
     "chentoast/marks.nvim",
     "Chris911/iStats",
+    "chromelyapps/Chromely",
     "clojure-cookbook/clojure-cookbook",
     "clojure-liberator/liberator",
     "cloneofsimo/lora",
@@ -133,6 +134,7 @@
     "garbas/vim-snipmate",
     "geekyutao/Inpaint-Anything",
     "gelguy/wilder.nvim",
+    "GEOSwift/GEOSwift",
     "ggandor/lightspeed.nvim",
     "GiovineItalia/Gadfly.jl",
     "github/pages-gem",
@@ -326,6 +328,7 @@
     "Shougo/neosnippet.vim",
     "Shougo/unite.vim",
     "Shougo/vimproc.vim",
+    "simrat39/rust-tools.nvim",
     "sindrets/diffview.nvim",
     "sjl/gundo.vim",
     "smartstore/SmartStoreNET",

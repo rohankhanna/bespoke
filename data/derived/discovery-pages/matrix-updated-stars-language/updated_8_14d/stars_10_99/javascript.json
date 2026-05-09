@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 444,
-    "concepts": 130,
-    "observations": 132,
+    "components": 426,
+    "concepts": 127,
+    "observations": 129,
     "repos": 29,
-    "terms": 130
+    "terms": 127
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-08T07:13:05.364640+00:00",
+  "generated_at": "2026-05-09T05:34:16.337725+00:00",
   "repo_ids": [
+    "4catalyzer/javascript",
     "AdguardTeam/FiltersCompiler",
     "aidenlab/hic-straw",
     "alangdm/helium-animated-pages",
@@ -27,16 +28,15 @@
     "hudochenkov/postcss-styled-syntax",
     "hyparam/hyparquet-writer",
     "hyparam/squirreling",
+    "ideditor/schema-builder",
     "ionide/tree-sitter-fsharp",
     "j9t/obsohtml",
+    "julia-actions/cache",
     "kitconcept/volto-light-theme",
     "lm-sys/lm-sys.github.io",
-    "mainmatter/ember-vite-codemod",
     "nodejs/nodejs-dist-indexer",
     "npm/package-json",
-    "oclif/oclif.github.io",
     "octokit/create-octokit-project.js",
-    "r-lyeh/gamebook",
     "readthedocs/addons",
     "rescript-lang/tree-sitter-rescript",
     "rstackjs/agent-skills",

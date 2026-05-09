@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · Rust
 
-Generated at: `2026-05-08T07:13:05.364640+00:00`
+Generated at: `2026-05-09T05:34:16.337725+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 27
-- components: 47
-- concepts: 27
-- observations: 27
+- repos: 2
+- terms: 21
+- components: 37
+- concepts: 21
+- observations: 21
 
 ## Static behavior
 
@@ -26,14 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16380 | 2026-05-08T02:51:17Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
-| [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | 35945 | 2026-05-08T00:09:56Z | Rust | Infrastructure/tooling | 11 | 24 | 11 | 11 |
-| [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | 15151 | 2026-05-07T09:31:11Z | Rust | Infrastructure/tooling | 6 | 10 | 6 | 6 |
+| [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16382 | 2026-05-09T01:17:03Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
+| [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | 35948 | 2026-05-08T20:52:35Z | Rust | Infrastructure/tooling | 11 | 24 | 11 | 11 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | 35945 | 2026-05-08T00:09:56Z | Rust | Infrastructure/tooling | 11 | 24 | 11 | 11 |
-| [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16380 | 2026-05-08T02:51:17Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
-| [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | 15151 | 2026-05-07T09:31:11Z | Rust | Infrastructure/tooling | 6 | 10 | 6 | 6 |
+| [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | 35948 | 2026-05-08T20:52:35Z | Rust | Infrastructure/tooling | 11 | 24 | 11 | 11 |
+| [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16382 | 2026-05-09T01:17:03Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
