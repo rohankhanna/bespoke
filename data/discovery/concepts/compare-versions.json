@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "compare-versions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leleliu008/ppkg-formula-repository-official-core",
+      "status": "candidate-context",
+      "text": "official formula repository for ppkg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leleliu008/ppkg-formula-repository-official-core",
+      "status": "candidate-context",
+      "text": "compare-versions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leleliu008/ppkg-formula-repository-official-core",
+      "status": "candidate",
+      "text": "compare-versions"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "compare-versions",
+  "concept_id": "compare-versions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": ".github/workflows/compare-versions.yml",
+      "source_repo": "leleliu008/ppkg-formula-repository-official-core"
+    }
+  ],
+  "first_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "compare-versions",
+      "sense_id": "compare-versions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

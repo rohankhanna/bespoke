@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-09T08:02:29.680491+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4855
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official repository for Efficient Long-Text Understanding Using Short-Text Models (Ivgi et al., 2022) paper",
+    "fork": false,
+    "full_name": "Mivg/SLED",
+    "html_url": "https://github.com/Mivg/SLED",
+    "language": "Python",
+    "pushed_at": "2023-05-14T21:53:52Z",
+    "stargazers_count": 70,
+    "topics": [],
+    "updated_at": "2025-09-20T21:34:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

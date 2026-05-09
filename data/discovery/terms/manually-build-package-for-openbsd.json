@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/manually-build-for-openbsd.yml",
+      "source_repo": "leleliu008/ppkg-package-manually-build"
+    }
+  ],
+  "term": "manually build package for openbsd"
+}

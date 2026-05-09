@@ -1,0 +1,230 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp.Samples",
+      "target": "asp-net-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp.Samples",
+      "target": "chrome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp.Samples",
+      "target": "chromium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp.Samples",
+      "target": "desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp.Samples",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp.Samples",
+      "target": "edge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp.Samples",
+      "target": "edgesharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp.Samples",
+      "target": "electron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp.Samples",
+      "target": "html5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp.Samples",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp.Samples",
+      "target": "owin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp.Samples",
+      "target": "webview2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp.Samples",
+      "target": "win32",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp.Samples",
+      "target": "winforms",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T06:59:44.029385+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 67
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Samples of how EdgeSharp libraries can be used.",
+    "fork": false,
+    "full_name": "webview2/EdgeSharp.Samples",
+    "html_url": "https://github.com/webview2/EdgeSharp.Samples",
+    "language": "JavaScript",
+    "pushed_at": "2021-07-06T12:41:41Z",
+    "stargazers_count": 35,
+    "topics": [
+      "asp-net-core",
+      "cef",
+      "chrome",
+      "chromium",
+      "css",
+      "desktop",
+      "dotnet",
+      "edge",
+      "edgesharp",
+      "electron",
+      "html5",
+      "javascript",
+      "json",
+      "owin",
+      "webview2",
+      "win32",
+      "winforms",
+      "wpf"
+    ],
+    "updated_at": "2025-02-17T20:03:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Samples of how EdgeSharp libraries can be used",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asp-net-core"
+    },
+    {
+      "context_snippet": "Samples of how EdgeSharp libraries can be used",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome"
+    },
+    {
+      "context_snippet": "Samples of how EdgeSharp libraries can be used",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromium"
+    },
+    {
+      "context_snippet": "Samples of how EdgeSharp libraries can be used",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop"
+    },
+    {
+      "context_snippet": "Samples of how EdgeSharp libraries can be used",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "Samples of how EdgeSharp libraries can be used",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edge"
+    },
+    {
+      "context_snippet": "Samples of how EdgeSharp libraries can be used",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edgesharp"
+    },
+    {
+      "context_snippet": "Samples of how EdgeSharp libraries can be used",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electron"
+    },
+    {
+      "context_snippet": "Samples of how EdgeSharp libraries can be used",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html5"
+    },
+    {
+      "context_snippet": "Samples of how EdgeSharp libraries can be used",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "Samples of how EdgeSharp libraries can be used",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "owin"
+    },
+    {
+      "context_snippet": "Samples of how EdgeSharp libraries can be used",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webview2"
+    },
+    {
+      "context_snippet": "Samples of how EdgeSharp libraries can be used",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "win32"
+    },
+    {
+      "context_snippet": "Samples of how EdgeSharp libraries can be used",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winforms"
+    }
+  ]
+}

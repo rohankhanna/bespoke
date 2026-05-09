@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-09T06:59:48.005190+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5898
+    },
+    {
+      "path": "go.mod",
+      "size": 38
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "wv is a framework developed by Go language based on (Webview2, Webkit2) for developing cross-platform desktop applications for Windows, Mac OS X, and Linux",
+    "fork": false,
+    "full_name": "energye/wv",
+    "html_url": "https://github.com/energye/wv",
+    "language": "Go",
+    "pushed_at": "2026-05-09T01:13:26Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2026-04-17T02:36:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

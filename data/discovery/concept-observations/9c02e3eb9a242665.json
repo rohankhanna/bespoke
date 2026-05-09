@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Samples of how EdgeSharp libraries can be used."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Samples of how EdgeSharp libraries can be used"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Samples of how EdgeSharp libraries can be used"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022812,
+      "status": "candidate",
+      "text": "iiop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022811,
+      "status": "candidate",
+      "text": "wsit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022810,
+      "status": "candidate",
+      "text": "wsia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022809,
+      "status": "candidate",
+      "text": "web ontology language"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "owin",
+      "sense_id": "owin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "owin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "owin",
+  "observation_id": "9c02e3eb9a242665",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-09T06:51:24.890752+00:00",
+  "observed_text": "owin",
+  "source_context_snippet": "Samples of how EdgeSharp libraries can be used",
+  "source_file": null,
+  "source_repo": "webview2/EdgeSharp.Samples",
+  "source_repo_description": "Samples of how EdgeSharp libraries can be used."
+}

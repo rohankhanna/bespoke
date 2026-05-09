@@ -13381,6 +13381,12 @@
   "build version cache": [
     "build-version-cache"
   ],
+  "build via vcpkg on macos": [
+    "build-via-vcpkg-on-macos"
+  ],
+  "build via vcpkg on ubuntu": [
+    "build-via-vcpkg-on-ubuntu"
+  ],
   "build vitepress docs": [
     "build-vitepress-docs"
   ],
@@ -16865,6 +16871,9 @@
   "check if all commits are signed": [
     "check-if-all-commits-are-signed"
   ],
+  "check if formula urls alive": [
+    "check-if-formula-urls-alive"
+  ],
   "check if pr has label": [
     "check-if-pr-has-label"
   ],
@@ -18028,6 +18037,9 @@
   ],
   "chronos-scheduler": [
     "chronos-scheduler"
+  ],
+  "chroot": [
+    "chroot"
   ],
   "chumpy": [
     "chumpy"
@@ -21287,6 +21299,9 @@
   "codacy security scan": [
     "codacy-security-scan"
   ],
+  "codacy-analysis": [
+    "codacy-analysis"
+  ],
   "code": [
     "code"
   ],
@@ -22723,6 +22738,9 @@
   ],
   "compare-binary-sizes": [
     "compare-binary-sizes"
+  ],
+  "compare-versions": [
+    "compare-versions"
   ],
   "comparision": [
     "comparision"
@@ -26272,6 +26290,9 @@
   ],
   "custom-fonts": [
     "custom-fonts"
+  ],
+  "custom-gpts": [
+    "custom-gpts"
   ],
   "custom-instrumentation": [
     "custom-instrumentation"
@@ -48015,6 +48036,9 @@
   "jcef-maven": [
     "jcef-maven"
   ],
+  "jcefsampleapp-release": [
+    "jcefsampleapp-release"
+  ],
   "jdbc": [
     "jdbc"
   ],
@@ -52261,6 +52285,9 @@
   "linux-ci": [
     "linux-ci"
   ],
+  "linux-command": [
+    "linux-command"
+  ],
   "linux-container": [
     "linux-container"
   ],
@@ -54646,6 +54673,27 @@
   ],
   "manually build and push dev images": [
     "manually-build-and-push-dev-images"
+  ],
+  "manually build package for dragonflybsd": [
+    "manually-build-package-for-dragonflybsd"
+  ],
+  "manually build package for freebsd": [
+    "manually-build-package-for-freebsd"
+  ],
+  "manually build package for linux-glibc": [
+    "manually-build-package-for-linux-glibc"
+  ],
+  "manually build package for linux-musl": [
+    "manually-build-package-for-linux-musl"
+  ],
+  "manually build package for macos": [
+    "manually-build-package-for-macos"
+  ],
+  "manually build package for netbsd": [
+    "manually-build-package-for-netbsd"
+  ],
+  "manually build package for openbsd": [
+    "manually-build-package-for-openbsd"
   ],
   "manually build release": [
     "manually-build-release"
@@ -65214,6 +65262,9 @@
   "php tests": [
     "php-tests"
   ],
+  "php-array": [
+    "php-array"
+  ],
   "php-client": [
     "php-client"
   ],
@@ -65226,11 +65277,17 @@
   "php-framework": [
     "php-framework"
   ],
+  "php-library": [
+    "php-library"
+  ],
   "php-parser": [
     "php-parser"
   ],
   "php-router": [
     "php-router"
+  ],
+  "php-strings": [
+    "php-strings"
   ],
   "php-validation": [
     "php-validation"
@@ -77331,6 +77388,9 @@
   "run-ci-script": [
     "run-ci-script"
   ],
+  "run-commands": [
+    "run-commands"
+  ],
   "run-integration-tests": [
     "run-integration-tests"
   ],
@@ -85147,6 +85207,9 @@
   ],
   "system-algorithm-deisgn": [
     "system-algorithm-deisgn"
+  ],
+  "system-env": [
+    "system-env"
   ],
   "system-hardening": [
     "system-hardening"
@@ -94925,6 +94988,9 @@
   "vitae-transformer": [
     "vitae-transformer"
   ],
+  "vital check": [
+    "vital-check"
+  ],
   "vite": [
     "vite"
   ],
@@ -96091,6 +96157,9 @@
   ],
   "web-streams": [
     "web-streams"
+  ],
+  "web-tools": [
+    "web-tools"
   ],
   "web-ui": [
     "web-ui"

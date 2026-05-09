@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MoyuruAizawa/Cropify",
+      "target": "moyuruaizawa/images",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MoyuruAizawa/Cropify",
+      "target": "arthurhub/android-image-cropper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vital_check.yml",
+      "source_repo": "MoyuruAizawa/Cropify",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vital_check.yml",
+      "source_repo": "MoyuruAizawa/Cropify",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vital_check.yml",
+      "source_repo": "MoyuruAizawa/Cropify",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vital_check.yml",
+      "source_repo": "MoyuruAizawa/Cropify",
+      "target": "gradle/gradle-build-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vital_check.yml",
+      "source_repo": "MoyuruAizawa/Cropify",
+      "target": "Vital Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MoyuruAizawa/Cropify",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MoyuruAizawa/Cropify",
+      "target": "android-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MoyuruAizawa/Cropify",
+      "target": "kotlin",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-09T06:51:24.890752+00:00",
+  "source_repo": "MoyuruAizawa/Cropify"
+}

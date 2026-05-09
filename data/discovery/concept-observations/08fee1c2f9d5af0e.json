@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Useful system helper tool library for PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![License](https://img.shields.io/packagist/l/toolkit/sys-utils.svg?style=flat-square)](LICENSE)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/packagist/l/toolkit/sys-utils.svg?style=flat-square)](LICENSE)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "system-env",
+      "sense_id": "system-env#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "system-env",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "system-env",
+  "observation_id": "08fee1c2f9d5af0e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-09T06:51:24.890752+00:00",
+  "observed_text": "system-env",
+  "source_context_snippet": "[![License](https://img.shields.io/packagist/l/toolkit/sys-utils.svg?style=flat-square)](LICENSE)",
+  "source_file": null,
+  "source_repo": "php-toolkit/sys-utils",
+  "source_repo_description": "Useful system helper tool library for PHP"
+}

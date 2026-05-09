@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "manually build package for macos"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leleliu008/ppkg-package-manually-build",
+      "status": "candidate-context",
+      "text": "manully build packages using ppkg via GitHub Actions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leleliu008/ppkg-package-manually-build",
+      "status": "candidate-context",
+      "text": "manually build package for macos"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leleliu008/ppkg-package-manually-build",
+      "status": "candidate",
+      "text": "manually build package for macos"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17881,
+      "status": "candidate",
+      "text": "abacus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17881,
+      "status": "candidate",
+      "text": "handing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17881,
+      "status": "candidate",
+      "text": "taxis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17817,
+      "status": "candidate",
+      "text": "hand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17817,
+      "status": "candidate",
+      "text": "knead"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "manually build package for macos",
+  "concept_id": "manually-build-package-for-macos",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": ".github/workflows/manually-build-for-macos.yml",
+      "source_repo": "leleliu008/ppkg-package-manually-build"
+    }
+  ],
+  "first_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "manually build package for macos",
+      "sense_id": "manually-build-package-for-macos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

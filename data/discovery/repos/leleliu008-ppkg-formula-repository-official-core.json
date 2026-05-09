@@ -1,0 +1,76 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compare-versions.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-if-alive.yml",
+      "source_repo": "leleliu008/ppkg-formula-repository-official-core",
+      "target": "check if formula urls alive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compare-versions.yml",
+      "source_repo": "leleliu008/ppkg-formula-repository-official-core",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compare-versions.yml",
+      "source_repo": "leleliu008/ppkg-formula-repository-official-core",
+      "target": "compare-versions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T06:52:45.198331+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 117
+    },
+    {
+      "path": ".github/workflows/check-if-alive.yml",
+      "size": 615
+    },
+    {
+      "path": ".github/workflows/compare-versions.yml",
+      "size": 620
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "official formula repository for ppkg",
+    "fork": false,
+    "full_name": "leleliu008/ppkg-formula-repository-official-core",
+    "html_url": "https://github.com/leleliu008/ppkg-formula-repository-official-core",
+    "language": "Shell",
+    "pushed_at": "2026-05-09T06:03:08Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-05-09T06:03:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "check if formula urls alive",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-if-alive.yml",
+      "term": "check if formula urls alive"
+    },
+    {
+      "context_snippet": "compare-versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compare-versions.yml",
+      "term": "compare-versions"
+    }
+  ]
+}

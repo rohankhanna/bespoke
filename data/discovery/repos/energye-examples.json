@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-09T06:59:47.447980+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 41
+    },
+    {
+      "path": "go.mod",
+      "size": 44
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "examples for lcl, cef, webview2, webkit2",
+    "fork": false,
+    "full_name": "energye/examples",
+    "html_url": "https://github.com/energye/examples",
+    "language": "Go",
+    "pushed_at": "2026-05-08T00:54:50Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-05-08T00:54:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

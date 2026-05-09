@@ -115,7 +115,7 @@
   "normalized_form": "clean",
   "observation_id": "df74d5fb72609449",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-09T00:39:13.791861+00:00",
+  "observed_at": "2026-05-09T06:51:24.890752+00:00",
   "observed_text": "Clean",
   "source_context_snippet": "Clean",
   "source_file": ".github/workflows/clean.yml",

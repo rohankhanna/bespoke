@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Linux\u547d\u4ee4\u5927\u5168\u641c\u7d22\u5de5\u5177\uff0c\u5185\u5bb9\u5305\u542bLinux\u547d\u4ee4\u624b\u518c\u3001\u8be6\u89e3\u3001\u5b66\u4e60\u3001\u641c\u96c6\u3002https://git.io/linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\" markdown=\"1\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\" markdown=\"1\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chrome-extension",
+      "sense_id": "chrome-extension#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chrome-extension",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chrome-extension",
+  "observation_id": "c8b291bd182a3d93",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-09T06:51:24.890752+00:00",
+  "observed_text": "chrome-extension",
+  "source_context_snippet": "<div align=\"center\" markdown=\"1\">",
+  "source_file": null,
+  "source_repo": "jaywcjlove/linux-command",
+  "source_repo_description": "Linux\u547d\u4ee4\u5927\u5168\u641c\u7d22\u5de5\u5177\uff0c\u5185\u5bb9\u5305\u542bLinux\u547d\u4ee4\u624b\u518c\u3001\u8be6\u89e3\u3001\u5b66\u4e60\u3001\u641c\u96c6\u3002https://git.io/linux"
+}

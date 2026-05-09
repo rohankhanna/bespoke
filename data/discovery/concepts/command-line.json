@@ -1117,6 +1117,18 @@
       "source_repo": "php-toolkit/pflag",
       "status": "candidate-context",
       "text": "[![License](https://img.shields.io/packagist/l/toolkit/pflag.svg?style=flat-square)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaywcjlove/linux-command",
+      "status": "candidate-context",
+      "text": "Linux\u547d\u4ee4\u5927\u5168\u641c\u7d22\u5de5\u5177\uff0c\u5185\u5bb9\u5305\u542bLinux\u547d\u4ee4\u624b\u518c\u3001\u8be6\u89e3\u3001\u5b66\u4e60\u3001\u641c\u96c6\u3002https://git.io/linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaywcjlove/linux-command",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" markdown=\"1\">"
     }
   ],
   "candidate_glosses": [
@@ -1671,6 +1683,12 @@
       "source_repo": "php-toolkit/pflag",
       "status": "candidate",
       "text": "[![License](https://img.shields.io/packagist/l/toolkit/pflag.svg?style=flat-square)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaywcjlove/linux-command",
+      "status": "candidate",
+      "text": "<div align=\"center\" markdown=\"1\">"
     }
   ],
   "candidate_related_terms": [
@@ -2664,11 +2682,29 @@
       "observed_at": "2026-05-09T00:39:13.791861+00:00",
       "source_file": null,
       "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": null,
+      "source_repo": "jaywcjlove/linux-command"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
+  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,86 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alpinelinux/alpine-chroot-install",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alpinelinux/alpine-chroot-install",
+      "target": "alpine-linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alpinelinux/alpine-chroot-install",
+      "target": "chroot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alpinelinux/alpine-chroot-install",
+      "target": "travis-ci",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T06:52:40.948618+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 743
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Install Alpine Linux in chroot with a breeze. Build ARM on Travis CI or any other x86_64 CI.",
+    "fork": false,
+    "full_name": "alpinelinux/alpine-chroot-install",
+    "html_url": "https://github.com/alpinelinux/alpine-chroot-install",
+    "language": "Shell",
+    "pushed_at": "2025-01-06T00:18:13Z",
+    "stargazers_count": 338,
+    "topics": [
+      "alpine-linux",
+      "chroot",
+      "ci",
+      "travis-ci"
+    ],
+    "updated_at": "2026-04-21T10:43:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alpine-linux"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chroot"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "travis-ci"
+    }
+  ]
+}

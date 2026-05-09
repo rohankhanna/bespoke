@@ -511,6 +511,18 @@
       "source_repo": "webview2/EdgeSharp",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"https://github.com/edgesharp/EdgeSharp/blob/main/src/EdgeSharp.Core/edgesharp.png?raw=true\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webview2/EdgeSharp.Samples",
+      "status": "candidate-context",
+      "text": "Samples of how EdgeSharp libraries can be used."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webview2/EdgeSharp.Samples",
+      "status": "candidate-context",
+      "text": "Samples of how EdgeSharp libraries can be used"
     }
   ],
   "candidate_glosses": [
@@ -765,6 +777,12 @@
       "source_repo": "webview2/EdgeSharp",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"https://github.com/edgesharp/EdgeSharp/blob/main/src/EdgeSharp.Core/edgesharp.png?raw=true\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webview2/EdgeSharp.Samples",
+      "status": "candidate",
+      "text": "Samples of how EdgeSharp libraries can be used"
     }
   ],
   "candidate_related_terms": [
@@ -1741,11 +1759,35 @@
       "observed_at": "2026-05-09T00:39:13.791861+00:00",
       "source_file": null,
       "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp.Samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
+  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
   "lexical_providers": [
     "datamuse"
   ],

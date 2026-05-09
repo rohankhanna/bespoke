@@ -82,6 +82,18 @@
       "source_repo": "acmesh-official/acmetest",
       "status": "candidate-context",
       "text": "NetBSD"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leleliu008/C-examples",
+      "status": "candidate-context",
+      "text": "C\u8bed\u8a00\u5b66\u4e60\u9879\u76ee"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leleliu008/C-examples",
+      "status": "candidate-context",
+      "text": "NetBSD"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +130,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "acmesh-official/acmetest",
+      "status": "candidate",
+      "text": "NetBSD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leleliu008/C-examples",
       "status": "candidate",
       "text": "NetBSD"
     }
@@ -205,11 +223,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/NetBSD.yml",
       "source_repo": "acmesh-official/acme.sh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": ".github/workflows/netbsd.yml",
+      "source_repo": "leleliu008/C-examples"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
   "lexical_providers": [
     "datamuse"
   ],

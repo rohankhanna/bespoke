@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Linux\u547d\u4ee4\u5927\u5168\u641c\u7d22\u5de5\u5177\uff0c\u5185\u5bb9\u5305\u542bLinux\u547d\u4ee4\u624b\u518c\u3001\u8be6\u89e3\u3001\u5b66\u4e60\u3001\u641c\u96c6\u3002https://git.io/linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\" markdown=\"1\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\" markdown=\"1\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047335,
+      "status": "candidate",
+      "text": "seek"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047328,
+      "status": "candidate",
+      "text": "look for"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047228,
+      "status": "candidate",
+      "text": "explore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047214,
+      "status": "candidate",
+      "text": "lookup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043530,
+      "status": "candidate",
+      "text": "research"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "search",
+      "sense_id": "search#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34045,
+      "status": "candidate",
+      "text": "look"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18045,
+      "status": "candidate",
+      "text": "seek"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18035,
+      "status": "candidate",
+      "text": "explore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12054,
+      "status": "candidate",
+      "text": "research"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11035,
+      "status": "candidate",
+      "text": "searching"
+    }
+  ],
+  "concept_id": "search",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "search",
+  "observation_id": "306f14ba76301e8a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-09T06:51:24.890752+00:00",
+  "observed_text": "search",
+  "source_context_snippet": "<div align=\"center\" markdown=\"1\">",
+  "source_file": null,
+  "source_repo": "jaywcjlove/linux-command",
+  "source_repo_description": "Linux\u547d\u4ee4\u5927\u5168\u641c\u7d22\u5de5\u5177\uff0c\u5185\u5bb9\u5305\u542bLinux\u547d\u4ee4\u624b\u518c\u3001\u8be6\u89e3\u3001\u5b66\u4e60\u3001\u641c\u96c6\u3002https://git.io/linux"
+}

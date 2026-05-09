@@ -18393,11 +18393,101 @@
       "observed_at": "2026-05-09T00:39:13.791861+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "TrigenSoftware/simple-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "TencentCloudADP/youtu-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "dracory/hb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "patterns-ai-core/langchainrb_rails"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "patterns-ai-core/langchainrb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "patterns-ai-core/qdrant-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Shopify/erb_lint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": ".github/workflows/tests_torch.yml",
+      "source_repo": "adapter-hub/adapters"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/serverless-application-model"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
+  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
   "lexical_providers": [
     "datamuse"
   ],

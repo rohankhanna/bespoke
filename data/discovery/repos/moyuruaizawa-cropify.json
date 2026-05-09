@@ -1,0 +1,163 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vital_check.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vital_check.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vital_check.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vital_check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MoyuruAizawa/Cropify",
+      "target": "moyuruaizawa/images",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MoyuruAizawa/Cropify",
+      "target": "arthurhub/android-image-cropper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vital_check.yml",
+      "source_repo": "MoyuruAizawa/Cropify",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vital_check.yml",
+      "source_repo": "MoyuruAizawa/Cropify",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vital_check.yml",
+      "source_repo": "MoyuruAizawa/Cropify",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vital_check.yml",
+      "source_repo": "MoyuruAizawa/Cropify",
+      "target": "gradle/gradle-build-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vital_check.yml",
+      "source_repo": "MoyuruAizawa/Cropify",
+      "target": "Vital Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MoyuruAizawa/Cropify",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MoyuruAizawa/Cropify",
+      "target": "android-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MoyuruAizawa/Cropify",
+      "target": "kotlin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T08:02:41.868827+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2066
+    },
+    {
+      "path": ".github/workflows/vital_check.yml",
+      "size": 686
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Image Cropper for Android Jetpack Compose.",
+    "fork": false,
+    "full_name": "MoyuruAizawa/Cropify",
+    "html_url": "https://github.com/MoyuruAizawa/Cropify",
+    "language": "Kotlin",
+    "pushed_at": "2025-10-20T08:35:23Z",
+    "stargazers_count": 208,
+    "topics": [
+      "android",
+      "android-library",
+      "kotlin"
+    ],
+    "updated_at": "2026-05-07T09:36:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arthurhub/android-image-cropper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "moyuruaizawa/images",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Vital Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vital_check.yml",
+      "term": "Vital Check"
+    },
+    {
+      "context_snippet": "[![JitPack](https://jitpack.io/v/MoyuruAizawa/cropify.svg)](https://jitpack.io/#MoyuruAizawa/cropify)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "[![JitPack](https://jitpack.io/v/MoyuruAizawa/cropify.svg)](https://jitpack.io/#MoyuruAizawa/cropify)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-library"
+    },
+    {
+      "context_snippet": "[![JitPack](https://jitpack.io/v/MoyuruAizawa/cropify.svg)](https://jitpack.io/#MoyuruAizawa/cropify)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    }
+  ]
+}

@@ -65,7 +65,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-09T02:09:04.051746+00:00",
+  "fetched_at": "2026-05-09T08:02:56.351359+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -82,7 +82,7 @@
     "html_url": "https://github.com/jeffffffli/HybrIK",
     "language": "Python",
     "pushed_at": "2025-01-08T10:01:45Z",
-    "stargazers_count": 1590,
+    "stargazers_count": 1591,
     "topics": [
       "3d-pose-estimation",
       "cvpr",
@@ -92,7 +92,7 @@
       "pytorch",
       "smpl"
     ],
-    "updated_at": "2026-05-07T09:10:13Z"
+    "updated_at": "2026-05-09T07:38:22Z"
   },
   "repo_links": [
     {

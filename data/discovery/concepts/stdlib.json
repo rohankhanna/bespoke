@@ -535,6 +535,18 @@
       "source_repo": "JuliaSparse/SparseArrays.jl",
       "status": "candidate-context",
       "text": "| **Documentation** | **Build Status** |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php-toolkit/stdlib",
+      "status": "candidate-context",
+      "text": "Standard and basic PHP tool library. Helper utils for string, array, object, env, os and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php-toolkit/stdlib",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/github/license/php-toolkit/stdlib)](LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -801,6 +813,12 @@
       "source_repo": "JuliaSparse/SparseArrays.jl",
       "status": "candidate",
       "text": "| **Documentation** | **Build Status** |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php-toolkit/stdlib",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/github/license/php-toolkit/stdlib)](LICENSE)"
     }
   ],
   "candidate_related_terms": [],
@@ -1072,11 +1090,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "JuliaSparse/SparseArrays.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": null,
+      "source_repo": "php-toolkit/stdlib"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
   "lexical_providers": [
     "datamuse"
   ],

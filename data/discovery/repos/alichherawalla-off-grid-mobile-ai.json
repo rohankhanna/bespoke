@@ -469,13 +469,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "alichherawalla/off-grid-mobile-ai",
-      "target": "xororz/local-dream",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "alichherawalla/off-grid-mobile-ai",
@@ -1148,7 +1141,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-09T02:08:36.771537+00:00",
+  "fetched_at": "2026-05-09T08:02:37.253570+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1185,7 +1178,7 @@
     "html_url": "https://github.com/alichherawalla/off-grid-mobile-ai",
     "language": "TypeScript",
     "pushed_at": "2026-05-07T15:07:48Z",
-    "stargazers_count": 2009,
+    "stargazers_count": 2011,
     "topics": [
       "edge-ai",
       "gguf",
@@ -1201,7 +1194,7 @@
       "tool-calling",
       "whisper-android"
     ],
-    "updated_at": "2026-05-09T00:45:59Z"
+    "updated_at": "2026-05-09T07:48:53Z"
   },
   "repo_links": [
     {
@@ -1217,11 +1210,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "ggerganov/whisper.cpp",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "xororz/local-dream",
       "source_file": "README.md"
     }
   ],

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -36,6 +36,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "google/orbax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/long-range-arena"
     }
   ],
   "term": "flax"

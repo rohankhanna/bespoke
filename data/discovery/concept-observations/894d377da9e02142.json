@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "manully build packages using ppkg via GitHub Actions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "manually build package for linux-glibc"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "manually build package for linux-glibc"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18881,
+      "status": "candidate",
+      "text": "abacus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18881,
+      "status": "candidate",
+      "text": "handing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18881,
+      "status": "candidate",
+      "text": "taxis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18817,
+      "status": "candidate",
+      "text": "hand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18817,
+      "status": "candidate",
+      "text": "knead"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "manually build package for linux-glibc",
+      "sense_id": "manually-build-package-for-linux-glibc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "manually-build-package-for-linux-glibc",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "manually-build-package-for-linux-glibc",
+  "observation_id": "894d377da9e02142",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-09T06:51:24.890752+00:00",
+  "observed_text": "manually build package for linux-glibc",
+  "source_context_snippet": "manually build package for linux-glibc",
+  "source_file": ".github/workflows/manually-build-for-linux-glibc.yml",
+  "source_repo": "leleliu008/ppkg-package-manually-build",
+  "source_repo_description": "manully build packages using ppkg via GitHub Actions."
+}

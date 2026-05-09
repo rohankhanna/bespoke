@@ -463,6 +463,18 @@
       "source_repo": "djcopley/ShellOracle",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmayboroda/minima",
+      "status": "candidate-context",
+      "text": "On-premises conversational RAG with configurable containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmayboroda/minima",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -691,6 +703,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "djcopley/ShellOracle",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmayboroda/minima",
       "status": "candidate",
       "text": "<p align=\"center\">"
     }
@@ -1900,11 +1918,47 @@
       "observed_at": "2026-05-09T00:39:13.791861+00:00",
       "source_file": null,
       "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": null,
+      "source_repo": "chatboxai/chatbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": null,
+      "source_repo": "dmayboroda/minima"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
+  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
   "lexical_providers": [
     "datamuse"
   ],

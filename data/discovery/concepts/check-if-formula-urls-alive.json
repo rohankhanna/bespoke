@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "check if formula urls alive"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leleliu008/ppkg-formula-repository-official-core",
+      "status": "candidate-context",
+      "text": "official formula repository for ppkg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leleliu008/ppkg-formula-repository-official-core",
+      "status": "candidate-context",
+      "text": "check if formula urls alive"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leleliu008/ppkg-formula-repository-official-core",
+      "status": "candidate",
+      "text": "check if formula urls alive"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33737,
+      "status": "candidate",
+      "text": "balk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33737,
+      "status": "candidate",
+      "text": "rein"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33337,
+      "status": "candidate",
+      "text": "balking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33337,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33337,
+      "status": "candidate",
+      "text": "cork"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "check if formula urls alive",
+  "concept_id": "check-if-formula-urls-alive",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": ".github/workflows/check-if-alive.yml",
+      "source_repo": "leleliu008/ppkg-formula-repository-official-core"
+    }
+  ],
+  "first_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "check if formula urls alive",
+      "sense_id": "check-if-formula-urls-alive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

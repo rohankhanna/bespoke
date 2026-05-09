@@ -1,0 +1,212 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml",
+      "source_repo": "php-toolkit/stdlib",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php.yml",
+      "source_repo": "php-toolkit/stdlib",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/php.yml",
+      "source_repo": "php-toolkit/stdlib",
+      "target": "Unit-Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "php-toolkit/stdlib",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "php-toolkit/stdlib",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "php-toolkit/stdlib",
+      "target": "Tag-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "php-toolkit/stdlib",
+      "target": "dotenv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "php-toolkit/stdlib",
+      "target": "environment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "php-toolkit/stdlib",
+      "target": "optional",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "php-toolkit/stdlib",
+      "target": "php-array",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "php-toolkit/stdlib",
+      "target": "php-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "php-toolkit/stdlib",
+      "target": "php-strings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "php-toolkit/stdlib",
+      "target": "stdlib",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T06:55:43.753052+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3816
+    },
+    {
+      "path": ".github/workflows/php.yml",
+      "size": 1249
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1192
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Standard and basic PHP tool library. Helper utils for string, array, object, env, os and more.",
+    "fork": false,
+    "full_name": "php-toolkit/stdlib",
+    "html_url": "https://github.com/php-toolkit/stdlib",
+    "language": "PHP",
+    "pushed_at": "2026-04-14T03:02:13Z",
+    "stargazers_count": 9,
+    "topics": [
+      "dotenv",
+      "environment",
+      "optional",
+      "php",
+      "php-array",
+      "php-library",
+      "php-strings",
+      "stdlib"
+    ],
+    "updated_at": "2026-04-14T03:02:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Unit-Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/php.yml",
+      "term": "Unit-Tests"
+    },
+    {
+      "context_snippet": "Tag-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Tag-release"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/github/license/php-toolkit/stdlib)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotenv"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/github/license/php-toolkit/stdlib)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "environment"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/github/license/php-toolkit/stdlib)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optional"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/github/license/php-toolkit/stdlib)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "php-array"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/github/license/php-toolkit/stdlib)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "php-library"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/github/license/php-toolkit/stdlib)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "php-strings"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/github/license/php-toolkit/stdlib)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stdlib"
+    }
+  ]
+}

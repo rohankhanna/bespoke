@@ -91,6 +91,18 @@
       "source_repo": "simonpoole/OpeningHoursFragment",
       "status": "candidate-context",
       "text": "[![build status](https://github.com/simonpoole/OpeningHoursFragment/actions/workflows/android.yml/badge.svg)](https://github.com/simonpoole/OpeningHoursFragment/actions) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=OpeningHoursFragment%3Alib&m\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MoyuruAizawa/Cropify",
+      "status": "candidate-context",
+      "text": "Image Cropper for Android Jetpack Compose."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MoyuruAizawa/Cropify",
+      "status": "candidate-context",
+      "text": "[![JitPack](https://jitpack.io/v/MoyuruAizawa/cropify.svg)](https://jitpack.io/#MoyuruAizawa/cropify)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "simonpoole/OpeningHoursFragment",
       "status": "candidate",
       "text": "[![build status](https://github.com/simonpoole/OpeningHoursFragment/actions/workflows/android.yml/badge.svg)](https://github.com/simonpoole/OpeningHoursFragment/actions) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=OpeningHoursFragment%3Alib&m\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MoyuruAizawa/Cropify",
+      "status": "candidate",
+      "text": "[![JitPack](https://jitpack.io/v/MoyuruAizawa/cropify.svg)](https://jitpack.io/#MoyuruAizawa/cropify)"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "simonpoole/OpeningHoursFragment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": null,
+      "source_repo": "MoyuruAizawa/Cropify"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
   "lexical_providers": [
     "datamuse"
   ],

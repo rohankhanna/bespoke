@@ -1,7 +1,7 @@
 {
   "component": "sqlite3",
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
+  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -62,6 +62,11 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "firebase/firebase-js-sdk"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jaywcjlove/linux-command"
     }
   ]
 }

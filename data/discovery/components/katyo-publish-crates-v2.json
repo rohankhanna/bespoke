@@ -1,7 +1,7 @@
 {
   "component": "katyo/publish-crates@v2",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
+  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

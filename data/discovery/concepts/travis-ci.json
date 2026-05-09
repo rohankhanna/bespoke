@@ -139,6 +139,18 @@
       "source_repo": "hchiam/anonymous-input",
       "status": "candidate-context",
       "text": "![version](https://img.shields.io/github/release/hchiam/anonymous-input) [![Build Status](https://travis-ci.org/hchiam/anonymous-input.svg?branch=master)](https://travis-ci.org/hchiam/anonymous-input) [![Coverage Status](https://coveralls.io/repos/github/hchiam/anonymous-input/b\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alpinelinux/alpine-chroot-install",
+      "status": "candidate-context",
+      "text": "Install Alpine Linux in chroot with a breeze. Build ARM on Travis CI or any other x86_64 CI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alpinelinux/alpine-chroot-install",
+      "status": "candidate-context",
+      "text": "CI"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "hchiam/anonymous-input",
       "status": "candidate",
       "text": "![version](https://img.shields.io/github/release/hchiam/anonymous-input) [![Build Status](https://travis-ci.org/hchiam/anonymous-input.svg?branch=master)](https://travis-ci.org/hchiam/anonymous-input) [![Coverage Status](https://coveralls.io/repos/github/hchiam/anonymous-input/b\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alpinelinux/alpine-chroot-install",
+      "status": "candidate",
+      "text": "CI"
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +298,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "hchiam/anonymous-input"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": null,
+      "source_repo": "alpinelinux/alpine-chroot-install"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
   "lexical_providers": [
     "datamuse"
   ],

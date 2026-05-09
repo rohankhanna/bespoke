@@ -415,6 +415,18 @@
       "source_repo": "devnen/Kitten-TTS-Server",
       "status": "candidate-context",
       "text": "**Self-host the ultra-lightweight [KittenTTS model](https://github.com/KittenML/KittenTTS) with this enhanced API server. Now supports all 7 KittenTTS models \u2014 from the tiny 15M Nano to the 80M Mini \u2014 with hot-swappable model switching, an intuitive Web UI, a flexible API, large\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmayboroda/minima",
+      "status": "candidate-context",
+      "text": "On-premises conversational RAG with configurable containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmayboroda/minima",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -621,6 +633,12 @@
       "source_repo": "devnen/Kitten-TTS-Server",
       "status": "candidate",
       "text": "**Self-host the ultra-lightweight [KittenTTS model](https://github.com/KittenML/KittenTTS) with this enhanced API server. Now supports all 7 KittenTTS models \u2014 from the tiny 15M Nano to the 80M Mini \u2014 with hot-swappable model switching, an intuitive Web UI, a flexible API, large\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmayboroda/minima",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1216,11 +1234,17 @@
       "observed_at": "2026-05-09T00:39:13.791861+00:00",
       "source_file": null,
       "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": null,
+      "source_repo": "dmayboroda/minima"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
+  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
   "lexical_providers": [
     "datamuse"
   ],

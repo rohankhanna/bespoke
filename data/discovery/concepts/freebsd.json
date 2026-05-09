@@ -352,6 +352,18 @@
       "source_repo": "leleliu008/ppkg",
       "status": "candidate-context",
       "text": "FreeBSD"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leleliu008/C-examples",
+      "status": "candidate-context",
+      "text": "C\u8bed\u8a00\u5b66\u4e60\u9879\u76ee"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leleliu008/C-examples",
+      "status": "candidate-context",
+      "text": "FreeBSD"
     }
   ],
   "candidate_glosses": [
@@ -526,6 +538,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "leleliu008/ppkg",
+      "status": "candidate",
+      "text": "FreeBSD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leleliu008/C-examples",
       "status": "candidate",
       "text": "FreeBSD"
     }
@@ -744,11 +762,17 @@
       "observed_at": "2026-05-09T00:39:13.791861+00:00",
       "source_file": ".github/workflows/freebsd.yml",
       "source_repo": "leleliu008/ppkg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": ".github/workflows/freebsd.yml",
+      "source_repo": "leleliu008/C-examples"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
+  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
   "lexical_providers": [
     "datamuse"
   ],

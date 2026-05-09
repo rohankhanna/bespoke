@@ -1,0 +1,63 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jcefsampleapp-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jcefsampleapp-release.yml",
+      "source_repo": "jcefmaven/jcefsampleapp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jcefsampleapp-release.yml",
+      "source_repo": "jcefmaven/jcefsampleapp",
+      "target": "jcefsampleapp-release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T06:59:46.755681+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 327
+    },
+    {
+      "path": "Dockerfile",
+      "size": 349
+    },
+    {
+      "path": ".github/workflows/jcefsampleapp-release.yml",
+      "size": 1547
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Sample app using JCef with maven",
+    "fork": false,
+    "full_name": "jcefmaven/jcefsampleapp",
+    "html_url": "https://github.com/jcefmaven/jcefsampleapp",
+    "language": "Java",
+    "pushed_at": "2026-05-05T07:08:44Z",
+    "stargazers_count": 39,
+    "topics": [],
+    "updated_at": "2026-01-20T02:22:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "jcefsampleapp-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jcefsampleapp-release.yml",
+      "term": "jcefsampleapp-release"
+    }
+  ]
+}

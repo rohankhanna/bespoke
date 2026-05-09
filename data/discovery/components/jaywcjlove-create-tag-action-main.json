@@ -1,0 +1,12 @@
+{
+  "component": "jaywcjlove/create-tag-action@main",
+  "first_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jaywcjlove/linux-command"
+    }
+  ]
+}

@@ -4745,7 +4745,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-08T18:49:31.653207+00:00",
+  "fetched_at": "2026-05-09T07:10:39.582317+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -4757,7 +4757,7 @@
     },
     {
       "path": "package.json",
-      "size": 22735
+      "size": 22880
     },
     {
       "path": ".github/workflows/auto-i18n.yml",
@@ -4797,8 +4797,8 @@
     "full_name": "lobehub/lobehub",
     "html_url": "https://github.com/lobehub/lobehub",
     "language": "TypeScript",
-    "pushed_at": "2026-05-08T18:44:08Z",
-    "stargazers_count": 76403,
+    "pushed_at": "2026-05-09T07:05:19Z",
+    "stargazers_count": 76629,
     "topics": [
       "agent",
       "agent-collaboration",
@@ -4813,7 +4813,7 @@
       "mcp",
       "openai"
     ],
-    "updated_at": "2026-05-08T18:49:21Z"
+    "updated_at": "2026-05-09T07:08:03Z"
   },
   "repo_links": [
     {

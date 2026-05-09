@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/long-range-arena",
+      "target": "google/jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/long-range-arena",
+      "target": "redna11/lra-igloo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/long-range-arena",
+      "target": "drewlinsley/pathfinder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/long-range-arena",
+      "target": "attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/long-range-arena",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/long-range-arena",
+      "target": "flax",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/long-range-arena",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T08:02:30.598949+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8557
+    },
+    {
+      "path": "requirements.txt",
+      "size": 109
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Long Range Arena for Benchmarking Efficient Transformers",
+    "fork": false,
+    "full_name": "google-research/long-range-arena",
+    "html_url": "https://github.com/google-research/long-range-arena",
+    "language": "Python",
+    "pushed_at": "2023-12-16T10:07:31Z",
+    "stargazers_count": 788,
+    "topics": [
+      "attention",
+      "deep-learning",
+      "flax",
+      "jax",
+      "nlp",
+      "transformers"
+    ],
+    "updated_at": "2026-05-04T02:55:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drewlinsley/pathfinder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/jax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "redna11/lra-igloo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Long-range arena is an effort toward systematic evaluation of efficient",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention"
+    },
+    {
+      "context_snippet": "Long-range arena is an effort toward systematic evaluation of efficient",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Long-range arena is an effort toward systematic evaluation of efficient",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flax"
+    },
+    {
+      "context_snippet": "Long-range arena is an effort toward systematic evaluation of efficient",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

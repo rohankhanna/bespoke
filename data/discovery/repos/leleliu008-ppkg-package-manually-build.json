@@ -1,0 +1,350 @@
+{
+  "components": [
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-bsd.yml"
+    },
+    {
+      "component": "cross-platform-actions/action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-bsd.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-bsd.yml"
+    },
+    {
+      "component": "vmactions/dragonflybsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-dragonflybsd.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-dragonflybsd.yml"
+    },
+    {
+      "component": "cross-platform-actions/action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-freebsd.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-freebsd.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-linux-glibc.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-linux-glibc.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-linux-musl.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-linux-musl.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-macos.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-macos.yml"
+    },
+    {
+      "component": "cross-platform-actions/action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-netbsd.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-netbsd.yml"
+    },
+    {
+      "component": "cross-platform-actions/action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-openbsd.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-openbsd.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-bsd.yml",
+      "source_repo": "leleliu008/ppkg-package-manually-build",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-bsd.yml",
+      "source_repo": "leleliu008/ppkg-package-manually-build",
+      "target": "cross-platform-actions/action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-dragonflybsd.yml",
+      "source_repo": "leleliu008/ppkg-package-manually-build",
+      "target": "vmactions/dragonflybsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-dragonflybsd.yml",
+      "source_repo": "leleliu008/ppkg-package-manually-build",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manually-build-for-dragonflybsd.yml",
+      "source_repo": "leleliu008/ppkg-package-manually-build",
+      "target": "manually build package for dragonflybsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-freebsd.yml",
+      "source_repo": "leleliu008/ppkg-package-manually-build",
+      "target": "cross-platform-actions/action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-freebsd.yml",
+      "source_repo": "leleliu008/ppkg-package-manually-build",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manually-build-for-freebsd.yml",
+      "source_repo": "leleliu008/ppkg-package-manually-build",
+      "target": "manually build package for freebsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-linux-glibc.yml",
+      "source_repo": "leleliu008/ppkg-package-manually-build",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-linux-glibc.yml",
+      "source_repo": "leleliu008/ppkg-package-manually-build",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manually-build-for-linux-glibc.yml",
+      "source_repo": "leleliu008/ppkg-package-manually-build",
+      "target": "manually build package for linux-glibc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-linux-musl.yml",
+      "source_repo": "leleliu008/ppkg-package-manually-build",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-linux-musl.yml",
+      "source_repo": "leleliu008/ppkg-package-manually-build",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manually-build-for-linux-musl.yml",
+      "source_repo": "leleliu008/ppkg-package-manually-build",
+      "target": "manually build package for linux-musl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-macos.yml",
+      "source_repo": "leleliu008/ppkg-package-manually-build",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-macos.yml",
+      "source_repo": "leleliu008/ppkg-package-manually-build",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manually-build-for-macos.yml",
+      "source_repo": "leleliu008/ppkg-package-manually-build",
+      "target": "manually build package for macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-netbsd.yml",
+      "source_repo": "leleliu008/ppkg-package-manually-build",
+      "target": "cross-platform-actions/action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-netbsd.yml",
+      "source_repo": "leleliu008/ppkg-package-manually-build",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manually-build-for-netbsd.yml",
+      "source_repo": "leleliu008/ppkg-package-manually-build",
+      "target": "manually build package for netbsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-openbsd.yml",
+      "source_repo": "leleliu008/ppkg-package-manually-build",
+      "target": "cross-platform-actions/action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manually-build-for-openbsd.yml",
+      "source_repo": "leleliu008/ppkg-package-manually-build",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manually-build-for-openbsd.yml",
+      "source_repo": "leleliu008/ppkg-package-manually-build",
+      "target": "manually build package for openbsd",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T06:52:47.078981+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 802
+    },
+    {
+      "path": ".github/workflows/manually-build-for-bsd.yml",
+      "size": 5635
+    },
+    {
+      "path": ".github/workflows/manually-build-for-dragonflybsd.yml",
+      "size": 2385
+    },
+    {
+      "path": ".github/workflows/manually-build-for-freebsd.yml",
+      "size": 2716
+    },
+    {
+      "path": ".github/workflows/manually-build-for-linux-glibc.yml",
+      "size": 5852
+    },
+    {
+      "path": ".github/workflows/manually-build-for-linux-musl.yml",
+      "size": 5488
+    },
+    {
+      "path": ".github/workflows/manually-build-for-macos.yml",
+      "size": 3578
+    },
+    {
+      "path": ".github/workflows/manually-build-for-netbsd.yml",
+      "size": 2422
+    },
+    {
+      "path": ".github/workflows/manually-build-for-openbsd.yml",
+      "size": 2444
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "manully build packages using ppkg via GitHub Actions.",
+    "fork": false,
+    "full_name": "leleliu008/ppkg-package-manually-build",
+    "html_url": "https://github.com/leleliu008/ppkg-package-manually-build",
+    "language": null,
+    "pushed_at": "2025-07-24T09:30:30Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-07-24T09:30:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "manually build package for dragonflybsd",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manually-build-for-dragonflybsd.yml",
+      "term": "manually build package for dragonflybsd"
+    },
+    {
+      "context_snippet": "manually build package for freebsd",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manually-build-for-freebsd.yml",
+      "term": "manually build package for freebsd"
+    },
+    {
+      "context_snippet": "manually build package for linux-glibc",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manually-build-for-linux-glibc.yml",
+      "term": "manually build package for linux-glibc"
+    },
+    {
+      "context_snippet": "manually build package for linux-musl",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manually-build-for-linux-musl.yml",
+      "term": "manually build package for linux-musl"
+    },
+    {
+      "context_snippet": "manually build package for macos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manually-build-for-macos.yml",
+      "term": "manually build package for macos"
+    },
+    {
+      "context_snippet": "manually build package for netbsd",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manually-build-for-netbsd.yml",
+      "term": "manually build package for netbsd"
+    },
+    {
+      "context_snippet": "manually build package for openbsd",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manually-build-for-openbsd.yml",
+      "term": "manually build package for openbsd"
+    }
+  ]
+}

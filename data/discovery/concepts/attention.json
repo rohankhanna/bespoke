@@ -199,6 +199,18 @@
       "source_repo": "lucidrains/performer-pytorch",
       "status": "candidate-context",
       "text": "<img src=\"./favor+.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/long-range-arena",
+      "status": "candidate-context",
+      "text": "Long Range Arena for Benchmarking Efficient Transformers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/long-range-arena",
+      "status": "candidate-context",
+      "text": "Long-range arena is an effort toward systematic evaluation of efficient"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "lucidrains/performer-pytorch",
       "status": "candidate",
       "text": "<img src=\"./favor+.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/long-range-arena",
+      "status": "candidate",
+      "text": "Long-range arena is an effort toward systematic evaluation of efficient"
     }
   ],
   "candidate_related_terms": [
@@ -579,11 +597,23 @@
       "observed_at": "2026-05-09T00:39:13.791861+00:00",
       "source_file": null,
       "source_repo": "flagos-ai/FlagAttention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": null,
+      "source_repo": "flagos-ai/FlagAttention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": null,
+      "source_repo": "google-research/long-range-arena"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
+  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
   "lexical_providers": [
     "datamuse"
   ],

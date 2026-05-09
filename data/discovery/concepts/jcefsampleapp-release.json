@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "jcefsampleapp-release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jcefmaven/jcefsampleapp",
+      "status": "candidate-context",
+      "text": "Sample app using JCef with maven"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jcefmaven/jcefsampleapp",
+      "status": "candidate-context",
+      "text": "jcefsampleapp-release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jcefmaven/jcefsampleapp",
+      "status": "candidate",
+      "text": "jcefsampleapp-release"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "jcefsampleapp-release",
+  "concept_id": "jcefsampleapp-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T06:51:24.890752+00:00",
+      "source_file": ".github/workflows/jcefsampleapp-release.yml",
+      "source_repo": "jcefmaven/jcefsampleapp"
+    }
+  ],
+  "first_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "jcefsampleapp-release",
+      "sense_id": "jcefsampleapp-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

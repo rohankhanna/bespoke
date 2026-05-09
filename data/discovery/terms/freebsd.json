@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
+  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -146,6 +146,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/freebsd.yml",
       "source_repo": "leleliu008/ppkg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/freebsd.yml",
+      "source_repo": "leleliu008/C-examples"
     }
   ],
   "term": "freebsd"
