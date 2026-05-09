@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-05-09T05:34:16.337725+00:00`
+Generated at: `2026-05-09T08:20:40.985131+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 30
-- terms: 255
+- terms: 257
 - components: 1273
-- concepts: 257
-- observations: 258
+- concepts: 259
+- observations: 260
 
 ## Static behavior
 
@@ -26,7 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [alichherawalla/off-grid-mobile-ai](https://github.com/alichherawalla/off-grid-mobile-ai) | 2009 | 2026-05-07T15:07:48Z | TypeScript | Infrastructure/tooling | 16 | 72 | 16 | 16 |
+| [conventional-changelog/conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) | 8437 | 2026-05-08T05:35:14Z | TypeScript | Infrastructure/tooling | 8 | 27 | 8 | 8 |
+| [alichherawalla/off-grid-mobile-ai](https://github.com/alichherawalla/off-grid-mobile-ai) | 2011 | 2026-05-07T15:07:48Z | TypeScript | Infrastructure/tooling | 16 | 72 | 16 | 16 |
 | [vuejs/language-tools](https://github.com/vuejs/language-tools) | 6660 | 2026-05-07T11:42:26Z | TypeScript | Infrastructure/tooling | 6 | 12 | 6 | 6 |
 | [electron/rebuild](https://github.com/electron/rebuild) | 1117 | 2026-05-07T10:54:44Z | TypeScript | Infrastructure/tooling | 5 | 34 | 5 | 5 |
 | [benchmark-action/github-action-benchmark](https://github.com/benchmark-action/github-action-benchmark) | 1224 | 2026-05-06T13:20:13Z | TypeScript | Infrastructure/tooling | 8 | 42 | 8 | 9 |
@@ -55,7 +56,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [boxlite-ai/boxlite](https://github.com/boxlite-ai/boxlite) | 1883 | 2026-05-02T14:30:23Z | TypeScript | Infrastructure/tooling | 11 | 15 | 11 | 11 |
 | [storybookjs/react-native](https://github.com/storybookjs/react-native) | 1285 | 2026-05-02T12:49:54Z | TypeScript | Infrastructure/tooling | 7 | 18 | 7 | 7 |
 | [azat-io/eslint-plugin-perfectionist](https://github.com/azat-io/eslint-plugin-perfectionist) | 2861 | 2026-05-02T09:19:08Z | TypeScript | Infrastructure/tooling | 8 | 75 | 8 | 8 |
-| [vuejs/babel-plugin-jsx](https://github.com/vuejs/babel-plugin-jsx) | 1787 | 2026-05-02T06:30:11Z | TypeScript | Infrastructure/tooling | 6 | 27 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -65,6 +65,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [graphql/graphql-playground](https://github.com/graphql/graphql-playground) | 8853 | 2026-05-04T09:38:44Z | TypeScript | Docs/knowledge | 4 | 8 | 4 | 4 |
 | [react-cosmos/react-cosmos](https://github.com/react-cosmos/react-cosmos) | 8673 | 2026-05-03T20:58:59Z | TypeScript | Infrastructure/tooling | 9 | 52 | 9 | 9 |
 | [NomicFoundation/hardhat](https://github.com/NomicFoundation/hardhat) | 8474 | 2026-05-05T14:02:46Z | TypeScript | Infrastructure/tooling | 12 | 11 | 12 | 12 |
+| [conventional-changelog/conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) | 8437 | 2026-05-08T05:35:14Z | TypeScript | Infrastructure/tooling | 8 | 27 | 8 | 8 |
 | [Floorp-Projects/Floorp](https://github.com/Floorp-Projects/Floorp) | 8143 | 2026-05-04T07:06:28Z | TypeScript | Infrastructure/tooling | 7 | 47 | 7 | 7 |
 | [vuejs/language-tools](https://github.com/vuejs/language-tools) | 6660 | 2026-05-07T11:42:26Z | TypeScript | Infrastructure/tooling | 6 | 12 | 6 | 6 |
 | [firebase/quickstart-js](https://github.com/firebase/quickstart-js) | 5363 | 2026-05-03T01:15:56Z | TypeScript | Infrastructure/tooling | 3 | 14 | 3 | 3 |
@@ -78,10 +79,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [timmywil/panzoom](https://github.com/timmywil/panzoom) | 2423 | 2026-05-02T14:32:05Z | TypeScript | Infrastructure/tooling | 4 | 47 | 4 | 4 |
 | [apify/fingerprint-suite](https://github.com/apify/fingerprint-suite) | 2077 | 2026-05-04T09:03:27Z | TypeScript | Infrastructure/tooling | 11 | 46 | 11 | 11 |
 | [withcatai/node-llama-cpp](https://github.com/withcatai/node-llama-cpp) | 2049 | 2026-05-06T03:32:51Z | TypeScript | Infrastructure/tooling | 19 | 89 | 20 | 20 |
-| [alichherawalla/off-grid-mobile-ai](https://github.com/alichherawalla/off-grid-mobile-ai) | 2009 | 2026-05-07T15:07:48Z | TypeScript | Infrastructure/tooling | 16 | 72 | 16 | 16 |
+| [alichherawalla/off-grid-mobile-ai](https://github.com/alichherawalla/off-grid-mobile-ai) | 2011 | 2026-05-07T15:07:48Z | TypeScript | Infrastructure/tooling | 16 | 72 | 16 | 16 |
 | [boxlite-ai/boxlite](https://github.com/boxlite-ai/boxlite) | 1883 | 2026-05-02T14:30:23Z | TypeScript | Infrastructure/tooling | 11 | 15 | 11 | 11 |
 | [ng-packagr/ng-packagr](https://github.com/ng-packagr/ng-packagr) | 1858 | 2026-05-02T16:24:48Z | TypeScript | CLI | 11 | 58 | 11 | 11 |
-| [vuejs/babel-plugin-jsx](https://github.com/vuejs/babel-plugin-jsx) | 1787 | 2026-05-02T06:30:11Z | TypeScript | Infrastructure/tooling | 6 | 27 | 6 | 6 |
 | [apollographql/apollo-client-devtools](https://github.com/apollographql/apollo-client-devtools) | 1525 | 2026-05-02T21:39:04Z | TypeScript | CLI | 13 | 108 | 13 | 13 |
 | [solidjs-community/solid-primitives](https://github.com/solidjs-community/solid-primitives) | 1516 | 2026-05-03T18:39:26Z | TypeScript | Infrastructure/tooling | 5 | 37 | 5 | 5 |
 | [ChromeDevTools/devtools-protocol](https://github.com/ChromeDevTools/devtools-protocol) | 1479 | 2026-05-03T00:02:42Z | TypeScript | Infrastructure/tooling | 2 | 3 | 2 | 2 |

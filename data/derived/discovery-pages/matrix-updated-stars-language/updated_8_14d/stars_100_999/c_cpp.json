@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 620,
-    "concepts": 615,
-    "observations": 616,
-    "repos": 100,
-    "terms": 613
+    "components": 616,
+    "concepts": 614,
+    "observations": 615,
+    "repos": 99,
+    "terms": 612
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "Alpine-DAV/ascent",
     "amerkoleci/joltc",
@@ -67,7 +67,6 @@
     "kleisauke/wasm-vips",
     "kokkos/kokkos-kernels",
     "LedgerHQ/speculos",
-    "libbitcoin/libbitcoin-node",
     "libbitcoin/libbitcoin-server",
     "libimobiledevice/libirecovery",
     "libnice/libnice",

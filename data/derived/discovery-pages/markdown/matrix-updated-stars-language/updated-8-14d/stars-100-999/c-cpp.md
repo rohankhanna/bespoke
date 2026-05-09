@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-09T05:34:16.337725+00:00`
+Generated at: `2026-05-09T08:20:40.985131+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 100
-- terms: 613
-- components: 620
-- concepts: 615
-- observations: 616
+- repos: 99
+- terms: 612
+- components: 616
+- concepts: 614
+- observations: 615
 
 ## Static behavior
 
@@ -125,7 +125,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jcmvbkbc/gcc-xtensa](https://github.com/jcmvbkbc/gcc-xtensa) | 136 | 2026-04-25T10:34:11Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [kleisauke/wasm-vips](https://github.com/kleisauke/wasm-vips) | 861 | 2026-04-25T09:12:46Z | C/C++ | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [VectorDB-NTU/RaBitQ-Library](https://github.com/VectorDB-NTU/RaBitQ-Library) | 198 | 2026-04-25T09:04:24Z | C/C++ | Library | 4 | 0 | 4 | 4 |
-| [libbitcoin/libbitcoin-node](https://github.com/libbitcoin/libbitcoin-node) | 119 | 2026-04-25T06:18:51Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -230,4 +229,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [flexivrobotics/flexiv_rdk](https://github.com/flexivrobotics/flexiv_rdk) | 124 | 2026-04-28T18:16:30Z | C/C++ | Infrastructure/tooling | 9 | 1 | 9 | 9 |
 | [nix-community/nix-unit](https://github.com/nix-community/nix-unit) | 122 | 2026-05-01T19:56:01Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [j20001970/GDMP](https://github.com/j20001970/GDMP) | 120 | 2026-05-01T03:49:38Z | C/C++ | Infrastructure/tooling | 13 | 3 | 13 | 13 |
-| [libbitcoin/libbitcoin-node](https://github.com/libbitcoin/libbitcoin-node) | 119 | 2026-04-25T06:18:51Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |

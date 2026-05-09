@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 17305,
-    "concepts": 25892,
-    "observations": 25941,
-    "repos": 6477,
-    "terms": 25705
+    "concepts": 25905,
+    "observations": 25954,
+    "repos": 6480,
+    "terms": 25716
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "python"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0cc4m/hf_bleeding_edge",
@@ -1855,6 +1855,7 @@
     "DLR-RM/rl-baselines3-zoo",
     "DLR-RM/stable-baselines3",
     "DLYuanGod/TinyGPT-V",
+    "dmayboroda/minima",
     "dmis-lab/bioasq-biobert",
     "dmis-lab/biobert",
     "dmlc/dgl",
@@ -2510,6 +2511,7 @@
     "google-research/human-scene-transformer",
     "google-research/ibc",
     "google-research/localmot",
+    "google-research/long-range-arena",
     "google-research/magvit",
     "google-research/maxim",
     "google-research/meliad",
@@ -4100,6 +4102,7 @@
     "mitmproxy/mitmproxy",
     "miurahr/aqtinstall",
     "miurahr/py7zr",
+    "Mivg/SLED",
     "miyakogi/pyppeteer",
     "mjansson/rpmalloc",
     "mjpost/sacrebleu",

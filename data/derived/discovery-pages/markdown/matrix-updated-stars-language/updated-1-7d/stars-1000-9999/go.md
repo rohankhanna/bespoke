@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-05-09T05:34:16.337725+00:00`
+Generated at: `2026-05-09T08:20:40.985131+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,7 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [googleapis/google-api-go-client](https://github.com/googleapis/google-api-go-client) | 4431 | 2026-05-07T07:36:59Z | Go | Service/API | 0 | 0 | 0 | 0 |
+| [googleapis/google-api-go-client](https://github.com/googleapis/google-api-go-client) | 4432 | 2026-05-07T07:36:59Z | Go | Service/API | 0 | 0 | 0 | 0 |
 | [gookit/validate](https://github.com/gookit/validate) | 1128 | 2026-05-05T02:27:40Z | Go | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [letsencrypt/boulder](https://github.com/letsencrypt/boulder) | 5701 | 2026-05-05T00:00:42Z | Go | Infrastructure/tooling | 10 | 6 | 10 | 10 |
 | [gookit/goutil](https://github.com/gookit/goutil) | 2347 | 2026-05-04T19:04:00Z | Go | CLI | 23 | 9 | 23 | 23 |
@@ -49,7 +49,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip) | 5964 | 2026-05-02T13:55:40Z | Go | Infrastructure/tooling | 20 | 2 | 20 | 20 |
 | [letsencrypt/boulder](https://github.com/letsencrypt/boulder) | 5701 | 2026-05-05T00:00:42Z | Go | Infrastructure/tooling | 10 | 6 | 10 | 10 |
 | [crazy-max/diun](https://github.com/crazy-max/diun) | 4629 | 2026-05-04T16:27:55Z | Go | Infrastructure/tooling | 24 | 21 | 24 | 24 |
-| [googleapis/google-api-go-client](https://github.com/googleapis/google-api-go-client) | 4431 | 2026-05-07T07:36:59Z | Go | Service/API | 0 | 0 | 0 | 0 |
+| [googleapis/google-api-go-client](https://github.com/googleapis/google-api-go-client) | 4432 | 2026-05-07T07:36:59Z | Go | Service/API | 0 | 0 | 0 | 0 |
 | [erigontech/erigon](https://github.com/erigontech/erigon) | 3561 | 2026-05-03T04:31:45Z | Go | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [go-ini/ini](https://github.com/go-ini/ini) | 3540 | 2026-05-03T01:45:12Z | Go | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [elastic/cloud-on-k8s](https://github.com/elastic/cloud-on-k8s) | 2842 | 2026-05-04T06:43:52Z | Go | Infrastructure/tooling | 7 | 3 | 7 | 7 |

@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-09T05:34:16.337725+00:00`
+Generated at: `2026-05-09T08:20:40.985131+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -28,7 +28,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [Mithril-mine/libmdbx](https://github.com/Mithril-mine/libmdbx) | 1398 | 2026-05-07T19:19:40Z | C/C++ | Unknown | 9 | 0 | 9 | 9 |
 | [skeeto/w64devkit](https://github.com/skeeto/w64devkit) | 4468 | 2026-05-07T17:52:59Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
-| [CloudCompare/CloudCompare](https://github.com/CloudCompare/CloudCompare) | 4501 | 2026-05-07T16:20:12Z | C/C++ | Infrastructure/tooling | 5 | 9 | 5 | 5 |
+| [CloudCompare/CloudCompare](https://github.com/CloudCompare/CloudCompare) | 4502 | 2026-05-07T16:20:12Z | C/C++ | Infrastructure/tooling | 5 | 9 | 5 | 5 |
 | [TrenchBroom/TrenchBroom](https://github.com/TrenchBroom/TrenchBroom) | 2601 | 2026-05-07T06:23:09Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
 | [OSGeo/gdal](https://github.com/OSGeo/gdal) | 5895 | 2026-05-07T01:14:50Z | C/C++ | Infrastructure/tooling | 12 | 14 | 12 | 12 |
 | [KhronosGroup/KTX-Software](https://github.com/KhronosGroup/KTX-Software) | 1246 | 2026-05-07T00:31:41Z | C/C++ | Infrastructure/tooling | 9 | 13 | 9 | 9 |
@@ -75,7 +75,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [harfbuzz/harfbuzz](https://github.com/harfbuzz/harfbuzz) | 5624 | 2026-05-06T23:27:10Z | C/C++ | Infrastructure/tooling | 17 | 9 | 17 | 17 |
 | [swiftlang/swift-corelibs-foundation](https://github.com/swiftlang/swift-corelibs-foundation) | 5425 | 2026-05-04T23:10:42Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [facebookincubator/katran](https://github.com/facebookincubator/katran) | 5229 | 2026-05-02T16:37:28Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [CloudCompare/CloudCompare](https://github.com/CloudCompare/CloudCompare) | 4501 | 2026-05-07T16:20:12Z | C/C++ | Infrastructure/tooling | 5 | 9 | 5 | 5 |
+| [CloudCompare/CloudCompare](https://github.com/CloudCompare/CloudCompare) | 4502 | 2026-05-07T16:20:12Z | C/C++ | Infrastructure/tooling | 5 | 9 | 5 | 5 |
 | [ultrajson/ultrajson](https://github.com/ultrajson/ultrajson) | 4483 | 2026-05-05T21:48:23Z | C/C++ | Infrastructure/tooling | 13 | 27 | 13 | 13 |
 | [riscv-collab/riscv-gnu-toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain) | 4473 | 2026-05-06T03:53:27Z | C/C++ | Infrastructure/tooling | 2 | 13 | 2 | 3 |
 | [skeeto/w64devkit](https://github.com/skeeto/w64devkit) | 4468 | 2026-05-07T17:52:59Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |

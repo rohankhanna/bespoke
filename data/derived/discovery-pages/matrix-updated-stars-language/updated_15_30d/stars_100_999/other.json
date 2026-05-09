@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2523,
-    "concepts": 2038,
-    "observations": 2041,
-    "repos": 339,
-    "terms": 2062
+    "components": 2514,
+    "concepts": 2032,
+    "observations": 2035,
+    "repos": 336,
+    "terms": 2056
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "a2aproject/a2a-dotnet",
@@ -33,12 +33,8 @@
     "ankane/disco",
     "ankane/eps",
     "ankane/fastText-ruby",
-    "ankane/neighbor",
     "ankane/onnxruntime-ruby",
-    "ankane/prophet-ruby",
     "ankane/rover",
-    "ankane/torch.rb",
-    "ankane/transformers-ruby",
     "apache/arrow-adbc",
     "apache/arrow-go",
     "apache/logging-log4net",
@@ -308,6 +304,7 @@
     "saka1/simdjson_ruby",
     "salvadordf/WebView4Delphi",
     "samtools/hts-specs",
+    "sbt/sbt-pgp",
     "SciML/SciMLStyle",
     "sebastienros/esprima-dotnet",
     "shakacode/shakapacker",

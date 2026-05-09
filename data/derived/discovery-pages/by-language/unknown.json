@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1581,
-    "concepts": 2893,
-    "observations": 2897,
-    "repos": 1638,
-    "terms": 2897
+    "components": 1585,
+    "concepts": 2900,
+    "observations": 2904,
+    "repos": 1639,
+    "terms": 2904
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "unknown"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nn0/terminal-mac-cheatsheet",
@@ -1015,6 +1015,7 @@
     "lcysyzxdxc/AGIQA-3k-Database",
     "LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words",
     "leeyeel/gltfOverview-Chinese",
+    "leleliu008/ppkg-package-manually-build",
     "LemmyNet/lemmy-docs",
     "Level/community",
     "li-xirong/cross-lingual-cap",

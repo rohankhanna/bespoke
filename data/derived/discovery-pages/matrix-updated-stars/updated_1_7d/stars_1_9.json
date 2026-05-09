@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 265,
-    "concepts": 185,
-    "observations": 185,
+    "components": 262,
+    "concepts": 184,
+    "observations": 184,
     "repos": 33,
-    "terms": 184
+    "terms": 183
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "ADNTIO/crispy-bootloader-rp2040-rs",
     "alphagov/stylelint-config-gds",
@@ -22,11 +22,11 @@
     "danielrosehill/Claude-Rudder",
     "edward3h/docker-bds-integration-test",
     "emacs-straight/emacsmirror-mirror",
+    "energye/examples",
     "Evilpasture/Culverin",
     "fluent-vue/examples",
     "fluent-vue/unplugin-fluent-vue",
     "fluxcd/flux-schema",
-    "godot-rust/godot4-prebuilt",
     "gookit/cliui",
     "haskell/ghcup-www",
     "influxdata/arrow-datafusion",

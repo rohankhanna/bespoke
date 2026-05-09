@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-09T05:34:16.337725+00:00`
+Generated at: `2026-05-09T08:20:40.985131+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -28,7 +28,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [unplugin/unplugin-imagemin](https://github.com/unplugin/unplugin-imagemin) | 259 | 2026-05-09T00:45:41Z | TypeScript | Unknown | 0 | 23 | 0 | 0 |
 | [fluent-vue/fluent-vue](https://github.com/fluent-vue/fluent-vue) | 276 | 2026-05-09T00:31:01Z | TypeScript | Infrastructure/tooling | 12 | 31 | 12 | 12 |
-| [a2aproject/a2a-js](https://github.com/a2aproject/a2a-js) | 535 | 2026-05-09T00:22:17Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
+| [a2aproject/a2a-js](https://github.com/a2aproject/a2a-js) | 536 | 2026-05-09T00:22:17Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
 | [mightyiam/eslint-config-love](https://github.com/mightyiam/eslint-config-love) | 817 | 2026-05-08T21:47:13Z | TypeScript | Infrastructure/tooling | 4 | 40 | 4 | 4 |
 | [stx-labs/stacks.js](https://github.com/stx-labs/stacks.js) | 973 | 2026-05-08T19:58:11Z | TypeScript | Infrastructure/tooling | 5 | 43 | 5 | 5 |
 
@@ -38,6 +38,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [stx-labs/stacks.js](https://github.com/stx-labs/stacks.js) | 973 | 2026-05-08T19:58:11Z | TypeScript | Infrastructure/tooling | 5 | 43 | 5 | 5 |
 | [mightyiam/eslint-config-love](https://github.com/mightyiam/eslint-config-love) | 817 | 2026-05-08T21:47:13Z | TypeScript | Infrastructure/tooling | 4 | 40 | 4 | 4 |
-| [a2aproject/a2a-js](https://github.com/a2aproject/a2a-js) | 535 | 2026-05-09T00:22:17Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
+| [a2aproject/a2a-js](https://github.com/a2aproject/a2a-js) | 536 | 2026-05-09T00:22:17Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
 | [fluent-vue/fluent-vue](https://github.com/fluent-vue/fluent-vue) | 276 | 2026-05-09T00:31:01Z | TypeScript | Infrastructure/tooling | 12 | 31 | 12 | 12 |
 | [unplugin/unplugin-imagemin](https://github.com/unplugin/unplugin-imagemin) | 259 | 2026-05-09T00:45:41Z | TypeScript | Unknown | 0 | 23 | 0 | 0 |

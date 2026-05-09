@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 2859,
-    "concepts": 621,
-    "observations": 621,
-    "repos": 263,
-    "terms": 613
+    "concepts": 635,
+    "observations": 635,
+    "repos": 264,
+    "terms": 627
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "0xPolygon/pilcom",
     "71/logseq-snippets",
@@ -270,6 +270,7 @@
     "vutran/zel",
     "weaviate/biggraph-wikidata-search-with-weaviate",
     "WebCu/gatsby-material-kit-react",
+    "webview2/EdgeSharp.Samples",
     "windicss/plugins",
     "wylieconlon/jsonrpc-ws-proxy",
     "Ximik/tex2svg",

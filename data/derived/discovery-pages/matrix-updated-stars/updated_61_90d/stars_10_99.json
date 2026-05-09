@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1419,
-    "concepts": 764,
-    "observations": 765,
-    "repos": 267,
-    "terms": 760
+    "components": 1402,
+    "concepts": 757,
+    "observations": 758,
+    "repos": 266,
+    "terms": 753
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "2slides/mcp-2slides",
@@ -19,7 +19,6 @@
     "aaaaalexis/obsidian-pseudo-mica",
     "AadSah/ConverSeg",
     "aba122/Q-Hawkeye",
-    "abap2UI5-addons/sql-console",
     "abduznik/git-alchemist",
     "ably-labs/realtime-multiplayer-space-invaders",
     "ably-labs/realtime-quiz-framework",

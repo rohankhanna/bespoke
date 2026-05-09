@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-05-09T05:34:16.337725+00:00`
+Generated at: `2026-05-09T08:20:40.985131+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 13
-- terms: 90
-- components: 154
-- concepts: 90
-- observations: 91
+- repos: 12
+- terms: 80
+- components: 144
+- concepts: 80
+- observations: 81
 
 ## Static behavior
 
@@ -38,7 +38,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [left-curve/left-curve](https://github.com/left-curve/left-curve) | 134 | 2026-05-02T21:38:23Z | Rust | Infrastructure/tooling | 11 | 21 | 11 | 11 |
 | [z-galaxy/zbus](https://github.com/z-galaxy/zbus) | 682 | 2026-05-02T12:04:31Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [cosmos/solidity-ibc-eureka](https://github.com/cosmos/solidity-ibc-eureka) | 101 | 2026-05-02T10:33:10Z | Rust | Infrastructure/tooling | 7 | 14 | 7 | 7 |
-| [prefix-dev/rattler-build](https://github.com/prefix-dev/rattler-build) | 357 | 2026-05-02T05:34:23Z | Rust | Infrastructure/tooling | 10 | 10 | 10 | 10 |
 
 ## Repos sorted by stars
 
@@ -51,7 +50,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [utilityai/llama-cpp-rs](https://github.com/utilityai/llama-cpp-rs) | 557 | 2026-05-06T00:58:56Z | Rust | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [paradigmxyz/solar](https://github.com/paradigmxyz/solar) | 544 | 2026-05-03T01:04:31Z | Rust | Infrastructure/tooling | 8 | 20 | 8 | 8 |
 | [open-telemetry/weaver](https://github.com/open-telemetry/weaver) | 395 | 2026-05-05T12:43:48Z | Rust | Infrastructure/tooling | 11 | 21 | 11 | 11 |
-| [prefix-dev/rattler-build](https://github.com/prefix-dev/rattler-build) | 357 | 2026-05-02T05:34:23Z | Rust | Infrastructure/tooling | 10 | 10 | 10 | 10 |
 | [attackgoat/vk-graph](https://github.com/attackgoat/vk-graph) | 336 | 2026-05-07T17:00:05Z | Rust | Infrastructure/tooling | 7 | 5 | 7 | 8 |
 | [alloy-rs/svm-rs](https://github.com/alloy-rs/svm-rs) | 284 | 2026-05-07T15:54:28Z | Rust | Infrastructure/tooling | 3 | 21 | 3 | 3 |
 | [left-curve/left-curve](https://github.com/left-curve/left-curve) | 134 | 2026-05-02T21:38:23Z | Rust | Infrastructure/tooling | 11 | 21 | 11 | 11 |

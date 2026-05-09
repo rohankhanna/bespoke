@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 157,
-    "concepts": 81,
-    "observations": 81,
-    "repos": 33,
-    "terms": 80
+    "concepts": 85,
+    "observations": 85,
+    "repos": 34,
+    "terms": 84
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "abap2UI5-addons/layout-management",
     "ada-url/kotlin",
@@ -36,6 +36,7 @@
     "flagos-ai/llvm-project",
     "gmberton/gmberton.github.io",
     "hchiam/convenience",
+    "konnov/apalache-examples",
     "marcindulak/learning-api-styles-gen-ai-experiments",
     "microsoft/LinuxTracepoints-Net",
     "mpizenberg/elm-test-runner",

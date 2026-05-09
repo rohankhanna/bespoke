@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1112,
-    "concepts": 5155,
-    "observations": 5158,
-    "repos": 1758,
-    "terms": 5004
+    "concepts": 5159,
+    "observations": 5162,
+    "repos": 1759,
+    "terms": 5007
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -669,6 +669,7 @@
     "google-research/batch_rl",
     "google-research/bleurt",
     "google-research/ibc",
+    "google-research/long-range-arena",
     "google-research/magvit",
     "google-research/meliad",
     "google-research/pix2struct",

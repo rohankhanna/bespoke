@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 10037,
-    "concepts": 6637,
-    "observations": 6663,
-    "repos": 1837,
-    "terms": 6628
+    "components": 10039,
+    "concepts": 6647,
+    "observations": 6673,
+    "repos": 1838,
+    "terms": 6638
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0b01/tigris-and-euphrates",
@@ -565,6 +565,7 @@
     "DioxusLabs/sdk",
     "DLR-TS/SUMOLibraries",
     "DLYuanGod/TinyGPT-V",
+    "dmayboroda/minima",
     "docker/docker-py",
     "dominicletz/websockex",
     "dominikg/tsconfck",
@@ -813,6 +814,7 @@
     "haskell/cabal-proposals",
     "haskell/stylish-haskell",
     "haskell/text",
+    "haya14busa/github-used-by",
     "haydn-jones/SOAP_JAX",
     "hchiam/learning-eslint-google",
     "hchiam/learning-https-server",
@@ -1744,7 +1746,6 @@
     "ValdikSS/GoodbyeDPI",
     "ValYouW/njsTrace",
     "VectorSpaceLab/OmniGen",
-    "VectorSpaceLab/Vis-IR",
     "ved015/CogVideoX-5b-Physics_iq_benchmarking",
     "vega/schema",
     "Velesio/velesio-aiserver",

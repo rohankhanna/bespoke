@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 25790,
-    "concepts": 22143,
-    "observations": 22214,
-    "repos": 5470,
-    "terms": 22096
+    "components": 25825,
+    "concepts": 22174,
+    "observations": 22245,
+    "repos": 5474,
+    "terms": 22123
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "other"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "0oAstro/silicon.lua",
@@ -2705,6 +2705,7 @@
     "jaspervdj/lorem-markdownum",
     "javan/whenever",
     "jayli/vim-easycomplete",
+    "jaywcjlove/linux-command",
     "jb55/ln-ws-proxy",
     "jcollard/elm-mode",
     "jcs/mailstation-tools",
@@ -3733,6 +3734,7 @@
     "mosn/mosn.io",
     "moyangzhan/langchain4j-aideepin-admin",
     "moyangzhan/langchain4j-aideepin-web",
+    "MoyuruAizawa/Cropify",
     "mozilla-mobile/android-components",
     "mozilla-mobile/fenix",
     "mozilla-mobile/firefox-android",
@@ -4183,6 +4185,8 @@
     "php-rdkafka/php-rdkafka-doc",
     "php-toolkit/cli-utils",
     "php-toolkit/pflag",
+    "php-toolkit/stdlib",
+    "php-toolkit/sys-utils",
     "php/doc-base",
     "php/doc-de",
     "php/doc-en",

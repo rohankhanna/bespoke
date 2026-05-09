@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 12364,
-    "concepts": 7317,
-    "observations": 7354,
-    "repos": 1349,
-    "terms": 7442
+    "components": 12300,
+    "concepts": 7326,
+    "observations": 7363,
+    "repos": 1344,
+    "terms": 7451
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
@@ -116,12 +116,8 @@
     "ankane/disco",
     "ankane/eps",
     "ankane/fastText-ruby",
-    "ankane/neighbor",
     "ankane/onnxruntime-ruby",
-    "ankane/prophet-ruby",
     "ankane/rover",
-    "ankane/torch.rb",
-    "ankane/transformers-ruby",
     "anonrig/fast-querystring",
     "ansible-collections/kubernetes.core",
     "antfu/starter-ts",
@@ -253,7 +249,6 @@
     "bmad-code-org/bmad-builder",
     "bmad-code-org/bmad-module-game-dev-studio",
     "bnb-chain/bsc-snapshots",
-    "bnprks/BPCells",
     "boazsegev/iodine",
     "Boddlnagg/midir",
     "bonfy/github-trending",
@@ -383,6 +378,7 @@
     "cusplibrary/cusplibrary",
     "CVEProject/automation-working-group",
     "CVEProject/cve-services",
+    "CVHub520/X-AnyLabeling-Server",
     "cygwin/cygwin",
     "cyphar/libpathrs",
     "daaain/claude-code-log",
@@ -812,6 +808,7 @@
     "letmaik/rawpy",
     "letsencrypt/pebble",
     "lewislulu/llm-wiki-skill",
+    "libbitcoin/libbitcoin-node",
     "libimobiledevice/libplist",
     "libLAS/libLAS",
     "libvips/build-win64-mxe",
@@ -1047,7 +1044,6 @@
     "PFCCLab/PPOCRLabel",
     "phiat/claude-esp",
     "PhoenixZ810/RISEBench",
-    "photopea/UZIP.js",
     "phronmophobic/llama.clj",
     "piebald-ai/awesome-gemini-cli",
     "pimutils/todoman",
@@ -1072,7 +1068,6 @@
     "previm/previm",
     "Project-MONAI/VISTA",
     "prometheus/common",
-    "prometheus/exporter-toolkit",
     "prove-rs/z3.rs",
     "proxy-wasm/proxy-wasm-rust-sdk",
     "proxytunnel/proxytunnel",
@@ -1110,7 +1105,6 @@
     "rapidsai/rmm",
     "raylib-extras/rlImGui",
     "raystack/meteor",
-    "RazrFalcon/memmap2-rs",
     "realh/roxterm",
     "recmo/uint",
     "redai-infra/Relax",
@@ -1180,6 +1174,7 @@
     "saphyr-rs/saphyr",
     "SaschaWillems/HowToVulkan",
     "sass/embedded-host-node",
+    "sbt/sbt-pgp",
     "scikit-build/scikit-build-core",
     "SciML/SciMLStyle",
     "sclorg/mysql-container",
@@ -1294,6 +1289,7 @@
     "triton-inference-server/backend",
     "triton-inference-server/python_backend",
     "triton-inference-server/tutorials",
+    "trzsz/tsshd",
     "turboderp-org/exllamav3",
     "tweag/rules_haskell",
     "twostraws/SwiftGD",
@@ -1360,7 +1356,6 @@
     "zilliztech/vts",
     "zimbatm/mdsh",
     "zkcrypto/ff",
-    "zkcrypto/group",
-    "zone-eu/zone-mta"
+    "zkcrypto/group"
   ]
 }

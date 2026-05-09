@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 268,
-    "concepts": 213,
-    "observations": 215,
-    "repos": 15,
-    "terms": 213
+    "concepts": 197,
+    "observations": 199,
+    "repos": 14,
+    "terms": 197
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "apache/casbin",
     "cert-manager/cert-manager",
@@ -22,7 +22,6 @@
     "flipped-aurora/gin-vue-admin",
     "go-gitea/gitea",
     "helm/helm",
-    "istio/istio",
     "oauth2-proxy/oauth2-proxy",
     "restic/restic",
     "rqlite/rqlite",

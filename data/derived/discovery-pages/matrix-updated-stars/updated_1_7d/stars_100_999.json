@@ -1,18 +1,19 @@
 {
   "counts": {
-    "components": 2100,
-    "concepts": 1105,
-    "observations": 1107,
-    "repos": 164,
-    "terms": 1100
+    "components": 2079,
+    "concepts": 1071,
+    "observations": 1073,
+    "repos": 161,
+    "terms": 1066
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
+    "15r10nk/inline-snapshot",
     "abaplint/transpiler",
     "adamchainz/blacken-docs",
     "AdguardTeam/FiltersRegistry",
@@ -44,8 +45,6 @@
     "ChristopherHX/runner.server",
     "clearml/clearml-agent",
     "clj-commons/rewrite-clj",
-    "cognizant-ai-lab/neuro-san",
-    "cognizant-ai-lab/neuro-san-studio",
     "cosmos/chain-registry",
     "cosmos/solidity-ibc-eureka",
     "CosmWasm/wasmd",
@@ -62,7 +61,6 @@
     "embroider-build/ember-auto-import",
     "energye/energy",
     "firebase/snippets-web",
-    "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
     "flagos-ai/FlagScale",
     "foldl/chatllm.cpp",
     "foundry-rs/foundry-toolchain",
@@ -137,7 +135,6 @@
     "paradigmxyz/solar",
     "phpstan/phpstan-src",
     "preactjs/preact-devtools",
-    "prefix-dev/rattler-build",
     "processing/processing4",
     "pulumi/pulumi-azure-native",
     "pyOpenSci/software-submission",

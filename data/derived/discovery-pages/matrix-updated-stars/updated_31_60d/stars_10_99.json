@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2515,
-    "concepts": 1495,
-    "observations": 1501,
-    "repos": 408,
-    "terms": 1491
+    "components": 2539,
+    "concepts": 1515,
+    "observations": 1521,
+    "repos": 414,
+    "terms": 1511
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x-ximon/acario.nvim",
@@ -52,6 +52,9 @@
     "angular/domino",
     "ankane/AnomalyDetection.rb",
     "ankane/drill-ruby",
+    "ankane/gslr",
+    "ankane/lightgbm-ruby",
+    "ankane/neighbor-s3",
     "ankane/nlopt-ruby",
     "ankane/stl-cpp",
     "ankane/torchaudio-ruby",
@@ -118,6 +121,7 @@
     "Calsign/gazelle_rust",
     "cedar-policy/cedar-docs",
     "celestiaorg/hana",
+    "ChainSafe/forest-iac",
     "chaoss/grimoirelab-elk",
     "chaoss/grimoirelab-sirmordred",
     "chris-zen/coremidi",
@@ -152,6 +156,7 @@
     "containerd/release-tool",
     "containers/image_build",
     "contributte/monolog",
+    "cpmech/gemlab",
     "cpmech/tritet",
     "crazy-max/yasu",
     "CROSS-signature/CROSS-implementation",
@@ -400,6 +405,7 @@
     "stx-labs/connect",
     "sublimelsp/LSP-marksman",
     "sveltejs/eslint-config",
+    "synadia-io/orbit.rs",
     "talieisin/britfix",
     "tarides/ocaml-eglot",
     "tc39/proposal-immutable-arraybuffer",

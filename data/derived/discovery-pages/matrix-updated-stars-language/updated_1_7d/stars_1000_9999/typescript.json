@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1273,
-    "concepts": 257,
-    "observations": 258,
+    "concepts": 259,
+    "observations": 260,
     "repos": 30,
-    "terms": 255
+    "terms": 257
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "alichherawalla/off-grid-mobile-ai",
     "apify/fingerprint-suite",
@@ -22,6 +22,7 @@
     "boxlite-ai/boxlite",
     "carbon-design-system/carbon-components-svelte",
     "ChromeDevTools/devtools-protocol",
+    "conventional-changelog/conventional-changelog",
     "cucumber/cucumber-js",
     "cursorless-dev/cursorless",
     "electron/rebuild",
@@ -41,7 +42,6 @@
     "unjs/unhead",
     "vite-pwa/vite-plugin-pwa",
     "vitejs/devtools",
-    "vuejs/babel-plugin-jsx",
     "vuejs/language-tools",
     "withcatai/node-llama-cpp"
   ]

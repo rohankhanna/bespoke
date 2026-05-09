@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-05-09T05:34:16.337725+00:00`
+Generated at: `2026-05-09T08:20:40.985131+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 914
-- terms: 2856
-- components: 2082
-- concepts: 2870
-- observations: 2877
+- repos: 915
+- terms: 2860
+- components: 2086
+- concepts: 2874
+- observations: 2881
 
 ## Static behavior
 
@@ -54,6 +54,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [r-lib/rcmdcheck](https://github.com/r-lib/rcmdcheck) | 122 | 2025-10-21T07:42:53Z | Other | Infrastructure/tooling | 0 | 11 | 0 | 0 |
 | [dashbitco/nimble_parsec](https://github.com/dashbitco/nimble_parsec) | 876 | 2025-10-21T05:53:49Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [nextjournal/clerk-demo](https://github.com/nextjournal/clerk-demo) | 180 | 2025-10-20T16:08:28Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
+| [MoyuruAizawa/Cropify](https://github.com/MoyuruAizawa/Cropify) | 208 | 2025-10-20T08:35:23Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [privacycg/storage-access](https://github.com/privacycg/storage-access) | 248 | 2025-10-18T13:57:41Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [privacycg/CHIPS](https://github.com/privacycg/CHIPS) | 189 | 2025-10-17T13:22:47Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [AnyPortal/AnyPortal](https://github.com/AnyPortal/AnyPortal) | 518 | 2025-10-17T13:09:40Z | Other | Infrastructure/tooling | 10 | 10 | 10 | 10 |
@@ -1569,6 +1570,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mikera/vectorz-clj](https://github.com/mikera/vectorz-clj) | 210 | 2025-02-16T14:32:29Z | Other | Library | 0 | 0 | 0 | 0 |
 | [cncf/tag-contributor-strategy](https://github.com/cncf/tag-contributor-strategy) | 209 | 2025-09-25T19:55:05Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [pocojang/nuxt-realworld](https://github.com/pocojang/nuxt-realworld) | 209 | 2021-12-03T03:20:58Z | Other | Web app | 5 | 22 | 5 | 5 |
+| [MoyuruAizawa/Cropify](https://github.com/MoyuruAizawa/Cropify) | 208 | 2025-10-20T08:35:23Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [hydescarf/Obsidian-Theme-Mado-Miniflow](https://github.com/hydescarf/Obsidian-Theme-Mado-Miniflow) | 208 | 2024-11-20T09:28:10Z | Other | Unknown | 8 | 0 | 8 | 8 |
 | [silvio/docker-languagetool](https://github.com/silvio/docker-languagetool) | 207 | 2025-10-10T06:47:19Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [onsails/diaglist.nvim](https://github.com/onsails/diaglist.nvim) | 207 | 2025-09-17T19:12:15Z | Other | CLI | 5 | 0 | 5 | 5 |

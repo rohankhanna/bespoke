@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 132,
-    "concepts": 93,
-    "observations": 94,
-    "repos": 23,
-    "terms": 93
+    "components": 135,
+    "concepts": 94,
+    "observations": 95,
+    "repos": 24,
+    "terms": 94
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "black-desk/djotfmt",
     "bnb-chain/reth-bsc-triedb",
@@ -24,6 +24,7 @@
     "Dicklesworthstone/franken_agent_detection",
     "EspressoSystems/tide-disco",
     "flathub-infra/flat-manager-hooks",
+    "godot-rust/godot4-prebuilt",
     "hecrj/llama-server",
     "heroku/buildpacks-deb-packages",
     "heroku/buildpacks-php",

@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 2575,
-    "concepts": 2086,
-    "observations": 2096,
-    "repos": 419,
-    "terms": 2064
+    "concepts": 2095,
+    "observations": 2105,
+    "repos": 420,
+    "terms": 2073
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "99designs/aws-vault",
@@ -116,6 +116,7 @@
     "developit/microbundle",
     "dgraph-io/ristretto",
     "DLYuanGod/TinyGPT-V",
+    "dmayboroda/minima",
     "docker/docker-py",
     "DotNetAnalyzers/StyleCopAnalyzers",
     "dtolnay/case-studies",

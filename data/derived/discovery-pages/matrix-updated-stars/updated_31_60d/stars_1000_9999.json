@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5157,
-    "concepts": 3127,
-    "observations": 3139,
-    "repos": 541,
-    "terms": 3136
+    "components": 5176,
+    "concepts": 3160,
+    "observations": 3172,
+    "repos": 546,
+    "terms": 3169
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "aaaaalexis/obsidian-cupertino",
@@ -39,6 +39,7 @@
     "ankane/ahoy_email",
     "ankane/chartkick",
     "ankane/groupdate",
+    "ankane/lockbox",
     "antfu-collective/vite-ssg",
     "antfu/vitesse-nuxt",
     "anvaka/panzoom",
@@ -130,6 +131,7 @@
     "darccio/mergo",
     "dart-lang/http",
     "databricks/megablocks",
+    "Dav1dde/glad",
     "DavBfr/dart_pdf",
     "David-OConnor/pyflow",
     "davidbyttow/govips",
@@ -204,6 +206,7 @@
     "google-deepmind/acme",
     "google-deepmind/bsuite",
     "google-deepmind/tapnet",
+    "google-gemini/starter-applets",
     "google-github-actions/run-gemini-cli",
     "google/argh",
     "google/brax",
@@ -313,6 +316,7 @@
     "lltcggie/waifu2x-caffe",
     "lobehub/lobe-chat-agents",
     "lobehub/lobe-icons",
+    "LorenEteval/Furious",
     "luarocks/luarocks",
     "lunarmodules/busted",
     "lxgw/LxgwWenKai-Screen",
@@ -488,6 +492,7 @@
     "stevearc/overseer.nvim",
     "stevengj/nlopt",
     "stleary/JSON-java",
+    "stripe/smokescreen",
     "stripe/stripe-mock",
     "styled-components/polished",
     "svenfuchs/rails-i18n",

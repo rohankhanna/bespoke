@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1495,
-    "concepts": 1017,
-    "observations": 1022,
-    "repos": 146,
-    "terms": 1029
+    "components": 1509,
+    "concepts": 1031,
+    "observations": 1036,
+    "repos": 147,
+    "terms": 1043
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0xPlaygrounds/rig",
@@ -24,6 +24,7 @@
     "alloy-rs/alloy",
     "aome510/spotify-player",
     "apache/arrow-rs",
+    "apache/casbin-rs",
     "apache/datafusion-comet",
     "apache/iggy",
     "apache/opendal",

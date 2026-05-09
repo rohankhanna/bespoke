@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 939,
-    "concepts": 420,
-    "observations": 420,
-    "repos": 53,
-    "terms": 421
+    "components": 915,
+    "concepts": 411,
+    "observations": 411,
+    "repos": 52,
+    "terms": 412
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "agent-sh/agent-core",
     "agent-sh/audit-project",
@@ -41,7 +41,6 @@
     "gauravrathod674/custom-chatbot",
     "gr2m/octokit-oauth-app-begin-example",
     "h5wasm/h5wasm-plugins",
-    "hchiam/code-inspiration",
     "ibm-telemetry/telemetry-config-schema",
     "ipfs-shipyard/js-mock-ipfs-pinning-service",
     "ipld/js-bitcoin",

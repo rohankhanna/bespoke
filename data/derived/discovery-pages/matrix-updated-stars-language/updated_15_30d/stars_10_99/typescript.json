@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1894,
-    "concepts": 292,
-    "observations": 295,
-    "repos": 69,
-    "terms": 324
+    "components": 1947,
+    "concepts": 299,
+    "observations": 302,
+    "repos": 70,
+    "terms": 331
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "52-entertainment/vite-plugin-oxlint",
     "adyscorpius/logseq-jira",
@@ -68,6 +68,7 @@
     "mdjastrzebski/test-renderer",
     "newrelic/opentelemetry-demo",
     "ngyewch/smile-js",
+    "oclif/plugin-plugins",
     "octokit/webhooks-methods.js",
     "ogx-ai/llama-stack-client-typescript",
     "overseedai/viwo",

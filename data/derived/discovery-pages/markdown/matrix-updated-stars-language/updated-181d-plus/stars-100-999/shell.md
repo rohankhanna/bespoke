@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Shell
 
-Generated at: `2026-05-09T05:34:16.337725+00:00`
+Generated at: `2026-05-09T08:20:40.985131+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 88
-- terms: 195
-- components: 66
-- concepts: 202
-- observations: 204
+- repos: 89
+- terms: 198
+- components: 67
+- concepts: 205
+- observations: 207
 
 ## Static behavior
 
@@ -50,6 +50,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lavabit/robox](https://github.com/lavabit/robox) | 663 | 2025-03-01T07:03:11Z | Shell | Infrastructure/tooling | 20 | 2 | 21 | 21 |
 | [27medkamal/tmux-session-wizard](https://github.com/27medkamal/tmux-session-wizard) | 256 | 2025-02-28T05:06:28Z | Shell | Infrastructure/tooling | 6 | 0 | 6 | 6 |
 | [chrismytton/shoreman](https://github.com/chrismytton/shoreman) | 336 | 2025-01-30T11:05:25Z | Shell | Infrastructure/tooling | 3 | 2 | 4 | 4 |
+| [alpinelinux/alpine-chroot-install](https://github.com/alpinelinux/alpine-chroot-install) | 338 | 2025-01-06T00:18:13Z | Shell | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [Asterisk4Magisk/Xray4Magisk](https://github.com/Asterisk4Magisk/Xray4Magisk) | 444 | 2024-11-11T15:04:38Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [lukechilds/zsh-better-npm-completion](https://github.com/lukechilds/zsh-better-npm-completion) | 499 | 2024-10-31T09:38:35Z | Shell | Unknown | 2 | 0 | 2 | 2 |
 | [Alex313031/ThoriumOS](https://github.com/Alex313031/ThoriumOS) | 521 | 2024-08-29T03:48:11Z | Shell | Library | 9 | 0 | 9 | 9 |
@@ -164,6 +165,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [joshmedeski/t-smart-tmux-session-manager](https://github.com/joshmedeski/t-smart-tmux-session-manager) | 352 | 2024-01-18T21:13:44Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [marbl/merqury](https://github.com/marbl/merqury) | 343 | 2024-06-28T19:13:08Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [Magisk-Modules-Repo/v2ray](https://github.com/Magisk-Modules-Repo/v2ray) | 340 | 2022-02-10T15:36:49Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [alpinelinux/alpine-chroot-install](https://github.com/alpinelinux/alpine-chroot-install) | 338 | 2025-01-06T00:18:13Z | Shell | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [chrismytton/shoreman](https://github.com/chrismytton/shoreman) | 336 | 2025-01-30T11:05:25Z | Shell | Infrastructure/tooling | 3 | 2 | 4 | 4 |
 | [archlinux/svntogit-packages](https://github.com/archlinux/svntogit-packages) | 324 | 2023-05-19T02:45:36Z | Shell | Library | 0 | 0 | 0 | 0 |
 | [jkjung-avt/jetson_nano](https://github.com/jkjung-avt/jetson_nano) | 304 | 2022-05-21T03:52:49Z | Shell | Unknown | 0 | 0 | 0 | 0 |

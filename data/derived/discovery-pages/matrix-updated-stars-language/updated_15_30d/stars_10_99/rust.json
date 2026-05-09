@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 459,
-    "concepts": 279,
-    "observations": 279,
-    "repos": 72,
-    "terms": 293
+    "components": 448,
+    "concepts": 270,
+    "observations": 270,
+    "repos": 70,
+    "terms": 284
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -38,7 +38,6 @@
     "ClickHouse/clickhousectl",
     "cloudllm-ai/mentisdb",
     "cometbft/cometbft-rs",
-    "cpmech/gemlab",
     "crate-ci/imperative",
     "datachainlab/lcp",
     "Dicklesworthstone/frankensearch",
@@ -76,7 +75,6 @@
     "sophus-vision/sophus-rs",
     "Sovereign-Labs/rollup-starter",
     "succinctlabs/network",
-    "synadia-io/orbit.rs",
     "tianrking/weixin-agent-rs",
     "tombelieber/claude-view",
     "tracel-ai/burn-bench",

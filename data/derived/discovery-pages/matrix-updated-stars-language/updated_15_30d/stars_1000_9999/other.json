@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2051,
-    "concepts": 1840,
-    "observations": 1847,
-    "repos": 274,
-    "terms": 1829
+    "components": 2046,
+    "concepts": 1833,
+    "observations": 1840,
+    "repos": 273,
+    "terms": 1822
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -31,7 +31,6 @@
     "andymass/vim-matchup",
     "AngleSharp/AngleSharp",
     "ankane/blazer",
-    "ankane/lockbox",
     "AnswerDotAI/fastcore",
     "apache/parquet-format",
     "apollographql/apollo-ios",

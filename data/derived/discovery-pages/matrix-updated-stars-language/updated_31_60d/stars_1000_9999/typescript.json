@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 2118,
-    "concepts": 428,
-    "observations": 429,
-    "repos": 57,
-    "terms": 456
+    "concepts": 431,
+    "observations": 432,
+    "repos": 58,
+    "terms": 459
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "aleclarson/vite-tsconfig-paths",
@@ -32,6 +32,7 @@
     "gajus/slonik",
     "glittercowboy/taches-cc-resources",
     "golang/vscode-go",
+    "google-gemini/starter-applets",
     "google-github-actions/run-gemini-cli",
     "gpac/mp4box.js",
     "graffle-js/graffle",

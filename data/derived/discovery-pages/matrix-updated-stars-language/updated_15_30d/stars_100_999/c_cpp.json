@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 645,
-    "concepts": 649,
-    "observations": 651,
+    "components": 639,
+    "concepts": 648,
+    "observations": 650,
     "repos": 129,
-    "terms": 643
+    "terms": 642
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/Imath",
     "AcademySoftwareFoundation/openfx",
@@ -30,7 +30,6 @@
     "BabylonJS/BabylonNative",
     "bfgroup/Lyra",
     "bitcoin-core/gui",
-    "bnprks/BPCells",
     "boazsegev/iodine",
     "BoosterRobotics/booster_robotics_sdk",
     "boostorg/nowide",
@@ -79,6 +78,7 @@
     "jupyter-xeus/xwidgets",
     "KhronosGroup/SPIRV-Headers",
     "KhronosGroup/VK-GL-CTS",
+    "libbitcoin/libbitcoin-node",
     "libimobiledevice/libplist",
     "libLAS/libLAS",
     "Livox-SDK/Livox-SDK2",

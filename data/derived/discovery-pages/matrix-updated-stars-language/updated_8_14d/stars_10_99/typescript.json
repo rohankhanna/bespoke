@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1492,
-    "concepts": 296,
-    "observations": 298,
+    "components": 1439,
+    "concepts": 289,
+    "observations": 291,
     "repos": 53,
-    "terms": 296
+    "terms": 289
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "addfox/addfox",
@@ -28,6 +28,7 @@
     "favware/esbuild-plugin-version-injector",
     "forcedotcom/agents",
     "ghostery/broken-page-reports",
+    "iconify/iconify-tailwind",
     "iconify/tools",
     "intlify/cli",
     "intlify/vue-i18n-extensions",
@@ -43,7 +44,6 @@
     "obsidianmd/eslint-plugin",
     "oclif/plugin-autocomplete",
     "oclif/plugin-help",
-    "oclif/plugin-plugins",
     "oclif/plugin-update",
     "oclif/test",
     "octokit/auth-action.js",

@@ -3,7 +3,7 @@
     "components": 15,
     "concepts": 43,
     "observations": 43,
-    "repos": 34,
+    "repos": 33,
     "terms": 47
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "1ilkhamov/opencode-hermes-multiagent",
     "Adlik/model_zoo",
@@ -45,7 +45,6 @@
     "stephenschoettler/taches-oc-prompts",
     "talk-flow/Lynxe-public-usecase",
     "tony/claude-code-riper-5",
-    "VectorSpaceLab/Vis-IR",
     "vega/schema",
     "withastro/.github"
   ]

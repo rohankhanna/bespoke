@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 672,
-    "concepts": 290,
-    "observations": 292,
-    "repos": 194,
-    "terms": 302
+    "components": 674,
+    "concepts": 291,
+    "observations": 293,
+    "repos": 195,
+    "terms": 303
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -100,6 +100,7 @@
     "hashberg-io/typing-validation",
     "haskell-compat/base-orphans",
     "haskell/cabal-proposals",
+    "haya14busa/github-used-by",
     "hchiam/learning-eslint-google",
     "hchiam/learning-https-server",
     "hchiam/learning-ngrok",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 398,
-    "concepts": 266,
-    "observations": 267,
-    "repos": 63,
-    "terms": 262
+    "components": 403,
+    "concepts": 270,
+    "observations": 271,
+    "repos": 64,
+    "terms": 266
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "abhinav/goldmark-anchor",
     "abhinav/goldmark-frontmatter",
@@ -20,6 +20,7 @@
     "aldernero/sketchy",
     "allenreder/cliproxyapi-quota-inspector",
     "antham/ghokin",
+    "apache/datasketches-go",
     "apache/dubbo-go-pixiu-samples",
     "appleboy/drone-lambda",
     "apptainer/sif",

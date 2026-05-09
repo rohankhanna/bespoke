@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-05-09T05:34:16.337725+00:00`
+Generated at: `2026-05-09T08:20:40.985131+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 182
-- terms: 1495
-- components: 1595
-- concepts: 1491
-- observations: 1497
+- terms: 1504
+- components: 1605
+- concepts: 1500
+- observations: 1506
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [prometheus-community/windows_exporter](https://github.com/prometheus-community/windows_exporter) | 3530 | 2026-04-25T08:09:18Z | Go | Infrastructure/tooling | 10 | 12 | 10 | 10 |
 | [cloudflare/circl](https://github.com/cloudflare/circl) | 1655 | 2026-04-24T23:22:59Z | Go | Infrastructure/tooling | 17 | 8 | 17 | 18 |
 | [tilt-dev/tilt](https://github.com/tilt-dev/tilt) | 9667 | 2026-04-24T20:18:03Z | Go | Infrastructure/tooling | 2 | 0 | 2 | 2 |
 | [tidwall/tile38](https://github.com/tidwall/tile38) | 9627 | 2026-04-24T20:09:52Z | Go | Infrastructure/tooling | 6 | 2 | 6 | 6 |
@@ -207,7 +208,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gobackup/gobackup](https://github.com/gobackup/gobackup) | 2689 | 2026-04-09T14:50:52Z | Go | CLI | 10 | 11 | 10 | 10 |
 | [bnb-chain/tss-lib](https://github.com/bnb-chain/tss-lib) | 1009 | 2026-04-09T13:36:58Z | Go | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [cloudnativelabs/kube-router](https://github.com/cloudnativelabs/kube-router) | 2472 | 2026-04-09T08:45:30Z | Go | Infrastructure/tooling | 14 | 15 | 14 | 14 |
-| [stripe/smokescreen](https://github.com/stripe/smokescreen) | 1277 | 2026-04-09T08:18:32Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -299,6 +299,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DataDog/datadog-agent](https://github.com/DataDog/datadog-agent) | 3574 | 2026-04-23T05:21:16Z | Go | Infrastructure/tooling | 16 | 4 | 16 | 16 |
 | [dunglas/vulcain](https://github.com/dunglas/vulcain) | 3574 | 2026-04-23T00:33:30Z | Go | CLI | 15 | 6 | 15 | 15 |
 | [x-motemen/ghq](https://github.com/x-motemen/ghq) | 3572 | 2026-04-20T10:22:37Z | Go | Infrastructure/tooling | 5 | 8 | 5 | 5 |
+| [prometheus-community/windows_exporter](https://github.com/prometheus-community/windows_exporter) | 3530 | 2026-04-25T08:09:18Z | Go | Infrastructure/tooling | 10 | 12 | 10 | 10 |
 | [digitalocean/doctl](https://github.com/digitalocean/doctl) | 3414 | 2026-04-16T11:17:34Z | Go | CLI | 8 | 8 | 8 | 8 |
 | [databus23/helm-diff](https://github.com/databus23/helm-diff) | 3404 | 2026-04-19T00:05:20Z | Go | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [ClickHouse/clickhouse-go](https://github.com/ClickHouse/clickhouse-go) | 3277 | 2026-04-22T20:57:20Z | Go | CLI | 13 | 13 | 13 | 13 |
@@ -381,7 +382,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kubernetes/ingress-gce](https://github.com/kubernetes/ingress-gce) | 1300 | 2026-04-24T12:09:58Z | Go | Infrastructure/tooling | 4 | 0 | 4 | 4 |
 | [GoogleCloudPlatform/berglas](https://github.com/GoogleCloudPlatform/berglas) | 1298 | 2026-04-20T06:38:11Z | Go | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [docker/docker-credential-helpers](https://github.com/docker/docker-credential-helpers) | 1280 | 2026-04-22T09:44:17Z | Go | Infrastructure/tooling | 2 | 11 | 2 | 2 |
-| [stripe/smokescreen](https://github.com/stripe/smokescreen) | 1277 | 2026-04-09T08:18:32Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [rootless-containers/rootlesskit](https://github.com/rootless-containers/rootlesskit) | 1252 | 2026-04-09T19:02:03Z | Go | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [klauspost/pgzip](https://github.com/klauspost/pgzip) | 1192 | 2026-04-22T08:41:12Z | Go | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [dlclark/regexp2](https://github.com/dlclark/regexp2) | 1164 | 2026-04-22T01:28:10Z | Go | Unknown | 5 | 0 | 5 | 5 |

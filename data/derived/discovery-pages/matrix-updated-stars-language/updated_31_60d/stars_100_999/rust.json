@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 234,
-    "concepts": 197,
-    "observations": 200,
-    "repos": 45,
-    "terms": 197
+    "components": 239,
+    "concepts": 198,
+    "observations": 201,
+    "repos": 46,
+    "terms": 198
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "ashvardanian/StringWars",
     "athre0z/color-backtrace",
@@ -49,6 +49,7 @@
     "posit-dev/air",
     "public-awesome/cw-nfts",
     "quickwit-oss/tantivy-cli",
+    "RazrFalcon/memmap2-rs",
     "rust-analyzer/rowan",
     "rust-lang/crater",
     "rust-lang/rfcbot-rs",

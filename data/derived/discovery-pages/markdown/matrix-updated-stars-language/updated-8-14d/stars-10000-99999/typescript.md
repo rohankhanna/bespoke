@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10,000 to 99,999 stars · TypeScript
 
-Generated at: `2026-05-09T05:34:16.337725+00:00`
+Generated at: `2026-05-09T08:20:40.985131+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 63
-- terms: 722
-- components: 3356
-- concepts: 723
-- observations: 725
+- repos: 65
+- terms: 760
+- components: 3377
+- concepts: 761
+- observations: 763
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [continuedev/continue](https://github.com/continuedev/continue) | 32941 | 2026-05-02T06:48:04Z | TypeScript | CLI | 12 | 30 | 12 | 12 |
+| [withastro/astro](https://github.com/withastro/astro) | 58933 | 2026-05-02T06:35:19Z | TypeScript | Infrastructure/tooling | 18 | 41 | 18 | 18 |
+| [apache/echarts](https://github.com/apache/echarts) | 66255 | 2026-05-02T05:58:07Z | TypeScript | Infrastructure/tooling | 16 | 42 | 16 | 16 |
 | [slidevjs/slidev](https://github.com/slidevjs/slidev) | 46181 | 2026-05-02T03:16:43Z | TypeScript | Infrastructure/tooling | 9 | 49 | 10 | 10 |
 | [reduxjs/redux](https://github.com/reduxjs/redux) | 61445 | 2026-05-01T20:39:32Z | TypeScript | Infrastructure/tooling | 3 | 29 | 3 | 3 |
 | [nitrojs/nitro](https://github.com/nitrojs/nitro) | 10781 | 2026-05-01T17:20:41Z | TypeScript | Infrastructure/tooling | 2 | 112 | 2 | 2 |
@@ -70,7 +73,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mswjs/msw](https://github.com/mswjs/msw) | 17901 | 2026-04-29T15:37:37Z | TypeScript | Infrastructure/tooling | 16 | 71 | 16 | 16 |
 | [prisma/prisma](https://github.com/prisma/prisma) | 45862 | 2026-04-29T15:27:11Z | TypeScript | CLI | 25 | 79 | 25 | 25 |
 | [remix-run/react-router](https://github.com/remix-run/react-router) | 56386 | 2026-04-29T14:26:13Z | TypeScript | Infrastructure/tooling | 8 | 47 | 8 | 8 |
-| [unocss/unocss](https://github.com/unocss/unocss) | 18784 | 2026-04-29T13:10:15Z | TypeScript | Infrastructure/tooling | 8 | 92 | 8 | 8 |
 | [Kong/insomnia](https://github.com/Kong/insomnia) | 38363 | 2026-04-29T08:28:42Z | TypeScript | CLI | 17 | 56 | 17 | 17 |
 | [marmelab/react-admin](https://github.com/marmelab/react-admin) | 26667 | 2026-04-29T07:50:07Z | TypeScript | Infrastructure/tooling | 15 | 67 | 15 | 15 |
 | [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | 29559 | 2026-04-29T07:27:48Z | TypeScript | Infrastructure/tooling | 18 | 40 | 18 | 18 |
@@ -98,8 +100,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) | 94817 | 2026-05-01T11:29:20Z | TypeScript | Infrastructure/tooling | 9 | 24 | 9 | 9 |
 | [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) | 87741 | 2026-04-30T05:15:31Z | TypeScript | Infrastructure/tooling | 11 | 81 | 11 | 11 |
 | [coder/code-server](https://github.com/coder/code-server) | 77329 | 2026-04-27T17:59:20Z | TypeScript | Infrastructure/tooling | 13 | 69 | 13 | 13 |
+| [apache/echarts](https://github.com/apache/echarts) | 66255 | 2026-05-02T05:58:07Z | TypeScript | Infrastructure/tooling | 16 | 42 | 16 | 16 |
 | [reduxjs/redux](https://github.com/reduxjs/redux) | 61445 | 2026-05-01T20:39:32Z | TypeScript | Infrastructure/tooling | 3 | 29 | 3 | 3 |
 | [nuxt/nuxt](https://github.com/nuxt/nuxt) | 60149 | 2026-04-30T08:14:50Z | TypeScript | Infrastructure/tooling | 14 | 90 | 14 | 14 |
+| [withastro/astro](https://github.com/withastro/astro) | 58933 | 2026-05-02T06:35:19Z | TypeScript | Infrastructure/tooling | 18 | 41 | 18 | 18 |
 | [pmndrs/zustand](https://github.com/pmndrs/zustand) | 57912 | 2026-04-28T22:39:46Z | TypeScript | Infrastructure/tooling | 14 | 45 | 14 | 14 |
 | [remix-run/react-router](https://github.com/remix-run/react-router) | 56386 | 2026-04-29T14:26:13Z | TypeScript | Infrastructure/tooling | 8 | 47 | 8 | 8 |
 | [appwrite/appwrite](https://github.com/appwrite/appwrite) | 55934 | 2026-05-01T04:11:34Z | TypeScript | Infrastructure/tooling | 22 | 25 | 22 | 22 |
@@ -112,6 +116,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [styled-components/styled-components](https://github.com/styled-components/styled-components) | 41021 | 2026-04-30T03:35:40Z | TypeScript | CLI | 7 | 9 | 7 | 7 |
 | [Kong/insomnia](https://github.com/Kong/insomnia) | 38363 | 2026-04-29T08:28:42Z | TypeScript | CLI | 17 | 56 | 17 | 17 |
 | [solidjs/solid](https://github.com/solidjs/solid) | 35475 | 2026-04-30T19:42:37Z | TypeScript | Infrastructure/tooling | 7 | 39 | 7 | 7 |
+| [continuedev/continue](https://github.com/continuedev/continue) | 32941 | 2026-05-02T06:48:04Z | TypeScript | CLI | 12 | 30 | 12 | 12 |
 | [medusajs/medusa](https://github.com/medusajs/medusa) | 32860 | 2026-05-01T14:32:35Z | TypeScript | Infrastructure/tooling | 15 | 127 | 15 | 15 |
 | [remix-run/remix](https://github.com/remix-run/remix) | 32663 | 2026-04-30T18:53:34Z | TypeScript | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 | [pmndrs/react-three-fiber](https://github.com/pmndrs/react-three-fiber) | 30622 | 2026-04-28T20:25:41Z | TypeScript | Infrastructure/tooling | 7 | 51 | 7 | 7 |
@@ -133,7 +138,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aidenybai/react-scan](https://github.com/aidenybai/react-scan) | 21187 | 2026-05-01T09:27:51Z | TypeScript | Infrastructure/tooling | 6 | 17 | 6 | 6 |
 | [bokeh/bokeh](https://github.com/bokeh/bokeh) | 20376 | 2026-04-28T12:02:31Z | TypeScript | Infrastructure/tooling | 18 | 8 | 18 | 18 |
 | [adonisjs/core](https://github.com/adonisjs/core) | 18886 | 2026-04-26T14:49:15Z | TypeScript | Infrastructure/tooling | 11 | 70 | 11 | 11 |
-| [unocss/unocss](https://github.com/unocss/unocss) | 18784 | 2026-04-29T13:10:15Z | TypeScript | Infrastructure/tooling | 8 | 92 | 8 | 8 |
 | [openobserve/openobserve](https://github.com/openobserve/openobserve) | 18670 | 2026-04-30T06:48:05Z | TypeScript | Infrastructure/tooling | 26 | 23 | 26 | 26 |
 | [mswjs/msw](https://github.com/mswjs/msw) | 17901 | 2026-04-29T15:37:37Z | TypeScript | Infrastructure/tooling | 16 | 71 | 16 | 16 |
 | [oblador/react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) | 17850 | 2026-04-30T08:33:20Z | TypeScript | Infrastructure/tooling | 8 | 22 | 8 | 8 |

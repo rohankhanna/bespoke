@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11609,
-    "concepts": 5079,
-    "observations": 5088,
-    "repos": 2278,
-    "terms": 5099
+    "components": 11621,
+    "concepts": 5103,
+    "observations": 5112,
+    "repos": 2283,
+    "terms": 5123
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0cc4m/hf_bleeding_edge",
@@ -927,6 +927,7 @@
     "empriselab/kortex_description",
     "enbop/fungi-app",
     "energye/designer",
+    "energye/examples",
     "energye/golcl",
     "EnokViking/Box2DBeef",
     "enola-dev/LearningADK",
@@ -1505,6 +1506,8 @@
     "leeyeel/gltfOverview-Chinese",
     "lefou/lambdatest",
     "leizhao1234/cogvlm2",
+    "leleliu008/ppkg-formula-repository-official-core",
+    "leleliu008/ppkg-package-manually-build",
     "lemire/unicode_lipsum",
     "lemonatsu/pytorch-msssim",
     "lesismal/arpcex",
@@ -1801,6 +1804,8 @@
     "philips-labs/dangerous-dave",
     "phlegx/money-openexchangerates-bank",
     "php-rdkafka/php-rdkafka-doc",
+    "php-toolkit/stdlib",
+    "php-toolkit/sys-utils",
     "phuslu/log-contrib",
     "phymhan/taming-transformers",
     "piebald-ai/.github",

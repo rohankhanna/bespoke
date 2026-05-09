@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 305,
-    "concepts": 227,
-    "observations": 227,
-    "repos": 44,
-    "terms": 225
+    "components": 312,
+    "concepts": 233,
+    "observations": 233,
+    "repos": 45,
+    "terms": 231
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "aws/aws-app-mesh-controller-for-k8s",
     "aws/aws-xray-daemon",
@@ -52,6 +52,7 @@
     "notaryproject/notation",
     "opencontainers/runtime-tools",
     "phuslu/log",
+    "prometheus/exporter-toolkit",
     "secretflow/scql",
     "siderolabs/talos-cloud-controller-manager",
     "slsa-framework/slsa-github-generator",

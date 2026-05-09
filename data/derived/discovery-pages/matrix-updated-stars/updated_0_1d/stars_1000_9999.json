@@ -1,19 +1,18 @@
 {
   "counts": {
-    "components": 1211,
-    "concepts": 567,
-    "observations": 571,
-    "repos": 63,
-    "terms": 567
+    "components": 1167,
+    "concepts": 550,
+    "observations": 554,
+    "repos": 60,
+    "terms": 550
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
-    "aigc-apps/VideoX-Fun",
     "all-contributors/allcontributors.org",
     "apache/datafusion-ballista",
     "apollographql/apollo-tooling",
@@ -24,7 +23,6 @@
     "bazel-contrib/rules_go",
     "bitsandbytes-foundation/bitsandbytes",
     "clearml/clearml",
-    "conventional-changelog/conventional-changelog",
     "crc-org/crc",
     "databendlabs/databend",
     "dmtrKovalenko/fff",
@@ -64,7 +62,6 @@
     "podman-desktop/podman-desktop",
     "PrimeIntellect-ai/verifiers",
     "psmux/psmux",
-    "redis/redis-om-python",
     "rllm-org/rllm",
     "ROCm/ROCm",
     "safe-fndn/safe-smart-account",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-05-09T05:34:16.337725+00:00`
+Generated at: `2026-05-09T08:20:40.985131+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 811
+- repos: 812
 - terms: 1405
 - components: 678
 - concepts: 1424
@@ -592,6 +592,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [higlass/higlass-server](https://github.com/higlass/higlass-server) | 21 | 2023-05-23T02:03:39Z | Python | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [ashen-sensored/sd_webui_stealth_pnginfo](https://github.com/ashen-sensored/sd_webui_stealth_pnginfo) | 34 | 2023-05-17T22:08:10Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [fanqie03/char-detection](https://github.com/fanqie03/char-detection) | 89 | 2023-05-16T13:09:16Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [Mivg/SLED](https://github.com/Mivg/SLED) | 70 | 2023-05-14T21:53:52Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [rapidsai/benchmark](https://github.com/rapidsai/benchmark) | 12 | 2023-05-12T16:08:52Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [TehVenomm/LM_Transformers_BlockMerge](https://github.com/TehVenomm/LM_Transformers_BlockMerge) | 56 | 2023-05-08T07:46:52Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [Ehsanfarahi22/Bypassing-SNI-based-HTTPS-Filtering](https://github.com/Ehsanfarahi22/Bypassing-SNI-based-HTTPS-Filtering) | 54 | 2023-05-05T15:57:48Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -1037,6 +1038,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dslisleedh/PLKSR](https://github.com/dslisleedh/PLKSR) | 70 | 2024-08-19T04:24:47Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [xg-chu/lightning_track](https://github.com/xg-chu/lightning_track) | 70 | 2024-07-31T05:58:54Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [ashawkey/envlight](https://github.com/ashawkey/envlight) | 70 | 2024-01-19T02:10:52Z | Python | Infrastructure/tooling | 0 | 3 | 0 | 0 |
+| [Mivg/SLED](https://github.com/Mivg/SLED) | 70 | 2023-05-14T21:53:52Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [Ha0Tang/C2GAN](https://github.com/Ha0Tang/C2GAN) | 70 | 2023-02-18T00:53:54Z | Python | Docs/knowledge | 7 | 0 | 7 | 7 |
 | [djcunningham0/multielo](https://github.com/djcunningham0/multielo) | 70 | 2023-01-25T19:13:28Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [oreobird/tf-keras-deep-head-pose](https://github.com/Oreobird/tf-keras-deep-head-pose) | 70 | 2022-06-28T01:14:23Z | Python | Unknown | 4 | 0 | 4 | 4 |

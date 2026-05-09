@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3356,
-    "concepts": 723,
-    "observations": 725,
-    "repos": 63,
-    "terms": 722
+    "components": 3377,
+    "concepts": 761,
+    "observations": 763,
+    "repos": 65,
+    "terms": 760
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "adonisjs/core",
     "aidenybai/react-scan",
     "angular/angular-cli",
     "ant-design/ant-design",
+    "apache/echarts",
     "apollographql/apollo-server",
     "appium/appium",
     "appwrite/appwrite",
@@ -31,6 +32,7 @@
     "cheeriojs/cheerio",
     "coder/code-server",
     "colinhacks/zod",
+    "continuedev/continue",
     "ecomfe/vue-echarts",
     "electron-react-boilerplate/electron-react-boilerplate",
     "electron-userland/electron-builder",
@@ -71,11 +73,11 @@
     "TanStack/query",
     "TanStack/router",
     "TanStack/table",
-    "unocss/unocss",
     "vitest-dev/vitest",
     "vueuse/vueuse",
     "web-infra-dev/midscene",
     "webpro-nl/knip",
-    "windingwind/zotero-pdf-translate"
+    "windingwind/zotero-pdf-translate",
+    "withastro/astro"
   ]
 }

@@ -3,14 +3,14 @@
     "components": 10175,
     "concepts": 9981,
     "observations": 10013,
-    "repos": 1703,
+    "repos": 1705,
     "terms": 9934
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",
@@ -663,8 +663,10 @@
     "energye/cef",
     "energye/designer",
     "energye/energy",
+    "energye/examples",
     "energye/golcl",
     "energye/lcl",
+    "energye/wv",
     "EngFlow/gazelle_cc",
     "ent/ent",
     "envoyproxy/ai-gateway",

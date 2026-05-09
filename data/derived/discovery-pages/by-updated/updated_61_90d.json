@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 7059,
-    "concepts": 4326,
-    "observations": 4340,
-    "repos": 1112,
-    "terms": 4314
+    "components": 7040,
+    "concepts": 4318,
+    "observations": 4332,
+    "repos": 1110,
+    "terms": 4306
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "0x676e67/0x676e67",
@@ -33,7 +33,6 @@
     "aaaaalexis/obsidian-pseudo-mica",
     "AadSah/ConverSeg",
     "aba122/Q-Hawkeye",
-    "abap2UI5-addons/sql-console",
     "abduznik/git-alchemist",
     "abh/geodns",
     "abhisheknaiidu/awesome-github-profile-readme",
@@ -528,7 +527,6 @@
     "havarddj/typst-preview.el",
     "HaxeFlixel/flixel-demos",
     "HaxeFlixel/haxeflixel.com",
-    "haya14busa/github-used-by",
     "hbenl/vscode-mocha-test-adapter",
     "hchiam/chat-app-fcc-react-redux",
     "hchiam/learning",

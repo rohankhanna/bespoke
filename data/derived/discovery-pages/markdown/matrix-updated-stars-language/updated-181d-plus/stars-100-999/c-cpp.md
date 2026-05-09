@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-09T05:34:16.337725+00:00`
+Generated at: `2026-05-09T08:20:40.985131+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 362
-- terms: 1147
-- components: 628
-- concepts: 1166
-- observations: 1169
+- repos: 363
+- terms: 1152
+- components: 633
+- concepts: 1172
+- observations: 1175
 
 ## Static behavior
 
@@ -77,6 +77,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kylebgorman/swipe](https://github.com/kylebgorman/swipe) | 100 | 2025-08-08T13:42:16Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [Zielon/INSTA](https://github.com/Zielon/INSTA) | 516 | 2025-08-03T08:46:39Z | C/C++ | Unknown | 7 | 0 | 8 | 8 |
 | [kaylorchen/rk3588-yolo-demo](https://github.com/kaylorchen/rk3588-yolo-demo) | 438 | 2025-07-31T11:36:28Z | C/C++ | Model/data | 0 | 0 | 0 | 0 |
+| [leleliu008/C-examples](https://github.com/leleliu008/C-examples) | 286 | 2025-07-29T10:59:13Z | C/C++ | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [ashvardanian/ParallelReductionsBenchmark](https://github.com/ashvardanian/ParallelReductionsBenchmark) | 117 | 2025-07-22T15:01:39Z | C/C++ | Infrastructure/tooling | 15 | 2 | 15 | 15 |
 | [rizkg/BBHash](https://github.com/rizkg/BBHash) | 279 | 2025-07-16T18:12:42Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [mapbox/vtzero](https://github.com/mapbox/vtzero) | 101 | 2025-07-16T14:46:55Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -143,7 +144,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Level/leveldown](https://github.com/Level/leveldown) | 775 | 2024-12-01T21:46:12Z | C/C++ | Infrastructure/tooling | 9 | 31 | 9 | 9 |
 | [mit-han-lab/tinyengine](https://github.com/mit-han-lab/tinyengine) | 942 | 2024-11-27T18:51:37Z | C/C++ | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [asg017/sqlite-lembed](https://github.com/asg017/sqlite-lembed) | 255 | 2024-11-24T06:10:43Z | C/C++ | Infrastructure/tooling | 3 | 8 | 3 | 3 |
-| [Robotics-STAR-Lab/RACER](https://github.com/Robotics-STAR-Lab/RACER) | 745 | 2024-11-19T06:07:39Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
+| [Robotics-STAR-Lab/RACER](https://github.com/Robotics-STAR-Lab/RACER) | 746 | 2024-11-19T06:07:39Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [Alex313031/thorium-legacy](https://github.com/Alex313031/thorium-legacy) | 338 | 2024-11-13T02:54:54Z | C/C++ | Unknown | 20 | 0 | 20 | 20 |
 | [ethz-asl/COIN-LIO](https://github.com/ethz-asl/COIN-LIO) | 473 | 2024-11-12T12:47:50Z | C/C++ | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [lac-dcc/llvm-course](https://github.com/lac-dcc/llvm-course) | 134 | 2024-11-08T12:42:11Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -273,7 +274,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [yuanming-hu/taichi](https://github.com/yuanming-hu/taichi) | 411 | 2023-09-16T14:39:21Z | C/C++ | Infrastructure/tooling | 8 | 8 | 8 | 8 |
 | [bigcode-project/starcoder.cpp](https://github.com/bigcode-project/starcoder.cpp) | 458 | 2023-09-09T16:54:50Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [PotatoOfDoom/CyberFSR2](https://github.com/PotatoOfDoom/CyberFSR2) | 619 | 2023-09-05T20:34:07Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
-| [unum-cloud/UStore](https://github.com/unum-cloud/UStore) | 631 | 2023-09-01T12:18:21Z | C/C++ | Infrastructure/tooling | 21 | 19 | 21 | 21 |
+| [unum-cloud/UStore](https://github.com/unum-cloud/UStore) | 631 | 2023-09-01T12:18:21Z | C/C++ | Infrastructure/tooling | 20 | 19 | 21 | 21 |
 | [tsattler/RansacLib](https://github.com/tsattler/RansacLib) | 383 | 2023-08-31T15:25:26Z | C/C++ | Template/starter | 0 | 0 | 0 | 0 |
 | [InteractiveComputerGraphics/Discregrid](https://github.com/InteractiveComputerGraphics/Discregrid) | 312 | 2023-08-31T10:30:00Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [Koihik/LuaFormatter](https://github.com/Koihik/LuaFormatter) | 801 | 2023-08-25T16:37:49Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
@@ -454,7 +455,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gisbi-kim/FAST_LIO_SLAM](https://github.com/gisbi-kim/FAST_LIO_SLAM) | 758 | 2022-12-28T15:33:08Z | C/C++ | Unknown | 7 | 0 | 7 | 7 |
 | [MegEngine/InferLLM](https://github.com/MegEngine/InferLLM) | 752 | 2024-04-07T01:57:37Z | C/C++ | Framework | 3 | 0 | 3 | 3 |
 | [OAID/AutoKernel](https://github.com/OAID/AutoKernel) | 748 | 2022-09-23T03:32:36Z | C/C++ | Unknown | 10 | 0 | 10 | 10 |
-| [Robotics-STAR-Lab/RACER](https://github.com/Robotics-STAR-Lab/RACER) | 745 | 2024-11-19T06:07:39Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
+| [Robotics-STAR-Lab/RACER](https://github.com/Robotics-STAR-Lab/RACER) | 746 | 2024-11-19T06:07:39Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [libsndfile/libsamplerate](https://github.com/libsndfile/libsamplerate) | 724 | 2025-09-07T06:03:41Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [BlueBrain/HighFive](https://github.com/BlueBrain/HighFive) | 723 | 2025-01-09T09:29:48Z | C/C++ | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [paulftw/hiberlite](https://github.com/paulftw/hiberlite) | 722 | 2023-07-24T17:16:55Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -476,7 +477,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Livox-SDK/Livox-SDK](https://github.com/Livox-SDK/Livox-SDK) | 638 | 2024-12-17T13:20:09Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [danfis/libccd](https://github.com/danfis/libccd) | 636 | 2023-12-04T14:46:54Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [libbitcoin/libbitcoin-explorer](https://github.com/libbitcoin/libbitcoin-explorer) | 634 | 2024-03-01T22:16:22Z | C/C++ | CLI | 0 | 0 | 0 | 0 |
-| [unum-cloud/UStore](https://github.com/unum-cloud/UStore) | 631 | 2023-09-01T12:18:21Z | C/C++ | Infrastructure/tooling | 21 | 19 | 21 | 21 |
+| [unum-cloud/UStore](https://github.com/unum-cloud/UStore) | 631 | 2023-09-01T12:18:21Z | C/C++ | Infrastructure/tooling | 20 | 19 | 21 | 21 |
 | [twhui/LiteFlowNet](https://github.com/twhui/LiteFlowNet) | 629 | 2023-03-21T07:13:27Z | C/C++ | Unknown | 8 | 0 | 8 | 8 |
 | [YukihoAA/waifu2x_snowshell](https://github.com/YukihoAA/waifu2x_snowshell) | 627 | 2023-03-09T16:13:23Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [QwenLM/qwen.cpp](https://github.com/QwenLM/qwen.cpp) | 626 | 2024-12-06T08:32:28Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
@@ -596,6 +597,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [paullouisageneau/violet](https://github.com/paullouisageneau/violet) | 297 | 2025-06-11T12:07:00Z | C/C++ | Infrastructure/tooling | 11 | 1 | 11 | 11 |
 | [isovic/racon](https://github.com/isovic/racon) | 297 | 2024-05-09T20:22:05Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [andrewrk/libgroove](https://github.com/andrewrk/libgroove) | 295 | 2024-03-28T02:17:35Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [leleliu008/C-examples](https://github.com/leleliu008/C-examples) | 286 | 2025-07-29T10:59:13Z | C/C++ | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [dfguan/purge_dups](https://github.com/dfguan/purge_dups) | 284 | 2025-10-30T07:23:42Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [vislearn/dsacstar](https://github.com/vislearn/dsacstar) | 284 | 2025-03-11T08:30:30Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [chongyi-zheng/SMPLpp](https://github.com/chongyi-zheng/SMPLpp) | 283 | 2022-11-18T21:17:55Z | C/C++ | Model/data | 5 | 0 | 5 | 5 |

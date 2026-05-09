@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1929,
-    "concepts": 2228,
-    "observations": 2235,
+    "components": 1923,
+    "concepts": 2225,
+    "observations": 2232,
     "repos": 286,
-    "terms": 2232
+    "terms": 2229
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "6551Team/opennews-mcp",
@@ -168,7 +168,6 @@
     "llamastack/llama-stack",
     "LLaVA-VL/LLaVA-NeXT",
     "lmcinnes/umap",
-    "LorenEteval/Furious",
     "ltdrdata/ComfyUI-Impact-Pack",
     "m87-labs/moondream",
     "mbailey/voicemode",
@@ -222,6 +221,7 @@
     "opendatalab/labelU",
     "OpenRLHF/OpenRLHF",
     "openvinotoolkit/nncf",
+    "OptimalScale/LMFlow",
     "PaddlePaddle/PaddleX",
     "ParisNeo/lollms-webui",
     "patrick-kidger/diffrax",

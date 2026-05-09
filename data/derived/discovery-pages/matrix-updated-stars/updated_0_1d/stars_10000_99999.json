@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1101,
-    "concepts": 549,
-    "observations": 553,
-    "repos": 42,
-    "terms": 558
+    "components": 1263,
+    "concepts": 555,
+    "observations": 558,
+    "repos": 45,
+    "terms": 562
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "aden-hive/hive",
     "anthropics/claude-cookbooks",
@@ -25,17 +25,20 @@
     "gastownhall/beads",
     "gastownhall/gastown",
     "google-ai-edge/mediapipe",
+    "googleapis/google-api-nodejs-client",
     "grpc/grpc-java",
     "hiyouga/LlamaFactory",
     "huggingface/pytorch-image-models",
     "HumanSignal/label-studio",
     "jax-ml/jax",
     "jestjs/jest",
+    "langchain-ai/langchainjs",
     "Lightning-AI/pytorch-lightning",
     "lint-staged/lint-staged",
     "lobehub/lobehub",
     "mixmark-io/turndown",
     "moby/moby",
+    "modelscope/DiffSynth-Studio",
     "modelscope/ms-swift",
     "mudler/LocalAI",
     "mui/material-ui",
@@ -49,11 +52,11 @@
     "storybookjs/storybook",
     "swiftlang/swift",
     "triton-lang/triton",
+    "unocss/unocss",
     "upptime/upptime",
     "vbenjs/vue-vben-admin",
     "vercel-labs/skills",
     "verl-project/verl",
-    "weaviate/weaviate",
-    "zhayujie/CowAgent"
+    "weaviate/weaviate"
   ]
 }

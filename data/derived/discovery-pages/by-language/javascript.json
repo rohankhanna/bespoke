@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 39046,
-    "concepts": 8665,
-    "observations": 8691,
-    "repos": 2060,
-    "terms": 8659
+    "concepts": 8679,
+    "observations": 8705,
+    "repos": 2061,
+    "terms": 8671
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "javascript"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "0x4139/cosmos-discord-faucet",
     "0xPolygon/pilcom",
@@ -2032,6 +2032,7 @@
     "webtorrent/ut_metadata",
     "webtorrent/webtorrent",
     "webtorrent/webtorrent-cli",
+    "webview2/EdgeSharp.Samples",
     "welldone-software/why-did-you-render",
     "wemake-services/wemake-frontend-styleguide",
     "wenda-LLM/wenda",

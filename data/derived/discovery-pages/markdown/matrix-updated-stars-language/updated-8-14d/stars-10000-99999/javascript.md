@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-05-09T05:34:16.337725+00:00`
+Generated at: `2026-05-09T08:20:40.985131+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 30
-- terms: 248
-- components: 1694
-- concepts: 249
-- observations: 249
+- repos: 31
+- terms: 263
+- components: 1726
+- concepts: 264
+- observations: 264
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [faisalman/ua-parser-js](https://github.com/faisalman/ua-parser-js) | 10116 | 2026-05-02T05:44:24Z | JavaScript | CLI | 15 | 32 | 15 | 15 |
 | [addyosmani/critical](https://github.com/addyosmani/critical) | 10180 | 2026-05-02T00:58:33Z | JavaScript | Infrastructure/tooling | 7 | 52 | 7 | 7 |
 | [11ty/eleventy](https://github.com/11ty/eleventy) | 19615 | 2026-05-01T23:08:30Z | JavaScript | Infrastructure/tooling | 9 | 73 | 9 | 9 |
 | [sveltejs/svelte](https://github.com/sveltejs/svelte) | 86464 | 2026-05-01T21:58:47Z | JavaScript | Infrastructure/tooling | 6 | 28 | 6 | 6 |
@@ -91,3 +92,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [facebook/hermes](https://github.com/facebook/hermes) | 11013 | 2026-04-30T05:48:18Z | JavaScript | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [easydiffusion/easydiffusion](https://github.com/easydiffusion/easydiffusion) | 10351 | 2026-04-30T05:33:50Z | JavaScript | CLI | 3 | 1 | 3 | 3 |
 | [addyosmani/critical](https://github.com/addyosmani/critical) | 10180 | 2026-05-02T00:58:33Z | JavaScript | Infrastructure/tooling | 7 | 52 | 7 | 7 |
+| [faisalman/ua-parser-js](https://github.com/faisalman/ua-parser-js) | 10116 | 2026-05-02T05:44:24Z | JavaScript | CLI | 15 | 32 | 15 | 15 |

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2612,
-    "concepts": 1272,
-    "observations": 1277,
-    "repos": 107,
-    "terms": 1259
+    "components": 2397,
+    "concepts": 1197,
+    "observations": 1203,
+    "repos": 100,
+    "terms": 1183
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "4ian/GDevelop",
@@ -20,7 +20,6 @@
     "agentscope-ai/QwenPaw",
     "apache/brpc",
     "apache/casbin",
-    "apache/echarts",
     "astral-sh/ruff",
     "BabylonJS/Babylon.js",
     "brave/brave-browser",
@@ -29,7 +28,6 @@
     "CesiumGS/cesium",
     "cilium/cilium",
     "containers/podman",
-    "continuedev/continue",
     "crewAIInc/crewAI",
     "danny-avila/LibreChat",
     "datalab-to/marker",
@@ -45,7 +43,6 @@
     "eslint/eslint",
     "etcd-io/etcd",
     "exelban/stats",
-    "faisalman/ua-parser-js",
     "faker-js/faker",
     "flipped-aurora/gin-vue-admin",
     "ggml-org/ggml",
@@ -53,27 +50,23 @@
     "go-gitea/gitea",
     "google-deepmind/mujoco",
     "google/material-design-lite",
-    "googleapis/google-api-nodejs-client",
     "gorhill/uBlock",
     "great-expectations/great_expectations",
     "hagezi/dns-blocklists",
     "helm/helm",
     "huggingface/sentence-transformers",
     "isl-org/Open3D",
-    "istio/istio",
     "itzg/docker-minecraft-server",
     "JetBrains/compose-multiplatform",
     "jqlang/jq",
     "jrouwe/JoltPhysics",
     "Kludex/starlette",
     "kubernetes-sigs/kubespray",
-    "langchain-ai/langchainjs",
     "Loyalsoldier/v2ray-rules-dat",
     "ludwig-ai/ludwig",
     "maplibre/maplibre-gl-js",
     "MetaCubeX/mihomo",
     "mobxjs/mobx",
-    "modelscope/DiffSynth-Studio",
     "mozilla-ai/llamafile",
     "MudBlazor/MudBlazor",
     "nrwl/nx",
@@ -115,10 +108,10 @@
     "vitejs/vite",
     "vuejs/core",
     "vuejs/vitepress",
-    "withastro/astro",
     "wkentaro/labelme",
     "XTLS/Xray-core",
     "yokoffing/Betterfox",
-    "Z3Prover/z3"
+    "Z3Prover/z3",
+    "zhayujie/CowAgent"
   ]
 }

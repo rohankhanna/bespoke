@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 773,
-    "concepts": 571,
-    "observations": 573,
+    "components": 768,
+    "concepts": 561,
+    "observations": 563,
     "repos": 68,
-    "terms": 568
+    "terms": 558
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "64bit/async-openai",
     "AccessKit/accesskit",
     "actix/examples",
-    "apache/casbin-rs",
     "apache/iceberg-rust",
     "askama-rs/askama",
     "aws-cloudformation/cloudformation-guard",
@@ -68,6 +67,7 @@
     "Rust-GPU/rust-gpu",
     "rust-lang/libc",
     "rust-lang/rustfmt",
+    "rust-lang/rustup",
     "rust-openssl/rust-openssl",
     "RustAudio/cpal",
     "RustAudio/rodio",

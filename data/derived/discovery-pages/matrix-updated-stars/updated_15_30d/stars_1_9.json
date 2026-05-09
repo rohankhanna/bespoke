@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2519,
-    "concepts": 1045,
-    "observations": 1045,
-    "repos": 308,
-    "terms": 1075
+    "components": 2498,
+    "concepts": 1041,
+    "observations": 1041,
+    "repos": 307,
+    "terms": 1071
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman-js",
     "0xPolygonHermez/stark-recurser",
@@ -179,7 +179,6 @@
     "graveyardsfocrdpktv/ethereum-mempool-bot",
     "gusztavvargadr/aws-vault-chocolatey",
     "h5wasm/h5wasm-plugins",
-    "hchiam/code-inspiration",
     "hchiam/hchiam.github.io",
     "hchiam/how-draggable",
     "helix-toolkit/helix-toolkit.github.io",
@@ -212,7 +211,6 @@
     "kmjjjj/polymarket-arbitrage-bot-btc-sol-15m",
     "knopp/native_toolchain_ninja",
     "KnotUntied/scoop-fonts",
-    "konnov/apalache-examples",
     "konsoletyper/teavm-site",
     "ksylvan/fabric",
     "kubernetes-sigs/provider-ibmcloud-test-infra",
@@ -248,6 +246,7 @@
     "openwebdocs/mdn-bcd-results",
     "penpoen/llm-sugarscape",
     "petmal/mindtrial",
+    "php-toolkit/stdlib",
     "piebald-ai/piebald-issues",
     "piqrypt/aiss-standard",
     "piqrypt/piqrypt",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1563,
-    "concepts": 1481,
-    "observations": 1487,
-    "repos": 289,
-    "terms": 1487
+    "concepts": 1500,
+    "observations": 1506,
+    "repos": 290,
+    "terms": 1506
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
@@ -95,6 +95,7 @@
     "cswry/SeeSR",
     "cubed-dev/cubed",
     "CUNY-CL/wikipron",
+    "CVHub520/X-AnyLabeling-Server",
     "daaain/claude-code-log",
     "daniandtheweb/sd.cpp-webui",
     "danny-avila/rag_api",

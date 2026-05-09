@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 236,
-    "concepts": 125,
-    "observations": 128,
+    "components": 234,
+    "concepts": 134,
+    "observations": 137,
     "repos": 28,
-    "terms": 124
+    "terms": 133
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "ameshkov/swift-psl",
     "bladeacer/flexcyon",
     "countries/countries-data-json",
     "CuatroElixir/spear",
     "cucumber/cucumber-js-examples",
-    "davidanthoff/Electron.jl",
     "dinosaure/blaze",
     "FactoryXCode/MfPack",
     "haskell/ghcup-metadata",
@@ -29,6 +28,7 @@
     "JuliaGeo/GeometryOps.jl",
     "JuliaSparse/SparseArrays.jl",
     "ludwig-ai/ludwig-docs",
+    "lumen-oss/luarocks-tag-release",
     "lumen-oss/nurr",
     "melpa/package-build",
     "mit-plv/coqutil",

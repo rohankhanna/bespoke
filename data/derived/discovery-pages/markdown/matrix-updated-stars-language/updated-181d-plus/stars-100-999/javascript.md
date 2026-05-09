@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-09T05:34:16.337725+00:00`
+Generated at: `2026-05-09T08:20:40.985131+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,7 +13,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 365
-- terms: 1040
+- terms: 1039
 - components: 4629
 - concepts: 1052
 - observations: 1052
@@ -92,7 +92,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [smartscenes/sstk](https://github.com/smartscenes/sstk) | 128 | 2024-12-09T19:17:26Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
 | [A11yance/aria-query](https://github.com/A11yance/aria-query) | 302 | 2024-12-06T16:37:20Z | JavaScript | Infrastructure/tooling | 3 | 25 | 3 | 3 |
 | [CSSLint/parser-lib](https://github.com/CSSLint/parser-lib) | 294 | 2024-12-05T14:12:21Z | JavaScript | Unknown | 5 | 9 | 5 | 5 |
-| [ttlns/brotector](https://github.com/ttlns/brotector) | 278 | 2024-12-03T14:33:39Z | JavaScript | Web app | 4 | 5 | 4 | 4 |
+| [ttlns/brotector](https://github.com/ttlns/brotector) | 277 | 2024-12-03T14:33:39Z | JavaScript | Web app | 4 | 5 | 4 | 4 |
 | [Level/level-js](https://github.com/Level/level-js) | 541 | 2024-12-02T01:10:07Z | JavaScript | Infrastructure/tooling | 7 | 19 | 7 | 7 |
 | [level/memdown](https://github.com/Level/memdown) | 287 | 2024-12-02T00:32:04Z | JavaScript | Infrastructure/tooling | 9 | 19 | 9 | 9 |
 | [Level/abstract-leveldown](https://github.com/Level/abstract-leveldown) | 146 | 2024-12-01T22:49:05Z | JavaScript | Infrastructure/tooling | 7 | 18 | 7 | 7 |
@@ -185,7 +185,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [postcss/gulp-postcss](https://github.com/postcss/gulp-postcss) | 764 | 2024-02-06T10:48:07Z | JavaScript | Infrastructure/tooling | 3 | 15 | 3 | 3 |
 | [d3/d3-color](https://github.com/d3/d3-color) | 428 | 2024-02-03T19:16:02Z | JavaScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [agenda/human-interval](https://github.com/agenda/human-interval) | 467 | 2024-01-24T20:01:45Z | JavaScript | Unknown | 5 | 3 | 5 | 5 |
-| [ajv-validator/ajv-i18n](https://github.com/ajv-validator/ajv-i18n) | 179 | 2024-01-19T17:37:50Z | JavaScript | Infrastructure/tooling | 6 | 16 | 6 | 6 |
+| [ajv-validator/ajv-i18n](https://github.com/ajv-validator/ajv-i18n) | 179 | 2024-01-19T17:37:50Z | JavaScript | Infrastructure/tooling | 5 | 16 | 6 | 6 |
 | [fireship-io/javascript-millionaire](https://github.com/fireship-io/javascript-millionaire) | 264 | 2024-01-17T02:17:30Z | JavaScript | CLI | 0 | 6 | 0 | 0 |
 | [d3/d3-dsv](https://github.com/d3/d3-dsv) | 445 | 2024-01-05T20:33:36Z | JavaScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [nijikokun/minami](https://github.com/nijikokun/minami) | 577 | 2024-01-05T10:03:27Z | JavaScript | Template/starter | 0 | 0 | 0 | 0 |
@@ -599,7 +599,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [axeldelafosse/expo-next-monorepo-example](https://github.com/axeldelafosse/expo-next-monorepo-example) | 286 | 2022-04-04T22:31:31Z | JavaScript | Unknown | 6 | 1 | 6 | 6 |
 | [ramasilveyra/gitpkg](https://github.com/ramasilveyra/gitpkg) | 285 | 2023-01-08T20:20:22Z | JavaScript | Library | 4 | 29 | 4 | 4 |
 | [jonschlinkert/is-number](https://github.com/jonschlinkert/is-number) | 282 | 2022-09-15T14:46:56Z | JavaScript | Unknown | 10 | 4 | 10 | 10 |
-| [ttlns/brotector](https://github.com/ttlns/brotector) | 278 | 2024-12-03T14:33:39Z | JavaScript | Web app | 4 | 5 | 4 | 4 |
+| [ttlns/brotector](https://github.com/ttlns/brotector) | 277 | 2024-12-03T14:33:39Z | JavaScript | Web app | 4 | 5 | 4 | 4 |
 | [novnc/websockify-js](https://github.com/novnc/websockify-js) | 274 | 2023-07-30T07:06:04Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [JunoLab/atom-julia-client](https://github.com/JunoLab/atom-julia-client) | 271 | 2023-05-28T13:04:16Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
 | [numirias/paxmod](https://github.com/numirias/paxmod) | 268 | 2023-05-05T08:07:04Z | JavaScript | Infrastructure/tooling | 9 | 1 | 9 | 9 |
@@ -665,7 +665,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gulpjs/glob-stream](https://github.com/gulpjs/glob-stream) | 181 | 2025-06-01T05:04:15Z | JavaScript | Infrastructure/tooling | 10 | 21 | 10 | 10 |
 | [ember-cli/ember-try](https://github.com/ember-cli/ember-try) | 180 | 2025-04-09T03:33:36Z | JavaScript | CLI | 2 | 35 | 2 | 2 |
 | [newrelic/opensource-website](https://github.com/newrelic/opensource-website) | 180 | 2024-09-11T23:39:34Z | JavaScript | Infrastructure/tooling | 4 | 60 | 4 | 4 |
-| [ajv-validator/ajv-i18n](https://github.com/ajv-validator/ajv-i18n) | 179 | 2024-01-19T17:37:50Z | JavaScript | Infrastructure/tooling | 6 | 16 | 6 | 6 |
+| [ajv-validator/ajv-i18n](https://github.com/ajv-validator/ajv-i18n) | 179 | 2024-01-19T17:37:50Z | JavaScript | Infrastructure/tooling | 5 | 16 | 6 | 6 |
 | [mzgoddard/preact-render-spy](https://github.com/mzgoddard/preact-render-spy) | 178 | 2023-01-12T09:51:40Z | JavaScript | Unknown | 4 | 16 | 4 | 4 |
 | [denysdovhan/robbyrussell-node](https://github.com/denysdovhan/robbyrussell-node) | 177 | 2022-04-24T16:37:28Z | JavaScript | Unknown | 4 | 9 | 4 | 4 |
 | [paulirish/devtools-timeline-model](https://github.com/paulirish/devtools-timeline-model) | 176 | 2022-11-02T10:27:41Z | JavaScript | Unknown | 0 | 6 | 0 | 0 |

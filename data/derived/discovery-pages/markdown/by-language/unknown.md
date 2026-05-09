@@ -1,6 +1,6 @@
 # Unknown
 
-Generated at: `2026-05-09T05:34:16.337725+00:00`
+Generated at: `2026-05-09T08:20:40.985131+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-05-09T05:34:16.337725+00:00`
 
 ## Counts
 
-- repos: 1638
-- terms: 2897
-- components: 1581
-- concepts: 2893
-- observations: 2897
+- repos: 1639
+- terms: 2904
+- components: 1585
+- concepts: 2900
+- observations: 2904
 
 ## Static behavior
 
@@ -842,6 +842,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [KSXGitHub/parallel-disk-usage-0.20.0-benchmarks](https://github.com/KSXGitHub/parallel-disk-usage-0.20.0-benchmarks) | 0 | 2025-07-26T10:50:06Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [datafuse-extras/serde-env](https://github.com/datafuse-extras/serde-env) | 0 | 2025-07-25T21:30:19Z | Unknown | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [heliconialabs/steampunkification](https://github.com/heliconialabs/steampunkification) | 40 | 2025-07-24T13:23:16Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [leleliu008/ppkg-package-manually-build](https://github.com/leleliu008/ppkg-package-manually-build) | 2 | 2025-07-24T09:30:30Z | Unknown | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [danielrosehill/N8N-Workflow-Sanitiser-Agent](https://github.com/danielrosehill/N8N-Workflow-Sanitiser-Agent) | 0 | 2025-07-22T11:57:52Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [SIGRobotics-UIUC/LeKiwi](https://github.com/SIGRobotics-UIUC/LeKiwi) | 1263 | 2025-07-15T19:07:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [asomoza/image_gen_aux](https://github.com/asomoza/image_gen_aux) | 6 | 2025-07-15T15:00:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -2891,6 +2892,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [radian-software/contributor-guide](https://github.com/radian-software/contributor-guide) | 2 | 2025-11-08T18:54:36Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [travis-infrastructure/packer-build](https://github.com/travis-infrastructure/packer-build) | 2 | 2025-10-15T13:56:32Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
 | [foldl/little-academia](https://github.com/foldl/little-academia) | 2 | 2025-08-31T13:01:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [leleliu008/ppkg-package-manually-build](https://github.com/leleliu008/ppkg-package-manually-build) | 2 | 2025-07-24T09:30:30Z | Unknown | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [podman-desktop/community](https://github.com/podman-desktop/community) | 2 | 2025-06-27T14:40:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [layr-labs/avs-vibe-developer-guide](https://github.com/Layr-Labs/avs-vibe-developer-guide) | 2 | 2025-04-22T19:19:06Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [viperproject/axiom-profiler-2](https://github.com/viperproject/axiom-profiler-2) | 2 | 2025-02-14T00:06:34Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

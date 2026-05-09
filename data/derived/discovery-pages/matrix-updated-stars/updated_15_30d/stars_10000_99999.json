@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 14797,
-    "concepts": 5890,
-    "observations": 5917,
-    "repos": 608,
-    "terms": 5903
+    "components": 14819,
+    "concepts": 5902,
+    "observations": 5929,
+    "repos": 609,
+    "terms": 5914
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -320,6 +320,7 @@
     "jashkenas/backbone",
     "jashkenas/underscore",
     "jasmine/jasmine",
+    "jaywcjlove/linux-command",
     "jdx/mise",
     "jedisct1/libsodium",
     "jekyll/jekyll",

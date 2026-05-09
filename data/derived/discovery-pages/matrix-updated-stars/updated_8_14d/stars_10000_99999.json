@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 8116,
-    "concepts": 3911,
-    "observations": 3919,
-    "repos": 346,
-    "terms": 3892
+    "components": 8169,
+    "concepts": 3980,
+    "observations": 3988,
+    "repos": 350,
+    "terms": 3961
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "a-h/templ",
@@ -33,6 +33,7 @@
     "ant-design/ant-design",
     "apache/apisix",
     "apache/dubbo",
+    "apache/echarts",
     "apache/kafka",
     "apache/pulsar",
     "apache/rocketmq",
@@ -83,6 +84,7 @@
     "coil-kt/coil",
     "colinhacks/zod",
     "colmap/colmap",
+    "continuedev/continue",
     "coollabsio/coolify",
     "coturn/coturn",
     "crystal-lang/crystal",
@@ -113,6 +115,7 @@
     "facebook/flow",
     "facebook/hermes",
     "facefusion/facefusion",
+    "faisalman/ua-parser-js",
     "fastapi/typer",
     "FFmpeg/FFmpeg",
     "firecracker-microvm/firecracker",
@@ -162,6 +165,7 @@
     "invoke-ai/InvokeAI",
     "iovisor/bcc",
     "ipfs/kubo",
+    "istio/istio",
     "janhq/jan",
     "jellyfin/jellyfin",
     "jemalloc/jemalloc",
@@ -338,7 +342,6 @@
     "ultralytics/yolov5",
     "unclecode/crawl4ai",
     "Unitech/pm2",
-    "unocss/unocss",
     "v2fly/v2ray-core",
     "v8/v8",
     "vectordotdev/vector",
@@ -355,6 +358,7 @@
     "wezterm/wezterm",
     "windingwind/zotero-pdf-translate",
     "winsiderss/systeminformer",
+    "withastro/astro",
     "wix/Detox",
     "xmake-io/xmake",
     "yhirose/cpp-httplib",

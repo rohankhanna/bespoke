@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars
 
-Generated at: `2026-05-09T05:34:16.337725+00:00`
+Generated at: `2026-05-09T08:20:40.985131+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 1297
-- terms: 1791
-- components: 5208
-- concepts: 1796
-- observations: 1798
+- repos: 1299
+- terms: 1804
+- components: 5216
+- concepts: 1809
+- observations: 1811
 
 ## Static behavior
 
@@ -174,6 +174,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [IdreesInc/IdreesInc](https://github.com/IdreesInc/IdreesInc) | 1 | 2025-07-26T17:27:52Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [CREAsTIVE/LSP-rustowl](https://github.com/CREAsTIVE/LSP-rustowl) | 2 | 2025-07-24T23:51:53Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [mdigger/htmlx](https://github.com/mdigger/htmlx) | 1 | 2025-07-24T12:11:28Z | Go | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [leleliu008/ppkg-package-manually-build](https://github.com/leleliu008/ppkg-package-manually-build) | 2 | 2025-07-24T09:30:30Z | Unknown | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [CrackAndDie/Hypocrite.Services](https://github.com/CrackAndDie/Hypocrite.Services) | 7 | 2025-07-17T11:55:04Z | Other | Unknown | 8 | 0 | 8 | 8 |
 | [PragTob/elixir_playground](https://github.com/PragTob/elixir_playground) | 2 | 2025-07-17T06:48:18Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [tob-challenges/example-libpng](https://github.com/tob-challenges/example-libpng) | 1 | 2025-07-16T18:44:08Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -281,6 +282,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nice-mee/WindowsAgentArena](https://github.com/nice-mee/WindowsAgentArena) | 1 | 2025-04-22T10:31:23Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [lakim/spring-commands-standard](https://github.com/lakim/spring-commands-standard) | 1 | 2025-04-20T15:01:39Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [akavel/rumbac](https://github.com/akavel/rumbac) | 3 | 2025-04-20T11:23:53Z | Rust | Unknown | 7 | 0 | 7 | 7 |
+| [php-toolkit/sys-utils](https://github.com/php-toolkit/sys-utils) | 3 | 2025-04-19T14:29:05Z | Other | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [agentsea/mllm](https://github.com/agentsea/mllm) | 2 | 2025-04-18T20:35:48Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [agentsea/threadmem](https://github.com/agentsea/threadmem) | 3 | 2025-04-18T20:33:39Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [Chovin/Litghtsaber](https://github.com/Chovin/Litghtsaber) | 2 | 2025-04-18T06:55:06Z | Other | Unknown | 0 | 3 | 0 | 0 |
@@ -2046,6 +2048,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [abcjjy/godot-sqlcipher](https://github.com/abcjjy/godot-sqlcipher) | 3 | 2025-04-23T11:40:18Z | Unknown | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [dotnet/android-api-docs](https://github.com/dotnet/android-api-docs) | 3 | 2025-04-23T05:15:10Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [akavel/rumbac](https://github.com/akavel/rumbac) | 3 | 2025-04-20T11:23:53Z | Rust | Unknown | 7 | 0 | 7 | 7 |
+| [php-toolkit/sys-utils](https://github.com/php-toolkit/sys-utils) | 3 | 2025-04-19T14:29:05Z | Other | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [agentsea/threadmem](https://github.com/agentsea/threadmem) | 3 | 2025-04-18T20:33:39Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [a-n-t-h-o-n-y/zzz](https://github.com/a-n-t-h-o-n-y/zzz) | 3 | 2025-04-13T04:52:17Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [hungran/hyper-mcp-hackernews-tool](https://github.com/hungran/hyper-mcp-hackernews-tool) | 3 | 2025-04-12T13:30:53Z | Go | Infrastructure/tooling | 1 | 6 | 1 | 1 |
@@ -2193,6 +2196,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ptsochantaris/lista](https://github.com/ptsochantaris/lista) | 2 | 2025-08-23T08:29:04Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [datachainlab/besu-ibc-relay-prover](https://github.com/datachainlab/besu-ibc-relay-prover) | 2 | 2025-08-04T00:12:06Z | Go | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [CREAsTIVE/LSP-rustowl](https://github.com/CREAsTIVE/LSP-rustowl) | 2 | 2025-07-24T23:51:53Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [leleliu008/ppkg-package-manually-build](https://github.com/leleliu008/ppkg-package-manually-build) | 2 | 2025-07-24T09:30:30Z | Unknown | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [PragTob/elixir_playground](https://github.com/PragTob/elixir_playground) | 2 | 2025-07-17T06:48:18Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [haskell/ghcup-docker](https://github.com/haskell/ghcup-docker) | 2 | 2025-07-15T10:58:18Z | Other | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [kaorahi/visual_MCTS](https://github.com/kaorahi/visual_MCTS) | 2 | 2025-07-06T11:36:23Z | Other | Unknown | 0 | 0 | 0 | 0 |

@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100,000 to 999,999 stars · Python
 
-Generated at: `2026-05-09T05:34:16.337725+00:00`
+Generated at: `2026-05-09T08:20:40.985131+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,14 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 111999 | 2026-05-09T02:07:31Z | Python | Infrastructure/tooling | 11 | 7 | 11 | 11 |
-| [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 147869 | 2026-05-09T01:55:29Z | Python | Infrastructure/tooling | 11 | 17 | 11 | 11 |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 112055 | 2026-05-09T06:48:28Z | Python | Infrastructure/tooling | 11 | 7 | 11 | 11 |
+| [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 147875 | 2026-05-09T05:11:17Z | Python | Infrastructure/tooling | 11 | 17 | 11 | 11 |
 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 136175 | 2026-05-08T23:44:34Z | Python | Infrastructure/tooling | 20 | 15 | 20 | 20 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 147869 | 2026-05-09T01:55:29Z | Python | Infrastructure/tooling | 11 | 17 | 11 | 11 |
+| [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 147875 | 2026-05-09T05:11:17Z | Python | Infrastructure/tooling | 11 | 17 | 11 | 11 |
 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 136175 | 2026-05-08T23:44:34Z | Python | Infrastructure/tooling | 20 | 15 | 20 | 20 |
-| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 111999 | 2026-05-09T02:07:31Z | Python | Infrastructure/tooling | 11 | 7 | 11 | 11 |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 112055 | 2026-05-09T06:48:28Z | Python | Infrastructure/tooling | 11 | 7 | 11 | 11 |

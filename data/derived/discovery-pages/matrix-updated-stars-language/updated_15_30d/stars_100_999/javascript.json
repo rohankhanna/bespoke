@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2177,
-    "concepts": 495,
-    "observations": 502,
-    "repos": 97,
-    "terms": 516
+    "components": 2136,
+    "concepts": 493,
+    "observations": 500,
+    "repos": 95,
+    "terms": 514
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "actions/create-github-app-token",
@@ -87,7 +87,6 @@
     "observablehq/stdlib",
     "octokit/request-action",
     "OffchainLabs/arbitrum-docs",
-    "photopea/UZIP.js",
     "plone/volto",
     "poolifier/poolifier",
     "postcss/postcss-js",
@@ -109,7 +108,6 @@
     "unicode-org/message-format-wg",
     "w3c/trusted-types",
     "webpack/css-minimizer-webpack-plugin",
-    "will62794/spectacle",
-    "zone-eu/zone-mta"
+    "will62794/spectacle"
   ]
 }

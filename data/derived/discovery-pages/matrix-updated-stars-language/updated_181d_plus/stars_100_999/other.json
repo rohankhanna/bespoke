@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2082,
-    "concepts": 2870,
-    "observations": 2877,
-    "repos": 914,
-    "terms": 2856
+    "components": 2086,
+    "concepts": 2874,
+    "observations": 2881,
+    "repos": 915,
+    "terms": 2860
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -618,6 +618,7 @@
     "Mon-Ouie/pry-remote",
     "monitoring-mixins/docs",
     "mono/sdb",
+    "MoyuruAizawa/Cropify",
     "mozilla/http-observatory-website",
     "mpickering/apply-refact",
     "msharp/elixir-statistics",

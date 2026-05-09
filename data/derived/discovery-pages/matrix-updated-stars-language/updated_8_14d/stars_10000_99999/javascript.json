@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1694,
-    "concepts": 249,
-    "observations": 249,
-    "repos": 30,
-    "terms": 248
+    "components": 1726,
+    "concepts": 264,
+    "observations": 264,
+    "repos": 31,
+    "terms": 263
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "acornjs/acorn",
@@ -21,6 +21,7 @@
     "Automattic/mongoose",
     "easydiffusion/easydiffusion",
     "facebook/hermes",
+    "faisalman/ua-parser-js",
     "gatsbyjs/gatsby",
     "GoogleChrome/lighthouse",
     "http-party/node-http-proxy",

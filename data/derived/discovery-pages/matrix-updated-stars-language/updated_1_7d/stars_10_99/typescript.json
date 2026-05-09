@@ -3,7 +3,7 @@
     "components": 282,
     "concepts": 74,
     "observations": 74,
-    "repos": 12,
+    "repos": 11,
     "terms": 74
   },
   "facet_version": 1,
@@ -12,14 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "carbon-design-system/carbon-preprocess-svelte",
     "csm-actions/approve-pr-action",
     "csm-actions/securefix-action",
     "GoogleCloudPlatform/opentelemetry-demo",
     "ibm-telemetry/telemetry-js",
-    "iconify/iconify-tailwind",
     "julia-actions/install-juliaup",
     "maplibre/maplibre-gl-inspect",
     "nuxt-modules/emotion",

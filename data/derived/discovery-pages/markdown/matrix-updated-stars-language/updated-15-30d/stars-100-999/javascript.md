@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-09T05:34:16.337725+00:00`
+Generated at: `2026-05-09T08:20:40.985131+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 97
-- terms: 516
-- components: 2177
-- concepts: 495
-- observations: 502
+- repos: 95
+- terms: 514
+- components: 2136
+- concepts: 493
+- observations: 500
 
 ## Static behavior
 
@@ -121,8 +121,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [previm/previm](https://github.com/previm/previm) | 828 | 2026-04-09T17:32:12Z | JavaScript | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [jimmywarting/native-file-system-adapter](https://github.com/jimmywarting/native-file-system-adapter) | 590 | 2026-04-09T15:18:36Z | JavaScript | Infrastructure/tooling | 1 | 11 | 1 | 1 |
 | [muratcankoylan/ralph-wiggum-marketer](https://github.com/muratcankoylan/ralph-wiggum-marketer) | 721 | 2026-04-09T14:00:57Z | JavaScript | Unknown | 0 | 1 | 0 | 0 |
-| [zone-eu/zone-mta](https://github.com/zone-eu/zone-mta) | 659 | 2026-04-09T07:58:57Z | JavaScript | Infrastructure/tooling | 2 | 41 | 2 | 2 |
-| [photopea/UZIP.js](https://github.com/photopea/UZIP.js) | 216 | 2026-04-09T07:14:40Z | JavaScript | Library | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -153,7 +151,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [postcss/postcss-js](https://github.com/postcss/postcss-js) | 669 | 2026-04-21T15:52:22Z | JavaScript | Infrastructure/tooling | 2 | 12 | 2 | 2 |
 | [Mathpix/mathpix-markdown-it](https://github.com/Mathpix/mathpix-markdown-it) | 665 | 2026-04-24T17:16:17Z | JavaScript | Unknown | 0 | 53 | 0 | 0 |
 | [postcss/postcss-load-config](https://github.com/postcss/postcss-load-config) | 665 | 2026-04-24T16:17:02Z | JavaScript | Infrastructure/tooling | 1 | 27 | 1 | 1 |
-| [zone-eu/zone-mta](https://github.com/zone-eu/zone-mta) | 659 | 2026-04-09T07:58:57Z | JavaScript | Infrastructure/tooling | 2 | 41 | 2 | 2 |
 | [w3c/trusted-types](https://github.com/w3c/trusted-types) | 656 | 2026-04-15T21:38:20Z | JavaScript | Infrastructure/tooling | 4 | 28 | 4 | 4 |
 | [kriszyp/lmdb-js](https://github.com/kriszyp/lmdb-js) | 653 | 2026-04-16T17:41:10Z | JavaScript | Infrastructure/tooling | 13 | 29 | 13 | 13 |
 | [gatsbyjs/gatsby-starter-hello-world](https://github.com/gatsbyjs/gatsby-starter-hello-world) | 645 | 2026-04-14T15:04:56Z | JavaScript | Template/starter | 0 | 3 | 0 | 0 |
@@ -199,7 +196,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [CVEProject/cve-services](https://github.com/CVEProject/cve-services) | 238 | 2026-04-23T20:09:33Z | JavaScript | Infrastructure/tooling | 6 | 61 | 6 | 7 |
 | [evenchange4/graphql.macro](https://github.com/evenchange4/graphql.macro) | 238 | 2026-04-23T01:50:46Z | JavaScript | Web app | 2 | 16 | 2 | 2 |
 | [AdguardTeam/HostlistCompiler](https://github.com/AdguardTeam/HostlistCompiler) | 223 | 2026-04-16T16:42:00Z | JavaScript | Unknown | 3 | 17 | 3 | 3 |
-| [photopea/UZIP.js](https://github.com/photopea/UZIP.js) | 216 | 2026-04-09T07:14:40Z | JavaScript | Library | 0 | 0 | 0 | 0 |
 | [gruntjs/grunt-contrib-qunit](https://github.com/gruntjs/grunt-contrib-qunit) | 215 | 2026-04-16T06:44:34Z | JavaScript | Infrastructure/tooling | 2 | 12 | 2 | 2 |
 | [devsnek/esvu](https://github.com/devsnek/esvu) | 201 | 2026-04-13T08:21:07Z | JavaScript | Infrastructure/tooling | 3 | 19 | 3 | 3 |
 | [will62794/spectacle](https://github.com/will62794/spectacle) | 201 | 2026-04-11T01:20:37Z | JavaScript | Infrastructure/tooling | 7 | 60 | 7 | 7 |

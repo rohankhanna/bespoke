@@ -3,7 +3,7 @@
     "components": 2021,
     "concepts": 1029,
     "observations": 1035,
-    "repos": 411,
+    "repos": 410,
     "terms": 1037
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "1ilkhamov/opencode-hermes-multiagent",
@@ -396,7 +396,6 @@
     "travis-ci/travis-scheduler",
     "triton-inference-server/tensorflow_backend",
     "urfave/cli-altsrc",
-    "VectorSpaceLab/Vis-IR",
     "vega/schema",
     "viafintech/gcra-ruby",
     "viperproject/smt-scope",

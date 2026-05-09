@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1608,
-    "concepts": 1389,
-    "observations": 1402,
-    "repos": 171,
-    "terms": 1381
+    "concepts": 1395,
+    "observations": 1408,
+    "repos": 172,
+    "terms": 1387
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
+    "aaaaalexis/obsidian-baseline",
     "aaubry/YamlDotNet",
     "abapGit/abapGit",
     "activeadmin/activeadmin",

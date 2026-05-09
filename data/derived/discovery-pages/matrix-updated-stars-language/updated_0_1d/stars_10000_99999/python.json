@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 145,
-    "concepts": 194,
-    "observations": 196,
+    "components": 140,
+    "concepts": 180,
+    "observations": 181,
     "repos": 15,
-    "terms": 194
+    "terms": 180
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "aden-hive/hive",
     "axolotl-ai-cloud/axolotl",
@@ -23,11 +23,11 @@
     "huggingface/pytorch-image-models",
     "jax-ml/jax",
     "Lightning-AI/pytorch-lightning",
+    "modelscope/DiffSynth-Studio",
     "modelscope/ms-swift",
     "NVIDIA-NeMo/NeMo",
     "OpenHands/OpenHands",
     "run-llama/llama_index",
-    "verl-project/verl",
-    "zhayujie/CowAgent"
+    "verl-project/verl"
   ]
 }

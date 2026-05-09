@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5208,
-    "concepts": 1796,
-    "observations": 1798,
-    "repos": 1297,
-    "terms": 1791
+    "components": 5216,
+    "concepts": 1809,
+    "observations": 1811,
+    "repos": 1299,
+    "terms": 1804
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -863,6 +863,7 @@
     "ldclabs/anda-app",
     "lefou/lambdatest",
     "leizhao1234/cogvlm2",
+    "leleliu008/ppkg-package-manually-build",
     "lemonatsu/pytorch-msssim",
     "lesismal/arpcex",
     "level/browserify-starter",
@@ -1045,6 +1046,7 @@
     "philips-labs/about-this-organization",
     "philips-labs/dangerous-dave",
     "phlegx/money-openexchangerates-bank",
+    "php-toolkit/sys-utils",
     "phuslu/log-contrib",
     "phymhan/taming-transformers",
     "Piebald-AI/muda",

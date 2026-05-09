@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 771,
-    "concepts": 415,
-    "observations": 419,
-    "repos": 79,
-    "terms": 411
+    "components": 759,
+    "concepts": 417,
+    "observations": 421,
+    "repos": 78,
+    "terms": 413
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "aidenlab/juicebox.js",
     "alloy-rs/evm",
@@ -20,7 +20,6 @@
     "apache/doris-opentelemetry-demo",
     "bladeacer/flexcyon",
     "bmwiedemann/openSUSE",
-    "boozook/mdbook-svgbob",
     "carbon-design-system/carbon-preprocess-svelte",
     "cbuijs/hagezi",
     "Chocolate4U/Iran-clash-rules",
@@ -32,7 +31,6 @@
     "csm-actions/securefix-action",
     "CuatroElixir/spear",
     "cucumber/cucumber-js-examples",
-    "davidanthoff/Electron.jl",
     "dinosaure/blaze",
     "dora-rs/dora-hub",
     "erigontech/mdbx-go",
@@ -51,15 +49,16 @@
     "Hiroshiba/voicevox_engine",
     "ibm-telemetry/telemetry-js",
     "IBM/hello-carbon-vue3",
-    "iconify/iconify-tailwind",
     "influxdata/datafusion-udf-wasm",
     "intel-staging/text-generation-webui",
+    "jcefmaven/jcefsampleapp",
     "julia-actions/install-juliaup",
     "JuliaGeo/GeometryOps.jl",
     "JuliaSparse/SparseArrays.jl",
     "kurrent-io/KurrentDB-Client-Rust",
     "leleliu008/ppkg",
     "ludwig-ai/ludwig-docs",
+    "lumen-oss/luarocks-tag-release",
     "lumen-oss/nurr",
     "maplibre/maplibre-gl-inspect",
     "melpa/package-build",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4876,
-    "concepts": 961,
-    "observations": 963,
-    "repos": 106,
-    "terms": 956
+    "components": 4903,
+    "concepts": 967,
+    "observations": 969,
+    "repos": 107,
+    "terms": 962
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "acacode/swagger-typescript-api",
     "AdguardTeam/AdguardBrowserExtension",
@@ -114,6 +114,7 @@
     "Urigo/graphql-cli",
     "valtyr/prisma-kysely",
     "VOICEVOX/voicevox",
+    "vuejs/babel-plugin-jsx",
     "web-infra-dev/rsbuild",
     "web-infra-dev/rsdoctor",
     "web-infra-dev/rspress",

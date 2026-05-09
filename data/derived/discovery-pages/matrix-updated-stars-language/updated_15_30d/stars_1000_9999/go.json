@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1595,
-    "concepts": 1491,
-    "observations": 1497,
+    "components": 1605,
+    "concepts": 1500,
+    "observations": 1506,
     "repos": 182,
-    "terms": 1495
+    "terms": 1504
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -165,6 +165,7 @@
     "ory/dockertest",
     "osrg/gobgp",
     "peco/peco",
+    "prometheus-community/windows_exporter",
     "prometheus-operator/prometheus-operator",
     "prometheus/blackbox_exporter",
     "prometheus/client_golang",
@@ -180,7 +181,6 @@
     "sigstore/rekor",
     "SpecterOps/BloodHound",
     "StackExchange/dnscontrol",
-    "stripe/smokescreen",
     "stripe/stripe-go",
     "tendermint/tendermint",
     "tensorchord/envd",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 189,
-    "concepts": 218,
-    "observations": 218,
+    "components": 194,
+    "concepts": 232,
+    "observations": 233,
     "repos": 19,
-    "terms": 218
+    "terms": 231
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "agentscope-ai/QwenPaw",
     "crewAIInc/crewAI",
@@ -24,7 +24,6 @@
     "Kludex/starlette",
     "ludwig-ai/ludwig",
     "MetaCubeX/mihomo",
-    "modelscope/DiffSynth-Studio",
     "oobabooga/textgen",
     "PDFMathTranslate/PDFMathTranslate",
     "pydantic/pydantic",
@@ -32,6 +31,7 @@
     "StevenBlack/hosts",
     "triton-inference-server/server",
     "ungoogled-software/ungoogled-chromium",
-    "wkentaro/labelme"
+    "wkentaro/labelme",
+    "zhayujie/CowAgent"
   ]
 }

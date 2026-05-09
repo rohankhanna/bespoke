@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 148,
-    "concepts": 171,
-    "observations": 173,
-    "repos": 20,
-    "terms": 170
+    "components": 157,
+    "concepts": 177,
+    "observations": 179,
+    "repos": 21,
+    "terms": 176
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "AI-Hypercomputer/maxtext",
+    "aigc-apps/VideoX-Fun",
     "arcee-ai/mergekit",
     "aws/serverless-application-model",
     "Breakthrough/PySceneDetect",
@@ -27,8 +28,8 @@
     "meta-pytorch/data",
     "mikel-brostrom/boxmot",
     "PaddlePaddle/FastDeploy",
-    "pytest-dev/pytest-asyncio",
     "pytorch/audio",
+    "redis/redis-om-python",
     "safetensors/safetensors",
     "starVLA/starVLA",
     "strob/gentle",

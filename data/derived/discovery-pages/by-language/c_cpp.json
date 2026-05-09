@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 9200,
-    "concepts": 10927,
-    "observations": 10953,
-    "repos": 2266,
-    "terms": 10836
+    "components": 9205,
+    "concepts": 10933,
+    "observations": 10959,
+    "repos": 2267,
+    "terms": 10841
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "0xPolygonHermez/pil2-proofman-js",
@@ -1262,6 +1262,7 @@
     "leela-zero/leela-zero",
     "LeelaChessZero/lc0",
     "leethomason/tinyxml2",
+    "leleliu008/C-examples",
     "lemire/fast_double_parser",
     "lemire/fast_float",
     "lemire/fastbase64",

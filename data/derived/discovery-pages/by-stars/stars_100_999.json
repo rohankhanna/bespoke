@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 48812,
-    "concepts": 33638,
-    "observations": 33741,
-    "repos": 8343,
-    "terms": 33516
+    "components": 48822,
+    "concepts": 33655,
+    "observations": 33758,
+    "repos": 8347,
+    "terms": 33529
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0k/shyaml",
@@ -493,6 +493,7 @@
     "Alpha-VLLM/Lumina-Video",
     "alpha22jp/atomic-chrome",
     "Alpine-DAV/ascent",
+    "alpinelinux/alpine-chroot-install",
     "alpinelinux/aports",
     "ALRhub/d3il",
     "Alrope123/rethinking-demonstrations",
@@ -3315,6 +3316,7 @@
     "google-research/batch_rl",
     "google-research/bleurt",
     "google-research/ibc",
+    "google-research/long-range-arena",
     "google-research/magvit",
     "google-research/maxvit",
     "google-research/meliad",
@@ -4789,6 +4791,7 @@
     "Ledzy/BAdam",
     "leezhuuuuu/Code-Interpreter-Api",
     "left-curve/left-curve",
+    "leleliu008/C-examples",
     "lemire/docker_programming_station",
     "lemire/fast_double_parser",
     "lemire/fastbase64",
@@ -5592,6 +5595,7 @@
     "mourner/tinyqueue",
     "moyangzhan/langchain4j-aideepin-admin",
     "moyangzhan/langchain4j-aideepin-web",
+    "MoyuruAizawa/Cropify",
     "mozilla-mobile/reference-browser",
     "mozilla-services/shavar-prod-lists",
     "mozilla/addons",

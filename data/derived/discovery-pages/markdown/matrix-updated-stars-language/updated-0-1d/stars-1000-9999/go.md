@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-05-09T05:34:16.337725+00:00`
+Generated at: `2026-05-09T08:20:40.985131+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [bazel-contrib/rules_go](https://github.com/bazel-contrib/rules_go) | 1478 | 2026-05-09T05:33:28Z | Go | Unknown | 3 | 0 | 3 | 3 |
 | [aws/karpenter-provider-aws](https://github.com/aws/karpenter-provider-aws) | 7626 | 2026-05-09T01:42:47Z | Go | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [googleapis/google-cloud-go](https://github.com/googleapis/google-cloud-go) | 4449 | 2026-05-08T23:41:57Z | Go | CLI | 10 | 8 | 10 | 10 |
-| [kubernetes-sigs/karpenter](https://github.com/kubernetes-sigs/karpenter) | 1870 | 2026-05-08T22:52:31Z | Go | Infrastructure/tooling | 8 | 10 | 8 | 8 |
-| [bazel-contrib/rules_go](https://github.com/bazel-contrib/rules_go) | 1478 | 2026-05-08T20:45:08Z | Go | Unknown | 3 | 0 | 3 | 3 |
+| [kubernetes-sigs/karpenter](https://github.com/kubernetes-sigs/karpenter) | 1871 | 2026-05-08T22:52:31Z | Go | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [crc-org/crc](https://github.com/crc-org/crc) | 1384 | 2026-05-08T17:04:23Z | Go | Infrastructure/tooling | 17 | 10 | 17 | 17 |
 | [bazel-contrib/bazel-gazelle](https://github.com/bazel-contrib/bazel-gazelle) | 1392 | 2026-05-08T15:46:08Z | Go | Unknown | 0 | 0 | 0 | 0 |
 
@@ -39,7 +39,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [aws/karpenter-provider-aws](https://github.com/aws/karpenter-provider-aws) | 7626 | 2026-05-09T01:42:47Z | Go | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [googleapis/google-cloud-go](https://github.com/googleapis/google-cloud-go) | 4449 | 2026-05-08T23:41:57Z | Go | CLI | 10 | 8 | 10 | 10 |
-| [kubernetes-sigs/karpenter](https://github.com/kubernetes-sigs/karpenter) | 1870 | 2026-05-08T22:52:31Z | Go | Infrastructure/tooling | 8 | 10 | 8 | 8 |
-| [bazel-contrib/rules_go](https://github.com/bazel-contrib/rules_go) | 1478 | 2026-05-08T20:45:08Z | Go | Unknown | 3 | 0 | 3 | 3 |
+| [kubernetes-sigs/karpenter](https://github.com/kubernetes-sigs/karpenter) | 1871 | 2026-05-08T22:52:31Z | Go | Infrastructure/tooling | 8 | 10 | 8 | 8 |
+| [bazel-contrib/rules_go](https://github.com/bazel-contrib/rules_go) | 1478 | 2026-05-09T05:33:28Z | Go | Unknown | 3 | 0 | 3 | 3 |
 | [bazel-contrib/bazel-gazelle](https://github.com/bazel-contrib/bazel-gazelle) | 1392 | 2026-05-08T15:46:08Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [crc-org/crc](https://github.com/crc-org/crc) | 1384 | 2026-05-08T17:04:23Z | Go | Infrastructure/tooling | 17 | 10 | 17 | 17 |

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Other
 
-Generated at: `2026-05-09T05:34:16.337725+00:00`
+Generated at: `2026-05-09T08:20:40.985131+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 321
-- terms: 476
-- components: 1065
-- concepts: 470
-- observations: 470
+- repos: 322
+- terms: 482
+- components: 1069
+- concepts: 476
+- observations: 476
 
 ## Static behavior
 
@@ -83,6 +83,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ipfs-shipyard/ansible-ipfs](https://github.com/ipfs-shipyard/ansible-ipfs) | 3 | 2025-05-01T08:39:26Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [VOICEVOX/pyopenjtalk](https://github.com/VOICEVOX/pyopenjtalk) | 8 | 2025-04-23T15:50:08Z | Other | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [lakim/spring-commands-standard](https://github.com/lakim/spring-commands-standard) | 1 | 2025-04-20T15:01:39Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [php-toolkit/sys-utils](https://github.com/php-toolkit/sys-utils) | 3 | 2025-04-19T14:29:05Z | Other | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [Chovin/Litghtsaber](https://github.com/Chovin/Litghtsaber) | 2 | 2025-04-18T06:55:06Z | Other | Unknown | 0 | 3 | 0 | 0 |
 | [bigcode-bench/bigcode-bench.github.io](https://github.com/bigcode-bench/bigcode-bench.github.io) | 2 | 2025-04-16T20:12:31Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [bugarela/tla-input](https://github.com/bugarela/tla-input) | 4 | 2025-04-16T16:26:57Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -551,6 +552,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aarondl/authboss-renderer](https://github.com/aarondl/authboss-renderer) | 3 | 2025-06-26T06:09:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [rexthinker/rexthinker.github.io](https://github.com/rexthinker/rexthinker.github.io) | 3 | 2025-06-05T07:39:25Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ipfs-shipyard/ansible-ipfs](https://github.com/ipfs-shipyard/ansible-ipfs) | 3 | 2025-05-01T08:39:26Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [php-toolkit/sys-utils](https://github.com/php-toolkit/sys-utils) | 3 | 2025-04-19T14:29:05Z | Other | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [ontoportal/documentation](https://github.com/ontoportal/documentation) | 3 | 2025-04-07T14:38:08Z | Other | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [ppc64le-cloud/k8s-ansible](https://github.com/ppc64le-cloud/k8s-ansible) | 3 | 2025-04-02T12:18:20Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [jverzani/SymPy.jl](https://github.com/jverzani/SymPy.jl) | 3 | 2025-02-19T17:22:58Z | Other | Unknown | 0 | 0 | 0 | 0 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 176,
-    "concepts": 176,
-    "observations": 179,
-    "repos": 37,
-    "terms": 176
+    "components": 167,
+    "concepts": 170,
+    "observations": 173,
+    "repos": 36,
+    "terms": 170
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "2KAbhishek/mac2k",
     "2KAbhishek/sway2k",
@@ -27,7 +27,6 @@
     "Azure/aaz",
     "bitnami/vulndb",
     "bnb-chain/node-deploy",
-    "ChainSafe/forest-iac",
     "cloudfoundry/jumpbox-deployment",
     "conda-forge/pinocchio-feedstock",
     "confluentinc/cp-demo",

@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 54036,
-    "concepts": 34918,
-    "observations": 35025,
-    "repos": 5920,
-    "terms": 34832
+    "concepts": 34927,
+    "observations": 35034,
+    "repos": 5921,
+    "terms": 34838
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -1470,6 +1470,7 @@
     "DLR-RM/rl-baselines3-zoo",
     "DLTcollab/sse2neon",
     "DLYuanGod/TinyGPT-V",
+    "dmayboroda/minima",
     "dmis-lab/biobert",
     "DmitryTsepelev/store_model",
     "DmitryUlyanov/deep-image-prior",

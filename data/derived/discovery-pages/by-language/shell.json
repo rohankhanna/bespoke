@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1873,
-    "concepts": 2792,
-    "observations": 2811,
-    "repos": 699,
-    "terms": 2736
+    "components": 1875,
+    "concepts": 2797,
+    "observations": 2816,
+    "repos": 701,
+    "terms": 2740
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "shell"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",
@@ -79,6 +79,7 @@
     "alirezarezvani/claude-code-tresor",
     "all-the-noises/data",
     "alonw0/cc-redalerts-statusline",
+    "alpinelinux/alpine-chroot-install",
     "alpinelinux/aports",
     "alrra/dotfiles",
     "alvistack/ansible-role-conmon",
@@ -456,6 +457,7 @@
     "LedgerHQ/ledger-app-workflows",
     "LedgerHQ/udev-rules",
     "leleliu008/ppkg",
+    "leleliu008/ppkg-formula-repository-official-core",
     "lemire/docker_programming_station",
     "lint-staged/lint-staged.sh",
     "lite-xl/lite-xl-build-box",

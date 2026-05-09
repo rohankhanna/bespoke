@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 14680,
-    "concepts": 13005,
-    "observations": 13029,
-    "repos": 4338,
-    "terms": 12794
+    "components": 14690,
+    "concepts": 13022,
+    "observations": 13046,
+    "repos": 4342,
+    "terms": 12807
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -272,6 +272,7 @@
     "Alpha-VLLM/Lumina-Image-2.0",
     "Alpha-VLLM/Lumina-Video",
     "alpha22jp/atomic-chrome",
+    "alpinelinux/alpine-chroot-install",
     "ALRhub/d3il",
     "Alrope123/rethinking-demonstrations",
     "alteryx/open_source_demos",
@@ -1708,6 +1709,7 @@
     "google-research/batch_rl",
     "google-research/bleurt",
     "google-research/ibc",
+    "google-research/long-range-arena",
     "google-research/magvit",
     "google-research/maxvit",
     "google-research/meliad",
@@ -2496,6 +2498,7 @@
     "LedgerHQ/udev-rules",
     "Ledzy/BAdam",
     "leezhuuuuu/Code-Interpreter-Api",
+    "leleliu008/C-examples",
     "lemire/fast_double_parser",
     "lemire/fastbase64",
     "LemonATsu/A-NeRF",
@@ -2937,6 +2940,7 @@
     "Mountchicken/Union14M",
     "mourner/projects",
     "mourner/simpleheat",
+    "MoyuruAizawa/Cropify",
     "mozilla/http-observatory-website",
     "mozilla/observatory-cli",
     "mozilla/tls-observatory",

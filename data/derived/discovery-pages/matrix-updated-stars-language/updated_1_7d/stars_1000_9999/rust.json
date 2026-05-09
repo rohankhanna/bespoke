@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 270,
-    "concepts": 221,
-    "observations": 221,
-    "repos": 23,
-    "terms": 221
+    "components": 261,
+    "concepts": 217,
+    "observations": 217,
+    "repos": 22,
+    "terms": 217
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "agentclientprotocol/agent-client-protocol",
     "apache/datafusion",
@@ -35,7 +35,6 @@
     "ros2-rust/ros2_rust",
     "rust-lang/flate2-rs",
     "rust-lang/portable-simd",
-    "rust-lang/rustup",
     "watchexec/watchexec"
   ]
 }

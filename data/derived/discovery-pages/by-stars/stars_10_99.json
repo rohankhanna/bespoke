@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 27901,
-    "concepts": 14736,
-    "observations": 14785,
-    "repos": 5346,
-    "terms": 14745
+    "components": 27904,
+    "concepts": 14751,
+    "observations": 14800,
+    "repos": 5350,
+    "terms": 14756
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -2003,6 +2003,7 @@
     "endyjasmi/cuid",
     "energye/cef",
     "energye/lcl",
+    "energye/wv",
     "EngFlow/gazelle_cc",
     "engineai-robotics/engineai_ros2_workspace",
     "enjoy-digital/liteiclink",
@@ -2923,6 +2924,7 @@
     "jbaubree/sitemap-ts",
     "jbaubree/vite-plugin-pages-sitemap",
     "jbilcke-hf/VideoModelStudio",
+    "jcefmaven/jcefsampleapp",
     "jchambers/id-obfuscator",
     "JCOMAIA/MaiMai",
     "jcs/mailstation-tools",
@@ -3693,6 +3695,7 @@
     "mit-plv/bbv",
     "mit-plv/coqutil",
     "mitsuba-renderer/nanothread",
+    "Mivg/SLED",
     "mjansson/rpmalloc-benchmark",
     "mjq11302010044/Real-CE",
     "mkenney/software-guides",
@@ -5206,6 +5209,7 @@
     "webdriverio/awesome-webdriverio",
     "webtorrent/bittorrent-lsd",
     "webtorrent/bittorrent-peerid",
+    "webview2/EdgeSharp.Samples",
     "WeikaiTan/RandLA-Net",
     "weisslj/cpp-optparse",
     "wellecks/lm-evaluation-harness",

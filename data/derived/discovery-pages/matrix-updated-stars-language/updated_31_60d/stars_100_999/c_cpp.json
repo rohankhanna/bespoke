@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 250,
-    "concepts": 413,
-    "observations": 414,
-    "repos": 80,
-    "terms": 409
+    "components": 260,
+    "concepts": 415,
+    "observations": 416,
+    "repos": 81,
+    "terms": 411
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "afbjorklund/lima-gui",
     "AmusementClub/vs-mlrt",
@@ -25,6 +25,7 @@
     "ashvardanian/ForkUnion",
     "avaneev/r8brain-free-src",
     "BirolLab/ntHash",
+    "bnprks/BPCells",
     "btzy/nativefiledialog-extended",
     "CarlosDerSeher/snapclient",
     "cloudwu/ltask",

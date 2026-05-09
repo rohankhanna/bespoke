@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 187,
-    "concepts": 114,
-    "observations": 116,
-    "repos": 29,
-    "terms": 114
+    "components": 198,
+    "concepts": 123,
+    "observations": 125,
+    "repos": 31,
+    "terms": 123
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "agentclientprotocol/symposium-acp",
     "Anush008/tokenizers",
@@ -23,6 +23,7 @@
     "Calsign/gazelle_rust",
     "celestiaorg/hana",
     "chris-zen/coremidi",
+    "cpmech/gemlab",
     "datafusion-contrib/datafusion-orc",
     "dcampbell24/mdbook-djot",
     "google/safe-mmio",
@@ -41,6 +42,7 @@
     "psmux/Tmux-Plugin-Panel",
     "randombit/botan-rs",
     "sigp/rust-libp2p",
+    "synadia-io/orbit.rs",
     "Turbo87/flat-projection-rs",
     "Vaishnav-Sabari-Girish/Hayasen"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 66,
-    "concepts": 202,
-    "observations": 204,
-    "repos": 88,
-    "terms": 195
+    "components": 67,
+    "concepts": 205,
+    "observations": 207,
+    "repos": 89,
+    "terms": 198
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "10up/actions-wordpress",
     "27medkamal/tmux-session-wizard",
     "acmesh-official/get.acme.sh",
     "aidenlab/juicer",
     "Alex313031/ThoriumOS",
+    "alpinelinux/alpine-chroot-install",
     "antfu/dotfiles",
     "AppImageCommunity/pkg2appimage",
     "archlinux/svntogit-packages",

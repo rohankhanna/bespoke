@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 181,
-    "concepts": 69,
-    "observations": 69,
-    "repos": 51,
-    "terms": 70
+    "components": 183,
+    "concepts": 70,
+    "observations": 70,
+    "repos": 52,
+    "terms": 71
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "abap2UI5-addons/table-maintenance",
     "AdaCore/AdaSAT",
@@ -30,6 +30,7 @@
     "erwin-kok/multiformat",
     "evoskuil/visual-studio-template",
     "haskell-compat/base-orphans",
+    "haya14busa/github-used-by",
     "hchiam/learning-ngrok",
     "hden/cuid",
     "hden/cuid2",

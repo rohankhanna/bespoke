@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3866,
-    "concepts": 1821,
-    "observations": 1827,
+    "components": 3826,
+    "concepts": 1823,
+    "observations": 1829,
     "repos": 393,
-    "terms": 1808
+    "terms": 1809
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "1-Platform/op-components",
@@ -44,7 +44,6 @@
     "angular/angular-devkit-build-angular-builds",
     "ankitpokhrel/shopctl",
     "Antares0982/ssrJSON",
-    "apache/datasketches-go",
     "apache/ignite-website",
     "apollographql/apollo-ios-dev",
     "apollographql/connectors-community",
@@ -76,6 +75,7 @@
     "bnb-chain/reth",
     "bnb-chain/reth-bsc",
     "bootmortis/sing-geosite",
+    "boozook/mdbook-svgbob",
     "bourumir-wyngs/serde-yaml-bw",
     "brave-intl/publishers",
     "bufbuild/homebrew-buf",
@@ -111,6 +111,7 @@
     "DanielNoord/pydocstringformatter",
     "datachainlab/cosmos-ethereum-ibc-lcp",
     "datafusion-contrib/orc-rust",
+    "davidanthoff/Electron.jl",
     "davidhozic/mujoco-rs",
     "day8/re-frame-debux",
     "dbfixtures/mirakuru",
@@ -199,6 +200,7 @@
     "Humans-of-Julia/BibParser.jl",
     "hyparam/hyparquet-writer",
     "hyparam/squirreling",
+    "iconify/iconify-tailwind",
     "iconify/tools",
     "ideditor/schema-builder",
     "instadeepai/fastpbrl",
@@ -246,7 +248,6 @@
     "LedgerHQ/ledger-app-builder",
     "LedgerHQ/ledger-secure-sdk",
     "LedgerHQ/ragger",
-    "libbitcoin/libbitcoin-database",
     "libbitcoin/libbitcoin-network",
     "liuliu/s4nnc",
     "llnl/camp",
@@ -279,7 +280,6 @@
     "obsidianmd/eslint-plugin",
     "oclif/plugin-autocomplete",
     "oclif/plugin-help",
-    "oclif/plugin-plugins",
     "oclif/plugin-update",
     "oclif/test",
     "octokit/auth-action.js",

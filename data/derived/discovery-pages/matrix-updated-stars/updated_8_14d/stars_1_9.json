@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1528,
-    "concepts": 867,
-    "observations": 871,
-    "repos": 167,
-    "terms": 865
+    "components": 1531,
+    "concepts": 868,
+    "observations": 872,
+    "repos": 168,
+    "terms": 866
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "1mb-dev/natcheck",
@@ -79,6 +79,7 @@
     "flathub-infra/flat-manager-hooks",
     "flexcyon/docs-en",
     "fontsource/download-stat-aggregator",
+    "godot-rust/godot4-prebuilt",
     "googleapis/google-cloud-php-compute",
     "grizzlypeak3d/feather-tk",
     "hao-ai-lab/flash-attention-fp4",

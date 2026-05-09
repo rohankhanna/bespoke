@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 62,
-    "concepts": 64,
-    "observations": 64,
-    "repos": 7,
-    "terms": 64
+    "components": 54,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 6,
+    "terms": 49
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-09T05:34:16.337725+00:00",
+  "generated_at": "2026-05-09T08:20:40.985131+00:00",
   "repo_ids": [
-    "15r10nk/inline-snapshot",
     "AI-Hypercomputer/maxdiffusion",
     "gbionics/adam",
     "gbionics/jaxsim",
