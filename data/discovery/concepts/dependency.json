@@ -43,6 +43,18 @@
       "source_repo": "DomGries/InnoDependencyInstaller",
       "status": "candidate-context",
       "text": "![Inno Setup Dependency Installer](https://user-images.githubusercontent.com/341158/122873592-3e2e9d80-d332-11eb-8055-8a4c6064ac4e.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filllabs/dependi",
+      "status": "candidate-context",
+      "text": "Dependi (formerly crates)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filllabs/dependi",
+      "status": "candidate-context",
+      "text": "Dependi is a comprehensive dependency management extension that helps developers write code faster and smarter by efficiently managing project dependencies. Formerly known as Crates the most loved and used dependency management extension for Rust. Dependi now supports multiple l\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "DomGries/InnoDependencyInstaller",
       "status": "candidate",
       "text": "![Inno Setup Dependency Installer](https://user-images.githubusercontent.com/341158/122873592-3e2e9d80-d332-11eb-8055-8a4c6064ac4e.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filllabs/dependi",
+      "status": "candidate",
+      "text": "Dependi is a comprehensive dependency management extension that helps developers write code faster and smarter by efficiently managing project dependencies. Formerly known as Crates the most loved and used dependency management extension for Rust. Dependi now supports multiple l\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -146,11 +164,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "DomGries/InnoDependencyInstaller"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T18:25:38.031362+00:00",
+      "source_file": null,
+      "source_repo": "filllabs/dependi"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-09T18:25:38.031362+00:00",
   "lexical_providers": [
     "datamuse"
   ],

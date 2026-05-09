@@ -370,6 +370,18 @@
       "source_repo": "universal-ctags/ctags-snap",
       "status": "candidate-context",
       "text": "Snap packaging for Universal Ctags"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filllabs/dependi",
+      "status": "candidate-context",
+      "text": "Dependi (formerly crates)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filllabs/dependi",
+      "status": "candidate-context",
+      "text": "Dependi is a comprehensive dependency management extension that helps developers write code faster and smarter by efficiently managing project dependencies. Formerly known as Crates the most loved and used dependency management extension for Rust. Dependi now supports multiple l\u2026"
     }
   ],
   "candidate_glosses": [
@@ -552,6 +564,12 @@
       "source_repo": "universal-ctags/ctags-snap",
       "status": "candidate",
       "text": "Snap packaging for Universal Ctags"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filllabs/dependi",
+      "status": "candidate",
+      "text": "Dependi is a comprehensive dependency management extension that helps developers write code faster and smarter by efficiently managing project dependencies. Formerly known as Crates the most loved and used dependency management extension for Rust. Dependi now supports multiple l\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1488,11 +1506,23 @@
       "observed_at": "2026-05-09T12:31:19.030154+00:00",
       "source_file": ".github/workflows/package.yml",
       "source_repo": "snapcast/snapcast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T18:25:38.031362+00:00",
+      "source_file": null,
+      "source_repo": "filllabs/dependi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T18:25:38.031362+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "rainbend/frp-notify"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "last_seen_at": "2026-05-09T18:25:38.031362+00:00",
   "lexical_providers": [
     "datamuse"
   ],

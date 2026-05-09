@@ -1,7 +1,7 @@
 {
   "component": "coverallsapp/github-action@c7885c00cb7ec0b8f9f5ff3f53cddb980f7a4412",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "last_seen_at": "2026-05-09T18:25:38.031362+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

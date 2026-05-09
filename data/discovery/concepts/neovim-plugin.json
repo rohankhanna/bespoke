@@ -1825,6 +1825,18 @@
       "source_repo": "vuki656/package-info.nvim",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tsakirist/telescope-lazy.nvim",
+      "status": "candidate-context",
+      "text": "Telescope extension that provides handy functionality about plugins installed via lazy.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tsakirist/telescope-lazy.nvim",
+      "status": "candidate-context",
+      "text": "[Telescope](https://github.com/nvim-telescope/telescope.nvim) extension that"
     }
   ],
   "candidate_glosses": [
@@ -2739,6 +2751,12 @@
       "source_repo": "vuki656/package-info.nvim",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tsakirist/telescope-lazy.nvim",
+      "status": "candidate",
+      "text": "[Telescope](https://github.com/nvim-telescope/telescope.nvim) extension that"
     }
   ],
   "candidate_related_terms": [],
@@ -5140,11 +5158,47 @@
       "observed_at": "2026-05-09T12:31:19.030154+00:00",
       "source_file": null,
       "source_repo": "vuki656/package-info.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T18:25:38.031362+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-config.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T18:25:38.031362+00:00",
+      "source_file": null,
+      "source_repo": "akinsho/bufferline.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T18:25:38.031362+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T18:25:38.031362+00:00",
+      "source_file": null,
+      "source_repo": "folke/trouble.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T18:25:38.031362+00:00",
+      "source_file": null,
+      "source_repo": "tsakirist/telescope-lazy.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T18:25:38.031362+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "last_seen_at": "2026-05-09T18:25:38.031362+00:00",
   "lexical_providers": [
     "datamuse"
   ],

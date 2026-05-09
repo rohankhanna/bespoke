@@ -19,12 +19,30 @@
       "source_repo": "datatrash/mos",
       "status": "candidate-context",
       "text": "Publish VSCode Extension"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filllabs/dependi",
+      "status": "candidate-context",
+      "text": "Dependi (formerly crates)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filllabs/dependi",
+      "status": "candidate-context",
+      "text": "Publish VSCode Extension"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "datatrash/mos",
+      "status": "candidate",
+      "text": "Publish VSCode Extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filllabs/dependi",
       "status": "candidate",
       "text": "Publish VSCode Extension"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/vscode.yml",
       "source_repo": "datatrash/mos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T18:25:38.031362+00:00",
+      "source_file": ".github/workflows/vscode-publish.yml",
+      "source_repo": "filllabs/dependi"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-09T18:25:38.031362+00:00",
   "lexical_providers": [
     "datamuse"
   ],

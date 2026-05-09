@@ -418,6 +418,18 @@
       "source_repo": "serayuzgur/crates",
       "status": "candidate-context",
       "text": "[![Become a Patron](https://img.shields.io/badge/Support%20Us%20on-Patreon-orange.svg)](https://www.patreon.com/bePatron?u=11468905)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filllabs/dependi",
+      "status": "candidate-context",
+      "text": "Dependi (formerly crates)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filllabs/dependi",
+      "status": "candidate-context",
+      "text": "Dependi is a comprehensive dependency management extension that helps developers write code faster and smarter by efficiently managing project dependencies. Formerly known as Crates the most loved and used dependency management extension for Rust. Dependi now supports multiple l\u2026"
     }
   ],
   "candidate_glosses": [
@@ -624,6 +636,12 @@
       "source_repo": "serayuzgur/crates",
       "status": "candidate",
       "text": "[![Become a Patron](https://img.shields.io/badge/Support%20Us%20on-Patreon-orange.svg)](https://www.patreon.com/bePatron?u=11468905)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filllabs/dependi",
+      "status": "candidate",
+      "text": "Dependi is a comprehensive dependency management extension that helps developers write code faster and smarter by efficiently managing project dependencies. Formerly known as Crates the most loved and used dependency management extension for Rust. Dependi now supports multiple l\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1195,11 +1213,17 @@
       "observed_at": "2026-05-09T12:31:19.030154+00:00",
       "source_file": null,
       "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T18:25:38.031362+00:00",
+      "source_file": null,
+      "source_repo": "filllabs/dependi"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "last_seen_at": "2026-05-09T18:25:38.031362+00:00",
   "lexical_providers": [
     "datamuse"
   ],

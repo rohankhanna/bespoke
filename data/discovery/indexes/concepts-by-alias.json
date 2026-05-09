@@ -36454,6 +36454,9 @@
   "ffmpeg": [
     "ffmpeg"
   ],
+  "ffmpeg-builds": [
+    "ffmpeg-builds"
+  ],
   "fft-library": [
     "fft-library"
   ],
@@ -70038,6 +70041,9 @@
   "publish to nuget.org": [
     "publish-to-nuget.org"
   ],
+  "publish to openvsx": [
+    "publish-to-openvsx"
+  ],
   "publish to pip": [
     "publish-to-pip"
   ],
@@ -72677,6 +72683,9 @@
   ],
   "rebase next": [
     "rebase-next"
+  ],
+  "rebase on upstream": [
+    "rebase-on-upstream"
   ],
   "rebaseline tests": [
     "rebaseline-tests"
@@ -86560,6 +86569,9 @@
   ],
   "test build release": [
     "test-build-release"
+  ],
+  "test build vscode extension": [
+    "test-build-vscode-extension"
   ],
   "test building greentea tests with cmake": [
     "test-building-greentea-tests-with-cmake"

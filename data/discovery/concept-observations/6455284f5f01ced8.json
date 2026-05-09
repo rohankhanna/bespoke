@@ -84,7 +84,7 @@
   "normalized_form": "generate-docs",
   "observation_id": "6455284f5f01ced8",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-09T12:31:19.030154+00:00",
+  "observed_at": "2026-05-09T18:25:38.031362+00:00",
   "observed_text": "Generate docs",
   "source_context_snippet": "Generate docs",
   "source_file": ".github/workflows/docgen.yaml",

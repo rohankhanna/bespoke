@@ -108,7 +108,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T19:02:11.178429+00:00",
+  "fetched_at": "2026-05-09T18:26:46.123660+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -133,7 +133,7 @@
     "html_url": "https://github.com/akinsho/bufferline.nvim",
     "language": "Lua",
     "pushed_at": "2025-01-14T16:03:57Z",
-    "stargazers_count": 4305,
+    "stargazers_count": 4311,
     "topics": [
       "bufferline",
       "lua",
@@ -142,7 +142,7 @@
       "nvim",
       "vim"
     ],
-    "updated_at": "2026-04-30T18:00:32Z"
+    "updated_at": "2026-05-07T18:55:19Z"
   },
   "repo_links": [],
   "terms": [

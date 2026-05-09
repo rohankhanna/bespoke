@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-09T18:25:38.031362+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/vscode.yml",
       "source_repo": "datatrash/mos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/vscode-publish.yml",
+      "source_repo": "filllabs/dependi"
     }
   ],
   "term": "Publish VSCode Extension"

@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tsakirist/telescope-lazy.nvim",
+      "target": "nvim-telescope/telescope-file-browser.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tsakirist/telescope-lazy.nvim",
+      "target": "fdschmidt93/telescope-egrepify.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tsakirist/telescope-lazy.nvim",
+      "target": "nvim-telescope/telescope-packer.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tsakirist/telescope-lazy.nvim",
+      "target": "lazy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tsakirist/telescope-lazy.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tsakirist/telescope-lazy.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tsakirist/telescope-lazy.nvim",
+      "target": "telescope-extension",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-09T18:25:38.031362+00:00",
+  "source_repo": "tsakirist/telescope-lazy.nvim"
+}

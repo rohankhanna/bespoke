@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Rebase on Upstream"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yt-dlp/FFmpeg-Builds",
+      "status": "candidate-context",
+      "text": "FFmpeg Builds for yt-dlp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yt-dlp/FFmpeg-Builds",
+      "status": "candidate-context",
+      "text": "Rebase on Upstream"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yt-dlp/FFmpeg-Builds",
+      "status": "candidate",
+      "text": "Rebase on Upstream"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "combine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9254,
+      "status": "candidate",
+      "text": "integrate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5050,
+      "status": "candidate",
+      "text": "consolidate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5050,
+      "status": "candidate",
+      "text": "merge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "above"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Rebase on Upstream",
+  "concept_id": "rebase-on-upstream",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T18:25:38.031362+00:00",
+      "source_file": ".github/workflows/rebase-on-upstream.yml",
+      "source_repo": "yt-dlp/FFmpeg-Builds"
+    }
+  ],
+  "first_seen_at": "2026-05-09T18:25:38.031362+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-09T18:25:38.031362+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rebase on Upstream",
+      "sense_id": "rebase-on-upstream#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

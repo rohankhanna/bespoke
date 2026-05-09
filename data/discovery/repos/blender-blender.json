@@ -1,0 +1,92 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blender/blender",
+      "target": "animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blender/blender",
+      "target": "computer-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blender/blender",
+      "target": "modeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blender/blender",
+      "target": "rendering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T18:37:39.102418+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1232
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2318
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official mirror of Blender",
+    "fork": false,
+    "full_name": "blender/blender",
+    "html_url": "https://github.com/blender/blender",
+    "language": "C++",
+    "pushed_at": "2026-05-09T12:40:46Z",
+    "stargazers_count": 18346,
+    "topics": [
+      "3d",
+      "animation",
+      "b3d",
+      "computer-graphics",
+      "modeling",
+      "rendering"
+    ],
+    "updated_at": "2026-05-09T18:28:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animation"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-graphics"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modeling"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rendering"
+    }
+  ]
+}

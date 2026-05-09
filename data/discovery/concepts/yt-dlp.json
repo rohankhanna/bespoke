@@ -43,6 +43,18 @@
       "source_repo": "aandrew-me/ytDownloader",
       "status": "candidate-context",
       "text": "<img src=\"https://github-production-user-asset-6210df.s3.amazonaws.com/66430340/238887646-33b4cba9-3c45-4042-83d1-b79e94a3a769.png\" style=\"width:80px;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yt-dlp/FFmpeg-Builds",
+      "status": "candidate-context",
+      "text": "FFmpeg Builds for yt-dlp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yt-dlp/FFmpeg-Builds",
+      "status": "candidate-context",
+      "text": "This repository provides static Windows (x86 and x86_64) and Linux (x86_64, arm64) Builds of [FFmpeg master](https://github.com/FFmpeg/FFmpeg) and [latest release branch](https://github.com/FFmpeg/FFmpeg/tree/release/7.1) **with some patches necessary for smooth integration with\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "aandrew-me/ytDownloader",
       "status": "candidate",
       "text": "<img src=\"https://github-production-user-asset-6210df.s3.amazonaws.com/66430340/238887646-33b4cba9-3c45-4042-83d1-b79e94a3a769.png\" style=\"width:80px;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yt-dlp/FFmpeg-Builds",
+      "status": "candidate",
+      "text": "This repository provides static Windows (x86 and x86_64) and Linux (x86_64, arm64) Builds of [FFmpeg master](https://github.com/FFmpeg/FFmpeg) and [latest release branch](https://github.com/FFmpeg/FFmpeg/tree/release/7.1) **with some patches necessary for smooth integration with\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-09T12:31:19.030154+00:00",
       "source_file": null,
       "source_repo": "aandrew-me/ytDownloader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T18:25:38.031362+00:00",
+      "source_file": null,
+      "source_repo": "yt-dlp/FFmpeg-Builds"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "last_seen_at": "2026-05-09T18:25:38.031362+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-09T18:37:38.218603+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4996
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Claude Code plugin: ideation and planning workflow \u2014 capture, evaluate, rank, simulate, and plan ideas, with ideation/single-idea-eval/multi-idea-ranking/feature-ideas/decision/simulation/idea-capture variants.",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Ideation-Planning-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Ideation-Planning-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-28T11:54:14Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-05-08T19:57:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

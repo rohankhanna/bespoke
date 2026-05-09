@@ -84,7 +84,7 @@
   "normalized_form": "stale-issues-prs",
   "observation_id": "e1f5d7f028ecc4af",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-05-09T18:25:38.031362+00:00",
   "observed_text": "Stale Issues & PRs",
   "source_context_snippet": "Stale Issues & PRs",
   "source_file": ".github/workflows/stale.yml",

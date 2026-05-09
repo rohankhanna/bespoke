@@ -84,7 +84,7 @@
   "normalized_form": "pr-title",
   "observation_id": "543847375b2cd661",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-05-09T18:25:38.031362+00:00",
   "observed_text": "PR Title",
   "source_context_snippet": "PR Title",
   "source_file": ".github/workflows/pr.yml",

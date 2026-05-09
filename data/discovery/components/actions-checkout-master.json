@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@master",
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "last_seen_at": "2026-05-09T18:25:38.031362+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1412,6 +1412,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "Luflosi/kitty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rebase-on-upstream.yml",
+      "source_repo": "yt-dlp/FFmpeg-Builds"
     }
   ]
 }

@@ -4653,6 +4653,7 @@
     "527af60e09dfd33a",
     "683956f72a881c2d",
     "7bd4c3f75aa7f80c",
+    "7e00ed4dce1c4718",
     "94e0301242a71770",
     "a637446998d79372",
     "aa65b2fc3b96d4e6",
@@ -19317,7 +19318,8 @@
     "ab68ef925c3e5434"
   ],
   "build-ffmpeg": [
-    "30bea9e4cf467fc0"
+    "30bea9e4cf467fc0",
+    "44e4cf1c5a763fad"
   ],
   "build-firefox": [
     "55bcb68c7dd1a12b"
@@ -23479,6 +23481,7 @@
     "0e9876c73fa86e37",
     "15909ab13179f6d7",
     "187dd3c2b010d796",
+    "27d7320cdf069350",
     "2bac0a2030eec9c3",
     "2be4780fa6e075f2",
     "38fd9ac5f3f03c79",
@@ -37263,6 +37266,7 @@
     "30a30620e254b65b",
     "34081066bd0c3937",
     "367d01a3693ee062",
+    "4fdeb02b0024f8c8",
     "504d61152b6ef940",
     "54ab57880b3aa5bd",
     "5da495caa6b3e518",
@@ -40874,6 +40878,7 @@
     "965bfa6d80e7bad7",
     "aa0ff1e4db28663f",
     "ab1b395deb891201",
+    "af05d7b1f6124ca0",
     "c81818941892d0ed",
     "e42ec80341085971",
     "e9ee146c81fc0378",
@@ -42325,6 +42330,7 @@
     "22e9f214a1e590e1",
     "25745234f484cd4f",
     "26153736cb59cf77",
+    "2a37d7ec07fd47bd",
     "31cc0ed389c0cb8c",
     "35835547a14d9238",
     "38c72da934b396e5",
@@ -42430,7 +42436,8 @@
     "887482399949e111"
   ],
   "csproj": [
-    "08755fa7c1cb19b6"
+    "08755fa7c1cb19b6",
+    "3fea63094ce3be23"
   ],
   "csrf": [
     "d8cc2fb67b3093cd"
@@ -47678,6 +47685,7 @@
   ],
   "dependency": [
     "14b35337c9247159",
+    "39377759789a7b01",
     "bbd5eb78e3d65a32",
     "ed51fad134e918b5"
   ],
@@ -48567,6 +48575,7 @@
   ],
   "deploy-mkdocs-to-github-pages": [
     "0398ead5ff5b6204",
+    "5dd9068a3b464cd2",
     "de3c49adbf11c3cd",
     "eb69ad524c228ea7"
   ],
@@ -60764,6 +60773,9 @@
     "cde1b6e3e97e324d",
     "fd647930f3292cd2"
   ],
+  "ffmpeg-builds": [
+    "871a5b81f3249123"
+  ],
   "fft-library": [
     "c0c44928aa361fac"
   ],
@@ -68797,6 +68809,7 @@
     "bca21631894dcb71",
     "bda02187eb185978",
     "bdba7ee0181a1892",
+    "bf6b7c43a2000eb5",
     "c0064fb1c429fd56",
     "c217a63acb8ed5bb",
     "c223f932ae13f58a",
@@ -85852,6 +85865,7 @@
     "f5a3c43cbc25cdaa"
   ],
   "lazy": [
+    "0142bbdf90496e7a",
     "20d3feaf48c7faa2",
     "ad0a22836bc73c9d"
   ],
@@ -97877,7 +97891,8 @@
     "04646715a829a240",
     "04dbb614c9dbb1d3",
     "5ab72d66e1fa4e5b",
-    "9fe4d83e873bfb5c"
+    "9fe4d83e873bfb5c",
+    "b96ef33073e7c10d"
   ],
   "modeling-language": [
     "9f47900beb111787"
@@ -101157,6 +101172,7 @@
     "d123630f0f8cf535",
     "d272c4dce5ada404",
     "d360bc0cff8e5914",
+    "d3dd91c79d744edd",
     "d4c0afa0b0202f36",
     "d5477457347dcaaa",
     "d6010b5a3a316dc2",
@@ -101362,6 +101378,7 @@
     "74d3ae37510675d1",
     "78dd127679d336e3",
     "7b111a5fc521e84f",
+    "7c7aa4a5d74a89e0",
     "7ce9c872a8eb0477",
     "7e89f8488bc4c598",
     "81f03da23f4e13ab",
@@ -109442,6 +109459,7 @@
     "a3b8daefcf6c82b3",
     "abbed70a12d3814f",
     "b263ef656e6405ad",
+    "c6ae9e5224d2a718",
     "da62dcb93d5244c5",
     "dadefab233c74906",
     "eab34ba308b2f4e7",
@@ -119774,6 +119792,9 @@
   "publish-to-nuget.org": [
     "65b26cd999bbdd6a"
   ],
+  "publish-to-openvsx": [
+    "ac947c7178effae2"
+  ],
   "publish-to-pip": [
     "ddd9d2e8b59cbcff"
   ],
@@ -119988,6 +120009,7 @@
     "b393a7c753540652"
   ],
   "publish-vscode-extension": [
+    "07802e17757e1586",
     "32a8155663117966"
   ],
   "publish-wasm": [
@@ -121093,6 +121115,7 @@
   "pypi": [
     "05036e08cefd451c",
     "0510ea9c49ba5dbe",
+    "0876bef73c32b816",
     "094eba72a049313b",
     "0e78782dab25b1d5",
     "11a994747f51d10d",
@@ -124890,6 +124913,9 @@
   ],
   "rebase-next": [
     "3ae47301c93cb7be"
+  ],
+  "rebase-on-upstream": [
+    "0dad5b5b8c4ef1b0"
   ],
   "rebaseline-tests": [
     "f94f82fe3831f5b2"
@@ -129444,6 +129470,7 @@
     "379cd21abfbd4907",
     "3b65e2d16e68df39",
     "429fdc7a81a26019",
+    "5a947d479fe73715",
     "622e06b828a9141a",
     "6cdb9bc1552a2e4f",
     "6d75eef9621d75e5",
@@ -129918,6 +129945,7 @@
   "requirements": [
     "026371c27039ad5f",
     "c0404274c040d5f2",
+    "c2bcad57e7a95d36",
     "d5a094724cf01e43",
     "e53cd584105f3041"
   ],
@@ -134101,6 +134129,7 @@
     "6c9a4bcea88f14f2",
     "6df2c1228d39e7c7",
     "6e34b990f8d496b0",
+    "6e372f7cd5f45e73",
     "6ed73ebb157fce6e",
     "6edff4da140b353e",
     "6ef2eaf12e43b26a",
@@ -148375,7 +148404,8 @@
   "telescope-extension": [
     "35c2bb3e5a71bce1",
     "5704bd6e45f283c4",
-    "e291c82c220162ff"
+    "e291c82c220162ff",
+    "ff4896f41576ec9d"
   ],
   "teletype": [
     "53cef9579c2d260f"
@@ -150681,6 +150711,9 @@
     "d8a1a64e9e3a972c",
     "ecd864da5cd82b05"
   ],
+  "test-build-vscode-extension": [
+    "730509767c8de09c"
+  ],
   "test-building-greentea-tests-with-cmake": [
     "d661f56a7a464c4b"
   ],
@@ -151113,7 +151146,8 @@
     "f61f42a2d251ee67"
   ],
   "test-full-build": [
-    "0de6eec243c90886"
+    "0de6eec243c90886",
+    "987b11c11e0fd4c0"
   ],
   "test-full-moon": [
     "825bc113221e9c93"
@@ -152864,6 +152898,7 @@
     "cb4ac517d39dd127",
     "cbb6ceea7d429f76",
     "cc3990b245ef3ad0",
+    "cce6da6f3a44629b",
     "cde31aa6555f5877",
     "ce912e2c0e34513a",
     "cee30d392f828bd5",
@@ -165243,6 +165278,7 @@
   "vulnerability": [
     "1b459f925b493825",
     "30bd214bc7668772",
+    "3e8814238c2f4d57",
     "619c2e59e4a1722f",
     "b1426197fd123675",
     "bf3722af57de05f5",
@@ -169589,7 +169625,8 @@
   "yt-dlp": [
     "40a8014e713669b8",
     "453f41c9c2cf26dc",
-    "4965bbb82a8ac298"
+    "4965bbb82a8ac298",
+    "74b4bc432033ff1e"
   ],
   "ytdownloader": [
     "ae170a6cccfdc815"

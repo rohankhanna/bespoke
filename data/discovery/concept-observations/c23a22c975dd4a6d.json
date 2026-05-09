@@ -84,7 +84,7 @@
   "normalized_form": "step-2-publish-release",
   "observation_id": "c23a22c975dd4a6d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-09T12:31:19.030154+00:00",
+  "observed_at": "2026-05-09T18:25:38.031362+00:00",
   "observed_text": "Step 2: Publish Release",
   "source_context_snippet": "\"Step 2: Publish Release\"",
   "source_file": ".github/workflows/publish-release.yml",

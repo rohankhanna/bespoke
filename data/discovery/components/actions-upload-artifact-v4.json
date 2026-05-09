@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "last_seen_at": "2026-05-09T18:25:38.031362+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12532,6 +12532,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/manually-build-for-openbsd.yml",
       "source_repo": "leleliu008/ppkg-package-manually-build"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vscode-package.yml",
+      "source_repo": "filllabs/dependi"
     }
   ]
 }

@@ -6,7 +6,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -32,6 +34,18 @@
       "source_repo": "gfx-rs/naga",
       "status": "candidate-context",
       "text": "lazy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tsakirist/telescope-lazy.nvim",
+      "status": "candidate-context",
+      "text": "Telescope extension that provides handy functionality about plugins installed via lazy.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tsakirist/telescope-lazy.nvim",
+      "status": "candidate-context",
+      "text": "[Telescope](https://github.com/nvim-telescope/telescope.nvim) extension that"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +60,12 @@
       "source_repo": "gfx-rs/naga",
       "status": "candidate",
       "text": "lazy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tsakirist/telescope-lazy.nvim",
+      "status": "candidate",
+      "text": "[Telescope](https://github.com/nvim-telescope/telescope.nvim) extension that"
     }
   ],
   "candidate_related_terms": [
@@ -137,11 +157,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/lazy.yml",
       "source_repo": "gfx-rs/naga"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T18:25:38.031362+00:00",
+      "source_file": null,
+      "source_repo": "tsakirist/telescope-lazy.nvim"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-05-09T18:25:38.031362+00:00",
   "lexical_providers": [
     "datamuse"
   ],

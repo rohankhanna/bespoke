@@ -355,6 +355,18 @@
       "source_repo": "fogleman/gg",
       "status": "candidate-context",
       "text": "`gg` is a library for rendering 2D graphics in pure Go."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blender/blender",
+      "status": "candidate-context",
+      "text": "Official mirror of Blender"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blender/blender",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +543,12 @@
       "source_repo": "fogleman/gg",
       "status": "candidate",
       "text": "`gg` is a library for rendering 2D graphics in pure Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blender/blender",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -958,11 +976,23 @@
       "observed_at": "2026-05-09T12:31:19.030154+00:00",
       "source_file": null,
       "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T18:25:38.031362+00:00",
+      "source_file": null,
+      "source_repo": "blender/blender"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T18:25:38.031362+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "last_seen_at": "2026-05-09T18:25:38.031362+00:00",
   "lexical_providers": [
     "datamuse"
   ],

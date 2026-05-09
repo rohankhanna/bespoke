@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-flutter/pubspec-assist.nvim",
+      "target": "jeroen-meijer/pubspec-assist",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-09T18:26:39.499738+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1368
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "nvim-flutter/pubspec-assist.nvim",
+    "html_url": "https://github.com/nvim-flutter/pubspec-assist.nvim",
+    "language": "Lua",
+    "pushed_at": "2023-11-15T10:41:57Z",
+    "stargazers_count": 32,
+    "topics": [],
+    "updated_at": "2026-03-09T14:18:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jeroen-meijer/pubspec-assist",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

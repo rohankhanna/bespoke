@@ -28,13 +28,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "folke/trouble.nvim",
-      "target": "nvim-lualine/lualine.nvim",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "folke/trouble.nvim",
@@ -126,7 +119,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T19:41:41.808572+00:00",
+  "fetched_at": "2026-05-09T18:26:50.670240+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -163,7 +156,7 @@
     "html_url": "https://github.com/folke/trouble.nvim",
     "language": "Lua",
     "pushed_at": "2025-10-31T14:02:34Z",
-    "stargazers_count": 6765,
+    "stargazers_count": 6780,
     "topics": [
       "lua",
       "neovim",
@@ -171,15 +164,9 @@
       "neovim-lua",
       "neovim-plugin"
     ],
-    "updated_at": "2026-04-29T12:23:55Z"
+    "updated_at": "2026-05-09T10:57:47Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nvim-lualine/lualine.nvim",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "\"PR Labeler\"",

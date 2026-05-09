@@ -1,0 +1,124 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tsakirist/telescope-lazy.nvim",
+      "target": "nvim-telescope/telescope-file-browser.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tsakirist/telescope-lazy.nvim",
+      "target": "fdschmidt93/telescope-egrepify.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tsakirist/telescope-lazy.nvim",
+      "target": "nvim-telescope/telescope-packer.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tsakirist/telescope-lazy.nvim",
+      "target": "lazy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tsakirist/telescope-lazy.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tsakirist/telescope-lazy.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tsakirist/telescope-lazy.nvim",
+      "target": "telescope-extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T18:26:53.779220+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6891
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Telescope extension that provides handy functionality about plugins installed via lazy.nvim",
+    "fork": false,
+    "full_name": "tsakirist/telescope-lazy.nvim",
+    "html_url": "https://github.com/tsakirist/telescope-lazy.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-10-10T17:54:04Z",
+    "stargazers_count": 130,
+    "topics": [
+      "lazy",
+      "lua",
+      "neovim",
+      "neovim-plugin",
+      "telescope-extension"
+    ],
+    "updated_at": "2026-03-09T14:23:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fdschmidt93/telescope-egrepify.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvim-telescope/telescope-file-browser.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvim-telescope/telescope-packer.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Telescope](https://github.com/nvim-telescope/telescope.nvim) extension that",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lazy"
+    },
+    {
+      "context_snippet": "[Telescope](https://github.com/nvim-telescope/telescope.nvim) extension that",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "[Telescope](https://github.com/nvim-telescope/telescope.nvim) extension that",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "[Telescope](https://github.com/nvim-telescope/telescope.nvim) extension that",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "telescope-extension"
+    }
+  ]
+}

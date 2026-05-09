@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mightymo77/MightyMos-Cheat-Code-Pack",
+      "target": "mightymo77/nestopia-cheat-code-pack",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-09T18:48:58.171043+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2256
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ".CHT File Database For The Nestopia and FCEUX Emulators. Originally created by Mightymo77 / Popo31477 on 2005-12-02.",
+    "fork": false,
+    "full_name": "mightymo77/MightyMos-Cheat-Code-Pack",
+    "html_url": "https://github.com/mightymo77/MightyMos-Cheat-Code-Pack",
+    "language": null,
+    "pushed_at": "2025-08-08T17:48:06Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-04-25T21:46:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mightymo77/nestopia-cheat-code-pack",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}
