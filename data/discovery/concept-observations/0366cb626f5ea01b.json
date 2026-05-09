@@ -8,7 +8,7 @@
     {
       "source_kind": "repo-description",
       "status": "context-only",
-      "text": "Prompt injection scanner for Claude Code. Runs DeBERTa/Llama transformers via Candle or ONNX in Rust"
+      "text": "Prompt injection scanner for AI coding tools (Claude Code / Codex / etc). Runs DeBERTa/Llama transformers via Candle or ONNX in Rust"
     },
     {
       "source_kind": "source-snippet",
@@ -106,10 +106,10 @@
   "normalized_form": "audit",
   "observation_id": "0366cb626f5ea01b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-09T06:51:24.890752+00:00",
+  "observed_at": "2026-05-09T12:31:19.030154+00:00",
   "observed_text": "Audit",
   "source_context_snippet": "Audit",
   "source_file": ".github/workflows/audit.yml",
   "source_repo": "vaporif/parry-guard",
-  "source_repo_description": "Prompt injection scanner for Claude Code. Runs DeBERTa/Llama transformers via Candle or ONNX in Rust"
+  "source_repo_description": "Prompt injection scanner for AI coding tools (Claude Code / Codex / etc). Runs DeBERTa/Llama transformers via Candle or ONNX in Rust"
 }

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u270f\ufe0f Impressive Linux commands cheat sheet CLI written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Impressive Linux commands cheat sheet cli. [Python \u7248\u672c](https://github.com/chenjiandongx/how)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Impressive Linux commands cheat sheet cli. [Python \u7248\u672c](https://github.com/chenjiandongx/how)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20015973,
+      "status": "candidate",
+      "text": "cheat-sheet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20015972,
+      "status": "candidate",
+      "text": "score sheet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20015971,
+      "status": "candidate",
+      "text": "score-sheet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20015970,
+      "status": "candidate",
+      "text": "cuesheet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20015969,
+      "status": "candidate",
+      "text": "lettersheet"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cheatsheet",
+      "sense_id": "cheatsheet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cheatsheet",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cheatsheet",
+  "observation_id": "4cfb96a84b03035c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-09T12:31:19.030154+00:00",
+  "observed_text": "cheatsheet",
+  "source_context_snippet": "> Impressive Linux commands cheat sheet cli. [Python \u7248\u672c](https://github.com/chenjiandongx/how)",
+  "source_file": null,
+  "source_repo": "chenjiandongx/pls",
+  "source_repo_description": "\u270f\ufe0f Impressive Linux commands cheat sheet CLI written in Go."
+}

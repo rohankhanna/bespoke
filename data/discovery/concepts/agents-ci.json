@@ -268,11 +268,17 @@
       "observed_at": "2026-05-09T00:39:13.791861+00:00",
       "source_file": ".github/workflows/agents.yml",
       "source_repo": "vercel-labs/skills"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": ".github/workflows/agents.yml",
+      "source_repo": "vercel-labs/skills"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

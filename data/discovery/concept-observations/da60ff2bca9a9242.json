@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cross-platform Nestopia emulator core with a GUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This project is a fork of the original Nestopia source code, plus the"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This project is a fork of the original Nestopia source code, plus the"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nintendo-nes",
+      "sense_id": "nintendo-nes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nintendo-nes",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nintendo-nes",
+  "observation_id": "da60ff2bca9a9242",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-09T12:31:19.030154+00:00",
+  "observed_text": "nintendo-nes",
+  "source_context_snippet": "This project is a fork of the original Nestopia source code, plus the",
+  "source_file": null,
+  "source_repo": "0ldsk00l/nestopia",
+  "source_repo_description": "Cross-platform Nestopia emulator core with a GUI"
+}

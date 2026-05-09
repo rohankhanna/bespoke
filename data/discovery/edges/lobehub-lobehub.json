@@ -4,6 +4,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lobehub/lobehub",
+      "target": "actions/workflows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobehub",
       "target": "lobehub/lobe-commit",
       "target_type": "repository"
     },
@@ -2808,6 +2815,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-09T06:51:24.890752+00:00",
+  "generated_at": "2026-05-09T12:31:19.030154+00:00",
   "source_repo": "lobehub/lobehub"
 }

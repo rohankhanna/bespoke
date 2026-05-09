@@ -1,0 +1,158 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yaroslavyaroslav/OpenAI-sublime-text",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yaroslavyaroslav/OpenAI-sublime-text",
+      "target": "sublimetext-markdown/markdowncodeexporter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "yaroslavyaroslav/OpenAI-sublime-text",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "yaroslavyaroslav/OpenAI-sublime-text",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yaroslavyaroslav/OpenAI-sublime-text",
+      "target": "ai-assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yaroslavyaroslav/OpenAI-sublime-text",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yaroslavyaroslav/OpenAI-sublime-text",
+      "target": "gpt-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yaroslavyaroslav/OpenAI-sublime-text",
+      "target": "o3-mini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yaroslavyaroslav/OpenAI-sublime-text",
+      "target": "sublime-text",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T12:54:28.490774+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12464
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 796
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "First class Sublime Text AI assistant with gpt-5, Opus 4.6, Gemini 3 and ollama support!",
+    "fork": false,
+    "full_name": "yaroslavyaroslav/OpenAI-sublime-text",
+    "html_url": "https://github.com/yaroslavyaroslav/OpenAI-sublime-text",
+    "language": "Python",
+    "pushed_at": "2026-03-19T22:54:49Z",
+    "stargazers_count": 449,
+    "topics": [
+      "ai-assistant",
+      "chatgpt",
+      "gpt-4",
+      "llm",
+      "nlp",
+      "o3-mini",
+      "openai",
+      "sublime-text"
+    ],
+    "updated_at": "2026-05-07T17:21:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sublimetext-markdown/markdowncodeexporter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Close stale issues and PRs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "[![Star on GitHub][img-stars]][stars] ![Package Control][img-downloads]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-assistant"
+    },
+    {
+      "context_snippet": "[![Star on GitHub][img-stars]][stars] ![Package Control][img-downloads]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "[![Star on GitHub][img-stars]][stars] ![Package Control][img-downloads]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4"
+    },
+    {
+      "context_snippet": "[![Star on GitHub][img-stars]][stars] ![Package Control][img-downloads]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "o3-mini"
+    },
+    {
+      "context_snippet": "[![Star on GitHub][img-stars]][stars] ![Package Control][img-downloads]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime-text"
+    }
+  ]
+}

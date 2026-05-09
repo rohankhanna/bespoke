@@ -142,6 +142,18 @@
       "source_repo": "phsym/prettytable-rs",
       "status": "candidate-context",
       "text": "![License](http://img.shields.io/badge/license-BSD-lightgrey.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serayuzgur/crates",
+      "status": "candidate-context",
+      "text": "crates is an extension aims to help people to manage their dependencies for rust (crates.io & TOML)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serayuzgur/crates",
+      "status": "candidate-context",
+      "text": "[![Become a Patron](https://img.shields.io/badge/Support%20Us%20on-Patreon-orange.svg)](https://www.patreon.com/bePatron?u=11468905)"
     }
   ],
   "candidate_glosses": [
@@ -210,6 +222,12 @@
       "source_repo": "phsym/prettytable-rs",
       "status": "candidate",
       "text": "![License](http://img.shields.io/badge/license-BSD-lightgrey.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serayuzgur/crates",
+      "status": "candidate",
+      "text": "[![Become a Patron](https://img.shields.io/badge/Support%20Us%20on-Patreon-orange.svg)](https://www.patreon.com/bePatron?u=11468905)"
     }
   ],
   "candidate_related_terms": [
@@ -319,11 +337,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "phsym/prettytable-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "serayuzgur/crates"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

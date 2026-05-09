@@ -1,7 +1,7 @@
 {
   "component": "microsoft/setup-msbuild@v2",
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -267,6 +267,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-windows.yml",
       "source_repo": "koide3/small_gicp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows-ms.yml",
+      "source_repo": "aburch/simutrans"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows64-SDL2-ms.yml",
+      "source_repo": "aburch/simutrans"
     }
   ]
 }

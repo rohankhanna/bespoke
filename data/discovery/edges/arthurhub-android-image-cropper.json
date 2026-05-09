@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ArthurHub/Android-Image-Cropper",
+      "target": "canhub/android-image-cropper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ArthurHub/Android-Image-Cropper",
+      "target": "edmodo/cropper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArthurHub/Android-Image-Cropper",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArthurHub/Android-Image-Cropper",
+      "target": "android-image-cropper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArthurHub/Android-Image-Cropper",
+      "target": "cropper",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-09T12:31:19.030154+00:00",
+  "source_repo": "ArthurHub/Android-Image-Cropper"
+}

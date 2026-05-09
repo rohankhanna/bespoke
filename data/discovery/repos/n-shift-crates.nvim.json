@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "n-shift/crates.nvim",
+      "target": "vuki656/package-info.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "n-shift/crates.nvim",
+      "target": "shaunsingh/nord.nvim",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-09T12:36:06.715709+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2335
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "n-shift/crates.nvim",
+    "html_url": "https://github.com/n-shift/crates.nvim",
+    "language": "Lua",
+    "pushed_at": "2022-07-21T17:34:29Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2026-04-28T11:50:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shaunsingh/nord.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vuki656/package-info.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

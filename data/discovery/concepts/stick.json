@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "stick"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ksnip/kImageAnnotator",
+      "status": "candidate-context",
+      "text": "Tool for annotating images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ksnip/kImageAnnotator",
+      "status": "candidate-context",
+      "text": "Tool for annotating images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ksnip/kImageAnnotator",
+      "status": "candidate",
+      "text": "Tool for annotating images"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39944341,
+      "status": "candidate",
+      "text": "cling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39922173,
+      "status": "candidate",
+      "text": "billy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39901224,
+      "status": "candidate",
+      "text": "deposit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39870377,
+      "status": "candidate",
+      "text": "pin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39862195,
+      "status": "candidate",
+      "text": "wedge"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29084,
+      "status": "candidate",
+      "text": "joint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20040,
+      "status": "candidate",
+      "text": "adhere"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17055,
+      "status": "candidate",
+      "text": "sting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15067,
+      "status": "candidate",
+      "text": "bind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13071,
+      "status": "candidate",
+      "text": "wedge"
+    }
+  ],
+  "canonical_name": "stick",
+  "concept_id": "stick",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "ksnip/kImageAnnotator"
+    }
+  ],
+  "first_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stick",
+      "sense_id": "stick#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

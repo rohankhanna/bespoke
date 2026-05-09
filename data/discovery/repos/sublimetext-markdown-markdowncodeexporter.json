@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-09T15:49:16.451073+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1090
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Sublime Text plugin to copy code blocks in Markdown files or open them in new tab",
+    "fork": false,
+    "full_name": "SublimeText-Markdown/MarkdownCodeExporter",
+    "html_url": "https://github.com/SublimeText-Markdown/MarkdownCodeExporter",
+    "language": "Python",
+    "pushed_at": "2024-12-03T00:16:10Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-04-30T15:30:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

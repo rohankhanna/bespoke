@@ -1,0 +1,169 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "flatpak/flatpak-github-actions/flatpak-builder@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-clippy.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-clippy.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-clippy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "flatpak/flatpak-github-actions/flatpak-builder@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AchetaGames/Epic-Asset-Manager",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AchetaGames/Epic-Asset-Manager",
+      "target": "flatpak/flatpak-github-actions/flatpak-builder@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AchetaGames/Epic-Asset-Manager",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-clippy.yml",
+      "source_repo": "AchetaGames/Epic-Asset-Manager",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-clippy.yml",
+      "source_repo": "AchetaGames/Epic-Asset-Manager",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-clippy.yml",
+      "source_repo": "AchetaGames/Epic-Asset-Manager",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust-clippy.yml",
+      "source_repo": "AchetaGames/Epic-Asset-Manager",
+      "target": "rust-clippy analyze",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "AchetaGames/Epic-Asset-Manager",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "AchetaGames/Epic-Asset-Manager",
+      "target": "flatpak/flatpak-github-actions/flatpak-builder@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "AchetaGames/Epic-Asset-Manager",
+      "target": "Rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T15:52:09.251396+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3166
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1610
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 644
+    },
+    {
+      "path": ".github/workflows/rust-clippy.yml",
+      "size": 1875
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 660
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A frontend to Assets purchased on Epic Games Store",
+    "fork": false,
+    "full_name": "AchetaGames/Epic-Asset-Manager",
+    "html_url": "https://github.com/AchetaGames/Epic-Asset-Manager",
+    "language": "Rust",
+    "pushed_at": "2026-03-23T13:47:23Z",
+    "stargazers_count": 501,
+    "topics": [],
+    "updated_at": "2026-05-07T20:00:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "rust-clippy analyze",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust-clippy.yml",
+      "term": "rust-clippy analyze"
+    },
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    }
+  ]
+}

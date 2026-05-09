@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-09T02:59:14.851369+00:00",
+  "fetched_at": "2026-05-09T15:00:57.731663+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -61,7 +61,7 @@
     "html_url": "https://github.com/zig-wasm/wasmer-zig-api",
     "language": "C",
     "pushed_at": "2026-05-06T11:58:12Z",
-    "stargazers_count": 37,
+    "stargazers_count": 38,
     "topics": [
       "wasi",
       "wasm",
@@ -70,7 +70,7 @@
       "zig",
       "ziglang"
     ],
-    "updated_at": "2026-05-06T11:58:17Z"
+    "updated_at": "2026-05-09T08:24:17Z"
   },
   "repo_links": [
     {

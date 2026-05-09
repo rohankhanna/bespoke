@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "D1DX/morning-skill",
+      "target": "jango-ai-com/morning-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "D1DX/morning-skill",
+      "target": "accounting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "D1DX/morning-skill",
+      "target": "ai-skill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "D1DX/morning-skill",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "D1DX/morning-skill",
+      "target": "expenses",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "D1DX/morning-skill",
+      "target": "green-invoice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "D1DX/morning-skill",
+      "target": "israel",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-09T12:31:19.030154+00:00",
+  "source_repo": "D1DX/morning-skill"
+}

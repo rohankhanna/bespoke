@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tool for annotating images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Tool for annotating images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Tool for annotating images"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "annotating-images",
+      "sense_id": "annotating-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "annotating-images",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "annotating-images",
+  "observation_id": "ca92be22149d6ae4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-09T12:31:19.030154+00:00",
+  "observed_text": "annotating-images",
+  "source_context_snippet": "Tool for annotating images",
+  "source_file": null,
+  "source_repo": "ksnip/kImageAnnotator",
+  "source_repo_description": "Tool for annotating images"
+}

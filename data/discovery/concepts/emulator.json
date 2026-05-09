@@ -91,6 +91,18 @@
       "source_repo": "EKA2L1/EKA2L1",
       "status": "candidate-context",
       "text": "<div class=\"header\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0ldsk00l/nestopia",
+      "status": "candidate-context",
+      "text": "Cross-platform Nestopia emulator core with a GUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0ldsk00l/nestopia",
+      "status": "candidate-context",
+      "text": "This project is a fork of the original Nestopia source code, plus the"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "EKA2L1/EKA2L1",
       "status": "candidate",
       "text": "<div class=\"header\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0ldsk00l/nestopia",
+      "status": "candidate",
+      "text": "This project is a fork of the original Nestopia source code, plus the"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +238,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "EKA2L1/EKA2L1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "0ldsk00l/nestopia"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

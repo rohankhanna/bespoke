@@ -103,6 +103,18 @@
       "source_repo": "MoyuruAizawa/Cropify",
       "status": "candidate-context",
       "text": "[![JitPack](https://jitpack.io/v/MoyuruAizawa/cropify.svg)](https://jitpack.io/#MoyuruAizawa/cropify)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "status": "candidate-context",
+      "text": "Image Cropping Library for Android, optimised for Camera / Gallery."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "status": "candidate-context",
+      "text": "[![CanHub](.documentation/art/cover.png?raw=true)](https://github.com/canhub)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "MoyuruAizawa/Cropify",
       "status": "candidate",
       "text": "[![JitPack](https://jitpack.io/v/MoyuruAizawa/cropify.svg)](https://jitpack.io/#MoyuruAizawa/cropify)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "status": "candidate",
+      "text": "[![CanHub](.documentation/art/cover.png?raw=true)](https://github.com/canhub)"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,17 @@
       "observed_at": "2026-05-09T06:51:24.890752+00:00",
       "source_file": null,
       "source_repo": "MoyuruAizawa/Cropify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "CanHub/Android-Image-Cropper"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

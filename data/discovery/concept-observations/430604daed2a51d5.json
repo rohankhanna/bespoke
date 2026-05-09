@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A neovim plugin to help find/search for dependency information/versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This project is *ARCHIVED* and no longer maintained. I've decided to massively narrow down the scope of to focus on providing version information"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This project is *ARCHIVED* and no longer maintained. I've decided to massively narrow down the scope of to focus on providing version information"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neovim-plugin",
+      "sense_id": "neovim-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "neovim-plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "neovim-plugin",
+  "observation_id": "430604daed2a51d5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-09T12:31:19.030154+00:00",
+  "observed_text": "neovim-plugin",
+  "source_context_snippet": "This project is *ARCHIVED* and no longer maintained. I've decided to massively narrow down the scope of to focus on providing version information",
+  "source_file": null,
+  "source_repo": "akinsho/dependency-assist.nvim",
+  "source_repo_description": "A neovim plugin to help find/search for dependency information/versions"
+}

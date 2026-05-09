@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Image Cropping Library for Android, optimized for Camera / Gallery."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Android Image Cropper"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Android Image Cropper"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "android-image-cropper",
+      "sense_id": "android-image-cropper#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "android-image-cropper",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "android-image-cropper",
+  "observation_id": "21aa166cfa1c247c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-09T12:31:19.030154+00:00",
+  "observed_text": "android-image-cropper",
+  "source_context_snippet": "Android Image Cropper",
+  "source_file": null,
+  "source_repo": "ArthurHub/Android-Image-Cropper",
+  "source_repo_description": "Image Cropping Library for Android, optimized for Camera / Gallery."
+}

@@ -505,7 +505,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-09T02:54:05.766902+00:00",
+  "fetched_at": "2026-05-09T16:58:44.541019+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -542,7 +542,7 @@
     "html_url": "https://github.com/unum-cloud/UStore",
     "language": "C++",
     "pushed_at": "2023-09-01T12:18:21Z",
-    "stargazers_count": 631,
+    "stargazers_count": 632,
     "topics": [
       "acid",
       "apache-arrow",
@@ -565,7 +565,7 @@
       "spdk",
       "vector-search"
     ],
-    "updated_at": "2026-04-20T02:21:14Z"
+    "updated_at": "2026-05-09T04:43:12Z"
   },
   "repo_links": [
     {

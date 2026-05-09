@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Nightly Build Windows"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aburch/simutrans",
+      "status": "candidate-context",
+      "text": "Mirror of Simutrans SVN Repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aburch/simutrans",
+      "status": "candidate-context",
+      "text": "Nightly Build Windows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aburch/simutrans",
+      "status": "candidate",
+      "text": "Nightly Build Windows"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20952,
+      "status": "candidate",
+      "text": "fluctuation limit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20897,
+      "status": "candidate",
+      "text": "tiler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20846,
+      "status": "candidate",
+      "text": "tile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20835,
+      "status": "candidate",
+      "text": "job"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20835,
+      "status": "candidate",
+      "text": "journal"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Nightly Build Windows",
+  "concept_id": "nightly-build-windows",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": ".github/workflows/nightly-windows.broken",
+      "source_repo": "aburch/simutrans"
+    }
+  ],
+  "first_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly Build Windows",
+      "sense_id": "nightly-build-windows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

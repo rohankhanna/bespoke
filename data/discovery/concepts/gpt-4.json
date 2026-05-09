@@ -457,6 +457,18 @@
       "source_repo": "lupantech/chameleon-llm",
       "status": "candidate-context",
       "text": "![Science Problems](https://img.shields.io/badge/Task-Science_Problems-blue)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yaroslavyaroslav/OpenAI-sublime-text",
+      "status": "candidate-context",
+      "text": "First class Sublime Text AI assistant with gpt-5, Opus 4.6, Gemini 3 and ollama support!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yaroslavyaroslav/OpenAI-sublime-text",
+      "status": "candidate-context",
+      "text": "[![Star on GitHub][img-stars]][stars] ![Package Control][img-downloads]"
     }
   ],
   "candidate_glosses": [
@@ -687,6 +699,12 @@
       "source_repo": "lupantech/chameleon-llm",
       "status": "candidate",
       "text": "![Science Problems](https://img.shields.io/badge/Task-Science_Problems-blue)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yaroslavyaroslav/OpenAI-sublime-text",
+      "status": "candidate",
+      "text": "[![Star on GitHub][img-stars]][stars] ![Package Control][img-downloads]"
     }
   ],
   "candidate_related_terms": [],
@@ -1582,11 +1600,41 @@
       "observed_at": "2026-05-09T06:51:24.890752+00:00",
       "source_file": null,
       "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "yaroslavyaroslav/OpenAI-sublime-text"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

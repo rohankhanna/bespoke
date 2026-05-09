@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-09T12:46:26.412431+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2203
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Image-Annotation-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Image-Annotation-Plugin",
+    "language": "Shell",
+    "pushed_at": "2026-04-28T12:11:55Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-28T12:11:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

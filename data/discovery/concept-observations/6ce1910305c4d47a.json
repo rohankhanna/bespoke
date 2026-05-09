@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Neovim theme based off of the Nord Color Palette, written in lua with tree sitter support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![118406380-d78ad580-b649-11eb-945c-5988fa717f39](https://user-images.githubusercontent.com/71196912/128029391-ad55fd41-d5f9-43bd-a795-c11b562f9d6d.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![118406380-d78ad580-b649-11eb-945c-5988fa717f39](https://user-images.githubusercontent.com/71196912/128029391-ad55fd41-d5f9-43bd-a795-c11b562f9d6d.jpg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29837199,
+      "status": "candidate",
+      "text": "calais"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29834402,
+      "status": "candidate",
+      "text": "noord"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29831102,
+      "status": "candidate",
+      "text": "kivu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29819850,
+      "status": "candidate",
+      "text": "ireland"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29804672,
+      "status": "candidate",
+      "text": "cameroun"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nord",
+      "sense_id": "nord#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nord",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nord",
+  "observation_id": "6ce1910305c4d47a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-09T12:31:19.030154+00:00",
+  "observed_text": "nord",
+  "source_context_snippet": "![118406380-d78ad580-b649-11eb-945c-5988fa717f39](https://user-images.githubusercontent.com/71196912/128029391-ad55fd41-d5f9-43bd-a795-c11b562f9d6d.jpg)",
+  "source_file": null,
+  "source_repo": "shaunsingh/nord.nvim",
+  "source_repo_description": "Neovim theme based off of the Nord Color Palette, written in lua with tree sitter support"
+}

@@ -1801,6 +1801,30 @@
       "source_repo": "chrisgrieser/nvim-lsp-endhints",
       "status": "candidate-context",
       "text": "<a href=\"https://dotfyle.com/plugins/chrisgrieser/nvim-lsp-endhints\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akinsho/dependency-assist.nvim",
+      "status": "candidate-context",
+      "text": "A neovim plugin to help find/search for dependency information/versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akinsho/dependency-assist.nvim",
+      "status": "candidate-context",
+      "text": "This project is *ARCHIVED* and no longer maintained. I've decided to massively narrow down the scope of to focus on providing version information"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuki656/package-info.nvim",
+      "status": "candidate-context",
+      "text": "\u270d\ufe0f All the npm/yarn/pnpm commands I don't want to type"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuki656/package-info.nvim",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -2703,6 +2727,18 @@
       "source_repo": "chrisgrieser/nvim-lsp-endhints",
       "status": "candidate",
       "text": "<a href=\"https://dotfyle.com/plugins/chrisgrieser/nvim-lsp-endhints\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akinsho/dependency-assist.nvim",
+      "status": "candidate",
+      "text": "This project is *ARCHIVED* and no longer maintained. I've decided to massively narrow down the scope of to focus on providing version information"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuki656/package-info.nvim",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -5032,11 +5068,83 @@
       "observed_at": "2026-05-09T06:51:24.890752+00:00",
       "source_file": null,
       "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "famiu/feline.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.deps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-config.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/dashboard-nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/lspsaga.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "akinsho/dependency-assist.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "vuki656/package-info.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

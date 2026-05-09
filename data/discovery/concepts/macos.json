@@ -2789,6 +2789,18 @@
       "source_repo": "energye/designer",
       "status": "candidate-context",
       "text": "ENERGY Designer is a visual UI design tool built for the ENERGY cross-platform GUI framework, focused on native desktop UI design and generating maintainable Go source code."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aandrew-me/ytDownloader",
+      "status": "candidate-context",
+      "text": "Desktop App for downloading Videos and Audios from hundreds of sites"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aandrew-me/ytDownloader",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github-production-user-asset-6210df.s3.amazonaws.com/66430340/238887646-33b4cba9-3c45-4042-83d1-b79e94a3a769.png\" style=\"width:80px;\">"
     }
   ],
   "candidate_glosses": [
@@ -4207,6 +4219,12 @@
       "source_repo": "energye/designer",
       "status": "candidate",
       "text": "ENERGY Designer is a visual UI design tool built for the ENERGY cross-platform GUI framework, focused on native desktop UI design and generating maintainable Go source code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aandrew-me/ytDownloader",
+      "status": "candidate",
+      "text": "<img src=\"https://github-production-user-asset-6210df.s3.amazonaws.com/66430340/238887646-33b4cba9-3c45-4042-83d1-b79e94a3a769.png\" style=\"width:80px;\">"
     }
   ],
   "candidate_related_terms": [
@@ -7064,11 +7082,71 @@
       "observed_at": "2026-05-09T06:51:24.890752+00:00",
       "source_file": null,
       "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-MacOS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "aandrew-me/ytDownloader"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

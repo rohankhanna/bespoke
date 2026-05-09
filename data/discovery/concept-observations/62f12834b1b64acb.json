@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "First class Sublime Text AI assistant with gpt-5, Opus 4.6, Gemini 3 and ollama support!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Star on GitHub][img-stars]][stars] ![Package Control][img-downloads]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Star on GitHub][img-stars]][stars] ![Package Control][img-downloads]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chatgpt",
+      "sense_id": "chatgpt#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chatgpt",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chatgpt",
+  "observation_id": "62f12834b1b64acb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-09T12:31:19.030154+00:00",
+  "observed_text": "chatgpt",
+  "source_context_snippet": "[![Star on GitHub][img-stars]][stars] ![Package Control][img-downloads]",
+  "source_file": null,
+  "source_repo": "yaroslavyaroslav/OpenAI-sublime-text",
+  "source_repo_description": "First class Sublime Text AI assistant with gpt-5, Opus 4.6, Gemini 3 and ollama support!"
+}

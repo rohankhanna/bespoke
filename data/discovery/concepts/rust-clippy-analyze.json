@@ -19,12 +19,30 @@
       "source_repo": "attackgoat/vk-graph",
       "status": "candidate-context",
       "text": "rust-clippy analyze"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AchetaGames/Epic-Asset-Manager",
+      "status": "candidate-context",
+      "text": "A frontend to Assets purchased on Epic Games Store"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AchetaGames/Epic-Asset-Manager",
+      "status": "candidate-context",
+      "text": "rust-clippy analyze"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "attackgoat/vk-graph",
+      "status": "candidate",
+      "text": "rust-clippy analyze"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AchetaGames/Epic-Asset-Manager",
       "status": "candidate",
       "text": "rust-clippy analyze"
     }
@@ -184,11 +202,23 @@
       "observed_at": "2026-05-09T06:51:24.890752+00:00",
       "source_file": ".github/workflows/rust-clippy.yml",
       "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": ".github/workflows/rust-clippy.yml",
+      "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": ".github/workflows/rust-clippy.yml",
+      "source_repo": "AchetaGames/Epic-Asset-Manager"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "cheatsheet"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chenjiandongx/pls",
+      "status": "candidate-context",
+      "text": "\u270f\ufe0f Impressive Linux commands cheat sheet CLI written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chenjiandongx/pls",
+      "status": "candidate-context",
+      "text": "> Impressive Linux commands cheat sheet cli. [Python \u7248\u672c](https://github.com/chenjiandongx/how)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chenjiandongx/pls",
+      "status": "candidate",
+      "text": "> Impressive Linux commands cheat sheet cli. [Python \u7248\u672c](https://github.com/chenjiandongx/how)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20015973,
+      "status": "candidate",
+      "text": "cheat-sheet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20015972,
+      "status": "candidate",
+      "text": "score sheet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20015971,
+      "status": "candidate",
+      "text": "score-sheet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20015970,
+      "status": "candidate",
+      "text": "cuesheet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20015969,
+      "status": "candidate",
+      "text": "lettersheet"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "cheatsheet",
+  "concept_id": "cheatsheet",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "chenjiandongx/pls"
+    }
+  ],
+  "first_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cheatsheet",
+      "sense_id": "cheatsheet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -187,6 +187,18 @@
       "source_repo": "gookit/config",
       "status": "candidate-context",
       "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/config?style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serayuzgur/crates",
+      "status": "candidate-context",
+      "text": "crates is an extension aims to help people to manage their dependencies for rust (crates.io & TOML)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serayuzgur/crates",
+      "status": "candidate-context",
+      "text": "[![Become a Patron](https://img.shields.io/badge/Support%20Us%20on-Patreon-orange.svg)](https://www.patreon.com/bePatron?u=11468905)"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "gookit/config",
       "status": "candidate",
       "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/config?style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serayuzgur/crates",
+      "status": "candidate",
+      "text": "[![Become a Patron](https://img.shields.io/badge/Support%20Us%20on-Patreon-orange.svg)](https://www.patreon.com/bePatron?u=11468905)"
     }
   ],
   "candidate_related_terms": [
@@ -424,11 +442,17 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "gookit/config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "serayuzgur/crates"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "D1DX/morning-skill",
+      "target": "jango-ai-com/morning-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "D1DX/morning-skill",
+      "target": "accounting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "D1DX/morning-skill",
+      "target": "ai-skill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "D1DX/morning-skill",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "D1DX/morning-skill",
+      "target": "expenses",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "D1DX/morning-skill",
+      "target": "green-invoice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "D1DX/morning-skill",
+      "target": "israel",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T12:46:23.389277+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4613
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Morning (Green Invoice) skill for AI agents \u2014 expense management, presigned S3 file upload, classifications, and search.",
+    "fork": false,
+    "full_name": "D1DX/morning-skill",
+    "html_url": "https://github.com/D1DX/morning-skill",
+    "language": null,
+    "pushed_at": "2026-04-14T09:00:04Z",
+    "stargazers_count": 2,
+    "topics": [
+      "accounting",
+      "ai-skill",
+      "claude-code",
+      "expenses",
+      "green-invoice",
+      "israel"
+    ],
+    "updated_at": "2026-04-22T14:33:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jango-ai-com/morning-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Author](https://img.shields.io/badge/Author-Daniel_Rudaev-000000?style=flat)](https://github.com/daniel-rudaev)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "accounting"
+    },
+    {
+      "context_snippet": "[![Author](https://img.shields.io/badge/Author-Daniel_Rudaev-000000?style=flat)](https://github.com/daniel-rudaev)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-skill"
+    },
+    {
+      "context_snippet": "[![Author](https://img.shields.io/badge/Author-Daniel_Rudaev-000000?style=flat)](https://github.com/daniel-rudaev)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "[![Author](https://img.shields.io/badge/Author-Daniel_Rudaev-000000?style=flat)](https://github.com/daniel-rudaev)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "expenses"
+    },
+    {
+      "context_snippet": "[![Author](https://img.shields.io/badge/Author-Daniel_Rudaev-000000?style=flat)](https://github.com/daniel-rudaev)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "green-invoice"
+    },
+    {
+      "context_snippet": "[![Author](https://img.shields.io/badge/Author-Daniel_Rudaev-000000?style=flat)](https://github.com/daniel-rudaev)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "israel"
+    }
+  ]
+}

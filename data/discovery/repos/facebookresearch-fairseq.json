@@ -197,7 +197,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-09T08:13:19.173774+00:00",
+  "fetched_at": "2026-05-09T16:57:15.555236+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -230,13 +230,13 @@
     "html_url": "https://github.com/facebookresearch/fairseq",
     "language": "Python",
     "pushed_at": "2025-09-30T11:16:06Z",
-    "stargazers_count": 32216,
+    "stargazers_count": 32218,
     "topics": [
       "artificial-intelligence",
       "python",
       "pytorch"
     ],
-    "updated_at": "2026-05-08T23:25:29Z"
+    "updated_at": "2026-05-09T11:36:03Z"
   },
   "repo_links": [
     {

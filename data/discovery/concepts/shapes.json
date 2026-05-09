@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "shapes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ksnip/kImageAnnotator",
+      "status": "candidate-context",
+      "text": "Tool for annotating images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ksnip/kImageAnnotator",
+      "status": "candidate-context",
+      "text": "Tool for annotating images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ksnip/kImageAnnotator",
+      "status": "candidate",
+      "text": "Tool for annotating images"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10046309,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10045794,
+      "status": "candidate",
+      "text": "determine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10043798,
+      "status": "candidate",
+      "text": "pattern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10043674,
+      "status": "candidate",
+      "text": "embodiment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10042734,
+      "status": "candidate",
+      "text": "influence"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "shapes",
+  "concept_id": "shapes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "ksnip/kImageAnnotator"
+    }
+  ],
+  "first_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "shapes",
+      "sense_id": "shapes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

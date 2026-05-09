@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PR Labeler Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HKUDS/CLI-Anything",
+      "status": "candidate-context",
+      "text": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUDS/CLI-Anything",
+      "status": "candidate-context",
+      "text": "PR Labeler Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUDS/CLI-Anything",
+      "status": "candidate",
+      "text": "PR Labeler Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14196,
+      "status": "candidate",
+      "text": "rep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14100,
+      "status": "candidate",
+      "text": "rare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14067,
+      "status": "candidate",
+      "text": "postage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14042,
+      "status": "candidate",
+      "text": "probe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14016,
+      "status": "candidate",
+      "text": "aaa"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR Labeler Tests",
+  "concept_id": "pr-labeler-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": ".github/workflows/pr-labeler-tests.yml",
+      "source_repo": "HKUDS/CLI-Anything"
+    }
+  ],
+  "first_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Labeler Tests",
+      "sense_id": "pr-labeler-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

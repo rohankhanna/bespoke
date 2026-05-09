@@ -384,11 +384,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-09T08:10:56.950371+00:00",
+  "fetched_at": "2026-05-09T16:54:59.318624+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 11594
+      "size": 12622
     },
     {
       "path": "Cargo.toml",
@@ -419,12 +419,12 @@
   "repo": {
     "archived": false,
     "default_branch": "main",
-    "description": "Prompt injection scanner for Claude Code. Runs DeBERTa/Llama transformers via Candle or ONNX in Rust",
+    "description": "Prompt injection scanner for AI coding tools (Claude Code / Codex / etc). Runs DeBERTa/Llama transformers via Candle or ONNX in Rust",
     "fork": false,
     "full_name": "vaporif/parry-guard",
     "html_url": "https://github.com/vaporif/parry-guard",
     "language": "Rust",
-    "pushed_at": "2026-05-06T20:05:55Z",
+    "pushed_at": "2026-05-09T16:53:32Z",
     "stargazers_count": 37,
     "topics": [
       "claude-code",
@@ -433,7 +433,7 @@
       "prompt-injection-llm-security",
       "rust"
     ],
-    "updated_at": "2026-05-01T18:02:39Z"
+    "updated_at": "2026-05-09T16:44:15Z"
   },
   "repo_links": [
     {

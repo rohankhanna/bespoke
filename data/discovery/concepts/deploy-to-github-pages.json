@@ -489,6 +489,18 @@
       "source_repo": "danielrosehill/OR-Models-With-Tools-0811",
       "status": "candidate-context",
       "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HKUDS/CLI-Anything",
+      "status": "candidate-context",
+      "text": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUDS/CLI-Anything",
+      "status": "candidate-context",
+      "text": "Deploy to GitHub Pages"
     }
   ],
   "candidate_glosses": [
@@ -735,6 +747,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "danielrosehill/OR-Models-With-Tools-0811",
+      "status": "candidate",
+      "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUDS/CLI-Anything",
       "status": "candidate",
       "text": "Deploy to GitHub Pages"
     }
@@ -1338,11 +1356,29 @@
       "observed_at": "2026-05-09T06:51:24.890752+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "beam-community/elixir-companies"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": ".github/workflows/website-deploy.yml",
+      "source_repo": "meta-pytorch/captum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "beam-community/elixir-companies"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "HKUDS/CLI-Anything"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

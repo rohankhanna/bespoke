@@ -148,13 +148,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "package.json",
-      "source_repo": "storybook-eol/addon-graphql",
-      "target": "storybookjs/storybook-addon-kit",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "storybook-eol/addon-graphql",
@@ -365,7 +358,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-09T02:59:44.746210+00:00",
+  "fetched_at": "2026-05-09T15:01:20.674840+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -394,13 +387,7 @@
     "topics": [],
     "updated_at": "2025-11-10T10:37:15Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "storybookjs/storybook-addon-kit",
-      "source_file": "package.json"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Release",

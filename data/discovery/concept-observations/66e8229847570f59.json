@@ -84,7 +84,7 @@
   "normalized_form": "check-notarization",
   "observation_id": "66e8229847570f59",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-09T00:39:13.791861+00:00",
+  "observed_at": "2026-05-09T12:31:19.030154+00:00",
   "observed_text": "Check Notarization",
   "source_context_snippet": "Check Notarization",
   "source_file": ".github/workflows/check-notarization.yml",

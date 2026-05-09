@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u270f\ufe0f Impressive Linux commands cheat sheet CLI written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Impressive Linux commands cheat sheet cli. [Python \u7248\u672c](https://github.com/chenjiandongx/how)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Impressive Linux commands cheat sheet cli. [Python \u7248\u672c](https://github.com/chenjiandongx/how)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "linux-command",
+      "sense_id": "linux-command#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "linux-command",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "linux-command",
+  "observation_id": "72f078af523f4fc6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-09T12:31:19.030154+00:00",
+  "observed_text": "linux-command",
+  "source_context_snippet": "> Impressive Linux commands cheat sheet cli. [Python \u7248\u672c](https://github.com/chenjiandongx/how)",
+  "source_file": null,
+  "source_repo": "chenjiandongx/pls",
+  "source_repo_description": "\u270f\ufe0f Impressive Linux commands cheat sheet CLI written in Go."
+}

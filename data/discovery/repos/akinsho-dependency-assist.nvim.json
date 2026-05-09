@@ -1,0 +1,137 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akinsho/dependency-assist.nvim",
+      "target": "vuki656/package-info.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akinsho/dependency-assist.nvim",
+      "target": "akinsho/pubspec-assist.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akinsho/dependency-assist.nvim",
+      "target": "jeroen-meijer/pubspec-assist",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akinsho/dependency-assist.nvim",
+      "target": "dart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akinsho/dependency-assist.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akinsho/dependency-assist.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akinsho/dependency-assist.nvim",
+      "target": "package-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akinsho/dependency-assist.nvim",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T14:59:22.940934+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3204
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A neovim plugin to help find/search for dependency information/versions",
+    "fork": false,
+    "full_name": "akinsho/dependency-assist.nvim",
+    "html_url": "https://github.com/akinsho/dependency-assist.nvim",
+    "language": "Lua",
+    "pushed_at": "2021-11-11T12:30:02Z",
+    "stargazers_count": 45,
+    "topics": [
+      "dart",
+      "neovim-plugin",
+      "nvim",
+      "package-management",
+      "rust"
+    ],
+    "updated_at": "2025-12-11T21:42:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akinsho/pubspec-assist.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jeroen-meijer/pubspec-assist",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vuki656/package-info.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This project is *ARCHIVED* and no longer maintained. I've decided to massively narrow down the scope of to focus on providing version information",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dart"
+    },
+    {
+      "context_snippet": "This project is *ARCHIVED* and no longer maintained. I've decided to massively narrow down the scope of to focus on providing version information",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "This project is *ARCHIVED* and no longer maintained. I've decided to massively narrow down the scope of to focus on providing version information",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "This project is *ARCHIVED* and no longer maintained. I've decided to massively narrow down the scope of to focus on providing version information",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-management"
+    },
+    {
+      "context_snippet": "This project is *ARCHIVED* and no longer maintained. I've decided to massively narrow down the scope of to focus on providing version information",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

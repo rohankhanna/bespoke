@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -56,6 +56,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "jaredpalmer/tsdx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "vuki656/package-info.nvim"
     }
   ],
   "term": "yarn"

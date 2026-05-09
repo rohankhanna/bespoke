@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0ldsk00l/nestopia",
+      "target": "mightymo77/mightymos-cheat-code-pack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0ldsk00l/nestopia",
+      "target": "emulator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0ldsk00l/nestopia",
+      "target": "nestopia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0ldsk00l/nestopia",
+      "target": "nintendo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0ldsk00l/nestopia",
+      "target": "nintendo-nes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T15:51:55.941353+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2260
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cross-platform Nestopia emulator core with a GUI",
+    "fork": false,
+    "full_name": "0ldsk00l/nestopia",
+    "html_url": "https://github.com/0ldsk00l/nestopia",
+    "language": "C++",
+    "pushed_at": "2026-04-26T23:31:07Z",
+    "stargazers_count": 897,
+    "topics": [
+      "emulator",
+      "nestopia",
+      "nintendo",
+      "nintendo-nes"
+    ],
+    "updated_at": "2026-05-01T16:16:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mightymo77/mightymos-cheat-code-pack",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This project is a fork of the original Nestopia source code, plus the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emulator"
+    },
+    {
+      "context_snippet": "This project is a fork of the original Nestopia source code, plus the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nestopia"
+    },
+    {
+      "context_snippet": "This project is a fork of the original Nestopia source code, plus the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nintendo"
+    },
+    {
+      "context_snippet": "This project is a fork of the original Nestopia source code, plus the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nintendo-nes"
+    }
+  ]
+}

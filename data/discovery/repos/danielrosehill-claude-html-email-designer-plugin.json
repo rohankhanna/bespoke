@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-09T15:42:01.906466+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1908
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "danielrosehill/Claude-HTML-Email-Designer-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-HTML-Email-Designer-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-20T21:43:34Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-27T17:42:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

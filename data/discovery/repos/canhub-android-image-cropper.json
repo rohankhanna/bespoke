@@ -1,0 +1,355 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/wrapper-validation@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "target": "edmodo/cropper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "target": "gradle/actions/wrapper-validation@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "target": "gradle/gradle-build-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "target": "gradle/gradle-build-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "target": "Publish Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yml",
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yml",
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yml",
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "target": "gradle/gradle-build-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-snapshot.yml",
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "target": "Publish Snapshot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "target": "android-image-crop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "target": "android-image-cropper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "target": "android-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "target": "camera",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "target": "canhub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "target": "cropper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "target": "gallery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "target": "kotlin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T16:46:48.828564+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6424
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 710
+    },
+    {
+      "path": ".github/workflows/publish-release.yml",
+      "size": 907
+    },
+    {
+      "path": ".github/workflows/publish-snapshot.yml",
+      "size": 952
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Image Cropping Library for Android, optimised for Camera / Gallery.",
+    "fork": false,
+    "full_name": "CanHub/Android-Image-Cropper",
+    "html_url": "https://github.com/CanHub/Android-Image-Cropper",
+    "language": "Kotlin",
+    "pushed_at": "2026-04-28T07:09:28Z",
+    "stargazers_count": 1485,
+    "topics": [
+      "android",
+      "android-image-crop",
+      "android-image-cropper",
+      "android-library",
+      "camera",
+      "canhub",
+      "cropper",
+      "gallery",
+      "hacktoberfest",
+      "kotlin"
+    ],
+    "updated_at": "2026-05-03T10:17:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edmodo/cropper",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Publish Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-release.yml",
+      "term": "Publish Release"
+    },
+    {
+      "context_snippet": "Publish Snapshot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-snapshot.yml",
+      "term": "Publish Snapshot"
+    },
+    {
+      "context_snippet": "[![CanHub](.documentation/art/cover.png?raw=true)](https://github.com/canhub)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "[![CanHub](.documentation/art/cover.png?raw=true)](https://github.com/canhub)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-image-crop"
+    },
+    {
+      "context_snippet": "[![CanHub](.documentation/art/cover.png?raw=true)](https://github.com/canhub)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-image-cropper"
+    },
+    {
+      "context_snippet": "[![CanHub](.documentation/art/cover.png?raw=true)](https://github.com/canhub)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-library"
+    },
+    {
+      "context_snippet": "[![CanHub](.documentation/art/cover.png?raw=true)](https://github.com/canhub)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "camera"
+    },
+    {
+      "context_snippet": "[![CanHub](.documentation/art/cover.png?raw=true)](https://github.com/canhub)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "canhub"
+    },
+    {
+      "context_snippet": "[![CanHub](.documentation/art/cover.png?raw=true)](https://github.com/canhub)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cropper"
+    },
+    {
+      "context_snippet": "[![CanHub](.documentation/art/cover.png?raw=true)](https://github.com/canhub)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gallery"
+    },
+    {
+      "context_snippet": "[![CanHub](.documentation/art/cover.png?raw=true)](https://github.com/canhub)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![CanHub](.documentation/art/cover.png?raw=true)](https://github.com/canhub)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    }
+  ]
+}

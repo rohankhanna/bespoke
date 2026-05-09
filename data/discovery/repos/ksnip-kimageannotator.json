@@ -1,0 +1,234 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "jurplel/install-qt-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "jurplel/install-qt-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "myci-actions/export-env-var-powershell@1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ksnip/kImageAnnotator",
+      "target": "ksnip/kcolorpicker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "ksnip/kImageAnnotator",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "ksnip/kImageAnnotator",
+      "target": "jurplel/install-qt-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "ksnip/kImageAnnotator",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "ksnip/kImageAnnotator",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "ksnip/kImageAnnotator",
+      "target": "jurplel/install-qt-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "ksnip/kImageAnnotator",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "ksnip/kImageAnnotator",
+      "target": "myci-actions/export-env-var-powershell@1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "ksnip/kImageAnnotator",
+      "target": "windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksnip/kImageAnnotator",
+      "target": "annotating-images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksnip/kImageAnnotator",
+      "target": "arrows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksnip/kImageAnnotator",
+      "target": "blur",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksnip/kImageAnnotator",
+      "target": "drawing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksnip/kImageAnnotator",
+      "target": "shapes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksnip/kImageAnnotator",
+      "target": "stick",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T12:46:27.644402+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2973
+    },
+    {
+      "path": ".github/workflows/linux.yml",
+      "size": 1099
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "size": 1212
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tool for annotating images",
+    "fork": false,
+    "full_name": "ksnip/kImageAnnotator",
+    "html_url": "https://github.com/ksnip/kImageAnnotator",
+    "language": "C++",
+    "pushed_at": "2026-04-13T16:09:54Z",
+    "stargazers_count": 92,
+    "topics": [
+      "annotating-images",
+      "arrows",
+      "blur",
+      "drawing",
+      "shapes",
+      "stick"
+    ],
+    "updated_at": "2026-05-04T07:59:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ksnip/kcolorpicker",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "term": "linux"
+    },
+    {
+      "context_snippet": "windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "term": "windows"
+    },
+    {
+      "context_snippet": "Tool for annotating images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "annotating-images"
+    },
+    {
+      "context_snippet": "Tool for annotating images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arrows"
+    },
+    {
+      "context_snippet": "Tool for annotating images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blur"
+    },
+    {
+      "context_snippet": "Tool for annotating images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "drawing"
+    },
+    {
+      "context_snippet": "Tool for annotating images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shapes"
+    },
+    {
+      "context_snippet": "Tool for annotating images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stick"
+    }
+  ]
+}

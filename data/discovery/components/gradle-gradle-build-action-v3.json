@@ -1,7 +1,7 @@
 {
   "component": "gradle/gradle-build-action@v3",
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pre-merge.yaml",
       "source_repo": "cortinico/ktfmt-gradle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CanHub/Android-Image-Cropper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "CanHub/Android-Image-Cropper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yml",
+      "source_repo": "CanHub/Android-Image-Cropper"
     }
   ]
 }

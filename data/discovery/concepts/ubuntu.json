@@ -466,6 +466,18 @@
       "source_repo": "ungoogled-software/ungoogled-chromium-debian",
       "status": "candidate-context",
       "text": "#!/bin/bash # convert.sh # # Perform the conversion from Chromium to ungoogled-chromium # set -e test -n \"$DOWNLOAD_DIR\" test -n \"$OUTPUT_DIR\" test -n \"$STATE_DIR\" test -n \"$WORK_DIR\" test -d \"$GITHUB_WORKSPACE\" uc_git=$GITHUB_WORKSPACE/ungoogled-chromium wrap= tab=' ' run() { e\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aandrew-me/ytDownloader",
+      "status": "candidate-context",
+      "text": "Desktop App for downloading Videos and Audios from hundreds of sites"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aandrew-me/ytDownloader",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github-production-user-asset-6210df.s3.amazonaws.com/66430340/238887646-33b4cba9-3c45-4042-83d1-b79e94a3a769.png\" style=\"width:80px;\">"
     }
   ],
   "candidate_glosses": [
@@ -714,6 +726,12 @@
       "source_repo": "ungoogled-software/ungoogled-chromium-debian",
       "status": "candidate",
       "text": "#!/bin/bash # convert.sh # # Perform the conversion from Chromium to ungoogled-chromium # set -e test -n \"$DOWNLOAD_DIR\" test -n \"$OUTPUT_DIR\" test -n \"$STATE_DIR\" test -n \"$WORK_DIR\" test -d \"$GITHUB_WORKSPACE\" uc_git=$GITHUB_WORKSPACE/ungoogled-chromium wrap= tab=' ' run() { e\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aandrew-me/ytDownloader",
+      "status": "candidate",
+      "text": "<img src=\"https://github-production-user-asset-6210df.s3.amazonaws.com/66430340/238887646-33b4cba9-3c45-4042-83d1-b79e94a3a769.png\" style=\"width:80px;\">"
     }
   ],
   "candidate_related_terms": [
@@ -1147,11 +1165,23 @@
       "observed_at": "2026-05-09T06:51:24.890752+00:00",
       "source_file": ".github/workflows/ubuntu.yml",
       "source_repo": "isl-org/open3d-cmake-external-project"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "isl-org/open3d-cmake-external-project"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "aandrew-me/ytDownloader"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

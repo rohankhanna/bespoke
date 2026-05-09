@@ -1,0 +1,520 @@
+{
+  "components": [
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makeobj.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makeobj.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makeobj.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makeobj.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makeobj.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makeobj.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makeobj.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-android.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-android.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-android.yml"
+    },
+    {
+      "component": "r0adkll/upload-google-play@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-android.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-macos-arm.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-macos-arm.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-macos-intel.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-macos-intel.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-ubuntu.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-ubuntu.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows-ms.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows-ms.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows-ms.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows.broken"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows.broken"
+    },
+    {
+      "component": "joncloud/makensis-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows.broken"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows.broken"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows64-SDL2-ms.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows64-SDL2-ms.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows64-SDL2-ms.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows64-SDL2.broken"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows64-SDL2.broken"
+    },
+    {
+      "component": "joncloud/makensis-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows64-SDL2.broken"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows64-SDL2.broken"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makeobj.yml",
+      "source_repo": "aburch/simutrans",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makeobj.yml",
+      "source_repo": "aburch/simutrans",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makeobj.yml",
+      "source_repo": "aburch/simutrans",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/makeobj.yml",
+      "source_repo": "aburch/simutrans",
+      "target": "Nightly build makeobj",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-android.yml",
+      "source_repo": "aburch/simutrans",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-android.yml",
+      "source_repo": "aburch/simutrans",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-android.yml",
+      "source_repo": "aburch/simutrans",
+      "target": "r0adkll/upload-google-play@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-android.yml",
+      "source_repo": "aburch/simutrans",
+      "target": "Nightly build Android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-macos-arm.yml",
+      "source_repo": "aburch/simutrans",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-macos-arm.yml",
+      "source_repo": "aburch/simutrans",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-macos-arm.yml",
+      "source_repo": "aburch/simutrans",
+      "target": "Nightly build MacOS ARM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-macos-intel.yml",
+      "source_repo": "aburch/simutrans",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-macos-intel.yml",
+      "source_repo": "aburch/simutrans",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-macos-intel.yml",
+      "source_repo": "aburch/simutrans",
+      "target": "Nightly build MacOS Intel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-ubuntu.yml",
+      "source_repo": "aburch/simutrans",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-ubuntu.yml",
+      "source_repo": "aburch/simutrans",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-ubuntu.yml",
+      "source_repo": "aburch/simutrans",
+      "target": "Nightly build Ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows-ms.yml",
+      "source_repo": "aburch/simutrans",
+      "target": "microsoft/setup-msbuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows-ms.yml",
+      "source_repo": "aburch/simutrans",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows-ms.yml",
+      "source_repo": "aburch/simutrans",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-windows-ms.yml",
+      "source_repo": "aburch/simutrans",
+      "target": "Nightly Build Windows32 GDI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows.broken",
+      "source_repo": "aburch/simutrans",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows.broken",
+      "source_repo": "aburch/simutrans",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows.broken",
+      "source_repo": "aburch/simutrans",
+      "target": "joncloud/makensis-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows.broken",
+      "source_repo": "aburch/simutrans",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-windows.broken",
+      "source_repo": "aburch/simutrans",
+      "target": "Nightly Build Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows64-SDL2-ms.yml",
+      "source_repo": "aburch/simutrans",
+      "target": "microsoft/setup-msbuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows64-SDL2-ms.yml",
+      "source_repo": "aburch/simutrans",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows64-SDL2-ms.yml",
+      "source_repo": "aburch/simutrans",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-windows64-SDL2-ms.yml",
+      "source_repo": "aburch/simutrans",
+      "target": "Nightly Built Windows64 SDL2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows64-SDL2.broken",
+      "source_repo": "aburch/simutrans",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows64-SDL2.broken",
+      "source_repo": "aburch/simutrans",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows64-SDL2.broken",
+      "source_repo": "aburch/simutrans",
+      "target": "joncloud/makensis-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows64-SDL2.broken",
+      "source_repo": "aburch/simutrans",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-windows64-SDL2.broken",
+      "source_repo": "aburch/simutrans",
+      "target": "Nightly Built Windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T15:52:04.708979+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9892
+    },
+    {
+      "path": ".github/workflows/makeobj.yml",
+      "size": 3145
+    },
+    {
+      "path": ".github/workflows/nightly-android.yml",
+      "size": 7429
+    },
+    {
+      "path": ".github/workflows/nightly-macos-arm.yml",
+      "size": 795
+    },
+    {
+      "path": ".github/workflows/nightly-macos-intel.yml",
+      "size": 792
+    },
+    {
+      "path": ".github/workflows/nightly-ubuntu.yml",
+      "size": 1910
+    },
+    {
+      "path": ".github/workflows/nightly-windows-ms.yml",
+      "size": 1447
+    },
+    {
+      "path": ".github/workflows/nightly-windows.broken",
+      "size": 1229
+    },
+    {
+      "path": ".github/workflows/nightly-windows64-SDL2-ms.yml",
+      "size": 1333
+    },
+    {
+      "path": ".github/workflows/nightly-windows64-SDL2.broken",
+      "size": 1274
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Mirror of Simutrans SVN Repository",
+    "fork": false,
+    "full_name": "aburch/simutrans",
+    "html_url": "https://github.com/aburch/simutrans",
+    "language": "C++",
+    "pushed_at": "2026-05-08T10:36:30Z",
+    "stargazers_count": 450,
+    "topics": [],
+    "updated_at": "2026-05-08T10:36:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Nightly build makeobj",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/makeobj.yml",
+      "term": "Nightly build makeobj"
+    },
+    {
+      "context_snippet": "Nightly build Android",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-android.yml",
+      "term": "Nightly build Android"
+    },
+    {
+      "context_snippet": "Nightly build MacOS ARM",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-macos-arm.yml",
+      "term": "Nightly build MacOS ARM"
+    },
+    {
+      "context_snippet": "Nightly build MacOS Intel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-macos-intel.yml",
+      "term": "Nightly build MacOS Intel"
+    },
+    {
+      "context_snippet": "Nightly build Ubuntu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-ubuntu.yml",
+      "term": "Nightly build Ubuntu"
+    },
+    {
+      "context_snippet": "Nightly Build Windows32 GDI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-windows-ms.yml",
+      "term": "Nightly Build Windows32 GDI"
+    },
+    {
+      "context_snippet": "Nightly Build Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-windows.broken",
+      "term": "Nightly Build Windows"
+    },
+    {
+      "context_snippet": "Nightly Built Windows64 SDL2",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-windows64-SDL2-ms.yml",
+      "term": "Nightly Built Windows64 SDL2"
+    },
+    {
+      "context_snippet": "Nightly Built Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-windows64-SDL2.broken",
+      "term": "Nightly Built Windows"
+    }
+  ]
+}

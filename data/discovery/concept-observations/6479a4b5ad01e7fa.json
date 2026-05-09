@@ -84,7 +84,7 @@
   "normalized_form": "docker-image-build-orchestrator",
   "observation_id": "6479a4b5ad01e7fa",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-09T00:39:13.791861+00:00",
+  "observed_at": "2026-05-09T12:31:19.030154+00:00",
   "observed_text": "Docker Image Build Orchestrator",
   "source_context_snippet": "Docker Image Build Orchestrator",
   "source_file": ".github/workflows/trigger.yml",

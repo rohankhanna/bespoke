@@ -399,6 +399,18 @@
       "source_repo": "KulikDM/pythresh",
       "status": "candidate-context",
       "text": "Publish Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "status": "candidate-context",
+      "text": "Image Cropping Library for Android, optimised for Camera / Gallery."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "status": "candidate-context",
+      "text": "Publish Release"
     }
   ],
   "candidate_glosses": [
@@ -597,6 +609,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "KulikDM/pythresh",
+      "status": "candidate",
+      "text": "Publish Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CanHub/Android-Image-Cropper",
       "status": "candidate",
       "text": "Publish Release"
     }
@@ -1056,11 +1074,23 @@
       "observed_at": "2026-05-09T06:51:24.890752+00:00",
       "source_file": ".github/workflows/publish_release.yml",
       "source_repo": "swiftlang/swift-syntax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "swiftlang/swift-syntax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "CanHub/Android-Image-Cropper"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

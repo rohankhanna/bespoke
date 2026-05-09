@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-09T15:42:01.392281+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3060
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "danielrosehill/Claude-HP5200-Skill-plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-HP5200-Skill-plugin",
+    "language": "Typst",
+    "pushed_at": "2026-04-27T15:13:45Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-27T15:15:07Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

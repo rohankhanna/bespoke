@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "nintendo"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0ldsk00l/nestopia",
+      "status": "candidate-context",
+      "text": "Cross-platform Nestopia emulator core with a GUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0ldsk00l/nestopia",
+      "status": "candidate-context",
+      "text": "This project is a fork of the original Nestopia source code, plus the"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0ldsk00l/nestopia",
+      "status": "candidate",
+      "text": "This project is a fork of the original Nestopia source code, plus the"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19963683,
+      "status": "candidate",
+      "text": "ninty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19963682,
+      "status": "candidate",
+      "text": "nintendo thumb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19963681,
+      "status": "candidate",
+      "text": "nintendinitis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19963680,
+      "status": "candidate",
+      "text": "nintendocore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19963679,
+      "status": "candidate",
+      "text": "nintendo generation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "nintendo",
+  "concept_id": "nintendo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "0ldsk00l/nestopia"
+    }
+  ],
+  "first_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nintendo",
+      "sense_id": "nintendo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

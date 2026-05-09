@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -556,6 +556,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "WisdomShell/text-generation-inference"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "yaroslavyaroslav/OpenAI-sublime-text"
     }
   ],
   "term": "Close stale issues and PRs"

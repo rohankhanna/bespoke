@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "android-image-cropper"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ArthurHub/Android-Image-Cropper",
+      "status": "candidate-context",
+      "text": "Image Cropping Library for Android, optimized for Camera / Gallery."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArthurHub/Android-Image-Cropper",
+      "status": "candidate-context",
+      "text": "Android Image Cropper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "status": "candidate-context",
+      "text": "Image Cropping Library for Android, optimised for Camera / Gallery."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "status": "candidate-context",
+      "text": "[![CanHub](.documentation/art/cover.png?raw=true)](https://github.com/canhub)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArthurHub/Android-Image-Cropper",
+      "status": "candidate",
+      "text": "Android Image Cropper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CanHub/Android-Image-Cropper",
+      "status": "candidate",
+      "text": "[![CanHub](.documentation/art/cover.png?raw=true)](https://github.com/canhub)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "android-image-cropper",
+  "concept_id": "android-image-cropper",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "ArthurHub/Android-Image-Cropper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "CanHub/Android-Image-Cropper"
+    }
+  ],
+  "first_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "android-image-cropper",
+      "sense_id": "android-image-cropper#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

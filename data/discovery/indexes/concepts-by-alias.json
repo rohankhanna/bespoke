@@ -2208,6 +2208,9 @@
   "ai-serving": [
     "ai-serving"
   ],
+  "ai-skill": [
+    "ai-skill"
+  ],
   "ai-skills": [
     "ai-skills"
   ],
@@ -3129,6 +3132,12 @@
   "android-full-build-test": [
     "android-full-build-test"
   ],
+  "android-image-crop": [
+    "android-image-crop"
+  ],
+  "android-image-cropper": [
+    "android-image-cropper"
+  ],
   "android-library": [
     "android-library"
   ],
@@ -3296,6 +3305,9 @@
   ],
   "annotaion": [
     "annotaion"
+  ],
+  "annotating-images": [
+    "annotating-images"
   ],
   "annotation": [
     "annotation"
@@ -4645,6 +4657,9 @@
   ],
   "arrow-functions": [
     "arrow-functions"
+  ],
+  "arrows": [
+    "arrows"
   ],
   "artexplainer docker publisher": [
     "artexplainer-docker-publisher"
@@ -11551,6 +11566,9 @@
   "build base dpdk": [
     "build-base-dpdk"
   ],
+  "build base-grpc images": [
+    "build-base-grpc-images"
+  ],
   "build basic wheels": [
     "build-basic-wheels"
   ],
@@ -15131,6 +15149,9 @@
   "candle": [
     "candle"
   ],
+  "canhub": [
+    "canhub"
+  ],
   "canister": [
     "canister"
   ],
@@ -16304,6 +16325,9 @@
   "cheatcodes": [
     "cheatcodes"
   ],
+  "cheatsheet": [
+    "cheatsheet"
+  ],
   "check": [
     "check"
   ],
@@ -17275,6 +17299,9 @@
   ],
   "check risc-v image in docker manifest": [
     "check-risc-v-image-in-docker-manifest"
+  ],
+  "check root skills": [
+    "check-root-skills"
   ],
   "check rst lint for documentation": [
     "check-rst-lint-for-documentation"
@@ -25564,6 +25591,9 @@
   ],
   "crop-image": [
     "crop-image"
+  ],
+  "cropper": [
+    "cropper"
   ],
   "cross": [
     "cross"
@@ -35356,6 +35386,9 @@
   ],
   "expense contribution": [
     "expense-contribution"
+  ],
+  "expenses": [
+    "expenses"
   ],
   "experiment": [
     "experiment"
@@ -59353,6 +59386,9 @@
   "neovim-dotfiles": [
     "neovim-dotfiles"
   ],
+  "neovim-gui": [
+    "neovim-gui"
+  ],
   "neovim-lsp": [
     "neovim-lsp"
   ],
@@ -59418,6 +59454,9 @@
   ],
   "nestjs": [
     "nestjs"
+  ],
+  "nestopia": [
+    "nestopia"
   ],
   "net-winforms": [
     "net-winforms"
@@ -59952,6 +59991,9 @@
   "nightly build and upload": [
     "nightly-build-and-upload"
   ],
+  "nightly build android": [
+    "nightly-build-android"
+  ],
   "nightly build downstream dependencies": [
     "nightly-build-downstream-dependencies"
   ],
@@ -59964,11 +60006,35 @@
   "nightly build jdk 25": [
     "nightly-build-jdk-25"
   ],
+  "nightly build macos arm": [
+    "nightly-build-macos-arm"
+  ],
+  "nightly build macos intel": [
+    "nightly-build-macos-intel"
+  ],
+  "nightly build makeobj": [
+    "nightly-build-makeobj"
+  ],
   "nightly build oracle": [
     "nightly-build-oracle"
   ],
+  "nightly build ubuntu": [
+    "nightly-build-ubuntu"
+  ],
+  "nightly build windows": [
+    "nightly-build-windows"
+  ],
+  "nightly build windows32 gdi": [
+    "nightly-build-windows32-gdi"
+  ],
   "nightly builds": [
     "nightly-builds"
+  ],
+  "nightly built windows": [
+    "nightly-built-windows"
+  ],
+  "nightly built windows64 sdl2": [
+    "nightly-built-windows64-sdl2"
   ],
   "nightly canary release": [
     "nightly-canary-release"
@@ -60246,11 +60312,17 @@
   "ninjaframework": [
     "ninjaframework"
   ],
+  "nintendo": [
+    "nintendo"
+  ],
   "nintendo-3ds": [
     "nintendo-3ds"
   ],
   "nintendo-hacking": [
     "nintendo-hacking"
+  ],
+  "nintendo-nes": [
+    "nintendo-nes"
   ],
   "nips-2017": [
     "nips-2017"
@@ -67101,6 +67173,9 @@
   "pr labeler": [
     "pr-labeler"
   ],
+  "pr labeler tests": [
+    "pr-labeler-tests"
+  ],
   "pr labeller": [
     "pr-labeller"
   ],
@@ -69125,6 +69200,9 @@
   ],
   "publish cli (trusted)": [
     "publish-cli-trusted"
+  ],
+  "publish cli-anything-hub to pypi": [
+    "publish-cli-anything-hub-to-pypi"
   ],
   "publish client conformance report": [
     "publish-client-conformance-report"
@@ -79958,6 +80036,9 @@
   "shapenet": [
     "shapenet"
   ],
+  "shapes": [
+    "shapes"
+  ],
   "shapley": [
     "shapley"
   ],
@@ -83413,6 +83494,9 @@
   ],
   "stft": [
     "stft"
+  ],
+  "stick": [
+    "stick"
   ],
   "still": [
     "en-discourse_marker-still"
@@ -98409,6 +98493,9 @@
   ],
   "yt-dlp": [
     "yt-dlp"
+  ],
+  "ytdownloader": [
+    "ytdownloader"
   ],
   "yubikey": [
     "yubikey"

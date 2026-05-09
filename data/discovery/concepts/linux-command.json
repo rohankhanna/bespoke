@@ -19,6 +19,18 @@
       "source_repo": "jaywcjlove/linux-command",
       "status": "candidate-context",
       "text": "<div align=\"center\" markdown=\"1\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chenjiandongx/pls",
+      "status": "candidate-context",
+      "text": "\u270f\ufe0f Impressive Linux commands cheat sheet CLI written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chenjiandongx/pls",
+      "status": "candidate-context",
+      "text": "> Impressive Linux commands cheat sheet cli. [Python \u7248\u672c](https://github.com/chenjiandongx/how)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jaywcjlove/linux-command",
       "status": "candidate",
       "text": "<div align=\"center\" markdown=\"1\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chenjiandongx/pls",
+      "status": "candidate",
+      "text": "> Impressive Linux commands cheat sheet cli. [Python \u7248\u672c](https://github.com/chenjiandongx/how)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-09T06:51:24.890752+00:00",
       "source_file": null,
       "source_repo": "jaywcjlove/linux-command"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "chenjiandongx/pls"
     }
   ],
   "first_seen_at": "2026-05-09T06:51:24.890752+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

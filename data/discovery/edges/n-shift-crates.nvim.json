@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "n-shift/crates.nvim",
+      "target": "vuki656/package-info.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "n-shift/crates.nvim",
+      "target": "shaunsingh/nord.nvim",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-09T12:31:19.030154+00:00",
+  "source_repo": "n-shift/crates.nvim"
+}

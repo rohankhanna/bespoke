@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "jurplel/install-qt-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ksnip/kColorPicker",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ksnip/kColorPicker",
+      "target": "jurplel/install-qt-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ksnip/kColorPicker",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksnip/kColorPicker",
+      "target": "color-palette",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksnip/kColorPicker",
+      "target": "color-picker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T15:42:06.809293+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1764
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 646
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Qt based Color Picker with popup menu",
+    "fork": false,
+    "full_name": "ksnip/kColorPicker",
+    "html_url": "https://github.com/ksnip/kColorPicker",
+    "language": "C++",
+    "pushed_at": "2025-10-22T05:23:42Z",
+    "stargazers_count": 48,
+    "topics": [
+      "color-palette",
+      "color-picker"
+    ],
+    "updated_at": "2026-01-18T04:12:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "QToolButton with color popup menu with lets you select a color. The popup features a color dialog button which can be used to add custom colors to the popup menu.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-palette"
+    },
+    {
+      "context_snippet": "QToolButton with color popup menu with lets you select a color. The popup features a color dialog button which can be used to add custom colors to the popup menu.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-picker"
+    }
+  ]
+}

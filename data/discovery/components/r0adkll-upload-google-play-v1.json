@@ -1,0 +1,12 @@
+{
+  "component": "r0adkll/upload-google-play@v1",
+  "first_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly-android.yml",
+      "source_repo": "aburch/simutrans"
+    }
+  ]
+}

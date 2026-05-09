@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "Ernest-su/LinuxCmd",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "Ernest-su/LinuxCmd",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "Ernest-su/LinuxCmd",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "Ernest-su/LinuxCmd",
+      "target": "Android CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T13:39:28.678084+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3472
+    },
+    {
+      "path": ".github/workflows/android.yml",
+      "size": 1035
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "android linux command manual",
+    "fork": false,
+    "full_name": "Ernest-su/LinuxCmd",
+    "html_url": "https://github.com/Ernest-su/LinuxCmd",
+    "language": "CSS",
+    "pushed_at": "2023-02-03T11:09:19Z",
+    "stargazers_count": 75,
+    "topics": [],
+    "updated_at": "2026-02-05T10:32:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Android CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "term": "Android CI"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ArthurHub/Android-Image-Cropper",
+      "target": "canhub/android-image-cropper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ArthurHub/Android-Image-Cropper",
+      "target": "edmodo/cropper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArthurHub/Android-Image-Cropper",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArthurHub/Android-Image-Cropper",
+      "target": "android-image-cropper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArthurHub/Android-Image-Cropper",
+      "target": "cropper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T14:44:11.621144+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6458
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Image Cropping Library for Android, optimized for Camera / Gallery.",
+    "fork": false,
+    "full_name": "ArthurHub/Android-Image-Cropper",
+    "html_url": "https://github.com/ArthurHub/Android-Image-Cropper",
+    "language": "Java",
+    "pushed_at": "2023-09-17T15:20:18Z",
+    "stargazers_count": 6424,
+    "topics": [
+      "android",
+      "android-image-cropper",
+      "cropper"
+    ],
+    "updated_at": "2026-05-05T12:08:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "canhub/android-image-cropper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edmodo/cropper",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Android Image Cropper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "Android Image Cropper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-image-cropper"
+    },
+    {
+      "context_snippet": "Android Image Cropper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cropper"
+    }
+  ]
+}

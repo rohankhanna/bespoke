@@ -84,7 +84,7 @@
   "normalized_form": "docker-coq-ci",
   "observation_id": "55ee1912e6188be9",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-09T00:39:13.791861+00:00",
+  "observed_at": "2026-05-09T12:31:19.030154+00:00",
   "observed_text": "Docker-Coq CI",
   "source_context_snippet": "Docker-Coq CI",
   "source_file": ".github/workflows/coq-demo.yml",

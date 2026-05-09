@@ -19,6 +19,18 @@
       "source_repo": "dzhng/deep-research",
       "status": "candidate-context",
       "text": "An AI-powered research assistant that performs iterative, deep research on any topic by combining search engines, web scraping, and large language models."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yaroslavyaroslav/OpenAI-sublime-text",
+      "status": "candidate-context",
+      "text": "First class Sublime Text AI assistant with gpt-5, Opus 4.6, Gemini 3 and ollama support!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yaroslavyaroslav/OpenAI-sublime-text",
+      "status": "candidate-context",
+      "text": "[![Star on GitHub][img-stars]][stars] ![Package Control][img-downloads]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "dzhng/deep-research",
       "status": "candidate",
       "text": "An AI-powered research assistant that performs iterative, deep research on any topic by combining search engines, web scraping, and large language models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yaroslavyaroslav/OpenAI-sublime-text",
+      "status": "candidate",
+      "text": "[![Star on GitHub][img-stars]][stars] ![Package Control][img-downloads]"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-08T12:43:50.373126+00:00",
       "source_file": null,
       "source_repo": "dzhng/deep-research"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "yaroslavyaroslav/OpenAI-sublime-text"
     }
   ],
   "first_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

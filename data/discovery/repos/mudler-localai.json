@@ -13,36 +13,6 @@
     {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/backend.yml"
-    },
-    {
-      "component": "actions/setup-go@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/backend.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v7",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/backend.yml"
-    },
-    {
-      "component": "actions/download-artifact@v8",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/backend.yml"
-    },
-    {
-      "component": "docker/metadata-action@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/backend.yml"
-    },
-    {
-      "component": "docker/metadata-action@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/backend.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend_build.yml"
     },
     {
@@ -188,6 +158,31 @@
     {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-images.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-images.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-images.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-images.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-images.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.yaml"
     },
     {
@@ -224,21 +219,6 @@
       "component": "actions/upload-artifact@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.yaml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/bump-inference-defaults.yml"
-    },
-    {
-      "component": "actions/setup-go@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/bump-inference-defaults.yml"
-    },
-    {
-      "component": "peter-evans/create-pull-request@v8",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/bump-inference-defaults.yml"
     }
   ],
   "edges": [
@@ -275,34 +255,6 @@
       "source_file": ".github/workflows/backend.yml",
       "source_repo": "mudler/LocalAI",
       "target": "oven-sh/setup-bun@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/backend.yml",
-      "source_repo": "mudler/LocalAI",
-      "target": "actions/setup-go@v5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/backend.yml",
-      "source_repo": "mudler/LocalAI",
-      "target": "actions/upload-artifact@v7",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/backend.yml",
-      "source_repo": "mudler/LocalAI",
-      "target": "actions/download-artifact@v8",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/backend.yml",
-      "source_repo": "mudler/LocalAI",
-      "target": "docker/metadata-action@v6",
       "target_type": "component"
     },
     {
@@ -475,6 +427,48 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-images.yml",
+      "source_repo": "mudler/LocalAI",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-images.yml",
+      "source_repo": "mudler/LocalAI",
+      "target": "docker/setup-qemu-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-images.yml",
+      "source_repo": "mudler/LocalAI",
+      "target": "docker/setup-buildx-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-images.yml",
+      "source_repo": "mudler/LocalAI",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-images.yml",
+      "source_repo": "mudler/LocalAI",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/base-images.yml",
+      "source_repo": "mudler/LocalAI",
+      "target": "build base-grpc images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.yaml",
       "source_repo": "mudler/LocalAI",
       "target": "actions/checkout@v6",
@@ -499,34 +493,6 @@
       "source_file": ".github/workflows/build-test.yaml",
       "source_repo": "mudler/LocalAI",
       "target": "Build test",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/bump-inference-defaults.yml",
-      "source_repo": "mudler/LocalAI",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/bump-inference-defaults.yml",
-      "source_repo": "mudler/LocalAI",
-      "target": "actions/setup-go@v5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/bump-inference-defaults.yml",
-      "source_repo": "mudler/LocalAI",
-      "target": "peter-evans/create-pull-request@v8",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/bump-inference-defaults.yml",
-      "source_repo": "mudler/LocalAI",
-      "target": "Bump inference defaults",
       "target_type": "term"
     },
     {
@@ -614,7 +580,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-09T08:00:22.225704+00:00",
+  "fetched_at": "2026-05-09T16:44:46.792684+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -630,7 +596,7 @@
     },
     {
       "path": ".github/workflows/backend.yml",
-      "size": 8073
+      "size": 5173
     },
     {
       "path": ".github/workflows/backend_build.yml",
@@ -638,7 +604,7 @@
     },
     {
       "path": ".github/workflows/backend_build_darwin.yml",
-      "size": 10163
+      "size": 10756
     },
     {
       "path": ".github/workflows/backend_merge.yml",
@@ -646,15 +612,15 @@
     },
     {
       "path": ".github/workflows/backend_pr.yml",
-      "size": 3860
+      "size": 3915
+    },
+    {
+      "path": ".github/workflows/base-images.yml",
+      "size": 5095
     },
     {
       "path": ".github/workflows/build-test.yaml",
       "size": 1731
-    },
-    {
-      "path": ".github/workflows/bump-inference-defaults.yml",
-      "size": 1442
     }
   ],
   "related_repositories": [],
@@ -666,8 +632,8 @@
     "full_name": "mudler/LocalAI",
     "html_url": "https://github.com/mudler/LocalAI",
     "language": "Go",
-    "pushed_at": "2026-05-09T07:37:02Z",
-    "stargazers_count": 46147,
+    "pushed_at": "2026-05-09T16:44:42Z",
+    "stargazers_count": 46159,
     "topics": [
       "agents",
       "ai",
@@ -688,7 +654,7 @@
       "text-generation",
       "tts"
     ],
-    "updated_at": "2026-05-09T07:48:11Z"
+    "updated_at": "2026-05-09T16:34:01Z"
   },
   "repo_links": [
     {
@@ -733,16 +699,16 @@
       "term": "build backend container images (PR-filtered)"
     },
     {
+      "context_snippet": "'build base-grpc images'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/base-images.yml",
+      "term": "build base-grpc images"
+    },
+    {
       "context_snippet": "Build test",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/build-test.yaml",
       "term": "Build test"
-    },
-    {
-      "context_snippet": "Bump inference defaults",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/bump-inference-defaults.yml",
-      "term": "Bump inference defaults"
     },
     {
       "context_snippet": "<h1 align=\"center\">",

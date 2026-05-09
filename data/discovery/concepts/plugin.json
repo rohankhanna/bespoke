@@ -1498,6 +1498,18 @@
       "source_repo": "danielrosehill/Claude-Gist-Writer-Plugin",
       "status": "candidate-context",
       "text": "Publish content to GitHub gists with clear AI authorship and a PII pre-flight scrub for public publishes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mhinz/vim-crates",
+      "status": "candidate-context",
+      "text": "Handle Cargo dependencies like a Rustavimean."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhinz/vim-crates",
+      "status": "candidate-context",
+      "text": "When maintaining Rust projects, this plugin helps with updating the dependencies"
     }
   ],
   "candidate_glosses": [
@@ -2250,6 +2262,12 @@
       "source_repo": "danielrosehill/Claude-Gist-Writer-Plugin",
       "status": "candidate",
       "text": "Publish content to GitHub gists with clear AI authorship and a PII pre-flight scrub for public publishes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhinz/vim-crates",
+      "status": "candidate",
+      "text": "When maintaining Rust projects, this plugin helps with updating the dependencies"
     }
   ],
   "candidate_related_terms": [
@@ -3901,11 +3919,53 @@
       "observed_at": "2026-05-09T06:51:24.890752+00:00",
       "source_file": null,
       "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "mhinz/vim-crates"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "bencheeorg/benchee_html"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "deforum/sd-webui-deforum"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

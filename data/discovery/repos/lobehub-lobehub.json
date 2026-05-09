@@ -1941,6 +1941,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lobehub/lobehub",
+      "target": "actions/workflows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobehub",
       "target": "lobehub/lobe-commit",
       "target_type": "repository"
     },
@@ -4745,7 +4752,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-09T07:10:39.582317+00:00",
+  "fetched_at": "2026-05-09T16:39:35.229376+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -4753,7 +4760,7 @@
     },
     {
       "path": "Dockerfile",
-      "size": 11429
+      "size": 11472
     },
     {
       "path": "package.json",
@@ -4797,8 +4804,8 @@
     "full_name": "lobehub/lobehub",
     "html_url": "https://github.com/lobehub/lobehub",
     "language": "TypeScript",
-    "pushed_at": "2026-05-09T07:05:19Z",
-    "stargazers_count": 76629,
+    "pushed_at": "2026-05-09T16:38:29Z",
+    "stargazers_count": 76742,
     "topics": [
       "agent",
       "agent-collaboration",
@@ -4813,9 +4820,14 @@
       "mcp",
       "openai"
     ],
-    "updated_at": "2026-05-09T07:08:03Z"
+    "updated_at": "2026-05-09T16:36:33Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "actions/workflows",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "lobehub/lobe-commit",

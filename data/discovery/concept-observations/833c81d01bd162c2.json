@@ -84,7 +84,7 @@
   "normalized_form": "knobs",
   "observation_id": "833c81d01bd162c2",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-09T00:39:13.791861+00:00",
+  "observed_at": "2026-05-09T12:31:19.030154+00:00",
   "observed_text": "knobs",
   "source_context_snippet": "This Storybook plugin uses `@storybook/addon-knobs` but creates the knobs automatically based on PropTypes, Flow and Typescript.",
   "source_file": null,

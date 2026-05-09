@@ -1,0 +1,75 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chenjiandongx/pls",
+      "target": "chenjiandongx/how",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chenjiandongx/pls",
+      "target": "cheatsheet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chenjiandongx/pls",
+      "target": "linux-command",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-09T13:39:26.909926+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1245
+    },
+    {
+      "path": "go.mod",
+      "size": 250
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u270f\ufe0f Impressive Linux commands cheat sheet CLI written in Go.",
+    "fork": false,
+    "full_name": "chenjiandongx/pls",
+    "html_url": "https://github.com/chenjiandongx/pls",
+    "language": "Go",
+    "pushed_at": "2021-06-16T17:14:05Z",
+    "stargazers_count": 84,
+    "topics": [
+      "cheatsheet",
+      "linux-command"
+    ],
+    "updated_at": "2026-03-23T09:11:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chenjiandongx/how",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Impressive Linux commands cheat sheet cli. [Python \u7248\u672c](https://github.com/chenjiandongx/how)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cheatsheet"
+    },
+    {
+      "context_snippet": "> Impressive Linux commands cheat sheet cli. [Python \u7248\u672c](https://github.com/chenjiandongx/how)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux-command"
+    }
+  ]
+}

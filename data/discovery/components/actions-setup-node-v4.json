@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -10317,6 +10317,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/rename_test.yaml",
       "source_repo": "abap2UI5-addons/sql-console"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-labeler-tests.yml",
+      "source_repo": "HKUDS/CLI-Anything"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "aandrew-me/ytDownloader"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "doolijb/serene-pub"
     }
   ]
 }

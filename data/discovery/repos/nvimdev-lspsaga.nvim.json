@@ -125,7 +125,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-09T02:53:13.353187+00:00",
+  "fetched_at": "2026-05-09T16:58:08.541514+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -146,7 +146,7 @@
     "html_url": "https://github.com/nvimdev/lspsaga.nvim",
     "language": "Lua",
     "pushed_at": "2026-05-04T02:59:38Z",
-    "stargazers_count": 3784,
+    "stargazers_count": 3785,
     "topics": [
       "lsp",
       "lua",
@@ -155,7 +155,7 @@
       "neovim-plugin",
       "nvim"
     ],
-    "updated_at": "2026-05-08T07:32:18Z"
+    "updated_at": "2026-05-09T06:07:01Z"
   },
   "repo_links": [],
   "terms": [

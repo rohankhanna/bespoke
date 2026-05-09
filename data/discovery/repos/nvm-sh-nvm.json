@@ -136,6 +136,11 @@
       "source_file": ".github/workflows/lint.yml"
     },
     {
+      "component": "step-security/harden-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs-org.yml"
+    },
+    {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nvm-install-test.yml"
@@ -342,6 +347,20 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs-org.yml",
+      "source_repo": "nvm-sh/nvm",
+      "target": "step-security/harden-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs-org.yml",
+      "source_repo": "nvm-sh/nvm",
+      "target": "Update nodejs.org",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nvm-install-test.yml",
       "source_repo": "nvm-sh/nvm",
       "target": "actions/checkout@v6",
@@ -474,7 +493,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-09T07:54:22.591005+00:00",
+  "fetched_at": "2026-05-09T16:39:44.130816+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -501,6 +520,10 @@
       "size": 2169
     },
     {
+      "path": ".github/workflows/nodejs-org.yml",
+      "size": 5937
+    },
+    {
       "path": ".github/workflows/nvm-install-test.yml",
       "size": 3437
     },
@@ -523,7 +546,7 @@
     "html_url": "https://github.com/nvm-sh/nvm",
     "language": "Shell",
     "pushed_at": "2026-05-07T21:24:47Z",
-    "stargazers_count": 93295,
+    "stargazers_count": 93301,
     "topics": [
       "bash",
       "install",
@@ -539,7 +562,7 @@
       "version-manager",
       "zsh"
     ],
-    "updated_at": "2026-05-09T07:09:02Z"
+    "updated_at": "2026-05-09T16:15:26Z"
   },
   "repo_links": [
     {
@@ -576,6 +599,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/lint.yml",
       "term": "Tests: linting"
+    },
+    {
+      "context_snippet": "'Update nodejs.org'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs-org.yml",
+      "term": "Update nodejs.org"
     },
     {
       "context_snippet": "'Tests: nvm install with set -e'",

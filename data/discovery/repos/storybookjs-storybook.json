@@ -1,71 +1,6 @@
 {
   "components": [
     {
-      "component": "@nx/workspace",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "@playwright/test",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "@types/kill-port",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "http-server",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "husky",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "jiti",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "kill-port",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "lint-staged",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "nx",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "oxfmt",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "std-env",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "vite",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "vitest",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agent-scan.yml"
@@ -494,97 +429,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "storybookjs/storybook",
-      "target": "@nx/workspace",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "storybookjs/storybook",
-      "target": "@playwright/test",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "storybookjs/storybook",
-      "target": "@types/kill-port",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "storybookjs/storybook",
-      "target": "http-server",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "storybookjs/storybook",
-      "target": "husky",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "storybookjs/storybook",
-      "target": "jiti",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "storybookjs/storybook",
-      "target": "kill-port",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "storybookjs/storybook",
-      "target": "lint-staged",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "storybookjs/storybook",
-      "target": "nx",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "storybookjs/storybook",
-      "target": "oxfmt",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "storybookjs/storybook",
-      "target": "std-env",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "storybookjs/storybook",
-      "target": "vite",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "storybookjs/storybook",
-      "target": "vitest",
-      "target_type": "component"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agent-scan.yml",
       "source_repo": "storybookjs/storybook",
@@ -872,15 +716,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-09T03:00:05.724205+00:00",
+  "fetched_at": "2026-05-09T15:35:09.237309+00:00",
   "fetched_files": [
     {
       "path": "README.md",
       "size": 21882
-    },
-    {
-      "path": "package.json",
-      "size": 3442
     },
     {
       "path": ".github/workflows/agent-scan.yml",
@@ -924,8 +764,8 @@
     "full_name": "storybookjs/storybook",
     "html_url": "https://github.com/storybookjs/storybook",
     "language": "TypeScript",
-    "pushed_at": "2026-05-08T19:33:34Z",
-    "stargazers_count": 89871,
+    "pushed_at": "2026-05-09T11:53:43Z",
+    "stargazers_count": 89872,
     "topics": [
       "angular",
       "components",
@@ -948,7 +788,7 @@
       "webpack",
       "workshop"
     ],
-    "updated_at": "2026-05-09T01:29:10Z"
+    "updated_at": "2026-05-09T13:06:11Z"
   },
   "repo_links": [
     {

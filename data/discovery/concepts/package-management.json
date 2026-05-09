@@ -199,6 +199,18 @@
       "source_repo": "pkgxdev/brewkit",
       "status": "candidate-context",
       "text": "![pkgx](https://pkgx.dev/banner.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akinsho/dependency-assist.nvim",
+      "status": "candidate-context",
+      "text": "A neovim plugin to help find/search for dependency information/versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akinsho/dependency-assist.nvim",
+      "status": "candidate-context",
+      "text": "This project is *ARCHIVED* and no longer maintained. I've decided to massively narrow down the scope of to focus on providing version information"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "pkgxdev/brewkit",
       "status": "candidate",
       "text": "![pkgx](https://pkgx.dev/banner.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akinsho/dependency-assist.nvim",
+      "status": "candidate",
+      "text": "This project is *ARCHIVED* and no longer maintained. I've decided to massively narrow down the scope of to focus on providing version information"
     }
   ],
   "candidate_related_terms": [],
@@ -400,11 +418,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "pkgxdev/brewkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "akinsho/dependency-assist.nvim"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

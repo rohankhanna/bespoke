@@ -79,6 +79,18 @@
       "source_repo": "naknomum/scribby",
       "status": "candidate-context",
       "text": "_scribby_ is a javascript library which lets users draw simple \"scribbles\" on a web page."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ksnip/kImageAnnotator",
+      "status": "candidate-context",
+      "text": "Tool for annotating images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ksnip/kImageAnnotator",
+      "status": "candidate-context",
+      "text": "Tool for annotating images"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "naknomum/scribby",
       "status": "candidate",
       "text": "_scribby_ is a javascript library which lets users draw simple \"scribbles\" on a web page."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ksnip/kImageAnnotator",
+      "status": "candidate",
+      "text": "Tool for annotating images"
     }
   ],
   "candidate_related_terms": [
@@ -340,11 +358,23 @@
       "observed_at": "2026-05-09T06:51:24.890752+00:00",
       "source_file": null,
       "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "ksnip/kImageAnnotator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Luxor.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

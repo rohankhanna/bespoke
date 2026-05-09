@@ -19,6 +19,18 @@
       "source_repo": "rcarriga/vim-ultest",
       "status": "candidate-context",
       "text": "This repo is no longer being actively worked on. I've moved my efforts into"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-neotest/neotest-vim-test",
+      "status": "candidate-context",
+      "text": "Neotest adapter for vim-test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-neotest/neotest-vim-test",
+      "status": "candidate-context",
+      "text": "[Neotest](https://github.com/rcarriga/neotest) adapter for vim-test."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "rcarriga/vim-ultest",
       "status": "candidate",
       "text": "This repo is no longer being actively worked on. I've moved my efforts into"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-neotest/neotest-vim-test",
+      "status": "candidate",
+      "text": "[Neotest](https://github.com/rcarriga/neotest) adapter for vim-test."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "rcarriga/vim-ultest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "nvim-neotest/neotest-vim-test"
     }
   ],
   "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

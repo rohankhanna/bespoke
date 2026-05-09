@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kahgeh/ls-crates.nvim",
+      "target": "akinsho/dependency-assist.nvim",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-09T12:31:19.030154+00:00",
+  "source_repo": "kahgeh/ls-crates.nvim"
+}

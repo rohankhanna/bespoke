@@ -151,6 +151,18 @@
       "source_repo": "aerobounce/Sublime-Swift-Format",
       "status": "candidate-context",
       "text": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS-blue.svg)][packagecontrol]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yaroslavyaroslav/OpenAI-sublime-text",
+      "status": "candidate-context",
+      "text": "First class Sublime Text AI assistant with gpt-5, Opus 4.6, Gemini 3 and ollama support!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yaroslavyaroslav/OpenAI-sublime-text",
+      "status": "candidate-context",
+      "text": "[![Star on GitHub][img-stars]][stars] ![Package Control][img-downloads]"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "aerobounce/Sublime-Swift-Format",
       "status": "candidate",
       "text": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS-blue.svg)][packagecontrol]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yaroslavyaroslav/OpenAI-sublime-text",
+      "status": "candidate",
+      "text": "[![Star on GitHub][img-stars]][stars] ![Package Control][img-downloads]"
     }
   ],
   "candidate_related_terms": [],
@@ -424,11 +442,23 @@
       "observed_at": "2026-05-09T06:51:24.890752+00:00",
       "source_file": null,
       "source_repo": "SublimeText/AFileIcon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "yaroslavyaroslav/OpenAI-sublime-text"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-09T12:31:19.030154+00:00",
+      "source_file": null,
+      "source_repo": "SublimeText/AFileIcon"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

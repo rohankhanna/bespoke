@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhiiwg/Awesome-Linux-Software-zh_CN",
+      "target": "achetagames/epic-asset-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhiiwg/Awesome-Linux-Software-zh_CN",
+      "target": "aburch/simutrans",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhiiwg/Awesome-Linux-Software-zh_CN",
+      "target": "0ldsk00l/nestopia",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhiiwg/Awesome-Linux-Software-zh_CN",
+      "target": "aandrew-me/ytdownloader",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-09T13:39:25.121317+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 200841
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udc27 \u4e00\u4e2a Linux \u4e0a\u8d85\u8d5e\u7684\u5e94\u7528\uff0c\u8f6f\u4ef6\uff0c\u5de5\u5177\u4ee5\u53ca\u5176\u5b83\u8d44\u6e90\u7684\u96c6\u4e2d\u5730\u3002",
+    "fork": true,
+    "full_name": "zhiiwg/Awesome-Linux-Software-zh_CN",
+    "html_url": "https://github.com/zhiiwg/Awesome-Linux-Software-zh_CN",
+    "language": null,
+    "pushed_at": "2024-11-12T07:43:35Z",
+    "stargazers_count": 1296,
+    "topics": [],
+    "updated_at": "2026-05-04T18:57:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0ldsk00l/nestopia",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aandrew-me/ytdownloader",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aburch/simutrans",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "achetagames/epic-asset-manager",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

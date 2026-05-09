@@ -1141,6 +1141,11 @@
       "source_file": ".github/workflows/build_and_test.yml"
     },
     {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
       "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build_and_test.yml"
@@ -2715,6 +2720,13 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build_and_test.yml",
       "source_repo": "vercel/next.js",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "vercel/next.js",
       "target": "ast-grep/action@cf62e780f0c88301228978d593a7784427a097a6",
       "target_type": "component"
     },
@@ -2950,7 +2962,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-09T03:06:21.310010+00:00",
+  "fetched_at": "2026-05-09T15:40:18.708244+00:00",
   "fetched_files": [
     {
       "path": "Cargo.toml",
@@ -2966,11 +2978,11 @@
     },
     {
       "path": ".github/workflows/build_and_test.yml",
-      "size": 47165
+      "size": 48004
     },
     {
       "path": ".github/workflows/build_reusable.yml",
-      "size": 18114
+      "size": 18312
     },
     {
       "path": ".github/workflows/code_freeze.yml",
@@ -3002,8 +3014,8 @@
     "full_name": "vercel/next.js",
     "html_url": "https://github.com/vercel/next.js",
     "language": "JavaScript",
-    "pushed_at": "2026-05-09T00:34:53Z",
-    "stargazers_count": 139334,
+    "pushed_at": "2026-05-09T15:39:35Z",
+    "stargazers_count": 139341,
     "topics": [
       "blog",
       "browser",
@@ -3020,7 +3032,7 @@
       "universal",
       "vercel"
     ],
-    "updated_at": "2026-05-09T02:55:47Z"
+    "updated_at": "2026-05-09T15:39:47Z"
   },
   "repo_links": [],
   "terms": [

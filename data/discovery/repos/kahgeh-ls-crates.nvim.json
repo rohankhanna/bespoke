@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kahgeh/ls-crates.nvim",
+      "target": "akinsho/dependency-assist.nvim",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-09T12:36:03.697137+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 570
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Neovim plugin for cargo.toml, inserts crate's latest version",
+    "fork": false,
+    "full_name": "kahgeh/ls-crates.nvim",
+    "html_url": "https://github.com/kahgeh/ls-crates.nvim",
+    "language": "Lua",
+    "pushed_at": "2021-07-31T13:44:21Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-04-28T06:21:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akinsho/dependency-assist.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

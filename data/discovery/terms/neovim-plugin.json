@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -756,6 +756,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "chrisgrieser/nvim-lsp-endhints"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "akinsho/dependency-assist.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "vuki656/package-info.nvim"
     }
   ],
   "term": "neovim-plugin"
