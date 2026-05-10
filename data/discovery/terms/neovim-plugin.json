@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-05-10T07:03:13.220143+00:00",
+  "last_seen_at": "2026-05-10T18:25:41.670160+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -776,6 +776,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "olimorris/neotest-phpunit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "olimorris/neotest-rspec"
     }
   ],
   "term": "neovim-plugin"

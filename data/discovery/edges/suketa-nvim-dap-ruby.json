@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "suketa/nvim-dap-ruby",
+      "target": "rspec/rspec-metagem",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-10T18:25:41.670160+00:00",
+  "source_repo": "suketa/nvim-dap-ruby"
+}

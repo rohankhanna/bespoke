@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "llama_cpp.rb provides Ruby bindings for llama.cpp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Gem Version](https://badge.fury.io/rb/llama_cpp.svg)](https://badge.fury.io/rb/llama_cpp)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/llama_cpp.svg)](https://badge.fury.io/rb/llama_cpp)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29900861,
+      "status": "candidate",
+      "text": "sludge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29761564,
+      "status": "candidate",
+      "text": "feeble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29739956,
+      "status": "candidate",
+      "text": "lama"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29556455,
+      "status": "candidate",
+      "text": "mud"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20038783,
+      "status": "candidate",
+      "text": "dalai"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "llama",
+      "sense_id": "llama#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "llama",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "llama",
+  "observation_id": "ef37cee04d64ab4f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-10T18:25:41.670160+00:00",
+  "observed_text": "llama",
+  "source_context_snippet": "[![Gem Version](https://badge.fury.io/rb/llama_cpp.svg)](https://badge.fury.io/rb/llama_cpp)",
+  "source_file": null,
+  "source_repo": "yoshoku/llama_cpp.rb",
+  "source_repo_description": "llama_cpp.rb provides Ruby bindings for llama.cpp"
+}

@@ -11,14 +11,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-israel-agent-skills-plugin",
+      "target": "danielrosehill/claude-code-linux-notes",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-israel-shopping-plugin",
+      "target": "danielrosehill/claude-jewish-utilities-plugin",
       "target_type": "repository"
     },
     {
@@ -32,7 +32,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-is-awesome",
+      "target": "danielrosehill/claude-code-marketplace",
       "target_type": "repository"
     },
     {
@@ -64,7 +64,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-10T08:22:52.773187+00:00",
+  "fetched_at": "2026-05-10T21:43:29.308511+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -101,17 +101,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-is-awesome",
+      "full_name": "danielrosehill/claude-code-linux-notes",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-israel-agent-skills-plugin",
+      "full_name": "danielrosehill/claude-code-marketplace",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-israel-shopping-plugin",
+      "full_name": "danielrosehill/claude-jewish-utilities-plugin",
       "source_file": "README.md"
     }
   ],

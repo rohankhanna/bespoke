@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Israel-Shopping-Plugin",
+      "target": "ansvar-systems/israel-law-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Israel-Shopping-Plugin",
+      "target": "aloncarmel/supermeskill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Israel-Shopping-Plugin",
+      "target": "asafr93-rosa/shopping-list-il",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Israel-Shopping-Plugin",
+      "target": "danieljl-altius/israelgrocerymcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Israel-Shopping-Plugin",
+      "target": "aliexpress",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Israel-Shopping-Plugin",
+      "target": "ecommerce",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Israel-Shopping-Plugin",
+      "target": "online-shopping",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-10T19:36:53.012487+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5125
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Shopping plugin intended for Israeli residents covering domestic purchasing channels, common B2C overseas channels (Aliexperss, Amazon, iHerb), and with some data and search pattern mappings. WIP!",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Israel-Shopping-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Israel-Shopping-Plugin",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-25T14:37:41Z",
+    "stargazers_count": 0,
+    "topics": [
+      "aliexpress",
+      "ecommerce",
+      "online-shopping"
+    ],
+    "updated_at": "2026-04-25T14:37:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aloncarmel/supermeskill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ansvar-systems/israel-law-mcp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asafr93-rosa/shopping-list-il",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danieljl-altius/israelgrocerymcp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![banner](banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aliexpress"
+    },
+    {
+      "context_snippet": "![banner](banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecommerce"
+    },
+    {
+      "context_snippet": "![banner](banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "online-shopping"
+    }
+  ]
+}

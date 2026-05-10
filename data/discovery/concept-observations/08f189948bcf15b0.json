@@ -8,7 +8,7 @@
     {
       "source_kind": "repo-description",
       "status": "context-only",
-      "text": "TypeScript & JavaScript Language Server"
+      "text": "Unofficial TypeScript & JavaScript Language Server"
     },
     {
       "source_kind": "source-snippet",
@@ -106,10 +106,10 @@
   "normalized_form": "size",
   "observation_id": "08f189948bcf15b0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-10T07:03:13.220143+00:00",
+  "observed_at": "2026-05-10T18:25:41.670160+00:00",
   "observed_text": "size",
   "source_context_snippet": "size",
   "source_file": ".github/workflows/size-limit.yaml",
   "source_repo": "typescript-language-server/typescript-language-server",
-  "source_repo_description": "TypeScript & JavaScript Language Server"
+  "source_repo_description": "Unofficial TypeScript & JavaScript Language Server"
 }

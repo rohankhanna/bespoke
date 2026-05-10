@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "theutz/neotest-pest",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "theutz/neotest-pest",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "theutz/neotest-pest",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theutz/neotest-pest",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theutz/neotest-pest",
+      "target": "pest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theutz/neotest-pest",
+      "target": "testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-10T19:27:48.376692+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2036
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2132
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Neotest adapter for Pest",
+    "fork": false,
+    "full_name": "theutz/neotest-pest",
+    "html_url": "https://github.com/theutz/neotest-pest",
+    "language": "Lua",
+    "pushed_at": "2024-02-16T07:07:06Z",
+    "stargazers_count": 16,
+    "topics": [
+      "neovim",
+      "pest",
+      "php",
+      "testing"
+    ],
+    "updated_at": "2025-10-06T09:16:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pest"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    }
+  ]
+}

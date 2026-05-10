@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "aliexpress"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Claude-Israel-Shopping-Plugin",
+      "status": "candidate-context",
+      "text": "Shopping plugin intended for Israeli residents covering domestic purchasing channels, common B2C overseas channels (Aliexperss, Amazon, iHerb), and with some data and search pattern mappings. WIP!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Israel-Shopping-Plugin",
+      "status": "candidate-context",
+      "text": "![banner](banner.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Israel-Shopping-Plugin",
+      "status": "candidate",
+      "text": "![banner](banner.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "taobao"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "alibaba pictures"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "rakuten.co.uk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "shein"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "club factory"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "aliexpress",
+  "concept_id": "aliexpress",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Israel-Shopping-Plugin"
+    }
+  ],
+  "first_seen_at": "2026-05-10T18:25:41.670160+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-10T18:25:41.670160+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aliexpress",
+      "sense_id": "aliexpress#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

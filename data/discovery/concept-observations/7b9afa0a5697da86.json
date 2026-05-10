@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Collection of Israel-specific skills for Claude Code and other agentic CLIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A Claude Code plugin that collects agent skills for Israel and Hebrew-specific workflows."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A Claude Code plugin that collects agent skills for Israel and Hebrew-specific workflows."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "agent-skills",
+      "sense_id": "agent-skills#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "agent-skills",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "agent-skills",
+  "observation_id": "7b9afa0a5697da86",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-10T18:25:41.670160+00:00",
+  "observed_text": "agent-skills",
+  "source_context_snippet": "A Claude Code plugin that collects agent skills for Israel and Hebrew-specific workflows.",
+  "source_file": null,
+  "source_repo": "danielrosehill/Claude-Israel-Agent-Skills-Plugin",
+  "source_repo_description": "Collection of Israel-specific skills for Claude Code and other agentic CLIs"
+}

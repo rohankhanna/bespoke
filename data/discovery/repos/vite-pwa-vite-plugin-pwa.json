@@ -529,7 +529,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-10T07:08:55.911470+00:00",
+  "fetched_at": "2026-05-10T20:41:47.669242+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -562,7 +562,7 @@
     "html_url": "https://github.com/vite-pwa/vite-plugin-pwa",
     "language": "TypeScript",
     "pushed_at": "2026-05-05T15:03:21Z",
-    "stargazers_count": 4152,
+    "stargazers_count": 4154,
     "topics": [
       "preact",
       "pwa",
@@ -574,7 +574,7 @@
       "vue",
       "workbox"
     ],
-    "updated_at": "2026-05-08T19:36:22Z"
+    "updated_at": "2026-05-10T16:54:40Z"
   },
   "repo_links": [
     {

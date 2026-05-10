@@ -378,7 +378,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-10T08:27:34.821274+00:00",
+  "fetched_at": "2026-05-10T21:46:32.868134+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -403,7 +403,7 @@
     "html_url": "https://github.com/canduma/canduma",
     "language": "Rust",
     "pushed_at": "2024-10-25T10:34:28Z",
-    "stargazers_count": 822,
+    "stargazers_count": 821,
     "topics": [
       "actix",
       "actix-web",
@@ -413,7 +413,7 @@
       "jwt-token",
       "micro-service"
     ],
-    "updated_at": "2026-04-23T23:01:49Z"
+    "updated_at": "2026-05-10T21:08:18Z"
   },
   "repo_links": [
     {

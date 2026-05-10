@@ -113,7 +113,7 @@
   "normalized_form": "documentation",
   "observation_id": "ff5999fe2b764eda",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-10T12:31:16.779865+00:00",
+  "observed_at": "2026-05-10T18:25:41.670160+00:00",
   "observed_text": "Documentation",
   "source_context_snippet": "Documentation",
   "source_file": ".github/workflows/docs.yml",

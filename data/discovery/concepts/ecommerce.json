@@ -67,6 +67,18 @@
       "source_repo": "medusajs/medusa",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Claude-Israel-Shopping-Plugin",
+      "status": "candidate-context",
+      "text": "Shopping plugin intended for Israeli residents covering domestic purchasing channels, common B2C overseas channels (Aliexperss, Amazon, iHerb), and with some data and search pattern mappings. WIP!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Israel-Shopping-Plugin",
+      "status": "candidate-context",
+      "text": "![banner](banner.png)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "medusajs/medusa",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Israel-Shopping-Plugin",
+      "status": "candidate",
+      "text": "![banner](banner.png)"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +202,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "medusajs/medusa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Israel-Shopping-Plugin"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-10T18:25:41.670160+00:00",
   "lexical_providers": [
     "datamuse"
   ],

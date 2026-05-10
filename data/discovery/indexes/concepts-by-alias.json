@@ -2580,6 +2580,9 @@
   "alicloud": [
     "alicloud"
   ],
+  "aliexpress": [
+    "aliexpress"
+  ],
   "align versions": [
     "align-versions"
   ],
@@ -62433,6 +62436,9 @@
   "online-rl": [
     "online-rl"
   ],
+  "online-shopping": [
+    "online-shopping"
+  ],
   "online-spreadsheet": [
     "online-spreadsheet"
   ],
@@ -65171,6 +65177,9 @@
   ],
   "perturbation": [
     "perturbation"
+  ],
+  "pest": [
+    "pest"
   ],
   "pester tests": [
     "pester-tests"

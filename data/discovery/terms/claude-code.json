@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-10T12:31:16.779865+00:00",
+  "last_seen_at": "2026-05-10T18:25:41.670160+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -1141,6 +1141,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "D1DX/morning-skill"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Is-Awesome"
     }
   ],
   "term": "Claude Code"

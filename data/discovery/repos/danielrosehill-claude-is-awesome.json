@@ -1,0 +1,83 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Is-Awesome",
+      "target": "danielrosehill/claude-code-repos-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Is-Awesome",
+      "target": "danielrosehill/github-master-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Is-Awesome",
+      "target": "awesome-lists",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Is-Awesome",
+      "target": "claude-code",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-10T19:36:50.467597+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4670
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Awesome list creator using Claude Code",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Is-Awesome",
+    "html_url": "https://github.com/danielrosehill/Claude-Is-Awesome",
+    "language": null,
+    "pushed_at": "2025-10-28T15:25:49Z",
+    "stargazers_count": 2,
+    "topics": [
+      "awesome-lists",
+      "claude-code"
+    ],
+    "updated_at": "2026-02-15T03:51:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-code-repos-index",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/github-master-index",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Claude Code](https://img.shields.io/badge/Claude-Code-8A2BE2?logo=anthropic)](https://claude.ai/code)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-lists"
+    },
+    {
+      "context_snippet": "[![Claude Code](https://img.shields.io/badge/Claude-Code-8A2BE2?logo=anthropic)](https://claude.ai/code)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    }
+  ]
+}

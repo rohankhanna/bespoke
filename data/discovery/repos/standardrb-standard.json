@@ -124,7 +124,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-10T12:52:34.141539+00:00",
+  "fetched_at": "2026-05-10T20:32:30.659401+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -149,14 +149,14 @@
     "html_url": "https://github.com/standardrb/standard",
     "language": "Ruby",
     "pushed_at": "2026-05-05T01:03:36Z",
-    "stargazers_count": 2895,
+    "stargazers_count": 2896,
     "topics": [
       "formatter",
       "linter",
       "rubocop",
       "ruby"
     ],
-    "updated_at": "2026-05-09T17:59:45Z"
+    "updated_at": "2026-05-10T18:58:55Z"
   },
   "repo_links": [
     {

@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v2",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-10T12:31:16.779865+00:00",
+  "last_seen_at": "2026-05-10T18:25:41.670160+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -19102,6 +19102,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "nvim-telescope/telescope-file-browser.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "theutz/neotest-pest"
     }
   ]
 }

@@ -171,7 +171,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-10T08:09:43.194328+00:00",
+  "fetched_at": "2026-05-10T21:35:21.372002+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -179,7 +179,7 @@
     },
     {
       "path": "go.mod",
-      "size": 773
+      "size": 774
     },
     {
       "path": ".github/workflows/benchmark-pr.yaml",
@@ -223,10 +223,10 @@
     "full_name": "etcd-io/bbolt",
     "html_url": "https://github.com/etcd-io/bbolt",
     "language": "Go",
-    "pushed_at": "2026-04-22T09:21:24Z",
+    "pushed_at": "2026-05-10T19:35:52Z",
     "stargazers_count": 9501,
     "topics": [],
-    "updated_at": "2026-05-10T07:41:58Z"
+    "updated_at": "2026-05-10T19:35:23Z"
   },
   "repo_links": [
     {

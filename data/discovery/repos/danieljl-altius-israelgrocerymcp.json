@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-10T21:43:34.632475+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3351
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 684
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unified MCP server for Israeli grocery shopping across Shufersal and Tiv Taam",
+    "fork": false,
+    "full_name": "danielJL-altius/israelgrocerymcp",
+    "html_url": "https://github.com/danielJL-altius/israelgrocerymcp",
+    "language": "Python",
+    "pushed_at": "2026-03-14T15:14:59Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-14T15:15:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

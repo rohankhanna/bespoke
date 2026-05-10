@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-10T07:03:13.220143+00:00",
+  "last_seen_at": "2026-05-10T18:25:41.670160+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -201,6 +201,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "lvimuser/lsp-inlayhints.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "olimorris/neotest-rspec"
     }
   ],
   "term": "nvim-plugin"

@@ -55,6 +55,18 @@
       "source_repo": "lightly-ai/awesome-self-supervised-learning",
       "status": "candidate-context",
       "text": "Want to leverage state of the art Self-Supervised Learning and Distillation to pretrain your models? Check out the following tools by the team from [Lightly AI](https://www.lightly.ai/):"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Claude-Is-Awesome",
+      "status": "candidate-context",
+      "text": "Awesome list creator using Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Is-Awesome",
+      "status": "candidate-context",
+      "text": "[![Claude Code](https://img.shields.io/badge/Claude-Code-8A2BE2?logo=anthropic)](https://claude.ai/code)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "lightly-ai/awesome-self-supervised-learning",
       "status": "candidate",
       "text": "Want to leverage state of the art Self-Supervised Learning and Distillation to pretrain your models? Check out the following tools by the team from [Lightly AI](https://www.lightly.ai/):"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Is-Awesome",
+      "status": "candidate",
+      "text": "[![Claude Code](https://img.shields.io/badge/Claude-Code-8A2BE2?logo=anthropic)](https://claude.ai/code)"
     }
   ],
   "candidate_related_terms": [],
@@ -130,11 +148,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "lightly-ai/awesome-self-supervised-learning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Is-Awesome"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-10T18:25:41.670160+00:00",
   "lexical_providers": [
     "datamuse"
   ],

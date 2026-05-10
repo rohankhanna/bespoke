@@ -1,7 +1,7 @@
 {
   "component": "rust-lang/crates-io-auth-action@bbd81622f20ce9e2dd9622e3218b975523e45bbe",
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-05-10T12:31:16.779865+00:00",
+  "last_seen_at": "2026-05-10T18:25:41.670160+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

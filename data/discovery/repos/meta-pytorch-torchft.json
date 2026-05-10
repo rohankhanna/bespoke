@@ -254,7 +254,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-10T08:34:10.333529+00:00",
+  "fetched_at": "2026-05-10T21:50:52.774120+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -303,7 +303,7 @@
     "html_url": "https://github.com/meta-pytorch/torchft",
     "language": "Python",
     "pushed_at": "2026-04-03T17:38:46Z",
-    "stargazers_count": 499,
+    "stargazers_count": 500,
     "topics": [
       "consensus",
       "diloco",
@@ -317,7 +317,7 @@
       "torch",
       "training"
     ],
-    "updated_at": "2026-05-03T13:43:12Z"
+    "updated_at": "2026-05-10T08:58:24Z"
   },
   "repo_links": [
     {

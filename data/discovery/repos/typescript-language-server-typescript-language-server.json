@@ -56,6 +56,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "@vitest/coverage-v8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "@vitest/eslint-plugin",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -201,7 +206,7 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "googleapis/release-please-action@v5",
+      "component": "googleapis/release-please-action@v5.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml"
     },
@@ -312,6 +317,13 @@
       "source_file": "package.json",
       "source_repo": "typescript-language-server/typescript-language-server",
       "target": "@types/which",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "typescript-language-server/typescript-language-server",
+      "target": "@vitest/coverage-v8",
       "target_type": "component"
     },
     {
@@ -521,7 +533,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "typescript-language-server/typescript-language-server",
-      "target": "googleapis/release-please-action@v5",
+      "target": "googleapis/release-please-action@v5.0.0",
       "target_type": "component"
     },
     {
@@ -609,7 +621,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-10T08:05:57.928335+00:00",
+  "fetched_at": "2026-05-10T21:33:12.378157+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -617,15 +629,15 @@
     },
     {
       "path": "package.json",
-      "size": 2799
+      "size": 2848
     },
     {
       "path": ".github/workflows/ci.yaml",
-      "size": 822
+      "size": 828
     },
     {
       "path": ".github/workflows/release.yaml",
-      "size": 936
+      "size": 1119
     },
     {
       "path": ".github/workflows/semantic-commits.yaml",
@@ -640,13 +652,13 @@
   "repo": {
     "archived": false,
     "default_branch": "master",
-    "description": "TypeScript & JavaScript Language Server",
+    "description": "Unofficial TypeScript & JavaScript Language Server",
     "fork": false,
     "full_name": "typescript-language-server/typescript-language-server",
     "html_url": "https://github.com/typescript-language-server/typescript-language-server",
     "language": "TypeScript",
-    "pushed_at": "2026-05-09T01:56:07Z",
-    "stargazers_count": 2477,
+    "pushed_at": "2026-05-10T17:38:37Z",
+    "stargazers_count": 2480,
     "topics": [
       "hacktoberfest",
       "language-server",
@@ -654,7 +666,7 @@
       "lsp",
       "typescript"
     ],
-    "updated_at": "2026-05-09T06:04:22Z"
+    "updated_at": "2026-05-10T17:39:10Z"
   },
   "repo_links": [],
   "terms": [

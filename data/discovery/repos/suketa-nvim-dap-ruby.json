@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "suketa/nvim-dap-ruby",
+      "target": "rspec/rspec-metagem",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-10T21:34:22.391957+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2823
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "suketa/nvim-dap-ruby",
+    "html_url": "https://github.com/suketa/nvim-dap-ruby",
+    "language": "Lua",
+    "pushed_at": "2025-07-08T20:30:24Z",
+    "stargazers_count": 91,
+    "topics": [],
+    "updated_at": "2026-03-27T11:19:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rspec/rspec-metagem",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

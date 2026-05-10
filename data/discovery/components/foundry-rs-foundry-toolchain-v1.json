@@ -1,7 +1,7 @@
 {
   "component": "foundry-rs/foundry-toolchain@v1",
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-05-10T07:03:13.220143+00:00",
+  "last_seen_at": "2026-05-10T18:25:41.670160+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

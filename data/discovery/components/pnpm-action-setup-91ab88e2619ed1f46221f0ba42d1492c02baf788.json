@@ -1,0 +1,37 @@
+{
+  "component": "pnpm/action-setup@91ab88e2619ed1f46221f0ba42d1492c02baf788",
+  "first_seen_at": "2026-05-10T18:25:41.670160+00:00",
+  "last_seen_at": "2026-05-10T18:25:41.670160+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/apply.yml",
+      "source_repo": "ipdxco/github-as-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cleanup.yml",
+      "source_repo": "ipdxco/github-as-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fix.yml",
+      "source_repo": "ipdxco/github-as-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "ipdxco/github-as-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "ipdxco/github-as-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "ipdxco/github-as-code"
+    }
+  ]
+}

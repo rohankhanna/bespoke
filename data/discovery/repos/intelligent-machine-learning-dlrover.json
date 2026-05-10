@@ -378,7 +378,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-10T12:44:16.265953+00:00",
+  "fetched_at": "2026-05-10T19:53:27.826350+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -419,14 +419,14 @@
     "html_url": "https://github.com/intelligent-machine-learning/dlrover",
     "language": "Python",
     "pushed_at": "2026-04-15T06:54:16Z",
-    "stargazers_count": 1652,
+    "stargazers_count": 1653,
     "topics": [
       "distributed-training",
       "hacktoberfest",
       "k8s",
       "llm-training"
     ],
-    "updated_at": "2026-04-30T04:06:06Z"
+    "updated_at": "2026-05-10T14:39:56Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-10T21:43:32.270439+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4658
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Superme is a claude skill that lets you order food from shufersal online (supported now more later)",
+    "fork": false,
+    "full_name": "aloncarmel/supermeskill",
+    "html_url": "https://github.com/aloncarmel/supermeskill",
+    "language": null,
+    "pushed_at": "2026-03-29T09:40:20Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2026-04-30T11:34:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

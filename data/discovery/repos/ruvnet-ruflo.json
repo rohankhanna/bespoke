@@ -503,6 +503,21 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/v3-ci.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/v3-ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/v3-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/validate-marketplace.yml"
     },
     {
@@ -1003,7 +1018,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-10T07:22:49.263554+00:00",
+  "fetched_at": "2026-05-10T20:50:36.210674+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1039,7 +1054,7 @@
     },
     {
       "path": ".github/workflows/v3-ci.yml",
-      "size": 19259
+      "size": 21174
     },
     {
       "path": ".github/workflows/validate-marketplace.yml",
@@ -1055,8 +1070,8 @@
     "full_name": "ruvnet/ruflo",
     "html_url": "https://github.com/ruvnet/ruflo",
     "language": "TypeScript",
-    "pushed_at": "2026-05-10T02:51:22Z",
-    "stargazers_count": 48009,
+    "pushed_at": "2026-05-10T20:30:31Z",
+    "stargazers_count": 48419,
     "topics": [
       "agentic-ai",
       "agentic-framework",
@@ -1079,7 +1094,7 @@
       "swarm",
       "swarm-intelligence"
     ],
-    "updated_at": "2026-05-10T07:19:21Z"
+    "updated_at": "2026-05-10T20:48:03Z"
   },
   "repo_links": [
     {

@@ -1310,7 +1310,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-10T08:31:49.696642+00:00",
+  "fetched_at": "2026-05-10T21:49:23.739214+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1318,7 +1318,7 @@
     },
     {
       "path": "package.json",
-      "size": 17116
+      "size": 17178
     },
     {
       "path": ".github/workflows/argos.yaml",
@@ -1362,8 +1362,8 @@
     "full_name": "podman-desktop/podman-desktop",
     "html_url": "https://github.com/podman-desktop/podman-desktop",
     "language": "TypeScript",
-    "pushed_at": "2026-05-10T00:20:35Z",
-    "stargazers_count": 7618,
+    "pushed_at": "2026-05-10T15:47:24Z",
+    "stargazers_count": 7617,
     "topics": [
       "container",
       "containers",
@@ -1376,7 +1376,7 @@
       "tray-application",
       "ui"
     ],
-    "updated_at": "2026-05-10T01:30:54Z"
+    "updated_at": "2026-05-10T18:27:33Z"
   },
   "repo_links": [
     {

@@ -115,6 +115,18 @@
       "source_repo": "antonbabenko/terraform-skill",
       "status": "candidate-context",
       "text": "[![Claude Skill](https://img.shields.io/badge/Claude-Skill-5865F2)](https://docs.claude.ai/docs/agent-skills)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Claude-Israel-Agent-Skills-Plugin",
+      "status": "candidate-context",
+      "text": "Collection of Israel-specific skills for Claude Code and other agentic CLIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Israel-Agent-Skills-Plugin",
+      "status": "candidate-context",
+      "text": "A Claude Code plugin that collects agent skills for Israel and Hebrew-specific workflows."
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "antonbabenko/terraform-skill",
       "status": "candidate",
       "text": "[![Claude Skill](https://img.shields.io/badge/Claude-Skill-5865F2)](https://docs.claude.ai/docs/agent-skills)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Israel-Agent-Skills-Plugin",
+      "status": "candidate",
+      "text": "A Claude Code plugin that collects agent skills for Israel and Hebrew-specific workflows."
     }
   ],
   "candidate_related_terms": [],
@@ -244,11 +262,17 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": null,
       "source_repo": "antonbabenko/terraform-skill"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Israel-Agent-Skills-Plugin"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-05-10T18:25:41.670160+00:00",
   "lexical_providers": [
     "datamuse"
   ],

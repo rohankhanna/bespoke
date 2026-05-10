@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Israel-Agent-Skills-Plugin",
+      "target": "agent-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Israel-Agent-Skills-Plugin",
+      "target": "claude-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Israel-Agent-Skills-Plugin",
+      "target": "israel",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-10T19:36:51.643089+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6091
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Collection of Israel-specific skills for Claude Code and other agentic CLIs",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Israel-Agent-Skills-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Israel-Agent-Skills-Plugin",
+    "language": "Python",
+    "pushed_at": "2026-04-29T08:50:58Z",
+    "stargazers_count": 0,
+    "topics": [
+      "agent-skills",
+      "claude-skills",
+      "israel"
+    ],
+    "updated_at": "2026-04-29T08:51:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A Claude Code plugin that collects agent skills for Israel and Hebrew-specific workflows.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-skills"
+    },
+    {
+      "context_snippet": "A Claude Code plugin that collects agent skills for Israel and Hebrew-specific workflows.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-skills"
+    },
+    {
+      "context_snippet": "A Claude Code plugin that collects agent skills for Israel and Hebrew-specific workflows.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "israel"
+    }
+  ]
+}

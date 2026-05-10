@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-10T18:25:41.670160+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -26,6 +26,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "lightly-ai/awesome-self-supervised-learning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Is-Awesome"
     }
   ],
   "term": "awesome-lists"

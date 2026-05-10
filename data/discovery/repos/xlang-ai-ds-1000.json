@@ -37,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-10T13:01:40.986594+00:00",
+  "fetched_at": "2026-05-10T20:38:31.751296+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -54,7 +54,7 @@
     "html_url": "https://github.com/xlang-ai/DS-1000",
     "language": "Python",
     "pushed_at": "2024-10-30T17:43:46Z",
-    "stargazers_count": 271,
+    "stargazers_count": 272,
     "topics": [
       "benchmark",
       "code-generation",
@@ -62,7 +62,7 @@
       "large-language-models",
       "semantic-parsing"
     ],
-    "updated_at": "2026-05-08T05:12:09Z"
+    "updated_at": "2026-05-10T17:06:25Z"
   },
   "repo_links": [],
   "terms": [

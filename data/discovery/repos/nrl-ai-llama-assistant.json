@@ -154,7 +154,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-10T08:33:34.087642+00:00",
+  "fetched_at": "2026-05-10T19:43:52.900981+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -183,7 +183,7 @@
     "html_url": "https://github.com/nrl-ai/llama-assistant",
     "language": "Python",
     "pushed_at": "2025-12-06T10:15:48Z",
-    "stargazers_count": 530,
+    "stargazers_count": 529,
     "topics": [
       "deepseek-r1",
       "llama",
@@ -195,7 +195,7 @@
       "personal-assistant",
       "private-gpt"
     ],
-    "updated_at": "2026-05-09T01:37:15Z"
+    "updated_at": "2026-05-10T17:25:29Z"
   },
   "repo_links": [
     {

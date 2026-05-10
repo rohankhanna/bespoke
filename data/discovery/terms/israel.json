@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "last_seen_at": "2026-05-10T18:25:41.670160+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -36,6 +36,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "D1DX/morning-skill"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Israel-Agent-Skills-Plugin"
     }
   ],
   "term": "israel"

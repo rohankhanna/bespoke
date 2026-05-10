@@ -3472,6 +3472,30 @@
       "source_repo": "nvim-telescope/telescope-file-browser.nvim",
       "status": "candidate-context",
       "text": "`telescope-file-browser.nvim` is a file browser extension for telescope.nvim."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "olimorris/neotest-rspec",
+      "status": "candidate-context",
+      "text": "\ud83e\uddea Neotest adapter for RSpec. Works in Docker containers too"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olimorris/neotest-rspec",
+      "status": "candidate-context",
+      "text": "<!-- [![Tests](https://github.com/olimorris/neotest-rspec/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/olimorris/neotest-rspec/actions/workflows/ci.yml) -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theutz/neotest-pest",
+      "status": "candidate-context",
+      "text": "Neotest adapter for Pest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theutz/neotest-pest",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
     }
   ],
   "candidate_glosses": [
@@ -5238,6 +5262,18 @@
       "source_repo": "nvim-telescope/telescope-file-browser.nvim",
       "status": "candidate",
       "text": "`telescope-file-browser.nvim` is a file browser extension for telescope.nvim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olimorris/neotest-rspec",
+      "status": "candidate",
+      "text": "<!-- [![Tests](https://github.com/olimorris/neotest-rspec/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/olimorris/neotest-rspec/actions/workflows/ci.yml) -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theutz/neotest-pest",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
     }
   ],
   "candidate_related_terms": [],
@@ -11917,11 +11953,209 @@
       "observed_at": "2026-05-10T12:31:16.779865+00:00",
       "source_file": null,
       "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "lambdalisue/vim-nerdfont"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-nerdfont"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "vim-fall/fall.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/dashboard-nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/lspsaga.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "andymass/vim-matchup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-glyph-palette"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "famiu/feline.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "Hitesh-Aggarwal/feline_theme.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "nvim-tree/nvim-web-devicons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.deps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-dev.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-treesitter.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-build-treesitter-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "olimorris/neotest-rspec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "theutz/neotest-pest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "onsails/lspkind.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "aileot/vim-foldpeek"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/nurr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "nvim-neotest/neotest"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-10T12:31:16.779865+00:00",
+  "last_seen_at": "2026-05-10T18:25:41.670160+00:00",
   "lexical_providers": [
     "datamuse"
   ],

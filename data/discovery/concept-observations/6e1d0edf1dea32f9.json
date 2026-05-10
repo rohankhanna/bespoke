@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Shopping plugin intended for Israeli residents covering domestic purchasing channels, common B2C overseas channels (Aliexperss, Amazon, iHerb), and with some data and search pattern mappings. WIP!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![banner](banner.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![banner](banner.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "online-shopping",
+      "sense_id": "online-shopping#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "online-shopping",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "online-shopping",
+  "observation_id": "6e1d0edf1dea32f9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-10T18:25:41.670160+00:00",
+  "observed_text": "online-shopping",
+  "source_context_snippet": "![banner](banner.png)",
+  "source_file": null,
+  "source_repo": "danielrosehill/Claude-Israel-Shopping-Plugin",
+  "source_repo_description": "Shopping plugin intended for Israeli residents covering domestic purchasing channels, common B2C overseas channels (Aliexperss, Amazon, iHerb), and with some data and search pattern mappings. WIP!"
+}

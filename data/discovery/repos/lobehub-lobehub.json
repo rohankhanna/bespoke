@@ -256,11 +256,6 @@
       "source_file": "package.json"
     },
     {
-      "component": "@lobechat/builtin-tool-cron",
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "@lobechat/builtin-tool-group-agent-builder",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
@@ -2306,13 +2301,6 @@
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
       "target": "@lobechat/builtin-tool-creds",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "lobehub/lobehub",
-      "target": "@lobechat/builtin-tool-cron",
       "target_type": "component"
     },
     {
@@ -4752,7 +4740,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-10T03:03:22.401450+00:00",
+  "fetched_at": "2026-05-10T20:36:27.518816+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -4764,7 +4752,7 @@
     },
     {
       "path": "package.json",
-      "size": 22880
+      "size": 22830
     },
     {
       "path": ".github/workflows/auto-i18n.yml",
@@ -4804,8 +4792,8 @@
     "full_name": "lobehub/lobehub",
     "html_url": "https://github.com/lobehub/lobehub",
     "language": "TypeScript",
-    "pushed_at": "2026-05-10T02:50:30Z",
-    "stargazers_count": 76769,
+    "pushed_at": "2026-05-10T19:02:36Z",
+    "stargazers_count": 76801,
     "topics": [
       "agent",
       "agent-collaboration",
@@ -4820,7 +4808,7 @@
       "mcp",
       "openai"
     ],
-    "updated_at": "2026-05-10T03:00:48Z"
+    "updated_at": "2026-05-10T20:19:07Z"
   },
   "repo_links": [
     {

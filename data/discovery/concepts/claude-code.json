@@ -1894,6 +1894,18 @@
       "source_repo": "vaporif/parry-guard",
       "status": "candidate-context",
       "text": "Prompt injection scanner for AI coding tools (Claude Code / Codex / etc). Runs DeBERTa/Llama transformers via Candle or ONNX in Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Claude-Is-Awesome",
+      "status": "candidate-context",
+      "text": "Awesome list creator using Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Is-Awesome",
+      "status": "candidate-context",
+      "text": "[![Claude Code](https://img.shields.io/badge/Claude-Code-8A2BE2?logo=anthropic)](https://claude.ai/code)"
     }
   ],
   "candidate_glosses": [
@@ -2844,6 +2856,12 @@
       "source_repo": "D1DX/morning-skill",
       "status": "candidate",
       "text": "[![Author](https://img.shields.io/badge/Author-Daniel_Rudaev-000000?style=flat)](https://github.com/daniel-rudaev)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Is-Awesome",
+      "status": "candidate",
+      "text": "[![Claude Code](https://img.shields.io/badge/Claude-Code-8A2BE2?logo=anthropic)](https://claude.ai/code)"
     }
   ],
   "candidate_related_terms": [
@@ -6331,11 +6349,89 @@
       "observed_at": "2026-05-10T12:31:16.779865+00:00",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "vibrantlabsai/ragas"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "flagos-ai/FlagScale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Is-Awesome"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "rllm-org/rllm"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-10T12:31:16.779865+00:00",
+  "last_seen_at": "2026-05-10T18:25:41.670160+00:00",
   "lexical_providers": [
     "datamuse"
   ],

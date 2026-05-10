@@ -2015,6 +2015,18 @@
       "source_repo": "nvim-neotest/neotest-vim-test",
       "status": "candidate-context",
       "text": "[Neotest](https://github.com/rcarriga/neotest) adapter for vim-test."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theutz/neotest-pest",
+      "status": "candidate-context",
+      "text": "Neotest adapter for Pest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theutz/neotest-pest",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
     }
   ],
   "candidate_glosses": [
@@ -3019,6 +3031,12 @@
       "source_repo": "nvim-neotest/neotest-vim-test",
       "status": "candidate",
       "text": "[Neotest](https://github.com/rcarriga/neotest) adapter for vim-test."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theutz/neotest-pest",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
     }
   ],
   "candidate_related_terms": [
@@ -5679,11 +5697,83 @@
       "observed_at": "2026-05-10T12:31:16.779865+00:00",
       "source_file": null,
       "source_repo": "ttlns/Selenium-Driverless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/enzyme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/react-shallow-renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "DioxusLabs/sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "theutz/neotest-pest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "PraneshASP/vscode-foundry-test-runner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T18:25:41.670160+00:00",
+      "source_file": null,
+      "source_repo": "ttlns/Selenium-Driverless"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-10T12:31:16.779865+00:00",
+  "last_seen_at": "2026-05-10T18:25:41.670160+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -283,7 +283,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-10T07:30:18.752424+00:00",
+  "fetched_at": "2026-05-10T18:46:47.652691+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -311,7 +311,7 @@
     "full_name": "babashka/babashka",
     "html_url": "https://github.com/babashka/babashka",
     "language": "Clojure",
-    "pushed_at": "2026-05-04T08:56:25Z",
+    "pushed_at": "2026-05-10T17:47:43Z",
     "stargazers_count": 4491,
     "topics": [
       "babashka",
@@ -321,7 +321,7 @@
       "scripting",
       "shell-scripting"
     ],
-    "updated_at": "2026-05-09T22:55:42Z"
+    "updated_at": "2026-05-10T17:47:48Z"
   },
   "repo_links": [
     {

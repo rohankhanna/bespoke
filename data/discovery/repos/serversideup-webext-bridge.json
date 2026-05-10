@@ -249,11 +249,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-10T07:09:05.386377+00:00",
+  "fetched_at": "2026-05-10T20:41:54.778023+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 8405
+      "size": 8450
     },
     {
       "path": "package.json",
@@ -273,7 +273,7 @@
     "full_name": "serversideup/webext-bridge",
     "html_url": "https://github.com/serversideup/webext-bridge",
     "language": "TypeScript",
-    "pushed_at": "2026-04-08T07:26:49Z",
+    "pushed_at": "2026-05-10T15:45:12Z",
     "stargazers_count": 710,
     "topics": [
       "browser-extensions",
@@ -281,7 +281,7 @@
       "web-extensions",
       "webext"
     ],
-    "updated_at": "2026-04-28T12:32:10Z"
+    "updated_at": "2026-05-10T15:45:16Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Neotest adapter for Pest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> [!CAUTION]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39653858,
+      "status": "candidate",
+      "text": "gadfly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39572022,
+      "status": "candidate",
+      "text": "blighter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39521489,
+      "status": "candidate",
+      "text": "cuss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29728427,
+      "status": "candidate",
+      "text": "pesterer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29728426,
+      "status": "candidate",
+      "text": "infestation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pest",
+      "sense_id": "pest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15032,
+      "status": "candidate",
+      "text": "cuss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13036,
+      "status": "candidate",
+      "text": "gadfly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9024,
+      "status": "candidate",
+      "text": "blighter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1018,
+      "status": "candidate",
+      "text": "pesterer"
+    }
+  ],
+  "concept_id": "pest",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pest",
+  "observation_id": "4492a1246721eff3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-10T18:25:41.670160+00:00",
+  "observed_text": "pest",
+  "source_context_snippet": "> [!CAUTION]",
+  "source_file": null,
+  "source_repo": "theutz/neotest-pest",
+  "source_repo_description": "Neotest adapter for Pest"
+}

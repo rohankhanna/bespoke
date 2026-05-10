@@ -258,7 +258,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
-      "target": "enricoros/big-agi",
+      "target": "fmaclen/hollama",
       "target_type": "repository"
     },
     {
@@ -549,7 +549,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-10T13:00:25.124140+00:00",
+  "fetched_at": "2026-05-10T20:37:39.380848+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -590,7 +590,7 @@
     "html_url": "https://github.com/ollama/ollama",
     "language": "Go",
     "pushed_at": "2026-05-09T16:58:52Z",
-    "stargazers_count": 171122,
+    "stargazers_count": 171142,
     "topics": [
       "deepseek",
       "gemma",
@@ -608,7 +608,7 @@
       "ollama",
       "qwen"
     ],
-    "updated_at": "2026-05-10T12:57:39Z"
+    "updated_at": "2026-05-10T20:25:01Z"
   },
   "repo_links": [
     {
@@ -628,7 +628,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "enricoros/big-agi",
+      "full_name": "fmaclen/hollama",
       "source_file": "README.md"
     }
   ],

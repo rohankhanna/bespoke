@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Shopping plugin intended for Israeli residents covering domestic purchasing channels, common B2C overseas channels (Aliexperss, Amazon, iHerb), and with some data and search pattern mappings. WIP!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![banner](banner.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![banner](banner.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019050,
+      "status": "candidate",
+      "text": "e-commerce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019029,
+      "status": "candidate",
+      "text": "e-trade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018905,
+      "status": "candidate",
+      "text": "e-business"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019076,
+      "status": "candidate",
+      "text": "ebusiness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019074,
+      "status": "candidate",
+      "text": "business"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ecommerce",
+      "sense_id": "ecommerce#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ecommerce",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ecommerce",
+  "observation_id": "91300131dee703e8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-10T18:25:41.670160+00:00",
+  "observed_text": "ecommerce",
+  "source_context_snippet": "![banner](banner.png)",
+  "source_file": null,
+  "source_repo": "danielrosehill/Claude-Israel-Shopping-Plugin",
+  "source_repo_description": "Shopping plugin intended for Israeli residents covering domestic purchasing channels, common B2C overseas channels (Aliexperss, Amazon, iHerb), and with some data and search pattern mappings. WIP!"
+}
