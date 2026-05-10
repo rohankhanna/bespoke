@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "xdebug"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xdebug/vscode-php-debug",
+      "status": "candidate-context",
+      "text": "PHP Debug Adapter for Visual Studio Code \ud83d\udc1e\u26d4"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xdebug/vscode-php-debug",
+      "status": "candidate-context",
+      "text": "[![vs marketplace](https://img.shields.io/vscode-marketplace/v/xdebug.php-debug.svg?label=vs%20marketplace)](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug) [![downloads](https://img.shields.io/vscode-marketplace/d/xdebug.php-debug.svg)](https://marketplace\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xdebug/vscode-php-debug",
+      "status": "candidate",
+      "text": "[![vs marketplace](https://img.shields.io/vscode-marketplace/v/xdebug.php-debug.svg?label=vs%20marketplace)](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug) [![downloads](https://img.shields.io/vscode-marketplace/d/xdebug.php-debug.svg)](https://marketplace\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "xdebug",
+  "concept_id": "xdebug",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T07:03:13.220143+00:00",
+      "source_file": null,
+      "source_repo": "xdebug/vscode-php-debug"
+    }
+  ],
+  "first_seen_at": "2026-05-10T07:03:13.220143+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-10T07:03:13.220143+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "xdebug",
+      "sense_id": "xdebug#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

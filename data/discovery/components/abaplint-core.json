@@ -1,7 +1,7 @@
 {
   "component": "@abaplint/core",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-10T00:39:41.381728+00:00",
+  "last_seen_at": "2026-05-10T07:03:13.220143+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

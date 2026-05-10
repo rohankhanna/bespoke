@@ -1,7 +1,7 @@
 {
   "component": "vscode-debugadapter",
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-05-10T00:39:41.381728+00:00",
+  "last_seen_at": "2026-05-10T07:03:13.220143+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -47,6 +47,11 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "tomblind/local-lua-debugger-vscode"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "xdebug/vscode-php-debug"
     }
   ]
 }

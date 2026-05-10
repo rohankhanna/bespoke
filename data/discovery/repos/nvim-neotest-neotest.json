@@ -75,7 +75,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvim-neotest/neotest",
-      "target": "olimorris/neotest-phpunit",
+      "target": "olimorris/neotest-rspec",
       "target_type": "repository"
     },
     {
@@ -170,7 +170,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-09T18:26:37.745961+00:00",
+  "fetched_at": "2026-05-10T08:07:55.170004+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -199,12 +199,12 @@
     "html_url": "https://github.com/nvim-neotest/neotest",
     "language": "Lua",
     "pushed_at": "2026-05-01T07:18:33Z",
-    "stargazers_count": 3075,
+    "stargazers_count": 3076,
     "topics": [
       "lua",
       "neovim"
     ],
-    "updated_at": "2026-05-09T08:40:59Z"
+    "updated_at": "2026-05-09T21:08:55Z"
   },
   "repo_links": [
     {
@@ -224,7 +224,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "olimorris/neotest-phpunit",
+      "full_name": "olimorris/neotest-rspec",
       "source_file": "README.md"
     }
   ],

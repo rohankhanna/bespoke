@@ -628,6 +628,18 @@
       "source_repo": "serayuzgur/crates",
       "status": "candidate-context",
       "text": "[![Become a Patron](https://img.shields.io/badge/Support%20Us%20on-Patreon-orange.svg)](https://www.patreon.com/bePatron?u=11468905)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xdebug/vscode-php-debug",
+      "status": "candidate-context",
+      "text": "PHP Debug Adapter for Visual Studio Code \ud83d\udc1e\u26d4"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xdebug/vscode-php-debug",
+      "status": "candidate-context",
+      "text": "[![vs marketplace](https://img.shields.io/vscode-marketplace/v/xdebug.php-debug.svg?label=vs%20marketplace)](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug) [![downloads](https://img.shields.io/vscode-marketplace/d/xdebug.php-debug.svg)](https://marketplace\u2026"
     }
   ],
   "candidate_glosses": [
@@ -942,6 +954,12 @@
       "source_repo": "serayuzgur/crates",
       "status": "candidate",
       "text": "[![Become a Patron](https://img.shields.io/badge/Support%20Us%20on-Patreon-orange.svg)](https://www.patreon.com/bePatron?u=11468905)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xdebug/vscode-php-debug",
+      "status": "candidate",
+      "text": "[![vs marketplace](https://img.shields.io/vscode-marketplace/v/xdebug.php-debug.svg?label=vs%20marketplace)](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug) [![downloads](https://img.shields.io/vscode-marketplace/d/xdebug.php-debug.svg)](https://marketplace\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -2131,11 +2149,47 @@
       "observed_at": "2026-05-10T00:39:41.381728+00:00",
       "source_file": null,
       "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T07:03:13.220143+00:00",
+      "source_file": null,
+      "source_repo": "spring-projects/spring-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T07:03:13.220143+00:00",
+      "source_file": null,
+      "source_repo": "xdebug/vscode-php-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T07:03:13.220143+00:00",
+      "source_file": null,
+      "source_repo": "michaellzc/vscode-hadolint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T07:03:13.220143+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/vscode-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T07:03:13.220143+00:00",
+      "source_file": null,
+      "source_repo": "LuaLS/vscode-lua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T07:03:13.220143+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-10T00:39:41.381728+00:00",
+  "last_seen_at": "2026-05-10T07:03:13.220143+00:00",
   "lexical_providers": [
     "datamuse"
   ],

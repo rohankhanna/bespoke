@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "V13Axel/neotest-pest",
+      "target": "theutz/neotest-pest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "V13Axel/neotest-pest",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "V13Axel/neotest-pest",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "V13Axel/neotest-pest",
+      "target": "Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-10T08:07:57.998460+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5956
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1786
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Neotest adapter for Pest 2.0",
+    "fork": false,
+    "full_name": "V13Axel/neotest-pest",
+    "html_url": "https://github.com/V13Axel/neotest-pest",
+    "language": "Lua",
+    "pushed_at": "2026-03-16T20:41:34Z",
+    "stargazers_count": 38,
+    "topics": [],
+    "updated_at": "2026-05-04T19:49:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "theutz/neotest-pest",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Tests"
+    }
+  ]
+}

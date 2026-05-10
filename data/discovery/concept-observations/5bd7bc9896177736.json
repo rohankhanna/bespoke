@@ -48,7 +48,7 @@
   "normalized_form": "weekly-production-release",
   "observation_id": "5bd7bc9896177736",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-10T00:39:41.381728+00:00",
+  "observed_at": "2026-05-10T07:03:13.220143+00:00",
   "observed_text": "weekly-production-release",
   "source_context_snippet": "weekly-production-release",
   "source_file": ".github/workflows/promote-develop-to-main.yml",

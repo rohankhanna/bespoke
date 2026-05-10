@@ -1,0 +1,104 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Kozea/CairoSVG",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Kozea/CairoSVG",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Kozea/CairoSVG",
+      "target": "CairoSVG's tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kozea/CairoSVG",
+      "target": "cairo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kozea/CairoSVG",
+      "target": "converter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-10T08:22:55.102017+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1029
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 975
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Convert your vector images",
+    "fork": false,
+    "full_name": "Kozea/CairoSVG",
+    "html_url": "https://github.com/Kozea/CairoSVG",
+    "language": "Python",
+    "pushed_at": "2026-04-14T08:07:40Z",
+    "stargazers_count": 921,
+    "topics": [
+      "cairo",
+      "converter",
+      "pdf",
+      "png",
+      "python",
+      "svg"
+    ],
+    "updated_at": "2026-05-10T03:45:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CairoSVG's tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "CairoSVG's tests"
+    },
+    {
+      "context_snippet": "CairoSVG is an SVG converter based on Cairo. It can export SVG files to PDF,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cairo"
+    },
+    {
+      "context_snippet": "CairoSVG is an SVG converter based on Cairo. It can export SVG files to PDF,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "converter"
+    }
+  ]
+}

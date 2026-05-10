@@ -18,7 +18,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvim-neotest/neotest",
-      "target": "olimorris/neotest-phpunit",
+      "target": "olimorris/neotest-rspec",
       "target_type": "repository"
     },
     {
@@ -113,6 +113,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-09T18:25:38.031362+00:00",
+  "generated_at": "2026-05-10T07:03:13.220143+00:00",
   "source_repo": "nvim-neotest/neotest"
 }

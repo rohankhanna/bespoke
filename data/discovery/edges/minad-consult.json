@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minad/consult",
+      "target": "completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minad/consult",
+      "target": "emacs",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-10T07:03:13.220143+00:00",
+  "source_repo": "minad/consult"
+}

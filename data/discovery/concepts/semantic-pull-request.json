@@ -74,6 +74,18 @@
       "source_repo": "apache/pulsar",
       "status": "candidate-context",
       "text": "Semantic Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xdebug/vscode-php-debug",
+      "status": "candidate-context",
+      "text": "PHP Debug Adapter for Visual Studio Code \ud83d\udc1e\u26d4"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xdebug/vscode-php-debug",
+      "status": "candidate-context",
+      "text": "'Semantic Pull Request'"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +130,12 @@
       "source_repo": "apache/pulsar",
       "status": "candidate",
       "text": "Semantic Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xdebug/vscode-php-debug",
+      "status": "candidate",
+      "text": "'Semantic Pull Request'"
     }
   ],
   "candidate_related_terms": [
@@ -203,11 +221,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/ci-semantic-pull-request.yml",
       "source_repo": "apache/pulsar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-10T07:03:13.220143+00:00",
+      "source_file": ".github/workflows/semantic.yml",
+      "source_repo": "xdebug/vscode-php-debug"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-10T07:03:13.220143+00:00",
   "lexical_providers": [
     "datamuse"
   ],

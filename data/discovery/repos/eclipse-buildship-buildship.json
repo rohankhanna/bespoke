@@ -78,13 +78,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "eclipse-buildship/buildship",
-      "target": "eclipse/buildship",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "eclipse-buildship/buildship",
@@ -113,12 +106,8 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-10T01:55:25.824385+00:00",
+  "fetched_at": "2026-05-10T08:05:01.847387+00:00",
   "fetched_files": [
-    {
-      "path": "README.md",
-      "size": 1840
-    },
     {
       "path": ".github/workflows/nightly.yml",
       "size": 3457
@@ -142,12 +131,6 @@
     "topics": [],
     "updated_at": "2026-04-25T02:50:52Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "eclipse/buildship",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": []
 }

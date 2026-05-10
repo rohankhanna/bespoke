@@ -113,7 +113,7 @@
   "normalized_form": "vim",
   "observation_id": "2d7719c9a671a767",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-10T00:39:41.381728+00:00",
+  "observed_at": "2026-05-10T07:03:13.220143+00:00",
   "observed_text": "vim",
   "source_context_snippet": "vim",
   "source_file": ".github/workflows/vim.yml",

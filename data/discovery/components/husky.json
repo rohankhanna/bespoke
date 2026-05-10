@@ -1,7 +1,7 @@
 {
   "component": "husky",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-10T00:39:41.381728+00:00",
+  "last_seen_at": "2026-05-10T07:03:13.220143+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -3402,6 +3402,11 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "alichherawalla/off-grid-mobile-ai"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "xdebug/vscode-php-debug"
     }
   ]
 }

@@ -319,6 +319,18 @@
       "source_repo": "cerebral/cerebral",
       "status": "candidate-context",
       "text": "A declarative state and side effects management solution for popular JavaScript frameworks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xdebug/vscode-php-debug",
+      "status": "candidate-context",
+      "text": "PHP Debug Adapter for Visual Studio Code \ud83d\udc1e\u26d4"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xdebug/vscode-php-debug",
+      "status": "candidate-context",
+      "text": "[![vs marketplace](https://img.shields.io/vscode-marketplace/v/xdebug.php-debug.svg?label=vs%20marketplace)](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug) [![downloads](https://img.shields.io/vscode-marketplace/d/xdebug.php-debug.svg)](https://marketplace\u2026"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +489,12 @@
       "source_repo": "cerebral/cerebral",
       "status": "candidate",
       "text": "A declarative state and side effects management solution for popular JavaScript frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xdebug/vscode-php-debug",
+      "status": "candidate",
+      "text": "[![vs marketplace](https://img.shields.io/vscode-marketplace/v/xdebug.php-debug.svg?label=vs%20marketplace)](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug) [![downloads](https://img.shields.io/vscode-marketplace/d/xdebug.php-debug.svg)](https://marketplace\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -850,11 +868,23 @@
       "observed_at": "2026-05-10T00:39:41.381728+00:00",
       "source_file": null,
       "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T07:03:13.220143+00:00",
+      "source_file": null,
+      "source_repo": "xdebug/vscode-php-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T07:03:13.220143+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-10T00:39:41.381728+00:00",
+  "last_seen_at": "2026-05-10T07:03:13.220143+00:00",
   "lexical_providers": [
     "datamuse"
   ],

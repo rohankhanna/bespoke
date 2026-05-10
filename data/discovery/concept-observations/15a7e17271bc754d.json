@@ -84,7 +84,7 @@
   "normalized_form": "pr-check-command",
   "observation_id": "15a7e17271bc754d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-10T00:39:41.381728+00:00",
+  "observed_at": "2026-05-10T07:03:13.220143+00:00",
   "observed_text": "PR Check Command",
   "source_context_snippet": "PR Check Command",
   "source_file": ".github/workflows/pr-check-command.yml",

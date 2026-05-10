@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-05-10T00:39:41.381728+00:00",
+  "last_seen_at": "2026-05-10T07:03:13.220143+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -261,6 +261,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "serayuzgur/crates"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "xdebug/vscode-php-debug"
     }
   ],
   "term": "VSCode Extension"

@@ -155,7 +155,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-10T01:58:05.211440+00:00",
+  "fetched_at": "2026-05-10T08:10:31.850078+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -176,7 +176,7 @@
     "html_url": "https://github.com/graphql/graphql-playground",
     "language": "TypeScript",
     "pushed_at": "2026-05-04T09:38:44Z",
-    "stargazers_count": 8853,
+    "stargazers_count": 8852,
     "topics": [
       "graphiql",
       "graphql",
@@ -184,7 +184,7 @@
       "ide",
       "prisma"
     ],
-    "updated_at": "2026-05-07T12:02:21Z"
+    "updated_at": "2026-05-10T07:02:05Z"
   },
   "repo_links": [
     {

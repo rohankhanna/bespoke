@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-05-10T00:39:41.381728+00:00",
+  "last_seen_at": "2026-05-10T07:03:13.220143+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -716,6 +716,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "AGI-Edgerunners/LLM-Adapters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-LLaMA-Alpaca-2"
     }
   ],
   "term": "large-language-models"

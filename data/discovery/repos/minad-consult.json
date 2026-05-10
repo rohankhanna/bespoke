@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minad/consult",
+      "target": "completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minad/consult",
+      "target": "emacs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-10T08:08:02.518381+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ":mag: consult.el - Search and navigate via completing-read",
+    "fork": false,
+    "full_name": "minad/consult",
+    "html_url": "https://github.com/minad/consult",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-05-06T19:42:53Z",
+    "stargazers_count": 1601,
+    "topics": [
+      "completion",
+      "emacs"
+    ],
+    "updated_at": "2026-05-09T19:24:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": ":mag: consult.el - Search and navigate via completing-read",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "completion"
+    },
+    {
+      "context_snippet": ":mag: consult.el - Search and navigate via completing-read",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    }
+  ]
+}

@@ -109,7 +109,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-10T02:43:37.098236+00:00",
+  "fetched_at": "2026-05-10T08:25:03.979842+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -134,9 +134,9 @@
     "html_url": "https://github.com/psmux/psnet",
     "language": "Rust",
     "pushed_at": "2026-03-14T19:02:04Z",
-    "stargazers_count": 75,
+    "stargazers_count": 76,
     "topics": [],
-    "updated_at": "2026-05-08T14:55:56Z"
+    "updated_at": "2026-05-10T04:01:08Z"
   },
   "repo_links": [
     {

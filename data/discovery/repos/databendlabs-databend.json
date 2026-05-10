@@ -441,7 +441,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-10T02:45:26.309035+00:00",
+  "fetched_at": "2026-05-10T08:28:25.532338+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -493,8 +493,8 @@
     "full_name": "databendlabs/databend",
     "html_url": "https://github.com/databendlabs/databend",
     "language": "Rust",
-    "pushed_at": "2026-05-10T00:21:48Z",
-    "stargazers_count": 9283,
+    "pushed_at": "2026-05-10T08:09:35Z",
+    "stargazers_count": 9285,
     "topics": [
       "ai",
       "bigdata",
@@ -511,7 +511,7 @@
       "vector-database",
       "vector-search"
     ],
-    "updated_at": "2026-05-10T00:59:24Z"
+    "updated_at": "2026-05-10T07:05:36Z"
   },
   "repo_links": [],
   "terms": [

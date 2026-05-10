@@ -2694,6 +2694,9 @@
   "alpaca-2": [
     "alpaca-2"
   ],
+  "alpaca2": [
+    "alpaca2"
+  ],
   "alpha builds": [
     "alpha-builds"
   ],
@@ -14929,6 +14932,9 @@
   ],
   "cairomakie": [
     "cairomakie"
+  ],
+  "cairosvg's tests": [
+    "cairosvg-s-tests"
   ],
   "cake": [
     "cake"
@@ -97982,6 +97988,9 @@
   ],
   "xctest": [
     "xctest"
+  ],
+  "xdebug": [
+    "xdebug"
   ],
   "xdeepfm": [
     "xdeepfm"
