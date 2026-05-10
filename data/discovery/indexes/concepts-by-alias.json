@@ -2226,6 +2226,9 @@
   "ai-song-generator": [
     "ai-song-generator"
   ],
+  "ai-suite": [
+    "ai-suite"
+  ],
   "ai-test": [
     "ai-test"
   ],
@@ -2255,6 +2258,9 @@
   ],
   "ai-workforce": [
     "ai-workforce"
+  ],
+  "ai-workspace": [
+    "ai-workspace"
   ],
   "ai4code": [
     "ai4code"
@@ -3450,6 +3456,9 @@
   ],
   "anthropic tests": [
     "anthropic-tests"
+  ],
+  "anthropic-api": [
+    "anthropic-api"
   ],
   "anthropic-claude": [
     "anthropic-claude"
@@ -19667,6 +19676,12 @@
   "claude code assistant": [
     "claude-code-assistant"
   ],
+  "claude code auto-triage issues": [
+    "claude-code-auto-triage-issues"
+  ],
+  "claude code dm": [
+    "claude-code-dm"
+  ],
   "claude code pr review": [
     "claude-code-pr-review"
   ],
@@ -25130,6 +25145,9 @@
   "create and publish docker image": [
     "create-and-publish-docker-image"
   ],
+  "create and publish docker images": [
+    "create-and-publish-docker-images"
+  ],
   "create and publish faucet docker image": [
     "create-and-publish-faucet-docker-image"
   ],
@@ -28129,6 +28147,9 @@
   ],
   "deepseek": [
     "deepseek"
+  ],
+  "deepseek-api": [
+    "deepseek-api"
   ],
   "deepseek-r1": [
     "deepseek-r1"
@@ -62697,6 +62718,9 @@
   "openai-proxy": [
     "openai-proxy"
   ],
+  "openai-responses-api": [
+    "openai-responses-api"
+  ],
   "openai-triton": [
     "openai-triton"
   ],
@@ -65063,6 +65087,9 @@
   ],
   "perplexity": [
     "perplexity"
+  ],
+  "perplexity-api": [
+    "perplexity-api"
   ],
   "persian": [
     "persian"
@@ -81674,6 +81701,9 @@
   "sonnet": [
     "sonnet"
   ],
+  "sonnet-4-5": [
+    "sonnet-4-5"
+  ],
   "sonos": [
     "sonos"
   ],
@@ -97883,6 +97913,9 @@
   ],
   "xacro-descriptions": [
     "xacro-descriptions"
+  ],
+  "xai-api": [
+    "xai-api"
   ],
   "xamarin": [
     "xamarin"

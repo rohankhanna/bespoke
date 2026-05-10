@@ -2070,11 +2070,23 @@
       "observed_at": "2026-05-10T07:03:13.220143+00:00",
       "source_file": null,
       "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T12:31:16.779865+00:00",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T12:31:16.779865+00:00",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp.Samples"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-10T07:03:13.220143+00:00",
+  "last_seen_at": "2026-05-10T12:31:16.779865+00:00",
   "lexical_providers": [
     "datamuse"
   ],

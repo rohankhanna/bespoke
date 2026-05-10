@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-10T02:59:20.113900+00:00",
+  "fetched_at": "2026-05-10T12:51:11.880969+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -65,7 +65,7 @@
     "html_url": "https://github.com/hexops-graveyard/dockerfile",
     "language": "Dockerfile",
     "pushed_at": "2021-08-08T04:42:37Z",
-    "stargazers_count": 4091,
+    "stargazers_count": 4090,
     "topics": [
       "containers",
       "dockerfile",
@@ -73,7 +73,7 @@
       "oci",
       "uids"
     ],
-    "updated_at": "2026-04-25T07:18:02Z"
+    "updated_at": "2026-05-10T12:22:41Z"
   },
   "repo_links": [
     {

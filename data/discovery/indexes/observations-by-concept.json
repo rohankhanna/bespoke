@@ -3037,6 +3037,9 @@
   "ai-song-generator": [
     "03b57050c560bf4c"
   ],
+  "ai-suite": [
+    "7a9307be279ba098"
+  ],
   "ai-test": [
     "9e181bb178b319a3"
   ],
@@ -3103,6 +3106,9 @@
   "ai-workforce": [
     "96b3d0ea4aec74bc",
     "a5facb004756713e"
+  ],
+  "ai-workspace": [
+    "7bc29a3024325d98"
   ],
   "ai4code": [
     "32f0d90390af6aa8",
@@ -4961,6 +4967,9 @@
     "ec5bcc40d9a0c0a9",
     "f93e20dbba3cd54b",
     "fae14e8db15ce24b"
+  ],
+  "anthropic-api": [
+    "86e1ae2d0b724e6f"
   ],
   "anthropic-claude": [
     "251678bbeed9a4a8",
@@ -29879,6 +29888,9 @@
   "claude-code-assistant": [
     "aad4e8bad389cc5c"
   ],
+  "claude-code-auto-triage-issues": [
+    "084fbde399cf6bd8"
+  ],
   "claude-code-cli": [
     "5f47c278a2460a00",
     "acef4beaae1467a6",
@@ -29886,6 +29898,9 @@
   ],
   "claude-code-commands": [
     "791a978915667434"
+  ],
+  "claude-code-dm": [
+    "4ed88481bf2a4887"
   ],
   "claude-code-hooks": [
     "417f00fae57f9f07"
@@ -41015,6 +41030,9 @@
     "8b252885f90f8759",
     "de8d6900eb6790cb"
   ],
+  "create-and-publish-docker-images": [
+    "0bd24ff31b6bbef8"
+  ],
   "create-and-publish-faucet-docker-image": [
     "4a1db511935955f7"
   ],
@@ -46922,6 +46940,9 @@
     "e40121ff6e5c9fdc",
     "e8a06a140f587626",
     "f8e0df416bdd4871"
+  ],
+  "deepseek-api": [
+    "cfc7428d11b4fec3"
   ],
   "deepseek-r1": [
     "34e163245e13bfe1",
@@ -65102,6 +65123,7 @@
     "690464d30238e0b3",
     "6b7f6f14c84a8b42",
     "8bfe097b2ceb32b1",
+    "9fc5252e875d1eee",
     "a8c81d61f11a74e9",
     "aab10a31c174f46f",
     "cea39997cc87374b",
@@ -69855,6 +69877,7 @@
     "22dea736ad6a91f9",
     "44520fb99dc7309f",
     "9d3afe32dc3a4e9a",
+    "aa0d65494bf5af4c",
     "c713a46a0bf85f6e",
     "da1326bfdcef0243"
   ],
@@ -86668,7 +86691,8 @@
   ],
   "librechat": [
     "2663516a376f0e2e",
-    "2d569799dc4d4736"
+    "2d569799dc4d4736",
+    "af9a803d16b1e866"
   ],
   "librelane": [
     "a538a0b8d01b5cf4"
@@ -99178,6 +99202,7 @@
     "7558193cca83c066",
     "761fa04de9c83d91",
     "768acb8acddc5083",
+    "78208cf599ca6da7",
     "783652cf31ab8f33",
     "7860c9e1150e7aa0",
     "96a0c2f1f7c1e223",
@@ -99228,7 +99253,8 @@
     "e1712f0ce3640196"
   ],
   "multi-model": [
-    "25258d47a3db3be5"
+    "25258d47a3db3be5",
+    "d4b370e72b14a3ac"
   ],
   "multi-model-dbms": [
     "330c6ba7a918c76f",
@@ -100267,7 +100293,8 @@
   ],
   "nano-banana": [
     "181da69d06bce075",
-    "dfec52f292bbb409"
+    "dfec52f292bbb409",
+    "eb40fcd8ad765691"
   ],
   "nanobind": [
     "fa8007992271da25"
@@ -107639,6 +107666,9 @@
     "08e9d6b568c1d462",
     "a492a01c95ef6654"
   ],
+  "openai-responses-api": [
+    "223cac39a975b74d"
+  ],
   "openai-triton": [
     "bfe316d1d1194cc1"
   ],
@@ -108588,6 +108618,7 @@
     "3ec4db60bd14a998"
   ],
   "openwebui": [
+    "03601fcbec5fe756",
     "0ed7dc2c6c4a19d0"
   ],
   "openwrt": [
@@ -111474,6 +111505,9 @@
   ],
   "perplexity": [
     "12a5b03e766069b7"
+  ],
+  "perplexity-api": [
+    "62eae6e8f4c95634"
   ],
   "persian": [
     "66425474f7be4c26"
@@ -141452,6 +141486,9 @@
     "a7b261fe529f9441",
     "de6ed93533eb824f"
   ],
+  "sonnet-4-5": [
+    "11ad579cd11a7c8e"
+  ],
   "sonos": [
     "452a988ca2db2d60",
     "4c5547edb3e8be7b",
@@ -168722,6 +168759,9 @@
   ],
   "xacro-descriptions": [
     "ff680e9db065f4f3"
+  ],
+  "xai-api": [
+    "e89d50c175890d1a"
   ],
   "xamarin": [
     "509ce57e21228b26",

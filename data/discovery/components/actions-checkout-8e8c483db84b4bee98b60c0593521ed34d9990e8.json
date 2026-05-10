@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-05-10T07:03:13.220143+00:00",
+  "last_seen_at": "2026-05-10T12:31:16.779865+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1357,6 +1357,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/fossa.yml",
       "source_repo": "signalfx/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "enricoros/big-AGI"
     }
   ]
 }

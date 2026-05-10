@@ -403,6 +403,18 @@
       "source_repo": "SciSharp/LLamaSharp",
       "status": "candidate-context",
       "text": "![logo](Assets/LLamaSharpLogo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enricoros/big-AGI",
+      "status": "candidate-context",
+      "text": "AI suite powered by state-of-the-art models and providing advanced AI/AGI functions. Includes AI personas, AGI functions, world-class Beam multi-model chats, text-to-image, voice, response streaming, code highlighting and execution, PDF import, presets for developers, much more. Deploy on-prem or in the cloud."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enricoros/big-AGI",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -603,6 +615,12 @@
       "source_repo": "SciSharp/LLamaSharp",
       "status": "candidate",
       "text": "![logo](Assets/LLamaSharpLogo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enricoros/big-AGI",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -2241,11 +2259,59 @@
       "observed_at": "2026-05-10T07:03:13.220143+00:00",
       "source_file": null,
       "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T12:31:16.779865+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T12:31:16.779865+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T12:31:16.779865+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Llama3.2-Vision-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T12:31:16.779865+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LISA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T12:31:16.779865+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Phi3-Vision-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T12:31:16.779865+00:00",
+      "source_file": null,
+      "source_repo": "enricoros/big-AGI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T12:31:16.779865+00:00",
+      "source_file": null,
+      "source_repo": "InternRobotics/Aether"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T12:31:16.779865+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/VisualGLM-6B"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-10T07:03:13.220143+00:00",
+  "last_seen_at": "2026-05-10T12:31:16.779865+00:00",
   "lexical_providers": [
     "datamuse"
   ],

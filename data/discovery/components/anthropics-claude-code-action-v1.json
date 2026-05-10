@@ -1,7 +1,7 @@
 {
   "component": "anthropics/claude-code-action@v1",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-10T07:03:13.220143+00:00",
+  "last_seen_at": "2026-05-10T12:31:16.779865+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -787,6 +787,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "josh-project/josh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-dm.yml",
+      "source_repo": "enricoros/big-AGI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "enricoros/big-AGI"
     }
   ]
 }

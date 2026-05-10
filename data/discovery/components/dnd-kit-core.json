@@ -1,7 +1,7 @@
 {
   "component": "@dnd-kit/core",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-10T00:39:41.381728+00:00",
+  "last_seen_at": "2026-05-10T12:31:16.779865+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -127,6 +127,11 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "brave/brave-core"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "enricoros/big-AGI"
     }
   ]
 }

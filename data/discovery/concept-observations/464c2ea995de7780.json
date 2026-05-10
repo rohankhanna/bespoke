@@ -84,7 +84,7 @@
   "normalized_form": "publish-canary-docker",
   "observation_id": "464c2ea995de7780",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-10T00:39:41.381728+00:00",
+  "observed_at": "2026-05-10T12:31:16.779865+00:00",
   "observed_text": "publish canary docker",
   "source_context_snippet": "\"publish canary docker\"",
   "source_file": ".github/workflows/publish_canary_docker.yml",

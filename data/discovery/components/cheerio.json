@@ -1,7 +1,7 @@
 {
   "component": "cheerio",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-10T07:03:13.220143+00:00",
+  "last_seen_at": "2026-05-10T12:31:16.779865+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -297,6 +297,11 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "less/less-docs"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "enricoros/big-AGI"
     }
   ]
 }

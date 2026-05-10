@@ -1,7 +1,7 @@
 {
   "component": "grunt-spider",
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
-  "last_seen_at": "2026-05-10T00:39:41.381728+00:00",
+  "last_seen_at": "2026-05-10T12:31:16.779865+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
