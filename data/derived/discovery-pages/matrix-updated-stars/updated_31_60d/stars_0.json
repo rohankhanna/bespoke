@@ -1,18 +1,19 @@
 {
   "counts": {
-    "components": 366,
-    "concepts": 159,
-    "observations": 161,
-    "repos": 90,
-    "terms": 162
+    "components": 403,
+    "concepts": 168,
+    "observations": 170,
+    "repos": 94,
+    "terms": 171
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
+    "8144225309/superscalar-docs",
     "9romise/eslint-config",
     "aaronrsun/spec-kit-confluence",
     "adammes/voyanode",
@@ -20,6 +21,7 @@
     "adipalko/hatraot",
     "aldernero/debugui",
     "arckoor/botan-rs",
+    "ashton/neotest-gleam-unitest",
     "b2agi/exist-is-charter_kr",
     "beurdouche/nss-gk-api",
     "bookcars/bookcars.github.io",
@@ -72,6 +74,8 @@
     "JuliaBinaryWrappers/Cairo_jll.jl",
     "JuliaBinaryWrappers/FreeType2_jll.jl",
     "JuliaBinaryWrappers/GettextRuntime_jll.jl",
+    "JuliaBinaryWrappers/JpegTurbo_jll.jl",
+    "JuliaBinaryWrappers/libaec_jll.jl",
     "kayabaNerve/monero-oxide",
     "kdn36/arrow-rs-object-store",
     "kdubbo/api",
@@ -101,7 +105,7 @@
     "sujithpvarghese/bedrock-agent-core-operations-hub",
     "sujithpvarghese/bedrock-full-reconciliation",
     "Systemcluster/tokenizer-bench",
-    "usdot-fhwa-stol/carma-ns3-adapter",
-    "vaporif/rvx"
+    "vaporif/rvx",
+    "VOICEVOX/preview-pages"
   ]
 }

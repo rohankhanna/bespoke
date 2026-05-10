@@ -3,7 +3,7 @@
     "components": 188,
     "concepts": 70,
     "observations": 71,
-    "repos": 50,
+    "repos": 51,
     "terms": 70
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "a-liashenko/egui",
     "adiSuper94/dns-rs",
@@ -37,6 +37,7 @@
     "ealmloff/llm-samplers",
     "eigenwallet/bdk-old",
     "eigenwallet/dfx-swiss-rs",
+    "faradayio/compose_yml",
     "helyim/reed-solomon-erasure",
     "hermit-os/socket2",
     "hsivonen/any_all_workaround",

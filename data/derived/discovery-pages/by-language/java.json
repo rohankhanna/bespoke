@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 2787,
-    "concepts": 3469,
-    "observations": 3477,
-    "repos": 625,
-    "terms": 3448
+    "concepts": 3472,
+    "observations": 3480,
+    "repos": 626,
+    "terms": 3451
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "java"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "abapGit/ADT_Frontend",
@@ -96,6 +96,7 @@
     "aragozin/jvm-tools",
     "arekinath/PivApplet",
     "arthurblake/log4jdbc",
+    "ArthurHub/Android-Image-Cropper",
     "artsy/react-native-launch-arguments",
     "artyushov/idea-jmh-plugin",
     "asaikali/spring-ai-zero-to-hero",

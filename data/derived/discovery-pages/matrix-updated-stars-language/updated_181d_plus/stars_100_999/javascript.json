@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4629,
-    "concepts": 1052,
-    "observations": 1052,
-    "repos": 365,
-    "terms": 1039
+    "components": 4663,
+    "concepts": 1058,
+    "observations": 1058,
+    "repos": 368,
+    "terms": 1047
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "14nrv/buefy-shop",
     "2createStudio/postcss-sprites",
@@ -59,6 +59,7 @@
     "avocadowastaken/prettier-plugin-prisma",
     "aws-samples/aws-cdk-changelogs-demo",
     "axeldelafosse/expo-next-monorepo-example",
+    "ayoubben18/ab-method",
     "azeemba/eslint-plugin-json",
     "babel/preset-modules",
     "bartolli/claude-code-typescript-hooks",
@@ -103,6 +104,7 @@
     "d3/d3-array",
     "d3/d3-color",
     "d3/d3-contour",
+    "d3/d3-delaunay",
     "d3/d3-dsv",
     "d3/d3-interpolate",
     "d3/d3-time-format",
@@ -288,6 +290,7 @@
     "PepsRyuu/nollup",
     "phusion/node-sha3",
     "plotly/orca",
+    "pmndrs/three-stdlib",
     "postcss/gulp-postcss",
     "postcss/postcss-url",
     "prebuild/node-gyp-build",

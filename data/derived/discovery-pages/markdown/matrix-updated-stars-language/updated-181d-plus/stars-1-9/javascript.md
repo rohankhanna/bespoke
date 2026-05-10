@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · JavaScript
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 123
-- terms: 198
-- components: 1491
-- concepts: 198
-- observations: 199
+- repos: 121
+- terms: 193
+- components: 1474
+- concepts: 193
+- observations: 194
 
 ## Static behavior
 
@@ -147,8 +147,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hchiam/learning-lint-staged](https://github.com/hchiam/learning-lint-staged) | 1 | 2021-06-20T15:30:54Z | JavaScript | Unknown | 0 | 4 | 0 | 0 |
 | [kosmtik/kosmtik-fetch-remote](https://github.com/kosmtik/kosmtik-fetch-remote) | 3 | 2021-06-16T20:57:33Z | JavaScript | Unknown | 0 | 1 | 0 | 0 |
 | [fnproject/flowui](https://github.com/fnproject/flowui) | 8 | 2021-05-17T19:57:16Z | JavaScript | Infrastructure/tooling | 0 | 23 | 0 | 0 |
-| [webmaster128/private-voting](https://github.com/webmaster128/private-voting) | 1 | 2021-05-10T23:19:52Z | JavaScript | Unknown | 0 | 12 | 0 | 0 |
-| [pajaydev/lasso-analyzer](https://github.com/pajaydev/lasso-analyzer) | 4 | 2021-05-10T17:06:16Z | JavaScript | Unknown | 5 | 5 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -213,7 +211,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bigtimebuddy/svg-reorient](https://github.com/bigtimebuddy/svg-reorient) | 4 | 2022-07-22T09:51:16Z | JavaScript | Unknown | 0 | 4 | 0 | 0 |
 | [playwright-community/jest-playwright-jsdom](https://github.com/playwright-community/jest-playwright-jsdom) | 4 | 2022-02-13T18:32:51Z | JavaScript | Web app | 0 | 2 | 0 | 0 |
 | [actions-cool/labels-helper](https://github.com/actions-cool/labels-helper) | 4 | 2021-11-29T05:45:36Z | JavaScript | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [pajaydev/lasso-analyzer](https://github.com/pajaydev/lasso-analyzer) | 4 | 2021-05-10T17:06:16Z | JavaScript | Unknown | 5 | 5 | 5 | 5 |
 | [angular/dev-infra-private-build-tooling-builds](https://github.com/angular/dev-infra-private-build-tooling-builds) | 3 | 2025-08-06T22:27:37Z | JavaScript | Web app | 0 | 133 | 0 | 0 |
 | [ipfs-shipyard/contributors-hex-grid](https://github.com/ipfs-shipyard/contributors-hex-grid) | 3 | 2025-05-01T08:39:27Z | JavaScript | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [ipfs-examples/example-template](https://github.com/ipfs-examples/example-template) | 3 | 2025-05-01T08:39:10Z | JavaScript | Infrastructure/tooling | 2 | 9 | 2 | 2 |
@@ -276,4 +273,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hchiam/learning-js-design-patterns](https://github.com/hchiam/learning-js-design-patterns) | 1 | 2021-08-10T01:59:00Z | JavaScript | Unknown | 1 | 0 | 1 | 1 |
 | [hchiam/learning-nextjs](https://github.com/hchiam/learning-nextjs) | 1 | 2021-06-27T22:52:13Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [hchiam/learning-lint-staged](https://github.com/hchiam/learning-lint-staged) | 1 | 2021-06-20T15:30:54Z | JavaScript | Unknown | 0 | 4 | 0 | 0 |
-| [webmaster128/private-voting](https://github.com/webmaster128/private-voting) | 1 | 2021-05-10T23:19:52Z | JavaScript | Unknown | 0 | 12 | 0 | 0 |

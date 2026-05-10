@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 247,
-    "concepts": 181,
-    "observations": 184,
-    "repos": 46,
-    "terms": 179
+    "components": 263,
+    "concepts": 189,
+    "observations": 192,
+    "repos": 48,
+    "terms": 187
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "alexheretic/ab-glyph",
     "astro/deadnix",
     "atanunq/viuer",
+    "ayazhafiz/xorf",
     "bbqsrc/cargo-ndk",
     "bluss/matrixmultiply",
     "browserslist/browserslist-rs",
@@ -27,6 +28,7 @@
     "dimforge/simba",
     "DioxusLabs/sdk",
     "dtolnay/cargo-llvm-lines",
+    "dtolnay/prettyplease",
     "dustinblackman/cargo-run-bin",
     "faradayio/cage",
     "guillaume-be/rust-tokenizers",

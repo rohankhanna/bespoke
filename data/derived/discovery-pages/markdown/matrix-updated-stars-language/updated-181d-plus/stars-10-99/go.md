@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 165
-- terms: 423
+- repos: 166
+- terms: 425
 - components: 408
-- concepts: 427
-- observations: 430
+- concepts: 429
+- observations: 432
 
 ## Static behavior
 
@@ -188,6 +188,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Jille/raft-grpc-leader-rpc](https://github.com/Jille/raft-grpc-leader-rpc) | 21 | 2021-09-07T18:25:22Z | Go | Unknown | 4 | 0 | 4 | 4 |
 | [jpoles1/gopherbadger](https://github.com/jpoles1/gopherbadger) | 88 | 2021-08-19T13:52:04Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [trknhr/2048-go](https://github.com/trknhr/2048-go) | 26 | 2021-08-12T19:01:40Z | Go | CLI | 1 | 0 | 1 | 1 |
+| [chenjiandongx/pls](https://github.com/chenjiandongx/pls) | 84 | 2021-06-16T17:14:05Z | Go | CLI | 2 | 0 | 2 | 2 |
 | [ahmetb/ytdl](https://github.com/ahmetb/ytdl) | 13 | 2021-05-25T17:00:04Z | Go | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [go-sql-driver/sql-benchmark](https://github.com/go-sql-driver/sql-benchmark) | 81 | 2021-05-23T21:33:25Z | Go | Library | 0 | 0 | 0 | 0 |
 | [spazzymoto/echo-scs-session](https://github.com/spazzymoto/echo-scs-session) | 21 | 2021-05-20T16:34:33Z | Go | Unknown | 0 | 0 | 0 | 0 |
@@ -206,6 +207,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [adalkiran/distributed-inference](https://github.com/adalkiran/distributed-inference) | 85 | 2024-09-18T13:26:34Z | Go | Unknown | 17 | 0 | 17 | 17 |
 | [filecoin-project/specs-actors](https://github.com/filecoin-project/specs-actors) | 85 | 2023-06-06T14:46:57Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [MatsuriDayo/sing-box-extra](https://github.com/MatsuriDayo/sing-box-extra) | 84 | 2024-06-06T06:12:04Z | Go | Library | 0 | 0 | 0 | 0 |
+| [chenjiandongx/pls](https://github.com/chenjiandongx/pls) | 84 | 2021-06-16T17:14:05Z | Go | CLI | 2 | 0 | 2 | 2 |
 | [rpcxio/rpcx-benchmark](https://github.com/rpcxio/rpcx-benchmark) | 82 | 2024-11-30T02:22:56Z | Go | CLI | 0 | 0 | 0 | 0 |
 | [someone1/gcp-jwt-go](https://github.com/someone1/gcp-jwt-go) | 82 | 2023-05-16T09:34:24Z | Go | Service/API | 0 | 0 | 0 | 0 |
 | [brads3290/cclogviewer](https://github.com/Brads3290/cclogviewer) | 81 | 2025-08-08T08:13:50Z | Go | Unknown | 0 | 0 | 0 | 0 |

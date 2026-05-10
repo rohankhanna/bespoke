@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 47,
-    "concepts": 65,
-    "observations": 65,
-    "repos": 4,
-    "terms": 63
+    "components": 36,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 3,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
-    "acmesh-official/acme.sh",
     "itzg/docker-minecraft-server",
     "nvm-sh/nvm",
     "spaceship-prompt/spaceship-prompt"

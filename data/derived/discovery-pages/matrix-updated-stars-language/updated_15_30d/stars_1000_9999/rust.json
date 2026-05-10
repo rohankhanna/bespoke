@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1509,
-    "concepts": 1031,
-    "observations": 1036,
-    "repos": 147,
-    "terms": 1043
+    "components": 1531,
+    "concepts": 1029,
+    "observations": 1035,
+    "repos": 146,
+    "terms": 1041
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0xPlaygrounds/rig",
@@ -67,7 +67,6 @@
     "gfx-rs/wgpu-native",
     "google/zerocopy",
     "googlefonts/Inconsolata",
-    "GuillaumeGomez/sysinfo",
     "hashintel/hash",
     "hickory-dns/hickory-dns",
     "hrkfdn/ncspot",
@@ -85,7 +84,6 @@
     "killercup/cargo-edit",
     "lalrpop/lalrpop",
     "libp2p/rust-libp2p",
-    "linebender/resvg",
     "LukeMathWalker/cargo-chef",
     "lycheeverse/lychee",
     "maciejhirsz/logos",
@@ -100,6 +98,7 @@
     "mozilla/sccache",
     "mstange/samply",
     "mthom/scryer-prolog",
+    "Myriad-Dreamin/tinymist",
     "napi-rs/napi-rs",
     "napi-rs/node-rs",
     "neon-bindings/neon",
@@ -110,7 +109,6 @@
     "paradigmxyz/reth",
     "pdeljanov/Symphonia",
     "pgcentralfoundation/pgrx",
-    "pop-os/cosmic-text",
     "proptest-rs/proptest",
     "pulldown-cmark/pulldown-cmark",
     "PyO3/maturin",
@@ -123,6 +121,7 @@
     "rust-bitcoin/rust-bitcoin",
     "rust-cli/confy",
     "rust-cli/env_logger",
+    "rust-cross/cargo-zigbuild",
     "rust-lang/cc-rs",
     "rust-lang/crates.io",
     "rust-lang/docs.rs",
@@ -151,7 +150,6 @@
     "tauri-apps/wry",
     "testcontainers/testcontainers-rs",
     "tikv/pprof-rs",
-    "tokio-rs/console",
     "tokio-rs/mini-redis",
     "tokio-rs/mio",
     "tokio-rs/tracing",
@@ -160,6 +158,7 @@
     "trishume/syntect",
     "uuid-rs/uuid",
     "vadimcn/codelldb",
-    "vladkens/macmon"
+    "vladkens/macmon",
+    "vulkano-rs/vulkano"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 403,
-    "concepts": 270,
-    "observations": 271,
-    "repos": 64,
-    "terms": 266
+    "components": 378,
+    "concepts": 262,
+    "observations": 263,
+    "repos": 61,
+    "terms": 258
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "abhinav/goldmark-anchor",
     "abhinav/goldmark-frontmatter",
@@ -26,13 +26,13 @@
     "apptainer/sif",
     "aquasecurity/trivy-java-db",
     "aspect-build/aspect-gazelle",
-    "Asterisk4Magisk/XrayHelper",
     "aws-controllers-k8s/code-generator",
     "aws/aws-network-policy-agent",
     "benchsci/rules_nodejs_gazelle",
     "blinklabs-io/bluefin",
     "celo-org/op-geth",
     "cloudfoundry/bbs",
+    "cloudfoundry/bpm-release",
     "cmdjulian/mopy",
     "coder/coder-logstream-kube",
     "cometbft/cometbft-db",
@@ -40,7 +40,6 @@
     "connectrpc/conformance",
     "connectrpc/grpchealth-go",
     "containers/container-libs",
-    "cosmos/cosmos-db",
     "danielgtaylor/mexpr",
     "danielgtaylor/shorthand",
     "davidkarlsen/flyway-operator",
@@ -48,7 +47,6 @@
     "depado/smallblog",
     "dlclark/regexp2cg",
     "ebitengine/debugui",
-    "ethpandaops/xatu",
     "fgrehm/clotilde",
     "gopasspw/git-credential-gopass",
     "gopasspw/gopass-hibp",
@@ -72,7 +70,6 @@
     "sigstore/k8s-manifest-sigstore",
     "sigstore/rekor-tiles",
     "terraform-linters/tflint-ruleset-google",
-    "tilt-dev/tilt-apiserver",
     "transparency-dev/armored-witness",
     "usbarmory/armory-boot",
     "usbarmory/armory-drive",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 686,
-    "concepts": 109,
-    "observations": 109,
-    "repos": 44,
-    "terms": 110
+    "components": 652,
+    "concepts": 103,
+    "observations": 103,
+    "repos": 41,
+    "terms": 103
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "adriantoine/enzyme-to-json",
     "agenda/agendash",
     "attractivechaos/k8",
-    "ayoubben18/ab-method",
     "bramstein/url-template",
     "chaijs/deep-eql",
     "charmbracelet/tree-sitter-vhs",
-    "d3/d3-delaunay",
     "dcoapp/app",
     "dominikg/tsconfck",
     "dzeiocom/lucide-astro",
@@ -43,7 +41,6 @@
     "omnidan/redux-ignore",
     "omnidan/redux-recycle",
     "omnidan/redux-undo-boilerplate",
-    "pmndrs/three-stdlib",
     "prebuild/prebuild",
     "restify/errors",
     "RJWadley/stylelint-no-unsupported-browser-features",

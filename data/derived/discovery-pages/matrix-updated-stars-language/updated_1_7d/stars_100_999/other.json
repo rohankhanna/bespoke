@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 404,
-    "concepts": 256,
-    "observations": 256,
-    "repos": 34,
-    "terms": 255
+    "components": 371,
+    "concepts": 214,
+    "observations": 214,
+    "repos": 28,
+    "terms": 214
   },
   "facet_version": 1,
   "filters": {
@@ -12,27 +12,23 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersRegistry",
     "apalache-mc/apalache",
     "argotorg/hevm",
-    "cefsharp/CefSharp.MinimalExample",
+    "bazel-contrib/rules_kotlin",
     "CHIP-SPV/chipStar",
     "ChristopherHX/runner.server",
     "clj-commons/rewrite-clj",
     "cowprotocol/contracts",
-    "cucumber/aruba",
     "danielrosehill/Claude-Code-Projects-Index",
     "dbkangaroo/kangaroo",
     "dennisdoomen/CSharpGuidelines",
     "devcontainers/devcontainers.github.io",
-    "HOL-Theorem-Prover/HOL",
+    "elixir-protobuf/protobuf",
     "intel/ipex-llm-tutorial",
-    "istio/client-go",
-    "JuliaGraphics/Luxor.jl",
     "jump-dev/NLopt.jl",
-    "KulikDM/pythresh",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "LibreChat-AI/librechat.ai",
     "lite-xl/lite-xl-plugin-manager",
@@ -40,13 +36,11 @@
     "mrcjkb/haskell-tools.nvim",
     "nix-community/haumea",
     "open-telemetry/opentelemetry-helm-charts",
-    "openair-project/openair",
-    "osmlab/editor-layer-index",
     "osmlab/name-suggestion-index",
     "phpstan/phpstan-src",
-    "rafaqz/DimensionalData.jl",
     "ROCm/hipBLASLt",
     "sbt/sbt-jmh",
-    "Shopify/tapioca"
+    "Shopify/tapioca",
+    "WICG/attribution-reporting-api"
   ]
 }

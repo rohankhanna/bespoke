@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 346,
-    "concepts": 276,
-    "observations": 277,
+    "components": 352,
+    "concepts": 280,
+    "observations": 281,
     "repos": 110,
-    "terms": 275
+    "terms": 279
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "2KAbhishek/tdo.nvim",
@@ -21,7 +21,6 @@
     "aarroyoc/djota",
     "aarroyoc/doclog",
     "abapGit/ADT_Backend",
-    "adelarsq/neovcs.vim",
     "adobe-type-tools/aots",
     "ahrvoje/numerics",
     "ahumenberger/Z3.jl",
@@ -67,6 +66,7 @@
     "JamieMair/MuJoCo.jl",
     "JezerM/oil-lsp-diagnostics.nvim",
     "jgpc42/lein-jmh",
+    "joanroig/admincraft",
     "Jorenar/minPlug",
     "jpmml/r2pmml",
     "jruby/maven-tools",

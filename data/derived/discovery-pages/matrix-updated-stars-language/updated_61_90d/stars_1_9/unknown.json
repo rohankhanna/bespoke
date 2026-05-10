@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 42,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 17,
-    "terms": 30
+    "components": 47,
+    "concepts": 32,
+    "observations": 32,
+    "repos": 18,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
+    "10up/.github",
     "adobe-type-tools/Adobe-Manga1",
     "adonisjs/.github",
     "aifoundry-org/et-man",

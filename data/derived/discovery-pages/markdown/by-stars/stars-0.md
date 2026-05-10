@@ -1,6 +1,6 @@
 # 0 stars
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 ## Active filters
 
@@ -8,7 +8,7 @@ Generated at: `2026-05-09T08:20:40.985131+00:00`
 
 ## Counts
 
-- repos: 849
+- repos: 856
 - terms: 1169
 - components: 2793
 - concepts: 1138
@@ -54,6 +54,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lakekeeper/lakekeeper-operator](https://github.com/lakekeeper/lakekeeper-operator) | 0 | 2026-04-30T11:30:58Z | Go | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [danielrosehill/Claude-Dev-Tools-Plugin](https://github.com/danielrosehill/Claude-Dev-Tools-Plugin) | 0 | 2026-04-30T11:06:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [superfarther/K2V](https://github.com/superfarther/K2V) | 0 | 2026-04-30T09:18:13Z | Python | Docs/knowledge | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Hardware-Spec-Assembly-Plugin](https://github.com/danielrosehill/Claude-Hardware-Spec-Assembly-Plugin) | 0 | 2026-04-30T08:58:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [flagos-ai/verl-FL](https://github.com/flagos-ai/verl-FL) | 0 | 2026-04-30T03:04:30Z | Python | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [sp1-patches/elliptic-curves](https://github.com/sp1-patches/elliptic-curves) | 0 | 2026-04-29T21:30:13Z | Unknown | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [danielrosehill/Claude-Hopper](https://github.com/danielrosehill/Claude-Hopper) | 0 | 2026-04-29T12:39:24Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
@@ -64,6 +65,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [squidowl/iced](https://github.com/squidowl/iced) | 0 | 2026-04-28T21:06:47Z | Rust | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [hermit-os/.github](https://github.com/hermit-os/.github) | 0 | 2026-04-28T13:11:39Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Business-Idea-Eval-Plugin](https://github.com/danielrosehill/Claude-Business-Idea-Eval-Plugin) | 0 | 2026-04-28T12:18:41Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Image-Annotation-Plugin](https://github.com/danielrosehill/Claude-Image-Annotation-Plugin) | 0 | 2026-04-28T12:11:55Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Declutter-Genie-Plugin](https://github.com/danielrosehill/Claude-Declutter-Genie-Plugin) | 0 | 2026-04-28T12:05:09Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Decision-Evaluation-Framework-Plugin](https://github.com/danielrosehill/Claude-Decision-Evaluation-Framework-Plugin) | 0 | 2026-04-28T11:51:10Z | Other | Framework | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Browser-Data-Capture-Plugin](https://github.com/danielrosehill/Claude-Browser-Data-Capture-Plugin) | 0 | 2026-04-28T11:47:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -81,6 +83,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hyper-mcp-rs/defuddle-plugin](https://github.com/hyper-mcp-rs/defuddle-plugin) | 0 | 2026-04-27T15:59:10Z | Rust | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [danielrosehill/Claude-Backup-Planner-Plugin](https://github.com/danielrosehill/Claude-Backup-Planner-Plugin) | 0 | 2026-04-27T15:50:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-ADB-Ops-Plugin](https://github.com/danielrosehill/Claude-ADB-Ops-Plugin) | 0 | 2026-04-27T15:50:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-HP5200-Skill-plugin](https://github.com/danielrosehill/Claude-HP5200-Skill-plugin) | 0 | 2026-04-27T15:13:45Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Digital-Printing-Plugin](https://github.com/danielrosehill/Claude-Digital-Printing-Plugin) | 0 | 2026-04-27T10:03:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Awesome-Hebrew-Fonts](https://github.com/danielrosehill/Awesome-Hebrew-Fonts) | 0 | 2026-04-27T08:54:47Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [danielrosehill/Israel-Projects-Index](https://github.com/danielrosehill/Israel-Projects-Index) | 0 | 2026-04-27T08:39:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -134,6 +137,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [conda-forge/conda-forge-feedstock-ops](https://github.com/conda-forge/conda-forge-feedstock-ops) | 0 | 2026-04-21T09:48:36Z | Python | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [aaronlamz/navpress](https://github.com/aaronlamz/navpress) | 0 | 2026-04-21T07:36:01Z | JavaScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
 | [danielrosehill/Claude-Code-Feedback](https://github.com/danielrosehill/Claude-Code-Feedback) | 0 | 2026-04-20T22:19:27Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-HTML-Email-Designer-Plugin](https://github.com/danielrosehill/Claude-HTML-Email-Designer-Plugin) | 0 | 2026-04-20T21:43:34Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [8144225309/superscalar-wallet](https://github.com/8144225309/superscalar-wallet) | 0 | 2026-04-20T20:18:01Z | TypeScript | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [AdaCore/vss-extra](https://github.com/AdaCore/vss-extra) | 0 | 2026-04-20T16:15:56Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [roampal-ai/roampal-labs](https://github.com/roampal-ai/roampal-labs) | 0 | 2026-04-20T15:52:26Z | Python | Model/data | 17 | 0 | 17 | 17 |
@@ -440,6 +444,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/AI-Developers-Career-Planning-Notes](https://github.com/danielrosehill/AI-Developers-Career-Planning-Notes) | 0 | 2025-12-13T17:14:34Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Hebrew-Image-Generation-Eval](https://github.com/danielrosehill/Hebrew-Image-Generation-Eval) | 0 | 2025-12-12T00:21:42Z | Python | Model/data | 4 | 0 | 4 | 4 |
 | [lishid/cm-language](https://github.com/lishid/cm-language) | 0 | 2025-12-09T17:57:28Z | TypeScript | Infrastructure/tooling | 1 | 9 | 1 | 1 |
+| [danielrosehill/Claude-Interview-062325](https://github.com/danielrosehill/Claude-Interview-062325) | 0 | 2025-12-06T22:36:55Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/AMD-AI-Server](https://github.com/danielrosehill/AMD-AI-Server) | 0 | 2025-12-06T13:56:55Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [stainless-api/tsc-multi](https://github.com/stainless-api/tsc-multi) | 0 | 2025-12-05T21:10:25Z | TypeScript | Infrastructure/tooling | 1 | 48 | 1 | 1 |
 | [danielrosehill/All-About-MCP](https://github.com/danielrosehill/All-About-MCP) | 0 | 2025-12-04T17:19:19Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -535,6 +540,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Parenting-Questions-AI-Agent-Workflow](https://github.com/danielrosehill/Parenting-Questions-AI-Agent-Workflow) | 0 | 2025-07-22T11:59:50Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [danielrosehill/N8N-Workflow-Sanitiser-Agent](https://github.com/danielrosehill/N8N-Workflow-Sanitiser-Agent) | 0 | 2025-07-22T11:57:52Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [py-cov-action/python-coverage-comment-action-v3-example](https://github.com/py-cov-action/python-coverage-comment-action-v3-example) | 0 | 2025-07-12T09:20:01Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [MoyuruAizawa/Images](https://github.com/MoyuruAizawa/Images) | 0 | 2025-07-11T21:18:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [elladyr/myo_sim](https://github.com/elladyr/myo_sim) | 0 | 2025-07-10T03:51:47Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [ChinChyi/ipictures](https://github.com/ChinChyi/ipictures) | 0 | 2025-07-07T06:48:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [A-suozhang/MyPicBed](https://github.com/A-suozhang/MyPicBed) | 0 | 2025-07-05T13:11:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -750,6 +756,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cryptonomic/conseiljs-ledgersigner](https://github.com/Cryptonomic/ConseilJS-ledgersigner) | 0 | 2023-08-08T19:40:12Z | TypeScript | Infrastructure/tooling | 1 | 20 | 1 | 1 |
 | [GuanceCloud/opentelemetry-demo](https://github.com/GuanceCloud/opentelemetry-demo) | 0 | 2023-08-05T07:17:33Z | Unknown | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [nim65s/git-archive-all](https://github.com/nim65s/git-archive-all) | 0 | 2023-08-04T13:42:31Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [vuki656/vuki656](https://github.com/vuki656/vuki656) | 0 | 2023-08-01T16:35:16Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [haixuanTao/frenet_optimal_trajectory_planner](https://github.com/haixuanTao/frenet_optimal_trajectory_planner) | 0 | 2023-07-31T22:01:44Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ritchie46/simd-json](https://github.com/ritchie46/simd-json) | 0 | 2023-07-31T16:56:52Z | Rust | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [girishji/ngramview-complete.vim](https://github.com/girishji/ngramview-complete.vim) | 0 | 2023-07-26T08:45:02Z | Other | Unknown | 11 | 0 | 11 | 11 |
@@ -908,6 +915,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lakekeeper/lakekeeper-operator](https://github.com/lakekeeper/lakekeeper-operator) | 0 | 2026-04-30T11:30:58Z | Go | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [danielrosehill/Claude-Dev-Tools-Plugin](https://github.com/danielrosehill/Claude-Dev-Tools-Plugin) | 0 | 2026-04-30T11:06:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [superfarther/K2V](https://github.com/superfarther/K2V) | 0 | 2026-04-30T09:18:13Z | Python | Docs/knowledge | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Hardware-Spec-Assembly-Plugin](https://github.com/danielrosehill/Claude-Hardware-Spec-Assembly-Plugin) | 0 | 2026-04-30T08:58:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [flagos-ai/verl-FL](https://github.com/flagos-ai/verl-FL) | 0 | 2026-04-30T03:04:30Z | Python | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [sp1-patches/elliptic-curves](https://github.com/sp1-patches/elliptic-curves) | 0 | 2026-04-29T21:30:13Z | Unknown | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [danielrosehill/Claude-Hopper](https://github.com/danielrosehill/Claude-Hopper) | 0 | 2026-04-29T12:39:24Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
@@ -918,6 +926,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [squidowl/iced](https://github.com/squidowl/iced) | 0 | 2026-04-28T21:06:47Z | Rust | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [hermit-os/.github](https://github.com/hermit-os/.github) | 0 | 2026-04-28T13:11:39Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Business-Idea-Eval-Plugin](https://github.com/danielrosehill/Claude-Business-Idea-Eval-Plugin) | 0 | 2026-04-28T12:18:41Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Image-Annotation-Plugin](https://github.com/danielrosehill/Claude-Image-Annotation-Plugin) | 0 | 2026-04-28T12:11:55Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Declutter-Genie-Plugin](https://github.com/danielrosehill/Claude-Declutter-Genie-Plugin) | 0 | 2026-04-28T12:05:09Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Decision-Evaluation-Framework-Plugin](https://github.com/danielrosehill/Claude-Decision-Evaluation-Framework-Plugin) | 0 | 2026-04-28T11:51:10Z | Other | Framework | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Browser-Data-Capture-Plugin](https://github.com/danielrosehill/Claude-Browser-Data-Capture-Plugin) | 0 | 2026-04-28T11:47:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -935,6 +944,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hyper-mcp-rs/defuddle-plugin](https://github.com/hyper-mcp-rs/defuddle-plugin) | 0 | 2026-04-27T15:59:10Z | Rust | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [danielrosehill/Claude-Backup-Planner-Plugin](https://github.com/danielrosehill/Claude-Backup-Planner-Plugin) | 0 | 2026-04-27T15:50:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-ADB-Ops-Plugin](https://github.com/danielrosehill/Claude-ADB-Ops-Plugin) | 0 | 2026-04-27T15:50:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-HP5200-Skill-plugin](https://github.com/danielrosehill/Claude-HP5200-Skill-plugin) | 0 | 2026-04-27T15:13:45Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Digital-Printing-Plugin](https://github.com/danielrosehill/Claude-Digital-Printing-Plugin) | 0 | 2026-04-27T10:03:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Awesome-Hebrew-Fonts](https://github.com/danielrosehill/Awesome-Hebrew-Fonts) | 0 | 2026-04-27T08:54:47Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [danielrosehill/Israel-Projects-Index](https://github.com/danielrosehill/Israel-Projects-Index) | 0 | 2026-04-27T08:39:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -988,6 +998,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [conda-forge/conda-forge-feedstock-ops](https://github.com/conda-forge/conda-forge-feedstock-ops) | 0 | 2026-04-21T09:48:36Z | Python | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [aaronlamz/navpress](https://github.com/aaronlamz/navpress) | 0 | 2026-04-21T07:36:01Z | JavaScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
 | [danielrosehill/Claude-Code-Feedback](https://github.com/danielrosehill/Claude-Code-Feedback) | 0 | 2026-04-20T22:19:27Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-HTML-Email-Designer-Plugin](https://github.com/danielrosehill/Claude-HTML-Email-Designer-Plugin) | 0 | 2026-04-20T21:43:34Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [8144225309/superscalar-wallet](https://github.com/8144225309/superscalar-wallet) | 0 | 2026-04-20T20:18:01Z | TypeScript | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [AdaCore/vss-extra](https://github.com/AdaCore/vss-extra) | 0 | 2026-04-20T16:15:56Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [roampal-ai/roampal-labs](https://github.com/roampal-ai/roampal-labs) | 0 | 2026-04-20T15:52:26Z | Python | Model/data | 17 | 0 | 17 | 17 |
@@ -1294,6 +1305,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/AI-Developers-Career-Planning-Notes](https://github.com/danielrosehill/AI-Developers-Career-Planning-Notes) | 0 | 2025-12-13T17:14:34Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Hebrew-Image-Generation-Eval](https://github.com/danielrosehill/Hebrew-Image-Generation-Eval) | 0 | 2025-12-12T00:21:42Z | Python | Model/data | 4 | 0 | 4 | 4 |
 | [lishid/cm-language](https://github.com/lishid/cm-language) | 0 | 2025-12-09T17:57:28Z | TypeScript | Infrastructure/tooling | 1 | 9 | 1 | 1 |
+| [danielrosehill/Claude-Interview-062325](https://github.com/danielrosehill/Claude-Interview-062325) | 0 | 2025-12-06T22:36:55Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/AMD-AI-Server](https://github.com/danielrosehill/AMD-AI-Server) | 0 | 2025-12-06T13:56:55Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [stainless-api/tsc-multi](https://github.com/stainless-api/tsc-multi) | 0 | 2025-12-05T21:10:25Z | TypeScript | Infrastructure/tooling | 1 | 48 | 1 | 1 |
 | [danielrosehill/All-About-MCP](https://github.com/danielrosehill/All-About-MCP) | 0 | 2025-12-04T17:19:19Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -1389,6 +1401,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Parenting-Questions-AI-Agent-Workflow](https://github.com/danielrosehill/Parenting-Questions-AI-Agent-Workflow) | 0 | 2025-07-22T11:59:50Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [danielrosehill/N8N-Workflow-Sanitiser-Agent](https://github.com/danielrosehill/N8N-Workflow-Sanitiser-Agent) | 0 | 2025-07-22T11:57:52Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [py-cov-action/python-coverage-comment-action-v3-example](https://github.com/py-cov-action/python-coverage-comment-action-v3-example) | 0 | 2025-07-12T09:20:01Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [MoyuruAizawa/Images](https://github.com/MoyuruAizawa/Images) | 0 | 2025-07-11T21:18:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [elladyr/myo_sim](https://github.com/elladyr/myo_sim) | 0 | 2025-07-10T03:51:47Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [ChinChyi/ipictures](https://github.com/ChinChyi/ipictures) | 0 | 2025-07-07T06:48:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [A-suozhang/MyPicBed](https://github.com/A-suozhang/MyPicBed) | 0 | 2025-07-05T13:11:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -1604,6 +1617,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cryptonomic/conseiljs-ledgersigner](https://github.com/Cryptonomic/ConseilJS-ledgersigner) | 0 | 2023-08-08T19:40:12Z | TypeScript | Infrastructure/tooling | 1 | 20 | 1 | 1 |
 | [GuanceCloud/opentelemetry-demo](https://github.com/GuanceCloud/opentelemetry-demo) | 0 | 2023-08-05T07:17:33Z | Unknown | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [nim65s/git-archive-all](https://github.com/nim65s/git-archive-all) | 0 | 2023-08-04T13:42:31Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [vuki656/vuki656](https://github.com/vuki656/vuki656) | 0 | 2023-08-01T16:35:16Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [haixuanTao/frenet_optimal_trajectory_planner](https://github.com/haixuanTao/frenet_optimal_trajectory_planner) | 0 | 2023-07-31T22:01:44Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ritchie46/simd-json](https://github.com/ritchie46/simd-json) | 0 | 2023-07-31T16:56:52Z | Rust | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [girishji/ngramview-complete.vim](https://github.com/girishji/ngramview-complete.vim) | 0 | 2023-07-26T08:45:02Z | Other | Unknown | 11 | 0 | 11 | 11 |

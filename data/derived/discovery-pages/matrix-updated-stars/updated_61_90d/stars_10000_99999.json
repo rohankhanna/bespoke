@@ -1,21 +1,22 @@
 {
   "counts": {
-    "components": 532,
-    "concepts": 342,
-    "observations": 345,
-    "repos": 59,
-    "terms": 349
+    "components": 529,
+    "concepts": 340,
+    "observations": 343,
+    "repos": 58,
+    "terms": 347
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
     "antlr/antlr4",
+    "aria2/aria2",
     "bootandy/dust",
     "burntsushi/ripgrep",
     "carbon-app/carbon",
@@ -33,14 +34,13 @@
     "git-up/GitUp",
     "go-chi/chi",
     "google-research/vision_transformer",
+    "google/leveldb",
     "gulpjs/gulp",
     "guzzle/guzzle",
     "humanlayer/humanlayer",
-    "i3/i3",
     "jaredpalmer/tsdx",
     "jart/cosmopolitan",
     "Jiayi-Pan/TinyZero",
-    "jtoy/awesome-tensorflow",
     "junegunn/vim-plug",
     "KlingAIResearch/LivePortrait",
     "kyleneideck/backgroundmusic",
@@ -49,13 +49,13 @@
     "lucidrains/denoising-diffusion-pytorch",
     "macrozheng/mall",
     "mathjax/MathJax",
-    "MatsuriDayo/NekoBoxForAndroid",
     "microsoft/vscode-extension-samples",
     "minio/minio",
     "modin-project/modin",
     "nikic/PHP-Parser",
     "peers/peerjs",
     "PKU-YuanGroup/Open-Sora-Plan",
+    "powerline/powerline",
     "QwenLM/Qwen",
     "QwenLM/Qwen-Agent",
     "rubocop/ruby-style-guide",
@@ -69,7 +69,6 @@
     "transitive-bullshit/agentic",
     "vibrantlabsai/ragas",
     "Wan-Video/Wan2.1",
-    "zsh-users/zsh-syntax-highlighting",
     "Zulko/moviepy",
     "zylon-ai/private-gpt"
   ]

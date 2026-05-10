@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 54036,
-    "concepts": 34927,
-    "observations": 35034,
-    "repos": 5921,
-    "terms": 34838
+    "components": 54066,
+    "concepts": 34976,
+    "observations": 35083,
+    "repos": 5927,
+    "terms": 34890
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -53,6 +53,7 @@
     "aaaaalexis/obsidian-cupertino",
     "aagarwal1012/Animated-Text-Kit",
     "aagarwal1012/Liquid-Pull-To-Refresh",
+    "aandrew-me/ytDownloader",
     "aantron/better-enums",
     "aappleby/smhasher",
     "aarondl/authboss",
@@ -498,6 +499,7 @@
     "arrayfire/arrayfire",
     "ArrowLuo/CLIP4Clip",
     "artempyanykh/marksman",
+    "ArthurHub/Android-Image-Cropper",
     "artifacthub/hub",
     "artisan-roaster-scope/artisan",
     "artsy/eidolon",
@@ -932,6 +934,7 @@
     "camlworks/dream",
     "CanCanCommunity/cancancan",
     "candid82/joker",
+    "CanHub/Android-Image-Cropper",
     "CannyLab/tsne-cuda",
     "Canop/bacon",
     "canopyai/Orpheus-TTS",
@@ -3983,6 +3986,7 @@
     "nvim-neorg/neorg",
     "nvim-neotest/neotest",
     "nvim-pack/nvim-spectre",
+    "nvim-telescope/telescope-file-browser.nvim",
     "nvim-telescope/telescope-fzf-native.nvim",
     "nvim-telescope/telescope-ui-select.nvim",
     "nvim-tree/nvim-tree.lua",
@@ -5859,6 +5863,7 @@
     "youtube/api-samples",
     "youtube/doorman",
     "YoYo000/MVSNet",
+    "yt-dlp/FFmpeg-Builds",
     "YuanGongND/ast",
     "Yuanshi9815/OminiControl",
     "yuchenlin/rebiber",
@@ -5907,6 +5912,7 @@
     "ZhengPeng7/BiRefNet",
     "ZhengyiLuo/PHC",
     "zhihu/rucene",
+    "zhiiwg/Awesome-Linux-Software-zh_CN",
     "ZHKKKe/MODNet",
     "ZHO-ZHO-ZHO/ComfyUI-InstantID",
     "Zhongdao/Towards-Realtime-MOT",

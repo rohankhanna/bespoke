@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1,000 to 9,999 stars · Unknown
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 8
-- terms: 71
+- repos: 7
+- terms: 61
 - components: 12
-- concepts: 71
-- observations: 71
+- concepts: 61
+- observations: 61
 
 ## Static behavior
 
@@ -33,7 +33,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [github/rest-api-description](https://github.com/github/rest-api-description) | 1583 | 2026-04-28T20:01:58Z | Unknown | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [MicrosoftDocs/cpp-docs](https://github.com/MicrosoftDocs/cpp-docs) | 1595 | 2026-04-27T17:34:47Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [logseq/awesome-logseq](https://github.com/logseq/awesome-logseq) | 2825 | 2026-04-27T12:19:40Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [Efficient-ML/Awesome-Model-Quantization](https://github.com/Efficient-ML/Awesome-Model-Quantization) | 2360 | 2026-04-25T11:45:19Z | Unknown | Model/data | 10 | 0 | 10 | 10 |
 
 ## Repos sorted by stars
 
@@ -43,7 +42,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hxehex/russia-mobile-internet-whitelist](https://github.com/hxehex/russia-mobile-internet-whitelist) | 3048 | 2026-05-01T21:23:50Z | Unknown | Unknown | 16 | 0 | 16 | 16 |
 | [yokoffing/NextDNS-Config](https://github.com/yokoffing/NextDNS-Config) | 2965 | 2026-05-01T21:37:17Z | Unknown | Docs/knowledge | 17 | 0 | 17 | 17 |
 | [logseq/awesome-logseq](https://github.com/logseq/awesome-logseq) | 2825 | 2026-04-27T12:19:40Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [Efficient-ML/Awesome-Model-Quantization](https://github.com/Efficient-ML/Awesome-Model-Quantization) | 2360 | 2026-04-25T11:45:19Z | Unknown | Model/data | 10 | 0 | 10 | 10 |
 | [GyanD/codexffmpeg](https://github.com/GyanD/codexffmpeg) | 2197 | 2026-04-30T10:54:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [MicrosoftDocs/cpp-docs](https://github.com/MicrosoftDocs/cpp-docs) | 1595 | 2026-04-27T17:34:47Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [github/rest-api-description](https://github.com/github/rest-api-description) | 1583 | 2026-04-28T20:01:58Z | Unknown | Infrastructure/tooling | 7 | 10 | 7 | 7 |

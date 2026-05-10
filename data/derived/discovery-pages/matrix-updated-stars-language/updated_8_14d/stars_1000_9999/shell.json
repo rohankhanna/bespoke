@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 111,
-    "observations": 111,
+    "components": 85,
+    "concepts": 113,
+    "observations": 113,
     "repos": 13,
-    "terms": 110
+    "terms": 112
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
+    "bitnami/containers",
     "Botspot/pi-apps",
     "confluentinc/demo-scene",
     "fluxcd/flux2-kustomize-helm-example",
@@ -25,7 +26,6 @@
     "mlocati/docker-php-extension-installer",
     "msys2/MINGW-packages",
     "rbenv/ruby-build",
-    "sublimehq/Packages",
     "YosysHQ/oss-cad-suite-build"
   ]
 }

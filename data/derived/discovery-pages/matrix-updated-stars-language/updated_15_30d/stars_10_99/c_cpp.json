@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 239,
-    "concepts": 183,
-    "observations": 183,
-    "repos": 48,
-    "terms": 185
+    "components": 237,
+    "concepts": 189,
+    "observations": 189,
+    "repos": 47,
+    "terms": 191
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
     "acts-project/traccc",
     "ad-si/FlatCV",
-    "ada-url/ada-python",
-    "AFD-Illinois/iharm3d",
     "AFD-Illinois/kharma",
     "agl/jbig2enc",
-    "aifoundry-org/et-platform",
     "apache/pulsar-client-cpp",
     "barak/minidjvu",
     "boostorg/config",
@@ -37,9 +34,10 @@
     "ICRAR/crc32c",
     "JFLarvoire/the_silver_searcher",
     "jupyter-xeus/xeus-lua",
+    "ksnip/kImageAnnotator",
     "liangshengyong/lanwan",
     "libbitcoin/libbitcoin-database",
-    "libxsmm/tpp-pytorch-extension",
+    "libbitcoin/libbitcoin-network",
     "lxqt/liblxqt",
     "lxqt/libqtxdg",
     "marciogranzotto/clawd-tank",
@@ -56,6 +54,7 @@
     "ROCm/rocAL",
     "ROCm/ROCgdb",
     "ROCm/roctracer",
+    "skeeto/dcmake",
     "triton-inference-server/openvino_backend",
     "walbourn/directxtextest",
     "walbourn/directxtktest",

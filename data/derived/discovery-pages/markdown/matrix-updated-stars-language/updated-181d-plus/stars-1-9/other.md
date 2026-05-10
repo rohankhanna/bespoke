@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Other
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 322
+- repos: 323
 - terms: 482
 - components: 1069
 - concepts: 476
@@ -339,6 +339,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hchiam/learning-frameworks](https://github.com/hchiam/learning-frameworks) | 1 | 2021-08-13T02:34:21Z | Other | Framework | 0 | 0 | 0 | 0 |
 | [codybuell/compe-lbdb](https://github.com/codybuell/compe-lbdb) | 4 | 2021-08-07T21:07:25Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [AjayThorve/Spatial-Analytics-Viz](https://github.com/AjayThorve/Spatial-Analytics-Viz) | 7 | 2021-08-04T01:03:04Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
+| [kahgeh/ls-crates.nvim](https://github.com/kahgeh/ls-crates.nvim) | 2 | 2021-07-31T13:44:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JolifantoBambla/shadercl](https://github.com/JolifantoBambla/shadercl) | 7 | 2021-07-21T08:29:11Z | Other | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 | [kristijanhusak/completion-tags](https://github.com/kristijanhusak/completion-tags) | 6 | 2021-06-28T17:15:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [Shiweiliuiiiiiii/SET-MLP-ONE-MILLION-NEURONS](https://github.com/Shiweiliuiiiiiii/SET-MLP-ONE-MILLION-NEURONS) | 3 | 2021-06-10T04:57:04Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -630,6 +631,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ChorusOne/celo-cosmos-bridge](https://github.com/ChorusOne/celo-cosmos-bridge) | 2 | 2021-12-20T05:48:28Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [3ddelano/discord_gd_examples](https://github.com/3ddelano/discord_gd_examples) | 2 | 2021-11-08T05:34:47Z | Other | Unknown | 8 | 0 | 8 | 8 |
 | [hchiam/learning-alpine](https://github.com/hchiam/learning-alpine) | 2 | 2021-09-19T22:21:48Z | Other | Unknown | 0 | 5 | 0 | 0 |
+| [kahgeh/ls-crates.nvim](https://github.com/kahgeh/ls-crates.nvim) | 2 | 2021-07-31T13:44:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [kaminari/kaminari-mongo_mapper](https://github.com/kaminari/kaminari-mongo_mapper) | 2 | 2021-05-25T03:37:36Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [rocker-org/bspm](https://github.com/rocker-org/bspm) | 1 | 2025-11-02T22:44:52Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [clojure/clr.tools.deps](https://github.com/clojure/clr.tools.deps) | 1 | 2025-09-30T01:09:15Z | Other | Unknown | 0 | 0 | 0 | 0 |

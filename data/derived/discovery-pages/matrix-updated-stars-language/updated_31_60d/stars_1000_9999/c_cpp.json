@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 246,
-    "concepts": 338,
-    "observations": 339,
-    "repos": 63,
-    "terms": 337
+    "components": 263,
+    "concepts": 343,
+    "observations": 344,
+    "repos": 64,
+    "terms": 342
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "alembic/alembic",
     "Alex313031/thorium",
@@ -39,6 +39,7 @@
     "h2o/picohttpparser",
     "hufrea/byedpi",
     "KhronosGroup/MoltenVK",
+    "libbpf/libbpf",
     "lieff/minimp3",
     "littlefs-project/littlefs",
     "lltcggie/waifu2x-caffe",
@@ -63,7 +64,6 @@
     "redis/hiredis",
     "riscv-software-src/opensbi",
     "romkatv/gitstatus",
-    "snapcast/snapcast",
     "sqlcipher/sqlcipher",
     "SRombauts/SQLiteCpp",
     "stevengj/nlopt",
@@ -76,6 +76,7 @@
     "void-linux/xbps",
     "WebAssembly/wabt",
     "xlite-dev/lite.ai.toolkit",
+    "ycm-core/ycmd",
     "zeromq/cppzmq"
   ]
 }

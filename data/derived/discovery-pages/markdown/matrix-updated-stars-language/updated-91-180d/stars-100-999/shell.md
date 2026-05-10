@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Shell
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 25
+- repos: 24
 - terms: 121
 - components: 38
 - concepts: 123
@@ -50,7 +50,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tracyone/program_font](https://github.com/tracyone/program_font) | 135 | 2025-11-29T03:11:45Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [asdf-community/asdf-direnv](https://github.com/asdf-community/asdf-direnv) | 573 | 2025-11-21T01:11:24Z | Shell | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [asdf-community/asdf-kubectl](https://github.com/asdf-community/asdf-kubectl) | 131 | 2025-11-12T15:57:32Z | Shell | Infrastructure/tooling | 3 | 1 | 3 | 3 |
-| [coredns/deployment](https://github.com/coredns/deployment) | 571 | 2025-11-10T12:52:20Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -63,7 +62,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [10up/action-wordpress-plugin-deploy](https://github.com/10up/action-wordpress-plugin-deploy) | 645 | 2026-01-16T15:12:11Z | Shell | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [wenet-e2e/WenetSpeech](https://github.com/wenet-e2e/WenetSpeech) | 602 | 2026-01-09T12:18:24Z | Shell | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [asdf-community/asdf-direnv](https://github.com/asdf-community/asdf-direnv) | 573 | 2025-11-21T01:11:24Z | Shell | Infrastructure/tooling | 3 | 3 | 3 | 3 |
-| [coredns/deployment](https://github.com/coredns/deployment) | 571 | 2025-11-10T12:52:20Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [lynxthecat/adblock-lean](https://github.com/lynxthecat/adblock-lean) | 523 | 2026-02-03T12:53:04Z | Shell | Unknown | 15 | 0 | 15 | 15 |
 | [acomagu/fish-async-prompt](https://github.com/acomagu/fish-async-prompt) | 520 | 2026-01-05T12:09:06Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [squeaky-pl/portable-pypy](https://github.com/squeaky-pl/portable-pypy) | 477 | 2026-02-02T09:36:22Z | Shell | Unknown | 0 | 0 | 0 | 0 |

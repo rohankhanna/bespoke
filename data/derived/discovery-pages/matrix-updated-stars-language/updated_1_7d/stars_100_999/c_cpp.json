@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 80,
-    "concepts": 106,
-    "observations": 106,
-    "repos": 18,
-    "terms": 106
+    "components": 72,
+    "concepts": 79,
+    "observations": 79,
+    "repos": 16,
+    "terms": 79
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,20 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
-    "apache/iceberg-cpp",
+    "aburch/simutrans",
     "Blosc/c-blosc2",
     "CEED/libCEED",
+    "flagos-ai/FlagCX",
     "foldl/chatllm.cpp",
-    "heiher/hev-socks5-server",
-    "heiher/hev-socks5-tproxy",
+    "google-deepmind/reverb",
     "ipsilon/evmone",
-    "Mercury13/unicodia",
     "open-telemetry/opentelemetry-dotnet-instrumentation",
     "open-telemetry/opentelemetry-ebpf-instrumentation",
     "ouster-lidar/ouster-ros",
     "ROCm/hipBLAS",
     "ros2/common_interfaces",
-    "todbot/hidapitester",
     "tree-sitter-grammars/tree-sitter-markdown",
     "triton-inference-server/core",
     "triton-inference-server/pytorch_backend",

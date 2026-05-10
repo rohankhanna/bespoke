@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 31,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 8,
-    "terms": 35
+    "concepts": 40,
+    "observations": 40,
+    "repos": 9,
+    "terms": 40
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "2KAbhishek/tmux-tea",
     "cehoffman/lua-build",
     "crate-ci/gh-install",
+    "erikw/tmux-dark-notify",
     "nodenv/nodenv-installer",
     "nodenv/nodenv-update",
     "rickstaa/action-black",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 135,
-    "concepts": 151,
-    "observations": 153,
-    "repos": 39,
-    "terms": 147
+    "components": 150,
+    "concepts": 153,
+    "observations": 155,
+    "repos": 42,
+    "terms": 150
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
-    "adamritter/fastgron",
     "ARM-software/EndpointAI",
     "arminbiere/aiger",
     "beached/daw_json_link",
@@ -22,15 +21,17 @@
     "CppCXY/EmmyLuaCodeStyle",
     "creachadair/imath",
     "dacap/clip",
+    "Dao-AILab/fast-hadamard-transform",
     "devkitPro/libctru",
     "douglascrockford/JSMin",
+    "freebsd/atf",
     "google/effcee",
     "google/kmsan",
     "google/ruy",
+    "haosulab/SAPIEN",
     "hhyyrylainen/GodotPckTool",
     "InteractiveComputerGraphics/TriangleMeshDistance",
     "isciences/exactextract",
-    "iwongu/sqlite3pp",
     "jsk-ros-pkg/jsk_visualization",
     "KamilSJaron/smudgeplot",
     "koide3/small_gicp",
@@ -42,6 +43,7 @@
     "numactl/numactl",
     "nvpro-samples/nvpro_core",
     "openxrlab/xrslam",
+    "refresh-bio/KMC",
     "rust-fuzz/libfuzzer",
     "sasha0552/nvidia-pstated",
     "sheredom/ubench.h",
@@ -52,6 +54,7 @@
     "veorq/SipHash",
     "websockets/bufferutil",
     "xtensor-stack/xtl",
-    "xuankuzcr/Global-LVBA"
+    "xuankuzcr/Global-LVBA",
+    "ylsdamxssjxxdd/eva"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 17,
-    "observations": 17,
+    "components": 23,
+    "concepts": 10,
+    "observations": 10,
     "repos": 4,
-    "terms": 15
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "dora-rs/dora-hub",
-    "Hiroshiba/voicevox_engine",
     "intel-staging/text-generation-webui",
+    "mesh-iit/cad-libraries",
     "python-jsonschema/referencing"
   ]
 }

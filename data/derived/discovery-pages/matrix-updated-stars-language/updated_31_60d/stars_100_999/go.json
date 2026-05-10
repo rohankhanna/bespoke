@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 312,
-    "concepts": 233,
-    "observations": 233,
-    "repos": 45,
-    "terms": 231
+    "components": 343,
+    "concepts": 276,
+    "observations": 276,
+    "repos": 49,
+    "terms": 274
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
+    "adrg/xdg",
     "aws/aws-app-mesh-controller-for-k8s",
     "aws/aws-xray-daemon",
     "aws/credentials-fetcher",
@@ -25,6 +26,7 @@
     "chromedp/chromedp-proxy",
     "cloudwego/kitex-examples",
     "connectrpc/validate-go",
+    "cosmos/iavl",
     "docker-library/bashbrew",
     "ekalinin/github-markdown-toc.go",
     "ethereum-optimism/superchain-registry",
@@ -32,11 +34,13 @@
     "go-chi/docgen",
     "go-gl/glow",
     "google/triage-party",
+    "google/trillian-examples",
     "gopacket/gopacket",
     "gpustack/gguf-parser-go",
     "hashicorp/hello-vault-go",
     "hashicorp/raft-boltdb",
     "imjasonh/kontain.me",
+    "ipfs/go-cid",
     "ipfs/ipfs-docs",
     "itzg/rcon-cli",
     "JupiterRider/purego-sdl3",

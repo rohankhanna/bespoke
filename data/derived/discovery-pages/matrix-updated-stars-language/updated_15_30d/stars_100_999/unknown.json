@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 67,
+    "components": 70,
     "concepts": 196,
     "observations": 197,
-    "repos": 57,
+    "repos": 54,
     "terms": 195
   },
   "facet_version": 1,
@@ -12,15 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "abhisheknaiidu/abhisheknaiidu",
     "actions/partner-runner-images",
     "adoptium/temurin21-binaries",
     "ailev/fpf",
-    "alchaincyf/elon-musk-skill",
-    "alchaincyf/feynman-skill",
-    "alchaincyf/munger-skill",
     "alchaincyf/naval-skill",
     "alchaincyf/steve-jobs-skill",
     "antonbabenko/awesome-terraform-compliance",
@@ -52,6 +49,7 @@
     "kitknox/rootshell",
     "kubernetes-sigs/krew-index",
     "LemmyNet/lemmy-docs",
+    "LuaLS/LLS-Addons",
     "mason-org/mason-registry",
     "MicrosoftDocs/terminal",
     "nimbalyst/nimbalyst",
@@ -59,7 +57,6 @@
     "oak-security/audit-reports",
     "ocaml/opam-repository",
     "piebald-ai/awesome-gemini-cli",
-    "preactjs/awesome-preact",
     "ranpox/awesome-computer-use",
     "rstackjs/awesome-rstack",
     "SamurAIGPT/awesome-openclaw",

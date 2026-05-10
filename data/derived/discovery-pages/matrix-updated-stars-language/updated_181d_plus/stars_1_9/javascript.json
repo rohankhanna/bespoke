@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1491,
-    "concepts": 198,
-    "observations": 199,
-    "repos": 123,
-    "terms": 198
+    "components": 1474,
+    "concepts": 193,
+    "observations": 194,
+    "repos": 121,
+    "terms": 193
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "0x4139/cosmos-discord-faucet",
     "1000ch/atom-csso",
@@ -116,7 +116,6 @@
     "modelscope/Trinity-Studio",
     "nothingislost/pickr",
     "openxrlab/xrviewer",
-    "pajaydev/lasso-analyzer",
     "pajaydev/lasso-unpack",
     "pepsryuu/create-nollup-app",
     "pixielabs/cavy-sample-app",
@@ -134,7 +133,6 @@
     "SWHL/ProcessLaTeXFormulaTools",
     "therealharpaljadeja/socialconnect_rn_demo",
     "wa-lang/webgpu",
-    "webmaster128/private-voting",
     "zytedata/zyte-smartproxy-playwright",
     "zytedata/zyte-smartproxy-plugin"
   ]

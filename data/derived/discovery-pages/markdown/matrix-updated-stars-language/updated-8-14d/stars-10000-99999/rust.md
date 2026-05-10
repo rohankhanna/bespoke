@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10,000 to 99,999 stars · Rust
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 34
-- terms: 412
-- components: 527
-- concepts: 417
-- observations: 417
+- repos: 35
+- terms: 437
+- components: 542
+- concepts: 442
+- observations: 442
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [qdrant/qdrant](https://github.com/qdrant/qdrant) | 30966 | 2026-05-02T17:52:06Z | Rust | Infrastructure/tooling | 25 | 15 | 25 | 25 |
 | [alacritty/alacritty](https://github.com/alacritty/alacritty) | 63824 | 2026-05-02T02:14:57Z | Rust | CLI | 8 | 1 | 8 | 8 |
 | [influxdata/influxdb](https://github.com/influxdata/influxdb) | 31486 | 2026-05-01T20:18:05Z | Rust | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 | [shadowsocks/shadowsocks-rust](https://github.com/shadowsocks/shadowsocks-rust) | 10580 | 2026-05-01T17:11:37Z | Rust | Infrastructure/tooling | 14 | 12 | 14 | 14 |
@@ -75,6 +76,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google/comprehensive-rust](https://github.com/google/comprehensive-rust) | 32924 | 2026-05-01T01:50:24Z | Rust | Infrastructure/tooling | 13 | 10 | 13 | 13 |
 | [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) | 31981 | 2026-04-29T14:14:29Z | Rust | Infrastructure/tooling | 23 | 21 | 23 | 23 |
 | [influxdata/influxdb](https://github.com/influxdata/influxdb) | 31486 | 2026-05-01T20:18:05Z | Rust | Infrastructure/tooling | 8 | 1 | 8 | 8 |
+| [qdrant/qdrant](https://github.com/qdrant/qdrant) | 30966 | 2026-05-02T17:52:06Z | Rust | Infrastructure/tooling | 25 | 15 | 25 | 25 |
 | [iced-rs/iced](https://github.com/iced-rs/iced) | 30345 | 2026-04-28T11:09:47Z | Rust | Infrastructure/tooling | 15 | 5 | 15 | 15 |
 | [emilk/egui](https://github.com/emilk/egui) | 28913 | 2026-04-30T13:29:25Z | Rust | Infrastructure/tooling | 14 | 13 | 14 | 14 |
 | [jj-vcs/jj](https://github.com/jj-vcs/jj) | 28427 | 2026-04-29T16:29:51Z | Rust | Infrastructure/tooling | 5 | 21 | 5 | 5 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 125,
-    "concepts": 75,
-    "observations": 75,
+    "components": 134,
+    "concepts": 61,
+    "observations": 61,
     "repos": 6,
-    "terms": 75
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "astral-sh/ruff",
-    "qdrant/qdrant",
+    "DioxusLabs/dioxus",
     "quickwit-oss/tantivy",
     "rerun-io/rerun",
     "rust-lang/mdBook",

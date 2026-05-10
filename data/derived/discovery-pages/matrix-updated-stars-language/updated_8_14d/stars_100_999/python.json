@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 830,
-    "concepts": 776,
-    "observations": 779,
-    "repos": 128,
-    "terms": 772
+    "components": 796,
+    "concepts": 747,
+    "observations": 750,
+    "repos": 123,
+    "terms": 743
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "aboutcode-org/scancode.io",
     "ag2ai/build-with-ag2",
@@ -39,7 +39,6 @@
     "bootmortis/iran-hosted-domains",
     "bytedance/Valley",
     "capitalone/datacompy",
-    "carla-simulator/scenario_runner",
     "casperdcl/git-fame",
     "castorini/rank_llm",
     "chengzhag/UCPE",
@@ -67,7 +66,6 @@
     "fsspec/universal_pathlib",
     "galaxyproject/planemo",
     "GNOME/adwaita-icon-theme",
-    "google/cameratrapai",
     "google/fiddle",
     "google/orbax",
     "google/paxml",
@@ -78,6 +76,7 @@
     "HansZ8/RoboJuDo",
     "heyoeyo/muggled_sam",
     "HKU-BAL/Clair3",
+    "httpwg/http-extensions",
     "HumanSignal/label-studio-sdk",
     "i2rt-robotics/i2rt",
     "IntelPython/scikit-learn_bench",
@@ -93,6 +92,7 @@
     "litex-hub/linux-on-litex-vexriscv",
     "litex-hub/litex-boards",
     "lmcinnes/pynndescent",
+    "makehumancommunity/mpfb2",
     "microsoft/Agents-for-python",
     "microsoft/dion",
     "microsoft/onnxscript",
@@ -108,14 +108,11 @@
     "ogx-ai/ogx-client-python",
     "onnx/turnkeyml",
     "opendatacube/datacube-core",
-    "OSU-NLP-Group/GUI-Agents-Paper-List",
     "PetervanLunteren/AddaxAI",
     "plotly/Kaleido",
     "Project-MONAI/model-zoo",
     "prometheus-community/ansible",
-    "py-cov-action/python-coverage-comment-action",
     "pypa/packaging",
-    "pypa/setuptools-scm",
     "pypdfium2-team/pypdfium2",
     "rai-opensource/spatialmath-python",
     "RDFLib/pyLODE",
@@ -124,7 +121,6 @@
     "runtimeverification/k",
     "scicode-bench/SciCode",
     "ScoopInstaller/Nirsoft",
-    "ServiceNow/WorkArena",
     "sigstore/sigstore-python",
     "sp-nitech/diffsptk",
     "spack/spack-packages",
@@ -140,7 +136,6 @@
     "UKGovernmentBEIS/inspect_evals",
     "unitreerobotics/unitree_sdk2_python",
     "Yuliang-Liu/MultimodalOCR",
-    "ZhuoZhuoCrayon/throttled-py",
     "zopefoundation/RestrictedPython"
   ]
 }

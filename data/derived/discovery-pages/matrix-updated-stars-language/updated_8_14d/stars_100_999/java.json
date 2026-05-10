@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 279,
-    "concepts": 302,
-    "observations": 302,
-    "repos": 40,
-    "terms": 300
+    "components": 287,
+    "concepts": 304,
+    "observations": 304,
+    "repos": 41,
+    "terms": 302
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "allegro/hermes",
     "apache/commons-jexl",
@@ -38,6 +38,7 @@
     "jpmml/jpmml-sklearn",
     "jpmml/jpmml-xgboost",
     "kirill-grouchnikov/radiance",
+    "MarcusWolschon/osmeditor4android",
     "michel-kraemer/bson4jackson",
     "microsoft/LangChain4j-for-Beginners",
     "microsoft/vscode-java-test",

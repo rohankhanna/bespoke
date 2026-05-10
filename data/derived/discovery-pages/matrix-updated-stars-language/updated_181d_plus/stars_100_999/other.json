@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2086,
-    "concepts": 2874,
-    "observations": 2881,
-    "repos": 915,
-    "terms": 2860
+    "components": 2105,
+    "concepts": 2895,
+    "observations": 2902,
+    "repos": 920,
+    "terms": 2881
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -582,6 +582,7 @@
     "mdn/interactive-examples",
     "meh/elixir-socket",
     "mentat-collective/emmy",
+    "meshcat-dev/meshcat",
     "MetaGLM/glm-cookbook",
     "metalelf0/jellybeans-nvim",
     "metasoarous/datsync",
@@ -669,6 +670,7 @@
     "nvim-telescope/telescope-cheat.nvim",
     "nvim-telescope/telescope-frecency.nvim",
     "nvim-telescope/telescope-fzy-native.nvim",
+    "nvim-telescope/telescope-packer.nvim",
     "nvim-telescope/telescope-smart-history.nvim",
     "nvim-treesitter/playground",
     "nvimdev/galaxyline.nvim",
@@ -774,6 +776,7 @@
     "schell/steeloverseer",
     "SeanNaren/warp-ctc",
     "segeljakt/vim-silicon",
+    "shaunsingh/nord.nvim",
     "Shopify/better-html",
     "Shougo/neco-vim",
     "Shougo/neosnippet-snippets",
@@ -785,6 +788,7 @@
     "sinatra-activerecord/sinatra-activerecord",
     "sky-ecosystem/multicall",
     "skywind3000/gutentags_plus",
+    "sl-solution/InMemoryDatasets.jl",
     "SmiteshP/nvim-navbuddy",
     "smoka7/hop.nvim",
     "sorbet/sorbet-typed",
@@ -856,6 +860,7 @@
     "travis-ci/travis-cookbooks",
     "TropComplique/mtcnn-pytorch",
     "trullock/NUglify",
+    "tsakirist/telescope-lazy.nvim",
     "TuSimple/tusimple-benchmark",
     "tweekmonster/startuptime.vim",
     "twitter-archive/torch-autograd",

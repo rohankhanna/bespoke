@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 194,
-    "concepts": 232,
-    "observations": 233,
-    "repos": 19,
-    "terms": 231
+    "components": 239,
+    "concepts": 287,
+    "observations": 288,
+    "repos": 24,
+    "terms": 287
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,29 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
-    "agentscope-ai/QwenPaw",
+    "aden-hive/hive",
+    "Comfy-Org/ComfyUI-Manager",
     "crewAIInc/crewAI",
+    "Dao-AILab/flash-attention",
     "datalab-to/marker",
     "datalab-to/surya",
     "deepspeedai/DeepSpeed",
     "great-expectations/great_expectations",
+    "hiyouga/LlamaFactory",
+    "HKUDS/CLI-Anything",
+    "huggingface/pytorch-image-models",
     "huggingface/sentence-transformers",
     "Kludex/starlette",
     "ludwig-ai/ludwig",
-    "MetaCubeX/mihomo",
+    "modelscope/DiffSynth-Studio",
     "oobabooga/textgen",
+    "OpenHands/OpenHands",
     "PDFMathTranslate/PDFMathTranslate",
     "pydantic/pydantic",
     "pyg-team/pytorch_geometric",
-    "StevenBlack/hosts",
-    "triton-inference-server/server",
+    "run-llama/llama_index",
     "ungoogled-software/ungoogled-chromium",
     "wkentaro/labelme",
     "zhayujie/CowAgent"

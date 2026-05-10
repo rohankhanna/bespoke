@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 1299
-- terms: 1804
-- components: 5216
-- concepts: 1809
-- observations: 1811
+- repos: 1300
+- terms: 1800
+- components: 5199
+- concepts: 1805
+- observations: 1807
 
 ## Static behavior
 
@@ -25,6 +25,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [alphagov/.github](https://github.com/alphagov/.github) | 6 | 2025-11-10T14:11:22Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
+| [haskell/cabal-proposals](https://github.com/haskell/cabal-proposals) | 7 | 2025-11-10T10:17:18Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [azdavis/language-util](https://github.com/azdavis/language-util) | 5 | 2025-11-10T00:40:29Z | Rust | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [danielrosehill/Claude-Code-Bash-Aliases](https://github.com/danielrosehill/Claude-Code-Bash-Aliases) | 1 | 2025-11-09T16:29:44Z | Unknown | Unknown | 1 | 0 | 2 | 2 |
 | [andreasdr/a-gui](https://github.com/andreasdr/a-gui) | 1 | 2025-11-08T20:41:33Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
@@ -1289,6 +1291,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AjayThorve/Spatial-Analytics-Viz](https://github.com/AjayThorve/Spatial-Analytics-Viz) | 7 | 2021-08-04T01:03:04Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [1000ch/atom-csso](https://github.com/1000ch/atom-csso) | 2 | 2021-08-02T20:40:13Z | JavaScript | Unknown | 3 | 3 | 3 | 3 |
 | [eddelbuettel/ldlasb](https://github.com/eddelbuettel/ldlasb) | 8 | 2021-08-01T13:20:39Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
+| [kahgeh/ls-crates.nvim](https://github.com/kahgeh/ls-crates.nvim) | 2 | 2021-07-31T13:44:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [dotnet-foundation/wg-corporate-relations](https://github.com/dotnet-foundation/wg-corporate-relations) | 2 | 2021-07-29T12:27:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [AFD-Illinois/iharm2d_v3](https://github.com/AFD-Illinois/iharm2d_v3) | 8 | 2021-07-27T22:06:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [atom-community/autocomplete-plus](https://github.com/atom-community/autocomplete-plus) | 2 | 2021-07-21T23:48:09Z | JavaScript | Unknown | 0 | 15 | 0 | 0 |
@@ -1322,8 +1325,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ayushsaini00/holi-theme](https://github.com/AyushSaini00/holi-theme) | 1 | 2021-05-16T09:00:08Z | Unknown | Unknown | 6 | 0 | 6 | 6 |
 | [zulacore/completion-tmux](https://github.com/zulacore/completion-tmux) | 7 | 2021-05-14T23:33:38Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [unixorn/autoupdate-zgenom](https://github.com/unixorn/autoupdate-zgenom) | 1 | 2021-05-13T13:48:05Z | Shell | Infrastructure/tooling | 2 | 4 | 2 | 2 |
-| [webmaster128/private-voting](https://github.com/webmaster128/private-voting) | 1 | 2021-05-10T23:19:52Z | JavaScript | Unknown | 0 | 12 | 0 | 0 |
-| [pajaydev/lasso-analyzer](https://github.com/pajaydev/lasso-analyzer) | 4 | 2021-05-10T17:06:16Z | JavaScript | Unknown | 5 | 5 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -1515,6 +1516,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eddelbuettel/ldlasb](https://github.com/eddelbuettel/ldlasb) | 8 | 2021-08-01T13:20:39Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [AFD-Illinois/iharm2d_v3](https://github.com/AFD-Illinois/iharm2d_v3) | 8 | 2021-07-27T22:06:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [fnproject/flowui](https://github.com/fnproject/flowui) | 8 | 2021-05-17T19:57:16Z | JavaScript | Infrastructure/tooling | 0 | 23 | 0 | 0 |
+| [haskell/cabal-proposals](https://github.com/haskell/cabal-proposals) | 7 | 2025-11-10T10:17:18Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Deep-Research-Model](https://github.com/danielrosehill/Claude-Deep-Research-Model) | 7 | 2025-11-02T01:08:45Z | Unknown | Model/data | 2 | 0 | 2 | 2 |
 | [alexellis/discord-updater](https://github.com/alexellis/discord-updater) | 7 | 2025-10-17T07:44:13Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [MindWorkAI/ERI](https://github.com/MindWorkAI/ERI) | 7 | 2025-10-07T06:41:18Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -1630,6 +1632,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JolifantoBambla/shadercl](https://github.com/JolifantoBambla/shadercl) | 7 | 2021-07-21T08:29:11Z | Other | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 | [d0c-s4vage/lookatme.contrib.qrcode](https://github.com/d0c-s4vage/lookatme.contrib.qrcode) | 7 | 2021-05-23T04:05:28Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [zulacore/completion-tmux](https://github.com/zulacore/completion-tmux) | 7 | 2021-05-14T23:33:38Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [alphagov/.github](https://github.com/alphagov/.github) | 6 | 2025-11-10T14:11:22Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [thalesgelinger/toon.nvim](https://github.com/thalesgelinger/toon.nvim) | 6 | 2025-11-03T15:54:39Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [WebAssembly/compilation-hints](https://github.com/WebAssembly/compilation-hints) | 6 | 2025-10-29T09:48:46Z | Other | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [ptsochantaris/mima](https://github.com/ptsochantaris/mima) | 6 | 2025-10-25T19:44:20Z | Other | Unknown | 6 | 0 | 6 | 6 |
@@ -2005,7 +2008,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [junkblocker/calibre-zaw-source](https://github.com/junkblocker/calibre-zaw-source) | 4 | 2021-06-15T13:20:42Z | Shell | Unknown | 5 | 0 | 5 | 5 |
 | [iansan5653/vscode-format-python-docstrings](https://github.com/iansan5653/vscode-format-python-docstrings) | 4 | 2021-06-09T00:24:42Z | TypeScript | Unknown | 3 | 20 | 4 | 4 |
 | [kaminari/kaminari-data_mapper](https://github.com/kaminari/kaminari-data_mapper) | 4 | 2021-05-25T03:57:16Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [pajaydev/lasso-analyzer](https://github.com/pajaydev/lasso-analyzer) | 4 | 2021-05-10T17:06:16Z | JavaScript | Unknown | 5 | 5 | 5 | 5 |
 | [tats-u/goldmark-cjk-friendly](https://github.com/tats-u/goldmark-cjk-friendly) | 3 | 2025-11-07T11:48:33Z | Go | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [39george/scs_gin_adapter](https://github.com/39george/scs_gin_adapter) | 3 | 2025-11-07T04:32:37Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [Tencent/tencent.github.io](https://github.com/Tencent/tencent.github.io) | 3 | 2025-11-05T07:34:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -2369,6 +2371,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JackLiar/rust-llhttp](https://github.com/JackLiar/rust-llhttp) | 2 | 2021-08-21T08:54:32Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [vega/logos](https://github.com/vega/logos) | 2 | 2021-08-14T13:38:28Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [1000ch/atom-csso](https://github.com/1000ch/atom-csso) | 2 | 2021-08-02T20:40:13Z | JavaScript | Unknown | 3 | 3 | 3 | 3 |
+| [kahgeh/ls-crates.nvim](https://github.com/kahgeh/ls-crates.nvim) | 2 | 2021-07-31T13:44:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [dotnet-foundation/wg-corporate-relations](https://github.com/dotnet-foundation/wg-corporate-relations) | 2 | 2021-07-29T12:27:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [atom-community/autocomplete-plus](https://github.com/atom-community/autocomplete-plus) | 2 | 2021-07-21T23:48:09Z | JavaScript | Unknown | 0 | 15 | 0 | 0 |
 | [kaminari/kaminari-mongo_mapper](https://github.com/kaminari/kaminari-mongo_mapper) | 2 | 2021-05-25T03:37:36Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -2627,4 +2630,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hkbu-hpml/covidnet3d](https://github.com/HKBU-HPML/CovidNet3D) | 1 | 2021-05-19T07:16:07Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [ayushsaini00/holi-theme](https://github.com/AyushSaini00/holi-theme) | 1 | 2021-05-16T09:00:08Z | Unknown | Unknown | 6 | 0 | 6 | 6 |
 | [unixorn/autoupdate-zgenom](https://github.com/unixorn/autoupdate-zgenom) | 1 | 2021-05-13T13:48:05Z | Shell | Infrastructure/tooling | 2 | 4 | 2 | 2 |
-| [webmaster128/private-voting](https://github.com/webmaster128/private-voting) | 1 | 2021-05-10T23:19:52Z | JavaScript | Unknown | 0 | 12 | 0 | 0 |

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 17305,
-    "concepts": 25905,
-    "observations": 25954,
-    "repos": 6480,
-    "terms": 25716
+    "components": 17317,
+    "concepts": 25917,
+    "observations": 25966,
+    "repos": 6485,
+    "terms": 25730
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "python"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0cc4m/hf_bleeding_edge",
@@ -1897,6 +1897,7 @@
     "dreamiurg/peakbagger-cli",
     "dreamoving/Phantom",
     "dreasysnail/RetGen",
+    "drewlinsley/pathfinder",
     "drivendataorg/cookiecutter-data-science",
     "drivendataorg/zamba",
     "drj11/pypng",
@@ -2787,6 +2788,7 @@
     "HKU-BAL/Clair3-RNA",
     "HKU-BAL/ClairS",
     "HKU-BAL/ClairS-TO",
+    "HKUDS/CLI-Anything",
     "HKUDS/LightRAG",
     "HKUDS/MiniRAG",
     "HKUDS/RAG-Anything",
@@ -3127,6 +3129,7 @@
     "jakubcerveny/gilbert",
     "james128333/HarDNet-MSEG",
     "Jamorim-esss/pytest-rich",
+    "Jango-AI-com/morning-cli",
     "jannerm/ddpo",
     "jannerm/diffuser",
     "jannerm/trajectory-transformer",
@@ -5650,6 +5653,7 @@
     "sublimelsp/LSP-marksman",
     "sublimelsp/LSP-ruff",
     "sublimelsp/LSP-volar",
+    "SublimeText-Markdown/MarkdownCodeExporter",
     "SublimeText/AFileIcon",
     "subtheme-dev/monokai-pro",
     "successar/Eraser-Benchmark-Baseline-Models",
@@ -6286,6 +6290,7 @@
     "yanring/Megatron-MoE-ModelZoo",
     "yanx27/Pointnet_Pointnet2_pytorch",
     "yaohungt/Barlow-Twins-HSIC",
+    "yaroslavyaroslav/OpenAI-sublime-text",
     "yashsinghcodes/wik",
     "ycm-core/YouCompleteMe",
     "ye4241/midjourney-captcha-bot",

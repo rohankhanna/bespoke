@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 111,
-    "concepts": 123,
-    "observations": 124,
-    "repos": 41,
-    "terms": 122
+    "concepts": 117,
+    "observations": 118,
+    "repos": 36,
+    "terms": 116
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
-    "alchaincyf/ilya-sutskever-skill",
-    "alchaincyf/taleb-skill",
-    "askroundtable/expert-skills",
     "bleichenbacher-daniel/Rooterberg",
     "canonical/ubuntu-security-notices",
     "cdxeve/awesome-computer-use-agents",
@@ -45,13 +42,11 @@
     "qemus/virtiso-whql",
     "quarkiverse/quarkiverse-docs",
     "rstackjs/rstack-design-resources",
-    "SeleniumHQ/selenium_manager_artifacts",
     "sigstore/community",
     "simonw/simonwillisonblog-backup",
     "spring-projects/spring-ai-integration-tests",
     "Stardust-SJF/cuvs_rabitq",
     "supabase/scoop-bucket",
-    "tc39/proposal-duplicate-named-capturing-groups",
     "w3c/accname",
     "w3c/core-aam",
     "webdriverio/awesome-webdriverio"

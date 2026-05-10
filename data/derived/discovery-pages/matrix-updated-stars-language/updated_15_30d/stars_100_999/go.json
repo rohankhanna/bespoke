@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 818,
-    "concepts": 669,
-    "observations": 675,
-    "repos": 109,
-    "terms": 679
+    "components": 799,
+    "concepts": 629,
+    "observations": 635,
+    "repos": 107,
+    "terms": 639
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
+    "2dust/AndroidLibXrayLite",
     "a2aproject/a2a-go",
     "AdguardTeam/AdGuardDNS",
     "AdguardTeam/urlfilter",
-    "adrg/xdg",
     "ai-dynamo/grove",
     "alibaba/loongsuite-go-agent",
     "AliyunContainerService/terway",
@@ -44,10 +44,10 @@
     "charmbracelet/colorprofile",
     "cloudflare/go",
     "cloudfoundry/bosh-bootloader",
+    "cloudfoundry/bosh-cli",
     "cloudfoundry/gosigar",
     "coder/code-marketplace",
     "coder/envbuilder",
-    "cosmos/iavl",
     "crytic/medusa",
     "darkweak/souin",
     "dependabot/cli",
@@ -61,7 +61,6 @@
     "go-git/go-billy",
     "go-openapi/swag",
     "go-viper/mapstructure",
-    "google/trillian-examples",
     "googleapis/go-genproto",
     "hashicorp/errwrap",
     "hashicorp/go-discover",
@@ -74,7 +73,6 @@
     "hazelcast/hazelcast-go-client",
     "helm/chart-releaser",
     "ipfs/boxo",
-    "ipfs/go-cid",
     "ipfs/rainbow",
     "jaegertracing/jaeger-idl",
     "JupiterRider/ffi",

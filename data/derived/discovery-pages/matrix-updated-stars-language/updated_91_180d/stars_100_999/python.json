@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 336,
-    "concepts": 711,
-    "observations": 712,
-    "repos": 185,
-    "terms": 705
+    "concepts": 706,
+    "observations": 707,
+    "repos": 186,
+    "terms": 700
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "0k/shyaml",
     "23andMe/Yamale",
@@ -23,6 +23,7 @@
     "aim-uofa/Matcher",
     "Akajiaku11/Air-Quality-Prediction-Model",
     "alex-petrenko/sample-factory",
+    "alfworld/alfworld",
     "ali-vilab/Wan-Move",
     "Alibaba-NLP/ViDoRAG",
     "alirezarezvani/claude-code-skill-factory",
@@ -72,7 +73,6 @@
     "fabio-sim/LightGlue-ONNX",
     "feifeibear/long-context-attention",
     "FlagOpen/RoboOS",
-    "FoundationVision/Liquid",
     "FoundationVision/UniTok",
     "fudan-zvg/PVG",
     "gafniguy/4D-Facial-Avatars",
@@ -87,6 +87,7 @@
     "hako-mikan/sd-webui-supermerger",
     "haoxiangsnr/spiking-fullsubnet",
     "hkchengrex/CascadePSP",
+    "HolyWu/vs-rife",
     "httplib2/httplib2",
     "huggingface/flux-fast",
     "huspacy/huspacy",

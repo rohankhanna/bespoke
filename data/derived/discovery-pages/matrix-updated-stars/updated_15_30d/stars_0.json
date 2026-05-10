@@ -1,21 +1,20 @@
 {
   "counts": {
-    "components": 696,
-    "concepts": 246,
-    "observations": 246,
-    "repos": 167,
-    "terms": 275
+    "components": 653,
+    "concepts": 234,
+    "observations": 234,
+    "repos": 165,
+    "terms": 263
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "8144225309/superscalar-cln",
-    "8144225309/superscalar-docs",
     "8144225309/superscalar-wallet",
     "aaronlamz/navpress",
     "aaronrsun/spec-kit-issue",
@@ -29,7 +28,6 @@
     "arckoor/jsonwebtoken",
     "arckoor/jsonwebtoken-botan",
     "arnaud-lb/php-rdkafka",
-    "ashton/neotest-gleam-unitest",
     "azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux",
     "b2agi/exist-is-charter",
     "begmyratb/floweye-yyyxxx.cc",
@@ -72,6 +70,7 @@
     "danielrosehill/AI-Ideation-Runs",
     "danielrosehill/AI-Memory-Planning-0426",
     "danielrosehill/AI-Presentation-Builders-Index",
+    "danielrosehill/AI-Safety-Projects-Index",
     "danielrosehill/Arch-And-Interiors-Index",
     "danielrosehill/audio-editing-plugin",
     "danielrosehill/Backup-Planner",
@@ -85,6 +84,7 @@
     "danielrosehill/Claude-Code-Feedback",
     "danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin",
     "danielrosehill/Claude-Green-Invoice-Ops-Plugin",
+    "danielrosehill/Claude-HTML-Email-Designer-Plugin",
     "danielrosehill/Claude-Israel",
     "danielrosehill/Claude-Workspace-Reshaping-190426",
     "danielrosehill/Favorite-Code-Libraries",
@@ -101,6 +101,7 @@
     "danielrosehill/Open-Research-Workspaces-Index",
     "danielrosehill/Red-Alert-Monitoring-Stack",
     "danielrosehill/Research-Tools-And-Templates-Index",
+    "danielrosehill/Responsible-Agent-Skill-Development",
     "databendlabs/databend-base",
     "DataDog/vault",
     "datafuse-extras/orc-rust",
@@ -133,8 +134,6 @@
     "jsleekr/skilldigest",
     "JuliaBinaryWrappers/CUDA_Driver_jll.jl",
     "JuliaBinaryWrappers/CUDA_Runtime_jll.jl",
-    "JuliaBinaryWrappers/JpegTurbo_jll.jl",
-    "JuliaBinaryWrappers/libaec_jll.jl",
     "JuliaBinaryWrappers/Libmount_jll.jl",
     "JuliaBinaryWrappers/libpng_jll.jl",
     "JuliaBinaryWrappers/Libuuid_jll.jl",
@@ -176,7 +175,6 @@
     "ublacklist/store-assets",
     "ueno/podman-sequoia",
     "vivianalaced749/vk-calls-tunnel",
-    "VOICEVOX/preview-pages",
     "wblondel/blog",
     "wencuecryforme/mysoul.skill",
     "wendyalbanez/clawui"

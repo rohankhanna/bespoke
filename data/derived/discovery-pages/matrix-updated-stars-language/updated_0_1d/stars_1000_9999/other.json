@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 142,
-    "concepts": 155,
-    "observations": 156,
-    "repos": 14,
-    "terms": 155
+    "components": 69,
+    "concepts": 76,
+    "observations": 76,
+    "repos": 7,
+    "terms": 76
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
-    "all-contributors/allcontributors.org",
-    "dotnet/reactive",
-    "dotnet/Silk.NET",
-    "firebase/flutterfire",
-    "intel/BigDL",
-    "kurrent-io/KurrentDB",
+    "datalevin/datalevin",
     "microsoft/aspire",
     "microsoft/aspire-samples",
-    "microsoft/PhiCookBook",
-    "nvim-tree/nvim-web-devicons",
+    "nvim-mini/mini.nvim",
     "psmux/psmux",
     "swiftlang/llvm-project",
-    "swiftlang/swift-syntax",
     "web-platform-tests/wpt"
   ]
 }

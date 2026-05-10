@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 31
-- terms: 263
-- components: 1726
-- concepts: 264
-- observations: 264
+- repos: 33
+- terms: 280
+- components: 1798
+- concepts: 283
+- observations: 283
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [sveltejs/kit](https://github.com/sveltejs/kit) | 20476 | 2026-05-02T20:33:26Z | JavaScript | Infrastructure/tooling | 6 | 14 | 6 | 6 |
+| [CesiumGS/cesium](https://github.com/CesiumGS/cesium) | 15228 | 2026-05-02T16:01:41Z | JavaScript | Infrastructure/tooling | 11 | 58 | 13 | 13 |
 | [faisalman/ua-parser-js](https://github.com/faisalman/ua-parser-js) | 10116 | 2026-05-02T05:44:24Z | JavaScript | CLI | 15 | 32 | 15 | 15 |
 | [addyosmani/critical](https://github.com/addyosmani/critical) | 10180 | 2026-05-02T00:58:33Z | JavaScript | Infrastructure/tooling | 7 | 52 | 7 | 7 |
 | [11ty/eleventy](https://github.com/11ty/eleventy) | 19615 | 2026-05-01T23:08:30Z | JavaScript | Infrastructure/tooling | 9 | 73 | 9 | 9 |
@@ -75,6 +77,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [MagicMirrorOrg/MagicMirror](https://github.com/MagicMirrorOrg/MagicMirror) | 23487 | 2026-04-29T04:32:24Z | JavaScript | Infrastructure/tooling | 12 | 51 | 12 | 12 |
 | [mochajs/mocha](https://github.com/mochajs/mocha) | 22884 | 2026-04-30T12:30:55Z | JavaScript | Infrastructure/tooling | 16 | 72 | 16 | 16 |
 | [jsdom/jsdom](https://github.com/jsdom/jsdom) | 21568 | 2026-04-30T08:52:21Z | JavaScript | Infrastructure/tooling | 5 | 44 | 5 | 5 |
+| [sveltejs/kit](https://github.com/sveltejs/kit) | 20476 | 2026-05-02T20:33:26Z | JavaScript | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [krisk/Fuse](https://github.com/krisk/Fuse) | 20228 | 2026-04-28T20:27:41Z | JavaScript | Infrastructure/tooling | 5 | 28 | 5 | 5 |
 | [11ty/eleventy](https://github.com/11ty/eleventy) | 19615 | 2026-05-01T23:08:30Z | JavaScript | Infrastructure/tooling | 9 | 73 | 9 | 9 |
 | [mdx-js/mdx](https://github.com/mdx-js/mdx) | 19467 | 2026-04-29T12:31:37Z | JavaScript | Infrastructure/tooling | 5 | 109 | 6 | 6 |
@@ -83,6 +86,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [moment/luxon](https://github.com/moment/luxon) | 16385 | 2026-04-28T19:28:04Z | JavaScript | Infrastructure/tooling | 6 | 22 | 6 | 6 |
 | [huggingface/transformers.js](https://github.com/huggingface/transformers.js) | 15940 | 2026-04-27T08:11:22Z | JavaScript | Infrastructure/tooling | 8 | 8 | 8 | 8 |
 | [jsdoc/jsdoc](https://github.com/jsdoc/jsdoc) | 15434 | 2026-05-01T02:41:25Z | JavaScript | Infrastructure/tooling | 4 | 36 | 4 | 4 |
+| [CesiumGS/cesium](https://github.com/CesiumGS/cesium) | 15228 | 2026-05-02T16:01:41Z | JavaScript | Infrastructure/tooling | 11 | 58 | 13 | 13 |
 | [ampproject/amphtml](https://github.com/ampproject/amphtml) | 14905 | 2026-04-27T22:36:52Z | JavaScript | Infrastructure/tooling | 7 | 173 | 7 | 7 |
 | [http-party/node-http-proxy](https://github.com/http-party/node-http-proxy) | 14140 | 2026-04-30T21:10:24Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
 | [novnc/noVNC](https://github.com/novnc/noVNC) | 13668 | 2026-04-28T10:44:09Z | JavaScript | CLI | 13 | 29 | 13 | 13 |

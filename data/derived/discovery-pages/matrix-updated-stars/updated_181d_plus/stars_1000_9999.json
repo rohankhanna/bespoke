@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 9822,
-    "concepts": 8520,
-    "observations": 8529,
-    "repos": 2228,
-    "terms": 8404
+    "components": 9827,
+    "concepts": 8545,
+    "observations": 8554,
+    "repos": 2233,
+    "terms": 8430
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -175,6 +175,7 @@
     "Armour/vue-typescript-admin-template",
     "arq5x/bedtools2",
     "ArrowLuo/CLIP4Clip",
+    "ArthurHub/Android-Image-Cropper",
     "artsy/eidolon",
     "asciimoo/drawille",
     "asciinema/agg",
@@ -720,6 +721,7 @@
     "FormidableLabs/react-live",
     "FoundationVision/ByteTrack",
     "FoundationVision/LlamaGen",
+    "FoundationVision/VAR",
     "fraillt/bitsery",
     "francoispqt/gojay",
     "FranxYao/chain-of-thought-hub",
@@ -1477,6 +1479,7 @@
     "NVIDIA/VideoProcessingFramework",
     "NVIDIA/waveglow",
     "nvim-pack/nvim-spectre",
+    "nvim-telescope/telescope-file-browser.nvim",
     "nvim-telescope/telescope-fzf-native.nvim",
     "nvim-telescope/telescope-ui-select.nvim",
     "NVlabs/edm",
@@ -1748,6 +1751,7 @@
     "romeovs/creep",
     "ronghuaiyang/arcface-pytorch",
     "ronmamo/reflections",
+    "rose-pine/rose-pine-theme",
     "rosinality/stylegan2-pytorch",
     "rotemtzaban/STIT",
     "rowanmanning/joblint",
@@ -2224,6 +2228,7 @@
     "zhayujie/bot-on-anything",
     "ZhengyiLuo/PHC",
     "zhihu/rucene",
+    "zhiiwg/Awesome-Linux-Software-zh_CN",
     "ZHKKKe/MODNet",
     "ZHO-ZHO-ZHO/ComfyUI-InstantID",
     "Zhongdao/Towards-Realtime-MOT",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 329,
-    "concepts": 189,
-    "observations": 189,
-    "repos": 68,
-    "terms": 188
+    "components": 339,
+    "concepts": 185,
+    "observations": 185,
+    "repos": 71,
+    "terms": 184
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "ably-labs/realtime-quiz-framework",
     "AceCHQ/TransMatting",
@@ -26,6 +26,7 @@
     "apache/netbeans-antora-site",
     "asg017/sqlite-hello",
     "avelino/monotropic-theme-vscode",
+    "babashka/sci.configs",
     "benomahony/oil-git.nvim",
     "bokeh/tutorial",
     "BuddiesOfBudgie/budgie-desktop-view",
@@ -34,8 +35,10 @@
     "co-IT/CSharpFunctionalExtensions.HttpResults",
     "codymikol/neotest-kotlin",
     "DavidKinder/Windows-Glulxe",
+    "dbuenzli/logs",
     "devise-i18n/devise-i18n",
     "dominique-unruh/scala-isabelle",
+    "dwyl/cid",
     "dwyl/elixir-auth-github",
     "eddelbuettel/tinythemes",
     "Embarcadero/Lightweight-Python-Wrappers",
@@ -49,10 +52,10 @@
     "ImranR98/obtainium.imranr.dev",
     "informalsystems/audits",
     "informalsystems/quint-llm-kit",
+    "IQVIA-ML/LightGBM.jl",
     "jakewvincent/texmagic.nvim",
     "jfmengels/elm-review-unused",
     "jmespath/jmespath.site",
-    "joanroig/admincraft",
     "JuliaGtk/Gtk4.jl",
     "JunoLab/Atom.jl",
     "jupyter-xeus/xeus-python-wheel",

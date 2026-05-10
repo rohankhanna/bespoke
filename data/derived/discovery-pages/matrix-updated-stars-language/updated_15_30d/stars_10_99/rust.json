@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 448,
-    "concepts": 270,
-    "observations": 270,
-    "repos": 70,
-    "terms": 284
+    "components": 474,
+    "concepts": 276,
+    "observations": 276,
+    "repos": 72,
+    "terms": 290
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -27,7 +27,6 @@
     "antonWetzel/prettypst",
     "apache/opendal-oli",
     "arkworks-rs/spongefish",
-    "ashvardanian/NumWars",
     "bitcoindevkit/bdk_wallet",
     "bitcoindevkit/rust-electrum-client",
     "BlackDex/rust-musl",
@@ -41,6 +40,7 @@
     "crate-ci/imperative",
     "datachainlab/lcp",
     "Dicklesworthstone/frankensearch",
+    "eopb/cargo-override",
     "eth-act/ere",
     "eth-act/zkboost",
     "filecoin-project/actors-utils",
@@ -63,7 +63,9 @@
     "major7apps/pensyve",
     "martinthomson/ohttp",
     "mpizenberg/elm-test-rs",
+    "mrcjkb/vimcats",
     "multiformats/rust-cid",
+    "napi-rs/mimalloc-safe",
     "nico-abram/blondie",
     "open-telemetry/opentelemetry-rust-contrib",
     "paradigmxyz/stateless",

@@ -3,7 +3,7 @@
     "components": 39,
     "concepts": 45,
     "observations": 45,
-    "repos": 64,
+    "repos": 66,
     "terms": 54
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "aaronrsun/spec-kit-issue",
@@ -45,6 +45,7 @@
     "danielrosehill/AI-Geopol-Projects",
     "danielrosehill/AI-Memory-Planning-0426",
     "danielrosehill/AI-Presentation-Builders-Index",
+    "danielrosehill/AI-Safety-Projects-Index",
     "danielrosehill/Arch-And-Interiors-Index",
     "danielrosehill/audio-editing-plugin",
     "danielrosehill/Backup-Planner",
@@ -57,6 +58,7 @@
     "danielrosehill/Claude-Code-Feedback",
     "danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin",
     "danielrosehill/Claude-Green-Invoice-Ops-Plugin",
+    "danielrosehill/Claude-HTML-Email-Designer-Plugin",
     "danielrosehill/Claude-Israel",
     "danielrosehill/Claude-Workspace-Reshaping-190426",
     "danielrosehill/Favorite-Code-Libraries",

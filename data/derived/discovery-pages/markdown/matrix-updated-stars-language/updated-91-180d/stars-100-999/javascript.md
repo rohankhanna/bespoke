@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 44
-- terms: 110
-- components: 686
-- concepts: 109
-- observations: 109
+- repos: 41
+- terms: 103
+- components: 652
+- concepts: 103
+- observations: 103
 
 ## Static behavior
 
@@ -67,19 +67,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [markdown-it/markdown-it-footnote](https://github.com/markdown-it/markdown-it-footnote) | 241 | 2025-11-21T02:07:31Z | JavaScript | Infrastructure/tooling | 0 | 13 | 0 | 0 |
 | [mourner/rbush-knn](https://github.com/mourner/rbush-knn) | 228 | 2025-11-15T10:35:37Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
 | [ValYouW/njsTrace](https://github.com/ValYouW/njsTrace) | 380 | 2025-11-14T14:37:03Z | JavaScript | Unknown | 0 | 6 | 0 | 0 |
-| [ayoubben18/ab-method](https://github.com/ayoubben18/ab-method) | 160 | 2025-11-10T21:57:17Z | JavaScript | Infrastructure/tooling | 1 | 7 | 0 | 0 |
-| [pmndrs/three-stdlib](https://github.com/pmndrs/three-stdlib) | 844 | 2025-11-10T21:21:23Z | JavaScript | Infrastructure/tooling | 5 | 19 | 5 | 5 |
-| [d3/d3-delaunay](https://github.com/d3/d3-delaunay) | 652 | 2025-11-10T18:00:23Z | JavaScript | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [adriantoine/enzyme-to-json](https://github.com/adriantoine/enzyme-to-json) | 940 | 2026-01-27T09:53:57Z | JavaScript | Unknown | 9 | 28 | 9 | 9 |
-| [pmndrs/three-stdlib](https://github.com/pmndrs/three-stdlib) | 844 | 2025-11-10T21:21:23Z | JavaScript | Infrastructure/tooling | 5 | 19 | 5 | 5 |
 | [omnidan/redux-ignore](https://github.com/omnidan/redux-ignore) | 840 | 2026-01-02T10:44:29Z | JavaScript | Unknown | 0 | 16 | 0 | 0 |
 | [agenda/agendash](https://github.com/agenda/agendash) | 811 | 2026-01-28T16:53:42Z | JavaScript | Infrastructure/tooling | 7 | 22 | 7 | 7 |
-| [d3/d3-delaunay](https://github.com/d3/d3-delaunay) | 652 | 2025-11-10T18:00:23Z | JavaScript | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [svg-sprite/gulp-svg-sprite](https://github.com/svg-sprite/gulp-svg-sprite) | 644 | 2026-02-07T12:01:10Z | JavaScript | Infrastructure/tooling | 3 | 15 | 3 | 3 |
 | [nodejs/citgm](https://github.com/nodejs/citgm) | 595 | 2025-12-22T16:46:53Z | JavaScript | Infrastructure/tooling | 7 | 39 | 7 | 7 |
 | [stsquad/emacs_chrome](https://github.com/stsquad/emacs_chrome) | 538 | 2026-01-05T09:07:01Z | JavaScript | Infrastructure/tooling | 2 | 3 | 2 | 2 |
@@ -106,7 +101,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kaorahi/lizgoban](https://github.com/kaorahi/lizgoban) | 201 | 2026-01-15T12:07:42Z | JavaScript | Infrastructure/tooling | 3 | 14 | 3 | 3 |
 | [bramstein/url-template](https://github.com/bramstein/url-template) | 194 | 2025-11-25T10:59:46Z | JavaScript | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [latex-lsp/tree-sitter-latex](https://github.com/latex-lsp/tree-sitter-latex) | 169 | 2026-02-04T18:12:45Z | JavaScript | Infrastructure/tooling | 0 | 12 | 0 | 0 |
-| [ayoubben18/ab-method](https://github.com/ayoubben18/ab-method) | 160 | 2025-11-10T21:57:17Z | JavaScript | Infrastructure/tooling | 1 | 7 | 0 | 0 |
 | [attractivechaos/k8](https://github.com/attractivechaos/k8) | 158 | 2025-12-07T18:49:44Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [emberjs/ember-cli-babel](https://github.com/emberjs/ember-cli-babel) | 152 | 2026-02-05T01:34:19Z | JavaScript | CLI | 2 | 70 | 2 | 2 |
 | [omnidan/redux-recycle](https://github.com/omnidan/redux-recycle) | 147 | 2026-01-02T10:38:33Z | JavaScript | Unknown | 0 | 17 | 0 | 0 |

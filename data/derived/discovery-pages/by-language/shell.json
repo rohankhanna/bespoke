@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1875,
-    "concepts": 2797,
-    "observations": 2816,
-    "repos": 701,
-    "terms": 2740
+    "components": 1886,
+    "concepts": 2802,
+    "observations": 2821,
+    "repos": 703,
+    "terms": 2745
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "shell"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",
@@ -252,6 +252,7 @@
     "danielrosehill/Claude-Debugging-Plugin",
     "danielrosehill/Claude-Dolphin-Konsole-Actions",
     "danielrosehill/Claude-Filesystem-Organiser-Plugin",
+    "danielrosehill/Claude-Image-Annotation-Plugin",
     "danielrosehill/Claude-Rudder",
     "danielrosehill/Local-Claude-Plugin-Install-Research",
     "danielrosehill/OpenWebUI-Postgres-Qdrant",
@@ -703,6 +704,7 @@
     "yatsuki/v2ray",
     "yatsuki/v2ray-release",
     "YosysHQ/oss-cad-suite-build",
+    "yt-dlp/FFmpeg-Builds",
     "zarazhangrui/frontend-slides",
     "zdharma-continuum/zinit",
     "Zepmann/lldap-cli",

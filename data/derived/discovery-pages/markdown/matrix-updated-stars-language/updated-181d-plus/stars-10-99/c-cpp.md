@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 268
-- terms: 594
-- components: 495
-- concepts: 597
-- observations: 597
+- repos: 269
+- terms: 597
+- components: 497
+- concepts: 600
+- observations: 600
 
 ## Static behavior
 
@@ -36,6 +36,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Mooncake-Labs/duckdb_mooncake](https://github.com/Mooncake-Labs/duckdb_mooncake) | 10 | 2025-10-26T07:13:05Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [XR-Robotics/XRoboToolkit-PC-Service](https://github.com/XR-Robotics/XRoboToolkit-PC-Service) | 43 | 2025-10-23T16:53:22Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [newrelic/node-native-metrics](https://github.com/newrelic/node-native-metrics) | 62 | 2025-10-22T18:26:28Z | C/C++ | Infrastructure/tooling | 7 | 39 | 7 | 7 |
+| [ksnip/kColorPicker](https://github.com/ksnip/kColorPicker) | 48 | 2025-10-22T05:23:42Z | C/C++ | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [kendryte/K230_training_scripts](https://github.com/kendryte/K230_training_scripts) | 47 | 2025-10-20T03:54:37Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [HansZ8/unitree_cpp](https://github.com/HansZ8/unitree_cpp) | 82 | 2025-10-10T12:42:03Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [escherba/python-metrohash](https://github.com/escherba/python-metrohash) | 20 | 2025-10-09T21:30:20Z | C/C++ | Infrastructure/tooling | 7 | 10 | 7 | 7 |
@@ -407,6 +408,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sophgo/ChatGLM2-TPU](https://github.com/sophgo/ChatGLM2-TPU) | 49 | 2024-03-01T02:42:17Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [puma/dev-tld-resolver](https://github.com/puma/dev-tld-resolver) | 49 | 2022-06-03T09:26:58Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [llandsmeer/inkvt](https://github.com/llandsmeer/inkvt) | 49 | 2022-03-01T12:23:38Z | C/C++ | CLI | 0 | 0 | 0 | 0 |
+| [ksnip/kColorPicker](https://github.com/ksnip/kColorPicker) | 48 | 2025-10-22T05:23:42Z | C/C++ | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [hwmcc/btor2tools](https://github.com/hwmcc/btor2tools) | 48 | 2025-09-18T21:19:05Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [microsoft/FreeRDP-mirror](https://github.com/microsoft/FreeRDP-mirror) | 48 | 2024-09-19T23:39:00Z | C/C++ | CLI | 1 | 4 | 1 | 1 |
 | [kendryte/K230_training_scripts](https://github.com/kendryte/K230_training_scripts) | 47 | 2025-10-20T03:54:37Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

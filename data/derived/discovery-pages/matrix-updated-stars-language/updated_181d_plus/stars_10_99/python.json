@@ -3,7 +3,7 @@
     "components": 678,
     "concepts": 1424,
     "observations": 1426,
-    "repos": 812,
+    "repos": 813,
     "terms": 1405
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -728,6 +728,7 @@
     "sterlind/GPTQ-for-LLaMa",
     "StevenGrove/ComfyUI-YOLOWorld",
     "sublimelinter/sublimelinter-mypy",
+    "SublimeText-Markdown/MarkdownCodeExporter",
     "successar/Eraser-Benchmark-Baseline-Models",
     "SudeepDasari/data4robotics",
     "superclaude-org/superqwen_framework",

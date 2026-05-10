@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 179,
-    "concepts": 235,
-    "observations": 235,
-    "repos": 59,
-    "terms": 234
+    "components": 168,
+    "concepts": 230,
+    "observations": 230,
+    "repos": 60,
+    "terms": 228
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
+    "adamritter/fastgron",
     "angr/vex",
     "antonypro/QGoodWindow",
     "apache/casbin-cpp",
@@ -37,11 +38,11 @@
     "gpustack/llama-box",
     "Imagick/imagick",
     "Improbable-AI/VisionProTeleop",
-    "ingonyama-zk/icicle",
     "intel/isa-l_crypto",
     "intel/torch-ccl",
     "isciences/exactextractr",
     "IST-DASLab/qutlass",
+    "iwongu/sqlite3pp",
     "jimporter/mettle",
     "JokerJohn/LIO_SAM_6AXIS",
     "KhronosGroup/OpenCL-SDK",

@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 5
-- terms: 69
-- components: 331
-- concepts: 69
-- observations: 70
+- repos: 2
+- terms: 30
+- components: 205
+- concepts: 30
+- observations: 30
 
 ## Static behavior
 
@@ -26,18 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [endojs/endo](https://github.com/endojs/endo) | 1012 | 2026-05-09T02:24:42Z | JavaScript | Infrastructure/tooling | 17 | 46 | 17 | 17 |
-| [JuliaPluto/Pluto.jl](https://github.com/JuliaPluto/Pluto.jl) | 5317 | 2026-05-08T21:54:03Z | JavaScript | Infrastructure/tooling | 18 | 9 | 18 | 18 |
-| [ipfs/ipfs-companion](https://github.com/ipfs/ipfs-companion) | 2155 | 2026-05-08T21:52:05Z | JavaScript | Infrastructure/tooling | 13 | 97 | 13 | 13 |
-| [googleapis/google-cloud-node](https://github.com/googleapis/google-cloud-node) | 3154 | 2026-05-08T20:24:53Z | JavaScript | CLI | 8 | 20 | 8 | 9 |
-| [module-federation/core](https://github.com/module-federation/core) | 2519 | 2026-05-08T18:50:11Z | JavaScript | Infrastructure/tooling | 13 | 159 | 13 | 13 |
+| [endojs/endo](https://github.com/endojs/endo) | 1015 | 2026-05-09T11:32:45Z | JavaScript | Infrastructure/tooling | 17 | 46 | 17 | 17 |
+| [module-federation/core](https://github.com/module-federation/core) | 2519 | 2026-05-09T08:56:27Z | JavaScript | Infrastructure/tooling | 13 | 159 | 13 | 13 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [JuliaPluto/Pluto.jl](https://github.com/JuliaPluto/Pluto.jl) | 5317 | 2026-05-08T21:54:03Z | JavaScript | Infrastructure/tooling | 18 | 9 | 18 | 18 |
-| [googleapis/google-cloud-node](https://github.com/googleapis/google-cloud-node) | 3154 | 2026-05-08T20:24:53Z | JavaScript | CLI | 8 | 20 | 8 | 9 |
-| [module-federation/core](https://github.com/module-federation/core) | 2519 | 2026-05-08T18:50:11Z | JavaScript | Infrastructure/tooling | 13 | 159 | 13 | 13 |
-| [ipfs/ipfs-companion](https://github.com/ipfs/ipfs-companion) | 2155 | 2026-05-08T21:52:05Z | JavaScript | Infrastructure/tooling | 13 | 97 | 13 | 13 |
-| [endojs/endo](https://github.com/endojs/endo) | 1012 | 2026-05-09T02:24:42Z | JavaScript | Infrastructure/tooling | 17 | 46 | 17 | 17 |
+| [module-federation/core](https://github.com/module-federation/core) | 2519 | 2026-05-09T08:56:27Z | JavaScript | Infrastructure/tooling | 13 | 159 | 13 | 13 |
+| [endojs/endo](https://github.com/endojs/endo) | 1015 | 2026-05-09T11:32:45Z | JavaScript | Infrastructure/tooling | 17 | 46 | 17 | 17 |

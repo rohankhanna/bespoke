@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 15,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 4,
-    "terms": 19
+    "components": 5,
+    "concepts": 13,
+    "observations": 13,
+    "repos": 3,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "cbuijs/hagezi",
-    "microsoft/microsoft-foundry-for-vscode",
     "sakib-m/Pi-hole-Torrent-Blocklist",
     "universal-ctags/ctags-nightly-build"
   ]

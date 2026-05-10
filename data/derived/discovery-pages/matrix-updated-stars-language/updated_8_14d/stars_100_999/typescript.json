@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2536,
-    "concepts": 542,
-    "observations": 544,
-    "repos": 79,
-    "terms": 537
+    "components": 2729,
+    "concepts": 584,
+    "observations": 586,
+    "repos": 86,
+    "terms": 579
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
+    "agentclientprotocol/typescript-sdk",
+    "AgnosticUI/agnosticui",
     "antfu/eslint-flat-config-utils",
     "apollographql/federation",
     "appium/appium-xcuitest-driver",
@@ -21,6 +23,7 @@
     "astahmer/typed-openapi",
     "bitwarden/directory-connector",
     "browserslist/browserslist-useragent-regexp",
+    "carbon-design-system/sveld",
     "chainguard-dev/actions",
     "ClickHouse/clickhouse-js",
     "cocos/cocos-docs",
@@ -52,6 +55,7 @@
     "julia-actions/setup-julia",
     "jurplel/install-qt-action",
     "kkomelin/isomorphic-dompurify",
+    "LemmyNet/lemmy-js-client",
     "luciopaiva/heapify",
     "microsoft/ai-chat-protocol",
     "microsoft/cognitive-services-speech-sdk-js",
@@ -78,7 +82,9 @@
     "salesforcecli/cli",
     "sapphiredev/utilities",
     "sergiodxa/remix-i18next",
+    "SkepticMystic/breadcrumbs",
     "smithy-lang/smithy-typescript",
+    "sumup-oss/circuit-ui",
     "TanStack/config",
     "TanStack/devtools",
     "TanStack/pacer",
@@ -90,6 +96,7 @@
     "un-ts/synckit",
     "unjs/c12",
     "unjs/get-port-please",
+    "unjs/listhen",
     "unjs/unimport",
     "web-infra-dev/rslib",
     "web-infra-dev/rstest"

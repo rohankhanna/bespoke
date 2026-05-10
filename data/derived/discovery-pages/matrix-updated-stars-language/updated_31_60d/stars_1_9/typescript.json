@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 159,
-    "concepts": 33,
-    "observations": 33,
-    "repos": 12,
-    "terms": 33
+    "components": 190,
+    "concepts": 34,
+    "observations": 34,
+    "repos": 14,
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "alibaizhanov/openclaw-mengram",
     "aquasecurity/tfsec-azure-pipelines-task",
@@ -21,6 +21,8 @@
     "dash0hq/opentelemetry-demo",
     "dylibso/xtp-cpp-bindgen",
     "ember-cli/ember-addon-blueprint",
+    "hchiam/how-draggable",
+    "LogtalkDotOrg/logtalk-for-vscode",
     "mattiacolombomc/raycast-handy",
     "maxritter/pilot-shell-demo",
     "octokit/openapi-webhooks",

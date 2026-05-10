@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 82,
-    "concepts": 83,
-    "observations": 84,
-    "repos": 18,
-    "terms": 82
+    "components": 84,
+    "concepts": 90,
+    "observations": 92,
+    "repos": 19,
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "akarnokd/RxJavaFiberInterop",
     "apache/datasketches-hive",
@@ -21,6 +21,7 @@
     "bobbylight/RSTALanguageSupport",
     "bobbylight/SpellChecker",
     "clearml/clearml-pycharm-plugin",
+    "codetyio/codety-scanner",
     "dart4e/dart4e",
     "enola-dev/enola",
     "filip26/iridium-cbor-ld",

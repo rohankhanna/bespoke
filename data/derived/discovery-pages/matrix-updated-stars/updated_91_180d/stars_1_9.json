@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 674,
-    "concepts": 291,
-    "observations": 293,
-    "repos": 195,
-    "terms": 303
+    "components": 681,
+    "concepts": 293,
+    "observations": 295,
+    "repos": 196,
+    "terms": 305
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -30,7 +30,6 @@
     "airowe/claude-a11y-skill",
     "AIxCyberChallenge/example-crs-architecture",
     "aleclarson/vite-postgres",
-    "alphagov/.github",
     "anchordotdev/puma-acme",
     "anotherlusitano/SpectrumPlus",
     "AnshulGora/portfolio_template_v1",
@@ -86,6 +85,7 @@
     "DavidKinder/Glulxe",
     "dbubel/intake",
     "deiga/nodenv-default-npmrc",
+    "drewlinsley/pathfinder",
     "elixir-makeup/makeup_erlang",
     "enzet/iconscript",
     "erwin-kok/multiformat",
@@ -96,10 +96,10 @@
     "gajus/eslint-plugin-slonik",
     "genius-harry/neural-chat",
     "geopandas/governance",
+    "gost-dom/webref",
     "guoqingbao/rustchatui",
     "hashberg-io/typing-validation",
     "haskell-compat/base-orphans",
-    "haskell/cabal-proposals",
     "haya14busa/github-used-by",
     "hchiam/learning-eslint-google",
     "hchiam/learning-https-server",
@@ -130,6 +130,7 @@
     "JuliaBinaryWrappers/libcxxwrap_julia_jll.jl",
     "JuliaML/MLCore.jl",
     "julianrubisch/pronto-standardrb",
+    "Jumziey/neotest-nix-unit.nvim",
     "jupyter-widgets/team-compass",
     "karpeleslab/tpl",
     "kojix2/ruby-edlib",

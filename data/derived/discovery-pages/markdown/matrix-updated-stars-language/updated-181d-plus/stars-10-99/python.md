@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 812
+- repos: 813
 - terms: 1405
 - components: 678
 - concepts: 1424
@@ -281,6 +281,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Macoron/ComfyUI-Diffusers-OminiControl](https://github.com/Macoron/ComfyUI-Diffusers-OminiControl) | 39 | 2024-12-08T19:57:22Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [RUC-NLPIR/FlashRAG-MindSpore](https://github.com/RUC-NLPIR/FlashRAG-MindSpore) | 16 | 2024-12-08T07:10:37Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [jordemort/action-pyright](https://github.com/jordemort/action-pyright) | 12 | 2024-12-05T14:19:00Z | Python | Infrastructure/tooling | 8 | 14 | 8 | 9 |
+| [SublimeText-Markdown/MarkdownCodeExporter](https://github.com/SublimeText-Markdown/MarkdownCodeExporter) | 16 | 2024-12-03T00:16:10Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [ChaoXiao12/Moving-object-detection-in-satellite-videos-HiEUM](https://github.com/ChaoXiao12/Moving-object-detection-in-satellite-videos-HiEUM) | 47 | 2024-11-30T14:37:52Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [A-suozhang/MixDQ](https://github.com/A-suozhang/MixDQ) | 14 | 2024-11-27T03:17:57Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [thu-nics/MixDQ](https://github.com/thu-nics/MixDQ) | 50 | 2024-11-27T03:17:44Z | Python | Model/data | 4 | 0 | 4 | 4 |
@@ -1552,6 +1553,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [byrnereese/linkchecker-mkdocs](https://github.com/byrnereese/linkchecker-mkdocs) | 17 | 2023-07-14T20:12:42Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [libjxl/conformance](https://github.com/libjxl/conformance) | 16 | 2025-08-06T16:35:30Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [RUC-NLPIR/FlashRAG-MindSpore](https://github.com/RUC-NLPIR/FlashRAG-MindSpore) | 16 | 2024-12-08T07:10:37Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [SublimeText-Markdown/MarkdownCodeExporter](https://github.com/SublimeText-Markdown/MarkdownCodeExporter) | 16 | 2024-12-03T00:16:10Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [zlib-ng/pigzbench](https://github.com/zlib-ng/pigzbench) | 16 | 2024-09-08T16:35:32Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [TZW1998/ParaTAA-Diffusion](https://github.com/TZW1998/ParaTAA-Diffusion) | 16 | 2024-07-19T00:56:35Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [intel/open-domain-question-and-answer](https://github.com/intel/open-domain-question-and-answer) | 16 | 2024-05-07T20:47:05Z | Python | Unknown | 0 | 0 | 0 | 0 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 774,
-    "concepts": 703,
-    "observations": 704,
-    "repos": 181,
-    "terms": 700
+    "components": 760,
+    "concepts": 694,
+    "observations": 695,
+    "repos": 182,
+    "terms": 691
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -48,6 +48,7 @@
     "chakravala/Reduce.jl",
     "cleanlab/examples",
     "clj-commons/etaoin",
+    "clj-easy/graalvm-clojure",
     "clojure/core.unify",
     "clojure/data.fressian",
     "clojure/data.json",
@@ -87,6 +88,7 @@
     "envoyproxy/data-plane-api",
     "evadne/etso",
     "excubo-ag/WebCompiler",
+    "fdschmidt93/telescope-egrepify.nvim",
     "FiloSottile/homebrew-musl-cross",
     "flosse/sloc",
     "FluxML/MLJFlux.jl",
@@ -107,6 +109,7 @@
     "jayli/vim-easycomplete",
     "jgpc42/jmh-clojure",
     "joshwlewis/unitwise",
+    "jtdaugherty/vty",
     "juji-io/editscript",
     "JuliaData/DataFramesMeta.jl",
     "JuliaDebug/SnoopCompile.jl",
@@ -134,7 +137,6 @@
     "lunacookies/vim-colors-xcode",
     "marilari88/neotest-vitest",
     "megvii-research/HiDiffusion",
-    "meshcat-dev/meshcat",
     "mfussenegger/nvim-dap-python",
     "microsoft/botbuilder-dotnet",
     "microsoft/triton-shared",
@@ -169,7 +171,6 @@
     "SciML/SciMLTutorials.jl",
     "seattlerb/ruby_parser",
     "simonw/datasette-lite",
-    "sl-solution/InMemoryDatasets.jl",
     "spk/money-open-exchange-rates",
     "StatisticalRethinkingJulia/TuringModels.jl",
     "status-im/nim-chronicles",

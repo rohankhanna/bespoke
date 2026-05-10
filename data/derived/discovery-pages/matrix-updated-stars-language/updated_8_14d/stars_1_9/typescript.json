@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 320,
-    "concepts": 117,
-    "observations": 117,
-    "repos": 17,
-    "terms": 117
+    "components": 390,
+    "concepts": 142,
+    "observations": 142,
+    "repos": 20,
+    "terms": 142
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "8hobbies/vite-plugin-year",
     "anolilab/unplugin-favicons",
@@ -21,6 +21,7 @@
     "dydxprotocol/v4-localization",
     "ecyrbe/zodios-plugins",
     "filecoin-project/github-mgmt",
+    "fluent-vue/unplugin-fluent-vue",
     "haskell-actions/hlint-run",
     "haskell-actions/hlint-setup",
     "ipfs-shipyard/github-mgmt",
@@ -28,8 +29,10 @@
     "ipshipyard/github-mgmt",
     "multiformats/github-mgmt",
     "oclif/plugin-search",
+    "oclif/plugin-version",
     "octokit/auth-callback.js",
     "redhat-developer/app-services-api-guidelines",
+    "suzuki-shunsuke/release-js-action",
     "webdriverio/devtools"
   ]
 }

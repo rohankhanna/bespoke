@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 649,
-    "concepts": 548,
-    "observations": 549,
-    "repos": 72,
-    "terms": 548
+    "components": 713,
+    "concepts": 593,
+    "observations": 594,
+    "repos": 77,
+    "terms": 593
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
-    "2dust/AndroidLibXrayLite",
     "aliyun/aliyun-cli",
     "apache/dubbo-go-hessian2",
     "apache/iceberg-go",
@@ -32,7 +31,6 @@
     "buildpacks/lifecycle",
     "celzero/firestack",
     "ClickHouse/ch-go",
-    "cloudfoundry/bosh-cli",
     "cloudfoundry/cf-deployment",
     "cloudfoundry/diego-release",
     "cloudpilot-ai/karpenter-provider-gcp",
@@ -53,9 +51,11 @@
     "gofiber/contrib",
     "google/oss-rebuild",
     "grafana/grafana-plugin-sdk-go",
+    "helmfile/vals",
     "huaweicloud/huaweicloud-sdk-go-v3",
     "hybridgroup/yzma",
     "hypnoglow/helm-s3",
+    "istio/api",
     "istio/tools",
     "itzg/mc-monitor",
     "kubernetes-sigs/dra-driver-nvidia-gpu",
@@ -72,10 +72,15 @@
     "pion/stun",
     "pulumi/pulumi-aws",
     "pulumi/pulumi-azure",
+    "pulumi/pulumi-azure-native",
     "pulumi/pulumi-gcp",
     "runpod/runpodctl",
     "scaleway/scaleway-cli",
+    "scaleway/scaleway-sdk-go",
     "seaweedfs/seaweedfs-csi-driver",
+    "seaweedfs/seaweedfs-operator",
+    "sergelogvinov/karpenter-provider-proxmox",
+    "sergelogvinov/proxmox-cloud-controller-manager",
     "sigstore/fulcio",
     "suzuki-shunsuke/ghalint",
     "suzuki-shunsuke/ghtkn",

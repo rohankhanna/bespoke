@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 957,
-    "concepts": 537,
-    "observations": 540,
-    "repos": 78,
-    "terms": 534
+    "components": 931,
+    "concepts": 523,
+    "observations": 526,
+    "repos": 80,
+    "terms": 519
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
@@ -29,7 +29,6 @@
     "camenduru/stable-diffusion-webui-colab",
     "caolan/async",
     "chalk/chalk",
-    "chatchat-space/Langchain-Chatchat",
     "ChatGPTNextWeb/NextChat",
     "CISOfy/lynis",
     "cleanlab/cleanlab",
@@ -48,17 +47,19 @@
     "goldfire/howler.js",
     "hiroi-sora/Umi-OCR",
     "horovod/horovod",
+    "i3/i3",
     "IdreesInc/Monocraft",
     "inversify/InversifyJS",
     "JaidedAI/EasyOCR",
-    "jaredpalmer/formik",
     "jsvine/pdfplumber",
+    "jtoy/awesome-tensorflow",
     "karpathy/llm-council",
     "karpathy/nanoGPT",
     "lc044/wechatmsg",
     "Lightricks/LTX-Video",
     "linsa-io/linsa",
     "lllyasviel/Fooocus",
+    "MatsuriDayo/NekoBoxForAndroid",
     "microsoft/unilm",
     "MoonshotAI/Kimi-K2",
     "muesli/duf",
@@ -90,6 +91,7 @@
     "winstonjs/winston",
     "XAMPPRocky/tokei",
     "yoheinakajima/babyagi",
-    "ziglang/zig"
+    "ziglang/zig",
+    "zsh-users/zsh-syntax-highlighting"
   ]
 }

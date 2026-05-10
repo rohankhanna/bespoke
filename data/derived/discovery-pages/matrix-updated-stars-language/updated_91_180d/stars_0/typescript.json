@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 123,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 5,
-    "terms": 14
+    "components": 97,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 4,
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "danielrosehill/Github-Gist-MCP-Minimal",
     "flageval-baai/LRM-Eval",
-    "forcedotcom/change-case-management",
     "lishid/cm-language",
     "stainless-api/tsc-multi"
   ]

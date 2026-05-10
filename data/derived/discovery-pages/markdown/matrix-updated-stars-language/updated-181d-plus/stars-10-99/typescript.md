@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 175
+- repos: 176
 - terms: 506
-- components: 3874
+- components: 3890
 - concepts: 495
 - observations: 496
 
@@ -152,6 +152,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [qwertyforce/ambience](https://github.com/qwertyforce/ambience) | 37 | 2023-07-05T19:08:28Z | TypeScript | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [teletrace/opentelemetry-demo](https://github.com/teletrace/opentelemetry-demo) | 12 | 2023-06-05T10:33:59Z | TypeScript | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [filipesilva/obsidian-babashka](https://github.com/filipesilva/obsidian-babashka) | 56 | 2023-06-01T16:52:25Z | TypeScript | Unknown | 0 | 9 | 0 | 0 |
+| [jeroen-meijer/pubspec-assist](https://github.com/jeroen-meijer/pubspec-assist) | 55 | 2023-05-29T14:00:22Z | TypeScript | Unknown | 0 | 16 | 0 | 0 |
 | [nuxt-contrib/devalue](https://github.com/nuxt-contrib/devalue) | 96 | 2023-05-02T20:03:58Z | TypeScript | Infrastructure/tooling | 0 | 14 | 0 | 0 |
 | [chenghonour/formulago-ui](https://github.com/chenghonour/formulago-ui) | 10 | 2023-04-30T07:58:12Z | TypeScript | Infrastructure/tooling | 0 | 110 | 0 | 0 |
 | [MMesch/labextension_tutorial](https://github.com/MMesch/labextension_tutorial) | 38 | 2023-04-25T07:55:57Z | TypeScript | Unknown | 5 | 0 | 5 | 5 |
@@ -256,6 +257,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Cryptonomic/Tezori](https://github.com/Cryptonomic/Tezori) | 56 | 2022-10-07T20:10:18Z | TypeScript | Infrastructure/tooling | 8 | 32 | 8 | 8 |
 | [bmatcuk/stylelint-lsp](https://github.com/bmatcuk/stylelint-lsp) | 55 | 2024-12-14T01:32:51Z | TypeScript | Infrastructure/tooling | 1 | 28 | 1 | 1 |
 | [hughfenghen/bloom-shadow](https://github.com/hughfenghen/bloom-shadow) | 55 | 2024-01-07T12:16:05Z | TypeScript | Web app | 4 | 25 | 4 | 4 |
+| [jeroen-meijer/pubspec-assist](https://github.com/jeroen-meijer/pubspec-assist) | 55 | 2023-05-29T14:00:22Z | TypeScript | Unknown | 0 | 16 | 0 | 0 |
 | [josdejong/immutable-json-patch](https://github.com/josdejong/immutable-json-patch) | 54 | 2025-07-31T15:28:23Z | TypeScript | Infrastructure/tooling | 5 | 19 | 6 | 6 |
 | [parlez-vous/server](https://github.com/parlez-vous/server) | 54 | 2023-01-09T23:36:33Z | TypeScript | Infrastructure/tooling | 0 | 44 | 0 | 0 |
 | [axeldelafosse/storybook-rnw-monorepo](https://github.com/axeldelafosse/storybook-rnw-monorepo) | 52 | 2021-11-26T17:07:19Z | TypeScript | Web app | 8 | 1 | 8 | 8 |

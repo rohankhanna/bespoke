@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 1,
-    "terms": 19
+    "components": 4,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 2,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
-    "CISOfy/lynis"
+    "CISOfy/lynis",
+    "zsh-users/zsh-syntax-highlighting"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1124,
-    "concepts": 163,
-    "observations": 165,
-    "repos": 16,
-    "terms": 162
+    "components": 977,
+    "concepts": 148,
+    "observations": 149,
+    "repos": 14,
+    "terms": 148
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,21 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
-    "BabylonJS/Babylon.js",
     "danny-avila/LibreChat",
-    "DefinitelyTyped/DefinitelyTyped",
-    "element-plus/element-plus",
-    "faker-js/faker",
+    "googleapis/google-api-nodejs-client",
+    "HumanSignal/label-studio",
+    "langchain-ai/langchainjs",
     "maplibre/maplibre-gl-js",
     "mobxjs/mobx",
     "nrwl/nx",
     "puppeteer/puppeteer",
     "react-hook-form/react-hook-form",
     "realworld-apps/realworld",
-    "reduxjs/redux-devtools",
-    "remotion-dev/remotion",
+    "unocss/unocss",
+    "vercel-labs/skills",
     "vitejs/vite",
-    "vuejs/core",
-    "vuejs/vitepress"
+    "vuejs/core"
   ]
 }

@@ -1,44 +1,26 @@
 {
   "counts": {
-    "components": 367,
-    "concepts": 185,
-    "observations": 185,
-    "repos": 27,
-    "terms": 185
+    "components": 131,
+    "concepts": 55,
+    "observations": 55,
+    "repos": 9,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
-    "a2aproject/a2a-js",
     "AI-Hypercomputer/maxdiffusion",
-    "aws-cloudformation/cfn-lint-visual-studio-code",
-    "bazel-contrib/rules_kotlin",
-    "cloudfoundry/credhub",
     "confluentinc/librdkafka",
-    "eclipse-wildwebdeveloper/wildwebdeveloper",
-    "elixir-protobuf/protobuf",
     "EmmyLuaLs/emmylua-analyzer-rust",
-    "flagos-ai/FlagCX",
     "fluent-vue/fluent-vue",
-    "gbionics/adam",
-    "gbionics/jaxsim",
-    "GDevelopApp/GDevelop-extensions",
-    "google-deepmind/reverb",
-    "googlefonts/roboto-3-classic",
     "jupyter/nbclassic",
     "karafka/rdkafka-ruby",
     "ldproxy/ldproxy",
-    "mightyiam/eslint-config-love",
-    "pyrtlsdr/pyrtlsdr",
-    "scverse/rapids-singlecell",
     "servo/stylo",
-    "spring-projects/spring-tools",
-    "stx-labs/stacks.js",
-    "unplugin/unplugin-imagemin",
-    "WICG/attribution-reporting-api"
+    "unplugin/unplugin-imagemin"
   ]
 }

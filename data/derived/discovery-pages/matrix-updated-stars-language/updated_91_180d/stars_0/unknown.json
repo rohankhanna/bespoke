@@ -3,7 +3,7 @@
     "components": 32,
     "concepts": 28,
     "observations": 28,
-    "repos": 25,
+    "repos": 26,
     "terms": 28
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "asm89/prettytable-rs",
     "danielrosehill/A-Better-Jobs-Platform-Notes",
@@ -20,6 +20,7 @@
     "danielrosehill/AI-Sysadmin",
     "danielrosehill/ai-tools-plugin",
     "danielrosehill/Back-Up-Your-SaaS",
+    "danielrosehill/Claude-Interview-062325",
     "danielrosehill/Claude-Rescue",
     "danielrosehill/Data-Projects-Index",
     "danielrosehill/git-github-plugin",

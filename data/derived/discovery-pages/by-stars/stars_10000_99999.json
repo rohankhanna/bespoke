@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 32828,
-    "concepts": 14906,
-    "observations": 14961,
-    "repos": 1681,
-    "terms": 14868
+    "components": 32837,
+    "concepts": 14916,
+    "observations": 14971,
+    "repos": 1683,
+    "terms": 14881
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "0xJacky/nginx-ui",
@@ -216,6 +216,7 @@
     "bitwarden/server",
     "bkaradzic/bgfx",
     "black-forest-labs/flux",
+    "blender/blender",
     "BlinkDL/RWKV-LM",
     "Blinue/Magpie",
     "blitz-js/blitz",
@@ -719,6 +720,7 @@
     "highlightjs/highlight.js",
     "hiroi-sora/Umi-OCR",
     "hiyouga/LlamaFactory",
+    "HKUDS/CLI-Anything",
     "HKUDS/LightRAG",
     "HKUDS/RAG-Anything",
     "home-assistant/core",

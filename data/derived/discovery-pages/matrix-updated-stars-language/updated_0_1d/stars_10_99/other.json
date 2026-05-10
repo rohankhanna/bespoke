@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 46,
-    "concepts": 54,
-    "observations": 54,
-    "repos": 8,
-    "terms": 54
+    "components": 26,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 3,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
-    "Cle2ment/CherryStudio_themes",
-    "dwyl/mvp",
-    "jelly-beam/rebar3_ex_doc",
     "karafka/example-apps",
-    "ocaml-tracing/ocaml-opentelemetry",
-    "ocaml-tracing/ocaml-trace",
-    "pivotal/credhub-release"
+    "tinted-theming/tinted-xresources"
   ]
 }

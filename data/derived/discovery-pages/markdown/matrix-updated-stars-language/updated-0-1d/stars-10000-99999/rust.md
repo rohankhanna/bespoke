@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · Rust
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 21
-- components: 37
-- concepts: 21
-- observations: 21
+- repos: 1
+- terms: 10
+- components: 13
+- concepts: 10
+- observations: 10
 
 ## Static behavior
 
@@ -26,12 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16382 | 2026-05-09T01:17:03Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
-| [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | 35949 | 2026-05-08T20:52:35Z | Rust | Infrastructure/tooling | 11 | 24 | 11 | 11 |
+| [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16384 | 2026-05-10T01:22:42Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | 35949 | 2026-05-08T20:52:35Z | Rust | Infrastructure/tooling | 11 | 24 | 11 | 11 |
-| [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16382 | 2026-05-09T01:17:03Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
+| [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16384 | 2026-05-10T01:22:42Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |

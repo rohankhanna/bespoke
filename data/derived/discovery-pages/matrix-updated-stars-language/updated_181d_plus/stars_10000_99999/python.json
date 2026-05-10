@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 243,
-    "concepts": 511,
-    "observations": 511,
-    "repos": 94,
-    "terms": 506
+    "components": 255,
+    "concepts": 533,
+    "observations": 533,
+    "repos": 95,
+    "terms": 528
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "adobe-fonts/source-han-sans",
     "ageitgey/face_recognition",
@@ -24,6 +24,7 @@
     "aristocratos/bpytop",
     "black-forest-labs/flux",
     "borisdayma/dalle-mini",
+    "chatchat-space/Langchain-Chatchat",
     "chenfei-wu/TaskMatrix",
     "coqui-ai/TTS",
     "cumulo-autumn/StreamDiffusion",

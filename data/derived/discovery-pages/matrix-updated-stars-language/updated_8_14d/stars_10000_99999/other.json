@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 802,
-    "concepts": 611,
-    "observations": 612,
-    "repos": 59,
-    "terms": 605
+    "components": 893,
+    "concepts": 674,
+    "observations": 675,
+    "repos": 66,
+    "terms": 668
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
+    "2dust/v2rayNG",
     "actions/runner-images",
+    "adityatelange/hugo-PaperMod",
     "alpinejs/alpine",
     "apache/apisix",
-    "ardalis/CleanArchitecture",
     "autowarefoundation/autoware",
     "aws/amazon-sagemaker-examples",
     "BasedHardware/omi",
@@ -25,15 +26,18 @@
     "bitnami/charts",
     "bitwarden/server",
     "Blinue/Magpie",
+    "cefsharp/CefSharp",
     "coil-kt/coil",
     "coollabsio/coolify",
     "crystal-lang/crystal",
+    "Devolutions/UniGetUI",
     "doomemacs/doomemacs",
-    "drduh/YubiKey-Guide",
+    "exelban/stats",
     "getgrav/grav",
     "getlantern/lantern",
     "github-linguist/linguist",
     "golang-standards/project-layout",
+    "google/material-design-lite",
     "gradle/gradle",
     "hadolint/hadolint",
     "Heapy/awesome-kotlin",
@@ -69,8 +73,11 @@
     "square/okhttp",
     "square/retrofit",
     "swagger-api/swagger-codegen",
+    "swiftlang/swift-evolution",
+    "swiftlang/swift-package-manager",
     "syl20bnr/spacemacs",
     "symfony/symfony",
+    "tiann/KernelSU",
     "vim-airline/vim-airline",
     "xmake-io/xmake"
   ]

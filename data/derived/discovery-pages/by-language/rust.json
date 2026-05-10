@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11434,
-    "concepts": 7790,
-    "observations": 7850,
-    "repos": 1706,
-    "terms": 7791
+    "components": 11438,
+    "concepts": 7792,
+    "observations": 7853,
+    "repos": 1707,
+    "terms": 7794
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "01mf02/jaq",
@@ -42,6 +42,7 @@
     "AccessKit/accesskit",
     "AccessKit/accesskit-c",
     "acheronfail/repgrep",
+    "AchetaGames/Epic-Asset-Manager",
     "actix/actix",
     "actix/actix-net",
     "actix/actix-web",

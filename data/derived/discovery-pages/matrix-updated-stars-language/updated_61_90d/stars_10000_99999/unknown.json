@@ -3,7 +3,7 @@
     "components": 4,
     "concepts": 12,
     "observations": 12,
-    "repos": 3,
+    "repos": 2,
     "terms": 12
   },
   "facet_version": 1,
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
-    "jtoy/awesome-tensorflow",
     "rubocop/ruby-style-guide"
   ]
 }

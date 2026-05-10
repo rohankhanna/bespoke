@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1726,
-    "concepts": 264,
-    "observations": 264,
-    "repos": 31,
-    "terms": 263
+    "components": 1798,
+    "concepts": 283,
+    "observations": 283,
+    "repos": 33,
+    "terms": 280
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "acornjs/acorn",
     "addyosmani/critical",
     "ampproject/amphtml",
     "Automattic/mongoose",
+    "CesiumGS/cesium",
     "easydiffusion/easydiffusion",
     "facebook/hermes",
     "faisalman/ua-parser-js",
@@ -41,6 +42,7 @@
     "plotly/plotly.js",
     "SillyTavern/SillyTavern",
     "stylelint/stylelint",
+    "sveltejs/kit",
     "sveltejs/svelte",
     "swagger-api/swagger-ui",
     "Unitech/pm2",

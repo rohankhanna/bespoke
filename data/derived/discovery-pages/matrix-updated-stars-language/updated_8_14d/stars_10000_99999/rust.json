@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 527,
-    "concepts": 417,
-    "observations": 417,
-    "repos": 34,
-    "terms": 412
+    "components": 542,
+    "concepts": 442,
+    "observations": 442,
+    "repos": 35,
+    "terms": 437
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "alacritty/alacritty",
     "Automattic/harper",
@@ -35,6 +35,7 @@
     "oxc-project/oxc",
     "pola-rs/polars",
     "PyO3/pyo3",
+    "qdrant/qdrant",
     "quickwit-oss/quickwit",
     "ratatui/ratatui",
     "rolldown/rolldown",

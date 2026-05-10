@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 155,
-    "concepts": 132,
-    "observations": 133,
-    "repos": 32,
-    "terms": 135
+    "components": 183,
+    "concepts": 144,
+    "observations": 145,
+    "repos": 36,
+    "terms": 147
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
+    "Asterisk4Magisk/XrayHelper",
     "astro-han/diffpane",
     "aws/amazon-network-policy-controller-k8s",
     "aws/amazon-vpc-cni-plugins",
@@ -25,11 +26,13 @@
     "cjkreklow/t38c",
     "cloudwego/kitex-benchmark",
     "containerd/release-tool",
+    "cosmos/cosmos-db",
     "ctoth/claudio",
     "cyberark/conjur-api-go",
     "darkweak/storages",
     "datachainlab/ethereum-ibc-relay-chain",
     "depado/bfchroma",
+    "ethpandaops/xatu",
     "featherbread/hypcast",
     "getlantern/.github",
     "GFW-knocker/AndroidLibXrayLite",
@@ -45,6 +48,7 @@
     "opea-project/GenAIInfra",
     "OpenCIDN/ocimirror",
     "scaleway/serverless-examples",
+    "tilt-dev/tilt-apiserver",
     "usbarmory/tamago-go"
   ]
 }

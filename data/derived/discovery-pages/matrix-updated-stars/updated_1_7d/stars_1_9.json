@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 262,
-    "concepts": 184,
-    "observations": 184,
-    "repos": 33,
-    "terms": 183
+    "components": 185,
+    "concepts": 137,
+    "observations": 137,
+    "repos": 28,
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "ADNTIO/crispy-bootloader-rp2040-rs",
     "alphagov/stylelint-config-gds",
@@ -19,32 +19,27 @@
     "clearml/dropbear",
     "cloudfoundry/credhub-acceptance-tests",
     "cosmos/rosetta",
+    "danielrosehill/Claude-Image-Production-Plugin",
     "danielrosehill/Claude-Rudder",
     "edward3h/docker-bds-integration-test",
     "emacs-straight/emacsmirror-mirror",
+    "energye/designer",
     "energye/examples",
     "Evilpasture/Culverin",
-    "fluent-vue/examples",
-    "fluent-vue/unplugin-fluent-vue",
-    "fluxcd/flux-schema",
     "gookit/cliui",
-    "haskell/ghcup-www",
     "influxdata/arrow-datafusion",
     "JeremyAnsel/SharpAssimp",
     "kurrent-io/KurrentDB-Bridge-Client",
     "lxgw/B5XiZhi",
-    "oclif/plugin-version",
+    "mozilla-ai/otari",
     "open-telemetry/opentelemetry-weaver-examples",
+    "oscard0m/ts-transformer-remove-named-export",
     "pacstall/pacup",
-    "pixel-font-studio/fusion-bold-pixel-font",
     "pot-app/.github",
     "PrimeIntellect-ai/renderers",
     "skeeto/aas-sign",
     "stdlib-js/complex-reviver",
     "stdlib-js/ndarray-fancy",
-    "suzuki-shunsuke/release-js-action",
-    "szksh-lab/.github",
-    "triton-inference-server/TensorRT-LLM",
-    "vincentlaucsb/classify_scalar"
+    "triton-inference-server/TensorRT-LLM"
   ]
 }

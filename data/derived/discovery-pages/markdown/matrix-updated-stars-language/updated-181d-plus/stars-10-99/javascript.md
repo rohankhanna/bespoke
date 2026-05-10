@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 264
+- repos: 263
 - terms: 627
-- components: 2859
+- components: 2857
 - concepts: 635
 - observations: 635
 
@@ -289,7 +289,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fengari-lua/fengari-node-cli](https://github.com/fengari-lua/fengari-node-cli) | 35 | 2021-06-23T16:11:09Z | JavaScript | CLI | 2 | 5 | 2 | 2 |
 | [ambit-tsai/echarts-for-vue](https://github.com/ambit-tsai/echarts-for-vue) | 83 | 2021-06-08T13:00:53Z | JavaScript | Unknown | 3 | 8 | 3 | 3 |
 | [violentmonkey/violentmonkey-mx](https://github.com/violentmonkey/violentmonkey-mx) | 59 | 2021-05-21T01:37:04Z | JavaScript | Unknown | 0 | 45 | 0 | 0 |
-| [broccolijs/node-symlink-or-copy](https://github.com/broccolijs/node-symlink-or-copy) | 12 | 2021-05-10T20:53:12Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -541,7 +540,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [breejs/ts-worker](https://github.com/breejs/ts-worker) | 12 | 2022-06-13T20:11:17Z | JavaScript | Infrastructure/tooling | 0 | 23 | 0 | 0 |
 | [multiformats/js-multihashing](https://github.com/multiformats/js-multihashing) | 12 | 2021-08-11T16:45:40Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
 | [mikolalysenko/robust-in-sphere](https://github.com/mikolalysenko/robust-in-sphere) | 12 | 2021-08-04T23:24:56Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
-| [broccolijs/node-symlink-or-copy](https://github.com/broccolijs/node-symlink-or-copy) | 12 | 2021-05-10T20:53:12Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
 | [ideditor/nsi-collector](https://github.com/ideditor/nsi-collector) | 11 | 2025-11-04T21:00:07Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [bebraw/libumd](https://github.com/bebraw/libumd) | 11 | 2025-08-07T06:05:13Z | JavaScript | Unknown | 0 | 8 | 0 | 0 |
 | [jonclayden/R-Nova](https://github.com/jonclayden/R-Nova) | 11 | 2024-12-02T21:14:06Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |

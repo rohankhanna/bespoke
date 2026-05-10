@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 60711,
-    "concepts": 10405,
-    "observations": 10440,
-    "repos": 1847,
-    "terms": 10706
+    "components": 60746,
+    "concepts": 10425,
+    "observations": 10460,
+    "repos": 1850,
+    "terms": 10730
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "0h7z/vscode-julia-format",
@@ -636,6 +636,7 @@
     "fi3ework/vite-plugin-checker",
     "filecoin-project/github-mgmt",
     "filipesilva/obsidian-babashka",
+    "filllabs/dependi",
     "finehow/bingsearch-plugin",
     "fingerprintjs/fingerprintjs",
     "firebase/firebase-admin-node",
@@ -909,6 +910,7 @@
     "jbaubree/sitemap-ts",
     "jbaubree/vite-plugin-pages-sitemap",
     "jbaubree/vite-plugin-sitemap",
+    "jeroen-meijer/pubspec-assist",
     "jerseycheese/narraitor",
     "jest-community/eslint-plugin-jest",
     "jest-community/eslint-plugin-jest-extended",
@@ -1527,6 +1529,7 @@
     "SemiAnalysisAI/InferenceX-app",
     "semperai/amica",
     "serafimcloud/21st",
+    "serayuzgur/crates",
     "sergiodxa/react-router-i18next-example",
     "sergiodxa/remix-i18next",
     "serversideup/webext-bridge",

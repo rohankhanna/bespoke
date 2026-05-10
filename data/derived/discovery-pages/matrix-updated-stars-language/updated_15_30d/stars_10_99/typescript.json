@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1947,
-    "concepts": 299,
-    "observations": 302,
-    "repos": 70,
-    "terms": 331
+    "components": 1960,
+    "concepts": 285,
+    "observations": 288,
+    "repos": 68,
+    "terms": 317
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "52-entertainment/vite-plugin-oxlint",
     "adyscorpius/logseq-jira",
@@ -29,7 +29,6 @@
     "buddingnewinsights/proxypal",
     "bufbuild/protovalidate-es",
     "buttondown/cli",
-    "cahamilton/stylelint-config-property-sort-order-smacss",
     "cargo-bins/release-pr",
     "celo-org/developer-tooling",
     "celo-org/social-connect",
@@ -51,7 +50,6 @@
     "hashintel/labs",
     "haskell-actions/setup",
     "huangguang1999/ccstatusline-zh",
-    "hyparam/demos",
     "ipfs/ipld-explorer-components",
     "ipikuka/rehype-highlight-code-lines",
     "ipikuka/remark-flexible-containers",
@@ -68,6 +66,7 @@
     "mdjastrzebski/test-renderer",
     "newrelic/opentelemetry-demo",
     "ngyewch/smile-js",
+    "oclif/plugin-help",
     "oclif/plugin-plugins",
     "octokit/webhooks-methods.js",
     "ogx-ai/llama-stack-client-typescript",
@@ -76,7 +75,6 @@
     "pinecone-io/pinecone-mcp",
     "Sec-ant/prettier-plugin-embed",
     "sgcarstrends/sgcarstrends",
-    "Shougo/ddu-ui-ff",
     "Shougo/dpp-ext-installer",
     "slopus/slopus.github.io",
     "vaultwarden/vw_web_builds",

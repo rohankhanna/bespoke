@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Java
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 40
-- terms: 300
-- components: 279
-- concepts: 302
-- observations: 302
+- repos: 41
+- terms: 302
+- components: 287
+- concepts: 304
+- observations: 304
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [MarcusWolschon/osmeditor4android](https://github.com/MarcusWolschon/osmeditor4android) | 455 | 2026-05-02T14:48:44Z | Java | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [samtools/htsjdk](https://github.com/samtools/htsjdk) | 298 | 2026-05-01T22:09:28Z | Java | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [ihmcrobotics/ihmc-open-robotics-software](https://github.com/ihmcrobotics/ihmc-open-robotics-software) | 313 | 2026-05-01T15:15:52Z | Java | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 | [microsoft/LangChain4j-for-Beginners](https://github.com/microsoft/LangChain4j-for-Beginners) | 318 | 2026-05-01T07:41:42Z | Java | Unknown | 0 | 0 | 0 | 0 |
@@ -85,6 +86,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bndtools/bnd](https://github.com/bndtools/bnd) | 556 | 2026-04-28T06:11:45Z | Java | CLI | 21 | 15 | 21 | 21 |
 | [jpmml/jpmml-sklearn](https://github.com/jpmml/jpmml-sklearn) | 540 | 2026-04-28T17:23:57Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [apache/rocketmq-clients](https://github.com/apache/rocketmq-clients) | 484 | 2026-04-29T05:50:32Z | Java | CLI | 14 | 8 | 14 | 14 |
+| [MarcusWolschon/osmeditor4android](https://github.com/MarcusWolschon/osmeditor4android) | 455 | 2026-05-02T14:48:44Z | Java | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [FasterXML/jackson-dataformats-text](https://github.com/FasterXML/jackson-dataformats-text) | 451 | 2026-04-28T20:26:24Z | Java | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [bazel-contrib/rules_jvm_external](https://github.com/bazel-contrib/rules_jvm_external) | 372 | 2026-04-30T16:51:31Z | Java | Unknown | 2 | 0 | 2 | 2 |
 | [Xilinx/RapidWright](https://github.com/Xilinx/RapidWright) | 370 | 2026-04-29T22:42:44Z | Java | Infrastructure/tooling | 10 | 7 | 10 | 10 |

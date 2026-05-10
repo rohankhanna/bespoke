@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 1090,
+    "components": 1165,
     "concepts": 251,
     "observations": 253,
     "repos": 48,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "AdguardTeam/Scriptlets",
     "all-contributors/app",
@@ -29,9 +29,9 @@
     "ember-cli/ember-cli-update",
     "emberjs/ember-test-helpers",
     "facebook/Rapid",
+    "firebase/snippets-web",
     "fontello/svg2ttf",
     "GDevelopApp/GDevelop-examples",
-    "GordonChen19/Prompt-Relay",
     "hudochenkov/postcss-sorting",
     "hyparam/icebird",
     "j9t/html-minifier-next",
@@ -46,10 +46,10 @@
     "mozilla/addons-linter",
     "octokit/graphql-schema",
     "openfl/lime",
+    "oss-serverless/serverless",
     "postcss/postcss-cli",
     "prisma/ecosystem-tests",
     "reviewdog/action-eslint",
-    "rooklift/ogatak",
     "ruby/setup-ruby",
     "rubyjs/mini_racer",
     "rvagg/github-webhook",

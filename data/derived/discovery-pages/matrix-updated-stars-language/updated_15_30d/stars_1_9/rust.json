@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 103,
-    "concepts": 56,
-    "observations": 56,
-    "repos": 16,
-    "terms": 58
+    "components": 116,
+    "concepts": 60,
+    "observations": 61,
+    "repos": 18,
+    "terms": 62
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,17 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "agent-sh/agent-analyzer",
     "curiousdannii/remglk-rs",
     "eikarna/hermes-rs",
     "EspressoSystems/espresso-example-l2",
+    "EspressoSystems/tide-disco",
     "eth-act/ere-guests",
     "facebookexperimental/cxx",
     "foundry-rs/foundry-core",
+    "huggingface/fuser",
     "juharris/optify",
     "kensave/agent-memory-rs",
     "kmjjjj/polymarket-arbitrage-bot-btc-sol-15m",

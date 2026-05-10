@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 349,
-    "concepts": 108,
-    "observations": 108,
-    "repos": 19,
-    "terms": 107
+    "components": 382,
+    "concepts": 110,
+    "observations": 110,
+    "repos": 20,
+    "terms": 109
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "Adobe-CEP/CEP-Resources",
+    "anandthakker/doiuse",
     "apostrophecms/sanitize-html",
     "appbaseio/dejavu",
     "breejs/bree",

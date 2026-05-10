@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · Rust
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 50
+- repos: 51
 - terms: 70
 - components: 188
 - concepts: 70
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [faradayio/compose_yml](https://github.com/faradayio/compose_yml) | 0 | 2025-11-11T00:03:44Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [imandra-ai/tldrs](https://github.com/imandra-ai/tldrs) | 0 | 2025-10-27T18:50:16Z | Rust | Infrastructure/tooling | 4 | 1 | 4 | 5 |
 | [eigenwallet/dfx-swiss-rs](https://github.com/eigenwallet/dfx-swiss-rs) | 0 | 2025-10-25T14:04:15Z | Rust | Library | 0 | 0 | 0 | 0 |
 | [iambriccardo/rust-postgres](https://github.com/iambriccardo/rust-postgres) | 0 | 2025-10-07T23:42:55Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
@@ -81,6 +82,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [faradayio/compose_yml](https://github.com/faradayio/compose_yml) | 0 | 2025-11-11T00:03:44Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [imandra-ai/tldrs](https://github.com/imandra-ai/tldrs) | 0 | 2025-10-27T18:50:16Z | Rust | Infrastructure/tooling | 4 | 1 | 4 | 5 |
 | [eigenwallet/dfx-swiss-rs](https://github.com/eigenwallet/dfx-swiss-rs) | 0 | 2025-10-25T14:04:15Z | Rust | Library | 0 | 0 | 0 | 0 |
 | [iambriccardo/rust-postgres](https://github.com/iambriccardo/rust-postgres) | 0 | 2025-10-07T23:42:55Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |

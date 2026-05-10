@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Unknown
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 274
+- repos: 275
 - terms: 315
 - components: 197
 - concepts: 315
@@ -55,6 +55,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [keeeeenw/MicroLlava](https://github.com/keeeeenw/MicroLlava) | 17 | 2025-08-24T02:06:41Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [open-gitops/.github](https://github.com/open-gitops/.github) | 13 | 2025-08-20T19:39:44Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [BingguangHao/RLFC](https://github.com/BingguangHao/RLFC) | 34 | 2025-08-11T02:32:50Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [mightymo77/MightyMos-Cheat-Code-Pack](https://github.com/mightymo77/MightyMos-Cheat-Code-Pack) | 11 | 2025-08-08T17:48:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [tott/laravel-tall-claude-ai-configs](https://github.com/tott/laravel-tall-claude-ai-configs) | 40 | 2025-08-08T14:35:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [auth0/open-source-template](https://github.com/auth0/open-source-template) | 91 | 2025-08-06T14:48:38Z | Unknown | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [heliconialabs/steampunkification](https://github.com/heliconialabs/steampunkification) | 40 | 2025-07-24T13:23:16Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -558,6 +559,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ajjimeno/icdar-task-b](https://github.com/ajjimeno/icdar-task-b) | 12 | 2022-03-07T04:10:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [qri-io/rfcs](https://github.com/qri-io/rfcs) | 12 | 2021-11-23T21:41:49Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [VectorSpaceLab/Vis-IR](https://github.com/VectorSpaceLab/Vis-IR) | 11 | 2025-11-10T07:30:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [mightymo77/MightyMos-Cheat-Code-Pack](https://github.com/mightymo77/MightyMos-Cheat-Code-Pack) | 11 | 2025-08-08T17:48:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [xuankuzcr/FAST-Calib](https://github.com/xuankuzcr/FAST-Calib) | 11 | 2025-04-20T10:56:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [mozilla-services/shavar-list-creation-config](https://github.com/mozilla-services/shavar-list-creation-config) | 11 | 2025-03-05T22:09:01Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [masakhane-io/africomet](https://github.com/masakhane-io/africomet) | 11 | 2025-01-24T19:52:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

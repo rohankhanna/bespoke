@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 306,
-    "concepts": 212,
-    "observations": 212,
-    "repos": 38,
-    "terms": 211
+    "components": 285,
+    "concepts": 199,
+    "observations": 199,
+    "repos": 36,
+    "terms": 198
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "AccessKit/accesskit-c",
     "apollographql/federation-rs",
@@ -25,7 +25,6 @@
     "bourumir-wyngs/serde-yaml-bw",
     "datafusion-contrib/orc-rust",
     "davidhozic/mujoco-rs",
-    "eopb/cargo-override",
     "filecoin-project/builtin-actors",
     "fonttools/fontspector",
     "heroku/buildpacks-dotnet",
@@ -39,8 +38,6 @@
     "ldclabs/anda-hippocampus",
     "matter-labs/zksync-crypto",
     "mdn/rari",
-    "mrcjkb/vimcats",
-    "napi-rs/mimalloc-safe",
     "near/cargo-near-new-project-template",
     "openvm-org/stark-backend",
     "oxc-project/oxc-sourcemap",
@@ -49,6 +46,7 @@
     "rust-osdev/ovmf-prebuilt",
     "succinctlabs/sp1-cluster",
     "Systemcluster/kitoken",
+    "tofay/rustls-openssl",
     "typst/typst-assets",
     "unrs/unrs-resolver",
     "urschrei/rdp"

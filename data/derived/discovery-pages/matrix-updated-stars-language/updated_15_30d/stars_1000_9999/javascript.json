@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2526,
-    "concepts": 555,
-    "observations": 555,
-    "repos": 81,
-    "terms": 551
+    "components": 2456,
+    "concepts": 532,
+    "observations": 532,
+    "repos": 76,
+    "terms": 528
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
+    "aandrew-me/ytDownloader",
     "actions/javascript-action",
     "ai/size-limit",
     "americanexpress/jest-image-snapshot",
@@ -40,23 +41,19 @@
     "fullstorydev/grpcui",
     "gatsbyjs/gatsby-starter-blog",
     "gautamkrishnar/blog-post-workflow",
-    "gautamkrishnar/motrix-webextension",
     "google/closure-compiler",
     "GoogleChrome/web-vitals",
     "GoogleChromeLabs/browser-fs-access",
     "GoogleChromeLabs/ProjectVisBug",
     "grommet/grommet",
-    "hotoo/pinyin",
     "i18next/i18next",
     "igorshubovych/markdownlint-cli",
     "ipfs/ipfs-desktop",
-    "istanbuljs/istanbuljs",
     "jprichardson/node-fs-extra",
     "js-joda/js-joda",
     "json-schema-org/json-schema-spec",
     "jspreadsheet/ce",
     "kpdecker/jsdiff",
-    "mantoni/eslint_d.js",
     "mapbox/maki",
     "mapbox/node-pre-gyp",
     "micromatch/picomatch",
@@ -67,14 +64,12 @@
     "nodejs/undici",
     "npm/cli",
     "npm/node-semver",
-    "patorjk/figlet.js",
     "piebald-ai/claude-code-system-prompts",
     "pmmmwh/react-refresh-webpack-plugin",
     "postcss/postcss-nested",
     "proj4js/proj4js",
     "release-it/release-it",
     "reZach/secure-electron-template",
-    "RichardLitt/standard-readme",
     "rullerzhou-afk/clawd-on-desk",
     "SabakiHQ/Sabaki",
     "serverless-operations/serverless-step-functions",
@@ -83,6 +78,7 @@
     "tc39/agendas",
     "tc39/test262",
     "tchx84/Flatseal",
+    "testem/testem",
     "thlorenz/doctoc",
     "tomas/needle",
     "tw-in-js/twind",
@@ -93,7 +89,6 @@
     "webpack/sass-loader",
     "webtorrent/bittorrent-dht",
     "webtorrent/webtorrent-cli",
-    "yahoo/serialize-javascript",
-    "yeoman/yo"
+    "yahoo/serialize-javascript"
   ]
 }

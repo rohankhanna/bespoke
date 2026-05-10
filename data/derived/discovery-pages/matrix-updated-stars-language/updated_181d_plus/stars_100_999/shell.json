@@ -3,7 +3,7 @@
     "components": 67,
     "concepts": 205,
     "observations": 207,
-    "repos": 89,
+    "repos": 90,
     "terms": 198
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "10up/actions-wordpress",
     "27medkamal/tmux-session-wizard",
@@ -35,6 +35,7 @@
     "chrismytton/shoreman",
     "coin-or/COIN-OR-OptimizationSuite",
     "cokebar/gfwlist2dnsmasq",
+    "coredns/deployment",
     "CrossC2/CrossC2Kit",
     "cvdfoundation/kinetics-dataset",
     "danhper/fundle",

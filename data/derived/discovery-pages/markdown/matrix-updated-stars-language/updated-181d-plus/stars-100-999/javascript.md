@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 365
-- terms: 1039
-- components: 4629
-- concepts: 1052
-- observations: 1052
+- repos: 368
+- terms: 1047
+- components: 4663
+- concepts: 1058
+- observations: 1058
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ayoubben18/ab-method](https://github.com/ayoubben18/ab-method) | 160 | 2025-11-10T21:57:17Z | JavaScript | Infrastructure/tooling | 1 | 7 | 0 | 0 |
+| [pmndrs/three-stdlib](https://github.com/pmndrs/three-stdlib) | 844 | 2025-11-10T21:21:23Z | JavaScript | Infrastructure/tooling | 5 | 19 | 5 | 5 |
+| [d3/d3-delaunay](https://github.com/d3/d3-delaunay) | 652 | 2025-11-10T18:00:23Z | JavaScript | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [tree-sitter/tree-sitter-julia](https://github.com/tree-sitter/tree-sitter-julia) | 124 | 2025-11-08T05:23:41Z | JavaScript | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [zalo/mujoco_wasm](https://github.com/zalo/mujoco_wasm) | 440 | 2025-11-08T02:39:51Z | JavaScript | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [ethereum/portal-network-specs](https://github.com/ethereum/portal-network-specs) | 358 | 2025-10-29T08:43:48Z | JavaScript | Infrastructure/tooling | 0 | 2 | 0 | 0 |
@@ -185,7 +188,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [postcss/gulp-postcss](https://github.com/postcss/gulp-postcss) | 764 | 2024-02-06T10:48:07Z | JavaScript | Infrastructure/tooling | 3 | 15 | 3 | 3 |
 | [d3/d3-color](https://github.com/d3/d3-color) | 428 | 2024-02-03T19:16:02Z | JavaScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [agenda/human-interval](https://github.com/agenda/human-interval) | 467 | 2024-01-24T20:01:45Z | JavaScript | Unknown | 5 | 3 | 5 | 5 |
-| [ajv-validator/ajv-i18n](https://github.com/ajv-validator/ajv-i18n) | 179 | 2024-01-19T17:37:50Z | JavaScript | Infrastructure/tooling | 5 | 16 | 6 | 6 |
+| [ajv-validator/ajv-i18n](https://github.com/ajv-validator/ajv-i18n) | 179 | 2024-01-19T17:37:50Z | JavaScript | Infrastructure/tooling | 6 | 16 | 6 | 6 |
 | [fireship-io/javascript-millionaire](https://github.com/fireship-io/javascript-millionaire) | 264 | 2024-01-17T02:17:30Z | JavaScript | CLI | 0 | 6 | 0 | 0 |
 | [d3/d3-dsv](https://github.com/d3/d3-dsv) | 445 | 2024-01-05T20:33:36Z | JavaScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [nijikokun/minami](https://github.com/nijikokun/minami) | 577 | 2024-01-05T10:03:27Z | JavaScript | Template/starter | 0 | 0 | 0 | 0 |
@@ -418,6 +421,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [open-cli-tools/chokidar-cli](https://github.com/open-cli-tools/chokidar-cli) | 873 | 2025-09-22T01:11:57Z | JavaScript | CLI | 1 | 8 | 1 | 1 |
 | [bublejs/buble](https://github.com/bublejs/buble) | 872 | 2022-12-30T19:57:47Z | JavaScript | Infrastructure/tooling | 0 | 23 | 0 | 0 |
 | [clenemt/docdash](https://github.com/clenemt/docdash) | 846 | 2024-06-13T12:19:30Z | JavaScript | Template/starter | 0 | 4 | 0 | 0 |
+| [pmndrs/three-stdlib](https://github.com/pmndrs/three-stdlib) | 844 | 2025-11-10T21:21:23Z | JavaScript | Infrastructure/tooling | 5 | 19 | 5 | 5 |
 | [GoogleCloudPlatform/nodejs-getting-started](https://github.com/GoogleCloudPlatform/nodejs-getting-started) | 823 | 2025-05-14T03:28:39Z | JavaScript | Unknown | 4 | 5 | 4 | 4 |
 | [loganfsmyth/babel-plugin-transform-decorators-legacy](https://github.com/loganfsmyth/babel-plugin-transform-decorators-legacy) | 814 | 2022-01-18T09:07:36Z | JavaScript | Unknown | 0 | 9 | 0 | 0 |
 | [developit/vhtml](https://github.com/developit/vhtml) | 813 | 2024-04-15T08:46:22Z | JavaScript | Unknown | 5 | 18 | 5 | 5 |
@@ -455,6 +459,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mapbox/carto](https://github.com/mapbox/carto) | 658 | 2023-10-25T18:54:39Z | JavaScript | Unknown | 2 | 12 | 2 | 2 |
 | [timdream/wordcloud](https://github.com/timdream/wordcloud) | 655 | 2024-09-12T00:13:53Z | JavaScript | Infrastructure/tooling | 1 | 15 | 1 | 1 |
 | [Adobe-CEP/Getting-Started-guides](https://github.com/Adobe-CEP/Getting-Started-guides) | 654 | 2025-06-18T16:00:30Z | JavaScript | Docs/knowledge | 6 | 0 | 6 | 6 |
+| [d3/d3-delaunay](https://github.com/d3/d3-delaunay) | 652 | 2025-11-10T18:00:23Z | JavaScript | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [dat-ecosystem-archive/dat-desktop](https://github.com/dat-ecosystem-archive/dat-desktop) | 649 | 2022-01-06T01:57:51Z | JavaScript | Infrastructure/tooling | 2 | 53 | 2 | 2 |
 | [tc39/proposal-operator-overloading](https://github.com/tc39/proposal-operator-overloading) | 644 | 2023-12-18T15:42:41Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [scniro/gulp-clean-css](https://github.com/scniro/gulp-clean-css) | 640 | 2024-03-26T10:26:30Z | JavaScript | Unknown | 2 | 17 | 2 | 2 |
@@ -665,7 +670,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gulpjs/glob-stream](https://github.com/gulpjs/glob-stream) | 181 | 2025-06-01T05:04:15Z | JavaScript | Infrastructure/tooling | 10 | 21 | 10 | 10 |
 | [ember-cli/ember-try](https://github.com/ember-cli/ember-try) | 180 | 2025-04-09T03:33:36Z | JavaScript | CLI | 2 | 35 | 2 | 2 |
 | [newrelic/opensource-website](https://github.com/newrelic/opensource-website) | 180 | 2024-09-11T23:39:34Z | JavaScript | Infrastructure/tooling | 4 | 60 | 4 | 4 |
-| [ajv-validator/ajv-i18n](https://github.com/ajv-validator/ajv-i18n) | 179 | 2024-01-19T17:37:50Z | JavaScript | Infrastructure/tooling | 5 | 16 | 6 | 6 |
+| [ajv-validator/ajv-i18n](https://github.com/ajv-validator/ajv-i18n) | 179 | 2024-01-19T17:37:50Z | JavaScript | Infrastructure/tooling | 6 | 16 | 6 | 6 |
 | [mzgoddard/preact-render-spy](https://github.com/mzgoddard/preact-render-spy) | 178 | 2023-01-12T09:51:40Z | JavaScript | Unknown | 4 | 16 | 4 | 4 |
 | [denysdovhan/robbyrussell-node](https://github.com/denysdovhan/robbyrussell-node) | 177 | 2022-04-24T16:37:28Z | JavaScript | Unknown | 4 | 9 | 4 | 4 |
 | [paulirish/devtools-timeline-model](https://github.com/paulirish/devtools-timeline-model) | 176 | 2022-11-02T10:27:41Z | JavaScript | Unknown | 0 | 6 | 0 | 0 |
@@ -688,6 +693,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [zhipeng-jia/snappyjs](https://github.com/zhipeng-jia/snappyjs) | 163 | 2023-03-06T04:22:47Z | JavaScript | Infrastructure/tooling | 1 | 12 | 1 | 1 |
 | [jhawthorn/fzy.js](https://github.com/jhawthorn/fzy.js) | 162 | 2024-09-24T04:40:11Z | JavaScript | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [swinton/github-rest-apis-for-insomnia](https://github.com/swinton/github-rest-apis-for-insomnia) | 161 | 2023-01-04T21:38:50Z | JavaScript | CLI | 5 | 15 | 5 | 5 |
+| [ayoubben18/ab-method](https://github.com/ayoubben18/ab-method) | 160 | 2025-11-10T21:57:17Z | JavaScript | Infrastructure/tooling | 1 | 7 | 0 | 0 |
 | [chrisvoncsefalvay/claude-d3js-skill](https://github.com/chrisvoncsefalvay/claude-d3js-skill) | 158 | 2025-10-18T02:29:55Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [dangreenisrael/eslint-plugin-jest-formatting](https://github.com/dangreenisrael/eslint-plugin-jest-formatting) | 157 | 2023-05-21T17:46:55Z | JavaScript | Infrastructure/tooling | 3 | 21 | 3 | 3 |
 | [standard/standardx](https://github.com/standard/standardx) | 150 | 2023-09-16T07:30:44Z | JavaScript | Infrastructure/tooling | 2 | 12 | 2 | 2 |

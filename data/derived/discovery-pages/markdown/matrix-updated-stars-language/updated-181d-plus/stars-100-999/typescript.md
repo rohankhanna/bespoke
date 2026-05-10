@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 194
-- terms: 703
-- components: 4730
-- concepts: 693
-- observations: 695
+- repos: 195
+- terms: 710
+- components: 4744
+- concepts: 699
+- observations: 701
 
 ## Static behavior
 
@@ -53,7 +53,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [MiniMax-AI/MiniMax-MCP-JS](https://github.com/MiniMax-AI/MiniMax-MCP-JS) | 121 | 2025-07-22T03:50:37Z | TypeScript | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [keeweb/keeweb-connect](https://github.com/keeweb/keeweb-connect) | 121 | 2025-07-15T19:41:30Z | TypeScript | Infrastructure/tooling | 2 | 34 | 2 | 2 |
 | [timqian/bambot](https://github.com/timqian/bambot) | 939 | 2025-07-14T09:49:10Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
-| [javalent/obsidian-leaflet](https://github.com/javalent/obsidian-leaflet) | 690 | 2025-07-09T16:26:30Z | TypeScript | Infrastructure/tooling | 4 | 54 | 4 | 4 |
+| [javalent/obsidian-leaflet](https://github.com/javalent/obsidian-leaflet) | 691 | 2025-07-09T16:26:30Z | TypeScript | Infrastructure/tooling | 4 | 54 | 4 | 4 |
 | [wemake-services/wemake-vue-template](https://github.com/wemake-services/wemake-vue-template) | 728 | 2025-07-04T12:41:28Z | TypeScript | Infrastructure/tooling | 10 | 19 | 10 | 10 |
 | [kyryl-opens-ml/no-ocr](https://github.com/kyryl-opens-ml/no-ocr) | 184 | 2025-06-30T09:07:25Z | TypeScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [InternLM/OpenAOE](https://github.com/InternLM/OpenAOE) | 323 | 2025-06-19T13:58:16Z | TypeScript | Infrastructure/tooling | 3 | 2 | 3 | 3 |
@@ -119,6 +119,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [IndexXuan/vite-plugin-html-template](https://github.com/IndexXuan/vite-plugin-html-template) | 122 | 2024-07-19T08:38:00Z | TypeScript | Infrastructure/tooling | 3 | 17 | 3 | 3 |
 | [AmesingFlank/taichi.js](https://github.com/AmesingFlank/taichi.js) | 534 | 2024-07-18T06:38:21Z | TypeScript | Unknown | 5 | 16 | 5 | 5 |
 | [apache/dubbo-js](https://github.com/apache/dubbo-js) | 773 | 2024-07-14T13:31:39Z | TypeScript | Infrastructure/tooling | 6 | 17 | 6 | 6 |
+| [serayuzgur/crates](https://github.com/serayuzgur/crates) | 238 | 2024-06-29T10:44:50Z | TypeScript | Unknown | 6 | 14 | 6 | 6 |
 | [argoproj-labs/argocd-extension-metrics](https://github.com/argoproj-labs/argocd-extension-metrics) | 168 | 2024-06-18T19:01:36Z | TypeScript | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [mgmeyers/obsidian-contextual-typography](https://github.com/mgmeyers/obsidian-contextual-typography) | 193 | 2024-06-16T20:29:20Z | TypeScript | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [Arachnid/deterministic-deployment-proxy](https://github.com/Arachnid/deterministic-deployment-proxy) | 363 | 2024-06-12T12:07:24Z | TypeScript | Unknown | 0 | 8 | 0 | 0 |
@@ -174,7 +175,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mariolukas/HydraPlay](https://github.com/mariolukas/HydraPlay) | 157 | 2023-04-30T20:51:43Z | TypeScript | Infrastructure/tooling | 15 | 10 | 15 | 15 |
 | [Borodutch/telegram-bot-starter](https://github.com/Borodutch/telegram-bot-starter) | 242 | 2023-04-26T16:09:07Z | TypeScript | Infrastructure/tooling | 4 | 26 | 4 | 4 |
 | [byte-fe/react-model](https://github.com/byte-fe/react-model) | 237 | 2023-04-23T10:05:41Z | TypeScript | Infrastructure/tooling | 6 | 30 | 6 | 6 |
-| [ajv-validator/ajv-keywords](https://github.com/ajv-validator/ajv-keywords) | 257 | 2023-04-17T03:40:20Z | TypeScript | Infrastructure/tooling | 4 | 24 | 5 | 5 |
+| [ajv-validator/ajv-keywords](https://github.com/ajv-validator/ajv-keywords) | 257 | 2023-04-17T03:40:20Z | TypeScript | Infrastructure/tooling | 5 | 24 | 5 | 5 |
 | [metaes/metaes](https://github.com/metaes/metaes) | 139 | 2023-04-16T14:34:14Z | TypeScript | Unknown | 0 | 11 | 0 | 0 |
 | [windicss/svelte-windicss-preprocess](https://github.com/windicss/svelte-windicss-preprocess) | 158 | 2023-04-15T18:55:36Z | TypeScript | Infrastructure/tooling | 8 | 32 | 8 | 8 |
 | [jina-ai/auto-gpt-web](https://github.com/jina-ai/auto-gpt-web) | 760 | 2023-04-13T08:09:58Z | TypeScript | Infrastructure/tooling | 5 | 34 | 5 | 5 |
@@ -253,7 +254,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [NilsJPWerner/autoDocstring](https://github.com/NilsJPWerner/autoDocstring) | 737 | 2024-08-13T00:54:44Z | TypeScript | Infrastructure/tooling | 1 | 28 | 1 | 1 |
 | [wemake-services/wemake-vue-template](https://github.com/wemake-services/wemake-vue-template) | 728 | 2025-07-04T12:41:28Z | TypeScript | Infrastructure/tooling | 10 | 19 | 10 | 10 |
 | [simonwep/nanopop](https://github.com/simonwep/nanopop) | 719 | 2025-03-09T15:47:33Z | TypeScript | Infrastructure/tooling | 4 | 13 | 4 | 4 |
-| [javalent/obsidian-leaflet](https://github.com/javalent/obsidian-leaflet) | 690 | 2025-07-09T16:26:30Z | TypeScript | Infrastructure/tooling | 4 | 54 | 4 | 4 |
+| [javalent/obsidian-leaflet](https://github.com/javalent/obsidian-leaflet) | 691 | 2025-07-09T16:26:30Z | TypeScript | Infrastructure/tooling | 4 | 54 | 4 | 4 |
 | [antfu/vscode-theme-vitesse](https://github.com/antfu/vscode-theme-vitesse) | 689 | 2025-08-22T01:15:13Z | TypeScript | Infrastructure/tooling | 5 | 19 | 5 | 5 |
 | [possibilities/claude-composer](https://github.com/possibilities/claude-composer) | 678 | 2025-07-31T02:29:50Z | TypeScript | Infrastructure/tooling | 1 | 22 | 0 | 0 |
 | [dimforge/rapier.js](https://github.com/dimforge/rapier.js) | 671 | 2025-11-05T18:27:54Z | TypeScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
@@ -329,7 +330,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [arcanis/typanion](https://github.com/arcanis/typanion) | 275 | 2024-03-25T17:14:02Z | TypeScript | Infrastructure/tooling | 3 | 15 | 3 | 3 |
 | [caoxiemeihao/electron-vite-samples](https://github.com/caoxiemeihao/electron-vite-samples) | 263 | 2024-11-16T13:19:33Z | TypeScript | Unknown | 8 | 1 | 8 | 8 |
 | [neplexlabs/canvacord](https://github.com/neplexlabs/canvacord) | 259 | 2025-10-21T17:22:50Z | TypeScript | Infrastructure/tooling | 15 | 14 | 15 | 15 |
-| [ajv-validator/ajv-keywords](https://github.com/ajv-validator/ajv-keywords) | 257 | 2023-04-17T03:40:20Z | TypeScript | Infrastructure/tooling | 4 | 24 | 5 | 5 |
+| [ajv-validator/ajv-keywords](https://github.com/ajv-validator/ajv-keywords) | 257 | 2023-04-17T03:40:20Z | TypeScript | Infrastructure/tooling | 5 | 24 | 5 | 5 |
 | [lxsmnsyc/solid-labels](https://github.com/lxsmnsyc/solid-labels) | 256 | 2025-03-14T03:07:12Z | TypeScript | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [luisherranz/deepsignal](https://github.com/luisherranz/deepsignal) | 254 | 2025-01-13T15:48:33Z | TypeScript | Infrastructure/tooling | 4 | 47 | 4 | 4 |
 | [ansible/ansible-language-server](https://github.com/ansible/ansible-language-server) | 250 | 2024-10-09T18:11:47Z | TypeScript | Infrastructure/tooling | 5 | 45 | 5 | 5 |
@@ -341,6 +342,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [IndexXuan/vite-plugin-mpa](https://github.com/IndexXuan/vite-plugin-mpa) | 241 | 2023-06-16T13:04:51Z | TypeScript | Infrastructure/tooling | 3 | 20 | 3 | 3 |
 | [adamiBs/vscode-terraform-live-graph](https://github.com/adamiBs/vscode-terraform-live-graph) | 239 | 2023-06-12T10:28:33Z | TypeScript | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [zakhenry/embedme](https://github.com/zakhenry/embedme) | 238 | 2024-10-06T18:59:26Z | TypeScript | Infrastructure/tooling | 3 | 13 | 4 | 4 |
+| [serayuzgur/crates](https://github.com/serayuzgur/crates) | 238 | 2024-06-29T10:44:50Z | TypeScript | Unknown | 6 | 14 | 6 | 6 |
 | [byte-fe/react-model](https://github.com/byte-fe/react-model) | 237 | 2023-04-23T10:05:41Z | TypeScript | Infrastructure/tooling | 6 | 30 | 6 | 6 |
 | [streamich/unionfs](https://github.com/streamich/unionfs) | 235 | 2025-09-17T02:43:50Z | TypeScript | Infrastructure/tooling | 4 | 17 | 4 | 4 |
 | [pragmagic/vscode-nim](https://github.com/pragmagic/vscode-nim) | 233 | 2023-12-14T10:42:13Z | TypeScript | Unknown | 1 | 6 | 1 | 1 |

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 12,
-    "concepts": 71,
-    "observations": 71,
-    "repos": 8,
-    "terms": 71
+    "concepts": 61,
+    "observations": 61,
+    "repos": 7,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
-    "Efficient-ML/Awesome-Model-Quantization",
     "github/rest-api-description",
     "GyanD/codexffmpeg",
     "hxehex/russia-mobile-internet-whitelist",

@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · Rust
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,12 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [servo/stylo](https://github.com/servo/stylo) | 274 | 2026-05-08T13:44:58Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [EmmyLuaLs/emmylua-analyzer-rust](https://github.com/EmmyLuaLs/emmylua-analyzer-rust) | 447 | 2026-05-08T12:50:15Z | Rust | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [servo/stylo](https://github.com/servo/stylo) | 274 | 2026-05-09T13:39:04Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [EmmyLuaLs/emmylua-analyzer-rust](https://github.com/EmmyLuaLs/emmylua-analyzer-rust) | 447 | 2026-05-09T09:56:13Z | Rust | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [EmmyLuaLs/emmylua-analyzer-rust](https://github.com/EmmyLuaLs/emmylua-analyzer-rust) | 447 | 2026-05-08T12:50:15Z | Rust | Infrastructure/tooling | 3 | 6 | 3 | 3 |
-| [servo/stylo](https://github.com/servo/stylo) | 274 | 2026-05-08T13:44:58Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [EmmyLuaLs/emmylua-analyzer-rust](https://github.com/EmmyLuaLs/emmylua-analyzer-rust) | 447 | 2026-05-09T09:56:13Z | Rust | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [servo/stylo](https://github.com/servo/stylo) | 274 | 2026-05-09T13:39:04Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |

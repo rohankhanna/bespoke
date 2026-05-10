@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 57,
-    "concepts": 28,
-    "observations": 29,
-    "repos": 7,
-    "terms": 28
+    "components": 34,
+    "concepts": 23,
+    "observations": 24,
+    "repos": 5,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "alloy-rs/evm",
     "fallow-rs/oxc-coverage-instrument",
     "influxdata/datafusion-udf-wasm",
     "kurrent-io/KurrentDB-Client-Rust",
-    "tofay/rustls-openssl",
-    "tyrypyrking/egui-ash",
-    "vaporif/parry-guard"
+    "tyrypyrking/egui-ash"
   ]
 }

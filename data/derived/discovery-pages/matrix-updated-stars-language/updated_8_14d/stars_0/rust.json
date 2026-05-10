@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 21,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 3,
-    "terms": 12
+    "components": 34,
+    "concepts": 16,
+    "observations": 16,
+    "repos": 4,
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "hyper-mcp-rs/context7-plugin",
     "hyper-mcp-rs/defuddle-plugin",
+    "lakekeeper/iceberg-rust",
     "squidowl/iced"
   ]
 }

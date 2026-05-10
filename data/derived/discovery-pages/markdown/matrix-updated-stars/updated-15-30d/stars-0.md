@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 167
-- terms: 275
-- components: 696
-- concepts: 246
-- observations: 246
+- repos: 165
+- terms: 263
+- components: 653
+- concepts: 234
+- observations: 234
 
 ## Static behavior
 
@@ -25,6 +25,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Responsible-Agent-Skill-Development](https://github.com/danielrosehill/Responsible-Agent-Skill-Development) | 0 | 2026-04-25T11:09:28Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
+| [danielrosehill/AI-Safety-Projects-Index](https://github.com/danielrosehill/AI-Safety-Projects-Index) | 0 | 2026-04-25T10:47:03Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [stable-haskell/haskell-language-server](https://github.com/stable-haskell/haskell-language-server) | 0 | 2026-04-24T17:24:19Z | Other | Infrastructure/tooling | 8 | 18 | 8 | 8 |
 | [mukel/gptoss.java](https://github.com/mukel/gptoss.java) | 0 | 2026-04-24T16:40:40Z | Java | Unknown | 7 | 0 | 7 | 7 |
 | [mukel/nemotron3.java](https://github.com/mukel/nemotron3.java) | 0 | 2026-04-24T16:39:34Z | Java | Unknown | 0 | 0 | 0 | 0 |
@@ -67,6 +69,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [conda-forge/conda-forge-feedstock-ops](https://github.com/conda-forge/conda-forge-feedstock-ops) | 0 | 2026-04-21T09:48:36Z | Python | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [aaronlamz/navpress](https://github.com/aaronlamz/navpress) | 0 | 2026-04-21T07:36:01Z | JavaScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
 | [danielrosehill/Claude-Code-Feedback](https://github.com/danielrosehill/Claude-Code-Feedback) | 0 | 2026-04-20T22:19:27Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-HTML-Email-Designer-Plugin](https://github.com/danielrosehill/Claude-HTML-Email-Designer-Plugin) | 0 | 2026-04-20T21:43:34Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [8144225309/superscalar-wallet](https://github.com/8144225309/superscalar-wallet) | 0 | 2026-04-20T20:18:01Z | TypeScript | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [AdaCore/vss-extra](https://github.com/AdaCore/vss-extra) | 0 | 2026-04-20T16:15:56Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [roampal-ai/roampal-labs](https://github.com/roampal-ai/roampal-labs) | 0 | 2026-04-20T15:52:26Z | Python | Model/data | 17 | 0 | 17 | 17 |
@@ -187,16 +190,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Red-Alert-Monitoring-Stack](https://github.com/danielrosehill/Red-Alert-Monitoring-Stack) | 0 | 2026-04-10T17:15:24Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [danielrosehill/Iran-Israel-Ceasefire-Prediction-090426](https://github.com/danielrosehill/Iran-Israel-Ceasefire-Prediction-090426) | 0 | 2026-04-10T14:44:15Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/brainstorm-solutions-plugin](https://github.com/danielrosehill/brainstorm-solutions-plugin) | 0 | 2026-04-10T12:29:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [8144225309/superscalar-docs](https://github.com/8144225309/superscalar-docs) | 0 | 2026-04-09T21:20:43Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
-| [ashton/neotest-gleam-unitest](https://github.com/ashton/neotest-gleam-unitest) | 0 | 2026-04-09T20:27:40Z | Other | Unknown | 8 | 0 | 8 | 8 |
-| [JuliaBinaryWrappers/JpegTurbo_jll.jl](https://github.com/JuliaBinaryWrappers/JpegTurbo_jll.jl) | 0 | 2026-04-09T15:33:29Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [JuliaBinaryWrappers/libaec_jll.jl](https://github.com/JuliaBinaryWrappers/libaec_jll.jl) | 0 | 2026-04-09T15:05:24Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [VOICEVOX/preview-pages](https://github.com/VOICEVOX/preview-pages) | 0 | 2026-04-09T11:24:32Z | TypeScript | Infrastructure/tooling | 4 | 43 | 4 | 4 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Responsible-Agent-Skill-Development](https://github.com/danielrosehill/Responsible-Agent-Skill-Development) | 0 | 2026-04-25T11:09:28Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
+| [danielrosehill/AI-Safety-Projects-Index](https://github.com/danielrosehill/AI-Safety-Projects-Index) | 0 | 2026-04-25T10:47:03Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [stable-haskell/haskell-language-server](https://github.com/stable-haskell/haskell-language-server) | 0 | 2026-04-24T17:24:19Z | Other | Infrastructure/tooling | 8 | 18 | 8 | 8 |
 | [mukel/gptoss.java](https://github.com/mukel/gptoss.java) | 0 | 2026-04-24T16:40:40Z | Java | Unknown | 7 | 0 | 7 | 7 |
 | [mukel/nemotron3.java](https://github.com/mukel/nemotron3.java) | 0 | 2026-04-24T16:39:34Z | Java | Unknown | 0 | 0 | 0 | 0 |
@@ -239,6 +239,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [conda-forge/conda-forge-feedstock-ops](https://github.com/conda-forge/conda-forge-feedstock-ops) | 0 | 2026-04-21T09:48:36Z | Python | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [aaronlamz/navpress](https://github.com/aaronlamz/navpress) | 0 | 2026-04-21T07:36:01Z | JavaScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
 | [danielrosehill/Claude-Code-Feedback](https://github.com/danielrosehill/Claude-Code-Feedback) | 0 | 2026-04-20T22:19:27Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-HTML-Email-Designer-Plugin](https://github.com/danielrosehill/Claude-HTML-Email-Designer-Plugin) | 0 | 2026-04-20T21:43:34Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [8144225309/superscalar-wallet](https://github.com/8144225309/superscalar-wallet) | 0 | 2026-04-20T20:18:01Z | TypeScript | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [AdaCore/vss-extra](https://github.com/AdaCore/vss-extra) | 0 | 2026-04-20T16:15:56Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [roampal-ai/roampal-labs](https://github.com/roampal-ai/roampal-labs) | 0 | 2026-04-20T15:52:26Z | Python | Model/data | 17 | 0 | 17 | 17 |
@@ -359,8 +360,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Red-Alert-Monitoring-Stack](https://github.com/danielrosehill/Red-Alert-Monitoring-Stack) | 0 | 2026-04-10T17:15:24Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [danielrosehill/Iran-Israel-Ceasefire-Prediction-090426](https://github.com/danielrosehill/Iran-Israel-Ceasefire-Prediction-090426) | 0 | 2026-04-10T14:44:15Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/brainstorm-solutions-plugin](https://github.com/danielrosehill/brainstorm-solutions-plugin) | 0 | 2026-04-10T12:29:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [8144225309/superscalar-docs](https://github.com/8144225309/superscalar-docs) | 0 | 2026-04-09T21:20:43Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
-| [ashton/neotest-gleam-unitest](https://github.com/ashton/neotest-gleam-unitest) | 0 | 2026-04-09T20:27:40Z | Other | Unknown | 8 | 0 | 8 | 8 |
-| [JuliaBinaryWrappers/JpegTurbo_jll.jl](https://github.com/JuliaBinaryWrappers/JpegTurbo_jll.jl) | 0 | 2026-04-09T15:33:29Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [JuliaBinaryWrappers/libaec_jll.jl](https://github.com/JuliaBinaryWrappers/libaec_jll.jl) | 0 | 2026-04-09T15:05:24Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [VOICEVOX/preview-pages](https://github.com/VOICEVOX/preview-pages) | 0 | 2026-04-09T11:24:32Z | TypeScript | Infrastructure/tooling | 4 | 43 | 4 | 4 |

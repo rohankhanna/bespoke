@@ -3,7 +3,7 @@
     "components": 54,
     "concepts": 20,
     "observations": 20,
-    "repos": 9,
+    "repos": 8,
     "terms": 20
   },
   "facet_version": 1,
@@ -12,14 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "databendlabs/iceberg-rust",
     "datafuse-extras/arrow-udf",
     "datafuse-extras/tantivy",
     "datafuse-extras/tantivy-jieba",
     "espressosystems/espresso-systems-common",
-    "faradayio/compose_yml",
     "Keats/os_info",
     "KSXGitHub/personal-crates",
     "openobserve/promql-parser"

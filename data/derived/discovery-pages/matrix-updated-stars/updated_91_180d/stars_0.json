@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 291,
-    "concepts": 94,
-    "observations": 94,
-    "repos": 79,
-    "terms": 94
+    "components": 265,
+    "concepts": 86,
+    "observations": 86,
+    "repos": 78,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "abap2UI5-addons/popups",
     "aldernero/spider",
@@ -33,6 +33,7 @@
     "danielrosehill/AMD-AI-Server",
     "danielrosehill/Back-Up-Your-SaaS",
     "danielrosehill/BTRFS-Snapper-MCP",
+    "danielrosehill/Claude-Interview-062325",
     "danielrosehill/Claude-Rescue",
     "danielrosehill/Data-Projects-Index",
     "danielrosehill/Failover-Internet-Israel-Notes",
@@ -54,9 +55,7 @@
     "DiligentGraphics/NuklearUI",
     "Enselic/cargo-public-api",
     "espressosystems/espresso-systems-common",
-    "faradayio/compose_yml",
     "flageval-baai/LRM-Eval",
-    "forcedotcom/change-case-management",
     "frankkohlhepp/fancy-settings",
     "get-gah/gah-db",
     "grafana/cadvisor",

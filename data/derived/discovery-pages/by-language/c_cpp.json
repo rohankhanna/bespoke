@@ -1,17 +1,18 @@
 {
   "counts": {
-    "components": 9205,
-    "concepts": 10933,
-    "observations": 10959,
-    "repos": 2267,
-    "terms": 10841
+    "components": 9230,
+    "concepts": 10964,
+    "observations": 10990,
+    "repos": 2273,
+    "terms": 10873
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
+    "0ldsk00l/nestopia",
     "0xPolygonHermez/pil2-proofman",
     "0xPolygonHermez/pil2-proofman-js",
     "13thsymphony/HDRImageViewer",
@@ -40,6 +41,7 @@
     "Ableton/push2-display-with-juce",
     "abolz/Drachennest",
     "abseil/abseil-cpp",
+    "aburch/simutrans",
     "AcademySoftwareFoundation/Imath",
     "AcademySoftwareFoundation/OpenColorIO",
     "AcademySoftwareFoundation/openexr",
@@ -295,7 +297,6 @@
     "bigcode-project/starcoder.cpp",
     "BinomialLLC/basis_universal",
     "BinomialLLC/KTX-Software-Binomial-Fork",
-    "binspector/binspector",
     "bioinfologics/w2rap-contigger",
     "Birch-san/box2d3-wasm",
     "birkett/srvany-ng",
@@ -313,6 +314,7 @@
     "bitwizeshift/string_view-standalone",
     "bkaradzic/bgfx",
     "blackhole89/autopen",
+    "blender/blender",
     "Blosc/bcolz",
     "Blosc/c-blosc",
     "Blosc/c-blosc2",
@@ -1242,6 +1244,8 @@
     "KratosMultiphysics/Kratos",
     "kripken/ammo.js",
     "kriszyp/lmdbx-js",
+    "ksnip/kColorPicker",
+    "ksnip/kImageAnnotator",
     "KumarRobotics/msckf_vio",
     "kuzudb/kuzu",
     "kvcache-ai/Mooncake",
@@ -2244,6 +2248,8 @@
     "ycm-core/ycmd",
     "Yepkit/ykush",
     "yhirose/cpp-httplib",
+    "ylsdamxssjxxdd/eva",
+    "ylsdamxssjxxdd/nerv",
     "yoshoku/numo-liblinear",
     "yoshoku/numo-libsvm",
     "yoshoku/numo-linalg-alt",

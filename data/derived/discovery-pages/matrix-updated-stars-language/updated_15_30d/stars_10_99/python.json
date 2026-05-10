@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 485,
-    "concepts": 319,
-    "observations": 321,
-    "repos": 97,
-    "terms": 338
+    "components": 505,
+    "concepts": 336,
+    "observations": 338,
+    "repos": 100,
+    "terms": 355
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "Accenture/Cymple",
-    "Accio-Lab/SwimBird",
     "activeviam/jdk4py",
     "AFD-Illinois/pyharm",
     "AFLplusplus/afl-cov",
@@ -27,6 +26,7 @@
     "allenai/scirepeval",
     "AMD-AGI/torchtitan-amd",
     "amyreese/fissix",
+    "analogdevicesinc/ai8x-synthesis",
     "angr/archinfo",
     "ankurhanda/robot-assets",
     "ansible/ansible-compat",
@@ -38,7 +38,9 @@
     "autowarefoundation/autoware-github-actions",
     "aws-controllers-k8s/test-infra",
     "bufbuild/protovalidate-python",
+    "caketop/python-starlark-go",
     "carstencodes/simplepycons",
+    "castorini/anserini-tools",
     "castorini/umbrela",
     "cdeust/cortex",
     "channel-io/ch-tts-llasa-rl-grpo",
@@ -68,9 +70,9 @@
     "HKU-BAL/Clair3-RNA",
     "hsliuustc0106/vllm-omni-skills",
     "IcyFish332/T3RL",
+    "instadeepai/fastpbrl",
     "jxpress/lightning-hydra-template-vertex-ai",
     "kserve/community",
-    "lace/polliwog",
     "lblankl/Short-RL",
     "Looong01/pyg-rocm-build",
     "mayeut/pep600_compliance",
@@ -91,6 +93,7 @@
     "optuna/optuna-integration",
     "ParisNeo/safe_store",
     "petercorke/ansitable",
+    "plone/cookieplone",
     "psyonicinc/ability-hand-api",
     "pycompression/python-isal",
     "pyocd/libusb-package",

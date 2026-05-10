@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4730,
-    "concepts": 693,
-    "observations": 695,
-    "repos": 194,
-    "terms": 703
+    "components": 4744,
+    "concepts": 699,
+    "observations": 701,
+    "repos": 195,
+    "terms": 710
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "101arrowz/fzstd",
     "1hanzla100/developer-portfolio",
@@ -175,6 +175,7 @@
     "scalabel/scalabel",
     "scopecraft/command",
     "sebelga/gstore-node",
+    "serayuzgur/crates",
     "simonwep/nanopop",
     "sinclairzx81/typebox-codegen",
     "sindresorhus/cli-boxes",

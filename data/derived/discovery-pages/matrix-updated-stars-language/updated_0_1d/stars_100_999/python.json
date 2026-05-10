@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 54,
-    "concepts": 49,
-    "observations": 49,
-    "repos": 6,
-    "terms": 49
+    "components": 9,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 1,
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
-    "AI-Hypercomputer/maxdiffusion",
-    "gbionics/adam",
-    "gbionics/jaxsim",
-    "googlefonts/roboto-3-classic",
-    "pyrtlsdr/pyrtlsdr",
-    "scverse/rapids-singlecell"
+    "AI-Hypercomputer/maxdiffusion"
   ]
 }

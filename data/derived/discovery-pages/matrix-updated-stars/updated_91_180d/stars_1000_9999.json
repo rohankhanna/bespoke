@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2575,
-    "concepts": 2095,
-    "observations": 2105,
-    "repos": 420,
-    "terms": 2073
+    "components": 2585,
+    "concepts": 2105,
+    "observations": 2115,
+    "repos": 421,
+    "terms": 2082
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "99designs/aws-vault",
@@ -50,6 +50,7 @@
     "architect/architect",
     "argoproj-labs/argocd-autopilot",
     "ARISE-Initiative/robomimic",
+    "artempyanykh/marksman",
     "asdf-vm/asdf-plugins",
     "ashvardanian/less_slow.cpp",
     "asmvik/skhd",
@@ -124,6 +125,7 @@
     "ekalinin/nodeenv",
     "EleutherAI/pythia",
     "elixir-lang/gen_stage",
+    "emacs-lsp/dap-mode",
     "emacs-lsp/lsp-ui",
     "emersion/slurp",
     "emilianavt/OpenSeeFace",
@@ -146,7 +148,6 @@
     "FlagAI-Open/FlagAI",
     "flame/blis",
     "form-data/form-data",
-    "FoundationVision/VAR",
     "fsprojects/Paket",
     "Fuco1/smartparens",
     "fukuball/jieba-php",
@@ -256,6 +257,7 @@
     "lokerl/tts-vue",
     "LTH14/JiT",
     "lucidrains/tab-transformer-pytorch",
+    "lupantech/AgentFlow",
     "lz4/lz4-java",
     "MarshallOfSound/electron-devtools-installer",
     "martinus/unordered_dense",
@@ -353,7 +355,6 @@
     "restic/rest-server",
     "richfelker/musl-cross-make",
     "ricky0123/vad",
-    "rose-pine/rose-pine-theme",
     "rs/cors",
     "ruby-i18n/i18n",
     "RUC-NLPIR/Search-o1",

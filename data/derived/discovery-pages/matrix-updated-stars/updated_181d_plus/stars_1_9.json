@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5216,
-    "concepts": 1809,
-    "observations": 1811,
-    "repos": 1299,
-    "terms": 1804
+    "components": 5199,
+    "concepts": 1805,
+    "observations": 1807,
+    "repos": 1300,
+    "terms": 1800
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -124,6 +124,7 @@
     "allenai/olmes-docker",
     "allenai/scifact-evaluator",
     "AlmarAubel/CSharpFunctionalExtensions.Analyzers",
+    "alphagov/.github",
     "altendky/pyqt-plugins",
     "altendky/qt-applications",
     "altendky/qt-tools",
@@ -632,6 +633,7 @@
     "hasharchives/blockprotocol-incubator",
     "hasharchives/wasm-ts-esm-in-node-jest-and-nextjs",
     "hashberg-io/bases",
+    "haskell/cabal-proposals",
     "haskell/ghcup-docker",
     "haskell/text-test-data",
     "havenwood/digest-sip_hash",
@@ -802,6 +804,7 @@
     "jxpress/hydra-vertex-ai-pipeline",
     "kabiaa/atom-ide-volar",
     "kacperkan/conerf-kubric-dataset",
+    "kahgeh/ls-crates.nvim",
     "kaminari/kaminari-data_mapper",
     "kaminari/kaminari-grape",
     "kaminari/kaminari-mongo_mapper",
@@ -1028,7 +1031,6 @@
     "Pablerdo/hexaframe-dark",
     "padmalcom/nsfwrecog",
     "padreati/rapaio-book",
-    "pajaydev/lasso-analyzer",
     "pajaydev/lasso-unpack",
     "PancakesArchitect/py-multiformats-cid",
     "pandas-dev/.github",
@@ -1274,7 +1276,6 @@
     "web-platform-tests/wpt-notes",
     "WebAssembly/compilation-hints",
     "webmaster128/depsight",
-    "webmaster128/private-voting",
     "webpack/v4.webpack.js.org",
     "webtorrent/.github",
     "wenet-e2e/wenet-contributors",

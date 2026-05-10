@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 766,
-    "concepts": 519,
-    "observations": 523,
-    "repos": 79,
-    "terms": 515
+    "components": 830,
+    "concepts": 549,
+    "observations": 553,
+    "repos": 83,
+    "terms": 545
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "0xPolygonHermez/zisk",
     "a16z/jolt",
@@ -32,6 +32,7 @@
     "ClickHouse/clickhouse-rs",
     "cobalt-org/liquid-rust",
     "conda/rattler",
+    "cosmos/solidity-ibc-eureka",
     "deven96/ahnlich",
     "Dicklesworthstone/asupersync",
     "Dicklesworthstone/beads_rust",
@@ -58,6 +59,7 @@
     "kpcyrd/rebuilderd",
     "KSXGitHub/parallel-disk-usage",
     "ldclabs/anda",
+    "left-curve/left-curve",
     "libbpf/blazesym",
     "lindera/lindera",
     "matter-labs/zksync-airbender",
@@ -70,6 +72,7 @@
     "openvm-org/openvm",
     "oschwald/maxminddb-rust",
     "oxc-project/oxc-resolver",
+    "paradigmxyz/solar",
     "posit-dev/ark",
     "prefix-dev/rattler-build",
     "pubgrub-rs/pubgrub",
@@ -90,6 +93,7 @@
     "udoprog/genco",
     "vectordotdev/vrl",
     "Yatekii/imgui-wgpu-rs",
+    "z-galaxy/zbus",
     "zaeleus/noodles",
     "ZcashFoundation/zebra",
     "zip-rs/zip2"

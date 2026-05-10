@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 128,
-    "concepts": 160,
-    "observations": 162,
-    "repos": 21,
-    "terms": 155
+    "concepts": 163,
+    "observations": 165,
+    "repos": 22,
+    "terms": 158
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "AppFlowy-IO/AppFlowy",
     "datawhalechina/happy-llm",
@@ -23,6 +23,7 @@
     "fastai/fastai",
     "fatih/vim-go",
     "google/dopamine",
+    "google/styleguide",
     "ianyh/Amethyst",
     "Ileriayo/markdown-badges",
     "koalaman/shellcheck",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 363
-- terms: 1152
-- components: 633
-- concepts: 1172
-- observations: 1175
+- terms: 1163
+- components: 651
+- concepts: 1182
+- observations: 1185
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ingonyama-zk/icicle](https://github.com/ingonyama-zk/icicle) | 493 | 2025-11-10T11:46:37Z | C/C++ | Infrastructure/tooling | 10 | 18 | 10 | 10 |
 | [andreasdr/tdme2](https://github.com/andreasdr/tdme2) | 185 | 2025-11-08T20:43:03Z | C/C++ | CLI | 17 | 2 | 20 | 20 |
 | [unitreerobotics/unitree_mujoco](https://github.com/unitreerobotics/unitree_mujoco) | 953 | 2025-11-07T03:38:55Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [bagder/fcpp](https://github.com/bagder/fcpp) | 142 | 2025-11-03T15:58:28Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
@@ -274,7 +275,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [yuanming-hu/taichi](https://github.com/yuanming-hu/taichi) | 411 | 2023-09-16T14:39:21Z | C/C++ | Infrastructure/tooling | 8 | 8 | 8 | 8 |
 | [bigcode-project/starcoder.cpp](https://github.com/bigcode-project/starcoder.cpp) | 458 | 2023-09-09T16:54:50Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [PotatoOfDoom/CyberFSR2](https://github.com/PotatoOfDoom/CyberFSR2) | 619 | 2023-09-05T20:34:07Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
-| [unum-cloud/UStore](https://github.com/unum-cloud/UStore) | 631 | 2023-09-01T12:18:21Z | C/C++ | Infrastructure/tooling | 20 | 19 | 21 | 21 |
+| [unum-cloud/UStore](https://github.com/unum-cloud/UStore) | 632 | 2023-09-01T12:18:21Z | C/C++ | Infrastructure/tooling | 21 | 19 | 21 | 21 |
 | [tsattler/RansacLib](https://github.com/tsattler/RansacLib) | 383 | 2023-08-31T15:25:26Z | C/C++ | Template/starter | 0 | 0 | 0 | 0 |
 | [InteractiveComputerGraphics/Discregrid](https://github.com/InteractiveComputerGraphics/Discregrid) | 312 | 2023-08-31T10:30:00Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [Koihik/LuaFormatter](https://github.com/Koihik/LuaFormatter) | 801 | 2023-08-25T16:37:49Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
@@ -388,7 +389,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Ableton/push2-display-with-juce](https://github.com/Ableton/push2-display-with-juce) | 151 | 2021-07-28T09:31:03Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [lvdmaaten/bhtsne](https://github.com/lvdmaaten/bhtsne) | 922 | 2021-07-19T20:33:47Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [chennuo0125-HIT/lidar_imu_calib](https://github.com/chennuo0125-HIT/lidar_imu_calib) | 571 | 2021-05-26T01:31:05Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [binspector/binspector](https://github.com/binspector/binspector) | 245 | 2021-05-10T17:45:53Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -477,7 +477,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Livox-SDK/Livox-SDK](https://github.com/Livox-SDK/Livox-SDK) | 638 | 2024-12-17T13:20:09Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [danfis/libccd](https://github.com/danfis/libccd) | 636 | 2023-12-04T14:46:54Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [libbitcoin/libbitcoin-explorer](https://github.com/libbitcoin/libbitcoin-explorer) | 634 | 2024-03-01T22:16:22Z | C/C++ | CLI | 0 | 0 | 0 | 0 |
-| [unum-cloud/UStore](https://github.com/unum-cloud/UStore) | 631 | 2023-09-01T12:18:21Z | C/C++ | Infrastructure/tooling | 20 | 19 | 21 | 21 |
+| [unum-cloud/UStore](https://github.com/unum-cloud/UStore) | 632 | 2023-09-01T12:18:21Z | C/C++ | Infrastructure/tooling | 21 | 19 | 21 | 21 |
 | [twhui/LiteFlowNet](https://github.com/twhui/LiteFlowNet) | 629 | 2023-03-21T07:13:27Z | C/C++ | Unknown | 8 | 0 | 8 | 8 |
 | [YukihoAA/waifu2x_snowshell](https://github.com/YukihoAA/waifu2x_snowshell) | 627 | 2023-03-09T16:13:23Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [QwenLM/qwen.cpp](https://github.com/QwenLM/qwen.cpp) | 626 | 2024-12-06T08:32:28Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
@@ -516,6 +516,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Zielon/INSTA](https://github.com/Zielon/INSTA) | 516 | 2025-08-03T08:46:39Z | C/C++ | Unknown | 7 | 0 | 8 | 8 |
 | [intel/tinycrypt](https://github.com/intel/tinycrypt) | 513 | 2024-03-05T15:37:08Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [google/crc32c](https://github.com/google/crc32c) | 504 | 2025-04-07T23:42:04Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
+| [ingonyama-zk/icicle](https://github.com/ingonyama-zk/icicle) | 493 | 2025-11-10T11:46:37Z | C/C++ | Infrastructure/tooling | 10 | 18 | 10 | 10 |
 | [nfrechette/acl-ue4-plugin](https://github.com/nfrechette/acl-ue4-plugin) | 493 | 2023-12-09T03:12:23Z | C/C++ | Library | 6 | 0 | 6 | 6 |
 | [dlbeer/dhara](https://github.com/dlbeer/dhara) | 489 | 2022-03-14T20:33:21Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [Livox-SDK/livox_ros_driver](https://github.com/Livox-SDK/livox_ros_driver) | 487 | 2024-01-25T18:01:29Z | C/C++ | Unknown | 1 | 0 | 1 | 1 |
@@ -621,7 +622,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [andikleen/snappy-c](https://github.com/andikleen/snappy-c) | 251 | 2021-11-29T00:04:06Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [cmp-nct/ggllm.cpp](https://github.com/cmp-nct/ggllm.cpp) | 249 | 2024-01-22T23:53:33Z | C/C++ | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [google/compact_enc_det](https://github.com/google/compact_enc_det) | 246 | 2024-02-12T21:23:15Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [binspector/binspector](https://github.com/binspector/binspector) | 245 | 2021-05-10T17:45:53Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [electronicsguy/ESP8266](https://github.com/electronicsguy/ESP8266) | 244 | 2022-01-07T17:49:17Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [NVlabs/cule](https://github.com/NVlabs/cule) | 242 | 2022-11-21T13:38:59Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [mmwillet/TTS.cpp](https://github.com/mmwillet/TTS.cpp) | 240 | 2025-10-05T12:36:01Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |

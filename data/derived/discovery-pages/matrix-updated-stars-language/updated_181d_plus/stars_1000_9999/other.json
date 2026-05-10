@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1235,
-    "concepts": 1482,
-    "observations": 1484,
-    "repos": 402,
-    "terms": 1472
+    "components": 1240,
+    "concepts": 1499,
+    "observations": 1501,
+    "repos": 404,
+    "terms": 1489
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -129,6 +129,7 @@
     "folke/neodev.nvim",
     "folke/trouble.nvim",
     "folke/which-key.nvim",
+    "FoundationVision/VAR",
     "FranxYao/chain-of-thought-hub",
     "fwcd/kotlin-language-server",
     "garbas/vim-snipmate",
@@ -264,6 +265,7 @@
     "NVIDIA-AI-IOT/jetbot",
     "NVIDIA/tacotron2",
     "nvim-pack/nvim-spectre",
+    "nvim-telescope/telescope-file-browser.nvim",
     "nvim-telescope/telescope-ui-select.nvim",
     "octol/vim-cpp-enhanced-highlight",
     "ojdkbuild/ojdkbuild",

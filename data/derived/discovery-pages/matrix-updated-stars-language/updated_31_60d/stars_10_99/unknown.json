@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 17,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 18,
-    "terms": 26
+    "concepts": 32,
+    "observations": 32,
+    "repos": 23,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
+    "alchaincyf/ilya-sutskever-skill",
+    "alchaincyf/taleb-skill",
     "AppImage/AppImageSpec",
     "aquasecurity/setup-trivy",
+    "askroundtable/expert-skills",
     "bmad-code-org/bmad-plugins-marketplace",
     "bpftrace/user-tools",
     "cedar-policy/cedar-docs",
@@ -31,6 +34,8 @@
     "onyx-dot-app/onyx_deep_research_bench",
     "opencontainers/tob",
     "operator-framework/community",
+    "SeleniumHQ/selenium_manager_artifacts",
+    "tc39/proposal-duplicate-named-capturing-groups",
     "uxlfoundation/open-source-working-group"
   ]
 }

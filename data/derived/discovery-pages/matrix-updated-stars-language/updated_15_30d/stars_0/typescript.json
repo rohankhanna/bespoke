@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 260,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 6,
-    "terms": 14
+    "components": 217,
+    "concepts": 10,
+    "observations": 10,
+    "repos": 5,
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "8144225309/superscalar-wallet",
     "fekkak1998/scira",
     "gopi2211/ralph",
     "grubersjoe/react-activity-calendar-tests",
-    "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
-    "VOICEVOX/preview-pages"
+    "sujithpvarghese/bedrock-agent-core-operations-hub-mcp"
   ]
 }

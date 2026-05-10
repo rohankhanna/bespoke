@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 343,
-    "concepts": 374,
-    "observations": 376,
-    "repos": 85,
-    "terms": 373
+    "components": 353,
+    "concepts": 382,
+    "observations": 384,
+    "repos": 86,
+    "terms": 380
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "Alexander-Miller/treemacs",
     "ankane/dexter",
     "ankane/pgslice",
     "ankane/pgsync",
+    "artempyanykh/marksman",
     "auto-complete/auto-complete",
     "bakpakin/Fennel",
     "bazelbuild/rules_docker",
@@ -38,9 +39,9 @@
     "DotNetAnalyzers/StyleCopAnalyzers",
     "EleutherAI/pythia",
     "elixir-lang/gen_stage",
+    "emacs-lsp/dap-mode",
     "emacs-lsp/lsp-ui",
     "erew123/alltalk_tts",
-    "FoundationVision/VAR",
     "fsprojects/Paket",
     "Fuco1/smartparens",
     "fukuball/jieba-php",

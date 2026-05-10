@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 97,
-    "concepts": 53,
-    "observations": 53,
-    "repos": 22,
-    "terms": 54
+    "components": 106,
+    "concepts": 54,
+    "observations": 54,
+    "repos": 23,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "abraxas-365/claudio",
     "aldernero/gaul",
@@ -24,6 +24,7 @@
     "dwyl/learn-go",
     "erikceballos/nano-banana-cli",
     "goreleaser/sponsors",
+    "huggingface/hf-csi-driver",
     "k8nstantin/openpraxis",
     "kitknox/tsshd",
     "ksylvan/fabric",

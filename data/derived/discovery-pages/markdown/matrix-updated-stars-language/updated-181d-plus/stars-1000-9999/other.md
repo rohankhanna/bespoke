@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 402
-- terms: 1472
-- components: 1235
-- concepts: 1482
-- observations: 1484
+- repos: 404
+- terms: 1489
+- components: 1240
+- concepts: 1499
+- observations: 1501
 
 ## Static behavior
 
@@ -26,13 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [FoundationVision/VAR](https://github.com/FoundationVision/VAR) | 8678 | 2025-11-10T21:42:29Z | Other | Model/data | 11 | 0 | 11 | 11 |
 | [GEOSwift/GEOSwift](https://github.com/GEOSwift/GEOSwift) | 1500 | 2025-11-09T19:17:58Z | Other | Infrastructure/tooling | 15 | 1 | 15 | 15 |
 | [emacs-evil/evil](https://github.com/emacs-evil/evil) | 3751 | 2025-11-08T01:38:41Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [taoensso/timbre](https://github.com/taoensso/timbre) | 1483 | 2025-11-06T16:27:48Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [huggingface/swift-coreml-diffusers](https://github.com/huggingface/swift-coreml-diffusers) | 2751 | 2025-11-06T14:54:04Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [kikito/middleclass](https://github.com/kikito/middleclass) | 1906 | 2025-11-03T12:54:01Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [fnando/i18n-js](https://github.com/fnando/i18n-js) | 3795 | 2025-10-31T16:53:17Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
-| [folke/trouble.nvim](https://github.com/folke/trouble.nvim) | 6765 | 2025-10-31T14:02:34Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
+| [folke/trouble.nvim](https://github.com/folke/trouble.nvim) | 6780 | 2025-10-31T14:02:34Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [andrewrk/poop](https://github.com/andrewrk/poop) | 1913 | 2025-10-29T18:17:52Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [Liuziyu77/Visual-RFT](https://github.com/Liuziyu77/Visual-RFT) | 2246 | 2025-10-29T07:28:02Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [folke/flash.nvim](https://github.com/folke/flash.nvim) | 4017 | 2025-10-28T16:07:30Z | Other | Infrastructure/tooling | 6 | 5 | 6 | 6 |
@@ -51,7 +52,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tc39/proposal-pattern-matching](https://github.com/tc39/proposal-pattern-matching) | 5781 | 2025-10-05T09:17:08Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [aagarwal1012/Animated-Text-Kit](https://github.com/aagarwal1012/Animated-Text-Kit) | 1767 | 2025-10-04T13:42:18Z | Other | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [GiovineItalia/Gadfly.jl](https://github.com/GiovineItalia/Gadfly.jl) | 1924 | 2025-10-04T00:20:43Z | Other | Infrastructure/tooling | 8 | 10 | 8 | 8 |
-| [preservim/tagbar](https://github.com/preservim/tagbar) | 6212 | 2025-10-02T14:54:19Z | Other | Infrastructure/tooling | 10 | 3 | 10 | 10 |
+| [preservim/tagbar](https://github.com/preservim/tagbar) | 6213 | 2025-10-02T14:54:19Z | Other | Infrastructure/tooling | 10 | 3 | 10 | 10 |
 | [redplanetlabs/specter](https://github.com/redplanetlabs/specter) | 2614 | 2025-09-30T05:13:29Z | Other | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [haml/haml-rails](https://github.com/haml/haml-rails) | 1045 | 2025-09-29T02:17:49Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [XcodesOrg/xcodes](https://github.com/XcodesOrg/xcodes) | 4635 | 2025-09-26T23:22:33Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
@@ -78,6 +79,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [RanKKI/LawRefBook](https://github.com/RanKKI/LawRefBook) | 2429 | 2025-08-14T12:27:13Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [DAMO-NLP-SG/VideoLLaMA3](https://github.com/DAMO-NLP-SG/VideoLLaMA3) | 1144 | 2025-08-14T06:52:30Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [tatsu-lab/alpaca_eval](https://github.com/tatsu-lab/alpaca_eval) | 1972 | 2025-08-09T07:23:36Z | Other | Infrastructure/tooling | 9 | 3 | 9 | 9 |
+| [nvim-telescope/telescope-file-browser.nvim](https://github.com/nvim-telescope/telescope-file-browser.nvim) | 1940 | 2025-08-05T20:15:06Z | Other | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [ddollar/foreman](https://github.com/ddollar/foreman) | 6145 | 2025-07-27T10:04:03Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [transmissions11/solmate](https://github.com/transmissions11/solmate) | 4275 | 2025-07-21T22:24:39Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [trailblazer/trailblazer](https://github.com/trailblazer/trailblazer) | 3476 | 2025-07-15T09:40:43Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -137,10 +139,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stevearc/dressing.nvim](https://github.com/stevearc/dressing.nvim) | 1978 | 2025-02-12T17:34:03Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [EdenEast/nightfox.nvim](https://github.com/EdenEast/nightfox.nvim) | 3976 | 2025-02-09T17:21:50Z | Other | Infrastructure/tooling | 13 | 7 | 13 | 14 |
 | [AckslD/nvim-neoclip.lua](https://github.com/AckslD/nvim-neoclip.lua) | 1128 | 2025-02-09T13:45:59Z | Other | CLI | 2 | 4 | 2 | 2 |
-| [advimman/lama](https://github.com/advimman/lama) | 9931 | 2025-02-05T08:41:52Z | Other | Unknown | 16 | 0 | 16 | 16 |
+| [advimman/lama](https://github.com/advimman/lama) | 9933 | 2025-02-05T08:41:52Z | Other | Unknown | 16 | 0 | 16 | 16 |
 | [YangLing0818/RPG-DiffusionMaster](https://github.com/YangLing0818/RPG-DiffusionMaster) | 1844 | 2025-02-01T13:28:48Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [CanCanCommunity/cancancan](https://github.com/CanCanCommunity/cancancan) | 5672 | 2025-01-27T07:26:12Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 4 |
-| [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim) | 4305 | 2025-01-14T16:03:57Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
+| [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim) | 4311 | 2025-01-14T16:03:57Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [awesome-NeRF/awesome-NeRF](https://github.com/awesome-NeRF/awesome-NeRF) | 6771 | 2025-01-06T11:03:37Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [inkle/ink](https://github.com/inkle/ink) | 4738 | 2025-01-01T15:20:00Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [dwyl/repo-badges](https://github.com/dwyl/repo-badges) | 2933 | 2024-12-30T16:09:04Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -426,17 +428,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [balancap/SSD-Tensorflow](https://github.com/balancap/SSD-Tensorflow) | 4105 | 2021-08-12T11:13:20Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [hexops-graveyard/dockerfile](https://github.com/hexops-graveyard/dockerfile) | 4091 | 2021-08-08T04:42:37Z | Other | Infrastructure/tooling | 4 | 0 | 4 | 4 |
 | [romeovs/creep](https://github.com/romeovs/creep) | 1895 | 2021-07-12T15:32:42Z | Other | Unknown | 7 | 0 | 7 | 7 |
-| [hyperhype/hyperscript](https://github.com/hyperhype/hyperscript) | 2732 | 2021-05-28T02:59:49Z | Other | Unknown | 2 | 7 | 2 | 2 |
+| [hyperhype/hyperscript](https://github.com/hyperhype/hyperscript) | 2733 | 2021-05-28T02:59:49Z | Other | Unknown | 2 | 7 | 2 | 2 |
 | [oneclick/rubyinstaller](https://github.com/oneclick/rubyinstaller) | 1186 | 2021-05-22T05:12:24Z | Other | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [advimman/lama](https://github.com/advimman/lama) | 9931 | 2025-02-05T08:41:52Z | Other | Unknown | 16 | 0 | 16 | 16 |
+| [advimman/lama](https://github.com/advimman/lama) | 9933 | 2025-02-05T08:41:52Z | Other | Unknown | 16 | 0 | 16 | 16 |
 | [daylerees/colour-schemes](https://github.com/daylerees/colour-schemes) | 9298 | 2024-01-08T11:55:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [github/semantic](https://github.com/github/semantic) | 9053 | 2025-04-01T16:36:44Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [thoughtbot/paperclip](https://github.com/thoughtbot/paperclip) | 9015 | 2023-07-13T17:57:58Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [FoundationVision/VAR](https://github.com/FoundationVision/VAR) | 8678 | 2025-11-10T21:42:29Z | Other | Model/data | 11 | 0 | 11 | 11 |
 | [mdo/code-guide](https://github.com/mdo/code-guide) | 8486 | 2024-07-26T02:51:35Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [XcodesOrg/XcodesApp](https://github.com/XcodesOrg/XcodesApp) | 8343 | 2025-09-20T04:53:56Z | Other | CLI | 9 | 5 | 9 | 9 |
 | [LianjiaTech/BELLE](https://github.com/LianjiaTech/BELLE) | 8283 | 2024-10-16T11:38:59Z | Other | Model/data | 10 | 0 | 10 | 10 |
@@ -465,8 +468,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [paper-trail-gem/paper_trail](https://github.com/paper-trail-gem/paper_trail) | 6998 | 2025-10-24T08:55:19Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [deepseek-ai/DeepSeek-LLM](https://github.com/deepseek-ai/DeepSeek-LLM) | 6825 | 2024-02-04T12:22:16Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [nordtheme/nord](https://github.com/nordtheme/nord) | 6804 | 2023-10-18T21:33:29Z | Other | Web app | 12 | 19 | 12 | 12 |
+| [folke/trouble.nvim](https://github.com/folke/trouble.nvim) | 6780 | 2025-10-31T14:02:34Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [awesome-NeRF/awesome-NeRF](https://github.com/awesome-NeRF/awesome-NeRF) | 6771 | 2025-01-06T11:03:37Z | Other | Unknown | 1 | 0 | 1 | 1 |
-| [folke/trouble.nvim](https://github.com/folke/trouble.nvim) | 6765 | 2025-10-31T14:02:34Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [microsoft/FASTER](https://github.com/microsoft/FASTER) | 6621 | 2025-04-22T19:06:31Z | Other | Unknown | 9 | 0 | 9 | 9 |
 | [altercation/vim-colors-solarized](https://github.com/altercation/vim-colors-solarized) | 6609 | 2024-04-10T14:44:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [2d-inc/HistoryOfEverything](https://github.com/2d-inc/HistoryOfEverything) | 6583 | 2021-09-22T19:36:20Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -477,7 +480,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mozilla-mobile/fenix](https://github.com/mozilla-mobile/fenix) | 6403 | 2023-02-20T10:15:34Z | Other | Infrastructure/tooling | 13 | 18 | 13 | 13 |
 | [cocodataset/cocoapi](https://github.com/cocodataset/cocoapi) | 6373 | 2024-04-17T05:14:06Z | Other | Service/API | 0 | 0 | 0 | 0 |
 | [athensresearch/athens](https://github.com/athensresearch/athens) | 6303 | 2023-02-03T12:32:15Z | Other | Infrastructure/tooling | 8 | 83 | 8 | 8 |
-| [preservim/tagbar](https://github.com/preservim/tagbar) | 6212 | 2025-10-02T14:54:19Z | Other | Infrastructure/tooling | 10 | 3 | 10 | 10 |
+| [preservim/tagbar](https://github.com/preservim/tagbar) | 6213 | 2025-10-02T14:54:19Z | Other | Infrastructure/tooling | 10 | 3 | 10 | 10 |
 | [tpope/vim-commentary](https://github.com/tpope/vim-commentary) | 6150 | 2024-10-22T02:05:39Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ddollar/foreman](https://github.com/ddollar/foreman) | 6145 | 2025-07-27T10:04:03Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [tensorflow/swift](https://github.com/tensorflow/swift) | 6134 | 2022-01-12T19:55:30Z | Other | Unknown | 3 | 0 | 3 | 3 |
@@ -517,7 +520,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [MarkFzp/mobile-aloha](https://github.com/MarkFzp/mobile-aloha) | 4415 | 2024-06-22T18:27:51Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [mesos/chronos](https://github.com/mesos/chronos) | 4384 | 2022-06-29T19:43:36Z | Other | Infrastructure/tooling | 11 | 0 | 11 | 11 |
 | [Instruction-Tuning-with-GPT-4/GPT-4-LLM](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM) | 4337 | 2023-06-11T13:40:30Z | Other | Unknown | 5 | 0 | 5 | 5 |
-| [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim) | 4305 | 2025-01-14T16:03:57Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
+| [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim) | 4311 | 2025-01-14T16:03:57Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [transmissions11/solmate](https://github.com/transmissions11/solmate) | 4275 | 2025-07-21T22:24:39Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [assemble/assemble](https://github.com/assemble/assemble) | 4255 | 2022-02-20T09:16:14Z | Other | Web app | 15 | 29 | 16 | 16 |
 | [bowang-lab/MedSAM](https://github.com/bowang-lab/MedSAM) | 4246 | 2025-05-07T13:36:16Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -593,7 +596,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [FranxYao/chain-of-thought-hub](https://github.com/FranxYao/chain-of-thought-hub) | 2770 | 2024-08-04T09:40:18Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [huggingface/swift-coreml-diffusers](https://github.com/huggingface/swift-coreml-diffusers) | 2751 | 2025-11-06T14:54:04Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [tpope/vim-dispatch](https://github.com/tpope/vim-dispatch) | 2733 | 2024-09-02T19:34:27Z | Other | Unknown | 2 | 0 | 2 | 2 |
-| [hyperhype/hyperscript](https://github.com/hyperhype/hyperscript) | 2732 | 2021-05-28T02:59:49Z | Other | Unknown | 2 | 7 | 2 | 2 |
+| [hyperhype/hyperscript](https://github.com/hyperhype/hyperscript) | 2733 | 2021-05-28T02:59:49Z | Other | Unknown | 2 | 7 | 2 | 2 |
 | [Shougo/neocomplete.vim](https://github.com/Shougo/neocomplete.vim) | 2730 | 2023-05-18T09:47:35Z | Other | Framework | 0 | 0 | 0 | 0 |
 | [FasterDecoding/Medusa](https://github.com/FasterDecoding/Medusa) | 2729 | 2024-06-25T12:23:04Z | Other | Framework | 1 | 0 | 1 | 1 |
 | [WICG/import-maps](https://github.com/WICG/import-maps) | 2720 | 2025-02-26T07:34:52Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -672,6 +675,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mlabbe/nativefiledialog](https://github.com/mlabbe/nativefiledialog) | 1976 | 2024-08-10T15:29:36Z | Other | Library | 4 | 0 | 4 | 4 |
 | [tatsu-lab/alpaca_eval](https://github.com/tatsu-lab/alpaca_eval) | 1972 | 2025-08-09T07:23:36Z | Other | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [spullara/mustache.java](https://github.com/spullara/mustache.java) | 1949 | 2024-09-19T23:06:56Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [nvim-telescope/telescope-file-browser.nvim](https://github.com/nvim-telescope/telescope-file-browser.nvim) | 1940 | 2025-08-05T20:15:06Z | Other | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [rtomayko/tilt](https://github.com/rtomayko/tilt) | 1939 | 2023-12-29T08:13:39Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [liuchengxu/vista.vim](https://github.com/liuchengxu/vista.vim) | 1937 | 2024-12-11T17:03:56Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [abo-abo/hydra](https://github.com/abo-abo/hydra) | 1935 | 2025-03-16T12:55:28Z | Other | Unknown | 0 | 0 | 0 | 0 |

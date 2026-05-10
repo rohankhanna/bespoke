@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3104,
-    "concepts": 1455,
-    "observations": 1457,
-    "repos": 303,
-    "terms": 1430
+    "components": 3140,
+    "concepts": 1487,
+    "observations": 1489,
+    "repos": 305,
+    "terms": 1462
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "acdlite/recompose",
@@ -60,6 +60,7 @@
     "CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers",
     "Carthage/Carthage",
     "Chanzhaoyu/chatgpt-web",
+    "chatchat-space/Langchain-Chatchat",
     "chenfei-wu/TaskMatrix",
     "chjj/blessed",
     "chriskempson/tomorrow-theme",
@@ -142,6 +143,7 @@
     "JakeChampion/fetch",
     "jamiebuilds/babel-handbook",
     "janl/mustache.js",
+    "jaredpalmer/formik",
     "jaredpalmer/razzle",
     "JetBrains/JetBrainsMono",
     "jhen0409/react-native-debugger",

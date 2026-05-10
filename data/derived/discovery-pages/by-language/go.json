@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 10175,
-    "concepts": 9981,
-    "observations": 10013,
-    "repos": 1705,
-    "terms": 9934
+    "concepts": 9984,
+    "observations": 10016,
+    "repos": 1706,
+    "terms": 9937
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",
@@ -391,6 +391,7 @@
     "chasefleming/elem-go",
     "chawyehsu/nvm-windows",
     "chenghonour/formulago",
+    "chenjiandongx/pls",
     "chenyahui/gin-cache",
     "chi-cat/frps-auth",
     "Chocolate4U/sing-geoip",

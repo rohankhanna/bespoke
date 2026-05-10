@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5565,
-    "concepts": 1054,
-    "observations": 1057,
-    "repos": 140,
-    "terms": 1158
+    "components": 5563,
+    "concepts": 1058,
+    "observations": 1061,
+    "repos": 139,
+    "terms": 1161
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -39,7 +39,6 @@
     "Azure/azure-sdk-for-js",
     "babaohuang/GeminiProChat",
     "badgen/badgen.net",
-    "bash-lsp/bash-language-server",
     "berty/berty",
     "blockprotocol/blockprotocol",
     "bluesky-social/atproto",
@@ -71,7 +70,6 @@
     "EpicenterHQ/epicenter",
     "eslint-stylistic/eslint-stylistic",
     "ethereumjs/ethereumjs-monorepo",
-    "ethers-io/ethers.js",
     "firebase/firebase-admin-node",
     "florianbruniaux/claude-code-ultimate-guide",
     "fontsource/fontsource",
@@ -110,6 +108,7 @@
     "microsoft/vscode-cpptools",
     "microsoft/vscode-eslint",
     "microsoft/vscode-languageserver-node",
+    "MiniMax-AI/cli",
     "mksglu/context-mode",
     "mutoe/vue3-realworld-example-app",
     "netlify/cli",
@@ -121,6 +120,7 @@
     "opactorai/claudable",
     "open-telemetry/opentelemetry-js",
     "OpenAPITools/openapi-generator-cli",
+    "ory/polis",
     "owloops/claude-powerline",
     "PAIR-code/lit",
     "panva/jose",
@@ -144,7 +144,6 @@
     "tensorflow/tensorboard",
     "the-guild-org/apollo-angular",
     "thomasloven/lovelace-card-mod",
-    "thx/resvg-js",
     "TooTallNate/proxy-agents",
     "vega/vega-lite",
     "VoltAgent/voltagent",

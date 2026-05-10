@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1439,
-    "concepts": 289,
-    "observations": 291,
-    "repos": 53,
-    "terms": 289
+    "components": 1520,
+    "concepts": 312,
+    "observations": 314,
+    "repos": 56,
+    "terms": 312
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,18 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "addfox/addfox",
     "aggre/ullr",
     "Airfooox/cron-validate",
     "appsignal/appsignal-javascript",
+    "carbon-design-system/carbon-preprocess-svelte",
     "catppuccin/.github",
     "coasys/flux",
+    "csm-actions/approve-pr-action",
+    "csm-actions/securefix-action",
     "ecyrbe/zodios-express",
     "elastic/opentelemetry-demo",
     "emscripten-forge/mambajs",
@@ -28,6 +31,7 @@
     "favware/esbuild-plugin-version-injector",
     "forcedotcom/agents",
     "ghostery/broken-page-reports",
+    "ibm-telemetry/telemetry-js",
     "iconify/iconify-tailwind",
     "iconify/tools",
     "intlify/cli",
@@ -43,7 +47,6 @@
     "NullVoxPopuli/ember-deep-tracked",
     "obsidianmd/eslint-plugin",
     "oclif/plugin-autocomplete",
-    "oclif/plugin-help",
     "oclif/plugin-update",
     "oclif/test",
     "octokit/auth-action.js",

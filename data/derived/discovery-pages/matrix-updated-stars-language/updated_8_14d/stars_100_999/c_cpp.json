@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 616,
-    "concepts": 614,
-    "observations": 615,
+    "components": 610,
+    "concepts": 638,
+    "observations": 639,
     "repos": 99,
-    "terms": 612
+    "terms": 636
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
+    "0ldsk00l/nestopia",
     "Alpine-DAV/ascent",
     "amerkoleci/joltc",
     "antgroup/vsag",
+    "apache/iceberg-cpp",
     "arminbiere/cadical",
     "asl/BandageNG",
     "aui-framework/aui",
@@ -26,7 +28,6 @@
     "boostorg/multiprecision",
     "ClickHouse/clickhouse-cpp",
     "coin-or/CppAD",
-    "davisp/jiffy",
     "ddemidov/amgcl",
     "DiligentGraphics/DiligentCore",
     "DiligentGraphics/DiligentFX",
@@ -43,12 +44,13 @@
     "freetype/freetype",
     "garglk/garglk",
     "gazebosim/sdformat",
-    "gisbi-kim/removert",
     "go-skynet/go-llama.cpp",
     "googleapis/google-cloud-cpp",
     "GraphBLAS/LAGraph",
     "grizzlypeak3d/tlRender",
     "HazyResearch/HipKittens",
+    "heiher/hev-socks5-server",
+    "heiher/hev-socks5-tproxy",
     "HybridRobotics/motion_tracking_controller",
     "iamaisim/ProjectAirSim",
     "intel/intel-graphics-compiler",
@@ -56,7 +58,6 @@
     "intel/ScalableVectorSearch",
     "istio/proxy",
     "j20001970/GDMP",
-    "jcmvbkbc/gcc-xtensa",
     "jellyfin/jellyfin-ffmpeg",
     "JokerJohn/DCReg",
     "jrouwe/JoltPhysics.js",
@@ -64,7 +65,6 @@
     "KDE/breeze-icons",
     "KhronosGroup/Vulkan-Loader",
     "KhronosGroup/Vulkan-ValidationLayers",
-    "kleisauke/wasm-vips",
     "kokkos/kokkos-kernels",
     "LedgerHQ/speculos",
     "libbitcoin/libbitcoin-server",
@@ -77,6 +77,7 @@
     "LunarG/gfxreconstruct",
     "LunarG/VulkanTools",
     "mapnik/node-mapnik",
+    "Mercury13/unicodia",
     "msoos/cryptominisat",
     "murat-dogan/node-datachannel",
     "nelson-lang/nelson",
@@ -93,7 +94,6 @@
     "pqrs-org/Karabiner-DriverKit-VirtualHIDDevice",
     "pygobject/pycairo",
     "RcppCore/Rcpp",
-    "robotology/yarp",
     "ROCm/AMDMIGraphX",
     "ROCm/rccl",
     "ROCm/rocBLAS",
@@ -107,11 +107,11 @@
     "snowballstem/snowball",
     "sophgo/LLM-TPU",
     "sophgo/tpu-mlir",
+    "todbot/hidapitester",
     "trealla-prolog/trealla",
     "triton-inference-server/onnxruntime_backend",
     "Unidata/netcdf-c",
     "uxlfoundation/oneDAL",
-    "uxlfoundation/oneDPL",
-    "VectorDB-NTU/RaBitQ-Library"
+    "uxlfoundation/oneDPL"
   ]
 }

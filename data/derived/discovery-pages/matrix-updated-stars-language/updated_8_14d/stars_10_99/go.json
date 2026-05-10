@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 191,
-    "concepts": 122,
-    "observations": 123,
-    "repos": 28,
-    "terms": 122
+    "components": 188,
+    "concepts": 118,
+    "observations": 119,
+    "repos": 27,
+    "terms": 118
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
     "ankitpokhrel/shopctl",
     "bitrise-io/stepman",
     "bootmortis/sing-geosite",
     "cloudfoundry/bosh-backup-and-restore",
-    "cloudfoundry/bpm-release",
     "cloudfoundry/cf-acceptance-tests",
     "cloudfoundry/cf-networking-release",
     "cloudfoundry/cf-smoke-tests",

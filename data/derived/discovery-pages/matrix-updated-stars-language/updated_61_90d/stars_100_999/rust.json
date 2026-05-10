@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 208,
-    "concepts": 143,
-    "observations": 143,
-    "repos": 35,
-    "terms": 142
+    "components": 192,
+    "concepts": 135,
+    "observations": 135,
+    "repos": 33,
+    "terms": 134
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "Ai00-X/ai00_server",
     "arkworks-rs/r1cs-std",
-    "ayazhafiz/xorf",
     "bet4it/udbserver",
     "blyxxyz/lexopt",
     "cormacrelf/dark-notify",
     "cowboy8625/rusty-rain",
-    "dtolnay/prettyplease",
     "esp-rs/embedded-svc",
     "fast/logforth",
     "filecoin-project/rust-fil-proofs",

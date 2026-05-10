@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 336,
-    "concepts": 649,
-    "observations": 650,
-    "repos": 141,
-    "terms": 643
+    "concepts": 656,
+    "observations": 657,
+    "repos": 142,
+    "terms": 650
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "AILab-CVC/VideoCrafter",
     "alexmojaki/snoop",
@@ -88,6 +88,7 @@
     "LeCAR-Lab/ASAP",
     "LTH14/JiT",
     "lucidrains/tab-transformer-pytorch",
+    "lupantech/AgentFlow",
     "MeetKai/functionary",
     "Minqi824/ADBench",
     "mjpost/sacrebleu",

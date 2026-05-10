@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 158,
-    "concepts": 91,
-    "observations": 91,
-    "repos": 14,
-    "terms": 90
+    "components": 150,
+    "concepts": 86,
+    "observations": 86,
+    "repos": 13,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman-js",
     "CHIP-SPV/H4I-MKLShim",
@@ -21,7 +21,6 @@
     "decibri/decibri.cpp",
     "gbrobro119-star/darksword-kexploit",
     "lonewolf-jp/convopeq",
-    "mypyc/librt",
     "openssh/openssh-portable-selfhosted",
     "rapidsai/rapids-logger",
     "ROCm/rocJPEG",

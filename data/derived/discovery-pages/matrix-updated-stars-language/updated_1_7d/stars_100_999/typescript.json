@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 871,
-    "concepts": 183,
-    "observations": 183,
-    "repos": 26,
-    "terms": 181
+    "components": 795,
+    "concepts": 158,
+    "observations": 158,
+    "repos": 22,
+    "terms": 156
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
+    "a2aproject/a2a-js",
     "abaplint/transpiler",
-    "agentclientprotocol/typescript-sdk",
-    "AgnosticUI/agnosticui",
     "Agoric/agoric-sdk",
     "ansible/vscode-ansible",
     "carbon-design-system/carbon-components-angular",
-    "carbon-design-system/sveld",
     "electron/packager",
     "embroider-build/ember-auto-import",
     "foundry-rs/foundry-toolchain",
@@ -28,16 +26,14 @@
     "huggingface/hf-mcp-server",
     "inversify/monorepo",
     "lambdalisue/vim-gin",
-    "LemmyNet/lemmy-js-client",
     "LuaLS/vscode-lua",
+    "mightyiam/eslint-config-love",
     "mswjs/interceptors",
     "P4sca1/cron-schedule",
     "preactjs/preact-devtools",
     "safe-fndn/safe-singleton-factory",
-    "SkepticMystic/breadcrumbs",
     "skilld-dev/skilld",
-    "sumup-oss/circuit-ui",
-    "unjs/listhen",
+    "stx-labs/stacks.js",
     "victorgarciaesgi/regle",
     "wevm/abitype"
   ]

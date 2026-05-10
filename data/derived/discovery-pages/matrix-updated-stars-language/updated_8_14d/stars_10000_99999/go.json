@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 495,
-    "concepts": 518,
-    "observations": 518,
-    "repos": 38,
-    "terms": 518
+    "components": 488,
+    "concepts": 501,
+    "observations": 501,
+    "repos": 37,
+    "terms": 501
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "a-h/templ",
     "anchore/grype",
@@ -23,6 +23,7 @@
     "cloudflare/cloudflared",
     "cloudwego/eino",
     "cockroachdb/cockroach",
+    "containers/podman",
     "dagger/dagger",
     "dgraph-io/dgraph",
     "DNSCrypt/dnscrypt-proxy",
@@ -46,10 +47,8 @@
     "pingcap/tidb",
     "pion/webrtc",
     "pulumi/pulumi",
-    "quic-go/quic-go",
     "rclone/rclone",
     "schollz/croc",
-    "spf13/cobra",
     "v2fly/v2ray-core",
     "VictoriaMetrics/VictoriaMetrics"
   ]

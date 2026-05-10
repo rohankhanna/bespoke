@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2136,
-    "concepts": 493,
-    "observations": 500,
-    "repos": 95,
-    "terms": 514
+    "components": 1989,
+    "concepts": 468,
+    "observations": 475,
+    "repos": 90,
+    "terms": 489
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "actions/create-github-app-token",
     "actions/hello-world-javascript-action",
     "adamlui/ai-web-extensions",
     "AdguardTeam/HostlistCompiler",
-    "adobe/spectrum-design-data",
     "agent-sh/agentsys",
     "anonrig/fast-querystring",
     "apache/incubator-seata-website",
@@ -54,6 +53,7 @@
     "fwcd/tree-sitter-kotlin",
     "gatsbyjs/gatsby-starter-hello-world",
     "gopasspw/gopassbridge",
+    "GordonChen19/Prompt-Relay",
     "graphql/graphql-over-http",
     "graphql/graphql-wg",
     "gruntjs/grunt-contrib-qunit",
@@ -65,8 +65,6 @@
     "ImranR98/apps.obtainium.imranr.dev",
     "ipfs/aegir",
     "jest-community/jest-junit",
-    "jimmywarting/native-file-system-adapter",
-    "js-kyle/mincer",
     "karma-runner/karma-coverage",
     "karma-runner/karma-jasmine",
     "kriszyp/lmdb-js",
@@ -80,7 +78,6 @@
     "marwin1991/profile-technology-icons",
     "Mathpix/mathpix-markdown-it",
     "mattgodbolt/jsbeeb",
-    "muratcankoylan/ralph-wiggum-marketer",
     "neostandard/neostandard",
     "nodejs/admin",
     "nodejs/TSC",
@@ -92,7 +89,7 @@
     "postcss/postcss-js",
     "postcss/postcss-load-config",
     "postcss/sugarss",
-    "previm/previm",
+    "rooklift/ogatak",
     "semantic-release/commit-analyzer",
     "semantic-release/github",
     "semantic-release/npm",
@@ -102,12 +99,10 @@
     "stripe-samples/accept-a-payment",
     "Taritsyn/BundleTransformer",
     "tc39/notes",
-    "terser/html-minifier-terser",
     "testing-library/testing-library-docs",
     "tomayac/SVGcode",
     "unicode-org/message-format-wg",
     "w3c/trusted-types",
-    "webpack/css-minimizer-webpack-plugin",
     "will62794/spectacle"
   ]
 }

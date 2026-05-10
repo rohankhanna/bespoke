@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1140,
-    "concepts": 488,
-    "observations": 490,
-    "repos": 404,
-    "terms": 488
+    "components": 1166,
+    "concepts": 496,
+    "observations": 498,
+    "repos": 408,
+    "terms": 496
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "2KAbhishek/exercism-fetcher",
@@ -197,6 +197,7 @@
     "expenses/trystero",
     "ezhang7423/hulc-baseline",
     "f-amerehi/eidolon",
+    "faradayio/compose_yml",
     "featherbread/hypcast-v1",
     "filecoin-project/fvm-test-vectors",
     "fky2015/navigator.nvim-bug-report",
@@ -205,6 +206,7 @@
     "flukexp/llama-piper-go",
     "fnoopv/rueidisstore",
     "fonwin/libfon9",
+    "forcedotcom/change-case-management",
     "Freed-Wu/coc-write-good",
     "garrettalbright/luacheck.novaextension",
     "genome21/langflow",
@@ -326,6 +328,7 @@
     "mongodb-forks/PyKMIP",
     "Mooncake-Labs/rust-postgres",
     "mountchicken/mmocr_tutorials",
+    "MoyuruAizawa/Images",
     "msoos/cryptominisat-rs",
     "MY1L/icense",
     "mzr1996/pytorch_sphinx_theme",
@@ -405,6 +408,7 @@
     "ve-forbryderne/mkultra",
     "vim-fall/deno-fall-core",
     "vizzuhq/.github",
+    "vuki656/vuki656",
     "weiyithu/weiyithu.github.io",
     "wesfloyd/avs-context-prompt",
     "wez/finl_unicode",

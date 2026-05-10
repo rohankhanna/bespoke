@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 413,
-    "concepts": 324,
-    "observations": 325,
-    "repos": 34,
-    "terms": 323
+    "components": 356,
+    "concepts": 254,
+    "observations": 255,
+    "repos": 26,
+    "terms": 254
   },
   "facet_version": 1,
   "filters": {
@@ -12,41 +12,33 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
     "Andersbakken/rtags",
     "ashvardanian/NumKong",
     "brave/brave-core",
-    "cisco/libsrtp",
-    "CloudCompare/CloudCompare",
     "dmlc/dlpack",
-    "facebookincubator/katran",
     "fnc12/sqlite_orm",
     "gpac/gpac",
-    "GStreamer/gstreamer",
     "harfbuzz/harfbuzz",
-    "heiher/hev-socks5-tunnel",
-    "KhronosGroup/KTX-Software",
-    "KratosMultiphysics/Kratos",
+    "libbitcoin/libbitcoin-system",
     "libcpr/cpr",
-    "libfuse/libfuse",
-    "Mithril-mine/libmdbx",
+    "luau-lang/luau",
     "mstorsjo/llvm-mingw",
     "NVIDIA/DALI",
     "OSGeo/gdal",
-    "PoseLib/PoseLib",
     "realsenseai/librealsense",
     "riscv-collab/riscv-gnu-toolchain",
     "skeeto/w64devkit",
     "sorbet/sorbet",
     "stack-of-tasks/pinocchio",
     "swiftlang/swift-corelibs-foundation",
+    "swiftlang/swift-llbuild",
     "TrenchBroom/TrenchBroom",
     "ultrajson/ultrajson",
     "universal-ctags/ctags",
     "uxlfoundation/oneTBB",
-    "vincentlaucsb/csv-parser",
     "xtensor-stack/xtensor"
   ]
 }

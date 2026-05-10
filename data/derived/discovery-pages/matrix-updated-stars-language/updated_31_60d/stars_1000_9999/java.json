@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 55,
-    "concepts": 66,
-    "observations": 66,
-    "repos": 11,
-    "terms": 65
+    "components": 57,
+    "concepts": 67,
+    "observations": 67,
+    "repos": 12,
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "bobbylight/RSyntaxTextArea",
     "http-kit/http-kit",
+    "langchain4j/langchain4j-examples",
     "msgpack/msgpack-java",
     "ninjaframework/ninja",
     "objectbox/objectbox-java",

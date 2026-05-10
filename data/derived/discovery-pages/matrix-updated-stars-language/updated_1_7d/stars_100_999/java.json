@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 32,
-    "concepts": 25,
-    "observations": 25,
-    "repos": 5,
-    "terms": 25
+    "components": 45,
+    "concepts": 53,
+    "observations": 53,
+    "repos": 7,
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
+    "cloudfoundry/credhub",
+    "eclipse-wildwebdeveloper/wildwebdeveloper",
     "jcefmaven/jcefmaven",
     "jdereg/json-io",
     "mapsforge/vtm",
-    "MarcusWolschon/osmeditor4android",
-    "processing/processing4"
+    "processing/processing4",
+    "spring-projects/spring-tools"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 159,
-    "concepts": 197,
-    "observations": 199,
-    "repos": 35,
-    "terms": 200
+    "components": 151,
+    "concepts": 191,
+    "observations": 193,
+    "repos": 34,
+    "terms": 194
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "alrra/dotfiles",
     "anthropics/claude-agent-sdk-typescript",
@@ -28,7 +28,6 @@
     "crosstool-ng/crosstool-ng",
     "devcontainers/features",
     "devcontainers/images",
-    "devcontainers/templates",
     "diet103/claude-code-infrastructure-showcase",
     "docker-library/docker",
     "docker-library/docs",
@@ -46,8 +45,8 @@
     "rocker-org/rocker",
     "rvm/rvm",
     "spiffe/spiffe",
+    "sublimehq/Packages",
     "void-linux/void-packages",
-    "zilliztech/attu",
     "zsh-users/zsh-completions"
   ]
 }

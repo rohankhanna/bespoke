@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 315,
-    "concepts": 348,
-    "observations": 348,
-    "repos": 64,
-    "terms": 338
+    "components": 345,
+    "concepts": 377,
+    "observations": 377,
+    "repos": 67,
+    "terms": 367
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "aquasecurity/starboard",
     "aquasecurity/tfsec",
@@ -20,6 +20,7 @@
     "atotto/clipboard",
     "azure/aztfexport",
     "bazelbuild/buildtools",
+    "bnb-chain/tss-lib",
     "btcsuite/btcd",
     "burke/zeus",
     "bytedance/gopkg",
@@ -27,6 +28,7 @@
     "cenkalti/backoff",
     "charmbracelet/glamour",
     "chromedp/examples",
+    "cloudnativelabs/kube-router",
     "cloudwego/netpoll",
     "CloudyKit/jet",
     "coder/websocket",
@@ -39,8 +41,8 @@
     "fatih/color",
     "fnproject/fn",
     "go-redis/redis_rate",
+    "gobackup/gobackup",
     "goccy/go-json",
-    "google/go-cmp",
     "google/go-jsonnet",
     "google/pprof",
     "google/starlark-go",
@@ -66,6 +68,7 @@
     "qjfoidnh/BaiduPCS-Go",
     "refraction-networking/utls",
     "rest-sh/restish",
+    "rootless-containers/rootlesskit",
     "smallnest/rpcx",
     "smtg-ai/claude-squad",
     "stripe/smokescreen",

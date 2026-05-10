@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2726,
-    "concepts": 486,
-    "observations": 489,
-    "repos": 64,
-    "terms": 482
+    "components": 2640,
+    "concepts": 479,
+    "observations": 482,
+    "repos": 63,
+    "terms": 475
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "ai/nanoid",
     "ajaxorg/ace",
@@ -61,7 +61,6 @@
     "prettier/prettier",
     "PrismJS/prism",
     "protobufjs/protobuf.js",
-    "reactjs/react.dev",
     "remy/nodemon",
     "rollup/rollup",
     "semantic-release/semantic-release",

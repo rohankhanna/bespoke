@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 143,
-    "concepts": 130,
-    "observations": 130,
-    "repos": 12,
-    "terms": 127
+    "components": 103,
+    "concepts": 95,
+    "observations": 95,
+    "repos": 10,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "apache/brpc",
-    "emscripten-core/emscripten",
     "ggml-org/ggml",
     "ggml-org/whisper.cpp",
     "google-deepmind/mujoco",
@@ -24,7 +23,6 @@
     "jrouwe/JoltPhysics",
     "mozilla-ai/llamafile",
     "protocolbuffers/protobuf",
-    "simdjson/simdjson",
     "Z3Prover/z3"
   ]
 }

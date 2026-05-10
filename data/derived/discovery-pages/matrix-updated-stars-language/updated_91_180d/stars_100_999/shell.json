@@ -3,7 +3,7 @@
     "components": 38,
     "concepts": 123,
     "observations": 123,
-    "repos": 25,
+    "repos": 24,
     "terms": 121
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-asset-update",
     "10up/action-wordpress-plugin-deploy",
@@ -26,7 +26,6 @@
     "bitwarden/brand",
     "bluzername/claude-code-terminal-title",
     "buildpacks/spec",
-    "coredns/deployment",
     "drduh/config",
     "get-gah/gah",
     "helm/chart-releaser-action",

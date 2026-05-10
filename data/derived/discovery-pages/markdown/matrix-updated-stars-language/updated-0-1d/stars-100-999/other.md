@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · Other
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
-- terms: 25
-- components: 20
-- concepts: 25
-- observations: 25
+- repos: 1
+- terms: 10
+- components: 7
+- concepts: 10
+- observations: 10
 
 ## Static behavior
 
@@ -26,16 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [WICG/attribution-reporting-api](https://github.com/WICG/attribution-reporting-api) | 458 | 2026-05-08T23:32:25Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
-| [karafka/rdkafka-ruby](https://github.com/karafka/rdkafka-ruby) | 403 | 2026-05-08T15:36:21Z | Other | CLI | 10 | 7 | 10 | 10 |
-| [bazel-contrib/rules_kotlin](https://github.com/bazel-contrib/rules_kotlin) | 365 | 2026-05-08T13:15:20Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
-| [elixir-protobuf/protobuf](https://github.com/elixir-protobuf/protobuf) | 898 | 2026-05-08T11:56:56Z | Other | Infrastructure/tooling | 8 | 4 | 8 | 8 |
+| [karafka/rdkafka-ruby](https://github.com/karafka/rdkafka-ruby) | 403 | 2026-05-09T08:52:39Z | Other | CLI | 10 | 7 | 10 | 10 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [elixir-protobuf/protobuf](https://github.com/elixir-protobuf/protobuf) | 898 | 2026-05-08T11:56:56Z | Other | Infrastructure/tooling | 8 | 4 | 8 | 8 |
-| [WICG/attribution-reporting-api](https://github.com/WICG/attribution-reporting-api) | 458 | 2026-05-08T23:32:25Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
-| [karafka/rdkafka-ruby](https://github.com/karafka/rdkafka-ruby) | 403 | 2026-05-08T15:36:21Z | Other | CLI | 10 | 7 | 10 | 10 |
-| [bazel-contrib/rules_kotlin](https://github.com/bazel-contrib/rules_kotlin) | 365 | 2026-05-08T13:15:20Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
+| [karafka/rdkafka-ruby](https://github.com/karafka/rdkafka-ruby) | 403 | 2026-05-09T08:52:39Z | Other | CLI | 10 | 7 | 10 | 10 |

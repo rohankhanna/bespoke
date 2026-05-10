@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 196,
+    "components": 205,
     "concepts": 109,
     "observations": 109,
-    "repos": 50,
+    "repos": 51,
     "terms": 127
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "adaumann/speckit-preset-fiction-book-writing",
@@ -45,12 +45,12 @@
     "floxym/financial-chat",
     "frank-syncmarket/skills",
     "gibdd-dps/prizolov-agent-os",
+    "Jango-AI-com/morning-cli",
     "jupyter-xeus/xeus-python-shell",
     "justinchuby/lintrunner-adapters",
     "kalavai-net/kube-watcher",
     "kelp/webdown",
     "lace/proximity",
-    "lxgw/LxgwWenKai-shared",
     "ModelCloud/Defuser",
     "ModelCloud/LogBar",
     "momentique/source-code-security-audit-reviewer",
@@ -62,6 +62,7 @@
     "rrsaldanha/burp-mcp-agents",
     "sunthinks/kvmind",
     "TexasInstruments/edgeai-tidlrunner",
+    "TJC-LP/sanzaru",
     "verkyyi/tokenman",
     "xiaochu-1208/interview-assistant-cli"
   ]

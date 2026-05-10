@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Shell
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 89
+- repos: 90
 - terms: 198
 - components: 67
 - concepts: 205
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [coredns/deployment](https://github.com/coredns/deployment) | 571 | 2025-11-10T12:52:20Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [mpv-player/mpv-build](https://github.com/mpv-player/mpv-build) | 476 | 2025-11-02T20:17:08Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [calcom/docker](https://github.com/calcom/docker) | 899 | 2025-10-29T15:52:56Z | Shell | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [lxgw/advanced-cjk-font-magisk-module-template](https://github.com/lxgw/advanced-cjk-font-magisk-module-template) | 253 | 2025-10-24T15:54:58Z | Shell | Template/starter | 3 | 0 | 3 | 3 |
@@ -53,7 +54,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alpinelinux/alpine-chroot-install](https://github.com/alpinelinux/alpine-chroot-install) | 338 | 2025-01-06T00:18:13Z | Shell | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [Asterisk4Magisk/Xray4Magisk](https://github.com/Asterisk4Magisk/Xray4Magisk) | 444 | 2024-11-11T15:04:38Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [lukechilds/zsh-better-npm-completion](https://github.com/lukechilds/zsh-better-npm-completion) | 499 | 2024-10-31T09:38:35Z | Shell | Unknown | 2 | 0 | 2 | 2 |
-| [Alex313031/ThoriumOS](https://github.com/Alex313031/ThoriumOS) | 521 | 2024-08-29T03:48:11Z | Shell | Library | 9 | 0 | 9 | 9 |
+| [Alex313031/ThoriumOS](https://github.com/Alex313031/ThoriumOS) | 522 | 2024-08-29T03:48:11Z | Shell | Library | 9 | 0 | 9 | 9 |
 | [infusion/udf_infusion](https://github.com/infusion/udf_infusion) | 140 | 2024-08-27T23:10:02Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [devcontainers/feature-starter](https://github.com/devcontainers/feature-starter) | 419 | 2024-08-22T22:27:04Z | Shell | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [arnoldthebat/chromiumos](https://github.com/arnoldthebat/chromiumos) | 281 | 2024-08-19T17:49:03Z | Shell | Unknown | 0 | 0 | 0 | 0 |
@@ -137,11 +138,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [drduh/Purse](https://github.com/drduh/Purse) | 614 | 2025-04-14T00:00:38Z | Shell | Unknown | 9 | 0 | 11 | 11 |
 | [ungoogled-software/ungoogled-chromium-android](https://github.com/ungoogled-software/ungoogled-chromium-android) | 612 | 2023-04-19T22:40:06Z | Shell | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [zsh-users/zaw](https://github.com/zsh-users/zaw) | 584 | 2023-08-05T22:37:22Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [coredns/deployment](https://github.com/coredns/deployment) | 571 | 2025-11-10T12:52:20Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [lukechilds/gifgen](https://github.com/lukechilds/gifgen) | 565 | 2023-01-22T12:21:49Z | Shell | Unknown | 2 | 0 | 2 | 2 |
 | [google-research-datasets/conceptual-captions](https://github.com/google-research-datasets/conceptual-captions) | 563 | 2021-08-21T16:18:14Z | Shell | Model/data | 0 | 0 | 0 | 0 |
 | [FabioAntunes/fish-nvm](https://github.com/FabioAntunes/fish-nvm) | 536 | 2024-04-17T09:51:58Z | Shell | Unknown | 5 | 0 | 5 | 5 |
 | [dockerfile/ubuntu](https://github.com/dockerfile/ubuntu) | 523 | 2023-12-23T07:53:25Z | Shell | Infrastructure/tooling | 0 | 0 | 0 | 0 |
-| [Alex313031/ThoriumOS](https://github.com/Alex313031/ThoriumOS) | 521 | 2024-08-29T03:48:11Z | Shell | Library | 9 | 0 | 9 | 9 |
+| [Alex313031/ThoriumOS](https://github.com/Alex313031/ThoriumOS) | 522 | 2024-08-29T03:48:11Z | Shell | Library | 9 | 0 | 9 | 9 |
 | [hashicorp/docker-vault](https://github.com/hashicorp/docker-vault) | 502 | 2023-12-06T14:53:22Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [lukechilds/zsh-better-npm-completion](https://github.com/lukechilds/zsh-better-npm-completion) | 499 | 2024-10-31T09:38:35Z | Shell | Unknown | 2 | 0 | 2 | 2 |
 | [mattmc3/zsh_unplugged](https://github.com/mattmc3/zsh_unplugged) | 492 | 2025-10-09T12:31:07Z | Shell | Unknown | 1 | 0 | 1 | 1 |

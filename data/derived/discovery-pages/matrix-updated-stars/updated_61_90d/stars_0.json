@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 137,
-    "concepts": 70,
-    "observations": 70,
-    "repos": 39,
-    "terms": 69
+    "components": 143,
+    "concepts": 73,
+    "observations": 73,
+    "repos": 40,
+    "terms": 72
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "0xBigBoss/ghostty-web",
     "1000ch/Sublime-csso",
@@ -50,6 +50,7 @@
     "samsja/dion",
     "sp1-patches/curve25519-dalek",
     "typstyle-rs/prettyless",
+    "usdot-fhwa-stol/carma-ns3-adapter",
     "yoshoku/numo-liblinear",
     "zcash/MultiMarkdown-6"
   ]

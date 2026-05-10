@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1937,
-    "concepts": 304,
-    "observations": 305,
-    "repos": 49,
-    "terms": 302
+    "components": 2244,
+    "concepts": 358,
+    "observations": 359,
+    "repos": 52,
+    "terms": 356
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
+    "alphagov/govuk-frontend",
     "amannn/action-semantic-pull-request",
     "antfu/eslint-config",
     "apostrophecms/apostrophe",
@@ -22,6 +23,7 @@
     "google/docsy",
     "GoogleChromeLabs/clooney",
     "GoogleCloudPlatform/nodejs-docs-samples",
+    "heshengtao/super-agent-party",
     "i18next/react-i18next",
     "import-js/eslint-plugin-import",
     "isomorphic-git/isomorphic-git",
@@ -50,12 +52,13 @@
     "postcss/postcss-import",
     "ranisalt/node-argon2",
     "RisingStack/react-easy-state",
+    "stdlib-js/stdlib",
     "sveltejs/devalue",
     "sveltejs/vite-plugin-svelte",
+    "sverweij/dependency-cruiser",
     "swagger-api/swagger-editor",
     "tapjs/tapjs",
     "terser/terser",
-    "testem/testem",
     "umijs/dumi",
     "unifiedjs/unified",
     "violentmonkey/violentmonkey",

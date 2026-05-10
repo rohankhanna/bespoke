@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 234,
-    "concepts": 134,
-    "observations": 137,
-    "repos": 28,
-    "terms": 133
+    "components": 185,
+    "concepts": 120,
+    "observations": 120,
+    "repos": 23,
+    "terms": 120
   },
   "facet_version": 1,
   "filters": {
@@ -12,35 +12,30 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
-    "ameshkov/swift-psl",
-    "bladeacer/flexcyon",
-    "countries/countries-data-json",
+    "Cle2ment/CherryStudio_themes",
     "CuatroElixir/spear",
     "cucumber/cucumber-js-examples",
     "dinosaure/blaze",
+    "dwyl/mvp",
     "FactoryXCode/MfPack",
-    "haskell/ghcup-metadata",
     "HDFGroup/hdf5_plugins",
     "helix-toolkit/helix-toolkit-nex",
     "IBM/hello-carbon-vue3",
+    "jelly-beam/rebar3_ex_doc",
     "JuliaGeo/GeometryOps.jl",
-    "JuliaSparse/SparseArrays.jl",
     "ludwig-ai/ludwig-docs",
     "lumen-oss/luarocks-tag-release",
     "lumen-oss/nurr",
-    "melpa/package-build",
     "mit-plv/coqutil",
     "mrcjkb/neotest-haskell",
-    "MSP-Greg/ruby-loco",
+    "ocaml-tracing/ocaml-opentelemetry",
+    "ocaml-tracing/ocaml-trace",
+    "pivotal/credhub-release",
     "processing/processing-website",
-    "robotology/robotology-superbuild",
     "ros2/example_interfaces",
-    "ruby/jruby-dev-builder",
-    "ruby/ruby-dev-builder",
     "Shopify/rbi-central",
-    "siketyan/intellij-rustowl",
-    "tinted-theming/tinted-xresources"
+    "siketyan/intellij-rustowl"
   ]
 }

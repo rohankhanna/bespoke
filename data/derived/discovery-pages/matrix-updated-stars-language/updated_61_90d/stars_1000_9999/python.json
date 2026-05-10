@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 169,
-    "concepts": 319,
-    "observations": 319,
+    "concepts": 312,
+    "observations": 312,
     "repos": 59,
-    "terms": 312
+    "terms": 305
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -46,7 +46,6 @@
     "langfengQ/verl-agent",
     "layumi/Person_reID_baseline_pytorch",
     "LTH14/mar",
-    "lupantech/AgentFlow",
     "lyuwenyu/RT-DETR",
     "meta-llama/llama-models",
     "mozillazg/pinyin-data",
@@ -68,6 +67,7 @@
     "simonw/claude-code-transcripts",
     "the-moonwitch/Cozette",
     "toshas/torch-fidelity",
+    "trevin-creator/autoresearch-mlx",
     "turboderp-org/exllamav2",
     "webdataset/webdataset",
     "YosysHQ/icestorm",

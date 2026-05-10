@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 578,
-    "concepts": 108,
-    "observations": 108,
-    "repos": 18,
-    "terms": 114
+    "components": 664,
+    "concepts": 115,
+    "observations": 115,
+    "repos": 19,
+    "terms": 121
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "anuraghazra/github-readme-stats",
     "auth0/node-jsonwebtoken",
@@ -26,6 +26,7 @@
     "markdown-it/markdown-it",
     "parcel-bundler/parcel",
     "pugjs/pug",
+    "reactjs/react.dev",
     "testing-library/react-testing-library",
     "thomaspark/bootswatch",
     "typicode/husky",

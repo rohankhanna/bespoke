@@ -1,18 +1,19 @@
 {
   "counts": {
-    "components": 194,
-    "concepts": 87,
-    "observations": 88,
-    "repos": 8,
-    "terms": 84
+    "components": 199,
+    "concepts": 106,
+    "observations": 107,
+    "repos": 9,
+    "terms": 103
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
+    "2dust/v2rayN",
     "anomalyco/opencode",
     "excalidraw/excalidraw",
     "fatedier/frp",

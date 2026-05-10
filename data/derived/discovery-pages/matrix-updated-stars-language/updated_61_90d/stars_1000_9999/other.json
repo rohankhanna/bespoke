@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 235,
-    "concepts": 305,
-    "observations": 306,
-    "repos": 51,
-    "terms": 309
+    "components": 231,
+    "concepts": 298,
+    "observations": 299,
+    "repos": 52,
+    "terms": 303
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
     "amebalabs/TRex",
     "analysis-tools-dev/dynamic-analysis",
     "ardalis/ApiEndpoints",
-    "artempyanykh/marksman",
+    "bbatsov/projectile",
     "clojure/clojurescript",
     "cognitect/transit-format",
     "dashbitco/mox",
@@ -27,13 +27,13 @@
     "Deci-AI/super-gradients",
     "dimitri/el-get",
     "dspinellis/latex-advice",
-    "emacs-lsp/dap-mode",
     "ex-aws/ex_aws",
     "facebookresearch/co-tracker",
     "formtastic/formtastic",
     "Glavin001/atom-beautify",
     "Gonzalo-D-Sales/obsidian-velocity",
     "googleapis/elixir-google-api",
+    "grangier/python-goose",
     "IDEA-Research/Rex-Omni",
     "javan/whenever",
     "jpanther/congo",
@@ -53,6 +53,7 @@
     "preservim/vimux",
     "pry/pry",
     "rails/tailwindcss-rails",
+    "rrousselGit/provider",
     "salesforce/BLIP",
     "sbt/sbt-native-packager",
     "SpinalHDL/VexRiscv",

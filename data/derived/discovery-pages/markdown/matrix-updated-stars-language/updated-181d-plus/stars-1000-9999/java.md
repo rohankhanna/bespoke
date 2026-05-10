@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Java
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 41
-- terms: 170
+- repos: 42
+- terms: 173
 - components: 130
-- concepts: 171
-- observations: 171
+- concepts: 174
+- observations: 174
 
 ## Static behavior
 
@@ -57,6 +57,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [reactive-streams/reactive-streams-jvm](https://github.com/reactive-streams/reactive-streams-jvm) | 4874 | 2024-03-13T03:40:25Z | Java | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [aragozin/jvm-tools](https://github.com/aragozin/jvm-tools) | 3344 | 2024-01-26T12:20:14Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [facebook/buck](https://github.com/facebook/buck) | 8546 | 2023-10-25T02:45:11Z | Java | Unknown | 4 | 0 | 4 | 4 |
+| [ArthurHub/Android-Image-Cropper](https://github.com/ArthurHub/Android-Image-Cropper) | 6424 | 2023-09-17T15:20:18Z | Java | Library | 3 | 0 | 3 | 3 |
 | [WangDaYeeeeee/GeometricWeather](https://github.com/WangDaYeeeeee/GeometricWeather) | 2524 | 2023-08-16T22:57:26Z | Java | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [MSPaintIDE/MSPaintIDE](https://github.com/MSPaintIDE/MSPaintIDE) | 1435 | 2023-08-07T22:39:23Z | Java | Unknown | 6 | 0 | 6 | 6 |
 | [me-no-dev/EspExceptionDecoder](https://github.com/me-no-dev/EspExceptionDecoder) | 1136 | 2023-04-08T01:21:51Z | Java | Unknown | 0 | 0 | 0 | 0 |
@@ -77,6 +78,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [facebook/buck](https://github.com/facebook/buck) | 8546 | 2023-10-25T02:45:11Z | Java | Unknown | 4 | 0 | 4 | 4 |
 | [LaurieWired/GhidraMCP](https://github.com/LaurieWired/GhidraMCP) | 8537 | 2025-06-23T04:18:18Z | Java | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [processing/processing](https://github.com/processing/processing) | 6492 | 2025-05-18T21:02:16Z | Java | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [ArthurHub/Android-Image-Cropper](https://github.com/ArthurHub/Android-Image-Cropper) | 6424 | 2023-09-17T15:20:18Z | Java | Library | 3 | 0 | 3 | 3 |
 | [youtube/api-samples](https://github.com/youtube/api-samples) | 5974 | 2024-06-09T20:38:03Z | Java | Service/API | 0 | 0 | 0 | 0 |
 | [remkop/picocli](https://github.com/remkop/picocli) | 5365 | 2025-10-30T11:04:09Z | Java | CLI | 20 | 14 | 21 | 21 |
 | [novicezk/midjourney-proxy](https://github.com/novicezk/midjourney-proxy) | 5260 | 2025-08-03T07:41:19Z | Java | Infrastructure/tooling | 2 | 0 | 2 | 2 |

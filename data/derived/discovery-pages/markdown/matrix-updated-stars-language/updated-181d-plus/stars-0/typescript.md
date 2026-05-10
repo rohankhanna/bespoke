@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · TypeScript
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 14
-- terms: 37
-- components: 218
-- concepts: 37
-- observations: 37
+- repos: 15
+- terms: 45
+- components: 244
+- concepts: 45
+- observations: 45
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [forcedotcom/change-case-management](https://github.com/forcedotcom/change-case-management) | 0 | 2025-11-10T11:28:14Z | TypeScript | Infrastructure/tooling | 8 | 26 | 8 | 8 |
 | [probe-lab/github-mgmt](https://github.com/probe-lab/github-mgmt) | 0 | 2025-09-26T11:54:35Z | TypeScript | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [offline-ai/cli-plugin-cmd-brain.js](https://github.com/offline-ai/cli-plugin-cmd-brain.js) | 0 | 2025-09-22T11:54:43Z | TypeScript | Unknown | 0 | 26 | 0 | 0 |
 | [tnc-ca-geo/animl-ingest-api](https://github.com/tnc-ca-geo/animl-ingest-api) | 0 | 2025-07-03T21:52:55Z | TypeScript | Service/API | 0 | 0 | 0 | 0 |
@@ -45,6 +46,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [forcedotcom/change-case-management](https://github.com/forcedotcom/change-case-management) | 0 | 2025-11-10T11:28:14Z | TypeScript | Infrastructure/tooling | 8 | 26 | 8 | 8 |
 | [probe-lab/github-mgmt](https://github.com/probe-lab/github-mgmt) | 0 | 2025-09-26T11:54:35Z | TypeScript | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [offline-ai/cli-plugin-cmd-brain.js](https://github.com/offline-ai/cli-plugin-cmd-brain.js) | 0 | 2025-09-22T11:54:43Z | TypeScript | Unknown | 0 | 26 | 0 | 0 |
 | [tnc-ca-geo/animl-ingest-api](https://github.com/tnc-ca-geo/animl-ingest-api) | 0 | 2025-07-03T21:52:55Z | TypeScript | Service/API | 0 | 0 | 0 | 0 |

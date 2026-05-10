@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 147,
-    "concepts": 72,
-    "observations": 72,
-    "repos": 62,
-    "terms": 72
+    "components": 163,
+    "concepts": 78,
+    "observations": 78,
+    "repos": 65,
+    "terms": 78
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "aidenlab/spacewalk",
     "aidenlab/swtool",
@@ -21,7 +21,6 @@
     "csm-actions/demo-client",
     "danielrosehill/AI-Dev-Repo-Template-1",
     "danielrosehill/AI-Dev-Workspace-Primitives",
-    "danielrosehill/AI-Safety-Projects-Index",
     "danielrosehill/Air-Quality-Toolkit-Plugin",
     "danielrosehill/Awesome-Hebrew-Fonts",
     "danielrosehill/BUDGET.md",
@@ -48,13 +47,15 @@
     "danielrosehill/Claude-GIMP-Plugin",
     "danielrosehill/Claude-Github-Explorer-Plugin",
     "danielrosehill/Claude-GPG-Ops-Plugin",
+    "danielrosehill/Claude-Hardware-Spec-Assembly-Plugin",
     "danielrosehill/Claude-Hopper",
+    "danielrosehill/Claude-HP5200-Skill-plugin",
+    "danielrosehill/Claude-Image-Annotation-Plugin",
     "danielrosehill/DOCS.md",
     "danielrosehill/ENVIRONMENT.md",
     "danielrosehill/GROUNDING.md",
     "danielrosehill/Israel-Projects-Index",
     "danielrosehill/Repo-Starters-And-Templates-Index",
-    "danielrosehill/Responsible-Agent-Skill-Development",
     "flagos-ai/verl-FL",
     "getlantern/guide",
     "hermit-os/.github",
@@ -67,11 +68,13 @@
     "kalavai-net/kalavai-templates",
     "kyverno/.github",
     "lace/lacecore",
+    "lakekeeper/iceberg-rust",
     "lakekeeper/lakekeeper-operator",
     "netdur/imaged-sdk-examples",
     "NightWatcher314/dockgecli",
     "NightWatcher314/npmctl",
     "qiayuanl/unitree_buildfarm",
+    "seanmacavaney/ir-datasets.com",
     "sp1-patches/elliptic-curves",
     "squidowl/iced",
     "superfarther/K2V"

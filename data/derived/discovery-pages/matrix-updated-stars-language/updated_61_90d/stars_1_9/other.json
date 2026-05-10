@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 97,
+    "components": 95,
     "concepts": 62,
     "observations": 62,
-    "repos": 23,
+    "repos": 22,
     "terms": 59
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "adobe/spectrum-tokens",
@@ -25,7 +25,6 @@
     "hermit-os/hermit-gcc",
     "ihmcrobotics/ihmc-build",
     "JuliaBinaryWrappers/Zlib_jll.jl",
-    "Jumziey/neotest-nix-unit.nvim",
     "MarcCote/TextWorld",
     "nikitabobko/homebrew-tap",
     "objectbox/objectbox-swift-generator",

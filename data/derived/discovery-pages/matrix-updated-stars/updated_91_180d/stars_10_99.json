@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2021,
-    "concepts": 1029,
-    "observations": 1035,
-    "repos": 410,
-    "terms": 1037
+    "components": 2032,
+    "concepts": 1044,
+    "observations": 1050,
+    "repos": 414,
+    "terms": 1052
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "1ilkhamov/opencode-hermes-multiagent",
@@ -31,7 +31,6 @@
     "AdaCore/gnatcoll-db",
     "adamgreig/ecpdap",
     "adamharrison/lite-xl-terminal",
-    "adelarsq/neovcs.vim",
     "adevinta/actions-lighthouseci-compare",
     "Adlik/model_zoo",
     "Adlik/vllm",
@@ -153,6 +152,7 @@
     "emory-irlab/pyterrier_genrank",
     "eric-haibin-lin/verl-community",
     "EricLBuehler/candle",
+    "erikw/tmux-dark-notify",
     "erkyrath/glk-dev",
     "espressif/conventional-precommit-linter",
     "ethereum/eipw",
@@ -160,6 +160,7 @@
     "EvelynZhang-epiclab/DaTo",
     "evmos/os",
     "extism/go-pdk",
+    "extism/rust-pdk",
     "FAIR-IMPACT/MOD",
     "falcoframework/Falco.Htmx",
     "falcoframework/Falco.OpenApi",
@@ -192,6 +193,7 @@
     "haskell-actions/run-ormolu",
     "haydn-jones/SOAP_JAX",
     "holochain/launcher",
+    "HolyBlackCat/box2cpp",
     "honwen/openwrt-shadowsocks-rust",
     "hspec/sensei",
     "HuajianUP/360Loc",
@@ -211,6 +213,7 @@
     "isaacs/clock-mock",
     "jaegertracing/docker-protobuf",
     "JaeZ1205/PS_NBI2k",
+    "jakudlaty/tsid",
     "JamieMair/MuJoCo.jl",
     "janwilmake/oapis",
     "JarnoRFB/incense",
@@ -223,6 +226,7 @@
     "jhogsett/EMA-VFI-WebUI",
     "jhogsett/VFIformer-WebUI",
     "jin-s13/xtcocoapi",
+    "joanroig/admincraft",
     "JodaOrg/joda-time-hibernate",
     "johandahlberg/awesome-10x-genomics",
     "jokkebk/JUnzip",

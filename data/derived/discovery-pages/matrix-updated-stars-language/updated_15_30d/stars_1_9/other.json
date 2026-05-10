@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 186,
-    "concepts": 124,
-    "observations": 124,
-    "repos": 54,
-    "terms": 124
+    "components": 188,
+    "concepts": 130,
+    "observations": 130,
+    "repos": 55,
+    "terms": 130
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "0xPolygonHermez/stark-recurser",
     "actboy168/ltest",
-    "alstafeev/midscene-java",
     "ankane/seaduck",
     "apache/netbeans-antora-ui",
     "b-data/jupyterlab-julia-docker-stack",
@@ -45,7 +44,6 @@
     "goreleaser/.github",
     "gusztavvargadr/aws-vault-chocolatey",
     "hchiam/hchiam.github.io",
-    "helix-toolkit/helix-toolkit.github.io",
     "jhugestar/jhugestar.github.io",
     "joinwell52-ai/codeflow-pwa",
     "joinwell52-ai/joinwell52",
@@ -61,12 +59,15 @@
     "php-toolkit/stdlib",
     "raku-community-modules/Terminal-WCWidth",
     "ROCm/hipBLAS-common",
+    "ros2-rust/rosidl_rust",
     "Shougo/dpp-ext-lazy",
     "standardrb/standard-custom",
     "tarikmanoar/tarikmanoar",
     "Tengfei-Wang/Tengfei-Wang.github.io",
+    "tinted-theming/base16-waybar",
     "tnc-ca-geo/animl-ml",
     "tweag/gazelle_haskell_modules",
+    "v-iashin/v-iashin.github.io",
     "wavelens/gobgp.nix"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1538,
-    "concepts": 325,
-    "observations": 325,
-    "repos": 53,
-    "terms": 334
+    "components": 1578,
+    "concepts": 338,
+    "observations": 338,
+    "repos": 55,
+    "terms": 347
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "43081j/picoquery",
@@ -38,16 +38,18 @@
     "elm-tooling/elm-language-server",
     "fannheyward/coc-sql",
     "fannheyward/create-coc-extension",
+    "filllabs/dependi",
+    "google/adk-web",
     "graalvm/setup-graalvm",
     "graphql-hive/graphql-eslint",
     "hazelcast/hazelcast-nodejs-client",
-    "hyparam/hightable",
     "ivo-toby/mcp-openapi-server",
     "jupyterlab/extension-examples",
     "krassowski/jupyterlab-lsp",
     "kylebarron/arrow-js-ffi",
     "latex-lsp/texlab-vscode",
     "lobehub/lobe-midjourney-webui",
+    "MattiasBuelens/web-streams-polyfill",
     "microsoft/vscode-debugadapter-node",
     "nashaofu/screenshots",
     "neoclide/coc-java",

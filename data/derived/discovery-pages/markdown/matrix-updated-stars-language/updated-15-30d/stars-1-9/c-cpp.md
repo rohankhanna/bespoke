@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · C/C++
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 14
-- terms: 90
-- components: 158
-- concepts: 91
-- observations: 91
+- repos: 13
+- terms: 85
+- components: 150
+- concepts: 86
+- observations: 86
 
 ## Static behavior
 
@@ -39,13 +39,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stdlib-js/ndarray-ctor](https://github.com/stdlib-js/ndarray-ctor) | 3 | 2026-04-17T11:23:45Z | C/C++ | Infrastructure/tooling | 24 | 58 | 24 | 24 |
 | [rapidsai/rapids-logger](https://github.com/rapidsai/rapids-logger) | 2 | 2026-04-16T17:38:34Z | C/C++ | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [decibri/decibri.cpp](https://github.com/decibri/decibri.cpp) | 6 | 2026-04-16T12:24:04Z | C/C++ | Web app | 7 | 3 | 7 | 7 |
-| [mypyc/librt](https://github.com/mypyc/librt) | 9 | 2026-04-09T15:44:14Z | C/C++ | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [mypyc/librt](https://github.com/mypyc/librt) | 9 | 2026-04-09T15:44:14Z | C/C++ | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [ROCm/rocJPEG](https://github.com/ROCm/rocJPEG) | 7 | 2026-04-24T17:32:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [decibri/decibri.cpp](https://github.com/decibri/decibri.cpp) | 6 | 2026-04-16T12:24:04Z | C/C++ | Web app | 7 | 3 | 7 | 7 |
 | [0xPolygonHermez/pil2-proofman-js](https://github.com/0xPolygonHermez/pil2-proofman-js) | 3 | 2026-04-20T17:33:33Z | C/C++ | Unknown | 0 | 14 | 0 | 0 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 495,
-    "concepts": 597,
-    "observations": 597,
-    "repos": 268,
-    "terms": 594
+    "components": 497,
+    "concepts": 600,
+    "observations": 600,
+    "repos": 269,
+    "terms": 597
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "13thsymphony/HDRImageViewer",
     "19reborn/NeuS2_TCNN",
@@ -175,6 +175,7 @@
     "kozyraki/phoenix",
     "KratosMultiphysics/CoSimIO",
     "kriszyp/lmdbx-js",
+    "ksnip/kColorPicker",
     "kwilczynski/ruby-magic",
     "larseggert/asciiTeX",
     "leofansq/SCF-Net",

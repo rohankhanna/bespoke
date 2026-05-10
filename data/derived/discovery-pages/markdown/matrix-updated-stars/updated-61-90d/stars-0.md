@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars
 
-Generated at: `2026-05-09T08:20:40.985131+00:00`
+Generated at: `2026-05-10T05:46:09.737913+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 39
-- terms: 69
-- components: 137
-- concepts: 70
-- observations: 70
+- repos: 40
+- terms: 72
+- components: 143
+- concepts: 73
+- observations: 73
 
 ## Static behavior
 
@@ -25,6 +25,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [usdot-fhwa-stol/carma-ns3-adapter](https://github.com/usdot-fhwa-stol/carma-ns3-adapter) | 0 | 2026-03-10T16:28:52Z | C/C++ | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [firstbatchxyz/dkn-protocol](https://github.com/firstbatchxyz/dkn-protocol) | 0 | 2026-03-09T20:51:02Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [onomojo/i18n-country-translations-go](https://github.com/onomojo/i18n-country-translations-go) | 0 | 2026-03-09T13:58:17Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [onomojo/i18n-timezones-go](https://github.com/onomojo/i18n-timezones-go) | 0 | 2026-03-09T13:58:01Z | Go | Unknown | 0 | 0 | 0 | 0 |
@@ -69,6 +70,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [usdot-fhwa-stol/carma-ns3-adapter](https://github.com/usdot-fhwa-stol/carma-ns3-adapter) | 0 | 2026-03-10T16:28:52Z | C/C++ | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [firstbatchxyz/dkn-protocol](https://github.com/firstbatchxyz/dkn-protocol) | 0 | 2026-03-09T20:51:02Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [onomojo/i18n-country-translations-go](https://github.com/onomojo/i18n-country-translations-go) | 0 | 2026-03-09T13:58:17Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [onomojo/i18n-timezones-go](https://github.com/onomojo/i18n-timezones-go) | 0 | 2026-03-09T13:58:01Z | Go | Unknown | 0 | 0 | 0 | 0 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1605,
-    "concepts": 1500,
-    "observations": 1506,
-    "repos": 182,
-    "terms": 1504
+    "components": 1589,
+    "concepts": 1488,
+    "observations": 1494,
+    "repos": 180,
+    "terms": 1492
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -30,6 +30,7 @@
     "appleboy/gorush",
     "apptainer/apptainer",
     "aquasecurity/trivy-operator",
+    "argoproj/argo-events",
     "ariga/atlas",
     "asaskevich/govalidator",
     "autokitteh/autokitteh",
@@ -44,7 +45,6 @@
     "Bearer/bearer",
     "bensadeh/circumflex",
     "bluesky-social/indigo",
-    "bnb-chain/tss-lib",
     "boyter/scc",
     "bradfitz/gomemcache",
     "bufbuild/protoc-gen-validate",
@@ -61,7 +61,6 @@
     "ClickHouse/clickhouse-go",
     "cloudflare/circl",
     "cloudfoundry/cli",
-    "cloudnativelabs/kube-router",
     "cloudwego/kitex",
     "cncf/toc",
     "connectrpc/connect-go",
@@ -73,6 +72,7 @@
     "cri-o/cri-o",
     "databus23/helm-diff",
     "DataDog/datadog-agent",
+    "dghubble/gologin",
     "digitalocean/doctl",
     "digitalocean/godo",
     "dkron-io/dkron",
@@ -98,7 +98,6 @@
     "go-flutter-desktop/go-flutter",
     "go-logr/logr",
     "go-swagger/go-swagger",
-    "gobackup/gobackup",
     "goccy/go-yaml",
     "gokcehan/lf",
     "golang-jwt/jwt",
@@ -173,7 +172,6 @@
     "rancher/local-path-provisioner",
     "raviqqe/muffet",
     "rhysd/actionlint",
-    "rootless-containers/rootlesskit",
     "router-for-me/CLIProxyAPIPlus",
     "runfinch/finch",
     "schachmat/wego",

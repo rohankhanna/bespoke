@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 39046,
-    "concepts": 8679,
-    "observations": 8705,
-    "repos": 2061,
-    "terms": 8671
+    "components": 39039,
+    "concepts": 8695,
+    "observations": 8721,
+    "repos": 2059,
+    "terms": 8689
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "javascript"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "0x4139/cosmos-discord-faucet",
     "0xPolygon/pilcom",
@@ -43,6 +43,7 @@
     "a5huynh/vscode-ron",
     "aackerman/circular-dependency-plugin",
     "aadsm/jschardet",
+    "aandrew-me/ytDownloader",
     "aarondcohen/id128",
     "aaronlamz/excel-to-json",
     "aaronlamz/navpress",
@@ -345,7 +346,6 @@
     "broccolijs/broccoli-persistent-filter",
     "broccolijs/broccoli-plugin",
     "broccolijs/fs-merger",
-    "broccolijs/node-symlink-or-copy",
     "brody2consult/react-native-init-func",
     "brody2consult/react-native-module-init",
     "brombal/just-install",
@@ -1519,7 +1519,6 @@
     "oss-serverless/serverless",
     "OvermindDL1/bucklescript-tea",
     "pa7/heatmap.js",
-    "pajaydev/lasso-analyzer",
     "pajaydev/lasso-unpack",
     "PanJiaChen/electron-vue-admin",
     "PanJiaChen/vue-admin-template",
@@ -2011,7 +2010,6 @@
     "WebDevSimplified/Zoom-Clone-With-WebRTC",
     "webextension-toolbox/generator-web-extension",
     "WebKit/WebKit",
-    "webmaster128/private-voting",
     "webpack/css-loader",
     "webpack/css-minimizer-webpack-plugin",
     "webpack/loader-utils",

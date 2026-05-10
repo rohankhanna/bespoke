@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 130,
-    "concepts": 200,
-    "observations": 200,
-    "repos": 26,
-    "terms": 195
+    "components": 132,
+    "concepts": 216,
+    "observations": 216,
+    "repos": 27,
+    "terms": 211
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "akruphi/far2l",
     "Antares0982/ssrJSON",
     "BirolLab/btllib",
     "confluentinc/libserdes",
+    "erigontech/mdbx-go",
     "facebook/fb303",
     "gazebosim/gz-common",
     "gazebosim/gz-gui",
@@ -27,17 +28,17 @@
     "gazebosim/gz-tools",
     "hazelcast/hazelcast-cpp-client",
     "HDFGroup/hdf4",
+    "heiher/hev-socks5-core",
+    "heiher/hev-task-system",
     "jwindgassen/UnrealYAML",
     "kendryte/canmv_k230",
     "LedgerHQ/app-boilerplate",
     "LedgerHQ/ledger-secure-sdk",
-    "libbitcoin/libbitcoin-network",
     "llnl/camp",
     "microsoft/aitour-exploring-cutting-edge-models",
     "mongodb/winkerberos",
     "oneapi-src/unified-memory-framework",
     "ROCm/rpp",
-    "skeeto/dcmake",
     "walbourn/directxmathtest",
     "xjb714/xjb"
   ]

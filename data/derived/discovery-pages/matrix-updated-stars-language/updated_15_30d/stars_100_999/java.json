@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 174,
-    "concepts": 241,
-    "observations": 241,
-    "repos": 33,
-    "terms": 241
+    "concepts": 233,
+    "observations": 233,
+    "repos": 31,
+    "terms": 233
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "apache/camel-examples",
     "apache/datasketches-java",
     "beehive-lab/GPULlama3.java",
     "carrot2/carrot2",
-    "chromiumembedded/java-cef",
     "connectbot/sshlib",
     "Cosium/git-code-format-maven-plugin",
     "eclipse-lemminx/lemminx",
@@ -45,7 +44,6 @@
     "spotbugs/sonar-findbugs",
     "swagger-api/swagger-inflector",
     "Waffle/waffle",
-    "ysbing/YADB",
     "zilliztech/vts"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1158,
-    "concepts": 1236,
-    "observations": 1242,
+    "components": 1147,
+    "concepts": 1227,
+    "observations": 1233,
     "repos": 156,
-    "terms": 1225
+    "terms": 1216
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "Ableton/link",
     "AcademySoftwareFoundation/OpenColorIO",
@@ -87,7 +87,6 @@
     "lh3/minimap2",
     "liballeg/allegro5",
     "libarchive/libarchive",
-    "libbpf/libbpf",
     "libffi/libffi",
     "libgeos/geos",
     "libjpeg-turbo/libjpeg-turbo",
@@ -154,6 +153,7 @@
     "stevenlovegrove/Pangolin",
     "strukturag/libheif",
     "sveinbjornt/Platypus",
+    "tevador/RandomX",
     "tsujan/Kvantum",
     "uccl-project/uccl",
     "uNetworking/uSockets",
@@ -167,8 +167,8 @@
     "wireshark/wireshark",
     "wjakob/nanobind",
     "yaml/libyaml",
-    "ycm-core/ycmd",
     "zeux/meshoptimizer",
+    "zeux/pugixml",
     "zlib-ng/zlib-ng"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 998,
-    "concepts": 286,
-    "observations": 288,
-    "repos": 70,
-    "terms": 295
+    "components": 1127,
+    "concepts": 311,
+    "observations": 313,
+    "repos": 75,
+    "terms": 320
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "absolute-version/commit-and-tag-version",
     "actions/deploy-pages",
+    "adobe/spectrum-design-data",
     "AghayeCoder/tx-ui",
     "ankane/ahoy.js",
-    "AssemblyScript/wabt.js",
     "Atheos/Atheos",
     "avwo/whistle-client",
     "badgen/badgen",
@@ -54,8 +54,9 @@
     "igvteam/igv.js",
     "ipld/explore.ipld.io",
     "istanbuljs/babel-plugin-istanbul",
+    "jimmywarting/native-file-system-adapter",
+    "js-kyle/mincer",
     "kharchenkolab/pagoda2",
-    "kriszyp/cbor-x",
     "Level/abstract-level",
     "mapbox/cheap-ruler",
     "markdown-it/linkify-it",
@@ -64,12 +65,14 @@
     "mourner/kdbush",
     "mourner/robust-predicates",
     "mourner/tinyqueue",
+    "muratcankoylan/ralph-wiggum-marketer",
     "neverendingqs/serverless-dotenv-plugin",
     "npm/abbrev-js",
     "npm/rfcs",
     "oblador/react-native-vector-image",
     "OffchainLabs/arbitrum-tutorials",
     "photopea/UZIP.js",
+    "previm/previm",
     "projectfluent/fluent.js",
     "protocolbuffers/protobuf-javascript",
     "RichardLitt/generator-standard-readme",
@@ -79,10 +82,12 @@
     "semantic-release/git",
     "sveltejs/svelte-loader",
     "terraform-linters/setup-tflint",
+    "terser/html-minifier-terser",
     "thejoshwolfe/yauzl",
     "thejoshwolfe/yazl",
     "toon-format/spec",
     "w3c/webidl2.js",
+    "webpack/css-minimizer-webpack-plugin",
     "zone-eu/zone-mta"
   ]
 }

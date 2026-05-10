@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2118,
-    "concepts": 431,
-    "observations": 432,
-    "repos": 58,
-    "terms": 459
+    "components": 2112,
+    "concepts": 439,
+    "observations": 440,
+    "repos": 60,
+    "terms": 468
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "aleclarson/vite-tsconfig-paths",
@@ -20,6 +20,7 @@
     "antfu-collective/vite-ssg",
     "antfu/vitesse-nuxt",
     "argos-ci/jest-puppeteer",
+    "bash-lsp/bash-language-server",
     "ben-rogerson/twin.macro",
     "boxyhq/saas-starter-kit",
     "butlerx/wetty",
@@ -29,6 +30,7 @@
     "ekalinin/sitemap.js",
     "electron/windows-installer",
     "enisdenjo/graphql-ws",
+    "ethers-io/ethers.js",
     "gajus/slonik",
     "glittercowboy/taches-cc-resources",
     "golang/vscode-go",
@@ -44,7 +46,6 @@
     "isaacs/node-glob",
     "itgalaxy/favicons",
     "jamiebrynes7/obsidian-todoist-plugin",
-    "jnsahaj/tweakcn",
     "josdejong/svelte-jsoneditor",
     "josStorer/RWKV-Runner",
     "kirodotdev/Kiro",
@@ -68,6 +69,7 @@
     "sql-formatter-org/sql-formatter",
     "stephenh/ts-proto",
     "TfTHacker/obsidian42-brat",
+    "thx/resvg-js",
     "TypeStrong/ts-loader",
     "unplugin/unplugin-vue-components",
     "vercel/next-learn",

@@ -3,7 +3,7 @@
     "components": 1069,
     "concepts": 476,
     "observations": 476,
-    "repos": 322,
+    "repos": 323,
     "terms": 482
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-09T08:20:40.985131+00:00",
+  "generated_at": "2026-05-10T05:46:09.737913+00:00",
   "repo_ids": [
     "2KAbhishek/awesome2k",
     "2KAbhishek/rofi2k",
@@ -203,6 +203,7 @@
     "jverzani/SymPy.jl",
     "jverzani/SymPyCore.jl",
     "jw3126/LibGEOSMakie.jl",
+    "kahgeh/ls-crates.nvim",
     "kaminari/kaminari-data_mapper",
     "kaminari/kaminari-grape",
     "kaminari/kaminari-mongo_mapper",
