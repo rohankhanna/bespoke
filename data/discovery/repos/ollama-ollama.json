@@ -258,6 +258,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
+      "target": "enricoros/big-agi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ollama/ollama",
       "target": "bin-huang/chatbox",
       "target_type": "repository"
     },
@@ -266,13 +273,6 @@
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
       "target": "augustdev/enchanted",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ollama/ollama",
-      "target": "doolijb/serene-pub",
       "target_type": "repository"
     },
     {
@@ -549,7 +549,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-09T16:40:36.325128+00:00",
+  "fetched_at": "2026-05-10T03:04:20.419873+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -589,8 +589,8 @@
     "full_name": "ollama/ollama",
     "html_url": "https://github.com/ollama/ollama",
     "language": "Go",
-    "pushed_at": "2026-05-09T15:51:05Z",
-    "stargazers_count": 171065,
+    "pushed_at": "2026-05-09T16:58:52Z",
+    "stargazers_count": 171087,
     "topics": [
       "deepseek",
       "gemma",
@@ -608,7 +608,7 @@
       "ollama",
       "qwen"
     ],
-    "updated_at": "2026-05-09T15:51:40Z"
+    "updated_at": "2026-05-10T03:00:04Z"
   },
   "repo_links": [
     {
@@ -628,7 +628,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "doolijb/serene-pub",
+      "full_name": "enricoros/big-agi",
       "source_file": "README.md"
     }
   ],

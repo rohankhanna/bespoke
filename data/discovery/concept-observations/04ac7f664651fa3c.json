@@ -84,7 +84,7 @@
   "normalized_form": "release-finish",
   "observation_id": "04ac7f664651fa3c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-09T12:31:19.030154+00:00",
+  "observed_at": "2026-05-10T00:39:41.381728+00:00",
   "observed_text": "\ud83d\udeec Release Finish",
   "source_context_snippet": "\ud83d\udeec Release Finish",
   "source_file": ".github/workflows/release_finish.yml",

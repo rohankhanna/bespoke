@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-05-09T18:25:38.031362+00:00",
+  "last_seen_at": "2026-05-10T00:39:41.381728+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -126,6 +126,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/docgen.yml",
       "source_repo": "mrcjkb/haskell-tools.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docgen.yml",
+      "source_repo": "nvim-telescope/telescope-file-browser.nvim"
     }
   ],
   "term": "generate-docs"

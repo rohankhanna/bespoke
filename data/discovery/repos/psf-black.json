@@ -485,7 +485,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-09T16:44:57.519852+00:00",
+  "fetched_at": "2026-05-10T01:42:10.147771+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -538,7 +538,7 @@
     "html_url": "https://github.com/psf/black",
     "language": "Python",
     "pushed_at": "2026-04-27T21:29:43Z",
-    "stargazers_count": 41488,
+    "stargazers_count": 41487,
     "topics": [
       "autopep8",
       "code",
@@ -550,7 +550,7 @@
       "python",
       "yapf"
     ],
-    "updated_at": "2026-05-09T14:50:15Z"
+    "updated_at": "2026-05-09T18:21:24Z"
   },
   "repo_links": [],
   "terms": [

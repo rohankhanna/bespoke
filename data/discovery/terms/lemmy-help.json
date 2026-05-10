@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-10T00:39:41.381728+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/lemmy-help.yml",
       "source_repo": "pysan3/pathlib.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docgen.yaml",
+      "source_repo": "fdschmidt93/telescope-egrepify.nvim"
     }
   ],
   "term": "lemmy-help"

@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v2",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-09T18:25:38.031362+00:00",
+  "last_seen_at": "2026-05-10T00:39:41.381728+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -19087,6 +19087,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "ksnip/kColorPicker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "olimorris/neotest-phpunit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docgen.yaml",
+      "source_repo": "fdschmidt93/telescope-egrepify.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nvim-telescope/telescope-file-browser.nvim"
     }
   ]
 }

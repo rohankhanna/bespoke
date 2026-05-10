@@ -3448,6 +3448,30 @@
       "source_repo": "tsakirist/telescope-lazy.nvim",
       "status": "candidate-context",
       "text": "[Telescope](https://github.com/nvim-telescope/telescope.nvim) extension that"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "olimorris/neotest-phpunit",
+      "status": "candidate-context",
+      "text": "\ud83e\uddea Neotest adapter for PHPUnit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olimorris/neotest-phpunit",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/olimorris/neotest-phpunit/actions/workflows/ci.yml/badge.svg)](https://github.com/olimorris/neotest-phpunit/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-telescope/telescope-file-browser.nvim",
+      "status": "candidate-context",
+      "text": "File Browser extension for telescope.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-telescope/telescope-file-browser.nvim",
+      "status": "candidate-context",
+      "text": "`telescope-file-browser.nvim` is a file browser extension for telescope.nvim."
     }
   ],
   "candidate_glosses": [
@@ -5202,6 +5226,18 @@
       "source_repo": "tsakirist/telescope-lazy.nvim",
       "status": "candidate",
       "text": "[Telescope](https://github.com/nvim-telescope/telescope.nvim) extension that"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olimorris/neotest-phpunit",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/olimorris/neotest-phpunit/actions/workflows/ci.yml/badge.svg)](https://github.com/olimorris/neotest-phpunit/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-telescope/telescope-file-browser.nvim",
+      "status": "candidate",
+      "text": "`telescope-file-browser.nvim` is a file browser extension for telescope.nvim."
     }
   ],
   "candidate_related_terms": [],
@@ -11521,11 +11557,191 @@
       "observed_at": "2026-05-09T18:25:38.031362+00:00",
       "source_file": null,
       "source_repo": "onsails/lspkind.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "aileot/vim-foldpeek"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "lambdalisue/vim-nerdfont"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-nerdfont"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "vim-fall/fall.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/dashboard-nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/lspsaga.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "andymass/vim-matchup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "famiu/feline.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "Hitesh-Aggarwal/feline_theme.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "nvim-tree/nvim-web-devicons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.deps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-dev.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-treesitter.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-build-treesitter-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "olimorris/neotest-phpunit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "nvim-telescope/telescope-file-browser.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "onsails/lspkind.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T18:25:38.031362+00:00",
+  "last_seen_at": "2026-05-10T00:39:41.381728+00:00",
   "lexical_providers": [
     "datamuse"
   ],

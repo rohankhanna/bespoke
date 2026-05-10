@@ -11,6 +11,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
+      "target": "enricoros/big-agi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ollama/ollama",
       "target": "bin-huang/chatbox",
       "target_type": "repository"
     },
@@ -19,13 +26,6 @@
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
       "target": "augustdev/enchanted",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ollama/ollama",
-      "target": "doolijb/serene-pub",
       "target_type": "repository"
     },
     {
@@ -302,6 +302,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-09T12:31:19.030154+00:00",
+  "generated_at": "2026-05-10T00:39:41.381728+00:00",
   "source_repo": "ollama/ollama"
 }

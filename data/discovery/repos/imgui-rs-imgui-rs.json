@@ -97,7 +97,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-09T14:51:21.875143+00:00",
+  "fetched_at": "2026-05-10T01:49:56.877933+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -122,14 +122,14 @@
     "html_url": "https://github.com/imgui-rs/imgui-rs",
     "language": "Rust",
     "pushed_at": "2026-01-25T23:41:47Z",
-    "stargazers_count": 3002,
+    "stargazers_count": 3003,
     "topics": [
       "gui",
       "imgui",
       "rust",
       "rust-library"
     ],
-    "updated_at": "2026-05-05T05:15:54Z"
+    "updated_at": "2026-05-09T17:48:20Z"
   },
   "repo_links": [],
   "terms": [

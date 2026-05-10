@@ -191,7 +191,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "ylsdamxssjxxdd/eva",
+      "target": "ymcui/chinese-llama-alpaca-2",
       "target_type": "repository"
     },
     {
@@ -433,7 +433,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-09T18:45:19.041923+00:00",
+  "fetched_at": "2026-05-10T02:48:01.872697+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -485,12 +485,12 @@
     "full_name": "ggml-org/llama.cpp",
     "html_url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
-    "pushed_at": "2026-05-09T15:25:07Z",
-    "stargazers_count": 109223,
+    "pushed_at": "2026-05-09T21:02:12Z",
+    "stargazers_count": 109264,
     "topics": [
       "ggml"
     ],
-    "updated_at": "2026-05-09T18:38:21Z"
+    "updated_at": "2026-05-10T02:43:10Z"
   },
   "repo_links": [
     {
@@ -510,7 +510,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ylsdamxssjxxdd/eva",
+      "full_name": "ymcui/chinese-llama-alpaca-2",
       "source_file": "README.md"
     }
   ],

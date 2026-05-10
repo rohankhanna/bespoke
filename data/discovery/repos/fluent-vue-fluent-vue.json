@@ -534,7 +534,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-09T16:43:32.336241+00:00",
+  "fetched_at": "2026-05-10T01:02:14.240727+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -566,7 +566,7 @@
     "full_name": "fluent-vue/fluent-vue",
     "html_url": "https://github.com/fluent-vue/fluent-vue",
     "language": "TypeScript",
-    "pushed_at": "2026-05-09T11:45:36Z",
+    "pushed_at": "2026-05-09T20:53:41Z",
     "stargazers_count": 276,
     "topics": [
       "ftl",

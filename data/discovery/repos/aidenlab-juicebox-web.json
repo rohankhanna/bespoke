@@ -1,21 +1,6 @@
 {
   "components": [
     {
-      "component": "@rollup/plugin-strip",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "@rollup/plugin-terser",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "dotenv",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "igv-utils",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -31,38 +16,12 @@
       "source_file": "package.json"
     },
     {
-      "component": "rollup",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "rollup-plugin-copy",
+      "component": "vite",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     }
   ],
   "edges": [
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "aidenlab/juicebox-web",
-      "target": "@rollup/plugin-strip",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "aidenlab/juicebox-web",
-      "target": "@rollup/plugin-terser",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "aidenlab/juicebox-web",
-      "target": "dotenv",
-      "target_type": "component"
-    },
     {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
@@ -88,22 +47,15 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "aidenlab/juicebox-web",
-      "target": "rollup",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "aidenlab/juicebox-web",
-      "target": "rollup-plugin-copy",
+      "target": "vite",
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-09T18:47:08.523615+00:00",
+  "fetched_at": "2026-05-10T02:49:25.159759+00:00",
   "fetched_files": [
     {
       "path": "package.json",
-      "size": 758
+      "size": 675
     }
   ],
   "related_repositories": [],
@@ -115,10 +67,10 @@
     "full_name": "aidenlab/juicebox-web",
     "html_url": "https://github.com/aidenlab/juicebox-web",
     "language": "JavaScript",
-    "pushed_at": "2026-05-09T18:43:20Z",
+    "pushed_at": "2026-05-09T18:49:46Z",
     "stargazers_count": 3,
     "topics": [],
-    "updated_at": "2026-05-09T18:43:23Z"
+    "updated_at": "2026-05-09T18:49:49Z"
   },
   "repo_links": [],
   "terms": []

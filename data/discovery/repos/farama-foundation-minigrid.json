@@ -267,13 +267,6 @@
       "target_type": "component"
     },
     {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/publish.yml",
-      "source_repo": "Farama-Foundation/Minigrid",
-      "target": "build-publish",
-      "target_type": "term"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pytest.yml",
       "source_repo": "Farama-Foundation/Minigrid",
@@ -284,7 +277,7 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/pytest.yml",
       "source_repo": "Farama-Foundation/Minigrid",
-      "target": "build",
+      "target": "Tests",
       "target_type": "term"
     },
     {
@@ -295,7 +288,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-09T15:59:02.236009+00:00",
+  "fetched_at": "2026-05-10T02:56:35.889740+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -323,7 +316,7 @@
     },
     {
       "path": ".github/workflows/publish.yml",
-      "size": 1325
+      "size": 1358
     },
     {
       "path": ".github/workflows/pytest.yml",
@@ -339,13 +332,13 @@
     "full_name": "Farama-Foundation/Minigrid",
     "html_url": "https://github.com/Farama-Foundation/Minigrid",
     "language": "Python",
-    "pushed_at": "2026-04-25T09:37:13Z",
+    "pushed_at": "2026-05-09T23:09:35Z",
     "stargazers_count": 2446,
     "topics": [
       "gridworld-environment",
       "gym"
     ],
-    "updated_at": "2026-05-06T12:32:02Z"
+    "updated_at": "2026-05-09T21:42:06Z"
   },
   "repo_links": [
     {
@@ -380,16 +373,10 @@
       "term": "Run pre-commit"
     },
     {
-      "context_snippet": "build-publish",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/publish.yml",
-      "term": "build-publish"
-    },
-    {
-      "context_snippet": "build",
+      "context_snippet": "Tests",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/pytest.yml",
-      "term": "build"
+      "term": "Tests"
     },
     {
       "context_snippet": "[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/)",

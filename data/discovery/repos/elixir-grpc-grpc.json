@@ -133,7 +133,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-09T16:38:48.900546+00:00",
+  "fetched_at": "2026-05-10T03:02:34.956348+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -158,7 +158,7 @@
     "html_url": "https://github.com/elixir-grpc/grpc",
     "language": "Elixir",
     "pushed_at": "2026-05-03T15:35:43Z",
-    "stargazers_count": 1514,
+    "stargazers_count": 1515,
     "topics": [
       "elixir",
       "google-protocol-buffers",
@@ -169,7 +169,7 @@
       "protobuf",
       "rpc"
     ],
-    "updated_at": "2026-05-03T15:35:47Z"
+    "updated_at": "2026-05-10T00:07:59Z"
   },
   "repo_links": [],
   "terms": [

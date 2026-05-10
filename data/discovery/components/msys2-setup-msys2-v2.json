@@ -1,7 +1,7 @@
 {
   "component": "msys2/setup-msys2@v2",
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-05-09T18:25:38.031362+00:00",
+  "last_seen_at": "2026-05-10T00:39:41.381728+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -887,6 +887,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/nightly-windows64-SDL2.broken",
       "source_repo": "aburch/simutrans"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "ylsdamxssjxxdd/nerv"
     }
   ]
 }

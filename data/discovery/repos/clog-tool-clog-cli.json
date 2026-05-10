@@ -255,7 +255,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-09T18:27:32.842502+00:00",
+  "fetched_at": "2026-05-10T01:57:23.691456+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -292,9 +292,9 @@
     "html_url": "https://github.com/clog-tool/clog-cli",
     "language": "Rust",
     "pushed_at": "2024-08-15T12:54:21Z",
-    "stargazers_count": 915,
+    "stargazers_count": 914,
     "topics": [],
-    "updated_at": "2026-05-09T18:22:02Z"
+    "updated_at": "2026-05-09T19:36:39Z"
   },
   "repo_links": [
     {

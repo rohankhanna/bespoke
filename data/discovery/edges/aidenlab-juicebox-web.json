@@ -4,27 +4,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "aidenlab/juicebox-web",
-      "target": "@rollup/plugin-strip",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "aidenlab/juicebox-web",
-      "target": "@rollup/plugin-terser",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "aidenlab/juicebox-web",
-      "target": "dotenv",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "aidenlab/juicebox-web",
       "target": "igv-utils",
       "target_type": "component"
     },
@@ -46,17 +25,10 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "aidenlab/juicebox-web",
-      "target": "rollup",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "aidenlab/juicebox-web",
-      "target": "rollup-plugin-copy",
+      "target": "vite",
       "target_type": "component"
     }
   ],
-  "generated_at": "2026-05-09T18:25:38.031362+00:00",
+  "generated_at": "2026-05-10T00:39:41.381728+00:00",
   "source_repo": "aidenlab/juicebox-web"
 }

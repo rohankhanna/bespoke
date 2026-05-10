@@ -1135,6 +1135,18 @@
       "source_repo": "shaunsingh/nord.nvim",
       "status": "candidate-context",
       "text": "![118406380-d78ad580-b649-11eb-945c-5988fa717f39](https://user-images.githubusercontent.com/71196912/128029391-ad55fd41-d5f9-43bd-a795-c11b562f9d6d.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "olimorris/neotest-phpunit",
+      "status": "candidate-context",
+      "text": "\ud83e\uddea Neotest adapter for PHPUnit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olimorris/neotest-phpunit",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/olimorris/neotest-phpunit/actions/workflows/ci.yml/badge.svg)](https://github.com/olimorris/neotest-phpunit/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -1713,6 +1725,12 @@
       "source_repo": "shaunsingh/nord.nvim",
       "status": "candidate",
       "text": "![118406380-d78ad580-b649-11eb-945c-5988fa717f39](https://user-images.githubusercontent.com/71196912/128029391-ad55fd41-d5f9-43bd-a795-c11b562f9d6d.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olimorris/neotest-phpunit",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/olimorris/neotest-phpunit/actions/workflows/ci.yml/badge.svg)](https://github.com/olimorris/neotest-phpunit/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -3286,11 +3304,59 @@
       "observed_at": "2026-05-09T18:25:38.031362+00:00",
       "source_file": null,
       "source_repo": "onsails/lspkind.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "aileot/vim-foldpeek"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/lspsaga.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "famiu/feline.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "Hitesh-Aggarwal/feline_theme.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "olimorris/neotest-phpunit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": null,
+      "source_repo": "onsails/lspkind.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T18:25:38.031362+00:00",
+  "last_seen_at": "2026-05-10T00:39:41.381728+00:00",
   "lexical_providers": [
     "datamuse"
   ],

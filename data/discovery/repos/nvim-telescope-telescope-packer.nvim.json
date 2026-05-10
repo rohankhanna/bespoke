@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-10T01:56:50.248759+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1322
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Telescope extension that provides extra functionality for Packer.nvim",
+    "fork": false,
+    "full_name": "nvim-telescope/telescope-packer.nvim",
+    "html_url": "https://github.com/nvim-telescope/telescope-packer.nvim",
+    "language": "Lua",
+    "pushed_at": "2023-01-09T05:04:14Z",
+    "stargazers_count": 176,
+    "topics": [],
+    "updated_at": "2025-12-06T14:48:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

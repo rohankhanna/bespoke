@@ -85,6 +85,18 @@
       "source_repo": "nvim-treesitter/playground",
       "status": "candidate-context",
       "text": "Linting and style checking"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-telescope/telescope-file-browser.nvim",
+      "status": "candidate-context",
+      "text": "File Browser extension for telescope.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-telescope/telescope-file-browser.nvim",
+      "status": "candidate-context",
+      "text": "Linting and style checking"
     }
   ],
   "candidate_glosses": [
@@ -127,6 +139,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "nvim-treesitter/playground",
+      "status": "candidate",
+      "text": "Linting and style checking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-telescope/telescope-file-browser.nvim",
       "status": "candidate",
       "text": "Linting and style checking"
     }
@@ -382,11 +400,23 @@
       "observed_at": "2026-05-09T12:31:19.030154+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "andymass/vim-matchup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "andymass/vim-matchup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-10T00:39:41.381728+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nvim-telescope/telescope-file-browser.nvim"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "last_seen_at": "2026-05-10T00:39:41.381728+00:00",
   "lexical_providers": [
     "datamuse"
   ],

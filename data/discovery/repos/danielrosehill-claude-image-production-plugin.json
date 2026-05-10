@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Image-Production-Plugin",
+      "target": "kozea/cairosvg",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-10T02:42:32.489016+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6538
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Claude Code plugin for image processing, photo editing, batch image operations, and visual media management.",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Image-Production-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Image-Production-Plugin",
+    "language": null,
+    "pushed_at": "2026-05-03T16:11:48Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-05-03T16:11:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kozea/cairosvg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

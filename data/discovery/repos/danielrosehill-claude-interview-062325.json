@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-10T02:42:33.039780+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 569
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Response to Anthropic's user interview",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Interview-062325",
+    "html_url": "https://github.com/danielrosehill/Claude-Interview-062325",
+    "language": null,
+    "pushed_at": "2025-12-06T22:36:55Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-12-06T22:36:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

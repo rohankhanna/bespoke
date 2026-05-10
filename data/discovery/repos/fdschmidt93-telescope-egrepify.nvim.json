@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docgen.yaml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docgen.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fdschmidt93/telescope-egrepify.nvim",
+      "target": "minad/consult",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docgen.yaml",
+      "source_repo": "fdschmidt93/telescope-egrepify.nvim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docgen.yaml",
+      "source_repo": "fdschmidt93/telescope-egrepify.nvim",
+      "target": "stefanzweifel/git-auto-commit-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docgen.yaml",
+      "source_repo": "fdschmidt93/telescope-egrepify.nvim",
+      "target": "lemmy-help",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-10T01:56:47.354780+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7169
+    },
+    {
+      "path": ".github/workflows/docgen.yaml",
+      "size": 859
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Variable user customization for telescope.live_grep to set rg flags on-the-fly",
+    "fork": false,
+    "full_name": "fdschmidt93/telescope-egrepify.nvim",
+    "html_url": "https://github.com/fdschmidt93/telescope-egrepify.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-12-21T08:20:47Z",
+    "stargazers_count": 142,
+    "topics": [],
+    "updated_at": "2026-05-08T07:02:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "minad/consult",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "lemmy-help",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docgen.yaml",
+      "term": "lemmy-help"
+    }
+  ]
+}
