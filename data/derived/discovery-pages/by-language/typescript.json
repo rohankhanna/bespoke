@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 60746,
-    "concepts": 10425,
-    "observations": 10460,
-    "repos": 1850,
-    "terms": 10730
+    "components": 60792,
+    "concepts": 10431,
+    "observations": 10466,
+    "repos": 1851,
+    "terms": 10736
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "0h7z/vscode-julia-format",
@@ -1846,6 +1846,7 @@
     "Wykks/ngx-mapbox-gl",
     "wylieconlon/lsp-editor-adapter",
     "XantreDev/preact-signals",
+    "xdebug/vscode-php-debug",
     "xojs/xo",
     "xtermjs/xterm.js",
     "xyflow/xyflow",

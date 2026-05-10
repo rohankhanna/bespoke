@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 356,
-    "concepts": 254,
-    "observations": 255,
-    "repos": 26,
-    "terms": 254
+    "components": 346,
+    "concepts": 235,
+    "observations": 236,
+    "repos": 25,
+    "terms": 235
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
-    "AdaptiveCpp/AdaptiveCpp",
     "Andersbakken/rtags",
     "ashvardanian/NumKong",
     "brave/brave-core",

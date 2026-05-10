@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 83,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 5,
-    "terms": 30
+    "components": 66,
+    "concepts": 28,
+    "observations": 28,
+    "repos": 4,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "carbon-app/carbon",
     "FortAwesome/Font-Awesome",
-    "gulpjs/gulp",
     "mathjax/MathJax",
     "sql-js/sql.js"
   ]

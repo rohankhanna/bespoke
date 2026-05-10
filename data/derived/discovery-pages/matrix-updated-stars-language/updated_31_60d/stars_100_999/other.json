@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1019,
-    "concepts": 781,
-    "observations": 784,
+    "components": 1016,
+    "concepts": 778,
+    "observations": 781,
     "repos": 189,
-    "terms": 774
+    "terms": 771
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "actboy168/json.lua",
@@ -46,7 +46,6 @@
     "babashka/cli",
     "babashka/nbb",
     "babashka/neil",
-    "badges/awesome-badges",
     "bazelbuild/bazel-skylib",
     "bbatsov/super-save",
     "bhauman/figwheel-main",
@@ -202,6 +201,7 @@
     "vim-jp/vital.vim",
     "w3c/navigation-timing",
     "w3c/web-performance",
-    "whatwg/fs"
+    "whatwg/fs",
+    "wuphilipp/gello_mechanical"
   ]
 }

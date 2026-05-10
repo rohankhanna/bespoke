@@ -3,7 +3,7 @@
     "components": 799,
     "concepts": 629,
     "observations": 635,
-    "repos": 107,
+    "repos": 106,
     "terms": 639
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "2dust/AndroidLibXrayLite",
@@ -119,7 +119,6 @@
     "terraform-linters/tflint-ruleset-azurerm",
     "transparency-dev/tessera",
     "trzsz/tsshd",
-    "usbarmory/GoTEE",
     "web-platform-tests/wpt.fyi"
   ]
 }

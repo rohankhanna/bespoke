@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1549,
-    "concepts": 1699,
-    "observations": 1702,
-    "repos": 174,
-    "terms": 1686
+    "components": 1546,
+    "concepts": 1686,
+    "observations": 1689,
+    "repos": 172,
+    "terms": 1673
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "abhiTronix/vidgear",
@@ -91,7 +91,6 @@
     "kubeflow/spark-operator",
     "librosa/librosa",
     "lightly-ai/lightly-train",
-    "Lightricks/ComfyUI-LTXVideo",
     "linkedin/Liger-Kernel",
     "LiveBench/LiveBench",
     "LoRexxar/Kunlun-M",
@@ -158,7 +157,6 @@
     "roboflow/maestro",
     "scikit-image/scikit-image",
     "shenweichen/DeepCTR",
-    "shenweichen/GraphEmbedding",
     "shibing624/MedicalGPT",
     "skforecast/skforecast",
     "skypilot-org/skypilot",

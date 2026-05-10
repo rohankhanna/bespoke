@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1567,
-    "concepts": 1494,
-    "observations": 1500,
-    "repos": 287,
-    "terms": 1500
+    "components": 1569,
+    "concepts": 1497,
+    "observations": 1503,
+    "repos": 288,
+    "terms": 1503
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
@@ -173,6 +173,7 @@
     "kata-containers/community",
     "KBH00/Semantic-Fast-SAM",
     "kjd/idna",
+    "Kozea/CairoSVG",
     "langchain-ai/langgraph-bigtool",
     "LedgerHQ/app-bitcoin",
     "LedgerHQ/blue-loader-python",

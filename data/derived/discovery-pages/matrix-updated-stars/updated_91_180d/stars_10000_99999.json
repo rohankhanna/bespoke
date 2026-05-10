@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 931,
-    "concepts": 523,
-    "observations": 526,
+    "components": 948,
+    "concepts": 525,
+    "observations": 528,
     "repos": 80,
-    "terms": 519
+    "terms": 521
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
@@ -33,7 +33,6 @@
     "CISOfy/lynis",
     "cleanlab/cleanlab",
     "containrrr/watchtower",
-    "deepseek-ai/DeepSeek-Coder",
     "drduh/macOS-Security-and-Privacy-Guide",
     "ekzhang/bore",
     "existentialaudio/blackhole",
@@ -45,6 +44,7 @@
     "fullstorydev/grpcurl",
     "github/copilot.vim",
     "goldfire/howler.js",
+    "gulpjs/gulp",
     "hiroi-sora/Umi-OCR",
     "horovod/horovod",
     "i3/i3",

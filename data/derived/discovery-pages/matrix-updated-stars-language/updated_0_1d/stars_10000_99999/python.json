@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 105,
-    "observations": 106,
-    "repos": 8,
-    "terms": 105
+    "components": 51,
+    "concepts": 61,
+    "observations": 62,
+    "repos": 6,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "axolotl-ai-cloud/axolotl",
-    "fastapi/fastapi",
     "jax-ml/jax",
     "Lightning-AI/pytorch-lightning",
     "modelscope/ms-swift",
     "NVIDIA-NeMo/NeMo",
-    "qubvel-org/segmentation_models.pytorch",
     "verl-project/verl"
   ]
 }

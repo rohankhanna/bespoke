@@ -1,22 +1,23 @@
 {
   "counts": {
-    "components": 131,
-    "concepts": 55,
-    "observations": 55,
-    "repos": 9,
-    "terms": 55
+    "components": 133,
+    "concepts": 56,
+    "observations": 56,
+    "repos": 10,
+    "terms": 56
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "AI-Hypercomputer/maxdiffusion",
     "confluentinc/librdkafka",
     "EmmyLuaLs/emmylua-analyzer-rust",
     "fluent-vue/fluent-vue",
+    "git-friendly/git-friendly",
     "jupyter/nbclassic",
     "karafka/rdkafka-ruby",
     "ldproxy/ldproxy",

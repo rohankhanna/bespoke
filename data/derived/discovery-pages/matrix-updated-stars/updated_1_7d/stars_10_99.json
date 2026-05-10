@@ -1,25 +1,25 @@
 {
   "counts": {
-    "components": 550,
-    "concepts": 335,
-    "observations": 336,
-    "repos": 62,
-    "terms": 332
+    "components": 557,
+    "concepts": 317,
+    "observations": 318,
+    "repos": 60,
+    "terms": 314
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
+    "abap2UI5-addons/sql-console",
     "aidenlab/juicebox.js",
     "alloy-rs/evm",
     "analogdevicesinc/msdk",
     "apache/doris-opentelemetry-demo",
     "bmwiedemann/openSUSE",
     "cbuijs/hagezi",
-    "Chocolate4U/Iran-clash-rules",
     "Cle2ment/CherryStudio_themes",
     "cloudfoundry/credhub-cli",
     "compiler-research/CppInterOp",
@@ -47,7 +47,6 @@
     "kurrent-io/KurrentDB-Client-Rust",
     "leleliu008/ppkg",
     "ludwig-ai/ludwig-docs",
-    "lumen-oss/luarocks-tag-release",
     "lumen-oss/nurr",
     "maplibre/maplibre-gl-inspect",
     "mesh-iit/cad-libraries",
@@ -68,7 +67,6 @@
     "taginfo/taginfo-projects",
     "tendermint/tm-db",
     "TrigenSoftware/simple-release",
-    "tyrypyrking/egui-ash",
     "universal-ctags/ctags-nightly-build",
     "universal-ember/reactiveweb",
     "usdot-fhwa-stol/cdasim",

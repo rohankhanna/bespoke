@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1827,
-    "concepts": 956,
-    "observations": 958,
-    "repos": 141,
-    "terms": 952
+    "components": 1847,
+    "concepts": 936,
+    "observations": 938,
+    "repos": 137,
+    "terms": 931
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "a2aproject/a2a-js",
@@ -32,14 +32,11 @@
     "attackgoat/vk-graph",
     "aws-cloudformation/cfn-lint-visual-studio-code",
     "bazel-contrib/rules_kotlin",
-    "Blosc/c-blosc2",
-    "Blosc/python-blosc2",
     "browserslist/caniuse-lite",
     "carbon-design-system/carbon-components-angular",
     "CEED/libCEED",
     "charmbracelet/x",
     "CHIP-SPV/chipStar",
-    "Chocolate4U/Iran-sing-box-rules",
     "ChristopherHX/runner.server",
     "clearml/clearml-agent",
     "clj-commons/rewrite-clj",
@@ -67,7 +64,6 @@
     "gbionics/adam",
     "gbionics/jaxsim",
     "GDevelopApp/GDevelop-extensions",
-    "git-friendly/git-friendly",
     "gitleaks/gitleaks-action",
     "gofrs/flock",
     "google-deepmind/reverb",
@@ -130,7 +126,6 @@
     "ros2/common_interfaces",
     "rust-lang/stdarch",
     "safe-fndn/safe-singleton-factory",
-    "sbt/sbt-jmh",
     "scverse/rapids-singlecell",
     "Shopify/tapioca",
     "sigsep/norbert",
@@ -153,6 +148,7 @@
     "victorgarciaesgi/regle",
     "wevm/abitype",
     "WICG/attribution-reporting-api",
+    "xdebug/vscode-php-debug",
     "yaling888/quirktiva"
   ]
 }

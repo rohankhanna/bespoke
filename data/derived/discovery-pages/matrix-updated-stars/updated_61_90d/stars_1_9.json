@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 489,
-    "concepts": 327,
-    "observations": 327,
-    "repos": 114,
-    "terms": 323
+    "components": 487,
+    "concepts": 319,
+    "observations": 319,
+    "repos": 113,
+    "terms": 315
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "0x676e67/0x676e67",
@@ -125,7 +125,6 @@
     "vim-fuzzbox/fuzzbox-lsp.vim",
     "yamachu/VoicevoxCoreSwift",
     "ylsdamxssjxxdd/nerv",
-    "yoshoku/numo-libsvm",
-    "zen-eth/multiformats-zig"
+    "yoshoku/numo-libsvm"
   ]
 }

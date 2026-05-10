@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 239,
-    "concepts": 287,
-    "observations": 288,
-    "repos": 24,
-    "terms": 287
+    "components": 249,
+    "concepts": 325,
+    "observations": 326,
+    "repos": 25,
+    "terms": 325
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "aden-hive/hive",
     "Comfy-Org/ComfyUI-Manager",
@@ -21,12 +21,12 @@
     "datalab-to/marker",
     "datalab-to/surya",
     "deepspeedai/DeepSpeed",
+    "fastapi/fastapi",
     "great-expectations/great_expectations",
     "hiyouga/LlamaFactory",
     "HKUDS/CLI-Anything",
     "huggingface/pytorch-image-models",
     "huggingface/sentence-transformers",
-    "Kludex/starlette",
     "ludwig-ai/ludwig",
     "modelscope/DiffSynth-Studio",
     "oobabooga/textgen",
@@ -34,6 +34,7 @@
     "PDFMathTranslate/PDFMathTranslate",
     "pydantic/pydantic",
     "pyg-team/pytorch_geometric",
+    "qubvel-org/segmentation_models.pytorch",
     "run-llama/llama_index",
     "ungoogled-software/ungoogled-chromium",
     "wkentaro/labelme",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2023,
-    "concepts": 1850,
-    "observations": 1857,
-    "repos": 271,
-    "terms": 1836
+    "components": 2018,
+    "concepts": 1847,
+    "observations": 1854,
+    "repos": 270,
+    "terms": 1833
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -193,7 +193,6 @@
     "NuGet/Home",
     "numtide/devshell",
     "NVIDIA/nccl-tests",
-    "nvim-lua/plenary.nvim",
     "nvim-neo-tree/neo-tree.nvim",
     "nvimdev/dashboard-nvim",
     "objectbox/objectbox-dart",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 8799,
-    "concepts": 4978,
-    "observations": 4991,
-    "repos": 786,
-    "terms": 4947
+    "components": 8809,
+    "concepts": 4994,
+    "observations": 5007,
+    "repos": 788,
+    "terms": 4963
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "0xPolygonHermez/zisk",
@@ -117,6 +117,8 @@
     "bitwarden/directory-connector",
     "bitwarden/ios",
     "bitwuzla/bitwuzla",
+    "Blosc/c-blosc2",
+    "Blosc/python-blosc2",
     "bndtools/bnd",
     "boj/redistore",
     "boostorg/math",
@@ -144,6 +146,7 @@
     "celzero/firestack",
     "chainguard-dev/actions",
     "chengzhag/UCPE",
+    "Chocolate4U/Iran-sing-box-rules",
     "Chocolate4U/Iran-v2ray-rules",
     "chromedp/cdproto",
     "ClickHouse/ch-go",
@@ -232,7 +235,6 @@
     "echonet/dynamic",
     "eclipse-lsp4j/lsp4j",
     "EdenEast/nyx",
-    "eitsupi/arf",
     "electerm/electerm-web",
     "electron-vite/vite-plugin-electron",
     "electron-vite/vite-plugin-electron-renderer",
@@ -456,7 +458,6 @@
     "LedgerHQ/speculos",
     "left-curve/left-curve",
     "LemmyNet/lemmy-js-client",
-    "libbitcoin/libbitcoin-server",
     "libbpf/blazesym",
     "libimobiledevice/libirecovery",
     "libnice/libnice",
@@ -685,6 +686,7 @@
     "SAP/SapMachine",
     "sapphiredev/utilities",
     "sbt/sbt-ci-release",
+    "sbt/sbt-jmh",
     "scalameta/nvim-metals",
     "scaleway/scaleway-cli",
     "scaleway/scaleway-sdk-go",

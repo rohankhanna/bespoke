@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1427,
-    "concepts": 761,
-    "observations": 762,
-    "repos": 272,
-    "terms": 757
+    "components": 1408,
+    "concepts": 744,
+    "observations": 745,
+    "repos": 270,
+    "terms": 740
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "2slides/mcp-2slides",
@@ -19,7 +19,6 @@
     "a5huynh/vscode-ron",
     "aaaaalexis/obsidian-pseudo-mica",
     "AadSah/ConverSeg",
-    "aba122/Q-Hawkeye",
     "abduznik/git-alchemist",
     "ably-labs/realtime-multiplayer-space-invaders",
     "ably-labs/realtime-quiz-framework",
@@ -45,7 +44,6 @@
     "ankane/ml-stack",
     "anmolitor/travelm-agency",
     "Antibrumm/jackson-antpathfilter",
-    "antonengelhardt/wasm-oidc-plugin",
     "apache/.github",
     "apache/incubator-seata-k8s",
     "apache/netbeans-antora-site",
@@ -139,6 +137,7 @@
     "flatpak/flatpak-xdg-utils",
     "flycheck/flycheck-eglot",
     "fmtlib/format-benchmark",
+    "foldl/AlphaGeometryRE",
     "fonttools/unicodedata2",
     "fortanix/rust-mbedtls",
     "FoundationDB/fdb-build-support",
@@ -200,7 +199,6 @@
     "kibertoad/toad-cache",
     "kunwar-shah/claudex",
     "L2jLiga/grunt-webfonts",
-    "lambdaisland/kaocha-cljs",
     "Layr-Labs/eigenda-operator-setup",
     "layumi/3D-Magic-Mirror",
     "lemire/simple_fastfloat_benchmark",

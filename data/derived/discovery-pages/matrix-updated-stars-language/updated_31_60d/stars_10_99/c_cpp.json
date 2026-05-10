@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 189,
+    "components": 192,
     "concepts": 188,
     "observations": 188,
-    "repos": 38,
+    "repos": 39,
     "terms": 186
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "ada-url/ada-python",
     "ada-url/goada",
@@ -41,6 +41,7 @@
     "grain-lang/binaryen.ml",
     "heal-research/pyoperon",
     "intel/metrics-discovery",
+    "jupyter-xeus/xeus-lua",
     "Level/classic-level",
     "libxsmm/tpp-pytorch-extension",
     "mxmlnkn/indexed_bzip2",

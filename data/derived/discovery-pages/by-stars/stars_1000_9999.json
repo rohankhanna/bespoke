@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 54066,
-    "concepts": 34976,
-    "observations": 35083,
-    "repos": 5927,
-    "terms": 34890
+    "components": 54067,
+    "concepts": 34989,
+    "observations": 35096,
+    "repos": 5929,
+    "terms": 34897
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -3598,6 +3598,7 @@
     "mileszs/ack.vim",
     "miloyip/nativejson-benchmark",
     "milvus-io/pymilvus",
+    "minad/consult",
     "minad/corfu",
     "minad/vertico",
     "MineDojo/MineDojo",
@@ -5849,6 +5850,7 @@
     "ykdojo/claude-code-tips",
     "yl4579/StyleTTS2",
     "ymcui/Chinese-ELECTRA",
+    "ymcui/Chinese-LLaMA-Alpaca-2",
     "ymcui/Chinese-XLNet",
     "yohanshin/WHAM",
     "yokoffing/filterlists",

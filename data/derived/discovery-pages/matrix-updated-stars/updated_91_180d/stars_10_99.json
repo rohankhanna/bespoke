@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2032,
-    "concepts": 1044,
-    "observations": 1050,
-    "repos": 414,
-    "terms": 1052
+    "components": 2051,
+    "concepts": 1061,
+    "observations": 1067,
+    "repos": 416,
+    "terms": 1069
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "1ilkhamov/opencode-hermes-multiagent",
@@ -25,6 +25,7 @@
     "64327069/LVAgent",
     "aarroyoc/djota",
     "aarroyoc/doclog",
+    "aba122/Q-Hawkeye",
     "abapGit/ADT_Backend",
     "abapGit/ADT_Frontend",
     "Accla/D4M.py",
@@ -51,6 +52,7 @@
     "AnonymouX47/termvisage",
     "antgroup/DeepXTrace",
     "antonbabenko/serverless.tf-playground",
+    "antonengelhardt/wasm-oidc-plugin",
     "apache/datasketches-python",
     "apache/incubator-seata-go-samples",
     "apache/opendal-ofs",
@@ -251,6 +253,7 @@
     "katerinakazantseva/strainy",
     "kigster/puma-daemon",
     "kool-engine/kool-templates",
+    "lambdaisland/kaocha-cljs",
     "langgraph4j/langgraph4j-examples",
     "lemire/fast_float",
     "lesismal/nbio-examples",
@@ -350,7 +353,6 @@
     "rpcxio/rpcx-etcd",
     "RTBHOUSE/tmux-picker",
     "rubyjs/libv8-node",
-    "RUCAIBox/CIR",
     "rukai/winit_input_helper",
     "rust-lang/gccjit.rs",
     "RustCrypto/nacl-compat",

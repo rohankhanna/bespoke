@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 729,
-    "concepts": 820,
-    "observations": 825,
-    "repos": 139,
-    "terms": 818
+    "components": 734,
+    "concepts": 823,
+    "observations": 828,
+    "repos": 140,
+    "terms": 821
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
@@ -114,6 +114,7 @@
     "nesquena/rabl",
     "ninenines/cowboy",
     "nmattia/niv",
+    "nvim-lua/plenary.nvim",
     "nvim-neorg/neorg",
     "nvim-treesitter/nvim-treesitter-textobjects",
     "OFA-Sys/Chinese-CLIP",

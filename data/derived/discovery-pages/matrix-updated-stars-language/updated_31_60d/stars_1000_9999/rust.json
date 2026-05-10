@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 335,
-    "concepts": 252,
-    "observations": 257,
-    "repos": 48,
-    "terms": 250
+    "components": 329,
+    "concepts": 243,
+    "observations": 248,
+    "repos": 47,
+    "terms": 242
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "allan2/dotenvy",
     "arxanas/git-branchless",
@@ -53,7 +53,6 @@
     "Rust-SDL2/rust-sdl2",
     "servo/ipc-channel",
     "sharkdp/pastel",
-    "simd-lite/simd-json",
     "smol-rs/smol",
     "snapview/tokio-tungstenite",
     "spacejam/sled",

@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-10T05:46:09.737913+00:00`
+Generated at: `2026-05-10T08:43:20.219283+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,7 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [endojs/endo](https://github.com/endojs/endo) | 1015 | 2026-05-09T11:32:45Z | JavaScript | Infrastructure/tooling | 17 | 46 | 17 | 17 |
+| [endojs/endo](https://github.com/endojs/endo) | 1016 | 2026-05-09T11:32:45Z | JavaScript | Infrastructure/tooling | 17 | 46 | 17 | 17 |
 | [module-federation/core](https://github.com/module-federation/core) | 2519 | 2026-05-09T08:56:27Z | JavaScript | Infrastructure/tooling | 13 | 159 | 13 | 13 |
 
 ## Repos sorted by stars
@@ -34,4 +34,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [module-federation/core](https://github.com/module-federation/core) | 2519 | 2026-05-09T08:56:27Z | JavaScript | Infrastructure/tooling | 13 | 159 | 13 | 13 |
-| [endojs/endo](https://github.com/endojs/endo) | 1015 | 2026-05-09T11:32:45Z | JavaScript | Infrastructure/tooling | 17 | 46 | 17 | 17 |
+| [endojs/endo](https://github.com/endojs/endo) | 1016 | 2026-05-09T11:32:45Z | JavaScript | Infrastructure/tooling | 17 | 46 | 17 | 17 |

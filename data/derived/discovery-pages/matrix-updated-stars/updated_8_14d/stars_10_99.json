@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3959,
-    "concepts": 1883,
-    "observations": 1892,
+    "components": 3870,
+    "concepts": 1879,
+    "observations": 1888,
     "repos": 401,
-    "terms": 1870
+    "terms": 1866
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "1-Platform/op-components",
@@ -85,6 +85,7 @@
     "carstencodes/pdm-bump",
     "catppuccin/.github",
     "cderv/r-bucket",
+    "Chocolate4U/Iran-clash-rules",
     "cilium/community",
     "cldwalker/dotfiles",
     "cloudfoundry/bosh-aws-cpi-release",
@@ -284,8 +285,6 @@
     "NVIDIA/DALI_extra",
     "NVIDIA/multi-storage-client",
     "obsidianmd/eslint-plugin",
-    "oclif/plugin-autocomplete",
-    "oclif/plugin-update",
     "oclif/test",
     "octokit/auth-action.js",
     "octokit/auth-oauth-app.js",
@@ -400,6 +399,7 @@
     "triton-inference-server/fil_backend",
     "tweag/gazelle_cabal",
     "typst/typst-assets",
+    "tyrypyrking/egui-ash",
     "unrs/unrs-resolver",
     "urschrei/rdp",
     "usbarmory/tamago-example",

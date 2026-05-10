@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 48928,
-    "concepts": 33718,
-    "observations": 33822,
-    "repos": 8359,
-    "terms": 33595
+    "components": 48976,
+    "concepts": 33727,
+    "observations": 33831,
+    "repos": 8360,
+    "terms": 33589
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0k/shyaml",
@@ -3002,7 +3002,6 @@
     "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
     "Fitzgerald-Porthmouth-Koenigsegg/Planschrift_Project",
     "fizzed/blaze",
-    "fizzed/font-mfizz",
     "fizzed/rocker",
     "FizzleDorf/ComfyUI_FizzNodes",
     "fjc0k/yapi-to-typescript",
@@ -4624,6 +4623,7 @@
     "koute/pinky",
     "kowainik/relude",
     "kowainik/summoner",
+    "Kozea/CairoSVG",
     "kpcyrd/rebuilderd",
     "kpe/bert-for-tf2",
     "kpertsch/rlds_dataset_builder",
@@ -8136,6 +8136,7 @@
     "xbdcc/CCommand",
     "xbdcc/GrabRedEnvelope",
     "xcmyz/FastSpeech",
+    "xdebug/vscode-php-debug",
     "xdit-project/mochi-xdit",
     "xfumihiro/jest-puppeteer-example",
     "xg-chu/GAGAvatar",

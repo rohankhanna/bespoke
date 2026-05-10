@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
+    "aba122/Q-Hawkeye",
     "Adlik/vllm",
     "Alexandre-Delplanque/HerdNet",
     "alexmojaki/pure_eval",
@@ -78,7 +79,6 @@
     "pycompression/python-zlib-ng",
     "ReneHollander/rep0st",
     "robotools/ufo2fdk",
-    "RUCAIBox/CIR",
     "saltstack/libnacl",
     "shawn0728/ARES",
     "SLDGroup/CASCADE",

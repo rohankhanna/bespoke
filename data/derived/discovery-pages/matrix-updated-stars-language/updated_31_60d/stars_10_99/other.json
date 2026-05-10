@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 426,
-    "concepts": 391,
-    "observations": 393,
-    "repos": 120,
-    "terms": 389
+    "components": 428,
+    "concepts": 392,
+    "observations": 394,
+    "repos": 121,
+    "terms": 390
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -131,6 +131,7 @@
     "SciML/sciml.ai",
     "tarides/ocaml-eglot",
     "typst/typst-flake",
+    "V13Axel/neotest-pest",
     "vorburger/blog",
     "w3c/element-timing",
     "xledger/pod_sql_server"

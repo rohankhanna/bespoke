@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 96,
-    "concepts": 112,
-    "observations": 112,
-    "repos": 23,
-    "terms": 112
+    "components": 99,
+    "concepts": 122,
+    "observations": 122,
+    "repos": 24,
+    "terms": 122
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "Alexpux/MINGW-packages",
     "bufbuild/homebrew-buf",
+    "Chocolate4U/Iran-clash-rules",
     "cilium/community",
     "cldwalker/dotfiles",
     "cloudfoundry/cf-deployment-concourse-tasks",

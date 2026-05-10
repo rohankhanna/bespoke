@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1116,
-    "concepts": 207,
-    "observations": 208,
-    "repos": 25,
-    "terms": 205
+    "components": 1104,
+    "concepts": 201,
+    "observations": 202,
+    "repos": 24,
+    "terms": 199
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "alichherawalla/off-grid-mobile-ai",
     "apify/fingerprint-suite",
@@ -37,7 +37,6 @@
     "unjs/unhead",
     "vite-pwa/vite-plugin-pwa",
     "vuejs/devtools",
-    "vuejs/language-tools",
     "withcatai/node-llama-cpp"
   ]
 }

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5207,
-    "concepts": 3286,
-    "observations": 3300,
-    "repos": 704,
-    "terms": 3290
+    "components": 5214,
+    "concepts": 3304,
+    "observations": 3318,
+    "repos": 706,
+    "terms": 3308
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "2KAbhishek/seeker.nvim",
@@ -117,7 +117,6 @@
     "babashka/nbb",
     "babashka/neil",
     "badgen/badgen",
-    "badges/awesome-badges",
     "baidu-baige/LoongFlow",
     "bazelbuild/bazel-skylib",
     "bbatsov/super-save",
@@ -182,6 +181,7 @@
     "coredns/helm",
     "corteva/rioxarray",
     "cosmos/iavl",
+    "cpmech/russell",
     "cpp-pm/hunter",
     "crazy-max/xgo",
     "creativescala/doodle",
@@ -240,6 +240,7 @@
     "dwyl/phoenix-ecto-encryption-example",
     "dwyl/phoenix-liveview-counter-tutorial",
     "dwyl/phoenix-todo-list-tutorial",
+    "dwyl/sendemail",
     "e18e/ecosystem-issues",
     "eclipse-buildship/buildship",
     "eclipse-cyclonedds/cyclonedds-cxx",
@@ -681,6 +682,7 @@
     "typst/comemo",
     "ugexe/zef",
     "un-ts/eslint-plugin-import-x",
+    "usbarmory/GoTEE",
     "uxlfoundation/oneMath",
     "vcflib/vcflib",
     "vectr-ucla/direct_lidar_inertial_odometry",
@@ -700,6 +702,7 @@
     "withastro/compiler",
     "WojciechMula/toys",
     "WujiangXu/A-mem-sys",
+    "wuphilipp/gello_mechanical",
     "wuphilipp/gello_software",
     "XantreDev/preact-signals",
     "xavierpuigf/virtualhome",
@@ -715,7 +718,6 @@
     "ysbing/YADB",
     "yuliangguo/3D_Lane_Synthetic_Dataset",
     "zai-org/z-ai-sdk-python",
-    "zhijian-liu/torchprofile",
     "zone-eu/zone-mta"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 849,
+    "components": 852,
     "concepts": 3588,
     "observations": 3590,
-    "repos": 914,
-    "terms": 3527
+    "repos": 915,
+    "terms": 3526
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -294,6 +294,7 @@
     "fbcotter/pytorch_wavelets",
     "FeeiCN/Cobra",
     "filipradenovic/cnnimageretrieval-pytorch",
+    "FlagAI-Open/FlagAI",
     "flask-restful/flask-restful",
     "flow-project/flow",
     "FMInference/FlexLLMGen",

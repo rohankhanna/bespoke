@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 919,
-    "concepts": 1030,
-    "observations": 1030,
-    "repos": 119,
-    "terms": 1022
+    "components": 929,
+    "concepts": 1049,
+    "observations": 1049,
+    "repos": 120,
+    "terms": 1041
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/openexr",
     "AcademySoftwareFoundation/OpenImageIO",
     "actor-framework/actor-framework",
+    "AdaptiveCpp/AdaptiveCpp",
     "ai-dynamo/nixl",
     "alanxz/rabbitmq-c",
     "apache/age",

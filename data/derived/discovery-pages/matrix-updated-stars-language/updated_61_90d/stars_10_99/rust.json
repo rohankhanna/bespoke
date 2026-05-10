@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 93,
-    "concepts": 59,
-    "observations": 59,
-    "repos": 22,
-    "terms": 59
+    "components": 80,
+    "concepts": 43,
+    "observations": 43,
+    "repos": 21,
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "acw/simple_asn1",
     "alloy-rs/op-alloy",
-    "antonengelhardt/wasm-oidc-plugin",
     "baerwang/openapi-rs",
     "CosmWasm/cw-storage-plus",
     "Cykooz/libheif-rs",

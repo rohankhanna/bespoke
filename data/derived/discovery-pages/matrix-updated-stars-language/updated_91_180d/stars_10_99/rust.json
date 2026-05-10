@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 174,
-    "concepts": 121,
-    "observations": 124,
-    "repos": 48,
-    "terms": 119
+    "components": 187,
+    "concepts": 137,
+    "observations": 140,
+    "repos": 49,
+    "terms": 135
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "adamgreig/ecpdap",
     "algorealmInc/SwarmNL",
+    "antonengelhardt/wasm-oidc-plugin",
     "apache/opendal-ofs",
     "ArjunNair/egui_sdl2_gl",
     "ashvardanian/StringTape",

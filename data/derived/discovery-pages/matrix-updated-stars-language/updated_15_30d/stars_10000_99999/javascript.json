@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2640,
-    "concepts": 479,
-    "observations": 482,
-    "repos": 63,
-    "terms": 475
+    "components": 2527,
+    "concepts": 468,
+    "observations": 471,
+    "repos": 61,
+    "terms": 464
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "ai/nanoid",
     "ajaxorg/ace",
@@ -27,7 +27,6 @@
     "brianc/node-postgres",
     "browserslist/browserslist",
     "commitizen/cz-cli",
-    "ConardLi/easy-dataset",
     "cure53/DOMPurify",
     "decaporg/decap-cms",
     "electerm/electerm",
@@ -57,7 +56,6 @@
     "nock/nock",
     "openai/codex-plugin-cc",
     "postcss/autoprefixer",
-    "pot-app/pot-desktop",
     "prettier/prettier",
     "PrismJS/prism",
     "protobufjs/protobuf.js",

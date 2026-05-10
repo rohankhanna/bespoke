@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 664,
-    "concepts": 115,
-    "observations": 115,
-    "repos": 19,
-    "terms": 121
+    "components": 777,
+    "concepts": 126,
+    "observations": 126,
+    "repos": 21,
+    "terms": 132
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "anuraghazra/github-readme-stats",
     "auth0/node-jsonwebtoken",
+    "ConardLi/easy-dataset",
     "debug-js/debug",
     "eyaltoledano/claude-task-master",
     "hapijs/hapi",
@@ -25,6 +26,7 @@
     "less/less.js",
     "markdown-it/markdown-it",
     "parcel-bundler/parcel",
+    "pot-app/pot-desktop",
     "pugjs/pug",
     "reactjs/react.dev",
     "testing-library/react-testing-library",

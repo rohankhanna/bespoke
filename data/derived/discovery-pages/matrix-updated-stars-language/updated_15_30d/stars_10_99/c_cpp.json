@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 237,
+    "components": 234,
     "concepts": 189,
     "observations": 189,
-    "repos": 47,
+    "repos": 46,
     "terms": 191
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
     "acts-project/traccc",
@@ -33,7 +33,6 @@
     "gazebosim/gz-transport",
     "ICRAR/crc32c",
     "JFLarvoire/the_silver_searcher",
-    "jupyter-xeus/xeus-lua",
     "ksnip/kImageAnnotator",
     "liangshengyong/lanwan",
     "libbitcoin/libbitcoin-database",

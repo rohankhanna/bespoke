@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 29,
-    "concepts": 27,
-    "observations": 27,
-    "repos": 4,
-    "terms": 27
+    "components": 32,
+    "concepts": 30,
+    "observations": 30,
+    "repos": 5,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "archlinuxcn/repo",
     "itzg/docker-minecraft-bedrock-server",
     "nodenv/nodenv",
+    "ROCm/ROCm",
     "webinstall/webi-installers"
   ]
 }

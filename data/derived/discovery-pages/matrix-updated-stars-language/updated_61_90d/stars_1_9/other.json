@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 95,
-    "concepts": 62,
-    "observations": 62,
-    "repos": 22,
-    "terms": 59
+    "components": 93,
+    "concepts": 54,
+    "observations": 54,
+    "repos": 21,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "adobe/spectrum-tokens",
@@ -34,7 +34,6 @@
     "SWE-bench/SWE-smith-envs",
     "tensorchord/VectorChord-images",
     "usnistgov/libhdf5-wasm",
-    "vim-fuzzbox/fuzzbox-lsp.vim",
-    "zen-eth/multiformats-zig"
+    "vim-fuzzbox/fuzzbox-lsp.vim"
   ]
 }

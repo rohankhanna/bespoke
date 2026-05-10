@@ -1,23 +1,22 @@
 {
   "counts": {
-    "components": 601,
-    "concepts": 333,
-    "observations": 335,
-    "repos": 34,
-    "terms": 333
+    "components": 588,
+    "concepts": 312,
+    "observations": 314,
+    "repos": 32,
+    "terms": 311
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "aigc-apps/VideoX-Fun",
     "apache/datafusion-ballista",
     "aws-cloudformation/cfn-lint",
     "CloudCompare/CloudCompare",
-    "crc-org/crc",
     "databendlabs/databend",
     "datalevin/datalevin",
     "endojs/endo",
@@ -25,6 +24,7 @@
     "fla-org/flash-linear-attention",
     "godot-rust/gdext",
     "google-gemini/live-api-web-console",
+    "hacl-star/hacl-star",
     "harbor-framework/harbor",
     "hermit-os/hermit-rs",
     "KhronosGroup/KTX-Software",
@@ -32,19 +32,17 @@
     "meta-pytorch/torchcodec",
     "meta-pytorch/torchtune",
     "microsoft/aspire",
-    "microsoft/aspire-samples",
     "Mithril-mine/libmdbx",
     "module-federation/core",
     "nvim-mini/mini.nvim",
     "ogx-ai/ogx",
     "podman-desktop/podman-desktop",
     "PrimeIntellect-ai/verifiers",
-    "psmux/psmux",
     "redis/redis-om-python",
     "rllm-org/rllm",
-    "ROCm/ROCm",
     "swiftlang/llvm-project",
     "TanStack/form",
+    "vuejs/language-tools",
     "web-platform-tests/wpt",
     "yt-dlp/FFmpeg-Builds"
   ]

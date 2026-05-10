@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1589,
-    "concepts": 1488,
-    "observations": 1494,
-    "repos": 180,
-    "terms": 1492
+    "components": 1574,
+    "concepts": 1474,
+    "observations": 1480,
+    "repos": 178,
+    "terms": 1478
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -55,7 +55,6 @@
     "chainguard-dev/apko",
     "charmbracelet/bubbles",
     "charmbracelet/freeze",
-    "charmbracelet/harmonica",
     "charmbracelet/huh",
     "charmbracelet/log",
     "ClickHouse/clickhouse-go",
@@ -75,7 +74,6 @@
     "dghubble/gologin",
     "digitalocean/doctl",
     "digitalocean/godo",
-    "dkron-io/dkron",
     "dlclark/regexp2",
     "docker/buildx",
     "docker/cli",
@@ -114,7 +112,6 @@
     "gopasspw/gopass",
     "gotestyourself/gotestsum",
     "grafana/alloy",
-    "grpc-ecosystem/grpc-health-probe",
     "hairyhenderson/gomplate",
     "hanselime/paqet",
     "hashicorp/go-immutable-radix",
@@ -189,6 +186,7 @@
     "tofuutils/tenv",
     "tonistiigi/binfmt",
     "trzsz/trzsz-go",
+    "trzsz/trzsz-ssh",
     "uptrace/uptrace",
     "VictoriaMetrics/fastcache",
     "wa-lang/wa",

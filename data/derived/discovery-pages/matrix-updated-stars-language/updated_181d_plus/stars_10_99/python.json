@@ -3,8 +3,8 @@
     "components": 678,
     "concepts": 1424,
     "observations": 1426,
-    "repos": 813,
-    "terms": 1405
+    "repos": 814,
+    "terms": 1403
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -680,6 +680,7 @@
     "robotology/gym-ignition-models",
     "RUC-NLPIR/FlashRAG-MindSpore",
     "RUC-NLPIR/HiRA",
+    "RUCAIBox/CIR",
     "RUCAIBox/ICPC-Eval",
     "RUCAIBox/OlymMATH",
     "RUCAIBox/R1-Searcher-plus",

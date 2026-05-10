@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 2600,
+    "components": 2608,
     "concepts": 1498,
     "observations": 1507,
-    "repos": 378,
+    "repos": 379,
     "terms": 1497
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "4d49/scene-library",
@@ -69,6 +69,7 @@
     "Azure-Samples/contoso-creative-writer",
     "Azure/arm-ttk",
     "babashka/scittle",
+    "badges/awesome-badges",
     "beached/daw_json_link",
     "beam-telemetry/telemetry",
     "beam-telemetry/telemetry_metrics",
@@ -129,7 +130,6 @@
     "dop251/goja_nodejs",
     "douglascrockford/JSMin",
     "drivendataorg/zamba",
-    "dualverse-ai/station",
     "dwyl/phoenix-liveview-chat-example",
     "eckardt/cchistory",
     "eclipse-aspectj/aspectj",
@@ -387,6 +387,7 @@
     "yandeu/five-server",
     "ylsdamxssjxxdd/eva",
     "YosysHQ/prjtrellis",
+    "zhijian-liu/torchprofile",
     "zhixuan-lin/forgetting-transformer",
     "zkcrypto/bls12_381",
     "zkcrypto/jubjub",

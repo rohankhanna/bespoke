@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "AadSah/ConverSeg",
-    "aba122/Q-Hawkeye",
     "abduznik/git-alchemist",
     "agents-x-project/PyVision-RL",
     "Alibaba-Quark/SSP",
@@ -42,6 +41,7 @@
     "enjoy-digital/liteiclink",
     "enjoy-digital/litex_hw_ci",
     "fla-org/flash-bidirectional-linear-attention",
+    "foldl/AlphaGeometryRE",
     "galaxyproject/tools-devteam",
     "gazebosim/gz-mujoco",
     "googlefonts/lang",

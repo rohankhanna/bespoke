@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 45366,
+    "components": 45369,
     "concepts": 31893,
     "observations": 31947,
-    "repos": 11699,
-    "terms": 31497
+    "repos": 11702,
+    "terms": 31482
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01-ai/Yi-1.5",
@@ -3280,6 +3280,8 @@
     "deepcam-cn/yolov5-face",
     "deepdataspace/dds-cloudapi-sdk",
     "deepdialog/CPM-LM-TF2",
+    "deepseek-ai/awesome-deepseek-coder",
+    "deepseek-ai/DeepSeek-Coder",
     "deepseek-ai/DeepSeek-LLM",
     "deepseek-ai/DeepSeek-Math",
     "deepseek-ai/DeepSeek-R1",
@@ -4344,7 +4346,6 @@
     "firstcontributions/open-source-badges",
     "fish-shell/rust-pcre2",
     "fivethirtyeight/data",
-    "fizzed/font-mfizz",
     "fizzed/ninja-rocker",
     "fizzed/template-benchmark",
     "FizzleDorf/ComfyUI_FizzNodes",
@@ -4355,6 +4356,7 @@
     "fkr-0/flight-attendant.el",
     "fky2015/navigator.nvim-bug-report",
     "FlagAI-Open/Aquila2",
+    "FlagAI-Open/FlagAI",
     "FlagOpen/RoboBrain",
     "FlagOpen/RoboBrain-X0",
     "FlagOpen/ShareRobot",
@@ -9591,6 +9593,7 @@
     "rubyjs/therubyracer",
     "RUC-NLPIR/FlashRAG-MindSpore",
     "RUC-NLPIR/HiRA",
+    "RUCAIBox/CIR",
     "RUCAIBox/ICPC-Eval",
     "RUCAIBox/LLMBox",
     "RUCAIBox/OlymMATH",
@@ -10773,9 +10776,9 @@
     "triton-inference-server/contrib",
     "triton-inference-server/pytriton",
     "TritonDataCenter/javascriptlint",
-    "tritondatacenter/node-cmdutil",
+    "TritonDataCenter/node-cmdutil",
     "TritonDataCenter/node-extsprintf",
-    "tritondatacenter/node-getopt",
+    "TritonDataCenter/node-getopt",
     "TritonDataCenter/node-http-signature",
     "trknhr/2048-go",
     "tronkko/dirent",

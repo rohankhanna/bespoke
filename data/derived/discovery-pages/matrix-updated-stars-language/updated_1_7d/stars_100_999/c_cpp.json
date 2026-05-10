@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 72,
-    "concepts": 79,
-    "observations": 79,
-    "repos": 16,
-    "terms": 79
+    "components": 68,
+    "concepts": 77,
+    "observations": 77,
+    "repos": 15,
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "aburch/simutrans",
-    "Blosc/c-blosc2",
     "CEED/libCEED",
     "flagos-ai/FlagCX",
     "foldl/chatllm.cpp",

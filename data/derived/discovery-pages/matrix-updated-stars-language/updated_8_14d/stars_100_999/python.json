@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 796,
-    "concepts": 747,
-    "observations": 750,
-    "repos": 123,
-    "terms": 743
+    "components": 807,
+    "concepts": 752,
+    "observations": 755,
+    "repos": 124,
+    "terms": 748
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "aboutcode-org/scancode.io",
     "ag2ai/build-with-ag2",
@@ -36,6 +36,7 @@
     "Backblaze/B2_Command_Line_Tool",
     "basetenlabs/truss-examples",
     "bazelbuild/continuous-integration",
+    "Blosc/python-blosc2",
     "bootmortis/iran-hosted-domains",
     "bytedance/Valley",
     "capitalone/datacompy",

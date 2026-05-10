@@ -3,7 +3,7 @@
     "components": 122,
     "concepts": 409,
     "observations": 410,
-    "repos": 238,
+    "repos": 239,
     "terms": 409
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0russwest0/Awesome-Agent-RL",
@@ -75,6 +75,7 @@
     "darkpgmr/DarkLabel",
     "DaveH355/clustered-shading",
     "dc-ai-projects/DC-VideoGen",
+    "deepseek-ai/awesome-deepseek-coder",
     "defunctzombie/package-browser-field-spec",
     "destwang/CTCResources",
     "doc-analysis/ReadingBank",

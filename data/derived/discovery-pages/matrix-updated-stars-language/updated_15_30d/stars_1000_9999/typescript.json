@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5563,
-    "concepts": 1058,
-    "observations": 1061,
-    "repos": 139,
-    "terms": 1161
+    "components": 5585,
+    "concepts": 1059,
+    "observations": 1062,
+    "repos": 140,
+    "terms": 1162
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -103,6 +103,7 @@
     "lukeautry/tsoa",
     "matt1398/claude-devtools",
     "maxritter/pilot-shell",
+    "messageformat/messageformat",
     "microsoft/playwright-cli",
     "microsoft/rnx-kit",
     "microsoft/vscode-cpptools",
@@ -127,7 +128,6 @@
     "peter-evans/create-pull-request",
     "piebald-ai/tweakcc",
     "pixiv/three-vrm",
-    "preactjs/signals",
     "prettier/prettier-vscode",
     "privatenumber/esbuild-loader",
     "react-hook-form/resolvers",
@@ -135,6 +135,7 @@
     "redhat-developer/vscode-java",
     "redhat-developer/yaml-language-server",
     "sirmalloc/ccstatusline",
+    "solidjs/solid-router",
     "solidjs/solid-start",
     "statoscope/statoscope",
     "streamich/memfs",

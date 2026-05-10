@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5274,
-    "concepts": 1027,
-    "observations": 1029,
-    "repos": 116,
-    "terms": 1022
+    "components": 5210,
+    "concepts": 1019,
+    "observations": 1021,
+    "repos": 114,
+    "terms": 1014
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "acacode/swagger-typescript-api",
     "AdguardTeam/AdguardBrowserExtension",
@@ -73,7 +73,6 @@
     "julia-vscode/julia-vscode",
     "mathjax/MathJax-src",
     "mdn/yari",
-    "messageformat/messageformat",
     "microsoft/vscode-cmake-tools",
     "microsoft/vscode-python",
     "modelcontextprotocol/inspector",
@@ -101,7 +100,6 @@
     "rustmailer/bichon",
     "SilentVoid13/Templater",
     "sinclairzx81/typebox",
-    "solidjs/solid-router",
     "sparkjsdev/spark",
     "stackblitz-labs/pkg.pr.new",
     "standard/eslint-config-standard",

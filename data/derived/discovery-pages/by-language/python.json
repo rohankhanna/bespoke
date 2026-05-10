@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 17317,
-    "concepts": 25917,
-    "observations": 25966,
-    "repos": 6485,
+    "components": 17320,
+    "concepts": 25931,
+    "observations": 25980,
+    "repos": 6487,
     "terms": 25730
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "python"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0cc4m/hf_bleeding_edge",
@@ -3470,6 +3470,7 @@
     "Kosinkadink/ComfyUI-VideoHelperSuite",
     "koute/rwkv_tokenizer",
     "kovidgoyal/kitty",
+    "Kozea/CairoSVG",
     "kpe/bert-for-tf2",
     "kpertsch/rlds_dataset_builder",
     "kpertsch/rlds_dataset_mod",
@@ -6333,6 +6334,7 @@
     "ymcui/Chinese-BERT-wwm",
     "ymcui/Chinese-ELECTRA",
     "ymcui/Chinese-LLaMA-Alpaca",
+    "ymcui/Chinese-LLaMA-Alpaca-2",
     "ymcui/Chinese-Mixtral",
     "ymcui/Chinese-XLNet",
     "ymcui/cmrc2018",

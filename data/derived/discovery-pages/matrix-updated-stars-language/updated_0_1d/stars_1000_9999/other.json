@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 69,
-    "concepts": 76,
-    "observations": 76,
-    "repos": 7,
-    "terms": 76
+    "components": 57,
+    "concepts": 69,
+    "observations": 69,
+    "repos": 6,
+    "terms": 69
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "datalevin/datalevin",
+    "hacl-star/hacl-star",
     "microsoft/aspire",
-    "microsoft/aspire-samples",
     "nvim-mini/mini.nvim",
-    "psmux/psmux",
     "swiftlang/llvm-project",
     "web-platform-tests/wpt"
   ]

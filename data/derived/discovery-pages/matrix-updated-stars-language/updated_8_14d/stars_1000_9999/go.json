@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 824,
-    "concepts": 833,
-    "observations": 838,
-    "repos": 82,
-    "terms": 829
+    "components": 820,
+    "concepts": 824,
+    "observations": 829,
+    "repos": 81,
+    "terms": 820
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "akvorado/akvorado",
     "anthropics/anthropic-sdk-go",
@@ -91,7 +91,6 @@
     "spiffe/spire",
     "supabase/cli",
     "sysadminsmedia/homebox",
-    "trzsz/trzsz-ssh",
     "umputun/remark42",
     "usbarmory/tamago",
     "vale-cli/vale",

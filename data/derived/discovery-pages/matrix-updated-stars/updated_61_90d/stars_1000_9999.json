@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2086,
-    "concepts": 1336,
-    "observations": 1338,
-    "repos": 269,
-    "terms": 1329
+    "components": 2092,
+    "concepts": 1345,
+    "observations": 1347,
+    "repos": 270,
+    "terms": 1337
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2ndalpha/gasmask",
@@ -229,6 +229,7 @@
     "sbt/sbt-native-packager",
     "sharkdp/diskus",
     "shibing624/text2vec",
+    "simd-lite/simd-json",
     "simonw/claude-code-transcripts",
     "sindresorhus/clipboardy",
     "snapcast/snapcast",

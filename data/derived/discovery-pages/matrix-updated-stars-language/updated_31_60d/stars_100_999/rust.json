@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 245,
-    "concepts": 203,
-    "observations": 207,
-    "repos": 48,
-    "terms": 202
+    "components": 250,
+    "concepts": 227,
+    "observations": 231,
+    "repos": 49,
+    "terms": 226
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "AchetaGames/Epic-Asset-Manager",
     "ashvardanian/StringWars",
     "athre0z/color-backtrace",
     "cedar-policy/cedar-examples",
+    "cpmech/russell",
     "cryscan/web-rwkv",
     "ctz/graviola",
     "dalance/ptags",

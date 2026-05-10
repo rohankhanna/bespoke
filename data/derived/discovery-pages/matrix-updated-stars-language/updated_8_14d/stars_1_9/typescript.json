@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 390,
-    "concepts": 142,
-    "observations": 142,
-    "repos": 20,
-    "terms": 142
+    "components": 354,
+    "concepts": 135,
+    "observations": 135,
+    "repos": 19,
+    "terms": 135
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "8hobbies/vite-plugin-year",
     "anolilab/unplugin-favicons",
@@ -28,7 +28,6 @@
     "ipld/github-mgmt",
     "ipshipyard/github-mgmt",
     "multiformats/github-mgmt",
-    "oclif/plugin-search",
     "oclif/plugin-version",
     "octokit/auth-callback.js",
     "redhat-developer/app-services-api-guidelines",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 122,
-    "concepts": 95,
-    "observations": 95,
-    "repos": 19,
-    "terms": 95
+    "components": 128,
+    "concepts": 104,
+    "observations": 104,
+    "repos": 20,
+    "terms": 103
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "a16z/helios",
     "brendanzab/codespan",
@@ -28,6 +28,7 @@
     "rust-fuzz/cargo-fuzz",
     "rust-lang/regex",
     "sharkdp/diskus",
+    "simd-lite/simd-json",
     "tikv/grpc-rs",
     "tokio-rs/loom",
     "tokio-rs/prost",

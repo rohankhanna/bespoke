@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 346,
-    "concepts": 288,
-    "observations": 288,
+    "concepts": 291,
+    "observations": 291,
     "repos": 73,
-    "terms": 286
+    "terms": 289
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "4dn-dcic/tibanna",
     "Accio-Lab/SwimBird",
     "ai4colonoscopy/PraNet-V2",
+    "aiagenta2z/mcp-marketplace",
     "all-the-noises/eval-arena",
     "allenai/beaker-gantry",
     "allenporter/python-google-nest-sdm",
@@ -46,7 +47,6 @@
     "explosion/weasel",
     "facebookresearch/mosaic",
     "FindDefinition/cumm",
-    "foldl/AlphaGeometryRE",
     "hpcaitech/public_assets",
     "hynek/argon2-cffi-bindings",
     "HyperionGray/trio-chrome-devtools-protocol",

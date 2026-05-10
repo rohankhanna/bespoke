@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 246,
-    "concepts": 47,
-    "observations": 47,
-    "repos": 9,
-    "terms": 47
+    "components": 263,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 10,
+    "terms": 49
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "caolan/async",
     "chalk/chalk",
     "forwardemail/superagent",
     "goldfire/howler.js",
+    "gulpjs/gulp",
     "ramda/ramda",
     "redux-saga/redux-saga",
     "songquanpeng/one-api",

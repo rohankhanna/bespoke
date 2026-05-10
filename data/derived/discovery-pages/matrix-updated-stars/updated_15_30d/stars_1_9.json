@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2437,
-    "concepts": 1036,
-    "observations": 1037,
+    "components": 2473,
+    "concepts": 1043,
+    "observations": 1044,
     "repos": 310,
-    "terms": 1066
+    "terms": 1073
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman-js",
     "0xPolygonHermez/stark-recurser",
@@ -38,7 +38,6 @@
     "agent-sh/repo-intel",
     "agent-sh/sync-docs",
     "AgnostiqHQ/covalent-executor-template",
-    "AI-Agent-Hub/mcp-marketplace",
     "ai-dynamo/enhancements",
     "aiidateam/plumpy",
     "aldernero/gaul",
@@ -184,6 +183,7 @@
     "hchiam/hchiam.github.io",
     "hermit-os/rust-std-hermit",
     "HKU-BAL/Clair-skills",
+    "HKUDS/.github",
     "huggingface/fuser",
     "huggingface/hf-csi-driver",
     "ibm-telemetry/telemetry-config-schema",
@@ -239,6 +239,7 @@
     "nicolo-ribaudo/engine262",
     "nodejs/web-team",
     "oclif/plugin-commands",
+    "oclif/plugin-search",
     "octokit/auth-unauthenticated.js",
     "onicai/IConfucius",
     "oobabooga/screenshots",
@@ -275,7 +276,6 @@
     "seunghunbae-3svs/solo-cto-agent",
     "Shougo/dpp-ext-lazy",
     "sigstore/architecture-docs",
-    "sp1-patches/bn",
     "standardrb/standard-custom",
     "status-im/nimbus-build-system",
     "stdlib-js/array-complex128",

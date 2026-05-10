@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 14852,
-    "concepts": 5989,
-    "observations": 6016,
-    "repos": 616,
-    "terms": 6001
+    "components": 14748,
+    "concepts": 5983,
+    "observations": 6010,
+    "repos": 615,
+    "terms": 5995
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -143,7 +143,6 @@
     "coder/coder",
     "commitizen/cz-cli",
     "composer/composer",
-    "ConardLi/easy-dataset",
     "containerd/containerd",
     "containerd/nerdctl",
     "containers/skopeo",
@@ -237,6 +236,7 @@
     "GaiZhenbiao/ChuanhuChatGPT",
     "garrytan/gstack",
     "gcanti/fp-ts",
+    "Genesis-Embodied-AI/Genesis",
     "getsentry/sentry",
     "getzep/graphiti",
     "gfx-rs/wgpu",
@@ -472,7 +472,6 @@
     "plotly/plotly.py",
     "pnpm/pnpm",
     "postcss/autoprefixer",
-    "pot-app/pot-desktop",
     "pre-commit/pre-commit",
     "prestodb/presto",
     "prettier/prettier",

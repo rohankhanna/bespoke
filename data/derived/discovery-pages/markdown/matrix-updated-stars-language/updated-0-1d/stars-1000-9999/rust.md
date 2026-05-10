@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-05-10T05:46:09.737913+00:00`
+Generated at: `2026-05-10T08:43:20.219283+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,8 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [databendlabs/databend](https://github.com/databendlabs/databend) | 9283 | 2026-05-10T00:21:48Z | Rust | Infrastructure/tooling | 18 | 11 | 18 | 18 |
-| [godot-rust/gdext](https://github.com/godot-rust/gdext) | 4765 | 2026-05-09T22:09:58Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
+| [databendlabs/databend](https://github.com/databendlabs/databend) | 9285 | 2026-05-10T08:09:35Z | Rust | Infrastructure/tooling | 18 | 11 | 18 | 18 |
+| [godot-rust/gdext](https://github.com/godot-rust/gdext) | 4767 | 2026-05-10T07:07:18Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [apache/datafusion-ballista](https://github.com/apache/datafusion-ballista) | 2028 | 2026-05-09T20:21:52Z | Rust | Infrastructure/tooling | 13 | 24 | 13 | 14 |
 | [hermit-os/hermit-rs](https://github.com/hermit-os/hermit-rs) | 1914 | 2026-05-09T11:32:22Z | Rust | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 
@@ -35,7 +35,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [databendlabs/databend](https://github.com/databendlabs/databend) | 9283 | 2026-05-10T00:21:48Z | Rust | Infrastructure/tooling | 18 | 11 | 18 | 18 |
-| [godot-rust/gdext](https://github.com/godot-rust/gdext) | 4765 | 2026-05-09T22:09:58Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
+| [databendlabs/databend](https://github.com/databendlabs/databend) | 9285 | 2026-05-10T08:09:35Z | Rust | Infrastructure/tooling | 18 | 11 | 18 | 18 |
+| [godot-rust/gdext](https://github.com/godot-rust/gdext) | 4767 | 2026-05-10T07:07:18Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [apache/datafusion-ballista](https://github.com/apache/datafusion-ballista) | 2028 | 2026-05-09T20:21:52Z | Rust | Infrastructure/tooling | 13 | 24 | 13 | 14 |
 | [hermit-os/hermit-rs](https://github.com/hermit-os/hermit-rs) | 1914 | 2026-05-09T11:32:22Z | Rust | Infrastructure/tooling | 10 | 5 | 10 | 10 |

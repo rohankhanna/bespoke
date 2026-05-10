@@ -3,7 +3,7 @@
     "components": 1011,
     "concepts": 595,
     "observations": 596,
-    "repos": 170,
+    "repos": 172,
     "terms": 585
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "2KAbhishek/BWnB",
@@ -29,6 +29,7 @@
     "agenmod/okr-skill",
     "agent-sh/deslop",
     "agent-sh/ship",
+    "AI-Agent-Hub/mcp-marketplace",
     "aifoundry-org/riscv-gnu-toolchain",
     "alexellis/gha-bump",
     "alexpolonsky/agent-skill-ontopo",
@@ -169,6 +170,7 @@
     "ScoopInstaller/.github",
     "serpro69/claude-in-docker",
     "shadmau/autocouncil",
+    "sp1-patches/bn",
     "sparklabutah/timewarp",
     "stdlib-js/array-buffer",
     "stdlib-js/array-complex64",

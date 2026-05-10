@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 699,
-    "concepts": 417,
-    "observations": 419,
-    "repos": 32,
-    "terms": 416
+    "components": 739,
+    "concepts": 441,
+    "observations": 443,
+    "repos": 33,
+    "terms": 440
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "angular/angular-devkit-architect-builds",
     "boa-dev/data",
@@ -43,6 +43,7 @@
     "stdlib-js/math-base-special-erfcinv",
     "stdlib-js/math-base-special-erfcx",
     "stdlib-js/math-base-special-erfinv",
+    "stdlib-js/ndarray-fancy",
     "stdlib-js/repl",
     "thetutlage/static",
     "travi/octokit-auth-netrc"

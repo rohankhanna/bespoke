@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 1708,
+    "components": 1720,
     "concepts": 1466,
     "observations": 1479,
     "repos": 182,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-baseline",
     "aaubry/YamlDotNet",
@@ -52,6 +52,7 @@
     "confluentinc/confluent-kafka-go",
     "cortinico/kotlin-android-template",
     "countries/countries",
+    "coverlet-coverage/coverlet",
     "csstools/postcss-plugins",
     "d12frosted/homebrew-emacs-plus",
     "dafny-lang/dafny",
@@ -95,7 +96,6 @@
     "GoogleCloudPlatform/php-docs-samples",
     "gotify/android",
     "h2oai/h2o-3",
-    "hacl-star/hacl-star",
     "haskell/cabal",
     "HazyResearch/ThunderKittens",
     "intel/llvm",

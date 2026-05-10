@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1520,
-    "concepts": 312,
-    "observations": 314,
-    "repos": 56,
-    "terms": 312
+    "components": 1428,
+    "concepts": 298,
+    "observations": 300,
+    "repos": 54,
+    "terms": 298
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "addfox/addfox",
@@ -46,8 +46,6 @@
     "microsoft/Agents-for-js",
     "NullVoxPopuli/ember-deep-tracked",
     "obsidianmd/eslint-plugin",
-    "oclif/plugin-autocomplete",
-    "oclif/plugin-update",
     "oclif/test",
     "octokit/auth-action.js",
     "octokit/auth-oauth-app.js",

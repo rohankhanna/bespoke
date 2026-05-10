@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-05-10T05:46:09.737913+00:00`
+Generated at: `2026-05-10T08:43:20.219283+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [redis/redis-om-python](https://github.com/redis/redis-om-python) | 1309 | 2026-05-10T07:01:10Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
 | [PrimeIntellect-ai/verifiers](https://github.com/PrimeIntellect-ai/verifiers) | 4091 | 2026-05-10T02:54:18Z | Python | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [rllm-org/rllm](https://github.com/rllm-org/rllm) | 5485 | 2026-05-10T02:39:44Z | Python | Infrastructure/tooling | 19 | 6 | 19 | 19 |
 | [harbor-framework/harbor](https://github.com/harbor-framework/harbor) | 1856 | 2026-05-09T23:30:59Z | Python | CLI | 9 | 8 | 9 | 9 |
@@ -37,7 +38,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [meta-pytorch/torchcodec](https://github.com/meta-pytorch/torchcodec) | 1059 | 2026-05-09T11:50:10Z | Python | Infrastructure/tooling | 6 | 13 | 6 | 6 |
 | [meta-pytorch/torchtune](https://github.com/meta-pytorch/torchtune) | 5751 | 2026-05-09T11:50:08Z | Python | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 | [aigc-apps/VideoX-Fun](https://github.com/aigc-apps/VideoX-Fun) | 2068 | 2026-05-09T09:25:54Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [redis/redis-om-python](https://github.com/redis/redis-om-python) | 1309 | 2026-05-09T06:49:45Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -53,5 +53,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Farama-Foundation/Minigrid](https://github.com/Farama-Foundation/Minigrid) | 2446 | 2026-05-09T23:09:35Z | Python | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [aigc-apps/VideoX-Fun](https://github.com/aigc-apps/VideoX-Fun) | 2068 | 2026-05-09T09:25:54Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [harbor-framework/harbor](https://github.com/harbor-framework/harbor) | 1856 | 2026-05-09T23:30:59Z | Python | CLI | 9 | 8 | 9 | 9 |
-| [redis/redis-om-python](https://github.com/redis/redis-om-python) | 1309 | 2026-05-09T06:49:45Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
+| [redis/redis-om-python](https://github.com/redis/redis-om-python) | 1309 | 2026-05-10T07:01:10Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
 | [meta-pytorch/torchcodec](https://github.com/meta-pytorch/torchcodec) | 1059 | 2026-05-09T11:50:10Z | Python | Infrastructure/tooling | 6 | 13 | 6 | 6 |

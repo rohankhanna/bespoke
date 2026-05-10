@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 27929,
-    "concepts": 14779,
-    "observations": 14828,
-    "repos": 5359,
-    "terms": 14785
+    "components": 27931,
+    "concepts": 14780,
+    "observations": 14829,
+    "repos": 5360,
+    "terms": 14783
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -5022,7 +5022,7 @@
     "triton-inference-server/tensorflow_backend",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "tritondatacenter/node-getopt",
+    "TritonDataCenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",
@@ -5106,6 +5106,7 @@
     "uvarc/rivanna-docker",
     "uxlfoundation/foundation",
     "uxlfoundation/open-source-working-group",
+    "V13Axel/neotest-pest",
     "v7labs/covid-19-xray-dataset",
     "Vaishnav-Sabari-Girish/Hayasen",
     "vale-cli/alex",

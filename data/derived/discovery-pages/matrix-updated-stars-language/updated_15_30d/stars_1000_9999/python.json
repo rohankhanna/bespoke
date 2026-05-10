@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1889,
+    "components": 1886,
     "concepts": 2187,
     "observations": 2194,
-    "repos": 283,
+    "repos": 284,
     "terms": 2194
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "a2aproject/a2a-python",
@@ -161,6 +161,7 @@
     "lightly-ai/lightly",
     "Lightning-AI/LitServe",
     "Lightning-AI/torchmetrics",
+    "Lightricks/ComfyUI-LTXVideo",
     "Lightricks/LTX-2",
     "llamastack/llama-stack",
     "LLaVA-VL/LLaVA-NeXT",
@@ -263,6 +264,7 @@
     "shapely/shapely",
     "shenweichen/DeepCTR-Torch",
     "shenweichen/DeepMatch",
+    "shenweichen/GraphEmbedding",
     "sierra-research/tau2-bench",
     "SirVer/ultisnips",
     "sparckles/Robyn",
@@ -274,7 +276,6 @@
     "SWE-agent/mini-swe-agent",
     "taylorwilsdon/google_workspace_mcp",
     "tdrussell/diffusion-pipe",
-    "Tencent-Hunyuan/HunyuanVideo-1.5",
     "theroyallab/tabbyAPI",
     "theskumar/python-dotenv",
     "thinking-machines-lab/tinker-cookbook",
@@ -288,12 +289,12 @@
     "vietanhdev/anylabeling",
     "vllm-project/llm-compressor",
     "vwxyzjn/cleanrl",
-    "wenet-e2e/wespeaker",
     "withoutbg/withoutbg",
     "wkentaro/gdown",
     "xlang-ai/OSWorld",
     "xlite-dev/Awesome-LLM-Inference",
     "ymcui/Chinese-ELECTRA",
+    "ymcui/Chinese-LLaMA-Alpaca-2",
     "ymcui/Chinese-XLNet",
     "Yuliang-Liu/MonkeyOCR",
     "yzhao062/pyod"

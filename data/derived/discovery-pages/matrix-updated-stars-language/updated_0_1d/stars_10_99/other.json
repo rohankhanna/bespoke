@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 19,
-    "observations": 19,
+    "components": 16,
+    "concepts": 27,
+    "observations": 27,
     "repos": 3,
-    "terms": 19
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
-    "abap2UI5-addons/sql-console",
     "karafka/example-apps",
+    "lumen-oss/luarocks-tag-release",
     "tinted-theming/tinted-xresources"
   ]
 }

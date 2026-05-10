@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 830,
-    "concepts": 549,
-    "observations": 553,
-    "repos": 83,
-    "terms": 545
+    "components": 822,
+    "concepts": 543,
+    "observations": 547,
+    "repos": 82,
+    "terms": 539
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "0xPolygonHermez/zisk",
     "a16z/jolt",
@@ -40,7 +40,6 @@
     "Dicklesworthstone/frankensqlite",
     "Dicklesworthstone/frankentui",
     "duckdb/duckdb-rs",
-    "eitsupi/arf",
     "EricLBuehler/candle-vllm",
     "esp-rs/espflash",
     "esp-rs/std-training",

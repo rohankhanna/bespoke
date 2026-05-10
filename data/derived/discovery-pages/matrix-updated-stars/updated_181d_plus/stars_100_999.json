@@ -4,14 +4,14 @@
     "concepts": 13074,
     "observations": 13098,
     "repos": 4353,
-    "terms": 12864
+    "terms": 12853
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-10T08:43:20.219283+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -1157,6 +1157,7 @@
     "deepbeepmeep/HunyuanVideoGP",
     "deepbeepmeep/YuEGP",
     "deepdialog/CPM-LM-TF2",
+    "deepseek-ai/awesome-deepseek-coder",
     "defunctzombie/package-browser-field-spec",
     "defuz/RustAutoComplete",
     "degrigis/awesome-angr",
@@ -1550,7 +1551,6 @@
     "fireship-io/javascript-millionaire",
     "fireship-io/nextjs-basics",
     "fireship-io/webrtc-firebase-demo",
-    "fizzed/font-mfizz",
     "FizzleDorf/ComfyUI_FizzNodes",
     "fjc0k/yapi-to-typescript",
     "fjc0k/YApi-X",
