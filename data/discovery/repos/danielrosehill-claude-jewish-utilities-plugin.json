@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Jewish-Utilities-Plugin",
+      "target": "danielrosehill/jewish-texts-reference-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Jewish-Utilities-Plugin",
+      "target": "ariroffe72/zmanim-mcp-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Jewish-Utilities-Plugin",
+      "target": "hebcal/hebcal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Jewish-Utilities-Plugin",
+      "target": "abe-101/myhebrewdates",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-11T02:49:18.602463+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3713
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Claude Code plugin: shabbat times, zmanim, parsha, hebrew date conversion, upcoming holidays, daf yomi",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Jewish-Utilities-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Jewish-Utilities-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-28T11:37:37Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-28T11:37:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abe-101/myhebrewdates",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ariroffe72/zmanim-mcp-server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/jewish-texts-reference-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hebcal/hebcal",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,6 +1,11 @@
 {
   "components": [
     {
+      "component": "Ilshidur/action-discord@0.3.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discord.yml"
+    },
+    {
       "component": "actions/checkout@v2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/run-tests.yml"
@@ -23,6 +28,20 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discord.yml",
+      "source_repo": "google/vim-maktaba",
+      "target": "Ilshidur/action-discord@0.3.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discord.yml",
+      "source_repo": "google/vim-maktaba",
+      "target": "notify-discord",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/run-tests.yml",
       "source_repo": "google/vim-maktaba",
       "target": "actions/checkout@v2",
@@ -36,11 +55,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-10T21:30:57.654815+00:00",
+  "fetched_at": "2026-05-11T02:01:18.837087+00:00",
   "fetched_files": [
     {
       "path": "README.md",
       "size": 2480
+    },
+    {
+      "path": ".github/workflows/discord.yml",
+      "size": 388
     },
     {
       "path": ".github/workflows/run-tests.yml",
@@ -76,6 +99,12 @@
     }
   ],
   "terms": [
+    {
+      "context_snippet": "notify-discord",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discord.yml",
+      "term": "notify-discord"
+    },
     {
       "context_snippet": "run-tests",
       "edge_type": "workflow-name",

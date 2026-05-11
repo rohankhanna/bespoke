@@ -140,6 +140,18 @@
       "source_repo": "antfu/vueuse",
       "status": "candidate-context",
       "text": "Publish Package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vitejs/vite-plugin-react",
+      "status": "candidate-context",
+      "text": "The all-in-one Vite plugin for React projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vitejs/vite-plugin-react",
+      "status": "candidate-context",
+      "text": "Publish Package"
     }
   ],
   "candidate_glosses": [
@@ -206,6 +218,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "antfu/vueuse",
+      "status": "candidate",
+      "text": "Publish Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vitejs/vite-plugin-react",
       "status": "candidate",
       "text": "Publish Package"
     }
@@ -491,11 +509,23 @@
       "observed_at": "2026-05-10T18:25:41.670160+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T00:40:20.012502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T00:40:20.012502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "vitejs/vite-plugin-react"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-10T18:25:41.670160+00:00",
+  "last_seen_at": "2026-05-11T00:40:20.012502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

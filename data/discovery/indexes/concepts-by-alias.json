@@ -10357,6 +10357,9 @@
   "build & package": [
     "build-package"
   ],
+  "build & publish": [
+    "build-publish"
+  ],
   "build & publish atlan app": [
     "build-publish-atlan-app"
   ],
@@ -17210,6 +17213,9 @@
   "check proto on pull request": [
     "check-proto-on-pull-request"
   ],
+  "check provenance": [
+    "check-provenance"
+  ],
   "check prs": [
     "check-prs"
   ],
@@ -19108,6 +19114,9 @@
   ],
   "ci-router": [
     "ci-router"
+  ],
+  "ci-rsc": [
+    "ci-rsc"
   ],
   "ci-runner": [
     "ci-runner"
@@ -34806,6 +34815,24 @@
   ],
   "eslint-plugin-import": [
     "eslint-plugin-import"
+  ],
+  "eslint-plugin-react-dom": [
+    "eslint-plugin-react-dom"
+  ],
+  "eslint-plugin-react-jsx": [
+    "eslint-plugin-react-jsx"
+  ],
+  "eslint-plugin-react-naming-convention": [
+    "eslint-plugin-react-naming-convention"
+  ],
+  "eslint-plugin-react-rsc": [
+    "eslint-plugin-react-rsc"
+  ],
+  "eslint-plugin-react-web-api": [
+    "eslint-plugin-react-web-api"
+  ],
+  "eslint-plugin-react-x": [
+    "eslint-plugin-react-x"
   ],
   "eslint-rules": [
     "eslint-rules"
@@ -68001,6 +68028,9 @@
   "preview image \u2014 push": [
     "preview-image-push"
   ],
+  "preview publish": [
+    "preview-publish"
+  ],
   "preview release": [
     "preview-release"
   ],
@@ -94138,6 +94168,9 @@
   ],
   "version": [
     "version"
+  ],
+  "version & release": [
+    "version-release"
   ],
   "version bump": [
     "version-bump"

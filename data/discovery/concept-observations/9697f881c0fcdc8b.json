@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A minimal LLM chat app that runs entirely in your browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A minimal LLM chat app that runs _entirely_ in your browser."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A minimal LLM chat app that runs _entirely_ in your browser."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ollama",
+      "sense_id": "ollama#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ollama",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ollama",
+  "observation_id": "9697f881c0fcdc8b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-11T00:40:20.012502+00:00",
+  "observed_text": "ollama",
+  "source_context_snippet": "A minimal LLM chat app that runs _entirely_ in your browser.",
+  "source_file": null,
+  "source_repo": "fmaclen/hollama",
+  "source_repo_description": "A minimal LLM chat app that runs entirely in your browser"
+}

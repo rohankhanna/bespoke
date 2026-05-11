@@ -790,6 +790,18 @@
       "source_repo": "bvaughn/react-window-infinite-loader",
       "status": "candidate-context",
       "text": "\"ESLint\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fmaclen/hollama",
+      "status": "candidate-context",
+      "text": "A minimal LLM chat app that runs entirely in your browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fmaclen/hollama",
+      "status": "candidate-context",
+      "text": "ESLint"
     }
   ],
   "candidate_glosses": [
@@ -1182,6 +1194,12 @@
       "source_repo": "bvaughn/react-window-infinite-loader",
       "status": "candidate",
       "text": "\"ESLint\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fmaclen/hollama",
+      "status": "candidate",
+      "text": "ESLint"
     }
   ],
   "candidate_related_terms": [
@@ -2617,11 +2635,41 @@
       "observed_at": "2026-05-10T18:25:41.670160+00:00",
       "source_file": null,
       "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T00:40:20.012502+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "fmaclen/hollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T00:40:20.012502+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T00:40:20.012502+00:00",
+      "source_file": null,
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T00:40:20.012502+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T00:40:20.012502+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-10T18:25:41.670160+00:00",
+  "last_seen_at": "2026-05-11T00:40:20.012502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

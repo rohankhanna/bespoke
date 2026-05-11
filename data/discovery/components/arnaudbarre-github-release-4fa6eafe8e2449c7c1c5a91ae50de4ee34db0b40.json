@@ -1,0 +1,12 @@
+{
+  "component": "ArnaudBarre/github-release@4fa6eafe8e2449c7c1c5a91ae50de4ee34db0b40",
+  "first_seen_at": "2026-05-11T00:40:20.012502+00:00",
+  "last_seen_at": "2026-05-11T00:40:20.012502+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "vitejs/vite-plugin-react"
+    }
+  ]
+}

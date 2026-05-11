@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rspec/rspec-metagem",
+      "target": "rspec/rspec-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rspec/rspec-metagem",
+      "target": "freerange/mocha",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rspec/rspec-metagem",
+      "target": "rr/rr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rspec/rspec-metagem",
+      "target": "jimweirich/flexmock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rspec/rspec-metagem",
+      "target": "rspec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rspec/rspec-metagem",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T02:07:18.204814+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1601
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "RSpec meta-gem that depends on the other components",
+    "fork": false,
+    "full_name": "rspec/rspec-metagem",
+    "html_url": "https://github.com/rspec/rspec-metagem",
+    "language": "Ruby",
+    "pushed_at": "2024-11-27T18:22:15Z",
+    "stargazers_count": 2832,
+    "topics": [
+      "rspec",
+      "ruby"
+    ],
+    "updated_at": "2026-04-24T17:19:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "freerange/mocha",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jimweirich/flexmock",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rr/rr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rspec/rspec-core",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Behaviour Driven Development for Ruby",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rspec"
+    },
+    {
+      "context_snippet": "Behaviour Driven Development for Ruby",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

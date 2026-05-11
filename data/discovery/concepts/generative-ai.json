@@ -607,6 +607,12 @@
       "source_repo": "AIoT-MLSys-Lab/Efficient-LLMs-Survey",
       "status": "candidate-context",
       "text": "> **[Efficient Large Language Models: A Survey](http://arxiv.org/abs/2312.03863)**[ [arXiv]](http://arxiv.org/abs/2312.03863) (Version 1: 12/06/2023; Version 2: 12/23/2023; Version 3: 01/31/2024; Version 4: 05/23/2024, camera ready version of Transactions on Machine Learning Res\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langchain-ai/langchain",
+      "status": "candidate-context",
+      "text": "The agent engineering platform."
     }
   ],
   "candidate_glosses": [
@@ -2182,11 +2188,41 @@
       "observed_at": "2026-05-10T18:25:41.670160+00:00",
       "source_file": null,
       "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T00:40:20.012502+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T00:40:20.012502+00:00",
+      "source_file": null,
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T00:40:20.012502+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T00:40:20.012502+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T00:40:20.012502+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-10T18:25:41.670160+00:00",
+  "last_seen_at": "2026-05-11T00:40:20.012502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

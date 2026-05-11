@@ -84,7 +84,7 @@
   "normalized_form": "stable-benchmarks",
   "observation_id": "9702b60ae2d371fb",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-10T18:25:41.670160+00:00",
+  "observed_at": "2026-05-11T00:40:20.012502+00:00",
   "observed_text": "Stable benchmarks",
   "source_context_snippet": "Stable benchmarks",
   "source_file": ".github/workflows/performances.yml",

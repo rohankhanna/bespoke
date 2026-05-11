@@ -1,0 +1,116 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "docusealco/rllama",
+      "target": "docusealco/rllama.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "docusealco/rllama",
+      "target": "embeddings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "docusealco/rllama",
+      "target": "gguf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "docusealco/rllama",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "docusealco/rllama",
+      "target": "llamacpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "docusealco/rllama",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T02:58:33.964873+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5099
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ruby FFI bindings for llama.cpp to run open-source LLMs such as GPT-OSS, Qwen 3.5, Gemma 4, and Llama 3 locally with Ruby.",
+    "fork": false,
+    "full_name": "docusealco/rllama",
+    "html_url": "https://github.com/docusealco/rllama",
+    "language": "Ruby",
+    "pushed_at": "2026-04-12T10:03:18Z",
+    "stargazers_count": 90,
+    "topics": [
+      "ai",
+      "embeddings",
+      "ffi",
+      "gguf",
+      "inference",
+      "llamacpp",
+      "llm",
+      "ruby"
+    ],
+    "updated_at": "2026-05-03T15:37:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docusealco/rllama.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img width=\"336\" height=\"212.0\" alt=\"Logo\" src=\"https://github.com/user-attachments/assets/e27442fb-22d1-44cf-ba3d-f10b24c13652\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embeddings"
+    },
+    {
+      "context_snippet": "<img width=\"336\" height=\"212.0\" alt=\"Logo\" src=\"https://github.com/user-attachments/assets/e27442fb-22d1-44cf-ba3d-f10b24c13652\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gguf"
+    },
+    {
+      "context_snippet": "<img width=\"336\" height=\"212.0\" alt=\"Logo\" src=\"https://github.com/user-attachments/assets/e27442fb-22d1-44cf-ba3d-f10b24c13652\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "<img width=\"336\" height=\"212.0\" alt=\"Logo\" src=\"https://github.com/user-attachments/assets/e27442fb-22d1-44cf-ba3d-f10b24c13652\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llamacpp"
+    },
+    {
+      "context_snippet": "<img width=\"336\" height=\"212.0\" alt=\"Logo\" src=\"https://github.com/user-attachments/assets/e27442fb-22d1-44cf-ba3d-f10b24c13652\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

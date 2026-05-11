@@ -103,7 +103,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-10T21:57:17.034702+00:00",
+  "fetched_at": "2026-05-11T03:07:19.184659+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -132,13 +132,13 @@
     "html_url": "https://github.com/arcee-ai/mergekit",
     "language": "Python",
     "pushed_at": "2026-05-06T05:15:16Z",
-    "stargazers_count": 7069,
+    "stargazers_count": 7070,
     "topics": [
       "llama",
       "llm",
       "model-merging"
     ],
-    "updated_at": "2026-05-09T22:38:01Z"
+    "updated_at": "2026-05-11T01:12:31Z"
   },
   "repo_links": [
     {

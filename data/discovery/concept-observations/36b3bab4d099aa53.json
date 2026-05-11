@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ruby FFI bindings for llama.cpp to run open-source LLMs such as GPT-OSS, Qwen 3.5, Gemma 4, and Llama 3 locally with Ruby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img width=\"336\" height=\"212.0\" alt=\"Logo\" src=\"https://github.com/user-attachments/assets/e27442fb-22d1-44cf-ba3d-f10b24c13652\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img width=\"336\" height=\"212.0\" alt=\"Logo\" src=\"https://github.com/user-attachments/assets/e27442fb-22d1-44cf-ba3d-f10b24c13652\" />"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "llamacpp",
+      "sense_id": "llamacpp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "llamacpp",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "llamacpp",
+  "observation_id": "36b3bab4d099aa53",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-11T00:40:20.012502+00:00",
+  "observed_text": "llamacpp",
+  "source_context_snippet": "<img width=\"336\" height=\"212.0\" alt=\"Logo\" src=\"https://github.com/user-attachments/assets/e27442fb-22d1-44cf-ba3d-f10b24c13652\" />",
+  "source_file": null,
+  "source_repo": "docusealco/rllama",
+  "source_repo_description": "Ruby FFI bindings for llama.cpp to run open-source LLMs such as GPT-OSS, Qwen 3.5, Gemma 4, and Llama 3 locally with Ruby."
+}

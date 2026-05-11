@@ -2392,6 +2392,30 @@
       "source_repo": "yoshoku/llama_cpp.rb",
       "status": "candidate-context",
       "text": "[![Gem Version](https://badge.fury.io/rb/llama_cpp.svg)](https://badge.fury.io/rb/llama_cpp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rspec/rspec-metagem",
+      "status": "candidate-context",
+      "text": "RSpec meta-gem that depends on the other components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rspec/rspec-metagem",
+      "status": "candidate-context",
+      "text": "Behaviour Driven Development for Ruby"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docusealco/rllama",
+      "status": "candidate-context",
+      "text": "Ruby FFI bindings for llama.cpp to run open-source LLMs such as GPT-OSS, Qwen 3.5, Gemma 4, and Llama 3 locally with Ruby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docusealco/rllama",
+      "status": "candidate-context",
+      "text": "<img width=\"336\" height=\"212.0\" alt=\"Logo\" src=\"https://github.com/user-attachments/assets/e27442fb-22d1-44cf-ba3d-f10b24c13652\" />"
     }
   ],
   "candidate_glosses": [
@@ -3612,6 +3636,18 @@
       "source_repo": "yoshoku/llama_cpp.rb",
       "status": "candidate",
       "text": "[![Gem Version](https://badge.fury.io/rb/llama_cpp.svg)](https://badge.fury.io/rb/llama_cpp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rspec/rspec-metagem",
+      "status": "candidate",
+      "text": "Behaviour Driven Development for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docusealco/rllama",
+      "status": "candidate",
+      "text": "<img width=\"336\" height=\"212.0\" alt=\"Logo\" src=\"https://github.com/user-attachments/assets/e27442fb-22d1-44cf-ba3d-f10b24c13652\" />"
     }
   ],
   "candidate_related_terms": [
@@ -5845,11 +5881,53 @@
       "observed_at": "2026-05-10T18:25:41.670160+00:00",
       "source_file": null,
       "source_repo": "yoshoku/llama_cpp.rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T00:40:20.012502+00:00",
+      "source_file": null,
+      "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T00:40:20.012502+00:00",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/qdrant-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T00:40:20.012502+00:00",
+      "source_file": null,
+      "source_repo": "red-data-tools/pycall.rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T00:40:20.012502+00:00",
+      "source_file": null,
+      "source_repo": "rspec/rspec-metagem"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T00:40:20.012502+00:00",
+      "source_file": null,
+      "source_repo": "codeclimate-community/simplecov_json_formatter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T00:40:20.012502+00:00",
+      "source_file": null,
+      "source_repo": "bryanp/llhttp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T00:40:20.012502+00:00",
+      "source_file": null,
+      "source_repo": "docusealco/rllama"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-10T18:25:41.670160+00:00",
+  "last_seen_at": "2026-05-11T00:40:20.012502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

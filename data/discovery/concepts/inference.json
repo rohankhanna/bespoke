@@ -829,6 +829,18 @@
       "source_repo": "PaddlePaddle/FastDeploy",
       "status": "candidate-context",
       "text": "[English](README_EN.md) | \u7b80\u4f53\u4e2d\u6587"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docusealco/rllama",
+      "status": "candidate-context",
+      "text": "Ruby FFI bindings for llama.cpp to run open-source LLMs such as GPT-OSS, Qwen 3.5, Gemma 4, and Llama 3 locally with Ruby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docusealco/rllama",
+      "status": "candidate-context",
+      "text": "<img width=\"336\" height=\"212.0\" alt=\"Logo\" src=\"https://github.com/user-attachments/assets/e27442fb-22d1-44cf-ba3d-f10b24c13652\" />"
     }
   ],
   "candidate_glosses": [
@@ -1245,6 +1257,12 @@
       "source_repo": "PaddlePaddle/FastDeploy",
       "status": "candidate",
       "text": "[English](README_EN.md) | \u7b80\u4f53\u4e2d\u6587"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docusealco/rllama",
+      "status": "candidate",
+      "text": "<img width=\"336\" height=\"212.0\" alt=\"Logo\" src=\"https://github.com/user-attachments/assets/e27442fb-22d1-44cf-ba3d-f10b24c13652\" />"
     }
   ],
   "candidate_related_terms": [
@@ -2688,11 +2706,47 @@
       "observed_at": "2026-05-10T18:25:41.670160+00:00",
       "source_file": null,
       "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T00:40:20.012502+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T00:40:20.012502+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T00:40:20.012502+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T00:40:20.012502+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T00:40:20.012502+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T00:40:20.012502+00:00",
+      "source_file": null,
+      "source_repo": "docusealco/rllama"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-10T18:25:41.670160+00:00",
+  "last_seen_at": "2026-05-11T00:40:20.012502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

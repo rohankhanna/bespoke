@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/price-research-index",
+      "target": "danielrosehill/ideas-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/prompt-libraries-index",
+      "target": "danielrosehill/resources-lists-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/repo-starters-and-templates-index",
+      "target": "danielrosehill/skills-repos-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/research-tools-and-templates-index",
+      "target": "danielrosehill/speech-and-asr-evaluations",
       "target_type": "repository"
     },
     {
@@ -43,6 +43,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-07T07:09:11.945528+00:00",
+  "generated_at": "2026-05-11T00:40:20.012502+00:00",
   "source_repo": "danielrosehill/Subindices"
 }

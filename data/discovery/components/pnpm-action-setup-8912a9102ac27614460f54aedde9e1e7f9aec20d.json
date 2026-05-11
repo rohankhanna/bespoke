@@ -1,7 +1,7 @@
 {
   "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
-  "last_seen_at": "2026-05-10T18:25:41.670160+00:00",
+  "last_seen_at": "2026-05-11T00:40:20.012502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "mui/material-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-rsc.yml",
+      "source_repo": "vitejs/vite-plugin-react"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "vitejs/vite-plugin-react"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "vitejs/vite-plugin-react"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "vitejs/vite-plugin-react"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-continuous.yml",
+      "source_repo": "vitejs/vite-plugin-react"
     }
   ]
 }

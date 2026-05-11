@@ -1,0 +1,701 @@
+{
+  "components": [
+    {
+      "component": "@eslint/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/fs-extra",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitejs/release-scripts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import-x",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-n",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-regexp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fs-extra",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "globals",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "oxfmt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "picocolors",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "playwright-chromium",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "simple-git-hooks",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite-plugin-inspect",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-rsc.yml"
+    },
+    {
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-rsc.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-rsc.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-rsc.yml"
+    },
+    {
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-rsc.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-rsc.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-rsc.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@200c78641dbf33838311e5a1e0c31bbdb92d7cf0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-close-require.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@200c78641dbf33838311e5a1e0c31bbdb92d7cf0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-labeled.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@200c78641dbf33838311e5a1e0c31bbdb92d7cf0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-labeled.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@200c78641dbf33838311e5a1e0c31bbdb92d7cf0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-labeled.yml"
+    },
+    {
+      "component": "dessant/lock-threads@7266a7ce5c1df01b1c6db85bf8cd86c737dadbe7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock-closed-issues.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "ArnaudBarre/github-release@4fa6eafe8e2449c7c1c5a91ae50de4ee34db0b40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "yyx990803/release-tag@8cccf7c5aa332d71d222df46677f70f77a8d2dc0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-continuous.yml"
+    },
+    {
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-continuous.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-continuous.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "@types/fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "@vitejs/release-scripts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "eslint-plugin-import-x",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "eslint-plugin-n",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "eslint-plugin-regexp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "globals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "oxfmt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "picocolors",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "playwright-chromium",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "simple-git-hooks",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "typescript-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "vite-plugin-inspect",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-rsc.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-rsc.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-rsc.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-rsc.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-rsc.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "ci-rsc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-close-require.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "actions-cool/issues-helper@200c78641dbf33838311e5a1e0c31bbdb92d7cf0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-close-require.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "Issue Close Require",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-labeled.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "actions-cool/issues-helper@200c78641dbf33838311e5a1e0c31bbdb92d7cf0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-labeled.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "Issue Labeled",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock-closed-issues.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "dessant/lock-threads@7266a7ce5c1df01b1c6db85bf8cd86c737dadbe7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock-closed-issues.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "Lock Closed Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "ArnaudBarre/github-release@4fa6eafe8e2449c7c1c5a91ae50de4ee34db0b40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "yyx990803/release-tag@8cccf7c5aa332d71d222df46677f70f77a8d2dc0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "Publish Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-continuous.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-continuous.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-continuous.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-continuous.yml",
+      "source_repo": "vitejs/vite-plugin-react",
+      "target": "Preview Publish",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T02:49:28.025428+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2249
+    },
+    {
+      "path": "package.json",
+      "size": 2642
+    },
+    {
+      "path": ".github/workflows/ci-rsc.yml",
+      "size": 3212
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3901
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "size": 682
+    },
+    {
+      "path": ".github/workflows/issue-close-require.yml",
+      "size": 621
+    },
+    {
+      "path": ".github/workflows/issue-labeled.yml",
+      "size": 2260
+    },
+    {
+      "path": ".github/workflows/lock-closed-issues.yml",
+      "size": 986
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 2599
+    },
+    {
+      "path": ".github/workflows/release-continuous.yml",
+      "size": 1165
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The all-in-one Vite plugin for React projects.",
+    "fork": false,
+    "full_name": "vitejs/vite-plugin-react",
+    "html_url": "https://github.com/vitejs/vite-plugin-react",
+    "language": "TypeScript",
+    "pushed_at": "2026-05-11T00:30:28Z",
+    "stargazers_count": 1075,
+    "topics": [],
+    "updated_at": "2026-05-10T23:26:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "ci-rsc",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-rsc.yml",
+      "term": "ci-rsc"
+    },
+    {
+      "context_snippet": "'Copilot Setup Steps'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "term": "Copilot Setup Steps"
+    },
+    {
+      "context_snippet": "Issue Close Require",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-close-require.yml",
+      "term": "Issue Close Require"
+    },
+    {
+      "context_snippet": "Issue Labeled",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-labeled.yml",
+      "term": "Issue Labeled"
+    },
+    {
+      "context_snippet": "Lock Closed Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock-closed-issues.yml",
+      "term": "Lock Closed Issues"
+    },
+    {
+      "context_snippet": "Publish Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish Package"
+    },
+    {
+      "context_snippet": "Preview Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-continuous.yml",
+      "term": "Preview Publish"
+    }
+  ]
+}

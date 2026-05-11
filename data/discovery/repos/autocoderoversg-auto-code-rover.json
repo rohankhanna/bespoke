@@ -45,13 +45,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "AutoCodeRoverSG/auto-code-rover",
-      "target": "nus-apr/swe-bench-docker",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yaml",
       "source_repo": "AutoCodeRoverSG/auto-code-rover",
@@ -122,7 +115,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-10T20:29:25.256736+00:00",
+  "fetched_at": "2026-05-11T03:13:44.690423+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -163,19 +156,14 @@
     "html_url": "https://github.com/AutoCodeRoverSG/auto-code-rover",
     "language": "Python",
     "pushed_at": "2025-04-24T07:58:24Z",
-    "stargazers_count": 3071,
+    "stargazers_count": 3072,
     "topics": [],
-    "updated_at": "2026-04-28T22:37:52Z"
+    "updated_at": "2026-05-11T01:01:12Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "nus-apr/auto-code-rover",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nus-apr/swe-bench-docker",
       "source_file": "README.md"
     }
   ],

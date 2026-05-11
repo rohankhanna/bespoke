@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "last_seen_at": "2026-05-10T18:25:41.670160+00:00",
+  "last_seen_at": "2026-05-11T00:40:20.012502+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -1021,6 +1021,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "yoshoku/llama_cpp.rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "rspec/rspec-metagem"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "docusealco/rllama"
     }
   ],
   "term": "ruby"

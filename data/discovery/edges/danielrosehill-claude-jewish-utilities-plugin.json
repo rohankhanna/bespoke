@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Jewish-Utilities-Plugin",
+      "target": "danielrosehill/jewish-texts-reference-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Jewish-Utilities-Plugin",
+      "target": "ariroffe72/zmanim-mcp-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Jewish-Utilities-Plugin",
+      "target": "hebcal/hebcal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Jewish-Utilities-Plugin",
+      "target": "abe-101/myhebrewdates",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-11T00:40:20.012502+00:00",
+  "source_repo": "danielrosehill/Claude-Jewish-Utilities-Plugin"
+}

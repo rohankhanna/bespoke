@@ -174,7 +174,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-10T21:40:52.674812+00:00",
+  "fetched_at": "2026-05-11T02:46:10.190020+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -182,7 +182,7 @@
     },
     {
       "path": "go.mod",
-      "size": 1247
+      "size": 939
     },
     {
       "path": ".github/workflows/release.yml",
@@ -202,10 +202,10 @@
     "full_name": "joshsymonds/cc-tools",
     "html_url": "https://github.com/joshsymonds/cc-tools",
     "language": "Go",
-    "pushed_at": "2026-04-16T13:45:42Z",
+    "pushed_at": "2026-05-11T01:57:27Z",
     "stargazers_count": 50,
     "topics": [],
-    "updated_at": "2026-04-18T01:58:20Z"
+    "updated_at": "2026-05-11T01:57:32Z"
   },
   "repo_links": [
     {

@@ -5,28 +5,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/price-research-index",
+      "target": "danielrosehill/ideas-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/prompt-libraries-index",
+      "target": "danielrosehill/resources-lists-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/repo-starters-and-templates-index",
+      "target": "danielrosehill/skills-repos-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/research-tools-and-templates-index",
+      "target": "danielrosehill/speech-and-asr-evaluations",
       "target_type": "repository"
     },
     {
@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T08:28:33.281683+00:00",
+  "fetched_at": "2026-05-11T02:49:19.449948+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -61,32 +61,32 @@
     "html_url": "https://github.com/danielrosehill/Subindices",
     "language": null,
     "pushed_at": "2026-04-25T10:40:53Z",
-    "stargazers_count": 1,
+    "stargazers_count": 2,
     "topics": [
       "repositories",
       "repository-index"
     ],
-    "updated_at": "2026-04-25T10:40:57Z"
+    "updated_at": "2026-05-10T22:13:15Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/price-research-index",
+      "full_name": "danielrosehill/ideas-index",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/prompt-libraries-index",
+      "full_name": "danielrosehill/resources-lists-index",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/repo-starters-and-templates-index",
+      "full_name": "danielrosehill/skills-repos-index",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/research-tools-and-templates-index",
+      "full_name": "danielrosehill/speech-and-asr-evaluations",
       "source_file": "README.md"
     }
   ],

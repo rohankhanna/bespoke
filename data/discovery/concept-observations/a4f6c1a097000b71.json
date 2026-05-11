@@ -84,7 +84,7 @@
   "normalized_form": "build-artifacts",
   "observation_id": "a4f6c1a097000b71",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-10T18:25:41.670160+00:00",
+  "observed_at": "2026-05-11T00:40:20.012502+00:00",
   "observed_text": "Build Artifacts",
   "source_context_snippet": "Build Artifacts",
   "source_file": ".github/workflows/artifacts.yml",

@@ -1,7 +1,7 @@
 {
   "component": "github/gh-aw-actions/setup@ff0525b685481744f490a0d362753d8001e4b39d",
   "first_seen_at": "2026-05-07T18:41:02.254946+00:00",
-  "last_seen_at": "2026-05-10T18:25:41.670160+00:00",
+  "last_seen_at": "2026-05-11T00:40:20.012502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

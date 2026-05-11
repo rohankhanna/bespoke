@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ruby FFI bindings for llama.cpp to run open-source LLMs such as GPT-OSS, Qwen 3.5, Gemma 4, and Llama 3 locally with Ruby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img width=\"336\" height=\"212.0\" alt=\"Logo\" src=\"https://github.com/user-attachments/assets/e27442fb-22d1-44cf-ba3d-f10b24c13652\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img width=\"336\" height=\"212.0\" alt=\"Logo\" src=\"https://github.com/user-attachments/assets/e27442fb-22d1-44cf-ba3d-f10b24c13652\" />"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018215,
+      "status": "candidate",
+      "text": "carmine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015674,
+      "status": "candidate",
+      "text": "ruby-red"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012675,
+      "status": "candidate",
+      "text": "crimson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012170,
+      "status": "candidate",
+      "text": "scarlet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011884,
+      "status": "candidate",
+      "text": "red"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ruby",
+      "sense_id": "ruby#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 66041,
+      "status": "candidate",
+      "text": "chromatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45039,
+      "status": "candidate",
+      "text": "carmine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28038,
+      "status": "candidate",
+      "text": "ruddy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24037,
+      "status": "candidate",
+      "text": "crimson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11054,
+      "status": "candidate",
+      "text": "cherry"
+    }
+  ],
+  "concept_id": "ruby",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ruby",
+  "observation_id": "09a1a708dd4f9f76",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-11T00:40:20.012502+00:00",
+  "observed_text": "ruby",
+  "source_context_snippet": "<img width=\"336\" height=\"212.0\" alt=\"Logo\" src=\"https://github.com/user-attachments/assets/e27442fb-22d1-44cf-ba3d-f10b24c13652\" />",
+  "source_file": null,
+  "source_repo": "docusealco/rllama",
+  "source_repo_description": "Ruby FFI bindings for llama.cpp to run open-source LLMs such as GPT-OSS, Qwen 3.5, Gemma 4, and Llama 3 locally with Ruby."
+}

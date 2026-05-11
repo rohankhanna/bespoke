@@ -1018,7 +1018,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-10T20:50:36.210674+00:00",
+  "fetched_at": "2026-05-11T01:50:56.160149+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1070,8 +1070,8 @@
     "full_name": "ruvnet/ruflo",
     "html_url": "https://github.com/ruvnet/ruflo",
     "language": "TypeScript",
-    "pushed_at": "2026-05-10T20:30:31Z",
-    "stargazers_count": 48419,
+    "pushed_at": "2026-05-10T23:55:26Z",
+    "stargazers_count": 48507,
     "topics": [
       "agentic-ai",
       "agentic-framework",
@@ -1094,7 +1094,7 @@
       "swarm",
       "swarm-intelligence"
     ],
-    "updated_at": "2026-05-10T20:48:03Z"
+    "updated_at": "2026-05-11T01:48:24Z"
   },
   "repo_links": [
     {

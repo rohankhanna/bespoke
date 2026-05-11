@@ -1,7 +1,8 @@
 {
   "aliases": [
     "build-publish",
-    "\ud83d\ude80 Build & Publish"
+    "\ud83d\ude80 Build & Publish",
+    "Build & publish"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -80,6 +81,18 @@
       "source_repo": "Farama-Foundation/Minari",
       "status": "candidate-context",
       "text": "build-publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fmaclen/hollama",
+      "status": "candidate-context",
+      "text": "A minimal LLM chat app that runs entirely in your browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fmaclen/hollama",
+      "status": "candidate-context",
+      "text": "Build & publish"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +131,12 @@
       "source_repo": "Farama-Foundation/Minari",
       "status": "candidate",
       "text": "build-publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fmaclen/hollama",
+      "status": "candidate",
+      "text": "Build & publish"
     }
   ],
   "candidate_related_terms": [
@@ -377,11 +396,17 @@
       "observed_at": "2026-05-09T12:31:19.030154+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "Farama-Foundation/Minigrid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T00:40:20.012502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "fmaclen/hollama"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "last_seen_at": "2026-05-11T00:40:20.012502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

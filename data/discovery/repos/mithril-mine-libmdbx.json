@@ -93,7 +93,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-10T21:35:23.530571+00:00",
+  "fetched_at": "2026-05-11T02:09:02.988791+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -110,7 +110,7 @@
     "html_url": "https://github.com/Mithril-mine/libmdbx",
     "language": "C",
     "pushed_at": "2026-05-10T20:21:12Z",
-    "stargazers_count": 1398,
+    "stargazers_count": 1397,
     "topics": [
       "embedded-database",
       "key-value",
@@ -122,7 +122,7 @@
       "storage-engine",
       "transaction"
     ],
-    "updated_at": "2026-05-10T20:21:17Z"
+    "updated_at": "2026-05-11T01:02:50Z"
   },
   "repo_links": [
     {
