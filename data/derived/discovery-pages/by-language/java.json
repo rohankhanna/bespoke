@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 2787,
-    "concepts": 3472,
-    "observations": 3480,
-    "repos": 626,
-    "terms": 3451
+    "concepts": 3469,
+    "observations": 3477,
+    "repos": 625,
+    "terms": 3448
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "java"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "abapGit/ADT_Frontend",
@@ -363,7 +363,6 @@
     "jboss-javassist/javassist",
     "jcefmaven/jcefmaven",
     "jcefmaven/jcefsampleapp",
-    "jchambers/id-obfuscator",
     "jdereg/json-io",
     "jenkinsci/jenkins",
     "jenkinsci/jmh-report-plugin",

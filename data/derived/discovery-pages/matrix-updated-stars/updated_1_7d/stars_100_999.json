@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1640,
-    "concepts": 833,
-    "observations": 835,
-    "repos": 122,
-    "terms": 829
+    "components": 1646,
+    "concepts": 838,
+    "observations": 840,
+    "repos": 123,
+    "terms": 832
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "a2aproject/a2a-js",
@@ -134,6 +134,7 @@
     "victorgarciaesgi/regle",
     "WICG/attribution-reporting-api",
     "xdebug/vscode-php-debug",
-    "yaling888/quirktiva"
+    "yaling888/quirktiva",
+    "yoshoku/llama_cpp.rb"
   ]
 }

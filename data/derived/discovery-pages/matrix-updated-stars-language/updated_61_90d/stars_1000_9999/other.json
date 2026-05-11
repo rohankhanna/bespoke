@@ -3,7 +3,7 @@
     "components": 246,
     "concepts": 308,
     "observations": 309,
-    "repos": 54,
+    "repos": 53,
     "terms": 313
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
@@ -26,7 +26,6 @@
     "datawhalechina/tiny-universe",
     "Deci-AI/super-gradients",
     "dimitri/el-get",
-    "dspinellis/latex-advice",
     "ex-aws/ex_aws",
     "facebookresearch/co-tracker",
     "formtastic/formtastic",

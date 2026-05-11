@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 651,
-    "concepts": 575,
-    "observations": 575,
-    "repos": 42,
-    "terms": 575
+    "components": 647,
+    "concepts": 570,
+    "observations": 570,
+    "repos": 41,
+    "terms": 570
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "a-h/templ",
     "anchore/grype",
@@ -41,7 +41,6 @@
     "hashicorp/nomad",
     "ipfs/kubo",
     "istio/istio",
-    "joewalnes/websocketd",
     "navidrome/navidrome",
     "oauth2-proxy/oauth2-proxy",
     "ory/kratos",

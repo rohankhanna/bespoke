@@ -3,8 +3,8 @@
     "components": 1114,
     "concepts": 5180,
     "observations": 5183,
-    "repos": 1763,
-    "terms": 5029
+    "repos": 1762,
+    "terms": 5022
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -1580,7 +1580,6 @@
     "ToTheBeginning/ComfyUI-DreamO",
     "TRI-ML/camviz",
     "TRI-ML/dd3d",
-    "TRI-ML/DDAD",
     "TRI-ML/vidar",
     "triton-inference-server/pytriton",
     "truskovskiyk/nima.pytorch",

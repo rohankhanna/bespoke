@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5109,
-    "concepts": 1007,
-    "observations": 1009,
-    "repos": 113,
-    "terms": 1002
+    "components": 5177,
+    "concepts": 1012,
+    "observations": 1014,
+    "repos": 114,
+    "terms": 1007
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "acacode/swagger-typescript-api",
     "AdguardTeam/AdguardBrowserExtension",
@@ -37,7 +37,6 @@
     "BuilderIO/builder",
     "callstack/react-native-testing-library",
     "carbon-design-system/carbon-components-svelte",
-    "Chevrotain/chevrotain",
     "chhoumann/quickadd",
     "ChromeDevTools/devtools-protocol",
     "cloudflare/workers-sdk",
@@ -53,6 +52,7 @@
     "fi3ework/vite-plugin-checker",
     "firebase/firebase-js-sdk",
     "firebase/quickstart-js",
+    "Floorp-Projects/Floorp",
     "ggml-org/llama.vscode",
     "google/neuroglancer",
     "graphql-hive/graphql-inspector",
@@ -71,6 +71,7 @@
     "jest-community/jest-extended",
     "jshttp/cookie",
     "julia-vscode/julia-vscode",
+    "kelektiv/node-cron",
     "mathjax/MathJax-src",
     "mdn/yari",
     "microsoft/vscode-cmake-tools",

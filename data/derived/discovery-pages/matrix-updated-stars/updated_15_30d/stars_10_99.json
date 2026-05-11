@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 6078,
-    "concepts": 2703,
-    "observations": 2713,
-    "repos": 671,
-    "terms": 2763
+    "components": 6136,
+    "concepts": 2720,
+    "observations": 2730,
+    "repos": 677,
+    "terms": 2780
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "2KAbhishek/mac2k",
@@ -32,6 +32,7 @@
     "AdaCore/gnatcoll-core",
     "AdaCore/langkit",
     "adams85/acornima",
+    "AdguardTeam/FiltersCompiler",
     "adyscorpius/logseq-jira",
     "AFD-Illinois/kharma",
     "AFD-Illinois/pyharm",
@@ -184,6 +185,7 @@
     "cloudfoundry/bbs",
     "cloudfoundry/bosh-azure-cpi-release",
     "cloudfoundry/bpm-release",
+    "cloudfoundry/cf-smoke-tests",
     "cloudfoundry/jumpbox-deployment",
     "cloudllm-ai/mentisdb",
     "cmdjulian/mopy",
@@ -337,6 +339,7 @@
     "holochain/holochain-serialization",
     "holochain/holochain-wasmer",
     "Homebrew/.github",
+    "honwen/openwrt-dnsmasq-extra",
     "hpkewg/hpke-pq",
     "hsliuustc0106/vllm-omni-skills",
     "huangguang1999/ccstatusline-zh",
@@ -366,6 +369,7 @@
     "ipshipyard/p2p-forge",
     "iterate-ch/profiles",
     "itsrishika/payment-bypass-bug-lab",
+    "j9t/obsohtml",
     "jaegertracing/documentation",
     "jakoch/install-vulkan-sdk-action",
     "jakoch/rasterizers",
@@ -519,6 +523,7 @@
     "ocurrent/docker-base-images",
     "ocurrent/ocaml-dockerfile",
     "ogx-ai/llama-stack-client-typescript",
+    "oliyh/carve.el",
     "oneapi-src/level-zero-spec",
     "oneclick/rubyinstaller2-packages",
     "onnx/steering-committee",
@@ -676,6 +681,7 @@
     "wp-cli/scaffold-package-command",
     "xmlark/msv",
     "Xuanwo/serde-env",
+    "yamachu/VoicevoxCoreSharp",
     "yawkat/lz4-java",
     "ylsssq926/relic.skill",
     "yoshoku/numo-narray-alt",

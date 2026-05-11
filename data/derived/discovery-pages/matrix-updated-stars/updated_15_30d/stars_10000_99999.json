@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 14852,
-    "concepts": 6009,
-    "observations": 6037,
-    "repos": 618,
-    "terms": 6026
+    "components": 14873,
+    "concepts": 6028,
+    "observations": 6056,
+    "repos": 620,
+    "terms": 6044
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -331,6 +331,7 @@
     "JetBrains/kotlin",
     "jgm/pandoc",
     "Jguer/yay",
+    "joewalnes/websocketd",
     "jonas/tig",
     "jordansissel/fpm",
     "josdejong/jsoneditor",
@@ -563,6 +564,7 @@
     "streamlit/streamlit",
     "super-linter/super-linter",
     "svg/svgo",
+    "swagger-api/swagger-codegen",
     "swaywm/sway",
     "syl20bnr/spacemacs",
     "syncthing/syncthing",

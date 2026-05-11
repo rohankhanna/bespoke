@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 908,
-    "concepts": 700,
-    "observations": 701,
-    "repos": 67,
-    "terms": 694
+    "components": 891,
+    "concepts": 686,
+    "observations": 687,
+    "repos": 66,
+    "terms": 680
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "actions/runner-images",
@@ -74,7 +74,6 @@
     "square/moshi",
     "square/okhttp",
     "square/retrofit",
-    "swagger-api/swagger-codegen",
     "swiftlang/swift-evolution",
     "swiftlang/swift-package-manager",
     "symfony/symfony",

@@ -3,7 +3,7 @@
     "components": 1017,
     "concepts": 541,
     "observations": 544,
-    "repos": 82,
+    "repos": 81,
     "terms": 537
   },
   "facet_version": 1,
@@ -11,14 +11,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
     "andrewyng/aisuite",
     "anthropics/claude-quickstarts",
     "anthropics/courses",
-    "aosp-mirror/platform_frameworks_base",
     "astral-sh/rye",
     "beehiveinnovations/pal-mcp-server",
     "binary-husky/gpt_academic",

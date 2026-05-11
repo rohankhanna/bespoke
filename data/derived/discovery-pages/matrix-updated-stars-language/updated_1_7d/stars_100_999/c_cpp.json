@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 68,
-    "concepts": 73,
-    "observations": 73,
-    "repos": 14,
-    "terms": 73
+    "components": 74,
+    "concepts": 78,
+    "observations": 78,
+    "repos": 15,
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "aburch/simutrans",
     "CEED/libCEED",
@@ -27,6 +27,7 @@
     "ros2/common_interfaces",
     "tree-sitter-grammars/tree-sitter-markdown",
     "triton-inference-server/core",
-    "triton-inference-server/pytorch_backend"
+    "triton-inference-server/pytorch_backend",
+    "yoshoku/llama_cpp.rb"
   ]
 }

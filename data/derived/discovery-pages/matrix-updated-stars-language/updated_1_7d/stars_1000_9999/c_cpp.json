@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 306,
-    "concepts": 176,
-    "observations": 177,
-    "repos": 20,
-    "terms": 176
+    "components": 290,
+    "concepts": 155,
+    "observations": 156,
+    "repos": 19,
+    "terms": 154
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "Andersbakken/rtags",
     "brave/brave-core",
@@ -28,7 +28,6 @@
     "riscv-collab/riscv-gnu-toolchain",
     "skeeto/w64devkit",
     "sorbet/sorbet",
-    "stack-of-tasks/pinocchio",
     "swiftlang/swift-corelibs-foundation",
     "swiftlang/swift-llbuild",
     "ultrajson/ultrajson",

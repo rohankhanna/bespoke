@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 11190,
-    "concepts": 6464,
-    "observations": 6479,
-    "repos": 3098,
-    "terms": 6424
+    "components": 11184,
+    "concepts": 6452,
+    "observations": 6467,
+    "repos": 3096,
+    "terms": 6409
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -1673,7 +1673,6 @@
     "jayleicn/TVCaption",
     "jb55/lnsocket",
     "jbilcke-hf/VideoModelStudio",
-    "jchambers/id-obfuscator",
     "JCOMAIA/MaiMai",
     "jcs/mailstation-tools",
     "jcs/msTERM",
@@ -2379,7 +2378,6 @@
     "pangenome/vcfbub",
     "PanJiaChen/PanJiaChen.github.io",
     "paradoxxxzero/pyls-isort",
-    "parazyd/obelisk",
     "paritytech/bn",
     "paritytech/cargo-unleash",
     "paritytech/unsigned-varint",

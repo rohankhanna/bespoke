@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1560,
-    "concepts": 1148,
-    "observations": 1148,
-    "repos": 192,
-    "terms": 1143
+    "components": 1551,
+    "concepts": 1140,
+    "observations": 1140,
+    "repos": 190,
+    "terms": 1135
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "90-008/nix-cargo-integration",
     "actions/python-versions",
     "activeadmin/arbre",
     "anthropics/anthropic-sdk-ruby",
-    "apache/apisix-helm-chart",
     "appwrite/sdk-for-android",
     "appwrite/sdk-for-apple",
     "appwrite/sdk-for-flutter",
@@ -136,7 +135,6 @@
     "mapbox/mapbox-maps-android",
     "mapbox/mapbox-maps-ios",
     "mbj/unparser",
-    "melange-re/melange",
     "microsoft/Agents",
     "microsoft/Agents-for-net",
     "microsoft/binskim",

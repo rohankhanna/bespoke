@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 177,
-    "concepts": 221,
-    "observations": 221,
-    "repos": 32,
-    "terms": 221
+    "components": 173,
+    "concepts": 215,
+    "observations": 215,
+    "repos": 30,
+    "terms": 215
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
-    "apache/camel-examples",
     "apache/commons-jexl",
     "apache/datasketches-java",
     "beehive-lab/GPULlama3.java",
@@ -33,7 +32,6 @@
     "graalvm/native-build-tools",
     "higress-group/higress-console",
     "jpmml/jpmml-lightgbm",
-    "jpmml/jpmml-sparkml",
     "jpmml/jpmml-xgboost",
     "kreativekorp/bitsnpicas",
     "microsoft/Generative-AI-for-beginners-java",

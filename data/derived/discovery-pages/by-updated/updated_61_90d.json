@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 7330,
-    "concepts": 4352,
-    "observations": 4367,
+    "components": 7346,
+    "concepts": 4356,
+    "observations": 4371,
     "repos": 1144,
-    "terms": 4346
+    "terms": 4350
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "0x676e67/0x676e67",
@@ -102,6 +102,7 @@
     "AliRezaBeigy/paqetNG",
     "alirezarezvani/claude-code-tresor",
     "aliyun/aliyun-oss-java-sdk",
+    "allan2/dotenvy",
     "alloy-rs/op-alloy",
     "alonw0/cc-redalerts-statusline",
     "altendky/pyqt-tools",
@@ -354,6 +355,7 @@
     "Dao-AILab/fast-hadamard-transform",
     "DarthAffe/StableDiffusion.NET",
     "dashbitco/mox",
+    "dashbitco/nimble_options",
     "datachainlab/ethereum-ibc-relay-prover",
     "DataDog/go-cmp",
     "DataDog/opa",
@@ -391,7 +393,6 @@
     "dop251/goja_nodejs",
     "douglascrockford/JSMin",
     "drivendataorg/zamba",
-    "dspinellis/latex-advice",
     "dsxmachina/rfm",
     "dtolnay/cargo-expand",
     "duke-git/lancet",
@@ -906,7 +907,6 @@
     "quanhaol/MagicMotion",
     "QwenLM/Qwen",
     "QwenLM/Qwen-Agent",
-    "QwenLM/Qwen-Image",
     "r-lyeh/single_file_libs",
     "r-spatial/s2",
     "radekd91/inferno",

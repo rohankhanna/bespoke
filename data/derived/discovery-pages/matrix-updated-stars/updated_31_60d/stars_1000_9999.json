@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5973,
-    "concepts": 3557,
-    "observations": 3569,
-    "repos": 609,
-    "terms": 3565
+    "components": 5968,
+    "concepts": 3569,
+    "observations": 3581,
+    "repos": 610,
+    "terms": 3577
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "2U1/Qwen-VL-Series-Finetune",
@@ -35,7 +35,6 @@
     "alexreisner/geocoder",
     "alibaba/havenask",
     "AlibabaResearch/AdvancedLiterateMachinery",
-    "allan2/dotenvy",
     "allweonedev/presentation-ai",
     "amqp-node/amqplib",
     "AndrewRadev/splitjoin.vim",
@@ -178,6 +177,7 @@
     "ekalinin/sitemap.js",
     "electron/windows-installer",
     "ElectronNET/Electron.NET",
+    "elixir-ecto/postgrex",
     "elixir-plug/plug",
     "ElMassimo/iles",
     "emilk/eframe_template",
@@ -484,6 +484,7 @@
     "qjfoidnh/BaiduPCS-Go",
     "QwenLM/Qwen3-VL-Embedding",
     "r-lib/lintr",
+    "RapidAI/RapidOCR",
     "rcarriga/nvim-dap-ui",
     "react-native-webview/react-native-webview",
     "redis/hiredis",

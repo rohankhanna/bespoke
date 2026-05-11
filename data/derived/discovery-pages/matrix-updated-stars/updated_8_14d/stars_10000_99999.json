@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 9435,
-    "concepts": 4376,
-    "observations": 4385,
-    "repos": 374,
-    "terms": 4344
+    "components": 9414,
+    "concepts": 4357,
+    "observations": 4366,
+    "repos": 372,
+    "terms": 4325
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "2dust/v2rayNG",
@@ -182,7 +182,6 @@
     "jenkinsci/jenkins",
     "jhipster/generator-jhipster",
     "jj-vcs/jj",
-    "joewalnes/websocketd",
     "jquense/yup",
     "jrouwe/JoltPhysics",
     "jsdoc/jsdoc",
@@ -341,7 +340,6 @@
     "surrealdb/surrealdb",
     "sveltejs/kit",
     "sveltejs/svelte",
-    "swagger-api/swagger-codegen",
     "swagger-api/swagger-ui",
     "swc-project/swc",
     "SWE-agent/SWE-agent",

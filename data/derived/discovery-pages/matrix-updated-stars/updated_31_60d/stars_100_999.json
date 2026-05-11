@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5554,
-    "concepts": 3438,
-    "observations": 3456,
-    "repos": 735,
-    "terms": 3441
+    "components": 5555,
+    "concepts": 3444,
+    "observations": 3462,
+    "repos": 738,
+    "terms": 3447
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "2KAbhishek/seeker.nvim",
@@ -75,6 +75,7 @@
     "ankane/xgboost-ruby",
     "antfu-collective/bumpp",
     "antfu/skills-npm",
+    "apache/camel-examples",
     "apache/doris-flink-connector",
     "apache/doris-spark-connector",
     "apache/rocketmq-client-cpp",
@@ -204,7 +205,6 @@
     "d3/d3-geo-polygon",
     "dalance/ptags",
     "DanceTrack/DanceTrack",
-    "dashbitco/nimble_options",
     "dashbitco/nimble_pool",
     "dashbitco/nimble_totp",
     "dask/fastparquet",
@@ -395,6 +395,7 @@
     "jimmywarting/native-file-system-adapter",
     "JokerJohn/Cloud_Map_Evaluation",
     "JokerJohn/MS-Mapping",
+    "jpmml/jpmml-sparkml",
     "jpmml/sklearn2pmml",
     "js-kyle/mincer",
     "jsegov/autoresearch-win-rtx",
@@ -442,6 +443,7 @@
     "libxsmm/libxsmm",
     "lightninglabs/neutrino",
     "littlefs-project/littlefs-fuse",
+    "llm-in-sandbox/llm-in-sandbox",
     "lobehub/lobe-midjourney-webui",
     "lualanes/lanes",
     "LuisaGroup/LuisaRender",
@@ -581,6 +583,7 @@
     "prometheus/exporter-toolkit",
     "proper-testing/proper",
     "protocolbuffers/protobuf-javascript",
+    "pry/pry-stack_explorer",
     "psf/pyperf",
     "ptsochantaris/emeltal",
     "public-awesome/cw-nfts",

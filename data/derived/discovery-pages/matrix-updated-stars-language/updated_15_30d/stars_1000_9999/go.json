@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1550,
-    "concepts": 1452,
-    "observations": 1458,
-    "repos": 175,
-    "terms": 1456
+    "components": 1582,
+    "concepts": 1468,
+    "observations": 1474,
+    "repos": 177,
+    "terms": 1472
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -89,6 +89,7 @@
     "eryajf/chatgpt-dingtalk",
     "ethereum-optimism/optimism",
     "ethersphere/bee",
+    "evilmartians/lefthook",
     "expr-lang/expr",
     "flannel-io/flannel",
     "fsouza/go-dockerclient",
@@ -172,6 +173,7 @@
     "runfinch/finch",
     "schachmat/wego",
     "sigstore/cosign",
+    "sigstore/gitsign",
     "sigstore/rekor",
     "SpecterOps/BloodHound",
     "StackExchange/dnscontrol",

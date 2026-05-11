@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 407,
-    "concepts": 247,
-    "observations": 247,
+    "components": 395,
+    "concepts": 258,
+    "observations": 258,
     "repos": 50,
-    "terms": 244
+    "terms": 255
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "aidenlab/juicebox.js",
@@ -42,10 +42,10 @@
     "kurrent-io/KurrentDB-Client-Rust",
     "leleliu008/ppkg",
     "ludwig-ai/ludwig-docs",
+    "lumen-oss/luarocks-tag-release",
     "mesh-iit/cad-libraries",
     "mit-plv/coqutil",
     "mrcjkb/neotest-haskell",
-    "nuxt-modules/emotion",
     "ocaml-tracing/ocaml-opentelemetry",
     "ocaml-tracing/ocaml-trace",
     "ogx-ai/ogx-client-typescript",

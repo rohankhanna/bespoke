@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 760,
+    "components": 763,
     "concepts": 852,
     "observations": 857,
-    "repos": 145,
+    "repos": 146,
     "terms": 850
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
@@ -60,6 +60,7 @@
     "dotnet/project-system",
     "dotnet/roslynator",
     "ElectronNET/Electron.NET",
+    "elixir-ecto/postgrex",
     "elixir-plug/plug",
     "excon/excon",
     "fcambus/spleen",

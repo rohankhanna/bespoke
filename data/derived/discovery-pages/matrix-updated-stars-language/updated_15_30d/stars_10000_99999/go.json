@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1026,
-    "concepts": 1001,
-    "observations": 1005,
-    "repos": 89,
-    "terms": 988
+    "components": 1030,
+    "concepts": 1006,
+    "observations": 1010,
+    "repos": 90,
+    "terms": 993
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -68,6 +68,7 @@
     "jaegertracing/jaeger",
     "jesseduffield/lazygit",
     "Jguer/yay",
+    "joewalnes/websocketd",
     "junegunn/fzf",
     "k3s-io/k3s",
     "kubernetes-sigs/kind",

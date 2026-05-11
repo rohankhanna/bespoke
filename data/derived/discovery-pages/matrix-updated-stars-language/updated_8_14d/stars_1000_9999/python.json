@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1511,
-    "concepts": 1637,
-    "observations": 1640,
-    "repos": 167,
-    "terms": 1625
+    "components": 1487,
+    "concepts": 1605,
+    "observations": 1608,
+    "repos": 165,
+    "terms": 1595
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "abhiTronix/vidgear",
@@ -73,7 +73,6 @@
     "google-deepmind/mujoco_warp",
     "gpustack/gpustack",
     "h5py/h5py",
-    "hacs/integration",
     "hao-ai-lab/FastVideo",
     "HumanSignal/label-studio-ml-backend",
     "ibis-project/ibis",
@@ -145,7 +144,6 @@
     "pytorch/rl",
     "pytorch/tensordict",
     "rasterio/rasterio",
-    "RDFLib/rdflib",
     "readthedocs/readthedocs.org",
     "RLinf/RLinf",
     "roboflow/inference",

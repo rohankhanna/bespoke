@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1943,
-    "concepts": 467,
-    "observations": 474,
-    "repos": 91,
-    "terms": 488
+    "components": 1970,
+    "concepts": 484,
+    "observations": 491,
+    "repos": 93,
+    "terms": 505
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "actions/create-github-app-token",
@@ -42,6 +42,7 @@
     "dequelabs/axe-core-npm",
     "devsnek/esvu",
     "dperini/nwsapi",
+    "dydxprotocol/v4-clients",
     "ehmicky/nve",
     "eladnava/pikud-haoref-api",
     "electron/node-abi",
@@ -65,6 +66,7 @@
     "i18next/i18next-http-middleware",
     "ImranR98/apps.obtainium.imranr.dev",
     "ipfs/aegir",
+    "j9t/html-minifier-next",
     "jest-community/jest-junit",
     "karma-runner/karma-coverage",
     "karma-runner/karma-jasmine",

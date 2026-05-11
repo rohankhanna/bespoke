@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 125,
+    "components": 126,
     "concepts": 143,
     "observations": 146,
-    "repos": 17,
+    "repos": 16,
     "terms": 143
   },
   "facet_version": 1,
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
-    "aigc-apps/VideoX-Fun",
     "arcee-ai/mergekit",
     "aws/serverless-application-model",
     "bitsandbytes-foundation/bitsandbytes",
@@ -26,8 +25,8 @@
     "lucidrains/vector-quantize-pytorch",
     "meta-pytorch/captum",
     "mikel-brostrom/boxmot",
-    "ogx-ai/ogx",
     "PaddlePaddle/FastDeploy",
+    "redis/redis-om-python",
     "safetensors/safetensors",
     "strob/gentle",
     "vyperlang/vyper"

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1597,
-    "concepts": 922,
-    "observations": 925,
-    "repos": 169,
-    "terms": 919
+    "components": 1561,
+    "concepts": 900,
+    "observations": 903,
+    "repos": 168,
+    "terms": 897
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "1mb-dev/natcheck",
     "3mdeb/3mdeb-secpack",
@@ -38,6 +38,7 @@
     "calda/SwiftFormat-nightly",
     "Cebeerre/dnsblocklists",
     "celo-org/blind-threshold-bls-wasm",
+    "clearml/dropbear",
     "cloudfoundry/cc-uploader",
     "cloudfoundry/runtime-ci",
     "cloudfoundry/wg-app-platform-runtime-ci",
@@ -102,8 +103,6 @@
     "ipfs-shipyard/github-mgmt",
     "ipld/github-mgmt",
     "ipshipyard/github-mgmt",
-    "j9t/compressorjs-next",
-    "j9t/minifier-benchmarks",
     "JeremyAnsel/SharpAssimp",
     "jfmengels/elm-review-config",
     "jk10001/aquainsightai",

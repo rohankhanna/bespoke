@@ -3,7 +3,7 @@
     "components": 165,
     "concepts": 312,
     "observations": 312,
-    "repos": 61,
+    "repos": 60,
     "terms": 309
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -63,7 +63,6 @@
     "python-semantic-release/python-semantic-release",
     "pyusb/pyusb",
     "qix-/better-exceptions",
-    "QwenLM/Qwen-Image",
     "randy3k/radian",
     "SafeAILab/EAGLE",
     "shibing624/text2vec",

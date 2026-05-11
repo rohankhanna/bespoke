@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 793,
-    "concepts": 521,
-    "observations": 525,
-    "repos": 77,
-    "terms": 517
+    "components": 777,
+    "concepts": 511,
+    "observations": 515,
+    "repos": 74,
+    "terms": 507
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "0xPolygonHermez/zisk",
     "a16z/jolt",
@@ -52,7 +52,6 @@
     "huggingface/xet-core",
     "hyper-mcp-rs/hyper-mcp",
     "istio/ztunnel",
-    "JanLikar/cargo-clone",
     "kpcyrd/rebuilderd",
     "KSXGitHub/parallel-disk-usage",
     "ldclabs/anda",
@@ -73,7 +72,6 @@
     "pubgrub-rs/pubgrub",
     "quickwit-oss/tantivy-py",
     "rust-diplomat/diplomat",
-    "rust-lang/compiler-builtins",
     "rust-random/getrandom",
     "RustCrypto/crypto-bigint",
     "RustCrypto/elliptic-curves",
@@ -84,7 +82,6 @@
     "tensorchord/VectorChord-bm25",
     "testcontainers/testcontainers-rs-modules-community",
     "tinted-theming/tinty",
-    "udoprog/genco",
     "vectordotdev/vrl",
     "Yatekii/imgui-wgpu-rs",
     "z-galaxy/zbus",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 17320,
-    "concepts": 25933,
-    "observations": 25982,
-    "repos": 6488,
-    "terms": 25746
+    "components": 17316,
+    "concepts": 25924,
+    "observations": 25973,
+    "repos": 6486,
+    "terms": 25725
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "python"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0cc4m/hf_bleeding_edge",
@@ -4798,7 +4798,6 @@
     "pappasam/jedi-language-server",
     "paradoxxxzero/pyls-isort",
     "Parallel-Reasoning/APR",
-    "parazyd/obelisk",
     "ParisNeo/lollms-webui",
     "ParisNeo/lollms_client",
     "ParisNeo/safe_store",
@@ -5929,7 +5928,6 @@
     "trevin-creator/autoresearch-mlx",
     "TRI-ML/camviz",
     "TRI-ML/dd3d",
-    "TRI-ML/DDAD",
     "TRI-ML/dgp",
     "TRI-ML/packnet-sfm",
     "TRI-ML/vidar",

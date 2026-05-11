@@ -3,7 +3,7 @@
     "components": 2649,
     "concepts": 2161,
     "observations": 2171,
-    "repos": 428,
+    "repos": 430,
     "terms": 2132
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "99designs/aws-vault",
@@ -120,6 +120,7 @@
     "dmayboroda/minima",
     "docker/docker-py",
     "DotNetAnalyzers/StyleCopAnalyzers",
+    "dspinellis/latex-advice",
     "dtolnay/case-studies",
     "EKA2L1/EKA2L1",
     "ekalinin/nodeenv",
@@ -349,6 +350,7 @@
     "Python-Markdown/markdown",
     "python-rope/rope",
     "pytorch/extension-cpp",
+    "QwenLM/Qwen-Image",
     "rafamadriz/friendly-snippets",
     "rails/importmap-rails",
     "rails/spring",

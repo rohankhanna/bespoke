@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 941,
-    "concepts": 249,
-    "observations": 249,
-    "repos": 61,
-    "terms": 249
+    "components": 985,
+    "concepts": 256,
+    "observations": 256,
+    "repos": 63,
+    "terms": 256
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
+    "AdguardTeam/FiltersCompiler",
     "ahmadnassri/node-glob-promise",
     "alexellis/arkade-get",
     "bmad-code-org/bmad-method-test-architecture-enterprise",
@@ -37,6 +38,7 @@
     "i18next/i18next-resources-to-backend",
     "ipfs/js-ipfs-utils",
     "itsrishika/payment-bypass-bug-lab",
+    "j9t/obsohtml",
     "jasmine/jasmine-browser-runner",
     "locize/i18next-locize-backend",
     "locize/locize",

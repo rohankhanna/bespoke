@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 94,
-    "concepts": 152,
-    "observations": 152,
-    "repos": 20,
-    "terms": 149
+    "components": 98,
+    "concepts": 158,
+    "observations": 158,
+    "repos": 22,
+    "terms": 155
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
+    "apache/camel-examples",
     "apache/doris-flink-connector",
     "apache/doris-spark-connector",
     "Azure-Samples/agent-openai-java-banking-assistant",
@@ -26,6 +27,7 @@
     "googleapis/java-bigquery",
     "GoogleCloudPlatform/cloud-bigtable-examples",
     "GoogleCloudPlatform/cloud-opensource-java",
+    "jpmml/jpmml-sparkml",
     "mukel/llama3.java",
     "nayuki/Nayuki-web-published-code",
     "objectbox/objectbox-examples",

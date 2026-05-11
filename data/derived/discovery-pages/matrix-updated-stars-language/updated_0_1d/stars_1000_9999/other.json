@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 55,
-    "concepts": 47,
-    "observations": 48,
-    "repos": 5,
-    "terms": 47
+    "components": 69,
+    "concepts": 71,
+    "observations": 73,
+    "repos": 6,
+    "terms": 71
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "babashka/babashka",
+    "dotnet/Silk.NET",
     "microsoft/aspire",
     "swiftlang/llvm-project",
     "TryGhost/node-sqlite3",

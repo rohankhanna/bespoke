@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 160,
-    "concepts": 97,
-    "observations": 97,
-    "repos": 21,
-    "terms": 97
+    "components": 169,
+    "concepts": 112,
+    "observations": 112,
+    "repos": 22,
+    "terms": 112
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "Cle2ment/CherryStudio_themes",
@@ -25,6 +25,7 @@
     "helix-toolkit/helix-toolkit-nex",
     "jelly-beam/rebar3_ex_doc",
     "ludwig-ai/ludwig-docs",
+    "lumen-oss/luarocks-tag-release",
     "mit-plv/coqutil",
     "mrcjkb/neotest-haskell",
     "ocaml-tracing/ocaml-opentelemetry",

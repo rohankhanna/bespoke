@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 110,
-    "concepts": 164,
-    "observations": 164,
-    "repos": 70,
-    "terms": 164
+    "concepts": 161,
+    "observations": 161,
+    "repos": 69,
+    "terms": 161
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "abilian/abilian-sbe",
     "adamharrison/lite-xl-android",
@@ -56,7 +56,6 @@
     "iamolegga/react-native-launch-arguments",
     "ihmcrobotics/euclid",
     "imfangs/langgraph4j-deep-researcher",
-    "jchambers/id-obfuscator",
     "jenkinsci/jmh-report-plugin",
     "jerrylususu/PaddleOCR-json-java-api",
     "JetBrains/spotbugs-intellij-plugin",

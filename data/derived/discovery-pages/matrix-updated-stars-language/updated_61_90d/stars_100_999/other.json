@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 505,
-    "concepts": 392,
-    "observations": 394,
-    "repos": 102,
-    "terms": 392
+    "components": 508,
+    "concepts": 395,
+    "observations": 397,
+    "repos": 103,
+    "terms": 395
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "4d49/scene-library",
     "AccountGo/accountgo",
@@ -48,6 +48,7 @@
     "Cysharp/ValueTaskSupplement",
     "Dao-AILab/causal-conv1d",
     "DarthAffe/StableDiffusion.NET",
+    "dashbitco/nimble_options",
     "dkubb/memoizable",
     "domluna/JuliaFormatter.jl",
     "dwyl/labels",

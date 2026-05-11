@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1093,
-    "concepts": 816,
-    "observations": 819,
+    "components": 1090,
+    "concepts": 813,
+    "observations": 816,
     "repos": 198,
-    "terms": 808
+    "terms": 805
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "actboy168/json.lua",
@@ -79,7 +79,6 @@
     "crivotz/nv-ide",
     "csstools/normalize.css",
     "Cysharp/RuntimeUnitTestToolkit",
-    "dashbitco/nimble_options",
     "dashbitco/nimble_pool",
     "dashbitco/nimble_totp",
     "dcampos/nvim-snippy",
@@ -172,6 +171,7 @@
     "ppwwyyxx/cocoapi",
     "prabirshrestha/asyncomplete.vim",
     "proper-testing/proper",
+    "pry/pry-stack_explorer",
     "purcell/envrc",
     "pybind/pybind11_bazel",
     "pyodide/micropip",

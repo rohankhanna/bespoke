@@ -3,7 +3,7 @@
     "components": 342,
     "concepts": 671,
     "observations": 672,
-    "repos": 143,
+    "repos": 144,
     "terms": 661
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "AILab-CVC/VideoCrafter",
     "alexmojaki/snoop",
@@ -129,6 +129,7 @@
     "Python-Markdown/markdown",
     "python-rope/rope",
     "pytorch/extension-cpp",
+    "QwenLM/Qwen-Image",
     "remsky/Kokoro-FastAPI",
     "RUC-NLPIR/Search-o1",
     "RUC-NLPIR/WebThinker",

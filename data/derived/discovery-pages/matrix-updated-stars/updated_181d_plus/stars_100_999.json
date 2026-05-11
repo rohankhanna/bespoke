@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 14784,
-    "concepts": 13099,
-    "observations": 13123,
-    "repos": 4359,
-    "terms": 12889
+    "concepts": 13097,
+    "observations": 13121,
+    "repos": 4357,
+    "terms": 12872
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -2391,7 +2391,6 @@
     "KlugerLab/FIt-SNE",
     "kmeng01/memit",
     "kmeng01/rome",
-    "knownsec/404starlink-project",
     "knpwrs/ms.macro",
     "koalaman/shellcheck-precommit",
     "kodybrown/scoop-nirsoft",
@@ -3978,7 +3977,6 @@
     "tremby/imgur.sh",
     "TRI-ML/camviz",
     "TRI-ML/dd3d",
-    "TRI-ML/DDAD",
     "TRI-ML/vidar",
     "triton-inference-server/pytriton",
     "TritonDataCenter/node-http-signature",

@@ -1,21 +1,20 @@
 {
   "counts": {
-    "components": 115,
-    "concepts": 70,
-    "observations": 70,
-    "repos": 20,
-    "terms": 70
+    "components": 111,
+    "concepts": 65,
+    "observations": 65,
+    "repos": 19,
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "ADNTIO/crispy-bootloader-rp2040-rs",
     "aidenlab/juicebox-web",
-    "clearml/dropbear",
     "cloudfoundry/credhub-acceptance-tests",
     "cosmos/rosetta",
     "danielrosehill/Claude-Rudder",

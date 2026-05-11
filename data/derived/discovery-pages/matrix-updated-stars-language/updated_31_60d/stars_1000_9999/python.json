@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 527,
-    "concepts": 802,
-    "observations": 802,
-    "repos": 127,
-    "terms": 792
+    "components": 532,
+    "concepts": 815,
+    "observations": 815,
+    "repos": 128,
+    "terms": 805
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "2U1/Qwen-VL-Series-Finetune",
@@ -111,6 +111,7 @@
     "python-poetry/cleo",
     "pyupio/safety",
     "QwenLM/Qwen3-VL-Embedding",
+    "RapidAI/RapidOCR",
     "RUC-NLPIR/FlashRAG",
     "rusty1s/pytorch_scatter",
     "rusty1s/pytorch_sparse",

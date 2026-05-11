@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 366,
-    "concepts": 266,
-    "observations": 271,
-    "repos": 51,
-    "terms": 264
+    "components": 353,
+    "concepts": 265,
+    "observations": 270,
+    "repos": 50,
+    "terms": 263
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
-    "allan2/dotenvy",
     "aome510/spotify-player",
     "arxanas/git-branchless",
     "bitshifter/glam-rs",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 473,
-    "concepts": 663,
-    "observations": 670,
-    "repos": 146,
-    "terms": 666
+    "concepts": 666,
+    "observations": 673,
+    "repos": 147,
+    "terms": 669
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/aswf-docker",
     "ACEnglish/truvari",
@@ -88,6 +88,7 @@
     "layumi/University1652-Baseline",
     "ldayton/dippy",
     "lessw2020/Ranger21",
+    "llm-in-sandbox/llm-in-sandbox",
     "lxgw/LxgwWenkaiTC",
     "macisamuele/language-formatters-pre-commit-hooks",
     "madebyollin/taehv",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2521,
-    "concepts": 2034,
-    "observations": 2037,
-    "repos": 334,
-    "terms": 2056
+    "components": 2530,
+    "concepts": 2042,
+    "observations": 2045,
+    "repos": 335,
+    "terms": 2064
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "a2aproject/a2a-dotnet",
@@ -37,6 +37,7 @@
     "ankane/onnxruntime-ruby",
     "ankane/rover",
     "ankane/ruby-polars",
+    "apache/apisix-helm-chart",
     "apache/arrow-adbc",
     "apache/arrow-go",
     "apache/dubbo-website",
@@ -228,6 +229,7 @@
     "martinthomson/i-d-template",
     "MasterJ93/ATProtoKit",
     "matthewjberger/scoop-nerd-fonts",
+    "melange-re/melange",
     "metosin/schema-tools",
     "microsoft/AZD-for-beginners",
     "microsoft/CsWinRT",
@@ -272,7 +274,6 @@
     "PKU-YuanGroup/OpenS2V-Nexus",
     "PowerShell/PowerShell-RFC",
     "pq-code-package/mlkem-native",
-    "pry/pry-stack_explorer",
     "purcell/emacs-reformatter",
     "pytorch/pytorch.github.io",
     "quarto-dev/quarto-actions",

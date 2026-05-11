@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 111,
-    "concepts": 54,
-    "observations": 54,
-    "repos": 9,
-    "terms": 54
+    "components": 105,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 8,
+    "terms": 49
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "AI-Hypercomputer/maxdiffusion",
     "apalache-mc/apalache",
@@ -20,7 +20,6 @@
     "pyrtlsdr/pyrtlsdr",
     "Rel1cx/eslint-react",
     "serversideup/webext-bridge",
-    "servo/stylo",
-    "yoshoku/llama_cpp.rb"
+    "servo/stylo"
   ]
 }

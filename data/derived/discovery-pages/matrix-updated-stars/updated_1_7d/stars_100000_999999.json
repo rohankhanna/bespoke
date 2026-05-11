@@ -1,19 +1,18 @@
 {
   "counts": {
-    "components": 110,
-    "concepts": 55,
-    "observations": 56,
-    "repos": 3,
-    "terms": 55
+    "components": 21,
+    "concepts": 39,
+    "observations": 39,
+    "repos": 2,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
-    "f/prompts.chat",
     "huggingface/transformers",
     "langchain-ai/langchain"
   ]

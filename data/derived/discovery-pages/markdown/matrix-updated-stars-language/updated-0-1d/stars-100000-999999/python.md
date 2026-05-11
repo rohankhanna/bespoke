@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100,000 to 999,999 stars · Python
 
-Generated at: `2026-05-11T05:49:39.283420+00:00`
+Generated at: `2026-05-11T07:58:46.643172+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,12 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 147932 | 2026-05-11T00:55:00Z | Python | Infrastructure/tooling | 11 | 17 | 11 | 11 |
-| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 112286 | 2026-05-10T20:50:42Z | Python | Infrastructure/tooling | 11 | 7 | 11 | 11 |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 112363 | 2026-05-11T06:25:55Z | Python | Infrastructure/tooling | 11 | 7 | 11 | 11 |
+| [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 147949 | 2026-05-11T03:38:58Z | Python | Infrastructure/tooling | 11 | 17 | 11 | 11 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 147932 | 2026-05-11T00:55:00Z | Python | Infrastructure/tooling | 11 | 17 | 11 | 11 |
-| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 112286 | 2026-05-10T20:50:42Z | Python | Infrastructure/tooling | 11 | 7 | 11 | 11 |
+| [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 147949 | 2026-05-11T03:38:58Z | Python | Infrastructure/tooling | 11 | 17 | 11 | 11 |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 112363 | 2026-05-11T06:25:55Z | Python | Infrastructure/tooling | 11 | 7 | 11 | 11 |

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 781,
-    "concepts": 343,
-    "observations": 345,
-    "repos": 30,
-    "terms": 352
+    "components": 882,
+    "concepts": 414,
+    "observations": 416,
+    "repos": 35,
+    "terms": 422
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "aden-hive/hive",
@@ -24,6 +24,7 @@
     "gastownhall/gastown",
     "ggml-org/ggml",
     "ggml-org/whisper.cpp",
+    "google-ai-edge/mediapipe",
     "huggingface/sentence-transformers",
     "HumanSignal/label-studio",
     "jax-ml/jax",
@@ -31,15 +32,19 @@
     "Lightning-AI/pytorch-lightning",
     "lobehub/lobehub",
     "mudler/LocalAI",
+    "oobabooga/textgen",
     "OpenHands/OpenHands",
     "pydantic/pydantic",
+    "QuantumNous/new-api",
     "qubvel-org/segmentation_models.pytorch",
     "quickwit-oss/tantivy",
+    "run-llama/llama_index",
     "rust-lang/rust-analyzer",
     "ruvnet/ruflo",
     "swiftlang/swift",
     "triton-lang/triton",
     "upptime/upptime",
+    "vbenjs/vue-vben-admin",
     "verl-project/verl",
     "weaviate/weaviate",
     "zhayujie/CowAgent"

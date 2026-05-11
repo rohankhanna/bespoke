@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1850,
-    "concepts": 1537,
-    "observations": 1551,
-    "repos": 189,
-    "terms": 1532
+    "components": 1815,
+    "concepts": 1517,
+    "observations": 1531,
+    "repos": 188,
+    "terms": 1512
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-baseline",
     "aaubry/YamlDotNet",
@@ -35,7 +35,6 @@
     "bitwarden/android",
     "blokadaorg/blokada",
     "borglab/gtsam",
-    "box-project/box",
     "broadinstitute/cromwell",
     "CakeML/cakeml",
     "CanHub/Android-Image-Cropper",
@@ -104,7 +103,6 @@
     "JetBrains/intellij-platform-plugin-template",
     "JetBrains/intellij-sdk-docs",
     "JetBrains/resharper-unity",
-    "JLLeitschuh/ktlint-gradle",
     "jmhobbs/cultofthepartyparrot.com",
     "jrsoftware/issrc",
     "JuliaAI/MLJ.jl",
@@ -149,6 +147,7 @@
     "nix-darwin/nix-darwin",
     "NuGet/NuGetGallery",
     "NVIDIA/accelerated-computing-hub",
+    "nvim-flutter/flutter-tools.nvim",
     "nvim-lualine/lualine.nvim",
     "nvim-neotest/neotest",
     "nvim-tree/nvim-tree.lua",

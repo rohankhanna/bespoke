@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1541,
-    "concepts": 1480,
-    "observations": 1483,
+    "components": 1549,
+    "concepts": 1478,
+    "observations": 1481,
     "repos": 285,
-    "terms": 1486
+    "terms": 1484
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
@@ -149,6 +149,7 @@
     "huggingface/optimum-onnx",
     "hustvl/RAD",
     "HyperionGray/python-chrome-devtools-protocol",
+    "i2rt-robotics/i2rt",
     "inclusionAI/AWorld-RL",
     "inducer/loopy",
     "inducer/pymbolic",
@@ -180,7 +181,6 @@
     "likaixin2000/ScreenSpot-Pro-GUI-Grounding",
     "llama-farm/llamafarm",
     "llamastack/llama-stack-client-python",
-    "llm-in-sandbox/llm-in-sandbox",
     "lmcinnes/pynndescent",
     "ludbb/secp256k1-py",
     "marbl/verkko",

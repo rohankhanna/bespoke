@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2017,
-    "concepts": 1867,
-    "observations": 1874,
-    "repos": 270,
-    "terms": 1852
+    "components": 2055,
+    "concepts": 1895,
+    "observations": 1902,
+    "repos": 271,
+    "terms": 1880
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -53,6 +53,7 @@
     "BLAKE3-team/BLAKE3",
     "blockscout/blockscout",
     "boostorg/boost",
+    "box-project/box",
     "brainlid/langchain",
     "briansmith/ring",
     "BuddiesOfBudgie/budgie-desktop",
@@ -102,7 +103,6 @@
     "durgeshsamariya/awesome-github-profile-readme-templates",
     "dwyl/learn-elixir",
     "ebitengine/purego",
-    "elixir-ecto/postgrex",
     "elixir-lang/ex_doc",
     "elixir-tesla/tesla",
     "elsa-workflows/elsa-core",
@@ -147,6 +147,7 @@
     "itchyny/lightline.vim",
     "jeremyevans/roda",
     "jeremyevans/sequel",
+    "JLLeitschuh/ktlint-gradle",
     "john-rocky/CoreML-Models",
     "johnbean393/Sidekick",
     "jrblevin/markdown-mode",

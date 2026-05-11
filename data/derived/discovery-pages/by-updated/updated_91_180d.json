@@ -3,14 +3,14 @@
     "components": 10198,
     "concepts": 6776,
     "observations": 6802,
-    "repos": 1865,
-    "terms": 6754
+    "repos": 1866,
+    "terms": 6751
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0b01/tigris-and-euphrates",
@@ -162,7 +162,6 @@
     "antonypro/QGoodWindow",
     "antosha417/nvim-lsp-file-operations",
     "Anush008/fastembed-js",
-    "aosp-mirror/platform_frameworks_base",
     "ap/vim-buftabline",
     "apache/casbin-cpp",
     "apache/datasketches-python",
@@ -582,6 +581,7 @@
     "drewlinsley/pathfinder",
     "drowzy/protobuf_generate",
     "dspinellis/bibtools",
+    "dspinellis/latex-advice",
     "dthuerck/mapmap_cpu",
     "dtolnay/cargo-llvm-lines",
     "dtolnay/case-studies",
@@ -1472,6 +1472,7 @@
     "qinwang-ai/PolypsAlign",
     "qiuyu96/CoDeF",
     "quarkiverse/quarkiverse",
+    "QwenLM/Qwen-Image",
     "QwenLM/Qwen3",
     "QwenLM/Qwen3-VL",
     "r-lib/covr",

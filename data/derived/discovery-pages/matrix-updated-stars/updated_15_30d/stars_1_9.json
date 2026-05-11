@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2376,
-    "concepts": 1026,
-    "observations": 1027,
-    "repos": 306,
-    "terms": 1058
+    "components": 2416,
+    "concepts": 1053,
+    "observations": 1054,
+    "repos": 308,
+    "terms": 1085
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "0xPolygonHermez/pil2-proofman-js",
@@ -187,8 +187,10 @@
     "ipfs/helia-remote-pinning",
     "ipld/js-bitcoin",
     "istanbuljs/schema",
+    "j9t/compressorjs-next",
     "j9t/htaccess-punk",
     "j9t/image-guard",
+    "j9t/minifier-benchmarks",
     "Jango-AI-com/morning-cli",
     "jhugestar/jhugestar.github.io",
     "joinwell52-ai/codeflow-pwa",

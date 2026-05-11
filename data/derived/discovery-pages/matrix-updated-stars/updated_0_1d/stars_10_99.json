@@ -1,23 +1,23 @@
 {
   "counts": {
-    "components": 59,
-    "concepts": 41,
-    "observations": 41,
+    "components": 71,
+    "concepts": 30,
+    "observations": 30,
     "repos": 6,
-    "terms": 41
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "intel-staging/text-generation-webui",
     "ipdxco/github-as-code",
     "joshsymonds/cc-tools",
     "karafka/example-apps",
-    "lumen-oss/luarocks-tag-release",
+    "nuxt-modules/emotion",
     "vaporif/parry-guard"
   ]
 }

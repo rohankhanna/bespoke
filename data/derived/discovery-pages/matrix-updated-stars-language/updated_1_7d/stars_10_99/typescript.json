@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 113,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 5,
-    "terms": 18
+    "components": 92,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 4,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "GoogleCloudPlatform/opentelemetry-demo",
     "julia-actions/install-juliaup",
-    "nuxt-modules/emotion",
     "ogx-ai/ogx-client-typescript",
     "TrigenSoftware/simple-release"
   ]

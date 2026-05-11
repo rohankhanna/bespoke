@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 16,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 1,
-    "terms": 10
+    "components": 37,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 2,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
-    "ipdxco/github-as-code"
+    "ipdxco/github-as-code",
+    "nuxt-modules/emotion"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 114,
-    "concepts": 132,
-    "observations": 134,
-    "repos": 12,
-    "terms": 132
+    "components": 125,
+    "concepts": 154,
+    "observations": 156,
+    "repos": 14,
+    "terms": 153
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "aden-hive/hive",
@@ -21,9 +21,11 @@
     "huggingface/sentence-transformers",
     "jax-ml/jax",
     "Lightning-AI/pytorch-lightning",
+    "oobabooga/textgen",
     "OpenHands/OpenHands",
     "pydantic/pydantic",
     "qubvel-org/segmentation_models.pytorch",
+    "run-llama/llama_index",
     "verl-project/verl",
     "zhayujie/CowAgent"
   ]

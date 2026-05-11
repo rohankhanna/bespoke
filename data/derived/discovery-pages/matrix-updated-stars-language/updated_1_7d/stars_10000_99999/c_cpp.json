@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 84,
-    "concepts": 98,
-    "observations": 98,
-    "repos": 9,
-    "terms": 98
+    "components": 63,
+    "concepts": 80,
+    "observations": 80,
+    "repos": 8,
+    "terms": 79
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "argotorg/solidity",
     "blender/blender",
-    "google-ai-edge/mediapipe",
     "google-deepmind/mujoco",
     "isl-org/Open3D",
     "jqlang/jq",

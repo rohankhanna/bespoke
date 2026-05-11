@@ -3,7 +3,7 @@
     "components": 3140,
     "concepts": 1485,
     "observations": 1487,
-    "repos": 305,
+    "repos": 306,
     "terms": 1460
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "acdlite/recompose",
@@ -34,6 +34,7 @@
     "animate-css/animate.css",
     "Anjok07/ultimatevocalremovergui",
     "antimatter15/alpaca.cpp",
+    "aosp-mirror/platform_frameworks_base",
     "apache/mxnet",
     "apple/ml-stable-diffusion",
     "aristocratos/bashtop",

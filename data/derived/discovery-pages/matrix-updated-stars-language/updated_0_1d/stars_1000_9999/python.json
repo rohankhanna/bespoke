@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 82,
+    "components": 83,
     "concepts": 83,
     "observations": 83,
-    "repos": 9,
+    "repos": 10,
     "terms": 83
   },
   "facet_version": 1,
@@ -12,16 +12,17 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
+    "aigc-apps/VideoX-Fun",
     "aws-cloudformation/cfn-lint",
     "Farama-Foundation/Minigrid",
     "fla-org/flash-linear-attention",
     "harbor-framework/harbor",
     "meta-pytorch/torchcodec",
     "meta-pytorch/torchtune",
+    "ogx-ai/ogx",
     "PrimeIntellect-ai/verifiers",
-    "redis/redis-om-python",
     "rllm-org/rllm"
   ]
 }

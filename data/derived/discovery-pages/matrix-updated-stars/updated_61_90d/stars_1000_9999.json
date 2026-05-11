@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2058,
-    "concepts": 1326,
-    "observations": 1328,
-    "repos": 271,
-    "terms": 1323
+    "components": 2071,
+    "concepts": 1327,
+    "observations": 1329,
+    "repos": 270,
+    "terms": 1324
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2ndalpha/gasmask",
@@ -30,6 +30,7 @@
     "akheron/jansson",
     "akuity/awesome-argo",
     "aliyun/aliyun-oss-java-sdk",
+    "allan2/dotenvy",
     "AmberSahdev/Open-Interface",
     "amebalabs/TRex",
     "analysis-tools-dev/dynamic-analysis",
@@ -93,7 +94,6 @@
     "django/asgiref",
     "docker/for-mac",
     "dop251/goja",
-    "dspinellis/latex-advice",
     "dtolnay/cargo-expand",
     "duke-git/lancet",
     "dwyl/learn-json-web-tokens",
@@ -214,7 +214,6 @@
     "python-semantic-release/python-semantic-release",
     "pyusb/pyusb",
     "qix-/better-exceptions",
-    "QwenLM/Qwen-Image",
     "r-lyeh/single_file_libs",
     "rails/tailwindcss-rails",
     "randy3k/radian",

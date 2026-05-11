@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2658,
-    "concepts": 1518,
-    "observations": 1527,
-    "repos": 384,
-    "terms": 1520
+    "components": 2661,
+    "concepts": 1521,
+    "observations": 1530,
+    "repos": 385,
+    "terms": 1523
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "2KAbhishek/tmux2k",
@@ -117,6 +117,7 @@
     "Dao-AILab/causal-conv1d",
     "Dao-AILab/fast-hadamard-transform",
     "DarthAffe/StableDiffusion.NET",
+    "dashbitco/nimble_options",
     "dbeley/awesome-lemmy",
     "deepbeepmeep/mmgp",
     "devkitPro/libctru",

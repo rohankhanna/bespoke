@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 913,
-    "concepts": 1033,
-    "observations": 1033,
+    "components": 917,
+    "concepts": 1038,
+    "observations": 1038,
     "repos": 119,
-    "terms": 1025
+    "terms": 1030
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/openexr",
     "AcademySoftwareFoundation/OpenImageIO",
@@ -81,7 +81,6 @@
     "liuliu/ccv",
     "llvm/torch-mlir",
     "luben/zstd-jni",
-    "LuisaGroup/LuisaCompute",
     "meetecho/janus-gateway",
     "mhammond/pywin32",
     "microsoft/DirectML",
@@ -115,6 +114,7 @@
     "samtools/samtools",
     "SchedMD/slurm",
     "sparkle-project/Sparkle",
+    "stack-of-tasks/pinocchio",
     "stephenberry/glaze",
     "Taywee/args",
     "the-tcpdump-group/libpcap",

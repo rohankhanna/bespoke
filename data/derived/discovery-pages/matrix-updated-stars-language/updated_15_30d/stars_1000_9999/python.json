@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1938,
-    "concepts": 2246,
-    "observations": 2253,
-    "repos": 288,
-    "terms": 2252
+    "components": 1957,
+    "concepts": 2265,
+    "observations": 2272,
+    "repos": 289,
+    "terms": 2269
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "a2aproject/a2a-python",
     "abseil/abseil-py",
@@ -114,6 +114,7 @@
     "googleapis/python-genai",
     "GoogleCloudPlatform/agent-starter-pack",
     "guaguastandup/zotero-pdf2zh",
+    "hacs/integration",
     "haosulab/ManiSkill",
     "hhatto/autopep8",
     "HIPS/autograd",
@@ -254,9 +255,9 @@
     "pytorch/torchtitan",
     "pytorch/tutorials",
     "qdrant/fastembed",
-    "RapidAI/RapidOCR",
     "rapidfuzz/RapidFuzz",
     "raspberrypi/documentation",
+    "RDFLib/rdflib",
     "RoboTwin-Platform/RoboTwin",
     "ronf/asyncssh",
     "rthalley/dnspython",

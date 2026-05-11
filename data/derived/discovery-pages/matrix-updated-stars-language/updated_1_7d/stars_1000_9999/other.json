@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 289,
-    "concepts": 350,
-    "observations": 351,
-    "repos": 37,
-    "terms": 349
+    "components": 269,
+    "concepts": 318,
+    "observations": 318,
+    "repos": 35,
+    "terms": 317
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T05:49:39.283420+00:00",
+  "generated_at": "2026-05-11T07:58:46.643172+00:00",
   "repo_ids": [
     "agenda/agenda",
     "all-contributors/allcontributors.org",
@@ -23,7 +23,6 @@
     "DandelionSprout/adfilt",
     "datalevin/datalevin",
     "dotnet/reactive",
-    "dotnet/Silk.NET",
     "easylist/easylist",
     "firebase/flutterfire",
     "foundry-rs/forge-std",
@@ -38,7 +37,6 @@
     "microsoft/PhiCookBook",
     "minad/consult",
     "mrcjkb/rustaceanvim",
-    "nvim-flutter/flutter-tools.nvim",
     "nvim-mini/mini.nvim",
     "nvim-tree/nvim-web-devicons",
     "okd-project/okd",
